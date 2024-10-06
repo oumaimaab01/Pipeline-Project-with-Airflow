@@ -27,7 +27,7 @@ Analyzing the interactions and dynamics of YouTube channels is crucial in the cu
 
 
 ## Project Architecture
-
+<img src="project architecture.png" alt="Project Architecture Diagram" />
 
 ## Built With
 
