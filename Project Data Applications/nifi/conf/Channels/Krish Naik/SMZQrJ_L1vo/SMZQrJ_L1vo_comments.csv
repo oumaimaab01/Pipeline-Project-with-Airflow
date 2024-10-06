@@ -1,0 +1,189 @@
+author,updated_at,like_count,text,public
+@palanaa,2024-05-27T22:00:08Z,0,"Krish, - you didn't explain how softmax is calculated - in this case 112 (0.88) 96 (0.12) - how did you come to this number?",True
+@Rider12374,2024-05-27T06:14:22Z,0,Thanks krish don!!!,True
+@yakubsadlilseyam5166,2024-05-12T10:32:38Z,0,In which session Krish discussed about encoder and decoder? Someone please mention it,True
+@waitingfordeath8326,2024-05-08T19:47:15Z,0,Pls watch Transformers by 3Blue One Brown. a mind boggling animation of how Chat Gpt Transformers work.,True
+@Mr.AIFella,2024-05-05T08:20:16Z,0,Why 64? The correct answer is not a hyperparameter! It's because the dimensionality of data divided by number of head ~> so 512/8 (heads) =64,True
+@vamshi5745,2024-04-26T10:10:22Z,0,"you are so much stupid, you frequently sucking jay jay jay,,,,why the hell man,u can say directly i cant explain this just read jay blog",True
+@vamshi5745,2024-04-26T06:59:21Z,0,"truely bro learn how to teach,,,please,,,,",True
+@jaytube277,2024-04-21T13:41:46Z,0,"Thank you Krish for making such a great video. Really appreciate your hard work. One thing I have not understood here is that where is the loss getting calculated? Is it happening on the multiple heads or at the encoder decoder attention layer. What I am assuming is that while we are training the model, the translations will not be accurate and we should get some loss which we will try to minimize but I am not understanding where is that comparison is happening?",True
+@anoopitiss,2024-04-13T13:38:23Z,1,"Any one in 2024, watching and learning from Krish",True
+@faiqqazi1729,2024-04-03T16:26:12Z,0,Bc aik lafz samaj nai aaya,True
+@shanthan9.,2024-03-20T07:15:28Z,0,"Every time I get confused or distracted while listening to the Transformers, I have to watch the video again; this is my third time watching it, and now I understand it better.",True
+@madhurendranathtiwari9465,2024-03-14T07:15:39Z,0,You haven't subscribed also and saying why he has so less subscribers 🤣🤣,True
+@susdoge3767,2024-02-19T12:51:20Z,0,diffusion please!,True
+@swapnilsurushe250,2024-02-04T16:03:45Z,0,Thanks,True
+@kiran5918,2024-01-30T17:34:58Z,0,Wow what an explanation of transformers.. perfect for us.. it aligns with the way we r taught at school…,True
+@KumR,2024-01-21T14:36:32Z,0,1,True
+@lakshmigandla8781,2024-01-16T04:09:53Z,0,Clear explaining,True
+@manikaggarwal9781,2024-01-07T17:24:55Z,0,superbly explained,True
+@fun7939,2024-01-04T15:56:50Z,0,how to calculate softmax value?,True
+@vivekyadav-zl5dl,2024-01-01T07:02:41Z,0,"It looks like you are too confused in this session, not confident giving each answer of comments. But hats off to your good effort.",True
+@RanjitSingh-rq1qx,2023-12-19T10:20:52Z,0,"Video was so good, i understand each and every thing just except only decoder side .",True
+@Ram-oj4gn,2023-12-19T02:25:47Z,0,great explanation.. I understood Transformers now..,True
+@markr9640,2023-12-12T14:56:00Z,0,Very well explained Sir! Thank you.,True
+@sayantikachatterjee5032,2023-12-01T06:05:07Z,0,at 58.49 it is told that if we increase no of heads it will give more importance to different words. so 'it' can give more importance to 'street' also. so between 'The animal' and 'street' which word will be more prioritized?,True
+@user-ri5gw3ty1y,2023-11-30T23:27:27Z,0,why will output decoder choose only the correct words. Should have given example about what happens if some wrong word is guessed by the model.,True
+@user-ri5gw3ty1y,2023-11-30T23:01:22Z,0,If v1 and v2 are summed both the sums will become the same.,True
+@bruceWayne19993,2023-11-24T15:16:57Z,0,thank you🙏,True
+@ganeshkshirsagar5806,2023-11-18T11:48:39Z,0,Thank you so much sir for this superb session.,True
+@learnvik,2023-11-08T03:15:29Z,0,"thanks, Question: in step 1 (30:52), what if the randomly initialized weights have the same value during the start? then all resulting vectors will have same values.",True
+@sujithsaikalakonda4863,2023-11-04T07:16:48Z,0,Very well explained. Thank you sir.,True
+@mayurpatilprince2936,2023-10-19T19:59:49Z,1,"Why they multiply each value vector by the softmax score because they want to keep intact the values of the all word(s) and they want to focus on, and drown-out irrelevant words (by multiplying them by tiny numbers like 0.001, for example) ... they wanted to immerse whatever that sentence has irrelevant words ...",True
+@mayurpatilprince2936,2023-10-19T19:48:03Z,0,"Root of dk is nothing but dimension of the key vectors which leads to having more stable gradients ... Why we should use ? They have created Query vector, a Key vector, and a Value vector by multiplying the embedding by three matrices that they trained during the training process, and we can notice that these new vectors are smaller in dimension than the embedding vector. Their dimensionality is 64 because it provides stable gradients ....",True
+@pavantripathi1890,2023-10-16T16:07:11Z,0,Thanks to jay alamaar sir and you for the great explanation.,True
+@pranthadebonath7719,2023-09-27T16:19:32Z,0,"Thank you, sir, that's a nice explanation. also thanks to Jay Alammar sir.",True
+@mequanentargaw,2023-09-18T04:52:06Z,0,Very helpful! Thank you all contributors!,True
+@muraki99,2023-09-17T19:25:55Z,0,Thanks!,True
+@nim-cast,2023-09-04T22:31:43Z,6,"Thanks for your fantastic LLM/Transformer series content, and I admire your positive attitude and support for the authors of these wonderful articles! 👏",True
+@ibrahimnadeem1064,2023-08-25T13:30:24Z,0,This video not in Urdu?,True
+@apoorvneema7717,2023-08-18T14:37:39Z,0,awesome bro,True
+@kavitathakur6678,2023-08-16T13:15:36Z,0,Sir could you suggest me which algorithm we can use to create nlp model which can compare response from chatbot with it's own response,True
+@maaleem90,2023-08-03T19:34:25Z,0,"Researchers go with the quote that "" Try with as many possible way if something works don't touch it """,True
+@paneercheeseparatha,2023-07-19T10:30:34Z,0,Why do you say that the inbetween blocks of resnet are not important??,True
+@paneercheeseparatha,2023-07-19T10:20:06Z,0,You really skip the maths too much.. you got to luk into that..,True
+@vishnusit1,2023-07-13T12:11:57Z,0,"Its not great explanation you just read out jay works,",True
+@MrKB_SSJ2,2023-07-12T07:19:24Z,0,45:00,True
+@captiandaasAI,2023-07-12T03:19:32Z,0,great!!!!!!! Krish,True
+@MrKB_SSJ2,2023-07-10T19:39:54Z,0,16:00,True
+@prateekcaire4193,2023-07-09T01:22:55Z,0,mad respect for WolfRage at 36:19,True
+@pavangoyal6840,2023-07-04T20:23:07Z,0,Nice. Too many adds,True
+@mdmamunurrashid4112,2023-07-02T12:42:56Z,0,"Please make videos on BERT , dna2vec",True
+@shrikanyaghatak,2023-07-02T09:03:55Z,1,I am very new to the world of AI. I was looking for easy videos to teach me about the different models. I cannot imagine that I was totally enthralled by this video as long as you taught. You are a very good teacher. Thank you for publishing this video free. Thanks to Jay as well for simplifying such complex topic.,True
+@mdmamunurrashid4112,2023-07-02T07:26:17Z,0,You are amazing as always ! <3,True
+@sachinborgave8094,2023-06-25T21:01:20Z,0,Bert video,True
+@muhammadmuzammil7592,2023-05-27T13:47:54Z,0,"What does it mean ""head""?",True
+@praveenkumarchandaliya1900,2023-05-10T18:17:41Z,0,Better video compare to this video with all what and why answer of question related to this Transformer https://www.youtube.com/watch?v=g2BRIuln4uc,True
+@mohammadmasum4483,2023-04-25T21:36:42Z,10,"@ 40:00 why we consider 64? - It is based on the how many multi head attention you want to apply. We used embedding size for each word  = 512 and want to apply 8 multi head self attention; there fore for each attention we are using (512/8 =) 64 dimensional Q, K, V vector. So that, when we concatenate all the multi attention heads afterward, we can achieve the same 512 dimensional word embeddings which will be the input to the feed forward layer.   Now, for instance, if you want 16 multi attention head, in that case you can use 32 dimensional Q, K, and V vector. My opinion is that, the initial word embedding size and the number of multi attention head are the hyperparameters.",True
+@nareshmalviya5232,2023-04-24T10:22:05Z,0,can you explain this whole topic in.......some parts video. because we are confused for lot of info,True
+@snehamandal5376,2023-04-08T18:03:44Z,0,"sir I have a question , it seems like the transformer model requires lots of computational power , but as we know our phones do not have so much powerful gpu s or cpus , then how does chatgpt works so flawlessly on our mobiles as well??🤔🤔🤔",True
+@prekshagampa5889,2023-04-06T14:50:48Z,0,Thanks a lot for detailed explaination. Really appreciate your effort for creating these videos,True
+@utkarshsingh2675,2023-04-02T11:23:39Z,0,thanks for such free contents!!...u r awesome sir!,True
+@lshagh6045,2023-04-01T14:26:33Z,0,"Very huge and tremendous effort, million thanks for your dedication",True
+@avijitbalabantaray5883,2023-03-28T07:19:31Z,0,THank you Krish and Jay for this work.,True
+@travel_for_life9727,2023-03-23T15:22:59Z,0,❤,True
+@tapabratacse,2023-03-16T06:07:52Z,0,superby you made the things  look so easy,True
+@mohammedbarkaoui5218,2023-03-07T21:59:23Z,0,You are the best 😇,True
+@Adil-qf1xe,2023-03-02T15:31:03Z,0,"How did I miss the subscription to your channel? Thank you so much for this thorough explanation, and hats off to Jay Alammar.",True
+@tshepisosoetsane4857,2023-02-27T12:28:24Z,0,"Yes this is the best video explaining these Models so far even non computer science people can understand what is happening , great work",True
+@dataflex4440,2023-02-11T15:44:04Z,0,Pretty good Explanation Mate,True
+@MrKhaledpage,2023-02-09T14:08:13Z,0,So you're trying to explain something you don't understand!,True
+@sweela1,2023-02-08T11:46:20Z,1,"In my opinion,  At 40:00 the under root is taken for the purpose of scaling to normalize the value from larger value to be transformed to smaller value so that SoftMax function of these values can also be calculated easily. Dk is the dimension whose under root is taken to scale the values.",True
+@generationgap416,2023-01-27T17:59:34Z,0,The reason to divide by sq of k is to prevent a constant value of x. That x = 1/2 for values near x = 0 from the left or right f(x) approaches y = 1/2. Look at the shape of the sigmoid function.,True
+@aditiseetha1,2023-01-12T09:12:33Z,15,"Your content is amazing. But, you unnecessarily repeat the same thing again and again. I am watching your video at a playback speed of 2x.",True
+@ronakbhatt4880,2023-01-11T20:40:33Z,0,@41:23 😂,True
+@aarshp,2022-12-19T07:12:06Z,0,"at 51:40 he said multi head attention is used instead of single head attention, but he didn't explain what would be the input to the other 7 attention heads if our input matrix of words is given in to the 0th head.",True
+@bofloa,2022-12-14T20:57:54Z,1,"watching through this video, I can only conclude that the whole process is more of a Art than it is a science",True
+@apppurchaser2268,2022-12-13T07:45:01Z,0,"You are a really good teacher that always check your audiences weather they get the concept or not. Also, I appreciate your patience and the way you try to rephrase to have a better explanations.",True
+@md.shafaatjamilrokon8587,2022-11-07T20:18:23Z,0,just watched the full video!,True
+@wentaowang8622,2022-10-31T06:11:24Z,0,Very clear explanation. And Jay's blog is also amazing!!,True
+@sreevanthat3224,2022-10-18T19:20:34Z,0,Thank you.,True
+@salimtheone,2022-10-15T10:32:46Z,0,Z1=v1+v2.   Is the same as Z2 ?????!!!,True
+@desrucca,2022-09-22T16:50:21Z,1,"AFAIK Resnet is not like dropout, instead it brings information from the previous layer to the n_th layer by doing this, vanishing gradients are less likely to occur.",True
+@faezakamran3793,2022-08-27T20:00:47Z,3,"For those getting confused with 8 heads, all the words would be going to all the heads. It's not one word per head.  The X matrix remains the same only the W matrix would change in case of multi-head attention.",True
+@schachschach9119,2022-08-25T16:51:46Z,0,"25:05 what do you mean by ""it"" referring to ""too tired"". didn't get that",True
+@junaidiqbal5018,2022-07-04T05:03:56Z,1,"@31:45 If my understanding is correct, reson why we have 64, is because we we divide 512 into 8 equal heads. As we are computing the dot products to get the attention vaue, if we do the dot product of 512 embedding dimension length it will not only be computationally expensive but also the fact that we will get only one relation between the words . Taking advantage of parallel computation we divide 512 into 8 equal parts. this is why we call it as multi head attention. This way its computationally fast and we also get 8 different relation between the words. (FIY Attention is basically a relation between the words ). Any way Good work on explaining the architecture krish.",True
+@NitishKumar-fl1bg,2022-07-03T18:31:04Z,0,please make a video on implementation of Video Summarization With Frame Index Vision Transformer.,True
+@ewnetuabebe5059,2022-06-28T09:14:18Z,0,Thank you For your amazing tutorial  but is Transformer Work For climate prediction/Numerical Regression problems??????????????????????//,True
+@adwait92,2022-06-10T16:02:26Z,3,"For the doubt at 40:00, the attention technique used in the paper is dot-product attention (refer page 2, section 3.2.1, para 2).   So for larger values of d_k (dimensions of query, key and value), the dot product might grow very high in magnitude. Also, keep in mind that the layer following the attention is a Softmax. So for higher values of x, the softmax output will tend towards 1; hence, the resulting gradients (during backpropagation) would be very close to 0. This would eventually mean the model doesn't learn as the weights don't get updated.",True
+@dhirendra2.073,2022-06-07T04:32:16Z,0,Superb explanation,True
+@Natasha-re1kt,2022-04-24T23:56:29Z,0,basically newbies are accepting any nonsense that this guy explains,True
+@Natasha-re1kt,2022-04-24T22:13:50Z,1,"There are so many problems with this video. 1) divide by root Dk is to reduce the dimension back to its original 64 because multiplication had increased it in previous steps 2) Values are not being used because it has to be used because it is there. What rubbish. Values was created for a purpose to induce the original vector values after softmax to derive at the result, similar to one in information retrieval system , 3) resnet explanation that he gave is incorrect, input is passed not to skip in between layer but to strengthen the output due to vanishing gradient problem 4) this guy got cocky when someone asked what is neural network. I mean whats the big deal? may be that guy came to the session for the first time and asking very basic question. Did Krish know about neural network few years ago? Noooo?. If inspite of following blog written in simple english, if you did not understand the whats inside the algorithm  then where are getting audacity to post it on youtube???? Few more corrections- there is no such word as ""farrrar"". it farther. also please dont butcher french. its a beautiful language. the sentence is pronounced as ""Ja sui ethudian""",True
+@hudaalfigi2742,2022-04-19T22:24:24Z,0,i really want to thank you  for your nice  explanation actually i could not be able to understsnd it befor watchining this video,True
+@michaelpadilla141,2022-04-03T04:37:48Z,0,Superb. Well done and thank you for this.,True
+@thepresistence5935,2022-03-29T15:05:51Z,1,Session starts at 9:10,True
+@ranjanarch4890,2022-03-10T11:04:23Z,0,This video describes the inference of the Transformer. Can you do a video on training Architecture? I suppose we would need to give both languages datasets for training.,True
+@dandyyu0220,2022-03-06T12:59:16Z,5,"I cannot express the amount of appreciation enough of your videos, especially NLP deep learning related topics! They are extremely helpful and so easy to understand from scratch! Thank you very much!",True
+@althafjasar6395,2022-03-02T06:29:35Z,0,"Hi Krish ,great session , just wanted to know have you uploaded session on Bert",True
+@GamerBoy-ii4jc,2022-02-23T16:32:27Z,0,plzzz upload video on practical of transformers usnig hugging face,True
+@shahveziqbal5206,2022-02-04T09:45:29Z,1,Thankyou ❤️,True
+@AshishBamania95,2022-02-01T22:08:25Z,0,Thanks a lot!,True
+@gouravnaik3273,2022-01-23T06:53:17Z,0,"sir why are we using multiple head attention,  because while training each head will produce the same weightage according to the loss and optimization why cant we have the single head which will get optimized",True
+@elirhm5926,2022-01-18T10:47:38Z,0,I don't know how to thank you and jay enough!,True
+@kiran082,2022-01-11T19:03:59Z,0,Great Explanation,True
+@smilebig3884,2022-01-01T16:39:55Z,0,Very underrated video... this is super awesome explanation. I m watching and commenting 2nd time after a month.,True
+@User-nq9ee,2021-12-31T06:44:47Z,0,Thank you so much ..,True
+@developmentwithtariq,2021-12-30T05:33:38Z,0,yes i understand,True
+@pranjalkirange,2021-12-13T17:57:19Z,0,Bert kaha hai?waiting for it from past one year.,True
+@monalisanayak2299,2021-12-01T12:02:32Z,1,"Can you do a similar session on CoTr: Efficiently Bridging CNN and Transformer for 3D Medical Image Segmentation? It will be helpful.",True
+@sagaradoshi,2021-11-18T16:02:58Z,0,"Thanks for the wonderful explanation .. For the decoder in the 2nd time instance we passed word/letter 'I', then in 3rd time instance do we pass both the words 'I' and 'Am' or only the word 'Am' is passed? Similarly for the 3rd time instance do we pass the words 'I', 'am' and 'a' or just the word/letter 'a' is passed?",True
+@ashishjindal2677,2021-10-20T12:44:02Z,0,"Wonderful explanation of blog, thanks for introducing  with jay. Your teaching style is awesome.",True
+@harshjain-cc5mk,2021-10-05T18:22:59Z,0,"What is the basic requirement one should have to understand transformer, currently I am in my final year and willing to do a project on this. I do have knowledge of machine learning, neural networks and just started to learn RNN and CNN. Any guidance and suggestions are welcome.",True
+@kiranchowdary8100,2021-10-05T09:32:06Z,0,"krish at 1:12:28   "" so it is similar to sequential   sequenceeedsbaajnekhadbirhbfsrifhbsrifbrgirgbrgibgietgiuggihbtbisirehoruhrwgsL  yyyEEESSSS""😂😂 jokes apart. the tutorial is really helpful krish thanks for making",True
+@happilytech1006,2021-10-03T06:03:55Z,0,Always helpful Sir!,True
+@thepresistence5935,2021-09-30T12:54:46Z,0,Took  More than 5 hours to understand this. Thanks Krish wonderful explanation.,True
+@zainaqubbej7457,2021-09-21T06:43:18Z,0,Why do I keep seeing state of art mentioned everywhere? what does it refer to as what we are doing with transformers here? ... Please someone explain ❤️🙏🏼,True
+@MrChristian331,2021-09-18T06:28:45Z,0,Great presentation! I understand it fully now I think.,True
+@MrChristian331,2021-09-18T04:42:14Z,0,where are the weights being generated randomly?? I assume it's some sort of code function doing it?,True
+@suddhasatwaAtGoogle,2021-09-17T17:33:01Z,36,"For anyone having a doubt at 40:00 as to why we have taken a square root of 64 is because, as per the research it was mathematically proven to be the best method to keep the gradients stable! Also, note that the value 64, which is the size of the Query, Keys and Values vectors, is in itself a hyperparameter which was found to be working the best. Hope this helps.",True
+@photospere5757,2021-09-13T23:03:05Z,0,"After watching this video, the more I admire my God  because the more I realize how sophisticated human brain",True
+@madhu1987ful,2021-09-11T17:53:14Z,0,Jay alammar blog is of course awesome. But you made it even more simpler while explaining. Thanks a lot,True
+@chd9841,2021-09-10T16:20:34Z,0,I cannot explain how I sat for 1.5 hours . I wanted to run away so many times...but I hoped something would enter my mind...,True
+@premranjan4440,2021-09-10T16:19:31Z,0,How 512 dimension matrix can be changed into a 64 dimension matrix? Can anyone please explain?,True
+@amarjeetkushwaha4258,2021-09-06T11:03:40Z,0,Adding v1 and v2 make z1 and z2 same always,True
+@adilgun2775,2021-08-30T22:10:23Z,0,Are you sure that you understood the whole stuff??,True
+@shubheshswain5480,2021-08-12T09:23:58Z,0,Can you have another video on deploying this trained model,True
+@chandrakantthakur2054,2021-08-07T10:43:46Z,0,"Sir, please upload video on Bert.",True
+@sarrae100,2021-08-01T04:43:59Z,0,"Excellent blog from Jay, Thanks Krish for introducing this blog on ur channel !!",True
+@BINARYACE2419,2021-07-17T03:58:07Z,0,Well Explained Sir,True
+@abrarfahim2042,2021-07-14T23:11:27Z,0,Thank you Krish. I learned so many things from your video.,True
+@smilebig3884,2021-07-14T19:10:22Z,1,"So many dumb questions :D I can understand Krish, how much u had to endure.",True
+@MaheshK-gc1sv,2021-06-25T10:32:31Z,0,"could not understand weight update ,  because here  ANN is feedforward and krish mentioned that weight wil be updated by back propagtion , so where is that backprop happening",True
+@TusharKale9,2021-06-13T13:48:10Z,1,Very well covered GPT-3 topic. Very important from NLP point of view. Thank you for your efforts.,True
+@ss-dy1tw,2021-06-12T19:47:23Z,1,"Krish, I really see the honesty in you man, lot of humility, very humble person. In the beginning of this video, you gave credit to Jay several times  who created amazing blog for Transformers. I really liked that. Be like that.",True
+@louerleseigneur4532,2021-06-08T01:07:28Z,0,After watching your lecture it's more clear to me Thanks Krish,True
+@BalaguruGupta,2021-06-03T13:37:02Z,0,"The layer normalization does (X + Z) here X is input Z is result of self attention calculation. You mentioned when the Self attention doesn't perform well, the self attention calculation will be skipped and jumps to Layer Normalization, hence the Z value will be 'EMPTY' (Please correct me here, if I'm wrong). In this case the layer normalization happens only on X (the imput). Am I correct?",True
+@underlecht,2021-05-29T20:52:59Z,2,"I love your patience how many times you go around explaining things until they get clear even for such dumb guys as me. BTW residual connection are not due some layers are not important and we have to skip them, it is for to solve the vanishing gradients problem.",True
+@ayushrathore8916,2021-05-29T15:25:02Z,0,After the encoder. Is there any repository like which store all the output of encoder and then one by one it will pas to decoder to get one on one decoded output!,True
+@armingh9283,2021-05-15T15:51:26Z,0,Thank you sir. It was awsome,True
+@vishwasreddy6626,2021-05-13T21:25:53Z,0,How do we get K and V vectors from encoding output. It would be helpful if you can explain ot with dimensions,True
+@parmeetsingh4580,2021-05-10T20:51:55Z,1,"Hi Krish, great session. I have a question - the Z we get after the self-attention block of the encoder, is it interpretable? that means if we could figure out by just looking at Z what results does the multi-head self-attention block gives?  Kindly help me out with this.",True
+@skipintro9988,2021-05-09T04:54:02Z,2,I think the 19 dislikes are from the people who came here without basic neural network knowledge :-D,True
+@tarunbhatia8652,2021-05-06T16:04:24Z,0,"Thanks Krish, Awesome session, keep doing the great work!",True
+@roshankumargupta46,2021-05-03T13:23:44Z,43,"This might help the guy who asked why we take the square root and also for other aspirants :    The scores get scaled down by getting divided by the square root of the dimension of query and key. This is to allow for more stable gradients, as multiplying values can have exploding effects.",True
+@BhuwanBhatta,2021-04-30T03:08:38Z,2,"9:50 , that's when the actual video starts",True
+@syedalinaqi6274,2021-04-29T01:53:01Z,0,Bert Bert Bert. please make a video on bert as well. both the theory and practical implementation.,True
+@praloysarker7639,2021-04-12T03:52:47Z,0,"Will you please tell, How we can get queries, keys and values vectors from one word???",True
+@kameshyuvraj5693,2021-04-08T16:30:44Z,0,sir the way you explained the topics is ultimate sir,True
+@prasad5164,2021-04-03T02:14:12Z,0,I really admire you now. Just because you give the credit to the deserving at the beginning of the video.   That attitude will make you a great leader. All the best!!,True
+@KunalSwami,2021-03-27T07:10:42Z,1,"Please don't keep repeating things and go up and down. You can explain things by sticking to the point and systematic.  Also, in between explaining, you often deviate and start praising the blog and paper again. Just do this once in the beginning and then stick to explanation.",True
+@Want_to_escape,2021-03-21T06:11:13Z,12,"Krish is a hard working person,  not for himself but for our country in the best way he could...We need more persons like him in our country",True
+@athiragopalakrishnan4316,2021-03-18T10:10:58Z,0,"Sir, How can I contact you? Your Fb/LinkedIn/Instagram sites are not reachable.",True
+@jinalshah5352,2021-03-11T09:49:55Z,0,lot of timepass during initial time of session... come to the topic...,True
+@aqibfayyaz1619,2021-02-19T16:05:51Z,0,Great Effort. Very well explained,True
+@zohaibramzan6381,2021-02-12T12:18:41Z,1,Great to overcome confusions. I hope next to get hands on Bert.,True
+@Deepakkumar-sn6tr,2021-01-31T14:55:41Z,0,Great Session!....looking forward to Transformer Based recommender system,True
+@mrudhulraj2824,2021-01-31T06:05:58Z,1,"i am still curious what is key,query and value?",True
+@sheikhmuhammadsaqib3387,2021-01-29T14:36:34Z,0,first time 90% understand..,True
+@joydattaraj5625,2021-01-09T04:47:32Z,0,Good job Krish.,True
+@121MrVital,2021-01-02T17:57:27Z,5,"Hi Krish, When you gonna make a video on ""Bert""  with practical implementation ??",True
+@harshavardhanachyuta2055,2020-12-23T18:42:09Z,0,Thank you. Your teaching and jay's blog combination pull this topic. I like the way you are teaching. Keep going.,True
+@digitalmbk,2020-12-11T13:25:09Z,2,My MS SE thesis completion totally depends on your videos. Just AWESOME!!!,True
+@abhaychinchole3482,2020-11-24T18:47:15Z,0,"krish,please make video on semantic similarity model using BERT",True
+@user-or7ji5hv8y,2020-11-24T12:28:34Z,2,"thank you, appreciate your time going through this material",True
+@toulikdas3915,2020-11-24T10:28:08Z,0,More this kind of videos on Research paper explanations and advanced concepts of deep learning and reinforcement learning sir.,True
+@neelambujchaturvedi6886,2020-11-20T18:43:21Z,2,"Hey Krish, Had a quick question related to the explanation at 1:01:07 about positional encodings. How do we exactly create those embeddings, as in the paper the authors have used sine and cosine waves to produce these embeddings, I could not understand  the intuition behind this, could you please help me understand this part, Thanks in advance.",True
+@harshitjain4923,2020-11-20T14:21:42Z,12,"Thanks for explaining Jay's blog.  To add to the explanation at 39:30, the reason for using sqrt(dk) is to prevent the problem of vanishing gradient as mentioned in the paper. Since we are applying softmax on Q*K and if we consider a high dimension of these matrices, it will produce a high value which will get transformed close to 1 after softmax and hence leads to a small update in gradient.",True
+@Schneeirbisify,2020-11-12T09:45:30Z,1,"Hey Krish, thanks for the session. Great explanation! Could you please suggest if you have already uploaded session on Bert? And if not do you have still on plans? Would be very interesting to deep dive into practical application of Transformers.",True
+@raghavsharma6430,2020-11-12T02:35:46Z,0,"krish sir, it's amazing!!!!",True
+@MuhammadShahzad-dx5je,2020-11-11T20:47:36Z,7,"Really nice sir, looking forward to Bert Implementation 😊",True
+@MayankKumar-nn7lk,2020-10-28T20:17:49Z,0,"Answer to why we are diving by the square root of dimension. basically, we are finding the similarity between the query and each key, there are different ways to get the similarity like dot product or scaled dot product so basically, here we are taking scaled dot product to keep the values in a fixed range",True
+@mubashiran2003,2020-10-28T16:40:25Z,0,Thank you sir..,True
+@rohanpurkaith155,2020-10-28T10:32:29Z,0,"Great videos and excellent motive from your side explaining the difficult stuff in a simplified manner, keep doing what you are doing. Your face looks as pale as a zombie if you can change the color that would improve  the quality of your video.",True
+@shashireddy7371,2020-10-09T08:31:41Z,0,"Sir, is no of attention head means no of encoders? You have taken 6 encoders then how you will be able to get 8 attention head corresponding to 8  Z outputs",True
+@soumyadrip,2020-10-07T20:54:36Z,0,discord link is broken,True
+@ruchisaboo29,2020-10-01T06:49:59Z,3,Awesome explanation.. when will you post BERT video ?  waiting for it and if possible please cover GPT-2 as well.. Thanks a lot for this amazing playlist.,True
+@jeeveshkataria6439,2020-09-18T09:47:19Z,22,"Sir, Please release the video of Bert. Eagerly waiting for it.",True
+@jimharrington2087,2020-09-15T09:57:29Z,0,"Great effort Krish, Thanks",True
+@doyourealise,2020-09-09T12:32:20Z,0,which software you are using to draw?,True
+@gurdeepsinghbhatia2875,2020-09-07T07:06:58Z,0,SIR ARE WE USING TEACHER FORCING  TECHNIQUE IN THE INPUT SIDE OF DECODER ???,True
+@gurdeepsinghbhatia2875,2020-09-07T01:12:05Z,1,"sir thanks a alot , mza agia sir , your way of teaching with so humble and honest and most important patience , awesome video sir, too gud",True
+@clivefernandes5435,2020-09-04T10:18:51Z,1,"Nice video , if anyone is interested in learning about the attention mechanisms from scratch can refer this repo https://github.com/evilc3/NLP_V2",True
+@subhashbayal577,2020-09-04T09:52:26Z,0,"Hello sir,  First of all thank so much for videos ☺️☺️. I have tried to join your channel but couldn't join because of payment process was failed . I would be happy if please help in it ?",True
+@shweta5260,2020-09-04T09:25:12Z,2,Hello sir i passed 12th now i want to become data scientist which coarse should i take ????,True
+@abutalhakhan4618,2020-09-04T06:34:25Z,0,concerning about the data science and programming what u have to say on the online degree course by iit madras,True
+@akhilgangavarapu9728,2020-09-04T06:30:18Z,3,Million tons appreciation for making this video. Thank you soo much for your amazing work.,True
+@hiteshyerekar9810,2020-09-04T06:27:49Z,2,Great Session Krish. Because of Research paper I understand things very easily and clearly.,True
+@anusikhpanda9816,2020-09-03T16:57:50Z,27,"You can skim through all the youtube videos explaining transformers, but nobody comes close to this video. Thank you Sir🙏🙏🙏",True
+@DevanshKhandekar,2020-09-03T16:55:37Z,1,Why softmax and not normalisation ? A simple but most effective question to   test our basic understanding about the ml models in general,True
+@HimanshuKanodia,2020-09-03T15:34:05Z,1,"Sir, I have been working on Dell Boomi Integration tool for 1 year after graduation, please suggest how it can be helpful in data science.",True

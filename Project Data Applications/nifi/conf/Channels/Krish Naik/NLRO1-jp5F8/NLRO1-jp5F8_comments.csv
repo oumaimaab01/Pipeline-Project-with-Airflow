@@ -1,0 +1,163 @@
+author,updated_at,like_count,text,public
+@hemavarshinikommoju8885,2024-05-23T04:53:07Z,0,What is boosting,True
+@sheinoo,2024-04-29T06:47:58Z,0,"First you said only the records got errors will populated to the next model but last you said the selection works n times where each time one record being selected and on the next DT there will be n records as the first DT, so which is correct ? can someone clarify this part",True
+@user-pq5cp7gr2i,2024-02-08T02:50:44Z,0,You just adaboosted my confidence my guy,True
+@ashutoshbhasakar,2023-11-06T03:01:19Z,0,Krish Bhaiya Amar Rahe !!,True
+@RahulSingh-up8jo,2023-08-15T05:13:27Z,0,8:43 isn't it the third record whose wieght will increase? and not the second record?,True
+@aditiasharma3404,2023-07-29T10:44:09Z,0,How it will run (10:38) to get different values i am not able to understand,True
+@ananthakrishnank3208,2023-06-16T14:39:50Z,0,11:30 Isn't repetition of same dataset not good in ML training?,True
+@pranavreddy9218,2023-05-26T17:02:12Z,0,"Please complete the full problem sir, everywhere mentioning so and so, and closing the session...no one understood fully ADA boost from your session..",True
+@anupanthony5416,2023-05-18T05:30:14Z,0,"can someone telme when the wrong records are passed to the next model, it is passed as training data or test data?",True
+@smartaitechnologies7612,2023-04-30T05:14:48Z,0,nice  one. even me as trainer felt it better.,True
+@vineeshpydisetti2300,2023-03-26T11:12:08Z,0,Sir I need your help,True
+@chiranjeevibelagur2275,2023-03-23T03:50:30Z,0,"After the first iteration when you spoke about the buckets, post that your explanation became a little ambiguous. If you are considering the Gini impurities or the entropy whichever of them, you would still have the similar information gain and the same feature gets selected and that feature would still classify the records in the same way (just as the 1st iteration) and hence the misclassifications would still remain the same. I think you have to get a bit of clarity on that and then could explain about the iterations post updating weight what exactly happens differently so that the misclassifications might go a Lil less or chances of Miss classification goes a Lil down. Other than that everything is fine.",True
+@arshaachu6351,2023-03-17T16:02:48Z,0,Sir..thanku for your class really helpful to me.Can you explain how adboost in face detection.. If you will see my message pls reply,True
+@satyaajeet,2023-03-15T11:39:17Z,0,CJT - Condorcet Jury theorem will help in understanding how weak learners become strong learners.,True
+@gnavarrolema,2023-02-28T13:53:07Z,0,Thank you for this great explanation 👍,True
+@jasonbourn29,2023-02-15T11:36:26Z,0,"Thanks sir your vedios are great but ,one request please arrange it in order",True
+@vedant6460,2023-01-11T11:14:10Z,0,great,True
+@vedant6460,2023-01-11T11:14:06Z,0,thanks,True
+@rahulalshi1093,2022-12-09T17:36:12Z,1,"At 8:13 3rd record is incorrectly classified,  so shouldn't the updated weight value of 3rd instance be 0.349",True
+@shadiyapp5552,2022-11-12T15:15:33Z,0,Thank you♥️,True
+@aditiarora2128,2022-11-08T10:59:37Z,0,sir plz make vedios on how we can use adaboost with CNNs,True
+@mixhits7678,2022-10-28T15:32:33Z,0,https://www.youtube.com/watch?v=Gw7I5g9nD-I&ab_channel=MixHits,True
+@spandanghosh9744,2022-10-10T03:50:54Z,0,The second value should be 0.05 and the third should be 0.349 because 3rd value is wrongly predicted.  https://youtube.com/clip/UgkxMUCi5dFirodzOkKU_58CjsEhGUPrCCmu,True
+@arjunmanoharan5113,2022-09-23T07:22:34Z,0,Any reason why decision stumps are used?. Can't we use trees with more depth for each iteration?.,True
+@sergeypigida4834,2022-09-10T10:40:04Z,1,Hi Krish! Thanks for the quick and clear explanation. At 11:42 you missed one thing. When we got a new collection of samples we need give all samples equal weights again 1/n,True
+@SUNNYKUMAR-vk4ng,2022-09-04T06:40:42Z,1,"now i got better understanding of ensemble techniques, thanks sir",True
+@FunCodingwithRahul,2022-09-01T20:27:02Z,0,"Guys if you want to refresh your basic python knowledge requires for data science, check out my Numpy tutorial.. It is really would be a first step towards data science... https://www.youtube.com/watch?v=cQZVEW65WIU&t=1134s",True
+@anushachintapanti2269,2022-08-02T06:34:31Z,0,what is meant by base learners?,True
+@sonumis6626,2022-07-27T19:38:47Z,1,"Adaboost in summary: Unlike Random forest, Adaboost combines weaker learners (Decision Trees in a sequential manner) The decision trees (DT) in AdaBoost are single split/one depth on nature and are called decision stumps (DS) To develop a single base learner, it first compares information gain of each DT based on each of the feature and selects the DT with information gain/entropy/Gini impurities. This becomes the week learner. This method does not follow Bootstrapping. The number of decision stumps it will make will depend on the number of features in the dataset. Suppose there are M features then, Adaboost will create M decision stumps. Following are the steps in Adaboost:  1. A new sample weight matrix will be used to assign weight to each observation. for N number of records, the initial weight will be 1/N. 2. To generate the first base learner/week learner (BS), M decision stumps are generated for the M number of features. Based on their information gain, best DS is selected. 3. From this DS, total error (TE) is calculated based on the misclassification of samples by that DS. If total misclassification is T, TE=T/N where N is number of samples. 4. Based on TE, its performace score(PS) is calculated, PS= 1/2*log(base e)((1-TE)/TE) 5. Based on PS, new weights will be assigned to samples that are classified correctly and incorrectly. 6. New weight for incorrectly classified sample: old weight * (e**(PS)) 7. New weight for correctly classified sample: old weight * (e**(-PS)) 8. This will increase the weight of incorrectly classified samples and decrease the weight of correctly classified samples. Which means that the next BS classifier will have to give more importance in learning the incorrectly classified samples. 9.If the summation of the new weights are =! 1, we need to normalize the weight as : (new weight)/ summation of (all new weights) 10. Based on new weights, some buckets/ranges/classes of normalized weights are formed. These weights will be used to form the new sample set for classification be the next weak learner. 11. Based on some iterations for N number of times, and psudo randomly generated numbers between (0-1) the new samples are selected from the old sample list based on where it falls in the buckets of normalized weights. 12.The process between step (2-11) is repeated till the error reduces to the minimum. 13.During the testing of data, each data will be classified using the multiple BS, and a majority voting will be used to generate the final output.     ps: Feel free to correct me if I made any mistake..",True
+@vivekkumar-ij3np,2022-07-24T17:22:10Z,0,"How to decide, how much iteration we can perform to select randomly data points for second decision tree. Does it depends on no. of rows.  Plz reply someone.",True
+@bodybro9195,2022-07-16T06:53:04Z,0,its so painful to do these boosting on paper may teachers have mercy on us,True
+@guptarohyt,2022-07-14T19:25:43Z,0,How do you find if an instance is incorrectly classified? If the Algorithm knows it then why it doesn't classify correctly first time?,True
+@abhisekbehera9766,2022-06-13T14:20:22Z,1,Hi Krish  Awesome tutorial on Adaboost.... just one question i have: how to calculate total error and performance of stump in case of regression and how does ensemble happen in this case,True
+@raghavendras5331,2022-05-01T12:32:03Z,1,"@Krish Naik :  Thank you very much for the video. Concepts are clearly explained and it is simply Excellent. One thing I wanted to highlight is --- In the Adaboost, final prediction is not the mode of the prediction given by the stump's. It is that value, whose group's total performance say is high",True
+@sitarambiradar941,2022-04-27T08:55:25Z,0,One of the best explanatory  video of AdaBoost. thank you sir!!,True
+@ernestanonde3218,2022-04-03T13:46:35Z,0,I love you,True
+@prachiraol7645,2022-04-01T07:40:10Z,0,Can we use random forest as a base learner?,True
+@gokulp6119,2022-03-04T04:57:36Z,0,how can we get the code with an example,True
+@shaelanderchauhan1963,2022-02-22T06:43:45Z,2,"Question :   when Second Stump is created, after creating a new data set will we reinitialize the weights or use the previous weights which were updated? I also watched statquest video where weights were reinitialized as they were in Beijing .",True
+@shaelanderchauhan1963,2022-02-22T03:54:12Z,0,I know this is very rare that it will happen what if votes are 50 - 50 what will happen in this scenario?,True
+@michaelcornelisse117,2022-01-11T11:54:07Z,1,"Thanks for this explanation, it's the best I've come across! It really helped me understand the fundamentals :)",True
+@smritisingh9135,2021-12-26T12:55:41Z,0,"I had one doubt here for updating weights, as per ""Hands on Machine Learning with Scikit-Learn, Keras, Tensorflow"", the weight update rule is as if the prediction is same as actual then the weight is same as initial. So can you please confirm once on this?",True
+@shreyasnatu3599,2021-12-23T13:06:40Z,0,How does running N iterations will produce random no. between 0-1. Can anyone explain?,True
+@ashwinshetgaonkar6329,2021-11-18T05:40:35Z,0,thnaks for this accurate and energetic explaination,True
+@__-de6he,2021-11-04T08:37:34Z,1,"Unfortunately, there wasn't an explanation of an underlying idea. Just technical details.",True
+@HirvaMehta01,2021-10-26T17:49:23Z,0,the way you simplify things!! <3,True
+@prashanths4455,2021-10-19T04:49:23Z,0,U r too awesome Krish,True
+@ellentuane4068,2021-10-06T16:32:59Z,0,incredible as always !!!!,True
+@upendrakumar-ig2vm,2021-09-18T12:45:50Z,0,👍👍,True
+@SaurabhBhatt1,2021-08-21T22:10:54Z,0,Sir can you help me how to calculate power of log²(6),True
+@latasharan,2021-08-15T17:57:17Z,0,what is the difference between r2 score and model.score?,True
+@ananyaagarwal6504,2021-08-12T11:57:37Z,1,"Hi Krish, great video, it would helpful if you could give us a more intuitive explanation of why does adaboost really work",True
+@atanu1604,2021-08-02T15:45:10Z,0,Sir how I can get all vedios related data science.,True
+@annperera6352,2021-07-28T04:05:31Z,0,sir please do a video to implement Adaboost. and CART.please Sir,True
+@mdmynuddin1888,2021-07-06T07:55:21Z,0,After make decisions stump How can i check (how much misclassified or correctly classified)?   By test? Is there anyone please?,True
+@shubhamsinnarkar2923,2021-07-06T03:43:43Z,0,"This is the first video of Krish I have watched which was not good, vague, and ambiguous.",True
+@heroicrhythms8302,2021-06-21T11:44:09Z,0,thankyou krish bhaii !,True
+@lohithv5060,2021-06-17T15:26:45Z,11,"Each and every topics are there in your channel on DS,ML,DL and which is explained clearly.Because of you many of the students learn all these kinds of stuff, thanks for that.I assure no one can explain like this with such a content💯. once again thank u so... much....",True
+@saumyamishra5203,2021-06-06T08:09:50Z,0,"i want to know that is there is any use of stump weights when we r predicting the values.....i want to know exactly will it work on testing data. plzzz make a video over that i read a bloggg where it says that prediction is done by using y= summation over wi* f(x), where wi is each stump weight.... plzzz let me know how it works",True
+@61_shivangbhardwaj46,2021-06-03T14:09:43Z,0,Thnx sir,True
+@abdulahmed5610,2021-05-08T11:28:14Z,0,How do we do for Regression problem... How we calculate and update weights in Regression problem???,True
+@nikhiljain4828,2021-05-08T10:22:37Z,0,"Krish, if the data had 7 records, how is your calculation of updated weights corresponding to 8 records. Also you mentioned to create a new data with 8 records. Looks like something very similar was explained in statsquest video. Copying is not bad but should be done with some cleverness.",True
+@nikhiljain4828,2021-05-08T10:11:56Z,1,Ironically it is so very similar (from start till end) to Josh starmer video on Adaboost. 😀,True
+@AnujKinge,2021-05-02T22:57:13Z,0,Perfect explanation!!,True
+@dibyanshujaiswal8333,2021-05-02T12:13:33Z,0,"Sir, the part where you explain about creating bins, with bin1=[0.07, 0.51], bin2=[0.51,0.58], bin3=[0.58,0.65] and so on. Post that how you got values 0.43 randomly and its purpose was not clear. Please explain.",True
+@manujkumarjoshi9342,2021-04-28T07:04:58Z,0,Great,True
+@anoushk,2021-04-23T06:50:23Z,0,In the updated weights you put 0.349 for the wrong record or was it correct?,True
+@dmitricherleto8234,2021-04-22T10:09:04Z,1,May I ask why we need to randomly select the number ranging from 0-1 to compare with class intervals instead just of choosing the misclassified record since we need to change the weights of the misclassified record?,True
+@joeljacob3957,2021-04-19T18:15:52Z,0,"The initial statement is bit confusing. You said the wrongly predicted data points will be sent to the next classifier and said if the next classifier also makes a wrong prediction, those data points will be moved forward, at this moment you pointed out bottom set of data points. So my question is, does the whole data set is forwarded or just wrongly classified data points? If only the wrongly classified data points are forwarded, then what's the point of using weight then?",True
+@somaleemitra9944,2021-04-01T16:34:14Z,0,For normalization do we need to divide by 0.68 always? Or the value 0.68 is for something special?,True
+@maitriswarup2187,2021-04-01T15:35:13Z,0,"Very crisp n clear explanation, sir",True
+@jivillain,2021-03-23T21:40:39Z,0,You are cute,True
+@kunal7503,2021-03-18T18:51:39Z,0,best explanation ever,True
+@vianneynjock7024,2021-03-13T15:57:05Z,0,Thank you !,True
+@bhavikdudhrejiya852,2021-03-11T18:30:15Z,4,"This is a in-depth process of ad boosting algorithm. Great explained by Krish Sir. Thank you for making such a wonderful video. I have jotted down process step from this video:  This iteration is performed until all misclassification convert into correct classification 1. We have a dataset 2. Assigning equal weights to each observation 3. Finding best base learner -Creating stumps or  base learners sequentially -Computing Gini impurity or Entropy -Whichever the learner have less impurity will be selecting as base learner 4. Train a model with base learner 5. Predicted on the model 6. Counting  Misclassification data 7. Computing Misclassification Error - Total error = sum(Weight of misclassified data) 8. Computing performance of the stumps - Performance of stumps = 1/2*Log-e(1-total error/total error) 9. Update the weights of incorrectly classified data - New Weight = Old Weight * Exp^performance of stump     Updating the weights of correctly classified data - New Weight = Old Weight *  Exp^-performance of stump 10. Normalize the weight 11. Creating buckets on normalize weight 12. Algorithm generating random number equals to number of observations 13. Selecting where the random numbers fall in the buckets 14. Creating a new data  15. Running 2 to 14 steps above mentioned on each iteration until it each its limit 16. Prediction on the model with new data 17. Collecting votes from each base model 18. Majority vote will be considered as final output",True
+@kushagrak4903,2021-02-24T10:49:01Z,0,Sir sahi se nahi smjha,True
+@4abdoulaye,2021-02-02T13:01:48Z,0,Thanks,True
+@sumitgalyan3844,2021-01-28T16:59:53Z,0,and how do we find the coeiff in logestic regression,True
+@sumitgalyan3844,2021-01-28T16:59:00Z,0,bhai stats k upar bhi videos bana de,True
+@sunnyarora4916,2021-01-19T13:29:03Z,0,0.43?,True
+@rahulpatel4701,2021-01-06T05:30:39Z,0,"sir, please rearrange complete ML playlist",True
+@saikiranrudra1283,2020-12-31T04:54:08Z,0,well explained sir,True
+@RAMAYATRI,2020-12-24T16:24:48Z,0,will the algorithm same for classification and regression both ?,True
+@satyamchatterjee1074,2020-12-22T17:32:10Z,0,"Hello Krish Sir, @13:25  You mentioned final decision on test data is done by majority voting like that in Random Forest !  Shouldn't it be the linear combination of individual outputs as per weights of each weak learner ?",True
+@aafaqaltaf9735,2020-12-11T11:24:42Z,0,explained very well.,True
+@tanmayisharma5890,2020-11-23T14:33:19Z,0,I wish you made a video on Gaussian mixture models,True
+@pramodyadav4422,2020-11-21T07:41:51Z,2,"Hello Sir,  I've a doubt related to selection of stump. As you said there will be M stumps for M number of feature. We will select 1 stump out of M stumps. This selection is based on Entropy/Gini Impurity, the lowest the better. So just in case we found stump with Feature1 have lowest entropy/gini we will select it as a base model to train and test. So does that means we are always going to select Feature1 stump throughout the whole process of Adaboost? and also that means the only 1 feature is used to predict? rest other features can be dropped?",True
+@madeye1258,2020-10-29T15:09:26Z,3,"@13.34 doesn't the end classification is done by adding the total say of a stomp per classification and finding which classification has the highest total say,or is it the majority vote ?",True
+@vinayindoria,2020-10-27T08:50:20Z,0,"Thank you for the videos , @1:00 to @1:45 you suggested some of the records will be feed in base learner 1 and the ones which are incorrectly classified will be pushed forward to base learner 2. Does the base learner 2 only have incorrect values to learn from or it will have some other records from the dataset as well? Just curious what happens to the records which were not picked in the BL1?",True
+@vvkwadhwa,2020-10-25T13:02:27Z,0,I like all your videos but this video is not good for new learner like me. can you please get detailed explaination. Thanks a lot.,True
+@aination7302,2020-10-22T03:02:04Z,0,Indian Youtubers are the best. Always!  To the point and clear explanation.,True
+@ishikadutta1033,2020-10-21T04:55:05Z,0,"I have to apply AdaBoost to a regression problem, can anyone tell how that can be done?",True
+@V4Varun45,2020-10-20T08:25:50Z,1,Sir when it will give the incorrectly classified records to the next model neither after updating the weights or after normalizing.     Iam getting confused here.     Can anyone help me out plzz...?,True
+@neilgurnani9204,2020-10-19T06:09:12Z,1,"At 5:00, shouldn’t the sum of the total always be 7? When you said 4 and 1 that only sums to 5?",True
+@narotian,2020-09-30T13:46:04Z,0,how does it selects a random value of 0.43 is there any method.,True
+@shivadumnawar7741,2020-09-28T13:03:26Z,0,awesome tutorial sir :),True
+@sandipansarkar9211,2020-09-24T18:48:55Z,4,Great video once again. plies don't forget to watch it once more as things are getting a little bit more complicated. I will watch the same video again but not today. tomorrow. Thanks,True
+@Jtwj2011,2020-09-23T09:00:27Z,0,you are my lifesaver,True
+@anatomnatureatomic3156,2020-09-12T12:22:27Z,0,"I don't get it why u selected (0.43) as random value.... Bcz the random values is selected from what range(x,y).And also if didn't get that 8 iterations formula.",True
+@i_amanrajput,2020-08-31T09:15:09Z,0,really easily explained,True
+@mohammedazeem3303,2020-08-30T12:56:21Z,0,Please clarify on the random value which it selects for 8iterations before checking for buckets...... Anyone? How those random values are generated & whats the guarantee that it will lie in one of the buckets..?,True
+@Ilya_4276,2020-08-24T22:13:29Z,0,this is the best explanation thanks a lot,True
+@World-vf1ts,2020-08-04T10:43:45Z,6,This was the longest 14min video I have ever seen.... The content of the video is much much more than the displayed duration of video Thanks a lot sir,True
+@dafliwalefromiim3454,2020-07-20T15:53:35Z,1,"Hi Krish, You are saying at around 50 secs... ""Most of this particular record will get trained with respect to this particular base learner."".. records don't get trained with respect to a learner. A learner gets trained ON the records. Also you have sentences like, ""This base learner gives wrong records"".. Do you mean the base learner mis - classifies these records ?",True
+@manukhurana483,2020-07-12T18:31:45Z,0,"e^.895 = 2.44 and 1/7*e^.895 = 0.35, e^-.895=0.408, and 1/7*e^-.895 = 0.058 your weights(incorrect).  actual weight 1/2 log(6) = .389 => 1/7* e^-.389 => 0.20 and 1/7* e^-.389 => 0.096",True
+@gowthamprabhu122,2020-07-08T13:12:52Z,0,I have a doubt. When will the algorithm stop creating new stumps? Is it when the last stump has 0 entropy ?,True
+@mfadlifaiz,2020-07-07T15:58:19Z,0,why we must increase  sample weight of the error prediction and decrease sample weight of true prediction?,True
+@tonysimon4826,2020-07-06T22:40:13Z,2,"Just had one doubt, At 3:47 u had mentioned that for each feature there will be a tree created. But after 8 or 9 minutes after getting new sample weight and creating new data, how is the decision tree or week learner made? Like its not based on another feature f2 or f3 as mentioned in the beginning of the video..hence the doubt.  Also is the new dataset creation an alternative method? Like without creating new dataset could we create the weak learner based on next useful feature along with the new weight?",True
+@koastubhchaturvedi8286,2020-06-24T13:46:32Z,0,Great videp,True
+@MayankKumar-qp5yy,2020-06-14T16:35:22Z,1,"Very informative. I had a question though, for my new data set, will all the sample weights be 1/7 again?",True
+@RashmiUdupa,2020-06-09T10:45:50Z,0,you are our dronacharya :),True
+@karangupta6402,2020-05-30T15:39:05Z,10,One of the best explanations of AdaBoost if I have seen so far... Keep up the good work Krish :),True
+@nagarajsundar7931,2020-05-24T15:32:39Z,1,"From 10:40 -- How the random value of 0.43, 0.31 is getting selected ? How are you telling that it will perform 8 iteration ? Im not getting that point. Can you please help me out on this ?",True
+@kiran082,2020-05-23T08:03:31Z,0,Excellent Video Krish,True
+@hemantdas9546,2020-05-22T21:55:36Z,0,Sir please explain Adaboost Regression. Please Sir 🙏,True
+@gowtamkumar5505,2020-05-22T02:39:18Z,8,Why we need to do exactly 8 interactions and how the randome values will come?,True
+@Miles2Achieve,2020-05-18T10:50:29Z,0,"Suppose there are two wrongly classified record, then weight for those will be same and comes under the same bucket, in that case after eight iterations there will be more records for training  or what if generated random number in iterations belongs to the same bucket for more than 1 time",True
+@Miles2Achieve,2020-05-18T10:44:23Z,0,"is there any algorithm to select a random bucket, what if the number is it generating  in eight iterations not belongs to any error bucket",True
+@Taranggpt6,2020-05-15T17:11:45Z,0,Where the learning rate comes into picture?,True
+@bhargavasavi,2020-05-14T13:03:57Z,0,"Hi Krish, I have a question....How do you calculate the Total Error for the 2nd DT... Is it based on Normalized weights? For example if two records are misclassified corresponding to 0.07,0.07 normalized weights....Is the total error 0.07+0.07 ? Also I am not clear on updating the weights of records for the 2nd DT(specifically because when we are sampling for the 2nd DT, we get random records which can have duplicate rows too, but while updating the weights should we update all the records with the new sampling weights?) .........Hope you have understood my question :)",True
+@bhargavasavi,2020-05-14T06:56:15Z,3,"Krish was mentioning 8 iterations for selecting the records for the next learner...there are really 7 records...it will choose a random bucket 7 times...and since the max weighted values mostly will be present in the larger bucket size, probability of rand(0,1), most of the time the maximum bucket will be choosen.....Genius technique!!",True
+@melissaaranha453,2020-05-05T14:00:40Z,0,just curious to know how to increase accuracy? does increasing the depth of the decision tree help? since default is 1,True
+@desperattw12,2020-04-29T10:55:19Z,1,"when selecting the first base model, are we passing some random sample to m models for calculating the entropy? since all of our base models are decision tree what is the right approach to calculate the entropy",True
+@pranavbhatnagar804,2020-04-17T09:10:41Z,3,Great Work Krish! Loving your work on ML algorithms. Can you please create a video or two on Gradient Boosting?  Thanks again!,True
+@souravdey1086,2020-04-17T07:27:10Z,0,What if the total error is larger than 0.5? Please try for error greater then 0.5.,True
+@parthdhir5622,2020-04-17T00:26:50Z,1,hey @krish can put videos for other boosting algorithms.,True
+@amitmodi7882,2020-04-08T09:08:51Z,2,Thanks Krish for wonderful explanation. I have few questions regarding this video: 1. Will this not cause over fitting? If yes then how to overcome? 2. Where Adaboost is used in real time use cases?,True
+@adhvaithstudio6412,2020-03-31T20:22:34Z,0,"at 10:52, suppose you says after iteration a random value 0.43 will generate,  i did not get how the value calculating to initialize a new data set.",True
+@pankaj3856,2020-03-31T17:25:58Z,179,"My Suggestion will be that first arrange your playlist, so that we do not get confused of topics",True
+@abhisheksurya5790,2020-03-18T05:53:18Z,0,"Hi Krish, I didn't Understand at 10:53 how does it select the random value of 0.43.",True
+@padhiyarkunalalk6342,2020-03-15T11:17:05Z,0,Add video on  #adaboost vs xgboost vs gradiant boosting,True
+@padhiyarkunalalk6342,2020-03-10T09:26:40Z,0,Sir you are great. But I have doubts.  1)why we used decision tree as a weak learner in ensemble technique? 2)which types of ML models used for ensemble technique? 3)can we used only. Weak learners in ensemble technique?  Plzzz sir help me to clear these douts. #th@Nk u,True
+@vishalkailaswar5708,2020-03-01T07:02:53Z,0,"Bro can u add this video to the playlists which you created, we could not find this video in playlists",True
+@Ik1Wetniet,2020-02-23T16:09:44Z,0,can i use boosting for neural networks?,True
+@sandeepsandysandeepgnv,2020-02-03T14:07:00Z,2,Hi krish can you explain what is the difference between ada boosting and XG boosting. Thanks for your efforts,True
+@abhijeetsoni3573,2020-01-24T18:49:07Z,4,"Krishna, thanks for these videos, could you please make XGBoost , CATBoost and Light GBM  videos too..It will be great help from you  Thanks in advance :)",True
+@praneethcj6544,2020-01-08T11:57:30Z,4,Here after creating new dataset containing error   Where are we trying reduce the errors ? How are we deploying the errors found in stump 1 into stump 2 and how it clearly reduce ?,True
+@teslaonly2136,2019-12-20T17:29:27Z,4,You should have gotten more views for this video. Your explanation is excellent,True
+@KirillBezzubkine,2019-12-15T16:07:52Z,16,8:25 - u should have updated SAMPLE #3 since it was incorrect.,True
+@KirillBezzubkine,2019-12-15T16:04:23Z,2,5:35- more often i see people use LOG base 2 (since information represented in BITS),True
+@sunnysavita9071,2019-12-15T06:48:32Z,1,"sir ,we also decrease the weight in xgboost algo??",True
+@KirillBezzubkine,2019-12-14T13:39:30Z,4,dude u r good at explaining. Found your channel after watching StatsQuest,True
+@lakshmitejaswi7832,2019-12-13T05:26:43Z,0,Good Explanation. At test time it  will   multiply terror and weight and then sum. Am i right?,True
+@ashisharora9649,2019-11-28T15:22:41Z,486,"Adaboost (Adaptive Boosting) Adaboost combines multiple weak learners into a single strong learner.  This method does not follow Bootstrapping. However, it will create different decision trees with a single split (one depth), called decision stumps.  The number of decision stumps it will make will depend on the number of features in the dataset. Suppose there are M features then, Adaboost will create M  decision stumps.  1.  We will assign an equal sample weight to each observation.  2. We will create M decision stumps, for M number of features. 3. Out of all M decision stumps, I first have to select one best decision tree model. For selecting it, we will either calculate the Entropy or Gini coefficient. The model with lesser entropy will be selected (means model that is less disordered). 4. Now, after the first decision stump is built, an algorithm would evaluate this decision and check how many observations the model has misclassified. 5. Suppose out of N observations, The first decision stump has misclassified T number of observations. 6. For this, we will calculate the total error (TE), which is equal to T/N. 7. Now we will calculate the performance of the first decision stump. Performance of stump = 1/2*loge((1-TE)/TE) 8. Now we will update the weights assigned before. To do this, we will first update the weights of those observations, which we have misclassified. The weights of wrongly classified observations will be increased and the weights of correctly classified weights will be reduced. 9. By using this formula: old weight * e performance of stump 10. Now respectively for each observation, we will add and subtract the updated weights to get the final weights.  11. But these weights are not normalized that is their sum is not equal to one. To do this, we will sum them and divide each final weight with that sum.  12. After this, we have to make our second decision stump. For this, we will make a class intervals for the normalized weights. 13. After that, we want to make a second weak model. But to do that, we need a sample dataset on which the second weak model can be run. For making it, we will run N number of iterations. On each iteration, it will calculate a random number ranging between 0-1 and this random will be compared with class intervals we created and on which class interval it lies, that row will be selected for sample data set. So new sample data set would also be of N observation.  14. This whole process will continue for M decision stumps. The final sequential tree would be considered as the final tree.",True
+@rupikasree2666,2019-11-25T19:20:12Z,0,"what is that 0.6,04,0.7 in the last few seconds? can someone explain?",True
+@esakkiponraj.e5224,2019-11-23T21:45:57Z,1,5:12 Could you explain Total error ? How it comes 1/7 ?,True
+@rishibhardwaj398,2019-11-18T17:35:12Z,2,This is really good stuff. Great job Krish,True
+@kamal6762,2019-11-18T08:36:27Z,1,At 10:54 how the value 0.43 comes?,True
+@Raja-tt4ll,2019-11-17T21:42:49Z,1,Nice Video,True
+@ritikkumar6476,2019-11-15T19:51:22Z,2,Hello sir. Just a request.  Please upload some explanation videos regarding different algorithms like Lightgbm and Catboost etc.,True
+@sauravroy5082,2019-11-09T07:05:06Z,1,"Thanks for this video. I have one doubt, while creating new data set from the range, you are saying there will be 8 iteration to pick the value from different range. But you always take a value which is in wrongly classified data range. Thanks in advance.",True
+@somnathbanerjee2057,2019-10-30T05:41:33Z,5,"@8:30 minutes of the video, it should be 0.349 for an incorrectly specified classifier. As we got updated weight for the correctly specified classifiers. I love your teaching. Adore.",True
+@deepakkumarshukla,2019-10-15T23:18:12Z,1,Good one!,True
+@Thelee4music,2019-10-09T09:02:12Z,0,Why previous datapoint sample weight has been updated as 0.349?,True
+@arunkumarr6660,2019-10-06T16:25:01Z,0,Thank yoo soo  much :),True
+@rupeshghule8495,2019-09-25T19:50:27Z,0,Sir is unconstrained decision tree a special case in which we have high bias and high variance error??,True
+@abhimanyutiwari100,2019-09-13T03:11:30Z,0,"Are this base learner called ""Stump""?",True
+@username-notfound9841,2019-08-31T16:01:17Z,4,"Do a comparison b/w ADABOOST and XGBOOST.    Also, Proximity matrix in Python, Sklearn does not have it inbuilt.",True
+@abilashkanagasabai3508,2019-08-31T09:09:43Z,1,Sir please make a video about EDA(exploratory data analysis),True
+@techtronics6045,2019-08-31T08:28:37Z,1,"Can I learn ai from ""padhai"" Or self learning which is good",True
+@papachoudhary5482,2019-08-31T08:25:49Z,2,Thanks,True
+@yuvrajpawar4177,2019-08-31T08:12:26Z,12,Watched all your videos but still always eager every day for next topic to learn,True

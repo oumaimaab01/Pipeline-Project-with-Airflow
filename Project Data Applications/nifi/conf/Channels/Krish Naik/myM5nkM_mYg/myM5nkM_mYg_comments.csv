@@ -1,0 +1,42 @@
+author,updated_at,like_count,text,public
+@sreevanii2570,2022-01-14T16:04:23Z,0,"While converting a text file to hdf5 using VAEX, it will not maintain the same precision for each column as in text file, and I can not modify it. Please help me.",True
+@prashanthardikar9895,2021-08-04T15:17:13Z,0,"Hi Krish, I want to concatenate two CSV files I also want to edit a column value in each of the files before I concatenate. The file size of each file is about 200 MB with 1200 columns and 35000 rows. There are about 90 such pairs of csv files that I want to concatenate. Can this be done faster with Vaex than pandas? I did not see any improvement when I tried using dask. Thanks",True
+@MS-ry9im,2021-05-28T20:24:31Z,0,It wont work with vectorization,True
+@devkaranjoshi816,2021-05-22T18:57:09Z,1,Can we further pass this data into model training.,True
+@abubakarsunny5992,2021-05-07T20:46:11Z,0,But how can i drop column  or row in veax Library,True
+@saumojitbhattacharjee7292,2021-04-29T18:04:05Z,1,Hi ! Can You Make One Video On Dask For Extracting 40gb+ dataset ?,True
+@amirahb3329,2021-04-13T14:34:34Z,0,how come it is possible ?,True
+@megdesouza1611,2021-03-29T16:09:39Z,0,Can we read file resides on remote desktop using vaex.open?,True
+@datareactor4143,2021-03-12T13:51:57Z,0,"Did anyone get error message as ""numpy.core.multiarray failed to import"" ? can someone help to solve this error?",True
+@j.p.brochu8592,2021-02-26T12:03:59Z,1,Pip install vaex does not work on my windows 10 computer (with python 3.8). It gives me errors. Any body else who had hard time to install Vaex ?,True
+@pandharpurkar_,2021-01-13T13:45:46Z,1,what is chunk_size meaning?,True
+@raparthipoornachanderrao5121,2020-12-03T17:27:35Z,2,Could you do video on lux-api,True
+@sandipansarkar9211,2020-10-01T19:28:08Z,1,Great explanation .Need to practice in Jupiter notebook.Thanks,True
+@suneelkumarilli8311,2020-09-14T03:20:03Z,2,"Dear Krish Naik, I have tried to sorting data but I am getting error 'Hdf5MemoryMapped' object has no attribute 'sort_values'.",True
+@singhamitgkv7709,2020-07-08T11:22:33Z,1,"Sir, This library does not import in colab.",True
+@abhishekjn3390,2020-06-22T06:43:50Z,1,👍😊 but why we have to install in virtual environment ?,True
+@vinayakganji5067,2020-06-19T11:53:23Z,0,"Hi Krish, I'm getting this error, while creating df. --------------------------------------------------------------------------- MemoryError                               Traceback (most recent call last) <ipython-input-4-457147b820ec> in <module>       4 n_rows = 1000000       5 n_cols = 500 ----> 6 df = pd.DataFrame(np.random.randint(0, 100, size=(n_rows, n_cols)), columns=['col%d' % i for i in range(n_cols)])       7 df.head()  mtrand.pyx in mtrand.RandomState.randint()  mtrand.pyx in mtrand.RandomState.randint()  randint_helpers.pxi in mtrand._rand_int32()  MemoryError:",True
+@ishwarashar8503,2020-06-10T14:00:02Z,1,"Hey! I have already installed Vaex successfully but when I try to convert the csv file it shows error that "" No module named 'vaex.hdf5' "".",True
+@AkashKumar-mb4pd,2020-06-06T08:17:43Z,0,CAN SOMEBODY EXPLAIN PRE-PROCEESING & WHAT STEPS DOES IT INVLOLVE ??,True
+@bcr5430,2020-06-05T09:55:24Z,1,"When the data is too large like 4GB, it saves it in chunks of hdf5 files. Any idea how to read these? Should we read one by one and concatenate them? Also, how to deal with object datatype when it comes to hdf5 files?",True
+@theyonatanalexander,2020-06-05T08:12:02Z,0,"To learn more about how Vaex compare to other technologie like PySpark and Dask DataFrame. “Beyond Pandas: Spark, Dask, Vaex and other big data technologies battling head to head” by Jonathan Alexander https://link.medium.com/yYC2W4c636",True
+@user-rp7rz9qz2n,2020-06-05T03:25:26Z,1,"Please sir ,why your book still not available in amazon..I really need to buy it ..thank you",True
+@satyabansahoo6075,2020-06-05T01:32:18Z,0,"sir, modin also... It makes pandas faster. Make a video on that.",True
+@ashishbhatnagar9590,2020-06-04T19:57:41Z,1,Sir please complete docker remaining tutorials,True
+@souravbiswas6892,2020-06-04T18:53:05Z,1,"Hi please create a detailed playlist on pyspark, thanks in advance",True
+@varagantimanjula3135,2020-06-04T18:29:28Z,1,I heard about vaex for the first time in this video...I heard about dask...as mentioned please do the video on dask as well...Thank you Krish...for everything you are doing for community...,True
+@vivekpuurkayastha1580,2020-06-04T17:38:20Z,0,why is there no internship directly?,True
+@priyankapradhan4539,2020-06-04T17:17:44Z,0,can it used to read 1M image dataset????,True
+@anonyme103,2020-06-04T17:05:55Z,1,"For comparison, you could've used %time in each cell",True
+@DatascienceConcepts,2020-06-04T16:52:28Z,0,Great!,True
+@bhavyaparikh6933,2020-06-04T16:32:11Z,0,why you are vibrating??,True
+@gurdeepsinghbhatia2875,2020-06-04T16:25:30Z,1,"Vaex , first listen from your vedio sir , awsome sir , thanks sir to provide such usefull knowledge",True
+@dadoll1660,2020-06-04T15:38:55Z,1,Thanks Krish! What do you hate about this library? That you think could be possibly improve.,True
+@harshtamkiya8505,2020-06-04T15:23:03Z,8,This is close to madness. Wonderful library 👏,True
+@shivanandprasad5747,2020-06-04T15:20:05Z,0,Thanks Krish...u r my idol..to interest towards data science...just because of u...,True
+@vishalkatoch8699,2020-06-04T15:18:08Z,0,sir please videos in hindi..,True
+@nocode659,2020-06-04T15:15:07Z,2,PLS TALK ABOUT IMP OF COMPETITVE PROGRAMMING!,True
+@gokulpisharody3155,2020-06-04T15:06:21Z,0,"When will be next batch of Advance DL & NLP going to start ,since I want to join that batch.i am currently in ML Master course of ineuron.",True
+@jagadeeshkrishnamurthy1971,2020-06-04T15:04:24Z,1,Will it read file from hadoop,True
+@waqarsarwar7012,2020-06-04T14:36:42Z,2,shout out,True
+@waqarsarwar7012,2020-06-04T14:36:30Z,3,waiting,True

@@ -1,0 +1,15 @@
+author,updated_at,like_count,text,public
+@MyPetline,2019-05-05T09:57:03Z,0,pls. try to fix 413 error,True
+@penumarthinlgvsvamsi8730,2019-01-20T04:57:13Z,0,"what does the value carried by ""e"" parameter in page_not_found",True
+@arjunbemarkar7414,2019-01-11T04:00:48Z,0,"why not put the try except in the if __name__ == ""__main__"" thing?",True
+@neeldeshmukh3705,2018-09-20T07:08:36Z,0,Where's the jacket??,True
+@joeg816,2017-04-12T21:16:43Z,3,"Instead of hard coding href links, I think best practice is to use Jinja's url_for just in case the URLs change.",True
+@rafiklmd9822,2016-11-26T23:13:12Z,0,"Hi Harrison, great tutorial.  i have a very annoying problem, i'm trying to build my website in french. but when i write words with special characters (like é or è),  i get a """"UnicodeDecodeError: 'utf8' codec can't decode byte 0xe9 in position 1482: invalid continuation byte"""".  i also added # -*- coding: utf-8 -*- in the top of every file, but it did not solve the problem.  please help me.",True
+@dimashur,2016-09-22T15:20:08Z,0,are you simply copy/pasting stuff from Miguel's tutorial?,True
+@mohitjain7925,2016-02-25T13:59:07Z,0,"hey Great video, quick question, when i put a tab space behind try statement it throws an error, but when i put four spaces it works? DO you know why that might be happening because i have used tab for indentation in python all the time",True
+@Arslanqadri,2016-02-13T19:57:43Z,0,it is possible to log the errors in an error file concurrently?,True
+@Veri7a,2015-12-15T05:47:03Z,0,I am guessing the reason you would have problems consistently getting your 500.html is because 500 is a Server error as opposed to a page error with a 404. If the server is having problems accessing your templates location i doubt it would be able to render the 500.html. My idea anyway.,True
+@jd5787,2015-08-23T10:49:32Z,0,"Just wondering: is it possible (and advisable) to have a single html page dealing with all types of html/server errors? (in which case, a function in the __init__ file would have a few if statements to classify the error and the error message would have to be passed to the HTML to Jinja via a variable. what do you think?",True
+@brahimelboudani601,2015-04-20T11:14:27Z,0,Great work sentdex please keep it up,True
+@GeneAiello,2015-04-09T19:11:40Z,0,"Harrison, Again great tutorial. You should look into the Flask Debug flag/option, for your development environment. I believe this is why you could never get back helpful errors. eg.  app.run(host=""0.0.0.0"", debug=True)  Also, If you enable debug the server will reload itself on code changes automatically!",True
+@darronpressley6855,2015-03-27T19:16:15Z,0,Hi Harrison  Do you do anything fancy to help search engines find your websites?....egI have read about using schema but it just looks annoying :),True

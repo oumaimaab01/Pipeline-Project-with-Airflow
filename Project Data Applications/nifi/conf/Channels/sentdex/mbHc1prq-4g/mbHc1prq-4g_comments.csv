@@ -1,0 +1,15 @@
+author,updated_at,like_count,text,public
+@abhitruechamp,2022-02-14T08:49:06Z,0,"why does movement_range's -ve value have to be one lower than +ve, else there's a high bias towards moving towards one direction?",True
+@junaidibnajafor2015,2020-11-01T12:48:27Z,0,Do you have this blob game on Github?,True
+@goobypls6450,2020-09-14T14:14:22Z,0,"For me, this video was the clicking moment for OOP. Thank you so much for your tutorials. You've made learning python really enjoyable.",True
+@marcinkovalevskij5820,2020-08-05T17:11:25Z,2,"I don't want to call it blob.py, eh let's call it blob.py",True
+@ahbarahad3203,2019-11-12T18:34:01Z,0,"i think your videos can be a little shorter, i dont know why but it  sometimes gets really exhausting to watch your 15 min video",True
+@rohan1427,2018-08-11T05:43:34Z,0,"In movement_range[0], movement_range[1], why are we giving 0 - 1 as element range in the tuple ?",True
+@dankman7603,2017-11-29T03:47:27Z,1,can I have your wallpaper?,True
+@daniellin2048,2017-01-04T21:22:12Z,1,"Hi, sentdex, good video as usual. The way I see the ""Boundaries"" is that the full blob has to lie inside the white area. Do you think we should take into consideration the radius of the blob when we initialise variables like self.x_boundary and self.y_boundary?  That is, in the init method: radius = 0.5 * self.size self.x_boundary = x_boundary - radius self.y_boundary = y_boundary - radius self.x = random.randrange(radius, self.x_boundary) self.y = random.randrange(radius, self.y_boundary) This way the blob is guaranteed inside the boundaries. Happy new year to you.",True
+@PavelIvanovskii,2016-12-05T00:50:24Z,0,"Is size_range and movement_range a list? But why you use size_range = (4, 8) instead of size_range = [4, 8]??",True
+@riseoftech4k332,2016-11-24T22:02:23Z,0,Please make other raspberry pi robotic tutorials... thanks,True
+@elmarzimmermann3526,2016-11-23T12:16:51Z,2,"Just came across a nice way that saves you adding all the arguments one by one to the class namesspace:  def __init__(self,color,**kwargs):   self.__dict__.update(locals()) That makes the init method much shorter/cleaner!",True
+@elmarzimmermann3526,2016-11-22T19:50:03Z,30,"You could use the unpacking operator * to save you from writing [0] and [1] all the time. For example:  self.size = random.randrange(*size_range)  Then you could have x_range and y_range rather than x_boundary, so all your arguments would expect tuples.  Just a suggestion. :)  Enjoying the series. Thanks for making these videos!",True
+@cmatthew91,2016-11-22T19:33:11Z,0,"Awesome video, nice example",True
+@scalexgames5865,2016-11-22T14:42:52Z,1,first,True

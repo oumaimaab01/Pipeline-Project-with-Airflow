@@ -1,0 +1,19 @@
+author,updated_at,like_count,text,public
+@AkshaySowdari,2023-02-28T08:48:03Z,1,"Also, 75% of books have only 3 ratings, if exclude books with ratings less than 100, then we'll lose huge amount of data right",True
+@AkshaySowdari,2023-02-28T08:45:11Z,0,"Hi Krish, , U told to exclude books with ratings less than 100 right, so we have to consider ratingCount >= 100 but instead you've taken bookRating>=100",True
+@pramodshaw2997,2022-01-23T16:43:19Z,1,"Thanks for creating such wonderful videos. I have few questions, since data keeps changing the numbers of ratings and user reviews keep increasing every day, so how the model can adept to the ever changing data?",True
+@louerleseigneur4532,2021-07-25T18:28:11Z,0,Thanks Krish,True
+@satyapragyandas811,2021-06-25T15:19:32Z,0,how to evaluate such recommender system?? anyone?,True
+@ratanUtube1,2020-10-08T12:12:40Z,3,"Hi Krish, Great Content. Just one doubt from my side. In your cell number 11, I guess we need to do value count on ISBN column instead of bookRating like below.  counts1 = ratings['userID'].value_counts() ratings = ratings[ratings['userID'].isin(counts1[counts1 >= 200].index)] counts = ratings['ISBN'].value_counts() ratings = ratings[ratings['ISBN'].isin(counts[counts >= 100].index)]  as we are trying to eliminate the books which have been rated less than 100times. Please correct me if I am wrong.",True
+@sidandsakshi8320,2020-08-04T12:11:53Z,0,great tutorial sir!,True
+@shantanuroy9408,2020-06-28T06:31:40Z,0,Why isn't the correlations working when trying for some other ISBN book?,True
+@sanikabagwe5880,2020-06-15T17:56:09Z,0,How to do statistical analysis of the dataset ? Can you please create a video on that,True
+@IT_FoodLover,2020-06-04T10:03:05Z,0,Sir plz make a video on sentimental analysis,True
+@_ekcup_chai,2020-06-01T12:46:24Z,0,I got memory error; how to solve it?,True
+@deepakmehta9464,2020-05-07T11:13:25Z,0,kindly help me solving this problem -one error  I am sharing the github link https://github.com/dkumarmehta81/Tutorials/blob/master/BooksRecommendationSystem.ipynb,True
+@nithishkannen8083,2020-04-24T17:31:12Z,0,App/course kab aeega??,True
+@puneethsharma5049,2020-02-26T18:46:58Z,0,Please provide a dataset or  link on Amazon products for building recommendation engine,True
+@sohailahmedkhan1027,2019-10-15T09:07:23Z,1,Hey krish .Am following your lectures throughly.can you make a vedio on news  recommendation with DL,True
+@beizhou2488,2019-08-20T11:46:16Z,1,"Thank you very much again. I finished this tutorial just now. Really appreciate your effort to release such good courses. Based on the content in this tutorial, can I say that no matter what kinds of recommender systems I will develop, the first step to go much be construct a pivot table which consists of the User IDs and Product IDs corresponding to the rows and columns in this table? Look forward to your reply. Thank you.",True
+@durgeshkumar1023,2019-08-19T19:18:53Z,1,You can charge more than Rs.500 for such a good content and improve the video and audio quality with that money as the Marker Color in your Deep Learning course is not very clear in lower resolution.All the best bro:),True
+@ahmedfattah5879,2019-08-03T21:00:58Z,1,"Wow i think this is exactly what i was looking for ,thanks <3",True

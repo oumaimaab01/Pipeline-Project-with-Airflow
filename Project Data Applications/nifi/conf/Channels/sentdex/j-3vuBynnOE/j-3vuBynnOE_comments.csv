@@ -1,0 +1,524 @@
+author,updated_at,like_count,text,public
+@tilkesh,2024-05-21T13:14:54Z,0,Thx,True
+@rosasgallery,2024-05-04T21:47:57Z,0,You actually saved my life!!! Thank you so much for this amazing tutorial.,True
+@Eren-zl2uw,2024-04-08T08:55:25Z,0,1:55,True
+@Rakesh-cu7lc,2024-03-21T19:15:25Z,0,This is so damn good !! thank you for this video 🫡,True
+@abdulraheemabdul9667,2024-02-23T18:53:33Z,0,"Hi, i am just learning about image classification but why trying out the code i keep getting this error when its time for me to train my model ValueError: Failed to find data adapter that can handle input: <class 'numpy.ndarray'>, (<class 'list'> containing values of types {""<class 'int'>""})  my code is as follows:  import numpy as np import matplotlib.pyplot as plt import os import cv2 as cv import random import pickle import tensorflow as tf from tensorflow.keras.layers import Dense, Flatten from tensorflow.keras import Sequential  # Define the directory containing the training images dir = 'training_set/training_set/'  # Define the categories (classes) of images categories = ['dogs', 'cats']  # Define the image size img_size = 80  # Initialize an empty list to store the training data training_set = []  # Function to create the training dataset def create_training_set():     for category in categories:         path = os.path.join(dir, category)         label = categories.index(category)         for img in os.listdir(path):             try:                 # Read the image in grayscale                 img_array = cv.imread(os.path.join(path, img), cv.IMREAD_GRAYSCALE)                                  # Resize the image to the desired size                 resized_img = cv.resize(img_array, (img_size, img_size))                                  # Append the resized image and its corresponding label to the training set                 training_set.append([resized_img, label])             except Exception as e:                 # Print any exceptions that occur during image processing                 print(""Error:"", e)                 pass  # Call the function to create the training set create_training_set()  # Shuffle the training set random.shuffle(training_set)  # Initialize lists to store features (inputs) and labels (outputs) x = [] y = []  # Extract features and labels from the training set for features, label in training_set:     x.append(features)     y.append(label)  # Convert the lists to numpy arrays and reshape the input data x = np.array(x).reshape(-1, img_size, img_size, 1)  # Reshape to (num_samples, 80, 80, 1)  # Define the neural network model model = Sequential([     Flatten(input_shape=(img_size, img_size, 1)),  # Adjusted input shape     Dense(128, activation='relu'),     Dense(64, activation='relu'),     Dense(1, activation='sigmoid') ])  # Compile the model model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])  # Train the model model.fit(x, y, epochs=5, batch_size=32)   Kindly help me out",True
+@georgeseese,2023-12-29T19:03:58Z,0,"Re: Changing the X list to X array @16:35 ""X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 1)"". This combines (conversion of list to np array) and (reshaping). (a) I can not find explanation of this syntax with 4 parameters. Any help? (b) The '-1' has various meanings in array reshape. What does it mean here? (c)  edit: removed  (d) The first array in X list starts as: [102 104  62 ...  69  75  83] (50 elements in dim).  But X array starts as:  [[[[102]    [104]    [ 62]    ...    [ 69]    [ 75]    [ 83]]  One element in dim. Is that correct? (e) The last parameter is 1. Where does that show in the X array? (f) To simplify these questions for debugging, I used img size of (3, 2) (width, height) giving an array shape of 2r x 3c. And I process only two images, skipping random.",True
+@arijitkumarkhanra389,2023-12-28T16:20:08Z,0,"I dont know why but i am not able to read the data even though i have copied the path of the folder, can you please help?",True
+@georgeseese,2023-12-25T04:50:21Z,0,"Thanks. On Windows, I had problems with your DATADIR=""X:/Datasets/PetImages"" @2:10. I had my own version of course, but the code said (in effect) my path was not valid, even tho it was. I discovered Colab runs Linux-style OS. There are several methods of doing it; I used the Google Drive mount and zipfile to extract (instead of the Windows File Explorer Extract), ending with DATADIR=''/content/drive/MyDrive/datasets/training_set'. I finally got to see the gray dogs!",True
+@user-yr1uq1qe6y,2023-11-14T00:58:44Z,0,It seems like all the videos and tutorials on this topic only deal with binary situations. Outside of the Keras docs on flowers there is a lack of variety on multiple classification approaches (> 2 classes).  I have a feeling that might be where complexity and accuracy dive off a cliff.,True
+@anishkhanal-bs3re,2023-08-16T04:17:15Z,0,I don't understand how append is categorizing data . anyone please help,True
+@PubgMaan007,2023-06-20T21:27:17Z,0,Thanks alot for the videos! Great way to start my Data Science Journey. Really grateful to you for posting such content for free.,True
+@baldwinchen6744,2023-06-15T04:25:23Z,0,"hey!! For some reason, I'm getting ""Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9"" errors"" and I'm not sure how to fix this. Could you please let me know what went wrong?",True
+@cameronfagan3656,2023-05-21T14:37:10Z,0,"I'm having trouble with the system locating my files for this code to get the data. Where it says DataDir, how should I correctly write the command to be done.",True
+@neemaradhalalneema5418,2023-04-25T09:34:52Z,1,Hi how to use this method if we have 4 different categories?,True
+@ajitkulkarni1702,2023-03-02T18:24:48Z,0,notebook link?,True
+@coolstudios8273,2023-03-02T14:49:50Z,0,Great video! How could I modify this to use multiple categories for classification instead of just single category label?,True
+@Amal-vb4oh,2023-02-14T10:24:42Z,0,thanks it wans really useful 😍,True
+@himanshumansata4301,2023-01-25T08:25:01Z,0,not able to print the first dog image  it us just showing the size off the image and the axes can you plz help me with that,True
+@rnparhi,2023-01-21T15:15:53Z,0,"I am getting the same error ''numpy.ndarray' object has no attribute 'append' "". How did you solve this ?",True
+@HaifaAlwareeth,2023-01-19T17:38:34Z,0,the dog is blue because cv2 reads bgr not rgb so you need to convert bgr to rgb,True
+@sardorabdirayimov,2022-12-14T03:50:55Z,0,Well done video,True
+@rodrigocelso6008,2022-12-08T22:40:54Z,1,"you saved me, thank you",True
+@pkgpkg8609,2022-11-18T07:52:04Z,0,can anyone help in that??,True
+@pkgpkg8609,2022-11-18T07:51:29Z,0,this method is not working for me...,True
+@engr.inigoe.silvagalvan1161,2022-11-08T00:34:41Z,0,"Brother, you're amazing. This video has been a huge help. Thanks.",True
+@builtin0,2022-11-07T13:38:23Z,0,if wanna use in line in matplotlib %matplotlib inline,True
+@broteendas1194,2022-10-22T06:29:07Z,0,10:35 Showoff,True
+@mathiasnielsen9967,2022-09-23T19:08:13Z,0,Love getting tought ML by Snowden!,True
+@siddhisalvi1628,2022-09-06T04:32:13Z,1,Hello is it necessary to print all the images like it is printing only one dog image what about the others ? I am doing orb detection does it required to loop through all images?,True
+@happyharmonyhangout,2022-08-29T00:35:33Z,1,"Hey man. What should I write instead of the ""training_data.append"" line if I want a multiclass dataset? Yours has two classes, imagine I have a 5-class dataset.",True
+@joewannimozzarella,2022-08-15T17:26:08Z,2,Can you show us how to make a image generator with own pictures?,True
+@happyharmonyhangout,2022-08-03T10:13:31Z,0,Exactly the video I needed! Thx bro!,True
+@ShakirKhan-th7se,2022-07-28T10:52:54Z,0,What is the best way to get input from different folders with different numbers of images each?,True
+@stephenderosa2412,2022-06-30T22:24:34Z,0,"""the hand of a dog"", so wise sentdex. forever indebted",True
+@bring-it-on,2022-06-23T19:53:53Z,0,Is there a way we can save output of model in CSV format,True
+@bornin7735,2022-06-23T03:53:39Z,0,"Idk why I lmfao when you said “ha, a blue dog” hahahahahah",True
+@meg33333,2022-06-13T01:54:12Z,0,Make a project video on image processing brain MRI to detect Alzheimer detection.,True
+@marcosbeliera1,2022-06-08T02:45:14Z,0,"Hey sentdex Thanks for the video ! I can't see what you did to reshape the ""y"" list at the end of the video @ 16:20  ... Could you please clarify this ? Thanks again !",True
+@asumanylmaz7963,2022-05-18T20:12:46Z,0,"i have like that error ""Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found"" and ""Ignore above cudart dlerror if you do not have a GPU set up on your machine."" i search for that and i saw i need a cuda ,gpu.but i have amd graphics card and never see gpu for amd how can i fix that. can you help me please . and really sorry for my English",True
+@amankushwaha8927,2022-05-08T02:20:36Z,0,"You could use ""new_image = cv2.cvtColor(new_image, cv2.COLOR_BGR2RGB)"" to convert BGR image to RGB image format.",True
+@Olejika_CheatEngine,2022-04-16T10:19:58Z,0,"4:18 For me it says ""No such file or directory"". Help",True
+@nehabhullar913,2022-04-02T09:00:49Z,0,hi  where shall i write to u?email? do you guys have videos on medical segmentation?? pl guide,True
+@drygordspellweaver8761,2022-03-30T07:57:24Z,0,A tuple in that training_data list would have been much more efficient,True
+@darylmusco851,2022-03-25T02:29:51Z,0,"sentdex, hello please can you tell me or refer me to a website instruction into how I create the dataset with images under your assumed ""X:/Datasets/PetImages"" for the DATADIR. I understand all the methods for ML & DL, its just that I am stumped right here. I have all the images saved on my PC, any help Please",True
+@chaosmaker781,2022-03-23T13:50:52Z,0,Hi I have a very annoying error: I think the reshape changed and it just accepts 2 inputs now… How to correct it?,True
+@akinyemisodiq7081,2022-03-23T06:44:25Z,0,"i started my python journey with you back in the university days, thanks for being there boss.",True
+@arkanadnan6123,2022-03-12T11:33:52Z,0,this message is appear :ModuleNotFoundError: No module named 'cv2',True
+@highspeedhiasl,2022-03-11T13:15:03Z,0,I used your explanation for my data set but ran into the problem that the gpu memory is not big enough although i use a very powerful server. are there better options for loading bigger datasets?,True
+@ricardoribeiro4194,2022-02-20T17:40:23Z,0,"5:04 ""ha blue dog""",True
+@eranfeit,2022-02-16T18:35:01Z,0,"Hi, I attached a link for detecting objects in images and real time video tutorial This tutorial is based on TensorFlow , Python and pre-trained models  The link for the video : https://youtu.be/40_NC2Ahs_8  I also shared the Python code in the video description .  Enjoy  Eran",True
+@sometimesdchordstrikes...7876,2022-02-06T01:22:17Z,0,https://youtu.be/a7QVUpTCJtE,True
+@rephlanca,2022-01-30T20:53:19Z,0,"This might be a silly question, but I'm trying your import method for iterating through my class folders for each image and everything works except when it tries to call each image!  The files in my folder are like this: PL3004_1.jpg, PL3004_2.jpg, etc  However, when I run the code, it gives me an error saying that it can't find the image, and when I check what it's calling for, it says it's looking for ""path/._PL3004_1.jpg""    I'm not sure why it's adding the ._ in front of the file name! Do you have any idea? Thanks for anyone who can help!",True
+@ahmedfathi7286,2022-01-24T21:52:59Z,0,I tried using this code but it didn't add the header row and it didn't add the image labels column. I spent a long time trying and it didn't work.   Can you modify this code to add the header and labels?,True
+@ahmedfathi7286,2022-01-24T21:37:42Z,0,"Hello, I see your explanations, they are excellent. I have an image database that I want to process by Principal Component Analysis (PCA) and then CNN. Do I have to convert image files to csv file? Or is there another more suitable file format?",True
+@benjaminfindon5028,2022-01-08T00:15:41Z,0,"hello i have a csv file with data in it, but i dont have the images, can i still train an ai model with the csv file?",True
+@IslanderIntelligence,2022-01-06T17:37:48Z,0,Thank you so much this video helped out so much with an up coming video of mine,True
+@cheikhasma8507,2021-12-24T23:19:40Z,0,How do we associate this content with CNN ??,True
+@giggetto71,2021-12-22T18:42:13Z,0,"Great video! Got my own 2 category example working in minutes.which is fantastic! I am just getting crazy extending it to 3 category..what I did (apart from adding the folder with the 3rd category images):  1- add the 3rd category to CATEGORIES vector, 2- change ""model.add(Dense(1))"" to ""model.add(Dense(3))"" 3- change ""model.add(Activation('sigmoid'))"" to ""model.add(Activation('softmax'))"" 4- change from ""loss='binary_crossentropy'"" to ""loss='sparse_categorical_crossentropy'""  when I run the model fit, i get a good accuracy more that 0.9 but each prediction gets [0. 0. 1.]]. any clue? thanks!!!",True
+@Jenny-pf9uu,2021-12-12T09:24:08Z,0,"when i run  ' for img in os.listdir(path): ' this line,  its output is ' FileNotFoundError: [Errno 2] No such file or directory:  ' , can somebody help me?",True
+@robertue1,2021-11-24T18:15:55Z,0,"Great video, looking forward to see the next one.",True
+@PrabhatKumar-fn4vy,2021-11-19T13:54:09Z,0,you are grt,True
+@rabiafyz9952,2021-11-07T09:03:40Z,0,"So far what you did is,  load the images and convert them into gray scale and normalize them. And create a data with labels. Am I correct?",True
+@jassacap4203,2021-11-02T12:00:53Z,0,i love you,True
+@neshatrahman1838,2021-10-27T09:21:19Z,0,nice coffee mugs,True
+@andihaki,2021-09-24T10:26:08Z,0,any tutorial for custom face keypoint training models?,True
+@TheTakenKing999,2021-09-05T07:35:17Z,0,Why are we resizing into new_array two times? That bit is confusing me,True
+@amitanand7534,2021-08-18T10:15:14Z,0,paw,True
+@veer1472,2021-08-16T14:29:22Z,1,"Guys, the kaggle dataset that he is referring to no longer has folders named as cats and dogs... there are 2 folders, one is for training and another one is for test. You've gotta loop through images in the training folder and assign the labels using the image name",True
+@juliab1879,2021-08-06T14:43:17Z,0,"I am using my own data set of 222 images in grayscale, all 256x256 pixels.  When converting the list into numpy array I get the error ""cannot reshape array of size 222 into shape (256,256,1)"" and another one "" VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray""  Does anyone have any suggestions?",True
+@merveozdas1193,2021-08-04T21:28:31Z,0,Can u help me?,True
+@merveozdas1193,2021-08-04T19:39:06Z,0,"I wrote the code in this video but , AttributeError: 'NoneType' object has no attribute 'resize', I took this error while I resize,  and also I took this errorTypeError: Image data of dtype object cannot be converted to float, I try to solve but I couldn't.Then ,  for category in CATEGORIES:     path=os.path.join(DATADIR,category)     class_num=CATEGORIES.index(category)     for i in os.listdir(path):         img_array=Image.open(os.path.join(path,i)).convert('L')         img_array.thumbnail((48,48), Image.ANTIALIAS) # resizes image in-place         training_data.append([img_array,class_num ])         x=image.img_to_array(img_array)         x=np.expand_dims(x,axis=0)         value=model.predict(x)          value=np.array(value) I wrote this code.It ran,but I couldn't use this in prediction,because all of my images gave the same result.I gues,I couldn't read exactly.",True
+@arjunm6927,2021-08-04T17:42:44Z,0,"I am getting permission denied, it there any fix to that?",True
+@casuall9746,2021-08-03T04:05:55Z,0,heh blue dog,True
+@SanttuFI,2021-07-22T22:22:14Z,0,What the dog doing?,True
+@Dan-hv2rw,2021-07-08T11:15:49Z,0,I LOVE YOU MAN,True
+@Hysteresis11,2021-07-08T02:34:36Z,0,"At 4:46 getting message that 'img_array' not defined, same exact code...",True
+@Guilherme5988,2021-07-05T22:42:22Z,0,What would be the differences if there were more than 2 classes?,True
+@deadgenghistk9327,2021-07-01T01:28:36Z,0,"Having a little trouble wrapping my head around labeling my training data.  I have a problem with around 50k classes, and the output could only be one of those classes. What would be my best approach to labeling my data, would it be one-hot encoding, or do I go ahead and jam these classes between 0 and 1?",True
+@gokulanand685,2021-06-29T13:17:16Z,1,THANK YOU SO MUCH!!! I just started with Machine Learning and Neural Networks and this video helped me a lot!!!,True
+@tiarakusumadewi2337,2021-06-28T23:43:37Z,0,"Thank you for sharing, Sir. Sir, can you share how to deploy this CNN object detection to raspberry pi 4B?",True
+@amiryavariabdi8962,2021-06-26T13:54:02Z,0,"Dear the artificial intelligence community I am pleased to introduce DIDA dataset, which is the largest handwritten digit dataset. I will be grateful, if you could help me to introduce this dataset to the community.  Thanks",True
+@PepeTostado,2021-06-24T16:48:03Z,1,"I keep Getting:  error: (-215:Assertion failed) !ssize.empty() in function 'cv::resize' What does it mean, could not find anything on the web, help!",True
+@seza1231,2021-06-22T17:35:34Z,10,"For those who want to use RGB/color images, modify these lines! Change these: img_array = cv2.imread(os.path.join(path,img) ,cv2.IMREAD_GRAYSCALE) plt.imshow(img_array, cmap='gray') X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 1)  To: img_array = cv2.imread(os.path.join(path,img)) plt.imshow(img_array) X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 3)  And this should work, good luck!",True
+@rithikalias6394,2021-06-16T11:46:32Z,0,Can you explain why is that -1 used in reshape,True
+@SRFxVideos,2021-06-14T16:01:08Z,0,Oh thank you! I've looking for the way to load my own dataset and here you go! :З,True
+@sharathmanjunath3671,2021-06-13T20:17:32Z,0,How do you build training data if you have imbalance problem?,True
+@nks2405,2021-06-08T18:03:19Z,2,Extracting the zipfile to another file just takes too long,True
+@lorislukic4876,2021-06-08T14:11:30Z,0,"Something wrong with ""import os"" or with ""os.listdir(path)"", it says that there is no directory and I dont know why And yes the path I put in is correct",True
+@mustaphag,2021-05-29T05:17:39Z,0,Excellent work,True
+@dhruvagrawal3856,2021-05-24T07:27:00Z,1,"Nice Video....... But when done with google collab, takes a bit of time",True
+@thigilman88,2021-05-21T12:58:16Z,0,"Hello, according to syntax,  does the network first familiarize itself with a dog before moving onto the pictures of cat and doing the same ?",True
+@JO-ej3nh,2021-05-05T01:40:46Z,0,Create_training_data only messes up my data size,True
+@JO-ej3nh,2021-05-05T00:52:53Z,0,Only half of my data is in my training_data,True
+@joedoe4484,2021-05-03T10:52:56Z,2,"Hi, great work!  I have a question, though, upon the ""homework challenge"" !   reshape(-1, IMG_SIZE, IMG_SIZE, 3) pops a ValueError: cannot reshape array of size 239640576 into shape (224,244,3).   What's your opinion and solution ?? Thank you",True
+@kunaldas5009,2021-05-02T20:13:04Z,0,"Sir i have a question, how can I load and access a dataset with multiple sub classes. For example: a leaf dataset with 7types(7classes) of leaf and all of them have two subclass(healthy and unhealthy), how can i load and access all of the images. It will be so helpfull if you tell me, thank you.",True
+@sugat7206,2021-04-30T06:57:22Z,0,using training_data.append() is taking a whole eternity for me what should i do to make it more efficient??... the dog and cat data I am using is 25000 images,True
+@Dzgod69,2021-04-28T18:08:35Z,0,Has the .reshape() problem in Keras been fixed or does it still exist?,True
+@pratheekpoonachha,2021-04-24T06:43:26Z,0,X and y numpy array shapes don't match when I try to load RGB images for training data. Can you please help?,True
+@goksuceylan8844,2021-04-19T16:24:11Z,0,5:04 heh blue dog,True
+@LS15QD,2021-04-18T21:21:38Z,0,"The ""paw""",True
+@johnniewalkerjohnniewalker2459,2021-04-17T17:46:01Z,0,"I have an error for some reason and in the start when i try to show the image of dog from the path of  ""C:/Desktop/Dataset/Dog "" it says No such file or directory: 'C:/Desktop'.Could yoy help me please",True
+@afailable,2021-04-04T07:17:00Z,9,Sentdex: understands neural nets Also Sentdex: doesn't know what to call a dogs paw,True
+@adrijasamanta7949,2021-03-31T19:44:16Z,1,Great Video !!,True
+@omarpasha2968,2021-03-30T09:34:18Z,0,"So far, so good! The first dog grayscale image was successfully displayed. I was getting nervous there for a minute! I got confused when you added all that space at the bottom. It threw off my Jupyter notebook. I followed you thereafter, but my output did not print. We'll on to the other videos from other channels. I got to keep moving on. It was good while it lasted.",True
+@hurolinci5986,2021-03-20T12:39:38Z,0,Thank you so much for this video. As a programmer who just wants to start prototyping a simple model without a great DL background this video gave me the tools to get on with my work.,True
+@dt28469,2021-03-11T04:18:29Z,0,The amount of troubleshooting that I have to do with Python code is frustrating af. There should be whole tutorials on why python never works. smh,True
+@brendanhealy7226,2021-03-06T00:56:37Z,0,"Do the class numbers have to be 0 and 1? I've been using a tf model with OpenCV to find a cat or dog with a live video, but the model predicts 0 when there is a dog or if neither class is found.  I tried changing class_num from 0 to another integer to differentiate dog predicted from neither predicted, but then the model comes out terrible. Any way around this?",True
+@ayushdubey8745,2021-03-03T05:21:17Z,0,you look like Snowden man,True
+@sagihaviv5675,2021-02-25T04:39:11Z,0,sent how i can do one for words,True
+@Alhamdou_lilah,2021-02-23T11:35:29Z,0,how can i please convert all the pictures into dataframe of pixel ?,True
+@jamesdials13,2021-02-22T23:47:03Z,0,This was the most helpful video I've found. thank you!,True
+@bhuvaneshwarir813,2021-02-19T03:02:39Z,0,Could u plz  provide me caption so that I can understand easily,True
+@soeaung1984,2021-02-17T17:25:32Z,0,"You are very  good in teaching and the world need you, Sir.",True
+@vigneshvicky6720,2021-02-04T15:21:19Z,0,Sir please make video to identifing a numbers please... Because it has 9 outputs from 0 to 9 how would I find,True
+@vigneshvicky6720,2021-02-04T14:59:48Z,0,Super💥💥,True
+@joshuachan2097,2021-01-21T14:58:57Z,0,"Sorry I am new to this topic. I'm kind of confusing for the last part, the last row the X[1] can I say its the image and y[1] is the label for that image?  Till the last row, we actually already done the data training and by reading the X and y the machine start to do prediction? Is that all for the cats and dogs machine learning? Look forward to some answers, thanks in advance!",True
+@AnoNymous-ie3wc,2021-01-17T02:29:13Z,1,"My attempt for this one:  https://github.com/Apop85/Scripts/blob/master/Python/Sonstige_Uebungen/Deep%20Learning/recognizeShapesOwnData/recognizeShape.py The Script also creates its own test data with images of circles, squares and triangles",True
+@crazybrembo,2021-01-15T13:35:03Z,0,This helps me a lot.,True
+@abbasmurtaza6085,2021-01-15T12:42:01Z,1,why dont u use cv2.imshow()???? 4:40,True
+@MahdiVlogs,2021-01-12T10:08:24Z,0,"You're a real genius Sentdex. You're working so hard for providing the best material to your audience (us) and there is an Indian Copycat who is copying your code and misleading people. I've commented on his videos but he removed that. In my opinion, at least one should give some credits to the real developer. Please report to this Faker. https://www.youtube.com/playlist?list=PLUc_7x68VCSN_WNoeAnfydLL22sYyobgW",True
+@allwinalex7281,2021-01-07T12:05:58Z,0,"hank you for your turorials... I am stuck with following error from the last line of the code. Can someone please help ? : --------------------------------------------------------------------------- ValueError                                Traceback (most recent call last) <ipython-input-38-1b3ace3bfc47> in <module>      20               metrics=['accuracy'])      21  ---> 22 model.fit(X, y, batch_size=32, validation_split=0.1)  ~\anaconda3\lib\site-packages\tensorflow\python\keras\engine\training.py in fit(self, x, y, batch_size, epochs, verbose, callbacks, validation_split, validation_data, shuffle, class_weight, sample_weight, initial_epoch, steps_per_epoch, validation_steps, validation_batch_size, validation_freq, max_queue_size, workers, use_multiprocessing)    1038       # `Tensor` and `NumPy` input.    1039       (x, y, sample_weight), validation_data = ( -> 1040           data_adapter.train_validation_split(    1041               (x, y, sample_weight), validation_split=validation_split))    1042   ~\anaconda3\lib\site-packages\tensorflow\python\keras\engine\data_adapter.py in train_validation_split(arrays, validation_split)    1355   unsplitable = [type(t) for t in flat_arrays if not _can_split(t)]    1356   if unsplitable: -> 1357     raise ValueError(    1358         ""`validation_split` is only supported for Tensors or NumPy ""    1359         ""arrays, found following types in the input: {}"".format(unsplitable))  ValueError: `validation_split` is only supported for Tensors or NumPy arrays, found following types in the input: [<class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'>, <class 'int'.....",True
+@kevinmikez37,2021-01-04T04:39:41Z,0,"hey bro i was wondering if you can do a 3rd part working with this dataset in an ANN, would be nice.",True
+@stefanod.3069,2021-01-04T00:58:33Z,0,"holy shit these videos have helped me, thank you so much dude!",True
+@Ferrariic,2020-12-28T04:19:52Z,0,"If your pickle doesn't work try this:  import pickle with open(""X.pickle"", ""wb"") as X_pickle:     pickle.dump(X, X_pickle)      with open(""y.pickle"", ""wb"") as y_pickle:     pickle.dump(y, y_pickle)",True
+@nomad1104,2020-12-10T15:12:23Z,0,"Opened this for ""numpy array has no append method"" error help. Saw you didn't encounter it in create training data appending so I paused video and spent hours trying to fix it. Didn't think you'd run into it later in the video. Would have saved me 5 hours.",True
+@yacers2628,2020-12-05T01:19:09Z,0,<3,True
+@pallabpaul8860,2020-12-04T06:18:30Z,0,How can I load histogram values as a input in a neural network? please help me...,True
+@yepnah3514,2020-11-19T08:08:24Z,0,what is data dir? the place where i saved the image files?,True
+@shahihtv2582,2020-11-17T05:12:23Z,0,I want to classify anomaly detection using RNN keras.tf but I have a problem where the accuracy value increases but the val_accuracy value does not change and just remains constant at 50%. this is my complete code available on google colab https://colab.research.google.com/drive/1saoNuCxj08JCxZ_7taIjhp8sJEIV-T5U?usp=sharing,True
+@shubhamkedar508,2020-11-15T11:45:14Z,1,Can you make video on how to create raster(.geotiff) dataset in python,True
+@mustafagoksu7661,2020-11-15T11:22:54Z,0,"I get the following error: ValueError: Data cardinality is ambiguous:   x sizes: 22451   y sizes: 0 Please provide data which shares the same first dimension.     İ used codes: ________________________________________________________________________________________________________________     import numpy as np import matplotlib.pyplot as plt import os import cv2 from tqdm import tqdm  DATADIR = ""dataset/"" CATEGORIES = [""dog"", ""cat""]  for category in CATEGORIES:  # do dogs and cats     path = os.path.join(DATADIR,category)  # create path to dogs and cats     for img in os.listdir(path):  # iterate over each image per dogs and cats         img_array = cv2.imread(os.path.join(path,img) ,cv2.IMREAD_GRAYSCALE)  # convert to array         plt.imshow(img_array, cmap='gray')  # graph it         plt.show()  # display!          break  # we just want one for now so break     break  #...and one more! print(img_array.shape)     training_data = [] IMG_SIZE=50 def create_training_data():     for category in CATEGORIES:  # do dogs and cats          path = os.path.join(DATADIR,category)  # create path to dogs and cats         class_num = CATEGORIES.index(category)  # get the classification  (0 or a 1). 0=dog 1=cat          for img in tqdm(os.listdir(path)):  # iterate over each image per dogs and cats             try:                 img_array = cv2.imread(os.path.join(path,img) ,cv2.IMREAD_GRAYSCALE)  # convert to array                 new_array = cv2.resize(img_array, (IMG_SIZE, IMG_SIZE))  # resize to normalize data size                 training_data.append([new_array, class_num])  # add this to our training_data             except Exception as e:  # in the interest in keeping the output clean...                 pass             #except OSError as e:             #    print(""OSErrroBad img most likely"", e, os.path.join(path,img))             #except Exception as e:             #    print(""general exception"", e, os.path.join(path,img))  create_training_data() #print(len(training_data))    import random random.shuffle(training_data)      for sample in training_data[:10]:     print(sample[1])      X = [] y = [] y=np.array(y) for features, label in training_data:     X.append(features)     #y.append(label)     np.array((y,label))  #print(X[0].reshape(-1, IMG_SIZE, IMG_SIZE, 1))  X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 1) #X[3]      import pickle  pickle_out = open(""X.pickle"",""wb"") pickle.dump(X, pickle_out) pickle_out.close()  pickle_out = open(""y.pickle"",""wb"") pickle.dump(y, pickle_out) pickle_out.close()     pickle_in = open(""X.pickle"",""rb"") X = pickle.load(pickle_in)  pickle_in = open(""y.pickle"",""rb"") y = pickle.load(pickle_in)   # In[79]:   import tensorflow as tf from tensorflow.keras.datasets import cifar10 from tensorflow.keras.preprocessing.image import ImageDataGenerator from tensorflow.keras.models import Sequential from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten from tensorflow.keras.layers import Conv2D, MaxPooling2D  import pickle  pickle_in = open(""X.pickle"",""rb"") X = pickle.load(pickle_in)  pickle_in = open(""y.pickle"",""rb"") y = pickle.load(pickle_in)  X = X/255.0  model = Sequential()  model.add(Conv2D(64, (3, 3), input_shape=X.shape[1:])) model.add(Activation('relu')) model.add(MaxPooling2D(pool_size=(2, 2)))  model.add(Conv2D(64, (3, 3))) model.add(Activation('relu')) model.add(MaxPooling2D(pool_size=(2, 2)))  model.add(Flatten())  # this converts our 3D feature maps to 1D feature vectors  model.add(Dense(64))  model.add(Dense(1)) model.add(Activation('sigmoid'))  model.compile(loss='binary_crossentropy',               optimizer='adam',               metrics=['accuracy'])  model.fit(X, y, batch_size=32, epochs=3, validation_split=.1)",True
+@MR_Industrial_Automation,2020-11-12T04:26:41Z,0,"import numpy as np import matplotlib.pyplot as plt import os import cv2 DATADIR = ""E:/BHARGABH_PLC/Tensorflow Logic/PetImages/Dog"" CATEGORIES = [""Cat"",""Dog""] for category in CATEGORIES:   path = os.path.join(DATADIR,category) #path to dogs or cats dir   for img in os.listdir(path):     img_array = cv2.imread(os.path.join(path,img),cv2.IMREAD_GRAYSCALE)      Dear sir why i am got this error FileNotFoundError: [Errno 2] No such file or directory: 'E:/BHARGABH_PLC/Tensorflow Logic/PetImages/Dog/Cat' i have download and save the file on this dir E:\BHARGABH_PLC\Tensorflow Logic\PetImages",True
+@dr.r.hepzibagnanamalar6335,2020-11-11T08:50:28Z,0,how to download tflite file after its conversation from h5 file?,True
+@glavvrachd3344,2020-11-08T22:25:51Z,0,Чо он там говорил на английском нихуя не понял  А что он писал понял,True
+@faezemm5157,2020-11-06T21:33:48Z,0,can I download the cc of the video?,True
+@angelikaprzeliorz8325,2020-11-02T12:54:32Z,0,Where are we using here the code from the first film? What about it?,True
+@heshamibrahim3414,2020-11-02T11:37:49Z,2,"the plylist is amazing, however i came across this issues after running part 2 and part 3 back to back.. the y also needs to be an array, so the model.fit in part 3 can run... thank you once more :)",True
+@eyosiyastibebu6102,2020-10-29T21:06:26Z,1,sir how i appy data Augmentation when i use this loading system,True
+@4abdoulaye,2020-10-29T11:53:50Z,1,Have encountered thgis error in imshow? TypeError: Image data of dtype object cannot be converted to float,True
+@StaglyMusic,2020-10-26T16:24:51Z,0,'cat and raptor or something' :D :D,True
+@thewinnerog4667,2020-10-23T07:07:32Z,0,does this work with a multiclass problem?,True
+@kelvinxg6754,2020-10-22T17:25:35Z,0,My problem is i can't locate my file LOL is there any online dataset?,True
+@decoryherbert6952,2020-10-15T19:41:41Z,2,I found for the Y labels you have to make it a numpy array if not the model will not take them. Other than that this is an amazing tutorial,True
+@banafshekhazali81,2020-10-10T10:01:44Z,0,"That was a great tutorial, Thanks a billion, However I have faced an error when I was trying to fit the model on my X and y:    Failed to find data adapter that can handle input: <class 'numpy.ndarray'>, (<class 'list'> containing values of types {""<class 'int'>""})    Could you please help me?",True
+@decode0126,2020-10-01T10:08:35Z,0,why don't u use ImageDataGenerator,True
+@shrutiarya10,2020-09-26T18:15:25Z,0,Please make a video on how to make a dataset of images from scratch.,True
+@FurkanGulsen,2020-09-25T19:47:34Z,1,I've been looking for ways to upload 40k images to my Drive for 3 days. You in one word: you are perfect,True
+@prakharakumar17,2020-09-16T21:46:04Z,0,Thanks a lott🙏🏽🙏🏽 u just saved me,True
+@lucasphillips2177,2020-09-14T16:12:49Z,1,I am getting an error with the x = x / 255.0 Memory Error:  I converted x to a numpy array before the pickle_out.close. Any help? I think it's because the data set is so large,True
+@yanliu8152,2020-09-13T22:37:27Z,1,"Hi Sir, I found you posted X, y empty lists to store the features and labels. However, I have no idea how you distinguish the corrected features and labels from training datasets. Please kindly advise me. Thanks in advance!",True
+@adityanandgaokar6796,2020-09-10T14:37:19Z,0,Thank you man,True
+@auslei,2020-09-07T09:39:45Z,0,Great video as usual. But you need some silent fans for your computer!! :),True
+@laboratoriya,2020-09-02T08:34:52Z,0,"Greate tutorial, thanks. You already know that, you did not run line 42, that is why, I think X gave error there.",True
+@prophotographytml8122,2020-08-31T09:45:14Z,0,What are the things to do and consider to prepare my own data images. I'm a beginner.,True
+@haedes99,2020-08-31T09:32:55Z,0,"Can I do this on GoogleColab, please?",True
+@mansimehta2767,2020-08-25T16:41:44Z,0,"""Corrupt JPEG data: 128 extraneous bytes before marker 0xd9"" error shows while running create_training_data function. I can't remove that error.",True
+@thatgamer6380,2020-08-18T12:26:34Z,0,Hey great tutorial I've got a problem tho I keep getting file not found but I've named the file and put it in the directory the same way you have is there a way to fix this?,True
+@tanmaysharma2742,2020-08-12T07:54:05Z,0,"hey can anyone help me at 3:23 , what if i don't want to convert it into gray scale, should i just skip that step?",True
+@anahata1710,2020-08-10T16:40:04Z,0,"*Python по скайпу. Научу мыслить нестандартно. Решаем задачки, строим утилиты, игры. Data Science и всё, что с эти связано. Телега у меня в контактах. Напиши мне*",True
+@GRMREAP3R97,2020-08-07T04:35:46Z,0,7:00 its  a paw!!!,True
+@aryansethi5508,2020-08-05T09:14:06Z,0,"DUDE YOUR VIDEOS ARE JUST AMAZING !!! Following all your videos <3  So, I created an image dataset of around 10,000 images and I used a similar function to load my data and made a numpy array of those images but in like 15-20 secs, my  8 GB ram got full. How can I solve this issue ? Please help !",True
+@LegendKopper,2020-07-30T19:24:07Z,1,Hey Sentdex like always awesome tut but one suggestion: Can you mention your library versions you're using at the beginning? I had version compatibility issues  which I realized really late and I had to reinstall everything and make sure I also got the correct python version,True
+@manishanikam9325,2020-07-30T15:12:40Z,0,I like your way of teaching.,True
+@manishanikam9325,2020-07-30T15:11:09Z,0,"If i want to train the system for 4 categories, what the changes should i do?",True
+@dudeman4184,2020-07-23T00:44:21Z,0,Can you do a tutorial on how to make a dataloader for cases in which the amount of data is too high?,True
+@ragaistanto6722,2020-07-22T11:37:37Z,0,Mantap videonya. Saya juga ada nih rekomendasi channel lain buat belajar neural network siapa tau cocok hehe.  https://youtu.be/vyAsO_fzNF8,True
+@PadminiMansingh,2020-07-20T11:22:17Z,0,May I have ur mail-id sir,True
+@RamanKumar-mg8qs,2020-07-18T16:01:32Z,0,explain in detail please,True
+@chitralalawat8106,2020-07-17T16:57:27Z,0,Why is j[0] & j[1] like this? Use of reshape line & pickle??,True
+@mythorganizer4222,2020-07-12T12:16:29Z,0,"At 13:58 can't we just change the training data to np.array first to the training_data what I mean is:  training_data = np.array(training_data) X = training_data[:, 0] y = training_data[:. 1] (Please reply)",True
+@mjar3799,2020-07-09T21:06:23Z,0,"Hi  If I would like to use MLP, what should the shape of X and Y look like? Thanks",True
+@subramaniannk3364,2020-07-07T09:34:41Z,0,"I have tried without using try Exception block, I got an error.   With try block, it is working fine.  Is try block absolutely necessary here?",True
+@geethzzzp4384,2020-07-05T10:39:39Z,0,Sir.... How to do the classification using extreme learning machine (elm) can you do a video on the same..?? Plzzz.... 🙏🙏🙏🙏,True
+@user-cu2vk8ve8g,2020-07-01T21:39:34Z,0,"thanks ,how to install tensorflow in my pc",True
+@mikailismail5978,2020-06-30T13:18:55Z,0,Anyone running this in google collab? How do you quickly  upload files to it. API not available for old contests in kraggle and uploading to google drive taking too much time.,True
+@Irfankhan-jt9ug,2020-06-30T04:05:02Z,0,Thanks for the awesome tutorials. How do you perform image augmentation in this? You sir are a great man,True
+@tarushsingh1108,2020-06-28T20:30:56Z,1,Shows the model a butterfly  Model : Is this a dog ?,True
+@nakula1653,2020-06-27T07:35:48Z,0,Pwoli pwoli.......pwoli sadhnm..... see translation haha,True
+@hanujirahmatnagoro4518,2020-06-11T14:25:15Z,0,"hello @sentdex or all of his viewer... how to plot figure by its category ? for example first row, containt 5 different figure from A category second row, containt 5 different figure from B category third row, containt 5 different figure from C category fourth row, containt 5 different figure from D category fifth row, containt 5 different figure from E category  current code: plt.figure(figsize=(10,10)) for i in range(25):     plt.subplot(5,5,i+1)     plt.xticks([])     plt.yticks([])     plt.grid(False)     plt.imshow(train_image[i], cmap=plt.cm.binary)     plt.xlabel(KATEGORI[int(train_label[i])]) plt.show()",True
+@pradheepm1371,2020-06-10T08:24:46Z,0,This code is suitable for multiclass classification,True
+@michaelberna987,2020-06-09T03:10:14Z,2,"Thanks Snowden, nice tutorial.",True
+@anitashirol7010,2020-06-06T13:31:35Z,0,Can u help me with error end of file while loading pickle,True
+@dharmasaputra1051,2020-06-02T15:02:14Z,0,Very good video !!! please add subtitle and also maybe you can share your jupiter file so the audience can download it,True
+@gecovasttt,2020-05-26T16:28:47Z,2,How to load the image data set from my computer and split into two data set for training and testing?,True
+@sathishbabu3867,2020-05-22T18:30:12Z,0,how to to download persons dataset like cats and dogs,True
+@jamesriri1810,2020-05-22T11:13:31Z,0,Sentdex these are the best videos I have ever seen in Deep Learning. Amazing tutorials. You are the best at what you do. Why did it take me long to find this channel.,True
+@namanbansal7277,2020-05-21T12:32:44Z,0,I did not understand what's with the -1 during resizing of the array. Can anyone help me out here?,True
+@namanbansal7277,2020-05-21T12:23:54Z,0,Thank you so much SentDex,True
+@narjiszehra4231,2020-05-18T14:27:56Z,0,Can this work on google colab?,True
+@GelsYT,2020-05-16T12:34:05Z,0,This video was 2 years ago! Hey sentdex! THANKS :D,True
+@suyashschmidt6985,2020-05-15T01:31:08Z,0,You already defined X you just didn’t run that cell,True
+@angadkadam2844,2020-05-14T11:49:23Z,3,"how do you split if we want to use 4 variables..like  x_train,y_train,x_test,y_test   ????????",True
+@pawegoebiowski1641,2020-05-13T11:18:45Z,3,"16:25 There isnt problem in the kernel, I restart it and still have same issue. Dont know how it repair",True
+@veer9423,2020-05-11T16:25:13Z,0,I want my images in original color how do I do this?:),True
+@aunitipol,2020-05-09T08:25:13Z,0,"Excuse me. If my train data have 120 classes. Did I need to Coding 120 classes in CATEGORiES? (like Cat, Dog, Car, Boat, Plane or something like this )",True
+@elijahturatsinze1576,2020-05-07T12:15:51Z,0,"Can anyone help me please  to solve this error?, AttributeError: 'numpy.ndarray' object has no attribute 'append', I got the same error as what happened to you in this video",True
+@djameleddinechahrat4926,2020-05-04T10:01:13Z,0,"thanks, loool why you are changing the cups XD",True
+@elijahturatsinze1576,2020-05-01T07:50:16Z,0,"How do you solve this error?, AttributeError: 'numpy.ndarray' object has no attribute 'append', I got the same error as what happened to you in this video",True
+@elijahturatsinze1576,2020-05-01T03:08:25Z,0,That's an informative  video. thank you so much,True
+@sagurockstar5633,2020-04-29T09:09:13Z,0,what is the role of -1? Please explain,True
+@nishant1720,2020-04-28T10:33:51Z,0,Great understanding . Thank you for the course The testing folder and src_text file is not showing while extracting the zip. Why? If anybody having them please give the links to download them,True
+@huashi8893,2020-04-28T04:15:17Z,0,Very detailed and helpful  and cute. Thank you,True
+@joeyjarrett488,2020-04-24T09:26:13Z,1,"Error:  Failed to find data adapter that can handle input: <class 'numpy.ndarray'>, (<class 'list'> containing values of types {""<class 'int'>""})   X = [] y = []  for features,label in training_data:     X.append(features)     y.append(label) print(X[4])  print(X[0].reshape(-1, IMG_SIZE, IMG_SIZE, 1))  X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 1)   Fix, add:  y = np.array(y)",True
+@BaltiYoussef,2020-04-23T20:07:11Z,0,"You explain so well, but the project i'm working on , is on 10 different classes. i don't know what i should chnage in my code , i'm really lost , this is my first ML project. can someone pleaaaase help me ? Thanks a lot in advance",True
+@nasrullahiqbal6356,2020-04-22T20:59:22Z,0,Hi.. I got this error during loading pickle in CNN... `validation_split` is only supported for Tensors or NumPy arrays,True
+@divineametefe3187,2020-04-21T19:04:09Z,0,"Hello, how do I fix this error? "" File ""<ipython-input-16-28ee68e976bf>"", line 6     DATADIR = ""C:\Users\asus\PetImages""              ^ SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape""",True
+@ganeshrajv130,2020-04-21T13:37:22Z,0,"can you send me the data set please ,  to edugan28@gmail.com",True
+@maxluck,2020-04-21T09:54:04Z,0,May I know x.pickle is a file?,True
+@anandrai4984,2020-04-19T12:30:24Z,2,I don't know why whenever I try to print reshape of X I get metrics of all zeros,True
+@TheUNdErMiNdEd,2020-04-19T08:18:31Z,0,"""We should not have to deal with that sh- ....ape.""",True
+@guillermobastianfernandez1679,2020-04-18T20:19:46Z,2,"Please, I have issues with reshape, someone can help me with this issue? ----> 1 X  =  np.array(X).reshape(-1, 50, 50 , 1) ValueError: cannot reshape array of size 24942 into shape (50,50,1)",True
+,2020-04-18T00:32:45Z,0,man wtf is pickle,True
+,2020-04-18T00:23:30Z,0,"11:30 Weird how that can be applied to humans, if we come from a toxic home or else, then change later it's going to be hard af",True
+@kursadileteknolojinoktaste123,2020-04-13T07:52:58Z,0,Hello sentdex  I am watching your videos for a long time actually they are awesome Also  ı am from Turkish I am just 11  if you can write my email    kursadyildiz1979@gmail.com   I wanna ask you something,True
+@sids3194,2020-04-11T19:07:28Z,0,what modifications should i make to make it work with rgb images?,True
+@samrichards5285,2020-04-08T11:48:56Z,0,Can I use pycharm for this tutorial???,True
+@shathabahassan534,2020-04-08T00:30:21Z,0,Thank you so much 💙,True
+@unknown_3415,2020-04-06T14:40:04Z,0,Hey sentdex u used cnn algorithm ?,True
+@karanathavale1727,2020-04-06T09:28:42Z,0,hi i downloaded cv2 but it sstill syas that there is no cv2,True
+@victormalichenko6171,2020-04-04T10:19:46Z,1,"Hi, thank you for the video. While running ""print(len(training_data))""  I have ""0"" in the output. What could be the problem?",True
+@xumuk1155,2020-04-03T14:35:00Z,0,"when we are creating X from our training_data, why do we need to make it a NumPy array? Moreover, why it needs' to be reshaped that way? Could anyone explain that?",True
+@jiayusong1287,2020-04-02T20:17:01Z,0,"Can someone explain this part: X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 1) what represent the last '1'? We already known that the shape of the X is (8000, 50, 50, 1).",True
+@muhilraajar271,2020-04-01T11:55:16Z,0,"I have a dataset of 70,000 images which totals about 400 mb data. When I convert and store it into numpy array the size is 3 GB. How can a 400mb image dataset is coverted to 3 GB.?",True
+@fun-ih5sc,2020-03-29T19:20:49Z,0,seriously you teaches better than my professors  Thanks for teaching us. :),True
+@vishunixon,2020-03-29T16:26:21Z,0,whtif there are more than two categories I am really stuck:(,True
+@moomalfarhad658,2020-03-27T18:02:15Z,0,Can this exact same code be used for training any dataset which has two categories?,True
+@hpsalway6538,2020-03-26T13:53:34Z,1,Please make a video on how to load in the iam dataset.,True
+@moomalfarhad658,2020-03-22T23:43:20Z,0,No such file or directory: 'C:\\Users\\mooma\\Desktop\\dogs-cats-images/Dog....why I am getting this error please help,True
+@marcinziajkowski3870,2020-03-21T19:18:54Z,0,Can I work with images with diffrent sizes without normalization (resize)? How to setup input layer?,True
+@mariamdynar5132,2020-03-20T20:35:34Z,0,"I have always  these erreur  ** Image data of dtype object cannot be converted to float **,  does any one have solution????",True
+@niketjain3030,2020-03-18T10:43:16Z,0,"Even after installing the opencv library using 'pip install opencv-python', it is still showing error when i import cv2 library on jupyter notebook, says that 'ModuleNotFoundError: No module named 'cv2' '. How do i solve this issue ?",True
+@giovannisinclair9785,2020-03-16T21:43:20Z,1,"Thank you very much! Although I did the same as you, I got the error 'X.pickle is not UTF-8 encoded'",True
+@kaomivtuber,2020-03-07T20:46:50Z,0,"But what if you want to classify more than 2 things? Such as Dogs, Cats and Rats?",True
+@prasmitpansare,2020-03-04T18:41:25Z,0,"One of the most helpful video I came across as beginner. I still have not found anyone discussing how to create our own dataset and label them. I have 5000 PDF which I have converted to text and I am lost now, I dont know what to do here on, can someone give me a direction ?",True
+@sleepydev4700,2020-03-04T08:56:53Z,0,I realize that I have to disable my own javascript to download the dataset :),True
+@FlavorOfTheMonthChannel,2020-03-04T02:27:49Z,0,"If you're not using Jupyter notebook and you get an error where it starts lagging as it gets through loading the data, try instead opening the command line and running your python script from there. This fixes the error for me. Not sure why it gets stuck about halfway through loading the data when running the script in idle instead of command line. Hope this helps someone. For example, i open command prompt, then CD into my python directory ""cd C:\python36"", then i run ""python my_file_name.py""",True
+@hakeemgsson,2020-03-01T18:42:50Z,0,"I made a form using OpenCV (face recognition), but my data is constantly changing, meaning that data should be added almost every week. How do I make the form automatically train with new data and give results?",True
+@Darkzzzz99,2020-02-28T13:54:44Z,2,i try to make my own model with 8 labels but my y.pickle is empty when i try to run it it says run out of output. Anyone know how to solve this?,True
+@jirayu398,2020-02-25T06:50:05Z,0,How to create 6 directories,True
+@eddw123,2020-02-24T21:44:25Z,0,Do you think that using Jupyter was a good option to teach this tutorial??😕,True
+@kwantom1996,2020-02-19T12:52:40Z,1,"If my data are 1-D arrays instead of 2-D images, how should I reshape it?",True
+@hanujirahmatnagoro4518,2020-02-18T10:35:08Z,0,and if i dont want to grayscale ..? how ..? newbie,True
+@buvaneswarithamaraiselvam8333,2020-02-16T16:44:56Z,0,"Hi sir am new to machine learning, I need small help. If we have a unstructured images. I want to labels those images, example if Amazon having lots of images how did they label those images, I don't have any trained images to give labels",True
+@arvinjaysonarenas5319,2020-02-16T00:16:05Z,0,"for features, label in training_data:     X.append(features)     y.append(label)      X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 1)  there's an error saying that 'numpy.ndarray' object has no attribute 'append'  can someone help me please it's for a major project of mine at school",True
+@belhocineyacine1996,2020-02-15T13:12:37Z,0,hello sir im very happy with video but when i tryed to work with this examples there is an error a winerror 123 shows up so what's the problem ???,True
+@aleekazmi,2020-02-14T12:07:55Z,0,Is this what Edward Snowden is doing nowadays to kill time?,True
+@saishsawant7831,2020-02-13T07:38:33Z,0,"I am working on Emotion Recognition. Will the idea of creating dataset for happy, sad, angry and training it directly work?",True
+@rfatcakr,2020-02-09T11:33:51Z,0,"if you need an example on how to train your own model and dataset with TF, check this https://medium.com/analytics-vidhya/create-tensorflow-image-classification-model-with-your-own-dataset-in-google-colab-63e9d7853a3e",True
+@leonardo.2254,2020-02-08T22:31:30Z,0,"I'm trying to train a RNN with some data, wich contains a list of lists of list of values, something like this [[[[1,2,3],[3,3,3]], [[23, 22,3], [0,0,9]] ], [[[2,2,2],[3,2,2]], [[0,0,0],[3,2,2]]]], the output of this will be 1 or 0, if the values are repeating or something like this, I don't know where can i put the output of each list  of list, and what algorithm should I use. I viewed a lot of your tutorials. Thanks.  I don't ask to help me to solve the problem, just an adivce what NN should i use for something like this and a small example.  email me at: leonardemi@yahoo.com, or if someone is interested of this.",True
+@ankurpatel1809,2020-02-02T17:23:25Z,0,how comes you used os.path.join twice? when i tried to adapt it to mine the image names get a two forward slaches and how comes you have inputted the image file name?,True
+@imveryhungry112,2020-01-28T18:04:57Z,0,Thank you brother,True
+@uchennaakparuorji63,2020-01-18T18:29:11Z,1,i can never thabk you much for this video you keep uploading @sentdex but i also have an issue my tensorboard is displaying validation and train in the same plot. how can i solve this?,True
+@yogeshwarshendye4857,2020-01-18T12:27:41Z,0,"I am getting this error:  ValueError: Input 0 of layer conv2d_2 is incompatible with the layer: expected ndim=4, found ndim=2. Full shape received: [None, 7744]   I used COLOR_BGR2RGB and while developing CNN model, I got this error",True
+@cleopatrabacauanu7522,2020-01-14T08:47:08Z,0,It does not read my datasets folder? Why?,True
+@deepakathirvel8023,2020-01-13T07:50:04Z,1,It was really a very useful video...Thaaank u very much for ur timely help,True
+@kidjdog6564,2020-01-10T23:32:14Z,0,"I am getting stuck on 'X = np.array(X).reshape(-1, imgSize, imgSize, 1) ' It throws an error, and yes my image size var. is different from yours",True
+@punitkoushal5428,2020-01-09T22:42:59Z,0,I have one data frame which contains url of an image how to train my model to categorized the image,True
+@shyamnehru142,2020-01-02T06:38:57Z,0,I get a train_data value 0,True
+@shyamnehru142,2020-01-02T05:30:09Z,0,What we have to do if we have multiple label folders like cat horse and dog,True
+@sasidhar013rmse,2019-12-28T13:43:43Z,0,When you are resizing array using  image size as 50 some of those dogs are like mostly the hairy ones,True
+@abinaya771,2019-12-28T07:43:30Z,0,How to bring the dog's picture ?,True
+@kishpawar,2019-12-27T15:00:39Z,0,How relevant is this tutorial today?,True
+@m.waqaschughtai9707,2019-12-26T11:18:36Z,0,"i worked on Material Science using Python if you are working on that domain, please  share with me url",True
+@Najla_G,2019-12-25T09:33:01Z,1,I keep having this error ModuleNotFoundError: no module named 'cv2'. Even after I ran '!pip install opencv-python'.,True
+@saadchahba2187,2019-12-21T23:24:23Z,0,What are you drinking man,True
+@sazidabintaislam2676,2019-12-20T07:14:18Z,0,"Hellow, If I want to do Data augmentation, for example, rotation, zoom, where to add that part?",True
+@sidrakanwal7065,2019-12-10T17:25:52Z,0,"Hi  I have a question my dataset is stored in drive and i am working in google colab python3 notebook where  i am using   DATADIR = ""F:\uni data\thesis\Thesis_dataset"" and found an error  File ""<ipython-input-3-9cf649784d8c>"", line 1      DATADIR = ""F:\uni data\thesis\Thesis_dataset""               ^I  SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \uXXXX escape can you plz help me?",True
+@chrisochristudhas4987,2019-12-09T10:56:11Z,0,"X.append(features)  AttributeError: 'numpy.ndarray' object has no attribute 'append'  I got this error  Can someone explain why I got this error and how to rectify it.",True
+@PerfectNight123,2019-12-08T16:16:58Z,0,"If I did not resize my images, and all my images are in different sizes. How do I np.resphae() the list at 15:42",True
+@serafiniiigamad2090,2019-12-08T09:28:44Z,0,What to do if were going to use multiple categories?,True
+@KashifShaheed,2019-12-06T11:20:54Z,0,"X.append(features)  AttributeError: 'numpy.ndarray' object has no attribute 'append'    I got this error while preparing the dataset @sentdex how can i resolve",True
+@dayangkunurfaizah928,2019-12-03T01:50:56Z,0,Hi. Do you know how can I read multiple images in Python presented in a folder using Ubuntu?  Any idea? Thanks,True
+@pjainnn,2019-12-02T09:27:16Z,0,"DATADIR='F:/Task/Watermark_test_data/' CATEGORIES=['Watermark','No Watermark']  for category in CATEGORIES:     path= os.path.join(DATADIR,category) #path to test folder     for img in os.listdir(path):         img_array = cv2.imread(os.path.join(path,img))   FileNotFoundError: [WinError 3] The system cannot find the path specified: 'F:/Task/Watermark_test_data/Watermark' I'm getting this error while loading my dataset.Can somebody help ,please ?",True
+@PRASAD_PAWAR_MB,2019-12-01T18:49:34Z,0,sir how can i work with csv datasets in deep learning,True
+@Lord2225,2019-11-30T13:47:39Z,1,best: tf.keras.preprocessing.image.ImageDataGenerator,True
+@shritamkumarmund5273,2019-11-26T17:53:22Z,0,"Hey, do you have any plan to make a series on Tensorflow2.0?",True
+@ssagonline,2019-11-25T06:54:22Z,0,"Works like a charm. For those(beginners like me) who had issue in layers like ""kernel size  not defined"". Just replace ""(3,3 ) by kernel_size=3 "" in layer 1 and 2  and it will be good to go.",True
+@MoviesHub-zq1rv,2019-11-10T20:26:02Z,0,If i want to load the uncategarize dataset then how can i do?,True
+@Actrl51,2019-11-06T20:54:39Z,0,6:57 paw?,True
+@totoro5083,2019-11-05T00:59:57Z,0,"The X.pickle saving disabled,is not UTF-8 incoded. How can I modify it?",True
+@vinayapathak,2019-11-02T02:30:00Z,0,What  should I do if the folder containing Cats and Dogs Images are zipped/compressed  into .zip file??,True
+@NickxHaruka,2019-10-31T17:00:27Z,0,Sequential model is only for 2 classes /categories right ?(eg. Cats and dogs)  So what If I have more than 2 categories. What model should I use ?   Can someone please help me :'(( need it for my final year project. Thanks !,True
+@eastwoodsamuel4,2019-10-26T11:26:49Z,0,"X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 1)    Why are we using the last '1'? It's just making each element in the image array to be a single element list.",True
+@infiniteunconditionallove1620,2019-10-26T07:40:08Z,0,i want to know next how to  use it in feature object matching?,True
+@Nusiq,2019-10-25T18:52:50Z,5,14:42 I had to change both X and y into numpy array to make it work. y as a list didn't work.,True
+@aravindswamy7631,2019-10-21T14:40:15Z,0,Can u do the same by comparing the image you upload as input and it needs to check wheather image u uploaded is present or not in the data ..can u do this for me sir or can i have a link to learn that .,True
+@user-gq8nm1je8m,2019-10-21T12:15:51Z,0,i know it sounds weird to ask this question but i will have to please tell me  the difference between open cv and tensorflow,True
+@falex9070,2019-10-17T09:55:18Z,0,Why do I have at the end 0 as result and not the output from the video?,True
+@AnimilesYT,2019-10-16T10:58:28Z,0,The dog that was shown to me could've been a koala when rescaled to 50x50..,True
+@AnimilesYT,2019-10-16T10:54:55Z,20,"5:04 I don't know why, but the way you casually said ""ha, bluedog"", and then continue on, was hilarious to me xD",True
+@obsiyoutube4828,2019-10-15T14:27:37Z,0,FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:Users\\CSE\\Desktop\\Machine learning trial code\\PetImages\\PetImages\\Cat',True
+@manjeetsingh-fr5zd,2019-10-14T03:23:48Z,0,you are simply amazing,True
+@rubenuribe,2019-10-09T06:34:38Z,1,"this video is amazing, I am so glad I found your channel. I have tried learning this stuff for quite a while now through other YouTube videos but nobody could explain it that well. <3  :)",True
+@benjaminfindon5028,2019-10-06T09:48:38Z,0,[WinError 3] The system cannot find the path specified:,True
+@obsiyoutube4828,2019-10-05T07:26:55Z,1,how can fix this error  [WinError 3] The system cannot find the path specified: 'C:Users\\CSE\\Desktop\\Machine learning trial code\\PetImages\\Cat',True
+@obsiyoutube4828,2019-10-05T07:07:18Z,0,"thank you sir for your smart presentation and how can i fix this error help me anyone  TypeError: join() argument must be str or bytes, not 'list'",True
+@walterwhite0107,2019-10-03T11:20:44Z,0,What is category in your code for category in CATEGORIES??,True
+@GONZALORUIZRON,2019-10-03T01:29:07Z,0,"Hi Sentdex, I need to get data from a web cam to run machine learning about time of people in room, how many times they change positions, etc. Please write me to see if you can code something for me urbabienes@ gmail . com  tkyou!",True
+@abdellahgrinzou548,2019-10-02T22:07:15Z,0,What to chanage if want read RGB dataset instead of grayscal ... ?,True
+@oOoHaneriChanoOo,2019-10-02T21:36:53Z,0,I don't get where's created the directory,True
+@IlllIIIlllIIIlll,2019-10-02T08:27:41Z,0,Don't you mess with the proportions if you scale the 398x500 image into 50x50? Maybe dog's snout gets too squished and starts looking like a cat's mouth.,True
+@NikhilSandella,2019-09-27T01:17:18Z,0,"I really love your teaching style man. Keep going. :) Query: Can you plz explain how I could store a *DL model output*, basically set of images (numpy arrays stored in an image variable), in a *SQLite database*?  P.S: As in Object Detection",True
+@aswinosbalaji4224,2019-09-20T17:48:46Z,0,resize is not taking negative values (-1) what should i do? iam using the tf version 1.4.0 and 3.7.3 python . pls help,True
+@spkibe1655,2019-09-19T20:03:16Z,0,"SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape  ,, ......help",True
+@Tyzon201995,2019-09-19T05:34:55Z,0,I see no one has commented about the inline printing of images/plots in Jupyter Notebook so here it is: %matplotlib inline Add this line before or after importing libraries and you will not have to use plt.show() anymore.,True
+@kibbutztradelink2287,2019-09-18T13:42:11Z,1,name error in training_data and  CATEGORIES. please help,True
+@anonanon3066,2019-09-17T18:23:53Z,0,I can't get the model to train properly... I only get loss and acc around 0.5 which basically means that it is just guessing... I am using the following topology: layers.flatten dense (512) dense (512) dense (512) dense(2);   20 epochs,True
+@erictheawesomest,2019-09-15T13:13:17Z,0,I'm stuck... the numpy docs say that reshape only takes 2 arguments   https://numpy.org/doc/1.17/reference/generated/numpy.ndarray.reshape.html#numpy.ndarray.reshape,True
+@eshratmuniya2951,2019-09-12T14:48:34Z,0,Can it be done with Spyder ( python 3.7) ?,True
+@DanipBlog,2019-09-08T16:27:05Z,0,I keep getting an error No module named 'cv2' even after I've pip installed opencv-python,True
+@zainabriaz3151,2019-09-04T06:25:52Z,0,"It's quite helpful tutorial.... My question here is, can we use the Same way to read the zip folders of images..... Actually I'm using CT scan data of lung cancer in which images are in  .nii.gz form  Can you plz help me out in this case?  Thanks in advance",True
+@apurvgarg7628,2019-09-04T02:49:12Z,0,"Hey, awesome tutorial. Just a quick question about shuffling the classes. Rather than random shuffling, arranging them in a fixed alternate sequence (1- cat; 2- dog; 3-cat; 4-dog ... so on) will give a better trained model .. is it ?",True
+@arjunpukale3310,2019-09-02T07:01:26Z,0,While dumping I'm getting memory error,True
+@nagajyothi1101,2019-08-31T12:46:49Z,0,Could you please help me in detecting insects,True
+@shyamgurunath5876,2019-08-27T17:50:14Z,0,%matplotlib inline,True
+@lemyul,2019-08-26T17:33:02Z,0,"finally, I got through this video without any error",True
+@lemyul,2019-08-26T17:18:48Z,0,13:22  why is X big and y is small?,True
+@vizotechz6104,2019-08-22T16:06:28Z,2,hi can you tell me if we have more than two classes then what to do. As I have a data with 10 classes.,True
+@mariamkhursheed,2019-08-22T12:48:49Z,0,I am heck stuck at the x thing..... what is the x drive????? i have th e file saved in ma C drive,True
+@PlaneToTheBrainES,2019-08-21T20:31:05Z,2,"plt.imshow(img_array, cmap=""gray"") plt.show()' shouldn't retrieve all images, not just the first one?",True
+@codewithlenny,2019-08-19T21:31:00Z,1,There he goes again. # THE MUGS  🍷🍸🍹🍾🍶,True
+@tallurinagapoornima2356,2019-08-19T07:21:42Z,0,Can we create a model so that if we give an egg Image it should say it is egg or else it is not egg,True
+@usmanahmed3035,2019-08-16T10:56:53Z,0,B L U E   D O G,True
+@izxle,2019-08-14T16:27:14Z,0,The 100x100 example in pythonprogramming.com is the same as the 50x50,True
+@pulseworks1663,2019-08-14T02:09:59Z,0,"ok so i have an issue loading large data sets, i know my code is at least somewhat fine because it's mostly his and it has worked on a smaller dataset (~2,000 images) I'm trying to load a larger dataset (~18,000 images) and i'm getting this error: numpy.core._exceptions.MemoryError: Unable to allocate array with shape (17976, 200, 100, 3) and data type float64 also, is there a chance it's the 200 by 100 aspect of the pictures because that ratio is necessary? Thanks for the help",True
+@tianruowang2870,2019-08-11T14:13:12Z,0,"i followed the code as you typed, but i got the error said TypeError: Image data of dtype object cannot be converted to float when i want to print out the image",True
+@TheMikerandall,2019-08-05T07:00:14Z,0,"nice tut videos, don't change anything.",True
+@masbro1901,2019-08-04T06:42:24Z,0,"my mac is crash when open that thousand files of cat and dog in jupyter notebook, i assume that you only open 1 file in this 4:38 , right?",True
+@nitinbindal5308,2019-08-02T19:43:18Z,0,"For inline in jupyter notebook   use  ------ %matplotlib inline  -------- after this you don't have to write   ""plt.show()""  anywhere in your code!!!!!",True
+@petroliashchynskyi9900,2019-07-30T21:00:54Z,0,"Hello, people) I've been working on CLI tool that's gonna help with dataset augmentation and image converting for CNNs or GANs or even other thing that needs images as input data.  Here it is https://github.com/liashchynskyi/rudi  Support the repo with a star, if you like it! Thanks, hope this tool will help you 😀",True
+@erfanroghani,2019-07-29T22:34:34Z,1,"When I run ""X=pickle.load(pickle_in)"", I get ""EOFError: Ran out of input"". Why? I checked every thing",True
+@lemyul,2019-07-27T15:14:35Z,1,NameError: name 'X' is not defined,True
+@lemyul,2019-07-26T19:53:22Z,2,print(len(training_data)) 0   why did I get a zero result?,True
+@palashbehra9303,2019-07-26T12:48:26Z,0,%matplotlib inline # this?,True
+@aakashdusane,2019-07-24T13:22:25Z,3,"At 14:00 is there any reason why we dont just do: training_data = np.array(training_data) X = training_data.T[0] y = training_data.T[1]",True
+@ahmet9446,2019-07-23T19:49:28Z,0,"I like your enthusiasm friend. I would like to say, if it is acceptable for you, if you use the term ""labels"" rather than the term ""categories"" next time.",True
+@reinaldo_agostinho,2019-07-22T01:46:38Z,0,awesome tutorial,True
+@nandhannatarajan2127,2019-07-13T01:03:57Z,0,Im getting a C++ error for cv2.resize. Can anyone help?,True
+@joshcarr2356,2019-07-12T14:45:12Z,0,"I'm getting a file not found error, no such file or directory. I'm using  ""C:/Datasets/PetImages"" and I've put the folder into C:/.",True
+@MrVivekc,2019-07-08T15:00:51Z,0,"Hey, please do a tutorial for handwriting extraction and recognition from images.",True
+@barbarianfadler2074,2019-07-04T08:34:33Z,0,How do you pick the number of neurons for a hidden layer?,True
+@DOPEBEATZBOYS,2019-07-03T11:55:25Z,0,learning so much more from you than college lol,True
+@THEANIMALCHIEF,2019-07-01T18:05:59Z,0,Which IDE are you using in this video?,True
+@shalina6309,2019-07-01T14:14:53Z,0,it give me the length of training data set= 0  after this line ==>  print(len(training_data)) can anybody helps me in this case?,True
+@garrettsolarsystem2585,2019-06-29T07:45:19Z,5,"Great tutorial! However, I got a question. What if you have an image in multiple categories. So you could be sorting images based on size and colour and you stumble on an image that is red and big.",True
+@rahulsonvane8141,2019-06-28T08:41:22Z,0,"Might be a silly doubt but I didnt get why ""-1"" was a parameter in reshape. Though he explained it, but I didnt understand. Can someone elaborate please?",True
+@abhishekkukreja6735,2019-06-26T10:56:30Z,0,for the matplot library we can use %matplotlib inline,True
+@sachinswamy5264,2019-06-26T08:31:23Z,0,Heyyy ur teaching is truely way gud and if possible can u make a video on installation process on tensorflow and keras!?,True
+@zahid7885,2019-06-23T16:07:26Z,2,the dataset is 787 mb!!! took a while to download XD,True
+@NuXxCr0,2019-06-22T21:11:23Z,0,"Couldn't you also reshape X array using X.reshape(X.shape[0], -1).T? I assume X is a matrix of shape (a,b,c,d), ""a"" being the number of examples, b and c IMG_SIZE and d CHANNEL size (RGB).    The ""Flatten"" array would be (b*c*d, a), in our case (50*50*1(Grayscale), #images)",True
+@ahmadmoussa3771,2019-06-21T09:43:53Z,0,He... Blue dog.,True
+@BoneCrushGaming,2019-06-18T03:31:22Z,0,Downloaded opencv. cv2.imread function and everything else DOESN'T EXIST (like it says imread isn't referenced in the folder)! How is this possible when you download it using pip install opencv-python does it not give you everything you ask for? Anyways I did find a conda version of downloading it but it says it has to downgrade a lot of other versions and I personally don't like that idea. What should I do?,True
+@aliakbarpamz,2019-06-14T13:51:09Z,0,Super nice tutorial...,True
+@malikadabare3719,2019-06-12T05:31:35Z,2,one of the best programming channels on YouTube. Subscribed and hit the bell ; ),True
+@robsonesteves3418,2019-06-08T16:15:10Z,0,"Hi Sentdex, thanks! A great tutorial!  Just one doubt: just for tests, I created a training_data with 100 cats, 100 dogs, with 100 x 100 pixels resolution.  When I do  X.shape, I""m receiving (200, 100, 100, 1). Which means the 1 ? The other data are clear but this value I don't know the meaning.... Thanks!",True
+@atithi8,2019-06-04T20:02:21Z,0,"I can guarantee , you are a dog person : )",True
+@minjaewoo5243,2019-06-02T20:44:38Z,0,"This is currently the best TensorFlow tutorial on youtube. Can't express how thankful I am, after wasting much time on crappy videos named TensorFlow in 10 mins, 5 mins, 1 min and etc...",True
+@harisimer,2019-06-02T03:08:55Z,1,"I need a tutorial that tells me what ""import"" means",True
+@bibanez135,2019-05-30T20:13:14Z,6,"Sentdex, I didn't understand when you did the reshape what the -1 exactly meant... you glossed over it a little bit. What does it exactly mean? Thanks",True
+@Videomaster3000Dk,2019-05-29T20:12:02Z,0,keep it up!,True
+@sohumpathak2428,2019-05-25T07:36:23Z,0,You did a lot of unnecessary steps Could have been faster,True
+@j.k.1929,2019-05-22T09:08:58Z,0,"I always get an error (FIleNotFoundError: [Errno 2] No such file or directory: 'C:/DATASETS/TEST/Cat on the line: for img in os.listdir(path) The folder exist, but why can Python not find it",True
+@tommyhuang6698,2019-05-20T23:05:13Z,0,so good and so clear,True
+@fagerholmjimmy,2019-05-18T08:39:09Z,2,Beginner-tip: !pip install [library] inside jupyter notebook to install,True
+@syedinamulhaq5173,2019-05-12T12:49:27Z,0,https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en use this chrome extension to download images easily !,True
+@lachlangray8120,2019-05-11T22:48:27Z,5,I was looking at the data and one of the dog images is literally just the yahoo mail logo lol,True
+@liamfmackle,2019-05-08T10:42:40Z,17,"6:50 ""the hand of a dog"" - it is called a paw! hahaha",True
+@santoshmishra9573,2019-04-30T03:12:17Z,0,how to generate car dataset?,True
+@StevenSmith68828,2019-04-25T23:22:43Z,0,where did he define labels?,True
+@Shah_Khan,2019-04-24T14:02:29Z,0,"Hi sentdex, the dataset is not downloadable from the website. So please host it in your website or here. Thanks in advance.",True
+@ahmedabdelwahab2352,2019-04-24T06:27:33Z,0,"os.path.join won't take a list as an argument, how did you get it to work? I've struggled with this for a really long time",True
+@mohamedtouati9663,2019-04-23T15:56:50Z,0,"HI sentdex ! good work  i like ur codes ,  how can i train my image  dataset and do my classification of an image   from a camera video ?",True
+@lautarodapin,2019-04-18T15:09:02Z,0,"Hi, i had been having problems to load the data using jupyter notebook  FileNotFoundError: [WinError 3] El sistema no puede encontrar la ruta especificada: 'abcbelen\\a' (sistem can not find the specified rute)  I could not find how to solve the issue Other errors that i had were ""permision denied""",True
+@saic6237,2019-04-14T16:03:51Z,0,Qsn: image looks like this   [[255 255 255 ... 255 255 255]  [255 255 255 ... 255 255 255]  [255 255 255 ... 255 255 255]  ...  [255 255 255 ... 255 255 255]  [255 255 255 ... 255 255 255]  [255 255 255 ... 255 255 255]] What does that mean ?,True
+@cemlynwaters5457,2019-04-12T01:50:47Z,0,Sir your videos are epic! You are an excellent teacher,True
+@subhendubaug8011,2019-04-11T09:57:44Z,0,pickel is not working. can you suggest,True
+@dipanwitadutta7437,2019-04-11T02:35:42Z,0,"How to classify one single image using parameters like vegetation, building, road? please suggest",True
+@jasminmoreno9041,2019-04-10T18:26:35Z,0,What can I do when I enter an image other than a dog or cat?,True
+@thevirtuallkingg,2019-04-09T04:54:22Z,0,"File ""C:/Users/User/PycharmProjects/Myproject/TensorFlow-Tutorials-master/Loading Data.py"", line 41     x=[]     ^ SyntaxError: invalid syntax   Error Encountered: Please Help",True
+@johnlopezsalas5680,2019-04-09T02:04:38Z,0,"hi bro,  How do I do if I have more samples? I always have 10%  can you help me?",True
+@federmontes,2019-04-05T03:11:43Z,2,"Hi. Love your videos. It is giving me an error on the image conversion to an array.    in line 15         plt.imshow(img_array, cmap='gray') TypeError: Image data cannot be converted to float.",True
+@biranavanpulendralingam8614,2019-04-02T16:11:52Z,1,"Hey I was following along with your tutorial, but at the:  print(len(training_data)) i get 0  and in my terminal it says images are corrupted? Any help, because i could not find anything helpful :/?",True
+@kinghh2677,2019-03-31T17:45:03Z,0,"How to cv2.resize(img_array, (width, heigth))  keep aspect ratio&width&heigth and fill space with white pixel?",True
+@sayonbhattacharya6092,2019-03-31T04:25:43Z,0,Hey! I was trying this on colab but with a different dataset and it gave me this error.  FileNotFoundError: [Errno 2] No such file or directory: 'content/cell_image/Parasitized' Where my dataset was - https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria https://colab.research.google.com/drive/12vBjmbjbpNJOs_ty1SGrI1RP5Sf5sMid - Find my code here,True
+@passionabouteverything2173,2019-03-30T04:30:59Z,0,"X = np.array(X).reshape(-1, img_size, img_size, 1)  NameError: name 'X' is not defined tell the solution",True
+@myFriend22198,2019-03-30T04:15:41Z,0,cv2.imshow(image) instead of plt,True
+@anumsaeed5387,2019-03-29T12:28:21Z,0,Can u make a tutorial like this using audio data cat vs dog?,True
+@noreddinebelhaoua7659,2019-03-27T01:22:35Z,3,"Hello, when i try to reshape X as you do i got this error can you help me with it  ValueError: cannot reshape array of size 140000 into shape (50,50,3)",True
+@cudanexus,2019-03-26T23:54:38Z,0,"hey, @sentdex I am little confused in some tutorials you use Ubuntu and in some windows but windows sucks. I Have seen your object detection tutorials but there you have used for first part windows and another part windows",True
+@severinhumann7142,2019-03-24T09:38:47Z,2,"5:04 ""hah. blue dog""",True
+@subratode7086,2019-03-24T04:57:29Z,1,i cant load the dataset on jupyter notebook   plizz help me     its showing unicode error,True
+@kacemichakdi3048,2019-03-21T18:42:09Z,0,"Hi sir, I hope that u are fine. I just have a problem in 'except Exception' but I don't know why     File ""C:/Users/kacem/Desktop/deep learnig/cat-dog.py"", line 28     except Exception as e:                           ^ IndentationError: unindent does not match any outer indentation level",True
+@lukeleslie281,2019-03-20T15:20:24Z,0,%matplotlib inline,True
+@theDynamicSkunk,2019-03-19T16:32:04Z,2,"I like your videos but this tutorial series or at leas the first few seems to be taken directly from Francois Chollet's book on Deep Learning with Python. His first example is the MNIST data set, then goes into more depth with the cat & dog data set.... I'm not sure if its just a coincidence but if you did use his book as a guide then you should at least cite him as a reference.  just saying",True
+@aguy3203,2019-03-16T21:22:27Z,0,"Why is this so hard :,(",True
+@kresimirmarkota7674,2019-03-13T19:46:17Z,0,"Man , you are the best !! Keep up doing like this !! :D",True
+@GilLianni,2019-03-11T05:14:59Z,88,"Epic moment: ""haa, blue dog"" @ 5:05",True
+@davidg4893,2019-03-07T15:24:17Z,0,"how would i convert this to using layers then giving me a list of the top 5 predictions if i add 10 categories and for instance defining a kitchen and a bathroom and whats in them like plastic bottle , glass, cup, person, food  kind of thing ?",True
+@neatpolygons8500,2019-02-27T12:58:23Z,7,10:22 what kinda cpu you have that could iterate over all of those images in few seconds :D,True
+@koutinimarwan8919,2019-02-26T10:30:43Z,0,when i try  to execute the code  i have this error : NameError: name 'create_training_data' is not defined  anyone knows solve this problem?,True
+@misbahawan9485,2019-02-21T06:18:44Z,1,"sir i follow your video for train and test my dataset ,but u just train it,where is testing part.",True
+@PLAZMAKE,2019-02-20T22:16:15Z,0,"when I run the function ""create_training_data()""  I get this error ""Corrupt JPEG data: 128 extraneous bytes before marker 0xd9"", how do I fix this.",True
+@mortezasjah6168,2019-02-15T16:50:41Z,0,I miss your shark glass.,True
+@tankki1583,2019-02-12T09:14:51Z,0,Do you have a tutorial on creating rgb dataset? not just b/w,True
+@samklopp3172,2019-02-10T11:58:06Z,0,Can somebody explain what's the role of -1 in reshaping X?,True
+@omarcusmafait7202,2019-02-08T11:07:13Z,2,I'm using CoLab ----> 6   for img in os.listdir(path): FileNotFoundError: [Errno 2] No such file or directory: 'C:/Datasets/PetImages/Dog',True
+@tankki1583,2019-02-07T16:15:47Z,0,How to label for multiclass  classification,True
+@shanerooney7288,2019-02-03T14:32:27Z,0,*sentdex* and *DeepLizard* have both been _VERY_ helpful with teaching me how to program. Thanks.,True
+@vishnup.v8872,2019-01-28T06:31:46Z,0,best video from a pro. i loved it and helped me lot to get the basic idea. please add a tutorial  to extract frames from a 100 videos in a folder within different folders . i expects a positive reply from u pro.....,True
+@YasheshTiwari,2019-01-24T16:09:58Z,0,"Hi,   ImageArray byte can be (same in any condition) of an any another image?   Another thing... Can you please guide me how to estimate height and weight by facial image? Reply on yashesh.net@gmail.com  Thanks Yashesh",True
+@user-eu1yd2oy5l,2019-01-23T13:48:31Z,0,"Hello, may i know is there any updates of tf and keras on the reshaping of the image array ""features""? I am not sure but what i could find is just tf.reshape(),function, which does the same thing as np's reshape",True
+@hameedhm4718,2019-01-23T08:44:22Z,0,"Great Video @Sentdex on CNN, this will really help all new comers who want to learn DL.  I was trying to replicate your code but I am getting the same error what you got about X var, X.append (features) : AttributeError: 'numpy.ndarray' object has no attribute 'append' Could you help how to resolve this error? Thanks",True
+@sagarkhuteta6295,2019-01-20T10:54:00Z,2,"new_array = cv2.resize(img_array, (50, 50)) cv2.error: OpenCV(3.4.2) C:\projects\opencv-python\opencv\modules\imgproc\src\resize.cpp:4044: error: (-215:Assertion failed) !ssize.empty() in function 'cv::resize'  Can anyone help me with this error..",True
+@Cyraxsify,2019-01-20T01:32:38Z,3,"Dude, you look like Snowden.",True
+@dheerajkhanna7697,2019-01-07T07:44:43Z,0,I dont know why but my len(new_array) always print 0.,True
+@kimjinyoung3472,2019-01-05T02:37:54Z,1,"great video :) , thank you  i have one Question.  why is the result difference between my coding in my computer and your result  at print(lens())  my result is 0 ,  but your result is 24916  above all, same code",True
+@Ajqualix,2019-01-04T06:43:16Z,0,"Nice T-Rex mug. For anyone interested, it is the ""3-D Shaped T-Rex Dinosaur Design Ceramic Mug"" on amazon",True
+@adityashourya3705,2019-01-02T18:16:30Z,0,%matplotlib inline instead of plt.show(),True
+@Xaminn,2018-12-31T20:59:22Z,6,"Another amazing set of tutorials. You truly are helping me understand Python and Deep Learning at a whole different level. Thank you for your time and expertise, Sentdex.",True
+@hassanfarooq8039,2018-12-30T12:23:16Z,1,"Facing UNICODE error like : DATADIR = ""C:\Users\Junaid\Desktop\rose vs sunflower""              ^ SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape  Anybody help.",True
+@ansonkho1673,2018-12-18T12:30:51Z,2,How do you train and test?,True
+@hojjat5000,2018-12-11T02:20:23Z,0,%matplotlib inline,True
+@shoebmoin10,2018-12-10T19:07:49Z,1,"Sir can you make a couple of videos on emotion recognition with CNN's, I tried haar cascade and then switched to CNN's and still i am getting <50% accuracy on kaggle dataset fer2013 , I want this to work on realtime video feed but 50% accuracy is no good because all it shows is happy/neutral every time i feel all the work i have put in is of no use.If you could spare some time these videos could be of great help for others as well  :-).",True
+@heinzguderian9980,2018-12-10T17:34:55Z,0,What is dog? I know only doge.,True
+@kinshukdas4183,2018-11-29T18:10:57Z,0,"After importing matplotlib.pyplot you can write %matplotlib inline, then you don't have to write plt.show()...  What if I have images of more than two class let's say dog, cat, bird then how I can label them, I should take the index or I have to one hot encode them?",True
+@ashisranjandey7541,2018-11-25T13:00:11Z,2,when I use different images it shows that imagedata cannot be converted to float,True
+@Rohit-nb8nf,2018-11-24T15:19:02Z,0,Did u use CNN here ??? algorithm ???,True
+@tictac5896,2018-11-23T20:05:38Z,2,"Have anyone tried with other random dataset? I'm facing error  while reshaping. cannot reshape array of size 72 into shape (28,28,1)",True
+@snehalgugale6487,2018-11-19T04:35:55Z,0,"if we use pandas dataframe,then how should we load & convert to grayscale",True
+@kinlam6304,2018-11-18T05:19:10Z,1,"I don't understand the reshape parameters for converting X from list to numpy array. -1 is a catch all is fine, but IMG_SIZE, IMG_SIZE and especially 1 for grey scale doesn't really make sense to me. anyone can explain it in more details please?",True
+@ansonkho1673,2018-11-14T15:24:49Z,0,How do I train the datasets?,True
+@PraYogiz,2018-11-13T15:44:33Z,1,"i enjoyed this so much, i was from CS degree. But not have quite good moment with programming. So i decided to get job that not programming. But, since i was try to learn about pyautogui and selenium from your video, i was so exited to learn ML, and now here am i ... following your keras tutorial :D",True
+@janbiel900,2018-11-03T15:56:56Z,1,"The value of these videos is fucking incredible. After some setup with anaconda to get tensorflow and python 3.6 to work in pycharm, i was able to reproduce all of this with my own data.  Your explanations are absolutely on point and i have no questions left after this part.",True
+@trivukhac2965,2018-10-24T13:31:23Z,1,"I like the teaching style, it's simple to understand",True
+@shihabahmed2809,2018-10-22T00:28:04Z,0,can u do this for real time object classification please,True
+@priyanshjain3707,2018-10-20T13:08:24Z,0,why didn't we created a numpy array for y like we did for X?,True
+@VikramChamala,2018-10-17T21:35:47Z,0,"from IPython.core.interactiveshell import InteractiveShell  InteractiveShell.ast_node_interactivity = ""all""   Does this help?",True
+@eivindstrmsvag3864,2018-10-10T10:10:58Z,0,it seems that i can't find the directory to load the file... any help? i use mac  [Errno 2] No such file or directory: 'X:/Datasets/PetImages/Dog',True
+@djpecot,2018-10-08T23:08:44Z,0,"Thanks for the awesome videos! I've been following along in Kaggle. If anyone wants quick access to this, I've uploaded as a public dataset here:  https://www.kaggle.com/thesherpafromalabama/cats-and-dogs-sentdex-tutorial  Obviously, I had to make some tweaks to make the data load into Kaggle rather than my Python IDE. Admittedly, I didn't get the exact same results and am still messing around with the code to figure out what went wrong (for example, the length of my training_data was 24946, +30, after running the create_training_data function). If you see what I did wrong or have any suggestions, please let me know!  Kernel: https://www.kaggle.com/thesherpafromalabama/sentdex-2-deep-learning-basics-p2",True
+@efferossi3186,2018-10-08T14:32:02Z,0,"How can I do a multi label classification, for example cats, dogs and number of cats or dogs inside the images, their colors etc?",True
+@kirans1269,2018-10-08T10:58:56Z,0,""" Image data cannot be converted to float "" this error occurs at 4:30",True
+@dannywithnuggets,2018-10-07T01:06:01Z,0,Great tutorial. What would be the method of saving the collected data to put on a USB? Just a text file?,True
+@AkashSingh-gy9wl,2018-10-06T06:27:17Z,0,Sir  I did not understand any thing after importing random please help me,True
+@madmuffin2511,2018-09-26T17:10:24Z,0,Im not very well versed in all this ComputerStuff. Mainly doning it for fun. Is there a way I do not need to download all the images ? Or do I really got to get this almost GB cats and dogs on my PC?,True
+@mohmedhussein7470,2018-09-26T03:49:23Z,0,"Great tutorial, but if the images with multi label ,that way is same to load the data with binary classification or multi label classification",True
+@g7-smart-logistic-app,2018-09-16T09:22:12Z,0,Can't Find p-1 Video...please add it's link in the Description.,True
+@tictac5896,2018-09-16T05:38:37Z,0,Thousand dollar video... aah.. thanks,True
+@rezahosseini7851,2018-09-09T16:48:39Z,1,"I did convert my x to a no.array without reshaping it as you did and I got the exact same shape as you did! So I guess you no longer need to reshape it to (-1,50,50,1). plz tell me if I've done something wrong",True
+@muhamadabdulsamad2815,2018-09-06T18:53:43Z,0,How and where to learn python in beginning to advance,True
+@quanghuyngo7556,2018-09-05T19:56:13Z,7,"Hi Harrison. You've been doing an absolutely amazing list of implementating Deep learning videos with Python, Tensorflow, Keras, etc. This is the most useful job you've ever done. I've learned the Machine learning, Deep learning theory easily but implementation and application is something difficult to me. Keep doing this please.",True
+@trouserpython3857,2018-08-31T09:45:34Z,11,"@Sentdex. WTF Sentdex, you can't be handing out homework.",True
+@simonmoore6032,2018-08-30T20:45:54Z,1,"The latest version of opencv-python wouldn't work for me inside of a docker container. It has 'qt' as a dependency. You can get around it by installing version 3.3.0.9 instead with ""pip install opencv-contrib-python==3.3.0.9""",True
+@pratyushpradhan2612,2018-08-30T18:48:14Z,0,in 3:33 you converted the data to grayscale again in 14:45 you said you put 1 because its a grayscale if its already a grayscale data why do you have to put that 1. could you explain I am kinda confused,True
+@slippy8191,2018-08-28T11:51:23Z,0,Why don't you normalize the data like you did in the previous tutorial?,True
+@shubhampaul6559,2018-08-27T09:32:33Z,0,"I honestly hate that 'blue' dog. OpenCV follows BGR whereas matplotlib RGB, I trust.   One would like to...  image = cv2.imread('your_image.jpg') x, y, z = cv2.split(image) image = cv2.merge([z, y, x])",True
+@bartoszturkowyd3608,2018-08-26T21:57:34Z,21,I love the way how you personified the NN. The part with shuffling makes me laugh!,True
+@liangyumin9405,2018-08-22T12:33:35Z,0,"Indeed, the best !",True
+@spiderman5187,2018-08-21T09:20:25Z,0,Could anyone explain to me why such a low resolution is used for the images?,True
+@srijalshrestha7380,2018-08-21T07:14:21Z,0,"i got my own datasets of truck and  mobile phone, but when i used your code, it has this error ""OSError: [Errno 2] No such file or directory: '//tmp/images"" what should i do?",True
+@RickertBrandsen,2018-08-20T13:03:04Z,1,These vids always cheer me up :) You are by far my most favourite instructor. :) When I feel depressed i just watch your videos.,True
+@suleimanmustafa1473,2018-08-20T05:57:41Z,0,"Thanks have been looking forward to this tutorial will help with my thesis.  For windows, if you have anaconda installed and cannot find module cv2, you may simply have to do:  pip install opencv-python  if you are on linux you can do :  pip install opencv-python",True
+@Taha-jj1kr,2018-08-20T02:14:27Z,136,"A nice alternative to pickle is np.save('features.npy',X) #saving X=np.load('features.npy')#loading",True
+@marcosvolpato8135,2018-08-19T23:36:31Z,0,Cant wait to the next video!! congratulations!!,True
+@benjii0stylz,2018-08-19T19:17:29Z,24,11:54 that's a great imitation of a model trying to learn ^^,True
+@Wrathofgod220,2018-08-19T19:06:10Z,0,Do you have any resources/videos going into detail the os library? Thanks. your vids are awesome!,True
+@vikasmishra9154,2018-08-19T14:49:56Z,0,"Hey sentdex, can you please make video on training our own audio dataset using neural networks. love all your videos from india.",True
+@YumekuiNeru,2018-08-19T13:59:50Z,0,so these datasets are pretty small how do you divide the dataset into batches of some sort if your dataset is too large to fit in memory at once? is this what like hdf5 is for?,True
+@DemonSlayer627,2018-08-19T13:35:27Z,0,"If your using keras you should use the flow_from_directory function ,it's really the same thing without the hassle of running out of memory trying to load the entire dataset.",True
+@ygarabawala,2018-08-19T13:13:44Z,0,Waiting for the next video...thanx man you are an amazing teacher,True
+@PROGAMING-vj4kr,2018-08-19T12:47:39Z,0,Go DotaAI.,True
+@ygarabawala,2018-08-19T12:44:06Z,0,I did everything right but when I get to print(len(training_data)) after waiting for the excution it shows zero and when I print sample it doesn't show anything,True
+@johnreynolds1413,2018-08-19T12:39:46Z,0,"I'm new to python and wanted to import an excel file to jupyter to play around a bit, how?",True
+@banama1758,2018-08-19T10:23:56Z,0,"are you typing with 10 fingers ? all the symbols that programming require kinda complicates things, I am still trying to figure out best position to type code faster...",True
+@moabs438,2018-08-19T08:46:26Z,0,i can't wait for the next video,True
+@robertaradi9994,2018-08-19T08:07:16Z,8,This series is so thorough and easy to understand (for me at least :D)! I can't wait for the next part!,True
+@monkeysaregreat,2018-08-19T06:13:08Z,5,I suggest using context managers for file opening. Cleaner and is better for beginners as you don't have to remember to close the file,True
+@kaushik5014,2018-08-19T04:41:50Z,3,"Thanks @sentdex, just what I was looking for :)",True
+@wolfisraging,2018-08-19T02:33:26Z,0,"I am loving it I am loving it, that's what I want",True
+@thedude951,2018-08-19T01:11:23Z,0,how do i start as a beginner?,True
+@GJ-bq9hd,2018-08-19T00:26:44Z,1,Really interesting and objective explanation of the topic! lol'd hard bc of the sudden blue dog,True
+@niclaswustenbecker8902,2018-08-19T00:07:31Z,119,"Great tutorial, but the way you load the data is not very memory efficient and this will cause problems with large datasets. First the training_data list is written into RAM and afterwards the same amount of memory is reserved when converting into a numpy array. So this approach is only good for datasets < RAM size/2.   Another option would be to create the numpy array at the beginning using np.empty and then write the data as entries into the array. This way the dataset can be as large as your RAM.  If the dataset is larger than the RAM size it is suggested to use a generator that loads and yields the data during training. This way your dataset can be as large as your SSD, but training speed is most likely limited by the read speed of the drive.   Just something I had to deal with during my thesis in the last couple of months. Maybe you could make a tutorial on the generator one, not a lot of people know about this.  Anyways, keep up the good work!",True
+@aalissaa84,2018-08-18T23:28:18Z,1,"Great tutorial as always im in love with this channel i learn a lot, i'm trying to build OCR to identify a low resolution documents , do you recommended any source to help me out on this , and i wish some day you create a vedio about this ..Regards",True
+@OO-ie1pe,2018-08-18T22:46:26Z,0,"thanks for showing how to save the weights for future training. also, how did your self driving program from GTA turn out?",True
+@FatihKarakuzu,2018-08-18T22:06:20Z,0,Heay sentdex pls keep up with your videos. They are really helpful in so many ways. Im just starting to get into ML and started studying Computer-Science just because of ML and your videos are so helpful. Thumbs up to you,True
+@legenarymaster3696,2018-08-18T22:01:41Z,0,Can you do a lstm tutorial?,True
+@daen3206,2018-08-18T21:12:58Z,4,Subbed . . . .  Hit the bell too,True
+@tozzzer3286,2018-08-18T20:40:16Z,1,"Love these vids. I keep getting an error to do with input size that really fools me all the time. eg when you feed data through the model and it says something like: 'input_1 needs 3 arguments, but 2 given: (6,2)' :(",True
+@fredrikjosefsson7679,2018-08-18T20:30:13Z,3,What about the Starcraft AI tutorial? Is that series done or will it be more episodes?,True
+@tylerk3130,2018-08-18T19:58:17Z,0,"Great tutorial as always. Very easy to listen to and follow. I was wondering, are you planning to cover things like TFRecords for handling very large datasets sometime in the future? There are other tutorials, but I think the topic would really benefit from your style.",True
+@kartikgarasia5685,2018-08-18T19:22:23Z,5,Hit like for sentdex's mug,True
+@mohamed_v1,2018-08-18T18:44:21Z,0,+ 1 like .. awsome video <3 .. thank youuuu,True
+@honzaadamek5186,2018-08-18T18:04:23Z,1,Great tutorial. Looking forwart to next part!,True
+@kiwallls6864,2018-08-18T18:03:00Z,0,Thanks you! Awesome video. Looking forward to the next one 👍👍👍,True
+@Huguillon,2018-08-18T17:01:59Z,22,1:52 I was taking it serious till the mug appears,True
+@Achintasanam,2018-08-18T16:44:51Z,0,"Great tutorial video sir,   Please make a video for colour image data preparation. Actually i prepared the data for colour image just removing gray convert line and 3 in reshape instead of 1  But my final image is showing in blue color",True
+@atharvapagare7188,2018-08-18T16:30:25Z,1,Amazing video man... Looking forward to the next one,True
+@deadfish404,2018-08-18T16:23:14Z,0,Awesome video.. Waiting for more uploads...,True
+@sainath66666,2018-08-18T16:12:40Z,0,#Sentdex2020,True
+@seth8141,2018-08-18T15:40:12Z,9,What is your opinion on setting an aspect ratio and adding padding during resizing? I just feel like forcing an n x n dimension distorts images too much when we have the varied original resolutions.,True
+@glorytoarstotzka330,2018-08-18T15:28:35Z,0,"please update the video you teach us how to use object detection API made by tensorflow , hours of google can't make me fix protobuf and a lot of people in comments have problems too  i really like that you remake the neural networks videos , cuz old ones can be harder to understand",True
+@mgrotheer,2018-08-18T15:27:51Z,0,I'm not sure which ends up being better....the videos or the random (read: dope) coffee mugs you keep pulling out in them ;),True
+@aikimark1955,2018-08-18T15:23:03Z,1,Why not enumerate() the categories?,True
+@OA-B,2018-08-18T15:20:29Z,0,it's so fucking cool!,True
+@SM-ht7qf,2018-08-18T14:57:10Z,5,"These tutorials are more advanced than AP computer science at my school, AP computer science teaches Scratch which is sad",True
+@slavenya001,2018-08-18T14:56:26Z,0,"Great tutorial!!! Could you please add something for highly imbalanced data set? For example, one from eCommerce when people are not buying 95-96% of the time.  Could you please also cover a session based sequence prediction? Like many users with many sessions...",True
+@uditsingh9576,2018-08-18T14:52:20Z,0,When is next tutorial coming.??,True
+@MrDonald911,2018-08-18T14:43:34Z,2,Great content as usual ! Please do something related to OCR for text of variable length ! <3,True
+@thorodinson7467,2018-08-18T14:40:46Z,1,Can you also show us the steps to creating your own neural network so we will know how to create our own for other things?,True
+@mockingbird3809,2018-08-18T14:40:18Z,0,"Also, make videos on Data Cleaning and converting categorical data convention. Don't always work on Larger datasets also make Machine learning videos on smaller datasets because, those type of datasets will be coming in the real world so thats a peice of my advide Keep Making videos and We Love You Always",True
+@samwit4501,2018-08-18T14:29:37Z,0,"Cool Video as always,  but as of TF 1.9 you can use tf.data with Keras to do what you did in here and it will make a much more efficient pipeline for training larger datasets. This will also work for converting to tf.records  if you want to change the format. This becomes important when using fast GPUs/TPUs as they no longer are the bottleneck and loading of data into the model is the bottleneck.",True
+@uditsingh9576,2018-08-18T14:24:37Z,26,"Just wow , didn't wanted to watch the whole video , but your are a magnet !! Excellent style of teaching",True
+@AlienAI23,2018-08-18T14:09:52Z,1,Ur awesome man But I need to know what shuffle  make?,True
+@DiapaYY,2018-08-18T14:09:04Z,3,what about making a go playing network? there are big go game datasets.,True
+@ilyasmax4778,2018-08-18T14:08:51Z,1,first viewer,True
+@TZPlayer,2018-08-18T14:06:08Z,1,"Hey, that`s pretty good",True
+@r00t_sh3ll,2018-08-18T14:02:36Z,19,"amazing videos, great AI tutorials, honestly one of the best programming channels on YouTube. thank you for making these videos",True
+@mockingbird3809,2018-08-18T13:59:50Z,390,These were videos that I requested. Please make more Project videos in Machine learning and deep learning videos and real-world machine learning projects in PYTHON because You Are The Best to learn from,True
+@iamPanchsheel,2018-08-18T13:56:58Z,1,One more question if i have a Nvidia GT 710 Graphics Card and 4 GB RAM installed in my PC Can i install Tensorflow-GPU on my Windows 10.....  but i can't install it,True
+@shubhamkadam7956,2018-08-18T13:54:09Z,1,Nice work keep up🤗,True
+@iamPanchsheel,2018-08-18T13:53:50Z,0,Hey Harrison Please make a video on OpenCV on Webpages and search engine by python.... Please,True
+@shubhamkadam7956,2018-08-18T13:53:39Z,1,I want all the videoes how can I get all of these videos,True
+@sifiso5055,2018-08-18T13:53:22Z,14,"Hey Sentdex, please make a tutorial on CUDA programming next time.",True
+@danielcox8306,2018-08-16T16:57:16Z,2,"The first video was great, looking forward to watching this one through as well. Can make a video about using CPU vs GPU for some of these training processes? I would like to learn more about forcing the script to use the GPU for running instead of the CPU. For instance some of your older videos (like the Monte Carlo Simulation series) could benefit from this.  Thanks!",True

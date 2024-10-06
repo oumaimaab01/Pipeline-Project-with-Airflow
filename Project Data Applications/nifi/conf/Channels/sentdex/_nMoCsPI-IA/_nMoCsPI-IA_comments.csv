@@ -1,0 +1,37 @@
+author,updated_at,like_count,text,public
+@antoniobaez9436,2018-12-24T12:25:26Z,0,A very good job ... from canary islands ...,True
+@robinb5713,2018-07-31T21:51:19Z,0,"Quantopian changed, this code still valid?",True
+@jadenguo530,2018-01-24T02:37:38Z,0,how can i use quantopian to backtest my forex strategy  ? does the quanuopian holding the forex data?,True
+@re_di_roma_is_back2388,2017-10-28T13:04:59Z,0,"as an R (and Stata) user/programmer I find Python even easier except for that ""import"" stuff :D  I actually developed an automated data collection for cryptocurrencies in R web (from coinmarketcap.com and from json format). I wonder if there is something similar in Python. I bet there is of course. Greetings from Rome, Italy!!!!",True
+@Husholdninger,2017-08-16T11:56:04Z,0,"at 9:07, only my portfolio is red. Am I doing something wrong?:  def handle_data(context,data):     """"""     Called every minute.     """"""     print(data)     MA1 = data[context.security].mavg(50)     MA2 = data[context.security].mavg(200)          current_price = data[context.security].price     current_positions = context.portfolio",True
+@vivianyang3130,2017-07-26T23:20:48Z,0,"Hey, I have a question about this algorithm. Is this algorithm runs at the end of the day to decide whether buy or sell? How can I specify whether my algorithm runs at the beginning of the day or the end of the day? If I choose the backtest as daily, does that means you only exercise one time each day(maybe the end of the day) to check if it meets your condition even if it crosses over several times during the daytime?",True
+@adamdry9423,2017-07-06T09:40:16Z,0,"Thanks for the vids! Can you explain the difference between a python method and a function in the terminology of php, .NET or java? Is a method basically a static function? Cheers",True
+@crazyafricanbinaryscalperb9309,2017-06-20T08:17:02Z,0,is that it i want to build my own system i have a good trading system i want to introduce,True
+@iyrfify,2017-05-29T09:45:55Z,0,Why can context be used as a dictionary and why can it be substituted for self?,True
+@alexwhb122,2017-05-22T19:18:49Z,1,You are my hero for making this series... I've been looking for a good way to get into this subject for some time now. Thank you!!!,True
+@dankpancake2289,2017-05-03T04:52:40Z,0,"on line 13, instead of symbol('SPY') could you have typed context.security so that then position is variable?",True
+@cyl5207,2017-02-04T12:07:16Z,0,"congrats! we made it, yeah!!",True
+@llikethat,2016-10-27T21:00:54Z,0,"Hi, Here you have shown the backtesting on daily data, is it possible to do the same backtest on 5min or 15min data?",True
+@josephrubinchak8514,2016-09-28T18:18:37Z,0,Can you program candlestick analysis into this? like Hammers and Shooters?,True
+@seineyumnam4374,2016-09-17T21:59:22Z,0,"well, these series are simply awesome. thanks bud!",True
+@jeffreysucipto7104,2016-09-11T15:48:42Z,0,is this still relevant?,True
+@nikhilcherian8931,2016-08-22T06:34:24Z,0,"It take a lojng time for backtesting in Quantopian 2 , even more so,when  I change the handle_data to schedule_data,it would not run the algorithm. Help!! Please",True
+@tomasemilio,2016-07-07T17:10:31Z,0,"I really like these videos, although I would not recommend it to someone with no Python coding experience.  They really need to learn the basics before really taking advantage of these videos. Anyhow, great videos man.",True
+@mspacey,2016-06-30T20:06:24Z,0,Hi I'm trying to replicate what you're doing here but Quantopian doesnt have the Daily/Minute option.  It seems to be running by the minute Minute by default and taking forever.  do you know how to set it back to daily?  thanks,True
+@2371996npistiolas,2016-06-28T02:16:19Z,0,i would like to know if the libraries available in quantopian are downloadable. can you use them in your own algorithm and if not are there any libraries on the internet about trading?,True
+@vinshah292,2016-06-16T00:00:09Z,12,"Hey so this was posted roughly a year ago and I was wondering if it will still be applied today? I went to new algorithm and it had a lot more different ""methods"" to it. Looking at them it doesn't seem to complicated, but I was wondering if you had maybe a video or a link that would explain it better. Thank you for these videos though very helpful.",True
+@timothymcauley9871,2016-04-12T05:19:49Z,3,Can you do a video on how to install all the python software like zipline and everything so you could make an algo outside of quantopian?,True
+@cckidd53,2016-03-03T17:43:30Z,1,start a python for finance coding bootcamp,True
+@Centurian777,2016-02-18T18:29:53Z,0,what is the purpose or reasoning of using ( as a oppose to using this [,True
+@mhaddadi,2016-02-01T03:59:50Z,0,"Thank you for sharing,  How to use minutes or bars instead of days in moving average calculations?",True
+@connorthumser7690,2016-01-28T16:19:14Z,0,"Great video. If I were to instead of moving average say buy if SPY raises 1% and sells when it reaches 1.5%, how would that look like?",True
+@hanxu3888,2016-01-17T16:08:11Z,0,BRILLIANT!!!,True
+@fosterhoff3712,2015-12-25T05:28:07Z,35,""" Congratulations on making it to the second tutorial. This is the video where we're gonna lose the most viewers, so if you've made it this far,  CONGRATULATIONS! ""  LOL",True
+@11HUNTER10,2015-12-20T10:38:09Z,0,"hello sentdex,  where would I be able to find the docs that show all of the data and methods behind the hidden classes?",True
+@herkfsu,2015-12-02T03:42:51Z,0,"Thanks Sentdex!  When you are establishing variables(MA1, current_price etc) what is the difference when you are using brackets to call upon something vs parenthesis vs periods?  For example, why would context[portfolio.positions.symbol.spy].amount not work? What is going on when using each different callout(not sure what the right word is for those)?  Thanks!",True
+@cedrickojo,2015-11-04T03:28:44Z,0,"Thanks for the video! A few questions: 1. In the initialize method,  will you ever pass in more arguments than ""context""? 2. What does it mean when you continue referencing ""context"", are you calling a specific input?",True
+@retronotech330,2015-09-20T17:41:04Z,0,"Hello, this series seems great, but as a complete beginner to python would you recommend that I watch your Python Basics series before this? I'm looking to learn python in an interesting way. That's how I ended up on this tutorial, but I found myself not really knowing why I was typing the things that I was typing.",True
+@TheAtulvaidya,2015-08-24T09:27:10Z,2,"Hello, Why do we have to pass Symbol('SPY') in context.portfolio.positions ? Shouldn't our current portfolio return SPY by default as it is our context.security. Hope am making sense",True
+@fartyman,2015-08-04T20:34:30Z,0,"Hi! Why does the ""current_position"" not have the ""data[..]"" thingy?",True
+@tmcowley,2015-06-27T14:44:23Z,0,"Hey sentdex, a great video, thanks! Could you please explain (briefly) the difference between a function and a method in python? I was taught that python didn't use methods. Thanks :)",True
+@IW4TCH,2015-06-27T14:28:02Z,0,"Hey sentdex, are there any other reasons for combining finance with programming other than algo trading/HFT or automated trading? In what any other ways can you use programming in finance?",True

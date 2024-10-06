@@ -1,0 +1,38 @@
+author,updated_at,like_count,text,public
+@ForeignMadeIt,2022-12-22T23:50:16Z,0,I just got into python its been awesome less complex than c++ & dude u sound just like Snowden,True
+@kemenesmark,2021-08-30T10:42:48Z,0,I dunno why but it doesnt start,True
+@Rahul-ff1vx,2021-01-09T14:35:34Z,0,use  keyboard module it will make your fps near 30,True
+@teslamodel314,2021-01-05T22:00:08Z,0,"If someone interested, and if you can suggest a better implementation, I added thes lines to check if the active window is the one of the game, so the program runs only when the game windows is active. First import this ""from win32gui import GetWindowText, GetForegroundWindow"" and then I put this check inside the while loop ""if GetWindowText(GetForegroundWindow())== ""your window name here"":"" I'm sure theres a better way to do this, but this works",True
+@aiden2610,2020-12-10T02:29:45Z,1,Thanks for the awesome tutorial! I used it to capture my screen and do some image recognition stuff.,True
+@notachad4107,2020-12-01T02:49:59Z,0,we should be best friends lol.,True
+@azizsakr5565,2020-05-14T13:12:28Z,1,Solving issues by importing inactive modules.. I should try that more often :D,True
+@TheSaintsVEVO,2020-04-18T06:36:18Z,0,Damn that PyAutoGUI added 10ms delay..,True
+@xinthralgaming,2019-09-11T12:04:51Z,2,"I know this is old, but I love the fact that you put in 10:45 how dumb errors can be if exceptions aren't well documented and your reaction to it. ""That's crazy...that's like the worst.."", gave me a good chuckle.",True
+@skyler114,2019-08-30T21:10:59Z,0,Who else knew what that ugly error was before he almost rage quit,True
+@arsacia,2019-07-21T19:18:51Z,0,"Disadvantage of being a python freak is that you will never understand the coding itself, 11:50 we call it ""DPI Awareness""...",True
+@mainchannel7003,2019-07-20T16:43:29Z,0,When you imported pyautogui your    frame rate dropped,True
+@TotalImmort7l,2019-06-04T07:39:48Z,29,Watching your video is like having a friend/mentor/teacher who actually makes things simple by encouraging me to perform experiment with code and come up with fantastic solutions!,True
+@omarkhayyamravenhurst3982,2019-02-28T23:24:08Z,0,"You're re-allocating the mask zeros array every time you call roi(..). It should be much faster if you allocate it once (outside the function) and then just clear it using mask[: ,:] = 0 (and then you do the fillPoly etc)  Come to think of it, if your roi stays the same you only need to calc mask once",True
+@etopowertwon,2018-12-02T10:38:46Z,0,"Wouldn't it be better to create mask only once and reuse it?  Right now we fill mask polygon every frame  from  the vertices, which is probably not healthy for CPU cycles.",True
+@kalkvand,2018-10-16T22:55:48Z,0,My ROI turns the video feed blue?,True
+@kalkvand,2018-10-16T21:27:50Z,1,"How do i find the right (numbers, numbers) for verticies?",True
+@Tibetan-experience,2018-09-11T17:48:53Z,0,"new_screen = cv2.resize(new_screen, (600, 540)) is not bad",True
+@panoss4149,2018-03-04T14:01:50Z,1,Would you try the same project but with airplane?,True
+@hemanthpredator7381,2017-12-20T17:14:28Z,0,"getting error in cv2.fillploy(mask,vertices,255); ""ERROR: image data type = 17 not supported"" help me please!",True
+@wisherwatch,2017-11-04T10:45:46Z,1,You are serious motivation!,True
+@codedragon6237,2017-10-14T08:34:46Z,0,Great videos so far!,True
+@PojaShadTV,2017-09-07T09:40:56Z,3,@sentdex Is it possible to have OpenCV on Python use the GPU instead of CPU. Thanks for the great tutorials! :),True
+@hinro,2017-08-04T06:51:07Z,83,so this is how tesla got started.,True
+@jennyvasquez335,2017-07-24T05:57:07Z,2,Hey Im doing this stuff for a different driving game.  Just curious how do you get the dimensions of the window?  Did you use some sort of tool or program?  thanks!!,True
+@GalHorowitz,2017-07-23T08:58:14Z,0,Your code font is huge... That's why it takes all the screen,True
+@pottingmix3733,2017-05-12T18:33:34Z,11,"If you use windows api to capture the window it wont get messed up by another window in front of it.  def imageCapture(handle):     left, top, right, bot = win32gui.GetWindowRect(handle)     w = right - left     h = bot - top     hwndDC = win32gui.GetWindowDC(handle)     mfcDC  = win32ui.CreateDCFromHandle(hwndDC)     saveDC = mfcDC.CreateCompatibleDC()     saveBitMap = win32ui.CreateBitmap()     saveBitMap.CreateCompatibleBitmap(mfcDC, w, h)     saveDC.SelectObject(saveBitMap)     PW_RENDERFULLCONTENT = 2     result = windll.user32.PrintWindow(handle, saveDC.GetSafeHdc(), PW_RENDERFULLCONTENT)     bmpinfo = saveBitMap.GetInfo()     bmpstr = saveBitMap.GetBitmapBits(True)     im = Image.frombuffer(         'RGB',         (bmpinfo['bmWidth'], bmpinfo['bmHeight']),         bmpstr, 'raw', 'BGRX', 0, 1)     win32gui.DeleteObject(saveBitMap.GetHandle())     saveDC.DeleteDC()     mfcDC.DeleteDC()     win32gui.ReleaseDC(handle, hwndDC)     if result == 1:         im.save(""image.png"") The PW_RENDERFULLCONTENT flag was added in windows 8 or newer OS so it might not work on windows 7. The flag makes it possible to capture some windows that display using  DirectX through DWM.",True
+@0xf7c8,2017-05-11T20:02:50Z,3,"Love your videos. Really great work man!! I have one suggestion. You could use more resolution for the whole video capture , and make everything smaller, so we can see everything at all time, and you don't have to move stuff around. I think code it's more than readable enough if you reduce it's size. It would be more comfortable to watch.",True
+@Ferdii256,2017-04-23T21:16:09Z,3,Very cool series! ;-),True
+@murtaza6464,2017-04-20T18:14:51Z,0,Anyone know details about that OpenCV error? why does fillPoly require a list containing a numpy array?,True
+@jackdaly773,2017-04-20T07:05:11Z,0,"i have python 3.6 32 bit and nothing seems to work, with the pip and downloading anything, anyone help??!?",True
+@patrickbreach5094,2017-04-13T01:48:44Z,0,This is a cool project. I can see lots of places for some big performance boosts. Sadly I do not have GTA 5 for pc,True
+@ashketchum7768,2017-04-11T12:53:22Z,12,"Instead of importing pyautogui for correct display of image, try the following lines at imshow:  window_name = ""MyScreen"" cv2.namedWindow( window_name, cv2.WINDOW_AUTOSIZE ) cv2.imshow( window_name, new_screen )  EDIT: first two lines should only be run once - so put them outside loop and put cv2.imshow line in the loop",True
+@windmill1965,2017-04-11T08:35:54Z,5,In process_img you first process the entire image and then you throw away the part you're not interested in. Wouldn't it be more efficient if you first throw away the part you're not interested in before processing the image? That might save some computing effort needed?,True
+@MarkJay,2017-04-11T06:18:11Z,0,boi I hope my gtx950 can handle this game,True
+@sumantkanala,2017-04-10T20:18:45Z,25,"ROI may change if we are driving down the road and the road ahead (maybe on a hill) is upwards, then ROI would be all of the screen. I think this would be a good improvement. Wish I had a graphics enabled laptop to work on this!",True
+@Xero525,2017-04-10T18:39:16Z,42,"You really need an IDE. Just spend the $90 on PyCharm.  I swear it will cut like, half the time you're spending dealing with dumb typos",True

@@ -1,0 +1,949 @@
+author,updated_at,like_count,text,public
+@markkennedy9767,2024-05-22T15:23:31Z,0,"At 11:30, can the list of employees just be a list of strings for employee names, or should it be a list of employee objects.  I know later he uses emp.fullname() later so they are employee objects but i was just wondering if they have to be employee objects.",True
+@Killzu45,2024-05-17T14:10:40Z,0,Can someone tell me which IDE Corey is using?,True
+@guristu,2024-05-10T00:34:28Z,0,"If you have OCD, __init__() and super().__init__() buggs the hell out of you :)",True
+@kalpeshpatel3900,2024-05-02T01:48:38Z,0,Liked the real world example at the end! Great video!,True
+@photon-9551,2024-04-06T11:28:55Z,0,Thanks Corey the best example and explanation of how to extend a sub-class's parameters that I have come across on the web. keep up the good work!,True
+@em2129,2024-03-20T22:26:49Z,1,"I finally get it, thank you!",True
+@CmdtJoshua,2024-03-17T16:29:58Z,1,"Amazing tutorial, helped me a lot. Thank you!",True
+@o00o00o00,2024-03-11T10:01:24Z,0,did @corey explain why we shouldnt do that in @11:24,True
+@MrTb2arvd,2024-03-03T20:59:39Z,1,"great vids and content, Corey!",True
+@trying2understand870,2024-02-16T07:12:11Z,0,"I am 65 yrs old, disabled, living month to month off the SSA. I have an old old HP that I bought refurbished from Amazon. I've installed Python and Pycharm. I also use the computer to watch Corey Schafer on YouTube. With each video I learn a little more about Python and computer science in general. Many videos I have to watch several times. So far Iv'e coded a really nice Mandelbrot Imager (see my account photo),  a working gravity simulator, a script that codes the RGB values for over 200 colors that I call Crayons.py and a bunch of quick calculator functions for algebra, and calculus. All of which gave me great joy and pride of accompliment. Thank you Mr Schafer for bringing a little warmth to my life.",True
+@see576,2024-02-05T20:29:29Z,0,"Thanks a lot, great explanantion",True
+@Tarunsinghnoble,2024-01-20T05:32:09Z,0,"I must say, I have TCM security subscription for python 201 which has a similar lecture on ""Inheritance"". TBH Corey provided more key points",True
+@LilJollyJoker,2024-01-18T17:14:37Z,1,Thank you!,True
+@siddhigolatkar8558,2024-01-08T12:47:23Z,0,Thank you,True
+@oliverescobar7037,2024-01-07T12:23:14Z,0,thank you so helpful!,True
+@lynny7868,2024-01-06T16:21:27Z,0,12:55,True
+@damiandamian7344,2024-01-04T15:45:32Z,0,"I havent taken my comp sci class in about a year and its really nice to relearn the materials through these videos, thanks for all the help.",True
+@marcuswest4572,2024-01-01T10:54:43Z,0,"This is a benchmark for teaching, period.",True
+@CAROLUK,2023-12-20T04:34:18Z,0,Thank you for creating this video for us. I have a question. I noticed that you didn’t add “self.” in method “add_emp”. Shouldn’t it be “self.emp”?,True
+@matras6664,2023-12-14T12:54:57Z,0,q,True
+@tilldeathdoesmepart,2023-12-10T21:58:18Z,0,"Around 13:25, ive poured over my code, and it seems to be the same as yours, but when I run the print_emps code, i get, 'str' object has no attribute 'fullname', the add and remove lines show <in string> requires left operand, not Developer. Im not sure where I went wrong, as Ive rewatched this video several times, although still very new to python.",True
+@RoyAAD,2023-12-05T14:59:34Z,0,"Can you do a video about multiple inheritance with super()? Or if you already did one, can you put a link to it please?",True
+@rockelleg.3406,2023-12-04T00:04:56Z,0,thank you so much for this video! I have been struggling through my Python Class; you are a God send!,True
+@AbhishekSingh-xg3zj,2023-11-15T09:12:07Z,0,"Corey Schafer sir, you are awesome. You just explained all these advanced concepts so easily. Moreover you really showed us the real time application of these code. I myself used all these in Django while handling custom error messages. Thanks a lot for making and explaining us these amazing concepts. Hats off to you sir ❤",True
+@filu9813,2023-11-11T12:35:57Z,0,"General question: ~ at 12:19 Corey is using ""employees"" as parameter name in __init__ but uses ""emps"" as abbreviation when naming the method ""add_emp"" and uses ""emp"" for the employee-parameter. Is there some kind of general convention when to use abbreviations and when not to use them or is this more a ""personal style thing""?",True
+@cruise2kx,2023-11-08T11:44:17Z,0,"Sensei, your instruction technique is superior to all others.",True
+@user-td6xi3hv2t,2023-10-17T09:36:09Z,0,The content Corey creates is a gold mine !!! How well he explains the concepts. Whoever follow Corey's lectures are doomed to have rock solid understanding of the technical concepts. #CoolCorey,True
+@4r4zzz,2023-10-11T14:29:04Z,0,U are the best.,True
+@ivy_farm2437,2023-09-27T19:07:48Z,0,Can we inherite from a subclass ? Thank you,True
+@ElWiwif,2023-09-23T15:46:37Z,0,Thanks Corey!,True
+@user-ue4ud3td8f,2023-09-19T12:11:39Z,0,very helpfull,True
+@ricardorien,2023-09-18T04:48:48Z,0,"Awesome class! This is what it looks like with types (don't judge me, looks cleaner for me after work for a while with TS): from typing import List, Optional class Manager(Employee):     def __init__(self, name: str, pay: int, employees: Optional[List[Employee]] = None):         super().__init__(name, pay)         if employees is None:             self.employees = []          else:             self.employees = employees       def add_emp(self, emp: Employee) -> None:         if emp not in self.employees:             self.employees.append(emp)      def remove_emp(self, emp: Employee) -> None:         if emp not in self.employees:             self.employees.remove(emp)      def print_emps(self) -> None:         for emp in self.employees:              print('-->', emp.fullname())",True
+@ricardods6843,2023-09-13T21:41:06Z,0,"13:05 I don't get how ""emp""  is read as the things in employees list. We never defined emp or used it in anything besides an argument above. Can someone explain how this works to me? Thanks.",True
+@NobixLee,2023-09-09T08:12:09Z,0,"This guy though, damn thanks man <3❤",True
+@ShanSiraj,2023-09-01T18:32:14Z,0,"Hi, Can you suggest me a good book which covers the core python Thanks in advance.",True
+@user-ok4fx3kl6f,2023-08-14T09:40:29Z,0,Came back to see your videos Corey! And I can't thank you enough. I hope you re feeling better now health wise <3,True
+@user-dw1ms6ge8u,2023-08-10T01:10:24Z,0,nice,True
+@markkennedy9767,2023-08-07T21:14:33Z,0,"This was really nicely laid out, showing the reasons we care about subclasses and detailing how to construct them. Great stuff.",True
+@waltz9230,2023-08-01T02:28:55Z,1,"Thank you for actually explaining how and why things work rather than just saying ""do this"".",True
+@Dray03,2023-07-30T20:58:26Z,0,Can class method  contain a second attribute?,True
+@ismaeldescoings,2023-07-28T11:10:24Z,0,"What does super() call exactly? What are the brackets for? Does it have any other kind of functionality? Can a subclass inherit from several classes? If so, what would super() then return? EDIT: To be more precise, super() is written without ""self"" between the brackets, so how does it know which class to access? Would it just completely break outside of the indentation?",True
+@qamstel,2023-07-20T18:30:13Z,0,This is amazingly useful and easy to understand. I've been using python and programming some stuff with taking bits and pieces from here and there and never really understood how classes in OOP work. This is a huge eye opener in understanding my code.,True
+@Aerish369,2023-07-16T09:08:58Z,0,Thank you so much Corey,True
+@parsaKh-un9vy,2023-07-11T12:11:02Z,0,"hi everybody ! i have a question; in 6:50 before you grab the Employee's __inint__ method into Developer class, the Developer class could access to the first, last, pay and email without the __init__ and its first last and... attributes. so why you bring them into developer class and define them again if it inherits from Employee class? why can not just define the new attribute (prog_lang) in Developer class and use it?",True
+@pvnath60,2023-07-02T14:46:31Z,0,This is too good,True
+@sc100200090,2023-06-08T04:48:30Z,0,Wow Corey! Bombastic Collection Buddy!,True
+@sasindukasunsi2563,2023-06-06T04:18:28Z,0,Excellent tutorial.. thanks for making,True
+@k.c.krishna9570,2023-06-04T07:54:44Z,0,The only channel that I double check pressing the like button...,True
+@atti1120,2023-06-03T07:46:31Z,0,"The examples used in oop are always 'simple' which makes it hard for me to see when it should be used vs functions. Or here, understand when to use a subclass vs a new separate class. it seems if it is using alot of the same code, use subclass? But it also has to make sense in the sense of what it represents in real life right?",True
+@arpitanand4693,2023-05-19T12:09:52Z,2,"My god, the level of clarity that you possess and are able to transfer forward is just unbelievable.  Thank you so much for all your hard work!",True
+@vibewithhaadi,2023-05-16T14:04:52Z,0,wow great job man,True
+@user-tm8jd4zc2p,2023-05-11T10:33:07Z,0,mgr1.print_emps()  ??? Thanks.,True
+@user-tm8jd4zc2p,2023-05-11T10:28:51Z,0,great class,True
+@mesumabbas9481,2023-05-08T19:20:08Z,0,His skills 🧑‍💻,True
+@ani4787,2023-05-07T12:32:54Z,0,"Why does super.__init__() not take self as the first argument? Anyway, thanks a ton for this awesome video. These concepts couldn't have been made any simpler! _/\_",True
+@richardfriedrichsen5339,2023-05-07T01:13:21Z,1,"Honestly, the class tutorials are the best tutorials I have ever watched. You explain it in plain english, straight to the point and easy to understand. Thank you so much.",True
+@gregwoolley,2023-05-03T00:25:17Z,0,Super well explained videos.,True
+@cws03,2023-04-19T00:29:34Z,0,What is  def __init_subclass__(self):     #some code,True
+@muneer4k,2023-04-18T11:51:23Z,0,Excellent tutorial,True
+@kibuzz3258,2023-04-10T12:37:55Z,0,vonderful videos!,True
+@rugri,2023-04-02T08:52:38Z,0,You have a talent to teach. Thank you and please keep on the good work.,True
+@OpeyemiOlasunkanmi-mv1pz,2023-03-17T05:33:52Z,0,thanks. you are contributing to your generation well sir. thanks once again.,True
+@alextorres9750,2023-03-10T16:34:53Z,0,I am trying to avoid tutorials posted 2 and more years ago...but YOU ARE THE BEST...I got tired of chasing all those fresh tutorials an I am so grateful to find You. THANK YOU SO MUCH :),True
+@businessemail1142,2023-03-09T18:47:12Z,0,"Hi, i need a freelance programming job in order to gain work experience, any entry-level jobs for me that require no work experience?",True
+@sasha321atl,2023-02-28T00:47:44Z,0,driver = webdriver.Chrome(driver_path),True
+@user-qn5by5iv7u,2023-02-19T08:12:30Z,1,2023,True
+@dgh25,2023-02-08T11:55:50Z,0,"If the help functions fails, you need to add ""C:\Windows\System32"" to your PATH environment variable in Windows.",True
+@vedchoudhary9519,2023-02-03T11:28:09Z,0,Thank you.,True
+@Anna-il9ej,2023-01-26T19:19:32Z,0,very helpful!,True
+@GMastrokostas,2023-01-24T21:45:22Z,0,You are my new hero !,True
+@2xJonny,2023-01-24T02:36:09Z,0,simply the best tutorial for OOP on youtube,True
+@Matthew_080,2023-01-20T09:56:33Z,0,Thank you so much for your help! :3,True
+@jf_8311,2023-01-17T15:02:37Z,0,"Clear and concise explanations, i can't ask for more! Thank you!!!",True
+@AboAbdulrahman_YT,2023-01-14T08:19:43Z,0,"thank you, this helped ALOT.",True
+@yulianamorales184,2023-01-13T19:28:13Z,0,Very understandable.,True
+@dudechany,2023-01-06T19:46:04Z,0,Is anyone getting an extra None at the end of the output when running this program ? Please help me to identify what could be the issue ?,True
+@dustinhxc,2023-01-05T21:28:04Z,0,"Wow the explanation of how Inheritance will be helpful in the end of the video was wonderful, my eyes are now open!",True
+@dustinhxc,2023-01-05T21:07:16Z,0,OMG IM GOING TO USE HELP ALL THE TIME THANKS!,True
+@hasanbaaqeil42,2023-01-05T02:10:45Z,0,I went through courses about different Classes in Python at Pluralsite and other four YouTubers but in vain... I could not understand it.. Your videos were perfect .. you explanations and examples are awsome .. clear organized simple and to the point... really really thank you,True
+@domkakuzu,2023-01-04T17:15:41Z,0,Simply the best tutorial on OOP in youtube :D,True
+@fedibaklouti3239,2022-12-23T11:45:07Z,0,This is so helpful thanks but I have a question! What about the multiple inheritance ?,True
+@the-ghost-in-the-machine1108,2022-12-19T05:08:14Z,0,"well explanation sir, thanks for the work.",True
+@bikramshrestha4233,2022-12-15T04:43:48Z,1,Might be silly to ask but can manager class have access to instances of developer class?  it is not a child class of developer class As in the video instance of developer (dev_1) is being passed in the constructor while creating mgr_1 instance. thank you,True
+@shankerkc01,2022-12-13T03:32:48Z,0,Awesome.,True
+@fligs7198,2022-12-11T04:31:25Z,0,Trading beignet + snake for icebreaker(fair overpay for me),True
+@fligs7198,2022-12-11T04:28:34Z,1,Love it! Continue the hard work! GIVE ME TORPEDO FRO ARACHNID PLSS,True
+@rashedobeidat5150,2022-12-04T20:50:21Z,0,"this is amazing, thank you",True
+@envy_coppr2146,2022-11-21T22:00:18Z,0,Hey Corey. Can you tell me how to get the cursor that can delete evenly?,True
+@fuad471,2022-11-21T16:14:21Z,0,what a beautiful explanation !,True
+@fufnulius1,2022-11-17T21:47:25Z,0,thanks,True
+@ramrajecr777,2022-11-02T12:44:03Z,0,Bravo 👏🏻,True
+@XuanJr.,2022-10-30T03:05:48Z,0,有一点学究，不是很喜欢,True
+@mcm0125,2022-10-29T16:51:42Z,0,"Very nice examples of how inheritances work and their possible uses in real-world scenarios. Thanks, for the help!",True
+@user-bg7ur7hj4v,2022-10-09T01:20:43Z,0,"Thanks so much! For me it's need a more that 2 weeks to understand 'Inheritance'. With this video, I understand it :D",True
+@yanachorna8167,2022-10-07T08:21:48Z,0,"I can't thank you enough, this video is quite literally a lifesaver!",True
+@abladiti7953,2022-10-04T10:38:38Z,0,I'm currently teaching myself python and when I'm on the other side I will have you to thank for developing a skill that is so in demand. Thank you Corey,True
+@danielstoekl544,2022-10-02T16:33:47Z,0,why make a list and not a set of employees for the manager (around 12:30)?,True
+@sydneyanuyah6722,2022-09-25T23:50:45Z,0,You have made my lectures seem worthless. Thank you for bringing clarity to this work,True
+@srm3399,2022-09-25T23:27:36Z,0,"Need more clarity on Manager Class print_emp method to understand how developer instance is passed as list while Instantiate Manager class, in this case, will Developer and Employee Class methods are made available as list items for comparison?",True
+@yuchaofan,2022-09-23T12:27:04Z,0,so damn helpful,True
+@kavitalakhani5335,2022-09-20T01:47:27Z,0,Why is it employees = None?,True
+@saifahmad141,2022-09-04T04:07:01Z,0,please never hesitate to make long videos . videos like these are pure gold. awesome explanation thank you Corey,True
+@saifahmad141,2022-09-03T18:42:29Z,0,"7:35 could we have avoided even mentioning the instances: self,first,last ,pay instead of mentioning them. ? if we dont want to repaeat then can we just not mention such they are called from employee __init__ and only programming language is called from developer __init__ or is it necessary beacuse the prog_lang is associated with self , first , last , pay??! in short could we have gotten rid of  instances except for prog_lang in the developer __init__?!",True
+@rachadlakis1,2022-08-31T06:47:24Z,1,(Y),True
+@moodmaker2796,2022-08-30T09:12:46Z,0,"The fact that the arguments have to be specified again makes it so not obvious for beginners why this is better than just copying the whole class since we already start to copy stuff.  I for one, who can not really grasp how complicated and long code can become, - though I logically do understand it - always am confused and maybe not creative enough to feel the benefit.",True
+@adisonfryman144,2022-08-25T15:50:00Z,0,"The Whisky library ? I tried doing a bit of google search and did not pull anything up that looks like what you showed. Could you please explain what it is and where it can be found? If you have an example project that I could see with it used that would be even more helpful.  lastly do you have a recommendation of an intermediate python project that uses a lot of classes? I generally had trouble with memorizing this topic and would like some practice. The more real world the better. This example was all very clear, I just want some hands on experience.   Thank You so much for your videos, codecademy was horrible.",True
+@supriyazanje612,2022-08-25T11:37:45Z,0,i am giving error that emp is not defined while displyaing,True
+@denislavdochev3783,2022-08-23T20:08:38Z,0,How do you comment out multiple lines in PyCharm?,True
+@zakuro8532,2022-08-22T19:42:09Z,0,Very helpful. Thank you!,True
+@baterickpatman,2022-08-21T08:11:48Z,0,anybody else hitting Ctrl+z instead of <- when they wanna rewind?,True
+@turkbozkurt9639,2022-08-11T08:36:32Z,0,"Again,i was watching a python course on udemy, Corey surprised me again with his  exceptional knowledge as usual.You are a Fucking Legend man!",True
+@nawafEalharbi,2022-07-21T07:32:13Z,0,Too much 🙂,True
+@ugonnaokoro7555,2022-07-20T11:05:45Z,0,Beautifully explained. Thank you so much,True
+@nriezedichisom1676,2022-07-18T19:14:05Z,0,Perfect as always. Thank you,True
+@PetroleumFromScratch,2022-07-17T08:54:53Z,0,Corey is a genius!,True
+@abduljelilali568,2022-07-14T16:51:21Z,0,"I tried to understand OOP, and watched so many other videos, but this one, is by far the best resource I've ever came across. Hats off!!!!",True
+@sanidhyas3s,2022-07-14T11:48:01Z,0,"The use of help( ) makes it so much more into the face, I love it!",True
+@akira_asahi,2022-07-11T06:48:43Z,0,"Thank you for the video. I am gratuful for your time and contribution. Kind regards, Akira.",True
+@misikoala6368,2022-07-05T04:14:37Z,0,"9:19 right there.   (This is a memo for myself.  Everyone else please ignore my comment.)",True
+@sachinmainkar,2022-07-04T05:27:08Z,0,"At 7:50, when we create the Developer class / object inheritted fromEmployee, will the Developer object have first, last, pay if we don’t call super.__init__() ? Or in other words, why do we need to call Super’s init when the Developer automatically inherits everything from Employee ?",True
+@codefrom0624,2022-07-02T13:53:21Z,0,"Man this is gold, thank you very much. I'll take a look to that Patreon as soon as I get a job.",True
+@Sandarpan,2022-07-01T04:30:22Z,0,"If Manager inherited from Developer, would it still inherit from Employee by extension?",True
+@junfan02,2022-06-15T17:31:18Z,0,"If class C is a subclass of class B which in turn is a subclass of class A, and if we use super.__init__ in class C, which class will it inherit the __init__ from?",True
+@AJ-et3vf,2022-06-09T04:17:45Z,0,Awesome video! Thank you!,True
+@suryakiransuravarapu8081,2022-06-07T22:42:02Z,3,"Honestly, you are the one of the finest teachers I came across! I also see the humbleness in you, people like you make a world better place.",True
+@diysumit,2022-06-07T22:04:23Z,0,Thanks for all this free stuff!,True
+@wingman2384,2022-06-03T13:21:02Z,0,"Hi, please correct me if I'm wrong. I'm still trying to get a grasp how are these classes and their connections useful. The way I see it now is that each developer instance is at the same time employee instance and could have the basic parameters (name, pay, etc) copied from its instance of Employee class. But it's not what you do. You create each developer and employee separatelly. Is there a way to get this info passed on?",True
+@JorgeEscobarMX,2022-06-02T17:32:18Z,0,"I love these videos, loved the playlist. Here is the best method resolution order (MRO) explanation given on YouTube.",True
+@chanteld2954,2022-05-28T18:29:10Z,0,"I cannot express to you how helpful your videos have been. I have watched all my uni lectures and read so many articles explaining what classes are, but only your set of videos have gotten me to grasp the concept completely",True
+@shwetas1892,2022-05-28T02:51:14Z,0,"Hi Corey, At 15:21, Can we access prog_lang attribute through mgr_1 instance?",True
+@danielc4361,2022-05-19T22:52:47Z,0,This is one of the best videos on inheritance I have found. Thanks a bunch!,True
+@nqubekozulu1448,2022-05-18T09:22:15Z,0,Thanks man these are really helpful and you make it so easy to understand 🙏🙏🙌,True
+@seyedrezaghazanfari7890,2022-05-18T04:23:17Z,0,"in the case of multiple inheritances, how we can use the super() properties?",True
+@parijatbandyopadhyay8057,2022-05-14T04:49:13Z,0,"Corey, This is not at all a long video, it's simply a gem on Python inheritance",True
+@uptopaviation,2022-05-06T09:07:33Z,0,"Thanks, this was an amazing help",True
+@kamyarothman8157,2022-04-25T20:54:43Z,0,the best ever,True
+@bingxinyan8103,2022-04-24T04:56:36Z,0,Great! Thanks!,True
+@arbigobiaalu,2022-04-17T17:04:01Z,0,Thanks for this amazing course,True
+@adeltazhibi7398,2022-04-16T22:13:18Z,0,Very thorough explanations. Thank you for the content.,True
+@LadyPlatinaBerlitz,2022-04-16T04:43:25Z,0,Thank you for your phenomenal explanations!,True
+@johns5042,2022-04-15T20:07:49Z,0,"Thank you for the video.  Quick question please, if in the manager's class the argument employee is not provided, and you try to use one of the functions in the manager's class, you will get an error: ""manager"", object has no attribute ""employee"".    Would you know how you could avoid such an error?",True
+@mockingbirdsphysicschannel9774,2022-04-10T15:28:05Z,0,I just love your videos,True
+@erickmwazonga8871,2022-04-06T21:51:44Z,0,"Awesome OOP tutorial. It will be good to add ABC, Composition, etc",True
+@vaibhavkhobragade9773,2022-04-02T15:35:26Z,0,Super helpful for research project especially build neural network. Thanks Corey!,True
+@valentinrack6028,2022-03-21T03:53:11Z,0,Best OOP tutorial I found. I regret not sterting here. Thx!,True
+@Josh-di2ig,2022-03-12T18:07:35Z,0,another amazing video. thank you Corey,True
+@vitaly_p,2022-03-08T18:50:59Z,1,Thank you! Great video!! Keep up the work!,True
+@zealot4325,2022-03-05T12:02:03Z,0,You have a good sence of how to teach others,True
+@mustafizahmed1317,2022-02-27T14:42:13Z,0,I came to watch this from a popular learning platform to understand python inheritance better. Thank you!,True
+@Lux1431996,2022-02-23T19:05:19Z,0,Your explanations here are more worth than bitcoin at their peak. Thank you so so much. This is extremely helpful!,True
+@lapnim4025,2022-02-22T19:08:25Z,0,"so does ""super().__init__(first, last, pay)"" same as ""self.first=first"" and ""self.last=last"" and ""self.pay=pay""?",True
+@user-vm9hl3gl5h,2022-02-21T06:52:05Z,0,"raise_amt는 init 안에 없으니까, developer, manager에서 다르게 조정해 줄 수 있지. 그래서 모든 variable을 init 내부에 두지는 않는다.",True
+@lovisefiska9235,2022-02-14T09:41:11Z,0,"These are very good step-by-step explanations with good examples. I was a bit stuck with OOP, but several things have come to place after watching your videos.   Thanks!",True
+@andysmudge4849,2022-02-13T17:36:33Z,0,Dislikes are from bootcamp owners who can't digest the fact that top quality content is on YT for free.,True
+@jonsnow3513,2022-02-13T11:00:24Z,0,Thanks,True
+@tomcat9761,2022-02-10T13:01:46Z,0,"Gonna use the ""Method Resolution Order"" or ""Chain of Inheritance"" in interview to make myself look cool lmfao.",True
+@tomcat9761,2022-02-10T12:52:45Z,0,You just explained the meaning of inheritance to me in just 1:30 mins. I struggled to understand this in my 1 semester lmfao,True
+@fratkalkan7850,2022-02-08T15:01:58Z,0,greatest teacher ever,True
+@abdallahalaa492,2022-02-04T09:38:42Z,0,great explanation mate (y),True
+@Pheshen,2022-01-30T13:19:43Z,0,11:25 Mutable Default Arguments - https://www.youtube.com/watch?v=_JGmemuINww,True
+@snahnaichow835,2022-01-29T13:16:04Z,0,"Dear Corey, great videos and I tell you why: You dont steal my time. You speak fast without ehhhhs and ahhhhs but not as fast as if you were on drugs like so many others. You describe the subject in a constant ""explanation speed"" so when I m concnetrated, I get it all from the first to the last minute. Then you dont waste my time while typing. Almost no errors. Prepared stuff. Great. So with your videos I get a lot of information fast and complete. I'll donate something for this. I watched many many learning videos over the last years and yours is one of the best. Simple, quick, condensed, to the point, no selfish nonsense.",True
+@awaismalik1928,2022-01-29T07:22:56Z,0,"print(""--> "", emp.fullname()) it returns ""None"" but without print it returns the name of the employee.....can someone explain why is that.",True
+@haydenwilsonx,2022-01-29T06:36:10Z,0,Thanks Corey - great video,True
+@codee7575,2022-01-18T15:28:41Z,0,i dont understand why [dev_1] in mgr_1 instance  and not dev_1 in mgr_1 instance,True
+@B-K-A-D,2022-01-17T21:34:05Z,0,"well done , that was useful tutorial thank u",True
+@edgaromarreynatorres3940,2022-01-15T20:47:35Z,0,Excellent videos man you are helping a lot of people. sincerely thank you.,True
+@ayushyadav333,2022-01-14T13:42:24Z,0,"Finally a good video with a good example rather than the print ""parent class"" and ""subclass"" XD",True
+@silentlamb5147,2022-01-10T23:56:20Z,0,Super helpful and very easy to understand and integrate into my existing knowledge,True
+@muntadher8087,2022-01-09T20:06:20Z,0,Thank you!,True
+@RishiDesai94,2022-01-03T10:02:33Z,0,I was wondering when there would be a reason not to use inheritance for a class? thanks!,True
+@dileepbc5901,2022-01-01T18:09:41Z,1,this lectures are gold  thank you Mr. Corey Schafer ill be learning Python oops through your videos,True
+@soniferous,2021-12-31T09:32:16Z,0,"Hello, what if the main parent class has some keyword attributes? Do the default values have to be copied into the init method that call back to the parent class?",True
+@nolongeravailable111,2021-12-28T21:42:17Z,0,i lost it at 13 minutes xD,True
+@eccentr3c.,2021-12-23T18:40:41Z,0,"thank you so much mann, youre helping my brain from stress. Big love from indonesian🙏🏻👍",True
+@biprarshichakraborty1255,2021-12-23T12:28:47Z,0,Great job. Still helps me a lot from time to time.,True
+@kalleoakoskinen,2021-12-19T09:25:05Z,0,"Potentially stupid question here: In the ""__init__"" of Manager subclass, the employees class variable is set using line self.employees = employees if it is given. I have ran into some problems when using ""="" to assign values for lists instead of "".copy()"" method.   If we would make a Manager instance by ""mgr_1 = Manager(firstname, lastname, pay, dev_list)"" where dev_list is a list of Developers, and would later use methods mgr_1.add_employee or mgr_1.remove_employee, wouldn't we also alter the dev_list variable? This seems scary.",True
+@ZeroRoy,2021-12-17T05:50:51Z,0,"I am not sure, but I think the Mutable default argument topic is wrongly applied in this example in the video. In the end, each time the Manager is instantiated, an empty list will be created and the workers appended. Different thing is in the video of 5 Common Python Mistakes and How to Fix Them, where each worker, when the function is called, the list will be empty if no list is written, and if so, the worker will be appended in the list. Any thoughts?",True
+@davidikhenasugaba4774,2021-12-13T19:28:21Z,0,at the last function. can we also use return emp.fullname() instead of the print?,True
+@justinfrancis669,2021-12-13T08:11:55Z,0,10:50 You could also do self.employees=(employees or []),True
+@seyramm.duphey2248,2021-12-11T13:31:30Z,0,You made life simple. Thanks for the education!,True
+@user-ne1jb1rc5v,2021-12-10T19:46:22Z,0,i have an exam tomrrow i am f*** ready for this lets get it,True
+@dennissanchez5171,2021-12-10T04:33:29Z,0,"Thank you, you're gifted with teaching!",True
+@k.8597,2021-12-07T21:34:53Z,0,u my friend are a fucking legend,True
+@stefanwakeman9419,2021-12-06T17:28:36Z,0,"Thank you, you explain so clearly. I've been struggling with this in a coding boot camp.",True
+@ManzoorHussain-gz1vk,2021-11-29T14:25:28Z,0,Thank you,True
+@marlenk.5950,2021-11-27T13:14:22Z,0,"really helpful, thank you!",True
+@jackfrost8412,2021-11-27T06:14:03Z,0,I have been using python for years now and I'm self taught. I have used Super().__init__() multiple times without fully understanding what it did. It was more of a copy/paste thing. I even tried searching the meaning but nothing really made sense. Now I understand what that does. Thank you so much. Thanks a lot for these videos.,True
+@shyamss2338,2021-11-20T01:12:57Z,0,How would I print the employees list from mgr_1 if we didn't have the print_emps method? I tried using print(mgr_1.employee) but it didn't work.,True
+@timtech9361,2021-11-06T20:57:06Z,0,The explanation with the super__init__ method was flawless.  10/10,True
+@stayhome1756,2021-11-02T07:18:36Z,0,"I don't clear about subclasses in this video, can you explain for me? please",True
+@jasonxia3597,2021-10-24T21:43:34Z,0,"can you go over private, protected, and public variable? especially their scopes",True
+@Aman_Garcha,2021-10-23T17:17:36Z,0,Please make a video on Multiple inheritance in Python,True
+@stockjanitor,2021-10-21T01:04:50Z,0,python should be paid more! :P ahahahahah😂,True
+@amandaahringer7466,2021-10-18T15:24:16Z,0,"You are an exceptional teacher! Thank you so much for sharing this content!! Like others in the comments, I've taken a number of Python courses. Your Working with Classes playlist is by far the best explanation I've seen and it has helped solidify a lot of concepts.",True
+@JR_Hossain,2021-10-13T14:39:40Z,0,Can I say: mgr_1 has fullName method & for each mgr_1.emp[] has individual fullName method?  If yes then is it possible that parent class has a method & every subclass use that method instead of creating/make a blueprint of that method?,True
+@meralmaradia4774,2021-10-11T09:01:14Z,0,"Hello Corey, This is very usefull. But I have a question in mind since very long.  Can you give me an example where I CAN NOT use the protected property with single underscore in python.  I know the exact restriction for dunder __ but not for _ .  Please help with an example.",True
+@jojosnumbers6868,2021-10-07T06:27:01Z,0,"Just started to learn python from zero by myself and came accross classes not knowing what they actually are. These video-parts were the first one's recommmended upon searching on Youtube and scrolling through the comments I've noticed that seemingly I'm saving a lot of time by avoiding videos from other channels. Thank you, Corey!",True
+@FirdausHSalim,2021-10-06T11:20:33Z,0,Thank you so much for this,True
+@fethisert5527,2021-09-28T08:35:36Z,0,Nice video,True
+@andeemengaming5000,2021-09-28T06:12:31Z,0,"thx mate was needing more arguments in pygame rects, helped me out. liked and subbed",True
+@MushfiqurRashidChowdhury,2021-09-24T11:25:05Z,0,the best,True
+@williamhu9567,2021-09-21T20:32:19Z,0,"Question: if we want to increase the raise amt for all employees, how could we do that? (Including devs and managers)",True
+@joelloyd2633,2021-09-20T09:16:52Z,0,I feel the beginnings of a question formulating in my mind and then....BAM! Corey answers it before I even knew what I wanted to ask.,True
+@sergejgrednev5314,2021-09-15T18:05:23Z,0,Great explanation! Thank you! :),True
+@PepeTostado,2021-09-11T22:54:40Z,0,What happens if you don't use an init method?,True
+@dpapa2175,2021-09-10T23:34:39Z,0,"I like how you explain this, but in the real world you probably wouldn't do it. Just have a role object or something, which gets injected.",True
+@soumyaroy2785,2021-09-06T14:47:04Z,1,Hii Corey add/remove is not working.Though there are no errors.PLEASE HELP,True
+@Rudra-go6us,2021-08-30T03:41:49Z,0,You are the king of all golds✅,True
+@sahilpatel255,2021-08-28T11:53:18Z,0,"Hello everyone, is anyone getting an error with  emp variable that goes inside the List employees? It basically says that emp is not in employees . Thanks everyone and have a good day!",True
+@suryamanipandey8002,2021-08-26T19:41:55Z,0,Holy grail of OOP,True
+@marvinreyes7459,2021-08-24T07:24:52Z,0,"Damn Corey! he is a Master and Even though English is not my native language, I can understand everything he says and how he explains",True
+@indrajitbanerjee3325,2021-08-21T12:38:40Z,0,"Nice way of teaching sir ,Thanks a lot",True
+@gubby740,2021-08-18T07:28:12Z,0,Great content!,True
+@siddharthasharma9316,2021-08-12T21:19:38Z,0,thanks professor,True
+@md.abdullahalmasum4942,2021-08-11T14:38:39Z,0,best series about oop .,True
+@karthikshetty2206,2021-08-07T13:31:12Z,0,"Watching after 5 years, very informative and clear",True
+@RossittoS,2021-08-07T02:04:23Z,0,"Perfect videos, man! Thanks!",True
+@automationneemo,2021-08-05T18:21:39Z,0,This playlist is superb! Thanks a ton!,True
+@SpiritOfIndiaaa,2021-08-04T10:59:38Z,0,"thanks a lot , how do we do multiple inheriance in python?",True
+@annasmith7404,2021-08-04T04:49:34Z,0,SO HELPFUL. These videos are the best I've seen.,True
+@dfredmusic,2021-08-01T00:57:03Z,0,Outstanding video!,True
+@360__vr,2021-07-22T23:01:44Z,0,"Wow, you don't even have a Udemy Course. I have used a few Python tutors and you are just simply awesome. Please create full tutorial course on Data Structure and Algorithm and Full course on Python",True
+@lightningllama,2021-07-21T04:56:07Z,0,"11:51 note to self, none type argument can be passed and assigned a data type later in class definition",True
+@rajachola3315,2021-07-19T17:29:29Z,0,Best coding channel I've seen!,True
+@Deepsingh-uv8wv,2021-07-19T02:08:50Z,0,wow☮️,True
+@mohindersingh0711,2021-07-16T23:45:50Z,0,Just curious to know who are those 50+ guys who down votes this awesome tutorial,True
+@martynasvenckus423,2021-07-12T22:12:33Z,0,I don’t understand why ‘emp.fullname()’ works at 13:20… why does it have ‘fullname’ attribute?,True
+@dinastark1088,2021-07-10T08:55:47Z,0,Amazing Explanation bro,True
+@sefatergbashi,2021-07-08T20:55:00Z,0,This is super clear!,True
+@TheJoker91339,2021-07-06T16:55:34Z,0,These tutorials are so fricking good!,True
+@waleedmorgan8721,2021-07-04T08:18:56Z,0,How Are You ?,True
+@Scorpisces1911,2021-07-02T03:33:34Z,0,Why didn't we pass the empty list to the default argument? Who knows the answer?,True
+@varunnagrare4912,2021-06-29T13:17:08Z,2,All of Corey's videos are so good that I can feel a feeling of a bulb lighting up in my head. Like I achieved some enlightenment! In that case Corey is Buddha in Teaching. 😁,True
+@Stardust314159,2021-06-29T00:07:39Z,0,"Do you use windows, and the ""help"" function bring up the following error?  'more' is not recognized as an internal or external command, operable program or batch file.  The help function needs to look in the System32 path in order to work. To make that happen: 1) Right-click the ""My Computer"" icon on your desktop and click ""Properties"". 2) On the ""System"" window brought up, click ""Advanced System Settings"" (should be on the left side if you're on Windows 7). 3) Click the ""Advanced"" tab, then the ""Environment Variables..."" button. 4) On the System Variables part (bottom for Windows 7), highlight the ""PATH"" variable and click the ""Edit"" button. 5) On the ""Variable Value"" input, add ""C:\Windows\System32"". Make sure the path is separated by the other paths by a semicolon. 6) DONE!",True
+@EpoKeins,2021-06-27T15:46:50Z,0,6:44 Isn't it quite redundat and susceptible to code changes that one must always adapt the __init__ method of the child class to the __init__method of the parent class? Isn't there a mechanism in python which you can use to inherit the __init__ method from the parent class?,True
+@VNTHOTA,2021-06-20T09:26:43Z,0,"Hi Corey, while passing [dev_1] we are passing a list item, but later we are passing just dev_2 i.e. instance of the developer class. It would be better if we initialize an empty list at the time of creating the manger class itself. So that there won't be any confusion that the user has to pass a list object when the manager class is called for the first time and later just pass the dev_2 instance.",True
+@letsjoinhands,2021-06-14T18:05:33Z,0,"@Corey Schafer:  Now it might sound dumb, and the class/sub-class examples that you have demonstrated are simple but applicable in the real-world, but I want to know to what use do we put instances to after their class and the instances themselves have been created. Like are they used to populate a dataframe column (ie label)? Or what? What's the use to which they are put to? I know its an object and naturally in Python we perform ops on objects to get some kind of a result and reach a conclusion but can you give me a real-life example of how classes/sub-classes and instances are used in data science/analytics/ML etc?",True
+@calebmbugua745,2021-06-08T12:57:23Z,0,woow..Thanks Corey,True
+@jasonlarry123,2021-06-05T20:09:29Z,0,"at 18:54 why did the subclass not make use of the syntax ""super()__init__""?",True
+@ravisrivastava3829,2021-06-04T03:45:23Z,0,how to inherit more than one class??,True
+@nazgulzholmagambetova1198,2021-06-02T06:28:08Z,0,Amazing explanation! Thank you!,True
+@tymothylim6550,2021-06-01T03:28:29Z,0,Thank you very much for this video :) It is very good that you used all these examples at the end! I enjoyed seeing it being used in action through these examples :),True
+@changroberto6734,2021-06-01T01:48:38Z,0,"After 4 years, this still being excellent, well and detailed explained video",True
+@ulfgj,2021-05-27T21:43:07Z,0,how does super().__init__() work when u inherit from a class that is in another file?,True
+@lionciomorcilla3045,2021-05-22T09:34:18Z,0,Best tutorial in Youtube!!! about oop,True
+@jiananwang2681,2021-05-21T13:09:06Z,0,"oh, thankyou so much. You teaches so smoothly and make everything clear. You have helped me much!",True
+@alper7313,2021-05-20T07:38:01Z,0,Salute to this man. He just had to fire himself to create this tutorial 💯,True
+@emreaka3965,2021-05-17T21:05:13Z,1,Thank you.,True
+@emreaka3965,2021-05-17T20:17:16Z,1,"14:57, I took a NONE output.",True
+@emreaka3965,2021-05-17T19:59:50Z,1,Cannot we write these classes to another page like how we do in java or C#?,True
+@ayushgupta1881,2021-05-17T15:00:47Z,0,Thanks a lot !,True
+@aaronpaulyambaobarsana6862,2021-05-16T16:17:52Z,0,Thanks :),True
+@v_b2783,2021-05-16T14:12:49Z,0,Like in class Manager in the print_emp function if you just print emp in the print statement it just gives you the location so without using a above user-defined function what can u use instead to get the value stored and not the location ???,True
+@sarthakmane2977,2021-05-15T10:08:15Z,0,Your lectures are better than any videos I have watched about python on Youtube❤❤,True
+@h2onemnem,2021-05-12T04:01:42Z,0,"Hey Corey, Thank you for the great playlist...i have a question, when i added a new employee under a manager and tried to print the list of employees using the print_emps() method, i didnt get back the name of the employee, this is what i got back: --> <__main__.Employee object at 0x000001F6617E1BE0>  How do i get the name instead?",True
+@nazaserh,2021-05-10T00:49:43Z,0,As always a fantastic lesson 👏,True
+@mohammadyunus9020,2021-05-04T09:50:16Z,0,super() takes at least 1 argument (0 given) I am getting this error can anyone help plz,True
+@chloeren9175,2021-05-02T21:22:15Z,0,"Please tell me why after i print (mgr_1.print_emps()),there's a None after the fullname?",True
+@11-craml67,2021-04-29T08:13:58Z,0,12:36,True
+@idockery,2021-04-27T19:19:37Z,0,"Can anyone clue me in as to why I am getting an attribute error that Manager Object does not contain the attribute employee?  After I instantiate the Manager Sue Smith (assigned [dev_1] as an employee under her management, i run the print_emps function and get this error.   I assume it has something to do with either the if statement or trying to use a list of employees item as an input for the full name function but i am completely unable to figure out what I am doing wrong or need to do differently.",True
+@danielkamau8436,2021-04-24T18:41:02Z,1,"Superclass().__init__(thanks, very, much_sir)  Deo!!! thanks I have really gotten this one right. Thanks sir for offering such expensive knowledge for free.",True
+@bhavyaparashar2936,2021-04-22T14:00:53Z,0,Very well explained!,True
+@lucasmachado473,2021-04-21T18:38:13Z,0,"""it allows us to make changes in our subclasses without worrying about breaking anything in our  parent class"" EVERYTHING MAKES SENSE NOW",True
+@mitra9234,2021-04-20T11:40:36Z,0,"very well explained sir , thank u",True
+@cidilicodolo3272,2021-04-19T01:17:39Z,0,I have a question:  How to open exceptions.py file?,True
+@sarahghanei1997,2021-04-15T20:50:16Z,0,"one of the best tutorials i have seen ever for this topic, thank you so much.",True
+@Vaishravana07,2021-04-14T14:54:08Z,0,"if u are passing dev_1 as argument to manager but the parameter in manager has employee = None , so then will it overwrite the None ? can someone explain this",True
+@ioannisnicolaou1295,2021-04-10T10:15:56Z,0,"17:50 example of ""Exception""",True
+@plato5138,2021-04-05T18:56:16Z,0,Thx a lot.,True
+@susanli7149,2021-04-05T17:36:13Z,0,The god of Python...!,True
+@harshitprakash5878,2021-04-05T08:10:06Z,0,How do we override a function from the super class to the child class??,True
+@roubarizkallah2172,2021-03-30T16:10:32Z,0,"Great video, very explanatory and well laid out, just one of the greatest tutorial I've seen on OOP. The problem is that it's pretty long and it's hard to keep up with your monotonous way of speaking, it isn't easy to deduce important points from the way you speak, it gets quickly boring and tiring to hear you speaking at the same pitch for 20 mns, it's not monotonous actually but not very enthusiastic I'd say this is one of the main weaknesses in your tutorials. But thank you very much Corey I really love your work. Keep it up man!! :)",True
+@codewithshajahan9997,2021-03-28T12:07:20Z,0,Hats off to you for making such quality coding videos. These videos have helped me a lot. Thank you.,True
+@moemanm1202,2021-03-28T02:56:35Z,0,"I saw code where they passed something in the Super method. for example  class example(something): def __init__(self,arg): super(example,self).__init__()   what are they trying to do in that. What does it mean to try to pass arguments in the Super method.   thank you",True
+@kentsang9376,2021-03-27T18:06:15Z,0,Wow you are so good at teachinng,True
+@towardsinfinity9153,2021-03-23T18:13:16Z,0,Thanks Corey for this amazing videos. Are you going to take videos on numpy in near future?,True
+@danialmohajery2935,2021-03-19T12:36:17Z,0,"You are great, it is very fluently presented. Thank you",True
+@adeyemiowolabi6472,2021-03-13T21:07:23Z,0,"Good day Mr. Corey. Thank you so much for all what you're doing for millions of people. Your videos are great. Please i wanted to ask a question about the following lines of code: Class Manager(Employee):     def __init__(self, last, pay, employees = None):           super().__init__(self, last, pay)               if employees is none:                   self.employees = []              else:                 self.employees = employees  my question is that if the argument passed to employees is not a list of strings of employee names, but rather a string of one employee name, how would python then know that self.employees should be a list. I have been trying to wrap my head around this for a while. anyone who can help me explain, please do. Thank you",True
+@stefancoetzer7230,2021-03-12T02:38:16Z,0,Thank you :),True
+@rohitchakravarthi94,2021-03-08T11:50:27Z,0,"thank you, you are great   ill contribute to your channel once i get a job",True
+@amitkshankar,2021-03-07T13:18:54Z,0,"Thank you, the information is very helpful.",True
+@rainman13579,2021-03-06T12:26:23Z,1,OPP tutorials are far beyond the excellence. Well done Corey. I have a question. I couldn't understand how [dev_1] in mgr_1 instance (of Manager class) do work in the fourth video of the series? Thank you.,True
+@pterois5914,2021-03-05T12:22:27Z,0,can Employee somehow know to what Manager it belongs ?,True
+@rezarabbani5335,2021-02-25T09:14:45Z,0,The tutorial voice speed in the world,True
+@leemurcha3052,2021-02-24T22:01:04Z,0,"I love the video, but @Corey can you provide an update? I get this error when using the super().__init__(...) method.  ""super().__init__(first, last, pay)/ TypeError: super() takes at least 1 argument (0 given)"".  After trying to figure it out, some googling told me it's because the new Python 3 doesn't support that. How would we fix it? Passing self gives the error that the argument must be a type and not an instance.",True
+@artemkazakov7072,2021-02-24T14:11:42Z,0,"Meanwhile we're in 2021, and it's still the best Python inheritance tutorial out there",True
+@clarckmiller9121,2021-02-14T16:49:31Z,0,"I have an issue. In the apply_raise method, if you write Employee.raise_amt code, it does not change its raise amount for Developer class. But if you write self.raise_amt, it applies. Why?",True
+@hunterallen4521,2021-02-11T17:00:28Z,0,I want to kiss you!,True
+@mossaghattas4968,2021-02-10T22:47:44Z,0,"Really helpful. Thank you so much, Corey.",True
+@johnnysasquatch3003,2021-02-06T13:14:31Z,0,That help() function just blew my mind,True
+@AK-yd1fg,2021-02-04T09:14:17Z,0,"I have a question: Why did you have to make a method to print out the employees of the manager, why couldn't we just use print(Manager.employees) to show them to us? When I did code print(Manager.employees), I got  [<__main__.Developer object at 0x0000025051433DF0>]  Why did that happen?",True
+@haneulkim4902,2021-01-28T23:56:16Z,0,Amazing tutorial! Thanks Corey,True
+@rajaspydey,2021-01-24T02:39:28Z,0,Thanks for keeping ads at end of the video. So I could support you without getting annoyed by ads. And I mostly let them play fully ✌🏼,True
+@Tamer_Gomaa,2021-01-19T11:46:36Z,0,Just Awesome  👍🏼,True
+@MLDawn,2021-01-19T00:23:14Z,0,Man you killed it...,True
+@harrymon0,2021-01-18T11:10:52Z,0,"Thank you for this. Because of this video, and particularly the part where you call the __init__() method on the super() object, I was able to see precisely how to implement the Strategy design pattern in Python. I'm now a subscriber!",True
+@shaharrefaelshoshany9442,2021-01-15T13:07:54Z,0,"Guys, can someone  please explain me what's that Whiskey library Corey was talking about in this tutorial.  I tried to look for it online but found some weird things. If someone can Clarify pleaseeee....",True
+@SalmanAli-me9ce,2021-01-14T06:11:02Z,0,Man Thanks for this great series.it is very helpfull,True
+@theminertom11551,2021-01-12T04:36:01Z,0,Really great content!,True
+@saishveerkhare4791,2021-01-10T15:00:27Z,0,"Manager() takes 1 positional argument but 4 were given why this error",True
+@deepikarao2593,2021-01-04T02:45:05Z,1,"I have replaced the super().__init__(first, last, pay) with super(Developer, self).__init__(first, last, pay) since I am using Python 3, but I get super() argument 1 must be type, not classobj Typeerror",True
+@abdelrahmanali4550,2020-12-28T17:44:09Z,0,Thank you Corey. Thank you. Thank you. Thank you.,True
+@moharrammoharrami3957,2020-12-23T16:28:54Z,0,"Thanks Corey, I'm a beginner in Python and I found that my previous knowledge of this concept was completely wrong.",True
+@miraliyahyayev9877,2020-12-17T19:15:00Z,0,"I have a question.  At 13:03, why he didn't add ""emp"" into the parentheses. He added ""emp"" after ""self"" in the previous two functions but on the last, he didn't add it. Why? Please, can someone explain me?",True
+@farmanahmadov350,2020-12-17T04:45:16Z,0,how you comment out multiple lines within a click,True
+@thuanngh820,2020-12-14T04:33:14Z,0,You help me very much. Many thanks.,True
+@gryu7214,2020-11-25T09:50:35Z,0,Great! Very clear,True
+@davidmbugua6994,2020-11-24T12:45:26Z,0,Insightful video akin to doing a whole online course on the same topic.,True
+@bradyminer6471,2020-11-21T03:38:26Z,0,What I have been struggling to understand over the past few weeks you solved in one hour.  Thank you so much!,True
+@DrWho2008t101,2020-11-19T07:43:19Z,0,thanks,True
+@altunbikubra,2020-11-16T12:32:55Z,1,"Very explanatory examples nicely put. Whenever I get confused about a topic, or I want to learn something I find myself in your channel. And you are never a disappointment :)",True
+@Zwei200123,2020-11-07T21:42:22Z,0,Thank you for this!!,True
+@kevinnolasco5247,2020-11-05T22:35:23Z,0,"Hello Corey,  Thank you so much for this informative series! I have learned a lot about classes.  I do have a question though! How would the Developer class access the 'from_string' method of Employee? The 'from_string' method would not know how to deal with the extra 'prog_lang' input! Would we fix this through the Employee class or from the Developer subclass?  Thanks again!",True
+@zunairkhan1994,2020-11-05T18:41:42Z,0,wow... i paid for a whole course on udemy and you explained everything better and for free. Thanks for uploading such a wonderful and easy to understand tutorial.,True
+@sarafarron7844,2020-11-02T12:06:32Z,1,15:28 RIP dev_1,True
+@giorgipatsatsia544,2020-10-27T11:25:20Z,0,I'm just watching and clapping. Everything is so easy to understand. Just brilliant. Thank you Corey!!!!!!!!!,True
+@muratsokucu5891,2020-10-25T01:32:01Z,0,Thanks a lot Corey! You're the man!,True
+@aineshbhattacharya8557,2020-10-23T22:29:56Z,1,The program is not working.,True
+@eatdapoopoo67,2020-10-21T18:01:34Z,0,"you are a God amongst men, Corey. Thank you",True
+@AmanSingh-cb7om,2020-10-15T07:23:01Z,0,Thank you Corey! the best explanation of OOP on Youtube! Keep up the good work!!,True
+@skrclips99,2020-10-11T16:59:59Z,0,Great Video! Thanks Corey.,True
+@aryan7069_,2020-10-10T19:31:27Z,0,Really satisfied by your explanantion keep going sir!!,True
+@MattaparthiShivaBhargav,2020-10-10T18:01:12Z,2,"java has higher pay in the example,,,,DAMN IT JAVA",True
+@avrenna,2020-10-08T23:55:20Z,0,11:33  code golf:  you could replace lines 31-34 with one:   self.employees = employees or [],True
+@Jwtiyar-Nariman,2020-10-05T12:11:41Z,0,Hey Corey Why don't use **kwargs for too much values in def ? instead of typing them all in the function?,True
+@coemgeincraobhach236,2020-10-04T15:12:42Z,0,Thanks!,True
+@sand9577,2020-10-03T01:12:14Z,4,"I'm a mechanical engineer, whose career died way before COVID dropped the last ton of dirt on top of its grave. I've been trying to re-skill my self into other industries of Mechanical Engineering, to learn some more process design stuff and migrate there; I like this Mechanical Engineering thing and I'm not about to give up. But those Mechanical Engineering courses are so incredible expensive, they are not meant for ""outsiders"" like me. Not only those courses are expensive, they are at times shallow and a sales pitch for: ""tell your company to buy this other course where we go into greater detail. By the way, these other courses are on this other city so you can travel on company's dime and get paid to learn.""  It gets really expensive, and the instructor himself said the courses are not enough to break into that industry either way. The courses are meant to line the instructor pockets and pad the attendee resumes on their company.  On the other hand, all the videos and resources I'm finding about coding, computer science and its kin; are not only FREE! they have depth, content and quality that I haven't seen in courses costing thousands of dollars in fancy Hotels.   Corey Schafner, thank you so much for all of these Python courses. I'm beginning to entertain the idea of trying to migrate into coding or data science. I've always coded in ME and I have all the math either way.    But...it's only a pipe dream. If I'm not able to get a job in ME after 2 years freelancing to scrape by, and having 8 years of experience as a Mechanical Engineer. I sincerely doubt anyone will accept an outsider into Information Technologies armed with youtube videos, Coursera certifications and zero years of coding.  Once again, thank you for the work you put into these videos. And I really wish I could send something your way other than this self pitying rambling.",True
+@barshabhattacharjee6788,2020-09-28T13:07:56Z,0,For more visit : https://youtu.be/1CEk7I0YlQI,True
+@booyea7distantreason805,2020-09-26T21:37:28Z,0,Great video,True
+@heshankumarasinghe3159,2020-09-24T11:08:36Z,0,Thank you..... I learnt about inheritance and subclasses because of this video.......,True
+@ADESHKUMAR-yz2el,2020-09-24T06:49:07Z,1,amazing explanation 🔥.. thanks 😊,True
+@bharathiramachandra3718,2020-09-20T13:17:24Z,0,"In the above mentioned print_emps() method, why can't I print the employee list directly like a normal list? Is it because, employees list contains objects and not variables?",True
+@kaushik111,2020-09-19T05:23:01Z,0,How do you get the [Finished in 0.0s] after running it. I don't have that feature in pycharm..,True
+@wangpaul1924,2020-09-16T02:07:56Z,0,"Hi Corey, i know my question sounds dumb, but i got a message saying ""NameError: name 'emp' is not defined"". frustrated with it",True
+@barshabhattacharjee6788,2020-09-14T14:00:19Z,0,For more visit: https://youtu.be/1CEk7I0YlQI,True
+@escapetoparaadise,2020-09-14T10:57:34Z,1,Really awesome descriptions and examples. It's was beneficial for me while I worked with python for two years.,True
+@wertuxhd6201,2020-09-08T21:19:35Z,0,"That None thing for creating a list is a good vision thanks.. And The way you look at python files to learn from them is another good vision.. Up to 5th video, you are a great person. You should know that.",True
+@MessiahAtaey,2020-09-01T08:53:00Z,0,Really straightforward explanation thank you,True
+@imidnightzz8908,2020-08-30T23:00:45Z,0,"Dog shit explanations, too quick",True
+@sraj7284,2020-08-30T14:18:06Z,0,"Hello,  your channel is awesome!  I believe this is an example of inheritance from https://docs.python.org/3/library/html.parser.html#examples and is pasted below:  from html.parser import HTMLParser   class MyHTMLParser(HTMLParser):     def handle_starttag(self, tag, attrs):         print(""Encountered a start tag:"", tag)       def handle_endtag(self, tag):         print(""Encountered an end tag :"", tag)       def handle_data(self, data):         print(""Encountered some data  :"", data)   parser = MyHTMLParser() parser.feed('<html><head><title>Test</title></head>'             '<body><h1>Parse me!</h1></body></html>')  Its clear that for some reason, the HTMLParser  class is being inherited, and handle_starttag, handle_endtag and handle_data functions are being overridden.  1) Why cant the class be used directly? Why does it need to be inherited prior to be used? 2) How come the output is printing out these tags without these functions (handle_starttag, handle_data, etc.) even being called from somewhere? Unless you call these functions, they will not execute, and will not print out anything. In the above example, only the "".feed"" function on the parser object is being called. Please help me understand this.  Thank you, much appreciated!",True
+@chrislam1341,2020-08-29T08:44:09Z,0,where is the future video for multiple inheritances?,True
+@thengakola6217,2020-08-27T03:15:24Z,0,This video is sad bcoz i think this is your life story.......... Adding dev-2 and removing you corey??,True
+@joemattress6177,2020-08-25T17:21:55Z,0,Excellent!!,True
+@9Rehankhan19,2020-08-24T00:35:13Z,0,"In add_emp() and remove_emp(), why did you use 'if emp in self.employees' rather than just 'if emp in employees' ?",True
+@zhaoluliu9890,2020-08-17T23:47:48Z,0,Well done!!!!!!!,True
+@sarathy319,2020-08-14T15:25:48Z,0,Can't get any better than this....Thankyou for the contents.,True
+@barathkumarg9197,2020-08-11T16:08:56Z,0,sir can we do multiple inheritance in python like as in c++,True
+@petehinch3871,2020-08-11T11:30:14Z,0,Well explained thank you,True
+@gauthamambethkar4483,2020-08-10T07:36:35Z,0,Thank you so much Corey for your efforts. Where can I find your video on multiple inheritance?,True
+@Mm.mm11,2020-08-05T19:51:50Z,0,Amazing thanks a lot,True
+@subhajitadhikary155,2020-08-05T18:46:57Z,0,"great video corey, again thanks for the indepth explaination  you are doing great job",True
+@jonspell88,2020-08-02T22:33:02Z,1,Best training on object oriented programming I've ever had. Seriously.,True
+@chrismalingshu,2020-08-01T16:38:59Z,0,me: sign of relief becuz C++ is my 1st language. So yeah can catch the concept really quick.,True
+@MissEstefa,2020-07-31T19:26:13Z,0,So BadRequest is like a grandchild for Exception?,True
+@aksjin8929,2020-07-28T06:18:47Z,0,👍,True
+@Aaronisification,2020-07-28T01:38:45Z,56,"2:45 - intro to Method resolution order and help(<class>) function 6:06 - inheritance and super().__init__() 10:50 - if attribute = None ... Else attribute 16:00 - isinstance(self, <class>) and issubclass(<subclass>, <class>) 17:36 - real world example",True
+@amolamahajan,2020-07-26T12:04:50Z,0,Great explanation Corey for OOPS concepts. can we also have Abstract Base Class covered ?,True
+@jesusromero9167,2020-07-19T20:54:31Z,0,Totally amazed by how easy  you make programming look!!,True
+@lokeshpurohit6891,2020-07-13T11:48:51Z,0,"Hey Corey, Thanks for creating the wonderful content. What is the editor you are using? and how is it compiling Python code and displaying standard output in a window below ?",True
+@AhmedSaber-pn8ni,2020-07-13T00:26:49Z,1,you are the best of programmers,True
+@okidokiyowyow356,2020-07-12T13:56:31Z,0,I still don't get it.,True
+@database_tips_tricks,2020-07-12T05:42:30Z,1,"Brilliant teacher , THANKS SOOOO MUCH TO YOU !!!",True
+@keithgriffin4866,2020-07-11T00:28:58Z,1,Can someone explain why my output for mgr.print_emps() is employee without the arrow and then --->none.,True
+@rayll8579,2020-07-07T13:13:36Z,0,"Thank you for your tutorial! I have a question, how do you run the code from sublime? Thank you.",True
+@betete1,2020-07-06T13:32:42Z,0,"Hi everyone, Can anyone point me in the right direction? I followed all the series on OOP y Python and I started to write very simple GUIs y PyQt. Everything was fine until I decided to try QtDesigner. After converting de UI code to Python Code I get something like this: from PyQt5 import QtCore, QtGui, QtWidgets class Ui_MainWindow(object):     def setupUi(self, MainWindow):         MainWindow.setObjectName(""MainWindow"")         QtCore.QMetaObject.connectSlotsByName(MainWindow) if __name__ == ""__main__"":     import sys     app = QtWidgets.QApplication(sys.argv)     MainWindow = QtWidgets.QMainWindow()     ui = Ui_MainWindow()     ui.setupUi(MainWindow)     MainWindow.show()     sys.exit(app.exec_())  I don't understand the declaration of Ui_MainWindow, what is the ""object"" parameter and how is this class inheriting from QtMainWindow (if it is). Where is the __init__ method for this class? I know this is not the best place for a question like this, but maybe some one can point me to a book on OOP in Python to understand this.",True
+@DarkKnight-em8rm,2020-07-06T13:14:57Z,0,I think there is a correction on line 34  self.employees = [employees]  Correct me if I am wrong!!,True
+@nicolasvillamil300,2020-07-03T16:50:28Z,0,"Does anyone knows hows does he select multiple lines and add the comments, ex minute 3:00. I tried looking in the web but could find the exacts words for the answer",True
+@trucllii3537,2020-07-03T14:42:37Z,0,Which video has the answer to the question at 11:25?  Why shouldn't put mutable data types as default argument?,True
+@sams901,2020-07-02T17:21:46Z,1,understandable enough even for someone whose native language isn't English.  greetings from Brazil and keep it up !,True
+@arvindmass8146,2020-07-02T14:43:08Z,0,can i get the source code of all the modules in python?,True
+@yuliiakhalus7339,2020-06-29T08:58:49Z,0,Thank you!! You are a perfect teacher!,True
+@ragudude,2020-06-29T01:04:28Z,0,"In this video you used: def __init__(self, first, last, pay, prog_lang) super().__init__(first, last, pay) self.prog_lang = prog_lang  to keep all the attributes from the Employee class for Developer, and then add the prog_lang attribute. This works in the cases where we want to keep things the same and only add an attribute.  What if we want to keep things the same and remove an attribute... say in the Developer class, we didn't want to include the pay attribute for whatever reason. Would we have to start over and make a new class and not use super?  Thanks, your videos are great.",True
+@neerajcheryala9602,2020-06-26T12:29:28Z,0,Did you just explain Has-A relationship by taking the list of developer objects as an attribute of manager class?... I mean is this Has-A really?,True
+@fernsulantay,2020-06-23T18:06:08Z,0,your videos are great! thanks to you I can follow everything in class better,True
+@00srinu,2020-06-19T08:29:46Z,0,"Thanks for the brilliant tutorial Corey. Python community will always be in-debited for a tutor like you.  For anyone who want to know more about employee = None definition in the Manager class init method, please refer the below video from corey @10:29  https://www.youtube.com/watch?v=zdJEYhA2AZQ&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=108",True
+@ShadyNetworker,2020-06-15T00:26:19Z,1,"Goddamn, this is amazing!",True
+@bunnybag,2020-06-14T23:08:46Z,0,"17:39 if you use issubclass(Manager,Manager)   #i.e. both arguments are same it will return the Boolean TRUE",True
+@sensei249,2020-06-11T15:49:30Z,1,"Can someone tell me why we don't use ""if self.employees is none:"" instead of ""if employees is none:"". why we didn't use self there?  I tried it but it says ""AttributeError: 'Manager' object has no attribute 'employees'"". There are no other mistake, it works fine when I remove self.",True
+@TheMimeGogo,2020-06-09T22:28:59Z,1,"super().__iint__() doesnt seem to work anymore. is this due to updates in the python version? On the flipside, hardcoding ""something.__init__(self, etc etc, etc)"" seems to be the only thing that currently works.",True
+@karimsid,2020-06-09T00:00:08Z,1,is there any way to like two times :) you deserve multiple likes.,True
+@rajatsharma2496,2020-06-08T19:50:32Z,8,There is bug in line 27 28   java developer has more Salary than python developer 😂..,True
+@hiseggcelency,2020-06-08T12:35:37Z,3,"I'm so glad i've found your content! Finally i'm not getting distracted while listening! Your voice is calming and clear. Also somehow your explainations are interesting, and i find myself wanting to know more about the topic, which wasn't really the case with other tutiorials! Honestly i want to make tutorials too in the future, because i feel like when you teach, not one but actually two people are learning at that time. Repeatition is the key to becoming good in something, and when you repeat something while explaining it to someone, it becomes that much more effective. Keep up the good work!",True
+@psinghashish,2020-06-05T18:05:33Z,0,"I tried creating a Developer class inheriting Employee class and initialising using super() but I'm getting the following error. (I did not use pay variable for this example) Error: TypeError: super() takes at least 1 argument (0 given) Code: class Employee: 	def __init__(self, first, last): 		self.first = first 		self.last = last  	def fullname(self): 		return '{} {}'.format(self.first, self.last)  class Developer(Employee): 	def __init__(self, first, last, prog_lang): 		super().__init__(first, last) 		self.prog_lang = prog_lang   dev1 = Developer('Corey', 'Schafer', 'Python')",True
+@robertberman5701,2020-06-04T02:00:12Z,1,"An excellent video.  I think I finally have some understanding of this stuff!  The lousy computer course I took at school did not explain this nearly as well. Thanks Corey, I much appreciate the effort and thought you put into this video! BB",True
+@chiragpalan9780,2020-05-30T09:52:56Z,3,I wonder why there are 62 thumbs down!!!! this guy is just amazing.... Thanks a lot....,True
+@hadimasri420,2020-05-29T04:31:47Z,1,"Man, how can I say thank you so much in a different way... there are no words that can describe how awesome you are, I know this is common for you, but if you feel what I'm feeling right now you would have been (NO WORD TO DESCRIBE...). The awesome thing about you is that whenever I get bored of programming, I immediately watch a video of yours, then I recover my mental health. Please make new videos with new topics about Python and Python OOP. we need to master them with your help.",True
+@fit_with_a_techie,2020-05-27T06:24:15Z,0,"I do not understand just one part of this code,  mgr_1 = Manager('Sue', 'Smith', 90000, [dev_1]) How dev_1 instance is returning the full name? fullname() is not called yet though?? Could you explain please?",True
+@fit_with_a_techie,2020-05-27T06:21:07Z,1,"Thanks Carey, for these videos. I can not express in words how helpful are these for me. From past 1 year, I am struggling to learn python and here it ends. After watching these videos I have gained some confidence that I can do coding. :D Thanks a lot",True
+@Felipe-53,2020-05-23T21:25:26Z,1,"Your videos are excellent, thank you!",True
+@kingjoshuamanatad1402,2020-05-23T10:13:02Z,0,"You're one of the best tutors out there. I'm learning Python for a month now and I want to focus more on Data Science track. Though I have background not that much in VBA, AppScripts. But I want to have a baseline knowledge in the basic concepts in Python. I would like to see you doing a Introduction to Data Science soon. And what are your  advice for me as a beginner?",True
+@virajyadav6650,2020-05-21T17:41:23Z,0,please send me link of HTTP exception code link,True
+@egehurturk6209,2020-05-17T12:27:33Z,1,"The best lectures about OOP and python I've ever listened to. Man, you are awesome.",True
+@vinnyisntgud7221,2020-05-16T15:57:23Z,31,this cheeky man trying to give himself a bigger raise then the other employees,True
+@keysersoze7919,2020-05-15T06:19:35Z,1,Yo da god,True
+@sebastianr9637,2020-05-14T13:30:00Z,1,"thx corey, i learned alot today :)",True
+@JazzyJunior,2020-05-13T00:23:11Z,1,"This is such a fantastic set of instructions. Thank you, cleared up so many concepts!",True
+@blackhatexpert9106,2020-05-12T21:36:16Z,2,Your tutorials are brain friendly,True
+@windyboy1995,2020-05-12T15:56:17Z,0,"So does it mean that, only the attribute that we put in the super().__init__( ... ) be inherited, and the ones that not put in there would not be inherited",True
+@BirinderSingh,2020-05-11T16:51:49Z,0,"For some reason when I add a developer to the manager it prints out dev's name correctly, but then prints out ""None"" in new line. Can someone tell why? Also why was the employee argument placed in []?",True
+@mmshilleh,2020-05-10T05:55:56Z,0,"the best OOP tutorials I have seen, great job bro!",True
+@ibrahimal-mahfooz8737,2020-05-08T12:26:12Z,0,Excellent tutorial. Any plans to work on composition tutorial soon?,True
+@LiangyueLi,2020-05-08T07:14:04Z,0,"Hi Corey, thanks for this wonderful tutorial. I am wondering if you have videos on multiple inheritance and mixins. I don't find it in your channel.",True
+@mugumyakevin8696,2020-05-06T20:49:05Z,0,Thank you so much for this.😍😍😍😍,True
+@rezwanzakaria1754,2020-05-06T18:14:34Z,0,Can anyone tell me how to access a method of a mother class using a sister class?,True
+@johnemro1614,2020-05-06T09:45:33Z,0,Give this guy a Nobelprice,True
+@hichamovit41,2020-05-06T04:01:55Z,0,"thank you, I liked the way you explain things, but I got this error: 'if emp not in self.employees: TypeError: argument of type 'Developper' is not iterable', why?",True
+@rezwanzakaria1754,2020-05-05T23:33:09Z,0,Dude I'm taking python on Coursera made by Google IT. Couldn't understand few things ... so came here and you made it clear as crystal. Why waste money when you got a Super human like Corey <3,True
+@adeyemiqudus2049,2020-05-02T10:25:25Z,0,"Hello sir, thanks for the detailed explanation. i would like to ask why you are using 1.10 for 10%,1.04 for 4%. I don't understand why you are doing that.",True
+@arpitrathod6518,2020-05-01T14:42:38Z,0,"It might be a lame question but asking- if I do print(dev_1) it gives me o/p as -><__main__.Developer object at 0x00000229940BB208> Now how can we pass that as the list when we are invoking the msg_1 instance -> mgr_1 = Manager('mgr', 'sname1', 800000, [dev1])   I do understand that it's an instance where if we do dev1.email we do get the required value but wanted to basically understand how we can pass the instance name directly to a list.",True
+@ahmadshaik1298,2020-05-01T03:20:05Z,0,7:55 I am getting an error called `` super takes at least 1 argument `` Please help me Thank you.,True
+@raibahati,2020-04-30T14:05:42Z,0,"Hey @CoreySchafer I am really grateful for these videos you posted on YouTube for us aspiring developers to learn. If you could one day think of posting videos on design patterns with python, that would be so awesome. I'm feeling so grateful that I am considering to donate through paypal. :) Please keep it coming, your help is invaluable.",True
+@alvinlorejas2687,2020-04-30T00:45:41Z,0,Thank you Sir!,True
+@youngzproduction7498,2020-04-28T13:16:15Z,0,You are great at teaching... Kudos,True
+@desiCineMan,2020-04-26T17:23:43Z,0,"Is there any change of syntax for ""modifying parent class variable within the child class"" as for me  class Developer(Employee):           raise_amt = 1.10 does not apply the same to dev_1 object. It still takes the 1.04 defined in the class.",True
+@FaithBiete,2020-04-23T09:59:54Z,0,"Finally! I am able to understand Inheritance.. Very good explanation, sir. I love it",True
+@zx-25r12,2020-04-22T06:22:43Z,1,Brilliant teacher!,True
+@cristif92,2020-04-19T22:43:08Z,0,How to overide in the child class using less atributes and methods ?,True
+@biaoyang6207,2020-04-18T11:48:33Z,0,终于懂了inheritances是干嘛的,True
+@jateenbhagat5496,2020-04-16T04:01:57Z,0,Will first=self.first work?,True
+@jorgesisco981,2020-04-15T03:59:49Z,0,"Help, get this when running the code: https://prnt.sc/rzjajx",True
+@SaurabhKumar-nw7gu,2020-04-14T20:53:01Z,1,"I just love the way you explain things, I could listen for hours. This is a really great series!  I have a doubt if anyone can explain ....what if i want only first and last variable to get inherited from the Employee class to the Developer, how to do that. Because I am getting an error __init__() missing 1 required positional arguments: 'pay'. Please help",True
+@emranbinjumaan4971,2020-04-14T08:55:32Z,0,super() takes at least 1 argument (0 given)... what? You didn't put an argument why is it discriminating me xD ?,True
+@svagas7085,2020-04-13T21:05:20Z,0,How do you comment/uncomment out a block of code ?,True
+@aleksandarstankovic5659,2020-04-11T22:55:49Z,0,"How can we use the dev_1 and dev_2 instances inside the Manager Class, since they stay on the same line, I mean Manager Class is not inheriting from the Developer Class? Can somebody clear this one out, please? Video is fantastic!",True
+@abdulmonam4570,2020-04-10T18:38:06Z,0,i am facing a problem: while printing employe using for loop in output i get employes name with NONE at last like this: emp_1 emp_2 None,True
+@teny398,2020-04-08T09:58:52Z,0,Thanks a lot sir .,True
+@TheBodybuildingG,2020-04-08T09:17:22Z,0,"why if u call mgr_1.employees gives ---->[<__main__.Developer object at 0x00000264C8423D30>, <__main__.Developer object at 0x00000264C8432490>]  is it because u pass a list as an argument?",True
+@siddhantsangal5298,2020-04-07T15:32:34Z,0,"Solved the HackerRank problem based on this. Tip: when writing a method, remember to pass the self-object to it like def subclass(self):",True
+@muralimanohar2130,2020-04-06T18:13:01Z,1,3 years for this playlist  But nothing can stand before this.. Thank you corey sir.. Love from india.,True
+@fortuneinc.4480,2020-04-05T22:40:08Z,0,"Hello corey, when I print mgr_1.email I get the following error: mgr_1=Manager(""Sue"",""Smith"",90,0000,[dev_1]) TypeError: __init__() takes from 4 to 5 positional arguments but 6 were given",True
+@sumitchhabra2419,2020-04-05T08:18:26Z,72,"Hey corey!   I have bunch of courses from Udemy, Coursera, Bootcamp but nothing stands close to your explanation.    Love from India",True
+@farazahmed1668,2020-04-04T02:46:41Z,2,Inheritance? Nobody is going to explain you better then Core Schafer.,True
+@rafmadrigal,2020-04-03T08:20:44Z,1,Learned more from Corey than our prof HAHAAHA,True
+@kaifenang3606,2020-04-03T04:22:32Z,0,"Does anyone know which other video by Corey talks about ""super""? I remember watching one previously but I couldn't find it. Appreciate it if anyone can provide the video link here. Thanks.",True
+@nagarajuch2412,2020-04-03T02:26:31Z,1,How did emp.fullname() worked where emp is forloop variable,True
+@sayan2784,2020-04-02T13:45:02Z,1,I keep coming back to your tutorial again and again... you are the best!,True
+@MrI7asson,2020-03-30T23:16:51Z,1,"Thank you so much Corey, best Python videos out there!",True
+@satyaprakashdash8203,2020-03-29T11:06:52Z,0,In 7:49 why we didn't write self inside super().__init__,True
+@vatroslavjakopec6628,2020-03-27T15:41:35Z,1,"I find this very useful, good job making these videos.",True
+@tipr8739,2020-03-26T14:09:33Z,0,"If anyone gets the error that super() takes at least 1 argument (0 given)... the workaround is: 1. change ""class Employee:"" to ""class Employee(object):"" 2. change ""super() ...."" to "" super(Employee, self).__init__()""  I don't know if this defeats the purpose of using the super() method though. Any insight on that would be helpful",True
+@nilberthsouza,2020-03-25T14:37:01Z,1,"Corey, thanks for you work.",True
+@agrimensorwernerhorsch6169,2020-03-25T01:02:55Z,0,"How would you use the ""from_string"" method to create an instance of a Developer without to have to overwrite it completely? Thanks for your videos buddy!",True
+@niharikagarg9300,2020-03-24T13:11:09Z,0,"Hi Corey I have a doubt,  at 5:32 in the video, when I updated the raise amount of the Developer sub class, and printed the pay of dev_1 it didn't get updated according to 10 percent. What should I do now?",True
+@DrJoe-sm9no,2020-03-22T20:12:24Z,0,"Hi can anyone help me with something I’m stuck on in python, it’s a bit to do with this. So I’m making a choose your own destiny game, and the fighting code goes on for AGES. Plus, the fighting code itself needs to be repeated quite often, and it gets annoying a confusing when I’ve found a bug in one but of the fighting code, and then have to go through ALL the fighting code just to fix this one bug. So, I’m kind of looking for how to repeat code without typing it all out again multiple times in a program. If anyone can help me, then I would really appreciate it.",True
+@ErickG,2020-03-21T20:07:29Z,0,"Silly question, but how does this work in practice as far as someone using this program? Would a manager install Python and run this script, or is there some sort of GUI they'd use?",True
+@dennismartin5455,2020-03-20T20:01:56Z,0,"Great video.  I like this series, but... Why can't I access the mgr_1.employees list directly? If I have this line of code:    print(mgr_1.employees) I get this response:    [<__main__.Developer object at 0x0000024ED147B5E0>] If I have this line of code:    print(type(mgr_1.employees) I get this response:    <class 'list'>",True
+@hetalchavan9446,2020-03-13T11:57:09Z,0,"I noticed that in super( ).__init__( first,last,pay) call you have not passed self as an argument. How does it understand which instance am I reffering to?",True
+@user-xc5xf8gp8n,2020-03-12T16:46:39Z,760,"Corey talks about inheritance of classes in this video.   1. What is inheritence? It is a method that allows us to create a new class that shares the same attributes and method with the original function, and add some extra functionality to the new class. It also does not disturb the original class.   2. How to make a class inherit from another class? class Developer(Employee):   3. Structure of classes and subclasses. When we input a function to a subclass, python follows the 'method resolution order', which is the chain of classes that it goes through to find what the method is. All classes have the built-in group of methods and attributes as their primary order.   4. How to initiate the subclass so that it can handle more information than its original class can? There are 2 ways. first, using the super method as follows and pass in the arguments in interest. super.__init__()   Second, call the parent's init method explicitly and pass in the arguments in interest. Employee.init(self, first, last, )   5. Useful tools when exploring the inheritance system. .isinstance(instance, class) This method returns the boolean value of whether an instance belongs to a calss .issubclass(subclass, class) This method returns the boolean value of whether a class has inherited from the second class.   6. Example of class inheritance Whisky library   ++ when setting a default value for an ungiven argument, avoid using an empty mutable data type. That's a topic for another video.",True
+@aproveitandoavidaoficial,2020-03-09T12:07:38Z,0,12:50,True
+@haduyduong5853,2020-03-07T04:01:20Z,0,"Thank you for your video, Corey. I have a question. If I have a name (maybe first or last name) of a employee, how can I know who is their manager and which variable(object) they are assigned",True
+@a61763,2020-02-27T18:55:30Z,0,Love the vids!!!  Can't seem to google myself out of the following:  has anyone experienced an <AttributeError: module 'subprocess' has no attribute 'run'> when trying to run the help() for the classes?,True
+@kvnptl4400,2020-02-21T12:10:18Z,28,"This Python OOP Tutorial playlist is super useful for everybody, hats off Corey Schafer, Subscribed and watching your other useful tutorials.",True
+@anubhav9476,2020-02-19T13:11:53Z,0,"Thank you for this amazing tutorial  Guys, if you want a copy of the tutorial, I've uploaded it on github, with some comments explaining what's going on  https://github.com/Anu-bhav/Python-Advanced-Tutorial/blob/master/tutorial_4.py",True
+@multitudes389,2020-02-16T09:33:31Z,1,Very cool! I subscribed :),True
+@jeuxdeau2009,2020-02-15T15:46:25Z,1,Amazing job explaining  the Super init method,True
+@crownkiwifactoryNZ,2020-02-14T03:00:46Z,1,"best python tutorial video ever,  I have picked up a lot, thanks very much!",True
+@mosaabmuhammed5135,2020-02-12T08:28:12Z,0,Thank you so much for sharing.,True
+@govindrathi9340,2020-02-11T05:24:28Z,1,you inspire me. hope I can be of the same class as you.,True
+@ramyanune5141,2020-02-09T17:14:07Z,0,can u please explain if we are inheriting 2 independent classes into another derived class then which class is called first,True
+@dariohernanerasmo5030,2020-02-07T19:00:37Z,0,"did you ever got to make the video you mention at 11:37 about mutable types not being good candidates for default arguments? I'd love to understand a little bit more about the reasons for that statement. This is a great video, btw",True
+@kikoyouth,2020-02-07T15:11:34Z,0,"First of all, thanks for the great content. Which is the video where you cover why you didn't pass an empty list as an argument?",True
+@pranukvs,2020-02-07T03:52:51Z,1,You sir are a LEGEND !,True
+@JimVeneskey,2020-02-05T17:58:33Z,1,For the longest time I've been avoiding adding classes to my programs since I couldn't wrap my head around them.  After viewing this - I'm ready to tackle them again.  Now - to see if you've covered my next nemesis in a video - decorators!,True
+@anushreebarman378,2020-02-03T17:12:12Z,0,"Corey , how did you write emp.fullname()? I didn't understand that line . Fullname() is a method of the class employee and emp is just a member of the employees list",True
+@jasonzhang6534,2020-01-29T16:45:48Z,1,thanks for sharing. It is really helpful to understand the inheritance.,True
+@l.3890,2020-01-28T12:17:05Z,0,Great!! Muchas gracias Corey!!! I am one of your  happy students!,True
+@hayirici,2020-01-24T16:22:51Z,1,This is a very nice and explanatory video i have ever seen. Thank you for your help. This is so smart,True
+@pkminime,2020-01-21T18:39:28Z,1,wonderful explanation! :),True
+@pelopsxalikias,2020-01-19T17:16:17Z,1,"You are doing awesome work man, I have an exam on classes next week and your videos are really helping me! I'm really thankfull man, keep up the great work!",True
+@PetersFXfilms,2020-01-19T09:05:53Z,0,But the real question is why do you have dropbox and google drive in your menu bar?,True
+@Satyamkumar-yi6um,2020-01-15T13:12:04Z,0,"Corey , Please add me in your FAN list",True
+@JamiulBari,2020-01-15T06:02:50Z,0,"Can you explain how a class can be a subclass of itself? By that I mean, I wrote this line and executed it: print(issubclass(Manager, Manager)) the output is: >>> True  How?",True
+@abduogalal53,2020-01-13T16:15:42Z,0,i'm sorry i didn't get the up for rasieammout inside sub class Dev it doesn't make any sense i know it doesn't  affect in raise in the father class but how i use this new raise in copy the def raise in father class ?,True
+@princebhalla1091,2020-01-12T15:13:45Z,0,Could you please tell me why you added self.employees = employees ...,True
+@banderilllero,2020-01-12T12:47:27Z,0,"Great video! 1 Question: why is this line working: mgr_1 = Manager('Sue', 'Smith', 90000, [dev_1]) because dev1 is a 'class' type and the parameter 'employees' expects to get a list... or not? I am confused.",True
+@zaha7a752,2020-01-07T21:00:21Z,1,Corey Schafer you are a god in explaining Python OOP. Love these videos. Good job!,True
+@LuadoO,2020-01-07T19:46:23Z,0,"Hey, only one question: Why is it not safe to pass mutable types as default arguments? I got really curious about it.",True
+@achalyadav5669,2020-01-02T01:13:33Z,0,"excellent video on classes and inheritance, the best of the best",True
+@jimmadjy,2019-12-30T04:33:01Z,0,damn ! been struggling understanding this topic on udemy for hours.  The way you explained in this short video is crystal clear to me. subscribed right away.,True
+@davidlefebvre4433,2019-12-28T15:14:53Z,0,"Wow, your channel help me a lot through my computer science studies ! Thank you so much :)",True
+@PerfectSwingDance,2019-12-27T08:34:19Z,31,"If you're wondering and don't know why he didn't use default params like so: employees = [] (timing 11:24), you can consider the following scenario: Just create two managers without passing employee list in it. Add to one of them (via add_emp(self, emp)) new developer instance. Then print (print_emps) for both of them and you will see that one affects the other. This leads to unexpected behaviour. That's why he had to do so",True
+@baspass8578,2019-12-25T10:36:52Z,0,"Hi Corey, please make video on multiple inheritance , and a video giving a reason that why we should not pass mutable data types as arguments",True
+@pc0riginal870,2019-12-25T07:47:28Z,0,Thanks you so much ❤️,True
+@gkarumbi,2019-12-23T13:01:09Z,0,"hi i am not getting how we are typecasting the emp object into the variable self.employees without 1st defining as an empty list. Shouldn't be something like this: def add_emp(self,emp = []):        if emp not in self.employees:              self.employees.append(emp).......   OR   def add_emp(self,emp): emp = []        if emp not in self.employees:              self.employees.append(emp).......",True
+@ThatGuyDownInThe,2019-12-20T17:01:24Z,1,My mind is fucking blow to bits right now this is awesome,True
+@1Amy_Amy1,2019-12-19T23:18:07Z,0,One question.  Does a data scientist need to know  OOP ?,True
+@Joe-ff4if,2019-12-16T18:57:12Z,1,OMG you don't have an Indian accent!,True
+@alias_one11depapel81,2019-12-12T22:53:24Z,0,"Everything works in python 3.7.5, I just keep getting the None word coming up when i add dev1 & dev2 to the last argument call. Followed your updated video going through the comments. Just followed the link with the datetime example. Im fine with the None being there and i understand what your doing to a point but this one concept out of all the videos in this tutorial is very C++ like & im sure there has to be in 2019, a simpler solution. Love the free video series. So thank you very much for it. Your an amazing teacher. 😉",True
+@manakupadhyay,2019-12-12T19:30:16Z,10,"If teaching is an Art, this guy is the Picasso of it.",True
+@torment6425,2019-12-07T03:42:46Z,1,"Your videos are so great that i watched them before class and then my professor reccomended your videos as extra practice.... already way ahead of you, professor",True
+@SkillerMainPure,2019-12-03T21:34:22Z,0,I don't get the list=None part in the constructor for Manager. What does it do ?,True
+@zorojuro5106,2019-11-28T13:51:53Z,1,superb tutorial,True
+@pranaynalawade4044,2019-11-26T06:53:58Z,0,Why do you write employees=None under the manager class?,True
+@thamalonez,2019-11-24T19:11:09Z,0,I'm surprised there's no Wikipedia article about you.,True
+@praveenthuyamani101,2019-11-24T04:38:15Z,1,"super().__init__(fname,lname,pay)  TypeError: super() takes at least 1 argument (0 given) What will be the solution? @ 9.37   But it works for Emp.__init__(self,fname,lname,pay)",True
+@MrMakake,2019-11-23T10:36:31Z,0,crisp,True
+@dennisasamoah2213,2019-11-19T06:37:56Z,0,"Thank God , i found you",True
+@cnh007,2019-11-16T18:27:16Z,0,"Loved the video and Corey's amazing articulation, as always ! Can Corey or someone else point me to the video why default values should not be a mutable data type def __init__(self, name, pay, employees=[]) TIA",True
+@navjotmannan7303,2019-11-16T03:13:28Z,1,You have a gift 👏🏻,True
+@lindaph6717,2019-11-15T21:14:59Z,1,Amazing! Thank you again!,True
+@mobilkonto__free__9726,2019-11-08T21:15:06Z,1,Making the a female name the manager made me downvote. Feminism has destroyed too much.,True
+@XinhLe,2019-11-07T04:19:54Z,0,"I think this is not working?     def print_emps(self):         if emp in self.employees:             print('-->',emp.fullname())",True
+@nishantthakur5357,2019-11-05T11:53:43Z,1,The only tutorial that always keeps me awake.. Thankx a lot for your efforts.,True
+@Adamseekerfan,2019-11-03T20:51:23Z,0,Please make udemy course whichi is indepth and is long.,True
+@arpitagec9,2019-11-03T16:26:03Z,0,"Holy God, I thank Him. I came across your videos. The way you have explained, I just loved it!! :) A request please can you cover Multiple Inheritance. Looking to understand it from you.",True
+@ibrahimal-mahfooz8737,2019-11-01T08:56:10Z,1,"If anyone wants to start programming, you are a MUST as a start point.",True
+@juliuswaweru1904,2019-10-31T19:14:55Z,1,"Corey, you are amazing. I am learning a lot from your videos.",True
+@melcclem9750,2019-10-30T04:21:55Z,1,ty <3,True
+@justadev____7232,2019-10-26T01:10:17Z,0,how come its not 'if self.employees is None'?,True
+@Brianactivism,2019-10-24T02:17:13Z,0,"Thanks for the video. By the way, I've seen ""super().__init__()"" which doesn't contain init variables of parent's class. What are the differences?",True
+@hatani,2019-10-16T21:19:54Z,6,"I have a confession - more and more videos I see from this playlist, the more I am in awe at how Corey manages to explain that often-missed 'WHY' along explaining the 'how'.  The 'how' explanation is already brilliant, but that 'WHY' on the top... He just brute-forces it to click!",True
+@pimilk,2019-10-16T02:05:07Z,0,Why no self. before raise_amt = 1.10 ?,True
+@jerrymiller1590,2019-10-15T07:34:38Z,1,Really appreciate your videos Corey!,True
+@EnglishGeekWahoo,2019-10-15T00:31:33Z,1,"You are an amazing teacher, you make the point forever!!",True
+@saikrishna-nc9rn,2019-10-14T12:45:11Z,0,"Hi Corey,   while executing the file after passing developer class ( 2:28) in help function I have seen None as well at the bottom of the method details. may I know why it is getting None?",True
+@stusoduncan,2019-10-12T16:40:47Z,1,"Excellent. Concise as always, much appreciated.",True
+@maclanphere5674,2019-10-06T19:37:24Z,0,"Corey thanks! If I will alway be providing a populated list or dict on instantiation, do I still need to pass ""employees=None""? or can I just have ""employees"" be the parameter in that case?",True
+@mackaseck6638,2019-10-06T17:19:36Z,0,"at 13:20, he printed the emp.fullname(), however, the fullname attribute wasn't defined anywhere. Can someone please explain that part to me. Sorry i started to learn how to code. thanks in advance",True
+@mr.anderson5393,2019-10-02T11:57:43Z,0,"If you have time, can make a video on Class Composition. Thank you.",True
+@yashuyashwant5283,2019-10-01T11:13:37Z,0,hey can you please provide the exception class .py script so that we can get more clear picture on inheritance,True
+@user-pt4vn5hr2z,2019-10-01T10:19:02Z,1,Cory TY!,True
+@sabarivelan2504,2019-09-30T16:55:28Z,0,P XX.,True
+@RaviShankarladhar,2019-09-30T03:33:50Z,1,this is the really useful and wonderful explanation. Thank you,True
+@TOn-fx2gr,2019-09-27T17:51:59Z,0,Pls super is not working on python 2.7 i had to add __metaclass__ = type in the top but now i am getting typerror __init__() takes exactly .. argument ... Given,True
+@mr.anderson5393,2019-09-26T06:14:57Z,0,"very good video sir, but had some issue with understanding class manager.  Thank you though.",True
+@ebla1n393,2019-09-25T13:11:54Z,0,"Lol, I can't stop laughing about that ""HTTP"")) Sounds like u took google voice record and put that into audio road :) Ty very much for ur vids, they're VERY helpful and easy to understand",True
+@flexerfadrigalan,2019-09-25T03:08:49Z,0,Speed 0.75 for people who are trying to fully understand this!! Thank me later!,True
+@MarioIuliano,2019-09-22T10:37:32Z,27,Studying data science at college and went through this topic in class and felt completely lost. Your tutorials made it click so easily and with no issues. Very well done Corey !,True
+@TwoChill,2019-09-20T07:16:11Z,0,"Super().__init__(first, last, pay) on line 22, takes over arguments of Employee. Soo shouldn't the (first, last, pay) on line 21 be removed?",True
+@Akshay-cj3hq,2019-09-14T00:37:58Z,1,Did you ever manage to do that video on mutable default types?,True
+@david-krikheli,2019-09-13T11:40:01Z,0,"Hi Corey. Thank your very much for the videos. The best Python tutorial I've seen! Is the remove_emp method asking for permission here?     def remove_emp(self, emp):         if emp in self.employees:             self.employees.remove(emp)   Should it be asking for forgiveness instead?      def remove_emp(self, emp):         self.employees.remove(emp)",True
+@qianlima2196,2019-09-10T11:11:15Z,0,"I am wondering why in the last case of HTTPException class, there are no steps like def __init__() and super().__init__() used?",True
+@kalyanreddy4579,2019-09-09T16:35:25Z,1,No comments...No words!!! Such a cool mentor..Not sure I can see anybody else like you!!! Hitting Bulls-eye in every video..straight to the point..and in depth concept...,True
+@hafededdinebendib5974,2019-09-09T07:48:43Z,1,"Thank you very much Mr Corey, really that was amazing work",True
+@phazon100,2019-09-08T04:02:37Z,0,"In the manager sub class, what is the point of the “emp” parameter. It looks like it’s supposed to be representing an element of the list.   I just got a little lost here trying to write and verify the code for practice.  Thanks in advance.",True
+@rakeshkottu,2019-09-06T18:10:19Z,129,I almost gave up on oop and then watched this series..The best playlist about oop.,True
+@divyanshukushwaha3897,2019-09-05T14:17:12Z,0,I don't know who are those 39 dislikes. ->0<--,True
+@hamzaaitboutou8563,2019-08-25T03:36:24Z,0,Could you please explain why passing a mutable object as default to a function is a bad practice ?,True
+@josbexerr5166,2019-08-23T13:12:36Z,0,"La explicación perfecta....  gracias, lo  dice un viejo programador  de Net",True
+@nigelblanchard5571,2019-08-23T08:29:28Z,0,Grateful if anyone can let me know where  Corey obtains that whiskey/whiskey/WSGI exceptions.py from? As I have searched to no avail?,True
+@BradMeanswrgi,2019-08-21T02:53:33Z,2,"Holy shit, I've been needing help on explaining the syntax for Classes for over a week now and these videos are GOLD. I think I set a personal record on fastest Subscribed click.",True
+@brunoalmeida381,2019-08-20T17:13:25Z,1,Awesome. Thank you very much.,True
+@MohammadAli1ali,2019-08-17T13:35:18Z,0,Please Explain Mix-in,True
+@gianlucafiasco8993,2019-08-15T10:20:43Z,0,how do I modify the raise_amt from the Developer class? not overriding it but modify like for example  ```raise_amt+=1```  ?,True
+@CaptainJRY,2019-08-11T08:23:04Z,0,Can you make a video on Multiple Inheritance and MRO please,True
+@williamsrensen9802,2019-08-09T20:22:33Z,1,"prpbs to late, but can you make a vid on abstract class methods",True
+@deojeetsarkar2006,2019-08-04T12:34:17Z,0,.,True
+@idan357,2019-07-31T14:37:08Z,0,"Great videos ! im moving from c# to python and i have a question.  [Q] How the variable ""employees"" is crated as a list of developers without declaring it and using print('-->', emp.fullname()) ? How did he got the .fullname ???",True
+@rohitpandey8562,2019-07-29T21:32:18Z,0,"I have a doubt,say instead of providing the inputs yourself if you ask the user to input details,how would you accept the employees under a manager from the user",True
+@verifiedbieberfever,2019-07-28T16:54:33Z,0,"Love your videos! I have a question, is there any other way of doing the add_emp(...), remove_emp(...) etc. in the class instead of putting them in separate definitions? (e.g combining them together).    Once again, love your videos! :)",True
+@bryanurizar,2019-07-27T21:49:55Z,4,New to your channel and loving it. I'm currently working my way to a career change to become a software developer and loving your videos!,True
+@j.rob.5943,2019-07-25T19:08:46Z,3,print(this_video.isGolden()) >True,True
+@jumajohnhm9283,2019-07-24T21:28:07Z,0,"while everything is working, mgr_1.print_emps() does not work",True
+@yodapaw9750,2019-07-24T19:17:38Z,1,"Love you Corey, you're amazing :)",True
+@stevenchenhw,2019-07-24T05:56:43Z,1,"Thank you, It answers many of my questions!",True
+@laierr,2019-07-20T16:49:33Z,0,9:15 Take home message: Java developers earn more.,True
+@sebastianvbb,2019-07-18T14:09:51Z,6,"this is great, most people give such simple examples on youtube, that they undermine the purpose of having a class just to show you what you can do with it. That works if someone knows OOP very well, but for relatively new users its a mess. This is great stuff for me!",True
+@sdh4967,2019-07-16T08:26:07Z,1,"Hey, Home come you have the Korean title???? I was astounded, You're caring Korean Users??? Or it's happened just automatically??  Anyway, Thanks for your videos!!!!",True
+@Reneeke9,2019-07-13T20:04:43Z,1,"Once I started listening to your videos at 75%, i learned so damn much in so little time :')",True
+@9robke123,2019-07-11T14:00:38Z,1,Extremely thankful and appreciative of these tutorials. Much love <3,True
+@AnilGupta-iv1rz,2019-07-08T14:03:52Z,0,"Hey Corey loved your videos, requesting you to make videos on popular python libraries like numpy, pandas and matplotlib etc. Thanks in advance!",True
+@poormancodespmc4598,2019-07-07T23:46:26Z,1,I wonder why I found you so lately. Hopefully it's nerver too late. Thank you!,True
+@MrCk0212,2019-07-06T04:20:10Z,0,the key i noticed is that the java developer has a higher salary.,True
+@Allomerus,2019-07-05T01:24:48Z,1,Excellent video Corey. Thanks for sharing your knowledge! Appreciated.,True
+@aadilalbadri4495,2019-07-03T17:33:07Z,1,You are super sir .... Everything is clear and great Thank you so so so much,True
+@mohammedabdulai6309,2019-07-01T19:33:45Z,0,"Hi Corey, how many types of inheritance do we have in Python? If one, how can we achieve multiple, hierarchical, etc inheritance in Python? Can you make a video on that?",True
+@prasathrajendra1983,2019-06-29T16:47:45Z,1,very nice,True
+@Rabixter,2019-06-26T20:50:16Z,1,So instead of:   if employees is None:         self.employees = [ ] else:         self.employees = employees   I believe we can just write this in one line:   self.employees = employees or [ ],True
+@lalitdang,2019-06-24T12:21:41Z,0,I have a question - How emp.fullname() worked in the  print_emps method of manager class. I believe you took emp as a variable in that method of manager class.,True
+@mohamedabidalrekab9061,2019-06-23T03:09:23Z,1,"Nice work, well-done.",True
+@BiplavChoudhury,2019-06-16T21:28:20Z,2,"So if we need extra attributes for the child class (like the prog_lang here), we need to use the super() method? As long as both child and parent classes have same attributes, it is not needed right?",True
+@DrAbhinavKumar,2019-06-14T17:28:14Z,0,7:20 Keeping code DRY : Don't repeat yourself,True
+@masterbat8953,2019-06-14T16:59:16Z,0,"Thank you for an excellent video. Question, I see you have written 2 sub-classes(Manager and Developer) inheriting from Employee. The developer class instances you have created all the way at the bottom underneath the manager class. Can you please explain, to which class those variable belong to or under which class they exists? Also as there is no relation between the developer and manager, how come the developer instances you have created in lines 49 and 50 underneath  manager class work? I appreciate if you can explain.",True
+@sugatakar7738,2019-06-12T06:47:22Z,9,"Sir, you are undoubtedly one of the best Python tutors. Thanks so much for creating these awesome Python tutorials. :)",True
+@andresfelipelopez4553,2019-06-10T19:31:26Z,0,Thank you so much!,True
+@jerrylin5089,2019-06-10T01:51:42Z,1,"This is so helpful for review! You cut straight to the important stuff and there is zero fluff whatsoever. Immediately liked and subbed. By the way, how did you get sublime text to act like an IDE?",True
+@k.chriscaldwell4141,2019-06-08T23:25:29Z,1,Superb! Thanks.,True
+@stavnemirovsky6081,2019-06-05T13:17:40Z,0,"hey, where can i look for the http exception class and look through it? thanks a lot, stav",True
+@muhammadadel1633,2019-06-03T08:57:47Z,0,Where can I find the video you explain difference between super.init() and Employee.init() ?,True
+@infinix_11,2019-06-02T18:11:41Z,0,"The super().__int__(self, ar1, ar2, ar3) doest not work on Python2.7 And by scouring the net I found out that I need to type super(Developer, self).__init__(ar1, ar2). Can you explain why I'm typing Developer instead of Employee?",True
+@Soljarag5,2019-05-30T20:06:47Z,0,Class Me(BillGates):       ..... hmm I didn't inherit any of his stuff,True
+@karanverma9197,2019-05-29T17:39:49Z,1,"print ('Hello {}! Now you are managing {}'.format(mgr_1.fullname(), mgr_1.print_employees())) is not working as expected. Any reasons?",True
+@mohitanand4486,2019-05-26T07:26:38Z,0,"At 12:48 we, could have tried EAFP, try:      self.employees.remove(emp) except:      pass",True
+@czglory,2019-05-25T09:11:47Z,2,why doesn't help(Developer) show anything related to email at all? it is still accessible but does not appear,True
+@philemonakuagwu1517,2019-05-22T15:06:58Z,0,i could barely understand this lesson,True
+@harikrishnasiliveri1364,2019-05-19T04:11:11Z,1,Savior of this generation 👑,True
+@sarthakhaldar9107,2019-05-18T18:04:52Z,1,Thank you so much,True
+@hanohbeizer5368,2019-05-17T11:30:15Z,0,"What will happen if you will instantiate Developer object  with 3 arguments like in Employee? Will it call the Employee init method? If it does, what will happen to programing language var?",True
+@OnlineMediaCollection,2019-05-16T04:53:42Z,1,Your teaching skill is beyond others! Great job!!!,True
+@undisclosedmusic4969,2019-05-14T03:57:14Z,1,Slightly annoyed that the Java dev makes 10k more...,True
+@HaileeMiu,2019-05-13T17:33:49Z,1,"It is so great that you show real world examples, on top of your first examples be thought out and making sense.",True
+@ShivamSingh-bx5lg,2019-05-12T19:10:46Z,404,"Print(isinstance(Corey,Super_humans))  True",True
+@rainfeedermusic,2019-05-12T16:24:40Z,1,Always like the way you show real life examples instead of just brushing over the concepts.,True
+@cryptohumor9487,2019-05-12T14:00:17Z,0,Not sure why the Developer subclass isn’t inheriting apply_raise when I use pass. When I remove pass and change raise_amount in the Developer class to 1.10 it works just fine. Just not sure why it doesn’t grab the 4% raise_amount from the Employee class,True
+@rcasturi55,2019-05-11T21:15:55Z,1,Super guy. Thanks,True
+@nagendrababu900,2019-05-11T06:57:57Z,1,Man..! . I am totally blown up with your teaching skills. Amazing you are. RIP to those thumbs went down.,True
+@MouradMourad1000,2019-05-09T12:28:06Z,1,"great video, what is secret to make such short, and powerful videos ? :) your tutorials are very awesome, thanks a lot",True
+@dele2111,2019-05-07T13:01:41Z,0,Is the None keyword in the list of arguments in the Manager __init__ just used to ensure employees is a list? For instance could we say employees = 1 and follow up with if employees is 1: then self.employees = []?,True
+@harshitbajpai4942,2019-04-27T13:29:42Z,2,"Hi Cory,  So I was running the code that you wrote above, when I print employees managed using  print(mgr_1.print_emps()) instead of doing this without print statement as in your code, it prints an additional 'None' at last.  Any idea why?",True
+@EM8844,2019-04-26T12:30:15Z,1,7:17 line 22. Do you always have to bring all the arguments from main class init method?,True
+@sonia19977,2019-04-24T07:36:39Z,1,Thank you so much for this helpful video!,True
+@EM8844,2019-04-23T15:48:24Z,0,15:28. Why is dev_1 in brackets on line 52 but without brackets in lines 56 and 57?,True
+@siddharthramachandran2221,2019-04-23T05:36:48Z,1,Brilliant,True
+@vasupatel2509,2019-04-22T11:21:27Z,1,best python videos available on the internet,True
+@pvbball4,2019-04-20T02:02:18Z,0,How advanced is the material in this video?  Can you get an entry level coding job if you're capable of writing comparable programs?,True
+@lucasb6517,2019-04-17T05:22:39Z,0,"i'm having a bit of diffuclty with ""super()"" i've copied the code you have been using and it reads the super() is missing an argument, any help would be great, thank you",True
+@NecromancerPotion,2019-04-14T02:45:10Z,0,Than you very much for the amazing videos... I have a doubt regarding super keyword. How we should use super keyword when there is multiple inheritance and the number of arguments passed to base class are different?,True
+@mustafaalany8630,2019-04-11T15:57:27Z,1,"Very clear, thanks!",True
+@Enzoerb,2019-04-06T02:21:32Z,0,There are any exercises that I can do to practice it?,True
+@arminneashrafi2846,2019-04-05T08:50:08Z,2,"The most Concise form of learning black magic, if I have ever seen it, this is super compact and usable, simply Perfect!",True
+@fasa978,2019-04-01T18:06:56Z,1,_Brilliant!👍_,True
+@peluso_palit,2019-03-31T03:19:49Z,2,"Thank you, Corey. For this tutorial. Recently I was follow along with the tutorial to study and practice. The tutorial is brilliant! Your voice is nice to listen, crystal clear. I can listen your each word clear and clean, even English isn't my mother tongue, but i able to understand and get my learning path more easier and joyful.  Thanking you again. Greeting from Kuala Lumpur, Malaysia.",True
+@sumitvaise5452,2019-03-30T03:38:05Z,2,Corey thanks for such a helpful video. You are an inspiration for me. How easily you explain the logic is remarkable. THANKS a zillion.,True
+@vinodsamy915,2019-03-27T12:41:16Z,2,"your cleard my all nightmare of OOPs concepts,thank you very much  from India",True
+@friendly4466,2019-03-21T08:36:33Z,0,"i know this is serious business here but can't help my self but laugh when he says ""we got all of this code for free""  10:05",True
+@mohshafi3032,2019-03-20T02:37:32Z,0,"Thank you, Corey Schafer,  your explanation is great and helpful. Appreciate your effort.",True
+@garrybeck216,2019-03-17T07:17:28Z,0,If I create an instance of a parent class is there any way I can call a method that is  in a child class?,True
+@lightninginmyhands4878,2019-03-16T04:52:28Z,9,You just blew my mind with `help()`!!,True
+@juliusarceo3800,2019-03-15T11:55:21Z,2,Repeat performer. Python Yoda. lol,True
+@techpy5995,2019-03-14T21:29:42Z,1,very useful thanks a lot,True
+@techpy5995,2019-03-14T21:29:42Z,1,very useful thanks a lot,True
+@arumugamjega,2019-03-12T13:43:02Z,0,"Please  explain  what is that [dev_1] in mgr_1 = Manager('Sue', 'Smith', 9000, [dev_1]) Please post, How that works ? or Any reference link or topic regarding that thing",True
+@azekhuoriadignity2360,2019-03-11T07:49:21Z,0,I thought developer(Employee) would inherent the variables of class Employee. Do I have to initialize class developer with those  variables again?,True
+@goncalonunes4489,2019-03-10T11:55:12Z,0,"Can anyone help me with something? Imagine I want to print all ""employees"". What code do I have to write in order to give me a list of all employees? Thank you",True
+@redkiteracing33,2019-03-08T10:43:59Z,1,"This is pure gold, thanks for putting this together!",True
+@allaabdella4794,2019-03-05T20:24:27Z,2,"Thank you very much, I was not able to understand super() and how it works for a while, but after I watched your video, it make  a lot of sense now. I appreciate this golden explanation.",True
+@icodestuff1063,2019-03-04T18:07:09Z,1,great video helped me a lot to understand classes keep it up,True
+@lourdalmighty6692,2019-03-04T06:38:56Z,3,treehouse got me clueless here totally make sense now,True
+@laurenvanroy4173,2019-02-26T11:33:28Z,0,Can anybody explain me why around minute 13:00 print_emps does only take the argument self. What is the difference with the remove_emps method? in both of them emp is used no?,True
+@calebmbugua7686,2019-02-23T09:42:56Z,57,Thanks Mr corey!!!From Kenya and youre basically my role model in your humble approach towards sharing knowldge with us...In my own way ill try help as many people  in my vicinity...tell them code is not as difficult..just as you are teaching us to love code!!! Thnaks Corey!!!,True
+@utshabkhadka682,2019-02-21T01:58:05Z,0,"Please explain me what is that [dev_1] in mgr_1 = Manager('Sue', 'Smith', 9000, [dev_1]) Please post, How that works ? or Any reference link or topic regarding that thing.",True
+@multiyumz,2019-02-15T16:23:19Z,1,This is hands down the cleanest and most concise explanation of class inheritance I've ever seen. I was never sure what super did throughout my entire computer science degree (I'm stupid) but this cleared it up nicely in a 20min vid. Don't stay in school kids!,True
+@user-yf4lj4pu9b,2019-02-14T15:16:33Z,0,How this code work in python 2?,True
+@MMABeijing,2019-02-14T10:18:04Z,0,"I could not hear the library he mentions at the end, I tried to guess but came short. whiskey, wizzkey, wsgi, ?",True
+@vijendrachauhan3962,2019-02-09T08:58:50Z,1,"Hi Corey, thanks for such a informative video on inheritance. I have one doubt. How does the code knows that the employees attribute passed while creating Manager class is a List object type. i am not able to understand that part and thinking that the first employee(dev1) that you have passed will go as string. Can you please try to explain that to us.",True
+@mohitdaga2356,2019-02-07T08:18:28Z,3,I cannot thank you enough! You are amazing!  Keep up the brilliant work! ^_^,True
+@paulosergioschlogl9550,2019-02-06T11:39:19Z,1,thanks a lot another high class video.,True
+@strykerace,2019-02-01T04:26:58Z,2,"thank you so much. I was having an unbelievably hard time with the function of super() and your video finally solidified the why I would want and need it and how it reinforces inheritance and i how i could accidentally ""opt out"" of inheritance if i didn't use it when i needed to.",True
+@dnguyendev,2019-02-01T01:24:31Z,3,I couldn't understand anything till I watched this video. Great explanation!,True
+@88SJoe88,2019-01-31T16:39:34Z,0,"I jsut found out that: If you use the function from_string to create instance from string separated by '-', you'll get: TypeError: can't multiply sequence by non-int of type 'float' Correction: Add line  pay = float(pay)  in @classmethod from_string  so imported string won't be multiplied by 1.04 (float). The error occurs because payment gets saved as string and then multiplied by float. You can multiply string by constant, through (beware of invisible errors!) Try this in IDE: stringTest= 'abc' print(2*stringTest) print(1.04*stringTest)",True
+@sniprmn8,2019-01-30T18:59:24Z,0,How did you get an output console in Sublime text?,True
+@shivan2418,2019-01-30T01:53:08Z,0,Can someone post a link to where he explains why we should not pass lists as default parameters in Python??,True
+@MarcoSanabria,2019-01-27T02:50:25Z,1,"Corey, I have a question: what's best when managing classes? Either having a class per file? Or having several classes per file??",True
+@jonathandoeghtery3199,2019-01-24T16:46:11Z,0,Please fix the bug in your program.  The Java developer is paid more than the Python developer.,True
+@harrishandoko1558,2019-01-21T03:09:10Z,1,"I am a subscriber at Treehouse learning their Python course. I must admit, the instructor hasn't explained the dunder and inheritance syntax too well. But you did it flawlessly. Now it made so much more sense. Thank you.",True
+@jenmanzella1948,2019-01-21T02:23:21Z,8,The pacing for these lessons is perfect and the content is fantastic. Thank you so much for making these!,True
+@amkj96,2019-01-20T06:18:38Z,1,Such an awesome video. Always wanted to see an example of OOP that actually makes sense. Thanks a lot!,True
+@hrishabhsingh5647,2019-01-18T09:28:45Z,0,Refer to this link for why we should not use a mutable object as a default parameter. https://pythonconquerstheuniverse.wordpress.com/2012/02/15/mutable-default-arguments/,True
+@sanaullahkhanhassanzai8432,2019-01-18T05:23:48Z,1,you are wonderful ! Thank you so much.,True
+@rashidahmad3551,2019-01-15T19:21:46Z,0,"i appreciate you for your efforts on all these lectures. please, suggest me the best book for python( for advanced level )",True
+@kazinazirhossain1414,2019-01-14T11:35:43Z,1,"I would like to know the way [dev_1] is used as inside [ ] when the Manager class was shown to have that developer to be under supervision. Thanks,",True
+@nikoscuatro7251,2019-01-12T15:55:04Z,1,"excellent, thanks a lot!",True
+@bhargavkadupukutla6573,2019-01-09T08:44:42Z,0,Which IDE is he using?,True
+@sunnykumar4780,2019-01-08T19:43:43Z,0,"hi please somebody please explain this   return self.salary = self.salary * self.raise_sal                        ^ SyntaxError: invalid syntax",True
+@bartagas2,2019-01-05T19:26:14Z,3,Wish I watched your OOP videos two years ago when you posted them! :P Great tutorials and good working examples to help follow along.,True
+@admiralspyro9722,2019-01-04T20:51:19Z,19,"Developer earns 60000, Manager 90000, ... sad truth.",True
+@vishwaskaupvijayananda3900,2019-01-03T17:47:20Z,54,"I've done my share of research before stumbling across this lecture series.  Of all the Courses on Lynda, Udemy, and Coursera this is by far the best video tutorial I've come across.  Thanks a lot Corey!",True
+@bonbonpony,2018-12-29T14:14:03Z,0,18:48  Why is that string in lines 173 to 175 in parentheses?,True
+@karimsid,2018-12-26T08:24:28Z,1,excellent explanation with one example through out. I have been reading about the classes this video is one thorough answer to most of the questions I had. Corey is genius,True
+@artemiasalina1860,2018-12-24T15:05:23Z,4,"This is an outstanding series, Corey. Thank you.",True
+@danielbenisti3664,2018-12-23T06:36:32Z,2,"wowwww this is the best video of inheritance name = ""Daniel"" print(""{} is really happy after the video!! "" .format(name) )",True
+@SusanAmberBruce,2018-12-20T22:43:26Z,1,"A great icon and brilliant tutorials, thank you Corey.",True
+@pardeep657,2018-12-20T03:02:41Z,0,"in Employee class, one thing you have changed is..in apply_raise, it is self.raise_amount instead of Employee.raise_amount",True
+@AnshCollections,2018-12-14T23:21:47Z,0,please make a video on design pattern,True
+@christianhower8059,2018-12-11T20:34:27Z,0,Profoundly helpful! Why do you specify raise_amt instead of self.raise_amt? I'm unsure when I would choose one over the other.,True
+@ebukaegb1549,2018-12-07T03:47:45Z,1,never stop making videos,True
+@truphenalwanga9829,2018-12-06T22:26:46Z,1,all the courses in the world couldn't compare. Thanks man,True
+@GrayCo,2018-12-05T19:30:33Z,0,"Great videos and I contributed to the cause.  But if you don't mind answering a dumb question that keeps bugging me.  Since programming is a language, then knowing the language is the key to fluency.  So with that in mind, the phrase ""parenthesis"" is commonly used in relation to the definition of functions and methods …  def  p.noname():   But the word ""parenthesis"" seems an unlikely name for this component in the programming language structure.  What are parenthesis named in the programming language?",True
+@driesdeketele9749,2018-12-02T19:55:53Z,1,this guy is a GOD,True
+@shubhamanand712,2018-11-28T12:54:58Z,2,BLESS YOU,True
+@nikhilgupta9145,2018-11-23T09:01:19Z,0,"under the init method of class Developer, you are defining the super method, but if we define it as super(Developer,self).__init__(),  How will it be different from that you have defined.  P.S. you are doing a very good job. your videos is awesome",True
+@planet8491,2018-11-22T23:08:23Z,1,You are simply the best. Thank you corey,True
+@sivasankar7195,2018-11-22T04:19:28Z,0,"Hi Corey, Thanks for making this video, it's really useful to me. I've 1 doubt, when we inherit parent class to sub- class, what if we want to remove any arguments which we do not want use in our sub-class. Thank You",True
+@noemidavolio5532,2018-11-18T20:42:18Z,2,"As soon as I'm getting my informatics degree you'll be invited to my party man, hell, I should give you half my salary for the rest of my life. Thank you so much.",True
+@anon-sl4vp,2018-11-16T16:29:33Z,2,Another brilliant video from the __name__=='__main__' man Corey Schafer :),True
+@sohag185,2018-11-15T15:15:41Z,1,great,True
+@musabma7453,2018-11-12T03:59:39Z,1,Wow...finally understood the concept..thank you...,True
+@wonjaehwang7670,2018-11-12T01:49:02Z,0,Thnk you so much!!,True
+@kinjomusic,2018-11-11T03:53:39Z,3,"thank you again, so well explained . u are a gifted teacher Corey!",True
+@johnco25,2018-11-08T07:25:58Z,0,"Hi Corey, first off, amazing sets of tutorial vids. Love the way you present it in an easy manner for us to understand it well. My question is regarding the Devolper sub-class, since it inherits all items in the parent class, why do I still have to write in super(). function and include the instance variables of the parent class during the Developer's __init__ method? Can I just go ahead and write def __init__(self, prog_lang)?",True
+@ericorabello,2018-11-03T14:11:41Z,0,"Congrats for the excellent video. I've got a question about the add_emp method: I wanna have a manager method that allows me to input as many arguments as I want to add employees all at once. Ex: manager_1.add_emp(emp_1, emp_2, emp_3).  I changed the defining method for def add_emp(self, *emp), but it returns an error saying "" 'tuple' object has no attribute 'fullname' "". Why is it adding the emps as a tuple and not as a list? =/",True
+@appwebexperts5249,2018-10-30T09:19:27Z,1,well done ! Great job,True
+@trendiiemeen,2018-10-27T10:11:47Z,1,Thank you!!,True
+@dp0813,2018-10-24T13:28:10Z,0,"After watching episodes 1 thru 4, I think you should emphasize at the beginning of each video that all of your examples are not using private attributes, because that would change some things.",True
+@TomasDavidcz,2018-10-18T09:02:44Z,1,"Corey, thank you so much ;) You are the man! :)",True
+@anudeepAAA,2018-10-17T17:07:23Z,0,question:  why is raise_amount not defined inside  __init__ ?,True
+@shubhampandey4691,2018-10-14T15:54:53Z,0,what is  super()? I dont understand what it does..... can you make a tutorial on super() only?,True
+@ankitathummar4606,2018-10-11T11:56:02Z,1,Great work :),True
+@vitaly7491,2018-09-30T14:04:31Z,1,Very good content. Thank you!,True
+@wssz112,2018-09-30T01:36:31Z,0,how does the manager class get access to employees . no need to creating (class) Employee  employees(instance) = None?,True
+@bishwajitvikram3794,2018-09-25T16:51:39Z,0,I am getting this error. I am using python v3.7. TypeError: __init__() takes 4 positional arguments but 5 were given,True
+@myusername6595,2018-09-24T00:22:26Z,2,definitely the best intro to OOP in general that i've found,True
+@asharatiq4941,2018-09-22T16:58:13Z,1,Much appreciated,True
+@satyamsareen9034,2018-09-19T20:55:26Z,0,why we are not passing self parameter when using super.__init_(),True
+@satyamsareen9034,2018-09-19T20:02:55Z,1,"when ksi watches this video, he be like "" everything is on point """,True
+@javadbafekr7680,2018-09-19T16:13:58Z,0,"Thank you for great tutorials, one part is confusing for me, when you passed an instance of Developer to the Manager class, in a list. does python will solve the instance and extract the information from instance in order to use them in Manager class? would you please tell me how it happens and how the Manager class can parse an instance as an argument? Thanks.",True
+@karthik-ex4dm,2018-09-18T12:17:13Z,6,Python is just magical... Everything happens out of nothing I can visualize data structures such as linked lists etc from this lecture,True
+@rahulparmar208,2018-09-16T03:42:20Z,0,Can a developers have its own subclass?,True
+@rahulparmar208,2018-09-15T19:15:01Z,0,The manager's emoloyee list part i didn't understand completely.. Plz explain sir...,True
+@yashthakkar6432,2018-09-15T18:20:48Z,0,I always had a confusion about super() but you made it super duper clear today. Thanks a ton!,True
+@hamidurrahman3183,2018-09-15T15:50:15Z,0,"I just have a simple question, how can I accomplish the following? I want to have all my ""Developer"" instance to have raised by Doing this Developer.raiseAll(); instead of calling dev1.raise(); dev2.raise();",True
+@zes7215,2018-09-15T03:09:13Z,0,"no such thing as best or dry or not, say can say any is ok, no worry no matter what. no worryx nmw, ts not impx or usex or not, nonex",True
+@mikegropp,2018-09-11T15:14:56Z,3,"Very well done! Appreciate your videos, Corey. Your choice of words and pace is perfect for my current understanding of Python.",True
+@tomwhite7270,2018-09-11T14:21:38Z,1,"Amazing job, you're great, very helpful",True
+@aremuamasa807,2018-09-05T08:23:56Z,0,"Why can't u just do print(""Manager. employee) instead of creating a function entirely",True
+@karimkazia,2018-08-26T14:00:24Z,2,Thank you so much for posting videos. loved your lecture and it really helped me understand the topic. all confusions are gone. LOL. thank you,True
+@michelleChovancova,2018-08-26T10:59:53Z,1,I like your style very much. It is very clear. I have found you finished Bc. programme computer science with honor. I think you are a special talent. I want to be like you. :D,True
+@JK-sy4ym,2018-08-23T15:47:24Z,1,very good.,True
+@pedrogosselies,2018-08-21T20:16:41Z,0,"Hi Corey, is the video about not passing mutable data types into to the init method available somewhere?",True
+@NickSlaughterDude,2018-08-17T20:24:15Z,1,Phenomenal tutorial indeed. Well thought examples explained in clear and detailed manner. Thank you so much Corey.,True
+@WIZURAI-AGV,2018-08-14T09:46:24Z,1,"explaining Python very clear, I think he is the best mentor in explaining Python.  *thumbs up!",True
+@justinpedersen9174,2018-08-13T15:36:44Z,0,at about 18:14 there is a bit with a def inside a class and a new class being created in that Def. Is there any specific reason/ benifit for doing something like that?,True
+@andres8bg247,2018-08-12T15:45:30Z,0,"Hi Corey, I have a simple questions just out of curiosity regarding the example class variable 'num_of_emps' you mentioned previously. Say, I would want to use a similar variable in my subclasses, e.g. developers, how exactly do I need to set up my dunder init method in the subclass? I tried it the same way, but got the error 'local variable 'num_of_devs' referenced before assignment'.  Thanks for a quick comment on that. btw.: your videos not only are helpful, they are really fun ;) BR",True
+@tomek-858,2018-08-09T09:36:29Z,0,"Hi Corey I'm wondering, what's your font family in the editor?",True
+@mohammednagdy6661,2018-08-04T16:02:14Z,2,First time I understand why we use classes. You're the best!,True
+@Champignon1000,2018-08-03T21:17:10Z,1,you are doing these videos so super well thank you a ton,True
+@llama7206,2018-07-30T21:20:09Z,0,anyone have any exercises/assignments that would go well with this video?,True
+@flx4087,2018-07-30T20:56:36Z,3,"Thank you Corey, very helpful video.  How would I build a from_string() alternative constructor (as shown in the Python OOP Tutorial 3) for the Developer class without having to rewrite the initial split (let's assume I need to do a little bite more complex stuff, for example dig trough a xml)?",True
+@danboterashvili276,2018-07-30T18:28:12Z,2,This course has been extremely helpful. So happy i discovered your channel from your podcast episode with Talk Python To Me. I look forward to learning more!,True
+@user47263,2018-07-30T10:58:59Z,0,"Hi Corey! Thanx for this Brilliant Video Tutorial. However I have one question regarding your code on this Video, If I add 1 or more Developer entries, the method print_emps() will only show 2 lists, Why is that? Here's what I meant:  dev_1 = Developer('Corey', 'Schafer', 50000, 'Python') dev_2 = Developer('Kris', 'Aquino', 60000, 'Java') dev_3 = Developer('Sunshine', 'Dizon', 50000, 'Python') dev_4 = Developer('Piolo', 'Pascual', 60000, 'Java')  Any of this 4 will only display 2 entries...",True
+@md.shorifulislam8366,2018-07-30T07:04:44Z,0,"Is there anybody ? Whenever I am call  "" mgr_1.print_emps() "" the interpreter is showing ""  print('-->', emp.fullname())"" this line is error. Pls. help me solve the problem.",True
+@md.shorifulislam8366,2018-07-30T07:01:43Z,1,Thanks Great illustration !!,True
+@sicongs5816,2018-07-30T00:37:25Z,1,"Really helpful Video, thanks very much!",True
+@budhathokibijaya6636,2018-07-29T11:44:20Z,2,thank you it really helped me !,True
+@sachin_yt,2018-07-28T18:12:06Z,1,what t f ru man? ru a god or something? amazing stuff,True
+@georgelie686,2018-07-28T05:18:36Z,0,fucking udemy ads make me want to kill myself,True
+@MagnusAnand,2018-07-26T15:41:48Z,0,I kove you man,True
+@MohammedAhmed-wq2jf,2018-07-21T14:33:43Z,1,"Corey, your videos are a delight for gaining clear understanding on python. Even Few of Udemy videos fail to deliver the way you have done. Thank you",True
+@rameshbiradar4480,2018-07-20T16:10:09Z,0,Awesome videos very clear but little bit fast (sorry to say this).,True
+@huntermaverick5114,2018-07-17T15:10:56Z,2,"You have a really suitable voice for this and the way you explain everything is just amazing Corey. The other short video tutorials on Youtube only have about 5 min each, that's depressing. You are the best at this!",True
+@abhijeetmaurya7355,2018-07-16T02:52:42Z,0,"the output of this is [<__main__.Developer object at 0x7f6a8b1e5ba8>] can someone tell me how can I print the name of object instead of the object itself. Any help will be appriciated  class Manager(Employee):     def __init__(self, frist, last, pay, employee=None):           super().__init__(frist, last, pay)         if employee is None:             self.employee = []         else:             self.employee = employee  mgr_1 = Manager(''sue', 'smith'', 50000, [dev_1]) print(mgr_1.employee)",True
+@seydaozdemir,2018-07-12T22:54:16Z,1,i also learn english because of your great teaching. Thank you a lot.,True
+@bosonglin7462,2018-07-12T03:54:54Z,1,Smart! Thank you a bunch!,True
+@johnphilipjones,2018-07-10T16:49:19Z,1,An excellent video great pace and very clear.,True
+@tabancosmos2235,2018-07-06T21:27:55Z,1,Great Tutorial.,True
+@gokulsreekumar4371,2018-07-01T17:07:03Z,2,"You have done a great thing and even greater is the fact that you did not hide this stuff behind some ""learning websites"" , made it open to everyone in YouTube. Thanks a lot",True
+@DulanJayasuriya,2018-06-30T15:12:14Z,1,Thank you,True
+@Vailsec,2018-06-30T11:54:53Z,0,"I'm still very new to OOP and these videos have been helping me understand it far better than any other tutorials I've watched. So thank you.  I do have a question though, as your program grows bigger and bigger like our Employee class now being able to handle employee's, developers, and managers, along with their own attributes and methods. Is there a way to keep track of the subclass and parent classes methods?   For example if I create an instance of the manager class, is there an easy way to see all of the methods available for that manager class?   Hope this wasn't a dumb question ha",True
+@yangcao7215,2018-06-26T16:58:31Z,0,"for emp in self.employees:             print('-->', emp.fullname()),   why self.employees has the method of fullname()?",True
+@tamilstalin4609,2018-06-24T15:40:08Z,0,"Hi corey ,  Can you explain me what is pprint method? Different between print and pprint and use case",True
+@purna3595,2018-06-23T04:48:17Z,0,"mgr_1.add_emp(dev_2) mgr_1.print_emps() mgr_1.remove_emp(dev_2) mgr_1.print_emps()--->the output of this line  is  dev_2 fullname  and  it is removing dev_1  so,please clarify this doubt",True
+@rossgoldsack1732,2018-06-12T10:51:09Z,0,What if you want to record the manager's programming language as well? Is this where composition comes in?,True
+@jhonjhon5952,2018-06-10T05:37:50Z,0,"class school:     def __init(self,books,reading,homework):         self.book=books         self.reading=reading         self.homework=homework class college(school):     def __init__(self,books,reading,homework,assignment,projects):         super().__init__(books, reading, homework)         self.assignment=assignment         self.project=projects         obj=college(""maths"",""lesson"",""very more"",""big"",""very well"") print(obj.book)   bro what error in this code",True
+@serhii.chumachenko,2018-06-09T20:42:17Z,1,Thanks!,True
+@arpitsingla4528,2018-06-08T15:29:58Z,0,Hello sir i want that The data which pass to the instance is passing at the coding time not instead of passing it at run time So how it becomes possible for a class to make a method for read_value and those value get set to the init function,True
+@sagarsapkota8023,2018-06-03T06:13:43Z,0,Hi Corey  great explanation....please make videos of python real world projects too,True
+@shrutijain809,2018-06-03T04:43:00Z,0,"Poor example,poor explanation",True
+@piyushmehta7576,2018-06-01T03:11:34Z,0,"I'm facing an error while running the code in the terminal. plzz help me out with the error. <<PS C:\Users\dark_phoenix\lpthw> python oop.py 70000 Traceback (most recent call last):   File ""oop.py"", line 27, in <module>     dev1.applyRaise()   File ""oop.py"", line 15, in applyRaise     self.pay = int(self.pay*self.raiseAmount) TypeError: can't multiply sequence by non-int of type 'float'>> my code was exactly the same as yours....the code was present in your video at 05:11......plzz check it out and help me.",True
+@claystudiofx,2018-05-31T04:01:09Z,1,"This is awesome , one of best python tutorial.",True
+@_thoneeer3220,2018-05-30T17:00:48Z,1,You ARE GOD.... KAMIIII SAMA <---- In Japanese,True
+@AMANSINGH-mj7lf,2018-05-29T18:19:08Z,0,How many types of inheritance are there in python??,True
+@himansuodedra2201,2018-05-23T19:44:15Z,0,"what happens if for example we have parameters inside the super() as shown below versus what you have shown in the video which occurs within the init.  class Maze(tk.Tk, object):     def __init__(self):         super(Maze, self).__init__()",True
+@himansuodedra2201,2018-05-23T16:30:27Z,0,excellent video !! just a quick question what is a baseclass? is this the same as a parent class ? thank you,True
+@officiallysaravana,2018-05-23T07:09:25Z,0,"Hi Corey, thanks a lot for your videos. Looking for multiple inheritance in python videos as well.",True
+@Nerkzor,2018-05-22T02:56:31Z,0,"I have been wondering this through your videos, but how do you output your python code to the terminal/console right in sublime? I've been  using powershell and manually type my folder location every time I come back to work on this. Thanks!",True
+@MdAzhar-kx7op,2018-05-16T15:32:32Z,0,awesome,True
+@plankton383,2018-05-14T01:46:03Z,1,Awesome man! I am familiar with notion of inheritance and wanted to know how it's done in python. Your tutorial is on point. Got yourself a sub ;-) Cheers!,True
+@carlandres3319,2018-05-13T13:20:59Z,0,How do you handle abstract methods in p y t h o n ?,True
+@jerrywang3225,2018-05-13T06:47:03Z,2,"hi, you are so far the greatest Python teacher on Youtube who can clearly explain the class inheritance concept, the examples couldn't be better.  Thanks so much/",True
+@bradleyshields230,2018-05-08T02:34:43Z,1,"dude this is wonderful. you keep leading us to concepts, keeping it coherent....great job!",True
+@liliyagalechyan1966,2018-05-04T22:13:37Z,0,"Really, really helpful!!!",True
+@aniketverma3281,2018-05-03T08:13:37Z,0,good job man!,True
+@davidjosephetuk5018,2018-04-25T22:46:27Z,0,why are the curly brackets there??,True
+@akhilkumarmodadugu9565,2018-04-24T05:56:22Z,0,The Example you used was perfect to explain Inheritance. Thanks for the video,True
+@donovankeating8577,2018-04-18T21:24:33Z,0,Wow you explain really well! Thanks so much for your videos. Liked and subbed! :),True
+@itshowiedo,2018-04-18T07:28:59Z,6,"May I just say ""Superb!"" on your explanation of Inheritances / Subclasses along with your excellent and useful examples!!",True
+@barrypenner3339,2018-04-18T06:46:11Z,0,"Hi Corey, great video as always. Are you still planning to do a video on multiple inheritance?",True
+@TheCaveAdventurers,2018-04-12T01:22:36Z,0,Thanks dude you are so much better than my UNI lecturer <3,True
+@talalhaider840,2018-04-11T15:14:15Z,0,not working.When i try to add prog_lang it says TypeError: __init__() takes 4 positional arguments but 5 were given,True
+@flemingstarsyiemlieh2125,2018-04-06T16:12:36Z,0,"i'm confused at 14:50 minutes, where it print the fullname from dev_1 i.e  corey schafer instead of sue smith which is from mgr_1. Can someone please help me clear my confusion in detail.",True
+@Keyandcartracking,2018-04-06T12:12:38Z,3,Corey... out of all the tutorials I have watched on Python.  Yours are the best!  You have a great ability to explain things in a way that is much easier to comprehend!,True
+@TonyMartinezTossas,2018-04-05T22:27:19Z,0,Excellent video!,True
+@niteshrawat576,2018-04-01T07:30:54Z,0,"hi Corey,  does python support multiple inheritance? and how?",True
+@ivofrancisco357,2018-03-27T22:47:58Z,0,Very good. Thanks!,True
+@xy0157,2018-03-27T03:16:16Z,0,Does anyone know how can I have the return output of a loop be passed as argument for a subclass? newb over here,True
+@meerimchukaeva549,2018-03-26T13:15:04Z,0,"blyat , tak zaebalas . Whyy tak slojna :((",True
+@AWStest-vo9gb,2018-03-26T03:10:31Z,0,"Hi, I am using Python 2.7 for build-( native on my mac) when I am using super().--init__ its throwing an error saying super().__init__(first, last, pay) - dev_1 = Developer('John', 'Doe', 600000, 'Ruby')- TypeError: super() takes at least 1 argument (0 given)- when I use Employee().__ it works fine- any pointers - thanks in advance",True
+@KarthikRampur-ql2td,2018-03-24T13:27:18Z,0,"Hi Corey , could you please make a video on multithreading.",True
+@KTValley590,2018-03-21T18:10:30Z,0,"Will you consider to create python program class in Udemy, I really enjoy the way you explain thing",True
+@sherrishah,2018-03-20T12:34:22Z,1,I have learned a lot from you. Thank you!,True
+@mari13e13,2018-03-18T22:25:51Z,0,"I am a bit confused about using ""self"". At 13:25 , in add_emp, remove_emp and print_emp methods, why he didn't use ""self.emp"" instead of ""emp"" like the way he used ""self.employees""?",True
+@georgigeorgiev2219,2018-03-18T20:35:06Z,0,Thank you :) ! GOD bless you !!!,True
+@seans9168,2018-03-13T07:01:46Z,1,Congrats on 100k subs!  Nicely done!  Keep the Python videos coming.,True
+@susannaventafridda430,2018-03-11T16:29:55Z,0,"If you're using Python 2.x try writing the following at the very beginning of your code (found on stackoverflow and really helped me as I was stuck with error messages): __metaclass__ = type In addition, ""super"" for the Developer class becomes: super(Developer,self).__init__(first, last, pay) and for the Manager class: super(Manager,self).__init__(first, last, pay) Finally I removed the arrow as it was problematic because Python considered it as an object (error: 'str' object has no attribute 'emp') Now it all works!",True
+@landisk3530,2018-03-11T08:02:51Z,1,"Following your codes, when I print(mgr_1.print_emps()) initially, I actually got these output: --> Corey Schafer None Not sure why the ""None"" appear and how to remove it >,<  class Manager(Employee):     def __init__(self, first, last, pay, employees=None):         super().__init__(first, last, pay)         if employees is None:             self.employees = []         else:             self.employees = employees  By the way, excellent video. By far, you are the best Python teacher I've seen on YouTube",True
+@LostMakaveli,2018-03-06T22:26:54Z,0,You are killing it!,True
+@derekroot8043,2018-03-05T17:54:50Z,1,"I think it's important to note that in the apply_raise function, if you used Employee.raise_amount the apply_raise() function in the Developer class will ignore the raise_amount set in the developer class since the method is looking directly at the Employee class instead of the specific object. I think this could be a useful way of controlling how variables work regardless of their inheritance.",True
+@ahmedarafa511,2018-02-28T13:53:31Z,0,I have one question please Coary could you please explain this part if employees is None:             self.employees = []         else:             self.employees = employees,True
+@fwesselhoft,2018-02-25T15:55:23Z,10,"Currently taking a python class at Hopkins university and getting a bit loss on the class subject; your videos are super helpful and make the subject much easier to understand. Thank you, great work!",True
+@bobdowling6932,2018-02-22T09:15:52Z,0,"When you add the employee list to the manager (c. 12:30) should you not take a copy of the passed argument rather than use it directly? Is there not a risk that the list passed could be externally modified (perhaps for the next call to Manager() ).  So, I think I would go for this... if employees is None:     self.employees = [] else:     self.employees = employees[:]",True
+@user-tm7up2ti2k,2018-02-21T01:32:44Z,0,exactly what i needed,True
+@hardysardual9729,2018-02-19T17:28:22Z,0,I'm a newbie in Python Programming after learning Java. this tutorials are great and very precise.,True
+@MinhTran-wn1ri,2018-02-18T22:32:40Z,0,@11:32 Need reference to why you never want to pass a mutable datatype as default arg.,True
+@naveengorripati9227,2018-02-17T08:43:42Z,1,"Excellent videos, this is the best python material I have ever come across, hats off to you Corey",True
+@hardikkakadia,2018-02-15T20:35:40Z,0,excellent i purchased few on some portals.. they keep talking talking very boring. Your videos are excellent,True
+@franklinbradfield9131,2018-02-11T18:42:10Z,0,"Great video (and series in general). For the employees attribute of Manager, a set would be the better data structure to use though, since employees are unique instances of their respective classes. Doing so would simplify the add_emp, and remove_emp methods as well since you wouldn't have to run this initial check of whether or not they are already under management.",True
+@SAJITAHAMED,2018-02-10T07:09:00Z,3,Everyone will become programmer if all the teachers are like you. Awesome.,True
+@drosophila82,2018-02-09T02:47:06Z,0,"Hi Corey,  a quick question please,  when it comes to a subclass inheriting instance variables from a class, for example is it possible for subclass Manager not to utilize all of the instance variables from Employee? can it for example somehow not require pay and replace it by another instance variable hourly rate?  i hope I conveyed my question clearly.  otherwise is it true to say that the instance variables from the root class have to -by necessity- be part of the subclass.   Thank you",True
+@tonk6780,2018-02-07T13:11:56Z,0,"In case anybody ran into a Type Error using Python 2.7:  If you follow the video using Python 2.7, this line ... super().__init__(first, last, pay)  ... will give you this error: TypeError: super() takes at least 1 argument (0 given)  To fix this, you have to make a few cahnges to your code.  Declare your Employee function like this ...: class Employee(object):  ... and declare your subclass like so: class Developer(Employee):         raise_amount = 1.1         def __init__(self, first, last, pay, prog_lang):             super(Developer, self).__init__(first, last, pay)             self.prog_lang = prog_lang  The subclass has to be declared as a *""new-style""* class so that the super() will work. Python 2 seems to create old style classes unless instructed otherwise. In Python 3 you won't have to deal with this problem, because it apparently always creates new style classes.  More information here: https://stackoverflow.com/a/1713052",True
+@cipcip4986,2018-02-06T08:22:30Z,3,best python tutorials,True
+@tn-show906,2018-02-01T07:24:58Z,1,"When creating mgr_1 instance, you passed [dev_1] as an argument. Actually dev_1 is an instance for developer class. Can you explain how the attributes from dev-1 object passes as a list object for mgr_1 argument.",True
+@rayen_fekih,2018-02-01T00:20:09Z,0,"why did print_emps (in 13:05 ) took just self not (self,emp) ?",True
+@sunilthebest,2018-01-26T12:43:07Z,0,"HI, I am unable to print a emp full name with Manager class....i am using same script you have used... please help  Regards Suneel",True
+@riderblack6401,2018-01-25T16:17:47Z,1,Thanks Corey! Greatest video on Youtube!,True
+@drewerving7428,2018-01-25T07:48:21Z,9,Where have you been my whole life?,True
+@boses5320,2018-01-20T07:16:34Z,1,"This is a very good video series, the whole O.O.P playlist. Corey u go through the basic very well and in a very informative way. Thanks a lot.",True
+@JZ1917,2018-01-19T16:22:05Z,0,You are a really good teacher! Thank you for taking the time to make these tutorials,True
+@vimalraj8290,2018-01-13T18:30:56Z,0,Are u using sublime text???? Man,True
+@jeff_mci_gaming6018,2018-01-13T17:11:56Z,2,"So clear and precise...amazing video. I've see a lot of videos where people just run through projects with you and not really explaining the 'WHY' something is used or 'WHY'/'HOW' something happened, whether it be an error or a successfully executed line of code.....I think most tutorial videos focus too much on having people remember syntax... your videos are on-point. thanks a million.",True
+@umersaddique8472,2018-01-13T12:18:39Z,0,"hi Corey, How are you. first of all i cannot even express how incredibly useful and precise your videos are. Again thank you so much Corey! i have an little error please help me out  inheritance.py"", line 50, in print_emp     for emp in self.employees: AttributeError: Manager instance has no attribute 'employees'",True
+@srujanbandarkar5356,2018-01-11T21:59:46Z,0,Great content!!.. Could you post some material on data structure implementation?,True
+@catcute2437,2018-01-11T17:58:59Z,0,You are the best thank you,True
+@nikhil9172,2018-01-06T09:34:23Z,0,"when  I run super(). of python 3.6, it shows me a type error. How do I resolve this",True
+@superiorspider7922,2018-01-06T01:16:44Z,0,This Python series is awesome. Helps a whooooole lot. Can you start a series for Java too?,True
+@sourandbitter3062,2018-01-04T07:00:58Z,0,"You're super concise and precise, thanks. Really, how do you do that.",True
+@insiyahhajoori,2018-01-02T06:11:21Z,0,Which editor will you recommend? Sublime or atom?,True
+@elllot_,2017-12-30T19:09:21Z,0,Awesome stuff! Learned a lot about how to implement inheritance in Python. Just wanted to note that using a List for Employees would be very inefficient as it would not scale well (in case anyone tries to use an exact copy of this structure). You'd be better off using a set or a Linked List + Dictionary if you wanted to keep insert order.,True
+@logicheap811,2017-12-26T15:38:05Z,0,"Very Nice explanation...I have tried to simplify the logic in - https://www.youtube.com/watch?v=sd0iOlEhz8A&t=761s . Also if any friends needs the understanding of Python in Hindi language, do visit - https://www.youtube.com/watch?v=uJvJElmCs18&list=PLrqwCI95Biv1JVyvUqSs8Mou4-owRjC4O&index=2",True
+@alwalid9547,2017-12-25T20:12:27Z,0,"I just have a question, what should I do, if I want to inherit some attributes of the main class not all of them ! ?",True
+@alwalid9547,2017-12-25T20:08:04Z,0,Great like every Video of you. MANY THANKS COREY !,True
+@monsotal,2017-12-25T16:53:42Z,0,what a great lesson this was ! Thanks man,True
+@qingen7005,2017-12-25T07:30:09Z,0,Excellent video!,True
+@wlancer8826,2017-12-23T14:07:09Z,0,"Thank you for this great tutorial! Perfect for starters like me! I'm not sure if you still check comments and answer questions. For the Manager class, why we don't want to specify the first ""employees"" as ""self.employees"" in the following codes:  >>> if employees is None: self.employees = []  I'd appreciate your helps!",True
+@kishorekumar2769,2017-12-22T14:25:46Z,0,"i am getting this below error please help File ""main.py"", line 41, in <module>     mgr_1.print_emps() AttributeError: 'Manager' object has no attribute 'print_emps'    class Employee:   def __init__(self,fname,lname,pay):     self.fname = fname     self.lname = lname     self.pay = pay     self.email = fname+'.'+lname+'@python.com'      def full_name(self):     return '{} {}'.format(self.fname,self.lname)      class Devloper(Employee):   def __init__(self,fname,lname,pay,prog_lang):     super().__init__(fname,lname,pay)     self.prog_lang = prog_lang  class Manager(Employee):    def __init__(self,fname,lname,pay,employees = None):     super().__init__(fname,lname,pay)     if employees is None:       self.employees = []     else:       self.employees = employees          def add_emps(self,emp):       if emp not in self.employees:         self.employees.append(emp)              def remove_emps(self,emp):       if emp in self.employees:         self.employees.remove(emp)              def print_emps(self):       for emp in self.employees:         print('-->',emp.full_name())  dev_1 = Devloper('Kishore','Kumar',5000000,'python')  mgr_1 = Manager('Oracle','SQL',10000,[dev_1]) print(mgr_1.email)  mgr_1.print_emps()",True
+@kishorekumar2769,2017-12-22T12:38:27Z,0,How         print('--->' emp.fullname() )    works  Please can any one help,True
+@kishorekumar2769,2017-12-22T12:05:37Z,0,Thalaiva you are great ....,True
+@stevefrt9495,2017-12-20T15:52:30Z,0,Thanks you so much,True
+@13afaa,2017-12-19T09:41:15Z,1,So you might just saved me from failing my exams. Thank you :),True
+@saichandrareddy9140,2017-12-16T21:39:48Z,0,sir how many languages are you explaning than this you are explaning  any other plz keep link  #this tutorials are superb sir ........,True
+@himansuodedra2201,2017-12-16T14:28:38Z,33,these explanations are beyond amazing. bought a course on udemy (best selling course to be specific) and what you have been able to explain to us in 6 videos has taken the course approximately 40 lectures!!!!,True
+@rajasekharreddy2410,2017-12-14T05:21:48Z,6,"Any body can upload the videos,but the way of your explanations Superb......No one never beat you Dear.....",True
+@onlybrad8434,2017-12-13T05:21:19Z,0,"for the add_emp method, you should have also checked if emp != self. you don't want a manager to manage themselves xD",True
+@prpllrhd,2017-12-12T04:17:07Z,0,"One question is what happens when we add employees to Manager which are not added as employee.  So basically newMan = Manager(""paro"",""deepak"",24000,[""poo""]) and ""poo"" has not been initialized as an employee. So he does not have a firstname,lastname nor a salary.",True
+@khawajaosama,2017-12-06T13:09:39Z,0,"Starting line of every video ""Hye Everbody, How's it going ? "" 😂😂😂",True
+@haroldthibault9921,2017-11-29T14:35:59Z,0,I don't understand why Employees should have only 4% raise when Developer would have 10% !,True
+@bopeng9504,2017-11-29T03:01:28Z,0,Good job.,True
+@zeawoas,2017-11-28T09:50:28Z,1,"I'm pretty new to higher level programming so I seem to not get an important thing here. Maybe someone can help me: Why would I use instances of classes as data structure for such a purpose like Corey is doing in these examples? I have tried this for a similar project but found that it is hard to handle the data after the instances have been constructed. For example, how could Corey iterate over all developers or print out all the managers that earn more than a certain amount? I really ran into problems with that in my project and switched over to dictionaries afterward having to chance all the code in the end. Are there convenient functions to do stuff like that in class-instances?",True
+@eisaalyaqoub5251,2017-11-27T05:33:02Z,0,"Hello Corey Schafer First, I would like to thank you for these explanation !! ... I am using Python 2.7 and the super() method does not work except in Python 3 as I read. So, How to use the super method in this case with python 2.7 ? Thanks again",True
+@MyTube4Utoo,2017-11-26T02:35:20Z,549,"One great thing about Corey's videos, you know it's safe to 'Like' them before you watch them!  *lol*",True
+@stanc846,2017-11-22T14:29:47Z,2,Thank you for sharing how isintance() and issubclass() are used to get a good insight of understanding how the classes are being used in a given program. I can use this in decomposing my own code as well as others.,True
+@angelwalia756,2017-11-18T01:42:56Z,0,Thanks ssoooo muchh...best explanation ever!!,True
+@dimi3215132,2017-11-17T04:18:48Z,0,If you used employees instead of emp for the add_emp  instance would there be problems with the other employee variable? great work!,True
+@sirajdeen7809,2017-11-11T15:23:43Z,0,"You're  explanation are crystal and clear. Can I get the answer what will be the method resolution order if in case I inherited my sub-class from two parent class?. Another question, Like super().__init__ for a  single parent, what we have to use for the second parent to reuse attributes?",True
+@shantomathew-fh3hv,2017-11-07T23:54:44Z,0,"super().__init__(first last, pay) giving error",True
+@Jonathan-od5xc,2017-11-06T01:12:56Z,217,"Your explanation and use of the terminology is flawless through these tutorials, and I can't begin to tell you how helpful that is!",True
+@sagarscott3586,2017-11-04T18:35:37Z,0,excellent video,True
+@sriharshamohan2626,2017-11-03T17:41:26Z,0,Wow!! Such a detailed explanation. You cover all the details pretty well.  Any beginner could learn well through these videos. Thank You.,True
+@AndrewUnruh,2017-11-02T20:26:23Z,0,"Old guy trying to learn a new trick here.  Fantastic video, easy to follow.  One suggestion, please don't assume people are using the latest version of Python.  Some of your examples need a little modification for older versions.",True
+@Declipsee,2017-10-26T00:06:15Z,0,thx,True
+@TheSLTHLIFE,2017-10-22T17:08:50Z,0,"Hey Corey, Nice video as always! But I wasn't sure if I got this correctly at around 11:20:  for 'Manager.__init__()', if you set 'employees=None' it will only be 'None' if you don't pass any argument, right? Otherwise it'll be the argument you pass? At first glance I thought it would overwrite the argument you're passing. I couldn't find it but if you already did the video you mentioned about this topic, I would be glad if you could link me to it.",True
+@Dineshkumar-wj8so,2017-10-21T19:06:53Z,0,"hiii in def __init__(self,firstname,lastname,salary,employee=None) # for manger class  manger1=manger('firstname','lastname',90000,[dev1])  this dev 1 is object  self.employee=dev1.firstname #should be there iguess (though it is list, but lets say 1st element of list)",True
+@girishjahagirdar4379,2017-10-17T13:44:05Z,0,"One of the best explaination of OOP Python , Good work !",True
+@noelrivero8070,2017-10-11T20:21:07Z,0,"Amazing tutorial, so easy to understand.",True
+@dragonofvalachia3026,2017-09-29T14:09:09Z,1,Why do I get None in output?  ---> John Doe : john.doe@company.com ---> Sim Simpson : sim.simpson@company.com ---> Sigmund Solomon : sigmund.solomon@company.com None  https://pastebin.com/3PKbETm5,True
+@srimanrao7598,2017-09-25T05:13:07Z,0,instead of writing mgr_1.add_emp(dev_1) can we not call the method add_emp directly from the class manager like we did in the previous lectures like Manager.add_emp(mgr_1)????,True
+@liquidmetalrob,2017-09-23T03:03:02Z,0,"You should really explain that to use super in Python 2 you need to put class Employee(object) at the top and super(Developer, self)",True
+@clueple,2017-09-19T14:26:12Z,0,"Great video ... learned a lot about Python class  Actually, I've been looking for ways to solve the following problem:  table_name == 'df'  index    signal     if_exec_1   open_bal     change_in_bal    end_bal 0               0                 0            10000                  0                  10000 1               1               500          10000               -500                 9500 2               1              10000         9500                 0                     9500                3               0                 0               9500                  0                     9500  I tried the logic below but it didn't work out  if df['if_exec_1'] > df['open_bal'].shift(1): ...  df['change_in_bal'] == 0 else: ... df['change_in_bal'] == -1 * df['if_exec_1']   Any help appreciated ...",True
+@soumitripattnaik,2017-09-15T14:41:27Z,0,Python G.OA.T,True
+@jamesrockford2626,2017-09-09T19:53:42Z,0,good,True
+@malgindesilva2758,2017-08-30T07:56:32Z,2,Now I became your patron :),True
+@tcchan14,2017-08-27T11:59:41Z,0,"Hi Corey, I see some people put ""object"" after a class. E.g: class Employee(object) What is the meaning of this?",True
+@y.ulivee9015,2017-08-26T16:39:14Z,6,"I just love the way you explain things, I could listen for hours. This is a really great series!",True
+@ritheshbcanvas4963,2017-08-20T15:18:18Z,1,"Understanding depth of Classes Concept , without your tutorials would have been impossible to me.  Thanks man. You are my bro.  Guys.. better to watch @Corey Schafer  tutorials, rather than wasting time reading or watching any other stupid tutorials for whole day.",True
+@kostasnikoloutsos5172,2017-08-12T09:14:54Z,1,Finally someone who understand.,True
+@zachgoll,2017-08-11T21:13:12Z,6,I just can't get over how clear and concise your tutorials are.  Saves all of us newbies hours of suffering :),True
+@AA-tv9tc,2017-08-03T10:26:31Z,0,"Very clear tutorial, thanks. 1 problem - on the 5th minute when changing raise_amt only in the Developer subclass, the program keeps repeating to the Employee class's raise_amt value. Any idea why? I'm using Pycharm 2017. triple checked my code is a copy of yours. Thanks.",True
+@pradeepvamsi759,2017-08-02T15:08:02Z,0,"hi corey!, i m getting a error like ""Developer instance has no attribute 'fullname'"" when we use     mgr_1.print_emps() can u explain me?",True
+@DigGil3,2017-07-31T10:50:24Z,773,Corey should be paid more.,True
+@sarveshsawant2338,2017-07-15T07:52:11Z,0,"why use ""is"" instead of ""=="" in managers init method",True
+@paulprince7904,2017-07-07T09:12:52Z,0,"class Saleperson(Person):     def __init__(self,fname,lname,password,salesid,location):         super().__init__(fname,lname,password)         self.salesid=salesid         self.location=location   ERROR()   File ""F:\we.py"", line 12, in __init__     super().__init__(fname,lname,password) TypeError: super() takes at least 1 argument (0 given)",True
+@tommyma9210,2017-07-05T18:33:10Z,1,Very GOOD!!,True
+@mountainking212,2017-07-05T01:46:23Z,2,"Thank you very much for these series of videos. My question is, why is it that you can access fullname when iterating through the employees with the iterator emp? In short, how does emp.fullname() make sense?",True
+@DarkSide-vf4wb,2017-07-03T10:20:29Z,0,"8:35 Employee.__init__(self,first,last,pay) works for me but super().__init__(first,last,pay) doesn't.  Error: Super() takes at least one argument but zero are given Why so ? :/",True
+@flybyanuj,2017-06-30T15:27:50Z,38,I cannot even express how incredibly useful and precise your videos are. Thank you Corey!,True
+@4upranit,2017-06-28T07:14:21Z,3,"is super broken in python 2.7.xx?   throws below error  TypeError: super() argument 1 must be type, not instance",True
+@umakonda5859,2017-06-26T01:21:23Z,0,"how can we destroy the instance , I mean like a destructor in C++",True
+@asadmoosvi,2017-06-23T15:16:59Z,0,What is super() actually returning? Why don't we have to pass in self when using super()?,True
+@rogut8,2017-06-19T04:17:40Z,231,"I have used Treehouse and currently I'm attending programming bootcamp, but only you can explain stuff so clearly. Once again - thanks a lot",True
+@rogut8,2017-06-19T03:18:38Z,0,Once again - pure gold. Thank you very much,True
+@this_timetraveller,2017-06-13T08:01:42Z,1,"wonderfull vedio , very well explained, jus one prob i am facing while executing super().__init__(first,last,pay) here on this line i am getting an error, super() takes atleast one argument and 0 given, whats the issue anyone can help??",True
+@beasty45,2017-06-12T17:03:56Z,0,THANK YOU!!! SIR!!!,True
+@danigolmestre,2017-06-09T22:32:14Z,0,Thank you,True
+@eokwukwe,2017-05-26T10:06:46Z,0,"Hello Corey! I'm new to python and programming in general.  I want to thank you for your tutorials. Your clear and fluent explanations is highly appreciated. Your tutorial on python OOP has been of profound help to me in understanding the OOP concept. Please can you take a look at the code bellow. It is an example on using simple and multiple inheritance. While I understand the code to some extent, there are parts that still confuse me: Lines 274 to 279; an 290 to 293. The textbook I'm using didn't clearly explain those lines. Please can you help me out? You can also give your own general explanation of the code if you think it's necessary. However those lines I mention are my bone of contention right now  https://pastebin.com/qtGfsaxm",True
+@Hyngvi,2017-05-24T09:49:33Z,0,These videos are awesome - I like how you use simple examples but still go into the technical details! Good job!,True
+@michaelpenston9527,2017-05-20T22:28:18Z,0,This is a really well-made tutorial and has been very helpful. Thank you!,True
+@LuckyOne3749,2017-05-16T20:12:36Z,0,How can python interpreter be changed from 2.7.13 to 3.6 in Sublime Text 3?,True
+@iced_espresso_2717,2017-05-16T03:33:16Z,0,"One Question, could you give the address for the library that you are showing ?",True
+@sridattavoleti1856,2017-05-14T02:12:26Z,0,i am asking about why you take prog_lag seperate you should add starting reguar self method,True
+@petermuriuki8430,2017-05-07T12:21:04Z,0,"so... wait you can pass a class object as a list????, what if the dev_1 contained a tuple or set????... or maybe I just overlooked something",True
+@lolserm,2017-05-07T00:01:46Z,0,"Hi, Corey, I am a total noob in programming, I just wanna know, how can use inside a class a method from a different class? It is  easier working with subclasses? Your tutorials are great!",True
+@ibropwns,2017-05-03T15:22:02Z,0,"Helped a lot, OP videos",True
+@geraldleesesideburnsg3382,2017-04-17T07:23:33Z,0,python 2.7 says super requires 1 argument but runs  on 3.5?,True
+@kermitthehermit9373,2017-04-08T19:25:04Z,0,I get a  for emp in self.employees TypeError: iteration over non -sequence,True
+@johntete3548,2017-04-08T17:09:20Z,0,"Hey Thank you for your informative video but I cannot return the charge function just like your apply raise function .I have tried to use the fee variable but nothing seems to work what am I doing wrong.  class Job:     rate = 1.04      def __init__(self,location,salary,description,fee):     self.location = location      self.salary =salary     self.description =description     self.fee = fee     def Charge(self):     self.fee = int(self.fee + Job.rate)           job1=Job(""london"",23000,""Accounts Assistant"",1200) job2=Job(""london"",25000,""Accounts Assistant"",500)    job1.Charge()# does not return please help",True
+@johntete3548,2017-04-08T17:08:12Z,0,"Hey Thank you for your informative video but I cannot return the charge function just like your apply raise function .I have tried to use the fee variable but nothing seems to work what am I doing wrong.  class Job:     rate = 1.04      def __init__(self,location,salary,description,fee):     self.location = location      self.salary =salary     self.description =description     self.fee = fee     def Charge(self):     self.fee = int(self.fee + Job.rate)           job1=Job(""london"",23000,""Accounts Assistant"",1200) job2=Job(""london"",25000,""Accounts Assistant"",500)    job1.Charge()# does not return please help",True
+@denislennon8941,2017-03-28T20:16:22Z,0,any way of downloading this code from the tutorials?,True
+@alyssanguyen1354,2017-03-24T15:34:04Z,23,bless your heart for making these videos,True
+@ali333291,2017-03-23T18:47:13Z,0,"If you get error at code of 9:34, and get the error is TypeError: super() takes at least 1 argument (0 given)  change code of line 23 (video) to super(Developer, self).__init__(first, last, pay)",True
+@simaphore,2017-03-21T19:31:47Z,1,I had been trying to get this concept all day until I found this video and it answered all my questions! thank you!,True
+@oleksandrperyk5141,2017-03-08T11:52:25Z,0,"good video, thanks!",True
+@Aseem_Bhandari,2017-03-05T01:12:00Z,0,"Hi Corey just a small doubt as per last video we can/should define def print_emps(self): method as a static method, according to my understanding is this right?",True
+@srikanthvattukuti1131,2017-02-26T13:36:36Z,0,"why we use ',' operator EX:d,=",True
+@davorm4634,2017-02-24T11:39:23Z,1,"Excellent tutorials, all of them ! Thank you.",True
+@Ather178,2017-02-23T20:24:03Z,1,Thank you for sharing this! Appreciate it!,True
+@preyanshshah91,2017-02-16T00:23:24Z,0,"Hi Corey, in the init method of Developer class, do we need to pass the attributes first, last and pay as parameters? Isnt it already inherited from the Employee class?",True
+@arvindu123w,2017-02-14T14:56:03Z,0,"Hi Corey, Thanks again for the video. I am using Python2.7 . When i try to print all employees, it prints ""None"" also. Please advise. Also as someone mentioned in the comments i had to use ""parentclass.__init__"" instead of super to get this working.  This is the script:: Tue Feb 14 20:23:32 root@ansible:/var/tmp/python283 cat class9.py #!/usr/bin/python import string,datetime  class employee:         no_of_emps = 0         bonus_percent = 1.04         def __init__(self,first,last,pay):                 self.first = string.lower(first)                 self.last  = string.lower(last)                 self.pay   = pay                 self.email = self.first + '.' + self.last + '@gmail.com'                 employee.no_of_emps += 1          def fullname(self):                 return '{} {}'.format(self.first, self.last)           def pay(self):                 return '{}'.format(self.pay)           def email(self):                 return '{}'.format(self.email)          def bonus(self):                 return '{}'.format(int(self.pay * self.bonus_percent))  class developer(employee):         bonus_percent = 1.10          def __init__(self,first,last,pay,prog_lang):                 employee.__init__(self,first,last,pay)                 self.prog_lang = prog_lang  class manager(employee):         bonus_percent = 1.20          def __init__(self,first,last,pay,emps='None'):                 employee.__init__(self,first,last,pay)                 if emps is None:                         self.emps = []                 else:                         self.emps = emps          def add_emp(self,emp):                 if emp not in self.emps:                         self.emps.append(emp)          def remove_emp(self,emp):                 if emp in self.emps:                         self.emps.remove(emp)          def print_all_emps(self):                 for emp in self.emps:                         print ""-->"", emp.fullname()   dev1 = developer('John', 'Doe', 30000, 'Python') dev2 = developer('David', 'Miller', 40000, 'Java')  mgr1 = manager('Mike','Lu',30000,[dev1])  print ""MANAGER EMAIL ID:"", mgr1.email print ""ALL EMPLOYES WORKING FOR HIM\n"", mgr1.print_all_emps() mgr1.add_emp(dev2) print ""ALL EMPLOYES WORKING FOR HIM AFTER ADDING 2nd Developer\n"", mgr1.print_all_emps() mgr1.remove_emp(dev1) print ""ALL EMPLOYES WORKING FOR HIM AFTER REMOVING 1st Developer\n"", mgr1.print_all_emps()  Tue Feb 14 20:23:35 root@ansible:/var/tmp/python284    This is the output:: Tue Feb 14 20:23:35 root@ansible:/var/tmp/python284 python class9.py MANAGER EMAIL ID: mike.lu@gmail.com ALL EMPLOYES WORKING FOR HIM --> john doe None ALL EMPLOYES WORKING FOR HIM AFTER ADDING 2nd Developer --> john doe --> david miller None ALL EMPLOYES WORKING FOR HIM AFTER REMOVING 1st Developer --> david miller None Tue Feb 14 20:23:43 root@ansible:/var/tmp/python285",True
+@messages4kanthi,2017-02-12T18:09:14Z,0,"Hi Corey, how do we enforce init method of manager instance accepts only ""Employee"" type as the last argument?",True
+@TheNuNoPalma,2017-02-07T23:50:50Z,0,What program are you using?,True
+@ayushgupta7731,2017-01-30T14:42:29Z,3,"Hi Corey. Thanks for the video. I didn't get the below part: class Managers(Employee):  def __init__(self,first,last,pay,employees=None):   Employee.__init__(self,first,last,pay)   self.employees=employees Here you are instantiating as: mgr1=Manager(' Sue','Smith',90000,[dev1])  But 'dev1' is an object(dev1=Developer('Corey','Schafer',50000,'Python') not a single entity(value). What values are getting passed in the list to 'mgr1'.  Also after doing the same things, I am not able to print the employees using: def print_emps(self): method.  I am getting:[<__main__.Developers instance at 0x033F7120>] whenever I am trying to print.  PS: I AM USING PYTHON 2.7.12. Thanks for the help.",True
+@ansarmuhammad,2017-01-23T14:26:17Z,0,http://stackoverflow.com/questions/20209415/init-takes-from-1-to-3-positional-arguments-but-4-were-given,True
+@ansarmuhammad,2017-01-23T14:26:00Z,0,finally a friend found the typo,True
+@ansarmuhammad,2017-01-23T14:25:38Z,0,i miss typed __int__ instead of __init__,True
+@JoshyHJoshy,2017-01-20T18:14:55Z,0,"Hi Corey, Thanks for your excellent tutorials. Have you also made (or do you know of) any tutorials that would make a little application by ""bringing in"" all these concepts, like static methods and inheritance and perhaps some list comprehension, etc...? Something that would show these concepts together in action? I am asking this because by now I think I have learned all the ""essentials"" but I feel like I keep forgetting some stuff, so instead of going back to individual lessons again, I would like to keep reminding myself by engaging in material that includes these building block concepts. Many thanks,",True
+@ankitbiradar8599,2017-01-17T20:27:20Z,8,Why do we need to implement super.__init__() in Developer.  Developer already has these variables as it has inherited them from employee. What is the need for stating them explicitly again.,True
+@ryangtromero,2017-01-09T19:47:32Z,2,"Whenever I try to use super I get this error:   File ""/Users/ryanromero/Documents/VSCode/Python/Tutorial/inheritance.py"" , line 20, in __init__     super().__init__(first, last, pay) TypeError: super() takes at least 1 argument (0 given)    def __init__(self, first, last, pay, prog_lang):         super().__init__(first, last, pay)         # Employee.__init__(self, first, last, pay)         self.prog_lang = prog_lang   That is my code, the other way that I have commented out that you showed works, but super() does not work for me. Why?",True
+@aramhamidi7080,2016-12-31T20:07:40Z,1,How come your super() does not have any argument while your super class(Employee) constructor requires at least 3 arguments?!  I have tried it in other examples and I got an error.,True
+@babatundeadekunle8562,2016-12-31T06:00:07Z,0,"Excellent tutorial Corey! really amazing. I have to questions  Question1: Do you need to always pass in all the attribute of the  __init__ method again to expand a subclass, is there no python way to bypass this?  Question2: Say I want to create another subclass x which will inherit from another subclass y-which is an expanded version of the parent class, will x be able to inherit all attributes and functions of the parent class and y subclass?, has seen in the HTTPException class where BadRequest was also inherited by ClientDisconnect subclass",True
+@OrnateOwl,2016-12-28T18:27:54Z,0,You're so helpful to everyone that you have zero dislikes. I congratulate you. :),True
+@atanetmra3565,2016-12-26T23:11:47Z,0,"Hi, Corey! Thank you for these excellent video tutorials! Best.",True
+@midget2000x,2016-12-07T01:09:41Z,0,Hey Corey -thanks again for these videos.  I find myself returning to them when I get stuck with something!,True
+@Creuilcreuil,2016-12-03T22:17:56Z,0,"At 11:10 or just  ""self.employees = employees if employees else []""",True
+@ravitejahasti6266,2016-11-25T03:05:04Z,0,Hi Corey! Thanks for providing such a wonderful videos on oops concepts. It would be helpful if you can make videos on GUI programming in python. Thank you,True
+@RajeshGoyalg,2016-11-23T05:24:05Z,0,Must watch python videos. Thanks Corey.,True
+@tomsuccess2956,2016-11-20T16:09:53Z,1,I like your videos very much. it helps me a lot ! I'm not good at listening English .So could you make a engsub for all your videos? Thank you so much!,True
+@Tw1que,2016-11-20T15:50:00Z,0,"Hi Corey, I love the tutorials. The only thing that is confusing me is the follwing; the way I see it now is you would have to write a list of employees inside of your program? Or is there a way to have a class that adds new employees and store the objects somewhere else... Or am I missing something?",True
+@keevee09,2016-11-14T09:07:27Z,0,"These video tutorials take me back to my days in lectures, learning about ADT's in Java. You provide a very clear and concise presentation at a good speed, broken into logical, digestible bites. Excellent work!",True
+@Jtmxm,2016-11-06T14:44:18Z,0,"Corey, your lectures about class are really wonderful and clear to understand for beginners !!! I never find anyone else who talks about the class that clear.",True
+@wonderboy5198,2016-11-02T22:04:14Z,1,print(help(...))  returns None... all you have to do just type help(...) and it will print.,True
+@SapnaSaini3,2016-10-28T05:57:19Z,0,Helpful videos ..,True
+@scorpp149,2016-10-22T13:14:23Z,907,omg...it's like you are ansewring our questions before we even ask them..brilliant thank you very much,True
+@adrianjason13,2016-10-08T02:15:41Z,0,Hi Corey! I printed the help function and everything was there except for the Method resolution order. I 'm currently using Python 2. Wonder why is that?,True
+@Colstonewall,2016-10-05T06:06:04Z,0,"MRO & Super by 'the' expert, Hettinger. . .https://www.youtube.com/watch?v=asrMKBVHtSw",True
+@Colstonewall,2016-09-30T06:24:15Z,0,"I've gone over countless Python (and other) tutorials, and you're definitely the best teacher or at least in the top 2. This (video) is nothing new to me, but sometimes I go back and watch tuts just for a refresher or to see if I like the teacher. You make it easy to grasp, and in an exciting way.  I hope you continue making tutorials, Corey, cause you're so damn good at it. Thanx again.",True
+@karennascimento6544,2016-09-28T15:56:48Z,0,"Excellent series of videos covering classes, what they are for and how to use them. Very comprehensive in the way you build up from simple to more complex topics.",True
+@walkingowl6810,2016-09-27T14:06:58Z,0,Thank you so much! Would definitely donate some money back to you when I get a job as a Python programmer. Thanks!,True
+@jwolf2759,2016-09-22T04:24:39Z,52,"Definitely one of the best explanations of inheritance I've seen. This whole series has been great... I've been writing scripts and small procedural programs for years, but have only recently started using classes and sub-classes. I wish this series had been around when I first started trying to learn about class years ago.",True
+@julianmontesdeoca9734,2016-09-16T04:00:44Z,0,"Hey Corey, thanks for the amazing content, im trying to create Employee, Manager and Developer classes in different files, using ""from employee import Employee"", if i hover the mouse over developer in the manager file it shows dev's attributes but when i debug it says Developer is not defined, i hope i explained myself so you can give me a hint, thanks!",True
+@D3bilChild,2016-09-13T15:13:52Z,0,"Hi Corey! Loving your tutorials, have been recommending them to all the people interested in Python! Keep up the good work!  I have a question for which I couldn't find an answer. I am having trouble building my code when trying to use super in my child class. If i go with Employee.__init__(self, first, last, pay) it works. When I use super i get an error saying 'super takes at least 1 argument 0 given'. I am using python 2.7 and i found a SO post saying that super needs arguments passed in python 2.7, i.e super(Developer, self).__init__(first, last, pay) but it's not working.  Any thoughts on this? Thanks",True
+@umanagaswamy1180,2016-09-04T12:34:09Z,2,"Corey, this is one of the best tutorials I have seen on inheritance! Thanks so much for a concise explanation. I have been developing OOP for a few years now and I learned a ton of stuff watching your videos.  For using super in python 2.7, I had to modify the code a little bit as follows:   class Employee(object):     ... class Manager(Employee):     raise_amount = 1.10      def __init__(self, first, last, pay, employees=None):          super(self.__class__, self).__init__(first, last, pay) # <----- this line in particular         if employees is None:             self.employees = []         else:             self.employees = employees  I didn't realize that we cannot use Markdown in youtube comments!",True
+@MohammadrezaMemarian,2016-09-01T15:10:20Z,0,Corey Why is it a bad idea to pass mutable vars to functions? I dying to know :),True
+@MorganFreemanIsLife,2016-08-15T11:27:18Z,0,Clear concise examples with excellent clarification. Definitely liking and subscribing for more. Thank you very much.,True
+@adrianwest98,2016-08-11T14:42:45Z,1,"Why did you add the brackets [] around the employee name when creating the mgr_1 instance, but when you called the mgr_1.add_emp method, you passed the employee instance without the brackets?  mgr1 = Manager('Sue','Smith',200000,[emp1]) mgr1.add_emp(emp2)",True
+@LookNumber9,2016-08-09T18:18:25Z,0,I had to make a small change in python 3:   self.pay = int(self.pay) * self.raise_amt,True
+@ryanseideman6812,2016-08-07T16:27:35Z,0,number 5 please!,True
+@ashishverma-mj1kl,2016-08-04T11:45:07Z,0,3:41 every class in python *3* inherits from base object.,True
+@arunsaivemula1300,2016-07-31T19:31:35Z,57,u r really  cool man ...! from my side i request u  to make tutorial series on django package...thanq...in advance,True
+@1harru,2016-07-30T17:35:31Z,0,Wow.. Yet another great video..  I guess It's pretty hard to find any of your tutorials disappointing.. Thanks a lot for everything..,True
+@sergey4879,2016-07-26T14:30:54Z,0,"Hi Corey, Thanks for the another great tutorial.! It would be great to get some video on Multiple Inheritance and Composition. Thanks in advance!",True

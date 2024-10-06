@@ -1,0 +1,85 @@
+author,updated_at,like_count,text,public
+@pnachtwey,2024-05-19T23:28:59Z,0,"All this works fine in theory.  Reality is a bitch.  Right now, I am trying GD with momentum to find the parameter that best fit this equation ""dy2dt = (-(_t0+_t1)*y[1]-y[0]+_k*_u+_c)/(_t0*_t1)"" where k is a gain, t0 and t1 are time constants.  u is a control signal and c is an offset or ambient temperature.  It is not a simple two-dimensional problem.  There are five only five. Yes, the path bounces back and forth.  The derivative for each parameter seems to go positive and then negative.  The problem is finding filter coefficients.  I am very familiar with filters.   For my problem a simple line search seems to work the best.   If going in direction (v0,v1,v2,v3,v4) is good then try n*(v0,v1,v2,v3,v4) until the MSE or SSE isn't decreasing anymore.  About the video.  I could easily take my python program and copy it to jupyter lab.  This way I won't waste time writing on a white board and I could show how changing the momentum number affects the search.   I would start with something simple like a x^2+y2 cone.  Then use the Rosenbrock which is two dimensional but hard for the solvers.   Then I would use my problem with is real data and one would see that in reality things don't work as well the theory claims.",True
+@swapnilkushwaha5772,2024-03-11T13:54:55Z,0,Utmost respect sir..... looking for this theory and the way you explained it is just great,True
+@sagessevaldesdongmovoufo3101,2024-02-09T08:05:54Z,0,very nice video thanks,True
+@sriramvaidyanathan5094,2023-11-17T06:21:38Z,0,"Any suggestion for books for practical approach to deep learning , NLP , generative AI's mainly looking at coding for reference for coding after I complete this playlist and I also require it please suggest some easily understandable and practicable books",True
+@HarshPatel-iy5qe,2023-10-25T17:09:31Z,0,"how batch get created, what we consider?",True
+@sametozenc,2023-09-23T14:33:50Z,0,Better then andrew ng. Thanks,True
+@yessinekhanfir4157,2023-05-30T23:57:35Z,0,"good job. you got one part wrong tho, 0.5^2 = 0.025 not 0.25",True
+@moudhafferbouallegui,2023-05-30T14:23:03Z,0,neat video!,True
+@ashkraze,2023-01-29T17:09:17Z,0,last me basad machadi bhai..,True
+@suvratshukla5943,2022-12-20T14:24:53Z,0,so much advertisement 😔😔😔,True
+@Matias-eh2pn,2022-12-16T15:11:54Z,0,Nice video. Very intuitive.,True
+@eliashossain4327,2022-09-20T14:22:27Z,0,"Krish, can you write a book on Deep Learning? You are the best",True
+@kushh7550,2022-08-18T12:00:25Z,0,Thanks a lot sir!,True
+@melodytune5619,2022-07-15T14:42:53Z,0,Thank you for explaining SGD+Momentum. I have a much more intuitive understanding of the method now.,True
+@blackyogurt,2022-07-14T15:33:58Z,0,Thank you lovely guy !,True
+@user-lz2kz5kc4t,2022-06-08T03:45:22Z,0,better than Andrew NG on this topic,True
+@rishabhkumar-qs3jb,2022-05-28T07:07:27Z,0,"Awesome videos:), I was always confuse with the momentum concept in the optimizer, now I am understanding it  crystal and clear.",True
+@seanmcgowan9154,2022-05-11T19:49:36Z,0,"Hi Krish. I am wondering whether you might be open to tutoring me in building and deploying ML models with Pytorch. Or, if you know anyone that might be interested. I have a background in basic Data science and basic Pytorch. Compensated of course :)",True
+@wilsvenleong96,2022-02-20T07:47:24Z,0,the subscript notation in the formula at the end probably isn't written correctly,True
+@aniruddhapal1997,2021-08-31T16:36:59Z,0,"Excellent Lecture, Krish.....",True
+@karthickd537,2021-08-17T16:20:11Z,0,i didnt understand anything i nthis.. it is too high level. is that i need to learn anything else before this video. i dnt know from whr the formula comes gamma vt,True
+@fpl8648,2021-08-14T21:50:57Z,0,Thank you very much!!! very helpful,True
+@MohandAlbaz,2021-06-25T05:27:42Z,0,"At 10:30, why the learning rate is not multiplied by the term \gamma V_t?",True
+@ItachiUchiha-fo9zg,2021-06-11T06:44:33Z,0,at 4:20 the points are supposed to be on the curve or not?,True
+@louerleseigneur4532,2021-05-13T21:15:03Z,0,Thanks Krish,True
+@Artista1010,2021-03-29T15:21:40Z,2,"Continue sir,  I'm understanding all this theory....... This is awesome  Thank you sir for this free educational video, this help mean a lot to us...  Keep continuing....  And I'm click ads so that you can get money in rewards.... 🙏",True
+@nikhil7129,2021-02-09T11:00:20Z,0,u didn't told what exactly is gama,True
+@richatiwari9922,2021-02-08T10:35:37Z,0,This videos are really helpful to understand basic of deep learning. keep going sir.    and    where i can find practical implementation??? I'm doing 1 project on deep learning from where can i start my coding? if you can suggest me something that would of great help.,True
+@Want_to_escape,2021-02-07T06:24:38Z,23,"Krish  , you are doing really a great job. Even though I had completed my MSc. in Data Science and have some work experience, I am learning so much more from your tutorials. Lot of love. From Saudi Arabia 😃",True
+@foxfinance9362,2021-01-30T21:37:46Z,0,what about nesterov momentum? is it simillar to the moving average concept?,True
+@doyugen465,2021-01-25T07:49:28Z,0,"how do we exponentiate the gamma value according to all previous partial derivatives when we are in current loop to calculate  Vt-1? would this not add alot of work to the computation if we have even just 100partial derivatives?  so in my head the pseudo code is looking like: vt-1 = dl/dwn + (for( K = 1, while K < num iterations, K++ ) Summation of : gamma(power of K) *  dl/dwn-K).  so we would need to store a gradient vector of all the previous partial derivatives for each neuron. which probably means we have to do this with mini batches otherwise we would end of with vectors of size > 1000's.  Is this correct?",True
+@ahasanhabibsajeeb1979,2021-01-25T02:01:57Z,0,You have made it complicated - Mini batch SGD or SGD,True
+@sukumarroychowdhury4122,2021-01-09T19:16:27Z,2,"I just love you, Krish. No need to search the Web, just Krish Naik is there to clear all the ideas. I like your approach of teaching theory first and then practical. Doing practical without clearing theory is useless. Thank you.",True
+@kaviarasu.thuraiarasu89,2021-01-08T02:08:30Z,1,"Hi Krish, Do we want to find global minima for each batch size of data?",True
+@aksadhamirani7868,2021-01-04T02:14:49Z,0,try in 1.25 speed,True
+@sml9360,2020-11-27T16:54:15Z,1,"When you say noise, it will be more clear if you provide the explanation about how we get the noise if we select 100 or 200 records for MBG. In General please don't miss the explanations to those key points.",True
+@prafulbs7216,2020-11-04T14:08:28Z,1,Guy's help me. I am confused about Exponential Moving Avg. In the equation is it --> (beta + Beta* square)  or (Beta +( beta-1)),True
+@shahrukhsharif9382,2020-11-03T03:45:14Z,21,"if you confuse at 11:30 in SGD Momentum Equation, I will try to write again all equations. Weight updated Formula w2 = w1 -  (learning_rate * dl/dw1)  define a new variable g1 = dl/dw1               and v1 = learning_rate* g1  so you can write your Weight updated Formula Again w2 = w1 - v1  Again come to exponential moving Average Part v1  =  learning_rate* g1 v2 =  gamma* v1 +  (learning_rate* g2) v_n =  gamma* v_n-1 +  (learning_rate* gn)  So final Equation will be w_n = w_n-1 - v_n  Case1. If gamma value is 0 then w_n = w_n-1 - learning_rate* gn  case 2. if gamma value is not 0 w_n = w_n-1 - v_n = w_n-1 - (gamma* v_n-1 +  (learning_rate* gn))",True
+@Dan-uf2vh,2020-11-01T08:04:37Z,0,"I do not yet understand how the gamma connects when using a batch selection of rewards / outputs, there is no way to give an order and all of them have the same gamma applied",True
+@bibekgupta4134,2020-10-25T13:01:28Z,0,what was  that plot name,True
+@raminehlopezyazdani6603,2020-10-23T03:59:28Z,0,You are amazing.  Please do not stop making videos.,True
+@rezarawassizadeh4601,2020-09-12T15:37:27Z,0,"Thank you for the good explanation, I think the moving average is not the correct term here and it is better to use a weighted average.",True
+@vishalgupta3175,2020-08-24T10:01:41Z,0,"Good sir, you are brilliant",True
+@rachitsonthalia6747,2020-08-22T13:31:27Z,0,really helpful,True
+@anandhasrivi,2020-08-13T05:15:33Z,0,Another reason for using mometum is to jump out of local minimum if we are not using batch normalisation. This is something not covered here,True
+@gowthamprabhu122,2020-07-23T14:11:03Z,1,When you say time interval does it refer to a epoch with a mini batch?  Also noise as in noise created by varying loss values?,True
+@vgaurav3011,2020-07-05T18:27:57Z,1,Loved this different take on SGD,True
+@robinredhu1995,2020-06-16T07:43:00Z,1,So can we say that reduction in noise will depend on value of gamma. Lesser the value of gamma more will be the reduction in noise??,True
+@adityachandra2462,2020-06-11T21:10:16Z,3,"SGD with momentum, in the last part at 11:30 min it should be V(t+1) coz we are predicting for future value and hence V(t) will be the recent known value.",True
+@dharmatejasingampalli6480,2020-06-09T05:00:38Z,0,Krish in Mini SGD for every one batch weight will get updated like considering 100 data points after this 100 data points weight will be updated or what i was confused with it....,True
+@mangaenfrancais934,2020-06-05T20:18:11Z,0,Good explanation,True
+@LiangyueLi,2020-06-01T17:40:52Z,0,well explained.,True
+@strippingdatascience9168,2020-06-01T08:40:28Z,1,not sure of oscillation would have along the surface. It should be both the sides of minima,True
+@siddharthachatterjee9959,2020-05-31T11:19:19Z,1,The contour plot on the first screen. Is it L(w)-vs-w ? Should it not be w1-vs-w2 (or b) and L(w) should be perpendicular to the screen ?,True
+@gabriellakorchmaros4165,2020-05-29T10:17:27Z,1,so cristal clear!! Good job,True
+@martijnbos9873,2020-05-26T11:55:27Z,1,I thought that momentum was used to prevent converging in a local minimum. I wasn't aware that it also helped with noise reduction for SGD. It does both right?,True
+@allenalex4861,2020-05-25T04:16:03Z,17,You're  doing really great. It's really good that you're focusing on the theory part and making it crisp clear for every one.,True
+@sudeepnellur,2020-05-03T13:42:52Z,1,Do we avoid learning rate from weight updation equation?,True
+@sandipansarkar9211,2020-04-17T19:35:17Z,1,That was a great video.Hope my understanding continues till the end.Only need to know one thing.You don't have to remember all the things .Just know what is going on. THat's all.Thanks,True
+@bharathamma7279,2020-04-10T04:50:10Z,0,best tutorial. small issue with your camera. unnecessary camera zoom In and zoom out causing eye strain. Thank you for the wonderful lectures.,True
+@Adinasa2,2020-03-31T03:39:26Z,0,Why the value of gamma is between 0 and 1,True
+@sumitkumarsah8782,2020-03-27T02:07:18Z,1,Sir is this 34 videos completes deep learning or are you going to upload more videos?,True
+@gustavorocha6592,2020-03-25T04:14:56Z,0,Thanks!! Great video,True
+@ektamarwaha5941,2020-03-22T18:52:51Z,1,GREAT WORK BY YOU SIR!,True
+@dharmendrabhojwani,2020-02-02T15:11:34Z,2,10:54 time... Not sure how the equation is formed....,True
+@alikalair7031,2020-01-14T07:54:56Z,1,Awesome Work Sir! your sequence of topics is very well organized,True
+@darshmehta3476,2020-01-02T10:49:29Z,20,"Shouldn""t the last equation be V(t) instead of V(t-1)",True
+@nitayg1326,2019-12-28T14:11:26Z,0,"Concept of momentum not very clear though formula etc is understood! Why ""momentum""",True
+@avikasliwal4283,2019-12-21T07:38:24Z,0,Nicely Explained.,True
+@saurabhmukherjee3801,2019-11-22T12:23:56Z,0,"Sir, Why we are multiplying the points with Gamma?",True
+@quranicscience9631,2019-11-21T16:04:54Z,0,last part of this video is little difficult,True
+@quranicscience9631,2019-11-21T15:43:11Z,0,very good,True
+@brindhasenthilkumar7871,2019-11-19T08:34:04Z,2,"Yes, we need to understand the basic concepts and then we shall apply it practically, well organized lecture topics. Great keep going sir.",True
+@techspoc7442,2019-11-12T11:03:03Z,1,Could you please explain about Adam optimizer ?????,True
+@gopalakrishna9510,2019-11-11T11:08:43Z,1,i am also waiting for practical implementation but i know sir you are trying to give indepth knowldge .....,True
+@pravinkaushikbsp,2019-11-01T05:15:12Z,1,"Understanding concept is very important, When i started deep learning, I was not able to understand any terminology . After watching your tutorial, I am able to correlate everything.. Thanks you so much..",True
+@k_anu7,2019-10-19T06:27:01Z,0,"After being impressed by 13 videos, I got unimpressed by this as here one can clearly see that you yourself are not clear in depth. No offence",True
+@chikhang5122,2019-10-11T16:33:01Z,0,So helpful for me,True
+@sunnysavita9071,2019-10-09T10:23:15Z,0,sir please make on video time series analysis and ARIMA model,True
+@user-pj6su5lk6o,2019-09-14T16:57:34Z,1,Hi sir I have some doubts what is the failure mechanism in existing systems in deep learning network optimization,True
+@maYYidtS,2019-09-11T07:34:27Z,1,excellent bro,True
+@ranjithmadhavan,2019-08-18T17:26:48Z,5,"Very well explained. Not seen any other tutorial with some much emphasis on foundation. Btw, your video is going out of focus at times, may be your camera is set on auto focus.",True
+@abhishekkaushik9154,2019-07-30T14:14:35Z,11,continue your work. The theoretical concept is very important. The practical implementations won't take much time.,True
+@abhishekkaushik9154,2019-07-30T14:12:13Z,2,Awesome work dude. Really Like your videos..keep going,True

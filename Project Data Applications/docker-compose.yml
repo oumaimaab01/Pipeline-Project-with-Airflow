@@ -1,0 +1,151 @@
+
+version: "3"    # Version de Docker Compose utilisée
+
+services:
+  zookeeper:
+    image: confluentinc/cp-zookeeper:5.4.0   # Image Docker pour Zookeeper
+    hostname: zookeeper  # Nom d'hôte du conteneur
+    container_name: zookeeper  # Nom du conteneur
+    ports:
+      - "2181:2181"  # Mapping de port pour l'accès externe
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181   # Port client de Zookeeper
+      ZOOKEEPER_TICK_TIME: 2000   # Durée d'un battement d'horloge de Zookeeper
+    networks:
+        - confluent
+  broker:
+    image: confluentinc/cp-server:5.4.0 # Image Docker pour le courtier Kafka
+    hostname: broker   # Nom d'hôte du conteneur
+    container_name: broker   # Nom du conteneur
+    depends_on:
+      - zookeeper    # Dépendance du service sur Zookeeper
+    ports:
+      - "9092:9092"  # Mapping de port pour l'accès externe
+    environment:
+      KAFKA_BROKER_ID: 1   # ID unique du courtier Kafka
+      KAFKA_ZOOKEEPER_CONNECT: "zookeeper:2181"   # Connexion à Zookeeper
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT  # Protocoles de sécurité
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://broker:29092,PLAINTEXT_HOST://localhost:9092  # Listeners Kafka annoncés
+      KAFKA_METRIC_REPORTERS: io.confluent.metrics.reporter.ConfluentMetricsReporter  # Rapporteurs de métriques Kafka
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1  # Facteur de réplication pour le sujet des décalages Kafka
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0  # Délai initial de rééquilibrage des groupes Kafka
+      KAFKA_CONFLUENT_LICENSE_TOPIC_REPLICATION_FACTOR: 1  # Facteur de réplication pour le sujet de licence Confluent
+      CONFLUENT_METRICS_REPORTER_BOOTSTRAP_SERVERS: broker:29092   # Serveurs d'amorçage des rapporteurs de métriques Confluent
+      CONFLUENT_METRICS_REPORTER_ZOOKEEPER_CONNECT: zookeeper:2181 # Connexion à Zookeeper pour les rapporteurs de métriques Confluent
+      CONFLUENT_METRICS_REPORTER_TOPIC_REPLICAS: 1  # Réplicas pour les sujets de rapporteurs de métriques Confluent
+      CONFLUENT_METRICS_ENABLE: "true"  # Activation des métriques Confluent
+      CONFLUENT_SUPPORT_CUSTOMER_ID: "anonymous"  # ID client pour le support Confluent
+    networks:
+        - confluent
+  schema-registry:
+    image: confluentinc/cp-schema-registry:5.4.0  # Image Docker pour le registre de schémas Kafka
+    hostname: schema-registry  # Nom d'hôte du conteneur
+    container_name: schema-registry   # Nom du conteneur
+    depends_on:
+      - zookeeper  # Dépendance du service sur Zookeeper
+      - broker  # Dépendance du service sur le courtier Kafka
+    ports:
+      - "8081:8081"  # Mapping de port pour l'accès externe
+    environment:
+      SCHEMA_REGISTRY_HOST_NAME: schema-registry   # Nom d'hôte du registre de schémas
+      SCHEMA_REGISTRY_KAFKASTORE_CONNECTION_URL: "zookeeper:2181"  # Connexion à Zookeeper pour le registre de schémas
+    networks:
+        - confluent
+#confluentinc/cp-enterprise-control-center:5.4.0
+  control-center:
+
+    image: confluentinc/cp-enterprise-control-center:5.4.0   # Image Docker pour le centre de contrôle Confluent
+    hostname: control-center  # Nom d'hôte du conteneur
+    container_name: control-center  # Nom du conteneur
+    depends_on:
+      - zookeeper  # Dépendance du service sur Zookeeper
+      - broker  # Dépendance du service sur le courtier Kafka
+      - schema-registry  # Dépendance du service sur le registre de schémas Kafka
+    ports:
+      - "9021:9021"  # Mapping de port pour l'accès externe
+    environment:
+      CONTROL_CENTER_BOOTSTRAP_SERVERS: 'broker:29092'    # Serveurs d'amorçage pour le centre de contrôle
+      CONTROL_CENTER_ZOOKEEPER_CONNECT: 'zookeeper:2181'  # Connexion à Zookeeper pour le centre de contrôle
+      CONTROL_CENTER_SCHEMA_REGISTRY_URL: "http://schema-registry:8081"  # URL du registre de schémas pour le centre de contrôle
+      CONTROL_CENTER_REPLICATION_FACTOR: 1   # Facteur de réplication pour le centre de contrôle
+      CONTROL_CENTER_INTERNAL_TOPICS_PARTITIONS: 1   # Partitions pour les sujets internes du centre de contrôle
+      CONTROL_CENTER_MONITORING_INTERCEPTOR_TOPIC_PARTITIONS: 1  # Partitions pour les sujets de surveillance du centre de contrôle
+      CONFLUENT_METRICS_TOPIC_REPLICATION: 1  # Réplication pour les sujets de métriques Confluent
+      PORT: 9021   # Port pour le centre de contrôle
+    networks:
+        - confluent
+  webserver:
+    image: apache/airflow:2.9.0
+    command: webserver
+    entrypoint: ['/opt/airflow/script/entrypoint.sh']
+    depends_on:
+      - postgres
+    environment:
+      - LOAD_EX=n
+      - EXECUTOR=Sequential
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      - AIRFLOW_WEBSERVER_SECRET_KEY=this_is_a_very_secured_key
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./script/entrypoint.sh:/opt/airflow/script/entrypoint.sh
+      - ./requirements.txt:/opt/airflow/requirements.txt
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ['CMD-SHELL', "[ -f /opt/airflow/airflow-webserver.pid ]"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+    networks:
+      - confluent 
+  scheduler:
+    image: apache/airflow:2.9.0
+    depends_on:
+      webserver:
+        condition: service_healthy
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./script/entrypoint.sh:/opt/airflow/script/entrypoint.sh
+      - ./requirements.txt:/opt/airflow/requirements.txt
+    environment:
+      - LOAD_EX=n
+      - EXECUTOR=Sequential
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      - AIRFLOW_WEBSERVER_SECRET_KEY=this_is_a_very_secured_key
+    command: bash -c "pip install -r ./requirements.txt && airflow db upgrade && airflow scheduler"
+    networks:
+      - confluent
+  postgres:
+    image: postgres:14.0
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+    networks:
+      - confluent
+  nifi_docker:
+    image: apache/nifi:latest
+    container_name: nifi_docker
+    ports:
+      - 8181:8181
+    environment:
+      - NIFI_WEB_HTTP_PORT=8181
+    volumes:
+      - ./nifi/conf:/opt/nifi/nifi-current/conf
+            # - ./nifi/content:/opt/nifi/nifi-current/content_repository
+            # - ./nifi/db:/opt/nifi/nifi-current/database_repository
+            # - ./nifi/flowfile:/opt/nifi/nifi-current/flowfile_repository
+            # - ./nifi/state:/opt/nifi/nifi-current/state
+            # - ./nifi/logs:/opt/nifi/nifi-current/logs
+
+
+networks:
+  confluent:

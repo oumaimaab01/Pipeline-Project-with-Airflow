@@ -1,0 +1,34 @@
+author,updated_at,like_count,text,public
+@shivangchaturvedi237,2024-05-31T15:19:28Z,0,"Amazing Amazing Amazing!!! Thank you sir. You are a life save.  Additionally if someone gets an error @ 32:01 ""'seaborn' is not a valid package style"", run ""print(plt.style.available)"" to check the available styles and choose maybe something like ""seaborn-v0_8"" from the list that shows up.",True
+@user-gm3dz5ul1q,2024-05-08T02:13:56Z,0,"hello krish sir, i have a doubt after finding the more than 85% correlated features, so what's the reason behind why we drop that feature i am so confuse why should we have to do that here, is anyone here who can tell me pls",True
+@SreeramPeela,2024-05-01T04:39:01Z,0,"AT 47.12, you have to create plots using dftemp, not the full df. Both plots shown are same",True
+@aryankumar-nz4ep,2024-04-23T23:26:56Z,0,is there a next part after this??  @krishnaik06,True
+@TheGuts09,2024-04-21T10:27:01Z,0,data for countplot in fire analysis should be dftemp not df,True
+@abc-ym4zs,2024-04-11T11:25:59Z,0,Very biring sir how to kearn this nor getting interest,True
+@pro_mechanical3360,2024-03-25T12:47:07Z,0,"Hey, just an observation and please correct me if I am wrong,  at timestamp 46:49 shouldn't data be passed as dftemp instead of df while creating count plots for fire and no-fire.",True
+@LearnCSPython,2024-03-22T13:02:48Z,0,What do we get by determining outliers? Are we not gonna deal with it? any while regional analyis you just pass df in both cases not dftemp so both the reason so exact same identical graph?? wtf,True
+@mrinsss421,2023-11-11T12:11:17Z,0,Sir still waiting for the next video<3,True
+@samrocks1987,2023-10-21T20:36:50Z,1,"Hi Krish - Thanks for sharing this knowledge with world. You are amazing teacher . I am learning a lot.  I found one glitch  in ""Monthly Fire Analysis ""  you code=> ""sns.countplot(x='month',hue='Classes',data=df)"" But it should be - ""sns.countplot(x='month',hue='Classes',data=dftemp)"". Data should be pointing to ""dftemp"" not ""df""",True
+@safaruzzamanshovo,2023-10-21T12:41:15Z,0,bhaiya please upload the next video and  complete the series . Egarly waiting for next one .,True
+@deepsarkar2003,2023-10-09T15:21:23Z,1,where can we ffind the code for this?  is it in the github link?,True
+@vaishalichandnani2517,2023-10-07T07:40:27Z,0,Hey Krish.... please upload next video as early as possible,True
+@vasanths1344,2023-10-02T14:24:05Z,0,"sir,i have an doubt why you create the region column sir, what is the need for the this column",True
+@Aitechtutor,2023-09-30T14:04:19Z,0,https://www.youtube.com/channel/UC7g03IxasBZiE_K6ILM11vA,True
+@khushalraut1451,2023-09-21T18:44:00Z,1,"while plotting the countplot you take data as df instead of dftemp, can you please explain this?",True
+@HafeezHusainBello,2023-09-20T00:17:25Z,1,"Most likely the most helpful ML Data Prep - Hyperparameter tuning video I've ever watched. I look forward to ensemble methods like random forest, ANNs also 👍",True
+@dr.walidsoula,2023-09-19T15:39:52Z,0,"https://youtu.be/VNfalYYduD4?t=2691 I think you mean, data=dftemp  for Bejaia and data=dftemp2 for Sidi Bel-abbe   # You can show both visualizations at the same time fig, axes = plt.subplots(1, 2, figsize=(12, 5)) dftemp = df.loc[df[""Region""]==0]  sns.countplot(x='month',hue='Classes',data=dftemp,ax=axes[0]) axes[0].set_xlabel(""Months"") axes[0].set_ylabel('Number of Fire') axes[0].set_title(""Fire analysis in Bejaia Region"")  dftemp2 = df.loc[df[""Region""]==1]  sns.countplot(x='month',hue='Classes',data=dftemp2,ax=axes[1]) axes[1].set_xlabel(""Months"") axes[1].set_ylabel('Number of Fire') axes[1].set_title(""Fire analysis in Sidi Bel-abbes Region"")  plt.tight_layout() plt.show()",True
+@sahil5124,2023-09-19T04:55:05Z,0,"thank you so much, for properly organizing the project - Data Cleaning, EDA, Feature Er, and Model Training. More projects in this manner",True
+@zouhir2010,2023-09-17T09:52:54Z,0,الجزائر,True
+@madhukarjntu,2023-09-17T06:46:43Z,1,Thank you sir more  helpful  video....,True
+@Mangalamdhana,2023-09-16T18:04:45Z,1,"Thank you for this kind of videos which are very helpful, but there is some missing information in the whole journey  that is the how to approach and understand the bussiness problem while we are dealing with the eda, i think that is the part of missing information in the channel remaining very thing is good , from python to ml and dl and nlp very thing is good  finally thank you so much for this kind of videos ",True
+@AK-bx7hq,2023-09-16T16:33:36Z,0,hi krish please make video on azure cognitive search and azure chat openai,True
+@nomaanrizvi6561,2023-09-16T16:04:36Z,0,Sir..ridge and lasso code implementation 🥲..,True
+@DM-py7pj,2023-09-16T13:25:15Z,0,where can I find days 1-9 please? Is there a playlist link,True
+@mehulgoyal5-yeariddcivilen832,2023-09-16T13:14:25Z,0,in the countplot you plot the whole df not the dftemp,True
+@saimanish5390,2023-09-16T11:13:51Z,0,"Sir, Once Take a dataset containing More number of columns and there perform the Feature Engineering",True
+@mushinart,2023-09-16T11:03:44Z,3,"Mr naik sir , why didn't you get rid of the outliers and fix the skewness in this example? .. didn't we need it ?",True
+@ManiRatnam292,2023-09-16T09:46:05Z,0,😂😂😂😂😂😂😂😂,True
+@Tech_Enthusiasts_Shubham,2023-09-16T08:44:25Z,0,thanks a lot for providing such valuable and premium content for us keep sharing more and more end to end ml project like this it is really helpful for everyone,True
+@mrigankaghosh1177,2023-09-16T08:10:20Z,0,pls make a video on live --- on going  competition dataset of kaggle or zindi or any other..........,True
+@flyeagle320,2023-09-16T07:46:33Z,9,"Problem with data science job is they only expect engineering, statistics people to apply . It's very rare they take other guys for this job",True
+@user-jc3lw9wj8l,2023-09-16T07:31:51Z,0,Thank you sir for this video #first comment,True

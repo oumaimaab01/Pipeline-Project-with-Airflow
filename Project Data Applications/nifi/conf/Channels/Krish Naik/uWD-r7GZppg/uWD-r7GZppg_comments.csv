@@ -1,0 +1,55 @@
+author,updated_at,like_count,text,public
+@pouriaforouzesh5349,2023-02-21T20:55:15Z,0,🙏,True
+@alihaiderabdi9939,2022-04-20T11:36:12Z,0,more advanced feature engineering videos sir...great explanation!!!!!,True
+@tusharnautiyal8998,2022-04-17T12:11:50Z,0,"val = list(data['weekday'].unique()) dicts = {} keys = val[::-1] ran = len(keys) i = 0 while i < ran:             dicts[keys[i]] = i+1             i= i+1 #to Complete above assignment using loop",True
+@tusharnautiyal8998,2022-04-17T11:20:35Z,1,he syntax you were trying to use data['Date'].dt.weekday_name is for PANDAS <= 0.22 use day_name() Remember this if you are watching this video to use this i got stuck so i thought it would be helpfull for others.,True
+@fatimak6440,2022-03-10T23:53:34Z,0,starts at 00:43 for those coming for the juice,True
+@karthiksundaram544,2022-02-08T02:37:13Z,0,Yeah,True
+@karthiksundaram544,2022-02-08T02:14:24Z,0,Yes,True
+@mohamedshathik8045,2022-01-03T16:42:11Z,0,"if we have regression problem our output will be continuos that time how to do the encodings(target guided,mean)?",True
+@shikhasharma4975,2021-12-12T15:53:20Z,0,Adult Dataset- http://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data,True
+@181_mdkalim7,2021-12-03T12:38:23Z,0,really Video is very helpful,True
+@Samurai-hf1un,2021-11-21T17:16:01Z,0,"how the weekday can be ordinal features...  we can't campare weekdays to each other ..  yes of course there is sequence but i think doing ordinal encoding on weekdays isn't good option , in this case our model will give more weight to the Sunday 🌞 as it's mapped with 7️⃣",True
+@neeth35,2021-11-18T07:34:57Z,0,"hats off, amazing content",True
+@sandipansarkar9211,2021-11-07T19:57:52Z,0,"In colab this command is not working which is  data['Day'].dt.weekday_name  It is giving me error as   AttributeError                            Traceback (most recent call last) <ipython-input-24-58b6b4785df2> in <module>() ----> 1 data['Day'].dt.weekday_name  AttributeError: 'DatetimeProperties' object has no attribute 'weekday_name'",True
+@sandipansarkar9211,2021-11-06T15:13:36Z,0,finished watching,True
+@nareshkatturi9012,2021-10-15T12:39:31Z,0,Thank you krish🙏,True
+@mohittomar2008,2021-09-24T12:54:51Z,0,"Hi krish, need to understand one thing. excel have 3 columns and if we perform one-hot encoding, X1 create 10 new columns, X2 create 9 new columns and X3 create 6 new columns. why? I thought all 3 will create 10 each new columns. Please help me to understand anyone.",True
+@zuescyrus,2021-08-15T09:35:53Z,0,"I am working on a project named Face mask detection supervised data.There has 2folders namely With mask and Without mask , Q)How to read all images from both folders and classify",True
+@ajaykushwaha-je6mw,2021-08-12T11:15:33Z,0,"Hi Krish, i have question. We have one more technique to impute high cardinality variable i.e. picking top 10 most frequent categories. So in such case can we either of them count or frequency encoding or one hot encoding of top categories ?",True
+@shibanarayansahoo1874,2021-06-25T17:23:11Z,0,Excellent,True
+@asawanted,2021-03-05T19:27:24Z,0,"I found this code snippet for quick dict comprehension for days of week.  import calendar >>> d=dict(enumerate(calendar.day_name)) >>> d",True
+@valkyriesh8334,2021-02-28T14:58:48Z,0,HI sir loved your videos and I am your student for a long time sir I have one doubt when we do target guided ordinal encoding on the train dataset it is fine but sir if we have a test dataset which is untouched and I want to do the same encoding because  While testing my model it is giving me shape mismatch error so can you help me with this..?,True
+@mayurpardeshi395,2021-01-20T08:18:58Z,0,after enoding we have to drop the previous feature or not ?? please help,True
+@SnehaSingh-ts7oi,2021-01-20T07:38:36Z,0,Why weekday is considered an ordinal category?,True
+@vanithan5477,2021-01-13T13:35:19Z,2,"Thank u, sir, can u post the video for the  feature selection method for unsupervised learning of categorical features",True
+@shubhamchoudhary5461,2021-01-09T20:42:02Z,0,"thank you sir !!!! for making available this  ""one stop platforms"" . and doing time  investment on rusted train like me...",True
+@ChiragSutariya,2020-12-05T17:20:41Z,0,"I'm confused, please guide me. can we use frequency encoding in both type of features (i.e. Nominal or Ordinal)? if yes then how it will affect to nominal type of feature. here you use frequency encoding for nominal type of feature(i.e. country name), I think after that this nominal feature is reacts like ordinal feature because, labels with higher frequency get higher weightage and lower frequency get lower weightage.",True
+@rishavdash1272,2020-11-05T16:21:19Z,26,"change ""data['weekday']=data['Day'].dt.weekday_name"" to ""data['weekday']=data['Day'].dt.day_name()"" if facing *ERROR*",True
+@susmitvengurlekar,2020-10-29T07:35:23Z,0,"Count encoding:  If the frequencies are not close together, it will produce numerical column which you can't use. Like 20000, 14000, 3000, 2000, 250.  So again standardize ?",True
+@nothing8919,2020-10-12T10:52:16Z,1,"Thank you for your efforts your time sharing your knowledge, thank you",True
+@amitKumar_11,2020-10-03T07:34:24Z,4,dt.weekday_name is now deprecated and instead of that we can use dt.day_name(),True
+@adityarajchaudhari5783,2020-09-08T17:13:42Z,2,"instead of hardcoding the dictionary we can use this:-  import calendar dictionary=dict(zip(calendar.day_name,range(1,8)))",True
+@anurag040891,2020-08-30T06:26:46Z,1,"Sir you have explained the concepts in very effective way , but i have one question, If you we do ordinal encoding with respect of target variable. What about the test data .. We will not have target variable. How to deal with this scenario.",True
+@vishweshwarbhat5746,2020-08-30T03:14:00Z,0,feature extraction videos,True
+@vishweshwarbhat5746,2020-08-30T03:13:31Z,0,sir make videos of feature selection,True
+@SpellboundHaven,2020-08-23T23:11:23Z,0,"Guys, Please do a video on the Story of a person without a degree become Data Scientist. I don't care whether it is a Successful one or not.",True
+@sudharsanb9391,2020-08-14T12:10:44Z,0,we can use label encoding with sklearn library,True
+@datascienceexpert6524,2020-08-10T18:29:47Z,1,Great work krish...keep rocking like this,True
+@datascienceexpert6524,2020-08-10T15:18:38Z,2,"whoever got this error, ""DatetimeProperties' object has no attribute 'weekday_name,"" use data['weekday'] = data['Day'].dt.strftime(""%A"") it will work",True
+@meghnasachdeva3174,2020-08-09T05:16:13Z,0,where can i find this train_set datasety...anyone please,True
+@245uday,2020-08-07T18:19:18Z,0,very useful session,True
+@vaishnavi4354,2020-08-05T08:23:43Z,2,You picked up Feature Engineering on the 7th heaven 😎😎A Big THANK YOU...🙇🙇🙇,True
+@VinothKumar-ee6pz,2020-07-30T03:14:36Z,0,"Friends,  What if we have a column (say ""Location"") which consists of more than 1000 categorical variables?? FYI, this column is an independent variable and one of the important parameter for predicting the label. Answer pls....  Thanks in advance",True
+@narasimhab2624,2020-07-26T04:34:16Z,1,Great sir!You have been doing a great work to give us good knowledge for many days..Thank you for giving us such great knowledge in all areas of AI.,True
+@sonamsharma8262,2020-07-23T10:32:52Z,1,"Thankyou Krish Sir for conducting these sessions, they are very helpful .",True
+@purvijha4289,2020-07-21T10:33:30Z,1,how to know which encoding is best suited where when we deal with data set for novice coder it is difficult too identify what to apply and which one is best,True
+@abhinavshukla5628,2020-07-20T01:27:24Z,11,He is a living legend.,True
+@pankajkumarbarman765,2020-07-18T04:05:08Z,0,Continue sir feature engineering,True
+@anandh9872,2020-07-17T18:17:42Z,28,"i AM TRUELY TELLING THIS SIR, HOW MUCH GOOD WORK YOU ARE DOING FOR THE PEOPLE WHO ARE IN NEED LIKE ME, EVEN PEOPLE CANNOT IMAGINE IT. THANK YOU SO SO SO MUCH FOR YOUR EFFORT, WHERE WE ALL WERE WHERE YOU BROUGHT US THROUGH YOUR CHANNEL, CANT SAY IN WORDS THANKS AGAIN SIR.",True
+@vaibhavshukla9777,2020-07-17T11:57:19Z,1,Thank you sir 🌟,True
+@harshmakwana8001,2020-07-17T05:28:55Z,0,"SIr,  Ubisoft is giving away a copy of the game ""Watch Dogs 2"" which is also a open world crime game like GTA 5 but you are a hacker in that game and you can hack pretty much every thing in your city: https://register.ubisoft.com/ubisoft-forward-reward/en-GB Here is the ink please download it before it goes away.",True
+@akashubale5199,2020-07-17T02:48:22Z,0,"Good Morning Krish, I have a request, Please try to put the links used in the Video in the ""Video Description"", this will help while watching the videos after the Live stream. as we cannot access the Stream chats after the stream is over.",True
+@Kanakapallianurag,2020-07-16T18:18:13Z,1,I new to Machine learning I love the way to teach may I know from which playlist I have to start . This helps alot people to  learn some basic to understand better live streaming,True
+@princehira949,2020-07-16T16:40:19Z,0,Sir plz check this issue that when I am handling imbalanced data it shows the attribute error of validating data so can u plz make a video on this,True
+@milangeorge7591,2020-07-16T16:02:18Z,0,Thanks for all the live videos sir,True

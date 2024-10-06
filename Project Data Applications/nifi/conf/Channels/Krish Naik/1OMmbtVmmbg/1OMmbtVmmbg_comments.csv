@@ -1,0 +1,36 @@
+author,updated_at,like_count,text,public
+@user-xn1ko1fo1j,2024-03-19T05:37:13Z,0,can we do this for indian languages?,True
+@amruthasankar3453,2023-06-28T01:32:40Z,0,Thankyou sir❤️🔥,True
+@shahperzia1121,2023-04-10T21:54:02Z,0,"""I have three visions for India.  In 3000 years of our history, people from allover the world have come and invaded us, captured our lands, conquered our minds. From Alexander onwards. The Greeks, the Portuguese, the British, the French, the Dutch, all of them came and looted us, took over what was ours. Yet we have not done this to any other nation. We have not conquered anyone. We have not grabbed their land, their culture, their history tried to enforce our way of life on them. Why? Because we respect the freedom of others.  That is why my first vision is that of FREEDOM.  I believe that India got its first vision of this in 1857, when we started the war of independence. It is this freedom that we must protect and nurture and built on. If we are not free, no one will respect us.  My second vision for India is DEVELOPMENT.  For fifty years we have been a developing nation. It is time we see ourselves as a developed nation. We are among top 5 nations of the world in terms of GDP. We have 10 percent growth rate in most areas. Our poverty levels are falling, our achievements are being globally recognized today. Yet we lack the self-confidence to see ourselves as a developed nation, self reliant and self assured. Isn't this right?  I have a third vision. The India must stand up to the world. Because I believe that unless India stands up to the world, no one will respect us. Only strength respects strength. We must be strong not only as a military power but also as an economic power. Both must go hand-in-hand.  My good fortune was to have work with three great minds. Dr Vikram Sarabhai of the Dept. of space, Professor Satish Dhawan, who succeeded him, and Dr.Brahm Prakash, father of nuclear material. I was lucky to have worked with all three of them closely and consider this the great opportunity of my life.  I see four milestones in my career""",True
+@MondayMotivations,2022-12-08T22:53:27Z,1,"Those who are watching in 2022. Use the below code...  from nltk.corpus import stopwords from nltk.stem import PorterStemmer stemmer = PorterStemmer()  word = [i.lower() for i in words]  for i in range(len(sentence)):     words = nltk.word_tokenize(sentence[i])     words = [stemmer.stem(word) for word in words if word not in set(stopwords.words(""english""))]     sentence[i] = "" "".join(words)",True
+@imposter5975,2022-07-10T07:18:45Z,0,😃 great,True
+@EntertainmentDoseByAkash,2022-06-05T07:13:20Z,0,https://youtu.be/EpB8pDIw5NQ  #nlp #naturallanguageprocessing  Learn NLP- Stemming and lemmatization with python.,True
+@indirajithkv7793,2022-05-11T15:21:12Z,0,❤,True
+@debatradas9268,2021-10-27T16:26:07Z,0,thank you very much,True
+@debatradas1597,2021-10-20T08:07:21Z,0,thanks,True
+@1050_harish,2021-09-01T02:56:30Z,0,The most helpful youtuber !!! Thanks for videos...,True
+@sudipabiswas894,2021-06-13T02:28:55Z,0,The best and granular explanation,True
+@gouravshaw6699,2021-05-01T12:39:23Z,0,"In List of stop words, I saw many words that shows negative feeling. Example: don't By Removing these words, will it not create problem in sentiment analysis?",True
+@KISHORKUMAR-by3ny,2021-01-30T18:13:09Z,2,"Thanks  for this great playlist,  One small correction, I think u used set() just to reduce the time complexity (search in O(logn)) while  checking the word in the stopwords list which are already unique.",True
+@anuragsingh-pt5cy,2021-01-19T21:01:11Z,0,I didn't got  one thing that u have paragraph size is 1. where as i have paragraph size is (no. of words) in a paragraph approx. 1187. where is the prob ? occuring,True
+@anupampurkait6066,2020-12-30T12:16:29Z,1,"len(stopwords.words('english')) and len(set(stopwords.words('english'))) returns same number. So, I think we need not have to use ""set"" here. Anyway, excellent video. liked it very much.",True
+@hamzanaeem4838,2020-12-19T08:31:02Z,0,"I understand the function of stemming but idk that what is the purpose of it , how it will be helpful in sentiment analysis by doing stemming",True
+@maxinteltech3321,2020-12-14T22:21:59Z,0,great job Krish. Thanks,True
+@subashniraula3739,2020-11-07T08:17:39Z,0,Do we really need to use set() function since  stopwords.words('english') always returns list of unique values ??,True
+@jugalsheth4458,2020-07-22T18:18:50Z,0,why have we used sentences[i] and not just sentences? i didnt understand that logic,True
+@SamsunNaher-gt1yt,2020-07-12T03:01:00Z,0,"Your all the video  is really  good.but i have face a problem. When I run this code in google colab, it is not run  successfully.",True
+@sandipansarkar9211,2020-06-11T20:41:06Z,0,Thanks Keish for the video,True
+@shavetaarya,2020-06-09T06:10:08Z,2,"Stop word list in English contains the words such as not, would not, shouldn't. Will removing these word not impact sentiment analysis?",True
+@dnakhawa,2020-05-28T20:06:51Z,3,"You have Great Data Science knowledge plus the way you teach complex things, which makes everything simple.",True
+@varungupta2727,2020-05-07T11:23:22Z,1,Can you please explain me why it is important to do stemming,True
+@charann4460,2020-05-07T05:57:08Z,0,What’s is the difference between porter stemmer and snowball stemmer ?,True
+@anuragchandnani8037,2020-05-03T10:56:40Z,0,"I dont know why but after i removed my stopwords, using the same code, i got senetences which do not have spacing between the words. I dont know where i might have gone wrong",True
+@maitreymishra8914,2020-02-26T20:45:45Z,1,Sir please teach us how to build very own chatbot using chatbot,True
+@PutuVentures,2020-01-29T00:46:09Z,28,"I guess you need to ""lower"" the words before removing the stopwords. Because in many cases ""I"" was not removed and it is a good practice to lower everything beforehand. Correct me, if I'm wrong.",True
+@ramakrishnatirumala5135,2019-11-21T12:34:16Z,0,not infected...it is inflected,True
+@mohammedfaisal6714,2019-11-16T19:18:51Z,0,Hello Thanks for the Videos It will be very helpful if you share those PPTs with us,True
+@bibhasgiri527,2019-09-08T16:05:13Z,2,"The list of videos are really helpful to understand NLP. Could you please advise any book, that may help me to understand more NLP.",True
+@gopposoppobyNaru,2019-09-05T10:19:00Z,0,"for i in range (len(sentences)):     words= nltk.word_tokenize(sentences[i])     for word in words:         if word not in set(stopwords.words('english')):              fuck=stemmer.stem(word)     sentences[i]=fuck         it shows different output from your's , why?",True
+@PinkFloydTheDarkSide,2019-07-08T15:57:29Z,4,What I like the most about your videos is the way you speak. Your voice is gentle and also the tone is humble and is very much like you want the viewer to really grasp the things you are talking about. Your explanations are simple and yet not so simple that it makes it boring. It is optimum. Greatly appreciated.,True
+@suhailhafizkhan9800,2019-03-13T16:24:59Z,2,You are the best.Please update,True
+@RajasthaniLadka,2019-01-02T15:18:32Z,1,Where is next video???,True

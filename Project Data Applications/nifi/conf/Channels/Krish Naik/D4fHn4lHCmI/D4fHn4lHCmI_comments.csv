@@ -1,0 +1,71 @@
+author,updated_at,like_count,text,public
+@user-vy3nd7wb1v,2024-03-19T05:17:14Z,0,"Amazing Job Sir, thanks",True
+@annazhu3340,2022-09-29T21:00:22Z,0,AMAZING library!  Really appreciate your tutorial!,True
+@balavivek123,2021-08-14T15:28:33Z,0,Does this library eats up the memory ? I have executed as you showed but the process is never ending :),True
+@jadhavnandunaik7870,2021-07-30T13:25:24Z,0,"Thank you so much, for sharing your knowledge with us Sir...",True
+@kirankhanna7829,2021-03-21T03:49:47Z,0,"How to remove Sweetviz logo from report. I am using following  sv.config_parser.read(""Override.ini"") show_logo = 0  Pls help",True
+@harish00784,2021-02-23T08:36:05Z,0,What if i have 5 lakh records? Can I still try it out with sweetviz,True
+@AI-in-Action952,2021-02-05T13:51:40Z,0,"Hi Krish , how to download the sweetviz out and render it as html in web app",True
+@subasgiri5364,2021-01-18T15:27:07Z,0,"I tried running it for a categorical target variable but it is showing an error. TARGET values can only be of NUMERICAL or BOOLEAN type for now. CATEGORICAL type was detected. so I think this will work only for the dataset with regression problems",True
+@sandipansarkar9211,2020-09-30T14:04:35Z,0,Great explanation. Need to get my hands dirty in jupyter notebook. Thanks,True
+@narendra_nn,2020-09-23T18:41:28Z,0,Can we use this on datasets with no target feature..... As there is a parameter in which target feature should be specified.....?,True
+@Arjun147gtk,2020-07-24T18:07:50Z,2,Wow. This is amazing. It will reduce a lot of work.,True
+@kanhaiyakumarsingh4806,2020-07-24T10:01:50Z,1,The report didn't pop when done with Kaggle Notebook and was not saved also anywhere,True
+@samtells7702,2020-07-20T15:10:35Z,0,"Nice video sir.. When my target was on categorical column it didn't analyse saying, for now it can work on numerical values and boolean values",True
+@hadiali5922,2020-07-19T14:12:20Z,0,"Are these target variables taken by default?? If so, on what basis does it chooses the target variables?",True
+@yogenderkushwaha5523,2020-07-12T05:53:42Z,0,"In my case, by hovering over them the further diagrams are not visible",True
+@juniordataengineer,2020-07-08T22:30:53Z,0,"Hello, Can you display the visualisations inside collab?",True
+@salmimabrouka4562,2020-07-08T10:40:14Z,0,"Thank you krish for introducing this library, it's really helpful",True
+@mahipalreddydaggula2183,2020-07-07T02:48:04Z,0,Sweetviz is not working if the target variable is categorical.why?,True
+@jayasreemangalagiri971,2020-06-22T11:35:06Z,0,"Thank you krish for this demo, I have a question though...How do we share this report?",True
+@sandeepbheri3577,2020-06-20T17:52:47Z,0,While importing sweetviz I am getting the following error: AttributeError: module 'sweetviz' has no attribute 'from_dython' Any work around for this ?,True
+@chandanmalla,2020-06-19T09:54:41Z,0,"EDA is not only about creating beautiful graphs, EDA helps you  to understand whether the existing features are useful or not and lot of other things, try to use seaborn and matplpot lib only. And if you analyse NLP with sweetwiz I am sure your system will hang.",True
+@arjyabasu1311,2020-06-15T08:40:48Z,0,Amazing video sir !!!!,True
+@sairamsubramaniam8316,2020-06-11T14:50:27Z,0,Awesome! Please do a video on automl and teapot,True
+@neetik5833,2020-06-11T05:25:12Z,0,"its showing this error  Please help  --------------------------------------------------------------------------- TypeError                                 Traceback (most recent call last) <ipython-input-49-f813328d01aa> in <module>       1 # Analyzing using sweetviz library       2 import sweetviz ----> 3 myreport= sweetviz.analyze([result_f,""Train""],target_feat=""num_orders"")  ~\anaconda3\lib\site-packages\sweetviz\sv_public.py in analyze(source, target_feat, feat_cfg, pairwise_analysis)      11             pairwise_analysis: str = 'auto'):      12     report = sweetviz.DataframeReport(source, target_feat, None, ---> 13                                       pairwise_analysis, feat_cfg)      14     return report      15   ~\anaconda3\lib\site-packages\sweetviz\dataframe_report.py in __init__(self, source, target_feature_name, compare, pairwise_analysis, fc)     214             # start = time.perf_counter()     215             self.progress_bar.set_description(':' + f.source.name + '') --> 216             self._features[f.source.name] = sa.analyze_feature_to_dictionary(f)     217             self.progress_bar.update(1)     218             # print(f""DONE FEATURE------> {f.source.name}""  ~\anaconda3\lib\site-packages\sweetviz\series_analyzer.py in analyze_feature_to_dictionary(to_process)      90       91     # Establish base stats ---> 92     add_series_base_stats_to_dict(to_process.source, to_process.source_counts, returned_feature_dict)      93     if to_process.compare is not None:      94         add_series_base_stats_to_dict(to_process.compare, to_process.compare_counts, compare_dict)  ~\anaconda3\lib\site-packages\sweetviz\series_analyzer.py in add_series_base_stats_to_dict(series, counts, updated_dict)      42     base_stats = updated_dict[""base_stats""]      43     num_total = counts[""num_rows_total""] ---> 44     num_zeros = series[series == 0].sum()      45     non_nan = counts[""num_rows_with_data""]      46     base_stats[""total_rows""] = num_total  ~\anaconda3\lib\site-packages\pandas\core\generic.py in stat_func(self, axis, skipna, level, numeric_only, min_count, **kwargs)   11180             skipna=skipna,   11181             numeric_only=numeric_only, > 11182             min_count=min_count,   11183         )   11184   ~\anaconda3\lib\site-packages\pandas\core\series.py in _reduce(self, op, name, axis, skipna, numeric_only, filter_type, **kwds)    3870     3871         if isinstance(delegate, Categorical): -> 3872             return delegate._reduce(name, skipna=skipna, **kwds)    3873         elif isinstance(delegate, ExtensionArray):    3874             # dispatch to ExtensionArray interface  ~\anaconda3\lib\site-packages\pandas\core\arrays\categorical.py in _reduce(self, name, axis, **kwargs)    2122         func = getattr(self, name, None)    2123         if func is None: -> 2124             raise TypeError(f""Categorical cannot perform the operation {name}"")    2125         return func(**kwargs)    2126   TypeError: Categorical cannot perform the operation sum",True
+@galymzhankenesbekov2924,2020-06-11T05:03:22Z,0,Hi! after installing I have the following error ModuleNotFoundError: No module named 'sweetviz' what can i do ?,True
+@avirupsarkar5232,2020-06-10T12:56:27Z,0,Superb sir.. Thank you.  Keep making such awesome videos..,True
+@sudhanvahabib7582,2020-06-09T11:20:50Z,0,Sadly I didn’t get any response from iNeuron even after filling form prior 6th june :(,True
+@vandanpandya9587,2020-06-08T20:29:09Z,0,thank you sir for making us familiar with such wonderful libraries,True
+@gurdeepsinghbhatia2875,2020-06-08T15:21:11Z,0,*******SIR EK BAMBOOLIB KAI UPER BE VEDIO BNA DO PLEASE ********** BAMBOOLIB (VIS LIBRARY),True
+@raghavsharma6430,2020-06-08T06:12:30Z,0,yes krish sir this is amazing library and thank u for keep guiding us with this sort of stuff.,True
+@darpan810,2020-06-07T19:00:48Z,3,"No such keys(s): 'compute.use_numexpr'""      getting this error while using",True
+@SudipPandey,2020-06-07T18:21:36Z,0,"Hello sir,will realy appreciate if you can upload videos on  so that it will be easy to understand how models are deployed and what is the coding required inside the program..I have been trying to find this on internet for many days and there is no direct material which address this..",True
+@deepakumari315,2020-06-07T17:31:47Z,0,can we just use this function sweetviz.analyze in python 3.8?,True
+@SudipPandey,2020-06-07T17:12:17Z,0,Very nice sir..,True
+@RK_97,2020-06-07T17:00:29Z,0,"Thanks for the video on this new package. Big shout out for the quality of your video, comparing the older videos, this video and audio quality is great.  I am no one to comment on your skill and the contribution that you are doing.",True
+@syedadil7858,2020-06-07T14:32:47Z,0,Wowww. So vizualization tools are worthless now. Lol !,True
+@Prakash18996,2020-06-07T10:56:03Z,0,"Sir u only use python ,I am personally using r for data science",True
+@thezeroquotient,2020-06-07T08:31:35Z,1,Glad I discovered this video! Great content Krish Naik!,True
+@AshishKumar-xx3dx,2020-06-07T05:52:05Z,0,Thank you for showing this simple way to do EDA,True
+@deepankarmullick3121,2020-06-07T04:39:48Z,0,its amazing,True
+@atharv100M,2020-06-07T04:27:43Z,0,Itz showing invalid syntax i hv used every thing same,True
+@sahanjayawarna4894,2020-06-07T03:54:46Z,0,"Wow, this is very efficient...",True
+@sanjogh777,2020-06-07T03:12:50Z,1,That's pretty cool. I am gonna use it. Thanks man.,True
+@True_Feelingsss...,2020-06-07T03:01:10Z,0,Sir please make video on missingno for missing values,True
+@littlerashi4606,2020-06-07T02:19:58Z,0,Is it not working in colab?,True
+@natarajanlalgudi,2020-06-07T02:16:47Z,0,Great job Krish as always...,True
+@sachinjoshi187,2020-06-06T20:57:41Z,0,"Hello Krish, I used the Pandas Profiling library for 69,000 recorda and it worked absolutely fine however same data set I tried with SweetViz and it gave me error. error "" Column xyz has mixed inferred_type as determined by Pa das. This is currently not supported , column type should not contain mixed data e.g. Only Float   or Str8ngs , bit not a combination"". This means Pandas Profiling can work with mixed data but Swwetviz can not. However I really love your videoa and learning alot . Thanks so much Sir.",True
+@azizulhakim1534,2020-06-06T18:51:17Z,0,just amazing !!  thnx a lot Krish Sir.,True
+@anupammitra,2020-06-06T18:26:07Z,0,Is this library being used in enterprise. What are the prerequisites before using this library,True
+@AJaditya123,2020-06-06T18:06:49Z,0,"Hi Krish, can we use this EDA for unsupervised learning?  I see you have given target variable which is a predictable value in COMPARE fucntion.",True
+@saipavan5194,2020-06-06T17:13:18Z,1,Wow just wow and wonderful amazing visualization with simple code and I appreciate you sir for such hard dedication to teach us.,True
+@saikatchakraborty1937,2020-06-06T17:07:34Z,14,"This is a very nice sir :). Like this, another library autoViz is also a very wonderful library that gives various plotting for single huge datasets within a single line of code. Thank you !!",True
+@sumithrap3155,2020-06-06T17:05:45Z,0,How can I see all plot on the Jupiter notebook itself,True
+@allieubisse470,2020-06-06T16:12:36Z,1,"Is  it not called Data Snooping/ fishing? I mean quickly eyeballing the Test data might lead to Human Bias.  The algorithm selected might be based on what you saw from the Test data.  Data Science competitions:  I see a lot of data Science competitions combining the Train and Test then Do Deep Dive analysis and preprocesing. According to my understanding this is wrong. I personally think that this is done to get more accuracy or overfit the public Leaderboard but i don't think is also applicable to the cooperate world.   What can we do with our test: All we may do is just few checks not going deep to association. Read about Data Leakage.  Human bias: Back to the Human bias, please discuss such. My understanding is to preproces with the Training data and learn some parameters from the training Data then inherit those to test. ----------  I always do train test split before Preprocesing. I make use of sklearn pipeline to avoid the loop of rewriting long code and reduce human error.   Final word.  Try Autovis https://danrothdatascience.github.io/datascience/autoviz.html  And pyVis",True
+@kunalarora1740,2020-06-06T15:50:05Z,0,There is another very strong  EDA library dataprep.eda that i have recently gone through...I personally feel  it is  probably faster and much more reliable than pandas profiling,True
+@rajkumarn7201,2020-06-06T15:45:21Z,1,"Thanks, really helpful 👍 Can you make a video regarding python codes for all kinds of hypothesis testing used in industrial projects, because while searching internet, I am getting chi sq, ANOVA, basic stuffs.. But in interview they are asking some testing which I am not heard off. So walking thru the overview of each hypothesis testing (if possible python code) will be really helpful",True
+@surajkhanna1129,2020-06-06T15:41:36Z,0,Thank you so much sir for the video...explained very well!,True
+@arrow_the_keralite.1433,2020-06-06T15:41:21Z,0,Thank you sir .,True
+@mashakpatel4962,2020-06-06T15:41:13Z,1,"Sir please make video on data scientist job in finance domain and skills required for this field, starting salary and salary after five years in this domain..",True
+@venud1800,2020-06-06T15:36:45Z,1,Please continue the Docker Series,True
+@anilkrajamoni1484,2020-06-06T15:36:00Z,0,Pretty cool .. reduce a lot of work.  :D,True
+@sharanbabu2001,2020-06-06T15:21:16Z,0,Krish checkout %%time in jupyter notebook,True
+@DatascienceConcepts,2020-06-06T15:17:39Z,0,Really like your content! Keep up the good work.,True
+@82mast,2020-06-06T15:06:14Z,6,wow....these detailed insights graph on hover over..i used to create in Tableau. Thanks for introducing to this new EDA library krish.,True
+@AshutoshKumar-cj1vj,2020-06-06T15:05:51Z,3,These kinds of features can remove the data scientist role.,True
+@madhavanrangarajan6097,2020-06-06T15:04:52Z,0,This is next level sir! :) ..wow!..amazed by now!,True
+@darshitsolanki7352,2020-06-06T15:04:28Z,0,Amazing krish 🤘 i ❤ed ur video really helped me for my python skills,True
+@rahulsarkar4794,2020-06-06T15:04:08Z,0,Is it better than pandas profiling?,True
+@tusharrewatkar3805,2020-06-06T14:54:44Z,0,"All things are being automated,then what will be the difference maker sir?",True
+@sagarwaghela1118,2020-06-06T14:46:09Z,2,Sir From where do you find such things first comment,True

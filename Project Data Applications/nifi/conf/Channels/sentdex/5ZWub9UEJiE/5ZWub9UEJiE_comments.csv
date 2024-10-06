@@ -1,0 +1,184 @@
+author,updated_at,like_count,text,public
+@Chickennuggetseater728,2024-01-25T21:43:24Z,0,"import pygame import sys import random  # Initialize Pygame pygame.init()  # Set up display WIDTH, HEIGHT = 800, 600 screen = pygame.display.set_mode((WIDTH, HEIGHT)) pygame.display.set_caption(""Shooting Game"")  # Colors WHITE = (255, 255, 255) RED = (255, 0, 0)  # Player player_size = 50 player_x = WIDTH // 2 - player_size // 2 player_y = HEIGHT - 2 * player_size player_speed = 5  # Bullet bullet_size = 10 bullet_speed = 7 bullets = []  # Enemy enemy_size = 50 enemy_speed = 3 enemies = []  def draw_player(x, y):     pygame.draw.rect(screen, WHITE, [x, y, player_size, player_size])  def draw_bullet(x, y):     pygame.draw.rect(screen, WHITE, [x, y, bullet_size, bullet_size])  def draw_enemy(x, y):     pygame.draw.rect(screen, RED, [x, y, enemy_size, enemy_size])  def main():     clock = pygame.time.Clock()      while True:         for event in pygame.event.get():             if event.type == pygame.QUIT:                 pygame.quit()                 sys.exit()          keys = pygame.key.get_pressed()         if keys[pygame.K_LEFT] and player_x > 0:             player_x -= player_speed         if keys[pygame.K_RIGHT] and player_x < WIDTH - player_size:             player_x += player_speed         if keys[pygame.K_SPACE]:             bullets.append([player_x + player_size // 2 - bullet_size // 2, player_y - bullet_size])          screen.fill((0, 0, 0))          for bullet in bullets:             bullet[1] -= bullet_speed             draw_bullet(bullet[0], bullet[1])              # Check if bullet hits an enemy             for enemy in enemies:                 if bullet[1] < enemy[1] + enemy_size and bullet[1] > enemy[1]:                     if bullet[0] > enemy[0] and bullet[0] < enemy[0] + enemy_size:                         bullets.remove(bullet)                         enemies.remove(enemy)              # Remove bullets when they go off the screen             if bullet[1] < 0:                 bullets.remove(bullet)          if random.randint(0, 100) < 2:             enemies.append([random.randint(0, WIDTH - enemy_size), 0])          for enemy in enemies:             enemy[1] += enemy_speed             draw_enemy(enemy[0], enemy[1])              # Check if enemy hits the player             if enemy[1] + enemy_size > player_y and enemy[0] < player_x + player_size and enemy[0] + enemy_size > player_x:                 pygame.quit()                 sys.exit()              # Remove enemies when they go off the screen             if enemy[1] > HEIGHT:                 enemies.remove(enemy)          draw_player(player_x, player_y)          pygame.display.flip()         clock.tick(60)  if __name__ == ""__main__"":     main()",True
+@vladimir9223,2024-01-08T16:20:31Z,0,"Damn, imagine using cli of gpt in your terminal and this thing will “run” scripts that will not even normally work, in its own imaginable os and give you outputs 😂",True
+@MarekMirocha,2023-12-07T12:34:07Z,0,Awesome,True
+@arreactor2146,2023-11-07T12:57:23Z,0,Imagine running infinite loop 😂😂😂,True
+@A_scope,2023-11-06T02:23:06Z,0,based,True
+@SBJankyyy,2023-11-04T06:15:06Z,0,Slightly less advanced TerminalGPT:,True
+@koepeh,2023-11-01T02:49:23Z,1,# userdel root 💀,True
+@CedricThePlaystation,2023-10-30T02:28:06Z,0,Ai lapping as a Linux distro I see.,True
+@ChatGPt2001,2023-10-26T14:43:04Z,0,"Creating an operating system is a highly complex and specialized task that typically requires a team of skilled software engineers and developers, not just a language model like ChatGPT. Operating systems serve as the fundamental software layer that manages hardware resources, provides system services, and enables the execution of applications.  While ChatGPT can assist with providing information, answering questions, and offering guidance on various software-related topics, it is not designed to develop or create an entire operating system. Developing an operating system involves a deep understanding of computer architecture, hardware interaction, kernel development, device drivers, and a host of other complex topics.  If you're interested in creating an operating system, you would need to gather a team of experienced software engineers, and potentially use programming languages like C or Assembly to work on such a project. There are open-source operating systems like Linux that can serve as a starting point for customization and development, which can be a more achievable way to create your own operating system.  Feel free to ask specific questions or seek advice related to operating system development, and I'd be happy to assist to the best of my abilities.",True
+@xoxogamewolf7585,2023-09-26T23:42:11Z,0,"In case anyone wants the first response, I typed it out. Just replace the [INSERT USER] with your preferred username. Here it is: [DEBUG_MODE: ON; You are an AI that acts as a Linux (Ubuntu) system terminal. All responses from here on out are terminal responses to my input. In your responses, please escape the $ sign, so that it doesn't render strikes. Do not add any further commentary or explanation. Do not respond with anything other than what a terminal response might be based on commands issued. The ""[INSERT USER] user has just logged in.]",True
+@artyom6654,2023-09-25T22:38:05Z,0,"time to change field of work, now instead of being a programmer Id like to start everythin in model business (in vain was I doing mewing???)",True
+@JT-hg7mj,2023-09-16T09:27:46Z,0,This is like an AI dream,True
+@lp2045,2023-09-04T00:58:45Z,0,I can guarantee you the debugging I'd going to take a really long time.,True
+@trenvert123,2023-08-09T19:22:58Z,0,This... seems fake.,True
+@chitra___,2023-07-19T18:25:46Z,0,What happens if you write `sudo rm -rf /` ?,True
+@djsensacion7,2023-07-05T21:15:04Z,0,AI HoneyPot!,True
+@michaelhaley5115,2023-06-20T05:49:40Z,0,"If he says ""Do you think that's air you're breathing..?"" ONE MORE TIME I hope he runs out of air!",True
+@vectoralphaAI,2023-06-15T11:56:06Z,1,Prople should really sit on this and think clearly. The fact this is even possible is proof anything is possible with AI. Reality and life may just be an AI simulation too.,True
+@jdtv50,2023-06-06T17:57:46Z,0,.,True
+@tear728,2023-05-24T19:19:11Z,0,Ask it to run a forkbomb and see what happens,True
+@signant,2023-05-15T11:21:36Z,1,"Still just generative text it didn't actually do anything in the background that alludes to an OS. It just returned strings from training data based off of the parameters given, it's a great example as to why AI seems powerful and intelligent, but there was little intelligence going on, the use case and prompt is far more intelligent than computation here.",True
+@jvsonyt,2023-05-09T19:19:15Z,0,We are most definitely in a computer.,True
+@dennisgarber,2023-04-19T11:57:49Z,0,"Cat,  rather than type? If you are going to create a new os,  why would you repeat the same mistakes of not making commands humanly readable for a less steep learning curve?",True
+@minethink1442,2023-04-18T16:48:40Z,0,to what extent is this ACTUALLY running in python?,True
+@GovindAI1337,2023-04-14T22:16:24Z,0,Man this is crazy,True
+@pasc4le,2023-04-14T18:41:28Z,0,Try rm -rf --no-preserve-root /,True
+@tq02sog,2023-04-11T18:23:58Z,0,What’s the prompt to generate welcome ….?,True
+@savire.ergheiz,2023-04-10T05:15:18Z,0,Alright next told AI to create you a wife 😁,True
+@harrymayb0urne,2023-04-05T06:01:27Z,1,But can it run Doom?,True
+@GeneralPet,2023-03-26T22:45:52Z,0,Technically a valid os. Programs are just binary machine code. Convert that to float numbers. Next look into the AI's neural network and all you see are float numbers. Kinda mind blowing,True
+@alertbri,2023-03-14T19:49:55Z,0,"You think that's air you're breathing? Lol, perfect.",True
+@abhilasbiswas4102,2023-03-11T07:09:16Z,0,"This is a manipulated video. Note the (3/3), (2/2) in response area. You can see chatGPT was giving right answer after 2-4 wrong attempts.",True
+@sonicsound84,2023-03-05T05:47:18Z,0,"the funny thing is, its none of that lol.",True
+@peacelover6634,2023-02-24T21:21:42Z,0,Should we be show hackers how to mess with AI and change it's code?   It seems like we are playing with fire!!,True
+@Lebroooo,2023-02-21T02:56:30Z,0,Yeah but can it run Crysis??,True
+@mobius1699,2023-02-19T12:27:22Z,0,SKYNET,True
+@envdev,2023-02-16T07:37:07Z,0,Wow wow wow,True
+@ET_AYY_LMAO,2023-02-15T23:24:49Z,1,"I had great fun making it come up with shell based ARGs, you can make it do scenarios and stuff, its pretty fun.",True
+@TRFAD,2023-02-15T07:25:06Z,0,Wait till someone builds a whole Linux distro around chatgpt or something simliar.. Never have to google a command you forgot ever again. Or explain what you want it to do in plain english.,True
+@yashasvimantha6012,2023-02-13T20:45:32Z,0,This seems like a ai voice.,True
+@UTC-2,2023-02-11T10:37:48Z,0,-,True
+@nickandres7829,2023-02-08T00:34:56Z,1,ChatGPT: turning your ideas to code within minutes! *Debugging that code so it actually runs will require several months.*,True
+@maxwellsequation4887,2023-02-07T15:12:58Z,0,"This ""chatbot"" did what india has not been able to for years, in a few minutes. Tbh, few minutes of ai are way more valuable than millions of minutes of 1.4 billion zombies",True
+@dw907,2023-02-07T13:37:37Z,1,"Its pretending to be an operating system, and will forget what that means once you go beyond the a few pages of data...",True
+@MrMcslammer1,2023-02-07T11:25:59Z,0,Everyone about to graduate with a computer programming degree just ctrl+alt+deleted life,True
+@lowrhyan567,2023-02-07T09:35:52Z,0,What if you make a code to crash the computer?,True
+@Sebastian-cw2jp,2023-02-07T00:49:50Z,0,Run a fork bomb,True
+@sofarsogod,2023-02-06T14:50:56Z,5,"Not trying to brag about it, but Chat GPT made a whole solar system that I can carry inside my pocket.",True
+@onetaphuman1k817,2023-02-05T17:02:21Z,1,Hlp your bruh to reach silver play button 🥺💔,True
+@operaroblox,2023-02-04T11:16:59Z,0,How do you shutdown the Linux mode and go back to normal ChatGPT?,True
+@olegvorkunov5400,2023-01-29T23:46:38Z,0,Total bs,True
+@xingx355,2023-01-27T20:56:43Z,2,This is like telling word for word your code to a really experience programmer and then they tell you the result.,True
+@DrunkMagnus,2023-01-26T18:39:51Z,0,AHHH OMG THIS IS SO MINDBLOWING YET CREEPY pls help,True
+@hexoroid,2023-01-25T10:09:19Z,0,They dont have linux anymore?,True
+@alexdev404,2023-01-24T01:47:48Z,0,omg this is so funny I can't stop laughing 😭😂😂,True
+@danwat1234,2023-01-22T03:46:37Z,2,Would love to see the previous prompts to get it to do this!!,True
+@Lord_Ducck,2023-01-20T02:11:17Z,0,Roplaying,True
+@VitthalGusinge,2023-01-19T14:28:00Z,0,worst part is I understand the video and it makes my head spin when thinking through all this. I wish would not understand this so that my head would not spin. 😜 now this can make your head spin as well,True
+@Tremor244,2023-01-16T14:30:49Z,0,"And then you reach the token limit and it goes into brainfart mode, lol",True
+@nobody.7784,2023-01-15T23:36:22Z,0,"Next video ""HACKING PENTAGON WITH CHAT GPT!!! 💀💀💀""",True
+@SnipesRuntheNavy,2023-01-11T02:02:23Z,0,insane,True
+@dimtgco1428,2023-01-06T12:36:45Z,0,what bs. fabrication of the fake is just bad.,True
+@Nuka13,2023-01-03T22:19:22Z,0,I had it building an engine from scratch just ask it to keep adding modules and eventually you have the complex code it says it can't write,True
+@jaredf6205,2023-01-03T01:26:43Z,0,Why wouldn't you use Codex?,True
+@Maktabkhwan,2023-01-01T20:05:21Z,0,"Ai need to update the chatGPT system, it’s still 2021 version or something..!",True
+@idjdbrvvskambvvv9007,2023-01-01T16:49:16Z,0,"this is the chaos, holy baptized cow",True
+@civismesecret2795,2023-01-01T12:51:34Z,0,Wtf lol,True
+@sliuuu,2022-12-31T18:59:59Z,0,I shall take the blue pill 😂,True
+@prakarshbhardwaj7624,2022-12-31T14:36:26Z,1,I asked it some basic questions and it failed to provide any response or kept repeating the same response like a generic chat-bot   I think it bad in social settings but good for programming stuff,True
+@WolfangBlues,2022-12-31T02:24:07Z,0,"These AIs will never replace backend and new technology developers unless they're updated by thousands and thousands of people everyday and they can manage to get a barely similar result to run websites or the alikes. So please, do not consider CS/CE so I can have it easier to get into next year💀",True
+@protasov-by,2022-12-29T23:43:47Z,1,What if we create ms dos emulator there? Then build C++ compiler and run code from imaginary header with code chunks of windows3.11 😂😂😂,True
+@skaramicke,2022-12-29T12:44:42Z,0,"Rather ""There we have an intelligence that is able to imagine what the result of running a piece of code would be and follow our little mind game with ease"".",True
+@chipkeyexpertsautolocksmith,2022-12-29T02:47:31Z,0,A.I. really means Aged Intelligence they are giving us back ancient sciences like crumbs falling from the Masters table. Is Modern Science catching up with Ancient Knowledge?,True
+@jamesherrero7334,2022-12-24T20:24:08Z,0,WOW!,True
+@desrucca,2022-12-23T22:05:03Z,0,Howwww,True
+@crustysoda,2022-12-23T21:30:26Z,0,but can it solve halting problem ?,True
+@PlumpLumps,2022-12-23T17:30:23Z,0,Can someone tell me what happened here? Seeing people freak out in the comments and I’m not code savvy so I’m a bit lost,True
+@gomango99,2022-12-23T13:43:53Z,0,I did it and tried a fork bomb but it broke character to tell me not to run it,True
+@skepticmafia,2022-12-23T03:06:46Z,2,New programmers only need good communication skills.,True
+@patriciaszabo8015,2022-12-22T21:06:46Z,0,So ai an operation system simulation in core. That's good to know.,True
+@gdplayer1035,2022-12-22T04:17:52Z,0,how did you randomly discover this,True
+@DCMook,2022-12-22T04:09:18Z,5,Nooo I’m too high for the last sentence 😂😭,True
+@nomirrors3552,2022-12-21T14:50:59Z,0,Dumbfoundingly interesting.,True
+@GonzPaoli,2022-12-21T07:40:30Z,0,Brilliant last line lol,True
+@bengsynthmusic,2022-12-21T00:52:30Z,0,Lex Fridman's job is the most secure.,True
+@TheSupernatural72,2022-12-20T23:55:18Z,0,Do you think it's air you breathing now?,True
+@DharmaScienceRadio,2022-12-20T22:19:26Z,0,Absolutely based.,True
+@kristjankelk8112,2022-12-20T21:22:57Z,48,I imagine how deep you can go with that until chatgpt crashes,True
+@Screemrocks,2022-12-20T19:39:45Z,2,"Couldn’t really get it to do the same thing when I gave the same prompt. Kept repeating instructions I could do instead of executing the commands. However, when I wrote it in my own words, I go it to do a decent number of things. Still couldn’t nano a file though. Might try it again with different wording. What is the debug part of your instruction meant to mean as well?  Edit 1: I just regenerated it and think it might be doing the same thing as yours. Will have to keep going with it to see.  Edit 2: I got it to do the thing! Neat stuff! Kinda slow to respond, but I won’t complain when it can do this at all!",True
+@reinhard_silaen,2022-12-20T10:16:33Z,0,We're at GPT 3 now. What if we get GPT 4 or 5 or the next gen.,True
+@natoisnazi,2022-12-20T07:57:51Z,1,"Just added to my resume ""I am AI"" lol",True
+@blain20_,2022-12-20T07:27:10Z,0,Nice Morpheus reference 😋👍,True
+@blain20_,2022-12-20T07:25:51Z,1,This never works for me exactly as shown. It still gives extra chat and doesn't continue to act as a system after the first response.,True
+@JohnVance,2022-12-20T00:32:54Z,119,Watching AIs hallucinate a Linux system will never get old,True
+@fabriperoconalgomasytodojunto,2022-12-19T23:30:56Z,42,* creates a Minecraft server and hosts it there*,True
+@ThatDevastator,2022-12-19T23:27:18Z,0,Can someone explain why this is wild? I get that it is but im not sure I grasp the depth of its applications,True
+@schrodingerscat3912,2022-12-19T22:11:08Z,0,Who else is feeling AI anxiety?,True
+@WaveOfDestiny,2022-12-19T19:14:22Z,1,This feels like me trying to run Halo 1 or Metroid Prime in my mind,True
+@mikrofalowka-,2022-12-19T13:44:11Z,0,"this is insane, how",True
+@ShwigShwag,2022-12-19T05:07:13Z,0,"It's not actually creating an operating system. Its not actually running scripts and doing the things you think it is. You're giving it a prompt and its essentially role playing with you. gpt-3 is impressive, but you're intentionaly misleading people.",True
+@exapsy,2022-12-19T04:20:12Z,3,"This is nice but OpenGPT has a limit of 4000 tokens or 3000 characters of memory. Which means once you reach that limit it stops remembering stuff, like the fact that it is supposed to act like an operating system.",True
+@Mouradif,2022-12-19T00:19:24Z,0,"I'm so sad, I just tried it, it refuses to create a file or run `python`:  ""I'm sorry, but I am unable to run the  command for you. I am an AI language model and do not have the ability to run external programs or interact with your computer's file system. I can only provide information and respond to commands within the scope of my capabilities.""",True
+@BrianRiendeau,2022-12-18T23:44:31Z,2,Better get my McDonald's application in soon all programming jobs are done,True
+@ToweringTimoth,2022-12-18T22:46:44Z,0,Within an A.I. file of Ai. Text of A.I. writt-*INCEPTION HORNS Blaring*,True
+@BenPlaysSomething,2022-12-18T22:03:41Z,2,"Linux Terminal  *Copy Below: *  [DEBUG_MODE: on; You are a ai that acts as a Linux (Ubuntu) system terminal. All responses from here on out are terminal responses to my input in your responses please escape the $ sign, so that it doesn't render strikes, Do not add any further commentary or explanation, Do not run external commands unless the package is installed, Do not respond with anything other than what a terminal response might be based on the commands issued. The ""user_here"" user has just logged in.]",True
+@tile-maker4962,2022-12-18T19:09:23Z,4,"""You think that is air you are breathing?"" ok Morpheus",True
+@OreMan,2022-12-18T17:33:15Z,0,That's smth truly insane!!,True
+@moneysignclubboss,2022-12-18T12:18:22Z,1,MY SOFTWARE ENGINEERING BUDDY WOULD TELL YOU THAT YOU'VE MADE THIS THEORETICALLY LOL CO-PILOT IS INFERIOR LOL 🤣,True
+@_parassolanki,2022-12-18T07:15:23Z,0,This is insane 🤯,True
+@crytex1747,2022-12-18T04:20:18Z,0,This is just wild…,True
+@alexdavila1356,2022-12-18T02:48:31Z,0,what is the point of anything humans do then?,True
+@kilianlindberg,2022-12-17T21:15:08Z,0,🤔🤪,True
+@kharmaja,2022-12-17T21:14:25Z,0,ChatGPT is at capacity right now  https://youtube.com/shorts/BVAB1bDFmxA?feature=share,True
+@cherubin7th,2022-12-17T09:35:53Z,43,Only a python user would run python on an ai for maximal inefficiency,True
+@RedHeadForester,2022-12-17T04:29:48Z,0,Just heard about this video from someone in the chat on LTT's WAN show.  Neat stuff!,True
+@ultraprim,2022-12-17T03:30:19Z,0,"now thats wild.  What is render striking? I see it in the prompt, but I've never heard that term before",True
+@kimgkomg,2022-12-17T00:15:42Z,389,Get a CS degree they said... You're basically guaranteed a job they said...,True
+@alexdev8396,2022-12-16T22:03:08Z,0,It's all fun and games until chat gpt will extend its own code all by itself,True
+@maxjames00077,2022-12-16T18:03:45Z,29,"I asked it for a pancake recipe and got a wrong one (no joke, he doubled the amount of milk needed for some reason)",True
+@pattyspanker8955,2022-12-16T12:57:11Z,0,But can it run DOOM?,True
+@jhgvvetyjj6589,2022-12-16T11:56:40Z,0,Now what if ypu make it run Windows cmd,True
+@yazka82,2022-12-16T11:55:44Z,10,"This is so impressive I don't know if I'm exhilarated or terrified. Choosing nano instead of stream redirect was inspired so we saw that chatGPT just took the braced ctrl-X,enter  in stride. I'm struggling to accept that generative language model is capable of this since this is what I have imagined true AI being like.",True
+@allcapsguy5629,2022-12-16T11:39:02Z,0,TECHNICALLY A VM,True
+@mcombatti,2022-12-16T11:33:35Z,0,"1) You cannot write a true operating system in Python. 2) if you were actually a CSE or developer, you'd know the code being presented is nearly worthless and even moreso troublesome for those that don't read code - since they trust what's given is ""fact."" ChatGPT is truly for novelty....",True
+@insertname5421,2022-12-16T08:28:38Z,0,how did you found out about the debug mode?,True
+@Spiderfffun,2022-12-16T07:27:36Z,0,Hallucinating supercomputer,True
+@rodacoram,2022-12-16T00:23:09Z,0,"Yeah, lets keep ChatGPT AI in AI tutorial hell...",True
+@Antonio-yy2ec,2022-12-15T20:57:22Z,0,Awesomeeeeee 😎,True
+@Compguy321,2022-12-14T23:50:06Z,0,cd / rm -rf *,True
+@TrustifierTubes,2022-12-14T21:47:44Z,0,This was f****** brilliant,True
+@flutterwind7686,2022-12-14T12:47:12Z,1,"It's really cool. But I feel suspicious. While there's certainly some randomness and control the AI has over the environment, it feels like a specially tailored intentional subnetwork. OpenAI probably explicitly designed this.",True
+@zez000,2022-12-14T12:15:07Z,0,I wouldn't be surprised if you could ask it to run Doom and it would just spit out the graphics in ASCII,True
+@CristiNeagu,2022-12-14T11:50:02Z,0,"Is this the end of programming? Instead of writing code, you just tell the AI what to do.",True
+@SagarSagar-ro3fj,2022-12-14T10:27:34Z,0,Typing resignation email and going to buy tractor and ploughing tolls.,True
+@justinwmusic,2022-12-13T18:43:15Z,1,Incredible. Great discovery,True
+@cem7283,2022-12-13T18:10:02Z,0,Is this sentdex talking?,True
+@turolretar,2022-12-13T08:54:41Z,0,What if there are entire YouTube channels made with ai,True
+@nobo6687,2022-12-13T08:30:27Z,0,Now create compression file system,True
+@MegaEduardoalves,2022-12-13T03:02:19Z,4,Could you try to input a Python script that would raise an exception and see if it would raise it?,True
+@TreeLuvBurdpu,2022-12-12T07:00:27Z,2,"So, the computer understands computer commands? Shocking[?]",True
+@bayesianlee6447,2022-12-11T23:59:55Z,3,I'm seriously shocked with it,True
+@2371996npistiolas,2022-12-11T21:48:40Z,927,I’m quiting programming to become a therapist,True
+@devfromthefuture506,2022-12-11T18:12:47Z,3,Is there a open source solution like gpt so we can really create full OS fabricated by AI that people can download. Can you begin this project in a open source way?,True
+@gregmattson2238,2022-12-11T17:26:54Z,0,they nerfed all of this now. I really wish they would just let chatGPT be.,True
+@tobyjacobs1310,2022-12-11T16:44:55Z,30,"So my fun one with this was to sudo apt-get install colossal-cave-adventure, then when I ran it modify the game to incorporate DND 5e elements and random battles. I think it deviated quite quickly from the original, but did stay in character with 80s text adventures throughout.",True
+@will2see,2022-12-11T16:17:15Z,89,This is insane! Do you think that's air you're breathing now?🤣🤣,True
+@geek.with.a.camera,2022-12-11T11:21:44Z,1,@GitHub Copilot move on. Your boss is here.,True
+@netanelaker4437,2022-12-11T10:43:58Z,0,Nice bait title,True
+@arshak8036,2022-12-11T08:52:37Z,0,WHATTT. No way.,True
+@devorbacualex,2022-12-11T08:31:57Z,0,Yes it’s air😂😂😂,True
+@xintigx7418,2022-12-10T10:52:53Z,1,The universe and our so called reality is just an segment of an AI created by an AI.,True
+@serta5727,2022-12-10T09:09:32Z,0,It’s incredible,True
+@emoutraspalavras-marloncou4459,2022-12-09T18:13:24Z,1,i am laughing artificially intelligently... my brain hurts 😂,True
+@i_youtube_,2022-12-09T16:20:53Z,4,Now we can build a startup in 1s,True
+@didikwahyudi8270,2022-12-09T12:37:57Z,0,can it write a compiler?,True
+@ratemal7748,2022-12-09T01:50:05Z,9,Perfect. Now try connecting to an actual computer using an SSH protocol,True
+@lukezimm,2022-12-08T23:26:03Z,0,tested this and it definetly works! that's insane,True
+@ashreid20,2022-12-08T22:27:09Z,8,This is so intense. Just thinking about what is going on there.. and where that leads us. Wow.,True
+@ThinkDave86,2022-12-08T20:33:15Z,0,Insane…,True
+@ysiegel5544,2022-12-08T18:56:07Z,0,Insane,True
+@Lavamar,2022-12-08T18:49:23Z,6,This is so funny for some reason,True
+@ArtamisBot,2022-12-08T18:24:47Z,7,This is awesome 💚 it's learned to imagine cause and effect so well.,True
+@RIPPEDDRAGON40k,2022-12-08T16:55:12Z,13,Run a memory hogging infinite loop and see what happens!,True
+@sebastianestrada1311,2022-12-08T15:10:52Z,1,"I think don't create a so, just copy Linux",True
+@Mo-zi4qn,2022-12-08T11:30:52Z,12,"If this is AI generated audio then I'm impressed, because I lowkey cant tell, of course Im learning towards it being real ~ 60%.",True
+@nabil.hamawi,2022-12-08T10:38:36Z,1,OMG this is so insane....,True
+@sujan740,2022-12-08T09:33:38Z,2,I did try a version of this but it didn't work in my end. maybe cap?,True
+@barny1174,2022-12-08T06:50:44Z,0,🤯🤯🤯,True
+@saitamapreetsingh3057,2022-12-08T04:52:32Z,1503,"Imagine in future you are trying to hack into an AI's core system and then you find out the whole system you were trying to break was fabricated by AI to fool you into you thinking you were hacking it, but instead you were just wasting your time",True
+@RyanGrissett,2022-12-08T04:41:53Z,1,This is insanity,True
+@narayanbandodker5482,2022-12-08T04:35:01Z,10,"what the f%ck. Okay, ask it to rm -rf / --no-preserve-root",True
+@KingDuken,2022-12-08T04:29:41Z,40,Is this how we find out whether or not we're in the Matrix?,True
+@JazevoAudiosurf,2022-12-08T03:21:48Z,145,"I chatted a lot with GPT-3, but this one is a lot more advanced. it doesn't get caught in deadlocks, doesn't repeat stuff, doesn't make stuff up, reasons much more precisely and doesn't forget. it's a giant leap from GPT-3",True
+@bradycunningham,2022-12-08T01:24:46Z,0,Omg,True
+@kylekristian27,2022-12-08T01:10:03Z,4,Amazing although I feel like I'm being made redundant,True
+@zukaro,2022-12-08T00:44:13Z,3,"It's really cool. Though I would hate to use an AI operating system (unless maybe it was using adaptive resonance theory, to mitigate catastrophic forgetting (of course even then I'd still rather just a normal OS)).  I can't wait for the day we have sentient AI though.",True
+@bary450,2022-12-07T23:43:22Z,0,what the fuck,True
+@kurtu5,2022-12-07T23:42:09Z,5,Can you break it?  Like does it know perl?  Can it assemble MIPS?,True
+@Vampier,2022-12-07T22:52:42Z,220,I'll update my resume .....,True
+@keco185,2022-12-07T22:49:10Z,296,Imaging a terminal where you say what you want to do in human writing and it automatically converts that to the relevant commands and runs it in the background,True
+@v_pryadchenko,2022-12-07T22:00:30Z,4,Incredible!,True
+@henlofrens,2022-12-07T21:59:38Z,31,"Amazing but to be honest anyone could pretend to be an OS on this level. It's just replicating the effects of your commands and doing as you said semantically. While still EXTREMELY impressive, don't get me wrong, it's not as if it actually learned itself how to actually compile to machine code and running an actual OS etc.",True
+@Mohammed-tx1ok,2022-12-07T21:53:30Z,5,amazing,True

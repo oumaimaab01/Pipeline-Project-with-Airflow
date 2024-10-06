@@ -1,0 +1,84 @@
+author,updated_at,like_count,text,public
+@businessman3265,2022-10-11T13:14:01Z,0,"This guy sounds exactly like Bill Nye. Same timbre, inflections, everything",True
+@amranislam4713,2021-11-26T15:42:05Z,1,What platform do you write this code ? Could you please explain bit more ?,True
+@private5866,2021-10-03T05:32:46Z,0,How to draw a tilted rectangle with cv2?,True
+@tejasraj9469,2021-06-07T21:24:59Z,0,"""When do we want it"" made me audibly laugh and my co-workers looked at me weird bc my laughter interrupted a long silence haha. Thanks for the great tutorial",True
+@avachavoshi574,2021-03-12T16:59:06Z,0,Thank you!,True
+@ferdinandp21,2021-03-01T01:47:35Z,0,Is there a way to zoom in the webcam to specific area lets say the eyes. But without losing the framing size. Every time i do crop in an effort to zoom in the eyes and do an analysis the frame gets very small,True
+@Hasan_Shariare_Raihan.,2020-12-05T13:52:33Z,0,Brother do you have source code for hand gesture translate into words?,True
+@gautamahuja7469,2020-11-28T22:37:09Z,0,"why are we importing numpy everytime, can anybody please explain?",True
+@franklynxavier5643,2020-10-22T06:12:34Z,1,Check this course for an in-depth explanation of OpenCV from beginner to advanced: ​@9M38​,True
+@muhammedyasinhanyasar539,2020-08-01T12:32:33Z,0,ok we can add rectangle or circle or text to the image. so how can we add an another image to the image?,True
+@Rahul-mf2we,2020-06-13T20:45:41Z,0,Rbg everywhere and brg in opencv. Why's that?,True
+@shauryapatel8372,2020-05-19T19:43:31Z,0,there where exactly 111 comments before ithis one,True
+@jayant9151,2020-02-01T07:25:07Z,0,"Thanks,",True
+@udayabhaskaran6227,2020-01-12T21:20:43Z,1,"I love the herpes simplex font,",True
+@humayunkabir7925,2020-01-06T08:13:05Z,0,it's not SIZE of font but it's FontScale,True
+@7XxKiKoOxX7,2019-12-09T05:25:48Z,0,"Know this is old, but does anyone know why he keeps importing numpy ?",True
+@nhemanth7028,2019-12-01T09:50:36Z,0,what is the use of writing cv2.LINE_AA,True
+@luismora3698,2019-10-09T15:09:56Z,0,"hey sentdex, ive been trying to self teach and your channel is the best resource I have. much love thanks for the great info",True
+@harmanankohli7189,2019-07-12T05:39:57Z,0,"I am getting the following error: TypeError                                 Traceback (most recent call last) <ipython-input-9-1648982cb1ec> in <module>()       6 pts = np.array([[10,5],[20,30],[70,20],[50,10],np.int32])       7 #pts = pts.reshape((-1,1,2)) ----> 8 cv2.polylines(img,[pts],True,(0,255,255),5)       9 cv2.imshow('Image',img)      10 cv2.waitKey(0)   TypeError: pts data type = 17 is not supported     After that I tried with reshape and I got this error: ValueError                                Traceback (most recent call last) <ipython-input-10-32bc9b32db01> in <module>()       5 cv2.circle(img,(100,63),55,(0,0,255),-1)       6 pts = np.array([[10,5],[20,30],[70,20],[50,10],np.int32]) ----> 7 pts = pts.reshape((-1,1,2))       8 cv2.polylines(img,[pts],True,(0,255,255),5)       9 cv2.imshow('Image',img)   ValueError: cannot reshape array of size 5 into shape (1,2)   ​PLease explain",True
+@chandrashekarreddy1221,2019-06-12T10:45:54Z,0,How can I place an image over an image?,True
+@wasit-shafi,2019-05-24T18:31:04Z,0,at 10:21 u added the text ...but i want to remove the text ...how do i do that ...is there any clear method.. plz reply if anybody knows,True
+@alokranjansanga6759,2019-05-19T03:33:47Z,0,how to pass more rgb value like a list,True
+@Togglism,2019-04-25T04:14:46Z,0,8:56 sums up this episode,True
+@afrasiyabhaider5376,2019-03-15T17:40:32Z,1,Can we read line or box (filled/unfilled) from the image?,True
+@jatingoyal208,2019-03-09T16:29:41Z,0,how to print variable on video,True
+@Dennis-gg9yv,2019-02-23T16:51:20Z,0,love u boi,True
+@hassanalsamahi7178,2019-02-06T18:18:54Z,0,from where can I get the opencv documentation??,True
+@volo7,2019-01-31T21:52:58Z,0,"for whatever reason, I am unable to display my rectangles overlayed on my image using cv2.rectangle() despite following your steps and looking at the documentation. Im using python 3.7 and ive heard that opencv functions differ slightly but to what extent im not sure. I would appreciate any help you could offer. Thanks.",True
+@DIYUSTHAD,2019-01-29T07:35:28Z,0,Are you brother of Snowden ?,True
+@theice2fire,2019-01-11T01:21:37Z,0,"hello sir, im using raspbian OS to operate OpenCV for my final project. im having trouble to ""import matplotlib"" , i've tried google it but unsuccseed. any suggest?",True
+@sokhibtukhtaev9693,2019-01-10T02:44:15Z,0,"Could anyone help me on my problem? I need to read a video and as soon as the initial frame pops up I should be able to draw 1 or more number of polygons (mostly rectangles) on that frame with a mouse in  opencv python. Any recommendation is highly appreciated, thanks in advance!",True
+@arunavamodak2385,2018-12-22T16:51:30Z,0,What Is the use of anti aliasing?,True
+@bielborba4421,2018-11-28T23:39:10Z,0,"Hey!  Fontsize param is a factor that you use it to multiply by the font base size, thats why different fonts have different sizes for the same number that you put",True
+@shishirpali4964,2018-10-09T06:17:43Z,0,"every time I'm trying t load image it's from the machine, python is throwing below error (I'm a novice to programming world please help):  D:\Build\OpenCV\opencv-3.4.3\modules\highgui\src\window.cpp:364: error: (-215:Assertion failed) size.width>0 && size.height>0 in function 'cv::imshow'",True
+@luis96xd,2018-10-03T22:53:18Z,0,"Wow, excellent video, everything well explained! I learned a lot! Thank you very much",True
+@indiansoftwareengineer4899,2018-09-29T11:21:57Z,1,why did you put -1 @7:23?,True
+@JimPAnimation,2018-09-03T03:54:23Z,0,No mouse clicks or mouse cordinates on the image? Does anyone have a solution? thank you,True
+@Lavamar,2018-08-12T20:52:43Z,0,How do I center the text. Is there a way to get the size of the text?,True
+@Wanderlust1342,2018-08-08T05:48:46Z,0,please reduce the pace pleaseee,True
+@acesultonov583,2018-08-04T06:28:21Z,2,"Hello and thanks for a video! :) What do you advise? I really want to study in the field of computer vision. What sources of materials do you recommend? ( maybe video, books, etc.).",True
+@tariknavarro87,2018-07-28T20:59:28Z,1,"Thanks a lot for all your videos, friend. God bless you!",True
+@ayeyefookinw0tm859,2018-07-23T10:41:41Z,0,What I’m trying to do is to create the watch dogs profile scanner with my face but I don’t know how to put text next to my face,True
+@swatinair4589,2018-07-13T07:23:22Z,0,"Hi ,Is there a way we could Tag the image inside the rectangle using OpenCV python",True
+@The_Unobtainium,2018-06-23T04:34:49Z,0,"Hi, how to draw an outlined text on the image? Say, 1 pixel width outline of color1 and text drawn with color2.",True
+@Anubhavv_,2018-05-24T07:26:14Z,0,cv2.LINE_AA ... What does it mean?,True
+@muhamadusmanakbar,2018-05-16T07:58:01Z,0,its very Helpful Thanks for uploading this Video,True
+@mohammedal-alaw6249,2018-04-10T13:53:36Z,0,i am getting a practicle error of unclosable window!,True
+@Yash007x,2018-04-02T23:00:06Z,9,"+1 sub for ""When do we want it!"".",True
+@YashRaj-ix1dp,2018-03-17T06:50:34Z,0,if cv2.waitKey(1) & 0xFF == ord('q'):             break this part of code does not work in my case,True
+@bryanbocao4906,2018-01-26T21:22:25Z,1,I like your videos. It would be great to have optical flow tutorial in python as well :),True
+@ahmedalaa1557,2018-01-22T10:21:36Z,0,(cv2.LINE_AA ) doesn't work on Ubuntu,True
+@niketsingh5933,2017-11-24T07:02:16Z,0,"hey ,can you put value of a variable on the image instead of the text ?",True
+@vatanuki401,2017-11-19T11:20:20Z,0,"excuse me, I have some error. How to fix error: ..\..\..\modules\imgproc\src\color.cpp:7456: error: (-215) scn == 3 || scn == 4 in function cv::ipp_cvtColor?",True
+@alierensevinc3067,2017-11-17T12:58:17Z,3,"where do we want to draw it, image when do want it, now LOL",True
+@sumonbanerjee3765,2017-10-08T06:15:07Z,0,"in the OpenCV documentation , Parameters for polylines:-->  img – Image. pts – Array of polygonal curves.          #SO WHY ARE WE USING LIST ""[pts]"" ? ## i've tried passing pts it gives an error                                                                     #please explain this  ""Traceback (most recent call last):   File ""drawingonimgs.py"", line 11, in <module>     cv2.polylines(img,pts,True,(0,255,255),300) cv2.error: D:\Build\OpenCV\opencv-3.3.0\modules\imgproc\src\drawing.cpp:2432: error: (-215) p.checkVector(2, CV_32S) >= 0 in function cv::polylines""  npts – Array of polygon vertex counters. ncontours – Number of curves. isClosed – Flag indicating whether the drawn polylines are closed or not. If they are closed, the function draws a line from the last vertex of each curve to its first vertex. color – Polyline color. thickness – Thickness of the polyline edges. lineType – Type of the line segments. See the line() description. shift – Number of fractional bits in the vertex coordinates.",True
+@mandardharaskar,2017-10-04T13:49:45Z,0,Getting problem with video capture device as I am using OEM device camera,True
+@akashtyagi1269,2017-09-14T17:53:14Z,0,@sentdex you are awesome bro,True
+@albertrisenielsen1405,2017-08-22T11:28:33Z,0,9:30 Goddamnit i dont get to break python,True
+@tianhao7783,2017-08-04T13:23:45Z,0,Thank you! Learn a lot from your videos,True
+@hrishikeshsagar861,2017-07-19T09:18:12Z,0,This guy is nailing it. Great Job Sentdex,True
+@RahulGautam-jx7tg,2017-07-03T15:20:11Z,0,15.18 there is a square or a rectangle just kidding you are good,True
+@pandabear5746,2017-06-14T10:42:49Z,0,Guys! my video output file does not work for some reason. and my code is exactly the same,True
+@aashray18521,2017-06-13T10:25:49Z,3,I tried same operations on video from webcam but was able to get it on only one initial frame. How do we do it on the entire stream?,True
+@prathamva7392,2017-05-25T16:45:42Z,0,'module' object has no attribute 'LINE_AA'......! How can i resolve this Error....!,True
+@dheerajakula7,2017-05-17T14:30:16Z,1,why should we pass pts as [pts] to cv2.polylines(),True
+@omerfaruktekgozoglu4598,2017-04-15T07:19:32Z,0,"what do they mean here : cv2.putText(img, 'OpenCV Denemeleri', (0,130), font, 1, (200,200,255), 2, cv2.LINE_AA) in brackets third statement (0,130) is ......? in brackets seventh statement ,2, is .....? And How I learn this statement exactly how ı use them ?",True
+@evandrogoncalves7664,2017-04-13T23:24:35Z,0,"Congratulations, great work.",True
+@muhdsafwan401,2017-02-11T14:46:27Z,0,great video dude. keep it up ;),True
+@CyberCEX,2017-01-22T03:38:08Z,0,Thanky you very muchfor video lesson.,True
+@yogabagas9582,2017-01-16T15:23:23Z,3,error: ..\..\..\..\opencv\modules\highgui\src\window.cpp:261: error: (-215) size.width>0 && size.height>0 in function cv::imshow,True
+@vishalanime,2016-12-14T05:22:11Z,0,how to plot a single point ?,True
+@Abhishekkumar-qo9ev,2016-11-29T14:13:13Z,2,ERROR : 'module' object has no attribute 'LINE_AA'. what should I do ?,True
+@aayushnagpal7676,2016-09-08T16:22:28Z,0,How can we  increase the size of the image and also where should we store the image?,True
+@chriswilson5346,2016-05-30T08:13:40Z,0,"Is there any way to write onto the webcam feed? when I put out in place of the img, I get a big error",True
+@anonymouscoward9643,2016-05-18T07:31:07Z,0,"LOL, the font that keeps on giving...",True
+@skypickle29,2016-04-12T00:48:57Z,3,please explain the use of .reshape with 3 arguments.,True
+@padamsethia2398,2016-04-09T08:26:17Z,0,what's with the font selection ? Is that from the default set of fonts available or are those fonts available on the system ? Thanks !,True
+@IMSNIPERMRSNIPER,2016-01-15T16:33:08Z,0,In my case its making 0KB  output.avi  files PLEASE HELP,True
+@kaip8551,2016-01-09T04:15:35Z,2,Coursera has an image and video processing course that started a few days ago. This is a great compliment!,True
+@JaggerJakk,2015-12-20T04:51:16Z,0,What is your scripter?,True
+@Freedster,2015-12-19T17:52:58Z,0,"sentdex. I need help, I looked at your input tutorial, but i'm confused on this. I posted soemthing there, but you didnt see it, so i thought you might more likely read it on a newer video. anyway heres the code x = input(""What\'s my name again? "") print(x , 'That seems right.') It asks the question, but then doesnt do the second part, saying something like ""name bob is not defined"" if you enter bob.",True
+@DrDherp,2015-12-18T22:11:05Z,0,"Love your videos, man! I use them all the time. I just so happen to be working on some OpenCV stuff this last month or so in a sports application.",True
+@judicaelclair2351,2015-12-18T18:20:33Z,26,I really like all your videos you've made me love python ;),True

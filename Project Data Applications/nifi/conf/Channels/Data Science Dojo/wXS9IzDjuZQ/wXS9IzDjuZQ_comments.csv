@@ -1,0 +1,21 @@
+author,updated_at,like_count,text,public
+@Datasciencedojo,2023-08-28T18:49:47Z,0,"For further tutorials on the fundamentals of machine learning, check out this exclusive playlist:  https://youtube.com/playlist?list=PL8eNk_zTBST-RTog7CPYvRfs1pYRWkPHG",True
+@user-cb1sc7se8g,2024-05-06T14:48:53Z,1,"Hi  I have a dataset which is revenue at day level from past 3 years I want to forecast the revenue for next 30 days But there is also a factor of seasonality like weekends, sales event How to tackle such scenarios",True
+@chime2684,2024-05-03T11:00:24Z,0,"Hi. please in 46:37, while defining lines due to error. What line symbol did you use?",True
+@Datasciencepython-yt6qe,2024-03-04T17:55:15Z,0,"I tried with another dataset, but i am having nagative predicitions, and that does not make any sense, can someone help me",True
+@physicsfaith,2024-02-14T16:23:11Z,0,"I don't know if this gets fixed later in the video but there is a problem with the converted dates. He started off with ddmmyy format in Date when it was an object format. He ran pd.to_datetime which has converted it to yyyymmdd format. When you look, at 15:41 for example, you can see that it converted the Jan 2, 2018 date (the second data row) to 2018-02-01, which is Feb 1, 2018. If you doubt that look at row 3239. The date is 2020-12-16. The middle value is the month, not the day that he claims. So the time series is now all jumbled up in addition to having the wrong dates.",True
+@deb1995,2024-01-01T02:58:23Z,0,Unable to run prophet in python now,True
+@sandraoriji8351,2023-10-24T07:36:13Z,0,"In the Bonus Round - Scaling Up, why is fit_models[stock_line] = m instead of fit_models[stock_line] = model",True
+@sandraoriji8351,2023-10-23T11:58:44Z,0,"Hello, I tried this on another dataset but i am a little confused. Before creating my model using Prophet my data shape was 3201 rows but after fitting the model m.fit(df), the shape reduced to 1203, and my period is period = 365 and freq = 'D'. But when I plot my predicted data the 365 days added can be seen. Is this normal? From the video, the shape of your data decreased after fitting.",True
+@sandraoriji8351,2023-10-18T13:52:30Z,0,"Awesome Video, but I have a question. Why do you have to filter the dataframe (frame) to build the model? Why no use the whole dataset (df) to build the model. Is there a specific reason?",True
+@thecaptain2000,2023-09-09T07:23:06Z,0,is there a link to the notebook and/or the sample data so we can play around? otherwise it is like watching a movie :),True
+@sametisler3936,2023-07-25T12:40:18Z,0,"Even though I did the same things as you, the results were very different. Why?",True
+@rashibhardwaj506,2023-07-11T21:08:33Z,1,Amazing video👍,True
+@linkvideos.charles3563,2022-11-08T03:23:40Z,0,Hi Nikky please I need your help in research i am working on using the prophet model- how can i contact you its urgent,True
+@CaribouDataScience,2022-07-05T00:30:15Z,0,Is the profit and fbprofit packages the same ?,True
+@MACmultanauto,2022-04-27T15:17:33Z,1,THANKYOU! TEACHER.,True
+@hggaming911,2022-02-01T06:02:53Z,1,Great video...Actually it have answered a lot of questions in my mind.,True
+@mlltips,2021-11-07T20:25:54Z,4,"Hello, great lesson.  What if I want to model like, a thousand SKUs ? Can I use the loop to model each one ?",True
+@michaelleonardo5501,2021-08-10T11:22:44Z,2,"hello, where i can get the data for practicing? thankss",True
+@jskauqwjksu,2021-07-13T20:04:20Z,0,Start 3:02,True
+@NicholasRenotte,2021-07-12T23:18:08Z,2,"Heya guys! Just a heads up, fixed up some of the data, looks like the first couple of days within the month weren't quite reading in right. New data and code available in the GitHub repo!",True

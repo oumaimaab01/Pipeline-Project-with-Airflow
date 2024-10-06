@@ -1,0 +1,72 @@
+author,updated_at,like_count,text,public
+@user-fg5rw2ho9b,2024-02-21T23:32:06Z,0,Could you please upload the codes in the description section?,True
+@Vinit_Ambat,2023-11-14T04:33:13Z,0,Thanks! I made my first ever submission on Kaggle for Spaceship project and got 73% accuracy,True
+@jonathantoniok4477,2023-08-30T10:58:01Z,1,thankyou,True
+@alimengal,2022-12-20T17:47:44Z,0,https://www.youtube.com/watch?v=SMi5O7kXo1w,True
+@matthewmy22,2022-08-14T00:05:05Z,1,"As someone who is mainly accustomed to dplyr, I learned a ton seeing how you manipulate and clean data without it",True
+@pzmt8051,2022-04-04T13:22:03Z,0,Could this be done in Python,True
+@Vaggos16,2022-03-15T10:12:13Z,0,I tried to install package randomForest and doesnt exist in R. What is going on? If someone could help me I would appreciate it.,True
+@nsovoshe,2022-03-04T14:20:13Z,0,"titanic.formula <- randomForest(formula=survived.formula, data= titanic.train, ntree= 500, mtry= 3, nodesize= 0.01*nrow(titanic.test))  I am getting following error:  Error in na.fail.default(list(Survived = c(NA_integer_, NA_integer_, NA_integer_,  :  for this  error you should also make the survived column to be catogorised by converting it into factor",True
+@castilloberroafrancisco2914,2022-01-30T12:31:23Z,1,wow great that's good,True
+@castilloberroafrancisco2914,2022-01-30T12:30:19Z,1,Waooo genial,True
+@stevezhang9276,2021-12-08T00:02:52Z,1,Can someone tell me why he combined the two datasets together? is that mean he change the facts?,True
+@ksoovibe7606,2021-11-06T08:45:09Z,0,Sir could you please explain why did the passenger id change in the submission file?,True
+@CynicalScientist261,2021-08-01T12:06:16Z,1,Can anyone explain strings as factors? I’m new and don’t get it.,True
+@timmetzler4782,2021-05-17T20:01:49Z,0,"at 31:45 for output.df$Survived <- Survived I keep getting the Error:  Error in `$<-.data.frame`(`*tmp*`, Survived, value = c(`892` = 1L, `893` = 1L,  :     replacement has 891 rows, data has 418. Seems like the training set is used instead of the test set, but I don't know why?",True
+@Kaneki-sn3bf,2021-04-06T12:47:35Z,0,What is the 70/30 split. A link to the minute he talked about this would be helpful :,True
+@Kaneki-sn3bf,2021-04-01T13:14:01Z,1,Why fill in with the mode? Why not just put NA for not available? 12.41,True
+@user-fb6ru6ov8j,2020-12-11T13:18:19Z,0,"at 27:34 i don't know why my R show   ""titanic.model <- randomForest(formula = Sur.formula, date = titanic.train, ntree = 500, mtry = 3, nodesize = 0.01 * nrow(titanic.test)) Error in eval(predvars, data, env) : cannot find 'Survived'",True
+@minhaaj,2020-06-21T02:35:16Z,0,share the r code also,True
+@shaista2k1,2020-06-18T10:23:54Z,0,Need at least two classes to do classification error while running the model. Please tell me how to resolve.,True
+@kgrocks5442,2020-06-12T21:04:13Z,0,as.formula is not working,True
+@kgrocks5442,2020-06-10T20:14:58Z,0,It's not allowing me to do rbind,True
+@VineelVishwanth,2020-04-25T06:42:12Z,0,"rf_model <- randomForest(formula = Survived.Fml, data = ttrain, ntree = 500, mtry = 3, nodesize = 0.01 * nrow(ttest)) Error in nrow(x) : argument ""x"" is missing, with no default   How to resolve this?",True
+@taiwankyh,2020-03-30T06:19:06Z,0,Nice video,True
+@Javigarcia222,2020-03-14T21:40:29Z,2,"Error in randomForest.default(m, y, ...) :    NA/NaN/Inf in foreign function call (arg 1) In addition: Warning messages: 1: In data.matrix(x) : NAs introduced by coercion 2: In data.matrix(x) : NAs introduced by coercion   Anyone? I am sure there are no NAs values in the variables selected...",True
+@larsen0966,2020-02-24T17:19:37Z,0,"Here is my code: survived.equation <- ""Survived ~ Pclass + Oclass + Sex + Age + SibSp + Parch + Fare + Embarked"" survived.formula <- as.formula(survived.equation) model1 <-randomForest(formula = survived.formula, data = train_data, ntree = 500, mtry = 3, nodesize = 0.1 * nrow(train_data)) features.equation <- ""Pclass + Sex + Age + SibSp + Parch + Fare + Embarked + Oclass"" Survived <- predict(model1, newdata = test_data)   When I run this in Kaggle Notebooks, I just get a list of 0's an 1's, but it doesn't include the PassengerId. What did I miss?  How do I apply the feature to the predict line?",True
+@kashishmalhotra221,2019-12-06T19:06:46Z,0,The github link is not working.  Does anybody have the code?,True
+@Yuliansen6,2019-09-26T07:55:06Z,1,batman 15:21,True
+@RMCCVO,2019-09-20T14:48:45Z,1,"Error in randomForest.default(m, y, ...) :    NA/NaN/Inf in foreign function call (arg 1) In addition: Warning messages: 1: In data.matrix(x) : NAs introduced by coercion 2: In data.matrix(x) : NAs introduced by coercion",True
+@PitDriver,2019-09-17T20:09:52Z,0,"I get an error when rbinding titanic.test with train. Error in match.names (clabs, names(xi)) : Names do not match previous names? What do I do to fix this?",True
+@amara1037,2019-08-04T19:31:07Z,0,"at 31:45 for output.df$Survived <- Survived I keep getting the Error:  Error in `$<-.data.frame`(`*tmp*`, Survived, value = c(`892` = 1L, `893` = 1L,  :    replacement has 418 rows, data has 0  Anyone else got this and can you help please?",True
+@harshadakale2247,2019-07-21T10:50:28Z,1,Can you upload step by step project with data cleaning and missing values in r,True
+@ananyajha451,2019-05-28T13:34:11Z,0,I am not getting final Survived values as bunch of 0 and 1 but I am getting a bunch of probabilities. Why am I getting this any idea?,True
+@gimpycoder8548,2019-04-09T18:37:30Z,1,Take a shot every time he does that annoying click noise.,True
+@karelsukup1973,2018-11-15T21:59:07Z,2,Thank you so much! It's exactly what i was looking for,True
+@jumi7277,2018-11-14T15:41:06Z,0,"Error in na.fail.default(list(Survived = c(1L, 2L, 2L, 2L, 1L, 1L, 1L,  :  missing values in object Can someone guide me what am I missing   #import the data  titanic.train <- read.csv(""Titanic/train.csv"", stringsAsFactors = FALSE) titanic.test <- read.csv(""Titanic/test.csv"", stringsAsFactors = FALSE) #tail(titanic.train) #tail(titanic.test) #str(titanic.train) #str(titanic.test) titanic.train$IsTrainSet <- TRUE titanic.test$IsTrainSet <- FALSE #ncol(titanic.train) #ncol(titanic.test) titanic.test$Survived <- NA #names(titanic.train) #names(titanic.test) titanic.full <- rbind(titanic.train,titanic.test) tail(titanic.full) #tail(titanic.test)  table(titanic.full$IsTrainSet) titanic.full[titanic.full$Embarked=='',""Embarked""] <- ""S""  #tail(titanic.full)  fare.median <- median(titanic.full$Fare, na.rm = TRUE)  titanic.full[is.na(titanic.full$Fare), ""Fare""] <- fare.median  age.median <- median(titanic.full$Age, na.rm = TRUE)  titanic.full[is.na(titanic.full$age), ""Age""] <- age.median  titanic.full$Pclass <- as.factor(titanic.full$Pclass) titanic.full$Sex <- as.factor(titanic.full$Sex) titanic.full$Embarked <- as.factor(titanic.full$Embarked)  titanic.train <- titanic.full[titanic.full$IsTrainSet==TRUE,] titanic.test <- titanic.full[titanic.full$IsTrainSet==FALSE,]  titanic.train[!is.na(titanic.train)]   titanic.train$Survived <- as.factor(titanic.train$Survived) table(titanic.train$Survived) tail(titanic.train) survived.equation = ""Survived ~ Pclass + Sex + Age + SibSp + Parch + Fare + Embarked"" survived.formula = as.formula(survived.equation)  #install.packages(""randomForest"") library(randomForest)  table(titanic.train$Survived)  titanic.model <- randomForest(formula = survived.formula, data = titanic.train, ntree = 500, mtry = 3, nodesize = 0.01 * nrow(titanic.test))  features.equation <- ""Pclass + Sex + Age + SibSp + Parch + Fare + Embarked""  Survived <- predict(titanic.model, newdata = titanic.test)  PassengerId <- titanic.test$PassengerId  output.df <- as.data.frame(PassengerId) output.df$Survived <- Survived tail(output.df)",True
+@kumarsrajesh9078,2018-11-06T07:50:37Z,0,hi please help me not able to download data set.,True
+@uhsay1986,2018-09-22T18:35:24Z,1,why the 2  missing embarked  cells were assigned to only S and not to C or Q ?,True
+@akashvp5262,2018-07-07T05:37:18Z,0,Error in tail(titanic.train) : object 'titanic.train' not found. am getting that error,True
+@funkmouseyang,2018-06-16T12:32:00Z,0,Why is he going so fucking fast,True
+@swati2793,2018-06-10T14:14:58Z,1,"That's a good video. However I did not understand that what was the need to converting variables(pClass, Sex, Embarked) into factors through as.factors. Also why did we convert survived into factors after spitting the two data sets here. I would be grateful if someone could explain it in a bit detail. Many thanks :)",True
+@akshyaa5127,2018-06-07T10:38:54Z,0,Learn Machine Learning with placement assistance visit http://www.trainingmarathahalli.com/machine-learning-using-r-training-in-marathahalli/,True
+@lidaabdollahi470,2018-06-04T17:27:25Z,0,great!,True
+@vamshikrishna6410,2018-06-02T09:05:38Z,0,"titanic.combine <- rbind(titanic.train, titanic.testing) Error in match.names(clabs, names(xi)) :    names do not match previous names   im getting this error anyone please help me out",True
+@neerajraut6473,2018-05-16T22:32:02Z,1,why particularly random forest? Why not any other classification technique?,True
+@TheMarinho1,2018-05-09T13:24:53Z,1,"Nice Video! But, I get an Error for nodesize = 0.01 * nrow(iris.train) stating ""Error in nrow(x) : argument ""x"" is missing, with no default"" Can anybody help me?",True
+@amansingla5440,2018-04-17T07:07:45Z,0,very well explained! Thank you so much..,True
+@Fateaha,2018-03-16T13:25:43Z,1,Why we using median here and not the mean?,True
+@yashuverma3811,2017-11-27T12:40:22Z,0,"Hi , why did we add 'S' only for the missing values. ? Also by mistake i added small s which now shows me   C   Q   s   S  270 123   2 914  .. how can i remove the small s now ?",True
+@clinton11994,2017-11-23T08:30:21Z,0,"HI, how does the R Random Forest classifier deals with data with categorical and quantitative data ?  and also any suggestions on dealing with the same problem if we want to use any other classification algorithms .?",True
+@dipeshjoshi9093,2017-11-05T10:55:50Z,0,Awesome tutorial. Thanks for sharing. :),True
+@upasnasharma8149,2017-10-26T16:29:55Z,0,"Hi... After using rbind() to create titanic.full, Im getting this :-   Error in titanic.full$IsTrainSet :    $ operator is invalid for atomic vectors What should i do?",True
+@tws061105,2017-09-20T11:09:15Z,0,Does this video display as blurry for anyone else?,True
+@moumitapal3184,2017-09-07T08:06:12Z,0,"titanic.formula <- randomForest(formula=survived.formula, data= titanic.train, ntree= 500, mtry= 3, nodesize= 0.01*nrow(titanic.test)) after this,  "" Error in eval(predvars, data, env) : object 'Sibsp' not found ""  is coming. Nor is it working with  titanic.formula <- randomForest(formula=survived.formula, data= titanic.train, ntree= 500, mtry= 3, nodesize= 0.01*nrow(titanic.train))  as someone has commented below. The same error is coming. Do you have any solution for this?",True
+@ihababdelbassetannaki6871,2017-08-30T15:01:12Z,1,"titanic.train <- titanic.full[titanic.full$ISTrainSet==TRUE,] titanic.test <- titanic.full[titanic.full$ISTrainSet==FALSE,]  those 2 lines , make me lose all my observations ...",True
+@deepakkannan7409,2017-08-06T14:52:32Z,5,"Hi  features.equation <- ""Pclass + Sex + Age + SibSp + Parch + Fare + Embarked""  I could not see this features.equation to be used anywhere",True
+@deepakkannan7409,2017-08-05T11:14:06Z,2,"Hi,  In the 20:00 min he basically introduced the concept of ""Categorial Casting "" and you convert only certain types of columns to factors.  My doubt is   1. What is ""Categorial Casting""?  2. Why is it used in only for certain data and not all?  3. What will happen if we do our model without it?  Many thanks in advance.",True
+@cheddar-samosa5789,2017-07-30T20:16:01Z,4,"Hi, I am facing a minor issue.  After this:  titanic.formula <- randomForest(formula=survived.formula, data= titanic.train, ntree= 500, mtry= 3, nodesize= 0.01*nrow(titanic.test))  I am getting following error:  Error in na.fail.default(list(Survived = c(NA_integer_, NA_integer_, NA_integer_,  :    missing values in object  Can someone please explain??",True
+@469jnishant,2017-07-02T04:22:58Z,0,"Hi..can you please tell why didn't we convert the categorical variables into dummy vars...also, is there a need to convert them to dummy vars here at all ? if not then why do some tutorials say to convert into dummy vars and then use",True
+@girishahb01,2017-06-23T03:49:49Z,0,Thank you so much,True
+@jamiebond8481,2017-06-05T17:14:41Z,3,"thank you for the tutorial, this is great and easy to understand. I am learning how to analyze datasets from Kaggle, and this is great help for me for my final project for my school.",True
+@lnasution76,2017-06-02T10:37:57Z,0,thanks for sharing - great stuff,True
+@anuragkeshavaraju2169,2017-05-24T09:08:48Z,1,"Hello , All i get is like this "" > tail(output.df)     passengerId   Survived 413        1304 0.38337855 414        1305 0.04974327 415        1306 0.99573333 416        1307 0.01896443 417        1308 0.04974327 418        1309 0.54535266"" and survived column in test is NA.........plz xplain.",True
+@4upranit,2017-05-20T09:52:47Z,0,"i am new in this, can anyone explain why thr are two data sets  eg. train.csv and  test.csv   thank you",True
+@prvns8586,2017-04-13T04:26:19Z,0,too awesome...!!!!!! great help,True
+@cybern9ne,2017-04-11T22:05:56Z,2,I doubt you're should manipulate or clean test data. the test data should be approached as if it were the data that would be used after modeling you'd never have the opportunity to utilize.,True
+@mcpduk,2017-03-19T11:04:50Z,1,What exchange rate did you use to convert the fare into $ from £   :),True
+@amoghhuilgol1317,2017-03-13T04:54:35Z,0,"I am new to machine learning . In a large dataset with lots of columns/attributes , how do we decide which attributes to choose for our random forest . In the above video , I could see that you have hardcoded the attributes . How can we choose attributes dynamically?",True
+@amoghhuilgol1317,2017-03-13T04:49:03Z,4,"at 31:55 , how do you map isSurvived and passengerId . I mean how do we know , which value belongs to which passengerId?",True
+@spunkykid5898,2017-02-26T05:14:33Z,3,"Hi, I was unable to combine when using rbind, any idea of what could be causing the issue?",True
+@ChrisR410a,2017-02-09T00:46:04Z,0,So what was the point of creating the features.equation?,True
+@Jsl_516,2016-12-28T21:37:48Z,0,Great tutorial!,True

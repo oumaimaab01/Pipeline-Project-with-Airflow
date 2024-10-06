@@ -1,0 +1,38 @@
+author,updated_at,like_count,text,public
+@SashaBakman,2020-09-29T18:13:06Z,0,"It looks like dictionaries inside of dictionaries, and not lists inside of lists.",True
+@jk3089,2020-04-25T08:32:40Z,0,"It looks you're talking to yourself, big pardon.",True
+@mhamedchehbouni2412,2020-01-23T08:09:07Z,0,The ‘urllib’ has no attribute ‘quote’ that’s the error message I got,True
+@trevorweir,2019-10-22T17:35:53Z,0,"Doesn't actually work as is anymore for a number of reasons, not the least amongst them being that the primary component the ajaxGoogleapis most definitely isn't sitting here after 6 years waiting for us impatient programmers to scrape it to our hearts content. ;-)",True
+@merrileemchugh7747,2019-06-24T01:34:34Z,0,So I am trying to search from a csv Utf8 file I am parsing. So anyway I can search that lift in a loop and how would that be written?,True
+@Daloshka,2019-06-15T07:08:58Z,1,if somebody needs                            encoded = urllib.parse.quote(exampleSearch),True
+@samareshyadav9681,2019-05-06T04:03:41Z,0,getting The Google Web Search API is no longer available. Please migrate to the Google Custom Search API. for this ajax url 'http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=python%20tutorials'  what to do now??,True
+@cyberbiosecurity,2018-12-04T03:59:50Z,1,2:12 ...with urllib TWO *small-hysterical-laughy*...,True
+@golnoushasaeikheybari26,2018-10-26T03:22:09Z,0,"In the last part of the video, you mentioned the hard way of searching google. what is the hard way? and as you probably know right now this google API does not work anymore. So, would you please release a video of doing the same thing in Google custom search API?",True
+@redpilledpatriot6868,2018-08-23T14:54:06Z,0,"here's the link but itd be  a waste of pure time to do this tutorial because when you click on this link >>> http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q= you get this as a result. >>> {""responseData"": null, ""responseDetails"": ""The Google Web Search API is no longer available. Please migrate to the Google Custom Search API (https://developers.google.com/custom-search/)"", ""responseStatus"": 403}",True
+@sairajdas6692,2018-08-18T18:17:07Z,8,http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=,True
+@AncientEntity,2018-07-06T01:50:55Z,0,Can you make an updated version for this if you haven't already?,True
+@ewanbristow,2018-04-04T15:59:05Z,0,"so where can i access the urllib file, im not able to find it anywere",True
+@abhishtagatya,2018-03-24T07:04:34Z,0,does it still work in 2018? or is there a better way?,True
+@garybutler3442,2018-03-16T11:58:58Z,0,@sentdex you are helping me learn Python!  Thank you for that.  Do you have an updated tutorial for this?,True
+@lassebg4579,2017-08-31T06:40:41Z,0,"Chrome is a memory hogging, unstable and a major drain on battery life. but beside that everyone loves that browser!",True
+@grupomexico4679,2017-07-19T00:58:03Z,0,post the code for download ever,True
+@italianoaj,2017-07-05T17:34:58Z,0,he didnt put the link in the description...,True
+@hfjimenezs,2017-04-13T00:07:49Z,0,"This is not working, @sentdex update this, I just understand your explanations..",True
+@balasrinivas8646,2017-01-13T11:10:07Z,0,"Hey, I have a list of names in an excel sheet. would like to google them get the responses back to excel sheet. Do you think it's possible if so could share some sample code with me?",True
+@blockeaterFahd,2017-01-11T16:43:54Z,0,"sentdex -  Message comes: 'The Google Web Search API is no longer available,Please migrate to the Google Custom Search API (https://developers.google.com/custom-search/)' Any solution?",True
+@RicardoPorteladaSilva,2016-12-31T15:37:29Z,1,your knowledge is so fantastic! I figure how much time I'll need to learn what you know!?,True
+@rohitmishra4938,2016-12-11T13:56:48Z,1,pakau video.......u speak a lot...........its annoying man...........shutup......!!!!!!!!!!!!,True
+@SagarJeevan,2016-08-18T16:34:27Z,1,Couldn't we just use BeautifulSoup module and get the same? How different is Json module from BeautifulSoup?,True
+@BrijrajSingh08,2016-06-07T08:03:40Z,0,"Message comes: 'The Google Web Search API is no longer available,Please migrate to the Google Custom Search API (https://developers.google.com/custom-search/)' Any solution?",True
+@toequantumspace,2016-03-06T19:57:05Z,0,It is in jsonData = json.loads(rawData),True
+@toequantumspace,2016-03-06T19:49:07Z,0,"Good one! I have an error: TypeError: theJSON object must be str, not 'bytes'  What to do?",True
+@DavidBudaghyan,2015-09-04T18:31:44Z,0,"Thanks for the great tutorial I have a few question left. How long should we wait between multiple queries, and how many queries per day can we make?",True
+@johnrolfe9452,2015-08-20T09:53:54Z,0,thanks excatly what i was looking for!! legend,True
+@Azariven,2015-08-19T15:03:14Z,6,"There is a problem with this method is that google ajax limits you to 50 searches per day and automatic search through a list of data would give you ""Suspected Terms of Service Abuse. After some searching, this module is actually deprecated after 2010",True
+@Azariven,2015-08-19T14:06:48Z,0,Great Video! looking forward to the hard way!,True
+@mahmud9595,2015-05-06T09:54:39Z,0,"Great tutorial :) Do you also have the tutorial on the 'hard way""?",True
+@drrockerscott,2014-11-13T04:43:17Z,0,"How did this work for you?  I get an error from the json.loads() routine when I run this code: Traceback (most recent call last):   File ""example3.py"", line 11, in <module>     jsonData = json.loads(rawData)   File ""/usr/lib/python2.7/json/__init__.py"", line 338, in loads     return _default_decoder.decode(s)   File ""/usr/lib/python2.7/json/decoder.py"", line 366, in decode     obj, end = self.raw_decode(s, idx=_w(s, 0).end()) TypeError: expected string or buffer   If I print rawData it says: <bound method _fileobject.read of <socket._fileobject object at 0x7f34487ac9d0>>",True
+@AGliders,2014-10-13T08:20:23Z,1,thanks been looking for this for weeks.  can i have the link for searching Google the hard way link?  Thanks in advance.,True
+@user-mo1gd2xc2e,2014-09-23T08:34:19Z,0,thank you:D you help me:D,True
+@SnackbarTime,2013-12-08T22:06:11Z,0,Cool video.,True
+@luffyum,2013-12-08T17:45:58Z,4,"Nice video. Just one nitpick, the json data should be referred as a muti-dimensional dict, instead of list.",True

@@ -1,0 +1,242 @@
+author,updated_at,like_count,text,public
+@statquest,2020-01-21T21:03:59Z,53,"Corrections: 9:03. The values for the intercept and slope should be the most recent estimates, 0.86 and 0.68, instead of the original random values, 0 and 1. 9:33 the slope should be 0.7.  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@gilao,2024-05-25T11:33:20Z,1,Another great and simple video. It's always a pleasure to see that there is a stat-quest video about a thing I'm looking for. Thank you!,True
+@rishitjoshi8774,2024-04-30T15:02:31Z,0,Thanks a lot josh for this video. can you please make a video on sgd with momentum.,True
+@user-lw8zw5lq8l,2024-02-29T19:33:46Z,2,"This man should be awarded !! I feel ML is a simple math putted out it in a complicated way, and people like Josh exactly pop in there and makes the math simply understandable....!  And ofc his teachings are BAAAAAAAAAAM! Cant belive taking his wisdom which was made past 4 years!",True
+@Shrikant_Anand,2024-02-13T17:43:05Z,0,"I really appreciate your efforts and love your way of explaining complicated concepts in Stats and ML in a calm and cool way. Related to this SGD video I have this doubt.  My understanding of epoch is that it tells how many times the learning algorithm has seen the training data. An iteration corresponds to one pass-through parameters updation in the gradient descent algorithm. Batch size = # training samples used to express the loss function. Iterations per epoch = # training samples(N) / batch size. In SGD since one random sample is being chosen at each step therefore batch size = 1. N iterations per epoch would be there and these N iterations may involve repeated sampling of some training data points.  My question is in a deep neural network, is SGD slower than batch gradient descent because in SGD optimizer case frequent forward and backward propagation occurs, and more iterations per epoch are there? And is it the opposite in case we use SGD for linear regression in ml ?  Thank You",True
+@astromq8870,2024-02-10T18:32:20Z,1,StatQuest you're YYDS !!!!,True
+@taruchitgoyal3735,2024-02-03T10:44:14Z,0,"Hello Sir, When we use mini batch gradient descent, we choose the mini batch randomly or it is selected in the sequence the original data was divided into small mini batches? Thank you",True
+@Pwaing,2024-01-11T12:46:58Z,2,"This is gold, appreciate it! I really like how you take things one step at a time. It helps me understand better!! BAM!!!",True
+@zhiyuzhang7096,2024-01-03T04:13:17Z,1,bro is a savior,True
+@letranminhkhoa7492,2023-11-28T07:44:54Z,41,"I love it that you only go slow, and really slow, and do not assume people have understood everything and skip steps at all. Truly a wonderful explanation for a seemingly hard-to-grasp stuff! Keep up your good work!!",True
+@belhassenaissaoui6936,2023-11-22T14:52:12Z,0,I thank you so much for your explanations! As you are a big lover of BAM !!!! I have a small gift for fun : an Arabic song with lot of BAMs : https://www.youtube.com/watch?v=fyMtQbr_17g,True
+@jamesso6952,2023-11-22T13:37:26Z,0,Can you do a video on Proximal Gradient methods with some examples of it pls? Thank you.,True
+@joshuacoleman6122,2023-11-21T14:49:37Z,1,My name is Josh too!,True
+@hemantishwaran5741,2023-11-16T02:22:40Z,0,You took something simple and made it so dumbed down it was ridiculous,True
+@thomasbates9189,2023-10-26T12:59:42Z,1,You're a special kind of awesome! I have learned so much from your videos! Thank you!,True
+@waisyousofi9139,2023-08-26T08:51:06Z,0,@2:19 i think here a catch. consider order of datapoint,True
+@mrnobody_ken,2023-08-20T03:37:05Z,0,How will the Mini batch ( 3 sample per step ) looks like? Thank you,True
+@ramankumar41,2023-07-11T12:02:20Z,3,You are the best ML instructor I have so far come across !!!,True
+@paraskumar693,2023-07-08T20:10:38Z,1,CLEAR,True
+@amnont8724,2023-07-02T18:42:11Z,0,"9:58 Hey Josh, if the random sample we're picking in sgd turns out to be an outlier, how problematic is it?",True
+@qlfnj1845,2023-06-24T14:19:43Z,0,do you have a video on ADAM optimization?,True
+@thegt,2023-06-19T18:36:12Z,1,"Thanks for your work! Your explanation is well thought, clear, and entertaining.",True
+@yourfutureself4327,2023-06-11T04:27:34Z,1,🧡,True
+@amnont8724,2023-06-04T18:33:47Z,0,"Hey Josh, whenever we use a mini-batch, we compute their sum of squared residuals each time right? Just like a normal gradient descent algorithm",True
+@TheVersionController,2023-05-27T19:19:12Z,0,"These videos are amazing.  When adding a new sample, it looked like a bit of an outlier compared to the clusters where you took the original random points. So how much weight do you give one new sample compared to random values from tightly packed clusters?",True
+@bhagyashreesonawane7040,2023-02-15T05:01:17Z,0,"Can anyone explain: Why we would need to calculate 1,000,000 terms for each of the 23,000 derivatives.",True
+@muhammadumarsotvoldiev8768,2023-01-10T10:16:27Z,1,Thank u very much. Really clear explanation!,True
+@thebiggerpicture__,2022-12-29T04:25:59Z,1,I'm literally liking this video and commenting after the intro song. Well done!!,True
+@minus21334,2022-12-27T17:19:36Z,0,"SIr, does this have anything to do with conjugate gradient?",True
+@martinsanchez-hw4fi,2022-11-02T17:35:32Z,0,Can't  I update the parameters in regular GD?,True
+@kipropcollins4220,2022-10-24T10:28:52Z,0,"safe for the cringy intro, everything was just fine",True
+@sqliu9489,2022-10-17T21:56:33Z,1,Very good video! Thanks,True
+@shelo1747,2022-10-12T12:35:08Z,1,"brief and clear explanation, great",True
+@Mars7822,2022-10-10T06:43:26Z,1,Excellent and Informative and Bam!!!!!!!!!!!!!,True
+@Waffano,2022-10-07T13:02:44Z,0,"Question alert! In your videos of gradient descent you mention that the ""optimal"" weights and biases are found when the step size gets really small or the number of steps get really large. Is this also true when using epochs in tensorflow/keras? As far is I understand from (activate big scary reverb + echo effect): THE INTERNET, it just stops when it's done with the last epoch, and it doesn't use step size or number of steps in any way? Is this true or have I been fooled? The internet confuses me sometimes... Any help would be much appreciated. Thanks alot!",True
+@technicalbranch99,2022-10-01T21:57:33Z,1,"A catchy, banger intro silly song on this video ;)",True
+@eulerthegreatestofall147,2022-10-01T00:27:49Z,2,"Josh, you make everything easy to understand! Many Thanks!",True
+@isseym8592,2022-08-25T10:34:08Z,0,I would love if you make a series/a playlist of all the basics of Machine Learning videos. Found the best channel for ML,True
+@user-ur2en1zq4f,2022-08-24T12:26:20Z,1,"love it, BAM!!",True
+@basmashalaby3877,2022-08-15T18:27:28Z,0,what does the -2 that stands in the sum of squared residuals equation stand for?  and why the power 2 disappeared?,True
+@SumitSharma-pu6yi,2022-08-09T11:25:07Z,0,"You may ask a question and say, ""Bam Bam Baaaammmm!!'",True
+@OlivierNayraguet,2022-07-31T20:35:35Z,1,Just ordered a red Tshirt from you. Thanks for the great work.,True
+@darceysinclair8929,2022-07-10T06:08:31Z,1,"Hi Mr. Stramer, i hope you have a wonderful day.",True
+@masantackrd,2022-06-28T16:23:50Z,0,"Hi. If no of feature is 23000, will not the no of derivative be 23000^2 (squared) ?",True
+@xfadl,2022-06-23T05:18:50Z,34,"this video is so much better than what we have in university. Thank you man, you are a legend",True
+@medad5413,2022-05-19T22:46:28Z,2,Super clear,True
+@sophie0010,2022-05-14T12:38:35Z,1,I have to admit its is clearly explained!! amaziing,True
+@neowisek7757,2022-05-11T17:37:50Z,1,I just watch these for the intros lmao,True
+@yc6768,2022-05-03T15:01:50Z,0,"Thanks for the video. I am confused still. Does stochastic just mean using a set of random sample data? Once the sampling process is done, we are back to the normal GD calculation? In an extreme scenario, if the output of the sampling step is the first three data points out of the 1,000 data points, doesn't it produce exact the same as if a normal gradient descent method with only the first three data points? Thanks again!",True
+@adrianrs79,2022-04-28T11:10:02Z,1,NIce beginning!!!,True
+@AlexanderOrtiz-hf9qx,2022-04-27T18:43:39Z,0,"Good, vert good. Now the follow explanation is SPGD. I really wait for that.",True
+@hungrywaffle123,2022-03-31T01:06:35Z,1,This channel is a GEM,True
+@NuclearSpinach,2022-03-24T14:35:30Z,1,Best intro song,True
+@riteish01,2022-03-18T14:15:38Z,1,One word ! Revolutionary Lots of love from India 🇮🇳 Bam 💥,True
+@dekroplay5373,2022-03-14T01:31:19Z,1,Thanks for clearly explaining stochastic gradient descent. :),True
+@luthfishahab,2022-03-13T03:14:36Z,1,Really nice. Subscribed.,True
+@mahdimohammadalipour3077,2022-02-27T07:55:03Z,0,Thank you for the details you provided. Is it possible to use new data in GD just by easily taking it into account in future calculations or we have to start from scratch?,True
+@marekdudzik6779,2022-02-14T08:56:47Z,1,Best explanation,True
+@whaysdsdsd973,2022-02-12T01:45:31Z,1,Thank you. It's very very very clear and helpful. ,True
+@alihaider2655,2022-02-03T17:06:30Z,2,Best explanation in the shortest time possible,True
+@mankitlau3388,2022-01-03T08:56:05Z,0,Bam,True
+@a_sun5941,2021-12-28T07:50:21Z,0,so the stop criteria for stochastic GD is same as regular GD? i.e. once it reached max number of steps or step size < a very small number,True
+@vtrandal,2021-12-08T14:33:42Z,0,Probably excellent content but the music blew me out of my chair. Not your fault. YouTube needs to care about this variation in volume levels from one video to the next.,True
+@yoonchaena671,2021-11-30T06:21:51Z,1,you are the best,True
+@oddyvirgantara,2021-11-24T00:39:47Z,0,"Impressive tutorial. Certainly, I will suggest this channel to my students.  I have a question. How do we determine the mini-batch? Or which point should we pick for every step?",True
+@xMarious98,2021-11-17T18:25:59Z,1,Ti amo,True
+@user-ye2ni2hi9v,2021-10-25T17:21:41Z,0,Could you make a video of stochastic gradient descent for binary data(quantal response data)? TT I need help!,True
+@millionwolves,2021-10-12T14:19:26Z,1,"@Josh, why would people dislike these videos I wonder ! The SGD is a cost saver on large datasets.",True
+@user-ch2sd6fm5l,2021-10-02T23:53:18Z,1,literally GOATED,True
+@SarcasticOnion,2021-09-25T17:57:07Z,1,"I'm writing my thesis, and you are my hero",True
+@numpyasnum1768,2021-09-04T08:31:56Z,1,😂😂Not me going through all the tutorials just to see the intros,True
+@masteroverlordfluffy7521,2021-08-09T04:42:38Z,1,One day we will experience the legendary quadruple bam,True
+@abigailbarton195,2021-07-22T07:26:24Z,2,I am super dunked off of vodka and coffee right now and I feel like I just understood every complex maths class I've ever taken before. I understand now! THANK YOU! even my impaired mind can comprehend this at X2 speed.,True
+@parvathyprathap4344,2021-07-22T07:25:44Z,1,Short and Clear explanation. Thanks a lot!!!,True
+@agrimable,2021-06-23T09:46:44Z,1,This is amazing,True
+@siddharthsrivastava187,2021-06-11T12:32:50Z,0,Whats the formula for reducing learning rate at end of each epochs?,True
+@mohammadshojaei513,2021-06-07T13:05:26Z,1,"cool , tnx",True
+@vincent_hall,2021-06-07T10:28:11Z,0,"Great, thanks. Reminding me of what I learned a long time ago.  4:12, I'm pretty sure that 23 billion*1000 = 23 trillion, not 2.3 trillion.",True
+@orioncloud4573,2021-05-22T11:44:31Z,1,I could frankly say I learned the theory of stats from u.,True
+@orioncloud4573,2021-05-22T11:42:09Z,2,"You are great. I'm glad I found you. Whenever I get stuck with the theory of something, you're there to help.",True
+@nandankakadiya1494,2021-05-15T12:11:42Z,0,"Please make a video on Adam optimizer, adagrad and rmsprop",True
+@pavanvamsitadikonda3843,2021-04-17T03:04:40Z,6,Thank you Mr. Josh. Your videos are really game changers. I love them and your songs even more. I will buy so much of your merchandise when I am employed,True
+@NuclearSpinach,2021-04-12T15:27:27Z,1,Thank you for helping with my PhD research!,True
+@efrdefrd10,2021-03-27T08:47:31Z,1,how are you so good at explaining,True
+@laiweihandaryl8709,2021-03-20T10:26:38Z,0,"Hi Josh, thank you so much for your video. I'd like to ask, if I'm already doing Lasso Regression, should I still do gradient descent after that? Thanks.",True
+@dmitricherleto8234,2021-03-19T10:47:34Z,1,You made my day thanks!,True
+@youssefhunter5225,2021-03-13T22:45:41Z,1,Nice you explained that clearly 👌👍🙂,True
+@mahdiamrollahi8456,2021-03-07T02:47:49Z,0,"Hello Sir, I wanted to know how I can calculate the derivative of the loss function(Cross-entropy) based on mini-batch gradient descend for classification problems. I know the formula for stochastic-gd but I do not know how I can have it for mini-batch? Is that the same as stochastic-gd?",True
+@wesleysbr,2021-02-25T14:35:21Z,0,"Your explanations are great, thanks. In fact what do you think about selling your slides on your website? I would certainly buy some.",True
+@danielr1040,2021-01-14T04:36:23Z,0,"Thanks for the explanation! one question, I found on some book that SGD was strictly bunary classifiers, but on this video I can see that is not the case, do you know something about that statement?",True
+@hafededdinebendib5974,2021-01-07T21:51:42Z,1,"Amazing axplanation sir, thnx a lot",True
+@gezilycians1699,2021-01-06T11:58:45Z,0,"very well explained!! However, how do we know the redundancies? That part is not very clear.",True
+@random-ds,2020-12-31T13:23:29Z,0,Thank You Josh for this another amazing work! I have a little question: They say that SGD is great in not getting fooled by local minima. However I don't see with this explanation or the one for GD how it does that. For me it will beasily tricked by local minimas especially with a small learning rate. Thanks in advance for your help.,True
+@j8ahmed,2020-12-16T12:06:22Z,1,"Another solid video. Thanks a million!! I had to go through a bit of problem solving to neatly wrap my functions and compare the execution times in Python. But yeah, I found that on the same data set (small in size) regular gradient descent (batch gradient descent) was faster but was less accurate than Stochastic gradient descent in calculating the slope & intercept for the line of best fit.   My Example: - 13 data points - Solved for Slope & Intercept using both types of gradient descent  - Used Sum of squared residuals derivative  Batch Gradient Descent Time = 0.0967 s Stochastic Gradient Descent Time = 1.2740 s Linear Regression function from scipy stats = 0.0015 s",True
+@hawkiyc,2020-12-11T16:52:31Z,0,"Dear Josh,  Thank you for your easily understandable video about SGD, your videos really help me a lots.  May I ask a little question about SGD and local minima in Neural Network? I can understand that due to higher error with each epoch for SGD, and also mini-batch, can avoid local minima in Neural Network, but such understanding is only conceptual, not mathmatical. Could you please mathmatically explain how SGD escape local minima?  I deeply appreciate your time for reply my question.  Sincerely, Gavin",True
+@hanhan2360,2020-11-28T03:18:42Z,1,BAMMMMMMMMMM!!!!!,True
+@liuqing1995,2020-11-18T08:56:03Z,0,"4:11 I think 23,000,000,000 multiplies 1,000 is 23,000,000,000,000",True
+@Jonathan-bn8hb,2020-11-17T18:18:54Z,0,"Hi, In the end you said that usually we pick a small subset or mini batches. I'm not sure how you calculate multiple inputs from the mini batches at the same time. Could you please elaborate it more? Thank you",True
+@vugluskr1008,2020-10-24T19:17:28Z,0,What if Gradient Descent was (somehow) computationally feasible ?,True
+@petercummings5230,2020-10-24T15:11:52Z,1,I love your channel! Could you make videos on reinforcement learning?,True
+@GauravSingh-ku5xy,2020-10-21T17:56:45Z,1,Thanks man. It looks easy when learned from your channel.,True
+@19SpeedFinger19,2020-10-13T08:54:11Z,2,What do I get when completing all your quests? 🤗 So much thank you at this point too!,True
+@rajchoksi3533,2020-10-12T19:04:13Z,4,You just made machine learning look so simple  BAAAAAAMMMMMMMMM,True
+@smaug9833,2020-10-12T11:19:39Z,1,Definitely better than reading my black and white book full of jargons,True
+@GAment_11,2020-10-10T03:05:50Z,2,Here to gain my daily bam's.,True
+@user-mt3od8im1t,2020-10-07T08:32:15Z,0,What do you pronounce these annoying “BAM”,True
+@PuroCyanHQ,2020-10-07T03:17:21Z,0,"2.3 trillion terms ain't nothing, apple has 2.3 trillion dollars now.",True
+@azul_azure,2020-10-05T00:18:23Z,1,BAAAAAAAAAAAAAAAAAAM,True
+@toxic_narcissist,2020-09-13T13:41:28Z,1,Clearly explained indeed! Great video!,True
+@trevorfedyna1155,2020-09-09T13:50:44Z,12,5 seconds into the intro: *smashes subscribe*,True
+@JtotheAKOB,2020-09-01T23:39:50Z,2,"dude....you are funny....honestly.....i didnt think i would laugh while learning about SGD....i was suprised, entertained and amazed by your video. thanks for that. now i go back to writing my stuff :D",True
+@Amritanjali,2020-09-01T12:01:01Z,0,how step size calculated ?? d(error)/d(m)=x then d(m)=d(error)/x  why here we are multiplying with learning rate,True
+@jorostuff,2020-08-26T08:59:56Z,0,"IMO, the first 22 seconds of the video are unnecessary and I wish you could get straight to the point.",True
+@tekkkkkkkkkkk,2020-08-26T04:29:06Z,6,"I am sooo sad that I did not find this channel sooner, but now I know what I'm going to do the next weeks or month :) Great job! Really informative videos!",True
+@adityavlogs8284,2020-08-19T17:49:57Z,1,BAAAAAMMMMMM  ......superb explanation once again,True
+@DerMilke,2020-08-07T16:10:37Z,0,"It was good, but 3 ads (2 nonskippable ~20 seconds, 1 skippable after 5 seconds) is quite much for an 11 minutes video. ^^",True
+@av3499,2020-08-03T09:12:33Z,0,"so why do we need to do guess-work using gradient descent, if the 'gold-standard' (ordinary least squares OLS, right?) can give us the direct formula (closed-form-solution) ? can you give a simple example where OLS won't work ?",True
+@RH-zp1ry,2020-08-02T10:20:49Z,0,"Im not sure i got the last point through... If i used regular gradient descent to find the regresion line, then added a new data point to the graph - why isn't it possible to do the calculations only for the new point, to update the regresion line?  Thanks a lot in advance!",True
+@rishigupta2134,2020-07-21T08:06:50Z,1,how I cannot subscribe your channel. Baam hit the like button,True
+@littleKingSolomon,2020-07-20T23:53:56Z,0,In gradient descent(not stochastic) we can also use additional sample point when when new data arrive since each sample point means just add one  more term to the derivative functions right?,True
+@gowthamprabhu122,2020-07-20T13:28:19Z,0,Can you make a video of vanishing and exploding gradient descent problems please ?,True
+@nadineca3325,2020-07-20T03:45:24Z,1,Thank you !!!!!,True
+@pabwalomalawi8214,2020-07-17T21:26:33Z,1,"then we did the math.... no josh, you did the math :)",True
+@razzoukelias9088,2020-07-13T11:19:29Z,0,"Very usefull video, except ""Bam, pep pop, double bam""which are very annoying things i would recommed you just to remove them if it is possible. Thanks",True
+@mohan007ish,2020-07-05T20:55:01Z,0,"Parameters here are nothing but height and weight right? And we also call intercept and Slope as parameters? Slightly confused, can someone help me understand here? Thanks",True
+@barankaplan4308,2020-06-27T00:38:32Z,1,you are born to explain ML !,True
+@anirudhsrivatsa6320,2020-06-23T18:38:55Z,0,Sir can u teach back propagation in machine learning please,True
+@pranitadas3479,2020-06-18T14:58:30Z,0,I loved the way you explain the concepts in a very simple and cool way.  Can you please explain how the leaning rate is calculated for each iteration?,True
+@89rmehra,2020-06-15T05:37:49Z,1,Thank you.. Your video is very helpful in breaking down the concepts to basics  :),True
+@karanbudhale1222,2020-06-13T15:29:35Z,0,Will you able to make any vedio on explaining loss function? Role of loss functions in ML and different type of loss functions we use please?,True
+@kiran082,2020-06-09T02:11:49Z,1,Excellent Explanation.Thank You,True
+@fangf22,2020-06-05T16:34:42Z,1,Prof.BAM is very impressive!,True
+@tostupidforname,2020-06-02T15:56:44Z,2,I gotta say this channel is amazing. Its especially nice as an amazing complement to the math side i learn in university.,True
+@khadajhin4019,2020-05-30T05:40:41Z,25,"This is like my second video on your channel and holy moly everything you explain is so clear and just clicks in my head. I truly appreciate this, you are a blessing to the learners",True
+@Yangselw,2020-05-28T05:10:01Z,7,Dude you’re just freakin good at explaining this stuff,True
+@meghnanatarajan6355,2020-05-20T12:28:32Z,1,"Great tutorial,loved it!",True
+@tiasm919,2020-05-17T11:39:31Z,0,"So we dont need to calculate the loss function to do the actual backpropagation ? We only need the loss function formula so we can find the derivate to do the backpropagation, am i right ? Thus the loss function only give us a numerical expression of how well our model perform ?",True
+@abhisheksaxena6413,2020-05-12T13:14:11Z,2,best channel for machine learning with quality content,True
+@anlenguyenchi6716,2020-05-08T10:04:28Z,0,"QUESTION: When I have one new data, I have to re-calculate the slope and the intercept. In condition I used learning rate scheduler to train the old model, which value of learning rate I should use to train model with my new data? Thank you a lot!",True
+@konstantin6482,2020-05-07T10:08:59Z,0,this channel is a fuckig gem,True
+@JoseRojas2,2020-05-02T03:20:09Z,1,Outstanding! Thanks a lot,True
+@talebmohammedhousseyn6054,2020-04-29T15:15:37Z,0,please add som€ examples with momentum :) greaaat channel thanks,True
+@insanaprilian8184,2020-04-28T17:59:11Z,5,"Just leave a mark here to appreciate every work you did Mr. Josh, thank you very much",True
+@hemaswaroop7970,2020-04-24T20:00:12Z,1,"Fantastic explanation, Man!!👍👍",True
+@winniexu,2020-04-21T02:47:27Z,2,Love your videos! Will you consider doing some on stochastic variational inference and stochastic processes? ;),True
+@nataliebogda6554,2020-04-20T03:39:13Z,2,Better than any stats class I’ve ever taken,True
+@Kantorysta,2020-04-10T13:50:14Z,1,Ultimately good :),True
+@zeynabmousavi1736,2020-03-24T02:22:36Z,0,"Thanks for an other great video. I have a question not directly related to stochastic gradient descent. When there is not a lot of images available for convolutional neural network, what are other methods you suggest to do image classification? I have around 100 images for each class of image.",True
+@lakshaydulani,2020-03-23T20:36:29Z,0,"so to sum up, SGD is basically GD with randomly ignoring some data points  ?",True
+@giuliocipriani4659,2020-03-23T11:07:53Z,6,Very helpful! Everything is clear and well explained: super BAM!,True
+@saileshpatra2488,2020-03-23T06:15:18Z,0,In GD there are 3 terms for slope and 3 terms for the intercept. In SGD the terms for both slope and intercept is 1. So How it is reduced to factor of 3???? Bdw Great Fan of your videos. I appreciate all your efforts:),True
+@adityatrivediii,2020-03-22T10:19:22Z,1,Very Cool JOHN ! Thank You !,True
+@wei2674,2020-03-14T20:05:38Z,1,"If computation feasibility is not a concern, does it take fewer number of iterations for regular gradient decent to converge vs stochastic gradient decent?",True
+@youssefdirani,2020-03-09T21:52:26Z,0,Thanks. Without music,True
+@blakeobeans,2020-03-06T18:39:30Z,3,I think Josh had an extra cup of coffee before recording this vid.,True
+@mpkrass,2020-02-26T19:11:14Z,1,You are a golden god,True
+@tag_of_frank,2020-02-21T01:26:58Z,0,Isn't it biased if you update with new data since the sample probability will be different?,True
+@keqiaoli4617,2020-02-20T22:10:23Z,0,Is there any theory behind when you talk about updating the parameters from the latest after adding a new data?,True
+@doodlmyr7512,2020-02-08T06:09:33Z,1,These are amazing thank you,True
+@jishnu1258,2020-02-08T02:43:02Z,1,Thanss,True
+@maheshjayaraman6856,2020-02-06T18:41:08Z,1,"super , super ,super explanation...till watching this video , I was very much confused with GD.Thanks alot",True
+@DrlGSN,2020-01-28T21:13:37Z,0,"Fantastic video Yet I still have one question. On some ML blogs, people mention about epoch, when all data points are used to compute. In this video, he refers that the choice for data points in SGD and Mini-batch is random. So how do we count the epoch normally?",True
+@anhdangkhoa,2020-01-27T21:35:56Z,1,BAMMM!,True
+@jamesbuckley6875,2020-01-26T22:54:32Z,0,"Almost turned the video off after that intro, sorry.",True
+@professorg000,2020-01-26T18:23:01Z,1,Super effective instructional approach...best wishes,True
+@statquest,2020-01-21T21:03:59Z,53,"Corrections: 9:03. The values for the intercept and slope should be the most recent estimates, 0.86 and 0.68, instead of the original random values, 0 and 1. 9:33 the slope should be 0.7.  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@Tyokok,2020-01-21T19:23:53Z,0,"Hi Josh, quick question: at 9:05, why you use original guess (intercept : 0, slope : 1) to calculate derivatives? why not use the best of what you have so far - the most recent estimate intercept and slope from all previous data points? Thank you!",True
+@RS-el7iu,2020-01-08T18:29:05Z,1,super👍🏻👍🏻👍🏻,True
+@sandyjust,2020-01-05T06:43:13Z,1,Lovely.. you got a fan!!,True
+@kittipobkomjaturut8797,2019-12-24T15:07:44Z,2,Quad Bams !!! I won.,True
+@fivehuang7557,2019-12-19T19:23:40Z,1,Can not appreciate your channel more!!! CAN NOT!,True
+@slayer_T69,2019-12-11T17:31:25Z,0,dude whats that song...??,True
+@KeesJansma7689,2019-12-10T23:29:05Z,0,"But what happens if you use gradient descent to estimate such a line, and you get 1 new datapoint added? Can you use stochastic gradient descent then? So my question is, can you only use stochastic gradient descent at a function where you previously have used the stochastic gradient descent method, or can you also use it if you have obtained your better fitting line with gradient descent?",True
+@potatobrainz,2019-12-07T00:20:58Z,2,you are a god,True
+@krisbloemen7948,2019-12-02T23:19:54Z,0,"Thanks, very useful.  I was wondering though. In the first step, the new slope become 1.008; however, in the graphs, it seems like the slope should become smaller than 1 (less steep, not steeper), so the gradient descent seems to steer us in the wrong direction. Or i am misunderstanding something.",True
+@Pancho96albo,2019-11-25T22:02:28Z,0,"Thank you sir, now I'll hack the FBI",True
+@DharmendraSingh-qv6nb,2019-11-24T05:05:47Z,1,excellent explanation.very helpful.,True
+@Beenum1515,2019-11-19T14:42:05Z,2,Brilliant explanantion. I was forgetting one little thing which was bugging me about SGD.  This helped alot!,True
+@beatlekim,2019-11-15T17:20:56Z,1,Crazy good. you saved me.,True
+@bestest43,2019-11-15T10:34:37Z,0,why do we need to take the derivatives of functions?,True
+@lekjov6170,2019-11-14T17:45:59Z,3,"Math is not that hard to understand when it's explained properly. For me, this concept went from being super complex to something super simple and logical. Thanks for all the work you put in these videos, you explained stuff in a magnificent way.",True
+@intoeleven,2019-11-14T00:53:27Z,0,how's gradient descent work in logistic loss function?,True
+@RazineBensari,2019-11-12T18:16:05Z,1,I give it 1 years and this will become default channel to complement uni courses,True
+@FederationStarShip,2019-11-10T21:43:16Z,0,"Regarding updating the parameters with just the new data, would the learning rate be lower than the starting value in general?",True
+@gmayank32,2019-10-27T18:02:24Z,2,Thank you for explaining this clearly. Your videos are easy to understand. Thank you so much. Please make a video on SGD with momentum and issues of SGD with saddle points.,True
+@chrislam1341,2019-10-22T16:00:05Z,0,"how does mini-batch work? sum up them up and sub them in the FOC with the current slope and intercept? for example i got a mini-batch {x1 x2 x3}, and their respective label { y1, y2, y3}.   Do I have the following ? d(ssr)/d(slope) = -2 * sum(x1..x3) * ( sum(y1..y3) - intercept + slope * sum(x1..x3)",True
+@yanheng5285,2019-10-22T02:56:30Z,2,BAM BAM BAM!!,True
+@vuphong2003,2019-10-20T08:51:58Z,23,"Super helpful, taught me more than my uni prof, your teaching method is effective and hilarious at the same time.",True
+@stephennguyen8052,2019-10-07T17:02:12Z,0,Your examples are super clear thanks! How would you figure out if there are redundancies in your data when there are many columns in high dimensional space?,True
+@Tyokok,2019-10-03T13:32:20Z,1,"Hi Josh, what’s the stopping condition for SGD? Run thru all the data points? Or what? Thanks a lot!",True
+@jaelbutler7966,2019-09-28T19:52:37Z,1,Thank you for such a good explanation!!,True
+@shivujagga,2019-09-27T18:52:10Z,9,"Bro, I don't know how you did it. You are gooood! Your subscribers increased like crazzy since the last time I came here too!",True
+@Sgoose105,2019-09-25T08:26:25Z,0,"how can Stochastic Gradient Descent ensure: When a new data point is added, the adjusted result of that line has less loss than before?",True
+@lakshaydulani,2019-09-13T04:28:24Z,0,hi Josh nice video.. how do we select which data points will make the mini batch?,True
+@lakshaydulani,2019-09-13T04:22:19Z,0,4:15 hi Josh I think we won't have to calculate the derivative for each gene.. We will have to calculate the derivative wrt slope and intercept only.. Only the calculation will be expensive bcos of many data points.. m i correct?,True
+@benphua,2019-09-09T10:19:09Z,1,"Hi Josh,   Sorry just a small comment (I hope you don't mind), it might be good to add an annotation for the errata of a video directly onto the video itself at the relevant time stamp, this way students will not accidentally miss the errata note.  Kind regards,  Ben",True
+@benphua,2019-09-09T06:38:20Z,0,"Hi Josh,   Thanks again for another awesome video, I can't stress enough how lost I would be in my masters degree without your channel.   Could I please trouble you with a question, is it safe to assume that each sample or sample subset picked by Stochastic Gradient Descent is picked at random without replacement? (Just wanted to be sure...)   Thank you and looking forward to more of your wonderful content!  Ben",True
+@Privacy-LOST,2019-09-08T08:46:58Z,93,"Every time I type some notion and one of your videos pops out, I know the probability of understanding that notion is 100%, and that the effort function is already minimized so I quickly converge towards optimal comprehension :D Hail to great JS !",True
+@raghavnandwani4890,2019-08-29T04:23:19Z,0,Why we cannot start from where we left off when performing regular gradient descent ??,True
+@apurvasingh3630,2019-08-06T15:14:00Z,1,Thank you so much!! Could you please do a video on normal equations?? Subbed!!!,True
+@felipelopesdecamargo6381,2019-08-04T23:55:25Z,0,i love  you,True
+@Lj-zn6ej,2019-08-04T06:58:02Z,1,"Thanks for the great video Josh!  Just a quick question, why is it so that at 9:02, the values for the intercept and slope in the derivatives are the original random values of 0 and 1 instead of the most recent estimates of  0.86 and 0.68?",True
+@smithwill9952,2019-08-03T09:46:12Z,2,"Fool like me can understand, so can you. BAM BAM BAM ...",True
+@stevenicholes5649,2019-08-03T05:34:09Z,4,This + bandcamp??  Dude you are my hero,True
+@berknoyan7594,2019-07-27T11:24:27Z,0,"Thanks Josh for your incredible work. i have one question, at min 9:00 u find derivative of loss wrt theta0(intercept) and theta1(slope) but you use initial model not the latest model with theta0=0.86 and theta1=0.68 you should get -0.007 as theta0 stepsize and -0.008 for theta1 stepsize which gives you 0.687 for slope and 0.868 for intercept. Am i missing sth? Thanks beforehand.",True
+@ReikaTAKANO,2019-07-25T08:49:59Z,2,Am I correct that you can use stochastic Gradient Descent when updating new entry of data into a dataset that were being calculated with just regular Gradient Descent with its last used slope and intercept?,True
+@RandomGuy-hi2jm,2019-07-19T21:02:56Z,2,stochastic GD is good but  algorithm can never settle at the minimum.,True
+@manasatallam108,2019-07-14T20:27:00Z,1,Your videos are simply amazing. A big thank you!!!,True
+@samanehkhakbaz8815,2019-07-09T23:07:14Z,3,Thanks for these amazing videos and especially for the smile you bring on my face with each BAM :),True
+@danmartin7198,2019-07-08T06:36:43Z,165,Best explanation ever. at first I was sceptical but the BAMs kinda grow on you after a while :),True
+@PinkFloydTheDarkSide,2019-07-05T17:14:28Z,2,That was the best song among all.,True
+@boxu2148,2019-06-30T00:51:06Z,0,"Josh, thank you for the awesome video. I have one question regarding to the cost function used in this video. It seems that the 'slope' will be much smaller for Stochastic Gradient Descent compared to general Gradient Descent due to the fact that SGD will have the 'slope' equals to the sum of one term, while general Gradient Descent will be the sum of n terms where n equals to number of observations. Is it true?",True
+@AbedMotasemi,2019-06-28T03:13:42Z,1,"Hey Man you are awesome. Please make videos about more sophisticated deep learning models, CNN, RNN, and Reinforced learning",True
+@pragun1993,2019-06-26T08:53:54Z,1,"At 6:46, when you say we pick another point and another line, this ""another line"" is the line which we got from newer intercept and slope values when we worked on previous point, right? It is not some randomly picked line for 2nd point? And each point is worked upon only once, meaning that we calculate the derivatives and newer intercepts and slope for each point only once and then take these updated values for next point?",True
+@ankurbhargava2790,2019-06-24T21:42:57Z,0,"Hi Josh, When is the next video coming and the topic which you would be covering",True
+@ashleychen6263,2019-06-23T13:45:58Z,1,"Hi Josh, when you calculated the slopes by using new sample value at around 9:12, I am wondering why 0 is plugged into as intercept and 1 as the slope coefficient (which are initial guess) instead of using the most recent estimated intercept and slope coefficient (intercept = 0.86 and slope = 0.68). Thanks so much for your help!",True
+@snarsule,2019-06-20T00:05:26Z,1,I think I am addicted to ML after following your channel,True
+@wenhuizeng5625,2019-06-16T00:21:23Z,0,"please talk about xgboost, svm or light GBM",True
+@charlinemontial9217,2019-06-13T14:47:54Z,3,"I am here to study for an exam I'll have soon, and you are saving me lots of time. Plus, it's so much more entertaining than my incomprehensible slides ! THANK YOU !",True
+@mingyuanguan9979,2019-06-12T11:14:27Z,26,"Josh, could you please explain the difference between GBM, Xgboost and Light GBM, etc?",True
+@danielromero-alvarez5392,2019-06-11T00:19:44Z,2,"Your channel is super incredible, it has helped me a lot and I always recommended to everybody! What about a statquest of time series analysis? Pleaseeeeeee! thanks! :) Triple BAAAAAM!!!",True
+@wenhuizeng5625,2019-05-29T04:05:59Z,0,Please explain the XGboost,True
+@itsamario,2019-05-28T14:01:19Z,3,"Josh Starmer for president. BAM!",True
+@ibanguniverse811,2019-05-27T09:45:45Z,2,"please upload every day, you R my Machine Learning Hero",True
+@calvin5371,2019-05-20T18:46:24Z,1,Amazing video ... but you did not explain how in stochastic gradient descent is helpful in case of clustered examples in our dataset,True
+@pat4rush,2019-05-20T06:04:19Z,3,Great videos.  Suggestions for future videos:   Kernel / Support Vector Machines.   ICA (Independent Component Analysis).   SOM (Self-Organizing Map).    Convolutional Nets.   Backpropagation algs for NN training.,True
+@srikantht2403,2019-05-17T11:24:18Z,0,Thanks for the video sir,True
+@rrrprogram8667,2019-05-16T18:07:30Z,1,Any plans to come chennai josh?? Climate is terribly hot here,True
+@rrrprogram8667,2019-05-16T18:06:42Z,2,deep learning and neutral network.. Can be CLEARLY EXPLAINED only by statquest,True
+@SurrenderPink,2019-05-14T19:05:39Z,6,Triple BAM!? 💥  My heart can’t take it!  Quest on. 👍,True
+@yulinliu850,2019-05-14T13:27:59Z,1,Great job! Thanks Josh!,True
+@romellfudi,2019-05-14T10:49:45Z,1,Triple ban!!!,True
+@chyldstudios,2019-05-14T05:08:50Z,1,The musical intro was LIT,True
+@jahquantum420,2019-05-14T04:43:48Z,0,"SGD could help for streaming learning? , I mean training a model with streaming data?",True
+@PeihuiBrandonYeo,2019-05-13T23:12:36Z,1,Hnmmmmmmmmm.... BAAAMMMM,True
+@rrrprogram8667,2019-05-13T23:08:06Z,376,Without this channel... Machine learning is incomplete... MEGAAAA BAMMMMM,True
+@Lerock2013,2019-05-13T21:43:54Z,1,hahaha fantastic!,True
+@philrobinson2924,2019-05-13T21:36:22Z,10,"I'm not sure what I like more: the clear examples or Josh's silly smooth voice on the ""double bam""",True
+@theredflagisgreen,2019-05-13T21:03:06Z,1,First,True
+@456ronit,2019-05-13T20:46:25Z,1,Second,True
+@yacineaslimi748,2019-05-13T20:46:02Z,1,First,True

@@ -1,0 +1,253 @@
+author,updated_at,like_count,text,public
+@malakhassan9816,2024-05-12T16:49:12Z,0,Really thank you,True
+@OfficialDockvulner-qt9mk,2024-04-27T15:35:28Z,0,nice tutorial!,True
+@hirunahansaka646,2024-02-24T15:18:07Z,0,thank you very clear your explanation,True
+@Amir-English,2023-12-19T05:22:17Z,0,why did you define __iter__ function inside the class MyRange@13:23??  isn't the __iter__ function a defined magic method already defined in Python??,True
+@user-gq5xs9nh7m,2023-12-17T15:24:22Z,0,thank you so much for this video. I've been queering bing chat and bard chat for a couple of hours on the iterable and iterator topics but none of them managed to explain the stuff to me in a so clear way that you did.,True
+@mostafaghanem3984,2023-12-08T06:26:56Z,0,"Thank you , you’re the goat",True
+@gajatanu2962,2023-12-01T15:31:14Z,0,"Even after years, This is easy to understand and relevant, Thank you very much man",True
+@PyProjects,2023-11-23T14:27:21Z,0,Thanks for the awesome video.  How do you make your terminal clutter free like that?,True
+@sajadgul,2023-10-29T14:56:24Z,0,You are amazing.. :),True
+@johnwight6041,2023-09-27T13:32:58Z,0,Wow really good explanations! This makes a lot of sense,True
+@zodicracker,2023-09-07T21:57:34Z,0,"when i add that code in iDLE it comes back with  Traceback (most recent call last):   File ""C:/Users/lesli/AppData/Local/Programs/Python/Python311/aaa.py"", line 10, in <module>     print(num) NameError: name 'num' is not defined. Did you mean: 'nums'?  any particular reason why?",True
+@sg8581,2023-08-27T00:51:45Z,0,One of the best explanations on iterators. Thanks a ton!,True
+@JuanCEOs725,2023-08-08T22:46:23Z,0,Simply the best!,True
+@adetunjidaniel5064,2023-07-12T18:06:50Z,0,"Nice video Just out of curiosity, how does an iterable object which isnt a iterator work(since it wont be having the next method in its class definition work).",True
+@temilolafamakinwa1626,2023-07-12T15:26:03Z,0,Excellent explanations are always!!,True
+@Matharendre,2023-03-10T12:06:07Z,0,It really sums up the concepts in a concise but precise way. Thank you a lot for this!,True
+@Gguy061,2023-03-06T04:40:42Z,0,Dunder Mifflin,True
+@CaptainBravo87,2023-01-28T03:03:03Z,0,Great explanation,True
+@gauravstud,2023-01-19T22:38:11Z,0,"Is it fair to say that ""Iterators are to Python programs what paging and virtual memory is for OS"".",True
+@yuval1588,2022-11-21T10:29:32Z,9,"1. In Python, an object can be called an ""iterable"" if it has the dunder method __iter__ which should return an iterator and an iterator is an object that has the method __next__. 2. __iter__  is a method that a python list has.  3. By performing the for loop on the list, python invokes that list's __iter__ method which returns an iterator that we can loop over.   we can do next(mylist.__iter__()) which invokes the iterator's __next__ method or call  or invoke it directly: mylist.__iter__().__next__()  we can also do next(iter(mylist))  ""Generators are iterators as well, but the duder iter and duner next methods are created automatically.""",True
+@shashishekhar----,2022-10-28T22:59:55Z,1,"Thank you so much Corey, much appreciated how helpful this(these) videos are, just thank you 👍",True
+@IM4fLEX,2022-09-20T02:44:31Z,0,__mifflin__,True
+@user-qn5by5iv7u,2022-09-18T09:03:25Z,0,2022,True
+@TheGroundskeeper,2022-09-10T19:46:16Z,0,"So, weird moment for me. I like to go back over the parts where my ADHD started to go crazy, and when you said ""Now remember I said iterators are objects with a state that..."" is when I went to back up a few minutes to get back on track. When I randomly let go, you said ""iterators are objects with a state that..."", so I weirded out and instantly now remember this rule. I have absorbed your power. There can only be One.",True
+@adityabansod8493,2022-09-03T01:29:02Z,0,"Hey, thanks for the explanation. I have a question. In the ""generators"" section, you mention that the ""return"" statement destroys the state of the local variables whereas a yield keyword remembers the local variable state.  When you instantiate an object of the class MyRange (nums) in this video, and call next on this object, how does it remember the updated self.value in the next call, if the return statement does not remember the state of the local variables? Thanks in advance.",True
+@sampleraja8026,2022-09-02T07:16:39Z,0,"He can make sense to even an absolute beginner, good",True
+@oximas-oe9vf,2022-08-27T17:34:32Z,0,"at 14:18 why does the for loop not though an exception when it ""overflows"" the range the raise code is being called, try putting this code in  if self.value > self.end:             print(""not nexting"")             raise StopIteration so why isn't there an exception getting thrown, is the raise just ignored? if so then why?",True
+@chuckles8519,2022-08-22T22:32:50Z,0,You have a very clear teaching style - a very valuable talent to have!,True
+@wartem,2022-08-21T12:38:19Z,0,Just amazing,True
+@samed3554,2022-08-20T10:17:46Z,0,"Very plain and well explained. Thank you Corey, subbed.",True
+@veeek8,2022-08-08T15:10:52Z,0,"thanks so much, great explaination",True
+@rossli8621,2022-07-17T13:58:32Z,0,This should be in my school's programming 101 course!,True
+@mahmoud-khaled-abo-elmagd,2022-07-01T22:57:06Z,0,15:08,True
+@BukkyOdunsi,2022-06-23T04:24:01Z,0,I love you,True
+@jermainewilliams4798,2022-06-07T22:09:34Z,0,Thank you,True
+@farhanbajwa4954,2022-06-02T13:53:58Z,0,"Iterable,iterator,genrator",True
+@szabikrdev5066,2022-05-27T10:57:34Z,0,"Cheers man, this was extremely useful piece of content!",True
+@zhipengwang1,2022-05-23T13:25:51Z,0,awesome explanation,True
+,2022-05-17T06:25:16Z,0,"A video on unit testing iterables, generators, and, unit testing functions that consume iterable objects would be great.",True
+@koshermh,2022-05-02T16:42:38Z,0,Not at all helpful...more confused now then I was before...,True
+@Borisam,2022-05-01T04:33:22Z,0,Great explanation!!!,True
+@dahomosapien,2022-04-29T06:34:07Z,1,Does anyone know which IDE he’s using?,True
+@666shadowblade666,2022-04-23T06:01:24Z,0,"Again, exactly what I was needing to clarify. Thanks.",True
+@sparksays7247,2022-04-10T01:45:33Z,0,The trick I used to remember the difference is in the word. Iterable=“able” to be “iterated”.  Hope that helped someone 😅,True
+@AshisRaj,2022-02-23T03:49:03Z,1,My search ends here. Excellent explanation,True
+@abhinav9561,2022-02-10T08:19:57Z,0,Thanks Corey!!,True
+@calebthompson1037,2022-01-29T16:07:00Z,0,Classes in school should be like this a hyperlink to what you dont understand included. 💯,True
+@swapnilp4629,2022-01-04T17:27:33Z,0,looks I found this bit late since this was published but trust me Your are the Best . I have gone through so many videos but the way you explain and demonstrate is AWESOME!! Keep it up :)  All the best...,True
+@salmanfaris1441,2022-01-04T11:55:22Z,0,is this python 3 sir?,True
+@Alex-rw9yj,2021-12-27T16:05:15Z,0,"Thank you, man! Very clear and concise.",True
+@linvictor3604,2021-12-27T03:28:30Z,0,Why put a square bracket on the instance around dev_1 ([dev_1]) when pass to mgr_1? I try to remove it but receive a error that TypeError: argument of type 'dev_1 is not iterable. Can help to explain in more detail? Thx!,True
+@isaiahthomas7015,2021-12-26T19:26:36Z,0,How many Iterables can be ran on the background? Would that produce different variables on the original list?,True
+@veeplusvee,2021-12-23T00:01:05Z,4,"Corey, Simply you are the best when it comes to making someone understand the concept. Unless someone understands the concept, it is very difficult to write codes that are lot efficient and at the same time very easy to understand/read. I wish everyone who makes video on programing follows a similar template for teaching. Thanks a lot.",True
+@sachinchaudhary8251,2021-12-16T01:21:14Z,0,This guy is amazing. why Corey why. why you stopped uploading videos.,True
+@NoksNeto,2021-12-05T20:26:16Z,0,what a great lesson. thank you so much!,True
+@gustavojuantorena,2021-12-03T00:17:51Z,0,This video is pure gold!,True
+@billnye9774,2021-11-25T18:37:50Z,0,iterum means again in latin,True
+@pranavnyavanandi9710,2021-11-25T08:49:30Z,0,"Hi Corey. Since class and instance variables in a class prefixed with double underscores are private variables/ attributes - although only conventionally in python - would this not make dunder or magic methods private attributes of a class too? If it does, how then can we access them by their direct name? That is, you wrote: i_nums = list.__iter__() But python performs name mangling of private variables and so __iter__ would have to be _list__iter__. So this way, writing list.__iter__() should raise an attribute error saying list class does not have an attribute '__iter__'. However, this is not the case and the statements executes just fine. Why is this so? Hope to get an answer. Thanks. 🙏  P.S. As a side question, classmethod and staticmethod decorators despite being functions are not callable. Why is this? I tried manually making a method a class method by passing it to classmethod decorator; since using the decorator syntax and substituting for it manually does the same thing as you mentioned in your video on decorators. However, it says that classmethod is not callable. 🤔",True
+@numanali8545,2021-11-21T05:33:00Z,0,How does iter() method called somehow??,True
+@davidholle6569,2021-11-07T17:11:24Z,0,"never heard of the difference, my guess is one is a wrapper the other an interface ?",True
+@ji-axinliu4448,2021-11-04T23:47:11Z,0,"Thank you, Sir. I wake up at 4 in the morning and continue watching your lessons.",True
+@javier144663,2021-10-15T13:57:09Z,0,"I am puzzled as to why the __next__ method works. If I'm at the second to last element the 'current' variable in the __next__ method will take its value. Then what is incremented is self.value, so for the method to work, I understand that 'current' is actually a reference to self.value, and not a hard copy. Thus when incrementing self.value, current is also incremented. If that is so, I wonder if it would be clearer to just increment self.value and then return it already incremented.",True
+@marioestrada2233,2021-10-08T03:39:46Z,1,Many thanks man! You are truly great at teaching! Please continue with this awesome work,True
+@rajgiriyt8494,2021-10-04T07:11:49Z,0,explaining each and every steps. where were you before. please do not leave this way of teaching. we beginners needs you,True
+@swapneelsahu9440,2021-09-30T18:10:10Z,0,"for anyone who doesnt understand why he keeps saying ""dunder"" before each method names , he means to say ""DOUBLE UNDERSCORE"" iter,next,etc  *basically instead of saying ""DOUBLE UNDERSCORE"" each time, he says ""dunder"" , since its easier to say*  *D-UNDER*      ===>     Double UNDERscore",True
+@erdi749,2021-09-16T02:08:34Z,79,"These tutorials are epic, how can you talk 20mins without any single unnecessary word, truly amazing. Thank you so much Corey. You are my #1 Pyhton reference in my classes I teach in the collage! Keep up the great work!",True
+@whoami2091,2021-09-07T08:29:20Z,0,You are a king man!,True
+@TheSumanb,2021-08-02T13:51:35Z,0,"Thanks a ton ... your way of teaching is one of the best , please keep on posting tutorials on pandas and Numpy or any advanced python topics , thanks",True
+@billgarcia471,2021-07-23T02:44:12Z,0,"Thanks a lot for the video, man it's very helpful to explain some vague ideas from some modules.",True
+@arjunkrishna721,2021-07-22T19:22:25Z,0,"you can technically get a reversed iterator, that'll look something like i_nums = reversed(nums) calling next(i_nums) will iterate through the list backwards.  Much love, awesome teaching !",True
+@TheHippyHoppyHippo,2021-07-14T16:58:52Z,0,6:37,True
+@parmachine470,2021-07-06T22:52:20Z,0,"Here' the beef! lots of pretenders, but Corey is the real deal. Iterators, generators, closures. All from the same county.",True
+@danielalegriasallo5551,2021-07-05T00:11:37Z,0,loved it.,True
+@downstream0114,2021-07-03T10:33:06Z,0,"The iterator knows where it is at all times, because it knows where it isn't.",True
+@tridoshic1688,2021-06-05T22:37:38Z,1,@ 12:44 why does he create a next method when __iter__ already has a next method built into it? Also @ 13:40 why does he use self.value += 1 instead of current += 1?,True
+@bharadwajsaibandaru4323,2021-05-26T18:02:03Z,1,Hey Corey ! there you go . The best python instructor on YouTube ever . Kudos to your subject knowledge and teaching in an easy and understandable way . Expecting JavaScript tutorials from you too.,True
+@danielkamau8436,2021-05-05T21:33:19Z,1,"good_tutor = ""Corey Schafer"" while True[good_tutor]: next(good_tutor) #looping forever sir thanks for expensive, but free endless knowledge. go beyond.",True
+@ArunKumar-yb2jn,2021-04-30T05:42:19Z,0,"You said you will make your own iterator, but you went on to use built in __next__ method within the class (myRange). How is that making your own iterator? I tried changing function name from __next___ to something else like 'new' and it won't work.",True
+@tijanimoncef5314,2021-04-11T13:13:08Z,0,I learn much thanks to your courses.  I would just make a remarque : in class MyRange __next__ it should be (if self.value > self.end:) rather than (if self.value >= self.end:),True
+@kentsang9376,2021-03-18T15:05:02Z,0,"very great video, clear my concept!! Thank you!",True
+@gyaniindian7905,2021-03-10T05:34:26Z,0,"Hey man, I just wanted to ask that, when you  create the list, which short cut key you use to give space between two element of list?",True
+@rainman13579,2021-03-09T11:02:37Z,0,"Still being perfect explanation, there is still a need for preparation work to understand all the stuff  Corey is explaining.",True
+@sp10sn,2021-02-18T03:35:24Z,0,These terms are highly irritable.,True
+@yonzont,2021-02-10T09:11:26Z,0,why is this so hard to understand,True
+@HarmanHundal01,2021-02-07T07:02:25Z,0,Use Ctrl+C to break out of the infinite loop,True
+@kasyapdharanikota8570,2021-01-28T10:55:47Z,0,very good tutorial,True
+@zyenapz5664,2021-01-26T13:27:35Z,0,Thanks for the straightforward and non-verbose explanation!,True
+@salarghaffarian4914,2021-01-25T17:12:17Z,0,Awesome!,True
+@user-pr4jg3sn2j,2021-01-22T21:18:47Z,0,- 리스트는 이터러블이지 이터레이터가 아니다. - 이터러블은 이터레이터를 만드는 __iter__() 메서드를 지닌다.,True
+@faressalehi5553,2021-01-01T06:04:57Z,0,"لقد تعلمت منك كثيرا,,, أسأل الله أن يشرح صدرك للإسلام ويدخلك الجنة.",True
+@yaboi1525,2020-12-08T22:45:14Z,1,You're the best instructor I ever had. Thanks for all your precious efforts it mean a lot.,True
+@fatemehzamanipour9472,2020-12-08T06:55:21Z,0,"thank you so much, that was greate!",True
+@xiaoweidu4667,2020-11-28T13:55:30Z,0,you guys are what youtube mean for !,True
+@xiaoweidu4667,2020-11-28T13:29:32Z,0,fantastic teacher,True
+@carpediem73,2020-11-19T00:47:30Z,0,thanks corey,True
+@zuheyr1,2020-10-30T17:13:14Z,0,Really great. Thank you!,True
+@aakashrane8360,2020-10-11T00:05:42Z,0,"Just half done with the video and just want to say WOW!!! Corey, try writing your own python book.",True
+@bright5801,2020-10-09T10:27:51Z,0,before i watch any python tutorial i check to see if Corey has done it first,True
+@aryan7069_,2020-10-04T19:41:37Z,1,very complicated concept,True
+@yuanwang9896,2020-09-15T07:21:58Z,0,"If the iterator is always iterable, why we still need something like the list which is iterable but not iterator. In this video, the MyRange is also both iterator and iterable, but we didn't see an example which is similar to the list.",True
+@pkavenger9990,2020-09-02T07:21:02Z,0,if you guys having trouble keeping up with the guy listen it at 0.75 speed.,True
+@pkavenger9990,2020-09-02T07:08:30Z,0,"i know why their is ""self"" in Classes but when someone ask what is it, i dont know how to tell them. lol",True
+@egehurturk6209,2020-08-10T12:58:58Z,0,"Hey, can you make a video about async/await and concurrency?",True
+@LenHarms,2020-08-02T09:45:57Z,0,"Hey, great video.  I'm wondering when writing the __next__ method you had ""if current >= end"", why do you make it last number exclusive rather than inclusive.  I know python is last number exclusive but when writing your own method why do you keep it this way.  Is it just for consistancy?",True
+@judeleon8485,2020-07-28T00:05:18Z,19,"Corey, you're awesome! You always make my day. Anytime I'm in need need of a lesson on any python topic, your channel is always my first port of call, to see if you have it. You always know how to make it sink in so well. Thanks",True
+@hermes5456,2020-07-13T19:39:56Z,2,Sometimes we forgot how many things we didn't get to see on the high level.,True
+@gordonlim2322,2020-07-13T09:03:49Z,1,May I ask why then iterable exists if we are have to use iter() to turn it into an iterator for it to be useful.,True
+@yuanli5619,2020-07-07T21:47:56Z,1,Best Python tutorial,True
+@rakeshreddy1365,2020-07-05T15:24:00Z,0,10:00,True
+@MauriceWilliams,2020-06-24T16:13:46Z,0,Thanks Corey you delivered as usual.,True
+@antonietapintorebelo5020,2020-06-23T13:47:41Z,0,Does using Iterators  improve memory performance?,True
+@patrickknows2296,2020-06-13T11:34:08Z,2,If only I can afford Corey as my mentor and built projects I could have a decent job now,True
+@yuval1588,2020-06-12T22:00:35Z,0,"how is your computer so fast? myn would print 10 numbers in the time yours printed almost 10,000.",True
+@TheNormanbro,2020-06-07T21:05:55Z,3,"Everytime when he says ""dunder"", i start to laugh because of ""Dunder code"" episode of The Office. And this is a great video. Thank you.",True
+@zikomo8913,2020-06-06T13:38:49Z,1,"Holy shit, even a summary at the end! Can a tutorial get any better than this?",True
+@darshikaverma9170,2020-06-01T08:40:35Z,1,Awesome,True
+@xlulu464,2020-05-31T10:42:12Z,0,finally i can try to understand why for loop is different from while loop. thanks,True
+@DioD3,2020-05-29T01:45:55Z,1,Excellent video. Thank you! You are my favorite programing(python) teacher.,True
+@jesusbermudez6775,2020-05-24T15:58:13Z,0,Why if I use a raise StopIteration within the generator when I then use a for loop to iterate through the generator returned by the function it collapses?,True
+@jesusbermudez6775,2020-05-24T15:49:15Z,0,There is no need for the variable current in the generator function,True
+@jesusbermudez6775,2020-05-24T15:47:26Z,0,In the generator function I used raise stopIteration and then used a for loop but the stopIteration exception made it collapse. It suggests to me that generators are not iterators.,True
+@jesusbermudez6775,2020-05-23T19:54:19Z,0,Using the dunder methods keeps it object oriented whereas using the in built functions removes the object oriented aspect of the language,True
+@nayeemuddinmoinuddin2186,2020-05-23T16:16:54Z,0,@Corey Schafer - Thanks for wonderful videos. I had a request Can you also please do some videos on PySpark.,True
+@alexandredamiao1365,2020-05-17T16:45:51Z,1,Your lectures are amazing! Thank you so much for this!,True
+@emmanuel5566,2020-04-30T11:33:45Z,0,"dude.. your voice is so distinct and your explanation is crystal clear.   if I can't find something on StackOverflow or if I'm learning a new concept in python, your channel is THE resource for me. Great content.   Thank you for keeping it free.",True
+@avijeetsingh969,2020-04-28T23:58:35Z,0,"Ok so i tried the code at 14:22 but if i pass MyRange(2,10) the iterator starts from 1 where it should be starting from 2. Can you please help me with this?",True
+@alexbutane5550,2020-04-28T11:52:07Z,0,"I have a question:  when you defined the init method of the class MyRange you passed 3 parameters self, start and end but later when you used the method to print values, you only passed start and end parameters. so my question is, what happens to the self parameter and why you don't have to pass it as well?",True
+@lukkash,2020-04-28T05:42:09Z,0,great & informative content on Python => subscribed 🙂,True
+@martinsz441,2020-04-24T19:40:53Z,2,Im getting addicted to python videos but they need to be from corey scha(ä)fer !,True
+@Ms.Robot.,2020-04-23T05:07:20Z,1,"Your python is so good,  I love it💗.",True
+@Naz-yi9bs,2020-04-22T23:22:15Z,1,"a = iter(""abc"") b = iter(""abc"")  print(iter(next(a))) print(iter(next(a))) print(iter(next(b)))  #output <str_iterator object at 0x000001FCAA4DB520> <str_iterator object at 0x000001FCAA4DB520> <str_iterator object at 0x000001FCAA4DB520> --------------------------------------------------------------------------------------------------------------- a = iter(""abc"") b = iter(""abc"")  print(iter(next(a))) print(next(a)) print(iter(next(b)))  #output <str_iterator object at 0x000001E23FCEB520> b <str_iterator object at 0x000001E23FCFA040> -------------------------------------------------------------------------------------- What is going on here? Why is the memory location the same for the iterator in the first example within all 3 print statements. Also, for the second example, why is the memory location different for the iterator on the first print compared to the last print?  Guess: Is it just printing out the memory location of the CHARACTER within the string where the iterator is currently at?   Thank you so much for your tutorials.",True
+@kashishlohiya9411,2020-04-17T17:06:01Z,0,"If you guys want to learn programming in deep, you should learn it from here https://classroom.codingninjas.com/app/invite/PQVAI  from this link you will get INR 1200 off on your purchased course.",True
+@hubertcombomarketing2693,2020-04-12T14:31:55Z,1,Great Python  Iterators and Iterables Tutorial. Thank You.,True
+@SriKB,2020-04-05T11:33:35Z,0,"How come without calling iter()  ,Nums becomes iterable. I didn’t get it, could you please tell me Corey.Thanks for your very useful videos . Lots of love and respect to you",True
+@shreypatel9379,2020-03-27T05:13:30Z,0,is iterator object a copy of original object ???,True
+@DevinderKumar,2020-03-26T23:10:20Z,1,"Super, very useful lesson. Great stuff in a shortest possible time. Thanks a lot.",True
+@subhamthemusicalguy8851,2020-03-21T05:31:46Z,0,Best video for Python.Thank you sir,True
+@b00i00d,2020-03-17T02:16:25Z,0,"Loved this one! An interesting way to play with, say, the Generator, is to do a couple of next() calls then do a for loop and watch it pick up from where it left. However what I'm not entirely clear about is the next function. Classes define it. With the my_range function what next() are we calling? Is there a generic next() built-in in python which is separate to the __next__ functions of iterator classes?",True
+@shivambhayre5056,2020-03-14T18:29:19Z,0,you are just awesome,True
+@tonybrefeld666,2020-03-12T19:11:59Z,0,Your tutorials seem to be for Python 3 because your Iterator example requires a next method for Python 2.7.,True
+@StphRolland,2020-03-12T13:20:06Z,1,"compared to 'special method' 'magic method' 'double underscore method'... I wonder how do you spell ""dundered method"". I'm not sure it is a good name finding. It is 3 syllable long and does not convey meaning unless you already know that name, and use it sufficiently often to remember that it is not an english word, but the abbreviation of ""double underscore"".",True
+@jessicabrown1987,2020-03-05T04:01:00Z,0,Corey you are the best.,True
+@mohammadrezakarimi2400,2020-03-01T15:03:11Z,2,"Corey, I can understand OOP codes, but I can't do that well can you tell me some tips on how can I write good OOP programs? I think I need some OOP beginner exercises or maybe I need OOP thinking :|",True
+@search_is_mouse,2020-02-27T06:03:38Z,0,2:39 dir은 그게 가진 method들을 알려줌,True
+@moseswilfred6497,2020-02-25T15:10:52Z,8,"This is really an awesome tutorial, I am looking forward for the simple password cracker tutorial as you promised towards the end of the tutorial. Thanks",True
+@billykotsos4642,2020-02-24T17:32:42Z,1,Great Tutorial,True
+@DomenicoTanzarella,2020-02-16T00:32:42Z,4,Brilliant Corey: one of your best videos!,True
+@IterativeTheoryRocks,2020-02-13T19:34:24Z,0,Excellent idea with the coding problems. You never really understand something until you have to use it!,True
+@baqirhusain5652,2020-02-04T14:00:14Z,5,Oh My God....I didn't know learning python can be this addictive.... Thank you sooooooooooooooo muchhhh,True
+@dibyajyotisahoo3882,2020-02-01T17:16:49Z,1,You are the best,True
+@aman0509,2020-01-27T17:53:46Z,13,"Closure and Decorator tutorial of yours was my first experience and I am telling you, you have explained it in such a good way that I cannot forget it ever. I am not being dramatic but your explanation method is magical. When I am learning any concept, there are things which are buried inside my mind and but it cannot get out because I feel confused and also nobody talking about the same or have that kind of explaining system as yours. It's like you are connected to my mind.  So, Thank You Very Much!! God Bless You!!",True
+@SpiritOfIndiaaa,2020-01-15T15:06:53Z,0,"thank you , is this generator thread-safe?? i.e. will it work in multi-threaded env?",True
+@SpiritOfIndiaaa,2020-01-15T13:38:57Z,0,"thanks a lot , one of the best tutorials i have come across... what Editor are you using ?",True
+@hetalchavan9446,2020-01-13T10:32:29Z,1,Amazing lecture!Very informative!Already subscribed after seeing this one.,True
+@banderilllero,2020-01-12T14:49:58Z,0,why is this not in a play list?,True
+@slobodantajisic2762,2020-01-10T15:25:25Z,0,"If the list has elements of different types of data and we apply __iter__ method to it, what does the __next__ method of the obtained iterator look like? Maybe some example how to write something like that? :-) Thanks anyway.",True
+@HareshRathod,2019-12-29T10:31:33Z,8,"OMG! Watching since last 4.5 hours,  dont know when last I have wateched videos for so long. Addictive. Corey you must be a Teacher. Thanks for such nice videos",True
+@tharunb754,2019-12-15T17:48:52Z,0,How for loop is executing even that my_range function fell in infinite loop ?,True
+@saadliqali9919,2019-12-06T18:45:23Z,1,thank youu <3,True
+@phantomapprentice6749,2019-11-30T00:54:37Z,0,Why would I want to use iterators in my code?,True
+@huakaijian8297,2019-11-02T10:25:11Z,1,thank you very much.,True
+@Dziaji,2019-11-02T06:11:15Z,0,Great video. You made the same mistake twice though. Your range always ended 1 element too early because you did “>=“ instead of “>” and then you did “<“ instead of “<=“. Those off-by 1 errors are killer.,True
+@MehmetMustafaICER,2019-10-31T16:24:08Z,1,Thank you for this video. It is pretty clear and to-the-point. Well done.,True
+@antonfalu123,2019-10-30T19:21:57Z,0,"I ran into a problem recently when I implemented an __iter__ and __next__ method in my class. When I looped over my object and used a break in the loop, I couldn't figure out how to reset the pointer to 0, which I could if the loop was finished. What's a good solution?",True
+@MagnusAnand,2019-10-19T18:27:49Z,2,This video is amazing! Your teaching skills are top,True
+@ahnafkhan8115,2019-10-07T04:08:57Z,1,Love you man!!!,True
+@madhusudhanreddy650,2019-10-04T10:18:55Z,0,"superbly explained,has none programmer can easily understand dif btwn Iterables and iterator",True
+@vvkkumar3691,2019-10-01T12:52:17Z,2,"Hi Corey,  most of my doubt got clear through this channel . Thank u so much for this . I am suggesting two more topic please make a video on those. 1. Why Tuple is faster than List ? 2. Why List comprehension is faster than for loop?",True
+@dennisasamoah2213,2019-09-28T13:13:03Z,1,Great,True
+@amardeepbhowmick3614,2019-09-22T10:19:51Z,1,Beautiful! Corey you da man!,True
+@rajeshraut2955,2019-09-21T17:21:00Z,0,Why we need them we have loops,True
+@byteknot5075,2019-09-19T17:10:20Z,0,https://byteknot.com/iterable-and-iterator-in-python/,True
+@pavanmandikal,2019-09-19T14:41:33Z,0,"Hi Corey, can you please make a video on selenium",True
+@dorel102,2019-09-15T20:41:50Z,0,you can duplicate iterator using itertools.tee,True
+@lorenzoluciani7458,2019-09-08T13:38:46Z,0,Thank you!,True
+@ishworaj3866,2019-09-06T11:30:45Z,0,Corey can you also add XRP as a payment option to support your channel,True
+@mvlad7402,2019-09-02T21:44:54Z,1,great material,True
+@hongtaekim1504,2019-08-31T07:38:35Z,1,too good for university professor,True
+@hamdarzoo1127,2019-08-17T18:36:44Z,0,"for the MyRange class example, I'm getting an error that the class is not defined.",True
+@theteenengineer7589,2019-08-09T23:05:42Z,2,cool :),True
+@yiyanzhang2695,2019-08-08T17:16:40Z,1,"thanks , you explains so well",True
+@jcinaz,2019-08-07T20:44:17Z,0,I am now less irritable about Python.,True
+@2mitable,2019-07-27T11:16:01Z,2,thank you for this amazing video  i have seen lot of videos from sentdex but still sometimes i did not understand as compare to you explanation Thank you very much you are helping like us soon i l help you i m trying to   freelance in python thank you  :D,True
+@shashwatmishra5819,2019-07-03T19:07:53Z,0,You are the best 😊,True
+@deojeetsarkar2006,2019-07-02T09:41:18Z,1,this guy's a genius,True
+@konstantin6482,2019-06-23T11:48:29Z,4,"Great video, but I don`t quite get one thing. It seem that at 14:30 when you use a for loop on new object *__next__()* method is somehow called. But there is no reference to it anywhere in the class *Myrange* you`ve just created. I suppose that *__iter__()* method somehow calls it, but how does it exactly work?",True
+@Sabre00,2019-06-17T12:44:33Z,0,From the time you mentioned the never ending generator and iterators not being able to be recalled it reminded me of a database auto-increment field.   Just waiting for the timeseries MatplotLib video.,True
+@sravankumar5017,2019-06-15T04:41:03Z,0,Very nice explanation,True
+@SpiceSizzle_Studio,2019-06-14T18:04:43Z,0,Wonderful teacher. Clear precise and best..,True
+@SpiceSizzle_Studio,2019-06-14T17:46:12Z,0,Which ide is this?,True
+@Ammothief41,2019-06-11T03:17:16Z,3,So python lists are singly linked lists!  Awesome!  Thanks for this and the tutorials on generators.  I purchased a python book but it never delved into the material as deeply as what I wanted.  Thanks.,True
+@marioroberts9564,2019-06-05T08:28:37Z,1,👊🏽,True
+@AnimatedHooman,2019-06-05T07:36:36Z,1,great tut,True
+@MikeLisanke,2019-05-30T21:15:22Z,1,"Corey, Liked your video and thought it was instructive but you left a question on the table. You said that an iterable object can be looped over, and has a dunder __next__ method... but later showed us how to create a generator which uses a yield. You say (as do many) that they like the form of a generator object (rather than the programmer maintaining the stateful mechanism for python) BUT you didn't Say IF the generator object Was considered an iterable object... obviously you showed us looping but does it have a __next__() method? Just a piece of the pie missing which I thought would have added to the story. Thanks again, Mike",True
+@DanielWeikert,2019-05-30T11:30:35Z,1,Great video. Could you elaborate why we need the def__iter__(self) which only returns self in the iterator class?,True
+@TheRAMKRUSHNA,2019-05-24T07:04:01Z,0,Hi... can you make a video on dependency injection container in python.. thank you,True
+@ruggeropiazza2157,2019-05-12T23:31:23Z,0,Does anyone know what font is that?,True
+@zhukovmisha,2019-04-29T11:20:17Z,4,Thank you for such a profound explanation!,True
+@xaverxassnytz2746,2019-04-28T17:17:40Z,1,"very good explanation in this and generators video (also watched your other videos) - thanks to Corey coming from old languages like Fortran, Cobol, Pascal and I just began learning python 3 months ago and this videos helped me a lot to get a basic knowledge",True
+@ducdeur8941,2019-04-21T03:30:43Z,0,is iter() a class in python?,True
+@paulfrankovich3085,2019-04-20T02:31:43Z,0,"Awesome videos. I’m learning a lot to get proficient with Python. One minor question, why do your 1-10 list stop at 9? Is that by design?",True
+@feernot,2019-04-19T17:53:36Z,2,You seriously teach this stuff better than anyone I've found. Thank you so much!,True
+@akileashwar9063,2019-04-12T08:49:03Z,0,Hi can you please make video on metaclass,True
+@rawlespringer3917,2019-04-04T22:25:45Z,2,wow you certainly have a gift for teaching...,True
+@tunkyi7162,2019-03-21T14:06:43Z,2,you are making me clear things up. I gave a like and subscribed to your channel.,True
+@nowornever5598,2019-03-20T20:09:54Z,1,Thanks,True
+@qrubmeeaz,2019-03-18T19:55:22Z,4,"For the longest time, I thought it was ""irritable"" and ""irritater"". ;-)",True
+@amanranjanverma,2019-02-03T19:50:40Z,0,What ide are you using?,True
+@techcode_man,2019-01-20T22:06:32Z,18,"Corey, Thank you for explaining this so well and simple. I have been using both iterators and iterables for while, now it makes a lot of sense.",True
+@dev4life,2019-01-17T23:42:10Z,48,"Correction at 1:38 Corey said ""Loops aren't the only thing that we can loop over "" but he meant ""Lists aren't the only thing that we can loop over """,True
+@adamobaid3558,2019-01-05T22:45:40Z,2,"Thank you, you are great instructor. These videos are awesome and have helped me so much. I will make a contribution when I get hired soon!",True
+@bonbonpony,2018-12-29T17:47:19Z,0,Is there a way to position the iterator somewhere in the middle of the list to begin with? Or reset it without recreating it? Or check whether we're at the end of the list already instead of waiting for the code to crash?,True
+@zalazalaza9093,2018-12-24T11:37:35Z,0,"my objects do not have the ""__next__"" double underscore method. But they do have a ""next"" method without the underscores. using python v3.6. anyone know the reason for this?",True
+@grzltn9716,2018-12-15T03:36:04Z,1,Perfectly pitched overview. Thank you.,True
+@utsavjolapara4366,2018-12-06T04:12:45Z,1,Proper good job mate.,True
+@beaconbecay1648,2018-11-30T10:13:07Z,0,OMG! Stopped the infinite loop right at my password: 965738!,True
+@user-qs6dp2fw7q,2018-11-25T16:31:19Z,1,Thanks Corey,True
+@erwingutowitz7920,2018-11-03T01:54:39Z,1,Great! Love it when you look under the hood a bit.,True
+@AlanWagoner,2018-11-01T20:31:02Z,1,Very nice Corey!  Thank you!,True
+@Lowzenza4,2018-10-30T18:44:19Z,0,Are there videos on the pandas module for python in your channel? Or any plans for it?,True
+@simplyajith1,2018-10-30T17:36:26Z,0,"Why do we need to use current = start in my_range function?   Any reason to assign current variable there?   def range_iter(start,end):     while start < end:         yield start          start += 1          x = range_iter(1,10)   for num in x:     print num",True
+@klo1603,2018-10-30T05:36:01Z,1,"Had a long time issue in understanding this concept. You, Corey has always made easy to understand. Can you please make a series on selenium in python.",True
+@mahesh9762132636,2018-10-29T17:48:57Z,29,"Corey Schafer ... U are the only Foreign Youtube, Instructor of Python whom i Follow. Your Videos contains information multifolds 10 which we get from any other video.. I am Surprised how do u do this...You make Sound Python Like Childs Play ... Hats off to u ... Expecting Machine Learning from You. That could be the Internet Breaker Videos of Yours",True
+@jytjfgjfgj,2018-10-29T12:51:29Z,0,Corey I love your videos but your voice is a little low. Also can you make a series about PySide 2?,True
+@1Hynda,2018-10-27T22:22:54Z,0,14:19 - I don't understand the for loop. We created the object nums which is instance of class myRange. Fine but how on earth does the loop call the function __next__ nine times to return the current variable?,True
+@gioxc88,2018-10-26T21:00:57Z,452,best python instructor ever,True
+@caseymccray3861,2018-10-26T16:44:00Z,0,Love the idea of a password bruteforcer . Please make a video on it <3,True
+@mrmoinn,2018-10-26T02:23:12Z,0,How is yield different from return,True
+@shahzebafroze4093,2018-10-25T13:30:08Z,105,Thank you for making these awesome videos!! Goal after graduation: support your channel.,True
+@tcarney57,2018-10-25T10:14:35Z,1,"Many thanks. Two questions: 1) If we create a class that is a subclass of, say, the List class, we will inherit List's dunder methods, right? So we won't have to manually add __iter__ and __next__ ourselves? and 2) Do you run your narration through some kind of audio speed changer or do you just drink a quadruple espresso before you record?",True
+@albertdugba,2018-10-25T09:49:14Z,0,You're definitely the best python instructor on YouTube by far...But some of us will appreciate it you could maximise the screen size we can clearly see instead of straining our eye which is probably not the best. Thank you,True
+@halim1885,2018-10-25T09:44:43Z,1,"i've tried a lot of teachers in order to make progress and non of them works , you are the best sir i advise everyone want to learn python to watch your serie",True
+@morganfree100,2018-10-25T04:09:26Z,0,"Awesome Corey,can u pls do a detailed video on generator please",True
+@Softwareengineeringdev,2018-10-25T04:08:41Z,1,✔️,True
+@peterdannemann2041,2018-10-25T03:04:19Z,2,Awesome content as always. Please make a video on asynchronous python programming!,True
+@mahendark9023,2018-10-25T02:37:06Z,1,"Corey, can we expect Machine Learning video tutorials from you?",True
+@TonyFlexPromo,2018-10-24T20:09:00Z,3,At first i was totally scared of iterators. Next i took a study and understood how do they work and why they are used. Next i wrote some iterators and generators on my own. Then i got a question about iterators on job interview and i was one of few people who actually answered the question (as they said later). Now i really love this feature of python and this is kinda future of it because whole async thing is based on yield thing.  Thank you for videos! I continue to learn a lot from you!,True
+@pedrocontrerasavendano8578,2018-10-24T20:03:14Z,7,"Precise, coherent, well articulated and well structured; good tutorial, thanks",True
+@meenalyengul6233,2018-10-24T19:40:52Z,0,hey corey can you please upload rest api videos in django and flask with authentication and also on seperate detailed video on queryset like wiriting queries in queryset using mysql plzzzz?  waiting waiting :),True
+@sankalpnayak702,2018-10-24T19:33:15Z,0,12:26 what is the use of returning self,True
+@736939,2018-10-24T19:31:16Z,0,12:36 So basically this is just a Linked List. Am I right ?,True
+@ThatSic,2018-10-24T19:26:50Z,1,"Great video as always! Btw,  I think you meant 'generator' instead of 'iterator' at 20:12 when you talked about memory effeciency.",True
+@rahulparmar208,2018-10-24T18:46:33Z,9,How to make gui in python,True
+@kwii22789,2018-10-24T16:34:31Z,2,cool video,True
+@panditnandlalpatherwali5979,2018-10-24T16:30:09Z,5,"Corey I am big fan of you videos, kindly post the video on pytest",True
+@chelloveck,2018-10-24T16:28:02Z,3,"good, thanks.",True
+@franndyabreu6272,2018-10-24T16:23:09Z,5,Thank you.,True
+@sak8485,2018-10-24T16:14:13Z,1,"Hey Corey, can you make tutorials on various types of operations performed under the SLICE operation.",True
+@venkatdevireddy650,2018-10-24T15:57:11Z,13,Ur videos are awesome Corey I have been watching all ur videos... please make an video on SYS module as well as XML parsing...I have got bunch of videos from you tube none other videos are up to the mark as u...ur explanation in any concept is at peeks no body beats u... thanks a lot,True
+@vaddadisanthoshkumar4143,2018-10-24T15:50:43Z,3,Thank you.,True
+@medi7573,2018-10-24T15:47:51Z,4,Great Tutorial.,True
+@furankuraw7741,2018-10-24T15:46:11Z,32,Thank you so much for the consistent videos and tutorials and the help that you provide for people new to this ^^,True

@@ -1,0 +1,86 @@
+author,updated_at,like_count,text,public
+@winviki123,2019-08-10T11:33:02Z,114,"6:30 just a small correction when alpha t becomes zero,eta dash t doesn't become zero. (because alpha t is in the denominator)  I think the point of using epsilon along with alpha in the denominator is to avoid division by zero error while calculating eta dash t",True
+@pnachtwey,2024-05-20T19:23:10Z,0,"I have AdaGrad implemented in python using real data.  I have 5 variables for a differential equation that needs to estimate the temperature response to a control output.   I need to estimate a gain, two time constants, a dead time and ambient temperature.  The data is not perfect is neither is my model, but it is close.  The AdaGrad seems to work well compared to other gradient descent techniques, but a line search is still better.  Better yet and algorithms such as Nelder-Mead or Levenberg-Marquardt found in scipy's optimize package.  What is worse is that my cost function is the sum of squared errors between the actual response and my estimated response.  There is no formula for this cost function, so the gradient is computed by taking a small step in each direction for each parameter and finding the slopes.  Finding the gradient this way is noisy.  The path ""down hill"" has lots of zigzags.  I find it hard to believe people use gradient descent.  The only advantage I see is that it is super easy to implement.",True
+@AdityaSingh-yp9jn,2024-04-07T19:41:24Z,0,"7:18 needs a small correction. Since we can compute gradient till (t-1), lopping should happen till (t-1). Thanks for the content.",True
+@deepansh.shakya.18,2024-03-17T16:20:51Z,0,First teacher on youtube whose not even one video gives me understanding problem.,True
+@goramnikitha5491,2024-01-28T10:57:37Z,0,not just understanding but loving thank you,True
+@vatsalshingala3225,2023-04-02T12:58:54Z,0,❤❤❤❤❤❤❤❤❤❤,True
+@dhruvgangwani469,2022-08-14T23:36:05Z,0,"If the change in weights decreasing every epoch, do it results in vanishing gradient problem?",True
+@RAJIBLOCHANDAS,2022-05-03T11:47:19Z,0,"Your energy and attitude of explaining the new ideas are fantastic. However, I find it difficult to accept that in Adagard, the learning rate is monotonically decreasing over iterations! If it is so, we may have used one deterministic decreasing function in place of constant learning rate. I hope that is used for normalization. I tried to explain Gradient descent in detail. If any one is interested to learn more about gradient descent algorithm, you may refer to the following video:  https://youtu.be/mnpFj_ZAOCo",True
+@piyalikarmakar5979,2022-04-23T12:22:55Z,0,Sir iteration means each epoch or each batch??,True
+@huannguyentrong1249,2021-09-14T17:05:51Z,0,Thank you,True
+@Bunny-yy6fo,2021-08-21T07:26:11Z,0,Can anyone explain what is the intuition behind the learning rates why we are taking those learning rates?,True
+@xiaoweidu4667,2021-08-13T08:03:42Z,0,good.,True
+@erraviv,2021-07-03T13:46:18Z,0,I think there is a problem with the subscripts. Partial derivative with respect to w_i does not make sense. W is a vector of say D different weights. Didn't you use the subscript i for the time index already?,True
+@monasaleh1452,2021-06-07T16:13:29Z,2,I've tried a lot before to understand these concepts and I couldn't. No one managed to simply them before. But Your way of explaining the concept is unique. I couldn't stop watching your videos. Thank you so much.,True
+@louerleseigneur4532,2021-05-13T21:33:14Z,0,Thanks Krish,True
+@shan_singh,2021-04-11T08:42:52Z,1,"hahaha every time we have a fix for previous problem, we come up with its solution with some disadvantages  and then we come up with a solution for it which we will learn in next video  this is fun haha",True
+@miteshmohite7829,2021-04-02T08:25:31Z,0,alpha t =summation(dL/dW t-1) square,True
+@sunilkumar-pp6eq,2021-02-24T18:42:23Z,0,"Krish!! you are great at explaining the Theory part of the Math involved in these algorithms, Helped me in understanding, Keep up the great work, I can see the enthusiasm in you while explaining and is very infectious, Thank you.",True
+@bhavikdudhrejiya4478,2021-01-28T15:20:48Z,0,Excellent,True
+@arunmehta8234,2021-01-24T03:36:55Z,5,"Sir, You video is very knowledgeable. BUT CAMERA TAKES LOT OF ITERATIONS TO FOCUS ON YOU.",True
+@etc-b-28atharvapatil2,2021-01-18T04:48:58Z,0,Heyy krish...can u provide us dl ml and nlp certification courses as the certificate could help us in our resumes,True
+@DineshBabu-gn8cm,2021-01-02T10:18:20Z,0,if we use sigmoid AF then the value of derivative would be b/w 0-0.25 and if we square that it will be always less than 0.25. then how alpha -t value will increase. please someone explain me.,True
+@jaythakur2137,2020-12-15T06:52:46Z,0,"one correction: For alpha(t) calculation it should be summed over t-1 not t as you dont have w(t), because for w(t) you are calculating alpha(t) first.",True
+@karthikeyansakthivel5308,2020-11-18T11:09:45Z,0,which is not the best learning rate,True
+@sargun_narula,2020-11-16T14:21:06Z,0,Just a doubt in adagrad optimiser if in formula of alpha .. we are doing summation of square of derivative... But how does  derivatives sum up to such a large value. As each derivative of derivative becomes more less and less ?,True
+@shubhangiagrawal336,2020-11-11T04:40:35Z,0,many ads in small videos,True
+@amanjangid6375,2020-11-03T20:57:50Z,0,Kaafi Sahi 👌👌👌,True
+@trend_dindia6714,2020-10-19T17:12:13Z,0,Main disadvantage is it may lead to a vanishing gradient .....?,True
+@neil007sal,2020-10-17T13:28:22Z,0,"Hi Krish, every video is masterpiece as long as there are no ads in it. Please remove the ads in between videos so that I can focus on content. If you want you can add ads at the start or end not in between the lecture. Hope you will do the needful. Cheers",True
+@tanvishinde805,2020-10-13T14:29:31Z,0,"in the equation the learning rate is only changing per iteration i.e. 't' , why does Krish say it is changing for every feature or neuron as well?",True
+@rithwikshetty,2020-09-15T15:44:00Z,2,"Correction: The equation of alpha is supposed to be summation from i=1 to i=(t-1). Since the derivative of Loss function w.r.t weights at time t is found only when we know the weights at time t, which is still not found. So alpha is calculated by adding squared gradients upto time (t-1). Let me know if i am wrong.",True
+@thedataguyfromB,2020-09-02T03:17:28Z,1,Amazing Krish sir,True
+@divyarajvs8890,2020-08-31T13:49:19Z,0,ADAM optimizers are not available inthe playlist..can u include?,True
+@shashwatdev2371,2020-08-30T17:28:42Z,0,Please add subtitles in all your videos.,True
+@akshatsingh6036,2020-08-24T20:24:27Z,0,Sir u didnt tell that how to differentiate between  or find local minima and global minima .,True
+@vishalgupta3175,2020-08-24T15:20:16Z,0,"Sir, Your Skills are Very Good",True
+@MP-wq5xe,2020-08-20T15:58:32Z,0,Videos are too good.But the number of ads per lecture are spoiling it's quality.,True
+@bhargavasavi,2020-08-14T07:40:43Z,0,I think weight updates generally happen for every mini-batch ....so there will be multiple steps within an eopch I have a question: Will learning rate be changed for each step(i.e mini batch) or each epoch(or iteration) ??,True
+@anandhasrivi,2020-08-13T05:31:40Z,0,Explanation is good with convex loss funtion. But Adagrad is not meant for convex funtion it is for  deeplearning where we will have multiple local minimum and single global minimum. Our main aim is to cuming out of local minimum. You have completly ignored that concept. Intution is good.,True
+@topChart_Music,2020-08-05T12:37:12Z,0,"Hi, in alpha t equation is the square after the sum of all values (whole Sq.2) or individual value is squared and then added?",True
+@fitriwabula5237,2020-07-28T07:04:05Z,0,"sir, ur amazing, thanks for give the best knowledge",True
+@piriyaie,2020-07-17T19:55:12Z,0,Thank you very much sir for this video,True
+@iliasouzaro3462,2020-07-15T09:04:36Z,0,"it's my first time that i comment a youtube video's but i have to say that your are the best bro ,continu !!!!!!",True
+@vgaurav3011,2020-07-05T20:26:24Z,1,Loved it and studied along with Sebastian ruders blog cleared my concepts,True
+@VarunSharma-ym2ns,2020-06-27T05:42:59Z,1,"10:03 what Krish is saying, I didnt get it about learning rate ........ when more and more Iteration going on?..Could anyone please explain it",True
+@shaiksuleman3191,2020-06-04T04:09:53Z,0,Simply Super - No More Questions,True
+@anandkumartm7058,2020-05-22T07:28:13Z,0,"Can anyone tell me, as number of iterations increases how alpha t increases?   According to the formula of alpha t, as number of iterations increases loss should decrease and alpha t should decrease.",True
+@anushreerungta5035,2020-05-18T09:43:51Z,0,wonderfully explained. hats off.,True
+@subhashishbt06658,2020-04-23T12:32:41Z,0,When Alpha becomes higher number then Etta at time t becomes smaller number and this i think is not a disadvantages ...,True
+@prassaad8189,2020-04-20T16:10:46Z,0,"Hi Krish, Excellent videos on ML and DL, Can you please add NLP videos in playlist. Thanks in advance.",True
+@sandipansarkar9211,2020-04-17T19:51:18Z,0,Great video.Hope to crack when it comes to calculations and mathematics in solving interview based problems.Thanks,True
+@shakyamunghate8382,2020-04-06T22:17:07Z,0,This is quality content!  Hats off to you Krish! These tutorials make our learning more insightful and easy. Thank you!,True
+@satyaprakashpandey6911,2020-04-06T04:07:06Z,0,can anybody provide the proper link of NLP by krish ?,True
+@satyaprakashpandey6911,2020-04-06T03:43:22Z,0,Can anybody help me why I am not getting NLP playlist by Krish sir?,True
+@praneethcj6544,2020-04-05T16:46:51Z,0,Sir could you please put a coding session where we will be dealing with a image classsification problem using deep learning .???  Concepts are very clear and we need some coding knowledge asweell,True
+@varshitamurthy8864,2020-04-03T06:13:35Z,8,"Hello Sir, Your tutorials are very insightful.Thank you so much :)  Also.I have a query regarding Adagrad optimizer, how is the learning rate changing w.r.t dense/sparse features? I  can see it is changing only w.r.t iterations.",True
+@16876,2020-04-02T13:50:06Z,0,great tuttorial!,True
+@rampravesh4065,2020-03-29T09:21:52Z,0,Very Good Explanation of Adagrad.,True
+@dosdospoa,2020-03-26T19:35:54Z,0,This is good video but the bad thing is there are MORE THAN 2 ADS DURING THE EXPLAINATION !,True
+@680551121,2020-03-06T14:28:41Z,1,"Thank you Krish for the wonderful playlist.  When you said Alpha-T becomes huge with number of iterations because the derivatives keep adding up. However, the loss becomes smaller with each iteration. So, this doesn't happen always. Please correct me if i am wrong.",True
+@arpitcruz,2020-03-01T17:42:11Z,0,Very Good explanation,True
+@scarfacej1361,2020-02-25T01:02:28Z,0,"why the video is like this , focus on board and then on your face , please correct this",True
+@mdejazuddin4939,2020-02-08T15:18:42Z,4,"CORRECTION @12:05- squaring of a number not necessarily produce large value(if number less than 1, it will decrease the value), it is the summation which is increasing alpha-t",True
+@khanwaqar7703,2020-02-07T07:43:36Z,0,So nice of you sir thank you so much,True
+@akashgayakwad9550,2020-01-06T22:51:45Z,1,"What is use of going slowly by each iteration , whether we can go at same rate by each iteration , Can anyone answer me?",True
+@nitayg1326,2019-12-28T14:22:56Z,0,Can we combine adagrad with momentum?,True
+@vikashjyoti320,2019-12-20T11:35:23Z,0,Where can i find live project and description.,True
+@jagpreetsingh9730,2019-12-10T00:38:17Z,8,Sir the derivative part in the alpha equation would it always be greater than one because if we use sigmoid  activation function its  derivative would be between 0 to 0.25 and if you square it you would get a smaller value.,True
+@rakeshacharjya8512,2019-11-27T15:07:14Z,10,main dis advantage of adagrad is it keep on decreasing when the iteration is going on ... and it will take so long time to reach the golbal minima.. eg: n=0.01.. after 100 iterations n =0.00000000.1 still it decreases so much to reach the global minima and it might go on infinity on keep on decresing..,True
+@dipenduchoudhury9984,2019-11-05T10:55:12Z,7,I think the biggest drawback of using Adagrade optimizer is that If alpha will very big then learning rate(eta) will also very small. For that whenever you multiply gradient with small learning rate you will face Vanishing Gradient Problem which occurs in Sigmoid Activation function.,True
+@souvikpal8436,2019-10-16T21:56:04Z,2,"The term alpha + epsilon is in denominator. So something/0 won't be zero and it will give ""division by zero"" error. The epsilon is there to prevent division by zero error incase alpha becomes zero.",True
+@vipindube5439,2019-10-10T18:01:09Z,1,"we miss case study only include sparse and dense but there are other case as well, please provide one demo on this.",True
+@claudiusdsouza2379,2019-10-01T11:50:53Z,0,"Hi Krish,  I have been searching videos for complete deep learning, but, I haven't got any informative videos as yours.  Keep up the good job.",True
+@smurtiranjansahu5657,2019-10-01T06:06:49Z,0,Thanx a lot this videos are so usefull for us.......,True
+@ashishsangwan5925,2019-09-27T08:24:54Z,0,Awesome explanation bro,True
+@VVV-wx3ui,2019-08-26T13:24:35Z,1,These sessions are great with simple explanation to understand the maths behind it. Cannot thank you enough Krish. God Bless You. Thank you so very much.,True
+@vaibhavjain1124,2019-08-25T18:36:01Z,4,"seriously these are so amazing keep going , frome past 3 days i am just watching your videos for ML",True
+@shaiquemustafa7609,2019-08-20T16:54:43Z,1,You are uploading extremely helpful videos.Keep doing that and you'll get popular on youtube very soon.,True
+@pankajkar2008,2019-08-18T10:21:27Z,0,My dear sir ... kindly do some programming so that we can learn ...how it can be done in real,True
+@alessandrofinoro1990,2019-08-02T15:02:31Z,1,Go ahead!,True
+@BiranchiNarayanNayak,2019-08-01T14:16:33Z,0,Nice explanation.,True
+@meanuj1,2019-07-31T18:19:59Z,1,Hey krish thanks a lot for video,True
+@zaladhaval4419,2019-07-31T17:12:07Z,1,Can you make videos about gradient checking???,True
+@rajaramk1993,2019-07-31T16:34:14Z,1,Keep up the good work..,True
+@abhishekkaushik9154,2019-07-31T16:23:10Z,1,Awesome,True

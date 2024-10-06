@@ -1,0 +1,141 @@
+author,updated_at,like_count,text,public
+@qaziamir-bd1lr,2023-11-27T01:37:13Z,0,bruh why is Justin Gaethje teaching me coding,True
+@Techbin-yn6wr,2023-08-05T02:51:01Z,1,"14:28 Correction: ""to map input to output""",True
+@2596mr,2023-05-12T22:42:48Z,0,Can someone explain what he means by flattening it before hand? at 13:50 i didn't get it.. Like what does he mean before feeding into the neural network. I thought all the steps are part of the network.,True
+@samimuzzamil7267,2023-01-31T10:17:10Z,0,"In order to avoid the black dots(missing pixels ), just remove relu from last layer of the decoder. It worked for me,",True
+@mohamadavatefi7603,2022-12-25T09:12:07Z,0,Guys what IDE is this cuz im working with pycharm and i cant do anything,True
+@GeorgeZoto,2022-12-22T23:35:52Z,0,"Awesome content, thank you for sharing it your way 😃",True
+@aryanirvaan,2022-10-25T13:54:44Z,0,Can you attach the code for CNN based Autoencoder too? I am stuck on an error which I am unable to identify.,True
+@jensklausen2449,2022-09-22T19:44:59Z,0,"I wonder whether one can construct an artificial visual center using an autoencoder.   Then feed the decoder electronic noise with a component of quantum event randomness and watch it create visuals, with some sort of meaning, related to the thoughts and current life situation of the spectators of the created images.  In a statistical significant way?",True
+@ayushnayak6138,2022-08-24T14:02:14Z,0,Is it possible to overfit till 100 percent accuracy. If we achieve that we can use it for video compression.,True
+@iantimmons3342,2022-08-09T04:52:30Z,0,"Well done!  For the visualization, you need to use the squeeze() function in Colab  ae_out = autoencoder.predict([ X_test[0].reshape(-1, 28, 28, 1) ]) img = ae_out[0]  # predict is done on a vector, and returns a vector, even if its just 1 element, so we still need to grab the 0th plt.imshow(tf.squeeze(ae_out[0]), cmap=""gray"")",True
+@killer-whale864,2022-07-07T06:25:28Z,0,It's actually amazing to see a tutorial maker making mistakes. That way you can learn what errors you might encounter and how to tackle them. Never thought of it that way.,True
+@mehdihazrati7731,2022-05-04T19:04:38Z,0,Thank you for preparing this video. But I suggest you edit your videos before publishing.,True
+@alabaccar2179,2022-04-16T14:33:37Z,0,Is it possible to use a raw dataset as input in this example??,True
+@kolokolo2365,2022-04-07T00:58:02Z,0,that was cool !,True
+@kevinshen3221,2022-04-01T23:45:15Z,0,jaw droped when you add noise to the image. this is amazing,True
+@alexzan1858,2022-02-13T23:53:15Z,0,27:00 you can avoid this kind of error in notebook by doing safer renaming e.g. x_train_rgb = x_train / 255.0,True
+@bhavinmoriya9216,2022-02-12T15:36:17Z,0,Awesome video! Could you please upload some video on transformer that you were talking about? Thank you very much.,True
+@sripranav,2022-02-06T14:18:12Z,0,"I'm kinda lost, now how do i seperate encoder and decoder. After training the autoencoder, the encoder and decoder doesn't seem to carry those weights and not working well. Can anyone tell the correct way to do this i don't know?",True
+@kdocki,2022-02-04T19:27:51Z,0,"lol.... man, I loved this!",True
+@busterdafydd3096,2022-01-23T00:49:53Z,0,"22:59... I do enjoy sentdex, but you can obviously see ""fake it until you make it""  in action, he is probably copying from either some tutorial someone else made or something he bashed together but knew he wouldn't been able to explain properly.  Learn your stuff, so we can learn, instead wasting out time!",True
+@manthanpatil6410,2021-11-18T16:00:46Z,0,its kinda cool but we can actually compess the data in a single value as it has 255 possible values and there are only 9 classes tho it would need slightly bigger network also love your videos.  Edit: probably then you can explore the latent space like manual change the single encoded value to see the network generate numbers on itself.,True
+@dannyisrael,2021-11-12T07:53:21Z,0,"eeehhh, thank you :)",True
+@tellmebaby183,2021-11-06T05:11:20Z,0,i like yo hair cut,True
+@nwlk9262,2021-10-12T07:18:05Z,0,Can you please share the notebook file ? Thanks a lot,True
+@hackercop,2021-10-07T16:55:52Z,0,This was sooo fun thanks!,True
+@hackercop,2021-10-07T16:13:39Z,1,7:22 its because x_train is a numpy array and /= isn't supported with numpy (it is supported with regular python btw).,True
+@NomanMustafascientist,2021-08-10T04:44:34Z,0,can you make a tutorial on anomaly detection in imae using auto encoder?,True
+@DarkRedman31,2021-07-02T19:03:16Z,0,27:11 Technically it was done twice on x_train but once on x_test,True
+@CristianGarcia,2021-06-23T03:53:14Z,0,It was very frustrating spotting the double division by 255 error and not being able to do anything about it... this is why notebooks are so fragile.,True
+@bilalahmed9705,2021-06-18T21:46:48Z,0,"sir after autoencoder, how can i used genetic algorithm technique for selecting best feature subset?",True
+@muhdfarkhan5511,2021-05-31T09:31:03Z,0,what is the software that you're using to run this autencoder ?,True
+@nawapansuntorachai6297,2021-05-29T20:16:49Z,0,"wow, this is super cool!",True
+@yashpathak9285,2021-05-21T17:04:01Z,0,I know it's weird but everytime I watch his video I want to get high AF.,True
+@raghulkannan6881,2021-05-17T06:13:13Z,0,"How do I use decoder only? Let's say i plug in encoder output to it, and will be expecting it to give decoded results. If someone can help me out it'd be great.",True
+@Zoronoa01,2021-05-15T02:58:13Z,0,Thanks for the high quality content!!!,True
+@chiragmalaviya2430,2021-05-09T06:42:07Z,0,Always fascinating 😁😁,True
+@pw7225,2021-05-02T14:16:44Z,0,Thank you @sentdex,True
+@aquienleimporta9096,2021-04-26T16:27:58Z,0,what does it means when someone write for example Flatten(something)(encoder_input) what is the purpose of the right parenthesis  part?,True
+@1000nateriver,2021-04-22T17:27:26Z,0,Can you create a vid about VGAE? Would be cool!,True
+@julianray6802,2021-04-21T13:00:36Z,0,"Crazy magic, Sentdex is a magician!",True
+@Joshov_ShovichoV,2021-04-20T12:18:04Z,0,AH! 8192 I recognize that number:),True
+@CaptJeanPicard,2021-04-18T10:32:12Z,0,Thanks for this Video. I would love to see more of these where you explain concepts like autoencoders and transformers visually. Really helpful.,True
+@Kaltotun,2021-04-15T07:30:45Z,0,"Thank you so much ! I was ready to abandon MIT 6S191 because of the autoencoder lesson, but you made it clear and (almost) simple. Now we human, go from the 384 features images to...1 (a digit). Can a NN discover the concept of a digit by itself ? Maybe not [0..9] but an array of numbers ? Thanks for your great book and your videos",True
+@mohammednasir7993,2021-04-11T13:02:21Z,1,"Another awesome aspect of autoencoders is,  if you take the decoder part and give it a vector of size that matches it's input, you now have a generative model which is called variational autoencoders  that you can use to generate images  just like GANs.",True
+@ArunKumar-fv6uw,2021-04-11T10:07:18Z,0,"Hi sentdex,      Your videos are excellent.. Appreciate your hard work and time to prepare such wonderful contents..",True
+@abhishekshinde9209,2021-04-09T16:02:24Z,0,grow your hair man it really looks bad. you looked good in videos of nltk,True
+@sumitrodrigues1988,2021-04-06T06:50:27Z,0,How do you play gta in windowed mode? Please help 🙏,True
+@patrickb.5761,2021-04-05T14:11:49Z,0,a video about variational autoencoders would be nice!,True
+@pvtsec,2021-04-01T11:57:14Z,0,"What is going on everybody Welcome to funeral of Sentdex. Its been long time man, are you alive?",True
+@grzegorzkozinski2308,2021-03-30T13:39:41Z,0,"I am wondering if in convolutional eutoencoders shouldn't you use Conv2DTranspose layers, instead of Conv2D? maybe that is the reason for error?",True
+@rpraver1,2021-03-28T01:45:30Z,0,Try example using code from Book - Ch22_Final.py,True
+@dt28469,2021-03-27T20:01:58Z,1,"At 20:43, Im getting an error that says   ""Error when checking input: expected img to have 4 dimensions, but got an array with shape (60000, 28, 28)""   Any suggestions?",True
+@Fruchtkotzekiddy,2021-03-27T14:10:25Z,0,i had this video in my watch-later list since you uploaded it - because i didnt knew what autoencoders where and they sounded pretty hard to understand but man are you good at explaining.   i learned python from your channel before went to university - and it everything super easy for me - since i already knew how to programm - thanks to you,True
+@mukunthanr2514,2021-03-27T13:30:15Z,0,"Hi all,      Can anyone who attended product company interviews/ working as data scientist in product company guide me what topics are must for data scientist  interviews in a product company...       Also am interested to know the level of importance of data structure& algos , probability statistics  in these interviews for experienced candidates..",True
+@lunabaudelaire6198,2021-03-23T10:48:19Z,0,Very great video! Thanks a lot!! Did you upload the cats vs. dogs code as well? I would be very interested to have a look! (=,True
+@YogyaModi,2021-03-23T10:02:36Z,0,Which notebook environment is this? (looks much cleaner and  more convenient than jupyter),True
+@rpraver1,2021-03-21T19:06:09Z,0,A video per chapter of the book nnfs would be great....,True
+@sandeepkulkarni3695,2021-03-21T14:47:12Z,0,Man even I jumped when he discovered the division by 255 twice,True
+@panagal3285,2021-03-17T15:39:29Z,0,hellooo,True
+@martynasvenckus423,2021-03-15T16:03:36Z,0,"Hello, where can I find the code for RGB image autoencoder?",True
+@belhafsiabdeldjalil5739,2021-03-15T08:06:32Z,0,"Thank you so much for your great efforts, Sir, I need to adjust these AE with my own Datsset(IR images) but I find a dimensionality problems!",True
+@Alaska-mk4ok,2021-03-15T01:11:36Z,1,I know you are Edward Snowden’s alternate identity 😉,True
+@aaditmaheshwari4080,2021-03-14T06:10:52Z,0,Congrats on a million subs!!!!!!!!!!!!!!!!!!!!!!!!!!,True
+@DimaZheludko,2021-03-13T22:22:39Z,0,"That division by 255 was a tricky guess. I could not understand what's wrong with your code. However, losses in the ballpark of e-7 were a good hint. Thanks for that error. It's always nice to learn by other's errors. Especially when you can watch them at 2x speed. Thanks for your work.",True
+@Ruhgtfo,2021-03-13T13:55:14Z,0,Siamese Network,True
+@Alaska-mk4ok,2021-03-13T06:53:09Z,0,Congratulations on 1 million subscribers!,True
+@Alaska-mk4ok,2021-03-13T06:52:49Z,0,MY TEACHER,True
+@jugalnaik,2021-03-12T14:49:05Z,0,1 mil . 🎉🎉🔥,True
+@sundarraj7509,2021-03-12T14:42:38Z,0,"sir i like your channal i get in your help sir , i need a FACE PIMPLE (ACNE) haarcascade file  sir , please creating fie sir please help me sir ,  please",True
+@username42,2021-03-11T15:24:36Z,1,"i still have that problem you had at around 27min, after running the cell plt.imshow(ae_out, cmap=""gray"") TypeError: Invalid shape (1, 28, 28, 1) for image data",True
+@EshwarNorthEast,2021-03-09T19:58:25Z,0,@sentdex it would be great if u can make tutorials on transformer models,True
+@EshwarNorthEast,2021-03-09T19:49:04Z,0,"Why is reshape -1,28,28,1 being used for encoder predict, can someone explain please?",True
+@YurickMegaloss,2021-03-09T19:38:24Z,0,"If someone curious how to run decoder only on randomly generated seed here is the code to add after autoencoder.summary() :  encoded_input = keras.Input(shape=(9)) deco = autoencoder.layers[-2](encoded_input) deco = autoencoder.layers[-1](deco) decoder = keras.Model(encoded_input, deco)",True
+@aloufin,2021-03-08T23:19:44Z,0,"Please have this tutorial series lead into auto-encoding pictures! then modifying the picures 'compressed' space manually, to produce different outputs, or tackle larger dataset w/ Convo2Ds e.g. cifar10",True
+@Chretze,2021-03-08T15:18:57Z,0,Quick question: Is it possible to use subscript to call another python script but execute it with a different python version?,True
+@francistembo650,2021-03-08T00:18:25Z,58,"Signed my first contract as a python programmer last Friday. I learnt it all here, Tensorflow, opencv, django, flask....Thanks man. I'll surely pay my gratitude in the future.",True
+@pafnutiytheartist,2021-03-07T23:58:33Z,1,That's very cool indeed. Would love to see you using it on something harder than mnist next.,True
+@username42,2021-03-07T11:03:56Z,1,"thanks for the tutorial, i have a question for you: do you think PCA is better than autoencoders for feature selection regarding classification problems? or how it differs from PCA?",True
+@ajay6225,2021-03-06T15:41:10Z,0,Hi please make a video on make a neural chess Engine,True
+@TheRhydian98,2021-03-06T08:21:56Z,1,"Hey Sentdex, was just wondering, when you print out ae_out using plt.imshow, I get an error ""invalid shape(28,28,1) for image data"". Have you got any idea why this would be",True
+@mehranzand2873,2021-03-05T22:35:18Z,0,thanks a lot,True
+@tcgvsocg1458,2021-03-04T09:54:34Z,0,Can you try to make the first level of street of rage in python? From scratch?,True
+@hobbiesarecool3561,2021-03-04T01:18:09Z,0,Don’t mind me just commenting to help with the YouTube algorithm,True
+@kirtipandya4618,2021-03-03T19:36:20Z,0,Is this code available on GitHub?,True
+@moodiali7324,2021-03-03T13:18:11Z,0,"i would like to see data moving from encoder output to the final auto encoder output (image), that i didnt see in the video....ur just passing the SAME image from input layer all the way to the output layer (which i know is compressing data in the middle because ur using less neurons), it would have been beneficial if u stored encoder output on the file system, then pulled it out and passed to the neural network to get the ORIGINAL image.",True
+@MaxSoloAT,2021-03-03T10:22:32Z,0,What about code for autoencoder with cnn parts? Can autoencoder take a full images(without reshape 64*64 or etc)?,True
+@moodiali7324,2021-03-03T08:31:47Z,1,"Question: x_train[0].shape = (28,28) why would ur input layer shape be (28,28,1)? this is throwing me an error",True
+@syedalamdar100,2021-03-03T06:42:32Z,0,"Any chance you can make a video on installing Tensorflow 2.4 and Keras along with some method to identify if your GPU is being utilized and, if it is underutilized, how to optimize this. I have seen you use Tensorflow in some of your videos, but it is so confusing for a person that is getting into this, given I am using an RTX 3090.",True
+@auraSinhue,2021-03-03T06:23:16Z,0,Great video! Could you share the code of the convolutional network as well?,True
+@jcorpac,2021-03-03T04:43:42Z,0,"If we reduced the mnist images (say to 14x14) then trained a second encoder to match those images to your bottleneck values, could we then attach that to your decoder to upscale the images back the original 28x28?",True
+@MaxJr82,2021-03-02T20:39:32Z,2,"Amazing tutorial! Thank you very much for providing so inspiring and high-quality information. Indeed, your machine learning and python tutorial series helped me a lot when I changed my career towards data science.   I am wondering if you are planning to do a new video about variational autoencoders. That would be awesome to see!",True
+@ivavrtaric,2021-03-02T18:35:56Z,0,Sorry to interrupt is this jupyter notebooks just dark mode on? (can't tell I'm watching from my phone),True
+@KevinskyChen,2021-03-02T16:23:37Z,0,Please make more machine learning tutorials with Keras ~~ Thanks,True
+@akshatsingh6036,2021-03-02T14:54:59Z,0,wondering if u are using deep learning for liking positive comments :)),True
+@prathmeshvishwakarma9027,2021-03-02T13:03:43Z,0,Can you just use model.add() It just looks better lol,True
+@pearcejarrett458,2021-03-02T11:37:55Z,1,"You are the man! Always have been, always will be",True
+@StadtAffeLP,2021-03-02T09:45:34Z,2,Is there any reason why you use ReLu over Sigmoid as the output activation function of the decoder? Cause you want values between 0.0 and 1.0 as the output. Or maybe use a capped ReLu so the model can easily learn complete black and white.,True
+@wktodd,2021-03-02T09:07:55Z,0,"Over night thoughts:   It struck me that what might be happening in this case might not be as complex as I originally thought.    Thinking Bits now, how much data is there in the mnist images ? 784 *8 =6272 bits and they were squashed to 64 * 9 = 576  . Still impressive .  But a simple binary slice would have reduced the image data to 784bits and one could argue (as harrison did ) that the mnist image size is overly generous and only a small reduction to 23*23 would drop the bit count to below the 576 of the output.  So, are we seeing a simple rearrangement of the input bits (after trimming & slicing ) to something that looks like 9 floating point numbers?",True
+@VonUndZuCaesar,2021-03-02T07:27:18Z,4,"""Cannot think of a way to shrink ten digits into 9 values""   Me: counts in binary with 4 values",True
+@neillunavat,2021-03-02T06:16:26Z,0,*The gods have spoken.*,True
+@joanitoagililopo8868,2021-03-02T04:06:45Z,0,"Hi sent. I get the error when I want to  plt. Imshow(ae_out, cmap='gray'). The error was invalid shape (28,28,1) for image data. How I solving this?",True
+@theweekdaysofficial,2021-03-02T01:06:38Z,1,"No matter what I do, I can't get the 'ae_out' cell to work. I've even copied and pasted directly from your site - still. no luck! It says ""TypeError: Invalid shape (28, 28, 1) for image data""",True
+@basheeralwaely9658,2021-03-02T00:31:30Z,0,"Hi sentdex, can you make a video on using PCL library using python. Like uses python-pcl for point cloud segmentation for example. There are many problems during the installation,  and no educational YouTube exist.",True
+@jasonclement6305,2021-03-01T22:46:32Z,0,This is gold.  Nice video man!,True
+@Supreme_Lobster,2021-03-01T21:17:19Z,0,"I mean, technically the information in these images can be compressed to 4 values from 0 to 1, you just have to get a smart enough NN ;)",True
+@aminghafoori6496,2021-03-01T20:51:46Z,0,i love your videos  they are informative and  motivational,True
+@fiNitEarth,2021-03-01T20:49:34Z,6,"I'd be so excited if you were to start a series on chess engines. It would be fun to see how you would go about this, even if the engine wouldn't be that strong!",True
+@EastSideGameGuy,2021-03-01T19:21:55Z,19,"I just wanna say that, I started off with your tutorials to get into Machine Learning and boy have I come a far way from when I started  your tutorials gave me just what I needed to study on my own and learn these things (also hey I ditched keras/tf for pytorch seems a lot more efficient honestly) but thanks and congratulations on 1 million",True
+@sajalvasal5073,2021-03-01T18:35:59Z,0,"Finally the one hole is filled with this one, now we want All About Autoencoder playlist explaining Sparse Autoencoder, Contractive Autoencoder and many ...                                              Lol just kidding Great Tutorial, and 49 mins.. what a short tutorial ..",True
+@wktodd,2021-03-01T18:23:42Z,0,"That's absolutely fascinating 8-)  Is that, or something like it,  what's happening in a brain when we remember something??? (Not expecting you to know the answer :-))",True
+@acopernic,2021-03-01T18:04:33Z,0,It is where you take a bottle of water and your ticket for the trip. Let's go,True
+@FMH201,2021-03-01T18:04:04Z,0,you just know things are going bad when he doesn't sip from a dragon spitting fire shaped mug or something ...,True
+@dfgaJK,2021-03-01T17:51:34Z,1,What is the bit depth of the 9 intermediate values?,True
+@Totial,2021-03-01T17:47:31Z,1,"Hey Sentdex, amazing vid as always! Are you going to do tutorials on pytorch some day? I did everything with keras because of your tutorials and I learned really a lot but recently changed to pytorch for all the bugs popping up specially working with multiple devices and multiprocessing :S :S I  noticed lots of ppl like tesla team and comma.ai changing to pytorch and not regretting anything. Would love to hear your thoughts on it :)",True
+@BDYH-ey8kd,2021-03-01T17:41:33Z,0,"Mr dex, can u do a series with coinbase API and deeplearning bitcoin trader yes (>^________^<)?",True
+@dfgaJK,2021-03-01T17:38:18Z,1,"What would be really cool, is to make an autoencoder that encodes to a string of words that can be remembered. And then decoded back into an image.",True
+@meguellatiyounes8659,2021-03-01T17:17:33Z,1,"It seems to me that your autoencoder is a generative model ,it took a number 2 example and was able recognize it and then produced a simular example but slightly different , the numbers you used are from the test data.  thanks for the demo",True
+@MadlipzMarathi,2021-03-01T16:57:55Z,0,"Since quantopian is brought by Robinhood and  Zipline is not maintained any more , will you do any new follow up for python for finances. Also  if will don't anything only specific to USA , I'm from India so I have not access lot of tools us specific .  stay awesome ♥️",True
+@sirdumb1592,2021-03-01T16:56:13Z,1,"What would happen if you gave it an image that it was not trained to encode/decode? Not just added noise but completely different image, like a smiley face? Would the output resemble a digit? would it resemble a smiley? would it be random?",True
+@ahkb,2021-03-01T16:50:17Z,3,You’re a legend Sentdex! 🙌,True
+@hola-kx1gn,2021-03-01T16:41:18Z,3,"I really like that you explain every reasoning, for someone who is not that great at understanding things first time this is very helpful.",True
+@youtubevanced5019,2021-03-01T16:21:37Z,0,For this person I always wait to see,True
+@ElksuGuitar,2021-03-01T15:52:21Z,14,"Congrats sentdex for 1 mil! At around 7:15 you divided x_train by 255.0 for the second time btw, so the values were between 0 and 0.000015",True
+@HT79,2021-03-01T15:49:07Z,0,Is it me or has Harrison been looking like a Viking lately?,True
+@adempc,2021-03-01T15:40:34Z,0,One Million - congratulations! You should get yourself a fancy mug.,True
+@adempc,2021-03-01T15:39:28Z,0,Thanks -,True
+@alvinsetyapranata3928,2021-03-01T15:36:38Z,1,"Can you make thoose thing without keras and tensorflow, because my pc don't support tensorflow at all :(",True
+@farheenakhatib7540,2021-03-01T15:35:21Z,0,"Really,U r making everything very easy.Thank u very much.",True
+@hemanthkotagiri8865,2021-03-01T15:31:55Z,3,"I like how you're putting out really long videos with huge amount of information to follow, even though the rate at which you're uploading is slow. It suffices. Thank you so much, dude! You've been my inspiration since I started programming!",True
+@alvinsetyapranata3928,2021-03-01T15:31:15Z,1,"Man, hope i can be like you :D",True
+@tushardharia98,2021-03-01T15:30:36Z,0,"haven't caught up with your videos lately dang it YT, but holy shit didn't see you hit 1M subs CONGRATULATIONS",True
+@python1108,2021-03-01T15:29:26Z,21,"Man, you find the perfect topics for tutorials!",True
+@Brickkzz,2021-03-01T15:29:17Z,1,The video is less than a minute old and has comments from 3 days ago. What is this sorcery?,True
+@yatharthshah,2021-03-01T15:29:02Z,99,This is why I keep up with YouTube. This scale of Quality information is what the makers of internet envisioned. Keep up the good work.,True
+@PAuLXPlain,2021-03-01T15:27:55Z,0,Help me please sir,True
+@fuba44,2021-02-26T08:10:45Z,3,"And may i add that I too am trying to kick my fancy cup addiction, good to see you are keeping on the straight and narrow ;-)",True
+@fuba44,2021-02-26T08:08:09Z,0,This was great! and not long at all.,True
+@alinuriseker5495,2021-02-26T06:47:32Z,3,"Hey there, i sent you an email about a request related to certain type of auto encoders, perhaps did you miss it?",True
+@Stinosko,2021-02-26T06:34:51Z,0,Howdy 🤠,True
+@HT79,2021-02-26T03:25:19Z,1,First comment as usual huhu,True

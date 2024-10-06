@@ -1,0 +1,179 @@
+author,updated_at,like_count,text,public
+@b07x,2021-03-23T17:35:59Z,0,4:00 Yeah spoofing can be used for social engineering attack,True
+@saileshshocker,2020-10-01T10:24:56Z,0,"I couldn't send an email with my enterprise Email account, eg: name@companyname.com Why is that not working? Can you give me a solution?",True
+@ricardoquirino02,2020-09-29T23:45:04Z,0,"import smtplib content ='example' mail =smtplib.SMTP('smtp.gmail.com,587) mail.ehlo() mail.starttls() main.logn('email','password') mail.sendmail('fromemail,'receiver',content) mail.close()",True
+@alicankara4594,2020-09-06T16:05:22Z,0,adamsın krall çok sağol,True
+@Esizl,2020-07-29T00:58:06Z,0,i think google’s security is to strong now to do this anymore :(,True
+@ACE-gf2tj,2020-07-26T09:58:21Z,0,Bro I got an error .it says traceback most recent call,True
+@ACE-gf2tj,2020-07-26T09:58:05Z,1,Bro I got an error .it says traceback most recent call,True
+@640pct,2020-07-20T23:53:09Z,1,"do you have any idea why I got this?:   Traceback (most recent call last):   File ""/Users/LeoLi/Desktop/python code/email sender.py"", line 11, in <module>     mail.login('lileolog@gmail.com', 'gray60Six')   File ""/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py"", line 734, in login     raise last_exception   File ""/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py"", line 723, in login     (code, resp) = self.auth(   File ""/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py"", line 646, in auth     raise SMTPAuthenticationError(code, resp) smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials y7sm17957987pfq.69 - gsmtp')",True
+@siamzahirul,2020-07-17T06:48:35Z,0,my message is sent as bcc,True
+@deepikaramasamy5042,2020-06-28T05:56:59Z,0,"I am trying to send email (Gmail) using python3, but I am getting error: 'AttributeError: module 'ssl' has no attribute '_create_stdlib_context' python version: 3.8   The following is the error: /usr/local/bin/python3.8 /Users/qa/Documents/Python/python-api-testing/tests/send_report.py Traceback (most recent call last):   File ""/Users/qa/Documents/Python/python-api-testing/tests/send_report.py"", line 23, in <module>     email_obj.send_email()   File ""/Users/qa/Documents/Python/python-api-testing/tests/send_report.py"", line 11, in send_email     server.starttls()   File ""/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py"", line 772, in starttls     context = ssl._create_stdlib_context(certfile=certfile, AttributeError: module 'ssl' has no attribute '_create_stdlib_context Start of /Users/qa/Documents/Python/python-api-testing/tests/send_report.py  Kindly help me to resolve this issue. Much Appreciated for your help.",True
+@leenachang3684,2020-06-23T06:29:40Z,0,I finally got the thing to work after I watched your tutorial. Thanks a million. I'm really happy about this. You're now +1 subscriber.,True
+@richardmauconduit7033,2020-06-20T13:35:10Z,0,"Hello, youre videos is awesome, it help me a lot (from france / Paris) Just one question, do you know how to add a object on it ?",True
+@rikrjh,2020-06-17T01:45:45Z,0,thx.. it worked!!!!,True
+@greenmaniacs6009,2020-06-13T19:44:04Z,0,"Traceback (most recent call last):   File ""C:\Users\*********\Desktop\send_test.py"", line 11, in <module>     mail.login('*************','***************')   File ""C:\Users\********\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py"", line 734, in login     raise last_exception   File ""C:\Users\***********\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py"", line 723, in login     (code, resp) = self.auth(   File ""C:\Users\***********\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py"", line 646, in auth     raise SMTPAuthenticationError(code, resp) smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials d22sm8418469pgh.64 - gsmtp')",True
+@haoyueguo1614,2020-06-10T13:58:15Z,0,it's really helpful!!! Thanks a lot!!,True
+@monty.morris1,2020-05-26T07:18:40Z,0,how do you add a subject to the email?,True
+@anonymousxxx7466,2020-05-19T09:46:03Z,0,because i am using it and i couldn't send,True
+@anonymousxxx7466,2020-05-19T09:45:39Z,0,will this work in python 3.8,True
+@uncommonsense6022,2020-05-19T02:15:20Z,0,is there a way to have emails automatically sent at a certain time everyday?,True
+@Anthony-ru7su,2020-04-21T10:15:58Z,2,OMG DUDE aweome it will save my life big thanks,True
+@bmax1984,2020-03-28T23:48:23Z,0,"Having trouble getting the email to send. Python claims that    "" File ""C:\Users\USER\Anaconda3\lib\smtplib.py"", line 752, in starterver.tls     ""STARTTLS extension not supported by server."") smtplib.SMTPNotSupportedError: STARTTLS extension not supported by server.   What does this mean?",True
+@TheRahulHegde,2020-03-11T11:25:47Z,1,Google blocked my sign-in attempt. What am I supposed to do now?,True
+@meathul,2020-02-14T13:24:54Z,0,"import smtplib content = 'Example python mail'     mail = smtplib.SMTP('smpt.gmail.com',587)         mail.ehlo()         mail.starttls()         mail.login('me.athul@gmail.com','foryouihavelivedalltheseyears')         mail.sendmail('me.athul@gmail.com','me.athul@gmail.com',content)         mail.close()   I am getting the below error      File ""C:/Users/athraj/mailsend.py"", line 4     mail = smtplib.SMTP('smpt.gmail.com',587)     ^ IndentationError: unexpected indent      Please help here",True
+@paulstaley4245,2020-01-25T21:45:31Z,0,I subscribed to you about a month ago for your python tutorials just to find one from 2013 that answered my next question. I love your videos!,True
+@selenagomez7528,2019-11-07T23:05:12Z,0,how can i replay a email sir.. help me please,True
+@harrybubba779,2019-11-06T19:36:50Z,0,It wont accept my username and password. Does it have to be a username or an actual email address?,True
+@harrybubba779,2019-11-06T13:35:53Z,0,"This is AWESOME!! Thank you, so helpful!",True
+@tophattommy2,2019-10-09T22:52:01Z,0,"I have tried this multiple times, changed multiple settings in gmail as other threads have suggested, tried other methods from other videos, and more. No matter what I do, I keep getting:  SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials a17sm3281396pfi.178 - gsmtp')  I have entered the password into the script in multiple ways, logged out (on PC), logged in (on PC), and cannot seem to get past the authentication error. I have also tried the user name with and without the @gmail.com  Can anyone advise how to get past this issue???? Please!  P.S. sentdex makes AWESOME videos!!! I'm improving my abilities with each of the videos I get to watch.",True
+@kalpantumdi898,2019-08-02T07:21:49Z,0,"It's showing this error :  TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond",True
+@kalpantumdi898,2019-08-02T07:20:59Z,0,It's not working. Can anyone please help??,True
+@gallupgallup3348,2019-07-30T07:33:56Z,0,"UnicodeEncodeError:      Add ""content.('ascii')"" just after content='example email stuff here'",True
+@russtycrussty7884,2019-07-22T23:09:01Z,0,does this work with Python 2.7.10,True
+@russtycrussty7884,2019-07-22T22:51:08Z,0,"i got this error :/ how could i fix this.  File ""/Users/username/Desktop/email.py"", line 5, in <module>  AttributeError: 'module' object has no attribute 'SMTP'",True
+@moothemooer4322,2019-07-01T20:52:25Z,0,I'm getting authentication errors with the email and password.,True
+@prof_as,2019-05-22T13:13:13Z,0,not working after removing those email and password feild:|,True
+@joshclark4589,2019-05-03T22:38:24Z,0,Thanks a lot!!,True
+@abhishekpoudel500,2019-04-13T09:40:13Z,0,"This is the error i m getting when doing mail.login('user','password')     D:\anaconda\lib\smtplib.py in login(self, user, password)     621             # 235 == 'Authentication successful'     622             # 503 == 'Error: already authenticated' --> 623             raise SMTPAuthenticationError(code, resp)     624         return (code, resp)     625   SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 19sm49872105pga.88 - gsmtp')",True
+@manastrivedi8994,2019-04-11T03:45:08Z,0,Can we add a facility that via voice we can write the body and its follows all the command via voice??,True
+@Moukraan,2019-03-04T14:47:52Z,9,2019?,True
+@shmarvdogg69420,2019-02-27T18:19:28Z,0,old but gold,True
+@geraldleesesideburnsg3382,2019-02-25T23:08:01Z,0,This would be fun to use to right a script to reply to email scammers with a bot that just asks questions endlessly on a loop,True
+@saranshkhurana7784,2019-02-14T18:16:02Z,0,"Hey, everytime i  try to send a mail google respond with a security alert and it leads to termination of program without sending mail. Is There any way we can authenticate that it's a trusted app trying to access mail?",True
+@yahiaonetech7409,2019-02-02T20:19:28Z,0,How to make mailer bro,True
+@atulanand2118,2019-01-22T13:26:02Z,0,"Thanks @sentdex for great explanation, but its erroring out with   :""   File ""C:\ProgramData\Anaconda3\lib\smtplib.py"", line 642, in auth     raise SMTPAuthenticationError(code, resp)  smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/ma  il/?p=BadCredentials g190sm29164139pgc.28 - gsmtp')  ""   Along with this I am getting a mail from gmail  for ""Critical security alert""",True
+@amansharma7865,2018-12-26T15:19:15Z,0,sir i have been trying to run the login command for 2 hours...each time it gives me wrong credentials error ...i have tried with multiple emails ....none of them i could log in ...please help me somebody,True
+@shruthivelpula2361,2018-11-17T10:07:36Z,0,how to verify the otp using python3,True
+@overbehind,2018-11-10T13:49:38Z,0,It works,True
+@hridaymuppidi2854,2018-10-18T12:37:16Z,0,ok! It worked! Thanks a lot for your video mate,True
+@JTorete,2018-09-24T21:14:25Z,0,"hey, after doing this google detected someone logging into my account, which i expected, but then, when i changed my google password just in case, google detected the password change but it said that i changed it from somewhere else. Basically, google detected that i changed my password but not from where i actually live but from the same place where it detected that it tried to log in. I dont know if im being clear",True
+@JaxLombard,2018-09-23T13:51:14Z,0,How do you make a subject?,True
+@Donatellangelo,2018-09-01T14:51:54Z,0,"I made one before watching this, so I guess I'm good for something. Still, my backwards primitive self still uses yahoo email, and they turned off the ability to allow app access. >:(",True
+@arunchoudhary2826,2018-08-31T07:44:08Z,0,In which browser it will go by default ? Is it Google chrome or anything else. What setting do we need to do for other browser. For me this much of script is not working and giving errors..,True
+@rakeshcs8684,2018-08-18T11:30:57Z,0,Am getting smtp authentication error,True
+@mint-o5497,2018-08-05T16:46:28Z,0,Thanks ...ma nigga,True
+@user-kj6bj5dh5q,2018-07-30T07:35:32Z,0,"(250, b'smtp.gmail.com at your service')  smtplib.SMTPNotSupportedError: STARTTLS extension not supported by server.  smtplib.SMTPNotSupportedError: SMTP AUTH extension not supported by server.",True
+@mahmoudreda1083,2018-06-29T14:40:46Z,0,"the code is running correctly, but there is nothing sent!!",True
+@shivamprasad9285,2018-06-23T09:54:42Z,0,"Sir, I am not able to login into my account. What to do??",True
+@ratiemand4529,2018-06-16T21:56:48Z,0,I didn't know this was possible! Thanks!,True
+@AstoundingRandomness,2018-06-10T03:31:49Z,0,wow it worked well for me. I was amazed when I saw an email send by me in python language. Thanks for the tutorial!,True
+@andrewel5383,2018-05-26T02:33:28Z,3,Do you have one with adding attachments?,True
+@BhattacharjeeD,2018-05-21T22:30:10Z,0,Thanks a lot,True
+@vivekvishwakarma6890,2018-05-02T04:29:18Z,0,"TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. I got this error please tell what happened.",True
+@jacobmoore8734,2018-04-23T09:05:19Z,0,"Can encoding be changed to UTF-8? Also, I followed along with video but my email could not be delivered to gmail because of RFC 5322 compliance issues (namely header format.) I believe that the email lib can help resolve this issue. Anybody else run into this problem and/or find a solution?",True
+@tobb10001,2018-04-22T19:17:16Z,2,Finally I found a WORKING tutorial. Thank You!,True
+@kaptaink0,2018-04-17T19:40:58Z,0,Not sure what went wrong but the email had no content and was only in the send folder of my sending email adresse but did not come up in the inbox of the one I sent it to,True
+@sudipta_samanta,2018-03-16T05:34:28Z,0,"Let's say if I want to sent auto generated mail to the user who login to my website, then it is not possible to hardcode the password and storethat file online. Then how to do it ?",True
+@KaushalKumar-ic8qj,2018-02-16T07:17:44Z,0,"Hey man, It didn't work for me..after running program takes a lot of time to finish the execution and after that it ends with exception.",True
+@benedictaung1749,2018-02-12T11:11:03Z,0,How do you receive emails?,True
+@nancymewada403,2018-02-06T19:09:19Z,0,is it working only with gmail credentials?,True
+@jeffhoney100,2018-01-24T09:21:00Z,0,The man,True
+@MCandMosRandomChannel,2018-01-16T12:56:12Z,1,"Hey man, the smptplib import is not working for me (probably because I am in school) it would be great if I could hit you up or if you could make a video on how to send an email based on certain values taken from a .csv file when the values drop below a certain number. Thanks :)",True
+@imgestudyo4399,2018-01-14T02:43:56Z,0,how add subject to email ?,True
+@imgestudyo4399,2018-01-14T02:12:22Z,0,thank you brother,True
+@acoolmastashu,2017-12-28T13:14:30Z,0,unable to login to my mail if using the above commands and so i'm getting error,True
+@pedrobarbosa8360,2017-12-15T23:55:30Z,0,Someone can tell me if the smtplib still the best way to send e-mails?,True
+@ravindumirihana2784,2017-12-01T23:30:57Z,0,How to receive gmail ??,True
+@cykelarhjalm427,2017-11-24T15:07:14Z,0,dont work for me,True
+@pavanipss5115,2017-11-17T03:23:59Z,0,"Throws up an error ""ModuleNotFoundError: No module named 'smtplib'"" on executing the code and not able to install using pip as well. This throws an error ""Couldnt find a version that satisfies the requirement smtplib. No matching distribution found for smtplib"". Help me to get out of this error.",True
+@Lina-kr6yf,2017-11-16T22:04:27Z,0,how can you send an email without using smtplib?,True
+@MACHINEBUILDER,2017-11-16T08:11:25Z,0,"I don't really know how to fix this : I've done everything there, here's my code :  import smtplib  content = ""Herro"" mail = smtplib.SMTP (""smtp.gmail.com"",587)  mail.ehlo() mail.starttls() mail.login(""usr"" , ""pss"") mail.sendmail (""usr"", ""usr"" , content) mail.close()  but when I run it, it sends the email, but it has no text at all... please help! I'm trying to make a chatroom which uses emails...",True
+@haimai9698,2017-11-16T07:49:35Z,0,Nice!,True
+@Gutenberg3,2017-10-17T03:14:13Z,3,How is it that you have 30 GB in Gmail?,True
+@Adam_Lam,2017-10-13T09:59:40Z,0,"at 5:08, did he change the parameter values to his login credentials before cutting to the gmail web-page in the video?",True
+@kostasnikoloutsos5172,2017-09-18T19:33:08Z,0,4:17 You caught me little genius ! Use that for making keylogger.Make sensee ..!!!!,True
+@imusingwindowsbtw1469,2017-09-17T07:59:00Z,66,"You can't name your programm email.py, there is already an email.py in the SMTP library. When you call your programm email.py, Python will take this instead of the SMTP email.py and get caugth in an infinite loop.",True
+@basiert7701,2017-08-17T14:34:22Z,0,now i can send a virus that deletes system32 thanks,True
+@ivoatanasov5907,2017-07-06T11:11:12Z,0,Strange I don't send a content ?!,True
+@azkikr316,2017-06-29T17:20:00Z,0,Hi nice tutorial. how to send every most recent file. for example I have  a  temperature logs of a templogger.py that logs periodically and  creating new file and I want to send the most recent logs created?  thanks,True
+@varunthukral6044,2017-06-14T06:02:30Z,0,can you please help me i am getting an error of [10060],True
+@jamesxu5404,2017-05-29T16:53:08Z,0,the email is always sent to the receiver as a bcc rather than the direct receiver. How can I change this?,True
+@ullasgowda788,2017-05-12T15:07:36Z,3,"Hello,  great video here..   Have you made any tutorial for sending attachments,  say an image, through email using python.",True
+@xurial2113,2017-05-09T18:41:25Z,0,can you send this emails to more then only one?,True
+@baileymcatee9662,2017-05-03T21:53:00Z,0,"it is telling me username and password aren't accepted, I am 100% sure they are correct. can anyone help? thanks",True
+@gokulakrishnanv9806,2017-04-26T10:31:54Z,0,"I get this ERROR     mail = smptplib.SMTP('smtp.gamil.com',587) NameError: name 'smptplib' is not defined  using Python version 3.4.4 on a windows PC -- can you help me",True
+@swallowedinthesea11,2017-04-13T02:49:23Z,0,"I feel so dumb! Been spending hours trying to figure why my code wasn't working... I put x.sendmail=('', '', msg). Damn = symbol!",True
+@malharjajoo7393,2017-04-06T00:54:22Z,0,"1) When you try this out , en email pops up in your gmail sender account inbox saying ""Review blocked sign-in attempt"".Just turn the switch on there so that the python application can sign in to your gmail account.  2) Sometimes your anti virus will mess up the message content.Just turn it off while sending the message.",True
+@georgewang7770,2017-04-02T07:19:58Z,3,"Great tutorial.  Thanks.  I find Python particularly attractive for all the wonderful libraries available.  It's fantastic.    Like RogueIMP said, App Access needs to be turned ON in order for this tute to work. You can turn it ON by visiting this page and then slide that bar across to ON. https://myaccount.google.com/lesssecureapps",True
+@rajeshgogineni3726,2017-04-01T01:51:44Z,0,I want to initiate this email when certain exceptions pop up or when the script stops running without finishing.  Does anyone have example code for that?,True
+@trrrst-ct3hn,2017-03-22T14:01:11Z,0,Every time getting an error,True
+@trrrst-ct3hn,2017-03-22T14:00:59Z,0,Isnt working ?,True
+@MCwhiteywhitewhite,2017-03-20T01:12:34Z,0,"Could be that the reason it doesn't work if you name your file email.py is because when you first try importing the module, it confuses python so it thinks your file is the module you're trying to import!  Can also happen if an email.py file is in the same directory as your script.",True
+@francisdonsmg6819,2017-03-14T15:47:07Z,0,can someone show me how to actually spoof email i want to learn just to play a little joke on a friend,True
+@h4store,2017-03-09T16:45:50Z,0,"Hi, very helpful video !! But can i send txt files through this way ? Thanks before ;)",True
+@giteshsawant5447,2017-03-01T16:36:02Z,0,"i have got error that ""example = smtplib.SMTP(smtp.gmail.com,587) NameError: name 'smtp' is not defined"" please help",True
+@ankurkulshrestha1308,2017-02-21T10:01:44Z,0,"I am getting below error while executing the given code.. Please help. TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond",True
+@connorburton3370,2017-02-01T20:34:03Z,1,can this method send emails to people with different email providers such as yahoo @sentdex,True
+@ChrisGrazioli,2017-01-27T14:29:36Z,0,"Using the gmail smtp server something weird happens with the Subject and To address? The end up blank, even if you include them as part of a header.  Do you have any video on MIME email with python??? Is there something simple I'm missing with this method. Everything else was surprisingly easy, I just don't understand the .ehlo() method being called twice?",True
+@Pilua_hanuman,2017-01-18T14:12:18Z,0,frommail and receiver? plz define,True
+@radhouaneblilita140,2016-12-21T10:44:35Z,1,you are great man,True
+@christianedwards3448,2016-12-16T00:30:29Z,0,I did this and google reconized the sign in but i did not recieve a emails. Any suggestions.,True
+@MirrorsEdgeGamer01,2016-12-05T19:14:50Z,4,lets email from Donald trump. jk.,True
+@harshitagarwal5188,2016-12-02T12:44:11Z,0,how do in this [example](https://docs.python.org/2/library/smtplib.html#smtp-example ) one could send email without giving password?,True
+@recklessdrivingcucumber9304,2016-12-01T01:01:17Z,1,"Is there a way to make the emails send at set intervals? Like every day, hour, etc?",True
+@pipi_delina,2016-11-30T17:34:37Z,0,I am interested in this episode.. I was hoping if there is another about checking and downloading attachments in a mail and from a link using a regular expression.,True
+@mhelmysuper7159,2016-11-21T19:01:59Z,0,"how can i konw any port for difrant mail like yahoo ,hotmail, any mail",True
+@prathameshvarma4999,2016-11-20T06:51:35Z,0,Not Working,True
+@lorenzosimontacchi4517,2016-10-20T17:11:45Z,0,Very great tutorial !,True
+@JoeKenyon,2016-10-17T17:57:52Z,0,"Traceback (most recent call last):   File ""C:\Users\joebo\Desktop\python.py"", line 45, in <module>     main()   File ""C:\Users\joebo\Desktop\python.py"", line 8, in main     Email()   File ""C:\Users\joebo\Desktop\python.py"", line 37, in Email     mail = smtplib.SMTP(""smtp.gmail"",465)   File ""C:\Python34\lib\smtplib.py"", line 242, in __init__     (code, msg) = self.connect(host, port)   File ""C:\Python34\lib\smtplib.py"", line 321, in connect     self.sock = self._get_socket(host, port, self.timeout)   File ""C:\Python34\lib\smtplib.py"", line 292, in _get_socket     self.source_address)   File ""C:\Python34\lib\socket.py"", line 494, in create_connection     for res in getaddrinfo(host, port, 0, SOCK_STREAM):   File ""C:\Python34\lib\socket.py"", line 533, in getaddrinfo     for res in _socket.getaddrinfo(host, port, family, type, proto, flags): socket.gaierror: [Errno 11001] getaddrinfo failed",True
+@RicardoMedley,2016-10-08T01:36:00Z,4,"Hey, Just wondering why this didn't work. I followed the steps down to the T. I'm using python version 2.7.12 , but would also prefer to also learn it in python 3.5.2 . Please help.",True
+@laviusnkatekomotileng6582,2016-09-06T22:42:55Z,0,Thank you!,True
+@BlackHatxz,2016-08-31T23:59:57Z,0,doesnt work,True
+@theautistic9246,2016-08-27T20:19:06Z,0,How its supposed python knows my mail?,True
+@smacato,2016-08-25T13:19:58Z,0,Thanks :),True
+@chandansaha8653,2016-07-30T04:15:05Z,0,can i use the same code in python 3.5.2?,True
+@techprophecy2003,2016-07-15T06:13:38Z,0,"Great Tutorial, I am using this for an IoT project, where it sends a photo of whos at my door to me :)",True
+@MrFischvogel,2016-07-14T21:32:42Z,0,Thanks a lot! Did you already put up a tutorial about subject and HTML extension ?,True
+@LukeCreates,2016-06-27T20:23:49Z,2,Not sure if you'll see this but I really appreciate the work you put into these videos. Good stuff.,True
+@jaywheeler3311,2016-06-04T13:27:17Z,0,Did you ever do a more advanced email video ?,True
+@origanilzumper9520,2016-04-24T11:54:19Z,0,would this work with a rasberry pi?,True
+@jamaliq4690,2016-04-02T21:00:15Z,0,I love you man🙈🙈,True
+@xebyted2425,2016-03-31T21:26:48Z,0,"When login is stored as a variable, I get this error:   mail.login(My_adress, My_password) NameError: name 'mail' is not defined   why is this?",True
+@jamaliq4690,2016-03-29T19:40:25Z,0,+sent dex Does i matter what port i use? 587 did not work for me.....HELLLLLLP,True
+@imppaco,2016-03-20T15:37:04Z,65,"You also have to turn on ""App Access' in your Gmail security settings.  Otherwise, it'll fail authentication. (SMTPAuthenticationError)  Other than that, Fantastic tutorial!!!",True
+@TechDark,2016-03-18T19:42:42Z,1,"i dont really understand the command lines   mail.sendmail (""fromemail"" , ""receviver"" , content)  and    content = ""example email stuff here ""   can you briefly explain what thes commands does tnx",True
+@ajaysaini6934,2016-03-12T17:06:26Z,0,"Hey its not working, because gmail is refusing connection. What should i do??",True
+@yafe3925,2016-03-04T22:32:27Z,7,Hmm the truth is to be able to send emails your need to set this to  on https://www.google.com/settings/u/1/security/lesssecureapps,True
+@3xcellentTuberEN,2015-12-30T07:48:33Z,0,thank you! but is there an option to add a subject to the message ?,True
+@appiecoolop7201,2015-12-13T18:55:48Z,19,"your welcom :)    import smtplib  content = ""example email stuff here ""  mail = smtplib.SMTP (""smtp.gmail.com"",587)  mail.ehlo() mail.starttls() mail.login('email' , ""password"" ) mail.sendmail (""fromemail"" , ""receviver"" , content) mail.close()",True
+@trippinduke,2015-11-28T13:21:53Z,0,for SMTP help: https://support.google.com/a/answer/176600?hl=it,True
+@rycao18,2015-10-04T23:25:36Z,2,"Traceback (most recent call last):   File ""C:\Users\Richard\Documents\Documents\Python\emailtest.py"", line 11, in <module>     mail.login('i put my real email user here','I put my real email password here')   File ""C:\Users\Richard\AppData\Local\Programs\Python\Python35\lib\smtplib.py"", line 730, in login     raise last_exception   File ""C:\Users\Richard\AppData\Local\Programs\Python\Python35\lib\smtplib.py"", line 721, in login     initial_response_ok=initial_response_ok)   File ""C:\Users\Richard\AppData\Local\Programs\Python\Python35\lib\smtplib.py"", line 627, in auth     initial_response = (authobject() if initial_response_ok else None)   File ""C:\Users\Richard\AppData\Local\Programs\Python\Python35\lib\smtplib.py"", line 664, in auth_login     raise SMTPAuthenticationError(code, resp) smtplib.SMTPAuthenticationError: (502, b'5.5.1 Unrecognized command. jh6sm1718531igb.13 - gsmtp')  What is this error? I keep getting this.",True
+@srikanthappanabhotla4924,2015-09-20T10:22:16Z,0,nice video man The exact code snippet given in the video worked for me on python 3.5. Only change I had to do was turning on access to less secure apps as given in this link : https://support.google.com/accounts/answer/6010255?hl=en,True
+@0xsuperman,2015-08-20T22:06:28Z,0,"Thanks for the tut again. Though the email I receive is tagged as bcc and the ""to"" slot is empty.",True
+@lenlen8099,2015-06-27T13:15:20Z,0,"I used port 465 and the program didn't get an error when sending, but after I run it it seems to take forever to send if it even is working.",True
+@coloradocolin1,2015-06-10T10:09:50Z,0,Awesome video!!,True
+@Qublisse,2015-05-05T16:27:17Z,1,I'm getting this error  socket.error: [Errno 101] Network is unreachable  Anyway to fix this?,True
+@sentdex,2015-04-29T12:54:11Z,9,"Jason Mcculloch you named your file email.py. That conflicts with another ""email.py"" that the module needs. Rename your file to something else.",True
+@Arthur-yq5dx,2015-04-21T16:47:31Z,0,Great Tutorial!,True
+@privacyIDEA,2015-04-14T14:15:55Z,0,"right in the smtplib.py it imports email.base64mime. So if you call your file email.py, smtplib will not load, as it you have a circular import and smtplib again tries to import ""base64mime"" from your file. Anyway! Thanks for this nice tutorial!",True
+@patrickreader,2015-03-16T16:24:23Z,2,it sends but there is no content. what is going on?,True
+@funkeypigeon,2015-03-14T23:23:20Z,0,":( I get following error:   Traceback (most recent call last):   File ""C:\Users\Funkey\Desktop\Python testing.py"", line 11, in <module>     mail.login('funkeypigeon.mail@gmail.com','MyPasswordHere')   File ""C:\Python25\lib\smtplib.py"", line 554, in login     raise SMTPException(""SMTP AUTH extension not supported by server."") SMTPException: SMTP AUTH extension not supported by server.",True
+@Seeedyyy,2015-03-02T22:18:13Z,0,"works perfectly fine thank you very much btw every email adress can receive the message not only gmail, only your email has to",True
+@schgarten,2015-03-01T18:28:44Z,0,"hi, my program takes a pretty long time to 'send' the e-mail (or i don't know if it's work at all) . Please send me some help.",True
+@montewatson5616,2015-02-24T19:33:09Z,0,i can really explain the whole cant name the file as email.py but i once had some isssue with this before when i was testing a module and i named the file as the name of the module and come to find out you cant do that in some cases ... it tries to load the the py file for the module so sense you named the file email its gonna look at that file ... so im assuming theres a py file for the import smtplib that is needed in order for this to work? so pretty much if you happen to name the file as a need file in some module its gonna look for that code in the file you just made and therefore not gonna work,True
+@kcamnairb,2015-01-28T12:37:12Z,0,I got an 'SMTPAuthenticationError' when I ran this code with my gmail account. Then I received an e-mail from google saying that it had blocked a sign-in attempt and if it was legitimate that I could switch my account settings to allow less secure sign-ins. Is this new? Is there a more secure way of using smtp with gmail?,True
+@AbhimanyuAryan,2015-01-15T14:59:07Z,0,can i use port 25? ,True
+@teamminecraft9459,2014-12-29T19:14:26Z,0,No more google+? by using a while loop always sending a message          ,True
+@topviralclips_x,2014-11-27T16:15:54Z,0,"Sentdex or anyone, Please could you tell me where i can download this SMTPLIB module as I cant find it anywhere Thanks",True
+@RedZombieKiller,2014-11-15T19:37:40Z,8,How do you put a subject into the email? Did sentdex ever make that follow up video,True
+@Santainho,2014-08-29T19:27:14Z,0,thank you very much sir!,True
+@turningandknives,2014-07-31T17:41:17Z,0,"I get this ""Traceback (most recent call last):   File ""EmailVocab.py"", line 1, in <module>     import smtplib   File ""/usr/lib/python2.7/smtplib.py"", line 46, in <module>     import email.utils   File ""/home/zachary/email.py"", line 17, in <module>     except SMTPException: NameError: name 'SMTPException' is not defined  "" how can I fix it?",True
+@ahmedr.,2014-06-16T02:12:21Z,0,"Very well ,it works 100% . I wish your could demonstrate classes,objects,modules and libraries in Python to understand the code your wrote.",True
+@AncientEntity,2014-06-04T14:30:49Z,0,How would you host it with 1 computer,True
+@AncientEntity,2014-06-04T14:08:33Z,0,Can you make a video with lists I tries to make it so when I move up the coin goes down like a camera but it doesn't work I have something called coinY in a list and I try to edit a item in a list with math by doing objY[0] = objY[0] + 1 I get a error please can you help me and this video I watched to how to send emails I have done everything correct took the outlook port and it's email I put my email in and everything it says it cannot connect for some reason is it because this is a old video?,True
+@AncientEntity,2014-06-04T05:17:24Z,0,It didn't work can you make one on outlook or hotmail,True
+@AncientEntity,2014-06-04T04:44:03Z,0,Also can you make a video of a game were a camra follows you around a little world,True
+@AncientEntity,2014-06-04T04:37:44Z,0,Can you make a video how to do math with a list and other things with lists,True
+@anirband,2014-02-25T21:27:55Z,9,Hi can you tell us how to put the subject please?,True
+@emuzehh,2014-02-14T00:10:43Z,1,"The email.py thing is probably because there's a file in the smtplib module called email.py which it uses in the sending of the email, so when you call your file email.py it uses that instead of the one in the module.",True
+@U2bingDummy,2014-02-10T07:01:16Z,0,"I think i'm going put this in the games I make, so when people download it and play it, the game will automatically send me an email telling me. Very useful.",True
+@ankurgupta6719,2014-01-29T08:35:07Z,1,tried with both versions 2.7 and 3.3 getting AttributeError: 'module' object has no attribute 'SMTP' why???,True
+@U2bingDummy,2014-01-22T07:15:00Z,0,Very nice! Keep up the good work!,True
+@pnwguy00,2014-01-03T15:21:48Z,0,"Another great video!  Question though...I'm using 2.7 to run the code in the video and keep getting the following error.  My file is called email_send.py.  Any suggestions?    File ""<pyshell#0>"", line 1, in <module>     import smtplib   File ""C:\Python27\lib\smtplib.py"", line 46, in <module>     import email.utils ImportError: No module named utils",True
+@Esteban2000,2013-12-10T23:26:55Z,0,Thanks for the video. Any thoughts on how to avoid putting your password on a plain text file?,True
+@sentdex,2013-11-06T16:49:45Z,1,Happy to have helped! I try my best to simplify the topics that have been over-complicated. ,True
+@sentdex,2013-10-12T14:40:07Z,5,"Makes sense, thanks for sharing!",True
+@rockvhs,2013-10-12T08:48:18Z,0,"Naming the file ""email.py"" prevents smtplib from importing the built-in email module. Nice video! ",True
+@StephanieDavis,2013-10-03T15:45:58Z,0,I concur; not nice. I get a lot from this site. ,True
+@sentdex,2013-09-28T17:37:36Z,2,Well that's not a very nice thing to say at all. ,True

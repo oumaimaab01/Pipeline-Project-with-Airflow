@@ -1,0 +1,160 @@
+author,updated_at,like_count,text,public
+@xeno_plays2930,2024-04-16T05:51:28Z,0,"For accessing 4,5,6,8 answer is arr[1: , 2:4]  and for accessing 3,4,5 answer will be arr[1:2,1:4]",True
+@vineetkrpandey7641,2024-04-12T09:09:58Z,0,video4//12/04/2024 Done,True
+@balusister1991,2024-03-20T11:52:35Z,0,"Hi Krish, great effort. But i request you to improve the audio quality. Audio quality is not so good to follow the recording. thank you.",True
+@saiphani3999,2024-03-08T04:54:28Z,0,"arr = [1, 2, 3, 4, 5, 6, 7, 8, 9] arr1 = arr.copy() arr1[3:] = 67  print(arr1) for this code i'm getting errory , i replaced it with [67] the out put is only [1,2,3,67] how can i get all the remaining values as 67",True
+@JacklinSibiyal,2024-02-17T12:50:59Z,0,Day 2 - 17/02/2024,True
+@styles4330,2024-02-09T14:19:25Z,0,"Here are the functions mentioned in the video with examples:  * Creating arrays:   * `np.array()`: This function is used to create arrays from various data types like lists, tuples, etc. For example, `np.array([1, 2, 3, 4, 5])` creates a one-dimensional array with elements 1, 2, 3, 4, and 5.   * `np.zeros()`: This function creates an array filled with zeros. For example, `np.zeros((3, 4))` creates a two-dimensional array with 3 rows and 4 columns, all filled with zeros.   * `np.ones()`: This function creates an array filled with ones. For example, `np.ones((2, 2))` creates a two-dimensional array with 2 rows and 2 columns, all filled with ones.   * `np.random.rand()`: This function creates an array filled with random floats between 0 and 1. For example, `np.random.rand(2, 3)` creates a two-dimensional array with 2 rows and 3 columns, filled with random floats between 0 and 1.   * `np.random.randn()`: This function creates an array filled with random samples from the standard normal distribution. For example, `np.random.randn(3, 3)` creates a two-dimensional array with 3 rows and 3 columns, filled with random samples from the standard normal distribution.  * Indexing and slicing:   * `[]`: This operator is used to access elements of an array. For example, `arr[0]` accesses the first element of the array `arr`.   * `[:, :]`: This is used to access all elements of an array. For example, `arr[:, :]` accesses all elements of the array `arr`.   * `[start:stop:step]`: This is used to slice an array. For example, `arr[1:4:2]` selects elements from index 1 to index 4 (excluding index 4) with a step of 2.  * Mathematical operations:   * `+`, `-`, `*`, `/`: These operators are used to perform basic arithmetic operations on arrays element-wise. For example, `arr1 + arr2` adds the corresponding elements of arrays `arr1` and `arr2`.   * `x * arr`: This multiplies each element of the array `arr` by the scalar `x`.   * `arr.shape`: This attribute returns the shape of the array as a tuple of integers. For example, `arr.shape` might return `(3, 4)`, indicating that the array has 3 rows and 4 columns.  * Reshaping:   * `np.reshape()`: This function is used to reshape an array into a new shape. For example, `np.reshape(arr, (2, 6))` reshapes the array `arr` into a two-dimensional array with 2 rows and 6 columns.  * Other functions:   * `np.dot()`: This function is used to perform dot product or matrix multiplication between arrays.   * `np.sum()`: This function is used to calculate the sum of all elements in an array.   * `np.mean()`: This function is used to calculate the mean of all elements in an array.  These are just a few of the many functions available in NumPy. I hope this helps!                                                                                                        -courtesy:GeminiAI",True
+@csumanthreddy3112,2024-01-29T20:12:14Z,0,"arr[1:,2:4] arr[1,1:4]",True
+@aartip20,2024-01-18T10:40:00Z,0,"--------------------------------------------------------------------------- Why am i getting this error? Any clues?  TypeError                                 Traceback (most recent call last) Cell In[86], line 38       37 arr1 = [1,2,3,4,5,6,7,8,9] ---> 38 arr1[3:6]=100      39 arr1  TypeError: can only assign an iterable",True
+@manojkumaar8221,2023-11-27T19:19:31Z,0,"Arr[1:, 2:4] and arr[1,1:4]",True
+@user-bf4ox2om6y,2023-09-14T05:36:40Z,0,can we copy or replace number with srting vaue,True
+@theanonymous5268,2023-08-25T11:52:00Z,0,18:23,True
+@user-pj8lk9ii6n,2023-07-24T12:05:28Z,0,"#slice operation to print only [3,4,5] in second row arr[1:2,1:4]",True
+@hardikmehta140,2023-06-28T20:39:29Z,0,Completed 28 June 2023,True
+@pragadesh4500,2023-04-25T16:39:41Z,0,"arr[1:,2:4]",True
+@user-jr5do5mw3g,2023-04-14T20:50:46Z,0,"hi Krish, What's the difference between random.rand and random.random_sample ?  btw,  these lectures are super helpful!! Thank you so much for this",True
+@HelloWorld40408,2023-04-11T04:20:08Z,0,Thank you,True
+@omprakashacharya3810,2023-04-07T09:06:32Z,0,"print(arr[1:,3:]) print(""-----Asssiment Tasks 1----"") print(arr[1:,2:4]) print(""-----Asssiment Tasks 2----"") print(arr[1,1:4])",True
+@hasibkazi1379,2023-02-16T17:09:21Z,1,"this is one of the best playlist for learning python for data science, can you please tell me how can I practice without anaconda environment? As my PC does not support the environment.",True
+@hasibkazi1379,2023-02-16T17:07:08Z,0,"arr[1: ,2:4]",True
+@jn9281,2023-02-16T05:20:14Z,1,"First of all thank u so much for amazing tutorials on python. I have a question. When I do this, my_lst=[1,2,3,4] arr=np.array([my_lst]) arr  The output comes as array([[1,2,34]]) Is it two dimensional then?",True
+@54mu33le,2023-01-05T06:01:47Z,2,Absolutely great content being put here by this man. I wish there were more teachers like him across different domains. What a stupendous job he is doing here.,True
+@Arceus948,2022-12-08T05:51:45Z,1,"Sir i have exam tomorrow, r these numpy functions sufficient for my exam???",True
+@jnumaterial9641,2022-11-13T16:40:39Z,0,Thanks krish ,True
+@simplyanup9658,2022-11-13T12:20:59Z,0,"But when I was trying to insert different data type into an array , it is accepting",True
+@BHANU693,2022-10-25T04:40:32Z,7,"Following are taught in video: -Array definition - Numpy library import - Array Shape and Reshape - Array indexing - Array Range - Array linspace - Array copy and broadcasting - some functions in Array like np.ones, np.random.rand (random distribution), np.random.randn (normal distribution), np.random.randint etc.",True
+@MrNazlouei,2022-09-27T20:45:04Z,0,"for 45 68 arr[1:,2:4]   ????????",True
+@MrNazlouei,2022-09-27T20:42:45Z,0,"[1,1:4] ??????",True
+@flyeagle320,2022-09-12T14:14:17Z,0,"arr[1:,2:4]  arr[1:2,1:4]",True
+@bhushanmali7635,2022-08-27T15:12:43Z,0,"18.07 when we print ""arr"" the output array is comma seperated but when we print ""arr1"" output is space seperated..   why?  when we use linspace the array is of shape 10 rows and 5 columns .. why? and why not 25 rows and 2 column or other?",True
+@learn_with_rudraa,2022-08-10T17:18:25Z,0,"time: 14:30 assigment asn: array[1:,2:4]",True
+@journeyofengineerjoe7386,2022-08-09T18:21:40Z,0,"14:25 [1:,2:4]  [1:,1:4]",True
+@shortsforall5687,2022-08-05T17:11:49Z,0,Bro are u teach in Tamil? My small recommend fo u,True
+@sandeeppal1083,2022-08-04T10:24:30Z,0,"Hi Krish,  if the first list has 3 elements, 2nd has 4 elements and 3rd has 5 elements then still NumPy can create a multidimensional array?",True
+@ajaysable2767,2022-07-18T06:22:58Z,0,"arr1[1:4,2:4]",True
+@professorvlog7,2022-07-14T07:12:16Z,0,Could anyone suggest Data Analyst Course?,True
+@arandomwho,2022-06-18T11:26:01Z,0,thank you again....i gonna finish your amazing course in a week,True
+@hamzayarkhan3819,2022-06-13T11:46:30Z,0,"arr[1:,2:4] arr[1:2,1:4]",True
+@bodhisattadas304,2022-06-09T13:37:22Z,0,"arr1[1:,2:4] arr1[1:2,2:]",True
+@pranavsinha5700,2022-05-13T20:51:49Z,0,awesome,True
+@divyapatnaik7492,2022-03-03T07:48:21Z,0,Is there any documents available for this particular playlist?,True
+@indirajithkv7793,2022-01-30T11:30:08Z,0,❤,True
+@tanmaydigraskar7156,2022-01-22T08:32:56Z,0,Hii Krish I am confused in .copy() concept,True
+@subanis4232,2022-01-13T09:09:49Z,0,"arr[1:2,2:4] arr[1:2,1:4]",True
+@shijithsasidharan8436,2022-01-12T13:49:18Z,0,"print(ar[1:,2:4]) print(ar[1:2,1:4])",True
+@shraddhanemane,2021-12-11T18:40:18Z,0,"keys for funcation defination,can anybody tell ?",True
+@manateluguabbaiinuk-mahanu761,2021-11-23T12:06:33Z,0,"arr[1:2, 1:4] output: array([[3, 4, 5]])",True
+@manateluguabbaiinuk-mahanu761,2021-11-23T12:05:16Z,0,"arr[1:3, 2:4]  array([[4, 5],          [6, 8]])",True
+@arijitsarkar2992,2021-09-10T21:40:21Z,0,"Sir, what is use of np.ones",True
+@hometvfirestick,2021-09-03T15:20:24Z,0,thanks,True
+@fouzanghiyas5643,2021-08-14T09:14:51Z,0,reshape after randint not working-after tab its not even popping in the list. can anyone help,True
+@ramakant1963,2021-08-09T15:29:19Z,0,"solution for the excercise - arr[1:,2:4]",True
+@archanaashok1980,2021-08-09T11:16:22Z,2,"Hi Krish, Python is made so simple to learn from you. Always had difficulty in understanding and remembering from other tutors. Never felt it so easy and enjoyable to learn. Thank you for your efforts.",True
+@madhavimishra7943,2021-08-07T16:47:24Z,0,sir can u plz help me..mai Pychm use kr rhe hu bt use me numpy import error show kr rha..mai google kiya kuch nhi mila information ki kaise thik kru..bs yahi bol rhe h problem aati h so plz help,True
+@NKATRUKUSUMANADH,2021-07-16T09:06:09Z,0,"hello,sir,,is this concept of numpy enough to go through machine learning",True
+@louerleseigneur4532,2021-07-06T22:21:52Z,0,Thanks Krish,True
+@lokeshvenkatesan2693,2021-06-30T01:16:34Z,0,I have one doubt np.arrange output not showing as 2 Dimensional brackets. Anyone?,True
+@anvayawalgaonkar4119,2021-06-18T16:04:32Z,0,great explanation!!! if I cover all these concepts I will be data scientist within couple of months: Absolute best explanation..,True
+@kavitagupta8911,2021-06-15T06:01:53Z,0,Sir please be little bit slow while explaining.,True
+@S3shubham,2021-06-08T06:44:21Z,0,"arr[1: , 2:4] arr[1:2,1:4]",True
+@_itz_pk,2021-06-02T16:41:32Z,0,"New threads comes in  <ipython-input-6-a0e3240f94f0>:5: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.   arr=np.array([lst1,lst2,lst3])  this want work anymore",True
+@gardeninglessons3949,2021-05-30T06:41:29Z,0,"arr[1:2,1:4] = 3,4,5",True
+@pailasaisravan5423,2021-05-20T05:31:06Z,0,"arr[1:,2:4]",True
+@sapnaSingh-gk9nq,2021-05-17T09:26:31Z,0,"Answer to print  1.) 3,4,5 @14:20 arr1[1:2,1:4 ]  2.) 4,5 and 6,8 arr1[1: , 2:4]",True
+@assiaben1220,2021-05-07T13:27:52Z,0,"arr[1:, 2:4] arr[1,1:4]",True
+@Suraj-mj2jo,2021-05-04T18:56:40Z,4,"Assignment - array[1:,2:4] array[1:2,1:4]",True
+@niteshprajapat7918,2021-04-28T18:07:30Z,0,"arr[1:, 2:4] and arr[1:, 1:4]",True
+@pranjalpatel6181,2021-04-27T17:35:51Z,0,Is these Jupyter notebook files uploaded somewhere,True
+@gana6004,2021-04-25T07:09:26Z,0,"arr[1,2:4] and arr[1,1:4]",True
+@priya3677,2021-04-18T12:25:15Z,0,sir what is the difference between range () and arange(),True
+@sonasingh131,2021-04-11T16:55:23Z,0,"audio quality is bad sir, could you please fix it for upcoming videos, thank you!",True
+@anchitagarwal9640,2021-03-31T05:33:58Z,0,"arr[1:,2:4] and arr [1,1:4]",True
+@sidde_95,2021-03-24T09:08:23Z,0,"arr[1,1:4] -> For extracting 3, 4, 5 from the 2nd row. arr[1:, 2:4] ->4, 5 from the 1st row and 6,8 from the second row.  As asked in the video at 14:25",True
+@AbhishekMishra-fr7po,2021-03-23T18:37:47Z,0,Great efforts sir,True
+@AInamedMia,2021-03-20T15:19:46Z,1,"What is the difference between arrays with the following shapes:  (x,) and (x,1)  Aren't both the same, i.e. an 1D array?",True
+@aamnasuhail4468,2021-03-16T16:23:15Z,0,Done and Implemented !!,True
+@achintya_asthana,2021-03-14T17:56:16Z,0,"arr[1:,2:4] arr[1,1:4]",True
+@kesshie07,2021-03-08T06:14:24Z,0,"Hi, for assignment @14:23... 1. arr[1:,2:4] & 2. arr[1,1:4]",True
+@ovithappan3147,2021-02-21T16:21:07Z,0,"arr[1:,2:4] arr[1:2,1:4]",True
+@lakshitbisht101,2021-02-21T14:10:54Z,0,hey ! I'm looking for learning partner .If anyone interested  in learning together reply !,True
+@shubhamchaudhary7322,2021-02-11T15:14:47Z,0,done...heading to video number 8 :),True
+@harish00784,2021-01-23T09:50:59Z,0,arr4[3:]=500. Copy and broadcasting didn't work. TypeError: can only assign an iterable,True
+@harish00784,2021-01-23T08:41:16Z,0,"arr1[1:,2:4]  for   [4,5,6,8]  and  arr1[1:2,1:4] for   [3,4,5]",True
+@manojsupyal1912,2021-01-03T10:38:01Z,21,"Q1-If I pick up 4,5 from 2nd row And 6,8 from third row than In. is Arr[1: , 2:4]  Q2-Pick up 3,4,5 from 2nd row than  In.  is   Arr[1:2,1:4] Thank you so much sir.",True
+@ajaxaj8470,2020-12-20T12:17:54Z,0,"Guys, watch this playlist as well for Numpy revision  https://youtu.be/NVTWjd_UpzM",True
+@asprihashrivastava7548,2020-12-19T16:12:07Z,0,I have a confusion.. when we execute copy() function and print arr and arr1 then why is the space difference between the two array?,True
+@md.muntasirulhoque8563,2020-12-12T21:41:05Z,0,"arr[1: , 2:4]    arr[1:2, 1:4 ]",True
+@zahabiyarangwala1808,2020-12-06T12:23:16Z,7,"Honestly glad to have come across your channel and it brings in humungous value to the folks trying to learn. You are truly the best. You make commendable efforts and as a part of the learning community, I hold enormous respect for your contribution in helping us. (y)",True
+@malladipavankalyan2767,2020-12-02T06:38:33Z,0,"Hi all , is it easy to go directly to libraries than of inbuilt DS and functions concept , someone ans",True
+@avinashtripathi3692,2020-11-13T07:36:23Z,1,"while creating a dimensional array, why does the shape indicates (5,0) and why not (1,5)?",True
+@namanrungta144,2020-11-08T10:02:25Z,0,"for indexing...  arr[1:,2:4] arr[1:2,1:4]",True
+@tushar8744,2020-10-28T10:53:46Z,0,The voice quality is not good in this video sir !,True
+@bishalgupta49,2020-10-17T02:40:48Z,1,This is the  first video of your channel that i got recommended and man i loved it . Thanks for sharing.,True
+@AmanVerma-sy2de,2020-10-12T10:58:48Z,0,"arr[1:,2:4] =  array([[4, 5],        [6, 8]])  arr[1:2,1:4] = array([[3, 4, 5]])",True
+@manavshah2119,2020-10-10T14:07:36Z,0,Sir Thank you so much your playlist is very used full and it was very fast unsersting.,True
+@vysakhkailas940,2020-10-06T09:05:54Z,0,wow Sir. Love all your videos. Thank you !!,True
+@AnkitKumar-lb8eb,2020-10-03T05:16:45Z,0,"Arr[1:  2:4] Arr[1:2,1:4]",True
+@sandipansarkar9211,2020-09-30T13:27:19Z,0,Very nice explanation .Thanks,True
+@poojakukreti8618,2020-09-30T10:41:51Z,1,"array of 45 68 ----- arr[1:,2:4] array of 345 -----  arr[1,1:4]",True
+@Virus-ke8xj,2020-09-16T17:55:55Z,0,Just 3 videos into and you made it really interesting ❤️❤️🙏🙏🙏,True
+@Raveendr1191,2020-09-15T10:24:52Z,0,"mylisy=[1,2,3,4,5] arr=np.array(mylisy) arr=np.array(mylisy) -->o/p:-(5,) means 5 columns 0 rows[first column ,second rows] where as  myarray1=[1,2,3,4] myarray2=[5,6,7,8] myarray3=[9,8,7,6] arr2=np.array([myarray1,myarray2,myarray3]) arr2.shape -->o/p:-(3, 4) here first rows (3) and then 4 (column) why both time o/p not same ? it should be (row, column )or (column , row )",True
+@sagarmishra3517,2020-09-15T02:08:23Z,30,"Hello Krish, I am obliged to take time and express my gratitude towards your efforts and teaching method. I am watching your tutorials since yesterday, and I just so happy to learn and actually understand everything. I am looking forward to follow the playlist, and excited to learn. Thanks man, you deserve our respect and the money as well, I will be joining your membership.  I will request all the people who are reading my comment to consider joining the membership to help him grow❣",True
+@farazahmed1668,2020-08-30T13:48:52Z,0,I understand this chapter of numpy in 3 days there are lot to learn in 26 minutes.,True
+@farazahmed1668,2020-08-30T13:45:23Z,0,His explanation is clear and everything is practical.,True
+@sanjeevashoka7948,2020-08-13T16:07:51Z,0,"Thanks a lot Sir ,",True
+@varshadevgankar8242,2020-08-11T15:41:47Z,0,"Hi Sir... actually i've 1 doubt what if i wanna replace the elements in the array from 1specific position to another and remaining all the elements to be as it's for eg: arr=[1,2,3,4,5,6,7,8] here i wanna replace with 10 from 2nd position to  5th position  arr = [1,2,10,10,10,10,7,8] only the specific elements need to get replaced please me help me out in this!!!!!!!!!!!!!",True
+@artifiedai8898,2020-08-07T16:22:05Z,0,"Hello, How can We select 1st and 3rd row and 2nd and 4th column. Is it possible using numpy?",True
+@rockstarzzzw200,2020-08-06T16:11:55Z,0,"the Quiz :  1)   arr[1:,2:4]   2)    arr[1:2,1:4]",True
+@sathiyaraj5704,2020-08-04T07:36:47Z,19,I started watching this playlist today after knowing the learning path from your yesterday's video. thanks a lot,True
+@jpdubey1765,2020-07-29T12:54:30Z,0,Inspirational story about importance of Being a balanced controller https://youtu.be/4BiKhka7APc,True
+@SB-fs4vi,2020-07-23T16:40:42Z,0,Thanks Krish for these videos👏.I am a beginner in python and from bio science background.I am using pycharm for coding and found differences in syntaxes in pycharm than jupiter notebook.Why it is like that?kindly reply.,True
+@jimbujaddu9602,2020-07-09T17:17:00Z,0,"Hey could u explain the diff between :  ar[[1,2]] [[3,4]] & ar[[1,2],[1,3]]",True
+@ShivamSingh-kn3gz,2020-06-19T17:11:12Z,9,"For the subarray 4, 5, 6, 8 code is: arr[1: , 2: 4] For the subarray 3, 4, 5 code is: arr[1, 1: 4].  I started your session, sir, really your contents are truly valuable. Thanks for making this all happen. I wanna learn as best as possible about the concept of Machine Learning.  Really glad that I found your channel at the time when I was in its complete need.  Thank you soo much, sir",True
+@priyansurout215,2020-06-16T06:53:05Z,1,"arry[1:,2:4]  , arry[1:2,1:4]",True
+@gaurayushi4,2020-06-12T07:30:56Z,0,"arr[1:4,2:4] arr[1:2,1:4]",True
+@sharvandas4349,2020-06-09T18:59:01Z,1,"*Numpy *Array 1.Creating One Dimensional array. 2.Creating Two Dimensional array. 3.Shape, reshape and indexing(slicing) done in two dimensional. 4.In-built function present in numpy- arange, linspace, ones, random.(and more) 5.Concept of copy and Exploratory data analysis  Please share the list built-in functions of numpy. Thanks",True
+@brahma2u,2020-05-18T16:25:37Z,0,"first answer print(arr[1:,2:4]) second answer print(arr[1:2,1:4])",True
+@mrunalfiske6011,2020-05-09T11:38:00Z,0,"arr[1:2,1:4]",True
+@venkatratnamratnam2716,2020-04-30T20:50:04Z,0,"Bro I find your tutorials are so good and useful. I have a question where to start...?. There are lot of video playlists like stats,Ml,python...Please suggest me to learn data science as a beginner ,first i have to go through stats or Machine learning...please suggest bro,",True
+@banimohammad8276,2020-04-22T15:01:16Z,0,your explanation is very good,True
+@yadhunandan5765,2020-04-16T08:10:58Z,0,"Hi Krish bit confused on array indexing like arr[:,:] trying to understand in deapth....",True
+@mohitaggarwal7971,2020-04-12T05:28:12Z,3,"hello sir i am getting an error "" module 'numpy' has no attribute 'arrange'"". how this is to be resolved??",True
+@farazahmed1668,2020-04-09T13:13:18Z,5,I never thought understanding the prerequisite of machine learning is that much easy and Krish sir you make it alot easier.,True
+@bhavikakapadia2462,2019-12-18T19:14:21Z,0,copy() and broadcasting not working,True
+@parththakurdesai809,2019-12-16T20:27:15Z,16,Thank you soo much Krish. I am recommending your channel to all my friends. I really like your genuine teaching passion. I learn a lot from all your videos. Thanks for being a mentor.,True
+@Anupkumar-xv3vd,2019-11-12T07:21:05Z,9,"print(arr[1:,2:4]) print(arr[1:2,1:4])",True
+@kornelies,2019-11-06T05:43:24Z,0,"Hi..In[105] -( val=2)..in this case we take ""val"" to do the operations like...arr*val, arr>val,.......correct me if i am wrong..Thank you Krish for your valuable teaching",True
+@kornelies,2019-11-06T05:22:12Z,0,"arr[1:,2:4] arr[1:2,1:4]",True
+@muthulokesh9444,2019-10-30T13:24:26Z,0,"arr [1:,1:4]  ??, am I Right?",True
+@ajaj5284,2019-10-18T19:50:12Z,0,is there any watsapp groups available to reach u sortly,True
+@ArunKumar-sg6jf,2019-10-10T18:51:49Z,0,Which type of mathematics is needed for ml,True
+@pinkeshgupta7996,2019-10-03T18:58:20Z,0,"arr[1: ,2:-1] arr[1:2,1:4]",True
+@venkataduri5790,2019-10-03T07:36:02Z,0,I am not able select multiple cells using  shift+Down arrow  or shift+J. Help will be appreciated.,True
+@vedantchandra3289,2019-10-02T20:40:19Z,0,"arr[1: , 2:4] arr[1:2 , 1:4]",True
+@yogoai136,2019-10-02T11:09:57Z,0,"Krish if [0:2,:] means it needs to retrieve all three rows right? But in this tutorial we are getting only first two rows as output . how? shall you kindly explain?",True
+@naveennelavalli8628,2019-10-02T10:28:19Z,0,"Hello Krish, Just a suggestion. Why do use word ""Basically"" multiply times. Just look back any video of yours , you will realize it for sure. Tens of times. I just want you to overcome from that to make it more clear. Try to use ""Actually"". Thankyou :)",True
+@swatikashyap717,2019-10-01T13:08:17Z,0,Hello sir. Can you please create a video where you can guide us through the index and order on how to watch your videos ? I am facing a lot of problems in this regard. Thanks!👍,True
+@ravikhandsiya1238,2019-09-30T05:27:05Z,1,Thank you Krish Naik for teaching us by this much of patience. You have cleared so many of my doubts.,True
+@maheshan5503,2019-09-29T08:58:41Z,0,Super,True
+@tahabimuhammad4524,2019-09-29T04:54:24Z,1,"Thanks for the videos. One change : Here, even if the elements are of not same data type, arrays can be created. So, they need not be of same data type.  import numpy as np my_lst1=[1,2,3,'sdfs',5] my_lst2=[2,3,4,5,6] my_lst3=[9,7,'wow',8,9]   arr=np.array([my_lst1,my_lst2,my_lst3]) print(arr)",True
+@palashmoon3808,2019-09-28T12:32:12Z,6,"# pick up 4,5,6,8 arr[1:, 2:4 ]   # pick up 3,4,5 arr[ 1:2, 1:4 ]",True
+@RajeshMaallah,2019-09-27T16:29:49Z,1,So no one knows the answer to my request,True
+@striders5473,2019-09-27T12:19:45Z,1,"I have a request to make :   if you could provide a mind map of the things that we are learning in numpy, pandas, matplotlib and other python libraries that we are going to learn that would be really helpful.....getting to know all the things that we have to learn will be better for better understanding and remembering also.  looking forward to your reply.",True
+@prabhakaranandbikku,2019-09-26T06:18:42Z,1,Sir how to access private video,True
+@amitsaxena6530,2019-09-26T05:19:50Z,6,Are you also preparing for UPSC at the same time? :),True
+@ypvaralakshmi4885,2019-09-26T01:48:29Z,1,"Sir, I want to enroll to this course. Please let me know how I can join this..",True
+@datasciencegyan5145,2019-09-26T01:22:42Z,1,"arr[1:4,2:4] ,arr[1:2,1:4]",True
+@RajeshMaallah,2019-09-25T20:57:28Z,2,"How do I query if column 2 is grater than column 1 in three dimensional arry? [(2,3,4),(1,4,6)]  check if 3>2 & 4>1",True
+@rishabhgupta9846,2019-09-25T17:25:41Z,4,Is there any WhatsApp group or website or something similar where we can ask doubt regarding Machine Learning? Please tell me,True
+@nagendrababuavula6629,2019-09-25T16:49:57Z,2,Sir in this vedio u r voice was little bit bistrubanceis their  and remaining all vedios r good,True
+@venkateswarareddypusapati4310,2019-09-25T14:53:15Z,1,"Hi,please make a video on pandas,scipy. Thanks",True
+@1988soumya,2019-09-25T14:37:22Z,2,"Hi Krish,  I want to enrol in the course but I am not able to open the google form.  Could you please help me out.  Thanks Priyadarshi",True
+@gulabmeetyou,2019-09-25T14:01:11Z,1,"1. arr[1:, 2:4] 2. arr[1, 1:4] Is this answer right for your question?",True
+@hv3300,2019-09-25T12:48:19Z,1,How can we check i Numpy is installed ? Numpy --version ?,True
+@srajat,2019-09-25T12:41:39Z,13,Bro! You're helping us all a lot! Proud of you! An Indian teaching everything in depth. Thanks so so much.  Keep up the good work. Looking forward to pandas tutorial too. 🤘🏻🤘🏻🤘🏻,True
+@gulabmeetyou,2019-09-25T12:35:15Z,7,EAGERLY EXPECTING Scikit learn and PLOTLY tutorials. No one has taught about Plotly... If you make this it would be great....,True
+@pavanvg5141,2019-09-25T12:31:52Z,1,Sir can you please do project on mechanical engineering domain??,True
+@einstein007able,2019-09-25T12:31:10Z,1,Hey we're is the course curriculum details which I saw below one of ur videos. Also experience error in enrolling in ur course.,True
+@rusteze4710,2019-09-25T12:27:56Z,1,Excited to watch more tutorials on deployment,True
+@rajashekarbarapata1764,2019-09-25T12:27:53Z,357,Who want to clap for this man👏👏,True

@@ -1,0 +1,65 @@
+author,updated_at,like_count,text,public
+@victorienhannequin3910,2022-12-14T08:17:04Z,0,Thank you Chad,True
+@olivezoo,2021-11-17T13:09:24Z,0,could you demo how to do k means on MRI,True
+@jairajsahgal5062,2021-09-22T19:57:21Z,0,Thank you,True
+@pranavsawant5432,2021-03-05T16:40:06Z,0,Getting 74% accuracy if sibsp (sibling )column removed,True
+@nikosterizakis,2021-01-23T11:56:32Z,0,convert_objects deprecated.  bummer...,True
+@neuron8186,2021-01-13T15:04:53Z,1,i told this to my gf and she told i prefer to flip a coin,True
+@grdev3066,2020-12-03T13:55:46Z,0,"Hey, nice video, but didn't get the point: why are we calculating number of correct guessed cases on the same dataset we trained the model ?",True
+@xxcsokixx,2020-09-30T20:42:19Z,0,"Hi! I have a question. Why are we sure that the prediction is equal to the chance of survival? Why can it not be any other value? We removed the survival rate from the dataset, but we could have removed any other value. And if we didn't remove any value we would still get a prediction around 70% is my guess.",True
+@akif6233,2020-07-27T10:42:10Z,0,guys could you explain how predict fuction return 0 or 1 ? how it knows ?,True
+@batatambor,2020-05-22T13:00:10Z,0,"IMO what you could have done is to divide original data in each of the two generated clusters and inside each one of them calculate the rate of survival. You can assess where you are prediciting it right. You could have one cluster where you are getting a 90% accuracy but it is small, while the other has 60% acurracy and it is larger.  You could've also tried to generate different numbers of clusters, and assess mortality inside each one of them.",True
+@daliamokhtar1764,2020-04-19T17:35:51Z,0,"if df[column].dtype != np.int64 or df[column].dtype != np.float64: why don't we use ""or"" here instead of ""and"" !",True
+@miteshvasani1139,2020-04-14T05:49:35Z,0,"When he removed the Sex column from X, it hardly seemed to affect the accuracy. But when I took X = only the sex column, the accuracy seemed to increase by like 8 percent. Any thoughts?",True
+@ketanpandey4498,2020-04-06T08:02:25Z,2,"Could someone tell me the reason to convert  ""df.drop(['survived'], 1)"" into  ""np.array(df.drop(['survived'], 1).astype(float))"" (other than converting it to float) as they both seem to give the same result.",True
+@anirbanghosh6328,2020-04-01T10:45:30Z,0,"hey sentdex, im getting index error: index 1 is out of bounds for axis 0 with size 1",True
+@edwinfeuerstein7444,2020-03-01T15:42:37Z,0,The impact from dropping the Ticket column was interesting. It probably adds emphasis towards someone being part of a family. Definitely one of those things that would make someone wonder,True
+@cahitskttaramal3152,2019-09-20T14:55:27Z,0,Aren't you multiplying Female's input with 0 every time? What would happen if you assign -1 to women instead of 0?,True
+@razasworld5851,2019-07-17T18:49:54Z,1,My question is that is there anyway to show the non numeric data against Python data model data in Android   ?,True
+@andreww406,2019-07-13T12:21:38Z,0,"please somebody would like to explain me the concept of "" accuracy "" ?  i dont understand accuracy of what do him?",True
+@umuttepe6834,2019-06-10T14:16:13Z,0,"I tried a few things, dropped every column one by one and looked for the changes in accuracy but there werent any most of the time it was 68 to 70 percent. Why is that?",True
+@cortsmith1981,2019-04-06T16:24:30Z,0,"For those of you who are using python 3.7, the import for cross_validation is  `from sklearn.model_selection import train_test_split`",True
+@amdreallyfast,2018-11-30T16:08:46Z,0,"I took this tutorial and ran with it, combining other of your tutorials on generators and multiprocessing with a stackoverflow post on built-in python functionality for generating all subsets of a set to create a multiprocessing, brute-force, all-combination feature set KMeans classifier just for kicks to try to see which combination of feature sets would yield the highest accuracy (taking into account the reciprocal of the accuracy if <50%).   I haven't run the whole thing yet because 13 features (14 sans ""survived"" = 13) yields 2^13 = 8192 combinations. Ran 700 of them though and found, shockingly, that the presence of ""boat"" appeared to have a significant impact on survival rate. Not as shockingly though, using only the feature set ""boat"" yielded ~81% accuracy, and so did (boat, sex), (boat, parch), and (boat, sex, parch).  I don't know what to make of this. Is it saying that other features were pretty much useless if they got into a lifeboat? Note that I replaced nan with 0. Hopefully that didn't mess it up.",True
+@birria4,2018-11-29T23:37:54Z,1,Such a great material!!!,True
+@prafulpoduval6419,2018-09-29T08:44:53Z,0,"Can somebody explain the meaning of the below line  X_train, X_test, y_train,y_test = X[:60000], X[60000:],y[:60000],y[60000:]  Please help.",True
+@zahidulislam9812,2018-09-16T12:17:24Z,0,please clarify any one why we need accuracy and what is the purpose of using this algorithm.other wise this tutorial is like foggy to me.thanks,True
+@liangyumin9405,2018-08-18T05:21:44Z,0,now use model_selection sub for cross_validation,True
+@RAJENDRAMYTHILIBIS,2018-07-31T17:25:37Z,0,NameError: name 'astype' is not defined,True
+@user-id8en7iz1t,2018-03-29T21:22:04Z,2,How are we sure Kmeans is separating people to Dromned and Survived? What if it separates people into Rich and Poor?,True
+@unclegood,2018-01-08T14:39:20Z,0,is it not recommended that categorical variables are used in k means? or are they equally useful when finding clusters?,True
+@naoha,2018-01-06T21:07:33Z,0,"If we assign to nonnumerical features, values starting from 0 and replace missing fields with 0 as well then won't that zeros interfere with each other?",True
+@tyson720,2017-12-25T13:02:44Z,0,Where can I download your code in this video ?,True
+@RayCarrender,2017-12-24T17:14:21Z,0,In a loop of 25 (with boat column): 50% accuracy  0.7288006111535523 0.7288006111535523 0.7288006111535523 0.2689075630252101 0.7288006111535523 0.7288006111535523 0.2711993888464477 0.2711993888464477 0.2711993888464477 0.7288006111535523 0.2711993888464477 0.7288006111535523 0.2711993888464477 0.2711993888464477 0.7288006111535523 0.7288006111535523 0.7288006111535523 0.7288006111535523 0.7288006111535523 0.2711993888464477 0.2711993888464477 0.7288006111535523 0.2711993888464477 0.2711993888464477 0.2711993888464477 Total sum 0.5090603514132925,True
+@MohitPratapSingh95,2017-12-21T14:31:26Z,0,dropping 'pclass' will increase the percentage significantly.. guys try it out,True
+@davidkeene1937,2017-12-16T04:28:55Z,2,"An alternative to .convert_objects might be for c in df.columns.values: df[c] = pd.to_numeric(df[c], errors='ignore')",True
+@Lama_hamadeh,2017-11-25T11:22:30Z,0,"Great Machine Learning series Sentdex! Quick (and maybe stupid) question... since we know the labels of the clusters that we have (either survivors or not), why are we using kmeans instead of k nearest neighbours? why are we treating this problem as an unsupervised rather than a supervised one?",True
+@debanjansengupta6606,2017-11-02T17:14:16Z,0,"With the increasing popularity of PyTorch and you being a Python lover, do you have any plans of making a deep learning tutorial with PyTorch?",True
+@AakashShahFromGoogle,2017-10-31T03:55:03Z,0,"I have a machine learning exam, and this is a really good prep video. Thanks @sentdex.",True
+@anmolgupta3376,2017-09-28T10:05:11Z,0,"Hi Harrison, First of all thank you for publishing this. It has really been helpful in understanding the basic concepts. However, I want to know how can you be so sure that the higher one should be the accuracy. It might be the case that the lower one is the accuracy and it might not be at all accurate",True
+@chemdah,2017-09-03T09:48:54Z,0,I dropped ticket and my accuracy improved significantly!!,True
+@imaine-qn5vv,2017-09-01T02:02:40Z,0,"when labels =  clf.labels_ , labels is same as clf.predict(X)?",True
+@rjp2295,2017-08-22T19:00:23Z,0,"Can someone help me with this error. Thanks in advance @sentdex ....  return object.__getattribute__(self, name) AttributeError: 'DataFrame' object has no attribute 'dtype'",True
+@colinvanlieshout9362,2017-08-13T19:22:49Z,5,"I love your channel, I've already learned tons, so thank's a lot for that! A question, could you tell me why scaling has such a big influence on model performance? Thanks!",True
+@sorayaanvari5906,2017-07-10T12:26:17Z,0,"My features are age;""job"";""marital"";""education"";"";""y"" . I want to drop y with this code :np.array(df.drop('y'))  but I have error  labels ['y'] not contained in axis what should I do? please help me!",True
+@adityasarvaiya9339,2017-06-30T14:25:40Z,0,"Thank you so very much Harrison for this lovely tutorials. Can you explain why have you used     predict_me = np.array(X[i].astype(float))     predict_me = predict_me.reshape(-1, len(predict_me))     prediction  = clf.predict(predict_me) instead of direct prediction  = clf.predict(X[i])  I am getting more accuracy of  74.5% by this. for the same data.",True
+@shivankpathak4367,2017-06-22T04:19:17Z,1,"I am not getting why we are writing this line ""predict_me=predict_me.reshape(-1,len(predict_me))"".PLease explain..",True
+@martinneighbours9779,2017-05-03T21:04:44Z,1,"Really like the tutorials!  It may help your confusion on the ""good"" performance of the clustering to look at the confusion matrix.  In the sample that I ran, actual survivors were split equally between the two clusters.  Also may be useful to know that clf.labels_ contains the clusters so no need to use the predict method.",True
+@sshaikh8104,2017-05-02T09:27:16Z,0,Thanks sendex I know ML but weak in python this is great help for me.,True
+@rana31ify,2017-04-05T04:49:17Z,2,Could you git repository link for the above code,True
+@LiaRistiana95,2017-03-26T15:20:09Z,0,"After clustering the data, can we also plot the data (using matplotlib) so we can visualize it? Or is that not possible because the data is multidimensional?",True
+@ammmy4u54,2017-03-16T10:26:33Z,0,"You can also use get_dummies function from pandas to convert no numeric data to numeric data, check out the documentation",True
+@techsmart240,2016-12-14T21:51:47Z,0,thanks for the channel. i am having a challenge in printing predictions can you help.,True
+@uppubhai,2016-12-14T10:06:01Z,2,"predict_me = predict_me.reshape(-1, len(predict_me)).I know it converts it in into 1d array but that len expression. Please explain that too",True
+@uppubhai,2016-12-14T10:01:40Z,0,What does X contain?Please explain,True
+@NotQuiteMelvin,2016-12-13T01:24:07Z,0,dropped pclass and got 0.85 on one of them lol wtf,True
+@SerenityAZ,2016-09-23T07:23:03Z,0,"Hi, How to refit the predictive model to the sample and predict the survived column. Imagine, there is no survived column. I need the predictive model only two columns (passenger name and survived column)",True
+@mengfrank809,2016-07-25T05:21:16Z,5,"i'm a student from Integrated Marketing Communication, Northwestern University. I cannot program at all before I know this channel exist and now I started to develop a very exciting passion about programming and machine learning. thank you bro!",True
+@maheshkayara6833,2016-06-23T07:19:08Z,2,Nice video. Actually I am getting a 0 accuracy and when I display the prediction list I am getting desired list. Have you any clue why I am getting this issue?,True
+@Marcos10PT,2016-06-16T10:15:51Z,1,This channel is awesome :),True
+@17Codiferus,2016-06-15T00:59:51Z,14,"for Linux users, you'll need to install/import xlrd for the excel dataset.",True
+@bharaths5603,2016-06-14T13:51:48Z,3,Hey sentdex first off amazing job man. I like the way you explain the concepts its clear and easy to understand ! Please keep up the great work.  One follow-up question somewhere down the line do you think you will show us a demo of how to play with convolution neural nets for image data ??,True
+@nadhir2828,2016-06-13T02:41:28Z,4,"Hi Sentdex, Love your tutorials! keep doing the great job! Actually I am getting a 0 accuracy and when I display the prediction list I am getting an empty list. Have you any clue why I am getting this issue? Thanks.",True
+@richardparker123,2016-06-12T03:04:03Z,0,"Thanks Harrison, love it!",True
+@ChristFan868,2016-06-11T19:17:43Z,0,Excellent video! I've actually been wondering how to do deal with this dataset.  Thank you very much.  I am thoroughly enjoying this series.,True
+@wth123msg,2016-06-11T18:02:25Z,3,"amount_correct = correct/len(X) print(max(amount_correct, 100 - amoint_correct ) )  This way you don't have to see those ugly low number.",True
+@drandomizer7636,2016-06-11T14:16:00Z,0,Great video!,True

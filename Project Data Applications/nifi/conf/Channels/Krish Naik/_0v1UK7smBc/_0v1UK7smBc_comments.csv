@@ -1,0 +1,67 @@
+author,updated_at,like_count,text,public
+@krishnaik06,2023-03-10T04:39:05Z,12,Check out the entire playlist of end to end project implementation https://youtube.com/playlist?list=PLZoTAELRMXVPS-dOaVbAux22vzqdgoGhG,True
+@channadissanayaka6450,2024-05-25T07:01:41Z,0,"If you get, ModuleNotFoundError: No module named 'src' try following code  import os import sys   sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))   from src.exception import CustomException from src.logger import logging import pandas as pd from sklearn.model_selection import train_test_split from dataclasses import dataclass   @dataclass class DataIngestionConfig:     train_data_path: str=os.path.join('artifacts',""train.csv"")     test_data_path: str=os.path.join('artifacts',""test.csv"")     raw_data_path: str=os.path.join('artifacts',""data.csv"")  class DataIngestion:     def __init__(self):         self.ingestion_config=DataIngestionConfig()      def initiate_data_ingestion(self):         logging.info(""Entered the data ingestion method or component"")         try:             df=pd.read_csv('notebook\data\stud.csv')             logging.info('Read the dataset as dataframe')              os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)              df.to_csv(self.ingestion_config.raw_data_path,index=False,header=True)              logging.info(""Train test split initiated"")             train_set,test_set = train_test_split(df,test_size=0.2,random_state=42)              train_set.to_csv(self.ingestion_config.train_data_path,index=False,header=True)              test_set.to_csv(self.ingestion_config.test_data_path,index=False,header=True)              logging.info(""Ingestion of the data is completed"")              return(self.ingestion_config.train_data_path,                    self.ingestion_config.test_data_path)          except Exception as e:             raise CustomException(e,sys)          if __name__==""__main__"":     obj=DataIngestion()     obj.initiate_data_ingestion()",True
+@shivanath1288,2024-04-06T10:21:59Z,0,can anybody help me as i am getting a error which state module not found error as src,True
+@divjotsingh4818,2024-03-30T11:25:06Z,0,"facing an issue ""ModuleNotFoundError: No module named 'src' ""  someone please tell the solution to resolve it",True
+@user-dp7lr5qh6o,2024-03-27T23:56:11Z,0,thank you,True
+@poojaroy7211,2024-03-05T18:28:42Z,0,22:01 src module is not found error occurred. Will anyone help me out ??,True
+@dp6736,2024-02-13T15:39:50Z,0,"Hi Krish, This is an amazing tutorial with very relevant contents in easy to understand format. One of the best. Thanks",True
+@AbdulSalam-pb3tq,2024-01-25T17:56:53Z,0,got error while run data_ingestion ----ModuleNotFoundError: No module named 'dataclasses',True
+@user-rb4ou3yw4y,2024-01-24T19:01:13Z,0,i love end to end ML series ^^  Thank you Krish.,True
+@didimoescobar2247,2024-01-13T22:06:36Z,0,"A great video,  but I had have a issue with modules instances, for instance, when I put:   python src/components/data_ingestion.py  the process trigger a ModuleNotFoundError: No module named 'src'.............. but, if write this comand line: python -m src.components.data_ingestion    the process works, so... why isn't work the instance: from src.exception import CustomException ????? please I'll wait any feedback...",True
+@vybhavampabattuni1710,2023-11-12T22:36:21Z,0,"Hi krish,  I am getting this error:  (D:\Vybhav\end to end ML project\venv) D:\Vybhav\end to end ML project>python src/components/data_ingestion.py Traceback (most recent call last):   File ""D:\Vybhav\end to end ML project\src\components\data_ingestion.py"", line 3, in <module>     from src.exception import CustomException ModuleNotFoundError: No module named 'src'  but i have src folder and in that exception, logger fliles are there with components folder. Please help me in this.",True
+@mohdsameer9214,2023-11-12T19:58:11Z,2,Getting error by running data_ingestion.py Error : module not found from src.component.data_transformation,True
+@talk2pankajx,2023-11-02T07:16:51Z,1,d:\Projects\mlproject\venv\python.exe: can't find '__main__' module in 'src/components'  Can anyone help me fix this error as  I am nnot able to get this fixed to generate the filrs,True
+@deependrarawat5489,2023-10-25T19:04:53Z,1,"(C:\Deependra\generic-ML-project\venv) C:\Deependra\generic-ML-project>python src/components/data_ingestion.py Traceback (most recent call last):   File ""src/components/data_ingestion.py"", line 3, in <module>     from src.exception import CustomException ModuleNotFoundError: No module named 'src'  Even when I have the src folder and everything is in order, I still receive this issue. Could someone please explain why?",True
+@satishthorat4641,2023-09-13T17:08:59Z,0,Bounce ho raha hai sir 😟😕☹,True
+@parham6676,2023-09-08T15:42:20Z,1,"you put .artifacts in .gitignore, you put an extra ' . ' before 'artifacts', that's why it got added, 25:05",True
+@pavan4620,2023-08-29T07:15:06Z,0,"Getting an error saying "" name s is not defined""in the __init__.py file",True
+@Veerbasantreddy111,2023-08-25T00:43:26Z,2,sir artifacts are not being created and even logs. help,True
+@rushikeshmuley7263,2023-08-23T13:17:21Z,0,"File ""src/components/data_ingestion.py"", line 3, in <module>     from src.exception import CustomException ModuleNotFoundError: No module named 'src' got this error any solutions?",True
+@menakask6050,2023-07-27T10:08:22Z,0,"For me it displaying the error like, 'src' module is not recognized though I am using --init__.py in src folder. pls give suggestion.",True
+@aakashpal0777,2023-07-17T07:49:56Z,2,Hiii  Sir Use  artifacts/  to ignore folder,True
+@fernandes1431,2023-07-12T18:59:27Z,0,@krishnaik06 I can't move forward :( with tutorials as I have this error: ModuleNotFoundError: No module named 'src',True
+@rupindersingh1312,2023-07-10T12:10:51Z,0,"thanks for this video series , sir 10-07-2023",True
+@abhijeetjain8228,2023-07-01T22:08:37Z,2,"error : ModuleNotFoundError: No module named 'src'  code fix : import os import sys from pathlib import Path sys.path.append(str(Path(__file__).parent.parent))  from exception import CustomException from logger import logging import pandas as pd  from sklearn.model_selection import train_test_split  print('it is here')",True
+@kasapavan6844,2023-06-19T15:27:21Z,1,"I am getting module error , no module named src.exception why I am getting this , still I have src.exception module can any one clarify my doubt",True
+@hm2715,2023-06-10T16:38:27Z,13,"import os import sys from pathlib import Path sys.path.append(str(Path(__file__).parent.parent))  from exception import CustomException from logger import logging import pandas as pd  from sklearn.model_selection import train_test_split from dataclasses import dataclass ...............................whoever is facing src module not found or log module not found please , replace ur code",True
+@swatijadhav6304,2023-06-05T14:21:05Z,2,ModuleNotFoundError: No module named 'src'   Getting this error even with python 3.9 Kindly guide,True
+@hriteshshanty252,2023-06-04T11:36:14Z,0,i wrote .artifacts in .gitignore file but still its not ignoring that file and its showing me that its exceeding 100mb,True
+@tahaa1994,2023-04-28T16:03:47Z,0,"the artifacts/ directory was already added to the Git repository before you added it to .gitignore, and Git is still tracking it.  git rm -r --cached artifacts/ git commit -m ""Remove artifacts/ directory from Git repository"" git status git push",True
+@DANstudiosable,2023-04-25T14:37:11Z,0,You added the artifacts folder in .gitignore. Why did it still get committed?,True
+@gyanprakash7832,2023-04-22T13:20:08Z,1,"os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True) sir in this code why you have set .train_data_path ?",True
+@hashir7702,2023-04-05T09:16:18Z,1,My logs are displayed on the terminal screen but not being added to the log file in the explorer. Any fix for this?,True
+@vivekkale9894,2023-04-04T09:21:41Z,8,"I don't think this is for freshers, you need very thorough knowledge to understand it. Totally going above the head. 🤕",True
+@ShivamPatel-yg3kd,2023-03-28T06:39:34Z,1,"Hi all, I am just struggling to understand that what we need to retrain in production again. Because once we train the model, we export it and write the prediction or inferencing code and that code needs to be running in production to run predictions or inferencing on production data. Kindly help me to understand this or am I missing something.",True
+@arias2832,2023-03-24T14:41:28Z,1,"Beautiful, Thank you!",True
+@NutSorting,2023-03-22T10:26:45Z,0,How to do data ingestion for image data?,True
+@swL1941,2023-03-20T20:09:09Z,0,@Krish Naik  Good tutorial. But How to work when we use Cross validation instead of train test split ??,True
+@md.shafaatjamilrokon8587,2023-03-18T15:32:40Z,2,15:47 No it's not easy. My brain is out!,True
+@imgopz786,2023-03-18T09:29:13Z,4,"To the point, effective, made complicated setup simple & optimized the course for beginners. A lot of hard work seen. Thank you!",True
+@aadhithyasankar8141,2023-03-18T06:49:27Z,1,Got error no module named src,True
+@AbhijitChakraborty103,2023-03-15T16:38:48Z,1,"Is it recommended to have multiple functions for different database ingestion, or it should be done in the single function?",True
+@rishubjha4531,2023-03-15T06:27:56Z,6,"hello guys, I have veen trying to execute data ingestion but keep getting an error as"" from src.exception import CustomException        ModuleNotFoundError: No module named 'src'"", I have  verified __init__.py in src folder but still no luck. Any leads as to how to resolve this issue.",True
+@fernandolalangui3444,2023-03-15T03:23:23Z,1,What is the difference between 'notebook/data/stud.csv' and 'notebook\data\stud.csv'? In my PC I have the relative path how: 'notebook/data/stud.csv',True
+@akj3344,2023-03-14T13:29:47Z,1,ModuleNotFound : logger Can someone help me with this? I looked up on stackoverflow and some articles but those solutions do not work. logger is imported in exception.py but not in data_ingestion.py,True
+@mrityunjayupadhyay7332,2023-03-14T06:15:38Z,0,Excellent,True
+@avbendre,2023-03-13T16:21:26Z,0,"hi all, when i am restarting the project from vs code ia m unable to run the terminal of venv, do we have to activate again for each set up the env? what all are the things to activate when starting up",True
+@NiyatiVyas-yu3uz,2023-03-13T09:16:08Z,2,"Hey Krish, I have bee following your series from Day 1 and it is amazing. I had a small doubt, from where can I get this data? I tried to use raw version from your git but kept getting error. Or can you give the name of dataset so it would be easier to search for it.",True
+@NTISAniruddhSingh,2023-03-12T20:01:04Z,0,sir why did we wrote the make directory code for only the train data path and not for test and raw,True
+@robinchriqui2407,2023-03-12T08:11:39Z,1,Amazing thank you!,True
+@vinodkumar-ce5eu,2023-03-12T07:50:26Z,0,"@Krish Naik, u added .artficats in git ignore instead of artifacts, that's why the folder pushed into git",True
+@harishs-dm8mm,2023-03-11T09:53:29Z,0,No part 5 ?🥲,True
+@saniyaishan-hi4mg,2023-03-11T04:53:38Z,9,Absolutely love the content . You are revolutionizing the education in data science field.,True
+@rakeshverma6867,2023-03-11T04:24:04Z,0,Very informative session. Please keep it up.,True
+@akarkabkarim,2023-03-10T21:40:18Z,0,just keep continue sir krish,True
+@utkarshgaikwad2476,2023-03-10T17:45:18Z,1,"Really Incredible project, just amazing 🤩",True
+@poraspatle7980,2023-03-10T15:03:37Z,0,"What should be my approxh to create multi-class image classification and captioning without using Tensorflow, Keras, or sklearn?",True
+@PavanKumar-ut2lo,2023-03-10T13:09:22Z,1,"Hi sir, do we need any paid version software for this project?",True
+@don33unique95,2023-03-10T09:39:46Z,1,Your are great sir i working on project I have one question So im working on a project and i have a column which is car mdels but it contains numeric and letters so i was wondering if i did an encoding method the numbers could be lost so i want to know is there another way,True
+@mohsinkhan-bw3cd,2023-03-10T09:35:42Z,1,Hi krish is this series only for experienced people or for freshers also?,True
+@Aakashsavant-pv5hs,2023-03-10T07:10:37Z,3,hi sir why this error i am getting : ModuleNotFoundError: No module named 'src',True
+@brajbhooshan7349,2023-03-10T05:28:39Z,0,"Hi krish, I am facing issue while installing requirements.txt",True
+@AI-Brain-or-Mind,2023-03-10T05:28:13Z,5,you providing lots knowledge sir but getting above the head 😇😇😇,True
+@hmtbt4122,2023-03-10T04:54:47Z,1,thanks,True
+@priscillah.5106,2023-03-10T04:32:53Z,1,Krish you're a blessing to many. Thanks so much for sharing your knowledge with us. Am glad to be associated with ineuron family . Blessings 🙌,True
+@ganeshgunjal4220,2023-03-10T04:32:19Z,2,Thank u so much sir for for this project sessions... u r taking so much efforts for us. best of best project explanations in every video. From Nashik(Maharashtra),True
+@omchaithanya56,2023-03-10T02:26:19Z,4,"Love your content Krish. Watching your tutorials, It's a good start of my day. Thanks a lot for all your efforts.",True

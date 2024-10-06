@@ -1,0 +1,68 @@
+author,updated_at,like_count,text,public
+@acunac2,2023-12-15T23:50:05Z,0,Great content. Many thanks!,True
+@the-ghost-in-the-machine1108,2023-05-08T10:49:54Z,0,cute <3,True
+@MaheshSawargave199,2023-03-22T16:04:11Z,1,https://youtu.be/z3jAyorSv-U,True
+@chndrl5649,2023-03-01T14:41:46Z,0,Thought ur talking about NamedTuple from typing,True
+@black_shadow4627,2023-01-28T17:09:33Z,0,"Much helpful, thanks",True
+@user-qn5by5iv7u,2022-12-23T12:26:55Z,0,2022,True
+@donfeto7636,2022-09-17T02:16:39Z,0,this kinda like enum in C#,True
+@julia_orchid_cali,2022-09-04T18:15:10Z,0,Very good explanation and easy to follow. Thank you.,True
+@kosmonautofficial296,2022-08-23T15:45:57Z,0,interesting thanks,True
+@fahadmdkamal530,2022-04-13T04:51:42Z,0,Maaan... you are more easy than the documentation.,True
+@bartuslongus,2022-02-10T11:25:52Z,6,"As precise, helpful and enjoyable as always - even after 6.5 years. My favorite Python YT resource. Happy to be a member. Thanks Corey!",True
+@muntadher8087,2022-01-05T10:44:29Z,0,Thank you so much,True
+@slonbeskonechen8310,2021-12-04T16:08:51Z,0,it seems its what I looking for :) Thank you!,True
+@prateeksarangi9187,2021-10-07T22:05:58Z,0,Always amazed !!,True
+@adventurousmale,2021-08-15T21:25:33Z,0,Nested named tuples?,True
+@gouravkumar9011,2021-06-22T02:05:18Z,0,Amazing,True
+@rayees.ahamed,2021-05-23T11:52:49Z,0,thanks. it's really helpful.,True
+@KranthiKumarSesham,2021-05-17T18:04:02Z,0,"Named Tuples in Python are High-performance container datatypes used mainly for readbility and less typing Sometimes we need something between a tuple and a dictionary. Tuples have less typing to do but it is easy to forget what each values stand for.  In contrast, Dictionaries are very wordy, while we can assign the keys to what the value represents. Using named tuple makes the meaning of each value explicit while not being as wordy as Dictionary.  from collections import namedtuple   # Regular tuple # color = (55,155,255) # dictionary # color = {'red': 55, 'green': 155, 'blue': 255}  from collections import namedtuple  # create a template of the namedtuple, as below color = namedtuple('color', ['red', 'green', 'blue'])   #create as many named tuple(s) using that template, as below shade_1 = color(55,155,255) # or shade_1 = color(blue=55,green=155,red=255) shade_2 = color(255,255,255)  # We can now use access each value either by index or by using ""."" operator on named tuple  # '.red', '.blue', or '.green' at the end of the name of tuple, to access each value print (shade_1.blue) # or print(shade_1[0]) print (shade_2.blue)",True
+@RanjeetkumarYadav,2021-05-10T06:01:21Z,1,"Color = namedtuple(""Color"", [""x"", ""y"",""z""]) What's the difference between variable Color and argument ""Color""?   I found ""Color"" argument can be anything and namedtuple still works fine. So what's the purpose of this argument?",True
+@jordia.2970,2021-02-10T20:46:31Z,0,Thanks man,True
+@wangleimail,2021-01-24T16:26:26Z,1,"you can also add a built-in function in to namedtuple filed. For example # define a namedtuple with func Colorf = namedtuple('Colorf','r g b fun') clrf_ntpl = Colorf(1,2,3,sum) print(""namedtuple clrf_ntpl.fun([1,10]): "", clrf_ntpl.fun([1,10]))",True
+@rishikumargopalan1275,2021-01-23T12:02:07Z,0,you are a lifesaver,True
+@brijesh0808,2020-12-28T15:41:32Z,0,"I like the ""click chick"" sound of your keyboard a lot. Which keyboard is it...",True
+@carpediem73,2020-12-02T03:24:43Z,0,thanks,True
+@omsowjanya1202,2020-10-07T12:22:43Z,0,"When I try to print without ( ), it’s giving me an error. Had to give print (color.blue)",True
+@unknownentity5354,2020-09-13T21:12:42Z,1,So they're like enums,True
+@MagnusAnand,2020-08-23T06:11:03Z,0,Very clearly explained,True
+@adelsakkir6183,2020-07-25T14:51:17Z,0,"Hey thanks, but I had 1 doubt.  Color=namedtuple('Color',[""red"",""green"",""blue""]) Why are we typing Color twice? and later when we instantiate one tuple like: white=Color(255,255,255) which Color are we referring to?",True
+@lawrencejia926,2020-07-14T04:35:12Z,0,how do we replace values in a named tuple?,True
+@vaibhavkrkm,2020-06-08T12:28:52Z,2,Love your channel!!! Please keep it up :),True
+@rudranshparab2007,2020-05-13T03:40:25Z,0,looks like enum in java,True
+@alixaprodev,2020-05-06T13:48:47Z,0,this is a very small tip but sometimes it is very important to know these small tips. thanks for being with us dear @Cory Schafer.,True
+@waseksamin3216,2020-04-23T23:56:37Z,0,"for python 3, you have to do: from collections import namedtuple",True
+@dogs8113,2020-04-08T16:56:31Z,0,Thank so much!,True
+@DilipKumar-ic5cg,2020-04-06T01:55:15Z,1,"what is the significance of  the text 'Color' within namedtuple('Color',[...]) , should this be same as the variable Color. If its not the same, what are the consequences. Thanks",True
+@jasekdominik,2020-04-03T06:59:48Z,0,"when using color['green'] in python 3.7.4 I get TypeError: tuple indices must be integers or slices, not str",True
+@hubertcombomarketing2693,2020-04-03T05:29:32Z,1,Great Python Tutorial. Thank You.,True
+@user-xc5xf8gp8n,2020-03-06T10:20:59Z,0,"I have a problem follwing the tutorial. I use python 3.7, and whenever I do *print(color['red'])* like in the video, the console says I'm in an error where index can only be integers. However, when I do *print(color.red)* , 255 does get printed out on the console. I don't understad why Corey can do it but not me. Also, I do not understand how corey can use the print function without using the parenthesis. In my system, I have to do   *print('hello world')* , and *print 'hello world'* does not work.:d Can someone help me find whats' wrong with me? (or what makes my python environment different from Corey's) Thank you!",True
+@user-xc5xf8gp8n,2020-03-06T10:16:44Z,29,"Summary: Sometimes we need something between a tuple and a dictionary. Tuples have less typing to do but it is easy to forget what each values stand for. In contrast, Dictionaries are very wordy, while we can assign the keys to what the value represents.   Using named tuple makes the meaning of each value explicit while not being as wordy as Dictionary.   How: 1. from collections import namedtuple 2. set a template of the namedtuple, as below. *Color = namedtuple('Color', ['red', 'blue', 'green'])* 3. create a named tuple using that template, as below *red_color = Color(255, 0, 0)*   4. now a namedtuple is created. We can use indexing to access each value, but can also add '.red', '.blue', or '.green' at the end of the name of tuple, to access each value, too. *print(red_color.red)* *print(red_color[0])*   both will print out 255 in the console.",True
+@kuchbhi627,2020-03-04T06:33:55Z,0,"Tuitorial is amazing , All of you guys  practice above knowledge in android, Setup of python in android can learn from this video https://youtu.be/1mCKcQZkxh4",True
+@BankRoller420,2020-02-07T07:40:53Z,1,"Thanks Corey, this helped a lot",True
+@sujithkumar8837,2020-02-01T10:42:04Z,0,0:05 bro how could you import namedtuple from collections i can't understand how to import is there any other vedio for how to import namedtuple from collections plss replyy plsss,True
+@Andy-go1wm,2020-01-02T19:24:10Z,0,"Still a great video, tank you!",True
+@MehmetMustafaICER,2019-10-17T20:02:14Z,1,"Thank you Corey. Great video, very useful.",True
+@selviperumal7172,2019-10-05T20:02:06Z,0,"hi I would to create player name, scoring pad and dice they use in dice rolling game for multiplayer using named tuple. I am bit of confused how to create that one. can u guide me.",True
+@rowidanagah8184,2019-08-26T02:49:01Z,0,wondering how to print any of this color as its value beside,True
+@TrenBlack,2019-08-01T02:08:32Z,11,You have an aptitude for teaching,True
+@bennguyen1313,2019-07-08T03:10:41Z,0,"Is there a way to get the functionality of the namedtuple, but that is changeable (i.e. not immutable)?",True
+@frclasso,2019-07-01T19:50:45Z,1,Nice Tip!,True
+@techcode_man,2019-05-02T11:46:02Z,0,Thanks Corey. So basically this is creating a new sub class called Color and we are instantiating an instance named color. Right?,True
+@SpongeDude8,2019-01-31T06:27:40Z,0,"color = Color(55, 155, 255)  How did Color become a function?",True
+@dp0813,2018-12-23T17:48:16Z,0,"Awesome as always.  Btw, has anyone ever said you sound like Jeremy from Geeks&Gamers YouTube channel?  🤔🤔🤔",True
+@fupopanda,2018-12-10T05:39:35Z,132,"For those experienced with using OOP, here is some helpful information not mentioned in this video:  namedtuple returns a class (that's a child of the built-in class tuple). The first argument you pass to namedtuple becomes the name of the class, while the list of strings becomes the attributes (data fields). You can then call the constructor (the line of code before the print() method in the video) to make objects.",True
+@mehmetalikarabulut1190,2018-11-22T11:33:38Z,0,"Coming from a fully object oriented programming background (Java!), I wonder why do they invent something like namedtuple instead of just using classes and objects, just like below:  class Color:     def __init__(self,red,green,blue):         self.red=red         self.green=green         self.blue=blue      color = Color(55,155,255) print(color.red)  # is this too long to type? I bet it is more readable and understandable in OOP world (python is OOP too, isnt it?)...",True
+@vikramsarabhai1,2018-11-16T16:35:27Z,8,This was worth every second of my time. Thank You  So Much.,True
+@onuberonly7846,2018-10-26T23:25:45Z,11,its like a c/c++ struct I love it now I have a way to use a struct like object in python...Powerful!,True
+@shaunsawyer8298,2018-03-25T19:10:00Z,4,"Should also note printing named tuples gives you a very clear representation of what they are and what they contain. For instance,  >> Position = namedtuple('Coordinate', ['x', 'y']) >> p1 = Position(1, 3) >> print p1 Coordinate(x=1, y=3)",True
+@sudipta_samanta,2018-01-03T09:28:04Z,1,Can you do a video on collections module ?,True
+@stevefrt9495,2017-12-20T12:14:28Z,0,Thanks you so much,True
+@mbasith1682,2017-08-21T02:07:11Z,2,This was very helpful for me. Thanks for posting!!!,True
+@imxron,2017-06-10T16:39:35Z,9,Why would we want to use a NamedTuple over just a color class? Because it's immutable? Thanks for the great video!,True
+@snpsforyomom,2017-04-04T06:40:09Z,6,"never even heard of these, but they look pretty cool. thanks!",True
+@tamkim2828,2017-04-01T06:17:56Z,33,"You instruction is fine, but using color is very confusing. If you have used something else like Employee will make more sense. Employee = namedtuple(""Employee"", [""id"", ""title"", ""salary""]) Empl_1 = Employee('A12345', 'Engineer', 100000) Empl_2 = Employee('A54321', 'Manager', 120000)  print (Empl_1.id) #output will be A12345 print (Empl_2.id) #output will be A54321  print (Empl_1.title) #output will be Engineer print (Empl_2.title) #output will be Manager  print (Empl_1.salary) #output will be 100000 print (Empl_2.salary) #output will be 120000  This example will make more sense than the color that you used, it lost me at white color that you defined when I first watch it.",True
+@jokerMCify,2017-03-15T12:55:57Z,6,I am liking all your Python videos. Well done and I am not exaggerating. (takes his hat off and applause),True
+@cccvvvbbbgggtttrrree,2016-09-03T13:17:04Z,0,Great tutorial.,True
+@prateekanand3622,2016-07-20T11:54:48Z,1,Seems like an enum of C!,True
+@NishithSinghai,2015-08-08T10:27:01Z,3,can u share when and why to use defaultdict. Thank you,True

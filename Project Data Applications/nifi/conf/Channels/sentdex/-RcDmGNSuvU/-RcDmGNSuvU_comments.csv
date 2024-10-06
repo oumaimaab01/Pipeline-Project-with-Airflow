@@ -1,0 +1,22 @@
+author,updated_at,like_count,text,public
+@m_nabr,2022-07-07T14:27:10Z,0,One of the best tutorials I've seen so far! Excellent work ,True
+@VascoCC95,2019-12-04T01:38:42Z,0,Creates a log file to find what the problem is. The log file becomes the problem... #logception,True
+@user-up3yq6pt3v,2018-10-19T07:53:27Z,4,"It's always funny when Harrison made some mistake with brackets and you already found it and trying to help him, speaking with your monitor like: Here! Here! :D",True
+@alexandarjelenic2880,2018-03-10T20:06:23Z,0,"My log files do not close properly. should I use a .close() on the flog file. Should this be used with the context manager ""With""",True
+@sntshkmr60,2018-02-17T14:16:55Z,0,There is also an 'error' level between 'critical' and 'warning'.,True
+@revdevstudios,2017-09-06T00:21:40Z,0,is it a good idea to create multiple log files using the datetime library and adding it onto the filename suffix?,True
+@sinngleton,2017-05-20T20:20:16Z,1,The reason your SQL logs keep growing is probably that some transactions are left open. Creating a scheduled procedure to kill the hanging transactions should help.,True
+@Bouex,2017-02-14T13:59:22Z,0,Nice vid ! Is there a way to make the program open the file were the log were put at the end ? So if there is an error it pops on your screen,True
+@QuiGonTobi,2016-12-14T15:02:19Z,1,"Thank you very much, you helped me a lot! Also I had to giggle about 'Blobject' ;)",True
+@nictuniema1249,2016-12-10T07:33:40Z,0,"Nice ,thx ! Your tutorials are awsome !",True
+@nizanu112,2016-12-09T18:27:51Z,1,is there a way to have the logging on another thread so it wont interfere the program and what can you do with multithreaded programs writing to a single file? can it cause problems?,True
+@nizanu112,2016-12-09T18:24:41Z,19,"just for general knowledge, on about 4:20, you said that if you can get big log files and have storage space problems since the log files are so big, a good way to handle this is importing ""from logging.handlers import RotatingFileHandler"" it handles that problem by configuring a max file size, and number of files, when the log file reaches that size it will close it and create a new file, when the number of files reaches the number of files you configured, it will delete the oldest one. a great little handler that will help alot",True
+@CakeBossan,2016-12-09T03:53:01Z,0,"thank you for this series by the way, i've been too used to the functional paradigm while using python, and while i've started using classes, it's v. v. nice to see these intermediate techniques.  question: when would you use multiple .py files and start using imports? i see a lot of java programs implement a ton of classes, and i'm wondering why most python programs don't do the same thing.",True
+@idle_user,2016-12-09T00:37:42Z,2,"Before knowing about logging I created my own small logging module that logs the time, module name, and the message I wish to log -  formatted nicely. It'll generate a new log file every 24 hours.   Not really practical, but it sure helped me out a lot, especially because I was too lazy to read the documentation for standard logging.   Thanks for the video!",True
+@datmesay,2016-12-08T17:52:14Z,0,#notificationsquad :),True
+@17Codiferus,2016-12-08T17:51:49Z,2,There's no need to call the str method on arguments passed to format. The format method handles that for you by default (can be overidden).,True
+@sanjayshr1921,2016-12-08T16:07:15Z,2,"series is going awesome , looking forward to more videos on Python :)",True
+@knabbagluon,2016-12-08T15:57:04Z,0,Would be nice to use it in the next big project you show us. Because I would not know when to use it. And I don't see much difference to print statements. Like in reinforced learning.,True
+@Hasasinful,2016-12-08T15:48:34Z,0,i really love this series,True
+@steinarrhrafnhoskuldsson2936,2016-12-08T15:45:07Z,7,"Fun fact -  The terms ""bug"" and ""debugging"" are popularly attributed to Admiral Grace Hopper in the 1940s. While she was working on a Mark II Computer at Harvard University, her associates discovered a moth stuck in a relay and thereby impeding operation, whereupon she remarked that they were ""debugging"" the system.   Great videos man, keep it up :)",True
+@sportacus509,2016-12-08T15:34:50Z,0,"On the website, on the page it shows part 1 instead of part 22",True

@@ -1,0 +1,104 @@
+author,updated_at,like_count,text,public
+@Amr_ZR,2024-05-15T22:03:45Z,1,"Easy to understand, brief and clear Thank you and may Allah reward you good ✨❤ Alhamdulillah",True
+@ML_Engineerr,2024-04-15T03:46:06Z,0,There is another video with high quality on the same channel.,True
+@divyanshvishwakarma3180,2024-03-24T16:43:47Z,0,Thanks for the consice explanation,True
+@negusuworkugebrmichael3856,2024-02-14T00:22:08Z,0,Excellent. very helpful,True
+@RohithPrints,2023-12-12T05:01:36Z,0,Can you share me a data set,True
+@joeljoseph26,2023-12-05T21:47:40Z,0,More dimensions lead to overfitting right?,True
+@nukestrom5719,2023-11-05T20:03:29Z,0,Well explained it with an easy to understand example. Thanks,True
+@md.faysal2318,2023-10-21T15:34:21Z,0,"I have my own data with some column of questionnaire, so what will be my column name there on the code for instance, you put columns = cancer[feature_name], what I will put there on my own data? all the column name one by one? df-pd.DataFrame( cancer data' columns-cancer ['feature _nanes"")",True
+@praveenpandey4804,2023-10-20T15:10:40Z,0,"really sir, thanks for the knowledge. it helped me to solve your assignment in machine learning segment from PW skill..",True
+@pavankumarjammala9262,2023-10-08T19:47:14Z,0,Actually !! I took a PCA on digit recognition data there I have took n_component value as 2 but in the visualization it coming multiple colors after executing. can anyone say what will be solution for that ?,True
+@historyofislam7509,2023-08-10T04:32:11Z,0,Nice Video,True
+@kasoziabudusalaamu50,2023-08-02T13:11:09Z,0,so much insightful. The concept is well understood.,True
+@saliherenyuceturk2398,2023-05-22T10:46:28Z,0,amazing simple and straightforward,True
+@jadhavashatai8845,2022-12-18T19:19:14Z,0,So nice,True
+@Data_In_real_world,2022-10-28T16:00:27Z,0,HELLO can you please make video on PCA use along with clustering and  then explain the PCA values obtained in clusters,True
+@assiaben1220,2022-10-28T12:42:47Z,8,"Wow, fascinating; I've never seen a YouTube video that was that clear and easy to understand. Excellent explanation. Deepest appreciation. 🧡👌",True
+@devinshah234,2022-10-17T07:31:21Z,0,can you please upload the data set,True
+@katienefoasoro1132,2022-09-25T22:54:56Z,0,Line 2 its a library that help you to import the dataset?,True
+@debatradas1597,2022-09-23T18:09:50Z,0,thanks,True
+@bommubhavana8794,2022-08-26T19:52:41Z,0,"Hello, I have newly started working on a PCR project. I am stuck at a point and could really use some help...asap Thanks a lot in advance.  I am working on python. So we have created PCA instance using PCA(0.85) and transformed the input data.  We have run a regression on principal components explaining 85 percent variance(Say N components). Now we have a regression equation in terms of N PCs. We have taken this equation and tried to express it in terms of original variables.  Now, In order to QC the coefficients in terms of original variables, we tried to take the N components(85% variance) and derived the new data back from this, and applied regression on this data hoping that this should give the same coefficients and intercept as in the above derived regression equation.  The issue here is that the coefficients are not matching when we take N components but when we take all the components the coefficients and intercept are matching exactly.  Also, R squared value and the predictions provided by these two equations are exactly same even if the coefficients are not matching  I am soo confused right now as to why this is happening. I might be missing out on the concept of PCA at some point. Any help is greatly appreciated.Thank you!",True
+@sherin7444,2022-08-02T07:18:18Z,0,from sklearn.decompostition import PCA pca=PCA() pc=pca.fit_transform(df) plt.figure() plt.plot(np.cumsum(pca.explained_varience_ratio)) plt.xlabel('Column') plt ylabel('EVR') plt.show(),True
+@p15rajan,2022-07-25T05:26:19Z,0,Excellent.. Appreciate it.  .. liked your video,True
+@nithishh2384,2022-06-28T06:58:34Z,0,"Literally, I have searched and seen many videos , but this one has the best explanation",True
+@bora_yazilim,2022-06-21T16:36:59Z,0,"Hi , in this scenerio we had 2 outputs, what happens when the number of outcome increases. For my case, I have 4 output",True
+@tehreemqasim2204,2022-06-17T13:29:22Z,0,Your video is very helpful. God bless you brother,True
+@nerdymath6,2022-03-08T11:03:20Z,0,can we get to know what dimensions have been reduced and what 2 left there?  how  we will infer from the graph after applying pca,True
+@devashishrathod3462,2021-12-08T04:41:21Z,0,how can we find the variance between the 2 components that the code is reduced to??,True
+@sivaramramkrishna5627,2021-11-30T14:33:47Z,0,i feel so good by seeing this ..thanks bro ...you help me out little bit ...make more videos on this type..,True
+@phiriavulundiah9249,2021-10-26T17:13:40Z,0,A very insightful video,True
+@surajshah5630,2021-09-15T02:06:09Z,0,great effort. thankyou!,True
+@chaitanyatuckley4666,2021-08-17T05:08:40Z,0,Thanks a lot Krish,True
+@AmirAli-id9rq,2021-08-12T10:27:52Z,6,"A lot of people in comment asked about intuition of PCA. So here it is .We plot samples using the given features. for example imagine plotting different students (samples) on 3D graph (features English literature marks, Math marks and English Language Marks, x axis English literature marks ,y English Language and z axis Math ). Intuitively Someone who is good in English Literature must be good in  English Language , so if I ask u to consider only two dimensions(features) for any classification model ,you will consider Maths and either of English, bcz we know by experience the variation in both English subjects would be less. Thus in PCA we actually project the samples (students in our example) in n numbers of PCA axis and choose the PCA which explains the maximum variation in data.  If we add variation of all PCAs it will be 1 or 100%. Thus, instead of using all three subject marks I would rather use PC1 and PC2 as my features.  For PCA follow the steps 1. Once u have these 3d plot ready we calculate PC1 , which is a best fitting line that passes through the origin  2. Calculate Slope of PC1 3. calculate the eigen vector for the best fitting line 4.Find PC2 i.e. is a line perpendicular to PC1 and passes through the origin  5. Now rotate the graph such that PC1 is x axis and Pc2 is y axis , and project ur samples  Its kind tough to imagine ,Do read out more. Hope this helps",True
+@AmirAli-id9rq,2021-08-12T08:58:32Z,0,"Great Video . At the end of the video u said lost of data ,I guess Its not 100 percent correct to phrase that its not ""loss of data:, its actually the essence or rather the info of the data is not lost rather its converged into two dimensions",True
+@rachitsingh4913,2021-07-21T15:45:52Z,0,How to know that how much data wo lost on decreasing dimensionality and how many components are best ??,True
+@RohitGupta-ox6tn,2021-07-19T02:07:10Z,2,It is known that PCA causes loss of interpretability of the features. What is the alternative to PCA if we don't want to lose the interpretability? @Krish Naik. In case we have 40K features and we want to reduce dimension of the dataset without loosing the interpretability.,True
+@parthsarthijoshi6301,2021-07-14T07:17:08Z,0,how to choose the number of components in PCA?,True
+@rahulgarg6363,2021-07-10T05:23:16Z,0,"Hi krish , how Eigen values and Eigen  vectors plays a role in capturing Principal components",True
+@someshkumar1578,2021-06-12T10:43:15Z,0,Bhai mere agar features independent honge to pca lagaye hi kyun.,True
+@techsavy5669,2021-06-11T01:19:52Z,0,"At time 10.28, when we do .. plt.scatter(x_pca[:,0] , ..  shouldn't the second parameter here be target output column!! Why are we plotting it against x_pca[:,1] ?",True
+@yogitajain8003,2021-05-28T12:16:52Z,0,"ValueError: Found array with 0 sample(s) (shape=(0, 372)) while a minimum of 1 is required by StandardScaler.  But there is no missing value",True
+@dhy9361,2021-05-18T01:48:12Z,0,thank you for solving my question!,True
+@himansu1182,2021-05-09T18:16:34Z,0,I think small mistake on MinMaxscala here only used standard scaler,True
+@LAChinthaka,2021-05-05T17:05:16Z,1,Very clear and teach to the point. Thanks a lot.,True
+@joehansie6014,2021-04-27T14:43:35Z,0,Great work... 4 thumbs for you. Greetings from a master student.,True
+@bhaskersaiteja9531,2021-04-13T18:56:47Z,0,How did you come to know that 'data' and 'feature_names' need to be considered for creating a dataframe from the file? Could you please explain,True
+@MartinHroch,2021-03-23T11:32:16Z,0,Exactly half of the video was intro to data loading and explanation.... Where is the PCA???,True
+@dheerajkumar9857,2021-03-20T09:40:16Z,0,Very neat explanation.,True
+@Manoj-Kumar-R,2021-02-28T10:05:03Z,0,Insightful video.. Can we have a PCA vs LDA comparison video? Much appreciated work!,True
+@gahmusdlatfi4205,2021-02-22T09:21:36Z,3,"Hi Naik, do we apply the pca only on training dataset, or the whole dataset(training+test)? some litterature advise to apply pca on training only, but in this case how to predict test set with the transformed data? waiting for your reply, thank you in advance",True
+@ramyasrigorle2609,2021-02-18T14:05:44Z,10,Sir how to know what features(column names) are selected with pca ?,True
+@gahmusdlatfi4205,2021-02-09T17:32:23Z,0,Thanks,True
+@AnitaDevkar,2021-02-09T01:56:33Z,0,"Apply Basic PCA on the iris dataset.  • Describe the data set. Should the dataset been standardized? • Describe the structure of correlations among variables. • Compute a PCA with the maximum number of components .• Compute the cumulative explained variance ratio. Determine the number of  componentskby your computed values. • Print thekprincipal components directions and correlations of thekprincipal compo- nents with the original variables. Interpret the contribution of the original variables into  the PC. • Plot the samples projected into thekfirst PCs. • Color samples by their species",True
+@nayanparnami8554,2021-02-03T19:12:51Z,0,sir how to figure out no. of  prinicipal componenets  to which we want to reduce the original  dimension ??,True
+@RagHava_world,2021-01-20T10:09:21Z,0,"Firstly, Thanks for explaining PCA technique very clearly. Suppose, we do not know the features of a higher dimensional data. Is there any way to find the features and target within the data ? Is that possible by any chance. I am working with Hyperspectral raw data.",True
+@b_113_debashissaha9,2021-01-16T21:14:13Z,0,Excellent work for begineers,True
+@kamilc9286,2021-01-09T12:30:39Z,6,Shouldn't we validate how many PCA's are needed ?,True
+@andriruslam5089,2020-12-24T04:20:14Z,0,"Nicee, keep do good things my brother",True
+@jottilohano2232,2020-11-29T16:18:43Z,0,"pca.fit(scaled_data)  when i use this one its give error  ValueError: Input contains NaN, infinity or a value too large for dtype('float64').",True
+@dhanashripatil3784,2020-10-14T07:18:46Z,0,Sir please explain MLR with pca,True
+@sandipansarkar9211,2020-09-29T19:51:22Z,1,I think this has been the repetition of the previous video. No issues. Thanks,True
+@sandipansarkar9211,2020-09-29T19:44:49Z,1,Finished my practice the code in jupyter notebook. Cheers,True
+@sandipansarkar9211,2020-09-27T21:39:28Z,0,great .Need to get my hands dirty with jupyter notebook. Thanks,True
+@illumiseo123,2020-09-24T02:10:56Z,0,Great tutorial thank you!,True
+@sujalbhagat4447,2020-08-31T17:12:00Z,0,Thank you so much for explaining the concepts thoroughly behind these techniques. Please provide the data set to email i'd: sujalbhagat97@gmail.com,True
+@thatliftingdude,2020-08-25T06:32:33Z,0,how to choose n_components in pca?,True
+@almasrsg,2020-08-08T00:36:42Z,0,Very well explained!,True
+@fazilansari5471,2020-08-04T20:02:47Z,0,"if no of observations < no of variables / features ,so for that can we apply PCA ?",True
+@rickymacharm9867,2020-08-01T14:36:55Z,1,Well explained. Thanks a million,True
+@madannikalje760,2020-07-26T06:33:35Z,0,Does pca work on data that contains both categorical variables as well as numerical data ?,True
+@joshuamcguire4832,2020-07-16T20:10:57Z,0,thanks man,True
+@yogeshrunthla9350,2020-07-01T10:04:12Z,0,Loved your explanation sir,True
+@ruchisaboo29,2020-06-18T19:21:02Z,1,Very well explained.. thanks Also if possible please make video on other dimensionality reduction techniques like SVD..,True
+@anupambiswas2588,2020-06-08T07:57:20Z,0,can we find which features got tagged to which PC when we reduced the features to 2 PC in this example?,True
+@preeethan,2020-06-06T15:49:52Z,0,Can PCA be used for linear regression.?,True
+@sohamkurtadikar9578,2020-05-14T14:07:40Z,1,Can we use PCA when there is no target variable in the data ???,True
+@ashleypursell9702,2020-05-14T08:50:30Z,8,really good video that covers how each piece of the code works and how to implement it into other programs.,True
+@Taranggpt6,2020-05-03T09:14:12Z,4,"After training the model on these Principal components , we can evaluate it on the same 2 dimensional PC, .. for unseen datasets we need to convert that data to PC first ?? Or how it will tackle with that??",True
+@brilliantknock7438,2020-04-25T15:31:07Z,4,Thanks i got the complete details. I am New to Data Science - We are  Converting the Features/columns into  two Principal Component  Analysis -  PC1 and PC2 for Example -  how we can use PC1 and PC2 columns in to our Model. I am lost here. earlier we know the Column names and we have rough idea about that. now we dont have column names since we converted into PC1 and PC2 as well. how can we derive from here to the model prediction..  help me to understand this part,True
+@teetanrobotics5363,2020-03-25T07:49:58Z,0,"Can you make a video for LSTM , RBM ,VAE , GAN code ?",True
+@teacherHub6723,2020-02-07T15:49:59Z,1,"I have (29400,784) size of data and I want to  reduce the dimension . How I decide the Number of Component. Plzz help.",True
+@sikansamantara9504,2020-02-05T06:40:51Z,6,"Hi Krish i have a doubt, how we can know that how many components are required and which is the feasible solution for that. Because here 30 features were present and you have reduced it to 2 so my question is if i will reduce it to 5 will it effect my model's performance?   How we can able to know what is the number of features for a model?",True
+@deepcontractor6968,2020-01-07T14:20:35Z,0,What is PCR and how to apply it in this,True
+@rajeshchatterjee3272,2019-09-02T17:23:57Z,0,How can i put legend label in this code??,True
+@bhavsarswapnil90,2019-08-26T05:18:56Z,1,One question.. After converting into one hot encoding my columns become around 2000. So how can i  decide how many dimension should I keep using pca?,True
+@hokapokas,2019-07-11T05:43:28Z,3,"Nice video kish..one suggestion ,if you can explain the pros and cons as well to each technique/algo in future videos. keep up the good work. cheers !!!",True
+@justinrobinm437,2019-06-29T03:39:45Z,1,"PCA, in general, this video is  fine but there is a drawback in reducing the dimensions lost of data and variance",True
+@dipadityadas8551,2019-06-25T16:46:01Z,0,Well Explained Thank you,True
+@ragurajan7567,2019-06-23T09:02:50Z,0,Should we do pca for the test data as well?,True
+@sharifdmd,2019-06-10T16:48:00Z,3,"Hello Krish,  First of all thanks for very neat and detailed explanation. Requesting you to explain about Undetfitting & Overfitting models , How to Identify weather model is Underfitting or Overfitting , How to avoid this scenario etc .. If already video is available share it with me ... Thanks",True
+@megharaghu372,2019-06-06T07:44:08Z,0,"@Krish Naik In housing price data, if we have to predict the prices of the house then after using PCA how do I get to know which independent variable affects the target variable (price) the most, I am unable to interpret the PCA output. kindly explain by an example (kindly reply ASAP ), Thankyou,",True
+@ruchiraravirala1008,2019-06-03T18:59:45Z,1,"So, the two dimensions it reduces to,  what are they? Which variables do they correspond to?",True
+@badalsingh3733,2019-05-19T08:18:32Z,1,"Same video available on udemy also, but this is much better and easy to understand. Now would you please apply any algorithm on this data.",True
+@parijatchatterjee5086,2019-04-15T17:38:22Z,0,Can you also do a python interpretation of PCA explaining the math behind it and then coding it using Numpy. Also the problem with having data in higher dimensions and how it may lead to faulty analysis due to the abnormalities that higher dimensions bring.,True
+@brahmaiahchowdarym1913,2019-04-07T13:17:00Z,0,Nice Explanation,True
+@piyushsharma417,2019-03-06T13:42:39Z,3,nice thanks for explaining,True
+@09Aditya,2019-02-22T10:45:37Z,2,"On what basis you have selected PCA   2 , how much variance it captures , you have not explained . Tae time to make your videos , dont just make them with half efforts",True
+@MegaFanFan21,2019-01-25T19:43:17Z,6,Best video clarifying pca in sklearn,True
+@kunaljha6204,2019-01-01T14:34:01Z,12,well explained sir...if possible kindly make video on mathematics behind PCA...awaiting for more videos on ML,True
+@mandeepkaur5919,2018-12-09T03:14:41Z,1,where have you taken the dataset from?,True
+@ashdbms,2018-11-14T08:21:54Z,2,Wonderful explanation  !!,True
+@MuradAlQurishee,2018-10-16T01:53:42Z,0,nice explanation.,True
+@RohitGupta-yl6gl,2018-09-23T06:23:47Z,2,Thanks a lot for an awesome video. can you please explain how to conclude the n_components i.e 2 is better not 4 ? Is there a way to find suitable value ?,True
+@ajaychhillar1033,2018-09-10T14:58:00Z,2,Best video for PCA,True

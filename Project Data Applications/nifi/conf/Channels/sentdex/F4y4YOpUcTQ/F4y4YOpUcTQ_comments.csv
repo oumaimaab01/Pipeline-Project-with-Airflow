@@ -1,0 +1,61 @@
+author,updated_at,like_count,text,public
+@outroutono4937,2023-02-16T03:09:14Z,0,12:47 best part,True
+@SQDLowkey,2021-09-11T07:38:38Z,0,"I am trying to implement this in another game called Euro Truck Simulator,  but the keystrokes do not register in mine and all I get is a list of 0s for each image captured. Anyone has any ideas on why is this happening. It works fine outside of the game when I test it with say a text editor but it doesn't work in game.",True
+@user-xc2yc3vz5e,2021-04-27T11:46:49Z,1,.🤙,True
+@datarachit,2020-05-24T05:36:14Z,1,My network predicts only zeros. Any idea what could be the possible problem?,True
+@Praxss,2020-05-23T17:13:40Z,0,"Can someone tell what is key name for space, up, down, ctl, etc in win32api",True
+@aliberatcetin6765,2020-03-08T11:52:05Z,0,"how about the data with just lines and coordinates. there are many things trees, safety fences, grass etc. that are redundant for line following. I also think that when the data consist of just lines, weights of miscalculation lines in the network will be easily decreased. I mean they are finally ineffective to the output. thanks.",True
+@constantincolac1993,2019-12-28T11:35:46Z,0,"Love this project. I'm working on my own AI for Live For Speed auto pilot racer running on Linux (Ubuntu) via wine.  For those looking to the linux analog of  windows key press query I used this: https://rosettacode.org/wiki/Keyboard_input/Keypress_check   ``` import keyboard #Using module keyboard   def get_keys_output():  output = [0, 0, 0, 0] # up, down, left, right  if keyboard.is_pressed('up'): #if key 'up' is pressed.You can use right,left,up,down and others   output[0] = 1    if keyboard.is_pressed('down'):   output[1] = 1    if keyboard.is_pressed('left'):   output[2] = 1    if keyboard.is_pressed('right'):   output[3] = 1    return output ```   NOTE: You'll need to run your training python code as sudo. This is required by linux.      Cheers to all!",True
+@festro1000,2019-10-16T00:30:37Z,0,Couldn't you have the script pause when you press esc by using key press?,True
+@PC_Pete,2019-08-14T21:12:30Z,1,"I am getting an error around 50,000 frames... ""EOFError: Ran out of input"". Any fixes?",True
+@bhairajagautam3505,2019-06-28T09:28:56Z,1,"Hey, I am working for similar project but in FIFA, but the problem is it cannot detect the key pressed(keyboard) when the window if focused on FIFA ,but detects the key if it is focused on Pycharm or the opencv window. Any help regarding that issue?",True
+@rajcivils,2019-06-25T07:06:49Z,1,How can I use this pywin32api on linux or raspbian. Can pywin32api work for linux or I need some library like pylin32api. Not sure if that's a library. Any library with same commands for linux.,True
+@sahand6177,2019-04-13T23:40:30Z,0,you look like Snowden!,True
+@chris-graham,2019-04-05T02:23:58Z,1,Unregistered Hypercam2,True
+@KshitizSharma49,2019-03-12T13:29:12Z,0,"those who are on mac , for image grabbing  you can use mss library , it can record with high fps , edit your code a lil , its launched in 2019 link for eg  : https://python-mss.readthedocs.io/examples.html",True
+@etopowertwon,2018-12-03T17:22:20Z,0,"Hm. Looking back at my driving, it seems NN will pick up bad manners: when I was driving uphill on that same road segment  as you are, first several attempts near the cottage at the start I drove at the center of the lane or on the outer side of the road, which is very slow(thus providing a lot of data points). During the last attempts I've figured out that coming near center of the road, to the left part of the lane is much quicker, thus providing fewer data points. My future self should probably record data it to several files so data can be discarded selectively.  Also I've just used `if 'Q' in keys: break` to stop recording instead of alt-tab, ctrl-c.",True
+@alexsavu7261,2018-11-14T09:20:24Z,9,"I know this is old but, as someone else mentioned, if you did  if 'A' in keys:     output[0] = 1 if 'D' in keys:     output[2] =  1 if 'W' in keys:     output[1] = 1 instead of doing the if, elif, else, then you would have the combinations of those buttons too. Ex: You pressed WA then the output would be [1,1,0].",True
+@shubhampaul6559,2018-09-16T10:59:58Z,0,"'training_file.npy' stops storing data after some point of time. Like if length of training_data hit 1000... And after 15-20 minutes of playing the game, 'training_file.npy' shows 0 bytes. Any suggestions?",True
+@asharkhan6714,2018-08-24T18:49:14Z,2,"pywin32 module is now available to download via pip under an alias name pypiwin32. So, just run pip install pypiwin32",True
+@tarushsingh1108,2018-07-19T13:15:23Z,0,Great video man I had a question though. For getkey.py is there a way to add mouse click as well to the character list so that even that is given as a key input ?,True
+@mohammedalfisal3056,2018-06-18T00:53:32Z,0,can I add mouse output !!!!<<>???,True
+@m3n4lyf,2018-06-07T04:26:23Z,0,>keylogger.py Fixed that for you.,True
+@aakashshukla7501,2018-03-17T19:33:58Z,0,"hello sir ,,my training data has [0,1,0] only i m using vice city as Game",True
+@JackPunter2012,2018-03-04T10:30:20Z,4,"Enjoyed watching this series up untill now so before watching this video i made a python script that could play the chrome dinosaur run game (although it was an older version without the pterodactyls) and i quickly went from getting a score of around 700 to some code that managed to get a score of 10870. Also, it seems quite new so it may not have been available at the time of recording but there is a python module calle mss which allowed me to get screen grabs at 60 FPS (if i drew the screen grabs back to the screen using cv2.imshow i got around 25-30 FPS)",True
+@nguyenluan2603,2018-03-03T17:15:41Z,0,What if I'm using Ubuntu. How do I deal with pywin32 ?,True
+@gautamj7450,2018-02-25T09:05:04Z,0,"Help needed!!!   I tried the same on Need for Speed, and I got an issue. The controls of the game use arrow keys and not W, A, S, D. Right now, I changed the controls to WASD but I'm not able to play it good as I am very much used to the arrow keys. Can someone help me in logging the arrow keys instead of WASD, pls... Thanks!",True
+@Hawkboi55,2018-02-21T22:18:42Z,0,"Hi sentdex, why did you remove all the line detection code, am I missing something? Or was it because you found a better approach?",True
+@hemanthpredator7381,2017-12-24T02:16:45Z,0,"grab screen is not reading any screen data just it is showing a grey window, please help me  i am using visual studio and i.ve tried it in idle but same result.",True
+@alexboitor5699,2017-11-24T19:20:36Z,0,wouldn't it be better to train the c-nn by feeding it the lines got from the Hough lines algorithm? i mean why the whole image if the data is too large for the nn?,True
+@Maffoo,2017-11-24T14:58:20Z,36,It makes me irrationally angry that you resized 800x640 to 80x60 and not 80x64,True
+@nixellion,2017-10-26T13:56:57Z,0,"Is there a way to record mouse movement from a game in python? win32api GetCursorPosition returns x,y coordinates of the mouse, and in game if you move you mouse infinitely to the left and up, it will rotate the camera, but cursor will just get to 0,0 and stay there, and that's what pyautogui and GetCursorPosition return. In games it's more like offset.  So, is there a way to record this data? I actually don't think that it's a good idea to try and let neural network learn how to control a mouse in a 3d shooter game, lol, but who knows! For science! I wanna try to play for a few hours, record both keyboard and mouse actions, and see if CNN can figure out how to play a game :D The only thing stopping me right now is how to get mouse movement.",True
+@herantd,2017-09-11T17:11:36Z,0,MemoryError solution! https://github.com/Herant/Python_plays_gta5_MemoryError_fix (atleast it will get you around 78000),True
+@TexusNoe365247,2017-07-20T15:46:02Z,0,Do you have the download of all the new Python programming you've done?,True
+@TexusNoe365247,2017-07-20T15:39:38Z,1,strating fresh.... lol,True
+@peterparker8764,2017-05-24T08:28:43Z,0,how to detect left arrow ??,True
+@RoguePotatoes,2017-05-20T02:33:47Z,1,just in case nobody told you today: you are GREAT!,True
+@MalSatori,2017-05-14T17:25:06Z,0,I'm trying to apply what you're doing in the GTA videos to the browser game agario. Do you have a script that would record mouse movement instead of key presses?,True
+@TheMichaelg1280,2017-05-10T20:06:10Z,0,Anyone know of a way to do the same with a controller? It would be easier to drive the vehicle which means better training data.,True
+@ppraisethesun,2017-05-10T14:01:44Z,1,How to fix  Memory error when writint to training data file?,True
+@dhruvmarwha1799,2017-05-03T16:32:13Z,1,Can anybody help me with recording key presses.I have tried the code which was there on sentdex Github(grabkeys.py) but the pywin32 module does not work.I have also tried msvcrt.getch() even that does not work.Using python 3.5.1 with Pycharm Community Edition.,True
+@hectorflores7568,2017-04-30T07:06:21Z,0,just take the taxi's code,True
+@Masterism88,2017-04-28T03:53:59Z,1,Please put some kind of vibration dampening on your mic.. The vibration coming though the mic from your hard key presses is crazy..  Thanks,True
+@DigitalicaEG,2017-04-28T02:52:27Z,3,"You shouldn't have used elseif in the keys output function, since key can be combined (both A and W are pressed for example)",True
+@oliverhilton6086,2017-04-27T20:58:50Z,1,Is there a way to emulate an analogue input (i.e the triggers and sticks on a x360 pad) so the AI can make more subtle turns and accelerations?,True
+@needlessoptions,2017-04-27T11:04:04Z,0,I love you sentdex you're my boi,True
+@ZeNashB,2017-04-25T16:02:51Z,1,Amazing series. I love the concept. Subbed!,True
+@Box-of-hats,2017-04-23T01:04:40Z,0,Great little series :),True
+@carbon13,2017-04-22T12:17:16Z,1,"You wrote right = right[:len(right)] instead of right = right[:len(forwards)] But it's fixed on Github, so it's fine...",True
+@Agronomistapolo,2017-04-20T18:36:08Z,0,"Hi sentdex maybe this video is not right to ask this question. I want to count all orange from this image : https://goo.gl/ViGTJZ, I habe been triying it with Python and Opencv but I have not could do it. Could you give some advice? It's possible do it with matching learning, namely, training some algoritm with image? Thanks in adavance.",True
+@ddbonpc,2017-04-20T10:56:01Z,0,Awesome video series !,True
+@herp_derpingson,2017-04-20T03:01:43Z,0,I noticed that I swear a lot after playing GTA 5. I noticed the same sss... thing back when GTA San Andreas came out.,True
+@MarkJay,2017-04-19T04:16:00Z,1,I use np.vstack to append numpy arrays,True
+@softshore,2017-04-19T01:25:38Z,74,"""Gotta keep that youtube ad revenue"" cracked me up xD great series btw",True
+@Franneck,2017-04-18T19:25:38Z,0,nice!,True
+@friendselfdone,2017-04-18T19:12:29Z,0,this is so good and interesting!,True
+@andrebothma9143,2017-04-18T17:50:25Z,18,Love the series! This is keeping me happy and satisfied with the progress of mankind! :),True
+@williamsbobadilla4604,2017-04-18T17:45:16Z,0,genial!,True
+@youturn45,2017-04-18T17:31:09Z,1,Loved this series so much,True
+@Cheat1995,2017-04-18T17:29:00Z,6,+sentdex Great guy. That came a little earlier then expected. Thumbs up!,True
+@MrChinner118,2017-04-18T17:23:26Z,11,"All your videos are amazing, but these are probably the most entertaining!",True
+@poseidon4675,2017-04-18T17:16:22Z,0,aww yeah I've been waiting for this! :),True

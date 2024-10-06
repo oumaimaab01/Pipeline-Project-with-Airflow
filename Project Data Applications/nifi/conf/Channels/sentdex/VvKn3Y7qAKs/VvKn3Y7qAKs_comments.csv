@@ -1,0 +1,29 @@
+author,updated_at,like_count,text,public
+@humayrac1,2021-03-24T20:41:30Z,0,"but this sorts them from lowest to highest, how would I do highest to lowest?",True
+@twoheadeddatascientist3289,2021-02-17T20:40:07Z,0,You are great:). Doing some coursework:).,True
+@egormarkin858,2020-12-25T21:17:47Z,0,nice IDE bro ;),True
+@sun16111,2020-10-10T14:55:34Z,0,"import csv import operator sample=open('Scrapped.csv','r')  sample2=[(5,6),(7,1),(3,2)]  csv1=csv.reader(sample,delimiter=',')  sort=sorted(csv1,key=operator.itemgetter(1))  sort=sorted(sample2,key=operator.itemgetter(0),reverse=True)  for eachline in sort:         print (eachline)",True
+@Julio-re8em,2019-07-15T14:57:14Z,0,that vrbo ad hit differently tho,True
+@soyanchd5439,2019-06-03T06:42:45Z,11,"IMPORTANT: this DOES NOT if you want to sort by numerical values. It only appears to work here since alphabetical sorting of digits is the same as the numerical. The default behavior  will treat the number as a string. A solution provided by stack overflow is this:        sort = sorted(reader, key=lambda row: int(row[index]), reverse=True)  Will give a descending numerical sort.",True
+@adityajoardar6049,2018-09-13T17:38:17Z,0,nice video,True
+@sunnynbk,2018-05-10T15:33:36Z,0,How to filter out from cvs or text file,True
+@CameronNoakes,2018-03-21T21:18:57Z,0,"any answer would be kind, I need to print all 12 months with avg hottest and coldest temp and have done them in 2d list as [""January,6,3] all the way down to December, but pritns the whole list including commas, [ ] and all on the same line, I need it as months in a column, hottest in next column and clodest in another, any help, this is also quite urgent. Many Thanks, Cameron",True
+@shadetimelock547,2018-01-10T20:49:58Z,0,"when i try to do the same thing, at print eachline, i get a syntax error, what do i do?",True
+@paulgorvin2126,2017-08-31T13:54:07Z,0,Very very helpful in something I was trying to learn regarding sorting students in a CSV file.  Thank you!,True
+@SHONNER,2017-08-31T02:28:54Z,0,Pretty cool. I been sorting the old way (bubble). Forgot Python had a sort function.,True
+@Vinay_Gurram,2017-08-26T23:28:47Z,2,"Hey, can you Plz let me know how to get the (highest in a column of) top 10 lists in CSV file using python pandas? - thanks, advace.",True
+@ipadguy1974,2017-06-09T21:46:05Z,1,"Great tutorial!  I decided to take the plunge and learn PyQt and explore Python's blockchain offerings.  I've got a list of Bitcoin prices with timestamps, and wanted to see how to sort them in reverse chronological order.  This was a BIG help.  I spent the early part of my career using proprietary development tools, like SQL Server, SASS, SRSS, Visual Studio, J.D. Edwards, and decided to make the shift to open sourcce tools.  I have programmed in a range of languages, including COBOL, BASIC, LOGO, C/C++, etc, and I am impressed with how easy Python really is.  I also concur--Python 3 support and adoption leaves something to be desired.  For me, the recent advances in Qt (ie. PyQt5) are fueling my interest in Python 3.",True
+@ahmadbelhaj1756,2016-12-14T03:44:03Z,0,can read a file and append it into dictionary?,True
+@mahdimoslemi9746,2016-10-17T18:20:34Z,0,Thanks for your code. But still I have a problem. This code cant sort ( - ) numbers in a good way. or I can say python couldnt understand the different between (+) number and (-) number with this code. Do you have any idea for this problem?,True
+@nikitadwivedi8655,2016-06-23T09:10:41Z,0,This was extremely helpful! Another badonkadonk rescued! :P,True
+@aliciathreatt81,2016-05-19T09:22:49Z,0,"Thanks - love it, but how do i write this to a new csv file?",True
+@therainbow8334,2016-04-08T02:18:55Z,0,Thank you your an absolute life saver,True
+@thecoder3740,2016-02-01T21:06:24Z,1,"Nice, Thank you :)",True
+@daisygrace83,2015-11-06T23:16:41Z,1,"I cannot stress enough how helpful that was, thank you so much!",True
+@rs26531,2015-06-27T10:19:03Z,12,"I need urgent help... This method does not work for 2 digit numbers. E.g. The order it would print them in is: 1,10,2,3,31,4,5,6,77.",True
+@naiyaravji9253,2015-05-23T14:20:38Z,1,"Hi please could you kindly advise to I can append scores for a quiz to the same row in Python. For example if the same person did the quiz multiple times I would like to see this as i.e James 6,5,8 instead of -  James 6 James 5 James 8",True
+@zabinitro,2015-02-14T14:15:20Z,0,How do i import an existing CSV as a list?,True
+@ADITYAKUMARBMD,2015-02-12T07:34:09Z,0,"how will you insert a column in between two existing columns, so that the 2nd column becomes the 3rd column.",True
+@karinahhhhhhh,2014-08-17T16:17:34Z,0,Hello! I just wanted to share something that I found by following your videos.. I've been stuck on this for the longest time. I have Python 3.4 and the code you have was not working. I kept getting an error at the final print statement.. You need to go ahead and add parentheses to the eachline  :)   for eachline in sort:     print (eachline),True
+@robhagle,2014-01-22T01:04:23Z,0,How would I make this work with both single and double digits?  This returns 10 as being smaller than 2 for example,True
+@JoeG2324,2013-11-25T00:17:25Z,1,very nice. keep them coming. Your python videos are the best on youtube.,True

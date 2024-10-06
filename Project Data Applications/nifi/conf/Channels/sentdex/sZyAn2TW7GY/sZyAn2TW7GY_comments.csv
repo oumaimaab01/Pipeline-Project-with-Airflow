@@ -1,0 +1,174 @@
+author,updated_at,like_count,text,public
+@ShimShonShinShom,2022-09-07T21:22:31Z,0,"I need to split a string with both . And , as separators, but I want to keep the . or the , at the end of each objects. Any idea ?",True
+@jesusonthekeys2856,2022-07-27T09:55:22Z,0,bro watching this in 2022 to help with my project you are carrying it love the tutorial 😀,True
+@rubenmorayguerrero2945,2022-03-29T18:54:50Z,0,2022,True
+@pansernik446,2021-12-11T16:34:00Z,0,"hey, I have one problem with semicolon. when i'm trying to scratch some string from website which contains semicolon, it does not work with expression: ('.*?'). Any ideas how to solve the issue?",True
+@tomg4324,2021-10-20T04:19:46Z,2,nice thanks brother,True
+@HoneyBadgerJAB,2021-10-15T20:46:40Z,0,"Hey man, thanks for the awesome tutorial. I know it's been awhile since you posted this but wondering if you could help me out?  Let's say you had one more variable added after names, perhaps you included each person's city.  How would you add that to your dictionary in the for loop?  {'Jessica': '15', 'Albuquerque'}   Is this possible?",True
+@adityakoduri,2021-08-25T03:42:11Z,0,Even in 2021 one of the best tutorials I've seen on this,True
+@ficont8206,2021-06-12T05:35:19Z,0,"Isnt ''' ''' a comment, or did i miss anything. How can it be used to make a string?",True
+@SatishkumarDhule,2021-02-23T07:03:05Z,0,"ageDict=zip(names,ages)",True
+@ishanasperfect,2020-12-01T20:17:20Z,0,Thank you. Very helpful!,True
+@drsmahesan203,2020-10-09T11:02:09Z,0,"@18:10    ageDict = dict(zip(names, ages))  :-)",True
+@hiteshsomani4462,2020-09-05T04:16:57Z,0,what is round brackets '( )' for in regular expressions ?,True
+@ssc1348,2020-07-07T14:53:14Z,0,I was on the verge of going crazy with all the regex tutorials out there and not understanding a thing. Thanks for this video.,True
+@manikantakvv6806,2020-06-17T15:47:40Z,0,"Can anyone tell me, what does the %s do in regex in python. What actually the % stands for in regex in python.",True
+@TXfoxie,2020-05-26T21:33:06Z,0,"OMG, why any other MOOC course cannot give me such a simple and clean cheat sheet? Instead always give me the link to the original python reg-ex reference webpage. As a newbie, it was so hard to code with reg-ex which I had to constantly check for the reference. This summary page truly helps me a lot. As my dad said, whoever can condense a 300-page book into an one-page summary is truly the master of the book. Sentdex, you are truly the master of Python.",True
+@digitaldata-surveying,2020-03-25T16:20:23Z,0,"thank you, love you, friend.",True
+@aguiremedia,2020-03-10T12:49:29Z,0,Thanks for this,True
+@rehan3600,2020-01-23T23:33:47Z,0,Your mic volume needs to be way higher.,True
+@ytlagu2010,2020-01-22T09:25:25Z,0,watching in 2020 :),True
+@yangalusiti3521,2020-01-15T10:37:54Z,0,"Insightful tutorial, Thanks",True
+@AngelaSMak,2019-12-16T17:25:50Z,0,Very nice 👍. Thanks,True
+@mootensproductions,2019-12-13T17:49:49Z,0,"Thank you so much, I love you! You provide so much value, I am glad we share this space.",True
+@jaymesrod4209,2019-10-17T03:47:02Z,0,"sentdex I really like your videos! Your a great python programmer, and I have learned alot from your videos. I have told my fellow students at university to check out your channel. Hopefully you get more subscribers.",True
+@marioashok5914,2019-09-24T09:07:00Z,10,I'm watching this in 2019 and it's still relevant mate. Thanks a ton for this video.,True
+@bleepbloopbeepbop,2019-07-31T16:16:55Z,0,Oscar became a Grandfather at 5.,True
+@rishangprashnani4386,2019-07-24T04:02:56Z,0,typing sound is so annoying,True
+@darrenlefcoe,2019-07-16T18:41:59Z,1,"Good starter video.   the for loop at the end is better served this way:   ageDict = {}   for i, n in enumerate(names):     ageDict[n] = ages[i]   print(ageDict)",True
+@Tyokok,2019-06-14T02:36:50Z,0,"great vid! sub right away. btw, where is your next vid ""url lib + regex""? thanks",True
+@shalinisahnimankatalia5305,2019-06-13T16:55:10Z,0,The video is really good but why don't you use the HTMLParser module for parsing html? It is inbuilt and is really efficient and also saves loads of lines of code,True
+@PoojaryPawan,2019-05-21T08:30:38Z,0,OCD attack at 5:43,True
+@KumarSaptam,2019-02-17T09:25:42Z,1,The best I can get from a YouTube. You are best in teaching python. Amazing tutorials keep making these types of video.,True
+@saudnaeem,2019-02-07T13:18:02Z,0,good lecture dude,True
+@neeldeshmukh3705,2019-01-24T16:19:29Z,0,Am i only the one who thinks he is Mark Zuckerberg's lost twin????,True
+@Volpit,2019-01-15T08:49:01Z,0,Do you live in Nebraska ?,True
+@RamkrishanYT,2018-12-27T07:29:58Z,0,5:02 when you wanna join KKK,True
+@stacksonchain9320,2018-12-10T07:43:16Z,0,Timeless,True
+@dp0813,2018-12-07T13:49:40Z,0,"And here's a printout of the entire video for people who want to run it in their IDE:  # -*- coding: utf-8 -*- """""" RegEx Tutorial """""" import re #print(dir(re)) sb = ""-""*50 print(""IDENTIFIERS:"") print() print(""\ used to escape a character"") print(""\d any number"") print(""\D anything but a number"") print(""\s space"") print(""\S anything but a space"") print(""\w any character"") print(""\W anything but a character"") print("". any character except a new line"") print(""\. actually a period"") print(r""\b whitespace around words"") print(sb) print(""MODIFIERS:"") print() print(""{1,3} we're expecting 1-3"") print(""+ Match 1 or more"") print(""? Match 0 or 1"") print(""* Match 0 or more"") print(""$ match the end of a string"") print(""^ match the beginning of a string"") print(""| matches either or e.g. \d{1-3}|\w{5-6}"") print(""[] Match range or 'variance' (e.g. [A-Z][a-z] or [1-5][a-q][A-Z] would return 'Dr' or '3pO')"") print(""{x} expecting 'x' amount"") print(sb) print(""WHITE SPACE CHARACTERS:"") print(r""\n new line"") print(r""\s space"") print(r""\t tab"") print(r""\e escape (rare)"") print(r""\f form feed (rare)"") print(r""\r return"") print() print(""DON'T FORGET!:"") print(""To use:  . + * ? [ ] $ ^ ( ) { } \ |  you have to 'escape' them first!!!"") print(sb) print(""EXAMPLES:"") print() exString = """""" Jessica is 15 years old, and Daniel is 27 years old. Edward is 97 and his grandfather, Oscar, is 102. """""" print(""We will use the following example string:"") print(exString) print(""To find all ages in the string from 1 to 3 digits, we can create a variable 'ages' = re.findall(r'\d{1,3}', exString):"") ages = re.findall(r'\d{1,3}', exString) print(""ages ="", ages) print() print(""To find all names in the string, we can create a variable 'names' = re.findall(r'[A-Z][a-z]*', exString):"") names = re.findall(r'[A-Z][a-z]*', exString) print(""names ="", names) print() print(""To map each name to their ages, we can do the following:"") mapping = """""" ageDict = {} x = 0 for eachName in names:     ageDict[eachName] = ages[x]     x+=1 print(ageDict) """""" print(mapping) ageDict = {} x = 0 for eachName in names:     ageDict[eachName] = ages[x]     x+=1 print(""which gives us:"") print(ageDict)",True
+@dp0813,2018-12-07T13:16:22Z,0,"For anyone who want to print out the RegEx list he types out:  sb = ""-""*50 print(""IDENTIFIERS:"") print() print(""\ used to escape a character"") print(""\d any number"") print(""\D anything but a number"") print(""\s space"") print(""\S anything but a space"") print(""\w any character"") print(""\W anything but a character"") print("". any character except a new line"") print(""\. actually a period"") print(r""\b whitespace around words"") print(sb) print(""MODIFIERS:"") print() print(""{1,3} we're expecting 1-3"") print(""+ Match 1 or more"") print(""? Match 0 or 1"") print(""* Match 0 or more"") print(""$ match the end of a string"") print(""^ match the beginning of a string"") print(""| matches either or e.g. \d{1-3}|\w{5-6}"") print(""[] Match range or 'variance' e.g. [A-Za-z] or [1-5a-qA-Z]"") print(""{x} expecting 'x' amount"") print(sb) print(""WHITE SPACE CHARACTERS:"") print(r""\n new line"") print(r""\s space"") print(r""\t tab"") print(r""\e escape (rare)"") print(r""\f form feed (rare)"") print(r""\r return"") print() print(""DON'T FORGET!:"") print("". + * ? [ ] $ ^ ( ) { } \ |"") print(sb)",True
+@shinkevin3379,2018-11-29T03:30:51Z,0,You are the best youtuber teacher I have ever encountered. Terrifiedly terrific job done man!,True
+@NCHOKKAMREDDYSUNKRISHNA,2018-11-14T05:54:47Z,0,I have a  file containing records in format:  My username is Ajay. I am 20 years old. My username is atb00ker. I am 40 years old. My username is 394843. I am 22 years old.    There are 100 such records. You have to write a regex to match records of people of age below 20. Send the regex expression as submission.,True
+@harnishshah137,2018-10-15T10:44:07Z,0,"how can i add multiple flags in same line? for example in this suppose i want only ages so make re. for only ages , and now i want name also so make re. for that.so hence i want  either only ages or name. so how can i combine this both re. with (OR option)?",True
+@mehdijafari8156,2018-10-08T14:22:56Z,0,short and clear.  thanks!,True
+@ujjawalpanchal,2018-09-23T12:59:33Z,0,"At age 5, Oscar became a grandfather! I didn't know grandfather's spelling at age 5! Damn!",True
+@sairajdas6692,2018-09-18T14:36:57Z,1,"for eachName,  eachAge in zip(ages, names):     ageDict[eachName] = eachAge",True
+@nazmul-cse48,2018-09-03T18:55:47Z,0,how can I take multi-line string input from user and remove all digit from it.,True
+@trouserpython3857,2018-09-01T01:28:20Z,0,Sentdex looks and sounds hungover af in this one.,True
+@sadeghrizi2665,2018-08-31T08:55:47Z,0,How could we write a regular expression that says we're looking for a string that contains at least one character among[A-Z] and the other characters are among [a-z]? Knowing the answer would be useful for writing a program to test the security of a password using regular expressions.,True
+@Zvosab,2018-08-26T12:00:44Z,0,"hi, how can you extract certain stuff from an external file? For example in my external txt file I have a row saying ; January 9.54, and I only want that number to be extracted. How would the code look like? tnx",True
+@sherrylin3416,2018-08-03T06:49:41Z,0,Regular expression has always been a pain in the ass for me and this tutorial so soooooooo clear.,True
+@IrshadKhan-vk8rn,2018-07-14T18:16:26Z,0,I wish I could use this in PDF file😃,True
+@iamteedoh,2018-06-24T16:06:03Z,1,@sentdex - thanks for the helpful overview. It definitely cleared some questions I had.,True
+@NathanYoungLibrary,2018-06-11T15:22:43Z,17,Watching this in 2018. Still a strikingly good tutorial. Thanks man.,True
+@tirthrajmahajan2508,2018-05-21T17:33:35Z,0,"Easier Way to do this could be:  import re exampleString = ''' Jessica is 15 years old, and Daniel is 27 years old. Edward is 97 years old  his grandfather, Oscar is 102. ''' ages = re.findall(r'\d{1,3}',exampleString) names = re.findall(r'[A-Z][a-z]*',exampleString) name = ''.join(names)  #Converts the list into string  x = 0  for name in names:   print(name+"" is ""+ages[x]) # So for every name in names, print name and age   x = x+1 #Used as index variable in ages[x]  Output  -  Jessica is 15 Daniel is 27 Edward is 97 Oscar is 102",True
+@navinkrishnan9419,2018-05-10T05:26:38Z,0,Thank You!,True
+@nordic5436,2018-04-16T01:03:12Z,0,Can someone please explain how Edward’s grandfather is five years older than him😂,True
+@abirhasanrahat2027,2018-04-07T12:51:55Z,0,"(r'\d{1,3}', exampleString)  what is r?",True
+@abirhasanrahat2027,2018-04-07T12:51:55Z,0,"(r'\d{1,3}', exampleString)  what is r?",True
+@bebinkc9375,2018-04-06T14:58:22Z,0,"than heaps myan.. was really hacking my brain to understand this, you make it real easy.",True
+@meltedcheese1908,2018-04-06T03:41:45Z,0,"Wow man, this really helped me understand regular expressions!",True
+@hiver4181,2018-03-18T01:00:05Z,0,"""REE""",True
+@bas_kar_na_yar,2018-03-05T11:36:55Z,0,I think that this is the best tutorial for RE,True
+@djleisheng,2018-03-04T01:06:04Z,0,"I figured out how to match it in one expression and keep the  person's name and age in a tuple within the list:  print(re.findall(r'([A-Z][a-z]*)\D+(\d{1,3})', exampleString))  returns [('Jessica', '15'), ('Daniel', '27'), ('Edward', '97'), ('Oscar', '102')]  So basically: (capital letter followed by any number of lowercase letters) followed by 1 or more non-digit characters, followed by (any number containing 1-3 digits)  Only the parts in parentheses are returned.",True
+@erfantaghvaei768,2018-02-09T11:12:47Z,0,Sentdex for ever !,True
+@anbuanbu6591,2018-02-08T18:02:54Z,0,how to extract before and after two words from particular string using regular expression???,True
+@angelowattersr.5029,2018-02-06T22:06:54Z,0,"See what I got ?????  import re >>> string = ''' Jessica is 15 years old, and Daniel is 27 years old. Edward is 97 years old, and his grandfather, Oscar, is 102.  ''' >>> ages = re.findall(r'\d{1,3,}',string) >>> names = re.findall(r'[A-Z] [ a-z]*',string) >>> print (ages) [] >>> print (names) [] >>>",True
+@tusharbarman1924,2018-01-25T05:23:49Z,0,"What's the use of * ? I mean in names = re.findall(r'[A-Z][a-z]*',",True
+@almarc,2018-01-22T02:21:49Z,0,"- Edward, your grandfather, Oscar, was 5 years old, when you came to this world!",True
+@chemdah,2018-01-19T19:36:38Z,0,How did Edward and Oscar live so long?,True
+@battlesniperhicbiranlasmay9953,2018-01-19T09:39:32Z,0,"Battle Sniper 1 second ago Ages:  ['15', '27', '97', '102'] Names:  ['Potato', 'Tomato', 'Orange', 'Lemon'] All:  {'Potato': '15', 'Tomato': '27', 'Orange': '97', 'Lemon': '102'}",True
+@battlesniperhicbiranlasmay9953,2018-01-19T09:39:07Z,2,"'''IDENTIFIERS:    \d = any number   \D = anything but a number   \s = space   \S = anything but a space   \w = any character   \W = anything but a character   . = any character, expect for a newline   \b = the whitespace  around words   \. = a period  MODIFIERS:   {1,3} we're expecting 1-3  + match 1 or more  ? match 0 or 1  * match 0 or more  $ match the end of a string  ^ matching the beginning of a string  | either or  [] range or ""variance"" [1-5a-qA-Z]  {x} expecting ""x"" amount  WHITE SPACE CHARACTERS:   \n new line  \s space  \t tab  \e space  \f form feed  \r return  DONT FORGET!:  . + * ? [ ] $ ^ ( ) {} | \  ''' import re exampleString = ''' Potato is 15 years old,and Tomato is 27 years old. Orange is 97,and his grandfather,Lemon, is 102. ''' ages = re.findall(r'\d{1,3}',exampleString) names = re.findall(r'[A-Z][a-z]*',exampleString)  print(""Ages: "",ages) print(""Names: "",names) x = 0 ageDict = {} for eachName in names:     ageDict[eachName] = ages[x]     x+=1 print(""All: "",ageDict)",True
+@battlesniperhicbiranlasmay9953,2018-01-19T09:38:41Z,0,"Ages:  ['15', '27', '97', '102'] Names:  ['Potato', 'Tomato', 'Orange', 'Lemon'] All:  {'Potato': '15', 'Tomato': '27', 'Orange': '97', 'Lemon': '102'}",True
+@SerottaPDX,2018-01-17T02:22:36Z,0,"Thanks again, Harrison! Once again, you made diving into a new concept, like regex, easy.",True
+@weebaldfella,2018-01-02T23:15:18Z,0,"Great tutorial as always. I spotted a few comments about using dict(zip(names, ages)) instead of the loop which is the most concise way I know.  I just wanted to say that if you do ever find that you need the index of the item as you loop through a list, you can use enumerate():  for index, value in enumerate(values):     print(index, value)  That way you can't accidentally forget to increment your counter.",True
+@problem4643,2017-12-23T13:37:08Z,0,"When I run the same code in my Pycharm it gives Attribute error and say ""re"" is not defined",True
+@rashmitpankhania6513,2017-12-08T11:57:01Z,0,while(True):         print('you are awsmmmm'),True
+@SlightlyOverripeAvocado,2017-12-07T03:22:17Z,0,Thanks! Very helpful video.,True
+@kanharusia9399,2017-12-02T13:36:03Z,0,"if i write re.findall(r'[+,-,*,/'], entered string)  then it is not extracting + - * /   why  and how to do this",True
+@kanharusia9399,2017-12-02T13:27:57Z,0,In my it is showing all the words either name or word.  Why,True
+@wilfreddv,2017-11-26T20:48:53Z,0,>tfw he did not use `zip()` Nonetheless very useful video ^^,True
+@kushalgajurel203,2017-11-19T15:19:42Z,0,how about you tell us where you are looking this shit from.......then we wouldn't have to go through your video at all. i like your videos but this shit i noticed its not good bro. We look at your teaching expecting you know these things to your skin. Even i could look at some place a teach it on a video. At least be prepared.,True
+@Driftload,2017-10-31T21:55:15Z,0,These tuts are very very good,True
+@imranshaikh-vy9ke,2017-10-22T07:53:22Z,0,great explanation,True
+@dudebro4421,2017-09-28T00:08:27Z,0,what does parse mean?,True
+@mehdij9494,2017-09-25T08:46:54Z,0,short and useful and also,True
+@AhmedHadiPADI_scuba_instructor,2017-09-16T03:36:30Z,0,can you explain grouping ? why dose this main (\w+) ? hope you help me now i need to understand it for a test   thanks a lot!,True
+@AlfredoContrerasEverywalker,2017-09-05T10:41:16Z,0,Great explanation! Thanks,True
+@t-dude7372,2017-08-11T02:46:18Z,184,"For anyone who wants the RegEx list he typed out:  Identifiers: \ used to escape a character \d any number \D anything but a number \s space \S anything but a space \w any character \W anything but a character . any character except a new line \. actually a period \b whitespace around words  Modifiers: {1,3} we're expecting 1-3 + Match 1 or more ? Match 0 or 1 * Match 0 or more $ match the end of a string ^ match the beginning of a string | matches either or e.g. \d{1-3}|\w{5-6} [] Match range or ""variance"" e.g. [A-Za-z] or [1-5a-qA-Z] {x} expecting ""x"" amount  White Space Characters: \n new line \s space \t tab \e escape (rare) \f form feed (rare) \r return  DON'T FORGET!: . + * ? [ ] $ ^ ( ) { } \ |",True
+@mr_anand_parekh,2017-07-20T06:01:41Z,0,"Thanx for the video man!! can u explain the difference between re.search, re.match, re.compile",True
+@polyspastos,2017-07-16T09:21:58Z,0,"Damn, Oscar did have an adventurous youth.",True
+@ianiss9165,2017-07-15T22:12:27Z,0,"I've got a weird issue - I do a search, get a string, but when I try to concatenate that string to whatever I need it for I get weird results. E.G. print('John ' + m.group(1)) produces  ""ohn ""str(m.group(1)) It's not what I'm expecting. ANY thoughts?",True
+@thalishsajeed,2017-07-03T03:08:17Z,3,"@14:45 the purpose of r' ' isn't to inform python that the enclosed string is a regular expression.   Without the r, backslashes are treated as escape characters. With the r, backslashes are treated as literal.   Great tutorial as always - keep it up",True
+@arjunkashyap8896,2017-06-27T11:25:49Z,0,I did not quite catch why we used *... Help would be appriciated,True
+@333vaibhav,2017-05-26T12:54:47Z,0,"Its really easy understanding tutorial @sentdex, very nice...",True
+@Gilera1964SS,2017-05-25T06:38:03Z,0,"Very useful tutorials', excellently explained.",True
+@muhammadadeelq790,2017-05-10T10:28:39Z,0,"dicRecort = dict(zip(names,ages))  for dictionary",True
+@dkarthiganesh,2017-05-01T15:38:47Z,0,Your tutorials are Awesome.  Thank you sentdex.  I am new to Python.  I have downloaded all your basic tutorials and learning one by one.  Thanks a lot..,True
+@varshwalia,2017-04-20T16:37:25Z,0,I don't know why i play your videos at 1.25 speed and it still feels normal.,True
+@HearterSG,2017-04-03T19:57:36Z,0,breaking it down into IDENTIFIERS and MODIFIERS is so helpful for my understanding! thanks!,True
+@franjaviervm,2017-04-02T23:36:03Z,0,Excellent tutorial !!!,True
+@LonglongGuitar,2017-03-31T21:39:49Z,0,"ages = re.findall(r'\d{1,3}',exampleString)     question: why we have to put a 'r' before ''\d{1,3}''?",True
+@narendrawalawalkar9377,2017-03-29T18:22:27Z,0,"['15', '20', '97', '102'] [] I am getting this output though I have written the same program... import re exampleString = ''' Jessica is 15 years old, daniel is 20 years old. Edward is 97, and his grandfather, oscar, is 102. ''' ages = re.findall(r' \d{1,3}', exampleString) names = re.findall(r'[A-Z][a-z]', exampleString) print (ages) print(names) please tell me if there is any silly mistake that I'm doing",True
+@harvir74,2017-03-23T22:26:10Z,0,dude you should write a book you'r explanations make so much more sense than all the python books i have. koodos.,True
+@gregf9160,2017-03-09T10:22:54Z,0,Great RE intro and a _very_ practical demonstration! Thanks ...,True
+@tobiasfan5407,2017-02-03T18:13:06Z,0,"Thanks for the tutorials, homes!",True
+@MrPaglynn,2017-01-24T16:53:13Z,1,Thank you for this dude. I've been watching a lot of your videos. You've been such a help!,True
+@alfredgarrett9589,2017-01-17T00:52:34Z,2,Great Tutorial! really cleared up regular expressions for me!,True
+@AJAL9574,2016-12-29T10:38:49Z,0,which software you use to record the monitor ???,True
+@kaspa123321,2016-12-29T01:35:06Z,0,"Man, Edward and Oscar gotta be brothers with them close ages lol.",True
+@TheMateusjunior,2016-12-24T09:45:29Z,0,"hi , you first statement is \d{1,3} ,    but how do you obtain the 97 ages ?",True
+@pipi_delina,2016-11-15T16:59:37Z,0,Hello... Please how do I contact you,True
+@mithridil,2016-11-10T02:29:32Z,0,"I have this code:  prefixes = re.findall(r'^(un|con|in|pre)?(un|con|in|pre)?(un|con|in|pre)?(.*)$',unpredictable )  It means that in a string (word) we have more than one prefixes un-, pre-..... i want to use a regex lookahead to every one of them so my code understands that there should be a word (.*) after the 3d parenthesis (un|con|in|pre), there should be a prefix (from 3d parenthesis) after the 2nd parenthesis and so on...  I want to do this cause i want to check if the last one is a real word from a wordlist... i will replace (.*) with a word from a wordlist. For example if i give the word ""redeconstruct"" i want to make my code understand that there should be a word struct from the wordlist first, then at its left one of the prefixes in 3d parenthesis, then at its left one in 2nd and so on... If i give another example like ""undo"" i want a result like this: ["" "","" "",""un"",""do""]. Could you help me please? Cause in every tutorial the lookbehind and lookahead are so basic and i have intentionally fixed width errors :/",True
+@mohamedgabr918,2016-11-02T20:42:46Z,0,what is the best reference for regular expression brother? :),True
+@ParagMantri,2016-10-20T12:08:04Z,0,"At 15:00, why do we need to tell python it is regular expression by using r in (). Aren't we already doing it by using 're' in re.findall?",True
+@mariamjibrin5884,2016-10-13T00:40:29Z,0,sorry could you make a tutorial of this searching for html tags please,True
+@guilherme5165,2016-10-11T03:21:07Z,8,God bless you!,True
+@liptherapy,2016-10-09T19:38:28Z,0,18:09 or just use enumerate(),True
+@freeman_lex,2016-10-09T18:48:50Z,1,"Making a dictionary(c) from two lists(a, b): c = dict(zip(a, b))",True
+@Achooification,2016-10-05T14:00:06Z,2,Thanks for this.,True
+@DenisAstahov,2016-09-27T16:04:11Z,0,thanx but need more examples,True
+@ruyl2,2016-09-25T19:53:01Z,0,"zip(names, ages)",True
+@naveenrajkali1790,2016-09-19T22:02:47Z,0,OSM! nice explanation.  Can you Pl give more examples on RegExp ?,True
+@honeykhangura8282,2016-09-14T05:51:52Z,0,"Most of your tutorials are completely to the point, Why you have went so far rather than showing some more and more practical examples? Sorry if my words are bit edgy but I really love rest of your tutorials specially Python for Finance!",True
+@AmalShehu,2016-09-02T17:14:23Z,0,Informative,True
+@unbreakablefootage,2016-08-17T23:40:03Z,4,RRRREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE,True
+@MrSidahmed2009,2016-08-02T01:18:48Z,0,thanks,True
+@samatbek,2016-07-30T07:20:10Z,4,Awesome tutorial! Thank you so much!,True
+@savaimaheshwari8492,2016-07-16T19:08:44Z,0,Excellent Explain........Thank You....,True
+@unknownname2813,2016-07-10T08:50:36Z,0,You are awesome Till now i learned Python for hobby Now i seriously thinking to become professional Pyhton Programmer like U... :),True
+@xingyubian1441,2016-07-01T19:29:08Z,0,Your videos are awesome!,True
+@CSryand2m,2016-06-10T01:40:41Z,0,"Man, you're awesome.  I never took the time to learn regex, finally just got around to it.  Thank you for the help.  Here is what I did:  import re  exampleString = ''' Jessica is 15 years old, and Daniel is 27 years old. Edward is 97, and his grandfather, Oscar is 102. '''  people = re.findall(r""([A-Z][a-z]+)[a-z\s]*(\d{1,3})"", exampleString) people_dict = {name: age for name, age in people} print(people_dict)",True
+@Guinhulol,2016-06-01T18:44:46Z,0,"I am sold, subscribed!  print('You just save my live!!')",True
+@alexanderstorozhenko4435,2016-05-31T18:20:59Z,0,I am not really sure what parsing is .Can you please explain that. thanks,True
+@HotPickle_,2016-05-28T18:53:16Z,33,"At 5:43 when you added that colon for consistency's sake, I knew you  I should subscribe.",True
+@rohitchawla2777,2016-05-22T18:15:29Z,0,"Hey, its great to see your videos. I was trying to print all the strings which contain [aeiourstln] and one more letter in any order. Could you please help me in 're' expression for the same. Thanks",True
+@RealMcDudu,2016-05-07T18:22:09Z,0,Awesome video man - thanks a lot!,True
+@oliverli9630,2016-05-02T08:55:18Z,0,"i like your sentdex a lot, and im planning to use it when i get my hands on the US stock market, so when i heard the age always follows the name (14:00), i want to suggest you to improve.   What about  ""The 35-year-old Jack is a Pythoner.""?",True
+@PETAJOULE543,2016-05-01T09:50:14Z,0,how grandfather can be 5 year older?,True
+@gyan2664,2016-04-26T13:32:31Z,0,u r superb best source to learn python,True
+@Patronesofly,2016-04-22T23:32:43Z,0,Smart dude!,True
+@alan6506305,2016-04-12T07:20:06Z,0,"after searching and learning python for several months now, you are so far the best teacher, thanks so much.",True
+@santosh4471,2016-04-11T20:22:04Z,0,"You literally make my programming experience much easier. Sentdex, can you please do a tutorial on sqalchemy ? No matter how many books I read or documentations, I have never been able to understand that thing. Youtube doesn't have good tutorials on that either. I would really appreciate if you could help us learn sqalchemy.",True
+@jushkunjuret4386,2016-04-06T19:24:20Z,0,"Thank you so much, it's so helpful!!!",True
+@MrMuzhar,2016-03-22T18:20:19Z,0,"AttributeError: 'module' object has no attribute 'urlopen' i am running winxp on VM and using python 2.7.1.1 , urllib3 i i have used both import urllib3 and and import urllib3.request both are not working ANY SOLUTION MASTER ??????",True
+@zacontraption,2016-03-22T04:02:13Z,0,Great videos. +1 subscription,True
+@dustin_echoes,2016-03-20T11:45:29Z,0,I am so glad I found your channel. Very helpful.,True
+@soldadopreciso,2016-03-11T22:23:47Z,3,"thank you ,greetings from Guayaquil,Ecuador",True
+@Auceza,2016-03-08T14:40:44Z,91,"13:42 ""Edward is 97, and his grandfather, Oscar, is 102."" Really? Can't believe that. :D",True
+@vatekehcorlon867,2016-02-23T20:00:57Z,20,you r the best YouTuber for python. subscribe,True
+@HokkaidoWolf333,2015-12-30T07:00:15Z,1,"Nice video, helps a lot :)",True
+@hentetiahmed998,2015-12-22T03:02:58Z,0,Thanks,True
+@MateuszTrocha,2015-12-08T03:37:28Z,0,Great thanks to you! Now I might pass my coursework.,True
+@kristianbronilmadriaga5144,2015-11-29T02:24:41Z,1,Massive thank you for this video. I am now enlightened what the hell is going on when I see this line of code.,True
+@unison247,2015-11-27T12:00:33Z,7,Oscar had Edward when he was 5 hahaha!,True
+@Weakbody2,2015-11-17T15:18:33Z,0,"Why is it that when printing ageDict, the names become all jumbled up rather than being the order they were in in names?",True
+@randy4031abc,2015-10-25T03:18:15Z,1,"Man, awesome video.  You're a great communicator.  Thanks a ton.",True
+@latifkhiari6382,2015-09-21T09:35:20Z,1,Great help! thanks,True
+@khaledbook,2015-08-14T02:18:09Z,0,your tutorials are very nice man they are really nice i watching them for the second time now thanks,True
+@ECOMMUSK,2015-08-03T11:19:41Z,0,"Hey this is a great video! In names = re.findall(r'[A-Z][a-z]*',exampleString)     , where would you put the asterik if you wanted a lot of A-Z's as well? Would you just put it like re.findall(r'[A-Z]*[a-z]*', exampleString) ?   And how would you go about selecting certain names but not all of them ?",True
+@feelingeverfine,2015-07-15T05:24:57Z,3,"ageDict = {} for name, age in zip(names, ages):     ageDict[name] = age",True
+@Neceros,2015-07-08T04:13:26Z,1,I can't say how much you've helped me. Thanks again.,True
+@IboHuasca,2015-07-06T21:47:01Z,0,"You are a wizard. I have learned so much programming from you this past year it makes my ears ring. I wish to express a a sincere ""thank you"" for your time and teaching skills. ",True
+@thedoremaq,2015-03-04T13:08:17Z,0,thank you so much for these man..so helpful.,True
+@Surkrem,2015-02-17T21:19:41Z,236,"I love how no one gives a shit about the fact that Edward, at the age of 97, has a 102-year-old grandfather.",True
+@roadrunner9622,2015-02-14T06:42:31Z,0,Sound is too low but great tutorial. Very helpful. ,True
+@woodygar,2015-02-01T16:44:56Z,0,"old = re.findall(r'\s[a-z][^o][$d]',exampleString) im trying to find a word that begins with a letter 'o' and ends with 'd' doesn't work how to make sure it checks both values rather than just one ",True
+@RayChancho,2015-01-10T04:25:55Z,1,"Hey sentdex, thank you so much, your channel is great, I've been following your videos and are so helpful, I'm doing this tutorial whit Python 3.4.2 and this particular exercise gives me an error  TypeError: 'str' object is not callable  in the line:  ages = re.findall(r'\d{1,3}', exampleString)  I solve it: 'ages = re.findall('\d{1,3}', exampleString)  skiping the 'r'",True
+@Funken123,2014-11-21T09:15:55Z,0,"Hello,  when i type: names = re.findall(r'[A-Z] [a-z]*', exampleString) print(names) The programm only print [] But the command with ages works :/ where is the fail?",True
+@setashadehas8941,2014-09-27T07:57:32Z,0,Your videos about python is so cool im waching and nowe im like that python programming so simple and so powerfull languages i think is beter than java :) mai main is java but nove i think i change to python PYTHON is COOL Languages for all programmers in all Jobs to done from web to app for all os systems :),True
+@GonsalvoDeCordova,2014-08-01T17:11:42Z,0,Incredible.  Thanks.  I'm actually able to use my hard-won *nix scripting background here = sed+awk+grep FTW.  ;^),True
+@sonic2kk,2014-07-22T14:59:45Z,0,"I was so excited for this tutorial! :D Regex would have been so useful to me a while ago, but I kinda forgot about it... I had to use some fancy string methods to split parts of a string and parse it myself. It was longer than regex would have been, but I think that it would have been _cleaner_ in a way. Maybe it's because I'm kinda new to it, but regex looks really ugly and messy, but it gets the job done I suppose. I also didn't know that the escape characters were actually regex! That's awesome though!  In your loop, you could say this to save yourself having to make a temporary variable for the index:  # ... for i, eachName in enumerate(list_name):     ageDict[eachName] = ages[i] # ...  I actually only recently found out about the enumerate built in function from a Python talk I believe it was. It's a good way to loop through a list and get the index too, but I'm sure there's an even shorter way to do it.  I'm mainly interested in regex because of Django. In my Django URL, I have the following line: r'^(?P<pk>\d+)$ I'm just going by what I remember from the video, but what I understand is:  r'^ - That's going to match a regular expression starting from the start of a string  (?P<pk> - I'm not sure what this does. I'm not sure what the parentheses mean either, but I know the question mark means 0 or more, so it's trying to match 0 or more of whatever P<pk> is I think.  \d+ - This will match 1 or more numbers.  This URL is for my blog, and it's for the post. So this matches a URL for the blog post ID. I'm not sure where ""P<pk>"" comes from or what it means though. I suppose I don't _need_ to understand this, because it works, but I like to understand what my code does so I can debug it better for future projects, understand more about regex and Django, and so I can actually know what it does.  I see on the website that you're planning a Tkinter part of this series. I'm really excited for that too! Your videos are awesome, and I hope you keep them coming :D Have a great day!",True
+@silverrick4186,2014-07-21T08:43:30Z,3,i like how when i watch your videos its like it unlocks a new possibility for me. im finding learning to code to be kinda like learn how to make a word and each new thing i learn i can add more complexity to it.,True
+@russici,2014-07-21T03:25:24Z,29,"Thanks for the tutorial! Another way to create a dictionary out of two lists is to use dict() and zip(). For example, d = dict(zip(list_1, list_2)). Keep posting your tutorials!",True
+@Minecraft-mh5xh,2014-07-20T21:47:29Z,0,FIRST,True

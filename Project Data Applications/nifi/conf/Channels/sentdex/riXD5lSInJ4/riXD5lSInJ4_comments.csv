@@ -1,0 +1,75 @@
+author,updated_at,like_count,text,public
+@IMRANSHAIKH-ru3mn,2021-04-25T07:49:35Z,0,thanks sentdex,True
+@alexanderernst,2021-02-27T15:59:56Z,1,"If you when you are adding the new path to urls.py for ""register"" and get an error... Make sure to add the comma after the previous path. ;) NOT TODAY PYTHON!  urlpatterns = [ 	path("""", views.homepage, name=""homepage""), 	path(""register"", views.register, name=""register"") ]  (I am on Django 3.)",True
+@amyd1957,2021-02-20T03:56:11Z,0,"Really love your tutorials and the fun mugs! For those of you running into errors when trying to register, I had to stop my server and run it again to get the register button to work. The error message that popped up said that the passwords mismatched but that was not the case.",True
+@snehil9735,2020-11-26T10:51:53Z,0,"Thanks for this great series ,  I  just had to point out that in text-based version , in 'mysite/main/urls.py' section , there is a misprint  'path(""/register"", views.register, name=""register""),  '  , though it is printed correct in 'full file' section  just below it.",True
+@bhavanibalegar5915,2020-09-23T07:14:41Z,0,"hyy actually i m getting error at register thingy...its not returning to home page and not getting registered. i m getting error like.. i.e-Page not found (404) like current path is not matching!!..how to get over this",True
+@PrashantTiwariShankar,2020-08-27T17:14:15Z,0,"In homepage and navbarl,  how can {{ user.username }} exist, is user variable always there the whole time ?",True
+@KevinTempelx,2020-07-24T23:50:52Z,0,Thank you!,True
+@divyanshrai4138,2020-07-24T15:53:44Z,0,"At 11:15. might be because I'm using django 3.0, but it doesn't let me get away with just ""register"". I've to use ""register/"".",True
+@angshumanbarman4525,2020-07-15T17:54:35Z,0,Hey Sentdex! I've been not able to redirect the form to the homepage and have been facing trouble in registering. Upto the registration point it was all right! But now I cannot create new user.,True
+@eziox9192,2020-07-10T18:02:25Z,0,Thanks,True
+@yukeshnepal4885,2020-06-22T02:20:02Z,0,What if we want to use our own form instead of django built-in form?  How to pass our own form to views.py file and validate it?,True
+@devnirwal6888,2020-05-08T11:14:50Z,0,"Page not found (404) Request Method:	GET Request URL:	http://127.0.0.1:8000/register.html/  got an error plz help",True
+@aaronbaron6468,2020-05-04T12:52:10Z,1,"Part 6? Well I gotta beat up a prison pastor because he loves a fashionista vampire and is gonna reset the universe by using his stairway to heaven, yare yare dawa",True
+@prateekgurjar1651,2020-04-22T06:33:54Z,1,What are Dunders ?,True
+@prageshyadav1587,2020-04-07T05:15:50Z,0,"i am stuck in User registration. I am using django 3.0.5 and i got error  ""the two password fields didn't match"" when login in registration page. please help",True
+@chronicsnail6675,2020-04-06T13:19:11Z,5,"this was my 3rd go at django and i gotton to part 6, i learned so much!",True
+@Aakash-pk5wx,2020-03-24T05:12:00Z,2,"whenever I hit register in my site(that i created by following the tutorial) nothing happens, I have even checked the text based version but I don't see any sort of error in my file .  Help please !!!!!!",True
+@nateb7722,2020-01-31T00:45:51Z,0,"anyone else having an issue with the redirect to ""main:homepage"" ? mine is not working",True
+@williambrandon5146,2020-01-21T10:48:10Z,0,"mine insists that the path has to be  *path(""register.html/"", views.register, name=""register""),*  though the code is the same!!! weird!!",True
+@pickprogramming4206,2020-01-21T09:52:55Z,0,is that M4/M16 behind you is original?,True
+@vishalsuthar8333,2019-11-14T22:11:17Z,1,you got awesome mugs...,True
+@James-ms1su,2019-10-13T19:34:52Z,0,Where can I get your giant batman mug?,True
+@utkarshmadaan8699,2019-09-15T10:53:34Z,2,When i click on register nothing happens please help,True
+@muzammilrazasoomro906,2019-09-09T08:23:12Z,0,"TemplateDoesNotExist at / main/home.html",True
+@ramkishore9727,2019-09-03T09:03:38Z,2,after providing username and password while im trying to register the button is not working. could someone provide me the solution..?,True
+@esteban7663,2019-07-22T03:13:51Z,0,Dude you're the goat,True
+@sausthava,2019-07-01T14:52:52Z,4,Love your mug collection,True
+@kaibrown7214,2019-06-26T21:58:05Z,0,"Hey Sentdex! Your tutorials are genuinely awesome. Concise and clear. Anyways, I would love to use the default registration form, but it is has none of the styling that yours does in the video, it is just plain text. Do you know why this might be?   Thanks",True
+@jondyason336,2019-06-23T15:52:10Z,0,thanks!,True
+@vaastavmishra2035,2019-05-20T20:11:09Z,0,"Hello sir when i register the username and password then it doesnt redirect it to the home page please help.   Here's my code: from django.shortcuts import render, redirect from django.http import HttpResponse from .models import memes from django.contrib.auth.forms import UserCreationForm from django.contrib.auth import login, logout, authenticate  def homepage(request):     return render(request=request,                   template_name=""main/home.html"",                   context={""memes"": memes.objects.all})   def register(request):     if request.method =='POST':         form =UserCreationForm(request.POST)      if form.is_valid():       user =  form.save()       username = form.cleaned_data.get('username')       login(request, user)       return redirect('main:homepage')         else:       for msg in form.error_messages:           print(form.error_messages[msg])    form = UserCreationForm   return render(request,              'main/register.html',              {'form':form})",True
+@aryan7880,2019-05-17T11:46:50Z,0,you know you need to change that form style and that's not simple I believe like changing some codes and done also that form looks like trash please make a tutorial about changing form's style,True
+@randiaz95,2019-04-09T19:03:10Z,1,Hey Harri! I was wondering what I should do if I want to use react for front end for my django app and how I should handle this authentication?,True
+@anakinskywalkerrr,2019-04-07T06:48:37Z,11,anyone thinks he looks like Edward Snowden,True
+@Hassole,2019-04-03T10:33:52Z,0,"No redirect fix: I had this in my code for the form render, context={'form': form}). The redirect was not working. I then changed the single quotes around form to double quotes and it worked. I will use double quotes going forward for everything. Can anyone tell me why django doesn't like single quotes for encasing strings?",True
+@opopov6859,2019-03-23T22:22:00Z,1,WTF? FBV? Everyone use CBV.,True
+@mkanalysis,2019-02-23T17:55:05Z,2,"My password is long enough more than 8 charterers, and both passwords are the same but I keep getting password_mismatch error , also the code is the same as the video above, what could cause this?",True
+@mkanalysis,2019-02-22T12:52:46Z,8,"you constantly cracks me during your tutorials, what a great teacher!",True
+@andrewmendela9065,2019-02-20T10:22:42Z,1,"19:52 - did i misheard, or this is realy a russian word ""записать""??",True
+@tcpinedo,2019-02-19T20:19:05Z,0,I completely forgot my username and password for the admin account. I how do I redo it?,True
+@dystopia2142,2019-02-19T15:42:33Z,0,You can pronounce 2nd and 3rd letters of  'Piotr'  like 1st syllable in 'Earth' or 'merchandise' (Yo).,True
+@mycreations3452,2019-02-19T07:19:16Z,8,getting password mismatching error even I have the same..! could you fix it..?,True
+@abhavluthra578,2019-02-09T18:39:57Z,0,"Hey, Can we tell how to add more fields to the form like first name, emailId, etc.Thanks",True
+@Himalyanraptor,2019-02-07T02:04:19Z,0,"I am getting "" NoReverseMatch"" exception. Any help will be appreciated.",True
+@sumedhjunghare6398,2019-02-06T06:46:49Z,2,"Question: In def register(request), you created one form as: form = UserCreationForm(request.POST) which on successful submission would be saved and user will be redirected to homepage after logging in. At the end of this function, you created another form = UserCreationForm which will render the template for register with form context. Can't we have both of these things in one form? so that we can address post request along with rendering the template? Thanks",True
+@sunchitlakhanpal,2019-02-05T20:25:45Z,1,"There seems to be a problem when I'm registering a new user , the redirect doesn't work and the user is not registered.",True
+@sumedhjunghare6398,2019-02-04T10:28:50Z,2,Loved the tutorial. Could you please add a tutorial explaining custom user model with social site authentication(login using Google or linkedIn credentials)??? Thanks,True
+@childericsocgnakouyem8302,2019-02-04T09:00:15Z,0,"Hi Stendex. Great video. By the way, there is a Materialize CSS extension for Django named Django-material. Here is the link for his documentation : http://docs.viewflow.io/material_forms.html",True
+@kuqmua755,2019-02-03T18:07:39Z,3,"""The two password fields didn't match"". What i did wrong?",True
+@sebastianheger3329,2019-01-31T21:01:32Z,3,"Hi sentdex,  thanks for this awesome tutorial! I'm watching the whole series and create my own site :)",True
+@Tech_Doctor788,2019-01-30T05:50:03Z,0,You are doing great sir,True
+@regilanj,2019-01-29T18:46:27Z,0,"Nice tutorial man! Need to mention that I am your follower from the beginning of this page :-) I have a doubt to clarify! I am planning to use custom authentication in my webapp. Like I need another column in addition to their email and password. I have an idea to create a model that stores email, password, status columns. When user logins I can verify it with the models data. If it matches, then I can use ""login(request,user)""?",True
+@007hansen,2019-01-29T15:11:38Z,0,"Do graphical visualisations of the files/ you are working on, so the object orientation becomes obvious. Possibly phytomated :^)  Love the show.",True
+@cherryass99,2019-01-29T12:54:27Z,0,"If I unsubscribe your channel, and subscribe back, will I get the shout out on the next video? 😂",True
+@andreykuskov8807,2019-01-29T07:46:09Z,0,"Thanks for the tut. Sentdex, why are you using function based views but not class based ones? Do you plan to mention this approach in future videos? Its pros and cons...",True
+@Anshul42,2019-01-29T06:21:04Z,0,Awesome tutorials. Thanks for the update version. I'd like to make a request if you could make a tutorial on MULTIPLE DATABASE ROUTERS. Its an awesome feature of Django. But there's not much help available for the same. Your help is appreciated,True
+@anshmishra143,2019-01-29T06:13:40Z,0,does python 3.7.2 support tensorflow now?,True
+@atlasdisease,2019-01-29T00:18:38Z,0,Sentdex You should do a series about XInput and Pygame so you can use Xbox controllers with Pygame.,True
+@nathanwhittle1,2019-01-28T21:22:58Z,11,"Sentdex- I'm glad to see you updating your Django series! I used your old series to jumpstart my learning of Django, and have since taken off in my own direction, so I wanted to thank you for giving me that start!  Now that you're taking another pass at Django, I wanted to share one of the habits I've formed since I experienced your series. There are a lot of strategies to organizing a django app well, and over time I have found that this cookiecutter build for creating a blank app is a fantastic way to start things off- https://github.com/pydanny/cookiecutter-django. While it can be a bit overwhelming for (absolute) beginners, it saves lots of time for setting up deployment to Heroku, PythonAnywhere, etc. and sets up a new app in certain ways which form extremely good long-term habits- like for example separating your config into base, local, and production. It also pre-configures and sets up certain third-party libraries which I find I usually will end up using anyway. I find that it helped me build good habits that make for clean and well organized apps, and I wish I had found it sooner before I had to learn my way out of bad habits. Sentdex- if you check it out and find that it is valuable, perhaps you would consider making a video covering its use? I think it would be a great addition to your series (perhaps towards the end once the basics have been introduced). Thanks again for your awesome videos! I don't know where I'd be now if it wasn't for all your helpful content :)",True
+@MakeNjoy,2019-01-28T19:34:43Z,0,"Oh, and later you showed the line 'messages.success(request, f""New account created: {username}"")' in the text-based tutorial but it is only mentioned once and returns an error because the class ""messages"" wasn't defined.",True
+@thatstherecipe,2019-01-28T18:36:43Z,0,"great tutorial dude, thank u",True
+@derbybOyzZ,2019-01-28T18:32:26Z,0,I was thinking if it is possible to do deep learning or whatever on a used car sales website to get the best deal. Could even use bots to haggle.,True
+@kubasachajko8216,2019-01-28T18:21:04Z,1,Best tutorials on youtube ! I can learn a lot thanks for your effort :3 !!1!,True
+@VishalMishra-jb8hs,2019-01-28T17:58:37Z,1,I've waited for so long for this. Was slowly getting depression :/,True
+@rajatsharma6597,2019-01-28T17:28:07Z,3,Hey sentdex thanks for amazing tutorials . Please make tutorials on how to build  eCommerce website using django,True
+@beingmusicholic2353,2019-01-28T17:26:55Z,0,Hey! Please add tutorial on custom user registration model and to upload pdf files in that too,True
+@snakegirl4848,2019-01-28T17:18:53Z,0,where can I find the previous video ?,True
+@MakeNjoy,2019-01-28T16:38:23Z,2,"I think there's a mistake on the text-based version. There is a point where you write ""form = NewUserForm(request.POST)"" when you later wrote ""form = UserCreationForm(request.POST)""",True
+@thejavascriptshow3754,2019-01-28T16:25:31Z,2,"Precise and fun as always, you've been such an inspiration for me and for my channel, looking forward to making such good content :) .",True
+@devgupta9469,2019-01-28T15:49:18Z,0,Can you create a latest series with flask as backend and javascript as frontend ?,True
+@akshaygupta112,2019-01-28T15:36:15Z,0,"I have been following your videos for quite some time , I'm interested in knowing your source of knowledge , where did you learn all this from.",True
+@Thesrik23,2019-01-28T15:31:06Z,0,"Hey sentdex, Create a video on making custom user model using AbstractBaseUser",True
+@mahdijafaree5332,2019-01-28T15:30:21Z,7,Thx  I was waiting for 2 days😅🤚,True
+@iamPanchsheel,2019-01-28T15:26:51Z,1,Hey buddy... I have a question! Can i make a personal web server Website for my raspberry to host and manage files and hosting?,True
+@FlorianLinscheid,2019-01-26T22:06:41Z,0,I wasn't as lucky as you 🙈 I forgot my carelessly chosen admin password. What I gotta do now? 😅,True

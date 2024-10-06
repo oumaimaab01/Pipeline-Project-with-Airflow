@@ -1,0 +1,39 @@
+author,updated_at,like_count,text,public
+@user-lh1ox1sk7g,2023-07-14T06:08:46Z,0,"def modify_numbers(arr):     modified_arr = []     for num in arr:         num_str = str(num)         for i in range(len(num_str) - 1):             if num_str[i] > num_str[i + 1]:                 modified_arr.append(int(num_str[:i] + num_str[i + 1] + num_str[i] + num_str[i + 2:]))                 break         else:             modified_arr.append(num)          return modified_arr   # Example usage arr = [5555, 4444, 3333, 2222, 1111] modified_arr = modify_numbers(arr) print(modified_arr)",True
+@ajay_kumar_a,2023-02-13T04:48:29Z,1,"numbers = ['1095', '1094', '1097', '1092']  ranges = [1, 0, 0, 0]  for i in range(len(numbers)):     n = numbers[i]     for j in range(1, len(n)):         if(ranges[j]<int(n[j])):             n = n[:j] + str(ranges[j]) +n[j+1:]             ranges[j]+=1             numbers[i] = n             break  print(numbers)  this code is just works for this given input but if u change the numbers it may not work well",True
+@sunilkale6199,2021-12-23T15:43:26Z,0,"Hello Sir, Need this problem in Java8, didn't understand python for me. Please.",True
+@hemanthharikrishnan3051,2021-07-09T06:39:25Z,1,"Is this logic valid  def digitcount(n):          count = 0     while n != 0:         n //= 10         count += 1     return count def lastdigit(n):     k=digitcount(n)     j=n//(10**(k-1))     return j      def checker(arr):     i=0     while(i<len(arr)-1):         if arr[i]>arr[i+1]:             nc=digitcount(arr[i])             arr[i]-=(i+1)*(10**(nc-1))                     else:             i+=1     print(arr) arr=[ 5555,4444,7777,6666] checker(arr)",True
+@toathtraveller7795,2021-02-22T15:34:15Z,0,Happy Holi !,True
+@kakhil1843,2021-01-13T15:30:45Z,0,To arrange exercise after complete the course. This is my request,True
+@kushalhu7189,2020-12-21T19:40:08Z,0,Great Work Sir...,True
+@tejasjivarak4024,2020-06-29T08:00:39Z,1,"Bro, please upload the all Data structures and Algo videos..",True
+@adiflorense1477,2020-06-12T11:37:18Z,0,"sir, what's on your forehead",True
+@nileshsuryavanshi8792,2020-04-05T07:27:52Z,0,Not able to understand.,True
+@sashpatra88,2020-03-19T13:16:09Z,0,"Hi ,   I tried doing the same program but am getting error in output . Can anyone help me to resolve this ?   My github url : https://github.com/sasmitapatraraut/Competitive-Programming-practice/blob/master/Prob%20st%201-%20Ascending%20array%20with%204%20digits.ipynb",True
+@abhaysharma3171,2020-03-15T09:42:04Z,0,"Sir please confirm me what is prev or cur value in def getbest(prev, cur).. Or somone can rply??",True
+@SDETAcademy1,2020-03-12T00:25:36Z,0,use ordered set or hashing,True
+@tejasgosavi7395,2020-03-11T19:01:10Z,5,"Awesome video sir keep uploading videos like this my code def convert(n,pre):     for i in range(1000,9999):         count=0         a=int(i)         b=int(n)         for j in range(0,4):             if a%10!=b%10:                 count+=1             a=a//10             b=b//10         if count<=1 and pre<i:             return(i) l=[x for x in input().split()] ans=[] for i in range(len(l)):     if i!=0:         ans.append(convert(l[i],ans[i-1]))     else:         ans.append(convert(l[i],0)) print(ans)",True
+@ashutoshnagaria7559,2020-03-11T11:32:34Z,0,"this is some great work sir Please make more videos on ""the Competitive Programming Series""   Also, a Whatsapp or Telegram group would be great!",True
+@abrahammathew9783,2020-03-11T06:43:32Z,0,"Hi Krish, Thanks for data structure series.I tweaked the code by replacing with ""if (cnt <= 1 and i > prev and i != cur) : "" for a bit change and have o/p in ascending order. Works for 1000 series. Could you confirm my assumption is correct.",True
+@aravindravikumar5065,2020-03-11T06:32:43Z,0,Thank you very much sir ....... I have been waiting for this playlist.,True
+@abhilashatutube,2020-03-11T06:15:11Z,0,"Hi Krish, I was trying to solve this problem for all possible datasets. However, it looks like this solution may not work for multiple datasets like for example, if I use the following data set: arr = [i for i in range (9999,9965,-1)]; and keep increasing the range by decreasing the second value in the range (9965), the solution would not work for any of these datasets. So would this solution be accepted by the interviewer? Also, do they really expect us to completely solve such problems during the interview? Thanks,",True
+@MohitGupta-sz2cv,2020-03-11T05:51:52Z,1,Never thought that it would be that simple to solve.,True
+@mohdkashanchaudhary2387,2020-03-11T03:41:17Z,1,you will go far sir,True
+@abhisheksikarwar7457,2020-03-11T03:31:30Z,1,"sir, can you review about Datacamp it is worthwhile to takes courses from it.",True
+@abhishek-shrm,2020-03-11T02:38:48Z,5,It is great watching you on Holi too! Hats off to you and your dedication. Keep this up.,True
+@roshandhanai7654,2020-03-11T02:34:05Z,1,Happy Holi !,True
+@tarunsharma8366,2020-03-10T22:53:17Z,1,Sir can you make a complete course for beginers from non it background who do not have coding background and want to learn dat science ?,True
+@kirathsingh6612,2020-03-10T22:20:50Z,0,"You suck, the most inefficient code I have ever seen. If you don’t know competitive programming, don’t do it , don’t make a fool of the people watching you. Even a college student in year 2 can come up with a more efficient solution than yours . Don’t mean to discourage you, but if you don’t know something, you should first become a master in that topic and then teach others",True
+@sumanmondal2152,2020-03-10T20:36:24Z,4,Awesome explanation sir. & Plz  continue Deep Learning playlist. Waiting for LSTM video.,True
+@sumitsaha3714,2020-03-10T19:12:23Z,0,"Hi Krish, I think this solution is not working for i/p : [1001,1003,1001]. Could you please check my solution once: https://github.com/Sumitsaha123/Competative-Code/blob/master/Test_code.py",True
+@elsonpaul9818,2020-03-10T18:19:04Z,1,Hi sir it will be difficult for me to understand these kinds of problem because i didnt have enough knowldge in pyhton but i  really interested  to solve these  kind of problems . Can you give me some tips to solve these kinds of problems on my own.,True
+@abrahammathew9783,2020-03-10T18:14:47Z,2,Happy Holi Krish :),True
+@Bhanusri2711,2020-03-10T18:14:32Z,2,"You are just awesome sir,,I gained so much of technical knowledge from ur videos thanks a lot sir......",True
+@satyamtiwari6295,2020-03-10T17:48:02Z,1,Hppy holi sir,True
+@praneethcj6544,2020-03-10T17:45:16Z,1,Happy holi krish.. May God bless you...!!!,True
+@shivanandprasad2611,2020-03-10T17:44:42Z,5,"Sir, please upload more videos on Deep learning. I want to be more skillful upon this. Please upload as soon as possible and cover all the concepts.",True
+@vinodkumarreddy7696,2020-03-10T17:42:43Z,1,Happy holi sir,True
+@trendingshorts3501,2020-03-10T17:36:49Z,2,Sir I m in school Sir i want to become a data sciencetist Sir plss make a video for school students 🙏🙏🙏🙏🙏🙏🙏,True
+@iNeuroniNtelligence,2020-03-10T17:34:51Z,6,Happy holi Krish ..keep rocking,True
+@anubhavbhardwaj4041,2020-03-10T17:32:52Z,2,Ye dedication,True
+@deepcontractor6968,2020-03-10T17:32:29Z,3,Happy Holi !!!,True

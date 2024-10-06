@@ -1,0 +1,75 @@
+author,updated_at,like_count,text,public
+@dinushachathuranga7657,2024-02-25T14:11:02Z,0,Bunch of thanks for the clear explanation❤,True
+@salihsartepe2614,2023-11-13T12:26:00Z,0,Thanks Krish 😊,True
+@singhmanavop,2023-10-12T13:14:24Z,1,"🎯 Key Takeaways for quick navigation:  00:00 📚 Introduction to Feature Selection - Feature selection is essential in data science projects to handle high-dimensional data. - Curse of dimensionality can affect model performance, making feature selection crucial. - This tutorial focuses on dropping constant features as a feature selection technique. 02:20 📊 Identifying Constant Features - Demonstrates how to identify constant features in a dataset. - Uses the variance threshold technique from scikit-learn to find features with zero variance. - Explains that constant features are not valuable for machine learning models. 04:12 🚮 Removing Constant Features - Shows how to remove constant features using the variance threshold class. - Discusses the threshold parameter and its significance in dropping constant features. - Highlights that constant features are not important for model training. 09:11 🧪 Applying Variance Threshold on a Real Dataset - Applies the variance threshold technique to a real-world dataset. - Demonstrates the importance of dividing data into independent and dependent features. - Shows how to use variance threshold to identify and remove constant features in a larger dataset.",True
+@PhamDuc8504,2023-09-18T15:59:09Z,0,Thank You !!!,True
+@ThisWeekinAnalytics,2023-09-03T22:34:04Z,0,"This is a wonderful video, curious if there is one based on overfitting?",True
+@manishpandor2041,2023-08-03T12:35:58Z,0,"2:56 little correction  , it will remove x or any feature whose variance less  is than x , but  not only feature with  x variance",True
+@user-fb3dp4bz8v,2023-07-21T05:42:55Z,0,"very well explaind am grateful, but how to apply the transform for the test data set ?",True
+@omarsalam7586,2023-05-07T18:05:30Z,0,thank you,True
+@m0tivati0n71,2023-03-15T15:31:43Z,0,"Thank you, this was clearly explained and I like that it has practical examples (simple and complex)",True
+@tusharikajoshi8410,2023-01-03T11:51:00Z,0,"we can not use this method on dataset having categorical data, can we?",True
+@ridoychandraray2413,2022-12-26T14:35:30Z,0,A small variance indicates that the data points tend to be very close to the mean  And high variance  indicates that the data points very spread out from the mean .So bro why we removing small variables in this technique?,True
+@ridoychandraray2413,2022-12-25T10:52:11Z,0,Plz make videos about feature extraction,True
+@abhaysota867,2022-10-20T03:05:25Z,2,"Just a doubt , if I select the variance to be 0.1, then will it remove the columns whose variance is exactly 0.1 or will it also remove the columns whose variance is less than 0.1",True
+@rohanshetty6347,2022-09-02T09:45:01Z,0,"you're doing a great job sir, thankyou",True
+@trashantrathore4995,2022-07-03T19:07:52Z,0,"Is it fine if i do instead of fitting only X_train , i did fit_tranform(X) on whole of X then by it i get the transformed Data so no need for using get_support() and doing list comprehensions, is this approach Correct as i do not require values from .fit().",True
+@joveriarubaab4805,2022-07-02T10:58:19Z,0,Very nice,True
+@killerdrama5521,2022-06-15T09:54:05Z,0,What if we have some features numerical and some features are categorical against categorical output .. which feature section method will be helpful,True
+@saravanajogan1221,2022-05-30T01:19:00Z,0,Please someone tell. What is the best value for threshold?,True
+@soumodeepsen3448,2022-05-03T09:06:43Z,0,"I appreciate your tutorial. It is a very well structured and information rich tutorial, no doubt. I really liked all the explanations. I would like to add that 'data[data.columns[~var_thres.get_support()]]' gives the same result as the constant_columns :)",True
+@nilofera2009,2022-04-18T05:58:47Z,0,"Hello sir, Can you please upload a video for "" Feature Selection using BAT Algorithm"".",True
+@ajaykushwaha-je6mw,2022-03-27T15:52:39Z,0,"Hi Friend what krish has taught is very nice, there is one more way you can do it.  !pip install klib import klib df2 = klib.data_cleaning(df1)",True
+@yoyoyoyo1727,2022-02-17T09:22:23Z,0,Hey krish can we remove quasi features before splitting??,True
+@drumilbhalani7614,2021-12-15T05:59:03Z,2,"Can anyone tell me why we should apply VarianceThresold to X_train only , why not on X_test also ?",True
+@shivarajnavalba5042,2021-09-16T19:51:11Z,0,"Thanks for the video,",True
+@shivangiexclusive123,2021-08-01T17:09:21Z,1,hi krish why r u doing train test split when we have test set available in data set?,True
+@sagarkhande4412,2021-07-23T04:08:26Z,0,sir can we use this method after doing one hot encoding on the features?,True
+@debatradas1597,2021-07-21T15:01:08Z,0,Thanks,True
+@ajaykushwaha-je6mw,2021-07-21T10:26:57Z,0,you may also try below code to drop constant features from X_test and X_train  X_train = obj.transform(X_train) X_test = obj.transform(X_test),True
+@Ankitkumar-qh6tx,2021-06-24T10:38:17Z,0,Great videos. We can simplify the code of getting filtered col. after threshold. Here is my code data= data[data.columns[var_thres.get_support()]]. Is this correct ?,True
+@deepanshukumar7290,2021-06-22T10:08:09Z,0,target kya cheez hai,True
+@jatingupta4026,2021-06-22T05:13:34Z,0,train_test_split() got an unexpected keyword argument 'x' sir im getting this error,True
+@abiralaashish8798,2021-06-17T03:40:44Z,2,Should we drop the features having low variance from test dataset as well?,True
+@mdmynuddin1888,2021-06-10T19:07:51Z,0,Well xplained  . 12 videos????,True
+@rambaldotra2221,2021-05-27T19:44:23Z,0,Awesome Thanks Sir.,True
+@srinagabtechabs,2021-05-16T11:12:33Z,0,neatly arranged play list for all topics.. superb.. thank u for ur effort,True
+@nayansarma840,2021-05-15T07:25:52Z,0,"Nice Video Kris. One query, if we choose the threshold bigger than 0, say 0.10 should we not normalize the data first ? Asking because variance depends on Range of values in the columns and sometimes there could be a very useful feature with small range of values thus having low variance.",True
+@dityatheprincess,2021-04-01T18:05:14Z,0,From where download that file housing_data,True
+@harshdwivedi7102,2021-02-26T11:24:23Z,0,@Krish Shouldn't we scale the data before applying Variance Threshold ?,True
+@dhanushsuryavamshi4279,2021-02-10T05:02:54Z,2,"Thanks for this tutorial. Just one concern,  By doing train-test split before checking for variance, won't we face the risk of getting false results? I mean the field we're dropping in x_train might have few values which is now in X_test but while building the model we dropped that field. So how can we take care of this?",True
+@chinmaybhat9636,2021-02-09T14:30:46Z,0,"@Krish Naik Sir i have one doubt, that is as per the Sklearn documentation this technique is used for Unsupervised learning but how come you have used on  supervised learning technique containing dataset in this video ??  Thanks & Regards, CHINMAY N BHAT",True
+@akanshabhandari1062,2021-01-21T17:31:44Z,1,Upload more video on this data selection topics,True
+@natsudragoneel8752,2021-01-21T06:05:43Z,1,But the threshold variance only works for numerical values right? Then what of we have object type also? Do we write our own func for threshold?,True
+@ronylpatil,2021-01-10T15:30:50Z,0,Nice explanation sir. Please upload more videos as soon as possible and  these is most awaited playlist.,True
+@pratikbhansali4086,2020-12-07T08:23:46Z,0,Pls go through your every Playlist and try to check which and all topics are missing under certain Playlist and first try to complete all those remaining videos in every Playlist then come up with any another thing,True
+@pratikbhansali4086,2020-12-07T08:22:48Z,0,Pls upload remaining videos on feature selection techniques,True
+@rtr.shubhamgrover1280,2020-11-06T11:59:42Z,0,it is same as taking 4 assumption before applying any ML algo?? that homosdeasctisity and all are taken care?,True
+@omarfruman3685,2020-11-04T04:21:20Z,0,Sir Please  upload further video ......... thanks,True
+@omarfruman3685,2020-11-04T04:21:13Z,0,Sir Please  upload further video ......... thanks,True
+@surbhiagrawal3951,2020-11-02T22:43:21Z,2,"X_train=X_train.iloc[:,var_thres.get_support(indices=True)]   is also another way to drop all zero variance columns, this way list comprehension , loop and drop function will not be required.",True
+@harshithbangera7905,2020-10-29T10:13:53Z,0,Thanks brother ...i was searching for this topic like anything,True
+@biswajitsahoo1542,2020-10-22T15:02:09Z,2,"Hi Krish, Thanks a lot for such a nice tutorial on Feature selecction. One request from my side: Could you please create a tutorial for GIT-Hub. It would be highly helpful for us. Though we know very few things but there are many things to do which would be highly impactful.",True
+@nikunjgarg4791,2020-10-06T03:43:57Z,1,What should be done with test dataset,True
+@pythonenthusiast9292,2020-10-03T13:27:38Z,0,How is this different from the 4-5 live videos (1hr+ length each) you did about 1-2 months ago? Or are they almost same?,True
+@bijayalaxmisahoo4195,2020-10-03T07:09:31Z,0,can anybody help me how to download the dataset santander.csv.Trying to download but unable to do so.,True
+@susovandey1875,2020-10-02T11:25:18Z,0,Hii...your  discord server link says invalid...can you please send the link one more time. Thanks,True
+@yogendrakishorverma2750,2020-10-02T10:11:50Z,1,"Sir pls make and upload videos on Transforms and BERT with practical implementation , waiting for it ............",True
+@shaminyeasarapon7177,2020-10-01T16:45:12Z,2,"Upload more soon, please!",True
+@sreyasg1565,2020-10-01T05:51:06Z,1,"Hi Krish , request you to make videos on already designed hypothesis experiment like ks test",True
+@anjuappachan1067,2020-09-30T13:58:27Z,2,"Please make a video about model monitoring after deployment  , concept drift  and data drift.",True
+@iEntertainmentFunShorts,2020-09-30T13:55:12Z,2,"First of all Great initiative again and thank you so much,🙌 🙋My query is -  it always we need to drop the constant column or zero variace column or it also domain or problem specific may be it a silly query if you have a time Sir please tell me I know you also have more burden of work😊😊",True
+@reachDeepNeuron,2020-09-30T10:41:42Z,1,Would it handle multicollinearity,True
+@sachinborgave8094,2020-09-30T10:07:41Z,1,"Krish, please upload a video on Advanced cnn",True
+@naveenvinayak1088,2020-09-30T09:50:43Z,1,Krish really a nice information.. waiting for upcoming videos,True
+@poojakerkar6129,2020-09-30T09:43:19Z,1,The discord link given in description is not working. Did anyone joined through that link?,True
+@saurabhbarasiya4721,2020-09-30T09:42:59Z,1,Can you complete this series,True
+@ishitachakraborty1362,2020-09-30T07:44:49Z,2,Awesome video,True
+@ehtishamkhan421,2020-09-30T07:35:20Z,4,Keep it coming ✌ great work,True
+@suvedchougule5847,2020-09-30T07:35:01Z,1,MySQL db and mongo db playlist are enough for ML????🤔🤔,True
+@dhristovaddx,2020-09-30T07:11:49Z,5,"Hi, Krish! Do you need to normalize the data before doing Variance Threshold, so that the features would be on the same scale? Also, how do you pick the most appropriate threshold?",True
+@Mathmagician73,2020-09-30T07:08:54Z,9,"Well explained sir , but sir i have one doubt , whenever we working with recommendation system like amazon , in which we have featuree like user rating  , user id , prod id . ... in real world records in rating table is inserted dynamically  , so how to train model dynamically so its gives best output .....u learned us recommendation system in which data is static but how to deal with dynamic dataset",True
+@skvali3810,2020-09-30T06:48:55Z,2,After you left the your job you just going like gold price in india and with quantum internet speed sir,True
+@raneshmitra8156,2020-09-30T06:43:27Z,8,Kris please upload forthcoming videos on interview preparation for one algorithm per video format.... eagerly waiting for that....,True
+@sudharsanb9391,2020-09-30T06:41:38Z,2,Super sir pls upload more videos like this,True
+@erhemantgangwar,2020-09-30T06:40:27Z,2,Great 🙏,True

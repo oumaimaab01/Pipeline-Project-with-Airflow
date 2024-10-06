@@ -1,0 +1,134 @@
+author,updated_at,like_count,text,public
+@usaikiran96,2023-11-22T15:52:18Z,0,"How to decide when to use count vectorizer, or tfidf?  How to decide whether/when to use Stemming or Lemmatization?   Like in this example why didnt you use tfidf instead of bag of words? And why lemmatization was not used instead of stemming?",True
+@billyerickson353,2023-11-22T01:40:05Z,3,"🎯 Key Takeaways for quick navigation:  00:00 📚 *Introduction to Spam Classifier Project* - Creating a spam classifier using natural language processing. - Overview of the dataset from UCI's SMS Spam Collection. - Reading and understanding the dataset structure. 01:47 📂 *Exploring the Dataset and Data Preprocessing* - Explanation of the SMS spam collection dataset. - Reading the dataset using pandas and handling tab-separated values. - Data cleaning and preprocessing steps using regular expressions and NLTK. 05:46 🧹 *Text Cleaning and Preprocessing* - Using regular expressions to remove unnecessary characters. - Lowercasing all words to avoid duplicates. - Tokenizing sentences, removing stop words, and applying stemming. 13:52 🎒Creating *the Bag of Words* - Introduction to bag-of-words representation. - Implementation of count vectorization using sklearn's CountVectorizer. - Selecting the top 5,000 most frequent words as features. 17:27 📊 *Preparing the Output Data* - Converting the categorical labels (ham and spam) into dummy variables. - Finalizing the output data with one column representing the spam category. - Overview of the preprocessed data for training the machine learning model. 21:04 📊 *Data Preparation for Spam Classification* - Data preparation involves creating independent (X) and dependent (Y) features. - Explanation of dummy variable trap in categorical features. - Introduction to the train-test split for model training. 22:30 🛠️ *Addressing Class Imbalance and Train Spam Classifier* - Discussion on class imbalance issue in the data. - Introduction to Naive Bayes classification technique. - Implementation of the Naive Bayes classifier using multinomial Naive Bayes. 24:22 📈 *Evaluating Spam Classifier Performance* - Explanation of the prediction process using the trained model. - Introduction to confusion matrix for model evaluation. - Calculation of accuracy score for the spam classifier (98% accuracy). 27:50 🔄 *Improving Spam Classifier Accuracy* - Suggestions for improving accuracy, including the use of lemmatization. - Mention of addressing class imbalance for better performance. - Recommendation to explore TF-IDF model as an alternative to count vectorization.  Made with HARPA AI",True
+@lifeisbeautiful1111,2023-11-02T03:16:17Z,0,keep up the good work.Thanks,True
+@dushyanthande1556,2023-10-14T10:11:35Z,0,"sir i have tried running the code but the shape of x function and y is not the same so train test split is not working its saying Found input variables with inconsistent numbers of samples: [11144, 5572]",True
+@amruthasankar3453,2023-06-29T07:09:50Z,0,Thankyou sir❤️🔥,True
+@user-rg6og5en2k,2023-05-18T10:21:04Z,0,can't we make this code work in jupyter notebook instead of spyder because i cant really see any output for spyder,True
+@user-tx3mo1ez2n,2023-04-08T07:13:52Z,0,"Dataset was intially unbalanced .  ham     4825 spam     747 Name: class, dtype: int64",True
+@dipakwaghmare1228,2023-01-17T18:27:40Z,0,Sir meri tapshya hi puri ho gae ye apka lecture dekhake ❤️thank you so so so so so much sir ❤️❤️❤️❤️,True
+@monicameduri9692,2022-10-20T04:07:15Z,0,Thanks a lot!,True
+@brianrogalski9370,2022-10-15T04:40:13Z,0,"@20:55, why not just use a label encoder --> from sklearn.preprocessing import LabelEncoder",True
+@dnrkcharan,2022-10-10T07:54:00Z,0,How to make the manual testing whether our model predicts correct or not? can anyone help me please..,True
+@deepakjoshi4699,2022-09-02T10:25:13Z,0,I tried with Tf-IDF but my score is better with bag of words ? is it possible or am I making some mistakes?,True
+@tapabratacse,2022-06-07T16:56:12Z,0,why didnt u use label encoder for terget column spam/ham,True
+@EntertainmentDoseByAkash,2022-06-05T06:13:17Z,0,https://youtu.be/lDVY3TMdZ8g  #Tweet cleanup.,True
+@yonasbabulet3836,2022-05-28T14:46:40Z,0,"i have seen a lot of youtube tutorials , but i cant find tutorial like you which are clear and more precise. keep going.",True
+@juanelnino,2022-05-14T06:27:19Z,1,I have a ERROR it is saying unhashable type of list even if all the steps are same,True
+@pradeepvaranasi,2022-04-15T09:18:39Z,0,Can we just use an if-else condition on the label column to derive the 0-1 (spam-ham) column? What is the purpose of using the get_dummies function for a binary class column?,True
+@shahariarsarkar3433,2022-04-12T19:49:58Z,0,Brother you are making helpful content for us. Can you tell me how to remove the stopwords of other languages like Bangla or Hindi etc?,True
+@AdityaKumar-cr9mc,2022-03-24T13:33:43Z,0,You are simply amazing <3,True
+@PradeepKumar-jh2du,2022-03-15T10:08:32Z,0,When I am running the program error comes  No module named  regex._regex,True
+@aishwaryabhargava6554,2022-02-24T13:21:49Z,0,how can we check the model on user provided input?,True
+@rajarshidgp2003,2022-02-24T09:33:44Z,0,"instead of pd.get_dummies , we can sklearn.preprocessing.LabelEncoder can be used",True
+@studyio8956,2022-02-05T18:21:38Z,0,hi can u send me this code plx,True
+@datascience3008,2022-01-26T14:23:52Z,0,Awesome,True
+@jinks6887,2022-01-06T15:46:14Z,0,You are bhagwaan for me Sir,True
+@gauravpardeshi6056,2021-12-11T06:31:52Z,0,very good video sir...thank you,True
+@sivabalaram4962,2021-12-07T10:53:29Z,0,"You are genius in explanation krish Naik Ji, your the best 👍👌👌👌",True
+@yogeshwarshendye4857,2021-11-20T06:51:03Z,0,How do you deploy sklearn models?,True
+@debatradas1597,2021-11-02T03:55:22Z,0,Thank you so much Krish Sir...!!!,True
+@afaqueumer7968,2021-11-01T12:19:13Z,0,Hello Sir...can you please make video on Topic Analysis - LDA. There isn't any clear cut videos on utube yet like yours.,True
+@praddhumnasoni3364,2021-10-26T17:24:20Z,0,"sir, how to predict on real world text ( means text from gmail or something).",True
+@mohammedsohilshaikh6831,2021-10-26T16:46:35Z,0,"I am so much addicted to his videos, sometimes even forget to like the video.😂",True
+@Anurag_077,2021-07-18T18:30:27Z,0,Wonderful,True
+@AltafAnsari-tf9nl,2021-06-29T20:48:02Z,0,Thank you so much for sharing your knowledge with us,True
+@tarunsubramanian9792,2021-06-24T18:03:39Z,1,TypeError: cannot use a string pattern on a bytes-like object Error shown when line 17-20 is executed..... How do I rectify it.... someone help please,True
+@ManiKandan-ol9gm,2021-06-24T07:53:22Z,0,Really no words to represent you.....lottttttttttts of love sir❤️tq so much sir means alot,True
+@devinpython5555,2021-05-28T11:58:41Z,0,"At time 20.44 I think we should consider ham column  as independent feature Y. Because say first sentences is positive sentence ham=1 spam=0 , if u consider spam column as independent feature it gets  opposit meaning , negative sentence as positive and vise versa. Could someone correct if I'm wrong",True
+@niksvp93,2021-05-21T07:22:27Z,1,The best possible tutorial on Data Science/Machine Learning on YouTube. Cheers to you brother! :D,True
+@mithilbaria8151,2021-05-20T05:43:54Z,0,"Sir, I have used Lemmatization and TFIDF in my code and my accuracy went down to 86%. Should we not use both in the same code?",True
+@premranjan4440,2021-05-18T11:54:05Z,0,We could have used drop_first in get_dummies label instead of iterating the whole array.,True
+@salmankhan-vq7pc,2021-05-11T01:48:31Z,0,Hi nice lecture. I have a dataset with 1.3 million rows. I used your code When I perform bagging of words my Google Collab get crashed. Any solution.,True
+@mandeep8696,2021-05-09T19:43:44Z,0,Thank You Krish for sharing the knowledge.,True
+@suvarnadeore8810,2021-04-20T11:01:40Z,0,Thank you krish sir,True
+@akashr9973,2021-03-27T11:28:16Z,1,"Hi sir, please correct me if I'm wrong. In the line number 30 you are applying the transform function for the whole data , won't it be data leakage?  The transform has to be applied after splitting the data right? Thank you.",True
+@sauravkumar-cw5bm,2021-03-14T19:05:49Z,9,I used Lemmatization and TF-IDF in text preprocessing and got an accuracy score of 0.971.,True
+@dheerajkumar9857,2021-03-14T12:05:24Z,0,"Excellent , very happy to see such type of explanation @Krissh Naik, we will definitely do good.",True
+@ABHINAVARYA,2021-03-13T12:41:11Z,1,Best playlist to learn NLP. Thank you Krish.. 🙂,True
+@farnazfarhand5957,2021-03-05T06:50:29Z,0,"it was so clear and helpful, thank you so much",True
+@hajarhajar8906,2021-02-20T07:45:44Z,0,I truly cannot understand the for loop part for removing the stopwords!!!!!!!,True
+@DhananjayKumar-oh2hh,2021-02-13T17:28:47Z,0,you are really great sir. each and every topic u have explained very well. Hats off to u.,True
+@ghezalahmad,2021-02-09T22:58:54Z,0,JOSE :),True
+@jpssasadara3624,2021-01-03T12:01:30Z,0,nice,True
+@soumyadev100,2020-12-30T12:45:56Z,1,"Hi Krish, good session. I have one comment. For getting test corpus, better practice may be to use transform. Fit transform on train and  only transform test. And train test split to be done before we build corpus. Let me know what you think.",True
+@ashwinbj,2020-12-26T10:43:39Z,0,practically how to check weather the message is spam or ham.? ie how to pass the message in the mode.,True
+@matanakhni,2020-12-18T01:14:20Z,1,"Best NLP videos of all time . A complete gist , mind you not for the faint hearted . Execllent job Krish. Initially ibhad given up NLP completely but now have renewed vigour after such exemplary teaching",True
+@joelkhaung,2020-12-11T07:37:44Z,0,"Can you show how to pickle trained model and use for inference for sample message? Thanks.   When I am inferencing from model, I am getting following error message ""Number of features of the model must match the input. Model n_features is 5000 and input n_features is 9"". I believe that 5000 comes from max_features from CountVectorizer.",True
+@aninditadas832,2020-12-09T11:46:47Z,0,"hello sir, why have we not used lemmatization here? Stemming may or may not give meaningful words but we need meaningful words here right?",True
+@harshshah2916,2020-11-26T09:40:36Z,0,"There are some of the drawbacks to the bag of words model that it assumes the words are independent. The meaning of the sentences is lost and also the structure of the sentence has no importance, so why to use this model ? Is there any other model / classifier which will give good results with text ?",True
+@thunuguntlaruparani2058,2020-11-22T14:57:55Z,0,There wouldn't be a data leakage problem if we use fit_transform on entire data?,True
+@tarung7088,2020-11-13T10:19:05Z,1,"Here the dataset is highly imbalenced (i.e ham : 4825, spam : 747) so got the high accuray",True
+@shreyasb.s3819,2020-10-26T18:55:33Z,0,Thank u so much,True
+@sanketmaheshwari1110,2020-10-08T21:24:38Z,0,"Hello Krish,  https://github.com/Sanket-DataEnt/Natural-Language-Processing/tree/main/SpamClassifier_FlaskApp  Thanks for your videos. I deployed Spam Classifier using Flask App. I tried to learn as per your way i,e first learning the basics and then applying it in real world. I learned flask from basic blogs. Could you please once check and let me know whether it looks fine or not.",True
+@nehasrivastava8927,2020-10-08T04:15:34Z,0,Thanku sir...for the wonderful explanation,True
+@priyasinha2251,2020-10-01T06:46:40Z,41,I am not a girl who generally comments on you tube videos but I am learning from your videos and this is my genuine comment that you are amazing and your concept in data science is very clear and to the point. I am very happy that the teacher like you is present here. Superb job Sir !,True
+@babyyoda5140,2020-09-27T16:30:24Z,0,Boss please also include sentiment analysis and topic modelling to your already wonderful repertoire!,True
+@m.s.1012,2020-09-20T14:46:19Z,0,Dislikers are may be fans of kangana,True
+@indian-inshorts5786,2020-09-12T07:32:14Z,0,Sir u r too good,True
+@yashwanthsrinivas4590,2020-09-09T08:18:16Z,0,"Hello Krish,How can we handle mulitple label classificaton problems?",True
+@navrozlamba6520,2020-08-17T05:08:26Z,11,"I would say to prevent leakage we should split our data before we fit_transform on the corpus. So in other words, we are teaching vocabulary to our model on the whole dataset which defeats the purpose of splitting into train and test after. The whole purpose of the test set is to test our model on unique data that our model has never seen before. Please correct me if I am wrong! Cheers!!",True
+@avinashsingh7698,2020-08-14T08:45:50Z,0,"Sir, can you please make a video on 'Generate paraphrase from the text using NLP'.",True
+@gemrose455,2020-07-23T09:46:51Z,0,"I don't have a dependent variable like ""spam"" in my imported document. How will I train the dataset",True
+@abhishekpurohit3442,2020-07-22T04:07:29Z,0,"Sir, why did we go for Bag of Words and not for TF-IDF? Is TF-IDF only used for sentiment analysis?",True
+@abhishekpurohit3442,2020-07-22T03:49:29Z,1,"Sir, is Deep learning necessary to be learned before coming to this playlist (as I see Keras and LSTM being there in the last videos)??",True
+@connfire9835,2020-07-07T04:38:08Z,0,Can someone tell me if there can be data leakage problem in this. bcz we have done data preprocessing together for train and test data plzz explain,True
+@sanandapodder5027,2020-06-30T03:34:04Z,0,"Thank you very much sir,your videos are really very helpful i am learning NLP from your channel first time . I don't know machine learning thats why facing little problem",True
+@pinkalshah5237,2020-06-25T18:09:09Z,0,With lemmatization and max_features accuracy is 97%,True
+@vinimator,2020-06-24T10:13:56Z,0,"Hi Krish, I am the newest subscriber of your channel and I hope your this video will help me to complete a project of mine own. Thank you so much. Will continue to learn",True
+@ushirranjan6713,2020-06-16T12:31:46Z,0,Its really a fantastic video sir.  Your really explained the many things which can be understand in very easy manner.  Thanks a lots sir!!!,True
+@sandipansarkar9211,2020-06-15T22:03:52Z,1,Thanks Krish .Superb explanation once again.All my concepts about NLP is very crystal clear.I know career in NLP is superb.But can you explain what is its exact value in terms of data science carrer. Please guide and feel free to reply as I am eagerly waiting. Thanks once again.,True
+@yogeshprajapati7107,2020-06-14T14:37:40Z,0,"To predict whether the new message is spam or ham.write this code. df=pd.DataFrame(['this message is a spam'],columns=['message'])  corpus=[]  for i in range(0,len(df)):   review=re.sub('[^a-zA-Z]',' ',df['message'][i])   review=review.lower()   review=review.split()    review=[ps.stem(word) for word in review if word not in stopwords.words('english')]   review=' '.join(review)    corpus.append(review)  df=cv.transform(corpus).toarray()  pred=spam_detect_model.predict(df)  label=pred[0]  if label==1:   print('Spam') else:   print('Ham')",True
+@ashishn.c.7913,2020-06-11T15:43:13Z,2,"I am getting these accuracy values for different combinations: Stemming and CountVectorizer accuracy=98.5650%  Lemmatization and CountVectorizer accuracy=98.29596%  Lemmatization and TfidfVectorizer accuracy=97.9372197309417%  Stemming and TfidfVectorizer accuracy=97.9372197309417%(same as Lemmatization and TfidfVectorizer)",True
+@siddharthsingh2541,2020-05-29T16:33:41Z,0,"in re.sub() you are taking [^a-z,A_Z] but here only the value that is being replaced but you are taking char",True
+@roshankumarsharma8725,2020-05-28T12:11:23Z,1,Sir in this model  why we have used  MultinomialNB and not BernoulliNB ? and can we use BernoulliNB  this instead of MultinomialNB,True
+@vidyasamyuktha3832,2020-05-26T23:01:25Z,0,"How do we determine that ""top features"" are selected when you pass max_features=5000 in CountVectorizer?",True
+@nikhilsharma6218,2020-05-25T10:15:22Z,3,"i have 2 questions first : Why only multinomialNB, is there specific reason,  cant we use bernoulliNB or gaussianNB ?? second : if dataset is imbalanced we have used complimentNB, but how do we know that dataset is balanced or imbalanced??",True
+@neerajpal311,2020-05-19T11:17:30Z,0,"Hello Sir, Thank you so much to explain NLP in very simple way. I have one question in my mind that what will happen if i train our model with 1000 entry in  data set and after some time some more entry added (200 )to our dataset .Then either i train model from scratch again (for 1200 entry)  or train for only entry that added later (for 200). please explain with demo . Thanks in advance.",True
+@vipinbansal8886,2020-05-14T05:15:59Z,9,I was trying to understand NLP concepts referring to various books and videos from last two months but concepts were not clear for me.But  this explaination is really awesome .Explained in very easy way .Thanks Krish,True
+@ashishgeorge2766,2020-05-13T06:06:47Z,1,can we apply label encoder instead of one hot encoding at label column,True
+@piyushaneja7168,2020-05-10T06:33:09Z,9,"You are great sir, its very difficult to find a good channel that explains the code  line by line ❤💥👏",True
+@sanketsonje8290,2020-05-08T16:29:18Z,0,"Sir, I have tried span classifier with lemmetization and it gives accuracy of 97% only. So stemming is giving good results right?",True
+@apoorvshrivastava3544,2020-05-03T17:02:38Z,1,messages[['message'] [i]] sir ye samaj nai aya,True
+@deepanshupant8282,2020-05-03T09:32:53Z,0,Sir is it the full NLP playlist or u will sdd more  Do reply,True
+@sanandapodder5027,2020-03-24T14:39:59Z,0,i am facing problem to read the dataset.Please provide solution sir,True
+@sanandapodder5027,2020-03-24T14:22:52Z,0,sir how to upload the file in spyder? can this coding be done in jupyter notebook?,True
+@kanishkapatel9077,2020-03-20T12:04:58Z,2,How to make GUI for this project ? any idea about it? It would be of great help !,True
+@mujeebrahman5282,2020-03-19T04:17:59Z,13,Sometimes the error is good for health😂,True
+@furkhanmehdi6405,2020-03-13T19:44:48Z,2,Legend ❤️,True
+@parimalbhoyar8579,2020-03-03T12:28:34Z,0,very helpful...!!!,True
+@nafees_ur_rehman,2020-02-21T03:07:02Z,0,Bro how to vizualize this using matplotlib,True
+@subhamnagar7794,2020-01-22T17:46:22Z,0,"Sir, now if I have a sentence (list of stemmed words), then how to put into the trained model for prediction?",True
+@arjyabasu1311,2020-01-19T22:55:29Z,0,Awesome work sir !!,True
+@mansoorbaig9232,2020-01-05T06:01:16Z,5,Great work Krish. You have this knack of explaining the things in pretty simple manner.,True
+@vighneshshindelifestyle7941,2019-12-22T06:32:39Z,2,"Just amazing sir , cant comment you too usefull sessions thankyou",True
+@techbenchers69,2019-12-17T10:03:48Z,0,"Sir, What is the reason behind choosing navie bays classifier.why not other classifier",True
+@emajhugroo109,2019-12-13T15:29:43Z,4,"Hello sir, I would like to know how to calssify a new message as ham or spam after building the NB model",True
+@karthikelangovan5006,2019-12-11T11:00:26Z,0,please help me,True
+@karthikelangovan5006,2019-12-11T11:00:11Z,0,"i have typed code which you explained in this topic ""Implementing a Spam classifier in python| Natural Language Processing""  but i am not getting the corpus list... i got empty corpus ie.. [' ', ' ',' ', ............]",True
+@Sonu-bc7sm,2019-12-07T05:34:39Z,0,"Hi Krish, Nice video, Just had a question. What if i put the model in production and the new message have a word which are not part of my training dataset then the features won't match and the model will give error?",True
+@gowrisancts,2019-11-29T17:04:38Z,0,Good one... actually u may need to use bernoulis naive bayes model as it deals with binary values 0 and 1...correct me if am wrong,True
+@Lijoperumpuzhackal,2019-11-27T12:31:30Z,0,I had gone through the 7 videos in the playlist . Well explained in every videos . Can you please tell me how can implement this program in real scenario ? Everyone has completing their videos by making only the models . So pls try to  explain how we can use this model ? If I have text message. Then how to find  whether it is spam or not using this model ..,True
+@puttacse,2019-11-25T04:25:40Z,1,"Hi Krish, Why are we hard-coding Max_features=5000, What if this code is Migrated to Production as-is and face more Tokens/Features in Live Data(Ex: if live data has 0.1 Million(1 Lakh) features)?  In this scenario, Do our Model fails?",True
+@nehamanpreet1044,2019-11-09T15:42:33Z,1,Please make videos on word embedding like word2vec/GloVe/BERT/Elmo/GPT/XLNet etc,True
+@nehamanpreet1044,2019-11-05T07:46:58Z,1,"Sir please make videos on LDA, NMF, SVD and Word2Vec Models",True
+@chandrakanthshalivahana1417,2019-10-30T06:32:06Z,0,"hello,sir i am very happy that u r making videos..please make more videos on kaggle competitions...",True
+@maYYidtS,2019-10-23T17:04:14Z,0,excellent........ sir instead of taking max_feature parameter at 16:43.....wt if we apply PCA or LDA on that total columns...,True
+@utkar1,2019-10-05T18:00:41Z,28,"Thank you, the whole NLP playlist is very helpful!",True
+@anilkumar-dm8om,2019-09-24T19:03:21Z,0,"what ever you explained was ossum sir, Parts of speech (POS) - can you do video on this :) and even bigram, unigram topics also we want",True
+@Skandawin78,2019-09-16T18:29:46Z,0,Good job Krish with the NLP playlist,True
+@rahuljaiswal9379,2019-09-16T16:45:13Z,1,"u r awesome teacher, it really helpful for me...... god bless u",True
+@rahuljaiswal9379,2019-09-16T16:44:00Z,0,thank u so much,True
+@sathishk8685,2019-09-15T12:55:36Z,0,"Hi Krish, Excellent explanation",True
+@olaoluwamann4187,2019-09-06T11:03:56Z,0,Please how can pandas read an .eml files,True
+@lokeshsahu1032,2019-09-04T11:14:00Z,0,"Ho can i check with new message, is it spam or ham? I am getting ValueError: shapes (1,9) and (2500,2) not aligned: 9 (dim 1) != 2500 (dim 0)",True
+@ashishanand9981,2019-08-13T20:25:43Z,0,"hello sir if we have different number of labels or category such as  business,sports, entertainment,category,politics,tech,history.then how can we get the dummy variables and bag of words and how to find which present are the which labels.",True
+@ranjanjena2996,2019-08-05T10:17:03Z,3,i have created the model and saved the same using joblib. I am not getting how to use the model for prediction? Is there anyway where i can pass the email text to the body and model can detect spam or ham. I am newbie plz help. Thanks,True
+@Rishi-fo8qj,2019-07-22T03:10:27Z,0,Why can't we use Tf-IDf in every problem of NLP instead of Bag of Words? what will be disadvantage of that?,True
+@insightworld9910,2019-07-17T10:55:50Z,0,By using lemmatization method we get accuracy of97.6,True
+@JoshDenesly,2019-04-09T13:16:09Z,2,"Hi Krish, Please make a project relating to Bigram , unigram also . Thank you",True
+@suhailhafizkhan9800,2019-03-17T10:54:19Z,1,How can we visualize at the actual result for a clarification?Thanks,True
+@javiermarti_author,2019-02-20T21:40:38Z,7,You are an excellent teacher. Thanks for making/uploading these videos,True
+@veeragandhamvenkatasubbara4286,2019-02-13T14:56:02Z,0,"xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 1, column 0",True
+@veeragandhamvenkatasubbara4286,2019-02-13T14:13:01Z,0,"sir, I am getting an error while downloading stop words . Parse Error: not well-formed (invalid token): line 1, column 0",True
+@sardar92,2019-01-27T18:07:28Z,1,very nice kindly post new videos,True

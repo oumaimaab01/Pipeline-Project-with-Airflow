@@ -1,0 +1,65 @@
+author,updated_at,like_count,text,public
+@limavedaniazi7492,2023-12-15T14:48:46Z,0,very  helpful,True
+@thaimeuu,2023-11-11T09:31:11Z,0,Thank you sir,True
+@akshatrailaddha5900,2023-04-20T06:50:25Z,1,Did anyone try to visualize the clusters?? If yes can anyone help me with code here. Thanks in advance,True
+@mohitkushwaha8974,2022-12-05T09:47:26Z,1,What is the unit of epsilon(radius) ??????,True
+@sijuas3863,2022-11-27T19:30:30Z,1,Simple and helpful. Thank you..,True
+@ridhimjain8170,2022-09-14T07:22:15Z,1,"the explanation regarding sample_cores wasn't much clear, please make another video explaining better.",True
+@amritakaul87,2022-07-24T05:37:15Z,2,"How to solve the error ""positional indexers are out-of-bounds"" for my own data set...?",True
+@xyzrocks,2022-06-14T05:41:19Z,2,there is basic problem with your approach is you did not normalize the value and because of that too much noise and clusters were formed.your silhouette score also gave very poor result.,True
+@mdashrafmoin1170,2022-06-13T11:35:40Z,1,"How to do silhoutte validation in dbscan , showing error dbscan have no attribute n_clusters",True
+@tarams7775,2022-03-14T11:21:22Z,1,"Very nicely explained, that too with python code was very impressive.",True
+@vinaylanjewar,2022-02-06T16:35:48Z,1,is it possible to have a border point  in a noise point circle ?? what we can say for that point (noise) ?,True
+@subodh.r4835,2022-01-20T07:34:19Z,1,The clustering is good when the silhouette gives a high value right? Then in this case DBSCAN has not performed well?,True
+@fidelca3679,2022-01-14T22:06:07Z,1,"Thank you, Sir. I'll be using it for my malware analysis.",True
+@Lets_MakeItSimple,2021-09-21T09:50:46Z,1,I think this got confusing when you started talking about boundary point.,True
+@SHUBHAMKUMAR-jv4kg,2021-08-26T14:21:28Z,2,Your videos are very helpful always.... keep creating... Thanks a lot for making us understand,True
+@CasuallyYoursTuhinBanerjee,2021-07-23T00:35:39Z,2,Sirji.  I understood that agar ek point ka neighbour core point hai to usko border point bolenge. What if ek point ka neighbour ka neighbour core point ho..??,True
+@manabsaha5336,2021-06-23T10:13:09Z,1,Nicely explained.,True
+@jishnusen1470,2021-06-17T13:00:25Z,3,How do you visualize the clusters? What if I want to have only 4 clusters?,True
+@somtirthamukhopadhyay5548,2021-06-02T19:02:57Z,1,Very sorry but can anyone make me understand about the accuracy or error or silhouette score which was done at last?,True
+@rvkrm9262,2021-05-16T16:23:15Z,1,That is 5 important points !!!,True
+@rezasoleimani6636,2021-04-17T13:47:20Z,1,I hoped this video included plotting different clusters.,True
+@fitrianinasir4272,2021-02-09T11:43:14Z,1,"i tried and practiced this tutorial but i got different number of clusters, is it possible? or I just did some mistakes?...",True
+@joannawyrobek9260,2021-01-20T13:03:41Z,2,Did You include the center of the radius as one of these 4 points in the neighbourhood?,True
+@vedanti2358,2020-12-16T17:36:52Z,1,Confused about core points. COre point is that point when  we have a cluster arounf it with core point being centre.But If there are no min points we cant callit as a clustenr and we cannot call the point around which the eps is used as core then how can we say while calculating border points that when atleast one core points is present Is that core point fo a different cluster present in another clustertoo? is overlapping possible?,True
+@yohoshivabasaraboyina8840,2020-12-10T10:25:42Z,3,"when the silhouette score is near 1 the clustering algorithm works well but in this, we have a negative value it means the algorithm was not working well",True
+@sarthaksinha9340,2020-12-02T04:15:34Z,8,Hey Krish can you discuss more about the silhouette score? Like how does it varies and how to determine if it is good silhouette score?,True
+@devanshadhikari9085,2020-11-29T18:13:17Z,1,Ur average silhouette coefficient is negative . Why so?,True
+@chandinisaikumar2736,2020-11-22T13:05:00Z,1,Can you please let me know which evaluation method can be used for DBSCAN??,True
+@pramodyadav4422,2020-11-22T10:22:52Z,1,In the starting we have assumed value of epsilon and minimum_points. How we can find the optimal value of epsilon and minimum_points?,True
+@abhijitsingh9987,2020-11-03T18:53:22Z,1,"Use this code to visualize the Clusters  from sklearn.datasets import make_blobs import seaborn as sns import matplotlib.pyplot as plt import numpy as np fig = plt.figure(figsize=(10, 10)) sns.scatterplot(X[:,0], X[:,1], hue=[""cluster-{}"".format(x) for x in labels])",True
+@sandipansarkar9211,2020-09-27T18:28:29Z,1,Awesome explanation. Need to practice in jupyter notebook and get my hands dirty. thanks,True
+@himalayasinghsheoran1255,2020-08-31T07:26:17Z,1,Good video.,True
+@avishakemaji4221,2020-08-19T04:18:12Z,1,Well explained Sir!!,True
+@vinitgalgali8856,2020-08-04T04:20:46Z,1,superb explanation!,True
+@vaibhavshah2175,2020-07-20T15:55:16Z,20,"Thanks for the nice tutorial. However, I got a little confused at 10:50. As per the 'advantages' DBSCAN is great at separating clusters of high density vs clusters of low density. But the first line of the 'disadvantages' says it does not work well when dealing with clusters of varying densities. Could you please clarify on this?",True
+@chinmaybhat9636,2020-07-11T17:01:24Z,1,"Hatsoff to you @Krish Naik Sir, Very Neatly Explained..",True
+@Kmysiak1,2020-06-25T16:05:06Z,1,"Great explanation but most of us have to utilize more than just two features.  That's where DBSCAN will start producing 20, 30, 40..... clusters.",True
+@anuragkumar2735,2020-06-18T14:29:31Z,1,very well explained.. carry on making more videos on machine learning algorithms,True
+@googlecolab9141,2020-06-17T06:58:54Z,1,thanks sir,True
+@toxicbabygirl,2020-05-29T12:40:51Z,18,Love this video so much. It helped me with my thesis! Thanks.,True
+@YahYaAlabrash98,2020-05-12T10:54:59Z,1,greatttt!!! thanks,True
+@nikitagupta8114,2020-04-23T15:14:01Z,34,@3:49 atleast should be >=4. Well explained. Thanks!,True
+@melihcelik9797,2020-04-09T14:19:36Z,2,This is not the implementation. Importing DBSCAN is not implementing it,True
+@abhishek-shrm,2020-03-12T12:50:29Z,17,Sir great video. But how you decide value of Epsilon and minPoints ? Is there any test like there is elbow test for finding K in Kmeans?,True
+@snglvl,2020-03-06T09:18:08Z,3,"Hey, nicely explained. I have a data points with 128d. I try to cluster the points with different combinations of EPS and minpts values. So far, it failed to group points reasonably. How to find the EPS and minimum points values for any situation???",True
+@brunosuwin328,2020-03-03T14:52:05Z,1,"Sir i am studing B.E CSE i have a subject named Data warehousinh and data mining in that there is a topic named clustring,In text books in DBSCAN there is word density reachble,direct density reachable density connected what those words means please explain sir",True
+@sandrafield9813,2020-02-15T19:45:54Z,1,Thanks!  You're good at this!!,True
+@Orthagoni,2020-02-08T13:57:38Z,1,algaaarutum,True
+@JohnVandivier,2020-02-04T12:58:52Z,1,Dude this was fantastic. Well done.,True
+@rohanphuloria4111,2019-12-30T11:32:43Z,3,please explain the significance  of the final score,True
+@hasinthanawod5656,2019-11-05T17:45:36Z,1,This is GREAT!!!,True
+@aminzaiwardak6750,2019-10-30T19:56:15Z,1,"Thank you sir, you explain very good.",True
+@arunhbca,2019-10-30T18:52:40Z,3,Why the dataset was not scaled before calculating DBSCAN...? It's worked based upon euclidean distance right..?,True
+@AmitYadav-ig8yt,2019-10-23T02:26:05Z,1,Thank you sir. Have been waiting for this,True
+@alfredoderodt6519,2019-10-13T12:39:07Z,1,Excelent explanation! Thank you.,True
+@ashwanikumar4288,2019-09-16T23:46:41Z,13,Hats off to you. Very well explained. Thank you for the effort.,True
+@pigno,2019-09-14T17:14:42Z,2,About DBSCAN inefficiencies for high dimension input data: how many components at most can a data point be for the results to be acceptable? 5-10? 50+?,True
+@jacobmoore8734,2019-08-09T20:17:13Z,10,Really informative - hopefully this video blows up! Everybody needs explanations this intuitive :),True
+@arunkumarr6660,2019-07-29T06:23:32Z,1,can you pls share the ppt,True
+@sofiarao7144,2019-07-17T21:23:10Z,1,Nice Video on DBSCAN.  Can you pls make a video & explain  Credit_Card Risk Assssment which you uploaded on github?,True
+@kothapallysharathkumar9743,2019-06-27T07:37:22Z,15,how to Choose  eps and minpts for DBSCAN,True
+@akashpoudel571,2019-06-08T18:12:26Z,2,Sir dbscan.core_sample_indices method isn't working out.....theory part was really clear...,True
+@minurose3786,2019-06-08T10:22:36Z,1,Good video If possible can you make video on HDBSCAN algorithm too?,True
+@Ishmaelstene,2019-06-06T05:44:21Z,1,Great video.,True

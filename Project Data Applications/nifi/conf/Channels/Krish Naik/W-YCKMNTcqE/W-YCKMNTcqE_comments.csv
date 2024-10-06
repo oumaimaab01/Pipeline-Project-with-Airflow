@@ -1,0 +1,93 @@
+author,updated_at,like_count,text,public
+@prashantpal3653,2024-05-23T11:05:49Z,0,Amazing content... You are the person that motivates me to go for data science,True
+@sriramvaidyanathan5094,2024-05-18T16:27:11Z,1,someone help with the tesla dataset now not able to get,True
+@balusister1991,2024-04-12T17:45:51Z,0,"Krish, you are really great teaching systematically and with ease of understanding. I paid lacs of rupees in one of IIIT, but they dont teach like this, and dont bother whether you learn or not. It goes as a self paced, and the code they have done very old. you are doing very great for many people. ❤❤❤thank you.",True
+@anushahullathi5918,2024-04-11T16:26:45Z,1,"import yfinance as yf  # Define the ticker symbol ticker_symbol = 'TSLA'  # Fetch the data df_tesla = yf.download(ticker_symbol, start='2017-01-01', end='2024-06-30')  # Display the first few rows of the DataFrame print(df_tesla.head()) run this as datareader is throwing string indices must be integer error",True
+@manavgora1758,2024-04-09T13:38:03Z,0,"i am not able to get data from pdr.get_data_yahoo(), is it becas of a new update or what is the alternative?",True
+@PoonamSingh-bx8zh,2024-03-20T01:58:52Z,0,"Hi Krish,  pdr.get_data_yahoo('TSLA') after that I got  ""TypeError: string indices must be integers"", How to solve this error? Please let me know. Thanks. Your videos are very helpful to me.",True
+@pawankumarraj6653,2024-02-17T05:29:27Z,1,"When you are using Google collab, it will show an error when you try to run,  pdr.get_data_yahoo('TSLA') To fix this: After installing all given libraries  Use this:  import yfinance as yf stock_data = yf.download('TSLA', start='2023-10-01', end='2024-02-17') stock_data.head() Note:- ""yfinance"" library directly to fetch stock data from Yahoo Finance  Pls hit like ",True
+@Kenchanur,2024-02-12T08:58:13Z,0,"I am learning from Krish videos and in 2024 # In 2024  pdr.get_data_yahoo('TSLA') doesnot work use this instead import yfinance as yf df = yf.download('TSLA')",True
+@Ro45256,2024-02-03T13:16:02Z,0,"Sir I'm getting this error while importing the dataset---->  string indices must be integers, not 'str'",True
+@parthparmar3283,2024-01-31T19:30:54Z,0,perfect session for time series loved it😊,True
+@pujan2605,2023-12-31T12:44:36Z,0,"In real time do we need pandas data reader? As data reader is already having some data sources, can it be used when am trying to access some bank's data (say am working for a bank)?",True
+@adithyajob8728,2023-12-29T03:02:56Z,0,awesome !,True
+@piyushpawar75,2023-12-28T07:41:17Z,2,I got an error while loading data set  The error is 'string indices must be integers not str',True
+@nafeesamurad8268,2023-12-14T21:35:02Z,3,I am getting error on accessing data. (df_tesla=pdr.get_data_yahoo('TSLA')): TypeError: string indices must be integers,True
+@user-ep7xu8qw6i,2023-11-09T10:35:52Z,0,for people who are facing issue   import pandas_datareader as pdr import pandas as pd from datetime import datetime  import yfinance as yf yf.pdr_override() data = pdr.data.get_data_yahoo('TSLA'),True
+@AiykRichie,2023-10-18T23:14:58Z,0,Am not joining this live but am about working on a time series sales forecasting project and would really love to see how I can deploy it to production.,True
+@animeshbasak490,2023-09-18T09:46:20Z,0,"string indices must be integers  constantly getting this error when I'm doing  import pandas_datareader as pdr pdr.get_data_yahoo('TSLA') pandas datareader is correctly installed please someone help me.",True
+@gauravfamily2209,2023-08-27T13:39:54Z,0,how to choose which function to use expanding and rolling for window size? pls guide me.,True
+@maneeshyadav2697,2023-08-13T12:01:34Z,0,import yfinance as yf yf.pdr_override() Data=pdr.get_data_yahoo(TSLA) Data.head() It will be work becoz i did it If anyone getting error string type,True
+@theyoungandy,2023-07-18T13:22:41Z,0,"Good day all. Please what am I doing wrong? I'm trying to run this command pdr.get_data_yahoo('TSLA') and  I'm getting this error......, ""TypeError: string indices must be integers""",True
+@VajaGautamKamlesheeb,2023-06-18T17:44:32Z,0,hank you so much sir.,True
+@Podcast_shorts884,2023-06-17T02:43:04Z,0,"Pdr.get_data_yahoo('TSLA') Not able to fetch data, getting error that "" string indices must be integers"" could you please help me on this krish sir? How can I fix this error?",True
+@testpurpose5845,2023-06-07T02:30:48Z,0,"at 58:19 , you can see the orange curve has some gap in the beginning and in the end . Tell why ?",True
+@user-cj9yv8mm9g,2023-06-06T03:44:49Z,1,"Hi Mr. Krish, I would appreciate it if you could also teach us about recommender systems using a live session, similar to the Time Series session.",True
+@legiegrieve99,2023-05-21T19:57:59Z,0,"can anybody help, please? when i run this code:                                    pdr.get_data_yahoo('TSLA') I got this error TypeError: string indices must be integers can someone help me why this is happening?",True
+@BongoLasss,2023-05-01T09:09:21Z,0,"Hello sir , sir I'm trying running this code to get data from yahoo finance but it keeps on returning type error I really don't know what to do,could you please help me 6:25",True
+@andregulyi,2023-04-25T11:39:35Z,0,Thank you for supporting Ukraine. You are an amazing DS teacher!,True
+@RamdasYamgar,2023-04-21T06:54:29Z,0,"Sir, Right now , I have error when reading the data 'string indices must be integers' and  also I successfully install pandas reader  What should I do?",True
+@EagleRaider7,2023-04-19T11:51:09Z,2,"@Krish Naik Sir, While trying the code, it's giving me the error.  code: import pandas_datareader as pdr import pandas as pd import datetime as dt df = pdr.get_data_yahoo('MSFT') df.head()  O/P: TypeError: string indices must be integers. How to fix it sir? it throws error after coming to the line ""df = pdr.get_data_yahoo('MSFT')""",True
+@shaluyadav7961,2023-04-05T22:43:06Z,0,Loved the session..... awaiting for next session❤,True
+@anjalipakmode5716,2023-03-21T07:20:08Z,0,Not able to read data from TSLA,True
+@shital6592,2023-03-06T12:19:23Z,0,pdr.get_data_yahoo('META')   This code giving me error - string indices must be integers  Any solution?,True
+@swaroopam1929,2023-03-03T09:23:28Z,0,'string indices must be integers' getting this error while using get_data_yahoo('TSLA') this function. Help me how to solve this problem.,True
+@amikkhan-kh9nu,2023-02-23T19:56:03Z,0,"sir i m getting a error in line no. 12  ( positional argument follows argument  ) and second thing when i plot hole TSLA data in row it not showing year it show a value like 0 ,500,1000,1500,2000,2500 .",True
+@prataproychoudhury94,2023-02-17T07:44:36Z,3,"I am getting ""TypeError: string indices must be integers"" while reading the TSLA data as a dataframe. Can anybody comment please why this is happening? If there is any change to the data format?",True
+@saikiranmaddukuri3930,2023-02-05T15:09:45Z,0,great fan of you your videos are really helping me out,True
+@adacode9996,2023-02-03T05:59:04Z,1,"Those who got ""string indices must be integers"" error, here is the solution  import pandas_datareader.data as pdr import yfinance as yf yf.pdr_override() df=pdr.DataReader('TSLA') df.head()",True
+@Vlogswithjinks,2023-01-16T07:43:03Z,0,@krishnaik Pl help,True
+@Sugandaramm,2023-01-12T18:47:01Z,0,TypeError: string indices must be integers,True
+@ravulapallivenkatagurnadha9605,2023-01-12T09:28:48Z,0,Do more videos,True
+@debashissinha8489,2022-11-19T01:20:37Z,4,"The way, simple and lucid manners he explains from complex to simple is outstanding !!",True
+@rsanjeevsingh,2022-10-25T15:33:22Z,0,Loved Time Resampling :),True
+@learnobjectivephysics2426,2022-10-25T14:18:02Z,0,Thank you,True
+@vadimcosman5480,2022-10-21T18:56:20Z,1,"Hmmm, expected more core content like (how to check for trends, seasons, cyclicity, what to do with them and why). As well, what about basic statistics? covariance, correlation, variance, missing values, outliers/anomalies?? Getting to understand if a specific value for a feature can happen/make sense. In the real world EDA would mean to do this before jumping into any modelling techniques.  😏",True
+@prajaktawarghat1850,2022-10-06T07:21:15Z,0,Firstly Thank you so much sir for all😌In this video we are not able to increase quality of video as it's showing unavailable due to this reason it's blurred,True
+@laizertajiri143,2022-09-27T07:55:13Z,0,"hi krish, can you share your email to me",True
+@tagoreji2143,2022-09-22T13:37:15Z,0,Sir Thank you so much for this Informative Session. It was a Very good practical class.,True
+@SachinModi9,2022-08-30T15:55:18Z,0,"HI Krish,  I wonder how its showing date of 31st Dec 2022 on time 42:15?",True
+@rishabh3189,2022-08-27T11:01:37Z,1,"Hello Sir, While coding along with your video, I saw that the prices are touching the value in range of 800 in your screen, but when i checked tesla share price on internet, its all time high is only 409.97. When I am coding right now, my values are also coming in this range only having all time high of 409.97. Can you please tell why this variation is there in the values??",True
+@flutterflowhack,2022-08-24T14:36:35Z,1,I love your content . Thank you for doing this,True
+@kluih9872,2022-07-25T12:47:05Z,0,You are insane,True
+@bhabanisankardash7387,2022-07-09T18:02:58Z,0,Grt work...Thank u for the contribution,True
+@secretsoul9319,2022-06-26T09:08:22Z,1,Indebted🙏,True
+@sangitamishra1730,2022-04-29T07:11:05Z,0,Great 🙏,True
+@sa89879,2022-04-25T20:07:23Z,0,Hi Krish or any one of the subscriber df_msft.plot() not showing the graph as like you did only empty frame created with date as x lim and price in y lim Please help me the plot function is not working for me since im using spyder ide is to so or i need tp work with jupyter note book,True
+@khubimkumarchhetri5454,2022-04-14T20:43:23Z,0,How to access all the lecture series of this EDA session?,True
+@sharebusinessbillionaire9730,2022-04-09T15:54:21Z,0,54:00 Rolling,True
+@namratakasina1835,2022-04-06T16:28:54Z,2,"Sir, pandas datareader is not working for google collab, what should be done?",True
+@marinathea990,2022-04-03T22:57:12Z,0,Thank you so much! I love it! I's so helpful!,True
+@shekharkumar1902,2022-03-14T12:11:53Z,0,Sir  your community sessions are simply awesome . One question : I have taken your paid course already  and was missing your presence there. If you would had to take community session why earlier your asked for joining your paid session courses ?,True
+@samisyed5165,2022-03-12T23:34:43Z,0,Im a beginner and i aspire to work as Data Scientist / in AI. i am Sami from Mumbai,True
+@samisyed5165,2022-03-12T23:34:28Z,0,"hi, I'm looking for a partner to learn data Science, can any one assist me,",True
+@DevGoal,2022-03-07T01:39:50Z,0,Can you also make a session on federated learning ? That would be great,True
+@data8758,2022-03-06T13:45:02Z,0,Can't read the data from y finance. It's better install yfinance using ' pip install yfinance' and read it.,True
+@whattheydoexactly7794,2022-03-06T10:19:47Z,0,"Hello Krish, when you do resampling + mean on whole dataframe. so does it select first columns minimum or minimum value of all?",True
+@atulanand4824,2022-03-04T16:37:35Z,0,graph = pydot.graph_from_dot_data(dot_data.getvalue())   list' object has no attribute 'create_png' I am making a decision tree getting this erroe how to resolve it?,True
+@hamzaarain4238,2022-03-03T17:58:48Z,0,I m data scientist but still this help me alot,True
+@basavarajag1901,2022-03-02T10:55:00Z,0,"please provide the link , you explained the resampling rule A,",True
+@basavarajag1901,2022-03-02T08:32:48Z,0,"figure,axis=plt.subplots() plt.tight_layout() ## Preventing overlapping figure.autofmt_xdate() axis.plot(index,share_open)   this code is not working for me, I got an error "" x and y must have same first dimension, but have shapes (421,) and (169,) "" kindly help me to proceed",True
+@AsadAli-lv1th,2022-02-28T18:47:33Z,0,still can we get life time membership?,True
+@thumma19,2022-02-28T06:16:32Z,9,Best Data Science teacher. 2 full days gone in just watching through all amazing tutorials,True
+@antisunny9226,2022-02-27T19:19:22Z,0,How to take multiple csv files as input?,True
+@deepsajwan,2022-02-27T09:20:45Z,0,thanks Krish for the amazing session,True
+@dipanshraj5776,2022-02-27T05:16:00Z,0,"Hi Krish, Datareader is not working in colab. Please advise.",True
+@gh504,2022-02-26T16:56:41Z,0,Thank you sir for this amazing session,True
+@saisaravanank7820,2022-02-26T12:47:36Z,5,Those who are trying with Google Colab. Execute this command first. pip install --upgrade pandas pip install --upgrade pandas-datareader,True
+@omkarbhosale9299,2022-02-26T10:33:30Z,1,im getting pandas-datareader issue for reading the data can anyone help me with that im using colab,True
+@satyamishra9572,2022-02-26T10:13:29Z,0,we learn somthing new,True
+@osikoyaadeola2530,2022-02-26T06:34:00Z,0,Thank you so much sir. Very helpful.,True
+@gh504,2022-02-26T06:22:13Z,1,Thank you so much sir. These live sessions are very helpful,True
+@prithwishchakraborty2286,2022-02-26T05:50:48Z,0,Sir 1 complain if viewing from mobile device your coding can't be seen due to subtitles,True
+@vedant510,2022-02-25T23:25:44Z,1,"How can this been done, if the dataset had 100s of stocks altogether? What procedure could be followed for that?",True
+@gustavovillarroel5634,2022-02-25T23:13:07Z,0,great session... love it !!,True
+@maxwellpatten9227,2022-02-25T19:56:44Z,10,This guy is excellent.  Always a pleasure to watch his videos.,True
+@sourabh_bhatt,2022-02-25T19:52:29Z,49,"I must say krish is doing this all for future data scientist. Great efforts sir. You each and every content is for future generations, for future data scientists. You are not creating videos, you are creating gems 💎",True
+@ashutoshpandey1452,2022-02-25T17:52:42Z,0,Amazing video krish..I JUST WANT TO THANK YOU..,True
+@ramprabhu7566,2022-02-25T16:56:45Z,0,Can you do the same content using R pls,True
+@mohammedalharbi158,2022-02-25T16:31:13Z,1,Can you please upload a multiclass classification problem ? Like the final output should be something like an animal is mapped to cats tree and to assassins tree at the same time,True
+@mohammadbasheer6192,2022-02-25T15:38:37Z,1,1. what is the benefit we get by rolling the data? 2. how will you decide the number of rolling data like rolling(11) or (10) and why,True
+@mohammadbasheer6192,2022-02-25T15:36:51Z,0,great session sir,True
+@yosufzamil,2022-02-25T15:32:18Z,0,Pls make live or make video on graph neural network.,True
+@dalaeenaveen4550,2022-02-25T14:53:02Z,0,Yes Sir,True

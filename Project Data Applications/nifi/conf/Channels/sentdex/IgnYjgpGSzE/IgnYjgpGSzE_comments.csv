@@ -1,0 +1,47 @@
+author,updated_at,like_count,text,public
+@vladimirtchuiev2218,2022-06-18T08:03:28Z,0,Do you have a pytorch implementation of this?,True
+@davedumas0,2020-02-16T23:25:40Z,0,"i keep getting this error  ``` Using TensorFlow backend. Traceback (most recent call last):   File ""C:\Users\dave\Desktop\Starcraft2bot\dudesDEEPLearningBot.py"", line 1, in <module>     import keras ```",True
+@charlesriedel2132,2019-02-12T00:37:05Z,1,"The self.flipped portion of my train_data is a (168,168,3) array, whereas yours is able to be reshaped into a (176,200,3), any idea why? I copy-pasted both the bot and NN sections of code from your site (changes to directories of course) to the same effect. Edit: I found my issue, it appears that since different maps have different sizes,  maps of sizes other than AbyssalReefLE will throw an error when numpy tries to resize the array.",True
+@HuayiGao,2018-12-24T05:35:39Z,0,"Hi sentdex, To answer your question at 16:40, I would normally import sklearn.model_selection.train_test_split method to do split my dataset into training and testing sets. Hope that helps!",True
+@Thoumizzi,2018-11-19T20:34:45Z,0,isnt it more efficient to play against same version of the bot for the training instead of computer?,True
+@ItzBiosphere,2018-10-14T21:31:58Z,0,Could u do fortnight?!,True
+@Wurstfinger-rl1zi,2018-08-14T12:41:41Z,0,Pytorch: Follow the installation instructions from the website. It works TensorFlow and Keras: Install both frameworks via pip which lets you first install 20 other packages. Finished. It doesnt work. Trying to find a solution on Stackoverflow. No luck. After 7 hours of testing trying to reinstall everything. It doesnt work. Try something stupid in the keras files. For some reason it works now. No idea why.,True
+@bamfme,2018-08-08T04:12:39Z,0,my tensorflow wont work T_T                No module named '_pywrap_tensorflow'      any help plz,True
+@Ph34rNoB33r,2018-08-02T12:51:08Z,0,How I suffered from 5:10 to 13:48. I simply couldn't make the missing underscore unseen.,True
+@gibsonemg,2018-07-29T18:59:12Z,0,"You might consider increasing your learning rate.  Looks like the loss initially drops a lot, but that's likely due to poor initialization.  The real learning doesn't seem to happen until much later, which might suggest the learning rate is too low.",True
+@blue_benjamin,2018-07-17T03:15:49Z,0,keep saying epoch not epic,True
+@trevorseitz502,2018-07-15T20:05:28Z,0,Did I hear correctly that you're only passing in game data that was the result of a victory?,True
+@adowaconan,2018-07-15T10:30:14Z,0,"If at the end you want to save the model, you can add another callback to the call back list besides tensorboard: keras.callbacks.ModelCheckpoint, and this could help you to save the best model weights instead of the last one.",True
+@NicolasPimprenelle,2018-07-15T09:32:38Z,0,You can build a gigantic array useable like a numpy array with h5py 😉,True
+@followMLS,2018-07-15T07:47:38Z,0,"Is it possible to see what the API you use to let the bot play the game does, or how it works? I used to play sc2 and i really like your videos, but i dont get how the bot selects units, builds and stuff like that. ( i have no coding expirience to look myself and understand it... )",True
+@chessmaster914,2018-07-15T03:39:38Z,1,"Hello, I'm getting ImportError: Could not find 'cudart64_90.dll'. but sentdex didn't mention this in the video. Did I miss a step somewhere or do I need to download something different. Any help is greatly appreciated",True
+@Cyphlix,2018-07-15T01:55:31Z,0,"a tear shed for those with only 4GB of gpu ram (GTX970), i had to reduce my test_size and batch_size to 50/64 respectively to get it to run  great vid, as always!",True
+@pafnutiytheartist,2018-07-15T00:48:44Z,1,I kinda thought you would then make the model play against itself and do evolutionary algorythm on that,True
+@matthewburson2908,2018-07-14T23:19:17Z,0,"Were you still going to use a genetic algorithm to train the network, or have you just not gotten to that step yet? I'm fascinated by the potential advantages a genetic algorithm has over gradient descent.",True
+@patrickjdarrow,2018-07-14T20:46:01Z,1,Is there a reason you're using .format instead of fstrings? I've heard python devs say that fstrings are better optimized in py3.6,True
+@nospoiler9550,2018-07-14T20:14:09Z,3,Instant like.,True
+@idacal,2018-07-14T19:48:26Z,1,Thanks for making this tutorial! I cant wait to see the final result on the AI performance,True
+@romulodrumond3526,2018-07-14T19:40:56Z,0,Amazing!,True
+@caiodallecio,2018-07-14T18:53:22Z,0,"You could implement the generator class Sequence , if you do keras automagicaly can use multiple cpu cores to feed the gpu data, increaising performace.",True
+@micahchurch5733,2018-07-14T18:33:11Z,1,Wow man i am loving this so far,True
+@micahchurch5733,2018-07-14T18:22:47Z,12,This is probably the easiest hack for class balancing that i have ever seen lol,True
+@micahchurch5733,2018-07-14T18:17:32Z,0,"Actually had to do this at work, the batch thing i mean, large data sets are annoying lol. This link would be pretty easy to implement and is pretty minimalistic. https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly.html",True
+@KylePiira,2018-07-14T17:22:58Z,8,"In Keras there are two methods that can be used to load batches directly from disk: - model.train_on_batch(x, y) - trains a individual batch on some x and y data  - model.fit_generator(generator) - works the same as the fit method but takes a generator that outputs pairs x, y. This is the same method that model.fit() uses internally.",True
+@OusamaEsbel,2018-07-14T17:03:41Z,0,Thanks again for the great tutorial.. The pythonic solution I know is to use python generators. Since keras has fit_generator function for training. It also has a image generator function built in that you can specify the path to the folder as shown in this link https://keras.io/preprocessing/image/,True
+@HarshitKumar-lg1ol,2018-07-14T16:46:35Z,0,If you had your model trained then didn't you show its performance :(,True
+@LetsDark,2018-07-14T15:34:43Z,0,"Wouldn't it be much better to use garyscale images? I mean with color you have 3 more channels and much more to lern, right?",True
+@fmbahrt,2018-07-14T15:21:18Z,0,"You can make a custom generator and use the fit_generator method, in order to train on data 'from disk'.",True
+,2018-07-14T15:06:09Z,0,Don't you think to review nim language?,True
+@kwea123,2018-07-14T15:03:43Z,0,"At 16:30 is your train_data a ""python list"" or an ""np array""? You can only do multi-indexing for np arrays. So just convery train_data to np array before multi-indexing. Like  train_data = np.array(train_data) then you can x_train = train_data[:, 1].reshape(-1, 176, 200, 3)",True
+@Krish-ly3ps,2018-07-14T14:46:30Z,0,"@sentdex, in your pygame tutorials, you mentioned that eyes can only see up to 30 fps. That is false. Most humans can see between 200-280 frames per second. The monitor you have has a fps limit, but the eyes can easily differentiate between 30 and even 60 fps, let alone something like 240.",True
+@bibianaburela,2018-07-14T14:45:02Z,0,I'm loving this tutorial. It's the best after the gta v one. How much time it took to train it with the v100 in paperspace? I'd like to try some things :P,True
+@glorytoarstotzka330,2018-07-14T14:28:35Z,3,"maybe last time u indeed drink from ur cup but this time i'm sure you didn't       no ""nice cup"" for you this time",True
+@huhulili9021,2018-07-14T14:28:24Z,2,What's that?         Two Os,True
+@mateusgoncalvesmachado1361,2018-07-14T14:18:36Z,0,I think I never ran out that much GPU ever.,True
+@ParthSarthiSharma,2018-07-14T13:53:26Z,0,"Hey sentdex, I have a doubt in Machine learning tutorials, particularly in SVM. Is it okay if I contact you on your mail or something?",True
+@brucejimenez814,2018-07-14T13:46:52Z,0,"sentdex, can u say hakdog in reply?",True
+@Sedwards3795,2018-07-14T13:45:39Z,0,Have you made a tutorial on ‘Key Presses’ because I’m a beginner and I want to make games but idk how to key press,True
+@Sedwards3795,2018-07-14T13:44:49Z,2,OMG you are amazing I am learning python and your old tutorials are so helpful thanks!,True
+@maurodeceuninck1483,2018-07-14T13:43:47Z,0,Second!!,True
+@GG64du02,2018-07-13T16:11:37Z,0,Fit_generator (function) in the Sequential doc in the Keras api docs ? (I need to check my bomberman NN project on github...),True
+@jphoward86,2018-07-13T09:46:38Z,2,"I had the EXACT same problem with too big datasets for RAM when using a 3d convnet for video classification and I had to read in 3d numpy arrays. Keras can actually fit from a generator, and so I wrote one if you search for ""github jphdotam keras generator""",True

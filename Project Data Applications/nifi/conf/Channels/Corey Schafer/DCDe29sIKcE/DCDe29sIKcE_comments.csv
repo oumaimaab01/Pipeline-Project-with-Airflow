@@ -1,0 +1,278 @@
+author,updated_at,like_count,text,public
+@coreyms,2020-01-24T18:17:27Z,199,"Hey everyone! I hope everyone finds this video helpful. I wanted to make this video shorter, but I really wanted to highlight all the different ways we can update our rows and cover the apply, map, and applymap methods in as much detail as I could. In the next video, we'll be learning how to add and remove rows/columns. It will be much shorter. I should have that video out next week. I hope you all have a great weekend!",True
+@RomanchakAnimeDuniya,2024-05-13T06:11:46Z,0,@corey schafer I am getting an error in applymap function,True
+@mannou38,2024-04-09T13:56:13Z,2,"Thank you for your incredible work!  Just one note though, at 28:24, applymap() has actually been deprecated. Should use df.map() instead.",True
+@gayratsaidakhmedov5451,2024-04-05T18:08:23Z,0,thank you,True
+@samanjafarii,2024-03-31T12:11:42Z,0,As i have understood while we pass df[filt]['last'] we are actually calling a dataframe not a series that which in this case is a dtaframe with just one row that is cuz we can't pass new value to it cuz if our filter had more than one result we didn't sepcify what row are we calling to pass value.Thank u so much for your vast knowledge which after 4years still your tutorials are worthy even so many updates has been released and so many things have been changed it is stiil useful.❤,True
+@ShivamGupta-wn9mo,2024-03-17T13:05:15Z,1,brilliant,True
+@jasonberg6751,2024-03-16T07:48:10Z,0,Hi Corey Using - df.applymap() in this video I got : FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead  Using - df.map() I got an error:  object of type 'int' has no len() . So I used :  df.map(lambda x: len(str(x))) ..... success 😀,True
+@TungolTech,2024-03-02T13:26:14Z,0,Applymap is deprecated now,True
+@kapibara2440,2024-02-12T18:03:58Z,0,Fantastic job dane by Corey !!! Kudos 😊,True
+@pushpendratiwari400,2024-02-04T04:01:47Z,0,"hi Corey, At time stamp around 29:00 min, min should not be printing ""Corey"" as other two values are of length 4. Why this behavior?",True
+@milenkamoschella2891,2024-01-09T17:57:16Z,0,"I had many problems to learn how manipulate DataFrames. This tutorial explained very clearly a lot of things.   I have a note: df.applymap(), when applying it triggers a Warning.   FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.   df.applymap(str.lower)",True
+@harshadkondalkar1502,2023-12-31T08:15:43Z,0,"when you say , will continue in next video and continue the topic. You just hacked our brain to sit for more 10 mins and concentrate better !!",True
+@daviskipchirchir1357,2023-12-19T07:33:30Z,0,"This is the end of 2023 and I am glad I found your videos. Our century really literally has information at our fingertips. We are just warping through information. Throughout history, such well-curated educational content has never been so easily accessible to anyone.",True
+@daviskipchirchir1357,2023-12-19T07:30:39Z,0,"Brilliant work man.   Just adding that the method df.at() is inherited from C++ vector container. This seems to be true because Numpy, the base class for Pandas, was written in C++ for speed purposes. So as Pandas is a layer on top of Numpy, which is a layer on top of C++ containers, then the method must have been transferred from the containers all the way up the stack to Pandas.",True
+@zhenpan2048,2023-12-11T14:18:56Z,0,The videos are quite helpful and understandable. Thank you for your brilliant work.,True
+@Ayushkumar-mf3lt,2023-11-26T07:16:42Z,0,17:40,True
+@niklasalexanderBjerkeland,2023-11-11T16:10:03Z,1,"For those who are interested, used data analysis in Chatgpt 4 to create some mock data and run a comparison .at crushes .loc at performance :   n a performance comparison between the .loc and .at methods for modifying a single value in a large dataset (10 million cells), the results are as follows:  Time taken using .loc: 0.0789 0.0789 seconds Time taken using .at: 0.0077 0.0077 seconds  As someone who often modifies huge datasets with million of rows, it is nice to know. Guess it is of interest to other people here as well",True
+@ayaqz3144,2023-11-04T18:32:50Z,0,"please take your time in your explaining, I am learning from yours video so thankyou",True
+@abdulkadirguven1173,2023-10-21T10:59:00Z,0,I didn't even finish all series about pandas but i learnt already so interesting features in pandas. Thank you very much Corey.,True
+@KamleshKumar-fz1ks,2023-10-20T15:28:00Z,0,"at 10 mins, u were mentioning how to update single value. Actually I wanted to update string value of particular (row,col) with a list. it is giving me Valuetype error df[rowno,colno] = [1,2,3,4,5,6]",True
+@anthonyerdenetuguldur5609,2023-10-14T03:01:42Z,0,"Thanks @Corey Schafer for putting this great Panda's Tutorials together.   on 11:00, regarding .at indexer vs .loc,   I found that the .at indexer is more optimal than .loc if you need to change a variable in a particular (single) index location. The .loc method enables change in multiple rows and columns (more versatile) hence a little slower than .at method.",True
+@sahilmehra290,2023-10-07T09:21:47Z,0,How to know where to use inplace or not is there a way to idenify which method requires inplace and which does not,True
+@MoinulHossain-rw2ry,2023-10-02T19:05:44Z,0,"Hopefully we can get more of these from you. Your videos are very detailed and intuitive, in my opinion. I can't help expressing my heartfelt gratitude to you for putting out these tutorials in such a comprehensible manner. You once said you plan on doing Pandas plotting tutorials sometime in the future. I do not know whether you actually will do it but I will be eagerly waiting for those too. Lots of respect and love from Bangladesh.",True
+@rohitvishwakarma2871,2023-10-02T18:26:46Z,0,Whenever he says 'you might be wondering' you know that your doubts are going to get solved.,True
+@tekrunner987,2023-09-24T12:25:44Z,2,"For anyone watching this after August 2023, in v2.1.0 Pandas renamed DataFrame.applymap() to just DataFrame.map(). So map() now works for both Series and Dataframes, and applies its function to every cell of data in both cases.",True
+@nimaabed6729,2023-09-10T09:30:26Z,0,Thank you so much Corey..i've learned a lot from your videos,True
+@vishalprajapati1004,2023-09-07T04:20:13Z,0,Corey sir No words like better videos I don't believe have a free thank you so much for effort,True
+@nirlevi9570,2023-09-04T11:30:11Z,0,Hello I want to see omly the columns that start with   's'  and I write this : df.columns = [x.startswith('S') for x in df.columns ] but I get only boolean in the title columns  someone can help me please?,True
+@finncollins5696,2023-07-30T18:01:21Z,0,thanks so much. i started from the first video. now in the fifth video. thanks a lot. you are a good teacher. thanks. this is the best course ever.,True
+@user-ks7wl9pc2f,2023-07-26T20:26:48Z,0,I have few questions  how to add new column in dataframe? how to update null/NaN rows?,True
+@user-ks7wl9pc2f,2023-07-26T20:13:40Z,0,I really appreciate your effort for sharing some worth of knowledge.,True
+@ashrafsiddiq968,2023-07-12T13:42:37Z,0,"idk why but for some reason method for writing one value with the help of ""loc""(which is at 9:45 of this vedio) doesnt work for me. It also doesnt work when I use at",True
+@femi2873,2023-07-09T11:33:19Z,0,Thanks Corey,True
+@bubblenugget9916,2023-07-07T21:43:02Z,0,For some reason the lambda way of making a column uppercase isn't working for me. Could there be a reason for that?,True
+@sarahdavids1,2023-06-28T05:58:24Z,0,Hi Corey! I am a newbie to python .first of all thanks for your video.I have a qn.The apply(len) seems to work only for int type of objects.How can we modify the series of a different data type like float or string.I get a type error for other data type used .,True
+@adams_mathclass,2023-06-18T15:50:39Z,0,The way you simplify and explain complicated concept is simply magical. Thank you!,True
+@ericcross4180,2023-06-07T10:56:04Z,0,should have made data frame something other than a 3x3. Not cubed.,True
+@_sanskar6,2023-06-05T08:23:01Z,0,df.applymap(len) :- Gives an error because i have an integer data column...what should i do in that case.,True
+@TheSardOz,2023-04-29T10:41:53Z,0,"You are a great teacher, Corey! thank you, very much!",True
+@dariodcr,2023-04-24T16:34:39Z,0,"I ran ""df['Hobbyist'] = df['Hobbyist'].map({'Yes':True,'No':False})"" twice. First time I see the booleans, from the second time I see only NaN. Nevertheless I opened the csv file in another editor and it shows ""Yes"" and ""No"" again. What is happening?",True
+@the-ghost-in-the-machine1108,2023-04-12T01:48:16Z,0,Appreciate your work sir. Very clear.,True
+@youcefyahiaoui1465,2023-03-07T07:43:10Z,2,"Hi Corey, It would be great if you could do a video on how to grab two two columns from 2 different dataframts (say one has Pre-Stress and the 2nd has post-Stress).  Then align these values accornding to values in a different column, say ""serial numbers"" to plot the difference: Post - Pre for each serial number (device).  How to synchronize two columns according to common serial numbers in another column.  Thank you so much.",True
+@metin5408,2023-03-03T20:11:03Z,1,"just fyi instead of using  df.[""email""] = [x.lower() for x in df.[""email]] or  df[""email""] = df[""email""].apply(lambda x: x.lower()) you could use  df[""email""] = df[""email""].str.lower() it's shorter and easier to read.",True
+@wwpharmacist,2023-02-22T18:34:12Z,0,Awesome,True
+@karansmittal,2023-02-13T18:48:07Z,0,Always amazing content,True
+@guybrushthreepwood3173,2023-02-12T14:13:49Z,0,"Corey uses pd.series.min as an example function when talking about the apply method (about 26 minute mark). I can't work out why this isn't df.series rather than pd.series, because surely it wants to examine all the series in the dataframe...taking all the series in pandas itself doesn't really make sense to me. Can anyone explain?",True
+@LearningIsHere,2023-01-30T13:44:12Z,2,"11:00  if you used (.loc) with a new column name it will add this new column, but with (.at) it will throw an error",True
+@jacksonsmith4657,2023-01-27T19:32:25Z,0,I love you bro,True
+@melsaied101,2023-01-21T01:58:18Z,0,Thanks,True
+@abrahamalvarez2730,2023-01-18T15:32:01Z,0,"hey hi, Corey. Do you have a video of how to copy and paste an entire column with data to another data frame or another file such as excel?",True
+@user-qn5by5iv7u,2023-01-07T10:02:20Z,0,2023,True
+@yuval1588,2022-12-31T14:37:44Z,0,Does anyone have the states of Jupyter Notebook at the start of each chapter?,True
+@tanle7509,2022-12-26T19:36:33Z,61,"At this time (beginning of 2023), your videos are still worth more than all paid courses I have studied on Udemy and Coursera (IBM courses included). Thank you for your work, it is much appreciated!",True
+@JL-fly7,2022-12-05T23:18:30Z,1,"Hey Corey, thanks for your video. There is one thing I am not sure you encountered while doing the video. When I use map function to set Yes to True, and No to False for Hobbyist column. What I got here is all value turned to be NaN. Not sure what the reason is. Here is my function used which is same as you mentioned in the video. df[""Hobbyist""]=df[""Hobbyist""].map({""Yes"": True, ""No"": False}). Thanks again.",True
+@mariosconstantinou8271,2022-11-30T12:14:36Z,0,The difference between .at and .loc is that .at can access 1 value while .loc can access multiple,True
+@Alain9-1,2022-11-18T14:30:43Z,0,if all university professor explain the way you do,True
+@contrevaloir,2022-10-31T21:14:07Z,2,"These are, hands down, the most well explained tutorial videos on pandas, and programming, that I've seen, in or out of university. This guy is an amazing teacher. Thank you!",True
+@AmsaRamesh,2022-10-28T02:30:23Z,0,"Its very nice Tutorial, thanks",True
+@kameshinipillay4587,2022-10-21T15:12:41Z,0,"Great video thank you, learning a lot from you!",True
+@emilyma6905,2022-09-20T02:09:26Z,0,"1:57 change column names df.columns=['first_name', 'last_name', 'email'] 2:27 list comprehension  df.columns = [x.upper() for x in df.columns] 4:49 change some names(not all) df.rename(columns={'first_name': 'first', 'last_name' : 'last', inplace= true}",True
+@omeryazici5318,2022-09-17T21:40:42Z,0,perfect series. thanks a lot,True
+@blushandrush9584,2022-09-10T14:23:08Z,2,"hey corey, you're such an awesome teacher. I've been enjoying your pandas tutorials so far and have learnt so much. Thank you!!",True
+@paulohsgoes1959,2022-09-06T23:18:12Z,0,How to make apply methosd refer to a function that takes in more than one argument?  Thanks in advance,True
+@srikanthpanguluri6305,2022-09-04T11:47:00Z,0,"cool to see , can  you also update how can we make same  changes  in CSV file  pls",True
+@kvkulakarrni7257,2022-09-01T17:14:42Z,0,how to convert scientific notation to number as we do in excel by prefixing single quote(') in  scientific notation,True
+@ramanpreetkaur4652,2022-08-22T10:48:54Z,0,"Hey, have you stopped posting videos now? I just stumbled through your channel and was very impressed with the content here. Thanks for your efforts.",True
+@felipegutierre7037,2022-08-15T23:07:19Z,0,Thank you for this amazing video!,True
+@adeafni9544,2022-08-10T16:25:03Z,0,"corey, how do i know when do i have to use brackets or not?    df.columns = ['first_name', "" last_name', 'email']   here u use square brackets after '='    df.columns = df.columns.str.replace(' _') but here u don't use brackets  thank you",True
+@christianhugel4719,2022-07-10T12:01:18Z,0,"Thanks for your video tutorials, I learned a lot! Anyways, I stumbled over an odd issue when writing the the file with df.to_csv: pandas seem to add a blank last row at the end of the file. Some CVS importer have an issue with that and the import will fail. Do you have any hint how to get rid of that last blank row? Thanks",True
+@user-qn5by5iv7u,2022-07-09T10:10:15Z,0,2022,True
+@nathaniellivingston4497,2022-07-06T16:05:50Z,0,Thank you. Ive been creating the craziest functions trying to get this to work. now im laughing at the simplicity. Again thank you,True
+@UsmanKhan-tc4sk,2022-07-03T09:37:31Z,0,How can i just print only strings and numbers from a dataframe and remove unnecessary symbols?,True
+@AMAerik,2022-06-29T10:54:25Z,0,"Corey, all your subscribers are absolutely deserved 👍",True
+@chukwuemekaeneh1136,2022-06-24T07:28:17Z,0,All I can say is God bless you.,True
+@jerrywang3225,2022-06-23T09:59:18Z,3,Your tutorial is invaluable. There is no better place to learn pandas on Youtube.  Please keep updating your channel.,True
+@navyakeerthivankadari8979,2022-06-15T16:06:33Z,0,Can anyone explain the difference between passing a function with and without parentheses,True
+@sumitsingh1341,2022-05-09T23:09:50Z,0,"while calling update_email, why we do not need to pass the function argument!!",True
+@ManzoorHussain-gz1vk,2022-05-09T18:14:07Z,0,"Thank you so much, Sir. These lectures are gold.",True
+@GeolEnergiser,2022-04-19T20:47:56Z,0,"Fantastic, thank you so much for your clarity",True
+@Coney_island23,2022-04-13T20:42:20Z,0,excelent!!,True
+@pawangulia0,2022-04-13T11:10:54Z,10,"Your videos are pure gold, Mr Corey. This is a gift of knowledge to people all over the world. Thank,you sir!",True
+@inetapriedite6063,2022-04-09T14:43:11Z,0,Thanks useful 👍,True
+@jaankeels,2022-04-08T05:32:43Z,0,Good 🤩,True
+@meysamshayan2470,2022-04-05T03:44:12Z,1,Yes,True
+@dominstal4357,2022-04-04T18:14:21Z,0,👍,True
+@kendravanhardenberg1920,2022-03-30T16:20:57Z,1,man if you didn't talk so fast you'd be perfect,True
+@meysamshayan2470,2022-03-29T23:18:54Z,1,Top ok,True
+@Mr.G626,2022-03-20T02:10:01Z,0,thanks!,True
+@TarokhYaghoubi,2022-03-10T12:56:23Z,0,Another great video = thanks for sharing these Corey . ,True
+@supriya1316,2022-02-24T08:28:51Z,0,Thanks for such a great video . Could you please help me with the below doubt : when do we need to use parameter inplace =True and just by assigning the result back to the data frame will implement the changes in the original dataframe,True
+@kunjalsahu3504,2022-02-18T14:23:49Z,0,Thank tha k u so much sir 🙏 very helpful,True
+@shraddhas3216,2022-02-10T06:01:43Z,0,Why use a apply to find min?. Isn't df.min() easier?,True
+@kishansindhi5181,2022-02-04T05:21:52Z,1,from last 2-3 days i was finding how to change the multiple columns. and i was not able to find it but i find it in this video : )❣❣,True
+@vishakp89,2022-02-03T18:47:33Z,0,"Learnt a lot of Python, thanks to you. You make it very straightforward and simple. Thanks!",True
+@muntadher8087,2022-02-02T11:04:11Z,0,"Thank you so much, I've been follwing along this playlist, this video got stretched more than how it should be. This is a feedback for your future videos.  Thank you so much again!!",True
+@oluwadamilaretijani1777,2022-01-28T15:52:59Z,2,"Thank you so much Corey for this amazing series, the world is blessed to have you in the group of Pythonista. I really missed you on YouTube.",True
+@abhisheksingh_1328,2022-01-25T08:30:14Z,0,Hat's off to the effort 🙇,True
+@cybersphere,2022-01-08T23:12:48Z,0,"I took a course previously that included pandas, but it didn't include 90% of what you've included in this series. Thank-you.",True
+@Diego_-,2021-12-14T19:54:16Z,0,Thank you so much! Would it be possible to add some explanations on how replace multiple values within a data series with conditionals?,True
+@yousefmedhat56,2021-12-09T19:31:56Z,2,"I'm really learning much from this series, no word would suffice to express my appreciation",True
+@burakcelik3752,2021-11-27T16:52:33Z,1,Thank you for your great effort. I've been watching your video for refreshing a long time no use situation and would like to say that accessing a single variable with df.at method is faster by around 50x than regular df.loc method. Similarly df.iloc method has a rapid counterpart called df.iat also.,True
+@fahadshoaib8735,2021-11-25T17:39:04Z,86,updating column names   1:50 updating data in row   6:20 updating data in multiple rows   15:40  apply() with series   17:51 apply() with data frames   22:33 applymap() (used only with df)   28:11  map() (used only with series)   30:00 replace()   31:32,True
+@oamontoyarodriguez,2021-11-12T20:49:47Z,0,when i used the rename method to rename the columns i get an error that says that is an  unhashable type: 'list'. I cannot figure out why does not work. Do you have any idea,True
+@lilitpetrosyan6029,2021-10-14T07:00:16Z,0,Just found you by accident and this is just amazing! Thank you very much for these videos!,True
+@AMITSINGH-rg6jl,2021-10-09T12:48:21Z,0,I am getting error while applying appy method to single column and it works fine on full dataset reminder dataset is ok no mistake,True
+@ironpolux,2021-10-09T11:55:42Z,0,"Question : if I use  filt = df[""LanguageWorkedWith""].str.contains('C++', na= False) df.loc[filt, ""LanguageWorkedWith"" ] , it raises an ERROR  However it does work if I only use ""C+"", can anyone please explain? please :)",True
+@ironpolux,2021-10-08T12:45:48Z,0,"An ""Income"" column would be a great idea for the example with jane and john",True
+@jongcheulkim7284,2021-10-08T11:23:38Z,0,Thank you. This is very helpful.,True
+@rohitborooah4695,2021-10-01T13:36:14Z,0,"Hi Corey, When I do df.columns I get the following: MultiIndex([('date',),('time',),....'], names=[3]) What is the meaning of this? Is each column name a tuple and not a string? And what is the meaning of names=[3]?  PS - I had done this first...  df.columns= [df.loc[3,:]]",True
+@hazem8278,2021-09-30T10:47:41Z,0,21:10,True
+@DendrocnideMoroides,2021-09-28T17:02:00Z,1,Pro tip: in Jupyter if you ever want to see all the shortcuts the press H key (The shortcuts are very useful),True
+@brandm5176,2021-09-28T05:48:12Z,0,thanks a lot!,True
+@GOLDDAR,2021-09-17T22:57:19Z,0,You are an awesome  Instructor !,True
+@PerspectivePassport,2021-08-28T14:56:17Z,0,"I am no Madara, but I declare this the srongest Youtube series on pandas! :)",True
+@ajinzrathod,2021-08-06T12:05:40Z,0,Lucid Explanation,True
+@danielmarx3106,2021-08-02T05:30:05Z,0,What would be the difference in the following: df['email'] = df['email'].str.upper() df['email'] = df['email'].str.apply(lambda x: x.upper()),True
+@harry1265able,2021-07-08T05:55:42Z,0,What are scalar and vector functions for updating data in dataframe,True
+@clairesnibbe1878,2021-06-03T22:39:39Z,0,"Please will you make another video where you demonstrate how numerical values can be modified e.g. multiplying a series by a float, multiplying each series in a data frame by a float?",True
+@BAL31m89,2021-05-30T03:04:06Z,0,"hi corey, can you please make a short video to replace Values in a column or bunch of columns with a conditional statement. like go to a column and replace the value with our given value, if the statement is true. like if value is greater than some number then replace the value with '0' or something similar.",True
+@yadavchitra9832,2021-05-25T09:46:03Z,0,"Thank you, Corey, This tutorial is very useful and cleared all my doubts,",True
+@zohebkhan2122,2021-05-23T06:59:22Z,0,No one teaches better than @Corey.,True
+@mikecmw8492,2021-05-19T00:42:18Z,0,"I have a generated list of integers from each row of my dagaframe. How would I replace an existing column, say curr_value to this array? So all values in the generated list is assigned to the corresponding curr_value column",True
+@crunchycho,2021-05-06T06:12:37Z,0,"@Corey Schafer hey corey, took a minute to do some research that found that .at is only for getting single values given row & column. It is much much faster than loc. Also preserves datatype. So if you have an INT column and feel in a float, it'll get truncated to its INT version. Thanks for the videos!",True
+@eduardodallabrida1976,2021-05-05T17:31:24Z,0,I'm so relieved now,True
+@jamikemichelohia2615,2021-05-03T12:45:00Z,0,Great Serires Altogether!,True
+@salimbo4577,2021-04-29T06:39:07Z,0,"i don't know if i have thanked you before or not, if i did it means you saved multiple times and i thank you ones again",True
+@rvamerongen,2021-04-22T14:57:04Z,0,"Great tut, a question about columns in a DF. You showed us.  people_df.apply(len, axis='columns')   # apply then 'len' function to the dataframe # each row has 3 columns, I understand this say's, there are 3 columns with a value. # However, is it posable to have different number of columns for each row?",True
+@andrewo1072,2021-04-19T16:47:26Z,0,Thanks man. This was the final piece of the puzzle for a problem that I was solving.,True
+@sirjlogan,2021-04-07T23:57:34Z,0,Why do we want to update values. Normally want to work with data the comes to us? Not change it.,True
+@vagelisilias,2021-04-05T18:00:24Z,0,Corey Schafer I have seen loads o videos on how to change a specific value in a specific row and no one really no one demonstrated how you can to do that only the columns head and index rows  Thank you for that video really i was struggling to find how to change values inside the rows and not only the indexes.  You are explained better than my university,True
+@EUU100,2021-04-02T08:25:36Z,0,Thank you!,True
+@EdvanAguiarEA,2021-03-12T19:51:56Z,0,"Corey, I am extremely happy that I came across your YouTube channel. You are great.  I have a question: How can I change the classes' names of a categorical variable. For instance: Suppose I have a variable name ""Degree"" with three categories (Low, Medium, High), and I wanted to change the names for (L, M, H). How would I do that using pandas?  Thank you!",True
+@haiderali2050,2021-03-07T08:03:04Z,0,"Thanks i have learnt so much fun your pandad video tutorial. Currently i am stuck in a situation.  I am filtering some non na vales from column C and i want to copy those non.na vales to another existing column A without effecting other elements in it.  When i copy, the complete column copy.  Can you help?",True
+@gaberuth2500,2021-03-04T05:10:54Z,0,Straight to the point and super helpful. Thanks!,True
+@saiakhil4751,2021-02-28T18:28:04Z,5,"I've never seen a more organized and compact way of teaching. Kudos Corey, you are the king.",True
+@joachimhofmann5416,2021-02-26T19:27:00Z,0,Hi Corey! My English and my grammar ist not best but I do my very best. First of all I would like to say that I am very enthusiastic about your videos. I had a really really big Excel sheet to evaluate and wanted to clean up the data first. I used .loc as you recommended. ... that took over an hour. Then I tried the same with .at ... and the whole thing didn't even take a minute. So your assumption was correct that .at was the better method in this case for performance reasons.,True
+@nickt423,2021-02-16T17:45:00Z,0,"Hey corey. I figured out how I can use SQL statements to retrieve data by using the pandasql package. How would I use that to update a dataframe though?  Here is what I have that works ps.sqldf(""select * from df where email = 'JohnSmith@email.com' "")",True
+@irtazaanwar2144,2021-02-14T09:41:10Z,0,set' object is not callable,True
+@alfredsfutterkiste7534,2021-02-02T18:32:36Z,0,Please set your jupyter notebook (and any other themes) to dark mode when making videos. This is honestly searing to the eyes. I'm struggling through them after work in a dark room nontheless because the content is great. So only complaint is the light theme.,True
+@IAfoke,2021-02-02T02:34:58Z,0,"Hi Corey, you really helped me out, this video has been soo clear. Do you reckon you could give me some advice on something if you have a minute? I'm currently trying to remove all of the dashes in a particular column of my Dataframe so that I just have numbers in the column. Then I'm trying to export my new data frame with the updated column to a .csv file but I'm currently struggling to do so. I've been looking on loads of websites but haven't managed to find an accurate answer",True
+@richarda1630,2021-01-25T00:13:34Z,0,15.37 Multiple inserts,True
+@EzioOmer,2021-01-20T19:49:35Z,0,"since there is two 'JohnDoe@email.com', when he filted these why he did not receive Jane and Jonh rows as a filted dataframe ?? 12:34",True
+@sheikhraisulislam1979,2021-01-20T05:12:22Z,0,"I did not understand why, at 20:25 , df['email].apply(update_email)  why its not df['email].apply(update_email())??? someone please explain",True
+@yikee4500,2021-01-14T17:02:04Z,0,"Thanks for the tutorial sir! I am totally grateful to have stumble across your videos, because it is a pretty daunting process to go through the documentation alone.",True
+@simonerogato3779,2021-01-11T23:09:38Z,0,"Nice video! I would like to point out that in my personal testings the AT method is between 10-20 times faster then the LOC., but there is a MASSIVE problem with that function. If you try to use the AT method and update a int value with a float value, it will be SILENTLY casted to int if the column is INT only. This can seriously damage some Datasets with no alerts. If you use the LOC method instead, the entire COLUMN values will be casted to float. Thanks a lot for your videos Mr. Schafer, I'm learning a lot !",True
+@josephloyd2176,2021-01-11T22:45:57Z,0,"Love what you do, I also try to explain complex ideas in beginner language on my channel, I would appreciate your support https://www.youtube.com/channel/UC6N4i972Z7F-ozmUWDakS1Q",True
+@adarshyadav340,2021-01-05T16:16:16Z,1,"df2['CompFreq']=df2['CompFreq'].apply(lambda x:x.upper()) getting error - --------------------------------------------------------------------------- AttributeError                            Traceback (most recent call last) <ipython-input-80-ed173d0ff8dc> in <module> ----> 1 df2['CompFreq']=df2['CompFreq'].apply(lambda x:x.upper())  ~\Anaconda3\lib\site-packages\pandas\core\series.py in apply(self, func, convert_dtype, args, **kwds)    4040             else:    4041                 values = self.astype(object).values -> 4042                 mapped = lib.map_infer(values, f, convert=convert_dtype)    4043     4044         if len(mapped) and isinstance(mapped[0], Series):  pandas\_libs\lib.pyx in pandas._libs.lib.map_infer()  <ipython-input-80-ed173d0ff8dc> in <lambda>(x) ----> 1 df2['CompFreq']=df2['CompFreq'].apply(lambda x:x.upper())  AttributeError: 'float' object has no attribute 'upper'  ​ If anyone can help please reply",True
+@patrickbarry4276,2021-01-01T18:43:01Z,4,"These are the best Pandas tutorials on YouTube.  It would be great to see a tutorial on vectorisation.  Covering numpy functions, including np.where and np.select and explaining the time benefits.  There are very few good resources for this.",True
+@AlexJaeger716,2020-12-29T22:24:02Z,0,amazing video! Thank you so much! maybe add timestamps next time!,True
+@touhidislamTOUHID498,2020-12-25T19:46:35Z,0,Best video series on python. Thanks a lot.,True
+@DecentxR,2020-12-20T13:41:57Z,0,"Map for "" yes to true and no to false"" for hobbyist column isn't working for me. Yes and No both are renamed as NaN. Help Please",True
+@vaishnaviv2169,2020-12-18T14:35:17Z,0,I tried df.rename(columns...but the original survey sheet didn’t get modified....hence I tried df= df.rename(columns)...it works🤩,True
+@akioo9495,2020-12-12T07:16:45Z,0,"when axis='rows' it goes along column (whoever thought of this, wonder what he was thinking!)  edit: going 'across' rows justifies I guess",True
+@icompare7500,2020-11-16T20:10:06Z,0,As I am using 'replace' and 'map' function are showing same result,True
+@fuzzywuzzy318,2020-11-16T16:33:30Z,0,"I am your chinese audiant ,i feel your video is really helpful! i am now study at singapore management university !!!!business analytics major, so use python to do data analytics is really important ,and your video is focus on use python to deal data!",True
+@manosveisakis8030,2020-11-11T09:32:51Z,0,After all these tutorials I want to know who is John Doe...,True
+@ravekid23,2020-10-30T20:29:51Z,0,I was curious so I looked it up:  at is faster than loc but only works on individual cells. loc can work with arrays of cells,True
+@expat2010,2020-10-28T13:11:36Z,4,"Every single video you do is perfect. Pacing, structure, content.. everything.",True
+@ankitaburman5406,2020-10-15T12:10:27Z,0,Thank you so much Corey for these videos,True
+@Virtualexist,2020-10-14T16:58:18Z,0,Applymap and apply not working on the stackvoerflow data frame? Why?,True
+@alexanderkozhukhov4235,2020-10-12T21:19:41Z,111,"I can't believe I am watching this for free. I admire people like you, Corey Schafer. Thanks a lot!",True
+@lucasschneider517,2020-10-05T20:09:19Z,0,"When i try to changed a value in columns, it loses all values ​​and changes to 'None'. I created a variable for the column, took the values I didn't want from it and tried to ""import"" it again to the df. could someone help because it returns 'None' ?",True
+@maddipatiin,2020-09-25T04:01:53Z,0,"Super explained, it is easy to understand for DB developers. Thanks",True
+@subhodipchoudhury8646,2020-09-11T16:52:53Z,0,28:00,True
+@anuraagpandey8316,2020-09-09T10:51:27Z,0,"25:00 rows and columns are same 3X3. I tired same. but for df.apply(len, axis = 'rows') the columns are getting calculated. Am i missing something here?",True
+@vaibhavkhobragade9773,2020-09-09T06:50:59Z,0,"Hi corey,  could you please make separate videos for reshaping the DataFrame like pandas.melt(), pandas.pivot() with groupby(). It's really helpful to solve the structural issues of the DataFrame and make correct DataFrame for the analysis and visualization. Thank you very much! :)",True
+@arpitagec9,2020-09-07T14:37:43Z,5,Hey Corey!! Thanks for the amazing series on Pandas :) It's the best sequential and easy to follow series I have come across.,True
+@Uma7473,2020-09-06T11:37:36Z,0,Thank you so much,True
+@comp5434,2020-09-02T11:58:20Z,0,I didnt understand why we didnt put function parenthesis in apply() @ 20:50.,True
+@alenjose3903,2020-09-02T08:18:09Z,0,"df.apply(len, axis='columns'); why does this count the elements in a row, shouldn't this be counting the number of elements in a column.",True
+@Worldnme,2020-08-29T14:19:26Z,0,I was Trying to use the apply(len) on the stackoverflow df but it is not working says that object of type float has no len()..?? can anyone help,True
+@ashishdeora8522,2020-08-27T17:16:59Z,1,I wonder what inspires you as a person. Can you host a QnA or AMA ? We all have tons and tons of funny and serious questions to ask,True
+@juanmanuelhuete8909,2020-08-26T18:16:13Z,0,You are incredible. You explain very well and simple. Thank you a lot. From Argentina,True
+@abhinav9561,2020-08-12T07:20:37Z,54,"She: Let's do it tonight Corey: Well, there's a couple of different ways that we could do this :-) Btw, Thanks Corey for your effort. These tutorials are gold :)",True
+@danielmarx3106,2020-08-07T16:04:06Z,0,"Why would we use map vs replace? I understand that map converts things to NaN if we don't specify, but don't understand why use one vs the other.",True
+@hkemal2743,2020-07-02T10:11:42Z,0,"Why len email =23 or 17? When I count the characters, len is less.",True
+@sujoydatta2995,2020-06-25T19:21:36Z,0,Your videos are very helpful !!  Please post a tutorial on using loops in pandas data frames....thanks much !!,True
+@shashwatdev2371,2020-06-24T10:29:49Z,0,If someone is having doubt that they should watch these video or not I would suggest just see like to dislike ratio. 1.5K likes and 7 dislike. Such a good ratio is not anywhere else on youtube. Thanks Corey :).,True
+@ankitbillore8221,2020-06-20T11:27:49Z,0,df.at is faster than df.loc ..,True
+@vineetpandey3246,2020-06-19T16:08:05Z,0,Thankyou,True
+@palanichamyramasamy825,2020-06-19T03:21:04Z,0,Can you please show me how to group by multiple columns and update a value of the column in the grouped rows,True
+@saiyedali561,2020-06-15T05:09:38Z,0,"ekdam badhiya batawa taaresh bhai , chal badhiya baa",True
+@pratikkawalgikar4839,2020-06-12T06:49:57Z,3,"Simply superb Corey. Thanks a lot. You are a good teacher. Can you please upload a video on lambda functions and numpy series, it will be really great.",True
+@shivakumarpendem7871,2020-06-12T03:26:04Z,8,Brilliant is seared into my brain after watching Matplotlib series and Pandas Series XD.,True
+@kiraal3619,2020-06-10T15:16:02Z,1,"thanks alot, very helpful",True
+@reydman08,2020-06-09T20:33:55Z,13,"Corey, Thank you so much for your videos! They are simply Brilliant :)   A few quick notes: 1) at is much much faster comparing to loc.  Here is the proof: https://stackoverflow.com/questions/37216485/pandas-at-versus-loc  2) map method can work with NaN values just like replace. We just need to use na_action=''ignore' argument",True
+@TynOng,2020-06-07T22:04:12Z,0,".at supposed to be faster than .loc where you only need to access one row. But someone in stackoverflow question, noticed (Pandas 0.20) that .at preserves the data type where .loc convert it. e.g existing column as int values, you assign float, .at convert your float to int (precision loss) where .loc converts the column into float I tested in Pandas 1.0.3 and got same result",True
+@black3431,2020-06-07T19:37:27Z,0,And how to delete data?,True
+@shivanshsingh5555,2020-06-04T18:17:02Z,0,Your teaching is amazing. Thank You,True
+@arijitkamlay479,2020-05-31T22:47:46Z,0,"Hi Corey..  I had one question on the apply method. Can we pass more than 1 argument in the function like below: def xyz(first, salary):       if first == 'Corey':            salary= 200000       return salary  Now can we update a row's salary by choosing the written method and applying the apply() method?   Please help, a little confused in this.",True
+@JoshuaDHarvey,2020-05-30T05:26:44Z,0,"Great video, thanks Corey!  29:42 you can also just construct the data frame by using double brackets and a list of the columns you do want so - df.[['first','last']] but there may be a better approach.  37:18 also another good way other than .value_counts() to get a unique list is tuck your series into the set() function.",True
+@gauravmarwaha8466,2020-05-29T20:00:49Z,0,"hey Corey, thanks for the wonderful videos, i suppliment my udemy course with your videos...so you should definitely put up your stuff on udemy and monetize it....!!! and by far i ve found u to better that most of the udemy folks, including jose portilla and rob perceival and kerill erminko (dont mind the spellings, m too lazy to look them up and correct).... !! p.s. 40 mins is long, but content wise i think u did justice..!!!",True
+@arunrajan1979,2020-05-28T06:15:19Z,4,Thank you so much for these amazing videos corey. you are doing a wonderful job and may i know when will you finish this pandas series completely?,True
+@user-pl8ee9iu3t,2020-05-23T10:05:39Z,21,"For reading Python's documentation press ""Shift+Tab"" at edit mode",True
+@shikharsaxena9989,2020-05-20T21:29:14Z,1,wowwww very useful lecture,True
+@kaziinjamamulhoquegalib6948,2020-05-16T14:48:53Z,0,"Hello Corey! Your videos are awesome! but i am seeing these after i run the code -- df.columns ​ Index([u'email', u'first', u'last'], dtype='object')",True
+@mas7850,2020-05-07T04:01:30Z,0,Thanks for your generosity for sharing your skills with us.  A truly  comprehensive tutorial.,True
+@mas7850,2020-05-07T03:43:05Z,0,Thanks a lot for the comprehensive tutorial.,True
+@himanshuparmar8264,2020-05-03T09:14:55Z,0,"YOU ARE MAKING THE LIVES OF MANY,SIMPLER. GREAT WORK MAN!",True
+@richardkujur,2020-05-03T08:48:01Z,0,"This is the best thing ever, just wanted to ask does these analysis will help me in Data Journalism.",True
+@babafakruddinshaik8399,2020-05-01T05:16:03Z,0,"Sir , Can you ease make a video on lambda function.....",True
+@dude789d,2020-04-24T11:18:11Z,1,"Thank you Corey.,,,you are the best",True
+@camilomartinezcampos9574,2020-04-23T22:27:24Z,1,You're goat bro'. Thanks from Colombia!!!!,True
+@ashwin8166,2020-04-22T06:49:19Z,0,What is the difference between df['email'].apply(len) and len(df['email']). Why are the outputs different for both?,True
+@AnalyticsWithVipul,2020-04-18T22:29:35Z,0,"Hi Corey, while implementing the apply, applymap and other 2 methods , I am facing a key error. Please find the details of the error:   //Quote** c:\users\91816\appdata\local\programs\python\python38-32\lib\site-packages\pandas\core\indexes\base.py in get_loc(self, key, method, tolerance)    2645             try: -> 2646                 return self._engine.get_loc(key)    2647             except KeyError:  pandas\_libs\index.pyx in pandas._libs.index.IndexEngine.get_loc()  pandas\_libs\index.pyx in pandas._libs.index.IndexEngine.get_loc()  pandas\_libs\hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item() **Unquote//",True
+@TopicalAuthority,2020-04-18T16:28:38Z,1,Thank you!,True
+@tanvirkaisar7245,2020-04-15T07:39:41Z,0,"hey Corey, great video as usual! I have a question. At 4:30 why could not we have used list comprehension for str.replace() as you did with .upper()? Why .upper() has to be list comprehension and str.replace has to be called directly?",True
+@30DeGraff,2020-04-14T01:04:45Z,0,"Hey Corey, If I have a column that is titled ""Days"" and in that column is a different number from 0-6 to represent each day of the week, could I use a combination of Pandas and Functions to create something that when called would present these numbers converted to days, for example 0 = Monday, 1 = Tuesday etc, and if so, do you know of any examples of how this may be obtained or how I could go about doing this?     Do you have any videos that cover this kind of stuff? Currently going through your video playlists to find something like this, and this video has been great so far!",True
+@zberteoc,2020-04-10T13:33:48Z,1,"Hi, Corey. I found an explanation about .loc vs .at: https://stackoverflow.com/questions/37216485/pandas-at-versus-loc",True
+@Esscapade,2020-04-08T15:38:18Z,0,1. Can anyone recommend; how we can practice some of the concepts taught  by Corey   2. Can anyone recommend a good 'paper book' to be used as a reference for Python and Pandas,True
+@mggarekar,2020-04-05T02:52:46Z,1,"nice, this dataset would be good for ml stuff as well",True
+@paulohenriquews,2020-04-04T16:11:59Z,0,[HELP] NUMBER 12345678 16785445 765 (numbers missing) 37485656 45347699  How do I count? 0   8 1   8 2   3 3   8 4   8  df['NUMBER'].apply(len) =>> TypeError: object of type 'int' has no len(),True
+@aegystierone8505,2020-03-31T10:56:17Z,5,"I really appreciate how you explain it in detail Corey, I will support you in any way I can!",True
+@work-clementchan3319,2020-03-29T09:24:53Z,1,"learns a lot from your videos, which you always point out the confusing parts in python",True
+@philippe1454,2020-03-26T17:55:48Z,1,"Thanks a lot Corey!! This series is as always amazing. But I found another helpful link for getting started with the Pandas library, which helped to put Corey's teachings into perspective. It also shows you lots of other useful tricks. Might be helpful to some:  https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html",True
+@karthikudupa5475,2020-03-24T13:48:34Z,1,Thanks a lot Corey Difference between series method and Dataframe methods... nicely explained.,True
+@CriticalThinker0890,2020-03-21T11:16:51Z,2,"Man, your ""Hi there, how is it going , everybody"", is executed in less than half a second man, :-D, thanks for nice tutorials man",True
+@mayanksharma5226,2020-03-20T08:21:44Z,0,Who else wants videos on numpy....???,True
+@sanjeevaus,2020-03-17T20:30:34Z,1,"Hi Corey, Thanks for informative video, making python learning easy. I have one question, @20:14 while creating update_email method you used ""return email.lower()"" function without str. prefix and it went through while other places example @29:48 while doing applymap it was ""df.applymap(str.lower)""  So, my question is when does str. prefix becomes mandatory when using lower() function?",True
+@RalphAlberg,2020-03-17T11:11:32Z,1,Thank you for these videos - they really are excellent,True
+@VodKaVK,2020-03-13T14:19:25Z,0,"Hi Corey - you mentioned that you weren't sure about the difference between .at and .loc.  Well, me neither, but going back to the data survey from Stack Overflow, I tried changing every single cell in the column 'LanguageWorkedWith' into a list of the languages, instead of a string.   .loc didn't work, not sure why. I only managed to achieve it through this.   for i in range(1, 88863):      df.at[i, 'LanguageWorkedWith'] = str(df.loc[i, 'LanguageWorkedWith'])     df.at[i, 'LanguageWorkedWith']  = df.loc[i, 'LanguageWorkedWith'].split("";"")   Not sure why I couldn't do it with .loc",True
+@MonaJalal,2020-03-12T16:43:13Z,3,you own the 5/5 in RateMyProfessor!! Thank you,True
+@MonaJalal,2020-03-12T16:32:46Z,0,"I find this way of partially updating easier to stick in my mind  people_df.loc[2]['Last', 'Email'] = ['Doe', 'jdoe@gmail.com']",True
+@ledung907,2020-03-12T15:39:34Z,1,"Thank you so much, sir !",True
+@bharathbanala,2020-03-06T12:38:10Z,17,"Hey Corey,  Could you please make a small video on lambda for better understanding of it. Thanks.",True
+@Waffano,2020-03-05T13:58:01Z,0,"Thanks for a nice tutorial. How come you dont pass anything into the ""update_email"" function when you use it in .apply?",True
+@Al-Ahdal,2020-03-02T18:29:49Z,1,"Sir, your videos are awesome. Great work indeed.",True
+@rauberhozenplotz7009,2020-03-02T09:29:37Z,24,Insane work! Nice flow of talking and explaining. You have got great talent in teaching.,True
+@shaanshah3270,2020-02-29T17:33:56Z,6,The Tutorials are great and  they are set at a perfect pace,True
+@bextuychiyev7435,2020-02-23T11:47:26Z,0,`df.apply(min)`  works the same,True
+@corben3348,2020-02-22T17:59:23Z,3,Thank you so much for your tutorials Corey ! You are for sure a brilliant teacher ;),True
+@stressfreetrading1341,2020-02-20T07:14:54Z,22,Do press a like so that this comes first in the suggestion whenever anyone searches for Pandas. coz this is better than all other courses available.,True
+@stressfreetrading1341,2020-02-20T07:13:47Z,0,"The best channel to start with anything. Never get bored and learning a lot. Thank you, sir, for all your time and effort.",True
+@gizlikullanc4861,2020-02-18T11:01:34Z,0,"20:26, you could pass str.upper as function instead of creating a new one, fyi",True
+@RiantHoff,2020-02-16T13:22:52Z,1,pandas .at versus .loc  https://stackoverflow.com/questions/37216485/pandas-at-versus-loc,True
+@ishanpand3y,2020-02-14T14:23:03Z,4,"5th day, 5th lecture. Thank you, sir.🧡🤍💚",True
+@YeekyYeeky,2020-02-11T01:02:29Z,1,great great great . thank you Corey Schafer very much,True
+@helaolange,2020-02-10T19:01:41Z,0,Again please do include documentation next time. 👊,True
+@helaolange,2020-02-10T18:57:11Z,0,Boolean values can be converted to 0s and 1s using a technique called one hot encoding.  Great video by the way.,True
+@helaolange,2020-02-10T18:34:37Z,0,"Me at 17:47  ""Just use MD and make them part of the code. """,True
+@jg9193,2020-02-07T18:23:39Z,0,"Even though it doesn't apply to the examples you used, vectorization might also be worth mentioning for performance reasons",True
+@magnusrodseth,2020-02-04T15:37:07Z,0,"Hey, Corey. Absolutely loving this series; you're the most articulate teacher on this subject I've come across.   Around the 36:51 mark, you map the 'Hobbyist' column like so: {'Yes': True,  'No': False}. I followed along and updated the 'Hobbyist' column TWICE by mistake, so now the entire 'Hobbyist' column is filled with NaN, NaN, NaN, etc... for every single respondent answer.    How do I revert this column back to normal; back to its original state in the .csv? Many thanks in advance.",True
+@Teruroom,2020-02-04T14:28:44Z,1,SPEC IAL THANKS➰😆💕✨➰,True
+@balabunat,2020-02-02T18:51:01Z,11,"I am not new in pandas, but anyway, this videos are worth watching because your explanation is just wonderful",True
+@fakhrirobi5156,2020-02-02T14:15:01Z,2,"Sir since i novice code writer, i went into trouble when changing column name and it appeared like, "" 'builtin_function_or_method' object has no attribute 'upper' "". do u have any solution??",True
+@stilianstoilov3728,2020-02-01T07:03:07Z,0,Please create a video for jira-python,True
+@hiteshpathariya3891,2020-01-31T10:44:33Z,0,My question is different I am able to open windows The problem is here There is no option showing to open windows and automatically Ubuntu open please help me,True
+@sirturnables,2020-01-31T05:10:16Z,0,"Hey Corey, are you gonna do a Django 3.0 tutorial on your channel?",True
+@elnazdehkharghani6121,2020-01-30T20:22:04Z,3,Undoubtedly one of the best instructors. I eagerly wait for your  new videos in the scope of data science.,True
+@ronniieeestar6274,2020-01-30T08:14:56Z,0,applymap() method not working,True
+@user-fs6yb4dm5j,2020-01-29T14:37:58Z,0,"Corey, thanks for all of your video series! How many videos will this series contain?",True
+@anneest,2020-01-28T22:40:34Z,0,"Great vid again, I am fine with the length (len), I just splited it in two sessions, and that's it. We had the df.apply(len) at the Euroscipy pandas tutorial. Somebody solved it by actually looping through the pandas, hehe. I didn't know then about applymap, so I had to google a bit... Wonder if that could be a DS interview question?? Cheers :-)",True
+@tireldenamse5854,2020-01-28T16:38:13Z,3,Thanks so much for the series!  That's great,True
+@Sureshezhumalai,2020-01-28T16:34:57Z,22,"Great explanation about apply, applymap, map and replace method. As always great video. Thank you for your efforts. <3",True
+@prashantgorade,2020-01-28T04:38:06Z,0,"Hello Corey, Thank you so much for the video. https://youtu.be/DCDe29sIKcE?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS&t=1841 Please comment on the case sensitivity. dataframe shows the first name as 'corey' whereas in the cell it is 'Corey'. it is behaving case sensitive on my Jupyter notebook (pandas 0.24.2)",True
+@prasadpatil5270,2020-01-28T04:34:33Z,1,Thanks for wonderful tutorials. Are you planing to make Numpy tutorials as well?,True
+@rox852456,2020-01-28T03:39:39Z,0,Is using Pandas with an SQL database common?,True
+@johnzhang5114,2020-01-27T07:56:20Z,1,cant wait for next chapter！！！,True
+@tomeru2377,2020-01-27T06:23:53Z,0,"Hey Corey, thank you for your great videos, i saw your video about ""How to Run Linux/Bash on Windows 10"" https://www.youtube.com/watch?v=xzgwDbe7foQ&t=1s i there is a way to add gui to this method ? regards, Tom",True
+@marcoantonio7648,2020-01-27T02:12:57Z,1,"Corey, how do we load large datasets that our memory can't handle,  such as 2 GB?  We have to work with chunks in these cases?   Love your tutorials, I would probably never work with pandas because I'm so used with the native python, but it really does make life easier.",True
+@sundarpandey3147,2020-01-26T17:33:59Z,3,As always you are great explainer. I am following you from python. Now we are in pandas. I would be glad if machine learning videos will be next. That would be awesome. Thank you for your time to keep us making coder days in and out.,True
+@thekitten117,2020-01-25T17:01:19Z,0,"Thanks again.  Really great job.  I would love to see how lambda functions and the apply can be use to combine two columns. What goes on, do input enter the lambda as a tuple or indiviually...  Again, great tutorial!!! 👊👊👊",True
+@anuragshukla7813,2020-01-25T16:34:59Z,3,Great work man...I really like the ways you are helping people to learn python,True
+@GeoPoly55,2020-01-25T15:18:15Z,38,"sir you're doing really great job.keep going sir.don't stop,soon i'll make some contribution through patreon to your channel. when i'll get my salary .because i love your teaching method. i'm currently learning from your @t you sir, thank you.god bless you.",True
+@akiratoriyama1320,2020-01-25T14:52:49Z,1,Thank you Corey!!!,True
+@mr.chinaski2613,2020-01-25T09:55:08Z,1,Love your videos - keep up this qualified work m8! :),True
+@SandeepChaudhary-vx9zy,2020-01-25T05:53:29Z,22,Great teacher is the one who known how to deliver content probably you are the one among many... thanks,True
+@maciekpaciarski9343,2020-01-24T23:58:04Z,0,Thanks for uploading new material. Do you plan to discuss abstract classes and metaclasses ?,True
+@bystander2389,2020-01-24T22:43:28Z,1,TOP! Thank you so much Corey.,True
+@kevinderawy481,2020-01-24T21:47:15Z,1,Thanks your videos are really helpful.,True
+@navidmohammadzadeh2141,2020-01-24T21:46:47Z,1,You are the best,True
+@TheRealStevenGlen,2020-01-24T21:33:30Z,0,@14:47 for updating 1 row after first matching value,True
+@modernmistyk4341,2020-01-24T20:16:33Z,3,Keep them coming please!  I love you Corey!,True
+@Funnymistry7,2020-01-24T19:19:28Z,0,Hello sir,True
+@avivbaltsan7583,2020-01-24T19:16:18Z,1,Nice vid,True
+@somaloco3701,2020-01-24T19:15:59Z,0,first,True
+@coreyms,2020-01-24T18:17:27Z,199,"Hey everyone! I hope everyone finds this video helpful. I wanted to make this video shorter, but I really wanted to highlight all the different ways we can update our rows and cover the apply, map, and applymap methods in as much detail as I could. In the next video, we'll be learning how to add and remove rows/columns. It will be much shorter. I should have that video out next week. I hope you all have a great weekend!",True

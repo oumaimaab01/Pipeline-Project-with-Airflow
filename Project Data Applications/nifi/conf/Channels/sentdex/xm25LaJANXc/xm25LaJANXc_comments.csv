@@ -1,0 +1,16 @@
+author,updated_at,like_count,text,public
+@jasonwhyttes1679,2019-02-06T08:17:02Z,0,14:16 crusty errors :P,True
+@spookywooky5,2018-12-23T15:27:25Z,0,13:00 Doggo,True
+@archstampton5910,2018-11-14T20:00:52Z,0,"I am a non programmer,  started learning Python a couple of moths ago and I really enjoy this kind of videos, especially the part when you had errors, and how yo usolved them. Keep up the good job please",True
+@Oorange46,2018-10-21T15:16:42Z,0,Casually takes sip from shark mug. Love your videos man,True
+@duanebollig5743,2018-10-21T12:58:31Z,0,Oh crap I’m learning pycharm or python in skool,True
+@Smikay,2018-10-20T10:59:09Z,8,"I like the errors, I like to race you to the solution",True
+@imraff,2018-10-20T09:00:34Z,0,"the reason that halite_dict[position] = halite_amount was erroring is because you were trying to use a dict as a key in another dict, that doesn't work because keys have to be hashable and generally only immutable objects can be hashed, trying to pass position the frozenset(position_dict[direction]) turns it into an non-iterable object... Programming is fun -.-",True
+@yusufsaifi8825,2018-10-20T08:58:41Z,0,"appreciate your great videos, it is a great help for us Can you do a video on Semantic Segmentation please?!",True
+@Krumpetify,2018-10-19T23:15:30Z,1,"I think you can get an absolute position from a direction by just adding the direction to your ship's position, so maybe you don't need position_dict",True
+@BluEagl,2018-10-19T17:16:46Z,0,"The Position class implements __eq__, which discards __hash__ . I just added to the class: __hash__ = object.__hash__  It seemed to work, but have not done any real testing of it.",True
+@Alex4n3r,2018-10-19T15:25:01Z,1,Did this yesterday in one hour. The dict only works because directions are characters whereas positions are tuples which are not hashable by python. This solution didn't account for the cost of movement and time not used for collecting. Daniel Kukila is currently on place 12! WOW!,True
+@rexgao6479,2018-10-19T15:24:09Z,0,"Quite interesting stuff. A large field to explore and cultivate with deep learning models. By the way, I first watched your nltk tutorials and found them quite interesting and useful. Will you think that using NLTK, statistics and other text mining and language processing tools, packages or algos, is a plausible way to have achievements in linguistic field?",True
+@siddharthmittal9355,2018-10-19T15:05:44Z,4,Waiting for your deep learning model!,True
+@gtcfktu,2018-10-19T14:26:05Z,0,Man you're absolutely fucking brilliant.,True
+@mcrcortex6919,2018-10-19T13:35:37Z,8,soon™,True

@@ -1,0 +1,702 @@
+author,updated_at,like_count,text,public
+@mahdifaour2352,2024-05-30T20:26:06Z,0,Nice explanation bro!! Thank you,True
+@henry-zh3rv,2024-05-12T16:04:38Z,0,although I am discovering this 8 years after I still find it very awesome. Keep up the good work man,True
+@tko9753,2024-05-04T10:38:12Z,0,I saved the file in the same directory and in VSCode it is showing that the file is in the same directory of the python program that I'm running how ever. when I try to work with the file I receive the following error message: FileNotFoundError: [Errno 2] No such file or directory: 'mbox-short.txt'. Then I noticed that it is looking for it in the desktop instead of the directory that my Python program is saved in. Any idea how to fix this?,True
+@keramkamrec8119,2024-04-29T18:20:01Z,0,you are a absolute legend!,True
+@etengudumo7184,2024-04-29T17:52:55Z,0,Please your video is not clear,True
+@dragnar4743,2024-04-27T17:30:14Z,0,Thanks for explaining everything in such a simple manner,True
+@wokeezz,2024-04-20T20:16:58Z,0,"Hi Corey, it's 2024 and im still wondering if you ever made the video about how to read and write with in-memory files you mentioned close to the end of this video. Also if anyone could point me to a video or resource about the topic, i'd appreciate it. Thanks",True
+@soopercorb,2024-03-30T18:55:03Z,0,"Hey man you made school much quicker and easier for me, thank you!",True
+@mariadelgado4393,2024-03-28T17:49:12Z,0,"Me, María Delgado. Hi!",True
+@bradyanderson4782,2024-03-24T15:04:55Z,0,Thank you!,True
+@alias77799,2024-03-18T18:48:42Z,0,2024 year 😂😂,True
+@DarkAcademyUniversity,2024-03-05T07:52:03Z,0,GOAT!,True
+@chrcors01,2024-02-18T00:41:28Z,0,The first 10 mins of this video is useless.,True
+@moshewolfsonfinance,2024-01-29T11:52:13Z,0,Thanks. Great tutorial,True
+@shantanukulkarni2413,2024-01-26T06:42:26Z,0,Great explanation,True
+@saadben4680,2024-01-18T08:48:00Z,0,Hello  Why the copied image isn''t troncated ?,True
+@user-td4pf6rr2t,2023-12-14T09:22:34Z,0,"18:05; its because you did not close the file in between write. if you would do f.write();.f.close();f.seek(0);f.write(), it should be just 'R'. i think.",True
+@PrajvalSingh-kc9gv,2023-11-08T13:37:00Z,0,I am stunned these lectures were recorded 7 years ago,True
+@kvelez,2023-10-31T14:54:10Z,1,"with open('test.txt', ""r"") as text_file:     print(text_file.read())     text_file.close() =========================== with open('test.txt', ""r"") as text_file:     print(text_file.readlines())     text_file.close() =========================== with open('test.txt', ""r"") as text_file:     print(text_file.readline())     text_file.close() =========================== with open('test.txt', ""r"") as text_file:     print(text_file.read())     text_file.close() ============================ with open('test.txt', ""r"") as text_file:     print(text_file.read(5))     text_file.close() ============================ with open('test.txt', ""r"") as text_file:     size = 100     contents = text_file.read(size)      while len(contents) > 0:         print(contents, end="""")         contents = text_file.read(size) =========================== with open(""./test.txt"", ""r"") as f:     with open(""text.txt"", ""w"") as file:         for line in f:             file.write(line)     f.close()     file.close() ==========================   this is some sample text for python.",True
+@thaddeusonindi136,2023-10-29T09:55:44Z,0,"This is a great tutorial,  You simplify complex topics and make it simple to understand",True
+@PoeLemic,2023-10-18T09:35:51Z,10,Really helpful explanation of read & writing to files.  This was quick and succinct.  Helped me understand a few things that others don't cover.  I love how you covering just the right stuff.,True
+@henryvasquez1814,2023-10-06T03:00:34Z,0,5:47,True
+@mohamed_bin_hussein,2023-10-03T02:47:41Z,0,🤩,True
+@Leverquin,2023-09-28T08:15:24Z,0,i need this man to do javascript tutorials,True
+@IliosAdamos,2023-09-07T04:54:28Z,0,so if i'm understanding this right when you did (with open('filename') as f:  f is the file object which contains the contents of the file?,True
+@renatocorreia1805,2023-07-23T15:11:32Z,0,thankyou so much,True
+@fabdelap2971,2023-07-13T06:27:13Z,0,Which editor do you use ?,True
+@dhjeew3517,2023-07-09T15:49:13Z,0,"17:48 You're right, It didn't delete the ""Rest"" huheheueheuhheeueueeehehehe",True
+@troncm7055,2023-06-28T07:15:50Z,0,what is the IDE of this? its very clean,True
+@spidey424,2023-06-19T05:00:12Z,0,Is there a reason f is used? Is there any reason a different variable could be used?,True
+@IshanSinhaIITMandi,2023-06-17T14:34:15Z,0,what does same directory as python file mean ?,True
+@markkennedy9767,2023-05-23T19:56:51Z,0,"At 3:00, can you explain why f.name and f.mode don't have parentheses whereas f.close() does. I can only presume that f.name and f.mode are attributes of the object f whereas f.close() is a method of f which therefore needs to be called. But it's not clear from the video. Maybe I need to look at the OOP stuff before this.  Also, can you explain why we use a function  open() to open a file but use a method .close() to close it. I have some vague sense as to why but it doesn't seem to be explained in the video. Thanks for the lesson.",True
+@jaredbrooks2226,2023-04-30T00:38:42Z,2,Jesus loves you. Start a relationship with Him today before its too late.,True
+@brianligat2038,2023-04-24T15:47:49Z,0,"Another great tutorial, and now you have 2 puppies !!",True
+@lordpomind,2023-04-23T17:41:10Z,0,"Now u can just do json.load(f) or json.dump(file, f)",True
+@vpdmusic,2023-04-18T17:56:49Z,1,Great tutorial!,True
+@dngrtegaijin4680,2023-04-08T05:01:32Z,0,"What text editor is this? Sublime? If so, how are you getting output in the terminal at the bottom? when i give it input, it doesnt work?",True
+@kostiantynkarzhanov9216,2023-03-13T21:05:49Z,1,Thank you Corey! Very cool lesson! Clear and useful 💛,True
+@gregoryallen4918,2023-03-09T20:36:27Z,0,"Corey, Your tutorials are extremely helpful. How would I write a SQL created tuple to excel resulting with each variable residing in its own column?",True
+@Bobby-Hiromozono,2023-03-02T07:11:52Z,0,my man 👍,True
+@larsulrichvevo3196,2023-02-20T14:00:29Z,0,Cool stuff this is,True
+@gabrielsolis8218,2023-02-15T18:43:41Z,0,What IDE is that?,True
+@r7918,2023-02-09T14:56:12Z,0,"Does this method, also works for writing any file formats like: .exe and .dll?",True
+@Camila-fv9qj,2023-01-24T22:47:18Z,0,If i have folder have 60 file txt and i want to open it and  clean the data how i can do that,True
+@AnietieLEssien,2023-01-05T12:58:12Z,0,Beautiful.,True
+@ssenyangeraymod2047,2022-12-17T07:07:35Z,0,This video is not good for a beginner,True
+@shivasmart967,2022-12-13T10:43:23Z,0,tq,True
+@slots-portugal,2022-12-03T18:50:43Z,0,"Apparently not: I found this.   FileName = (""...path.../data.txt"") data=file(FileName).readlines() data.sort() for i in range(len(data)):     print data[i]  No ""open"" no ""with"" no nothing... Explain if you can.",True
+@KrishPatel-pf6ir,2022-11-22T22:27:08Z,1,well i have one txt input file and from that i want to create multiple output files as different .txt files for each line in input file. do anyone have code for that ?,True
+@oldrocker3438,2022-11-18T15:24:11Z,0,Thank you Corey. That was very clear.,True
+@juanerojasrodriguez6302,2022-11-06T15:00:55Z,0,"This is a great example, but in order to learn a little diverse situation, Do you have an example of the same concept, instead of using a txt file, using a PDF file?",True
+@yebetesebchewata,2022-10-29T05:28:45Z,0,What if I want to read specific IP host from text file,True
+@ravenverburgh5445,2022-10-21T17:49:55Z,0,i am trying to outfile.write key-value's as a user's safe number and password in this notation: 12;8492hf38dhs. After trial and error i found out it's not possible to outfile.write dict's. how do i solve this? should i write a for loop? thanks in advance,True
+@shivagupta138,2022-10-14T00:53:12Z,0,"Thanks for the wonderful tutorial Corey! I think at timestamp, 7:37 it needs more clarity as in why the lines printed with a blank line between them when using the readline() function. It was not because of the print statement but because the readline() function tends to add \n after reading a line, given there are more than just one line.",True
+@vikranthracherla,2022-10-12T01:11:49Z,0,and your soo good,True
+@nicholi8933,2022-10-11T16:51:14Z,0,My professor showed me the other way where I had to close that. I like the other way with the context stuff.,True
+@khaledalamrani5988,2022-10-10T05:28:40Z,0,Brilliant,True
+@tobiasdegli2549,2022-10-01T15:35:48Z,0,Thanks for helping,True
+@c7hu1hu,2022-09-19T22:55:20Z,0,Uyingelosi,True
+@trenholmelodge1820,2022-09-17T18:23:43Z,0,"Please. black on white. If there is a setting I can change so the video is black on white, let me know.",True
+@GoldyRodger,2022-09-15T22:56:57Z,1,"I rarely comment a video, but thank you Corey. You earn yourself a subscriber for life 😊.",True
+@TOP--lb1rc,2022-08-31T08:31:38Z,0,"It actually writes on the existing file , you just forgot to change r with w on 16 minute",True
+@arthurwekati,2022-08-31T06:11:33Z,0,Thank you Corey,True
+@finix7419,2022-08-30T20:11:34Z,0,"I'm learning so much from you tutorials without getting frustrated ,thank you so much !",True
+@bhavanikurupudi1458,2022-08-05T03:16:08Z,0,Best python tutorials The way you are explained is just awesome..,True
+@anki7876gmail,2022-08-04T20:17:38Z,0,"this guy is best on YouTube,love ur videos 🙏❤️❤️❤️",True
+@akira_asahi,2022-07-28T04:00:26Z,0,"Thank you for the video. I am grateful for your time and contribution. It was very useful and well put. Kind regards, Akira.",True
+@naturenerds520,2022-07-23T08:24:03Z,0,How can I create a conditional based on the number of files inside a specifyd folder?,True
+@user-zn8fm8kw5v,2022-07-21T02:13:25Z,0,Very helpful,True
+@AmmarAhmey,2022-07-09T09:23:56Z,3,Very clean and too the point tutorial. Thanks for this easy to grab explanation. I'm quite comfortable now as far as basic file operations are concerned.,True
+@joeyzalman8254,2022-07-01T09:21:00Z,0,great video. very clear thank you.,True
+@mr.pumpkinpie4366,2022-06-30T19:11:17Z,0,Finally! A worthy tutorial! ,True
+@leg1on_dev,2022-06-24T07:11:04Z,1,txt fayl yaratib bo'ladimi???,True
+@Ausare911,2022-06-22T22:36:00Z,1,You always hit the depth level I need on specifics.,True
+@RustyChapman,2022-06-09T21:25:14Z,2,https://www.youtube.com/watch?v=0_Wb-eXaTv4   Someone has copied your video.,True
+@jananijothirathakrishnan5914,2022-06-09T14:45:16Z,0,hi Corey so which window are u using for code and file -demo.py,True
+@therabidpancake1,2022-06-06T04:38:12Z,0,Something that I do not understand about the equal sign is that I though the equal sign was an assigner  and the period makes the f an object at least that is what I was told,True
+@CuriousAnonDev,2022-05-29T16:57:47Z,0,"Before 24 mins: I am so confused, I never understand this file stuff in any language After 24 mins:  files are easy  :)",True
+@1UniverseGames,2022-05-16T16:53:24Z,0,How can i set time frame on reading a file for specific 2 minutes?,True
+@SpaceRanger21,2022-05-09T19:34:48Z,0,what text editor/IDE is that?,True
+@alisubhani985,2022-05-07T14:45:47Z,0,is reading and writing the same as truncation if it is not the same then what is an example of python truncation,True
+@BorisBelomor,2022-05-06T07:41:40Z,0,"As a person who just started learning Python, I welcome such noob-friendly tutorials.",True
+@johnnydart7626,2022-04-15T04:20:57Z,0,"Thanks so much man your video really helped me with my uni assignment, you rock bro! :)",True
+@jirkadolezal8127,2022-04-07T04:47:42Z,0,👍👍👍👍👍👍👍👍👍👍👍,True
+@nunya_bizness24,2022-04-06T23:00:23Z,0,Can I also download the testfile you used? That way I can practise when I'm watching :),True
+@pratickbhowmick6409,2022-04-06T07:14:05Z,0,"I am getting a FileNotFoundError, Any solution?",True
+@yihongli350,2022-04-05T21:18:05Z,0,Your video made EVERYTHING CLEAR for me!!!!!!!!,True
+@mcmanus4859,2022-03-24T18:15:31Z,0,"Hey there, how's it going everybody?",True
+@alphamale3497,2022-03-22T03:17:25Z,0,One of the best informative video. 🥂,True
+@work9167,2022-03-16T17:13:35Z,0,Great. So nice and easy. This is perfect!,True
+@edchelstephens,2022-03-10T04:01:58Z,0,Thanks Corey! 🙂,True
+@workingaccount7070,2022-03-05T01:24:43Z,0,What code editor is that?,True
+@lapnim4025,2022-03-03T05:23:29Z,0,"I have a question. what do the ""f"" variable get when you use open() statement?",True
+@isaiahkennedy4866,2022-02-23T00:03:40Z,0,How do I delete a line from a text file in python?,True
+@dishant5157,2022-02-19T04:34:02Z,0,Great 🔥🔥🔥🔥🔥🔥,True
+@Amir-English,2022-02-14T19:08:19Z,0,Thanks so much for this useful video. I appreciate that.,True
+@user-qn5by5iv7u,2022-02-13T08:41:21Z,0,2022,True
+@Emperor-Of-Mankind,2022-02-12T08:00:19Z,0,I still confuse that the variable or statement we declare within with blog whether it is  local variable scope or not  ?.,True
+@selvans1615,2022-02-11T09:41:26Z,0,"Create a record function to record and store mouse and keyboard events in a text file     create play -- By selvans",True
+@Mervel122,2022-02-06T02:35:23Z,0,"Very, very, very good. You're good. Congrats for the video.",True
+@_Filmsai,2022-02-01T18:34:48Z,0,"Great tutorial, thank you.",True
+@kevinjang8209,2022-01-30T13:40:53Z,0,I’ve been getting better at Python thanks to your videos,True
+@mahadev1050,2022-01-20T08:00:27Z,0,Really helpful🙌,True
+@5uperM,2022-01-08T07:07:26Z,0,so much fun!,True
+@a_72_saquibsheikh44,2022-01-04T16:12:41Z,0,The best explantation. Thank you. Love from India.,True
+@simonebattiato1873,2022-01-03T18:12:37Z,0,"hey there im trying to read a file but it always says this error  No such file or directory: 'ciao.txt'   File ""C:\Users\Acer\Desktop\programmazione\python\hello\file\readfiles.py"", line 1, in <module> but the file is inside the same directory",True
+@claudiotonci3844,2021-12-30T15:36:00Z,0,"Hi, Thanks a lot fom Italy. why have you used chunk=4096(2^12)?,  Very useful ...Thanks for making that kind of job!  claudio",True
+@rafy-ivanmorales3077,2021-12-30T14:41:27Z,0,"I’m a new student and need help to do this project: I have a port scanner script it works properly, it works in Pycharm using python3.9. I have to make a file and I call this file (Example.txt). On this example file, I have to do this:  3. If the Ports is open, it should create a file and add an entry for port number   4. In case of any exception for instance “host is not available”, “host name could not be resolved” or  due to any other error, you need to write that exception into the same file.  I’m not asking for you to do the project for me, I'm only asking ware I need to work or used in my script to accomplish this because it is my first time doing this and working with python too, and I have been struggling with this part one very bad. I can even send you the code, so you can look and only tell me what I’m doing bad and is not working.  Or try to make one day a video about this because I have search for this subject and I have not seen anything showing how to do these things in a script.",True
+@AymanSussy,2021-12-24T22:46:13Z,0,Can pbm images be manipulated as text file like that ?,True
+@chinmaydave6073,2021-12-22T22:02:28Z,0,what text editor?,True
+@yashsahindrakar408,2021-12-22T16:55:02Z,0,How can we prepend multiple lines at the beginning of a file?,True
+@HamzaAli-zq5tm,2021-12-21T17:42:19Z,0,your video is going to contribute in my competition. I hope i win.,True
+@abdallahabdelmajeed8120,2021-12-16T19:38:05Z,0,"Great with thanks, I'd like to rename a set of pdf files based on the title inside those file, how can I do that?",True
+@apgangatharan6162,2021-12-08T09:43:08Z,0,what ide are you using,True
+@kamrangraves3816,2021-12-05T21:55:00Z,0,what version of python is he using here?,True
+@markoignjatovic5630,2021-12-05T17:29:23Z,0,What are you exactly working on software?,True
+@eyalhaber1767,2021-12-05T08:48:02Z,0,Please add chapters to your videos,True
+@horikatanifuji5038,2021-11-28T01:34:38Z,0,Is it possible to pass a file into a function?,True
+@qolbinurwandi,2021-11-24T16:58:58Z,0,corey please come back here!!! we need you again as always man,True
+@unkoterebi,2021-11-22T18:43:00Z,0,Btw which ide he is using?,True
+@RohitRoy-lj8zx,2021-11-20T19:13:25Z,1,"really great video, cleared all my concepts, thanks a ton !!!",True
+@temmie3325,2021-11-17T17:57:30Z,1,Doesn't work,True
+@EncryptedOS,2021-11-13T23:27:14Z,0,"You, sir, saved my butt on my assignment.",True
+@ericadhikari1598,2021-11-13T09:35:03Z,0,man thanks for all these videos you are really a king,True
+@ZeroSleap,2021-11-11T12:47:12Z,0,"That last example with binary manipulation,opens the gates for steganography",True
+@seanmcguire833,2021-11-06T18:35:06Z,0,Thank you for your content Corey it’s definitely the best out there.   Do you have any good resources to test my beginner knowledge. I’m following all the videos and typing the code from your examples but feel some test questions would really help. Thanks,True
+@baapdotpy7074,2021-11-03T11:54:14Z,0,Thank YOu so much mate......,True
+@marcello4258,2021-10-31T14:56:20Z,0,"to me working with open and close makes it much more consistent. If you have 2 processes working with that file you could end up process a is opening, working with data in memory process 2 is opening (gets the mutex lock) manipulates it writes it back and process a isn't aware of those changes and writes back his buffer to the file and et voila it is not atomic consistent anymore.. just a small thing to think about. atm, maybe you guys can help me with that, what is the benefit to working with 'open with' (yes i know you save a line by closing the file descriptor) but after all?",True
+@non5309,2021-10-17T13:21:48Z,0,спасибо за видео. все понятно и просто изложено,True
+@riley12c,2021-10-16T13:24:34Z,0,"Do you have a video on all the shortcuts you use when writing the code? For example, I just noticed at 8:30 when you said, “let me comment out these lines”, then you highlighted the lines, and magically had them all commented out in one swift motion.  I am super new, but learning those would be SUPER beneficial. Thanks!!",True
+@LeirbagIII,2021-10-09T19:42:39Z,0,This is pure gold!!! Added to bookmarks!,True
+@Otto-cz6by,2021-10-03T14:16:06Z,1,What if you created a loop for making multiple copies of that image? How would you stop it from taking up your entire storage?,True
+@user-fx2qk9ju6o,2021-09-28T15:59:29Z,0,"Thank you so much for your excellent tutorial!! I have 2 questions: 1. In which cases would we use the second method that you mentioned with the “while size > 0“? 2. Why should we define for example: f_contents = f.read() And then, Print(f_contents) But we cant just write- Print(f.read()) ?",True
+@amaanrehman1983,2021-09-19T14:01:02Z,0,What app  is he using,True
+@ritiksoni1376,2021-09-10T12:11:13Z,0,make me sleep,True
+@chaitanyayeturi1312,2021-09-05T10:34:19Z,0,"First of all, your teaching style is good, and anyone grabs ur teachings easily, and thanks for teaching us. you are the best tutor I have ever come up with in python language. can u suggest any python language book, which is best to go through other than your channel? Moreover, I am a beginner to python language I thoroughly enjoyed ur videos, if u can suggest me best python book to ur sensibility and I guess it suits me and it helps me to learn further (I like physical like books). In case if u written any books related to this language can u suggest one (or) your favorite book, please......................................",True
+@uddeshyasingh1664,2021-08-29T18:22:30Z,0,Can anyone tell me that which IDE he is using?,True
+@molyneww,2021-08-28T13:43:48Z,0,"Amazing! thank you, Corey",True
+@bbnn7271,2021-08-27T15:40:34Z,0,"Thank you very much! Was surfing internet for two weeks!, and finally found answer on your YouTube video! Like and subscription from me!",True
+@pablorizzotti7777,2021-08-21T13:07:27Z,0,COREY THANKS FOR YOUR VIDEO,True
+@__epicgaming__3492,2021-08-10T11:12:12Z,0,"thanks, great tutorial, super easy to understand, learnt a lot 😊",True
+@ganeshn2,2021-07-28T04:05:47Z,0,"Great video,.Corey. quick question: how did you mark out the code at 8:28? I am trying to put "" in front of my code over 100 lines, any suggestions how that could be done in atom or pycharm?",True
+@tymothylim6550,2021-07-23T17:37:41Z,0,Thanks a lot for this vid! Really helpful stuff and I really like the examples cos they pull the tutorial together really well! :) Great work!,True
+@TechUpWithRandom,2021-07-20T04:33:53Z,0,Which compiler ?,True
+@aidendouglas8672,2021-07-18T21:18:49Z,0,Thanks super helpful,True
+@rebecacrissti4995,2021-07-16T15:56:56Z,0,Thank you this helped a lot with my project!,True
+@leo28804,2021-07-13T22:21:15Z,0,what ide does he use?,True
+@sarahpes32,2021-07-06T14:08:54Z,0,perfect. very useful. thank you!!!!   👌🎈,True
+@chesshooligan1282,2021-07-04T03:27:34Z,0,These tutorials are the most bestest.,True
+@OsungaOkello,2021-07-03T04:18:08Z,0,"Thank you, Kind Sir!",True
+@businesscontact1664,2021-07-01T09:18:46Z,5,These must be the classes from the Corey Schafer University. Absolutely fantastic videos !  Probably the best and most detailed tutorials out there.,True
+@pediniganesh1488,2021-06-29T22:28:47Z,0,how to access file from a remote server. please help me with your expertise in file system.,True
+@osamanajjar1934,2021-06-25T13:10:01Z,0,thanks alot <3,True
+@innigaadu,2021-06-22T02:19:24Z,0,"Man , these videos are Really good.. The author focused on actual real time use cases and tutorial makes so much sense.. Great Job",True
+@theseedoflife3057,2021-06-22T01:47:23Z,0,should start with creating a file,True
+@tayseerbruh8229,2021-06-07T17:37:32Z,0,its been 5 years,True
+@scorpio19771111,2021-06-02T00:55:45Z,0,Excellent video! Three thumbs up.,True
+@goodlack9093,2021-06-01T09:55:30Z,0,Very helpful! Thank you!,True
+@melvin9993,2021-05-25T02:55:03Z,0,"Hi Corey, I have a problem and I tried many ways but didn't get an answer yet. I am trying to read a google sheet with a python API. That API needs a path for a JSON file on a local machine including the credentials. Is there any way to pass credentials to the API by making the JSON file within the python code and refer to that file as a path to the credential file? I hope I could convey the question properly.  Cheers  Melvin",True
+@amirrezamousavi5139,2021-05-21T17:59:57Z,0,"Thanks, great explanation and easy to understand",True
+@Snowflakes_7,2021-05-19T16:48:36Z,0,You are amazing !! Thanks for the Explaination!!,True
+@Snowflakes_7,2021-05-19T16:47:44Z,0,You are amazing !! Thanks for the Explaination!!,True
+@mggarekar,2021-05-17T23:43:59Z,0,amazing,True
+@johndoe-is2fw,2021-05-16T21:06:48Z,0,how to break line when writing to txt?,True
+@adityacholan585,2021-05-12T17:36:40Z,0,11:52,True
+@juliuscoder9118,2021-05-07T18:53:17Z,0,឵឵឵ ឵឵឵,True
+@juliuscoder9118,2021-05-06T13:33:06Z,0,Not gonna lie he got me in the first half,True
+@naveenans5149,2021-04-19T08:00:53Z,0,"how to parse values from a file to a variable tuple.  [i.e] text file contains  1098 8901 9081  x = [""1098"",""8901"",""9081""]",True
+@Hamal9945,2021-04-17T22:02:08Z,1,"In case you get the error of ""'charmap' codec can't decode byte"" then try   with open(""filename"",""r"",encoding=""utf8"") as f:     f_contents = f.read()     print(f_contents)  and it will work.  There are different encoding and decoding of characters and I was using previously a other one than my textfile was using.",True
+@A_Szoros,2021-04-14T11:36:35Z,0,"Hmm the file copy in binary mode is doesnt work fore me, the copied file is created but the size is 0 kbyte. Dont know why-",True
+@firstincometrader2281,2021-04-11T08:17:44Z,0,Wow. This channel is going to be an epic for Python learning. Every topic covers the crux of the items cleverly,True
+@alessioandreoli2145,2021-04-09T11:21:08Z,0,You can't be serious... I would love to see more women in important and leader positions but that won't happen with coding. ITIL/PRINCE2/PMP could be a better way...,True
+@zmegamindz6143,2021-04-02T10:41:51Z,0,why does my python not look like this,True
+@shashanksharma9350,2021-03-31T07:13:12Z,0,"Hi Corey, my question, my python script is reading a CSV file and the script does some operation & manipulation on it. I want every next time when I made it run, it should not read from the initial rather from the last breakpoint if somebody just stopped it.",True
+@hugoalmeida1291,2021-03-28T20:49:59Z,0,Great tutorial man! What is this editor that you're using?,True
+@ahmedr.,2021-03-27T18:00:37Z,0,at 19:57  the for loop has statement:  wf.write (line) > this must be in 'a' mode to keep all the lines copied to the newly generated file .. or  I am missing something?,True
+@developinged9094,2021-03-26T16:39:54Z,0,You inspired me to make my own teaching videos! Thank you!,True
+@kennykobau,2021-03-23T06:03:47Z,0,does the chunk_size value in any way effect the quality of the image copy? Will I have a better image copy if my chunk_size value is smaller or does that make no difference?,True
+@muhammedsalim766,2021-03-22T23:08:04Z,0,Amazing tutorial,True
+@Hero007ization,2021-03-20T13:03:12Z,0,"I admit, your style of presentation is as good as your knowledge base. Love from New Delhi !",True
+@efeguleroglu,2021-03-12T08:40:10Z,0,Truly helpful. Youtube tutorials >> college,True
+@janicejose5809,2021-03-10T04:18:38Z,3,How do I write and read a file simultaneously .I tried to do but after every read operation its simultaneously writing the same content the no of times i run the prog which is not what i want .Please help !! Thank you !,True
+@manuelch4589,2021-03-07T06:37:05Z,0,Excellent!,True
+@BaronVonBiffo,2021-03-03T11:30:52Z,1,"Removing every ""go ahead and"" would shorten the clip by about 5 minutes.",True
+@andyli541,2021-02-25T02:21:30Z,1,what is ur ide?,True
+@marcoponts8942,2021-02-23T20:45:16Z,0,Thanks but this character based search id utterly useless. I have data in two columns and I want to read only the first column and I don't care how many characters that is. Any help?,True
+@nirbhaykumar4906,2021-02-13T07:38:00Z,0,which IDE is this?,True
+@rhyswells8725,2021-02-06T14:02:28Z,0,nice dog,True
+@whoknows.201,2021-02-02T20:56:07Z,0,I've just come across this and you are about to become my saviour because I'm about 10 hours behind on my controlled assessment and have no idea what I'm doing,True
+@HarmanHundal01,2021-02-02T17:40:49Z,58,"My Notes for this video. You can comment out all of it and uncomment and run one function at a time to revise what Corey has taught us:     # While opening a file we can specify whether we are opening the file for 'reading', 'writing', 'reading & writing' or 'appending' # If we don't specify anything, it defaults to 'reading' # f = open('text.txt', 'w')  # Opens a file for writing # f = open('text.txt', 'r+')  # Opens a file for reading & writing # f = open('text.txt', 'a')  # Opens a file for appending # Opens a file for reading  f = open('C:/#Personal/Coding Projects/Proj1/Py edn/text.txt', 'r')   print(f.name)  # Returns the name of the open file print(f.closed)  # Returns whether the file associated with the variable is closed print(f.mode)  # Returns the mode in which it was opened i.e. 'r', 'w', 'r+', 'a'   # All files opened using an open() command need to be closed explicitly after their use is complete. If this is not done , we can end up with leaks that cause us to run over the maximum allowed file descriptors on the system and our app can throw an error. f.close()  # We can avoid this problem with a context manager as below  # The below 'with open()' command will close the file as soon as the code has finished running or an error is thrown with open('C:/#Personal/Coding Projects/Proj1/Py edn/text.txt', 'r') as text_file:      # Code goes here     pass  # This produces the error ""ValueError: I/O operation on closed file."""" # print(f.read())   with open('C:/#Personal/Coding Projects/Proj1/Py edn/text.txt', 'r') as text_file:     # This just reads all lines in the file     text_file_contents = text_file.read()     print(text_file_contents)    with open('C:/#Personal/Coding Projects/Proj1/Py edn/text.txt', 'r') as text_file:     # This returns a list that contains all lines in the file     text_file_contents = text_file.readlines()     print(text_file_contents)   with open('C:/#Personal/Coding Projects/Proj1/Py edn/text.txt', 'r') as text_file:     # This returns a line of text (not a list) at a time     # The first time we print .readline() it returns the first line     text_file_contents = text_file.readline()     print(text_file_contents)     # The second time we print .readline() it returns the second line     text_file_contents = text_file.readline()     print(text_file_contents)    with open('C:/#Personal/Coding Projects/Proj1/Py edn/text.txt', 'r') as text_file:     # This returns a line of text (not a list) at a time     # The first time we print .readline() it returns the first line     # Putting an 'end = '' in the return or print statement removes the newline between each result     text_file_contents = text_file.readline()     print(text_file_contents, end='')     # The second time we print .readline() it returns the second line     # Putting an 'end = '' in the return or print statement removes the newline between each result     text_file_contents = text_file.readline()     print(text_file_contents, end='')   # The above methods take a lot of storage as lines get stored in memory # Iterating over lines in a file avoid this with open('C:/#Personal/Coding Projects/Proj1/Py edn/text.txt', 'r') as text_file:     for line in text_file:         print(line, end='')   with open('C:/#Personal/Coding Projects/Proj1/Py edn/text.txt', 'r') as text_file:     # Passing a number to the .read() command preads just that number of characters     # The first time this is run, a 10 characters will be read and printed     text_file_contents = text_file.read(10)     print(text_file_contents, end='')  # It returns '#1) This is'     # The second time this is run, the next 10 characters will be read and printed     text_file_contents = text_file.read(10)     print(text_file_contents, end='')  # '1) This is a test fi'     # The same line is extended (without introducing a new line or a new returned value)     # When we reach the end of the file, read just reads what is left and returns an empty string for the rest of it     text_file_contents = text_file.read(1000)     print(text_file_contents, end='')  # The below code will print out the entire code  with open('C:/#Personal/Coding Projects/Proj1/Py edn/text.txt', 'r') as text_file:     size_to_read = 10     text_file_contents = text_file.read(size_to_read)     while len(text_file_contents) > 0:         print(text_file_contents, end='')         text_file_contents = text_file.read(size_to_read)   # with open('C:/#Personal/Coding Projects/Proj1/Py edn/text.txt', 'r') as text_file:     size_to_read = 10     text_file_contents = text_file.read(size_to_read)     while len(text_file_contents) > 0:         # The '#' symbol in the output marks the chunks that were printed in each iteration         print(text_file_contents, end='#')         text_file_contents = text_file.read(size_to_read)   with open('C:/#Personal/Coding Projects/Proj1/Py edn/text.txt', 'r') as text_file:     size_to_read = 10     text_file_contents = text_file.read(size_to_read)     # The 'filename.tell()' returns the position of the file till where we've read until now     # This returns 10, since we've read 10 characters     print(text_file.tell())     text_file_contents = text_file.read(size_to_read)     # This returns 20, since we've read 10 more characters (10+10=20)     print(text_file.tell())   with open('C:/#Personal/Coding Projects/Proj1/Py edn/text.txt', 'r') as text_file:     size_to_read = 10     # Reads the first 10 characters. Read position set to 10     text_file_contents = text_file.read(size_to_read)     print(text_file.tell())  # Prints 10      # Reads the next 10 characters. Read position set to 10+10=20     text_file_contents = text_file.read(size_to_read)     print(text_file.tell())  # Prints 20      # filename.seek() sets the read position to whatever character we set it to. Here set to 0.     text_file.seek(0)  # Sets the read position to 0     print(text_file.tell())  # Prints 0      # Reads the first 10 characters. Read position set to 10     text_file_contents = text_file.read(size_to_read)     print(text_file.tell())  # Prints 10       # If we try to write to a file that is opened for reading. An error is produced. # Error = 'io.UnsupportedOperation: not writable' # with open('C:/#Personal/Coding Projects/Proj1/Py edn/text.txt', 'r') as text_file: #     text_file.write('Test')  # If a file with this name doesn't already exist. It will be created. # If a file does exist, it will be overwritten with open('C:/#Personal/Coding Projects/Proj1/Py edn/text2.txt', 'w') as text_file:     text_file.write('Test')    # If you don't want to overwrite a file, use an 'append' setting by passing a lowercase a with open('C:/#Personal/Coding Projects/Proj1/Py edn/text2.txt', 'a') as text_file:     text_file.write('Test')   with open('C:/#Personal/Coding Projects/Proj1/Py edn/text2.txt', 'w') as text_file:     text_file.write('Test')  # File contains: 'Test'     # filename.seek(position) sets the write position to the number we pass in     text_file.seek(0)     # If we now write something. It will be written from the newly set position.     # It will overwrite anything in its path for as many characters it need to overwrite     text_file.write('LN')  # File contains: 'LNst'.     # The first 2 characters from position 0 were overwritten because it was required    # Copying from one file to another, line by line # This can't be done for image files. It shows an error. Invalid start byte. Copying an image file would require opening it in binary mode. We would be reading/writing bytes instead of text. with open('C:/#Personal/Coding Projects/Proj1/Py edn/text.txt', 'r') as text_file:     with open('C:/#Personal/Coding Projects/Proj1/Py edn/textcopy.txt', 'w') as copy_file:         for line in text_file:             copy_file.write(line)   # To read binary we change open(filename,'r') to open(filename, 'rb') # To read binary we change open(filename,'w') to open(filename, 'wb') # The below code with these changes, can copy an image file with open('C:/#Personal/Coding Projects/Proj1/Py edn/text.txt', 'rb') as text_file:     with open('C:/#Personal/Coding Projects/Proj1/Py edn/textcopy.txt', 'wb') as copy_file:         for line in text_file:             copy_file.write(line)    # Copying a file using chunks instead of line by line is better. This can be done by using the .read function we've studied above with open('C:/#Personal/Coding Projects/Proj1/Py edn/text.txt', 'r') as text_file:     with open('C:/#Personal/Coding Projects/Proj1/Py edn/textcopy.txt', 'w') as copy_file:         chunk_size = 10         chunk = text_file.read(chunk_size)         while len(chunk) > 0:             copy_file.write(chunk)             chunk = text_file.read(chunk_size)",True
+@AlokSingh-rj1gt,2021-01-30T13:52:05Z,0,Which Text editor is this?? I want it.,True
+@AayanamAnirudh,2021-01-28T09:20:54Z,1,Nothing bad at 4:05,True
+@tienanhnguyen5442,2021-01-27T03:38:33Z,1,"when i did this the terminal said that ""No such file or directory"" and when i use with open (""file.txt"", ""w"") as f: it created a file outside the folder i wereworking with how can i solve this problem? i use vs code",True
+@brucebane7401,2021-01-25T19:56:33Z,0,amazing,True
+@ettu4470,2021-01-25T17:17:18Z,1,"is there a way to read a line from a txt file, and that one line only?",True
+@SampathIndikaIroshan,2021-01-22T06:45:00Z,0,Watching this in 2021. Still great and relevant. Thanks.,True
+@Broadmoore,2021-01-22T06:10:43Z,0,"I finally found someone who makes sense. Corey, this is amazing thank you!",True
+@phazercoretech6841,2021-01-20T03:56:43Z,0,"Whats the shell you are using? or like program, it looks way nicer in my opinion compared to pycharm and i want to get it.",True
+@richielavey1565,2021-01-14T23:33:43Z,0,What happens if it says errno2: no such file or directory? I’ve made sure the spelling was correct,True
+@amandeep9930,2021-01-11T16:13:22Z,0,What about other type of files. For example mp3 files. Does all files basically contain text?,True
+@ahmedyousif4782,2021-01-10T14:23:01Z,0,cheers to everyone who tried everything possible to open a file and nothing works,True
+@chrisferi7478,2021-01-06T10:55:26Z,0,Great video.Thank you for your time and effort. How do we comment out multiple lines at once?,True
+@MyNameIsBlueNova,2021-01-02T11:48:59Z,0,"it didnt overwrite the ""Rest"" of the file  i see what u did there :)",True
+@faqihaldiannoor1266,2020-12-23T11:38:37Z,0,Perfect this is exactly what I looking for my little project... Thx bro you saved me... Sub for you...,True
+@juginpower909,2020-12-18T16:47:52Z,0,Very good explanation! I understand it better than my  native language books,True
+@isaacclayburn-mallen161,2020-12-16T18:53:52Z,0,any1else no longer stuck on this in 2020 brilliant explanations :):):):):),True
+@ananthnarayan5631,2020-12-09T07:40:55Z,0,"i have created an python GUI application where Entry widget, which  takes user input to create ,>>new folders<< and i have provided  the path to create folders in my targeted folder.[A folder] i have given all dependencies which are required by the application. my problem is ,whenever i am trying to capture images through video (used opencv library) the process is successfull and i have provided the path to save file in my targeted folder [A folder] and it is saved also . but when the user tries to give random folder name through entry widget ,the folder is getting created >>> but images should get saved in that particular file which user have created . <<< how should i do it?? please help me out",True
+@aka0989,2020-12-08T23:11:09Z,0,how did he comment out multiple lines ?,True
+@alfredsfutterkiste7534,2020-12-08T19:59:51Z,0,What editor is he using?,True
+@hamedbakhti1752,2020-12-06T12:00:45Z,0,I miss you corey,True
+@unixfly,2020-12-03T04:49:27Z,0,What editor is this?,True
+@maximk7816,2020-12-02T17:48:07Z,0,"#======================================================================= #Let's take subs from a video and get rid of all the annoying time tags) #======================================================================= filename = input('Give me the name of txt file: ')  with open('{0}.txt'.format(filename), 'r') as orsubs:     print('Opening file - {0}.txt'.format(filename))     cont = orsubs.readlines()     if ':' in cont[0]:         x = 1     else:         x = 0 print('{0}.txt is Closed:'.format(filename), orsubs.closed) new = cont[x::2] with open('{0}_copy.txt'.format(filename), 'w') as newsubs:     for i in new:         newsubs.write(i) print('{0}_copy.txt is Closed:'.format(filename), newsubs.closed)",True
+@maximk7816,2020-12-02T14:07:28Z,0,"let me guess: initially whenever I open a file, it is a list of strings?",True
+@RATANAGARWALITINFORMER,2020-11-28T18:18:04Z,0,pl support,True
+@user-ow5hb4bu9z,2020-11-22T21:35:04Z,1,"My brother , Thank you ! You are a great educator of our time !!!!",True
+@carpediem73,2020-11-19T23:15:53Z,0,thanks,True
+@cheviot2988,2020-11-18T13:40:11Z,0,Very cute dog bro !!!,True
+@AG-dt7we,2020-11-17T21:20:16Z,0,can we not write excel file like csv file?,True
+@sharpyhansy3861,2020-11-15T14:13:14Z,0,just me think that he is sounds like Donald trump?,True
+@georgialeksiev8056,2020-11-15T12:11:42Z,0,"Great tutorial, dude! I made a simple login/register system.",True
+@fentonmsu,2020-11-06T09:21:45Z,0,Very well explained but you missed the close command. I was taught that ita very important to write otherwise it will cause problems.,True
+@maleloaizac,2020-11-03T21:55:04Z,0,"No questions, just infinite thanks. Subscribed and recommended.",True
+@sondaika12,2020-11-01T02:17:11Z,0,What an excellent playlist. Thank you very much Mr Corey.,True
+@bnessmind,2020-10-31T06:34:24Z,2,"Corey, Thank you the amazing content, I have learned almost everything on python/Django through your tutorials. By any chance are you the guy who also did ""Talking Thrones"" videos?",True
+@dkmd_6245,2020-10-22T06:50:31Z,0,How can I read for example a specified part of a file like I have a file like a list and I want to read the first letter of a specific word in the list or read a specific word in the list not the whole list,True
+@MrDriftking189,2020-10-21T15:17:20Z,0,Thank you so much! Truly such a huge help for a visual learner like me!,True
+@markrutte8611,2020-10-20T17:45:29Z,0,"(FA 3 Kluizen is a txt file with 12 lines, everyline has just its number)  def beschikbare_kluizen():     with open('FA 3 Kluizen') as kluizen:         for i in kluizen:             i = i.strip('\n')             if len(i) <5:                 print(i)  when i do this it will print every line correctly, but when i try to use ''return' it only returns the first line.. why is this? i need it to return every line with using ''return'",True
+@aluin3770,2020-10-19T00:58:45Z,1,"Very detailed, an excellent example for what a tutorial should look like 👍 keep being so awesome",True
+@michaelangelosplinter185,2020-10-12T15:33:34Z,0,Could you do the same for  .spe and .dat file ?,True
+@kebman,2020-10-11T08:01:55Z,0,"Awesome sauce:  Butter, egg yolks, plus water. Salt and pepper. (Hollandaise.)",True
+@gauthamambethkar4483,2020-10-10T13:17:53Z,0,Thank you so much Corey. You are the best teacher I have ever seen.,True
+@gregoryj.5324,2020-09-24T22:02:06Z,0,Does anyone know the name of the program he's using?,True
+@makthub6098,2020-09-20T01:28:26Z,0,"Hi,Coery could you please explain how you learn the programming thoroughly",True
+@minecraft-wz5fd,2020-09-11T15:05:30Z,0,"when i do for line in f: and then the print(line, end = '' ') it wont read the last line of the file",True
+@noprivacy2339,2020-09-05T10:52:15Z,0,"damn a very good tutorial, i actually enjoy it thanks !",True
+@josephquinn3445,2020-08-28T13:15:36Z,0,How would you go about doing a for loop for a file to sum a specific variable. If I had a file and in the file we'll say 10 instances of a variable num = a different number in each instance. and I wanted num_x = sum(float(num)),True
+@garvbatra3103,2020-08-25T15:52:58Z,0,what editor are you using?,True
+@hassanhijazi4757,2020-08-24T15:45:25Z,0,That is very helpful! thank you,True
+@jonsolo1121,2020-08-18T18:54:23Z,0,Loved the vid! I was running into a problem involving over writing things in a file. Forgot about the append keyword,True
+@kvs.keerthan8610,2020-08-17T18:35:49Z,0,can we use for excel sheets also,True
+@themusichub9766,2020-08-15T19:33:27Z,0,ukzn chemical engineering students. ngyazi nizobe nigcwele lana...ninjani?lol,True
+@ihssancanmturk3842,2020-08-15T09:01:30Z,0,Wonderful this video tutorial me think :),True
+@untildawn5714,2020-08-09T10:57:54Z,0,Thanks Corey! I had issue with form file to upload to database. You solved it!,True
+@rogerwilcoshirley2270,2020-08-03T19:59:16Z,0,Clear and very helpful - thanks Cory 👍,True
+@tejwantsandhu595,2020-07-30T18:56:02Z,0,"Hello, Corey, You are the best. I started learning Python recently and your videos are very helpful. Thanks.",True
+@shubhamkumar-pp1zf,2020-07-24T15:37:11Z,0,thanks bro you helped me a lot,True
+@4xHitler,2020-07-20T22:20:26Z,0,had some issues learning by the book. turns out I just had to path down the terminal closer to the folder for the code to stop spitting errors,True
+@thegbgfamily,2020-07-20T01:32:21Z,0,"What does those ""positions"" position itself from? Pages? Lines?",True
+@thegbgfamily,2020-07-20T01:25:35Z,0,Oh FUCK I searched the globe for this for like four hours and this did it!,True
+@error.404_music,2020-07-17T14:16:29Z,0,which ide are you using bro????,True
+@noetherian3493,2020-07-16T15:15:29Z,0,"So read returns the entire contents of a file as a string , and readlines returns the entire contents of a file as a list. And it seems like readlines is presented in the video as a better way to load a big file to memory but it returns a list of an entire file, so shouldn’t it be the same as read in that respect? Meaning, if the file is huge, I can’t see in what way readlines is preferable over read? Isn’t it better to stick to processing the file one line at a time?",True
+@vijijohn2209,2020-07-15T16:54:27Z,0,which application are u using to do python i like that one can u plz reply,True
+@unojaz,2020-07-11T19:21:30Z,1,"Is there a ""continue"" or ""break"" equivalent for with open ?",True
+@fahimsattar4762,2020-07-04T16:50:03Z,1,deserves more subs,True
+@lukexxx8215,2020-07-03T01:42:56Z,2,i think i got enough to get started on my first python project but gunna keep watching one a day because they are soooo good!,True
+@BorewellBoys,2020-07-01T14:12:48Z,0,what is the name of the compiler u used here?,True
+@sakshambali3040,2020-06-26T09:22:41Z,0,"instead of saving the copied binary into a .jpg file i saved it into a .txt file then  i searched google for a binary to jpg converter,  uploaded my file there and downloaded my jpg.. did it just for fun..",True
+@FireGam3r1,2020-06-26T07:13:19Z,0,what is the difference between f.read and f.readlines ?? it is the same output,True
+@uthpolkisor5525,2020-06-26T06:35:22Z,0,Can you upload a tutorial about how to convert a folder of images to a parquet file?,True
+@cerberus1321,2020-06-24T21:48:13Z,0,Really good tutorial thanks. Am I right in assuming line is a keyword for file objects?,True
+@playgoods,2020-06-21T21:52:35Z,0,one like not enough,True
+@garrykraemer8993,2020-06-20T16:09:06Z,0,Outstanding video.  Is there a Python book that uses your coding style?  I looked at your list of books and didn't see coding style like yours.  Thanks,True
+@hiseggcelency,2020-06-20T00:48:51Z,0,"This chanel is something that i will watch all the python tutorials of, and will come back from time to time to refresh what i've learned, thank you.",True
+@pecasm3436,2020-06-16T08:14:04Z,1,"You are better than the professor from ""La casa de papel""!!!!! I would marry you :))) Seriously,thank you very much!We appreciate you!!!!!!!",True
+@sreethampi2018,2020-06-12T12:24:35Z,1,this is the content i have been searching for a month now. damn,True
+@unomeanstwo112,2020-06-08T23:03:40Z,0,Does the file have to have .txt after to open it,True
+@unomeanstwo112,2020-06-08T20:55:59Z,0,How did you get that gui,True
+@LifeWithRilla,2020-06-08T16:53:56Z,1,Absolute killer tutorial! Thank you! I've subscribed. I'm in Lambda School learning python and this cleared up a lot. I appreciate it.,True
+@xorben1981,2020-06-07T14:27:33Z,1,Cute Dog!,True
+@uttamdey4575,2020-06-06T10:42:59Z,0,"--------------------------------------------------------------------------- UnsupportedOperation                      Traceback (most recent call last) <ipython-input-59-8e3adc193e9d> in <module>       2     with open('UD_copy2.jpg','wb') as rf:       3         chunk_size=4895 ----> 4         rf_chunk=rf.read(chunk_size)       5         while(len(rf_chunk)>0):       6             wf.write(rf_chunk)  UnsupportedOperation: read   For the last part of this video where chunk_size was implemented I am getting this error. How can I solve it man?",True
+@sainathreddy2632,2020-06-05T05:09:22Z,1,u r a fucking genius keep it up bro,True
+@ukaszkwiecinski1781,2020-06-02T08:45:44Z,0,is ther any way of searching through the file till it finds the input and get the line?,True
+@tehemtoncode47,2020-05-31T08:59:54Z,26,Yours are some of the best python tutorials I've found on YouTube. No bs. Very well explained. Cheers mate,True
+@shirajsharma8085,2020-05-30T19:46:25Z,1,respected sir you are a legend one of the finest tutorial til date i wish i had a teacher like you to guide me on coding thank you sir for your help,True
+@dandaharshavardhanreddy9456,2020-05-28T08:20:36Z,0,What if we read only half of the binary code and write it in other file?(in case of picture),True
+@davidcross30,2020-05-28T00:07:32Z,0,I don't get why I would need to chunk read - write when it can do all of it in one go?,True
+@black3431,2020-05-26T19:40:14Z,0,How modify and delete files?,True
+@maxinteltech3321,2020-05-25T02:37:24Z,0,"@ Corey Schafer There was a problem with the last code. It did not stop copying chunks  with open('pic1.png','rb') as rf:     with open('pic1_copy.png','wb') as wf:         chunk_size=4096         rf_chunk=rf.read(chunk_size)         while len(rf_chunk)>0:             wf.write(rf_chunk)             rf_chunck=rf.read(chunk_size)",True
+@DataEngineeringGeek,2020-05-24T15:05:44Z,5,"Brilliant, A good teacher can make you remember concepts with ease. I am delighted to gain from your teachings. Thanks a ton.",True
+@NOVAsteamed,2020-05-23T22:33:22Z,0,21:30 one of the reasons why liner algebra is useful in cs,True
+@mileso7424,2020-05-18T00:35:56Z,0,how would you write time to a file?,True
+@user-zs2mc5lx1g,2020-05-17T08:50:31Z,41,The way this videos are systematically put together makes everything so easy to understand. Watching your videos is so helpful and motivating . Thank you Corey!,True
+@hamzasabri5610,2020-05-15T23:08:04Z,1,amaaaaaaaaaaaaaaaaaaaaazing,True
+@adelachroustova8728,2020-05-15T18:10:29Z,3,Simply the BEST python tutor ever...truly life saving! And the picture of your dog just made my day 100% better!  Huge thanks for all!!,True
+@akjelane8781,2020-05-10T09:28:11Z,1,"Thank you , 💖💞💖",True
+@russellabraham9208,2020-05-06T08:55:56Z,0,"Thanks for the video, very clear. Using Nodejs for awhile meant to spend some time learning python,  surprised to see a with statement.",True
+@aliabouelazz4780,2020-05-03T19:17:40Z,0,thank you . finnaly understandable english not indian english,True
+@gmcobrazt3370,2020-05-01T09:08:59Z,0,"Hi all,  I want to ask a question here. with open(self._config_path, 'w') as outfile: PermissionError: [Errno13] Permission denied : 'C:/Program Files\\config.json'   I change to another file directory also not working, can anyone teach me how to troubleshoot?   Thanks",True
+@YogeshWaichal,2020-04-30T12:29:00Z,0,thank u sir!,True
+@JollyBeJolly,2020-04-28T06:29:12Z,0,How are u so good at teaching and programming?,True
+@ruskibeaner5983,2020-04-23T20:42:29Z,0,"hey, so i tried the readline and .read(number) method, but none of them work - like it doesn't return an error code, it just returns nothing... just the space that the end='' creates. if someone could help me resolve this, that would be amazing! thanks!",True
+@spazzmadness4944,2020-04-15T16:22:26Z,0,Is it possible to open the file to read and append,True
+@unaisusmani447,2020-04-14T18:10:09Z,0,Does anyone know how to write to a specific line in a file and add to that line only,True
+@nokibulislam9423,2020-04-14T16:39:49Z,0,how do i project base learn sir? i have ben watching python basics for over 2 weeks.what do i need to learn before jumping into project based learning,True
+@ms.understandjapan5897,2020-04-14T01:16:59Z,1,Very easy to understand!,True
+@PawanSharma-ik4zh,2020-04-12T13:19:10Z,0,Hi corey Pawan this side is there is a method to write directly in file  I mean as we run the  program and at runtime we type on output screen and write in file. pls help,True
+@abel_edes442,2020-04-12T10:28:52Z,0,watch similar comprehensive  video here  https://youtu.be/N79rX9N-cL8,True
+@girisworkshop2131,2020-04-10T14:44:05Z,0,Tis is my first comment in utub ...tis video made me 2 say u r special frm others,True
+@barteknowak5949,2020-04-07T23:56:49Z,0,with open('this_video_was_great.txt') as f,True
+@Szybki1446,2020-04-06T19:50:59Z,0,"Thanks for this video it was awesome!  Could you advice me how to read let's say 4 + 5 from a text file and make this operation using python? To specify 4 + 5 is in one line. I don't have any idea how to do it and need some help :/",True
+@farazahmed1668,2020-04-06T14:51:07Z,5,You all tutorials are stright forward and cover all aspect of a specific topic. Thank you for this channel.,True
+@ajeethv,2020-04-06T13:41:49Z,0,14:45 Writing to Files,True
+@umaarisstuff,2020-04-06T11:57:45Z,0,am I the only one that didn't understand a thing. I wanna cry.,True
+@Jonix-redhat,2020-04-05T12:54:17Z,0,"Thank you so much for you videos! I have a question though, I don't quite understand the while len(f_contents) > 0:, you have set size_to_read = 10, does it automatically sense when it is less than 10 so that f_contents eventually gets to 0? hopy you understood my question:)",True
+@billshine401,2020-04-04T15:06:32Z,1,This was a game-changer for me!,True
+@CollosalTrollge,2020-04-03T16:02:21Z,1,"Hope i am not too late , but i liked and subscribed",True
+@lemonglataitor2123,2020-04-03T07:23:04Z,1,Thank you for these amazing videos!,True
+@saurabhyelmame,2020-04-03T06:37:37Z,4,Never saw a mentor like you before. You are the one who teaches fellows like me for free. Thank you so much sir.,True
+@sharatchandra2045,2020-04-02T21:45:07Z,1,Execellent Tutorial. Thanks a lot!!,True
+@IlDavy,2020-04-02T20:29:22Z,1,"hi, i have a question for u, if i would to read the next content of a line? for example: weight=64 and in my variable i want 64... There is a method to ""search""??",True
+@yasomaso1987,2020-04-02T18:47:06Z,0,how if I want to modify some words in the original file and save it in another file,True
+@RameenFallschirmjager,2020-03-29T15:53:03Z,12,Maximum efficiency and Ultimate mastery of teaching has been shown in this video! You present your tutorials like a rabbi who read the scripture his whole life! Magnificent!,True
+@jackcrouch4366,2020-03-28T16:35:22Z,0,Could anyone explain how ‘for line in f’ works for me,True
+@alashawn8,2020-03-24T17:36:24Z,353,okay i'm at a point where i watch corey's videos just after waking up...  for fun.,True
+@revinar5838,2020-03-24T13:56:27Z,32,No gimmicky loud background music or talking like he's some badass hacker...just clearly explained lessons that are easy to understand. Awesome work!,True
+@JadeJuno,2020-03-23T22:31:13Z,0,"hey, I know this is an old video, but I don't know how to do something (or if it is even possible in the first place)   So, I have a loop that everytime it ""loops"", a variable gets up by 1 (idk if I'm explaining myself) and then writes it in a txt file with the append mode. Now, the thing is that I wanted the program to read the last line written in the txt (a.k.a. the last time the value was ""printed"" in the txt) and run from there   Sorry if I explained myself badly, but if someone understood me and knows how to do that, please tell me",True
+@klibe,2020-03-23T13:33:20Z,0,"at 6:29, it gives me  {\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470 {\fonttbl\f0\fswiss\fcharset0 Helvetica;} {\colortbl;\red255\green255\blue255;} \margl1440\margr1440\vieww10800\viewh8400\viewkind0 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0   \f0\fs24 \cf0 Hello\ this is a test\ } instead of Hello this is a test",True
+@ibrahimheroglu,2020-03-22T14:10:10Z,0,which ide u using bro?,True
+@TheIDAJShow,2020-03-16T17:01:54Z,0,So I have a text file  and I have a program that writes into that text file. Then I have a program that reads the file. How would I have the program read that file and then put the value that is in the file into the code?,True
+@sumitadeswal,2020-03-14T08:01:45Z,0,What Program Do You Use?,True
+@b00i00d,2020-03-12T15:03:26Z,0,"Love your tutorials! I have a question: if the context manager will take care of closing the file what use it the file handle (I assume that's what _f_ is?) after that block of code has completed? I.e. after we finish with a ""with open"" block, can we somehow reuse the file handle in any of our subsequent code?",True
+@rinreborn7364,2020-03-11T15:46:36Z,3,my brain has exploded,True
+@kirupaagar6674,2020-03-09T08:34:47Z,1,you are a born genius corey.. You r a codey  not corey!,True
+@honey_yoggrt,2020-03-07T21:05:46Z,0,good but not what i need thx,True
+@tmtygnz,2020-03-04T12:31:08Z,0,Theme? i like it and the video,True
+@junaidsiddiqui8141,2020-03-02T17:04:23Z,0,Can you plz change your theme to light mode..,True
+@andrewchu6370,2020-03-01T06:02:57Z,0,"can you do read() under a var, then just print whatever that variable ""read"" is under? It'll give u the written form of the file?",True
+@gedport6771,2020-02-28T20:44:26Z,0,Thankyou I am able to Tweek this into my file today as an option for the user to read rules and save their text to be used later. Thumbs up :),True
+@I_Am_Jos_A,2020-02-26T02:50:27Z,0,This is great! Thank you. I just have a question on how to take care of a problem I am having with an output text file. I have a program that keeps track of mili-seconds between activity. The output is put into a text file. Sometimes there will be a 0 in the text file. I want to be able to go through the list and find the 0 when it does I want it do find the mean between the number before and after the 0 and input the number inlace of the 0. any idea where I can go to find more information?,True
+@multitudes389,2020-02-20T17:20:38Z,1,I always every video learn something new!,True
+@elenachen5146,2020-02-19T13:21:21Z,1,Love the turtorials and your dog ! So cute !!!,True
+@lasscat1,2020-02-17T19:36:26Z,0,"hi um i am trying to save game data but how do I do this with a txt file?     if f_contents==""line"":         print(""text"") it does not do anything can someone help thank you",True
+@akashmishra3369,2020-02-16T09:54:21Z,0,What IDE are you coding it in ? <3,True
+@ebenezerappiah6730,2020-02-16T01:02:03Z,0,HI Corey are you having an ebook or pdf that we can download,True
+@Felipe-53,2020-02-13T19:50:11Z,1,"THANK YOU SO MUCH, YOU'RE THE GREATEST!",True
+@Felipe-53,2020-02-13T19:49:57Z,1,PYTHON GOD!,True
+@yi9164,2020-02-10T06:21:37Z,1,Awesome tutorial Corey! really enjoyed that (thumbs up).,True
+@the1stchircea730,2020-02-04T22:37:22Z,2,"This lil nigga ain't trippin over no files mah. Let ya nuts hang, great vids yo!",True
+@eldencafik,2020-02-01T10:20:20Z,0,read yapıo :d acmıo sadece bunu anladm glb,True
+@Esscapade,2020-01-29T14:36:20Z,0,Can you read  say a line and then treat it as a list ? i.e. each word/number read is treated as an element of the list ?,True
+@dillip4572,2020-01-28T04:26:59Z,0,thanks a ton- simple and easy way you expressed,True
+@migueldomingos4570,2020-01-27T14:32:13Z,1,Why do you use sublime text instead of pycharm?,True
+@anthonyreeb2639,2020-01-27T05:36:52Z,0,Awesome video. Anyone know the environment he’s using here?,True
+@someguy9367,2020-01-19T14:36:35Z,0,"What if i wanted to save like test.txt(1), test.txt(2).... and so on. how would i do that?",True
+@donutguy,2020-01-18T20:01:12Z,0,How can i make it print a random line of my .txt file?,True
+@yDkayOfficial,2020-01-08T12:42:31Z,5,"This is so fkng good, tkx for the content, srly, well explained and covers a lot of ground, loved it.",True
+@killuazoldyck169,2020-01-04T21:36:27Z,0,why didnt he show us the actual file im 9 min in and still dont know what is it reading,True
+@elij.9801,2020-01-04T16:19:12Z,2,You re better than my teacher... Idk why I pay for university,True
+@sknurulislam1271,2019-12-31T22:53:10Z,0,"Hello Sir, I have a question, please help me with the below code:   with open(""newfile.txt"", ""r"") as f:     for i in f:         print(i, end="" "")   In above code, we haven't mentioned ""read"", ""readline""   or  ""readlines""  anywhere, so how it is reading the lines and returning(printing)  the lines ?   Please help",True
+@scoobyduh8878,2019-12-29T04:43:16Z,0,Are you available for a marriage?  Great work!,True
+@happyhippr,2019-12-27T19:09:49Z,0,"fab explanation, such a great teaching explanation",True
+@fireclaw2,2019-12-24T03:44:38Z,0,"f = open('C:\Users\noName\Desktop\cookies.txt', 'r')   I get this error: Fatal Python error: Py_Initialize: unable to load the file system codec ModuleNotFoundError: No module named 'encodings'  Current thread 0x00004e6c (most recent call first):  Process finished with exit code -1073740791 (0xC0000409)    I've been trying to get through this for a while now. Any help?",True
+@saunaknandi1814,2019-12-21T09:20:08Z,0,"Wow i got really shocked when you show how to work with the image file . Thanks sir ""hats off salute"" to you",True
+@lukashk.1770,2019-12-19T22:45:51Z,1,the best python teacher ever,True
+@shafibajauri4988,2019-12-12T14:14:11Z,0,great tutorial,True
+@lukyluca46,2019-12-03T21:06:11Z,0,"I need help. I have text file with names of states and their capital cities. And I need to compare in python after my input of visited cities, which city I didnt visit? can you me with it program? Thanks",True
+@durgamrajesh,2019-12-03T09:44:20Z,0,"thank you for the amazing video, may I know which editor is that?",True
+@-dash,2019-11-27T04:06:11Z,0,"I understand the idea in reading in, say 100 characters at a time vs the entire file, but that's slower isn't it, even though it saves memory? Would it be any faster/memory efficient to have a file size threshold to determine the method of getting content? And if so what would be a reasonable maximum file size to read in all at one time?",True
+@soumyazyx,2019-11-23T10:15:34Z,6,Thank you Corey for your time and effort. Keep spreading the knowledge.,True
+@rock_it_with_asher,2019-11-14T06:23:41Z,2,"I appreciate your excellent effort, which saved me both time and frustration!! I'll spread the word:)",True
+@khalidhassani6173,2019-11-10T23:32:19Z,1,im so thankful for the great job you do out there,True
+@snrow321,2019-11-10T10:14:26Z,0,if i wanna choose only one line from a text like text: 22 33 44 and i want line 2  so i will get in the out put 33 how do i do it?,True
+@kraden1701,2019-11-09T07:36:10Z,0,PYTHON,True
+@mightyan2252,2019-11-09T05:40:02Z,0,What kind of IDE are you using?,True
+@AngelaSMak,2019-10-27T18:56:36Z,0,Hi Corey! Thanks for tutoring.  Where is the test.txt from? And how could you get that in your file on the left screen? Thank you very much!,True
+@mx13111,2019-10-17T21:02:26Z,1,"This man who made this video helped me a lot, l cannot describe with words anyways. many thanks",True
+@don-broomarquis5374,2019-10-15T13:16:22Z,0,"def b(name,name1):          print(""name:""name)          print(""name1:""name1)           s=open('doc.txt','w')         s.write(b)         s.close  how can I do it?>>>I can't write file with def value.",True
+@edgarlip2,2019-10-13T09:54:30Z,1,this was awesome ! waiting for the more advances topics that you suggested !!!,True
+@YoutubeChannel-oq6ss,2019-10-11T22:04:19Z,0,Dude for some reason it jus dosent work for me.... I have the file in the same directory and it always gives me a filenotfounderror,True
+@worstbuffs9189,2019-10-09T14:56:52Z,24,This video is so well explained. I’m a beginner and am able to follow everything perfectly!,True
+@aatifshaikh7086,2019-10-07T06:11:48Z,0,Sir how to create or add files to respective  python text editor,True
+@rumexcrispus,2019-10-04T12:47:48Z,0,"I think it should be stated in a video like this that a file overwrite should not contain any logic or data processing.  If you do that before the file is opened, any errors that occur will leave your file unchanged.   If you have an error inside the overwriting context manager, your file may end up blank.   Nesting context managers as was done here could lead to trouble.",True
+@pradeepnagaraj9277,2019-10-04T01:45:57Z,1,Excellent SIR!,True
+@vdud007,2019-10-03T08:31:20Z,1,good explanation ....thanks man,True
+@RahmaElsaeed-cf6ru,2019-09-28T12:52:38Z,0,"What is the context manger ,please?",True
+@yeldanaarmiya7038,2019-09-25T12:35:56Z,0,"a little question, hope someone can answer, how to make scrips to become commants? and it be done vise-versa? like in 8:40, he had done",True
+@ihalil95,2019-09-13T22:07:40Z,0,"Hey Corey! Not to run out of memory, we use; with('text.txt', 'r') as f:     for line in f:         print(line, end='')   I have a question. Are lines in text.txt is yielding to f? Not storing them in list? Thanks!",True
+@marlonholland955,2019-09-11T21:04:02Z,1,one video i watch leads to the next and to the next. i love it.,True
+@mehrdadrezaei2769,2019-09-11T12:37:22Z,0,create python program that reads from the  file and simply says hello to each person?,True
+@innoviawork7098,2019-09-05T15:06:23Z,1,I Love you really cause of this.,True
+@dr.merlot1532,2019-09-04T11:32:02Z,1,Any one else crash their computers by opening a large file?,True
+@gabrielsales7402,2019-08-22T14:21:42Z,0,"How do I read in only, say, half the picture, and then write it in to the picture's copy file? I mean, make a copy of only half the picture? Changing chunk_size isn't working.",True
+@varishnakov,2019-08-21T18:20:41Z,1,"I think I found a mistake in the code snippets document. You have there #f.seek(""R"") when it should be #f.write(""R"")",True
+@mehdinategh8876,2019-08-18T18:42:23Z,1,"perfect, thanks!",True
+@2kpresident363,2019-08-16T13:56:32Z,4,This man deserves Computer Science professor of MIT,True
+@AnimilesYT,2019-08-14T09:03:46Z,0,I have to agree with the average person in the comments. This tutorial is amazing!,True
+@michaelcdarby,2019-08-12T04:30:56Z,3,Yo.... this is much simpler in python than in java,True
+@joneswafula,2019-08-11T21:51:38Z,5,Who's here from UoPeople?,True
+@diretriz,2019-08-10T22:14:11Z,0,"too fast, dude. take it easy. please. =(",True
+@jethalalgada3908,2019-08-02T18:23:40Z,0,"Hey corey ! Can we use time.sleep with your last jpg section so that we can track the production of image live. When i used it (time = 0.00005) it didnt display the production , but the final image after few seconds . Any way to see the production? Thanks!",True
+@rehankhaled4886,2019-08-01T09:51:38Z,0,can python read markdown format files?,True
+@DASyam-tb7qt,2019-07-30T14:11:45Z,2,"Best python video tutorial on the Internet, bar none. Don't @ me.",True
+@origami_canoe1952,2019-07-30T04:49:12Z,1,"I learned so much, thank you!",True
+@averageconsumer5374,2019-07-25T10:14:21Z,0,how to read first 5 or last 5 lines?,True
+@karmaisayin5720,2019-07-18T01:51:23Z,0,Is there a way to directly specify a line for reading?,True
+@gunandiadinoto5089,2019-07-17T07:19:43Z,1,I am a beginner your video is very useful . I am wondering if you also have file object tutorial on attribute 'a' to complete attribute 'w' and ' r' ?,True
+@LucianC137,2019-07-15T10:14:55Z,0,But how to remove some things from the file,True
+@StevenSmith-nu6ox,2019-07-12T01:35:27Z,1,"Which version of python is this? Also, GREAT job! Thank you!",True
+@utsavjain1408,2019-07-11T19:14:32Z,1,What a beautiful dog!,True
+@eilayyosfan4417,2019-07-10T18:27:32Z,0,if i have a path how do i open the file and add the path to the code ?,True
+@govindrathi5632,2019-07-09T12:39:39Z,1,Man you made this for interesting and easy for me. Good job there.,True
+@atifbashir7229,2019-07-07T07:41:22Z,1,The Best ... keep it up man,True
+@chikkivenu6632,2019-07-05T06:02:56Z,0,"Hi Corey, Great job putting these videos.   when try loop  the read/readline/readlines causes ""Error ValueError: Mixing iteration and read methods would lose data"" and how do you go around those kindof issues. looking forward to your response. appropriate your work.",True
+@siavashkarami5835,2019-07-04T00:38:35Z,1,"best video, tnx",True
+@_Documentation,2019-07-01T10:52:18Z,1,"Corey, Simply the best!",True
+@judassachwalter2380,2019-06-30T16:48:21Z,0,thx hTOP job thx looking forward send  MODUL (arguments) in a Directory LIST or ARRAY thx https://my.sms.at/simvalley0  <<< https://stelzer.member.ccc.at/aquacounter/index1.php oe5rds 95.2 107.3 Mhz,True
+@rverm1000,2019-06-29T12:06:12Z,0,What editor are you using?,True
+@jezzrosetti5356,2019-06-24T13:04:42Z,1,Thank you!,True
+@rahulthaker694,2019-06-22T18:18:01Z,3,for line in f:   how does it take in one line like we havent specified anything  line why doesnt line iterate through each character . how does it iterate through each line  can someone please help me? :),True
+@s.baskaravishnu22,2019-06-16T07:23:49Z,2,"your videos are excellent. Your videos are very much useful to me, Many thanks for that. My warm regards to you.",True
+@TechFreak51,2019-06-15T22:32:25Z,2,AWESOME !!!,True
+@prateekyadav9811,2019-06-14T07:07:07Z,33,"""...it didn't delete the rest of the content"" HAHA",True
+@nimeroff,2019-06-10T19:35:13Z,0,"Hey bro I need your help, I need to write a code which reads the file and sees if there is enough space is the file for the input to be registered, or one which lets say limits only 20 inputs in a file",True
+@Roman14073,2019-06-08T13:10:29Z,2,Thanks a lot for providing good examples!,True
+@bk-ci3pg,2019-06-05T13:28:18Z,0,What if the file to read from or write into is in a different directory?,True
+@_LeMinhQuy-mf7hb,2019-05-29T07:08:53Z,0,how can run the python code in ur IDE???,True
+@gxsoft,2019-05-26T03:50:52Z,1,"Thanks COREY, very goog video, I JOIN to your channel. and suscribed too, of course",True
+@tube63017,2019-05-23T13:35:18Z,0,"Q1. Is it possible to read from the file while it is opened in ""w"" mode ? or does it need to be closed and reopen it in ""r"" mode to read",True
+@jhgfdjhgfdhdjfjhd6721,2019-05-22T21:59:57Z,1,Thanks so much for your efforts,True
+@ronaldolaureano7797,2019-05-22T04:56:37Z,0,Is there a way to create a file in reading mode?? I cannot :c,True
+@mba2ceo,2019-05-19T12:55:22Z,0,How do I set up this ?,True
+@mohammadahmadzai6517,2019-05-15T04:56:51Z,1,"very well explained, thank you!",True
+@himanshukarki,2019-05-13T18:27:31Z,3,Thank you very much sir for putting so much effort in helping other by sharing your knowledge.,True
+@debajyotimajumder472,2019-05-10T06:26:31Z,4,2 years Later:   It's still relevant God damn it !! Thanks Corey,True
+@amitkanade1983,2019-05-09T03:52:31Z,0,"Thanks for this tutorial, very practical, explaining how read() can cause a memory bottleneck if the file is huge. One question though ... unable to understand at 12:25 how while loops executes its last iteration and exits. From the output its clear that only 4 characters remain to be read at the start of last iteration which is still greater than 0. Can someone elaborate?",True
+@jsonkody,2019-05-08T15:44:46Z,0,71 people can't read nor write,True
+@muhammadahmed6884,2019-05-06T22:28:59Z,2,why is my python white?,True
+@epicpants2607,2019-05-06T15:22:07Z,1,Thats a cute fucking dog I love him,True
+@chayamuppineti9515,2019-05-05T04:27:14Z,0,Which text editor you are using and which theme?,True
+@simohillali9079,2019-05-04T15:53:16Z,3,"You're a blessing, thank you",True
+@sup3rn0va87,2019-04-29T14:36:14Z,0,Which text editor is used in this video?,True
+@jacoblim9439,2019-04-24T10:26:16Z,0,"Sir, i cant stop but keep wondering are you the same guy in https://upskillcourses.com/courses/javascript-basics/the-javascript-console??? FYI, you and 'him' having the best voices and best teaching skills. My first journey to learn coding is with upskillcourses and i love the way he taught me by ""best practice"". Too bad it didnt mentioned who is behind the scene. May God always be with you",True
+@alexanderkaib3679,2019-04-23T16:42:56Z,0,what text editor do you use?,True
+@aaronaaronaaron5922,2019-04-16T01:12:21Z,6,"Corey, I am discovering me a fan of your great channel!! Thanks a lot, man",True
+@mysterion5312,2019-04-06T10:55:48Z,0,I always have this error {No such file or directory} what is the problem,True
+@johno6020,2019-04-01T22:00:02Z,0,Could you make this for 2 players,True
+@danminto9540,2019-04-01T19:28:59Z,0,"Excellent tutorial, thank you very much. I have a question I hope you can answer. I need to read a text file and convert it to a slightly different type as another text file. The original file needs to be read for either commas or semi colons (where in your tutorial you read in chunk size). How would you read the text file for particular text, as opposed to chunk sizes please?",True
+@bairagonisrikanth3364,2019-03-31T14:03:42Z,0,Hello Corey  I want to move the folders from one drive to another drive,True
+@sidn_t,2019-03-29T06:36:39Z,0,What compiler do you use??,True
+@pacedelacruz4913,2019-03-26T01:24:42Z,0,BARELY VISIBLE on an iphone!!,True
+@Weaver2600,2019-03-23T15:31:15Z,0,What code editor are you using?,True
+@estefaniac8260,2019-03-23T15:04:01Z,13,"Thank you so much!!!! Your video is extraordinary. You explain these concepts clearly and thoroughly, in a very engaging way with practical examples. You made me understand this topic very quickly. Thanks again!",True
+@chandrasekharlimit4547,2019-03-20T19:16:52Z,11,these are better than my 2 hours lectures... My professor sucks so much at teaching python.  These are amazing and a life saver!,True
+@joesimpson8380,2019-03-13T20:18:09Z,0,Question about your code at the 20 minute mark.  How can I write to the file X amount of times,True
+@Zonfeair,2019-03-13T17:40:11Z,0,Hey it would have been nice if you included information on readline() and what would happen if you passed an argument into it such as say a line number. Would it just read that line? and is it possible to slice a section of lines or iterate over a group of lines? Just as a way to improve your lesson.,True
+@abhishektiwari9561,2019-03-07T15:38:04Z,0,Hi! Please make a video on io package in Python..,True
+@ahmedikr6650,2019-03-06T06:08:56Z,0,what version of python is this?,True
+@mr.banana5625,2019-03-06T00:18:35Z,0,"oops, I had a big file and change it to 'Test' with the write function. :(((. Nice video tho",True
+@handyimbjyoung,2019-03-05T22:55:22Z,1,Thankyou..  you're awesome.,True
+@Dark3nedDragon,2019-03-03T23:44:25Z,0,"This helped a lot actually, thanks.   I started learning Python a few days ago, and decided to create a game (never done coding before). I was having an issue with trying to figure out how to define a variable to a specific line (readline; didn't know that at the time), as a means of tracking the progress and associated flags as the player goes through the game. (An RPG; so far working systems, not all fully integrated: Main Menu, Combat Module, Character Class + Character Power Choosers, and Class for Enemies and scaling stats based on level)   If any of you were wondering how to do that, or needed reinforcement for it:   I created (using another, not shown, while loop + function),  gameSave.txt file, and defined values to put into it (writing it into existence) And for loading I use the below to pull the values from that written file, and save them as variables as it runs  ############# DELETE THE # IF YOU ARE TRYING TO RUN THIS IN A FILE, AND MAKE SURE TO CREATE A FILE CALLED gameSave.txt and put stuff on first 3 lines####### #################DELETE EVERYTHING TO THE RIGHT OF A # THAT IS MY ANNOTATION EXPLAINING IT  global pclevel #define the variables as with the global tag, this helps avoid issues where you can't set a value to a variable while it is within a function (might not be needed in some cases) global pcxp global pcname pclevel = '' #this is empty in the middle, two ' ergo empty variable pcxp = '' pcname = ''   with open('gameSave.txt', 'r') as g: #defined g as the term to open the file, as it is shorter and I'm feeling lazy after awhile     gsave = g #gsave = g, I didn't use gsave here but figured it is best to store the values as it is a small file, would probably not recommend unless you intend to use it later     pclevel = g.readline() #I stored the values in lines 1-3, and so set a value to each based on sequential readline, which is read as g (where we defined open('gameSave.txt', 'r')).readline()     pcxp = g.readline() #gets the second line     pcname = g.readline() #gets the third line   print(pclevel) print(pcxp) print(pcname)   #the above 'open' redefines the variables to the values that are stored within each line of the file, in sequential order, and then printing that variable will print out the stored information #worth noting, if you wanted to do say print('My name is ' + pcname + ' and my level is ' + pclevel) #you would need to do a str(pclevel) for example, to convert the stored number into a string; attempting to print an integer + a str won't work #i.e. print('My name is ' + str(pcname) + ' and my level is ' + str(pclevel)) #never hurts to be safe, the name SHOULD be stored as a str, but idk maybe you're R2D2 or something",True
+@meir6053,2019-02-28T09:27:53Z,8,my teachers can learn a lot from you <3 thanks,True
+@daniahmohammad6101,2019-02-27T17:54:40Z,1,Thank you sm,True
+@pingducky3387,2019-02-25T19:10:21Z,0,"With python, can I replace x line by moto if x line = dog ? please I need  help :)",True
+@snoopyjc,2019-02-24T04:53:17Z,0,"Instead of duplicating the read before and within the while loop, isn’t it better to use while True and then read, then test if empty and break?",True
+@adityaoza3367,2019-02-23T11:03:40Z,0,such a good content . thank you. please make a programme on socket programming,True
+@bubbleoftrouble2329,2019-02-21T19:11:17Z,0,what's the difference between writing to a file and appending to a file?,True
+@strockstaronthemoon,2019-02-19T18:31:23Z,0,this looks pretty similar to files in C,True
+@194711111,2019-02-10T06:20:32Z,12,"Now I'm in a confusion that weather the creator of python or its this guy, ""Corey Schafer"" ,  made python so simple. Thank you sir for your awesome explanation",True
+@alvaroalvarez1451,2019-02-02T22:07:10Z,0,"Thanks for the video, I'm trying to overwrite a specific line in a text document, how would I go about this?",True
+@moazelsawaf2000,2019-01-31T20:39:43Z,1,thanks a lot sir ❤,True
+@yaminik6223,2019-01-27T15:41:21Z,2,excellent python videos thank you,True
+@Johniakson,2019-01-24T01:24:46Z,1,You are the best teacher! Excellent videos. Thank you!,True
+@yunusmile,2019-01-23T11:22:08Z,0,"end=""*"" doesnt work for me, gives me error every time",True
+@Xaminn,2019-01-18T19:27:29Z,7,This really helped me understand how to read and write to files. Thank you for your time and expertise.,True
+@eriklee1131,2019-01-17T01:15:28Z,0,"at 20:18, if you remove the text from the write file and re-run the program it does not write in the file again it just leaves it blank. In order to use the function to write into the file, I have to create a new write file. Why is this?",True
+@robertdavis2855,2019-01-06T15:49:37Z,1,Top Notch bro!,True
+@joshuatilley2611,2019-01-06T11:58:55Z,0,"when i put with open('test2.txt', 'w') as f:     f.wirte('Test') i get this error Traceback (most recent call last):   File ""C:\Users\Joshua-PC\Desktop\New folder\write.py"", line 3, in <module>     f.wirte('Test') AttributeError: '_io.TextIOWrapper' object has no attribute 'wirte'",True
+@wonjaehwang7670,2018-12-20T08:41:20Z,0,Hey corey what kind of theme do you use?,True
+@ghstrider100,2018-12-13T16:27:57Z,0,"Sir, how to write on the next line? If I write stuff to a text file it just keeps on writing on the same line.",True
+@user-ij4wt2uo8u,2018-12-12T17:58:37Z,0,which python IDE is this ?,True
+@vedantbhosale7157,2018-12-10T14:35:49Z,0,What is the use of reading the data in chunks in case of images?,True
+@fynnnoble5728,2018-12-06T19:28:41Z,1,What did you use to code it as I can't reedit  some code once I close the tab because I just type idle into the serch bar  It was a really good video thanks for the help,True
+@SyedHassanRazaBukhari,2018-12-06T15:37:01Z,7,Sir you make the best tutorials of python! I'm sure not even the paid stuff can beat this.,True
+@lucynowacki3327,2018-12-02T12:27:36Z,1,Good and even better!,True
+@bilgameshc0der430,2018-12-02T11:36:50Z,0,I can't figure out why people think that python's syntax is considered to be easier than that of C++'s. It's almost the same brainbreaking syntax which is in no way intuitive.,True
+@hasanrumman2422,2018-12-01T14:22:42Z,12,16:10 Careful! File contents(if exists) are erased the moment it's opened in write mode.,True
+@wesleyking2278,2018-11-27T23:56:18Z,1,"Dis vidio is moist  ( very good , too good )",True
+@ruggeropiazza2157,2018-11-27T11:58:28Z,0,Do I always have to assign a variable to the file to interact with it? I'm trying to open a .txt file running python from powershell but it seems I can only open it and print it if I assign a variable at the beginning. thanks.,True
+@naderbelal8439,2018-11-25T02:05:34Z,0,"@Corey Schafer 1_ Thank you for this manual. 2_ Don't forget to add that a common error may occur when you give the file name with the directory, basically its when Python will interpret the directory address as string, which will cause a problem with escape characters",True
+@shubhamshukla9179,2018-11-23T14:15:52Z,1,Which IDE do you use??? Its great..,True
+@bmnone,2018-11-15T14:29:46Z,0,You should use white background for better tutorials... black BG is not visible properly,True
+@czglory,2018-11-14T08:06:27Z,0,"with open('test.txt', 'r') as f:     size_to_read = 500     f_contents = f.read(size_to_read)     while len(f_contents) > 0:         print(f_contents, end='')         f_contents = f.read(size_to_read)  I am confused why we have to repeat ourselves with the f_contents, this doesn't seem DRY but also is confusing. Why would twice-assigning the variable exactly the same prevent the infinite loop, and why are we using this method ?",True
+@dr.farsanafarooq6759,2018-11-11T15:43:09Z,0,Double under score..how can give like this,True
+@teachallgamesnews8695,2018-11-03T16:06:51Z,0,"how do i start reading from line 3 initially, which skipping line 1 and 2?",True
+@gabrielplume6778,2018-11-02T15:28:51Z,0,What IDE do you use? The GUI looks sick!,True
+@davecenta3557,2018-10-30T18:08:59Z,0,"Awesome videos Corey, thank you. New to Python and can't figure out how to read and write to a file that is located in a different folder than my Python script directory...Windows 10 user. thanks",True
+@devvy8343,2018-10-28T00:37:24Z,0,How can i read a specific line? like f.readline(1) or something,True
+@tanvorn9323,2018-10-26T16:10:06Z,0,How do i open file that is not in my directory but in other folder?,True
+@The_Generalgr,2018-10-26T01:15:37Z,0,"Hah, didn't delete the ""Rest"" of the comment I get it, because you wrote out ""Rest""..Right? No? Okay...",True
+@alphascript,2018-10-24T19:21:47Z,7,"Thank you! You made the video interesting whilst keeping it simple, I am a beginner and this has helped a lot.",True
+@techiemayankin,2018-10-24T14:52:05Z,0,"Could you just tell about r+ also? And also you didn't tell what exactly seek does, i.e. either it changes the current position of pointer on the file) or what is this seeking called (in conceptual terms). You also didn't tell about binary and character reading and writing modes much. By the way, sorry for asking so many conceptual questions, but I am teaching somewhere to a bunch of friends, that's why just got some of these questions and Thank you for your awesome video. Heads up.",True
+@comrade-rashka6599,2018-10-23T11:32:43Z,0,What editor are you using?,True
+@bulljens451,2018-10-17T17:58:54Z,0,Great Video! I would just like to know how you commented out a big chunk of code at 08:25 :),True
+@kylejaydeleon6378,2018-10-15T08:20:09Z,0,where does he code?,True
+@onehtw1974,2018-10-13T21:07:49Z,61,"Very simple to understand and just filtering out the important bits alone! If you do have a dedicated tutorial in udemey, I would love to subscribe! Keep creating Sir Corey! :P :D",True
+@abysswalker2403,2018-10-13T12:52:01Z,0,"def log(message):        f_log = open(log, ""a"")        f_log.write(message,""\n"")        f_log.close()  log('Successfully defined operations')  When I run this code, it gives this error.  Traceback (most recent call last): ** IDLE Internal Exception:     File ""C:\Users\hassa\AppData\Local\Programs\Python\Python36\lib\idlelib\run.py"", line 474, in runcode      exec(code, self.locals)    File ""C:\Users\hassa\Desktop\Python\Labs\Lab001\run.py"", line 27, in <module>      log('Successfully defined operations')    File ""C:\Users\hassa\Desktop\Python\Labs\Lab001\run.py"", line 6, in log      f_log = open(log, ""a"")  TypeError: expected str, bytes or os.PathLike object, not function  How do I fix this?",True
+@tanishqporwar4881,2018-10-09T14:48:59Z,0,hi corey  is there any way i can right values in a particular line? eg. if my file is:                             1                             2                             4 can i make it                              1                             2                             3,True
+@CreativeOven,2018-10-07T19:51:29Z,0,and where is the file allocated?,True
+@anushanarvi7987,2018-10-06T18:56:05Z,0,Well,True
+@amanoj6396,2018-10-06T10:03:22Z,0,"Hi Corey .. if I want to modify the first line of a text file , what should I do ? Plse help me regarding this scenario .",True
+@kleemakesmusic,2018-09-30T10:30:12Z,0,What is this for a Programm,True
+@AbuAhmedAlsudani,2018-09-27T11:20:31Z,0,"It is great Video, I want to ask you about for loop: loop in loop: is there any way to select specific  data from file one for every one when loop is done: here is file explane that: https://goo.gl/F8qwrc, and this is the python file: https://goo.gl/8k7PwM Thanks in advence",True
+@girikanthoruganti9254,2018-09-20T16:13:52Z,0,"I have a question after going through your video. Below  are two methods to read a file 1)  with open('dem.txt', 'r') as j:     for line in j:          print(line, end='')  2)  with open('dem.txt', 'r') as k:     size_to_read = 10     k_contents = k.read(size_to_read)      while len(k_contents) > 0:         print(k_contents, end='*')         k_contents = k.read(size_to_read)  My question is which is the best one to use and why? As both do the same thing(to me I guess :) ).  If there is any difference then under what circumstances what method should be used?",True
+@Bibibia,2018-09-16T11:13:18Z,0,I use pyton 3.7 what are you using to write your code? i love the layout :D please send a link so i can download it,True
+@hoodedwarrior8956,2018-09-15T13:36:08Z,0,"My first bump into context managers was when reading up on sockets, needless to say it was rather abrupt. Basic py tuts don't cover a lot of stuff. Decided to take the long route.. go back, learn about os, sys, context managers, select/selectors, do basic shit, then return to sockets...",True
+@ahmadawalluddin8711,2018-09-15T02:51:24Z,0,sir what are the other file example we can use  other that .txt file ?,True
+@shivuvali,2018-09-09T17:51:27Z,0,"hey corey, i want the output be like this. say if i give ""This is word to read text"".. then my output should be "" 'This','is','word','to,'read','text' """,True
+@raniasherif8428,2018-09-06T23:35:10Z,0,"I'm new with pyton, so what's the program that you're working on? do you have a like for that ?",True
+@sadanavenki1059,2018-09-05T19:13:16Z,0,how can I change the particular field of text data in the .txt file,True
+@j-oy6218,2018-08-31T07:48:05Z,0,"is there any tutorial for .docx files. I want to change the styles,fonts , etc of an existing  .docx file using python code",True
+@zins_9122,2018-08-31T04:46:04Z,0,"Hi  I am really wondering where to put the file I want to read. Do I have to put it in a text editor file? My file is in D drive, and I tried f = open('D:\College\CS-160\courses.txt', 'r'), but this doesn't work.",True
+@hongqiangliu7248,2018-08-30T15:40:04Z,0,"This the  best Python tutorial   i have  found  a through the internet. Thanks a lotttt/.. BWY,  what is the  App you used for the demonstration?",True
+@harrywotnot3377,2018-08-26T12:05:18Z,0,"Have followed the tutorial exactly as you have written it but when i call the 'test.txt' file all i get is:   File ""test.txt"", line 1     This is a text file!                  ^ SyntaxError: invalid syntax  Could someone tell me where i'm going wrong please",True
+@santanunheaven,2018-08-26T04:37:58Z,0,"Hey buddy, this is great. could you please explain this statement ""If we don't close the file, then you end up with leaks that cause you to run over the maximum allowed file descriptors on your system and your application could throw an error""",True
+@purrleterian,2018-08-26T03:56:40Z,8,you are the best when teaching python. period.,True
+@adeelmuzaffar1050,2018-08-24T08:08:08Z,0,Hi Corey I love all your tutorials. I often have to edit xml files with python but there isn't any good help out there. I would appreciate if you can make a tutorial on that.   Thanks,True
+@john-junkarsan4671,2018-08-19T19:13:59Z,2,very good presentation and very clear explanantion,True
+@mikevogt71,2018-08-15T21:24:54Z,1,Thanks Corey! Very informative and I plan on seeing more! I owe you one...,True
+@arnavsrivastava6182,2018-08-13T20:33:08Z,0,You need to teach  more commands,True
+@sandeepmishra2,2018-08-12T19:00:35Z,2,This is best youtube channel  to learn python!!,True
+@markjastrzebski4145,2018-08-12T01:16:33Z,0,Quick question. Are the following two snippet conditional while tests equivalent to each other ??? while len(f_contents) > 0:     .... while f_contents:     ...,True
+@sabarishamaravadi4331,2018-08-07T15:37:10Z,0,"with opencv, working with images would make more sense and easy",True
+@zarefgamz2515,2018-08-05T17:20:05Z,0,i need help with gui programming,True
+@User-nq9ee,2018-08-03T10:21:06Z,0,"***help***  when i do this   f=open('new.txt','w+') f.write(""i am new to python"") data=f.read() print (data) f.close()  i am getting some weird output :  6d~d�6d~d� 6d~d�6d~d� 6d~d�6d~d�  please somebody exaplain.. my StackOverflow account is muted :/",True
+@harishtripathi7273,2018-08-01T18:43:23Z,0,which s/w you are using!!!!,True
+@karthikudupa5475,2018-07-29T01:37:13Z,1,Thank you!,True
+@AK-yf4dp,2018-07-25T21:27:43Z,0,"Thanks a lot, I have a question : why did you rewrite rf_chunk at the end of the while loop??",True
+@user-to5vi3ns4b,2018-07-21T05:47:56Z,5,Your puppy is ADORABLE!! Thanks for the video,True
+@f4ls381,2018-07-06T17:27:49Z,0,Wich IDE are you using,True
+@judet_17,2018-07-03T09:14:24Z,3,OMG THS IS M FAVURIT VEDIO EVVRR,True
+@heller4196,2018-06-26T16:19:50Z,0,"Is there any size limit while we were making the copy of jpg file, mine was an jpg of 10Mb shell got stuck with no errors",True
+@brightokoro7073,2018-06-20T15:04:45Z,1,this is pretty cool well done and keep on the good work,True
+@dhruvemistry475,2018-06-20T04:34:09Z,1,What is the interpreter you are using? Great video! Thumbs up! EDIT: Subbed :),True
+@rearden3820,2018-06-19T11:26:10Z,1,Thanks for ur lesson. I'am clearly understand everything now :),True
+@punithaperiyasamy7199,2018-06-16T18:26:59Z,1,excellent. More videos please,True
+@tilakpawar979,2018-06-13T12:45:31Z,1,Amazing video!!! simple and detailed.,True
+@bantoniobsantonio6452,2018-06-13T00:08:37Z,0,"Hey, can someone help me with this??    File ""fileobject.py"", line 32     print(f_contents3, end='') # whats wrong with the '=' ?                                                 ^ SyntaxError: invalid syntax  I don´t understand why this happens",True
+@ratonmagico,2018-06-08T21:17:01Z,7,You're a truly talented teacher. Better than any online course I've tried so far.,True
+@prafullachavan9068,2018-05-23T00:25:39Z,0,in which app you are coding,True
+@salbei21,2018-05-20T18:52:14Z,1,Thank you so much for this. This really helped me to understand a couple things. You explained it really well. Thanks a lot,True
+@abdallahelkasass6332,2018-05-17T09:25:19Z,0,when using for with reading line it take time more than file.read,True
+@aank2007,2018-05-15T12:38:22Z,1,"Corey, I was switching languages from R to Python and this is the best videos I could find. Kudos and keep up the great work !!",True
+@k.kaushikreddy1792,2018-05-15T05:45:34Z,1,Great!,True
+@rorymacleod1291,2018-05-12T21:35:30Z,0,What IDE is he using?,True
+@grify,2018-05-11T05:05:23Z,1,What screen recorder do you use?,True
+@balrajsingh544,2018-05-08T04:53:19Z,0,What is seek used for in file handling?,True
+@nadavnavon2140,2018-05-07T17:48:17Z,0,"That's a wonderful tutorial.  I'm a beginner, and have a question I wonder if someone can answer:  At 8:55 for reading the file, a loop is done:  for line in f:          print (line, end=' ')  For my understanding, this function does not read every line, but each character, as if i would use ""x"" instead of ""line"". Am I correct?",True
+@mujahidahmad2296,2018-05-06T10:48:34Z,0,"sir, can i replace a single element like name etc without making another file folder  or making another file is necessary",True
+@jeremyflowers8908,2018-04-30T20:10:12Z,0,"Hi Corey when you use BytesIO does that effectively do a with internally too, so I don't have to close it..",True
+@nngwda,2018-04-30T19:15:32Z,0,"Hi there, I used the same content as your file and when I ran this below query got the result as 102 instead of 100. Can you please explain what is causing the discrepancy ?  with open('test.txt', 'r') as f:     read_size=100     f_contents=f.read(read_size)     print(f.tell())  Result: 102",True
+@vedantkulkarni3236,2018-04-27T09:29:51Z,0,if i want for a specific text in that file and get it here on the output screen? so what i should do,True
+@joshuawu5959,2018-04-27T01:03:35Z,1,u suck,True
+@technicknb,2018-04-26T07:18:23Z,0,Can I ask what music you used here? I really like this background,True
+@Garentei,2018-04-26T03:26:16Z,28,This was incrediby clear and useful. I actually started predicting what was going to happen not because it was obvious but because you explained it so well. Instant subscribe.,True
+@sovanraksa2112,2018-04-25T00:20:29Z,0,Hey Corey! I've got a suggestion for you. I think you should make exercise video. I think learning a programming language is not about watching videos all day and do nothing (especially beginners). I think it's best for people to learn to do and to learn to be. It'll be very helpful to the others as well as me. Thanks in advanced!,True
+@jamesdoes356,2018-04-18T02:32:27Z,2,How do you start writing on a different line?,True
+@max_coder8823,2018-04-10T23:44:52Z,0,"hej from Sweden, this thing on 17min doesnt work for me, I mean rewriting some part of the text with 'w' 'w+' its remove all text and write the new one ex. 'test'??? have python 3.65",True
+@warrensanders5744,2018-04-08T21:01:06Z,0,"Where can I learn the peculiarities of working with Excel files? I want to pass info from one page to another for collective information. Also, is it possible to replace visual basic with python in excel?",True
+@JessY_8,2018-04-05T14:25:44Z,0,"this is so good, you explain it way better than my uni tutor!",True
+@erarman1991,2018-04-04T21:04:18Z,0,How to replace specific words from file ?  And original file should not get changed permanently.,True
+@vexrl9953,2018-03-29T01:02:38Z,0,what text editor is this guy using?,True
+@congamike1,2018-03-25T22:33:55Z,0,Just what I needed. thanks,True
+@officesuperhero9611,2018-03-24T10:36:35Z,7,"You have the clearest, best explained videos on Python.  Great job.",True
+@marshalljordan2416,2018-03-23T15:53:15Z,0,You are really helping me to learn Python!,True
+@grupomexico4679,2018-03-18T15:10:15Z,0,"how can i read a .txt file with a list like: juan pedro maria lola luis  i need reed this file .txt from another file but read first the line1,then the line2,then the line 3 etc and when the last line come brake automatically",True
+@pilaramonkgogimoshebashebi2371,2018-03-07T14:24:18Z,857,This man deserves a knighthood. In the name of the Warrior I charge you Ser Corey Schafer to be brave. In the name of the Father I charge you to be just. In the name of the teacher I charge you to educate the masses. In the name.....  Arise Ser Corey Schafer:),True
+@mihnearazvan1,2018-03-04T13:17:14Z,0,"I'm missing the logic the ""end= ' ' "" works ( 7':43'')  to remove the empty lines...is it because it's placed after the \n of each line , making \n inactive? Thanks! Cheers!",True
+@jaytube277,2018-03-02T00:42:35Z,0,"Hi Corey, Thanks for all your great videos. These are super useful. I have a question. I am not understanding how the following code runs and prints the file content  with open('test.csv','r') as f:    for row in (f):        data = row        print (data) there is no readline function used here. How it reads a single line ? How it moves from one line to another.",True
+@northeastflorida,2018-02-27T17:25:27Z,0,Outstanding video.,True
+@carlmyname265,2018-02-21T18:02:07Z,0,Thanks man u really help me out a lot bout this read and write file u really a good teacher tho,True
+@codaadoc5302,2018-02-19T20:55:44Z,0,"When he says that the code written as is would initiate an infinite loop at 11:25 , would the output if he did run it just be the first 100 characters over and over again? (lines 1 through 5 of his test.txt) Or would it print the entire test.txt over and over?",True
+@shad6392,2018-02-19T10:07:10Z,0,"i dont understand how the while loop works here(23:36), rf_chunk = rf.read(chunk_size) how this keep in not being in infinite loop.",True
+@bellcanada719,2018-02-09T18:33:52Z,0,sorry it prints but doesnt open the file,True
+@MrG0CE,2018-02-09T04:34:09Z,1,"SORRY, WHAT'S THE NAME OF THAT LITTLE VISUALIZER ON THE TOP RIGHT CORNER? DOES ANYONE KNOWS HOW TO PUT IT INTO THE SPYDER IDLE?",True
+@darylsato7600,2018-02-06T16:58:23Z,0,"Q? what would cause the print (XX, end="""") to give a syntax error for the '=' (equal) sign?   tried multiple ways and keeps giving a syntax error.",True
+@JoeWong81,2018-02-02T20:40:09Z,2,"Glad I found your video series, I'm going to watch all of them plus I'm following you on facebook",True
+@goutammajumder7251,2018-02-02T06:40:36Z,0,Thank You.....Great,True
+@PhucNguyen-pf3qb,2018-01-28T04:52:48Z,0,what if I open a file without .txt of .whatever? will the file take up my storage?,True
+@alexandermedina4950,2018-01-14T14:33:30Z,0,Thank you for videos like this.,True
+@sauloathman1294,2018-01-11T04:22:46Z,1,What IDE are you using?,True
+@onurbasak793,2018-01-09T13:40:35Z,0,"I wrote same things as you did,but i've got an error.Do i need create a text file on the desktop or elsewhere?",True
+@debimohanty1,2018-01-03T05:05:24Z,2,U r simply outstanding pal.. keep up the good work!!!,True
+@zaryabaliahmed4147,2018-01-01T12:04:46Z,0,Which IDE are you using? It looks very useful,True
+@tcb6550,2017-12-31T05:14:06Z,0,"Hi Corey, Fantastic Video..very clear with your explanation..Than you so much for your efforts on making this video..Love to watch your series..",True
+@MrTheAlexy,2017-12-28T19:46:21Z,0,"Hello! It's a great video, but a have a questin though....  When you specified size_to_read var equal to 10 and set a loop to read the file to the end. I guess the condition will work until the size_to_read variable is not zero. But, why would it become  zero? we don't decrement it or something... we just hardcoded it. Could you please elaborate on that?",True
+@DeathByAutoscroll,2017-12-26T20:04:06Z,0,Question: Is there any way to read/write only certain lines e.g. Random name picker?,True
+@samanthapikus3178,2017-12-21T13:59:51Z,0,Great Tutorials,True
+@colonelunderrated1076,2017-12-21T09:02:10Z,1,which IDE do you use bruv?,True
+@stevefrt9495,2017-12-19T12:24:24Z,0,Thanks you so much,True
+@assadurjamanrana4937,2017-12-19T06:55:44Z,0,"that's really helpful.. I learnt a lot from you... great job!!!. keep it up. anyway, I will be wondered if you tell me your python soft name and details and how I install that console...",True
+@madhusmitasingh116,2017-12-19T03:21:49Z,0,In case of. Wav is it possible to listen in python?,True
+@vishnutm2549,2017-12-17T11:11:06Z,0,"ur tutorial are awesome. can u provide a tutorial on ""machine learning"",""matplotlib"",""numpy"",""scipy""..?",True
+@tokihossoin7861,2017-12-17T01:07:45Z,0,14:44 for writing file . Np . Thanks for the vid man really helped me out in the write mode part <3,True
+@Runawaygeekchannel,2017-12-12T07:26:26Z,0,"Hey man, this vids are great! What's the editor you are using?",True
+@NanduriBharrath_nb,2017-12-07T00:16:54Z,1,"if I want to read and extract text from several  "".docx"" files, is there a way i can just pass filenames as arguments to a function i created? HOW TO PASS .docx FILE AS AN ARGUMENT?",True
+@RishikaSinghthetraveler,2017-11-30T20:19:25Z,0,Thank you so much . This is very helpful :),True
+@sofi1506,2017-11-23T14:44:45Z,2,"Hi Corey, thank you for the amazing tutorials! I have just one question What does this do: open(self.file, 'w').close()",True
+@abhishekmaurya6474,2017-11-16T06:13:32Z,1,But how does the variable size_to_read becomes 0 in the while block,True
+@himansuodedra2201,2017-11-15T22:30:53Z,0,"having a problem with my sublime text editor. every time i try to build: f = open('test.txt', 'r') print(f.name) f.close()  nothing happens. there is a message at the bottom stating 'no build system' can someone help thank you",True
+@himansuodedra2201,2017-11-15T19:08:51Z,2,Wow. I've been trying to learn certain concepts in python for a while now and I've come to the conclusion that your videos are beyond amazing and super helpful. literally couldn't be more grateful,True
+@jayragaileortiz5112,2017-11-15T10:53:10Z,0,i want to ask if i can pass the value i made for example the result of a function to the contents of the file using import then call the function itself inside a write file. Is that possible?? or i should just copy paste the result to write that file? like for example: in: FIle(MorseMod) out:Result ofMorsrMod not its contents,True
+@nuruljanah9621,2017-11-15T07:52:50Z,0,please can u change ur background color to while please,True
+@asifahmed1668,2017-11-15T07:36:28Z,0,"how to add this text ""python""  at the end of each line  for  example    input:   Hi welcome  ouput:  Hi python welcome python",True
+@user-jy5dc8kw6d,2017-11-13T00:48:25Z,0,thanks for your amazing work,True
+@karinaabreu7647,2017-11-12T16:43:35Z,0,"This was a great tutorial, thank you!",True
+@jagdishk6307,2017-11-06T02:12:39Z,0,"Pretty much useful for freshers, keep up your good work",True
+@gektejelles,2017-11-01T13:43:27Z,0,What is this program called what you are using?,True
+@SuperBreeze321,2017-10-29T05:09:08Z,0,"How to I read in a file from a certain folder? you only say 'test.txt', what folder is it stored at? I get errors like --Can't find directory or file even when I point in the exact folder name. Please let me know",True
+@aryamanverma644,2017-10-27T09:53:52Z,5,How would I read/print a random line from the file,True
+@aoiwoi,2017-10-25T05:30:32Z,0,"Hi. First of all, let me say this, you r the best Python Teacher EVER!!!!!  And, I have a little question @20:35 of the video.   When We do   -------------------- with open('test.text', 'r') as rf:     with open ('test_copy.text', 'w') as wf:         for line in rf:             wf.write(line) --------------------  how come we did not get the space between each line without ""end= ' '"" option?  I though the basic option was always the new line created.  Thanks in advance!   And again, remember that you r truly the best python teacher ever!",True
+@automotive_embedded_systems,2017-10-23T18:49:43Z,0,"It's an awesome tutorial for file object. thanks for your content. i have a question      with open(self.file_to_read,self.file_mode) as file_context:      contents=file_context.read(self.stream_size)      while len(contents)>0:      contents=file_context.read(self.stream_size)       print contents why the print is not printing any value . why this is escaping the print statement  It will be helpful to know.",True
+@turboromy,2017-10-22T20:21:38Z,0,What's the purpose of breaking it down to smaller chunks ?  Better memory usage maybe ?,True
+@jellejacobs7480,2017-10-08T14:40:11Z,0,"btw you can also type: f = open('OpenMe.txt, 'w')  f.write('Nice video dude!')",True
+@jellejacobs7480,2017-10-08T14:38:41Z,0,"with open('OpenMe.txt', 'w') as f:     f.write('Nice video dude!.\n')     f.write('Keep it up!')  If you know what I mean :P",True
+@WordbreweryLanguages,2017-10-06T17:58:22Z,3,"Love your Python (and other) videos — some of the best coding tutorials on YouTube. Very clear, detailed, in-depth explanations that get right to the point. Great work!  Ideas for future tutorials:  -Much more on classes, including composition, polymorphism, when to use classes vs other data structures, etc. -Enums and when to use them (introduced recently in Python) -Examples of when to choose different data structures and how to implement each. - Oauth and working with APIs through Python -PDB / debugging -Testing web apps -Selenium and Python  -Beautiful Soup -Pytest  -Pylint  -TDD  -Encapsulation / structuring code in python effectively  -Advanced namespaces / modules / packages  -Flask (advanced or in-depth, eg explaining the app context and how working with Flask blueprints is different from the usual modules and if ‘__name__’ == ‘__main__’ - Intermediate/ Advanced object oriented programming - Refactoring and code smells - Functional programming  - Advanced Sublime Text - Workflow, eg syncing dev environments across different platforms, version control for dotfiles, etc. - Productivity tips - Design patterns  - Medium/low-level networking and web programming with Python (understanding HTML headers, session objects / cookies, HTTP protocol, servers, AJAX and REST APIs, etc. - Setting up a personal web server, mail server, file server, owncloud, etc.  - Executing JavaScript with Python - Setting up a LAN / basic home networking  - Scripting and automation tips/ideas/anything - MongoAlchemy and/or Pymongo and/or SQLAlchemy - Building a web app with Python/Flask backend and JavaScript/Angular frontend  - Advanced regular expressions (maybe covered in your newest video)—e.g., escaping regex strings  - String templating, text replacement, etc. - Collections module  - Modules that are useful or should be in the standard library but are not  - Advanced / in-depth primitive operations, e.g. string and dict methods.  Thank you!",True
+@talhakhan4760,2017-10-04T23:49:34Z,0,Hey Corey! could you explain me more about .name method I am kinda confuse because when you have a . there is always a  parentheses () for example .lower() .title() etc..,True
+@rockmanvnx6,2017-09-21T05:04:57Z,0,what editor are you using ?,True
+@aureliam1656,2017-09-20T12:45:56Z,0,"this works perfectly fine for me, with a big file, without your restriction, 'size to read (100)' see:  with open(""assignmentText.txt"", ""r"") as f:  text = f.read()  while len(text) > 0:   print(text, end = """")   text = f.read()  Anyways. Thanks for the video, this helped me a lot!",True
+@sushanttodkar8294,2017-09-08T15:09:02Z,1,Thank you so much for this awesome tutorials.,True
+@Atozanycome111,2017-09-08T14:35:18Z,0,Very nice. Thanks,True
+@timc2832,2017-09-05T19:02:24Z,0,How do I read just a single line????,True
+@wartybix5038,2017-08-29T08:07:28Z,0,What IDE is this?,True
+@patrickfreeman9094,2017-08-27T16:35:48Z,0,"The [print(f_contents, end='')] trick to get rid of the newline characters does not seem to work for me... Either (python 2.7) it throws a syntax error, or (python 3) it is seemingly ignored. What gives?",True
+@brightonduder,2017-08-24T09:14:05Z,0,"Loving your tutorials, man QQ: why not always use rb or wb for both text and image files (to avoid errors)  Is it good practice or speed or something like that? A big cheers from the UK!!",True
+@kapilmathur87,2017-08-24T04:41:28Z,0,Corey...plz upload videos on how to start from scratch with web scrapping/crawling using urllib/urllib2 and requests module.Would be eagerly waiting mate🙏🏻🙏🏻🙏🏻,True
+@vipinsharma5835,2017-08-18T13:49:27Z,0,"hii input is -> from excel import OpenExcel f = OpenExcel('names.xls') print f.read('A') print ""my name is {} and my gender is {}"".format(f.read('A3'),f.read('B3'))    then output is ->  IOError                                   Traceback (most recent call last) <ipython-input-49-0cf36a9bca3e> in <module>()       1 from excel import OpenExcel ----> 2 f = OpenExcel('names.xls')       3 print f.read('A')       4 print ""my name is {} and my gender is {}"".format(f.read('A3'),f.read('B3'))  C:\Program Files\Anaconda2\lib\site-packages\excel\xlrd_shortcuts.pyc in __init__(self, path, sheet, mode)      38         self.mode = mode      39         if mode == ""r"": ---> 40             self.data = open_workbook(path)      41             self.sheets = self.data.sheet_by_index(sheet)      42  C:\Program Files\Anaconda2\lib\site-packages\xlrd\__init__.py in open_workbook(filename, logfile, verbosity, use_mmap, file_contents, encoding_override, formatting_info, on_demand, ragged_rows)     393         peek = file_contents[:peeksz]     394     else: --> 395         with open(filename, ""rb"") as f:     396             peek = f.read(peeksz)     397     if peek == b""PK\x03\x04"": # a ZIP file  IOError: [Errno 2] No such file or directory: 'names.xls'  i sure file is exist plz tell me solution of this problem.",True
+@ketotr7362,2017-08-16T13:09:40Z,0,Great explanation. Thank you so much,True
+@kumarsantosh726,2017-08-08T07:27:11Z,0,Thank you so much... That's all i can say..,True
+@benzeltser9851,2017-07-30T15:37:43Z,0,the idle prompts me an invalid syntax error every time I try to type (end = ' ' ) does anyone ???know why,True
+@TheMRTIMBUK2,2017-07-28T17:01:42Z,0,@Corey Schafer Sir Which book do you recommend to learn Python 3? Currently i am reading *Automate-the-boring-stuff-with-python*,True
+@renhaoluo2032,2017-07-27T05:48:46Z,1,"Thanks for making this awesome video. Are you going to show how to use a+, r+ and w+ by any chance? or can you explain to me a little bit?  Thanks in advance.",True
+@raanonyms7926,2017-07-24T14:49:43Z,0,I am stuck in developing UNIT test case for a linux based command subprocess. Any kind help will be appreciated.,True
+@Osama-xs8cl,2017-07-24T03:02:22Z,0,"first things first very thnks for your hard works your lessons very awesome , in 22:11 i think  you don't need loop you can just do like this: with open('bronx.jpg', 'rb') as rf:     with open('copy_bronx.jpg', 'wb') as wf:         wf.write(rf.read())",True
+@viveksahoo1918,2017-07-12T06:46:22Z,2,"In python 3x we can write print(f_contents,end=' ') to solve #NewLineproblem , but in Python 2X how we can solve it. Please help me out.",True
+@erfanebrahimi9748,2017-06-29T17:23:14Z,0,Great tutorial. Thank you,True
+@jordanwalker7076,2017-06-28T19:11:17Z,3,Thumbs up for puppy pic,True
+@likheshmahajan850,2017-06-27T10:55:15Z,0,Awesome videos..,True
+@InterDimensionalOwl,2017-06-22T16:32:34Z,0,"Very helpful, thank you!",True
+@acidacidacidacidacid,2017-06-22T01:25:01Z,0,"Hey, love your videos! been a massive help with my uni work. just a quick question. I'm trying to get sublime text to work with python. For some reason every time I try to use indentation I get a warning saying it contains tabs. Any idea how i can get rid of it?",True
+@popik45,2017-06-21T19:05:17Z,0,The most useful python series on the net. thanks alot,True
+@arctichoundgamer2105,2017-06-05T15:21:17Z,0,"How do I write onto a document the users input?  I am creating a program so the user can write their favourite things, I want these to then go onto a file. Here's what I've done:  def add():     newFile = open('My Favourite Things','w')     note = newFile.write(input())     newFile.close     newFile = open('My Favourite Things','r')     print(newFile.read())     add() add()  When I enter something, it prints it back (like it should) in the console. However the file that it creates is empty. Thank you in advance for your help :)",True
+@jmy976,2017-06-01T15:32:19Z,0,"how to return a list of words from the text file?  im doing a hangman game. and im required to return a list of words from the easy.txt file. in the easy.txt file, the words are given like this:  bell blue red star white picnic pie hat heart flag i wrote my code like this:  def readFileWords():                 with open('easy.txt', 'r') as f:                     data = f.readlines()                 print(data)             readFileWords()             return but the output is ['bell\n', 'blue\n', 'red\n', 'star\n', 'white\n', 'picnic\n', 'pie\n', 'hat\n', 'heart\n', 'flag']. how do i remove the \n without changing text file?",True
+@IvayloSpasov,2017-05-30T03:15:02Z,1,"You're doing a great job but is there a way to zoom your screen, because there is so much unused space. That could help watching your great tutorials to all small screens. Thank you!",True
+@keshavbanyal,2017-05-28T03:46:27Z,0,perfect and fluid :),True
+@guilhermeirume8756,2017-05-24T17:25:46Z,0,what software is this that u using ? this black screen thing?,True
+@anthonyanonde6331,2017-05-17T14:37:02Z,0,"i thought i know how to read and write file, after watching this series i now know how to write and read awesome files. thanks so much",True
+@Zamai,2017-04-30T20:13:39Z,4,"Thx for vids signed up to became your patron! BTW,  what about that tmp files and in memory files vid, is it on your channel?",True
+@drummatick,2017-04-29T21:28:27Z,1,great videos corey. can you please tell us which editor do you use???,True
+@TheACCmy,2017-04-21T18:20:58Z,0,Thanl you. It's perfect!,True
+@maddipatikesavulu2540,2017-04-20T19:10:31Z,2,Good Explanation .,True
+@MirekHeikkila,2017-04-18T11:27:30Z,1,Great Video and amazing explanation! btw <3 the doggy!! :),True
+@hamidabdanan7795,2017-04-17T17:53:20Z,1,I like how organized you are and cover so much. Thank you.,True
+@debvdo,2017-04-13T14:59:01Z,0,"When you do a type(f) on a file object f obtained by 'open', it shows the class as '_io.TextIOWrapper'. Why this unusual name? Why does it not show something more obvious like <class 'File'> ?",True
+@TheJohnny966,2017-04-13T06:38:43Z,1,Very comprehensive video!,True
+@darthvador3699,2017-04-12T07:40:55Z,0,What's your python...looker...thing. How do you make python looks like that rather than the default python IDLE.,True
+@leftblank5315,2017-04-06T02:36:45Z,0,"For reading large files does it make sense to wrap it into a generator or is ""f"" already an iterator at the point of the context manager?",True
+@TonyFlexPromo,2017-04-03T21:52:22Z,0,"great video, thank you!",True
+@MadhavKakumani,2017-04-01T22:39:16Z,0,"Excellent videos. Do you have any videos the shows how to extract the data from a database, transform, group the data and insert into database using python?",True
+@hahanamegobrrr6667,2017-03-28T00:23:03Z,0,"can I use ""if""? like f.read() if ... :     ...",True
+@helpmenowmark,2017-03-27T22:16:46Z,0,Oh wow!   You rock partner (as your vids).,True
+@PaulGrahamJR,2017-03-27T02:41:47Z,364,Thank You Corey!  You are a talented and gifted Tutor.  I have watched over 50 python tutorials and yours are the best example of what I have found on Youtube.,True
+@kulvirsingh819,2017-03-26T08:01:41Z,235,BEST PYTHON TUTORIALS!!!!!,True
+@curtturdle5661,2017-03-25T18:49:20Z,0,i cant believe AJ Styles is teaching a python course ;),True
+@laszloszoboszlai9578,2017-03-02T01:20:11Z,0,"hi  nice vids. got subscribed. but one question: what if you need all the words from the file in a datastructure to do further process. for example you need them in a list, in this case does it matter how you read the file in?",True
+@trancepeirce3107,2017-02-25T03:12:09Z,0,"Does anyone know a simple method to read/print specified text? For example, being able to print out the text on line 5, or print out the text between the 100th character in the file and the 200th character in the file, or print out the text between the characters 'start' in the file and the characters 'end' in the file.",True
+@user-rl1yl2ee8z,2017-02-20T14:07:19Z,0,Your tutorials are the best! So much useful information. Thanks a lot!,True
+@JoeEvansSound,2017-02-16T11:04:16Z,16,"*** Thanx Corey - Excellent Video. Nicely spoken, great pace, very informative and easily understandable.  Great work - thank you! :¬)",True
+@malcolmpowell,2017-02-11T22:05:55Z,0,Excellent video ..... What is the best approach to read a text file and extracting data from defined colums in the text file ?,True
+@SavagePotatoo,2017-02-09T18:25:40Z,2,"Hey! Awesome tutorial! I have recently been getting really into python and I have made an RPG. In my game, I want to make a save feature which will make a new .py file which you can load from when you re-open the main game, but I haven't had any luck, and cant find exactly what I am looking for. Any help will be much appreciated, and thank you in advance :)",True
+@shaheen4765,2017-01-31T16:08:29Z,0,your the bast,True
+@malayray2589,2017-01-24T15:36:28Z,0,hi i am using python 3.5.2 and trying to open csv or text file but getting error in the line... file not available or errorno22. would you help me please,True
+@RemovedByAdmin,2017-01-20T10:52:30Z,7,finally someone that explains it properly! Thank you :),True
+@doloreslaflipoflopo2746,2017-01-14T01:34:02Z,1,"nice Tutorial, this one helped me a lot in my finals. One further question, how did you comment out both three lines at once? which keybinding did you use? Thank you.",True
+@xx482,2017-01-07T06:31:14Z,0,"can you please let me know what seek and tell will do . when i use seek in python 3 with mode 0,1,2 there is error thrown . hope i might be wrong in understanding the concept .",True
+@dhanashree318,2017-01-03T13:07:58Z,0,Thanks a lot Corey for your contribution in my python study. somehow I am not able to watch videos from my android device. The audio continues but video pauses every time and surprisingly it is only for your channel (which I love most to follow) :( Please see if you can control that from your end. I know its less likely problem from your end. But not sure why only this channel's all videos are pausing.,True
+@mingshuoji445,2016-12-25T22:04:01Z,0,Clear and precise instructions!,True
+@shaikhaal-hassan8090,2016-12-25T21:36:12Z,0,How do you get python to type a word out of other words that has more than three consonants?,True
+@debamritak,2016-12-14T16:39:40Z,0,Hello great teacher..please still need the tutorial as promised in this video.,True
+@debamritak,2016-12-14T16:37:58Z,0,"I really admire you, how you can made things so simple.",True
+@Dany-rh5ur,2016-12-14T14:10:40Z,0,"Wondered if you could help me.. How could I add line numbers to the output from reading a text file. Assume I have a text file with 5 random numbers. for example: Line 1: 23 Line 2: 28 Line 3:.... and so on... Hope you guys can help :-)  #Heres my code. It works, except I want line numbers to the output :-)  def main():  Read_Numbers = open('Random_File_Writer.txt', 'r')  total = 0  count = 0   print(""Here are the numbers: "")   for line in Read_Numbers.readlines():          print(line)           total = total+int(line)           count +=1   print(""The total sum of the numbers is: ""+str(total))  print()  print(""The total of numbers read, are : ""+str(count))  main() Show less",True
+@sunnysunilsharma,2016-12-01T22:25:53Z,2,Great tutorials Corey...Thanks a lot for making all this so simple,True
+@lachlanmcleod5294,2016-11-30T00:46:53Z,0,"Hey Corey. Excellent work! Do you have any idea how to perform a calculation to multiple csv files at once and then export these as new csv files to a new folder location renaming them automatically. For instance, lets say you have 100 csv files located in multiple subfolders and they all have Datetime as their first column, is there a way to automatically resample all csv files to hourly data and then export all these files to a new folder and automatically rename them to include ""hour"" in their name? Any advise would be much appreciated. Thanks mate.",True
+@Aditplusk,2016-11-29T07:39:37Z,0,you are one good teacher,True
+@agustinserradell8056,2016-11-09T22:27:35Z,0,You genius. tutorial = excellent,True
+@AbdulSamad-jm1dr,2016-11-08T05:12:21Z,2,"Amazing.. am loving Python even more now ! Please dd more tutorials to Files on files like reading from IO, memory, csv files, or extracting data from unstructured format .",True
+@xXOmegaXxPlays,2016-10-30T02:02:27Z,0,"Thank you for creating this, but can you do the webbrowser module?",True
+@Behrouz2181,2016-10-25T01:42:33Z,0,Your explanations and method is great. Thank you so much for your great tutorials.,True
+@OssheLouis,2016-10-20T11:27:13Z,1,What python IDE you use in this video?,True
+@YSingh-fo2ex,2016-09-25T16:17:45Z,42,PLEASE POST SOME TUTORIAL ON NETWORK PROGRAMMING USING PYTHON....THANKS IN ADVANCE !!,True
+@YSingh-fo2ex,2016-09-25T16:16:39Z,0,Thanks again for your wonderful video !!. What if I wanted to read only the 3rd or 4th line. How it can be done ?,True
+@mamunurrashid5652,2016-09-03T15:51:55Z,2,Great tutorials.....Very useful and elaborated...Thanks for making them...,True
+@OttoFazzl,2016-08-05T15:28:52Z,0,"I can't stop watching these tutorials! Thanks, man!",True
+@saminbinkarim6962,2016-05-25T02:56:15Z,1,on point ! :D,True
+@hudanabdurr9257,2016-05-21T08:45:35Z,0,how to write file with excatly same name with the one u read but dont typ it manually?,True
+@son9673,2016-05-04T08:34:10Z,4,"Great tuts. I assume this is for python 3? I tried to do this in 2.7 and it doesn't seem to like the syntax with the ""end"".  I guess I should start transition to 3. Overall like your style of teaching.   Edit- I got it to work if in python 2.7, you have do an import -> from __future__ import print_function",True
+@krama2420,2016-05-02T17:16:56Z,7,"I agree with Airth. Your python series is awesome. Your videos are great. I think its the depth you go into, the many different ways to do it, and the way you should do it.  Oh and so much ""energy"" and ""flow"" in the videos.",True
+@Zwiesel66,2016-05-01T20:30:37Z,0,"Your tutorials are great, thank you!",True
+@americaexpointernational5277,2016-04-30T14:49:21Z,5,More videos please!!,True
+@americaexpointernational5277,2016-04-30T14:20:55Z,3,excellent explanation,True
+@stratan9707,2016-04-29T18:55:28Z,68,"Dude, I'm in love with your python series. Keep up the amazing work.",True
+@praveshjangra07,2016-04-29T17:13:27Z,7,awesome tutorial :),True

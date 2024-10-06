@@ -1,0 +1,39 @@
+author,updated_at,like_count,text,public
+@krishnaik06,2023-09-03T06:30:12Z,6,code materials : https://github.com/krishnaik06/Complete-Machine-Learning-2023,True
+@pranabandhumohanta2141,2024-05-17T11:34:53Z,0,"I think ""height"" is independent variable and dependent variable is ""weight """,True
+@sabbiruddinakash7181,2024-05-04T19:32:00Z,0,Thank you sir,True
+@admonitoring-pi9os,2024-05-01T21:02:52Z,2,"Nice. Thanks, stay blessed. Love and respect from Karachi",True
+@kshitijnishant4968,2024-04-30T19:44:58Z,0,"Hi @Krish, how come you didn't get any Value error here while running the performance metrics code at 1:11:56 ?",True
+@franzjosefbenjaminmacapaga278,2024-04-21T08:15:27Z,0,"hello Krish, what is the title of the next video?",True
+@rupadevi2176,2024-04-01T11:50:01Z,0,"#categorical data labelencoder_x= LabelEncoder()   x[:, 3]= labelencoder_x.fit_transform(x[:,3])   onehotencoder = OneHotEncoder(categorical_features=[3])    (TypeError: OneHotEncoder.__init__() got an unexpected keyword argument 'categorical_features' ) x= onehotencoder.fit_transform(x).toarray() sir please can u tell about  why categorical_features called as type error",True
+@24amit,2024-03-21T17:21:15Z,0,Thanks,True
+@AdityaLovesJiuJitsu,2024-03-19T02:16:06Z,0,"X test in multiple linear regression should be just transform not fit_transform, u leaked the data",True
+@poojapotdar1809,2024-03-15T16:06:03Z,0,can we do standard scalar before train test split on x feature?,True
+@adarshkumarsingh1509,2024-03-14T09:19:09Z,0,1:03:32 i guess xtest = scalar.transform(xtest) hoga correct me if i'm wrong,True
+@korarishi,2024-02-22T19:49:48Z,0,How can I Find the accuracy in Linear Regression model?,True
+@arunjaimz,2024-02-09T17:57:01Z,1,"sns.regplot comment line gives me error message ""TypeError: regplot() takes from 0 to 1 positional arguments but 2 were given""  but instead //sns.regplot(x='interest_rate', y='index_price', data=df_index)// this will resolve the issue.",True
+@shumetietefera527,2024-01-06T07:46:53Z,1,"Using fit_transform() on both the training and test data separately is not recommended. The purpose of the fit_transform() method is to compute the necessary parameters (e.g., mean and standard deviation for standardization) based on the training data and then apply the transformation. Using it separately on the test data might lead to information leakage, where the transformation is influenced by statistics computed from the test set, potentially compromising the generalization performance of your model. @1:03, U used fit_transform() for test data too!!! It's OK as you already told as the main concept in the first example",True
+@heavygamerlogo963,2023-12-11T06:43:10Z,3,46:25 multiple linear regression starts ❤️🔥,True
+@EvaPev,2023-11-04T01:52:56Z,0,"Thank you very much for the effort, it has been very helpful.",True
+@sid_x_18,2023-10-26T07:07:52Z,0,34:50 that graph's intercept is definitely not 156 😂 it's ending between 120 and 130 . Btw if X is zero meaning weight is zero then intercept will be y value like how is this possible doesn't that sound logically incorrect ? man with 0 weight having 156 height 🤣,True
+@sid_x_18,2023-10-26T06:43:56Z,0,22:22 very important topic covered here,True
+@shushmakothapalli9657,2023-10-21T03:36:39Z,0,"hiii sir ,try to do code for best random state value for each algorithm",True
+@sahilkhichy2476,2023-10-06T12:16:38Z,0,"Sir, x_train= Sc.fit_transform(x_train)  x_test= Sc.transform(x_test)            was showing ""NotFitted Error"" ,Hence I tried this  Sc=StandardScaler() Sc.fit(x_train) x_train= Sc.fit_transform(x_train) x_test= Sc.transform(x_test)  Can you Confirm that is it correct or not?",True
+@nomadabhinay8863,2023-09-16T01:33:53Z,2,"Hi Krishna, In simple Linear Regression you told that we should not do fit_transform() to X_test, but in Multilinear Regression Why are we taking fit_transform (X_test)?? shouldn't it be just transform(X_test)?",True
+@1tridibdey,2023-09-03T11:33:52Z,3,Hi kris really appreciate the details in your video. Just wanted to point out something that in multiple linear regression at the time of standard scaler u have done fit transform for test and train.,True
+@vijayramaraju3522,2023-09-03T05:39:03Z,15,"Dear Krish Sir, Please do like this type of Videos on All Individual Algorithms  like DecisionTree, RandomForest, KNN etc with Different DATASETS, And just overlook on maths & Stats, this type of Explanation will help us a lot. we Know your time is PRECIOUS but we requesting.  Thanks in Advance.............",True
+@pajitk15,2023-09-02T18:32:04Z,2,"Please share link to datasets which was used in video, so that will help for learning.",True
+@Evtij,2023-09-02T12:17:14Z,4,thx for detailed explanation. the scaler.fit_transform(X_test) should be only transform? 1:03:38,True
+@vishalthakur4920,2023-09-02T03:46:23Z,1,Need computer vision and nlp playlist,True
+@Fun_with_Words,2023-09-01T18:25:44Z,3,Sir please share the file as well,True
+@jaisamdariya4307,2023-09-01T17:01:09Z,2,Sir please continue NLP series,True
+@adityamohanty9529,2023-09-01T16:47:08Z,1,sir please upload more on deep learning and nlp,True
+@awaz4160,2023-09-01T15:24:57Z,1,thank you sir please upload daily,True
+@rahulgadve1009,2023-09-01T15:12:30Z,1,Thank you sir❤,True
+@user-iz5gb1zt3e,2023-09-01T15:04:18Z,9,It would be really helpful if you upload it as 15-20 mins short videos,True
+@mohsinkhan-bw3cd,2023-09-01T14:55:31Z,1,Sir pls make video on data reading from various sources and databases  and extraction,True
+@vishalkumarsingh9009,2023-09-01T14:40:55Z,4,There are tons of videos on Ml and DL on your channel as well as many others.. Already present in a descriptive way. Why not come up with some new topics in this field which are job oriented or high in demands,True
+@mohsinkhan-bw3cd,2023-09-01T14:36:38Z,1,Is this end to end ml series,True
+@moonlight-td8ed,2023-09-01T14:33:26Z,1,"Tq sir, it helps a lot in this placement season for ml primer",True
+@Analytix_AI,2023-09-01T14:33:18Z,2,"First viewer, by the way thanks sir for your machine learning series ☺️",True
+@krishnaik06,2023-09-01T14:30:52Z,20,"Hello Guys, Apologies for the delay, the fresh Machine Learning Series for 2023 the videos will be continued to get uploaded from today. Due to office work and classes wasnt able to edit on time, but from everday will try to upload couple of videos daily, till now 8 videos was uploaded. Dont forget to press the bell icon :) to get the reminder https://www.youtube.com/watch?v=ip4WxEZwEPc&list=PLZoTAELRMXVPMbdMTjwolBI0cJcvASePD&index=2",True

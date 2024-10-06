@@ -1,0 +1,95 @@
+author,updated_at,like_count,text,public
+@mohammadnasucha6237,2022-08-31T05:13:10Z,0,So useful. Very much appreciated.,True
+@superhessu3,2022-06-19T11:22:20Z,0,"thank you so much, I'm going through a self-study coding summer course which had horrible instructions following the usage and set up of modules.",True
+@chescakeowo,2022-05-28T05:25:22Z,0,Thank you so much!! very helpful <3,True
+@santoshgujar5237,2022-01-18T07:54:45Z,0,"Thank you, Sir",True
+@chandler2692,2022-01-04T11:37:14Z,0,😭😭😭😭😭thanks a lot,True
+@darkiiq8527,2021-10-30T18:59:37Z,0,What are the benefits of making a module and make public ?,True
+@epictroll98games89,2021-08-23T18:47:15Z,0,how can i use input for my module?,True
+@petewhittet4874,2021-07-08T11:30:38Z,1,"This series of videos is amazing - concise, and easy to follow.  Thank you.  This one is really useful: where to put your commonly used modules, so that you don't need to take a copy every time you use them - fantastic.  BTW, for Mac users, the following Terminal command tells you where your site-packages directory lives: python3 -m site --user-site (it works on my MacBook Air, anyway).",True
+@voicebox4311,2021-06-27T15:51:38Z,0,I am not getting from examplemod.ex ('test') thing it's again giving me error maye I know what kind of error i am making,True
+@neil1058,2021-06-24T04:14:59Z,0,"Clear as mud. I had tio watch this 3 times to get it. Talk slower and for gods sake, and stop dashing about all over the screen so we plebs can see what you are doing !!!",True
+@nostalgicbitxh817,2021-01-16T18:55:57Z,0,works for python 3.9.......awesome!!!,True
+@mrfrozen97-despicable,2021-01-08T17:45:39Z,0,Anything related to python I search on YouTube. I get Snowden's video and I have no choice but click this == best one.......,True
+@amosnimos,2021-01-07T02:23:34Z,0,THANKS!,True
+@scar6073,2020-12-01T18:28:02Z,0,Life safer 🙏,True
+@rony3044,2020-12-01T10:02:09Z,0,where do we use if '__main__'==main ?,True
+@Swaroop2sky,2020-10-18T04:19:18Z,1,How to do the same thing done in this video in Android i.e. by using Pydroid 3,True
+@tamos2006,2020-09-27T15:55:05Z,0,"programming on windows, yak!",True
+@probhakarsarkar2430,2020-09-21T06:35:54Z,0,1:05 save ass? 🤣🤣,True
+@priyanshigupta5839,2020-08-05T06:00:19Z,0,Thanks helped me a lot:),True
+@PilotOdyssey,2020-07-24T15:26:27Z,0,You glossed over where the modules are kept creating more confusion I still can not not find the location of my modules.  Whats a Python3 idle?  When opening a file you blast through the file open sequence its impossible to follow  FYI we need to see the screen not a video of you talking blocking most the screen we just need to hear you  Thanks,True
+@rakeshindivar1318,2020-07-22T16:45:36Z,0,i didnot understand a bit,True
+@sneha20110,2020-07-12T18:21:34Z,1,can you please tell us how to do this module thing for jupyter?,True
+@anya.k264,2020-07-05T15:59:51Z,10,Yea... I'm 6 years late... This doesn't work anymore,True
+@faisalghazanfar169,2020-06-13T10:46:58Z,0,Excellent thanks,True
+@cokcury,2020-06-01T17:18:26Z,0,half of the thing is hidden ssssssssHssssssssOssssLssssE..............................,True
+@ashishkumawat6110,2020-05-14T16:05:34Z,0,Thanks broooo,True
+@Nohandle22678,2020-05-02T07:40:41Z,0,"import sys,pygame pygame.init()  size = width, height = 320, 240 speed = [2, 2] black = 0, 0, 0  screen = pygame.display.set_mode(size)  ball = pygame.image.load(""intro_ball.gif"") ballrect = ball.get_rect()  while 1:     for event in pygame.event.get():         if event.type == pygame.QUIT: sys.exit()      ballrect = ballrect.move(speed)     if ballrect.left < 0 or ballrect.right > width:         speed[0] = -speed[0]     if ballrect.top < 0 or ballrect.bottom > height:         speed[1] = -speed[1]      screen.fill(black)     screen.blit(ball, ballrect)     pygame.display.flip()   can you please tell how to name module pygame in this code",True
+@MaxMeinz,2020-04-09T04:54:29Z,0,Thanks! i made a module for tts,True
+@ha1fdan,2019-11-30T07:55:13Z,0,Thanks,True
+@PossumMedic,2019-11-05T20:17:16Z,0,Thanks! :D,True
+@choochtrain,2019-11-03T02:55:33Z,0,What about pythonpath environment variable? What about setting up __init__.py?  This is all too simple and not enough detail or clarity.,True
+@lemyul,2019-08-22T04:31:26Z,0,make sure you hit the like button so you don't get lost in the playlist,True
+@hrishigothe4451,2019-08-17T10:55:51Z,0,👍👍👍🤙🤙👌,True
+@varunwahi715,2019-07-20T15:18:23Z,1,SNOWDEN!!!,True
+@dexdevlon8941,2019-06-13T06:11:19Z,0,amazing video :),True
+@sheshgirishettigar5234,2019-04-27T17:51:07Z,0,is it necessary i have to provide the function parameter? how to get around it?,True
+@sheshgirishettigar5234,2019-04-27T17:49:48Z,0,"Hi there here's my query:   def func1():               x=input('enter your favourite number: ')     print('your favourite number',x)     y=(int(x)%2)     if y==0:         print('your favourite number is a nice one')     else:         print('your favourite number is a bad one') this is the function in the my module. i normally use Thonny fro programming. this runs fine there. But when I run it in the Python 3.7 IDLE i get this: m.func1() Traceback (most recent call last):   File ""<pyshell#1>"", line 1, in <module>     m.func1() TypeError: func1() missing 1 required positional argument: 'data' Please help!",True
+@SanjayKumar-es9pv,2019-04-23T13:41:21Z,1,Can you show how to connect MySQL with python,True
+@Gakusangi,2019-03-28T02:39:56Z,2,"I've been trying to get something like this to work, I wanted my Python to be able to import functions and such from another folder rather than having a bunch of floating files, and have folders of .py files that are grouped by together in different locations.  However, this seems like something that's not typical to setup, because you keep getting module errors like this, even if you feed Python a file path.",True
+@muhammadumairkhalid51,2019-02-24T16:09:55Z,0,"hi, if you reading this, please send a script for pyaudio module of python pls EMAIL: pakistanijrl@gamil.com",True
+@subinnair3835,2019-02-03T05:16:27Z,1,"Dear sir , I have tried both the methods (having both original and import files in the same local path and ; shifting import file to site package) but i still got an error ! Is this because my files are "" file_name.ipynb” and not ""file_name.py"" ? Or i haven't installed pip ? Can u u plz help me out....",True
+@AniketKumar-bm8gi,2019-01-04T02:04:44Z,0,thanks you so much.,True
+@salemamer3428,2018-12-11T12:11:33Z,0,"If it possible help us to solve this error A lot of developer they sulfuring  https://stackoverflow.com/questions/50947877/dll-load-failed-trying-to-import-cv-from-opencv-python or  ""DLL load failed error when importing cv2""",True
+@salakosunday,2018-12-05T11:04:25Z,0,use blackboard. there is reason why it is called blackboard.,True
+@prod.treyxoldd,2018-11-28T22:00:49Z,1,I know what happened with u and harrison,True
+@bmnone,2018-11-22T16:26:49Z,2,when i import one created module from same directory in main program... initially the module program is running?? why??,True
+@fredhogan196,2018-11-21T14:33:32Z,0,"I built a module to keep the code in my main more brief and getting too messy.  In the module, I have to import some other modules like openpyxl to make it do what I want.  Do I import openpyxl at the very top (outside of the def statement) or does it have to be inside each block of code after the def statement? I assume it has to go inside each one of def block that I create in the module.",True
+@anilsarode6164,2018-10-18T18:21:03Z,1,May you please tell me how to  do same in azure notebook or jupyter notebook of anaconda navigator,True
+@nitishkhanna9368,2018-10-11T15:37:06Z,2,"I'm able to understand the tutorials easily and clearly, but there is one thing which I don't understand. Why has this guy got only 523k subscribers? Jeez! He deserves a lot more",True
+@robindong3802,2018-09-09T20:26:53Z,0,"Outstanding demo, thank you,",True
+@s.i4667,2018-08-11T13:54:59Z,1,He made me understand this in 4 minutes whereas my teacher couldn't make me understand it in 1 hour! XD,True
+@shenko225,2018-07-25T07:47:29Z,0,"importing my package worked fine in 2.7 but breaks in 3.*   (No module named $nameOfMyModule) maybe because I used caps, I dunno. I will figure it out. love your stuff, keep it up champ",True
+@DaSnipy,2018-07-16T20:45:18Z,1,"sorry for a very basic Q .. never coded before, but, is excellent knowledge of maths mandatory to learn programming or coding ? thanks.",True
+@taylormichaels6950,2018-07-05T23:54:52Z,0,Can't get through a single video by this guy,True
+@joe-hos9243,2018-06-24T16:06:12Z,3,"didnt work, can anyone explain why. Still said the module didnt exsist",True
+@kolchosenpunk2751,2018-03-10T03:14:56Z,1,"Different solution: Create an empty file called ""SomePath.pth"" in the directory where you installed Python. Then add the path into your ""SomePath.pth""-file (e.g. C:\Users\YourName\Testscripts). You can add additional pathes by simply adding a new path in a new line. Following my solution you won't have to copy your files which can be practical if your .py-files are stored in entirely different directories. Caution: said solution won't work if you run your project on a different machine! In this case you'll have to put the files into one and the same directory or create empty __init__.py-files in your project-directory and all your subdirectories if you have any.",True
+@producersRus,2018-02-28T19:00:45Z,0,Thank you! You are a legend!,True
+@epiphone908,2018-02-19T15:59:51Z,1,"Hi, I am on a Mac and I can't find the python3.6 folder which contains the lib or site-packages folders where python looks for the modules when you import.  Does anyone know how to navigate to these on a mac?",True
+@Inkieto92,2018-02-04T01:44:43Z,0,"I have a question, im writing a program to practice this and Im not sure what im doing wrong. Im creating a module for a quadratic formula. Here is what i wrote for my code  def quadform (a,b,c):         from math import sqrt         x1 = ( (-b + sqrt(b**2-4*a*c))/(2*a) )         x2 = ( (-b - sqrt(b**2-4*a*c))/(2*a) )         print ( 'x = ', x1, ' & x = ', x2) (Im saving that module as quadraticformula.py)  After that im doing a test scrip named Tester.py and writing the following code  from quadraticformula import quadform as qf qf(1,2,3)   Im getting an error with this. Im saving them in the same directory",True
+@letswalk4168,2017-12-29T08:24:10Z,0,"can anyone tell me when we import statistics in interpreter ,it works but when we import statistics into terminal ,the output gives an error i.e..statistics is not defined",True
+@programmer2736,2017-12-26T00:42:07Z,0,"it works for me without having to make mod, is that okay?",True
+@kurisu9056,2017-12-13T08:12:39Z,0,parser? whats that?,True
+@DarthVader-qz9xp,2017-12-12T08:40:44Z,0,"It doesn't work.The  Idle doesn't show an eror after ""import examplemod"".But it shows an eror and says that test is not defined when  I run the module.",True
+@jonathanpepin6326,2017-11-17T10:24:14Z,0,"Hi, Thank you for your video. I do have a question. I am a beginner in python. My problem is the following: I have a main.py python script in somewhere in my machine. It uses other.py which is located in a sub folder (so the same path + the subfolder). Do you know how I can import this one? I could not find the information on the internet. Thanks.",True
+@britishsoldier1186,2017-10-22T10:39:15Z,0,"Traceback (most recent call last):   File ""C:/Python34/Scripts/chess.py"", line 1, in <module>     import chess   File ""C:/Python34/Scripts\chess.py"", line 6, in <module>     chess.move_check() AttributeError: 'module' object has no attribute 'move_check'  I have checked the spelling so what do I do?",True
+@avtaras,2017-10-06T22:39:21Z,0,"Amazing series, very concise",True
+@evankahenya9081,2017-10-05T09:53:02Z,62,ls it really you Edward Snowden?,True
+@ziadayman8391,2017-10-01T07:46:58Z,2,"Hi, can anyone tell me what the path would be if I'm using Linux?",True
+@Kannan-ww1bl,2017-09-30T08:42:05Z,1,">>>  Traceback (most recent call last):   File ""C:/Users/KANNAN/AppData/Local/Programs/Python/Python36/ecamplemod.py"", line 1, in <module>     import examplemod ModuleNotFoundError: No module named 'examplemod' >>>",True
+@AdamJDuncan,2017-09-13T06:17:52Z,13,sorry i said you looked like a gaylord earlier sentdex i have changed my mind,True
+@karthikpuvvula,2017-08-06T06:21:42Z,2,can someone please help me with finding this packages folder in mac ??,True
+@12317051,2017-06-28T13:11:41Z,0,"I believe for 3.6 I didn't need to go all the way to site-packages and drop it in, I could just directly call from the IDLE it recognized it",True
+@RamisaAnjum,2017-06-24T11:54:25Z,17,Your tutorials are really quick and can be watched anytime! Thank you so much!,True
+@andrewhuebner4935,2017-04-13T13:53:28Z,16,"For linux users. At least on Ubuntu 16.04, python3.5 modules are stored in '/usr/lib/python3.5'. The package to install pip for python3.5 is python3-pip.",True
+@silence_coder,2017-03-01T05:51:26Z,0,"Hi this is Awsome, I have a question for creating modules, How the Import is working ? and what is main role of __init__.py while creating third part packages?",True
+@wangxinjie4716,2017-02-01T13:31:08Z,31,"hi juz want to say i really really like your tutorial from ur tutorial i learned alot!!! x = (""THANK YOU SO MUCH!!!!"") for i in range(10000000):                    print(x)      xD",True
+@GonTheTube813,2017-01-14T00:23:53Z,0,"Greetings,  When I use the standard python shell, adding the script to site-packages works fine when typing:  IMPORT examplemod   However, if I use another editor I have to type:  FROM site-packages  IMPORT examplemod  Is there a way around  not having to type the keyword FROM and do it how you teach in the video with another editor? Caps are for keywords. Thank you.",True
+@alvaromorales6828,2016-12-24T12:42:39Z,2,"What with the ""setup.py"" thing?",True
+@Totardotech,2016-12-23T03:10:49Z,0,Thank you,True
+@manninggrinnan621,2016-11-17T17:33:47Z,0,You do WHAT kind of analysis?,True
+@dianaroa1986,2016-10-20T08:57:12Z,0,Thanks!!! :),True
+@buff_r2135,2016-07-08T11:20:47Z,215,ayyy its snowden!,True
+@saulrathbonebochis3025,2016-04-15T08:51:14Z,3,"wow, thanks so much, i had no idea were to save the file and though there was only one place you colud save them, this was a very helpful tutorial.",True
+@StewieStew820,2015-12-31T10:02:14Z,5,My module is inside the site-package folder along with the default modules that work  when I call them but when I try to import mine the module cant be found...,True
+@MrNicfeller,2015-12-13T00:41:29Z,0,Thanks you =...),True
+@capirco,2015-11-20T00:20:13Z,0,"Hint: in Ubuntu (15.04) looks like all modules are in the same folder, it worked in the IDLE as well",True
+@ibrahimylmaz87,2015-04-12T18:13:24Z,0,nice colors dude :P,True
+@R21R,2015-04-10T20:48:09Z,4,"Thanks for this tutorial, just made a module that can encrypt and decrypt data :)",True
+@desoldenau,2015-03-23T15:50:56Z,0,"On linux you just need, to go to your script's folder, then execute a python shell from there, and that's it you are able to import the module.",True
+@EvdeKsp,2015-02-03T19:14:00Z,0,"Hi Sentdex, i made a very small module with this code: ___________________________________________ class Console:          def WriteLine(texttowrite):         print(texttowrite) ____________________________________________ And the file is called System.py, when i make a program and put it in the smae folder and write: ___________________________________________ import System  Console.WriteLine(""Hello World"") ________________________________________ I get an error, does this have something to do with the fact that i am making a class or what might be the problem? As you can see the names i used are the ones from the .NET framework (i am going to do this for every funvtion of the Basic Class Library just as an execise)",True
+@sonic2kk,2014-07-18T17:12:05Z,1,"Great video! One thing I'd like you to make a video on if it's not too much trouble is how to make a module for PyPI. So like if I make a really useful script, like you said, and I want to share it with the world, how can I add this to PyPI? What is this ""setup.py"" file? What do I put into it? I can't seem to find any information on it, nor could I find any videos on it. Maybe I'm just blind XD Thanks!",True
+@sentdex,2014-07-07T02:54:09Z,2,"+Luke Paul ... for some reason I cannot respond to your comment directly, but... Most setup.py commands really are just sending the script to your site-packages, so you can indeed actually just download the module and do it yourself. A lot of modules have folders full of various scripts, which are full of functions, but you can usually just download the source and move the whole thing yourself. Great question!",True
+@Cal97g,2014-07-06T20:25:49Z,0,"They don't need to be 'installed' - they can just be included from the same directory. However, 'installing' them makes them accessible by every python program from one location. I.E you don't need a copy in the root directory of every program that needs to use it.",True
+@Ps5GamerUk,2014-07-06T17:48:15Z,1,Question from a newbie; why do third party modules need to be 'installed' if they are just scripts? Why can they not just be placed in the site-packages directory and imported?,True

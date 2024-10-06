@@ -1,0 +1,15 @@
+author,updated_at,like_count,text,public
+@violet_broregarde,2023-04-06T13:00:15Z,0,Why are you sending raw passwords over the wire? You're putting yourself at risk for a man-in-the-middle attack. Encrypt them on the client side before sending them.,True
+@franciszekjob8236,2020-11-05T12:12:44Z,0,Thanks a lot! Helped me :D,True
+@hasanmohiuddinahmed6614,2020-01-23T16:39:23Z,0,Thanks .. Kindly tell me what software you are using to record this video?,True
+@westlydurkee6230,2019-12-10T00:26:45Z,1,"""Flask ass"" 1:00",True
+@sir7544,2019-03-23T05:57:27Z,0,"you are very good at being clear in tutorials, well done.",True
+@badralwattar5799,2018-06-06T01:53:59Z,1,you are the best!!! I really like your way of recording tutorials!!!,True
+@atharvaadhrit6290,2018-04-16T11:48:14Z,0,"Hi  Sentdex,  I am storing some info in MySQL DB using a sha256_crypt method, now I want to decrypt that value but I am not able to find the way. could you please help me...  I checked on the internet and they said it is one-way encryption only.  if so then could you please tell me instead of that which one i have to use (i tried simplecrypt encryption as well but when I m storing it into the database it's storing like a special character and decryption is going to fail when retrieving from the database).",True
+@johnavila7651,2018-02-13T15:30:17Z,1,"nice and Thanks so much , you're the best",True
+@irzelindojoaquim8277,2017-11-26T19:20:32Z,0,"Hi,  nice video The password will be sent via http POST method. to the server. if there is somebody in the middle and finds out the username and password of the client before it being encrypted by the server.   How can we avoid that also?",True
+@janekmuric,2016-12-13T12:49:16Z,3,"Friendly warning: All SHA hash algorithms are now horribly out of date. What is recommended now is PBKDF2 and bcrypt.   Keep in mind that they are recommended at the time of posting this comment, so your best bet is to Google what algorithm you should use.",True
+@bainadeashish,2016-12-07T09:29:20Z,0,"I am getting error for this small script:  from passlib.hash import sha256_crypt  password = sha256_crypt.encrypt(""abc"")  with open('pwd.txt', 'a') as f:     f.write(password)     f.write('\n')   with open('pwd.txt', 'r') as f:     first_line = f.readline()  print first_line,password print(sha256_crypt.verify(""abc"", password)) print(sha256_crypt.verify(""abc"", first_line)) ------ error ValueError: malformed sha256_crypt hash (checksum must be exactly 43 chars)",True
+@ShivamChopra91,2016-07-05T18:18:10Z,1,"if anyone is getting errors while importing sha256_crypt, try this : from passlib.handlers.sha2_crypt import sha256_crypt",True
+@jredd46,2016-07-01T14:30:44Z,1,Hey great video man! I'm getting into building a flask app and need to have user logins and was trying to find information on how to get secure hashing.,True
+@iksratok3508,2016-06-06T06:36:42Z,0,"Thanks so much, sentdex. Took me a while to find this video because it had lesser views, but I love it. You deserve many more views",True

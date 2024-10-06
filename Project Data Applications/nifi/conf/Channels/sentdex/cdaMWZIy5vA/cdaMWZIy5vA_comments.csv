@@ -1,0 +1,23 @@
+author,updated_at,like_count,text,public
+@nehmajmudar7400,2020-09-19T14:41:25Z,0,"I am getting an empty dataframe (.csv) file, except the column names. Please help.",True
+@somechanne231,2019-08-04T14:59:13Z,0,you rock,True
+@ericabao1279,2019-07-10T20:46:09Z,0,Great Video!  And the problem can be fixed by: https://gist.github.com/initFabian/33163ccadde059c8f07f,True
+@blissfulgarima2441,2017-11-04T00:22:48Z,0,"hey Sentdex, I just tried to do all the programming but ticker is not working properly it keeps showing me 'Users'instead of file names :-(  and when i saved my csv file at the end it got saved but after a while i checked i did lil mistake inbetween so columns in csv file are not coming properly now i hv corrected my code and trying to save in same CSV it is showing me permission denied :-( . Is there any way out?",True
+@gauharaya145,2017-10-29T17:03:07Z,1,"if you are struggling to see your csv populated it is for the reasons described by @Saurabh below. Initialise your empty array like so -> data = []. Then do -> data.append({'Date': datetimeStamp, 'Unix': unixDTStamp, 'Ticket': ticker, 'DE Ratio': value}).  Outside the for loop convert your array of hashes into dataframe like so -> df = pd.DataFrame.from_dict(data). The rest is as @sentdex describes.",True
+@cyl5207,2017-08-15T10:07:18Z,2,"if anyone encounters any problems with 'decode' , please fix this line: source = open(full_file_path,'r',encoding='utf-8').read()  I learned it the hard way. :)",True
+@mrinalmahajan6471,2017-07-29T21:22:25Z,0,"I am getting an empty dataframe by doing so, is there any other way to add a row to dataframe other than append or using dictionary as shown in video.",True
+@dorsolomon7251,2017-05-14T01:20:17Z,0,What do you mean be labeling the data?,True
+@brosales,2017-02-24T04:01:17Z,0,"Oh man, you make it looks easy, great Job.",True
+@swapnilkendre8316,2016-10-09T03:50:46Z,0,"Good videos, keep it up your work.",True
+@user-qe8eo4xt8o,2016-06-11T03:07:24Z,2,"I had no Programming language experience and start watching ur video after taking python class in codecademy. These are really great videos and I learned a lot from here, thx very much.  May I have a basic question: When I forget to type ""df = "" in code:   ""df = df.append({'Date':date_stamp,'Unix':unix_time,'Ticker':ticker,'DE Ratio':value,}, ignore_index = True)""   nothing is in .csv file produced, why?",True
+@MrAsardi,2016-02-23T22:36:04Z,0,"thanks for the video. one question, at the end I run the file, now where exactly is my saved  csv file? I cannot locate it for the love of ..... thanks.",True
+@TheTaquitoProject,2016-02-17T10:34:26Z,0,how to scrape old data from yahoo finance? what url can I find said data?,True
+@32weaver,2016-02-14T21:01:12Z,0,thanks sentdex,True
+@JamesKao,2015-09-20T08:11:54Z,11,"Some of source files are have a newline between the closing '</td>' and '<td class=""yfnc_tabledata1"">'.  Other files are missing 'Total Debt/Equity (mrq)' altogether.  Here's how I resolved it: ``` if gather + ':</td>' in source:   value = source.split(gather + ':</td>')[1].split('<td class=""yfnc_tabledata1"">')[1].split('</td>')[0] else:   value = 'N/A' print ticker + ':' + value ```  Awesome tutorial thus far Harrison!",True
+@dushyantshukla8754,2015-09-01T10:25:01Z,2,What's the need of Unix time in our script??,True
+@izaccy,2015-06-11T08:19:29Z,0,"using Mac, Anaconda gets this error.  ticker = each_dir.split(""\\"")[1] IndexError: list index out of range",True
+@ronniec95,2015-04-17T19:10:09Z,0,"Just a thought but maybe try SortedContainers for your data append. It'll be faster than Pandas as it wont do the dataframe copy (which it does on an append), and then finally convert to a dataframe at the end; which is a copy(sadly)",True
+@leocelente,2015-01-09T01:44:50Z,1,"WOW! 40 seconds! That took me 5 minutes in 30% of my FX-6100, I bet you're using an i7, those things are productivity MONSTERS!  And by the way thanks for the tutorials, great content and simplicity. YouTube needs more people like you.",True
+@darronpressley6855,2015-01-04T21:12:32Z,0,"Hi Sentdex  Is your code for this available to download, I have typed it in and get       value = source.split(gather + ':</td><td class=""yfnc_tabledata1"">')[1].split('</td>')[0] IndexError: list index out of range  I know its probably a typo but I am going cross eyed trying to find  it.",True
+@kharicousins1146,2014-12-27T15:25:10Z,0,"I've been looking for machine learning tutorials for Python lately, thanks =D",True
+@rafalpilat145,2014-12-27T14:58:59Z,0,"If i look in the CSV file, in my file, the ticker starts at rok and other companies like appl arent even there. Any ideas why this might be the case? (Im on Ubuntu so that might be the problem)",True

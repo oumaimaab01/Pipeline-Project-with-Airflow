@@ -1,0 +1,17 @@
+author,updated_at,like_count,text,public
+@trunghung03,2021-06-17T06:21:58Z,0,"You should try making an intermediate pygame tutorial where you show how to implement OOP, multiprocessing, some other performance improving tricks, etc. would be so cool. Thanks for the great content man.",True
+@VascoCC95,2019-12-03T18:33:37Z,4,"It should be *random.randrange(-7, 8)* instead of random.randrange(-7, 7) or the blobs will run away to the top left corer :D",True
+@Gavinnnnnnnnnnnnnnn,2019-10-14T16:34:27Z,1,"-7, 8",True
+@brambeer5591,2017-07-27T23:07:35Z,0,"Thanks for al the awesome videos! I watch them very regularly. By the way, can't the import statement of Pygame in the main code be omitted, since it is only used in the blob class where it is already imported?",True
+@damiendivittorio6973,2016-12-12T01:24:21Z,0,"All of my blobs eventually go up to the top left corner.  I can't figure out why this is happening..  I made the change at ~9:30 with the self.x += random.randrange(-7, 7) etc... I just don't get why.    PS- in early videos I experimented with changing the start stop on movement_range to larger values and would get the same thing either all blobs goto upper left or lower right corners.   If anyone has any thoughts I'd appreciate it.",True
+@PavelIvanovskii,2016-12-05T01:00:27Z,0,Can you answer why we use self in a method signature?,True
+@PavelIvanovskii,2016-12-05T00:58:03Z,0,"Thanks for ur videos, I'm new to Python, but you explain perfect. Hello from Russia=)",True
+@letsgo2mc,2016-12-01T08:53:37Z,0,Hey sentdex This is a bit offtopic but what topics to you plan for the future? And thank you for all the good tutorials!,True
+@nic5146,2016-11-27T00:44:33Z,0,"Hi +sentdex I have a question about super. If you have a class inheriting from a and b, how would you use the super method to pass c variable to a and d variable to b to their __init__'s.",True
+@jansen-lr8dp,2016-11-25T11:02:13Z,2,"What is the point of creating a BlueBlob class if you still have to provide a color? Wouldn't this actually serve the purpose:  class BlueBlob(Blob):     def __init__(self, x_boundary, y_boundary):         super().__init__(BLUE, x_boundary, y_boundary)  and then calling only BlueBlob with WIDTH and HEIGHT?",True
+@tiobraulio,2016-11-24T23:03:26Z,1,"Congratulations, I follow this channel for quite a long time and definitely, this is your best series.",True
+@1999Dman1,2016-11-24T21:23:39Z,1,Personally i preferred Eldest but Inheritance is still pretty good.,True
+@treelight1707,2016-11-24T13:57:32Z,0,"great vid yet again. I have a question about this code not related to inheritance though.. Why is it that when we increase the movement speed, the blobs eventually cluster in the upper right corner? very peculiar to me.",True
+@sirpeanutgaming2749,2016-11-23T23:07:46Z,5,I'm really enjoying this series. Will you be covering @property's and such? Keep up the awesome work!,True
+@colingnohz2403,2016-11-23T17:32:27Z,1,"Hi Harrison, when are you going to talk about design patterns? as it's already inheritance now",True
+@pacrii,2016-11-23T15:07:57Z,4,You down wit OOP?  Yeah you know me!,True

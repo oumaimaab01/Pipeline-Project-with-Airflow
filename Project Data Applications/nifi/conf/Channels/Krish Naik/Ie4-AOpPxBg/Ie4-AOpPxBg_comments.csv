@@ -1,0 +1,73 @@
+author,updated_at,like_count,text,public
+@captainprice5974,2024-03-29T07:53:54Z,0,Sir I have increased the category to 6....(i.e number of car brands is 6) with each category having 200 train image and 50 test image...It is still getting Overfitting problem...what to do?,True
+@huyphanducnhat1609,2023-11-29T04:56:08Z,0,"very cool,thanks for the tutorial from Germany",True
+@raghavvarma3345,2023-10-22T11:27:24Z,0,"When I ran this part of the code: training_set = train_datagen.flow_from_directory('Datasets/train',                                                  target_size = (224, 224),                                                  batch_size = 32,                                                  class_mode = 'categorical')  It is giving me result as ""Found 64 images belonging to 4 classes."" rather than 3 classes as said in the video because of which my further code is not working as the model is not able to fit. I have also checked the image size it is in RGB only and not in grayscale.  Can someone please help?",True
+@vishwaschandra2943,2023-07-20T17:39:53Z,0,img_data not defined please help krish i am not able to run the prediction part of the model,True
+@timelessvoyager1545,2022-12-26T18:59:35Z,0,"Krish, I run the same codes (.ipynb) in my machine locally downloading from GitHub, but the predictions it makes is wrong. What maybe the issue, I did not change anything.",True
+@AkashAkash-tp4ye,2022-12-20T17:20:49Z,0,"Hi Krish , Can we put this project directly in our resume",True
+@amanmishra5409,2022-12-07T13:34:00Z,1,Thanks man many things I don't understand but with 90% of your help and 10% internet I could able to run it now I am going to present it as a mini project in college. Again thanks krish,True
+@abhisheksadale3369,2022-07-30T10:11:55Z,1,👍,True
+@123playwright,2021-12-31T08:38:17Z,0,"After flattening, shouldnt there be 2 dense layers? Only one dense(3) in this code.",True
+@ehtashamrazzaq374,2021-12-02T21:23:21Z,0,"As you are using transfer learning methodology. I have a one question that in Imagenet there is no class for specifying human class like man, women. So how someone could achieved that by this technique.",True
+@azrflourish9032,2021-11-25T04:49:40Z,0,AMAZING!!!!!!!,True
+@chunoutivartak4497,2021-10-28T21:14:54Z,0,"Hello sir, plz plz make a live session on  classification of alcoholic and non-alcoholic based on EEG signal. there is not even a single video on youtube on EEG data.",True
+@raj-nq8ke,2021-10-27T04:52:32Z,0,I successfully deployed this project. Thanks Krish,True
+@thegamewars8569,2021-09-06T13:01:15Z,0,"Hi Krish, C:\ProgramData\Anaconda3\lib\site-packages\keras_preprocessing\image\affine_transformations.py in apply_affine_transform(x, theta, tx, ty, shear, zx, zy, row_axis, col_axis, channel_axis, fill_mode, cval, order)     279     """"""     280     if scipy is None: --> 281         raise ImportError('Image transformations require SciPy. '     282                           'Install SciPy.')     283     transform_matrix = None  ImportError: Image transformations require SciPy. Install SciPy.  Got this error on exuceting the 14th cell.  Can you please help me with this.  I also installed SciPy and imported in this module but the error remains same",True
+@manuthvann7560,2021-09-02T00:39:05Z,1,"It’s totally brilliant sir , but May I know whether there is any possible way to make damaged car identification by our machine can predict , what status our car are in ( good , new , .. ) and if good how many percentage . Looking forward to hearing back from you.  thanks",True
+@dhirendrakumarjha7385,2021-07-12T13:17:38Z,0,precision and recall is very bad.it comes around .35. how to improve it sir,True
+@memonaijaz5429,2021-07-07T16:10:53Z,0,"Sir, i'm bit confused how can we used same data for val and testing?. In one of my code I try to split my dataset through validation split fun but it also not gives separate unseen data for testing then how can we say our model give correct accuracy on testing dataset",True
+@novachrono6111,2021-05-07T17:06:32Z,0,No input image is been taken while running in the browser...can someone help me to solve this issue,True
+@parthagarwal4592,2021-04-20T06:50:26Z,0,I hope BITTU cleared his doubt 49:15,True
+@devloper_hs,2021-04-05T08:11:20Z,1,"Can we use global average pooling instead of flatten() also how to create an app.py file ? , It will be great if you can create one vedio over this",True
+@altaafansari8939,2021-03-02T10:31:08Z,1,After running  app.py file in cmd when i am running it in a browser it is giving an error that this site cannot be reachee try various thing but not getting it any help plz,True
+@altaafansari8939,2021-03-02T08:56:30Z,0,I had used colab to train my model and save it as a h5 extension. Upload it on a drive and download it on my system.  But during running app.py it is giving an error saveModel file does not exist. Any solution plz...,True
+@amanramasharma,2021-02-09T21:36:20Z,0,"Sir, In testing part  when we predict for 1 image.... it always shows result of mercedes class",True
+@akhetan123,2021-02-09T14:19:53Z,5,"Hi Krish, Issue with deployment is because of size of tensorflow  module size, changing it to tensorflow-cpu in requirment.txt works well. Also, missing the saved model file in the repo. gunicorn is also missing in requirement file",True
+@mrinmoyaus761,2021-02-06T15:57:45Z,0,i have tried this code but the validation acurracy is 33.62 % krish sir can u suggest ways to enhance it,True
+@hugoalmeida294,2021-01-25T11:43:06Z,0,"Hello Krish, first of all congratulations because this class was very insightfull! I have 2 questions, if i want to adjust this for 2 classes, i just need to adjust the parameter? And secondly, if i want to use another technic, for instance, densenet121, can i use this struture paying attention to the parameters need for that one? Thank you! All the best. #staysafe",True
+@huojinchowdhury3933,2021-01-08T19:39:41Z,0,how to see images after augmentation?,True
+,2020-12-25T12:36:17Z,1,Someone please tell me if it work? I want to do a deep learning project for my college,True
+@avisekmohanty1986,2020-12-12T20:26:10Z,0,I ran the code in the Jupyter notebook but getting stuck at the y_pred step. The step is taking eternity to execute. Had to restart the kernel. Executing using GPU (GTX 1050ti). What should I do?,True
+@dhirajkale5513,2020-12-01T09:48:11Z,0,"Sir, what is that 2/2 below the epoch",True
+@ArunKumar-sg6jf,2020-11-15T12:14:15Z,0,slug size error is getting what to do,True
+@hiro1556,2020-10-12T07:30:53Z,0,"okay this is actually not deployable, and just run locally",True
+@lorizhuka6938,2020-10-11T00:51:00Z,0,Is this project appropriate for beginners in deep learning field ?,True
+@rohitprakashsahoo4004,2020-10-06T15:04:01Z,0,"I Re-run this model but difference between train n test set accuracy too much different. I want to knw why it happen. it is not even near at all. Which thing affect it. Is there any concept of Random variable as in ML.? It is look like model is overfit, hw we can resolve this? Train Acc ~~ 1 but test acc ~~ 0.3",True
+@nivitus9037,2020-10-01T12:03:48Z,0,"Sir I've issues on ""Found 64 images belonging to 4 classes"" but in this project 3 classes only right? how can I resolve sir? can anyone help to me please?",True
+@chandrimad5776,2020-09-12T20:55:52Z,2,"Hello Krish, very useful video. Thank you for sharing. Can we use resnet50 transfer learning for car damage detection? Do you have any video or other resource which you can share with us?",True
+@sushantpenshanwar,2020-09-08T14:17:54Z,0,Thanks Krish !!,True
+@nishantsaikia2063,2020-09-06T19:24:58Z,0,Thank you so much for doing what you do.You are a role model.,True
+@akshitbansal3629,2020-08-19T05:02:06Z,0,"Hi Krish, my model is always predicting class 1. I have many new images in training as well as the test set, the problem still persists.",True
+@ahanchatterjee1112,2020-08-17T19:05:49Z,4,sir the deployment code is not running it's asking for unknown layer Function pls resolve this issue @Krish Naik,True
+@ritajyagupta4666,2020-08-10T15:57:36Z,1,why len(folders) is giving me output as 0. Please help anyone!,True
+@gauravtak9787,2020-08-09T13:44:02Z,1,hello sir thanku sooo much for this video.... i m try the same code on my jupyter notebook....but i have facing a problem my model not train very well. it predict all the car's as audi.....and it also take at least 1 hour  to train....can u help me....for resolving this error.....,True
+@filizcamuz8119,2020-08-04T02:24:22Z,4,"Krish thank you for your videos, they are very helpful. I have a question about this one , you used the test data for validating the model during training for 50 epochs and then you used same test set to test your final model. Is not that data leak? Are not you supposed to separate a validation set during training and only use test set at the end only to get accurate performance?",True
+@taherkayamkhani8214,2020-07-22T11:49:35Z,0,Amazing job!,True
+@aryanmukherjee5659,2020-07-21T20:05:38Z,1,"Hi Krish, Thanks for the beautiful session on DL project and explanations. I am facing some problem deploying the same code through pycharm. Is there some files missing(like :model.h5) in the github link to run the same code in pycharm... kindly guide/ suggest...",True
+@premkumar3644,2020-07-21T04:19:54Z,1,"Hello sir, I am getting wrong prediction . While running y_pred using test_set I’m just getting 2 for every image .... and also while I’m predicting a folder full of mixed images it showing wrongly prediction ... plz help me out sir.... it happening for both codes which i typed and downloaded from github",True
+@shivprasad8945,2020-07-15T17:26:18Z,0,Good video sir,True
+@reenajerry2290,2020-07-13T11:50:51Z,0,"Hi Krish, when I tru to run requirements.txt with pip install in my virtualenv I get this error  ERROR: Could not find a version that satisfies the requirement tensorflow==2.2.0 (from -r requirements.txt (line 89)) (from versions: none) ERROR: No matching distribution found for tensorflow==2.2.0 (from -r requirements.txt (line 89)) Any help with this error, I tried multiple other versions of tensorflow as well but no sucess",True
+@Abhishekpandey-dl7me,2020-07-11T08:21:59Z,0,"Hi Krish, Please check the code once because instead of RESNET u have mentioned vgg16 everywhere.",True
+@yxungv3x410,2020-07-09T19:16:44Z,1,Anyone else just have this video as a virus?,True
+@richaarora9456,2020-07-08T15:55:55Z,0,"I am facing issue of -  Failed to load resource: the server responded with a status of 404 (NOT FOUND) Failed to load resource: the server responded with a status of 500 (INTERNAL SERVER ERROR) .. I am not able to run predict and get output..",True
+@balajibetadur7641,2020-07-08T13:35:46Z,2,Heroku doesnt support tesnorflow models ryt? As tensorflow dependency will make it more than 500mb which is not allowed oj free heroku account. Any solution for this?,True
+@raina1696,2020-07-06T16:43:57Z,0,Sir plz make videos on projects implemented in pytorch! Thanks .,True
+@aarohibychithrasona4004,2020-07-05T05:04:46Z,2,sir is it productive to first learn the already available projects in your playlists and then join the channel by paying?,True
+@aarohibychithrasona4004,2020-07-05T05:02:31Z,1,glittering headphone😍,True
+@jyotishwararaveti2819,2020-07-04T18:04:41Z,0,Sir if possible do a video on OCR(Optical character recognition) using transfer learning,True
+@akarkabkarim,2020-07-03T16:07:21Z,0,thank you sir krish,True
+@vikshukla44,2020-07-03T16:05:56Z,0,from where we will get app.py file?,True
+@rdeepaksethupathy9175,2020-07-02T19:25:12Z,0,I have read that when using transfer learning there's some problem with batch normalisation in keras. How to tackel it.,True
+@renenterprises7449,2020-07-02T16:55:58Z,0,no this is no good  ya better,True
+@shahharsh554,2020-07-02T08:26:30Z,0,Sir kal big data ka session hoga?. Registration kar diya but koi mail ya msg abhi tk nahi aya,True
+@TheRvprasad012,2020-07-02T01:05:36Z,6,"Hi Krish, It was a fabulous session and live demo project. I'm completely new to Data science but after your session I got confidence that I can get in to it.. highly appreciate your efforts. Thanks",True
+@quoit99training83,2020-07-01T23:13:49Z,6,Man the things you are doing for community is highly appreciated. I got up early just to watch your stream. Time difference will not stop me gaining this valuable knowledge. Thank you and stay safe Krish. Edit: I vote for some healthcare project,True
+@vivekvivian1994,2020-07-01T17:48:02Z,1,Hey I used the same code mentioned in your Github Repo and the model reaches 100% accuracy within the 8th epoch and the val_accuracy remains the same for all epochs. Is there something wrong with the dataset or with the activation functions?  Kindly help! Thanks.,True
+@pushpendudas3372,2020-07-01T17:41:26Z,1,Nice session Sir.,True
+@vinaykumar8326,2020-07-01T17:17:42Z,5,"Sir i have a question from many days. Do you code these html, css, js scripts or other person will be doing that ? Should we learn that too sir??",True
+@tulrose,2020-07-01T16:56:09Z,1,"I think you should change the ""tensorflow"" module to ""tensorflow-cpu"". ""tensorflow"" by default installs the GPU version, which is much larger as compared to the CPU version.",True
+@RajaSekharGowda,2020-07-01T16:21:18Z,1,"can I run CNN model without data at that time what happened, I know it was silly doubt",True
+@vikashkumarchaurasia1299,2020-07-01T15:53:19Z,2,Thanks a lot,True
+@vikashkumarchaurasia1299,2020-07-01T15:52:58Z,4,"Awesome session, got learn very much important techniques",True
+@mohan5867,2020-07-01T15:51:28Z,1,Hi sir .... will this be available after the live session?,True
+@manishsharma2211,2020-07-01T15:39:37Z,20,Sir. You will surely buy a Lamborghini ♥️👌,True

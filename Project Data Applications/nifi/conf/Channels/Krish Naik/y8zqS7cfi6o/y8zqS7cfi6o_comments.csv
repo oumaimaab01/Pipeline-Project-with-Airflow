@@ -1,0 +1,22 @@
+author,updated_at,like_count,text,public
+@leamon9024,2022-11-21T05:37:15Z,0,Can I use sample_weight instead of class_weight in your example?,True
+@hakanbozcuk7761,2022-10-16T07:53:19Z,0,"Just amazing work, thank you, sir!",True
+@pranjalsingh1287,2022-08-20T18:56:20Z,0,Knish. Can you tell the ideal % of 0&1 classes to say them as imbalanced,True
+@maryamzeinolabedini1515,2022-03-08T07:10:58Z,0,"Hi, Thank you. How can we apply cost sensitive on bayesian network for prediction of imbalanced data?",True
+@Maryashahere,2022-02-08T09:40:31Z,0,"Sir for dataset size, 44 unbalanced, how much have to be the test rain split. For that if we apply DL, is there problem?",True
+@pusprajkumar1058,2022-01-17T00:08:52Z,1,Thank you 💞 for this video,True
+@tirthadatta7368,2021-12-18T18:02:54Z,0,Can we use same basic for multi-class classification problem??,True
+@leenavig3441,2021-12-09T16:08:12Z,0,if we run the ANN second time ...the scores are different ..if we print classification report the f1 scores are quite different..canu explain how to deal with this problem,True
+@thetruereality2,2021-12-03T06:26:53Z,2,A classification report would have explained exactly how the model performs in classifying the classes. Maybe that would've helped,True
+@Asma-cx8uc,2021-11-27T06:42:24Z,0,"Hello Sir ! Could you please describe how SMOTE technique can be used to balance data images",True
+@yashbohra2593,2021-03-07T13:06:25Z,0,"SIR , how to apply the the same for multi-label classification ?",True
+@nilakantas5153,2020-11-23T02:43:03Z,0,Thank you sir,True
+@pubgkiller2903,2020-11-22T15:01:36Z,2,What is different between over sampling and Weight handling technique ? And which is best fit for which conditions ?,True
+@RedShipsofSpainAgain,2020-11-21T21:37:44Z,4,"Hi Krish, good video on class weights.  One thing to I'd suggest is to use the `stratify` parameter in the train_test_split() function:  https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html  This will ensure that your dataset is stratified keeping the same proportion of class_0 and class_1 in both your training set and your test set when you do the split. This also ensures you keep the same class_weight that you calculated with your calculator from the df['Class'].value_counts()  , which showed 577:1 ratio of classes, versus when you calculated the proportion of y_train.value_counts() when you get a different ratio of 559:1.  So, TL;DR, just use the `stratify` param in your split to maintain the same class proportions in your train set and your test set.",True
+@arjyabasu1311,2020-11-21T20:19:09Z,0,Awesome video sir!!!!,True
+@mukarramali2958,2020-11-21T11:48:42Z,2,"hey, love the way you explain. I’m interested in buying the new MacBook with M1 chip, What would you suggest me to go for? The MacBook Air (8Gb ram 256ssd) or MacBook Pro (8Gb ram 256ssd)?",True
+@abc76485,2020-11-21T11:29:34Z,1,Hi krish it would be awesome if ineuron launches an affordable course on A-Z of data structures and competitive prog. With all the mathematics included.,True
+@suneel8480,2020-11-21T10:32:40Z,8,So sir plz make video on how we can use F1 as metrics in model.compile! Keras do not provide it by default. Using F1 score  we can make sure both fn and fp are less,True
+@suneel8480,2020-11-21T10:31:47Z,10,"Sir when using roc_auc it seems to be high even when  we have too much false positives .Using F1 score  can help to see if both fp,fn are less or more . So sir plz make video on how we can use F1 as metrics in model.compile! Keras do not provide it by default.",True
+@deaglegaming3119,2020-11-21T08:28:46Z,2,When he said titan rtx i was so exited which one graphics you have?,True
+@vishaldas6346,2020-11-21T07:41:50Z,1,"Hi Krish, I have a doubt. I am facing an issue where my system is not calculating batch size, it uses the entire training set in model fitting. Suppose in model fitting it shows ""Train on 199364 samples""  and the epoch should have been like 199364/32 ~= 6231, but its still training on 199364 samples. By default our batch_size = 32, if not provided in model.fit.",True

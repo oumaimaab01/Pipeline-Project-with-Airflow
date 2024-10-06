@@ -1,0 +1,25 @@
+author,updated_at,like_count,text,public
+@jairajsahgal5062,2021-09-21T17:57:43Z,0,What is gamma?  Can anyone explain?,True
+@jairajsahgal5062,2021-09-21T17:56:40Z,0,Thank you,True
+@yinglll7411,2021-03-13T05:04:43Z,0,"Thank you sentdex, great video! After watching this and refer back to my professor's videos, it makes a hell lot more sense!!",True
+@MZ-uv3sr,2020-11-10T00:53:18Z,0,What prior knowledge is assumed?   How much math?,True
+@teaminsane2847,2020-08-05T18:13:54Z,0,https://youtu.be/V9E2hVPG6k8  please check this out and give support,True
+@daleowens7695,2020-06-09T16:01:59Z,0,"stupid nitpick... It's pronounced ""Lah-tech"".",True
+@pratikdeoolwadikar5124,2020-03-13T10:39:48Z,12,"For anyone stuck over how the poly kernel K(X, X') which is (1+X.X')^p gets mapped to a feature vector [1, x1^2, x2^2, sqrt(2)x1, sqrt(2)x2, sqrt(2)x1x2],  check out definition section of https://en.wikipedia.org/wiki/Polynomial_kernel they have indicated on how a kernel with p dimensions expands, using Multinomial theorem.",True
+@suyashneelambugg,2020-02-08T16:01:31Z,1,Poorly Explained honestly. I mean people have done a far better job on Medium and Quora where there is only textual explanation ...and you use a video servic to hand write equations and explain so poorly.,True
+@sanjaybhalekar5320,2020-01-04T19:26:00Z,0,Only things I am mostly seeing is what is really sentdex you need to slow down,True
+@deojeetsarkar2006,2019-12-31T14:03:15Z,1,"13:30 if n were 2, then the eqn would have been ( 1+x1x1+x2x2)^p",True
+@ericaltf4,2019-11-10T04:53:44Z,1,Anyone know how he's turning the result of the polynomial kernel (1 +  x1.x1+x2.x2)^2 in to a 6 dimensional vector at 16:32?,True
+@plinkoXD,2019-11-07T18:39:19Z,0,Isn’t RBF just the Gaussian kernel? Or is the Gaussian kernel a special case of the RBF kernel?,True
+@ppiibb,2018-12-18T21:23:54Z,2,"FYI, exponentials are infinite dimensional in the LITERAL sense, because if you want to express them LINEARLY (as in if you want to make the problem linearly separable) you would need to do a Taylor expansion, which is an infinite sum exp(x) = 1 + x + 1/2 x^2 + 1/6 x^3 + 1/24 x^4 + ... and then write the expression using a monomial basis vector [x x^2 x^3 x^4 ... ]' which is LITERALLY infinite dimensional. It is not nitpicking, it's what it is.",True
+@jrM5492,2018-05-21T02:46:21Z,3,"there's no way this is correctly explained. 17:09  what is p, what is n? where did the square root come from for which dimension?",True
+@mini_frank,2018-03-19T09:43:59Z,0,powah silis moit,True
+@MrFromminsk,2017-07-08T05:27:28Z,8,what is x prime?,True
+@JacobSmithodc,2017-06-29T01:36:24Z,19,At least I learned one thing: Now I know what to do my doctoral dissertation on.,True
+@RI92F4,2017-01-11T04:51:43Z,2,"Isn't the Z should be [1,sqrt(2)*x1,sqrt(2)*x2,x1**2,x2**2,sqrt(2)*x1*x2]?",True
+@xoxUnD3R0aThxox,2016-11-19T11:59:11Z,3,I don't get where those square roots of two came from? Did you mean that instead of expanding into the z space then doing the dot product we do the dot product first then expand into the z space?  Could you refer me to a text to read about this?,True
+@loderunnr,2016-10-09T08:57:13Z,0,"Another great tutorial! There are a couple of things I don't understand though.  I can see how you transform the problem to z-space. What I can't understand is how the kernel enters our previous constraints. Is it enough to just replace each dot product in x-space by our kernel function (which is the scalar result of a dot product in z-space)?  How does the classifier function work with kernels? Should I just perform the same operation, and replace the (x-sub-i • w) by the kernel function?",True
+@hughouyang4140,2016-09-19T12:45:52Z,0,"It sounds like sum-of-square, doesn't it?",True
+@ivanperez-qy5pd,2016-08-05T06:53:57Z,1,"Hey, idk if you get into this in your other videos, but maybe talking a little about algorithm complexity ""theta(n)?"" might clarify the applicability of kernel operators.",True
+@MANJAMissy,2016-06-02T15:26:54Z,6,"Correct me if I'm wrong, but I believe the inner product is used instead of dot product because for the dot product, the two vectors must be of the same length. I don't believe that's the case of inner product. This allows you to increase the size of the the X vector and still 'dot' it with W",True
+@oscarcastanedamunoz,2016-05-31T02:02:39Z,1,are you gonna talk about running a neural network backwards?  so that a neural net can generate patterns?,True

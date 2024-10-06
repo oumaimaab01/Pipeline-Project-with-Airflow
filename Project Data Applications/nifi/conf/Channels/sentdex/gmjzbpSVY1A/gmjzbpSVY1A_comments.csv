@@ -1,0 +1,723 @@
+author,updated_at,like_count,text,public
+@TheOnlyDerrekOnThisPlatform,2024-05-30T09:09:12Z,0,"Daniel, the gigachad in the background.",True
+@Sparky579,2024-05-29T17:04:26Z,0,20:30,True
+@crome212,2024-05-21T21:51:01Z,0,hehe foward xD,True
+@crome212,2024-05-21T20:50:48Z,1,NOOO WHERE DID THE CAPTIONS GO?!!?! BRING THEM BACK!!! I AM DYSLEXIC AND NEED THEM!! Dx,True
+@alikhaledazm822,2024-04-13T23:52:03Z,0,why captions are not available?,True
+@fin.guistix,2024-04-01T19:00:36Z,0,"Can anyone help me understand what does he meant starting 9:38 by ""negative weights flips the ReLU and determine at which point the input deactivates the neuron""?  EDIT: Understood guys, the graph is plotted w.r.t. the actual input variable (not w.r.t. the wx+b i.e., the value of neuron before applying ReLU).  In this case the first neuron is fed with the input 'x' which gets processed by first neuron and so on. Finally, the output of the second neuron (after applying activation function) is plotted w.r.t. the original input (i.e., 'x' which is fed to the first neuron). And now if we observe how the output of the second neuron changes w.r.t. the original input is indeed very much non-linear!! Interesting stuff!! Also gives us an idea of what makes these networks powerful!",True
+@umerhafiz4148,2024-03-15T11:19:30Z,0,where is the link to book?,True
+@jubrilbabatunde3040,2024-03-13T10:46:00Z,0,"Nah, this section was good. Appreciate the good work bro.",True
+@Hotaiji,2024-03-10T10:40:33Z,0,"I still don't get the point of activation function , what do you mean by linear/non linear problems ?",True
+@lewisdrakeley9631,2024-03-07T18:54:02Z,0,"Fantastic video! I never understood the need for activation functions, now I get it completely. Incredible work thank you!",True
+@anime.vreels,2024-03-06T06:10:22Z,0,I couldn’t understand how it became sinusoidal wave using relu even the two neuron part is difficult somebody can explain?,True
+@sidchakravarty,2024-02-27T15:24:22Z,0,"Can you please do a series on CNNs, RNNs, and GANs similar to this one?",True
+@sidchakravarty,2024-02-27T15:22:42Z,0,This is one of the BEST explanations of why ReLU works. I took 24 screen shots only for this video because of the amount of detail this video has. Eagerly waiting for the book to arrive today!!!,True
+@user-nf4lu3du5q,2024-02-20T20:57:48Z,0,"9:12 is this function  if w*x + bias > 0  y = w*x + bias,   if w*x + bias < =0   y = 0 ?",True
+@user-xv9qk3iz7b,2024-02-20T18:07:27Z,0,,True
+@trakman14,2024-02-20T03:35:50Z,0,"I'm getting weird outputs for my activation1 variable. It's printing the object instead of the matrix. Any ideas on how to fix it? Code is below.  ### code class Activation_ReLU:     def forward(self, inputs):         self.output = np.maximum(0, inputs)  layer1 = Layer_Dense(2, 5) activation1 = Activation_ReLU() layer1.forward(X) print(layer1.output)                                <------ Everything works up to this line activation1.forward(layer1.output)      <------- looks like this is the real issue print(activation1)  ### output <__main__.Activation_ReLU object at 0x000002EEE1F6A4E0>   I tried doing something more direct  ### code  print(activation1.forward(layer1.output))  ### output None",True
+@Gingnose,2024-02-06T08:13:41Z,1,"There are very few topics online about learning what neurons and synapses in silico (Node and activation function) does in intuitive way. This video is already 3 years old but still holds the crown, sir.",True
+@TIENTI0000,2024-02-05T02:38:38Z,0,Best explanation,True
+@PROMAN8625,2024-01-08T15:24:43Z,0,"import numpy as np np.random.seed(0) ########################################### # VARIABLES FOR LAYERS num_hidden_layers = 128 hidden_layer_neurons = 128 input_neurons = 128 output_neurons = 128  ########################################### # Objects class Layer:     # initialize the layer     def __init__(self, n_inputs, n_neurons):         self.weights = 0.10 * np.random.randn(n_inputs, n_neurons)         self.biases = np.zeros((1, n_neurons))     # Forward feed the layer     def forward(self, inputs, activation_func):         out = np.dot(inputs, self.weights) + self.biases         if activation_func == ""ReLU"":             self.output = np.maximum(0, out)         else:             self.output = out  ########################################### # Inputs to the network X = [list(np.random.randn(input_neurons))]  ########################################### # init input layer layerI = Layer(n_inputs=len(X[0]), n_neurons=hidden_layer_neurons) # init hidden layers layersH = [] i = num_hidden_layers while i > 0:     layersH.append(Layer(n_inputs=hidden_layer_neurons, n_neurons=hidden_layer_neurons))     i = i - 1 # init output layer layerO = Layer(n_inputs=hidden_layer_neurons, n_neurons=output_neurons)  ########################################### # forward input layer layerI.forward(X, activation_func=""ReLU"") # forward hidden layers prevLayerOut = layerI.output # output of previous layer for layer in layersH:     layer.forward(prevLayerOut, activation_func=""ReLU"") # current layer forward     prevLayerOut = layer.output # update prev layer output # forward output layer layerO.forward(prevLayerOut, activation_func=""ReLU"")  ########################################### # print the output layer print(layerO.output)",True
+@user-jm1jj8wo6n,2024-01-07T05:45:51Z,0,how do i fix the type error i get when i run the create_data section,True
+@madrcybercock3584,2024-01-04T04:31:50Z,1,"Именно блять на этом сложном видео, где куча пиздец непонятной графики отключены субтитры. Спасибо нахуй большое, пожалуйста поставьте субтитры",True
+@sarooprince,2024-01-01T09:48:31Z,0,Confused about the features and classes differentiation was the animation ever created to explain this,True
+@kaiperdaens7670,2023-12-26T09:14:43Z,1,"I find the naming(like Activation_ReLU) good, and I like it more than for example ActivationReLU, bc it is clearer. And is it just me or did the POV of the camera change?",True
+@RokuLeVrai,2023-12-16T13:30:57Z,1,"Hello, thanks for video, but ca nyou add subtitiles please ?",True
+@user-yg2xq1jq7t,2023-12-10T17:16:39Z,0,This entire series has been amazing. I really appreciate your effort to simplify and get things to a granular level. Kudos to you.,True
+@jigglymonkey4317,2023-11-24T20:29:19Z,0,"You showed how the linear/no activation function didnt fit the sine wave but the relu one did. Then in the explanation you showed how multiple relu neurons can make a new shape and eventually would make a sine wave, but wouldn't linear/no activation function do the same? Like you could have a line with a slope of -1, and then a line with a slope of 1, and it would make a v shape. Maybe I'm wrong becasue im not considering bounds? not sure.",True
+@jigglymonkey4317,2023-11-24T20:15:36Z,0,"you're the goat for going into detail for why some of these things work, I wonder the same thing.",True
+@94praneeth,2023-11-01T15:21:43Z,0,Loving this man. Loving this. 😆,True
+@hibamajdy9769,2023-10-30T00:49:12Z,0,Thank you so much for this amazing video in the beginning the example of just neurons I understand it clearly where the fiction activated and deactivated and which is responsible for which but when preceded along to get the shape of sine wave I got lost I didn’t understand whic weight is responsible for the activation point and offsetting is it only me,True
+@hibamajdy9769,2023-10-29T18:41:10Z,1,This video I think the most important one please add a English subtitle to it to understand very well,True
+@rouser_bro9859,2023-10-27T00:38:48Z,0,"This work of  yours in damn incredible, i m just mindblown man. Thank you so so so much",True
+@user-ug6kk5ux5q,2023-10-25T07:31:08Z,0,Your videos are absolutely great!!,True
+@JojoMojo225,2023-10-21T12:52:57Z,0,"Funny that this video, probably whole series is 95% math. and actually pretty simple math, its just stacked so much and multiplied so much to a confusing scale, and getting used to it is the real deal.",True
+@RealJustinWillock,2023-10-02T17:28:18Z,0,I am unable to use the nnfs library and i’m not fully sure why that is..,True
+@tylerhamilton7827,2023-08-31T13:00:40Z,1,"Anyone else not able to use the nnfs library? I assume if i copy over the create_data, it’ll port just fine, but was curious if anyone was still able to use import nnfs",True
+@todymaverick,2023-08-22T14:22:31Z,0,awesome man! i wouldve also liked to see how a linear activation function compared with the ReLU with multiple layers,True
+@thestroke82,2023-08-19T12:30:28Z,0,The sin(x) function example is simply a perfect fit,True
+@thearchitect5405,2023-08-12T14:50:01Z,0,"I was so lost because I'm watching through a Youtube Mix playlist and the playlist doesn't include Part 4 for some reason then jumps to Part 8 after this, so it came across as a huge leap, then suddenly it seemed like a very important section of code, the entire Layer_Dense section, was glossed over when in reality the version of the playlist I was on just didn't have the correct order. Now I'm so damn relieved that I noticed it, I was starting to think I just wouldn't be able to follow along because I didn't already understand something beforehand.",True
+@ORION31,2023-08-06T16:41:23Z,0,21,True
+@theraf2134,2023-08-06T15:20:32Z,0,"6:00, 22:00",True
+@mighty_duck,2023-08-02T02:03:13Z,1,"at 10:24, how are those functions being combined? is it additive, multiplicative etc? I have tried sketching y1=-x+0.5 and y2=x+1 in desmos to investigate by going y1+y2, y1*y2 etc but no luck",True
+@michaelcarnevale5620,2023-07-19T20:32:12Z,0,"you did a great job, and the visualization was so helpful ... but tbh, i have to admit i still don't fully grasp why the ReLU allows the system to model a non-linear function when linear functions in the neurons cannot ... but like you said, even data scientists are struggling to peak into this black box, so i guess i'll just move on and come back to this idea later",True
+@user-qj3rw6yj4i,2023-07-15T03:58:56Z,0,"how do i install the nnfs on chrome os,i dont have a terminal,just google colab?",True
+@peterkanini867,2023-07-06T17:47:26Z,1,"Awesome explanation. This should have been one of the first things you explain. ""A Neural Network Fits Complex Functions to the Data Given""",True
+@user-pl2cx2vm4l,2023-07-06T15:06:14Z,0,"Man, this is the best neural network tutorial that I've ever seen. Thank you and keep going!",True
+@emooboyz,2023-07-02T14:45:37Z,0,after we adjust the slope to fit the sin graph. we offset it by tweaking the bias. is this arbitrary value? i cannot find a pattern between each neuron layers,True
+@rommix0,2023-06-25T20:18:28Z,0,This might be one of the best series of videos about neural networks I've come across despite being 3 years old at the time of this comment.,True
+@sutanu27,2023-06-23T07:17:18Z,0,"Hello sir @sentdex , I would like to know if there is some suggestion or lik or tutorial for Non dense NN.",True
+@chinmay3665,2023-06-20T21:21:39Z,0,"The efforts he is putting to teach everyone in such an easy is beyond any appreciation. Which software is used to make such amazing graphs, neuraons etc? Can anyone please help...",True
+@MateusMeurer,2023-06-07T03:10:57Z,0,"20:20 dude, if the geniuses that created this stuff cannot understand why this works so good, its not gonna be me either. Maybe we're getting close to the limits of human understanding, who knows.",True
+@shriganeshank8955,2023-05-30T08:23:15Z,0,bro please upload subtitles for this video,True
+@oggiai,2023-05-19T23:25:09Z,0,You are a total nerd! I guess I am too since I made it to part 5.,True
+@hardikvegad3508,2023-05-18T10:24:17Z,0,Instead of Activate and Deactivate can't we call it Escalate and Descalate of activation function value.,True
+@Thuannguyen-ml1zc,2023-05-15T11:24:05Z,0,i need subtitle please,True
+@andykim9536,2023-05-11T11:23:21Z,0,"Hi, thank you for teaching neural network in python, I  actually learned alot. I have a problem with the code, I am getting an attribute error, which the def __init__(self,n_inputs,n_neurons) function  returns orig_dot(*[a.astype('float64') for a in args], **kwargs).astype('float32') and it is a list that does not have attribute""astype"". Is there a way I can resolve this?",True
+@shahamanam,2023-05-08T22:17:31Z,0,what do you mean by granular?,True
+@shahamanam,2023-05-08T22:17:14Z,0,what do you mean by granular?,True
+@emilvarn9474,2023-05-08T11:33:04Z,0,please turn on subtitles for this video,True
+@fernandoflores3728,2023-05-04T16:10:52Z,0,"Excellent explanation about this topic, Thanks Sentdex!",True
+@andreascorelli7296,2023-05-04T00:54:18Z,0,7:43 I don't really get why wouldn't work. You could actually aproximate the sin wave function with many little lineal functions all together as you do with the ReLU at 8:00,True
+@wobby7055,2023-05-02T11:08:14Z,0,Awesome series. Ty for your help. 👍,True
+@subhrajyotisengupta3216,2023-04-22T08:47:55Z,0,9:04 : Part of understanding how the activation function works. 11:26: How we are fitting using activation function to the model.,True
+@abhishekjha3961,2023-04-16T07:23:43Z,1,Thanks for teaching why we even use activation function .,True
+@abhishekjha3961,2023-04-16T07:21:32Z,1,Thank you sir,True
+@KshitijSharma-,2023-04-14T13:09:37Z,0,i dont understand why only a particular set of neurons get activated when theyre supposed to,True
+@bumblee_beee,2023-03-30T08:20:42Z,0,Can you please add English subtitles,True
+@raphaelquinones4002,2023-03-08T05:50:46Z,0,"From what i understand, activation functions make transforming inputs to their desired outputs possible. If you have a complex output, you will need a lot of hidden layers and nodes. But how do I determine if I need a lot of nodes or layers?",True
+@ProtikC,2023-03-06T08:39:03Z,0,"I am really confused at this point. At some part in ReLU you're demonstrating that ""weights"" determine the slope of the ReLU. By definition, ReLU has only two slope 0 and 1 and for modified ReLU it can be -1.00 too and maybe other variations. My question is then how come weight can change/tweak slope. I am really confused. What is the exact fn and parameters in terms of neuron, isn't it F(x)=max(0,x), and not F(x)=max(0, ax+b) and please tell me what really represent a and x here, like we already know b stands for bias, then how do we get ax (as per your video a =slope = weight, then what is x ?). But thanks for the great initiative you took sentdex!",True
+@vasukiAI,2023-03-03T02:20:48Z,0,"Since output of relu cannot be negative , can someone help me understand how bottom half of sine wave will be formed , since all the y values will be negative in second bottom half",True
+@solsticeprojekt1937,2023-03-01T18:25:51Z,0,I have no idea why you introduce the sinewave into this. It's totally random.,True
+@franchutee5675,2023-02-27T23:26:38Z,0,F subtitles bro...,True
+@muna4840,2023-02-24T15:23:44Z,5,I'm going to be very good someday at building/training neural nets. It's all because of my curiosity that made me stumble on this fantastic playlist..... now I'm reading your book and practicing (coding after reading between the lines and understanding the theory) and consulting this playlist and several other resources in order to gain a deeper understanding. Thank you so much for being really amazing.,True
+@Dr.Cosmar,2023-02-18T23:11:45Z,0,These illustrations are worth their video length in gold.,True
+@ishaqpaktinyar7766,2023-02-10T23:35:20Z,0,"WOW!!, the best graphic representation",True
+@deniskatalinic,2023-02-06T19:19:23Z,0,what are you doing step function?,True
+@yogiisdaman,2023-02-04T17:24:50Z,0,"you have remarkable skill in explaining things concisely yet understandably, thank you for your videos!",True
+@harshrenose8852,2023-02-02T08:39:11Z,0,what does the bias on the first neuron move the line in x axis and the bias on the second neuron move the line in y axis,True
+@thewrongpersonlive5430,2023-01-31T05:20:52Z,0,what does the output at 36:46 mean?,True
+@prateek22sri,2023-01-30T15:46:24Z,0,"Amazing video! Is the code for the visualization you showed for ReLU publicly available? I would love to play around with that. By far, the best video I have seen for NN.",True
+@henrysabsurdities1766,2023-01-30T03:50:13Z,0,"i like how before i started this series thinking i might not have enough video ram... i can run all this so far and more on a pico :/  training was slow but possible on the pico too. the ram limit is what got me for larger models. is ai training really as intense as people make it out to be on average or is it just the larger projects out there? granted only 64 inputs and 3 layers (input, 2 hidden, then output) but thats still enough to make a (very) simple image recognition net. i could hide similar things in keyboard firmware lol.",True
+@413blaze,2023-01-07T23:49:41Z,0,"For anyone who is following along and doesn't want to write it out: def create_data(points,classes):     X=np.zeros((points*classes,2))     y= np.zeros(points*classes,dtype = 'uint8')     for class_number in range(classes):         ix = range(points*class_number, points*(class_number +1))         r= np.linspace(0,1, points)         t=np.linspace(class_number*4,(class_number+1)*4, points) + np.random.randn(points)*.2         X[ix] = np.c_[r*np.sin(t*2.5), r*np.cos(t*2.5)]         y[ix] = class_number     return X,y",True
+@kemalware4912,2022-12-30T18:57:28Z,0,"you lost the rigor in your explanation in this video. note: in his book, explanation is much clearer and getting pen and paper helped so much to understand it.",True
+@jonathanmorgan4480,2022-12-27T05:20:16Z,18,This is by far the best explanation of how neural nets work that I have ever found. This should be it's own standalone teaching. The sine wave example with visuals  - perfect! Thanks so much.,True
+@wiamalali2994,2022-12-09T07:44:30Z,0,POWERFUL !!,True
+@eminkilicaslan8945,2022-11-25T12:26:44Z,2,Sorry but this video feels way disjointed from previous videos in this course for me to understand. In other words I kinda lost it about here.,True
+@ProGamer1115,2022-11-20T23:53:28Z,0,"Makes you wonder how ""simple"" this network is compared to stuff you would run in production. I feel like this is the stage where we learn that 1 + 1 = 2 and when we get to the ""real"" stuff, it's Navier-Stokes equations and abstract algebra and real analysis and motivic cohomology. How far off am I with my assessment?",True
+@StringStack,2022-11-19T12:28:31Z,0,done - 20221119; my brain is it's processing. Gr8 Vidz,True
+@yonahcitron226,2022-11-16T22:58:44Z,0,incredible stuff.,True
+@benjaminsteakley,2022-11-05T22:13:10Z,0,I like the daniel optimizer and animation. i would love to try and figure out why they do what they do. although their seems to be reasons not to also.,True
+@lorenzorestagno,2022-10-19T08:19:17Z,0,this episode is just poetry,True
+@sadhananarayanan1031,2022-10-09T11:07:09Z,0,One word is all I've. Your channel is a GEM!,True
+@utkarshgaikwad2476,2022-09-27T18:44:05Z,0,One Small tip just use np.ones on bias function 🙂You will never encounter a dead network that way,True
+@Rumplestiltzchen,2022-09-25T23:05:33Z,0,I love how each video gets longer. Very good 👍👍  more details = better,True
+@alrineusaldore6764,2022-09-09T15:27:41Z,1,Ever since I've heard of ReLU I've always questioned why is it better than sigmoid and the others even though it looks like 2 linear functions put together. Now I finally understand how it works and why it's so efficient! I also understand linearity and non-linearity much better than before and my thirst for knowing why and how it's all happening is satiated. Thank you for those amazing videos!,True
+@AnilDhulappanavar,2022-09-09T12:37:22Z,0,Hats Off Sentdex !!! It has been very helpful for me to learn a little bit of Neural Network. Really aappreciate all the effort gone behind this.,True
+@syedabdulali3799,2022-09-06T10:18:20Z,0,in 14:35 how can you negate the input of second neuron instead of changing the biases and weights of first neuron pls answer,True
+@frankulives5932,2022-09-02T05:45:21Z,0,"i cant seem to import nnfs package, it just gives me an error: Import ""nnfs.datasets"" could not be resolved",True
+@Mars-un5gp,2022-08-06T11:38:56Z,1,What are you doing stepfunction 😏,True
+@mozillah,2022-07-26T19:50:15Z,0,@sentdex Thanks for the whole playlist. Part 5 Video is missing subtitles can you please add it .Would be very thankful of u,True
+@thatguy-cf5gs,2022-07-07T22:42:10Z,1,You the man,True
+@binghyong-baebang2236,2022-06-27T03:48:07Z,0,Relu is just two line segments stuck together. If this works shouldn't a simple collection line segments work too?,True
+@ianik,2022-06-24T12:22:32Z,0,Quality content for free. Second time going through the series. You are a good man,True
+@reemaljaber,2022-06-08T11:29:55Z,0,couldn't understand ;(,True
+@reemaljaber,2022-06-07T15:29:31Z,0,thats a lot but thank u for ur great work,True
+@prarambhiksur2104,2022-05-11T16:35:41Z,0,"I have been following this series and it has given me a lot of clarity especially as a beginner for Neural Networks. Just had a small query, the activation function is changing its shape and getting ""shaped"" according to the input and bias. I don't understand why? Shouldn't it be like the characteristic function and from the value of x the y should be determined or something like that? But instead the characteristic of the function itself is changing as shown . I don't understand why. Can you please clear it?   Thanks in advance.",True
+@AlizerLeHaxor,2022-04-28T13:48:47Z,1,"This is amazing, I'm coding along with C# and this is the first time I actually understand how Neural Networks work.",True
+@dvdharkin,2022-04-26T23:05:28Z,1,ModuleNotFoundError: No module named 'nnfs',True
+@abriellh,2022-04-26T21:35:59Z,0,am i wrong but could i not just replace this entire function with a derivative?,True
+@sertanozer2452,2022-04-09T09:48:24Z,0,You are awesome! The graphics give so so much information in a very understandable way. Sorry my English knowledge isn't enough to appreciate your effort enough.,True
+@TheErixcode,2022-04-05T11:44:08Z,0,"Hi, I'm enjoying these series alot, I've read lots of papers about this but most of them endedup with sample code which trains network and it exits, they don't explain that ok now the training finished how to utilize it!!! how to use it with other dataset or so. I was learning about CNN, ran a code, It finished the training and exited, I couldn't find any output in my system, It just downloaded the sample of ""mnist"" handwriting and then boom finished. no output no files containing the trained data!! I'm using Linux by the way",True
+@baqirhussein1109,2022-04-01T21:24:25Z,0,32:07 just a reminder for me,True
+@mustafamarvat863,2022-03-26T06:26:08Z,2,I couldn't turn my head around that 10:30 how does the output for the 2nd neuron gets offset along the Y-axis. Can anybody provide me with mathematical explanation ?,True
+@alfonsocampanella1283,2022-03-20T10:32:05Z,0,Could you please enable auto subtitles,True
+@ichweinicht1858,2022-03-16T13:14:39Z,0,I can't belive that this information is free.,True
+@vincenthubschmann6512,2022-03-02T22:43:26Z,0,I can't get the nnfs module to work :( It says that my current Anaconda paths don't support it...,True
+@ronakbhatt4880,2022-02-14T02:33:39Z,2,@10:23 why it shifted upward? What's the logic?,True
+@MrNetgearUser,2022-02-05T20:56:02Z,0,"38:30 it's unbelivable simple Then I'm stupid. :D But I appreciate your time you invested in this free material here and I think it's one of, or even the best course to learn it from ground up!",True
+@techtrader8434,2022-02-03T00:56:57Z,0,"Ok activation function tries to fir sinx , but still giving very wrong output for every input.somebody please correct me",True
+@limribing3020,2022-02-02T09:37:16Z,0,"How to install NNSF, anyone any idea?",True
+@rickardranniger7409,2022-01-09T06:09:43Z,0,Absolutely super awesome. Thank you...,True
+@miximum1,2022-01-03T13:52:13Z,0,bravo dude. Amazing explanation.,True
+@miximum1,2022-01-03T13:48:09Z,0,"100 batchs, 2 features. yes?",True
+@TheNotoriousPhD,2021-12-30T23:03:55Z,0,"Hi sentdex, at 34:39 why the number of input features is 2 ?  We got X and y and y should be output variables, right ? Hence the number of input should one ? Please let me know where is wrong? Thanks. Love your book !",True
+@pradeepkumar-ew1ze,2021-12-24T12:54:31Z,0,"Instead of hardcoding the input labels as 2, we can make it as X.shape[1], thus in future incase the sprial_data method changes the number of features.",True
+@guitar300k,2021-12-20T09:34:12Z,0,"Very clearly explaination about activation function, thanks so much I can understand it now",True
+@yassinemesbahi6428,2021-12-19T19:14:50Z,0,"Really great job literally from scratch, thank you for this effort ✌🏼",True
+@alex_parkhomenko,2021-12-14T10:41:47Z,1,"Can't get why https://youtu.be/gmjzbpSVY1A?list=RDCMUCfzlCWGWYyIQ0aLC5w48gBQ&t=575 bias here is positive 0.5 instead negative 0.5. Why it's not ""-0.5""",True
+@abhinav7sinha,2021-12-12T18:27:49Z,0,Absolutely stunning!,True
+@jacobjohanson2503,2021-12-11T05:48:32Z,0,"The most important thing to do when teaching anything is to answer the questions ""why?"", ""what?"", and ""how?"". This was done beautifully.",True
+@jrohit1110,2021-11-29T10:10:11Z,0,This it it chief..,True
+@DinsAFK,2021-11-28T16:02:22Z,1,"This is why I get so angry that people argue that traditional lecture hall teaching is effective, this is absolutely next level",True
+@pavan64pavan,2021-11-26T17:02:47Z,0,Could any of you please explain the number of classes argument in the spiral_dataset function?,True
+@jan_Wilo,2021-11-26T03:26:52Z,0,You're teaching style gives me slightly more agressive Bob Ross vibes,True
+@danielbadawi922,2021-11-24T23:36:22Z,0,I believe you have a mistake in the book on page 38 of chapter 9 (pdf page 208). current: drelu = relu_outputs.copy() I believe it should be: drelu = dvalues.copy()  Let me know if I am right.,True
+@saturnine.,2021-11-24T22:36:33Z,0,"Alright I'm glad I decided to actually watch this far, because I never quite understood the point of activation functions before now. That was a really nice explanation.",True
+@willlowtree,2021-11-20T18:49:17Z,0,glad to be born at a time when i can watch this,True
+@noormanmxify,2021-11-19T00:05:44Z,0,What software for this simulation? Thanks before,True
+@antonantochi8498,2021-11-13T18:47:08Z,0,This ReLU point explanation is superb! Many many thanks!!,True
+@kaustabhchakraborty4721,2021-11-13T17:27:53Z,0,"This video is gold, real gold.",True
+@michaeljburt,2021-11-13T14:28:28Z,1,"Absolutely brilliant explanation as to why a non-linear activation function can lead to good mapping of desired non-linear outputs. This is actually an extremely pertinent topic in my field of study (electrical engineering, power systems, which for three phase AC circuits have non-linear power flow solutions). Seeing ""how"" these ReLU neurons can model non-linear functions is absolutely mind blowing. Bravo!",True
+@MrShivahari,2021-11-13T03:24:25Z,0,Bro i really appreciate the effort you have put into to explain the optimization process. Literally this one the best and understanding explanation in detail. Thanks 👍👍,True
+@pavan64pavan,2021-11-12T14:50:56Z,1,"If any of you are thinking that there is a ""link"" missing between previous session and this one (just like me), here is the video. This helped me, hope it helps you guys as well. https://www.youtube.com/watch?v=e570k28sCoc",True
+@donnlai,2021-11-10T03:17:36Z,1,"Hi, at 9.30/40.05 of this clip,  I don't understand why by adding the bias 0.5 affects the X axis,. Why doesn't it affect the the Y axis. As the formula : output = inputs * weight + bias. Kindly advice.",True
+@gracjanstrzelec,2021-11-06T00:53:54Z,0,"I love you, thanks for that series. It helped me a lot!",True
+@aninkan2377,2021-10-29T17:49:26Z,0,"sir, you are saving my bachelors degree, thank you <3",True
+@docnival,2021-10-28T12:32:08Z,0,"it's very easy to forget that output of the first neuron runs through a ReLu before it inputs to the second neuron.  Now consider the values as in 11:11 ,  for inputs (for the first neuron) >=0.5, the input for the second neuron will always be ZERO, because well, the output of first neuron is less than or equal to zero BEFORE it runs through a ReLu. hence for inputs >=0.5 for the first neruon, the output of the second neuron going to the ReLu is equal to the bias of the second neuron.",True
+@aryandave2968,2021-10-24T08:32:44Z,0,"um l have an error in my code l copied and did everything correctly and a  SyntaxError it has happened to me for the entire series and it still says the same thing   here it is      File ""sky_acckets (2).py"", line 8     [2.0, 5.0, -1.0 9.0],                     ^ SyntaxError: invalid syntax  ***Repl Closed***",True
+@immanueljzv6832,2021-10-22T12:31:11Z,0,"At 10:20 Does the RELU function definition also change when the weight is changed to negative. Example Normal RELU : When weights were positive in the video f(x) = { x , x>= 0              0 , x<0 } Example Negative RELU : When weights was made negative  in the video f(x) = { 0 , x> 0              |-x| , x<=0 }",True
+@jonathansmith5297,2021-10-20T01:45:43Z,1,"I am having an issue with importing NNFS. When I did pip install nnfs, it seemed to work and it is in my site-packages, but when I type in import nnfs it says nnfs is not accessed by pylance. What could be going wrong?",True
+@k.chriscaldwell4141,2021-10-17T05:57:21Z,0,"import random import numpy as np import matplotlib.pyplot as plt      np.random.seed(0)     print( ""Here"" )     X, y = f_SpiralData(100, 3)     plt.scatter(X[:, 0], X[:, 1])     plt.show()      plt.scatter(X[:, 0], X[:, 1], c=y, cmap=""brg"")     plt.show()  #-----------Basement------------      # Functions #         # Normal Functions def f_SpiralData(v_Points, v_Classes):     X = np.zeros((v_Points * v_Classes, 2))     y = np.zeros(v_Points * v_Classes, dtype='uint8')     for _ClassNumber in range(v_Classes):         ix = range(v_Points * _ClassNumber, v_Points * (_ClassNumber + 1))         v_Radius = np.linspace(0.0, 1, v_Points)  # radius         t = np.linspace(_ClassNumber*4, (_ClassNumber + 1) * 4, v_Points) + np.random.randn(v_Points) * 0.2         X[ix] = np.c_[v_Radius * np.sin(t * 2.5), v_Radius * np.cos(t * 2.5)]         y[ix] = _ClassNumber     return X, y",True
+@omerahmaad,2021-10-12T19:31:47Z,0,Thanks man as always great content,True
+@sharkk2979,2021-10-12T14:23:01Z,0,"u r saviour of humanity,  ppl will withstand skynet, bcz u showed us how skynet get train. THANKS FOR SAVING MY FUTURE GENERERATION!!",True
+@BizzNitzz,2021-09-17T03:32:55Z,0,Oddly enough I wasn't able to do pip install nnfs but I could do pip3. So far the most challenging video but loving it,True
+@prabhat_3549,2021-09-10T07:42:59Z,0,"Hey man, why can't we use non linear activation functions (polynomials)  for non linear data",True
+@asilbekisroiljon4528,2021-09-06T23:00:11Z,0,I don’t know how to thank you man. Highly appreciated,True
+@arjunp3574,2021-09-06T14:58:09Z,1,"Thank you so much for really making me understand the working of the activation function. After seeing this video, my motivation to learn neural networks skyrocketed.  And the effort you put into this video is overwhelming  and  I really appreciate you from the bottom of my heart. Once again , Thank You ❤️❤️❤️❤️",True
+@khaben6986,2021-09-05T22:05:12Z,0,I have 2 questions please ! I didn't really understand the spiral dataset if we represent it as a list of lists as you did in the previous code how would it be ? also why we're getting that output ? please don't mind it if my questions sounds silly since I'm a beginner 😅,True
+@adrielkirch647,2021-09-04T13:51:11Z,0,sentdex is the real Massive neural networking because is connecting more people with neural networks  =D,True
+@khaben6986,2021-09-04T11:18:22Z,1,"I'm literally on the moon 😍 as a beginner who didn't find much good tutorials cuz they involve stuffs I don't know well as statistics, working with tensorflow...etc  I was desperate to get the best videos for a start...BUT MIRACULOUSLY I FOUND YOURS 👌👏👏 THE BEST BEGINNER GUIDE SOOOOO FAR ❤",True
+,2021-08-28T19:59:24Z,0,"wow, the example of linear vs non-linear activation function is amazing! This series is pure gold",True
+@cromi4194,2021-08-28T09:38:33Z,0,Man this is so absolutely fascinating - THANK YOU!,True
+@curiousdude6265,2021-08-26T19:35:15Z,0,Why not add another value to the weights and biases to move the function on the x access?,True
+@Karolkens,2021-08-21T08:16:44Z,0,Wish there was auto lyrics from YouTube,True
+@adityakanawade4201,2021-08-20T05:08:31Z,0,what is a purpose of self parameter ? why we pass self ?,True
+@omarnaser8291,2021-08-16T21:18:33Z,0,how to fix it,True
+@omarnaser8291,2021-08-16T21:18:18Z,0,"i got error line 28, in <module>     layer1 = layer_Dense(2,5) TypeError: __init__() missing 1 required positional argument: 'n_neurons'",True
+@venom_ftw9316,2021-08-04T08:30:38Z,0,"Me: Happy about being able to understand neural networks Sentdex: Making a sine wave with activation functions Me: Surprised pikachu face*       Jokes aside though, these lessons are really amazing. I always come to this channel first whenever I have any interest in anything to do with python. Thank you very much for giving more than my teachers and lecturers could.",True
+@elthgar,2021-08-04T03:03:47Z,0,That demonstration was brilliant,True
+@notyourtypicalanime7475,2021-08-01T00:48:43Z,0,"Wow! this is great! I watched all of your videos about neural networks from scratch. I just want to know if you have a tutorial video where you have an example sets of data, then using neural network to predict the best fit? I watched the part where you explain the concepts how a neural line, fit on non-linear data, though its better to give an example like data of prediction rainfall or anything else. Thank you for thin informative videom",True
+@NyroSlice,2021-07-29T23:44:41Z,0,this is literally amazing!,True
+@zendr0,2021-07-27T05:28:15Z,3,This is the best explanation video of how activation function works in the WWW 🚀.  And thank you the one who put his time and effort in creating such beautiful animations for us. Thank you very much ❤,True
+@surajjoshi3433,2021-07-24T05:16:47Z,0,"I am not able to understand how relu activation is working ,i have watched the playlist till now but still not. Is there any other prerequisites to know its working??",True
+@-mwolf,2021-07-12T12:00:41Z,0,"Damn, great stuff man!",True
+@gender121,2021-07-11T02:47:42Z,0,Sir wny you always compare with y=x line,True
+@premdeepsethi4898,2021-07-10T04:57:20Z,0,nice video mate,True
+@joaquinsarmiento7361,2021-07-09T20:31:18Z,0,Awesome tutorials! I have one question. The transformations performed at 18:00 are: 7 for alignment purposes and 1 for the off-set. How is that if there are 8 new vertexes (8 alignments) when there are 7 pairs of neurons? Is one pair missing?,True
+@AbuAlkasimEkrish,2021-07-06T11:01:03Z,0,thank you so much,True
+@kisamesafe,2021-06-14T17:24:13Z,0,congrats,True
+@strawhat3891,2021-06-05T20:51:17Z,0,I learned python from your videos and it became my preferred programming language,True
+@s.m.talhawadood5852,2021-06-05T20:02:26Z,0,"MIND BLOWN <3 What an effort, truly commendable!",True
+@horticultural_industries,2021-06-04T22:09:43Z,7,My guy cannot decide where to put his camera,True
+@codewithaaqid,2021-05-28T07:02:51Z,0,"I didn't understand the data set from nnfs .. can someone explain to me why the layer is a 2,5 ...",True
+@yashwatwani4574,2021-05-22T08:03:55Z,0,"X, y = spiral_data(100, 3)    We are using this code  but when i am putting X.shape it is coming as (100,2). am I doing anything wrong?",True
+@p.nishantpathak,2021-05-19T17:09:40Z,0,"11:56 As you needed several ReLU to fit the Sine curve, have you also included several Linear activation functions to fit the Sine? It looks like you're trying to fit it with just one single line. Or if I'm missing out on something. Kindly help.",True
+@mostechroom9780,2021-05-19T14:45:43Z,0,How do you do those animations,True
+@fodaseodinheiro,2021-05-02T16:39:03Z,1,Your classes are awesome. Really appreciate it!,True
+@GroterRonald,2021-05-02T10:04:39Z,1,Just bought your book! Thank you for your clear explanations👌,True
+@ahmet3592,2021-04-28T13:52:01Z,0,At 3.56 the bias equals 2. That means that the green dot must be at 2 for x=0 if f = x*m + bias. Is there something i misunderstood?,True
+@cirogarcia8958,2021-04-19T02:50:20Z,0,actiVAtion functions,True
+@sumeet141,2021-04-19T00:58:48Z,0,Pure divine #BellNotified,True
+@won20529jun,2021-04-17T07:28:14Z,0,Wow seriously amazing explanation of why the ReLU works. Thank you so much!,True
+@postcode-x,2021-04-16T01:26:46Z,0,"This is a really nice tutorial but when you started talking about each spiral arm being a ""class"" without even defining the concept of a class I got completely lost. You went from talking about an imaginary server to spirals.",True
+@user-hp7pm3mq2m,2021-04-08T21:02:47Z,0,"Hi, thank you for your wonderful explanation, but why is there no automatic translation in this clip? Thank you again for your wonderful explanation",True
+@applepie7282,2021-04-06T01:37:43Z,0,this is fucking art. I mean your explanation man. thanks,True
+@omarpasha2968,2021-03-29T05:16:08Z,0,"Very good! Well, on to the next video!",True
+@rafaelcavalcantechaves81,2021-03-28T13:20:27Z,0,Can you Releases the subtitles? Thanks by the video,True
+@ekremdincel1505,2021-03-20T14:32:46Z,0,Why there is no subtitles :(,True
+@francescofilippi5620,2021-03-18T22:16:37Z,0,20:18 Hey sentdex! Really impressed by the quality of your videos. Do you have any resource or tip to start digging deeper?,True
+@fhdhejeh63,2021-03-17T17:17:18Z,0,how do yu make the nnfs work?,True
+@grido0738,2021-03-17T16:03:45Z,0,"Please, activate subtitles <3",True
+@thecathode,2021-03-15T16:22:37Z,1,The detailed explanation and animations of fitting the sine wave are awesome!,True
+@agnisain1771,2021-03-11T13:10:31Z,1,"Hi Sentdex, I'm stuck with an AttributeError: 'list' object has no attribute 'astype'",True
+@buseavc388,2021-03-06T22:05:11Z,0,"I installed nnfs from command line, but when I try to invoke it I see this; ModuleNotFoundError: No module named 'nnfs' Also pyCharm raises packagesnotfound error Any help? :(",True
+@GoredGored,2021-03-06T14:08:35Z,0,After multiple seating I passed p.5 at last. Now I can almost do the Daniel Sinusoidal Dance (the DSD). One day Sentdex will be known as one of the few knowledge democratizers...one day Robots will sing songs for him and write poems for him... of course they would have used artificial neural network to do that.,True
+@unfinishedsentenc9864,2021-03-06T07:58:30Z,1,Can you please explain the part where we determine activation and deactivation points. 9:25 Thank you.,True
+@veronicanwabufo5905,2021-03-04T01:03:24Z,0,I like Daniel Optimizer,True
+@josephmejia9520,2021-03-03T19:07:51Z,1,I love how passionate he is throughout all these videos it brings me joy while learning this subject.,True
+@lindakettle8001,2021-02-27T20:15:06Z,0,"create_data function, I'm not clear on points and classes and features. This is my starting position: Features = dimensions = columns ie (x1, x2,.... xn) Rows = samples or data values or data points  Nnfs function create_data(points, classes) points = samples or data values or data points = rows each data point has 2 features (x1, x2) or (x, y) = columns classes are the classifications, like 4 types of IRIS  So the nnfs function create_data() basically is 2d (2 features) but you can specify sample size = points, and number of classifications at end (types of IRIS)",True
+@CrispyParrot,2021-02-21T01:04:12Z,0,This is of a much higher quality than my university course.,True
+@siddhantsancheti,2021-02-18T23:27:28Z,0,"Great piece of work!!!!!!!!! Thank you so much. By the way, would you please explain more about nnfs, I didn't get why nnfs replaced the random.seed. Also, dint get the changes in parameters from 4 to 2. I would like to know more about nnfs & its commands. Thanks in advance!!!",True
+@HomeBologn,2021-02-18T21:10:36Z,0,"This series is the best one you've ever done, hands down.  Easiest to follow, helpfully illuminated by the manim animation (manimations?).  11/10",True
+@zahraaghapour746,2021-02-17T11:35:23Z,0,your ability in explaining is amazing. keep going. thanks a lot.,True
+@patrickfox8620,2021-02-15T09:18:52Z,0,"Great vid, I found your explanation of how ReLU can fit to general distributions fascinating. Since it can piece together different straight lines, does this mean ReLU is universal? With enough neruons, shouldn't you be able to map to any curve (however inefficient this method may be)?  Another question: Why does the spiral_data function output arrays of length 3*(num. of points)? Why not just number of points?",True
+@saijaswanth5085,2021-02-14T13:51:03Z,1,"me : oh god, create a tutor who teaches neural networks from scratch?? god :  I have created a tutor with  channel named sentdex . go look for it child ..............",True
+@krishnahariharan8202,2021-02-13T14:45:39Z,0,'list' object has no attribute 'astype' this is the error that  i get,True
+@AbhishekMishra-fr7po,2021-02-13T14:24:57Z,0,The best video ever!!,True
+@krishnahariharan8202,2021-02-13T14:10:39Z,0,Can anybody say what does classes mean? I'm new to NN!,True
+@GoredGored,2021-02-13T14:04:41Z,0,Now I know Activation ReLU. Heck now I know how activation work...  activation function (input*weight +bias),True
+@Bawaromerali,2021-02-09T20:56:50Z,0,"amazing video , thanks alot",True
+@MauriceChavez353,2021-02-02T16:50:56Z,0,"couldnt find a better explanation for activation functions anywhere on the net. i mean its not complete and very abstract, but considering the complexity this made me understand better than anything ive read on activation functions.",True
+@go_better,2021-01-31T15:59:38Z,0,"Thanks for the episode! I got what is an activation function, but unfortunately didn't get why is it needed and why does it work. I got that usual linear functions aren't effective enough for some specific tasks. But thanks anyway!",True
+@sneaards6321,2021-01-26T19:53:00Z,1,"0:43 ""help stefuction i'm stuck""",True
+@rishikambhampati2862,2021-01-25T12:33:26Z,0,Thank you so much for the content. One thing I couldn't visualize or put together is the passing of output of one ReLU to another. Can anyone please help me with this. Like how's the graph changing. Thanks in advance.,True
+@tgsoon2002,2021-01-22T09:18:52Z,0,This series is so so good.,True
+@gerokatseros,2021-01-20T13:40:53Z,0,"Book ordered, this tutorial convinced me ... thanks alot!",True
+@gerokatseros,2021-01-19T22:16:00Z,0,"OMG, I ve read books, watched videos, but this brilliant explanation I ve never seen!!!!",True
+@user-tc6us7ep6w,2021-01-17T20:27:13Z,0,Hey can please sell you beautiful neural network from scratch book in Indian currency if possible..!,True
+@Extorc,2021-01-08T08:54:58Z,0,"to be honest , i cant understand anything from this tutorial , probably i might need some help over here",True
+@Extorc,2021-01-08T08:44:38Z,0,Hey can u explain me what is an activation function atol,True
+@TheRelul,2021-01-07T19:22:35Z,3,"Man, this is just beautiful. Thank you and Daniel and the whole team responsible for this. You are bringing beauty into the world.",True
+@sawansihag6974,2021-01-03T07:50:13Z,0,RELU is really OP,True
+@francesco_savi,2021-01-02T18:02:15Z,0,nice job!,True
+@darkcodecoding3968,2021-01-02T16:30:36Z,0,but for the relu part there is another way to do it if we know the amplitude and the period,True
+@mrfrozen97-despicable,2021-01-02T14:01:26Z,0,After watching this. Even udemy will feel ashamed........... We are lucky though......)))),True
+@popupexistence9253,2021-01-01T16:51:32Z,0,OH MY GOD! THESE GRAPHICS ARE KILLER!,True
+@shimonjudeswer3012,2021-01-01T07:39:23Z,0,"Hello, I'm getting a ModuleNotFound Error in the line: from nnfs.datasets import spiral data. I installed the nnfs package and imported it. But this is the error: no module named nnfs.datasets;nnfs is not a package. Please help!",True
+@3T-InfoTinker,2020-12-31T19:47:42Z,0,💕💕💕💕💕💕💕💕 No words can express the feelings.,True
+@muhammadiqbalbazmi9275,2020-12-25T13:55:10Z,0,How much time did it take to make the animation?,True
+@TonyTheTrain,2020-12-23T15:07:58Z,6,"I know I'm late to the party, but the animations are amazing. I watched the double neuron part probably 20 times with the sound off to figure out what was going on. I had a recommendation for the animation and as I was typing it, I realized that I STILL didn't fully understand what was going on. I've got it now - thank you for the animations! This would be MUCH more difficult without them.  Specifically - the input of the second neuron going ""backwards"" was bending my brain.",True
+@mizupof,2020-12-22T16:07:35Z,2,This video just blew my mind. I still haven't bought the NNfS book yet. But this doesn't reflect how much it love to watch and re-watch your videos. This series will probably stay State-of-the-Art for a long time. Thank you!,True
+@Rickilicious,2020-12-20T19:18:04Z,0,"no one: sentdex - wheeze, awkward laugh",True
+@friendlymushroom8090,2020-12-19T11:22:59Z,0,What Software do you use for your animations?,True
+@souravjha2146,2020-12-18T11:44:24Z,1,man 7 months has gone please make part 6 7 8 9 10....,True
+@mrmofopink,2020-12-17T01:47:54Z,0,"I got an ""ModuleNotFoundError: No module named 'nnfs'"" I did everything as in the video and my console says nnfs was imported. :-/",True
+@Cnys100,2020-12-14T12:07:08Z,0,"Grate work!  how do i get nnfs 1.18.2 in sted of nnfs 1.19.2? i get lots of format errors and i think it comes with nnfs 1.19.2.  errors like (return orig_dot(*[a.astype('float64') for a in args], **kwargs).astype('float32'))",True
+@tevintaylor2122,2020-12-14T11:19:58Z,0,I love it and I want more,True
+@asim-gandu-phenchod,2020-12-10T06:55:53Z,0,World is waiting for P.6,True
+@tecknowledger,2020-12-10T04:19:04Z,0,"Hi Harrison, Any estimate when part 6 will be out? Thanks",True
+@brendensong8000,2020-12-09T04:38:54Z,0,Amazing graphics and great explanation!  Thank you so much for your effort in these videos!!!,True
+@yk4993,2020-12-04T06:08:56Z,0,"I am sorry to say this, but all of this so far could be nicely made into a single ~30 mins video. Why so much verbosity?",True
+@baldeaguirre,2020-12-03T01:59:36Z,0,when will part 6 be released?,True
+@vasanthkannan3398,2020-12-01T16:40:36Z,0,Where is your microphone?,True
+@adjbutler,2020-12-01T13:18:22Z,0,The paperback book just arrived! Wow it is huge in real life. Weighs like 2.6 kg (~5.75 pounds). WOW,True
+@shammabeth,2020-11-29T23:47:23Z,1,"Bought your book, but still eagerly waiting for the next video. These are very well produced deep dives that are easy to understand.",True
+@SuiGio,2020-11-28T19:59:07Z,0,Where is the next video?,True
+@turdle2767,2020-11-27T23:24:50Z,0,Rip the series?,True
+@souravjha2146,2020-11-27T19:40:53Z,0,part 6 man...please publish that,True
+@sarfarazsaleem2973,2020-11-27T17:04:54Z,0,part 6      ;___________;,True
+@jovanstojsavljevic9300,2020-11-27T08:59:00Z,0,whether you turned off multilingual subtitles intentionally or accidentally. Otherwise the tutorial is great,True
+@neurixfe9911,2020-11-26T14:26:42Z,0,"Hi! I'm using Jupiter Notebook and I can't import the nnfs package.  It says ""No module named 'nnfs'"". How can I do it?",True
+@atphamthanh4142,2020-11-26T06:02:08Z,0,waiting for part 6.,True
+@nikitaivarovskiy6819,2020-11-26T03:55:25Z,1,"Pls it so great project, don't stop!",True
+@abrarmotahar7986,2020-11-24T05:36:51Z,0,This may sound like a dumb question but I’m confused about your choice of values in your NNFS videos  In your video on hidden layer activation the animation showed you (or rather David) adjusting the weights and biases to fit the form of that non-linear function. So is that how one would always choose what numeric values to use for weights and biases? Your videos often refer to the textbook for values so idk what values I would use for my own NN. I understand the concepts just not which numerical values to put into my own code.,True
+@AiBe0815,2020-11-21T22:32:20Z,0,"Hi there! At university, I didn't get that stuff into my head - thanks so much, now I understand much more! None the less, you work with numbers as data set. I'm trying to classify words - more specific: I have a set of over 1.000.000 OPAC-queries; I pre-classified about 3.000 of them intellectual - i took the query and labled a subject to it (for example query: subject heading: napoleon wars -> class: history or query: library-notation: NP 1200 -> class: history). Now I want to take these 3.000 pre-classified queries, train a neural network and classify the 1.000.000 OPAC-queries (I try to find patterns in the classes á la ""If you study history you normaly search in this way, and if you study science you search in this way...""). Is there a way to use words for classification in a neural network? Do I have to change the words into numbers? Or are there better ways to do this taks?  Hope pt. 6 will come soon!:D Best wishes and greetings from Bavaria!",True
+@Zerksis79,2020-11-21T18:03:04Z,0,Is there going to be a part 6?,True
+@luciorossi75,2020-11-20T16:38:11Z,0,The sine wave fitting is so informative! Kudos on the animations,True
+@karanbrokendream,2020-11-20T12:25:45Z,0,Thanks so much for these videos.. your explanations are awesome!,True
+@Anujkumar-my1wi,2020-11-19T11:39:32Z,0,Can you pls the meaning of the weights in contexxt with neural network is the meaning  of weights in neural network is same as weights in linear regression then here weights are showing the importance of input to the preactivation output i.e weights showing the importance of x on y  in the form of y = wx + b or is the weights showing the impoertance of inputs to activation ouput i.e output = activation_function(y) and why we need to use a linear transfromation on input like y = wx+b before applying non linearity can't we just use non linearity on the raw input pls explain.,True
+@abdullrahmanmohamed2155,2020-11-18T09:13:51Z,0,I cannot thank u enough on that magnificent effort .   I'm waiting the following parts,True
+@NeuralxAi,2020-11-14T15:16:49Z,0,This is not fair. After the 5 videos why you stopped. still Waiting for the next part. 🙇‍♂️,True
+@sinanbean766,2020-11-14T14:47:09Z,0,"Watched the series, will buy the ebook next",True
+@julianray6802,2020-11-13T15:28:51Z,0,"Brilliant, just brilliant! :)",True
+@learn-and-live,2020-11-12T16:21:37Z,0,you are a great teacher! is part 6 available? thanks!,True
+@AshayKolhe,2020-11-09T19:27:56Z,0,Please post the next part.,True
+@oubaidachouchane8654,2020-11-08T11:57:20Z,0,Really thank youuuu for this amazing series of videos! I really enjoy the way you explain complex concepts and the visual demonstration is extremely helpful! Many thanks keep it up!,True
+@AlfrihPetruFeras,2020-11-07T18:09:49Z,0,I'm horribly waiting for the next episode... please don't make us wait longer! You're doing a great job and your effort is really appreciated.,True
+@skizzme,2020-11-04T17:10:56Z,0,when is part 6 coming?!?!,True
+@swaralipibose9731,2020-11-04T11:51:32Z,0,Which software do you use,True
+@Chevignay,2020-11-02T00:02:06Z,0,"Hi, if i buy the book, would I be able to continue without having to wait for part 6? i.e. is all the content from part 6, part .. n in the book?",True
+@adhipathis12,2020-10-31T15:56:34Z,0,When will the next tutorial come? :),True
+@MatSchaffer-Com,2020-10-31T12:21:51Z,0,Great series. Hope everything is okay and part 6 and beyond will get produced when you can!,True
+@glitch_dark3128,2020-10-31T12:12:52Z,0,Which IDE do you use?,True
+@JackSimpsonJBS,2020-10-30T12:44:25Z,2,This series (and the book) are incredible! Such an amazing teacher - I can't wait for part 6 :),True
+@thespicehoarder,2020-10-27T17:22:23Z,0,11:11 I'm not really understanding why the red dot on the second neuron is going backwards.,True
+@ConorFenlon,2020-10-25T13:13:10Z,79,"Dude, you're a legend. Bought the ebook Pre-Order yesterday, absolutely CANNOT WAIT for full release. My favourite thing about your videos, is your enthusiasm. For example, at 8:38,  ""What's so cool about ReLU is it's ALMOST linear, it's sooooo close to being linear, but yet that little itty-bitty bit of that rectified clipping at 0, is exactly what makes it powerful; as powerful as a sigmoid activation function, super fast, but this is what makes it work, and it's so cool! So WHY does it work??""  Dude, I've never been so PUMPED to learn from someone with such enthusiasm in my LIFE. You take all the time you need to do this man, do it your way, and take your time, and you'll change the world. Thank you so much. Much love from Ireland. edit: spellings",True
+@sandybathwater8385,2020-10-25T01:32:37Z,0,I spent all day to get to a cliffhanger?    Guess I will have to buy the book.,True
+@emilk7413,2020-10-24T22:07:38Z,0,When do the next video come?,True
+@chilk4508,2020-10-24T11:16:36Z,0,"Thank you for the tutorial series it is amazing, especially since it’s free, you have the best explanations for how machine learning works and it’s taught me a lot. I typed my code exactly the same as you and it doesn’t work, I’m using pycharm and python 3.8. The specified error says  Traceback (most recent call last):   File “<input>”, line 23, in <module>   File “<input>”, line 14, in __init__ NameError: name ‘n_input’ is not defined",True
+@adamhancock2660,2020-10-23T16:51:16Z,0,"This has literally blown my mind haha, Explained perfectly!",True
+@inesylla9706,2020-10-20T09:39:20Z,0,"Amazing set of videos! It was very very easy to learn it and I am looking forward to the next video! We are waiting for it! Again, thank you very very much! Keep on producing pls!!",True
+@scottbaker5311,2020-10-20T04:42:11Z,0,"im glad you see us humans are sooooooooooooooo dumb, so dumb its sad really.",True
+@ifmondayhadaface9490,2020-10-18T16:02:37Z,0,You’re the first person I’ve seen who actually explains how something like ReLu is so helpful and powerful. Looking forward to part 6!,True
+@aamirkhanmaarofi9705,2020-10-18T12:27:38Z,0,When is the 6th Video of the series coming?,True
+@arib9877,2020-10-16T23:12:59Z,0,When talking about  Neurons on a graph ~ 22:00 dose each neuron equate to a change of slope on the line? That is to say if i want a line with 7 curves i would need a neutral network with 7 hidden layers?,True
+@oblivionronin,2020-10-15T20:15:01Z,0,23:37 that if else statement coudl be easily optimised with branchless programming Output.append((i>0)*i),True
+@emado.7834,2020-10-11T16:48:06Z,6,"Bro, I just felt obligated to leave a comment for the perfect video you have made. This was literally the best visualization I have ever seen on youtube. This video deserves an oscar.",True
+@Ketchup911,2020-10-11T12:23:15Z,0,God bless you,True
+@CorruptMem,2020-10-08T13:37:41Z,0,please. when part.6,True
+@MohidulIslam-bx4je,2020-10-04T10:59:32Z,2,"bro,,,is everything fine?????????? we are waiting for the part 6 for long",True
+@devpatel5597,2020-10-03T20:46:49Z,0,where is part 6??,True
+@sharwankumar4045,2020-10-02T16:03:04Z,0,waiting for pt.6,True
+@adityakarn4361,2020-10-01T18:38:13Z,0,PART 6 WHEN???,True
+@SutekhOne,2020-09-30T20:54:42Z,0,What are you doing step-function,True
+@oguzcanbekar2536,2020-09-29T14:30:10Z,0,We are waiting for the 6th video exicitingly but at the same time understand you that you have a lot of stuff to do for the book. So just keep working I hope everything be easy for you Thanx a lot 💪💪💪,True
+@dr.mikeybee,2020-09-29T07:43:36Z,0,I'm really impressed by the quality of the content of this video.  Kudos!,True
+@davidgascon9765,2020-09-28T01:11:46Z,0,"When’s part 6 coming? I’ve been using these to vaguely understand the content, then the book to clarify.",True
+@paulkerrigan9857,2020-09-26T02:09:02Z,0,"I watched a five minute video about activation functions and immediately understood it, but this video was way more complicated.   I think there are times when too much information can be passed that makes it less clear. But otherwise the series is great and I'd much rather you made them than not.",True
+@suchalooser1175,2020-09-25T22:05:13Z,0,waiting for the next video!!!,True
+@HollowHiki,2020-09-24T10:58:28Z,0,"Probably late to ask, but I can't seem to get an answer to this. What exactly is the output layer in this case? Is it layer1's ReLU? And if you were to feed the data to the next (let's call it L2), would L2's ReLU be considered the output? Or is output layer a completely separate thing from hidden layers?",True
+@karalekasgeorge1252,2020-09-24T09:50:56Z,0,"You are doing a great job. Thank you very much. I am going to buy your eBook. I hope that I can easily understand that too, like the video tutorials.",True
+@Micha-ky6um,2020-09-22T20:17:17Z,0,"Dude you are such a good teacher, thank you for these vids! Waiting in anticipation for part6 <3",True
+@benmartin2794,2020-09-22T05:21:06Z,2,Legend has it part 6 is coming,True
+@ParanoidNotAndroid,2020-09-21T19:29:21Z,0,YOU ROCK,True
+@kunalmanjare6684,2020-09-21T09:26:16Z,1,Waiting for part 6 As I am doing a project in which I have to learn Neural Networks. Great Work man.,True
+@seyeeet8063,2020-09-20T06:06:18Z,0,i am wondering when you will cover the backward stage which I belive is THE MOST IMPORTANT thing for all these stuff. because if you just don't cover it in super details for all concepts your work wont be that much useful :),True
+@alexgulewich9670,2020-09-19T17:00:30Z,1,5 months and still waiting for part 6,True
+@kyand920,2020-09-17T21:12:31Z,0,"First I watched the video, I didn't really understand at 100%. I then read the book, and I understood a LOT more, I re-watched the video and I realize how awesome neural networks are!! Thank you Sentdex!!",True
+@trailerplots6944,2020-09-16T10:43:52Z,0,where is part 6??,True
+@ganapathisubramanyamjayam,2020-09-16T05:19:52Z,1,best explantion i ever heard or saw!,True
+@lightninghell4,2020-09-15T07:44:40Z,0,part 6 pleeeeaaaasseeeeee,True
+@hyungjunkim7503,2020-09-13T14:24:00Z,0,"When the world needed him the most, he vanished",True
+@mickelodiansurname9578,2020-09-13T11:04:57Z,0,"Harrison, I think yourself and Daniel should submit your book, and supporting media, to education departments worldwide if I'm honest. 10 year old kids learning this is exactly whats needed. There's a data scientist gap at the moment. It starts off so simple that I think kids would get it! At least ask your local politician how you'd go about doing that.",True
+@Hal-iy3qj,2020-09-13T10:33:04Z,0,Excellent,True
+@mickelodiansurname9578,2020-09-11T13:51:40Z,0,How do I download the 'Daniel optimiser... and is it better than using my cats brain attached by a USB lead to my pc?,True
+@chrischoir3594,2020-09-10T02:26:53Z,0,This video wasn't as well thought out as the first 4,True
+@robenromero4947,2020-09-08T11:03:26Z,0,Where is the next video?,True
+@joowon1805,2020-09-06T21:55:44Z,1,"The secret of becoming successful in Crypto trading is BUY AND TRADE thereby multiplying your coins so that no matter what happens, you will always be on the safe side even when its crashing. Coming in contact with Crypto Mileage has really changed my financial earnings for the best, I've been able to save 50,000usd in 3 weeks period. I urge everyone seeking an opportunity in Crypto trading, those with no prior knowledge about Bitcoin investment, those who are anxious about the wavy nature of the Market and those that need a perfect strategy so that they can take maximum advantage of the Crypto Market Cap to take a Bold step and start investing. I can share more snapshots proof of my recent withdrawals VIA TELEGRAM @brianchecojoseph or text me +17184120270...",True
+@CasimirSowinski,2020-09-06T21:16:17Z,0,Did this project die?,True
+@arjunc1482,2020-09-06T05:36:32Z,0,when is part 6 comming...........its been 3 months,True
+@DSinghsLAB,2020-09-05T16:59:36Z,1,Excellent work!! Please dont abandon so many of us and continue with part 6 and beyond... loads of respect for the time you put in making these videos.. Thank u from the most hidden layer of my heart for such explanations!!,True
+@amirhosseinesteghamat7621,2020-09-04T11:13:16Z,0,this section was so nice . it would be so good if  you tell us in what situations we use which activation function,True
+@limbail,2020-09-03T23:24:54Z,0,"This is the most interesting video abount neural networks on youtube, and so well explained, tnx so much again sentdex.",True
+@decode0126,2020-09-03T11:02:25Z,0,really loved this tutorial!!!  i am eagerely waiting for the part 6 what is the release date???,True
+@ramtinnazeryan,2020-09-02T00:49:32Z,0,very interesting playlist. cant wait for part 6. since the time of the post I believe pandemic slowed you down for a while. Just wanted to motivate you to post the next one faster :). So many people looking forward to it.,True
+@egzbel4400,2020-08-31T21:59:35Z,0,"its been 3 months, still waiting for part 7.",True
+@iyxan2340,2020-08-30T04:43:25Z,0,Pt. 6? :/,True
+@jackyhuang6034,2020-08-29T04:53:14Z,0,"tbh, the most important part of neural network/deep learning is backpropagation and somehow you don't cover it.......",True
+@yacinelafi2432,2020-08-28T18:57:44Z,0,"hi sir i hope that's you are okey ! i had watched all your videos of deep learning using tensorflow and keras , I am in my final year at the university i study computer science (speciality machine learning)  and I am working in change detection in satellite images using CNN with keras and tensorflow as my final project . I had a problem in programming with paython using CNN if you like to help me give me you e-mail and i will send you more details.",True
+@Aditya-hk4je,2020-08-28T14:07:56Z,1,How many parts,True
+@neillunavat,2020-08-27T07:18:19Z,0,"it's been 3 months, still waiting for _*awesomeness*_.",True
+@Nirex_,2020-08-27T06:04:21Z,0,"Amazing to see the effort put into these videos, yet, without Matrices and Tensors from the very get-go of the Back-Prop algorithm, everything can be (and possibly will be) a gigantic mess of numbers to handle, That is the reason why we use matrix and tensor libraries (e.g Numpy as np) instead of writing our own explicit loops!  Explicit loops are good for understanding the concept more easily (which is the case with forward-prop) but when you're going into the back-prop algorithm, explicit loops are more foe than friend!",True
+@thedrei24,2020-08-25T12:44:19Z,0,"how many parts will there be in total, and most importantly, when will everything be released including the book?",True
+@mn1721ef,2020-08-24T23:28:18Z,0,"Thanks for the videos, when is comming the 6 video?",True
+@syedalamdar100,2020-08-22T02:25:56Z,0,Sooooooooo.... Part 6 turns out to be out sick with COVID?,True
+@gtjhin,2020-08-21T03:32:06Z,0,A lot easier to understand the video than the ebook. Really nice video,True
+@theali8oras274,2020-08-20T18:26:42Z,1,"9:38 i think u negated the bias too . It s wrong,isnt it ?",True
+@onurcanermen3189,2020-08-19T11:15:19Z,0,"Hello, I have been following your channel for about 4 months and I liked the neural network playlist very much. I want to buy the book but it is very expensive for me due to the exchange rate difference in my country (Turkey). Is there any way I can get a discount as an e-book?",True
+@unixtreme,2020-08-19T07:38:35Z,7,"I want to get the book but tbh I'm on the fence, my brain doesn't allow me to sit and go through paper, if this series resumes then I will because it will be good as a complement but not as a main means of studying in 2020.",True
+@mariyanzarev6423,2020-08-18T12:44:44Z,132,"Hey sentdex, since the other parts are still in the works I’d like to give some feedback. Thanks for doing all this, the graphics help a ton to see how everything works. The only suggestion is to explain why the different concepts even exist, with some real life examples. This looks like it would be great for someone experienced that has used activation functions and everything else you discuss, and now they would like to closely see how it works. For a noob like me, it is not clear why they even exist, and it feels a bit like we are just listing different concepts without a clear picture of why, and what we are trying to achieve with this network. For example when you were showing how well the ReLu fits the data its not clear if that is actually desirable since it seems to overfit the data.",True
+@Abhilashmanikanta,2020-08-17T07:31:41Z,1,"How will the bias offset in third hidden layer or third neuron? Will it again offsets on 'x'-axis or will it offset on a different axis altogether? Does Neural Network work in n-dimensions for computational purpose, if so how will these dimensions are taken (based on inputs or based on hidden layers)?",True
+@DragonKidPlaysMC,2020-08-16T19:43:47Z,0,The approximation of the sinewave is like a Taylor Series expansion?,True
+@parneetkaur4444,2020-08-16T14:02:59Z,2,Earlier Me: Waitin for Money Heist part5 Now Me: When sentdex is gonna upload part6,True
+@sveinjohansen6271,2020-08-14T16:20:42Z,0,you buy the book and realize part 6 aint in the book either.,True
+@mukulvishwas6691,2020-08-13T06:50:54Z,0,enjoying all the video and waiting for next one.,True
+@luisbuosi9131,2020-08-12T17:03:25Z,2,"Hi guys!! So I was coding with kivy in pycharm, and when I run The program, an error appears and says ""unable to open a window abort""  does anyone knows How can I fix it ???!!!",True
+@maxberktold4071,2020-08-12T15:47:34Z,0,When is the next Video Dropping?,True
+@chrispeters8208,2020-08-08T14:50:21Z,0,Really well done. great video. thx,True
+@chupa00,2020-08-07T15:27:39Z,0,"Oh, why there are no subtitles",True
+@hyungjunkim7503,2020-08-07T11:12:47Z,0,"Your animations remind me of the style 3blue1brown uses! Its so clean and simple, please keep using itttt",True
+@AliAbbas367,2020-08-06T18:46:28Z,0,I cannot explain how much amazing you way of explaining is. I just saw all of your videos in one go and now I am waiting for another one.  Thank you.,True
+@akarri510,2020-08-05T18:47:24Z,0,dude the series is absolutely wonderful! thanks so much! could you add timestamps to the video? it would help with navigating :),True
+@joeyfoursheds,2020-08-05T08:17:30Z,1,"Having watched or read dozens of explanations about activation functions, this is the first one that enabled visualisation of what's going on behind the numbers. Congratulations, it's pretty hard to come up with something unique on this topic, especially on YouTube, and this knocked it out the park.  What's being used to create the animated net diagrams?",True
+@yscosta,2020-08-04T23:01:23Z,0,"You can turn the complex stuff into simple to understand. But, I don't know why some NN architecture mix function activation. The examples of NN autoencoder mixes tanh in the input and output layer while uses relu in the hidden layer.   I am not sure if you intend to tackle mixing activation functions head-on. But, it would be pretty compelling.",True
+@hitsakhavala9623,2020-08-04T15:23:13Z,0,"Hey mate, hope you are doing great in this pandamic situation.  Its great you teaching NNFS and eagerly waiting for next video is this series. Personally may be next video will be the most useful for me i guess.  Hope you upload next video soon and teach us how NN learns. Love from INDIA",True
+@Emily_Entropy,2020-08-03T18:40:16Z,0,"PEP8 isn't just a good idea, IT'S THE LAW!   Kidding... please more videos! This is the best series on ML, but it is incomplete. All the animations must be slowing down production, but they are a great addition so I'll try to be patient.",True
+@pnptea173,2020-08-03T14:27:15Z,1,"Part 6 cant come quick enough, loving this series",True
+@-akshay,2020-08-02T14:22:56Z,1,"hey man, waiting for part 6.",True
+@89boomi,2020-08-02T06:05:34Z,0,Thanks for the video. This is a great effort and I went through all the five parts in one go. When can we listen to the part 6?,True
+@ridhamsuhagiya4886,2020-08-01T13:11:02Z,0,"Those small laughter in between , btw awesome 👏",True
+@ridhamsuhagiya4886,2020-08-01T08:28:54Z,0,"Waiting for the next part, super series!!!!❤️❤️ love from india 🇮🇳.",True
+@QuadOctane,2020-07-31T09:37:42Z,0,Anyone else dying for part 6?,True
+@geogeo14000,2020-07-30T13:35:32Z,1,"Amazing videos. I've watched dozens of it on Internet and your serie is definitely one of the best ones. The part with the adjustement of weights and biases of neurons when you try to fit the sinus function is a bit hard though, even if I know that it is my brain the problem and not your teaching XD But some additional explanations would be really worth, to clearly explain how you choose and switch the values and what is the desactivation point, some more details on this part would be really valuable. Anyway I'll preorder the book, thanks a lot for your awesome videos ;)",True
+@ragaistanto6722,2020-07-29T11:07:21Z,1,Mantap videonya. Saya juga ada nih rekomendasi channel lain buat belajar neural network siapa tau cocok hehe.  https://youtu.be/vyAsO_fzNF8,True
+@adarshtiwari6742,2020-07-25T08:39:22Z,1,What does Sentdex mean please help😅,True
+@HarshithMK,2020-07-24T14:01:53Z,1,Sentdex about to release ep 6 and hit a million at the same time,True
+@jacobchang8467,2020-07-21T22:07:03Z,1,It's been more than 2 months ;-;,True
+@StaglyMusic,2020-07-19T04:55:56Z,3,"Is an ebook complete? If I bought it right now, how long will I been waiting? Day, two? Or to the release?",True
+@dewarool2,2020-07-18T22:02:47Z,0,"The nnfs module is not working in any of my idle's. I was able to ""pip install nnfs"" no problem. But none of the environments are recognizing it. Does anyone know what I am doing wrong?",True
+@ali_shoma2745,2020-07-16T23:00:00Z,3,part 6! part 6! part 6! part 6! part 6! part 6!,True
+@SkyRocket159,2020-07-16T05:30:59Z,0,woeey two three,True
+@Iamine1981,2020-07-15T10:55:57Z,0,"Also, something I would love to understand is the theory that guarantees that each ""Loss"" function we are trying to replicate via a NN model can effectively be replicated on a ""base"" of activation functions. This would guarantee the mathematical correctness of always being able to choose a NN as a model for any loss function. I would appreciate it if you have links to such materials that you could send",True
+@priyajanswongamikha3294,2020-07-15T04:14:09Z,0,Waiting for pt6,True
+@lazykid9167,2020-07-15T00:14:00Z,0,"wow. if they had shown us this super executed, animated and presented explenation of impact of linearity of the relu-function in ML-classes, that would have been so much more easy to grasp. thanks",True
+@ianjoshi6778,2020-07-14T14:43:55Z,0,Is anyone able to explain the relationship between two neurons connected together in the ReLU function? I'm trying to get the combined graph but I don't know how to do it,True
+@maclanphere5674,2020-07-13T15:01:40Z,0,great series! is your sin wave example suggesting that the backpropogation step will tweak the relu activation function(s) in addition to the weights/biases?,True
+@olie304,2020-07-12T01:03:46Z,0,Next video when?,True
+@michaeljoefox,2020-07-11T16:43:02Z,0,“I know.” - Steve Brule,True
+@tavin136,2020-07-11T14:52:01Z,0,"Hi, there! I have a question. How can I run this NN on my GPU?",True
+@allanmcelroy,2020-07-11T05:48:07Z,0,"Great series of videos, with clear, thorough explanations. Can't wait for future parts (so much so that I've ordered the e-book :) )",True
+@tanmayagarwal8513,2020-07-10T06:19:38Z,0,Waiting eagerly for 6th part!!,True
+@hadiqakhan3288,2020-07-09T17:11:25Z,0,"I just switched my field to computer science now i have a project to make on Neural Network which comprises of space data like creating a model which predicts space parameter. so far iI have been following your tutorials now I'm stuck what to do next? running out of time! but the way you made me come this far with so proper understanding, so much love and respect your way",True
+@daxj9133,2020-07-09T09:14:24Z,0,"i love you , im buying your book. u are amazing",True
+@godfreyofbouillon966,2020-07-08T23:21:48Z,0,"Life does not ""use"" DNR, DNR _is_ life",True
+@alexmassy,2020-07-08T17:19:31Z,0,Is the book as good as your video to learn Neural Networks? I am hesitating to buy it but I am more interested in the video format.,True
+@masdemorf,2020-07-07T21:57:51Z,0,"Hi, I'm loving this series!! Good job! I have a question: why would you create a specific class to just put a function in it? Wouldn't it be easier to make a function outside a class and apply it to the output of the layer? Thankyou and I'm waiting for the next video!",True
+@NeuralxAi,2020-07-06T20:51:56Z,0,p6?,True
+@jaewooko4527,2020-07-05T16:13:52Z,0,Thanks for revisiting this topic.  It help me to restart my study on tensorflow.,True
+@shreekantkulkarni1931,2020-07-05T14:12:56Z,0,"My computer says that nnfs is malicious and could allow access to others   I don't know what the others mean over here, but I think it is something serious.  I will appreciate if you reply.",True
+@ericlekwane423,2020-07-04T14:05:38Z,0,"Your videos are simply amazing, I learned how to program in Python because of you sir, thank you. I was just busy wondering, when is PART 6 of this series gonna come out ?. Thank you",True
+@tlxr6869,2020-07-03T19:04:22Z,0,"20:00  ok , but how did we make it if we don't know how it works  ?!!",True
+@fortedexe8273,2020-07-03T07:12:01Z,0,"its been 2 month, I still wating for next part :(",True
+@rajshekharrakshit9058,2020-07-02T15:26:34Z,0,Sir why videos are not coming,True
+@stephenchen7232,2020-07-01T20:07:29Z,0,Really enjoyed watching this. Waiting for your new video!,True
+@beauxq,2020-07-01T03:02:51Z,0,"This page explains why it's not a good idea to use the terms ""more granular"" or ""less granular"" as you have used in this video. https://en.wiktionary.org/wiki/granular",True
+@alankarshukla4385,2020-06-30T06:52:42Z,0,Can't Wait for the new video. When it is coming?,True
+@josephwong2832,2020-06-29T13:47:48Z,0,nice series sentdex relu explanation was great and love your new animations!!! much easier to understand visual examples.,True
+@yasinyalcn1985,2020-06-29T11:49:02Z,0,"Thank you very much, teacher, thank you, we learned a lot  But, I do not know English  could you please add captions?",True
+@user-fd3sv6df9k,2020-06-29T00:56:57Z,0,wow!  The best teacher ever.,True
+@maslak,2020-06-28T08:47:28Z,1,"while we wait for the pt.6, check this out! https://poloclub.github.io/cnn-explainer/ it's a live demo of how Neural Network works - it's the best I've ever seen! you can click on each step and see exactly what happens - live!",True
+@michaelscott8572,2020-06-27T16:45:54Z,0,Still waiting fpr P.6. Hope everything is going well and you are doing good.,True
+@noeinkan,2020-06-27T11:28:47Z,0,Mate this content is pure TNT!!!,True
+@deletingaccount1210,2020-06-26T06:46:56Z,0,Waiting for pt.6 🖤,True
+,2020-06-26T00:06:04Z,0,Please don't say this series is dead!,True
+@floretionguru2977,2020-06-25T07:36:34Z,0,Awesome tutorials- best ones I've seen on the topic.,True
+@justinus22,2020-06-23T20:50:48Z,0,Nice Video! Wait for the next one...,True
+@juanconrado9373,2020-06-22T23:50:58Z,0,-when is the next part comming?,True
+@jessacrow9407,2020-06-22T21:43:24Z,0,"How do you get the finalized output from the hidden layer(s)? right now we get a matrix output of the layer, though how do you convert that matrix to a final value (0-1) aka output?",True
+@latestcoder,2020-06-21T16:24:36Z,0,So... how many neurons per layer? do someone has a good lecture about it? would too many neurons per layer overfit the results?,True
+@yarutgruter4925,2020-06-21T10:08:30Z,1,"please tell me this series didnt die out, I'am loving this so much!",True
+@kjoolim3715,2020-06-21T09:18:40Z,0,Superb!,True
+@ronaldjensen2948,2020-06-20T21:11:33Z,0,"I somewhat successfully coded up the sine wave example at 11:35, but I didn't code any neat scrubbers like he was using... Does anyone know the exact biases? I got layer1.biases  = np.matrix( [0, -0.42, 1.35, 3.69, 2.44, -2.8, -5.3, 0]) and layer2.biases  = np.matrix( [0.7, 0.27, 0.3, 1.37, 0.27, 0.27, 0.70, 1]) but my graph isn't as pretty as I would like...",True
+@subratkishoredutta4132,2020-06-19T16:41:39Z,48,When is part 6 going to be released,True
+@erichartz594,2020-06-18T23:12:33Z,3,I think an animation would be immensely helpful for absorbing the section about features and classes. Got lost for a while between data set and feature set and feature class,True
+@wakemeup38,2020-06-18T22:41:27Z,0,Bruh why you leaving us hanging? Part 6 please!,True
+@turanyasar3375,2020-06-18T18:30:31Z,0,awesome work! ur like a prophet of the science. hope this series goes up to the end.,True
+@nunosilvestre3197,2020-06-18T11:33:48Z,1,Is everything alright? it has been over a month since part 5. Have you been sidelined by the coronavirus? :-/,True
+@clydenathaniel8117,2020-06-18T08:47:05Z,1,I'm dying to learn about backpropagation from scratch. When is the next video coming out? :D,True
+@prabritbandyopadhyay5218,2020-06-18T08:08:16Z,0,Where is the next video?,True
+@g.e8042,2020-06-17T22:29:28Z,0,where is the guy ?,True
+@1OJosh,2020-06-17T16:05:44Z,1,"This is amazing, I love your channel. I watch this everyday, I'm going to show my dad this whole playlist. He's going to love it and then we're going to have some fun trying to do something similar but more simple I guess xP",True
+@judedavis92,2020-06-17T10:59:02Z,7,When is the next one coming?,True
+@rakeshkottu,2020-06-17T09:36:33Z,238,"its been a month, still waiting for part 6.",True
+@cesarmosqueira6963,2020-06-17T03:42:43Z,0,Ward placed,True
+@islamicscholar5782,2020-06-16T20:23:15Z,0,Your videos are great....And please add english subtitles in video....and Will be waiting gor pt. 6 eagerly....,True
+@LemonChad,2020-06-16T20:22:26Z,0,It's been a month since P.5. I have a feeling P.6 will be big...,True
+@mousamohammed255,2020-06-16T12:20:54Z,0,Why this course has stopped?,True
+@JonesDTaylor,2020-06-15T19:24:11Z,1,What software do you use for the math animations? manim ?,True
+@sayakbanerjee7214,2020-06-15T09:20:09Z,1,Why is no more videos coming out ??? 😭😭😭,True
+@VinayAggarwal,2020-06-14T14:10:22Z,2,Huge Respect!!!! You are really going far and beyond to make people understand this stuff. You are setting new milestones for educators around the world. ❣️Appreciate your efforts.,True
+@MichaelMilord,2020-06-14T06:04:44Z,0,"I feel like when watching this series, I'm being bestowed sacred knowledge that only the mighty few understand. I am sitting here in awe, and absorbing all of this, going from zero to full blown data scientist in 1 badass series. Loving every moment, I simply cant get enough.",True
+@palashchanda9308,2020-06-13T14:38:27Z,50,Waiting for P.6 eagerly..,True
+@rehedi3056,2020-06-13T11:02:49Z,0,"Hi bro. Super instructive. However, for beginners interested in learning CNN, what learning journey do you recommend? In other words, where should I start with and what are the next steps? Thanks a lot",True
+@williamrimton1149,2020-06-13T09:11:31Z,0,Awesome! Love it!,True
+@chhanditachowdhury5565,2020-06-13T04:24:30Z,1,this is great..waiting for the next video...when can we expect it?,True
+@satwikram2479,2020-06-12T11:59:24Z,40,Why NNFS has stopped?,True
+@shanka8518,2020-06-12T03:28:55Z,1,Very good content. Really shows the intuition in how a neural network works. Hopefully pt. 6 comes out soon,True
+@dabdas100,2020-06-11T16:17:35Z,1,When will you upload the next video,True
+@eduardofdut,2020-06-11T15:39:11Z,1,release the part 6!,True
+@KennTollens,2020-06-10T23:33:26Z,1,"I had a hard time understanding the flow of the data. Does it go from the end node through the last two nodes in the layer back around to the first node? I watched this video, but it seemed like the machine stops when it gets to the end node? https://www.youtube.com/watch?v=aircAruvnKk",True
+@Ali-ge3xn,2020-06-10T08:05:50Z,0,Amazing explanation! Just completed your series and learned alot,True
+@PaderRiders,2020-06-10T06:00:27Z,39,Hey man! Thanks for your awesome videos! Im interested in this theme and your explaining it pretty good! Im waiting for your next video 😉 Greetings from Germany and keep on producing 🚀,True
+@antonionogueras6533,2020-06-10T05:10:17Z,1,"Really enjoying this series. Really looking forward to the next video! I have a question. I wrote some methods that allowed me to essentially reiterate using the same Layer_Dense you created using the spiral data. Why is it when I iterate over it 83 times all the numbers are 0, but at 82 we still have non-zero results. Why are the results zeroing out the more we reiterate? Here's my code https://gist.github.com/2hands10fingers/ba2fb3b21788c5436241a99d110b0ffb",True
+@Obonissimus,2020-06-09T19:15:18Z,0,My body is ready for this.,True
+@alp1216,2020-06-09T19:05:39Z,0,Please make a video about implementing backward propagation to track sine wave pleasee!!,True
+@sebastianbitsch,2020-06-09T15:27:01Z,0,"Anyone else getting an ""no module named nnfs"" - error, even after having called pip3 install nnfs in terminal with success?",True
+@chirudeepnamini,2020-06-09T14:28:14Z,0,sentdex can you upload the subtitles for this video please...,True
+@winnumber101,2020-06-09T13:49:06Z,0,Got so much respect for this man's illustrative prowess,True
+@user-qe6ye6lc5q,2020-06-08T20:30:21Z,0,to be continued?...,True
+@jordanbarnes1870,2020-06-08T17:26:09Z,1,Any idea when next vid in this series will be best buddie pal my favorite youtuber? @sentdex,True
+@jacobrichard9569,2020-06-08T05:08:55Z,0,Damn daniel,True
+@dabdas100,2020-06-07T18:46:12Z,0,Great tutorial!!,True
+@themetalcommand,2020-06-07T18:35:27Z,4,"Man loved the video! So helpful and easy to learn. Need pt. 6 sooner, too eager to learn about back-propagation and weight/bias adjustments!",True
+@kaushalprajapati4009,2020-06-07T10:36:22Z,0,"Awesome video. Is really helpful . Just a question, when is the next video on backpropagation for correcting errors coming?",True
+@cjstevens6405,2020-06-06T23:03:36Z,0,"I'm curious to know (this is a very naïve question, so perhaps won't fully make sense) how each neuron pair is ""assigned"" to a given part of the task, or in this case to a given section of the curve-fit. Or, in other words, how is the task broken down by the network? If someone understands and can provide some elements of an answer, much appreciated.",True
+@shad0wshyper394,2020-06-06T22:50:30Z,0,We want part 6,True
+@sonoVR,2020-06-06T21:13:32Z,0,"This series is great man! I myself am coding along in PHP, recreated the dot function and ReLU functions so I too can have a deep understanding of the subject. Made a Neural Network with 3 of those Dense layers and it flows amazingly well! I'm excited for the next lesson and interested to see whether the ReLU activation function can solve the XOR problem like the Sigmoid does. Perhaps you could explain that sometime :) Anyway, you've got a new subscriber!",True
+@Ideophagous,2020-06-06T15:13:24Z,1,Great series though! I'm loving it! Looking forward to the next episodes.,True
+@Ideophagous,2020-06-06T15:12:37Z,1,I get the following error with nnfs.init(): AttributeError: 'list' object has no attribute 'astype' The error comes from the execution of the method forward() on the first layer. I don't get this error with np.random.seed(0),True
+@taran7954,2020-06-05T16:28:54Z,1,It's been 3 weeks what happened,True
+@tech4028,2020-06-05T13:50:06Z,0,isnt he continuing the series :( where is part 6?,True
+@federicoalvarez8039,2020-06-05T00:16:10Z,1,"You lost me here. I´m surprised I made it his far, anyway. Great work",True
+@gilbertofontecha9044,2020-06-04T21:48:18Z,0,"it is very well explined, however I will watch the video at least 50 times to interiorise it",True
+@codepalace5377,2020-06-04T14:08:15Z,0,you are great.,True
+@wasimshoman5371,2020-06-04T09:29:24Z,1,We want more videos man. Please moreeeeeeeeeeeeeeeeeeeeee,True
+@richardgmiami,2020-06-04T00:24:00Z,0,"Awesome series. The explanations make it easy to follow along. I'm really trying to understand every part of this so I wrote my own dot product function and ReLu function in python. If anyone is following along in a different language and wants to see that (or if you're just curious), here is a link to the code: https://docs.google.com/document/d/1eux31dPSn-MBVnh9TmfpdW-EdskdII0Lr8FfHtEz29I/edit?usp=sharing",True
+@d3c0deFPV,2020-06-03T18:29:54Z,0,"Amazing videos, I'm learning a lot that I missed the first time around. I was running into problems with my models not working well with my data and knew it was time to get back to basics. Thanks for making these!",True
+@cyn1cal384,2020-06-03T13:59:21Z,0,Is this series dead?,True
+@masterfloort,2020-06-03T12:11:43Z,0,The animations are so smooth I could just sit there watching a graph all day!,True
+@etro2649,2020-06-02T14:59:31Z,0,These tutorials are amazing! It’s a little hard on my part because I’m following along in C++. Is it possible you could show a spiral data function coded in c++? Thank you!,True
+@carloslopez7204,2020-06-02T03:22:24Z,0,Why some videos has subs and other not?,True
+@JoaoVictor-xy2io,2020-06-01T21:49:01Z,3,We want part 6,True
+@witek_smitek,2020-06-01T13:20:59Z,1,"FINALLY Some explained me with easy, visual way, what impact has layers. I was always wondering why de heck we need 2 layers, or why 8 neurons at each, and why not a 100? Thanks a lot! You are doing a great work. I can't wait for the next part!!",True
+@theamazing_qoutes,2020-06-01T09:03:25Z,1,cant wait for the next vid,True
+@shaziariaz842,2020-06-01T07:47:59Z,0,Thanks a lot. Great man put his maximum effort s to explain.,True
+@they5084,2020-05-31T23:41:34Z,0,Ask netflix to add your video,True
+@syedalamdar100,2020-05-31T21:00:02Z,2,This is the first time I understand how to build a neural network. I love the work. My impatient side is wishing that all the videos be made available for this series but this will keep me hooked and awaiting your next post. Amazing job!,True
+@kitgary,2020-05-31T20:02:31Z,0,"This is a great explanation! But as a beginner in machine learning and deep learning, I found that it's easy to follow along the video courses but I can't really write any useful ML application from scratch by myself.",True
+@djwiggum911,2020-05-31T11:14:46Z,1,"Dear Sentdex, when will the new video in the nnfs series be released? I'm patentially waiting for it.",True
+@akshatchoudhary7834,2020-05-31T09:48:11Z,1,When is the next video coming I am really very excited about this series,True
+@narendersingh2851,2020-05-31T02:14:42Z,0,"The purpose of an activation function is to add some kind of non-linear property to the function, which is a neural network. ... A neural network without any activation function would not be able to realize such complex mappings mathematically and would not be able to solve tasks we want the network to solve.",True
+@heavymetalqueenxtc,2020-05-31T01:39:15Z,1,That was great. Especially the explanation for why you need a non linear activation function.,True
+@arjunkashyap8896,2020-05-30T18:38:28Z,0,"Excuse my dumb ass but can someone explain why do we use a sin wave function to like, model our output ?",True
+@abhrantapanigrahi3475,2020-05-30T06:35:55Z,1,When  is the next one coming?!?!,True
+@LastOlie,2020-05-29T01:18:23Z,4,This content is great. Appreciate it very much cant wait for the next part :),True
+@narendersingh2851,2020-05-29T01:17:18Z,2,when will be the next video coming?,True
+@piepie1231,2020-05-28T23:33:33Z,0,wheres part 6????,True
+@dabspace5541,2020-05-28T10:54:57Z,2,Hey will there be a open ai gym tutorial or how to implement machine learning at the end of this series like what u did with the tensorflow series,True
+@dumbtex6107,2020-05-27T19:25:57Z,2,cant w8 for pt6,True
+@TheHellishFrog,2020-05-27T18:03:41Z,1,P6 please,True
+@elikramer,2020-05-27T14:45:08Z,0,this is sick i thought you have to download tensorflow and know calculus !!!!!! bro you rock!!!!,True
+@babyjha7588,2020-05-27T13:13:40Z,0,Can't wait for part 6,True
+@divyanshusahu6413,2020-05-27T05:23:33Z,0,This is the most valuable channel to me and hopefully many others on youtube. PLEASE UPLOAD THE NEXT VIDEO SOON,True
+@indianbiocare7160,2020-05-27T03:35:58Z,0,Will you make a video on CNN in this series,True
+@beelzebub3920,2020-05-26T21:03:24Z,0,hyped for pt.6,True
+@R3DPandaLP,2020-05-26T19:45:39Z,0,20:18 ; How and where can we start our research?,True
+@elishashmalo3731,2020-05-26T17:36:33Z,1,This is so much fun!!! Can’t wait for part 6,True
+@tekleyoutube3259,2020-05-26T14:54:23Z,0,"Hi Sir. I used to see your lung cancer preprocessing tutorial and start to practice them in my own notebook on Jupiter notebook. But I found this error early on the beginning of importing some libraries. I would be glad if you suggest me a solution for the error. Or anyone who can help me please?  ""%matplotlib inline import importlib import utils; importlib.reload(utils) from utils import make_mask, isolate_lungs import SimpleITK as sitk import numpy as np import csv from glob import glob import pandas as pd from tqdm import tqdm import matplotlib.pyplot as plot""  ImportError                               Traceback (most recent call last) <ipython-input-3-6ead499beb11> in <module>       2 import importlib       3 import utils; importlib.reload(utils) ----> 4 from utils import make_mask, isolate_lungs       5 import SimpleITK as sitk       6 import numpy as np  ImportError: cannot import name 'make_mask'",True
+@gogoodman1660,2020-05-25T22:50:18Z,0,"Unfortunately I get an AttributeError: 'list' object has no attribute 'as type' ? What happened there?  Code:  import numpy as np import nnfs from nnfs.datasets import spiral_data  nnfs.init()  # unique inputs X, y = spiral_data(100, 3)  class LayerDense:     def __init__(self, n_inputs, n_neurons):         self.weights = 0.10 * np.random.randn(n_inputs, n_neurons)         self.biases = np.zeros((1, n_neurons))      def forward(self, inputs):         self.output = np.dot(inputs, self.weights) + self.biases   # object oriented programming... class for reLU # rectified linear unit  class ActivationReLU:     def forward(self, inputs):         self.output = np.maximum(0, inputs)  layer1 = LayerDense(2, 10) activation1 = ActivationReLU()  layer1.forward(X) activation1.forward(layer1.output)  print(activation1.output)",True
+@alexaddison1783,2020-05-25T18:56:08Z,0,"Can't wait till this channel exceeds 1,000,000 subs its well deserved!!",True
+@praharshasarma189,2020-05-25T06:33:15Z,0,"Hi. I was trying the code but facing problems in creating data set part. As I was trying to write the spiral  function in the code myself it was showing that  ""Not supported Iterator"". and no sign of nnfs library . can anyone suggest  on the same? and the way you explain is just amazing..!",True
+@accounttwo5114,2020-05-25T03:50:17Z,0,I'm hooked on this series!,True
+@3alabo,2020-05-24T19:10:03Z,0,"Great job,so well explained that I speak spanish and I understand it.",True
+@reighns,2020-05-24T10:58:31Z,0,"Anyone knows how to access the draft, I just made payment via Paypal for this e-book, but idk where to find the draft link",True
+@arrow_the_keralite.1433,2020-05-24T04:46:10Z,0,"Hi, Could you please tell me what exactly from  11:10 to 11:24 mean by ? i.e when we are below activation for first neuron output will be bias of second neuron and when we are below activation of second neuron output will be zero?",True
+@veenas5231,2020-05-24T01:06:35Z,0,Amazing explanation and the animations !,True
+@2010karatekid,2020-05-23T18:03:31Z,15,"I took my first machine learning course last semester and unfortunately all of the activities we did looked like those from the CS231 class you mentioned--no explanation, just code snippets and output. They were doable but considering it was most students first foray into python, it was quite a rough time to say the least. However, I am extraordinarily pleased to have found your channel and this series in particular--your instruction has helped more in the last 5 videos than my entire semester at university. Thanks for doing what you do.",True
+@acidtears,2020-05-23T08:17:56Z,0,28:58 You forgot to add the create_data code to the description lol,True
+@nabil.hamawi,2020-05-23T04:34:32Z,0,"This part is pretty good, but I wish if you showed us real world application for it",True
+@MadeItHappenDaily,2020-05-23T00:51:52Z,0,Great video series.,True
+@shmarvdogg69420,2020-05-22T20:30:15Z,0,"I thought i understood how networks worked a fair bit but now i think i need to go back to elementry school, good job on this video. Very informative and just amazing honestly just amazing!",True
+@sayakbanerjee7214,2020-05-22T15:07:20Z,0,Bro This weekend also passed. When is the video on SOFTMAX Activation Coming out,True
+@sidharthgiri1610,2020-05-22T13:12:41Z,0,okay period. the animations and explanation is MINDBLOWING,True
+@crohno,2020-05-22T10:16:15Z,5,"I just wanted to thank you for all this stuff, I am in the process of getting a PhD in neuroscience and artificial neural networks seems like a great tool to help with research. You make it really clear, and unlike other tutorials that tend to just show how to use certain libraries you really get down to how they actually works. As soon as the book is out I am getting a physical copy!!",True
+@KonstantinPrydnikov1,2020-05-22T02:27:34Z,0,"it's absolutly amazing graphical illustration of subject, you are making revolution in vlog teaching, and that approach make you like a god in teaching tech environment)",True
+@papascorp1631,2020-05-21T20:22:40Z,0,"Hey man love your work, I was wondering if you can please explain the Spiral Data class and how it works for us who are following in other languages. I got a basic understanding of how it works, but I just can't wrap my head around how one like (X[ix] = np.c_[r*np.sin(t*2.5), r*np.cos(t*2.5)]) can do 3 operations at once. I would also really appreciate it if you could explain how these algorithms work in future videos.",True
+@josephastrahan6403,2020-05-21T19:15:35Z,1,"@9:29, Why does changing the bias by 0.50 move it in the negative direction instead of the positive on the graph? Also the Y output value appears to be the same but the X coordinate has been pushed back by the bias, is this what is happening with the bias? Is it changing the input values back or forward by certain amounts to 'boost' them so to speak?",True
+@evanwechsler7438,2020-05-21T14:29:32Z,0,"Unbelievable series, exactly what I was looking for. I was wondering if you could explain how one should go about designing a network (i.e. number of neurons and how many layers) and the aspects to consider. Also, can you explain a situation where deep learning would be outperformed by conventional machine learning or meta-heuristic algorithms or if deep learning can work for any situation.",True
+@awsm1680,2020-05-21T10:11:51Z,1,"9:32  Actually the function moves vertically but it looks like it's moving horizontally because the values of y=0 for all x<=0. Imagine a linear function and you'll understand what I'm saying. So actually when the output of first unit is given to second unit and when we adjust the bias of second unit, nothing interesting is happening. It's just moving vertically as it did in first unit.",True
+@Orchishman,2020-05-21T08:05:17Z,0,I commented this on your earlier video...please consider pricing the e-book based on region/country...29$ is approximately 2k INR which is pretty steep...Loving the videos!,True
+@josephastrahan6403,2020-05-21T02:39:11Z,1,How do you get the matplotlib window to show up on mac? I can't seem to get it to show up like in your examples.  Any ideas?,True
+@Manuelpintado16,2020-05-20T19:53:48Z,0,When is the next video comming out? Can't wait!!!!,True
+@Far_Gem,2020-05-20T18:21:24Z,1,"I think what you say at 21:56 is not technically correct. The Universal Approximation Theorem states that one hidden layer and a nonlinear activation function is enough to approximate any (nonlinear) function, not at least 2 hidden layers as you said.",True
+@tasnimnishatislam7607,2020-05-20T16:12:34Z,0,"Hey, I am a beginner in machine learning and you genuinely have been an inspiration. Thanks for existing!",True
+@vietanh1712,2020-05-20T15:49:43Z,0,Thanks for great video. The explanation is so clear and easy to follow. Others series are incredible also. Could you tell me how to make that smooth animation? You use powerpoint or google slide or another app?,True
+@tubegdv,2020-05-20T14:47:07Z,0,Is there a provision for making the payment in indian Rupee,True
+@jamalhasanzakarneh9837,2020-05-20T11:48:39Z,0,It is really really amazing. I have never seen such a thing; the process of how Neural Networks is fitting the curves is really outstanding. Thank you man. Could you please refer us to more references to learn more about this?,True
+@goofoffbert,2020-05-20T04:24:28Z,1,"I was having a problem understanding what ""activation functions"" were for. So did some further reading and came across this, ""*Forward propagation* is the the process of multiplying the various input values of a particular neuron by their associated weights, summing the results, and scaling or ""squashing"" the values back between a given range before passing these signals on to the next layer of neurons ... *Activation functions* perform a transformation on the input received, in order to keep values within a manageable range ... Hidden and output layer neurons possess activation functions, but input layer neurons do not."" https://www.kdnuggets.com/2017/09/neural-network-foundations-explained-activation-function.html  Reading elsewhere, ""The objective of an Activation Function is to introduce non-linearity into the network ... Without non-linearity, a Neural Net is useless to produce complex behavior "" https://medium.com/autonomous-agents/mathematical-foundation-for-activation-functions-in-artificial-neural-networks-a51c9dd7c089 Sentdex' tutorial makes much more sense knowing this - he probably talked about it but it flew over my head. Awesome videos! I just needed a little more info.",True
+@dolomikal,2020-05-20T03:26:34Z,1,"These keep getting better and better. I'll say again, this is exactly what I was looking for to get into AI as a (currently) non-AI dev. You go deep enough to understand what's going on behind the scenes but stay at high enough of a level that it doesn't feel like an advanced math course. Truly an art. Great work!",True
+@tuckerrobson8316,2020-05-20T01:02:11Z,0,WHOA.........HE USES THE MOUSE WITH HIS LEFT HAND!!!!!,True
+@KylePapili,2020-05-19T18:56:37Z,0,Incredible explanation of a high level topic. Should be used in universities / institutions across the globe,True
+@mjvbhaskar1000,2020-05-19T18:23:12Z,0,Superb content.!!!,True
+@nithinsai2250,2020-05-19T11:43:59Z,0,hey harry my ide sublime is not able to take input.What should i do?,True
+@DaliborCimr,2020-05-19T06:30:51Z,0,May I ask which program did you use for animate examples? BTW as usual perfect explanation :),True
+@lightninghell4,2020-05-19T02:36:14Z,0,"You are doing such amazing work; your videos are the highlight of my week! I have a question though, why create a new Activation_ReLU object when you can create it as a function within Layer_Dense? I should preface this by saying I'm a noob at OOP.",True
+@marcossislande,2020-05-18T21:39:01Z,1,"Oh, men. You lost me. I have to watch it again. Good job on explaining and the graphs though.",True
+@felixsnz7764,2020-05-18T20:25:52Z,1,"if the relu func cant give negative numbers, how it can give negative values when replicates the sin func?",True
+@michaelschwinge3143,2020-05-18T20:13:17Z,0,does conda support nnfs?,True
+@8o8inSquares,2020-05-18T18:36:16Z,0,40 minutes felt like only 4. Great job!,True
+@Krishan_Verma,2020-05-18T17:41:48Z,0,Awesome explanation keep the good work 🙂 please upload the next video soon,True
+@baiqing,2020-05-18T06:25:45Z,0,7:15 What are linear & non-linear data?,True
+@souradeepsinha,2020-05-18T05:40:37Z,0,"Huge, huge props to Daniel for this optimizer. Watch out, we got a badass over here!",True
+@aldendelvecchio5123,2020-05-18T05:09:08Z,0,Your videos are incredible. Thank you for doing this.,True
+@jonclement,2020-05-18T01:55:17Z,0,"re: create_data.  You may want to emphasize that a 2 feature (or two dimension) datum is easy to visualize as a point on the Cartesian plane (spiral diagram).  ppl will struggle to see how 4 server measurements are treated the same as (x,y) co-ordinates. They'both just a list of features!",True
+@_inetuser,2020-05-17T21:58:48Z,0,"very very interesting, but its gettin hard at the fit the net to the curve part :). could you expand why we are fitting it to the curve? why is my ""problem"" non linear/ linear, which are the other kinds of curves we want set our net to?",True
+@paulgarcia2887,2020-05-17T21:41:52Z,0,Why is the soft cover so expesnive? Is it because you don't have a publisher to mass produce the book?,True
+@heyhey8167,2020-05-17T16:47:33Z,1,I didn't really get why only the right part of the function changed when negating the weight at 16:25,True
+@jasonmerkji,2020-05-17T16:17:05Z,0,'list' object has no attribute 'astype'. I got this error after importing nnfs model. @sentdex,True
+@jasonmerkji,2020-05-17T16:15:48Z,1,"@sentdex Just after importing nnfs model, it gives an error: 'list' object has no attribute 'astype'",True
+@rushikeshgandhmal,2020-05-17T13:00:41Z,1,"I understood previous ones all , but this was difficult to understand , actually didn't get much.  I hope I will understand after re-watch. 1 hour video would be great with deep understanding. Really appreciate your Efforts ❤️",True
+@elmitte,2020-05-17T12:29:23Z,0,"thumbs up for the content also for the stylistic/aesthetic change! at first I thought you were left handed!!! then I realized that you've flipped your video horizontally to be more engaging with the viewers, well done!",True
+@RaviKiran-qd1cl,2020-05-17T11:40:11Z,0,Thanks Sentdex.  You make look tough concepts much simpler. Please continue to make these tutorials. Cheers.,True
+@refactor1052,2020-05-17T09:10:39Z,0,Thanks. Before this I was not able to visualize the Activation function. Awsome Animations.,True
+@brainstormjokob637,2020-05-17T08:02:44Z,0,which program do you use to code in?,True
+@jsoliday88,2020-05-17T06:20:25Z,0,A Heavyside function with a zero time shift evaluates to 1 with zero as an input.,True
+@christopherli1234,2020-05-17T04:25:16Z,0,"Maybe I’m misunderstanding something, why are we making the ReLU activation function an object for each layer when we could just apply it for all the neurons? Will we be using different activation functions for each layer? Thanks for the video btw!",True
+@Luis_Ramos_Grip,2020-05-17T03:30:22Z,0,"Super In-Depth awesome, and thanks!",True
+@violinplayer7201,2020-05-16T23:27:07Z,0,The explanation of ReLu is awesome!!!! So clear,True
+@ApplepieFTW,2020-05-16T20:19:20Z,0,"Hi, I would like to say that the part on fitting the sine way didn't actually how explain how the sine wave was fitted. This is because in every way, the ""how"" of translating the neural network weights to what you show in the graph wasn't spoken about. Because of this, information on how the second layer neuron determines the cutoff for the graph gets lost. As well as how long of a stretch in the x direction is determined by a single neuron-pair. So unfortunately, I think I'm completely lost because of this, since going forward I can't make any sense of the representations anymore :/ e.g. everything will be a black box that does stuff just because it works because it works, etc just wanted to write this as feedback, hopefully you agree and find a way to maybe improve it! (or will this be explained in the future? in that case, never mind any of this)",True
+@inv1siblecat,2020-05-16T19:07:47Z,2,the 3 people who disliked this video need mental help,True
+@mousamohammed255,2020-05-16T17:19:39Z,0,Very grateful to you for the valuable information you provide on this course,True
+@bossgd100,2020-05-16T16:25:59Z,0,Thank for these clear explanation,True
+@charliechueng8549,2020-05-16T15:52:02Z,0,"no module named 'nnfs' how to fix that? I used pip3 search nnfs, and it is installed, I am using Vscode run without debugging to run this py file",True
+@dantedt3931,2020-05-16T14:50:31Z,0,i could hang with this dude.Truly nice work.,True
+@meapjuice,2020-05-16T13:32:34Z,0,"I was wondering in the previous videos about whether you could improve neural networks by using nonlinear equations, such as derivatives or integrals, but the usage of Rectified Linear activation makes way more sense from a processing standpoint! Very interesting video series, I'm very excited to see more :)   - a bored uni student",True
+@YazeedAlKhalaf,2020-05-16T12:54:27Z,0,You are the best 👌👌👌🎉🎉🎉🎉,True
+@anandnataraj6599,2020-05-16T12:13:27Z,1,"We know that the output of relu is always positive, but how could it output the negative values of the sine wave as shown?",True
+@vikaskhugshal50,2020-05-16T10:59:31Z,0,This video is the best video so far on Neural Networks......,True
+@Fruchtkotzekiddy,2020-05-16T09:43:38Z,1,"Layer_dense(2,n) how do you define how many neurons (n) you need per layer?",True
+@Fruchtkotzekiddy,2020-05-16T09:33:47Z,0,the illustrations are amazing!,True
+@YaINNNNN,2020-05-16T08:10:43Z,0,"Hi Sentdex, I'm sorry to bother you, but I'm currently trying to follow your tutorial in kotlin. I'm currently stuck at the create_data function particularly the sin(t*2.5) and cos(t*2.5). what does python do in that specefic place? since t is an array that is multiplied by 2.5, so the sin/cos function takes an array? but how does it handle it? Would be glad if you could help me out here :)  I haven't contributed my work to your github, since I'm not the best programmer, sorry :)",True
+@ravitanwar9537,2020-05-16T06:57:06Z,0,this series should be made into a movie n then given an oscar,True
+@TrevorTheITGuy,2020-05-16T00:03:16Z,1,"alright, gotta go back and watch the last two this one spun me around :)",True
+@patrickjdarrow,2020-05-15T23:05:40Z,4,"Dude. Having been here for the last 5ish years, it's awesome to see how far your production level has come. Always good content, now shinier. Would love to see a video on how the videos themselves are made.",True
+@Nightmare-or2yd,2020-05-15T22:38:22Z,0,"I found that pylint is unable to import nnfs as of 5/15/20, is that a problem on my end?",True
+@ahmadtarawneh2990,2020-05-15T21:38:11Z,0,"Very nice and clear, thank you very much! I enjoy watching your videos more than enjoying a summer vacation :)",True
+@shauryapatel8372,2020-05-15T19:34:43Z,0,"forget about the 10 dislikes in part 3, this has 2",True
+@lucascerro8189,2020-05-15T19:26:46Z,0,Alway great to see these come out! So helpful! For your next Q&A: what in your opinion is the current state of AI + investing? What do you think is a reasonable return for someone who dedicates themselves to this? Is it profitable/viable to earn some money selling/renting algos?,True
+@llJoDall,2020-05-15T18:58:04Z,0,How many hours did it take you to make this video? Thanks a lot :),True
+@alexanderpoth9995,2020-05-15T18:42:15Z,0,"Kudos for explaining the non-linearity of (non-linear) activation functions without any math involved. The visualization of the effects of multiple ReLUs working together was very worth the wait. ;)  Am I correct to assume that any function produced by any given number of however densly connected neurons will always essentially be a step wise linear function as well? Considering the animation of the fit of the sine curve, it seems to me that those where just (very) small linear pieces ""glued"" together.",True
+@JerkyMcBeef,2020-05-15T18:12:26Z,0,Great video! Great series!  Can someone tell me how to get the [Finished in ...] output instead of the exit code? I browsed through the settings of PyCharm but couldn't find it.,True
+@alicemystery5520,2020-05-15T18:02:44Z,0,"Xomg, that was impressive as always sentdex ! The visuals are a big help. Thanks for all of your tutorials. Naturally, I will buy the book to show my appreciation and continue on as this channel has become the edge of what you can do with python.",True
+@python1108,2020-05-15T17:13:49Z,0,Damn! How do you simplify things! Never in my life seen a series that made me understand neural networks. Hats off!!,True
+@AlePazzaglia,2020-05-15T16:49:26Z,0,Why are there are 6 sets of values  in the printed output if we are using a layer of 5 neurons? And why is the first line always a zero vector?,True
+@iAmTheSquidThing,2020-05-15T16:15:37Z,2,Watching you hand-tune the weights and biases really helped me understand what a neural network is actually doing. Along with this video by Sebastian Lague: https://youtu.be/bVQUSndDllU,True
+@iAmTheSquidThing,2020-05-15T16:08:37Z,0,Okay. You've convinced me. I'm buying your book.,True
+@tuhinmukherjee8141,2020-05-15T15:43:40Z,939,Bro the effort he puts in to make us understand this stuff is highly admirable. Thanks for doing this man. Will be waiting for pt. 6,True
+@Sionlockett,2020-05-15T15:23:13Z,0,Wow now my neurons understand those neurons.,True
+@bas_kar_na_yar,2020-05-15T15:22:09Z,2,"I see a ship sailing off to a new world which I'd love to be a part of. Just preordered the book, because I know it will be worth it",True
+@Sionlockett,2020-05-15T15:20:21Z,1,"Those 3blue1brown api animations are amazing. MASSIVE production value. That really helped me understand this video to another level, thanks.",True
+@NikhilSinghNeil,2020-05-15T14:12:39Z,1,finally a video giving a clear insight of an activation function.  This is by far the best explanation of activation function I've come across. Really appreciate your work behind this series and getting into the crux of these topics.,True
+@thetdg,2020-05-15T13:27:23Z,0,This is incredible!!!,True
+@johannesraspe9699,2020-05-15T13:15:01Z,0,"I have trouble installing the nnfs package.  I did the pip install in the Anaconda prompt shell (I use spyder of the Anaconda enviroment), but when I try to import it, I get ""ModuleNotFoundError: No module named 'nnfs'"". Can anybody help me?",True
+@serix_16,2020-05-15T13:05:19Z,0,"These videos are gold. Seriously I can't thank you enough! I really want to buy the e-book version of this amazing book and also join your channel but unfortunately, I live in a sanctioned country and every international transaction is blocked... Thank you again and keep up the good work!",True
+@Carbon-XII,2020-05-15T12:18:22Z,1,Great visualization and nnfs module.,True
+@mmrsagar,2020-05-15T11:20:10Z,0,"Best tutorial Visually, Verbally, Programmably and  Conceptually. Thanks for enlightening us sentdex.",True
+@danielhadzic551,2020-05-15T11:17:32Z,0,"Hey @sentdex, I love you vids. Your level of explanation is soo goood. Is there a way to order your book without a credit-card but with Ideal for example?",True
+@HarshithMK,2020-05-15T10:58:05Z,2,Loving the series so far! All I do is wait for the next video to come out...,True
+@usamanadeem7974,2020-05-15T10:50:50Z,0,"I had just opened up two tabs, netflix and youtube. Ya'll can probably guess which one I chose. Thank you for your tireless efforts Sentdex <3",True
+@heyrmi,2020-05-15T09:32:02Z,26,There has to be a place like heaven inside heaven for you.,True
+@satyaswaroop5984,2020-05-15T09:27:27Z,0,I wanna test those data,True
+@satyaswaroop5984,2020-05-15T09:26:20Z,0,"Could you plz upload the bci/eeg dataset(alpha,theta) in github for my request,the eeg, I didn't had one, so, plz",True
+@Hunar1997,2020-05-15T08:23:52Z,16,"Next course, deep q-learning from scratch XD",True
+@st00ch,2020-05-15T07:52:35Z,0,Where does one go to purchase their own Daniel Optimizer?,True
+@BB-sd6sm,2020-05-15T07:00:34Z,0,This is the best video explanation I have ever seen on activation functions. Bravo,True
+@mucahittezcan4121,2020-05-15T06:33:53Z,0,"40 minutes = np.maximum(0, input)",True
+@userre85,2020-05-15T06:11:48Z,0,Harrison you're as awesome as your tutorials and animations,True
+@shrikantnarayankar4778,2020-05-15T05:16:34Z,0,I m smoking ur videos... instead of weed...,True
+@ishanjoshi9943,2020-05-15T04:37:04Z,0,"Hey there! Love your videos! After the basics, will you apply the neural network to make a chatbot from scratch?",True
+@trophieboi1820,2020-05-15T01:53:58Z,0,Damn its getting curvy.,True
+@abdeenmohamed7002,2020-05-15T01:24:38Z,0,"I really hope you come across this comment, not the place to post but your help would be amazing.  About 4-5 years I began my coding career and learn my first language (python) from you. Words can’t describe how I appreciate you and your work. Thank you so much.  Currently I picked up an interest in trading and wanted to build a serious bot for trading, I have the knowledge to program one but I lack the understanding of trading, so I was wondering if you can guide to any source that would give me an understanding of trading, I understand it isn’t your forte but you have considerable knowledge in the matter, maybe tip me to channel? I have been searching but none of what I find seem genuine. Again thank you so much for the years of great content, god bless.",True
+@kotnikrishnachaitanya,2020-05-15T00:51:05Z,0,How to create our own pip folder Like the one that you did?,True
+@nishantsvnit,2020-05-14T23:48:31Z,61,18:17 Seeing the neurons fire when activated and die when deactivated really helped to see what really goes under the hood of a neural network. Thanks for this really helpful animation and the whole nnfs initiative as a whole.,True
+@davidg421,2020-05-14T23:39:38Z,0,"you are a fucking legend, this will be hands down the best NN course out there",True
+@robertotomas,2020-05-14T22:58:22Z,0,"I kinda missed the reason why the second layer bias adjusted vertically instead of horizontally.  Like, one of the things I would hope to know as a consequence is, what would happen with biases on teritary layers?",True
+@lautarodapin,2020-05-14T22:20:35Z,0,Is the image in mirror or sentex use the mouse with the left hand?,True
+@splch,2020-05-14T21:24:58Z,30,what optimizer do u use? noob: ADAM intellectual: Daniel,True
+@poseauto,2020-05-14T21:11:33Z,1,"like before watch, thank you",True
+@tianmaru3573,2020-05-14T20:49:47Z,0,"Although it has been already mentioned several times, I have to point it out again: This animations and visualizations are incredibly good and really help to understand what's going on.",True
+@HJ-jr7zd,2020-05-14T20:29:57Z,0,"Finally, it arrived. Thanks, Master sentdex",True
+@user-ns8dl3vm5z,2020-05-14T20:19:57Z,2,"its like my favorite TV series uploaded new episode, this gonna be wild as always thank u & Daniel  :)",True
+@pramitchaudhury1821,2020-05-14T20:16:16Z,0,Awesome work bro thanks for such quality content,True
+@morthim,2020-05-14T20:08:14Z,0,your content is some of the best i've seen on the topic. i'm probably going to buy one of the options. are you going to add an option to upgrade from ebook to hardcover if done before you finish the book?,True
+@morthim,2020-05-14T20:05:20Z,0,"why would we have a null section of the function? the activation functions are ___/ but when you get beyond some arbitrary domain the function stops being used. so why have the flat part of the line? why have part of the activation function be not activated? why not just have ""from domain point x1 to domain point x2; y1 =initial height,y2 = domain finishing height""   another related thing which confuses me is that your criticism of the best fit line for your sin wave is why overfitting can occur. why isn't there a gradient of fits? the 2 point fit is that ""bad"" one. if you add 2 more points, you can have the x min, x max, and y min, and y max; that would create an approximation which is sometimes called a triangle curve or triangle wave form. yes you can approximate the waveform better through a RELU, but you can get a very similar derivative function with far fewer fitting points, by focusing on topological traits like minimums and maximums. yes you would need to do something different a bit if you were trying to approximate area under the curve. but tessellation itself could be done by factoring out functions. let's say you want to fit lines to the function, and you have data which falls outside of the lines, but by eyeball you know it could still be under the real function. you find the place where teh r^2 value is most off, then offset the best fit function. this gives a metadomain. factor out the original function and you get a -x^2 function. create another triangle approximation, see if it is inside, and do the offset again if not. repeat until determined to satisfaction. over fitting is still possible, but by spreading fit across layers it becomes harder to accidentally do. also if you don't need intermediate spaces, you reduce the additional cost of fit from some sort of a math thing, to n FLOPs- with n being the number of dimensions of the dataset.",True
+@gamalaburdene5243,2020-05-14T19:36:29Z,3,"I never comment on videos, but I've been following sentdex for the last couple of years and this is amazing. Please keep up the good work, thank you for teaching me so so many things.",True
+@wktodd,2020-05-14T19:08:29Z,1,"Great stuff:-) following along nicely . The animations help enormously, thanks for all your efforts",True
+@henbomb9826,2020-05-14T19:08:04Z,0,Learning a lot more with this than paid courses! Keep it up! ❤️,True
+@ekremdincel1505,2020-05-14T19:05:39Z,0,Why no subtitles?,True
+@radhikasoni8105,2020-05-14T18:18:25Z,0,Best explanation !!👏,True
+@baqerghezi1342,2020-05-14T18:16:48Z,0,What about tanh activation? where do we use it?,True
+@sebastiansilvera,2020-05-14T18:11:10Z,0,"You said the book is much further than the videos, but I have pre ordered the book and it doesnt appear to be as far as you say it is. is there something I am missing? the google groups of the draft only goes up to chapter 5.  Thanks for the awsome video btw",True
+@radhamanohar4540,2020-05-14T18:10:10Z,0,"Thank you so much for giving this content for free, I'm greatly thankful to you 👌👌👌",True
+@cyn1cal384,2020-05-14T18:08:29Z,0,got nothing from 30:00 to 33:00,True
+@harshitdamani101,2020-05-14T18:07:03Z,0,"Hi, just wanted to say thank you :)  This channel and these videos are what led me to start my neural network journey.  Edit: Great tutorial Harrison! Will we also be looking at leaky ReLU in the next tutorial as well? Thanks again !",True
+,2020-05-14T17:45:24Z,1,"Some combination of step functions would also be able to aproximate any function, and relu works because actually we are adding many relu-s that are tweaked by some constants..",True
+@g.e8042,2020-05-14T17:44:03Z,0,WIthout words here,True
+@pralabhsaxena1186,2020-05-14T17:15:52Z,0,How can I install nnfs on anaconda prompt?,True
+@nano7586,2020-05-14T17:07:59Z,0,I love you,True
+@shubhamsachdeva7141,2020-05-14T16:55:42Z,0,Worth the wait.,True
+@gardedesombres3254,2020-05-14T16:51:24Z,0,Thanks a lot man i really appreciate u .,True
+@abhijeetsingh9015,2020-05-14T16:47:13Z,0,Thanks bro,True
+@robertschumann6977,2020-05-14T16:45:59Z,2,Why does the weight changes the activation function? Wouldn‘t the output be zero when having a negativ weight and a relu as an activation function? (Assuming the input is positive),True
+@bennygrey1682,2020-05-14T16:41:06Z,0,@sentdex How many parts do you estimate this series will be?,True
+@Locke19901,2020-05-14T16:30:37Z,1,"Totally amazing content, thank you Harrison!",True
+@heyoufellow,2020-05-14T16:29:07Z,0,I can't wait now for backpropagation. If I save&earn enough moeny through holidays I will order your book,True
+@computerscienceandengineer8519,2020-05-14T16:21:06Z,0,I've uploaded first video of this series in my channel and I am asking sorry for that.,True
+@bamitsmanas,2020-05-14T15:54:38Z,5,Its wonderful what you're doing! Im just loving the in-depth knowledge of this course. Although I'm in high school I'm not finding it difficult to catch on!!👍👍,True
+@williamflores7323,2020-05-14T15:51:08Z,1,"I've been waiting for this moment for all my week, oh Lord",True
+@isammmdli4967,2020-05-14T15:44:26Z,0,How many videos will there be for this series? Was it told before?,True
+@tanishqvyas8387,2020-05-14T15:44:19Z,2,I've learnt more python from your channel than any other resource out there,True
+@RoughlyAverage,2020-05-14T15:43:54Z,52,"I really struggled with the explanation on feature sets / features / samples / classes, I definitely don't think I fully get it (first time that has happened in this series so far!) The animation you mentioned would for sure help!",True
+@tanishqvyas8387,2020-05-14T15:43:09Z,0,"Really looking forward to the next video. Please keep making videos for this series covering each and every topic in the field of neural networks. I wish there was a certification course from the side of sentdex which we could take up, learn, write exam and get certified",True
+@Jakub1989YTb,2020-05-14T15:41:36Z,0,"Knowing ""why"" the neural network decided imo totally busts it's usage in the first place. I think that is the true meaning of her existence. It needs to be well trained and then fed proper data, sure.  I know it's harsh, but when for example, the NN decides someone isn't eligible for a loan, it does so by analyzing many inputs and by being trained on previous examples. It there is a human at the end to ""verify"" and possibly veto the descision, there is no need for the NN in the first place. At this moment, after the implementation of NN to the deciding process, I think we should just trust her. And sure, it will some times make unpopular descisions, but they will be unbiased. You can't bribe her, you can't try to convince her.. and it will get increasingly smarter.",True
+@jordanbarnes1870,2020-05-14T15:40:45Z,0,"Only question I've had since last video is why is this  self.biases = np.zeros((1, n_neurons)) <<<   double parenthesized ?   This is by far your best tutorial to date, very in-depth and easy to follow.  Thank you so much @sentdex",True
+@rog0079,2020-05-14T15:39:28Z,0,i feel like giving all the likes in the world to these excellent videos and ofcourse you :'D,True
+@davidgomez79,2020-05-14T15:31:40Z,5,at 25:10 When I code in python and I'm under 80 characters for my line of code.  I rename my variables extra long just to end up at 82  characters to trigger the pep8 lovers.  I hate pep8,True
+@priyanshudas2033,2020-05-14T15:22:32Z,0,Awesome video sir. The most in-depth analysis of activation functions and neural networks ever. And the 'Daniel Optimizer' is the best optimizer.,True
+@shrideepgaddad8721,2020-05-14T15:12:30Z,16,"Hi, I noticed that you did not paste the code for generating a dataset in the description. Also thanks for the new video!",True
+@camilledevalk,2020-05-14T15:04:25Z,0,"Hi Harrison, Just wanted to say that I love this series! Your explanation of the ReLU really helped me with the understanding of how neural networks are able to model non linearity. I do have a question, I feel like I should follow along somehow, but I don't feel like just copying code. Any advise on how to make this 'my own'? I would love to hear some challenges at the end of the video like 'now that you've learned x, try doing y yourself'.  Anyway, love the series! Looking forward to the next episodes.",True
+@aameen951,2020-05-14T14:58:49Z,0,This is the best NN video I've ever seen!!! Thanks ❤❤🌹🌹,True
+@harishjangid3216,2020-05-14T14:55:54Z,0,Complexity in simple words. Great work keep doing 👍,True
+@abishekkumar316,2020-05-14T14:45:16Z,0,So the wait is finally over,True
+@jesusambriz2160,2020-05-14T14:42:12Z,0,What software is he using to do animations?? @sentdex,True
+@DoomSkullYT,2020-05-14T14:40:15Z,0,"I haven't finished reading the book, so if you've done this then dw, but if not, would you possibly give examples of how you'd go about constructing a neural network for different various purposes, and if there are any specific purposes that require something very specific in the network? idk how much that made sense, but basically how should we go about making a network for something other than the spiral or server failure",True
+@Alfosan2010,2020-05-14T14:40:06Z,0,"Last time I was this early, Pascal was an important programing language.",True
+@ThomasSanjurjo,2020-05-14T14:36:11Z,0,"The offset neuron in your Daniel algorithm only activates on the Y. Why isn't it double activated the whole time, is it just because of the fact that it offsets along the y?",True
+@vishcorpgames9471,2020-05-14T14:35:36Z,0,"You Sir Are ""The Chosen One""!",True
+@sachinsinkar7,2020-05-14T14:31:12Z,0,Building Neural Networks is cakewalk and it's just proved by Sentdex. Thank you Sir..,True
+@nivrak5411,2020-05-14T14:30:23Z,14,Me: Sees new video by sentdex about neural networks Hand: Invents FTL Travel to click the video,True
+@jordanbarnes1870,2020-05-14T14:28:12Z,1,Yessssss been waiting for nearly 2 weeks I can't wait,True
+@yoghiburnama2991,2020-05-14T14:26:00Z,0,finally after waiting for one week,True
+@abdulhasibuddin3317,2020-05-14T14:25:38Z,0,"Love your tutorials, brother Harrison, Thank You!",True
+@heyhey8167,2020-05-14T14:24:48Z,0,Thanks for the video. How long do you think will this series be approximately?,True
+@martineseverri5160,2020-05-14T14:24:27Z,0,I’m pumped !,True
+@dhruvdwivedy4192,2020-05-14T14:24:21Z,1,"Thanks for this wonderful explanation,❤️  Daniel is really cool man😁 Daniel Optimizer ❤️😁 I have one question at 18:34 as we are using 8 neurones here, what if the neurones are not sufficient to fit in the graph, like in this sin graph if we use 4 neurones it's not totally fit like it's fit by using 8 neurones, so how did we know that this much of neurones is enough ??  Thanks in advance.  ❤️",True
+@adempc,2020-05-14T14:21:31Z,0,Thanks -,True
+@DeepakKumar-uz4xy,2020-05-14T14:21:17Z,0,Thanks....,True
+@Ronobuildstech,2020-05-14T14:20:36Z,0,cool ending...,True
+@gautamj7450,2020-05-14T14:19:53Z,1,"One of the best videos explaining Activation Functions! Just too good! 😍  EDIT: Let's say there's a function y = x^2 (A simple parabola). That function is a curve, by its very own nature. Using ReLU activation function, we kinda take advantage of the fact that all curves are made up of (many) straight lines, having different slope and y-intercept. Thus we try to fit in the curve, using those straight lines.  Is this a plausible explaination?",True
+@PeterfoxUwU,2020-05-14T14:18:56Z,0,finally :O,True
+@iNSane4224,2020-05-14T14:18:50Z,0,FINALLY !!!!,True
+@srikarraoayilneni7074,2020-05-14T14:12:32Z,7,"Well, that's a long wait. Honestly I'll wait forever. 😂😂 But here it is, finally.♥️",True
+@wthoutanymmries,2020-05-14T14:08:22Z,0,Oh hell yeah I was thinking recently whether I need to build a pc and I'm definitely going to Especially now that I decided my diploma will be on language processing Your videos help so much,True
+@sahaaritra,2020-05-14T14:08:09Z,0,Thanks! 🤩,True
+@sayakbanerjee7214,2020-05-14T14:07:29Z,1,Had been waiting for this for nearly 2 weeks now.... Thank you @sentdex.... ❤️,True
+@justinnguyen8924,2020-05-14T14:05:25Z,0,Another great video!,True
+@tangducbao7309,2020-05-14T14:04:07Z,1,"It's nice to see you, again 😁",True
+@AshrafVideos,2020-05-14T14:03:58Z,0,Thanks,True
+@subhammishra5445,2020-05-14T14:03:22Z,0,Oh dude.. had been waiting for a few days now.. was hoping it would come out from May 8th,True
+@ryanp6267,2020-05-14T14:01:38Z,0,Yes!,True
+@tejas_yt,2020-05-14T14:00:36Z,1,I am 404th person to watchthis video🤣🤣🤣,True
+@nernaykumar8334,2020-05-14T14:00:07Z,1,Finally uploaded 🙌,True
+@karanmishra8192,2020-05-14T13:59:34Z,0,"Your videos are always helpful for me in learning neural networks, easily explained.....great video as always",True
+@haztec.,2020-05-14T13:58:12Z,5,Neu - ral - net. It's in the brain.,True
+@pravarsharma,2020-05-14T13:57:26Z,0,"Wait is over,  new release is here 👉",True
+@CrazyGamer261,2020-05-14T13:56:02Z,0,amazing man thanks been waiting 👍🙏,True
+@nwenwehtaywin,2020-05-14T13:55:39Z,0,thanks so much for the videos. I keep doing your tuttorials and please also make some videos about running machine learning problems on cloud because most works demand such kind of skills. thanks you,True
+@shobhitbishop,2020-05-14T13:55:32Z,0,"Hi Harrison, Just wanted to thank you for this awesome series on NN, it really helps me alot in understanding things clearly from the scratch. You have built a confidence in me that yes I can also learn this complex topic! Thank you 😊",True
+@commitmaster4543,2020-05-14T13:54:48Z,2,Where are new mugs at? 🤔,True
+@kimneena3448,2020-05-14T13:54:46Z,1,Hey I want to ask you some doubts please tell,True
+@decodedbunny101,2020-05-14T13:54:46Z,2,"I need to learn more python , can you help me?  Also this",True
+@cisienx9764,2020-05-14T13:54:22Z,0,i was waiting for this sooo long ♥️thanks for making these videos,True
+@IsfhanAhmed,2020-05-14T13:54:22Z,0,Thanks master,True
+@parasjain3211,2020-05-14T13:54:14Z,30,This week was the hardest to pass of this quarantine! Please don't make us wait so long 🙏🏻🙏🏻🥺🥺,True
+@vedangpingle1914,2020-05-14T13:54:05Z,125,40 mins ! Oh boy this is gonna be good,True
+@omri1984,2020-05-14T13:53:50Z,1,Liking before watching. Keep up the great work.,True
+@khalid11221122,2020-05-14T13:53:29Z,0,"You are a star, hello from Scotland. Needed to learn more about activation function.",True
+@dabspace5541,2020-05-14T13:53:04Z,0,Thx a lot,True
+@reyboyvideogames,2020-05-14T04:25:25Z,0,POGU,True
+@Stinosko,2020-05-13T20:54:49Z,1,👋,True
+@HT79,2020-05-13T20:53:22Z,1,"38:05 Printing it out isn't a good option as the data we would be working on can get huge and mess up the stdout. So, rather print out the mean of np array and check if it's equal to zero. That way we could even automate the changing of biases (if we follow that method).",True
+,2020-05-13T19:57:23Z,104,Is there any paper for this optimizer? I've never heard of one before. How does it work?,True
+@HT79,2020-05-13T19:48:04Z,4,Finally! First view and first comment 😍,True

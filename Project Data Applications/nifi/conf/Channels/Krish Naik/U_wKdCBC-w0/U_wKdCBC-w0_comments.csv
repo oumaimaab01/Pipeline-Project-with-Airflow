@@ -1,0 +1,45 @@
+author,updated_at,like_count,text,public
+@wajdilas,2023-08-02T11:50:55Z,0,Thank you so much Krish for such an informative lecture. God bless you dear.,True
+@junaidlatif2881,2022-12-05T07:44:32Z,0,Scale / transform depended variable then train models. After plotting prediction vs actual values it doesn't show right values.,True
+@beautyisinmind2163,2022-08-17T12:41:44Z,0,don't we have to check p value?,True
+@ishantyagi2701,2022-04-04T12:06:04Z,0,is it necessary for all features to be normally distributed if iam using classification algos,True
+@amitbudhiraja7498,2021-12-26T12:58:55Z,0,"I have a doubt like what is the optimal method to do remove the outliers  [Z-score , IQR method] or use transformation methods like log normal or inverse  Can someone tell ?",True
+@chayanmehrotra2112,2021-11-15T04:10:37Z,1,"Hi Krish,  How to reverse transform the transformed variable after doing prediction to come out with the actual predicted number. I am having problems in a project. Please help",True
+@soroushjafari3660,2021-10-29T16:10:23Z,0,;D,True
+@vigneshg1074,2021-09-16T08:28:35Z,0,"Sir, shouldn't the outlier treatment be done before this step?",True
+@yasheshgupta5102,2021-07-31T08:24:02Z,0,good video sir,True
+@abhinavraghunandankannan3546,2021-06-03T05:38:39Z,0,"The features(regressors) do not have to normally distributed. If there is heterosceadasity in the residuals, it's like that the model is underspecified and transformation of variables is one of the techniques used to eliminate it.",True
+@lakshitakamboj198,2021-05-30T10:12:40Z,0,Hi krish. I think that logistic regression does not assume the variables to be normally distributed? Can you throw a light on this?,True
+@dhwanilgandhi8796,2021-04-04T00:52:25Z,0,what to do with categorical value? how to transform them?,True
+@pepetisiddhardha9848,2021-04-01T02:27:03Z,1,point to take away is only linear&logistic regression assume data to be gaussian distributed,True
+@7justfun,2021-03-23T11:08:02Z,0,"Great job mate, quick q, As far as I know , linear regression does not really assume the need for feature normality. Can you point to source from any literature ?",True
+@cysrygs8990,2021-03-11T19:30:58Z,0,Your voice is rustling at the most important parts.,True
+@pythongui5199,2021-03-03T18:00:00Z,0,great,True
+@NeeRaja_Sweet_Home,2021-01-13T01:03:51Z,0,"In this case we have only 2 features., suppose we have 200 features then for each feature we have to check weather its Gaussian distributed or not....?  and apply transformation",True
+@faizsami5047,2021-01-06T11:44:31Z,0,Sir what if I convert all my feature to gaussian for model linear reg.,True
+@omkarsunthankar2061,2020-11-16T23:30:54Z,0,Amazing video  but the fare is right skewed .,True
+@manishgaurav84,2020-10-27T07:49:21Z,0,"The assumption of linearity, implies that, regression must be linear in the coefficients and not the independent variables. Eg, we can have  regression equation like , y = m1X1 + m2 X2 ^ 2 + c. This means  y is linearly related to m1, m2. but not with X1, X2 etc.  We cannot have equations like  y = m1^2X1 + m2^2X2.... So point No.1 mentioned in the video is incorrect.",True
+@PRO_PRASHANT,2020-10-21T18:45:10Z,1,"""fare data is left skewed""... ???? It's right skewed buddy..",True
+@amibolche,2020-10-07T04:57:28Z,0,"Once you apply transformation, do we need to drop the original feature, and then use the dataset for model prediction?",True
+@shobithas8269,2020-09-27T11:45:56Z,1,should i always transform non-normal independent variables? Transforming the variables seems to be changing the interpretation of the variables itself. In that how do I handle the outliers in independent variables? Can I go for outliers trimming and capping then? Can I leave the independent variables sknewness as it is.?kindly advice.,True
+@anamitrasingha6362,2020-09-17T10:19:11Z,0,"Can we do a transformation on a feature more than once? Like first we do a exponential transformation and then do a logarithmic transformation, or something on these lines of thinking?",True
+@taif3157,2020-09-05T16:49:06Z,0,why do we convert our data to be normally distributed ? what is the point ?,True
+@mausamrajbanshi3192,2020-08-29T04:01:40Z,0,Thanks for your effort. But after applying exponential transformation I should hav used Exp_Fare column for QQ plot,True
+@apoorvagupta4108,2020-08-17T18:47:06Z,0,"Sir, if we have n independent variables in the dataset then we have to check the linear relationship of every independent variable and if the relationship is not linear then we have to transform them???",True
+@shreyasb.s3819,2020-08-11T03:29:26Z,0,Thanks for nice video. I have one suggestion pls use feature-engine library for missing value imputation. Simply don't use that much manual code.,True
+@ganeshnvsnm,2020-08-06T09:05:34Z,1,"It's really the best explanation you have provided. I appreciate it. By the way, there is a mistake at time stamp  20:39. You have plotted square root fare again instead of Exponential fare.",True
+@thedataguyfromB,2020-07-28T12:54:25Z,1,Really amazing video  Thank you so much sir Explained beautifully,True
+@mangeshingle2825,2020-06-21T11:28:23Z,0,https://pypi.org/project/fitter/  Python package to understand the underlying distribution and apply transformation if necessary.,True
+@phanindratangirala7812,2020-06-16T13:56:45Z,3,Sir...after transforming the data into Gaussian distribution also should we need to perform feature scaling like min-max scalar or standard scalar...?? or can we perform any one among  (Gaussian Transformation (or) Feature Scaling) on a particular feature..??,True
+@kirangeorge7659,2020-04-28T15:43:25Z,0,Does a Gaussian distribution affect the accuracy of OLS Linear regression or is it applicable only for gradient descent linear regression?,True
+@madanmohan6487,2020-04-10T11:15:15Z,0,"Hi sir , please make a video for Gaussian Mixture Model for filling the missing data.",True
+@anandacharya9919,2020-04-10T11:10:19Z,1,"Super video, if its be in Hindi, it will be more good",True
+@raneshmitra8156,2020-04-09T19:40:46Z,1,Please make a separate video on Box Cox Transformation.....,True
+@pranavmittal7251,2020-04-09T17:41:56Z,1,Thanks Krish for your amazing videos. I have learned a lot from you. One more very good transformation is Yeo- Johnson which is the advanced version of boxcox.,True
+@saswatpriyabrat,2020-04-09T17:41:03Z,1,Great Job Sir.Such a well Explained Video. But I am not able to get that Imputation technique.If Possible plz explain that part.,True
+@anandhuded3647,2020-04-09T16:16:48Z,2,Heartly thanking you so much Sir for your efforts.,True
+@mahadevkandalkar1090,2020-04-09T15:52:24Z,10,In exponential distribution case why you didn't use exp_fare variable in diagnostic.plot (you took sqr_fare for the same.),True
+@farazahmed1668,2020-04-09T15:41:55Z,1,Sir please make a video on Teachable Machine.,True
+@utsavgupta5263,2020-04-09T15:19:58Z,1,Thank you sir.🙏🙏,True
+@shantanudolui1774,2020-04-09T15:18:22Z,2,It is great having you as a digital mentor in this QUARANTINE Great job 👍,True
+@Trouble.drouble,2020-04-09T15:17:30Z,1,"Hi sir , thanks for great videos, please upload nlp playlist please, first like sir",True

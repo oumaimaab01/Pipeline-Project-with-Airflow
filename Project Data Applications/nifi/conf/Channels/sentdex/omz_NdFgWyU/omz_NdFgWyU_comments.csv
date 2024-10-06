@@ -1,0 +1,313 @@
+author,updated_at,like_count,text,public
+@MartinPHellwig,2020-12-18T15:14:34Z,204,"Received the hardback version of your book three days ago and I am very pleased with the print quality, it is also a rather hefty book, I am so glad I pre-ordered it. If there is anyone reading my comment and wondering if it's worth to buy the book, then just stop wondering and buy it! Greatly recommended!",True
+@dillonaux,2024-05-26T20:55:30Z,0,Just bought hardcover. You're a legend for these videos 🫡,True
+@user-uf9zl8dj9o,2024-05-24T14:51:55Z,0,Looks like I can't order the book. Why?,True
+@visalinikumaraswamy6431,2024-05-20T05:11:55Z,0,Never felt softmax fn being explained this so easily! Thanks sentdex,True
+@lathryx,2024-05-18T01:42:13Z,0,Why are we making individual classes for the different activation functions? Shouldn't these just be methods of the layers which have them?,True
+@geraldamasi1559,2024-05-03T12:51:29Z,0,"In this video Softmax Activation Function, I only hear you talking about relu activation function while i haven't seen it since the beginning.",True
+@uoiytrw_uoi,2024-05-03T10:16:52Z,0,15:14,True
+@emmang2010,2024-04-16T01:51:50Z,0,Thank you,True
+@swifteducationpro,2024-04-03T06:41:25Z,1,"I am new here and new to using Python. ModuelNotFoundError, (no nnfs) module with this code. How do I solve it? import numpy as np import nnfs from nnfs.datasets import spiral_data  nnfs.init()  class Layer_Dense:     def __init__(self, n_inputs, n_neurons):         self.weights = 0.1*np.random.randn(n_inputs, n_neurons)         self.biases=np.zeros((1, n_neurons))     def forward (self, inputs):         self.output = np.dot(inputs, self.weights) + self.biases  class Activation_ReLU:     def forward(self, inputs):         self.output=np.maximum(0,inputs)          class Activation_Softmax:     def forward(self, inputs):         exp_values = np.exp(inputs-np.max(inputs, axis=1, keepdims=True))         probabilities = exp_values/np.sum(exp_values, axis = 1, keepdims=True)         self,output = probabilities  X,y = spiral_data(samples = 100, classes = 3)  dense1 = Layer_Dense(2,3) activation1 = Activation_RelU()  dense2 = Layer_Dense(3,3) activation2 = Activation_Softmax()  dense1.forward(X) activation1.forward(dense1.output)  dense2.forward(activation1.output) activation2.forward(dense2.output)  print(activation2.output[:5])",True
+@timucinbahsi445,2024-03-29T19:45:54Z,0,"That activation softmax could be responsible for network death. subtracting the largest value from the rest of the set indeed prevents an overflow, but the very small negative numbers on the other end can have a similar effect, rendering the normalized values to get very close to zero.  i would divide the items by the largest absolute value in the set so that i have numbers between -1 and 1. you won't event need the exponention. add 1 divide by 2 and you have your normalized numbers.  anyway. this approach is probably either already known or has a flaw i can't see",True
+@MehrtaEslami,2024-03-03T12:25:36Z,0,"believe me or not , maybe you don't see this comment at all but you made the world sweet for me :)))",True
+@rishitchakraborty1845,2024-02-25T07:19:13Z,0,"The norm value should return a probability range type thing right, but at 22:42 the values are not less than 1.........i dunno if its still active in here.....",True
+@aryamankhandelwal7503,2024-02-24T14:39:14Z,0,You are awesome!!!!,True
+@__SKYNET__,2024-01-26T11:13:53Z,0,"Keep getting a Exception has occurred: TypeError loop of ufunc does not support argument 0 of type list which has no callable exp method Can't get past it, googled everywhere and modified to try to fix",True
+@leedean1696,2024-01-24T15:46:46Z,0,"When I included ""import nnfs"" after keying in ""import math"", ""import numpy as np"", before the subsequent codes, colaboratory show me a ModuleNotFoundError: No module named 'nnfs'. Can someone suggest me something, please? Thanks in advance.",True
+@PROMAN8625,2024-01-08T17:19:43Z,0,"import numpy as np import nnfs nnfs.init() ########################################### # VARIABLES FOR LAYERS num_hidden_layers = 10 hidden_layer_neurons = 10 input_neurons = 784 output_neurons = 10 input_neuron_activation_function = ""tanh"" hidden_neuron_activation_function = ""ReLU"" output_neuron_activation_function = ""SoftMax""  ########################################### # Objects class Layer:     # initialize the layer     def __init__(self, n_inputs, n_neurons):         self.weights = 0.10 * np.random.randn(n_inputs, n_neurons)         self.biases = np.zeros((1, n_neurons))     # Forward feed the layer     def forward(self, inputs, activation_func):         out = np.dot(inputs, self.weights) + self.biases         if activation_func == ""ReLU"":             self.output = np.maximum(0, out)         elif activation_func == ""tanh"":             self.output = np.tanh(out)         elif activation_func == ""SoftMax"":             e_x = np.exp(out)             softmax_probs = e_x / np.sum(e_x, axis=1, keepdims=True)             self.output = np.round(softmax_probs, decimals=10)         else:             self.output = out  ########################################### # Inputs to the network X = np.array([np.random.randn(input_neurons),               np.random.randn(input_neurons)])  ########################################### # init input layer layerI = Layer(n_inputs=input_neurons, n_neurons=hidden_layer_neurons) # init hidden layers layersH = [] i = num_hidden_layers while i > 0:     layersH.append(Layer(n_inputs=hidden_layer_neurons, n_neurons=hidden_layer_neurons))     i = i - 1 # init output layer layerO = Layer(n_inputs=hidden_layer_neurons, n_neurons=output_neurons)  ########################################### # forward input layer layerI.forward(X, activation_func=input_neuron_activation_function) # forward hidden layers prevLayerOut = layerI.output # output of previous layer for layer in layersH:     layer.forward(prevLayerOut, activation_func=hidden_neuron_activation_function) # current layer forward     prevLayerOut = layer.output # update prev layer output # forward output layer layerO.forward(prevLayerOut, activation_func=output_neuron_activation_function)  ########################################### # print the output layer print(layerO.output)",True
+@officialabdulrehman,2023-10-03T17:59:43Z,0,"okay, so finally I feel like it went over my head.  Gonna rewatch.  Previous lectures went smooth.",True
+@omarazhar2749,2023-08-17T14:45:11Z,0,The series is absolutely the great and actually it has made me interested in ML and DL. Understanding the power of maths.  I have a small query in 26:07 we are using np.max and that max function will run each time we do the exponential calculation. Will it not be a better way if we once find the max and keep it in a variable and later use it for all the values..  Also for the smaller value edge case. there has to be a min value for computer like e^(-10000) or something so we can avoid that as well.,True
+@5p0rt5,2023-07-22T22:27:24Z,0,What happens if you have more than two dense layers? Do we keep applying ReLU and Softmax alternatingly or are they applied only to the first two layers? Inquiring minds want to know.,True
+@DM-py7pj,2023-07-02T17:03:53Z,0,during softmax calc is there ever a danger of divide by zero?,True
+@epiccabbage6530,2023-05-23T03:58:31Z,0,"This has been so helpful wow, thank you so much.",True
+@mohamadhamza3577,2023-04-07T12:23:12Z,0,"I don’t actually get it why we have to put ReLU as activation 1 and softmax activation 2 , why we didnt use softmax for both of them or ReLU , why every layer has a different activation function?",True
+@DarckHardStyle,2023-04-04T13:33:55Z,0,"Why dont u put the ebook available on Amazon/Kindle?? I wish i could buy it, but the internacionals transactions plataform doesnt work properly for me in my country, Amazon will made it easier, even if it'll higher cost... Great content.",True
+@thefourthbrotherkaramazov245,2023-03-11T19:40:26Z,0,Softmax equation is wrong,True
+@awoogagoogaloo2889,2023-03-06T16:17:26Z,0,I felt like a smart ass when I figured out why Euler's number is used on my own lol.,True
+@paradajoseluis1,2023-03-01T15:44:41Z,0,"Great serie, just one question. why dont you use softmax in both layers as activations?",True
+@anishkhanal-bs3re,2023-02-12T07:15:43Z,0,it would be alot easier if real data set were used,True
+@dejanmarjanovic210,2023-01-13T21:48:57Z,0,"I find this book very informative and interesting. I do have a problem with: Exception has occurred: ValueError setting an array element with a sequence.     X = (X.reshape(X.shape[0], -1).astype(np.float32) - 127.5) / 127.5 Maybe it's because I'm using the numpy v.1.23.5?",True
+@supravatswain,2023-01-11T05:31:16Z,0,"axis = 0  is for rows and axis=1 is for columns right, so how can you take axis=0 for columns ans axis=1 for rows?",True
+@leonalmeida2411,2023-01-06T21:56:00Z,0,"I can't get to work the nnfs package, can somebody explain it to me please?",True
+@AnselmWiercioch,2023-01-06T20:29:50Z,0,Why do we need to exponentiate? Why not just normalize with the lowest negative being 0 and the highest positive being 1.. Essentially just adding a bias of the lowest negative before normalizing. Seems like the exponent would scale things unfairly?,True
+@kemalware4912,2023-01-02T13:51:27Z,0,GR8 bruh gj,True
+@AbdoAzmy2005,2022-12-25T18:31:06Z,0,"really impressive stuff, keep returning after a year",True
+@KevinGodfrey-he1tt,2022-12-20T12:00:11Z,0,"why would the outputs of the neurons be negative , they are all using Relu's right , meaning none of them will have a negative output",True
+@mark7166,2022-12-20T00:31:16Z,1,"So, in dense1, what considerations would be made for determining the number of neurons?  Why 3 instead of 90, as you mentioned, for example?  Which, I guess, leads to the question of what the outputs of the hidden layers are actually representing.",True
+@Chickengbs,2022-12-19T09:42:19Z,1,"What I'm really failing to comprehend is, is the network the dataset itself, or does it look into a dataset to then find optimal numbers, to then, rebalance the weights and bias'.  If we do the following:    x1 --- > w1 --- > HL: 1 --- > Output. y  At what point do we then update our dataset? How is the neural network looking into the dataset and when does it does this?  much appreciated!",True
+@danielbloom2470,2022-12-17T04:36:27Z,0,damn normies,True
+@nBp4tB12,2022-11-28T14:51:38Z,0,15:00,True
+@enahs6516,2022-11-20T01:05:40Z,0,"14:26 - You don't need to write ""np.sum(exp_values)"". It works to write ""sum(exp_values)""",True
+@gitasaheru2386,2022-10-20T23:56:00Z,0,How to make visualization for loss and acc?,True
+@daniaste,2022-10-08T15:19:34Z,0,"I buyed your book, and it is amazing. This explanation is amazing. So I love you. Thanks",True
+@rayyan21d,2022-10-01T11:52:54Z,0,24:36 I don't understand how the values before and after subtracting the max from input give the same probability distribution. Great series Btw🙌,True
+@utkarshgaikwad2476,2022-09-27T19:11:46Z,0,at 27:26 np.max(inputs) will also give same results because of exponent cancellation,True
+@fridgeron1641,2022-08-16T14:06:26Z,0,12:42 maybe the difference is due to the fact that you are using E = math.e instead of E = 2.71....,True
+@manan2007,2022-08-11T13:39:38Z,0,why not use y = 2**x or y = 3**x instead of y = e**x?,True
+@vladimir3166,2022-08-05T22:06:34Z,0,Thanks a lot for the great content and really helpful tutorials!,True
+@BaoTran-jo8lj,2022-08-01T11:39:05Z,0,"Hi, Can I use this codes for MNIST deep learning from scratch? I can't find such a playlist like this for handwritten digits, please help me. Thank for your excellent work!",True
+@ROHITkumar-os5or,2022-07-19T07:24:04Z,0,love you sir,True
+@blzahz7633,2022-07-18T08:52:37Z,30,"I think one of the most overlooked things about online video learning is that you can pause as much as you like, adjust playback speed, rewind, listen again etc. Just noticed this, if I was to do this in an actual real time lecture I'd probably learn as well. All the discomforts (toilet breaks, hunger), distractions etc can be dealt with immediately and you can resume studying. And I'm not even factoring in all the timing / travelling stuffs that comes with real time lectures",True
+@connorgilbert6422,2022-06-28T00:45:29Z,1,"Hey, maybe I just got lost in the series. But I couldn't find the part where you explained why we are using Euler's number as a base instead of any other number   p.s (I have a basic understanding of Euler's number, natural growth, it's derivative etc) Just can't seem to figure it out for this instance.  Kind regards",True
+@petealwayslovesu,2022-05-20T10:25:46Z,1,it's over -9000,True
+@cassolmedia,2022-05-18T12:24:57Z,0,I've been going through this one video for 3 days lol...  thank so much for this series!  it's been so enlightening,True
+@daniel49245,2022-04-25T21:27:22Z,0,"Probably the best tutorial on neural networks on youtube. Thank you for sharing your knowledge. Just 1 question. Is it a mistake if i code the ReLU and Softmax class as a function? I think it simplifies the process. Like this:  def activationReLU(inputs):   return np.maximum(0, inputs)  def activationSoftmax(inputs):   exponentialValues = np.exp(inputs - np.max(inputs, axis = 1, keepdims = True))    return exponentialValues / np.sum(exponentialValues, axis = 1, keepdims = True)  It outputs the same results and it's less code afterwards:   X, y = createData(100, 3)  layerOne = LayerDense(2, 3)  layerOne.forward(X)   activationOne = activationReLU(layerOne.output)   layerTwo = LayerDense(3, 3) layerTwo.forward(activationOne)   activationTwo = activationSoftmax(layerTwo.output)   print(activationTwo[:5])",True
+@turki8990,2022-04-24T20:05:04Z,0,"hi , quick question at minute  17:25 does each row (Batch) represent the outputs of the first neuron? or does it represent  the first output from each neuron  and the second row (Batch) is the second output from each neuron",True
+@alexandergrunbacher9357,2022-04-12T08:40:19Z,0,"I'm sorry if this question may sound stupid, but I am relatively new to programming. Why do you create classes for the activationfunctions, wouldnt they just be methods of the Layer-Object?",True
+@baqirhussein1109,2022-04-08T12:41:31Z,0,25:00 just a reminder for me,True
+@safa_jahan,2022-03-18T14:57:57Z,0,Thank you for the video series. One question though! How do we compensate for situations that the np.sum(exp_values) becomes zero to avoid decision by zero?,True
+@SaimonThapa,2022-03-09T15:19:42Z,0,"can the softmax forward fn be as follows?  def forward(self, inputs):         eVals = np.exp(inputs)         sumOfEVals = eVals.sum(axis=1)         sumOfEVals = np.reshape(sumOfEVals, (sumOfEVals.size,1))         self.output = eVals/sumOfEVals",True
+@SumeetKD,2022-03-06T06:11:29Z,0,Waiting for the next upload. People waiting can try using https://www.youtube.com/watch?v=qMp3s7D_8Xw,True
+@jacobjohanson2503,2021-12-13T05:02:06Z,0,"@8:45 - maybe this gets answered later, but why use y = e^x instead of writing a script to add an even amount so that all outputs > 0? for i in outputs:      if outputs[i]<0:          for x in outputs:                output[x] = output[x]-output[i]",True
+@pluronic123,2021-12-12T18:53:05Z,0,"I got the book via Kickstarter campaign and it definitely was worth it. Thank you! I have two questions. One for Chapter 4 and one for Chapter 5:  Chapter 4: You say, to manually ""simulate"" a sine wave, two neurons have to be active at the same time. If one is active only, there is no effet from that output. But is that really true? Let's say the second one is active and the output of that is 1. We still have the individual weight going from second neuron to the output neuron AND the one bias of the output neuron. So it is not 1 anymore. Thus, the partially active neuron pair in the hidden layer still affects the general output of the last neuron??  Chapter 5 (much more important to me): The spiral funtion generates 100 pairs of data (x and y). 3 classes means 3 of them. So we have 300 pairs. If I do so, my first 5 results of all outputs are consistent with the book. Bu if I change to 2 classes or 1, the first 5 outputs are slightly different. That is unexpected because the first 100 should be always the same since I just reduced the amount of classes and the first class is not altered by this. It always gives constant values. Thus, my first 5 results should always be the same, but is not.  Thanks, again!",True
+@xaviermagnus8310,2021-12-01T20:44:34Z,13,"Late to the party, but I really want to thank you for walking through what is happening step by step. So many ai tutorials are treating it like magic rather than actually running through the math, which is terrible for actual learning.",True
+@jakub9802,2021-11-25T22:51:15Z,0,"Not gonna lie, I've just subscribed. The video materials are superb! I'm going to buy that book to learn some more >.<",True
+@michaeljburt,2021-11-14T16:16:01Z,6,"I never really dug into the softmax before, but with a background in theoretical physics (statistical mechanics), it is truly fascinating to me that we see normalized inputs (which in effect, create the function exp[-x]) leading to the exact same equation as the canonical probability distribution.  Neural nets (even basic ones) really are fascinating machines. This series has given me such a new perspective on them. Keep up the great work guys.",True
+@lucianxp12,2021-11-06T21:17:44Z,0,First question that many people have... Me: no new funny cup for this episode?  Edit: the cup appeared,True
+@alialkomi6676,2021-10-16T20:39:39Z,0,nice course,True
+@thevikinglord9209,2021-10-12T19:28:32Z,1,Best video ever!!!!!!,True
+@user-kk5qe9fj2l,2021-10-07T17:56:59Z,0,I don't understand why you need to make classes for the functions. That is just redundant.,True
+@rembautimes8808,2021-09-29T13:22:11Z,0,Congrats on launching your book.,True
+@iwanabemw2,2021-09-25T00:56:23Z,0,"Your explanation is wonderful, probably couldn't get better. But for me this shit is just hard man xD. Really need to repeat these videos and code along a couple of times to understand. Wow xD",True
+@jainitharsora303,2021-09-23T17:58:42Z,0,The views drop from part 5 to part 6 (157k to 36k) is massive! I see as NN gets complex a lot of people stop learning it which is a bit disappointing. Thank you sentdex for making these concepts super interesting!,True
+@BizzNitzz,2021-09-17T07:05:42Z,0,Another awesome video! :D,True
+@miljanverc.autida9636,2021-09-17T04:25:11Z,0,Which is better Softmax Activation function or Sigmoid? Ty.,True
+@ronit8067,2021-08-23T21:14:44Z,0,hi any reason for  in most of my outputs index 2 was the largest of the 3? output of the softmax.,True
+@abhishekverma549,2021-08-08T08:34:08Z,0,"Nice tutorial, you explained everything very well, you are doing great job,  but please upload regularly, need to finish this series ASAP.",True
+@abhishekverma549,2021-08-08T08:33:37Z,0,"Every thing is clear, but I did not understand why we use both activation function?",True
+@noman3602,2021-08-06T08:27:13Z,0,Why not use sigmoid function instead of softmax??,True
+@kostra.mk.x2113,2021-07-20T14:58:02Z,0,"I guess I am kinda late, but I wanna say, this is a great serie! I am planning to buy the book. Also I have a question: Why dont we just sub minimum from all the values, to make them all possitive and then count the probabilities? We wouldnt need the exponential function at all and we do similar thing anyway, when we sub the maximum.",True
+@dompatrick8114,2021-07-17T06:14:50Z,1,"Very well explained, really helps with digesting some ML textbooks.",True
+@JonathanAmbriz,2021-07-15T19:10:22Z,0,I wish he would do a tutorial for most major data science algorithms in python.  I'd pay for that!,True
+@bram8120,2021-07-12T10:24:14Z,0,"Assume all input values to the output later are negative before passing them to the softmax function. Then substraction of the max value would lead to addition. This is not what you want, so use max(0, input_values_to_softmax), right?",True
+@redxtreme2598,2021-06-30T01:20:54Z,1,These videos pair so well with the book. Thank you for producing them.,True
+@leonlysak4927,2021-06-17T03:21:40Z,1,"I thought the ReLu activation function will either return 0 or the value, removing possibility of negative numbers all together",True
+@willemvdk4886,2021-06-09T06:42:10Z,22,"This series is so incredibly valuable! You are a great teacher, Harrison! I'm wondering, if the book is already finished, why is the video series taking so long to complete? It's been more than a year since part 1. Not complaining, just wondering. I'd like to continue this till the end and be a neural network master ;)",True
+@malgindesilva2758,2021-06-04T21:39:18Z,0,"1 second ago Hi I purchased a hard copy wanted to access the soft copy. I received the confirmation email with access to the google drive. However, I couldnt access the ebook as i used different email when i purchased the book. I email to sendex asking any alternative or give permission to the email with which I have access to google drive.  Cheers Naeeep",True
+@malgindesilva2758,2021-06-04T21:38:26Z,0,"Hi I purchased a hard copy wanted to access the soft copy. I received the confirmation email with access to the google drive. However, I couldnt access the ebook as i used different email when i purchased the book. I email to sendex asking any alternative or give permission to the email with which I have access to google drive.  Cheers Naeeep",True
+@alexanderlindsey7134,2021-06-02T23:20:38Z,0,congrats on publishing! I'll be sure to pickup a copy. hardcover of course.,True
+@sebastiansosa3072,2021-05-30T22:50:44Z,0,that book is thicker than me.. (bit intimidating to be honest although it is absolutely worth it if it keeps pace with these awesome vids),True
+@amosnimos,2021-05-29T00:31:36Z,0,That's a thick book!,True
+@charliegarrett5993,2021-05-21T11:44:38Z,0,"Fantastic video, thank you. When you're not super confident in your maths background and you see a function like the softmax function, the notation can be a little scary. But your explanation makes it totally clear how/why it works. I have some background in teaching and I think you have a real talent for it.",True
+@narinpratap8790,2021-05-17T07:01:01Z,5,"Mathematically speaking, I thought it was quite elegant how the normalized values after exponentiation (without subtraction of max value) were the same as the normalized values after exponentiation (with subtraction). Really cool result! I believe that this might be yet another good reason why the Exponential function is used in the Softmax Activation Function (in addition to the fact that it deals with negative numbers in a convenient manner).",True
+@adrikovincent5717,2021-05-12T03:26:07Z,0,"You will always be my man bro, everything you do is awesome, things a lot for everything because i enjoy your work",True
+@scottpatterson9136,2021-05-02T14:35:56Z,0,some one has already helped me but thanks to anyone who would have helped,True
+@scottpatterson9136,2021-05-02T14:24:52Z,0,hi when I run the code in the video up to the 31:06 mark I get this error TypeError: forward() missing 1 required positional argument: 'self'. Can someone please help if it helps I can post the full code thanks for anyone that helps,True
+@deepsleepsounds2178,2021-04-26T05:54:22Z,0,I have a random error ------TypeError: forward() missing 1 required positional argument: 'inputs' -for the line - activation2.forward(dense2.output),True
+@hannugupta9711,2021-04-18T13:50:41Z,0,"hey , how can I adjust weights for outputs .",True
+@ismaelruizranz7799,2021-04-09T23:23:34Z,2,"Hi sentdex, I have a question about the code. Why you use the activation function ReLu before using the softmax? Didn't we give good values to the negative numbers and normalize all the numbers with the softmax? Isn't the Relu function disturbing the Softmax function with the creation of zeros when negative numbers are given?",True
+@omarpasha2968,2021-03-29T15:06:15Z,0,"Again, I'm still hanging in there with you. Now, on to the last video.",True
+@omarpasha2968,2021-03-29T05:15:31Z,0,I'm still with you so far!,True
+@Nova-Rift,2021-03-25T23:45:13Z,2,"You are the man! I love how you built this whole company on your own and even wrote and sold your own textbooks, and you're so young. I'm going to buy your book. Any expectation for when p.8 video will be released in this series? Thank you!",True
+@wbrozovic,2021-03-17T17:53:21Z,0,Thank you Sentdex! Can’t wait for more videos. My copy of the book arrived last week and if anyone is on the fence about buying it... Do it!,True
+@hcordioli,2021-03-17T15:44:42Z,0,"Do I get the E-Book if I buy the paperback version? Also, I´ve seen 7 videos so far. Are there any others available? The videos are awesome. Congratulations to the entire team !",True
+@grecoman100,2021-03-17T10:02:46Z,0,"Just want to ask, the graphs are made with python ,are you using manim?",True
+@Nightcorehardy,2021-03-11T18:06:17Z,0,"not sure if its just the way the random data is created but, my percentages are off.  so all of my percentages start like this 0.33333XXX where XXX  are 3 number that represent the miniscule differences. your results are all 0.333XXXXX where XXXXX are 5 numbers that reperesent the small differences. Not too concerning but i think even with your nnfs.init() theres still some randomness that happens",True
+@raspberrypi2430,2021-03-11T17:01:58Z,0,"The commented out "" #E=2.71828182846 "" wouldn't produce the same results as the imported math.e variable. Print(math.e) gives a value of = 2.718281828459045, which is more tedious to type out, but it would be easier to follow along in other languages if that value was more similar to math.e's value.",True
+@Rabixter,2021-02-28T20:59:22Z,0,"Having issues with the shape errors. Doing exactly the same as you but seem to get  ValueError: shapes (300,2) and (3,2) not aligned: 2 (dim 1) != 3 (dim 0)",True
+@lindakettle8001,2021-02-27T22:31:29Z,0,"Re the normalization, should we be normalizing by feature (column) axis=0 ?  Given matrix  [[1,2,3], [4,6,8]]   where the rows are data points and the columns are features, then shouldn't we deduct the max by column max, and then take the sum of the column?  which is axis=0? so after taking away column max we end up with   [[-3, -4, -5], [0,0,0]]   and we exponentiate, then have  [[ e^-3, e^-4, e^-5], [e^0, e^0, e^0]]   take sums by column = [(e^-3 + 1), (e^-4 + 1), (e^-5 + 1)]  in column form, then normalize   [[ e^-3/(e^-3 + 1), e^-4/(e^-4 + 1), e^-5/(e^-5 + 1)],  [ 1/(e^-3 + 1), 1/(e^-4 + 1), 1/(e^-5 + 1)]]  I'm confused.",True
+@abhayraghuvanshi5199,2021-02-24T13:45:18Z,0,Is it compulsory to use ReLU for the first layer and then Softmax? :),True
+@Ilmard99,2021-02-24T10:51:17Z,0,"I'm probably missing something, but is there a reason why the activation classes aren't nested classes? Are they sometimes used without a layer?",True
+@khibarrassul1582,2021-02-22T07:50:16Z,0,"I was planing to buy the hard cover, but after seeing the size of that thing, I think I'll stick to the e-book :)",True
+@Quasar_Energy,2021-02-11T22:16:02Z,0,Can this neural network be used for linear regression problems (predicting a continuous target variable) or is this only for classification targets?,True
+@littlethings-io,2021-02-07T20:36:13Z,0,Haha awesome you got Elon's 'flame thrower' !,True
+@LukibillyBase,2021-02-06T15:44:56Z,0,Nice flamethrower you got there :),True
+@srinivasanr2796,2021-02-01T18:45:42Z,0,You are good  explain In future generations wast of my time in my college you are true vision in my mind works fast in my mind 😎😎😎,True
+@tak68tak,2021-02-01T03:26:54Z,0,This is the best explanation on Softmax I've ever seen. You really remind me of Andrew Ng.,True
+@wells111able,2021-01-31T08:23:44Z,0,"thanks a lot, you help people all over the world",True
+@bogdan-dm.7627,2021-01-28T09:47:18Z,0,How do i get the book in Romania?,True
+@giovannimilana6428,2021-01-28T05:42:47Z,0,"Discovered sentdex recently,  quickly became my favorite content creator!",True
+@stanleyyelnats3799,2021-01-24T18:29:34Z,0,"Hey sentdex! Great series! One question tho: when I use the 'np.max(inputs, axis=1)' in the softmax activation function and I try to forward through not a batch but just one list of inputs, I get the Error: ""axis 1 is out of bounds"". Which obviously makes sense when the inputs only have one axis. But does that mean that you always have to forward entire batches? How does it work when the Network is trained, and now wants to classify? Do I need to use list of lists with just one list inside a list?",True
+@MP-wq5xe,2021-01-24T10:26:52Z,0,Just continue the series please,True
+@fizix137,2021-01-19T18:56:13Z,0,When's the next video?!?  I'm on the edge to see the backward method!  Great videos!  I binged this series yesterday.  So simply and clear.  Very useful 👍.,True
+@divyeshgaur,2021-01-19T05:48:45Z,0,wait for the next video begins :) thank you for the content and your hard work. you make everything like a cake-walk.,True
+@eessaaabrahams9124,2021-01-18T14:28:02Z,1,sentdex is a legend for these videos but if yall don't know that not posting so long is a very good marketing move then I don't know,True
+@AHMEDMOHAMED-ix9em,2021-01-17T15:41:41Z,0,"Will there be another episode, about the back-propagation?",True
+@LLyes,2021-01-16T17:15:07Z,0,wow !!!!!! this is really one of the best data science courses ever !  I am waiting for other episodes soon,True
+@unknownusername791,2021-01-16T10:44:02Z,5,Thank You very much sir for your hardwork and explanation. we are very blessed to have a teacher like you. Love from India ❤️,True
+@tedofbeverlyhills,2021-01-13T19:37:22Z,0,You da man sentdex,True
+@harrysmith382,2021-01-12T21:33:36Z,0,How would you tackle the problem of using different size images?,True
+@harrysmith382,2021-01-12T21:30:59Z,0,How popular is the sigmoid function?,True
+@shimonjudeswer3012,2021-01-12T07:55:12Z,0,When's the next one bro?,True
+@patite3103,2021-01-10T16:14:04Z,0,Thank you for your amazing work! It is not clear to me what the nnfs.init() at the beginning does. Why there is no parameters in it? Does it make sense to mix a ReLU and Softmax activation functions? How many neurons are in the first and second layers? thanks,True
+@yannic2248,2021-01-10T11:00:40Z,0,I already bought your book but I personally find it easier to learn that stuff through your videos. Do you have some kind of vague plan on when you upload the next videos?,True
+@kantrveysel,2021-01-09T11:05:48Z,0,So how can we train it?,True
+@mrfrozen97-despicable,2021-01-08T16:17:01Z,1,Euler is pronounced oiler. So my maths teachers was wrong these many yrs..... ah Thanks btw))).,True
+@Argoo41,2021-01-06T06:49:20Z,0,Thanks a lot! Can you shine some light on numbers of videos to come? Or which percent of the book you have covered in this 6 videos?,True
+@andrieslof9095,2021-01-05T19:12:05Z,0,Create series. Can't wait to get the full picture of machine learning,True
+@fabianprymus939,2021-01-05T18:55:27Z,0,Background music please,True
+@aivan18,2021-01-05T17:00:24Z,0,When are you going to upload the final video? :)  you have me on edge :P   Many thanks for all your videos!,True
+@isalvage1,2021-01-05T12:14:38Z,0,Hi sentdex. Thank you for making these videos. Will you do RNNfs in the future?,True
+@febinthomas1133,2021-01-05T10:19:00Z,0,Can someone tell me how many videos will be uploaded in this series? I am planning to start it when all the videos are released.,True
+@teslamodel314,2021-01-04T16:13:33Z,0,I wonder why we rejected the sigma activation fucntion if this one seems a lot more complex to compute.,True
+@3T-InfoTinker,2021-01-04T14:03:29Z,0,"Ok, just don't be surprised by my question, 🙋[Q] Actually when I ran the code again the output was different and here it goes every time I run the code the output varies, is it ok with it? - Learning everything with Python, math, stat, and what not. 💝 Thank you for teaching in such nice way.",True
+@kaare1992,2021-01-03T13:18:32Z,1,"Now I need to rewatch the other episodes, to get up to date with what we were doing again :D",True
+@darkseid6412,2021-01-02T07:37:05Z,0,CAN YOU SUBSIDIZE THE BOOK PRICE FOR AN IT STUDENT IN AFRICA LIKE ME?,True
+@pratikpratik8495,2021-01-01T11:08:24Z,0,@sentdex - can you plz make video regularly ???  it is difficult to remember past video concepts as interval between two video is huge,True
+@larrybird3729,2021-01-01T10:14:52Z,0,9:23 or use np.e,True
+@larrybird3729,2021-01-01T10:04:04Z,1,"The book is a great price considering  how much work has gone into it, I could not imagine the head F's writing it.",True
+@navalsurange3588,2020-12-31T14:49:38Z,1,"already waiting for next video ,.... following you in cpp",True
+@thelazycrazybrain,2020-12-30T17:19:53Z,0,You sum of a batch! Nice video :),True
+@MattTrax119,2020-12-30T14:54:46Z,0,Sooo part 7 in a day or two ? :)  BTW very good job with the book working with the book and them watching the videos rly helps me understand even more,True
+@nguyenvantin8727,2020-12-30T11:20:08Z,0,It's been a loooooong time :(. I miss u,True
+@GraemeMac,2020-12-29T22:30:56Z,0,Heard back ordered.  Cant wait,True
+@TRonX1,2020-12-29T15:21:50Z,0,This is truly fantastic. I am coding along with the videos in PHP to get an even better understanding because I have to implement lots of stuff myself. I've read the book to chapter 5 to double check my understanding. Now continuing to read the chapter on calculating loss!,True
+@souravjha2146,2020-12-28T18:59:07Z,0,Please sentdex info. us when we will be hloss function aka part 7,True
+@davidecremona3312,2020-12-28T17:47:55Z,0,Have you planned to cover convolutional neural networks also?,True
+@souravjha2146,2020-12-28T15:41:49Z,11,Where were you man.......I am way too excited to see u back..please finish this series,True
+@baldeaguirre,2020-12-28T07:53:49Z,0,I'm following along with the e-book; when will the next video be released?.. happy new year!,True
+@sajjadulhaq8914,2020-12-28T07:33:10Z,0,"Really Great Work Harrison! Great fan, haha. From your depth analysis interest and best teaching skill, I personally think You are INFJ personality type from MBTI",True
+@luckydice5520,2020-12-27T23:21:48Z,5,Honestly since I started this series I've been considering getting the book and to be honest at the beginning I was completely loss but as I continued and re-watched the videos to get a better understanding of some concepts I finally understand...       I need that book,True
+@aaronacosta5276,2020-12-27T22:34:39Z,2,what a time to be alive,True
+@sbaheerathan,2020-12-27T22:27:21Z,0,"I have received the hard copy. It is clearly explain everything from bottom using simple language. Also could you please suggest any book like this to learn RNN, CNN and to learn video processing and NLP? Thanks",True
+@siddharthjuyal4626,2020-12-27T18:02:07Z,0,Your videos are really awesome and easy to understand hope you will complete the series😊,True
+@jvsonyt,2020-12-27T15:02:56Z,0,Is there a pdf download yet for early backers?,True
+@pitt8221,2020-12-27T11:20:08Z,0,"Everything just fine before the Gradients, Partial Derivatives, and the Chain Rule. Those equations, formulas make me feel 😵😵😵😵😵",True
+@CodeWithJoe,2020-12-27T09:57:50Z,0,is it possible to turn bitcoinaddresses into a neural network?,True
+@santhosh6700,2020-12-27T08:34:19Z,0,I am ur new sub...I have checked ur playlists...and gotta all topics that I wanted to learn....thank you!!!.  From India 🇮🇳,True
+@moodiali7324,2020-12-27T06:14:20Z,2,I received the hardcopy of the book although it came extremely late (1 month!) but i am pleased with the print quality and the ability to read from a physical book rather than a monitor! I already read the book via the softcopy but i recommend that you read the book at least twice to grasp difficult concepts. Harrison and Daniel have done an OUTSTANDING job in simplifying many hard to understand topics. Keep up the good work and please add more videos and animations. cant wait to see the video explaining chapter 9 (back propagation),True
+@muhammadiqbalbazmi9275,2020-12-26T05:39:56Z,0,I never thought the softmax in this way=> Normalization + exponentiation. I was just thinking in the way that it squeezes the value which leads to better probabilistic interpretation and less prone to outliers(in the context of Logistic Regression).  Thanks a lot!,True
+@adjbutler,2020-12-26T05:20:47Z,1,If you watch this and don't like it to help sentdex be motivated to keep producing I WILL BE MAD!,True
+@theshortcut101,2020-12-25T21:43:26Z,0,Yes sentdex! First step is to determine how WRONG the model is :p Thank you,True
+@PriyaGupta-vm8pj,2020-12-25T13:08:03Z,1,why did you decrease video quality from 4kp60 to 1080p60..??,True
+@cecilchen9566,2020-12-25T04:02:26Z,0,Look forward to your next video very much !!!,True
+@kavinduadhikari5881,2020-12-24T20:55:42Z,0,Mr.Daniel . This is great. We need the next episode soon. We are waiting for you,True
+@estebancalderon5164,2020-12-24T15:42:49Z,0,FINALLY!,True
+@Cnys100,2020-12-23T15:27:05Z,0,Thank You for a great education video.  merry christmas and a happy new year. /P,True
+@judedavis92,2020-12-23T12:20:48Z,0,Thanks for coming back. Please continue making videos on this!,True
+@caosed4991,2020-12-23T06:27:15Z,0,Thanks!! i've been waiting for this. BTW y no vscode?,True
+@hito1160,2020-12-23T02:28:30Z,0,Why can't we use just min-max normalization for the final outputs? ie x-min(x)/max(x)-min(x),True
+@joddeveloper7643,2020-12-22T19:24:30Z,0,"been a long wait, man.",True
+@nathanleopold8972,2020-12-22T17:14:40Z,0,"Nothing to do with actual code here, but how do you get the runtime to show up after you run the code? Is it a feature of whatever IDE you're using? Is there a way to do it in PyCharm?",True
+@janhendrych1076,2020-12-22T16:31:30Z,0,"Great explanation, the only thing I dont understand is why was the first activation func ReLU and the second Softmax why cant they both be Softmas for example?",True
+@decode0126,2020-12-22T13:46:26Z,0,that was awesome explanation and ur code was very understandable.,True
+@shmarvdogg69420,2020-12-22T13:28:25Z,0,"I am hyped for the next video, e book in hand, hardcover on the way and now we got the videos coming. One would think its christmass ;)",True
+@vladyantonevicz7897,2020-12-22T11:40:27Z,0,"Hi Sentdex, I'm trying to check if two videos or images were shot by the same sensor (camera) i.e. I'm looking for a python script that would analyze and match pixel patterns (dead pixels, bad pixels, and so on). Is there a python script to you would suggest using?",True
+@danielalejandrovelasquezgu5391,2020-12-22T11:32:57Z,0,"Your content is great, I think it's worth investing in! You should create your own coin at mintme.com",True
+@skilz8098,2020-12-22T05:39:11Z,0,"Towards the end of the video @31.10 when you run the code to print the results, I'm getting this error:  Traceback (most recent call last):   File ""p6.2.py"", line 24, in <module>     X, y = spiral_data(samples=100, classes=3) TypeError: create_data() got an unexpected keyword argument 'samples'  from this line of code:  X, y = spiral_data(samples=100,  classes=3)  I used python's help(nnfs.datasets.spiral.create_data)  and it basically states that the function's inputs for create_data() are (points,  classes) and nothing else. I even went to the URLs from the help documentation and found nothing else of value to help out with this issue...  However, when I change that line of code to this:  X, y spiral_data(100, 3)  Everything seems to be working fine. What is curious is that it worked in your video, but I'm getting an error. I'm not sure if it has to do with a different version of the package, python, etc...",True
+@vycka7360,2020-12-21T21:15:35Z,0,"Woah, glad sentdex is back!",True
+@sci3nttechable611,2020-12-21T20:15:13Z,0,Thanks for the content! Can't wait until Christmas 2021 for the next video :),True
+@electric_sand,2020-12-21T11:40:56Z,0,"Thank you, Nice explanations, it really helps...can't wait to keep leveling up my skills with upcoming videos :)",True
+@jin416,2020-12-21T03:30:04Z,0,Thx for your book!!! great stuff,True
+@nathanl8665,2020-12-21T03:24:01Z,0,is this book going to be available on amazon?,True
+@robertotomas,2020-12-21T01:04:08Z,0,"Why did axis start at columns then rows, instead of marching the natural order of the data (rows, then columns)",True
+@cyrusparvereshi9496,2020-12-20T18:54:10Z,0,"I like the book but the videos are easier to follow, I'll be happy when they all out so it will be a good learning combination I can switch between. Happy holidays!",True
+@satyamjha541,2020-12-20T11:46:45Z,0,Yayyyyyy!!!!!,True
+@madhusudhanreddygone2667,2020-12-20T10:50:56Z,3,Thanks for restarting the series bro... when you discontinued the series I was like oh mummy god ... now I’m eagerly waiting for this series I hope u won’t do that again,True
+@thalindabandara8537,2020-12-20T07:52:44Z,0,seriously sentdex in near future you're going to give me heartache I have waited for this video so long! thank you very much @sentdex. still trying to buy the book no luck.. any way again thank you so much,True
+@adamkuzanski4389,2020-12-20T01:45:24Z,0,Omg omg omg!!!!!,True
+@anandgupte9134,2020-12-19T23:54:39Z,0,lets go,True
+@tr3der,2020-12-19T22:43:24Z,0,"Hi. I saw a few of your videos and you seem incredibly knowledgable. Is it possible for you to create a basic spreadsheet for me for calculating real time current vwap, 5 day, 10 day, 15 day and 30 days vwaps in Excel using data from Interactive Brokers? I absolutely will pay! .thx",True
+@junofall,2020-12-19T19:12:57Z,0,HE'S BACK!,True
+@TheWintrover,2020-12-19T17:03:50Z,0,congrat almost 1million subscribers,True
+@ahmadtarawneh2990,2020-12-19T16:15:47Z,0,"Thank you, and welcome back :)",True
+@FlynnsForge,2020-12-19T15:02:55Z,1,OMG! It's back!,True
+@surajvkothari,2020-12-19T15:02:34Z,1,Got to love the animation inspired from 3Blue1Brown!,True
+@matthewmorrison4078,2020-12-19T14:40:10Z,0,Best teacher ever!!,True
+@lucashoek5403,2020-12-19T14:04:54Z,0,"I still dont get what the ""self"" argument in his functions does",True
+@sdbg,2020-12-19T13:47:31Z,0,"If there is a Chinese Edition, I'll buy it without hesitation",True
+@sidharthbisal4287,2020-12-19T13:37:44Z,0,I pay for the eBook but didn't received the book.  When I will get it,True
+@ekremdincel1505,2020-12-19T13:11:02Z,0,Hi! May you share some of the sources you used while making this series with us?,True
+@mangaart3366,2020-12-19T12:22:52Z,2,"Finally you are back! Glad to see you are doing well. Of course there was no way I wasn't buying that book. I haven't get to read it yet, but so far it seems amazing, so happy to have it! Please keep doing what you love!",True
+@hippzhipos2385,2020-12-19T11:29:43Z,1,"After this series ends, can you please do a video where you train this model to play games. Btw your content is awesome and I really appreciate everything you are doing to get the high quality educational material out there to everyone to learn from for free, as I can honestly say I would not be able to afford this if it was paid since I am a student.",True
+@AhmedKarshe,2020-12-19T08:40:50Z,0,Fantastic tutorial! :),True
+@ebrain1010,2020-12-19T07:24:40Z,0,expecting you a lot I've been waiting for this series,True
+@DragonKidPlaysMC,2020-12-19T07:09:08Z,0,Finally!,True
+@seanbenhur,2020-12-19T06:09:50Z,0,Best❤💯,True
+@romchompa6858,2020-12-19T05:48:27Z,0,i think im about to poop,True
+@grahamjoss4643,2020-12-19T04:24:55Z,0,thanks,True
+@jordan6921,2020-12-19T03:55:03Z,0,"Honestly, these last few hours where I've binged your NN series have been an absolute pleasure. I'm hoping once I get a copy of your book it'll be just as informative!! Once I finish your book, do you have any recommendations as to where I should go next to learn more? Ex Other books, videos, websites, projects, etc.. Thanks for the great content :D",True
+@johannperez7679,2020-12-19T01:07:26Z,0,"Casi que no, gracias lo esperaba",True
+@yekaalohabtemichael5068,2020-12-18T21:47:26Z,0,Finally lol,True
+@AV-tr9hl,2020-12-18T20:13:58Z,2,Why he's looking like thanos 💀,True
+@TheRelul,2020-12-18T19:43:44Z,0,Don't have time to watch it now. Just gonna like it and check it later,True
+@naorchemoul1960,2020-12-18T19:38:57Z,0,Finally!!! Hallelujah!!,True
+@ruekkart,2020-12-18T19:07:11Z,0,Is the ebook available on epub or mobi?,True
+@tylerpotter8460,2020-12-18T19:05:00Z,1,Sentdex is a national treasure. Thanks for all that you do man!,True
+@chronicsnail6675,2020-12-18T18:58:13Z,7,Justin Gathje recovered from the Khabib fight and is back to coding NN I'm glad!,True
+@ravitanwar9537,2020-12-18T18:47:33Z,1,kin(g)sley is back,True
+@afonsorafael2728,2020-12-18T18:21:50Z,0,Back at it again! Best Christmas present!,True
+@tecknowledger,2020-12-18T18:20:56Z,0,Awesome Video! Thanks! Merry Christmas!,True
+@magokill5208,2020-12-18T18:12:51Z,1,did not post a video for a while I live in Brazil your videos are top,True
+@hamzasalhi8140,2020-12-18T18:12:11Z,0,I got my book cheers from Tunisia :D can't wait for the videos,True
+@koby9340,2020-12-18T17:50:46Z,0,i almost lost hope but here we are again,True
+@bifayoseph5819,2020-12-18T17:38:39Z,0,make a video on PHP and make and django,True
+@Jakub1989YTb,2020-12-18T17:25:51Z,0,Why aren't you using list comprehensions?,True
+@MrLipdx,2020-12-18T17:21:20Z,1,"I'm loving this series of videos. The main reason the way you show the reasoning behind every step you take. Starting with verbose but easy to understand lines of code with a couple of for loops, to then express it in terms of much more readable numpy functions. Can't wait for the next one.",True
+@NETRUNNER_03,2020-12-18T17:19:33Z,0,Omg he's alive! Thanks for all the awesome content. Plz don't stop!,True
+@harsharamayanam7484,2020-12-18T17:13:26Z,0,😃😅🥺😭😤😠😒😳😮🤔🤩🤗😇🤓😎,True
+@baiqing,2020-12-18T17:09:17Z,2,Imma be honest I didn’t expect this one. Happy holidays!,True
+@ramtinnazeryan,2020-12-18T17:07:46Z,0,yeah baby it's here finally thanks for the video. can't wait for the next one.. please upload it quicker than this one. I'm gonna see if our University would buy your book. I really want to take a closer look. <3,True
+@TheJsseishi,2020-12-18T17:05:07Z,0,"Yeah the waiting is over :) I saw that the github repo for this project is kind of stale (https://github.com/Sentdex/NNfSiX). I really liked contributing there, does anyone know what happened to it?",True
+@1337Tailz,2020-12-18T17:04:44Z,24,"After what happened with Cyberpunk 2077, this comeback brings peace to my soul.",True
+@StanleyYip011,2020-12-18T16:59:36Z,1,"After this series, you’ll hit 1m sub! :D",True
+@user-qe6ye6lc5q,2020-12-18T16:57:12Z,0,p 6... unbelievable,True
+@Djellowman,2020-12-18T16:56:09Z,0,"The end of the video confused me. Why do we make a 2nd Layer_Dense instance? If i understand correctly, we are taking our network with random values, then applying ReLU to the output, and then applying Softmax to that. But at this point we've already cut off all negative values by applying ReLU before, right? Hope you can tell me what i'm missing here :)",True
+@MadlipzMarathi,2020-12-18T16:53:24Z,0,Christmas has come early this time.,True
+@radhamanohar4540,2020-12-18T16:35:08Z,0,Most awaited video of 2020,True
+@drentrepreneur_ng,2020-12-18T16:33:14Z,0,@sentdex Please can you do Argumentation Theory/Computational Argumentation 😀?,True
+@rishabhsoni6190,2020-12-18T16:26:16Z,1,Sentdex and Bucky Roberts both are alive. Fact that end of 2020 taught us.,True
+@sudarshankshirsagar4568,2020-12-18T16:22:42Z,2,Mannn !!!! I've been waiting for this series to continue ❤️❤️❤️,True
+@AndreyAntonchik,2020-12-18T16:21:38Z,4,Holy moly I almost stopped going through the playlist I was about halfway through and it looked like it was an abandoned project and then this comes up in my feed. No excuses now.,True
+@callumirving8295,2020-12-18T16:17:25Z,0,One of the only channels I turn on notifications for,True
+@saadaddine3694,2020-12-18T16:10:25Z,0,best notification ever👌👌,True
+@baquant,2020-12-18T16:07:44Z,0,aww I wish it wasn't so expensive for us.,True
+@neillunavat,2020-12-18T15:59:43Z,3,Thank god u remembered your password!,True
+@Anujkumar-my1wi,2020-12-18T15:58:10Z,0,The reason of using hidden layer is to learn more nonlinear feature isn't and as the we go down the layer the nonlinearity of feature increases due to the use of additional nonlinear transformation on the previous feature isn't if yes pls reply and clear my doubt on why nonlinearity of the feature increases with each layer?,True
+@Anujkumar-my1wi,2020-12-18T15:54:17Z,0,can you tell why we use more than one neuron in a hidden layer and what those hidden neuron are learning whether its a function or a feature?,True
+@georgebassemfouad,2020-12-18T15:47:47Z,0,"I am reading the book for the second time , it's amazing thanks for your hard work",True
+@saatwik6520,2020-12-18T15:42:03Z,0,Finally!,True
+@userre85,2020-12-18T15:38:24Z,0,Finally. The messiah,True
+@suvarghaghoshdastidar4013,2020-12-18T15:38:13Z,0,At lastttt!!! It's here!!!,True
+@beowulf2841,2020-12-18T15:37:18Z,0,This really is a Christmas miracle!,True
+@praveenkrishnan4935,2020-12-18T15:36:14Z,2,Finally waiting is over😍😍,True
+@heyrmi,2020-12-18T15:35:20Z,0,"For me vaccine isn't the best of 2020, its NNFS.",True
+@aaryagosar5464,2020-12-18T15:34:16Z,1,Discord gang,True
+@CrazyGamer261,2020-12-18T15:29:20Z,0,Yes sir we still here waiting 🙏👏,True
+@Ahamshep,2020-12-18T15:28:31Z,0,Woohoo!,True
+@ushasingh6204,2020-12-18T15:25:27Z,1,Yeah kids....this series is the reason we took over the world,True
+@dumincoca4766,2020-12-18T15:23:07Z,0,THE MOST ANTICIPATED EPISODE IS FINALLY HERE!!!!!! I AM FANBOYING RN!,True
+@fl7977,2020-12-18T15:22:36Z,0,This saved my day <3,True
+@mytechnotalent,2020-12-18T15:19:06Z,0,Got my softcover and loving it!,True
+@Klatuu82,2020-12-18T15:18:36Z,0,"Unfortunately, I'm still waiting for mine, but it will probably take a while until it reaches Germany",True
+@bonechrisrebe3493,2020-12-18T15:14:55Z,0,Really nice 👌 😍💋 💝💖❤️,True
+@MartinPHellwig,2020-12-18T15:14:34Z,204,"Received the hardback version of your book three days ago and I am very pleased with the print quality, it is also a rather hefty book, I am so glad I pre-ordered it. If there is anyone reading my comment and wondering if it's worth to buy the book, then just stop wondering and buy it! Greatly recommended!",True
+@BehindEnemyChimes,2020-12-18T15:11:40Z,1,This comeback might push you to 1 mill. Very well deserved!!,True
+@arjunkashyap8896,2020-12-18T15:09:28Z,0,Finnaaalyyyyyy !!!!!!!!!!!!!!1111111,True
+@sarveshagrawal4588,2020-12-18T15:09:21Z,1,What text editor or ide is that??,True
+@AIRobotica,2020-12-18T15:08:05Z,0,Thanks a lot...🙏,True
+@nirmaljohnson,2020-12-18T15:07:27Z,1,I was waiting for this Just like waited for the Avengers End Game. Finally it came... Just wanna say Thank you..,True
+@BehindEnemyChimes,2020-12-18T15:07:16Z,71,OMG he's back!!! To all those who doubted this series - never doubt the sentdex you donuts,True
+@torchlight6927,2020-12-18T15:03:49Z,0,Best Christmas present ever,True
+@miteshvasani1139,2020-12-18T15:01:51Z,0,Seeeeee....I told ya'll he's ALIVEEEEE!!!,True
+@jyothishmohan5613,2020-12-18T15:01:14Z,0,The wait is over 😊......👍👍missed this channel,True
+@elonmax404,2020-12-18T15:00:57Z,0,"Finally  Btw, I bought an ebook like.. 4 month ago. I have access to the google docs, but is there a full pdf and how can I get it?  Thanks for this masterpiece!",True
+@santiagobmx1000,2020-12-18T15:00:54Z,1,Best Christmas Gift Sentdex!! Thank you,True
+@uinuniverse1741,2020-12-18T15:00:32Z,3,I was waiting for this moment since months... And I clicked it in light speed,True
+@ayaanp,2020-12-18T15:00:26Z,0,"Yo, 2021 is gonna be a great year, BECAUSE OF NNFS",True
+@ahmedal-qarqaz3510,2020-12-18T14:59:49Z,2,the legend returns,True
+@asadrauf7111,2020-12-18T14:57:12Z,0,Good to see you sensei!,True
+@sparrowthenerd,2020-12-18T14:57:06Z,2,THE RETURN OF THE KING,True
+@houssem009,2020-12-18T14:56:32Z,0,finish the damn series,True
+@kendreaditya,2020-12-18T14:56:03Z,0,Christmas came early this year,True
+@dipeshlamichhane2837,2020-12-18T14:56:02Z,0,YOOO WE BACK!,True
+@python1108,2020-12-18T14:54:54Z,1,Waited so long!,True
+@programming_hut,2020-12-18T14:54:53Z,1,Thaaaaaaaannnnnnkkssssss,True
+@ytmorgen,2020-12-18T14:54:29Z,0,Yayyyyyy,True
+@dhruvdwivedy4192,2020-12-18T14:52:14Z,1,Nice Beard cutting 🤩🤩,True
+@rgvn8406,2020-12-18T14:51:51Z,0,"Thank you kanks, Boooooom :) :) :)",True
+@bgvmysore,2020-12-18T14:51:42Z,0,finally!,True
+@nicop175,2020-12-18T14:51:33Z,41,Sentdex man: you torture me so hard when you don't upload videos regularly. THANKS FOR EVERYTHING!,True
+@suchalooser1175,2020-12-18T14:51:18Z,0,Ok finally😅,True
+@selimdal1789,2020-12-18T14:50:54Z,0,Yesssssssssssss ! Videos again ! Got the book went through it and loved it ! Looking forward for all the videos too! specially the ones on the derivatives !! Ahahhaa,True
+@awsm1680,2020-12-18T14:50:49Z,185,Top 10 anime comebacks of all time:,True
+@Algeriaiptv,2020-12-18T14:50:23Z,0,Thanks a lot finally we got it 🙏,True
+@siddhpatel3197,2020-12-18T14:50:06Z,10,LETS GO NNFS IS BACK!,True
+@ahbarahad3203,2020-12-18T14:49:44Z,2,Whomst awaken the ancient one? xD,True
+@maacpiash,2020-12-18T14:49:31Z,2,"Ah, finally another part! 😁",True
+@Stinosko,2020-12-16T06:52:22Z,3,Hello 🤟,True
+@Kevin_KC0SHO,2020-12-16T04:55:47Z,1,"Sweet, thanks for the new video.",True
+@whoisabishag3433,2020-12-16T03:08:34Z,4,Did that Animation really Classify You As A Dog?,True
+@whoisabishag3433,2020-12-16T03:05:26Z,6,I missed having the first Comment ... ,True
+@ddos87,2020-12-16T02:38:24Z,1,🤘,True
+@kenchang3456,2020-12-16T02:25:33Z,7,"WOW this is really fresh, it hasn't been added to the playlist...yet.  2 thumbs up!!!",True

@@ -1,0 +1,119 @@
+author,updated_at,like_count,text,public
+@ChikoriTak,2024-05-28T13:30:07Z,0,"Thanks Alex for an amazing course!  I have a little comment regarding the formula. I think ""$"" should be added for a fix range. For example, in tab ""XLookUp"", the range H2:H10 and P2:P10 should be fixed. Therefore, the formula should be =XLOOKUP(A3;$H$2:$H$10;$P$2:$P$10), and then it can be applied to other below cells.",True
+@penumalasreekanth-yl1dd,2024-05-23T19:09:14Z,0,hai mr alex i have a doubt i am not able to use xlookup in my pc can you please tell me hoe to use it,True
+@lawaltaofeekolumide9527,2024-05-17T16:42:50Z,0,Awesome . I had check out alot of data analysis courses on youtube but your teaching sytle is the best,True
+@adwaamohamed2674,2024-05-17T01:01:44Z,0,THANK YOU,True
+@Deekshi-ej8wc,2024-04-28T16:41:24Z,0,Thanks a ton Alex,True
+@enisusilowati8549,2024-04-24T02:14:13Z,1,"Thanks for the video, but I have a question for the VLOOKUP part, why do I get #N/A result if I write the formula like this: =VLOOKUP(A5;E1:P10;12;FALSE). what's wrong with the table array range?",True
+@MohammedAlabbani,2024-04-16T19:17:29Z,0,"Legendary content sir, thanks alot, also loved the office reference with the names lol",True
+@omakpokposefavour6131,2024-04-03T09:31:46Z,0,Hi Alex  Please i need a more deep dive into different lookup functions. Would you be kind enough to send me some Udemy courses you’d recommend that’ll really be beneficial to me?,True
+@clovisstanford6515,2024-03-30T14:50:20Z,1,Why xlookup isn't working now today 2024,True
+@ifeanyichukwuodili8930,2024-03-08T16:38:08Z,0,The file for this tutorial isn't downloading,True
+@katherinelapuz8321,2024-02-16T16:05:23Z,0,hello i hope you could also make a vid for if and or not.,True
+@monicabn3067,2024-02-14T10:34:38Z,2,"Hey Alex, Learning alot from your videos, Your simplicity is truly inspiring.❤",True
+@Bilkisu_,2024-02-01T00:14:54Z,0,"Hello, When I typed in the XLOOKUP formular I kept getting NAME? as a result. Please how do I solve this?",True
+@yurobert3007,2024-01-29T01:40:03Z,0,Brilliant tutorial,True
+@Thy_Dictator,2024-01-24T11:09:24Z,0,"If anybody is having trouble with XLOOKUP Exact Match try it with =IFNA( XLOOKUP(A3,H2:H10,O2:O10),""Not Found"") it worked for me.",True
+@MadeForD,2024-01-10T12:20:15Z,0,"5:00 when i use this same exact formula, it doesnt work. it just says #N/A",True
+@mouhamedfaye4685,2024-01-01T13:14:15Z,0,i can't found this function XLOOKUP over in my excel how can i add it ?,True
+@yusuf8803,2023-12-29T22:08:50Z,1,"the formula  =XLOOKUP(A3,I2:I10,O2:P10)  is not working for me, it's showing me an error message ""#value!""",True
+@giftzara2986,2023-12-28T07:58:18Z,0,"pls Alex what is the different between xlookup,xlookup exact match xlookup search order,need more clearification,if someone can explain better on the comment",True
+@estherjokodola1187,2023-12-27T17:39:42Z,0,I keep getting an value error for the xlookup formula for multiple rows,True
+@anuragbhagat4512,2023-12-23T04:27:56Z,0,i want to download the raw file but it is  not dowloading from github please help me ,True
+@rairaMB,2023-12-08T14:35:12Z,0,"I got this solution to value error from the net;  When using XLOOKUP with multiple rows, the result may be an array of values rather than a single value. If you enter the formula in a single cell, and the result is an array, it will return a #VALUE error. Solution: To handle the array result, you need to enter the formula as an array formula by pressing Ctrl+Shift+Enter after typing the formula. This will enclose the formula in curly braces {} and allow it to return multiple results. For example, if you want to get the corresponding values from columns O and P for each matched row in column I, you can use the following array formula: =XLOOKUP(A3, I2:I10, O2:O10&P2:P10)    and it worked for me",True
+@helliotvillarroel2307,2023-12-05T15:43:53Z,1,"Hi guys! , When I choose multiple columns as the return array, I get ""#Value!"" Error. Can someone help me?",True
+@sj1795,2023-12-03T21:39:54Z,2,THANK YOU Alex! I've decided to write a gratitude comment in every one of your videos as an appreciation for everything you've done for all of us as well as offer feedback/thoughts on each video. I liked how you explained how the VLOOKUP function is used in Excel and the benefits of XLOOKUP/comparison to VLOOKUP. I can't believe all the time and energy you've put into this Bootcamp series. You are AWESOME!,True
+@yqhanliving,2023-12-02T08:12:51Z,0,I used to use vlookup a lot and this video about xlookup has helped me think better on my solutions. Thanks!,True
+@prasannalondhe2415,2023-11-28T09:36:37Z,1,"hello alex, when im using xlookup for multiple rows its showing value error. how to resolve it any 1 or alex please tell me. Thank you",True
+@vishrashah4807,2023-11-18T04:26:57Z,0,"For the section of XlookUp-Multiple Rows, anyone getting spill error for end date?? Please let me know..",True
+@samshepherd6197,2023-11-06T19:30:38Z,0,when i do the xlookup for multiple rows  or anthing with a date in it i get a '#value!' why?  how do I fix this?,True
+@abdullahimaalim8345,2023-11-05T11:22:40Z,0,"Hi Alex, Thank you so much for your excel tutorials. I was practicing on this template and I noticed something. The lookup array and the returned array keeps on changing as we move down looking up for more value. We did not run into error(#na) in the video because the items are arranged well.  At first I ran into trouble but then I remembered the F4 lock. Locked the lookup array and the returned array such that it does not run into an error by searching empty array.  Just wanted to share how exciting the experience was!  Thank you.",True
+@echodelta7680,2023-10-27T07:02:00Z,2,"I am doing exactly what you're doing at 04:57 in video, yet my Excel is giving me an error ""A value used in the formula is of the wrong data type"" when I hit ENTER after typing the formula. Please help.",True
+@jenniferonyinyechionwubiko5030,2023-10-12T14:52:39Z,0,"Good day Alex, Xlookup isn’t on excel 2019",True
+@viktoriaballa4622,2023-10-04T21:55:30Z,1,"DAY-5, yeeey",True
+@yaelcohen118,2023-10-01T16:22:49Z,0,"the xlooup didnt find multiple results and i couldnt find out why, please help!",True
+@extrov1,2023-09-20T14:26:36Z,0,"Thanks a lot Alex, it was useful , but do i have to attend udemy course or it is enough?",True
+@mbaclinton8384,2023-09-20T13:12:40Z,0,I can't download the cookie document from github,True
+@sanikamhatre,2023-09-15T12:38:23Z,1,"Hey Alex, XLookup is showing errors. Please make a video for latest excel version.",True
+@JazMChannel,2023-09-06T14:34:09Z,0,"Hello All, How to update the Excel 2016 version to the latest? I cannot see any updated menu in my Excel. The reason I am asking is because I can't use XLOOKUP ? Any body has a similar problem?",True
+@sarthakpatelia9888,2023-08-30T15:14:00Z,0,#NAME? getting this error how to solve I have 2019 excel.,True
+@mohammadkhalil3491,2023-08-29T11:23:01Z,0,hi alex  i want to solve problem that is xlookup is not working in excel,True
+@user-zx3xg5jp1o,2023-08-25T06:13:53Z,0,"Thank you Alex, I am continuously making progress by watching your videos!. The best teacher! the pacing is perfect even for beginners..",True
+@mohammedafnan7231,2023-08-24T00:54:12Z,0,"Hello, I’m not getting the Xlookup formula in my Excel",True
+@rokibhasan5184,2023-08-18T16:32:25Z,0,"Starting This playlist from today, hope I can complete it ASAP.  Thanks Alex for this.",True
+@shankars8211,2023-08-18T09:10:40Z,0,"Hi Alex.. your videos are really helpful. But unfortunately, i am unable to find the xlookup, filter and query functions in my excel which i guess is a 2019 version. could you please help me how to get those functions for practicing?",True
+@Idontthinkilive,2023-08-16T16:42:55Z,0,This class is so complicated :(,True
+@donatusvictor3500,2023-08-05T05:08:36Z,1,"Thank you Mr Alex for the tutorial, please my XLookUp for Multiple Rows is showing #VALUE!  If i take my cursor to the cell it will display ""A value used in the formula is kf the wrong data type"". Please i need help. Thank you.",True
+@asmitamohite7752,2023-07-18T14:47:34Z,1,I am getting an #VALUE error in xlookup w multiple rows...can anyone pls help.,True
+@sugirlmanis,2023-07-17T23:36:35Z,0,"I have the name error, anyone can help?",True
+@reginaldxorsenyo4806,2023-07-13T08:46:12Z,0,"Hi, I am getting this error #NAME?",True
+@1689JeffChavez,2023-07-12T06:24:19Z,0,On my journey through the boot camp...   Learning XLOOKUP makes me think of issues that I could have resolved easier before with data. Cool!,True
+@gomojo1024,2023-07-07T04:20:48Z,0,ohhh i love you thanks,True
+@user-lt5oo7qv9e,2023-07-05T07:50:25Z,0,Thank you Alex for making these videos,True
+@mary-dt6fy,2023-06-30T04:56:32Z,0,cant i just use sql and select their email and end date?,True
+@onomeebe,2023-06-29T04:42:00Z,0,Thank you,True
+@Wardoffice,2023-06-11T10:25:51Z,0,getting #value! & #N/A error. how to solve this ??,True
+@datascience6215,2023-06-10T12:34:29Z,1,"**Help**  I got #value! Error when using xlookup multiple rows when the result range is o2:p10 Also it doesn't work with ""not found"" with exact match",True
+@maxichristo5305,2023-05-27T10:15:25Z,1,I'm gonna be the Excel guy😂😂,True
+@tutorialmicrosoftexcel-tt2dr,2023-05-21T05:41:44Z,0,thanks,True
+@andreyblanket9298,2023-05-13T23:38:21Z,6,"Hi Alex!  There is a small issue in this video - when you drag the formula, the arrays go wrong. Though it doesn't affect the results in this particular video it might cause some problems in other situation.  I really appreciate what you are doing!  Wish you all the best!",True
+@ednaukaegbu5978,2023-05-11T18:10:56Z,0,Hi Alex. I'm having difficulty downloading the Excel template for practice,True
+@nuriddintursunpulat327,2023-05-09T13:57:57Z,0,"Now I get it after watching why there's extra address column on a sample I've downloaded where there isn't at the beginning of video :) Excellent tutorials, thank you shifu Alex!",True
+@currenttrendz776,2023-04-21T00:31:37Z,0,i did not enjoy this video. very complicated way of teaching this. wish things could be explained better.,True
+@polokomonama6526,2023-04-17T16:15:57Z,0,Thank you so much for your content Alex!,True
+@frutonica.studio,2023-04-10T14:22:15Z,2,"This is my SUM XLOOKUP using string manipulation to get substrings from ""February - March"". Hope this helps some others with same question in the head.  =SUM(XLOOKUP(LEFT(B6, FIND(""-"",B6)-1), H1:S1, H2:S2):XLOOKUP(RIGHT(B6,LEN(B6)-FIND(""-"",B6)),H1:S1,H2:S2))  If ""N/A"" result, remember to check ""February"" if it has a space at the end. With basic programming background, to me, learning Excel nowdays is totally different from 20 years ago, LOL. Btw, thank you for videos, Alex.",True
+@Storytimehouse22,2023-04-06T13:42:18Z,0,Alex is it possible to do all this using my android phone or a laptop is a must?,True
+@kayodeolanrewaju5459,2023-04-03T11:12:26Z,1,i tried the xlookup with multiple rows and it gave me an error.  that a value used in the formula is of a wrong datatype,True
+@the_joerne_supremacy,2023-04-01T23:31:05Z,0,"Not sure if someone else commented on this, but when you copy/paste formulas, you have to be sure the various cells AND ranges are still the ones you want to use. Like when you had to change the A3 to an A4, when you were wanting to lookup Pam Beasley in the first example after you pasted the formula from the Toby Flenderson XLOOKUP. If you look at the lookup_array and return_array in the Pam Beasley formula, those ranges shifted down, and I suspect IRL you want to continue letting the lookup and return start from Row 2. This can be solved by using absolute signs ($) in the cell references, but that might be a separate tutorial. Great videos!",True
+@justinnacu,2023-03-30T12:25:21Z,0,The best teacher! the pacing is perfect even for beginners.,True
+@chrissarong9070,2023-03-22T16:54:46Z,0,Thank you very much Alex!!,True
+@johnanderton9798,2023-03-22T05:25:04Z,0,"XLOOKUP really is a huge advantage over VLOOKUP! I've been studying data analysis for a few months now using the Google certificate course and other resources with Google Sheets, and I really wish I had seen this sooner. Thank you for the great videos!",True
+@ammarbushara8198,2023-03-12T12:17:06Z,0,"Thank you man I did not understand vlookup from the google course ,but your explanation on point 👌🏽",True
+@anayoignatius7140,2023-03-10T13:09:27Z,0,Who has Microsoft 365 software? kindly share with me or link to download,True
+@shokoofehheidari5345,2023-03-09T07:03:40Z,0,Thanks a lot Alex!,True
+@carlosvasco4103,2023-02-23T13:57:00Z,1,"Hey Alex, thanks for the content. Just a quick notice regarding the XLOOKUP formula in 13:11. I believe you should have locked the month's array to be precise and correct. Fortunately, it turned out right anyway :)",True
+@jush4299,2023-02-09T14:44:17Z,1,my xlookup when i press enter @3:40 it returns #name? kindly help,True
+@Abdullahkbc,2023-02-03T00:10:45Z,0,"hey Alex, instead of using ""H2:H10', I think you should use ""$H$2:$H$10"" so that you can use the same range. or am i wrong? btw you can add that dollar signs by pressing F4.",True
+@YolandaEzeagwu,2023-01-12T21:28:35Z,1,"Alex, this video is a TREASURE! Thank you so much",True
+@gpguri7645,2022-12-11T05:32:52Z,0,"Thank you Alex, I am continuously making progress by watching your videos!🙏",True
+@banamailat_BM,2022-12-03T13:15:16Z,0,"Hi Alex, Thank you for helpful videos. I learnt lots of things from your videos and still learning. Just ask a question: Cause I don't know if it's in front or behind , can i use "" ""*""&A5&""*"" ""  statement for exact match?",True
+@esrakareem7071,2022-12-01T17:50:55Z,1,"I can't find XLOOKUP function in my excel ""XLOOKUP exact match"" it returns #NAME?",True
+@dashrathpurohit5872,2022-11-24T15:56:04Z,0,"Great fan of yours, just 1 advice - Could you please start sharing data dump in description for our practice?",True
+@metofz-kr6yl,2022-11-17T11:48:06Z,0,well explained. thank you,True
+@AnsaAlabura,2022-11-13T13:12:09Z,0,the links doesnt open sir,True
+@sohailomeromer4554,2022-10-22T15:12:30Z,1,"sir i can't see any XLOOKUP option in my excel, so what should i use instead of this XlookUp.?",True
+@faiza-e-mahmud4551,2022-10-19T16:13:59Z,2,"Hey Alex! Hope you're doing great. I was hoping, could you please reupload the ""Microsoft XLOOKUP Documentation"" file link. The current one shows there's some technical glitch.",True
+@AkporHari,2022-09-18T09:01:20Z,1,Still going through these. Great tutorial again.,True
+@amosemmanuel5724,2022-09-08T11:39:50Z,0,"Hi Alex, thanks for the wonderful content you putting out here, means alot.  However, the use of wildcard you did was on a smaller dataset, where it was easy to notice where the lookup value does not correspond with the value in the lookup array.   What if we are working with a larger data with thousands of rows? Is there like a logical way of setting xlookup to search for the return value? like in the case of Flender/Flenderson and Meredith/Meredith Palmer where the ""*""& where placed before and after the lookup value referenced cell, Can a single formula be written to return the needed result if the condition is met? I have been trying to come up with something, I'm not getting it.",True
+@Sattya1412,2022-08-06T10:05:12Z,1,"SIR WE NEED SOME XLOOKUP VIDEOS ON LOOKING VALUE FROM 2 DIFF SHEETS,WORKBOOK ALSO",True
+@aliyahsayeed1159,2022-07-14T15:23:20Z,0,can you do vlookup,True
+@harshilparmar4211,2022-07-14T12:42:39Z,14,"Hey Alex, Hello from a former Microsoft intern! I really appreciate what you're doing and it would mean a lot to have a further deeper dive concepts in Excel for Data Analyst. Cheers!",True
+@nasbidestroyerx,2022-06-29T18:23:07Z,2,XLOOKUP is not working in Office Pro Plus 2019. I searched and Microsoft says it is available only in 365. I am unable to figure out what is the alternative for XLOOKUP in older versions of Excel. Thank you,True
+@hisokaamorou4211,2022-06-28T04:10:55Z,1,Tons of thanks sir!,True
+@rociob702,2022-05-22T07:17:05Z,8,"GREAT video, you have a way of teaching a subject that might be difficult to some and put it in the simplest ways for others and myself to learn. Thank you!",True
+@jaberabedin5487,2022-05-16T15:57:48Z,1,"Awesome stuff as usual Alex! One quick question: At 12:22, shouldn't the function be =XLOOKUP(B1,H1:S1,H2:S2) instead of =XLOOKUP(I1,H1:S1,H2:S2)? (I'm referring to the very first argument in the function - the lookup_value, being the February in cell B1 instead of cell I1 )",True
+@pranabsarma18,2022-05-12T07:31:16Z,0,"Hi, can anyone explain why we are doing Xlookup with sum because we can directly sum the two cells without using Xlookup.",True
+@djblaccs,2022-05-06T08:21:09Z,1,#NAME...is the output I'm getting...,True
+@beaut11,2022-04-12T17:10:22Z,2,"Hi Alex, I'm having a challenge with ""XLOOKUP Multiple Rows"" . I've followed you step by step but I keep getting ""#VALUE!"" as my output. Please what do you think the issue might be? Thanks.",True
+@AlisaHof,2022-04-03T14:47:07Z,3,So is VLOOKUP obsolete now? Is there ever a reason to use it? Thanks for another helpful video!,True
+@AljIsHere128,2022-03-28T01:43:17Z,0,Ok I appreciate the breakdown understanding between XLookup and VLookup and how a pain in the azz with the VLookup doing updates can be.  Let me go also do another video of the differences to so I can better understand.  Thank U for this helpful video!!,True
+@_avisekh,2022-01-18T19:25:03Z,0,"Hi Alex, Your first video in this playlist is hidden. How to access that?",True
+@jayashukla4799,2022-01-14T12:22:45Z,0,XLOOKUP is not working in my excel. How can I access it?,True
+@lolao4642,2022-01-11T05:32:21Z,1,Hi Alex! Can you use the Xlookup by looking up the data from another sheet? Thanks.,True
+@danirladaniel7352,2022-01-04T23:26:03Z,0,My best Excel function 2021 ...,True
+@db4313,2022-01-03T20:08:49Z,3,Crystal clear teachings as always Alex! One question pops up: In case of using xlookup with multiple return values: is it possible to choose in which cells the values will return? By default it returns the values directly next to eachother. But let's say you want an empty cell between each return value...?,True
+@uchechukwumazi6512,2022-01-03T16:31:04Z,0,"Please this is urgent. I am on a train5 path and transition into data analytics. I hav learnt sql, pivot tables, power query, power pivot, power Bi, numpy, pandas in python for Dataanalytics. I want to dive into advanced excel but materials are just too much. The whole mcode in powerquery etc. please I need help! Can you advice me on the  only things I need to cover and that is important in advance excel. The only topics in advance excel that I will be needing as a data analyst .",True
+@jayashukla4799,2022-01-03T10:31:11Z,1,"Hey Alex! How are you?  Thanks a TON for these videos. I am trying to switch to data analyst and you are super helpful. Because of you, it seems doable🙂  I have just this one doubt though, to become a data analyst do I need deep knowledge of the programming language as I am not very good at coding🙈",True
+@devgothwal,2022-01-02T14:00:29Z,0,can you make the video about your online presence and networking with peoples online,True
+@devgothwal,2022-01-02T13:59:09Z,0,"hi, you did't not provide the your LinkedIn link.",True
+@olaniyidadasamuel2882,2021-12-31T09:11:41Z,0,@Alex I will want you to recommend me course I can buy to start my analyst career. Thanks,True
+@georgeashton5424,2021-12-29T19:13:11Z,24,I’m soon to be starting my career as a data analyst for a marketing company in the new year and I wholeheartedly want to thank you for making these videos Alex. The information I’ve learnt from watching your channel has been invaluable during the interview process. Looking forward to the rest of the series and keep up the good work!,True
+@liav4102,2021-12-28T15:46:20Z,5,I’ve almost entirely switched from index(match) to X lookup in most instances.,True
+@whynot2288,2021-12-28T15:20:04Z,7,I wish I could just Ctrl C Ctrl V your knowledge straight into my brain.,True
+@theologosikonomou72,2021-12-28T14:59:17Z,0,"Hi Alex thank you for your great  videos. I would like to ask, is VBA useful for a data analyst?",True
+@sametmutlu837,2021-12-28T11:58:07Z,0,is it meaning than we dont need if anymore? felt like xlookup will make we will not need to use if maybe even ifs. What do you think?,True
+@charbelberkachi9963,2021-12-28T11:51:36Z,4,"Hi Alex Hope you are well In a lot of videos, you talk about SAS. Can you please make a video explaining what is really SAS, and what is the right course for a data analyst.",True
+@dinosaur5009,2021-12-28T11:50:32Z,129,Hi Alex! Been following your channel for nearly a year now and your videos helped me land a Junior Marketing Analyst role! It was from your videos where i learnt what skills i needed and how to showcase these skills through a portfolio. Just wanted to say a massive thank you :),True
+@Neutrino-xw6jl,2021-12-28T11:43:09Z,1,What do you use to record your videos?,True
+@farazahmed1668,2021-12-28T11:40:58Z,3,Thank you so much Mr. Alex for providing extremely useful content.,True
+@Zaqhry,2021-12-28T11:39:15Z,16,"Btw, will you be going over “Power Query” within this excel series?   Also, thanks for the vids, they help a lot 👌🏽🔥",True

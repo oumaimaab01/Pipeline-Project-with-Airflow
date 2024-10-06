@@ -1,0 +1,29 @@
+author,updated_at,like_count,text,public
+@agentfifteen,2022-04-27T12:43:22Z,0,How do you close the file with close() after using .read or .readlines?,True
+@cancan740,2021-01-04T04:27:45Z,0,"i been strugguling for a week i am self learner , and i was trying to learn how to read and open files in python , i was watching several videos on  youtube , and couldnt , and i found your video and was very easy , thanks ,",True
+@TheNotoriousFonzy,2020-09-29T14:52:51Z,1,"This series is soooooooo good man.   text = ""THANK YOU <3""  saveFile = open(""THANKS.txt"",""w"") saveFile.write(text) saveFile.close()'   :D",True
+@PythonisLove,2019-01-19T13:54:04Z,0,Why do people gives dislikes ?,True
+@umeshbatra8720,2018-11-23T18:23:38Z,2,"The best ever python tutorial, really helpful. Thanks alot.",True
+@drexbeckman6100,2018-08-24T00:27:14Z,0,"Why is this the case, if I write something like this: readFile = open(""example.txt"", ""r"")  readFile.read()  print(readFile)  I get an output:  ""<open file 'example.txt', mode 'r' at 0x7f44968835d0>""  But when I added the .read() to the end of readFile, or I instead I print(readFile.read()), it works like it's supposed to? It is just a bit counter intuitive to me.",True
+@emmanuelanibaba4098,2018-07-05T22:58:28Z,0,"the file i am trying to read is located at C:\test\contact.csv but i keep getting error: f = open(""C:\test/contact.csv"", ""r"").read() print(f) output: OSError: [Errno 22] Invalid argument: 'C:\test/contact.csv'",True
+@rohan1427,2018-06-15T15:38:59Z,0,dude my script runs and closes.  it's not reading the file but it writes and appends idk what i'm missing man,True
+@Hstikkytokkyliveshd,2018-05-02T15:39:04Z,0,thank you bro,True
+@killergamez5212,2018-03-10T07:53:19Z,0,How can I name the file a variable?,True
+@kanharusia9399,2017-11-14T12:56:16Z,0,How to read a character.. Or how to read definite no. Of character,True
+@Celldweller97,2017-09-22T15:30:15Z,0,"How can i make this so open(""text.txt"", ""r"").read() is just reading the alst line of my txt",True
+@stijn1113,2017-04-23T21:31:04Z,5,"Hi, you may not have the time to answer but ill ask it anyways.   Im wondering, if i want to save data (f.e. a list) for later use, should I save it to a .txt and then read it back when needed? Or are there easier other ways?  Thanks",True
+@shubhamgokhale3172,2017-02-17T17:41:45Z,4,Don't we have to close the file at the end?,True
+@jiachenwang2914,2017-02-07T17:20:15Z,0,Do I have to read a file if I want to write some content copied from that file?,True
+@ciesco122,2016-12-23T04:51:02Z,1,"Sorry, I didn't get the why you inserted a 'r' there. Mind explaining?",True
+@somadityasinha710,2016-11-14T15:56:02Z,0,"you don't necessarily have to use names like readMe etc. it can be anything like read, see etc.",True
+@nikhilkenvetil1594,2016-08-17T07:30:48Z,0,How do I read a file from a whole another directory? It's not taking the path (enclosed in quotes of course).,True
+@RealMcDudu,2016-06-29T16:31:53Z,0,"FYI - you don't always have to ask to ""read"" the file you opened. It's actually faster to iterate over a file object that is not ""read"".   l = open('file','r') for line in l:     pass (or code)  is much faster than   l = open('file','r') for line in l.read() / l.readlines()    pass (or code)  the 2nd one will be 1.5x more expansive time-wise.",True
+@Fred0h,2016-05-20T22:26:30Z,1,How do you delete a text you've appended? Like I want to make a file where I can Add and Delete lines of texts. How can I do that? @sentdex,True
+@fahimabegum6292,2016-03-16T19:51:26Z,0,How can you directly open a txt file from Python  For example opening a notepad document with data already stored in it so the user can see the txt file directly from notepad Is there any way to do this if so please help quickly,True
+@gagantu,2015-09-10T18:21:52Z,0,What if we have to edit the same file ?,True
+@ChrisMcKennaCMK,2015-08-22T08:55:21Z,0,Hi thanks for the tutorials. For a .CSV file (for a spreadsheet) should I edit it using this read write method or are there modules for interacting with spreadsheets and other files?,True
+@meesbroer9006,2015-07-30T08:27:03Z,0,"when i run this progam: readMe = open('text.txt', 'r').read() print readMe i get back an empty string. how is that possible",True
+@mariosotero1786,2015-03-24T14:28:36Z,0,"Hi dear friend sentdex you are great master,congratulations your videos are the best, sorry my english its no the best,.",True
+@classcompsci609,2015-03-01T14:58:35Z,1,"Hi Harrison , I am doing a controlled assessment for the end of high school. I am making a login system in python using tkinter(i know most of the basics) but I mainly need to know how I would read a txt file using an if statement to find a specific piece of information e.g. password. Please could you advise me on how I would go about doing this. Cheers",True
+@greendaydiaz,2014-11-19T03:24:02Z,0,"Excellent video! Question: How would I open two files to read? I know it can be done using a for loop but I am not sure how? for text_file_name in ['named1.txt','MalcolmX.txt']:     read = open('named1.txt', 'MalcolmX.txt' 'r').read() print (read)",True
+@fergus247,2014-09-16T13:10:39Z,5,do you have to close a file when you read it?,True

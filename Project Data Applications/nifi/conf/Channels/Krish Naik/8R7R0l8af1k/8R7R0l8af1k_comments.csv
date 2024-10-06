@@ -1,0 +1,35 @@
+author,updated_at,like_count,text,public
+@ramakrishnayellela7455,2024-04-05T01:53:56Z,0,1.uniform distribution 2.glorat normal or glorat uniform (sigmoid) 3.he init normal or he init uniform (relu),True
+@mehulgoyal5-yeariddcivilen832,2023-06-18T08:14:51Z,0,He normal he uniform,True
+@surajsutar4919,2022-12-19T08:39:11Z,0,"Xavier/Glorat and He initialisation techniques are used for initialise the weights it uses the fan in fan out techniques for initialise the weights, when we does the zero initialisation there have some problem with it, it's get the vanishing gradient descent problem.",True
+@curiousmedium4701,2021-06-14T21:30:38Z,0,Can we try initializing the weight using pre-trained weight for known task?,True
+@RupeshKumar-bu2xy,2021-05-22T00:32:29Z,0,first randomly initialise weights for each layer... use mini batch gradient descent with adagrad or rmsprop for smothig of curve so to get the optimized weight faster.... use activation functions at each layer like relu or tanh and at output layer use the function based on your prediction,True
+@nagrajkaranth123,2021-05-09T19:26:37Z,0,Sir relu and  leaky relu  is the best technique to intialize weights in neural network and apart from these two techniques we can use zero random He and xavier technique for weight intialization in  a neural network,True
+@Yashgupta-dd6eq,2021-04-23T16:27:27Z,1,For sigmoid function we use Xavier weight initialization technique. And for Relu function we use He init technique.,True
+@user-bl8hi7je1z,2021-04-18T12:31:32Z,0,"Your are quite fare from the area you are applying for ,how can you prove that you will be good at this line ,and what your plan to develop this,",True
+@vivekchary780,2021-04-18T06:33:59Z,0,RELU (activation function) mostly used sctivation in real world,True
+@prafulbs7216,2021-04-17T18:32:56Z,1,Randomly.,True
+@knowledgedoctor3849,2021-04-17T16:50:08Z,2,he_uniform best one,True
+@sameeralikhan2968,2021-04-17T13:55:28Z,1,SNN (lecun) with selu (else depends upon the task and data at hand),True
+@anuragdhadse1426,2021-04-17T13:49:44Z,1,"Glorot initialization for None, tanh, logistic or softmax activation function He initialization for ReLU and its variants LeCUN for SELU activation function.",True
+@prateeksmithpatra5796,2021-04-17T11:57:51Z,1,"RELU(Rectified Linear Unit)Activation function I best for initializing the calu of weights of a neuron than that of sigmoid activation function. As the models are close to linear are easy to optimize. g(z)=max{0,z}",True
+@ganeshsah3916,2021-04-17T10:58:51Z,1,for hidden layer we mostly use Relu and for output layer we uses sigmoid,True
+@nandhakishore8950,2021-04-17T10:23:03Z,1,He initialisation for Relu Activation Fns and Xavier Glorat  for Sigmoid or Tan h  Activation Fns. Most of the time in Hidden layers we apply Relu so He initialisation will be good.,True
+@sourabhagarwal4852,2021-04-17T10:21:17Z,6,based on different activation function it depends  For Relu :-> He normal or uniform  For Sigmoid :-> Xavier or GLorot  For Tanh -: uniform intialization,True
+@muhammadarqamwaheed186,2021-04-17T09:51:43Z,1,"Bros I am new to big data,  any one can suggest me that what should I learn hadoop or apache spark as a data scientist?",True
+@sayantanmazumdar9371,2021-04-17T08:39:47Z,1,He init with relu activation and Xavier for sigmoid and tanh (2/n rather than 1/n is used in tanh),True
+@karthickraman4306,2021-04-17T07:45:37Z,1,"The mean of the activations should be zero. The variance of the activations should stay the same across every layer. We can use Xavier for every layers",True
+@nikhilchauhan9786,2021-04-17T07:38:17Z,1,"Weight should be small, uniform initialisation , Xavier/glorat unit, He init, batch normalisation",True
+@abhishekrohra9457,2021-04-17T07:32:54Z,1,Glorat uniform,True
+@amitgupta-ty8xd,2021-04-17T07:30:29Z,1,Weight initialisation techniques is used to overcome exploding gredient problems like he init/he uniform and Xavier gorat this are the techniques used...!!,True
+@shreyasb.s3819,2021-04-17T07:24:17Z,1,"1. Weight should not be zero or same value across neurons. Because its symtric problem so no learning happened. 2. Weight should not be very small values because it creates vanishing gradient problem. 3. Weight should not be very large values because it creates exploding gradient problem. Different types of weight initialization techniques Uniform, he, Xavier gloart etc Beaded on fan in and fan out we should calculate proper weight distribution.",True
+@SUMITKUMAR-qi6mz,2021-04-17T07:23:14Z,3,You are doing your advertisement ... that's it. Several time I ask you the pls help .. I think you are my mentor but you aren't.,True
+@parthagarwal4592,2021-04-17T07:19:07Z,2,we provide kernel_initializer = 'he_unform/normal' which is suitable for Relu activation function.  And 'glorot uniform/Normal' or 'Uniform' weight initializer for sigmoid activation function.,True
+@paramarthasengupta621,2021-04-17T07:12:17Z,7,"Uniform Distribution, Xavier Glorat Distribution (Sigmoid)or He init (for RELU)can be the approaches followed",True
+@sarthaktiwari3907,2021-04-17T07:11:48Z,1,"zero and random weight initialization techniques are used to initialize the weights in the neural network. zero weight initialization basically initialize the weights with 0 integer and when used with any activation function such as sigmoid the derivative of the weight is 0. Hence, it is not suitable for sigmoid activation function whereas, random weight initialization assigns a random small integer to the initial weight which can be hypertune while backpropogation.",True
+@harshgupta-vn1tl,2021-04-17T07:09:43Z,3,"Xavier Glorat for Softmax or tanh activation & He init for relu and its family(leaky relu, exponential relu etc.) activation functions",True
+@saitejakandra5640,2021-04-17T07:09:29Z,25,"He initializer--relu activation Xavier or glorat -- sigmoid or tanh activation This is standard approach, but it is not true always.. happy learning!",True
+@mitra.ashutosh,2021-04-17T07:08:58Z,16,Random initialisation is the best one in deep neural networks.  Another technique is zero initialisation but in that case the neural network stops learning as all the neurons have same weights because their weight updation during backpropagation is also similar.,True
+@manu1983manoj,2021-04-17T07:08:21Z,1,Another question was how many tensors are their in sequential model ..any idea what could be that?,True
+@mohammedmansoor9801,2021-04-17T07:06:47Z,1,"By just doing back propagation and using optimisers like (Adam, MSGD) and  Weight initialisation technique like ( He_uniform, Groat)",True
+@manu1983manoj,2021-04-17T07:05:24Z,4,"Hey Krish, in one of intw I was asked what stack you work on for machine learning ..I didn't know what exactly to answer..can you help??",True

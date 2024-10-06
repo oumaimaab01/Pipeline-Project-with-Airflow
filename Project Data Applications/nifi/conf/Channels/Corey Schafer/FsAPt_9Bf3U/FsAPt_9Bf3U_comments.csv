@@ -1,0 +1,821 @@
+author,updated_at,like_count,text,public
+@HairoHeria,2024-05-24T15:17:58Z,0,Kore ga... Decoraters... da,True
+@ThinkwithLex,2024-05-19T20:07:24Z,0,"A function (decorator_function) that takes another function (wrapper function) as an argument, adds some kind of functionality (print(message)) and then returns another function (hi_func , bye_func).  All of this is done without altering the source code of the original function that we passed in. (When (hi_func , bye_func) was created, no changes had to be done to the original code)  Am I correct?",True
+@Aref_JD,2024-04-04T15:24:11Z,0,I love you..,True
+@itsnevertoolatetolearn4875,2024-03-29T09:41:30Z,0,"2024 , and its still fresh and new. Thanks Corey",True
+@inityo,2024-03-23T22:51:23Z,0,This is so confusing.,True
+@drcl7429,2024-02-22T15:10:04Z,0,"if using the @ annotation, how is is possible to use the original unwrapped function?",True
+@ajflink,2024-02-09T15:32:36Z,0,"I taught myself Python, which seem more beneficial and focused upon for jobs after college even though I did not major in computer science or have any courses for Python.  I am very confident in my Python programming skills. I never touched decorators due to how my mind works as it ends confusing me and also learned due to the stuff I program and what I use Python for I have surprisingly not encountered a scenario where decorators would have been more beneficial.  It doesn't help that the short definition and repeated explanation of decorators is a function that modifies a pre-existing function brings up some many questions. Then, the example is just a decorator  that adds another print statement or does something so simple that is impractical making me question the point of decorators. I often forget that they exist.  I feel like decorators are one of those things in Python where if you haven't need something like it before, you probably don't need it now.",True
+@kapibara2440,2024-02-04T11:36:45Z,0,Complicated but still I enjoyed it! Thank you.,True
+@muralidhar40,2024-01-12T06:34:25Z,0,"In the implementation of decorators using a class, why is the class inheriting from ""object"" at 16:29 . Can anyone pl. clarify",True
+@500magnum4,2023-12-31T13:48:19Z,0,Simply awesome seven years later.,True
+@kartikeyamula9142,2023-11-29T18:19:01Z,0,"I have a doubt regarding the applying of the two decorators, @my_logger and @my_timer to the display_info function. First, display_info() goes into my_timer() function and there, the display-info() gets executed and so it prints: 'display info ran with arguments  (Hank, 30)', and then the time is recorded so it prints: ' display info ran in: 1 sec'. Then it returns the wrapper function, so now the display_info() function is now replaced with the wrapper function of the my_timer() function and is passed into the my_logger() function. The my_logger() function now creates a log file called wrapper.log and logs: 'Ran with args: (Hank, 30), and kwargs:' in the log file. But after that, orig_func(*args,**kwargs) is called again, with the wrapper function now being in the place of orig_func(), so why doesn't the wrapper function get executed again. Time stamp: 22:30 to 27:00",True
+@hitoya000,2023-11-05T12:16:22Z,0,what IDE you use here cus i find it to be nice to work with,True
+@trackstr1,2023-11-04T00:46:44Z,0,I love this man. I followed along by coding along and it has helped me gain a better understanding of decorators,True
+@spamfriendly6489,2023-09-28T22:34:39Z,0,You got to love this dude ! ! !,True
+@lg2058,2023-09-16T00:58:57Z,0,"Just when I thought it was about to be over, a wrapper on wrapper was brought up",True
+@hopegood9559,2023-09-12T14:50:57Z,0,you explain so well!! your videos are awesome! Brilliant! Keep up the good work!,True
+@karthikvenkataram4790,2023-08-01T23:30:45Z,3,This content is a boon for newbies like me to learn better about decorators and wrappers. Thanks a lot Corey Schafer 🙏,True
+@shuuuuu659fgg,2023-07-07T08:38:59Z,0,Altering the fun of the method is decorator,True
+@Olivechrystal,2023-06-26T19:26:49Z,0,Thanks a bunch. You just earned a subscription,True
+@lookback6314,2023-06-23T12:37:37Z,0,I have learned a lot from you! Thank you!,True
+@thomaspham2752,2023-06-21T20:13:53Z,0,"You are my idol! not only from your world-class art of teaching , but also from your kind heart to all-over-the-world students !",True
+@amigos786,2023-06-11T23:49:09Z,0,ChatGPT recommended me this youtube video! thanks for this video,True
+@maamounhajnajeeb209,2023-06-06T07:56:02Z,0,"starting from first class function to closure ending with decorators, whata aseries",True
+@tupaiadhikari,2023-06-05T15:44:30Z,0,Too Good Corey. We miss you !,True
+@nsb6703,2023-05-22T07:52:53Z,0,Your videos are the reason why i still have a job and I am able provide for my family. What you are doing is truly Gods work. If possible could you also start a series on GoLang. Thank you in advance.,True
+@usmonjonqohhorov5679,2023-05-15T14:39:19Z,0,you are the best,True
+@usmonjonqohhorov5679,2023-05-15T14:38:55Z,0,thanks for this great video. I aprecciate your work,True
+@joelrhine,2023-05-11T18:38:54Z,0,You lost me at ‘Hi’,True
+@newvegasfanh39cfb,2023-04-30T09:57:54Z,0,"Thank you, very nice tutorial!",True
+@aidynabirov7728,2023-04-26T18:30:18Z,0,Awesome!,True
+@parsaKh-un9vy,2023-04-20T21:46:04Z,0,which ide do you use ?,True
+@pravinalhat8017,2023-04-20T15:08:43Z,0,"Wow, what a great explanation!!",True
+@andreaardemagni6401,2023-04-17T11:48:35Z,0,Absolutely fantastic video. There are tons of videos out there about decorators where authors go super fast and it’s impossible to follow them. I will review other of your videos! Thanks,True
+@darshangauda6836,2023-04-16T15:32:54Z,0,"Hi @Corey Schafer , I really loved all your videos . Could you please add practice question set for every video you make. Thankyou for making such awesome videos.",True
+@ashtar4894,2023-04-11T14:18:58Z,0,Please do more on advance topics.,True
+@ashtar4894,2023-04-11T13:06:15Z,0,This really explains the concept. Only thing is that don't stop posting.,True
+@iincognito96,2023-04-06T04:14:49Z,0,bruh,True
+@MykhailoRogozhyn,2023-03-29T17:33:18Z,0,You are so cool teacher! I admire your videos! You have a talent for teaching!  Thank you very much!,True
+@ddw1518,2023-03-26T03:31:18Z,0,@27:35 The code:  from functiontools import wraps  @wraps decorator just add the functionality that the name of passing function(the argument passed to higher order function) But will u dive deep how the @wraps source code works?  Thank you sir!,True
+@ramrajecr777,2023-03-10T18:56:42Z,0,This is just awesome as it contains real life examples too and great basics in the beginning. ✨💲,True
+@hellionaires_sniping,2023-03-07T11:31:10Z,1,"Sorry to say this and I bet you help a lot of people, but I have really tried to learn by your videos and the following problems occurred for me. You go way to fast, I try to write the code with you and beuacse of the lack of real explanation and time , i really didnt pick up the things you try to teach. The second one is being practical in examples. In all your videos i think: what the * do i need this for?? , the third thing is you make me feel very stupid wich is very frustrating. I try a lot of different tutors with the goal to get a better understanding, but I just can use your video's at all, im sorry to say that but i hope you use this feedback for your videos in the future, greets Matthijs",True
+@tonicipriani6069,2023-03-05T02:37:17Z,0,For me it makes sense and seems analogous to 'creating a method for a function.',True
+@chilukanand,2023-02-26T07:11:47Z,0,,True
+@shiwamkarn5215,2023-02-25T14:42:05Z,1,11:14 sir what if we just call that original_function instead of returning it in line 7 .plz throw a light on this too.waiting for Ur reply🥺🥺🙏🙏,True
+@brianmachiestay556,2023-02-17T10:49:13Z,0,"great tutorial, thankyou",True
+@rickastley8459,2023-02-16T13:32:11Z,1,13:32 ,True
+@vm7240,2023-02-09T09:43:18Z,0,such a wonderful explanation to such complex topic!!,True
+@dilshodasrayev6241,2023-02-09T09:02:23Z,0,perfect explanation,True
+@philipchuks2427,2023-02-01T08:38:13Z,0,Definitely explanatory examples. Loved it.,True
+@nikhileshsaggere,2023-01-29T08:06:49Z,0,"Hi Corey, thanks for the excellent tutorial, i have already watched this video multiple times. It is a great resource for understanding and self learning of the concepts. It would be good if you can add one more real life use case for decorators (other than logger) which you regularly do in your explanations.",True
+@romanpacheco8197,2023-01-28T11:28:19Z,0,OMG! I finally understood decorators!! thanks Corey <3,True
+@alcatel1s508,2023-01-15T17:17:10Z,0,Qt my fav rpiZërô W RDS,True
+@alcatel1s508,2023-01-15T17:04:06Z,0,qSL oe77.5RDS,True
+@hajaksksnsjksksbsnsn,2023-01-12T08:45:14Z,0,Last 10 min,True
+@parmachine470,2023-01-10T01:46:16Z,0,Starting to make sense,True
+@lepidoptera9337,2023-01-08T00:27:55Z,0,"That's the ""How to screw yourself and everybody else at the same time"" pattern. ;-)",True
+@AmitMishra1993,2022-12-31T00:21:49Z,0,10:30 I tried a similar code and get a TypeError: 'NoneType' object is not callable. Goes away if I remove the parenthesis from the display(),True
+@thenukewijesinghe8234,2022-12-20T10:39:31Z,0,Thank you ❤,True
+@markcuello5,2022-12-10T17:18:30Z,0,SECURITY,True
+@zai_kun,2022-12-06T12:37:09Z,0,AHHHHH i cant understand how @wraps(orig_func) is working someone helpp,True
+@edchelstephens,2022-12-03T05:01:35Z,1,Just the explanation I was looking for! Thanks a lot Corey!  💯,True
+@dheerajkumar2534,2022-12-02T13:43:41Z,21,PURE GENIUS. BEST VIDEO ON YOUTUBE ABOUT DECORATORS.,True
+@kevon217,2022-11-27T14:19:50Z,0,You’re an excellent teacher. Best tutorial on decorators I’ve seen so far.,True
+@balloney2175,2022-11-17T22:23:27Z,1,Well explained but mind-boggling.,True
+@hayek2912,2022-11-14T18:49:56Z,0,Why there is no parentheses in decorator_function's return value 'wrapper_function'.,True
+@Lironah,2022-11-14T03:34:38Z,0,"I have been using these for weeks, but didn't understand them until 10:21. 🤯",True
+@sanjarnarzullaev,2022-11-12T09:39:37Z,0,Great video! Very comprehensive explanation!,True
+@nileshtiwari9376,2022-11-11T10:07:59Z,0,Thank you so much,True
+@mattjacobson5774,2022-11-10T16:10:29Z,0,"Shouldn't there be a mechanism to remove (and maybe also later reapply) decorators from a function? If the decoration was meant to be permanent, you would probably just make the wrapping code part of the original function.",True
+@marceloi4822,2022-11-04T17:42:27Z,0,Hi Corey. Greetings from Ecuador (South America). I'm learning very much about Python with your knowledge. Thanks a lot,True
+@sunilchowdhury5861,2022-11-04T17:02:53Z,0,"While trying to understand the different syntax associated with decorator, I accidently used both @decorator_function and 'display=decorator_function(display)' but what is interesting is now it is displaying 'Inside wrapper' twice. Not sure why this happening. Any explanation ??  Code below: ------------------------- def decorator_function(orig_function):     def wrapper_function():         print(""Inside wrapper"")         return orig_function()     return wrapper_function  @decorator_function def display():     print(""display function executed"")   display=decorator_function(display) display()  Result: ------------------------- Inside wrapper Inside wrapper display function executed [Finished in 554ms]",True
+@a21871,2022-11-03T23:48:25Z,0,Thank you :),True
+@rajat0610,2022-10-26T19:29:59Z,0,"wonderful video! i have one question though how do i pass params to a decorator, for example, the @app.route decorator the @app.route decorator takes path and methods as parameters, how do i make a decorator do that?",True
+@amsirajuddin,2022-10-23T20:30:30Z,0,nice one!,True
+@arthurpenndragon6434,2022-10-04T00:16:16Z,1,I was intimidated at first but your explanation is amazing! By the end with a little bit of coding-along I was able to catch up. Thank you for your work.,True
+@chaitsathe,2022-10-02T07:10:42Z,0,"Its Charm, !! Thanks",True
+@data9051,2022-09-30T22:12:35Z,0,probably going to have to revisit this video later on as this and all about classes is quite advanced.,True
+@scullyy,2022-09-27T11:19:13Z,1,Why does the wrapper need *args and **kwargs? I would have thought only the return statement would need it.,True
+@ZedusUA,2022-09-10T16:43:11Z,0,"great, thanks",True
+@abisonmathew6133,2022-09-08T02:38:40Z,0,well explained a difficult topic as usual,True
+@ssingh2k8,2022-09-05T13:10:36Z,0,best tutorial on decorators in Python. Thank you so much !!,True
+@parsakhavarinejad,2022-09-03T07:46:29Z,0,Thank you,True
+@korkunctheterrible4302,2022-08-30T10:45:47Z,1,"So I'm about a third of the way in, and from what I get, decorators are what would be in math if we could call a whole composite function by calling its innermost aegument, which is yet another function and hence callable?",True
+@user-qn5by5iv7u,2022-08-27T10:23:50Z,0,2022,True
+@shashwatshah3996,2022-08-26T17:32:49Z,0,absolutely brilliant explanation,True
+@Theawesometurtl,2022-08-26T04:17:03Z,0,"wow your content is so useful, I don't even use python anymore but your videos can still teach me so much about programming",True
+@mohammadamini1997,2022-08-20T07:51:35Z,2,The materials and the practical points were presented so wonderfully. Thank you so much for your great work.,True
+@akira_asahi,2022-08-13T04:15:27Z,0,"Thank you for the video. I am grateful for your time and contribution. Kind regards, Akira.",True
+@danielding8675,2022-08-12T01:58:43Z,0,"Wow, great help!",True
+@manojrao9867,2022-08-10T20:45:31Z,0,Very clear and neat explanation. Thank you.,True
+@tiagoshimizu9935,2022-08-04T22:21:18Z,0,you're legend,True
+@kavinyudhitia,2022-08-04T22:12:24Z,0,Thanks a lot!,True
+@farhadbaghyari9309,2022-07-31T08:42:25Z,0,"Great job man, great job. Thank you",True
+@alexmcleod3883,2022-07-27T05:56:57Z,0,Thank you!,True
+@fadym7508,2022-07-09T20:35:28Z,0,"corey, I owe you a lot <3",True
+@robertschmidt8624,2022-07-06T23:21:25Z,0,"Thanks to You I finally understand why/what *args, and **kwargs are for.  Thanks!",True
+@robertschmidt8624,2022-07-06T22:18:23Z,0,"Corey:  At roughly 2:25 why doesn't, 'outer_function(),' print out, ""Hi,""?  I thought that is how YOu called the function.",True
+@rockshankar,2022-07-04T02:54:59Z,0,Amazing explanation. i dont think anyone else can beat this.,True
+@felipica,2022-07-02T00:50:22Z,0,coisa de maluco esses decorator,True
+@JorgeEscobarMX,2022-06-28T17:39:34Z,0,"After watching this video, I realized that most courses on python skip class decorators and  functools import wraps, it is a long video, but very valuable info. Now I know how to use several decorators on one function properly.",True
+@JorgeEscobarMX,2022-06-28T16:26:14Z,0,Decorators start at 4:46,True
+@amranmohamed377,2022-06-26T12:30:53Z,0,"Usually, a closure is created when a function is defined in another function, allowing the inner function to access variables in the outer one.",True
+@arumugamkumar9563,2022-06-24T16:46:00Z,0,Thank you so much for sharing this video. all your video content and teaching methods is Awesome...👍👌👌👌,True
+@maryblessingumeh4948,2022-06-22T07:08:25Z,0,Really very helpful,True
+@AJ-et3vf,2022-06-20T04:06:17Z,0,Awesome video! Thank you!,True
+@sayedaweshrahman4608,2022-06-17T04:01:23Z,1,One of the awesome tutorial related to decorator in youtube 👏,True
+@GrantH2606,2022-06-15T01:33:35Z,1,"Reading the comments and seeing that people managed to understand it fairly easily makes me think maybe I'm just not cut out for programming because I really cannot grasp it, particularly why these methods of coding would be used. It just doesn't click for me.",True
+@junfan02,2022-06-14T20:23:55Z,0,Is free variable any variable that a function has access to or is it any non-local/global variable that a function can access?,True
+@NMD137307,2022-06-09T08:54:08Z,0,I'm learning programming and shifting to a career in software. Your videos are eminently helpful.,True
+@pavanjain2178,2022-06-07T17:24:43Z,0,"Superb Sir, I think this is the easiest way we can get this!!",True
+@zhipengwang1,2022-05-23T07:00:25Z,0,best explanation for decorators ever,True
+@gurumoorthysivakolunthu9878,2022-04-28T10:19:00Z,0,"I have a doubt, Sir... At 29:13 >> the final output with 2 decorators... Display_info ran with arguments Tom 22 .... This print statement have been printed only once, Sir... ... As We have incorporated 2 decorators... The display_info should have been executed twice, right... Then, we should be getting -- the print statement in display_info -- twice in the output, right... .... Please clarify this... ... Thank you, Sir....",True
+@aaron87cooper,2022-04-17T21:04:32Z,1,"Hey Corey - love your videos! Quick question:  I’ve seen you use snippets often. Can you describe how you use them to repeat design patterns, which ones are most useful, how they’re organized, and general tips on them? Might be good content for a video. Thanks!",True
+@mohammadalaaelghamry8010,2022-04-01T06:08:07Z,0,"That was extremely useful, thank you.",True
+@reality2304,2022-03-30T04:01:37Z,0,why this video did not have subtitle? i am crazy,True
+@kdlife0506,2022-03-27T03:43:50Z,1,This is what called quality teaching,True
+@androidmod183,2022-03-24T21:10:18Z,0,I need to rewatch this every day for a week maybe i understand what decorators do. Thank you anyway valuable content.,True
+@jackycwwang,2022-03-21T02:16:45Z,0,Thank you for your clear and in-depth explanation! 😆,True
+@sjwang3892,2022-03-14T12:57:39Z,0,How could someone explain this so clearly and easily understood??!! I'm crying. This is as smooth as a chocolate muffin,True
+@ibrahimal-mahfooz8737,2022-03-12T13:06:50Z,0,"I guess it is not necessary to have the (object) argument in the class definition of the class decorator example, right?",True
+@604_jassimshaji8,2022-03-09T16:45:33Z,0,Bro I guess u are probably the best python tutor considering  youtube as a whole ❤️,True
+@adrianramirez4272,2022-03-05T22:08:47Z,0,Best video ever of decorators ! Thanks !,True
+@Param3021,2022-02-19T17:15:47Z,0,"Real sir, you are great!!! What a great explanation, cleared everything. Thank you so much!",True
+@ayushtailor9941,2022-02-15T10:55:37Z,0,glad i found this chaneel,True
+@molnez,2022-02-13T14:01:28Z,0,"When making a decorator class, should one not stick to the regular 'first letter upper case for classes' naming convention?",True
+@DmitryKorDimKorzunin,2022-02-01T17:28:20Z,0,how it works for async functions?,True
+@sohamchatterjee750,2022-01-30T05:35:27Z,0,Sir you are an wonderfull teacher..i wish to be a student under your guidance...you are truely amazing,True
+@monasamir5288,2022-01-28T17:00:22Z,27,"I have no experience in programming whatsoever so my expectations for understanding the concept of decorators were pretty low. However, to my own surprise, after I finished the video, I managed to write and successfully run an entire decorator with no errors whatsoever. Thank you won't be enough! You have got a real talent in simplifying extremely complicated topics to non technical people such as myself and I'm extremely thankful that I got to witness this talent. God bless!",True
+@JoaoPedro-dx6pn,2022-01-28T12:56:19Z,0,"Amazing. Everytin in this video is perfect, you have the right pace to explain those hard things and i am glad that i discovered your video. Thanks!!!!",True
+@saikoushik4298,2022-01-19T17:57:29Z,0,Best teacher ❤️,True
+@6s6,2022-01-17T21:21:28Z,0,"The proper way to never forget how decorators work is just keeping in mind what that '@' syntax means:   @decorator  def function():     ...  is equivalent to: function = decorator(function).",True
+@varunmb3310,2022-01-13T14:35:52Z,0,very confusing and complicated concept in simple terms with practical code...Its Great🙂,True
+@nabilali1751,2022-01-12T11:44:02Z,1,This is simply amazing ... I learned in 30 minutes what a whole chapter couldn't teach,True
+@frankeknarf,2021-12-31T19:46:02Z,1,"Is there ever a time where it would be better in any way to use a class decorator instead of a function?  Honestly I'm trying to find any valid reason to use a class instead of a function in ANY case, but after many years I still haven't found any.  Using classes just seems to add a lot of unneeded complexity to everything.",True
+@MoximB,2021-12-23T14:35:18Z,0,"the subtitles 😭😂 ""boom boom""",True
+@danyalt8221,2021-12-17T16:13:52Z,0,It Was Awesomeeee! Thank You🌹,True
+@arun53413,2021-11-29T11:56:20Z,0,"Really Nice Video !! Thank you so much for this, which helped me !!",True
+@munteanionut3993,2021-11-15T14:03:00Z,0,"Thank you a lot, man! You a true G!",True
+@Dtomper,2021-11-13T16:29:01Z,0,Thank you so much,True
+@garyzhai9540,2021-11-13T08:17:30Z,0,Does an easy explanation really need 30 minutes to explain? Jesus,True
+@julianmahler2388,2021-11-08T18:36:36Z,0,The like/dislike ratio says it all. You are an excellent teacher. Thank you very much!,True
+@julianmahler2388,2021-11-08T18:30:27Z,0,27:21 German keyboard layout detected,True
+@Ahmad-lt2ff,2021-11-04T16:29:42Z,0,Thanks for The BEST EXPLANATION,True
+@j.javiergalvez7934,2021-11-02T02:36:52Z,0,Master class 🙌,True
+@danielbajac6543,2021-11-01T03:10:47Z,0,Very useful video man!  I learn a lot with you! Thank you,True
+@10a3asd,2021-10-31T18:30:40Z,1,"holy shit, this was amazingly helpful. I came here to bone up on decorators to understand how to use them to do cProfiling and logging and possibly using them with Prometheus and you covered probably 95% of what I needed to know for all of that.",True
+@robertwoodard8462,2021-10-18T19:17:02Z,0,"Top notch description. Very straight forward explanation, for wrappers, and had good examples.",True
+@ADESHKUMAR-yz2el,2021-10-18T18:11:38Z,0,sleeping pills,True
+@YeekyYeeky,2021-10-14T04:20:56Z,0,"Thank you very much Corey , your tutorial is really easy to understand , Thank you again",True
+@Gola-ok9sk,2021-10-13T07:58:50Z,0,Thank you,True
+@thebuggser2752,2021-10-05T03:34:04Z,1,"Great presentation of a difficult topic.  Very thorough and complete.  In general, most Python concepts are pretty intuitive.  I find decorators to be anything but intuitive and you did an excellent job of explaining it.",True
+@khumoyunurinboev6844,2021-10-03T08:04:29Z,0,time of wrapper and logger wrapper confused me :(,True
+@N0thingAs1tSeems,2021-09-30T18:59:35Z,0,"Really excellent video, I think I finally get it. Thank you!!",True
+@paulohsgoes1959,2021-09-29T14:12:42Z,0,"Just excellent! Congrats, man!",True
+@afzalh07,2021-09-28T14:57:27Z,0,"at 24:06   display_info = my_timer(display_info) is confusing to me !!  does this variable have to be same as the decorator function ?? Because in the first part of the video when the ""@"" wasn't used, the variable name was different than the decorator function. Am i missing something ?",True
+@killian7486,2021-09-23T16:05:17Z,0,Is there a way to also log the time from my timer?,True
+@zhengxijiang4087,2021-09-16T10:30:15Z,0,24:25 multiple decorators,True
+@rhinestone2,2021-09-01T07:57:56Z,0,Great explanation! I have been struggling with this concept but you have broken it down into its constituent parts beautifully and at last I can see daylight on this topic :-) ...,True
+@gauravgarg7703,2021-08-30T07:22:04Z,0,13:20 is there a way to return a function with arguments without executing it ?,True
+@this_rishi,2021-08-29T11:07:37Z,0,12:08 why does the wrapper function needs same number of arguments as the function we passed in the decorator function?,True
+@tcegaming2672,2021-08-26T09:59:31Z,0,3:40 just reminds me of classes with __init__,True
+@JesseOrmandMusic,2021-08-24T20:14:09Z,0,Imagine paying $100k to not learn this well in a college course,True
+@botaogao6552,2021-08-23T19:27:39Z,0,i didn't expected such a good explanation before watching this video!,True
+@simonlauer9379,2021-08-22T08:09:49Z,0,you are a legend! your channel and real python are by far my most favourite sources for great python content.,True
+@0xKvng,2021-08-22T04:54:55Z,0,Amazing.... Resembles Callback Hell in JaVascript....Thankful that was resolved with promises & Async-Await...Thanks for this tutorial,True
+@baxter6504,2021-08-07T02:49:25Z,0,How does the Python runtime avoid an infinite recursion when executing inner functions?,True
+@physicsteacher4569,2021-08-06T21:17:00Z,0,"You made this live for me.  All the other stuff I watched (to fix a problem with a Blender to Microsoft Flight Simulator exporter) was jargon and obfuscation.  Reminded me of the C Obfuscation competitions we used to engage in forty years ago!  I've subscribed!  I had to learn Python in a week, so you are my hero!",True
+@meralmaradia4774,2021-08-05T19:08:54Z,0,Superb man 👍🏻 !!!,True
+@GRZESIEK-cs6kd,2021-08-04T20:49:49Z,0,"I am a little confused. Explain to me one thing, please. I understand that we can use a decorator to create a ''new'' function to do something else than an original function without changing the original function. But WHY to overwrite the original function with decorator @decorator_function? We lose the original function (at ~10:00). Is it not better just to make one function instead?",True
+@sundaymanali5854,2021-08-02T07:56:54Z,0,nice vid,True
+@gravnine,2021-07-29T04:18:00Z,0,"If anyone is confused about the (object) next to the decorator_class, its redundant and you don't need to include it if you don't want to.",True
+@sanjeshl.d8572,2021-07-26T13:22:55Z,0,How to do f string instead of format used in this programming,True
+@donatellodonini3147,2021-07-23T08:19:11Z,0,"I have a question: Why do you use a wrapper function? I mean, if you want to execute a function inside another function you could do this:  def myFunc(a_function):      print(""start"")      a_function()      print(""end"")  I don't understand the motivation behind the wrapper, why do you have to define a nested function for than returning it?",True
+@alvarogaleano4331,2021-07-22T03:45:20Z,0,"Hello, in this line, print (""wrapper executed this before {}"" .format (original_function.__name__)) I do not understand how the {} gets assigned the string ""display""",True
+@cesararturocastanonacuna3325,2021-07-20T15:00:36Z,0,"Tough topic. Easy with you, mate!",True
+@petrkoklev6857,2021-07-19T11:13:32Z,0,Lost on minute 20,True
+@fillipeamg5877,2021-07-14T20:59:52Z,0,That's deep,True
+@bobwassell,2021-07-14T03:00:52Z,0,119 people's heads exploded.,True
+@user-zd6so7up8r,2021-07-05T13:49:16Z,0,"Amazing! In my country, Taiwan, there is no such great programming Youtuber like you.",True
+@jerenn.3687,2021-06-28T18:43:46Z,0,"Hello Corey everything was ok untill today , watched almost all your Python tutorials but this topic little complicated cant get  the concept why we need to use it when exactly. FYI coming from Java lang. Overall thanks for your effort u did awesome job",True
+@TechnoBots1,2021-06-25T03:10:37Z,0,I thought I had a good handle on python until I saw this video and realized I. Know. Nothing.,True
+@Daniel-ew8pb,2021-06-24T14:15:13Z,0,Is the issue with using multiple decorators the same if you use a class instead of a function?,True
+@kennyaulakh5444,2021-06-17T14:59:30Z,0,"Thank you for amazing explanation. I have learned a lot from these videos. A quick question. At 22 min, for my_timer function at line 29,  is there (what is the) a need to return result variable as per line 37 as return type is None. I have tried without and it works. As I understand we already called orig_func in line 34 and then we return the wrapper function on line 39. Please do correct me if wrong. Thank you in advance. Line numbers are as per GitHub repo.",True
+@tushardeshpande8593,2021-06-13T05:21:29Z,1,"You are true teacher Corey. Your videos are very precise to the topic, with a lot of logic and a perfect explanation.  Thank you for your contribution. We respect you!!",True
+@theaceman989,2021-06-06T21:31:12Z,0,That was great! Thank you,True
+@bharadwajsaibandaru4323,2021-06-05T18:06:03Z,0,Very good tutorial . Expecting a Python tutorial series covering advanced topics like meta classes and stuff.,True
+@kushalsapkota4155,2021-06-04T13:11:27Z,0,how display function has no arguments  whereas __init__ takes original_function as an argument .. How does the class decorator on display function worked without any error.???.,True
+@malikabushabab8757,2021-06-02T15:41:51Z,0,Thank you so much,True
+@AlvaroALorite,2021-06-02T09:54:39Z,0,"Soooo clearly explained, thank you.",True
+@ShubhamGupta-dc3pz,2021-05-29T10:02:56Z,0,https://www.youtube.com/watch?v=QBB0eCo3-aY,True
+@yuurishibuya4797,2021-05-29T03:44:26Z,0,I was bitten by a spider 🕷 and my brain 🧠 melted off... wait that was a closure and decorator biting me!,True
+@CharleswoodSpudzyofficial,2021-05-27T04:11:19Z,0,Hooooooly crap dude this is 👌,True
+@rongliao9255,2021-05-26T10:46:29Z,0,Great tutorial! Thanks a lot!,True
+@dhanakrishnamaharjan3536,2021-05-25T23:59:11Z,0,"I am a bit confused at 19:28. when using the my_logger decorator, if we run both the display() function and display_info() function with a decorator, then only the display.log file is created but the display_info.log file is not created and every logging info for the diplay_info is being stored in the display.log file. Shouldn't there be two log files: display.log and display_info.log for each of the functions?",True
+@dhanakrishnamaharjan3536,2021-05-25T16:49:37Z,0,You are a GEM!,True
+@ThistleBlue,2021-05-23T21:46:18Z,0,OK this video must be good. I'm only 6 minutes in and after spending the last few days trying to understand Decorators it clicked. I looked at the code I've been using to understand it and I just saw it. So cheers!,True
+@qureshiowais6951,2021-05-21T15:39:04Z,0,why to use args and kwargs both I mean if you could take any number of args with args then ????,True
+@myblrapp9627,2021-05-21T14:43:01Z,0,"Very good explanation. But I didn't understand why ""object"" in class definition was given in the 1st line. I ran the code without ""object"" as an argument of class. To understand, I may have to go through Corey's Class videos. Thousands likes for making these videos 👍👍",True
+@jdsahr,2021-05-20T18:09:29Z,0,Schafer's videos are superb.,True
+@protonagaiako6201,2021-05-18T18:54:48Z,0,ow my head I think im going a *tiiiny* bit over my skill level with this video,True
+@Dave-do3pp,2021-05-18T12:42:31Z,0,Corey =  GOAT !  Thank you as always  😎,True
+@niteshrathi4241,2021-05-11T21:05:49Z,0,Hey Corey can you tell  me how to use decorators with recursive functions. Btw huge fan of your videos. Keep up the good work.,True
+@rajeshjsaharan,2021-05-09T12:10:34Z,0,"After deleting outer function del outer_function  We can still access  print (display.__name__) #output : wrapper_functiom display = outer_function(display) display () #still gives output ""display function ran""   This is what a closure do.",True
+@mouaadrio5883,2021-05-06T04:35:02Z,0,what font is he using please ??,True
+@theeox,2021-05-06T02:45:04Z,0,This was SUPER helpful.  You now have a new subscriber!  Thanks!,True
+@amranmohamed377,2021-05-03T03:00:13Z,0,So how which do we use for this?,True
+@mrk-2396,2021-05-01T16:40:25Z,0,Thank you Corey!,True
+@hackercop,2021-04-28T19:51:02Z,0,"8:00 the most complicated way possible to output ""display function ran""",True
+@akshaydesai2483,2021-04-28T15:03:20Z,0,"You are amazing Corey, I always understand any concept better manner after watching your videos...Thank You and keep up the good work...",True
+@MySelf-kq5pr,2021-04-26T07:08:11Z,0,what does __init__ and __name__ do? also format {}?,True
+@TheHippyHoppyHippo,2021-04-25T14:20:41Z,0,It really annoyed me when he broke Python's conventions by using Snake Case for a class' name.,True
+@cnewtonc,2021-04-25T12:26:13Z,1,"Very good video:   That being said.   *There are faster ways to call a function within a function that is pass as a function to return a function*   I like the video and love Python; however,  after so many years of coding and countless projects. I can say that decorators are rarely used because most programmers would simple used CLASSES / OOP to perform the same task.",True
+@rab_x6958,2021-04-22T15:59:30Z,1,7:50 that's rocket science! i have done so many projects in python! and I cant complete this video in 3 hours!,True
+@56BAK,2021-04-16T20:16:47Z,0,One of the best,True
+@singhkuldeep911,2021-04-13T12:36:59Z,0,"Hi Corey, I found your videos very helpful thanks for upload.",True
+@ajitsekhar2716,2021-04-13T07:43:10Z,0,I did not understand how the wraps decorator resolved the problem when multiple decorators were used. I mean how was the original function returned instead of wrapper function when time decorator was called. Can anyone explain it please?,True
+@mohammadtonmoyhossainjifat6693,2021-04-09T14:07:16Z,0,man how wrap works ?,True
+@9903031884,2021-04-09T06:37:07Z,0,"Only question would be if I want to use the decorated function sometimes in a non-decorated mode too, can that be done? I am asking this because whenever one puts the @<decorator> command above the function definition, the defined function is always called in a decorated mode!",True
+@cegonaove,2021-04-06T14:19:50Z,1,"God bless you for your content, buddy. It changes lives.",True
+@loganwalker454,2021-03-30T05:11:49Z,0,"Corey, does the inner function take arguments?",True
+@jpmol17,2021-03-27T23:09:43Z,2,"It's impressive how after 5 years your videos are still helpful and relevant, even though it's from early version of python. Great content man, very didactical !",True
+@landw1802,2021-03-26T01:23:45Z,1,"Best Python tutorial came across so far - great pace, materials, and such a nice unwrap of the mysteries around “wrapper”!",True
+@mahbubrahman5340,2021-03-23T14:17:42Z,0,Thanks Corey! I always understand you.,True
+@user-a_fellow_traveler,2021-03-22T08:59:41Z,1,"thanks a lot, this video really helped me to get the concept of decorators",True
+@sauceontoes3457,2021-03-22T02:55:45Z,0,Thanks sir you are amazing,True
+@kris_maussen,2021-03-20T16:56:18Z,0,Thanks for your good explanation.,True
+@seanli75,2021-03-17T21:49:20Z,0,Thanks for the tutorial! I had trouble with this when taught.,True
+@douzigege,2021-03-17T21:14:28Z,0,"The best video on the wrapper! I am using Python 3.7.9, it seems that I do not need to add @wraps(orig_func) and the output gives the correct name already?",True
+@andreeaArt_,2021-03-15T20:01:07Z,0,"At 11:24 I ran the code except for the last line: 'display()'. Surprisingly, it displayed the right messages as if I would have run the command 'display()', but when I tried to run this command also, the following error showed: 'line 15, in <module> display() TypeError: 'NoneType' object is not callable   What could be causing this? Thanks!",True
+@doughntworry,2021-03-09T12:32:27Z,0,very good explanation and clear examples.,True
+@shriharimutalik3231,2021-03-06T06:09:27Z,0,"from functools import wraps ''' We need to pass in the amount of time , we want the thread to sleep to the set_sleep_time Here we can use my_timer as the decorator and set_sleep_time as a function to pass arguements to that decorator function ''' def set_sleep_time(seconds):     def my_timer(orginal_function):         import time          @wraps(orginal_function)         def wrapper_function(*args,**kwargs,):             t1 = time.time()             print(f'Sleeping for {seconds} seconds')             time.sleep(seconds)             result = orginal_function(*args,**kwargs)             t2=time.time() - t1             print(f'{orginal_function.__name__} ran in {t2} seconds')           return wrapper_function      @set_sleep_time(2) def display_info(*args,**kwargs):     print(f'Ran with Positional Arguements : {args} and Keyword Arguements : {kwargs}')     display_info(name='Dome')  I am getting error : NoneType object not callable",True
+@sauravshukla2492,2021-03-03T18:03:11Z,0,You are the best instructor in the whole world,True
+@anumalik9555,2021-02-28T17:11:16Z,1,"This is simply amazing.. your tutorials are really logical, conceptual, precise, and explain everything that make python a lot easier to understand. Thanks for posting tutorials. A big thanks... :)",True
+@drishtibhasin1229,2021-02-28T09:20:10Z,1,What font is this?,True
+@duckymomo20012,2021-02-27T14:54:22Z,0,Good explanation tks a lot.,True
+@cloudyrathor,2021-02-26T09:07:15Z,0,"you are awesome man, The teaching style is simply awesome.",True
+@muddassirbari,2021-02-22T13:08:44Z,0,why is every language becoming javascript.!!,True
+@ibrahimali-xd3bw,2021-02-21T07:11:23Z,2,"Great explanation 12:41 I think only *args should be passed , no need to pass **kwargs Thanks",True
+@RaoulEvilD,2021-02-21T03:02:10Z,0,"So interesting, I need to try this RIGHT NOW! Thanks for this educational content.",True
+@deepamgupta8011,2021-02-19T07:48:11Z,0,Thanks for also explaining the @wrap decorator too,True
+@himajaharidas4789,2021-02-16T11:19:12Z,0,Thank you so much for this wonderful video,True
+@isaaclui4310,2021-02-12T17:18:09Z,0,Your explanation really help me out!,True
+@user-wc1sm8cj8s,2021-02-11T02:19:24Z,0,great tutorial sir!!!!,True
+@Martin-lv1xw,2021-02-06T19:36:04Z,0,"thanks `Corey,,,,I enjoy  your teachings so much....",True
+@miniyoutube6383,2021-01-31T10:37:40Z,2,"what is the meaning of ""waiting to be executed""...",True
+@nockchagreen5193,2021-01-30T13:43:20Z,0,Thank you Corey~!! 😎,True
+@mr.dineshlee,2021-01-29T12:18:22Z,0,Thanks Bro,True
+@characterstheottersiouxaar5968,2021-01-27T09:50:09Z,0,Dickinson And Dickerson,True
+@sriram9786,2021-01-24T11:38:57Z,0,Now I can tell I completed python.,True
+@sriram9786,2021-01-24T11:30:00Z,0,Well said. 🙂,True
+@abhishekmani3867,2021-01-23T14:00:48Z,0,explained such a confusing topic in easiest way ..thank you very much,True
+@roro4787,2021-01-22T20:53:31Z,0,Pure gold,True
+@1conscience0dimension,2021-01-19T18:15:52Z,0,I feel wrapped,True
+@rk5759,2021-01-14T12:01:57Z,0,Oh my God. I love you man.,True
+@ionutth4895,2021-01-13T11:58:24Z,1,"I dont understand where would you use this, its pointless to show syntax its better to show use case and then syntax this seems useless without code example solving a real problem.",True
+@jaymeetvasava7668,2021-01-08T09:51:32Z,0,"Chris Nolan and Corey Schafer are really good directors, tweaked the inception comment.",True
+@naveenv3097,2020-12-31T10:34:42Z,0,"when stacking 2 decorators @my_logger and @my_timer the output should have been printed twice , right?",True
+@bishnudas3562,2020-12-26T12:35:00Z,1,class decorater_class(object):  why did you passed object here? what does it mean?,True
+@sijingxue8379,2020-12-23T21:45:27Z,1,"stupid question: what's the difference between the following two codings?    1. logging.basicConfig(f""filename= {orig_func.__name__}.log"", level=logging.INFO)         2. logging.basicConfig(filename='{}.log'.format(orig_func.__name__), level=logging.INFO)  i got an error with the formmer one.",True
+@anandiborade6349,2020-12-22T08:31:41Z,0,Which ide are you using?,True
+@thuanngh820,2020-12-14T16:21:38Z,0,thanks a billions.,True
+@xzl20212,2020-12-13T02:41:28Z,0,The 2nd time review✋,True
+@pldisturbme,2020-12-12T19:06:57Z,0,Well explained Corey ! Thank you.,True
+@darkhacks5743,2020-12-05T08:51:27Z,0,Thank you so much Corey without you I would probably take months to properlly understand decorators,True
+@UnpluggedPerformance,2020-12-04T15:01:58Z,0,youre a hero,True
+@RATANAGARWALITINFORMER,2020-12-02T15:30:53Z,0,V GOOD INFO,True
+@allanhenriques2694,2020-12-01T19:24:39Z,0,great video!,True
+@theshahrukhfit3154,2020-11-28T01:51:12Z,0,Great video. Thanks Corey,True
+@darleyt1,2020-11-27T11:22:07Z,0,"Corey you are a legend, thanks for this :)",True
+@MK-yl7jl,2020-11-26T07:27:59Z,0,I think I am ready for String Theory after this. LOL Thanks Corey :),True
+@mohamedabdelmalekbouchrika6134,2020-11-25T23:26:31Z,0,broo just thank you wish you the best,True
+@idiotidiot6092,2020-11-25T15:31:09Z,0,"I love this guy,gonna build a career Bcuz of his videos ❤️🙏",True
+@AA-sf6fp,2020-11-22T14:08:14Z,0,Can someone explain Kwargs and the need for them?,True
+@MsKshitij1234,2020-11-20T07:38:12Z,1,i like corey's dog videos more than his python videos,True
+@harvey2242,2020-11-18T14:32:12Z,0,This video is GOLD!!!!!,True
+@Chineeex,2020-11-17T17:07:32Z,1,"Hands down the best tutor! Your way of explaining even the most complex topics with easy to understand examples, as well as your explanations are amazing! I would like to thank you for taking your time to make all these amazing tutorials!",True
+@mazyar79,2020-11-16T22:13:14Z,0,"Thank you Corey! Terrific explanation as always - you're a master when it comes to explaining complex topics and making it simple to understand for anyone watching your tutorial.    I did have a question though regarding the end of video when you went over ""from functools import wraps"" to essentially solve the issue of why the wrapper.log file was getting created vs. what we wanted which was the display_info.log file.  My question is how does adding in the decorator wraps(orig_func) actually solve the issue - I understand by decorating the wrapper that it magically solved it but was curious if you could provide a little more detail on why that is?  Thank you in advance!",True
+@yousefdolatabadi1165,2020-11-16T14:46:44Z,0,holy Geez,True
+@mrinalraj7166,2020-11-10T03:46:52Z,1,I am glad I found you out. Subscribed.,True
+@raghavkedia8687,2020-11-10T02:54:43Z,0,It's all like a func-ception.,True
+@alexandrutoma9187,2020-11-07T20:18:46Z,0,Great tutorial ! Like and subscribe from me.,True
+@kc3020,2020-11-07T15:41:26Z,0,awesome!!!,True
+@robohaul5048,2020-11-05T14:42:14Z,0,Thanks a lot,True
+@valijoneshniyazov2553,2020-11-04T13:58:16Z,0,i am lit bit in a rush. need to watch when you have weekend free,True
+@fastrunner8494,2020-11-02T18:37:08Z,0,"Thank you for the most part, but at some 5 last minutes when you introduced decorators with parentheses, i expected a little more bit of explanation about that.",True
+@haroldpepete,2020-10-28T22:04:47Z,0,I love python for all the functionallity and its easy way to do it,True
+@iqsa021s,2020-10-26T13:53:16Z,0,"Sorry, the subtitles are gone after 2 minutes, I hope they can be adjusted back for the viewers, thank you!",True
+@santos3131,2020-10-24T16:24:12Z,1,"Very well paced, comprehensive, and has concise examples. One of the best tutorials I've seen, got all the info I needed in 5 minutes",True
+@Factory400,2020-10-14T20:03:30Z,0,First time I watched a coding video at 1/4 speed......still needed to pause on a regular basis.,True
+@k0n3j0,2020-10-14T16:43:09Z,0,Thank you for the video. Very useful and simple explanation of class decorators.,True
+@idanbunimovich8350,2020-10-12T12:58:09Z,0,how do i enter the value of the resault returned inside the wraper function inside my timer?,True
+@bassmaiasa1312,2020-10-12T00:16:19Z,0,"It looks to me like with @decorator_class, the added code must go before 'return  original_function', or the added code won't run.  With @decorator_function, the new code can go before or after the return statement,.  So with that flexibility, I prefer to use @decorator_function.",True
+@forrestwei7649,2020-10-11T08:39:34Z,0,decorator => closure => first-class functions,True
+@asifsyed7302,2020-10-10T08:29:48Z,0,Very nice and smooth explanation. Liked that you shared practical examples :),True
+@neon13x,2020-10-07T16:57:25Z,0,"Expecting to see decorators with parameters, Little bit disappointed :( Anyway very well explained :)",True
+@Tyokok,2020-10-05T15:53:25Z,0,"Thanks for the great video! One quick question, does decorator need install package? python3.7 gives this error: AttributeError: module 'functools' has no attribute 'lru_cache' But when I run line by line it succeeds. Thank you for advice!",True
+@gingergiant89,2020-09-29T23:16:58Z,0,"Great video, thanks Corey. I had a question about the logging decorator - I ran a couple of different functions through it but they both ended up being logged in the same .log file (under the name of the first function). I can't for the life of me work out why they weren't logged into separate files (each named after the function name). Should the .log file be closed at the end of each log or something ? Ta!",True
+@cryptoniccodict9566,2020-09-29T13:49:00Z,0,Thank you so much sir you are making my concepts clear wish to see u make more videos and yeah i am gonna share  your videos to my friends,True
+@GodotEnjoyer,2020-09-26T16:46:16Z,1,"To the people who want to use a decorator like my_logger one multiple times in other functions ,  you should put the logging.basicConfig inside the wrapper so it creates a new file.log with the name of the functions and the rest of it.",True
+@dadestor,2020-09-25T20:55:36Z,1,Corey you are amazing! I have been having trouble understanding the concept of decorators but this tutorial has made it perfectly clear for me!,True
+@yuval1588,2020-09-25T15:28:06Z,0,"You lost me at @wraps() , this was the first time you showed us a decorator followed by  ( ). What does it mean? Are you invoking the decorator?",True
+@yuval1588,2020-09-24T20:37:44Z,0,What would we do without you Corey?,True
+@jayeshvasudeva1133,2020-09-23T11:17:52Z,10,"when he explained *args and **kwargs, tears fell down my eyes",True
+@JeanDAVID,2020-09-18T16:19:24Z,0,really love your lectures !!,True
+@HK-sw3vi,2020-09-17T11:00:03Z,0,can't wait for a Nolan movie on this topic,True
+@sieyk,2020-09-17T09:41:09Z,0,Massively appreciated the practical examples.,True
+@williamdu9200,2020-09-15T16:49:37Z,0,I have a question that why my_time printer always behind my_logger printer when I changed the order of the decorator.,True
+@chuckinator0,2020-09-14T06:52:11Z,0,Nice! Probably could have started with the practical examples,True
+@sphiwematone8196,2020-09-10T15:13:11Z,7,"Nobody has ever really had this impact in my life honestly, you sir are my hero I dont even have enough words to describe how great you are. It's also fascinating and soo godly how someone you have not even met can have this amount of impact in your life. You have done for me what no one else has ever done to my life, I moved from being a complete novice to intermediate and I'm hoping to keep learning from your videos. You are the best💯💫👑",True
+@abdelhamedahmed1529,2020-09-08T07:34:39Z,0,great,True
+@vishalmishra1937,2020-09-06T07:41:24Z,0,finally after completing all prerequsites i  am here,True
+@livingwithlinlin3122,2020-09-03T17:29:21Z,1,Best decorator tutorials with best practical examples. Not a long video considering how much info it covers. Well worth the time.,True
+@Asadkhan-gs9ms,2020-09-01T05:59:48Z,1,"Total bounce, can't understand decorators 😭",True
+@amatya.rakshasa,2020-08-31T20:36:42Z,0,Dude.. you're an excellent teacher!!,True
+@sunshadow9704,2020-08-30T19:42:18Z,0,Exceptional explanations. You are one of the best teaching others. Thank you Sir.,True
+@subhasreegupta8669,2020-08-27T17:50:45Z,0,Feeling like watching Dark Season 3 for first time. Still best videos on decorators.,True
+@sumitmahadik6139,2020-08-27T08:01:08Z,0,very precise explanation with proper examples. loved it,True
+@vitorsouza9586,2020-08-22T23:53:33Z,0,"You´re such an awesome explainer, thanks for the instructions, it will help me a lot!",True
+@ahmedshalaby1878,2020-08-20T15:38:54Z,0,You're  the best 👌,True
+@abdelrhmanahmed1378,2020-08-19T16:20:35Z,0,def decorator_fun(original_fn):     print('a')     original_fn()   @decorator_fun def display():         print('decorated fucntion is hereee ')   why this code without code without doing any thing esle print a decorated fucntion is hereee,True
+@abdelrhmanahmed1378,2020-08-19T16:15:26Z,0,"why its ok to add tuple ,dict argument packing to  def decorator_fun(original_fn,*args,**kwargs), and that will not raise and error  and even if we dont put that in the decorator func argument  as the video it will not also raise and error , iam little miss here",True
+@luisnicolasyacar8336,2020-08-18T21:47:23Z,0,Which IDE is this?,True
+@abdous6052,2020-08-18T14:03:12Z,0,my brain hurts,True
+@sargun_narula,2020-08-15T20:59:41Z,0,What magic did the functools wraps did? Btw @Corey Schafer you are seriously the best teacher out there .. Cheers !!,True
+@Dr.Tree13,2020-08-10T20:15:39Z,0,"One of the best tutorial about python on youtube.   If the author can slower his speaking rate, I won't complain anything",True
+@k.l.dyellow6463,2020-08-05T21:30:49Z,0,"in general, does decorator require to return the original passed fucntion (e.g. orig_func) in the wrapper function? if so, why? (note - I am not asking the return for the 'wrapper' but the *inner* return)",True
+@Proman155,2020-08-04T11:24:56Z,0,8:42....bold statement,True
+@orkhanahmadov9963,2020-08-02T16:03:18Z,0,Okay guys just define a function which will return the result of other function... Don't even enter this decorator shit my brain stopped,True
+@orkhanahmadov9963,2020-08-02T15:59:53Z,0,Omg.... I am writing small programms but first time i got stucked ... 5 lines of code i cant understand,True
+@alenjose3903,2020-08-01T16:00:11Z,1,"What we know is a drop, what we don't know is an ocean.",True
+@kadhirn4792,2020-07-28T19:51:44Z,0,Corey is the de facto leader of imparting Python.,True
+@hangchen,2020-07-27T22:53:02Z,0,"Damn clean, clear and concise!",True
+@user-oj3pg4vy1k,2020-07-27T09:00:36Z,0,Is it possible to use fstrings instead of .format?,True
+@Drago.23,2020-07-26T18:17:19Z,0,"In laymen's terms, you're making a gift(the main function), wrapping it up with a decorating sheet and presenting it.",True
+@ReemRashwan,2020-07-26T14:54:40Z,0,"Great video as usual Corey, thank you.",True
+@timuzlov4711,2020-07-24T10:51:32Z,0,Amazing! Perfect explanation!,True
+@renujain8911,2020-07-21T04:02:19Z,0,One of the best teacher to understand any complicated topic within programming knowledge...,True
+@NITISHKUMAR-qh6fb,2020-07-21T02:35:51Z,0,Hands down what a intuitive explanation.You are legend.,True
+@beelzebub3920,2020-07-19T23:20:53Z,0,deja vu,True
+@beelzebub3920,2020-07-19T22:58:30Z,0,so we pass a function in to a function and that executes another function and that executes the function that we passed in.,True
+@aksjin8929,2020-07-19T11:20:58Z,0,👍,True
+@glaceondev4149,2020-07-18T09:36:43Z,1,after learning decorators i forgot how to print hello world :') pls send help,True
+@draco_storm_888,2020-07-13T12:09:21Z,1,I found u the best explainer in the whole youtube brooooooo u r grrrrrrrrrrrrrrrrre@t,True
+@draco_storm_888,2020-07-13T12:09:15Z,1,I found u the best explainer in the whole youtube brooooooo u r grrrrrrrrrrrrrrrrre@t,True
+@draco_storm_888,2020-07-13T12:09:12Z,1,I found u the best explainer in the whole youtube brooooooo u r grrrrrrrrrrrrrrrrre@t,True
+@draco_storm_888,2020-07-13T12:09:07Z,1,I found u the best explainer in the whole youtube brooooooo u r grrrrrrrrrrrrrrrrre@t,True
+@draco_storm_888,2020-07-13T12:08:21Z,1,I found u the best explainer in the whole youtube brooooooo u r grrrrrrrrrrrrrrrrre@t,True
+@draco_storm_888,2020-07-13T12:08:16Z,1,I found u the best explainer in the whole youtube brooooooo u r grrrrrrrrrrrrrrrrre@t,True
+@draco_storm_888,2020-07-13T12:08:12Z,1,I found u the best explainer in the whole youtube brooooooo u r grrrrrrrrrrrrrrrrre@t,True
+@draco_storm_888,2020-07-13T12:08:05Z,1,I found u the best explainer in the whole youtube brooooooo u r grrrrrrrrrrrrrrrrre@t,True
+@PR0MINENCE,2020-07-11T20:35:43Z,3,Decorating rappers,True
+@parhamk75,2020-07-11T11:14:45Z,3,This tutorial was the best; It expresses the depth of your comprehension and mastery on this issue!,True
+@isabellez5671,2020-07-10T23:48:55Z,0,"so the decorator_class needs to have the object argument in order to be a decorator? if you use class class_name(argument) it makes me believe that you will inherit the ""argument"" class to the class_name so why is it different? Bottomline, is ""object"" here a specific keyword that needs to be used for a class to be a decorator?",True
+@ronraymond,2020-07-09T18:04:14Z,0,"Your videos are always my go-to when I'm looking to learn something specific.  You're really thorough and your examples are great.  This one scrambled my brain though.  On top of the inception level level details to keep track of, you kept using the words Function, Functions, Functioning, and Functionality, so I had to keep rewinding to make sure I understood which one you were referring to",True
+@madhavpruthi4474,2020-07-08T09:23:09Z,1,Crisp n clear. Thanks for the video,True
+@sashabagdasarov9649,2020-07-06T14:29:11Z,1,"i really happy when i search solution for my trouble, and  find your video",True
+@tradesandrides626,2020-07-05T02:26:23Z,1,Wonderful video 👌 Very clearly explains the concept. Thanks,True
+@anjankumar547,2020-07-05T01:44:46Z,1,"Explained very nicely, thank you",True
+@sayantaadhikari8930,2020-07-05T01:00:22Z,0,"In the recent version of python do we need to use the wraps decorator, because without it also the program is working the same.",True
+@thsdsyt,2020-07-04T13:55:11Z,3,This videos was awesome! Really simple examples for complex tasks. The only thing that I couldn't grasp properly was the idea the wrap decorator inside the functools module. Maybe a video about this specific decorator should clarify this tool a little more. Thank You!!!,True
+@frederickchesneau1155,2020-07-01T19:16:35Z,2,"Hey Corey, I am going through your videos which are awesome. This one in particular is mind blowing! I was able to understand the concept during the video and you saved me countless hours of coding and reading :). Keep it up!",True
+@anshulkanwar1,2020-07-01T11:26:39Z,0,13:55 why did he pass an object? it works without that too,True
+@bobman6966,2020-06-26T09:51:10Z,0,Thank you for sharing this knowledge.,True
+@prathameshmahankal4180,2020-06-20T21:05:34Z,1,"No matter how many tutorials I see, none of them can compare yours! Great job, sir!",True
+@ARJUN-op2dh,2020-06-20T04:53:07Z,0,"came for decorators, went to closures, then went to first-class functions ... whoosh..",True
+@joaopedrorocha5693,2020-06-19T18:42:21Z,0,"Wow,  i think this is exactly what i need in a little project. I've ended up naturally creating structures like this but kind of manually by passing the data instead of the function itself, this way is much cleaner and reusable. I was calling russian doll functions, now i know the right name :D",True
+@syedabdulrahmans3357,2020-06-18T04:23:57Z,0,"# a func that takes another func as an argument adds some kind of functionality and returns another func # all of this without alternating the source code of the original function you passed it.",True
+@sanjuverma7052,2020-06-18T01:05:52Z,0,"you are awesome , man   god bless you🙏",True
+@Retrosenescent,2020-06-16T16:59:41Z,0,Extremely well-explained. Still seems very niche though.,True
+@ShermanSitter,2020-06-15T23:13:04Z,0,"I laughed out loud (literally, not ""LOL"" figuratively) at 8:10.",True
+@Oda3908,2020-06-15T15:19:33Z,3,"Corey, you are a true mentor and master of programming. I was just trying to remember what its definition said but couldn't understand how it works for those complex explanations. You make it concise and clear, show it in a logical and straight forward way. I just want to say thank you that for all of your tutorial videos you saved so many self-taught programmers.",True
+@xinyucao5550,2020-06-15T08:49:00Z,1,Amazing explanation!,True
+@anonMarks,2020-06-13T06:32:45Z,1,Good Tut,True
+@gozze2007,2020-06-12T10:31:47Z,1,In 2020 there is no more need to use functools in order to get the right naming of the wrapped functions as this is fixed in Python 3.7.3,True
+@shahriardhruvo4333,2020-06-08T17:48:57Z,2,"Thanks sir, I can't thank you enough for giving these awesome explanation as someone like me who is a non-native English viewer can understand for free.",True
+@daiguel5706,2020-06-08T07:45:21Z,2,"you're the best, I like all of your videos",True
+@jmbharathram,2020-06-06T09:06:21Z,0,"I expected each of my display functions to have its own log. But both got logged in the same display.log. Any clue why?  def my_logger(orig_func):     import logging     logging.basicConfig(filename='{}.log'.format(orig_func.__name__), level=logging.INFO)      def wrapper(*args, **kwargs):         logging.info(             'Ran with args: {}, and kwargs: {}'.format(args, kwargs))         orig_func(*args, **kwargs)      return wrapper  @my_logger def display():   print(""Display function ran."")  @my_logger def display2(caller):   print(f""Display function ran by {caller}."")  display() display2(""Bharath"")",True
+@dpynsnyl,2020-06-03T12:19:03Z,0,"Essentially the display_info is running twice, once inside timer and once inside logger. So I am bit confused why is it not printing ```display_info ran with args``` twice?",True
+@knightfury8493,2020-06-01T20:16:09Z,1,Now I'm  gonna go and watch inception  and see if that makes any sense,True
+@nikhildharap4514,2020-05-29T15:08:10Z,1,awesome video ! thanks for making this,True
+@rusjazz86,2020-05-28T13:48:30Z,1,"I'm not native english speaker, but when i watching your videos i understand better, than when im watching videos in my native language.  Thank you for you great job!",True
+@simonchou4597,2020-05-27T01:41:40Z,2,That's really helpful! thank you,True
+@eduardolpz386,2020-05-26T18:50:29Z,0,Does the __call__ method run every time we invoke the class?,True
+@g2nd,2020-05-26T17:59:05Z,1,"Finally, a python developer who uses names on functions and variables clearly.   Unlike those that I watched prior to this, using f, f1; tire, tires; div, div1.  Thanks Corey!  This made following the execution flow easily and effortlessly.",True
+@j.d.3890,2020-05-23T09:17:05Z,0,I wonder what happens besides that @wraps decorator from functools module because I would never solve that issue without it..,True
+@meghaaggarwal8508,2020-05-22T18:26:10Z,2,Thanks Corey for this indeed amazing tutorial. You are pretty good at giving us strong basic fundamentals on Python!! Such a crisp explanation of decorators,True
+@phytasea,2020-05-22T18:06:24Z,1,"Thank you so much for your time and effort, I clicked like and subscribe button. at 16:05 you have code in line number 18 return self.original_function(*args, **kwargs) I wonder why it still has ""return"" since it is not a function, it is class.. for me, it generated error but it seems you are okay?? it seems you already changed in code snip can you put a dialog box on video too if it indeed has to be removed. Thank you again.",True
+@helgurdazizmirza7875,2020-05-20T10:57:42Z,0,"At minute 13.40  while executing  the program in return I don't see any effect on the other two functions, they will do the same without even decorator.",True
+@user-cc8kb,2020-05-18T15:31:54Z,1,thank you very much.,True
+@fit_with_a_techie,2020-05-17T22:43:47Z,1,Thanks for teaching us how to code rather than just copy and paste :)  I wish I had seen them before!,True
+@marcop-mb506,2020-05-17T20:29:13Z,1,Flawless tutorials. Great content. Subscribed!,True
+@rushikesh8132,2020-05-17T12:48:52Z,8,This Guy is A Fucking Legend And a GOD At Teaching Programming . Absolute Madlad . All the respect . Hope I will Repay Him Someday !,True
+@brucelee5804,2020-05-15T14:45:27Z,1,very helpful. thx.,True
+@VIKASKUMAR-bh5sj,2020-05-11T10:20:52Z,0,That's too much to digest but thanks..,True
+@rahulbisht396,2020-05-11T04:56:21Z,0,Nice Tutorial,True
+@badoiuecristian,2020-05-07T15:29:25Z,5,Your clarity on how to start simple then expand into more complex examples in a logical way is amazing.,True
+@mirawilliams4942,2020-05-05T18:48:06Z,0,youre a good guy corey,True
+@SirusDas,2020-05-05T04:51:05Z,0,how does @wraps work,True
+@ibnbattuta1304,2020-05-04T07:39:29Z,0,"In the final example, the script works even if @wraps(orig_func) is commented out.",True
+@got-it8136,2020-05-03T17:46:16Z,0,Hey there !! Try this tutorial on Python Closures and Decorators https://www.youtube.com/watch?v=2e3mZqVHfVo&t=1s,True
+@Ajay-xd7zq,2020-05-01T21:24:30Z,0,"Your video was very helpful, one of the best explanation of decorators,  and they way you have arranged entire python playlist is awesome. Thanks a lot",True
+@kristoffpotter,2020-04-30T14:20:38Z,0,"Fuck me, I'm rewatching this",True
+@maheryagub,2020-04-30T12:57:07Z,0,man you speak fast.,True
+@josefh8782,2020-04-27T04:51:47Z,0,"One more quick walkthrough here: What we did is that we set our decorated_display variable equal to our decorator_function, and we passed in our display function, and when we passed in our display function, its equal to our original function within our decorator, and then we create a wrapper function and we return that wrapper function, waiting to be executed. And when it is executed, it executes the original function, which in this case is display, and returns that. So when we run the variable, it is actually executing the wrapper function, which then executes our display function and prints out ""display function ran"" and then your head explodes.",True
+@atulsinghrajput9932,2020-04-26T09:39:55Z,0,I am basically a   Full stack developer  by using node js  and javascript but after  watching your tutorial i am more interested in python    Thank you for this amazing python series,True
+@InvincibleJuggernaut,2020-04-25T16:47:12Z,0,You're a blessing,True
+@hat0601,2020-04-24T05:51:55Z,2,I wish I had known your videos years ago it would have saved half of my python learning time! Thanks so much for making these videos.,True
+@innerpeace2139,2020-04-20T01:37:25Z,1,"I am in Pluralsight right now as its free for the whole month of April due to Covid, as I am doing the courses of Bingham and Smallshire, I just had to run to your video as I knew I will be more enlightened. Well worth my time. You are very good teacher and thanks a lot!",True
+@jaideepsingh7955,2020-04-19T20:35:18Z,0,"Sir can u please tell how to display a model(database) entries list as a FORM, so that its values can be edited. i actually have a db for participants list that includes a column for attendance.  later at the event i want to mark attendance, so i want to b able to edit that column from the website and resave/update that db ?????",True
+@user-im2nd6vo6d,2020-04-12T13:30:09Z,0,"hey man, I don't want be bad with you because there is no reason but just let me tell you:this lesson is the right same reason of because I still hate math and other 'old' programming language as learned at ""classic"" school. this topic really disturb my rational way of thinking, it is just too complex.. I don't mean complex: but TOO complex . I'm italian ok... i've learn english . i've learn python basics (old but gold:automate the boring stuff).. i've learn pretty much of sentdex intermediate lesson.. i've learn that on some topics you teach really good thing, better than many other. All of this by myself just for using Python. but man I refuse for now to learn this I'm learning class, how to have a pratical use of them, why I can save time rather then typing dozen of def function. But i just can't immagine a pratical way to use decorator...really. the thing are two:or I miss something, the plot of decorator, or all of this examples from (first class, to closure and still here) just can't yield why I should proficiently use decorator In any case I want to take such occasion to say thanks for all your effort",True
+@gauravagrawal1053,2020-04-08T20:51:15Z,0,great video man !!,True
+@nano7586,2020-04-06T23:50:02Z,0,"from functools import wraß   Ohh, so you really have german roots",True
+@SohamPhadke,2020-04-06T16:20:56Z,0,How does changing inner_function() to inner_function affect the code?,True
+@kenrosenberg8835,2020-04-06T09:07:24Z,1,Amazing tutorial!,True
+@sangharshsharma6175,2020-04-06T04:35:54Z,0,"Hello Corey. I was just confused in one thing. When you executed the program using class for your decorator, what was the instance of the class at that time? I mean in your later examples on class Employee, you created emp_1, emp_2 as the instances but what is the instance here? And how does self work here? Could you clear it up for me?",True
+@Mystterriks,2020-04-05T21:08:46Z,1,"Thanks! Finally, someone demystified it instead of adding more mystery! Good job!",True
+@hubertcombomarketing2693,2020-04-02T05:24:43Z,1,Another great Python decorators tutorial. Thank You Corey.,True
+@akash__choudhary,2020-03-27T17:05:26Z,3,"Corey, you are the best, I attended many online courses, some are paid but none of them was as good as you. you teach what id important and the way you explain basics,it is superb.thank you for sharing your knowledge free and guiding many of beginner python students like me.",True
+@tommy8701,2020-03-26T17:12:43Z,1,Can't quite wrap my head around this... Awesome tutorial!,True
+@FakeAccount,2020-03-24T15:20:19Z,0,"instead of using wraps from functools, you can also use ""wrapper_function.___name___ = function.__name__"" right above the return of the wrapper function, what it does is it changes the name of the wrapper to the name of the original function",True
+@aksingh30,2020-03-20T08:43:57Z,1,Great explanation.. Enjoyed going through.,True
+@vinodhp7806,2020-03-18T02:43:56Z,1,Excellent. Well explained...,True
+@sky-slime1059,2020-03-15T09:52:28Z,0,I love this! Thanks a million times!!,True
+@Protick1994,2020-03-13T13:58:51Z,1,You are the best. The way you explained it was flawless. Thank you Sir.,True
+@arsalanahmad1832,2020-03-13T06:57:22Z,1,awsume video. explained really easy. You are an artist! Best wishes,True
+@vishnudevchoudhary9589,2020-03-07T21:44:51Z,0,"""kaun hai yeh log.kahan se aate hai yeh log"". I mean who r these 75 people(dislikes)",True
+@elibaum5489,2020-03-02T12:42:37Z,7,watched this video 4 times. Don't regret it.,True
+@exactpoint9795,2020-03-02T11:15:21Z,1,Absolutelly plain and clear! Thank you for your explanation! No doubt you are very good teacher. As for me (and other people;))  you made stops and repeats just as it needed.,True
+@byom.cybertechie,2020-03-01T11:09:52Z,0,When you added “@wraps(original_function)” what did it do in the back end . Did it return “display_info” instead of “wrapper” after inheriting functionalities of wrapper into display_info??,True
+@manishKumar-ch7ux,2020-02-28T11:00:07Z,0,when variable name is function :p brainflexing starts,True
+@sultanabbas9411,2020-02-26T07:49:30Z,0,"at 21:50 i'm a lil bit confused,  why did it print the display_info function before the execution time msg. in the wrapper we can see that it prints the execution time before the display_info function",True
+@JoshuaHoward504,2020-02-23T21:07:54Z,2,"I'm sorry I didn't come across your channel sooner. I'm more of a tactile learner, but even I have no trouble following along with your tutorials.",True
+@amushakya1433,2020-02-11T17:46:22Z,2,"I was really annoyed with myself that I couldn't understand the concepts of decorators after searching a lot of place, and after I watched this video the first time, I got about 75% of the whole idea. There was still some doubts so I rewatched this video and boom now I am not confused at all. You're a savior Corey, thanks a bunch. For extra knowledge about the wraps from functools, i understood it from here: https://stackoverflow.com/questions/308999/what-does-functools-wraps-do",True
+@fuad471,2020-02-11T07:32:06Z,0,"why we should put paranthesis after variable my_funct to run it, it is interesting concept",True
+@khalidm5939,2020-02-11T04:22:52Z,1,"This was the only section in my textbook that stumped me, you explained it much better :)",True
+@brijesh0808,2020-02-09T06:49:16Z,0,Start from 4:42 if you have already watched the links in description :),True
+@SergeyChernetsky,2020-02-05T12:15:45Z,0,Great! Thank you!,True
+@cshekar100,2020-02-04T12:35:20Z,1,Well explained with step by step explanations in an easy manner. Thank you so much,True
+@markogartnar5658,2020-02-02T20:54:29Z,1,Good explanation,True
+@tassoskat8623,2020-02-02T20:02:54Z,1,This was an enlightening video on decorators. It really helped to better understand this concept that is crucial for my university studies. Thanks,True
+@Protick1994,2020-02-01T11:13:37Z,1,Explained very well. Thank You.,True
+@lucho2318,2020-01-23T18:49:08Z,0,"but what if decorators take arguments? like this @decorator(""arg"") def function():",True
+@arjun5458,2020-01-10T17:00:18Z,0,"perfectly laid out, other videos didn't make the logic clear, really good, thank you.",True
+@edtix,2020-01-07T09:03:54Z,0,"Hi! You've passed an argument to the decorator too: @wraps(orig_func) What is that mean? Is this just equivalent of passing additional argument to decorator function? For example: def my_logger(orig_func, my_argument)..... and then just using this argument inside decorator function?",True
+@fishbert20000,2020-01-05T21:35:22Z,0,"Thanks a lot for your tutorials from Germany! Being totally new to programming, I'm making my way through your python playlist with ease, as you explain them very precisely. One thing I haven't understood here is the necessity of the wrapper function. Why does the following code without the wrapper function not work?: __________  import time  def timer(orig_func):      t1 = time.time()     result = orig_func(*args, **kwargs)     t2 = time.time() - t1     print(f'{orig_func.__name__} ran in {t2} sec.')     return result  @timer def display_func(name, message):     time.sleep(1)     print(f'{name} says: {message}')  display_func('Fishbert2000', 'Why not working?')  __________  It seems like somewhere on the way the arguments get lost and I'm taking a guess that it has to do with closures?",True
+@gaby1491,2020-01-02T15:26:38Z,0,"now i understand the power of decorators, thank you. liked and subbed",True
+@funnynews341,2019-12-30T12:49:10Z,0,"Hi Corey Schafer How to pass ""request"" in decorators? my Django code: def decorate_trigger(notice):   def wrapp(*args):     def runcode(request):       uid = request.session['uid']         code with ""request"" here can't run??     return notice(*args)   return wrapp  @decorate_trigger def stream_handler(notice):   print('---------------------get a dict from stream of pyrebase--------------')   my_stream = db.child('notifications').stream(stream_handler)",True
+@abir95571,2019-12-29T17:01:26Z,0,I personally don't use functools as we can dynamically update the function name within decorator itself,True
+@luqmansen,2019-12-24T22:50:32Z,0,"Very clear explanation, thank you very much!",True
+@PythonicPath1,2019-12-19T15:03:14Z,1,"My thanks to pateron/paypal supporters to this guy , he deserve it , supporting this is helping on having good content  for all  and supporters  are part of this good work",True
+@MonkDoc,2019-12-18T08:27:10Z,1,Thank YOU!!!!!,True
+@keshinipatel299,2019-12-16T22:15:00Z,1,Thank you .,True
+@spectralcodec,2019-12-13T20:09:06Z,0,"Great video, thank you!",True
+@1panduking,2019-12-13T18:15:50Z,0,def f() :      print('hi') print(f)   the output is :  <function f at 0x000001276EF88F28> print(id(f)) the output is 12367690957    what is the difference ??,True
+@ex0stasis72,2019-12-09T22:32:50Z,8,You taught this better in 30 minutes than my university professor taught this in 2 hours.,True
+@dyroblesmercedes,2019-12-08T01:43:02Z,1,decorator-seption?,True
+@kshitizkoirala7767,2019-12-01T08:02:31Z,1,21:51 shouldn't time (wrapper function) be printed out first? but the original function is running first?  Why is this happening? Doesn't this void the whole concept of decorators??,True
+@jiaming5269,2019-11-25T07:47:36Z,1,Sexy voice,True
+@twitterbot9127,2019-11-24T17:19:47Z,1,Thank you!,True
+@blowfishfugu4230,2019-11-23T18:51:54Z,0,looked into the package what they did there.. functools::wraps really rewrites __name__  and other attributes of the wrapper-func xD,True
+@lindaph6717,2019-11-19T04:33:23Z,0,Corey is the best! Thanks so much!,True
+@jismathew3573,2019-11-15T13:13:18Z,1,"I like your way of teaching, you build up a concept right from its base explaining from its roots and by the end of the tutorial you show the possibilies one can implement using the functionality.    The possibilities you show inspires one to try it in their code, you have opened doors for pythonistas across the globe to raise their standards.   Thanks Corey",True
+@okbaramdani8682,2019-11-13T10:37:20Z,1,You the best,True
+@user-or7ji5hv8y,2019-11-11T16:09:59Z,0,Can’t we not achieve the same by using class approach with abstract and interfaces?,True
+@skyknight1989,2019-11-02T22:55:56Z,0,11:13 this is where the real code kicks in...,True
+@user-me9nj6dj8t,2019-11-01T15:13:20Z,0,make my day,True
+@tomiyoful,2019-10-31T05:46:34Z,0,Thanks Corey. Also I see this video related to Decorators seems interesting.. https://www.youtube.com/watch?v=Zfr81m1chDI&t=2188s,True
+@G_Tud,2019-10-29T09:52:03Z,0,what program are you using ??pls someone,True
+@jackkensik7002,2019-10-28T18:25:42Z,1,"I would just define a variable as a lambda with no arguments, the only downside is that python only allows one line lambda's",True
+@lindaphan9234,2019-10-26T19:29:33Z,1,Thank you Corey! Your videos are my all-time go-to!,True
+@randiarisman2419,2019-10-22T15:00:35Z,2,"I don't know why, but I never watch full ads before on any youtube channel, but this is the first time I watch all 2 ads, 1 in 2 minutes because I could not support you by money or else. All of your good videos makes me still able to work in my current dying job with my dream that getting my new job in my bright future. Thank you, Corey!",True
+@BioHazarddasdadfasfsad,2019-10-21T23:45:52Z,0,9:27 ultimate truth!,True
+@ashrasmun1,2019-10-21T17:56:17Z,0,I feel like this @decorator could be overused. It blocks you from wrapping functions with other decorator.,True
+@kouroshjafari4238,2019-10-15T00:17:49Z,0,"If my_logger is applied to two different functions, the results are written into one log file generated from the first function, not two log files. Why is that?",True
+@tianhao7783,2019-10-12T14:08:55Z,1,learn a lot from ur video，make more plz,True
+@edgarlip2,2019-10-12T08:38:56Z,0,"Hi , as usual best video by far on the topic , i also wanted to mention ( may be it was mentioned before ) that   @Decorator_Class                                                                // ----> is the same as   display = Decorator_Class(display)       def display():     print('display function ran \n')   *this is regarding the oop part.",True
+@yomajo,2019-10-07T16:59:47Z,0,"One thing might have been left out unsaid: Once decorator is in place, there's no direct, straightforward way to use function without decorator.",True
+@mheermance,2019-10-02T16:16:47Z,0,I started getting deja vu and realized this looks similar to AOP and interception in Java.,True
+@raphaelpz,2019-10-02T10:00:53Z,2,Each and every video I watch from you helps me feel a bit more like a programmer and pushes away the good old impostor syndrome... you are simply the best coding teacher on the internet and I am so grateful to have come across your channel while re-training to become a developer. Thank you so much.,True
+@EV4UTube,2019-10-02T00:28:51Z,0,"I would say that you did a much better job than most in presenting the topic of decorators.  That said, I can't help but feel that there is still a missing 'magic bullet' with the typical instruction regarding decorators which I have not yet found.  For me, personally, a HUGE amount of confusion stems from something really silly and simple - the choice of naming conventions (for variables, functions, classes, etc.) and  the choice of words (nouns, verbs, adjectives) used to deliver that instruction.  I feel that (other) instructors perform a serious disservice to students when they describe decorators by saying something like... """"Decorators functionally extend the functional functionality of a function to a function (or within a function) to deliver additional functionality without functionally modifying the original function.""  And then they go on to choose names for variables, functions, wrappers, classes (etc) to include some variation or derivation of the word, 'function.' I've seen this kind of thing done a lot and it seems a bit sloppy or lazy when there are other perfectly acceptable terms could be used in the interest of clarity. In English, the word 'function'/'functions'/'functioning' can be noun, verbs (and derivations can be adjectives or adverbs). Despite watching this video, I still don't really have a strong handle on decorators, but I can imagine something like the following being more clear (for me at least): ""Decorators let you to preserve the core calculation of an important function while allowing you to also generalize or modify the inputs to that core calculation, or allows you to piggy-back other outputs - like deriving related information, tracking transactions and logs and a host of other capabilities.""  See how the word 'function' was used just once, it was a noun and it specifically referred to the target/core/original function. In fact, I think the use of generic graphic or animations representing the FLOW of a decorator would be helpful (i.e., not even showing any coding) in order to grasp the conceptual and logical process of a decorator.  The other issue  with decorators - from the perspective of a newbie - is that decorators seem like a solution in search of a problem.  It would be good if we provided a clear and relatable baseline scenario from which we could then set-up a situation / problem where the student could understand why we would need to even deal with decorators at all.  Say, something like: ""The SuperMega Company has a standardized formula/calculation/function for measuring sales in a given month. This core formula is perfect for the Sales Department, but other departments need to glean other kinds of information from the sales data. Decorators allow us to meet the specific needs of various departments without modifying the standardized / core formulation for measuring sales.""  Now that the students understand how/why decorators serve a important role, we are motivated to grasp the concept and to consider other contexts where they might be valuable.",True
+@theglobalconflict6904,2019-09-30T13:38:26Z,0,"why we need to inherite object class to create a class exam: ""class A(object):pass""? will u make a vedio about inherite object class???",True
+@danailpetrov,2019-09-29T19:39:48Z,8,"I just had to say this. I’ve been doing some programming for about 15y now but this isn’t my ‘bread and butter’ so often I’d stuck on a topic (which in this case was the decorators in python) and believe me, I’ve read quite a lot blogs, articles, etc, and as many others I just ended-up here... I can finally say I do understand it and it all makes perfect sense. Thank you for your time and efforts doing this fantastic job!  P.s. I really hope my appreciation somehow hopes you pay the bills too ... lol ;-) (I liked, subscribed, etc :-))",True
+@cyberspider78910,2019-09-22T07:53:11Z,1,Superb!!! You are an excellent teacher....Great Guru.. cent percent agree with Rohit M,True
+@amardeepbhowmick3614,2019-09-21T15:17:16Z,6,This video is a true GEM! You should really consider making an Udemy course. I will share this with all of my Python enthusiast friends. Thank you Corey!,True
+@user-pt4vn5hr2z,2019-09-16T13:37:33Z,3,"Thank you corey, you are the best :)",True
+@yongliang3397,2019-09-13T18:25:08Z,2,i love all of your videos and appreciate your time and effort!,True
+@hafededdinebendib5974,2019-09-09T15:34:37Z,1,very nice explanation,True
+@alladamk,2019-09-08T15:23:24Z,1,"Absolutely spot on,  and to the point. Really appreciate the way you are teaching. Thanks for sharing your works.",True
+@bobfish7699,2019-09-02T18:19:04Z,1,"Another great tutorial.  The more I am exposed to Python, especially with the help from these videos, the more I like the language.  It is so logical and elegant.  I wish it was around in my youth when I started coding, it would have taken over the coding world by now.  And I think it will,,,,",True
+@muzik6808,2019-08-26T16:08:24Z,3,u r the best example for humanity.. that u r providing such kind of education.. that we cant get after paying somewhere..,True
+@jaffer786khan,2019-08-25T07:25:50Z,0,"Hi Corey, Very good tutorial.    When i ran the code, the line: logging.basicConfig(filename=""{}.log"".format(orig_func.__name__),level=logging.INFO) is giving the error: AttributeError: 'NoneType' object has no attribute '__name__' But i could see that the file name is created and data is written. Am i missing anything?",True
+@centurion8158,2019-08-24T01:42:59Z,0,"Is it possible to use wraps inside of a decorator class ? i tried by using @wraps(original_function) and @wraps(self.original_function) on top of the call method, it just tell me my function parameter is not defined, or did i miss something on the vid and it only works with decorator functions but not with classes ?",True
+@MurthyY,2019-08-22T11:51:12Z,1,"how can a person be this good at teaching...Thank you so much, Corey <3",True
+@vxz90044,2019-08-21T06:35:57Z,14,What an amazing teacher. Making the complex; simple. Thank you good sir.,True
+@safeeqahmed3306,2019-08-14T15:55:36Z,0,"Thanks for the awesome video. Can you please let me know if the original function can be executed as it is after being decorated? I mean, if I want the display function to just print “display function ran” after decorating it, how can I do that?",True
+@AliabbasRashid007,2019-08-07T14:34:29Z,0,Anyone know what IDE he is using?,True
+@AkshayDeshmukhadd,2019-07-31T10:36:35Z,1,Very elaborately explained...very much understandable. Good Work,True
+@ajitesh764,2019-07-30T17:43:55Z,2,First thing I did is like the video... P.S---- Watched it later That's how good you are....best teacher available. A doubt...do we need return result in my_timer function..i mean even if we dont use return the o/p is same....since we have already included executed display_info()..it will print the contents of display_info() without return..... Correct me if I m wrong:: We need to include a executed decorated function in wrapper function and if wrapper func contains some code including executed decorator func.....then do we still need to return anything from wrapper function,True
+@erectlocution,2019-07-29T21:19:41Z,0,"I joined a team a few months ago as my first stint as a developer of any stripe. I'm working with a relatively mature codebase that needs a lot of love, in terms of docstrings, testing, and being able to run tests locally. I'd edited a few scripts to include logging and argument-parsing directives, but I knew there was a better way. I finally got around to looking at decorators and your video really helped me form an intuition. Thanks.",True
+@elliottharris4526,2019-07-28T13:10:41Z,0,"Very nice. If these free variables are ""remembered"" when are they cleared away?",True
+@opiyosebastian50,2019-07-26T16:31:38Z,2,You not good but great! Keep up the good job Professor Corey!,True
+@mfrinavkvercxi,2019-07-25T09:32:32Z,1,Great content as always.,True
+@iFunktion,2019-07-16T15:08:52Z,0,"Nice tutorial, thank you, one thing I noticed, is that with the time example, if you don't put the time.sleep in, then the result seems to be random from 0.0001 to over 8 seconds, yet it is only taking a split second to run. Is there a reason for that, or have I just mistyped my code.",True
+@usf5914,2019-07-16T09:45:31Z,0,"you forget to explain what is ""@wraps(orig_func)"". in this video you don't say any thing about Parentheses after a decorator name ...",True
+@amysandstrum531,2019-07-16T09:16:20Z,0,Look at the logging tutorial from Corey if youre confused about the alst 1/3 part of the video.,True
+@amysandstrum531,2019-07-15T18:08:09Z,1,Great video.,True
+@DigitalDivotGolf,2019-07-09T19:48:10Z,4,For me this was very confusing to learn but after watching this video 30 times i finally understand it. I would have for sure been left behind in school.,True
+@arycloud2924,2019-07-04T04:39:47Z,0,Here's how to write efficient Python code :     https://youtu.be/LI5O6rfe7zI,True
+@Goldname1,2019-06-30T05:06:22Z,0,funception,True
+@Goldname1,2019-06-30T05:06:18Z,0,functions within functions within functions.,True
+@sharathkumar4774,2019-06-30T04:47:18Z,1,Amazing,True
+@LoneAnimatorAnimations,2019-06-29T23:31:02Z,0,"Okay.. as he said I've watched his videos on first class functions and closures. Now, I can finally watch this video! : ))",True
+@mdvlogs7860,2019-06-26T17:10:33Z,0,Can someone tell me that which editor is he using?,True
+@armanveersinghgill2801,2019-06-25T11:34:43Z,34,"For those who have just watched the videos on first class functions and closures, video starts at 4:40.",True
+@zeddshmais1267,2019-06-23T20:23:22Z,1,Excellent video!,True
+@plekkchand,2019-06-23T18:59:19Z,0,I thought in Python all functions were first class objects?,True
+@xiaolu7988,2019-06-23T14:41:01Z,1,Very clear explanation. I already knew how to use a number of decorators but this is a great review for me to understand the decorators better. Thank you.,True
+@slobodantajisic2762,2019-06-22T12:51:29Z,0,"Great, but I have one question. If I have decorated original function, how can I use that original function somewhere later, without decorator?",True
+@swapnashambhu,2019-06-19T05:51:28Z,2,"The best python tutorial I have come across, you saved my life. Thank-you Corey",True
+@danilotp,2019-06-18T21:49:50Z,2,"hell, you explain so well :O",True
+@sayansanyal8259,2019-06-18T09:57:48Z,0,Hello Corey ! It was a great pleasure to watch this video. I have a doubt that whats the point in returning the original_func from inside the wrapper_func after calling it. Can we simply just call the original_func there instead of returning it?,True
+@smanolito,2019-06-18T07:58:22Z,1,Your Python tutorials are big eye openers.,True
+@ponnuvel659,2019-06-12T07:26:36Z,3,"I have suggested your tutorial to all of my friends. you are helping many people keep doing , thanks a lot from india.",True
+@cisbeautifulanildhar3292,2019-06-03T02:28:30Z,2,"I have been sitting at home not much to do. So, I decided to do something useful rather than wasting my time. I chose to learn Python. It is now about  four weeks since I have been watching your Python tutorial videos. At this stage, I could call myself a basic level Python programmer. All because of the excellent videos and your stellar teaching method. So, a BIG THANK and may god bless you.   I have a question though about this video.     Why does it print ?   display_info ran with arguments (Tom, 22)  display_info ran in: 1.0004289150238037 sec    Why not in this order?   display_info ran in: 1.0004289150238037 sec display_info ran with arguments (Tom, 22)   Shouldn't it  first execute @any_time decorator and then the function display_info(). Am I confusing myself?  Appreciate your response.",True
+@afiq980,2019-05-30T23:16:50Z,1,Instant subscribe,True
+@AlexCooper0,2019-05-29T09:03:48Z,436,"""A decorator is just a function that takes another function as an argument, adds some kind of functionality, and then returns another function.""",True
+@sachinpatil1259,2019-05-28T13:22:29Z,1,Excellent... Thank you Corey.,True
+@AnujSharma9196,2019-05-24T09:44:16Z,0,Can we pass parameters to the decorator function?,True
+@MsSuyash1995,2019-05-20T09:33:25Z,2,"This was an excellent tutorial video on decorators. I have watched a lot of videos as well as read a countless number of articles/blogs on the topic... And, yet I haven't seen this kind of fluency... I absolutely love how your structure and organize your videos and then, deliver them with great control on the tempo...   At no point, I felt lost or thought to myself, I couldn't understand the concepts being shown on the screen... I consider your channel to be the best Python based channel on YouTube... While I do admire a lot of other channels, like Dan Bader's and the likes, but somehow your impeccable didactic skills make your channel a must for any Python developer, especially beginners...   Please keep doing your excellent work... And, I read your interview (that you gave on RealPython.com) and I really appreciate that you have granted access to everyone... So, young learners (especially students who are not financially capable) who are unable to pay the premium to gain access to high-quality resources on Python.",True
+@classicalfunfacts2842,2019-05-20T05:07:09Z,0,"What is your name? Let me guess,   John?",True
+@atulkumar781,2019-05-19T22:04:14Z,1,"Man seriously,are you aristotle or pythagoras or plato,awesome",True
+@yuliu9991,2019-05-15T11:36:42Z,1,Fantastic!,True
+@krishnakanth6106,2019-05-14T17:59:44Z,4,OMG !!!!...You made my day...Best video so far on Decorators...My search ends now :),True
+@nareshchandrasekaran9427,2019-05-11T10:16:07Z,0,"Hi, Your Python examples are very helpful and precise for understanding, please put a video for Xml file handling.",True
+@jamesbrown6591,2019-05-10T18:13:04Z,3,by far the best tutorials for python i've come across,True
+@rsmith7710,2019-05-09T02:02:03Z,0,"Hi Corey,   Great video. I was playing around and hit a snag. Wondering if you could clear this up when you get a chance. Much appreciated!   It seems that the @decorator_function permanently hijacks the original function, if it has arguments. Is there a way to set this up to allow either the original function or the decorator to be called?   For example, if the line containing @decorator_function is commented out, then this allows two different variables to call the display function. display() # this prints out the unwrapped output as expected new_usecase = decorator_function(display) # returns wrapper function new_usecase() # prints out the wrapped output as expected   # However, this doesn't work when assigning a function with arguments to the variables even when including the (*args, **kwargs) snippet. new_usecase = decorator_function(display_info('Tom', 22)) # Returns None (Why does this return None, when decorator_function(display) returns the wrapper???) new_usecase() # TypeError. Object NoneType is not callable.   Why is this? Does it have something to do with the way Python handles functions with arguments, or is it simply because passing the arguments invokes execution? In that case, once hijacked, always hijacked, right?",True
+@javiergonzalez3791,2019-05-08T16:12:24Z,0,"The video is really good, but one question, how do you comment so fast without placing the cursor at the beginning? Thank you in advance!",True
+@ManojKumar-tl5om,2019-05-06T18:49:56Z,1,"A million Thanks, Corey",True
+@borg_cube,2019-05-06T08:23:57Z,1,"Great video, helped a lot. It's really complicated stuff for a brand new Python-newbie like myself.",True
+@kamolusmonov6540,2019-05-03T13:24:55Z,1,"That is so good man, I'm impressed by that ) Thanks so much!",True
+@fffppp8762,2019-05-01T16:19:47Z,0,why  do you need wrapper function . That is redundant,True
+@deserve_it,2019-04-20T21:00:15Z,2,"This is an another example of the very common witty remark.Thing is not complicated as it looks from a first glance, we only need a proper man who can explain it clearly. You are the man ! Thank you very much!",True
+@benwhiting9416,2019-04-20T16:24:54Z,0,"Just wondering, what is that text editor you are using?",True
+@RaynerGS,2019-04-19T15:49:28Z,1,"Worthy material,  good job. Thanks.",True
+@LUKE17992,2019-04-18T21:17:04Z,0,"Hi Corey, first of all amazing tutorial, but i was wondering if you - or someone else - could explain what exactly the @wraps decorator actually does?  thanks - Luke",True
+@stephanewamba9610,2019-04-12T06:17:58Z,2,"I'm very impressed by the very high quality of your free tutorials which surely surpass paid Udemy and other sites courses, you help a lot of people like that. I'll suggest that you do  a tutorial on Python multithreading given that it's a very popular and important topic nowadays. Again thank you for what you do for us.",True
+@TorIvanBoine,2019-04-10T11:14:10Z,2,Decorators feels like an inverted 8 my brain hurts,True
+@T-Sav,2019-04-04T14:29:38Z,1,King of explanation,True
+@thedawnofslayer,2019-04-02T20:10:58Z,0,"Why do you use ""object"" explicitly in the class argument even it wasn't in use? (i.e., `class decorator_class(object)`)",True
+@Achrononmaster,2019-03-30T12:30:36Z,1,Excellent teacher and very friendly to post your notes.  Thanks.  You're awesome.,True
+@raffaelerimorso9671,2019-03-28T10:17:55Z,0,FANTASTIC,True
+@efedorov,2019-03-24T19:13:49Z,1,Well understandable. Awesome!!!,True
+@MinhNguyen-kb1ps,2019-03-24T05:22:42Z,0,"Thank a lot for giving me the ideal about @... stuff, also when I looked the flask source code for app.route() decorator, I saw   def route(self, rule, **options):        def decorator(f):             endpoint = options.pop('endpoint', None)             self.add_url_rule(rule, endpoint, f, **options)             return f         return decorator   I think this is a very interesting case of which the explaination was given as below  https://ains.co/blog/things-which-arent-magic-flask-part-1.html",True
+@graycybermonk3068,2019-03-22T10:26:39Z,1,You are really Killing. I am trying to understand Decorator more than 2 months. But after your tutorial. Every this is clear. Respect.,True
+@bassamtk714,2019-03-21T21:28:09Z,1,you are billiant teacher,True
+@jasonclement6305,2019-03-20T19:58:41Z,4,These python tutorials are the best on youtube.,True
+@chayanmitra5486,2019-03-20T11:12:08Z,1,Thankyou so much for this awesome decorators tutorial..really well explained..learned so much from it !,True
+@liangyumin9405,2019-03-20T03:26:09Z,1,nice tutorial!!,True
+@fasshah3277,2019-03-19T11:11:10Z,0,"By adding annotation over the function, we definitely invoke decorated function instead of original function everytime. But how can we simultaneously invoke the original function as well ? i.e. if i want to call display function and its decorated display function both then can we do that without changing the code ? Or we need to remove annotation if we want to call the original display function ?",True
+@lightninginmyhands4878,2019-03-16T00:34:13Z,0,"27:35 - ""yo dawg, I got wraps for your wraps""",True
+@georgesmith3022,2019-03-15T21:30:27Z,0,how does the wrapper function get the *args and **kwargs from the original function? We only pass the original function to the decorator without the arguments.,True
+@shgxAI,2019-03-13T11:38:53Z,1,Wow!!! this is the best tutorial I've watched about decorators,True
+@sudarsandm,2019-02-27T02:06:57Z,1,Hey Corey nice tutorial on one of the core concepts of python.,True
+@PolishEse,2019-02-22T21:52:32Z,1,"very good video, cheers",True
+@user-or7ji5hv8y,2019-02-19T23:26:42Z,0,Why the name wrapper is used?,True
+@deepak55793,2019-02-19T14:46:55Z,1,"Thanks a lot for your explanation on decorators, helping millions to learn the difficult topic in easy way.",True
+@jandrefelix3577,2019-02-17T04:28:02Z,0,First time I watched = brains smaked against the wall 90% Second time I watched = brains smaked against the wall 80% Okay I'll have to watch this about 10 times to understand how to wrap the wrapped wrappers that are decorated by other wrappers.. lol,True
+@tobidegnon4409,2019-02-14T14:24:56Z,0,"Hello there, awesome video as usual, I Have a question though. Despite how many times I think about it, I don't see the use of returning the original function in the wrapper function, even if we just call the original function in the wrapper without returning it at the end, it doesn't change anything, so l want to know if there is any need of returning the original function in the wrapper, thanks :)",True
+@pmtycoon,2019-02-11T21:36:35Z,1,"Folks - many things are nested within each other, go slow with this video, pause as required, repeat and you shall get it... I spent about an hour to get my head wrapped around the wrapper and wraps decorators.",True
+@mehuljadav7936,2019-02-11T09:38:11Z,0,"display() TypeError: 'NoneType' object is not callable",True
+@CHBY,2019-02-06T18:13:42Z,1,regular expressions and decorators are definitely my most confusing parts of python and you easily helped them make sense!  Thank you.  They should call decorators PORTALS...that's basically what they are...it gives your function an easy portal to be used anywhere,True
+@manishaypanchal,2019-01-30T21:54:07Z,1,You are awesome. the explanation is crystal clear !,True
+@udaybhagwat7189,2019-01-26T13:51:16Z,1,Really learnt a lot from you!! Thanks so much!!!,True
+@harikamacharla7005,2019-01-22T17:12:31Z,2,You are too good at teaching. That's only possible when you have a clear idea of every minute thing happening and the order in which it happens. Hats off! and thanks for taking your time and teaching such complex content in such an easy way.,True
+@user-tx1ip,2019-01-16T17:45:57Z,0,"great job, Corey!!! guys ,also check out this <Thomas Ballinger - Finding closure with closures - PyCon 2016>,it helped me. https://www.youtube.com/watch?v=E9wS6LdXM8Y&t=773s",True
+@majed316,2019-01-06T14:11:41Z,29,"This is the first contact for me with decorators and surprisingly i have got it completely, that's rarely happen to me specially with such complicated concept, usually I need a week at least and tons of resources to make sense out of it. Your videos invaluable treasure, We couldn't thank you enough no matter how many times we say thank you. You are literally my hero.",True
+@nahianalhasan5151,2019-01-03T12:27:30Z,1,What a legend.,True
+@xtra9996,2019-01-01T18:57:06Z,0,"Coming from languages like C and even Assembler (on microcontrollers) I can't help myself thinking that this decorator stuff is somehow an additional layer of nonsense. In my opinion Python adds abstraction layers for the sake of abstraction layers, similar to the whole OOP stuff. But maybe I just don't get it ...",True
+@caio-jl6qw,2018-12-28T19:08:14Z,291,"The proper way to never forget how decorators work is just keeping in mind what that '@' syntax means:   @decorator  def function():     ...  is equivalent to: function = decorator(function).",True
+@danielflorez3762,2018-12-13T23:14:12Z,0,"The subtitles don't work  :,,v",True
+@kemamusa,2018-12-11T20:21:09Z,0,Great tutorial.  I finally understand Decorators now.,True
+@mixa1901,2018-12-10T16:19:10Z,1,"Come on guys, 199000 views and 3400 likes.. It sucks.. U don't even have to patronate the great author.. just let his videos be more popular .. it's so ez to do",True
+@asheeshdhupper5595,2018-12-10T15:02:22Z,0,">>> display() Traceback (most recent call last):   File ""<pyshell#53>"", line 1, in <module>     display() TypeError: 'NoneType' object is not callable  I am getting this error when I executed the same code in idle",True
+@wilk85,2018-12-07T17:01:18Z,0,Well you're very good teacher Corey but this is so confusing :(,True
+@fadinum87,2018-12-07T12:51:25Z,0,"i got 5 print statemnt when i pass fib to @my_timer decorator @my_timer def fib(n):     if n<=2:         return 1     else:         return fib(n-1)+fib(n-2)  print(fib(5))",True
+@lucynowacki3327,2018-12-04T21:55:03Z,1,I like it!,True
+@narekisaghulyan8959,2018-12-04T19:33:53Z,7,"Corey, amazing tutorials. every time I see you have a tutorial regarding the topic I'm looking for I already know I'll understand it. You should do this full-time. I'll donate :)",True
+@fadinum87,2018-12-01T03:37:26Z,0,its the same for callback in javascirpit?,True
+@sodapopinski9922,2018-12-01T02:01:49Z,1,"so for the case with @decorator_func above display(), do you lose the ability to call the display func alone without the decorator",True
+@dibyaranjanmishra6027,2018-11-24T12:14:27Z,1,Man You are amazing!!,True
+@omarfsosa,2018-11-15T23:33:02Z,95,"Dude, I seriously hope someone, somewhere, is paying you a lot of money for your knowledge xD",True
+@Rusianskatingfan,2018-11-09T02:16:14Z,0,very unclear,True
+@shwetarajani709,2018-10-28T21:30:58Z,1,Very Efficient Tutorial 👍🏻👍🏻,True
+@RealToriMan,2018-10-24T14:45:01Z,2,"Without your explanation, my mind going to explode haha",True
+@MrZeeg617,2018-10-24T11:17:49Z,0,Why the error at 12:18 says wrapper_function instead of original_function? Can someone help me to explain it? Thanks.,True
+@snyredbaron21,2018-10-16T21:12:34Z,8,"Corey, you never cease to amaze me! I had seen and read several videos and docs about decorators, but I always ended with doubts and more questions. But I think I finally understand very well all I need to know about decorators. Thanks for your videos!!!",True
+@leeritenour,2018-10-11T12:02:27Z,1,You are a hero!,True
+@omarabulaban_me,2018-10-02T16:12:15Z,1,"Perfect, so far the best touter in youtube, i am not going to mention what others mentioned coz it's all true. Good job and keep up",True
+@samehmahmoud7,2018-09-27T10:30:02Z,1,Great,True
+@salrite,2018-09-27T05:33:31Z,0,"@Corey, thanks for another great video. I do have some doubts: what does it mean many people say C (language) wraps Python? Or this thing is just a Wrapper on that. Also, Do you have any video on Multithreading and its use?",True
+@anthonyriggi8027,2018-09-22T01:11:07Z,0,13:25  for using Decorators with Classes,True
+@davidalexander829,2018-09-18T19:12:41Z,0,"I didn't care for my text explanation of decorators.  Still not a fan, but at least I have a shallow understanding now.  I will probably have to watch this video several times. Thanks",True
+@capeandcode,2018-09-17T19:38:33Z,1,The way you do is pure art!,True
+@raj1307,2018-09-07T04:24:49Z,1,your way of teaching is superb .........nice explanation sir,True
+@kuls43,2018-08-25T15:01:37Z,0,"Sorry I am new to python but just wanna know why we need wrapper function here, why we can't do something like below.  def decorator_func(original_func):         print(""some decorating message"")         return original_func()",True
+@HexagonalClosePacked,2018-08-16T14:38:22Z,2,Thank you. Finally understand what the @ sign does before a function!,True
+@shashidhardevraj,2018-08-16T11:18:18Z,1,Thanks a lot for this video. You are really awesome. I was struggling to understand this concept.,True
+@karthik-ex4dm,2018-08-15T07:23:57Z,1,"Sould we explicity say  "" return original_function()""  inside wrapper function and then again return wrapper_function. Cant we just say ""original_function()"" inside wrapper_function instead of ""return original_function()"" Because any way wrapper_func is returned",True
+@someone5078,2018-08-14T18:47:15Z,0,brain.exe has stopped trying to work,True
+@CipriValdezate,2018-08-13T07:15:09Z,1,"Well explained, made easy, very helpful. Thanks for the video.",True
+@narekstepanyan1771,2018-08-09T08:12:52Z,0,Thank you from Spain. Your videos are really good and usefull. why do you need to import time or logging several time in the scrip? why it do not work if you import it only once at the top of the script? Thank you in advice,True
+@mrmoinn,2018-08-07T04:11:29Z,0,Can you define a function and then use the decorator on the line before executing it instead of the line before defining it? This way that function wouldn't always be decorated,True
+@migkillerphantom,2018-08-04T19:46:10Z,0,"There is a problem with this particular example and creating logs. If you call the logging.basicConfig() method to initialize the logger, it will start some kind of background process and only create a single log file with the name of the first function,  where all the logs from all the functions are dumped. This can of course be handled for, but it caught me off for a while.  It would be better to just intialize the logger in the main script and then parse out seperate logs from that, in my opinion, or find a different method that can actually produce separate log files.",True
+@wildcat0871,2018-08-01T13:35:11Z,1,"I definitely need to wrap my mind around wrappers, you made this task easier though. Thanks!",True
+@HJess1980,2018-07-29T20:42:27Z,0,This video was so great!  - Thanks. I've only wished you covered how to pass any arguments to the decorators..,True
+@sunilsahu8296,2018-07-28T10:38:10Z,1,Great explaination,True
+@GameRashid,2018-07-25T02:35:18Z,0,qqtacontecendo,True
+@RagHelen,2018-07-18T06:27:48Z,0,Wouldn't it be better to not write any of these lines of code and just make t2 a constant with the value of 0?,True
+@Bhaskarchandraul,2018-07-18T04:42:03Z,0,Inside wrapper we have written a return statement as return original_function. But the decorator will work without return statement also.. my question is why we have that return statement.?,True
+@mahesh9762132636,2018-07-18T01:40:10Z,2,"No one Could ever make decorator understand to anyone this better. I find myself lucky to find you on  Youtube and I admit without any doubt, you are SAVIOUR to all those commenting down below..Thanks a ton",True
+@morningstar2728,2018-07-12T05:54:58Z,0,What does the object means? Which u were passing in the parenthesis of class...,True
+@saurabhbagalkar7312,2018-07-09T03:53:36Z,1,This guy is awesome!!!,True
+@kapilsharma1704,2018-07-05T06:45:43Z,0,please release videos on data science and machine learning. after your recent update i haven't seen any      new video,True
+@novicetech1,2018-06-30T00:24:45Z,1,"Hi Corey - This was awesome and very helpful. Please do more of these. As you know, I'm new to Python programming (programming period really) so I am always looking for practical ways to use what I learn and your videos are the only ones I use. Thanks.",True
+@d_learner7573,2018-06-29T18:44:25Z,1,You are an inspiration for me. I learn from you things that look impossible to learn for me. Thanks a lot.,True
+@HafidzJazuli,2018-06-23T02:20:42Z,1,"Thank you, you are give very straight forward walk trough and easy to follow explanation.",True
+@mudithhimwan2442,2018-06-21T12:34:13Z,0,"Hey Corey could you please explain why in the wrapper function definition we need to add *args,**kwargs? The wrapper function should not need any arguments it is actually the original function that is being executed inside the wrapper that needs those arguments. So why pass those to the wrapper?",True
+@sunitgautam7547,2018-06-20T11:50:52Z,0,"After 2:14, when you have already removed the parentheses from the inner_function, which implies it will not be executed, why doesn't Python return an error at 2:21? I say so because you executed outer_function() instead of assigning it's return value to a variable.",True
+@alexmomotov792,2018-06-18T19:03:12Z,0,"Instead of using functools module we could pass the following line to our decorator: wrapper.__name__ = orig_func.__name__ right before the return statement. This worked for me, but I wonder if this method is prone to errors.",True
+@jag1506,2018-06-12T13:10:41Z,0,"I don't know if this was pointed out already but you can use only *args and this python trick will still work as name, age are just two arguments anyway. The way I see it is that **kwargs is to iterate over a keyword arguments as those described on dictionaries.",True
+@suhailahamed4991,2018-06-11T03:27:11Z,2,"I just walked through this video regarding decorators, additionally i knew what are Clousers and First Class functions....Really, ur teaching is awesome Sir. Thank you",True
+@bishbish9111,2018-06-11T03:24:33Z,2,Finally I see the light....!:D,True
+@umagarg8571,2018-06-11T00:21:15Z,1,very well explained. you are the best teacher,True
+@hirenpatel6118,2018-06-09T17:09:42Z,0,What editor is that? Looks cool,True
+@stillinmusic,2018-06-09T14:19:33Z,1,So helpful! I finally understand decorators. What a brilliant explanation.,True
+@AriaHarmony,2018-06-09T08:12:53Z,6,Crystal clear! I finally get decorators! Thank you very much!! :D,True
+@lwwells,2018-06-05T19:04:43Z,969,Feels a bit like the first time I saw inception.,True
+@adrianstaniec,2018-06-03T11:43:03Z,0,"I am confused by one thing. Why do you ```return inner_function()``` (and ```return original_function()``` later), instead of just calling the function like ```inner_function()```?  I mean the return doesn't do anything, it just returns None, because the inner_function doesn't return anything.",True
+@LiqingNZ,2018-05-30T10:47:41Z,1,Amazing tutorial! Love it!,True
+@fosatech,2018-05-28T05:52:14Z,2,This is a brilliant video!,True
+@priyamnigam6534,2018-05-24T10:22:02Z,0,"Please upload tutorials of 'Asynchronous Python Development '. ie. Process and Threads used in python, ThreadPoolExecutor, ProcessPoolExecuter etc.   thanks, in advance",True
+@amanmaldar,2018-05-18T22:39:52Z,8,1:25 The variable 'message' wasn't created inside the inner_function but inner_function does have access to message variable. This is called free variable. Spot on. Thanks for the awesome description.,True
+@_bancini_6355,2018-05-18T19:03:45Z,0,Thank you very much!,True
+@abhishek9044855265,2018-05-17T15:14:25Z,0,Extreme example and knowledge on decoraters all doubts clear 👏,True
+@abdallahelkasass6332,2018-05-16T14:54:20Z,0,you are  awesome Corey >3,True
+@fredxu9826,2018-05-14T07:09:56Z,0,"I have one question: when in the end you are using the @wraps , and stack decorators, does it essentially apply the two decorators SEPARATELY to the original function? (instead of nesting the two together) . Thank you for the tutorial!",True
+@user-oh6wg7de4g,2018-05-11T04:06:26Z,0,I don't get it,True
+@umairdurrani6499,2018-05-07T11:28:50Z,0,Thank you.,True
+@The1984arvind,2018-05-06T11:47:21Z,0,You are really good. I have watched and liked each of your videos  on Python. Can you please add some videos on Python design patterns.,True
+@anandjoshi7868,2018-05-03T09:06:18Z,0,your explaination is perfect.,True
+@shibleesaidul4963,2018-05-02T08:18:40Z,0,"I could use the same decorator for both the function with out passing *args & **kwargs parameter in wrapper_function() if the display_info function would not take name & age parameter ,right??",True
+@meclover3411,2018-05-01T23:53:57Z,0,"Thanks you very much, from today I wont have any problem in decorater.",True
+@86faizankhan,2018-05-01T12:56:17Z,0,"Superb video, thanks a lot!",True
+@jamesfrank3421,2018-04-28T17:32:14Z,5,You have got to be one of the best teachers I have ever come across.  You explain complicated concepts extremely well. Thank you for your time and effort,True
+@saitomsai4150,2018-04-26T17:00:45Z,0,Thank you Sir ! you made my day by learning a new python concept !,True
+@sampadakhandekar5383,2018-04-26T15:12:15Z,0,Hi Corey! Amazing tutorial as usual! But can you explain how the @wraps(original_function) preserves the information of the original function?,True
+@NotTubeIm,2018-04-18T00:56:10Z,1,This rapper that’s waiting to be executed...?!,True
+@rohanrajjaiswal2761,2018-04-12T13:51:54Z,0,"code snippet: ``` def decorator_function(orignal_func):     ''' why is this statement getting exec twice'''     print ('I am also exec..!!!')     def wrapper_function(*args, **kwargs):         print('wrapper exec before {}'.format(orignal_func.__name__))         return orignal_func(*args, **kwargs)     return wrapper_function  @decorator_function def display():     print('display func run')  @decorator_function def display_info(name, age):     print('display_info ran with args ({}, {})'.format(name, age))  display_info('John', 25) ```  O/P -- I am also exec..!!! I am also exec..!!! wrapper exec before display_info display_info ran with args (John, 25)  why does ""I am also exec..!!!"" is getting exec twice ?",True
+@tapp3r109,2018-04-11T22:42:48Z,0,"Definitely gonna have to watch this one a few times to really understand this, but it's a good one as usual - just a bit more advanced than I expected.",True
+@hardikthakker2007,2018-04-11T16:20:45Z,0,How does functools work with __call__ method of a decorator class. Is it the same as decorator functions??,True
+@vinodkashyap599,2018-04-11T11:32:00Z,0,Amazing Thank You Sir,True
+@manakin2731,2018-04-02T23:03:21Z,0,"What IDE is this? Great clear video, thank you!",True
+@techcode_man,2018-03-31T20:32:33Z,6,"Corey, You are a hero! Thank you so much for these videos, these are the best Python videos I have seen. Your teaching methodology is second to none. Thank You!!!",True
+@harshj84,2018-03-29T09:13:38Z,0,"I owe you a beer for your videos. They are awesome. Just one question, If i use '@' syntax to decorate my function, Is there any way i can call my original function only without decoration if both of them are in same scope i.e same file.",True
+@barbarairena6714,2018-03-27T11:39:13Z,0,found an excellent article/ explaination on decorators: https://www.blog.pythonlibrary.org/2017/07/18/python-all-about-decorators/,True
+@mr.dankebs6104,2018-03-20T17:33:07Z,0,"32:07 what are we returning of there is nothing to return??? if you remove that line nothing changes, or have i missed something?",True
+@breakeract796,2018-03-20T02:10:46Z,0,"hi Corey I'm trying to understand it. Tell me if my opinion is true. Decorator is a function, it take another function same as an arguments and then return that function. It like @override method in Java. The wrapped_function is rewritten inside decorator_function. Thanks",True
+@Max_Alive,2018-03-14T23:10:57Z,1,Just a simple like doesn't do this justice. Excellent explanation!,True
+@gouthamanush,2018-03-14T15:49:23Z,1,I have watched several videos and read several websites to know about decorators but no one could explain me clearly the functionality of a decorator. Now it's crystal clear :),True
+@townheadbluesboy,2018-03-14T08:02:55Z,1,Another great tutorial Corey - you're very good at explaining this.  Take me a couple of watches to understand it fully!,True
+@felixlucaciu,2018-03-08T10:04:01Z,4,Thank you Corey! Your tutorials are surpassing even the ones offered by Pluralsight!,True
+@jayakrishnanarra7984,2018-02-26T07:02:25Z,0,Does the @deorator get executed first or the original function below it? Because it is different in the case of the 1st example and the timer case. Can anyone explain this??,True
+@mono1017,2018-02-24T15:52:54Z,0,Why do you import the logging and time modules inside the functions??  It seems redundant doesn't it? Or am I missing something?  Great video btw.,True
+@sushichanel7299,2018-02-23T08:06:24Z,0,"def outter_function():     message='hi'      def inner_function():         print(message)     return inner_function()    outter_function() call_my_function = outter_function() call_my_function()   My error is :   Traceback (most recent call last): hi hi   File ""C:/Users/thao/Desktop/python/bai 1.py"", line 12, in <module>     call_my_function() TypeError: 'NoneType' object is not callable  Please advise. Thanks.",True
+@miguelortiz9428,2018-02-22T03:01:02Z,2,">> corey == ""the GOAT"" True",True
+@user-mh1br9uj1t,2018-02-19T13:55:43Z,0,"Hello sir, if it is possible, can you explain me please, why do we use ""return result"" inside the my_timer in wrapper function. Because it is none and if we delete it, the result still the same. If you see this, thank you for attention.",True
+@l_combo,2018-02-17T17:30:21Z,0,I'm still super confused but I think I'm looking at topics a little too advanced for my current progress. Love your videos in general though!,True
+@kenmeyer100,2018-02-17T13:33:46Z,1,Awesome explanation. You are a great teacher.,True
+@RajKumarSingh-xt1pq,2018-02-17T11:26:26Z,0,a blessing to the programmers! :),True
+@rajvedansh8168,2018-02-16T07:19:29Z,0,Superb Man !,True
+@saulo5216,2018-02-15T17:45:41Z,0,This is my favorite anime.,True
+@stephan8573,2018-02-12T08:41:18Z,0,"Thanks mate, great explanation",True
+@Rec1337,2018-02-09T12:42:26Z,0,"Thank you Corey, for every video you made!!!",True
+@IsItTimeToTravel,2018-02-05T14:33:33Z,0,Best Tutorial video ever. Perfect narration . Great Examples . Good luck .,True
+@jeff_mci_gaming6018,2018-02-03T12:58:46Z,232,"Your hands down the best damn online-teacher i've seen yet...there was one other dude on Udemy , but you've surpassed him...Your videos makes programming twice as fun because you explain things so easily for ppl to understand...I can see how this would result  in a person  spending hours at the keyboard,  generating new ways to implement their code with their newly-learned information ( at least that's what your videos have  done for me!! lol)....thanks for your hard work, Corey.",True
+@eiduix9169,2018-01-29T03:26:54Z,0,"I like your video very much, it explains the concept clear and simple. Thank you",True
+@venugopalibharampur9202,2018-01-27T13:13:34Z,0,Can u please tell me what is the use of **kwargs and how to modify name and age parameter value in decorator,True
+@srimanyadagiri7831,2018-01-26T05:28:09Z,0,Why should we pass *args and **kwargs to wrapper function ? display_info is the function that needs the arguments right?@ about 13 minutes. Any insights would help. Thanks in advance,True
+@sravanthi555,2018-01-15T06:55:42Z,0,"Hi Corey, I guess there is no need of return for call in original_function() in the Decorator as print is given in Original_function definition. Thanks a lot for your vedios.",True
+@RobYourHeart007,2018-01-07T16:28:30Z,0,Crystal Clear concept ......loved your explanation......Decorator now is crystal clear to me,True
+@imtiazcodes5704,2018-01-07T06:22:14Z,0,"Aaand a drinking game, take a shot every time he says ''function'...",True
+@imtiazcodes5704,2018-01-07T06:17:53Z,0,"2:00 Ok that's easy so far. Not really hard to keep up with. 11:00 AAAaaaaaaaAAAAA!! So, whose house do I decorate with wrappers?",True
+@YernagulaHemanthRamaKrishna,2018-01-04T16:23:22Z,0,"If I add anything in between outer function and inner function, I'm getting error as 'This code  is unreachable"" can you please tell me why?",True
+@NitinPatilEmbedded,2018-01-02T18:12:35Z,0,"Best tutorials you have, Best voice, Best examples, Best explanation. I doubted for people who downvoted your tutorial, I think someone needs to grow up. My Best Wishes is to you, Corey. Do you have such tutorials on Django?",True
+@kishorekumar2769,2018-01-01T13:48:11Z,0,time.sleep(1) i didn't get this could you please explain corey,True
+@disooqi,2017-12-31T01:41:26Z,0,If I would give you more than like I would do,True
+@nabazgharib,2017-12-30T21:49:47Z,0,Finally understanding decorators.. simply thank you..,True
+@RodrigodeLimaVieira,2017-12-20T20:26:41Z,0,Hey great video tutorial! Is that a way to decorate an object? And also add properties to this object through a decorator?,True
+@davidm.johnston8994,2017-12-18T23:54:12Z,0,"I love you man, thank you so much, it's so much clearer now!",True
+@gaurishkadam7386,2017-12-13T08:02:21Z,0,thanks,True
+@sbarter,2017-12-09T21:30:10Z,0,what is the voodoo magic you use to add multiple comment #'s with one keystroke? Also i see you change multiple variable names at the same time as well? This would help me immensely.,True
+@stevenkijooma2001,2017-12-06T14:49:49Z,0,Thanks for the way you lay down content. Do you a plan to ever make Django tutorials?,True
+@mohittewari6796,2017-12-03T10:28:20Z,0,Really great videos... I went through both videos of closures and decorators and got a really nice understanding of these concepts. I have a question though. What is the difference between closures and decorators? Both appeared nearly same to me.,True
+@timurbabadjanov9115,2017-11-29T10:25:45Z,5,You explain this shit better than most of the professors in my school! Thank you Corey!,True
+@saimanojnandam3211,2017-11-21T23:16:48Z,0,why do we need to pass an object in the class,True
+@user-jl3ti3tc2j,2017-11-19T15:24:07Z,0,Вот это жуть! Спасибо!,True
+@estring69,2017-11-19T02:10:42Z,0,It's just for decoration; that's it and that's all.   Woo Woo!,True
+@sodapopinski9922,2017-11-15T02:53:53Z,0,so basically decorators turn variables into func????,True
+@sureshroyala6296,2017-11-13T23:53:39Z,0,Thanks much for this. The logger and timer example taken for decorators are very relevant and justifies thoroughly as to why we need them.,True
+@VIRAJBHOSLE,2017-11-11T14:27:28Z,0,Top quality content. Thanks a lot!,True
+@akashsharma-fu4yq,2017-11-11T03:00:36Z,0,"Hey Corey you didn't need to use *args and **kwargs, I think we could have just used the *args while passing the name and age, Correct me if I am wrong? Great video, cleared a lot of doubts surrounding decorators.",True
+@prashantpant2876,2017-11-07T07:02:05Z,0,"How to""Common-Out"" codes?",True
+@abhipinky10,2017-11-06T04:58:18Z,0,Can you give practical examples where decorators can be / by default being used ???,True
+@heisenburger311,2017-11-02T13:41:12Z,0,Thanks a ton!,True
+@chiefmofo,2017-10-26T23:45:29Z,28,This is the best explanation of decorators that's I've come across.  Kudos!,True
+@mirianandrew3694,2017-10-25T07:37:50Z,0,Thanks a lot for helping  me without charge.,True
+@Ucef10,2017-10-24T01:22:56Z,0,Thanks man!,True
+@sireeshaboddu3352,2017-10-17T20:55:47Z,0,You are awesome..,True
+@jorgeestebanmendozaortiz873,2017-10-11T17:21:36Z,0,Have you ever considered creating an entire course in Udemy? I would definitely pay for it.,True
+@weiso498,2017-10-02T17:28:32Z,7,decorator should be called inceptionator instead....,True
+@ShriKanase,2017-09-30T03:54:26Z,1,Amazing tutorial but I'm having a little trouble understanding how the @wraps decorator made it output the statements correctly. Could you explain that?,True
+@PradeepKumar6,2017-09-29T06:49:53Z,1,"This is best explanation on decorators, your all the videos are great. Thanks for putting it on you tube for people like me.",True
+@aerinkim88,2017-09-26T01:08:26Z,2,Ah this is the best tutorial about the decorators. thank you..,True
+@rbarr5530,2017-09-24T21:03:54Z,0,Very good Corey. Didn't understand this topic before - I do now!,True
+@Shak27520,2017-09-07T13:04:13Z,1,"I don't why but my wrapper function is taking two arguments without *args and **kwargs..  def decorator_function(main_function):     def wrapper():         print(""Wrapper function have ran before {}!"".format(main_function.__name__))         return main_function     return wrapper()  @decorator_function def display():     print('Displaying the main function!')  @decorator_function def bform(name, age):     print(name, 'is', age, 'years old!')  display() bform('Abeer',17)  Output: Wrapper function have ran before display! Wrapper function have ran before bform! Displaying the main function! Abeer is 17 years old!",True
+@MrRijoAlex,2017-09-03T16:12:33Z,2,"First off, Amazing Video; really well explained!! I spent the whole day trying to understand what decorators & closures were until I came across your videos. I don't think that this video was particularly long for it's nature of intuition and complexity. Thank you so much, Corey!! *Subbed for life* :D",True
+@sccts,2017-09-02T19:06:38Z,0,Excellent video. Perfect pace and selection of examples and use cases. Thank you very much,True
+@kevinryan4000,2017-08-25T14:39:35Z,0,Fantastic tutorial on decorators really clear and intuitive.,True
+@mihailomilanovic6520,2017-08-21T13:59:54Z,0,"This is sooo complex, I have a headache :D   I don't need IT job after all . . xD",True
+@tikendersingh1138,2017-08-21T10:35:02Z,0,"Just one question  is killing me. We added (*args,**kwargs) in the parameter of wrapper_function so that we can pass as many function as we want. Similarly we added (*args,**kwargs) in the parameter of original_function so that we can pass as many arguments in passing functions as we want.  If i am wrong, please correct me. And one last thing, corey! you are genius. Keep up the good work.",True
+@ii4511,2017-08-14T13:40:48Z,0,"Excuse me but does anyone know why the decorator_function returns: ""wrapper_function"" not ""wrapper_function()"" which is the result of the wrapper_function",True
+@digitalaks,2017-08-13T17:39:59Z,0,"Just at the moment when I was getting question ""What if I want timer as well as logging?"" you come up with explanation for that. Wonderful mind reading of the viewer!",True
+@samsmanik4553,2017-08-06T06:08:39Z,0,Great video Corey...Well thought-out tutorial...keep it up,True
+@hendroyohanes4295,2017-08-03T15:37:22Z,0,I came here because you told me in the OOP classmethods and staticmethods tutorial to understand decorators,True
+@alexvandekleut1437,2017-08-01T14:13:35Z,0,Hi Corey! I was wondering if you have a video on *args and **kwargs available / optional arguments? Thanks!,True
+@newtran18,2017-07-24T03:33:37Z,0,thanks much,True
+@ruixu7758,2017-07-19T09:44:30Z,1,best tutorial for python!!!,True
+@xiaofeiwang4434,2017-07-18T15:30:30Z,0,Great tutorial!,True
+@linaca9809,2017-07-14T14:27:55Z,0,不懂英语的我，，只能呜呜了。。,True
+@0xsuperman,2017-07-12T20:57:54Z,0,"Great tutorial, but what might be a good python textbook or reference book that describe these kind of higher level python functionality (such as itertool, list comprehension, decorator, *arg, etc)",True
+@saitaro,2017-07-05T19:42:31Z,194,Wow now I can decorate my decorators while I'm using my decorated functions,True
+@SM-gy7yi,2017-06-28T04:57:36Z,0,why did you use **kwargs i cannot understand and instead of *args and **kwargs can i simply out there two variables  at 13:42,True
+@empeaTV,2017-06-24T11:20:21Z,2,"Such a champion you are making even me understand something a complex as decorators. Thatßs close to impossible, but for some reason I totally get what you teach.",True
+@jugalrawlani9605,2017-06-21T18:54:07Z,0,So how we apply a wrapper to retain the original function name and doc string to the __call__ method. I tried it but there's an error. Also your videos are really really really awesome. You just make everything simple and easy to understand. Thanks alot,True
+@saustin98,2017-06-19T19:28:22Z,0,"Well done, Corey. I'm just learning Python, and decorators were a bit hazy to me. You laid it out beautifully. Thanks!!!",True
+@lolaplolap1,2017-06-19T04:17:27Z,0,22:00,True
+@alterguy4327,2017-06-08T10:05:38Z,2,Heyy Everybody How is Going going??  Me:Like Python,True
+@echoesfromnepal3161,2017-06-06T09:42:07Z,0,You have a great explanation technique. Now I'm clear about decorators.,True
+@333ksrikanth,2017-05-25T07:17:32Z,0,What is the editor that you using to code? And can I use it on windows 10?,True
+@krishhh78,2017-05-21T09:25:29Z,0,I found really confusing but very useful.,True
+@biophr34k,2017-05-21T09:01:02Z,1,"Hands down, best viedo on Python decorators in my humble opinion. Thanks a lot and congratulations!",True
+@prateekparanjpe6309,2017-05-15T17:38:52Z,0,You are real deal @Corey!! Thanks for the tut.,True
+@super_user_2024,2017-05-11T10:53:18Z,0,"Brilliant, the way you explained Object Orientated Programming and Decorators is cosmic! I was using Kivy to manipulte widgets and this and OOP tutorials helped a TON! Subscribed! If you have the time to explain Kivy, it would mean the world. Thanks a lot!",True
+@MAC0071234,2017-05-09T17:35:44Z,0,"when using the double decorators, your display_info function is being called twice and it runs twice - 1> in my_logger and 2> in my_timer. But it logs just once since only once its being called through the logger. This i think is a issue. How can we solve this. And also if we want to use multiple wrappers after calling the method once and also want it to run just once (even though if we are using multiple decorators), how can we achieve that? Apart from this i got pretty much everything you taught. Great tutorial.",True
+@narasimhanmb4703,2017-05-09T03:59:32Z,0,"Hi Corey Really appreciate what you are doing and it immensely helps. I have a question here. It makes sense to pass (*args,*kwargs) to the original_function inside the wrapper. But why should we pass the same arguments to the wrapper function itself? Could you please explain this?",True
+@mostafaalshaboti3677,2017-05-06T03:14:04Z,1,That's the easiest and the best explanation I have ever found.  Thanks A LOT.,True
+@chandrasekhar9750,2017-05-06T02:17:58Z,0,"Hi, Explanation is really nice, I have one clarification in ""return original_function()"". Do we really need to return the function here, or we dont need to . where does this return will go ?",True
+@TheRuttekut,2017-05-04T18:26:51Z,0,You a hero :):)!,True
+@lokeshnachappa4093,2017-04-28T11:29:22Z,0,awesome....,True
+@Chayo016,2017-04-20T15:46:27Z,5,Awesome video! I have an exam in like an hour and you actually made me understand the contents :D You are a very good teacher. I'll definitely watch more of your videos when I'm less in a hurry :),True
+@midinerd,2017-04-15T14:52:14Z,0,ahhh the wrapper() def at 22:17 (for example) is using closure to keep the orig_func resolution without it being in the args list. ahhh thank you (realized this in your follow-up video higher order functions)  thanks!,True
+@bowenwang,2017-04-10T05:38:37Z,2,Best programming teacher on YouTube,True
+@JS-kr7zy,2017-04-08T19:04:10Z,0,What IDE are you using? Looks cool.,True
+@dachapbgIsmyName,2017-04-06T10:33:21Z,0,"A very good explanation ! Just one tip, use shorter and less similar variables. decorated_display and decorator_function .... it looks a bit messy.  10:59 display is a variable and also a function. thats what im talking about  Keep up the good work men :)",True
+@mpertalulaki4186,2017-03-30T16:07:31Z,56,your python tutorials are works of art; really concise and educational; thanks,True
+@xinli5659,2017-03-22T09:54:15Z,0,Your video is awesome. Thanks.,True
+@jophycui2454,2017-03-22T02:29:38Z,0,"Geat videos, looking forward to hear your explianation for descriptor",True
+@382946rthu,2017-03-18T16:09:05Z,0,"Good videos but try to break videos up, 30 mins is a little long.",True
+@kanakanayahamselvendira7690,2017-03-14T22:23:27Z,0,"Can you please provide the source code in the tutorial, please?",True
+@AvantjerTube,2017-03-14T04:38:28Z,0,"Thank you so much, Corey, for sharing your knowledge! I find that your teaching style really suits my learning style! Thank you, thank you, thank you!",True
+@VibeWithSingh,2017-03-11T03:52:34Z,0,Great video!,True
+@ligureful,2017-03-05T07:29:38Z,1,Best explanation of decorator!,True
+@laszloszoboszlai9578,2017-03-01T02:58:24Z,0,i think i grasped the idea of decorators as my first two idea was to apply it to logging and timing... (before you started the examples),True
+@sumitsinghal8221,2017-02-26T10:03:46Z,0,"Hi Corey,  Your videos are just awesome. They made learning python really fun for me. I am requesting you to add videos in these topics too. Descriptors MetaClasses More in Magic Methods",True
+@lokeshnachappa4093,2017-02-14T10:09:19Z,0,"In some part of my code, if I just want to call the original function(dispay) without the wrapper functionality, how to do that?",True
+@veganath,2017-02-04T03:02:14Z,33,"My head hurts, I hope I'm not the only one who had to watch this 3 times....lol. BTW wonderful tutorial thanks",True
+@michael_d2,2017-01-19T07:40:51Z,0,"The videos are very nice!  Possible suggestion for improvement:  I would split this video into 2 videos.  The ""double decorator"":    @my_logger @my_timer  and its motivation is less clear",True
+@mrimtiyazansari,2017-01-19T06:02:23Z,0,Very well explained .. keep it up,True
+@MrVwin,2017-01-18T20:09:13Z,208,Perfect Explanation + Good Examples + Good tempo + Nice voice . thank you corey,True
+@Lunixor,2017-01-15T23:25:47Z,0,Fantastic tutorial! Decorators make sense for me now.,True
+@michael_d2,2017-01-15T16:10:50Z,3,"Hi Corey,  1. First of all- very nice! 2. Do you have some repository with a code from the video?",True
+@aramhamidi7080,2017-01-09T23:19:45Z,3,Best tutorial!,True
+@dandan7884,2017-01-08T01:58:19Z,0,"Excellent video and explanation! It is fun to notice that we had this same behavior in javascript since ever. The ""problem"" is just javascript...",True
+@MrMartinfo,2016-12-29T19:11:03Z,3,"my wrapper function couldn't wrap head function before. After seeing your video my wrapper get's the head function to work :D :D :D good work mate, keep up",True
+@shibasispatel6624,2016-12-23T20:20:05Z,0,The best lecture I ever had..,True
+@xaxoxaxi,2016-12-20T15:59:20Z,0,Thank you for this video !,True
+@adnanalam482,2016-12-15T09:24:02Z,0,"I didn't understand what is ""@wraps( )"" actually doing here ? can you explain a lil bit ?",True
+@saulgarza9859,2016-12-13T06:24:18Z,0,"I learned more about decorators with you in the first 15 min than I did with my professor in the two weeks he taught. Bless up homie, need to ace this final in two day.",True
+@andrewpeters8357,2016-12-07T08:03:42Z,1,Great examples and excellent teaching; you've got another subscriber.,True
+@kanakanayahamselvendira7690,2016-12-01T20:47:18Z,0,"Can we get the source code in the tutorial, please?",True
+@atul6981,2016-11-25T23:56:18Z,1,"I search your channel first if there is anything I don't understand in Python, and I am never disappointed.  Thank you so much for sharing these videos. And keep them coming. Cheers!!",True
+@anindyasundarmanna6683,2016-11-23T10:58:50Z,0,You sir are a great teacher! Very useful examples with clear explanations. Thank you for these tutorials. :),True
+@anindyasundarmanna6683,2016-11-23T10:58:37Z,1,You sir are a great teacher! Very useful examples with clear explanations. Thank you for these tutorials. :),True
+@marcellocalabresi6018,2016-11-14T22:00:38Z,0,"That's a great video, thanks",True
+@kanakanayahamselvendira7690,2016-11-12T15:15:07Z,11,Excellent Teaching. I have watched so many people tutorial but your's the best. Is there anyway I can get your scripts in the printable format  or download those tutorial files Please? It will be very handy.,True
+@JackPunter2012,2016-11-05T23:58:38Z,0,"Finally i found a video which actually answered my questions on decorators, I've seen them in the past, and it seems that finding out where and when to use them is quite hard to find, yet how to use them is relatively easy. Love this video very easy to follow and understand, i think you just gained a sub good sir :D",True
+@jasonzhang2643,2016-10-07T03:33:01Z,0,Very very clear!,True
+@hitmanLis,2016-10-01T04:59:52Z,68,You could be the best instructor in the entire world... nice flow!,True
+@pkaramol,2016-09-30T15:45:14Z,1,"At about 12:15, Is the return statement for the original_function within the wrapper function necessary? Doesn't this stops us from adding functionality AFTER the execution of the original function? e.g.  1. def decorator_funcion(original_function):  2.    def wrapper_function(): 3.       print(""Before Decorator"") 4.       original_function() 5.       print(""After Decorator"") 6. 7.    return wrapper_function  If we add a return statement in line 4, line 5 will not be executed, right?",True
+@dibbsm7243,2016-09-26T01:27:32Z,1,Great and clear.   This helped with supplementary reading.   Thanks for these videos,True
+@vlad1290palovic,2016-09-17T11:23:56Z,1,Clear explanation giving proper focus on useful utility.,True
+@kelvinquinonez7694,2016-09-15T03:05:50Z,3,These tutorials are amazing!!!,True
+@snpsforyomom,2016-09-11T07:21:38Z,0,"this stuff gets confusing, but you do a great job explaining!",True
+@gyan2664,2016-09-03T01:12:54Z,0,"exact definition is making hard to understand the closure but thanks a lot could you please make some tutorial on python 3 and selenium web automation ,cause I didn't find any so far any where not even in any book",True
+@gyan2664,2016-09-03T01:09:40Z,0,As per my understanding closure allows to execute the function if any function which is used without closures will return the  defination of the function,True
+@borisurkan2223,2016-08-24T04:59:59Z,0,Excellent! Thanks!,True
+@YoussefNAIMI93,2016-08-19T18:57:16Z,0,"thank you, well explained",True
+@manikanth2166,2016-08-05T22:02:57Z,0,"This is great, but if the folks want to use decorators in truly perfect way, its better to implement using the wrapt library by Graham Dumpleton. This is beyond wraps, it also preserves function signatures and other stuff like type checking abilities. I think you should also make a complementing video of wrapt. http://wrapt.readthedocs.io/en/latest/",True
+@zhiweipeng5715,2016-07-05T22:06:17Z,2,Thanks a lot for these videos. This is very well explained.,True
+@anumsheraz,2016-07-03T08:00:10Z,0,"Nicely explained. Infect, excellent teacher you are !  Thanks a bunch.",True
+@vijay5703,2016-06-26T11:33:53Z,0,hi Corey fantastic i have been following entire python tutorial can u upload some scripts on how to crawl a data from websites using some python lib,True
+@pa1kum6,2016-06-26T02:55:54Z,0,"thanks a lot....watched first class functions, closures and decorators together helped me understand this topic much better... also i have seen decorators used inside a class also like @Getter and @Setter...can you please cover these in your upcoming OO Python videos?",True
+@rmalshe,2016-06-20T04:12:59Z,834,"The way you teach programming is really nice!  Its very basic, it is paced very well, and it is very logical. In addition you use code snippets that are really concise. Many other videos are either too fast, or too slow, or often simply lack the logic.   Often times one can see videos, or written programs but when the teacher doesn't tell why it should be done in a certain way, the inspiration is missing, and then it is very tempting to pick up bad habits that may look simpler, but are inefficient methods.  Keep up your good work, and every now and then when I will look for efficiency, I will search for your name :)  Now I wish you were a data scientist at Intel where I work.",True
+@MrPatrickDayKennedy,2016-05-17T07:07:46Z,0,Mighty powerful stuff here! Thank you for the excellent explanation and practical examples!!!,True
+@orsodevero,2016-04-17T20:01:13Z,1,You nailed it with this videos! Very clean and clear explanations.,True
+@user-ve3wr9rq8v,2016-04-13T22:30:10Z,1,Thank you Corey. Excellent videos.,True
+@garyjeffersii6735,2016-04-10T22:15:39Z,1,Thanks for your great videos. I'm still trying to wrap my head around closures and decorators and your videos are helping greatly.,True
+@mikhaillyapich7773,2016-04-05T16:06:21Z,0,"Nice video, dude! Realy helpful. Can you please explain metaclasses in the next videos?",True
+@19930208oli,2016-04-05T15:36:26Z,1,"I really appreciate how you build up these lectures on interesting topics, thank you! I recently switched from Pycharm to ST3, but one thing is really annoying for me: I use SublimeREPL in a way, that I have a split editor, on the left with my code ran and on the right the python console. Is there a way to make the python console interactive?  For example, to be able to check the len() of a variable that I declared in my python code instantly from the console, after I built the code? This would be highly effective for simple debugging, like in Matlab, or Spyder. Also, which Linter do you recommend to use?",True
+@giaphatha88,2016-04-04T17:40:35Z,1,"thanks man, I was very confused about this a week ago. btw, what IDE do you use? The font seems nice",True

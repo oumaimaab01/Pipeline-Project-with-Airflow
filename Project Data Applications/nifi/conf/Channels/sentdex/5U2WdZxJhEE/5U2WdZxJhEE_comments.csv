@@ -1,0 +1,84 @@
+author,updated_at,like_count,text,public
+@DarkRedman31,2022-03-05T17:45:47Z,0,7:53 it's normal synce it's asynchronous it doesn't wait or block the frame to pass to the next one so maybe the time we start doing the .do asynchronously it goes to another frame before it completed the do action,True
+@tagged581,2020-08-28T09:26:37Z,0,Having issues with finding the new unit ids and names.  Also my code keeps crashing if I order my bot to do anything but: await self.distribute_workers any ideas how to fix this and/or possible causes behind these issues.,True
+@TheGingerlie,2019-11-23T03:09:52Z,0,"So I’m trying to run this but following any tutorial or even using the example python files it just pops up the cmd prompt and then shuts down. It never opens up Starcraft 2 or anything. When I build it straight from Sublime text it just gives me ‘0’ is not recognized as an internal or external command, operable program or batch file. And then shows me the paths and all that. Anyone know what I’m doing wrong?",True
+@peterstorm_io,2019-11-20T12:26:35Z,0,"You also have a max supply, which is 200 as far as I remember, so that should be coded as well :)",True
+@FadeStrategy,2019-10-23T23:09:26Z,0,"We have an 8 week uni project building a terran ai for a competition at the end of the semester, this guide is much appreciated :)",True
+@rmanzman,2019-08-21T03:36:16Z,0,having trouble coding this. must have been an update on website. anyone found a way in following this through?,True
+@Olav3D,2019-08-12T16:34:49Z,0,Would be awesome if we could turn this on and off in an actual game to automate and maximize income and production in the first few minutes. Great series!,True
+@BryceChudomelka,2019-07-21T00:35:13Z,0,Still not working with Python 3.7?,True
+@BryceChudomelka,2019-07-17T03:49:10Z,1,You're such a noob. Hilarious. GGWP,True
+@goodguidegreg,2019-03-16T22:02:39Z,0,is it normal that I dont have sound ingame when i start it from the file?,True
+@lucasbinswanger2997,2018-12-28T21:13:53Z,0,my life for Aiur,True
+@NeuroScientician,2018-12-17T17:18:28Z,0,"There are many quite obvious  of prerequisites for your tutorial, you are just not realising them.",True
+@fahimferdous1641,2018-11-24T17:21:22Z,0,"Hi sentdex, I really appreciate your contents. But I have a question for you. How do you get started by yourself and how many hours do you spend on reading documentations?",True
+@AIvetmed,2018-11-02T18:54:31Z,0,guys for me pylon is not getting created actually!! it runs some time and closes the screen! help me out,True
+@fourZerglings,2018-10-11T13:50:28Z,0,"The reason it queues 2 workers is because two commands come in rapid succession, and there are asynchronous requests sent to server. Before the first returns, we already sent order to make another one.",True
+@vichtorsnichtor292,2018-10-10T08:02:16Z,0,"Try this for a lovely game called Tibia, easy 2D game that would need some new bots that can think for thenmselves hehe. :D  Thanks for all ur content!",True
+@jasonparkin7490,2018-10-09T10:09:13Z,0,My code crashes at - await self.build_workers() . any idea?,True
+@benjaminjay3933,2018-09-27T16:02:29Z,0,Hi and first of all thank you for your work . You are really great at programming !  Second : I am learning python for a while using your videos and I'm here to learn this one . Btw when I try to get the number of workers it is a little confusing . For example at the right upper corner of screen you have 15/15 but your given workers amount by self.workers.amount is less than this . Self.workers.amount not including the workers that building an structure! Self.units(SCV).amount or len(Self.units(SCV)) is not different!  What can I do to get all workers amount ? Thanks again,True
+@marcosantos9512,2018-09-16T20:25:51Z,5,"If you are having trouble when importing Nexus, Probe and other buildings, the constants file seens that was changed, use this code   from sc2.constants import UnitTypeId as unitType  And using the unitType you will be able to use the buildings  exemples  PROBE = unitType.PROBE NEXUS = unitType.NEXUS  In this case I'm assigning to a variable to be easier to use later",True
+@ryanthompson591,2018-09-08T13:36:04Z,1,"Hey nice tutorial.  I found that this would always make pylons in my mineral line.  So I wrote some code that puts the pylon on the opposite side of the nexus from the minerals.     build_near = nexuses.random.position.to2    # get the closest minerals and build in the opposite direction    closest = None    closest_dist = 9000    for mf in self.state.mineral_field:     dist = build_near.distance_to(mf.position.to2)     if closest == None or dist < closest_dist:      closest_dist = dist      closest = mf.position.to2    newX = build_near.x - (closest.x - build_near.x)    newY = build_near.y - (closest.y - build_near.y)    build_near = Point2((newX, newY))                         await self.build(PYLON, near=build_near)",True
+@YusufPatoglu,2018-08-22T00:08:24Z,1,Now wondering why it queues one probe :o  As computer engineering student and StarCraft player (only diamond league :>) seeing this kinda stuff is really exciting for me. Thank you ! ^^,True
+@MrRaycaster,2018-08-21T00:08:49Z,1,"Man, my python coding is very rusty since I took up Swift and IOS. I'm just trying to re-write everything from the terran side but getting rejected right away. Can't even get away with a : from sc2.constants import NEXUS, PROBE, PYLON never mind from sc2.constants import COMMANDCENTER,SCV,SUPPLYDEPOT.  Did the revision screw things up? I'm erroring on from sc2.constants import NEXUS, PROBE, PYLON?  Any help appreciated.",True
+@ilyasmax4778,2018-08-19T09:08:08Z,0,next one for dota 2 right ??,True
+@mez2965,2018-08-16T10:57:04Z,1,"from sc2.constants import NEXUS, PROBE does not work (anymore?)",True
+@alexadams1284,2018-07-24T00:40:50Z,0,I followed the tutorial exactly but only my distribute workers method works. I have no errors and copied the code from the text tutorial,True
+@devilkevin1637,2018-07-21T02:57:38Z,0,"Just a question, which line is causing probe to gather mineral again and again even though I stopped them from collecting minerals",True
+@Seeker265729,2018-07-16T04:12:20Z,0,"I'm pretty sure that on_step refers to the each discrete moment of game time which is some fraction of a second (note the game time in the in game timer).  I believe that sc2 can normally accept a certain number of simultaneous command inputs (or actions) per unit of game time (possibly per player?) Professional gamers can peak at maybe 500 actions per minute.  Pretty sure as others have mentioned that python is asynchronously sending the command to build probes as fast as it can, which is happening faster than the game can check the on_step hence queueing up 2 when the condition is true",True
+@roofishighcorp.associates2020,2018-07-16T01:24:01Z,0,You took protoss because it's the easiest race ? *takes popcorn*,True
+@hisjojo6312,2018-07-10T09:18:02Z,0,Maybe the next STEP means next event in the game. Like some simulation program.,True
+@mikelezhnin8601,2018-07-06T16:57:40Z,0,"By the way, in the protoss tech tree I saw mothership core, that is not a thing anymore -- I don't know if the game with the bots is using the latest patch, but I am almost sure it doesn't have MC there.",True
+@fridgemasterproductions,2018-07-02T20:48:39Z,0,It takes atleast 1 minute before my bot will start producing probes.,True
+@lawlzerderp7136,2018-06-29T00:58:14Z,0,"As someone relatively new to Python, I really love watching this series. It really shows ""hey look, you truly can play games using Python"" and is awesome :D I also love how you do things so simply, as if they're basic (since they obviously are to you), so then I'm like ""what is the 'async'? Let me go look that up!"" and I'm learning! :D thank you for the amazing series!",True
+@tswdev,2018-06-28T10:21:40Z,1,"This is awesome. As world of warcraft bot builder I find this is way better because there is wayyy less stigma. ""Normal gamers"" see us in a bad light even though I do no harm to anyone in my botting, I dont destroy resources, or ruin prices on the action house, or anything like that.",True
+@matthewburson2908,2018-06-27T18:44:39Z,14,"I loved your ""life lesson"" in the beginning. It's a problem I actually struggle with. With regard to the always researching the underlying prerequisites before just diving into the process.",True
+@mohamediahh,2018-06-25T22:53:27Z,0,"[pylint] E0611:No name 'NEXUS' in module 'sc2.constants' [pylint] E0611:No name 'PROBE' in module 'sc2.constants' [pylint] E0611:No name 'ASSIMILATOR' in module 'sc2.constants'  I have some errors, can you help",True
+@Sauravkumar-jz1js,2018-06-25T10:17:38Z,0,"Hey, you didn't import PYLON but your code still worked. How???   Problem: Code not working [ error: PYLON not defined ]   Solution: I checked the sc2.constants file and there were NEXUS, PROBE, and PYLON too. So, I imported PYLON and it worked",True
+@maxitube30,2018-06-24T22:43:28Z,0,"i love u and your content man. i'm from italy,may english is bad and i'm trying to learn something with you. i'm noob in python and my studies not are scientific,but love python and ia thx bro :*",True
+@ionitaa,2018-06-24T19:15:51Z,1,"Lol,  the mothership core is still in the tech tree... Liquipedia, update your website!",True
+@erosennin950,2018-06-24T07:12:19Z,0,"3 pylons were built, but the last 2 were built simultaneously, could you tell me why did this happen?",True
+@zalmez7207,2018-06-24T01:35:16Z,0,"I'm having a issue where nexus or probe is imported :/ I've updated pip and tried to reinstall the package. Here's the code: ```Python import sc2 from sc2 import run_game, maps, Race, Difficulty from sc2.player import Bot, Computer from sc2.constants import NEXUS , PROBE   class sentdeBot(sc2.BotAI):     async def on_step(self, iteration):         await self.distribute_workers()         await self.build_workers()      async def build_workers(self):         for nexus in self.units(NEXUS).ready.noqueue:             if self.can_afford(PROBE):                 await self.do(nexus.train(PROBE))  run_game(maps.get(""AbyssalReefLE""), [     Bot(Race.Protoss, sentdeBot()),     Computer(Race.Terran, Difficulty.Easy)     ], realtime=True)  ```",True
+@JupiterNj,2018-06-23T17:38:08Z,0,"Another great, great tutorial! I actually think of using this for my students on ""Introduction to AI"" class, if it is fine with you?",True
+@Emily_Entropy,2018-06-23T13:52:33Z,5,"You are pronouncing Terran oddly. It is a real word for someone that is native to Terra, the Latin word for Earth. Not a city in Iran.",True
+@ZeroEphix,2018-06-23T13:48:15Z,0,"i love this, thnx sentdex !!!",True
+@glennclapp2537,2018-06-23T11:32:10Z,0,"The reason it's building two probes is because the currently building probe doesn't count as a ""queue."" In other words, there is no queue until the second probe is added to it.",True
+@AbhishekKumar-mq1tt,2018-06-23T07:32:26Z,0,Thank u for this awesome video,True
+@MetsuryuVids,2018-06-23T06:51:24Z,1,"Hey, about the bug where a probe is queued up in the nexus, when it shouldn't, could it be because of the build_workers method being async, so that it runs again before the probe starts building, so it queues another one? Also seems to be happening with the pylons.",True
+@EmberQuill,2018-06-23T05:00:49Z,1,Stumbled across this completely by accident and I'm really glad I did. I've been meaning to play some SC2 again and this will give me a good reason to get back into it. I've been wanting to learn more about AI anyway.,True
+@eztain1593,2018-06-23T02:52:02Z,0,I want to create two AIs and have them battle it out.,True
+@supersamjonsson,2018-06-22T23:07:57Z,13,"Oh, this series is going to be fantastic, I can feel it.",True
+@theoutstander,2018-06-22T22:29:34Z,2,"Wow, didn't realize part 2 would come so soon. Normally I just binge watch the tutorials from start to finish long after they've been made.",True
+@parsahosseini4241,2018-06-22T22:02:17Z,0,"Hey, could you give me a guide to learning pyhton? i'm interesting in image analyzing and stuff like (for example) python drives in GTA V, where should i start ? I've already done your python basics and i'm going to start your open cv series, is it the right way? or there is a better way to learning this kind of stuff (up there) ?  thank you :)",True
+@arnoldhilberink,2018-06-22T21:14:54Z,1,this is fun :) Love playing this game... and can't wait to see where this is going,True
+@peteewebster9057,2018-06-22T20:32:40Z,2,"For the minerals, I'd try and have 2 per patch prioritizing the closer mineral patches.",True
+@MrFadbamsen,2018-06-22T19:30:21Z,0,"Would it be possible to make an ANN that starts out by learning from looking at an insane AI. That way the learning would be faster than waiting for a game to finish (even at high speed). An then when the new AI is not totally dum make it play it self to become really good. I'm really interested in this, keep them video's coming ;) 👍",True
+@borgestheborg,2018-06-22T18:24:35Z,8,"I think this may have been a bit more easy to understand if you'd have gone with Terran instead of Protoss. For someone who has little to no knowledge of SC2 lore/nomenclature, it's kind of hard to keep track of what a nexus/pylon/etc is. Terrans have more generic names like supply-depots/barracks etc. Still, really looking forward to the rest of the series. I'm sure I'll get used to the names in time lol.",True
+@khoabui4157,2018-06-22T17:48:57Z,0,Sentdex you are legend...wait for it...dary!,True
+@rivaanb,2018-06-22T17:28:56Z,0,I used to play Starcraft 2.. The mechanics are insane! This is so great! I'm thankful for this video series  😊,True
+@DeadWayfes,2018-06-22T17:25:52Z,0,"Loving the series sendtex, would love to see how Charles manages to destroy 5 hard AIs ;)",True
+@airpods4,2018-06-22T17:06:07Z,0,Noice,True
+@AnShett,2018-06-22T17:03:13Z,0,You're tutorials are awesome! Plz keep making such good content.,True
+@bamfme,2018-06-22T16:47:24Z,0,starcraft and coding my 2 favorite things,True
+@xTitan1,2018-06-22T16:35:31Z,0,On the two probes instead of one getting constructed problem: could the problem be that whatever is calling `on_step` is not `await`ing and calls `on_step` a second time before `build_workers` is finished?,True
+@tissuebox1229,2018-06-22T16:28:39Z,8,hey change the build_worker function to:  for nexus in self.units(NEXUS).ready:             if self.can_afford(PROBE) and nexus.noqueue:                 await self.do(nexus.train(PROBE))  it doesnt initialize 2 probes at the time like that,True
+@lucasvazquez4961,2018-06-22T16:17:36Z,0,You should aim to have 2 workers per mineral instead of 3 (even the suggest number of workers on top of the nexus suggest 2 per mineral),True
+@user-zo2tl8jg4z,2018-06-22T15:58:50Z,0,Nice topic! Now show me how to write aimbot for pubg :3,True
+@ironmonger4498,2018-06-22T15:50:17Z,4,"If anyone wants to see the extent of complexity these games can go, Check out LowkoTV . you will know how hard this thing is on pro level.",True
+@tamerius1,2018-06-22T15:46:58Z,0,awesome content! nice explanations,True
+@magsol13,2018-06-22T15:46:47Z,2,lol inline vidcam overlay covers the supply readout,True
+@biao9957,2018-06-22T15:34:35Z,3,Sentdex !,True
+@Starcraft2AI,2018-06-22T15:24:53Z,4,As every true Protoss knows: Next step forge... and then cannons at your opponents base ;),True
+@tissuebox1229,2018-06-22T15:16:22Z,55,"sentdex pointing on his screen to show us something, A+",True
+@sizzlorox,2018-06-22T15:07:14Z,3,Your camera covered up the supply info :P,True
+@Salman-xz4km,2018-06-22T14:58:18Z,0,You listen to my heart ... wanted that you make tutorials on starcraft deep mind plateform,True
+@Norway1999,2018-06-22T14:57:33Z,4,Nice video :) Keep up the good work :D,True
+@tkdevlop,2018-06-22T14:57:19Z,87,This series is more like let's play for programmer's,True
+@myselfremade,2018-06-22T14:46:15Z,20,You must CONSTRUCT ADDITIONAL PYLONS,True
+@lokesh9322,2018-06-22T14:42:11Z,0,Hi from India,True
+@Cyphlix,2018-06-22T14:30:18Z,13,This series is like Christmas in June 🎅,True
+@scootscoot2k,2018-06-22T14:28:37Z,4,"yes, I have a concern... is it the best idea to go giving charles a army? I mean we saw what he did in GTA V... This series is shaping up well im super stoked for it!",True
+@followmeback2599,2018-06-22T14:25:24Z,1,U r rocking todays tutorial video thanks .,True
+@isak25,2018-06-22T14:20:18Z,1,"Quick question, do u use any linux distros, and if yes, for what? great video as always",True
+@axiomvp7808,2018-06-22T14:12:16Z,0,FUCK YES!!! <3,True
+@tangran2,2018-06-21T20:18:24Z,18,Very cool! These tutorials based on games are always addictive. They are perfect to learn.,True

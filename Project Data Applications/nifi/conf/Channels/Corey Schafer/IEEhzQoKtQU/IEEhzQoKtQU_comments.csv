@@ -1,0 +1,616 @@
+author,updated_at,like_count,text,public
+@coreyms,2019-09-12T14:58:53Z,394,"Hey everybody! I hope you find this video helpful. I'll be releasing the multiprocessing video next week. I am currently packing up my temporary recording station and will be moving into my new place tomorrow, so I should be able to get it recorded, edited, and released next week for sure. We'll be covering how to use multiprocessing to process the high-resolution images we downloaded in this video. Hope you all get some good use out of these topics!",True
+@sairamsubramaniam8316,2024-05-17T09:55:25Z,0,Corey you are such a legend! Love your content great. I am 4 years late :).,True
+@truongtran99_,2024-05-05T09:45:21Z,2,Your explanation about threading was so clear and easy to understand. Thank you for making this video!,True
+@Camila1010,2024-04-12T20:43:50Z,1,You sound like eddy burback,True
+@dataenergy,2024-04-01T17:54:23Z,1,"clear, concise and with provided example... excellent!!",True
+@Nickelkitten75,2024-02-02T14:45:51Z,1,Very clear and concise explanation Kudos Corey,True
+@Rickety3263,2024-01-21T04:33:12Z,1,"What if instead of 15 images, it was 15000 images?  Is there an argument to limit the .map() method to 20 threads at a time?",True
+@ravindrareddy8641,2024-01-11T18:09:40Z,0,Really Amazing Video!! Thank you Corey Schafer😄,True
+@rahulisbeck,2024-01-08T20:49:32Z,1,"Hi, one question. let's say we have a thousand URLs. How many concurrent threads will be the program create in this case?",True
+@bmoore5868,2023-12-09T18:26:15Z,0,this is excellent training.  Thanks for sharing,True
+@teslim8985,2023-11-25T16:47:00Z,0,Awesome!,True
+@mohammadalaaelghamry8010,2023-10-30T04:53:22Z,0,"Great videos, thank you.",True
+@--Valek--,2023-09-30T11:36:38Z,0,So i should give up on using threading for my gravity simulation. This is good to know.  Did know it was pseudo multi threading.,True
+@mariosconstantinou8271,2023-09-20T12:31:31Z,1,This dude is like the bible for programming tutorials.,True
+@yuval1588,2023-08-28T20:12:56Z,0,"But when I tried it out, it looked like threads are switching between each other even if there is no ""dead time"" in the threads. Are they switching switching between each other or are they actually happening in parallel (are they actually multiprocessing)?   import threading  def cpu_bound_task(game_id):     i = 0     while i < 10**7:         i += 1         print(f""Game {game_id} CPU-bound task - iteration {i}"")  def main():     threads = []      for game_id in range(3):         thread = threading.Thread(target=cpu_bound_task, args=(game_id,))         threads.append(thread)         thread.start()      for thread in threads:         thread.join()  if __name__ == ""__main__"":     main()",True
+@ananthakrishnank3208,2023-08-26T00:01:57Z,0,16:00,True
+@azemashaik4301,2023-08-14T09:38:40Z,0,"Thank you so much, Corey, for this fantastic tutorial on introducing threading in Python to beginners! Your clear explanations and step-by-step demonstrations have really helped me grasp this concept much better. Your tutorials are always a go-to resource for me, and I appreciate how you make even complex topics so accessible. Your contribution to the Python community is invaluable, catering to both newcomers like me and experienced developers. Keep up the fantastic work, Corey!",True
+@julianreichelt1719,2023-08-03T07:20:55Z,0,nice video!,True
+@anonfourtyfive,2023-07-29T23:21:43Z,0,"omg.  I was using some of it, but not all of it's potential.  Amazing.",True
+@user-bl7dy8fg7t,2023-07-28T12:28:54Z,1,still valid even after 3 yrs  Awesome tutorial,True
+@theboyunknown,2023-07-25T16:58:05Z,0,I think you meant asynchronously a couple of times,True
+@vishnup8912,2023-06-14T04:37:53Z,0,"Can we use thread in  APIs(created in fastapi), does it cause database deadlock?",True
+@yegi88,2023-05-26T06:19:06Z,0,why do I get None between my thread and finished in thread pool executor?,True
+@liorbm1,2023-04-25T13:31:53Z,0,@Corey Schafer  At 25:53 it doesnt wait (for me) when using `map` and removing the iterating on the `results`. maybe something change?,True
+@abdelgadernooreldaiem,2023-04-13T20:25:12Z,0,"thanks alot ,  and for those who the method didn't work for after using with concurrent.futures.ThreadPoolExecutor() as executor : add max_workers=(to more than or equal to the number in the range function)  like this  with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor :",True
+@UdaySingh-im4hd,2023-04-03T01:47:41Z,0,So threads in python only uses one core of CPU of underlying server?,True
+@user-bs3wy4lm3n,2023-03-23T08:07:18Z,0,"Amazing video, thank you!!",True
+@shreyampokharel,2023-03-22T03:01:27Z,0,Thank you,True
+@hotcrossbun26,2023-03-11T07:42:46Z,0,I'd be so screwed without your videos. The BEST explanations anywhere on the internet for learning python.,True
+@alexnefayne4266,2023-03-06T08:34:01Z,0,Your a great teacher i keep comming back to your lessons!,True
+@whonayem01,2023-02-08T14:12:42Z,0,Thanks,True
+@xtheory9640,2023-02-06T15:36:56Z,0,when I See Someone is appreciate your video. I don't know why i'm just feel so fine💝💝,True
+@martinmehaudy9043,2023-01-27T19:48:04Z,0,"Amazing! Tried something similar with multiprocess, but will test this one out. Thanks!",True
+@parijatbandyopadhyay8057,2023-01-26T04:17:37Z,0,There should have been a super-like button in youtube :) As always awesome content 💪,True
+@alecdelu83,2023-01-12T01:30:41Z,0,Corey I love you,True
+@Priya_dancelover,2023-01-11T17:06:39Z,0,your'e awesome,True
+@imanqoly,2023-01-08T21:59:22Z,0,I am blown away,True
+@bratergames9410,2023-01-01T15:29:02Z,0,"For five years I was looking for some simple explanation that I could use in my code, to pull my dna, from snpedia...OMG. So simple but very good. Thanks man.",True
+@bratergames9410,2023-01-01T13:39:08Z,0,In the  minute 24 I subscribe and like it !!!OMG,True
+@pavantripathi1890,2022-12-29T09:58:56Z,0,Thanks for the wonderful video,True
+@rupamsolanki7263,2022-12-25T05:46:26Z,0,Thanks man.,True
+@gytisbl,2022-12-21T08:41:54Z,6,"Really liked the distinction at 4:27 that its best to use several threads when code is IO bound: -reading/writing disk, waiting for network",True
+@ibrahimakanbi3134,2022-12-16T20:39:10Z,0,I don't know if this comment will be seen but I'm having trouble running the concurrent.futures method with a for loop,True
+@reemaljabari3665,2022-12-09T18:33:58Z,2,"Thank youu so much Highlyy recommended , you just express it in a simple way",True
+@rajiyer5449,2022-12-03T17:14:02Z,0,Beautiful !,True
+@TimePasser,2022-12-01T10:14:52Z,0,can I perform multithreading from dictionary? i cant seem to find out the syntax :(,True
+@newpain01,2022-11-30T04:53:18Z,0,"Completely agree about the basic example tutorials, I often find them useless. Great video, thanks!",True
+@SonuSingh-sn8qg,2022-11-27T04:44:33Z,0,"What would be candidate for doing something with json, like extracting and storing, multi threading?",True
+@wialhanon6626,2022-11-22T16:50:13Z,0,I have a question : can i run the script file.py from another script file.py with new debug consal ? Thank you for help me.,True
+@stelloprint6533,2022-11-18T05:52:26Z,0,"I am curious about a best practice for dividing up a list of REST API calls so that chunks can be sent to different processes via multi-processing first, then each process can use multi-threading to request data and subsequently process the payloads individually. Basically a good way of using both techniques in such a way that you leverage the strengths of multi-threading within a multi-process operation which I know can be done.   There's just a bit of magic that thread/process pools are doing where they determine how to allocate workers for you and I don't know how to use that magic to divide the list of REST calls optimally per process. I guess I could count the number of CPUs available on the machine but then I kind of like how process pools does that for you and helps make your operations safe without potentially maxing out all processors.",True
+@o1techacademy,2022-11-06T14:35:33Z,2,Thank you for this powerful tutorial.,True
+@minhhung8274,2022-11-02T14:16:17Z,2,"Jop opening at orgit.ai, check it out:  [Senior] Software Developer (Python/Django) ~$3,000  https://topdev.vn/detail-jobs/senior-software-developer-python-django-3-000-orgit-2027946  Business Analyst - Logistics  ~$3,000: https://topdev.vn/detail-jobs/business-analyst-logistics-3-000-orgit-2027944",True
+@anantchopra1663,2022-10-26T19:05:43Z,4,"This video is a life-saver! I have a project due in 3 days that needs me to do a lot of fancy stuff in a multithreaded program, and I had no clue what multithreaded programs are! I'm in a much better position after watching this video. Thank you, Corey!",True
+@obialethan,2022-10-24T06:35:03Z,0,what a godsend tutorial,True
+@MccZerk,2022-10-20T01:37:31Z,0,32:00 Is the connection setup *and* downloading done outside of Python?,True
+@paulcal3500,2022-10-06T14:07:04Z,0,Thanks Corey. Why do you pass in the args as a list [1.5]?,True
+@bit2easy,2022-09-26T09:48:10Z,0,Thank you for this. The Thread Pool Executor is really simple to use.,True
+@adikapp,2022-09-20T12:31:48Z,0,Thank for the detailed step by step explanation. How do we control the number of threads using a ThreadPoolExecutor when processing a list of say 40k urls? For example if I want to process 10urls at a time. Is creating a smaller sublist with 10 items from the main 40k list an ideal solution?,True
+@brainwithnopain2588,2022-08-27T08:22:49Z,0,this is kinda interesting that you can run a code in parallel withing for loop THANKS COREY,True
+@luffingsails7542,2022-08-22T16:46:59Z,0,Tried Skillshare to take on learning Python. There is a bunch of milquetoast videos with no real substance. These videos by Corey are outstanding. Much appreciation. I'm glad it was a free subscription.,True
+@skysalt9649,2022-08-22T13:54:28Z,0,"Hey Corey, thanks for this. You are an awesome teacher. I will be watching your other videos too as needed and Subscribed! :D",True
+@26_dharmeshmarathe86,2022-08-19T18:17:34Z,0,You're great. Your video on  multithreading helped me to undertand the differncce between multithread & multiprocess. Great explaination!!❤❤,True
+@danishshaikh6151,2022-08-14T12:09:04Z,0,Best Video by far compared to any other paid videos,True
+@GG-tf9gy,2022-08-11T14:45:41Z,0,Is it possible to use this to multi-thread a raspberry pi picture to split the instructions between each core such that 200 parts of an image 50 parts get processed by each core every single frame?,True
+@pacoa-kdbg9303,2022-08-09T14:59:55Z,2,"Almost 2 years since you uploaded this, you reduced my exect time from ~90 mins to ~2 mins at max . Awesome videos, will continue watching",True
+@stevemiller123,2022-08-04T19:38:59Z,1,"I don't see the threading-sync.py file in your shared directory. Excellent tutorial, thanks.",True
+@mohamednaimi7076,2022-07-27T19:16:19Z,0,Thank you for this video it's very helpful for what I'm trying to accomplish,True
+@akshatkushwaha5263,2022-07-24T14:49:49Z,0,5:00 --> self note,True
+@Prankalanka,2022-07-23T15:51:50Z,0,thx😈,True
+@shaurabhsaha2082,2022-07-21T13:40:50Z,0,can anyone explain why map was used instead of submit ? and where should we use each of them,True
+@praveenverma2881,2022-07-18T14:09:39Z,0,Awesome,True
+@jaehochoi8062,2022-07-16T03:01:40Z,1,"Clear, easy, pinpoint, reliable plus truly helpful explanation ever!",True
+@weissmannrob,2022-07-15T05:27:19Z,0,"Respect, very well explained. Thanks.",True
+@Pyrografpl,2022-07-07T09:58:30Z,0,"Perfect, thank you!",True
+@earthlyelder,2022-07-07T00:44:51Z,0,thanks,True
+@rodolfopalacios9680,2022-07-01T03:34:46Z,0,you should not use underscores that's bad,True
+@11rshan,2022-06-27T13:16:24Z,0,Viewed everything on the net. Nothing like this. Best video for threading,True
+@monkmode9138,2022-06-26T17:45:58Z,0,"I'm doing the same thing at 21:10 but python giving my results like this: Sleeping done. None Sleeping done. Sleeping done. None None Sleeping done. None Sleeping done. None Sleeping done. None Sleeping done. None  Process finished with exit code 0  What could be the problem?",True
+@jmpresto,2022-06-08T20:22:02Z,0,Awesome resource with clear explanations!  Thank you,True
+@eemanemm,2022-06-05T19:02:40Z,0,"Your explaining is very clear - although as a fairly experienced developer (especially C and C++) my ears bled when you said ""CPU bound tasks don't benefit from threading"". Just python can't leverage much concurrency due to GIL, you should have said that. Everything else is great, keep up the good work!",True
+@tamanderson9732,2022-05-26T11:03:18Z,0,Best Python teacher !!!!,True
+@MrHeatification,2022-05-08T22:53:53Z,0,"BEST Tutorial on this topic, thanks",True
+@anyicleanup,2022-05-06T18:23:32Z,0,"Nicely explained, thanks Corey. The last URL download might be done better with async/aiohttp now, but I see the video was from 2+ years ago, so that async might not have been that popular.",True
+@jeedub6142,2022-05-04T00:13:14Z,0,"I have a script that runs on a raspberry pi every morning.. scrapes a webpage for events and stores a heap of information. It was taking anywhere from 20mins to 90mins, depending on the day. Adding threading, in the 10mins after watching this video, took my script down to 4mins, regardless of the number of events being scraped. Good lord. outrageous.",True
+@abhisheksharma-ib5vw,2022-05-01T09:34:37Z,0,master piece,True
+@dotankafkafi7116,2022-04-19T21:17:45Z,0,"Thanks for the tutorial. CPU bound functions can still benefit from multi-threading if you run them on multi-core CPU, which is a common situation.",True
+@erick5171,2022-04-16T09:53:21Z,0,awesome Corey,True
+@kathirangamuthu3574,2022-04-14T11:51:56Z,0,Thank you very much for sharing threading topic.  I want to know how to reduce python exe size .,True
+@nolanhartough,2022-04-13T01:10:56Z,0,funny python script to prank your friends,True
+@Mainhunpyarkamusafir,2022-04-12T14:12:16Z,0,No one can explain better than you <3 .... You r.  GURU <3 MASTER,True
+@thedeparted_one,2022-04-04T20:21:46Z,0,"Not all heroes wear capes. Thank you, Corey!",True
+@walterkelt4475,2022-03-31T12:19:07Z,0,Excellent video !!! Thank you,True
+@user-tm9eo9rv2r,2022-03-31T03:09:47Z,0,👍👍👍,True
+@elgary9074,2022-03-28T13:35:24Z,0,"Long videos yes, but what a great explanation totally worth the time. Thanks a lot.",True
+@nickhalden8781,2022-03-25T10:21:02Z,0,my laptop was playing this video on youtube and i was just listening to the audio so i was looking at my phone when my laptop was playing it and when you declared a variable secs it sounded like sex and i was like what the F looked at the screen and then realized that it was secs 😂. Anyways corey schafer is the best programming teacher on youtube and he explains things the way that everyone starting from a beginner to advanced programmers understand i can say that i learned a lot from him !,True
+@deepakmudila3919,2022-03-24T06:34:27Z,0,Explained nicely.,True
+@anuprshetty6391,2022-03-23T15:08:26Z,0,"Hi Sir, As you mentioned, I am interested to learn advanced threading concepts like race condition, mocks, etc. Please make videos on that too. I will be waiting... Between really nice video. Thanks for the effort.",True
+@yle5788,2022-03-17T15:45:14Z,0,I am confused.  If you didn't use c-python with GIL wouldn't threads be executing concurrently and be perfect for CPU bound optimizations? While the execution described could be achieved with asyncio.  Then again I guess c-python is python and you didn't talk about multiprocessing (=,True
+@spikegrazer5690,2022-03-09T16:33:30Z,0,Awesomely structured and explained ! Weldone,True
+@amirkakavand1019,2022-03-02T08:45:14Z,0,Hey man! Thank you for this tutorial. Just what I needed.,True
+@Zeix02,2022-03-02T06:21:10Z,0,With Selenium WebDriver dosn't work :( Always same time finished with or without concurrent.futures module. With multiprocess module work! Awsome!,True
+@chawza8402,2022-02-25T09:24:41Z,0,"Thank you very much! best python guide in all YouTube  Although I only watch until 15:23, I have learned alot",True
+@moneeshkumar1838,2022-02-24T15:41:45Z,0,Thanks for the great content,True
+@alttablife6965,2022-02-17T22:04:38Z,1,"Easy choice to subscribe. These are helping me learn more in a few days than combing through docs did in a week. For reference, I'm coming primarily from a bash background. Last time I looked at multiprocessing was in a college java class. This just refreshed almost everything I need for my current project.",True
+@bendibhafed1687,2022-02-15T15:09:53Z,0,"Very clear and amazing course, thank you sir",True
+@ilovebmo,2022-01-24T23:48:19Z,0,Thank you so much for this!,True
+@AnotherBrownKid,2022-01-23T08:16:20Z,2,at 9:00 why didnt it print 'finished in 0 seconds' twice? There are two threads?,True
+@mmmm_yesverynice,2022-01-18T02:43:49Z,0,This feels illegal for having been explained so well,True
+@kongpopkeawtunkum4301,2022-01-12T13:25:10Z,0,Thank u so muchh,True
+@AF-bc8vr,2022-01-10T12:20:18Z,0,You're the man Corey.,True
+@mohitrohra3153,2022-01-09T19:26:50Z,0,Great explanation,True
+@minayakarimova,2022-01-06T13:01:56Z,0,thank you,True
+@sridharsrinivasan7203,2022-01-06T08:27:46Z,0,"Heyy, how to use shutdown method; and how to kill any running thread from the threadpool ?",True
+@victorialeigh2726,2021-12-30T17:14:34Z,0,"I click it all excited to master threading in 30 minutes. In the first 10 seconds, I realise it's an intensive lecture so I need to take notes.  After 2 hours I have 10 minutes left lol (but I know this will go a long way)   Edit: after 3 hours I completed the tutorial. Now I'm gonna go improve my code....  thank you Corey!",True
+@VorpalForceField,2021-12-29T16:26:36Z,0,excellent content TY,True
+@hamzakashif7903,2021-12-29T06:28:24Z,0,"Hi Sir, if we have two different funcitons like square and cube then how can we put them in a loop or its just for the one function which we need to use again and again ? like you have done with do_something() function ?",True
+@Cospel,2021-12-16T04:16:01Z,0,Excellent explanation! you just earned a sub!,True
+@Scherle,2021-12-04T05:16:01Z,0,"Thank you, I feel like a caveman who’s been given fire",True
+@arunp07,2021-11-14T02:58:52Z,0,"Great tutorial on Threading. Thanks, Corey, Explanation is at the perfect pace, not needed to increase or decrease the playback speed.",True
+@valigeorge9110,2021-11-13T19:38:04Z,0,Thanks!,True
+@learncodeinbangla1852,2021-11-11T18:21:30Z,0,"Dear friend, Is it possible to send """"1000"""" request per second.",True
+@luanangtranhuu1919,2021-11-11T16:19:23Z,0,this is better than any lecture I have had at my university. 😊 thanksss,True
+@uPenguin,2021-11-06T21:54:58Z,0,"I wish I had heard of this sooner, an absolute game changer!",True
+@ABMA79,2021-11-05T23:51:39Z,0,"I think it is extremely useful. But I am still facing some difficulties comprehending the concept of Threading. So I would request, if possible, a practical example of how to use threading in a real-life example. At least, to see the importance of this concept more clearly. Again, I am still thinking you are the best instructor for Python concepts.  Thanks for everything you have contributed to education. you are simply amazing.",True
+@landonkirby2522,2021-11-04T07:02:29Z,0,Can you do a video on asyncio and GIL? p.s love your videos thanks!,True
+@vladimirkulakov6126,2021-11-01T13:05:37Z,0,It's great tutorial! Thank you so much!,True
+@bindupulle,2021-10-28T19:47:50Z,0,Thank you so much!,True
+@munteanionut3993,2021-10-28T19:38:24Z,0,"I don't get it.... why is there a difference when moving the ""t.join"" instruction from the first for-loop into the second for-loop? As you've presented up until 11:20, my understanding would be that ""t.join()"" would tell the global execution to wait for thread ""t"" to finish its execution then proceed with the next instructions... why is it that the second for DOES NOT DO exactly that - namely: wait one second with each thread it loops over? It is not clear from the video to me at this point...Can someone help me please? But also thank you very much, Corey!  Update: I think I got it; the difference would be regarding the CREATION, not the exit statuses of the threads... basically in the first for-loop the threads are not started at the same time... thanks again!",True
+@joynandi9906,2021-10-23T06:01:53Z,0,best illustration on web.,True
+@vovchikigrovoy7914,2021-10-18T21:09:01Z,0,Good lesson! Thank you.,True
+@manu93ize,2021-10-18T09:10:38Z,0,i am doing in jupiter notebooks its not working.,True
+@SadSack963,2021-10-10T17:02:40Z,0,"Brilliant video, excellent explanation. Unfortunately, it didn't work for me:     Standard download using a loop: Finished in 78.10 seconds     Using ThreadPoolExecutor: Finished in 80.45 seconds (second try: Finished in 69.46 seconds) It looks like my internet connection speed is the limiting factor here 😢😢",True
+@saaidalkamha7240,2021-10-06T21:53:44Z,0,Thanks man! Could you please say if there is a way to return a value from a specific thread ? lets return value from the third thread. Help is appreciated,True
+@kk3528,2021-10-02T20:02:34Z,0,Very good 👌🙏,True
+@Lynellf,2021-09-26T19:44:09Z,0,"""when you would want to use one over the other""... we can't use both?",True
+@yt-1161,2021-09-26T19:29:55Z,0,Volume too low,True
+@mohammadasadkhan9574,2021-09-23T19:43:51Z,0,doesnt work,True
+@zeki7540,2021-09-23T14:02:13Z,0,that's great!!!!,True
+@Nirkan88,2021-09-21T11:11:53Z,0,In my case I do not see any difference running both codes with and without threading for image download. Any ideas why this could be !,True
+@IgorOlikh,2021-09-20T10:47:22Z,0,Great video.  Thank you Corey.,True
+@arashsayareh7728,2021-09-17T10:26:01Z,0,"Dear Corey, it's been a long time that I have been waiting for your Asyncio tutorial. Do you have any plan to record a video in this regard?",True
+@kylxyzkean4973,2021-09-14T23:47:48Z,0,Thank you so much,True
+@adobongasin214,2021-09-09T07:57:33Z,4,"For those who are starting in Python, Corey is the best in terms of explaining things, I am already a Team Lead but I still go back to his tutorials once in a while hahaha",True
+@icentertk912,2021-09-08T11:29:02Z,0,Nice lesson. But I have a question: how many threads was in last example?,True
+@electricz3045,2021-09-04T19:52:47Z,0,I tried it but somehow when using ThreadPoolExecutor() i get this error 10 times if i print out f;  <Future at 0x226c605a1f0 state=finished raised TypeError>,True
+@brockobama257,2021-09-02T20:02:54Z,1,Corey Schafer teaches me everything my community college and university won't teach me.,True
+@slaxblake,2021-08-31T03:06:36Z,1,"wait and how do you limit the number of threads? in this case is 10 urls, but what if there were 10k of them or 1M of them? no limit would cause a memory crash",True
+@deepashreewadekar9644,2021-08-27T07:30:09Z,0,What if the do_somthing is having multiple parameters to pass,True
+@andrewhofmann5453,2021-08-26T23:07:46Z,6,So I just extended the Thread class into my own class and made something so much more efficient because of this video.  Great job!,True
+@trevormckellen5613,2021-08-26T06:49:12Z,0,The reason I've learned so much from your videos is real world application. I hit a wall with all the tutorials online until I found this channel. Thank you Corey,True
+@meralmaradia4774,2021-08-23T13:17:30Z,0,I copied the entire download-images.py and tried to run that and getting error like -  AttributeError: partially initialized module 'logging' has no attribute 'getLogger' (most likely due to a circular import),True
+@meralmaradia4774,2021-08-23T12:57:56Z,0,Thanks Corey,True
+@ricetv942,2021-08-21T18:19:27Z,0,How to stop treading?,True
+@decrypt0x7c93,2021-08-21T15:02:08Z,0,"You sir, are a HERO.  I don't usually hit the red button, but you deserve it! Thanks!",True
+@zacharythatcher7328,2021-08-18T18:12:24Z,0,"I've seen that passing a generator of futures to as_completed also works.   Does anyone know whether or not the previously generated result is released from memory for each iteration through as_completed on a generator ? My generator source size is going to increase over time, and I am planning on using a semaphore to prevent the RAM from autosclaing into infinity.",True
+@varunhadoop3695,2021-08-14T18:19:50Z,0,"Great Video, but my sequential downloading is faster than the multiThreading using the same code above :(",True
+@RenormalizedAdvait,2021-08-11T07:28:10Z,0,"Sir, please explain how these python futures work under the hood, details of CPU scheduling, pipelines, etc.",True
+@nissyyybeatz,2021-08-10T09:18:02Z,0,how do i use it without a function,True
+@chloegrubb6721,2021-08-07T02:05:42Z,0,a king,True
+@puranjanprithu6337,2021-08-06T08:49:17Z,0,sad internet speed : my pc took 200sec after threading to download those images ... Thanks for the video bro!!,True
+@kirubababu7127,2021-08-04T09:43:34Z,1,"Hi Everyone, If I am trying to read CSV files by pandas,time duration is not reducing. Anybody suggest your ideas.",True
+@Lunolux,2021-08-03T19:31:34Z,0,"great video, i watch several video from this channel and explaination are great, no video since 10 month, hope you doing good, thx for those video",True
+@365Pancakes,2021-08-03T10:20:36Z,1,What does join() do exactly?,True
+@adityapandey5882,2021-07-28T05:47:16Z,0,Legend python instructor!!!. Will be great if you can make a detailed video on the asyncio module.,True
+@birdsculptures,2021-07-27T05:49:28Z,0,how would you use the map method with a function that has two or more arguments? thanks,True
+@wendigo2442,2021-07-26T19:31:51Z,0,speak hindi?,True
+@alexanderkuptsov6117,2021-07-25T11:21:44Z,0,"Hello, Corey,  thank you for your awesome tutorial. I watched it carefully with trying everything mentioned in the video.   However, your last example wasn't as effective on my computer (the previous ones were, though) as it was on yours. I ran it without and with threading and the numbers are 31 secs vs 23 secs in the first attempt, and 23 vs 52 secs in the second attempt.   Could you kindly (or anybody else) tell me why it is so? Does it depend on my computer specs, on the Internet, on the remote server? I'd appreciate any clarification.  Once again, thanks for you wonderful videos.",True
+@anikchowdhury3566,2021-07-18T08:10:09Z,0,I got an error: TypeError: Object of type generator is not JSON serializable,True
+@yuval1588,2021-07-15T13:31:57Z,0,How does python identify a line of code that is dependent on something?,True
+@yuval1588,2021-07-15T07:28:31Z,0,I am getting the same result even if i call the join method on only one of the threads 09:00. Why is that?,True
+@touchpad24,2021-07-13T16:01:51Z,1,Your explanation is so simple yet at the same time covers everything. Thanks so much!,True
+@cybertools8560,2021-07-12T22:51:54Z,0,I thought the 2nd way was harder than the first way.,True
+@inesbenkraiem1569,2021-07-05T16:32:26Z,0,"Hi Corey, thank you for this video it's very interesting. However, i have a problem  : I tried your code but the method do_something is not called and nothing is displayed and when i tried to print the result i get this error ""BrokenProcessPool : A process in the process pool was terminated abrutly while the future was running or pending. Can you help me please ? Thank you in advance.",True
+@tejasporwal2321,2021-07-01T18:56:54Z,0,Thanks Corey and Brilliant,True
+@leoxu6743,2021-06-29T23:34:19Z,0,Thank you so much for this video. I am new to programming and this helps a lot.,True
+@evolagenda,2021-06-24T12:40:43Z,0,secs ^^,True
+@Neuroszima,2021-06-24T08:54:40Z,0,"4:58 - so you say that if we are CPU bound, we wont get that much of a benefit from multithreading...  And this is what i miss from multTH tutorials - how the threads that we code correspond to threads of our CPU? how can we be sure that performance comes from real multicore CPU execution instead of single core/thread one?",True
+@lol39r,2021-06-23T13:03:59Z,1,<3,True
+@nickvledder,2021-06-23T08:26:57Z,0,"Covey, you must be God-sent. Thanks for this thorough explanation!",True
+@tieutuanhao,2021-06-21T01:58:10Z,0,"Thanks for your sharing, It's useful. I apply to my code and it boots faster so much, but It gets the limitation of 1200 request API calls per minute from the server and I got an IP ban :(. Can we limit the number of threads used? How to control a number of threads created in concurrent.futures? Thanks",True
+@malayaleeking,2021-06-19T16:26:59Z,0,This was such a useful tutorial. Subscribed! 👍,True
+@fzk360,2021-06-19T09:41:59Z,0,Thank you so much... and can you pls tell us what is you vs code theme name and what is your font?!,True
+@JohnJohnson-db4vv,2021-06-18T18:43:53Z,0,"Honestly, been wanting to figure out threading for the better part of a year now and every tutorial I've followed thus far has been confusing and doesn't explain a lot of important details. Thanks to this video I finally have been able to figure out threading!",True
+@Sterrance417,2021-06-16T00:21:42Z,0,Another banger,True
+@rishavchowdhury5954,2021-06-15T02:00:50Z,0,Hey Corey! Just wanna tell you. You are awesome.,True
+@AnyFactor,2021-06-14T15:50:57Z,0,I have made a summary note on this video 📃 https://www.notion.so/anyfactor/Python-Threading-Tutorial-Corey-Schafer-a9a5cf93d1d44c75b91a731f19c42bf4  Let me know if you want more notes on tutorial videos like that.,True
+@pikaa-si9ie,2021-06-11T13:21:33Z,0,im using this to download the all nhentai doujinshi,True
+@user-yz3uk3lu5v,2021-06-10T03:52:04Z,0,"Hello, please guys, give me a hand in question. I stuck with one problem, I have tkinter file and I imported another python script to launch it when Button will be clicked and after that my tkinter file Not Responding..and I can't refer then,  but imported Python script working. I try to use threading, but nothing helo, maybe I am not correctly using threading, idk",True
+@Charlie-sv3gy,2021-06-09T08:02:53Z,0,"This is a really good explanation, thank you.",True
+@pearlboy,2021-06-04T12:49:23Z,0,awesome tutorial... Implemented in my project working perfectly !!!  Hello disliker... you guys are true lier 😡,True
+@mingzhu8093,2021-06-04T11:08:30Z,0,GIL,True
+@danielrodrigoalegriasallo6479,2021-06-01T11:14:37Z,0,"Pretty useful, thanks.",True
+@shawnzajbel6502,2021-05-23T12:35:39Z,0,Is the the same as Multi Processing ??,True
+@hitk002cloudfull8,2021-05-22T18:23:31Z,0,We want video on thread local data or the video is already released,True
+@FuzzyDunlopification,2021-05-22T06:18:01Z,0,Subbed 1:30 in. I can already tell you've put a lot of thought into these and how they will be perceived.,True
+@jvanegas14,2021-05-19T17:05:42Z,0,"I'm on python 3.9, I'm trying to learn parallel and concurrent tools to run some CFD code for school more efficiently.  This video is super helpful. However, whenever I run my code, it prints Done Sleeping before Sleeping 1 second.  Why is this so?",True
+@abdullahatif7854,2021-05-17T13:45:06Z,0,11:29 is givin' me a hard time.,True
+@moeinmhzg7827,2021-05-16T06:42:39Z,0,I don't remember if I saw any better python tutorials. You are the best.,True
+@ranamukhopadhyay6130,2021-05-15T16:13:41Z,0,Beautifully explained.👍,True
+@DyslexicFucker,2021-05-13T03:12:30Z,0,21:14 I'm too immature to be watching this video,True
+@frankbian6543,2021-05-11T05:55:14Z,0,Your tutorial is great and the explanation is very clear. Thank you very much.,True
+@MalekBenkouider,2021-05-10T02:54:01Z,0,Thank you so much,True
+@cetilly,2021-05-05T17:16:42Z,0,@Corey Schafer Would love to see a comparison of this method for calling web services with the HTTPX,True
+@cetilly,2021-05-05T05:18:38Z,0,Easily the best presentation on multi-threading and ThreadPoolExecutor that I've seen.  Really great job.,True
+@amauryribeiro1860,2021-05-01T17:50:47Z,0,thank you so much,True
+@premprakash8220,2021-04-30T18:14:16Z,0,"import csv #non-recursive approach::dynamic programming approach(for reduce the time complexity) def fun1(num):   ans=list()   ans[0]=0   ans[1]=1   if num>=2:     for i in range(num+1):       ans[i]=ans[i-1]+ans[i-2]   with open('non_recursive.csv','w') as write:     csv_write=csv.writer(write)     csv_write.writerow(ans) # recursive approach using memonization(reducing time complexity) def recursive(num,list1):   if num==0:     return list1[0]   if num==1:     return list1[1]   if list1[num]!=-1:     return list1[num]   list1[num]=recursive(num-1)+recursive(num-2)   return(list1[num]) def fun2(num):   list1=[]   list1[0]=0   list1[1]=1   for i in range(2,num+1):     list1[i]=-1   recursive(num,list1)   with open('recursive.csv','w') as write:     csv_write=csv.writer(write)     csv_write.writerow(list1) with open('employee.csv','r') as read:   csv_reader=csv.reader(read)   for row in csv_reader:     if type(row[0])==int:       fun1(row[0])#fun1 for printing using non-recursive approach       fun2(row[0])#fun2 for printing using recursive approach",True
+@premprakash8220,2021-04-30T15:46:19Z,0,"import csv #dynamic programming approach(for reduce the time complexity) def fun1(num):   ans=list()   ans[0]=1   ans[1]=1   for i in range(num):     ans[i]=ans[i-1]+ans[i-2]   with open('fib_data1.csv','w') as write:     csv_write=csv.writer(write)     csv_write.writerow(ans) def fun2(num):      with open('employee.csv','r') as read:   csv_reader=csv.reader(read)   for row in csv_reader:     if type(row[0])==int:       fun1(row[0])       fun2(row[0])",True
+@premprakash8220,2021-04-30T14:57:56Z,0,"mentor=list(map(int,input().split())) mentees=list(map(int,input().split())) len_mentor=len(mentor) len_mentees=len(mentees) res=0 if len_mentees%len_mentor==0:   res=len_mentees//len_mentor else:   res=(len_mentees//len_mentor)+1 ans=dict() start=0 flag=1 for i in range(0,len_mentor):   list1=mentees[start:start+res]   ans[mentor[i]]=list1   start=start+res print(ans)",True
+@alpstinger5083,2021-04-29T08:54:14Z,0,This was so so so clear.,True
+@orkhanahmadov9963,2021-04-28T16:36:52Z,0,This man deserves a golden globe award... I have been watching his videos for the last 3 years. He helped me to master Python.. I would definitely like to recommend this channel to anyone who wants to learn CS.,True
+@urmvilla2602,2021-04-28T15:53:58Z,0,thanks that really helped.,True
+@Krazy0,2021-04-26T13:18:07Z,0,"Threading helped me to make my bot 700% faster, but my CPU is going to 60%-70% easily",True
+@aabhaskrjha,2021-04-26T11:50:10Z,0,when you downloaded those images You went from 23 seconds to 5 seconds. Why did mine go from 17 to 10?,True
+@dd-rv3xs,2021-04-24T19:43:07Z,0,What if 2 threads will write to file simultaneously?,True
+@mengzhu8385,2021-04-21T04:34:31Z,0,Most clear video on explaining multi-threading in Python!,True
+@RahnStudios,2021-04-15T16:17:11Z,0,Yo my mind is like you should have not understand this very easily but I am because of this freaking awesome tutorial.,True
+@theinhumaneme,2021-04-13T19:30:09Z,0,So well explained :D Thank you very much for this,True
+@davitkvaratskhelia4033,2021-04-11T23:40:21Z,1,Record video about asynchronous programming in Python,True
+@wbwarren57,2021-04-11T20:40:04Z,0,Nice video. Thanks.,True
+@abdelrhmanahmed1378,2021-04-10T21:41:46Z,0,can you please make a video on GIL and is python really have multi threading or its just context switching on the kernal level,True
+@martingregson7136,2021-04-09T10:57:03Z,0,"Up to a point this was fine but you got far too complicated, you should split this up into 2 separate lessons",True
+@chrissaji6988,2021-04-09T08:49:40Z,0,You're the best brother. Thank you so much,True
+@raulcattelan4506,2021-04-07T21:35:26Z,0,Thanks for the video,True
+@rahulshah1559,2021-04-07T17:52:50Z,0,how to stop/terminate a thread after it starts?,True
+@lesliekwan882,2021-04-06T03:22:15Z,0,Thanks Corey!  Looking forward to you doing an Asyncio tutorial!,True
+@gastonscazzuso4113,2021-04-05T07:11:13Z,0,"Corey , this is the best explained Threading topic video in YouTube !..  Awesome.. and many Thanks !",True
+@Stewty1,2021-04-03T23:02:49Z,0,"Corey, thank you for your helpful python lessons!   I have a question:  Interestingly when I tried this download_image.py - when I used the concurrent.futures,ThreadPoolExecutor, the total download time is still between 13-16 while yours is only 5 secs.  Granted, I am using the iMac 27"" 2020 model with 40 GB RAM.  Wondering why is it?",True
+@mustaphab32,2021-04-03T11:51:29Z,0,any updates on the err ' No module named 'concurrent.future'  ? i am watching this in 2021 and i dont think that future is present now for python guyes,True
+@plusk343,2021-04-03T10:02:21Z,1,Can i use this for DDoSing websites? 😆😆,True
+@kafarahat,2021-04-02T09:58:06Z,0,"Thanks for this video. Very nice and clear explanation. It will be great if you can make a video on concurrency with the built-in asyncio module.  If you do this, you may cover what coroutines, Tasks and Future objects are (you mentioned Future object in this video as well) and how asyncio can be used along with aiohttp to make async requests. I am particularly having issues in handling network related ""Exceptions"" there (i.e. connection reset by peer).  If you already have such a video and I didn't happen to find it then, my bad :). If anyone who reads it can share a link of that video, I'll be very happy.  Again, thanks for this great contribution (and all the others in other videos).",True
+@saikrishnavadali05,2021-04-01T03:12:37Z,0,world's best Python Mentor @Corey Schafer,True
+@dataengineernotes,2021-03-27T15:12:47Z,1,"really well explained, Thanks @Corey Schager",True
+@auroshisray9140,2021-03-26T13:18:35Z,1,Hey Corey as always awesome tutorial. Thanks for explaining it in such easy fashion.,True
+@basavarajpatil9821,2021-03-25T18:44:14Z,0,Thank u Corey for this beauty-full video u deserve a 1M sub. Love from India,True
+@kishorejeevanandam791,2021-03-24T16:07:36Z,0,"@Corey Schafer in the real time example(download urls), where you are passing the whole list of urls as input to the download function. Instead is there any option where we can pass 3 urls at a time. . do we have any other option to specify it as an argument .",True
+@jeffli5017,2021-03-23T18:58:30Z,0,"Great video, thank you so much!!!",True
+@resurgammedia1511,2021-03-20T15:47:56Z,0,"Sorry but I don't understand where the f1 comes from, was starting to understand, but then got utterly lost and have given up.",True
+@subhrajit0993,2021-03-16T06:37:01Z,0,You are a great teacher !!,True
+@BiologyIsHot,2021-03-16T04:14:23Z,0,Would love to see more on this topic!,True
+@BiologyIsHot,2021-03-16T03:37:21Z,0,It bothers me so so so much that you set the start time before defining the function instead of afterwards so that it's directly before running the function. I know the time to define the function is negligible it's just an OCD thing,True
+@snesh93,2021-03-11T15:22:26Z,0,"Is it possible to explain how the list of urls got split and distributed into each thread which in turn run the download function ? I am a bit confused on this one, it starts at 31:35 minutes",True
+@vinodreddy1722,2021-03-11T04:03:24Z,0,"Hi Corey, because of Gil there will be no difference in cpu bound tasks right, could you please clarify this?",True
+@sijoriasijoria,2021-03-09T01:34:45Z,0,Thank you for this video!,True
+@betchitty,2021-03-07T02:40:59Z,0,"Came for the threads, mind blown for the _.",True
+@aakupsp,2021-03-05T01:49:42Z,0,I have a function that takes multiple arguments. I want to use the map method. Can some point to a reference on how to pass those to map function. 1) I tried creating tuple of tuples -> didn't work 2) I tried creating array of arrays -> didn't work Only one parameter changes and the other 6 parameters are just constant matrices. I don't want to unnecessarily create an array of 6 constant variables. It could take lots of memory. It still says missing positional argument error. I can't change the function signature. Does it mean that I need to create a separate array object for each argument?,True
+@ananyamahapatra6597,2021-02-20T19:42:16Z,0,Just the perfect 😇 Thank you very much🥳😌😊,True
+@thiyagutenysen8058,2021-02-20T09:55:57Z,1,"I tried to do the same download_image stuff usual synchronous: 33 seconds using threading: 25 seconds difference isn't that much, why?",True
+@ReCremisi89,2021-02-19T07:56:22Z,1,"Amazing video as always. I started knowing basically nothing about the topic. Now I have a strategy to replace my for loops with functions, and to make batches of function calls.   An interesting idea for a future video would be on how to combine multi-threading with multi-processing: Your example on image processing represents an interesting real world scenario where you need to perform a task that is I/O bound in some parts and CPU bound in others.",True
+@pyshimed297,2021-02-14T10:10:00Z,0,how to stop a thread in a certain condition i cant find any way to do that can someone help please?,True
+@lovekeshbansal5977,2021-01-31T18:04:02Z,0,Hi Corey. Nice video! finally something relevant that explains multithreading. I'm trying to use it to insert data into sqlite db. Can you please do a small session with handling db tasks with multithreading. Thanks,True
+@MyYouthUk,2021-01-31T11:02:28Z,0,I'm currently only half way through... but this is far more comprehensive than anything else I've found. Easy to understand and detailed at the same time.,True
+@johnnymysto,2021-01-30T15:42:10Z,0,"Great explanation!! I knew basically nothing about this before I watched it, and it makes complete sense now.",True
+@sidhpandit5239,2021-01-27T02:10:12Z,0,what else can u use to trigger change in thread besides time.sleep?,True
+@tungng6723,2021-01-26T22:25:34Z,0,"If I have 2 lists and couples of constant params, what would be the best way to do it, Corey?",True
+@karansmittal,2021-01-25T18:33:11Z,0,"It was a very demanded video, Thanks for working on it. Always creating high quality video content.",True
+@Xaminn,2021-01-24T20:37:16Z,0,How does it take more time to run 1 iteration?  https://youtu.be/IEEhzQoKtQU?t=1090 1 completion:     1.01 seconds to complete.  https://youtu.be/IEEhzQoKtQU?t=1124 2 completions:     1.0 second to complete.,True
+@TheCricketChap,2021-01-17T12:46:00Z,0,Excellent tutorial.,True
+@AR-scorp,2021-01-16T20:40:10Z,0,Awesome video. Clear and crisp. Thank you.,True
+@pahehepaa4182,2021-01-16T20:21:36Z,0,"Hands down, best instructor.",True
+@AHNT,2021-01-15T16:15:30Z,0,Great video!,True
+@andrewh9663,2021-01-14T13:48:20Z,0,thank you very much,True
+@swarupsarangi734,2021-01-12T10:45:38Z,0,Thank You. Keep doing what you do. <3 <3,True
+@luisangelrosasgaspar7807,2021-01-04T19:44:28Z,0,Is there a way to start the next thread after some seconds? like a delayer.,True
+@sanidhyagupta9582,2020-12-31T16:46:56Z,0,"Can you please explain, how to make programs thread-safe ?",True
+@SmajdalfFrogi12,2020-12-30T23:27:55Z,0,thanks for the great content!,True
+@gsb22,2020-12-30T16:28:26Z,0,"Just so you know, I liked at 1:20.",True
+@SHINEILCHI,2020-12-29T12:00:16Z,0,"Hi, I have a quick question with regards to I/O bound and CPU bound processes.  Is web scraping from an html file into a database then processing those strings or value considered as a I/O bound process?   I am having trouble understanding the I/O bound and CPU bound processes. Please do help me understand it a little bit more.  Thank you corey and to the CMS community! Much love! <3",True
+@sn20,2020-12-24T01:35:04Z,0,"@corey Schafer it is because of  people like you , this planet is surviving.  God Bless !  Awesome video",True
+@gabkov,2020-12-23T09:23:47Z,0,If i have 100 images or 1000 it means the map will create 100 or 1000 threads? Is this a good thing?,True
+@bennguyen1313,2020-12-23T04:43:14Z,0,"Any thoughts on asyncio? There was an article that mentions it, https://realpython.com/python-concurrency/  but I'm wondering what I should use to get data coming in from the (py)serial port, such that nothing is dropped, while another process/thread/queue is plotting that data!",True
+@frogery,2020-12-14T01:55:57Z,0,my old projects look embarrassing now that i know this.,True
+@HighStar9821,2020-12-02T14:20:48Z,0,good stuff,True
+@Ayush_kumar123,2020-11-29T05:54:09Z,1,Corey: Hey there how's going everybody Me: 🤗🤗🤗,True
+@aabhaskrjha,2020-11-29T03:25:39Z,0,Your tutorials help me everyday,True
+@george4746,2020-11-24T18:28:00Z,0,"Excellent examples, thanks Corey!",True
+@codyphillips1279,2020-11-22T08:12:35Z,0,I am getting RuntimeError: Event loop is closed even though my code runs completely through and returns from the function that uses the context managed exector... is this a bug?,True
+@uguree,2020-11-21T17:13:19Z,0,"Thanks a lot, what a brilliant video. Your english, real examples (sick and tired of hello worlds!)  everything perfet. I will subscribe the Brilliant.org after watching this.",True
+@RameenFallschirmjager,2020-11-19T06:27:36Z,0,"Have you seen the ""Threads"" movie?! It's a very scary movie!",True
+@pranavbathla,2020-11-18T22:22:26Z,0,"This was great, thanks a ton! Could you please tell what are the maximum number of threads I can launch using executor.map ?",True
+@walid7189,2020-11-16T10:20:28Z,0,wow!  never stop doing these videos!,True
+@skanda2186,2020-11-16T02:34:50Z,3,"For those wondering, ""wb"" mode when opening a file (27:59) is used to write binary files, which is the case for .jpg/.png and .exe",True
+@kebman,2020-11-10T20:07:39Z,0,No! List comprehension is turning Python into Perl! NOOOOO!,True
+@pwlegolas3,2020-11-10T09:07:09Z,0,very interesting tutorial .. Thanks !,True
+@paulzuradzki,2020-10-30T03:05:14Z,0,"This is a REALLY good tutorial. Thanks, Corey.   I used this together with Jim Anderson's RealPython article linked below. https://realpython.com/intro-to-python-threading/   I'm also on the hunt for a good explainer on thread queues and the producer-consumer pattern.",True
+@bitsnnbytes,2020-10-29T18:31:15Z,0,Excellent video helped me a lot,True
+@nigelargriffiths,2020-10-28T21:11:03Z,0,This video assumes you only have one CPU. If you have many CPUs then even CPU bound tasks will run faster as it can use multiple CPUs in parallel. Otherwise a great video.,True
+@mahdisecurity1700,2020-10-21T14:08:01Z,0,"hi  how are you . thank you very much for  video . but  when i work with threads , i can not reduce my time program. ex: ...... j=0 for i in range(100000000):        j+=i**2 ...... without thread :39s with thread:39s with concurrent:39s   i do not know why ?  god willing",True
+@moazalahmar2256,2020-10-18T22:19:59Z,0,"17:20 Uhm why did you make it a return statement, i didn't quite understand",True
+@gabemorris5370,2020-10-16T12:36:39Z,0,Why did the 'done sleeping...' string print out wrong 15:44,True
+@Lmtl3ss,2020-10-12T02:16:12Z,0,Bro this is actually really good thank you,True
+@Moment_Captured,2020-10-11T20:22:54Z,0,"Really interesting.  Thank you.  I have a code that I am working on that uses OpenCV and two masks that sample a region of interest.  I am using thresholding on pixel values to detect motion as a vehicle travels down a road. Not only do I want to know if a car passes but I want to know if it is heading eastbound or westbound.  Once motion is detected in one mask, I want to know then it is detected in the second mask.   After reviewing your video it would seem to me that this threading approach would be better than using the sleep synchronous approach  Thoughts?",True
+@robertopizziol7459,2020-10-11T16:05:31Z,0,"Hi Corey, thanks for all your videos! I am trying to introduce multi-threading into my flask application to perform some calculation + operations with the database but I cannot reference current_user or my global db variable from inside the thread subroutine. Maybe you know how to deal with this? I guess it must have something to do with the change of context but I don't know what to do... Thanks again for your awesome work :)",True
+@jamesmwai15,2020-10-09T17:56:36Z,0,Very good tutorial. Thanks Corey.,True
+@premgarg5534,2020-10-08T04:33:12Z,0,"Hi, i have a query I want a python script to run at boot time but not the whole program just one thread, SO can anyone please help me it that",True
+@xSferQx,2020-09-27T15:14:14Z,0,I would give you two thumbs up if I could,True
+@UmmadikTas,2020-09-26T22:17:25Z,0,"I'm getting an """"""""AttributeError: module 'concurrent' has no attribute 'futures'  """""""" error. I couldn't figure out why. I'm on python 3.6, using powershell",True
+@Aayush003,2020-09-22T03:59:51Z,0,Can you plz tell me how to convert two files into thread and then combine them into a third file and all the file are python files,True
+@gurudevilangovan,2020-09-22T01:39:26Z,6,"You definitely do have a gift. It takes a ton of talent to explain concepts like this with so much lucidity. Whenever someone says they want to learn python, I point them right to your videos. Thanks Corey! I'm indebted to your videos.",True
+@markcaruana4504,2020-09-20T23:17:38Z,0,"Hi can anyone help..I am trying to make a loop to copy and classify images i have according to category and image index number from a csv file, however I am only managing to keep looping in the same spot ;/ ..this is the code..i tried glob , index , os.walk, iterrows, itertuples, everything. Can someone please indicate what I'm doing wrong. pls pls lps help i am getting so frustrated and annoyed at this.   import glob import shutil import pandas as pd import numpy as np import os  df=pd.read_csv('Data_entry_2017.csv') #df.head(12)  #a a=(df.iloc[0,0])  i=1 #b b=(df.iloc[0,i])  #Cardiomegaly #print(type(new_str2))  src = (r'L:/xrayChestImages/images_001/images/')  #00000001_000 dest = (r""L:/chest_xray/"")     for ind in df.index:     if b == 'Cardiomegaly':         new_str=str(a)          new_str2=str(b)         dest2=os.path.join(dest, new_str)         src2=os.path.join(src, new_str)         print(new_str)         print (src2)         print (dest2)         shutil.copy2(src2, dest2) #file  #dest_dir3 1st row         i=i+1         b=(df.iloc[0,i])",True
+@GunaratnamKuhajeyan,2020-09-20T18:11:49Z,0,"@corey quick question, if your machine is multi-core, would not it still benefit, running cpu bound processes in multi-threaded  ?",True
+@fergusonsofstirling8130,2020-09-20T09:50:06Z,1,Thank you very much Corey. I couldn't get my head around threading before watching your video. After adapting my code with concurrent.futures.ThreadPoolExecutor() / executor.map I managed to speed up a program that makes API calls - which is now at least 100 times faster!,True
+@tomasvallotton9264,2020-09-19T14:13:12Z,0,Is it safe for multiple threads to append to the same file?,True
+@hippopotamus86,2020-09-16T15:20:05Z,1,"If you have for example, 500 images to download. It's bad to create 500 threads. How would you limit this to 10 threads at a time?",True
+@khaif.3376,2020-09-15T17:58:38Z,0,where the hell did the second time sleep come from,True
+@thengakola6217,2020-09-09T17:25:11Z,0,Could've increased ur voice a little bit😄,True
+@justinchai8713,2020-09-08T22:31:08Z,0,this guy is a god among us,True
+@riptorforever2,2020-09-06T20:08:48Z,0,"pretty wonderful video! I only miss an exemple... the possible to limit a 'max thread' during the loop of imagens to download... In a way that, for exemplo, aways has 3 threads (images downloading) working, downloading another image just after finish one.",True
+@zh.798,2020-09-05T17:01:45Z,0,"It would be more appropriate to choose 'futures' instead of 'results' in 21:55, because executor.submit returns future objects that are not guaranteed to be complete  futures = [executor.submit(do_something, sec) for sec in secs]",True
+@javierheng7502,2020-09-05T12:24:21Z,0,"Another interesting usage of the threading module can be with the smtp library, for an email spammer. Logging in with one email and then spamming someone? Weak. Using multiple threads to have basically no downtime to spamming someone? Chad move.",True
+@karthikb315,2020-09-04T12:41:14Z,0,"Does he mean ""sequentially"" when he says synchronously?",True
+@alexchung485,2020-09-04T09:17:52Z,0,You have saved my project! I was looking for the return of a thread process everywhere! Thank you!,True
+@guillaumechandonnet8225,2020-09-03T03:11:34Z,0,"Hi, if i'm trying to extract text from a pdf with 1000 pages into one list. Should i use multi threading or processing? For now it took like 3 minutes to extract the text. Thanks a lot",True
+@sunilthapa6702,2020-08-31T12:28:23Z,0,Awesome Video!...Finally understood Threading in Python...Thanks for the video!,True
+@ujjal147,2020-08-31T10:22:47Z,0,"Watching this video after a long time, still quite helpful!",True
+@thomasforbes784,2020-08-31T09:34:58Z,0,1:38 Thank you so much I've tried before to learn multithreading for python and make it work like go but this time I finally understand it,True
+@shrishailgharat1964,2020-08-29T16:26:42Z,0,"Thank you so much for this video. I ddin't actually know how threads work, and you explained it very well!",True
+@Adeltraut,2020-08-28T07:55:16Z,0,"Hey, I encountered some unexpected results when trying your download_images.py Script. When using the concurrent.futures.ThreadPoolExecutor() with Mal function, I get around 21 seconds as time needed to Run this Script as oposed to the non threaded solution with 23 Seconds. I confirmed this one 2 Systems running python3.8 and the exact script you provided in your code snippets. Any Suggestion what might be missing?  Btw I Love your explanation, I doubt i will ever look for any other Python instructor.",True
+@rafaelbraschi,2020-08-28T03:18:16Z,0,"First: Nice job!!!  +1 member from Brazil! Second:  I like to know if the Threading module can handle any  ""crazy dev"" trying to launch a thousand of threads at the same time. It will throw an error or will auto ""pipeline"" the execution of the threads?",True
+@rotemlv,2020-08-25T11:30:11Z,0,"Anyone else getting times of 1.66s (.1s longer or so) here? (14:31) I get such varianace, wondering how common it is.",True
+@stephenrwafa2519,2020-08-21T16:48:49Z,0,"Awesome, simply awesome and had to watch ads all the way to the end in appreciation this level of quality.  Thanks",True
+@borja4015,2020-08-19T11:55:23Z,3,These videos were really well explained. I had been curious for a time about multithreading VS multiprocessing and I feel like  I learned a lot from your videos,True
+@karthickdurai2157,2020-08-19T07:54:44Z,0,I dont really like the concurrent module when you have separate methods for threading and processing also they have pool methods,True
+@jugsma6676,2020-08-16T17:43:26Z,0,"For instance, if i have to pass multiple parameters in the target function, how do i do using ThreadPoolExecutors? eg: def process_items(item, storage, seconds, numbers):         if numbers != 5:             storage.append(item)         else:             time.sleep(seconds)",True
+@mostafanakhaei4916,2020-08-12T22:46:57Z,0,Corey Your ability to teach is amazing.,True
+@georgesd9,2020-08-11T19:02:33Z,0,"Thank you Corey, channels like yours is what makes youtube worth visiting IMHO. One thing I needed to add, I tried to use threading on a sending email method in flask to avoid delay in redirecting, I found out that it can't be used out of the box, due to flask app-context, with some research I managed to make it work, by researching more about flask contexts I ended up using flask-script with Manager and Shell classes, using the shell to create a context for the thread. I'm writing this in case someone is trying to do the same.",True
+@ravikumaroruganti2097,2020-08-06T18:25:58Z,0,Explained multi threading concept with perfect example.Thanks Corey!,True
+@susanc476,2020-08-06T14:24:14Z,0,You're my favorite. These are amazing.,True
+@vladimirgorea8714,2020-08-03T02:40:02Z,0,What's the difference between multi threads and asynchronous calls?,True
+@tymofiidmytrenko3418,2020-08-01T17:48:19Z,0,Have you by any chance produced any videos on Thread Safe concepts?,True
+@ginadi9733,2020-07-29T11:25:29Z,0,"What if my download image list is more than 1000 images, how can i limit the threads? and not kill my pc?",True
+@ozzman530,2020-07-26T22:33:39Z,0,would the ThreadPoolExecutor open as many threads as possible if we had a script that did something a  bit more complex like ssh into a hundred or so boxes all at once? I imagine that could have some serious consequences on system resources.,True
+@piotrmazgaj,2020-07-26T10:36:12Z,0,Great video.,True
+@ravisankarkodamarti8443,2020-07-26T01:41:11Z,0,"Hi Corey, Thank you for this video. Elegant explanation.",True
+@sergioandres8041,2020-07-25T18:45:48Z,0,"First time in your channel.  Your teaching skills are amazing !  straight to the point, perfect examples and nice speech :)",True
+@melissabelvadi9986,2020-07-22T13:48:04Z,0,"I watched this and the multiprocessor videos, which were incredibly helpful. However, I think it's important that you add somewhere an explanation that a global mutable variable will NOT be modified by a function that is being called by either of these methods (which seems to contradict what you taught us in the variable scope video). I went nuts for awhile trying to figure out why my dict wasn't getting the new data through each function call within the executor calls. I ended up saving my data to a file and then pulling the file back open to use the data later in the program. I would love to know if there's a better way.",True
+@vidasimple6611,2020-07-22T05:06:34Z,0,Is this the same as use async/await?,True
+@diegomedinaflores3362,2020-07-20T08:10:47Z,0,"Great video and thank you. I was trying doing something like ""threding over threding"".  For example, that for loop that you did, I executed 3 of those with threding. But it dalys a lot (it is not just a sleep, it is in real work).  It is a good idea to do threading over threading? Or is there another solution?",True
+@adityatile1168,2020-07-17T07:39:09Z,2,"That was a very good explanation, saved a ton of time of mine :)",True
+@Tiger_Tisen,2020-07-15T20:51:12Z,1,Really good tutorial that is very easy to follow. Thanks!,True
+@powerkuu8055,2020-07-15T12:51:16Z,0,blipblop,True
+@KhoiThinh,2020-07-15T12:45:17Z,0,"I'm not sure why but for the image download example, the time it took to download in both ways (use/not use threading) is almost the same which is around 22, 23 seconds. I've run the test like 10 times though. Anyone got the same issue?",True
+@mith1979,2020-07-13T20:47:13Z,0,Really Like this awesome short tutorial.. Do you have some topic covering how to handle exception in thread is some proper way?,True
+@GelsYT,2020-07-13T14:49:31Z,1,THANK YOU SO MUCH!,True
+@Javo289,2020-07-12T01:07:55Z,1,First: I loved your explanation of concurrency and threading. I've seen it before everywhere on daily slang but i didnt feel like understanding 100% Second: What is the difference with the async await syntax using asyncio?,True
+@TheKeysMan100,2020-07-11T17:51:01Z,1,"@Corey Schafer, I really appreciate you, I've decided to sub premium, you make this so easy to understand. Thank you!",True
+@anthonywinful1758,2020-07-10T17:29:42Z,1,"Corey ,  you saved my life !!!!",True
+@yuliiakhalus7339,2020-07-10T15:52:42Z,1,Thank you very much for this tutorial! No one can explain all this Python stuff better that you!,True
+@zacharythatcher7328,2020-07-08T13:47:07Z,0,"How do you make concurrent.futures thread safe with locks if you don’t import threading? I’m running threads that open excel, then close the app, and I would really like them to not close excel while other threads are opening it.",True
+@glaceondev4149,2020-07-05T08:31:11Z,1,Man....Your'e Awesome!,True
+@pushkarkathayat7893,2020-07-04T17:01:44Z,0,Nice tutorial Corey! Any suggestion for returning multiple value in multithreading using this method?,True
+@indrabrata2582,2020-07-04T01:36:32Z,0,"Sir, can i use this to my django task?",True
+@fernandohood5542,2020-06-28T03:32:18Z,0,Python started out easy but is becoming just as complex as Java.,True
+@superumesh777,2020-06-24T10:19:50Z,0,Corey is a legend,True
+@Mrslykid1992,2020-06-24T08:18:50Z,0,"Wow parenthesis throws everything off!  Thank You Corey! from com.project.src.Experimentation.GatherDataWithThreads.GatherData import GatherData from com.project.src.Experimentation.GatherDataWithThreads.ThreadingData.ThreadData import ThreadingData  class ThreadingDataTest(unittest.TestCase):       def test_durationOfThreadIsAtleast3Sec(self):         start = time.perf_counter()         gd = GatherData()         gd.getDataSource1()         gd.getDataSource3()         finish = time.perf_counter()         self.assertTrue(finish-start>3)      def test_durationOfThreadsIsLessThan3Sec(self):         start = time.perf_counter()         gd = GatherData()         td = ThreadingData()         thread = td.createThread(function=gd.getDataSource1)         thread2 = td.createThread(function=gd.getDataSource3)         td.startThread(thread)         td.startThread(thread2)         threadList = []         threadList.append(thread)         threadList.append(thread2)         td.joinThread(thread)         td.joinThread(thread2)         finish = time.perf_counter()         self.assertTrue(finish-start < 3)",True
+@SabarishKodali,2020-06-22T15:16:47Z,0,This is my unanswered question Answered here 7:09,True
+@EnglishRain,2020-06-21T18:45:30Z,0,Thank you so much for your beautiful content! Please consider making Python + Docker tutorials as there is a serious dearth of good quality tutorials on that subject on YouTube.,True
+@okyigwegbe1977,2020-06-19T22:48:16Z,8,"Corey, you are unbelievably good. My python journey has been solid because of your brilliant and simplistic way of explaining the most complex of things.  Thank you very much and God bless you.",True
+@malliditarunreddy,2020-06-19T09:05:53Z,0,How to pause and resume or to kill as started thread?,True
+@davidnago7947,2020-06-14T11:30:14Z,1,@Corey  you need an award for the top quality content . keep it up,True
+@arto_1790,2020-06-11T14:59:55Z,1,"Man, thank you so much",True
+@Drampam,2020-06-10T12:15:01Z,0,Any idea why do I get this error: SyntaxError: unexpected EOF while parsing ?,True
+@fet1612,2020-06-06T14:05:27Z,1,"7:10 ""We don't want to execute the function so don't put on parentheses like this --> do_somethings(). We want to pass in the function by itself unexecuted.""  So the snippet is: t1 = threading.Thead(target = do_something) <-- not do_semething()",True
+@pablojuarez6311,2020-06-04T21:18:46Z,0,"Hello Corey I applied this feature to my script and could save a good minutes deploying It. Now, I should need to call a Function but sending a list and an argument. How could I do that? Thank you so much for your help. Keep doing this awesome tutorials",True
+@trisetio3939,2020-06-04T11:10:32Z,0,"autosubscribed, thanks!",True
+@TheShubham67,2020-06-02T09:31:44Z,0,Hey Corey please do a video on asynchronous programming in python!,True
+@jaylocker2055,2020-06-01T23:18:53Z,35,"LOL, just cut a loop that makes 12,000+ API calls from 42 minutes to < 5 minutes.  This is freakin awesome!",True
+@RifinTidHamar,2020-05-31T14:01:12Z,1,Thank you for this very helpful tutorial!,True
+@jonastan1850,2020-05-30T11:43:58Z,1,Loved your tutorials! Great content. Easy to follow examples.,True
+@denizoezdemir5495,2020-05-30T09:14:57Z,0,"It nice to follow you How can i get the API players games results ? Is this possible ?",True
+@shinobi9461,2020-05-28T02:34:55Z,7,"Your tutorials are truly phenomenal. Thank you so much for sharing these videos with everyone, they’re incredible!",True
+@rahesc,2020-05-25T20:58:47Z,1,Such a great explanation. Thank you so much!,True
+@dangidelta,2020-05-24T06:17:23Z,31,Mind Blown : 100% New Concept : Yes Easy Implementation : Yes More Control on Programs from now on : Yes Feel like a New Level Achieved : Definitely Yes,True
+@Picker22,2020-05-22T13:30:59Z,0,i still dint understand the context.future part can you help me,True
+@nicholastalbot6370,2020-05-21T11:42:49Z,398,"Corey:  I know that sounds confusing. Me: No, you explained that very well.",True
+@sanviews9819,2020-05-18T12:59:16Z,1,One of the best Educator on programming out there ... love from India.,True
+@jasbeersingh198,2020-05-18T03:50:47Z,0,am i mistaken or this video is using python 2?,True
+@djuka8121,2020-05-15T18:40:54Z,0,Why did it take 71 seconds to download all these images with concurrent.futures map function?,True
+@djuka8121,2020-05-15T18:19:23Z,0,So should i use the threading module or the concurrent.futures one?,True
+@sarada_rout,2020-05-13T13:55:20Z,0,How to handle a Daemon thread condition using concurrent.future module,True
+@greensaber77,2020-05-10T07:03:31Z,1,Can I double like this video?,True
+@lapiluly2696,2020-05-07T17:32:13Z,1,Thanks!1,True
+@Alan-yg8wc,2020-05-06T17:41:26Z,0,"What if I want to run 2 different function concurrently. Would it be results=executor.map(func1, arg)   results2=executor.map(func2,arg) ??",True
+@shirsendudhar8944,2020-05-01T00:33:57Z,0,"Can anyone explain that at 14:27, why some lines are printed side by side, as supposed to print it in different lines?",True
+@CorretorAlyssonGomes,2020-04-28T19:53:13Z,0,Awesome resource for port scanners. Thank you so much.,True
+@alixaprodev,2020-04-27T10:33:36Z,0,"14:50  the print('done sleeping ..."") is printing on the same line. how can i avoid this because each print statement has to end the line?",True
+@adelabdelsamie3746,2020-04-26T13:49:47Z,0,How can pass 2 argument to map function,True
+@KishoreKumar-is3qn,2020-04-25T06:38:38Z,0,GOAT!!!!,True
+@tuvshinotgo5911,2020-04-24T16:25:04Z,1,"Stop Corey, you are killing it. Kidding no stop",True
+@SravanKumarduggirala,2020-04-24T10:07:54Z,0,Code is good I am able to use this code but it is running only 10 threads at a time how can I increase this max threads count,True
+@soumyazyx,2020-04-18T05:59:09Z,0,"Query: While using executor.map within the context manager, it 'waits' for all threads to complete before exiting the context manager. How to exit use .map but proceed with remaining code flow without having to wait for threads to complete?",True
+@soumyazyx,2020-04-18T05:55:13Z,2,"More I see these videos, more do I fall in love with python and Corey.  Thank you for your time and effort.Keep spreading the knowledge.",True
+@jamolbahromov4440,2020-04-16T21:01:50Z,0,Would this work if you want to keep the natural ordering in data being downloaded? FOr instance if you are scraping a time series off the page?,True
+@lizzyb1sa,2020-04-16T09:27:26Z,0,"Thank you , I love your videos",True
+@athisii_ekhe6167,2020-04-15T22:31:43Z,0,Your videos doesn't want me to stop. I'm addicted to it. Cos its the best. Thank you. MGBY.,True
+@jeetshah8513,2020-04-13T11:35:22Z,0,can gpu be useful for more faster run time???? can you also make video for it?????????,True
+@dnetne5508,2020-04-13T08:42:47Z,1,My mind is literally blown right now.,True
+@georgklauner2457,2020-04-12T14:36:50Z,0,Best tutorials ever. Thanks,True
+@braticeviciaurel,2020-04-12T02:38:26Z,0,"hi Corey, I am having some trouble controlling the output while I implement multithreading. Should I build a separate python subprocess script that would run the main multithread script and based on the output, arrange it as it arrives?",True
+@maheshsohan6331,2020-04-10T21:05:41Z,0,Excellent I'm addicted to your videos now... Need a video on asyncio please.,True
+@dinohunter7176,2020-04-09T23:41:22Z,1,The examples are so well done and nice explained. Good stuff.,True
+@PatooOfficial,2020-04-09T19:02:00Z,1,At first I thought this was some video from annoying courses companies that's just a waste of time and boring.. until the video started I got happy and knew this video is quality from a quality channel,True
+@arthurrouzeau4481,2020-04-08T14:22:04Z,0,"not work for me. can u help me ? ------------------------------------------------------ import threading import time  def do_somthing():     print(""sleep"")     time.sleep(1)     print(""Done sleeping..."")           t1 = threading.Thread(target=do_somthing) t2 = threading.Thread(target=do_somthing) t1.start() t2.start()    finish = time.perf_counter()  print(f'Finished in {round(finish=start, 2)} second(s)')",True
+@JoeBurnett,2020-04-08T12:49:07Z,0,"This was a very informative video. As always, thank you for taking the time to create this content.",True
+@yogiekusumah1148,2020-04-08T08:03:41Z,0,"Nice tutorial, i really enjoy it. I have question: Let say i have python script which execute several threads as in this video. Each thread will run indefinitely. What code should i put on the script, so when i press CTRL-C, i end all threads and exit application ?",True
+@lildhansenmadsi,2020-03-30T14:38:50Z,0,"So when I run your last example with threading, it takes a longer time than without for some reason. (33 - without threading, 40 - with threading)",True
+@rimpri,2020-03-29T16:00:49Z,1,Sex at 21:15,True
+@spellweavergeneziso,2020-03-26T22:37:35Z,0,"It works software-wise, the functions are executed in parallel BUT when I use this on my function (which might even take minutes to finish) and I call it on 8 threads, my CPU is still using only one thread... its not really executing those functions on seperate threads, otherwise I'd have 50% CPU utilization which I don't, still only one cpu thread is bussy.",True
+@michaels8297,2020-03-25T19:30:15Z,0,"Hi all, quick question--If I have a flask app and a route within the flask app gets a range via POST to keep some sensor values within on a raspberry pi. This process would run on an infinite loop and periodically be changed or stopped based off if it receives a POST request. To do this would I create a thread in the flask app that contains an infinite loop and run this thread within my flask app?",True
+@DarshitParmar,2020-03-23T16:54:07Z,4,You are an angel. Most youtubers teach textbook. Thank you so much for this tutorial!,True
+@brunosm0,2020-03-20T19:07:55Z,1,awesome,True
+@aminebouaita9202,2020-03-16T16:14:02Z,0,"In the sea of appraisals that is the comment section, I add a well desreved thank you",True
+@Antz_411,2020-03-16T09:26:42Z,0,Excellent tutorial! Fast paced and concise. Bravo!!,True
+@excitedbox5705,2020-03-09T08:49:34Z,3,This has to be the best made guide ever. This should exist for every programing language. Usually guides only give you the absolute basics and expect you to figure out the more advanced stuff yourself and that is where most people get stuck. The level of detail in this is perfect without making it overly long.,True
+@byom.cybertechie,2020-03-08T14:23:27Z,0,"Hi, in a practical scenario when we have to spawn 100s of threads, can we not use generators instead of appending the threads to a list? Generator will yield 1 thread at a time instead of loading all of them in memory and we can loop over the generator object to start the threads then loop over again to join the threads. Will it not give the same results!!",True
+@emmanuelgelatimesa2712,2020-03-06T10:10:54Z,0,It's this good to use multithreading application with python GIL?,True
+@KcKc-bh6lu,2020-03-05T10:04:25Z,0,Sequential output reaults was similarly to ADA. When using thread it should randomly start. My observation was the use of stack.,True
+@jakobii9345,2020-03-03T19:33:06Z,0,Very comprehensive. Thank you 🙏,True
+@samphelmailbox,2020-03-03T15:59:06Z,0,"hi corey , it is really exciting and learning experience for me to see your video on python , i'm looking forward for some videos on storing data into postgres database and retreiving those data back",True
+@mohit4u007,2020-02-28T11:39:17Z,3,Your threading and multiprocessing videos helped me a lot to solve my problem at work. Thanks a millions. Awesome effort and great wishes to you. Keep going!!!,True
+@techcode_man,2020-02-24T01:25:08Z,1,Thank You Corey for another top class tutorial. So easy to understand when you explain it!,True
+@svensubunitnillson1568,2020-02-22T20:41:00Z,0,"Threading module??? no no no, we need a Weirding Module",True
+@keithmiklas2893,2020-02-21T20:46:59Z,1,Rock-star video. A+++++ Thank you :) I will visit your sponsor!,True
+@anubhav9476,2020-02-19T13:13:43Z,0,"Thank you for this amazing tutorial Guys, if you want a copy of the tutorial, I've uploaded it on github, with some comments explaining what's going on https://github.com/Anu-bhav/Python-Advanced-Tutorial/blob/master/tutorial_8.py",True
+@satoshinakamoto171,2020-02-16T12:00:15Z,0,"hi, thanks for all your videos. can you please do tutorials for selenium ?",True
+@kamirukusznirczuk9617,2020-02-15T17:23:07Z,0,Hi great video! I just wanted to ask how could i add a path to the downloaded image? Would I have to use os module for that?,True
+@ksaittis8516,2020-02-13T20:05:00Z,0,"Was looking for some good asyncio tutorial but I dont seem to find any, was hoping that Corey Schafer would had one but he doesnt :(",True
+@pa1kum6,2020-02-04T04:47:09Z,0,very helpful video. waiting for advanced threading topics that you mentioned you will make a separate video,True
+@sweetiea1033,2020-02-02T10:50:55Z,0,27:00 file not found error,True
+@sweetiea1033,2020-02-02T10:07:25Z,0,27:00 is it a file or a folder that we should create,True
+@ukaszbudzynski9113,2020-02-01T09:39:21Z,1,Hi! First time I'm commenting a coding video. Love it! What I liked best is the approach of basic example where one sees the working of the modules/methods and the real life example how to use them effectively. Nomen omen...Brilliant ;),True
+@FRIENDSofCAP,2020-02-01T02:33:05Z,0,"Hello again, Corey. I am at critical mass on this issue now.  I have tried your sample and I keep getting the AttributeErr Module threading has no attribute 'Lock' but I did not even use it.  I tried another tut from Sentdex and the same results although his does use locl.  So I though my Python 3.7.4 might be messed up and upgraded my Raspberry Pi and My mac OSX Catilina to PPython3 .8.  NOW, I GET AN attribution erro for THREADING EVEN THOUGH I AM NOT VEN USING IT.  IS THERE ANYWAY TO SOMEHOW CLEAR OR FLUSH THE PYTHON ERRORS OR WHATEVER?  SAME THING WHEN I RUN IT FROM THE COMMAND LINE ON MY PI BOARD USING PYTHON 3.7 OR THE LATEST VERSION.   RRRRRRR.  I'M HOPING YOU CAN HELP.  THANKS AND HOPING YOU WILL REPLY SOON.  TIM",True
+@FRIENDSofCAP,2020-01-31T19:01:51Z,0,"Hey Corey,  I am having an Attribute Error when I try running the code.  I get the following error at runtime: ERROR: = ""AttributeError: module 'threading' has no attribute 'Lock'"" Here is the Python Code: import threading import time import subprocess    #  CLEAR THE CONSOLE SCREEN FIRST THING subprocess.run(""clear"", shell=True)   time = perf_counter()   def do_something():     print(""Sleeping for 1 second"")     time.sleep(1)     print(""Done sleeping..."")   #  RUN THE 'do_something()' FUNCTION IN TWO SEPARATE THREADS t1 = threading.Thread(target=do_something) t2 = threading.Thread(target=do_something)   t1.start() t2.start()   t1.join() t2.join()   finish = time.perf_counter() print(f""Finished in {round(finish-start,2)} ') second(s)"")   So what's going on here?  I am running Python 3.7.x on my Mac OSX on Catilna.  I also tried it on my Raspberry Pi running Raspbian Buster with same error...  Let me know please... Tim",True
+@pineapple1juice414,2020-01-27T03:04:59Z,0,So im using tkinter to make a gui and im using this to try to stop the freezing but it still happens any help,True
+@lismarmartin4890,2020-01-24T21:52:27Z,1,Hey!!! this video was so useful!!! you're awesome! thanks for doing this,True
+@akashkece,2020-01-22T17:12:15Z,0,"Thanks for this Corey. How can I use shared counter using these methods?  Using normal function method I usually print 1 is done, 2 is done. Using concurrency.futures it is printing only 1 is done even when I am using it for 500+ links to download.",True
+@lmao_ur_mum,2020-01-21T16:04:29Z,42,"Me: watching this video My friend sitting next to me: ""Are you sure you can sleep only one second?""",True
+@pradeeshma,2020-01-20T02:00:39Z,0,What if one were using Multiprocessing in python for IO bound task instead of Threading ?,True
+@HexagonalClosePacked,2020-01-17T21:28:53Z,374,"When I first tried to switch my career to programming, I watched Corey's videos. Now, 3 years later, I already got a job in programming and still watch Corey's videos :)",True
+@parsahosseini4241,2020-01-16T10:20:29Z,0,"Guys, be careful, executer.map(do_something, secs) returns a generator object, not the actual results list, and it's not gonna pause the program like calling result() on a future object. Also, as_completed yields whenever one of the threads is done, but map starts yielding once all the threads are done.",True
+@haaang3095,2020-01-15T15:09:34Z,1,This is very helpful tutorial for me. Thank you.,True
+@agnity123,2020-01-13T15:34:28Z,0,can you make a video on data sharing in threading using queue,True
+@wassaufkhalid8593,2020-01-10T06:11:53Z,0,can we sleep for 2 hours in 1 hour using threading?,True
+@TheFred10000,2020-01-06T14:51:19Z,4,This channel is criminally underrated.,True
+@aryaanand759,2020-01-03T13:47:24Z,0,"does anyone know why my computer is printing done sleeping in the same line sometimes       sleeping for 1.4 seconds sleeping for 1.4 seconds sleeping for 1.4 seconds sleeping for 1.4 seconds sleeping for 1.4 seconds sleeping for 1.4 seconds sleeping for 1.4 seconds sleeping for 1.4 seconds sleeping for 1.4 seconds sleeping for 1.4 seconds done sleepingdone sleepingdone sleepingdone sleeping done sleeping done sleeping   done sleeping  done sleepingdone sleeping done sleeping  finished in 1.4 seconds",True
+@AnShett,2020-01-02T07:27:07Z,0,I have a question. If the variable image_name is shared between threads is there a possibility of on thread overwriting the data of another before the original thread was able to write the image?,True
+@igotthegoodstuff2692,2019-12-31T05:59:56Z,0,You should make a video on lxml.   There isn't a good video tutorial on it yet. I'm sure you could change that based on your other uploads.,True
+@divyaanshbajpai376,2019-12-29T19:19:40Z,0,In this example it will create one thread per image url ? how can you limit the number of threads that you can spawn ?,True
+@Me-tuber,2019-12-24T22:15:43Z,0,"08:13 How is it possible for your script to execute the ""Done sleeping"" at this stage? What I understand (and I also verified in my script execution) in order to see the outcome of the threaded functions ""Done sleeping"" you need the script to be running. By stopping the script after ""Finished in 0.0 seconds(s)"" you terminate the execution of the threaded functions, thus no ""Done sleeping"" is printed. I am able to see the ""Done sleeping"" with threading only if I delay the script ending. Thank you, your videos are amazing!!!",True
+@zenziiiiiiiiii,2019-12-19T18:23:16Z,1,Thankyou so much @Corey. You are awesome!!,True
+@lawrencedoliveiro9104,2019-12-19T00:32:34Z,1,"Threads are best avoided for the most part, and not just in Python. They are mainly useful if you need to run CPU-intensive code taking advantage of multiple cores at once. Quite often this is not the case; instead the bottleneck lies elsewhere (in I/O or the network), not in the CPU. In this situation, asyncio https://docs.python.org/3/library/asyncio.html offers an easier, less troublesome API.",True
+@Laxminarsaiahragi2410,2019-12-18T17:34:59Z,0,"Hi Sir, can you answer this question please? https://python-forum.io/Thread-Trying-to-understand-concurrent-futures-ThreadPoolExecutor",True
+@letmeoffendyou,2019-12-10T20:04:48Z,0,"Thanks for the tutorial, is there a way to control the memory usage ? I have to fill a huge matrix with concurrent futures, but the memory is getting huge (~130GB) and the program is killed (by PBS). Is there a way to delete completed jobs and save memory ?",True
+@techcode_man,2019-12-01T18:04:41Z,2,Yet another awesome tutorial from the best Python teacher :) Thanks Corey! I am long term patron for you. Keep up the good work! Do you plan on any courses with GO ?,True
+@jerry5646,2019-11-30T03:23:41Z,1,Hands down. Best python tutorial in youtube,True
+@sorinnoroc3330,2019-11-28T19:07:11Z,2,"Holy shit, so many likes and only 8 dislikes, you're the best man!",True
+@soumyasuansia9386,2019-11-25T13:40:15Z,0,!! The Best explanation !!. Thank you very much @Coery .. Can you please share the video link of multi threading with synchronization (locks). I eager to understand that with real world example. Also if you can consider to give example on deleting multiple file from a folder with synchronization.,True
+@cemox007,2019-11-25T06:04:42Z,1,Excellent!,True
+@sagar4091,2019-11-20T22:13:10Z,0,Can you please make a video on asyncio . Thank you,True
+@ubertech8835,2019-11-19T21:15:52Z,0,"Great work Corey!  Been following your video tutorials for the last week or so.  I am trying to tie threading into your Flask tutorial and I cant seem to pass data from the model as arguments to a function.  Example:  class User(db.Model):  id = db.Column(db.Integer, primary_key=True)  username = db.Column(db.String(20), unique=True, nullable=False)  email = db.Column(db.String(120), unique=True, nullable=False)  def do_something(name, email):  #code that does stuff with the name & email  users = User.query.all() with concurrent.futures.ThreadPoolExecutor() as executor:     executor.map(stream_recorder, users.username, users.email)  I get the error   executor.map(stream_recorder, posts.username, posts.monitored) AttributeError: 'list' object has no attribute 'username'",True
+@EdiFerreiranet,2019-11-19T20:20:18Z,30,10:54 Throw away variable!?! Nice!!! I didn't knew that. Awesome!!! Thank you. You're the best ;),True
+@aashaydhawal7274,2019-11-12T07:51:03Z,1,"absolutely WOW, thanks a ton Corey - this topic couldn't be explained better :)",True
+@382946rthu,2019-11-06T14:25:04Z,0,A video on CFFI and Python for  dot net would be cool too,True
+@382946rthu,2019-11-06T14:24:27Z,0,"Hi Corey, a video on Pyro would be awesome!",True
+@davidhe6276,2019-11-05T13:51:47Z,0,where is the code?,True
+@ismersh,2019-11-02T10:45:37Z,8,"The best video in the internet about multithreading. Clear and step by step detailed explanation about different ways to run multiple threads in your script + Corey explained why the threading is useful, while some websites tend to say multithreading doesn't work in python. We are very lucky that we have Corey explaining these concepts for free in Youtube, because you won't find such good materials even in paid courses on Udemy or other sites.",True
+@andreasvester1816,2019-10-30T16:15:25Z,0,"Imagine your 'download_image' function takes two input arguments. How would your 'executor.map(download_image, ...)' line would look like?",True
+@shukailu6731,2019-10-30T09:54:18Z,1,"Thanks Corey, this video was awesome!!",True
+@rahulparmar208,2019-10-29T09:40:04Z,0,GIL does not allow to run multiple threads simultaneously in python.... Why is that and whats the solution for this,True
+@nicolaskingreen,2019-10-27T14:40:07Z,0,What is your theme/color scheme of ST? I want the same on my Windows,True
+@seldom89,2019-10-26T13:14:08Z,1,"Awsesome!!! Thank u very much that was very useful. You are a ""Super Master Mentor"".. :-)",True
+@vishnusingh4118,2019-10-26T09:54:15Z,0,"You probably get a gazillion requests Corey, but if you have the time, could you make a vid on making REST APIs. It will complement your Django Series very well ?  Thanks a ton for all your work again!",True
+@vishnusingh4118,2019-10-26T09:52:56Z,1,35:03 Yes yes yes ! Please make the vids on the advance topics as well! That will complete the knowledge-pack and make this video even more fruitful as we'll be able to apply the knowledge end-to-end in a real world setting. Thanks a ton Corey.,True
+@vishnusingh4118,2019-10-26T09:49:59Z,26,Crystal-friggin'-clear! The coolest part was the real-world examples at the end which ensured there was a concrete takeaway and that it wasn't all just theoretical. The best threading vid on the internet! You keep getting better Corey. More power to you !,True
+@vishnusingh4118,2019-10-26T09:14:19Z,0,"23:43 When we use the submit method, it returns a future object. But when we use the map method, it instead returns the results (of calling the function).",True
+@boogieman97,2019-10-24T18:37:48Z,0,"Hi Corey, can you please do a video about asyncio, where the topics coroutines, futures, etc included?",True
+@ferdinandodemelo2222,2019-10-21T23:25:57Z,1,Amazing video man! I learn a lot from you!,True
+@patloeber,2019-10-21T21:31:57Z,1,Great Tutorial!,True
+@Oogobuk,2019-10-20T14:51:04Z,0,"Can you talk about doing the same thing here, but instead of a function, with an Object that runs itself, and calls its own methods, and the calling program can check it and kill it if necessary?",True
+@red94mr28,2019-10-20T12:24:22Z,0,"Haha, for about a week after this video was published, the unsplash site was wondering why they were getting hammered",True
+@millaw.1718,2019-10-14T22:06:39Z,1,This is my prayers coming true! Thanks a lot for explaining this topic <3,True
+@sukurcf,2019-10-13T15:27:05Z,0,Please make a video on asyncio too.,True
+@BenderdickCumbersnatch,2019-10-13T11:16:36Z,1,"Just remember that Python is ALWAYS SINGLE-THREADED and that its ""threads"" are fake. They have something called the GIL (Global Interpreter Lock) which means that only 1 thread executes at a time.  Two threads cannot execute instructions at the SAME time.  They give the illusion of multithreading by implementing ""let other threads do work while this function waits for data"". It required that the functions are written to be asynchronous, such as time.sleep() or various file I/O functions.  But if you try non-asynchronous calls (things that internally block while waiting for the result) such as ""a = b * c"" or ""a = numpy.zeros([10,10])"", meaning most math operations and C libraries, then the whole ""thread illusion"" in Python falls apart. Each thread will then pause the whole program until each such operation is complete. Which means the ""threaded"" version will take longer to execute than single threaded.  The alternative which gives true multi-CPU execution is the ""multiprocessing"" module which spawns a separate Python process, but it is very slow to start and it transfers data in a slow way (serialized with pickle) between the main process and subprocess.  Python are working on a ""subinterpreter"" module which starts the extra process inside the main process which will be a bit faster but stil requires pickling the data.  In short the situation is bad. And Python will not remove the GIL to fix their threads because it would break all C modules and code that assumed that Python is always single-threaded... sigh.",True
+@jadsoud1516,2019-10-11T18:58:21Z,0,"Hey Corey, thanks for this video and all the others, I've been following you and learning from your videos since a while, I tried downloading images using Threads but it is slower than the normal one, even the first example was good, do you have an idea what could be the problem ?",True
+@lalu225,2019-10-11T12:48:41Z,0,A video on race conditions and locks would be most welcome.,True
+@australianpopulism3490,2019-10-05T22:00:33Z,0,"Hi Corey, can you do a tutorial series on Ansible?  Thank you.",True
+@danieleperera6788,2019-10-03T23:25:37Z,0,"Hey, first of all I love your videos. These days I’m trying to implement a custom feed parser which scraps news feeds and I was wondering how could I use multi-threading approach and insert the data to a database. I’m currently using SQLite and mongodb. After some research I found python queue and I would really love if you could do a more in-depth video explaining multi-threading and queue using maybe a more complex example. Thanks a lot.",True
+@ashwinsingh1325,2019-10-03T20:57:30Z,1,"As someone w a background in c++ but new to python, this concept was explained very well :) looking forward to future videos (maybe some related to data science?)",True
+@sumitsoni9209,2019-10-03T18:37:21Z,0,What about GIL?,True
+@Befell,2019-10-03T03:55:28Z,0,How to print text after one function is completed?,True
+@chaitanyareddy7597,2019-10-02T16:04:02Z,0,Thanks Corey! Can anyone suggest if I can use threading for sending bulk emails ? Mailing list >10k,True
+@eggfry9020,2019-10-02T08:19:42Z,0,Does downloading  images  using threading also depend on the internet speed ?,True
+@templeosdisciple3299,2019-09-30T20:05:49Z,0,Thanks for the video. Now a little about your environment: I have execute the script and calculated the size of all images; it is 145MB the asynchronous method taked 5.54 seconds  so your internet speed connection must be ~ 145*8/5.54 = 210 mb/s,True
+@poyen_hsieh,2019-09-28T17:10:05Z,2,This is the best tutorial out there. So clear and so thorough. Great work!,True
+@Franchyze923,2019-09-28T12:55:28Z,1,Great video. Thanks,True
+@Franchyze923,2019-09-28T12:48:22Z,1,Don't name your script threading.py ! You will get an error 'threading module has no attribute 'Thread'.,True
+@sippy_cups,2019-09-28T00:28:04Z,1,absolute legend,True
+@jordygarcia8556,2019-09-27T20:10:29Z,0,"How can I make a 'post' method that inserts images into mysql through multiple threads, to achieve effective performance in case an injection of more than 200 data per second is made and the performance does not decrease and is stimulated with each injection of images?",True
+@kbones35,2019-09-26T09:09:56Z,2,"Hey Corey, I think you should create some kind of paid programming bootcamp or full online course someday. I went through a lot of courses and separate tutorials and I find your way of explaining things one of the best. A lot of people like me would be literally happy to pay for such course made by you. P.S. Thanks a lot for your videos, they are extremely helpful.",True
+@jonesmm3,2019-09-25T21:46:35Z,98,"21:13 I WILL CALL THIS SEX.  Tbh, a well optimized multithreaded script is like sex.",True
+@ivolol,2019-09-25T17:38:11Z,0,I think it would've been more complete to mention that threading's inability to speed up computation is more a specific limitation of python's execution model than a rule in general for programming.,True
+@letslearnabout4934,2019-09-25T11:40:13Z,2,"Brilliant video as always, Corey. I love that it is not just theory or theory with a few ""FooBar"" examples, but real world applications.",True
+@CwMuller,2019-09-24T13:51:53Z,64,"Had a service at work that created html pages with indexes of hundreds of xml reports. It used to read each report one by one. Used what I learned here to refactor the code to process files concurrently, which cut the script run time to a fraction of what it used to run at. Thanks for the fantastic tutorial!",True
+@ferracjm,2019-09-23T23:12:23Z,0,"I tried to do something similar to download some big size files but with progress bars, however all the progress bars appear overlapped. Do you have any idea how can I fix it?",True
+@somaloco3701,2019-09-23T11:32:52Z,1,"omgggg I wanted to learn this but didn't because it seemed too advanced. thank you corey, there is no better source to learn from than you, I can learn anything that you teach!",True
+@LiquidArremer,2019-09-23T10:52:05Z,5,"I think the best part of these tutorials are the ones were you involve real world examples to show the utility, especially common cases and how it alters from then to now. Keep up the good work Corey!",True
+@mbappekawani9716,2019-09-23T03:59:52Z,1,thank you man,True
+@hakoo2700,2019-09-22T23:23:51Z,1,Loveeedd iiitttt❤😬,True
+@dreamyrhodes,2019-09-22T17:42:29Z,0,Sleeping is not doing nothing. It's actually getting the time and comparing the time to the time it ran already. Sleeping is not just a simple NOP,True
+@qed7491,2019-09-22T08:20:27Z,0,___corey___,True
+@veganath,2019-09-22T02:50:56Z,0,"*Wouldn't hitting a URL with simultaneous GET requests be a bandwidth hogger?* Great tutorial thanks Corey, have to watch this a few more times to really GET it, I need neurological threading...lol",True
+@vit.c.195,2019-09-21T19:35:52Z,0,<Perl thread tutorial> $pid = fork(); die if not defined $pid; </Perl thread tutorial>,True
+@MSadraddini,2019-09-21T16:15:37Z,0,"Hey Corey... great video!     Just an observation in the examples you showed where you used SUBMIT method from within the context manager, it is possible for a thread that has been started to finish earlier during the execution of first loop, and before all items in the list of threads have been joined. And so the result will be printed before the join. This means that some threads terminated prior to being blocked by the join method. Is this a correct way of looking at this?",True
+@marsin23,2019-09-20T23:30:10Z,1,HE SAID SEX LMAOOOOOOOO SO FUNNYYYY   Great tutorial! Thanks!,True
+@edgarlip2,2019-09-20T14:17:40Z,1,this was awesome cut clean tutorial ! best i saw !!! and for sure i am waiting for the next multi processing  upcoming videos  (local data \ raise conditions \ locks etc ... ).,True
+@ManerKa7,2019-09-20T07:26:58Z,1,Thank you Corey! Your lessons are helping me a lot. Can't wait for your video on multiprocessing :),True
+@mpgovinda,2019-09-20T06:52:43Z,0,"Can you do a video or a doc about full python architecture covering interpreted lang, memory management, how it's work with kernel level, permissions etc, That would be a great help and really appreciated, And big thank for creating such a wonderful tutos...",True
+@kr8771,2019-09-19T14:23:55Z,1,"amazing work, as always. really looking forward to the upcoming video.",True
+@mrinmoysarkar589,2019-09-19T11:13:02Z,1,"Hey, I absolutely love your videos. I think you should leave one or two practice problems related to the video's topic for the viewers to solve. This will make the learning process even more engaging.",True
+@wjblake,2019-09-19T00:35:29Z,0,"Thank you Corey. It is a very helpful video.    Threading seems like it may speed up API calls.  Is that correct?  If so would it be possible to call a function like:   mylist = the_api_call(my_api, var2,var3, var4)   Mylist is a list that the function would return, the_api_call is the function my_api is the api text string var2, var3, and var4 are other variables in send to the function.     This api call is to a government website and I don't think they have any limits.  (I have not had problems)    Thank you again, Bill",True
+@zknarc,2019-09-18T21:32:21Z,1,"Could you also cover queuing (or similar) with multithreading? Right now if you feed it 10,000 image urls it will spawn 10,000 threads!",True
+@sekus,2019-09-18T00:57:57Z,0,"Hi Corey, in the executor.map, does the first arg has to be a function? Could it be a class as well? I see instances that it makes sense to run multiple functions instead of one. If not, is it better to create a function that creates multiple classes instead and then do executor.map on that function?",True
+@nathaniverson,2019-09-17T13:52:16Z,0,Can the threadPoolExecutor be reused or do you have to instantiate another threadPoolExecutor to run another series of IO operatations?,True
+@foadsf,2019-09-16T20:07:04Z,0,please make tutorials for OpenCL too,True
+@paul1beck,2019-09-16T14:27:02Z,0,"This seems so easy, compared to all the async await items I've been reading, but I assume this wont work for pulling data from an API request?",True
+@spoonmanchen7631,2019-09-16T12:17:54Z,1,"You never let me down, My Instructor. Always looking forward to your next video.",True
+@parvazprint1009,2019-09-16T07:53:19Z,4,"nobody :  Corey Schafer : Hey there , hows it going everybody",True
+@kalpeshrawal7661,2019-09-16T07:27:52Z,0,hey i have a question like if i want to open a file in ms excel through python thn what i have to do is from os import system system('START EXCEL.EXE '+file_path) the above line of command open the file in excel how can i do the same for cmd to run a batch file i know i can use that batch file through python to call it and work but all i want to launch that batch file  in cmd console using python like i said above for excel file,True
+@pranayb4115,2019-09-16T07:10:38Z,0,"Clear & concise explanation on I/O vs CPU bound tasks. Looking forward for a video series on ""asyncio"" library.",True
+@xavielmejia2732,2019-09-16T03:36:33Z,1,"Python is such a beautiful language, is more obvious when someone explain it like this, thanks for share your knowledge!",True
+@N00byEdge,2019-09-15T23:58:48Z,0,"The reason python threads slow down when doing CPU bound tasks is not because of the overhead of creating and taering down threads. It is actually just fine if you call a computation heavy native library.  The actual reason it slows down is because you’re usually stuck in Python land where all threads share one lock, the GIL (global interpreter lock). This is released when you’re doing sleep, I/O as seen in this video but also applies to other things. So you can only have one thread doing Python at a time, but many others doing system calls or running native code at the same time. If you ever write a python native library, you know the importance of releasing the GIL before entering your native code.",True
+@jbond5834,2019-09-15T17:47:01Z,1,great video， thank u very much!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!,True
+@aryanvikash1967,2019-09-15T13:33:09Z,0,"Can u create a video on async , await",True
+@ZEDAWMN,2019-09-15T12:57:53Z,0,Thanks! I think also it will be good to make a video with a comparison between threads and asyncio in Python,True
+@pushpajitbiswas3752,2019-09-15T08:24:20Z,0,when your next video will come? we are waiting.....,True
+@brotherlui5956,2019-09-15T06:58:36Z,1,"Great explanation, thx.",True
+@akiratoriyama1320,2019-09-15T03:22:11Z,1,Super video! Thank you very much kind Sir!,True
+@rohan352,2019-09-14T17:25:25Z,0,how is it different from aysnc functions?,True
+@simonmaracine4721,2019-09-14T17:10:02Z,0,"Please make a video about *asyncio*, because it's now preferred over threading and because it's newer.",True
+@derrick7968,2019-09-14T14:42:43Z,1,"Corey your the best, love your simplicity and cool examples. I use python for QA automation . Much appreciation from this side of the globe - Kenya.",True
+@SlaineCZE,2019-09-14T13:29:06Z,8,"Brilliant explanation (as always). Thank you, Corey. It would be great if you did the more advanced threading/multiprocessing (GIL etc.) video that you suggested.",True
+@paulh4654,2019-09-14T12:23:42Z,34,"You are not only the master of this subject matter, but also you are a great communicator who can articulate artfully.   I appreciate your time and effort to share your gift with all of us.   Thank you so much.",True
+@hemanthkotagiri8865,2019-09-14T10:21:35Z,1,I really want to see you personally. At least post a video answering some questions about you.! I really love your tutorials!,True
+@pa3k666,2019-09-13T23:16:52Z,0,Hey great tutorial as usual!! Maybe do sockets next??,True
+@Hamza-theawsome,2019-09-13T19:49:13Z,1,great!  can you please do a video on GeoDjango?,True
+@TheCodebookInc,2019-09-13T19:39:50Z,0,Hey Corey I m looking for video editing module in flask rest api,True
+@AndreasKater,2019-09-13T18:52:03Z,0,Excellent explanation with great examples. Thank you very much!,True
+@madhu_devara,2019-09-13T18:22:37Z,0,then what is run method in threading.Thread....?,True
+@austinhoag5130,2019-09-13T14:42:03Z,0,"Excellent video and explanation. For the images download example, you might not notice much of an increase in speed on a computer with few cores, such as a macbook air with 2 cores.",True
+@karanparekh2329,2019-09-13T14:16:01Z,4,"""If anyone is interested"" ??? Dude everyone is interested!! At this point, I just follow your tutorials even if I don't need them",True
+@Superdooperhero,2019-09-13T11:30:37Z,0,Thanks for the cool video. Would be nice to know how to only use 3 out of your 8 cores and which libraries are not able to work in a threaded manner.,True
+@koodauskanava9096,2019-09-13T11:04:22Z,1,This is pure gold. Thanks a lot. Really clear and useful  tutorial.,True
+@deepakk8758,2019-09-13T10:21:52Z,1,Thanks a lot Sir,True
+@isaacfink123,2019-09-13T07:55:01Z,2,"I have watched almost all of your python videos, and I've been waiting for something like that for a very long time, Thanks corey",True
+@aggieaggie3946,2019-09-13T07:07:32Z,0,but corey what about adding comments to the blog so that a person can comment on a post,True
+@pushpajitbiswas3752,2019-09-13T06:58:26Z,2,"Oh my god what an explanation! You make it so clearly with the example, you're awesome man😍😍",True
+@mylesmontclair,2019-09-13T06:38:31Z,0,I thought you were supposed to be using VS Code from here on out! What happened?!,True
+@shivan9177,2019-09-13T06:24:12Z,3,"Excellent knowledge transfer, Thank you, Requesting you to do videos on Docker & Kubernates.",True
+@sou100mit,2019-09-13T05:21:37Z,0,Hmmmmm....I am sensing some DDOS attack code somewhere in that last example.,True
+@dataaholic,2019-09-13T05:03:57Z,1,"Hey Corey,  Amazing video as always. Please make videos on docker.",True
+@dano2169,2019-09-13T05:03:17Z,2,Literally so many videos out there on threading and multiprocessing but by far this is the best. Thanks Corey!,True
+@omnikaquarius4314,2019-09-13T03:29:24Z,0,"Strangely, it doesn't write to the files, not sure why. Maybe Write error? Because the Print() inside the function never gets called",True
+@mjk2374,2019-09-13T00:51:44Z,1,Great video.,True
+@traxiduswolf4454,2019-09-13T00:32:38Z,4,"I kinda love you for this (and your channel) ... I wrote this before seen the video, I know i will not be dissapointed ❤",True
+@andip3domi702,2019-09-12T23:41:56Z,0,"Hi, love your videos! But if I may one question any differences between asyncio and this?",True
+@dmbrv,2019-09-12T23:35:37Z,1,amazing video. I wanted to save it for later but I couldn't stop watching :),True
+@pixelPlex,2019-09-12T23:10:04Z,0,"In addition to threads there are Coroutines which are similar to threads but are light weight, not dependent on a OS (scheduling is managed at the application/library level), and work in environments where multi-threading isn't supported (eg web browser with the JS platform). Python doesn't support the use of Coroutines directly like many other languages do (eg Kotlin - https://kotlinlang.org/docs/reference/coroutines-overview.html ; https://youtu.be/_hfBv0a09Jc ; https://youtu.be/a3agLJQ6vt8 ; https://youtu.be/hQrFfwT1IMo ), but Coroutines can be accessed indirectly via a library that uses a high level concurrency model (eg async/await via AsyncIO - https://docs.python.org/3/library/asyncio.html ).",True
+@ajitsamudrala1611,2019-09-12T21:57:43Z,0,Pretty Good. You can also use my article here https://medium.com/@samudralaajit/asyncio-threading-and-multiprocessing-in-python-4f5ff6ca75e8 as additional resource that also talks about asyncio,True
+@stanislavkotzev4157,2019-09-12T21:22:46Z,2,"Do a video on changing variables in for loop, please I am sure it will help many people I didn't even know it was working as it is till recently",True
+@preyasprathap,2019-09-12T21:16:41Z,1,Really great,True
+@manoellopes,2019-09-12T21:03:29Z,1,"Corey, how are you my friend? I've been watching your videos and they are amazing, thanks for that content. I would like to suggest, if is that possible for you to record a video showing us how to use Google Calendar API with python. Thanks again :)",True
+@pavelkonovalov8931,2019-09-12T20:32:26Z,2,"You're doing a godly job! Plz continue with this series. It also would he amazing if you show how to parallelise pandas  dataframe transformations , construct new data frames in a sequential manner ,etc.  Thank you once again",True
+@matthewson8917,2019-09-12T20:22:43Z,1,It's awesome that teacher Corey covered what I've been curious about...:),True
+@mohamedheiba1292,2019-09-12T19:59:10Z,1,Very good and informative video,True
+@darrienhuntley9134,2019-09-12T19:52:09Z,0,"Hey man love the channel, have trouble making a voice command/ Jarvis from iron man, I keep getting a "" Uh oh! Couldn't request results from Google Speech Recognition service; recognition request failed: Bad Request "" - the code wont pick up my vocie no matter what i do. can you please help!?",True
+@morganfree100,2019-09-12T19:33:41Z,0,"Hey corey,hoped you would cover join,daemon,locks etc",True
+@BoukariYameogo,2019-09-12T19:31:07Z,1,How come some people could dislike your videos? I really don't understand it.  You're doing a great job for real. Thank you for your videos,True
+@klintkrossa6885,2019-09-12T19:17:16Z,0,Would threading work with a fifo?,True
+@lukaloncar7131,2019-09-12T18:55:04Z,0,"When would we want to use Python Threading? Could someone tell me one scenario, I would be thankful. :)",True
+@aleksandrkazakov3104,2019-09-12T18:48:31Z,0,In most cases we have to work with thousands of threads. And if we will work with them this way - we’ll get full memory error. For 20 images your code will work. Start it now with 20000 images.,True
+@headlikeahole6548,2019-09-12T18:48:00Z,1,GOAT channel,True
+@e-maxwell,2019-09-12T17:56:24Z,4,Please also make a series on data structures and algorithms using Python.,True
+@Oladexpress,2019-09-12T17:46:03Z,0,Or examples of applications that use it and we can deside if we went to learn it,True
+@Oladexpress,2019-09-12T17:43:47Z,0,Where is that applicable in real life,True
+@greob,2019-09-12T17:24:30Z,1,"Probably should have mentioned that it's good practice to limit the number of requests done to a website, to avoid doing a denial of service.  Also... can't wait for more videos on async! :P",True
+@delphi5,2019-09-12T16:50:24Z,0,"Hello,I need to understand asyncio coroutines methods",True
+@pythonhd4169,2019-09-12T16:27:26Z,1,"Wow great introduction, and actually more than an introduction. I am planning (and really should get around to do that) to adapt my DIY logger that I am developing in my latest videos to work in multi-threaded and multi-processing programs.",True
+@terryhenyo9216,2019-09-12T16:26:51Z,60,"When I see a Corey Schafer video I automatically like before watching, because I know it's going to be good :)",True
+@user-yc9td4wb2c,2019-09-12T16:25:03Z,2,Great video! just an fyi for all the new programmers like myself.. don't give your file a name of 'threading.py' since it will mask the threading module that you actually want to import.. thanks for the videos corey!,True
+@fatihduzenli5893,2019-09-12T16:12:28Z,1,"Thanks a lot ! Great content, great explanation.",True
+@jobandeepsingh1929,2019-09-12T15:58:35Z,3,please make a video for making sublime text interactive like ipython,True
+@francisfetalvero6856,2019-09-12T15:54:34Z,1,niiiiiccceee thank you Corey 😃,True
+@sriotti,2019-09-12T15:37:36Z,1,Docker Series Please!,True
+@sainco3036,2019-09-12T15:31:58Z,1,thanks.,True
+@leondaz7380,2019-09-12T15:25:44Z,3,"I watched the AD till the end and clicked on it, Thanks man",True
+@mehdibouss4551,2019-09-12T15:10:59Z,8,"happy hear from u again,.The Mathplot videos were awesome.i saw also all the other videos.Keep going ,U got the juice of python man ! wating for more about data science...",True
+@smithatubeme,2019-09-12T15:06:03Z,35,Thanks Corey! Can you please also do a tutorial on dockers?,True
+@RAHUL-uc3cy,2019-09-12T15:04:18Z,6,"Hey Corey,  metaprogramming in python can you please make a series ???",True
+@bishalgautam3874,2019-09-12T15:02:56Z,2,You are a great tutor! Thanks for uploading the videos.,True
+@dh00mketu,2019-09-12T15:00:07Z,1,can we have some pyCUDA videos please?,True
+@ahmedabdulrahman8567,2019-09-12T14:59:40Z,4,your fan from Sudan ... thanks for making such unique content,True
+@coreyms,2019-09-12T14:58:53Z,394,"Hey everybody! I hope you find this video helpful. I'll be releasing the multiprocessing video next week. I am currently packing up my temporary recording station and will be moving into my new place tomorrow, so I should be able to get it recorded, edited, and released next week for sure. We'll be covering how to use multiprocessing to process the high-resolution images we downloaded in this video. Hope you all get some good use out of these topics!",True
+@umaraftab6073,2019-09-12T14:55:15Z,1,"First liked, then watched. Thanks Corey",True
+@fredpaik1349,2019-09-12T14:48:39Z,7,Thank you Corey for ALL your videos! You are an inspiration and a great teacher. Keep up the good work!,True
+@parsafakhar,2019-09-12T14:46:38Z,0,"how to add fields to LoginViews in Django? you didn't explain it in your Django Tutorial, also please do a video on how to do infinite scroll with Django",True
+@chazyua,2019-09-12T14:46:25Z,8,OMG. This is not the first time you read my mind.  Literally just wanted to find some threading topics !  Wow ! Thanks,True
+@gamingwithpawan9455,2019-09-12T14:41:35Z,228,Can we have this man rewrite the official docs of python ? Love from India♥,True
+@muthuhari8875,2019-09-12T14:39:27Z,0,@corey can we expect asyncio in this series?,True
+@guilhermehx7159,2019-09-12T14:36:50Z,1,Good Corey ☺️,True
+@vbrao,2019-09-12T14:35:59Z,0,Please create multiprocess toi,True
+@yajantbhawsar2481,2019-09-12T14:35:41Z,0,"Hello corey, could you please make a video on, ""Integrating Google calendar"" in python Django, and creating the events on it. Their are not much resources or tutorials available for it. We will be so glad to have one from you. Thanks in advance.",True
+@andrewluo6088,2019-09-12T14:34:24Z,1,hi from china,True
+@kapilmathur87,2019-09-12T14:34:20Z,0,I cant wait for the whole series to come @corey,True
+@dipankarkaushik5285,2019-09-12T14:33:43Z,11,Please make videos on Machine Learning too. Eagerly waiting to learn from you.,True
+@dipankarkaushik5285,2019-09-12T14:33:04Z,375,Was waiting for this topic to learn from the world's best Python Mentor. Now the wait is over. God bless you.,True
+@KC-rl8ub,2019-09-12T14:32:53Z,0,Hi Corey,True

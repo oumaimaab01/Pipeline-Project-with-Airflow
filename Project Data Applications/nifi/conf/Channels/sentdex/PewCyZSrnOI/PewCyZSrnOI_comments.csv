@@ -1,0 +1,39 @@
+author,updated_at,like_count,text,public
+@abhitruechamp,2022-02-13T10:18:46Z,0,"for the purpose mentioned in this tutorial(finding the lock combination) using a function was better. The result of:   print(timeit.timeit(''' CORRECT_COMBO =(8,4,5) def combo_gen():     for c1 in range(10):         for c2 in range(10):              for c3 in range(10):                 if (c1,c2,c3) == CORRECT_COMBO:                     return (c1,c2,c3) c1,c2,c3 = combo_gen() f'Found the combo: {c1,c2,c3}' ''', number=50)) print(timeit.timeit('''CORRECT_COMBO =(8,4,5) def combo_gen():     for c1 in range(10):         for c2 in range(10):              for c3 in range(10):                 yield (c1,c2,c3)  for (c1, c2, c3) in combo_gen():     if (c1,c2,c3) == CORRECT_COMBO:         f'Found the combo: {c1,c2,c3}'         break''', number=50)) Was:  0.004245058000378776  0.02919233200373128",True
+@woddenhorse,2021-06-08T06:42:09Z,0,Thanks for tutorials!!🔥🔥 Btw how to get that typing speed 💪,True
+@RS-el7iu,2021-02-07T12:31:32Z,0,👍 thanksss,True
+@mcan543,2020-04-21T00:21:27Z,0,"7:58 This is one of the #KeyTakeAways from this video > Using generators, for breaking all nested loops at once. Nice.",True
+@sonny8595,2019-09-22T10:25:31Z,0,"I wanted to see how long both operations took, but generators are slower in this case:  CORRECT_COMBO = (265, 412, 37)  #while loop example t1 = time.time() found_combo = False  for c1 in range(500):     if found_combo:         break     for c2 in range(500):         if found_combo:             break         for c3 in range(500):             if (c1, c2, c3) == CORRECT_COMBO:                 print(f""found combination: {(c1, c2, c3)}"")                 found_combo = True                 break                 print(c1, c2, c3) t2 = time.time()  print(f""in {(t2-t1)*1000} milliseconds"")  #generator example t1 = time.time() def combo_gen():     for c1 in range(500):         for c2 in range(500):             for c3 in range(500):                 yield(c1, c2, c3)  for (c1, c2, c3) in combo_gen():     if (c1, c2, c3) == CORRECT_COMBO:         print(f""found combination: {(c1, c2, c3)}"")         break t2 = time.time()  print(f""in {(t2-t1)*1000} milliseconds"")",True
+@bradleywelch83able,2019-05-01T20:27:21Z,0,Were going to be talking about Moron generators?!  Wait.. I'm a moron.,True
+@jameslovering9158,2019-02-14T03:55:09Z,0,"Thanks very well done, I was always unsure how the yield worked but this really shows it well. :-)",True
+@TheChodex,2018-12-17T22:24:57Z,0,"Ooooh so this is same thing as 'yield' in C#!  Now i get it!  Man Python, JavaScript and C# are really similar in some things!",True
+@avy0010,2018-12-12T18:28:00Z,0,What's the speed of your typing ?  Great video and Example ty,True
+@user-gd8td9kg3i,2018-06-02T09:39:42Z,4,Can someone please explain the yield keyword?,True
+@v.kalyaneswar9696,2018-04-04T07:29:44Z,0,what is yield?,True
+@GodsNode,2017-09-05T09:09:31Z,1,1:50 == https://youtu.be/XkqVc9PP1fc?t=5s,True
+@technicalilm8999,2017-07-23T17:56:04Z,0,what do we do if we want to know the position of the combination ?,True
+@Lowzenza4,2017-07-05T01:05:39Z,0,What...why is found_combo = False???? Shouldn't it be true and then break when it is true???,True
+@srisu8946,2017-07-04T19:29:42Z,0,what is the shortcut you use for multiline comments? and do you think it would work on a windows os?,True
+@Jelle_NL,2016-12-27T10:55:22Z,0,I changed the for-loop a bit:  for combo in combo_gen():     if combo == correct_combo:         print combo         break,True
+@nameless88812,2016-12-17T17:35:24Z,3,"Instead of multiple 'break', why not just use the return keyword to exit out of the function?",True
+@nikhilraghava,2016-12-13T10:02:03Z,0,"combo = (3, 7, 2)  def combo_gen():     for c1 in range(10):         for c2 in range(10):             for c3 in range(10):                 yield (c1, c2, c3)  [print(""Combo: {}"".format((c1,c2,c3))) for (c1, c2, c3) in combo_gen() if (c1, c2, c3) == combo]  Is this advisable to do?",True
+@neoXXquick,2016-11-23T15:46:02Z,0,what is you would use return instead of yield?,True
+@olehdiatlenko4463,2016-11-21T18:02:02Z,0,great video for understanding what is going on inside the generators. thanks a lot!,True
+@happydays3300,2016-11-16T01:04:41Z,0,"This for the person who ask me to put that code into a Function :))  def find_combo(combo):       c1 = 0       c2 = 0       c3 = 0       while True:             if c2 == 9:c1 +=1             if c2 == 9:c2 = 0             if c3 == 9:c2 +=1             if c3 == 9:c3 =0             if (c1,c2,c3) == combo:break             c3+=1       return (c1,c2,c3)  combo = (3,6,1) combo_found = find_combo(combo) print 'Here is your password:',combo_found,' BOOOOOM!!!'",True
+@happydays3300,2016-11-16T00:42:44Z,0,"ONE BREAK CODE!!  combo = (3,6,1) c1 = 0 c2 = 0 c3 = 0 while True:       if c2 == 9:c1 +=1       if c2 == 9:c2 = 0       if c3 == 9:c2 +=1       if c3 == 9:c3 =0       if (c1,c2,c3) == (3,6,1):break       c3+=1       print c1,c2,c3  print ' === BOOM!!! ====='",True
+@ichigoboy86,2016-11-14T15:46:05Z,8,I think it's worth to mention that with generators you can manage endless lists like generating all the primes until you find the one that fits your criteria and you don't have to store everything in memory and you can terminate whichever point you want. It is similar to functional programing,True
+@prameshshakya9810,2016-11-14T14:13:48Z,2,+sentdex Could you include tutorials on Unit Testing on Python as well? Great tutorials. Cheers all the way from Nepal!,True
+@asadullahfarooqi254,2016-11-14T04:43:03Z,0,which camera do you use??,True
+@tor-haakongjone4584,2016-11-13T16:38:19Z,14,"for i in range(10**3):     if (i%10, (i/10)%10, (i/10**2)%10) == combo:         print('found combo')         break",True
+@finfan7,2016-11-13T10:43:20Z,2,I'd have liked to see you go into the actual difference between return and yield.  They are very similar and understanding the difference is important for understanding the difference between generators and functions.,True
+@tasoulman,2016-11-12T15:57:06Z,0,"I think the example you used is not the best. For example my implementation for the combination finder would be:  --------------------------------------------------- combo = (3,6,1)  def find_combo():     c = """"     for i in range(len(combo)):         for j in range(10):             if j == combo[i]:                 c+=str(j)                 break             print i, j     print c  find_combo() ---------------------------------------------------  which stops after the break.",True
+@Bircalences,2016-11-12T15:29:32Z,0,"Thanks a lot for this Intermediate Python series! There are umpteen series about basics, but after that the learning comes hard. You can explain even the more complex things in easy understandable way.",True
+@sportacus509,2016-11-12T12:28:31Z,0,Will you do a tutorial on decerators in this series?,True
+@myonlynick,2016-11-12T00:47:33Z,0,i hope you are going to dig very deep into the python and/or  most useful data structures and algos  using python :P,True
+@ashishira6095,2016-11-11T22:41:18Z,0,it's hard to see due to small font. can you please make it bigger!!!,True
+@aikimark1955,2016-11-11T15:10:04Z,2,I'm fond of itertools combinations,True
+@pacrii,2016-11-11T14:49:09Z,1,Oh you implemented a generator function.  Can you implement the equivalent generator class now for comparison?  One that implements the iterator protocol.  And maybe differentiate between iterators and iterables?  Thx.,True
+@kevyo897,2016-11-11T14:42:20Z,0,"Great Video.  You have alot of experience, is it possible that you review the modules that you use the most ?",True
+@pacrii,2016-11-11T14:38:37Z,0,"next(i for i in range(3, 4))",True
+@lanvukusic,2016-11-11T14:37:07Z,1,i apologise but am i the only one with no sound? best regards,True
+@deyanemo,2016-11-11T14:36:32Z,1,awesome thanks man :),True

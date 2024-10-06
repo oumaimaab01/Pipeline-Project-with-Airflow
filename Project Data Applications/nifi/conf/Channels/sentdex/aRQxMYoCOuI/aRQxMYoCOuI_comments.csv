@@ -1,0 +1,22 @@
+author,updated_at,like_count,text,public
+@ashishthaakur45,2020-05-26T06:10:13Z,0,sir i am facing a problem in this and can't handle it so please help me sir -- ValueError: could not convert string to float: '2017-07-26',True
+@shubhankartripathi4840,2020-05-15T14:58:46Z,0,Hey sir you forget to get one line after unpack='true' in sample code in your site please just add converter={0 :bytespdate2num('%Y%m%d')},True
+@janakkapuriya4938,2020-04-24T12:35:26Z,0,i cant plotting graph using your given stock_price_url.   i get this eroor ->>  ValueError: time data '<html>' does not match format '%Y%m%d',True
+@hannahtang5018,2019-08-06T18:58:37Z,0,Can someone please explain what the function of np.vectorize is???,True
+@nv.paraboy6930,2019-03-11T16:53:32Z,0,There is string to floating  conversion error,True
+@stermister123,2019-01-26T01:43:59Z,0,np.vectorize()? What does that do? [off to the search engine] Update: https://docs.scipy.org/doc/numpy/reference/generated/numpy.vectorize.html,True
+@msduff100,2018-11-21T03:56:37Z,0,"Thanks for the video, I'm hoping we'll get to having time (hh:mm) on the x-axis?",True
+@mozarter86,2018-07-31T20:22:16Z,1,"Hi, because the date format in the new url is something like ""2018-1-1"". Use numpy.loadtxt() to read the data will show error that:   ValueError: could not convert string to float: '2018-1-1'  Obviously '2018-1-1' could not convert to float cause it is not a number. So how to handle this problem? Convert it to '20180101'? How to do it?",True
+@markd964,2018-07-21T20:03:23Z,4,is there a unixtime datafile to use with this tutorial?,True
+@kamilziemian995,2018-02-13T16:35:47Z,1,"This my by wrongheaded hairsplitting. I think this video title should be ""Matplotlib Tutorial 11 - Handling unix time"".",True
+@rahulraja3394,2018-02-07T06:38:46Z,2,I get an error when I remove converters on the same line,True
+@ebrimasowe6615,2017-10-02T08:13:36Z,0,"Good job, this is my first time taking python can you produce more of this series. que: i want you produce a special episode for me, importing data from excel like for performance analysis for monthly sales. thanks. am following 100%",True
+@ruslansmirnov9006,2017-08-17T10:14:44Z,0,"import smth.smth as smth... this shit is a gotcha of python because it does not have one file - one class package structure like java, but it is not stated directly in official docs, and many std modules don't even have classes inside but only defs.",True
+@pier-oliviermarquis3006,2017-08-01T23:05:59Z,21,Why can't Matplotlib just use python Datetime? These endless types of date are so annoying.,True
+@kas130771,2017-03-12T04:43:25Z,0,"Extra credit! I unpacked the values just like you did, and removed the converter just like you did. Then I used np to convert the existing timestamp numpy array to datetime64. Then called tolist() to turn timestamp into a list of datetime.datetimes.  For more info: https://stackoverflow.com/questions/31339046/python-numpy-loadtxt-convert-unix-timestamp",True
+@kas130771,2017-03-12T02:38:20Z,1,wow it's gotten a lot more quieter in the comment section since the earlier videos. the pack has thinned out!,True
+@marcusfallen5315,2016-08-09T18:30:38Z,0,"Hmm, this is the conversion in Python, but how can i get a time axis in matplotlib? I can plot the horrible Unix time but not  12:08:22 for example. I tried 3 different Tutorials - none works.",True
+@tripodmaster468,2016-07-05T01:32:47Z,0,"Love the videos.  Just have one question.  I have a timestamp column in my csv file formatted (Wed Jun 22 20:00:01 EDT 2016).  I want to use this for the x-axis.  Would it be best to convert this to a more standard datetime (2016-06-22 20:00:01) or unix/epoch time (1466640001)?  Looking at the date2num and num2date just not sure which would be easiest to do.  BTW - My plots are using np.loadtxt to get the x, y data from the csv file.",True
+@akiriisio8558,2016-03-18T18:23:22Z,0,"Brilliant. I simply love your tutorials. However, I'm still wondering what is the chartapi all about? I have no idea how you can display the data in such way that it is so easy to handle... Could you point me to a right direction?",True
+@tianfangliu8409,2016-01-18T13:08:53Z,0,nice video! There's a problem for me that I cant open this link. could you tell me what i need to do before i want to open this api?,True
+@GurnBograt1986,2015-12-29T00:29:25Z,0,Awesome stuff. thank you for putting this out here!,True

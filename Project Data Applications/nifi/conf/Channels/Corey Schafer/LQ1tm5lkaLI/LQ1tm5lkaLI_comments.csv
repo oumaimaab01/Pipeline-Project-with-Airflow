@@ -1,0 +1,14 @@
+author,updated_at,like_count,text,public
+@smithiness,2024-04-30T22:39:34Z,0,‘keyring’ is another library that can be used if you don’t want those values in text files.,True
+@tobenary,2024-04-21T20:26:32Z,0,"Thanks for sharing. I'm using the find_dotenv() as well to avoid errors  from dotenv import load_dotenv, find_dotenv load_dotenv(find_dotenv())",True
+@bowenwang,2024-04-20T08:55:07Z,0,👍👍👍👍👍,True
+@tacozmacleo,2024-04-20T07:33:59Z,0,There is also the build-in Library called netrc.,True
+@TheFarFey,2024-04-18T15:21:11Z,1,"While this archieves a seperation of code and secrets, it is no more secure than a simple plaintext file. Any secrets should always be stored encryped at rest.",True
+@kubasmide223,2024-04-18T11:00:06Z,1,"Thanks Corey. I have an issue most times,when I’m building a with openai api key it doesn’t use the api key in my .env file but uses the one In my system environment which I deleted. Do you know how I can fix this?",True
+@janosmarton7895,2024-04-18T08:14:02Z,8,Welcome back!!!! We missed you. I hope you are keeping up!,True
+@aabb9887,2024-04-18T08:05:13Z,1,"Im gonna need more content! Corey, more content! ❤",True
+@LongBeachRunner,2024-04-18T04:19:19Z,1,"This is fine for wireframe work, or poc work. However in production you’d want to call something like aws param store for your secrets.",True
+@1986pinak,2024-04-18T01:31:19Z,1,It surely is nice and easy. I am new to this and want to know how other programmers will get those sensitive details since it is not pushed to repo. Or how will it work in production?,True
+@sandeepyadav1478,2024-04-18T01:22:03Z,0,"Bro, u restarted!! Well Congratulations👏",True
+@Nxck2440,2024-04-18T01:20:25Z,5,why not just use a regular text or json file? why use a whole dedicated library?,True
+@tomwozne,2024-04-18T01:12:06Z,0,"Why not just create a class/variables .py file with your sensitive information then import it to your code base, then simply add that file to .gitignore",True

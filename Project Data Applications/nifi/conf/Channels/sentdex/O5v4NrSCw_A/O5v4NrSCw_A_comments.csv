@@ -1,0 +1,13 @@
+author,updated_at,like_count,text,public
+@nathanfisher8792,2019-03-21T16:48:23Z,0,.info()  provides non null values counts + dtype,True
+@TheHoinoel,2018-12-04T17:53:51Z,0,i liked the broom analogy,True
+@Ahmed.Shaikh,2018-10-18T13:57:58Z,0,nice analogy,True
+@joshuaronisjr,2018-05-28T14:51:54Z,0,"Hi sentdex, I love your videos, thanks so much for making them. For some reason when I do   data = data.dropna()  it doesn't work, because it says that:  local variable 'data' referenced before assignment  however when I do  data.dropna(inplace = True)  Then it DOES work  ...? Thank you!",True
+@ryandavies4894,2018-01-03T14:45:06Z,0,"I had a problem where .dropna() was not working so I replaced it with the code below  HPI_data.replace([""NaN"", 'NaT'], np.nan, inplace = True) HPI_data = HPI_data.dropna()",True
+@patrickmullan8356,2017-08-04T11:29:15Z,0,"Is there no interpolation method for fillna()? Like, in simplest case, fill with (weighted) averaged values from last to next present datapoint. Or even more sophisticated ones like cubic-interpolation or splines...",True
+@ameerracle,2017-06-15T20:39:00Z,2,I just copied from the text on website and get AssertionError: Shape of new values must be compatible with manager shape. Googling it doesn't give me much more help? Anyone else get that? Must be an error from updates on quandl or pandas.,True
+@sreeragraghunathan5573,2017-04-21T20:54:56Z,7,"Please add other imputation techniques, like stochastic, EM or multiple regression imputation.",True
+@MatthewTaylorAu,2016-11-22T11:52:21Z,1,Thanks for posting this.   Was looking at imputation methods.  My current problem is anomaly detection on a data set with low anomaly count and large volume of nulls.,True
+@Darthdeedee91,2016-08-26T02:34:28Z,0,so basically this resampling feature only works on indexes where it is a time value? In this case it is a month? or does A really mean the last 12 pieces of info,True
+@HarshSethia,2016-02-14T10:35:44Z,0,"Thanks for the video. Can fillna take in a function. Also, how can I selectively fill the rows using an argument. For example if in the Titanic dataset I want to fill the NA values based on the mean of their name title ""Mr, Mrs, Miss, Master"" ?",True
+@redstoneisawesome9336,2015-10-14T20:29:18Z,0,nice vid (:,True

@@ -1,0 +1,378 @@
+author,updated_at,like_count,text,public
+@statquest,2019-12-20T09:49:18Z,27,"NOTE: Gradient boost uses Regression Trees, which are explained in this StatQuest: https://youtu.be/g9c66TUylZ4   Corrections: 4:27 The sum on the left hand side should be in parentheses to make it clear that the entire sum is multiplied by 1/2, not just the first term. 15:47. It should be R_jm, not R_ij.  16:18, the leaf in the script is R_1,2 and it should be R_2,1. 21:08. With regression trees, the sample will only go to a single leaf, and this summation simply isolates the one output value of interest from all of the others. However, when I first made this video I was thinking that because Gradient Boost is supposed to work with any ""weak learner"", not just small regression trees, that this summation was a way to add flexibility to the algorithm. 24:15, the header for the residual column should be r_i,2.  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@faridfouad9638,2024-05-28T23:12:28Z,1,"I have to say, thank you so much, infinite BAM!!",True
+@khalidriaz1726,2024-05-12T16:29:23Z,0,"The videos are over-animated.  You need to see at all times a reasonable chunk of the expression or picture you are talking about. Often, the animation forces the field of view to narrow to only the part the video creator thinks you need to see. This does not help comprehension at all.  It would have been best to keep the animation simple, show a reasonable chunk of what you are talking about, and use simple highlighting if you wanted to emphasize something.",True
+@AdityaSingh-yp9jn,2024-04-08T09:46:32Z,1,"Best BEST BESTESTTTTT  Lecture I have ever seen and heard. Literally, this is so engaging and maths seems so funny. I am from maths background and really loved the way of explanation. Bro HATS-OFF. Please continue making such content. Especially the core maths concept and its intuition are really missing now-a-days from a lot of explanations. KEEP it UP Man! Press 'F'",True
+@user-wm4ug6jy4s,2024-04-02T12:48:45Z,1,wow you tell it better than my university professor :),True
+@timo9madrid7,2024-03-29T15:05:24Z,0,how a single sample ends up in multiple leaves?,True
+@diadochokinetic3290,2024-03-24T13:53:14Z,1,Very good explanation.,True
+@user-jy2xp8ke5t,2024-03-18T22:56:07Z,0,does every new regression tree use the same root node ?,True
+@armandfavrot3210,2024-03-18T19:53:05Z,1,Triple Bam ! But still a question: how do you make the trees ?,True
+@kisome2423,2024-03-14T02:22:54Z,1,Thank you! I will always remember your biubiubiubiu and your teaching,True
+@katielui131,2024-03-12T01:49:47Z,1,This is so great - thank you so much for sharing this content with everyone,True
+@dungnintengtung8417,2024-03-11T15:33:08Z,2,bro this is the best explanation on Youtube. I love u man. You explain everything and make complex things so simple with simple word choice,True
+@SkyRiderJavelin,2024-03-11T00:55:53Z,1,excellent explanation !!!!!!!!!!!!!!!!!!!!,True
+@bindicapriqi,2024-03-01T17:52:41Z,0,"At 12:21 , aren't we already using the 1/2 Loss function? Shouldn't these be the actual residuals then?",True
+@aimenslamat1264,2024-02-16T03:46:54Z,3,"from Algeria, u are the best.. none can explain ML like you Master",True
+@trisa_halder,2024-01-27T08:06:21Z,1,"i'm so glad i found this channel, thankyou so much!",True
+@user-gq3uo8dl1l,2024-01-18T00:41:52Z,1,,True
+@manojtaleka954,2024-01-08T15:28:05Z,1,The best video tutorial for Gradient Boosting. Thank you very much.,True
+@sunaxes,2023-12-29T04:20:31Z,0,"I think around 16:00 the indices of the Terminal Region used for summation of gamma j,m should be j,m as well: we want all x_i going into R_j_m. Since i is the sample and index and j is the leaf index, R_i_j is wrong.",True
+@nehabalani7290,2023-12-24T06:52:46Z,1,"Hello Statquest, I am thoroughly enjoying your book on ML. However I am really keen to see a PDF version / book version of all the topics you have videos on - like this on GBM and the one on XGBOOST. Keep up the amazing work.",True
+@user-ff1zn6bs6m,2023-11-28T18:25:48Z,0,Great video ! You said that in practice the trees used in the different steps can be different. How are the  new trees choosed ?,True
+@honza8939,2023-11-04T07:45:46Z,1,"In schools that teach data science and other statistics, I would play your videos. Because I don't know a teacher who can explain it that simply.",True
+@user-lq3nw5jq4i,2023-10-23T15:24:55Z,0,"in step 2B i don t understand the sentence ""we fit a regression tree to the residuals"" How is this done in practice ? how is the structure of the tree defined ? here you just decide to split on height, but why ?",True
+@usurfnow,2023-10-12T18:01:02Z,0,"Thank you for this very well-though series on Gradient Boosting One important question regarding the sum in stage D... Is it correct to say that the sum in stage D, for a given specific x, will only include one of the terms. (hence on some single gamma_{j0m}). Put otherwise, the Rjm are defined only for leaves that are not splited anymore so that each sample can find itself only in one such leaf (and I guess this is why you call it ""terminal regions"")",True
+@jacobwalker6891,2023-10-03T10:18:18Z,1,"hey josh, i've been learning from a couple of books, mathematics for machine learning , intro to statistical learning and hands on machine learning, your explanations are the best i've come across, for further clarification, would you consider doing a mathematical breakdown of PCA and gaussian mixture models too? The breakdown of this and your breakdown of gradient descent for the gaussian distribution were the best i've come across, so thought i'd ask  p.s forget to mention, your statquest book is also in my collection aha  pps i've been looking at the amazing pca video you have too, i meant just something like this one which compares it to the numerical equations typically found in most books on pca just so i can put 2 and 2 together like this one :)",True
+@user-fi2vi9lo2c,2023-09-24T07:23:30Z,1,Special thanks for correction on 21:08. I was thinking about it and was preparing to ask a question how it was possible that one sample ended in multiple leaves. Now there is no need to ask this question :),True
+@binishbatool248,2023-09-18T12:08:11Z,0,23:22 step 2 completed 25:00 step started,True
+@user-ew8el1ic9h,2023-09-12T23:21:21Z,0,5:25 It's partial derivative right? 😂 throwback to 10 years ago omg,True
+@willw4096,2023-09-01T07:45:01Z,0,3:08 4:45 5:06 5:38 8:15 9:10 11:53 12:01 25:52,True
+@Shrikant_Anand,2023-08-18T11:49:33Z,0,"Thank you Josh, for such wonderful explaination on this seemingly difficult topic. I would like to point out that at 15:52 while finding gamma_jm shouldn't the summation be over x_i belonging to Rjm(terminal region or leaf node) because j was the index we used for leaf nodes in mth iteration? Also in 21:10 you mentioned that the summation is there for just in case a data point ended up in multiple leaves. Can you explain how could a data point end up in multiple leaves in a regression tree?",True
+@robertomontalti3064,2023-08-11T12:35:03Z,1,"Insane content and very well exaplained! I appreciated a lot your correction in the description for 21:08 ""With regression trees, the sample will only go to a single leaf, and this summation simply isolates the one output value of interest from all of the others. However, when I first made this video I was thinking that because Gradient Boost is supposed to work with any ""weak learner"", not just small regression trees, that this summation was a way to add flexibility to the algorithm."" . Thank you!",True
+@miladafrasiabi5499,2023-08-04T15:40:44Z,0,"@statquest Thanks for these awesome videos. I have one quick question. How does the GB algorithm decides on the structure of the trees that are being built on the pseudo-residuals (what feature to place at root, what features at nodes, etc). Is there a mechanism similar to simple decision trees and RF? I would greatly appreciate it if you elaborate on that a little bit.",True
+@siddheshshingate3457,2023-08-02T12:17:13Z,0,"Why did we take derivative of predicted ? i mean where did it emerged from, just because we said we need a differentiable Loss function we can take derivative anywhere ?",True
+@calewang3713,2023-07-31T20:42:05Z,2,I love you......,True
+@bon8131,2023-07-16T07:35:13Z,0,"hi i am just wondering how you make predictions on unseen data since you will not have the true values, so then that means you will not have the residuals to feed into the trees?",True
+@user-ny8qv9ze4d,2023-06-05T04:42:50Z,0,what is I in the last step of the formula?,True
+@samymostefai7644,2023-05-29T07:34:49Z,0,"hello, thank you for your very clear explanation, how do you choose which will be the root?  Is it based on the variable with the smallest residual value?",True
+@hanmi4735,2023-05-09T18:32:40Z,1,"Hi Josh, your videos are very clear and friendly for people who are freshmen in the field of ML. I have a question, in the example we had in the video, how did we find the value ""1.55"" (which is the value for the nodes to judge which leaf a sample should fall into)?",True
+@sampathkodi6052,2023-04-13T10:02:20Z,0,Only for m = 1 we need to calculate the residual by equating to zero after that for each m we have the values of previously predicted values to get the residuals,True
+@MugiwaraSuponji,2023-03-31T19:20:45Z,1,"man the way you sound like a preschool teacher is making me emotional, you really made the first trauma-free math class 👍🏻👍🏻👍🏻👍🏻👍🏻",True
+@gabrielcanuto3321,2023-03-31T00:01:21Z,1,nice reverb on the chain rule,True
+@markus_park,2023-03-22T07:41:22Z,1,"Please don't read this. This contains high levels of autism  It's just the same as making the Loss function get to the minimal value. To do that, we will need its graident. And like since every single thing is independent from each other, we can just take derivatives with respect to target in each row. So then it just means that by making this number of steps we will be reaching towards the minimum. And what do we need to do to reach the minimum? Well, we have to tweak the model. And to do that we just shove another decision tree which will correct all that crap that was produced by its predecessors. And like to do that (so to set a new decision tree, a weak learner), we gotta make sure its leaves deal with the gradients that we got (so residuals). And then we just compute the best values for each leaf using argmin. Those were the details. Holy crap! I just vomit some stuff to remember it and because I am shocked",True
+@markus_park,2023-03-22T07:37:32Z,2,THIS BLEW MY MIND!!!,True
+@neemo8089,2023-02-10T20:32:26Z,0,"Your video is always awesome! I have a question regarding how to figure out the proper feature for a node, in this example you used 'Height', in real scenario, we should also have another  'step' to find out the best node of each before step 2.B correct?",True
+@madghostek3026,2023-02-01T13:06:48Z,1,"The realisation that argmin for the initial static model turns out to be just the average is mega BAM for me, I noticed it was different than last video when first step was just to find the average, and here's some funky stuff instead, but it's just ""which point minimises the variance... the average!""",True
+@koshrai7080,2023-01-31T16:18:03Z,2,"It took some time but I think I was able to figure out how (or why) this works?  We basically just make a base prediction, and then compute a step (the pseudo-residual) in the direction of the actual value. Then we model these steps with a decision tree, and use that model to slowly improve upon our previous prediction, and just do this over and over.  Great Video. Very Intuitive.",True
+@kevinli522,2023-01-25T16:44:01Z,0,Hi thank you so much for the amazing contents. Could you please introduce genetic programming and it’s applications in data mining?,True
+@Masterthesis-mn5cz,2023-01-20T20:46:07Z,0,How can a single sample end up in multiple leaves?,True
+@arjundhar7729,2023-01-19T05:04:09Z,1,"Sweetest technical turorial ever ! BAM, Double BAM... haha But that doesnt take away from the excellent content and the nuances. thank you",True
+@marryrram,2023-01-12T13:04:52Z,1,Excellent way of explaining each and every step. Thank you very much,True
+@adarshtiwari7395,2023-01-02T19:12:34Z,3,This channel is a blessing to prospective machine learning engineers. I am tired after the entire video but a sense of pride towards my efforts a sense of gratitude towards you Joshua made this ride worth while!,True
+@edkaprost3623,2022-12-28T11:24:06Z,1,"after watching some of ur videos i understand why it is so simple to understand ypur material comparing it with with other sources. Most of them just gives the theory without examples, u show example and then theory (use of induction). I hope that next generetaion of statistics' lecturers will use your videos as state of art in teaching field",True
+@billr7046,2022-12-24T15:43:12Z,1,Josh Starmer 2024,True
+@k.y8274,2022-12-21T07:51:56Z,1,this youtube channel is god damn amazing.  cant find any other videos with that kind of clear explanation around the globe.,True
+@19neetish,2022-12-20T05:58:49Z,0,"How can we cite, if i use your work",True
+@trivandrummail948,2022-12-17T12:47:24Z,1,Such a master!! Thank you so much,True
+@kartikeyathe,2022-12-17T06:48:56Z,0,"Hi Josh! Thank you for the detailed explanation :)  At 21:08, you explained the summation is there in case *a sample ends up in multiple leaves*. How can this be possible? Since we're splitting the data at each node; shouldn't each data point be in a single leaf?",True
+@auzaluis,2022-12-06T18:34:46Z,1,beautiful explanation!,True
+@devran4169,2022-12-06T16:25:52Z,1,"statquest > my university machine learning courses TRIPLE BAMM!!",True
+@HuyLe-nn5ft,2022-11-13T16:55:54Z,19,"This explanation cannot be found anywhere else. You won't ever know how thankful i am, dude. Keep up the good work!",True
+@zeus1082,2022-11-13T14:25:53Z,0,"So instead of using average to predict, here we use gradients to predict the target. Is that correct?",True
+@zeus1082,2022-11-13T14:21:53Z,0,Do we compute initial predictions for each leaf if the depth of the tree is more than one,True
+@utube_int2075,2022-11-12T00:13:32Z,0,Thanks for the video. Can anyone tell how the root node is selected (Height<1.55).,True
+@Abderacman,2022-11-08T13:25:33Z,1,Man you are a monster,True
+@chinghoelee9031,2022-10-30T12:35:04Z,0,thanks for the video its very clear explanation. But How did Gradient boosting trees decide what trees to build after getting the residual and I think its missed out in the explanation. Thanks!,True
+@awadelrahman,2022-10-05T17:10:31Z,0,I thought that funky-looking symbol (Gamma) is the model parameter. We differentiate with respect to model parameters and not predicted  right?,True
+@ShMorHiatus,2022-10-03T04:06:31Z,1,boo-boo boo boo boo ... I've never heard such a great sound effect for the explanation of a general result in the probability theory.,True
+@AISynthetic,2022-09-23T08:26:01Z,0,by any chance can you provide us the ppt used in the video pls. it would be helpful,True
+@15Nero92,2022-09-15T05:46:57Z,1,"I was struggling with this, and  you are helping me a lot.  thankyou so much !",True
+@harinainyarpillai5496,2022-09-10T06:46:25Z,0,HI @Josh i have a doubt that in practical how do you chose BIG M,True
+@Cathy55Ms,2022-09-03T22:11:12Z,1,Bought the book that published recently! Hope we can have the GBM based topic in another book coming soon!,True
+@nsp7537,2022-08-29T13:08:57Z,0,but there are too many ads,True
+@nsp7537,2022-08-29T12:48:52Z,1,"excellent to see someone making a video of both the concepts, followed by the math concepts. Will subscribe for more of those",True
+@quandum,2022-08-27T06:31:49Z,1,Helped me a lot. Thank you.,True
+@fabio336ful,2022-08-13T12:17:23Z,1,You are the best! No more words needed.,True
+@preet111,2022-08-12T09:45:34Z,0,why is ri a pseudo residual in step 2? our loss function is 1/2 observed - predicted. The dervative which we get is  -(observed - predicted),True
+@zavadoyb1596,2022-08-12T08:51:13Z,2,I love your Poopipoo Pipoo voice.,True
+@venkateshmunagala205,2022-08-11T05:57:23Z,1,Wow u r genius . now I clearly understood the reason behind gammas .,True
+@bryanparis7779,2022-08-07T20:50:47Z,0,"What is the measure we use in splitting leaves in order to construct a new tree? Gini index? Information Gain?  For instance in XGBoost we have similarity score.",True
+@moindalvs,2022-07-20T17:03:47Z,1,"Your contribution for this channel is as same as the ""Favorite Color"" independent feature is to predicting the ""Weight"" of a person, if you haven't subscribed the channel yet and liked the video.",True
+@Mars7822,2022-07-08T06:27:07Z,1,Mindblowing lecture...,True
+@bryanparis7779,2022-07-05T05:12:05Z,0,20:15 since the output value of the leaf is the average of 2 residuals (with the specific Loss function) why are we trying to solve all this huge step with gamma? Maybe to be more general and this is the way that output values predicted due to any Loss functions?,True
+@bryanparis7779,2022-07-04T15:40:03Z,0,4:43 Υou did want to write 1/2(...-...+...)  not 1/2 multiplied only with the first terms... not a big deal . I guess a stupid mistake almost everyone notice. Excellent video as always! Thank you so much from the bottom of my heart!,True
+@tiago9617,2022-06-22T13:54:18Z,2,"You give me legs... And I run through the lands of Machine Learning",True
+@marvinbcn2,2022-06-21T18:45:22Z,0,"Thanks very much for this video, Josh. I have a technical doubt: when you build a tree to predict the residuals (min. 13.50), I guess that, as described in the 'regression trees' video, we should pick the threshold that gives us the minimum sum of square residuals (SSR). But, when dealing with residuals as a target, what is the predicted value (vs. observed value) we use to calculate the SSR of each threshold: the average of the residuals placed at each side of the threshold?",True
+@LolForFun422,2022-06-13T14:28:05Z,1,This is the greatest thing ever,True
+@silentsuicide4544,2022-06-09T06:42:28Z,1,"i love this, thank you! i find learning algorithm s through math the best way to understand them, but sometimes the math behind them looks awful, but the idea and calculations are simple, and this is what I needed to be honest. The same goes for other algorithms, i can take a ""math recipe"" and go through it with your explanation in the background, like i did with adaboost. Thank you!",True
+@artemtitov8657,2022-05-29T23:19:40Z,0,"in the original article, the parameter of weights is also optimized. why didn't you tell me about him?",True
+@jongcheulkim7284,2022-05-20T09:41:03Z,1,Thank you very much.,True
+@TheAvithal,2022-05-17T19:40:36Z,0,you are amazing !!  the math always scared me !!! cab you do a video about extreme gradient boosting,True
+@soumendas592,2022-05-11T17:59:07Z,3,"You are the best, when every shortcut to understanding ML algorithm fails, you come at last as our savior with all the necessary details.",True
+@shanemcdonaldryan,2022-05-09T18:11:57Z,1,"This is so very well done. However, I do feel like I'm watching Sesame Street for adults.",True
+@PMKB4,2022-05-08T13:16:21Z,1,Superb Explanation!!,True
+@_nikhilraghav,2022-05-01T12:50:19Z,0,"At 16:16 there is a typo R_1,2 in place of R_2,1",True
+@satviksrivastava6632,2022-04-28T08:41:00Z,0,"Brilliant video.  Whole concept understood.  But, when I saw gradient boosting algo on wikipedia, they have added (gamma hm_x) in step 2c, while you have used only hm_x. By adding gamma, they are adding weights to each model and again they are adding learning rate.  Could u please help in understanding this, why they took gamma, when we have Learning rate???",True
+@jamesgohigh26,2022-04-24T10:53:26Z,1,I like your triple BAML,True
+@veaceslavcalestru680,2022-04-19T18:43:10Z,1,God bless you Josh for your effort! Thank you!,True
+@soon1547,2022-04-11T14:17:05Z,0,"Thank you for this great video! How Innovative and rich! May I allowed to have question? The pseudo residual is quite difficult to understand for me. The (A) formula step2 (A) is slope of sum of sqaures(may be no unit). And at (D), it is added to the predicted weight with unit Kg.",True
+@christophermg1986,2022-03-31T12:30:05Z,1,I still dont understand how ppl learned all this before statquest was made.,True
+@kaicheng9766,2022-03-29T18:13:51Z,1,I don't think I have ever enjoyed this much for a math-intensive video. You are Godsend!,True
+@Sorararawr,2022-03-22T11:26:47Z,4,Probably the best explanation of this complex statistical method I have ever found in the entire semester. Thank you for all your hard work sir!!!,True
+@jjlian1670,2022-03-17T02:53:44Z,0,"Love your video, Josh. One question here, how do you determine the criteria for building up the trees? For example, how do you know you choose < 1.55 for a continous variable?",True
+@chekAva2,2022-03-15T16:15:32Z,0,"Using ""Mass"" instead of ""Weight"" would've helped...",True
+@rkotcher,2022-03-14T12:39:28Z,0,"So it is gradient descent because the leafs at each iteration have values that minimize the loss function, which is 1/2 * SSR. Is it true to say we're able to skip the whole gradient descent part (iteratively picking solutions and walking) because we somehow know the loss function is convex, and therefore will only have a single point where derivative is 0?",True
+@jokmenen_,2022-03-11T13:11:52Z,3,I keep getting amazed by how good your videos are! You are truly a blessing,True
+@AbhinavSingh-oq7dk,2022-02-19T16:52:36Z,0,"One question, when the equation you used, 1/2*(88- predicted) + 1/2*(76-predicted) + 1/2*(56 - Predicted), shouldn't the predicted value be different for all three observations? As in (88-Predicted1),(76- Predicted2) and (56-Predicted3). If this is the case wouldn't that defy the logic of getting the average?  Do correct if I am missing something.  Thanks.",True
+@deepranjan3474,2022-02-19T06:50:34Z,1,best explanation till now for me.,True
+@danielskraus,2022-02-17T19:26:49Z,0,"Dear Josh, I guess in 16:16 u wanted to write R_{2,1} instead of R_{1,2}.",True
+@laveenabachani,2022-02-06T18:22:38Z,1,The dataset is wisely chosen to be unbiased for male and female.,True
+@shilashm5691,2022-01-26T04:27:02Z,0,"In 15.04 , Rjm should be R12 and R22 ryt.. Bcoz it is second tree ryt, we already bulid a first tree which has a one leaf?",True
+@taochen746,2022-01-25T23:58:24Z,1,"Really appreciated your hard work, this is the best videos for stats and machine learning ever!",True
+@sandipansarkar9211,2022-01-16T17:42:14Z,1,finished watching,True
+@chesneymigl4538,2022-01-16T04:32:05Z,1,You are a god-send my friend.,True
+@LunaMarlowe327,2022-01-14T08:25:22Z,1,insane gd quailty video,True
+@YC-qy5lh,2022-01-06T08:01:00Z,0,why would one sample end up on multiple leaves?,True
+@hassanahamed7669,2022-01-04T20:03:41Z,0,"Hi Tahnks for brilliant explanation. I am actually struck at step 2.C in the above video, where we calculate gamma. if we see the wiki page of gradient boosting https://en.wikipedia.org/wiki/Gradient_boosting#Algorithm at step 2.3 we are multiplying gamma with hm(xi) over all the points in the data set.  how is hm(xi) calculated as per wiki page if we have more than one value at a leaf?",True
+@pankajbhatt8315,2021-12-20T15:44:17Z,1,Me after end of the lecture TRIPLE BAMMM!!,True
+@angels8050,2021-12-18T12:30:51Z,2,Best simplified and visual explanations I haver ever seen on algorithms. I am definitely recommending your channel to anyone who is getting started on ML or that needs some refreshing. Keep on with the awesome work!,True
+@sashankvemulapalli6238,2021-12-09T19:19:28Z,1,"Thank you for this beautiful video. One suggestion I would love to make is that, it felt like the initial explanation of why the residuals are called pseudo residuals was that to differentiate it from linear regression. However, the video goes on to explain that it is called pseudo residuals because the residuals are not always (Observed - Predicted) and can be a multiple of that as well depending upon the choice of the loss function. Maybe, the initial explanation could have been avoided in order to prevent confusion! Thanks as always, these videos are the best!! :D",True
+@hi-sz8kv,2021-12-09T18:27:18Z,0,"Thanks Josh for the wonderful explanation!  I have question for step 2(B), building regression tree based on result from step 2(A).  my question is : is there any rule to follow to build this regression tree?  for example how to decide the first variable and split value? in example at 14:20, the first tree has root Height<1.55. is there any enumerated activities and get this final decision? if there is what is it?   I also watched XGBoost and in order to build unique regression tree, I know system will calculate similarity value and decide unique regression tree. --it is clear.  Thanks!  Lucy",True
+@davidcho8877,2021-11-29T18:12:45Z,8,"I am studying with all the videos in Machine Learning playlist to prepare for my interviews. These videos are all awesome. But this one is especially more awesome. I majored in Statistics and occasionally study the papers to catch up on some recent ML skills. I always had a hard time understanding the steps of algorithms even though I also minored in Mathematics. I have never seen a professor who can teach steps of an algorithm this easy and clear. Thank you Josh for this amazing video. Would really appreciate it if you can make more videos about the fundamental details of ML techniques more (and if you have time, some interesting papers too)!   From. Biggest fan of StatQuest",True
+@hussaintanzim6958,2021-10-31T17:03:27Z,1,"The one word that describes all videos in this series is ""BAM!""",True
+@anusrivastava5373,2021-10-28T10:12:50Z,0,how the learning rate is calculated?,True
+@anuragshrivastava7855,2021-10-14T03:58:06Z,1,Most interesting part of this video is pronunciation of the chian rule,True
+@ruanjiayang,2021-10-12T13:03:58Z,0,I wonder why using quite a few trees to fit the residuals? what is the point? Why should we use gradient to fit residuals?,True
+@lucasle1021,2021-10-07T14:48:56Z,0,Hi thanks for your awesome video. Brings a lot of clarity to this otherwise complicated equations. I was hoping if you could explain how are the variables chosen for the split initially. Is it by the Adaboost way where the lowest gini index is selected?,True
+@bygrgra,2021-10-07T09:06:40Z,0,"In Step 2, part D, for the case where input samples end up in multiple terminal regions (the summation over j=1 to m), the sum rather than the average is taken.  Won't this inflate the prediction for this sample as we'd be double/triple etc. counting it.  If the weak learners are vanilla decision trees then I suppose this can never happen anyway, so there must be some other weak learner where this can happen, and in such circumstances, the pseudo-residuals are distributed over the terminal regions where the training instance ends up, so summing rather than averaging makes sense.  Do you have an example to illustrate?  Thanks.",True
+@gunjantoora863,2021-10-01T00:33:17Z,2,Can't thank god (and you) enough for these videos. All those textbook chapters with just formulas and notations were driving me crazy. YOUR VIDEOS ARE AMAZING!!!!,True
+@ashutoshpurohit8603,2021-09-22T11:09:16Z,0,I am still not able to understand why we have been predicting residuals and not the actual weights,True
+@veronikaberezhnaia248,2021-09-17T12:35:51Z,1,thank you for a (much!) clearer explanations than my professors in ML faculty have,True
+@user-hi4vy7yq4m,2021-09-17T05:18:02Z,1,This is very great to explain the math like you do! It is awesome! Thank you!,True
+@murilopalomosebilla2999,2021-09-11T21:47:00Z,1,Thanks! Great work as always.,True
+@NJ-mr7qd,2021-09-09T20:56:59Z,0,"Hi Josh, Thank you for the video. It's really good. A couple of question around notation. I am looking around 16:20. You use R to notate leaf. The notation for the two leaves shown are R1,1 and R2,1. So, it seems the first subscript denotes leaf. Does the second subscript denote tree (tree 1)? Then, in the formula under the sigma symbol it says to only include xi that belong to to Rij. I understand the idea but now it seems the first subscript for R denotes observation i (not leaf), and the second subscript denotes tree (j). Should it instead be just Rj?",True
+@devgupta9701,2021-09-03T04:06:39Z,0,Please make a video on cat boost lightgbm also,True
+@aracelial9188,2021-08-11T21:41:12Z,1,"You are a really good teacher, thanks a lot for your videos!!!",True
+@carazhang7416,2021-08-10T12:40:15Z,1,I wish the lecturers in uni are half as good as you. This is just treasure.,True
+@abhijeetmhatre9754,2021-08-05T13:54:38Z,1,"I have become fan of you after going through all your first video of ML. I haven't seen anyone explaining topics better than you. You explain any complex topic such that after watching it, viewer seems it as a simple topic. I started learning ML and deep learning since past 6 months, and I am learning a lot from your videos and your videos have given a lot of boost and confidence to learn more. I saw multiple study materials explaining gradient boosting, but it's only your video that made me help to fully understand it in a single go. Very big thank you to you sir for such wonderful video course on ML.",True
+@raviyadav2552,2021-07-28T12:51:30Z,0,the chain rule freaks me out!!!,True
+@shangauri,2021-07-22T07:46:58Z,1,"If the intention is to clearly explain a complex topic, then start with an example and then get into the equations step by step. Most academicians make the mistake of scaring people by showing the equations at the start itself. You are doing this perfectly Josh. Many thanks.",True
+@sharanchhibbar7047,2021-07-14T14:33:20Z,1,Hats off to your way of teaching. Wish you the best!,True
+@jasonfaustino8815,2021-07-11T12:26:58Z,3,"Timestamps!!  6:30   - Step 1 - Initialize model with constant value. Comes up to be the average of the target values. Cool math trick  9:10   - Step 2.0 - Set M for number of iterations 10:02 - Step 2.A - Create residuals 12:47 - Step 2.B - Fit a regression tree 14:40 - Step 2.C - Calculate output values (I recommend jotting down notes as a lot is happening in this step) 20:39 - Step 2.D - Make Predictions  if m == M, then proceed to step 3, else, repeat step 2  Step 3 - Output FsubM(X)  Thank Josh!! Really smoothed out my knowledge for Gradient Boosting methods.",True
+@meysamamini9473,2021-07-09T17:54:02Z,1,U ARE THE  BEST TEACHER EVER!,True
+@ahmetcihan8025,2021-07-04T15:58:38Z,1,Thank you sir. Very nice and clear.,True
+@junqichen6241,2021-06-19T04:52:42Z,0,"Hi Josh, I have a question on step 2 (A). Since we basically want to calculate the residuals for each observation, why do we have to take the derivative of loss function with respect to the prediction? Wouldn't y - y_hat be more straightforward? Thanks!",True
+@jiazhenhu5959,2021-06-05T10:30:28Z,1,Respect,True
+@mathematicalmusings429,2021-06-05T08:22:43Z,1,"this is amazing, you are a gifted teacher Josh.",True
+@psicktrick7667,2021-05-31T14:48:22Z,0,How can one sample be in multiple leaves?,True
+@Suraj-wq9jn,2021-05-28T04:49:48Z,0,Hi Joshua. Your videos are really informative and useful. Can I get the slides as well for creating notes of the topics. Thanks in advance.,True
+@iraklisalia9102,2021-05-27T20:16:27Z,0,Could you please explain the summation at 21:20 a little bit more? How can x sample be found in multiple leaf nodes I don't quite get it. Won't X sample always end up in one and only one leaf node?,True
+@Trends_Forever,2021-05-26T06:45:21Z,0,i want programatically implementation,True
+@madhavpr,2021-05-24T06:12:46Z,0,"Holy smoke!! What a beautiful experience it was going through this example!! I couldn't help but wonder why the learning rate does not decay (or adapt) in gradient boosting regression, unlike deep neural networks. For instance you could output the final prediction as F_0(x) + nu*(1 st tree output) + nu**2 * (second tree output) +...would this be correct?",True
+@nelsonjj3489,2021-05-18T14:43:21Z,1,Just an awsome explanation. Thanks!,True
+@rishabhkumar-qs3jb,2021-05-18T06:02:11Z,1,Awesome  videos,True
+@vikramm4967,2021-05-17T09:35:30Z,1,Quadruple Bam!!,True
+@intelligentinvesto9060,2021-05-12T03:03:26Z,0,"Hello Josh Starmer, Thank you so much from the bottom of my heart for such a great and intuitive video. Really appreciate your effort.  I have a small doubt. In part D of step 2, I can see an expression like I(x element of Rjm). What does ""I"" mean here?",True
+@assafv1,2021-05-10T10:32:29Z,0,"Hi , Great Video!. One quesion- how can  a single sample end up in multiple leaves of a tree? as mentiond in 21:08",True
+@guydidier8291,2021-05-09T22:49:34Z,0,"Thanks a lot for this clear video :) may I ask in the formular of step 2 (D), what does the upper case letter I mean? Update fm(x) =fm−1(x) +Jm∑j=1γjmI(x∈Rjm)",True
+@somnathsikdar6657,2021-04-21T18:12:53Z,1,Brilliantly explained!,True
+@carlmemes9763,2021-04-21T14:12:30Z,1,You are the best teacher ♥️♥️♥️♥️,True
+@laser7861,2021-04-16T19:33:08Z,0,"at 21:07, you say ""this summation is there just in case a single sample ends up in multiple leaves"". I guess the only way it can happen here is if we don't have the height for the sample? And therefore we put the sample in both leaves?",True
+@vslaykovsky,2021-04-12T11:41:26Z,0,Would love to see a version for grown ups without bams and hooorays.,True
+@aeronramos6233,2021-03-23T15:17:37Z,1,So useful and simple. Thank you!,True
+@bobo0612,2021-03-22T11:45:43Z,1,You are the legend,True
+@karannchew2534,2021-03-20T12:08:54Z,0,"21:22 At the of the Update Fm(x) equation, there is Γjm Ⅰ(x∈Rjm). ∈ means ""an element of"". But how to interpret the symbol I please? Does it mean ""if""?",True
+@arnaujimenez2194,2021-03-18T15:28:20Z,0,"The index notation of the Tree's leaves is a bit confusing, sometimes you use the first index to denote the leaf and sometimes you use the second index. For example in minute 16.16 you swap them. Furthermore, It also seems that the tree index of R is the same as the ""m"" index of the function F.",True
+@tymothylim6550,2021-03-16T14:07:03Z,1,"Thank you very much for this video, Josh! The topic is difficult (cos its math haha) but I really enjoyed the simplified explanations that bring out the very interesting concepts hidden in the math formulas!",True
+@harshvardhanr5062,2021-03-10T14:52:31Z,3,Legends say that Josh is so cool that he replies to comments even after 2 years,True
+@22691711,2021-03-09T18:48:23Z,0,stop with the singing already!!!!!,True
+@junbinlin6764,2021-03-05T14:36:18Z,0,Where ca I find a video about imputing data inn python? or where can I purchase the video?,True
+@user-sw9pk3wg5i,2021-02-26T05:49:45Z,0,まとめ　23:24,True
+@boringhuman9427,2021-02-25T11:41:30Z,0,I have a small doubt - For the Decision Tree which we made using three samples where the left side leaf node consider if H<1.55 (False) and right side leaf node  H<1.55(True) then for new prediction how we considered H=1.4 m for left side node and calculate new prediction [Calculation made  in 25:46 m] - Since it is true it should be considered right side,True
+@Shionita,2021-02-21T20:14:56Z,1,"Thanks for making me understand ""those ugly looking things"" ",True
+@strzl5930,2021-02-12T15:14:18Z,0,"Thank you so much for this awesome explanation! There's just one thing that I don't get: At 21:08, you say that the summation is there in case an observation ends up in more than one leaf. How can that be possible? Aren't decision trees grown such that each observation ends up at a single leaf?",True
+@romans4436,2021-01-31T13:49:53Z,68,You have what many others lack: clarity and simplicity. The visualization is very good. Thank you!,True
+@NaimishBaranwal,2021-01-30T06:33:38Z,1,Funky looking thing lol,True
+@SimoneIovane,2021-01-28T12:26:13Z,1,Really really good tutorials. I always watch them when I feel I want to revise some concepts. Thanks!,True
+@S2ReviewsS2,2021-01-25T18:48:37Z,6,"You are a Gem Josh, with so many new and old comments, you have replied to almost all of them. Can't believe such a great person and teacher actually exists. :)",True
+@akshatkhare7938,2021-01-20T17:31:04Z,0,"@StatQuest hey I have a doubt in step 2 sub-step D in which the formula is Fm = Fm-1 + ... If m = 2, should it be, F2 = F1 + ..., But you wrote, F2 = F0 + F1 Please clarify.",True
+@bibiworm,2021-01-16T20:56:21Z,0,"I am very confused about the notation here. At 7:01, when we are initializing the model with a constant value, gamma denotes predicted value, which is just the average of weight over all observations, derived by setting the first derivative of the loss function to 0. And we set F_0 to that value as the initial value. And then from 15:18 on, gamma denotes residuals that optimize loss function of each leaf. I'd really appreciate it if you could shed some light here. Thanks.",True
+@musasall5740,2021-01-08T05:58:45Z,1,Best explanation on Gradient boosting!,True
+@bedirhangundoner9627,2021-01-03T14:23:49Z,0,"is there wrong at 16.13?  You said ""only two samples, x1 and x2 go to leaf r1,2"" but shouldn't this to be R2,1?",True
+@Marcello_Deg,2020-12-30T21:13:04Z,2,TRIPLE BAM!,True
+@someshkb,2020-12-30T06:38:32Z,0,"I have a question: In Gradient boosting, do we use the entire training dataset for all the trees? If I understand correctly, for Adaboost we create a new dataset by giving more weightage to incorrectly classified sample and less weightage to correctly sample.",True
+@Shubhamkumar-ng1pm,2020-12-23T04:20:53Z,8,i have no words for josh starmer.teachers like him deserve a special place in heaven.thnk you josh.,True
+@sameershah141,2020-12-18T12:18:24Z,5,There can not be a better and simpler explanation. Kudos for the efforts put in to make the presentation and the video.. (y),True
+@himanshutalegaonkar2522,2020-12-17T06:06:16Z,1,By far the best video i've seen across all the platforms for  machine learning !! I haven't come across anyone who goes to this extent into explaining the complicated maths behind such algorithms !! Please do more of such mathematical breakdown for famous research papers in ML and DL.,True
+@venkateshyuva,2020-12-17T05:33:05Z,1,Love you <3 !,True
+@madhanadavani4102,2020-12-17T03:08:12Z,0,But why do we need to compute pseudo-residuals which involves derivatives? Can't we just directly directly compute (observed - predicted) at each iteration. What is the fundamental advantage in calculating pseudo-residuals?,True
+@thilinikalpana7206,2020-12-15T22:10:56Z,2,"This is awesome, the best I've seen so far that simplifies all the complex algorithms and math. Good job and keep doing more videos like this to simplify complex problems.",True
+@elrishiilustrado9592,2020-12-15T20:09:00Z,1,Thanks a lot!,True
+@jjj78ean,2020-12-12T12:26:43Z,0,"Josh, on 2:58 why default Loss function should be divided by 2 ?",True
+@maciejodziemczyk5249,2020-11-27T13:22:34Z,3,"I love the level of simplicity without hiding the math, really clear tutorial for people who don't want to code ML like a monkey. Thanks :)",True
+@hariss143636,2020-11-25T20:30:35Z,0,Superb Video Josh. Absolutely Loved it. I just have a doubt that i read that its  Fm-1(x) + gamma*h(x) . What will be the h(x) in above case. Thanks in Advance Josh :),True
+@az8134,2020-11-24T17:37:54Z,1,BAM,True
+@samerrkhann,2020-11-18T09:22:51Z,1,"Holy Smoke! I literally had to take small pauses to double-check if I am really living in reality. My God, how easily he explained all those intimidating math equations and notations. A BIG THANK YOU JOSH!!",True
+@Dorianman45,2020-11-14T09:24:17Z,1,You're fuckin amazing,True
+@jaikishank,2020-11-12T06:19:24Z,1,It was an awesome explanation to the granular level.Kudos to your great effort ...,True
+@amanbagrecha,2020-11-03T11:16:55Z,0,"Josh, you must do this math videos for each of the algorithm. Very useful to understand the notation and logic. Thanks",True
+@metaprog46and2,2020-10-13T01:35:16Z,0,"Josh - silly question, but how was the root (Height < 1.55) determined?  I checked the other videos in this series to no avail. Is the initial structure of the tree determined somehow by a regular regression tree?  Clearly I'm missing something obvious.",True
+@midhileshmomidi2434,2020-10-12T17:29:20Z,0,I have a doubt  If the minimum value leads to avaerage ultimately why do we need these sigma notifications  Where do we get incorrect results if we use only average function,True
+@pratibhasingh8919,2020-10-07T08:15:05Z,1,Great work! The way you explained was outstanding. It can be easily understood by a layman.,True
+@caoshixing7954,2020-09-21T14:57:42Z,0,"Awesome explanation. I just pointed out a small mistake at 24:15, the residual value table should be ri,2, instead of ri,1",True
+@SourabhSomvanshi,2020-08-31T04:53:32Z,1,You Sir are just awesome!!! Saying awesome is just an understatement. You make the learning fun and interesting. I found these topics so difficult to understand from other sources. You make it so simple. There are many people who know how these things but its really an art to teach these topics with so much ease. Take a bow!!! A big fan of yours. Hope to see more such videos in the times to come :) BAM!!!,True
+@vamsikrishnaj4429,2020-08-25T14:55:06Z,1,Thanks Josh!,True
+@abhasupadhayay6420,2020-08-24T19:41:51Z,1,"Just started watching your videos and I am extremely glad I found you. The explanation is simply as detailed as it can get. Sometimes I wonder if you are overfitting our minds, lol..Thanks a lot",True
+@jimip6c12,2020-08-21T05:29:00Z,3,"When I am ready to yell ""the chain rule"" together with Josh  Josh: ....the chain rule....",True
+@jvjghguy7,2020-08-18T05:15:37Z,0,"this is the best explanation! but i still have one question, at 13:58  where do you get 1.55? sorry for my bad english",True
+@ineedtodothingsandstuff9022,2020-08-17T20:17:50Z,1,"I never seen a more clear explanation(literally), thank you so much!",True
+@user-rw8gb4py2u,2020-08-14T08:16:51Z,1,BAM~~!!,True
+@_kaira4130,2020-08-14T07:22:42Z,1,"Thanks a lot, man. Best wish from Tokyo!!! You are so amazing to create these lecture of value..like an anti-magician just to reveal the truth behind..bam double bam triple bam quadra bam penta bam..hoho~",True
+@saurabhkale4495,2020-08-09T17:50:53Z,2,best explanation available for gradient boast on the PLANET!!!!!!,True
+@scarhc,2020-08-07T14:26:50Z,1,"Really, great work Josh, thank you for explaining this so clearly.",True
+@sergioantelo5467,2020-08-05T11:08:34Z,1,amazing.,True
+@Hovane5,2020-08-03T20:14:51Z,0,What is the I (capital i) in part D of the algorithm?,True
+@diamondcutterandf598,2020-08-03T08:16:05Z,0,I'm confused by 'pseudo residual' at 12:12. The ri values we calculated are exactly equal to observed - predicted. How are they (observed - predicted)/2? We are simply fitting a line with 0 gradient; residuals are just observed - predicted right?,True
+@RaviShankar-jm1qw,2020-07-28T09:40:19Z,2,Words evade me while praising Josh !!!,True
+@shindepratibha31,2020-07-22T15:17:35Z,0,I have a doubt. You created first decision tree and there are two values i.e.14.7 and 2.7 coming at right leaf node. Why didn't you used one more node (let's say gender/color) to split one more time and get separate leaf nodes as 14.7 and 2.7?,True
+@sagar_bro,2020-07-12T13:50:30Z,1,Mannn! you are not a teacher but a magician! Fourth Bam! :),True
+@akshaypatel5468,2020-07-12T11:38:10Z,0,I am still not clear about the term pseudo residual? Why it's called pseudo?,True
+@shubhamgupta6567,2020-07-11T08:30:07Z,0,Why did you take differential of loss function,True
+@LeslieSolorzanov,2020-06-30T09:16:06Z,1,"I thought you really sold onesies haha, I want to give one to a statistician friend who will have a baby XD",True
+@PaulXiaofangLan,2020-06-30T03:34:53Z,0,"For you guys who forgot what the `Chain Rule` of derivatives is, Math Is Fun the way to go: https://www.mathsisfun.com/calculus/derivatives-rules.html Fomula: d/dx f(g(x)) = f`(g(x))g`(x)  In this case, g(x) = g(predicted)=observed-predicted, thus,  f(g(predicted))  = 1/2f`(g(predicted)^2)g`(predicted) = 1/2 * 2g(predicted)g`(predicted) = (observed-predicted) * -1 = -(observed-predicted)",True
+@luattran5318,2020-06-25T05:37:28Z,1,"Much appreciated for your thorough and detailed explanation, wish u all the best!",True
+@daviddang1044,2020-06-21T23:41:30Z,0,"This might be a naive question, but how can a sample end up in multiple leaves? I'm having a hard time seeing how a decision tree doesn't give a unique output.",True
+@siddhantk007,2020-06-17T20:38:55Z,0,why do we differentiate loss with respect to the predicted value ? generally we differentiate wrt the parameters involved .,True
+@anchalsrivastava3733,2020-06-16T19:01:07Z,1,BAM = Bidirectional Associative Memory!,True
+@yousefjaradat2619,2020-06-10T00:33:46Z,1,Terrific Bro,True
+@aqx6561,2020-06-09T12:59:10Z,0,Thanks for the great explanation!! I would like to ask what are the learnable parameters in this model that will be improved with training?,True
+@echoway2002,2020-06-09T00:22:33Z,0,"can you explain why at 13'18"" you choose ""height<1.55"" as the first branch? Why not color? Why not gender?",True
+@bikalpapaudel6836,2020-06-07T06:04:12Z,0,"What does ""I"" in the equation shown in (d) of step 2 imply?",True
+@mehulgosar1744,2020-06-01T16:16:21Z,1,This video actually helped me so much. Thank you :),True
+@shankarkantharaj8697,2020-06-01T15:30:40Z,0,I have one question. It seems like only the final gamma values are needed for the update of the f values of each sample. But the gamma values do not depend at all on the residuals calculated in part A of step 2. So why do we need to get the gradients of the loss function for each sample in part A of step 2?,True
+@zkhandwala,2020-05-29T01:43:50Z,1,"Great video series, Josh! I'm confused about one thing here, though: Why do we explicitly need to do (c) as a separate step? You didn't show how you determined the split at 1.55, but didn't you have to effectively compute (c) at various points in order to make that determination? Therefore, wouldn't it already be available? (I suspect I'm missing something obvious...)",True
+@markchang2634,2020-05-23T19:30:22Z,1,Hooray!,True
+@anjulkumar9183,2020-05-20T03:28:14Z,0,"@14:59 Rij should be Rjm, please clarify",True
+@anjulkumar9183,2020-05-20T03:15:23Z,1,Never seen a better video tutorial such as yours...I love you man....a lot of respect for you...you really are doing a great job...I really am going to recommend everyone to watch your videos and I hope you would keep helping in the form these videos to teach ML in the most fascinating and beautiful way...,True
+@dhruvbishnoi8840,2020-05-16T18:13:51Z,0,@21:24 How can a sample exist in multiple leaves in a single tree. Can anyone please explain this,True
+@aniketdatir2633,2020-05-13T12:19:11Z,1,Wonderful video Josh......very clearly explained !!!! I appreciate it...Please keep posting such lectures. Thanks,True
+@firassami7399,2020-05-09T19:42:03Z,0,thanks for your presentation  I have a question related to regression task . If I have more than input variables How could I deal with it. I have seen you establish your model based on only 1 input variable >> regards,True
+@TechSINGH5,2020-05-08T19:46:28Z,1,Best explanation!!!,True
+@debabrotbhuyan4812,2020-05-07T06:52:45Z,1,Thank you so much for this video Josh. I never thought Boosting algorithms could be explained so clearly. Wish I had known about your channel one year back.,True
+@user-if5ml7yf9d,2020-05-06T22:01:21Z,0,I'd like to ask why do we need to calculate derivative on the step 2a? As far as I understood the actual optimization algoritm takes place on the step 2c.,True
+@kalpaashhar6522,2020-05-06T11:37:11Z,1,Beautifully simple explanation for a complicated algorithm ! Thank you!,True
+@TheParijatgaur,2020-05-04T05:07:10Z,1,"knocking it out of the park,   TRIPLE BAM",True
+@hemantdas9546,2020-04-29T07:37:10Z,1,Just wow❤️ great help,True
+@prism1584,2020-04-27T20:28:39Z,1,"Best ever tutorial, loved it!",True
+@goast3213,2020-04-27T03:47:31Z,0,"Hi Josh, great job. I am just wondering which part of the process it determines which feature is used to split first and what rules of it? Thanks",True
+@MeetSinojia7,2020-04-26T06:29:24Z,0,"In wikipedia article on gradient boosting (section: Algorithm at https://en.wikipedia.org/wiki/Gradient_boosting#Algorithm), it looks like they are using a different learning rate for each step.",True
+@kriz1718,2020-04-24T14:04:27Z,1,"Great Work! I would say your channel is in the same league as of Khan Academy, 3Blue1Brown and a few others i am yet to explore.",True
+@tolstoievski4926,2020-04-23T00:54:11Z,0,Gradient boost is an algorithm to minimize prediction errors but before that we need to know how decision tree find split condition.,True
+@adhiyamaanpon4168,2020-04-20T23:17:03Z,0,"hey josh....Amazing explanation...but  one doubt,    plz check the ""gradient boosting algorithm"" heading in the following link  ""https://towardsdatascience.com/demystifying-maths-of-gradient-boosting-bd5715e82b7c""....  1.)  In this along with gamma they are multiplying h_m(x) in step 3 and 4, but in ur explanation only gamma was there... 2.)    Am confused bcoz i don't even see the need for h_m(x)...does h_m(x) represent any value or something else??  plz clear my doubt",True
+@lenkahasova9428,2020-04-17T09:36:03Z,1,"I love the way you present this, it's exactly what my brain needs!",True
+@aryanhosseinzadeh4051,2020-04-05T04:24:55Z,0,Hi  In step 2 part D: is I in the formula extra?,True
+@user-qn8pk3fs3l,2020-04-04T09:55:57Z,1,what a video! It is really easy to understand ! awesome!,True
+@slobodanjenko6701,2020-04-01T14:48:08Z,0,"Hi, I am wondering if step 2 c) was really necessary? Could the new decision tree we have built minimize L(ri, gamma) in each leaf? Is there a loss function L for which by minimizing L(ri, gamma) in a leaf we don't minimize L(yi, F(xi) + gamma)?",True
+@sophiacarson587,2020-03-31T14:36:49Z,1,you are sooooooo great dude!!!!!!!!thx xoxo,True
+@sushilchauhan2586,2020-03-30T16:00:02Z,1,Pls cover Hinge Loss and logistics loss ...THANK YOU,True
+@mmacasual-,2020-03-28T09:50:51Z,0,Hi Josh Starmer ! Just one doubt !! How could one sample end up in multiple leaves as described while explaining (D) part of Step 2. Can you explain with one example please? It would be very helpful.,True
+@shristisingh2417,2020-03-23T17:51:40Z,1,"""The chain rule"".  😰😰😰😰 Very scared when you say this😢😢",True
+@user-qu7sh1kb1e,2020-03-10T13:28:04Z,1,life saver,True
+@zhenli1965,2020-03-10T05:49:08Z,1,"This is the best explanation that I have ever seen. Thank you so much, Josh!",True
+@yufeili5023,2020-03-09T21:55:55Z,1,讲的真好,True
+@bakurix1507,2020-03-08T21:10:47Z,1,In gradient boost how do we know what root node to take for the tree or what stump to use first? Is there something like the Gini function used in decision tree or is it just random? Thanks for the explanations!,True
+@vamsikhatri,2020-03-03T21:55:30Z,0,This is a great video but misses one of the most important things. That is how do you grow the tree and when do you stop growing the tree?,True
+@savvaskefalas5635,2020-02-23T12:49:07Z,0,"hi, maybe that's a stupid question but it represents my misundertanding: at the final step 2D we add average to all previous stumps' outputs. if we have M=100 that's 100 terms getting added to the average and only balanced by nu=0,1.won't that make final predicted weight a very large number away from training set weights?; for example if all stumps output is 15 for a give leaf - then predicted weight F100(x)=F0((x)=average)+ 0,1*-F1(x)=-15+0,1*F2(x)+...0,1*F99(x)+0,1*F100(x).That is away from y...what part did i miss?",True
+@abhijeetmavi8711,2020-02-23T01:42:46Z,0,How come at 21:09 can we get same sample in two different leaf nodes? Can you elaborate? I doubt that is possible.,True
+@chinedunwasolu4913,2020-02-20T09:54:24Z,0,whats the difference between this and the last video?,True
+@samsonpham33,2020-02-20T09:46:09Z,0,"Hi Josh loving your videos so its me again :) at step D (21:24) we need to sum over j, i.e. in order to make new prediction for sample x, we need to sum gamma from all leaves that sample x is in. 1) is my understanding correct? 2) if yes, how can a sample be in different leaves?",True
+@hsinchen4403,2020-02-17T14:23:22Z,1,Really appreciate your teaching !  So helpful !,True
+@viswanathpotladurthy3383,2020-02-14T05:10:52Z,1,WOW!!! How can it be so simple.I understand you take a lot of time to make it simple.Thanks on behalf of learning community!!,True
+@marceloluis5367,2020-02-11T17:33:57Z,1,:) Thanks!,True
+@hackathonsecond9671,2020-02-10T13:30:07Z,1,"Dear Josh, Never stop making these <3",True
+@chessplayer0106,2020-02-09T17:47:27Z,1,Dude I fucking love your channel lol so good and so informative.,True
+@hengzhao3652,2020-02-07T11:17:34Z,1,enjoyful math insight. Thank u Josh: ),True
+@elnurazhalieva1262,2020-01-27T10:39:58Z,1,I do appreciate the time and effort you spent making this awesome StatQuest. I wish my college professors were as good as you :). Thanks!,True
+@ansylpinto2301,2020-01-19T10:35:19Z,0,for each individual tree after the first tree that is mean of dependent variable we will be trying to predict the residuals right?,True
+@codingcart,2020-01-05T10:26:52Z,1,simple and best :),True
+@noway4715,2020-01-04T17:41:38Z,1,Best of the best!!!,True
+@rickandelon9374,2019-12-27T17:30:12Z,2,"Holy I finished this and actually understood everything you tried to make me understand!! The best man on youtube! Deeply grateful, Thanks a lot!!",True
+@dalissonfigueiredo1180,2019-12-20T19:15:04Z,1,"If you pay attention at 24:14 he uses the unupdated residuals , but he corrects it using the current residuals at 24:45, just in case anybody gets confused. Great video, love this channel.",True
+@statquest,2019-12-20T09:49:18Z,27,"NOTE: Gradient boost uses Regression Trees, which are explained in this StatQuest: https://youtu.be/g9c66TUylZ4   Corrections: 4:27 The sum on the left hand side should be in parentheses to make it clear that the entire sum is multiplied by 1/2, not just the first term. 15:47. It should be R_jm, not R_ij.  16:18, the leaf in the script is R_1,2 and it should be R_2,1. 21:08. With regression trees, the sample will only go to a single leaf, and this summation simply isolates the one output value of interest from all of the others. However, when I first made this video I was thinking that because Gradient Boost is supposed to work with any ""weak learner"", not just small regression trees, that this summation was a way to add flexibility to the algorithm. 24:15, the header for the residual column should be r_i,2.  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@BArdekani,2019-12-20T02:22:39Z,0,"Question @ min. 21:08, how can a sample end up in multiple leaves?   Isn't it true that the summation always end up as a single term with all I(x \in R_jm) = 0 except one of them?",True
+@gmayank32,2019-12-18T06:09:30Z,1,Thank You Josh. You have made this really easy. Thanks a lot!,True
+@sonuamrith9091,2019-12-17T11:11:02Z,2,tudu tuu tudu tuuu...hurrayy i learnt this..rip for those 10 dislikes😁,True
+@sandeepm625,2019-12-13T04:42:05Z,1,awesome. connecting the reasoning with math = applied math. thanks for the education.,True
+@naitiksharma8078,2019-12-08T12:53:05Z,1,You're god mercury reincarnated.,True
+@praveentadisetty,2019-12-06T07:07:07Z,0,Do we take only one input feature (height) while training or is it only an example considering height only?,True
+@wenzhang8742,2019-12-05T09:14:17Z,0,One question:  Can you please explain a bit how each tree is trained? I meant the trees to predict residuals. Awesome videos I learned a lot!,True
+@zhenzhang6352,2019-11-29T00:37:50Z,0,Thank you for your excellent video! Could you please explain how a regression tree is fitted given residual?,True
+@lizheltamon,2019-11-19T19:08:04Z,1,new fan here! awesome vids!,True
+@chaolei6459,2019-11-19T14:10:08Z,1,"Incredible,excellent,amazing job! How can you make it sooo clear!",True
+@ElderScrolls7,2019-11-17T09:31:31Z,0,"I love your series, thanks! Just one question, why are individual observations referred as “samples” in ml? It’s confusing :). Because actual samples are also called samples. Like if you say a leaf contains 3 “samples” one could think “wait a minute are there 3 bootstrap samples used in forming that leaf or something?” :) whereas it just means there are 3 observations in that leaf.  Also I think the word “bias” is used differently than what we mean by it in econometrics though I am not sure.  Finally, in ml they refer to the total squared deviation from the mean as the rss or ssr. But isn’t that simply the total som of squares? Because the deviation is from the mean y but not from a y hat that is estimated say with ols.",True
+@intoeleven,2019-11-15T22:22:55Z,0,"5:22  based on the chain rule, 1/2(observed - predicted)^2 = (1/2(observed - predicted)^2)' * (observed - predicted)', and the derivate of observed is 0, why the derivate of -predicted is -1? shouldn't it be 0 as well?",True
+@LiviaOhana7,2019-11-12T16:14:03Z,6,Thank you for making me laugh watching this mind blowing algorithm (I was reading the article and I was hopeless),True
+@yohanjeong3869,2019-10-29T17:41:41Z,1,"I think among all the videos i saw about data science, this channel provides the best explanation. Bam!",True
+@user-hb5jj8lc8l,2019-10-26T10:57:36Z,1,"What an amazing Exaplanation! I wasted six hours trying to understand Gradient Boost on other websites....:( Anyway, I have a question. How do we make decision trees during this algorithm? Can we make it any way? 13:10",True
+@rishabhgarg4942,2019-10-25T05:03:36Z,1,I have reached that point watching your channel that I first like your video and then watch it :p,True
+@maheshkarigoudar117,2019-10-19T15:13:10Z,2,"Hi I like ur videos, can u please make video on xgboost its very complicated to understand.",True
+@milay6527,2019-10-16T16:53:40Z,2,I can't believe how clearly this guy explains everything,True
+@benjaminli3572,2019-10-12T01:25:27Z,1,I was turned off by your 'bam' and singing because I found it quite disturbing but I have to admit this is a very good explanation of the topic... cannot deny that,True
+@fgfanta,2019-10-11T19:23:32Z,2,First explanation of all the GB details I find on-line which is actually easier than reading the original paper. Thanks!,True
+@hubert1990s,2019-10-08T21:41:09Z,20,"it's unbelievable how well you explain it all. following this, I can even imagine spending a Friday evening learning ML :)",True
+@SteveCamilleri,2019-10-03T11:21:39Z,1,"Finally, a mathematical explanation that can be understood! Than You",True
+@jeeveshjuneja445,2019-09-28T12:08:25Z,0,In step 2(C) it should be R sub jm instead of R sub ij.. am I right??,True
+@trillerperviu2752,2019-09-25T12:24:54Z,1,"Bro i am from Russia and i barely understand English. But i understand all stuff in this video,get pleasures + you make me some laughs. I think i will understand the math of quantum physics if you will explain it. YOU ARE THE BEST, THANK YOU!!!",True
+@jeevanraajan3238,2019-09-24T12:33:03Z,1,omg. ! This is God !!! You are GOD !,True
+@lokeshmadasu4146,2019-09-23T06:38:21Z,11,"You are one of the best teacher i ever seen,visualization gives me clear understanding of the concept,math behind it.Every time ,i wish the video have been more minutes..",True
+@lukeswift3148,2019-09-10T01:46:24Z,0,We are using normal loss function. why are saying pseudo residual at 12:38 since we are not multiplying 2 anywhere. Is my understanding correct?,True
+@bopeng9504,2019-09-08T02:04:21Z,1,Thumbs up.,True
+@machinevidhya8608,2019-09-07T06:30:11Z,0,Can u please specify how the second dataset is generated ??  Is it again random sample considering residual as weights like adaboost ?,True
+@holloloh,2019-09-06T23:39:22Z,1,I'm not sure about 'sample ends up in multiple leaves' part. Wouldn't it mean that at some node sample fulfilled both True and False conditions? How could it be possible?,True
+@raghavgaur8901,2019-09-02T01:17:31Z,0,"Hi Josh,I wanted to ask you that in gradient boost we usually find the pseudo residual or normal residual.",True
+@2050techgeek,2019-08-21T17:44:54Z,3,Excellent video! You are the best! Can you please make one on how XGBoost achieves superior performance ?,True
+@OttoFazzl,2019-08-17T01:17:35Z,0,"I would love to see more clearly how gradient descent plays a role. I mean I see that we calculate gradients, but the descent part is not as clear.",True
+@jaivratsingh9966,2019-08-11T10:24:57Z,1,I wonder why would someone dislike this video. This is great stuff!,True
+@YuryOv,2019-08-04T15:12:44Z,1,Huge respect for this amazing work!,True
+@yangyang5865,2019-08-02T14:25:47Z,0,What's the difference between gradient boost and Xgboost?,True
+@boxu2148,2019-07-28T21:47:02Z,2,"Fantastic video Josh! 21:17, could you explain how a single sample ends up in multiple leaves?",True
+@raghavgaur8901,2019-07-22T11:35:36Z,0,Will we use only height to dvide the data or we will use other attributes as well,True
+@raghavgaur8901,2019-07-22T11:33:30Z,0,Can you tell me in when to use Adaboost and when to use gradient boosting in real life cases,True
+@josebardales3874,2019-07-20T02:52:18Z,1,LMAO this guy is gold,True
+@pranavraj3024,2019-07-16T18:23:21Z,11,This is the best explanation for GB regression that i have ever seen/read. Thank you so much explaining it in such simple terms!,True
+@lqtube,2019-07-14T14:43:23Z,1,"this is absolute the best video on machine learning education, not one of",True
+@charlesstrickland8839,2019-07-06T18:30:09Z,3,"Like Josh's videos before watching them. Watched bunch of Josh's videos, all of them are really helpful and easy to understand, thx a lot!",True
+@madatbrahma4389,2019-07-05T16:07:29Z,60,"Josh, you are the best . Master in simplifying  complex topics .",True
+@taocook6526,2019-07-03T13:25:13Z,0,"Great video. Just one question, it seems like the two columns 'favorite color' and 'gender' were not being used. Since they are categorical variables, I wonder how to use them in a numerical way.",True
+@pallavipannu3838,2019-07-02T16:12:10Z,0,"Sir, your videos are awesome.The best explanation of every topic.Sir please make one video on Xgboost also.",True
+@emirhankartal1230,2019-06-30T14:39:00Z,1,that's the best explanation than I've seen so far...,True
+@gunnvant,2019-06-27T12:27:20Z,64,The visual description where you are adding consecutive models is the best summary of the gradient boosting description that I have seen so far.,True
+@bevansmith3210,2019-06-11T14:31:11Z,1,"Thank you so much Josh, I was going through these algorithms in Elements etc. and it was so difficult to figure out. Awesome explanation!",True
+@ulrichwake1656,2019-06-11T03:57:33Z,171,"They said ""Give a Man a Fish, and You Feed Him for a Day. Teach a Man To Fish, and You Feed Him for a Lifetime."" Thank you very much for your video. I really like when you try to explain the algorithm and the math notation. I hope you keep doing that. :)",True
+@thedeliverguy879,2019-06-08T01:16:48Z,1,BAMBAMBAM（｡ò ∀ ó｡）,True
+@nguyendavid6396,2019-05-29T03:41:08Z,81,"""The chainnnn ruleeeee"" LOL",True
+@blackbutler427,2019-05-27T23:14:12Z,1,"I owe you my Master Sir, triple Bam",True
+@rishabhrohit,2019-05-26T03:37:53Z,0,The video is very informative. Do you mind sharing the slides?,True
+@Misha-yh9wd,2019-05-22T19:01:25Z,1,Great work! The best explanation in the internet!!!,True
+@Joshua-xz3gm,2019-05-19T13:51:14Z,15,"at 16:05, shouldn't R_i,j under the sum be R_j,m ? Additionally, I don't really understand how one sample could end up in multiple leaves as stated at 21:20.",True
+@mikeg1368,2019-05-18T20:48:40Z,1,BAM!  So much easier vs. traditional notation.   Thank you!   :) :),True
+@yiqiwang4506,2019-05-14T14:51:21Z,5,Anyone watching his amazing videos on accelerated  playback speed? Like 1.75?,True
+@emmanuelcontreras-campana7509,2019-05-13T06:10:40Z,0,"Truly a great tutorial Josh! I have only one minor comment, after having watched your video and reviewed people's comments. It appears that one of your formulas has incorrect indices. Should it not be x_i element of R_jm instead of R_ij? This would make more sense to me and it would be consist with wikipedia's page on Gradient Boosting. Thanks!",True
+@Majagarbulinska,2019-05-12T20:51:25Z,1,just in time for my final :) thanks a lot!,True
+@tangibleoxygen1986,2019-05-12T15:51:43Z,1,It would be really helpful if we get one class on How Entropy is calculated for splitting decision trees? Something similar we learnt from your videos on Gini Index. Would eagerly wait for that?,True
+@jianhuama7096,2019-05-05T20:35:22Z,0,"Hi, Josh, can you record some videos about lightgbm and xgboost? Thank you",True
+@decrepitCrescendo,2019-05-05T15:04:16Z,3,Thanks for breaking down the equations atomically and associating them with their visual representations. Your explanation is much more lucid than the xgb docs and i consider those to be fairly well written.,True
+@itukano4,2019-05-02T04:07:26Z,1,Great!,True
+@jotablanco,2019-04-24T10:32:52Z,1,"You are a star, thank you for your time",True
+@heyim3854,2019-04-23T22:08:32Z,4,Thank you So much for your video. You are the 'Mozart' of the ML. Simple but  infinitely subtle! 😊,True
+@yessen-gd9qj,2019-04-21T14:51:36Z,1,"I am really happy to step parellel these clips with DataMining class of mine! Many thanks, it's a big help",True
+@rrrprogram8667,2019-04-21T09:01:55Z,0,"Another question on cross validation .....  If my understanding is right ...say for a data set with 100 rows .... if I need 5 fold cross validation .. then samples are split 20 set each , with each sample appearing ONLY in one set...  But in caret if you see... using  train (method  = ""gbm) and.. ...... trainControl ( method = ""cv"" ) ... then make a model and print() it .....the output shows , the data would NOT split 20 set each  ..what is missing here..",True
+@rrrprogram8667,2019-04-21T08:54:45Z,0,"Josh can you please give an idea .. what is the criterion for a split in Regression tress .. All you previous videos like Decision trees, Random forest predicts classification models (NOT numerical) and its uses GINI index...",True
+@josephcold,2019-04-17T05:11:31Z,0,This is excellent! The only part missing is the concept of information gain and how each split of the tree is decided. Maybe it's discussed in a decision tree video?,True
+@pyarepiyush,2019-04-15T19:05:44Z,1,"You're making math interesting for me. I've love hate relationship with math, but because of the work i do (data scientist), I've to keep on coming back to the math behind the algorithms. Your videos are joy to watch ... please continue to make these awesome videos",True
+@matthewmiller3653,2019-04-13T16:30:40Z,3,"Absolutely fantastic. I graduated college ""on the verge"" of higher math knowledge, but never quite put in the work for the courses. I've now jumped into ML research, but have found notation to consistently be the hold-up in a lot of my understanding, despite that the equations often express intuitive concepts. Being able to ""translate"" as you've done with this video connects many dots in a world that's often unnecessarily thought of as sink or swim. Awesome!",True
+@41abhishek,2019-04-13T09:07:29Z,1,Thanks thanks a lot for the best tutorial..,True
+@rrrprogram8667,2019-04-13T07:46:34Z,1,Josh can you please recommend the books to learn the concepts the way you teach ???  it is hard to find book that is this clear,True
+@321MrMateus,2019-04-11T22:11:05Z,1,"Hello, The Book ""The Elements of  Statistical learning "" (Section 10.12.1) refers to the parameters nu as the shirinkage parametel to do a trade-off with the number of models. Can we interpretate the nu presented as the learning rate as a shirinkage parameter??",True
+@varun0505,2019-04-11T08:15:41Z,3,"There are blogs explaining the gradient boosting on a dataset, there are blogs explaining the maths. I was facing difficulty in connecting those two. Hands down! Best video I came across in a long time. Thanks a lot. Please keep up the great work.",True
+@kefaqin9141,2019-04-10T11:21:31Z,0,Where to find the material of ppt for the gradient boosting three parts?,True
+@MrPranaysawant,2019-04-09T10:46:22Z,1,"Superb mann... BAAM.. only thing I want to know, how to decide learning rate? you mentioned that it is between 0 to 1. and you chosen 0.1. why you chose 0.1 only any specific reason ? or we are free to use anything between 0 to 1.",True
+@craigmauz,2019-04-08T07:53:14Z,2,"New request:Multicollinearity and Model Selection, please!",True
+@NA-rq5dw,2019-04-05T13:51:51Z,1,Great video! I found the explanation of the mathematical notation to be very helpful and would love to see more examples for other machine learning concepts. Thanks,True
+@parklee3646,2019-04-05T08:29:13Z,0,Thank you so much for your useful video. Can you please make some to explain about microarray meta-analysis?  I am so greatful if you do that,True
+@praveensingh3217,2019-04-05T08:07:58Z,1,you nailed it. waiting for part 3 & 4,True
+@jrgomez7340,2019-04-04T08:08:13Z,1,best explanation i came across with. when will part 3 and 4 come out?,True
+@markaitkin,2019-04-03T21:09:38Z,2,"easily the best video on youtube, can't wait for part 3 and 4.",True
+@user-ki7hc6pu5u,2019-04-03T15:23:20Z,1,"Josh, you are the best! You always enlighten me!",True
+@CC-um5mh,2019-04-02T23:22:46Z,1,And also this video is so clear and a great learning material as always. Thanks for all your work!,True
+@CC-um5mh,2019-04-02T23:17:23Z,1,"I read the paper about gradient boosting, and looks like Friedman used Taylor expansion to get a general equation for the optimal leaf prediction, which is first derivative/second derivative. Are you going to cover that part in your next gradient boosting videos?",True
+@yulinliu850,2019-04-02T12:33:39Z,1,"Great job, Josh! Thanks!",True
+@justfoundit,2019-04-02T09:43:04Z,1,"Thanks for clarifying me the tree building logic. Using simple regression tree looked illogical to me, but using it on the gradient AND providing values for the leaves based on the actual loss function: now it makes sense :)",True
+@junaidbutt3000,2019-04-02T07:41:18Z,1,"Many thanks for this. The attention to detail and the focus on unpacking every part of the mathematical notation makes this explanation very thorough and exceptionally clear.  I want to ask about the trees grown in the video. In the example the two regression trees grown were identical in terms of the node they split on. Is this always the case or can you have trees of different sizes, split attributes and split thresholds when there is more training data?   I wanted to also ask about your process for studying the topics in preparation for making the videos. Do you read the original papers and force yourself to apply the algorithms mentioned on small datasets such as these and run them through? If so, do you use a computer program to check if your results are on the right track? These topics have relatively few clear worked examples such as yours and I would love to know your process for understanding these ideas so thoroughly. Any book/ article recommendations would also be welcome. Keep up the superb work!",True
+@rrrprogram8667,2019-04-02T04:31:53Z,1,The chainnnnn ruleeeeee,True
+@rrrprogram8667,2019-04-02T04:26:43Z,1,MEGAAA BAMMMMMM,True
+@aop2182,2019-04-02T03:55:29Z,1,"Love it, great as usual!",True
+@josephjose843,2019-04-02T02:41:56Z,0,It would be great if you could cover gradient boost in R and how can we parameterize the model  using cross validation 😁 and thanks for the amazing video !!!,True
+@chilling00000,2019-04-02T00:30:59Z,1,So the parameter \nu is actually a hyper parameter? Is it safe to say that we use cross-validation to choose \nu?,True
+@emiya_muljomdaoo,2019-04-01T23:30:05Z,0,thank yoU! will watch soon,True

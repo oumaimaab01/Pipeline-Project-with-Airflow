@@ -1,0 +1,27 @@
+author,updated_at,like_count,text,public
+@scootscoot2k,2018-04-14T14:44:58Z,3,"for the loading image part could you not  do ""frames = os.listdir(dream_path)""? that will give you the names of all the images in the dir. Also the drones have ran away again!",True
+@Ramimelene,2022-03-16T00:27:00Z,0,All of your series are great! Thanks for sharing all these. How can one run the entire code though with tensorflow 2?,True
+@rh3niumdagamer708,2021-03-21T19:24:34Z,0,"a bit late to the party... (thanks for the vids, btw) for the platform specific encoding one could have the system decide via e.g.: import platform if platform.system() == ""Windows"":     fourcc = cv2.VideoWriter_fourcc(*""XVID"") elif platform.system() == ""Darwin"":     # Mac platform I am not sure which     fourcc = cv2.VideoWriter_fourcc('M', 'J', 'P', 'G') elif platform.system() == ""Linux"":     fourcc = cv2.VideoWriter_fourcc(*""MJPG"")",True
+@Asparuh.Emilov,2020-03-09T20:39:28Z,0,"Hello, I have more practical question. What can be usefull for? It looks like just a mixer of images, but how can that improve predictive power or may be understanding the algorithm better? Thanks for the effort of explaining by the way :)!",True
+@tarushsingh1108,2019-07-19T19:14:43Z,0,Man that network is on some good shit,True
+@tarushsingh1108,2019-07-19T19:14:32Z,0,Man that network is on some good shit,True
+@ritualproductions4730,2019-04-04T18:08:48Z,0,"Is there a way to take frames from the video, and automatically send each frame through the network? I am trying to make a music video in deep dream style but it is taking way too long to manually input each single frame of the video. If any coders see this and know of a way to do what i am talking about please respond.",True
+@PopcornEanna,2019-03-05T16:37:17Z,0,"Hello Sentdex, can you run a deep dream with all the type of network combined ?",True
+@weratebikes6406,2018-04-15T23:57:42Z,0,awesome as usual...any thoughts on integrating this video output with sequence model for music generation?,True
+@slippy8191,2018-04-15T10:15:34Z,0,It would be pretty interesting to do a deep dream for sound/music! Any ideas on what can be a good analogy of the inception model for audio-related tasks? :),True
+@ZadgeRS,2018-04-15T07:28:08Z,0,Good video snow,True
+@bullymaguire2061,2018-04-15T06:05:06Z,0,i want to learn... but schoolwork and parents prevent me.,True
+@oomangaz,2018-04-14T20:42:12Z,0,Do you think it would make sense to stop the image from getting too bright or too dark by getting the average brightness and contrast of the pixels at the start and then getting the average every frame and apply the difference to keep it the same as the original? Might even create an interesting effect.,True
+@adeeb12321,2018-04-14T19:02:08Z,0,another comment!,True
+@mindzi45,2018-04-14T17:20:20Z,1,could you do a mini tutorial for extracting frames from a pre existing video and then running them through the deep dream them then recompiling them into a video? i've seen linux tutorials but i cant get it to work on any VM or port it to windows,True
+@omer531998,2018-04-14T17:19:02Z,1,"you can just use glob... glob(""img_*.jpg"") and loop over that",True
+@danielandreasen2293,2018-04-14T16:54:33Z,1,"For finding the length, you can use glob. Something like this: import glob; len(glob.glob('{}/*.JPG'.format(path_to_images)))",True
+@Silver-fh4fb,2018-04-14T16:08:59Z,0,"Great tutorial. Already churning out frames. Interestingly, running this code in a vmware ubuntu vm was not slower than running it on a gpu. Went through a few hours trying to get tensorflow working on my gpu in windows and didn't see any gains. However task manager shows that gpu usage is 10% so i don't know whats going on.",True
+@wolfisraging,2018-04-14T15:39:54Z,0,Graaavy,True
+@Creuilcreuil,2018-04-14T15:08:37Z,7,"fourcc(*""XVID"") is equal to fourcc(""X"", ""V"", ""I"", ""D""), so you could write fourcc(*""MJPG"") for linux the star operator in front on an iterable, in function call take each element of that iterable and pass them as separate argument",True
+@Artur.Baranov,2018-04-14T14:49:38Z,4,8:00 make neural network to do meth.. wow that escalated quickly..,True
+@asfandalikhan6269,2018-04-14T14:45:10Z,0,Num of frames matter ?,True
+@electro975,2018-04-14T14:44:41Z,1,Thank you sentdex for all what you are doing,True
+@garveygarvey9638,2018-04-14T14:44:36Z,0,Wow,True
+@Oohenry1,2018-04-14T14:43:40Z,2,"maybe if I look into the deep dream hard enough, I'll get a girlfriend",True
+@manashejmadi,2018-04-14T14:43:22Z,3,Hey Sentdex! Will you do a series on Restricted Boltzmann Machines and AutoEncoders?,True

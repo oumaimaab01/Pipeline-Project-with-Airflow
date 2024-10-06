@@ -1,0 +1,72 @@
+author,updated_at,like_count,text,public
+@krishnaik06,2023-10-06T15:38:18Z,11,"Reuploaded Again due to some glitch :) Support me by joining membership so that I can upload these kind of projects with materials https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig/join",True
+@cheerstolife4821,2024-05-31T16:58:30Z,0,"in the first hour, everything goes super fast and as we are still learning how to create the structure and data ingestion, common.py functions they could be better explained. Krish does a better job of teaching and the video feels like it's running in 2x speed. we can hardly follow the pace. This video has great content but delivery could have been better and explained in a sense that's understandable for those who are trying to do it for the first time.",True
+@adityadey4223,2024-05-30T13:21:45Z,0,Krish sir is best..how he explains everything from scratch is very understandable,True
+@dontlistenme,2024-05-29T08:56:15Z,0,"Krish Niak Please, do the videos yourself. The tone of instructor needs a lot of improvement.",True
+@PrabhavGupta-gq5pu,2024-05-29T05:29:25Z,0,"Error while running the log_into_mlflow function at 2:35:55. self.config.all_params is of type config box but mlflow needs it to be of type dict. in the configuration, we have defined all_params to be of tyoe dict, but i ran type(evaluation.config.all_params), and the output came out to be config box.",True
+@electronicapplyances3828,2024-05-13T06:48:58Z,0,"BoxKeyError: ""'ConfigBox' object has no attribute 'prepare_base_model'"" I am getting this error",True
+@HarshPatel-iy5qe,2024-05-07T15:38:57Z,0,"Feedback: Bappy you are good at MLOps, and ML, but you should improve the teaching skill. In the whole video you were just telling what you are doing on screen, we can see that what you are doing. you need to say why you are doing this. and in this type of long tutorials you should summarize after every 10-15 minutes brother.😄  Thank you very much for the tutorial brother.",True
+@sohamnandi4010,2024-04-30T17:55:54Z,1,"facing this issue:  TypeError: Error when deserializing class 'InputLayer' using config={'batch_shape': [None, 224, 224, 3], 'dtype': 'float32', 'sparse': False, 'name': 'input_layer'}.  Exception encountered: Unrecognized keyword arguments: ['batch_shape']  any suggestions?",True
+@rohanmishra3748,2024-04-25T17:53:59Z,0,Can we follow the same steps to make other classification deep learning project like cancer detection. Please reply,True
+@unity8758,2024-04-23T12:06:27Z,0,"When i tried executing data ingestion pipeline code . I'm getting the error which is ultimately tracing to  FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml'. How can i resolve it?",True
+@abdulmanan707,2024-04-17T04:11:12Z,0,Great,True
+@samarpitkandhari1122,2024-04-13T08:04:09Z,0,can anyone tell what are prerequisite of this video what technology i should learn before watching this,True
+@likiiikemminje4245,2024-04-10T08:38:35Z,0,its appearing normal for both the images 😢 please can you guide me 🙏,True
+@Shanky1919,2024-04-06T10:15:24Z,3,all images are predicted as normal,True
+@roninbromine1670,2024-04-04T17:39:19Z,1,"At 1:35:05 , it should be layer.trainable=False and not model.trainbale=False ???",True
+@anshumantiwari1161,2024-04-02T12:30:40Z,0,Link to the Dataset - https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing,True
+@sandeepupadyaya4488,2024-03-30T04:39:07Z,0,Very good video. Learnt a lot,True
+@abhisheknag1,2024-03-19T08:26:56Z,0,"I am getting the following error in my 03_model_training.ipynb  ValueError                                Traceback (most recent call last) Cell In[24], line 9       7     training.train()       8 except Exception as e: ----> 9     raise e  Cell In[24], line 7       5     training.get_base_model()       6     training.train_valid_generator() ----> 7     training.train()       8 except Exception as e:       9     raise e  Cell In[23], line 64      61 self.steps_per_epoch = self.train_generator.samples // self.train_generator.batch_size      62 self.validation_steps = self.valid_generator.samples // self.valid_generator.batch_size ---> 64 self.model.fit(      65     self.train_generator,      66     epochs=self.config.params_epochs,      67     steps_per_epoch=self.steps_per_epoch,      68     validation_steps=self.validation_steps,      69     validation_data=self.valid_generator      70 )      72 self.save_model( ...     218             ""When working with a new set of variables, you should ""     219             ""recreate a new optimizer instance.""     220         )  ValueError: Unknown variable: <KerasVariable shape=(3, 3, 3, 64), dtype=float32, path=block1_conv1/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.  Can you help me?",True
+@user-jh9ku3oo6z,2024-03-11T19:57:11Z,1,"Awesome content! I felt the presenter was nervous, because the pace was so high hahahaha",True
+@bhuvanachenna9981,2024-02-29T14:35:42Z,0,When accessing dataset it is showing access is denied,True
+@lokesh.s3105,2024-02-20T11:31:36Z,0,"Getting lots of error in git bash  like not found, can’t activate….. a lot krish can you make this video again even I am unable to understand",True
+@lokesh.s3105,2024-02-20T09:35:26Z,0,For me it’s not working I created template then I moved to git bash typed python template.py but it’s not creating folder in vs studios,True
+@user-lo6mg9cx3c,2024-02-15T08:52:05Z,0,sir please provide dataset link asap,True
+@usham.g.1611,2024-02-15T05:37:53Z,1,"did any of you guys resolve the problem for ""dvc repro""?",True
+@subhransusekharmallick3505,2024-02-11T16:01:19Z,1,I am getting ImportError: cannot import name 'ConfigBox' from 'box' . How to get rid of that,True
+@machinelearning3518,2024-02-07T19:43:52Z,1,dvc repro is not running,True
+@machinelearning3518,2024-02-07T19:43:35Z,3,dvc repro is not running,True
+@c52obsagp50,2024-01-22T06:33:29Z,0,❤❤❤❤❤ nice explanation,True
+@SigmaScorpion,2024-01-20T12:51:17Z,1,"2:40:22 - you have changed the hyperparameters but, never performed a model.fit() which is in the 3rd notebook. you are just running the model.evaluate() on the 30% of data. I didn't get it... how you are getting different values...",True
+@debirupahore7081,2024-01-20T11:59:01Z,1,I found the explanation too complex.so many things explaining at once..it can be step by step going from easy to advance level.,True
+@namankumar2545,2024-01-17T19:27:48Z,0,sir could u plz tell what are the prerequisite before starting this project,True
+@SaurabhSingh-kz7mk,2024-01-05T16:35:13Z,1,When running dvc repro im getting no module sec/cnnClassifier.......failed to import,True
+@nagarani7434,2024-01-04T09:29:14Z,1,"Hi krish, This is Nagarani working as researcher in IIT, Madras in aerospace engineering. Thank you for your amazing playlists. For my project work, I need to convert video to spatial-temporal information. Can you please release a video on this. I hope that this project will help the researchers in almost all areas. Thanks in advance",True
+@user-jz8kb3fz8n,2023-12-27T14:20:33Z,2,what to do for .eggs-info not found,True
+@divineworld704,2023-12-24T09:45:50Z,0,can anyone tell which version of anaconda and python has been used for this project ???,True
+@maryam12930,2023-12-14T21:16:37Z,0,Code is so confusing. Not able to understand. I tried almost ten times but getting the error,True
+@thawtar682,2023-12-11T23:13:32Z,2,"Thank you so much! Although I know machine learning quite well, I have no idea how to implement a production ready system and deployment steps. Your video helped me with the details",True
+@Masterx3,2023-11-17T18:15:50Z,0,2:47:04 you didn't need save_json there,True
+@out-of-sight,2023-11-05T12:31:55Z,1,"Hi, thanks for the video. I have a request. Could you please explain how I can perform multi-class image classification, as shown in your video? In the video, you demonstrated binary classification. What modifications should I make?",True
+@user-kk9yr6lm3h,2023-10-22T13:21:50Z,0,May I please know what is the VS Theme the mentor is using?,True
+@aaryamansharma6805,2023-10-21T09:37:33Z,0,Bappy GOAT @DSwithBappy,True
+@aaryamansharma6805,2023-10-21T09:34:31Z,0,thank you so much.,True
+@TapaDipti,2023-10-20T05:34:02Z,1,Very well created video showing the end-to-end flow for a complete machine learning project. Thank-you! One suggestion would be to explain why someone would first create notebooks and then convert them to pipelines - someone new to pipelines may not be able to figure this out themselves.,True
+@saadbhai5998,2023-10-19T05:38:09Z,1,Is it possible to use Jupyter instead of VS Code?,True
+@HaiderAli-lr9fw,2023-10-14T14:04:33Z,0,This is my first ML deployment project. I'm planning to use my previous project to deploy on EC2. Do you recommend just watching this video and using the code given or writing the code with the instructor cause it will take 6-8 hours to complete? Or complete the video with the code given in front so that understand better and integrate the dataset and models?,True
+@krypton_17,2023-10-14T05:18:48Z,1,whats the vscode theme?,True
+@anythingilike237,2023-10-13T14:49:20Z,1,Thank you krish for making such amazing videos.,True
+@numberphile6935,2023-10-12T17:45:18Z,0,Krish naik is my dad,True
+@miguelhermar,2023-10-09T23:43:33Z,0,"For some reason I can't install tensorflow==2.12.0 as bappy did. ERROR: Could not find a version that satisfies the requirement tensorflow==2.12.0 (from versions: 2.13.0rc0, 2.13.0rc1, 2.13.0rc2, 2.13.0, 2.13.1, 2.14.0rc0, 2.14.0rc1, 2.14.0) ERROR: No matching distribution found for tensorflow==2.12.0. Why?",True
+@fazankabir2029,2023-10-09T21:21:02Z,0,after watching so many playlists miss your voice mzza nahi arha or at least use LLM generated😆,True
+@KamaleshgowdaOfficial,2023-10-09T15:15:23Z,1,training deep learning models in vs code is time consuming for me because I don't have GPU in the laptop any alternative suggestions for this. @krishnaik06.,True
+@janey9932,2023-10-09T10:59:26Z,1,Thank you thank you thank you,True
+@RohanKumar-gy4gl,2023-10-08T13:56:01Z,3,"Sir, Does this project require prerequisite knowledge of MLFLOW,DVC,AWS and all ? And if yes, can you please share the resources for them ? Thanks.",True
+@user-cd3gz6lb8q,2023-10-08T10:36:05Z,2,This is great ! I am getting ModuleNotFoundError: No module named 'box' and many other module. Please provide resolution for this.,True
+@nagarani7434,2023-10-08T03:18:56Z,1,Very amazing... krish please give us a video on probabilistic machine learning with sample project,True
+@Indrasai,2023-10-08T02:53:22Z,3,"Sir, what is the best configuration laptop required to perform all machine learning tasks",True
+@gauravfamily2209,2023-10-07T17:47:55Z,1,why prepare callback did not use here after base model creation or during training ? pls explain.,True
+@maxwellmaxwels9618,2023-10-07T12:36:16Z,2,"This is AMAZING! The best End to End ML Project tutorial, Thanks Krish!",True
+@gichurumuthomi8578,2023-10-07T10:02:06Z,1,"Can we use kubeflow, and testing like unit test",True
+@hamidgholami2683,2023-10-07T05:15:52Z,3,It is so great to found your channel thank you so much and keep recording this amazing videos good luck,True
+@iftekharalammithu5128,2023-10-07T04:42:46Z,4,"This is the best End to End ML Project i ever seen. We need more Content like this . Thank you sir ❤🥰 But there is a problem. For Beginner point of view this project too much confusing 😕 . Lots of file , folders .  Jump one file to another file at a time😅",True
+@santhoshbharath2910,2023-10-06T19:50:20Z,4,"Heartfully Thanks A Lot Guys😍 Honestly I Don't Know How To Say Thanks To You💛 This Is What I Was Expecting, I Hope With  The Help Of Your Teaching, I Can Able To Crack My Dream Interview",True
+@AbhishekKumar-sh3ze,2023-10-06T17:05:31Z,0,Sir plz hindi channel par bhi ase video Dalo,True
+@paracyber.x6797,2023-10-06T16:53:12Z,1,Krish Kingdom should be be enlarged more than mauryan😂,True
+@ChandrakalaKurubaTechieStuffs,2023-10-06T16:37:16Z,0,Do video on Meal py library  krish,True
+@himanshucan1,2023-10-06T16:09:22Z,2,this is not your voice have you used any AI tool to clone your voice please switch to original voice sample,True
+@mohsinkhan-bw3cd,2023-10-06T15:54:46Z,41,Bappy explanation is very complex .krish explaination is very understandable.pls krish u only do explanation,True
+@abishekkumaryadav701,2023-10-06T15:53:46Z,0,"You are bappy, right 👍",True
+@sanchaythalnerkar9736,2023-10-06T15:45:29Z,1,Can already feel it's going to be great,True
+@adheeshsingh3869,2023-10-06T15:44:20Z,0,Very important video thank u sir 🙏,True
+@princechijioke247,2023-10-06T15:42:17Z,5,Been waiting for a video like this!!❤ Nice work Krish 👏🏼,True

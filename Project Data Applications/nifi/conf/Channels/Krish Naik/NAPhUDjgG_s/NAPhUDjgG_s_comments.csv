@@ -1,0 +1,80 @@
+author,updated_at,like_count,text,public
+@chitranshaagarwal4676,2023-05-09T04:50:17Z,0,"Please make the topics in order, getting confused",True
+@maskman9630,2022-09-27T06:36:18Z,0,can we use the same process for logistic regression brother....?,True
+@dikshagupta3276,2022-08-11T12:10:20Z,0,Pls add the link of colinearity,True
+@ibrahimmondal9104,2022-05-16T05:53:59Z,1,Now the concept of  Multicollinearity is totally clear....thanks bhaiya🙂👍✌️,True
+@ajaykushwaha4233,2022-03-27T17:37:02Z,0,Will this approach work on data with huge features?,True
+@bonnyphilip8022,2022-03-24T13:27:43Z,0,You are simply awesome... Nothing else to say.. Thank you for your contribution and service...,True
+@saumyagupta2606,2022-02-08T15:14:29Z,0,Is it a good practice to find multicollinearity for other ml models also apart from linear? Is it necessary for other models as well?,True
+@raedalshehri7969,2022-01-10T14:36:14Z,0,Thank you so much,True
+@K-mk6pc,2021-11-26T18:47:00Z,0,Can anyone explain why  we are adding constant 1 in the predictor variables?,True
+@ganeshdevare7360,2021-10-29T07:27:17Z,0,Thank you very much sir for explanation at 00:00,True
+@madhavilathamandaleeka5953,2021-07-17T13:20:11Z,0,What is the difference between OLS model and Linear regression with MSE ??......Do both give same ??.... plzz clear it 🙏🙏,True
+@bhagwatchate7511,2021-07-15T10:18:41Z,5,"Hello Krish, Thanks for the amazing explanation. I have one question as - Is it necessary to check summary and then conclude about multicollinearity. Can we proceed only with corr() function and conclude about multicollinearity.  Thanks in advance, :) #multicollinearity #Krish Naik #Regression",True
+@likithliki1160,2021-07-06T14:58:45Z,1,amazing Explanation,True
+@ayushasati2110,2021-07-06T05:02:37Z,0,your voice is not that much clear,True
+@kakranChitra,2021-06-10T19:24:00Z,0,"Thankss, good elaboration!!",True
+@adityakumar-sp4ki,2021-06-10T09:08:41Z,0,"while Importing this library -> import statsmodels.api as sm,  I'm getting this error ->  module 'pandas' has no attribute 'Panel'",True
+@0SIGMA,2021-05-12T15:31:18Z,0,WAH! beautiful sir..,True
+@adityapathania3618,2021-05-12T09:11:44Z,0,bhai data set to de dia kro,True
+@shubhamkundu2228,2021-05-04T13:45:00Z,0,"So to sum up, to identify multicollinearity, we use OLS (ordinary least squares) method to check the model summary for std error (values should be less not high), Rsquare value (should tend towards 1), p value (should <0.05 ), then also check for correlation (should be < 0.5) between the independent variables and drop the one having higher p value.  Can't we directly just use df.corr() for the dataset and drop the independent variables that are highly correlated?",True
+@gargisingh9279,2021-04-30T11:26:28Z,8,@KrishNaik Sir !! What about another technique called as VIF(Variance inflation factor)?That is the technique also used mostly for multicollinearity,True
+@amitkhandelwal8030,2021-04-08T17:21:05Z,0,sir why you cannot choose tv as B0.??,True
+@karangupta6402,2021-04-08T03:12:43Z,17,"Thanks, Krish. One way that you suggested is to Drop the feature. There is one more thing that we can do is combine the features which we also called them as an interaction term (like multiply Age and years of experience, and then run your OLS model). This also seems to control collinearity to some extent",True
+@DataInsights2001,2021-03-17T19:33:39Z,1,"Nice presentation! Dropping a feature is the one solution, sometimes you can’t drop and you may need that feature in the analysis what would you do? Combine features or division or multiplication? Or use factor analysis? Mostly the cases like Marketing Mix modeling the similar issues arise often. Please Try videos like Marketing Mix modeling, Optimization, and forecasting estimating ROI, IROI, response curves....",True
+@ruturajjadhav8905,2021-03-14T12:21:45Z,1,1.Linearity 2.Homoscedascity 3.Multivariate normality 4.Indepence of errors. 5.Lack of multicollinearity. Please do a video on it. I am not getting these concepts.,True
+@sumeersaifi6354,2021-03-12T15:33:49Z,0,"at the last, you said 1 unit decrease in newspaper exp will result in one unit increase in sales.     can you plzz explain it. because according to me it will result in change in profit but not in sales",True
+@avinashmishra6783,2021-02-20T02:06:12Z,0,Why multicollinearity arises?  What happens that reduces adj Rsq?,True
+@peeyushyadav4991,2021-02-05T08:56:03Z,1,Wait if the newspaper column/feature is not correlated then how do we come to the conclusion that it can be dropped as the P-value is high? Are we making the conclusions based on the T-test values here as well?,True
+@Datacrunch777,2021-02-04T19:34:33Z,0,Sir kindly upload vdio on ridge regression for lambda value and how can simulate with respect to the basic estimators or formulas,True
+@unezkazi4349,2021-01-19T02:24:17Z,2,"So that means we should now have 0 expenditure on newspaper? And after removing the newspaper feature, if we do OLS again, can there be any other feature with p-value less than 0.5 in the new OLS model?",True
+@shubhamchoudhary5461,2021-01-14T10:12:03Z,0,Is it like hypothesis testing??,True
+@nidhipandey8004,2021-01-12T14:37:58Z,0,What is the difference in OLS and gradient descent?,True
+@nagarjunakanneganti5953,2021-01-09T11:09:46Z,0,If I remove years of exp instead of age just by correlation matrix. It will work right?  I don't have to check for p values as if I can construct a LR model with just age could change the p value?  Any thoughts @channel,True
+@muhammadiqbalbazmi9275,2020-12-06T17:10:32Z,1,"I think, instead of removing any feature we can combine both correlated features (in this context you talked about) Age+YearsOfExperience=> Seniority level. Problem solved. (domain knowledge required for feature engineering).",True
+@jatin7836,2020-11-10T16:57:00Z,0,"An imp ques, if anyone knows, please answer ---> ""Why we give OLS, the X value(which is constant) and not the x values(which are our independent features)?  if we are not giving the independent values to OLS, then how can it is showing the table in output(with X and y?)""",True
+@Mohit-im1rp,2020-11-06T08:03:50Z,0,what is the p value in above explanation?,True
+@akramhossain9576,2020-10-31T22:12:05Z,1,"I was looking for Multicollinearity problem in interaction terms. How to solve this problem? One suggestion is centring the variable! But still confused! When one of my interaction variables is dichotomous and coding =0 is important for me, then if I use centering, 0 coding will not be there anymore! So how to solve this? Can you please clarify this for me? Thanks",True
+@JP-fi1bz,2020-09-28T12:23:36Z,0,Isn't P value used for null hypothesis??,True
+@namratarajput7092,2020-09-19T11:58:27Z,0,"hi i am getting error after running this line ""import statsmodels.api as sm"" ImportError: cannot import name 'factorial' i am beginner so plz help",True
+@deepaktripathi892,2020-09-17T17:51:57Z,0,As year and age are related how to decide which one to drop?,True
+@GauravSharma-ui4yd,2020-09-17T10:18:20Z,1,Ever wondered what is the effect of multicollinearity on estimates and predictions of linear regression. This notebook will walk you through 4 experiments showing and explaining the same.  https://www.kaggle.com/gauravsharma99/effect-of-multicollinearity-on-linear-regression,True
+@slowhanduchiha,2020-09-05T16:53:38Z,0,In the 2nd example wasn't scaling important??,True
+@adhvaithstudio6412,2020-08-09T13:37:11Z,0,Can you please explain why p values is biased towards in Age variable why it is not for years of experience.,True
+@adhvaithstudio6412,2020-08-09T13:35:48Z,0,why you are ignoring age only why can't we ignore years of expereince?,True
+@rankerhill2335,2020-08-05T07:32:52Z,0,"Unless you calculate Variance Inflation Factor, you cannot be certain that multicollinearity is nor present. Ideally you should be calculating partial correlation coefficient and compute (1/1-partial correlation coefficient) and see if this is greater than 2",True
+@shreyasb.s3819,2020-08-01T19:22:07Z,0,Good explained. Thanks a lot,True
+@akash_a_desai,2020-07-28T12:15:08Z,0,Thanks sir your explanation is really good,True
+@sahilgaikwad4508,2020-07-18T19:21:04Z,1,thankyou for such a wonderful explanation sir,True
+@abhishekverma549,2020-07-15T21:27:35Z,1,Sir what is P>[t],True
+@abdullahshafi8865,2020-07-13T15:33:39Z,0,Intuition King is back.,True
+@raghavchhabra4783,2020-07-13T14:40:10Z,0,"dekhlia, pr samjh nhi aya agar 150+ columns honge to kaise krna hai!!",True
+@pushkarasharma3746,2020-07-10T10:01:59Z,0,everything is fine Krish sir but pls try not to say particular in every sentence...it is very annoying,True
+@ashwininaidu2302,2020-07-09T08:40:22Z,3,"Hi Krish, Nice explaination of the concept. If you could make a video on Assumptions of Linear Regression ( theory and practical) , that would be of great help for us.",True
+@dhirajbaruah9888,2020-07-01T04:28:04Z,0,What does the p value mean??,True
+@SatnamSingh-cm2vt,2020-06-29T14:57:11Z,0,what does p-value signifies?,True
+@user-qz1hd4xp1p,2020-06-21T08:45:41Z,0,"Cool video, but about heteroskedasticity?",True
+@shivanshsingh5555,2020-06-20T14:30:47Z,0,why u r keep saying 0.5 again and again sir. This is not cleared. Plz send the link  for the reference coz i m watching this playlist step by step but im still not getting this 0.5 criteria,True
+@SayantanSenBony,2020-06-12T16:03:27Z,0,"Hi Karish, i have one question, which i am facing daily basic in realtime, How to detect heteroscedasticity and what is the method to rectify it in python ?",True
+@abhishekchanda4002,2020-05-21T12:41:02Z,0,"Hi Krish,  I got a doubt. If i ignore multicollinearity in the second example, how will it affect the prediction?",True
+@shashankkhare1023,2020-05-19T09:41:51Z,5,"Hey Krish, do we really need to look at Std. error? I think looking at p-vaue is enough as p-value is calculated based on t-statistic, which is calculated based on coeff. and std. error. Correct me if I am wrong, thanks",True
+@nithinmamidala,2020-05-05T00:23:53Z,0,correlation part 1 video is missing please upload and rearrange with sequence,True
+@abhi9raj776,2020-05-01T18:17:05Z,0,thanx a lot sir !,True
+@VishalPatel-cd1hq,2020-04-30T20:12:26Z,1,"Hi Sir, can we directly find covariance matrix of the feature data and find the determinant of the covariance matrix if it is Zero then we can directly say that our covariance matrix is singular and if it is singular then it having dependent variable. so there is Multi-Collinearity in our data ...",True
+@StyleTrick,2020-04-17T17:01:09Z,8,"Krish, could you explain why AGE has the high P value and not Years of Experience? If you remove Years of Experience from the table, then Age has a P value of 0, as this makes sense as in the data as Age increases, Salary increases accordingly.",True
+@RitikSingh-ub7kc,2020-04-14T12:18:32Z,0,Can we just use principle component analaysis to see if all variance is covered by reducing number of features here?,True
+@galymzhankenesbekov2924,2020-04-10T19:25:05Z,0,very good,True
+@syedhamzajamil4490,2020-04-07T18:42:56Z,0,Sir Can i use PCA for ignoring Multi_ colinearily,True
+@Katarahul,2020-04-02T16:13:10Z,8,plotting a correlation matrix and analyzing it is a faster option right?,True
+@sejalchandra2114,2020-04-01T22:32:43Z,1,"Hi sir, I have a doubt. Could we use this if we have one hot encoded features in the dataset?",True
+@guneet556,2020-03-31T07:26:24Z,0,Sorry but have to ask again in my previous comment can someone correct me ??,True
+@prijwalrajavat5811,2020-03-30T21:48:01Z,4,"I was searching for the theory behind backward elimination ....everywhere just the procedure was given but why was explained by you ...Thank you, sir",True
+@jyothinkjayan6508,2020-03-30T17:08:45Z,0,When will the next deep learning batch begins,True
+@harshstrum,2020-03-30T17:08:23Z,0,"Hi bhaiya, didn't get why you choose to drop age feature over year of experience.",True
+@Vignesh0206,2020-03-30T12:03:22Z,0,may i know is there a part one of this video?,True
+@jatashukla6891,2020-03-30T11:31:10Z,0,"hi krish i had bought your package of 300 rs on youtube , just to get in connect with you .i need your time to answer some of my doubts.Its regarding switching my career into datascience.Please let me know way to connect with you directly",True
+@a_wise_person,2020-03-30T06:52:07Z,1,How  is Dell ispiron i5 8th gen 2tb HDD for data science and programming work.,True
+@guneet556,2020-03-30T05:10:11Z,0,"Hi krish kindly please answer to this question of mine  for under and oversampling data the techniques u have mentioned is applied on numneric datatypes  for categorical datatypes first we have to encode in some 0,1 then further SMOTETomek and neamiss wil apply that is the proper way to deal ?? and if we use trees approach then it will straight away deal this imbalance and encoding thing itself ??   Please krish reply to this question it will be a big help!",True
+@sushilchauhan2586,2020-03-30T03:25:13Z,0,What if our feature are in 1000's ? pls reply any one who knows can answer,True
+@alexandremaillot803,2020-03-29T20:01:28Z,4,"Please After making a model with python , training, testing and saving it, how can I put new data through it for predictions ? Thanks for the content",True
+@sachinborgave8094,2020-03-29T19:06:39Z,1,"Thanks Krish,  Please upload further Deep Learning videos.",True

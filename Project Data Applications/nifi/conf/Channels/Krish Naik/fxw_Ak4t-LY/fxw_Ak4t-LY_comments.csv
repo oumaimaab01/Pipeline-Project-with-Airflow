@@ -1,0 +1,29 @@
+author,updated_at,like_count,text,public
+@wisdom_pathways,2024-05-03T14:10:54Z,0,"lol, this one is wrong, Monday should be closer to Sunday than Friday, but this encoding ignores this relationship.",True
+@rashedin6356,2023-10-04T14:20:25Z,0,"instead of mapping , we should do this,   df['day of week by value'] = df['day'].dt.weekday",True
+@the-ghost-in-the-machine1108,2023-06-19T17:58:33Z,0,"easier way:  df['Day'] = df[""Date""].dt.weekday -> this maps monday to 0, tuesday to 1 , so on  so forth",True
+@mehrdad_analyst,2023-03-19T13:37:26Z,0,Thanks for this video. But i have a question. Do we need to hot-encode ordinal variables or not? and do we need to scale them or not?,True
+@tannurohela6192,2022-05-01T10:57:26Z,1,"hey all, Thanks Krish Sir for a great video. Just wanted to update that dt.weekday_name will not work, instead try this  dt.day_name() to get the weekdays. Thanks.. :)",True
+@namanluthra7253,2022-03-08T17:00:07Z,0,How to encode ordinal variable with more than 50 categories,True
+@AmeerulIslam,2021-11-15T05:32:58Z,0,in ordinal is it always the higher number the more important or the model will figure that out?,True
+@sandipansarkar9211,2021-10-21T12:00:48Z,0,finished watching,True
+@sandipansarkar9211,2021-10-21T11:52:24Z,0,finished watching,True
+@ajaykushwaha-je6mw,2021-09-01T09:57:36Z,0,"HI Krish, in none of the video categorical encoding applied on after train test split, is it right approach ?",True
+@dharikarsath8852,2021-07-17T16:15:09Z,0,is weekdays ordinary🤔 this has to be nominal right,True
+@sanjaykrish8719,2021-06-23T07:07:10Z,0,shdn't day be categorical??,True
+@siddhantpathak6289,2021-02-03T18:18:50Z,0,"How do we handle non-categorical string value features, which are different for each row?   I think those features will get eliminated during feature selection.",True
+@vibewithritsy,2020-12-28T11:11:54Z,0,sir suppose i have data with same count of occurrence then how i am going to apply this priority,True
+@srishtikumari6664,2020-12-27T06:19:56Z,0,"Sir, Thanks for this tutorial. It's really amazing! We can also do this using LabelEncoder().",True
+@marijatosic217,2020-12-26T12:53:15Z,18,"At 5:16 the method is not dt.weekday_name anymore, it is changed to dt.day_name() :D",True
+@mattk220,2020-10-22T19:13:48Z,0,Very helpful thank you,True
+@sudharsanb9391,2020-08-10T08:11:04Z,0,Is using label encoding like this method in this  video and from sklearn library will give same results?,True
+@saivikas569,2020-05-29T03:36:06Z,0,Where you get this file sir form kaggle or your own created,True
+@revathil8986,2020-05-02T02:25:41Z,0,how ordinal encoding is different from the label encoding?. in both techniques we are assigning labels/rank to each category.,True
+@kirangeorge7659,2020-04-25T13:21:13Z,0,Can't we just use  sklearn LabelEncoder? whats the difference between  doing it like this and using .LabelEncoder?,True
+@ramakotisakha4067,2020-02-27T16:23:16Z,0,"Sir , can you make a video on handling highly imbalanced data set and methods to handle and on WBSVM",True
+@liquidation22,2019-11-30T05:55:49Z,0,"good job, very straight forward and clear sir!!",True
+@adityapatnaik6079,2019-11-05T20:39:54Z,3,"Please make a correction: Days of the week are categorical nominal. Please use one hot encoding , can not be encoded as 1,2,3,4. Does  Thurday have more value than Monday ?    Your videos are very good. I have subscribed to your channel.",True
+@amruthkavadi1042,2019-09-16T16:24:17Z,2,"Hi Krish, I am working as Manual web services Tester and planning to make a move towards Data Science. Just want to know are you providing any classroom training. I  had gone through your videos but not sure of where to start. Would be very helpful if you arrange the videos in order.",True
+@rohitsharma-kr9gk,2019-09-14T19:53:17Z,2,Sir can you make a video on fitness based recommendation system. and can you tell me how to collect data set of different people and recommend them food and exercise according to that data set. plz help  sir....,True
+@nehajain4525,2019-09-13T10:20:19Z,1,"Hey, I am a Chartered Accountant student. Is it possible for me to break into Data Science? Given my background will I be able to grab a job in the real world? And if Data Science will be of any use in my CA career.",True
+@dhivyaasai8933,2019-09-13T05:06:19Z,1,Teach python for machine learing,True

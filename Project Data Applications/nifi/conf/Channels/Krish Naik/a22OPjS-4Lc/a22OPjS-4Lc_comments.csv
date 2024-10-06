@@ -1,0 +1,45 @@
+author,updated_at,like_count,text,public
+@krishj8011,2024-05-31T07:02:58Z,0,Great Tutorial...,True
+@terminatorgamer97,2024-05-21T09:07:25Z,0,You are the teacher I was looking for. I thank you for your effort and knowledge ❤,True
+@AL_Rheem1,2024-05-15T12:06:04Z,0,"Hi , Is deep learning in this paid series ?",True
+@parthavi9702,2024-05-05T07:55:05Z,0,Thankuuuu sirr,True
+@anmol9943,2024-04-25T14:10:13Z,0,"How do we calculate and find out whether slope is positive or negative? Machine needs to calculate it right, as human we can see graph and say, but how does machine does it?",True
+@anmol9943,2024-04-25T14:08:55Z,0,How would the machine know whether slope is negative or positive? how are we coding for it?,True
+@naruto5437,2024-04-17T01:29:16Z,0,loved it,True
+@IshanTyagi-fo9ej,2024-04-14T13:11:41Z,0,what is difference between thetaJ and slope,True
+@saikrishna-pj4db,2024-04-11T13:06:01Z,0,Best way of teaching. Thanks,True
+@_arpanchandra,2024-04-07T10:19:16Z,1,"sir I think in 23min41sec there will be a chance of mistake !! cause [ h theta (x)^i ] & you just write as (2-2)^2, I think this will as (4-4)^2   please tell me I'm write or wrong ??.........and big fan sir !!",True
+@deepanshuvishwakarma316,2024-03-27T05:03:57Z,0,"amazing video going thrice through it, btw  what is the name of the software used for this drawing/ writing ?",True
+@24amit,2024-03-17T13:45:24Z,0,"Hey Krish, apart from the depth knowledge & great way of presenting, you have very good handwriting. This is just awesome!",True
+@sandeepgurram8,2024-03-15T22:35:14Z,0,"Hi, in the MSE formula why did you write 1/2m instead of 1/m - could you please clarify. [normally mean is sum of the inputs divided by number of inputs, here my question is why 1/2 is multiplied additionally)",True
+@sivadurga9204,2024-03-12T07:44:28Z,2,ML Demi God for non technical students 🙏🙏🙏,True
+@arslanahmadbhatti6267,2024-03-05T00:07:27Z,0,lovely,True
+@VishalSingh-jc7ep,2024-03-04T21:03:35Z,0,Sir is this video covering “intrinsically liner regression “ term is not used in the video . Please confirm if it is the same thing,True
+@hawkeye02292,2024-02-27T20:11:20Z,0,wow sir thanks a lot,True
+@mehuldarak8927,2024-02-06T10:25:21Z,0,Quick question: 32:30 Isn't gradient descent used for finding local minima?,True
+@sushilkumar-cw9cw,2024-01-27T05:52:17Z,0,Awesome explanation.,True
+@shanky6343,2024-01-25T22:02:09Z,0,"Excellent video, was scoping out videos that needed derivations and equations, this was perfect!",True
+@khandakersharminashrafi7086,2024-01-24T16:45:32Z,0,"Very impressive lecture, really enjoyed it!",True
+@saketmotekar5570,2024-01-10T12:34:44Z,0,Best video I found on liner regression on YouTube thank you sir for providing this,True
+@jatingawri,2024-01-04T02:47:39Z,0,"Seriously Great quality content man , I am from commerce background but still you explained it so well I used to backoff from the things which used to involve all this science terms derivative n all but after watching this playlist . Just want to say this Kudos too your struggle man Seriously Keep it up .🫡❤❤",True
+@michealdas198,2023-12-10T10:05:20Z,0,I really enjoyed the video but I would really like to have the notebook you created while explanation. Could you please provide the notebook file?,True
+@priyanshusingh8904,2023-11-24T08:03:01Z,1,"Plzz sir Continue this series, with elaborating more fields in AI like  Computer vision.  Fuzzy Logic.  Expert systems.  Robotics.  Machine learning.  Neural networks/deep learning.  Natural language processing.",True
+@yashwanthyashwanth8080,2023-11-21T07:04:39Z,0,"sir, we need to remember the derivation",True
+@kaleemullah247,2023-10-23T17:33:57Z,0,"When your Youtube tutorial guy says ""nothing but XYZ"", you know he is an Indian. 😅",True
+@sruthia134,2023-09-02T14:50:07Z,1,This video gives a very good clarity on linear regression than the other ones! Very simple and clear!,True
+@MuhammadKhan-ok3hf,2023-07-31T06:57:44Z,0,"Karish, you are Asian Andrew NG, Thanks",True
+@Alien-ik1tt,2023-07-24T05:24:20Z,0,Thank U So Much Sir to give Valuable content,True
+@feel4ever769,2023-07-07T07:25:56Z,2,"14:22 I dont know how perfect code is but i tried a bit  import matplotlib.pyplot as plt import numpy as np  x = [1,2,3,4,5,6] y = [1,2,3,4,5,6]  graph = plt.figure() fig1 = graph.add_axes([0,0,1,1]) fig1.plot(x,y,marker='s',color='b',label=""Slop"") fig1.set_xlabel(""X"",fontsize=14) fig1.set_ylabel(""Y"",fontsize=14) fig1.legend()  j = [] for k in range(6):     y1 = []     for i in range(6):         y1.append(k*x[i])     j.append((1/(2*6))*(np.square(y1[0]-y[0])+np.square(y1[1]-y[1])+np.square(y1[2]-y[2])+np.square(y1[3]-y[3])+np.square(y1[4]-y[4])+np.square(y1[5]-y[5]))) print(j)  slop = [0,1,2,3,4,5] plt.plot(slop,j,marker='o',color='r') plt.xlabel(""Slop"",fontsize=16) plt.ylabel(""J(0)"",fontsize=16)  graph2 = plt.figure() fig4 = graph2.add_axes([0,0,2,2]) fig3 = graph2.add_axes([0.1,0.9,1,1]) fig3.plot(x,y,color='g',marker='o',label='First_line') fig4.plot(slop,j,color='r',marker='o',label='Second_line') fig3.set_xlabel(""x"") fig3.set_ylabel('y') fig4.set_xlabel(""Slop"") fig4.set_ylabel('J') fig3.text(3.3,3.5,""Original"",rotation=38,color='b') fig3.legend() fig4.legend()",True
+@kesavarapuvenkataramana9880,2023-06-29T05:09:08Z,0,when we have both theta 0 and theta 1 for convergence alogorithm why j values is considered for both 0 and 1. Exactly 50:32 time line in  your video,True
+@rubayetalam8759,2023-06-11T09:08:30Z,0,PLEASE UPLOAD MORE VIDEOES ASAP!,True
+@sivachaitanya6330,2023-06-08T06:32:43Z,2,Hi Krish .......now a days in data science inteviews questions about deployment and model and performance monitoring also asking so can you make a video on performance monitoring also ....it will be very helpfull........thank you,True
+@saurabhsoni6912,2023-06-08T03:32:57Z,3,One of the best video on Linear Regression that I have found ...❤ Please continue this lecture series upto Deep Learning..🙏,True
+@mjxsh3lm,2023-06-08T00:01:55Z,0,Thank you Krish! Great video as always!,True
+@Tech_Enthusiasts_Shubham,2023-06-07T11:44:17Z,0,Thanks a lot for starting this series sir it is really helpful for me,True
+@sridineshr6598,2023-06-07T07:13:25Z,0,Can you please make one video of comparing time series vs regression techniques for demand prediction and the limitation of those?,True
+@TheGuts09,2023-06-06T16:02:13Z,2,Neat and clean explanation. I was confused about cost function and gradient descent and now It’s clear,True
+@gohilmilansinh1673,2023-06-06T15:54:45Z,0,Finally these series is continue Thank you sir,True
+@geekyprogrammer4831,2023-06-06T14:37:42Z,0,Krish on 🔥🔥🔥,True
+@aviralsharma2005,2023-06-06T14:24:21Z,29,"Giving such high quality content away for free REGULARLY, despite running a paid programme of his own. What a selfless gem, you sir! 🙌🏻",True
+@sanchaythalnerkar9736,2023-06-06T14:23:12Z,0,"I liked your Deep Learning series , can you create a tutorial series for the tensorflow developer exam?",True
+@praveensevenhills,2023-06-06T14:22:59Z,0,Am thinking about it appeared Tnq,True

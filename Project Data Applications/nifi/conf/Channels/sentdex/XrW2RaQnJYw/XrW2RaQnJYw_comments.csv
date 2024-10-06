@@ -1,0 +1,96 @@
+author,updated_at,like_count,text,public
+@azob8980,2023-12-19T11:18:46Z,0,"You should have basically, turn the winners into functions, and name them “vertical_winners():” or some sort so you know which winning method you are editing that’s what i would do",True
+@NikitaMelik-Marutov,2023-11-20T15:03:17Z,0,"thank you, thank, thank you very much!!! You showed me that programming(or coding) is very interesting and challenging.",True
+@HendersonDesign,2023-07-26T02:15:44Z,0,Seems like you would want to do? Diags=[] For ix in range(len(game)):    diags.append(game[ix][len(game)-ix]),True
+@acharjyaarijit,2023-02-05T05:23:28Z,0,"instead of this ""for ix in range(len(game)):"" what if we use only ""for ix in len(game):""   ????",True
+@asmitadasgupta,2022-07-13T08:15:46Z,0,"in the command prompt where you are using zip() for 3 sets of items, I think you have to use print(i) and not print(a).",True
+@user-pq1cj3hy3q,2022-05-25T02:57:32Z,0,i don't get how does range(len(game)) capture the diagonal spots in the array?,True
+@LetsJobu,2022-04-24T12:00:46Z,0,this man has the greatest collection of cups i have ever seen,True
+@joruhandewit8327,2021-10-12T14:37:51Z,0,dude you drink cold coffee? there's no chance that stays warm the whole time XD,True
+@1InVader1,2021-09-17T17:07:40Z,1,"As someone with a C/C++ background, every cell of my body is rejecting how things are done in Python. Like enumerate() for example. It makes no sense to me. I understand how it works and what it is doing, but like... in my mind there's no reason why I would ever, in my whole life, ever, need this function to work exactly this way.  Maybe I'm trying to optimize things too much and Python is just supposed to be an easy way to throw something together that works, quickly, but it's so weird to me.",True
+@teetechsys,2021-09-14T07:37:48Z,4,"The unexpected output at 14:45 was because ""a"" was being printed {print(a)} instead of printing ""i"" {print(i)}",True
+@XIsleTheWanderer,2021-09-13T18:55:02Z,11,"If im not mistaken, the issue you ran into at 14:55 is that you said ""print(a)"" instead of ""print(i)"" after ""for i in a...""",True
+@GomsterGamer,2021-07-17T07:32:51Z,0,14:30 should be print(i) not print(a),True
+@anutk67,2021-06-02T07:31:13Z,0,why do you have a comma after the 3rd bracket in 'game' ?,True
+@thelastcipher9135,2021-05-11T08:34:50Z,0,"You can print list(a), but NOT a where a = zip(x,y,z).",True
+@johnnybadmen3473,2021-03-01T18:55:37Z,3,"I gotta say, this is the most real tutorial I've seen so far. Whenever you run into a problem just google it. In most of the programming tutorials I've seen the programmers were either going off a script or were good enough to program whatever it is they were teaching without aid.",True
+@tcgvsocg1458,2021-02-26T08:09:31Z,0,I come from tech with tim channel talk to you good bit all i see its confus people don t know how to do....its really bad video...you have to watch your video before post it,True
+@rajkishore9330,2021-02-14T15:34:28Z,0,I have never seen such complicated things. 😂,True
+@FT4YOU,2021-01-13T17:18:45Z,0,"5:04 could you explain how the how diags.append(game[ix][ix]) results in crossing the game board diagonally?? i just can't understand how that works. i know range(len(game)) gets the range and the length from 0-8, but wtf has that do to with adding to [ix][ix] which returns diagonal winner. i HOPE YOU REPLY THIS PLEASE MAN I AM CONFUSED.",True
+@utkarshsachan768,2021-01-08T21:36:28Z,1,the error was that you wrote print(a) instead of i,True
+@sparevenom7470,2020-10-30T00:00:28Z,0,can someone explain 17:55 please i just don't understand what happened,True
+@jaidixit7435,2020-09-09T17:09:27Z,1,"14:48 , You are doing print(a), instead of doing print(i).",True
+@palmsprings1628,2020-08-28T01:46:21Z,0,I like your cup!,True
+@subking9094,2020-08-25T12:53:15Z,0,11:52 it says invalid syntax for me,True
+@alphadesignsmarketing2179,2020-07-28T07:33:55Z,0,"great sharing sir, I have a little issue in the final code, win code not showing the result after adding the value with game_board, but working fine with if we have assigned directly in-game list. I have the file to share, please let me know how I can share this with you. Thanks",True
+@woahart7476,2020-07-08T13:31:09Z,0,How do i join your discord,True
+@woahart7476,2020-07-08T12:53:58Z,0,Pls do djangoseries,True
+@woahart7476,2020-07-08T12:38:54Z,0,The vertical bit took so long to comprehend phew,True
+@FH-ux4rf,2020-06-21T23:46:03Z,1,"I'm going through these videos step by step, so this might be changed later on, but I just wanted to share what I personally wrote to get a more unanimous code, while still having the same end result:    diags = [] for row, col in enumerate(reversed(range(len(game)))):     diags.append(game[row][col])   diags = [] for row, col in enumerate(range(len(game))):     diags.append(game[row][col])   I think this makes it a lot more obvious that these do the same things, just in different directions. Let me know if this can be improved upon further!",True
+@cretorial,2020-06-14T00:30:13Z,1,14:49 you typed print(a) shouldn't that be print(i),True
+@pro_capitalism3006,2020-06-10T22:13:51Z,0,"# Diagonally check     dags = []     for col in range(len(board)):          for i in board:             dags.append(i[col])             col += 1             if dags.count(dags[0]) == len(dags) and dags[0] != 0 and len(dags) >= 3:                 print(""winner"")                 print(dags, ""diagonally"")                 exit() please tell me, it is right or not. please help mesentdex pls",True
+@arjupoudel792,2020-06-01T08:31:35Z,0,"Man you drink a lot of coffee, is that it ?",True
+@orbitrevolution,2020-05-08T11:42:56Z,1,That zip part really got me confused,True
+@corentinbeaufils2446,2020-05-07T12:18:16Z,0,for the second diags couldn't we use the first diags function and just transpose with .T feature ?,True
+@shaikhtanzil2630,2020-05-02T20:25:59Z,1,you really are bob ross of coding mann,True
+@extrememike,2020-04-29T22:27:41Z,0,This session took me a bit longer to digest. I think the time is just perfect. Thanks,True
+@gamingwithprab4689,2020-04-28T17:44:51Z,0,"game = [[3,  2,  3],                [0,  3,  1],                [3,  0,  3]] cols = list(reversed(range(len(game)))) diags =  [ ] for idx in range(len(game)):         diags.append(game[idx][cols[idx]) if diags.count(diags[0]) == len(diags) and diags[0] != 0:     print(""winner!!"")",True
+@nikhiljogesh6554,2020-04-26T07:47:35Z,1,good tutorials oops.. excellent tutorials,True
+@nikhiljogesh6554,2020-04-26T07:46:58Z,1,hello,True
+@shoebshaikh4902,2020-04-18T09:53:31Z,1,"this is better and short algorithm for second diagonal check   def wind2(game):     diag1=[]     for item in range(len(game)):                 diag1.append(game[item][len(game)-item-1])      if diag1.count(diag1[0])== len(diag1) and  diag1[0] !=0:         print(""winner"")",True
+@rohithkoya4076,2020-04-07T16:35:44Z,4,Are we gonna ignore that weird cat question on the screen at 10:55?,True
+@ktebe89,2020-04-06T21:53:42Z,3,"I appreciate your explanations, logic and smart approach, thank you for all the work, I'm trying to pick up Python and I stop to think and google things, while I'm following. Found this on Stackoverflow and I quite liked it.  ""When converting the list to a set, duplicate elements are removed. So if the length of the converted set is 1, then this implies that all the elements are the same.""  So while stopping at the beginning I applied this logic and did the below, which worked nicely & thought I'd add it here.   diags = [] for ix in range(len(game)):     diags.append(game[ix][ix]) if len(set(diags)) == 1:     print(""Winner!"")",True
+@belenbaixauli5218,2020-03-26T19:25:06Z,0,"Hi, thank you for all your videos.  May I ask, in min 4:22, how does Python know the variable ""diag"" refers to the diagonal?  i.e.how does it know that game[ix][ix] refers to game [2][0], game [1][1], and game [0][2])  ?   Thank you!",True
+@ashikass392,2020-03-23T06:27:57Z,0,"You wrote ""print(a)"" instead of ""print(i)""",True
+@alfredovalerijlaino5284,2020-03-22T17:00:42Z,0,"print (i) , dont worry also God took one day to rest is ok",True
+@__SKYNET__,2020-02-20T02:39:37Z,0,"You can use the numpy rot90(game,1) function to rotate the matrix and other diagonal. Is it cheating to use numpy?",True
+@ganeshnayak3004,2020-02-13T08:41:22Z,0,Thank you for creating this channel!! Love that laugh,True
+@AvantGrade,2020-01-29T13:27:42Z,0,make a drone mug. 😂,True
+@goldfishbrainjohn2462,2019-09-16T14:43:05Z,0,Because you wrote print(a) and it should be print(i) I think.,True
+@aldendelvecchio5123,2019-09-15T17:10:07Z,1,"for col, row in enumerate(reversed(range(len(game)))) is the reversed(range(len(game)) only being applied to col? If it was applied to both row and col then wouldn't we go [3][[3], [2][2], [1][1], aka the same path as the function: for ix in range(len(game))",True
+@eastwoodsamuel4,2019-09-09T03:57:24Z,0,"if all((game[0][0] == game[x][x] & game[0][0] != 0) for x in range(len(game))):   print('Winner') elif all((game[0][len(game)-1] == game[x][y] & game[0][len(game)-1] != 0) for x,y in enumerate(reversed(range(len(game))))):   print('Winner')",True
+@alihuey9786,2019-08-29T18:33:23Z,0,These checks would be different if instead of integers we used strings as place values?,True
+@yashpathak9285,2019-08-01T17:02:27Z,0,I want one of those Mugs!!!!,True
+@ztrixx3280,2019-07-08T12:25:15Z,0,This guy is awesome!!!💯,True
+@mrchow3177,2019-07-08T11:48:43Z,1,that mug haha,True
+@chadlammerding976,2019-07-04T00:46:02Z,0,Thanks for the great video!,True
+@bavalpreetsingh4664,2019-05-08T03:59:07Z,0,you have to print(i) not print(a),True
+@dininabodinay1707,2019-05-06T22:25:27Z,0,for i in a:     print (i),True
+@abdussaboor4405,2019-04-22T16:04:16Z,5,"game=[[1,2,3],[4,5,6],[7,8,9]] diags=[] for ix in range(len(game)):     diags.append(game[ix][-ix-1]) print(diags) tgis would have done for the reverse part dude",True
+@remdevbeba7531,2019-04-03T10:38:28Z,5,"I've done  diags.append(game[ix][len(game)-1-ix] for the second algo and its working, is it a good practice ?",True
+@cultofsogga5863,2019-03-17T11:52:16Z,0,why I understood what was till 10 part but I can not understand the last 2 tutors,True
+@John-yy1oy,2019-01-21T20:57:54Z,6,"instead of using reversed could you just use range(len(game), -1, -1) .",True
+@jiandeng8595,2019-01-12T08:04:50Z,0,vote for web dev,True
+@Zwiesel66,2019-01-03T15:25:25Z,1,At this time 9:22 my solution was: for idx in rows:     for idy in cols:         diags.append(game[idx][idy])         break,True
+@ZviiXx,2018-11-26T02:24:57Z,0,"a =  list(zip(x,y,z))  :)",True
+@williamzheng5918,2018-11-24T23:28:18Z,38,"Python has this cool negative-index feature we can take advantage of, it counts backwards the index. for ix in range(len(game)):     diag_1.append(game[ix][ix])     diag_2.append(game[ix][-(ix+1)])",True
+@LabGecko,2018-11-24T13:04:31Z,3,19:10 For me it isn't necessarily the video length - it's where you get in the content. They tend to end right as you're getting into the details.,True
+@humphreiy,2018-11-17T15:38:45Z,1,data analysis,True
+@adityatile1168,2018-11-11T07:35:09Z,0,"you did print(a), which should be print(i). 14:40",True
+@stephentomaszewski8501,2018-11-10T19:46:42Z,1,not web development. We aren't JS programmers :),True
+@blzfrost,2018-11-09T19:28:54Z,1,"I enjoy the way you set-up your vids. I'd rather it be broken down into chapters that feel natural. Rather than trying to cram everything to make it shorter, or add filler to make it longer. And seeing the little goofs and problem-solving means a lot too. Shows that all skill levels face similar challenges.",True
+@siscominimal,2018-11-09T09:45:56Z,1,Advanced python tutorials would be awesome. Thanks,True
+@usabnd,2018-11-08T19:26:25Z,1,Data analysis!,True
+@adamduvick,2018-11-08T07:50:44Z,0,"game = [[1, 2, 3],                [4, 5, 6],                [7, 8, 9]]  def check(game):     cols = [[row[i] for row in game] for i in range(len(game))]     diags  = [[row[i] for i, row in enumerate(game)],                     [row[-1 -i] for i, row in enumerate(game)]]      for arr in game + cols + diags:         if arr.count(arr[0]) == len(arr) and arr[0] > 0:             print(‘{} wins!’.format(arr[0]))   That’s what I would do. Scalable for any square game.",True
+@Cole9559,2018-11-08T05:16:14Z,0,data analysis!,True
+@rohandeysarkar8443,2018-11-07T17:02:24Z,0,"Can you upload the chrome dinosaur game, playing with hand gesture. Using opencv and NN",True
+@M4XC4V413R4,2018-11-07T16:41:32Z,31,you wrote print(a) 14:48,True
+@lank_asif,2018-11-07T12:32:23Z,2,"Another great video, thanks. And I find that the +- 20 minute video length is great because we get a bit of a flow going before the fun has to end (but I guess others might disagree).",True
+@InternationG,2018-11-07T04:43:11Z,0,can we do the web dev example pls... im trying to get the hang of web dev processes and a little bit of the front end for my new job.,True
+@Dino-bp2tz,2018-11-07T03:47:53Z,2,"Hi, am i able to do this tutorial on a chromebook?",True
+@hawkeyezar5779,2018-11-07T02:15:29Z,6,"If you could do a 3 - 4 part video on classes some time that will be super awesome. I think most new guys learning programming like me, always learn classes until its too late, as the videos that do cover classes are all very brief and straight forward.  Then the day you want to start building larger programs using classes, you realize that you actually don't know classes at all.  PS, enjoyed this video as well.",True
+@SteepMountainGames,2018-11-07T00:38:18Z,6,Does anyone else yell at their screen while watching these when he makes a little mistake as if he could hear you? Also is list(reversed(my_list)) the same as my_list[::-1],True
+@quandm1195,2018-11-06T22:09:45Z,0,Can you do file manipulation? for DevOps? Scripting?,True
+@quandm1195,2018-11-06T22:05:06Z,0,"Why do you need to print(col,row) when you can just run: for item in zip(cols,rows): print(item) ?",True
+@brotherlui5956,2018-11-06T20:56:30Z,8,Use list comprehensions: diag1 = [game[i][i] for i in range(len(game))]  diag2 = [game[i][len(game)-i] for i in range(len(game))],True
+@Smikay,2018-11-06T20:18:05Z,1,Web dev!,True
+@fredrikjosefsson7679,2018-11-06T18:15:51Z,0,Data analysis!,True
+@gautamj7450,2018-11-06T17:11:40Z,4,"Could just use range(0, len(game), -1) instead of list(reversed(range(len(game))))",True
+@vickygill4225,2018-11-06T16:58:08Z,0,"Hi Harrison , two days ago I left a  message on your IG but didn't got reply yet. Can you reply me back ??",True
+@LucidProgramming,2018-11-06T16:33:20Z,14,"Good to see one of your classic series get a reboot. Excellent job as always, Harrison!",True
+@soufianefariss,2018-11-06T16:29:16Z,0,Please delete the last semicolon in line 3. Makes me cringe.,True
+@ElliotKempson,2018-11-06T16:25:06Z,118,"print(i), not print(a)!",True
+@nickchamberlin,2018-11-06T16:24:30Z,0,Do all the tutorials!,True
+@MichaelCastillo,2018-11-06T16:24:24Z,0,I would like something about ML Models Deployments,True
+@sanxyzee,2018-11-06T16:22:20Z,4,"you should keep the videos a bit long, anything less than 10min is too short",True
+@neiltsakatsa,2018-11-06T15:31:00Z,1,Hi There sentdex !,True

@@ -1,0 +1,44 @@
+author,updated_at,like_count,text,public
+@Christian-mn8dh,2022-04-30T20:29:52Z,0,why use requests-html when I can use requests?,True
+@im4485,2021-06-21T21:16:34Z,0,"hi, i cant find a way to select an element by its attribute. Can you help please?",True
+@fhashim,2020-08-19T15:32:07Z,0,Please make a tutorial on how to make asynchronous requests using grequest,True
+@shazkingdom1702,2020-06-16T14:57:42Z,0,"Thank you so much!, I got the answer based on your guide. *nice helmet ⛑ you got back there*",True
+@Hegelian10,2020-04-22T18:17:32Z,0,"Strange, I have installed requests_html but when I import it in a Python script in Python 2.x or 3.7, I get:        ModuleNotFoundError: No module named 'requests_html'",True
+@anyad111,2019-10-13T10:43:59Z,2,"Hello! Recently I am trying to parse some webpages with Requests-html asynchronously. Theoretically this can be done by working with AsyncHTMLSession. However, I am unable to get result with it most of the time (I also use arender, the attempts to parse the webpages fails due to different reasons - most probably timeouts). Maybe it's just the poor internet connection, but I'd be really grateful if you uploaded a video or help me with this.",True
+@chengyaozheng8536,2019-06-24T09:26:08Z,0,for {basically anything you want to name it} in r.html:     you get urls,True
+@DominikPiekarczyk,2019-03-26T22:21:56Z,0,I wanted to give this Finance Yahoo example a try. Here's an example solution how to collect that data: https://github.com/kornislaw/scraping_recipes/blob/master/finance-yahoo_by_requests-html/run.py,True
+@SimOn-bz4xy,2018-05-08T08:26:00Z,4,"Sentdex! Can you show scraping from a page with a ""show more"" button, that loads more of the page in JavaScript ?",True
+@xiaokunxu7593,2018-04-06T05:14:38Z,0,"I was thinking why not using r.html.find_all('td', {'class':re.compile(r'class name regex')}). turn out that's beautifulsoup funtion. But yeah, having the render() to run js is nice!",True
+@shmuel-k,2018-04-01T17:16:24Z,0,You could have used a css selector when parsing the yahoo finance page,True
+@SimonEliasen123,2018-04-01T10:10:34Z,2,"Please make a video building a webcrawler, would be very insightful!",True
+@CodingTrades,2018-04-01T01:24:00Z,2,you forgot to say what it is good for,True
+@Hans-jc1ju,2018-03-31T21:21:03Z,1,"18:52 I ‘think’ replacing the spaces with periods should fix the period error, no idea about the parentheses, though. Backslash or HTML escape?",True
+@muhammedeltabakh852,2018-03-31T20:15:54Z,1,I love you man more than Mo Salah,True
+@Lucas-wl8py,2018-03-31T16:14:34Z,0,This is cool! And it gave me the idea of a series of videos about how to create a python package,True
+@pyxelr,2018-03-31T15:26:13Z,0,"Can I get some help how to install ""requests-html"" package to be run globally, for example, through Sublime Text? I am using Conda on Windows 10.  I have been trying to do that, but as I understand so far, it runs only in virtual environment that cannot be used by Sublime? Correct me if I am wrong.",True
+@developerarchitect7523,2018-03-31T09:05:19Z,1,"what the extension, who print the result down?",True
+@rajshah9031,2018-03-31T08:02:59Z,0,Is it useful for scraping website with ajax ??,True
+@WhiterockFTP,2018-03-31T01:57:29Z,1,"to find td‘s or other elements that pertain to multiple classes you just would have had to put dots in between. Read up on css selectors, jquery also uses them, pretty standard nowadays and less headache than xpaths ;)",True
+@dave597,2018-03-31T01:03:08Z,0,"wow, when did you start using sublime text? i havent seen your videos in a while but back then they were all done in notepad or idle! :)",True
+@cooperlimond,2018-03-30T22:55:41Z,0,"I think the // for retry in range(100): // part is what is allowing the script to continue after raising the error. From their doc: ""The simplest use case is retrying a flaky function whenever an Exception occurs until a value is returned."" So this would allow the exception to be printed, yet the script to continue I believe. Great content man, thanks for all of the awesome videos :).",True
+@iNuchalHead,2018-03-30T20:26:59Z,0,How well does it work on snippets or badly formed HTML?,True
+@kylek29,2018-03-30T16:59:39Z,0,"Thanks for posting this. I've used BS4 and another module to do the JavaScript (render the page) on many projects, it's nice to have it in a concise package.  Btw, I think the pagination on HackerNews failed because it looks for one of three (by default) ""next"" labels. ""next"", ""more"", ""older"" (DEFAULT_NEXT_SYMBOLS). The CNBC link has ""more"" in it.",True
+@LolLol-wy5fp,2018-03-30T16:22:35Z,1,Thank u sentdex you are leading me to the real world from africa,True
+@MohamedMagdyHammad,2018-03-30T16:10:29Z,8,The function couldn't clean up user data because these files were locked by chromium process.,True
+@mshirazab,2018-03-30T16:03:59Z,1,"Multiple classes in html is shown by spaces. So in CSS selectors, it will be separated by a '.'(dot) For example: <div class=""foo bar""> will be referenced as about.find(""div.foo.bar"") Also, '(' and ')' are invalid css selector characters so you have to escape them.  For more info, https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors",True
+@kemalonat802,2018-03-30T15:44:11Z,0,From Turkey👋👋👋,True
+@yokoono42,2018-03-30T15:16:22Z,8,"Regarding the next() thing, it's dead simple. Have a look at: https://github.com/kennethreitz/requests-html/blob/master/requests_html.py#L431-L470   So basically they just have a list of symbols like 'more', 'next' or 'older' and look for their hrefs.   So on HN page 2, the title from the CNBC story has  the word 'more' in it. Haha.   However, there are statistical method about how you can find out how a page uses pagination but I guess that's a bigger nut to crack for such a young library :)",True
+@Bidek56,2018-03-30T15:11:02Z,0,Have you done any tutorials on Dask?,True
+@rohnchatterjee7736,2018-03-30T14:50:54Z,0,I think for paging one can use threading with a except statement and hopefully it will work.,True
+@SkySesshomaru,2018-03-30T14:49:19Z,3,Make another video building a crawler using it. Nice video!,True
+@rohnchatterjee7736,2018-03-30T14:39:02Z,15,Best way to remove error  -> comment out raise statement. 😁😂,True
+@ayush0477,2018-03-30T14:38:48Z,0,Should i change my windows to 64-bit version ?,True
+@ddbonpc,2018-03-30T13:59:06Z,1,"awesome video as always, quick question tho why don't you use linux ?",True
+@TheJohnny9506,2018-03-30T13:27:35Z,3,Great tool for mixing with bs4 to build a robust crawler,True
+@sak8485,2018-03-30T13:20:33Z,0,"Can you make a video about GANS, and some real time appplications of it",True
+@SerenoMendes,2018-03-30T13:16:13Z,4,Great tool to build crawlers!,True
+@hamrozjumaev,2018-03-30T13:13:54Z,0,Great work! Thank you.... I would be very greatful if you check my privious comments. I need your help please,True
+@pysuhayb15,2018-03-30T12:56:56Z,2,Thank you  sentdex   thank you  But  can you help me how to connect  my tkinter project with  fingerprint please  Ibnuabiib@gmail.com,True
+@rumidom,2018-03-30T12:55:38Z,21,"man, i'm mixing that HTML parsing sauce with my beautiful soup right now",True
+@thehungman,2018-03-30T12:53:32Z,60,I like this type of video. You should do like a monthly video of new module so people can be aware. This will be very useful people that learn python.,True
+@yoeriyoeri4264,2018-03-30T12:48:38Z,0,1en,True

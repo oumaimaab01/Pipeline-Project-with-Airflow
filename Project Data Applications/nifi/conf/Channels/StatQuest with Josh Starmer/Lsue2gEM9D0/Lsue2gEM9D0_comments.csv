@@ -1,0 +1,172 @@
+author,updated_at,like_count,text,public
+@statquest,2021-01-08T00:53:17Z,14,"Correction: 3:23 The array should only have wt through wt5, ko1 through ko5.  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@RimaHandewi,2024-04-22T07:00:41Z,1,"Wow, your explanation is  so clearly!!",True
+@katielui131,2024-03-18T11:32:39Z,0,Why do you get that even if you are only using completely random data?,True
+@metvava,2024-03-12T10:30:05Z,0,great video! thanks for these!!! have you done a redundancy analysis and dbRDA plot video? thank you for contributing to our education,True
+@sarah.3599,2024-02-26T13:18:26Z,0,"Good video, but I wish you made it clearer that the genes were the features, because you would typically use the columns as features",True
+@angeloperera2022,2024-02-20T08:15:42Z,1,"Amazing video! I initially watched the video explaining PCA and i was mind-blown, thank you so much! I was hoping to ask if anyone on the comment section or even StatQuest if possible, would know how to implement PCA in a multivariate timeseries dataset and also ""examine the loading scores"" in such a dataset. Thanks in advance! :)  P.S - extremely clueless on anything coding or ML, but Ive got to use PCA (and other dimensionality reduction methods) on my timeseries dataset. so would greatly appreciate any direction on how to proceed.",True
+@angelagu8247,2024-02-14T02:06:28Z,0,"wt and ko are chosen randomly from the same distribution, why are they very different from the perspective of PCA?",True
+@samiotmani9092,2024-02-13T10:42:45Z,1,"Incredible French accent “Poisson distribution” , I saw it three times 😆",True
+@MainakDev,2024-01-27T10:57:58Z,0,at 5:10 why do we scale our data?,True
+@danielvmartins4635,2023-09-14T05:31:25Z,1,Excellent work!!! 👏👏,True
+@vedparulekar478,2023-09-09T13:35:01Z,2,One of the best videos ever made on this topic. This channel has helped me a lot in understanding machine learning in greater detail. Keep up the good work !!,True
+@ashishdayal172,2023-07-28T09:53:00Z,0,hey josh what is loading score?,True
+@unknow6540,2023-03-12T09:53:22Z,1,Please add all algo with python code,True
+@Cat_Sterling,2023-01-15T02:01:52Z,0,"Thank you!!! When we are speaking about variation in PCA, is that the same as variance?",True
+@timokimo61,2022-11-16T20:33:22Z,0,"Please could someone tell me which are the variables\dimensions we want to reduce and which are the observations\samples? im a little confused, especially that i found 10 principal components in the scree plot  the genes are the variables/features , and the wt, ko are the samples right?",True
+@nafisatarannum4351,2022-11-14T20:12:46Z,1,Thanks...sorry not to being able to donate you!,True
+@saulmartinez7351,2022-11-10T19:40:53Z,0,"4:46 Why the gene4,ko1 has a value over 1000 if the command says ""get a random value between 0 and 1000? Thanks for the value !! <3",True
+@neilanthony7596,2022-08-18T11:32:20Z,0,"Suppose a number of items exist of type 1 and 40 variables associated with each. Further items of type 2 exist, also having the same 40 associated variables. Is there a way to find which variables, or combination of variables, best discriminates whether an arbitrary item belongs to type 1 or type 2? Is this supervised PCA? Thank you for any help.",True
+@neilanthony7596,2022-08-16T21:16:45Z,0,"As PCA can be used to identify principal components which cluster a sample away from some clutter, can i then use these principal components as an input to a neural network to help better identify the sample? Or is this something which happens as matter of course in a neural network (ie the neural net doesnt need any help from PCA)? (i'm new to data science, and just discovering PCA, and where i can go now with all these amazing techniques, to help identify samples.)",True
+@neilanthony7596,2022-08-05T16:23:24Z,0,"What is the optimum number of components in a PCA analysis? I can have have say 3 or 20, i just dont know the relative importance of each component, so i need to run an analysis. However, is there some maximum number of components, beyond which a code will crash, or take too long to run? Many thanks, N",True
+@ccli,2022-08-04T05:44:51Z,0,"generally, in ML, we use 'columns' as 'features(variables)' and ''rows' as 'examples', but in the video, it is inverse. but is is not a big deal.",True
+@vipulsonawane7508,2022-08-01T18:16:02Z,1,"What a playlist, I simply loved it 😘",True
+@RachelDance,2022-07-22T12:48:36Z,0,"Your channel has helped me immeasurably :) I just had one question here, and that is how precisely to go from the data sample array you start with, to the scaled data by hand? I tried but didn't get the correct answer? I did watch the PCA Explained video as well, but just didnt get the same result here and wonder if you could clarify exactly how it gets from one to the other...  should be: scaled_data = (data['wt1'][i] - np.mean['wt1])/ np.std(data['wt1']) ... for each datapoint i and each column right? this isnt real code im just making a point that its z = x-u / s :)",True
+@BrunetteViking,2022-07-22T07:37:03Z,1,"This channel is the best YouTube channel that I discovered. Thank you, sir!",True
+@IntegralDeLinha,2022-07-21T02:05:11Z,1,Woww! That was absolutely awesome!!! Thank you so much!,True
+@allinone0126,2022-07-15T16:50:00Z,0,"hai, could help me to this question please?  Xnp = np.asarray(X.todense()) # Run a principal component analysis on Xnp # How much of the variance can be explained  # by the first 10, 50, 100, 200, and 500 principal components?",True
+@regularviewer1682,2022-06-28T15:29:54Z,0,Only criticism is that it would have been nice to see the table before and after,True
+@zaidmalani,2022-06-17T07:06:21Z,0,Can you please do HMM,True
+@sachinfulsunge9977,2022-06-13T08:18:22Z,0,"numpi, lolololol",True
+@sualihahjan8673,2022-06-05T07:13:03Z,0,"What if i already have a dataset which i will upload only? what do i pass in this line in index?  pca_df = pd.DataFrame(pca_data, index=[], columns=labels)",True
+@ayeshaali6462,2022-05-23T00:38:31Z,0,"loading_scores=pd.Series(pca.components_[0],index=genes) what should i write in place of genes",True
+@ayeshaali6462,2022-05-23T00:11:16Z,0,i am getting pc1 100%,True
+@fengjeremy7878,2022-04-16T07:14:31Z,1,Awesome! I don't need to read those terribly written textbooks!,True
+@Leonardo-jv1ls,2022-04-15T10:34:46Z,0,"Your tutorials are amazing. But just a fast tip. In your examples, it would be better if you used common people data. Like a table with favorite beers, dogs, people in apartments etc. Because using genes I can never picture the ideas behind very clear. And always get lost with the concepts.",True
+@hareemfatima2229,2022-04-10T18:00:20Z,0,How we import these packages,True
+@3stepsahead704,2022-03-15T08:32:03Z,0,"Very concise, I will surely be coming back to this video, however I would like to know why PCA is able to group these two categories (wt and ko), when it's shown they are generated from the same random method. If all indexes were generated at the same time, I would get it, but as they are generated index by index, I seem not to be able to grasp it.",True
+@sevicore,2022-03-02T17:02:20Z,0,If u end up using the PCA data...would not cause data lakeage in our predictive model since scaling should be done after train test split?,True
+@aishwaryadas3681,2022-02-26T16:56:26Z,0,"Hi can you make some separate videos for python,numpy,pandas sk learn for the libraries which are used for data science and machine learning some basic ideas!!",True
+@x11y22z33me,2022-02-22T18:21:49Z,1,"Simply loving StatQuest. Concise, clear and fun videos. One point I noted while watching this video is that the latest version of sklearn PCA() will center the data for you, but not scale it. So if you just need centering for doing pca, you don't need to worry about preprocessing.",True
+@prakhars962,2022-02-06T02:57:23Z,2,this is so good,True
+@user-iy7rm7dt8x,2021-12-29T00:06:17Z,0,It is great. sorry for my English. I want to see a video about lasso (l1-regularization).,True
+@avadhootukirde1575,2021-12-25T14:23:18Z,1,What's about the source of dataset??,True
+@tymothylim6550,2021-11-16T11:53:40Z,1,Thanks for the great video! :),True
+@peiyunli6274,2021-11-15T05:19:22Z,0,"For the loading score part, my code is 'loading_scores=pd.Series(pca.components_[0],index=subject)' but I got this：Index(...) must be called with a collection of some kind, 'subject100' was passed anyone knows what is wrong with this? Thank you!",True
+@harryliu1005,2021-11-11T06:01:56Z,0,"Hi Josh!,  this is a very excellent video that helped me a lot!!! I have a question,  what if  PC3 PC4 is also essential? Do I need to draw  2  2-D graphs, or what do I need to do?",True
+@samirsaci6723,2021-11-05T10:37:10Z,1,I push the like button even before I play the video. Because Josh never fails to amaze me.,True
+@nidhimadugonda5770,2021-10-30T15:06:38Z,0,How do we import all those libraries??? Do we have to download anythiny extra ???,True
+@merinthomas5644,2021-10-27T11:45:00Z,0,"Hi , Great video ..thanks. one question as there are 100 genes (features) wont there be 100 PCs ?",True
+@Orioricrafts,2021-10-22T17:44:00Z,0,"Hello, i am getting a PCA of 10% variance in my dataset. Can anyone please help ???",True
+@shreyjain6447,2021-10-14T06:15:00Z,0,What if I get 4 variables with maximum variation in the scree plot? How would I then plot a PCA plot?,True
+@karannchew2534,2021-10-12T03:38:43Z,0,"Queation please... 09:50 wt and ko samples are both created with the same random function Poisson (10, 1000). Why are wt samples (and ko samples) more correlated??",True
+@gbchrs,2021-10-11T17:22:25Z,0,is centering included in sklearn's pca model and that's why there is no extra step to center?,True
+@danielcozetto421,2021-08-24T00:29:28Z,2,"Hello Josh, Thank you for the amazing video! Quick question, at 9:18 how can I adapt ""index=[*wt, *ko] for an excel input? Lets say that we have the same variables (Genes vs wt/ko) but in an excel file. How can I add these labels to the final plot (9:47)? Thank you again!!",True
+@ryodejaneyo6350,2021-08-16T13:17:53Z,0,"I am pretty new to Python and machine learning, but if I understand correctly PCA is something like best fit lines so that we can reduce the dimensions so that we can visualize them easily am I right? My question is how can I get the formula of the lines for PC1 PC2 etc?",True
+@iyad863,2021-08-05T21:37:17Z,0,how they are 2 samples then become 10 !! try to explain the method with some real-life example,True
+@amribrahim7850,2021-08-01T16:20:32Z,3,"Awesome. Please create more videos about how to implement the machine learning as well as data science concepts explained here into Python. That would be super helpful for us, in particular beginners.",True
+@antomartanto,2021-08-01T04:09:52Z,1,You are one the best teacher that i've ever found. Thank you very much!,True
+@vizz2328,2021-06-27T10:37:30Z,0,"what happens if we give the n_components=d, d being the no of dimensions? Does PCA denoise the data because there won't be any reduction in dimensions?",True
+@rohitrajora9832,2021-06-07T08:36:19Z,2,Really appreciate this and would love to see more concepts implemented in python.,True
+@geraldopontes37,2021-05-20T16:00:45Z,1,Your videos are great! Thanks,True
+@sarathkareti8993,2021-05-17T02:21:42Z,0,"This video is really awesome! I am just confused on one thing, what are your predictors and what is your target?",True
+@mohammedghouse235,2021-05-02T16:43:41Z,15,Not only the best PCA demonstration but also THE BEST introduction to Python. Hats off to you man!!,True
+@olehsorokin7963,2021-04-29T21:46:19Z,0,That's a cool one. The fact that observations are columns makes it so confusing though. I'm really used to the tidy data notation,True
+@dafran500,2021-04-25T18:10:53Z,0,How can I select the final components to apply them to new data?,True
+@dafran500,2021-04-25T17:26:44Z,0,"Hello, thanks for the videos. I think you explain great. I have a question. How can we make rotations  with this package?",True
+@LittleScience,2021-04-20T11:03:19Z,3,"I have been dabbling in data science for a while now, and only now learned that pandas stand for ""panel data"" xd This channel never ceases to amaze",True
+,2021-04-08T23:55:41Z,0,"I don't know why in the PCA graph you plot the ""features"", in some other videos, they plot all the data point and visualize the data in the new subspace... And I don't know what are the meaning of the x-axis in the same plot, what does -10 mean in the PC1-89.9%? thanks",True
+@karannchew2534,2021-04-04T10:06:06Z,0,"Question please.  This line trasforms the original data to a 10x10 array: pca_data = pca.transform(scaled_data) The video says: it generates the coordinates for PCA graph based on loading score and scaled data.   Apart from the coordinates in graph, what do the values actually represent?  How should I interpret them - Is it the amount of variance of sample values attributed to each PC?  The distance of each sample on PC line to the origin?  What is the unit?",True
+@saiakhil4751,2021-04-03T06:40:07Z,1,Math learned statistics from Josh ;),True
+@saiakhil4751,2021-04-03T06:39:12Z,1,Wow Josh.. Thanks for that unpacking concept. I never knew that my whole life...,True
+@jiangxu3895,2021-03-26T06:45:26Z,3,Thank you Josh. Such practice is important and valuable!! And you really also taught some Python tricks that I don’t know.,True
+@kajalmishra6895,2021-03-21T08:19:58Z,0,Is scalling to be done for both test and train dataset?,True
+@jeremylv3029,2021-03-21T07:53:29Z,1,"Man, u r a gem. I will pay for the knowledge later after my graduation bro. lol",True
+@marioaguilar8735,2021-03-19T17:00:54Z,0,"Hey, great video. Pretty clear explanation, I appreciate. I have a question to any one willing and able to answer: In case of not transpossing the data when scaling it in the beginning, why does the program throw an error later when creating the pca_df DataFrame? The error is the following:  ValueError: Shape of passed values is (100, 10), indices imply (10, 10)  Additionally, as curiosity, when not transpossing the data, PC2 has almost as much explanatory power as PC1. Otherwise, only PC1 captures variation. Does any one know the reason?  Thanks",True
+,2021-03-19T01:41:06Z,0,"In the loading_scores, it appears this error: valueError: Length of passed values is 8, index implies 9686. I'm using my own dataset",True
+@the_kombinator,2021-03-09T20:41:46Z,0,Threw an error on line 20 in Pycharm... 2 hrs spent trying to figure it out. This is why i am not a coder.  *edit nvm misspelled a word.,True
+@jack.1.,2021-02-22T23:43:42Z,2,"Wish there were more statquest coding in python videos, they are the best! Much prefer to regular content although that is still really high quality",True
+@KikiBah,2021-02-22T19:56:21Z,1,"This was so clear, thanks! Finally I can do PCA in python, BAM 😊 You DA BEST!",True
+@dnuyc,2021-02-17T10:00:08Z,0,"Great tutorial, sorry if my question may be ammature, but how did they differentiate WT and KO apart in the final PCA, I thought the data set was randomly generated?",True
+@godsperson5571,2021-02-15T12:17:17Z,0,"Thanks for the ""easy"" to follow tutorial. I am trying to do a PCA for my RNAseq data but when I run  scaled_tmp = StandardScaler().fit_transform(tmp.T) I get an error message: 'could not convert string to float: 'lcl|NC_000913.3_cds_NP_414542.1_1'. The lcl... is my target gene ID and I cannot edit it since i will need it later on to identify speficific genes. Please how do I solve this error message?",True
+@azrahasan3796,2021-02-11T23:37:26Z,0,"Hi, You are a lifesaver. I am trying to do PCA analysis on my own data but since every demo video either use the databases and you created your own data. I am missing some crucial steps, especially in defining index when i am doing it with my data. Will it be too much to ask few more videos on machine learning where you use the excel sheet data from your laptop.",True
+@jiayiwu4101,2021-01-20T16:14:58Z,0,"What is the point to look at loading scores at the final step? My understanding is as follows. Each gene is a sample. If their loading scores on PC1 are similar, it means a lot of samples are projecting around a similar position on PC1. So they are clustering apparently. Am I right?",True
+@GoktugAsc123,2021-01-07T20:33:41Z,0,"Great video but shouldn't it be list(range(1,6)) =  [1,2,3,4,5]?",True
+@vaggeliskyrilas3525,2020-12-18T13:01:14Z,0,"Firstly, very good video. Secondly I am running the code in some spectra I have and I get good PCA plot but the loading scores seems to be wrong. Have you any idea why?",True
+@naviddavanikabir,2020-12-07T15:13:56Z,0,"fantastic, like always. I wonder  how Poisson distribution caused each wt samples and ko samples to be correlated with each other?",True
+@nonalcoho,2020-12-01T05:28:46Z,1,I like the way you plot the ratio of each PC~~ It is really easy to read! BAM~~~~~~~~~~,True
+@henkhbit5748,2020-11-26T20:24:50Z,1,As always a great presentation and the python code just give the extra bite...,True
+@jessicanathania5718,2020-11-25T06:00:09Z,0,"dude i'm trying to do isotonic regression with toydataset, but the error show x is not a 1D ARRAY, can i use PCA to turn it into 1D?",True
+@tl-lay,2020-11-25T02:35:52Z,2,YOU ARE SAVING MY DEGREE I LOVE YOU SO MUCH I CANT EVEN BELIEVE THIS IS THE SAME MATERIAL IM LEARNING IN MY MACHINE LEARNING CLASS RIGHT NOW.,True
+@mattheckel2609,2020-11-13T09:40:11Z,13,"""Note:  We use samples as columns in this example because... but there is no requirement to do so."" ""Alternatively, we could have used..."" ""One last note about scaling with sklearn vs scale() in R""  This is some of the gold that sets StatQuest apart.  Thank you!  ❤",True
+@redcat7467,2020-11-10T10:07:28Z,1,I have listened to the song twice.,True
+@spag5296,2020-10-19T18:35:53Z,2,You've got the right formula for simple explanations. Teach me dawg,True
+@advaitshirvaikar4751,2020-09-06T15:27:51Z,0,"Hey Josh, how do I find out which feature in the original dataset is to be removed(the one that least affects the variance im assuming)? I know we use PCA for the same, but I just can't understand how we select the unimportant feature from the original dataset using PCA.",True
+@advaitshirvaikar4751,2020-09-06T14:00:06Z,46,"Whenever I search for some machine learning based explanation, I add 'by statquest' in it ^_^.  Keep up the great work :')",True
+@janebond3263,2020-09-04T07:38:58Z,0,"I wondering if you have a video about how to perform RNA-seq, DNA-seq, chip-seq,  through python :) what language DO YOU CONSIDER is better python or R?",True
+@janebond3263,2020-09-04T06:33:26Z,0,"It work! I did it! Finally, however, every dot in my plot doesnt have the label wt or ko. So , I couldn't analyze my data.  Any suggestions about how can I fix it?",True
+@innocenceesstt1,2020-08-29T19:11:01Z,0,Thank you very much for this tutorial. Please can you explain how to get correlation matrix,True
+@donkkey245,2020-08-15T00:12:18Z,1,"dear instructor, will you release a python version of your ml course. supper fan here!",True
+@airthang,2020-08-06T14:51:01Z,0,"Hi, by any change, you have video about theory of PLS and how to implement it in Machine Learning?",True
+@arufuredo,2020-07-30T02:52:30Z,0,"Hi Josh, thanks a lot for this video, it hit the point! I was wondering how to apply PCA in Python and came to this marvelous video.  I made my own Jupyter Notebook following your instructions and came neatly. One minor problem (I really dunno if it is): my data came all the way around at the last steps. My WildType cluster was at the right, while the KO one was on the left. I tried several times because I thought it was due to randomness, but it always had the same shape. Any ideas on this? In other news, I'm from Argentina (I speak Spanish), so I was wondering if my Notebook was of any use to your Spanish-speaking viewers. If so, I would gladly share it! Cheers from Argentina, you've got a new Follower :)",True
+@andresfelipehiguera785,2020-07-24T16:05:44Z,2,Python ε> now we are talking!,True
+@shanmugapriyak7269,2020-07-14T20:03:43Z,1,Always can find a new and detailed explanation of steps from your videos! Thank you!,True
+@manannawal8466,2020-06-28T17:39:08Z,0,how do we interpret positive and negative load factors of features in terms of separating the sample?,True
+@KomangWahyuTrisna,2020-06-25T05:56:41Z,1,i really like your clear explanation. please do some videos about deep learning and NLP.,True
+@zehuigao8291,2020-06-17T19:26:51Z,0,"3:34s, the array only contains 10 elements instead of 12 elements..haha",True
+@yareniyigun7236,2020-06-16T13:08:17Z,0,Cool video thanks! How can ı generate numbers basen on poisson dist. that wont change when ı rerun the code for dataframe?,True
+@pressiyamu8976,2020-06-03T04:41:51Z,108,Dude you deserve a humanitarian award.,True
+@yareniyigun7236,2020-06-01T10:59:59Z,0,Thanks for all the axplanations but I have something in mind. I'm trying to reduce number of variables and I guess I should do that according to loading scores. As the loading scores are super similar how can I do that? Is ıt going to be a meaningfull move?,True
+@jiayoongchong2606,2020-05-31T11:23:18Z,2,6:31 using scikit PCA  8:35 plotting scree plot 10:37 loading scores for each principal component,True
+@liranzaidman1610,2020-05-23T14:44:52Z,2,"Amazing! this is so important, thanks a lot.",True
+@mramadan2009,2020-05-15T22:35:49Z,0,"Hi Josh Thank you for your efforts,  really  statquest is a magnificent channel , Could you please make video for Singular Value decomposition  SVD. thanks",True
+@aranburu4716,2020-05-09T20:41:44Z,0,"hello, your lessons are wonderful. can you make computer vision, deep learning, convolutional naural network with python programming language etc.",True
+@weiqingwang1202,2020-05-06T01:17:09Z,0,Is loading score eigenvalues? Wish to see a more linear algebra method of explaining pca!,True
+@bishwasapkota9621,2020-05-03T19:53:59Z,0,Why don't you display the data at least once for god sake??? That would have helped visualize the problem even better.,True
+@fvviz409,2020-04-26T14:09:31Z,5,MAKE MORE PYTHON CONTENT PLEASE I LOVE IT,True
+@sayanbhattacharya3233,2020-04-24T03:22:54Z,0,Please post some intuitions on sparse deconvolution and compressive sensing..Would love to understand your approach..❤️,True
+@reshmababuraj1900,2020-04-01T06:36:43Z,0,What will be the negative values in the loading scores indicates?,True
+@gustavojuantorena,2020-03-29T18:47:26Z,1,Awesome,True
+@richardlin6993,2020-03-19T12:46:12Z,0,Looking forward to Kernel PCA in Python or explanation!,True
+@seriousrelations,2020-03-17T01:13:22Z,0,I dont understand the role of T for scaling the data?,True
+@neptunesbounty1786,2020-02-12T06:28:24Z,2,"I learn so much better in Python for some reason, I think it's because it's more interactive and you can play around with the data! Good one. Stattttquueeeeeest.",True
+@uarangat,2020-02-11T11:19:25Z,1,wonderful,True
+@ayoubmarah4063,2020-02-03T16:00:40Z,0,is it necessary to scale the data ? becuse sometimes a variable might have a std near 0 wich generate NaNs,True
+@alexisaddicted,2020-02-01T13:42:46Z,0,"What about when you have +100 variables ? Plotting graph might not be a solution, and we perhaps would need to ""guess""/test the amount of PCA's that we need beforehand, is there any systematic way to achieve that ? It is mostly like, just run a loop, each with increasing number of PCAs and just see which one yields better results ? (Spray and pray type of solution)",True
+@madhu1987ful,2020-01-14T16:47:34Z,0,Hello Josh Request is to pls give demo on PCA in Python using real dataset which has 100+ features both categorical n numeric... That will help... Please.....thanks,True
+@deepcontractor6968,2020-01-07T17:28:01Z,0,need real data for my project any idea where i can get it from,True
+@damianwysokinski3285,2020-01-06T00:53:38Z,2,"instead of scaled_data= preprocessing.scale(data.T) we can write scaled_data = preprocessing.scale(data, axis=1).  Axis 1 -> mean 0 by columns, Axis 0 -> mean 0 by rows. For me it is more intuitive :)",True
+@hayskapoy,2019-11-11T09:50:50Z,35,Finally! You explain in the language I understand much better than English haha Thanks !!!,True
+@wuyanyun,2019-10-31T09:27:56Z,3,Thank you！ I’ve been struggling with this problem for so long !,True
+@ColeKillian,2019-10-13T21:08:13Z,1,Amazing video thank you very much,True
+@joyousmomentscollection,2019-10-02T11:18:58Z,0,Superb video... How does PCA perform if it has one-hot encoded data(transformed from categorical data) and discrete data. I suppose Z-scaling cant be done for such data types.,True
+@sagartomar4210,2019-09-13T06:22:56Z,1,you are awesome bro,True
+@ibanguniverse811,2019-09-05T16:46:59Z,0,"Finally u talk bout Python, it would mean everything to me Sir",True
+@erv993,2019-08-22T19:33:35Z,2,wow...so awesome..BAM!!!,True
+@kristinscott94,2019-08-08T20:35:04Z,0,"I am using a pd dataframe with gene expression data instead of creating a fake dataset. I am having a hell of a time generating a loading matrix with the index i need (gene_symbol), which is stored in a column from my original dataframe (df). The line of code I am referring to is: loading_score = pd.Series(pca_components_[0], index = genes). I tried setting index like so: index = df.gene_symbol, index = df['gene_symbol'], index = df.loc['gene_symbol'], but no luck. I get errors that say DataFrame object as no attribute ""gene_symbol"". Anyone have an idea of how to get it to work?",True
+@karenwong3079,2019-08-08T06:09:27Z,0,"why the shape of data changed from (10, 100) to (10, 10) after PCA?",True
+@petersq5532,2019-08-06T19:01:42Z,0,"to fill up the dataframe: df.iloc[:, :5] = df.iloc[:,:5].apply(lambda x: np.random... ..., axis = 1, result_type='broadcast')   posh...:)",True
+@KnightPapa,2019-07-07T02:41:42Z,2,Thank you! This video helped a lot with what I'm trying to do.,True
+@gmo2827,2019-07-04T20:12:27Z,0,Hope you can make R and Python tutorials.,True
+@matthsant,2019-06-27T01:03:41Z,1,Excelent tutorial!!,True
+@rabiabibi8634,2019-06-25T12:21:58Z,5,Hi Josh. The best PCA explanation. Thanks a lot :-) May GOD bless you 😊,True
+@dilaudum1075,2019-06-23T17:54:59Z,1,"Hello Josh,  Thanks a lot for another great video. I created a public Azure Jupyter notebook with the code and explanations. Everyone who has a Microsoft account can reach and use it for free, of course. It can be helpful especially for beginners like me.   https://notebooks.azure.com/dila-udum/projects/principal-component-analysis  Thanks for all your useful work.",True
+@epsilonprincipia9012,2019-06-01T11:01:20Z,1,Good explanation. Thank you so much.,True
+@merrimac1,2019-04-11T03:22:08Z,8,Thanks for the tutorial! One thing I don't understand is why the PC1 can separate the wt and ko samples. Their gene expression values are generated in a same way.,True
+@khastehshodam,2019-03-08T22:19:44Z,0,"Hi Josh Thank you for the video. It was a great tutorial. Just one question. What you called in the python code as loading_score, isn't in fact component score? It was score for each record (gene). Please correct me if I am wrong but isn't loading score the correlation between original fields (wt1, wt2 ...etc) and components?  Thank you",True
+@topsiterings,2019-03-01T16:08:57Z,1,Awesome!,True
+@reneeliu6676,2018-11-21T15:15:06Z,5,I am watching the 1st minute and I'm already super excited. Thanks!!,True
+@oswaldocastro9600,2018-11-14T07:15:02Z,7,Hi Josh... Simply incredible all StatQuest videos... Triple Bam!!!,True
+@LincolnFrias,2018-11-04T13:39:47Z,2,It's awesome to have the explanation based on python code. Thanks a lot!,True
+@maurolarrat,2018-10-03T21:40:39Z,1,Thank you!,True
+@raphael3835,2018-09-25T11:44:42Z,3,The only good step by step explanation I found on the web. Thank you so much!,True
+@revolution77N,2018-09-14T14:06:27Z,0,Thank you very much! Super helpful!,True
+@Mindyourbusiness0026,2018-08-16T12:57:14Z,0,How to embed python in web application for machine learning and data mining concepts,True
+@fmetaller,2018-07-05T21:39:29Z,2,First I want to thank you for all the awesome videos on PCA. I wanted to experiment with the demo code you published but I'm having problems in the data generation. The asterisk method used to stack wt and ko series is not working.,True
+@trustmebaz,2018-05-09T10:43:16Z,1,Thank you Joshua for this wonderful explaination. Thanks a lot. I am using your code for generating a scree plot in the same way and I obtain this error: bar() missing 1 required positional argument: 'left',True
+@vasanthakumar1991,2018-05-07T16:41:07Z,1,BAM!!! I understood what u said. I show my gratitude. But I have a query. I am confused with my dataset regarding which to consider a row and which as columns My dataset is regarding Phase measurement units (PMU) used in electrical grid or sort of the distribution lines we see around. One single PMU measures 21 electrical parameters for a timestamp. We use around Four PMU each measuring the 21 parameters at different locations at the same time continuously over a period of time. How can I arrange the above data for Performing PCU sir?,True
+@timharris72,2018-04-19T18:01:46Z,0,This was a reallly good explanation using Python,True
+@guohanzhao7813,2018-04-14T19:37:26Z,0,"COOOOOL, so easy to understand!",True
+@zishanahmedshaikh,2018-03-18T22:00:54Z,0,"Hi Joshua, Great Videos!",True
+@einemailadressenbesitzerei8816,2018-03-17T10:35:43Z,4,"I am in the last semester of my bachelor in computer science and i want to work in datascience business, i know the basics about datawarehousing/information engineering and artificial intelligence. Maybe you have a tip for me?",True
+@einemailadressenbesitzerei8816,2018-03-17T09:53:58Z,0,Cool music and Best indroduction video series I saw on PCA on Youtube.,True
+@EranM,2018-02-25T11:55:38Z,7,num-pee ? I think the people call it num-pie,True
+@vannanuon6077,2018-02-10T00:46:03Z,0,"Hi Joshua, Thank a lot for a clear explanation and you walk me well each step.  I have one question relating to PCA of Scikitlearn. Actually, you have said in your clip, but would like to ask to get a bit clearer. When using PCA of Scikitlearn, we must do train and test, is it right? The one in your clip is just part of it, right? I ask this because the result that I do following your step is different with the result from other programmes (CANOCO). Many thanks and look forward to hearing from you soon.",True
+@kamogelomaila3904,2018-02-06T04:03:56Z,1,"Hi Joshua, thanks for that. really helpful. i'm quite new to python myself, and i'm trying to compile a PCA across a range of macro-economic factors (inflation,gdp,fx, policy rate etc.,), now in all that you've done above where is the display of the PCA i.e: the newly uncorrelated data set, is it the loading scores you printed? or the wt, and ko variables you plotted? Thanks",True
+@shayon16,2018-02-01T14:54:51Z,0,nice !,True
+@jamessalafatinos426,2018-01-29T05:25:39Z,0,this is awesome,True
+@shendrew42,2018-01-22T20:14:58Z,1,"This was awesome an easy to follow.  I'm fairly new to coding in python 3, but when I try to run your code: plt.bar(x=range(1, len(per_var)+1), height=per_var, tick_label=labels) I get the error ""TypeError: bar() missing 1 required positional argument: 'left'"". Everything else work :)",True
+@bedegong08,2018-01-13T21:56:19Z,0,minutes 3: 31: what is the equivalent of unpacking (stars *) on python2.7?,True
+@christopheryogodzinski6860,2018-01-09T16:42:47Z,2,Another Great StatsQuest in the books!,True
+@soksokbadi157,2018-01-08T23:33:50Z,0,"Thanks for this wonderful explination but i have a problem with how to input the data so i can apply the PCA on it, my real data is from a signal which is a time series(time vs amplitude) so if you can show me how to iput my data ill be glad sir",True
+@DATABOI,2018-01-08T22:23:55Z,74,Python. Now you're speaking my language :),True

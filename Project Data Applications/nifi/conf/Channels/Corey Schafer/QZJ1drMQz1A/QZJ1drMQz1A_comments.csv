@@ -1,0 +1,224 @@
+author,updated_at,like_count,text,public
+@brandonrugzie,2024-03-19T18:45:42Z,1,Excellent explanations! Thank you for helping me set up a scheduled backup w/ this and your rsync video!,True
+@stojke8809,2024-03-10T13:29:57Z,0,I'm having issues with automating it. Anyone here can help me?,True
+@misterl8129,2024-02-08T20:04:30Z,0,Thank you!  How i can see if the cron actually ran?!,True
+@AMINE-yy3zb,2023-12-10T00:57:04Z,0,Excellent explanation as always. Some people are just born to explain things to humanity,True
+@iBoyLPs,2023-11-26T16:04:26Z,0,My cronjob simply isn't being executed at all. My goal is to run a script every 5 minutes: */5 * * * * sh /Users/admin/script.sh,True
+@gudjihn,2023-11-02T12:48:52Z,0,So how to call a job every day twice per day at 12p.m and 17p.m?,True
+@FrancoisTCS,2023-09-23T14:45:26Z,0,"I am not sure where the file is saved on Mac.  when I ask if there is a cron tab, it says it does not exist any for the user?? where are they saved?",True
+@747driver,2023-06-23T12:13:46Z,0,"Thanks a LOT Corey. With the help of your explanation I set up a cron job to kill ARDAgent every 3 hours on my old Mac Mini. ARDAgent has a huge memory leak and over time the system becomes unresponsive and eventually crashes. # kill ARDAgent (has a serious memory leak) at minute 30 past every 3rd hour 30 */3 * * * pkill -15 ""ARDAgent""",True
+@Ausare911,2023-06-13T00:11:32Z,0,"Do you feel there's anything superior to crontab? Seems the perfect tool at work for me, not sure what I would do without that, rsync and find. Coding out anything similar is leg work.",True
+@michalroesler,2023-04-11T12:37:57Z,0,"This tutorial is so fu***ng good, that it hurts. Thank you Corey.",True
+@williepietersen4707,2023-03-13T08:35:30Z,0,The best explanation on the internet! And I was searching for days.,True
+@nekoradesigner6359,2023-03-01T11:52:12Z,0,how can I can add crone jobs using code,True
+@moshesiani6363,2023-01-05T18:43:12Z,0,Thank you so much!,True
+@kfchenghk,2022-11-19T01:34:03Z,2,"Excellent tutorials.  Clear, short, with simple but very effective examples.  Thank you!",True
+@ontheskyblue,2022-08-22T13:07:43Z,0,great job ,True
+@jtflypegasus,2022-07-13T01:43:09Z,0,Thanks,True
+@congamike1,2022-07-04T13:33:18Z,0,Very helpful. Thanks!,True
+@dilipverma9217,2022-07-02T09:20:15Z,0,"Hello sir,How can configure crontab to run a script Second saturday will be execute at 5 AM and other all saturday will be execute at 5 PM  Please help me sir  Thanks in advance",True
+@rafikt2132445,2022-05-18T12:09:58Z,0,"short and crisp, thank you",True
+@grannyoldr988,2022-04-14T19:08:24Z,0,I learned how to use cron in about 19 minutes.  Thanks!,True
+@terenceau11,2022-04-04T17:34:13Z,0,"I want to run some python script daily using crontab, then my command in crontab will be something like 0 7 * * * python3 myscript.py  But my script requires some packages, that are in my virtual environment. How can I activate my virtual environment first? Do I do   0 7 * * * conda activate virtual_env  0 7 * * * python3 myscript.py",True
+@davidnwigley,2022-03-09T13:31:36Z,1,On OS X Monterey Crontab -l gives a blank line if there is none; now that had me going for a while.,True
+@abcpsc,2022-03-04T10:57:23Z,0,"I am not sure if every three days script around 11:00 would really work at the end of every month. If my impression is right, say for January, the last execution would be on 30th of January, the next one would be on 3rd of February, which is not three days apart",True
+@sebastianc2077,2022-02-11T00:03:39Z,0,Great video man this is my first time learning cron so this tutorial really helped.,True
+@ThoTran-no1uz,2022-02-08T08:03:19Z,0,thanks!,True
+@nikhitasabarik4051,2022-02-03T20:08:38Z,0,Really good explanation!!!,True
+@denkozlov4220,2022-01-27T14:51:02Z,0,"thanks, awesome vid actually",True
+@ekonurmuhrodin1187,2022-01-27T08:08:04Z,0,thanks for this video,True
+@bonkshiba1916,2022-01-01T09:10:52Z,0,nice tutorial,True
+@AkshayRoyal,2021-12-09T12:22:20Z,0,"You explain everything beautifully, not just this video but almost everything. Keep the good work up and keep saving our time by giving us crystal clear explanations",True
+@delmoteperrin6584,2021-11-19T14:00:18Z,0,Is there a button that allows you to cancel the execution of a cron when starting the PC? I made a script that shuts down my PC 5 seconds after it starts up and I have a cron in that runs on startup. So I can't do anything anymore,True
+@pocsolya2,2021-11-17T11:20:24Z,0,Thank you for the explanation :),True
+@meandme3423,2021-10-14T14:21:25Z,0,Meow,True
+@briansalkas349,2021-10-02T14:02:02Z,0,this is awesome.  I was so confused at first but this cleared everything right up.,True
+@juliannacalabrese6788,2021-09-29T13:24:28Z,0,I added the export EDITOR=/user/bin/nano how do i revert back,True
+@DennisHun,2021-09-23T10:02:25Z,0,Thanks for good explanation.,True
+@zackallen8759,2021-09-13T19:34:56Z,1,"Great breakdown, but even though my tasks exist, they never execute the command I need to have happen.  Even the tmp file doesn't exist when I do the cat /.",True
+@KrishnaManohar8021,2021-09-02T05:55:06Z,0,how can I include every month ending like 28/29/30/31?,True
+@marcevans4496,2021-08-22T16:35:56Z,0,"Hello Corey, a great thank for your amazing videos. I'm stuck on cron jobs shutdown. I want to shut down the computers of a classroom every day of the week at 5:15 pm. Here is my script:  15 17 * * 1-5 /usr/sbin/shutdown -h now  but nothing happens ...  Any idea of what is going on ?  I run Debian 11 in my class. But i had the same problem with MX Linux or EndeavourOS who are my personnal OS.",True
+@Dyslexic_Neuron,2021-08-20T20:09:15Z,0,The perfect video thanks man,True
+@onlynetflix8553,2021-08-13T15:26:25Z,0,"Hi everyone, I try to ask this question .... I need to reach a web page through the ""browsh"" browser for reasons that I am not here to list. Manually executing the command I reach the page and everything works correctly but if I try to start browsh from crontab it doesn't work. Maybe there is a way to configure this thing?",True
+@ulfen69,2021-08-11T14:07:15Z,0,As usual your tutorials are the best.  When searching tutorials I always see if you are covering the  topic I am looking for.,True
+@sanverc,2021-08-04T04:30:10Z,0,"Hi Corey, Does it matter where is my script to run?",True
+@annexgroup6878,2021-07-31T03:42:48Z,1,If I could only upvote this video a thousand times. What a wonderful tutorial. Thank you so much for sharing this with the world and helping us all get better! #LinuxRocks,True
+@sagarrawal5195,2021-07-29T09:17:47Z,1,how can i use cron job in android app to upload images in my social media app so when there are few users in my app they can see some content even there are not enouge users,True
+@plantyman,2021-07-26T23:13:34Z,0,hi..amazing video Corey! thank you ! I need to do something with crontab in Mac and maybe you can help me. what I'm trying to do is make a cronjob wait for previous rsync job to finish. Sometimes when you have a lot of data for rsync cronjob the system produce an conflict because the initial cronjob don't has finished. do you have any idea how to do that??? I use rsync in my Mac to make a simple backup in my raspberry but if I set it over each minute ... this is the problem ... I mean a cronjob like this * * * * *. thank you !,True
+@Synasonic,2021-07-22T05:21:31Z,0,oh man im just thinking of ways to bother my friends lol schedule a script for their birthdays that will just spam them with a message every minute  absolutely evil lmao,True
+@shahrukhjaved786,2021-07-17T11:42:46Z,0,"amazing video like always plss upload ""AWK"" command video aswell",True
+@vincenthuaweitien,2021-07-17T09:33:04Z,9,"For WSL - Windows users, you need to apply the following command for the crontab command to work.  'service cron status' = to check cron status.  'sudo service cron start' = to run cron service as sudo.  'sudo service cron stop' = to stop cron service as sudo. Optional command.",True
+@stillwrinkled,2021-07-14T10:00:41Z,0,"stumbled here because of Google search but wow! amazing flow, most straight fwd. tutorial I have ever seen.",True
+@Scorpisces1911,2021-07-14T00:01:30Z,1,"# Empty temp folder every Friday at 5pm 0 5 * * 5 rm -rf /tmp/*  It should be ""5am"" instead ""5pm""",True
+@sergeynaruzhiny7422,2021-07-13T21:46:14Z,0,"Thanks a lot, it was awesome explanation, thanks.",True
+@dailygrowth7967,2021-07-09T18:51:04Z,0,Cool stuff! Thanks for teach us :) Left a sub,True
+@rafael_tg,2021-07-08T00:26:45Z,0,"As always, best explanation of a topic ever",True
+@antondjayzakov4776,2021-06-19T13:50:14Z,0,"Great, deep explanation of crontab. Glad I didn't pass by       =)))",True
+@Jptoutant,2021-06-18T15:03:08Z,0,thank you,True
+@56independent42,2021-06-13T14:22:34Z,0,"ever since finding out about this, my life has been made so much easier. no need to remember to run a backup script every day. just put it in crontab and leave it alone.",True
+@daniellerma8004,2021-06-08T15:27:39Z,0,"hello, can somebody help me out? when i try to cat the directory, it says there is no suck file or directory",True
+@rushikeshbhavsar1564,2021-06-07T12:46:04Z,0,what if i have to schedule at 18:30 run it after every 2 minutes today?,True
+@adriannvalera9923,2021-05-28T03:14:19Z,0,thank you sir.,True
+@sanjacobs6261,2021-05-25T22:39:55Z,1,"Great tutorial, Corey! Simple, straight to the point, covers common mistakes, everything needed. Thanks for uploading it! :)",True
+@Franchyze923,2021-05-24T10:20:21Z,0,"Very helpful, thanks!",True
+@csbnikhil,2021-05-24T09:48:53Z,0,The only thing that was bothering me was the way Vi(m) was being used.,True
+@parkerlumkes8686,2021-05-19T13:09:57Z,0,"Are there options to run jobs when certain events have happened? I.e. someone logs into their computer, someone opens a specific application, etc.?",True
+@tharushapiyumal,2021-05-19T09:55:45Z,0,good job corey  ; ),True
+@user-wc1sm8cj8s,2021-05-10T14:21:56Z,0,your teaching is really one of the best in youtube. hopefully you'll upload again,True
+@a_maxed_out_handle_of_30_chars,2021-04-28T09:01:23Z,1,"thank you, I come to this video from time to time to brush up the concept and it never disappoints :)",True
+@marvellouschandan,2021-04-12T16:48:31Z,0,"When it comes to excellence, ""Corey Schafer"" is on Sky High :)",True
+@sherebiahtishbi,2021-04-09T15:41:33Z,0,"This the best tutorial for crontab!! Amazing job Corey, I learned quickly!",True
+@canavik,2021-03-30T22:44:03Z,0,"Great tutorials ! I have a  question: when you reboot your computer, do the cron jobs die ? how do restart your cron jobs? Can you specify this is in your bashrc file that when you log in, it restarts the cron jobs ?",True
+@henq,2021-03-22T13:57:13Z,0,"Very nice tut!   Liked the header in the ctontab file too! #  +------------------  minute (0-59)  e.g. 0,15,30,45 for each 15 minutes #  | +------------------  hour (0-23) #  | | +------------------ day of month (1-31) (enter * at day of week) #  | | | +------------------- month (1-12) #  | | | | +------------------- day of week (0-6) Sun-Sat  (enter * at day of month) #  | | | | | #  | | | | | #  * * * * *  command_to_execute   >/dev/null   #redirect output to file  suggestions for improvements?",True
+@usmanali-zv4in,2021-03-21T15:17:52Z,0,Thanks 😍,True
+@babatatani9781,2021-03-18T13:01:14Z,0,Top notch explanation..no competition yet,True
+@MrToftheL,2021-03-18T06:02:31Z,1,"Helpful, simple and well made. Thank you!",True
+@brendananderson9102,2021-03-06T08:36:13Z,0,"Thanks, commented snippets were very helpful. Didn't want to have to look for those alt codes that make those nice looking lines.",True
+@sumanpalisetty6096,2021-03-04T13:20:51Z,0,you made it so simple,True
+@ivan100kg,2021-03-02T17:04:48Z,0,It's a very useful and informative tutorial!,True
+@shivajichalise_,2021-03-01T15:06:46Z,0,# ┌───────────── minute (0 - 59) # │ ┌───────────── hour (0 - 23) # │ │ ┌───────────── day of month (1 - 31) # │ │ │ ┌───────────── month (1 - 12) # │ │ │ │ ┌───────────── day of week (0 - 6) (Sunday to Saturday; # │ │ │ │ │                                       7 is also Sunday on some systems) # │ │ │ │ │ # │ │ │ │ │ # * * * * *  command_to_execute,True
+@jakeave,2021-02-28T02:38:27Z,1,"As impressive as the cron jobs were, did anyone else notice he also knows how to read an analog clock?",True
+@yadusolparterre,2021-02-23T05:11:37Z,0,what happens if the job is already running?,True
+@shivamanand8998,2021-02-09T15:57:36Z,0,"Thanks, It was helpful",True
+@time_capsul.e,2021-02-02T18:23:27Z,0,Awesome,True
+@lordraj365,2021-02-01T11:54:02Z,0,Hail the Programming GURU !!!! 🤠🤠🤠,True
+@jakecope8572,2021-01-30T15:31:34Z,0,"If anyone wants the template for inside the config. # Example of job definition: # .---------------- minute (0 - 59) # |  .------------- hour (0 - 23) # |  |  .---------- day of month (1 - 31) # |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ... # |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat # |  |  |  |  | # *  *  *  *  * user-name  command to be executed",True
+@Adrian-fi3kt,2021-01-26T11:31:40Z,0,woah! a video that talks about vim and actually tells you which commands do what...thank you!,True
+@pankajholariya8331,2021-01-02T18:15:54Z,0,Thanks So much ...,True
+@tav9755,2020-12-31T15:06:04Z,0,"Corey, thanks for the tutorial. Great work as always.",True
+@Psychiatry.321,2020-12-27T11:10:42Z,1,MAC and LINUX are cousins even BROTEHRS,True
+@ragibahsanul6079,2020-12-27T08:52:09Z,0,Thanks for this kind of clear explanation man !,True
+@tigrangevorgyan3584,2020-12-25T07:51:41Z,0,Thanks for the cool explanation!,True
+@kylemanley915,2020-12-15T03:45:29Z,0,Great tutorial! Helped me finish my final project for my IT class I left a link to this video in the README https://github.com/supermyle/visitor_logger,True
+@doggilovh,2020-12-05T20:11:30Z,0,"If anyone wants to steal Corey's excellent crontab comment, I typed it out:  ``` #  __________ minute (0 - 59) # |  __________ hour (0 - 23) # | |  __________ day of month (1 - 31) # | | |  __________ month (1 - 12) # | | | |  __________ day of week (0 - 6) (Sunday to Sautrday; # | | | | |                                7 is also Sunday on some systems) # | | | | |  # | | | | |  # | | | | |  # * * * * *  command_to_execute ```",True
+@cuttlefishn.w.2705,2020-12-01T21:27:49Z,0,"What about running a task biweekly? It seems like cron is using the logical-and operation on each of these time values, so I feel like I can set broad ranges for the day-of-month and specify Friday like so:  */30  8-14  8-14,22-28  *  5  dunstify ""check accounts""  update: it's not a logical-and operation. I got the notification on a Friday, even though December 4 doesn't fall into the range 8-14. I don't want to use a separate script to work around this; any ideas to do this in a clean way?",True
+@ankith6073,2020-11-30T11:43:50Z,0,"You are amazing. Thank you so much. I need to run a script continuously forever in an EC2 instance. Is there a way to do it using crontab? As per my understanding until now, I am thinking about scheduling cron job to run my python script every 30 minutes and exiting the execution after 29 minutes inside the script (1 minute would not matter for what I want to achieve).  Any better alternative please?",True
+@Retro_Mere,2020-11-25T06:29:32Z,0,Thanks corey !,True
+@billprice3899,2020-11-13T18:56:50Z,0,"Thought I posted the question but I don't see it, I cant figure out how to get ""MAILTO"" to send email. Research not helping...Any thoughts?  Thx as always!",True
+@uByte2,2020-11-13T18:30:13Z,1,I went from having no clue about crontabs to master in 18:50. Thanks for the great tutorial!,True
+@sumeetkumar8075,2020-11-07T00:56:29Z,1,"Corey, Man you are the best! Thank you so much for spreading the knowledge in such a simple yet profound way.",True
+@tomgreg2008,2020-11-04T00:45:24Z,0,Very Helpful. Thanks!,True
+@aravsinha7980,2020-11-02T13:33:55Z,1,"No time waste, Straightforward, Clear Explanation. Overall Perfect video.",True
+@taoufikmanai6512,2020-10-11T18:18:40Z,0,Thanks Corey - always great,True
+@abdulvahab232,2020-09-29T04:38:47Z,1,"This was awesome. Short, crisp and very very clear! Thank you!",True
+@Tech-ub8dd,2020-09-27T15:31:05Z,1,"Thank you so much for this tutorial, it was very clear and easy to learn!",True
+@mohammadsaeb9576,2020-09-26T22:29:08Z,0,so cool and so good. thank you corey,True
+@Jokeofdday,2020-09-25T16:59:59Z,0,I am very lucky that I found ur channel.. 👍,True
+@fabioaraujo4921,2020-09-24T20:14:35Z,0,well done!,True
+@shvprkatta,2020-09-23T23:59:16Z,1,stuck somewhere?...come back to Corey's tutorial!!,True
+@thedarkknight4304,2020-09-22T12:54:20Z,0,Man You are the TRUE HERO. Love From Egypt.,True
+@victorjozwicki8179,2020-09-21T14:46:44Z,0,Very clear and concise thanks :),True
+@yogeshgaikwad3111,2020-09-17T19:53:42Z,0,very great thank u,True
+@bhavinmoriya9216,2020-09-16T20:11:58Z,0,"If my system is off, at the scheduled time for jobs, whether the commands will be run as soon as the system up again?",True
+@bhavinmoriya9216,2020-09-16T19:49:29Z,0,Hi Corey! Thank you very much for the awesome video! could I run update upgrade autoclean command periodically in crontab?,True
+@zestful14,2020-09-05T19:04:39Z,0,"Just set up two cron jobs, thanks Corey!",True
+@IreshDissanayakaM,2020-08-28T16:55:53Z,0,This is the first cron explanation I watched and I bet it's the best.,True
+@gustavorocha6592,2020-08-27T13:37:56Z,0,awesome!!!,True
+@espressoshot21,2020-08-22T23:13:25Z,0,"It says in VS Code that Cron Jobs extension has been depleted, and recommended using Power Tools instead. Could you do a tutorial on using Power Tools?",True
+@bentaybijamal2299,2020-08-16T21:48:34Z,0,great explanation,True
+@sayanghosh6996,2020-08-05T14:33:32Z,0,thanks for showing crontab.guru,True
+@PrathamPatel18,2020-08-03T10:26:10Z,1,Corey Schafer: Heck yeah I'll teach you in just one video even if this is your first tutorial. Me: Thanks!,True
+@lyawileh.a8741,2020-08-02T15:12:56Z,1,Thanks very much. You are a nice teacher on YouTube.,True
+@howards5205,2020-08-02T00:50:06Z,4,I just donated. It's a small amount compared to all the knowledge I've gained through your channel. Thank you so much for making all these educational videos available for everyone. It's helping so many people. Thank you.,True
+@anurag9110,2020-07-21T06:29:09Z,0,"Thanks, But you didn't show the output of cron job!",True
+@DonEdward,2020-07-18T02:32:36Z,1,"Corey, your videos are the best to study for the RHCSA exam! Thanks for making all the linux and python3 videos!",True
+@xml6576,2020-07-11T12:47:50Z,2,Great tutorial! Just what I'm looking for a long time. Many thanks~,True
+@carlosfernandez6470,2020-07-11T03:52:00Z,1,everytime i need a good explnation on any topic i come and search your channel and bangggg you have it and teach it like a pro. thanks bro for this excellent channel,True
+@itayb91,2020-06-17T11:54:57Z,0,"hey guys.  just published my new package: https://github.com/itay-bardugo/python-cron-migration  the package helps developers to add/remove cronjobs with python by revision files which are composed through CLI  I will be happy to hear what do you think. Enjoy :-)",True
+@riderblack6401,2020-06-10T23:35:56Z,1,"super useful, thanks!!!!!!!!!!!!!!!!!",True
+@joelmontesdeoca6572,2020-05-27T18:33:17Z,1,Awesome tutorial as usual. Sent you 3 bucks in BATs. Wish you would make tutorials for GO also. :),True
+@alexfan1109,2020-05-26T04:29:57Z,3,This is an underrated channel,True
+@programwins25,2020-05-19T19:58:18Z,0,Fantastic explanation!,True
+@ernestamoore4385,2020-05-19T05:27:38Z,0,Another two questions: (1) can it run jobs in intervals (every 10 min)? (2) can it run if computer is off?,True
+@ernestamoore4385,2020-05-19T04:56:31Z,0,"I edit with Atom, but when saved it is automatically saved in /tmp. I run crontab -l and tells me there is no crontab.",True
+@jaimematos6457,2020-04-22T13:22:48Z,3,best tutorial out there! thank you!,True
+@julianaboolean,2020-04-16T22:48:34Z,1,Thank you!!! 🙏🏾,True
+@shivamshrivastava2930,2020-04-16T13:32:22Z,0,Hello Corey  In this video Buddy No Discussion about time Zones  Please could you tell me how to add time zone of my choice and by default it takes what time zone.,True
+@slyesco,2020-04-15T09:50:00Z,1,Thank you very much for your explanation. And thank you for the tip on the crontab guru website!,True
+@tanishqvyas8387,2020-04-10T09:14:28Z,0,Those who unliked it are all Non-techies or dumbheads,True
+@tanishqvyas8387,2020-04-10T09:14:22Z,0,Those who unliked it are all Non-techies or dumbheads,True
+@ThatGuyAnonymous,2020-03-24T11:30:57Z,1,Perfectly explained 👌,True
+@magisterclassicus3473,2020-03-11T07:29:00Z,1,what if a cron job requires a user to input a password?,True
+@kinjalvora256,2020-02-28T23:30:54Z,0,Can I schedule a backup to let's say google drive using crontrab? I see that you have an example for google Pictures but I am wondering if it is similar for the drive?,True
+@MarloMitchell,2020-02-25T00:21:47Z,1,Great vid.,True
+@abdullahalasaad5427,2020-02-04T17:38:06Z,1,would that work automatically even if the machine is turned off?,True
+@GauravSharma-os6ds,2020-01-16T18:02:53Z,3,"Very useful, you've cleared all my doubt, really appreciate.",True
+@josephprinciotta9705,2020-01-16T08:14:39Z,1,Great work sir! Thank Yhou,True
+@Ethan-rw7ub,2020-01-16T07:47:05Z,1,"Hello Corey, thanks for the awesome video! I was trying to run a web monitoring script (which sends me an email when new content is posted) using crontab but came across a snag. I put all the commands I needed in a shell script. The script executed perfectly when I manually ran the shell script in the terminal, but when I scheduled the task into crontab, it kept raising this error --> -bash: syntax error near unexpected token `newline'. Do you have any idea what might have gone wrong?",True
+@Pkmafffy,2020-01-08T16:54:50Z,0,For any problems understanding the crontab timer:  https://crontab.guru/,True
+@looploop6612,2020-01-06T06:19:59Z,0,how may I get the first Friday of each month please?,True
+@gon-salis3008,2020-01-02T09:04:22Z,0,.,True
+@lukemperez,2019-12-11T20:17:02Z,2,"Maybe I missed it in the comments below or in the video, but what happens if the chron job is set and the machine is asleep (closed laptop) or off?",True
+@ajaykumararya.2,2019-11-10T05:31:39Z,0,sir this algo is not working because every second is calculte in to a min so your query have not provide a solution,True
+@ChrisAthanas,2019-11-10T05:13:01Z,1,"well done explanation, now i understand",True
+@yajantbhawsar2481,2019-11-05T09:27:43Z,1,"Hello All/Corey, Is there any way to set-up crons, which take less CPU UTILIZATION ? When I run multiple crons on server, the CPU UTILIZATION increases vastly.  Any help or recommendatios are appreciated. Thanks.",True
+@abdullahajmal9020,2019-11-04T20:31:23Z,0,Hey can I run a swift file using Cron?,True
+@gztsarmata,2019-10-22T23:43:22Z,1,"thank you; great , simple presentation, very usefull !",True
+@keic2071,2019-10-02T14:29:10Z,0,"Great video, didn't feel like nearly 19 minutes, everything was clear and concise. One thing that was probably worth mentioning though - what if you want to set a cron job for last day of every month? Set the days to *28-31* and of course leave the month as *. Although Corey showed us how to specify a range, last day of month kinda threw me off a bit. It took a few seconds to realise haha I guess I'm just slow.",True
+@kerwinso,2019-09-19T19:28:28Z,2,3 people will never use crontab,True
+@betcald-teach,2019-08-17T22:57:37Z,0,great video. thanks. if I want to start an application  .Appimage? how it would be the sentence?,True
+@benwalsh2825,2019-07-19T19:20:03Z,0,"I really enjoyed this video. All your videos are so well done. Would you be able to do a video comparing CRON to AT? When you have time, of course. Both seem like they could be very useful.",True
+@raghavatreya4533,2019-07-16T00:55:40Z,0,How to mimic cron job in django,True
+@gaunterodimm3569,2019-06-21T08:20:00Z,4,You'r Breathtaking Corey!,True
+@anilp1357,2019-06-03T18:42:03Z,0,Please tell me how can I execute my shell script as a Cron job . The script is written as part of automation.,True
+@keshavnayak2812,2019-06-03T07:59:54Z,8,the best you tube channel when it comes to learning,True
+@starcitizenmodding4436,2019-05-08T11:37:13Z,2,You have taught me a lot. just so you know :D,True
+@fh2263,2019-04-21T04:05:20Z,1,Thank you so much for the explanations!,True
+@dragandimitrijevic510,2019-03-27T15:30:48Z,2,"Excellent Corey, very well explained. Not jumping from one topic to another. Bravo!",True
+@TungNguyen-he9rb,2019-03-11T07:28:35Z,0,Is there any way to run a script whenever we start the server?,True
+@josephbautsch7990,2019-03-07T16:08:25Z,0,Can you run a 'sudo' command like this?,True
+@bjgjuiuguoojpoo,2019-02-23T18:24:50Z,2,Simple just amazing! THANK YOU Corey!,True
+@jlxip,2019-02-08T18:41:29Z,1,Thank you!!!,True
+@karlmorisset5299,2019-01-30T10:08:05Z,1,Thanks !,True
+@UsernamesSuckHere,2019-01-23T19:29:24Z,9,"Thank you for this video. Finally, i perfectly understand Cron jobs and rsync!",True
+@johnmwansa4180,2019-01-18T11:52:20Z,1,this is the nice teaching,True
+@ggwp7745,2018-12-31T06:10:50Z,0,Ubuntu 16.04 = export EDITOR=/bin/nano,True
+@andresvodopivec5950,2018-12-21T17:17:51Z,7,Such a good tutorial Corey. Just like the python ones. Thanks!.,True
+@Dpcs59,2018-12-09T20:55:43Z,0,"So I'm just going to say.. You are the new Bucky Roberts. Thanks you so much for all the lessons you do, and please never leave us",True
+@MartinMenge,2018-11-10T12:23:12Z,0,Please do a tut on 'at',True
+@TahaCodes,2018-11-05T10:00:07Z,0,"Hey buddy, Thanks for this great video that finally makes me understand what actually a cronjob is. But there is a question, what if I power-off my machine and then turn it on 2 days later, in this case what would happen to my cron job??",True
+@bassgroove3438,2018-10-19T00:29:35Z,1,"Very nice and straightforward. To empty the temp directory at 5pm, I believe you should have put 17 not 5. Please feel free to correct me  Thanks",True
+@ahmadryan16,2018-09-17T00:57:51Z,20,"This was awesome. Short, crisp and very very clear! Thank you!",True
+@isratjahan2129,2018-09-13T16:02:11Z,0,"Corey you are awesome as always and I always find a tutorial of yours when I don't understand any topics of python. Corey can you please make a video tutorial about the asynchronous programming in python, specially the basics  ? Really missing it.",True
+@alterguy4327,2018-09-10T17:08:53Z,0,How can I runa program from 4-5 AM Only Once,True
+@mahadevspirit7153,2018-09-06T21:13:37Z,0,Try to run this cronjob 0 0 */4 * * /bin/mkdir /test And check is it running on 4th day of month. I tried and it's running on 5th day  of the month ie on 5th of month then again I check and it's running 9th of month and then on 13th. So why it's taking one day extra in starting,True
+@Blabla424242,2018-09-05T08:55:44Z,1,Great tutorial as always!,True
+@shoujungu1043,2018-08-13T04:49:14Z,0,how to let crontab task run only if the previous task is finished?,True
+@knowhow7438,2018-08-03T13:57:38Z,1,Awesome buddy! You're  a great teacher,True
+@CheekiTiki,2018-07-20T13:20:42Z,1,"Wonderfully explained, thank you.",True
+@haleykeglovits5012,2018-07-09T02:02:58Z,13,thank you!! this was such a straightforward tutorial,True
+@SeanNamsangwoonam,2018-06-22T00:12:28Z,85,Amazing explanation with great examples! Finally learned what a cron job was.,True
+@vikram4755,2018-05-28T09:56:46Z,1,simply great!,True
+@aank2007,2018-05-28T01:51:00Z,20,"Corey, you’re so awesome that I just signed up on Patreon. Thanks so much for your very articulate videos and keep up the great work. Do you have python Machine Learning videos too ?",True
+@17pieces,2018-05-12T12:27:43Z,1,"Great video, tactful presentation. Thank you!",True
+@dariuspatton6179,2018-03-14T20:35:58Z,0,How would you schedule a system back up?,True
+@cheuch,2018-02-24T19:18:11Z,2,"Way to go mate, great video. very clear and thorough.  You won my suscription !",True
+@hayatt143,2018-02-11T04:03:59Z,0,my @reboot crontab isn't working. Can add something about reboot crontab tutorial.,True
+@Technicalturbo,2018-01-24T03:44:54Z,1,Really good video along with proper explanation.. keep it up !!,True
+@erickmwazonga8871,2018-01-10T13:04:02Z,2,How can you add a cron job that requires password authentication?,True
+@erickmwazonga8871,2018-01-10T13:03:59Z,0,How can you add a cron job that requires password authentication?,True
+@m4tt72,2017-12-26T12:08:50Z,0,Thank you for this tutorial!,True
+@ashgupta854,2017-12-10T02:54:07Z,0,"Great video, as always!",True
+@insanecbrotha,2017-12-04T21:01:37Z,0,"'30 9-17 * * 1-5"" is the same as '*/30 9-17 * * 1-5', right?",True
+@growwitharosh5052,2017-11-20T03:36:38Z,0,"Hi, How I will run a py file from sh script  #!/bin/sh  python3 /home/user1/Data/Predictor.py   echo ""*** End of shell script process ***""",True
+@KansasFashion,2017-11-11T22:39:52Z,0,Can I set a way to run a command for every 9 month? Or how can I know what I put is 9 month or September?,True
+@andyl.5998,2017-11-04T19:26:04Z,0,"Hi Corey, really GREAT tutorials on your channel! I've binge-watched basically everything on it about git and terminal commands. Just a quick question: your dark chrome theme looks pretty appealing too and do you mind sharing the name of the theme? Thanks again for your awesome work!",True
+@stefanomauceri,2017-10-24T10:00:43Z,0,"Hi , how do I schedule a task when I log in?",True
+@bqwebed,2017-10-15T22:19:44Z,1,"Oops, my bad. You corrected yourself in the video 😖",True
+@bqwebed,2017-10-15T22:18:30Z,2,"Hi Corey, excellent tutorial (as all of yours are). You have good pacing and your tutorials are easy to follow. I have a minor correction for you. In the example where you delete the temp folder every Friday, your example deletes at 5m. Not 5pm as you intended. Thanks again for all your order full tutorials.",True
+@arjunkirpal9776,2017-09-20T02:24:07Z,0,Thank you very much for all your videos!,True
+@MrMasterRhythm,2017-08-31T02:03:03Z,170,# ┌───────────── minute (0 - 59) # │ ┌───────────── hour (0 - 23) # │ │ ┌───────────── day of month (1 - 31) # │ │ │ ┌───────────── month (1 - 12) # │ │ │ │ ┌───────────── day of week (0 - 6) (Sunday to Saturday; # │ │ │ │ │                                       7 is also Sunday on some systems) # │ │ │ │ │ # │ │ │ │ │ # * * * * *  command_to_execute  # Your welcome ;),True
+@mvaldes,2017-08-30T13:00:51Z,0,nice tutorial! weird question tho - how did you map your google drive as a mount point/folder on your snippets?  * Backup images to Google Drive every night at midnight > 0 0 * * * rsync -a ~/Pictures/ ~/Google\ Drive/Pictures/  i can see dropbox as a native location but wondering whats the trick for google drive,True
+@sarfarazahmed6249,2017-08-29T05:00:18Z,1,You videos are good.. you have lot of patience... to teach...,True
+@mitul509,2017-08-27T19:38:27Z,1,"I learned so many things from you, I would like to request you to make a video on file permission and usergroup, thanks.",True
+@YunikMaharjan,2017-08-26T16:33:56Z,0,your the best.....,True
+@michaelmolter6180,2017-08-25T16:23:34Z,0,How would you schedule an event for the first Friday of every month?,True
+@samsammurphy,2017-08-24T09:42:32Z,1,#  ___________ minute (0 - 59) # |  _________ hour (0 - 23) # | |  _______ day of month (1 - 31) # | | |  _____ month (1 - 12) # | | | |  ___ day of week (0 - 6) (Sunday to Saturday; # | | | | |                            7 is also Sunday on some systems) # | | | | | # | | | | | # | | | | | # * * * * *    command_to_execute  (looks nicer in terminal),True
+,2017-08-24T09:39:28Z,0,Hi. Did you setup cron in some special way? I am on El Capitain and cron only runs if I create the crontab for my user with root with: sudo su -/contab -u *user* -e/,True
+@playgoods,2017-08-24T02:46:34Z,0,thank you very much,True
+@Actyreyansh,2017-08-24T00:39:20Z,0,"HI Corey, Thank U for great video. Can U please  make a video for celery",True
+@jdliauw,2017-08-23T23:31:55Z,0,Thanks for another great video,True
+@marekglowacki2390,2017-08-23T17:17:28Z,0,"It would be nice to mention about how to schedule a job for the last day in every month. I know ,it is tricky.",True
+@himself99,2017-08-23T17:02:21Z,0,Just now it was taught in  my college 😄😄,True
+@tanzimrizwan802,2017-08-23T16:48:21Z,3,This video is not good enough. You did not show crontab with python file.,True
+@greob,2017-08-23T16:36:41Z,1,systemd killed mah crontab!,True

@@ -1,0 +1,28 @@
+author,updated_at,like_count,text,public
+@typedeckeralt7628,2020-08-16T09:10:52Z,0,Hey bro i tried to go to the site to download pyqt at riverbank but the website isn't even responding and other sites are working i have tried switching the browser but no help,True
+@markuslemcke,2020-06-22T13:50:13Z,0,"I'm Python-Beginner. I want to know, how to add a combobox to a toolbar in python Qt",True
+@deadbunnyeyes190,2020-06-05T12:51:20Z,0,"Your examples are the best!  Cool series, love it ;)",True
+@AmgadElsaiegh,2020-04-11T18:06:12Z,0,"Very good tutorial but I wonder, How can I create a vertical toolbar?",True
+@usama57926,2020-01-19T11:45:12Z,1,how to add shortcut for toolbar,True
+@12filipes,2019-05-06T07:38:56Z,0,"Great tutorial! The only thing that still worries me is the ""close_application vs close_application()"". The difference between a method and a parameter in Python classes is clear to me (or I've been quite sure until now at least), but in this case I need further explanation... Any ideas?",True
+@ssc1348,2019-03-05T15:02:42Z,1,Why did you use 'self.toolBar' instead of using just ' toolBar' as you did for the variable 'mainMenu' ? Does it create any problem while making multi-window applications? By the way using just 'toolBar' instead of 'self.toolBar' works  in PyQt5.,True
+@ronrobinson6668,2019-01-15T22:54:05Z,1,What Python IDE are you using for these training videos?  They are very helpful for me as a beginner in Pyqt4.,True
+@diehardAMD,2018-09-06T03:08:54Z,0,"I laughed when he said imagine babies in reference to ""Get to CHOPPAH!"" It's from an Arnold Schwarzenegger movie Predator. ""Hit the baby"" hahaha",True
+@HexagonalClosePacked,2018-07-03T02:07:46Z,3,I found this easier than tkinter so far.,True
+@pizzafoot1966,2018-03-21T19:06:26Z,0,"(Four videos after my hopes disappeared) ""So that's why it's not popping up, for anyone who's wondering"" Oh. Thanks, xD",True
+@manzoorshaik2816,2017-11-17T06:50:03Z,2,"i am not getting icon ,,,,i am using Ubuntu",True
+@brettzook4854,2017-11-16T05:00:48Z,0,"How do you add a second window?  Do you make another class like window 2?  You have def home (self) which calls the window class.  If you want to be able to navigate to a secondary window from the ""home menu"" what would you do?",True
+@dayvie9517,2017-11-14T23:18:05Z,0,I prefer using the qt Designer over placing elements manually,True
+@salahhamza,2017-09-09T17:40:00Z,3,Really interested to know this: Why is it for the menuBar you made it a normal variable but for the you did self.toolBar? Thanks,True
+@64humans25,2017-07-04T09:37:58Z,0,Qt is so much better then tkinter.,True
+@cadewalton8046,2017-04-18T22:31:48Z,1,Any way I can set the toolbar to initialize on the bottom instead of the top? I don't want to drag it down there every time.,True
+@Kenwaldek,2017-01-11T19:28:35Z,1,I have ported the lesson1 to lesson15 to PyQt5 you can find it https://github.com/kenwaldek/pythonprogramming,True
+@yuyetasatcham6410,2016-11-18T02:29:08Z,0,"I dont understand what ""flee the scene"" means?  it is connected with who or what? why that?",True
+@leoLorenzi,2016-08-18T14:46:23Z,4,"His pyQT version is outdated guys. Most of you are probably using pyQT v4.11.4.1. Some of his syntax is different. The updated syntax is:  1. Tooltip = QtGui.QAction.connect(extractAction, QtCore.SIGNAL('triggered()'), self.close_application) 2. Button = QtCore.QObject.connect(btn, QtCore.SIGNAL('clicked()'), self.close_application) Use where necessary (where ""connect"" is highlighted and python says no reference [in PyCharm])",True
+@dannydk6,2016-06-13T16:44:13Z,14,"Dex, you're incredibly intelligent and very easy to understand. This is an excellent tutorial series; these videos are really helping me develop my GUI!",True
+@MrJackyieman,2016-03-18T18:46:28Z,1,holy smoke :))))),True
+@MatthewTaylorAu,2016-02-02T03:19:20Z,1,"another great tutorial. thanks!  relevant documentation. http://pyqt.sourceforge.net/Docs/PyQt4/qaction.html QAction.__init__ (self, QIcon icon, QString text, QObject parent) I get it that the self is not required in our code. I'm a little confused why we needed to reference 'self' in the code in place of 'QObject parent'  extractAction = QtGui.QAction(QtGui.QIcon('todachoppa.png'), 'Flee the Scene', self)  thoughts?",True
+@tanweerahmad9049,2016-01-01T21:13:15Z,0,I was not understanding why my app used to close immediately upon: b1.clicked.connect(sys.exit()); now you solved my issue :D,True
+@haribalsulimani1006,2015-08-26T07:55:17Z,0,"Hi Sentdex, thank you for your wonderful tubes In this tube I did the same code but unfortunately it haven't work  extractAction = QtGui.QAction(QtGui.QIcon('favicon.png'))  extractAction.triggered.connect(self.close_application)   self.toolBar = self.addToolBar(""Extraction"")   self.toolBar.addAction(extractAction)   and this message is appear  extractAction = QtGui.QAction(QtGui.QIcon('favicon.png')) TypeError: arguments did not match any overloaded call:   QAction(QObject): argument 1 has unexpected type 'QIcon'   QAction(str, QObject): argument 1 has unexpected type 'QIcon'   QAction(QIcon, str, QObject): not enough arguments   please help if possible thank you",True
+@ginoskotheon3,2015-06-08T17:15:05Z,0,"When I try to add several icons, they all stack up on the left. How would I get them to line up on the tool bar?",True
+@Kit1858644,2015-05-30T16:24:39Z,0,First like.,True

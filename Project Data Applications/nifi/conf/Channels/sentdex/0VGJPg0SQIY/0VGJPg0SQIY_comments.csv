@@ -1,0 +1,53 @@
+author,updated_at,like_count,text,public
+@abeehamirza8023,2023-08-02T14:59:12Z,0,Today's mug tho,True
+@facundosierra1501,2020-06-06T17:01:58Z,0,"Congrats for your channel, i really appreciate your work!",True
+@rssh870,2020-05-01T10:39:03Z,0,Hi dear! coud you tell me which Editor are you using here?,True
+@prateekgurjar1651,2020-04-23T10:32:17Z,1,"How did the template access the ""messages"" list if it was not in the context ?",True
+@mr.yellow3250,2020-04-21T22:18:50Z,0,New Account Created : None. I did the same things but it says me none. Why I wonder :D,True
+@saadkhan-ku8bl,2020-01-27T23:20:13Z,0,That KNOCK!!!,True
+@James-ms1su,2019-10-13T19:35:50Z,0,Where can I get your giant porg mug?,True
+@James-ms1su,2019-10-13T19:35:41Z,0,Where can I get your giant porg mug?,True
+@23Nived,2019-09-30T02:13:04Z,0,"Hey Im not sure why but I cant get through this tutorial. for some reason I cant get a message to pop up, even though my code is identical to the tutorial",True
+@shubhamagarwal3050,2019-09-27T15:24:20Z,1,"i get this error called (maximum recursion depth exceeded ) when i make new files for the messaging and navbaritems . i again copied the messaging and navbaritems code into header.html file and tried its working then but not when i make different files. i  tried searching for the solution but helpless. what could be the reason?",True
+@himasankaracharik4109,2019-09-08T17:05:08Z,0,Thank you Bro.. your tutorial is awasome,True
+@user-ns8dl3vm5z,2019-07-08T05:49:59Z,1,you used {% if user.is_authenticated %} in the navbar.html file   can u explain from where did we get the user object !? and what are the fields in it beside username,True
+@tbjasun,2019-05-23T13:08:25Z,0,"Hey sentdex I just want to say I love your tutorials and I'm picking this up at a killer pace, however when on this step for django I'm hitting some errors with the messages.  For example, I'm using the lines for messages.success(request, f""New Account: {username}"") gives an error because of the preceeding f before the message, and if I omit the f the message works but doesn't display the name. The message shows but it reads New Account: {username}. Same with the error area, it is only displaying the full text {msg} : {form.error_messages[msg]} rather than any actual message. I'm using python 3.5.3, and installed django version just recently 2.2.1. Could there be an issue because of this?  Thanks in advance!",True
+@josephdisraeliomenda2473,2019-05-05T04:01:13Z,0,"First of all, thank you so much for sharing this knowladge, I'm subscribing and liking your content ASAP. You don't have to do this, but could you also teach us how to add a Deep Learning model inside the django application.  Again thank you for you videos and colorful mugs.",True
+@darkseid6412,2019-04-27T20:55:38Z,1,"for the password error part it only shows password mismatch even if the password is too short, just put your own version of the error message in the ""{{message}}"" part and it will show that instead for example  ""your password don't match or is too short, please check and try again"" otherwise great video guy, always keeping it buck!!!",True
+@faisolbello3524,2019-04-14T06:38:33Z,0,Can someone pls explain why toast's script is not working,True
+@rahh000,2019-04-12T10:37:50Z,0,Does anyone know why toasts wont display after successful register? I just copied snippet from Harry's website.,True
+@Eric-jy5ls,2019-04-10T20:28:52Z,1,No matter what the error is on the form it gives a password mismatch error. Anyone know why? Very aggravating to try and figure out what's going on,True
+@manimaran.r7639,2019-04-04T13:01:04Z,0,"def logout_request(request):  messages.info(request,""Logged out successfully "")  return redirect('howdy:index')     this functions not working",True
+@Hassole,2019-04-03T11:17:47Z,36,"I just wanted to say that I really like that sometimes your code doesn't work and we can witness your process as you debug. Some people would just cut the video and patch in a recording without the debug problems. I really appreciate the way you do it and don't see your live debugging as a negative at all! I also like that you look up documentation live and voice your thoughts about whether certain things will work or not. Anytime you can expand on why you are writing the code you are, its like getting into the mind of an experienced dev and helps me learn how to think.    Keep doing what you're doing!",True
+@shuhangzhan7249,2019-03-20T12:00:27Z,1,Thank you so much! It's relaxing and satisfying to follow your tutorials!,True
+@lightweightpaint9854,2019-03-20T02:50:05Z,7,"....... for msg in form.error_messages: ....... will just iterate over the static error_messages dictionary baked into the UserCreationForm class. this will return ""The two password fields didn't match"" when there's an error whether it is or is not the actual error. to generate a message with the actual error use.......... for msg in form.errors:..... messages.error(request, form.errors[msg]).......... instead. that'll create a message with the actual error affecting the form. you can browse the django/contrib/auth/forms.py file to inspect how errors are actually generated w/ ValidationError",True
+@soumyajitrout8841,2019-03-10T10:48:30Z,0,Can you please make a video on how to deploy Deep learning models in django,True
+@zynabmohammed3955,2019-03-04T11:40:59Z,0,no messages appeared for me whenever copied all of code -_-,True
+@mridulmishra8166,2019-02-26T20:37:22Z,0,"cleaned_data works to remove any special characters in form, i suppose, it's like  htmlspecialchars in php.",True
+@zackwalker6397,2019-02-08T03:38:24Z,0,"Hey Sentdex, long time watcher but first time commenter here. This may be a dumb question, but in header.html when you put {% if messages %}, does django know what a ""message"" already is from our views.py? I do not understand how they are connected to one another to relay that information over",True
+@azadpoursadegh9761,2019-02-05T14:20:59Z,10,"Really, how many Mugs do you have? Does it contain sponsorship? :))",True
+@kuqmua755,2019-02-04T09:41:20Z,1,Undefined variable 'messages'. What is wrong?,True
+@minsik9614,2019-02-04T01:24:17Z,0,"thank you for sharing this video! and would you explain what's different between {% block content %} and {% include ""html"" %} ?",True
+@ottodvalishvili7601,2019-02-02T09:52:39Z,0,"hey sentdex ,thanks for the awesome videos. I have 2 questions: 1)how does the template header.html ""knows"" the   {{message}} variable?From views when we render the template we also pass context and this is the way template has access to the variable passed in context, but we did not pass variable  messages. 2)When I register user and give password similar to username it does not let me register it. It says password fields don't match but I'm pretty sure they match,(have tried multiple times). For example: username: gamer  , password: gamer123  gives me an error.  thanks",True
+@nehat786,2019-02-01T04:25:56Z,0,Love it !,True
+@andreykuskov8807,2019-01-30T07:26:25Z,21,You're really a mugician. Never thought that someone could have some many mugs up his sleeve.,True
+@manojkumar-uw5it,2019-01-30T07:17:55Z,1,"Getting Syntax error: invalid Syntax in views.py >def register() > messages.sucess(request,f""New account created:{usermane} "") It is at last "" Even after i copy paste code from site can someone tell me how to get away with it",True
+@therealg9542,2019-01-30T04:47:30Z,0,Sentdex please make a video of how to make a bouncing ball in pygame! Or how to make jumping mechanics in pygame with physics,True
+@imzuyel,2019-01-30T02:27:27Z,0,☺☺,True
+@akiratoriyama1320,2019-01-29T22:41:07Z,0,you are still aren't telling us what are you drinking...!,True
+@usabnd,2019-01-29T19:10:08Z,3,thank you for sharing as always,True
+@unnatsingh5,2019-01-29T18:42:49Z,0,"And one more thing why in the video blue toast is popping up, its in elif statement and if green toast pops up then it should exit the if-else block.",True
+@unnatsingh5,2019-01-29T18:06:00Z,0,I have this question we didn't pass messages variable in register function context  but was still able to use messages variable in header.html?,True
+@abhishekdeshmukh7628,2019-01-29T17:51:07Z,6,"Awesome man..for me the mantra is...."".sentdex+django documentation=success""!",True
+@DenisZholob,2019-01-29T17:45:09Z,0,Great so far! I notice you are using username/password as credentials. I feel like most of the web services these days are email/password or even social media account login based. Any thoughts on covering that? Also usually you have a couple extra email verification steps after you register.,True
+@skorpimish,2019-01-29T17:32:52Z,0,Why don't you use user.get_username() on 5:07 ?,True
+@ConnorAZ,2019-01-29T16:29:07Z,0,I wanna ask you something how you know each and every methods in every class and each function inside django or Tenserflow or any python library....and do we need to know all this does this have any effect on how good developer we are ???? this really annoying me because when ever I see any tutorials on youtube people usually almost know that this class have this exact method,True
+@CyberFiber,2019-01-29T16:12:35Z,0,i don't know why is my toast showing password as well after registering.....i am doing same as you are doing.,True
+@sandtiwa,2019-01-29T16:03:16Z,26,It would be great if you could teach how to add a Deep Learning model inside a django application..Thanks!,True
+@esportsnexus,2019-01-29T15:58:52Z,0,"How to display those info text during registration[signup] to be display after any user didn't pass validation while registring. It appears by deafult, which I don't want to appear. How to fix it?",True
+@anishjain8096,2019-01-29T15:42:40Z,1,बहुत सुन्दर अच्छा लगा रहा,True
+@rajatsharma6597,2019-01-29T15:31:32Z,2,Thank-you Django Maestro 👌,True
+@mahdijafaree5332,2019-01-29T15:28:17Z,0,"Thx,  I was so happy if u discuss more on user model. BTW thx😀",True
+@kayumanggitv2906,2019-01-29T15:27:33Z,1,Nice tutorial master..im your #1,True
+@unclefester4130,2019-01-29T15:26:36Z,2,Yeeeeeeeee now I'm happier!,True
+@seanvanrooyen2245,2019-01-29T15:25:57Z,1,1,True

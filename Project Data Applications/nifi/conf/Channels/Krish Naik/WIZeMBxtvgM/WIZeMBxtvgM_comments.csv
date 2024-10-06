@@ -1,0 +1,40 @@
+author,updated_at,like_count,text,public
+@aayushjain3438,2024-04-04T19:14:49Z,0,"I have a question: when we create a S3 in order to store data, what is the size of the S3 bucket?",True
+@user-yl7hr5ez8g,2024-01-24T07:26:41Z,0,"Everything made easier, crystal clear !",True
+@samik_pal,2024-01-07T21:21:03Z,0,"Hey, I'm getting this error trying to upload the train.csv to s3: S3UploadFailedError: Failed to upload train.csv to bankapplication/xgboost-as-a-built-in-algo/train/train.csv: An error occurred (AccessDenied) when calling the PutObject operation: Access Denied any help will be appreciated!",True
+@sujatabehera4428,2023-12-14T12:34:12Z,0,"Hello Krish, I have 6 yrs of experience in finance + Digital marketing , I got to know about AWS from prev organization and I have done the certification, could you please help me how shall I improve my resume to get a good job in AWS?",True
+@jayasaichandrareddymandala5453,2023-03-19T17:57:34Z,1,"Hi Krish,  Thanks for guiding us about TrainingInput instead of s3_input.  s3_input_test = sagemaker.TrainingInput(s3_data='s3://{}/{}/test'.format(bucket_name, prefix), content_type='csv'). This is good content and it helps us with Machine Learning😀",True
+@ipvikas,2022-12-13T11:50:54Z,0,"Small change required as per the latest release: s3_input_train = sagemaker.TrainingInput(s3_data='s3://{}/{}/train'.format(bucket_name, prefix), content_type='csv')",True
+@shariqansari6363,2022-10-26T09:52:43Z,0,"If i am  using my own dataset  I can split X_train ,Y_train split?",True
+@kalpatarusahoo6309,2022-08-09T04:40:07Z,0,"hello krish ,,I want to make a video of Rasa --models to save on Amazon Sagemaker.",True
+@strongsyedaa7378,2022-05-11T09:02:12Z,0,My autopilot experiment isn't creating 😔,True
+@marjan61717,2022-03-12T00:22:07Z,0,"oh my god, this video was too fast.",True
+@RishiKumar-dv8ck,2021-12-12T06:16:24Z,2,ClientError: An error occurred (AccessDenied) when calling the CreateBucket operation: Access Denied I'm getting this error. Does anyone have an idea how to solve this error?,True
+@tushihahahi,2021-10-20T10:30:30Z,0,Disable your ad-blocker for this channel. So much dedication for free.,True
+@pdpro,2021-08-08T09:54:53Z,0,"UPDATE: s3_input sagemaker.session.s3_input has been renamed to sagemaker.inputs.TrainingInput",True
+@durgeshmajeti,2021-07-14T09:02:12Z,1,Nice video. I am confused on how the data is actually imported in first place. We are downloading it from some url. But what is that url? How did data end up there? Is that another S3 instance? Can you please explain more on that urllib function and the url that you used to download the data in first place.,True
+@johnnyzhao7020,2021-06-07T08:59:12Z,13,"For the latest version of Jupyter, you need to rename 'sagemaker.s3_input' to 'sagemaker.inputs.TrainingInput' and it should work.  So it becomes: s3_input_train = sagemaker.inputs.TrainingInput(s3_data='s3://{}/{}/train'.format(bucket_name, prefix), content_type='csv')",True
+@vivekakaviv,2021-06-05T03:53:23Z,3,For Resolving ERROR: 'SageMaker' object has no attribute 's3_input' Use: sagemaker.inputs.TrainingInput(parameters) instead of sagemaker.s3_input(parameters),True
+@hqz9380,2021-06-02T14:50:03Z,0,sir ji u cant change the region while accessing the s3 bcoz its a global service :),True
+@ugochukwu2585,2021-04-17T18:34:27Z,0,"Thanks so much @Krish Naik , this playlist is undoubtedly helpful.. But please I'm finding it difficult to figure out how to push my already existing notebook instance and files to GitHub repository, please could you help me a little on that?",True
+@PhenomenalInitiations,2021-04-07T18:49:30Z,2,what should I do if  I have 4 dependent variables? pls reply,True
+@geekypratyush6485,2021-02-27T07:08:05Z,8,"Hi Krish and all the learners, just an update. For learners like me, who are trying to execute the above code in their jupyter instance, check the sagemaker instance first by command sagemaker.__version__. If it is ""2.24.1"", then sagemaker.s3_input won't work. Instead you need to write sagemaker.session.s3_input. Thanks for the video Krish.",True
+@primakovch8332,2021-02-16T18:39:48Z,0,bucket created but not visible in management,True
+@dr.anuv.r.3142,2021-01-30T06:30:16Z,0,"I am getting an error while running  ### Saving Train And Test Into Buckets code as AttributeError                            Traceback (most recent call last) <ipython-input-18-370b77f642bf> in <module>       4                                                 axis=1).to_csv('train.csv', index=False, header=False)       5 boto3.Session().resource('s3').Bucket(bucket_name).Object(os.path.join(prefix, 'train/train.csv')).upload_file('train.csv') ----> 6 s3_input_train = sagemaker.s3_input(s3_data='s3://{}/{}/train'.format(bucket_name, prefix), content_type='csv')  AttributeError: module 'sagemaker' has no attribute 's3_input'  pls help",True
+@blue_sapphire8650,2021-01-23T11:55:29Z,2,For a past one week I was literally confused about how to get things done using AWS SageMaker evern after watching  AWS Beginner Videos. But right now It's very much clearer than before!!  Thank you so much sir!,True
+@boringhuman9427,2021-01-17T14:46:36Z,0,"S3_input will not work instead use s3.TrainingInput  s3_input_train = sagemaker.TrainingInput(s3_data='s3://{}/{}/train'.format(bucket_name, prefix), content_type='csv') s3_input_test = sagemaker.inputs.TrainingInput(s3_data='s3://{}/{}/test'.format(bucket_name, prefix), content_type='csv')",True
+@aashishdahiya4841,2020-11-29T09:06:01Z,0,got permission denied when i upload the train file into s3. plz help,True
+@ArunKumar-sg6jf,2020-11-18T10:58:52Z,1,make video for deep learning model in aws,True
+@manideepgupta2433,2020-11-08T19:37:22Z,2,"Man, you are such an amazing guy, made things very clear and Thank you very much Krishna! /\, please if possible also make videos on Lambda, Redshift, RDS and DynamoDB!!!!!",True
+@CSEAsapannaRakeshRakesh,2020-10-26T11:45:17Z,0,THANK YOU,True
+@sagarmhaisne110,2020-10-11T13:38:54Z,0,Thank you very much,True
+@bhopinderkambo9143,2020-10-11T07:36:27Z,1,AWS  SageMaker Tuitorial   are excellent even a person like me like a layman have understood,True
+@swatisharma-ww5hz,2020-09-22T18:07:40Z,1,Thank  you sir for your insightfull hands on session.  For others:  just for reference:  https://www.amazonaws.cn/en/getting-started/tutorials/build-train-deploy-machine-learning-model-sagemaker/,True
+@vishalaaa1,2020-09-18T20:30:35Z,0,have sagemaker on R ?,True
+@arijit07,2020-08-30T09:07:32Z,1,"Hi krish, I have a query. Suppose your train data is of 1tb or more than that. In that case how Can I save my train_data datframe directly to s3? Because right now we are saving the train_data dataframe in the currnet instance as train.csv and from there on we are uploading this train.csv to s3 . So how can i avoid this middle step i.e saving the dataframe to instance as csv?",True
+@rajatnipane4994,2020-08-30T06:25:36Z,1,@krish Naik- I am not able to see S3 bucket with bankapplication name.It shows 0 instance.When  i tried manually creating s3 bucket with same name it says Bucket with same name already exist.I refresh and logged in mutiple time.Please let me know how to sort the issue,True
+@thalanayarswaminathansaipr7703,2020-08-30T01:09:13Z,0,could you please make this playlist public. this will help beginners like me to learn a lot. Please consider my request,True
+@fififinance7469,2020-08-30T01:08:50Z,0,Newbie to YT. Instructional videos are so helpful and informative when there is so much to learn. 👍😀,True
+@ayushgoel9584,2020-08-29T14:42:04Z,0,"sir live session today at what time, excited to meet the mentors!!",True
+@sahithikarra7680,2020-08-29T12:35:28Z,1,@Krish Naik i have created a jupyter notebook instance and used it for 2 days. But it charged me around 400 rupees. Even i have also used ml.t2.medium.,True
+@cristianchavez5674,2020-08-29T12:20:28Z,1,Awesome video !,True

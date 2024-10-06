@@ -1,0 +1,157 @@
+author,updated_at,like_count,text,public
+@statquest,2020-05-12T12:04:11Z,29,"Corrections: 14:24 I meant to say ""larger"" instead of ""lower. 18:48  In the original XGBoost documents they use the epsilon symbol to refer to the learning rate, but in the actual implementation, this is controlled via the ""eta"" parameter. So, I guess to be consistent with the original documentation, I made the same mistake! :)  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@kcAndyyyyy,2024-04-21T07:22:49Z,0,"I'm kind confused what do you mean by saying ""If we prune, then we will subtract gamma for the next Gain value"" at 23:58",True
+@user-kf7vg3bq8z,2024-04-09T11:12:42Z,0,"These videos are being truly helpful.  Many thanks for sharing them! I do have a question RE XGBoost usage context. You mentioned that XGB is designed for large, complicated datasets; does this mean that it performs poorly with smaller datasets? Thanks in advance",True
+@allen8376,2024-04-01T19:01:16Z,1,The little calculation noises give me life,True
+@ThineshKumar-gk8hb,2024-03-29T13:06:05Z,0,Can you share me any material for multiclass classification specifically on boosting techniques.,True
+@ducanhlee3467,2024-02-18T13:42:08Z,1,Thank Josh for your knowledge and funny BAM!!!,True
+@muralik98,2023-11-08T11:50:58Z,1,Rule No 1 before watching statquest video.  Like and then click on play button,True
+@maruthiprasad8184,2023-10-18T01:08:53Z,1,"hats off all my doubts clarified here, superb cooooooooooooool Big BAAAAAAAAMMMMMMMMMM!",True
+@bugbreaker18,2023-10-06T04:45:07Z,1,Enjoyed it! Cool explanation,True
+@LL-hj8yh,2023-09-20T02:36:16Z,1,"Hey Josh, how does the similarity score here related to gini/entropy we use for XGBoost’s classification?",True
+@deana00,2023-09-18T00:32:51Z,0,"Hi, thanks for your great video! But, I have question here..  Why the way to get the initial prediction in xgboost different from the gradient boosting? In gradient boosting, you were using log odds, but in xgboost you were set it 0.5, am I missing something?",True
+@gahbor,2023-08-29T15:46:29Z,0,"If my dataset has a binary target variable to predict, and most features are also binary, would it make sense to go with min_child_weight=0 ?",True
+@alihaghighat1244,2023-08-06T16:58:33Z,4,"When we use fit(X_train,y_train) and predict(X_test) without watching Josh's videos or studying the underline concepts, nothing happens even if we get good results. Thank you Josh for simplifying these hard pieces of stuff for us and creating these perfect numerical examples. Please keep up this great work.",True
+@zzygyx9119,2023-07-19T05:42:29Z,1,"awesome explanation! I bought your book ""The statquest illustrated guide to machine learning"" even though I have understanded all the concepts.",True
+@aneesarom,2023-06-16T02:28:18Z,0,5:47 if we conisder root node as dosage < 15 then similarity will not be 0 right. since it has 3 elements less than less than 15,True
+@lfalfa8460,2023-06-09T14:06:52Z,1,"Classification is not a vacation, it is not a sensation, but it's cooooool!  🤣",True
+@omreekapon2465,2023-04-27T12:59:35Z,0,"Great explanation like always! just a small question, at 10:12 you mentioned that the cover is defined as the similarity score minus lambda, but it looks in the equation that is plus, so what is the right answer? thanks for such an amazing explanations!",True
+@arpitsolanki5254,2023-04-16T05:50:07Z,0,How do we assume that the output value from the tree fitted to residuals can directly be added to the log odds of the initial prediction?,True
+,2023-04-02T03:10:17Z,5,"From Vietnam, and hats off to your talent in explaining complicated things in a way that I feel so comfortable to continue watching.",True
+@khaikit1232,2023-03-03T16:02:15Z,0,"Hi Josh,  At 19:20, it is written that: log(odds) Prediction = 0 + (0.3 x -2) = -0.6  However I was just wondering since the tree is predicting the residuals, isn't the output of the XGBoost tree a probability? So shouldn't we convert the output from probabilities to log(odds) before we add it to the initial guess of 0?",True
+@ntnydv,2023-02-12T17:49:34Z,1,Thanks!,True
+@pierrebedu,2023-01-09T14:23:45Z,0,great explanations!  and how does this generalize to multiclass classification? Thanks (one vs all classif repeated n_classes times? ),True
+@adisurya9728,2022-12-20T05:17:19Z,0,"Very good, but how if the classification is for multiclass?",True
+@devran4169,2022-12-07T11:09:44Z,1,The best <3,True
+@francescoperia9768,2022-11-27T15:02:51Z,0,"Hi Josh, I cannot understand why at minute 08:15, after you created the first split (Dosage < 15) and the consequent similarity gain, you don't update the predicted probabilities of the residuals by using the formula e^log(ODDS) / (1 + e^log(ODDS)). In the video it seems that the ""previous predicted probability"" remains always the initial 0.5, so I'm asking if it should be changed after the first split instead. Thank you in advance",True
+@tarunkumar-hc8dg,2022-11-20T22:16:00Z,0,How does it works for multiclass…??),True
+@zeus1082,2022-11-16T13:52:53Z,0,Thank you for the explanation.  Why are we using different decision nodes for each new trees?  entropy is calculated independent of the residual right?,True
+@pattycheung3066,2022-11-15T17:47:46Z,0,sadly i just found your channel after i failed 9 interviews,True
+@mrcharm767,2022-10-20T06:18:09Z,1,concepts going straight to my head as if u shot arrows bam!!!!!,True
+@lorenzodagostino5338,2022-10-18T08:49:18Z,0,Hey Josh. First of all i just want to thank with you fo your amazing work. I have a question. How those concepts fit the multi-label classification problem?,True
+@chrisalvino76,2022-10-06T23:55:23Z,1,Thanks!,True
+@zhendongcao3609,2022-09-21T17:51:59Z,0,how does subsample work in xgboost classification?,True
+@mohammedgodil4166,2022-08-31T09:52:48Z,0,when predicting a value for existing model why did u convert initial prediction 0.5 in to log of odds ? and when u did gradient boost for classification u did not converted that initial prediction to log of odd . this is confusing me pls help .,True
+@saptarshisanyal4869,2022-06-26T11:11:16Z,2,"All the boosting and bagging algorithms are complicated algorithms. In universities, I have hardly seen any professor who can make these algorithms understand like Joshua does. Hats off man !!",True
+@gabrielpadilha8638,2022-06-23T11:47:40Z,0,"Josh, good morning, let me ask you a question. You said that we can put the initial probability to a value different than 0.5 if, for example, the training dataset is unbalanced. That means that xgboost can deal with unbalanced datasets without the needing to balanced the training dataset before submitting it to the model?",True
+@abylayamanbayev8403,2022-06-12T09:42:34Z,0,"Thank you very much professor! I would love to see your explanations of statistical learning theory covering following topics: concentration inequalities, rademacher complexity and so on",True
+@nikhileshnatraj331,2022-06-11T08:08:35Z,0,great but the sound effects are xtreme annoying....,True
+@Vivekagrawal5800,2022-03-28T11:53:24Z,1,,True
+@jamemamjame,2022-03-20T19:59:24Z,1,"Ty very much, will buy your song within tomorrow morning from Thailand :)",True
+@shaelanderchauhan1963,2022-03-15T06:26:03Z,5,"Josh, On a scale of 5 you are a level 5 Teacher. I have learned so much from your videos. I owe so much to Andrew Ng and You. I will contribute to Patreon Once I get a Job. Thank you",True
+@ammar46,2022-03-03T07:46:01Z,0,"At 21:47 you should have drew a line at 0.65 probability, but you drew at 0.35 and even later in tree diagram there might be a mistake. Am I right?",True
+@Brandy131991,2022-02-25T16:28:25Z,0,"Hi Josh, thank you for your amazing videos. They are really helping me a lot.  One thing i still don‘t get is how does xgboost predict multiple classes (e.g. „most likely drug to use“ with drugs 1,2 and 3)? Does this work like in multinomial logistic regression, where each class is checked against a baseline-class? Or is it something like a random forrest when using xgboost?",True
+@junghyunlee781,2022-02-08T05:30:31Z,0,Thanks for video. 12:58 So you mean 'cover' is equal to hyperparameter 'min_child_weight' ??,True
+@FF4546,2022-01-24T02:51:07Z,0,"Hello Josh, thank you for your video. How would this work with more than one variable? Does each variable end up with only one threshold?  Thank you!",True
+@superk9059,2022-01-22T14:33:27Z,1,Awsome!!!👍👍👍very very very very good teacher!!!,True
+@zeusserch98,2022-01-18T10:47:12Z,0,How to choose a root and a leaf if i am using a large dataset?,True
+@ocamlmail,2022-01-12T23:50:46Z,0,"14:24 -- shouldn't be higher values for gamma in order to prune? Lower value for gamma hence Gain - gamma is tend to be positive, hence no prune.",True
+@dc33333,2021-12-28T19:28:02Z,1,The music is fantastic.,True
+@KUNALVERMAResScholarDeptofMath,2021-10-04T05:45:36Z,0,"Hi Josh,  Why are we taking the last two values at 6:04?",True
+@raj345to,2021-09-30T12:17:39Z,1,which vedio making tool do u use .....its so cool.,True
+@himanshumangoli6708,2021-09-22T16:58:57Z,1,you are like khaby lame of data science,True
+@himanshumangoli6708,2021-09-22T16:23:11Z,1,"I hope you were my teacher in my college days. So instead of watching your videos, i am able to create it.",True
+@munnangimadhuri3334,2021-09-03T02:18:10Z,1,Excellent explanation Brother!,True
+@nurdauletkemel8155,2021-08-09T07:09:51Z,1,"Wow, I just discovered this channel and will use it to prep for my interview BAM! But the interview is in 2 hours Smal BAM :ccccccc",True
+@wongkitlongmarcus9310,2021-07-22T14:01:27Z,2,"as a beginner of data science, I am super grateful for all of your tutorials. Helps a lot!",True
+@SmittenandBitten,2021-06-11T20:00:49Z,1,this one was tough urgh,True
+@LanlanNetherlands05,2021-06-09T04:49:50Z,0,"very clear explanation. But i do not like the sounds in between such as BAM, DOUBLE BAM",True
+@61_shivangbhardwaj46,2021-06-06T15:36:26Z,2,Thnx sir😊,True
+@yukeshdatascientist7999,2021-06-06T08:25:47Z,1,"I have come across all the videos from gradient boosting till now, you clearly explain each and every step. Thanks for sharing the information with all. It helps a lot of people.",True
+@joshisaiah2054,2021-05-29T16:08:37Z,3,Thanks Josh. You're a life saver and have made my Data Science transition a BAM experience. Thank You!,True
+@furqonarozikin7157,2021-05-23T06:54:33Z,1,"thanks buddy, its hard for me to know how xgboost works in classification, but this tutorial has explained well",True
+@jessiel9838,2021-05-22T08:45:42Z,0,"If Cover is the minimum number of residuals in each leaf, how come you remove the leaf with 1 residual when Cover is 0.25??",True
+@anggipermanaharianja6122,2021-05-19T06:00:05Z,1,Awesome vid!,True
+@jamiescotcher1587,2021-05-12T15:57:32Z,0,"Hi Josh,  Specifically, the gradient of the training loss is used to predict the target variables for each successive tree, right? Therefore, does a steeper gradient imply it is going to try harder to correctly predict a specific sample that has been mis-classified, or does it mean it will work harder to predict any member of a certain true class?  Thanks!",True
+@ahmedabuali6768,2021-05-11T13:06:30Z,0,"please could you do more video, i am in love with your lectures, I want a video in how we use negative binomial in estimating the sample size",True
+@priyabratbishwal5149,2021-05-11T11:09:51Z,0,"Hi Josh , How to make a tree with multiple predictors using XG boost .Here you showed only single variable called Dosage . How to do it for multiple variables?  Thanks",True
+@ahindrilasaha5850,2021-04-26T04:43:26Z,0,"When number of variables >1 , do we calculate gain for all the variables individually and select the one with greatest gain? Or , is there any other procedure?",True
+@karangupta6402,2021-04-15T13:15:48Z,0,Hi Josh: Can it be possible to make some video on the scale_pos_weight feature of XGBoost and how it can help in solving imbalanced datasets problems?,True
+@karangupta6402,2021-04-14T16:21:51Z,2,Awesome :),True
+@tudormanoleasa9439,2021-04-14T07:57:55Z,0,"What do you do if the cover of a left leaf is less than 1, but the cover of a right leaf is greater than 1? Do you only remove the left leaf or the entire subtree made of root, left leaf, right leaf?",True
+@madhur089,2021-04-13T06:49:13Z,1,Josh you are saviour...thanks a ton for making these fantastic videos...your video lectures are simple and crystal clear! Plus I love the sounds you make in between :),True
+@TheArmourflame,2021-03-29T20:03:11Z,0,We start off with one prediction line at 0.5 probability. This line splits and at the end we have two probability lines: one at 1 and one at 0. So is the probability that the drug is effective 0 or 1? I don't understand if it is effective or not.,True
+@rafsunahmad4855,2021-03-19T13:44:55Z,0,Is knowing  the math  behind algorithm  must or just knowing that how algorithms works is enough? please please please give a reply.,True
+@mimaaristide7151,2021-03-01T13:22:57Z,0,"Thank Your sir for this wonderful video.  I have a question please, once we've built all classifiers, how do we obtain the final classification ?",True
+@chelseagrinist,2021-02-17T13:26:40Z,3,Thank you so much for making Machine Learning this easy for us . Grateful for your content . Love from India,True
+@ankurbhattacharjee3912,2021-01-29T14:20:04Z,1,"I have a question that for the initial predicted output we have taken 0.5 but this is classification problem why did we choose 0.5 as the default value.. I mean why the predicted initial value couldn't have been any other value say 1 or 0.  Probably my question seems stupid, apologies in advance..",True
+@hassaang,2021-01-24T10:05:47Z,1,Bravo! Thanks for making life easy. Thanks and appreciation from Qatar.,True
+@dikshantgupta5539,2021-01-20T13:00:26Z,0,"for purning the tree , is gain-gamma is same as cover value? As you remove the leaf when you calculate the cover value and also when you calculate gain-gamma",True
+@dylangaldes7044,2021-01-03T14:44:56Z,0,"Ive been researching on how to use XGBoost for image classification, unfortunately I did not find a lot of research papers on this. Is it a good algorithm for this job, Classification has multiple different classes that are either various types of diseases on leaf plants or a healthy leaf. Thank you",True
+@osmanparlak1756,2020-12-11T10:20:34Z,0,Thanks a lot Josh for making ML algorithms understandable. I am learning a lot from your videos. Just one question on the order when splitting to create the trees. I think it doesn't matter whether you start from the last two or first two as we check all.,True
+@henkhbit5748,2020-12-07T11:26:07Z,0,Love this series of xgboost. I read your answer about finding the best gamma value parameter using cross validation. According this video xgboost does not create new leaves when the gain < 0. When is extra pruning necessary? I  suppose pruning can be done  using lambda and additionally use gamma to prevent overfitting...?,True
+@sangpham5325,2020-12-03T04:07:01Z,0,"Do you have the website, I think I will donate for some amazing videos which will come in the future.   It's just awesomeeee and hope you will make video about hyperparameter for this kind of regression in Python",True
+@primakovch8332,2020-11-24T04:56:22Z,0,how do we choose the gamma value for a tree??,True
+@davidlo2247,2020-11-23T18:52:35Z,0,"at around 11:00, could you explain further why the cover, meaning the minimum number of residuals in each leaf, is 0.25, why it cannot allow a leave with 1 residual? isn't 1 > 0.25?",True
+@sudhanshuchoudhary3041,2020-10-18T08:57:45Z,1,BEST BEST BEST!!!!!!!!,True
+@ParepalliKoushik,2020-10-16T15:23:39Z,0,what would be the initial prediction value in case multi class classification?,True
+@panzhang9751,2020-10-11T03:48:07Z,1,"I guess you are a musician, not a trainer of  classification (lol)",True
+@nishidutta3484,2020-10-06T14:35:56Z,0,How is dosage selected as the first split and not any other variable? Is it on the basis of gini impurity?,True
+@kamaldeep8257,2020-09-23T18:55:37Z,0,"Hi Josh,  Thank you for such a great explanation. Just want to clarify one thing i.e. is this cover concept applies specifically on the xgboost trees or is it a normal method for all the tree-based algorithms. As every tree-based algorithm have this min_child_weight parameter in sklearn library.",True
+@santoshkumar-bz9mg,2020-09-18T06:05:07Z,2,U r awesome  Love from INDIA,True
+@user-ng1hs4lx4u,2020-09-12T06:00:46Z,0,"Thank you for marvelous video! I have some questions regarding what's explained 1. Can Number of trees we make be controlled by what we call 'Epoch' in ML? 2. When the model runs through epochs, is there any chance some epochs go the other way from the answer value?      - I understood that by setting learning rate too high, new prediction will bypass the answer, causing the learning procedure to        fluctuate a lot. 3. Ways we can slow down learning speed, I think are     1) Larger cover, 2) Larger gamma, 3) larger lambda      is it right? or are there more ways to control the speed?  Always thanks to all the efforts you made for the materials!",True
+@shivanshmishra5293,2020-09-08T08:53:06Z,0,Can anyone please tell me what will we do in the case when we have multiple columns in the dataset. Thanks in Advance for the help.,True
+@changning2743,2020-09-02T22:09:49Z,1,I must have watched almost every video at least three times during this pandemic. Thank you so much for your effort!,True
+@metaprog46and2,2020-08-27T03:47:53Z,2,"Josh - I think there's an error.  You represented the initial similarity score calculation as ""boo beep doo di doo doo di boop"".  Pretty sure it should be ""boo beep doo doo di doo beep bop"".  The others sound correct.  #JustSayin' :)",True
+@yashashgaurav4848,2020-08-26T09:29:54Z,0,No beeep beep do bee do beep beep? 0.0,True
+@mehuljain4920,2020-08-02T18:08:06Z,0,Hi  Hope it’s not too late to get a reply on this video from you.  I just wanted to know how the tree will grow when there are more variables. Like in decision tree it takes 1 variable in the root followed by other variables in other nodes. How will xgb build its tree. Thanks,True
+@Azuremastery,2020-08-02T07:50:19Z,1,Thanks!,True
+@Patrick881199,2020-07-29T15:36:26Z,0,"Hi, Josh, when building the trees, does xgboost like the random forest which bootstrap the dataset and choose random subset of features for each tree?",True
+@rajdipsur3617,2020-07-25T16:32:52Z,1,Infinite BAAAAAAAAAAAAAAAMMMMMMMMMM for these amazing videos bosss... :-),True
+@tauseefnawaz8888,2020-07-20T09:14:21Z,0,"that's a really great video and all others. i want to thanks about these. So, my Question is, you are solving this for binary classification. How we can Make model with multiclass Classification? Thanks",True
+@parinitagupta6973,2020-07-08T17:37:53Z,2,All the videos are awesome and this is THE BAMMEST way to learn about ML and predictive modelling. Can we also have some videos about time series and the underlying concepts. That would be TRIPLE TRIPLE BAM!!!,True
+@dhruvbishnoi8840,2020-07-08T10:02:29Z,1,"Hi Josh, What happens if after splitting the node, one leaf has cover lower than the set threshold and the other leaf has cover greater than the set threshold.  Splitting would not be performed, right?",True
+@andrewwilliam2209,2020-07-07T09:02:38Z,1,"Hey Josh, you might not see this, but I really look up to you and your videos. I got sucked into machine learning last month, and you have made the journey easier thusfar. If I get an internship or something in the following months, I'll be sure to donate to you and hit you up on your social media to thank you :). Hopefully one day I will have enough knowledge to share it widely like you.  Cheers",True
+@amirsayyed2158,2020-07-07T07:57:09Z,1,Where can I get your Xgboost slides???,True
+@vajjalavikram1506,2020-07-05T10:14:39Z,0,Why is this faster than the normal Decision trees?,True
+@teetanrobotics5363,2020-06-27T11:27:00Z,0,Best Professor on the planet. Could you please make a playlist for DL or RL ?,True
+@lucaslai6782,2020-06-18T21:35:23Z,0,"Hello Josh, Could you tell me how I can decide the value of Tree Complexity Parameter (Y Gamma)?",True
+@siddhantk007,2020-06-18T19:24:21Z,0,You have used example where x (variable/feature) is continuous. How are the unique regression trees made when x is discrete or ranked ? Like the candidate selection using gain and similarity scores ?,True
+@varunkukade7971,2020-05-24T12:22:34Z,0,I have one confusion .is gain which we have used in xg boost  same as the information gain we used in decision trees. If they are same then why their formulae is different.,True
+@manojbhardwaj27,2020-05-22T08:09:36Z,1,"@Josh Starmer: I would like to know about PRUNING concept in XGB. Are Gamma and Cover used for Pre-Pruning or Post-Pruning. In sklearn, we generally use Pre-Pruning which make more sense to me.  However, from you tutorial it's seems like we are doing Post-Pruning (after full tree built).    Can you please specify with a reason ?",True
+@shalinirajanna4281,2020-05-19T23:09:35Z,1,"Thank you such good videos.  I see that XGBoost has boot alpha and lambda parameters. you've explained about lambda, where would alpha fit in ?",True
+@zahrahsharif8431,2020-05-16T20:01:18Z,0,"Hi Josh, if there were outliers in the data say dosage 1000, this wouldn't affect how the tree makes it's split therefore outliers do not affect it? Aren't tree methods robust to outliers",True
+@statquest,2020-05-12T12:04:11Z,29,"Corrections: 14:24 I meant to say ""larger"" instead of ""lower. 18:48  In the original XGBoost documents they use the epsilon symbol to refer to the learning rate, but in the actual implementation, this is controlled via the ""eta"" parameter. So, I guess to be consistent with the original documentation, I made the same mistake! :)  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@rabinadk1,2020-05-12T07:30:05Z,0,"The greek symbol for eta is wrong, the one which you're showing is small letter epsilon.",True
+@yuchenzhao6411,2020-05-05T11:56:42Z,1,"8:04 If two thresholds have same 'Gain' why would we pick ""Dosage < 15"" rather than ""Dosage < 5""?  Dose it matters for larger dataset? 13:23 Since in part1 we set gamma=130 and part2 we set gamma=3, I'm wondering how do we choose the value for gamma?",True
+@klemensavs1038,2020-04-28T07:22:26Z,0,"Is the same principle for pruning in place for the XGboost for Classification as is for XGboost for regression (Gboost Part 1 - 14:01), not prune if lower inner node has Gain-Gamma>0?",True
+@pradeeptripathi1378,2020-04-19T03:57:49Z,0,"Hi....  1) In Gradient boosting for classification, initial prediction was log(odds), but here in XGBoost for classification, initial prediction is Probability (0.5) which you are later converting into log(odds). why we are not starting with intial prediction as log(odds) in XGBoost classification?            2) Formula for similarity score and output value is same except the square of residual in similarity score?",True
+@prathamsinghal5261,2020-04-11T10:21:24Z,12,Josh! You made a machine learning a beautiful subject and finally I m in love with these Super BAM videos.,True
+@neelamyadav533,2020-03-21T21:20:37Z,0,"Hi Josh, just wanted to ask .. at time 9.18 .. its showing similarity for the leaf is 2... will you kindly check and explain... i dont know where i am going wrong in calculation .. according to me it should be 0.5",True
+@paligonshik6205,2020-03-15T19:54:12Z,1,"Thanks a lot,  keep doing an awesome job",True
+@rosamendrofa8173,2020-03-10T13:20:29Z,0,How calculate gamma value?,True
+@rosamendrofa8173,2020-03-10T09:38:42Z,0,what if more than one feature?,True
+@rosamendrofa8173,2020-03-09T13:40:49Z,0,how can i find best threshold in tree??,True
+@karndeepsingh,2020-03-05T14:10:31Z,0,"Hi, Josh! I just wanted to ask that XGBOOST uses Random Forest behind the scenes.?? Can you please explain this? Thanks!",True
+@somalkant6452,2020-03-04T15:23:15Z,0,"Hi josh,  Can you help and tell me whether similarity score and entropy are different things or same?",True
+@yusufbalci4935,2020-03-04T07:45:49Z,1,Very well explained!! Awesome..,True
+@mariasiallagan9071,2020-02-26T08:04:16Z,0,"hi guyss, i want ask you about how XGBoost build tree and why root is dosage < 15?  i dont understand abaout it Thanks before",True
+@manuelagranda2932,2020-02-26T05:28:01Z,53,"I finished with this video all the list, I am from Colombia and is hard to pay for learn about this concepts, so I am very gratful for your videos, and now my mom hates me when I say Double Bamm for nothing!! jajaja",True
+@EvanZamir,2020-02-17T22:37:00Z,5,You really should write a book.,True
+@amalsakr1381,2020-02-08T12:49:25Z,0,"Million Thanks Josh. I can not wait to watch other videos about XGBoost, lightBoost, CatBoost and deep learning. Your videos are the best.",True
+@bharathjc4700,2020-02-07T21:29:00Z,0,What statistical tests do we need to perform on the  training data  and how do we validate the data,True
+@bharathjc4700,2020-02-07T17:10:27Z,0,Hi How does xgboost handle multi colinearity please eloborate,True
+@gerrard1661,2020-02-05T22:18:35Z,1,Thank you! Can’t wait for part 3.,True
+@asabhinavrock,2020-02-05T17:41:07Z,0,Hey Josh. Your videos are really informative and easy to understand. I have joined your channel today and look forward to more exciting content coming up. I was also eager to see your third video in the XGBoost Series. When will that be live?,True
+@mehdi5753,2020-02-01T16:05:35Z,4,"Thanx for this simplification, can you do the same this for LGBM and CatBoost ?",True
+@itisakash,2020-01-23T01:03:11Z,1,Hey thanks for the videos. Can't wait for the remaining parts in the XGboost series. When are you gonna release the next part?,True
+@n0pe1101,2020-01-21T15:33:45Z,0,Can you do a video about Gaussian Process Regression/Classification?,True
+@jingo6221,2020-01-19T02:06:41Z,1,"life saver, cannot thank more",True
+@yjj.7673,2020-01-18T03:37:33Z,1,That's great. BTW is there a video that only contains songs? ;),True
+@jacksmith870,2020-01-17T14:28:20Z,0,hey josh. how many videos would it be in this playlist? Thanks,True
+@averkij,2020-01-16T15:22:17Z,1,What about subsampling?,True
+@user-fj7cb5dx7u,2020-01-15T16:29:27Z,2,your lecture is triple bamm! do you have any plan to teach deep learning?,True
+@wucaptian1155,2020-01-15T02:53:20Z,15,"You are a nice guy , absolutely! I can't wait for the part 3.Although I have been learned XGBoost from the original paper, I can still get more interesting things from your video.Thank you :D",True
+@vijaykrish64,2020-01-14T17:05:08Z,1,"Must watch videos.Just a small question,why do we need both cover and gamma for pruning?",True
+@seanmcalevey4566,2020-01-14T14:54:17Z,2,"Yo fr these are the best data science/ML explanatory vids on the web. Great work, Josh!",True
+@niteeshhegde223,2020-01-14T03:39:55Z,3,XTREME BAMM,True
+@yulinliu850,2020-01-14T00:28:12Z,1,Awesome bang. Happy 2020,True
+@hubert1990s,2020-01-13T21:03:23Z,1,"while cover makes a leaf not to be sufficient enough to stay in the tree, is it also kinda pruning?",True
+@hubert1990s,2020-01-13T20:40:53Z,2,Can we apply gini instead of gain in XGBoost?,True
+@TY-il7tf,2020-01-13T18:05:38Z,88,How do I pass any interviews without these videos? I don't know how much I owe you Josh!,True
+@lambdamax,2020-01-13T16:57:54Z,2,"Thanks for boosting my confidence in understanding. There was this recent Kaggle tutorial that said LightGBM model ""usually"" does better performance than xgboost, but it didn't provide any context! I remember that xgboost was used as a gold standard-ish about 2-3 years ago(even CERN uses it if I'm not mistaken). Anyhoo, I hope I can keep up with all of this. I need to turn my boosters on.",True
+@Kevin7896bn,2020-01-13T12:48:42Z,13,Hit that like button before watching it.,True
+@muralikrishna9499,2020-01-13T12:38:27Z,5,After a long time..... BAMMM!,True
+@rrrprogram8667,2020-01-13T12:37:06Z,1,Hit and like first... Then later i am gonna watch video... MEGAAAA BAMMMM,True
+@lakhanfree317,2020-01-13T12:34:09Z,1,Finally yay waited for these video. For long but worth the wait. Thanks for everything.,True
+@globamia12,2020-01-13T12:30:58Z,1,Your videos are so funny and smart! Thank you,True

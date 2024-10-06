@@ -1,0 +1,19 @@
+author,updated_at,like_count,text,public
+@atoti,2021-10-29T09:58:16Z,8,Interested in knowing more? atoti is hosting a live stream MasterClass on November 18th. Join the atoti team as we demonstrate how to extract value from sales data!,True
+@TheIdealTenets,2023-05-17T14:51:46Z,1,"session = tt.Session() session = tt.Session(config={'user_content_storage': './content', 'port': 9000})  mine works with this i found on chat gpt. is there an update in atoti?",True
+@parasrajpal18,2022-08-23T09:28:52Z,1,"In line 16, i.e. tt.create_session(…) it is showing an attribute error that no such attribute (create_session) is found  Could you please help with this",True
+@findthetruth3021,2022-08-08T08:34:19Z,0,"Hey, could you please help me, I have even installed it but I have the following error.   --------------------------------------------------------------------------- Exception                                 Traceback (most recent call last) ~\AppData\Local\Temp/ipykernel_13888/26498132.py in <module> ----> 1 import atoti as tt       2 session = tt.create_session()  ~\anaconda3\lib\site-packages\atoti\__init__.py in <module>      76 (_LICENSE_END_DATE, _IS_COMMUNITY_LICENSE) = retrieve_info_from_jar()      77  ---> 78 check_license(_LICENSE_END_DATE, _IS_COMMUNITY_LICENSE)      79       80 register_active_plugins()  ~\anaconda3\lib\site-packages\atoti\_licensing.py in check_license(end_date, is_community_license)     159     for output in get_license_outputs(end_date, is_community_license):     160         if output.output_type == OutputType.EXCEPTION: --> 161             raise Exception(output.content)     162         if output.output_type == OutputType.REGULAR:     163             print(output.content)  Exception: Your license has expired, contact ActiveViam to get a new license.",True
+@WingfanSports,2022-01-30T14:51:15Z,1,The most important part of this video is the explanation of how you figure out to replace the ().  I am going on 9 years as an analyst and still more days then not I am googling something I don't know how to do yet.  Keep up the good work Ken!,True
+@mohammad_bilal951,2021-12-29T07:27:58Z,0,Hi  how can we deploy this as a webapp on heroku? waiting for your reply please :(,True
+@user-xg7mu2wo3j,2021-11-07T08:22:47Z,0,imho nothing looks better than dash plotly,True
+@LukeBarousse,2021-11-06T01:28:29Z,2,"18:25 ""I also want to do just a little bit more data manipulation"" .... said no one ever 😳jk",True
+@TinaHuang1,2021-11-05T19:33:04Z,3,awesome tutorial!! Really craving a burrito now 🌯,True
+@tusharbedse9523,2021-11-02T17:00:38Z,2,"Hey, Thank you Ken.  I liked the approch via atoti",True
+@wazeer23,2021-11-01T17:14:08Z,2,"Would be cool to do a comparison of this package, Streamlit, and Dash!",True
+@AssadJawaid,2021-10-30T02:24:28Z,3,I love burritos and the fact you made a dashboard made me take interest in dashboards & incorporating some dashboard into my portfolio. Productive Saturday so far thanka to you! 🙏,True
+@mariopaul6505,2021-10-30T01:11:48Z,1,You finally created another project video!!!  Thank you Ken!!  Your last data science project series was the #1 reason I have my current data science role!   Thank you for providing quality data science content and never stop. Can't thank you enough.,True
+@piyushzope10,2021-10-29T20:00:01Z,2,Dashboards are always beautiful... Great and helpful video... 🙌,True
+@harshitsati,2021-10-29T17:23:58Z,6,Ken do be looking buff in this t-shirt,True
+@DataProfessor,2021-10-29T15:41:13Z,7,"It's always fun and informative to learn the thought process behind the analysis. Great video Ken! Burritos, yummy 🌯",True
+@ericbroun4657,2021-10-29T12:02:40Z,2,,True
+@KenJee_ds,2021-10-29T08:02:42Z,3,Thanks for watching everyone! Be sure to follow along with the code here: https://github.com/atoti/notebooks/tree/master/notebooks/burritos,True

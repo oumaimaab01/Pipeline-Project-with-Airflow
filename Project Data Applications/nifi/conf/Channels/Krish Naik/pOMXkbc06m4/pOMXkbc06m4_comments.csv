@@ -1,0 +1,43 @@
+author,updated_at,like_count,text,public
+@anupriyasrivastava8784,2024-05-13T06:14:56Z,0,Prompt not working for me in jupyter notebook. Could you please suggest what shortcut can we use?,True
+@utkarshkapil,2024-04-19T06:28:09Z,0,Watching this in April 2024! Thanks for making this unbeatable content Krish!! Also love your ongoing langchain series!,True
+@natanaelmunoz5098,2024-04-15T00:35:34Z,0,"I have a problem when I use read.csv(). When I load the data, there are columns with different values, and these values are from another column. I don't know how I can solve this.",True
+@vigneshbalaji_,2024-02-10T15:39:55Z,0,can you also make an video on spark Architecture which will be really helpful for us.,True
+@khushboojain3883,2023-08-19T05:03:13Z,1,"@11:02 the Missing Values could appear in Experience,Age and Salary as the data type of these columns was string. If it was Integer, it would have not appeared. Hope it helps someone!",True
+@youtuberashish7729,2023-08-11T08:38:10Z,0,Can you help me to get filmora editor? @,True
+@abhisheksharan127,2023-06-08T07:57:22Z,0,getting error spark = SparkSession.builder.appName('Geocode').getOrCreate() RuntimeError: Java gateway process exited before sending its port number,True
+@KUMARVISHWANIDEEP,2023-04-23T19:05:22Z,0,I see at @11:55 when you check your dataframe all the column values are string. Could you please explain how is this happening post setting your inferSchema to true.,True
+@sabyasachidas4977,2023-03-14T16:12:10Z,0,"df_pyspark.na.fill(0,['Experience','Age']).show() this will work",True
+@anirbaansaha5091,2023-01-16T17:25:51Z,0,"Hey..in this section when u r writing inferschema=true then also it is taking all as string, hence when u r doing full with missing keyword as a value it is getting applied in all rows. But when I am doing it with inferschema=true then fill is only happening fr string rows not all...please clarify this",True
+@DuongNguyen-gd7zh,2022-12-08T17:51:10Z,0,How to watch the description of the func like 6:00? (Sorry i'm not good E),True
+@arijitroychowdhury2305,2022-09-05T10:18:27Z,0,"Hello sir. I tried the imputer function with a string column but I am getting the below error:   ""IllegalArgumentException: requirement failed: Column Gender must be of type numeric but was actually of type string."".   Here is my code snippet:   imputer3 = Imputer(inputCols = ['Gender'],                                    outputCols= ['Gender_4']).setStrategy(""mode"") imputer3.fit(df).transform(df).show(5)    Can you please help me to understand where am I going wrong?",True
+@anand5244,2022-07-28T01:04:15Z,0,jupyter commend suggestion now showing. Can you please help ?,True
+@paritoshprasad3401,2022-07-10T16:18:03Z,1,"df_spark= df_spark.na.fill('missing value',['age','salary'])  I have tried to fill the null values but not working.",True
+@chaithanyamannem5040,2022-05-22T13:33:17Z,0,Hi Krish,True
+@betterbrained,2022-03-14T20:20:13Z,0,"Thanks mate, good materials!",True
+@sankarazad7574,2022-01-10T11:07:55Z,1,"Hii Krish, When I ran imputer part it is giving me an error saying ""IllegalArgumentException: requirement failed: Column names must be of type numeric but was actually of type string."" How to resolve this??",True
+@raviluminary,2021-11-21T05:00:53Z,2,"Hi Krish, Thanks for the videos..  One query How come it is filling integer columns with 'Missing Value'  when you set inferSchema = True.  Also I found the reason why? when I saw your DataFrame (11:54) column data types all are strings, so can you help why it did not read inferSchema",True
+@oiwelder,2021-10-29T21:41:27Z,1,04:40,True
+@rutujapatil592,2021-10-26T15:43:40Z,0,"AttributeError                            Traceback (most recent call last) <ipython-input-29-688985f04bd9> in <module> ----> 1 df_pyspark.show()  AttributeError: 'NoneType' object has no attribute 'show'  Getting this error, even if I try using printSchema or withColumnRenamed? Please resolve.",True
+@ajaysinha1007,2021-10-11T07:33:03Z,1,Can we get the mean or median separatly and apply over the particular column,True
+@abhinandansamal7401,2021-08-21T05:38:36Z,1,"Hello Krish Sir. I have kept NaN values in a dataset, in Integer type columns as well as in String type columns. when I applied df_pyspark.na.drop().show(), it only removed the rows where NaN values are in column of type Integer. Rows having NaN values in string type columns did not get removed. After applying df_pyspark.na.fill('Missing Values').show() , it is not replacing the NaN values with 'Missing Values'. This is the same scenario when I passed single & multiple column names inside fill(). I have also applied the solution provided below by keeping inferSchema = False, but after that also it is not working. PySpark version: v3.1.2       Sir, Can you please suggest any solution for it, it will be really helpful.",True
+@abhisheknath4403,2021-07-23T12:14:31Z,0,can anyone let me know. How will I use MICE or KNN based Imputation techniques with Pyspark?,True
+@vashistnarayansingh5995,2021-07-16T05:36:24Z,0,Is this the complete series?,True
+@rajbir_singh0517,2021-06-25T11:25:24Z,0,"Hello Sir, can we connect HBASE with python and read data with pandas?",True
+@jatingupta4026,2021-06-23T08:01:22Z,0,"Sir, can you tell me that how can I store these dropped rows into a seperate dataframe?",True
+@ramthiagu2330,2021-05-20T11:25:49Z,0,"How to impute categorical feature. ""mode"" is not working with categorical feature.",True
+@QasimAli-vy2dn,2021-05-18T22:51:39Z,0,How did it write Missing Values for the datatypes 'int' (you used inferSchema=True)?,True
+@sarangtamrakar8723,2021-05-12T04:07:58Z,0,sir for categorical feature how to apply the setStretegy in pyspark imputer,True
+@tableauvizwithvineet148,2021-05-11T19:22:07Z,5,"thanks Krish,   Note  - I was getting bad result using df_pyspark.na.fill('Missingvalues').show()  -  result was only filling first column and not other columns, using df_pyspark.fillna( { 'Age':0, 'Experience':0 } ).show(), it was working correctly. I am not sure why its happening in my system only.",True
+@deveshkumarsahu3522,2021-05-08T11:22:51Z,0,"hi krish ,i used air quality dataset (city_day.csv) of kaggle and  I tried to fill missing values with a string, but output shows as just last column missing values are replaced by string and rest of the columns having missing value written as null. Basically its not working in the colums having numerical data.",True
+@tanishasharma3665,2021-05-07T11:00:11Z,36,The na.fill('Missing values') was not working for the integer columns like Age/Experience/Salary Only if we read the dataset as 'inferSchema=False' and all the columns are taken in string format by default we can fill the missing values with a string like 'Missing Values'......same goes for the string columns if we fill the missing values with a '0' Just an input....:),True
+@wellpaidmasonnothingisfree1085,2021-05-06T12:53:56Z,0,Keep em coming.... Thanks Krish 🤩,True
+@faisalmomin3110,2021-05-06T00:30:37Z,2,Hey krish can you pls make a video about communication skills for data scientists and how i develop it .,True
+@sociallyviral7353,2021-05-05T22:54:20Z,1,Can you play only python for data analyst roles. Series,True
+@syedalinaqi6274,2021-05-05T21:43:43Z,1,Hi Krish. Can you please let us know when will you make video on Bert ?,True
+@prernakhurana7404,2021-05-05T16:20:20Z,5,"Thanks for this Playlist, please include deep learning with Spark and Koalas library too in this Playlist. 🙏",True
+@gururajraykar9254,2021-05-05T15:34:21Z,1,Krish .. could you please explain spark architecture?,True
+@bhargavikoti4208,2021-05-05T14:28:18Z,1,Thank you sir.. expecting more for pyspark playlist🙏,True
+@paulasam2303,2021-05-05T14:12:44Z,2,"Hello, Krish Can you Please make a video on Music genre classification using AI electronic projects.? It would be a great help.",True
+@abhayjain5775,2021-05-05T12:31:13Z,2,Watched previous 2 videos already,True
+@abhayjain5775,2021-05-05T12:30:48Z,1,"Thank you sir, good tutorials",True

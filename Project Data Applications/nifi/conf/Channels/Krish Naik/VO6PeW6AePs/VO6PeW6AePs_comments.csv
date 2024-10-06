@@ -1,0 +1,52 @@
+author,updated_at,like_count,text,public
+@dhanushperumalla773,2024-05-23T05:28:24Z,0,"import nltk from nltk.tokenize import word_tokenize from nltk.corpus import stopwords from nltk.stem.porter import PorterStemmer from nltk.stem import WordNetLemmatizer from sklearn.preprocessing import OneHotEncoder from sklearn.feature_extraction.text import CountVectorizer  nltk.download('punkt') nltk.download('stopwords') nltk.download('wordnet') nltk.download('omw-1.4')  text = ""He was running and eating at the same time.""  # Tokenization tokens = word_tokenize(text) print(""Tokens:"", tokens)  # Stopwords Removal stop_words = set(stopwords.words('english')) filtered_tokens = [word for word in tokens if word.lower() not in stop_words] print(""Filtered Tokens:"", filtered_tokens)  # Stemming stemmer = PorterStemmer() stemmed_tokens = [stemmer.stem(word) for word in filtered_tokens] print(""Stemmed Tokens:"", stemmed_tokens)  # Lemmatization lemmatizer = WordNetLemmatizer() lemmatized_tokens = [lemmatizer.lemmatize(word) for word in filtered_tokens] print(""Lemmatized Tokens:"", lemmatized_tokens)  # One-Hot Encoding vocab = list(set(lemmatized_tokens)) onehot_encoder = OneHotEncoder(sparse=False) onehot_encoded = onehot_encoder.fit_transform([[word] for word in lemmatized_tokens]) print(""Vocabulary:"", vocab) print(""One-Hot Encoded Vectors:\n"", onehot_encoded)  # Bag of Words texts = [""He was running and eating at the same time."", ""He was eating a sandwich.""] vectorizer = CountVectorizer() X_bow = vectorizer.fit_transform(texts) print(""Vocabulary:"", vectorizer.get_feature_names_out()) print(""Bag of Words Vectors:\n"", X_bow.toarray())  # N-grams vectorizer_ngrams = CountVectorizer(ngram_range=(1, 2))  # Unigrams and bigrams X_ngrams = vectorizer_ngrams.fit_transform(texts) print(""N-grams Vocabulary:"", vectorizer_ngrams.get_feature_names_out()) print(""N-grams Vectors:\n"", X_ngrams.toarray())",True
+@rohitbele1983,2024-04-23T15:54:20Z,0,don't we do tokenization while dealing with ngrams?,True
+@soumyajitsaha9329,2024-03-29T07:08:39Z,0,from where I can access  the files ?,True
+@AniketDongare3899,2024-03-15T18:55:09Z,0,"sir, dashboard link is not working so where we find code notes and all ,",True
+@sailakkshmi9840,2024-02-21T18:38:06Z,10,"00:14 Day 2 agenda: NLP for machine learning and deep learning 02:27 Discussing techniques for converting words to vectors 07:16 Key NLP terminologies and their relevance. 09:41 Understanding the concepts of corpus, documents, and vocabulary in NLP 13:44 NLP Text Preprocessing Steps 15:50 Focus on converting words into vectors. 20:13 Document encoding using one hot encoding 22:14 One hot encoded format for NLP. 25:44 Sparse matrix and out of vocabulary in NLP 27:36 Issues with out of vocabulary and sparse matrix 31:20 Bag of Words and its application in NLP 33:31 Stop words are generic and can be removed for efficient text analysis. 37:23 Counting word occurrences in documents 39:07 Binary Bag of Words simplifies word representation as 1 or 0. 43:06 Bag of Words, TF-IDF, and Word2Vec have advantages but also come with disadvantages. 45:00 Understanding the importance of word ordering in NLP 48:40 Calculating cosine similarity between points 50:24 Cosine similarity and its limitations 54:37 N-grams represent combinations of features for text analysis. 56:37 Explaining the concept of bigrams and trigrams in NLP. 1:01:45 Demonstration of using NLTK for text processing 1:04:52 Installing basic NLTK libraries for stemming and tokenization 1:09:08 Using Porter Stemmer for word stemming 1:11:13 Using regular expressions to clean the text for NLP analysis. 1:15:08 Applying stemming and bag of words in NLP 1:17:09 Stemming process using NLTK in NLP 1:21:19 Explaining bag of words and index visualization 1:23:20 Using binary bag of words and applying stop words in NLP 1:28:45 Troubleshooting joining issues on Instagram and Mentimeter 1:30:57 Live quiz participation and technical issues 1:39:31 Text pre-processing techniques discussed in quiz 1:41:57 Bigrams can be created from the sentence 'cat eat food'. 1:47:28 Competition tight, final quiz question 1:50:32 Transfer of quiz prize money and verification process",True
+@biravapatel-dq8yk,2024-02-20T15:26:24Z,0,"Hi Krish, Where can I find this live session notes?",True
+@RajkumarRimal,2024-01-20T13:59:42Z,0,❤,True
+@programming_heist,2024-01-19T09:43:07Z,0,"Finding problem in connecting to dashboard   504 ERROR The request could not be satisfied. CloudFront attempted to establish a connection with the origin, but either the attempt failed or the origin closed the connection. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation.",True
+@shwethagn2211,2024-01-03T10:35:06Z,0,Unable to find the notes in the dashboard...kindly enable,True
+@jatinnandwani6678,2023-12-16T20:45:38Z,5,Thanks!,True
+@funnymator9846,2023-12-13T16:34:06Z,0,where is the link for the jupyter notebook,True
+@dwarakanadhareddybayana4948,2023-12-05T15:10:56Z,0,❤,True
+@yugmathakkar4023,2023-07-26T18:12:29Z,0,42:46 Wait so what was even the point of calculating the frequency of each word? It wasn't utilized anywhere,True
+@paneercheeseparatha,2023-07-19T04:03:27Z,0,"Pls add a disclaimer to your old playlist that a new one is uploaded, since a few things are missing in it.",True
+@venkatasurya7162,2023-07-13T05:08:47Z,0,your teaching so amazing,True
+@MohammadLikhan,2023-06-19T07:10:47Z,0,"Time: 1:25:25 to run the code: X=cv.fit_transform(corpus)  Error is Here:  ValueError                                Traceback (most recent call last) <ipython-input-43-5e755738c1ed> in <cell line: 1>() ----> 1 X=cv.fit_transform(corpus)  1 frames /usr/local/lib/python3.10/dist-packages/sklearn/feature_extraction/text.py in _count_vocab(self, raw_documents, fixed_vocab)    1292             vocabulary = dict(vocabulary)    1293             if not vocabulary: -> 1294                 raise ValueError(    1295                     ""empty vocabulary; perhaps the documents only contain stop words""    1296                 )  ValueError: empty vocabulary; perhaps the documents only contain stop words",True
+@utkarshmisraBA,2023-06-14T09:42:04Z,0,Great! Explanation.,True
+@sayalisalunkhe9199,2023-05-20T03:42:31Z,0,any guidance link for aspect extraction in NLP? @krishnaik,True
+@gouravroy121,2023-04-26T17:44:04Z,1,Why my codes aren't running this is frustrating,True
+@leelavathir9151,2023-04-23T15:24:54Z,0,can anyone share the practical session file link,True
+@anujshrivastava6242,2023-02-14T18:09:23Z,1,"Hi Krish I have studied ml from many sources udemy ,statquest, andrew ng ,nptel but your way of explanation is awesome honestly.",True
+@ronakronu,2023-02-09T14:05:52Z,0,thank you so mch for encouraging me .,True
+@manjeerag868,2023-02-05T19:32:16Z,2,"Can't imagine my masters without you. Can't thank you enough 🙏 Don't know what to say. Out of the words which is a disadvantage in many techniques like OHE, BOW etc but this OOW is bcz of the advantage we are gaining from your sessions.",True
+@vijaykumarharegaonkar3574,2023-01-28T05:38:38Z,0,Super Happy always hear you !,True
+@writabratadey8048,2023-01-05T08:20:51Z,1,nltk.download() is not working. showing WinError 10060 everytime ie. connection attempt failed...plz provide a solution,True
+@yogeetakhatri4015,2022-11-20T13:59:29Z,0,Thank u Krish,True
+@yogeetakhatri4015,2022-11-20T08:57:46Z,0,very very clear though learning for first time..excellent way of teaching,True
+@ayeshajalil6663,2022-11-10T08:04:39Z,0,Execute ni horaha,True
+@ayeshajalil6663,2022-11-10T08:04:31Z,0,Sir error h,True
+@ayeshajalil6663,2022-11-10T07:49:44Z,0,Wordnet lemmitizater error,True
+@mackr1581,2022-09-24T08:42:49Z,1,Thank you krish❤,True
+@arvindsinghrawat538,2022-09-12T04:41:57Z,0,Where is the dashboard sir is talking about??,True
+@dorothyyu6522,2022-08-28T13:17:49Z,0,Best nlp course,True
+@himanshushekhar815,2022-08-24T12:24:05Z,1,"Krish sir, You are just awesome!",True
+@commonsense1019,2022-08-23T14:56:18Z,0,thx,True
+@anuradhabalasubramanian9845,2022-08-16T13:47:23Z,3,"Hi Krish, Its a pleasure to watch your videos and learn the concepts .Please teach in your own pace and thanks so much for your great service .Keep up your good work!",True
+@hargovind2776,2022-08-06T18:09:03Z,13,"Please don't stop adding videos to the playlist, its awesome 💌",True
+@silujoshy8688,2022-08-04T10:26:28Z,1,where can I find the code materials for this session?,True
+@rising_star_2712,2022-07-28T04:53:14Z,0,"I am getting an error while removing stopwords from the corpus in 1:25:27, it says Word List Corpus Reader  not callable , how do we solve it ?",True
+@rising_star_2712,2022-07-27T11:11:34Z,0,the dashboard is not accessible sir,True
+@dangeroussarcasm717,2022-07-25T09:53:55Z,2,Notes cannot be accessed..it says page not found,True
+@joekanaan2548,2022-07-20T13:18:55Z,1,1:09:31 😳😳,True
+@billtoumpanakis6198,2022-07-19T15:30:11Z,0,"When lemmatizing, wouldn't we want in the word ""drinking"" to get ""drink"" ?? Since we're looking for the root of the word...",True
+@ajitkumarpatel2048,2022-07-13T17:31:40Z,1,"sir, please make a video containing all NLP playlists in one video. As you do for another video also..that is much help full for us...",True
+@sandipansarkar9211,2022-06-18T20:57:02Z,0,finished watching,True
+@soumyasamal1404,2022-06-17T06:21:35Z,3,"Hi Krish, when DevOps course will be started ??",True
+@ganps87269,2022-06-16T14:13:11Z,8,"@Krish Naik, please complete this session. Its a delight for us to learn for more than 2-3hrs of a single live session, if it is a possibility(I respect that it may be tiring for u).",True
+@themrsaquarian,2022-06-16T13:42:20Z,0,can somebody share todays live streaming link,True
+@venkytholleti5323,2022-06-16T05:29:48Z,2,I need some basic code examples for that sir will u provide for us,True
+@medhimintu123,2022-06-16T00:44:58Z,12,Sir once request please don't leave your course midway as some one has some other commitment. If anyone has any other work he/she can watch it later in youtube and in community. Please complete your daily agenda whatever the time is.,True
+@sameer-nb2jv,2022-06-15T16:28:01Z,1,Add live courses u. Tech neruon too after live courses end,True

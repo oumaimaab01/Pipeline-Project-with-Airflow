@@ -1,0 +1,71 @@
+author,updated_at,like_count,text,public
+@myfavouritecolorisgreen,2023-08-25T10:11:22Z,0,poetic,True
+@smebird,2023-06-08T15:34:54Z,1,"One of the beautiful things about the internet, is that a great course like this is available years after it was published on YouTube. Thank you so much, I'm having a lot of fun!",True
+@codingboy2254,2021-03-12T06:59:06Z,0,100th Coment.,True
+@mrfrozen97-despicable,2020-12-31T14:00:07Z,0,It would be cool if  [x for x in [I for I in range(3)]] worked Thanks btw.,True
+@whatthefox2639,2020-12-24T15:04:06Z,0,"3:10 - i got error how to get a output mul = [5,10,30,25,5,6,7,90] def mul_cal(num): 	if num % 5 == 0: 		return True 	else: 		return False x = (i for i in mul if mul_cal(mul)) for i in x: 	print(i) and the error is :                         return num%5==0 TypeError: unsupported operand type(s) for %: 'list' and 'int' please help me :(",True
+@gautamkumargupta1144,2020-12-03T15:06:19Z,0,"(print(i) for i in x) In the above case what will be stored in memory. I am getting the following output if I am trying to execute the following set of instructions  Program:: input_list = [2,4,6,8,9,23,45,78,90,6576,75,8797,980] ---------------------------------------------------------------------------------------------------------------------- def div_by_two(num):     if num % 2 == 0:         return True     else:         return False  x = [i for i in input_list if div_by_two(i)] z = (print(i) for i in x) for i in z:     print (i) ------------------------------------------------------------------------------------------------------------------ ## Output comes this. What is the meaning of None here? 2 None 4 None 6 None 8 None 78 None 90 None 6576 None 980 None",True
+@ConorFenlon,2020-10-26T19:36:18Z,2,"I'm sitting here, drinking a glass of red wine, waiting patiently for the full release of the nnfs book, brushing up on my coding, and I'm very happy about it.",True
+@torpezaincreible8692,2020-10-10T05:24:01Z,0,Conclusion genarators are hard to understand and they are backwards,True
+@jahirraihanjoy3466,2020-07-19T14:13:53Z,0,13.32 my computer gone wrong on compiling the code😂🤣🤣😂,True
+@sourabhjambale13,2020-07-16T17:33:15Z,0,"2:38   Technically, can we say that instead of a list, it  is a tuple?",True
+@rishabkumar9578,2020-06-26T10:35:04Z,0,purrrrr....,True
+@itsyaboichipsahoy7996,2020-06-24T20:01:00Z,0,Love this!!,True
+@nirbhay_raghav,2020-05-27T13:34:36Z,0,Can someone please explain what does print(ii) mean. I can't understand how it is working or what it is doing?,True
+@m_squre,2020-04-26T16:53:10Z,1,Eye for an eye👁️,True
+@mlann2333,2020-03-26T15:29:17Z,0,think I know.. generators can only be used once and are spent. To print through the generator  a second time the xyz needs to be ran again,True
+@mlann2333,2020-03-26T15:05:17Z,0,I don't understand why this only does one print even though there's 2 print statements. Either on their own works as expected. Put the two together and only one prints..  xyz = (i for i in input_list if div_by_five(i))  [print(i) for i in xyz]   for i in xyz:     print(i),True
+@nigelblanchard5571,2020-03-16T18:13:51Z,0,Why does adding print(i) print 'None's? is there somewhere I can read up on that issue- I know that print() is a function so is that something to do with this?,True
+@Jesseeeeee,2020-03-08T05:56:36Z,0,12:25,True
+@serhiy2020,2020-02-28T06:17:38Z,0,you can shorten the body of div_by_five() to return num % 5 == 0,True
+@dunder9444,2020-02-06T16:50:32Z,0,00:02,True
+@karmaisayin5720,2019-07-24T02:20:23Z,0,Is it reasonable to assume a lambda function within a generator? What are the implications of doing something like that?,True
+@krishnasrujan1486,2019-07-11T03:08:43Z,1,"n=int(input(""enter a number ""))  [print(i) for i in (item for item in range(n) if item % 2==0)] printing values of generator series in single line",True
+@rotrose7531,2019-06-16T03:32:08Z,1,"Thank you, this is the very series I am looking for",True
+@marco.nascimento,2019-05-25T04:52:39Z,0,very nice,True
+@RD19899,2019-04-24T17:03:22Z,10,"fun part is, he is making us understand in a much cooler way,with his weird laugh,which is literally helps you to code more easily, when you are gonna practice on your own. Anyway thumps up from me.",True
+@MultiSokom,2018-07-01T18:10:47Z,1,15:05 - This also works! :  for i in (print(i) for i in range(5)):     pass,True
+@Nemonamir,2018-04-23T14:36:18Z,1,u can just use   def div_by_5(num):     return num%5==0,True
+@themindstorm9947,2018-03-20T15:57:15Z,1,"When you make a list comprenhensio like [print(I) for ... ], what exactly is going on? Is it making a list with all print statements?",True
+@djleisheng,2018-03-18T04:28:13Z,0,"A more useful, reusable function than def divisible_by_five would be something like:  def divisible(dividend, divisor):     if dividend % divisor == 0:         return True     else:         return False",True
+@mohi7solanki,2018-03-17T08:00:47Z,1,"Quick tip if you want build a list or tuple out of generator x = (i for i in range(20))  # A generator y = [*x]  # unpack generator or y = (*x,) # to build a tuple",True
+@redberries8039,2018-03-12T17:33:34Z,0,"xyz = [i for i in range(5)] ---------1 [print (i) for i in xyz]        ----------2 So if line1 creates a stream 0,1,2,3,4 ie doesn't create a list or store the numbers . ....isn't that stream gone by the time line2 tries to iterate over it to print? ???",True
+@saliltamboli574,2018-03-03T18:17:00Z,0,In the last moment of video you showed how we can easily print (by hiding print) the numbers using generators. But if I want to change a print keyword itself is it possible (without creating a wrapper function in which we can use a print e.g.  def sentdex(a):        print (a)       ) This question was asked to me by a colleague  at tea time and to me it made a sense.,True
+@shaylempert9994,2018-02-24T22:54:09Z,0,"In minute 1:47, doesn't the expression(num % 5 == 0) already return True or False?",True
+@jesusloaiza3032,2018-01-24T12:02:03Z,0,"Hi, thanks for your videos. I have a question, how would  you generate multi dimensional lists: [[2,3],[6,7]] etc. and populate them automatically?",True
+@abhi-musicma9228,2018-01-09T12:45:56Z,0,"The last was mind blowing where you just used i instead of print(i) cause ""i"" it self was an object of print() that was like so logical and mind blowing just loving your videos a great explanation Thank you so much.  I would so much like to add you as a friend on fb please let me know if I can add you ^_^",True
+@ahmedanwar976,2017-12-15T12:12:24Z,0,works at 1.5 speed.,True
+@tkdevlop,2017-12-12T15:35:12Z,0,i don't understand first time i do myself and see the video again and again until i understand completely #this is just my opinion for learning,True
+@dustbinsavesyou8283,2017-12-12T09:32:04Z,0,this is so boring,True
+@rouser_bro9859,2017-12-07T21:28:53Z,1,He´s having so much fun : ),True
+@willb.755,2017-11-29T17:16:24Z,0,Quality tutorials as always :) thanks man!,True
+@maxlee3838,2017-11-09T17:58:37Z,1,"The most awesome part of this video happened in the last 30 seconds. Other people, don't make the mistake of skipping ahead to the next videos.",True
+@mohamedgamea9170,2017-08-17T11:40:54Z,0,how could u turn lines of code into comments ? (what were the buttons u use??),True
+@KATJASoftware,2017-07-11T04:39:20Z,0,"ii, captain, lolz.",True
+@Unstable_Diffusion89,2017-07-10T13:46:07Z,1,"When you pick up new concepts, how long before your start applying them in your own projects?? Do you immediately find application for it or does it take some practice with toy programs?? Great content btw, I like how you boiled List Comprehensions vs Generator Expressions down to an issue of Memory vs Time.",True
+@Richard_is_cool,2017-06-26T09:16:15Z,4,"What about just:  print([i for i in [5, 6, 9, 10, 20, 18, 22, 1, 0, 53, 30, 32, 15] if i % 5 == 0])  saves you first 4 and a half minutes :)",True
+@Lowzenza4,2017-06-23T17:28:48Z,0,this doesn't work in python 2.7 since print is not a function,True
+@NitinChauhan-vh2yk,2017-05-26T06:01:14Z,3,Running the code (xyz = (i for i in input_list if div_by_five(i)) and then printing the elements of xyz also prints a list of None at the end on idle. Any idea why?,True
+@francogomezgarcia8376,2017-04-27T19:36:26Z,0,"Minute 9:15... You should have started with that (""working backward""), haha. I love your videos, buddy, no one explain Python as good as you. Please, never stop doing this... Teaching. :D",True
+@fadyadal,2017-04-11T10:03:15Z,0,"13:03 the reason it didn't work becuase of the () or []  you could simply say  xyz = [(i, ii) for i in range(5) for ii in range(5)]",True
+@esclavosoy1,2017-02-08T06:36:08Z,0,"This intermediate Python course is awesome, it's exactly what I've been looking for.  Thanks!",True
+@mishikookropiridze,2017-02-03T16:52:59Z,0,xyz = [i for i in input_list if i%5==0] so xyz list ll only have correct numbers and its easy & saves time,True
+@hiteshq1000,2016-12-20T09:14:49Z,0,hey man thanks for your tutorials..can you do me a favor..please make the font size in IDLE it used to be in your basic python series..i use a 15inch laptop and in basic series i was able to see the font and at the same time edit it in my IDLE side by side...now i cant do it because of small font :(...,True
+@radovandr,2016-12-13T19:47:00Z,0,"Thank you so much, love your channel",True
+@connectdotstars,2016-12-05T22:23:49Z,0,Is there a way to access just one certain index of a generator rather than iterating over all of it?,True
+@_adaldo,2016-11-30T20:36:04Z,13,"At 15:05, you don't need to state 'i' in the for loop, right? You may as well  for i in xyz:     pass  And you still get the prints, since the five prints are called upon iteration.  On a somehow related note,   xyz = [print(i) for i in range(3)] #1 #2 #2  print(xyz) # [None, None, None]  for i in xyz:     print(i) # None # None # None  right?  And youtube needs markdown.",True
+@andreisima1977,2016-11-16T21:36:33Z,0,SELECT column FROM table WHERE condition 1 <logic operation> condition 2. Quite similar. In python 3 I will try if works the second condition. Interesting. That is just a query not a hole comparison computation.,True
+@eunsolhong2475,2016-11-13T05:47:52Z,1,"the generator ""xyz = (print(i) for i in range(5))"", and ""for i in xyz: i""...  I got the same result using ""for i in xyz: pass"" instead of ""for i in xyz: i"", and I did ""for i in xyz: print(i)"" then it shows ""0; none; 1; none; 2; none and so on"".  Maybe each ""i"" did not meaning print(i) but the return value of print(i), I think.",True
+@analemma.inflection,2016-11-09T23:32:36Z,0,way to be!,True
+@Majskolvenz,2016-11-09T21:13:04Z,0,Isn't using list comprehension for one line for-loops bad practice? The program will have the completely unnecessary overhead of constructing a list and then having to garbage collect it.,True
+@xezed,2016-11-09T15:35:03Z,0,"Hello, Harrison! Thank you for your work. Your tutorials are awesome!:) But in this video you have one little mistake. Instead of: for i in xyz:     for ii in i:         print(ii) You can simple write: for i in xyz:     print(*i) Sorry for my English, I'm not a native speaker)",True
+@alphadevops,2016-11-09T03:38:27Z,0,"Here you go buddy  for b in [['{}{}'.format(i,j) for i in 'abcdefgh' ] for j in range(8,0,-1) ]:  print(b);",True
+@TheSldsnake,2016-11-09T03:32:49Z,0,thanks amazin tutorial !!,True
+@mateofleitas4536,2016-11-09T03:31:42Z,1,"Hey! How do you comment selecting the block in idle? i cant do that, Btw i like your videos very much!",True
+@MentiSnap,2016-11-08T16:41:03Z,0,"I have read about the amount of returns in functions since I was at university, is it better to have one variable at the if and then return the variable? what do you think?",True
+@finfan7,2016-11-08T10:58:28Z,0,"I started out understanding, got confused as you stumbled, and then understood again once you understood what you were trying to say.  This was a longer but better explanation than the one I looked at earlier today.  Do you put a lot of planning into what you are going to say? The nesting is a bit mad though.  Seems like it could be more human readable, which I thought was the point of python, if it were a different syntax.  If I ever get deep enough in this I might write a generator creation function.",True
+@iVandal,2016-11-07T23:27:14Z,0,i think this is one of the most elegant parts of Python. Syntax is so clean!,True
+@TheLegendSpeaker,2016-11-07T17:37:46Z,0,Great Video!,True
+@theJUSTICEof666,2016-11-07T16:15:13Z,7,"Although this tutorial does what it was intended for, I feel like map and filter should've been mentioned from the start.  I really like the intermediate Python tutorials, keep up the good work!",True
+@Tom-nm6qf,2016-11-07T15:58:00Z,4,Is this a tutorial on how to write unreadable code?,True
+@relaxsightme,2016-11-07T14:43:08Z,0,"hello,great video",True

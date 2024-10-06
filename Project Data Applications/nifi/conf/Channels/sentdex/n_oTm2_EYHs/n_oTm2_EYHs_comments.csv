@@ -1,0 +1,19 @@
+author,updated_at,like_count,text,public
+@cxl6808,2022-03-16T10:47:04Z,0,how about html buttons with python onclick functions?,True
+@hokapokas,2020-05-15T11:03:42Z,0,"Hi, I have a question that in route(""/"" ) we are using render template but if it redirects me to a webpage using redirect_url(google.com) how will it come bask to hit another route in flask program as we cannot  wirite a redirect/return in same route .example code   @app.route(""/"", methods=['GET','POST']) def home():     return redirect(""https://google.com/images"")#redirects automatically with 302 @app.route(""/"", methods=['GET','POST']) def posted_data():     print(""i am triggered"")     if request.method=='POST':         print(""its a post method"")         data=request.form(""s"")         print(data)",True
+@omkarbhatt2729,2020-04-03T20:07:09Z,0,"Harrison, you are a GENIUS! - We love you. Lots of love from India!",True
+@skybrightmiracle4102,2019-06-23T08:04:06Z,0,"It doesn't work for me, I can't pass the title values into the html, it just comes blank...",True
+@VuHoang-ck3vv,2018-11-24T19:33:05Z,0,thank you so much !,True
+@gorillaman283,2018-09-28T12:20:01Z,0,Extremely helpful,True
+@jurjenvangenugten6853,2018-05-08T19:44:56Z,0,I love you! Very useful,True
+@exmachina767,2016-07-26T00:39:31Z,0,"I really don't think it's a good practice what is suggested in this video regarding the use of just one or two templates to contain multiple logically distinct pages.   Sorry if the analogy is not very creative, but that's like eating a three-course meal all in one plate (and using just a fork)!  Proper separation of concerns and keeping code short is paramount to creating maintainable code, something that any programmer comes to appreciate after a few years of practice.",True
+@ricardo.mazeto,2016-06-29T20:17:00Z,0,No NO NO! IT's stinks like PHP! Who first had that idea of mix markup with logic? Would be way easier to send the data in json and parse it in vanilla Javascript! AAARGH! I wanna punch someone in the face!,True
+@billma9050,2015-05-05T23:13:26Z,0,I like it!,True
+@TheddunTOSS,2015-04-25T00:20:38Z,0,"Hi sentdex,  I just realized the following problem:  if I try to define and call a varibale within a function the whole script fails to start (something about indention level, but this has nothing to do with it). However, if I define the varibale outside the function and call it within it works.  Can this have something to do with me using Python 3?",True
+@joeacanfora3272,2015-03-18T01:47:52Z,0,"super helpful videos, any tips on using tuples in flask?",True
+@writingpanda,2015-03-10T18:46:05Z,8,These tutorials are INVALUABLE. Thank you for making them! I have learned so much from you. Looking forward to seeing how I can best help others learn what I have learned.,True
+@pedrorevolorio2660,2015-02-28T21:27:38Z,1,you the man!,True
+@eddwinnas,2015-01-06T00:47:47Z,2,"ive watched several videos on flask, and I finally grasped it after this tutorial :)  Awesome job sentDex",True
+@fergus247,2014-10-01T09:29:56Z,0,"if you suddenly have thousands of people visitng your website, and you have logic in the html file. is that going to overload the server? i mean, what are the numbers when it comes to flask performance etc. should you do logic in the html file or in the python backend? for example if someone refreshes the page over and over does it calculate the html logic, and iterate over the list every time someone refreshes the page? just putting it out there.",True
+@playgoods,2014-09-26T21:59:40Z,3,Wonderful :) ,True
+@IvayloSpasov,2014-09-26T18:39:31Z,0,Python 4?,True

@@ -1,0 +1,61 @@
+author,updated_at,like_count,text,public
+@3042640426,2023-04-01T19:48:29Z,0,thx. You r amazing,True
+@zoop2174,2022-08-12T09:57:32Z,0,"Thank you, this helped me.",True
+@jojojawjaw,2022-06-15T14:15:51Z,0,"Great tutorial, thank you",True
+@James-mv9qx,2022-06-04T10:09:14Z,0,"""to drive home an example"", I see what you did there ;)",True
+@darpananeja6755,2022-02-22T20:21:16Z,0,Dude the fear was genuine when you converted mph to a pointer receiver!!!! Hehe,True
+@kaal_bhairav_23,2022-02-07T09:27:13Z,0,1:39 why are we not dereferencing the car to modify the top_speed_kmh like this?  *(c.top_speed_kmh) = newspeed,True
+@mahdizarepoor8964,2021-10-03T19:53:57Z,0,"""its  super super complicated .... you just need to do this ""  :)))) man you are the best .",True
+@Moccar,2021-09-18T19:36:24Z,0,"Converting a reference to a pointer receiver at 3:12.. Me: Easy, insert * Sentdex: ""Unfortunately, it's super super complicated"" Me: :o?",True
+@callumevans77,2021-09-07T08:09:55Z,0,Thanks for clearing this up for me 👍,True
+@AmolGautam,2021-07-28T22:05:23Z,1,Thank you so much.,True
+@dillonwyatt8144,2021-06-27T08:23:10Z,0,I just stumbled across this after starting the go-lang tutorial. This is several times more useful to have viewed than the official one. Thank you!,True
+@soheilarian,2021-03-27T10:21:17Z,0,"The reason they want to be consistent may be consistency. Lets say you have your struct as a value passed and you keep this thread open or looping for a while, then another method modify that struct, then you will have inconsistant values. I am very new to go, but I have done years of Java in many years ago. thoughts? BTW love the series...",True
+@rajurajesh3029,2021-03-03T14:19:41Z,0,I want to learn full course of go language plz help me,True
+@josephpaulrago9491,2021-02-01T17:36:17Z,0,"How did  ""return c"" fixed the error at the bonus round?",True
+@sarveshvora9265,2020-09-21T18:30:05Z,0,"I actually agree with GoDocs because the reason they mention to use the pointer receiver instead of value receiver is to eliminate copying of the complex struct. If one of the struct method is using pointer receiver to avoid the complexity which proves that the struct itself is really complex and therefore all the struct methods should be pointer receiver in order to maintain the efficiency.",True
+@colorcookie6088,2020-06-07T21:08:54Z,0,"Sentdex, sorry if it sounds rude, but you should've went through the golang tutorial for some time,   the reason why there needs to be consistency in the type of receiver is basically ""interface"", if you define half of methods with pointer receiver and half with value receiver, then it's like you're defining methods on 2 different structs, and you don't want that when you're dealing with interfaces. If you know about interfaces, you'll understand this instantly.  and about the pointer thing, maybe you're very tired or something, but, when you're defining a pointer, it's defined like this, var myvar *int. It's not ""reading through"", I don't even understand this term reading through, what does it mean?  Anyway, golang has really good tutorial about most of the things in its standard library.",True
+@cedrickvstheworld1810,2020-06-01T16:19:54Z,0,I'm happy that i knew typescript just before im gonna dive into Go.,True
+@DeepMindstorm,2020-05-25T10:33:09Z,0,thank you,True
+@NyKunPikaDasGalaxias,2020-05-18T20:15:13Z,3,"The best short-but-precise tutorial of Go until now, thank you a lot for it.",True
+@richdobbs6595,2020-02-06T19:10:20Z,0,"Half me loves that you make typical foolish mistakes, and then leave them in, and then shows the process of fixing them.  This shows the reality of software development.  Half me finds it frustrating that you don't even bother to either edit out the mistakes or go through a second take of tutorial that is only ten minutes long to fix the problems involved.",True
+@nikpapan,2020-01-29T07:39:24Z,0,I have also heard golang developers say that you probably do not need to use (and by that I mean you should not) a receiver method if it does not change anything in the object. In that case you might want to pass that object as a parameter using the less general interface relevant to the method.,True
+@blakeandersen8162,2019-10-14T01:45:39Z,0,"GP about consistency, ty for the vid",True
+@kimeg7294,2019-06-19T06:48:33Z,0,Do companies hire people with Go experience? Are there jobs that require Go skills specifically?,True
+@not_a_human_being,2019-04-07T12:09:08Z,1,"I feel some of your vids are ""filler"", cause you feel you need to film something... But this particular series on Golang is absolutely amazing!!! Especially for a python-dev like me! Other tutorials assume knowledge of C++ and are too advance, or assume no knowledge at all and are too basic. This is a perfect middle ground - perfect for Python->Golang switch!",True
+@kaustubhken,2019-01-23T18:39:47Z,0,Pointer arithmetic is costlier than integer or float arithmetic because pointer and struct use the same dot operator a user may confuse it with integer arithmetic which will decrease performance.,True
+@AAZinvicto,2018-10-06T09:11:31Z,0,can a struct inherit from another struct? The way a class does from another in Python/Java?,True
+@suhendrajaya,2018-09-27T13:35:59Z,0,"thank you for tutorial, I don't skip the ad",True
+@wahyupratomo3702,2018-09-26T09:38:33Z,0,"at my point of view, one example why pointer receiver is used very differently than the value receiver is when we use an OOP paradigm such as:  type Car struct {  Gas      uint16  Brake    uint16  Steer    uint16  TopSpeed float64 }  //get method func (c Car) GetKmh() float64 {  return float64(c.Gas)/100 * c.TopSpeed }  //get method func (c Car) GetMph() float64 {  return float64(c.Gas)/100 * c.TopSpeed /kmhMultiple }  //set method func (c *Car) SetTopSpeed(newSpeed float64) {  c.TopSpeed = newSpeed }  if we use value receiver on set method, the value will not changing the object we sent to the method because value receiver treat (c Car) as the other object, not the same as we sent to the method itself.  Please correct me if I am wrong, I also newcomers at Go Lang. Thank you :-D",True
+@syedjunaid8156,2018-09-24T14:10:53Z,0,"I love your series but your smile/laughter is little annoying, its like artificial ;)",True
+@shirishpatel557,2018-09-16T17:28:29Z,0,@sentdex Wouldn't it be better to always use pointer receiver and create a temp variable whenever necessary for both efficiency and consistency?,True
+@mrshurukan,2018-07-18T16:36:26Z,0,"""News peed"" is a nice variable name :D",True
+@sexking83,2018-06-06T03:51:36Z,0,tutorial can be a bit too fast,True
+@syne1456,2018-04-29T11:37:35Z,0,"When trying to change the value without the pointer it changes it only for the scope it is in, i hope that made sense, anyway nice tut",True
+@johnnydriesen7575,2018-04-11T08:47:57Z,15,"""Class is over... you're free to leave""  (around 07:30) . Love that one :) Great series, BTW. Thanks for your effort !",True
+@shankerlee,2018-03-10T07:14:24Z,0,Really appreciate your tutorial,True
+@bashmohandes,2018-02-28T06:10:37Z,0,"I love your series, thanks a lot",True
+@zoom5312,2018-02-22T02:55:57Z,0,I c c++ 🐸,True
+@aftabnaveed,2018-02-09T08:00:23Z,0,"Pointer receivers shall be used only if the original value needs to be changed. This at the same time can complicate your code as you would need to know where it has been modified. Otherwise, value receivers shall be used.",True
+@kinositajona,2018-01-18T00:21:39Z,0,Question: Isn’t a pointer basically a memory address? In which case why would a memory address have a top speed attribute?  I’m assuming go automatically references the pointer address when you try to access any attributes...  1. Am I right? 2. Would it be more performant to explicitly add the & in front of c inside the method?,True
+@aloysen,2017-12-29T19:32:04Z,0,"In your tutorial, i see that that familiar oop style of coding is disagreed upon by the creators of go ... I don't know, maybe I am rambling out the rapid garbage. But this is the functional programming approach. I am very pleased with this early arrival of this great new series from one of the trusted youtube trainers of the period.Also before this day, i kept on hearing from my pals that go is built around efficiency. but seriously I was not able to pin my butt into the hole ... also the docs had not been such clear { i don't know what state are they in presently} ... only a word sir ... if I require developing around go then are the docs super helpful for the thought to check out ... like the python docs do have a lot of good fodder for the developers to be strangled upon the language",True
+@kshitijkumar326,2017-11-14T02:56:31Z,0,"I've a doubt. If I ever want to change a struct variable value, I'll have to use pointers, right?",True
+@Akki22101988,2017-11-08T16:11:26Z,0,@sentdex Your tutorials are great. Can you recommend me any Go programming book or any other resource link for detailed learning and practice? I would be using Go for chaincode writing in Hyperledger Fabric.,True
+@prototypexero,2017-11-06T00:45:44Z,6,"This is by far the clearest, most concise explanation of working with methods in Go that I've seen.",True
+@kennyPAGC,2017-10-30T19:03:14Z,0,"I still don't get the whole c thing. And why is the last function call  new_top_speed(a_car, 500)? as far as I understand the c modifier basically attaches the function to the struct as a method, so shouldn't the call be a_car.new_top_speed(500)?",True
+@TheHunReaper,2017-10-28T21:52:01Z,2,"At the end, wouldn't it be just better and faster to just do this, if you really wanted to do it this way? func newerTopSpeed (c *car, speed float64) {     c.top_speed_kmh = speed }",True
+@alanwangedcc,2017-10-27T21:39:27Z,0,"When you cross out the call my reference methods, I thought it will give you an error saying methods not used. Just like you put some unused variable in the previous video",True
+@Muffins3001,2017-10-26T22:39:23Z,2,This is outstanding! Thank you so much! I'm trying to apply for an internship over the summer that requires knowledge of Golang. This helped me a ton!,True
+@AOKvids,2017-10-26T19:00:38Z,0,Hey Harrison. I am really excited to see how Web Development works in Go. I have been using Django for my personal projects and did not worry about efficiency and scaling... until recently! How serendipitous you are starting on this series while I am exploring different backend technologies. Thank you!,True
+@Terry-hq7xd,2017-10-26T18:36:18Z,0,Hi just tried to look up your git hub account for GTA example and could not find it. Did you delete it?,True
+@_Karlsson,2017-10-25T21:06:08Z,0,"I don't know Go, but it seems to me value recievers are for immutability. You should never mix immutability with mutability because then the user can't know for sure if they are changing state or not. Either a type is immutable or it is not.",True
+@MrGrayNk,2017-10-24T13:03:10Z,31,That pythonic naming of variables though..,True
+@ottomamestsarashvili3523,2017-10-24T12:08:24Z,0,Awesome ! when will you publish next tutorial ? ^_^,True
+@ownern4833,2017-10-24T06:32:43Z,1,"Great tutorial. Would you ever consider doing an Android Dev tutorial, or a tutorial on Kotlin?",True
+@hussainshaikh5615,2017-10-24T06:28:45Z,0,Very Well Ended ...With That Example Thanks..,True
+@serhiy2020,2017-10-23T23:29:56Z,2,"This is so good, can’t wait for the rest of the videos.  To me this makes a lot more sense than the traditional object oriented model.",True
+@wuda-io,2017-10-23T20:07:18Z,7,"Best part is where he says ""see you in the next tutorial"" 😄",True
+,2017-10-23T17:51:52Z,1,"I 'm generally just embedded/kernel/C/c++ developer that uses python occasionally for testing and scripting as alternative to bash,... I do see a place for this language for side projects thingies and prototypes since it is fast to run just like python is. Is it just me or is go somewhat similar to rust?",True
+@asiddiqi123,2017-10-23T16:29:29Z,73,Those who disliked this video are visual basic developers.,True
+@gesuchter,2017-10-23T15:17:11Z,1,"Great tutorial, as usual!:)",True
+@leberkassemmel,2017-10-23T13:48:24Z,30,"Why would value receivers ever be faster? It has to copy the whole struct, even if it is small. With a pointer receiver, everything is already set up and ready to go.",True

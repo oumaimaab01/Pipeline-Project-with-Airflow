@@ -1,0 +1,32 @@
+author,updated_at,like_count,text,public
+@THESocialJusticeWarrior,2018-08-18T20:12:34Z,0,The fastest way to track the puck would be with a dedicated board like: https://www.sparkfun.com/products/14632,True
+@gbarnabic,2018-05-29T22:51:41Z,0,You should have attempted something like this! https://www.usatoday.com/story/tech/talkingtech/2018/05/28/hamburger-making-robot-flippy-back-serving-300-burgers-day/649370002/,True
+@stephenworsley,2018-05-25T17:45:59Z,0,This looks like itll be a great series. Any chance you could put the part number so that it is a little closer to the front of the title? On mobile you don't see what episode it is until you click it.,True
+,2018-05-24T23:31:48Z,0,DOG (Difference of Gaussians) filters are really good to find circular objects,True
+@cd-ux9ot,2018-05-24T22:14:25Z,1,12:00 I think median is better than average (:,True
+@0969superman,2018-05-24T20:55:31Z,2,"what does the  _, frame = ... do ? what's the _, ?",True
+@darnokjarud9975,2018-05-24T13:01:11Z,0,"Hey, maybe try using Optical Flow, it's pretty good object detection method. But use the Lucas - Kanade version not Dense Optical Flow (it's slower). Anyway, I hope you're having a good time doing that, I root for you men! :D",True
+@franeklubi,2018-05-24T12:23:19Z,0,So cool!,True
+@Jeacom,2018-05-24T00:16:21Z,0,"I already did a thing like this to use a lantern to controll the computer cursor, funny!",True
+@LetsDark,2018-05-23T19:14:45Z,0,I would suggest motion detection combined with a color filter maybe. I've done motion and color detection by myself too and the lighting problems are a curse. An very interessting task could be to train a model to adjust the HSV min/max values of the image according to the brightness of the image or something like that.,True
+@princeofexcess,2018-05-23T18:30:34Z,0,could you possibly tweak the lower bound on the fly. If your array returns all zeros then you know the lighting is different and you need to reduce the lower bound. Conversely if you are getting too many values in your array you know that you are catching more then the puck so you need to decrease sensitivity.,True
+@paulpink1575,2018-05-23T18:14:06Z,0,Maybe you can use the white balance to get a reference how much lighter or darker the puck is under different light situations Great project 👍,True
+@badsyntax173,2018-05-23T17:22:22Z,0,"Setting the camera next to the arm instead of on top, to better emulate a human player?",True
+@bryanoverbey,2018-05-23T17:17:52Z,0,Looks good. Cant wait for you to drop the next video.,True
+@ishantpundir8225,2018-05-23T17:08:24Z,6,hey bro  instead of tracking red colour try motion detection that might help may be add a ROI as well,True
+@wasgeht2409,2018-05-23T16:51:37Z,0,"Amazon bro :) .. One question , i am from Germany is it possible to use a different robotic arm to play air hockey ?",True
+@BDYH-ey8kd,2018-05-23T16:35:40Z,0,sentdex are u secretly a millitary guy with high dicipline and a cap and uniform ;D?,True
+@sanjaykhanssk4530,2018-05-23T16:26:12Z,0,"Well,we can stay with the color idea itself,but we want notice the color which is moving position or in motion not the color always in same position...! (Just an idea...)",True
+@TaewooKim,2018-05-23T15:48:50Z,0,Is it possible to change the fps? Might be help,True
+@fiNitEarth,2018-05-23T15:30:51Z,8,After you finished programming you really should play yourself against the robot :D man vs machine,True
+@GG64du02,2018-05-23T15:29:54Z,0,:sentdealwithit: I might give another try to improve one of my project using opencv. :),True
+@BagoGarde,2018-05-23T15:14:23Z,1,Thank you for your work!,True
+@kloszi,2018-05-23T15:07:40Z,0,Maybe background generation (background - background_with_ball=ball)  plus your color detection,True
+@jayeshsawant6734,2018-05-23T14:56:52Z,0,Yay!,True
+@psz217,2018-05-23T14:48:06Z,0,I'd recommend using OpenCV contours finder functions on thresholded image. With them you can just select the edge of a puck and using moments and knowing its a round shape calculate the M00 M10 M01 and get x=M10/M00 and y=M01/M00 here you can find documentation about contours: https://docs.opencv.org/3.3.1/d3/dc0/group__imgproc__shape.html#ga17ed9f5d79ae97bd4c7cf18403e1689a,True
+@Jegotheotherones,2018-05-23T14:27:58Z,9,"HSV Filtering is quite unstable so taking the average to find the ball location is not a very good approach. If you have some outliers (other pixels detected as the puck), they will heavily affect the average. A better approach will be to find the contours on the filtered image and assume that the puck will be the largest, then you can use standard openCV tools to find the center.   If the camera is in a steady location you could crop the image to only contain the hockey field. Remember that in HSV domain, RED actually spans around in hue so you will both have to take upper values (160 - 180) as well as lower values (0-20). So often you will have to make two filters and combine them with an OR operation to really capture red in HSV.  Nice video, looking forward to the next one :)  EDIT: Generally this is a quite hard problem. Real time control through camera feedback. For on the puck will move quickly thus the single images of the video feed can experience frames with the ball blured by motion. The input lag also has to be very low to be able to have real time control. FPS is also quite an issue since Shannons sampling thereom also applies here, so we generally want to have a sample speed (FPS), twice of that in the robot actuators to have optimal control. Very interesting, did my bachelors thesis in a smilair project, where I had to track a ball and laser pointer with a raspberry pi and then through servo motors make the laserpointer center in on the ball in real time.",True
+@Apfelloch,2018-05-23T14:03:31Z,2,Pretty interesting project! :D,True
+@user-py7hf9zg5d,2018-05-23T14:03:12Z,0,Hi,True
+@jamesward7554,2018-05-23T14:02:34Z,11,This is freaking awesome. Oh and I just landed my first data science job. Couldn't have done it without your channel for the initial inspiration to get into python. Thanks a lot mate!,True
+@roshanmehta2293,2018-05-23T13:58:01Z,0,Is your screen bleeding,True
+@bruhaspati560,2018-05-23T13:53:42Z,0,What r the practical application of this??,True

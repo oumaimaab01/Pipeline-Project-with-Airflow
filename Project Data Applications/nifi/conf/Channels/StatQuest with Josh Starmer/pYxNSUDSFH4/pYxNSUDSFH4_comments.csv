@@ -1,0 +1,542 @@
+author,updated_at,like_count,text,public
+@suivzmoi,2018-11-06T15:00:32Z,1392,"probability is the quantity most people are familiar with which deals with predicting new data given a known model (""what is the probability of getting heads six times in a row flipping this 50:50 coin?"") while likelihood deals with fitting models given some known data (""what is the likelihood that this coin is/isn't rigged given that I just flipped heads six times in a row?""). I wanted to add this perspective because using the example in this clip, a likelihood quantity such as 0.12 is not meaningful to the layman unless it is explained exactly what 0.12 means: a measure of the sample's support for the assumed model i.e. low values either mean rare data or incorrect model!",True
+@thomasli3453,2024-04-27T14:50:35Z,1,Best explanation,True
+@kavyamusugu3564,2024-04-27T14:22:59Z,1,StatQuest makes me feel happyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy!!!!!!🤩,True
+@trilisser,2024-04-12T05:24:56Z,0,"Hi! In this video you talk about likelihood is a model (and its parameters) GIVEN the data. However, in phylogenetic analysis with a maximum likelihood method, people say the likelihood is probability of producing data GIVEN  a model. So why is that?",True
+@randallblake1213,2024-03-23T17:59:09Z,0,He says likelihood of mouse of 34g in normal distribution of mouse weights with mean 34 and st dev 2.5 is 21%. My calculator says 15.9%. I guess he is wrong unless someone can explain (I used normal pdf).,True
+@himanshumaithani8499,2024-03-16T05:33:48Z,1,"Very indepth explanation with visualizations and illustrations. I like the way you teach, brother. Keep it up...❤",True
+@ian-haggerty,2024-03-03T12:20:04Z,1,"I think it's worth mentioning that ""likelihood"" is otherwise described as ""probability density"". We call it a ""density"" as it is literally the probability per unit mass (in this context). This also means that the *unit* of likelihood is the reciprocal of the unit on the horizontal axis, in this case: probability per unit gram.  The choice of unit is arbitrary, and so the value of the likelihood is dependent on the unit of mass you care to choose. This also has a bearing on the numerical values for the mean and standard deviation.  Josh—I love your work! Just offering up my slice for constructive feedback/food for thought / follow-up ideas.",True
+@user-pq5cp7gr2i,2024-02-21T04:15:46Z,0,"ok hold up a second. Let's say I have a uniform distribution from 0-1, representing my score on an exam as a decimal (there are an uncountably infinite number of possible scores I can get, 99.1, 99.01, 99.0001, etc.) The pdf for this function is p(x) = 1. Let's say I got a 65 on the test. If I go by this description of likelihood, then I just run along my x-axis and go to .65, and then the y-value of the pdf is just 1. But obviously, the likelihood that I got a 65 on the test is not 1?",True
+@ruskinpatel4763,2024-02-17T03:54:18Z,0,Isn't likelihood the probability of data given model parameters? And posterior the probability of  model parameters given data? Or am I thinking about this wrong?,True
+@Kornackifs,2024-02-10T01:51:40Z,0,Likelihoods are less intuitive and they also don't add to 1 or 100%,True
+@mhm4277,2024-02-07T11:52:27Z,1,U R amazing!,True
+@CalledLissy,2024-01-29T15:52:47Z,0,"Now I'm a little confused. From my statistics class I remember: p-value (for example from significance test) is a likelihood and means probability of data given a hypothesis --> P(D|H). (And we learned that Bayes theorem gives the opposite: probability of a hypothesis given the data --> P(H|D)). But in the video it seemed that the likelihood means probability of a distribution given the data (the weighed mouse) --> P(distribution parameters | Data). I think there's no contradiction here, I'm just struggeling to find a general definition of likelihood and probability that's not dependent on examples or too specific terms (like hypothesis). Could anyone help me with that?",True
+@siddharthghosh3963,2024-01-02T01:22:46Z,0,"Hi, So as stated in the video, while calculating likelihood, we change the shape of the distribution. This value world change as the distribution shape changes. Won't the maximum likelihood then always occur when the measurement done equals the mean of that distribution? Eg. Here the maximum likelihood of a mouse weighing 34 grams will only be when the distribution's mean is also 34?",True
+@lilep666,2023-11-30T19:39:16Z,0,"not convinced, still sounds like the same thing to me!",True
+@rmcgraw7943,2023-11-29T12:11:02Z,0,"The distribution modeled determines the probability as well, you should have said, the probability of x, giving the mean of y and StdD of s, using a normal distribution, IS… p.",True
+@alrey72,2023-11-26T12:28:31Z,0,Does it mean that the word likelihood should be used if you're referring to a single data point?,True
+@user-vc8qq1ut1m,2023-11-18T08:48:09Z,1,Thank you for keeping things very clear!❤,True
+@dhruvilpatel4218,2023-11-17T10:20:34Z,0,"So what people call Probability of Hypothesis given evidence is ""probability"" P(H|E) and what people call probability of Evidence given Hypothesis P(E|H) is Likelihood??",True
+@pyotrllyich,2023-11-10T07:26:12Z,1,I really appreciate for saving my life..,True
+@BrunoPeitl84,2023-11-07T12:06:59Z,0,"According to my calculations, the likelihood when the mean is 34 is 0.16 and not 0.21, as said at 3:46. Is it really right?",True
+@gsp_ram,2023-11-05T13:44:25Z,1,You are awesome,True
+@user-fy4mu7tp6h,2023-10-20T17:44:15Z,0,"for Bayes, I thought  P(hypothesis | data) = P(data | hypothesis) * P(hypothesis) / P(data)  where P(hypothesis | data) is the posterior probability, P(data | hypothesis) is the likelihood, P(hypothesis) is the prior probability, and P(data) is the marginal likelihood. Not sure if I misinterpret something.",True
+@nasrullahturke4480,2023-10-13T06:07:13Z,0,So given a particular distribution with mean x and sd y will the probability and likelihood be same for a particular value if it's not about less than greater than or in between,True
+@jingjingli101,2023-08-23T15:06:01Z,0,"sorry, could you explain what does the ""y-axis values for fixed data points"" stand for?  🥺",True
+@josy4767,2023-07-18T10:17:57Z,1,Thank you!,True
+@artem_isakow,2023-07-11T17:15:40Z,1,Excellent as always,True
+@Zaznobable,2023-07-03T10:50:59Z,1,Thanks a lot for it!,True
+@gr4707,2023-06-10T00:33:32Z,1,This is so good. I’m looking to understand likelihood estimation function and just from this deep yet simple explanation I can guess what MLE is all about. Thanks!,True
+@Drikkerbadevand,2023-06-04T16:58:27Z,0,So in essence it is just a more narrow interpretation of the same thing,True
+@gocomputing8529,2023-05-28T08:21:27Z,0,"Great video as always! I just have a question.  I understand the mathematic difference, but I don""t know how to interpret the likelihood, while probability is easily understatable (given an infinite number of samples, the proportion of samples that matches the condition). Could anyone explain it?",True
+@aloksharma4611,2023-05-12T23:54:05Z,1,Thanks!,True
+@butangruyu5470,2023-04-30T05:45:04Z,1,"So does it mean that the y-axis of the PDF is the likelihood of the distribution given the data points observed? If so, that would solve the problem that has been confusing me for so long!",True
+@sannwailhyan5113,2023-04-23T06:09:44Z,1,"I studied financial econometric for past two semester, now I am at third semester, doing special project/thesis, all the concept I studies, becomes linked after I watch your video, I just want to say I really appreciated your explanations. I am pressing likes for every videos I watch going forward. Maybe after my project, I will learn machine learning. Thank you.",True
+@debayankoley5844,2023-03-10T21:57:04Z,0,"I just want to point out one thing, which I've recently realised. The definition and interpretations of likelihood given in this video are confined within the Classical paradigm. Bayesian school also uses likelihood, and although the structure of likelihood is the same, their interpretations of likelihood are different. That’s largely because in Classical statistics, a parameter (In this case, location and scale of normal distribution) is a fixed quantity whereas data are random. Bayesians consider exactly the opposite. For them, parameters are random and observations are fixed. It can be seen in this way: in Classical statistics, likelihood is the probability that our observed set of data will yield the model parameter(s) whereas in Bayesian statistics, likelihood is the probability that the parameter(s) will generate the data we are observing.",True
+@javierfrachi8299,2023-02-25T06:53:13Z,0,How did you came up with 0.29 in your example?,True
+@vaibhavnagar91,2023-02-16T17:50:51Z,0,Likelihoods are used in hypothesis testing then??,True
+@mehrdadmirpourian64,2023-02-10T13:53:51Z,1,Beautiful!!!,True
+@mohammadidreesbhat1109,2023-02-06T06:52:05Z,1,BAM,True
+@cihangwang8044,2023-02-03T01:47:41Z,0,Shouldn't the likelihood function be L(data| parameters) rather than the other way around?,True
+@skykingimagery899,2023-01-28T21:34:36Z,0,"Again, excellent lucid discussion.   Now it turns out most distributions are not ""normalized.""  The are frequently skewed.  How does that change calculations?  AUC, etc.",True
+@jaijeffcom,2023-01-20T05:16:50Z,2,"I really like your whole channel. You make things very clear, and you give a charming and personable presentation of it all. Thank you!",True
+@adolfosciartilli5119,2023-01-12T04:23:07Z,0,"Hi, I was wondering if you could delve into the ""likelihood ratio"" of a test.",True
+@TheAathi6,2023-01-11T13:55:10Z,1,Best explanation I have seen of probability and likelihood. Thank you so much..,True
+@user-vt6td9hp3g,2023-01-06T05:37:13Z,0,Terrible explanation.,True
+@delphinehintz7819,2022-12-31T23:45:34Z,1,Thank you! This was very useful and understandable!,True
+@FirstPrinciplesFirst,2022-12-31T00:29:12Z,0,"Considering that the topic of discussion is CDF, would it be correct to summarize as follows Probability: pertains to an interval on the X-axis (maps an interval to an area under the curve) Likelihood: pertains to a point on the X-axis (maps a point to a value)",True
+@17poojanmehta54,2022-12-20T15:37:11Z,1,Thank you very much josh ❤❤❤,True
+@stefos6431,2022-12-05T23:58:03Z,0,"Hi Mr. Starmer, I'm interested in relearning Stats.......do you have a course or textbook you've produced?  Thank you :)",True
+@veeek8,2022-11-28T09:07:25Z,1,Genius,True
+@Han-rg4zt,2022-11-26T04:36:30Z,0,how did he get 0.29? is there any calculation or any formula he use?,True
+@44flo,2022-11-03T17:30:14Z,0,who asked?,True
+@tamerosman774,2022-10-27T02:36:39Z,1,Thanks!,True
+@benysmart1643,2022-10-16T22:18:44Z,1,thank you for all video,True
+@prithviabilash7713,2022-10-10T07:12:32Z,2,"When he says ""BAM"", that's when I remember to press ""Like""",True
+@fahadnasir1605,2022-10-07T04:18:14Z,0,"Hi Josh, In probablity example, you calculated 0.29 probability, Can you please explain the math behind getting 0.29?",True
+@user-ix5qv3gb5i,2022-09-25T12:59:59Z,0,Why does the probability equal the area below the curve? What is the intuition behind integration here? Thx to anyone who can explain,True
+@Zahlenteufel1,2022-09-16T13:50:42Z,2,"Thank you for this! Both probability and likelihood translate to ""Wahrscheinlichkeit"" in German so I'm having quite a hard time wrapping my head around this. Also strangely all my stochastic education has been kinda vague on everything even at uni...  This helped though!",True
+@danielolivenca388,2022-09-15T15:59:38Z,0,Is the value of the likelihood guarantied to be between 0 and 1?,True
+@AnindyaSDas-qk7sb,2022-09-14T23:38:41Z,0,"I got a little bit confused here, in Inferential statistics P(theta(mean, var)/ Data) --> Posterior, and P(Data/theta(mean, var)) --> Likelihood, but here mathematically you have mentioned Likelihood ---> L(theta(mean, var)/ Data). What am I missing here?",True
+@MusobarMedia,2022-09-02T13:17:33Z,0,"for anyone confused by this:  L(mean = 32 and sd = 2.5 | 34)  L(32, 2.5 | 34) = (1/√ 2xπx2.5^2)x(exp(-((34-32)^2 / 2 x 2.5 ^ 2))  = 1.11  hope this help",True
+@user-ur2en1zq4f,2022-08-23T16:38:46Z,1,really happy after i found you sir,True
+@SUNILKUMAR-cq4es,2022-07-31T17:54:36Z,1,WOW!,True
+@MrFruitHater,2022-07-31T08:41:48Z,0,It's like getting stats advice from Judah from Bojack Horseman,True
+@debanjandas7738,2022-07-19T03:25:15Z,0,I too received a black and white printed version of the book. I will return it. How will I get the coloured copy of the book btw?,True
+@tobiasjohnson,2022-07-16T17:20:42Z,0,"The bit that confuses me is when I imagine a question like: ""What's the likelihood that it's a fair coin GIVEN that you rolled tails?"". This depends not on some random chance event, but situational factors such as where you found the coin, if you are performing a magic trick, etc etc. In the absence of any of these situational factors. What does it mean to calculate the likelihood that it's a fair coin and how would you even begin that process?",True
+@karannchew2534,2022-07-16T10:56:59Z,0,"4:16 ""Likelihoods are the Y-axis values..."" Aren't the Y-axis values also called ""Probability Density"", since they are  point values on the PDF curve?",True
+@yuxiang3147,2022-07-15T09:26:46Z,1,So is likelihood the probability density then>??!!,True
+@nias2631,2022-07-13T17:56:49Z,1,You stud you... the light shines in...,True
+@somdubey5436,2022-07-09T21:28:50Z,1,Thanks!,True
+@Dhruvbala,2022-07-05T21:36:26Z,0,Good video!  I'm still confused as to why a likelihood is a single y-value on the density curve rather than an area under the curve; I was wondering if anyone could clarify why this is,True
+@dvanscollection1413,2022-06-19T18:39:45Z,0,what is the likelihood of the the mentioned distribution given that the weight of the randomly selected mouse weights between 32 and 34.?,True
+@kaczucha3able,2022-06-03T18:17:59Z,2,Hello! I'm grinding for my categorical data analysis exam (what doesnt set me in the best mood) and have to say that the song at the beginning made me feel slightly better <3,True
+@drilldrulus1235,2022-05-22T08:33:33Z,0,la oss si at du starter på en reise du vet ikke hvor du er eller hva din destinasjon er da er det vanskelig,True
+@joshuadimick723,2022-05-17T19:30:23Z,2,"""Jibber Jabber clearly explained"" is t-shirt worthy!!!",True
+@statquest,2022-05-09T08:57:18Z,1,Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/,True
+@ahmetkarakartal9563,2022-05-07T14:08:08Z,1,you are hero,True
+@mtscott,2022-04-17T01:39:26Z,1,40 grams! That’s one fat mouse 😁,True
+@_MarcoDelFuturo_,2022-04-14T10:22:21Z,0,What is the y axis of graph in which u used the Likelihood,True
+@pedram4967,2022-04-09T11:33:45Z,0,likelihood is P(data|parameter) orP(parameter|data) ?,True
+@sukanya4498,2022-03-23T11:24:18Z,1,Great video 👌🏼🙌🏽👍🏽!!,True
+@Exceltech810,2022-03-14T19:06:55Z,1,Great explanation. Please shared more videos for statistics in grad level. Thanks!,True
+@xiukuiji747,2022-03-13T18:57:42Z,2,"Wish I have came across this channel earlier, subscribed after just one video. Keep up the good work man. Awesome contents and nice lil song at the beginning.",True
+@dotinsideacircle,2022-03-07T11:10:39Z,0,"Hi. You showed the LHS/RHS but what is the actual equation? How is it calculated? Thanks.  pr(weight between 32 and 34 | mean = 32, std dev = 2.5) = 0.29.  How?",True
+@yb801,2022-03-07T05:39:11Z,0,"Thanks, I've always thought they are the same thing.",True
+@loganreidy7055,2022-03-01T05:01:43Z,1,Weird that I get recommended this when I'm in a statistical thermodynamics class (help they are in the walls),True
+@surbhimishra6795,2022-02-28T17:24:08Z,2,"StatQuest make me feel soooooooooo happy 😊, thank you statQuest team 💜",True
+@mahdimohammadalipour3077,2022-02-28T12:26:24Z,0,1 - likelihood can be greater than 1. Is that true ?  2 - what is the likelihood application rather than fitting a distribution to the data? Is there any other one that uses likelihood ?,True
+@funtwang3303,2022-02-24T18:46:08Z,0,"the likelihood of obtaining a mouse with a weight of 34 g given that mean = 34 and stand div = 2.5 should be about 16%; dnorm(34, 34, 2.5)",True
+@johnnguyen1128,2022-02-21T16:18:18Z,0,The x-axis is the weight of the mouse. What is the y-axis?,True
+@marekforst8358,2022-02-20T14:12:08Z,1,I got MBA in data science and I didn't know this.  How the fuck did I graduate.,True
+@CJ-vc1sh,2022-02-17T23:22:48Z,0,"This is different from what I read in a textbook, which claims probability and likelihood are the same numbers but with totally different meanings which you explained well. .",True
+@101jir,2022-02-17T19:41:48Z,0,"So, put simply: Likelihood and probability are almost the same thing, but likelihood deals with a discreet value, while probability may deal with a set. Really just that simple, or am I missing something?",True
+@opedromagico,2022-02-16T19:20:33Z,0,Talking about probability.. https://www.youtube.com/watch?v=XzYLHOX50Bc https://www.youtube.com/watch?v=n1SJ-Tn3bcQ,True
+@hanyanglee9018,2022-02-15T10:12:07Z,1,Bam~,True
+@whiskyguzzler982,2022-02-08T03:16:03Z,0,Engagement for the algorithm!,True
+@something468,2022-01-31T18:24:36Z,2,"So, Can we say that likelihood is something like training a model and probability like predicting by using that model . Correct me if I'm wrong 💢",True
+@davidmurphy563,2022-01-27T13:27:44Z,1,"Wow, I simply had no idea mice lifted weights nevermind that you could statistically analyse them.",True
+@ganeshtowar8050,2022-01-19T10:38:21Z,0,What is on the y axis,True
+@Hamromerochannel,2022-01-16T12:07:10Z,9,"I never thought I would be saying I like stats. As you grow older, you will see the importance of stats in the real world you start to appreciate it more",True
+@199NickYT,2022-01-12T21:32:19Z,0,"Without all the math, what I'm getting is that ""probability"" is about possible events/things, whereas ""likelihood"" is talking about an actual one. Probability = describing what COULD happen Likelihood = describing what DID happen.",True
+@MarekSuchomel,2022-01-04T17:39:58Z,0,"I believe you that mathematically by definition this is correct. But it does not feel obvious in laical terms. How can likelihood of a mouse weighting 32 grams (meaning e.g. exactly 32,000000000000000000000000000000000000000 grams) be as high as 0,12. I feel that it is absolutely unlikely for a mouse to weight some exact given weight.",True
+@yassanhassanpour1442,2022-01-04T08:27:08Z,1,very handy . tnx .,True
+@h.b.barter4298,2022-01-01T00:27:34Z,0,For clarification:  Are you saying that probability describes an area under the curve over a range?  And that likelihood describes a single point on the curve?  Thx.,True
+@johannesincalifornia,2021-12-31T06:38:46Z,0,Another 5min video which should have been only 1min to explain the subject simpler.,True
+@mhaider6936,2021-12-31T02:47:41Z,1,Wow!,True
+@patheddles4004,2021-12-30T23:44:45Z,5,"Right, so: - Probability is for predicting an outcome within a known system (eg. rolling fair dice) - Likelihood is for analysing an outcome when the system is not known for certain (eg. determining if particular dice actually are fair, or determining what curve is the best model for a dataset)  I just learned a thing - thank you. :-)",True
+@tunneloflight,2021-12-30T11:35:09Z,0,A truly excellent and simple presentation of Bayes theorem and more importantly about how it can go horribly awry in practice. It is always important to remember as you so well describe that it is an estimation of probability conditioned on our state of apparent knowledge and not a statement about truth. For that we need the actual data from the world. It is all too easy to forget this and get into a recursive loop where this unintentionally instead becomes a tool to support confirmation bias.,True
+@StevenTorrey,2021-12-29T16:18:26Z,0,0.12 what?,True
+@elderhiker7787,2021-12-28T22:32:50Z,30,"This is good stuff. Although I have taken 3 graduate level statistics courses, I struggle to explain the rationale behind the concepts. Which means, of course, that I lack deep learning of statistics. Your straightforward and graphic explanations are marvelous; even better than my stats professors. Thanks and I’m a subscriber now.",True
+@glasslinger,2021-12-28T20:27:37Z,0,"Well, shit! This means I will never win the lotto no matter how much I juggle the past numbers!",True
+@deadman746,2021-12-28T16:09:38Z,1,Very nice.,True
+@davidjames1684,2021-12-27T11:28:25Z,0,What is the probability of flipping a fair coin and having it land on heads?  What is the likelihood of the same?,True
+@harveywarne9030,2021-12-27T00:31:19Z,0,"Why does anyone care?  I am much more interested in somethings probability in everyday life.  Other than in some academic math course, why would anyone care?",True
+@tedsheridan8725,2021-12-26T20:39:11Z,0,Isn't what you're calling likelihood usually referred to as probability density?,True
+@DickHoskins,2021-12-26T18:16:10Z,0,The likelihood is the probability that a mouse weighs a particular value  not  just within a range of values? So what do we know about the mouse knowing the likelihood of the weight that means anything useful?,True
+@smhollanshead,2021-12-26T05:36:21Z,0,It’s too bad this person does not speak English.,True
+@nettewilson853,2021-12-26T03:17:24Z,0,So given a particular outcome you have a likelihood of a particular distribution????  That seems backwards.,True
+@teamomiparientes3769,2021-12-26T03:13:51Z,0,"discrete dist. : probability mass func. (pmf), denoted as f(x) represents probability continuous dist. : integral of f(x), denoted as F(x) represents the probability  f(x) for continuous dist is called probability density func. (pdf)  p.s. i'm just bored so I write sth",True
+@Stew282,2021-12-25T23:44:18Z,1,"Wow and gosh! I work a lot in risk management and have long argued for the appropriate use of the terms 'likelihood' and 'probabiltiy'. As far as most poeple are concerned, they are synonymous. People cannot understand the difference between the likelihood of a specific event and the probability of an event causing a specified outcome. Thanks for the simplification.",True
+@thomasvilhar7529,2021-12-25T14:44:12Z,0,Hmm does likelihood work on continuous (not discrete) samples for me the likelihood that a mouse weight is exactly 32 grams is zero(or going to zero). If the likelihood is between 31.5 an up to 32.5 then I see no difference to probability.,True
+@tejolisboa,2021-12-25T14:15:50Z,0,"Very interesting. Unfortunately, in Portuguese, likelihood translates as probability…",True
+@MikeDial,2021-12-25T13:56:47Z,0,"So, if I understand correctly, the biggest difference is whether we already have data or not?",True
+@orglancs,2021-12-25T10:34:35Z,0,"As usual, with any mathematical explanation, completely impenetrable.",True
+@user-cx2bk6pm2f,2021-12-25T08:52:24Z,0,"Thanks for that explanation.. but only a mathematician cares about this distinction, no?",True
+@mattdavis3036,2021-12-24T18:01:19Z,0,So mathematically they're different but semantically they're still the same.,True
+@vaizerdgrey,2021-12-24T12:51:03Z,0,But what is lilelihood?,True
+@ReasonableSwampMonster,2021-12-24T04:56:44Z,0,So to find the probability of a given section do you have to integrate the area under the curve? Like I get in simpler examples it might not be necessary but in more large data is this the case?,True
+@louhenry3127,2021-12-23T08:16:46Z,0,"If you want to sing in public, I suggest that you get help!",True
+@dannyo8591,2021-12-18T05:04:03Z,1,My mind was bammed!,True
+@elmoreglidingclub3030,2021-12-17T04:45:38Z,0,Interesting.  What if you want to know the probability of a mouse weighing 34g?  So rather than p(weight > 34) you have p(weight = 34).  Wouldn’t that point on the x axis that is 34g have a specific probability?,True
+@mattf1787,2021-12-02T19:52:38Z,0,"Hello. Thanks for that explanation!  Question: for likelihood, why would i want to move the distribution at all? I can see the purpose of probability for a distribution ive already measured. But for likelihood, what the purpose of moving the distribution around a fixed point?  How is that analysis useful?  Thank you again. Your vids are helping me get my work done better!",True
+@kashishtibrewal3493,2021-11-24T17:36:12Z,0,"Very nice explanation! I am just wondering: what does getting a likelihood>1 mean? Because clearly, likelihood>1 is possible. (For eg, Uniform distribution defined in the range [0,1/2])",True
+@alifirhas3550,2021-11-18T12:41:43Z,1,"The way of you speaking is very similar to Baldi in Baldi's Basics in Education and Learning. Which makes me terrified some times, but i'm generally more terrified how rapid i learn watching your videos. Thank you.",True
+@BulkySplash169,2021-11-17T17:56:09Z,123,I am a postdoc in neuroscience/psychiatry on a mission to brush up my stats knowledge. I can only repeat what others have already said: It's amazing how you break down and explain complicated topics in an understandable way. Thx so much for these videos.,True
+@PhongNguyen-nv7jj,2021-11-08T16:15:03Z,1,Perfectly explained! Thank you.,True
+@fardaddanaeefard8247,2021-10-23T19:24:16Z,1,"I wish i'd known you sooner, keep up the good work!",True
+@Darthdeedee91,2021-10-17T21:08:38Z,1,Like the songs on bandcamp man!,True
+@amirhosseinshafieian3951,2021-10-16T16:10:40Z,1,"so so so so great, THANK YOU SO SO SO SO MUCH",True
+@oladamola8690,2021-10-09T14:18:29Z,1,Thank you so much Josh 😊😊,True
+@wingsonthebus,2021-10-09T06:12:18Z,0,"enormously clarifying, thank you  [and yes, @ everybody, I’m still alive]",True
+@firdovsihasanzada,2021-09-28T06:50:26Z,1,you are great!,True
+@dr.prateekpandey7137,2021-09-22T18:53:45Z,0,Hi Josh! Can these likelihood values be greater than one or negative?,True
+@jongwonpark2788,2021-09-22T15:09:50Z,1,double bam! lol,True
+@saintelohim,2021-09-19T11:09:25Z,0,The probability of an event is always <=1 and the sum of all the disjoint probability is == 1. Is there some related concepts/similar properties in likelihood?,True
+@SuperMsmystery,2021-09-08T16:16:56Z,0,Probability: Distribution is fixed and the area under curve moves Likelihood: Observation is fixed and the whole distribution moves,True
+@hengeveldbram,2021-09-07T21:10:56Z,0,"A question. Likelihood here is quite clearly defined via 'L(model|data)', but in 3B1B's video ons Bayes' theorem (https://www.youtube.com/watch?v=pYxNSUDSFH4), Likelihood is defined as P(E|H). This is confusing to me (almost contrary), as P(E|H) feels more like the given (in your video) definition of Probablity using Pr(data|model), since I view a hypothesis as the 'model', and the evidence as the 'data'. Am I missing something, or is this simply another way of using the words probability and likelihood interchangeably?",True
+@ronniec8805,2021-09-02T22:27:46Z,1,better than my lecturer,True
+@CustardyRhubarb,2021-08-16T13:59:39Z,0,"I think the likelihood for the distribution with mean 34, and stdDev 2.5, given a mouse weighs 34g,  is incorrect. It should be 0.16 and not 0.21 as stated in the video. Am I missing something?",True
+@aishah8398,2021-08-05T08:47:39Z,0,that's why likelihood connects with the bayesian inference 🤔,True
+@aishah8398,2021-08-05T08:44:21Z,1,my head was boiling coz of PCA and it's a blessing that I came across the statquest video ... thank you for making these topics so clear n interesting... stay blessed,True
+@caglarsubasi2433,2021-07-23T12:01:01Z,0,isn't this only looking the issue via Frequentist perspective? How about Bayesian look?,True
+@madhubagroy,2021-07-12T09:36:51Z,1,Top-notch! So impressed by your explanations. Thank you!,True
+@ahmedosman9741,2021-06-30T14:24:11Z,0,Good explanation but I disliked for the BAMs you said.,True
+@muhammadazher,2021-06-25T10:25:43Z,1,You are a great teacher!,True
+@AshishKumar-xx3dx,2021-06-13T09:10:26Z,1,as usual amazing videos by StatQuest,True
+@timioptulescu455,2021-06-05T14:07:34Z,0,"Hi, I would like to hear something on likelihood ratio test statistics. Good winds bloat your sails ! :-)",True
+@clydexu2599,2021-06-03T04:27:34Z,0,"overall, the series are awesome! but still confusing on this one. Probability is simple, like density, whose integral is 1. but for likelihood, no idea why just directly using density function to calculate. And surprisingly the parameters that maximize the density function over a bunch of observing samples tend to be the real parameters.",True
+@lsakvidovic8187,2021-05-13T18:10:45Z,0,Thank you very much. So can we say that likelihoods are our observations? Then why we need to amend our model based on likelihood? Is this what we do when we try to increase model fit?,True
+@Armando_Lara,2021-05-11T15:39:15Z,0,The likelihood definition was very unclear,True
+@Leonardo-fm7fj,2021-05-09T10:19:00Z,0,"Correct me if I understood it wrong: Given a measurement, the likelihood of a given distribution is the probability density that corresponds to this measurement and distribution combination. We then change the parameters of the distribution until we maximize the likelihood while keeping the measurement constant. For every parameter set, the corresponding likelihood is the probability density. Correct?",True
+@gulseminyesilyurt303,2021-05-07T10:12:02Z,1,"""even I mix them up from time to time"" hahahaha",True
+@karannchew2534,2021-05-01T07:08:36Z,2,Thanks. I used to think likelihood is the same as p-value.,True
+@bin4ry_d3struct0r,2021-04-19T15:16:36Z,0,Does the concept of likelihood exist for discrete random variables?,True
+@govamurali2309,2021-04-05T01:47:28Z,0,So can we say that likelihood is like a probability of probability?,True
+@antoinekarl1835,2021-04-02T03:31:05Z,0,Can likelihood be greater than 1?,True
+@debatradas1597,2021-03-29T08:56:07Z,1,Thank you so much... I'm glad I got to learn something new today,True
+@aminsn779,2021-03-13T17:53:15Z,1,A brilliant explanation!!,True
+@pietronickl8779,2021-03-04T14:14:37Z,1,thanks for another intuitive and concise explanation!,True
+@dodgingdurangos924,2021-02-28T14:23:38Z,0,What?,True
+@samirajodeir1285,2021-02-21T11:25:33Z,6,"Thanks for this video. I'm a little confused about what you have mentioned about probability. You mentioned that probability is the area under the curve of distribution for a given interval. However if data is only a single point, the area is zero and it would contradict with this equation L(parameters; data) = P(data; parameters)",True
+@MLDawn,2021-02-19T22:51:51Z,1,"Well said. Likelihood measures how likely is that the current parameters of my distribution, could result in a particular point x being sampled, from that distribution.",True
+@Nobody0810,2021-02-11T11:11:06Z,1,simple and clear explanation,True
+@monapatel4768,2021-02-02T20:57:33Z,1,amazing explanation!!! Can you also do the video for all the distributions types?,True
+@haneulkim4902,2021-02-01T05:05:42Z,0,"Thanks for your video! @2:53 when you explain likelhood, you ""assuming you already weight mouse or mice"" if we've weighted 3 mice 31,32,33 grams then likelihodd of 3 mouse = probability of weighing mouse of 31~33 grams? so in that case likelihood = probability?",True
+@zahrarezazadeh293,2021-01-28T19:20:52Z,0,"I guess it's a stupid questions, but: can we at all calcultate the probability of a measurement to be an exact measure, given a distributtion? (because your example was about an interval of mouce weights)",True
+@prashantkumar-ue7up,2021-01-24T00:36:52Z,0,I still did not understand what likelihood is😕,True
+@kirisakow,2020-12-30T11:03:01Z,0,"Dear Josh, I have a question (worth a 10-fold BAM): If probabilities are always comprised in the [0 ; 1] interval, what interval, if any, does encompass likelihoods? Thank you",True
+@mickeylau1,2020-12-29T18:13:13Z,1,I love the song,True
+@BKim-nl3qn,2020-12-23T17:35:52Z,0,so what is the y-axis when you discuss the likelihood?,True
+@HazemAzim,2020-12-23T14:47:26Z,1,Very interesting and nice perspective on probability vs likelihood .. that is new !,True
+@heidji,2020-12-21T01:25:44Z,0,yeah but what does it mean in real life,True
+@AnEasyWayToStatisticsbyDrTariq,2020-12-20T10:40:40Z,1,Nice vedio,True
+@arunpanat8157,2020-12-20T09:23:55Z,1,Excellent !!,True
+@syedrehanfida,2020-12-19T09:00:21Z,1,Thank you!,True
+@kisho2679,2020-12-17T12:24:50Z,0,What if the distribution is not continuous?,True
+@haoxus9413,2020-12-17T00:26:34Z,0,The number of veries is not sarcatic,True
+@immanuelkant7895,2020-12-15T13:14:34Z,0,What does the likelihood tell us?,True
+@possiblypoet,2020-12-15T04:01:14Z,0,Starts at 0:32,True
+@CompletedReview,2020-12-14T02:38:29Z,0,So probabilities must describe ranges?,True
+@saiyjin98,2020-12-13T17:38:20Z,0,Could have just said that probability is the first derivative of likelihood.,True
+@srglmr,2020-12-13T09:53:05Z,0,So if i change the units in x-axis it doesn’t seem to effect the probability (kg instead of g),True
+@AllemandInstable,2020-12-12T15:23:31Z,1,*D O U B L E  B A M*,True
+@daggrinberg4255,2020-12-11T12:52:18Z,0,"I'm still confused, because we often ask what is the probability of an instance. So P(mouse weighs 32g) is what? The corresponding point on the curve as with the likelihood?",True
+@atklm1,2020-12-08T12:51:53Z,1,Fun fact: There are about 1300 known species of mice. Some weigh as little as 3 grams. Some weigh way over a kilogram.,True
+@Cherub-vl9bc,2020-12-02T21:22:36Z,0,Eulers number is the maxium probability of something happening,True
+@gurditsinghchandok1641,2020-12-02T06:56:26Z,10,came here after watching his logistic regression vids..the clearity of these topics is insane!! thanks a lot :),True
+@henrikevertsson8702,2020-12-02T01:25:19Z,0,"This isn't really related to this subject, but I can't resist taking it up.   Let's say a police stops me driving without a seat belt. I excuse myself with the fact that I'm just driving to the  next block to park my car, and given the fact that I normally use a belt, the probability for a fatal accident is so low. The police obviously claims; ""No, the probability for an accident is equally high all the time you drive your car"", and normally  the police wins the debate here. But.....  He may be right, under a special circumstance.   From my point of view, I will perhaps drive 100000 kilometers in my life, and if I drive ten of them without a belt, the probability for me having an accident ( in my total life span ) during those belt-less kilometers is very low. The police, on the other hand, is talking about the probability for an accident at a given moment. Every second I'm driving, there is a certain probability of a crash. Putting it another way; if I just drive 100 meters in my whole life, the likelihood for an accident is fairly low - even if I'm an inexperienced driver.  It's like the fact that we one day will die.  The likelihood to die young in a heart attack is very low. But as years adds up, it increases slowly, until it one day becomes so high that I'm actually dying.",True
+@gurrekurre1726,2020-11-28T00:49:05Z,2,DOULBLE BAM,True
+@ChaceBonanno,2020-11-27T16:57:18Z,1,So probability is for a range while likelihood is for a point,True
+@auraSinhue,2020-11-26T00:35:05Z,1,awesome!,True
+@mightybatillo,2020-11-25T19:02:51Z,2,"This feels weird for me, In spanish there isnt a word for likelihood.",True
+@huseyinyilmaz1155,2020-11-22T19:06:37Z,0,"you say the likelihood is the y-axis values, but you don't mention what do the y-axis values stand for?",True
+@jaijeffcom,2020-11-22T02:38:52Z,1,"I got another BAMM for you.   Bam, subscribed!  That was a vivid and accessible illustration. I never have to fret over this distinction again.   Now I want to see the rest of these videos. Yay.",True
+@jfuite,2020-11-17T23:13:22Z,1,"Still don't know what likelihood is.  ""The likelihood of weighing a 34 g mouse is this point on the curve and that is 0.12""  AND ""likelihoods are the y-axis values for fixed data points with distribution that can be moved"".  From these two core statements in the video, I still cannot use 'likelihood' in a sentence spoken to my father.",True
+@hongeeleow7506,2020-11-15T11:44:09Z,0,So the probability and likelihood of an event can be derived by using the Bayesian equation on either one variable?,True
+@hansmarsoner5595,2020-11-14T21:57:04Z,2,This is so cool :D i had the best time AND learned something :),True
+@lgscorp2008,2020-11-14T20:15:59Z,0,What are the units of the vertical axis on your distribution curve??  0.12 what??,True
+@ramyavidiyala1293,2020-11-13T16:50:01Z,0,What is on the Y-axis?,True
+@tungstenotransicion,2020-11-13T14:38:34Z,1,El puto amo de YouTube,True
+@cl3826,2020-11-12T23:21:22Z,0,"Yeah... ok, but what does that mean? Conceptually, what's the difference? How are they used different? Because it seems like I should just put an x-value into the likelihood function in order to know what the probability is of something having X. But... probability is the area under the curve, not at a point... but... idk... Now I'm confused.",True
+@charlesbromberick4247,2020-11-12T23:16:46Z,0,I liked everything except the intro.,True
+@redcat7467,2020-11-12T13:08:17Z,1,bam,True
+@beach40,2020-11-10T21:38:08Z,0,"What kind of graph is this?  It's not a probability distribution, is it? Since you are calculating the area under to get the probabilities I don't see how it can be.  Thanks",True
+@prithviraj-mu8ox,2020-11-08T15:12:14Z,1,🤗,True
+@pradeepkumar-ew1ze,2020-11-06T05:02:30Z,0,"1:17 Isn't that ""... between 32 and 34.5 grams ..."" since the SD is 2.5?",True
+@pqrstzxerty1296,2020-11-05T22:19:07Z,0,You need to sit the Covid19 Comittee and tell them about reading statistics.,True
+@duztv5370,2020-11-03T09:39:49Z,1,"Good video as usual. But I am abit confused. Please how did you arrive at 0.29 for the probability? I am sorry, I don't understand that calculation. Please could you briefly explain.",True
+@Julian-tf8nj,2020-10-27T04:56:55Z,0,"*THE* central point of why this distinction/confusion IS even an issue - ought to be addressed by this video: it's because it's a *CONTINUOUS* distribution! If you had a *DISCRETE* distribution, there'd be no such issue: the probability of a fair die landing on ""4"" is 1/6.  You can call it probability, likelihood, odds - _whatever you jolly well fancy!_  [insert British accent] But with a CONTINUOUS distribution, like in this video, ask yourself, *""what is the probability of a mouse weighing 32 grams?""* The answer is... drums rolling... (think about it...) ZERO! That's because you're asking about EXACTLY 32 grams, not an atom more or less!!  What are the odds of that, lol.  So, to have a PROBABILITY value that is actually useful in the _continuous_ case, you must specify a broader ""event"" in your sample space - i.e. a subset of the real numbers in this case, not a single point.  For example, if your scale gives you tenths of grams, and you cared about such minute variation, you could ask about Prob(32.0 <= weight <= 32.1)  LIKELIHOOD, on the other hand, is just the value of the _Probability Density Function_ (often called pdf) - that is the y-value on the curve in this example - at a particular point; if it were a discrete distribution, it'd simply give you the probability at that point (and it'd drop the ""density"" part from the name of the function.)  _Note that the ""likelihood"", unlike a probability, can be any number_ - it's NOT constrained to be between 0 and 1.  For example, imagine a rectangular bell-curve analog, always 0 except between 50.0 and 50.1 , where it takes a value of 10.  The total area under that curve is (50.1 - 50.0) * 10. = 1.0 as it should.  So the likelihood in that scenario is always 0, except when it is 10.",True
+@aixueer4ever,2020-10-23T21:10:43Z,1,Best video on likelihood!,True
+@mahdiamrollahi8456,2020-10-22T14:46:58Z,0,"Dear, If we have the data and population, why we can move the distribution? It should be fixed, should not it?",True
+@DaniyalKhan-pz1zc,2020-10-14T18:55:25Z,1,Your every video makes us happy.... 👍 From India.,True
+@paradona320,2020-10-05T19:52:41Z,1,Bam😊.,True
+@BChow-td7qh,2020-10-05T02:19:43Z,1,I really like your way of presenting the concept in great detail even denote the given sign.  It's great for people at the entry-level. Thumps up~~,True
+@bryanparis7779,2020-10-04T08:26:37Z,1,Τhis is my first video here...interesting .greetings from Greece,True
+@chiragvartak5658,2020-10-01T12:02:27Z,9,Oh man. I had thought you did these songs at the start just for the memes. But I checked out one or two songs from your discography. They're prettty good!,True
+@kasu4840,2020-09-27T20:51:17Z,1,amazing explanation! All my thanks!,True
+@nikitaarora347,2020-09-25T15:36:33Z,2,"Pls keep on making such videos, you might as well prevent me from feeling stupid. Thanks a tonne.",True
+@nikitaarora347,2020-09-25T15:29:45Z,1,Thank god for existing.,True
+@Someguy0098765,2020-09-23T19:05:35Z,0,"Hi, excelent videos, but i still have one question that i can never understand the answer to. Some distributions have y values above 1. Do they still represent the Likelihood? Do the values have no interpretations as opposed to percentages in probabilities?",True
+@SupremeChickenx,2020-09-22T02:24:53Z,1,THANK YOU SO MUCH I LOVE YOU,True
+@graymars1097,2020-09-13T14:59:47Z,5,"After spending 2 hours on YouTube learning about probability and anything related to it, I landed on this video and I want to say this: I LOVE YOU",True
+@maiconlourenco4849,2020-09-07T18:25:49Z,1,"There is an error, I think.  L(mean=34 and std = 2.5 | mouse weighs 34 grams) = 0.16, not 0.21 as they pointed out in the video, right?",True
+@Tapsthequant,2020-09-04T10:35:22Z,0,"Thank you very much, interesting how you classified the concepts into the separate buckets. Well done! It was a great revision on my part.",True
+@shenzou4778,2020-09-01T17:50:36Z,0,"Is the concept of ""Likelihood"" associated with Bayesian inference?       for example, the probability of observing E given H, suppose p(H) is the prior probability, E the evidence, P(E|H) here is actually kind of the ""Likelihood""? what about the P(H|E)?",True
+@shenzou4778,2020-09-01T17:33:44Z,3,"StatQuest makes me feel so happy... so very very very very very very very very..... Happy! StatQuest!                          I mean seriously, yeah!!!!!! love this channel from China!",True
+@siddharthaojha7742,2020-08-27T03:08:10Z,0,"Your videos are so intuitive and so perfect. Thank you for making such videos.  I wanted you to enlighten one particular thing; can we have a practical intuition of ""likelyhood"" here? I went through the comment by @Follow Media but still want some more clarification.",True
+@EnlightenNook,2020-08-20T10:39:28Z,2,"I was trying to understand likelihood from yesterday but unable to understand properly, this the best video which explained me in very simple way. Thanks",True
+@turtlepedia5149,2020-08-19T19:50:10Z,1,Thanks for saving my computational statistics,True
+@diananeeta3058,2020-08-11T10:38:00Z,1,Can the link of the video be shared,True
+@anastasiahaley6391,2020-07-20T20:51:58Z,1,"You teaching style is amazing! Could you, please, make a video on Multiple Correspondence Analysis?",True
+@yacoubhossam7542,2020-07-13T18:54:00Z,1,thx again dud,True
+@MarshallDTeach-yr2ig,2020-07-08T09:18:20Z,0,01:53 why 0.29? What is |? Please explain 😭😭,True
+@ShermanSitter,2020-06-27T18:22:28Z,0,"4:24 is a good ""pause and ponder"" moment.  :) Very well said, and great slide!",True
+@susovan97,2020-06-24T22:58:07Z,0,"For me honestly, I find the title misleading. Probability for me is nothing but a measure on the sample space with total measure one. You need no random variable, no distribution to talk about a probability measure. On the other hand, given a random sample, likelihood for me is a function on the parameter space of the distribution which maps a parameter THETA of a distribution to the probability mass or density function (where the later exists) of obtaining that specific sample from the distribution with parameter THETA. So for me, likelihood is a function that takes values using probability mass or density. I'd not try to compare probability with likelihood, as the later clearly uses probability in its definition. What you said in the video makes sense, but your title clearly doesn't.",True
+@BrianRisk,2020-06-22T22:09:11Z,1,When it's so clearly explained all you need is the thumbnail,True
+@schezswaaan2498,2020-06-19T12:52:55Z,0,"Talking in data science terms , probability is about  your training set model . Likelihood is about how a real life sample interacts with your model .",True
+@rasoulsharif,2020-06-17T22:34:39Z,2,"If i knew you when i was in highschool, i would be a different man.",True
+@gauravnimrani7021,2020-06-14T08:00:54Z,0,"so does that mean that if the likelihood is greater for a particular weight its small probability will be too since dP=L*dx . so its just they both are same but just on a different scale? i.e. probability measures over  a range whereas likelihood over a particular weight,?",True
+@aromax504,2020-06-11T08:11:06Z,0,If the mean and SD remains same then the Probability & Likelihood of a mouse weighing 34 grm is same ?,True
+@danielonwuchekwa4029,2020-05-22T23:21:57Z,1,Thanks a lot...,True
+@akhilachillara1845,2020-05-19T23:50:15Z,24,"Hi Josh, I really love how you simplify statistics concepts. After watching above video, I have this question, Does likelihood always have to be a single point and not a range? Can there be a question like, What is the likelihood of weighing a mouse between 32 and 34 grams? Will the likelihood also be a range in that case? Like between 0.12 and 0.13 or something like that?",True
+@taotaotan5671,2020-05-17T03:32:54Z,0,"I was wondering what if you have multiple observations, how are you going to calculate the likelihood?",True
+@MadhushreeSinha,2020-05-16T16:06:05Z,48,statquest makes feel very very very happy indeed!,True
+@aditisrivastava7079,2020-05-12T10:05:09Z,0,What is 0.12 ..... Is it probability or some point on Y-axis,True
+@sarthakdua3234,2020-05-12T06:55:33Z,9,"Crisp, concise and to the point! Instantly cleared my confusion!",True
+@petretrusca2,2020-05-11T12:18:32Z,1,Than how do you find the probability of a mouse to have exactly 32 grams ? The area under a single point is 0. But I am not sure that the probability is also 0...,True
+@lilyha2470,2020-05-09T22:53:01Z,0,"Hi Josh, anything on LME or joint modeling?",True
+@LoonieXD,2020-05-07T09:17:01Z,1,BAM,True
+@mostinho7,2020-05-02T07:43:34Z,1,"The likelihood of a specific data point (measurement) is the value of the pdf at that specific data point. (Values on the x axis and pdf/likelihood on the y axis) The probability for any specific exact measurement point, is 0 but probability of a range is the area under the pdf in that range The probability is of data given a distribution where as likelihood is the likelihood of a distribution given data.",True
+@stevequan7306,2020-04-29T10:50:23Z,2,"Get it! thanks Josh! Please correct me if I am wrong -- I would rephrase the likelihood as ""probability density function at a certain point "" (which can be greater than 1!)",True
+@aligamin4122,2020-04-28T01:27:22Z,1,double bam,True
+@MrSpiritmonger,2020-04-26T22:44:26Z,2,this guy is smart and he is great at explaining things. he is a true national treasure.,True
+@TheOmegaX7,2020-04-24T16:23:13Z,1,"Another awesome video. I wonder if you have also thought of making videos to explain CBOW, Word2Vec or Sentence Encoder, etc",True
+@roxm4356,2020-04-22T08:04:39Z,1,You are the best and easiest in statistics,True
+@ivannikolic6844,2020-04-19T21:18:12Z,0,I don't understand how do you get a value of 0.29 for the first example :(,True
+@humanintheloop,2020-04-18T13:59:22Z,1,"great explanation, thanks",True
+@sarvagyagupta1744,2020-04-15T09:24:46Z,0,"Here's my question.  When we start with probability 101, we usually take an example of a fair coin and how P(H)=P(T)=0.5. So this can be written as P(T/H | fair coin). So is 0.5 the likelihood or probability?",True
+@palashsharma891,2020-04-15T08:50:10Z,2,I came here after watching a 3Blue1Brown video on probability distribution. This video really made me understand that one better. Thanks!,True
+@user-ds1pu2vc8s,2020-04-14T14:23:44Z,1,This video is really fun fun fun BAM!,True
+@saderick52,2020-04-10T14:56:20Z,0,So is there any physical meaning for likelihood?,True
+@colmorourke4657,2020-04-09T18:24:11Z,1,"Why not consider ""Probability density"" vs Likelihood, instead of talking about ""Probability""? To me, probability densities are more directly related to likelihoods, than actual probabilities. For probability density we can use the pdf/pmf p(x|theta), where x is a variable and theta is fixed. The corresponding likelihood is a function that looks the exactly the same as the pdf/pmf except that x is fixed and theta is a variable:  L(theta|x).",True
+@gouravkarmakar9606,2020-04-07T15:09:32Z,1,Got my problem solved ....quite well explained josh,True
+@paolomartini150,2020-04-07T04:36:46Z,0,Sorry not digging the song much but the rest rocks.,True
+@michaelduncan5805,2020-04-02T00:35:31Z,11,"Maybe this seems overly simple for some, but this was awesome! Thank you!",True
+@peterwbryce,2020-04-01T21:42:18Z,1,Chrystal,True
+@frederictost6659,2020-03-29T16:34:57Z,1,"So nice explanations, congrat.",True
+@axolotl5327,2020-03-28T03:19:45Z,0,Couldn't follow it.,True
+@thienan2672,2020-03-26T07:54:53Z,1,Love your BAM !!,True
+@metakram,2020-03-24T13:31:12Z,1,You are awesome!,True
+@chetanambi,2020-03-21T05:29:03Z,0,@1.29 Anyone knows how to calculate area under the curve as 0.29. Kindly help,True
+@nataliatenoriomaia1635,2020-03-20T22:37:01Z,1,"I love your videos, they are so therapeutic.",True
+@gyeongsikmoon4659,2020-03-18T06:13:50Z,0,"The likelihood that you are taking about in this video is the same likelihood from Bayesian rule? In the Bayesian rule, the likelihood is defined as p(Data|model), which is probability in your video.",True
+@rajarajeshwaripremkumar3078,2020-03-17T01:12:59Z,0,Does this mean that P-value is also kind of a likelihood estimation of the observed value?,True
+@user-ee3qt2fb7i,2020-03-11T04:23:09Z,1,Bam. I understand it clearly. THX,True
+@flycanfly,2020-03-05T08:01:04Z,0,4:39 Hurray with no soul,True
+@ogunsadebenjaminadeiyin2729,2020-02-24T15:20:03Z,1,You are good!,True
+@justinking5964,2020-02-21T02:51:34Z,1,a sexy vioce and probabaly a handsome man.,True
+@justinking5964,2020-02-21T02:45:57Z,3,"God ! So hard have I been through, to finally find a intelligent guy to know probability.Hi Josh Starmer Can I talk to you in private? Can I make friends with you.",True
+@user-xn7qt3zl4m,2020-02-20T10:41:22Z,1,Amazing,True
+@RAJATTHEPAGAL,2020-02-19T14:09:17Z,1,That was a lot of very 😅 .... great content here,True
+@IsakHoue,2020-02-16T14:03:13Z,0,"Question: Doesn't likelyhood of one outcome imply some implicit interval? Say we have a mouse weighing EXACTLY 34.00 grams, isn't the probability of this exact outcome infinitely small, by definition (since there's also the probability of a 34.001 gram mouse, or a 33.99999 gram mouse etc. ad infinitum)? I'm guessing that in the statement L(mean=32 and standard eviation = 2.5 | mouse weighs 34 grams) = 0.12 we're implicitly saying 'mouse weighs anywhere between and not including 33 and 35 grams.",True
+@billaspiel,2020-02-15T21:49:14Z,0,@StatQuest with Josh Starmer thanks for this video i have a query regarding  likelihood 'y axis value' .   likelihood : The data is fixed ('mouse weight 34 gram') and we need to shift the values of mean and standard deviation and  for different values of mean and standard deviation we get different y axis value .  So what  are we trying to find out finally  with the different  y axis value that we got for this data  ('mouse weight 34 gram')  ?,True
+@faridrezanajafi9565,2020-02-13T13:42:26Z,1,Very simple description of probability and likelihood. Well done!,True
+@lakshmiganaprasadantervedi3865,2020-02-04T06:44:45Z,1,Thanks Josh! This is exactly what I needed,True
+@sitharivithanage5712,2020-01-27T08:52:48Z,1,You're awesome!!!,True
+@subhajits1,2020-01-25T19:02:35Z,0,Time 3.36 : what is the formula to get the likelyhood of a 34 gram mouse is (0.12)? Can anyone help please.,True
+@ssshukla26,2020-01-21T20:04:49Z,1,Double BAM!!! 😁😁,True
+@TjbOShea,2020-01-19T03:16:39Z,1,"Josh, your videos have been incredibly helpful for me. I cannot find any on Bayes Rule or Naive Bayes. Anything cooking on these topics?",True
+@dr.casebolt,2020-01-08T01:17:52Z,0,"A normal distribution does not have ""ends,"" since it is theoretically infinite in both directions, so 24 is no the ""low end"" and 40 is not the ""high end.""",True
+@ralvarezb78,2020-01-05T12:28:36Z,0,So Likelihood is the value of p.d.f at some point with given parameters,True
+@BoojumFed,2020-01-05T10:03:29Z,0,So the likelihood of your first example being 0.12; does that mean that the likelihood of that particular result under that curve is 12%?  Or does likelihood not translate into percentages at all?,True
+@giddydigs9040,2020-01-04T16:42:44Z,0,So the likelihood is where that point sits on the curve?,True
+@michaellewis7861,2020-01-04T03:25:55Z,1,Trivial. They aren’t even in the same categories.,True
+@sehejwahla410,2020-01-01T08:05:59Z,1,Great work bro,True
+@Nakameguro97,2019-12-31T04:22:09Z,2,"Wow!  That was the clearest, most concise explanation of likelihood that I've ever seen!  Many thanks.  ^^",True
+@rastin_rap,2019-12-30T03:10:13Z,1,Thanks.,True
+@aarroisi,2019-12-26T17:53:05Z,0,"So, in other words: likelihood = probability density function?",True
+@JMRG2992,2019-12-26T12:22:43Z,11,"I just noticed something interesting. In my native language (spanish) the word Likelihood doesn't have a special word to be defined, like Josh is saying in english where exists a difference between likelihood and probability, if one checks the translation of likelihood to spanish it would equal to ""probability"" so it appears on spanish the word just does not need to be differentiate but in english it is !",True
+@sarrae100,2019-12-19T03:32:46Z,15,"StatQuest , you're the best when it comes to ""making it Simple""",True
+@malteeaser101,2019-12-18T01:31:34Z,1,"What is the likelihood in a discrete distribution, or does this only apply to continuous ones?",True
+@yasminhia9629,2019-12-14T22:42:58Z,1,"now Josh, I cannot thank you enough for your well done tutoring.  ut let me say this , if Im gone be selfish I will say continue doing these videos, and if I want tell you the absolute thruth , I would say you voice is way too good and sexy  for stat songs - Son, go write and sing I if you were able to write songs for stat , you surely can write or at list guide other more interesting subjects for human being",True
+@NPSDC,2019-12-08T20:50:42Z,0,"The wikiepdia and the following link seem to confuse me: http://www.stat.cmu.edu/~brian/463-663/week09/Chapter%2003.pdf https://en.wikipedia.org/wiki/Posterior_probability   According to these links, Pr(theta/data) is posterior but according to the video it is likelihood.",True
+@energy7777,2019-12-03T23:12:41Z,0,Question: What is the probability for a mouse to weight exactly 34g? What is the corresponding figure for likelihood? What about 32g? So as to get a better understanding of all these. Thanking you in advance!,True
+@counterko,2019-12-01T15:31:04Z,1,Cool intro,True
+@jeevanswaroopdasari1,2019-11-30T12:57:35Z,0,Isn't likelihood P(Data / parameters) ??,True
+@psblad2667,2019-11-26T15:54:54Z,0,???,True
+@jorgerodrigues1352,2019-11-24T18:54:07Z,0,How do you choose the one or to tail in t student,True
+@notprof,2019-11-23T05:02:34Z,1,This is pure gold.,True
+@maheshkarigoudar117,2019-11-19T17:44:19Z,0,"Hi what is the difference between posterier probablity and likelihood their interpretation seems the same, iam getting confused please help.",True
+@vishalverma-wx7eo,2019-11-19T13:45:39Z,0,"Please clear my one doubt Josh. If we were given the distribution with mean=10 and standard deviation = 20, then we wanted to calculate the probability of the weight being measured = 20 grams, then will we put x = 20 in the PDF to calculate that probability ?",True
+@lemontesta4021,2019-11-18T02:49:02Z,2,The first 30 seconds were unneeded although great,True
+@madhur4190,2019-11-17T13:01:47Z,1,Awesome stuff. Thank you,True
+@maheshkarigoudar117,2019-11-13T15:30:15Z,0,What is the difference between probablity density function and likely hood,True
+@alecvan7143,2019-11-13T12:03:21Z,1,Awesome video!,True
+@luisluiscunha,2019-11-09T15:33:43Z,2,"Why do people down vote this? Really... Great job, Josh. Thank you very much. Kudos to you, and let Karma take care of the rest.",True
+@skandagurunathanr4795,2019-10-25T06:47:10Z,3,"I was completely confused on the concepts, after referring lots of videos and confusing intuition I just came to this channel. The song you play at the starting of this video just refreshes the learning journey. The content you give with clear intuition makes me really very very very very very happy...",True
+@Luis-zc8gl,2019-10-14T05:06:48Z,0,"What I see is that likelihood is a kind of measure of ""what distribution is more likely, given data"". In the case of continuous random variables it cannot be the same as probability because pdf are not always restricted to the [0,1] interval (for example, the Chi-square distribution with 1 df). So, the 0.12 in the example shouldn't be interpreted as a ""probability"". What are the units of measurement of likelihood? It's hard to say. In the case of discrete random variables, likelihood and probability are ""the same"" but I am not sure if we can interpret the values of the likelihood function as a probability. Finally and curiously, in most applied examples the maximum loglikelihood is usually a negative number, which is consistent with a joint probability restricted to the interval [0,1], and this occurs in the case of discrete and continuous random variables.",True
+@SaddamHossain-zi2fl,2019-10-01T01:41:30Z,1,thanks a lot sir,True
+@jorgejgleandro,2019-09-30T23:00:10Z,0,"Is this notation for likelihood standard? I don't think a different notation will compromise the understanding, but I'd like to make sure we're on the same page. The reason for my question is that I see the opposite notation in two classic books: Duda&Hart (Pattern Classification), Theodoridis (Pattern Recognition) and in the modern book by Bishop (Pattern Recognition and Machine Learning). In these books, they call p(x|theta) the likelihood of a distribution (described by theta) with respect to the observed data ""x"". Is it just a matter of notation and way to read it?",True
+@ccuuttww,2019-09-30T19:26:55Z,0,"If someone still don't know What is Likelihood I will summary up in a simple sentence Likelihood is given u a bunch of data to find the parameter like mean and standard deviation For this video 3:16 the part of L(mean = 32 and std =2.5 | mouse weight 34 grams) should be  L(Theta | mouse weight 34 grams) since it should be unknown",True
+@alejorabirog1679,2019-09-29T17:09:15Z,1,Baaaaaaaam!!!,True
+@699ashi,2019-09-26T17:38:36Z,0,Given read counts from many replicates how can we check that it fits a negative binomial distribution or what other distribution it may fit in?,True
+@qaq5329,2019-09-26T16:13:04Z,1,Life saver!,True
+@vasishtapolisetty639,2019-09-23T19:48:42Z,0,"Wonderful video! The problem seems to be of the inversion of the question at hand (wrt data and distribution). My question is - is this just a change in the terminology? In likelihood, aren't we still calculating how 'probable' or what is the 'chance' of the model is given the data? Is that ultimately not a probability?",True
+@lexparsimoniae2107,2019-09-22T11:48:37Z,2,Why can't all teachers in the world be more like you?,True
+@ThotWalter,2019-08-28T02:12:37Z,5,I love this channel!!!,True
+@AndreDiasRJ,2019-08-16T17:31:04Z,1,"Staquest, explanations so great, I can endure the music",True
+@nicorobin7666,2019-08-16T13:08:11Z,0,"How can we calculate them without graphing? Only numbers, formula and intuition. Is it possible?",True
+@abdallahbahyabdelazimothma8359,2019-08-13T13:16:40Z,34,"wow!! that was the most clearly explained math video i have ever seen, thank you so much",True
+@josiasnieto5346,2019-07-25T05:58:59Z,2,"I was watching Fortnite videos and suddenly this one appears, and let me tell you that you have a new subscriber! Greetings from Mexico, UNAM.",True
+@hitherthither5712,2019-07-21T04:51:51Z,2,"Best video I have seen till now on 'Probability Vs Likelihood', Thanks!",True
+@jinrajinfo,2019-07-21T03:58:16Z,0,"In 3:34mins,   What is in the y-axis (0, 0.05, 0.1, 0.15 etc...) ? What are we finding by on y with respect o x=34gms?",True
+@richardbennett4365,2019-07-15T01:16:34Z,2,"What is ""double bam?""",True
+@richardbennett4365,2019-07-15T01:15:40Z,0,Are you sure the new likelihood is 0.21?  I calculated a different answer.,True
+@richardbennett4365,2019-07-15T01:12:10Z,0,"integrate (e^((-(x-32)^2)/(2(2.5^2))))/(2.5*sqrt(2pi)) from 32 to 34 for probability (=0.288145), and y=(e^((-(x-32)^2)/(2(2.5^2))))/(2.5*sqrt(2pi)) ; x = 34 ==> y = 0.115877.",True
+@JNCressey,2019-07-10T16:26:08Z,0,"You compare P(data|distribution) to L(distribution|data), but what's the difference between L(distribution|data) and P(distribution|data)?",True
+@Fabian-qd4su,2019-07-09T20:09:31Z,0,wait a moment ... are we talking about computer mice or real mice ?,True
+@trilisser,2019-07-09T19:33:56Z,0,"But what if we would have two mice, which of two points on the curve we should choose to get the likelihood?:)",True
+@FariborzGhavamian,2019-07-08T13:43:31Z,3,This was a very clean explanation of probability and likelihood.  Thanks!,True
+@Lambda_Ovine,2019-07-07T03:57:38Z,0,"Oh, OK.",True
+@Spocchio,2019-07-04T09:32:38Z,0,"2:27 - 2:35, probability and  distribution are not in the ""left"" or ""right"" side of that ""equation"". Indeed, what you show is not an equation (there is no equal sign), but an expression.",True
+@stamatouvable,2019-07-03T10:49:05Z,0,You explained that the best. I still don’t understand,True
+@aaronkang480,2019-07-01T09:44:28Z,1,I do feel very very happy after that song :D,True
+@GottfriedLeibnizYT,2019-06-29T21:30:55Z,2,"Still, what's the physical significance of likelihood?",True
+@pggg5001,2019-06-27T14:19:01Z,1,so likelyhood is basically probability density,True
+@susovan97,2019-06-21T22:43:36Z,3,"I do see your point, but to me likelhood is just a probability mass or probability density, that's a function of the unknown parameters of the distribution, given a sample from that distribution.",True
+@John----Smith,2019-06-20T21:22:43Z,0,"The probability explanation is ok, but the likelihood explqanation is false.  the likelihood of a mouse weighing 32 grams is not 0.12. This is a terrible misconception of distribution statistics.",True
+@CyrillCassin,2019-06-20T15:15:28Z,0,I hoped the explanation would be in English.,True
+@omarabusada8157,2019-06-20T11:09:38Z,0,"Didn't provide insight as to ""What is P and L""; I have to down vote this vid.",True
+@nabanitarajkonwar2462,2019-06-19T05:04:05Z,0,You are such an awesome teacher,True
+@Dr.SariHamoud,2019-06-14T06:04:10Z,1,Stat porn,True
+@erumaaro6060,2019-06-11T16:24:09Z,2,"ok, so the difference between probability an likelihood is the difference between an inegral and the value of the distribution-function... which means, the 34g mouse has a likelihood of 12% but a probability of 0%, since the interval of integration is 0? i understand cpu's, but not statistics...",True
+@realitykicksin8755,2019-06-09T18:42:02Z,0,The probability of 29% or 0.29 is only that; if the area under the whole curve is 1. And clearly it is not because there are no mice with negative weights.,True
+@0012erick,2019-06-09T11:17:35Z,0,"This is my main annoyance with math with vocabulary so utterly grating to the mind. Very obviously, the terms probability and likelihood need a context word such as ""distribution probability"" and ""distribution likelihood"" as to avoid conflict with all of English! I reject this terminology outright because its trying to re-define terms already defined otherwise.",True
+@EvanZamir,2019-06-03T21:56:15Z,1,The simplest way to say this is that the likelihood is the probability density.,True
+@eaglegrip6879,2019-05-30T02:13:18Z,3,"Yeah, but what's mouse's name? And why do you have a mouse fetish?",True
+@waqasakram117,2019-05-28T10:14:21Z,0,Someone explain to me how 29% comes on 1:22,True
+@avocadokirby1517,2019-05-27T01:38:06Z,0,eek,True
+@becauserocks.5784,2019-05-25T18:16:00Z,5,"Duuuude, I've been doing data science for about 5 years now and stats for a lot longer and this is the best explanation every. I'm stealing this!",True
+@moregirl4585,2019-05-21T02:44:27Z,0,Don't Lieklihood fix standard deviation?,True
+@XiaShen,2019-05-14T19:00:31Z,0,Stupid explanation ...,True
+@johndolan513,2019-05-14T10:23:34Z,0,ZZZZZZZZZZZZZZZZZZZZZZZZZ,True
+@TheReactor8,2019-05-13T18:59:14Z,2,Wrong: the likelihood of a mouse weighing 32 grams is zero just as any other weight.  He means the likelihood of a mouse weighing between 31.5 grams and 32.49999 which is an erea too.,True
+@Destrolll,2019-05-12T14:34:04Z,0,3:35 value 0.12 makes no sense without units. Since the distribution has to be normalized to have total area of 1 vertical axis should has to be 1/gram,True
+@burkean,2019-05-11T07:26:46Z,0,Still fuzzy. What is the meaning of the likelihood? Is there a concrete explanation?,True
+@Evan490BC,2019-05-10T11:45:41Z,0,"You are making things sound much more complicated than they actually are. The key concept to understand is the (cumulative) probability distribution. All quantities can then be derived from that, either as differences or as derivatives. That's it! (This has a deeper measure-theoretic meaning, in additivity, and as a Radon-Nikodym derivative, but let's not get into that. The nice thing with this is that you don't need to differentiate between continuous and discrete PDFs. But since you are a mathematician you already know these things.) The term ""likelihood"" needs to be further specialized. The (log-)likelihood of the parameters, theta, is the function L(theta) = log p(x | theta, ""other stuff""). That is, it is the probability of observing a particular instance of ""x"" under a given model.",True
+@amberchen1,2019-05-09T23:52:45Z,0,fabulous,True
+@kage-fm,2019-05-09T04:37:10Z,0,*DOUBLE BAM*,True
+@kefsound,2019-05-08T20:00:26Z,0,Why is this so dumbed down and patronizing?,True
+@alhassanali4829,2019-05-06T11:34:07Z,0,So... wtf is difference between them 😡😡😡,True
+@guy3nder529,2019-05-05T00:15:08Z,1,Yeah... I didn't get it.,True
+@paulburger9904,2019-05-03T22:00:32Z,3,Wish I had seen this before I made my Baysian classifier. Thanks a lot for a great video!,True
+@cathyb2878,2019-05-02T14:42:07Z,0,"Most excellent, of course.  My downfall in internalizing what the results mean.  Likelihood = 0.12???  How does a mere mortal interpret this?",True
+@drapala97,2019-05-01T18:01:49Z,0,"I am no native English speaker, is there a difference between ""wieghs"" and ""wheights""?",True
+@banyaraung7940,2019-04-27T12:52:21Z,0,"Wait, where did .29 come from in probability?",True
+@danielakrukoff2803,2019-04-26T11:41:33Z,10,Your intro is terrible I have to say it's obligated from my conscience,True
+@00ta,2019-04-25T10:25:16Z,0,Great.,True
+@lutherkoch421,2019-04-25T02:48:13Z,0,"Wouldn't the probability be .34 instead of .29? I'm thinking of the 68, 95, 99.7 rule for a normal distribution of data. .29 would only .58, which isn't a full standard deviation for normally distributed data.",True
+@afarhan21,2019-04-24T19:11:16Z,2,I literally stopped the video listening to the opening jingle.,True
+@yqisq6966,2019-04-24T14:01:44Z,0,Very needed video to clarify these two concepts. Well done.,True
+@iforand,2019-04-23T17:46:58Z,0,"Так... Суть видео в том, что probability - это вероятность, а likelihood - это плотность вероятности? Надо запомнить.",True
+@iforand,2019-04-23T17:46:57Z,0,"Так... Суть видео в том, что probability - это вероятность, а likelihood - это плотность вероятности? Надо запомнить.",True
+@iforand,2019-04-23T17:46:57Z,0,"Так... Суть видео в том, что probability - это вероятность, а likelihood - это плотность вероятности? Надо запомнить.",True
+@iforand,2019-04-23T17:46:57Z,0,"Так... Суть видео в том, что probability - это вероятность, а likelihood - это плотность вероятности? Надо запомнить.",True
+@jjsmallpiece9234,2019-04-22T09:12:31Z,0,You need to stop the singing introduction - pathetic,True
+@tejuswadbudhe7909,2019-04-22T00:40:29Z,0,Thank you,True
+@wdobni,2019-04-21T13:43:18Z,0,"does 'likelihood' have any practical purpose?  such as, the likelihood of finding a higgs boson in a bushel plus 3 pecks of overripe apples is dependent on the cube root of the circumference of the barrel divided by the derivative of the tangent of the median bee's proboscis as the speed of light goes to zero?",True
+@manfredkeil28,2019-04-21T02:30:46Z,0,I thought that the probability of a point on a continuous distribution is zero. Did I get this wrong?,True
+@stevehe5713,2019-04-21T00:49:29Z,0,Confused.,True
+@adiaphoros6842,2019-04-19T14:37:29Z,1,"If relevant to statistics, what quantity will you get if you plug in the value (say 34) into the derivative of the probability function?",True
+@GogiRegion,2019-04-18T13:14:15Z,1,"So the probability of something being exactly 34g would be 0, but the likelihood of it being 34g is an actual number, if I’m understanding that right. So the confusion over likelihood being 0 is a confusion of probability vs likelihood, I guess.",True
+@nathanx.675,2019-04-18T09:23:05Z,0,"I'm not sure if this is accurate tho. Seems like probability in this video is actually conditional probability. but I think the area under a continuous prob function is just the probability. And in a continuous probability function, the probability of any point on the x axis should always be 0.",True
+@erikthegodeatingpenguin2335,2019-04-15T00:46:11Z,3,So the likelihood is somewhat like the derivative of the probability?,True
+@Francis-gg4rn,2019-04-13T21:30:14Z,3,"Amazing videos, can you do a playlist on bayesian statistics?",True
+@oskarzdrojewski983,2019-04-13T19:25:38Z,0,So likelihood is there to determine which result is most likely without using silly notation of probability in an infinitesmally small point?,True
+@johnkennedy4023,2019-04-13T17:32:15Z,0,Oh,True
+@thesila2000,2019-04-12T14:46:03Z,0,yoı dont wanna see the equations...,True
+@san_sluck,2019-04-12T07:28:02Z,0,God that intro scared me^^ nice videos apart from that though,True
+@magister.mortran,2019-04-12T02:06:10Z,0,"In language both words are synonyns.  According to your mathematical definition likelihood is mathematically just a special case of probability, where the weight range is zero, which makes it a meaningless concept in the real world. If you count the number of mice with a certain weight, you always need a weight range. With a weight range of zero there would always be just one mouse with the exact particular weight, so you would never get a distribution curve. In the real world we can only deal with areas under this curve, never with points on the curve. In order to count thr mice with the same weight, we would need a tolerance range for considering mice having the same weight. The distinction between probability and likelihood makes therefore no sense, since likelihood would not be an applicable concept in the real world.",True
+@MrCmon113,2019-04-10T00:19:57Z,8,"That still makes ""likelihood"" a probability though.",True
+@domjervis,2019-04-07T17:12:05Z,6,"Couldn't help but type in Comment #300   I would have LOVED to be a Mathematician or a Statistician. But had to give up on that when I realized that I didn't have quite the ""Talent Level"" that my peers who were going in that direction had.  Paul Erdos I'm not.    A friend told me (please understand that this was in the mid 70s), ""You're going to need AT LEAST a Masters Degree before you can go out and beg for a job. And in all likelihood, not only will you will need to write a Thesis to get that Degree, but you're going to have to pick a topic VERY Soon after you start your Masters Studies AT THE LATEST or you will be light-years behind your classmates. Most of them will have chosen their Thesis Topic during their Undergraduate days."" The only topic I can recall having had Any interest in at that time was the Navier-Stokes Equations.  But, I have seen where so-called ""Authorities"" argue about whether this is a physics or a math Equation. So much for that. Also, tried to read background material on the Hodge Conjecture and it might as well have been written in Sanskrit.    Also, I was told, ""If you can't get a job as a Mathematician or a Statistician, you can always be a teacher."" Yeah right...  I can honestly say that I never had even ONE teacher that ""inspired"" me in any Method, Manner or Fashion. And the number of teachers I would have loved to hire the Columbine Boys to ""take care of"" is Easily in two digits. So I sure as heck wasn't going to become one of them.   Lastly, given my Life-long Hatred of school in general (me and Evariste Galois, among others), I saw that going into Accounting was a viable alternative, in that I was able to get a job with just the (then) four-year Bachelors Degree. The day I put all school in the rear-view mirror for Life, I remember saying, ""This is how prisoners who just got paroled must feel.""    All that aside, to this day Math and Statistics remain two of my favorite hobbies. Since I was Lucky and Blessed enough to have been able to retire five years ago at age 55, I have all day, every day, to do what I LIKE to do, rather than what I HAD to do to survive.    GREAT Video!  Thank you, Sir!  All Best!",True
+@HH3222,2019-04-07T08:49:42Z,3,Finally someone from the USA using metric measurements.,True
+@jlhjlh,2019-04-04T10:56:49Z,0,"This video answers my confusion between probability and likelihood, thank you very much for that. I just don't understand why the quest to answering a math question has to lead through a stupid ass song that I really don't want or need to hear.",True
+@JimboSRP,2019-04-01T19:26:44Z,1,"Likelihood is a joint probability, but it is still a probability.",True
+@geoffreyrothwell2707,2019-04-01T17:59:14Z,0,Hardly exciting! Tell the viewer what the exponential distribution looks like.,True
+@alexcurran409,2019-04-01T04:44:13Z,0,"The mean is stated as 32cm at the start, but at 3.33 it is clearly not the value of maximum likelihood.  Also the area under the curve is poorly explained. E.g. In what way would it total 1? What if we changed x-axis to kilograms? Why does it no longer sum to 1? All that said, others have given positive comments, so well done on helping with the concept",True
+@massecl,2019-03-31T21:37:58Z,2,"Anyway, you confuses probability, and probability density. A probability is always < 1, a probability density can have any positive value. The definition of likelihood you gives doesn't make sense. Actually, the main difference is that probability is from Latin (through French,) and likelihood is from Norse. There is a slight difference only in informal language, probability is more precise and refer to a number, while likelihood is more loose. In many languages there are not two words.",True
+@amoldakhare7474,2019-03-29T08:27:36Z,1,wow  nice video   Its help to better differnce bet probability and likelihood,True
+@briholt100,2019-03-27T21:37:18Z,1,"This may be a silly R stat question but I thought the likelihood is calculated using the density function, dnorm, and if I run that code...dnorm(34,mean=34, sd=2.5) I get 0.159,  which isn’t  .21  Does any one know if I’m using the wrong function? or maybe using it incorrectly?",True
+@TheShweta0810,2019-03-11T19:33:49Z,0,"As the value of probability lies between 0 and 1, is there any range for the likelihood as well?",True
+@huijingwang806,2019-03-11T14:19:17Z,0,Thank you!,True
+@bluzane,2019-03-11T04:51:39Z,1,"Josh, I spent 3 weeks but couldn't understand PCA analysis. But I accidentally stumbled across your video and it visualized magically in my head. You are genius. Then, I listened to your songs and I was amazed. Keep up the good work.  I think this article best describes you    https://www.quora.com/What-are-the-signs-of-a-highly-gifted-person",True
+@hellomacha4388,2019-03-10T14:21:37Z,0,what is the diferrence between WLLN and SLLN in statistics and why we are using,True
+@TheAmateurGuitarist,2019-03-06T07:29:32Z,9,"Bumped into this video, and glad I did!   Please make a video using a discrete distribution. That'll really help differentiate between likelihood and probability. The problem with Y values being in a continuous domain is that, by definition, we'll always have to just say that the P(mouse weight = 32) = 0, and there ends any scope for comparing it to L(32) :-)",True
+@sonalidasgupta3562,2019-03-02T09:16:54Z,9,The likelihood part confused me...what here is shown as likelihood sounds more like hypth testing,True
+@haroldsu1696,2019-02-28T14:52:47Z,2,fantastic  explain. Thank you !,True
+@hjooy,2019-02-12T18:14:14Z,0,Please explain the 24 and 40... BS.,True
+@danushuththamawadu101,2019-02-09T04:29:49Z,1,Thank you.......,True
+@BiranchiNarayanNayak,2019-02-06T01:44:03Z,2,Excellent tutorial....love it.,True
+@metinEsturb,2019-02-05T06:00:23Z,2,DOUBLE BAM!!!,True
+@flaflu82,2019-02-02T01:08:05Z,1,"That's probably right, with a high likelihood.",True
+@Trump-a-Tron,2019-01-29T17:55:43Z,0,"If only the idiot bothered explaining the significance of difference between the LEFT side and the RIGHT side of the graph. Also, moving the graph? What? Why?  See, I have a foggy recollection of this  from high-school, but never needed it in life and it was explained with the same type of passionless relevance I forgot who and why the moment the class was over, yet deep down I know this should be easy to explain.",True
+@georgesmith3022,2019-01-28T21:26:09Z,7,"i thought that the probability of a certain value in continous distribution is always 0. you dont have discrete weights like 32, 33 etc, but 32.00000001 etc. the probability of a mouse being exactly 32 is zero.",True
+@Sojju7,2019-01-28T10:03:55Z,2,"Hi and thanks for your videos! I have a question, how 'safe' is using predictions based on historical datas (even with theoretical distributions)? I want to exemplify: let's consider a firm that has data for sales in a fixed month for the last 5 years. It's safe to make decisions based on the Normal distribution or on a simulation? How does one take into account the fact that maybe the firm has grown and sales will be greater than the past? I have the feeling that acting this way one could underestimate the real outcomes. I hope it's not too complex to clarify. Thanks again",True
+@PedroRibeiro-zs5go,2019-01-28T07:41:33Z,2,"Man, right to the point, as usual!! Thanks!!!",True
+@jms019,2019-01-27T18:11:26Z,18,The probability of a mouse weighing exactly 34g Is IS ZERO,True
+@EddieVBlueIsland,2019-01-26T18:41:37Z,0,Now how about calculating the uncertainty of the estimate for likelihood?,True
+@AstroTibs,2019-01-24T02:12:03Z,0,"3:20 The likelihood of weighing a 34-gram mouse is 0.12. But, 0.12 _what_? It's not 12 percent. The only units that make sense given that an area (i.e. probability) works out to a fraction is if the units are ""0.12 per gram."" But that doesn't have any intuitive meaning.  Reading off a likelihood value in isolation like that isn't meaningful. Individual likelihood values are only meaningful when compared to other likelihood values. The 34 gram mouse on this distribution is 0.12, and the 32 gram mouse is 0.21. So we can correctly conclude that the 34 gram mouse is 0.12/0.21 = 57% as likely to occur (i.e. be selected) as the 32 gram mouse.",True
+@gregmiga1393,2019-01-24T01:54:26Z,2,The probability of me finishing this is unlikely.,True
+@ismailbayram_ce,2019-01-23T16:27:18Z,1,GREAAT!!!,True
+@justtoleavecomments3755,2019-01-23T09:47:06Z,10,"Actually makes things so much more intuitive, thank you!",True
+@wildbillhackett,2019-01-20T02:53:13Z,1,"""The good news is that both super simple."" That sentence is incomplete. Just thought you'd like to know.",True
+@Yzhang250,2019-01-20T02:44:31Z,1,Nice song and nice talk. Can you guys educate us about GLM?,True
+@Pituzer,2019-01-19T08:59:07Z,1,The intro is ultimate cringe,True
+@omy4888,2019-01-18T18:09:07Z,2,BAM!,True
+@Mercury2wo,2019-01-18T16:08:27Z,0,Does not explain what “likelihood” means and what the difference between probability and likelihood. BAM!!,True
+@bakedutah8411,2019-01-17T03:46:21Z,0,"1:21 “…a 29% _chance_ …” “Chance”!? Why did you introduce a third term!? So, we now have “likelihood”, “probability”, “chance, and let’s not forget “odds”, and so on. There comes a point where we’re going to have accept the inevitable, namely, no one has a fecking clue how to define ... well ... you know, that … that … well, that stuff that leads people to bet on horses, or decide not to fly in a plane, or take another card in Black Jack, and so on. Go on, try do define those words, WITHOUT USING THEM, in a way that conveys any kind of meaningful intuition. Can’t be done! (Sure, defining some abstruse mathematical relationship is possible, and in fact is trivially easy,  but it says nothing about how to connect to our deeper intuitions about this stuff).",True
+@bakedutah8411,2019-01-17T03:33:56Z,3,"Shyeah, right! Try telling this to the editors of the Wikipedia article on Probability.",True
+@clutch1141,2019-01-16T15:58:05Z,1,Can you make a video on causality?,True
+@pictureworksdenver,2019-01-16T08:44:10Z,6,"Yes! I'm finding this funny,  fascinating and awesome! But I am very high.",True
+@qq315465327,2019-01-14T14:55:16Z,2,me be like bam bam bam!!!,True
+@zaidsserubogo261,2019-01-14T10:32:44Z,0,Mutually exclusive Probability reduces to certainty through logical conclusion,True
+@saula.rodriguez6170,2019-01-12T20:25:59Z,1,"Humble question: At 2:14, isn't the standard deviation a scale parameter? The statement on the right side of the equation seems to imply that this is a shape parameter.",True
+@scowell,2019-01-11T13:53:42Z,0,Explain fail.  And... the intro is way too long.  Good luck.,True
+@felixtritschler3774,2019-01-10T13:38:53Z,0,"I still don't get it. Your 2nd example (the likelihood explanation) says: You already weighed your mouse, it weighs 34 g and this is 0.12 on the ordinate. That means the chance to have picked a mouse that weighs 34 g is 12% because the area under the curve from 33.5 - 34.5 g is 0.12 !! So what is the goddam difference ??? P.S. It's interesting that there is no article on likelihood on Wikipedia - only on likelihood function etc. which is way more difficult stuff, at least for me. I think I give up now - tried so many times to understand it through the last 5 years, same as me trying to understand what precisely a tensor is.",True
+@bluesteel7874,2019-01-10T01:16:29Z,1,Not a stat expert but what you showed seem to the difference between singular and mulitiple event probability. Probability and likelihood should have the same meaning. What is the probability of picking a 34 gram mouse = likelihood of getting a 34 gram mouse. It's confusing to differentiate the two.,True
+@vietta9204,2019-01-02T16:32:06Z,7,Holy sh*t! My head blown twice! Double BAM!!!,True
+@trdngy8230,2019-01-01T23:33:18Z,1,"I guess you are a big fan of Big Bang Theory :)) By the way, thanks for your work!",True
+@AndreasChristianto,2019-01-01T10:35:37Z,1,likelihood = probability density function..  probabilities = cummulative distribution function??  cmiiaw,True
+@alsonc,2018-12-30T05:27:45Z,1,Awesome. Intro.,True
+@qwinchen183,2018-12-29T13:00:17Z,1,Triple Bam!!!,True
+@ProfessionalTycoons,2018-12-20T02:35:05Z,1,Clear cut explanation,True
+@trilisser,2018-12-15T12:00:01Z,13,"Thank you man, THANKS A LOT seriously. Finally I got it, omg",True
+@kaiwang2924,2018-12-15T00:52:13Z,0,So sleepy,True
+@akhileshmahajan9626,2018-12-11T22:47:07Z,1,Double Bam!!,True
+@jedidelalog9834,2018-12-10T19:01:10Z,1,....CLEARLY EXPLAINED BAM BAM BAM!!,True
+@animals42life8,2018-12-03T11:50:54Z,1,"What would anyone recommend a prior reading cause I really don't see the difference between probability, likelihood and pdf. Thanks folks! I am really missing something. I am familiar with Gaussian curve. But I'm still missing something.",True
+@johnaugsburger6192,2018-12-03T11:01:38Z,0,Thanks,True
+@ryanal9866,2018-12-02T05:40:34Z,3,This is the best explanation I've ever seen! and I like your intro song as well!,True
+@Dalavir,2018-11-29T09:58:14Z,1,Thx!,True
+@bjd1980,2018-11-21T06:24:36Z,0,More confused than before watching...,True
+@lonandon,2018-11-17T23:10:10Z,2,"Thanks for great clear explanation, it finally make my uncomfortable feeling whenever I see likelihood goes away! BTW, the style at beginning and in the end always remind me of Wayne's World and that really helps to relax and be ready to learn something great.",True
+@zelda12346,2018-11-17T22:09:25Z,2,"My graduate stat professor liked to say ""confidence is for past events, probabilities are for future events, and likelihoods are for parameters, and they're all the same thing mathematically so stop worrying about the jargon.""  Which leads to some funny statements like, We are 95% confident that the likelihood of p is between 60% and 90% probability that it excludes a datapoint at the 5% level.",True
+@santhoshwagle9857,2018-11-15T16:18:49Z,1,What is the probability of mouse weighing exactly 34g in this example? Isn't it same as that of likelihood?? I am bit confused.. Please help..,True
+@mAcCoLo666,2018-11-14T21:28:37Z,3,"Strange, almost every book I've read so far talk of P(data|distribution) as likelihood, and P(distribution|data) as posterior. Am I missing something here? 🤔",True
+@benchapple1583,2018-11-14T18:20:05Z,1,"I'd always thought that a | b means that a divides b without remainder, from number theory. I've never seen the meaning 'given' before. Is this something special to stats? 'You learn something new every day.'",True
+@salemsaid5621,2018-11-14T17:22:00Z,0,Not a real science not worth learning,True
+@viraphone,2018-11-13T22:08:37Z,2,So likelihood is just probability density? We can move distribution in first case of areas too.,True
+@kyjo72682,2018-11-13T21:06:57Z,3,"That's weird. I think of those two words as synonyms. Your explanation would still make sense if you swapped the words. I think what you're describing is just a convention, not proper semantics.",True
+@redmotherfive,2018-11-13T12:57:13Z,0,"Likelihood is the probability of an observed sample. It’s still probability, actually.",True
+@user-ht7gw9ww1c,2018-11-11T15:17:30Z,0,"Simply P-value means the area under the graph. And always compare with significance level, 0.05",True
+@user-ht7gw9ww1c,2018-11-11T15:16:37Z,0,Reminding thw concepts,True
+@user-ht7gw9ww1c,2018-11-11T15:15:58Z,0,What is that song???,True
+@jojomojojones,2018-11-10T20:12:17Z,3,You get an automatic like just for the intro! Thanks for the video.,True
+@nikradia5743,2018-11-10T19:14:35Z,1,<3,True
+@zofe,2018-11-09T21:41:17Z,3,The likelihood of a point on a continuous line is epsilon of zero.,True
+@o.biertrinker9649,2018-11-07T20:14:08Z,1,Best intro ever,True
+@qoo2625,2018-11-07T09:55:07Z,1,"Thanks a lot, you save my life!!!",True
+@suivzmoi,2018-11-06T15:00:32Z,1392,"probability is the quantity most people are familiar with which deals with predicting new data given a known model (""what is the probability of getting heads six times in a row flipping this 50:50 coin?"") while likelihood deals with fitting models given some known data (""what is the likelihood that this coin is/isn't rigged given that I just flipped heads six times in a row?""). I wanted to add this perspective because using the example in this clip, a likelihood quantity such as 0.12 is not meaningful to the layman unless it is explained exactly what 0.12 means: a measure of the sample's support for the assumed model i.e. low values either mean rare data or incorrect model!",True
+@not_a_human_being,2018-11-04T22:26:10Z,4,"great vid, but I almost feel that it would've been much more clear with discrete distribution.",True
+@df4250,2018-11-04T21:28:33Z,1,Beautifully explained! Excellent job.,True
+@RabidMortal1,2018-11-04T18:24:18Z,5,"I am slightly confused. I have always been taught that the likelihood of a model is the probability of the data given the model, but the notation uses is always in the form of P(Data | Model).  this is the opposite of how the video is presenting it.",True
+@playlistslikejobs7463,2018-11-03T17:12:10Z,4,Almost gave you a dislike for that intro alone...,True
+@zhongzhongclock,2018-11-02T13:04:31Z,1,So clear,True
+@lakshaydulani,2018-11-01T07:23:12Z,1,why do we calculate Likelihood? where is it used?,True
+@se123acabaron,2018-11-01T06:04:11Z,1,"Brilliant! Thank you very much for this easy, visual explanation.",True
+@jacoboribilik3253,2018-10-30T18:39:45Z,2,So likelihood is the same as probability density,True
+@LightChu2.7183,2018-10-25T08:32:47Z,2,BAMMMMMMMMMMMMMMMMMMMMM!,True
+@OneOfTheManyJason,2018-10-21T13:00:40Z,1,that double bam,True
+@liamhoward2208,2018-10-21T02:47:37Z,5,Anybody else think he was talking about tiny weights that you put on a scale when he said mouse weights? Lmao,True
+@a_sn_hh7027,2018-10-10T21:13:33Z,1,thanks for the new pop song..,True
+@budasfeet,2018-10-07T07:02:52Z,1,"I don’t think you are right “probability” can also be a single point, it’s not just the cdf. And likelihood depends on the context, it’s p(x|y) in p(x,y)=p(x|y)p(y) which reads posterior=likelihood times prior in Bayesian statistics.",True
+@Maya_s1999,2018-10-06T10:08:29Z,1,Excellent!! A lot of people are confused between likelihood and density functions. This makes it crystal clear. BAM! Subbed:-),True
+@csmatyi,2018-10-04T17:03:18Z,0,"don't have the singing part at the beginning, it's a bit silly and unprofessional, otherwise nice video",True
+@fmetaller,2018-10-04T10:24:00Z,2,"I want to be shure I got i right. We can assume the likelihood as the ""probability"" that the mouse we weighted belonged to the given distribution.  Is this right?",True
+@maverick3069,2018-10-04T08:40:42Z,2,"Hey Josh, what's the y axis?",True
+@AmirRahbaran,2018-10-03T18:18:49Z,1,Triple Bam! Because I loved it! Thx a bunch!,True
+@simonty1811,2018-09-13T03:20:23Z,7,did Donald Trump write your lyrics? It was very very very good. Studying stats from Sydney. I come here because I don't understand uni my lectures :(,True
+@eunhyoukshin7777,2018-09-05T02:29:16Z,1,I pressed the like and subscribe btn while that amazing intro was playing XD,True
+@DmGrass,2018-08-26T17:57:13Z,23,"I am a little bit confused concerning the second examle because this is probability density function, not cumulative distribution function. Probability density function has probability density (not probability itself) on vertical axis. So why did you conclude that likelihood is 0,12? In my opinion, this is probability density. In order to see likelihood we have to swich to cumulative distribution function and look what Y-value correspondes to 34 grams.",True
+@saurabhsharma8577,2018-08-19T12:15:36Z,1,"Hi, You are amazing. Keep making such good videos. It helps a lot in learning. Thank you.",True
+@paulstevenconyngham7880,2018-08-18T07:36:23Z,1,double bam!,True
+@ww660,2018-08-10T20:43:20Z,1,stat quest~~~~~~~~~,True
+@violinonero,2018-07-22T03:36:06Z,1,"So the likelihood in this example is how many mice would happen to weigh 34 grams, given a certain set of parameters for the model?",True
+@lakshaydulani,2018-07-03T04:48:50Z,3,Nice explanation but i m afraid i still dont understand whats likelihood..can somebody pls explain in plain words..josh has explained in terms of formula,True
+@ProfessionalTycoons,2018-06-29T06:51:37Z,1,very clear cut,True
+@sateeshsivakoti4348,2018-06-26T09:51:28Z,0,Does this mean that the likelihood can take values greater than one? Because the probability distribution function can be greater than one,True
+@utsavprabhakar5072,2018-06-21T20:25:44Z,1,Triple bamm. Thanks :),True
+@JhonPlusse,2018-06-21T10:20:04Z,1,Thaaaank you so much !,True
+@qingchen2510,2018-06-12T19:44:10Z,7,As you said ，so clearly explained，Thank you very much.,True
+@sachinsh9398,2018-06-11T02:40:37Z,1,Just awesome !!! The concepts are made so so simple to understand. Big thumbs up to you :),True
+@Felicidade101,2018-06-06T14:53:23Z,1,Could you do a statquest on GLM or GLAM (non parametrics :))))) ?,True
+@sahand5277,2018-06-03T10:40:06Z,1,Thank youuuu..it was amazing Josh <3!,True
+@lilmoesk899,2018-05-13T14:00:06Z,0,great stuff as usual!,True
+@chyldstudios,2018-05-08T04:09:30Z,0,the clearest explanation of the connection between likelihood and probability. more videos!,True
+@amitabhjayaswal,2018-05-04T19:15:18Z,1,"Thanks Joshua! ...umm... at TIME 1:25 how did you calculate the area under the curve to be 0.29. Also, shouldn't there be units (of distance) to this figure? The weight-in-grams on the abscissa psychologically blocks me to think of the area in units of distance. Please help!",True
+@Dom-xd4lq,2018-04-15T10:32:36Z,1,DOUBLE BAM,True
+@dantek1024,2018-04-07T15:46:26Z,0,Congratulate and thanks for the clarity of your videos. I would like to find out how to generate the parameters for a Burr Distribution.,True
+@aoihana1042,2018-04-03T02:38:19Z,8,"BAM! Thank you Josh, you explain concepts with such clarity and ease!",True
+@ob96275,2018-03-29T01:57:48Z,3,Thank you for solving my questions that keeps staying on my mind for years. This helps a lot!,True
+@pesenna,2018-03-13T22:14:52Z,0,double bam!,True
+@missregita,2018-03-13T09:58:06Z,8,"as a student who majors in statistics, all of your videos are so helpful! thank you❤",True
+@MrJarod2003,2018-03-13T08:46:11Z,1,"I think people use these two terms interchangeably in the real world, are you able to give some examples of the correct application of those terms given a more business sense?",True
+@chetankumarnaik72,2018-03-12T05:38:53Z,0,statquest makes me very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very happy!,True
+@jigonro,2018-03-11T08:58:10Z,1,I’m lucky for being among your audience,True
+@urjaswitayadav3188,2018-03-10T21:20:28Z,3,Thanks Joshua! I love your video series on probability and likelihood :),True
+@19HM98,2018-03-10T11:53:04Z,0,"Here's what I have understood from this, please correct any mistakes:  With likelihood we are asking how likely it is for a certain statistic to be a particular value, given a particular case.  For example, how likely is the mean to be xyz, given that our case has value abc.  For probability it is essentially the reverse. What is the probability of a case being abc, given that our mean is xyz.  Is that correct?",True
+@zerosiii,2018-03-10T00:18:08Z,181,"Seriously, please don't stop making these! You really nail the topics in the most perfect time, and always explain them in awesome ways :)",True
+@mastermike890,2018-03-09T20:58:49Z,449,Your intro songs have really grown on me. You are like the Bob Ross of Statistics.,True
+@AessamL,2018-03-09T20:36:49Z,0,"Hi Joshua , Will you Consider Making Videos on Bayesian Analysis ?",True
+@lazregmohamedlamine4847,2018-03-09T20:16:38Z,2,"thank you, you upload this statquest in the right time!!,best",True

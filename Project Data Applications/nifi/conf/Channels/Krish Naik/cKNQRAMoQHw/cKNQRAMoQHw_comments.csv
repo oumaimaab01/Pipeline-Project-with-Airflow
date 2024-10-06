@@ -1,0 +1,23 @@
+author,updated_at,like_count,text,public
+@KL1_Khaled,2024-02-26T14:58:20Z,0,Good Job 🌹,True
+@kunalkumaraiml2365,2023-12-26T20:17:59Z,1,Thank you so much sir for such incredible videos.,True
+@sathwikupadhyaya8783,2023-12-12T12:29:22Z,1,Best guy out there in analytical field for beginners. Thanks Krish,True
+@learnwithhdr,2023-12-07T09:34:43Z,0,"SQL TUTORIALS IN MALAYALAM  https://www.youtube.com/playlist?list=PLvwkZ3PABO0qlHKy_NhSEnzGY-vVKSttw",True
+@OutofDeCave-lo3vp,2023-08-30T10:03:44Z,0,"Hello Krish! Thanks for your dedication and efforts to share your knowledge and experiences with us. I have question regarding ALTER TABLE person part. Why we have used index with DROP ?  Second question is , can we write some other word in the place of uc_ ?   The complete code is like this ALTER TABLE person DROP INDEX uc_person;",True
+@dolly1719,2022-07-22T11:57:59Z,0,"Hi Krish, Thank you for this great session. I had one doubt, When we are creating the person table we gave not null and unique for ID column then its displaying as primary key but for first_name col also we gave not null and  added unique by altering the table later then why its showing as unique only while describe the table? not as primary key?",True
+@praveenhtiwari9104,2022-07-14T16:04:02Z,0,sir how to contact you if someone is having with any doubt,True
+@oe10s024,2022-05-14T21:22:31Z,0,"Need to check two things:  1. In PERSON table, when you drop index (uc_person), it drops Age from unique key. However, it keeps first_name as a unique key because it was assigned unique_key initially. Can you please explain this?  2. In PERSON1 table, last_name was not assigned to NOT NULL. Later, last_name was assigned as a primary key and subsequently dropped from the primary key. Although it was dropped from the primary key, it remains NOT NULL. Can you please explain this?",True
+@himanshusoni9791,2022-05-12T12:36:49Z,0,"I am a DME in a company, I use Google sheets and data studio.I am learning SQL but I think that googlesheet or excel is better then mySQL because of easy to use  & Just using formula. So why should I learn SQL or why MNCs use SQL? Because Google sheets can also do same things. Please guide me what is use of mysql over google sheets or excel????",True
+@kartikagarwal3807,2022-04-21T10:17:27Z,0,First prepare yourself before teaching. Giving incomplete and incorrect knowledge can be very dangerous.,True
+@write2ruby,2022-02-11T12:59:35Z,0,Very Important Topics are covered,True
+@dineshrajput2472,2022-01-22T06:27:18Z,4,"Dropping unique constraints can be done by below method too:  #Another way to add constraint alter table person  add constraint unique (age,first_name); desc person;  # How to drop a unique constraint alter table person drop constraint age; desc person;",True
+@gjayanth905,2022-01-18T13:51:49Z,0,Sir what is uc_person,True
+@devgarg3130,2022-01-17T17:58:52Z,1,sir in tutorial-3 when you taught about delete statement i implement that and i deleted the middle entry now id which is auto-generated is not in proper order so how to reorder it?,True
+@dhruvnayak7922,2022-01-17T14:42:45Z,0,Sir how to update or delete more than 1 data. please give the command line. 😊,True
+@vishnukumard.s9960,2022-01-17T01:38:56Z,0,Krish Make video on Data scientist all skills for 2022,True
+@krishj8011,2022-01-16T17:19:31Z,0,Nice tutorial...,True
+@dpranay6262,2022-01-16T14:45:37Z,5,if u have two more than 1 column as primary then that key IS CALLED COMPOSITE KEY,True
+@prateek.agrawal,2022-01-16T13:52:59Z,2,will your Complete videos be available on one-neuron? bcoz we have joined bcoz of krish & sudhanshu sir,True
+@sonquang527,2022-01-16T13:23:02Z,1,Can you add transcript to your statistics & machine learning playlists. My listening is not good enough. Thanks Sir,True
+@jimiljoshi7998,2022-01-16T12:37:29Z,2,"Sir,Just buy a technuron subscription and feeling good hope will learn complete data science there....Thank you for this platform",True
+@prakashdalvi9598,2022-01-16T12:36:30Z,1,Thanks Sir 😊,True

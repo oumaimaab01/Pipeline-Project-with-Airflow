@@ -1,0 +1,13 @@
+author,updated_at,like_count,text,public
+@saikrishna2000,2019-02-03T08:53:13Z,0,From where is the me.shipyard_position coming from? Is it already defined?,True
+@softwaredeveloper6791,2018-10-27T03:10:39Z,0,"It's not expensive to check how much a ship has and compare it. Why add in an extra state variable for ""depositing"" vs ""collecting"" instead of just checking if the ship has enough halite each iteration?",True
+@JohnDupuyCOMO,2018-10-23T22:03:14Z,0,"To simplify and make more robust, I recommend expanding to four states: ""moving_to_collect"", ""collecting"", ""moving_to_deposit"", and ""depositing"". Also, when in the ""collecting"" state, adjust the halite threshold for going to the ""moving_to_deposit"" state based on the count of ships in the ""moving_to_deposit"" state. That way, the ships will ""anticipate"" congestion at the home base by delaying return (and collecting more).",True
+@polares8187,2018-10-23T07:58:12Z,0,After i watched your premiere stream video watch history does not seem to work with your and only your videos. In your new videos the red bar which indicates how much you watched a video is gone. Since youtube pays the creators by watch time i wonder if there is a bug that is affecting your revenue. If you can please ask youtube if anything is wrong.,True
+@HarshitKumar-lg1ol,2018-10-23T03:20:14Z,0,What is your username on halite?,True
+@dian_dian,2018-10-22T17:30:51Z,2,the [position_choices] are being erased at the start of every frame!  i put: position_choices = [ship.position for ship in me.get_ships()]  ... not sure if its the best way to go about it tho,True
+@larzperson9601,2018-10-22T15:46:02Z,2,"Lol, it is so frustrating to see the error, and not being able to tell you. It is relateable though so I do not mind.",True
+@husky090689,2018-10-22T15:40:05Z,3,"Not sure if you've noticed, but no one seems to be able to challenge your bot. Challenges are listed in your profile but none of those are playing any matches",True
+@harmeepatel,2018-10-22T15:32:24Z,1,u make it  look so easy than it really is.......,True
+@spiderlessgwen2462,2018-10-22T15:26:54Z,7,"Really enjoying working on the halite challenge. It's been a lot of frustration(for once I'm taking your series as it comes out instead of all at one), but so far, I have a lot of the same ideas as you, just having trouble nailing the execution. Thanks so much for the awesome vids Sentdex, you make learning python a lot of fun.",True
+@CodeEmporium,2018-10-22T15:04:38Z,1,Interesting as always,True
+@LoekTheKing,2018-10-22T14:59:43Z,0,You're a pro at coding =D,True

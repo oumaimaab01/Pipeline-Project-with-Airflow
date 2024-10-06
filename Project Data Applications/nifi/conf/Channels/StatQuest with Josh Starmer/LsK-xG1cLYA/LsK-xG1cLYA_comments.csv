@@ -1,0 +1,696 @@
+author,updated_at,like_count,text,public
+@statquest,2020-01-08T13:49:43Z,162,"Correction: 10:18. The Amount of Say for Chest Pain = (1/2)*log((1-(3/8))/(3/8)) = 1/2*log(5/8/3/8) = 1/2*log(5/3) = 0.25, not 0.42.  NOTE 0: The StatQuest Study Guide is available: https://app.gumroad.com/statquest NOTE 2: Also note: In statistics, machine learning and most programming languages, the default log function is log base 'e', so that is the log that I'm using here. If you want to use a different log, like log base 10, that's fine, just be consistent. NOTE 3: A lot of people ask if, once an observation is omitted from a bootstrap dataset, is it lost for good? The answer is ""no"". You just lose it for one stump. After that it goes back in the pool and can be selected for any of the other stumps. NOTE: 4: A lot of people ask ""Why is ""Heart Disease =No"" referred as ""Incorrect""""? This question is answered in the StatQuest on decision trees: https://youtu.be/_L39rN6gz7Y However, here's the short version: The leaves make classifications based on the majority of the samples that end up in them. So if most of the samples in a leaf did not have heart disease, all of the samples in the leaf are classified as not having heart disease, regardless of whether or not that is true. Thus, some of the classifications that a leaf makes are correct, and some are not correct.   Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@rayankhan5025,2024-05-06T15:17:53Z,1,Those intro songs are starting to grow on me,True
+@rahulsihara8946,2024-04-23T19:42:51Z,1,"such an amaizng explanation, intuitvely shows how Ada boost helps in making the model better than decision tree.",True
+@mostafakhalid8332,2024-04-16T10:28:21Z,0,How can AdaBoost be used for regression issues?,True
+@aryanshrajsaxena6961,2024-04-11T04:05:56Z,0,"The base of the logarithm is e, not 10",True
+@aryamansinha2932,2024-04-09T13:44:20Z,0,if lets say your goal is to maximize recall (not accuracy) where would that change be applied to choosing the next tree? or would it be in the amount of say calculation?,True
+@sanjanakatala4311,2024-04-02T06:50:09Z,1,"thank you so much, it was very helpful and easy to undersatnd, much better than my college professor and big blogs on the same available online, god bless you, if i see people like you, i feel that social media is in safe and wise hands who uses it wisely and trust me, my professors should take classes from you on how to make teaching simple,effective and interesting😇😭🥺😎🤓",True
+@negarmahdavi4330,2024-03-31T09:25:13Z,0,20:28 How can we use Gini impurity to update the weights?,True
+@negarmahdavi4330,2024-03-31T09:19:30Z,0,"18:07 do we use bootstrapping in Adaboost? so if we're sampling with replacement there's no gaurantee that the sample with the larger weight is duplicated more",True
+@tech.solutions1463,2024-03-27T17:41:17Z,0,"Hi thanks but, at 6:06 how 176 is calculated ? Why not 174 or 178 , they all give the same Gini impurity ,  174 would also split at the same branch? Yes I looked the mentioned video (https://youtu.be/_L39rN6gz7Y?t=642)",True
+@anirudhgangadhar6158,2024-03-27T16:51:07Z,1,"This is by far the best explanatory video on ""AdaBoost"" that I have come across.",True
+@luisloretdemola1870,2024-03-21T15:04:14Z,1,Excellent explanation. Thank you,True
+@EbimoJ,2024-03-16T19:25:50Z,1,😁😁😁😃 Funny introduction of the course,True
+@roma2091,2024-03-07T03:28:47Z,0,How is Gini Index calculated at 6:17?,True
+@KARAB1NAS,2024-03-06T14:47:57Z,0,"I think in 13:15 when you update the weights for the data referring to a correct prediction by the previous stump...you are not supposed to 'decrease' the weights but keep them just unchanged. I'm looking into the book, elements of statistical learning, chapter 10.1, for the AdaBoost algorithm.",True
+@timusbelkin,2024-03-04T10:28:43Z,0,Could you please tell when to stop building the forest and what is going with outcasted data? What if we will find out ourself with the only one record in a table?,True
+@julianwebb9222,2024-02-26T17:36:39Z,1,"If it takes Josh 20:53 minutes to explain it, you know it's a complicated algorithm 😂",True
+@burakkaya6149,2024-02-10T16:54:58Z,1,"Even somebody who doesn't know English, could understand machine learning with your videos",True
+@pranavreddy9218,2024-01-18T18:04:45Z,0,"is there any example with ADA boost regressor in your playlists? am i missing it, i bought StatQuest Illustrated Guide to Machine Learning today..",True
+@eranhasid7630,2024-01-09T15:13:46Z,0,Okay but how do we stop this process ? I mean how do we know how many stumps is enough for our model ?,True
+@user-im9eg5zt2w,2024-01-02T08:28:35Z,0,"Hi, thanks for your video. I just have a question, how we should calculate the weighted error in a regression problem and amount of say for each model? In a regression problem, almost all of the predicted values are different from targets.",True
+@ledinhanhtan,2023-12-27T14:47:12Z,1,LOL! I learn a ton. Thank you!,True
+@utkarshujwal3286,2023-12-27T10:23:31Z,0,"Thanks Dr Starmer but I had a doubt where does this algorithm actually end, we can go on updating the amount of say for the stumps that make correct classification viz a viz the stumps that dont.",True
+@gkt13,2023-12-14T10:19:45Z,0,the last one is 0.5?,True
+@maksymchernetskyy6404,2023-12-06T07:39:40Z,0,What exactly you calculate as gini index cuz how did u get 0.2 for the last (weight) stump?,True
+@user-lr2vs1ht5j,2023-11-28T16:23:32Z,0,can you please explain how Gini index is calculated ?,True
+@amirsuhel7184,2023-11-21T14:53:36Z,1,baaam,True
+@LizaSkachkova,2023-11-21T08:57:06Z,1,I came here to learn some ml. 10 seconds later I am watching the whole pack of bo burnham’s songs. Thank you!!,True
+@Snshqgavks,2023-11-17T13:18:55Z,0,i have two question 1. what happen when total error 0? -> log(1-error/error) divide 0? 2. when stop making a stump?,True
+@nizarhabib4352,2023-11-14T11:10:39Z,1,It's also unclear why you chose 176 for the weight in the first stump selection. 176 isn't an average of any adjacent samples :) I love your videos by the way :D,True
+@jofrasavi85,2023-11-12T14:47:36Z,1,you have a good sound there man !. Want to hear the whole song ! Masssshiiiine Learningggg look so complicated.,True
+@1Anket,2023-11-10T05:39:08Z,0,"Why is ""Heart Disease =No"" referred as ""Incorrect"" throughout the algorithm?",True
+@user-wh8ob2pv1y,2023-11-04T20:35:21Z,0,Was watching at middle of night and that sound at 9.11 gave me a mini heart attack😅😅,True
+@user-wr4yl7tx3w,2023-10-23T03:22:00Z,0,there seems to be math error at 10:18 in the calculation for Amount of Say of 0.42.,True
+@waisyousofi9139,2023-10-19T20:42:15Z,1,the best!!!!,True
+@gwenxu7230,2023-10-14T02:31:28Z,0,"I couldn't figure out the weighted gini index instead of the bootstraping method, especially where the weight should be applied, do we need to recalculate the weight within the node? Could you explain more of this to me? Thanks!!",True
+@kemalcn,2023-10-03T16:21:26Z,0,"at 5:41, why do we say 'incorrectly classified'? what is incorrect about it? it's simply 'Heart Disease = No'",True
+@pranavkanjarla8491,2023-09-29T04:32:10Z,0,"Josh, At 19:17 what do you mean when you say these stumps classify the patients as having heart disease and the other stumps as patients without heart disease, shouldn't every stump classify patients into 2 categories, having heart disease on one side and patients not having heart disease on another side.",True
+@user-fi2vi9lo2c,2023-09-22T09:38:58Z,0,"Dear Josh, thanks a lot for this video! It' pretty clear now. One small question remains: if we used some predictor in building a stump number N, can we use this predictor again in building a stump number N+1, N+2,... N+k, etc?",True
+@We.shall.fly1,2023-09-19T10:33:35Z,0,14:38 can anybody explain from where 0.33 came here?,True
+@We.shall.fly1,2023-09-19T10:13:42Z,0,9:09😂,True
+@tudorpricop5434,2023-09-08T19:10:32Z,0,"I have some questions. 1. When do we stop calculating new stumps and their amount of say ? I mean how do we know when we have enough stumps to work with ? 2. You mentioned in the comment below that ""once an observation is omitted from a bootstrap dataset, is it not lost for good. You just lose it for one stump. After that it goes back in the pool""  When do we come back to an earlier data set in order to make use of a ""omitted observation"" ? As far as I understood, we only work with the modified dataset which keeps getting smaller and smaller (in terms of unique items)",True
+@AWSFan,2023-09-05T14:06:28Z,0,"Hi Josh, Adaboost algorithm is also used for regression problem apart from classification. How that is done? Can I have an algorithm or detailed explanation on that? Thanks!",True
+@michaelzhi1960,2023-08-30T05:52:29Z,0,I have one question though. Here why do we assume left leaf of the stump should be assumed Yes to heart disease? What if I presume that chest pain give healthy heart？,True
+@HL-iw1du,2023-08-18T23:23:36Z,0,Life is so hard.,True
+@HL-iw1du,2023-08-18T23:23:07Z,0,20:27 Why/when wouldn’t there be a weighted gini function?,True
+@spoingus20,2023-08-09T10:04:35Z,0,why are you calling it an error. Shouldn't it be a yes or no in heart disease. I mean why is it misclassified if the patient has chest pain and no heart disease,True
+@Djinson,2023-07-20T10:08:10Z,0,"Isn't the total error of the first stump just 1, since 1 entry was missclassified? Wouldn't the correct term for 1/8th be relative error?",True
+@zoehuang-pz9kv,2023-07-17T22:00:00Z,0,1/2*log(7) =0.42254902,True
+@pratyanshvaibhav,2023-07-09T11:25:08Z,0,"Respected sir, while coding in python when we use  for eg. model = AdaBoostClassifier(n_estimators=18)  then do we mean that while creating weak learners we will be using 18 features nd their relative importance can be found out using model.feature_importances_?? or does it mean something else",True
+@ssalazars,2023-07-04T14:02:03Z,1,"Nice video, saved for the future ",True
+@elvykamunyokomanunebo1441,2023-06-19T16:22:13Z,0,"Hi Josh, Correct me if I'm wrong: the Gini index is a measure of inequality between two population so if one group is much larger than the other then the Gini should be high. So how come Weight has the lowest Gini despite having the maximum inequality out of the three features?  Thanks in advance",True
+@antoniogiuseppefaietalasar6849,2023-06-15T16:06:21Z,1,"Josh and Kahn, the greatest teachers of all time. They should have their own University.",True
+@ranirathore4176,2023-06-15T12:17:37Z,1,"Thanks ,  Actually Clearly Explained  BAM !!!",True
+@ConBoe,2023-06-13T08:52:14Z,1,"Would the amount of say be calculated on the original data or on the data built using the weights when doing resampling? I would guess the later but i am not quite sure  Anyways, great video, thank you so mush for making it! BAM!!",True
+@alilatif1542,2023-06-12T00:28:20Z,1,Video Starting is fantastic 😂😂,True
+@palashmyaccount,2023-06-05T16:00:32Z,1,"pu-di-tu-pu-tu sounds are so funny. You make your videos so much fun, great job!",True
+@umer7267,2023-06-04T16:36:26Z,0,Could you elaborate on the weighted gini function?,True
+@akrishnaprasanth1338,2023-06-02T12:25:22Z,1,Bee dee do bu da.... 😛,True
+@jubinkuriakose,2023-05-28T09:02:07Z,0,"Hi, Josh was wondering how towards the end you classified some stumps as has heart disease and some as not heart disease ? don’t all the stumps do this to various degrees ?",True
+@bengodw,2023-05-26T15:09:44Z,0,"Hi Josh, thanks very much for your teaching. Please help advise the following:  1. Per my understanding, a ""Weak Learner"" should have a larger ""New Sample Weight"". But your video show that a ""Weak Learner"" has a smaller ""New Sample Wegiht"" as shown below. Please could you advise why?  ################ Chest Pain has more ""Total Error"" than Patient Weight, thus Chest Pain is ""Weak Learner"", while Patient Weight is ""Strong Learner"".  Chest Pain (Weak Learner)   ""Sample Weight"" 1/8   ""Total Error"" 3/8  ""Amount of Say"" 0.25  ""New Sample Weight"" 0.16  Patient Weight (Strong Learner)   ""Sample Weight"" 1/8   ""Total Error"" 1/8  ""Amount of Say"" ""0.97  ""New Sample Weight"" 0.33 ################  2. Does ""Weak Leaner"" mean it has a large ""Total Error""?",True
+@trymee3856,2023-05-26T05:34:12Z,0,wat about adaboost with regression data. does it do the same thing?,True
+@QuranKarreem,2023-05-18T10:33:56Z,0,"Hi, thank you for your clear explanation. I have one question: Is the learning rate set to 0.5 in the calculation of the ""amount of say""? because you didn't illustrate it",True
+@amnont8724,2023-05-13T11:41:53Z,0,"19:45 Hey Josh, could you please give a good intuition why the larger amount of say determines the classification in this example and in general?",True
+@radhikawadhawan4235,2023-05-02T06:05:34Z,0,Can someone point me to adaboost regression algorithm?,True
+@aishwaryadevbanerjee6037,2023-05-01T05:47:06Z,0,Amazing video.. all of them.. Thank you so much Josh.. I had one question though..   In the quasi-sigmoid function (8:34) of Total Say vs. Total Error.. when you say that if the stump is extremely bad.. then it has a highly negative say..   But I was thinking.. for a total error of -> 1 (limit approaching 1).. that would essentially classify as a stump which is always incorrect.. and if we know that.. we could simply perform a NOT operation on the stump prediction.. and get the correct prediction right? In other words.. what I am trying to say is that total error of 0.5 ( translating to a total Say of 0) is much worse of a predictor than a stump with a total error of -> 1 so maybe a more accurate formula for the Amount of Say could be the modulus of 0.5*log((1-total error)/total error))  Please excuse me if this doesn't make sense at all.. :),True
+@pranavreddy9218,2023-04-30T16:18:51Z,0,"please uplaod full document for this problem, what are those 6 stumps, and how can we guess whether the person has heart disease or not by givign the inputs...looks like this video is half boiled ???",True
+@ecem3565,2023-04-22T20:52:27Z,0,"Hey, thanks for the wonderful content. I have a question about 6:18 , how do we calculate the gini index and why chest pain is 0.47",True
+@redsapph1re,2023-04-17T10:16:14Z,0,"At 13:48, Why do we want to make the new sample weight very small for correctly classified samples if the amount of say is very large?",True
+@Ha-mb4yy,2023-04-15T16:11:00Z,0,"At 5:40, are we assuming that sample with chest pain HAS to have heart disease? Because you say that for the first stump 3 are correctly classified an 2 incorrectly, is this because ""Chest Pain"" and ""Heart Disease"" are 100% correlated?",True
+@user-fo2cy4hq6z,2023-04-13T22:34:55Z,1,"vraiment exceptionnelle!! le travail et l'effort pour vulgariser presque les concepts du machine learning et sans oublié les stats en général, tout simplement prodigieux. Un grand merci Josh!! chacun ses héros, moi j'en ai trouvé un!!! bonne continuation.",True
+@shubhamgupta6551,2023-04-09T17:01:22Z,0,Do all Boosting techniques use samples of training data to build a model or base model (first stump model is built on complete data and then all sequential model uses a sample of training data?,True
+@dcaaaabd,2023-04-07T20:18:20Z,0,But why is it called adaboost?,True
+@user-gk9qe7lh1g,2023-04-02T12:46:23Z,1,Ingineous explanation,True
+@michaelshiferaw1598,2023-04-01T15:44:33Z,1,You're a hero,True
+@salahmahmoud2119,2023-03-28T17:27:36Z,1,Are u human? Thx statq👏❤️,True
+@prantikpaul8796,2023-03-24T17:42:22Z,1,"The ""bee doo be doo be do"" totally caught me off guard. 😵‍💫",True
+@ashayagarwal,2023-03-24T15:34:14Z,0,"For the third stump do we sample from the original data table, or from the table used in the construction of the second stump? I believe the right answer is second table, but I just want to confirm.",True
+@DataAnalyticsWithJames,2023-03-20T12:49:15Z,0,"The video is awesome !!!.  I can learn a lot. However, I just wondering what is the terminal condition of Adaboost ?",True
+@productiondotdev8041,2023-03-14T21:31:08Z,1,Intro music is sickk,True
+@itsmeatrin,2023-03-12T09:51:11Z,1,0:00 When will it be on Spotify?,True
+@henryjiang9990,2023-03-09T18:05:49Z,1,Are there 500k people trying to become a data scientist ?,True
+@samfriedman5031,2023-02-28T23:55:07Z,1,I can't with you Josh 😆 when you start running through a calculation and go DO DO DO BAH DO DO DO DO... BAM!!!!,True
+@andrewdouglas9559,2023-02-28T04:00:33Z,0,thanks for another great video!  And a quick quesion.  Do you recall offhand the formula for the weighted gini impurity you mentioned?,True
+@LexPodgorny,2023-02-25T12:33:09Z,0,"Pretty good explanations, given you survive the deadly level of condescension. I almost switched to some indian dude explaining the same thing, but he exceeded my max limit of ""basically""s, and I switched back just to get the grasp of the subject. While at it, I realised what this statquest tone reminds me of. The Fun with Flags Show of Sheldon Cooper. But when he goes ""Question!"", it is definitely Dwight Schrute from The Office. The two of my favorite sitcoms characters!",True
+@mohamedgaal5340,2023-02-23T09:31:20Z,0,Is it possible some variables may not get selected because they make stumps with a high Gini Index?,True
+@TheTessatje123,2023-02-14T15:21:52Z,0,Great video! Do you know why the algorithm starts with the stump having the lowest gini-index? That would be the worst predictor.,True
+@georgemak328,2023-02-12T01:04:45Z,1,Great video. Congratulations.,True
+@mahammadodj,2023-01-25T19:57:26Z,0,Thank you so much! How total is error is calculated in AdaBoost Regressor?,True
+@colinwong3982,2023-01-24T16:32:50Z,0,"Hi. Thank you always for your exceptional tutorial. Just curious if it is a multiclass classification, would it be very different from this?",True
+@mehmetarabac6385,2023-01-23T12:06:15Z,0,I would appreciate if you help us about how to calculate weighted gini index and how we create next stump. Thanks for your works.,True
+@firesongs,2023-01-19T21:51:57Z,0,"1:06 are you sure about this? Seeing in alot of places that random forest is an emsemble method, which by definition combines many Weak Learners (stumps) to make 1 powerful model, as opposed to combining many Fully Grown Trees?",True
+@THAKURPIYUSH-cm8wn,2023-01-06T21:44:17Z,0,"Can someone explain how the predictor's weight comes out to be 1/2log[(1-error)/r] came ,in Geron's book it is nlog[(1-r)/r], please explain?",True
+@flybekvc,2023-01-05T23:54:26Z,0,"5:50 I don't understand what ""correctly"" classified means. Why ChestPain=Yes and HeartDesease=Yes makes it correctly classified?",True
+@tie6666,2023-01-02T22:43:57Z,1,bam doesn't sound good,True
+@SonuGupta-hk4tb,2022-12-23T21:20:35Z,0,"Hi JS! At 6:01, we run down the data through stump for the variable weight and condition weight > 176. The left arrow leads to 'yes' heart disease and right to 'no' heart disease.  Why did we do that? I recall from DT quest @11:00 that left simply means the condition (in the node) is true and right means false. That is these true and false are for conditions and not for the dependent variable, that is 'have a heart disease?'. But in this quest, we call left arrow leads to 'yes' heart disease and right to 'no' heart disease. Why is that? Am I making sense to you?",True
+@lorenaferreiramarani126,2022-12-23T04:03:16Z,1,OMG! I'm completely delighted with your with your didactics! Awesome! Your students are very privileged! Gosh! Regards from Brazil fan :D,True
+@rusho906,2022-12-22T00:11:01Z,0,"This is a great explanation. I'm coming here from your gradient boosting videos, and one of the best things about those videos in my opinion is the separate videos you did going through the theory. Maybe something like that could benefit this topic slightly as well. In particular, one thing that I was hoping you would go into is the details of how the re-weighting of samples can be done. In particular, if we never re-sample but rather just keep re-weighting, it works out quite nicely that the sum of weights for all mislabeled points would be 1/2 after reweighting. Same for all of the correctly predicted points, after reweighting, they all add up to 1. I thought, that made the implementation simpler, as opposed to the original ""multiply by exponential term, normalize everything"" approach. Professor Winston's lecture shows this quite nicely. https://www.youtube.com/watch?v=UHBmv7qCey4",True
+@ramzirebai3661,2022-12-12T17:20:14Z,0,"The amount of say for ""Bloacked Arteries"" is 0",True
+@DEVANSHGOEL-dq1wh,2022-12-09T13:20:01Z,2,"ur humour is amazing sir! BAM, do do do... 😂😂",True
+@johnjung-studywithme,2022-12-02T21:46:30Z,1,can someone explain at 12:50 why the amount of say is 0.97?,True
+@vedantkakde3273,2022-12-02T17:04:29Z,0,why we are calculating sample weight where we are using it .we are using only amount of say,True
+@georgebaker5038,2022-12-02T00:46:16Z,0,no more retard noises please,True
+@pawankerkar,2022-11-20T14:28:25Z,0,Can you suggest a reference for weighted gini indexes?,True
+@tsukikaze7322,2022-11-17T09:51:40Z,0,"Damn, this was so easy to understand. Really thank you very much!",True
+@tangomilano4503,2022-11-13T00:12:59Z,0,How to put AdaBoost into regression problem?,True
+@nikhilchalla6658,2022-11-09T22:22:47Z,0,"Hello Josh, Thank you for the amazing videos. I had a couple of questions on stumps that are created after Sample weights are updated at time 16:00. We continue with sampling from the full set assuming new weights. This means the new set will be a subset of the original dataset as you explained in 18:32 . Going forward all subsequent stumps will only work on smaller and smaller subsets, making it a bit confusing for me on how to ensure good randomness. 1. Do we also restart from the updated sample weights at 16:00 and redo sampling, thereby creating multiple different datasets but using the same sample weight values? This will probably ensure we use all the data from the original data set in some instances. 2. As a follow-up to Q1, do we perform multiple sampling at different levels to get more variations in the dataset before creating stumps? In the video, you described only one instance of sampling using new weights but I assume it needs to be performed multiple times to get variations in datasets. 3. Do we not sample from distribution at the very beginning also? All sample weights will have the same value but random sampling would mean some might not make it to the first round of ( stump creation + Amount of say + New sample weights ) itself to get unequal sample weights at 16:00. In the video you take all the samples by default hence the query.",True
+@yingyz7220,2022-11-08T18:24:48Z,1,Nice video. Love it,True
+@AakarshNair,2022-11-02T18:12:49Z,1,Please never stop making videos,True
+@shrinivas1086,2022-10-31T16:43:07Z,0,"From Majority of ""amount of say"", adaboost classification solved.   what about regression? what all different things need to do?",True
+@vaggelisntaloukas2016,2022-10-31T15:52:55Z,1,Thanks!,True
+@Havanese_Haz,2022-10-30T05:26:36Z,0,"9:22 why the result of  (1/2) log (7) is 0.97  is it 0.4225, no????",True
+@germinchan,2022-10-28T00:25:08Z,0,@6:16 how do you calculate the gini index?,True
+@roopeshroope2026,2022-10-27T07:55:59Z,0,@12:47 how did u got amount of say 0.97,True
+@ZinzinsIA,2022-10-26T07:02:27Z,0,"Great as always. A little thing I don't figure it out. Let's say we have 3 samples with weights 50, 40 and 10. Picking a random numbers, you have more chance to have it between 40 and 10 rather than between 50 and 40, as this last interval is smaller. Does it mean we pick more often the sample with the second biggest weight rather than the one with the biggest weight ? is it possible or am I missing something ? Thanks again !",True
+@bryanparis7779,2022-10-24T13:58:51Z,0,"Please let me know if using Adaboost we do have any ""learning rate"" (as used in gradient and XGboost) ? I suppose the ""amount of say  alpha"" is not the learning rate...?",True
+@scottzeta3067,2022-10-24T03:50:00Z,0,"When generating the new sample weight, what if there are two more sample incorrect?",True
+@mrcharm767,2022-10-19T03:31:55Z,1,u just cant imagine how great this way .. this could not be learnt better than this video,True
+@shrinivas1086,2022-10-16T10:59:01Z,0,"Hi Josh, i understood each point that you mentioned in this video. Thanks! but i a have doubt that , this loop i.e. sample weight, lowest gini selection, new weight, normalisation,new data set( created using randomly no. between 0 to 1) etc etc ...  when our model  will stop? means how & when it will stop the loop of creation of stumps?",True
+@jagdishchhabria1795,2022-10-14T12:44:18Z,0,"Hi Josh - I found your explanation a little confusing around the 5 minute mark from the start. You said something along the lines of ""Of the 5 observations with Chest Pain, 3 were correctly classified and 2 were incorrectly classified. And of the 3 observations without chest pain, 2 were correctly classified and one was not."" But isn't it the case that all the 8 observations have chest pain, and the Yes/No values in the first column are predictions about the patient had heart disease or not? That's the reason why you can judge whether they are correctly classified or not by comparing to the Actual values in the Heart Disease column. In short, I think the Yes/No values in column 1 pertain to predicted Heart Disease and not the presence/absence of Chest Pain. All 8 observations are for patients with Chest Pain, and not just 5 of them. I'd appreciate it if you can please clarify if I am thinking about this in the right way or did I make a mistake? Thank you, JC.",True
+@aakashyadav1589,2022-10-02T12:17:09Z,0,Do you have a video on adaboost regressor?,True
+@ArianaT5,2022-09-29T06:26:46Z,0,"Hi, Josh! Thank you for your video. I have a question, how do I know when to stop creating stumps?",True
+@rexlu7497,2022-09-10T17:58:42Z,0,"Hey Josh! Big fan here! Thanks for the content, it's super helpful! Quick question though, when creating the second dataset, we randomly select the records from the original dataset using the updated sample weight, wouldn't that results in some record in the original datasets to be dropped? If dropping more and more corrected predicted records and allowing duplicate misclassified records, after few more iterations, wouldn't the dataset be more monotonous and become more inaccurate? If that's the case, we're not able to put back those dropped correctly-classified records back right?",True
+@picowill,2022-09-05T18:00:15Z,0,"In response to Note 3 in your corrections, how exactly does this work? Is the dataset returned back to the previous dataset exactly (before the bootstrap one), or do the sample weights need adjusting?",True
+@fatihhaslak962,2022-08-22T11:58:32Z,1,AWSOME!,True
+@RameshKumar-yk4kl,2022-08-16T17:29:35Z,1,Thank you so much Josh... u filled josh in me  ..(josh means happy in hindi) love from Hyderabad.INDIA....❤,True
+@mohammadelghandour1614,2022-08-12T21:49:38Z,0,"in 19:26, the first stump whose amount of say  = 0.97 already classified that sample as ""not having heart disease"", How did it end up classifying the same sample as ""having heart disease""?",True
+@anishchhabra5313,2022-08-07T13:08:55Z,7,"This video is just beyond excellent. Crystal clear explanation, no one could not have done it better. Thank you, Josh.",True
+@gpietra,2022-08-01T17:14:32Z,0,Is the intro inspired to Nirvana?,True
+@beshosamir8978,2022-07-29T15:14:29Z,0,"I swear that is the greatest channel about machine learning and statistics , Great job josh  I just have a quick question :  what if we have stump that both children say (left children get 2 yes 0 no ) and (right children get 2 yes and 1 no) and that is the best we could come with so what should i do ? i saw a different video and i found that he classify left children as yes and right children with no and he say the first stump make 2 errors but how !!!!!!!!!!!!!!!!!! we say that the node vote for a majority so it should be both say yes ,and the right child  get 1 error so first stump made one error , right ?",True
+@trashantrathore4995,2022-07-28T13:55:52Z,0,"Hi Josh, how is the new data is created , i mean after getting updated weights as u said ""randomly select a number between 0 and 1"" so how do we actually choose that number, is their any criteria or just randomly any number between 0 and 1 as by that way the sample having more weightage will end up having more frequency in new data?",True
+@harrymao6870,2022-07-27T08:18:12Z,1,"Really good video. What is weighted Gini though? I know that gini impurity is mentioned in decision tree series, yet i cannot find the definition of weighted Gini. thx",True
+@sreerajsn123,2022-07-24T11:12:16Z,1,"Thanks for the video, I have a doubt.. from 5:43 to 5:57, how well Chest Pain classifies samples. ""Of the samples with Chest Pain, 3 were correctly classified as having Heart Disease and 2 were incorrectly classified"". How could we say correctly or incorrectly classified? It is clearly seen in our dataset that 3 persons do have and 2 don't have heart disease when they had chest pain. Explanation from 5:43 to 5:57 seems like telling If someone have Chest Pain, he should have Heart Disease as well. If don't have Heart Disease, your  classification is wrong ? How ? My dataset says those 2 don't have heart disease, how can it be labelled as incorrectly classified? Pls clarify",True
+@kendrick5994,2022-07-22T16:22:34Z,1,牛逼,True
+@broccolee4328,2022-07-15T19:31:12Z,0,Hello Josh! Are there any new developments/variants of adaboost optimized for multi-class classification? Or is one-for-all the only viable method so far?,True
+@perrygogas,2022-07-13T11:50:07Z,0,One question: where do we stop in creating new stumps?,True
+@Ankhelz,2022-07-11T21:29:14Z,1,"Isn't a problem creating a new empty dataset using the new sample weights as a distribution, since you can potentially loose data in each new stump (new dataset) created? I understand using weighted Gini shouldn't have this issue.",True
+@tanvirkaisar7245,2022-07-07T23:32:33Z,0,"Thanks for the great explanation! One question though, how long the stumps will be created? That is- what is the termination criteria for the training stage?",True
+@user-nf2br1mu6o,2022-07-06T19:25:55Z,0,"what if there is no majority, for having chest pain number of having heart disease and not having heart disease is same,how find incorect?",True
+@user-nf2br1mu6o,2022-07-06T18:15:54Z,0,what if there is another column like gender whose value does not depend on answer of heart disease then how decide correct or incorrect?,True
+@arjumandyarkhan5158,2022-06-27T17:03:07Z,0,Hello Sir. Can you please share the Pseudo code used behind this explanation. Thank You,True
+@lylashi1875,2022-06-27T15:56:29Z,1,"I have a question about building the forest of stumps (video time 5:57) - let's say for the chest pain, if in both leaves there is more heart disease than no heart disease, how should we decide the output of the leaves? Should we decide ""yes heart disease"" as correct in both of the leaves? or we randomly decide ""no heart disease"" as correct in one of the leaves?",True
+@sreerajsn123,2022-06-23T15:53:29Z,0,Thanks for the video....Is there any difference between gini impurity and gini index? You have used the term gini index in this video and gini impurity in 'Decision Trees and Classification trees video'.,True
+@dataviz1135,2022-06-23T04:25:07Z,0,"amount of say for Blocked Arteries would be zero, since there are 4 incorrect classifications out of 8 total classifications. log portion will become 1 and log of 1 is zero, hence zero",True
+@abhisekbehera9766,2022-06-13T14:17:33Z,1,Hi Josh Great tutorial on Adaboost... just one question: how to calculate total error and amount of say in-case of regression and how does the ensemble happen in this case,True
+@timlee7492,2022-06-12T19:41:12Z,0,Thanks Josh! Quick question . Does adaboot use every data at the beginning of the model?,True
+@vishalverma5837,2022-06-09T07:27:27Z,0,The amount of say formula could be explained a bit more as you did for the entropy video. Overall great video!,True
+@chethanjjj,2022-05-31T23:19:11Z,0,does anyone know how to calculate the weighted gini index @15:32? If anyone has a source for the formula that would be great. I assume the sample weights would have to be used in the leaves along with the node.,True
+@antoniocotarodriguez5732,2022-05-22T02:45:51Z,1,Thanks!,True
+@aarohislifestyle...6289,2022-05-20T13:41:50Z,0,sir how are u calculating log values in amount say formula...?for patient weight it is 0.42 or 0.97?,True
+@ericcartman106,2022-05-18T01:32:38Z,1,This guy's voice is so calming.,True
+@felixmuller9062,2022-05-16T18:55:59Z,0,Thank your for your incredibly good video! Does any one have any experience with the TrAdaBoost.R2 algorithm for regression transfer? I'd have some question wether there is an implementation with keras and tensorflow.,True
+@nak6608,2022-05-11T05:09:34Z,0,"Hey Josh, at 10:17 how does 1- (3/8) = 7/8 ?  Wouldn't 8/8 - 3/8 = 5/8 ? I'm probably missing something obvious.",True
+@jeffery_tang,2022-05-11T04:36:18Z,0,10:33 is the answer 0?,True
+@imranimmu4714,2022-05-10T16:43:14Z,1,thanks josh,True
+@tobyto4614,2022-05-08T20:00:28Z,0,"Great video! I also got a question regarding on the process of training process. For example, in the next iteration of training, the dataset would most likely consist of previously incorrectly predicted data (because they have higher weights to be drawn randomly). Would this make the model shifting to make better prediction on those data points, and become less accuracy in predicting those that were predicted correctly at the first place (in prior iterations)?",True
+@marcelocoip7275,2022-05-08T02:40:21Z,2,"Hi Josh, I'm very grateful with your videos, they really complement my ML python programing studies. I really really (double really bam) apreciatte that you take the time to answer our questions. I know that you receive a lot of compliments about your explanations aproach (It's spectacular) but this ""after-sales"" service (answering alllll the coments) is even more valuable to me. I'm building myself as a DS, and sometines I fell ""mentorless"", your answers are some kind of kindly warm push towards my objetive. I will gratefully buy a Triple Bam Mug (It's very cool!) with my first salary. Cheers from Argentina!",True
+@nicholasgonzalez990,2022-05-06T21:22:27Z,0,"Awesome video, understood everything very clearly. I'm using this as part of the series to eventually understand XGBoost. Quick question though, if we're to use the second method for making the second stump, does this mean that we simply won't be using the data points *not* selected to construct the new dataset for the rest of the algorithm? Wouldn't this reflect in some major bias for the later stumps created?",True
+@anupamadeo2455,2022-05-06T07:38:58Z,0,Hi again .I have a question how can predictions correct and incorrect be used to calculate gini index? The gini index should be calculated first to find which stump should be chosen. Build the  base stump get predictions and use them to calculate amount of say. I am a bit confused.,True
+@maharshitrivedi3749,2022-04-02T15:48:58Z,1,greatly simply explained and visualization is too good,True
+@frankrobert9199,2022-04-02T12:25:13Z,1,great lectures.  I subscribed your lectures immediately.,True
+@Amber-ws5hy,2022-04-02T10:54:04Z,0,"Hi Josh, thanks for the clear explanation! May I ask a question at 11:11? Why is that sample incorrectly classified, instead of the 4 samples(whose weight <=176 and have no HD)? Does that mean you have the hypothesis that ""when weight>176 then has HD, when weight<=176 then no HD?""",True
+@kaicheng9766,2022-03-28T22:11:49Z,1,"Hi Josh, great video as always!  Questions:  1. Given there are 3 attributes, and the reiterative process for picking 1 out of the 3 attributes EACH TIME, I assume an attribute could be reused for more than 1 stump? and if so, when we do stop reiterating?   2. Given the resampling is by random selections (based on the new weight of course), I would assume that means everytime we re-do AdaBoost we may get different forests of stumps?  3. Where can we find more info on using Weighted Gini Index? Will they yield same model? or it can be very different?  Thank you!",True
+@filosofiadetalhista,2022-03-22T12:53:30Z,1,"Very, very well explained.",True
+@homataha5626,2022-03-20T08:08:56Z,1,thank you for the video. are the code available?,True
+@huyentrangnguyen8917,2022-03-18T13:38:09Z,1,I am a beginner in ML and all of your videos help me a lot to understand these difficult things. I have nothing to say but thank you so so sooooooooo much.,True
+@hamidmajidi1584,2022-03-18T08:07:22Z,1,Great!!! Thank you!,True
+@hong5427,2022-03-16T07:46:42Z,0,"Hi josh, thanks for your video. I have one question, amount of say is the measurement of how well a stump did, but in decreasing new sample weight, why more amount of say would get less new sample weight and how to justify doing that is right.",True
+@ANANDKUMAR-sd3is,2022-03-13T08:16:22Z,0,"Hi Josh. Thank You very much for this. I had a small doubt. Suppose we have a bad stump whose say is negative. While updating sample weights, we will decrease weights of incorrectly classified samples. This in turn will make the say even more negative, i think.  So my question was why don't we increase the weights of misclassified samples for bad classifiers also so that my stump goes from a bad classifier to a good classifier?",True
+@ghofranezouaoui4269,2022-03-10T10:02:48Z,0,"Thank you very much for this video!! I have a question : at 19:13,  How does a stump finally classify a patient as ""Has heart disease"" or ""Does not have a heart disease"" . I thought it depends on the value of the feature in the root node ...",True
+@dwaipayansaha4443,2022-03-09T12:42:06Z,1,"Hi Josh Starmer , A huge BAM for this video. The best explanation I have ever seen for Adaboost. Keep helping people.",True
+@aadisharma3514,2022-03-07T17:18:08Z,0,"Sir, how we calculate target variable value using adaboost regressor?",True
+@souravpal6406,2022-03-05T05:40:38Z,1,Thank you for the video.,True
+@rameshbabu2228,2022-03-04T13:33:47Z,1,"Big Love, awesome sir. you are one of guru",True
+@siddhantjain452,2022-02-27T09:28:17Z,0,Change your introduction style it is boring,True
+@cookie6299,2022-02-20T06:43:26Z,0,20220220 this one is tough i need to watch this video several times :),True
+@Abhi-qi6wm,2022-02-19T10:08:43Z,1,Loved the opening song at the beginning. Listening to it at 1.5x speed gave Arabian feels. BAM!,True
+@zexuanyang4694,2022-02-16T06:52:32Z,1,Thank you bro! You make them clear!,True
+@sharveshsubhash3955,2022-02-15T17:37:40Z,1,"Come on people, This guy needs to be protected, get a Million subscribers for him !",True
+@ayenewyihune,2022-02-15T05:25:09Z,1,I will recommend this channel for as many as I can,True
+@DarkNinja-24,2022-02-14T22:10:38Z,2,Quadruple bam to your clear video!!!!,True
+@alvinrachmat9328,2022-02-13T15:27:41Z,0,"Nice explanation. I have a question, 1) we always create a new stump, then when to stop creating a new stump? 2) what condition does not it a stump, but a mini tree with internal node?",True
+@gauravjee4247,2022-02-12T07:49:42Z,1,Bam!!!,True
+@AbhinavSingh-oq7dk,2022-02-11T14:56:23Z,0,"In the 2nd last part/chapter of the video, ie 'Using stumps to make classification', you explained that the classification prediction is done by summing up 'amount of say' for both outcomes in binary classification and whichever is greater is the classification.   Can you explain AdaBoost in the case of regression, where the target value is continuous? How would the results be interpreted in continuous target variable?  Thanks.",True
+@yabgdouglas6032,2022-02-07T23:26:40Z,1,these are seriously SO good - thank you so much for all the help :),True
+@oliveiralgm,2022-02-07T21:07:52Z,0,How do you determine how many stumps you should create?,True
+@Lucifri,2022-02-04T14:48:25Z,0,"So the logic is that samples which are correctly classified will have less weight and more amount of say in the end, correct?  What I don't understand is: If a sample which classifies the variable wrongly gets more weight and is used more often than not to create the next stump, won't that lead to a problem? We're filtering the data to pick the incorrect samples?",True
+@nashaeshire6534,2022-02-03T08:26:03Z,0,"Thanks a lot,  I didn't understand my UCSD lecture but, thanks to you (and your team mate), It's now super clear! I've bought AdaBoost and Classification tree study guide, great help! 1/ Could you consider making a study guide about the 4 gradient boost videos? 2/ Did you ever think writing a book with your team?   Have a great day.",True
+@Isa47938,2022-02-02T21:43:03Z,0,I have a quick question- why we still kept Weights in determining which one would the second stump? I thought it should be excluded from the remaining stump pool once it's used for classification.,True
+@miaomiaoxu8500,2022-02-01T08:27:06Z,0,How do you calculate Gini Index?,True
+@rakeshk6799,2022-02-01T06:47:19Z,0,"at 5:43, based on what do we decide that Chest_pain = Yes implies Heart_disease = Yes. In this case it is intuitive, but when coding this how to decide if Chest_pain=Yes/No should mean Heart_disease=Yes?",True
+@roeiamos4491,2022-01-30T19:36:09Z,3,"The explanation is brilliant, thank so much for keeping things so simple",True
+@thepresistence5935,2022-01-24T05:24:50Z,1,"Understood clearly, it took 2 hours to complete this, but now i know start to finish",True
+@nivednambiar6845,2022-01-22T15:21:38Z,1,Awesome explanation for adaboost,True
+@user-jw8fl4ru9i,2022-01-19T12:27:41Z,1,I am in love with this channel. I think the main reason is the Josh explanation style :D,True
+@guyelovici4940,2022-01-11T23:11:11Z,1,שמע אתה....,True
+@ofekpearl,2022-01-04T00:16:07Z,1,You're a wonderful person.,True
+@anelm.5127,2022-01-03T13:02:29Z,2,"One thing I am not really sure about is weather when creating stump 3, stump 1 and 2 should be considered or just stump 2. I watched a video on Boosting where they mentioned that the previous stumps are combined in order to create the new one. The combined wrong classifications are then used to sample the new set which is used to create the new stump.  Could someone please clearify",True
+@RaviShankar-jm1qw,2022-01-01T16:53:01Z,0,"Awesome work as usual Josh..one correction..I think at 10:20 , it should be 1/2 log 5/3 ..",True
+@matiasC107,2021-12-19T18:54:30Z,0,"Thanks a lot for the video, you've explain very good! I have a question, what's the index gini formula? I've used sum of p * (1-p) but I don't took the same results",True
+@ahmedrejeb8575,2021-12-16T09:45:31Z,1,I'll make a special dedication to this man on the day of my graduation.,True
+@jiangyuanliu7968,2021-12-16T04:36:34Z,0,"Awesome video! I am wondering how many stumps should be generated. Does it depend on the number of predictors in my dataset? Or we can choose the best one with cross-validation. Also, is it possible that the same predictor will be used multiple times in different stumps even with different input sample weights?",True
+@wilsvenleong96,2021-12-15T08:13:14Z,0,I believe the Gini index for the weight feature was wrongly calculated. It shouldn't be 0.2. Can someone please confirm? I got a Gini index of 0 for the left leaf node and 0.32 for the right leaf node.,True
+@MayMay-dz4yb,2021-12-11T03:21:13Z,1,This is very helpful to me,True
+@MayMay-dz4yb,2021-12-11T03:21:00Z,1,"This is very enjoying and yet understandable to watch, best adaboost explanation, I've watch almost all the video here",True
+@lisun7158,2021-12-07T19:06:04Z,6,"AdaBoost: Forest of Stumps 1:30 stump: a tree just with 1 node and 2 leaves. 3:30 AdaBoot: Forest of Stumps;                            Different stumps have different weight/say/voice;                            Each stump takes previous stumps' mistakes into account. (AdaBoot, short for Adaptive Boosting) 6:40 7:00 Total Error: sum of (all sample weights (that associated with incorrectly classified samples))          7:15 Total Error ∈ [0,1]  since all sample weights of the train data are added to 1.                 (0 means perfect stump; 1 means horrible stump)    --[class notes]",True
+@joshsolders5543,2021-12-02T17:02:13Z,0,"The explanation is clear and easy to follow, but the ""BAMS"" and overly monotone voice make it a bit obnoxious and at times sound like you are annoyed with the viewer for not understanding the topic.  The explanation is good, but the presentation could use work.",True
+@user-xw9cp3fo2n,2021-11-27T06:41:22Z,0,"Thanks for your amazing explanation but I have 2 questions: first: If I have 2000 features, the n_estimator will be 2000 also? or how to determine the number of them? Second: If I have a big dataset as 100000 samples, is adaboost works well with it? Thanks again 😀",True
+@prethasur7376,2021-11-24T06:37:54Z,4,Your tutorials are simply awesome Josh! You are a great help!,True
+@beatriceng23,2021-11-23T16:46:54Z,0,"Question sorry Josh. @5:47, why do we say Yes Chest Pain (left node) is correct if it is Yes Heart disease and incorrect if it is No Heart disease? same for No Chest Pain (right node) is correct if it is No Heart disease and incorrect if it is Yes Heart disease?",True
+@vijaykumarlokhande1607,2021-11-22T07:27:56Z,1,take a bow sir,True
+@dilara7374,2021-11-20T12:34:24Z,0,"Hi, we are in the process of making a project about AdaBoost and would have some questions about the video above.   1. what information do you use to divide the stumps into ""has a heart defect"" and ""does not have a heart defect"" categories at the end?  2. how many times do you run the steps from the beginning to get a result at the end, since you only look at 6 Amount of Say values at the end ?",True
+@asenakrk2236,2021-11-16T11:55:44Z,1,"great videos, thanks a lot. I am almost laughing at the bam soundtracks all the time while watching the videos. Great visualizations!",True
+@graceqin5024,2021-11-12T01:59:28Z,0,"First of all, I love your videos! I think there is another minor mistake when calculating the amount of say fo Weight: 1/2*log(7) = 0.422549. not 0.97. I think.",True
+@manaskrthk,2021-11-11T16:25:41Z,0,"How are you classifying correct and incorrect in the fourth segment? It is possible for someone to have chest pain, but not a heart disease right?",True
+@user-xw9cp3fo2n,2021-11-11T11:59:17Z,1,"Thanks, Josh, your explanation is amazing. Greetings from Egypt",True
+@quant-trader-010,2021-11-04T14:54:01Z,2,"Man, you are too good at explaining things!",True
+@cenyingyang1611,2021-11-04T12:55:37Z,0,"Starting 11:57, why does amunt of say always a positive value? It could be negative as well based on the formula, right? Then if we have a negative amount of say, then the formula for the new weight for incorrectly classified samples will actually decrease instead of increase, is this what it is supposed to be?",True
+@cslewisster,2021-11-04T00:14:05Z,1,I should have checked here instead of everywhere else. Josh sings a song and explains things so clearly. Love the channel. Thanks again!,True
+@kimes2329,2021-11-03T01:09:11Z,0,Me getting better at ML <<<<<<< Josh's intro song guitar skills,True
+@rafiadyatma620,2021-11-02T09:49:12Z,0,"hey Josh, how can we classify ""Not heart disease"" from unseen data ? Do you just add absolute value from all negative amount of say ?",True
+@abeaumont10,2021-10-30T17:18:59Z,0,"I recently bought you Adaboost study guide, and it's amazing! Would be great to have the gradient boosting and xgboost study guides!!!!",True
+@sudharshantr8757,2021-10-27T03:19:13Z,0,"How do we decide the number of stumps needed? Does the number of stumps increase variance? Also are we using weak learners so that no learner gets a normalized ""say"" > 0.5 ?",True
+@dhirendrasingh5409,2021-10-25T11:37:11Z,0,Thanks for the excellent content. One Question. How do we decide the number of stumps we should create?,True
+@pranavjain9799,2021-10-20T15:31:32Z,1,Thank you sir. This helped so much.,True
+@iftrejom,2021-10-17T17:50:57Z,125,"Josh, this is just awesome. The simple and yet effective ways you explain otherwise complicated Machine Learning topics is outstanding. You are a talented educator and such a bless for the entire ML / Data Science / Statistics learners all around the world.",True
+@nkauvmeaern10121989,2021-10-01T14:53:21Z,1,Very nicely explained. I have never seen such a good explanation. Love U ♥♥♥,True
+@bygrgra,2021-09-30T14:50:34Z,0,"Hey man, great entertaining tutorial and super easy to understand.  I'm wondering why the standard approach is to bootstrap a new sample based on the old weights rather than use the weighted gini / weighted total error.  The bootstrapping will surely add more computational cost than the weighted gini/total error/amount_of_say calculation.  So if that's the norm for adaboost, then how come?  Cheers!",True
+@sawankumar9715,2021-09-16T16:44:58Z,0,Your calculation of gini index is wrong at time 06:18 in the video.,True
+@PrzemyslawDolata,2021-09-15T15:14:08Z,1,"Nice, clear video, but thanks youtube for x1.25 speed.",True
+@kamranabbasi6757,2021-09-09T09:58:28Z,1,"Best video of Ada Boost on the YouTube, watched it two times to understand it fully. It's such a beautiful explanation...",True
+@abrahamgk9707,2021-09-08T16:37:55Z,0,"Hai Josh, I am really enjoying your videos. If you could help me answer my one question, I would be very grateful. In the new data set that you  have created, it seems like the probability of appearing the wrongly classified sample is more. But how picking a random number between 0 and 1 helps us put the wrongly classified sample in the new dataset more number of times?",True
+@codeinair627,2021-09-07T14:09:22Z,30,"Everyday is a new stump in our life. We should give more weightage to our weakness and work on it. Eventually, we will become strong like Ada Boost. Thanks Josh!",True
+@bextuychiyev7435,2021-09-04T12:11:18Z,1,This is your best silly song ever!,True
+@haneulkim4902,2021-09-02T06:15:58Z,0,"Thanks Josh! I have 3 questions:  1. @3:43 you say weak learners are ""almost always stumps"" is there a case where it is not a stump?  1.a. also what is adavtage of using stump over bigger trees? 2. Does boosting algorithm only use decision trees?",True
+@butchdavis2062,2021-08-25T23:26:35Z,1,"Listening to this intro I can 100% guarantee that Josh is a 90's grunge/punk fan. Major Nirvana, Babes In Toyland, L7 vibes there",True
+@surbhijain7205,2021-08-16T17:39:18Z,0,"Hey Josh, a big thanks for your videos. I have one question - why you said them as correctly and incorrectly classified sample in adaboost whereas you said them as yes and no in decision tree and you can do the same thing  in adaboost. I am unable to get why are you classifying them into incorrect, I think they are not incorrect. Please let me know if I am missing something major in it.",True
+@sandeepganage9717,2021-08-15T11:04:54Z,1,"""Ohh NOOO!! Gratitude alert! "" -> ""Thanks a lot for your videos. They are just awesome.!""",True
+@Devarajan1986,2021-08-12T19:31:51Z,0,"Really great video......I am learning more and more and concepts are becoming clear. I have a doubt, If we n_estimator = 100 then each will have different amount of say. In that case, how does it do voting to classify.",True
+@taijenseng,2021-08-09T09:01:14Z,0,gini function ???,True
+@noahrubin375,2021-08-07T07:17:41Z,1,You're my hero Josh!!,True
+@ramzykaram296,2021-08-03T12:02:33Z,0,Is this the best song ever ? you should have saved Evanescence,True
+@amalnasir9940,2021-08-02T19:52:13Z,1,No wonder why AdaBoost takes looong time to run! Thank you for the nice explanation as always!,True
+@drccccccccc,2021-08-02T16:58:59Z,1,fantastic ！！！,True
+@wongkitlongmarcus9310,2021-07-19T04:11:19Z,1,the most underrated channel,True
+@shubhamtalks9718,2021-07-17T18:59:01Z,1,You are amazing.,True
+@bonflaneur3194,2021-07-08T19:07:01Z,0,"There is something I didn't understand very clearly. When we create a new random dataset, which reflects the previous sample weights we may end up not picking some rows. This need dataset will then be the basis to weight the next stumps. Does this mean that rows that are not randomly picked for the next dataset will never be considered again for the subsequent datasets and stumps? If this is the case, then how is this a good thing for prediction?",True
+@ansonnn_,2021-07-06T17:49:22Z,0,15:30 How do you calculate the Weighted Gini Index if we don't want to use the bootstrapping method?,True
+@chrislau6050,2021-07-06T07:43:04Z,1,Thank you. :),True
+@TheCrashToaster,2021-06-29T22:08:09Z,1,_beeduupieedubieedubie_ I love this man lmao,True
+@DevendraYadav-sf6ry,2021-06-28T20:57:12Z,0,"the explanation is superb as usual. But, can someone say that at the end do we have number of stumps = number of features or stumps from each iteration is considered.",True
+@maziyarkhansari2024,2021-06-25T08:51:14Z,0,"Thank you very much for the great videos!!! Can you please explain how Amount-To-Say is computed for Adaboost regression? Also, Adaboost implementation in Sklearn has learning rate parameter while there was not learning rate in your explanations (instead we have amount to say). Can you please explain what is the difference between amount to say and learning rate?",True
+@eddiethinhvuong1607,2021-06-25T06:46:48Z,1,Your channel is the best one about Stats I found so far,True
+@johndoex94,2021-06-21T16:12:50Z,1,Your videos are consistenly great. An absolute godsend,True
+@abd_alkader,2021-06-20T18:50:47Z,0,good explanation .... but ... why Log Function ?????????????????????,True
+@kangtaw,2021-06-20T08:32:24Z,1,Hail Mr. Super BAM. I learn a lot from your videos 🙌,True
+@shramithsrinivas,2021-06-16T16:07:13Z,0,"After finding the first stump we go back to the beginning and find the new stump on new collection of samples. While selecting new variable for second stump should we ignore the column we used for the first stump because I think if it was a binary variable then we will be getting a same stump as the first one, right?",True
+@seahseowpeh8278,2021-06-16T11:20:11Z,1,Excellent lesson,True
+@arshad1623,2021-06-12T05:15:26Z,1,'Bam' and that weird calculation tone made me stick to the video until the end.,True
+@joylinzefforaa8910,2021-06-09T18:45:48Z,0,"Hi Josh, Is the first stump for patient weight correct? I don't understand the right leaf of the patient weight stump.",True
+@baomiTV,2021-06-08T18:22:40Z,0,"In short, use square root of 1-e/e as the new weight of incorrect sample and reciprocal of square root of 1-e/e as the new weight of correct sample. Then normalize the weight.",True
+@notmimul,2021-06-07T03:01:29Z,2,BAM!!,True
+@doyelmukherjee2769,2021-06-05T12:28:17Z,0,Thanks for this clear explained video on ada boost..i have one question..if we use weighted gini index for second stump then how it is calculated? Could you please give the formula? I have already watched your decision tree video but not sure where or how to add the sample weight for gini calculation??,True
+@xixi1796,2021-06-02T18:39:56Z,1,"Can the two leaves of a stump make same prediction? Take the following for example: if *Chest Pain* is True:     number of Yes Heart Disease: 10, number of No Heart Disease: 8 if *Chest Pain* is False:     number of Yes Heart Disease: 12, number of No Heart Disease: 9  The prediction of either leaf is Yes for heart disease, according to the majority in dataset. How do we deal with such stump? Do we get rid of it?",True
+@rishabhgarg3365,2021-05-26T06:13:25Z,0,"1. When the amt of say is -ve. Then for the next stump, we weigh more for correct samples and less for incorrect samples? If so, I'm not able to intuitively think why we would want to focus on correctly classified samples from a bad stump! 2. If some samples are not boosted to the next stump then does it mean they will not get used ever in the subsequent stumps?",True
+@abhishek-shrm,2021-05-21T17:03:40Z,1,I wish my computer made the same sound as you during the calculation.,True
+@nikhilgupta4859,2021-05-18T14:49:28Z,0,is this algorithm only for classification?,True
+@shivanshjayara6372,2021-05-12T13:00:28Z,0,@5:36 how can we say sir that the person having chest pain is sure having disease? Here u r just taking YES-YES as CORRECT and YES-NO as incorrect.....opposite of that can also be true sir.  And why that leaf is consider to be 'HAVING HEART DISEASE' and 'NOT HAVING DISEASE'  It may be possible that a person who have chest pain do not have heart disease so why we are considering here that if chest pain is YES then Diseae is also YES?,True
+@shivanshjayara6372,2021-05-11T16:01:52Z,0,@20:27 Using weighted ginni with sample weights means.....we can take that as a feature and we find the ginni based on that like we did for patient weight feature?,True
+@shivanshjayara6372,2021-05-11T15:51:04Z,0,@19:20 'does not classified' means incorrectly classified or correctly classified that they were not having disease so it couldn't classified? There is a difference in two.  There may be a chance that a stump has few correct prediction and few incorrect prediction ...that's y I'm asking,True
+@shivanshjayara6372,2021-05-11T15:23:48Z,0,@12:10 i dnt get this point....'the last stump did a good job' which stump u r talking about ....i think patient weight na?  and scaling the initial weight by large number means...? Im confused sir plz help me out,True
+@shivanshjayara6372,2021-05-11T15:07:43Z,0,Sir what does 'say' means here?,True
+@youssefcharradi2363,2021-05-10T03:54:48Z,1,Excellent video,True
+@rahul-qo3fi,2021-04-29T06:10:56Z,1,ur songs remind me of Phoebe!,True
+@bradyprice3230,2021-04-27T20:46:37Z,0,"When you are trying to do make the third dataset, are you going to be using only the samples from the second dataset? If that is true, then won't you lose some data points that will never be in the datasets again?",True
+@bansikhubchandani9743,2021-04-27T15:48:21Z,0,Great Video! just found the BAMS!!! irritating and would have been a perfect video if you explained what Gini Index was. The calculation sound was great though !,True
+@lightnblack1934,2021-04-22T22:49:59Z,1,Your results are correct but your formulations are ALL WRONG !!! All of the log s must be replaced with ln.,True
+@dongcaohuu2585,2021-04-17T04:08:40Z,0,Can I ask what will be good small error term to add to avoid having a total error of 0 or 1?,True
+@zimdogmail,2021-04-14T07:41:51Z,2,"Hey Josh great video and I appreciate how active you are in the comments. I have a few questions that came to me when watching the video and reading some of the comments and trying to implement this myself that I couldn't find the answer in the video or in the stat quest for this video I purchased:   1: Regarding your note 3 in the pinned comment: if we put the observations back in the dataset to be selected for other stumps, what weight is to be associated with the samples (both included and not included in the 'new dataset')?       - And if we are using the original dataset for future stumps, (as far as I understand by your note, but maybe I am incorrect as you say ""get rid of the original"" at 18:08) what is the point of making new weights all initialized at 1/total for this new dataset if this dataset is not used for these future stumps?  2: What are we to do if there are more options than just ""yes"" and ""no"" for a variable, say for example we added ""sometimes"" for chest pain, what would be the stump(s) created for this variable like at 5:30? Would it be CHEST PAIN that has branches to yes, no, and sometimes? Could you give an example of making a stump(s) for this variable with 3 different options?  3: How possible is it for you to make a part 2 that includes a variable with more than 2 options and the third iteration of making stumps haha? I think this would help so we can see how this new dataset's weights effects our original dataset and shows an example of your note 3 of picking out of the original dataset a second time.  Again great videos and thanks",True
+@Seltyk,2021-04-11T23:36:57Z,0,"I'm torn on this video. On one hand you effectively explain almost all the ideas, but on the other hand your monotone voice is really boring. Question I'm left with is: why would we weigh the wrong samples higher? Wouldn't it make more sense to give more credence to the samples that were correct?",True
+@ksjksjgg,2021-03-29T10:13:17Z,1,Great thanks for your great work.,True
+@chinmayajnadkar2952,2021-03-28T10:48:55Z,0,"@ 05:36 For 'Yes Heart Disease' why 3 is correct and 2 is incorrect. i.e. how did we decide that people with Chest Pain should have heart disease (Pretty logical, but how did we conclude that mathematically)? It could be other way round and error would be 5/8 instead of 3/8.",True
+@trapqueenmusic,2021-03-27T08:29:04Z,0,"everyone asked at 19:30, how can the stumps have heart disease and the sorting stumps with heart disease? I do not fully understand, in the Amout of say = 0.97, why is that tree classified as suffering from heart disease, and what kind of tree is not suffering from heart disease?",True
+@keikuso8675,2021-03-23T15:25:00Z,0,"7:48 Shouldn't it be ""ln"" instead of ""log""?",True
+@prasanth123cet,2021-03-22T15:57:14Z,0,Is the tree built on each of the attribute in second round.i mean based on weight we decided sample distribution in second round. Will this be done for chest pain as well. Are all these trees used finally for prediction?,True
+@prasanth123cet,2021-03-22T10:07:12Z,0,How to decide on the number of stumps to be generated?,True
+@shahsahil9533,2021-03-22T07:11:56Z,0,Question: How AdaBoost will make a prediction in the regression problem. Suppose we have 5 stumps and each stump will have some amount of say and some average prediction then how these five values combine according to the amount of say and create one prediction?,True
+@karannchew2534,2021-03-20T13:15:26Z,0,"For my future reference.  11:36: If prediction for a sample was wrong, then increase its weight for future correction.  If Amount Of Say is high (the tree is good), increase the weight more.  Wrong - > Increase weight. Better Tree -> more amount of say -> adjust weight more",True
+@tianhuicao3297,2021-03-18T05:04:11Z,0,"Hey Josh!! This is awesome : ) I'm just wondering what is the cutoff point for AdaBoost, are we going to keep adjusting weights?",True
+@karannchew2534,2021-03-17T20:43:41Z,0,"Is there target number of stump to create? Of not, when do we stop creating the next strump?",True
+@karannchew2534,2021-03-17T20:34:50Z,1,"Why is it called ""Adaptive"" ""Boost"" please?",True
+@tymothylim6550,2021-03-16T13:15:40Z,1,Thank you very much for this video! It was a difficult topic but the step-by-step process helped me familiarize with the topic! Very helpful going through of examples!,True
+@beckswu7355,2021-03-09T17:06:55Z,0,"is the amount of Say at 19:28 calculated from all training samples?  From my understanding, to calculate Amount of Say, it need total error. So we cannot calculate Amount of Say without true label.",True
+@miteshmohite7829,2021-03-01T08:35:09Z,2,BAMM!!!,True
+@human6766,2021-02-28T18:28:28Z,0,10:17 amount of say you plug 1/8 instead of 3/8. Btw I do love your videos. keep the good work up.,True
+@kevinelfri8460,2021-02-28T13:42:21Z,1,"when the weak learner comes here, josh will boost them up to be STRONG LEARNER",True
+@rajarams3722,2021-02-26T10:18:23Z,0,Error in Gini index calculation at 6:19 ? Gini index for Weight > 176 should be 0.8 and it is selected because it is the highest..right ?,True
+@cherisykonstanz2807,2021-02-25T16:08:09Z,1,"""Hey guys, I'm pretty sure he doesn't have heart disease"".  ""Ok, thanks for your insight. We'll go with 'yes' - he has heart disease then.""",True
+@Findingsunshiness,2021-02-23T17:08:00Z,0,Adaboost got regression not just classification.,True
+@catherinehiggins4526,2021-02-21T18:30:34Z,0,"Hi, if you were to use ID3 instead of random forest would you pick the split not based on the Gain Vs the Gini index ?",True
+@dandanzhang2891,2021-02-19T10:37:34Z,0,"Thank you for your great work! It's very clear to me about AdaBoost after watching this video. But I have a question about how to select the threshold for each stump.  For example, for the weight of the patient, you chose 176 as the threshold. Could you help me figure out this problem?",True
+@ShifraIsaacs,2021-02-16T18:04:06Z,1,Thank you so much for saving me,True
+@mahesh1234m,2021-02-16T11:32:54Z,0,Great Explanation Josh. Can you Please explain the AdaBoost Prediction for Regression problem too?,True
+@ariesdips123,2021-02-16T06:36:08Z,0,Till when we keep doing these steps? How do we know when to stop?,True
+@ConsciousCreationLab,2021-02-15T18:20:37Z,0,Another amazing video! Do you possibly have a video on ensembling methods?,True
+@nabeelhasan6593,2021-02-12T04:45:07Z,1,"Hi I would like to thank you again for this amazing tutorial on AdaBoost, I am slightly confused 19:07 How to use stumps for the process of classification ? According to my understanding  we are selecting the classification tree that have higher sum of Amount of say (2.7) and discarding the other tree which have lower sum of Amount of Say (1.23). Did i get it right, correct me if i am wrong.",True
+@catherinehiggins4526,2021-02-11T23:08:10Z,0,I thought adaboost had to pick the worst stump first and not the best .,True
+@daniloyukihara2143,2021-02-10T00:43:49Z,1,thumbs up for the computer sounds hahahahah,True
+@3000oleg,2021-02-06T20:01:31Z,0,"Hey, could you pls tell what is the name of this guitar theme in the intro? It sounds really familiar but I couldn't recall the name, and I couldn't stop listening to it as well",True
+@SamoyedShark,2021-02-02T21:26:30Z,1,Thanks for the super good explanation!!!!! Thank you Mr. Starmer!,True
+@jiayiwu4101,2021-02-02T16:35:34Z,0,May I ask what is the difference between boosting and Adaboost? Are they referring to the same things? I failed to find that explained online. Thank you!,True
+@consistentthoughts826,2021-02-02T08:11:08Z,0,"Hi Josh,  Is the first stump which we had taken at 6:32 is random and weight>176",True
+@emamulmursalin9181,2021-02-01T00:08:52Z,0,"@ 19:25 i did not understand that, does adaboost also create a forest of  stumps (just like trees in random forest)? Otherwise how a new data can be classifed by using two different sets of stumps? And even multiple set of stumps are in a forest exists, the set of the stumps should be almost similar as the base root are always created by calculating GINI index. Can you please explain?",True
+@sanjeevkmr5749,2021-01-29T14:57:31Z,0,Thank you so much Josh !!!. You nailed it. Can you please explain how ADABOOST works for REGRESSION problems?,True
+@feeelgoood9580,2021-01-28T17:12:43Z,1,awesome,True
+@huebothedog665,2021-01-27T20:32:54Z,1,"The patient has heart disease.  TRIPLE BAM!!!!!!!!!!!!!!1",True
+@srinivaskedari8626,2021-01-27T14:07:42Z,0,"When it comes to regression, how does the amount of say will be used in the final prediction?",True
+@abhisheksuryavanshi9675,2021-01-27T06:35:13Z,1,Man you should publish a ML book!,True
+@abylayamanbayev8403,2021-01-24T16:16:07Z,0,What dataset we use for creation dataset for 3-rd stump and etc? Initial dataset or the one we used for 2-nd stump?,True
+@g3rzin,2021-01-24T10:45:43Z,1,Very clear,True
+@jiayiwu4101,2021-01-22T16:17:56Z,0,"I have some confusion about the new weights calculation. 11:59 When the stump does a terrible job, the total error will be close to 1 and the amount of say will be large negative values. Then e^amountofsay will be between 0 and 1. It should be the left side of this e^x plot, not the right side. Then the new weight is not increased, it decreases......Your statement is right when stump does a great job. When the stump does a great job, the total error will be close to 0 and the amount of say will be large positive values. The e^-amountofsay will be between 0 and 1, meaning reduce weight for correct samples.",True
+@TheMampferotti,2021-01-21T08:49:35Z,1,I'm almost disappointed that there was not a  single Forrest Gump/Stump joke :D,True
+@filipespcarneiro,2021-01-20T14:30:18Z,0,This is great!! I learn so much more from videos than from texts and your videos are amazing! Thanks for the generosity of making them \o/  Question: I've simplified the sample weight formula and concluded that we could just multiply the incorrectly classified samples' weights by: ((1-error)/error) and then normalize the weights. Is this correct?,True
+@bibiworm,2021-01-13T22:27:48Z,1,"May I ask a couple of questions please? Hopefully, you can help shed some light. 1. What is the threshold for a prediction flip? Do we flip as long as total error rate is larger than 0.5, i.e., amount of say is negative? Or we only flip if total error rate is larger than 0.6 or 0.7? Or it is a hyper-parameter to be tuned?  2. Can we say that weighted Gini index and sample weights update achieve the same goal but through different mechanisms? Recall that in order to mitigate class imbalance, we could either apply class weights or sample weights. I see the resemblance here.   Thank you!",True
+@rakshiths3220,2021-01-10T14:52:35Z,0,will the stump built in k th stage take into account the errors made by all of the previous stumps or only the error made by (k-1)th stump??  for example will the stump made at 3rd stage take into account errors made by stumps at 2nd and 1st stage or only the 2nd stage? Pls reply,True
+@daesoolee1083,2021-01-06T02:03:14Z,1,"Wow, you explained the concept of bootstrapping so easily without even mentioning it! Impressive!",True
+@nicolasavendano9459,2021-01-05T19:46:59Z,8,"I can't believe how useful your channel has been these days man! I literally search up anything ML related in youtube and there's your great video explaining! The intro songs and BAMS make everything so much clearer dude, the only bad thing I could say about these videos is that they lack a conclusion song lol",True
+@justcplusplus2552,2021-01-05T01:15:28Z,0,"Do you use the same amount of features each step or do you not use the same feature twice? If not, when do you stop creating stumps or is there some indicator when to stop creating stumps an finished your forest of stump? Quite nice explanation tho!",True
+@jackyhuang6034,2021-01-02T13:10:28Z,0,What about AdaBoost regressor?,True
+@devmani100,2020-12-31T15:31:48Z,0,"Great Video Josh, Concept clearly explained but there is a miscalculation at 10:18. Amount of Say should be 0.5*log(5/3)",True
+@jaychiang4440,2020-12-28T16:06:53Z,1,Pretty intuitive for me after reading over complex computation of Adaboost!,True
+@naveen_thomas_,2020-12-23T14:56:27Z,0,"Sir, this video is about AdaBoost on classification problem. Can u please make video of AdaBoost on regression problem?",True
+@helene6742,2020-12-20T14:29:51Z,0,"Can you initialize with non-uniform weights (f.e. give one entire class an initial higher weighting, or certain observations higher weighting) and what would the effect be?",True
+@birukabereambaw3425,2020-12-17T09:39:44Z,1,"Dude , you are brilliant brilliant brilliant , how did you come with this kind of teaching style , Clearly Explained !!",True
+@badgamester,2020-12-16T21:12:40Z,0,"Hi, Can someone explain what will happen when the ""Amount of Say"" is negative?",True
+@elrishiilustrado9592,2020-12-14T21:34:17Z,0,Thanks for the video! how did you get the gini index for the 3 variables? i just got a formula that says  (with proportion of being wrongly  clasified <- pmk) : pmk * (1 - pmk). But get differents numbers than you. Thank you a lot !,True
+@sameershah141,2020-12-14T09:08:55Z,2,Amazingly explained. (y) (y),True
+@ADESHKUMAR-yz2el,2020-12-12T14:31:18Z,1,adaSmooooth,True
+@davidkaftan5563,2020-12-09T16:29:02Z,0,"Man, you are really good at explaining these things.",True
+@user-co4ud4bz7s,2020-12-08T13:54:11Z,0,"Thank you sir. I wonder which stump should be the 'first' one that influence others, the one with the largest amount of say?",True
+@vynguyen9683,2020-12-08T11:20:18Z,0,I wonder why the weight < 176. Who is help me explain for it? . Thank you so much,True
+@SAINIVEDH,2020-12-05T16:39:58Z,1,Suggestion: Consider using dark background. Like Khan Academy,True
+@jungleking9,2020-12-03T16:21:51Z,1,BAM 😁,True
+@harvey2242,2020-12-02T14:57:08Z,0,"For future video, maybe consider changing term ""sample"" to ""instance"" could help to differentiate",True
+@_k_a_m_a_l.,2020-12-02T12:01:15Z,1,"beautiful man ,your simplyyy Bammmmm Bammmmm",True
+@stephenday4834,2020-11-29T18:56:30Z,1,Wonderfully explained. Thank you!,True
+@user-bh4qz7hj6x,2020-11-29T14:10:19Z,0,Hi~ is there a mistake at 10:20 that the amount of Say shoud be 1/2log(5/3)=2.55?,True
+@SnoSixtyTwo,2020-11-29T11:18:15Z,0,"If I did the procedure according to the video, wouldn""t I quickly end up with a lot of stumps that only saw a tiny number of original samples but have a lot of say, perhaps more than some of the stumps that did the ""filtering"" for them? Is that not an issue?",True
+@nepalonlineacademy,2020-11-16T08:38:23Z,0,"In 16:30 to 16: 50, I think you pronounced 0.07 as 0.7. An alert text can help viewers to be alert.",True
+@eaglazer74,2020-11-09T13:54:13Z,0,"Hi Josh, thanks for the great video. Btw I have a question, when do we stop making these stumps?",True
+@Neptutron,2020-11-09T09:57:29Z,0,What's a gini index?,True
+@pnvkrm,2020-11-05T13:08:39Z,0,"As usual great explanation josh! One question i have, if  base estimator is not a decision  tree stump, what is the criteria to consider it as weak learner  say for example svc or logistic regression etc..and is it a must that these models should be weak?",True
+@gavin8535,2020-11-05T00:44:06Z,0,"What is ""amount of say"" ?",True
+@amalsunil4722,2020-11-04T21:51:14Z,1,"On what basis are we labeling that the left child node to be  ""Yes heart disease"" and the right child node ""No heart disease""? Cuz we just split the data based on a condition yea...or is it like we train the stump and then feed the dataset into this stump to get the Correct and Incorrect values?  If that's the case how's it possible in the case of Blocked Arteries when we have both child nodes as purely impure.",True
+@achintyashrotriya3284,2020-11-03T18:42:29Z,0,Isn't the final prediction made by checking the majority of the classifiers rather than summing it and then comparing the amount of say each stump has ?,True
+@akashprabhakar6353,2020-11-03T03:53:28Z,1,Awesome video.Thanks!,True
+@valklingfriendofallthings5317,2020-11-01T22:27:13Z,0,I was asked to describe AdaBoost once. Totally stumped. :-P,True
+@xizhilow6815,2020-10-30T13:14:06Z,2,"thank you for making these videos, they are really helping me with my ML class!",True
+@letslearndatasciencetogeth479,2020-10-30T11:40:27Z,0,your songs reminds me of pheobe buffet from friends...:D huge fan of your videos,True
+@umeshdhangare3741,2020-10-26T10:33:39Z,0,Please don't make that 'dee doo dee doo boop'. I was scared and annoyed after hearing that.,True
+@sauravkumar6173,2020-10-24T14:18:33Z,0,How final output is calculated  in regression problem??,True
+@MrBemnet1,2020-10-24T06:29:02Z,0,This is not good explanation compared to your other videos,True
+@andrewzhou1870,2020-10-22T07:47:56Z,0,"Here's what happens during my last minute: 1, I tried to watch xboost, then SQ told me I should watch gradient boost first 2, I went straight to watch gradient boost, and he told me to watch adaboost So here I am :)",True
+@CheGourav,2020-10-22T06:37:37Z,0,How do you make these kinds of presentations Josh? Point me in a direction so that I can prepare something like this for my university presentation which I have in a week. Thanks!  edit: or can you share this adaboost pdf with me so that I can edit that according to my topic? Thanks again!,True
+@tej_c7016,2020-10-22T06:23:51Z,0,How do you make these kinds of presentations Josh? Point me in a direction so that I can prepare something like this for my university presentation which I have in a week. Thanks!,True
+@irynap9262,2020-10-21T01:32:48Z,0,Great videos and sound tracks 😀 I was wondering how adaboost works for regression problems... particularly how the amount of say of each stump is used to calculate the final prediction after the forest is created. Thank you 😊,True
+@catherineLC2094,2020-10-14T17:29:01Z,8,"Thank you for the study guides Josh!  I did not know about them and I spend 5 HOURS making notes about your videos of decision trees and random forests.  I think 3 USD value less than 5 hours of my time, I purchased the study guide for AdaBoost and cannot wait for the rest of them (specially neural networks!)",True
+@mohamedabdullah9680,2020-10-12T07:15:49Z,0,How is the Gini index calculated,True
+@vlogwithdevesh9914,2020-10-12T06:19:02Z,1,You are a great teacher who makes learning a lot fun!!!,True
+@saurabh_tayal,2020-10-10T11:37:27Z,0,Would love it if you could make some videos on how tree-based algorithms work with class_weight parameter.,True
+@stuartxu1509,2020-10-09T06:04:42Z,1,"Thank you, sir! That's much much clear than my lecture notes, lol",True
+@dixitjain1726,2020-10-09T03:12:06Z,0,The weird noises in the video are sort of a turn off,True
+@azrielghadooshahy2290,2020-10-08T23:33:38Z,0,"Question: When determining which features to split given updated sample weights, how did you determine the binning / ranges to assign given random draws on (0,1) ?   Specifically, why bin sample weights into (0,0.07], (0.07, 0.14], (0.14, 0.21], etc? Are these based on standard deviations of a ""normal"" distribution of weights over (0,1)?",True
+@vaishanavshukla5199,2020-10-08T08:32:43Z,1,great job ...sir....as usual,True
+@primakovch8332,2020-10-08T05:33:18Z,0,Is adaboost only used for binary classification??,True
+@navyasailu18,2020-10-06T14:13:51Z,1,Thank you so so so so so so much,True
+@MarZandvliet,2020-10-05T13:23:42Z,1,Forest of Stumps is my new band name,True
+@kamran_desu,2020-10-02T12:50:40Z,0,"Hi Josh, great explanation as always.  Can you please give guidance on how Adaboost does the 'amount of say' calc and final prediction for regression?  Also found something every interesting that in the sklearn Adaboost implementation it allows you choose the base learners between trees and linear models. :)",True
+@finderlandrs7965,2020-09-30T13:36:05Z,0,"Hey Josh, i'm back to this topic! I had success implementing Adaboost, but i think something is wrong because it is performing poorly. At each iteration, does the weak learner predicts the current subset (resampled based in the errors of the previous learner) OR in the entire dataset?",True
+@narotian,2020-09-28T14:25:02Z,1,why should we pick a random number from 0 to 1.,True
+@nikunj2554,2020-09-24T15:40:05Z,0,"Hello Josh. Thanks for an awesome video on Adaboost. Can you make a video of the difference between Natural log and common log, when should we use each of them and the properties and real life applications? I had hard time figuring out why the amount of say was 0.97 at 9:22 in the video. I was calculating it using the log key on my calculator whereas in reality it was the natural log. If I take 0.5*log(7) then my amount of say would be 0.422 whereas in reality you have used 0.5*ln(7) which gives 0.97 as the amount of say. I believe not many people would come to know that the log is natural and that I think it will be great if you use ln for natural log henceforth to avoid confusion. That being said, I found all your videos super exciting and thanks for sharing the knowledge.",True
+@rohankavari8612,2020-09-24T08:00:51Z,0,Can you make a series on automl and how does it work,True
+@arunkumarn6371,2020-09-23T10:37:52Z,0,"Hi Josh, Thanks for the awesome video.  Just a query here, you are creating some new sample dataset, it is kind of bagging(bootstrapped dataset) in random forest?  Thanks in advance :)",True
+@KevinPan-lu1xv,2020-09-22T17:40:29Z,0,"When will the iteration stops? i.e., How many stumps should be created?",True
+@firefly618,2020-09-20T22:03:35Z,0,Jeez... I'm listening to this at 2x speed and it still feels just as slow as the DMV sloths from Zootopia! YAWN..?,True
+@crazypankaj4u,2020-09-18T21:52:30Z,0,"It's bit tricky to get head around this. So, In the end, we would aggregate from last series of stumps ( 3 in this example) or all stumps (i.e number of iteration * number of features) to predict new Data? Number of stumps in each iteration would be same as number of features, right?  It feels it will massively overfit Data as it is chasing every instance of data to fit. Awesome video!",True
+@shaunchee,2020-09-17T18:29:00Z,18,Man right here just clarified my 2-hour lecture in 20 mins. Thank you.,True
+@pravin8419,2020-09-17T04:56:38Z,0,"Hi Josh.  Awesome video again. My doubt: We choose 1st root,say Chest pain, based on Gini index. The Gini index for 2nd root will be calculated for all features or will we exclude Chest pain from subsequent stumps?",True
+@asmersoy4111,2020-09-15T11:42:15Z,1,BAM!,True
+@indrab3091,2020-09-15T02:39:11Z,110,"Einstein says ""if you can't explain it simply you don't understand it well enough"" and i found this AdaBoost explanation bloody simple. Thank you, Sir.",True
+@manojkumar-yi5ed,2020-09-14T17:34:06Z,0,"Great explanation. AdaBoost seems little complicated. It took me 2-3 times watch to understand. But I have question, @15.34 If I have to try Gini index rather than random selection, how do I consider sample weight to calculate the index ?. @6.22 there is explanation for Gini index but samples weight is ignored.",True
+@divjotsingh1515,2020-09-14T17:24:21Z,0,supa hot fire calculation edition,True
+@gimbledagyreify,2020-09-14T07:56:17Z,0,Can you make a coordinate descent + Adaboost w/different classifiers?,True
+@michellehsu4299,2020-09-11T05:57:02Z,1,"I am wondering how the Gini index be calculated so that we know we should choose ""weight"" as the first attributes...",True
+@shubhamtalks9718,2020-09-10T18:27:48Z,1,Thank you.,True
+@finderlandrs7965,2020-09-08T23:28:47Z,0,I don't understand where exactly those errors are calculated. Does the weak learner first fits the data and then try to predict them? I would thank for your clarification.,True
+@vimalthanth1147,2020-09-06T04:58:49Z,1,Great job in funny way,True
+@PraveenKumar-pd9sx,2020-08-31T05:08:37Z,0,How many number of times does the new weight assigning and bootstrapping dataset happens?,True
+@sabyasachisaha2925,2020-08-30T07:32:59Z,0,"Many thanks for explaining the Adaboost in such a easy manner. I have one doubt at 19:39 minutes, where you have calculated the amount of say for ""Does not have heart diseases"". How you are calculating 0.41 and 0.82 values. Kindly explain.",True
+@vamsikrishnaj4429,2020-08-25T11:18:34Z,0,"Completely lost at 19.18 , can u please explain it again?",True
+@darshikaverma9170,2020-08-15T09:40:26Z,1,My brain after watching this video --- BAMMMMMMMMMMMMMMMM,True
+@mandheersingh01,2020-08-13T23:25:41Z,0,i have  confusion Gini index should be maximum or minimum???,True
+@thunderkat2911,2020-08-07T15:34:25Z,1,Your channel has saved me a looooooot of time. Thanks!,True
+@madannikalje760,2020-08-06T11:05:50Z,1,BAM !!,True
+@andrewnguyen5881,2020-08-05T16:46:26Z,0,"When do you stop creating Stumps? In the example, you had 6 but i don't understand why you stopped there.",True
+@fvviz409,2020-08-01T12:20:06Z,0,your  opening usually cheers me up but this time it was scary,True
+@diamondcutterandf598,2020-07-31T13:04:17Z,0,When do we stop building stumps? Is it decided by the user?,True
+@HarpreetKaur-qq8rx,2020-07-29T22:22:15Z,0,"The other thing I am not clear about is that the subsequent stumps that are made receive the output from the previous stumps or not (I mean not the error values etc but lets say a new observation needs to be classified) then will that new observation go through stump 1 and then through stump 2 and so on and so forth to be labelled at the end or does the new observation will be classified as having a heart disease by stump 1 which has amount of say  lets assume 0.2 and then stump 2 classifies as no heart disease with amount of say lets say 0.4 and stump 3 classifies the new observation to have heart disease with amount of say as 0.2 again . Then will stumps 1 and 3's amount of say will be added or averaged or what will happen. Also you mentioned that stumps are created with two leaf nodes, then how do you deal with multinomial variables both in the case of independent and dependent variables",True
+@HarpreetKaur-qq8rx,2020-07-29T22:08:52Z,0,"Hi Josh,  How would you compute weighted GINI. You mentioned that ADA Boost makes use of it.",True
+@TheRaju991,2020-07-29T18:39:48Z,0,"Can anyone help me understand how the Stumps are created for 'Does Not Have Heart Disease' at 19:38? I get the explanation of calculating the Amount of Say for Chest Pain, Blocked Arteries and Patient Weight. But from where are the other three stumps getting created from?",True
+@hindustanmerijaan9657,2020-07-29T08:35:25Z,1,You sing so good ....  :D,True
+@javierrionegro471,2020-07-21T11:37:54Z,0,"When you use this algorithm, for example in python, there is an hiperparameter learning_rate, you explain the significate of this hiperparameter in gb and in xgb but i have not clear how it works in adaboost because it works different than the others. Thank you Jos",True
+@RaviShankar-jm1qw,2020-07-18T16:22:58Z,1,"I get impressed by each video of yours..and in free time recapitulated what you taught in the videos, sometimes. Awesome Josh!!!",True
+@devarshigoswami9149,2020-07-15T10:32:52Z,3,It'd be really refreshing to hear an actual model make dee doo dee doo boop' sounds while training.,True
+@ryuboss9350,2020-07-13T15:51:41Z,0,"Josh~ Thanks for supporting such a wonderful lecture. I subscribed to you and I am willing to finish all of your lectures!! I can understand even though I am not familiar with English. I have one question! When we make a sample dataset for over the second stump, Why sample dataset should be the same size as original? I think if the sample dataset bigger, the result will be more accurate. Please know me!",True
+@shubhamgupta6567,2020-07-12T18:03:00Z,0,"At 17:38 you are picking random no between 0 and 1 were you picked random no which were between 0.21 & 0.49 and then you take the sample which has more sample weight in new data set, but what if while picking random no we do not choose it between 0.21 & 0.49 and the incorrect sample with more sample weight is not picked for new data set, we would lose that sample and that may not influence the next stump which we will make from the new data set because it will not have the error sample which previous stump made.",True
+@danielt3884,2020-07-12T00:52:21Z,1,How does AdaBoost know when to stop adding more stumps?,True
+@sandeepmawri9076,2020-07-10T16:17:51Z,1,Hi Josh I have watched many Videos explaining the Algorithm but this videos was very exceptional in detailing and Maths intuition Thanks for such a video And yes I have subscribed to the videos please if possible can we have videos on Deep Learning.,True
+@ElvisSCL,2020-07-07T16:30:08Z,0,"I have a question, you said at 7:33, use the total error to determine the amount of say,  then at 19:41 you said the amount of say = 2.7 is the larger sum so that group has the heart disease. Doesn't that group have larger total error?",True
+@mfadlifaiz,2020-07-07T16:09:49Z,0,"To find the next stump, why we have to increase sample weight of error prediction and decrease sample weight of true prediction?",True
+@dhruvbishnoi8840,2020-07-07T14:34:32Z,0,"Hi, How would Adaboost make probability predictions instead of 1/0 .",True
+@RealSlimShady7,2020-07-05T09:11:21Z,0,"BAMMM! What a wonderful explanation! I had 1 question. When we use the 2nd stump with the new dataset (randomly picking observations and picking multiple observations which had a higher sample weight), will we make the 3rd stump dataset using the 2nd stump dataset or the original dataset? How will the scenario change for Regression? Also, since we changed our observations in the 2nd stump dataset, the Gini indexes would be different and in that case, we can get any other variable in our stump? (Like Weight came in 1st for the 1st stump?)",True
+@fataouagondo294,2020-07-04T23:26:52Z,0,"Hi, this is a very nice introduction. I have a mini question, at 16:30 when you say we use the sample weight as a distribution, i'm a bit confused. For example, if i sort my data by patient weight, i would be taking the sixth for a probability 0.075 instead of the actual first in the video.",True
+@ramadosskarthik9986,2020-07-04T17:21:31Z,0,"Hi, The videos were really helpful and wonderful.Just started to look into your videos after my suggested. Just have a single doubt at the end. How are we actually determining some stumps are indicating the patient has heart disease or not.. Can you help me in this.:)",True
+@tejpunjraju9718,2020-07-04T14:49:09Z,8,"""Devmaanush"" hai ye banda! Translation: This dude has been sent by God!",True
+@aglaiawong8058,2020-07-04T08:35:29Z,1,"Excellent tutorial, thanks! Would like to ask: 1) after recalculating and updating weights for each sample, the process repeats. And in first step we found the 'weight' has the lowest Gini, then in next round we exclude the 'weight' and only consider the remaining criteria? or not? I see the 'weight' is reused when bootstrapping is used, but how about if we still using Gini?  2) if same set of criteria is re-used, then we would get a bunch of stumps with same criteria but differ only with the amount of say. Why is that useful in this case, other than simply using each criteria once only?  3) if the same set of criteria is re-used, then how can we determine when to stop the stump building process and settle down to calculate which classification result group has larger amount of say?  Thx~",True
+@gabrielcournelle3055,2020-07-03T12:50:38Z,2,"Wow, that was great. I love how you make it sound so simple. Just a question about the construction of the third stump without weighted gini. Suppose sample number 5 was not picked  to build my new dataset to feed to stump number 2. Can sample number 5 be picked to feed to stump number 3 or do I lose it for the rest of the stumps ?",True
+@IlsePlenski,2020-06-30T08:58:50Z,1,Very cool!!! Thx much for the input :),True
+@AkshayGhadi01,2020-06-29T19:15:32Z,1,Your explanation is just fabulous.,True
+@SaroshFatimasash,2020-06-28T20:00:04Z,0,At 7:37 the Amount of Say formula uses 'ln' not 'log'. Thanks.,True
+@mptire,2020-06-28T12:38:41Z,1,tripple bam!!!!,True
+@madhusudaneyunni7816,2020-06-28T07:22:52Z,0,Could you give some calculation when you add new collections at around 17:50 time. I am not sure I have understood this.,True
+@ehsaneshaghi1831,2020-06-28T07:20:40Z,0,can you share the slides please?,True
+@adithyarajagopal1288,2020-06-26T19:39:39Z,1,"Hey just wanted to know how much time you spend per day replying to the comments, you reply to every single one of them",True
+@PaulXiaofangLan,2020-06-23T01:41:57Z,0,"Dear Josh, I have 2 more questions.   For Random Forest, we use bagging to generate many trees. But you haven't introduced this idea for AdaBoost.  1. Does that mean, the `amount of say` of all trumps is determined by the whole data set (corpus)? 2. How many AdaBoost stumps we should generate? What's the rule to determine the number? 3. Could a stump share the same features with other stumps?  And, as you mentioned, the creation of the first stump will effect the second stump. My second question is: 1. How to determine which feature we should use for the first stump? By entropy/Gini comparison between the features?  2. If it is, is the idea of the first stump creation applied to the second stump, thus third, fourth, etc. Thanks.",True
+@chenjing6661,2020-06-21T12:32:00Z,0,"One question.  How to determine the number of stumps? If every variable was taken into account when choosing the root for the stump, it seems like there will be countless stumps.",True
+@PaulXiaofangLan,2020-06-18T03:14:42Z,0,"Here is my extra explanation around 17:00, generating a new collection from the weighted distribution:  1. We know that the sum of weights is 1.  2. Thus all rows are located in the range(0, 1).  3. Any row takes a portion with its value as the width of the portion.",True
+@anchalsrivastava3733,2020-06-16T15:42:46Z,0,0,True
+@moRRR____2042,2020-06-16T15:14:15Z,1,Awesome 😍 u also don't get bored at all 🤟,True
+@sabalsubedi4114,2020-06-10T14:41:48Z,1,"Dude anything I try to learn related to machine learning or statistics, your video pops up at the top. Thanks a bunch for making all these fun videos! Using your video not only to understand stuff but also to explain it to other people!",True
+@MADjaHEAD,2020-06-09T10:36:56Z,0,"Gosh, how did they figured out that it would work at first place?",True
+@Sksahu_123,2020-06-08T06:49:36Z,1,Bam,True
+@eatan90,2020-06-06T20:23:36Z,1,Did anyone else get Elliott Smith vibes from the intro song? That or 2020's really getting to me.,True
+@dimitriskass1208,2020-06-03T21:17:06Z,26,"The real question is: Is there a model which can predict the volume of ""bam"" sound ?",True
+@triplefruition,2020-06-02T15:47:21Z,2,Hooray!!! 😍😍😍😍,True
+@sundaywanderer,2020-05-30T09:38:12Z,1,We need an algorithm to predict your bams,True
+@chinedunwasolu4913,2020-05-28T10:32:23Z,1,"I just want to say, THANK YOU. You video really helped me to understand the equations.",True
+@sidbbb0,2020-05-25T14:11:46Z,0,Josh.. you are a legend... I deciphered the original research paper to understand the details of how adaboost and gradient boost works.. I wish I could have watched this first....  Also.. is there a way I can get a ppt or pdf of your videos for quick reference...,True
+@saul1265,2020-05-25T08:11:52Z,1,Triple Bam is amazing,True
+@Taranggpt6,2020-05-23T14:41:08Z,0,"Do we take the first stump which has lowest homogeneity (lower gini index) opposite of Decision 🌲??  As in decision tree we take first split which has highest homogeneity.... Please someone explain why did Josh took first stump which has lowest homogeneity (lower gini)??  Also how the tree having lesser homogeneity can have good amount of say in final model??   (It must be having highly misclassified datapoints, resulting less amount of say)???",True
+@miriza2,2020-05-19T01:38:50Z,0,Is there a video about the weighted Gini function? Thanks,True
+@raymondzou6005,2020-05-18T03:20:59Z,0,"If one data in Dataset (stump 1) is not selected in building Dataset (stump 2), is it that it will never appear in any of the future Dataset (stump 3, stump 4 ...)?",True
+@amypei1704,2020-05-17T06:58:58Z,0,"Why is it that when the last stump did a good job classifying samples, we need to put more emphasis on correcting the error in the next stump and vice versa? Why isn't it the other way around?",True
+@toonepali9814,2020-05-16T13:00:34Z,0,You say to choose random values from 0 to 1. but in what basis do we choose the values between 0 and 1?,True
+@sureshparit2988,2020-05-11T05:14:49Z,0,Didn't understand last step of making classification .,True
+@matthou1998,2020-05-10T18:05:05Z,1,BAM!!!,True
+@NIHIT555,2020-05-10T11:25:10Z,1,what a great video.,True
+@aleksey3231,2020-05-08T21:22:04Z,311,"Please, Can anyone make 10 hours version 'dee doo dee doo boop'?",True
+@praveenk302,2020-05-08T14:53:35Z,0,"At 19:30, how do you say that Stump with ""amount of say"" as 0.97 belong to ""Has Heart Disease""?",True
+@shubhamdotdkhema,2020-05-07T08:00:44Z,0,"If the error is one, how is the stump a ""horrible"" classifier? Isnt the stump with error 0.5 the worst?",True
+@debabrotbhuyan4812,2020-05-07T03:02:44Z,2,How come I missed this channel for so long? Absolutely brilliant.,True
+@orso1345,2020-05-04T12:04:53Z,0,Can you make a video about Adaboost for regression problems?  Your content is Awesome!,True
+@TheOraware,2020-05-01T12:47:36Z,1,"Awesome explanation , so in a nutshell if i say adaboost filter out correct classified sample and move misclassified in each new sampling for new stump right?",True
+@radusdirect,2020-04-30T07:33:49Z,3,"3:22 ""Errors made by the 2nd stump influences the making of the 3rd stump""; it is not accurate to say that the errors made by ""i_th"" stump influence ""i+1_th"" stump.  The errors made by the ""1 to i"" additive classifiers collectively influence the construction of the ""i+1_th"" stump.  But, otherwise, this is a wonderful presentation.",True
+@daesoolee1083,2020-04-29T07:06:38Z,1,Well explained and easy to understand.,True
+@hemantdas9546,2020-04-28T13:58:11Z,0,Josh what about regression in adaboost.what about the amount of say formula and how to calculate final result. Please explain clearly.,True
+@heerparmar8632,2020-04-28T11:24:14Z,0,Why is the sample weight more for the incorrectly classified shouldnt it be the opposite??,True
+@20060802Lin,2020-04-28T00:23:42Z,1,"How many stumps we should build? Is it just any artificial large number? Because in Gradient Boot, we build trees until the residuals no longer change much, I wonder if Ada boost has some similar principles. Thank you so much!!",True
+@1pompeya170,2020-04-27T06:56:18Z,1,"Adaboost is a little complicated i have to say , so abstract even with animation demo,let alone math formula introduction, hope einstein rent his brain to me ,but i still understand it with 2 times watch,thanks",True
+@vivekgupta3635,2020-04-26T08:22:01Z,0,"what if amount of say was negative... say -0.6 then while trying to  increase the weight using formula e^(amount of say) ,won't it actually decrease it?",True
+@cdccdc9292,2020-04-26T05:15:39Z,1,"Thanks for the video, you're really helping so much :) btw my favorite opening so far :D :D",True
+@amrdel2730,2020-04-25T19:36:12Z,0,Can we use adaboost with another tyoe of classifier as weaklearner ??,True
+@810liga2,2020-04-23T19:44:58Z,0,"About building up stump, such as Chest Pain, why on left leaf is 'Yes heart desase' and right leaf is 'No heart disease'? I know on the left should be With chest pain', and on the right is 'Without chest pain'.  Within each leaf, it should be 'With heart disease' and 'without heart disease', that is  just classification of the samples, it is not 'correctly' or 'incorrectly' classified. So you put 'Correctly' and 'Incorrectly' classified, because you assume the left side should have 'Heart disease' and right side shouldn't have heart disease, why?",True
+@miesvanaar5468,2020-04-21T14:51:35Z,7,"Dude... I really appreciate you make these videos and put so much effort in to making them clear.  I am buying a t-shirt to do my small part in supporting this amazing channel,.",True
+@user-kg1zo2bc2l,2020-04-19T09:57:09Z,0,Can I get your slides,True
+@JT2751257,2020-04-19T02:23:09Z,3,had to watch two times to fully grasp the concept.. Worth every minute :),True
+@TUSHAR19961,2020-04-16T09:34:54Z,1,BAM BAM BAM BAM !,True
+@damienhood3306,2020-04-13T06:33:13Z,0,How fo you know which classifier to use ? Are they all the same. Could you use Neural nets for most things?,True
+@AayushRampal,2020-04-10T18:12:04Z,19,"You are THE BEST, can't tell how much i've got to learn from statquest!!!",True
+@lomailru20,2020-04-05T16:50:34Z,0,I'm sorry for annoying you. Could do you help me with myquestion? Thanks),True
+@jianyuluo8905,2020-04-04T13:03:56Z,1,Wonderful series could u make more on deep learning thx,True
+@alecvan7143,2020-04-03T16:49:10Z,1,Great video :),True
+@lomailru20,2020-04-03T14:22:34Z,0,Hi! That's me who asked for building a tree in XGBoost. Could you tell how to use AdaBoos for Regression? Thank you),True
+@santoshbala9690,2020-03-31T15:50:45Z,0,"Hi Josh... Thank you very much.. Excellent teaching.. I have a doubt though.. Once the new weights are created and teh new dataset is selected @16.50, it is selected in random, then how does it ensure that sample with higher weights get more chance.. because  the number chosen is random?..",True
+@sushilchauhan2586,2020-03-30T11:01:02Z,0,Amount of say 0.97 and others amount of say... how did you get it.... at 19.33.. i didnt get your last point.   any one who knows can answer   i have doubt what amount of say u r talking about the amount of say of correct or incorrect?  hey i got it .... i again re watched it and i got my answer... quadra bam,True
+@irfannoordin2245,2020-03-25T08:32:57Z,0,"If stumps are made based on previous stumps, When would you stop making stumps?",True
+@tabtang,2020-03-23T16:58:32Z,0,"Why there is no predetermined maximum depth for the tree from the random forest? As you mentioned in your previous video, the number of features is limited and can not be reusable.",True
+@ravea7500,2020-03-23T10:53:58Z,0,10:17 it should be 5/3 not 7/3..,True
+@rajarajeshwaripremkumar3078,2020-03-20T18:51:05Z,0,Wonder how it works for regression. Is the predicted value a weighted (weights being the amount of say) sum of the prediction from each stump?,True
+@bhuvanprakash,2020-03-18T17:45:31Z,1,Bam!!!,True
+@rishabhgaur4552,2020-03-18T16:58:47Z,0,is that log base 2 or 10?,True
+@joehigh6855,2020-03-18T03:44:39Z,1,Reminds me of Blue’s Clues,True
+@endlessriddles2663,2020-03-14T12:25:49Z,1,Your videos have seriously been saving me! Thank you so much and keep them coming!,True
+@mmacasual-,2020-03-13T05:45:44Z,0,How about explaining one exmaple of Ada boost for multi class classification,True
+@dreamhopper,2020-03-11T22:41:14Z,43,Wow. I cannot emphasize on how much I'm learning from your series on machine learning. Thank you so much! :D,True
+@chrissmith1152,2020-03-11T09:34:40Z,1,Simple BAM Multiple BAM,True
+@xinliuxg,2020-03-09T16:44:19Z,1,awesome explanation! Thank you!,True
+@danspeed93,2020-03-09T16:14:42Z,1,Thanks for this AdaBoost clearly explained video.,True
+@sezaneyuan3111,2020-03-05T12:48:13Z,4,"Love the opening music, make me laugh at machine learning course. What an odd!",True
+@Patrick-tj9po,2020-03-04T12:17:16Z,0,"Awesome video, thank you.   A little suggestion: Since a lot of research is put into ML topics, algorithms frequently get replaced by newer&better ones. It would be nice if you could quickly mention from which year the algorithm is and how ""up-to-date"" it still is, i.e. whether it is still commonly used or was replaced by a better algorithm.",True
+@mrjigeeshu,2020-03-02T20:57:51Z,0,run forrest run !,True
+@dvdmrn,2020-02-23T04:49:11Z,1,The light inside of him briefly went out at 13:02,True
+@vinayaksp7428,2020-02-15T04:55:16Z,0,dee dee doo doo du doop 5/8 not 7/8,True
+@chinedunwasolu4913,2020-02-14T08:56:16Z,0,some of these calculations are off.,True
+@viswanathpotladurthy3383,2020-02-13T15:09:41Z,0,"Hi nice explanation .How do we calculate the GINI value of weight column .We understood how to split weight column i.e threshold selection ,but how do we calculate GINI of feature which is a continuous  variable like weight",True
+@hezhang3531,2020-02-13T04:02:28Z,0,"Great video! I want to konw if the data sampled by next stump are based on the data used by previous stump? If so, number of data used by next stump would become less and less?",True
+@honsenz.5244,2020-02-12T20:44:42Z,0,"Could anyone explain the concept ""say"" for me? What kind of unit or measurement it is",True
+@evanzamir4107,2020-02-11T00:08:34Z,1,Check out the quest,True
+@ykartd,2020-02-09T20:58:32Z,0,at what point do we stop the iterative process of developing stumps?,True
+@ykartd,2020-02-09T20:53:54Z,0,"based on https://stats.stackexchange.com/questions/68940/how-is-the-weighted-gini-criterion-defined, it seems the weighted gini index also depends on the sample size. So is it still true to say if the sample weight of an observation is larger, the weighted gini index is always larger?",True
+@Acep33,2020-02-04T23:14:16Z,1,Love the mix of informative content and man made beep boop noises,True
+@fabienherry2504,2020-02-01T08:55:39Z,0,"Hello, and ty so much for these videos very usefull and funny :). Just, I have difficulties to understand what literally means ""amount of say"" . Can it be interpretated as ""lost fonction"" to evaluate the error ? Merci !",True
+@dod2223,2020-01-26T14:44:43Z,1,Thank you!,True
+@elnurazhalieva1262,2020-01-25T09:18:07Z,0,"Ok, but why are we creating a new collection of samples? In order to emphasize the incorrectly classified samples, I guess? But in this case, can we be sure that the new stump will correctly classify the other (already correctly classified by current stump) samples? Hope my question makes sense.",True
+@isabellaexeoulitze6544,2020-01-22T15:16:49Z,0,how did you find out what 'e' was at  12:47 before you raised it by 0.97? Many thanks,True
+@mahekshah5092,2020-01-21T09:18:18Z,0,"At 5:42, the left node is for disease yes, correct identified is 3 and for incorrect its 2. But you are making that decision on chest pain outcome. i.e., for chest pain yes, disease is yes or no.  I dont understand that part. Are we assuming that, if chest pain is yes then disease should be yes?",True
+@olegzarva708,2020-01-14T19:33:26Z,3,"You're my hero, Josh! This is so much more understandable than twisted formulas.",True
+@jorgesilva932,2020-01-10T05:43:43Z,1,Great video !,True
+@statquest,2020-01-08T13:49:43Z,162,"Correction: 10:18. The Amount of Say for Chest Pain = (1/2)*log((1-(3/8))/(3/8)) = 1/2*log(5/8/3/8) = 1/2*log(5/3) = 0.25, not 0.42.  NOTE 0: The StatQuest Study Guide is available: https://app.gumroad.com/statquest NOTE 2: Also note: In statistics, machine learning and most programming languages, the default log function is log base 'e', so that is the log that I'm using here. If you want to use a different log, like log base 10, that's fine, just be consistent. NOTE 3: A lot of people ask if, once an observation is omitted from a bootstrap dataset, is it lost for good? The answer is ""no"". You just lose it for one stump. After that it goes back in the pool and can be selected for any of the other stumps. NOTE: 4: A lot of people ask ""Why is ""Heart Disease =No"" referred as ""Incorrect""""? This question is answered in the StatQuest on decision trees: https://youtu.be/_L39rN6gz7Y However, here's the short version: The leaves make classifications based on the majority of the samples that end up in them. So if most of the samples in a leaf did not have heart disease, all of the samples in the leaf are classified as not having heart disease, regardless of whether or not that is true. Thus, some of the classifications that a leaf makes are correct, and some are not correct.   Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@sajjadabdulmalik4265,2020-01-08T10:02:32Z,0,Hi Josh @10.18 I see that you get 7/8 for 1-3/8 should not this be 5/8? Numerator only..And e power amount of say has different x a axis compare to e power minus amount of say..,True
+@rajarajeshwaripremkumar3078,2020-01-07T18:35:48Z,0,Are the stumps in adaboost just corelated too or just dependent?,True
+@amoghbharadwaj9252,2020-01-06T05:32:41Z,0,"Hello Josh, can you please mention the formula for the weighted Gini index calculation for the next stumps based on new weights? Thank you",True
+@anujsaboo7081,2020-01-03T20:52:45Z,2,You explicitly mentioned about regression and classification in Random Forest and Gradient Boost. Is it that AdaBoost can only be used for Classification tasks?,True
+@javad6329,2020-01-01T23:48:22Z,1,Thanks again for this wonderful content. Could you please make a video for lightgbm.,True
+@AfsanaKhan-dg5lf,2020-01-01T20:31:52Z,1,Your explanations are just awesome!!,True
+@UsmanKhan-lp2mg,2019-12-25T18:20:33Z,5,"Hey Josh, I'm back to study Machine Learning for Final Exams 😂😂😂",True
+@jinqiaoli8985,2019-12-24T18:33:02Z,3,"Hi Josh, I love your videos so much! You are awesome!! A quick question on total error, how could a tree give a total error greater than 0.5? In such a case, I guess the tree will simply flip the label?  Is this because of the weight? The total error is calculated on the original sample, not the resampled sample? If so, even though a tree correctly classifies a sample that previous trees cannot, its vote may be reversed. How could it improve the overall accuracy? Thank you!",True
+@BArdekani,2019-12-19T21:43:30Z,0,"Question: In min. ~16 when you make a duplicate sample of the same size, some data points will not get selected at all for building the second stump.  Does that mean that they are lost forever and will never be used in building subsequent stumps?  This does not happen with the weighted Gini index.   After building the second stump using the sampling method, is there a way to go back to the original samples with a new set of weights?",True
+@nguyenhuycuong.freddie,2019-12-19T08:40:32Z,0,"Hi, Why we choose a random number between 0 and 1 in 16:16. Please explain it to me.Thanks you",True
+@dafliwalefromiim3454,2019-12-18T08:45:38Z,1,My god.. you are fantastic... !!,True
+@hannahgreene1570,2019-12-17T03:16:53Z,0,How do you calculate the Gini Index?,True
+@noway4715,2019-12-17T01:23:01Z,0,how do you pick the random number to select the sample to create a new dataset? what's the principle of picking the random number?,True
+@richardwatts62,2019-12-15T20:51:03Z,1,Incredible teaching. Thank you very much for creating all of this excellent content.,True
+@KirillBezzubkine,2019-12-15T15:47:46Z,0,11:11 - why did we choose exactly THAT incorrect sample??? We created 3 stumps and there were different INCORRECT classifications,True
+@florisr9,2019-12-11T03:06:24Z,1,BOODEDIEDOBOOBUDUDUDU,True
+@michaelkuzmin,2019-12-07T19:07:06Z,0,"great video. just curious, why would you name one of the variable ""patient weight"". this is really unnecessarily confusing. how about instead you just make it ""width of index finger"" or anything else not including the word weight.",True
+@subhankarhotta7094,2019-12-03T19:04:08Z,0,"Hi Josh, I'm back again. This time I've some 10 columns of categorical features. If I go for onehot or pd.getdummies it will generate a hell lot of columns. So suggest the best approach when we have so many categorical features in our dataset?",True
+@ravgeetdhillon2990,2019-12-01T08:17:21Z,1,e raise to the power of BAM.,True
+@alexthunder3897,2019-11-28T13:41:36Z,90,I wish math in real life happened as fast as 'dee doo dee doo boop' :D,True
+@rshrewd8809,2019-11-26T21:07:52Z,2,etc. etc. etc.,True
+@karthikeyanradhakrishnan3219,2019-11-25T12:35:04Z,0,"I have a  doubt, how many stumps will be made in the end?",True
+@user-mg3ey1uq8f,2019-11-25T02:13:44Z,0,Not so complicated~~,True
+@dianap.s280,2019-11-21T06:38:59Z,0,'amount of say' = error?,True
+@zhijiehuang9178,2019-11-17T05:08:21Z,0,Does anyone know how to determine the number of stumps?,True
+@MrSerozka,2019-11-16T18:57:02Z,1,"Best intro song, mede me chills)",True
+@ezequielcarrazana5698,2019-11-12T20:13:09Z,0,"Really good video, but in minute 9:20 the formula says log(7) and the result doesn't match, I think that the formula used there is ln",True
+@rishabpanyam6942,2019-11-10T04:18:11Z,1,I had a question regarding the comparison of use of random no generator to create a new dataset versus weighting the data using the new weights for a new decision stump. Is it just for ease of computation or is there a statistical reason for it. Does anyone have an idea about it?,True
+@bayurukmanajati1224,2019-11-10T00:06:56Z,1,This is very informative for me. I skipped the Decision Tree but... but... I can understand it! Love your vids!,True
+@gdinu0,2019-11-09T13:54:31Z,3,such a complex concept you explained with ease.. Awesome video,True
+@soumachatterjee9399,2019-11-08T04:31:23Z,0,"how 176 is the best weight to make stump for feature column ""patient weight"" . I checked statQuest Decision tree video but there was no such column was present to caluculate this value.. please assist",True
+@vivekchintaluru7389,2019-11-07T08:40:34Z,0,Sir where is the video of xg boost lecture ?,True
+@doubletoned5772,2019-11-06T03:55:39Z,1,"Q1. 11:58 since amt of say can be negative as well, shouldn't the graph and x-axis extend towards the left?   Q2. If a tree has a negative amount of say then a correctly classified sample will be assigned a higher weight than the sample incorrectly classified. Looks confusing why you would assign a higher weight to a sample that has been correctly classified even if it the tree overall has a negative amount of say.",True
+@clapdrix72,2019-11-04T19:29:22Z,1,Great tone in the intro!!,True
+@PlatinumDragonProductions999,2019-11-02T04:19:39Z,0,"I love your explanations and content! But, are you running some kind of noise gate on your audio? Because the first syllable of every line you say is consistently lost. It's a little distracting.",True
+@mazenelmesery3965,2019-11-01T16:01:27Z,1,Great tutorial :D,True
+@shaokangzhang900,2019-10-31T20:07:45Z,0,"Thanks the nice video! I have a question: how will the third sample collections be created? Will it be created from first collection or second collection? The reason I ask it is because if it got created from second collection, then some correctly samples in first collections will never be selected anymore in the third selection.",True
+@snjjain,2019-10-29T23:58:32Z,0,"In the end , how do you classify the stumps which say it has a heart disease and doesn’t .",True
+@snjjain,2019-10-29T23:53:19Z,0,"Does the condition weight lesser than 176 remains the same for all the subsequent stumps , or we will recalculate it depending on the new stump data please please clear this for me",True
+@Martin-ep8dy,2019-10-29T06:13:16Z,0,The solution for Blocked Arteries is 0? Isn't it?,True
+@xuhuang2567,2019-10-25T19:13:42Z,0,"How do you determine if choosing, say Weight, as the stump would correctly or incorrectly classifies the sample? A bit confused there For instance, if Weight < 176, then based on the table the leaf node on the right of the stump has 4 'No's and 1 'Yes' for Heart Disease.  But how come in this video 4 'No' is labeled as 'Correct' and 1 'Yes' is labeled as 'Incorrect'? Could someone explain?",True
+@fredklan9872,2019-10-22T14:58:37Z,1,"And .422 for the calc at 9:15?? What am I doing wrong? I typed ""log(7)"" into google and it says .84509 and then multiply by .5 and I get .422",True
+@fredklan9872,2019-10-22T14:46:12Z,0,I keep getting .11 for the 10:18 calc??,True
+@vishrutmaheshwari7916,2019-10-22T04:28:39Z,0,Can I get access to these slides if I give proper credits?,True
+@itybahadur3625,2019-10-21T17:07:28Z,1,The Phoebe of Machine Learning! Excellent videos! Thanks!,True
+@manujmehrotra2771,2019-10-17T07:04:28Z,0,"at 10:18 it should be 1/2*log(5/3) instead of log(7/3),",True
+@ElCerdoBlanco,2019-10-17T06:31:40Z,1,Why is there a factor of 1/2 to the Amount of Say?,True
+@hubert1990s,2019-10-07T11:56:53Z,0,"there is a mistake, 1-3/8=7/8, right?",True
+@carlossouza5151,2019-10-01T05:31:41Z,1,TRIPLE BAM! Kkkk,True
+@Actanonverba01,2019-09-30T19:29:23Z,1,"Quadruple Bam, Quintuple Bam, ...",True
+@chyldstudios,2019-09-29T03:13:05Z,2,Another amazing data science video! This guy is crushing it.,True
+@MrMetralloCity,2019-09-24T01:39:33Z,1,"i love your intros and outros, are simply awesome!!! i really enjoy learning with your channel!!!!",True
+@bhupensinha3767,2019-09-21T07:35:29Z,0,"Hi Josh, I have seen a few other PPTs on Adaboost ... they dont mention anything on resample of dataset after an iteration? What they state is 1. stump error 2. amount of say 3. modify the sample weights. (no mention of normalized sample weights) 4) instantiate the classifier 5) fit (X, y, weights = sample_weights array) 5) finally, average predictions (although this part is not clear as yet)   Can you help, pls?",True
+@LuadoO,2019-09-11T13:37:39Z,0,"Also, could you make a vid on Viola-Jones algorithm? xD",True
+@LuadoO,2019-09-11T13:36:33Z,0,"Man, when you say that weak classifiers are just what adaBoost likes, why is that so? Whats the advantage of using stumps instead of full trees ? Is it somehow computationally less expensive?",True
+@machinevidhya8608,2019-09-07T14:05:31Z,2,please mention a tentative date for xgboost,True
+@holloloh,2019-09-06T21:35:53Z,4,"Could you elaborate on weighted gini function? Do you mean that for computing the probabilities we take weighted sums instead of just taking the ratio, or is it something else?",True
+@jeanjean6739,2019-09-06T13:05:10Z,2,Awesome explanation but there's something I really struggle to understand ... What's the difference between a small bam and a big BAM ?,True
+@machinevidhya8608,2019-09-05T13:45:05Z,0,kindly please make a video on adaboost for regression tasks,True
+@NeelKamaldeveloper,2019-08-29T06:39:12Z,0,"Hi Josh,  I have a Q regarding the samples which we missed in the new dataset created for emphasizing the error made by previous stumps.  What happen to them?  1. Are they simply skipped permanently in order to correct the errors by previous stumps? I guess no, as we might loose much info, but if not how exactly missing samples are used. 2.  Or is it like once Stumps done correcting mistakes, it considers the 2nd stump (when created very initial Stumps, the one who scored 2nd in gini impurity) and continues the same steps as used for 1st one. Hope my Q is clear. please help.",True
+@willcotton6820,2019-08-26T23:23:58Z,0,How could the say of a stump ever end up negative? Why would AdaBoost create a stump that consistently gets the classification wrong if it could just reverse the prediction?,True
+@OttoFazzl,2019-08-15T16:54:14Z,1,"Yes, I agree that the word weight can be confusing, but it's actually not too much, and these are awesome videos! Maybe a possible solution would be to use 'body mass' instead, but since Youtube won't allow editing videos, it's alright.",True
+@salih394,2019-08-12T16:08:42Z,1,Looking forward to XGBoost @StatQuest with Josh Starmer!,True
+@jaivratsingh9966,2019-08-09T15:11:14Z,4,"Thanks, Josh for this great video! Just to highlight,  at 10:21 your calculation should be 1/2 * log((1-3/8)/3/8)=1/2*log(5/3) How did you conclude that the first stump will be on weights? because of min total error or min total impurity among three features? It might happen that total error and impurity may not rank the same for all features, though they happen to be the same rank here.",True
+@leonidas94140,2019-08-06T21:53:13Z,1,You are a beast man,True
+@leonidas94140,2019-08-06T21:52:58Z,0,You are a beast man,True
+@nabilismail3451,2019-08-02T01:34:46Z,0,"HI josh, I love your videos, I was just wondering if you could do an ADA Boost with logistic Regression presentation. Thank you!",True
+@TheOraware,2019-08-01T09:27:16Z,0,"Hi Josh , for first stump we consider low gini value , a low gini tell us how non homogeneous variable is , close to 0 means less homogeneous. Here we are picking less homogeneous variable for our first stump right? In decision tree we do the same",True
+@TheOraware,2019-08-01T08:15:46Z,1,"Hi Josh , very nice video i did not find such a nice explanation. One feedback in calculation at 10:18 , the numerator should be 5/8 not 7/8",True
+@sandromastino8434,2019-07-27T08:40:37Z,0,I stop and change the video at 0:01 because of the intro...,True
+@yasermahmoud6297,2019-07-24T20:01:57Z,1,@9:10 so funny xD,True
+@rahulsingla8310,2019-07-24T08:55:56Z,0,Hey can u plss explain how to calculate weighted gini index or impurity,True
+@minhcongnguyen3903,2019-07-24T07:32:40Z,1,If Total Error = 1/2 => Amount of Say = 0 => New Sample Weight isn't updated? How to resolve?,True
+@ARSHDEEPSINGH-zd2ji,2019-07-22T19:20:55Z,1,Great Explanation !!,True
+@raghavgaur8901,2019-07-21T05:44:13Z,0,We can use only one classifier with Adaboost right?,True
+@duongthithuyhang6335,2019-07-20T10:09:58Z,0,"I wonder why the formula of Amount of Say is: 1/2*ln((1-total err))/total err), can some one give me an idea or a link ?? I search Google Amount of Say AdaBoost but no result ...",True
+@jeancarlobejaran3295,2019-07-15T20:54:07Z,2,LMAO hahahaha the intro alone makes it all worth it!,True
+@zsomborveres-lakos,2019-07-14T18:40:52Z,1,"I wasn't expecting this intro when i searched for AdaBoost, but was kinda cool :D",True
+@lokeshkoliparthi9268,2019-07-13T13:41:14Z,1,Very Very good explanation Sir,True
+@supershazwi,2019-07-12T01:48:29Z,0,What's the point of normalising the new sample weights? Is it because in the next step we are  building a new dataset and using a random number between 0 and 1 to find a sample?,True
+@emadrio,2019-07-11T15:59:17Z,13,"Thank you for this.  These videos are concise and easy to understand.  Also, your humor is 10/10",True
+@zacharygodwin4557,2019-07-11T15:00:20Z,1,best and coolest lesson ever,True
+@wenjinlin1346,2019-07-10T03:42:05Z,0,"19:16 At the last part, how do you classify a stump has heart diseases? a little confuse.",True
+@AmitKumar-sj9gr,2019-07-08T17:12:22Z,1,"I am really in love with you dude !!!    Hearty congrats for amazing work. Please keep doing, Cheers.",True
+@shashwattyagi007,2019-07-05T22:51:48Z,0,"At time 10:20 the value should be 0.5*log(5/3) which solves to give an overall say value of 0.11, not 0.5*log(7/3). Please check and share if what shown in video is correct or incorrect.",True
+@jianwenliu458,2019-07-05T06:39:47Z,0,"Where did ""amount of say"" 0.97 come?",True
+@Palaciofilin,2019-07-01T21:42:52Z,1,"Bro, your videos are dope.",True
+@pragun1993,2019-07-01T14:17:03Z,0,"Why are weights being restored back to 1/8. Wherever else I've read about adaboost is that we update the weights and use those updated weights (not just for deciding what goes into next dataset) but also in the calculation of total error, eventually the ""amount of say"" for the 2nd model tree(stump) and ""3rd set"" of updated weights, and the process continues? Right?",True
+@ofirlevy3682,2019-06-29T09:32:32Z,1,Best song ever,True
+@countryberry07,2019-06-28T12:08:56Z,1,"Excellent video, very clear explanation of a fairly complex predictive modeling technique.",True
+@Mr68810,2019-06-19T07:26:02Z,0,Baaam. Narrator tone sounds like stoned sloth,True
+@anderarias,2019-06-18T13:01:18Z,1,Awesome explanation. Thank you so much!,True
+@user-ep1bf3ym2t,2019-06-16T07:39:27Z,1,why amount of say is like that?? plz help me,True
+@calvin5371,2019-06-07T11:45:19Z,1,"Hey, Josh great tutorial .. just one question ... till when do you keep making the new samples and classifying on the new dataset .. till a feature gets all the samples correctly classified because of a great penalty of misclassified features?",True
+@meinderth8240,2019-05-31T21:07:29Z,1,BAM!!!,True
+@challakartheek1,2019-05-29T12:29:04Z,0,Superb lecture... Best explanation for me so far.,True
+@raghavgaur8901,2019-05-25T09:06:38Z,0,"Josh can you tell me, that can we use this Ada boost for regression problems as well",True
+@schneeekind,2019-05-23T20:55:10Z,247,HAHA love your calculation sound :D :D :D,True
+@vhphan19,2019-05-22T04:16:31Z,1,"Josh, did someone just plagiarize your work? https://medium.com/@anson.thu/easy-machine-learning-adaboost-bf7b340b1abb",True
+@bhupensinha3767,2019-05-17T19:48:28Z,12,"Hi Josh, excellent video. But I am not able to understand how weighted gini index is calculated after j have adjusted the sample weights ... Can you PL help?",True
+@chongsun7872,2019-05-11T23:53:43Z,0,I like every part of explanation except the weird sound you made when calculating results. That is kind of creepy. But the material is really well explained!,True
+@oscarschyns7945,2019-05-10T12:12:26Z,0,Great video thnx man,True
+@adityasinghbais5924,2019-05-10T07:06:13Z,0,very boringand not intresting lecture 好无聊,True
+@jacobmoore8734,2019-05-02T15:18:33Z,2,"@StatQuest, very random question - If I tried to build an EM algorithm implementation in python from scratch, would this be a reasonable goal? Or will this drive me insane? I can see it being either a great learning opportunity, or something super, duper difficult.",True
+@prudvim3513,2019-05-02T12:51:19Z,32,"I always love Josh's Videos. There is a minor calculation error while calculating amount of say for chest pain stump. (1-3/8)/(3/8) = 5/3, not 7/3",True
+@MrPranaysawant,2019-04-29T15:58:55Z,0,Josh.. Can I get your email id or something where I can reach faster to you?,True
+@MrPranaysawant,2019-04-29T15:57:33Z,0,"Hi..Josh..   I got it up to 18.00 video length.. we have randomly chosen points and create new datasets of same size. Afterwards I did not get what is exactly happening..  in new datasets, we have total 8 number of point out of which 4 are points which are incorrectly classified and you said we will go back to beginning and try to find stump that does best job classifying new collections of sample.   My concern is we are feeding wrong (incorrectly classified) point to other stump and how we this will improve our result? because you said for incorrectly classified points we will increase sample weight, and for correctly classified points we will decrease sample weight right? we are feeding incorrect points(4 incorrect out of 8) to stump.. This will increase weight RIGHT? next we will perform step of randomly choosing point (use perform 18.00 video length)  AGAIN number of incorrectly classified points will increase, again we will feed new data set(incorrect classified point) to other Stump... which will increase number of incorrect classified point...   In short I am little confused, how we will get best model by feeding incorrect point,where it is increasing sample weight for incorrect points and decreasing sample weight for correct points   Something I read on internet Boosting is a thing which improvise model based on previous error, which seems to be followed, but conceptually it is not clear to me.   I saw your Gradient boosting... I got it fluently...BUT here in Adaboost.. I didnt get the last part.   Waiting for your response.",True
+@MrBitchtits500,2019-04-27T23:19:11Z,2,1/2 log (7) = 0.42,True
+@niveyoga3242,2019-04-25T14:31:59Z,0,What are the three ideas behind adaboost?,True
+@ccuuttww,2019-04-24T13:29:19Z,24,"10:15 Warning wrong calculation alert  it is 5/8 not 7/8 since it is 1-3/8 and your remaining part fxxk up!",True
+@harry5094,2019-04-24T06:08:12Z,5,"Hi Josh, Love your videos from India, Can you please tell me how to calculate the amount of say in regression case and also the sample weights?  Thanks",True
+@hit7090,2019-04-22T07:05:20Z,0,Wrongly explained adaboost. Wrong !!!!,True
+@swadhindas5853,2019-04-19T18:29:42Z,6,Ammount of say for chest pain how 7/3 i think it will be 5/3,True
+@aakashjain5035,2019-04-18T08:13:43Z,5,Hi Josh you are doing great job. Can you please make a video on Xgboost. That will be very helpful,True
+@heablubablu3906,2019-04-17T01:27:54Z,0,"This is super awesome presentation of AdaBoost!      Just there is a calculating mistake at 10:19, it should be 5/8 instead of 7/8.",True
+@nikvish,2019-04-16T17:31:07Z,1,I think it's 5/8 instead of 3/8,True
+@jatintayal1488,2019-04-15T10:50:41Z,61,That opening scared me..😅😅,True
+@madhavambati6655,2019-04-13T13:22:08Z,1,u deserve more subscribers,True
+@hamzasaber880,2019-04-10T15:29:22Z,0,Nice Intro <3 xD,True
+@spongel1345,2019-04-08T12:08:36Z,0,Getting annoyed by the BAM! and dududududu....,True
+@anushagupta4944,2019-04-02T15:26:36Z,0,Thanks a lot for this video Josh. So fun and easy to understand. Keep up the good work.,True
+@bardub1,2019-03-31T07:03:23Z,0,Can you give a rule of thumb (if possible :) ) to when do I stop ?,True
+@keepgoing335,2019-03-30T05:32:47Z,0,haha.... great intro as always,True
+@gsb2956,2019-03-28T02:32:19Z,0,How was Gini  index calculated?,True
+@nikhilkumarmishra1225,2019-03-28T01:57:41Z,1,"Life is not always so simple. But Boosting is, thanks to StatQuest. Please StatQuest we want more of Boosting and XGBoost. Amazing Work.",True
+@hongkong670,2019-03-22T01:32:43Z,0,oh man I love this channel. I guess my brain works better with images than abstract formulas! :),True
+@huidongxu7753,2019-03-21T16:48:02Z,0,I love your video! Waiting for gradient boosting :),True
+@miyang9246,2019-03-15T07:34:20Z,0,Hope you will put some Stochastic Gradient Descent video in the future,True
+@miyang9246,2019-03-15T07:31:41Z,0,"Oh man, you are awesome!! Love your bam and music! Your video is kinda my entertainment before sleeping lol",True
+@lishanjiang260,2019-03-13T03:34:55Z,0,"Hey, when you are computing the total amount of say for chest pain, there's a minor mistake, amount of say =1/2log((1-3/8)/3/8)=1/2log(4/3)=0.143841",True
+@tezerchan2301,2019-03-08T22:28:12Z,0,"Nice video! But I have a question: 1) if in the testing we only have 1 sample, how do we calculate the amount of say of two tree and make the decision? 2) why in there is different weak learner in the testing?",True
+@thachanondk4156,2019-03-07T14:25:28Z,0,thank you. very easy to understand,True
+@hassanhayat8885,2019-03-03T19:32:18Z,1,Amazing... now i got the concept of increasing or decreasing or increasing weights. but i m not getting the point of amount of says. how to calculate it? thnx,True
+@AayushSoni1196,2019-03-03T03:34:18Z,1,"https://www.researchgate.net/figure/Pseudocode-of-AdaBoostM1-algorithm-with-SVM-weak-learner-13_fig4_257726168  That's the original AdaBoost Algorithm, just notice how much of a difference a great explanation makes!",True
+@Johnnyboycurtis,2019-02-26T17:45:16Z,1,BAM!,True
+@suzanmct,2019-02-26T09:44:39Z,2,"Great lecture :) waiting for xgbm, lgb and catboost lectures",True
+@Alex32765,2019-02-25T13:26:05Z,1,awesome!,True
+@roxanaalebuye3484,2019-02-23T19:32:48Z,1,thanks a lot! you are super awesome!!,True
+@41abhishek,2019-02-19T14:33:51Z,2,Best tutorial.... sir plz provide gradient boost and xg boost tutorial,True
+@a_sn_hh7027,2019-02-15T05:03:29Z,0,How can I subscribe for 10 times,True
+@a_sn_hh7027,2019-02-15T05:02:31Z,3,tripple baｍ,True
+@mohankumarbalasubramaniyam9345,2019-02-13T09:46:19Z,1,For the guys looking for answers. log used there is not log base 10. It is ln. So ln(7) = 1.945,True
+@Waltonruler5,2019-02-06T16:08:11Z,1,"So if you change the dataset from one stump to the next, is it possible you narrow down the dataset to just a few unique samples? Would you just use that as a stop criteria, say when the entire dataset is just one sample?",True
+@amitmanbansh7827,2019-02-06T04:33:54Z,1,"Josh, When to stop forming new data sets?",True
+@MariamEljamil,2019-02-05T09:29:30Z,1,The best! The simplest! The most informative!,True
+@peerzadimusavir9557,2019-02-04T04:43:38Z,1,plzzzzz upload implementation code of adaboost,True
+@krishnapranavayyagari5799,2019-02-03T17:05:11Z,1,Really loved your explanation 😄,True
+@123chith,2019-02-03T11:55:27Z,1,Gradient descent and Gradient boosting please.,True
+@rossburton1085,2019-02-02T12:04:21Z,3,"I've just started a PhD in sepsis immunology and applied machine learning and this channel has been a god send. Josh, in the future would you have any interest in creating some videos about mixture models? Something I'm struggling to get my head around at the moment and I am struggling to find good learning resources for",True
+@pabloruiz577,2019-02-01T15:08:37Z,77,AdaBoost -> Gradient Boosting -> XGBoost series will be awesome! First step AdaBoost clearly explained : ),True
+@heinrichvandeventer3040,2019-01-28T19:57:18Z,2,I would suggest using patient mass to refer to how much a patient weighs. Use the term weight in its mathematical/machine learning context.,True
+@kunwang5675,2019-01-28T16:43:35Z,1,can you explain functional data analysis for us?,True
+@shashiranjanhere,2019-01-24T06:44:56Z,1,Looking forward to Gradient Boosting Model and implementation example. Somehow I find it difficult to understand it intuitively. Your way of explaining the things goes straight into my head without much ado.,True
+@mashinov1,2019-01-23T20:13:11Z,31,"Josh, you're the best. Your explanations are easy to understand, plus your songs crack my girlfriend up.",True
+@balajisubramanian6565,2019-01-23T19:14:14Z,1,Thank you Josh for all of your great videos. You are a good Samaritan!,True
+@SanthoshKumar-ur5wp,2019-01-23T11:03:21Z,1,you are my tutor,True
+@joerich10,2019-01-23T05:08:32Z,1,Another amazing video Josh! Can you please do a Statsquest on GBMs?,True
+@LieutenantAwesom3,2019-01-21T13:51:34Z,2,Wait. How did you end up with 7/8? at 10:17? 1 - 3/8 is 5/8,True
+@harshtripathi465,2019-01-21T10:58:02Z,2,"Hello Sir, I really love the simple ways in which you explain such difficult concepts. It would be really helpful to me and probably a lot of others if you could make a series on Deep Learning, i.e., neural networks, gradient descent etc. Thanks!",True
+@LieutenantAwesom3,2019-01-21T09:07:41Z,1,I love you Josh,True
+@rrrprogram8667,2019-01-20T11:00:41Z,1,Any plans to visit chennai ???? let me know ... would love to meet you ..,True
+@vedprakash-bw2ms,2019-01-17T23:55:27Z,3,I love your Songs.. Please make a video on XGBoost .,True
+@ccuuttww,2019-01-17T08:43:14Z,0,lol this video is very detail however My learning schedule is fall behind :(  I don't have mush time to walk through this video deeply,True
+@jonasvilks2506,2019-01-16T07:00:36Z,3,Hello. There is a little error in arithmetics. But AdaBoost is clearly explained! Error on 10:18: Amount of Say for Chest Pain = (1/2)*log((1-(3/8))/(3/8)) = 1/2*log(5/8/3/8) = 1/2*log(5/3) = 0.25 but not 0.42. I also join others in asking to talk about Gradient Boosting next time. Thank you.,True
+@ericyang2475,2019-01-16T03:37:38Z,1,Very impressive. Can you talk about Gradient Boosting next time and its comparison with AdaBoost?,True
+@yulinliu850,2019-01-16T00:18:24Z,1,"Another great video! Thanks a lot, Josh!",True
+@demondaze100,2019-01-15T17:41:45Z,1,Thanks Josh! This helped a lot.,True
+@manzarimam2615,2019-01-15T13:53:04Z,1,BAM!!,True
+@rrrprogram8667,2019-01-15T04:54:09Z,1,Machine learning is easy..... only with STATQUEST....,True
+@kohei4828,2019-01-15T03:51:46Z,1,"hi, another great video! I had a hard time understanding boosting algorithm but this made it so much clearer! I have a little question though, can we think of a GBDT(LightGBM, XGboost etc.) as an Adaboost using decision trees as weak learners instead of stumps?   Also, another video suggestion: Kernel PCA(or Kernel method in general) I know a lot of people have troubles understanding the concept of it including me...lol",True
+@fgfanta,2019-01-15T02:27:26Z,1,"Thanks! What about gradient boosting? Is it used for genomics? I am aware that it has been successful used in Kaggle competitions, but don't find applications to genomics, in spite of the support of XGBoost and CatBoost for R.",True
+@breakurbody,2019-01-15T02:20:36Z,2,"Thank you Statquest. Was eagerly waiting for Adaboost, Clearly Explained.",True
+@kingrecession,2019-01-15T00:53:04Z,2,Haha you made the calculation noise yourself during the plug and chug :')),True
+@grumpymeercat,2019-01-14T23:42:47Z,11,"I love this format, you're great.  RiTeh strojno mafija where you at?",True
+@Otonium,2019-01-14T20:46:19Z,1,Thank you for all those crystal clear explained videos. Really appreciated.,True
+@gren287,2019-01-14T20:11:07Z,1,"Im so excited, thanks for another Statquest. :)",True

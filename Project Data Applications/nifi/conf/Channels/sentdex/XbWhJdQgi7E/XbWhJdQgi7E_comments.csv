@@ -1,0 +1,68 @@
+author,updated_at,like_count,text,public
+@AIdreamer_AIdreamer,2024-04-13T19:48:55Z,0,"Can you please talk about how we use the RL to model and optimize satellite networks and HAP( high altitude platforms)?? How we control the direction and angle of a projector embedded into HAP or UAV so that it directs its light beams towards an special area of interest on the Earth??",True
+@AIdreamer_AIdreamer,2024-04-13T16:54:17Z,0,Can you please talk about how we use the RL to model and optimize satellite networks and HAP( high altitude platforms)??,True
+@OliverKlein-ee1nn,2024-04-07T11:16:35Z,0,"I am getting ValueError: too many values to unpack (expected 2) when executing model.learn(), some other people enconountered the same issue but I haven't found a solution.",True
+@luisbarba9532,2024-01-16T02:31:11Z,0,can SB3 be extended to pettingzoo and used for MARL?,True
+@michpo1445,2023-11-14T21:01:16Z,0,"""Your environment must inherit from the gymnasium.Env class cf."" can you address this error?",True
+@Bvic3,2023-11-08T22:10:23Z,0,RL in a nutshell. IT NEVER WORKS.  It's really the part of deep learning where you implement a paper and get zero result.,True
+@ReOp14,2023-10-30T03:17:44Z,0,Im at the start of the tutorial after adding the env.render().. why is it that its not rendering anything when I run the code? I'm running python=3.9 on a windows machine w/ conda,True
+@walterwang5996,2023-05-24T12:04:34Z,0,"I have a small question: why A2C only uses one ""MlpPolicy"" in Stable_baselines3? Actually, it has two networks, am I right? Thanks.",True
+@bluedade2100,2023-04-28T19:16:40Z,1,What does the variable episodes represent here?,True
+@bluedade2100,2023-04-10T18:19:26Z,0,Guys anyone having problem with installing/running stabe baseline in MacBook? I can't run on either MacBook or linux,True
+@andreamaiellaro6581,2023-02-13T13:48:35Z,0,I followed all the instructions but when I try to run the notebook I get error on the step function; It advise me: raise NotImplememtedError.....>.<.What should I so?,True
+@rverm1000,2023-01-30T01:14:13Z,0,coding along it doesnt work. at least not in google colab,True
+@poomchantarapornrat5685,2022-12-24T23:13:41Z,0,What operating system do you use to run these on?,True
+@ahmarhussain8720,2022-11-21T01:14:55Z,0,"awesome video, learned a lot, keep up the good work",True
+@vernonvkayhypetuttz,2022-10-31T18:23:44Z,0,"SentDex youre a legend, brother. The thought of implementing these using deep learning libraries alone, instant grey hair! Thank you",True
+@nicbleu,2022-08-17T04:17:38Z,0,so freaking cool man,True
+@karthikbharadhwaj9488,2022-07-06T13:00:12Z,0,"Hey Sentdex, Actually in env.step() method you have passed the env.action_space.sample() instead of model.predict() !!!!! @sentdex",True
+@Veptis,2022-05-26T00:35:38Z,0,"I have watched a bunch of videos about what reinforcement learning can do. But I gave up on the Steve Brunton series. Perhaps I watch this series instead and understand how learning is done everything I did so far has been just gradient based learning. And I don't know if reinforcement learning applies to language. Maybe in a conversational setting.   I have a game from my childhood: Mirror's Edge mobile edition. Which you can't no longer buy as EA removed it from the store instead of updating it. As it essentially just has 6 discrete inputs I could see how it can be learned. But the levels are limited, so it might overfit easily. And rewards can't just be time, as that requires success in the first place.",True
+@noorwertheim2515,2022-04-26T12:29:23Z,0,Could this algorithm also be used for multi-agent multi-objective environments?,True
+@FishDisks,2022-03-31T21:39:27Z,12,"If you're following along using a Conda environment and the Lunar Lander environment gives you an error (namely ""module 'gym.envs.box2d' has no attribute 'LunarLander'"") then I found that you need to also install two other packages; swig and box2d-py:  conda install -c conda-forge swig box2d-py",True
+@sanjaydokula5140,2022-02-20T17:47:38Z,0,"I see that yours is using cuda device, how do i make mine use cuda device instead of cpu?",True
+@markd964,2022-02-17T14:18:53Z,0,"Great series as always...needs the next step, developing asynchronous (multiprocessing) models, eg: PPO into Asynchronous-PPO (APPO) on custom environments...Thx",True
+@whoisabishag3433,2022-02-14T02:44:56Z,0,Timestamps [ 00:01:22 ] ... : just pip install,True
+@ddos87,2022-02-10T04:22:44Z,0,youre such a beauty man,True
+@Shaunmcdonogh-shaunsurfing,2022-02-09T23:00:25Z,0,Awesome. Can’t wait for the next one,True
+@connorvaughan356,2022-02-08T04:25:57Z,0,"Very excited for this series. I'm following along and when the lunar lander game displays, it plays incredibly quickly. Probably 4-5 times faster than in the video. Does anyone know how to adjust the speed at which the game plays?",True
+@DasJonski,2022-02-07T09:54:02Z,0,"Am I the only one trying to clean the screen from dust looking like a fool at the term explanations? Anyways, great video Harrison, really enjoy your videos!",True
+@amogh3275,2022-02-07T07:35:28Z,0,"Honestly loving this series, i hope you make a indepth tutorial series on this. Thanks",True
+@tytobieola2766,2022-02-07T03:54:53Z,0,"Happy New Year SEndex, was learning machine learning during the lockdown & I had no idea in the Field . U teach so well",True
+@criscanto7040,2022-02-06T21:49:27Z,0,Awesome,True
+@davidcristobal7152,2022-02-06T18:37:12Z,0,"Don't you have to define a neural model? I mean, what if you have an image as an input? Does  Stable Baselines automagically asumes the neural network to pass through de values of the observations?",True
+@EnglishRain,2022-02-06T17:43:55Z,0,What does one use this for IRL?,True
+@oguzhanoguz8890,2022-02-06T15:03:56Z,0,"Little heads up for the next video if you can explore it :  the saving and loading of a sb3 baseline model depends on the  "" deterministic "" flag.. Sometimes when used the eval procedure given in sb3, even if the u saved the model in deterministic manner you get unstable results. Can you explore that too ? Thank g8 video",True
+@piyushjaininventor,2022-02-06T15:00:19Z,0,You are still taking random actions.,True
+@PerfectNight123,2022-02-06T14:56:01Z,0,"Does anybody know how to train the model using GPU? I tried changing the model parameter to device='cude', but it's still using cpu device when learning.",True
+@VaibhavSingh-lf6ps,2022-02-06T10:31:11Z,0,"Thanks for introducing the Stable Baseline 3,   and yeah sometime we forget to use model!",True
+@shreeshaaithal-,2022-02-06T05:25:23Z,1,Then can u say how can I make gym to play valorant game 😅 can we do this with gym or can it play call of duty: cold war,True
+@yashwanth9549,2022-02-06T04:18:02Z,0,Please add more videos about reinforcement learning,True
+@arthurflores4585,2022-02-06T00:27:10Z,0,"Thank you, these video tutorial will be of big help to my thesis. I going to support you. I have many doubts I hope this can resolved them.",True
+@Mutual_Information,2022-02-05T22:56:18Z,16,"This is very useful. I'm working on an RL video series myself (the theory side, so no overlap here) and I was just looking for prebuilt RL algos. Stable baseline's 3 is by far the most complete/well tested suite I've come across. This really makes a big differences - thanks!  Also, it's nice to see super technical coverage like can yield a 1M+ followers. Awesome.",True
+@randywelt8210,2022-02-05T22:42:52Z,0,10:40 I dont get the reward calculation. Also what is a step just the next frame?,True
+@pfrivik,2022-02-05T21:26:59Z,0,How often will these videos be released?? Im so excited to start watching and keep watching tzhe series!!,True
+@pfrivik,2022-02-05T21:26:24Z,0,LETS GOOOOOO THIS IS EXACTLY WHAT I WANTED THANK YOU SO MUCH,True
+@rgel3762,2022-02-05T21:22:32Z,0,Have you considered unity+mlagents? Why not to go that way?,True
+@KennTollens,2022-02-05T20:21:21Z,0,"Thank you for this tutorial. I am just getting into AI. It is over my head immediately, but your overview of the parts such as observation and agent were helpful for the bigger picture.",True
+@pythonocean7879,2022-02-05T19:51:11Z,0,❤️ for ❤️,True
+@vaibhavkumar642,2022-02-05T19:19:22Z,0,💥💥💥,True
+@Djellowman,2022-02-05T18:45:24Z,0,Looking forward to the next one!,True
+@ebrahimpichka,2022-02-05T18:34:11Z,0,"looking forward for the next episodes. BTW, at the end you were still using random actions after training the model.",True
+@enriquesnetwork,2022-02-05T18:31:04Z,0,"wow, great video! really can't wait for the rest to come out and learn more. Thanks for all the info you provide us!",True
+@alishbakhan1084,2022-02-05T18:23:17Z,0,I had so much fun learning with you.... can't wait to follow you again after completing my web project,True
+@narayanbandodker5482,2022-02-05T17:57:29Z,0,At first I thought it is a part 3 of a series and missed something. Then I read the description to find out that's the package's name. Big dumb moment,True
+@DaZMan772,2022-02-05T17:38:06Z,2,This is really interesting and new to me! You mentioned going over creating custom environments in future videos which sounds like exactly what I am eager to know next so I’m really looking forward to that video! Is there anything I should educate myself on in the meantime?,True
+@coolkaran1234,2022-02-05T17:23:20Z,1,by when do you think you are going to have the whole series out? it might be very helpful for my research and masters,True
+@user-yw5jc1fi2l,2022-02-05T17:16:02Z,1,You still used the random sample for testing.,True
+@hendrixkid2362,2022-02-05T17:14:39Z,2,Your videos always inspire me to continue working on my own projects!!!,True
+@furkank5614,2022-02-05T16:41:53Z,0,It seems garage has finally turned into a studio =),True
+@ahmedyamany5065,2022-02-05T16:40:26Z,0,"Thanks in advance, my issue with stable Baseline3 the installation, I got many errors last month whether installing the package on Windows or Ubuntu.",True
+@wwooo62023jk,2022-02-05T16:29:55Z,0,So expect your class!,True
+@sharmakartikeya,2022-02-05T16:22:40Z,0,"Hi Harrison sir, I live in India and conversion from USD to INR is quite expensive. Is there any way to get a discount?",True
+@AakashKumar-gt9ip,2022-02-05T16:08:55Z,109,"By the way, when you were comparing the models you were still using env.step(env.action_space.sample()) Which is why they were almost the same and didn’t look like they were learning",True
+@0OTheIDaveO0,2022-02-05T16:06:35Z,24,"I think you were still getting random results because you still had the .sample method call in the rendered tests for A2C and PPO. They learned, but you did not use the trained model for testing.",True
+@migarsormrapophis2755,2022-02-05T15:59:27Z,1,YouTube: 2 Comments Meanwhile I count five,True
+@ashu-,2022-02-05T15:58:48Z,12,"I have been using stable baselines 2 for last year or so for my work and it's super convenient, the docs are great, great examples for custom env etc. It's a great library.",True
+@monlewi1976,2022-02-05T15:56:53Z,0,wow,True
+@thetiesenvy4859,2022-02-05T15:56:46Z,0,Even without watching it . Thanks for your good work and content sentdex,True
+@Stinosko,2022-02-04T07:11:57Z,0,Hello 👋👋👋,True

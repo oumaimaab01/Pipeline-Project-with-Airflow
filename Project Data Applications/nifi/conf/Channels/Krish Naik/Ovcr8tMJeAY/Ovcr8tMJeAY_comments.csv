@@ -1,0 +1,35 @@
+author,updated_at,like_count,text,public
+@krishnaik06,2021-06-11T15:57:44Z,3,U can find the how to handle Multicollinearity  through code from the below video https://www.youtube.com/watch?v=NAPhUDjgG_s,True
+@blindprogrammer,2024-05-04T04:03:07Z,0,"30 seconds of concepts and the rest is pure ""bakchodi"".",True
+@arijitdey4400,2024-01-20T08:35:37Z,0,that is simple use vif,True
+@sriramesv,2023-06-19T07:25:36Z,1,"Checking the variance inflation factor (VIF) for all the features, and eliminating those whose VIF is >=5.",True
+@shanbhag003,2021-06-21T14:48:35Z,0,By OLS we can get the standard error for each parameter and then we can reduce the SE by log normalisation.,True
+@modhua4497,2021-06-14T20:59:27Z,0,Theoretically you can handle by using VIF and conditional index.,True
+@ravikirankonda6966,2021-06-14T11:47:43Z,0,"Vif values, influence plot cooks distance  remove influential varibales",True
+@lets_go_geather,2021-06-12T20:17:26Z,1,VIF & RFE is also a good way.,True
+@godse54,2021-06-12T15:12:14Z,0,Add more data,True
+@kvignesh9832,2021-06-12T15:00:39Z,0,How do we handle multi collinearity if the feature is  business critical and we can't drop it?,True
+@satheeshkumar6483,2021-06-12T13:29:33Z,0,"Hi Krish, I can't able to join the membership options while purchasing 299 plan amount will debited but purchase was cancelled... Could you share some updated transaction link for that particulars",True
+@Yashgupta-dd6eq,2021-06-12T12:21:53Z,0,1. Backward elimination method 2. VIF 3. Regularization Techniques,True
+@sam-ru8yv,2021-06-12T08:01:10Z,0,One vs rest,True
+@bigchallenge7987,2021-06-12T07:17:13Z,3,We can use VIF and principal component analysis.,True
+@naveenvinayak1088,2021-06-12T00:33:21Z,3,"Variance inflation Factor, if the VIF is greater then 5 then we have to drop one variable",True
+@shivacr4299,2021-06-11T18:24:09Z,7,"The question is Why are linear models sensitive to multicollinearity? If we can go on to build model though multicollinearity  is present in the data then what is the need to handle it? The answer is, linear models are not sensitive to multicollinearity..the metrics (r²,rmse,or accuracy when it comes to logistic regression) is not affected by a great degree even after handling multicollinearity.. before that...what's the need to go for linear models when there are state of the art models like xg, ada, random forest? ...Model explainability... business interpretations can be made easily wrt the target variable when we use linear models.. (Not to a great extent when we use logistic regression..)..When we build a linear model with multicollinearity present in the data the coefficients which we get from the model will be misleading...when 2 features are Highly correlated their coefficient's magnitude are split and shared among them(for eg. in the place of 1 we will have a coefficient of 0.5 and 0.5 between the two variables..) ..i.e.In the real world scenario when there is a one 1 unit of change in one feature it should affect 1 unit in the target feature..but the model interprets this as 0.5 units in the target feature which is misleading information when it comes to business...Hence we should handle multicollinearity when we are building linear models...of course as mentioned heatmap and vif are used to remove these kind of features...vif is a stricter and better option if model explainability is of the higher priority...",True
+@satyamtripathi1732,2021-06-11T18:13:19Z,1,Sir can u please tell me the duration of aws course in ineuron,True
+@vikasmishra4385,2021-06-11T18:01:44Z,1,Though PCA,True
+@carlmemes9763,2021-06-11T17:32:44Z,1,"When i face multicollinearity, i will use correlation and also by using VIF to combine the higher vif variables into the one variable or simple remove the highly correlation variable.",True
+@aayusmaanjain9854,2021-06-11T17:25:50Z,7,"We can solve it by many ways  1) If we know what the features mean, we can drop redundant columns from domain knowledge  2) We can refer the correlation matrix if we suspect there is multicollinearity and drop accordingly  3) We can look at the VIF of the features and we can drop those columns which have VIF>5   4) We can use lasso regression as it automatically drops one variable   5) We can also use PCA approach to handle multicollinearity",True
+@akashs9414,2021-06-11T17:18:21Z,11,"Simple guys...! 1. Just perform linear regression or logistic regression and note down the weights. 2. Add some noise in the data like 0.01 or 0.1 to each value in the columns, then perform linear or logistic regression and check the weights. Features weights which has changed drastically(Compare with previously noted weights) are the rows facing multicollinearity. Forgot to mention weights represent the features. So, check the weights and remove the features which have large changes.",True
+@dj-zl3kv,2021-06-11T17:08:37Z,0,This was a really half made video.,True
+@nakul1890,2021-06-11T16:56:16Z,2,1)If  they are not highly correlated we can ignore . 2)we can remove one variable . 3)Perform PCA 4)we can merge both variables,True
+@ravijeetchandra9835,2021-06-11T16:51:05Z,2,Asked from me today in an interview.,True
+@AnuragSinghKshatriya,2021-06-11T16:39:47Z,3,"Correlation and VIF will help us identifying collinear features but to solve this problem, we can choose : 1. Removing one feature out of two correlated features (identified by correlation matrix). 2. Apply Lasso Regression which helps us identifying important features. 3. Use PCA to reduce dimensions and get PCs which are not correlated (but it should be applied when # of features are very large).",True
+@sethusaim1250,2021-06-11T16:35:01Z,2,"1. We can use ridge regression for analyzing multi regression data that suffer from multicollinearity  2. Instead of using highly correlated variables, use components in the model that have eigenvalue greater than 1, using PCA Algorithm",True
+@shubhambait6283,2021-06-11T16:28:38Z,11,1) Remove highly correlated variable. 2) Lasso and Ridge Regression.,True
+@hardikbansal9308,2021-06-11T16:25:10Z,1,Increasing the sample sizeb but that is costly.We can change the functional form from linear to log.Or we can take the variable very much collinear to other side of regression. Though multicollinearity isn't that much of big problem it affects prediction only.Dropping of variable can lead to the problem of biasedness of variable.,True
+@suhartabanerjee9177,2021-06-11T16:20:01Z,15,We check the VIF values and after that we have couple of options that we can use for Handling Multicolinearity: 1. Remove one variable 2. Combine correlated variables 3. Opt for PCA (Principle Component Analysis) 4. We can ignore if the correlation is not that extreme based on our business used case.,True
+@hithere5998,2021-06-11T16:16:21Z,1,Hi Krish..Can I ask you for something??,True
+@gopalbhandari9878,2021-06-11T16:16:19Z,1,Using Variance inflation factor,True
+@gopalbhandari9878,2021-06-11T16:10:29Z,1,thank you krish,True
+@aamachatala,2021-06-11T16:10:22Z,1,We can calculate variance inflation factor,True
+@sampathkumar7633,2021-06-11T16:04:35Z,1,VIF,True

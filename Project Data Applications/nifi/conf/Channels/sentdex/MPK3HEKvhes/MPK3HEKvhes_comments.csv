@@ -1,0 +1,56 @@
+author,updated_at,like_count,text,public
+@user-bo6hw3km6b,2024-02-18T06:29:05Z,1,"on windows you have to face with acces denied error to solve this:                 os.chmod(full_path, 0o777)                 os.remove(full_path)",True
+@longngo2748,2023-06-07T03:11:58Z,0,Lê Quang Thọ :))),True
+@beyondcatastrophe_,2021-08-30T09:58:39Z,0,"The discrepancy in gigabytes from du and the analyser is probably because you are using -h, which uses powers of 1024, while -si would use 1000. I guess the analyser also uses 1000s (see https://en.wikipedia.org/wiki/Byte#Multiple-byte_units)",True
+@MadlipzMarathi,2021-07-10T10:07:38Z,0,"you have to pass total arg to tqdm eg > for x,y in tqdm( iter , total=len(iter)):",True
+@vaishaknair2874,2021-06-09T09:07:48Z,0,Could you make the data available for others to code along with you?,True
+@JK-sy4ym,2021-05-23T00:23:22Z,0,Funny. Liked,True
+@jimkokko5,2021-05-16T10:12:24Z,0,Why don't you use `find` or something to filter out .py files instead of going through _every_ file?,True
+@EarlZMoade,2021-05-11T20:37:49Z,0,"I feel like 'find . -type f !  -name ""*.py""  -delete' would have been quicker. Or even better, just download python files using the api haha",True
+@MarcelRobitaille,2021-05-11T04:50:56Z,0,"This is entertaining and there's some good lessons about testing on a subset of the data before deleting a bunch, but this could have been one `find` command",True
+@TheMemorius,2021-05-10T19:29:46Z,0,"find repos/ -type f -not -name ""*.py"" -exec rm -f {} \;",True
+@ASAAKETHMATTA,2021-05-10T09:24:03Z,0,Bro can you make a detailed video on hyper parameter tunning plss,True
+@weirdstuffsforyou,2021-05-09T21:16:32Z,0,I think now you can use GPT to write end animation of your videos 😅,True
+@samimuzzamil7267,2021-05-09T17:49:33Z,0,"waiting for the next part, please share sooner, Allah bless you",True
+@jst1977,2021-05-09T13:55:57Z,0,Every empty directory is around 4 kb. And you left a lot of them behind. If you cleaned them up it would be much smaller and utils will probably run faster to.,True
+@sbern42,2021-05-08T23:00:00Z,0,"So, in bash: ""find repos -type f ! -name '*.py' -exec rm {} \;""  i.e. in ""repos""  - recursively list all files (-type f)  - that do not end with "".py"" ( ! -name '*.py' )   - and delete them (-exec rm {} \;)",True
+@pafnutiytheartist,2021-05-08T20:04:41Z,2,"Hey sentdex! To answer your question, yes you can filter files by type in git and probably should to avoid downloading huge datasets from repos. Try something like: git checkout -- ""*.py""",True
+@Ruhgtfo,2021-05-08T16:39:17Z,0,Whoooool,True
+@Tech-to5od,2021-05-08T13:18:05Z,0,"Like every other python file had something about spoofing, abusing, hacking etc. in it :D",True
+@joshhugo323,2021-05-08T12:36:43Z,0,Perhaps de-dupe forks?,True
+@joshhugo323,2021-05-08T12:32:19Z,0,"Skip first 8 minute, all about files sizes of the cloned repos",True
+@ruidian8157,2021-05-08T07:00:31Z,0,"Hey man, I think you’ll like the “rich” library a lot. It is a library for coloring the terminal and also progress bar and a lot more.",True
+@_ARIC_KAJI,2021-05-08T05:17:59Z,0,how to make a exe file in small size and i also use reportlab so how to make this and i watch your video about making exe using cx_freeze so how to make a exe file in small size help me bro,True
+@RineshAndrews,2021-05-08T04:17:24Z,1,Hi to all the super heroes here 💙,True
+@keenua,2021-05-07T23:25:43Z,4,"I'd assume that the github login popup is for private repositories. When you were listing them through the API they were public, but by the time you got to cloning them, the author had already made it private.",True
+@pbt189,2021-05-07T23:15:20Z,1,I truly held my breath when you tried the final script.,True
+@patrykr5183,2021-05-07T22:43:20Z,0,When will you upload another nnfs video? Really can't wait,True
+@seftondepledge3658,2021-05-07T21:53:15Z,4,The reason tqdm did not have a progress bar is because it was used on an iterable/(possibly generator) with an unknown length. You can fix this by using the 'total' argument if you know the length of the itreable.,True
+@fadop3156,2021-05-07T21:45:43Z,0,you can clean it up even more by deleting folders with no content. Prob. Not gonna change to much tho,True
+@whoisabishag3433,2021-05-07T20:45:26Z,2,"Is This The Q & A Series Video: ""Be Hacky Part 2""?""",True
+@whoisabishag3433,2021-05-07T20:42:38Z,0,"Classic SentDex, This shows his Experimental Nature!",True
+@theocachet6496,2021-05-07T19:21:52Z,0,"Hi Sentdex thank you again for this amazing content.  I have been trying to do the same thing recently. I am wondering if we could find a way to mask GPT predicted tokens, so that every predicted Python code is a syntaxically correct Python programme. Maybe one could use the python parser/lexer to do so. This is a serious question, it would be amazing if you answer. Very best.",True
+@vishxl,2021-05-07T19:16:06Z,1,21:02 Snowden using DuckDuckGo,True
+@adempc,2021-05-07T19:09:39Z,0,Thanks -,True
+@Tferdz,2021-05-07T18:47:50Z,1,Why not using Path from pathlib? You can use suffix to check extension. You can unlink the file to delete.,True
+@everluck35,2021-05-07T17:34:16Z,1,"Thank you for this series, very interesting!",True
+@AlienAI23,2021-05-07T17:33:56Z,1,Wait for this tutorial ❤ Love your amazing cups🍺🥃🍷🍵,True
+@alanreal2341,2021-05-07T17:32:19Z,0,Are you going to do the embeddings next?,True
+@classicrockman90,2021-05-07T17:31:22Z,0,"I'd suggest using the glob module in the Python standard library. Use iglob for a large scan like this...  import glob  pyfiles = glob.iglob(""/path/to/repos/**/*.py"", recursive=True)",True
+@RecursiveTriforce,2021-05-07T17:18:19Z,1,"tqdm didn't have a progress bar because os.walk is an iterator.   It doesn't have a length.  You could have called it as: tqdm(os.walk(...), total=1000000)  Then it assumes that there are a million iterations in total.",True
+@4833504F,2021-05-07T17:13:50Z,10,"you should really be cloning with --depth 1 and --filter to not fetch large binary blobs when all you want is python source files. or not even clone, but use to github api to download .py files only",True
+@marcovasilev7950,2021-05-07T17:09:00Z,0,I want more,True
+@radhi.sghaier,2021-05-07T16:19:38Z,5,"The maximum repo size on GitHub is 100MB, but for bigger projects, there's ""git lfs"" (large file storage) that allows for parts of the repo to be stored elsewhere ...",True
+@Indemere,2021-05-07T16:13:10Z,22,"Omg plot twist... Now it all makes sense! Sentdex has been narrated by Jarvis all along, and now it's showing us how it made itself into a python programmer :P",True
+@busterdafydd3096,2021-05-07T15:59:53Z,1,"20:00  I thought you were a great programmer as your programming tutorials encouraged me to keep learning python, but watching you right this code makes me think you are dumb",True
+@moazim1993,2021-05-07T15:37:00Z,1,How do I generate sendex with GTP-3?,True
+@jonasls,2021-05-07T15:33:08Z,0,You should maybe not clone the git history? (.git),True
+@cm9973,2021-05-07T15:25:16Z,2,GIT CLONE only asks for login if the REPO IS PRIVATE,True
+@kunalkushwaha6232,2021-05-07T15:25:06Z,0,Try to upload lil bit faster. Please !🥺,True
+@spacecode206,2021-05-07T15:23:08Z,1,Tenth,True
+@fernandosanchezvillanueva4762,2021-05-07T15:14:53Z,0,Great video !!!,True
+@python1108,2021-05-07T15:12:13Z,0,Keep them coming!!,True
+@eazye7059,2021-05-07T15:11:49Z,1,Sentdex the best youtuber,True
+@HT79,2021-05-04T09:01:44Z,2,"Thank you, enjoying watching this while eating my lunch",True
+@Stinosko,2021-05-04T06:53:56Z,1,Howdy 🤠👻,True
+@fuba44,2021-05-04T05:08:38Z,1,"When i do stuff like this, i usually pickle the timestamp/enumerator of the latest thing i just did was, then have the program look for a specifik ""pickle file"" at startup and load it if it's there/start from beginning if not. Its like 7 lines of code or less, and that way my stuff always auto-resumes where it left off ;-) Also, daaamn 18gb's worth of .py files, that's a crazy amount of code!",True

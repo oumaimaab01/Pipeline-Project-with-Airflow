@@ -1,0 +1,60 @@
+author,updated_at,like_count,text,public
+@GGShinobi77,2022-04-30T18:24:35Z,0,"Nice tutorial, man!!! 🤗 I will check if you have more tutorials, with a little bit more recent software (python3 :D)",True
+@roynoi4662,2021-09-21T19:22:09Z,0,"Can it be that your Inch to cm conversion->output doesn't work or you simply forgot it? Above value 9 the green and yellow LED should be high - that's another question to your video... I think, this transission is nice to have though, but you could be more precise explaining yourcode. In the last chapter, as a totally newbe, I struggled to follow with your Echos etc.. Ok, but now it's 4 years too late :). But maybe it helps others... Great tutorial though. I will dig deeper into that matter.",True
+@BiologyIsHot,2021-09-05T17:40:06Z,3,I think this could possibly be newer than this tutorial but there is also GPIO.set_callback() that you can use instead of a continuous sensor loop. It runs when a value changes and minimizes CPU usage.,True
+@vladimirpotapov7050,2021-04-11T20:41:40Z,0,Thanks for the videos!,True
+@aaronmorgan2475,2021-02-11T00:56:00Z,0,thanks for the tutorials. I modified this to make a social distancing snapback. Only works within 1 meter,True
+@dianastoia8600,2020-12-12T19:17:46Z,0,What resistance are you using?,True
+@ianstout4174,2020-08-10T20:47:03Z,0,Have you completed any raspberry pi projects where you've interfaced with the microcontroller without going into the raspberry pi interface? Or could you initiate your python programming from outside the pi interface I have seen some stuff with serial connections on arduinos just was wondering if you had done something like that at all.,True
+@TXfoxie,2020-07-28T03:49:29Z,1,"I enjoy this series very much. Thank you for your great tutorial,  exceptional as always. BTW, in your pin diagram of rasberry pi GPIO header, you have 3 grounds(black), but on the breadboard, you have 4 grounds(black). Maybe you made this mistake on purpose so that we can figure out how to wire the pins. LOL. After I adjusted diagram, my lights work perfectly. Thank you a lot!",True
+@duncankiprotich9512,2020-06-10T12:56:15Z,0,kwera,True
+@snake1625b,2020-05-01T20:09:42Z,0,10/10,True
+@Joso997,2020-04-21T00:55:23Z,0,Can you use one ground for all of them?,True
+@navsquid32,2020-04-14T18:09:23Z,0,"Out of curiosity.... how are you choosing these resistor sizes? The typical LED draws about 20 mA for full brightness operation. The yellow and green LEDs have a forward voltage of about 3 volts, leaving 0.3V for the resistor to drop,  and if you put a 500 ohm resistor in there, you're drawing less than 1 mA of current through that LED. Realistically, the yellow and green LEDs should have a 30 ohm resistor maximum in there, which gives you 10 mA of operating current. The red LED drops about 2V, so you can use a 130 ohm resistor for that one.   The voltage divider on the ultrasonic sensor -- the only documentation I could find online says the operating current in the sensor is 15 mA. Not sure what exactly that applies to, but obviously you'd think that would dictate the resistances in the  divider. Using 1 and 2 k reduced the total current available to  1.7 mA.",True
+@all_c1ear,2020-03-20T22:02:49Z,0,"I need more knowledge, please. Thanks for the great videos.",True
+@sksuman4400,2020-03-07T16:34:14Z,0,"Hi sir, I'm a big fan of your way of explanation. I regularly check your every video. Sir, currently I have faced a problem, actually sir I wanna access my PI from anywhere in the world without using the third party application. I have googled about this but everybody is talking about third party application but I don't wanna use the third party application. If I use the third party application then there will have a risk for data theft. So it's my humble request to you, sir, please give me a solution.",True
+@chrishellmax,2019-12-31T08:15:47Z,0,"lol. im sitting here and think wtf would you need a distance/ light combo breadboard/pi and what real world application could you use it for. THen my mind is like. Dude, reversing your car backward. Install the sensor above your licence plate, then have the lights on your dashboard telling you how close you are to the object behind you. Sweet. Now the program makes sense to me.",True
+@bobyau8755,2019-12-21T15:15:19Z,0,where does the vcc plugs in to?,True
+@hocky209,2019-12-11T06:27:57Z,0,Awesome! I’m using a different breadboard and am trying to duplicate this,True
+@kameroncross1753,2019-12-06T03:39:55Z,0,Would it make a difference if i used a 510 ohm resistor where it says 500,True
+@sutec1984,2019-10-08T12:28:31Z,0,10:02 always turns red when I approach the light :(,True
+@drdax,2019-08-11T03:44:52Z,0,Seriously some great content here.  It's hard to find stuff that actually goes through the steps to setup something simple like this for the noobs amongst us like myself,True
+@computation9815,2019-07-31T19:11:08Z,0,You should do the toriel's on the Raspberry Pi gyroscope and accelerometer,True
+@LiguoKong,2019-06-30T04:32:16Z,0,so cool!,True
+@mrfluffy9273,2019-05-25T14:30:26Z,0,Good video im just wondering why your prints doesnt match up with your if statments? but thanks for all the videos .,True
+@prateekchachra9758,2019-05-16T07:21:44Z,0,Awesome! Learnt a lot through this! Thank you so much,True
+@FM-mo2eq,2019-05-08T09:17:25Z,11,Dude great tutorials.   maybe you could make some more thanks!,True
+@wiktorcheba279,2019-04-03T14:10:47Z,0,"when i try to run it, it says ""line 25, in <module>     sig_time = end-start TypeError: unsupported operand type(s) for -: 'builtin_function_or_method' and 'builtin_function_or_method",True
+@thesidd19,2019-01-19T19:30:21Z,0,Thanks a lot :),True
+@techmj4837,2018-12-17T13:13:51Z,0,please help me in code Interfacing  Ultrasonic sensor  3 leds Buzzer GSM module  GPS module  For smart garbage monitoring system,True
+@techmj4837,2018-12-17T13:11:28Z,0,Thanx bro sir ur best,True
+@jokesmakemehappy4201,2018-12-02T02:03:01Z,1,Why did you stop the tutorials? how can I learn all of the things for raspberry pi now,True
+@marcelh.4870,2018-11-02T09:57:04Z,0,"Nice turotials! Clear explenations with good voice! I'm a TurboPascal,  mikroPascal ( for AVR by www.mikroe.com ), Dephi/Lazarus programmer and have to get used on the Python syntax. One question: I see Python like qBasic was in my DOS-age, but is there a Python-IDE like Delphi? Creatign forms with buttons etc etc? Kind regards!  Watch my channel for robotic(-arm) and more fun!",True
+@Shahbazpucit,2018-11-01T00:39:19Z,3,You've made my day 😇 Stay Blessed,True
+@ClashingJunction,2018-10-21T09:30:05Z,0,How can I connect a buzzer instead of three LEDs so as an  obstacle gets into a specific distance the buzzer should make the sound or buzz,True
+@Denverse,2018-08-23T09:51:57Z,0,Awesome,True
+@christiansrensen3810,2018-08-13T13:41:28Z,0,"Thx for the tut series...but..you do it so good..that the speed is spinning out of control..if find both you and the content good enough to spend the time to hear you opinions..but I found my self pausing rewind a lot...slow it a bit down...in the end of the series you go"" and jada jada and then jada great jada"" I rewinded it and got.. ""then we set pin 18 and jadajada"" revind again..""then we set pin 18 as output..😎🙏 but I will stick around for more..thx mate",True
+@sukmaraharja7446,2018-08-11T07:58:53Z,0,Awesome,True
+@erfanhashemi678,2018-07-05T12:26:51Z,0,Thanks a lot.This is great tutorial.I have a question . When I write sudo apt-get install python-rpi.gpio then I see write package has no candidate?,True
+@sasines,2018-07-04T04:11:37Z,0,"Great tutorials!  I have enjoyed all of them.  Just starting out with Raspberry Pi after using an Arduino for a lot of years.  Your video and audio quality is excellent and your videos are very easy to follow.  I would like to make a request.  How about using a lot of the projects in your tutorials and put together an internet of things?  The video camera, GPIO for controls, etc.  You do such a good job explaining you could make a truly awesome tutorial for an IoT.  Thanks again for the tutorials you have done so far.  Love em all.   Alan",True
+@MrArteez,2018-06-21T06:26:48Z,0,"great tutorial, can we expect a next part in the series sometimes?",True
+@hanasamdani8073,2018-06-03T20:59:00Z,0,"Can you please, please upload a tutorial for making an attendance system with raspberry pi using a R305 fingerprint scanner(without using a Serial USB Converter)? I have been stuck for more than a month and cannot seem to find the tutorial that i require. Please help!",True
+@phuuuur,2018-03-23T19:27:57Z,0,come on man we need 9 !! ;(,True
+@donashdid6636,2018-03-17T22:36:58Z,4,it used to run but now it gives me this: sig_time = end - start UnboundLocalError: local variable 'start' referenced before assignment  please help,True
+@Lowellbert,2018-02-08T21:53:21Z,0,Great tutorial!,True
+@biplabroy8991,2018-02-08T10:46:32Z,0,"Your tutorials are great learning materials. Would be great if you replace the ""Disable Warning"" part with te provided link. http://raspi.tv/2013/rpi-gpio-basics-3-how-to-exit-gpio-programs-cleanly-avoid-warnings-and-protect-your-pi Please share your thoughts on the topic.",True
+@lokeshkumar2796,2018-02-02T05:55:25Z,0,Video was great. I see this video is missing how the sensor and its resistors connected. If you have a video . please share it to my mail : lokesh.chikkala03@gmail.com,True
+@srkstudy1302,2018-01-30T00:59:11Z,0,"Hi sentdex, excellently presented demo..keep going, you are doing a great job !!",True
+@ahmedb.hameed3330,2017-12-24T19:05:18Z,1,"First of all thanks for those great tutorials, May you please explain why that your terminal read 2.2xxx cm and then your LED color changes respectably to the distance!! Those reads do not matches with your program code !!!",True
+@simonchan2394,2017-08-07T14:36:35Z,3,"Are distance sensors supposed to operate under a while True loop that doesn't end? I worry if I set it up like this, the distance sensor would degrade fairly quickly.",True
+@alexcsillag7816,2017-08-02T15:31:14Z,63,what happened with this series? I want more. I just bought a Raspberry Pi 3 and I can't wait to get it and i found this series. Please do more.,True
+@raghavahuja4b9,2017-07-19T17:33:54Z,0,Keyboard intrupt yet the light is on,True
+@jimmyhans4433,2017-05-29T09:26:53Z,0,nice demo,True
+@02semiata,2017-05-17T13:52:25Z,1,You're the best around. Awesome work,True
+@yadunandanpillai2899,2017-04-09T04:05:15Z,0,Do you plan to do a tutorial on the Pyramid Web Framework for Python?,True
+@Promar22,2017-04-07T16:37:53Z,0,"Hey Sentdex, do you plan on doing a tutorial for interfacing an IR distance sensor with the R pi? If not do you know of any good resources I can use to get mine working. (pretty sure you need an ADC, is there a way to do it without one?)",True
+@charlestatendamako6121,2017-04-05T18:39:37Z,0,"Hi Sentdex, I'm Charles in Zimbabwe..Thanx a lot for this tutorial series I really appreciate the work. I have a question though,, how can I get my script (for example Distance.py) to run automatically every time the Raspberry Pi Boots up (without me having to initiate it using the ""python Distance.py"" Command), like what Arduino does everytime it boots up it runs the code that is uploaded... Please Assist. Thanx a lot in Advance. Cheers",True
+@birdmun,2017-04-05T15:10:51Z,0,"If you were to use that in real life, you might consider adding another sensor or two. If you were to begin relying on the system and something failed, you would have no way to know and probably not get your vehicle parked where you expected it to be. A dead Pi or a dead US would not be known about until after the vehicle was ""parked"". :)",True
+@alexandrebegijanovi503,2017-04-05T13:12:03Z,0,"Hey man , great tuts. Please more Raspberry pi videos.",True
+@chandansingh-ne7ux,2017-04-05T07:48:18Z,0,I want to use sensor data in node red using exec node.what I do?,True
+@chandansingh-ne7ux,2017-04-05T07:37:46Z,0,awesome,True

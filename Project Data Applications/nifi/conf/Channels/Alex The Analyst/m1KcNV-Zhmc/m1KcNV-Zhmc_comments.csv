@@ -1,0 +1,162 @@
+author,updated_at,like_count,text,public
+@itsandyagain,2024-05-08T19:32:33Z,0,"great content. had a bit of difficulty sticking it out because of all the vocal fry. No offense intended. I would like to suggest doing some vocal warm-up exercises to make it more aurally pleasing, but I'm also an idiot so don't take what I'm saying too seriously",True
+@JustinLietz,2024-05-08T02:08:03Z,0,"Thank you for sharing, really really appreciate this. I would love to see more advanced stuff, specifically examples where you're using synonyms across different servers within source stored procedures (used to populate stage tables) to make joins along with ctes. I am at an internship right now, and still in my first year of college, I feel completely lost when working in these health insurance databases, most videos on youtube don't really go into more complicated stuff that I work with everyday so thank you again  Many of these queries in the code base are 3000+ lines long and my brain goes numb looking at all the subqueries, joins, and obscure functions I have no idea what they do",True
+@JuanCarlosLugo-kl5gs,2024-05-02T05:14:03Z,0,Class jclg,True
+@JuanCarlosLugo-kl5gs,2024-05-02T05:12:50Z,0,Enpache,True
+@DeepakBhargav-or8rs,2024-04-30T10:42:51Z,0,thank you so much for this tutorial,True
+@dawitworku821,2024-04-27T20:07:38Z,0,Very helpful. Than you.,True
+@csyronnegalang679,2024-04-21T04:03:18Z,0,"Hi! I just tried the syntax for subquery in where but I tried it also using join and got exact result  *Alex subquery in Where* select EmployeeID, JobTitle, Salary from EmployeeSalary where EmployeeID in ( 	select EmployeeID 	from EmployeeDemographics 	where Age > 30 )  *my syntax*: select demo.EmployeeID, JobTitle, Salary from EmployeeDemographics as demo join EmployeeSalary as sal 	on demo.EmployeeID = sal.EmployeeID where Age > 30  Anyway, I find your tutorial very informative and tried to use some work arounds if they will have the same output. Thank you always, Alex!",True
+@sols9019,2024-03-25T02:33:06Z,1,Done for SQL Tutorial after 3 weeks of learning and spending 2-3 hours in each session while creating different scenarios outside the samples. hehe Mygee! I made it! haha! Thank you Alex! Next step is to get a certificate of SQL before proceeding to the other Tools. Hopefully I'm doing it right. Lol,True
+@momohtimothy6898,2024-03-16T17:10:25Z,0,I am Finally done with SQL on this amazing channel. But got to go back for some revisions.,True
+@ekinci_io,2024-03-15T03:26:38Z,0,"As someone who received SQL training during master's degree, I have to say that I learned much more from Alex's SQL lessons than what I learned at school. You are amazing Alex!",True
+@alexrook5604,2024-02-21T05:57:08Z,0,"This wasn't bad but do you anything other than ""really quick""? You said it 21 times in 8:30",True
+@gb__100,2024-02-20T04:04:40Z,0,How many times can someone say “really quick”…wow. good stuff tho,True
+@danielgovender5263,2024-02-11T17:50:06Z,0,How tf you set an alias for a subquery as 'a',True
+@ColonelHathi,2024-01-20T23:10:10Z,0,"I just finished the Beginner, Intermediate, and Advanced SQL videos. Thank you, Alex, for publishing these. I'm adding SQL to my tool belt. These were a fantastic first look at the language.",True
+@esenogus6775,2024-01-19T21:16:44Z,0,Slowing down your pace a bit would help the absolute zero beginner.,True
+@pipertripp,2024-01-10T18:44:19Z,0,"This looks like a really interesting subject. I didn’t know anything about it until now, but I suspect the exponential, geometric, and weibull distributions might factor in?",True
+@ezhankhan1035,2023-12-30T15:22:59Z,0,Brilliant SQL Tutorial Series! Every Video has really helped to fill in any potential gaps in my knowledge and even reinforce my existing skills. Thanks Alex!,True
+@claraoliva254,2023-12-07T21:57:26Z,0,"Just to clarify, only the where statement combined with the subquery can only have 1 column selected? SELECT and FROM can select all columns if wanted from a subquery? thanks!",True
+@guilboy,2023-12-04T11:22:33Z,0,Should have started watching you long ago ..,True
+@ChilledSquirrelyt,2023-11-15T14:42:54Z,0,Where is primary and foreign key video could you please share the link,True
+@queenbecca5157,2023-11-09T19:09:13Z,0,Mr Alex.  I'm currently following your steps on tge sql project  but it shows me operand divide. And it is giving me errors . Please someone show help me out,True
+@fantasytrain42,2023-10-27T02:52:42Z,0,"I have enjoyed your videos. I have been programming and working as a dba for a long time, 28 years - since sql server 4.2. (Do you remember *=). I would consider myself an expert in sql server. I was even able to pick up a couple things in your sql videos that I didn’t know or at least did 8n a different way. Great job. Looking forward to the python and newer content. Working towards learning how to use ML to help clean data and find errors over the next year.",True
+@shappirefishing1186,2023-10-22T17:00:49Z,0,Excellent Tutorial,True
+@lorileifer613,2023-10-16T16:30:26Z,0,"Instead of doing WHERE EmployeeID IN (SELECT EmployeeId FROM EmployeeDemographics WHERE Age > 30), you could do WHERE EXISTS (SELECT EmployeeId FROM EmployeeDemographics WHERE Age > 30 AND EmployeeDemographics.EmployeeId = EmployeeSalary.EmployeeId). No? Which one is more efficient.",True
+@kristinaannabel7113,2023-10-08T12:51:11Z,1,that was really quick,True
+@viktoriaballa4622,2023-10-03T21:41:52Z,0,I'll stop here at DAY-4,True
+@Jl777100,2023-09-25T01:12:07Z,0,"Still confusing AF, but I think I will get there at some point.  Thanks!",True
+@rickydethan7037,2023-09-20T18:24:17Z,0,"I just finished the SQL tutorial from beginner to advanced. Now I want to start the portofolio project but part 2 & 4 of that video are missing. Let me know when those video already uploaded. thank you very much and sorry if there's something wrong about this comment, I'm still learning English",True
+@JJ-ln9si,2023-09-16T15:53:49Z,0,Where this may be good for beginners I was hoping for some actual advanced queries. These were sort of common sense basic IMO. Where I work they have some COMPLEX subqueries and I was hoping to get something even remotely similar. But i'm just not the target audience for this video obviously.,True
+@JustABigFan2010,2023-09-15T00:50:16Z,0,How do you do this on MySQL or MariaDB?,True
+@user-ok9vq1rh6h,2023-09-14T12:59:22Z,0,"Hey Alex! All your videos on Sql Tutorials are awesome! Can you make a video on how to use primary and foreign keys in Sql Server? You've mentioned in one of your videos that you'll be covering those topics but I haven't come across the PK and FK in the Sql Tutorials(maybe I've missed them). Or if you have a video already out, could you direct me to it? Thanks for all the videos, they've helped me understand SQL Server much better!",True
+@michaeloyetunde8974,2023-09-02T16:45:45Z,0,"Thank you so much, Alex. Your videos are superb.",True
+@ThiagoSimoes79,2023-09-02T16:23:40Z,2,"I thought I knew SQL, but this whole series of videos help me understand that I don't know anything. Although your explanation was ease to follow and understand, I feel that need more study to really understand all the concepts.Thanks a lot for your time to make this series.",True
+@syedalinemath917,2023-09-02T05:58:29Z,0,Thanks it was helpful!,True
+@justmedidi,2023-09-01T14:17:48Z,0,question. i'm confused why does GROUP BY not work when writing subqueries? i didn't quite understand..,True
+@davidcorona644,2023-08-27T03:51:37Z,0,"Holy mackerel! We think and code exactly the same.This is exactly how I teach people about sub-queries, and partition by, and even the rarely used 'right join' which is similar to 'not in' where clause sub-query.",True
+@Charlay_Charlay,2023-08-26T15:26:49Z,1,Thanks Alex!,True
+@frybait0626,2023-08-22T18:53:44Z,0,How about doing an AVG SALARY for each employee instead of AVG FOR ALL? How do you query that?,True
+,2023-08-19T15:29:34Z,0,"Hi Alex! I'm following you in LinkedIn. Pls, keep me post it about the data analyst bootcamp you plan to launch. I, myself I am changing career. I want to be more technical marketer with strong focus on web analytics and touching here and there analytics subjects....",True
+@gonzaloenrique8741,2023-08-19T15:11:45Z,1,"Take a shot everytime you hear "" really quickly"" and try to survive",True
+@AZZOUZE1,2023-07-30T14:14:30Z,0,Great content Thanks,True
+@Alexdasilva872,2023-07-27T15:07:28Z,5,"I've just finished this series (1 week). I'm going to rewatch it all again (hopefully 1 day) and then start the Portfolio Project. I started from 0 and your videos are purely useful content, it made me understand SQL really fast.  Thanks from Spain.  PD: I will communicate here when I finish the course completly and also if I am lucky enough to get a job.",True
+@adityapandey6969,2023-07-25T17:45:17Z,60,"The entire, Beginner, Intermediate, and Advanced playlists are a gold mine, Alex! Thank You!!!",True
+@1689JeffChavez,2023-07-19T06:03:59Z,0,On my journey through the boot camp...  This comes in handy. Thank you.,True
+@COOKINGBIRD,2023-07-06T13:47:21Z,0,I'm so grateful for the SQL tutorial video. Thank you for sharing your knowledge. 😊📹💾,True
+@connorheadden3597,2023-07-05T15:39:41Z,0,"Can anyone please help me understand: Why is there a FROM operator in both the outer query and the subquery?    Hi, I love the way you explain things.  People have very different ways of explaining programming/coding concepts, and your ways of seeing things really works well for me.    SELECT EMPLOYEEID, SALARY, (SELECT AVG(SALARY) FROM EMPLOYEESALARY)               FROM EMPLOYEESALARY;   What does the FROM operator do in the outer query that it doesn't do in the inner query?",True
+@melissaleigh3013,2023-06-19T01:28:41Z,2,"King, you are the best sql teacher on youtube. Thanks SO much for making content on sql concepts that are actually used in everyday work flows.",True
+@esthernwaogu592,2023-06-09T10:13:09Z,0,Hello Alex I love ur videos they v been guiding me through data analysis but i v issues with my sql,True
+@pasta_sauce,2023-05-15T19:32:29Z,0,There is a missing pieces that is preventing me from cracking this thing i just can't figure out what it is.,True
+@jpzhang8290,2023-05-12T07:50:12Z,0,Subquery can also alternatively be replaced by temp table or CTE.,True
+@Helloimtheshiieet,2023-04-15T14:10:26Z,1,"Bad example on partition by... but everyone on YT copies one another and gives non-realistic examples. For anyone reading for people who actually work with  SQL. Partition by in a Nested join subquery will give you a count when grouping by something different or you can use it in the outer. For example 5 nested tables 1 primary table nested (from table). The partition by in the outer you can cntd partition by x,y,z fields to produce a value. For example lets say you are running daily dates and want a count distinct by accounts etc. You will 100% not get the right count. Why? your nested quries are pushing out numbers by day (fine with sums) (Not fine with counts, count distincts). Essentially you are counting distinct daily and it must be dealt with inside nested query + out or in the outer. These things are what should be covered. However, instead you get people who i'd suspect don't know anything about SQL and downloaded some videos and copied it over to their own version. Anyone rushing over partition by trust me close their video. It's massively powerful and in all honesty one of the most important functions along with LAG/LEAD that you can possibly grasp. Especially aggregating up/down across multiple timeframes. Once again real job vs playing around pressing play for kids on youtube.",True
+@kelthekonqrr,2023-04-11T15:25:16Z,0,"SubQueries, I keep coming back here",True
+@thesamshekhawat9500,2023-03-30T10:55:04Z,0,Thank you so much Alex for providing such a valuable skills for free. It really made me become a aspiring data analyst.,True
+@user-fr9gv8vk9t,2023-03-27T04:00:51Z,1,Thanks Alex for teaching Advance SQL REALLY QUICK.,True
+@AnglBunny,2023-03-22T06:26:38Z,0,Thank you so much for posting this series. I am learning SQL for the first time and your videos are extremely helpful :),True
+@marius9897,2023-03-20T16:17:31Z,0,"Hi Alex.  Thank you very much for this series of videos.  For me, your method of teaching is easy to follow and understand.  Are perhaps you going to produce a tutorial on Goolge's Looker too in the near future?",True
+@lucatintor4896,2023-03-12T09:20:45Z,0,Hello teacher where can I load those data to practice following your explanations? Thank you,True
+@bryanpaulcardinoza7693,2023-03-09T11:11:21Z,0,Just finished watching all sql tutorial videos in this bootcamp. Time to watch the portfolio project.,True
+@EvanMcLaren,2023-03-06T18:21:18Z,0,"I'm curious about the alias or variable ""a"" you gave to the subquery. Just trying to understand why this is necessary.",True
+@davekoot7880,2023-03-05T08:29:42Z,0,Thanks for the video! Studying SQL with DataCamp but the explanation on subqueries is very short..,True
+@ajaysurya9075,2023-03-01T21:23:22Z,0,"I wanna ask a question, that can we build charts and graphs in mysql for reporting?",True
+@queensam6868,2023-02-26T20:19:23Z,1,Great content,True
+@itikalaneelu9126,2023-02-24T10:40:12Z,0,keep up the good work sir. I have been following your videos and techtfq videos as well and learned so much,True
+@user-eu5rz4nv3y,2023-02-22T13:48:18Z,0,"hello Alex and thanks for greate videos. What ""over ()"" means? thanks",True
+@ninahbae2922,2023-02-19T17:09:00Z,10,"Today i have completed SQL😩😩🥰❤️ Am so grateful for having found your channel, i believe by 2024 i will land a data analyst role in government or health care all studying from this bootcamp from scratch🙏🙏🙏 never been as committed, thank you so much once again, tomorrow am starting off with Python",True
+@MrXRes,2023-02-16T09:26:59Z,0,You just basically saved my career now,True
+@mouradserrai6762,2023-02-13T16:45:36Z,0,"UPDATE youtube SET button_Name = 'star_rating' WHERE button_Name = 'like'  here we go @Alex you have got my 5 stars ;)",True
+@samuelraj5613,2023-02-13T14:54:08Z,0,Done,True
+@yaseenal-wesabi5964,2023-02-13T00:05:01Z,0,"Had an issue with the server connection, any idea to fix that?",True
+@marklabaclado2176,2023-02-12T09:44:17Z,1,What program is used here? It looks like a Jupyter NB for SQL,True
+@charlesrobertson1860,2023-02-04T23:20:55Z,1,Thanks so much for these tutorials! I had a basic understanding of queries in ArcMap for GIS data and didn't understand why it was really that important but now thinking of it as having a database that has pre-made queries that can be manipulated in different ways to process and analyze data has made me understand its importance!,True
+@richardogden1466,2023-01-29T15:03:25Z,0,Thank you for your work and detailed explanations Alex.  I mainly use COGNOS and COGNOS SQL so this is a great crash course for me to learn the differences between the two.,True
+@AlijandroI,2023-01-23T16:35:01Z,1,"Had troubles understanding some concepts from a bootcamp but your explanations are amazing!  Concise, precise and easy to understand.Thank you!",True
+@ImEli2215,2023-01-23T07:12:39Z,0,"After roaming around with other tutorials, it makes your tutorial more valued. Thanks sir",True
+@loose.electricity,2023-01-13T19:14:46Z,4,"Just finished this series, thank you so much, you've re-ignited my passion for learning again. These simple, clear explanations of concepts has given me the confidence to dive back into more advanced concepts again.",True
+@rockymarquiss8327,2023-01-10T17:06:58Z,0,Using a subquery in the FROM clause also isn't as clear as a CTE or temp table.,True
+@chantel2269,2022-12-30T18:47:58Z,0,"Is there a further explanation as to why we can't see the AVG salary for all employees when we don't use a subquery or partition by? I am not understanding how GROUP BY EmployeeID, Salary is not the same.",True
+@pramudyadika_,2022-11-10T15:17:52Z,1,thank you Alex!,True
+@tomilolaomowumi7156,2022-11-05T22:45:27Z,0,You posted a tutorial on CTE before this. I am following from the older videos to the newer ones so I got lost for a bit and had to come find this. Thank you for making learning easy,True
+@flyeagle320,2022-10-23T07:13:06Z,2,I Am glad I followed the whole series of SQL tutorials from easy to advanced. Now I am clear on the concept. Now I am going to follow a real-world project of yours.,True
+@GrumpyOldMan9,2022-10-16T15:53:00Z,0,Nothing is going on,True
+@ves5657,2022-10-09T17:18:24Z,0,"for the first WHERE subquery example couldn't one do this instead?  SELECT EmployeeSalary.EmployeeID, EmployeeSalary.JobTitle, EmployeeSalary.Salary FROM EmployeeSalary, EmployeeDemographics WHERE EmployeeSalary.EmployeeID = EmployeeDemographics.EmployeeID AND EmployeeDemographics.Age > 30;",True
+@ves5657,2022-10-09T17:09:43Z,1,"What happens if you remove ""over ()"" from the ""with Partition By"" example?",True
+@lefamokgatle2489,2022-09-26T11:40:36Z,0,Thank you so much. I had trouble understanding sub-queries. You've explained it so well. 😎,True
+@louisizuchi1626,2022-09-25T13:21:51Z,1,"Thank you Alex, i really learnt a lot from the beginners series up this advance series",True
+@halildurmaz7827,2022-09-25T12:20:26Z,1,"Perfectly clear explanation. However, I also noticed wrong information:   7:17 You said, ""In your Subquery, you can only have 1 column selected"". However, you can select multiple columns by using parentheses --------> WHERE (a, b) IN (SELECT a, b FROM x)",True
+@yingdeng1106,2022-09-23T23:08:33Z,2,"Thank you so much Alex! I went through the basic, intermediate and advanced SQL Tutorials. I would love to learn more about the store procedures in detail!",True
+@JohnRussell9,2022-09-10T10:32:58Z,0,Thanks for giving such a clear and concise explanation for why one would use subqueries! I'm currently working through the Google Data Analyst certification program and your explanation and approach was much easier to understand than the instructor who presented on this very topic.,True
+@ivorkoruznjakk1579,2022-09-10T05:37:20Z,0,Im taking a test today and this is the perfect video for a quick reminder of everything.,True
+@romanvasiura6705,2022-09-04T19:59:29Z,0,Thank you for this video and recommendation,True
+@anthonynkem,2022-08-26T12:23:32Z,0,Thanks Alex. Great course,True
+@stultuses,2022-08-06T20:24:54Z,3,"Excellent, someone who knows how to zoom in for those watching on mobile!!!!",True
+@fatiherden1985,2022-07-27T08:46:05Z,0,"Hi, If it's possible ? I want to get a query like that Select No, Colum1 (if value is 1 from SecondTable), Colum1 (if value is 2 from SecondTable), Colum1 (if value is 3 from SecondTable), Colum1 (if value is 4 from SecondTable) from FirstTable LEFT JOIN FirstTable  ON FirstTable.No = SecondTable.No  The row should include No,  4 Same values but condition different => No, Cyan, Magenta, Yellow, Black",True
+@gianniprocida3332,2022-07-23T08:42:40Z,0,Very helpful. All your videos about SQL are very easy to grasp and concise. Thank you so much.,True
+@raseltalukder5302,2022-07-16T18:29:52Z,0,"Hey, Alex! Hope you are fine. I am troubling myself with so many desires in different skills. Can you reply to this thread? Need your suggestions.",True
+@mfundohg958,2022-07-16T12:18:52Z,0,Thank you this series is really helpful. 👌,True
+@linavilaa,2022-07-03T04:40:49Z,0,I learned so much with your videos. You made learning SQL very fun. I enjoyed your examples. Thank you!,True
+@adityanugraha9814,2022-06-23T08:06:58Z,0,Where i can get this data for practice?,True
+@icantw8,2022-06-09T06:49:59Z,0,This is tremendously helpful. Got to resolve a blocker because of you. Thanks!,True
+@iskate248,2022-06-01T19:47:27Z,0,"Sounds like Dane Cook is teaching me SQL. Good video, thank you.",True
+@saurinpatel4343,2022-04-30T23:37:11Z,2,Great Knowledge and explanation but the table you used was little weird. Avg salary for employees ! You are comparing the same employee's salary with themselves. Group by employee ID!! Seriously ! I have watched many of your videos and I know you can do better!,True
+@marcellaperkes4870,2022-04-26T05:19:42Z,22,"Thank you Alex! 🙌 For the last year I’ve been learning about data analysis/computer science part time, with the goal to move into the tech industry so that I can WFH, be available to my kids, and have income growth potential. Your videos were fundamental to my learning. I just landed my first job in the industry, and I attribute a big part of that to you.",True
+@derartudejene780,2022-03-24T22:13:05Z,0,https://youtu.be/JkzkrPnOp4w. SQL common interview question,True
+@slimisslow244,2022-03-18T19:35:22Z,1,"Hi there! great content!! Just to know, in a working place, how often is a subquery used compared to the join function? As both can give the same result.",True
+@itsReshad,2022-03-18T18:08:46Z,1,Keep up the Amazing content Alex!,True
+@Anipro88,2022-03-17T23:25:19Z,0,"Very helpful, thank you. Is there a way to find out the input parameters of a stored procedure, that someone else may have created, w/o using the ""modify"" option?",True
+@michaelpark5681,2022-03-11T04:21:23Z,0,1:15 This first example. Can someone please explain why you need a subquery? Creating the query without the subquery will return an error. Why can't SQL return the employee ID field along with the average salary at the same time? Why does the average salary have to be calculated first via a subquery? What is the logic behind it?,True
+@kagisomsiza7277,2022-02-20T13:28:21Z,0,I really need to know how to do it with a join,True
+@66abady,2022-02-19T20:37:29Z,0,thanks a lot mate,True
+@salehgamal1511,2022-02-19T15:56:09Z,0,I have taken udacity course on sql and i applied the course on an actual db but your tutorials are much better realy specially on the joins,True
+@akashrath3801,2022-02-15T05:47:15Z,0,"you have mentioned many times windows function, but what is it? do you have a video on it?",True
+@smgt90,2022-02-14T18:36:08Z,0,"Thanks, very helpful",True
+@ivailoenev728,2022-02-10T13:55:50Z,0,"Is there a way that we can use the row generated from the SELECT subquery with a WHERE statement below. So looking something like that:  SELECT EmployeeId, salary, (SELECT AVG(salary) FROM EmployeeSalary) as AllAvgSalary  FROM EmployeeSalary WHERE AllAvgSalary>salary   I've been running CTE's in those cases, but perhaps there is a more efficient way.",True
+@akj3388,2022-01-24T01:57:38Z,2,Thanks for letting us know that for a subquery in the SELECT and WHERE clauses; it can only have a single value and single column respectively as an output.,True
+@BestInTheWorld215,2022-01-23T00:41:10Z,1,I'd love a tutorial for working with SSIS Packages,True
+@janjaantunovic9393,2022-01-19T01:08:59Z,0,sorry it is a good video and all but this is not advanced at all this is begginer stuff...,True
+@deeplysuperficial8132,2022-01-12T21:06:56Z,0,"I don't 100% get what you were trying to communicate with ""it not working"" when you used a group by clause. The query you made in that example doesn't show a subquery.",True
+@janetbartonjo8916,2022-01-11T07:18:11Z,0,"Hey,i love your videos! I have a question though. In your last example you can simply do the normal query and filter using ""WHERE Age>30"" and still get the same results, right? If yes,then why do we need to use WHERE sub query?",True
+@StephanieBassil,2022-01-10T07:36:34Z,2,Thank you Alex for ur way in simplifying the training! Are you giving later more advanced videos about SQL or that is all ?,True
+@jayashukla4799,2022-01-04T13:33:29Z,1,WOAHH!!!😍😍 Thank you so much for making it easy :),True
+@mwarsell,2021-12-20T17:53:48Z,0,Really quick,True
+@stylewithsmriti,2021-12-16T13:27:52Z,0,Please make a video on Window Functions. I love your videos :),True
+@jonathanbrotto7278,2021-12-14T17:04:37Z,2,I wish I had this during my undergrad over a decade ago.,True
+@gersonscheffer2765,2021-12-01T19:34:41Z,0,I would avoid subqueries this way and use CTE with the with() function,True
+@syaoransakura8839,2021-09-25T14:48:54Z,1,Finally finish this advanced tutorial. Keep going for next series...,True
+@serious6037,2021-09-24T00:54:07Z,0,this is advanced for SQL?? wtf? this is a childs play. i tought sql would be harder.,True
+@yanirhaim7787,2021-09-20T01:14:56Z,5,Thanks for the great tutorial! Currently on my Google Data Analytics Certificate! This video made it easier to understand the concept!,True
+@asfak54321,2021-09-19T10:03:14Z,0,Thanks,True
+@damasusaditama2148,2021-09-09T16:38:23Z,82,"All your SQL tutorial videos from the basic up to this have helped me understand SQL, MUCH BETTER compared to the explanation that I've got from a bootcamp. Your explanation is so complete and concise. Thank you so much, Alex!",True
+@shalusajin1459,2021-08-30T16:35:59Z,1,Portfolio project plz..,True
+@massimoriggio6297,2021-08-29T16:33:59Z,1,"Hello Alex, why did you create the subquery when to get the average you could have just specified : ""SELECT EmployeeID, Salary, (AVG)salary FROM EmployeeSalary""? I am really confused and would be glad if you could help.",True
+@cmhanft,2021-08-25T02:46:12Z,0,"God bless you, Mr. SQL.",True
+@YoYo-gf9wb,2021-07-31T20:37:47Z,1,"You should remind ppl to like your videos. I really like all your videos, super helpful~~~ but always forget to like it....",True
+@patlabor-ingram,2021-07-30T08:25:08Z,0,who is here because ayanna didnt elaborate subqueries clear enough?,True
+@saanvisharma2081,2021-07-22T04:21:58Z,0,No matter how complicated my problem statement was; I always use UNION😅 Any tips?,True
+@shrek3706,2021-07-21T18:04:07Z,0,"Suppose we have two tables, can we select from one table in a subquery and then select from another table for the rest of the query ?",True
+@ishantjain1,2021-07-20T07:47:14Z,0,"​ @Alex The Analyst  Hey alex can you explain the functions CUME_DIST(),FIRST_VALUE,LAST_VALUE,RANK,DENSE_RANK,LAG,LEAD,NTILE etc (window functions)",True
+@nishantm1924,2021-07-15T00:18:26Z,0,"how can you import csv file to an already existing table using sql query? like suppose you have Customer table and now you want to add data from xyz.csv file and both Customer and csv file have same attribute ,then how to do such task?",True
+@matheuspegorari1094,2021-07-02T16:34:26Z,7,"I love your videos, content is never enough. I know sometimes may be obvious to talk about something like subqueries when we have lots of content in the internet, but your explanation is very pertinent and very didatic, i learned a lot today. For this I thank you.",True
+@veronicab2096,2021-05-04T03:43:28Z,2,"In the last query, you used a subquery in the WHERE clause to filter for employees over 30. Could you also have accomplished that by joining the two tables and adding a WHERE EmployeeDemographics.Age > 30?",True
+@tausifahmed4760,2021-05-03T17:40:53Z,3,Hey Alex thanks for making videos which are so informative and helpful..as a mechanical engineer who wants to change his profession to data analyst ..what will u suggest to learn first,True
+@psd5967,2021-05-02T16:48:37Z,2,Great video!! thanks!,True
+@JW-pu1uk,2021-05-01T22:46:16Z,1,It's still not clicking why GROUP BY isn't working for the SELECT SUBQUERY portion of this video... hmm... Edit: I mean why GROUP BY doesn't function the same as the subquery.,True
+@sarahghaya5461,2021-04-28T07:01:14Z,0,"Hello Alex, These videos are really helpful. Thanks a lot! Anyone knows where I can find some projects to work on and grow my portfolio?",True
+@gitishkumarrout3821,2021-04-26T09:30:58Z,0,Hi Alex I am from a non technical background and want to do the data analytics course I want a career change.can you please suggest which course I can enroll to and the job opportunities,True
+@nordenlashangderpalama8876,2021-04-25T19:01:04Z,0,"hey, how do you start your own project to put in your resume, so you can show that you have proof for being able to use a tool? I understand that you can complete projects by buying and doing udemy courses and other courses, but what if you dont want to spend that extra £15 and instead make a project by yourself? Thank you very much and I would be over the moon if you could help me by answering this question. Thank you again.",True
+@sumaa2344,2021-04-24T10:45:57Z,0,"hi Alex  thanks for nice explanation.  I am having 8 yrs experience into QA using SQL. i can write comolex SQL. good knowledge on Tableau  i would like to move QA to data analyst. any suggestion  what skill required other than sql,t tableau does it required programming   can you pls guide me thanks in advance",True
+@Joi_SS,2021-04-23T14:29:46Z,5,I just learned this recently! Wonder do you have any recommendation for an intermediate level courses after the beginner course? I'm 75% done with my SQL beginner course. Thanks! :),True
+@50Z031,2021-04-22T21:28:24Z,0,"Hi Alex, Im planning of buy a new laptop/desktop. Do you suggest Mac or Window ?",True
+@robinchriqui2407,2021-04-21T18:30:50Z,2,Hi Alex thank you for your work great tutorial. Today I had a test in SQL for a company it was so hard. Do you know a good platform to train myself with exercice ? I mess this interview but I really would to do better next tile,True
+@abhisquest,2021-04-21T13:08:39Z,3,"Hello Alex,  Where can we find some practice excercises to practice SQL queries?",True
+@natekennedy1668,2021-04-20T23:19:18Z,0,"SELECT * FROM (SELECT employeeID, Salary, AVG(Salary) AS Allavgsalary FROM EmployeeSalary);              CAPS LOCK IS FRIEND NOT FOOD",True
+@SeanBaker,2021-04-20T20:42:19Z,12,"I’ve been using SQL on my job since 2007, and I swear that I still don’t know everything I should know when it comes to really ""complicated"" queries.",True
+@hdjfjd8,2021-04-20T19:04:46Z,0,"I have a doubt . I applied for financial aid in the google analytics certificate course but in my account only the 1st course which is foundations is visible . Will I get access to the other courses once the first one is complete or not ? If its for only one course , then financial aid seems useless that way",True
+@usuallyclueless4477,2021-04-20T13:38:32Z,170,"I have a Coursera certificate in MySQL, but you've explained it so much better than the instructor of that course.",True
+@RodStremel,2021-04-20T12:33:03Z,5,"Your content is awesome, Alex! Thanks for all the videos! I don't know if you've answered this before, but I need to ask: how can I show my SQL skills in a portfolio project? Showing Python code with all the EDA and data viz is ok, I can do it, but I always have a hard time figuring out how to show employers that I know SQL (it seems like all they care about is if I've used in a job situation, which I haven't had the chance to). Any tips on that? Thanks again!",True
+@vishaljhaveri6176,2021-04-20T12:28:45Z,0,"Sir, you are pretty awesome. You are my mentor. I want to be a data analyst like you, sir.  How can I connect with you, sir?",True
+@AJpro88,2021-04-20T11:50:31Z,1,Can a truck driver become a data analyst??,True
+@salikmalik7631,2021-04-20T11:26:56Z,1,"And one thing I am confusing in, that which one is better to learn Tableau or Power Bi?",True
+@jjsinclair94,2021-04-20T11:08:39Z,33,"This has come just in time for an interview I have in the morning for a modelling analyst position, can't begin to describe how much your videos have helped! Keep up the crazy good work you are doing here!",True
+@salikmalik7631,2021-04-20T11:08:31Z,14,Your videos are good Alex. We need a playlist of SQL needed for data science. Its a request. :),True

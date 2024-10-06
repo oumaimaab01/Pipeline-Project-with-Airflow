@@ -1,0 +1,678 @@
+author,updated_at,like_count,text,public
+@issacoh4775,2024-05-20T20:10:14Z,0,what is u transpose inputs instead? and what would happen if you put the transpose weight matrix first in the dot product?,True
+@tymion2470,2024-05-16T17:39:32Z,0,"I'm very thankful for this series, I just learn so much new thing, because you're so good in explaining, and there yet 5 videos to watch!",True
+@RentnersWerkstatt,2024-05-13T10:59:27Z,0,"Dude!!! I am on video 4 so far. Thus far you are about 99 out of 100 fantastic. Here is what is missing from my perspective of not knowing what or how to build a NN. Your video series starts out with an expectation of programming in some language and that is totally fair, else none would understand anything at all. I do feel that one would need to have a basic understanding of Python mostly because of terminology. To know that a list is an array and batch is simply an array of arrays and such is useful especially if the student's background is in PHP or Javascript. Now here is where I start exploring outside of your videos.... Your start with the raw code of this NN is also fantastic. What I recommend is a bit more basis explanation. For example what is a layer? Why is a layer? You can mention the function or purpose of weights and also mention that they are or can be random as the ""learning"" part will be the machine testing different weights and biases in itself. You start out also comparing the code to a NN diagram and that is MOST AWESOME, thank you. You also start out with building this code around a scenario of mainboard/case/rack sensors used to determine the failure of a server. So you basically should have a final result of yes/no it will fail. The same as your cat/dog. But one may assume that humanly we are inputing only pics of cat or dog, thus your output can be a binary of isCat and that is all that is required. I would like to see more in line analogies to your sensor scenario as it is a massive benefit to understanding each element of the NN.  That is my only advice. Thus far I love it. When these explanations are missing, it is easy to go outside to another resource and ask what a ""layer"" is and why or what it does, but from a product perspective ""your video series"" your intent should be to keep me from venturing out as with a bounce rate, you do not want to lose my attention.",True
+@maalunandhu007,2024-05-12T17:32:17Z,0,limit n->infinity Thanks,True
+@rakshitjoshi823,2024-04-21T09:05:09Z,0,High quality animations. Much respect!,True
+@SupreemeSteevee,2024-03-13T15:03:50Z,0,I'm confused,True
+@kwaqar8164,2024-02-24T14:22:19Z,0,"How will you visualise a batch of inputs, I'm having hard time understanding it",True
+@help_49,2024-02-20T16:14:42Z,0,Such a good series 😢😢,True
+@tranminhhieu8151,2024-02-10T09:34:00Z,0,i have a question.  Why did u use randn() instead of rand()? Or this is just an example?,True
+@TIENTI0000,2024-02-04T15:40:46Z,0,Coll,True
+@oxunsaidov3785,2024-01-25T11:59:52Z,0,@sendex why should we need to transpose second weights? 'np.array(weights2).T',True
+@PROMAN8625,2024-01-08T07:49:36Z,0,"import numpy as np np.random.seed(0)  ########################################### ##########  VARIABLES FOR LAYERS ########## ########################################### num_hidden_layers = 128 hidden_layer_neurons = 128 input_neurons = 128 output_neurons = 128 ########################################### class Layer_Dense:     def __init__(self, n_inputs, n_neurons):         self.weights = 0.10 * np.random.randn(n_inputs, n_neurons)         self.biases = np.zeros((1, n_neurons))     def forward(self, inputs):         self.output = np.dot(inputs, self.weights) + self.biases  X = [list(np.random.randn(input_neurons))] layerI = Layer_Dense(n_inputs=len(X[0]), n_neurons=hidden_layer_neurons) layersH = [] i = num_hidden_layers while i > 0:     layersH.append(Layer_Dense(n_inputs=hidden_layer_neurons, n_neurons=hidden_layer_neurons))     i = i - 1 layerO = Layer_Dense(n_inputs=hidden_layer_neurons, n_neurons=output_neurons)  layerI.forward(X) prevLayerOut = layerI.output for layer in layersH:     layer.forward(prevLayerOut)     prevLayerOut = layer.output layerO.forward(prevLayerOut) print(layerO.output)",True
+@sarooprince,2023-12-31T00:20:11Z,0,15:15 why is it inputs x weights transposed and  not weight x inputs.T transposed. They both return an answer  (a different answer) so both work why do we do one and not the other?,True
+@laurynasgiriunas4780,2023-12-30T21:46:26Z,0,You should allow buying a single chapter of the book... I would buy it immediatelly then,True
+@nkanyisosigwaza,2023-12-30T07:48:21Z,0,"Awesome series! I just have one question. If we transpose the input matrix we are able to solve the dimension/shape issue, why does this give a different answer vs transposing the weights matrix? and how do you know which one must be transposed so that you get the correct answer?",True
+@mostafaghobashy2724,2023-12-25T14:59:12Z,0,sentdex videos summary 25% advertising to his book 75% awesome content,True
+@MM-vw1ck,2023-12-20T19:39:35Z,0,"I've got one question: Why are we multiplying the inputs matrix by the weights matrix and not the other way around? I get that this is because you chose your inputs to be row vectors, but what if you chose them to be column vectors? Why not just transpose the inputs?",True
+@nb3z,2023-12-16T14:03:50Z,0,"Hey @sentdex! Thank you so much for creating this! I have a quick question for you. Doesn't transposing the weights theoretically ""change the inputs that they're assigned to""? Otherwise said, before the transformations, the weight arrows lined up correctly with the inputs that they originated from (a few videos ago). Doesn't transposing them ""change"" the weight that the arrow was originally on coming from an input? I know this may be a poor way to word it - just trying to wrap my head around this.",True
+@veroxy3467,2023-12-16T12:41:34Z,0,Why did this gem hiding from me this whole time,True
+@youngfinn1185,2023-12-14T13:09:16Z,1,i found this gold 3 years later. i noticed at 16:11 when explaining adding matrix to the bias vector. your saying the wrong thing but showing the correct.,True
+@josephyu2110,2023-11-30T21:20:22Z,0,"Wow your video are just amazing, this clarity to explain complex thing is just incredible",True
+@cato7639,2023-11-13T03:40:10Z,0,When I tried this code out for myself it seems like it auto transposed my weights for me,True
+@sanielbhattarai3360,2023-11-08T05:51:38Z,0,how does bias being 0 makes the neuron output 0? We are adding the biases not multiplying it,True
+@kumarutkarsh1248,2023-10-21T06:45:45Z,0,"Hey everyone, I understand some of you may be disappointed that the playlist stopped just before the backpropagation part. I have good news – I'm extending this playlist on my channel! If you're eager to continue learning, please head over to the following link: https://youtu.be/DOFA4dL-qAA",True
+@TNTeon,2023-10-12T04:57:38Z,0,"Hey just to let you know, this video 3 years later continues to help and encourage new programmers! I'm in my freshmen year of highschool doing all gen ed courses, but I started working on this tutorial in my free time and I'm having a blast and actually understanding everything perfectly Just wanted to say thank you so much for really helping people like me in our learning of Computer Science and machine learning! These are awesome and super enjoyable!",True
+@rishidixit7939,2023-10-09T19:08:05Z,0,Is it better to transpose the input so that each column represents one training example,True
+@Sark42-dz8nd,2023-10-01T17:57:36Z,0,Which video editing tool did you use for creating animations for this video?,True
+@NetworkDirection,2023-09-21T07:57:45Z,0,"I LOVE this! I want to buy your book, but the exchange rate is killing me right now.",True
+@rhythmdutta387,2023-09-14T16:00:44Z,0,"Can we not transpose the inputs instead and keep the weights the way they are? I mean: `np.dot(weights, np.array(inputs).T) + biases`",True
+@winona1656,2023-08-31T06:56:11Z,0,"At 16:07, why did you choose to swap inputs and weights and then transpose weights instead of transposing inputs and leaving it as (weights, np.array(inputs).T)?",True
+@submersedsword4949,2023-08-21T21:50:29Z,0,"when running my script I got ValueError: shapes (3, ) and (4, 3) not aligned: 3 (dim 0) != 4 (dim0)",True
+@devinvenable4587,2023-08-19T16:09:57Z,0,"I watching this as a refresher as I studied this topic a few years ago, and I find the context you provide really useful. Thanks!",True
+@ConnellArt,2023-08-18T03:16:10Z,0,Can't wait for the book to arrive!  This is a great tutorial so far.  Thank you Edward Snowden!,True
+@CJ-uy3dx,2023-08-16T23:05:56Z,0,"Hi. Wouldn't it make sense, instead of just transposing the weights matrix, to supply inputs matrix in the first place as a list of lists of  inputs into same neuron in different batches rather than a list of lists of inputs into all neurons per batch (basically, split the supplied input data into sublists based on neurons rather than batches, if that makes sense)? Or would it cause some complications later?",True
+@theraf2134,2023-08-07T20:06:48Z,0,25:44 is that correct? It made 4 neurons with 3 input weights each 🤔,True
+@ansarmuhammad,2023-08-07T12:36:07Z,0,Great course!!,True
+@unpatientes1562,2023-08-06T13:44:14Z,0,at 23:07 it sounds like you're roasting someone for being stupid and it's pretty funny,True
+@dragonborn7152,2023-08-03T20:58:58Z,1,"Question: why did we need to transpose weights 2 since they are both 3x3 matrices, index1 of the would equal index 0 right?",True
+@sofusunmack7045,2023-07-30T19:55:21Z,1,"Hello. I have been greatly enjoying this series so far, but I have encountered an issue. When you add another layer around 18:15, I have copied and pasted the code from the first layer (which works), but when i try to create the second layer, I get an error stating that ""The requested array has an inhomogenous shape after 1 dimensions."". Any clue as to what is going wrong?",True
+@arunmohan2983,2023-07-26T12:50:43Z,0,"@sentdex, In 18:03, why do transpose Weights2 ? It is already a 3x3 matrix.",True
+@bradley1995,2023-07-18T12:58:54Z,1,"I just want to again say thank you so much for these videos. They are  top notch. It truly has helped me get a deep understanding compared to what many other ""tutorials"" have. Plus all this information being provided free. I feel blessed!",True
+@programmer1840,2023-07-18T11:19:55Z,0,"Daniel, in the first half of the video, weights2 should have 3 weights for each neuron as there are 3 outputs from layer1.   I increased the batch size to 6 in my code and there was a shape error, which led me to discover this.",True
+@siddharthkhodke4219,2023-07-12T17:16:00Z,0,visualization of transpose row column multiplication 14:43,True
+@kaveeshadhananjaya1067,2023-07-09T13:08:59Z,0,Why did you call it a dense layer. what is the speciality,True
+@MHadi-71,2023-07-02T15:33:27Z,0,Shoutout to the wonderful cups that change each episode☕☕,True
+@bartosz13,2023-06-28T18:26:04Z,0,This is nuts. Crazy good quality,True
+@vermiliongin8872,2023-06-15T04:25:00Z,0,No sure if anyone know why we transpose the weight but not the input in this example? Thanks in advance.,True
+@georgeorr1042,2023-06-14T15:22:46Z,0,"FYI:  In Python 3.7 , one has to add ""np.array"" in front of ""X"" definition - or I get errors about mismatches on ""forward"" method",True
+@JVBX.,2023-06-09T17:43:24Z,0,"Hi, I'm trying to build a neural network with my owm data. Your videos are helping me a lot, but now I have a doubt.   So, are you building  the whole structure of the neural network  first, setting the weights randomly and the biases as zeros, and after that will you make the data pass throught the layers ?  I´m asking it because I was thinking  that is easier start the weights and biases with random values (In my case, I´m using matlab and is easier to me do this) between 0 and 1.  Sorry by the english, but I need to solve this doubt,  because I  don´t know too much about objects and this specific part is hard to me.",True
+@ugestacoolie5998,2023-06-04T04:15:22Z,0,"I have a question, isnt a layer usually just a vector and not a matrix? what would a input matrix mean?",True
+@shriganeshank8955,2023-05-26T02:14:46Z,0,"The question is if we have 3 input , how we can make a graph ,which input we set as x axis? Please clear me",True
+@hardikvegad3508,2023-05-06T08:43:53Z,0,"what if both matrix size is (3,3) would it work? do we have to do transpose there to?",True
+@Mica_No,2023-04-30T01:59:04Z,0,"My code is not working because it says I trie to do the dot product with a 3,4  and a 2,    matrix I think I have the same code.. can anybody help?",True
+@ikontact,2023-04-29T20:12:21Z,0,"Also curious why around 18:14 why you kept the transpose for layer2_outputs. Since it is just the dot product of 2 (3,3) matrices?",True
+@ikontact,2023-04-29T20:03:45Z,1,"I think it's also important to note you could transpose the other one and end up with a (4,4) matrix as well",True
+@yuwankumar,2023-04-26T07:20:31Z,1,After many searches I found this playlist! Thank you for making this Gold.,True
+@OmegaF77,2023-04-25T20:14:02Z,0,"From leaking NSA docs to teaching us AI, Walmart Snowden never disappoints.",True
+@sauravgiri7810,2023-04-18T00:48:21Z,0,what if the number of rows and columns dont match? When I transpose i get a shape mismatch error,True
+@account9949,2023-04-14T21:38:12Z,1,I totally understand everything,True
+@user-bb5hx4nm1d,2023-04-13T09:26:36Z,0,At 9:48 the sum bugged at 1.05 and magically changed to the value of 0.79 :D,True
+@shizamushtaq5014,2023-04-08T22:08:46Z,0,"if each batch has 4 neurons and 4 weights, why arent there 4 biases? 1 bias for each neuron/weight? currently it seems as if theres 1 bias for each batch? or am i reading it wrong and there are 4 batches with 3 neurons/weights each.",True
+@janpost8598,2023-04-06T08:31:15Z,0,"Just an idea for the matrix dimensions. Make the shape dimensions to be prime numbers. This way it is very clear where al the matrix dimensions are ending up. Also in the output.  So for example Weights(2,5) and Inputs(3, 5) for a neural network with 5 input neurons and 2 output neurons and a batch number of 3 for the input data. Now it is very clear that we need to match the dimensions with size 5. If you want to put the Inputs(3,5) in the front of the calculation we need to transpose Weights(2,5) giving us Weights_T(5,2). Giving Inputs(3,5) x Weights_T(5,2) = Outputs(3,2). It is now very clear the rows represent the different input data and the columns the output neuron 1 and 2 respectively. Easy for education and testing purposes.",True
+@maciej12345678,2023-04-05T17:58:02Z,0,"don't use word ""Shape"" in mathematic its call  rank of tensor (p,q,r)",True
+@srividia1,2023-04-02T14:40:28Z,1,I get Layer_Dense() takes no arguments,True
+@super7ace,2023-03-31T01:21:06Z,1,God level series on Neural Network. Good job and always proud of you buddy!!,True
+@bumblee_beee,2023-03-30T07:09:07Z,0,It was a bit complicated but I hope if i watch the video again I will understand better.,True
+@rodrigosol6573,2023-03-29T23:14:55Z,0,20:00,True
+@Ghostdawg176,2023-03-22T16:21:04Z,0,How is it that youtubers are giving out better quality education than state and private colleges??,True
+@LunaProtege,2023-03-19T13:36:26Z,0,"Why do I suddenly suspect batches see more use during training than during deployment? I'm not sure how batches would work when your current outputs determine what the next inputs are going to be, such as in the case of robots manipulating their environment. Do correct me if I'm wrong though.",True
+@Hizashisam,2023-03-11T11:03:51Z,0,Stellar job,True
+@Alex-ol9dk,2023-03-11T09:03:49Z,1,I have never bought a book from YouTube before but you will be the first. You’ve deserved it. Absolutely love this work. Please keep it up,True
+@y33l2,2023-03-10T11:51:06Z,0,Now i know why this guy has million subscribers.,True
+@solsticeprojekt1937,2023-03-01T14:52:42Z,0,"Lost me when he started talking about the amount of values not being correct, when they looked correct. The transposition makes zero sense for me, because everything looks perfectly fine. From my perspective it seems unnecessary and, as usual, nothing makes sense. Thanks for trying, though! To me it seems that all this really is, is a bunch of multiplications resulting in a mathematical state, which is gradually, through the trial and error, being adjusted to fit a desired result. Hardly complicated, actually, yet for some reason everyone treats it as super-complicated, which is what actually confuses me and causes me to not understand how any of this works. I don't really see the difference to genetic algorithms. ... and NOW, to make it worse, he adds beaurocracy and thinks that rewriting eveerything into objects actually is beneficial. Well, again ... thanks for trying!",True
+@solsticeprojekt1937,2023-03-01T14:52:05Z,0,"This lost me when he started talking about the amount of values not being the same, when it was the same ... and then transposing for a reason that wasn't really making any sense, because everything looked fine. I see no reason for the transposition.",True
+@Nico-ny2om,2023-02-25T21:02:43Z,0,great job! love it,True
+@jacobfield3951,2023-02-23T15:21:02Z,0,"after trial and error and making my own neural network generator (as in it takes in parameters for the network shape and constructs it all itself) i realised i needed to better clean up my next interation of design using numpy. if i had discovered your videos earlier it would have made my starting project way simplier since i had such a hard time finding the relevent math which you have summed up. for other people on a similar jorney and wish to understand other different approaches to implimentation, i have it that each input example is process individually and the gradents are added and averaged in the end. the method of batching everything in a single matrix is much more efficent but it can make debugging harder. i have the same opinion with the class/object approach, instead i feel modular function based coding to be better for beginners as it increases understandability. saying that, i completly understand your choice of implimentation and with my background in animation and design i also appreciate the way you are presenting this information. thank you for doing this!",True
+@raccoon_05,2023-02-22T12:00:50Z,0,Thx so much for this series. You're really helping me understand the basic concepts behind this 👍👍👍,True
+@Dr.Cosmar,2023-02-18T02:04:47Z,0,"I got a little confused. Mainly, how did numpy get 9 numbers when you used 24 pairs? I watched it explained, but my monkey brain still doesn't get why there appears to be a missing row on the output.  I know I'm missing something. Will rewatch if I don't figure it out by the end.",True
+@Dr.Cosmar,2023-02-18T01:56:23Z,0,"15:32 - ""audible gulp"" This is getting intense.",True
+@Dr.Cosmar,2023-02-18T00:34:43Z,0,"I love object orientated programming. It stumps me on rare occasion, but it's just a learning curve %90 of the time. New problems require new solutions, forces me to get better.",True
+@actuarialscience2283,2023-02-13T09:12:04Z,0,"I am using Jupyter and its telling me that Layer_Dense has not arguments.   Thanks, the bug was fixed by ChatGBT",True
+@chirudeepreddybhimavarapu664,2023-02-05T10:50:59Z,0,"__init__() takes 2 positional arguments but 3 were given i am getting this error ??",True
+@miloldr,2023-01-09T21:50:44Z,0,Inputs have only one layer so why and from where 3 layers come from and how they were used,True
+@miloldr,2023-01-09T21:33:30Z,0,Where did all these inputs came from? And why one input gets one weight now..,True
+@garymdmd,2022-12-24T05:57:45Z,0,"I am on lesson 4 now - you are such a great instructor, I love learning this stuff.",True
+@mindsmend7618,2022-12-20T22:52:14Z,0,"Great Videos Bro, Ty",True
+@dinarakhaydarova4898,2022-12-16T08:41:55Z,0,I thought I understood all of these concepts until I watched your tutorials. it's amazing!,True
+@time2learn123,2022-12-14T13:09:18Z,3,"Why does the dot product switch inputs and weights when working with batches. e.g when input is a 1D array the calculation in the code is np.dot(weights, inputs) but for batch it is np.dot(inputs, transposed_weights). Why doesnt it work when we transpose the inputs instead? Im sure Im missing something simple. Thanks for the videos they are amazing!",True
+@zihengliao236,2022-12-11T05:00:43Z,0,25:00 explanation of weights,True
+@jamesstark4136,2022-12-05T22:36:13Z,0,"Why is it that you don't consider a 'dead network' as a issue? it seems like good practice would be to start biases at 1, to avoid getting stuck. It seems like the odds of it dying go up the more neurons you have so a million neuron network would have that many more chances to fail.",True
+@FagunRaithatha,2022-12-04T20:51:25Z,0,This content is really good. Thanks for making this simple. I have been binge-watching your videos.,True
+@aaratprasadchopra3255,2022-11-20T17:03:52Z,1,"I couldn't understood why we took the transpose of weights2, the second layer's weights? The second layer and the weights2 dimensions are the same, we could easily multi[ply two matrices, am I missing something here?",True
+@StringStack,2022-11-11T13:41:10Z,0,done - 20221111,True
+@bobentius7035,2022-11-08T18:04:51Z,0,At 9:08 there is a sudden cut.,True
+@benjaminsteakley,2022-11-05T21:48:57Z,0,Took my five years to find something like your videos in 2022. I dropped put of college from stress and i can finally sit down and try to understand this math. I hope the video which explains linear regression is as good as these four so far,True
+@supersaucysaul5400,2022-11-04T16:52:17Z,0,Amazingly well explained!,True
+@taranolan1586,2022-11-02T05:32:49Z,0,"In terms of the results, I understand why we had to swap inputs and weights before we took the transpose of weights. However, I am wondering if you could provide a more intuitive reasoning for this. When we first performed the dot product with the inputs of shape (4, ), we we got the result [4.8, 1.21, 2.385] etc. When we later calculated the dot product, we could have done either one of the following: np.dot(weights, inputs.T), or np.dot(inputs, weights.T). And without having seen the results from the dot product with the vector of shape (4, ), I would not have understood that np.dot(weights, inputs.T) is incorrect. So how might I go about abstractly proving this choice to be correct to myself without having to first check a single vector input before batching?",True
+@frankcy2131,2022-10-27T06:36:29Z,0,"15:09 I still don't get this part. What is the intuition behind switching the sequence of weights and inputs in this case? When using a single sample in the beginning, I don't quite understand why the weights are in front of the input. Then at this moment (15:09), we switch the sequence of the two. Maybe I can understand the math, but I just don't get the intuition behind. Can someone helps?",True
+@tr4cer2413,2022-10-14T06:44:33Z,0,"Hey just a question, is there a specific reason we are using np.array(weights).T instead of np.transpose(weights). Is there any benifits of doing it either way, or are both of them just the same thing.",True
+@Blendersky2,2022-10-12T13:27:06Z,17,"Just imagine if we have tutorials like these on all the AI and Machine learning topics and also on probability and statistics. .. man, every few minutes in the video I try to scroll the video list up and down with the hope that there will be 700 more videos like these but it shows only 7 videos. Amazing work, I will order your book now. Appreciate your dedication and hard work",True
+@shulehr,2022-10-09T21:55:09Z,0,"its called hidden because if you consider it to be some system/function, then you only see input and output.  the rest should not even matter to you as an user, but if we talk about programmers then it isnt really _that_ hidden to them and as a programmer you _should_ somewhat care what is there.",True
+@Henryr67,2022-10-09T06:06:10Z,0,learning...,True
+@codiersklave,2022-10-03T11:49:58Z,3,Still one of the best series on YouTube to learn the basics of neural networks... fast!,True
+@coneris,2022-10-02T00:04:14Z,0,"The explanation of the dot product here was incredibly useful.  Even as someone who went to college and took some higher level math courses, in my brain I always heard the word ""dot"" when being associated with vector multiplication - not matrix multiplication.  What is being referred to as a dot product has always just been ""matrix multiplication"" to me.  This confusion has led to a lot of frustration when trying to convert code from one language (usually python) to another language that I needed.  I often ended up with something in a working state, but it was usually very inefficient and slow to get up and running.",True
+@johnyeap7133,2022-09-28T10:54:26Z,0,"Made the batch learning benefits really clear, thank you",True
+@gabetheborkingdog5985,2022-09-28T06:45:50Z,0,"Shouldn't the total number of weights per sub list change according to the total number of inputs in the batching program?  Earlier there were only 4 inputs so there were 4 weights in each sub list,  But in batching we divided 12 inputs in 3 sub lists, so the total number of weights per sub list should be 12 , not 4",True
+@exa4564,2022-09-19T22:44:48Z,0,"Great video, can't wait to learn the sexy parts of neural networks :D",True
+@curiousmind7967,2022-09-16T18:28:19Z,0,"At 4:50 I was initially confused what we were doing, but now I understand that each list in inputs is a different data to the same inputs. So we have 4 neurons with 3 different inputs. Not 12 neurons.",True
+@andraspoljak,2022-09-10T20:38:13Z,0,"Shouldn't we transpose the inputs? Every neuron has four weights so they are getting four inputs and that is the transposed input matrix, neuron1 getting input [1,2,-1.5] with weight 0.2, input [2,5,2.7] with weight 0.8 ... neuron2 getting input [1,2,-1.5] with weight 0.5, input [2,5,2.7] with -0.91 weight and so on... otherwise how can we represent them like we did with single input [1,2,3,2.5] ?",True
+@sanjaybora380,2022-09-02T20:13:26Z,0,You nailed it !!!!!!,True
+@Hybrid.Robotics,2022-08-30T22:40:50Z,0,"Is it a special case where the dimensions of inputs and weights are the same? I.e inputs are (4,4) and weights are (4,4).",True
+@Hybrid.Robotics,2022-08-30T22:32:10Z,0,If you add chapters to the videos it would make it easier to use them for review.,True
+@OleguitoSwagbucks,2022-08-28T09:20:24Z,1,18:04 must I transpose the weights2 matrix?,True
+@michelleokolie6470,2022-08-18T19:22:28Z,0,i don't know if you made an error speaking at 16:10 or if I missed something? is 6.9 not added with 2.0 not 3.0?,True
+@alicinko2180,2022-08-15T06:46:40Z,0,Let's make  soft!,True
+@nicbleu,2022-08-15T00:05:15Z,0,"thanks a lot, so cool to be able to do this in my home no need to go to school 😊",True
+@muhtasirimran,2022-08-12T09:59:18Z,0,"Hey sentdex, It will be great if you consider to make a cheaper version of this book for Indian sub-continent. This book expensive for this continent including some of the asian country.",True
+@t1000android,2022-08-01T19:12:13Z,0,Just bought the book 😁,True
+@schwammsternwaca4380,2022-07-25T09:39:52Z,0,Very good explanation! I´m 8th grade and understood most of it!,True
+@nathaniellaw3296,2022-07-10T00:22:54Z,0,you are the goat for this,True
+@eekplayz830,2022-06-28T16:04:54Z,0,this hurts my head visualize this in next video pls,True
+@drappleapple9082,2022-06-17T09:31:46Z,0,"loving the tutorials but got a question, when you have a vector of inputs, that represents an input layer. So you have 4 values in the first example, that means there are 4 input neurons. my question is, when you have a list of lists (vector matrix) of inputs doesn't that mean multiple inputs? how can you have multiple layers of inputs without calling them hidden layers, or does it mean it technically creates a new network with new inputs each time and runs the function inputs x weights + biases. please help i don't understand what a vector of inputs means.",True
+@liampourliampouras3274,2022-06-16T08:57:23Z,1,"Hello congratulations for your awesome work!! In 14:11, why are we transpose the weights and not the inputs? Eg output = np.dot(weights, np.array(inputs).T)+biases",True
+@dingjunchen2912,2022-06-14T11:42:04Z,0,Please ignore my question because I found an error in the X. Sorry to bother you.,True
+@dingjunchen2912,2022-06-14T03:27:47Z,0,"Please tell me how to fix this error with your codes.     # Batches, Layers, and Objects #import tensorflow as tf import numpy as np np.random.seed(0)   X=[[1.,2.,3.,2.5],    [2.0,5.0,-1,-0.8],    [0.7,1.7,2,9,-3.2]]  class Layer_dense:   def __init__(self, n_inputs,n_neurons):     self.weights=0.10*np.random.randn(n_inputs,n_neurons)     self.biases=np.zeros((1,n_neurons))   def forward(self,inputs):     self.output=np.dot(inputs,self.weights)+self.biases       layer1=Layer_dense(4,5) layer2=Layer_dense(5,2)   layer1.forward(X) print(layer1.output) layer2.forward(layer1.output) print(layer2.output)    C:\Users\chend\PycharmProjects\DeepLearning_test1\venv\Scripts\python.exe C:/Users/chend/PycharmProjects/DeepLearning_test1/batchsize_test.py <__array_function__ internals>:180: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray. Traceback (most recent call last):   File ""C:\Users\chend\PycharmProjects\DeepLearning_test1\batchsize_test.py"", line 30, in <module>     layer1.forward(X)   File ""C:\Users\chend\PycharmProjects\DeepLearning_test1\batchsize_test.py"", line 20, in forward     self.output=np.dot(inputs,self.weights)+self.biases   File ""<__array_function__ internals>"", line 180, in dot ValueError: shapes (3,) and (4,5) not aligned: 3 (dim 0) != 4 (dim 0)",True
+@ecirbaf17,2022-06-10T20:56:31Z,0,"Hello thx for the video. A little correction at 16:19 for matrix sum, I think you read it wrong?",True
+@amerjabar7825,2022-06-03T20:54:43Z,0,I must say that I am extremely confused since the inputs became batches and all I see is the N * M flowing in my mind not making sense in the matter of shape alignment.,True
+@themagickalmagickman,2022-06-03T05:52:06Z,0,I should've payed more attention in linear algebra,True
+@tongpoo8985,2022-05-20T00:35:20Z,0,23:00 why initialize the weights randomly within a range instead of just 0.0 for all of them? Edit: oh I see. Because any 0 will propagate through the whole chain of neurons.,True
+@realhydraelite8760,2022-05-09T23:42:30Z,1,Some reason it say when I run it Layer_Dense() takes no arguments,True
+@aav56,2022-04-30T01:03:37Z,12,I've never learned linear algebra and I'm astounded how simple you made matrix multiplication out to be!,True
+@TheBuilder,2022-04-29T15:14:39Z,0,I'm surprised to find a good ML tutorial on youtube,True
+@Yalvyy,2022-04-26T16:59:54Z,0,I thought my linear algebra course was a waste,True
+@Pablo-pk2qi,2022-04-20T12:06:47Z,0,Great teacher! Thank you.,True
+@mentemirabolante2897,2022-04-10T11:05:29Z,0,i got an error while running the second layer,True
+@baqirhussein1109,2022-04-01T15:11:29Z,0,14:28 just a note for me,True
+@unionid3867,2022-03-23T09:13:30Z,0,"jujur saya hampir putus asa mencari tutorial membuat neural network untuk pemula, beruntung saya menemukan video anda, terimakasih banyak",True
+@metoshinakamoto6658,2022-03-06T23:49:36Z,0,thank you,True
+@mrbirgaming2384,2022-02-23T12:00:57Z,0,11:30 shape error,True
+@chaosmaker781,2022-02-21T19:53:20Z,3,this is better explained and with more quality than any neural network video where the concept is mostly shown just by the code,True
+@chaosmaker781,2022-02-21T19:51:44Z,1,this is AMAZING,True
+@jeffstarkman6890,2022-02-10T09:05:30Z,1,As no one seems to have asked before: Why exactly are you swapping the weights and the inputs matrices after introducing the batches? Just to keep the features as row vectors or is there another point?,True
+@jaken82,2022-01-28T11:17:39Z,0,Amazing my man.,True
+@joelsanjay922,2022-01-19T10:52:00Z,0,14:47 The input vector has 4 rows and not 4 columns. Thanks,True
+@henryli85,2022-01-14T10:56:32Z,0,"quick question. is there a reason for putting inputs, weights.T instead of weights, input.T in the dot product for this example?",True
+@advaitathreya5558,2022-01-11T12:14:33Z,0,"There is an error in the voiceover at 16:16 - It's 2.8 +2,  -1.79 +3,  1.885+ 0.5 .. Columnwise addition.  Great video, really helped me rethink about batches and how they work!",True
+@sribastavrajguru304,2022-01-09T13:16:30Z,0,Such a quality content for free. Respect 🙏🏻,True
+@imgstage,2022-01-08T17:23:42Z,0,from 27 min imho missing some picture that visualise this code... :),True
+@shinichixxxx,2022-01-08T14:21:37Z,1,Thank you so much.,True
+@ChiKettle,2022-01-01T22:19:03Z,0,3 points: 1. AWESOME videos 2. Amazing coffee mugs; genuinely thought he was eating a burger in the previous video for a second 3. He sounds like Nicholas Cage e.g. 5:54,True
+@abhinasregmi9742,2021-12-30T17:12:01Z,0,Loved it.,True
+@SoumyajitPal23,2021-11-30T04:08:45Z,1,"Greetings from India. Thank you for making the effort to explain everything from scratch. I want to purchase the book as well. However, the price is fairly high in Indian Rupees. Could anything be done about it? Thank you.",True
+@lauraharris8250,2021-11-28T14:38:13Z,0,Thanks for this video series. How do you determine how many neurons are optimal for your dataset? How do you determine the optimal number of neurons per layer for your dataset? Thanks in advance for the direction!,True
+@goldenjosua6662,2021-11-24T19:15:16Z,2,"I'm getting an error saying that Layer_Dense() doesn't need variables, referring to the line of code ""layer1 = Layer_Dense(4,5), I've tripped checked what i put down and everything is correct",True
+@paddleman3131,2021-11-16T23:17:52Z,1,"my code is a copy of yours but its telling me that 5 cannot be interpreted as a data type when you write layer1 = Layer_Dense(4,5)",True
+@antonantochi8498,2021-11-12T18:34:59Z,0,Perfect step-by-step explanation! Do you have donuts?,True
+@kr4it113,2021-11-05T10:05:09Z,0,Question   Can any one help me with why 0.10 is taken and why not any other values not taken ?,True
+@deter3,2021-10-24T12:03:09Z,0,Best of the best !!,True
+@Tapsthequant,2021-10-20T16:06:36Z,0,Please recommend a consumer GPU for deep learning projects,True
+@asu4908,2021-10-16T03:13:23Z,0,"Doing gods work, ordered the book a while ago and finally have time to actually dive into this now-thank you so much bro",True
+@alirezanikpay,2021-10-15T14:34:21Z,0,"15:16 in the code u write  weights - [ [ 4nums ], [ 4nums ], [ 4nums ] ] so that's a matrix with 3 row and 4 nums in each rows, am i wrong? because the visual shows 4x3 matrix  I am C++ programmer, so maybe the dimension is different? edit: actually, nope, I think there is no deference  using the approach that I use in C++, and I got this: _for i  in range(3):_     _for j in range(3):_         _outputs[i][j] = np.dot(inputs[i], weights[j]) + biases[j]_ *Note: no transposing needed*",True
+@adityasrinivasa1268,2021-10-14T15:29:03Z,0,"Hey I had a doubt. (I hope you're still looking at the comments on a year old video! xD)   I understand that you're applying a transpose on 'weights' so that the multiplication of the two matrices is possible. However wouldn't this result in certain inputs getting calculated with the wrong weights, because we transposed them? That part wasn't very clear to me, and I'm having trouble understanding how transposing it works in the context of the actual neural network.    Thank you for these tutorials!",True
+@innovativehacker3769,2021-10-10T15:32:57Z,0,Thanks for sharing such great content,True
+@sophiachergui6212,2021-10-07T21:26:06Z,0,"Hi, thanks for the videos. I have tried to build a neural network from scratch and I'm having a problem with overflow. The model does work for small size data (like a small array of values) but it quickly gets to nan when the the array gets a little bit larger (like size 25 array of inputs). Would you recommend something or should I just switch to using dedicated python libraries for my large size data.",True
+@gurns681,2021-10-06T11:18:48Z,0,"Mate, this series is unreal! Love your work",True
+@anetakahleova5705,2021-09-16T14:32:00Z,0,Why did he suddenly swop the two matrices?🤔😢😢😢😢,True
+@ReCoolTV2ndChannel,2021-09-15T14:31:39Z,0,Is there a reason he named the layer Dense?,True
+@unchaineddreameralpa,2021-09-04T20:20:29Z,0,excellent video. how do you do these cool animations..loved the batch size one,True
+@stefaneikland7824,2021-08-30T11:01:59Z,0,major cliffhanger 9:11 :D,True
+@internetbl0ke490,2021-08-27T03:01:44Z,0,"I understand the shaping error. However, wasn't the whole point to use the 0th index for each array? Doing a transpose essentially makes us use the first array in the matrix, which leaves doing the index pointless altogether.",True
+@mustaqimkhan6885,2021-08-24T20:26:03Z,0,Pretty cool!,True
+@leilazahedi8930,2021-08-23T15:58:02Z,0,I really appreciate you explaining everything in details. Everything about NNs is beginning to make more sense. One quick question. Can we have a NN with lets say N inputs and 2*N outputs. I basically want to know if it makes sense that we have more outputs than inputs :) . Thanks,True
+@bhavinmoriya9216,2021-08-21T20:23:30Z,0,"Thanks a lot for a series. It is extremely good. Just one doubt. While we do batch wise training. So for example we have n sample and batch size is m. So we shall do modeling n/m times.  1. 1st batch gives some loss we modify weights using backpropagation. 2. Now, we will use modified weights that we got from step 1, isn't it? If yes, then we can not do calculation of all batches parallel as we have to wait for the previous step to finish to get weights. Hence a role of GPU is not clear to me yet. Please correct me if I am wrong.",True
+@alexsmolyakov,2021-08-20T18:19:24Z,0,"lets make a translation into Russian , it was ducking helpfull)))",True
+@Karolkens,2021-08-19T18:06:29Z,1,18:20 Do You really have to Transpose weights2 ?,True
+@albertocatania6165,2021-08-19T15:42:48Z,0,you are a great teacher. the way in which you are explain the concepts are impressively simple. Thank you a lot as I wanted to learn it how to create this kind of neurons and may be try to create a bot for some ideas that i have :),True
+@jason0joon,2021-08-11T05:38:14Z,0,"Hey, I want to buy your book but it tells me ""This order can’t be shipped to your location. Contact the store for more information."" Please help!",True
+@ahmedyamany5065,2021-08-07T15:31:37Z,0,"Simply 30:00, matrix (m, n) * matrix (n, z) = matrix (m, z), so Input_matrix(number of samples(batch), number of neurons in the last layer) * weight_matrix (the number of neurons in the last layer, new (desiring) number of neurons in the current layer) =matrix (number of samples, new (desiring) number of neurons in the current layer)",True
+@ahmedyamany5065,2021-08-07T14:16:45Z,3,"Great explanation and animation, but in 14:47 [1,2,3,2.5] in python is array which is vector or matrix (4,1) but when you write it in paper or animation you should write in vertical form like column, not row, because [1 2 3 2.5] in animation is matrix (1,4), not (4,1), so we can say every element in array [1,2,3,2.5] is row, 1 is 1st row, 2,5 is 4th row.",True
+@AobatrozFilms,2021-07-31T22:25:44Z,1,Thanks a lot man!,True
+@waynedalton3212,2021-07-28T09:32:27Z,0,"@ 16:10 you correctly state the operation but @ 16:18 for illustration you incorrectly refer to the column values (2.8, 6.9, -0.59) instead of the row values (2.8, -1.79, 1.885).  It does not invalidate your explanation, nor the quality and value of this video, but can be potentially confusing to someone who is not yet completely clear on this.  (Tongue in cheek: when I do this when teaching, I call it an ""intentional error"" just to see if the students were following along) - keep up the excellent work and best wishes for this project!",True
+@chopstick_safari,2021-07-11T07:27:19Z,2,"If we use weight*input then  We have to add Transpose after np.dot also. Eg: np.dot(weights, np.array(inputs).T).T+bias",True
+@sudiptoshine9935,2021-07-05T19:31:15Z,1,"in 18:24, for weights2 is 3x3 and out inputs is also 3x3 if we do, dot() without transpose of weights2 it also shows not error. is that dot() method do the element wise operations.?",True
+@dompatrick8114,2021-07-03T19:46:16Z,0,10:27 26:49,True
+@dompatrick8114,2021-07-03T19:37:44Z,0,7:06 never have I ever heard a cleaner description of overfitting,True
+@gmdaiyan477,2021-06-23T17:07:31Z,0,Neural Networks From Scratch,True
+@sunengfu6652,2021-06-16T18:12:23Z,0,"Very nice video, but why do I get an error message that says ""TypeError: Layer_Dense() takes no arguments""?",True
+@nomadsoulkarma,2021-06-16T10:22:11Z,0,"I finally had an error with the code a 31:00 everything perfect up until then. Error:  Layer_Dense object has no attribute 'forward'   Anyone have this error?  well I tried discord but that place is a mess, wasn't sure what category to put my question sorry. -Appropriate name though.   Everything worked until the word 'forward' showed up in the code.  Google no help.",True
+@swaystar1235,2021-06-16T09:10:14Z,0,would using np.random.rand not be better than randn?,True
+@swaystar1235,2021-06-14T12:25:26Z,0,"I do not understand why you are multiplying matrixes here, would you not want to use a for loop and run every list inside of that inputs list through the weights? That way you can adjust the weights to go towards the expected output, multiplying the entire matrix does something completely different here",True
+@davidBi94,2021-06-08T19:34:05Z,0,"Thank for your amazing videos. Clear, understandable and passionating. What tools are you using to make the animations?",True
+@atharvparlikar8765,2021-06-08T14:57:36Z,0,"I still don't understand what is input layer and why it has to be a 2d matrix I mean if the input layer is the output from the previous layer then shouldn't it be a 1d vector, can anyone please explain",True
+@sam18nr,2021-06-06T13:54:08Z,0,"Question: Around minute 12 why did we eventually swap the inputs and weights in the dot product, I understand the shape alignment and transpose concepts, but why did't we just transpose the weights inplace, or maybe transpose the inputs instead of weights, what am I missing here?",True
+@strawhat3891,2021-06-05T20:50:02Z,0,Totally worth it! I wish I had the talent to make things simple like you.,True
+@alizihr6321,2021-05-10T10:10:52Z,0,you really love to talk. I'm just bored after 3 minutes! your videos are great but a lot of talking made me forward a lot,True
+@Gorlung,2021-05-05T12:12:10Z,7,this is actually the first NN tutorial during which I haven't felt asleep..  ps. thank you  for explaining some of the things twice!,True
+@ItsRainingSteak,2021-05-04T23:28:43Z,0,this has helped me understand OOP(by showing a useful use-case) for the first time,True
+@PoovizhiKannansupersonic,2021-05-03T06:17:56Z,0,"At 15:23, who shouldn't we do np.dot(weights, np.array(inputs).T) + biases?",True
+@josjoe4192,2021-04-29T08:59:35Z,1,"layer1=layer_dense(4,24) this is giving an error  layer_dense() takes no arguments why is that help",True
+@arielhy111,2021-04-26T10:40:43Z,0,pure gold,True
+@HA-zd5gx,2021-04-19T09:20:03Z,0,thanks for these great videos.,True
+@vic2r934,2021-04-12T15:55:10Z,1,This has to be the hardest tutorial I have ever followed along to.,True
+@sciWithSaj,2021-04-11T16:33:29Z,1,"Thanks a lot This will be my first object oriented programming. It was kind of daunting for me, but you made it so simple.",True
+@re.liable,2021-04-06T14:36:05Z,0,"14:14 Barring performance optimizations, would this be effectively the same as iterating over through the inputs and calling `np.dot(weights, each_input)` for each?",True
+@mbatarfi,2021-04-06T09:51:24Z,0,Thank you for great videos. I really like your animations. I appreciate that so much.  Could you please tell me what the program you use for animations?,True
+@chrisber,2021-04-06T09:00:42Z,0,"I'm currently at 18:15 and when I try to run: layer2_outputs = np.dot(layer1_outputs, np.array(weights2).T) + biases2  I get the following deprecation warning:",True
+@TheMangz1611,2021-04-05T20:45:12Z,0,"Doubt: I am assignning 5 feature data in 3 input samples n 2 neurons... so neuron1 will calculate for Input[0] , neuron2 will calculate for Input[1], what about Input[3]?",True
+@TheMangz1611,2021-04-05T20:36:19Z,0,"@sentdex why did we do np.array(weight).T --> why for weight why not for input... what which is correct and why??? 1. np.dot(Input_transpose, weight) 2. np.dot( weight, Input_transpose) 3. np.dot(Input, weight_transpose) 4. np.dot(weight_transpose, Input )",True
+@horseman3253,2021-03-28T18:44:26Z,0,"Wooow, this how all subjects in school should be explained, amazing visualization, very clear!",True
+@bartosz_z8967,2021-03-25T07:44:25Z,0,"28:55 Why (inputs, weights) and not the other way around ?",True
+@maulwurf93_tv,2021-03-21T11:55:42Z,1,"I am a bit confused @sentdex o.o Didn't you say earlier we need to do ""weights, inputs"" and not ""inputs, weights"" to not have problems? And now we HAVE problems and have to switch it back :D",True
+@peschebichsu,2021-03-12T18:59:45Z,0,"9:08 I guess something got lost there 🤔. Probably just a no, but maybe you'd wanna know :)",True
+@Dxeus,2021-03-07T20:33:23Z,0,"Just imagine if we have tutorials like these on all the AI and Machine learning topics and also on probability and statistics. .. man, every few minutes in the video I try to scroll the video list up and down with the hope that there will be 700 more videos like these but it shows only 7 videos. Amazing work, I will order your book now. Appreciate your dedication and hard work.",True
+@astronaut205,2021-03-07T07:13:23Z,0,Damn.. the only thing that messed me up was the introduction of class.. I should watch some more tutorials on python regarding class.. by the way your videos are a form of enlighment dear Sentdex.. much appreciated..so many thanks dear friend,True
+@amitabhadey7222,2021-03-05T13:38:15Z,0,"For multiplication between two matrices to be possible, the column of the first matrix must be equal to the row of the second matrix.  i.e. for row1 x col1 * row2 x col2 to be possible, col1 must be equal to row2.  When col1 is not equal to row2 but equal to col2, sometimes we transpose the second matrix (interchange row2 and col2) to comply with the rule above.",True
+@carltondaniel8966,2021-03-05T05:25:31Z,0,@12:42 epic reaction,True
+@ravimohan46,2021-02-23T06:44:25Z,0,"why do we need to Transpose weights2 again, if the the shape of both layer1_outputs and weights2 is essentially (3x3)?",True
+@angelodeus8423,2021-02-22T02:01:14Z,0,"layer1.forward(X) AttributeError: 'Layer_Dense' object has no attribute 'forward'",True
+@charlesgormley9075,2021-02-18T19:55:44Z,0,"Do we need to add the transformation function to the weights in layer2_outputs? It may be simpler to take it out because they will both be 3,3 matrices.",True
+@patrickfox8620,2021-02-13T12:14:53Z,0,"I've been enjoying these videos so far, but I'm reluctant to continue watching if the OOP gets too involved, as I am unfamiliar with this method of programming. So how much OOP will I have to learn to follow the series? And how much to follow the book (this will determine whether I purchase or not).  Any advice would be appreciated.",True
+@thiagoabreu531,2021-02-11T02:25:19Z,0,"I was watching videos from some guys of my own country and I was like ""What the F*** is he saying ??"", but now things are getting a 100% more clearer, so.. thanks and congratulations, greatest teaching ever",True
+@Bawaromerali,2021-02-09T20:35:21Z,0,"Thanks man , amazing voice and video 👍",True
+@littlethings-io,2021-02-05T14:19:14Z,1,"Just ordered the book - can't wait to dive into it. Thanks you, this is good stuff and a priceless contribution to the evolution of this area of science.",True
+@GoredGored,2021-02-05T02:38:57Z,1,"Hi Sentdex, first thanks for these amazing videos...I have a question. Why do we transpose weights2:  we can dot produce as:   np.dot(layer1_outputs,  weights2) + biases2  without transposing weights2.  So , why did you transpose it?",True
+@abdelhadiaziz7307,2021-01-30T22:12:37Z,0,can't run the code without doing np.array(X) !!,True
+@user-us1jq7uk5y,2021-01-27T04:46:57Z,0,You very great person please can you make project to use it in real life ❤️,True
+@sushiladhaka7974,2021-01-25T14:44:26Z,0,Very very good and excellent explanation.,True
+@go_better,2021-01-24T20:36:39Z,0,Thanks for the episode! It's getting more complicated. I think that matrices are the bottleneck. Understanding those shapes. BUT HUGE THANKS ANYWAY!!! It's so awesome.,True
+@gnomenorthofthewall1982,2021-01-24T15:34:57Z,1,"Great vid! You are actually good at teaching this stuff and really explain and open the basics. Still I have one perhaps bit stupid question, but why do I get the same output in the end as in the video? Only the inputs are same, weights and biases are random , right? So shouldn't the final output be different although similar kind?",True
+@Pheonix1328,2021-01-24T10:23:37Z,0,"As soon as you introduced batches you completely lost me, or rather I lost the meaning of the numbers and they just became random numbers not attached to anything... I think I'll have to draw a picture or something xP",True
+@yogeshd007,2021-01-23T19:47:10Z,0,But what factors determine how many inputs and weighs and neurons are needed to identify an object or a thing,True
+@tgsoon2002,2021-01-22T08:01:17Z,0,"sendtex, will you make patreon? I think video tutorial as an benefit for patreon or extra content for advance package of the book will be nice. lot of time, reading book fill like a bit hassle and video and follow along is much much more attractive.",True
+@shivprakash5793,2021-01-21T12:19:35Z,0,"15:15 why are we doing ""input.weights"" here while we did ""weights.input"" previously? We can transpose the ""input"" matrix and dot product it with weights, can't we?",True
+@anthony4564,2021-01-15T04:37:35Z,0,"Thank you so much, omg this has been such a big help. It's kinda freaky tho when my question arises there almost immediately answered.",True
+@sanjeevhunnur6173,2021-01-13T18:46:03Z,0,i am a 15y/o and the explanation is so darn good i can understand about 95% of it!!Thank you so much!!!,True
+@kelpdock8913,2021-01-13T17:58:49Z,1,"""you are the neuron"" bruh",True
+@huojinchowdhury3933,2021-01-13T07:19:21Z,0,"You made your tutorial really great so far. Because of animation I could easily visualize what is happening behind code. But In this video(P.4 Batches, Layers and Objects) you didn't show animations of last code snippet. And again It is really hard to visualize what is happening :(",True
+@huojinchowdhury3933,2021-01-10T16:16:35Z,0,How you make animations? What tools do you use for that?,True
+@NNNNNNNNNNNNNNNNNN9,2021-01-10T15:18:25Z,0,How does the Neural Network make a fitment line?,True
+@huojinchowdhury3933,2021-01-10T14:56:58Z,0,when I want to pass an image. In such case I will have input array as 1 by n. Here 1 means one image as input. And n means total number of pixels. Am I correct?,True
+@Extorc,2021-01-08T02:53:05Z,0,"I have a doubt if someone can answere , we took a 4 input list and created a list with 3 lists with 4 inputs each , in another words we created 12 inputs",True
+@teslamodel314,2021-01-03T17:19:36Z,2,"I understood that later, but it seems to me that you didn't explain why the second set of weights has 3 items per line instead of 4. Than I get that the layer 1 output is 3x3.",True
+@sawansihag6974,2021-01-03T07:32:20Z,0,"Awesome, just Awesome",True
+@mrfrozen97-despicable,2021-01-02T11:48:26Z,2,Heh. My high school teacher never explained me matrix so well. Maybe I was stupid. But now I understand.... Thanks,True
+@lukaslbw,2021-01-01T16:55:52Z,1,Thx insane good Video!,True
+@dzordrezord9820,2020-12-31T19:52:01Z,0,May Allah bless you for all this work,True
+@user-tc6us7ep6w,2020-12-25T08:43:32Z,0,Is the book is available for Indian edition in Indian price list..!,True
+@wizard-cs2st,2020-12-24T07:36:00Z,0,what do you use to make these animations?,True
+@maulanakamal6188,2020-12-19T02:21:27Z,0,Your animation amazing,True
+@xwmaxwma,2020-12-18T18:40:59Z,0,"If I have seen these videos in my undergrad, my linear algebra would be A+++",True
+@souravjha2146,2020-12-18T06:57:07Z,1,please complete this series,True
+@Cnys100,2020-12-17T08:11:10Z,0,The longest waiting time for my e bock was the download time . and its a about 4 min. /P,True
+@3kelvinhong,2020-12-13T11:04:54Z,0,"This video really helps me a lot! After I learned feedforward and backpropagation, I kind of construct a three layer neural network with mechanisms inside, but it is hard to change the code to four or five layer. With your technique, however, I could change my code into something more dynamic. Thanks!",True
+@hamzehshahvali5484,2020-12-10T19:18:25Z,0,"Thanks dude, awesome video, i'm a beginner and this really helped",True
+@riffaxelerator7299,2020-12-05T09:11:03Z,0,"Pretty sure I transposed columns to rows correctly, but get this error list 'indices must be integers or slices, not tuple'",True
+@SasiKumar-no8mx,2020-12-05T05:00:16Z,0,"It's nice to work, but every step transposed the whole scenario,  so it may drop confidence.",True
+@maxmaxxart6249,2020-12-03T22:48:04Z,0,"I get a Type Error where it says : Layer_Dense() takes no arguments And I think yes, indeet it does not. Or is it?",True
+@viranipiyush3687,2020-12-03T05:11:42Z,2,After transpose you actually didn’t switched inputs and weights in numpy dot product.     Why? Output = np.dot(inputs * np.array(weights).T)   It should be  Output = np.dot(np.array(weights).T * inputs). I am just asking. I didn’t not understand this. Thankyou sir,True
+@brendensong8000,2020-12-01T06:50:37Z,0,Thank you for the clear explanation!  I was completely lost after several videos!  you made it so clear!,True
+@comradejames7813,2020-11-30T02:50:35Z,1,"But what exactly do the output values mean? Say the inputs are sensor values, what do the outputs mean in terms of the sensor values?",True
+@martinzderadicka8280,2020-11-26T19:18:25Z,0,HEY EVERYONE I DO THIS AS A PASTIME ACTIVITY INSTEAD OF PASSIVE ENTERTAINMENT!!!!!! AM I NOT A GOOD BOY?????!!!!!!!!!!,True
+@bourahlamohamed1647,2020-11-21T13:23:48Z,0,in the second layer you used output_Layer1 and its new matrix with 3*3 in dot method with weights wich is matrix 4*3 doesnt accept it . but in your video everything was okay and i cofused,True
+@Anujkumar-my1wi,2020-11-19T10:45:19Z,0,Are weights in neural network same as weights in linear regression?,True
+@MrMashyker,2020-11-17T14:59:34Z,0,That's a great way to visualize matrix multiplication!,True
+@soldour7597,2020-11-17T00:58:49Z,0,"just for sake of comment but frankly speaking, I am speechless for what you are doing... I really Loved your videos. sometimes I didn't even hit like because hurrying for the next video but I had to go back and like them all.  this is by far the best video tutorial I have ever came across on deep learning. this by itself is an advanced university-level lecture. sorry for calling it Turorial. My deepest and humble respect! stay cool and safe :)",True
+@julianray6802,2020-11-11T18:23:17Z,1,Thought I knew what batch size was about.... I was completely wrong....I need to think like a neuron! Thanks again Sentdex for yet  another great video!,True
+@vanHillQ,2020-11-11T09:39:52Z,0,Awesome series! As someone not very familiar with OOP... what is the advantage of using Classes instead of functions for the operations of the layer?,True
+@user-qe4wr8hm2z,2020-11-11T09:13:11Z,0,"Thank you! You defently Rock! your videos a nutral gift, for many people!",True
+@AndreasEDM,2020-11-09T02:21:28Z,0,What do you use to create these neat illustrations and animations?,True
+@brijkishortiwari2077,2020-11-07T06:22:56Z,0,Thank you very much sentdex for such a superb explanation..i never found such a great quality of explanation.,True
+@DrStoCazzo,2020-11-06T14:46:54Z,0,if you transposed inputs instead of weights it woud have been the same right?,True
+@leubookwood1445,2020-11-05T19:43:45Z,0,"Hi there. Just a small question: In this case, the ""n_imputs"" is created randomly and he is not taking the inputs he typed in the beginning, right?",True
+@Mayank25,2020-11-05T17:10:10Z,0,This is the best tutorial ever I watched.. Kudos 👍🙌🙌🙌,True
+@py_tok5589,2020-11-02T21:21:17Z,0,"at 9: 29, in Engineering maths we do a great deal manual  matrix product calculations,  your explanations  refreshes my mind Daniel",True
+@py_tok5589,2020-11-02T20:48:07Z,0,"nice one,   running through this tutorial",True
+@ArpitDhamija,2020-11-01T21:22:09Z,0,please make playlist - RNN LSTM from scratch,True
+@itamarsultanik5604,2020-10-31T19:25:18Z,0,"Very intersting! I've never used ""class"" before",True
+@Chevignay,2020-10-29T00:29:26Z,0,you're that great you should run for president it's not too late.. thanks for the video :-),True
+@ilikesharks2020,2020-10-28T01:56:54Z,1,Anyone else getting a “Layer_Dense() takes no arguments” error?,True
+@penart8079,2020-10-27T16:41:57Z,0,"Each input can be from a neuron right? So for example when the list was a vector, those four elements values could be seen as an individual neuron from a prior layer. My question is, when you added the batch, does that mean that if we were to visualize this the input layer would have 12 neurons then?",True
+@kolektivmozak238,2020-10-22T13:55:28Z,0,I will have to re-watch this few times. Anyway good job!,True
+@zrmsraggot,2020-10-21T13:01:55Z,0,Why do we prefer weights.T over inputs.T ?,True
+@zrmsraggot,2020-10-21T12:58:07Z,0,12:20 .. Come onnnnnnnnn tell us,True
+@B_dev,2020-10-20T16:27:03Z,0,"it'd be cool if what's going on was shown in terms of neural network diagrams; that said, incredible job on making this digestible!",True
+@scottbaker5311,2020-10-20T03:38:33Z,0,if you went to therapy and spoke like this you prob woukld get locked up in a psych ward no joke.,True
+@aamirkhanmaarofi9705,2020-10-18T11:36:46Z,0,"Watching this playlist is awesome, it made my task very easy. Have been stuck with the implementation of the multilayer perceptron for two days. Thanks",True
+@cymi2607,2020-10-11T02:51:04Z,0,"Muy buen video, voy siguiendo la serie! Saludos desde Chile :D",True
+@dragondmoney8784,2020-10-10T14:48:22Z,0,Do we know why dot product doesn't just multiply rows by rows? It doesn't make sense why dot product multiplies columns by rows.,True
+@Headbangnuker,2020-10-04T16:56:23Z,0,"Heyo,   So in the original output assignment used in the last video (output = np.dot(weights, inputs) + biases), the weights are used first in the np.dot function. However, you choose to transpose weights rather than the inputs, and then put it second on the np.dot function. I understand that the inverse of this, transposing the inputs and putting that second would not return the intended results. Both are mathematically correct, but return different results.   My question is why would the ""inputs first"" result be more valid than the ""weights first"" result?   Thanks :)",True
+@discreet_boson,2020-09-27T07:21:16Z,0,"Sorry for my dumbness, but what does the line at 5:09 exactly represent?",True
+@TheValkire,2020-09-26T20:52:32Z,0,Why do you need to do the transpose of the weights for the layer2_outputs? 18:15,True
+@chaks2432,2020-09-25T04:24:27Z,1,"This is my first time learning about Neural Networks, and you're doing a great job at explaining things in an easy to understand way.",True
+@minhtuecung5418,2020-09-22T13:19:00Z,0,"Now that´s what I call real teaching: triggering curiosity ! Thank you so much, sentdex! Math rules!",True
+@peretternavn8287,2020-09-19T07:50:14Z,0,"At 9:51, why is the dot product of the first row vector and the second column vector 1.05 then 0.79? The dot product in the first place is 0.79.",True
+@iandareopal,2020-09-17T22:28:49Z,0,Is all machine learning about fitting lines to data?,True
+@chuckf5540,2020-09-16T14:10:33Z,1,"Copied code as in tutorial with this error:  layer1 = Layer_Dense(4, 5) TypeError: Layer_Dense() takes no arguments python: 3.8.5 numpy: 1.19.1",True
+@chuckf5540,2020-09-15T20:17:56Z,0,Great explanation and very clear. I look forward to all videos. What a learning process!!,True
+@umairmalik6480,2020-09-15T14:58:31Z,0,i just love it brother & Thankyou from the bottom of my heart ;),True
+@mattiaarsendi5421,2020-09-11T13:52:23Z,0,Amazing animations!,True
+@sweardog,2020-09-09T23:32:23Z,0,Dad?,True
+@opkp,2020-09-07T13:08:51Z,0,"Can we transpose ""inputs"" instead of weights?",True
+@opkp,2020-09-07T12:56:32Z,0,"Why does the batch size matter ? Won't the final result be the same( for batch size of 4 or 32) , is it to increase the efficiency of the neural network? Can someone help?  And what does generalisation mean ?",True
+@carlossegura403,2020-09-07T03:30:07Z,2,"Back when I was learning the concepts behind building a network, most tutorials went straight into the maths, while that is fine - what I wanted to understand was the different compositions from the input to the output. This video was what I was looking for back then before going deep into the theory and methodology. Great content!",True
+@joowon1805,2020-09-06T22:00:07Z,1,"The secret of becoming successful in Crypto trading is BUY AND TRADE thereby multiplying your coins so that no matter what happens, you will always be on the safe side even when its crashing. Coming in contact with Crypto Mileage has really changed my financial earnings for the best, I've been able to save 50,000usd in 3 weeks period. I urge everyone seeking an opportunity in Crypto trading, those with no prior knowledge about Bitcoin investment, those who are anxious about the wavy nature of the Market and those that need a perfect strategy so that they can take maximum advantage of the Crypto Market Cap to take a Bold step and start investing. I can share more snapshots proof of my recent withdrawals VIA TELEGRAM @brianchecojoseph or text me +17184120270",True
+@decode0126,2020-09-02T10:35:39Z,0,thanks for the amazing tutorial !!!!,True
+@ujjwal4441,2020-08-30T09:44:27Z,0,"19:58 why there are 3 sets of input?it's a LOL, shouldn't it be just a list of 4 elements",True
+@electroe2143,2020-08-27T09:02:15Z,0,"I can run the code but in line 15, there is a complaint  "" Instance attribute results defined outside __init__ ""  How to solve that ?",True
+@MuhammadUsman-ln5ov,2020-08-26T05:59:07Z,0,"I got this error after done same code. someone please help.  ""TypeError                                 Traceback (most recent call last) <ipython-input-3-79f79067e346> in <module>      18       19  ---> 20 layer1 = Layer_Dense[4,5]      21 layer2 = Layer_Dense[5,2]      22   TypeError: 'type' object is not subscriptable""",True
+@rrshier,2020-08-13T16:25:58Z,3,"At about 14:51, where you present the matrix multiplied by the vector, the proper mathematical notation would be to have the vector as a column vector, as well as the output vector being a column vector.  This is truly how the matrix multiplication is able to work, because a vector is truly just a matrix where one of the dimensions is equal to 1.  Other than that, I have to admit, these are my FAVORITE AI/ML videos yet!!!",True
+@FireTeamSix.,2020-08-12T15:31:25Z,0,"Hey there sentdex! You might've realized this already, but if you run the code at 14:41 in PyCharm, it does not work properly. Instead, it just prints the first row of the matrix. Even if reverting the code so the ""dim 1"" error came, the PyCharm code would work instead of returning an error.",True
+@LiaRistiana95,2020-08-09T17:16:49Z,0,"I understand the transpose thing, but I wonder if it's possible to do it with looping instead. So I tried in looping using for, np.dot(weights, inp) +biases[i], but I got different result from using the transpose. At least half the elements are different, but the other half are correct. I wonder why.",True
+@dippy9119,2020-08-09T13:54:26Z,0,"This is a great video series on how to build a neural network, but what's the best online resource to conceptually learn what a neural network is, and how it works? So that prior to watching this video, I already have an understanding of terms like forward pass, batch, backward propagation, etc?",True
+@dippy9119,2020-08-09T13:06:21Z,3,6:09 what's a fitment line? Google isn't helping me.,True
+@andrescontrol2866,2020-08-05T17:15:49Z,0,Very useful video and very well explained through the series. Thanks a lot Harry!,True
+@agb2557,2020-08-04T20:47:52Z,0,I’m still a bit confused about the batch size section. The final result of the straight line fit is always the same no matter what the batch size right? So other than less “jiggling” about what is the benefit? Or is the goal to mínimos the jiggling so you can observe the results during the process?  Amazing videos by the way. Thank you for sharing this for us to learn.,True
+@sharkk2979,2020-08-04T10:20:04Z,0,Before :  brain  After : brain ** 2,True
+@hanbanaroda,2020-08-03T23:35:19Z,0,"Can someone help me with the part from 26:44? I can hear the words, understand them but it doesnt make sense, theres something basic that I am missing :-D  Why are the added parenthesis changing the code so its valid and why it differs from the previous line (np.random.randn) where only one pair of parenthesis are used?",True
+@edyt4125,2020-08-01T18:18:55Z,1,22:30,True
+@abhijeet800,2020-07-30T07:52:13Z,1,can we take a transpose of (inputs) insted of (weights). as inputs should be a vector.,True
+@kanskejonasidag1,2020-07-29T17:45:59Z,0,"Can someone help me a bit here, I'm really struggling with one part. At 18:14, I get different values in the last column in the output matrix. I.e, my last neuron shows the wrong output for all three batches.  Now, I've double and triple-checked all the the weights and biases, the first inputs etc. I noticed it happens in the second layer, because the output from layer 1 is correct according to the video. I have tried multiple times to do the matrix multiplication (dot product) by hand, and then adding the bias, and I always get the same values. My last neuron outputs, in batches 1 to 3, the following: -2.474, -5.112, -0.735.   Notice how it's the decimals that differ, which could indicate some sort of rounding error, but the first layer's output is spot on with the videos output, so I dunno... grateful for any help.",True
+@georgelza,2020-07-27T15:10:08Z,0,"At min 16:59 for the weights, you still show 3 neurons in the weights, but now you got 3 values, not 4, I'm lost... we had 4 previously, why the change, how does this map to my previous outputs.",True
+@georgelza,2020-07-27T14:35:07Z,0,"... some more explanation around min 11:22 would be great, maybe a this works and this does not diagram.",True
+@dhoscodhoscovi2957,2020-07-27T07:29:38Z,0,Hey Sendtex I just order the ebook version and I got email saying. Shouldn't be getting the draft right away? or there is wait for the draft too? Thanks,True
+@amaurygrajalessoto6332,2020-07-23T20:43:41Z,0,"I understand the benefit of a batch, but I didn't get why we didn't need more weights and biases after adding more inputs... I am under the impression that when the input batch was made that was the equivalent of adding more inputs, and each input need weights and biases... so are we using the same weights and inputs for each batch? or am I missing something?",True
+@pranavdaggubati8384,2020-07-21T23:26:45Z,0,Why are the weights transposed and not the inputs?,True
+@figmentboy,2020-07-18T19:46:48Z,0,Bro this is an awesome video. One thing I'm wondering is if you'll cover NEAT at any point of your channel?,True
+@shane3994,2020-07-17T07:43:13Z,0,"Question: Why do we transpose the weights rather than transposing the inputs? Wouldn't either being transposed fix the shape issue? What's the particular factor that made you decide 'The shape of weights must be adapted for the shape of inputs, as inputs will be used to determine the shape of the dot product'?",True
+@dutta.alankar,2020-07-16T17:19:50Z,0,Thanks a lot for these videos! Really helpful and much appreciated! I really wish to support you and the authors of the book and maybe make some content contribution to it as well.  I'm a graduate student in Astrophysics from India and I don't have means to pay the entire 29 usd for the book rightaway but I want to access the content as early as possible while its still on draft stage so that I can also be able to contribute to it. Is it possible to do anything from your end?,True
+@venkateshaprasadsridar5223,2020-07-15T17:25:01Z,0,Why do we take transpose of the Weight matrix and not transpose of the input matrix and keep the weight matrix as it is?,True
+@MFahad-hn8fe,2020-07-15T15:05:07Z,0,Thank you Sir! You are far better than college professors.,True
+@priyamane7361,2020-07-15T15:02:24Z,1,"what if we do -  np.dot(weights,inputs.T) + biases => it gives the output where the diagonal elements are same as  np.dot(inputs,weights.T) + biases but other values are different for a single layer. For 2 layers, the output changes completely.  What is wrong in doing so?",True
+@huytruong6761,2020-07-15T02:06:16Z,0,"Please explain 16:11. How do you add two matrixes with different dimensions?? And also the inputs and biases vectors should not look like that, they should be column vectors (aka they should be standing up).",True
+@antikguharoy1631,2020-07-13T06:09:40Z,0,"I was really confused by the naming ""n_inputs"" thinking it was number of input rows as each row is an input, had to wait for the creation of the layer to realize it was actually the number of features per input.",True
+@z3n691,2020-07-12T08:01:14Z,0,"My dumb 86 billion neuron brain needs a calculator for 2+2, meanwhile machines with less than 50 neurons are able to find patterns in huge databases.",True
+@ianjoshi6778,2020-07-11T13:48:43Z,0,Hello! Can anyone explain why for layer2 we need to do the transpose if the outputs from layer1 are a 3x3 and weights2 are also a 3x3? Why transpose when the dimensions match?,True
+@mayankkhattar3860,2020-07-10T07:13:10Z,1,"At 17:29 why we have done np.dot(inputs,weights.T) instead of np.dot(weights,input.T) ? Can anyone clarify plz?",True
+@stefano4861,2020-07-09T10:31:01Z,0,the animation looks like 3blue1brown... I love it,True
+@actyon20,2020-07-07T19:58:17Z,0,Question: In your book do you give example of how to manipulate images ( inserting the pixel values as inputs )? How to load the pixel as inputs and how to chose the contour of the image we want to recognize as neurons?,True
+@andremelinski5620,2020-07-07T19:25:06Z,0,Gz for you and daniel and great channel!,True
+@anilsarode6164,2020-07-06T17:06:29Z,0,"Excellent work dude, I am really enjoying this thanks a lot !!",True
+@anilsarode6164,2020-07-06T16:25:19Z,2,I think the single array of biases at 16:16 get added to the individual row of the dot product matrix is due to the Python broadcasting. Thanks a lot for this video series.,True
+@magedeladl7861,2020-07-06T06:01:28Z,0,I rly like your way dude. keep it <3,True
+@Potatotoro,2020-07-05T14:51:11Z,0,When explaining batches and the difference between a vector and arrays wouldn’t it be better to point out that a vector is the same as an array with each element being a list of length 1?,True
+@hasneetsingh,2020-07-05T13:59:27Z,0,"Your explanations are so clear, I really appreciate the hard work you've been through to design this series to make such complex topics so much fun to learn :) . Enjoying a lot",True
+@tlxr6869,2020-07-04T11:46:26Z,0,"So neural network is about a classifier that separates things in high n dimension based on how many n features you put into it ,right ?",True
+@thenotsogentlecat5847,2020-07-03T20:02:28Z,9,"Sentdex: we're arriving at the sexy parts...  Python: Oh, yes I am ;)",True
+@beauxq,2020-07-01T01:29:01Z,0,"The batch part of this lesson exemplified a big annoyance of bad programmers. Instead of thinking about ""What do I want the computer to do?"" it was way too focused on ""What do I need to do to get rid of this error message?"" That is not a good way for any programmer to think.",True
+@jedisenpei855,2020-06-26T01:38:17Z,0,"Apart from trying to explain  neural networks, you just explained the matrix dot product in the most intuitive way I have ever seen. I know how the dot product works by now, but I also remember how much work I had to give in to understand the concept given lectures and texts i had at university. I had to read through some difficult math equations and really think about what the book was trying to tell me, and I also had to go through a lot exercises to really get a grasp of it and remember it, and then you just explained it in 10 minutes and it makes perfect sense, although I had almost forgottes what it was all about.  So easy.  I wish my teacher had an animation like the one you show at 9:10. Then I wouldn't have had to struggle through the math classes, as much as I did, in my education as an electrical engineer.",True
+@NajmehMousavi,2020-06-25T16:11:48Z,0,"This is amazing, much better than the university courses, many thanks :x",True
+@ayanpanja1956,2020-06-24T16:55:34Z,0,You just made me cry. The way you portray my god!!! its really awesome. So much effort. I still dont understand the people who disliked the video.,True
+@augusthansen4760,2020-06-22T18:14:57Z,0,"in last video, we did dot product of weights and inputs but in this video we did dot product of inputs and weights. Is it because of batch inputs or i am missing something",True
+@chaingame3,2020-06-22T13:22:53Z,1,"i literally have the same code but there is an error ocurring everytime.   import numpy as np inputs = [[1,    2,   3,    2.5],           [2.0,  5.0, -1.0, 2.0],           [-1,5, 2.7, 3.3, -0.8]] weights = [[0.2,   0.8,   -0.5, 1.0],            [0.5,   -0.91, 0.26, -0.5],            [-0.26, -0.27, 0.17, 0.87]] biases = [2, 3, 0.5] output = np.dot(inputs, np.array(weights).T) + biases print(output)  Does anyone know why?  TypeError                                 Traceback (most recent call last) TypeError: float() argument must be a string or a number, not 'list' The above exception was the direct cause of the following exception: ValueError                                Traceback (most recent call last) <ipython-input-80-380da45e0867> in <module>()      10 biases = [2, 3, 0.5]      11  ---> 12 output = np.dot(inputs, np.array(weights).T) + biases      13 print(output) <__array_function__ internals> in dot(*args, **kwargs) ValueError: setting an array element with a sequence.",True
+@srinjoyghosh7273,2020-06-22T07:32:10Z,0,i like the way you laugh,True
+@divyanshuvyas2695,2020-06-20T19:32:25Z,0,"As we move from a 'single-sample' input to the batch input, can you please explain why the weights remain the same (intuitively)?",True
+@moazelsayed6058,2020-06-17T16:28:34Z,0,Might be a stupid question but how do you have a matrix of inputs and not just a vector? I understand that they're nodes but isn't each node supposed to only have a specific value as to make up a vector of nodes? where does the 2D of a matrix come in?,True
+@anjali7778,2020-06-17T16:16:03Z,0,"if i draw a neural network of 12 inputs imaging into 3 output and  connect each neurons to the output, there will be 36 lines in totals  that means there has to be about 36 weights but the weight you took had  only 12 weights in array, how is that possible ?",True
+@leonvonmoltke7923,2020-06-17T15:57:20Z,0,"What do I do when the output(X) of my neurons are not less than 1(I have multiplied weights by 0.1) , I am using java with a library that enables me to generate random numbers, the parameters of the distribution of the numbers is a Gaussian distribution with a StdDev of 1 and an expected value of 0. Also which random number distribution is the most optimal? Thanks in advance",True
+@spicytuna08,2020-06-13T23:10:28Z,1,"thanks. can't you transpose weight matrix instead.  by doing this, weight comes first all the time like you mentioned in the previous session.",True
+@zeyadomar200,2020-06-13T13:42:31Z,0,"I have question ,is there a way to determine how many layers and nodes I am going to need in other words what is the difference between NN with 3 layers and 4 layers?",True
+@halbkuppe4895,2020-06-10T23:24:46Z,0,capital X is a pretty damn good name for a rapper!,True
+@KennTollens,2020-06-09T22:53:34Z,0,"I did this X = [[1,2,3],      [4,5,6],      [7,8,9]]  layer1 = Layer_Dense(3,10) layer2 = Layer_Dense(10,10)  and got   [[ 0.0826583  -0.02984475  0.00689459  0.27093935 -0.04702111 -0.12175426   -0.23413333  0.07396133 -0.04180875  0.00314792]  [ 0.12003903 -0.04339779 -0.05602729  0.4046827  -0.10021935 -0.29882701   -0.576458    0.28149761 -0.19392756 -0.02484102]  [ 0.15741976 -0.05695084 -0.11894918  0.53842604 -0.15341759 -0.47589977   -0.91878266  0.48903388 -0.34604638 -0.05282996]] What do all those gobbledygook numbers mean? What is it trying to get to? I know how it is calculated, but is it trying to get the highest number?",True
+@christopherlee7379,2020-06-09T17:47:52Z,0,"Sorry I am a little confused on transposed part. When you transpose the weight, aren't you completely changing up the network. Because different weights will now be multiplied with different inputs?",True
+@NeuralxAi,2020-06-08T10:17:31Z,0,waiting for the Next part . 🥱,True
+@theoutlet9300,2020-06-07T07:13:39Z,0,this is where i am lost. i have not used OOP a lot in python. can someone refer me a link where i can learn that?,True
+@shashanksai4477,2020-05-30T16:31:58Z,0,"So at 15:09 the dot product of weights and inputs matrix is done by transposing one of them, isn't it incorrect considering that the different weights corresponding to each of the inputs now are replaced in a different order or can we just multiply the weights in a random order as we like??",True
+@Theteslamodel3owner,2020-05-29T23:11:14Z,0,"I have anaconda installed with numpy, but it gave me a module not found error when I run the program.",True
+@akshatchoudhary7834,2020-05-29T17:23:23Z,0,I have combined the __init__() with forward() and instead of passing the n_input I have passed the entire input and from the input I have extracted the n_input  I hope this won't create any troubles in future😅,True
+@sujithveturi6688,2020-05-29T14:44:28Z,0,"Hopefully, you will also tell how to implement these neural networks in real world problems. I am very eager to learn more about it & try it out for a project!!",True
+@shortstoriesandmore0607,2020-05-28T10:44:38Z,1,"You assigned your biases as self.biases = np.zeroes((1, np_neurons)) which returns an array like [[0, 0, 0]]. That is, essentially, you are not assigning any bias to the neurons. Please correct that!!",True
+@fun-ih5sc,2020-05-27T03:50:13Z,0,18:10. Why you took transpose of 2nd weight. Thank you in advance Sir.,True
+@rohithegde3022,2020-05-26T19:27:30Z,0,"@sentdex Great job, love your content Ps, Can you show a diagrammatic representation with neurons and inputs for the flow happening in layer_dense class example?",True
+@eeshdeepsingh7030,2020-05-26T15:09:24Z,0,"Out of all the series on neural network I have watched this one is the best in youtube❤❤  but messed up my head over the point that when u set the layer1 output in size 4,5 its showing matrix of size 3,5 :// please shed some light on this noble soul!! love from India <3",True
+@allan1827,2020-05-25T22:39:19Z,0,16:16 u r saying wrong. It's 6.9 + 2 and not 3.0,True
+@accounttwo5114,2020-05-25T03:48:56Z,0,"Fantastic, I'm really excited about the following videos!",True
+@usejasiri,2020-05-24T14:03:04Z,0,Please clarify the concept of the Gaussian distribution @sentdex,True
+@harikalatheeswaran9206,2020-05-23T19:30:32Z,4,"For people watching this video... remember this golden rule : Say we have two Matrices A&B..in order to multiply A with B,i.e A.B The number of Columns of Matrix A should be equal to number of Rows of Matrix B. That's why A.B != B.A Amazing video 👍! Thanks a lot ! Keep up the amazing work !",True
+@MadeItHappenDaily,2020-05-22T23:36:27Z,0,I loved this.,True
+@abhishekprajapat415,2020-05-22T20:11:26Z,1,"hey, guys just asking but r also getting an option of 4K and even that at 60fps????? like Bro, u sure like high-quality content in all references be it even recording",True
+@anidea8012,2020-05-22T15:54:48Z,2,I still don't understand why I'm watching this but I'm watching this 💥,True
+@drunkenLeeGwak,2020-05-21T18:21:05Z,0,Ur d best,True
+@GelsYT,2020-05-21T17:30:05Z,0,"this is so cool i watch your video of this series every night, and damn It's all connected I mean to other youtube videos that I've watch about deep learning / neural nets . They have explained things like layers,batches,activation functions they explain on what they do. But to the point on HOW THEY WORK! or HOW THEY REALLY WORK, damn you explain them CLEARLY. While watching this series I am beginning to have a more clear understanding of what is really going on when we try to train a neural net. Thanks sentdex :D   sorry for the bad english hahaha COOL SERIES :D",True
+@scottegardner,2020-05-21T11:05:11Z,0,"I was getting different layer outputs and couldn't figure out why. One hour later... I realized it was because I didn't delete the one-off print statement from earlier `print(0.1 * np.random.randn(4, 3))`. This resulted in my seeded random output being off, because `np.random.randn` vends a different output each time it's called. 🤦🏻‍♂️",True
+@GelsYT,2020-05-20T17:36:19Z,0,"hello sentdex, i hope you'll notice this comment. What was your course when you were in college? Were you a computer science student? I mean you could be in other courses you know ahahaahahha just asking :D THANKSS",True
+@snibit432,2020-05-20T00:25:26Z,0,I love how those videos are getting exponentially bigger lol,True
+@rafeeqalfaqih977,2020-05-19T21:02:12Z,0,"what can i say , really this is awesome   u r the best     , thank u.",True
+@rafeeqalfaqih977,2020-05-19T20:59:13Z,0,"what can i say , really this is awesome   u r the best     , thank u.",True
+@tanaypatidar2825,2020-05-18T19:06:56Z,0,such a great serise lokin forward to it best of luck!,True
+@santoshtamboli,2020-05-18T12:48:44Z,1,This is really awesome. There is no chance for anybody to post negative comments. I like to watch more videos from u on ML and DL,True
+@azgartar,2020-05-17T22:25:32Z,0,"I fail to understand the explanation at 12:37 wrt the error when you create a batch of inputs. How does the .dot function differ from have just 1 input sample vs the batch. According to your explanation of the reason for the error, it should have thrown out the same error before the batch inputs were introduced",True
+@tubegdv,2020-05-17T13:49:59Z,0,Hi Thoroughly enjoying and learning.  I am from Bangalore India.  Can I make the purchase in INR,True
+@evripidistzionas6740,2020-05-17T09:18:33Z,0,"To be able to understand better the dot product of matrices, I will tell you a tip. You have a matrix of size (rows X columns) = [a X b] and you have to multiply it with another matrix of size(shape)  (rows X columns) = [c X d].   To be able to execute the dot product of those two matrices , b always has to be equal to c (b=c) or it cannot be executed. Furthermore the dot product will always be the size of [a X d].     So for example if i have a matrix of size  A = [3 x 4] dot B = [4 x 100] it can be executed and have a size(shape) of [ 3 x 1000] .   If i have a matrix of size A = [3 x 1000] dot B = [4 x 1000] cannot be executed because 1000 is unequal to 4.   But if the transpose the B matrix then it's size(shape) becomes Btranspose = [1000 x 4] and then we have the A = [3 x 1000] dot B^T = [1000 x 4] with our final product being the size of [3x4]",True
+@clementsiow176,2020-05-17T00:28:23Z,2,Me after watching this video Me to my friends: I am 4 parallel universes beyond you,True
+@ulissemini5492,2020-05-16T18:37:27Z,1,"any reason why we're doing np.zeros((1, n_neurons)) instead of np.zeros((n_neurons,)) ? they both work for me, what is the difference between broadcasting a (1, N) unto a matrix and broadcasting (N,)?",True
+@mousamohammed255,2020-05-16T16:48:31Z,0,"The most amazing course I have ever seen on neural networks, Thanks a lot for this course, I can't wait for the next lessons",True
+@NazimZeeshan,2020-05-16T14:13:25Z,0,What are the input values(layer1) in a real world example?,True
+@gardedesombres3254,2020-05-16T06:18:53Z,0,I didn't understand that transpose stuff . I mean when we are allowed to do it and when not ? Can someone explain to me please,True
+@gardedesombres3254,2020-05-16T05:52:29Z,0,Please tell me how can get access to the Ebook version ?,True
+@inv1siblecat,2020-05-16T01:06:28Z,1,your videos and tutorials are amazing!! Thank you,True
+@soroushe6394,2020-05-16T00:39:47Z,304,I’m glad I’m living at a time that people like you share their knowledge in such quality for free.   Thank you 🙏🏻,True
+@javadbacker481,2020-05-15T15:58:47Z,0,"Quality content, explanation.  Animations really on point",True
+@abhrantapanigrahi3475,2020-05-15T15:38:07Z,0,"I have a doubt here- ""How are we able to do dot product between a list of lists and a numpy array?"" When I tried to do it, it showed ""AttributeError: 'list' object has no attribute 'astype' "" . So then i changed the input list X to a numpy array and it worked.",True
+@raminkhoshbin9562,2020-05-15T13:29:36Z,0,"Hey, it's really great, that you do this thanks.   I was checking the C# version of Batches-Layers-Objects, I have run the network with the same inputs and layers but the C# version produces way bigger numbers as Python,  I have checked the random weights they are small as in Python but suddenly the outputs are very different, why is that?",True
+@8o8inSquares,2020-05-15T13:07:06Z,0,I love it.,True
+@danielmenendez7225,2020-05-14T10:48:01Z,0,"Hello sentdex, how many pages has your book? Thanks",True
+@notme178,2020-05-14T00:19:20Z,0,Can’t wait for #5,True
+@sillyboy1591,2020-05-13T19:12:45Z,0,I'm the flower of this program for sure..,True
+@Praxss,2020-05-13T19:04:14Z,0,Can you do mouse control by eye/hand detection in your style???,True
+@asdfasdfasdf383,2020-05-13T16:56:43Z,1,"You have created one of the best series on this topic I have found on the internet. Explanations include everything, yet you still proceed at a fast steady pace.",True
+@ryangao3564,2020-05-13T15:38:51Z,0,"Hey sentdex, such addictive content in your videos. Couldnt wait for the next release any longer. So I just pre-ordered the e-book.",True
+@anthonyashwin3457,2020-05-13T14:33:46Z,0,Does the random function change every time for a new output? Or it remains the same?,True
+@DeepakKumar-uz4xy,2020-05-12T11:49:44Z,0,in the end input should have equal no. of column to the equal no of row of weights for dot product,True
+@NikhilSinghNeil,2020-05-12T09:49:29Z,0,"one question regarding the effect on generalization due to batch sizes. even if we give all the inputs at once/provide it in batches/ one input point at a time, in all these 3 cases the line being fit will be the same and the generalization will happen on the basis of this line, so how is generalization varying in such cases?",True
+@krisnprash3426,2020-05-12T08:02:43Z,0,"Hi, awesome explaination.. can't thank you enough.. you have been a great help in my learning journey 🙏",True
+@saurrav3801,2020-05-12T04:49:47Z,0,Why weights2 is transposed.......18:36,True
+@jyuseries8313,2020-05-12T01:46:27Z,0,"hmmmmmm its been 10 days, when is new week starting?",True
+@briandebeer3022,2020-05-11T20:55:02Z,1,Literally been avoiding gaming with the bros to work trough this series.,True
+@Vikram-od6ur,2020-05-11T19:38:02Z,0,"Bro can to teach us how to train a nerual network to recognize your voice, or to convert your voice to text",True
+@ernestsjansons7977,2020-05-11T17:12:49Z,1,"Great content, just one question - where do you make animations this cool?",True
+@abhinav.sharma,2020-05-11T16:35:02Z,0,"what does 𝚗𝚙.𝚣𝚎𝚛𝚘𝚜((𝟷, 𝚗_𝚗𝚎𝚞𝚛𝚘𝚗𝚜)) does?",True
+@manishsharma2211,2020-05-11T16:25:14Z,0,Will you be using pytorch or tensorflow ??,True
+@manishsharma2211,2020-05-11T14:15:33Z,0,"In matrix mul ! Column of 1st matrix should match with row of 2nd  Ex ; 3*3 3*7 = 3*7 Ex : 3*4 3*4 , here 1st matrix column is 4 and 2nd matrix row is 3. Since both arr not same. It will throw shape error",True
+@TheHellishFrog,2020-05-11T14:13:57Z,0,P.5 Please...,True
+@ayomikunogunjuyigbe1286,2020-05-11T10:39:32Z,0,"Please when are you dropping the next video, I gained a lot from this playlist. Thanks!!",True
+@Random4Logic,2020-05-11T09:28:56Z,0,26:32 Why again do we initialize our biases all to 0 if thats bad and can cause a dead network?,True
+@vijaypalmanit,2020-05-11T07:55:34Z,0,very confusing video this time.,True
+@bryansk81997,2020-05-10T22:58:03Z,1,"Question, could you have transposed the inputs instead of the weights in order get the dot product? if so, would it be recommended?  would it matter at all? or is a case by case basis?",True
+@Alessandraodj,2020-05-10T18:00:25Z,0,You teach excellently!,True
+@venkybollimuntha,2020-05-10T17:42:40Z,0,"Hi sentdex, It's super nice video series. I addicted to this much. Waiting for 5th video on this series.  A few tips in sublime,  Duplicate a line: Put cursor on that line and press Ctrl+shift+d  Moving entire line up and down: Select the snippet which you want to move and press  Ctrl+ shift+ up arrow/down arrow.",True
+@tristunalekzander5608,2020-05-10T07:00:24Z,0,I don't get why the inputs are multi-dimensional arrays.,True
+@AndrewYatzkan,2020-05-10T00:23:03Z,1,"At 16:17 did he mean to say 2.8 + 2, -1.79 + 3, and 1.885 + 0.5?",True
+@prajganesh,2020-05-09T23:51:05Z,0,How much of the book is complete at this time? Or how many pages? Do you add as the series progress or does the book have more content at the moment?,True
+@jaylivetrading3305,2020-05-09T20:18:27Z,0,Hey brother I reached out via email! Hope to work soon... Amazing Content!,True
+@AshrafVideos,2020-05-09T20:01:48Z,1,"Thanks a lots , we are wainting. you.  where are the next video.........….",True
+@minazulkhan8287,2020-05-09T17:51:36Z,0,previous videos were easy to understand still they had animations but not this one  ..add animations to complex ones,True
+@sentdex,2020-05-09T15:13:04Z,109,"Errata:  16:17: initially this anim was incorrect when I recorded. We fixed the anim, but not the audio, resulting in my reading of the incorrect first row of values incorrectly. We're adding row vectors here, so the anim is correct, the words are not. =]",True
+@jorenvangoethem343,2020-05-09T15:07:44Z,2,"you mixed up how to add matrix and vector at 16:17, this might confuse people",True
+@frodo4sam,2020-05-09T14:25:46Z,0,"In the initial case when we transposed the weight matrix. What if we transpose the Input matrix? I am getting a different result (below) from doing so. Can someone please explain.   output = np.dot(weights,np.array(inputs).T) + biases [ 4.8    9.9   -0.09 ]  [ 0.21  -1.81  -1.449]  [ 3.885  2.7    0.026]]",True
+@tuhinmukherjee8141,2020-05-09T08:32:39Z,1,I'm waiting for the next episode of this series please!,True
+@chiranshuadik9818,2020-05-09T07:13:46Z,1,"I never comment on youtube videos. But this time  I have to.  You are the best teacher ever, I have been your fan since django tutorial.   I like the way you make sure that everyone understands everything.  And the best part is the animations.  Thank you! /\",True
+@ryanp6267,2020-05-09T06:03:21Z,0,Wish I could afford the book right now!,True
+@ginowadakekalam,2020-05-09T04:36:23Z,10,This channel is so good that you'll never find any negative comments,True
+@nippi053,2020-05-08T18:14:04Z,0,"11:18 ""Then you would probably google or duckduckgo search"" Fuck google all my homies use duckduckgo.",True
+@sayakbanerjee7214,2020-05-08T16:43:38Z,0,When is the next video on Activation Function coming out.... Please tell 😵😵,True
+@DanObscur,2020-05-08T11:39:55Z,0,"Was it necessary to transpose “weights2” in “layer2_output” if ""weights2"" had already the same number of rows and columns?  (see 18:20)",True
+@ferrabras,2020-05-08T05:20:53Z,0,A tutorial on PyTorch would have been great!,True
+@SexySnorlax,2020-05-08T00:35:00Z,0,"Video suggestion : ""How to build a proper data hoarding computer"" mostly to see how you would put a pc toghetter for a lot of data storage",True
+@prakashupadhyay9824,2020-05-07T23:10:35Z,0,Nice videos man really loved them,True
+@petroali6412,2020-05-07T21:38:32Z,0,Which one is best machine learning approach (keras sequential model or random forest regression model) for predict from existing parameters of data to generate new (synthetic) parameters for data with missing parameters?,True
+@marioalbertogonzalez484,2020-05-07T18:58:50Z,0,"Is there anything inherently wrong with simply using ""np.transpose(weights)"" ? I didn't run into any issues using this syntax.",True
+@wthoutanymmries,2020-05-07T16:27:31Z,0,6.9 Nice,True
+@quorrexnoway9127,2020-05-07T15:43:52Z,0,I think made the cut a bit to early at 09:08 .... xD,True
+@chandrushane1424,2020-05-07T14:50:39Z,0,can i see index of this book?,True
+@shauryapatel8372,2020-05-07T08:14:22Z,0,can you give me the code for the 'youtube' moudule,True
+@736939,2020-05-07T07:24:55Z,0,"In the forward method, you can return self in order to be able to chaining forward layers. :)",True
+@Proxima1,2020-05-06T20:14:56Z,0,I made a video explaining how to send someone the bee movie script word by word using python. it has 0 views :(,True
+@7Trident3,2020-05-06T19:51:08Z,0,"Just a question. Given this could all be written without Numpy, what is the minimum processor that a simple model could be run on? Arduino, ESP32, ESP86? Thanks!",True
+@lemoi6462,2020-05-06T10:03:41Z,6,"The interesting part will be the backward propagation, im really looking forward to this",True
+@tuhinmukherjee8141,2020-05-06T06:42:13Z,0,This series is totally amazing! Thanks man,True
+@DanteS7,2020-05-06T06:08:02Z,0,"Should I start with this series or your playlist ""Machine Learning with Python""? I'm mostly a web developer so this would be for learning/fun mostly. I do know Python (mostly Django).",True
+@popeye.thesailorman,2020-05-06T05:44:45Z,0,Literally I don't have any idea to learn NN but somehow I landed by just knowing python with zero knowledge in any of these topics. I can easily grab the things. Part4 is one of my fav episodes. I want to learn more pls give us more brother. Thanks for everything.,True
+@jsnadrian,2020-05-06T01:32:02Z,0,i can't believe you created this course - absolutely fantastic and wonderfully thoughtful in its layout - thanks so much,True
+@lonnie776,2020-05-05T21:03:07Z,0,You are doing a great job explaining these concepts in a way that is easy to understand. I can't wait for the next part so I am ordering the ebook.  Great job.,True
+@bobg3camcallaghang3cam5,2020-05-05T18:41:13Z,0,"Glosses over nothing. A low level understanding is key' many thanks for sharing your insights, and gotchas! If online content had reviews, your content would get 4 stars.",True
+@nitinrai6093,2020-05-05T18:10:51Z,0,"does,  ""self.biases = np.zeros(n_neurons)"" affects the final output as in the first section of the video biases = [2, 3, 0.5] if we convert it to a numpy array then it's shape will be (3,)   but if we check the shape of np.zeros((1, n_neurons)) it's actually (1, 3) when n_neurons = 3 I guess, your method will be later helpful in the series but just a quick check note, to make sure I am able to understand the concept.",True
+@NeuralxAi,2020-05-05T17:13:55Z,0,When will the next video release ?,True
+@madhusudhanreddygone2667,2020-05-05T15:23:52Z,0,Can you suggest sir any other PDFs on neural networks,True
+@nicolasacebal6669,2020-05-05T15:08:04Z,1,"I've been trying everythingbut im having a problem, it tells me that layer_dense() Takes no arguments, and I don get why, if anybody know how to solve this I'll gladly take advise",True
+@elmitte,2020-05-05T13:23:25Z,0,looking forward to Friday!!!,True
+@realbingus,2020-05-05T13:14:52Z,0,"At the point where I had a question, I had not fully watched the video yet. So I commented my question. Literally five seconds later in the video you answer my question in the video. I love the series, thanks for doing this!",True
+@vitotonello261,2020-05-05T09:21:59Z,1,Is sentdex a hero of the Marvel or DC universe?,True
+@3alabo,2020-05-05T06:08:21Z,1,"One of the best tutorials I have seen on the topic , Saludos de Argentina!",True
+@samgdotson,2020-05-05T04:00:03Z,1,I've never hit the notification bell before.,True
+@fanasisangweni8539,2020-05-05T03:35:30Z,1,"Im glad I found your channel man, i swear to god,  your videos are awesome, Im only starting to understand ANNs after watching your videos.",True
+@nothinPersonel,2020-05-05T01:15:53Z,1,Hey man i really love this series i feel like im learning a lot <3 I do have a quick question tho: at 16:55 you are changing the values to the ones you used in the book. Why is it that the second weights array now has only 3 values ? I feel like i should be able to answer that question by what ive learned so far but i just cant warp my head around it.,True
+@rohitmundat4226,2020-05-04T23:00:37Z,1,"Hey, would you also explain how matrix rotations is programmed when we do a transpose, super useful when using different programming languages with limited math library or in situations where libraries such as numpy or similar cannot be used. Btw, amazing content man.",True
+@meunomejaestavaemuso,2020-05-04T19:45:12Z,0,At 9:08 it looks like the sentence was cut short,True
+@Parknparty,2020-05-04T18:02:23Z,0,"For some reason I keep getting this error message. layer1 = Layer_Dense(4,5), TypeError: Layer_Dense() takes no arguments.  I've checked my code several times.  Can't figure out the cause.  Any ideas?  Thanks!",True
+@ParthVadhadiya,2020-05-04T14:36:50Z,0,Wait.... You are awesome. As always. How can somebody explain this things from this basic. That new born baby can also understand. . how....,True
+@brainstormjokob637,2020-05-04T11:33:21Z,0,Somehow the transpose function is not working. I googled it but it just says that i have an error in my code.,True
+@brotherlui5956,2020-05-04T09:22:01Z,0,"Explanation error at 16:18, elementwise addition per row, not row plus column!",True
+@Voyagedudimanche,2020-05-04T07:05:10Z,1,Hello! I'am following you for more then 2 years and this is the best course for me! With those explanation of math - it is realy cool. Thank you for this work :),True
+@philipp6589,2020-05-04T06:05:08Z,0,"Hello Sentdex, I really appreciate your work. But one thing bothers me: Why don't you code PEP-8 compliant? Think this is very important especially for beginners to learn a common coding style (e.g. https://www.python.org/dev/peps/pep-0008/#class-names )",True
+@neilmoon4478,2020-05-04T05:52:56Z,0,I still dont understand why you have to transpose the weights matrix. aren't you still calculating the dot product for the same set of numbers just now they are being calculated vertically?,True
+@jxsl13,2020-05-03T22:46:45Z,0,kind of weird cut after 9:05,True
+@xd_blue6945,2020-05-03T22:31:54Z,0,Why in layer2_outputs we still need to transpose weights2 when both weights2 and layer1_output are 3 by 3?,True
+@THESocialJusticeWarrior,2020-05-03T21:13:58Z,0,His definition of the hidden layer didn't sound right to me.  Isn't it the layers between the input layer and the output layer?,True
+@adamaleksander5226,2020-05-03T19:54:51Z,0,"Ok, but after doing transpose, do we still have 3 neurons, or are we now with 4 neurons?",True
+@borisvanleuven6233,2020-05-03T18:41:09Z,0,Super nice video !,True
+@zman3222,2020-05-03T18:21:58Z,2,"Sorry, if this is a dumb question, but when you transposed the weights variable, could you instead inverse transpose the inputs variable?",True
+@AlienAI23,2020-05-03T17:39:14Z,0,U R my Nat Geo,True
+@setukumari5485,2020-05-03T17:02:54Z,0,What is np.random.seed(0),True
+@LuciferAndi,2020-05-03T16:05:30Z,0,"Hey Thank you so much  I want to ask about the bach_size when we want to fit the data to our model, is It the same as your explain in this video ?",True
+@satishchaudhary7875,2020-05-03T16:01:50Z,0,can do tutorials on bayesian modelling pymc3 library,True
+@kenbinner,2020-05-03T15:42:59Z,3,"I'm really glad you took the time to break down this concept step by step, will surely reduce the number of headaches in the future!    Thank you for your great content looking forward to the next one. 😄",True
+@Gazarodd,2020-05-03T14:50:21Z,0,"I think this tutorial serie will explode. Atm, it's really clear, you're fantastic",True
+@violinplayer7201,2020-05-03T14:33:31Z,0,"Best python neural networks video, for sure",True
+@louis_d,2020-05-03T12:54:29Z,0,Great Series - love it so far! One Question: Is there a reason in Python-Types behind scaling with 0.10 instead of just 0.1?,True
+@claudiamichael4739,2020-05-03T12:49:32Z,0,can you please make a video for identification of color using python TensorFlow please,True
+@HappyDancerInPink,2020-05-03T12:27:42Z,0,I'm a teenager and I can't afford to buy the book yet. How much of this course will be made available for free?,True
+@theip7556,2020-05-03T12:25:52Z,0,"I fed the network as below Layer1 = DenseLayer(4, 1000) Layer2 = DenseLayer(1000, 1) I am getting output as a 3X1 matrix  , Isnt suppose to be a 1X1  output ?",True
+@Praxss,2020-05-03T10:56:43Z,0,Are you stopped ai plays gta 5 stream?  Make more videos on automate games,True
+@_inetuser,2020-05-03T10:01:47Z,0,Really excited!,True
+@chiennguyen4456,2020-05-03T09:57:28Z,0,I got this error : TypeError: unsupported operand type(s) for *: 'Layer_Dense' and 'float'. Anybody please help =((,True
+@quorrexnoway9127,2020-05-03T09:54:54Z,0,I would be so much more lost whitout the Animations! They help so much =) Great Series! Looking forward the get confused again in the next video xD,True
+@B1ll4b0nG,2020-05-03T08:21:27Z,0,"Why does the ""Transpose"" method call doesn't need brackets? Shouldn't it be np.array(weights).T() ?",True
+@Jakub1989YTb,2020-05-03T08:11:45Z,0,"The class name should be ""LayerDense"". Underscored camel case for class names is wierd.",True
+@HarshithMK,2020-05-03T05:37:25Z,0,Ur making my quarantine so much more productive than it was,True
+@nabil.hamawi,2020-05-03T04:09:47Z,0,"you almost lost me on the class part and ""self"" stuff, but anyway your tutorial was amazing idk how I understood it :p thx!",True
+@carloslopez7204,2020-05-03T01:26:52Z,0,What would be the best way to follow this tutorials? code together with sentdex or just pay attention until the video ends?,True
+@kotnikrishnachaitanya,2020-05-03T00:12:10Z,0,Can you explain what that np.random.seed(0) is.,True
+@CS-su2fk,2020-05-02T23:31:20Z,0,May i know why my sublime text output show no decimal?,True
+@usamanadeem7974,2020-05-02T21:32:32Z,15,"The thing I love about you is just how beautifully you explain concepts, with immaculate animations and then literally make such complex tasks seem so easy! Gonna make my kids watch your tutorials instead of cartoons one day ♥️😂",True
+@Zack_MD,2020-05-02T20:50:33Z,0,the GOAT,True
+@sandikodev,2020-05-02T20:05:21Z,0,ok,True
+@yukeshnepal4885,2020-05-02T18:39:28Z,0,awesome... in total how many video(approx)  are you going to upload in this series?,True
+@edugalleg,2020-05-02T18:15:42Z,0,sentdex been making all kinds of gainz,True
+@paristonhill2752,2020-05-02T17:52:46Z,0,I don't understand why you didn't transpose when you used the object,True
+@ChipSqueax,2020-05-02T17:11:29Z,0,26:11 precious laugh!☺,True
+@kaustubhkulkarni,2020-05-02T16:45:52Z,6,I’d kind of given up on understanding ML and NN. Then I saw Neural Networks from scratch and Sentdex CANNOT make this easier. Loving this series.,True
+@subhajitdas2784,2020-05-02T15:55:10Z,0,I so wish I could see all the episodes in one go like Netflix series.,True
+@balamuruganv3016,2020-05-02T15:01:06Z,1,"Thanks for the fantastic session. I have a question on transpose and Dot Product (Refer 14 Min), In this example, both inputs and weights are 3x4 matrices, In order to get the dot product(& avoid the shape error), we need to transpose any one of the parameters(inputs or weights), isn't it?. however, the results are different, I also noticed, only the second parameter, need to be transposed in np.dot ( ). Can you clarify whether the parameters to be passed in any particular order to get the calculation correct?.",True
+@djordjenikolic6560,2020-05-02T13:55:12Z,0,"I was wondering why we didn't transpose inputs? That would also fix the shape issue. Is the reason because then the matrix would basically spit batch of outputs where output for every batch of inputs would be in a column in that 2d matrix and having it on a row just seems easier to maintain so we switched weights * inputs.T to inputs * weights.T  ?  Then where he creates a class, line 12, no need to transpose because n_inputs X n_neurons, that transposed it. Previously with hardcoded weights it was n_neurons (rows) x (n_inputs), but if you switch it on generation, no need to transpose :D",True
+@Lavamar,2020-05-02T13:47:29Z,0,"Are there a lot of cases where batches are not ideal? For example, facial recognition: You wouldn't want someone else's face used in the same pass as the face you're trying to recognize. Or are batches just for training the AI?",True
+@manjeetraj9340,2020-05-02T13:24:23Z,0,I didn't understand the concept of batch. And how neurons are connected among them. please explain,True
+@rajbhandarkar4,2020-05-02T13:18:49Z,0,He just said duckduckgo search..,True
+@puipuiboi6386,2020-05-02T13:08:09Z,0,Why did you transpose the second weights? Do we really need to transpose it? because the size of both inputs (for that layer i.e. the output_layer1) and the weights are same 3x3?  I might be missing something. Please help. Also if im right then how do we know when to transpose if the size of both matrices is same. because in that case the output if completely different in both cases obviously?,True
+@JackSanRio,2020-05-02T13:04:39Z,3,I pre-ordered the book because this is interesting and I a eager to learn more,True
+@Mohit-nw5jr,2020-05-02T12:43:43Z,1,Can someone please tell me the name of the Syntax Theme he is using in his editor?,True
+@merth17,2020-05-02T12:41:43Z,1,"I can’t wait to see the implementation of backpropagation with the chain rule, it’s so simple when you teach it. Tysm",True
+@danielbardsen4101,2020-05-02T12:30:17Z,0,"Hi Sentex, Thanks for doing my engineering/programming career so much more interesting! You really are the best<3 I have followed you for the past 3 years and I love your work! You are teaching linear algebra better then my University teacher did, and he also was crazy good!",True
+@arshadalam-xm1ht,2020-05-02T11:54:40Z,0,"Great work sir, I have a question. If we have a mathematical equation b_ij =sum_{i=1 to 10} i-j+2^i where j=1 to 4 Show we define a an empty array first? b[ij] =np.zeros to store the Values of the equation define above? Also should we use for loop to calculate those Value. Can u plz discuss this or make a small video on this. Will be thankful.",True
+@yathirajamshyamsundhar7214,2020-05-02T10:50:12Z,0,mannnn...........you are just awesome,True
+@batoniczny8478,2020-05-02T10:50:09Z,0,"Sentdex, how did you did these nice animations ?",True
+@ronit8067,2020-05-02T10:26:44Z,0,"why not transpose inputs? is dot(input, weights) is the general preferred method for calculating output?",True
+@andrewm4894,2020-05-02T08:53:58Z,0,Goddam I love those visualizations! So satisfying.,True
+@skilz8098,2020-05-02T08:21:39Z,0,"Very good on the basics, we'll get to the activation functions soon which is good and all, but can't wait for doing backpropagation.",True
+@kaustubhgupta9474,2020-05-02T07:09:14Z,0,"Hey Sentdex! I wanted to ask why you took biases as 0 this time? Because np.zeros gives output as an array of zeros, biases will be zeros but before we took biases as random numbers..So why can't we take random numbers for biases this time? Please clear my doubt Thanks💕",True
+@wahyutirta4343,2020-05-02T07:03:04Z,1,"anyone got error like this ""ValueError: operands could not be broadcast together with shapes (3,3) (4,)"" when running the code ?",True
+@saisiddhanthgujjari8954,2020-05-02T06:47:40Z,0,"Amazing content sentdex, the visualizations are just top notch and aid to a much clearer explanation.",True
+@sudharsan3835,2020-05-02T06:47:19Z,0,College Staff  :  Join online class. Me : Watching Neural Networks from Scratch (Skipping online class).,True
+@jonathantribble7013,2020-05-02T05:34:08Z,108,"Friend: ""So what do you do in your free, unwind, leisure time?"" Me: ""Neural Networks From Scratch"" Friend: ""...""",True
+@adjbutler,2020-05-02T05:06:46Z,0,classing up the joint i see,True
+@khushitshah678,2020-05-02T05:00:10Z,0,Doubt: Doesn't Same set of samples result in same line? Why changing the batch size changes the line? We are just giving same samples but multiple at a time?? 2. Transposing input also works right?,True
+@mohitjain4943,2020-05-02T04:59:55Z,0,Why did you Multiplied it by 0.1... why not any other number. @ 26:28,True
+@sayanguha5570,2020-05-02T04:34:36Z,242,"Everytime I see a neural network tutorial they start as ""import tensorflow as tf"" without giving a shit about basic..but this is a very detailed basic clearing video, truly from scratch...THANK YOU FOR THE GOOD WORK",True
+@DMBalchemy,2020-05-02T04:01:24Z,0,"Incredible as always. This one struck a few lightbulbs. Thanks again, Eagerly anticipating #5, I'll have to work through the draft to prep",True
+@shrikantnarayankar4778,2020-05-02T03:55:46Z,0,My weed is back,True
+@patrickvieira9200,2020-05-02T01:56:10Z,4,well finally looks like my linear algebra class was not a waste of time at all,True
+@MasterofPlay7,2020-05-02T01:47:19Z,0,i think you can use ridge regression for single sample fitting with cross validation :),True
+@ramchandracheke,2020-05-02T00:12:46Z,1,❣️,True
+@Connectme_ai,2020-05-01T23:33:21Z,0,I know what im doing this weekend.,True
+@wouldntyaliktono,2020-05-01T23:13:37Z,0,Really interested to see how you navigate backprop and the chain rule. that's the bit that always tripped me up early on.,True
+@alemazzuca,2020-05-01T22:56:07Z,0,Much better explained than Coursera or Datacamp Machine Learning courses.,True
+@Carbon-XII,2020-05-01T21:46:43Z,1,Waiting for the next video. This is an interesting series.,True
+@tobias1204,2020-05-01T21:45:51Z,0,I would love to see a video series about manim.,True
+@akashtyagi7182,2020-05-01T21:39:28Z,0,"Bucky, if possible can you please talk in detail about how to choose/decide the correct NN architecture.  Like how many dense layers should be used,  how dropout should be distributed ?  We have so many courses explaining use this/that architecture. But how to actually create the right one ?",True
+@joakimjohansson9314,2020-05-01T21:24:07Z,0,Love your tutorials man! Thanks again! Is it possible that you could show how to use this method and apply it to an number recognition?,True
+@xeon.1,2020-05-01T20:54:37Z,0,Keep up the good work. You can't imagine how much this helps.,True
+@illyshaieb,2020-05-01T20:54:24Z,0,Dumb Question Alert: Please could you explain what a GPU and a CPU is?,True
+@keshavtulsyan7515,2020-05-01T20:46:48Z,3,"Feels like learning all the day, it never felt so simple before...thanks a lot 🙏🏻",True
+@rajivsen3123,2020-05-01T20:41:28Z,0,So cool.,True
+@poseauto,2020-05-01T20:29:08Z,0,"The animations are great, if you can keep  a model of network with cercles it would be perfect. Thank you again for the videos",True
+@afafssaf925,2020-05-01T20:27:41Z,4,You are wayyyyy more buff than it seems by just your face.,True
+@arturasdruteika2628,2020-05-01T20:20:04Z,0,"I have a question which is not relevant to this tutorial, what is the correct way for writing variables with numbers: variable1 or variable_1? I know it doesn't have any significant difference, but it has been bugging me for a long time.",True
+@bas_kar_na_yar,2020-05-01T20:05:24Z,19,I wish anyone had ever taught me any concept the way you do..,True
+@joshiPi,2020-05-01T20:04:22Z,0,"output = np.dot(weights, np.array(inputs).T) + bias output = np.dot(inputs, np.array(weights).T) + bias both of them give the answer but the dot product is not commutative so the output is different, which is correct?",True
+@HJ-jr7zd,2020-05-01T20:02:24Z,0,Great video Sentdex. Looking forward to read the when it's out.,True
+@parsafakhar,2020-05-01T20:01:26Z,0,"great video, thx as always",True
+@yabdelm,2020-05-01T19:57:10Z,22,"This is the best series by far I've ever seen. Just what I was looking for. I wonder if you'll get into explaining the why also.   For instance, often times when I'm watching I do wonder ""Why do we even have biases? What function do they serve? How do they enhance predictions? What sort of history/science/neuroscience underlies that and where do AI and neuroscience partways if so? Why does all of this work at all?""",True
+@NikhilSandella,2020-05-01T19:56:49Z,0,"This is the best channel with the best content, with amazing animation. Clear explanation. I'm in love with this man. :)",True
+@iKostanCom,2020-05-01T19:41:24Z,0,"Hi. Just a quick question. Why use transpose when you calculate 2nd layer (time code 18:23)? I mean the shape there is (3,3) vs (3,3) ..?",True
+@gerardskomin6317,2020-05-01T19:10:37Z,0,Is __init__ in Python a constructor for C++?,True
+@nigmaxus,2020-05-01T19:09:52Z,0,09:01 cut was a bit jarring.,True
+@kris10an64,2020-05-01T19:03:57Z,1,Tiger king? Nah 🥱 Neural Network from scratch? Hell yeah 🤤,True
+@byronlovelace8379,2020-05-01T18:49:25Z,1,The gap between episodes is too long. It is hard to remember where each episode left off at.,True
+@phillipneal8194,2020-05-01T18:46:45Z,0,Excellent,True
+@santoshbirje2705,2020-05-01T18:38:26Z,0,Very much cleared. Thank you,True
+@eyeborg3148,2020-05-01T18:34:44Z,0,Just bought the book!,True
+@williamgardner1762,2020-05-01T18:32:52Z,0,can't you just feed the network forward a given amount of time and put the results in a matrix,True
+@radhamanohar4540,2020-05-01T18:32:46Z,0,I'm Literally waiting for the next video 🤩🤩,True
+@Hendiadyoin1,2020-05-01T18:19:30Z,0,You surely love manim,True
+@prathamprasoon2535,2020-05-01T18:15:10Z,19,"This is awesome! Finally, a series on neural nets I can understand easily.",True
+@CrazyGamer261,2020-05-01T18:08:02Z,0,"you're amazing man been watching your videos for years now, and to be honest it helped me alot with work",True
+@Gameek,2020-05-01T17:56:46Z,0,"i like your way of teaching , nice work",True
+@SuperDouglasjunio,2020-05-01T17:48:06Z,0,Does this neural network read texts ?,True
+@ishanjoshi9943,2020-05-01T17:35:01Z,0,"I have a question. If we are passing a batch of outputs of other neurons, what will happen in a layer which contain output of those neurons as inputs? And as we are passing other neurons outputs, how is the algorithm inputs * weights + biases applicable if we are not increasing weights for the other inputs? Also, love your tuts. Keep up the good work 👍",True
+@Tamilanda1111,2020-05-01T17:30:36Z,1,Hi bro Love from India  Was eagerly waiting for your video and you uploaded! Thanks! You are amazing!,True
+@sayakbanerjee7214,2020-05-01T17:23:23Z,0,Your Series on NN from Scratch is more addictive than Money Heist. When is the video on Activation Functions coming out????,True
+@Cleanblue1990,2020-05-01T17:23:11Z,0,"I don't get why the input-layer in the dot product is now the first argument and the weights the second. Before it was the other way round.  Can somebody explain that, please?",True
+@przemysawkopycki5874,2020-05-01T17:21:50Z,0,"Great video, how to make such nice animations?",True
+@AladdinPersson,2020-05-01T17:18:43Z,0,From my understanding not using the entire training set as your batchsize is primarily because of computational reasons. Having a smaller batchsize allows for more update steps relatively to using the entire training set. I don't think you're necessarily wrong in that using a batch size does add some randomness and can reduce overfitting but I don't believe that's the primary reason,True
+@daniel4178,2020-05-01T17:11:06Z,0,Is there a reason for why we initialize weights that specifically follow a normal distribution?  Or could we for example generate weights from a uniform distribution function between -0.1 and 0.1?,True
+@TrevorTheITGuy,2020-05-01T17:09:22Z,0,"thanks for breaking this down as much as you have. between the books and the videos, the concept has become more like legos. atleast in my head.",True
+@barbabillios6180,2020-05-01T17:04:27Z,0,"I am a little confused, the shapes error is raised because multiplication between matrices works differently from multiplication between a matrix and a vector?   By the way there is an animation error around 9:48 where the sum changes from 1.05 to 0.79  Thank you in advance!",True
+@moathalmobaideen944,2020-05-01T17:02:36Z,0,"super useful and informative , Keep going !!",True
+@prathamkirank,2020-05-01T16:53:00Z,16,This is the online classes we all deserve,True
+@gamingbugs9296,2020-05-01T16:50:20Z,0,Best.,True
+@shubhamdamani1057,2020-05-01T16:45:35Z,9,Can you please provide a visual representation of how the batches pass along. I mean by using animation using bubbles and lines like you did in the initial videos.,True
+@datarachit,2020-05-01T16:42:18Z,0,"Keep doing good work like this, and I may drop my plans to do masters in data science...",True
+@-urithefoodchannel3815,2020-05-01T16:33:57Z,0,wowww...surpriseeeee....,True
+@ahmadayazamin3313,2020-05-01T16:27:42Z,1,"""It will fit your in-sample data likely, pretty good, and then do pretty bad on your out of sample data""   Generative models: Hold my posterior.",True
+@abhishekshrm53,2020-05-01T16:24:19Z,0,LOL CPUs have 64 cores/128 threads now so I don't know why you are stuck at 8 cores,True
+@theshortcut101,2020-05-01T16:22:00Z,0,yes!!! thank you! don't stop ;),True
+@python1108,2020-05-01T16:21:13Z,0,Why do we need layers of nodes rather than just a single layer as in your example? Like we can adjust the weights and biases as we need. So why is there a need for multiple layers?,True
+@xxyz9720,2020-05-01T16:20:47Z,1,Perfect  playlist for beginners. I was  confused where to start from but now I feel this is perfect place to start from   Sir I have  a doubt in android if u have time then pls help me in this https://stackoverflow.com/questions/61112965/scroll-to-a-position-in-paging-library,True
+@sharanbabu2001,2020-05-01T16:13:46Z,1,Loving the effectiveness! The batch size explanation was amazing!,True
+@amogh3275,2020-05-01T16:12:25Z,13,"16:19 you said the other way around by mistake.. shouldn't it be 2.8 +2, 6.8+2, -0.59+2..",True
+@cjstevens6405,2020-05-01T16:06:13Z,1,"So, the explanation for why we transpose one of the matrices is good and clear. But can you give the explanation for why we transpose weights rather than inputs? Thanks.",True
+@systemflaws,2020-05-01T16:00:46Z,0,Longest video till now of this series <3,True
+@mr.mirror1213,2020-05-01T16:00:21Z,1,"hello , would you recommend using eigen in c++ to build a NN , i tried horribly difficult, what would you recommend ,i got feedforward working but backprop doesnt work",True
+@ekremdincel1505,2020-05-01T15:58:05Z,1,"20:22 This is not what PEP8 says, I think. Shouldn't it would be LayerDense.",True
+@lucasfontes7914,2020-05-01T15:57:24Z,2,Everyone that watch this videos can declare Friday as the best day of the week,True
+@mahaprasaddehury7363,2020-05-01T15:56:23Z,0,Netflix: 😒 Sentdex: 😃,True
+@amogh3275,2020-05-01T15:53:58Z,26,Bruh this visualisation... Its unreal🔥,True
+@Thermophobe,2020-05-01T15:44:57Z,0,"if we got only one layer, why are our weights changing for each input set?",True
+@frederick3524,2020-05-01T15:44:40Z,0,I have been looking forward to this all week!,True
+@enriquesnetwork,2020-05-01T15:31:46Z,0,Thanks you!,True
+@peppep4426,2020-05-01T15:31:28Z,1,This reminds me of the best TV series ... You finish one episode and look forward to the next ... Good job!,True
+@wissamphysics3417,2020-05-01T15:31:09Z,0,"Thanks amazing , I just want to know how many the total videos of this series ?",True
+@aoof6742,2020-05-01T15:29:10Z,0,"You did not emphasize on the order of placement in the dot product where you swapped inputs with the transposed NumPy array, at the beginning",True
+@ThomasSanjurjo,2020-05-01T15:24:26Z,0,"While I like your animations, you might want to consider not using 5 x 5 matrices for the examples. The problem here is that we have a 4 x 3, and transposing that looks a little different than a clear 5 X 5 square, especially in programming.  Also, THIS IS REALLY IMPORTANT TO GET RIGHT, because you won't get a shape error from a ""square"" shape matrix dot product.",True
+@SaurabhKumar-nw7gu,2020-05-01T15:22:44Z,0,spiderman is back,True
+@keshan-spec,2020-05-01T15:19:27Z,0,I love this series and i always look forward for the next one. Thank you ❤,True
+@franky0226,2020-05-01T15:18:51Z,5,Notification => nnfs P4.  Me: clicks on the button faster than the speed of light,True
+@kaux8452,2020-05-01T15:18:34Z,0,"I'm a simple guy..I see your notification, I click on it.",True
+@johnnewlands946,2020-05-01T15:16:56Z,0,That's my Friday evening sorted.,True
+@heyhey8167,2020-05-01T15:14:15Z,0,Thank you for sharing your knowledge. These are the clearest explanations I have heard. Im looking forward to you explaining the activation functions! Will you explain reinforcement learning too?,True
+@AC-dc8ze,2020-05-01T15:09:56Z,1,Just wondering as of now how many videos are planned in the series?,True
+@bidifaugan2169,2020-05-01T15:06:34Z,1,"well explained, (y)",True
+@Yguy,2020-05-01T15:06:04Z,636,I swear I am addicted to these more than Netflix.,True
+@thomasnevolianis8616,2020-05-01T15:04:49Z,4,import neural_networks_from_scratch as nnfs from nnfs import moments best_moments = moments(channel='Sentdex') print(best_moments[0]) ''The SEXY part of deep learning'',True
+@yuseinali3013,2020-05-01T15:04:05Z,0,"Oh shit, here we go again...",True
+@ambarishkapil8004,2020-05-01T15:03:30Z,11,"I know I have said this before, but I am going to say it again, and keep on saying it till you continue to make such awesome tutorials. Thank you!",True
+@abishekkumar316,2020-05-01T15:02:34Z,0,the day would be productive now,True
+@mr.mirror1213,2020-05-01T15:01:02Z,0,mooooreeeee!!,True
+@shivendunsahi,2020-05-01T15:00:49Z,0,"Don't make us wait a week, please! :(",True
+@xSferQx,2020-05-01T14:58:15Z,1,Jesus Christ finally,True
+@BryceChudomelka,2020-05-01T14:47:49Z,0,"Your matix product order is incorrect. It should be the other way, w.T*inputs. The matrix productive is not necessarily commutative and the order matters.",True
+@ramyosama8088,2020-05-01T14:47:45Z,14,Please continue with this playlist This is hands down the best series on youtube right now !!!,True
+@arturasdruteika2628,2020-05-01T14:47:24Z,2,Didn't even watch the video but pressed like button so that I wouldn't forget to do it later,True
+@gardedesombres3254,2020-05-01T14:47:22Z,0,Thanks a lot man ! can't wait for the upcoming videos !,True
+@2107mann,2020-05-01T14:46:17Z,0,"Headed to preorder the book. Will I get to see Transformers, Attention, GANs, Word Embeddings and other complex topics covered in the book. With python implementation. Please guide.",True
+@user-ns8dl3vm5z,2020-05-01T14:45:17Z,0,it's fun time it's sentdex time,True
+@clementsiow176,2020-05-01T14:43:23Z,0,"Never have I been so exciting for a new YouTube video, you have earned my respect",True
+@aoof6742,2020-05-01T14:42:30Z,79,"I really appreciate you doing this mate, I really wanted to learn Neural Networks and you are explaining this soo good.",True
+@adempc,2020-05-01T14:38:20Z,0,Neurons!,True
+@trophieboi1820,2020-05-01T14:36:05Z,0,/  A E S T H E T I C  \,True
+@KLKI_001,2020-05-01T14:31:08Z,0,Finally!,True
+@shashankvats7611,2020-05-01T14:28:41Z,0,I knew you'd be uploading it today😅,True
+@parasjain3211,2020-05-01T14:28:32Z,0,One week already!,True
+@Alfosan2010,2020-05-01T14:26:00Z,89,"last time I was this early, Corona was just a beer brand...",True
+@satwikram2479,2020-05-01T14:25:49Z,0,"Great Brother, I appreciate it!",True
+@KhangNguyen-jv4sf,2020-05-01T14:23:54Z,1,It's quite irrelevant but do you know the recent drama between Tren Black and Engineering Truth? It would be great if you could try and help Tren Black.,True
+@jalalameerzai,2020-05-01T14:23:46Z,0,Who would've thought that someone with art and criminology degree will end up being the programming God.........,True
+@decodedbunny101,2020-05-01T14:22:43Z,1,Can you help me make a text based python game?,True
+@torchlight6927,2020-05-01T14:21:25Z,0,Thank god its here!,True
+@davidmurphy563,2020-05-01T14:18:16Z,0,"Pah, I thought you were going to make a neural network with Scratch. Now that would have been impressive! There aren't lists/arrays in Scratch (to my knowledge) so you'd probably have to make a painful amount of variables. Or maybe you could use recursion on their functions with a iterator. Doing a sigmoid function in scratch would be painful. Can't see why, in principle you couldn't do it though. Why you'd want to is another question! 😂",True
+@sailingb0aty984,2020-05-01T14:18:13Z,0,First,True
+@knowit3887,2020-05-01T14:17:01Z,36,U r just ... God for teaching programming... I am glad to have u as a teacher... 💪,True
+@prajganesh,2020-05-01T14:15:24Z,0,love to know how you do the animation. very cool.,True
+@satellite964,2020-05-01T14:15:12Z,0,"please do one for C, better yet, NN from scratch using FPGAs",True
+@Biggi1994,2020-05-01T14:13:48Z,0,saved my weekend :D thanks,True
+@milindprajapat7177,2020-05-01T14:13:29Z,0,Best feeling ever...after seeing sentdex p.4 out...Thank you so much...May god keep you safe from corona virus so that we can get awesome content from you! Love from India ♥️,True
+@dabspace5541,2020-05-01T14:13:20Z,0,Yeah !,True
+@sahaaritra,2020-05-01T14:12:31Z,0,Really waiting for this.. !!!!,True
+@saiabhi9918,2020-05-01T14:12:15Z,0,"yoo brother waiting for this from the longtime, finally thank god..  could you please upload very fast i.e,for atleast 2 to 3 videos",True
+@dHue_52,2020-05-01T14:11:58Z,0,literally been waiting for this all week!  Thanks sentdex!!,True
+@DRIP-DRIP-DRIP,2020-05-01T14:11:48Z,9,Never clicked on a video so quickly,True
+@hemanthkotagiri8865,2020-05-01T14:11:01Z,0,I can't be more thankful for anyone than you and Daniel. Thank you so much!,True
+@classicneupane6196,2020-05-01T14:10:54Z,13,Understood batch size finally <3 I was applying batch size randomly without knowing what that does.,True
+@knowit3887,2020-05-01T14:10:24Z,1,Will u cover lstm,True
+@bartas7261,2020-05-01T14:10:20Z,0,Good video. Grettings from Poland.,True
+@embodyingocean189,2020-05-01T14:10:02Z,2,wtf are neural networks,True
+@AaditDoshi,2020-05-01T14:09:59Z,259,I don't even look at my calendar anymore. My week ends when sentdex drops a video.,True
+@saneeto,2020-05-01T14:08:40Z,0,"Thank you, right on time!",True
+@Stinosko,2020-04-30T05:04:40Z,0,Yet again i get a déjà vu feeling 🤔🤫,True
+,2020-04-30T03:33:05Z,20,0th! Finally!,True

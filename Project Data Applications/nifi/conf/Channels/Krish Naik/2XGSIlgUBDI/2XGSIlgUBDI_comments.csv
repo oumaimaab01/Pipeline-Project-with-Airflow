@@ -1,0 +1,210 @@
+author,updated_at,like_count,text,public
+@prashantpal3653,2024-05-26T11:14:31Z,0,Anyone here learning for Mentorness Internship Project?😂,True
+@ravindarmadishetty736,2024-04-18T16:28:05Z,0,"Can anyone help me, i have Sales , Date along with exogenous categorical variable . I am looking for R code to forecast when extra column.",True
+@AlexDSouza-nh4ih,2024-04-10T07:02:19Z,0,"I got an error : can only concatenate str (not ""DateOffset"") to str",True
+@mrmoh2,2024-03-20T18:05:42Z,0,"p,d,q (no seasonal) and P,D,Q (seasonal) are always equal?",True
+@yunistaghiyev8775,2024-03-18T18:26:55Z,0,Thank you very much!,True
+@user-uk9pr7nf3e,2024-03-13T14:33:23Z,0,this guy makes difference,True
+@nita02215,2024-03-01T20:27:37Z,0,Can you please provide reason for why did we use adf test and not kpss test? Also what to do if adf test and kpss test yield contrasting results?,True
+@vzinko,2024-02-17T07:21:43Z,2,"says sarimax in the title, but at no point were exogenous variables discussed",True
+@ajgaming4197,2024-01-24T07:17:51Z,0,but what if p value is 0.049 something i know its less than 0.05 but still we need to do this process for better prediction,True
+@mehmetozcan1623,2024-01-17T01:21:01Z,0,"Thank you Krish, the video is very helpful. I am a new learner :-)   A small fix: line 31 and line 33 fails. we need ""import statsmodels.api as sm"" to execute them.",True
+@rohansk8312,2023-12-22T01:32:37Z,0,What if even differencing does not make the p-value < 0.05,True
+@abhisheksharma8798,2023-09-20T23:20:30Z,8,"first differencing (of order=1) has been done to de-trend the data. Once it is de-trended, it should further be deseasonalised by differencing again (of order =12). Thus, we have original data-> order1 differencing -> order 12 differencing. The final data will now start from t=14, and it is then checked for stationarity by ADF. The values of PACF at lag=1, lag=12 (for the final transformed data, after two levels of differences) are comparatively higher than PACF values at other lags (as evident from figures). Thus p has been taken as 1, implying AR(1). actually it is written as 1,1,1,12. p is taken as 1, because it reflects the highest PACF value, means 1 lagged value is highly correlated with its subsequent value as compared to other lag values.",True
+@theprashantprabhakarjaiswal,2023-08-23T06:42:55Z,0,Superb Exppanation Sir. Hats Off.,True
+@TechyScientists,2023-07-29T03:46:38Z,0,"good content, just a clarification, non-stationarity is related to trend, not seasonality and same is true for the ADF, which can check for unit root and hence stationarity but has no linkage with seasonality, please confirm if this is correct.",True
+@ApratimSaha,2023-07-22T11:43:53Z,0,"Probabaly that wasn't the objective of the video, but I think none of the concepts were explained really well here and the up-down scrolling of the code is disturbing.",True
+@anukritirajput9277,2023-07-11T07:13:38Z,0,does anyone kno about the 'sm.graphics.tsa.plot_acf' part the sm is coming not defined,True
+@paraskumar693,2023-06-18T13:49:48Z,0,I am getting good predictions on this dataset  using ARIMA,True
+@etqadkhan4135,2023-05-07T14:30:52Z,0,Very shallow explanation.,True
+@manojkumarbolisetty7867,2023-02-21T18:29:18Z,0,for my future dates i am not getting year it's getting something like this <DateOffset: months=7>	NaN	NaN	NaN,True
+@messiisthebest,2023-01-12T04:49:04Z,0,"sir i want to import data from database inside which data are updated over monthly period and I want to test data stationarity each time I run the script and it should make automatic  differencing if the data is non-stationary,how to do it?",True
+@kaushal3731,2023-01-06T08:07:49Z,0,"Hey krish,  Had one query since we are checking for data as stationary or not, but while we passing the value in the arima model, you are putting the actual column which was non stationary",True
+@Alter4306,2023-01-06T05:14:50Z,0,"What the hell, not one line of code is running in my jupyter",True
+@stonesupermaster,2023-01-02T20:33:52Z,3,"Hello Krish, thanks a lot for your video. I wanted to ask you if you've read how to apply forecasting models to time series with multiple SKU (like 500 - 2000) considering the efficiency while running it, thinking of using the forecast once every week. I would really appreciate if you can indicate me a study case or real case in which I can take a look at the approach within the code. Thanks in advance!!",True
+@vaibhavpandey7398,2022-12-30T09:34:22Z,0,Ese teacher pehle mil jate to bht acha hota,True
+@aniketsaha7273,2022-12-25T10:43:24Z,0,You didn't use exogenous variables then how it is SARIMAX?,True
+@harshprajapati6327,2022-12-19T13:32:19Z,0,what if p-value (dicky-fuller test)  is less than 0.05 but decomposition plot (sm.tsa.seasonal_decompose) shows trend and seasonaity What should we consider and go ahed with which result ?,True
+@meeram363,2022-12-18T04:20:57Z,0,"Sir please explain numeric example for solving ma,arma and arima.Those kind of material is not available.Please help sir,its an important question for our exam",True
+@Orotachi,2022-11-20T13:02:08Z,0,"17:04, should be iloc[12:] instead of iloc[13:]",True
+@ErSonuSinghh,2022-11-17T06:26:56Z,0,Need simple tutorial on multivariate time series forecasting,True
+@mayankchandra4753,2022-11-16T18:22:25Z,0,how to download this dataset?,True
+@Irhtayagradnus,2022-10-30T14:53:49Z,0,"Hi, How will you process this model with user input like if user give , year = 2000 then this has to feed to the algorithm dynamically and then forecasting needs to happen . how can we do that?",True
+@naharaldamer2416,2022-10-25T08:27:47Z,2,"thank you , I have one question , what is the purpose of converting data to stationary if you will going to use non-stationary data to fit the model and do the prediction?",True
+@KnightlyPursuits,2022-10-04T14:10:25Z,0,"Great video as usual, but what if our data is already stationary? In that case do we have to do differencing? Thanks in advance.",True
+@77VEERAN,2022-10-03T07:17:37Z,0,"instead of shifting, i used .diff()",True
+@vishusharma6958,2022-09-24T12:55:43Z,0,From where do i get this dataset?,True
+@ashokjayam3231,2022-09-24T08:05:01Z,0,how did you calculate predicting results starting and ending points,True
+@aji2847,2022-09-23T07:55:35Z,0,"Very well explained, but you are very jittery. I couldn't follow the sometimes because you scrolled so much highlighting and moving the mouse.",True
+@nathanborel2597,2022-09-02T21:00:42Z,0,"So, are ARIMA models supposed to NOT be ""fit"" on non-stationary data? Or just not derive order from? Because you did the seasonal difference to achieve stationarity and then just applied SARIMAX to the original non-stationary data",True
+@daniyal657,2022-08-28T19:02:18Z,0,i want to ask that why are you using jupiter instead of spyder because please do live stream on weather forecast and live stock exchange,True
+@mgfg22,2022-08-02T16:12:43Z,0,"When we run the ADF test for Sales First Difference, it still rejects the H0 condition. So p value < 0.05. This shows that only a shift makes the data frame stationary. (There is no need 12 shift )",True
+@kvafsu225,2022-07-29T16:36:08Z,0,Very nice presentation. Very clear,True
+@kateeileen6840,2022-07-17T08:26:37Z,0,"Fantastic, the explanations are very clear. Do you have a whatsup group?",True
+@pushkarshukla9409,2022-07-13T09:56:42Z,0,great content. mouse movement is too much/fast and sometimes not necessary :),True
+@ashwin_.0710,2022-06-30T16:31:09Z,0,Do you train the model on the original values and not the differenced ones?,True
+@haydnmann7736,2022-06-30T13:53:37Z,0,Thank you for Krish-ening me with your knowledge,True
+@francoc7698,2022-06-26T09:10:23Z,2,"Thank you Krish, I am using your method to build an ARIMA model to predict a product balance. But when I plot the pred=model.predict(start=90,end=103, typ=levels) line, my graph is showing a ""predicted mean value""... meaning all the predicted values are the same and at the bottom of the predicted value, it indicates ""Name: predicted_mean"" dtype:float64""... so when i plot it it is a constant line.. Do you know why this is the okay? How can I avoid its predicting the means instead of actual values? Thanks!",True
+@priyaarora4436,2022-06-16T02:46:38Z,15,"Every body is using very easy to see ""seasonal"" dtaa to make youtube videos. If you wanna teach, teach with a highly random data!!!",True
+@saranbodduluri2571,2022-05-23T16:24:27Z,0,"Sir, can time series forecasting be applied to the percentage change of the closing prices of stocks?",True
+@Emotekofficial,2022-05-05T11:50:55Z,0,"I would say ""Failed to reject the Null hypothesis"" rather than ""Accept the Null Hypothesis"".",True
+@RenishMirani,2022-04-29T19:52:16Z,0,The plotting module has been moved from pandas.tools.plotting to pandas.plotting.  (Incase if you are getting an error),True
+@sampathkumar3405,2022-04-02T07:51:20Z,0,dumbest explanation ever,True
+@cyberprit,2022-03-29T05:11:52Z,0,"Hi, lags = 40, how did we arrive at 40 ? Thanks",True
+@polash1978banerjee,2022-03-19T17:36:12Z,0,"How do I make SPSS accept triennial intervals (Like 1989, 1992, 1995) in the 'define date and time' options?",True
+@ottolunam,2022-03-07T00:24:41Z,0,I am totally confused. In the differencing you selected d=12 to make the series stationary and then  in ARIMA you select d=1. Can anyone explain this?,True
+@HemanthKumar-lb4xt,2022-02-22T09:05:49Z,0,Good one 👌can u do for R also?,True
+@gauravrane4296,2022-01-27T06:11:54Z,0,aai ghal,True
+@solok4150,2022-01-18T11:56:10Z,1,Just wtf You yourself don't have the clarity on what you are saying for second half of the video 🤦‍♂️ Wasted my time,True
+@ronitganguly3318,2022-01-16T00:37:36Z,0,D is 12,True
+@genovese7677,2022-01-06T13:05:33Z,0,maam where did you get the forecast column,True
+@OsamaAzmy-,2022-01-04T22:06:32Z,0,Hi Vived. Is there a way that we can use to identify which model that will fit our timeseries? if linear or polynomial (of which order) or with sin or cosine expressions? or we can just go ahead with ARIMA in all cases?,True
+@shrikanthsingh8243,2021-12-20T19:23:05Z,0,"Was good until 13:55. After that, it's messy and incomprehensible. Seasonality was already removed, then you could have fed that data to ARIMA.",True
+@DP-od4yr,2021-12-13T08:23:58Z,4,"Thanks a ton Krish Sir, got a job in Flipkart in Analytics coz of ur helpful playlists! Please help supply chain guys like me with problems and tools in that sector also... Plz plz plz",True
+@dungvan7251,2021-11-20T10:18:03Z,0,"I saw you don't split train and test, you put all data of sale column in model, if it's good when we test the model?",True
+@dramekandya4918,2021-11-05T13:18:30Z,0,"Very good teacher, his explication is clear and efficient thank your very much",True
+@KushalSaini14,2021-10-26T16:04:19Z,0,Is there any tutorial for Multivariate Time-Series Forecasting?,True
+@AbhishekMishraiitkgp,2021-10-18T13:02:36Z,0,Thanks for wonderful video :),True
+@ruvitkon,2021-10-09T06:25:29Z,1,Thank you very much. This really helped me on completing my final year project :),True
+@txx8302,2021-10-03T15:25:11Z,1,"Krish, there are so many overlaps of career in data science that I want to know does a demand planner in retail company considered a data scientist as well?... As they are also predicting sales.",True
+@aadya1087,2021-09-15T03:33:51Z,0,"hi, how can i do a time series forecast with multiple explanatory variables?",True
+@madhujitrana9416,2021-09-11T21:06:12Z,0,Sir in python how can I forecast 'quantity of every skus ' I want to forecast sale quantity for next month please guide which model will be best .,True
+@karthebans2420,2021-08-29T16:38:10Z,0,"Hi Krish,  Can you able to make video on pmdarima",True
+@manavshah2119,2021-08-26T19:59:59Z,0,Sir What is the difference between the d value of ARIMA and What is seasonal_order parameter Value of SARIMAX,True
+@manavshah2119,2021-08-26T19:05:03Z,0,what is stationary on time series concept,True
+@harshithm1739,2021-08-21T15:06:32Z,0,Why is lags conaidered as 40 while plotting autocorrelation and partial autocorrelation graphs?,True
+@shreyaadhvaryyu4517,2021-08-18T11:11:23Z,0,"--------------------------------------------------------------------------- NameError                                 Traceback (most recent call last) <ipython-input-28-b96c82cd3517> in <module>       1 fig = plt.figure(figsize=(12,8))       2 ax1 = fig.add_subplot(211) ----> 3 fig = sm.graphics.tsa.plot_acf(df['Seasonal First Difference'].iloc[13:],lags=40,ax=ax1)       4 ax2 = fig.add_subplot(212)       5 fig = sm.graphics.tsa.plot_pacf(df['Seasonal First Difference'].iloc[13:],lags=40,ax=ax2)  NameError: name 'sm' is not defined   PLEASE HELP!",True
+@mohitpande2006,2021-08-09T06:39:38Z,0,"great teacher, many thanks sir",True
+@marksathish2783,2021-07-21T21:42:48Z,0,thanks for the effort bruh,True
+@magicmushroom9670,2021-07-17T13:03:32Z,0,Why did you used predict method again and not forecast ? as we are going to see unseen observations.   model.forecast(6),True
+@victoriaharant103,2021-07-15T11:07:50Z,0,"Great video, very helpful! Thanks!",True
+@rahulbagal6741,2021-07-10T09:48:32Z,0,"if anyone  at this point got the error just replace your code by   for value,label in zip(results,labels):         print(label+ ' : ' +str(value) )    in the video it is shown as value;label  it will give you error is running as value;label",True
+@yonathanwijaya2316,2021-06-30T08:35:15Z,1,"Hi, I've been wondering.. isn't your plot looks pretty good because you included the forecasted date as training data? cmiiw and thanks!",True
+@ruhulhaque3407,2021-06-27T02:49:00Z,1,"Hey @Krish Naik.  Nice Explanation!    I have one query - when to use dynamic=True or  dynamic=False , while predicting using SARIMAX inside future_df['forecast'].",True
+@roopchoudhuri7755,2021-06-17T13:23:31Z,3,"Good content, but you should have explained the part where you decide the value of p, d, q in ARIMA with the help of differencing, ACF, and PACF analysis. Should we change only one, or all of it? Lets say in my data the differencing(shifting by) 1 is giving a good stationary graph, and shifting by 12 is not, so in model the d should be 1 right! Here you showed that shifting by 12 gives a good stationary data in you case, then why you chose d as 1. Please explain that part and add it.",True
+@samuelwago4346,2021-06-09T12:14:53Z,0,"Please can you help me how to ensemble forecasting models? eg how to ensemble ARIMA, SARIMAX, MA, LSTM to boost forecasting models!",True
+@riyasmohammad9234,2021-06-07T09:49:15Z,0,I read an article about sarimax and was really confused. But this video helped me to understand easily.  Subscribed,True
+@galymzhankenesbekov2924,2021-05-28T04:41:13Z,0,"I have faced the problem of scientific notation in y-axis, how can i convert it to normal one? i am using df.groupby ....sum().plot(), where can i use .format()? thanks",True
+@ravneetsingh190,2021-05-26T11:46:11Z,0,Thanks Krish for the information. I am running SARIMAX on temprature data set and using the step used in the video... however my prediction on the test data is like only predicting the average value similar to what you have for ARIMA output ... can you plz help me figure this out ... let me know if its ok if i can share my code with you ?,True
+@siddheshambre5787,2021-05-26T11:35:06Z,0,I want to know that how to check the accuracy of this model and how to save the model for deployment on the website?,True
+@pratikthorat4871,2021-05-21T11:26:17Z,0,kindly solve the problem which has trend in it.,True
+@rishim6816,2021-05-20T16:18:27Z,0,"ARIMA is fine, but you jumped the guns for SARIMA.. you should have explained that too.",True
+@zollen123,2021-05-17T19:11:29Z,0,Is it possible to input multiple time series data (vector autoregression) to these ARIMAX and SARIMAX models?,True
+@AK-qt3sk,2021-05-16T15:00:17Z,0,"thanks for the video, though the speaking is too fast, abrupt at times not clear. and dataset is too quickly being jumped from one area to another",True
+@TheRohit9463,2021-05-15T03:45:11Z,0,"Hi Krish , Can you explain me if we have only three months of historical data of a product then how do we forecast and also how do I run it for multiple SKUs?",True
+@AhmedMohamed-kr8hf,2021-05-06T08:17:12Z,0,"Krish, can you please give a session on time series theory .. thank you!",True
+@niranjanjamkhande3773,2021-04-23T10:27:56Z,0,Did not understand like your other ML videos.,True
+@bsrk2909,2021-04-23T04:30:29Z,0,Stupendous !!,True
+@loveisriveroflifemystic9887,2021-04-19T05:35:38Z,0,Started liking ur videos... can you redirect me to similar walmart sales prediction using R programming video,True
+@thangasamyp6011,2021-04-16T10:55:39Z,2,Super explanation sir. I have thanks to you for my doubts clear from this lecture. Thank you sir.,True
+@parakhchaudhary7479,2021-04-04T03:40:44Z,0,Great explanation man! Thank you for this,True
+@simha5top,2021-03-30T02:16:53Z,0,"This was really very good session on time series .....if possible please  upload as session on VAR model , Johansen Test and impulseb response function and forecasting.....with similar data.",True
+@afzaaljavaid7168,2021-03-29T04:49:25Z,0,"Hi Hope you are doing well! We are doing sales forecasting in our FYP. Our project is web base. We have done all the things related to frontend and back end. We are running python scripts in back end. We have a problem about sales forecasting algorithm. We are using an algorithm that just split data into train and test and then forecast it based on test dataset but it not do any future forecasting. Kindly help us how to solve it. The algorithm should give us the future forecast of sales.",True
+@amirhoseinbodaghi9527,2021-03-29T03:40:59Z,0,God bless you,True
+@VIVEKYADAV-gc1ti,2021-03-21T12:29:56Z,0,I read it same but in a very complecated manner but you make it is easy and orgnise way,True
+@rajeshjose7496,2021-03-15T03:19:34Z,1,"Hi Krish, this is a great video. While running the python file, not sure why do I get this error ""Cannot interpret '<attribute 'dtype' of 'numpy.generic' objects>' as a data type"".",True
+@Sachinsharma-pw1ne,2021-03-13T15:47:22Z,0,Sir please explain it deeply?,True
+@aishwaryanarkar2954,2021-03-13T15:11:37Z,0,ua just FAB  Thnak you very much for your guidance,True
+@rutvikjaiswal4986,2021-03-10T10:52:04Z,0,how to select the proper d value in ARIMA model?,True
+@pranavbapat1909,2021-02-18T22:17:39Z,1,"Could you please tell me how to perform cross-validation techniques on this data?  Also, how would you split the time series data using TimeSeriesSplit? Could you please explain that or make a video on that?",True
+@aibits4351,2021-02-09T11:28:16Z,0,"i have used caltrans dataset (5 min interval data for 6 month) for training and testing and this data have  seasonality  but it does not have trend, so i have used SARIMA model. but this model fails to forcast.  any help would be appreciated.",True
+@pankajverma29007,2021-02-08T07:15:49Z,0,Good explanation. Thanks !,True
+@sreenivasshrihaan1318,2021-01-30T18:04:54Z,0,super explanation...sir...could you provide  ARIMAX   with weather parameters...,True
+@gudipallychandrashakar1574,2021-01-27T19:25:12Z,0,If the  data has no seasonality,True
+@fasttimeboy,2021-01-25T19:19:54Z,0,Title of your video Should be ARIMA AND SARIMA !  Ljung Box test is missing in your video which is used to  determine the correlation between white noise of time series and lagged versions quantitatively !,True
+@fasttimeboy,2021-01-25T18:12:30Z,0,We have to conduct residual test called  Portmanteau to check the model adequacy ! That's missing in your video ! And Also there is no analysis on model reliability on future forecast in terms of confidence intervals !,True
+@Praveenmanikanta32,2021-01-24T18:04:02Z,0,Thank you ☺️,True
+@Praveenmanikanta32,2021-01-24T18:03:49Z,0,Amazing 👍,True
+@ankurpratap1968,2021-01-24T13:48:07Z,0,"Hello Sir, What should I do if I have to predict that a player in gaming industry will come tomorrow to play or not ? This is for multiple players and the number of players are around 80000. Please guide me to overcome from this problem. Thank You.",True
+@someshkb,2021-01-20T06:26:16Z,0,Thank you for the explaining it so simply...,True
+@akhileshgandhe5934,2021-01-14T19:03:12Z,0,Great. This is very helpful 👍,True
+@trainsam22,2021-01-07T04:46:33Z,2,"Feedback: This is great content, but you move the screen too much. Go slow while moving screen and mouse please.",True
+@ravibengeri1507,2020-12-29T04:11:16Z,2,"Hi Sir, What approach we should follow when the target variable is following sigmoid or logistic or S curve with respect to time. Shall we still apply Time Series? If we can which algorithm we should chose as it has multiple variables affecting target variable?",True
+@saikrishna-cp3bu,2020-12-23T06:34:07Z,0,how we can do the data analysis with alphanumerical data  fort the forecasting model  can you help me out,True
+@AmericanHorror43,2020-12-18T21:08:43Z,1,"Hi! I am trying to replicate this model into my dataset, but where the ""forecast"" column came from?",True
+@syedyousufhussain4577,2020-12-05T16:55:36Z,0,13:40 the p-value is not yet come less than 0.05 or equal to 0.05 so how did you take it stationary there?????? PLZ Explain,True
+@mohithvarigonda9516,2020-12-02T11:53:28Z,0,thank you,True
+@harshvaland1438,2020-11-23T09:59:35Z,0,Thank you so much,True
+@Punkorealist,2020-11-16T03:43:18Z,0,"Hello, I was wondering if there is a reason why  I am getting NaNs when fitting the sarimax model?  I have gotten my p =1 ,d= 1, and q =1, but I dont know why I am getting Nans after doing the fitting. any help would be vauable. Thanks!",True
+@piratetechie2411,2020-11-12T08:05:48Z,0,"Hi sir, The part where you mentioned p,d,q is equal to P,D,Q , i don't think that is true.  For eg,  d= 1 in  First order differencing,  and D= 1 in First order Seasonal Differencing.  Similary p,q is not similar to P,Q.. Both have different calculations..",True
+@vnm66g,2020-11-10T12:23:47Z,0,"Hi Sir, One question which I am not able to understand: We use ARIMA etc. for Timeseries predictions. My question is - Is it possible to do Timeseries predictions using Linear Regression, MultiLinear Regression, Polynomial Reg etc,?",True
+@rankzkate,2020-10-29T05:21:01Z,0,I usually like your videos but on this one I think you didn't do the null hypothesis enough justice. I was so confused and kept on replaying in order to understand and still I didn't.,True
+@gv_1010,2020-10-27T13:36:05Z,0,no detailing in the content explained,True
+@Komal10888,2020-10-21T09:52:04Z,0,Can u explain Johansen cointegration test parameters in python,True
+@maryamfarzad4123,2020-10-20T11:37:58Z,17,Is there any tutorial for Multivariate Time-Series Forecasting?,True
+@animeshsrivastava9977,2020-10-14T10:50:44Z,0,"Hi man,  its a decent video, but I think that there are some concepts which lack clarity both in your understanding and delivery such as choosing p,d,q also the SARIMA part is not up to the mark. It would be great if you could re-record this video with a better conceptual understanding on the topic. Cheers!",True
+@sayypridsairam4414,2020-10-08T06:40:45Z,0,"hi sir ,i done all things you tell but i got error in predict the future sales its getting  No supported index ..ple tell me this",True
+@saurabhtripathi62,2020-10-04T09:15:09Z,0,Thanks it was really helpful,True
+@walid-rm6er,2020-09-29T00:50:37Z,0,if my data is not seasonal then what should i do???,True
+@triptibhatt3296,2020-09-25T15:03:53Z,0,Sir can you please make some tutorial for weapon detection and face identification as one integrated model using transfer learning,True
+@lijindurairaj2982,2020-09-25T06:42:48Z,1,many ads in your videos,True
+@PRASANNA-vd6xo,2020-09-22T13:26:17Z,1,dataset is cooked dataset or taken from any published paper pls reply,True
+@kevinalejandro3121,2020-09-19T05:10:02Z,0,"If i want only the lag 5 from a model, I don't want the lag 1,2,3 and so on up to 5, how i can do that??",True
+@IAKhan-km4ph,2020-09-13T21:31:01Z,0,"I feel ARIMA equation is changing with software or frame work like these are different in R , Phython and SPSS. Is this true. Plz guide me the difference (3,1,1)(3,1,1) and (3,1,1)(3,1,1)12.",True
+@IAKhan-km4ph,2020-09-13T21:28:41Z,0,Superbly Done.,True
+@viveksivalingam9181,2020-09-11T00:15:37Z,5,"When you do differencing once ( so Integral of order one ), the series 'Seasonal First Difference' is stationary as per ADF test. Then when you make a estimation by using  SARIMA model, you should use the transformed series and not the original non-stationary 'Sales' series. Correct me if am wrong Krish ! Cheers",True
+@akadiryigit,2020-09-09T15:28:30Z,0,It was wonderful video. Thanks for sharing :),True
+@ssvipl64,2020-09-06T15:57:13Z,0,"Hi Krish, Good coverage of the ARIMA workflow. If the screen is zoomed , it would have been more easy for the visibility of the code.",True
+@alanpalacios7784,2020-09-05T19:34:58Z,3,I never understood this at college and now it is really clear with your example. Thanks a lot!,True
+@sid321axn,2020-09-03T12:49:33Z,0,really awesome. That is what I m looking for so many days. Good job thanks :),True
+@shibangibarua2285,2020-08-29T12:42:58Z,1,at 10.13 you said to look at p-value to satisfy the condition that it is less than or equal to 0.05.  and this condition is not met by the p-value hence it should go to your alternate hypothesis and declare it as stationary? clear this out please,True
+@ravindarmadishetty736,2020-08-25T10:52:17Z,1,I hope we also need to remove the trend if it occurs. As airpassengers data contains both trend and seasonality. If we remove seasonality still we can see an increased trend in data,True
+@wasimakramkhan2822,2020-08-24T09:46:42Z,0,"Hey Krish, Why are you setting the month column as index?",True
+@asmareadane3647,2020-08-19T11:10:57Z,0,"Hi,  Krish Naik   How to filter-out columns record value using python. For example the column name is HC71. It have 10873 records. the record values are -119,-443,-164,300,250,50,-200,200,...etc. I want to give value >=200 ""over"",-200 up to 199 ""mild"", <-200 ""under""",True
+@galymzhankenesbekov2924,2020-08-16T16:48:24Z,0,"tHANKS for the video, but how would you know the accuracy of your predictions? I mean, if we split training data into valid. and train. dataset and know how it is performing there AND then apply it for testing data, would it be correct? could you please show it  ? thanks",True
+@geniuslearningsarat3392,2020-08-15T18:47:27Z,0,"Hi Krish, Can you help me to guide on Multiple-time series forecasting on Fbprophet, LSTM and SARIMAX etc.  I want 200 numbers of products -sale to be predicted for next 2 years",True
+@geniuslearningsarat3392,2020-08-15T18:43:59Z,0,"Hi Krish, Can I get your contact number. Need to discuss with you",True
+@technospider1917,2020-08-02T03:45:08Z,1,Hey! Krish can you suggest to me which model gives me better accuracy if I have only a 15min dataset (performing time-series dataset).. plz I am waiting for your answer.,True
+@r4rajiv1979,2020-08-01T15:19:46Z,0,"Finding Error - fig = plt.figure(figsize=(12,8)) ax1 = fig.add_subplot(211) fig = sm.grahics.tsa.plot_acf(df['Seasonal First Difference'].iloc[13:],lags = 40, ax=ax1) ax2 = fig.add_subplot(212) fig = sm.grahics.tsa.plot_pacf(df['Seasonal First Difference'].iloc[13:],lags = 40, ax=ax1)  NameError: name 'sm' is not defined",True
+@shrinathkeni,2020-07-30T13:00:05Z,0,can someone please tell me which value to select if acf graph has exponential decrease,True
+@nikhilvishnuvadlamudi7789,2020-07-27T22:31:40Z,11,"at 10:05 - You mentioned that we will accept the null hypothesis. There is correction here - you never accept the null hypothesis, its just that there isn't enough evidence to reject it.",True
+@maheshbarge3222,2020-07-27T18:46:45Z,0,Hi sir I want to do time series analysis for weekly data for example week 1 to 52 of 2019 and want to predict sales for 2020 weeks 1to 52. Can you help me with this?,True
+@UMESHDAVEY,2020-07-26T11:36:06Z,0,"Just like you found whether this is stationary in data using code , is there any way to find out seasonality and white noise in data",True
+@yopiandrew622,2020-07-14T13:09:58Z,0,In ARIMA flowchart we should transform the data before differencing. Why you  just differenced it ?,True
+@namithapr4966,2020-07-10T22:12:26Z,0,"Hi sir,  I would like to know why we are not using the seasonal First Difference data which is stationary to train our model,  as you have mentioned that ARIMA algo need stationary data. Please reply.  I am stuck in a project with the same",True
+@renuverma5633,2020-07-10T08:14:22Z,0,can we use sarimax for pollution forcasting?,True
+@ambar2595,2020-07-09T11:52:49Z,0,"You are great. Some feedback, write everything you say in the notebooks and slowly and steadily read them. Form the thought with clear explanation write it down and then make a video, your channel will explode after that.",True
+@sounakmondal9094,2020-07-07T19:46:07Z,0,Great sir. Very Impressive,True
+@riagoel2885,2020-06-28T20:33:08Z,0,is there always only 2 columns in such datasets?,True
+@adeltousian2769,2020-06-25T13:41:38Z,0,GREAT,True
+@rajshreegavel5966,2020-06-25T09:18:43Z,0,one query: what should we do if the dickey fuller test shows seasonal first difference data as non-stationary?,True
+@maazansari9774,2020-06-23T12:48:34Z,2,"You have taken a ""seasonal first difference"" hence capital D=1, why is small d=1? You haven't taken the first difference",True
+@mahijadhav2357,2020-06-22T14:59:57Z,0,"sir, please check Instagram I have texted you regarding the data analysis. please its urgent sir.",True
+@surajmali6641,2020-06-21T17:34:31Z,0,cant we predict the value of the sales or for that linear regression need to be used?,True
+@ashishbhagchandani6817,2020-06-20T18:19:44Z,0,having error: ValueError: cannot reindex from a duplicate axis when using df['forecast']=model_fit.predict,True
+@leechinghoe2285,2020-06-20T00:37:35Z,0,"hey krish, if you take the log and take the differencing how many order is it is it 2 or 1",True
+@sujithramanathan3275,2020-06-16T14:05:28Z,0,"Hi Krish / Anyone, Can you show me an example for daily sales forcasting.",True
+@YogeshBiguvu2208,2020-06-07T17:14:35Z,0,"Hi Krish, I have one doubt here @7:58 Mins. How did you take Null Hypothesis as ""Not stationary""?. Cant we take Null Hypothesis as ""Stationary"" & alternate is ""Not Stationary"".?? What is the criteria for selecting null hypothesis? is Null Hypothesis always should have negative assumption like  ""Not stationary"", ""Not same"", Not  etc....",True
+@yogenderkushwaha5523,2020-06-07T04:47:43Z,0,Isn’t it’s over fitting?,True
+@joe8ones,2020-06-02T18:15:51Z,0,my pd.to_date _time is giving me errors that 'TypeError: only integer scalar arrays can be converted to a scalar index',True
+@sowmyatushar7487,2020-06-01T18:18:14Z,9,good one!! however id like to know how do we predict 3 months of sales for 50 different items at 10 different stores.,True
+@ashishasashu,2020-05-29T23:13:26Z,1,Could you please explain how do you select P  and  Q value,True
+@aritradas3763,2020-05-19T15:22:23Z,0,Could you please share the github link for this file,True
+@rutujajoshi2644,2020-05-10T00:22:22Z,0,"Thanks,This is great details of Time series analysis,  Also, I have liked one video on YouTube for Time series analysis with R 🎊 https://youtu.be/jZ0h1eopVtQ",True
+@mahesh.khatai93,2020-05-09T15:49:22Z,5,"Hi Krish , Thanks for the video on ARIMA time series analysis . I have few doubts from the video   1> Regarding Hypothesis testing -- how many times do we need to test inorder to get idea about data being stationary .   2> if ARIMA does not support seasonal data , do we have to make the raw data stationary like in video using differencing . And directly do modelling .  3> What is start , Stop dynamic parameters used in predict functions .     Thanks .",True
+@prathmeshshinde5683,2020-05-09T09:16:33Z,1,"Sir as you said that the hypothesis ' h0 '  is an assumption that we do . I have a doubt regarding that, what if we in the first case assume that our hypothesis 'h0' is stationary(reverse of what you have assumed) and go on with further discussion, are there in pre analysis done for assuming our hypothesis?",True
+@tuhinchakraborty8272,2020-05-07T14:52:50Z,0,Sir more than 0.5 is considered as stationary ? Or less?,True
+@rajpatil770,2020-04-29T14:07:36Z,1,"Sir, can I use ARIMA model if I have multiple features ?",True
+@lakme4604,2020-04-26T18:52:14Z,0,thank you krish,True
+@arjundev4908,2020-04-23T12:40:25Z,0,"Hi Krish,    Could you please add videos about ACF and PACF  and how to determine when to use AR, MA, ARMA or ARIMA.. how to convert non-stationary to stationary data... please !! it gets confusing... also how to use right p,d,q values... sorry for too many requests..",True
+@goutamborthakur4980,2020-04-23T12:29:40Z,0,"Hi, great explanation! Could you please make a video for this: https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting; I am trying but unable to get.",True
+@ArslanMehmood9002,2020-04-23T05:19:30Z,3,"hey Krish, it would be great if you can explain how we can incorporate different factors in time-series and make prediction on the basis of that ? so that our prediction can have affect of all related factors",True
+@arjyabasu1311,2020-04-14T12:13:16Z,16,Pretty complex topic sir...need an intuition video of this !!,True
+@arjyabasu1311,2020-04-14T11:45:45Z,1,What do you mean by stationary??,True
+@sayypridsairam4414,2020-04-08T13:44:46Z,0,"hey krish, really worth it .. small doubt bro.. how to check score  or accuracy for arima or sarimax model",True
+@ShubhanshuAnand,2020-04-06T16:41:18Z,0,"Hello Krish, Could you please explain mathematics behind adfuller test?",True
+@deghanandreddy7168,2020-04-05T14:15:47Z,1,Can you please make video on multiple seasonalities in time series forecasting by day wise holiday wise weekend wise sales . Thanks in advance,True
+@ganeshkharad,2020-03-22T14:40:03Z,1,its nice explaination but...you should also explain why we are doing what we are doing...like you didn't tell why we want data to be stationary??? what will happen if it is not stationary.... kind of stuff...,True
+@bharatvadlamudi,2020-03-20T06:02:05Z,1,as usual great explanation krish. Can you please discus about some of the model  metrics that are used in the industry,True
+@sibamarcel9428,2020-03-19T17:25:20Z,1,Great video. Thank you bro,True
+@maheshkarigoudar117,2020-03-19T16:53:04Z,12,"I think we don't accept null hypothesis but it's failed to reject null hypothesis so accepting status quo, it doesn't make difference in output but correct way of seeing it",True
+@mks7846,2020-03-19T11:35:42Z,3,Please keep explaination with code of any real time deep learning project  ?,True
+@yashmadhogaria7418,2020-03-19T11:22:31Z,2,Which are the best forecasting techniques often used in Industries ?,True
+@yashmadhogaria7418,2020-03-19T11:21:38Z,1,"When do we require to check minimum AIC,BIC,AICC  values ?",True
+@yashmadhogaria7418,2020-03-19T11:20:36Z,15,"Hey Krish , i couldn't understand the part on how to choose the value of p and q from graphs .Can you show some variations so we could get to learn the abrupt drop and exponential decay part in the ACF and PACF plots to choose the values of p and q.",True
+@sachinborgave8094,2020-03-19T10:54:28Z,2,"Thanks, please upload Deep Learning further videos.",True
+@ashishmishra7506,2020-03-19T09:49:44Z,5,"Most most awaited video for me , Thanks a lot sir 🙏🙏🙏🙏",True
+@nishantjindal4394,2020-03-19T07:49:22Z,1,Hey Krish QQ for forecasting which is better Arima/Sarima or RNN is there any comparison?,True
+@eBuddha33,2020-03-19T07:15:47Z,9,I am studying on time series from last few days. Thanks for adding this video in correct time.,True
+@bcr5430,2020-03-19T07:09:26Z,4,Can you do a video about sarmiax too? I was working with exogenous variables in a time series data and the function wasn't accepting the two variables I passes in the argument.,True
+@SP-db6sh,2020-03-19T07:01:13Z,2,Very useful. Please start a series or a paid course on Algo trading.,True

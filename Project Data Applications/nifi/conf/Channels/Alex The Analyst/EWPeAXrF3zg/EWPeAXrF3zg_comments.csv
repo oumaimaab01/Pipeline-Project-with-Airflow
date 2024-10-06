@@ -1,0 +1,20 @@
+author,updated_at,like_count,text,public
+@carolinecarr56,2023-06-08T14:29:00Z,1,We need part 3,True
+@carolinecarr56,2023-06-08T14:28:48Z,1,Where is the third part pls,True
+@neffect,2023-02-22T06:36:59Z,0,"Hi Alex, thank you very much, do you have the 3 part ready?",True
+@trh_kairos1372,2022-03-24T20:07:19Z,0,"I am using a subquery to solve 2nd one ,But it gives me a error said FUNCTION test.max does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual and here is my code  select d.name as department , e.name as employee , salary  from employee e join department d  on e.departmentid = d.id  where salary in ( select max (salary) from  employee group by departmentid         # get the highest salary for each department   )",True
+@abhijitkunjiraman6899,2022-02-01T04:57:46Z,0,Hi Alex where's the part 3 of this series unable to find it. Also thanks for your content.,True
+@bootymansosrs9546,2022-01-19T12:01:00Z,0,"FYI if there is no solution, the discuss panel usually has a lot of them to test out and compare to",True
+@xuanyuliang101,2021-10-21T09:46:17Z,0,"Good evening Alex! Your videos are very helpful to beginners such as me. I tried the last question, the highest salary, with cte like you, did and I also tried subquery but I got a little bit confused about it. select      d.name as Department,     e.Name as Employee,     Salary from Employee e join Department d on e.departmentid=d.id where (e.DepartmentId,salary) in (select DepartmentId,max(salary) from employee group by DepartmentId)  This answer is accepted, but why does it go wrong if ""e."" is added to the ""DepartmentId"", like ""e.DepartmentId""  in the last line? It seems that they don't have too much difference... Looking forward to seeing your reply. Leon Kind Regards",True
+@haowang6662,2021-09-23T04:17:48Z,8,"Very helpful! Thanks Alex. Btw, is the hard questions, part 3 available now?",True
+@rishigupta2342,2021-09-06T13:26:54Z,0,@alex kindly release hard part of sql series,True
+@ericatsai7285,2021-04-05T03:12:47Z,1,This is Awesome!!! Thank you so much for your super helpful video.🌻,True
+@Amin-tx4ku,2021-03-28T06:21:22Z,0,"if i'm not wrong it could've been either dense_rank or rank as we were doing salary desc, right?",True
+@AbhishekSharma-hy4nl,2021-01-27T14:18:03Z,6,"""SELECT d.Name AS Department, e.Name AS Employee, e.Salary FROM Employee e JOIN Department d     ON e.DepartmentId = d.Id    AND e.Salary = (SELECT MAX(e1.Salary)                  FROM Employee e1 WHERE e1.DepartmentId = d.Id)""",True
+@damondupre5350,2021-01-25T21:45:25Z,1,Hi Alex! Do you have a study guide for LeetCode practice interview questionsyou can share?,True
+@TheOrionMusicNetwork,2021-01-10T19:38:09Z,4,This is actually really enjoyable and helpful to watch. Please continue to do more!,True
+@Mrricardoacuna,2020-12-23T01:48:46Z,1,"Hey Alex, thanks for the video. Happy Holidays!!",True
+@saurabhjoshi4887,2020-12-22T15:54:28Z,1,"Merry Christmas Alex!🎄🎅⛄ And that hat looks good on you 🧢. I just learned new functions in SQL, Thank You 🙌",True
+@mohammedbouchcoucha890,2020-12-22T13:41:07Z,5,Wishing you a very merry Christmas and the chance to do lots more fishing in the new year to you and your family!,True
+@Holt196,2020-12-22T12:58:15Z,2,Merry christmas Alex ! Love the hat :),True
+@omerlavian5120,2020-12-22T12:12:20Z,1,"Great video! In your opinion, how hard would you say SQL questions for a data analyst internship interview compare to this?",True

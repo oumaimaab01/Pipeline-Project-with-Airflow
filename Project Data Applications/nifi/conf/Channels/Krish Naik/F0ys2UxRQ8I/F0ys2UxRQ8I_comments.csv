@@ -1,0 +1,30 @@
+author,updated_at,like_count,text,public
+@yetcherlaajay2399,2023-05-31T10:53:28Z,0,sir you havent used removal of stopwords is it ok to skip that step. Will my model can perform,True
+@nikhildagar1560,2022-10-08T21:28:32Z,0,'NoneType' object has no attribute 'columns'.......how to resolve this,True
+@ms.k.kiruthikadept.ofcompu510,2022-08-24T05:47:37Z,0,Hi Sir ThanQ so much for all ur videos. I have a doubt. u mentioned that u took the stock data from Yahoo Finance. It seems only the headlines (text data) are considered for Analysis. What is the purpose of Historic data (Stock data)? csv file too contains only headlines. Did i missed anything in this video? Kindly reply when u have time.,True
+@sayanthirm6157,2021-10-11T04:02:05Z,0,"thank you, sir, I have some doubts can u tell me how to label them and how to predict the price increases or decrease",True
+@louerleseigneur4532,2021-08-05T02:25:48Z,0,Thanks,True
+@maheshmec1,2021-06-26T13:43:07Z,0,"Krish, i tried this with LSTM but not improving accuracy more than 50%",True
+@someshpillai5332,2021-05-06T05:06:12Z,0,How did you get that final score with those parameters for Random Forest??,True
+@swapnilingale1075,2021-03-26T04:49:01Z,0,What to do after writing this script? How to run the model?,True
+@lixinlin4563,2021-01-26T16:13:03Z,1,"it seems that part of your testing data are used for training. When splitting training and testing dataset, we should use 'yyyy-mm-dd' as the date format.",True
+@dataanalytics2593,2021-01-22T17:54:07Z,0,Sir great work ..i watched this video but still i have confusen... From accuracy what i have predict price increase or decrease...... Nd what is the final output.. I think it will be bore question.. i have confusen so i have to asked..,True
+@vatanpatel6011,2020-09-11T07:46:22Z,0,"Krish, I like your videos. But you have made a mistake here.  You took overlapping training and testing datasets. This is why the accuracy is at 85%. With random train_test_split, the accuracy falls down to 52%. Please use Cross Validation for the same.",True
+@deepsheth4905,2020-08-28T08:59:16Z,1,Where and how did you scrape the news from?,True
+@ravichilka1474,2020-08-25T05:42:31Z,0,"Brother how can you overlapp the training and testing dataset ,,,,, (time)3:28   training<2015 test>2014 then testing within range 2014-2015 will always get correct answer so,accuracy automatically increases...... Hence, 80% accuracy from news (lol),,,,,,,everyone would have become millionaire by then. Though I liked your approach,,,,,,,Thank You",True
+@datascience4952,2020-08-05T06:21:44Z,0,Anybody know the Kaggle page link for this dataset?,True
+@Shaunmcdonogh-shaunsurfing,2020-06-25T12:32:22Z,0,"Krish, I have a contact at a major blue chip company in Europe looking for a data scientist. If you are open to some work (with great pay) just let me know how to contact you. I’ve learnt so much from you and you’d be a great support for them.",True
+@anujvyas9493,2020-05-24T08:09:18Z,1,"Hey Krish, Is there any specific reason for not applying stemming in this use case?",True
+@Sameer-oh5xt,2020-04-14T07:40:37Z,0,where prediction is made ?,True
+@Bharadwajk,2020-04-03T13:44:21Z,0,"Hey Krish,  Your NLP playlist disappeared, can you provide them in google drive if possible or if you could make them public again that would be really great  Thanks",True
+@susovandey1875,2020-03-10T06:31:32Z,2,"Hi Krish... I tried the same code in my system and i have a few queries. Here is what i did 1. Uploaded data in dataframe. 2. Did preprocessing of the whole data and created a combined column containing all the headlines. 3. Then used countvectorizer on this data.  4. Used random forest classifier just like you showed.   Questions :  1. I am getting error ""Cannot allocate xxxx bytes of memory..--------> Please tell me why I am getting that. Though it worked on google collab. (Laptop I am using has I5 9th Gen...8GB RAM and integrated graphics card) 2. Why did you not use test train split? Also in your code some of the training data was present in the test data. Data redundant...When i corrected it the accuracy came down to 55%. 3. In the countvectorizer how are you finding out whether it should be univariate or multivariate [why you selected ngram_range=(2,2) and not (1,2)] I am new in this and might be asking a stupid question also....Please help me out.",True
+@AbhishekSingh-lo2qw,2020-01-18T17:21:37Z,0,"Sir, can you kindly put on video the way you have scrapped important or top headlines for the data",True
+@AdandKidda,2020-01-13T04:10:57Z,1,can we combine NLP(News Sentimant) and LSTM (Time Series)???   if Yes: How?,True
+@IbrahimKFaisal,2019-10-24T11:29:17Z,0,Well done.,True
+@nirajsharma7384,2019-09-29T03:16:10Z,0,Sir what kind of module or technique needed for stock price analysis in python. Can you tell me in details.,True
+@dipenduchoudhury9984,2019-09-12T20:27:32Z,0,Will this dataset work on SBIN stock or others stock??,True
+@sergioaguilarup,2019-09-10T20:23:00Z,0,Excellent video. There is a way to make our model better?,True
+@Fit-HubIO,2019-08-14T13:03:55Z,0,"Outstanding, have you seen teams use a larger news data set from an external aggregate?  For example LexisNexis?",True
+@RatedRudy,2019-07-07T17:02:53Z,1,"Hi Krish, which dataset on Kaggle did you use?",True
+@mattcirelli6019,2019-07-02T16:49:09Z,0,"Hi Krish great video, I see you've used the DJIA price to create the labels, suppose we wanted to create labels based on the word vectors (or unlabelled text) is that possible? my thinking is the categorical label would then be used to predict prices as part of a model with more features?",True
+@yolonbsn9063,2019-06-26T20:18:50Z,0,UserWarning: Pandas doesn't allow columns to be created via a new attribute name - see https://pandas.pydata.org/pandas-docs/stable/indexing.html#attribute-access  how to resolve this,True

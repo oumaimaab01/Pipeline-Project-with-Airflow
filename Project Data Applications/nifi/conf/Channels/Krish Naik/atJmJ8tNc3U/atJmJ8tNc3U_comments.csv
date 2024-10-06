@@ -1,0 +1,46 @@
+author,updated_at,like_count,text,public
+@ahmadhakimi7878,2024-01-15T01:12:15Z,0,"I have too many errors, i try to install the legacy tensorflow version and keras and still get error. Can you all help me how did you all can run the code?",True
+@sangxrpw8366,2023-11-04T02:18:21Z,0,where is full vedio bro??,True
+@anything6348,2022-03-03T08:36:34Z,0,what is the future scope that project??,True
+@rohithlingala1198,2021-05-07T05:36:21Z,1,"Do we need to download any dataset because i am getting file not found error in the line os.listdir[""25-30""] can you please clarify it",True
+@susantadas4004,2021-05-03T12:19:01Z,0,Coding shows too much error,True
+@swapnilbopche5383,2021-04-13T10:37:33Z,0,Thankuuuu sir,True
+@anilreddy5243,2021-02-15T11:48:54Z,1,AttributeError: module 'keras.backend' has no attribute 'image_dim_ordering'   how can I solve this sir??,True
+@ghofraneghanmi4847,2021-01-31T17:11:23Z,1,It seems that I can't get access to the drive of weights file. Can you send it soon to my email or give me access? ghofrane.ghanmi01@gmail.com I would be grateful Thanks,True
+@aliazahrarizvi1672,2020-12-21T17:51:41Z,2,Sir can your please help me out here..and tell me where have u added the path for wide_resnet file in the program bcuz I'm getting some error over here,True
+@emamulhasan7206,2020-12-08T02:27:26Z,0,I need the code,True
+@trineojha7926,2020-11-19T12:02:33Z,1,Can u send complete code of trained model On my mail id sir thanks,True
+@MohamedAshraf-zs6nv,2020-09-16T14:19:19Z,0,"even I like the way you explain the concepts, I don't like the way you explain the code you just write them down before recording and during the video you are reading them without more explanation about --> what this code is for and how exactly it works",True
+@arjyabasu1311,2020-08-24T03:53:39Z,1,"Sir, there are lots of errors in this code! Kindly check the code once and re-upload it sir, please!",True
+@ananyamehra337,2020-08-18T19:04:22Z,1,"Sir I'm doing a project on gender and age detection where it would take a video clip and detect but during execution it's giving  me SystemExit : 2  , sir if u could please look up to the matter soon",True
+@AyurvedakiDuniya,2020-08-16T17:50:05Z,1,https://youtu.be/Glviu-JwSUQ Classification of age according to ayurveda Plz like subscribe and share,True
+@ankitasaha835,2020-07-19T14:27:19Z,0,ModuleNotFoundError: No module named 'cv2'  Can anyone please help me out with this error?,True
+@sunidhigupta5079,2020-07-07T08:02:10Z,1,Detection of any sort of thing from Neural Network in Live Video Feed #Resnet50 #Face Mask Detection ​#Counting no of people Plzz give the complete description with code of this project plzz ​ 	#Distance between persons in a Room ​,True
+@PratikSatpathy97,2020-07-01T13:55:07Z,2,"An exception has occurred, use %tb to see the full traceback.  SystemExit: 2",True
+@samardas1365,2020-06-30T20:32:25Z,1,"I am a follower of your channel. can you help me in image classification using surf and gist extractor with svm classifier ,  please make a video on it.Thank YOU",True
+@sandipansarkar9211,2020-06-10T19:55:32Z,2,I am getting the error   ModuleNotFoundError: No module named 'wide_resnet'.How to import this library.Please guide.Thanks,True
+@pimvenussomkhum6178,2020-05-30T17:17:21Z,1,If I want to know about the parameters for running this model. Where should I looking for?,True
+@mdsaifali1250,2020-05-06T22:15:23Z,1,Thanks Krish,True
+@vikasbhadoria6535,2020-04-25T06:01:25Z,6,keras backend image_dim_ordering has been replaced with image_data_format!!! Just in case if someone gets this error.,True
+@savyasachithati2870,2020-03-12T09:50:16Z,0,Sir can you explain how you trained data,True
+@rupeshbhujel1005,2020-02-28T11:02:15Z,0,problem  in  WideResNet .How to install this libary.,True
+@swathih5821,2020-01-16T07:35:37Z,0,"Sir, what is the accuracy?",True
+@shredder_plays,2019-11-22T07:39:02Z,1,which research paper have you  followed??,True
+@tecksong6293,2019-11-19T02:21:46Z,3,how about using jupyter notebook?,True
+@mithileshkumarsharma8412,2019-11-05T21:32:52Z,11,"Sir, Please make a video on the explanation of the code.",True
+@aveenfaheem8657,2019-10-21T06:42:44Z,1,I'm having this error ModuleNotFoundError: No module named 'wide_resnet',True
+@yogeshnarayankar5125,2019-10-18T17:33:27Z,1,thanks man,True
+@devenmali9820,2019-09-16T17:56:30Z,3,"Sir ,No face detected .. the camera light is on but..in the console its continuously printing No face detected..no interface is displayed in front of me..in which i can look at my face being identified",True
+@thanikainathants9535,2019-08-31T07:01:47Z,0,"-------------------------------------------------------------------------- SystemExit                                Traceback (most recent call last) <ipython-input-22-a30e8aa51bb3> in <module>     143      144 if __name__ == ""__main__"": --> 145     main()     146      147   <ipython-input-22-a30e8aa51bb3> in main()     134 def main():     135  --> 136     args = get_args()     137     depth = args.depth     138     width = args.width  <ipython-input-22-a30e8aa51bb3> in get_args()     129     parser.add_argument(""--width"", type=int, default=8,     130                         help=""width of network"") --> 131     args = parser.parse_args()     132     return args     133   ~\Anaconda3\lib\argparse.py in parse_args(self, args, namespace)    1731         if argv:    1732             msg = _('unrecognized arguments: %s') -> 1733             self.error(msg % ' '.join(argv))    1734         return args    1735   ~\Anaconda3\lib\argparse.py in error(self, message)    2387         self.print_usage(_sys.stderr)    2388         args = {'prog': self.prog, 'message': message} -> 2389         self.exit(2, _('%(prog)s: error: %(message)s\n') % args)  ~\Anaconda3\lib\argparse.py in exit(self, status, message)    2374         if message:    2375             self._print_message(message, _sys.stderr) -> 2376         _sys.exit(status)    2377     2378     def error(self, message):  SystemExit: 2   I am getting the above error..any idea please?..",True
+@SanketPatil,2019-08-22T10:10:49Z,0,"I did all things u mentioned , but I was not able to get age as output , getting only face detected no age determination",True
+@shubhamkumar-ru6em,2019-07-12T05:11:17Z,1,When I am running then unknown url type error is coming,True
+@gellavenkatakodandasrikris4668,2019-07-06T03:57:40Z,2,Hi krish i  download the file as age estimator in github but  in that  weights.hdf5 was missed can you please  give the fie,True
+@ai378,2019-06-27T09:10:57Z,4,can you provide the dataset?,True
+@petchiraj1875,2019-06-21T05:29:10Z,0,i not understand this error so how to find out the this error  v2.error: OpenCV(4.1.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor',True
+@ps6043,2019-05-07T05:57:15Z,2,"Doesn't work. Shows ""exception"", any help?",True
+@arunselvabio,2019-04-12T02:30:02Z,0,Try for 50 or above aged people.,True
+@ijeffking,2019-02-27T05:43:15Z,1,Brilliant Krish. Thank you so much.,True
+@vikrantnag86,2019-02-26T10:18:51Z,1,Hi Krish. Great videos. Do you make videos on R specially on text analytics. Thanks,True
+@OlimpoSalazar,2019-02-25T20:34:36Z,1,Thanks!!!,True
+@mrasad8627,2019-02-25T15:15:41Z,1,Nice source for learning machine learning 👍,True
+@pakpoomtivarkornkit8525,2019-02-25T15:06:33Z,2,Thanks Krish. great video again 👍,True

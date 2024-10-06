@@ -1,0 +1,57 @@
+author,updated_at,like_count,text,public
+@rayhankabir645,2024-05-03T14:41:30Z,0,Please would you help me with this dataset,True
+@lenaara4569,2023-08-19T14:27:04Z,0,your explanations are really awesome! Thank you😊,True
+@aminulislam-bw5md,2023-02-17T19:40:37Z,0,"Can anybody explain, why Expected_Values = val[3]?",True
+@AsifMarazi,2023-01-24T10:15:20Z,0,"Instead of writing chi_square_statistic=chi_square[0]+chi_square[1].... for number of rows just replace this line with chi_square_statistic=chi_square.sum(), So you need not to worry about the writing all the rows in case of having more rows",True
+@Tejashri_Kate,2023-01-19T04:53:04Z,0,And how do we know if there is type1 or type2 error?,True
+@vincetechclass3390,2023-01-04T23:26:44Z,0,What about negative values?,True
+@rushin3090,2022-07-01T12:03:01Z,0,can anyone send this playlist?,True
+@PravinKumar-zc2eq,2022-02-13T15:53:46Z,1,"Hi, Krish ur videos are really helping me understand these concepts in a easy way thank you . Is there any possibility a video on ANOVA??",True
+@alextjflorida,2021-11-29T21:15:18Z,0,Thank you for the video. It seems Python is not efficient in running statistical tests. You have to get one single test results by taking too many steps. Other software packages can do a better job in this department.,True
+@kaifahmed316,2021-09-13T13:52:15Z,0,Grate explanation sir thank you 😊,True
+@ankitayadav2690,2021-08-25T05:43:22Z,0,Very nice explanation sir,True
+@AkshayDudvadkar,2021-08-07T10:50:19Z,0,What do we do when we have multiple categorical columns ??,True
+@akshayvishnukishore2282,2021-07-24T17:24:29Z,1,Question: why did we calculate the p-value again? cant we just use the p-value returned from the chi2_contingency() ?,True
+@louerleseigneur4532,2021-07-15T02:09:54Z,0,Thanks Krish,True
+@priyaduttbhatt5691,2021-07-08T15:51:51Z,0,simply perfect!,True
+@solar_girl_here,2021-06-30T21:57:31Z,0,Amazing. Thanks,True
+@minakshi_119,2021-06-18T20:36:09Z,0,"Can anyone please help me with Expected_Values=val[3], what here val[3] means..",True
+@minakshi_119,2021-06-18T20:35:39Z,0,"Can anyone please help me with Expected_Values=val[3], why here val[3] means..",True
+@abhinaygupta8243,2021-06-16T12:27:00Z,0,"suppose there are around 50 features in my data set so, should i do the chi square test for each of two features and same with others also , it will more time consuming...........or we will directly find the correlation as per pair plot and select one out of similar ones",True
+@badiyabhargav8597,2021-06-10T06:29:01Z,1,Sir I have doubt..  At 11:42 u said that chi2_statistic should always be greater than critical value then only we retain null hypothesis  but in the code our  chi2_statistic value smaller than critical  value   in if condition u gave   if(chi2_statisti>=critical value):          print(reject ho and accept h1 there is a relation) else:          print(retain ho there is no relation)  I think we have to reject the ho null hypothesis  if chi2_statistic is greater than critical value,True
+@biranchinath8428,2021-06-10T05:02:59Z,0,Thank you sir for your help.,True
+@abhinavsharma7291,2021-05-23T17:25:16Z,0,"Krish, Thank You! Any video on ipynb file explaining ANOVA test ?",True
+@parikshitgurjar5545,2021-05-21T05:26:55Z,0,"Hello guys , Plese can anyone explain :- The Degree of freedom = 1 in the output what this ""1"" signifies.",True
+@saumyamishra5203,2021-04-30T10:58:49Z,0,plzz tell me what 1st 2 values in the result of function chi2_contingency is ....as i was thinking that 1st one is chi_statistics_value & 2nd one is p_value.???,True
+@AK-ws2yw,2021-02-17T16:36:33Z,1,"Hey Krish, I had a doubt. If i have 4 columns which have 2 character type data. Eg. Let 4 columns name be A,B,C,D and all these 4 columns are categorical data that is all 4 columns have Yes and No type data. My aim is to find whether all 4 columns have a Yes. Which Test should i go for in that case.",True
+@vanessaleiko,2021-01-10T15:10:09Z,1,Thank you so much for this explanation!,True
+@srinathganesh6985,2020-12-04T17:25:19Z,3,doesn't `scipy.stats.chi2_contingency` already return `p value` directly?,True
+@SHIVAMBAJPEYIMIM,2020-10-04T15:10:26Z,0,"Thank you so much, this makes my day:)",True
+@akashsoni5870,2020-09-28T14:48:51Z,0,Am I the only one who saw statquest by josh starmer? I am following statquest before krish Naik sir lecture...... believe me statquest is very good for indepth knowledge,True
+@sandipansarkar9211,2020-09-12T19:17:39Z,0,thanks krish .great explanation,True
+@anupamasonnad220,2020-08-31T13:18:55Z,0,"Hi Krish,  If I have to figure out the association/ relation between  more than 2 categorical variable , will that be done using Chi2? If I have to test the multicollinearity between more than 2 categorical variables, can we convert them into numeric and apply VIF?",True
+@chetanmazumder310,2020-08-24T12:23:57Z,0,What about anova  ?,True
+@roksanarezaei9608,2020-08-17T22:48:38Z,13,"Krish, Thank you for the explanation. I have a question. Why didn't you use the P-Value and Chi_Square values that the contingency function provides and you calculated them separately? even the numbers you got are not the same.",True
+@Balubindass,2020-07-19T14:15:49Z,0,"Hi Krish Naik,  I-am following you channel and it is very clear and easily understandable. After your z test and T test video, i tried doing some hypothesis test.  Here is my example and would need your help if i am doing it wrong.  I have a file with 5000 rows  And i am considering as a population and i have assuming hypothesis.  Null Hypothesis as age <= 30 years employees are leaving company Alternative Hypothesis age > 30 This is one tailed test.  So here is my question do i need create a sample from population or else i need filter age >=30 and consider it as sample?  And if z score table 1.694 and z test gave 3.54 the do i need reject null hypothesis? Please kindly help me.",True
+@rajulshakya4899,2020-07-19T12:35:42Z,0,Nice video,True
+@gurdeepsinghbhatia2875,2020-06-30T19:27:57Z,0,"too gud sir ,",True
+@nanditasharma6766,2020-06-27T16:47:29Z,0,"Krish, you told there is a relationship & one will have some effect on another as they have relation. So we have to consider one or both variable?????????? if we consider one then it will definitely get effected as they are related with each other... considering one will give miss effect on target then????",True
+@amalsunil4722,2020-06-07T17:06:49Z,2,Guys just a tip here...u can simplify the process of obtaining the X2 statictic-> X2_statistic=(observed_values - estimated_values)**2/estimated_values X2_statistic=X2statistic.sum() and make sure observed_values and estimated_values are numpy arrays,True
+@pranabmishra2609,2020-06-06T19:00:22Z,0,"Thanks, Explanation is Clear and Concise. Able to understand properly.",True
+@sushantshekhar8082,2020-06-02T14:43:54Z,0,"Krish, please upload similar implementation video for Anova test aslo",True
+@sushantrauthan5704,2020-05-21T15:31:25Z,0,"Thanks for the video but i have a doubt  , i've never really grasped the concept how of how you choose the hypothesis in some cases you choose NULL hypothesis for the motion and in some cases you choose the hypothesis against the motion.LIke how does that work?",True
+@omkarpatil2854,2020-05-17T09:36:44Z,1,"hello Krish, awesome video series as always.  if p-value is high then both samples are related to each other right? in your code, there is a condition where if p_value <= 0.05 then there is a relation between them. could you please confirm?",True
+@MJAYRECORDS,2020-05-12T21:08:52Z,0,Hi Krish the video is good can u tell me the solution for the chi square test coding for marital status and different  education level problem,True
+@PrinceKumar-eb8hd,2020-05-01T10:49:18Z,1,e to upar sea nikal gaya..koi nai..jab jarurat hoga...tab dubara sea research kiya jaye ga...vese thanq sir..,True
+@amadoum.jallow620,2020-04-30T02:13:38Z,1,"Sir, can you please recommend me a very good book for statistics.",True
+@dheerajkumark2268,2020-04-20T16:31:39Z,0,"Sir while finding p value, can we give pdf instead of cdf",True
+@manishbolbanda9872,2020-04-19T17:59:23Z,0,getting error for sns.load_dataset('tips') even though i have imported seaborn,True
+@vaibhavmohite468,2020-03-10T06:42:25Z,0,Can you explain goodness of fit test in python,True
+@pratikchatterjee5992,2020-03-09T13:11:24Z,0,Hi Krish. Nice video. Where are the big data videos?,True
+@GauravSharma-ui4yd,2020-03-09T04:35:31Z,5,Great video. Please upload videos implementing various other tests,True
+@pramodkumargupta1824,2020-03-09T04:34:37Z,12,"Krish, Really nice video. what steps should we take after we perform these test. I have following question- 1. What should we do if two features are related with each another. Do we need to exclude one in feature selection? Or what should we do? 2. If there are independent, then we are good to take both features in our model for prediction?",True
+@lokanathshroff3301,2020-03-09T02:39:10Z,2,"Sir, not able to see the big data playlist",True
+@bhagyashreemohanta7826,2020-03-08T18:32:14Z,1,Thank you so much... 🙂 Highly Obliged..... 🙏,True
+@shobitjain9619,2020-03-08T18:21:30Z,2,"Sir, can you Make videos on different different pairwise metrics in sklearn  like cosine similarity, sigmoid krnel, rbf kernel etc..",True
+@ajithshenoy5566,2020-03-08T17:56:09Z,1,"Hey Krish , Love your videos. Kindly upload more videos in the machine learning pipeline section. The last one is feature selection . Interpretation and deployment videos would be largely appreciated.",True
+@amitjajoo9510,2020-03-08T17:54:52Z,1,Thanks,True

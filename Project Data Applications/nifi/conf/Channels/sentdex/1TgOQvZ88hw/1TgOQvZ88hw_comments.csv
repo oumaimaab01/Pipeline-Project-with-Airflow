@@ -1,0 +1,14 @@
+author,updated_at,like_count,text,public
+@AG-cx1ug,2022-01-25T13:21:53Z,0,"Why do we need that while x < 100: loop to run simple_bettor 100 times? When we don't add the if value < 0: function, simple_bettor runs 100 times, but with it, it doesn't. Shouldn't it run wager_count times anyway since the while loop in the simple_bettor function says that? Thank you!",True
+@abhijitbanerji2105,2021-05-10T09:21:13Z,0,"Getting this error. Can you help? File ""<ipython-input-11-cbf7641705ee>"", line 6     if roll == 6:     ^ IndentationError: unexpected indent",True
+@Zonno5,2021-01-29T15:34:05Z,0,cool tutuorial. I visualized the different outcomes using a histogram and computed the average and standard deviation,True
+@robinandrews5613,2019-12-23T09:49:15Z,1,Why do you hate FOR loops?,True
+@skadoosh550,2019-11-04T02:09:09Z,0,"When I set wager_count == 10000 my program outputs many negative funds for each 1 of the 100 bettors as expected. However, only some of the negative funds are considered ""broke"". Why aren't all the negative funds considered ""broke""? If any of you guys have a solution, please let me know. I am using the latest version of Python, perhaps that is the problem?",True
+@salechrubenstein7745,2019-10-04T00:26:30Z,0,See Gambler's ruin and Gambler's fallacy on this matter.,True
+@CarlosRoberto-vb9gi,2018-10-31T16:00:01Z,0,Thanks for this video!,True
+@Greyknight08,2018-03-26T14:20:47Z,0,"Why is the    while x < 100: simple_bettor(10000, 100, 100) throwing me into an infinite loop?",True
+@GodsNode,2017-01-30T06:20:12Z,0,There is a Malcom Gladwell overtone here!,True
+@hoowoo7045,2016-04-14T18:02:11Z,0,"That's not python 3, but python 2.7.8. The print function has different usage",True
+@aGianOstaLgia,2015-09-09T16:52:49Z,2,"at 1:11 , how is it possible that all funds are  k *200 and not even one of them is k*200 +100 ? I mean after all the bet is 100 and 50% should be ending in 100 or 300 etc...  Please explain this , if you have the time. Thanks for the tutorial!",True
+@georgepamfilis2983,2014-04-06T11:56:13Z,0,or is every x a bettor and each bettor has to go through all the wager_count 's untill the next x thank you,True
+@georgepamfilis2983,2014-04-06T11:36:05Z,0,"hi, i placed a print x at x = 0 while x < 100:     simple_bettor(10000,100,1)     x+=1     print x  and it gives me  Funds:  10100 1 Funds:  9900 2 Funds:  9900 3  but when i change thhe simple_bettor simple_bettor(10000,100,2)  it gives me  Funds:  9900 Funds:  9800 1 Funds:  10100 Funds:  10000 2 Funds:  10100 Funds:  10200 3  did i just create two bettors where they change rebet or am i making a mistake because if i were to put simple_bettor(10000,100,100) it will give i think 10000 result 100 per betting round is this right ? thank you",True

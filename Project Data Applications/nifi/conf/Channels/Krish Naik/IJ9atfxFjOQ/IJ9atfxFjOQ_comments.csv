@@ -1,0 +1,127 @@
+author,updated_at,like_count,text,public
+@MoosaMemon.,2024-05-16T13:21:35Z,0,"At 5:56, shouldn't it be ""derivate of z w.r.t derivative of w_11"" instead of being  ""derivate of z w.r.t derivative of O_11""",True
+@somanathking4694,2024-05-01T12:11:00Z,0,how i missed the class all these years how come you are able to simplify the topics. 👏,True
+@komandoorideekshith85,2024-04-04T07:34:57Z,0,a small doubt is that in another video you told that derivative of loss w.r.t. weight equals to derivative of loss w.r.t. output and etc... but in this video you considered directly from out on r.h.s could you please conform it,True
+@user-kp5fi6hr5j,2024-03-19T06:54:08Z,0,So basically Exploding and vanishing are dependent on how the weights are initialised?,True
+@sohamdutta3086,2023-12-25T10:36:36Z,0,👍👍,True
+@tanishagrawal9091,2023-12-14T13:34:51Z,0,dL/d(O31) ?,True
+@sumaiyachoudhury7091,2023-11-18T16:12:36Z,0,at 2:47 you are missing the dL/dO31 term,True
+@xXmayank.kumarXx,2023-09-17T08:53:57Z,0,not so much clear unlike the vanishing gradient tutorial :(,True
+@adityashewale7983,2023-07-24T05:22:11Z,0,"hats off to you sir,Your explanation is top level, THnak you so much for guiding us...",True
+@basharfocke,2023-07-17T13:19:48Z,0,Best explanation so far. No doubt !!!,True
+@pratiksha5748,2023-06-16T11:14:39Z,0,A minor change. dl/dw11 = dl/dO31 × dO31/dO21 × dO21/dO11 × dO11/dw11,True
+@tarun4705,2023-05-09T22:16:53Z,2,This playlist is like a treasure.,True
+@jayanthkothapalli9.2,2023-03-30T05:44:04Z,0,sir why your are not writing the term dL/d(o31)  with other terms?,True
+@smarttaurian30,2023-01-18T16:36:24Z,0,I don't understand the chain rule equationt that how we get activation function while it should begun from dO21,True
+@aravindpiratla2443,2022-10-29T16:38:01Z,0,"Love the explanation bro... I used to initialize weights randomly but after watching this, I came to know the impact of such initializations...",True
+@dharm7245,2022-09-14T07:53:44Z,0,how can dL/dw be so big we know that L is sigmoid,True
+@slaozturk47,2022-09-11T11:39:19Z,0,"Your classes are quite clear, thank you so much !!!!",True
+@owaisahmed9564,2022-08-15T21:49:15Z,0,"sunsip ka thanda orange, sunsip thanda orange peeke hum tu foran fresh hojate. Ja abe hindu.",True
+@anirbandas6122,2022-08-13T09:55:43Z,0,@2.37 u have missed a derivate dL/d031  on the RHS.,True
+@arnavkumar5226,2022-08-01T07:36:46Z,0,"sir , why are you missing the first term while writing the chain rule ? can someone please let me know what is correct formula ?",True
+@anshulzade6355,2022-07-25T06:55:49Z,0,"keep up the good work, disrupting the education system. Lots of love",True
+@indrashispowali,2022-04-26T03:20:17Z,0,thanks Krish... nice explanations,True
+@KamalkaGermany,2022-03-25T11:23:12Z,2,Shouldn't the derivative be dl/ dw'11 = dl/dO31 and then the rest? Could someone please clarify? Thanks,True
+@harshsharma-jp9uk,2021-12-01T09:14:58Z,0,great work.. Kudos to u!!!!!!!!!!,True
+@subhamsekharpradhan297,2021-10-20T03:14:15Z,0,"SIr in the chain rule formula, I guess you have left the del(L)/del(O^31) at first",True
+@sarrae100,2021-10-13T05:56:36Z,0,Excellent.,True
+@subrataghosh735,2021-09-28T11:31:35Z,0,Thanks for the great explanation. One small doubt/clarification would be helpful. Here since we have sigmoid if the Weight value is somewhat around 2 ( ex:2) dO11/dW11. then the  dO21/dO11 value will be .25*2 = .5 then chain rule ((dO21/dO11) * (dO11/dW11)) will be again .5*.5 = 25 considering dO11/dW11 weight is also 2. Then instead of exploding it will be shirking. Can you please suggest what is the thought for this scenario,True
+@yuanli6224,2021-09-25T11:32:10Z,0,Spent too much time on elementary math ... If this video could be compacted to a 2-3 mins one should be great.,True
+@bangarrajumuppidu8354,2021-09-25T07:39:32Z,0,super explanation sir !!,True
+@bigbull266,2021-09-25T05:23:22Z,5,"Exploding Gradient Problem is because of Higher Weights Initialization. If the weights are higher, then during BackProp gradients value will be higher which in turn affects the new weights to be vv small when updating weights [ Wnew = Wold - lr * Grad] Due to which the weight difference will be Varying a lot at every epoch and this is why Gradient Descent will never converge.",True
+@jibinsebastian187,2021-09-12T21:54:37Z,0,"How we will assign the weight value as 500. The normalized value is (-1,1).",True
+@annalyticsannalizaramos5890,2021-09-01T09:36:31Z,1,Congrats for a well explained topic. Now I know the effect of exploding gradients,True
+@pranjalgupta9427,2021-08-31T11:33:17Z,1,Awesome 😊👏👍,True
+@-birigamingcallofduty2219,2021-08-20T18:18:53Z,0,Very very effective video sir 👍👍👍👍👍👍....my love and gratitude to you 🙏...,True
+@ne2514,2021-08-18T20:18:04Z,0,"love your video of machine learning algorithms, kudos",True
+@MmM-iu1sz,2021-07-22T02:46:57Z,0,Anybody how the weights are decoded?,True
+@samikshandas5546,2021-07-12T08:22:08Z,0,why are you missing the first term (dl/O31) in the chain rule equation continuously in two videos. Is there a reason or is it a mistake?,True
+@shamussim137,2021-07-10T10:54:49Z,4,"Question:   Hi Krish. dO21/do11 is large because we mutliple the derivate of the sigmoid (btwn 0 to 0.25) with a large weight. However, in Tutorial 7 we didn't use this formula(chain rule derivation), we directly said dO21/do11 is between 0 to 0.25. Please can you clarify on this?",True
+@apicasharma2499,2021-07-07T12:08:06Z,0,HOW TO APPLY THIS THEORY VIA CODES IN PYTHON?,True
+@sushmitapoudel8500,2021-06-25T14:34:05Z,0,You're great!,True
+@shahariarsarkar3433,2021-06-13T13:31:37Z,0,sir may be there is a problem in the chain rule that you explain. Here something is missing that is derivative of L with respect to O31,True
+@farzanehparvar_,2021-05-25T18:23:40Z,0,That was one of the best explanations for Exploding gradient problem. But please mention the next video in the description box. I could find it hard.,True
+@louerleseigneur4532,2021-05-11T21:19:15Z,0,Thanks krish,True
+@YoutubePremium-ny2ys,2021-05-10T09:32:43Z,0,Request for a video on side by side comparison of vanishing gradient and exploding gradient...,True
+@emilyme9478,2021-05-02T02:00:52Z,0,great video !,True
+@boringhuman9427,2021-04-26T19:41:01Z,2,Base Concept:  While performing Backward propagation the loss function derivate is getting lower hence the weights are not changed hence again in forward propagation these weights are multiplied with input value which changes the weights value even more from the previous one. So if we perform backward propagation again then old weight will be much different,True
+@muhammadiqbalbazmi9275,2021-04-25T14:32:57Z,0,"I don't think that we will face Exploding Gradient problem ever because we use the standard way of initializing weights like Xavier/Glorot(sigmoid, tanh) and 'He_uniform/normal'(ReLU).",True
+@sailajapusuluri7344,2021-04-21T03:28:33Z,1,"Sir, can please say partial derivative ,that is not derivative",True
+@shauryadixit7775,2021-04-19T09:43:19Z,0,"these are derivatives, not divisions that u can cancel like this concept is else not like you are explaining.",True
+@parthagarwal4592,2021-04-10T18:43:29Z,0,Sir please correct the chain rule. dL/dw'11 = dL/dO31 . dO31/dO21 . dO21/dO11 . dO11/dw'11,True
+@pushkarajpalnitkar1695,2021-03-23T14:16:34Z,0,Best explanation for EXPLODING gradient problem on the internet I have encountered so far. Awesome!,True
+@tarunbhatia8652,2021-03-21T21:44:19Z,0,Best video. Hands down,True
+@AbhishekMadankar,2021-02-11T05:47:51Z,0,"Have been following your playlist of deep learning , this is the 9th video...you teach amazing but I am confused if this is deep learning or mathematics class",True
+@lakshyarajput1023,2021-01-20T09:07:49Z,0,Sir apne chain rule mai alag formula btaya or aap yaha pr derivative nikame ka alag formula bta rhe ho  Is it same ? Please clear the doubt,True
+@kueen3032,2021-01-12T17:45:10Z,40,One correction: dL/dW'11 should be (dL/dO31. dO31/dO21. dO21/dO11. dO11/dW'11),True
+@skviknesh,2021-01-07T10:09:58Z,5,9:32 peak of interest! Happiness in explaining why it will not converge... I love that reaction!!!😍😍😍,True
+@sahilsaini3783,2021-01-01T09:34:36Z,2,"At 08:30, the derivative of O21 wrt O11 is 125, but O21 is a sigmoid function. How can its derivative be 125 because derivative of sigmoid function ranges from 0 to 0.25.",True
+@ankurmodi4588,2020-12-28T12:38:45Z,1,This likes turn into 1M likes after mid 2021. People do not understand the effort and hard work as they are also not doing anything right now. wait and watch,True
+@jagadeeswarareddy9726,2020-12-27T15:48:25Z,0,"Really very good videos, One doubt - High value weights causing this exploding problem. But W-old also might be large vale right, if we do W-old - derivative L / dW not cause for big variance right. please help me.",True
+@samyakjain8079,2020-12-26T15:10:53Z,1,@7:47  d(w_21 * O_11) = O_11 dw_21 + w_21 dO_11  (why are you assuming w_21 is constant),True
+@rmn7086,2020-12-06T21:28:23Z,0,Krish Naik bester Mann!,True
+@khalidal-reemi3361,2020-11-30T17:52:19Z,32,I never got such clear explanation for deep learning concepts. I had Coursera deep learning. They make it more difficult to what it is.  Thank you Krish.,True
+@chaitanyauppuluri6181,2020-11-18T13:46:58Z,0,why isn't there any weight like W31 for O21,True
+@prakashprasad9218,2020-11-17T12:08:53Z,1,The same analysis can be done to explain vanishing gradients. So why do we say Relu solves vanishing gradients problem? low weights there can be a problem there as well when derivative is 1 right?,True
+@SuryaDasSD,2020-11-15T05:34:21Z,1,7:56 there's a mistake in derivative.. please correct it,True
+@nitishkumar-bk8kd,2020-11-11T03:38:26Z,0,beautiful explanation,True
+@whitemamba7128,2020-10-11T12:16:24Z,3,"Sir, your videos are very educational and, you put a lot of energy into making them. They make the learning process easy, and it also lets me develop an interest in deep learning. That's the best I could have asked for and, you delivered it. Thank you, Sir.",True
+@vaibhavranglani495,2020-10-04T14:23:23Z,0,in the chain rule   dL/dO31 is missing,True
+@janekou2482,2020-09-16T05:42:15Z,0,Awesome explanation! Best video I have seen for this problem.,True
+@muntazirmehdi503,2020-09-03T10:31:25Z,0,why we are multiplying O11 with weights,True
+@vd.se.17,2020-08-13T18:44:50Z,0,Thank you.,True
+@benvelloor,2020-08-02T17:56:06Z,0,Thanks a lot sir <3,True
+@yogenderkushwaha5523,2020-07-28T07:16:18Z,0,Amazing explanation sir. I am going to learn whole deep learning from your videos only,True
+@sharkk2979,2020-07-24T10:42:52Z,0,Please be consisistent with notations,True
+@jasbirsingh8849,2020-07-21T15:13:51Z,4,In the vanishing gradient you directly put values b/w 0 and 0.25 as derivative ranges in that range but why not put direct values here ? I mean the same we could we have done in vanishing gradient as well i.e. expanding the equation and multiple by its weight ?,True
+@revanthshalon5626,2020-07-14T23:57:47Z,1,"Sir, the only time when the exploding gradient problem occurs is when the weights is high and the time when vanishing gradient occurs is when the weights are too low, is my assumption correct?",True
+@reachDeepNeuron,2020-07-02T17:59:10Z,0,What is the solution for  exploding gradient  ?,True
+@soodipaj6477,2020-06-30T15:05:20Z,0,How do you define O_11? in the first hidden layer?,True
+@kalpeshnaik8826,2020-06-28T14:43:38Z,1,Exploding Gradient Problem is only for sigmoid activation function or for all  activation functions,True
+@sindhuorigins,2020-06-17T06:28:30Z,2,"the activation function is denoted by phi, not to be confused with the symbol of cyclicc integral",True
+@emirozgun3368,2020-06-16T08:32:44Z,1,"Pure passion,appriciate it.",True
+@ArthurCor-ts2bg,2020-06-14T07:02:20Z,1,Very passionate and articulate lecture well done,True
+@sumeetseth22,2020-06-09T21:43:41Z,0,love your videos and can't thankyou enough. Thankyou so much for theawesomest lessons,True
+@brindapatel1750,2020-06-01T10:42:19Z,0,excellent krish  love to watch your videos,True
+@vincenzo3908,2020-05-26T22:08:45Z,1,"Very well explained, and the writings and drawings are very clear too by the way",True
+@karunasagargundiga5821,2020-05-16T11:26:28Z,3,"hello sir,    In vanishing gradient problem you have mentioned that derivative of sigmoid is always between 0-0.25. When you did the derivative of sigmoid function result i.e derivative of o12 w.r.t o11 it must be in the range of 0-0.25 but when you expanded we got the answer as 125. I did not understand how did the derivative of sigmoid exceed the range of 0-0.25. It seems contradictory. Hope you can clear my doubt, sir.",True
+@pratikkhadse732,2020-05-08T04:48:36Z,0,"Doubt: the BIAS that is added, what constitutes this bias.  For instance Learning rate was found by optimization models, what methodology is used to introduce bias?",True
+@thunder440v3,2020-04-25T20:04:47Z,0,Awesome video!,True
+@avsheshkumar8352,2020-04-23T03:56:42Z,0,Can you please tell how Weight is apply ?,True
+@sandipansarkar9211,2020-04-16T09:26:30Z,0,Superb video once again.But need to study a little bit of theory.But still no idea how questions are framed in an interview in regards to deep learning.,True
+@ashwinsenthilvel4976,2020-04-15T16:51:26Z,0,im getting confused as u said  3.20. why do u expand o21/o11 in this expolding gradient but y not expanded in vanishing gradient?.,True
+@afsheenmaroof6209,2020-04-14T18:03:00Z,0,"Write a model function to predict the  y  when given weights  wi , input  x  where y=w0+w1.x how i can model  this function??",True
+@dhruvajpatil8359,2020-04-14T05:28:43Z,0,Too good man !!! #BohotHard,True
+@16876,2020-04-02T16:15:38Z,0,"awesome video, much respect",True
+@Adinasa2,2020-03-29T10:50:19Z,0,On what basis are the weights initialises,True
+@ganeshkharad,2020-03-28T19:00:51Z,0,best explaination... thanks for making this video,True
+@praneethcj6544,2020-02-20T05:13:58Z,1,Excellent ..!!!,True
+@143balug,2020-02-11T16:08:58Z,1,"Excellent Videos bro, I am getting clear picture on those concepts Thank you very much for making the video's with clear understandable manner. I am follwing your every video.",True
+@Mustafa-jy8el,2020-02-01T18:35:25Z,1,I love the energy,True
+@PeyiOyelo,2020-01-21T10:59:17Z,1,Another Great Video. Namaste,True
+@rukeshshrestha5938,2020-01-07T16:32:03Z,6,I really love your videos. Today only i started watching your tutorial. It was really helpful. Thank you so much for sharing your knowledge.,True
+@shambhuthakur5562,2020-01-05T13:27:00Z,5,"Thanks Krish for the video, however I didn't understood how you replaced loss function with output of output layer, it should actually be real output minus predicted.pls suggest.",True
+@jt007rai,2020-01-05T00:35:29Z,0,"Thanks for this amazing video sir!    Just to summarize, can I say that only if my weight initialization would be very high and activation function is sigmoid and learning rate is also very high, I can experience this problem and no other such cases?",True
+@4abdoulaye,2019-12-29T23:33:47Z,1,YOU ARE JUST KIND DUDE. THANKS,True
+@nitayg1326,2019-12-26T14:05:33Z,0,Exploding GD explained nicely!,True
+@jsverma143,2019-12-24T19:50:09Z,0,just excellent :-),True
+@pdteach,2019-12-24T06:46:17Z,0,Very nice explanation.thanks,True
+@ronishsharma8825,2019-12-20T10:05:22Z,16,the chain rule is a mistake please correct it.,True
+@omkarrane1347,2019-12-10T19:00:30Z,3,"sir, please note that in the last two videos there was the wrong application of chain rule. even our teacher who referred to the video has written the same mistake in her notes. ref    del L /del o31 onwards",True
+@kishanpandey4798,2019-12-05T03:14:23Z,8,"Please see, the chain rule has missed something at 2:55. @krish naik",True
+@raidblade2307,2019-12-01T10:59:52Z,2,Deep Concepts are getting clear.  Thank you sir. Such  a beautiful explanation,True
+@quranicscience9631,2019-11-21T03:37:05Z,0,very good content,True
+@gopalakrishna9510,2019-11-10T15:12:35Z,0,my mom told to me maths is very impotent ...but i was not listen at all ....now see how may of equations are there...,True
+@SimoneIovane,2019-10-19T05:40:16Z,2,Very well explained thanks! I have a doubt tho: Are vanishing and exploding gradient  coexistent phenomena? As they both happen in the BP  does their happening depend exclusively on the value of the loss at a particular epoch?  Hope my question is clear,True
+@alphonseinbaraj7602,2019-10-15T01:16:00Z,0,"in this video ,5:30 u mentioned that w21' is this correct? i hope that is w11''? am i right or wrong ?So z=O11.w11''+b2will come .instead O11.w21+b2. am i right ?pls",True
+@VamsiKrishna-vg6vd,2019-09-24T13:05:43Z,0,Why did u considered w21 as 500?,True
+@y.mamathareddy8699,2019-09-12T01:22:11Z,1,Sir please make a video on bayes theorem and its concepts learning....,True
+@sushantshukla6673,2019-08-31T20:12:22Z,0,u doing great job man,True
+@midhileshmomidi2434,2019-08-24T15:03:18Z,38,From now If anyone asked me about Vanishing Gradient Descent OR Exploring Gradient Descent I will not just answer and I even take a class to them The best video I've ever seen,True
+@narayanjha3488,2019-08-09T08:23:13Z,0,Great videoo,True
+@winviki123,2019-08-08T13:27:00Z,38,Loving this playlist Most of these abstract concepts are explained very elegantly Thank you so much,True
+@DanielSzalko,2019-07-24T18:49:18Z,2,Please keep making videos like this!,True
+@tinumathews,2019-07-24T03:21:02Z,3,"This is super krish, its like a story that you explain... at 9:35 minutes the whole picture jumps into your mind. neat explanation. Nice work krish... awaiting for more videos. meet you on satruday..till then cheers",True
+@saikiran-mi3jc,2019-07-23T15:14:03Z,1,Waiting for future videos on DL,True
+@rajaramk1993,2019-07-23T14:55:02Z,1,excellent and to the point explanation sir. Waiting for your future videos in Deep Learning.,True
+@nareshbabu9517,2019-07-23T14:14:15Z,4,"Do tutorial based on machine learning like regression ,classification and clustering sir",True

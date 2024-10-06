@@ -1,0 +1,130 @@
+author,updated_at,like_count,text,public
+@krishnaik06,2024-04-01T08:50:43Z,8,"Support me by joining membership so that I can upload these kind of videos https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig/join",True
+@aquamarine3620,2024-05-30T14:45:01Z,0,"Krish, I am watching this series and I have to say, you were extremely helpful compared other guides I watched for Langchain and AI apps. Thanks a lot for the contribution sir, keep making tutorials like this! I would like if you could make any tutorials specificaly on vector databases for ex. ChromaDB or MongoDB Vector Search. Much appreciated!",True
+@thelifehackerpro9943,2024-05-29T16:37:27Z,0,"Updated langchain is confusing, unnecessary complex they have made it.",True
+@lalaniwerake881,2024-05-27T07:24:47Z,0,beautiful! thank you,True
+@user-sq1rp9ft5n,2024-05-26T04:43:19Z,3,"Hi Krish, your updated langchain series is wonderful. However, will be of help if you could put all details in the video or provide associated links to ensure its completeness for all members. Eg.   1) How to get Lanchain_API_Key (shown at @3:02) 2) how to set up virtual environment 3) Links of your hugging face videos which you mentioned.",True
+@nakulhavaldar8274,2024-05-25T23:30:37Z,0,Making sure for 200 comments!,True
+@gemini22581,2024-05-23T16:07:37Z,0,Dont understand with all these advancements why we still need to explicitly import different libraries. The code should be capable to pick the right library based on instructions in the code itself,True
+@psmontte,2024-05-23T14:26:34Z,0,Hi. Kindly consider using (or enabling) github copilot or any other code assistants.,True
+@book6202,2024-05-23T12:39:26Z,0,I'm all new how to setup the environment in mac?,True
+@MOHITKUMAR-fq1sh,2024-05-23T10:08:16Z,0,Absolutely very amazing!! Thanks for sharing this.,True
+@akashchandrasekar6176,2024-05-21T07:37:02Z,0,"keep going on with this playlist, try making one for llama index, want videos on model fine tunings",True
+@user-sq1rp9ft5n,2024-05-21T05:22:07Z,0,"At 19:29 in the video, it is showing that 'openai_api_key' has been used even for the open source llm model version of the code... am wondering why is this required .. could someone pls help to understand..",True
+@list10001,2024-05-20T10:28:10Z,0,"Thank you, Krish, for amazing videos.",True
+@TheJscriptor09,2024-05-17T19:39:17Z,0,"instead of ollama, I would like to try light weight Phi-2 or Phi-3.   I not able to figure out the replacement for this: 'from langchain_community.llms import Ollama' to import Phi.   It seems Phi is not an option?",True
+@TheJscriptor09,2024-05-16T01:45:10Z,0,"I think I will stick with OpenAI.   I got a 16GB RAM machine and running a simple prompt in OLLAMA took forever :-).   From mu prospective, $10 in openAI is still a lot cheaper than high end machine ... for now at least.",True
+@coolguy4931,2024-05-15T02:41:12Z,0,"@2:13, where to get the LANGCHAIN_API_KEY ?",True
+@sagaromar4326,2024-05-13T20:22:35Z,0,Awesome content Krish <3,True
+@kriishnakanth,2024-05-13T18:12:23Z,0,"commenting even before watching the full video, coz i know its going to be good. Anyways will leave a feedback again at the end. Target 400 comments :P",True
+@shrikrishnachannawar6450,2024-05-11T19:35:03Z,0,"hi sir i am following you this series but i am getting the this error File ""D:\project lagchian\langchian\chatbot\localama.py"", line 35, in <module>   llm=ollama(model=""Gemma"") TypeError: 'module' object is not callable even though i downloade the gemma model and ollama. I alreday try to find the answers but i didnt get the solution if any one know the solution please help me .",True
+@Vir-se2kb,2024-05-05T18:42:12Z,0,"Hi Krish. While typing from langchain_openai import ChatOpenAI, after entering the langchain (Which autoreflects) why the _openai is not reflecting in VSCode ? Also the ""ChatOpenAI"" is not reflecting automatically. Hope to get an answer, as you mentioned for 200 comments ! :)",True
+@Melodyforevermood,2024-04-25T18:51:05Z,0,Iam a beginner can you please suggest me playlist where should i start,True
+@amritsubramanian8384,2024-04-24T18:44:46Z,0,Hey Krish Im getting an error langchain_openai not found... I installed the package successfully though... what could be the reason... do you have a fix?,True
+@proterotype,2024-04-24T14:48:26Z,0,Crazy good presentation,True
+@eventsjamaicamobileapp1426,2024-04-23T19:59:48Z,0,Great stuff,True
+@amritsubramanian8384,2024-04-23T17:40:03Z,0,gr8 video mann!!,True
+@dipinanda1,2024-04-22T04:35:54Z,0,"Sorry to ask a very stupid question, how do i get the langchain_api_key?",True
+@garvitjain4106,2024-04-21T08:56:01Z,0,Hoping you reach 200 comments soon :). Amazing content,True
+@jaisonphilip251,2024-04-18T19:33:07Z,0,Great Video,True
+@dhanushperumalla773,2024-04-18T14:20:06Z,0,"this is for GEMINI    import os from dotenv import load_dotenv from langchain_openai import ChatOpenAI from langchain_core.prompts import ChatPromptTemplate from langchain_core.output_parsers import StrOutputParser from langchain_google_genai import ChatGoogleGenerativeAI  import streamlit as st  load_dotenv()  # Set Gemini API Key GOOGLE_API_KEY = os.getenv(""GOOGLE_API_KEY"") os.environ['OPENAI_API_KEY'] = GOOGLE_API_KEY  # Set Langchain API Key os.environ[""GOOGLE_API_KEY""] = os.getenv(""GOOGLE_API_KEY"") os.environ[""LANGCHAIN_TRACING_V2""] = ""true"" os.environ[""LANGCHAIN_API_KEY""] = os.getenv(""LANGCHAIN_API_KEY"")  # Define Prompt Template prompt = ChatPromptTemplate.from_messages([     (""system"", ""You are a helpful assistant. Please respond to the user queries""),     (""user"", ""Question:{question}"") ])  # Streamlit framework st.title('Langchain Demo With OPENAI API') input_text = st.text_input(""Search the topic you want"")  # Initialize AI models llm = ChatGoogleGenerativeAI(model=""gemini-pro"") output_parser = StrOutputParser() chain = prompt | llm | output_parser  # Process input and display output if input_text:     st.write(chain.invoke({'question': input_text}))",True
+@ToonTimeTales07,2024-04-18T13:54:17Z,0,can you please tell how to add context aware functionality in it?,True
+@13coast,2024-04-18T10:42:45Z,0,"Hey, Krish! <3  what is in your .env file? I can`t open the file, i guess here is the issue",True
+@stevenohanesian3188,2024-04-17T13:44:46Z,0,"Unbelievable video.  Lets keep moving the cutting edge forward!!! I am excited to build llm based apps for my company and personal projects.  I might have to upgrade to 128G of ram for dev time.  Looks like I need a new tower, oops haha.",True
+@zishankhan2763,2024-04-17T02:32:47Z,0,114: awsome,True
+@techtalksabhishek,2024-04-16T03:27:33Z,0,good series. Keep up the good work.,True
+@user-jx3wy6fe4s,2024-04-15T18:07:21Z,0,how do i get langchain api key?,True
+@binayashrestha4131,2024-04-15T16:26:56Z,0,thank you so much,True
+@miteshgarg9420,2024-04-15T15:57:42Z,0,"Hey Krish, once again amazing tutorial. I had one query with respect to Open Source LLMs. Since Ollama supports some specific open source models only, what if I have a custom finetuned model on local machine then can it be used with llangchain",True
+@jagagemo8141,2024-04-15T01:11:07Z,0,comment.,True
+@rakeshkumar-pf6yu,2024-04-14T08:14:14Z,0,Krish why are you so fast here...Please be little slow..its tough to follow when you are fast enough...and it will be of no use when someone is not able to follow you ...,True
+@shriharinair1999,2024-04-12T14:01:48Z,0,how to get langchain api key.,True
+@08735416,2024-04-12T00:34:49Z,0,Thanks for creating these amazing materials!,True
+@user-ko7yz9kj4o,2024-04-11T18:51:15Z,1,"Hi Krish, Loved the video.  One small problem, followed the video but no able to see the tracking in langsmith",True
+@Marcoeacmo3123,2024-04-11T14:24:30Z,0,What about using a open-source model from huggingface so you don't have to host it. And using that to connect to a mysql database with your information?,True
+@RajaRahamathullah04,2024-04-11T13:41:34Z,0,Excellent Krish!,True
+@har111100,2024-04-11T13:14:03Z,0,You are doing really amazing work. Videos are very helpful. Thank you,True
+@mith1979,2024-04-10T08:26:29Z,0,@krishnaik06 Can we run these project on google colab with gpu?,True
+@user-ti8sz5ps7r,2024-04-10T07:56:28Z,1,how to get langchain_api_key???????????????,True
+@learnsharegrowwithgh2181,2024-04-10T05:27:48Z,0,That's quite the best tutorial. Will this Ollama work when we deploy the chatbot on Streamlit?  Can you creat tutorial for creating chatbot working on RAG using Vectara?,True
+@rajsharma-bd3sl,2024-04-10T05:24:47Z,0,"arre sir yeh error de raha hai   from langchain.core_output_parsers import StrOutputParser ModuleNotFoundError: No module named 'langchain.core_output_parsers'",True
+@RAM_JAN22,2024-04-09T18:29:56Z,0,thanks krish,True
+@adityavipradas3252,2024-04-08T13:02:15Z,0,Looking forward to this series!!,True
+@vio_tio12,2024-04-07T14:02:14Z,0,I love the fact that you keep errors and everything raw! Keep up the great work Krish!,True
+@3051suryanarayananbkrist,2024-04-07T09:07:11Z,0,90th comment,True
+@anangrajsinghtomar3279,2024-04-06T14:27:44Z,0,As always amazing video !!,True
+@vaibhav81,2024-04-06T10:56:59Z,0,Thanks!,True
+@sushmarai7815,2024-04-05T13:45:39Z,0,Sir imagine the blessings and the good Karma you are accumulating this life sir ..tremendous blessing for all the good work you are doing by helping millions of people ...god bless you sir,True
+@rohitkumar-mf8ir,2024-04-05T07:58:44Z,0,Where can we deploy our this chatbot project  On streamlit it shows every time different type of error . Please guide,True
+@dushyantnagar6739,2024-04-05T05:36:33Z,0,How to access the langchain api key??,True
+@venkatkrishnan9442,2024-04-05T00:39:47Z,0,HI Krish.. Thanks for your video. It helps a lot. Can you tell me how to generate langchain API key.,True
+@aryansalge4508,2024-04-04T18:54:29Z,0,"SIR CAN YOU HELP US WITH ERROR     ->.  ConnectionError: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x112997290>: Failed to establish a new connection: [Errno 61] Connection refused'))  Facing above issue why doing tryout ollama, can anyone help to resolve this issue System used : Mac",True
+@tulsipatro4662,2024-04-04T17:49:15Z,0,"How have you created  the ""langchain_api_key"" ?",True
+@user-mx4eo1of5j,2024-04-04T11:42:06Z,0,Awesome,True
+@nikitamore7610,2024-04-04T11:16:44Z,0,Excited,True
+@codewithtej-vi9vk,2024-04-04T06:52:23Z,0,where do I get langchain API key?,True
+@IdPreferNot1,2024-04-04T02:22:56Z,1,Excited to follow the series.  Its excellent that you keep in any hiccups so we too can see the common errors that come up and how to fix them.,True
+@OjoDike,2024-04-04T02:02:29Z,0,Thanks Krish for these amazing videos. You break the concepts down so well. Please can you create a video on how to route multiple chains using LLMRouterChain. I can't wait to see the rest of the series. Thanks,True
+@charon2247,2024-04-03T17:22:58Z,0,love this guy,True
+@ChanduAki-ht5xv,2024-04-03T16:56:02Z,0,"ConnectionError: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x112997290>: Failed to establish a new connection: [Errno 61] Connection refused'))  Facing above issue why doing tryout ollama, can anyone help to resolve this issue System used : Mac",True
+@elmflor4365,2024-04-03T16:06:39Z,0,Such a great start to this much needed course,True
+@allaboutworld5177,2024-04-03T12:03:43Z,0,How can we deploy the flask app and get the api for open source models,True
+@Nishant-xu1ns,2024-04-03T05:52:56Z,0,waiting for next video,True
+@rohitkumar-mf8ir,2024-04-03T05:50:24Z,0,Sir can you please tell why my runtime latency is very high and how to reduce it ?? I am using 8GB RAM Laptop. Can you please suggest how to reduce the runtime ??,True
+@soshitenostalgia6177,2024-04-03T03:12:00Z,0,"Hey Krish , possible to do one on invoice extraction using Ollama and LLAMA2. Thanks!",True
+@prakashmccullum958,2024-04-03T00:45:11Z,0,Keep doing krish,True
+@maheshk4071,2024-04-02T15:37:25Z,0,"Hi Krish, If i want to deploy chat app on cloud created with opensource llm, How can i do it? OR can i do it?",True
+@utkarshkapil,2024-04-02T14:52:39Z,0,Great Video! Waiting fir the next one,True
+@cirilcherian8893,2024-04-02T14:28:04Z,0,Can you make a video  about chat rag system with access control,True
+@janauppara,2024-04-02T13:51:10Z,0,comment done,True
+@gymdirections8372,2024-04-02T12:11:39Z,0,"Sir, should i run with 8gb of Ram (i3) without any Graphics. Will it run",True
+@prayagchawla1603,2024-04-02T11:08:23Z,0,How do we find the langchain api key?,True
+@Nishant-xu1ns,2024-04-02T11:05:31Z,0,keep it up sir,True
+@ferroumsamir6531,2024-04-02T10:51:45Z,0,Thank you !,True
+@user-hg5ri5sd5v,2024-04-02T08:59:46Z,0,GREAT..,True
+@venkatmyl,2024-04-02T07:14:38Z,0,Thank you Krish Naik,True
+@AwaisOtho,2024-04-02T06:30:30Z,0,We will take most of this series ❤️,True
+@koustavbanerjee3824,2024-04-02T05:25:10Z,0,"Hi Krish,  please make a video where i can upload any bank statement and do analysis from it using llm.",True
+@shamsulalam4909,2024-04-02T04:25:47Z,0,This man is a life changer.,True
+@Jayshreeram22583,2024-04-02T03:57:37Z,0,😊😊😊😊😊😊,True
+@SantK1208,2024-04-02T01:35:41Z,0,"Sir , thanks for starting this series❤. Could you please create a video on RAG System using llama index , langchain, groq ,qdrant, open source llm  It is very much needed thanks",True
+@SantK1208,2024-04-02T01:29:20Z,0,❤❤❤,True
+@edubr2011,2024-04-01T23:11:42Z,1,"Excellent video, as always! Thank you.",True
+@mushinart,2024-04-01T22:11:41Z,0,"cool stuff as always, mr.naik .. the thing happening with my system with respect to llama 2 , im having a couple of calls captured in langsmith for llama2 that are still looping and the ones successfully executed have bigger latency  .. is that normal? ... im using linux with 64 gb rams ....love the new series direction and im learning a lot  on top of what i have already know from you... god bless",True
+@somethingnew4363,2024-04-01T19:46:00Z,0,Only one word:Thanks❤,True
+@wftrdshometoprofessionalfo142,2024-04-01T19:16:50Z,0,"The question  is: Can these models like LLMA 2 used here, be also trained with specific domain of knowledge e.g. agile project management or they can only be used as it is?!",True
+@wftrdshometoprofessionalfo142,2024-04-01T19:12:15Z,0,Man you are amazing! really appreciate your informative videos! Keep going man!,True
+@twinklepardeshi3113,2024-04-01T18:51:16Z,1,How to get langchain API key?,True
+@namantaneja341,2024-04-01T18:44:29Z,0,thanks for this made my first LLM app,True
+@user-tk8su9oi8z,2024-04-01T18:19:18Z,0,Krish hum chatbot kitny ka sell kr skty hain plz tell me,True
+@KrishPatel-cu6dg,2024-04-01T18:16:32Z,2,"Great tutorial as always, Krish sir! The explanations were clear, and I learned a lot. I did run into one issue initially, but after revisiting the steps, I realized I hadn't started the llama2 server. Once I did that, everything worked smoothly. Thanks for another helpful video!",True
+@royalgun8735,2024-04-01T16:50:30Z,0,You are god gift for us,True
+@walidflux,2024-04-01T15:15:01Z,1,I wish you can link all the videos you mentioned to not find this video very complicated,True
+@shahnawazsayyed5736,2024-04-01T14:55:50Z,1,Amazing ...Thanks for sharing this,True
+@shalabhchaturvedi6290,2024-04-01T14:42:24Z,2,Thank you Krish. Your videos are just amazing.,True
+@TechKAP20,2024-04-01T13:38:00Z,1,"Hi Krish, i am getting this error .could you please help me on the same AttributeError: module 'langchain' has no attribute 'debug' Traceback: File ""\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py"", line 565, in _run_script     exec(code, module.__dict__)",True
+@muhammadahsan9248,2024-04-01T13:12:15Z,1,Sir please also in hindi,True
+@datastudy50,2024-04-01T12:49:37Z,2,❤❤,True
+@ModiJi_Family,2024-04-01T12:49:10Z,3,Teach us using Retrieval augmentation generation and also deployment using docker,True
+@ultrainstinct6715,2024-04-01T12:22:54Z,1,"Hi Krish, Does this chatbot work with google gemini api as well?",True
+@ASHUTOSHJOSHI-ye8hs,2024-04-01T12:19:37Z,1,"i don't understand sir why are you using open AI api key still? it is paid , it doesn't even run ike they everytime give an error that say you have reached the token limit kindly recharge for accesing open ai api",True
+@mushinart,2024-04-01T12:16:45Z,1,You are amazing mr.naik ...,True
+@abbasyousaf7068,2024-04-01T12:13:18Z,1,please include deployment part in this series.,True
+@piyushgone5874,2024-04-01T12:09:20Z,1,Finally the series is here!,True
+@sridharm4254,2024-04-01T12:00:55Z,1,"@krishnaik, looking for gen ai membership. Looks like not available in your list. Please create",True
+@MrFreemindonly,2024-04-01T11:59:43Z,1,"Excited to follow this, Please make this for enterprise application toward the end.",True
+@AliAsghar-pt3sd,2024-04-01T11:50:09Z,1,Kindly make video on langchain deployment using langserve templates like rag-mongo template,True
+@kashifsadiq4145,2024-04-01T10:20:30Z,1,Make more projects with llmops,True
+@ersonusaini,2024-04-01T10:10:05Z,3,How to build saas llm Website using private llm models,True
+@sanchitkanojia5460,2024-04-01T09:56:18Z,13,please create one video how to make a Q&A chatbot by using mutiple csv files. There are lot of videos by using pdf but no one made by using csv,True
+@rohankini6444,2024-04-01T09:51:00Z,2,Sir why Gemini api was not used instead of Ollama ?,True
+@Hekohl.shorts,2024-04-01T09:12:50Z,1,I am working on a ai project I want your help,True
+@Hekohl.shorts,2024-04-01T09:11:58Z,1,Hyy sir ji,True
+@sheikhobada8305,2024-04-01T09:11:50Z,1,Krish Naik how can I join membership?,True
+@amanmehrotra44,2024-04-01T08:58:47Z,10,"Krish, I have grown over the years , into a full fledged data scientist, handling and catering multiple use cases, mostly deriving the learnings from your channel, but even till today when I watch your videos, I am like dude “yeh bhi toh ho sakta tha, acha aise bhi ho sakta hai” 😅 Kudos to your teaching spirit and methodology.",True
+@Bhanu-uo3wo,2024-04-01T08:58:18Z,3,Sir i hope you won't make these langchain videos into membership section.. for the aspiring students who can't afford to learn this is a gold content for them.. this is a kind request from my side sir❤..,True
+@rishiraj2548,2024-04-01T08:57:38Z,2,🙂🙏,True
+@sowndariyam1579,2024-04-01T08:56:39Z,2,Hi Krish... Could you please tell how to deal with unstructured excel with LLMs?,True
+@velugucharan8096,2024-04-01T08:51:44Z,4,Sir please upload daily one video and give assignment related to langchain what you explained...❤❤❤,True
+@nizamm5041,2024-04-01T08:50:53Z,2,Hi krish,True
+@krishnaik06,2024-04-01T08:50:43Z,8,"Support me by joining membership so that I can upload these kind of videos https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig/join",True

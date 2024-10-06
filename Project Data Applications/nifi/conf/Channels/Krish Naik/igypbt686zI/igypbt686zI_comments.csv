@@ -1,0 +1,17 @@
+author,updated_at,like_count,text,public
+@ashok_learn,2023-03-17T11:44:30Z,1,If you want to do y.backward() Do this:  y = torch.sum(torch_input**3+torch_input**2) y.backward() print(torch_input.grad)   PS. Because the y should be a scalar value in order to do the backward,True
+@kaustavmanisarma4481,2022-10-23T05:09:00Z,0,You used to play GtaV or still play? 😁 GtaV is running in this video,True
+@TheSougata1,2022-02-24T07:07:09Z,0,"Sir, Please upload CNN videos using PyTorch.",True
+@rutujaviregaonkar5737,2021-06-17T12:25:31Z,1,"Hi Krish, can you please let me know why are we doing z.backward() and not y.backward()",True
+@varshavishwakiran6684,2021-06-03T10:14:01Z,0,Awesome explanation,True
+@theturingtest7476,2020-11-08T18:34:14Z,1,"Thanks . Appreciate your videos . This one confused me though . Ideally the .backward() is done on the loss . In your example , your loss function is sum(x**3+x**2 . ) . and your finding the gradient dloss/dx  using .x.grad function .  It would have been less confusing if you would have made a function , created a loss function using mean square error and did a gradient .",True
+@bagavathypriya4628,2020-10-30T09:58:10Z,1,"Can anyone help me , why z=y.sum() is calculated, while doing y.backward() like the first time, it gives error like ""RuntimeError: grad can be implicitly created only for scalar outputs"" ??",True
+@yashkhandelwal3877,2020-08-23T15:34:28Z,0,Why don't you get on Udemy with these tutorials for better response...just a suggestion. Love your videos!,True
+@sdk2005,2020-07-21T02:24:01Z,0,"Thanks a lot, Mr.",True
+@arjyabasu1311,2020-07-18T11:35:04Z,0,"Sir, is this video re-uploaded??",True
+@neerajkhadilkar2329,2020-07-18T09:40:07Z,0,The video was great but irritating ads more than 6-7 videos in just 15 minute video,True
+@daudasaniabdullahi4225,2020-07-17T21:36:22Z,0,"Thanks alot for the explanation, my question is that when ever I try to perform the following operations  Ex: X = torch.tensor([[1,2],[3,5]], requires_grad=True) Y = X**2 Y.backward() print(X.grad) #it gives me error but if I wrote this no error print(Y.mean().grad) Or print(Y.sum().grad) Thanks alot for the knowledge shared",True
+@Vasko10100,2020-07-17T13:06:49Z,0,"Hi Krish, amazing videos! I want to ask you, is there any plan in the future for making videos using TensorFlow 2.x? Thank you in advance, Vasko",True
+@SALESENGLISH2020,2020-07-17T10:29:39Z,2,Krish is an amazing teacher!,True
+@manu-singh,2020-07-17T08:16:40Z,1,Please reupload 2 part in hd,True
+@kunalyadav4776,2020-07-17T08:14:41Z,1,One of the video is shown as private video,True

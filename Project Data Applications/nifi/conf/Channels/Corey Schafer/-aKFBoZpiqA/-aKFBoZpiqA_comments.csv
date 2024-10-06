@@ -1,0 +1,140 @@
+author,updated_at,like_count,text,public
+@RanGavriely,2024-05-05T16:21:17Z,0,You should call f.flush() after the write opperation. I am supprised the print at the end even returned True as Python isnt writing to disk as soon as you call the write command. this code can lead to incomplete write to disk,True
+@blaFERNANDOblablabla,2024-01-23T00:17:18Z,0,"This video was amazing, thank you so much",True
+@mohammadalaaelghamry8010,2023-10-30T04:39:51Z,0,Great video thank you.,True
+@dawnS33ker,2023-09-21T10:05:50Z,0,"Corey is the 👑 of Python, the best in the business.",True
+@santoshkumarswarnkar7158,2023-08-11T06:43:36Z,0,nice,True
+@JorgeEscobarMX,2023-08-01T18:50:31Z,0,New super power unlocked!! thanks!,True
+@allmazd,2023-04-20T15:59:22Z,0,Can you explain why do we need round brackets after the class name in here? In your previous videos they were used only for child classes? Thanks in advance for explaining,True
+@lefu7812,2023-02-05T22:57:21Z,0,Thank you!,True
+@xiaoweidu4667,2023-01-29T08:53:13Z,0,great explanation! thank you,True
+@cuthbertmilligen,2023-01-11T09:41:10Z,0,"As a long-time Java professional, I'm constantly reminded how concise Python is and your excellent tutorials really show it off to its best advantage. please, keep them coming :-)",True
+@VaibhavSharma-zj4gk,2022-12-17T13:27:03Z,1,"Hi Corey Please keep making Python tutorials. As many beginners, intermediate concept are already covered please make on advanced topics. They are very helpful...",True
+@sunnyxd5000,2022-11-13T14:50:37Z,0,cool stuff :),True
+@yhwh7346,2022-11-07T05:53:38Z,0,"Love your tutorials man. Been a huge help!  Simple, to the point & free. PPL like you make the earth a better place!",True
+@ddpwe5269,2022-10-16T22:11:38Z,0,Gratz on 1mil subs!,True
+@thepresistence5935,2022-10-11T01:50:48Z,0,"# I made this with class!   # with context manager  class ChangeDir:      def __init__(self, destination):          self.destination = destination       def __enter__(self):          self.cwd = os.getcwd()         os.chdir(self.destination)      def __exit__(self, exc_type, exc_val, traceback):          os.chdir(self.cwd)   with ChangeDir('sample'):     print(os.listdir())  with ChangeDir('sample2'):      print(os.listdir())",True
+@haxsyshackerman4174,2022-10-02T13:26:38Z,0,first time i saw your channel i subscribed to it 😁😏,True
+@witherfly5811,2022-09-14T03:11:49Z,1,As soon as I saw Lorem Ipsum as placeholder I knew this guy was legit,True
+@user-qn5by5iv7u,2022-09-10T09:10:37Z,0,2022,True
+@rudystefan1714,2022-09-02T13:17:49Z,0,I always thought that open as f means open as f*ck.,True
+@stirpro2073,2022-08-31T12:34:23Z,0,"I know this is pretty old video but anyway wanna say thank you for showing what's going on under the hood, it helps with understanding code so much",True
+@sarfarazsuri,2022-07-29T16:13:09Z,2,"15:40 if someone is interested doing the exercise using class, refer below :)  class Directorylister:     def __init__(self, destination):         self.cwd = os.getcwd()         self.destination = destination      def __enter__(self):         os.chdir(self.destination)      def __exit__(self, exc_type, exc_val, traceback):         os.chdir(self.cwd)   with Directorylister(""<Your Directory Name>""):     print(os.listdir())",True
+@Pyrografpl,2022-07-07T11:19:44Z,0,"Interesting, thank you",True
+@UsmanSaadat,2022-06-22T12:35:32Z,0,Thank you so much for this amazing video like many others. This content will keep helping many new developers for always. God bless you.,True
+@abduvosidmalikov,2022-06-05T17:22:41Z,0,"6:11 so, f variable can be accessed outside of with... interesting🤓",True
+@edmonda.9748,2022-03-21T17:39:17Z,0,"Thanks for your videos, everything is perfect about them I am working on a program in which a method (no_sync(), a context manager in DistributeDataParallell) is being used like a method to an instance of another class Not sure if I am making any sense",True
+@drygordspellweaver8761,2022-02-09T02:28:59Z,0,Don’t know why but halfway through this vid I had an idea for a simple typing practice program.  Then I could practice code and get better at typing it too... lmao your genius is rubbing off on me!,True
+@gibuzzx6018,2022-02-08T20:43:08Z,0,Super good explanation thx,True
+@priteshugrankar6815,2022-01-29T11:43:59Z,0,How does the mode attribute gets set to the actual mode attribute of file? Where does that mapping happen?,True
+@jg1000c,2022-01-13T15:53:43Z,0,"not clear on how the enter method is invoked, __enter__ must cause python to invoke it",True
+@bruh_yoh1702,2021-12-31T11:13:46Z,0,"Lol, I just started learning python a year ago and now i come across sth in my Documentation that requires some knowledge on Context managers, fuuny part is the next videon is ""EXPERT TUTORIAL CONTEXT MANAGERS by Tech With Tim""  The expert intro just eased my frustrations for having difficulties to understand this concept fully.",True
+@thebuggser2752,2021-11-08T01:10:30Z,0,Again a great well thought out and clear presentation.  Thanks!!,True
+@roromaniac8,2021-10-12T23:19:28Z,1,"A minor note, but the code at 12:51 doesn't actually work if the mode is 'r' and the file doesn't exist in the directory. This is because f never gets assigned a value since open will yield a FileNotFoundError. Therefore, this code will still result in an error because f isn't an object that can be closed. A very minor point, especially since if a file doesn't exist in write more, one will be created, but in case anyone was curious I double checked this was the case! Great videos as per the usual, Corey!",True
+@parikshitrao2948,2021-09-20T17:27:45Z,0,Even after 3 years pog tutorials,True
+@ji-axinliu4448,2021-09-13T15:15:34Z,0,from contextlib import contextmanager,True
+@edwingarcia5043,2021-08-13T06:53:03Z,0,Thanks again.,True
+@purinagapradeep5842,2021-07-29T01:46:26Z,0,"I purchased python tutorials from many websites, but not that much helpful. This is is best python learning channel.. Thanks CoreySchafer for creating videos.",True
+@moishfrankel1973,2021-07-01T14:50:29Z,0,"clear and simple explanation of of contextmanager, thanks",True
+@user-bp5xc9bv4m,2021-06-20T14:49:11Z,0,I remember subscribing to your channel but don't how it got unsubscribed. Subscribed again. Wonderful info after 3 years of my python career. Thanks 👍,True
+@namesjoe911,2021-06-01T20:29:26Z,0,awesome,True
+@abhijeetduttPandey,2021-05-13T12:30:21Z,0,You're best Corey!,True
+@DrSnej,2021-05-02T16:44:46Z,0,"TECHNICAL Question. I would assume that (8:00) 'f' inside the context manager would be just in scope of that context manager. Surprised that printing 'f.closed' even works and not throwing NameError. #edit: omg i have been thinking this the whole time, that conetxt manager has its own scope...",True
+@MuhammedBasil,2021-04-09T09:51:10Z,0,Thanks for sharing.,True
+@adamoja4295,2021-04-03T20:21:02Z,0,Nice,True
+@Ilyssuii,2021-03-13T00:34:41Z,0,"This was oo amanzing, and fun to do",True
+@mkhnuser,2021-03-08T08:24:30Z,0,"Thanks, Corey! By the way, guys can you explain me what mean 'the teardown'?",True
+@Yooper_eh,2021-02-21T01:09:50Z,1,"Having watched this I immediately recognized where I might use a context manager.  I use Netmiko quite often to manage routers and servers.  I have to manually configure the connections, open and close them each time with, of course, the interesting code in between.  Would you consider producing a video showing all the best practices for doing this?",True
+@ketanbutte3497,2021-02-17T04:43:50Z,0,"python is just like corey- clear, consise and simple to understand.",True
+@karansmittal,2021-02-07T06:44:42Z,0,"One of the best tutorials on context managers. also, there's nice content that helped me with the part of the generator, you can check that out here https://book.pythontips.com/en/latest/generators.html.  Corey, you are an amazing teacher and developer, thanks for making these concepts so easy and practical for us.",True
+@WakilSahak,2021-01-23T14:25:50Z,1,"Never thought there is someone who give us such a proper & useful explanation on these lessons! Watching after 3 years of its release still find it way useful! Simply the best on this platform, your big fan from Afghanistan Corey Sir!",True
+@annaburshtyko5714,2020-12-07T17:30:56Z,0,Thank you for the great explanation!,True
+@joemattress6177,2020-09-21T15:17:29Z,0,Excellent instruction as with all of your Python tutorials.  Thank you!,True
+@yashkumarsaini192,2020-09-16T15:04:20Z,0,"why using finally method at 13:32 , it wont help us if any error comes in try method, we can do this without finally method. i just want to know what really use of finally method, in this particular case. anyone can answer.",True
+@yltfy,2020-09-10T04:17:01Z,0,"Hi, reat video! Just one question, do we still need to wrap the codes by a try-except block? Isn't context manager supposed to handle errors automatically?",True
+@420nyk,2020-08-26T16:18:11Z,0,That example really helped me understand it really well. Thanks!,True
+@gravitycuda,2020-08-26T09:25:36Z,0,Beautiful explanation with great examples :) Thank you !!,True
+@chrislam1341,2020-08-20T04:28:50Z,0,why  contexlib could be loaded successfully instead of contextlib?,True
+@sherafati,2020-06-06T20:25:47Z,2,"I see it my responsibility to drop a like and say thank you for how well you explain subjects in your videos, as if you really knew what the audience does not understand and you explain that very well. This is just so much better than the courses i paid for.",True
+@m4ryou5h,2020-06-06T11:22:02Z,1,Pure gold. Best tutorials i have ever seen,True
+@sachinparashar8822,2020-06-05T07:47:55Z,1,Hi I have confusion that if we are using context manager then why we are using try and finally. I think it's automatically handles everything,True
+@younghwanchae1422,2020-06-04T21:44:21Z,0,"My brain just bursts after watching this video,  but super great and useful contents, I just need some pratice...",True
+@objnex,2020-06-03T11:49:04Z,36,Two languages helped to be learnt very well througout tutorials. 1. English 2. Python. Thanks a lot.,True
+@VistasNatureWildlifeFilms,2020-05-30T18:20:26Z,124,10+ years using Python professionally and I still learning things from Corey.,True
+@MohammedAbuObaid,2020-05-30T10:13:29Z,0,"Hey Corey,  Thanks a lot for the amazing channel and super tut’s. Simply, the best out there!  My question here: why you are not catching a possible exception with the “except” clause before you head to the “finally” clause?  It seems I’m missing how an exception is been handled should one be raised here  Can you please clarify that point?  Thanks again.. Mohammed",True
+@BiGreDNoSecoMpAny,2020-05-27T19:44:46Z,0,"Favorite moment 18:50 - ""You can do whatever you wanna .. dir""",True
+@javidaliyev310,2020-05-13T16:11:33Z,2,Thank you!! It is the best tutorial of context managers,True
+@arinzealex,2020-04-22T05:53:18Z,2,"Thanks so much for the video. Loved it. However, I am not clear on the last code presented. why did you needed the @contextmanger at top of the function. Would the function still have worked without the context manager?",True
+@94OrangeSkies,2020-04-15T19:45:55Z,0,"In your file context manager example using the decorated function, does the variable f have to have the same name in the definition and the use? let me explain, in the actual decorator function definition the file is opened to the variable f, and f is yielded. then in the use, ie at the with statement, we use the variable f again. Do these variables HAVE to have the same name or is this by coincidence?   Thank you for your videos!!! much appreciated",True
+@hubertcombomarketing2693,2020-04-06T05:15:37Z,4,I just can't help repeating myself. Great Python tutorial. Thank You.,True
+@ryantshims5252,2020-03-27T01:46:59Z,2,still improving my python skills thanks to you. definitly best,True
+@Superogobongo,2020-03-09T06:53:10Z,1,"Crystal clear, as always. Thank you very much..",True
+@rushikesh8132,2020-03-04T14:03:12Z,1,Thankyou very much for explaining it so cleanly !,True
+@hongtaekim1504,2020-03-01T06:13:54Z,4,"When it comes to Python teaching, you're by far the best in the entire earth. Thank you so much!",True
+@codered6874,2020-02-08T21:23:30Z,0,"Hi, Corey, this guy has copied your video completely. Here is the link https://www.youtube.com/watch?v=LFrGEuncUvk. I just informed you because I know you have put a lot of effort into making these videos.",True
+@user-cy3je1xd1c,2020-01-08T12:18:10Z,0,"with CoreysBestTutorial('Great Explanation', 'Awesome examples'):                      set('Like')                      execute('Subscribe')                      say('Haven't seen better tutorials, than yours!')",True
+@ChrisHalden007,2019-12-15T17:32:40Z,1,Excellent. Thx!!!!,True
+@konstantinkouptsov7513,2019-12-04T20:53:19Z,1,"6:07 What is the scope of variable `f`? I would expect it to be local in `with` construct, but `f.close()` is placed outside.",True
+@narendrasompalli5536,2019-11-25T14:11:05Z,1,Thank you sir your explanation is very nice but you are speaking words is very speed,True
+@JacobScott0000,2019-11-15T16:57:17Z,1,you're the man,True
+@tmhudg,2019-11-02T15:43:02Z,0,"Thanks for the video - well done. One thing I'm always unclear on with Context Managers is how to ""stay in the context"" over an entire program. In other words, if I want to open a file - say for logging (I know there is a logging module...) - and keep it open for the duration of the program, it seems like all my code has to be within the context manager block (or called from within the block). That seems hard to manage. What's the best way to handle this kind of thing.",True
+@CryptoRootz,2019-10-29T14:00:27Z,0,"sorry man , they way you explained this is hella boring and confusing.....",True
+@francismcguire6884,2019-09-28T21:35:08Z,1,This was great ... I think I can use a generator in a project I am currently working on. I’m trying to mimic a library I am familiar with in another language that links events with commands through an XML file. I’ll put the project on GitHub for you and your community to review and get some feedback in the next few days. Thanks!,True
+@ednilsonalveslomazi2660,2019-09-18T02:31:15Z,1,Really nice video. Explains a lot. Thanks.,True
+@johnbennett1465,2019-09-13T05:18:42Z,0,"While I can see cases where the try-except code would be important, in this case it is useless or broken. If the first change directory fails, you will still be in the correct dorectory, so no need to change back. If the get directory fails, then the change directory in the finally clause will fail causing an extra error masking the actual problem.",True
+@julioribeiro1909,2019-08-07T10:13:37Z,2,"Corey, this video is amazing. You're a very good instructor and your contents are really useful and very easy to understand. Thank you for all videos you've been posting.",True
+@ae7057,2019-06-22T17:13:09Z,3,"Corey, i enjoyed every second of this video, simple and straightforward.  Hope to see a video about coroutines as well.   Thanks.",True
+@shraddhapatil4070,2019-06-12T09:37:32Z,0,Can you please share application and request context videos?,True
+@DdongK,2019-06-06T06:30:09Z,1,Phenomenal,True
+@StevenTse,2019-05-27T08:13:40Z,1,"thankyou, and indeed Corey is the best Python teacher on the internet.  if I may, can you teach us on flutter with Python, ethical hacking, python on raspi...?  thankyou!!",True
+@ilanaizelman3993,2019-05-22T12:50:24Z,1,Gold!!!!!! Thank you.,True
+@iiit2tech,2019-03-27T14:26:48Z,1,"As usual, excellent video Corey !",True
+@donaldmartin2640,2019-03-19T23:56:40Z,2,I have a white belt in Python and this really helps.  Thanks,True
+@donaldmartin2640,2019-03-19T23:55:53Z,0,Which software package do you use during your presentation?  I'm not happy with mine.  Too slow.,True
+@diegosorte,2019-02-10T04:50:40Z,1,You are simply the best!,True
+@manivannanpandi2364,2019-01-31T05:48:46Z,0,f.closed is an attribute of the object??,True
+@prabhathkota107,2019-01-22T22:58:38Z,1,Explained beautifully,True
+@piotrwln9348,2018-12-01T16:35:11Z,1,Congrats on having 200 000 subscribers now!,True
+@Hubbins99,2018-09-05T19:28:35Z,1,Well done.,True
+@ErnestGWilsonII,2018-08-29T01:43:24Z,105,"@CoreySchafer after several months of watching videos on the internet and going through various online training including ones I purchased, I can safely say this channel and specifically Corey Schafer has the best Python training videos on YouTube and perhaps on the entire internet! Thank you very much for taking the time to make these videos and share them with all of us! I find myself repeatedly revisiting your videos as an excellent training reference, well done! I am of course subscribed with notifications turned on and thumbs up! I wish I could give this channel a million thumbs up! I let all the videos play to the end on both my browser and on Chromecast and I hope that boosts your statistics and views, you certainly deserve credit for excellent training and making the Internet a better place for us all! I will be joining your Patreon and helping to support this channel, something I do not often do with limited funding and only reserve the very best content which this certainly is!",True
+@clamagdeleine,2018-08-09T08:54:24Z,1,"Hi Corey, Very good video to unterstand Python contextmanager.",True
+@norindethmao,2018-07-26T14:02:21Z,1,"I am pretty thanks for this video and your videos. No doubt, just I need to try myself. And I would like to show the sending without and with attachment files in Python. Hope you are doing fine.",True
+@suvodeeproy6769,2018-06-16T18:53:29Z,0,So nice explanation i had never seen before. Please make a series of C programming for us.,True
+@mikeburt5877,2018-06-04T14:06:28Z,2,"Corey, thank you for posting these tuts on Python. I've found them all so interesting. I really enjoyed understanding how context managers work and thanks to your video on them I've already made use of one in a project. Thanks again, buddy. They're much appreciated.",True
+@vinaykn1,2018-05-26T13:29:26Z,1,You are Awesome,True
+@zekunzhang745,2018-05-12T03:06:29Z,1,this is crazy man so good,True
+@hiteshchalise3988,2018-04-01T15:12:19Z,0,really good video,True
+@archtaurus,2018-03-18T07:54:21Z,0,"What if try open with error? Then f is a None, it has no close method' right?",True
+@raghavgupta1157,2018-02-12T14:36:52Z,0,just wow!,True
+@Shaffooo125,2018-02-10T17:12:52Z,6,Love the examples you gave. Very practical!,True
+@satyasarathi1985,2018-02-10T16:56:11Z,0,nice video...,True
+@mohamedsleymi4318,2018-01-18T11:08:51Z,0,"thank you very much , you are awesome",True
+@eljefe919,2018-01-18T04:36:00Z,1,Hey Corey. Excellent video. Your channel is the best on YT in my humble opinion. Can you create a series of videos concerning data structures and algorithms for technical interviews? I think you’d be awesome at it since your teaching ability is 10 out of 10 😄,True
+@kishorekumar2769,2018-01-15T18:14:23Z,0,"Hi Corey could you please teach map,filter and reduce functions",True
+@Lowzenza4,2018-01-12T23:52:12Z,1,"Hi Corey, do you have videos or could you make a playlist on how to use the python package pandas?",True
+@arsenalkarim2253,2018-01-11T09:52:40Z,1,Still waiting for your video everyday (especially django) :(,True
+@abdemanaafghadiali9531,2018-01-11T09:13:37Z,0,"Hi, I was just hoping would you start python networking tutorials or direct me to some good video tutorials for it.. It might help me a lot... Thank You!!!",True
+@kevinl7139,2018-01-08T15:44:19Z,240,Still the best python teacher on the web,True
+@mohamadibrahim7283,2018-01-01T11:36:46Z,2,"hi corey, i love your videos so much, can i just make one request and i hope you take it into consideration  it will help me and alot of people too can you make 3 playlists about python data scientists libraries(pandas,matplotlib,numpy) it will be very helpful thank you in advance and keep up the good work",True
+@davidm.johnston8994,2017-12-28T08:00:38Z,0,"Great video, thanks.",True
+@eldarulanov2582,2017-12-22T21:38:51Z,0,do tutorial on making a python game,True
+@c1337,2017-12-21T17:52:36Z,0,You Are The Best,True
+@YunikMaharjan,2017-12-21T11:00:17Z,9,please do a video on pickle,True
+@naveedahmed2725,2017-12-21T09:38:56Z,0,corey..............for any query.....how to contact u,True
+@lukerengel8533,2017-12-21T02:45:18Z,13,Hey Corey Nice video! can't wait for you tutorials on Django and Flask,True
+@bokkenka,2017-12-21T00:04:41Z,1,"Great video!  Thanks!  One question...  In the change_dir() example, if there is an error, will it have the original directory in cwd so it can chdir back to it in the finally section?",True
+@treelight1707,2017-12-20T22:02:19Z,0,"As always, I learned something new from your video, thanks",True
+@Flikzy,2017-12-20T21:24:59Z,0,What are you using to display your code? Is this sublime text? I didn't know you could display result,True
+@lukakovacevic3183,2017-12-20T21:18:04Z,1,Thank you for this! Best tutorials!,True
+@ashutoshrath8810,2017-12-20T19:50:25Z,3,Thank you for making our lives easier Corey. Could you please create a series related to advance oops concepts and how and where we can implement them. Thanks!!,True
+@PavelZagalsky,2017-12-20T19:47:03Z,0,Excellent video! I really need to use context managers more!,True
+@abhisheksharma-xq5pe,2017-12-20T19:35:44Z,0,Any python book if you can suggest??,True
+@abhisheksharma-xq5pe,2017-12-20T19:34:28Z,2,As usual remarkable video...chorey request you to create bit advance object oriented concept videos,True
+@pallenda,2017-12-20T18:55:06Z,0,"Great video! Well planned video with first showing the how to recreate something people have used, you then build on that with a simple but great example with the change_dir context manager. Well done!",True
+@LookNumber9,2017-12-20T18:46:33Z,1,Very clear - as usual. Excellent.,True
+@rangabharathjinka3556,2017-12-20T18:32:36Z,16,"Hi Corey Shafer, Nice video with a nice explanation.Thank you from the bottom of my heart for ur videos.Hope to see more videos on web and app development using python.Thank you.Bye:-)",True
+@sohailaqureshi,2017-12-20T18:27:21Z,0,"Excellent tutorial, simple words covers this difficult topic with ease.",True
+@bakrfrag4084,2017-12-20T18:24:48Z,0,great video and great info,True
+@bakrfrag4084,2017-12-20T18:24:03Z,0,please Corey provide python web application explanation,True
+@dileeppanigrahi4453,2017-12-20T18:23:49Z,0,"Good,can you explain python ctypes?",True
+@meganoob9281,2017-12-20T18:07:48Z,0,Great video man. Thank you.,True

@@ -1,0 +1,655 @@
+author,updated_at,like_count,text,public
+@nagendrag6334,2024-05-01T14:53:21Z,0,"jinja2.exceptions.TemplateNotFound: If you ever face this error 1.Make sure all the files are in the same directory/file 2.If step 1 doesn't work  try updating 2nd line to this ""app = Flask(__name__,template_folder='templates')"" with your file structure as follows: myproject/     app.py     templates/         home.html 3.If this doesn't solve your problem check in the html file for syntax error there is a possibility that loop/control loops are not properly closed Step 2 solved my  problem 😅. Have a great day😄!",True
+@user-bb5rs8rv4u,2024-04-03T19:47:15Z,0,Great tutorials. I recommend them for anyone interested in Flask,True
+@kapibara2440,2024-03-11T18:14:09Z,0,Absolutely brilliant video. Thank you Corey 😊😊😊,True
+@InfameKato,2024-02-28T02:28:46Z,0,"I'm currently working on my flask App, and was looking for a clear tutorial on how this is properly done, so not to start doing it butchering key concepts and having to re-do many things. So far this has been the best flask tutorial I could find. You really dig deep into the bone of it.  Thank you so much from Colombia!",True
+@muskanmall4401,2024-02-27T04:30:05Z,1,"Can you please do a react tutorial like this, this is just too good!",True
+@leonardholter17,2024-02-11T22:33:56Z,0,so good,True
+@TomLeg,2024-02-06T02:04:34Z,0,"Instead of apologizing that the text is small, why not use  ⌘ and + to zoom in? Or you could have a hidden css file to make things bigger.",True
+@siddharthbhetariya81,2024-02-01T10:31:21Z,0,Mannn you are really the Python GOD !!! Like Whenever I want help with anything related to python your tutorials always helps 🙇🙇,True
+@SuperMaker.M,2024-01-27T20:13:53Z,0,you're the best!,True
+@nmrsa7331,2024-01-10T17:49:30Z,0,"<<<{that grate video, thank you so much  grate job} >>>",True
+@nehanthv4238,2024-01-06T17:41:24Z,0,13:52,True
+@nitkarshchourasia2406,2024-01-02T09:20:32Z,1,"🎯 Key Takeaways for quick navigation:  00:00 🌐 *Introduction to using templates in Flask for more complex HTML.* 01:08 📂 *Create a ""templates"" directory in your project to store HTML templates.* 02:53 🎨 *Use the `render_template` function to render HTML templates in Flask.* 05:39 📋 *Pass variables (e.g., posts) to templates by using arguments in `render_template`.* 08:07 ⚙️ *Use Jinja2 templating engine in templates to iterate through data (e.g., posts) with loops.* 10:39 🔄 *Implement if-else conditionals in templates, dynamically adjusting content based on provided data.* 14:20 🔄 *Implement template inheritance using a ""layout.html"" template to reduce code duplication across pages.* 18:32 🚀 *Leverage template inheritance for efficient updates, demonstrated with integrating Bootstrap into the entire website.* 21:03 🚀 *Created a layout template (layout.html) serving as the parent template for others to inherit, defining the main HTML structure.* 23:48 🌐 *Added a responsive navigation bar and global styles using Bootstrap classes, enhancing the overall look of the website.* 26:15 🎨 *Introduced a main.css file in the static directory to hold custom styles, using Flask's `url_for` to include it in the layout template.* 28:03 🔄 *Demonstrated the use of Flask's `url_for` function to link to static files, ensuring dynamic location resolution.* 30:06 📝 *Updated the post display by introducing an ""article.html"" snippet, enhancing the visual separation of blog posts.* 30:48 📚 *Recap of key concepts: creation of parent templates, integration of Bootstrap styles, linking static files with `url_for`, and improving post display. Next focus: form creation and validation for user interaction.*",True
+@nitkarshchourasia2406,2024-01-02T09:19:52Z,0,"posts = [     {         ""author"": ""John Doe"",         ""title"": ""Introduction to Python"",         ""content"": ""Exploring the basics of Python programming."",         ""date_posted"": ""January 2, 2024"",     },     {         ""author"": ""Alice Smith"",         ""title"": ""Web Development Tips"",         ""content"": ""Tips and tricks for effective web development."",         ""date_posted"": ""January 3, 2024"",     },     {         ""author"": ""Bob Johnson"",         ""title"": ""Machine Learning Insights"",         ""content"": ""Exploring the latest trends in machine learning."",         ""date_posted"": ""January 4, 2024"",     },     {         ""author"": ""Emma White"",         ""title"": ""Healthy Eating Habits"",         ""content"": ""Tips for maintaining a healthy diet and lifestyle."",         ""date_posted"": ""January 5, 2024"",     },     {         ""author"": ""Alex Brown"",         ""title"": ""Travel Adventures"",         ""content"": ""Sharing exciting travel stories and experiences."",         ""date_posted"": ""January 6, 2024"",     },     {         ""author"": ""Sophia Taylor"",         ""title"": ""The Art of Photography"",         ""content"": ""Exploring the beauty of photography and composition."",         ""date_posted"": ""January 7, 2024"",     }, ]",True
+@Prasanthigudipati,2023-12-19T16:01:28Z,0,to me  jinga is not working.it is showing jinga2 expection layout.html not found!,True
+@rafaelnegreiros_analyst,2023-12-12T15:41:01Z,0,very good,True
+@circrna,2023-12-02T22:54:50Z,0,14:10 Template Inheritance. 18:32 Bootstrap,True
+@nirishsamant3317,2023-11-29T10:15:31Z,0,Very great tutorial 👍. Covered a lot of concepts one by one.,True
+@hitoya000,2023-11-08T10:57:34Z,0,"i realy love on you consider to make the text you working at more readable and the quality of explanation is better than anny high payed. your work is more worth paying than any i've seen good work  tho i hope u'll blessed well for this act of kindness .(i hope next time we'll see you teaching other language like c,c++,java)   (edit: i also seen how you try to make each video short and comprehensive enough to explain all information needed on shortest time possible i love it)",True
+@raziehshahsavar9649,2023-10-16T01:07:19Z,0,thank you so muchhh,True
+@teclote,2023-10-03T17:21:41Z,0,Outstanding. You make it so easy.,True
+@andygordon6880,2023-09-02T09:57:08Z,0,This tutorial is so good I now actually want to learn and use Flask. Thank you!,True
+@AaronCoffey1545,2023-09-02T02:52:44Z,0,"This tutorial is absolutely amazing. If you are running into the issue where your CSS styling file is not being imported (an unstyled website), make sure the folder 'static' that contains the main.css file is NOT a subfolder in templates. It should be a direct subfolder of FLASK_BLOG. Hope I can save someone else the time I spent banging my head against a wall wondering why it wasn't importing any CSS stylings.",True
+@dawnS33ker,2023-08-26T13:50:42Z,0,"Thanks to your Flask series, I'm on my way to building what I have always wanted to. Thank you for this series..👍👍👍",True
+@davidh00,2023-07-30T10:47:40Z,0,"This is probably a dumb question, but what is the language that was introduced without any explanation around 7:40? Thanks.",True
+@robertchandler9045,2023-07-19T20:42:39Z,1,"Bro, your videos are awesome. I'm sad it took me this long to find them. Mine didn't look like yours at the end of the video. Come to find out I had accidently put my static folder inside of my template folder. Rookie mistake. But all is good now. Cant wait to continue the tutorial.",True
+@codygao8323,2023-06-20T13:43:17Z,1,Hi! @Corey Schafer Many thanks from a Python self-learner who wants to be a back-end developer!🥰,True
+@user-fe9hy4uq4i,2023-06-16T21:43:06Z,0,Thanks!,True
+@user-ew4uy4tg6c,2023-05-21T16:42:06Z,0,"Corey Schafer Python Genius",True
+@cometolearn8598,2023-05-17T05:54:17Z,0,Damn I cannot believe this is video was posted 5 Years ago it is better than 90% of the videos today. Great Work Man.,True
+@cornflake2563,2023-05-15T19:42:29Z,0,Should we learn how to make the navigation.html and main.html????,True
+@oladimejijames7012,2023-04-28T09:00:58Z,1,Your tutorial is powerful but to use it with the current bootstrap 5.3.0. The CSS doesn't apply to all areas of the page. Do you have updated CSS for 5.3.0?,True
+@muffinman1,2023-04-27T12:43:11Z,1,"after half way past video, you went too fast with too many different concepts. I doubt 90% of the people got anything out despite what the comments suggest. And I have 2 years of experience with python, I can't imagine the beginners.",True
+@andreiarseni362,2023-04-23T19:26:32Z,0,How does this function render_template know where is the html file if you didnt specify the path for example Flask_Blog\templates\home.html ?,True
+@georgeseletski8241,2023-04-09T19:14:45Z,0,thanks for this video dude!,True
+@TPoTTS23,2023-03-23T13:38:17Z,0,Thank you Mr. Schafer for creating and sharing. This is an absolute blessing and I'm learning alot.,True
+@user-zb8mc3co6o,2023-03-19T11:44:55Z,0,Great tutorial! Thank you!,True
+@m.ammarraza3957,2023-02-17T14:02:26Z,0,looking like doing laravel in the most easiest way,True
+@krishan866,2023-02-04T16:05:07Z,0,Thanks!,True
+@straight7gaming555,2023-01-24T20:52:19Z,0,"I'm sorry but I can't subscribe, I appreciate for all the work you have done but like all programming, even training videos needs to be updated regularly. I have been over this video so many time, I stopped counting after 3. At first I thought it was me and probably still but when incorporating your code, with html 5, Bootstrap 5.0, even with Bootstrap 4.0 it says make sure to use html 5. As of right now, your videos are out of date and can not push forward due to the fact there are some bad codes and within your snippet codes",True
+@user-oe8mx5tb1c,2023-01-21T14:43:59Z,1,"When browser is enough small to appear toggle button, the button doesn't work with Bootstrap5. Change from <button class=""navbar-toggler"" type=""button"" data-toggle=""collapse"" data-target=""#navbarToggle"" aria-controls=""navbarToggle"" aria-expanded=""false"" aria-label=""Toggle navigation""> to <button class=""navbar-toggler"" type=""button"" data-bs-toggle=""collapse"" data-bs-target=""#navbarToggle"" aria-controls=""navbarToggle"" aria-expanded=""false"" aria-label=""Toggle navigation"">",True
+@JosephStreet-dk7uw,2023-01-18T13:44:43Z,21,"For those having issues with the navbar links Login and Register still being on the left side, you're using a newer version of Bootstrap. As of writing this video series is 4 years old so some things may look different to you.  To fix it, the line <div class=""navbar-nav""> should be <div class=""navbar-nav ms-auto"">",True
+@BritScientist,2023-01-14T18:06:22Z,0,Is it OK that we have more than one <h1> on a page?,True
+@varunteja6544,2023-01-03T22:12:02Z,1,"I am really fortunate to stumble upon your channel. The course is going on very smoothly and the explanations are very clear and upto the point!! I have come here after having attended your Python courses, to learn web development using Python. My heartful thanks to you Corey :) !! You are a great teacher!!",True
+@mimooesdmimoo,2022-12-15T01:55:23Z,0,Many thanks for you 😍,True
+@brtvndnbrnd,2022-12-02T14:00:40Z,6,"Hi Corey. It's amazing how well we can follow these instructions, typing them in as you do. It's also well explained, even for those (read: me) that don't have a lot of experience in Python nor html. And most of all: so far everything is working. Most of the Youtube tutorial video's lead to some coding that doesn't do what it's supposed to do. But not with your two video's so far😀. They actually work. Great job. Thank you very much. There is no other option than subscribing to your channel, what I did of course.",True
+@thecodingsim6003,2022-10-30T23:44:29Z,0,Thank you so much for summarizing something so complex for me to understand in under an hour ❤ you saved me,True
+@MKSundaram,2022-10-18T17:01:41Z,0,"Hi, In my previous post I mentioned an issue with navbar contents. I found that it is due the version of bootstrap. I used version 5.0.2 and that is why it was not working as intended. Now I have replaced your links for bootstrap, css and JS. Thanks",True
+@MKSundaram,2022-10-18T14:11:59Z,0,"Hi, my login and register is aligned to left of the navbar and I tried couple of things to justify it at the end of the navbar. whenever I try justify it to end the text color change to blue. Could you please help me? Thanks",True
+@earth2australia799,2022-10-17T13:24:15Z,0,whenever i find something hard to understand i quickly run to Corey and things will be better.,True
+@newtanagmukhopadhyay4716,2022-10-15T09:39:17Z,0,congrats for 1 million subscribers corey !!!,True
+@mukulkathayat6288,2022-09-27T10:49:40Z,0,thankyou for the amazing content.. the best thing is you got everything in place in such an organized manner.... tysm Corey. <3,True
+@user-ce2jq6hw6c,2022-09-21T20:59:28Z,0,"I have a question  Accoding to Bootstrap official  Renamed .ml-* and .mr-* to .ms-* and .me-*.  But mr-auto and me-auto present different layout, as well as ml-auto and ms-auto Someone tell me the reason?",True
+@medinamariam5405,2022-09-20T09:52:47Z,0,why my navbar is not from left to right? and our sidebar is not at the side like yours? Someone please help,True
+@prithvigupta8215,2022-09-19T19:54:28Z,0,5:56,True
+@lashagavashelashvili4661,2022-08-28T17:52:47Z,1,This is very high quality tutorials. I recommended it my students. thank you Corey,True
+@phamgiaminh1025,2022-08-16T06:07:19Z,0,Can anyone tell me the difference between using url_for and hard-coding the actual file path on the computer?,True
+@johnc5258,2022-08-10T11:40:59Z,0,this is so clear and useful. thanks,True
+@abrhamgg3647,2022-08-03T21:28:09Z,0,No words!,True
+@mahdimontazer1459,2022-08-01T07:33:37Z,0,"thank you, sir!",True
+@aquelecientista4491,2022-07-27T22:37:43Z,0,essa aula foi de fudê,True
+@caveman4659,2022-07-27T13:54:35Z,0,You’re a lifesaver. Thanks.,True
+@soumyajitmallik2337,2022-07-13T09:20:20Z,0,you beautiful beautiful man,True
+@christinagorbenko6811,2022-07-11T21:08:42Z,0,Such high quality. Highly recommend these tutorials for people doing flask,True
+@andrewbeef8758,2022-07-10T19:39:18Z,0,amazing,True
+@kylersuden2713,2022-06-30T01:10:56Z,0,Fire video my guy,True
+@slonbeskonechen8310,2022-06-20T10:47:50Z,0,И ведь ох@ительно!,True
+@ramchillarege1658,2022-06-16T01:27:23Z,0,Your are a gifted teacher. Thank you.,True
+@BOSprodz,2022-06-09T13:33:29Z,1,"Amazing content! If anyone else had trouble with HTTP 304 - not pulling the .css file, what worked for me was configuring the static folder in the Flask app  app = Flask(__name__,template_folder='templates',static_folder='static')",True
+@tymekdyba2219,2022-06-02T08:38:26Z,0,"Interestingly, when I put if-title before bootstrap lines in head section, instead of being page title, it just appears on the top of page as writing",True
+@adityanjsg99,2022-06-01T02:11:54Z,0,"Thank you Corey, helped a lot!",True
+@steveymcsteve0717,2022-05-29T00:27:18Z,1,produdes to copy and paste 300 lines,True
+@CarlosYounes,2022-05-08T14:19:43Z,0,Grate!  Thanks Best regards. :),True
+@user-xq6ol2un7z,2022-04-30T12:27:35Z,1,What's that __pychace__ folder ??,True
+@urbaneplanner,2022-04-06T20:41:34Z,0,"One small thing - I am following along and I believe that sublime text may no longer have the option to name your file when you create it - rather you need to create a new file, which is untitled and then save as or else shift+ctrl+p and search for ""rename file"" - a small detail but I thought I was missing something as when you create a new folder the name folder option is as illustrated in this video",True
+@SupharkAwatchanakankul,2022-03-24T12:16:56Z,0,best ever tutorial,True
+@rithirongk,2022-03-05T19:29:06Z,0,"while other people enjoy watching series on Netflix, I really enjoy watching your series! thanks so much.",True
+@RenormalizedAdvait,2022-03-02T10:20:18Z,0,Please make a tutorial on html.,True
+@pythonenthusiast9292,2022-02-20T16:43:55Z,1,Is it necessary that the name @2:23 should be templates only? as when i tried with different names for templates folder it gave error of template not found,True
+@thegreenman941,2022-02-19T15:08:21Z,0,"The Login and Register options along the top, appear next to Home and About when I load the web page (rather than on the right as in the demo). I tried copying Corey's code from github but it doesn't change anything. Have there been any changes in Bootstrap that might be causing this? Any help would be appreciated. Thanks!",True
+@sagardesai1253,2022-02-11T17:13:30Z,0,"Really informative content, easy to understand, appreciate your efforts",True
+@TarokhYaghoubi,2022-02-07T14:59:58Z,0,"Hello again , i enjoyed the video but i have a question mister , I understand noting about the styling parts , all i know is html and a little css , is it ok or i have to learn about fronend as well ? I love to work as a backend developer :) I'll be glad if you let me know , thanks",True
+@realkazzz,2022-02-06T10:26:03Z,1,"the login and register is not moving to the right side, can someone help?",True
+@PGhai,2022-01-29T01:33:34Z,0,@ 3:35 What is “use a production WSGI server instead “ ?,True
+@uzotammynwokoro1128,2022-01-13T22:48:17Z,0,Great tutorial,True
+@nathanliebespeck8088,2022-01-01T23:44:38Z,0,"I know it's been awhile since you made these videos, which are phenomenal.  Would it be feasible to do one that explores the python statements  that can be used in the form?",True
+@mohamedabdellahiamanetoull4887,2021-12-17T03:16:36Z,0,were is site html css,True
+@isaacgreen9495,2021-12-12T04:13:12Z,0,awesome stuff! Thank you!,True
+@qikanglim138,2021-12-04T03:11:20Z,0,Hi Corey..any books to recommend on HTML? I am quite lost while reading your HTML codes,True
+@arek6296,2021-11-27T12:48:40Z,2,"Clearly explained without unnecessary things, but I feel like one should learn HTML and CSS a little bit before taking up flask :D",True
+@AaqibMehrban,2021-11-12T15:50:35Z,1,man i admire you.,True
+@lumitechMY,2021-10-24T16:43:16Z,1,watching back at 2021 still thinks its the best tutorials ever,True
+@brentjohnson6654,2021-10-22T16:19:47Z,1,Another excellent video.  I like your teaching style.,True
+@Chris-cl5gg,2021-10-20T10:25:38Z,0,"i wonder why you don't introduce the jinja include statement at 24:35. seems appropriate and not to hard, we already did the extend version.",True
+@anarbairam3411,2021-10-19T09:47:36Z,1,Thank you very much!   You got a fan right here :),True
+@33samogo,2021-10-11T12:12:16Z,1,"Yours explanations are clear, detailed and precise and I like that. But as a beginner I struggle with concepts, and now I find out the reason why. We generally use different logic to look at things, in this tutorial you are inserting the layout.html in to the block content inside home.html. I can understand this, but I struggle with this logic, for me it's easier to conquer the concept if home.html is inserted inside the layout.html block content. In the dynamic web page we are observing changes inside ""static"" layout .html on different urls :). For me this is important to know, because personal logic foundations are on deeper level than programmer logic so there can rise a conflict. I think that overlooking this  is a problem long way in learning process, this is just one case, sometimes is better to take opposite view to better understand the concepts :) Thank you!",True
+@elatreby8065,2021-10-05T22:41:01Z,1,That was a great help. thank you,True
+@elbioiseas7366,2021-10-04T00:11:42Z,2,"Hello Corey. Thank you for your web development videos with Flask. I have a question. I followed this video and wrote the code for the blogs program but the main.css is not working. This means the menu bar it is not showing, and the padding is not working either for some reason. Do I need to have the Pycharm Ultimate edition for this code to run? I have the community edition running. Thank you.",True
+@ijustwannalearn9444,2021-09-29T13:38:52Z,3,"Hey Corey, awesome tutorial!  I have a tiny code issue though, when I run my project my sidebar appears under my blog post for some reason. I've been staring at your code on github and mine for a while now and I was wondering if you know what the issue is.",True
+@nik8singh,2021-09-26T05:07:16Z,0,but it's much simpler to just add relative link of css file to the layout.html instead of using url_for,True
+@sribastavrajguru304,2021-09-14T16:57:56Z,1,"Thanks Corey for the wonderufl tutorial, I liked every single video that I have watched in ur channel. Thanks a lot, keep posting awesome content like this",True
+@sachavanweeren9578,2021-09-07T16:34:08Z,1,As always ... great tutorial... step by step .... creating understaning. Thanks a lot,True
+@manishjadhav1572,2021-09-07T05:16:07Z,0,I am facing problem like jinja template syntax error on my home page something like that😒😒,True
+@thepaulcraft957,2021-08-29T08:28:37Z,0,"i have made some projcets with flask yet, but i learnt so many new things already!",True
+@hermancoutinho,2021-08-28T13:36:16Z,1,Thanks Corey... Still useful :),True
+@bh6961,2021-08-27T17:15:56Z,2,"Thank you so much Corey! Great tutorial.",True
+@timothymccormack9075,2021-08-04T17:54:23Z,0,Anyone from New College of Florida here?,True
+@swayammm__,2021-07-30T16:42:38Z,1,whenever i put that title in /about route i get an error saying got an unexpected argument,True
+@SA-oj3bo,2021-07-26T19:45:04Z,2,"HI, it is not clear why you used url_for, it seems to work with <link rel=""stylesheet"" type=""text/css"" href = ""/static/main.css""> also. Can you explain why please? Thx!",True
+@vimansachinrukshan3448,2021-07-22T10:40:01Z,2,still worth in 2021,True
+@kaanaslan_tr,2021-07-18T12:54:45Z,1,"Hello and thank you for these great tutorials. The only part I found very difficult to understand was the part after you decided to add navbar and the rest. Because all the ready snippets that you have and copying and pasting them didn't teach me how to do it on a new website. I would also like to understand the logic. So far the first 2 videos are awesome but in order to continue for the rest of the course, I need to understand how you decide to make those navbar and make separate posts that look better. Is there another tutorial that will help me understand those parts better? I'd really like to stop here and improve that knowledge and continue. Thanks.",True
+@antonysemion,2021-07-16T03:55:32Z,0,download git links not working. Your video is very good,True
+@tubbdoose,2021-07-15T06:46:10Z,0,XDDD April 20th I see you,True
+@TheDr660,2021-07-09T04:24:13Z,0,This is so damn good.,True
+@user-zx1px8zc2e,2021-07-07T15:20:59Z,1,We do not need to specify the template folder in the render function does flask automatically look there I am confused can some one help me,True
+@anyzoo3793,2021-07-06T19:51:54Z,0,"Should I put both home.html and about.html in the same directory as flask_blog.py? Why that i getting error ""TemplateNotFound: home.html""?",True
+@syedmdismail7478,2021-07-06T11:08:01Z,0,"Does someone has code on how to use the bootstrap files offline. I tried downloading it and then reffering it to the local address, but doesn't work for me.",True
+@enersha,2021-06-27T02:29:00Z,0,for loop in the html code is a sin against nature,True
+@usama6137,2021-06-26T08:33:43Z,0,QUESTION  is it better to save profile picture in static folder as it is consider public folder  ?,True
+@RaviShankar-gd3wz,2021-06-05T13:57:42Z,0,"GET /static/main%2Ccss HTTP/1.1"" 404 -  i could find solution to this error, can anybody please help me",True
+@satyasingh6144,2021-06-04T18:55:38Z,0,"I have been trying to pass the context to my template in the render_template (), but somehow it is not working and the server's breaking down with an Internal Server Error. I've been all over the internet trying to find a fix to this, but can't seem to budge the problem. Pretty sure it's a minor glitch that I'm overlooking, but any help would be appreciated.",True
+@danielalegriasallo5551,2021-06-01T00:34:00Z,0,This is really helpful,True
+@thengakola6217,2021-05-31T11:26:13Z,1,dafaq bruh,True
+@openjcd,2021-05-29T09:22:15Z,1,"This tutorial is brilliant, but I am not much of a fan of all the code copy-pasting. It doesn't feel like I'm learning anything.",True
+@20.suriyam11,2021-05-25T05:47:37Z,0,"when i'am like quit'inn ,corey flashes in me",True
+@Fernando31611,2021-05-24T23:40:50Z,1,"So, copy and paste code... great tutorial /s.",True
+@_adi_dev_,2021-05-24T23:04:26Z,0,This video feels a bit like stone soup,True
+@ujwalkv2232,2021-05-20T21:28:17Z,0,hey I'm not getting the header for some reason,True
+@upton0good793,2021-05-17T07:21:14Z,0,"Thank you so much for uploading such a tutorial, it helped greatly in my Internship for web development.",True
+@MrFyce,2021-05-16T16:06:43Z,1,"for my navigation bar, my login and register is not on the right side but just beside About. Help!",True
+@MrFyce,2021-05-16T14:36:52Z,0,"Yes, we wouild like a flask bootstrap tutorial.",True
+@samis2444,2021-05-14T21:28:36Z,1,this guy is just insane,True
+@friendlyware2132,2021-05-14T17:32:44Z,0,How can I get the render_templates out of a folder? Like en/templates/index.html,True
+@dharmendersingh7165,2021-05-08T16:39:43Z,0,One thing i don't  get while you are writing for loop over a list then how come you write post.tile as when you loop over a dictionary then you need to use post[title] and not post.tile.   Please correct me if i am wrong,True
+@moeinmhzg7827,2021-05-06T22:14:47Z,0,"It was such a pain an scary thing for me to search and learn these things of flask and thanks to your video it was such a easy and good way for me to learn all these things. Not just this(Flask), all of your tutorials have very high quality. Thank you so much sir.",True
+@codethemath4759,2021-05-04T16:50:31Z,0,Very usefull and transparent content Thanks a lot,True
+@321123580,2021-04-27T09:08:52Z,0,"Thank you for the lessons, amazing job!",True
+@aidangasim,2021-04-25T00:09:26Z,0,THIS QUERY IS SO  URGENT MY CLASS PROJECT:can i send value in button to a database on flask ??? please if you know answer it,True
+@2perspektiva,2021-04-15T21:43:39Z,0,Great tutorials! In flaskblog.py you dont need to import url_for ;),True
+@tymothylim6550,2021-04-14T05:09:04Z,0,Thank you very much for this video! It is very helpful and I really liked the template function of html! :),True
+@vacoff2717,2021-04-05T19:48:36Z,0,this is a great flask tutorial,True
+@zacharypeterson4178,2021-03-28T20:57:07Z,1,the 69 dislikers get a pass,True
+@RanjanKumar-bu7ws,2021-03-26T11:45:00Z,0,These are paid level courses,True
+@harshupadhyay6860,2021-03-25T12:30:47Z,2,"After running the code  I am not getting expected output as shown in the video, the login and registration blue column is not coming, can anybody help?",True
+@dontbetoxic4387,2021-03-21T12:53:32Z,1,copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste copy paste,True
+@lionelbrice6953,2021-03-03T10:24:31Z,0,thanks very much  very explicite and having fun !! i appreciate the good work !! you are the best,True
+@lionelbrice6953,2021-03-03T10:23:26Z,0,"awesome, very good video.. so easy to learn programming",True
+@leomaredcampos4941,2021-02-28T00:58:45Z,0,Your text is too small. I can't see the text.,True
+@harunaabaldeh2006,2021-02-23T13:55:03Z,0,Your the best I have ever found so far,True
+@mattgraves3709,2021-02-22T09:19:44Z,0,Faaan-freakintastic my dude!  Edit: I also prefer to be specific / clear when possible in my code. in ref @17:20. Glad to see you do things like this and know it is an option otherwise who knows if I would ever know lol!...I deal with so many damn libraries and languages all the time ;),True
+@robertlee6529,2021-02-21T10:51:50Z,0,Not sure if you are still around. You are one of the best instructors on Youtube. Hope everything goes well!,True
+@Giannhs694,2021-02-16T17:30:53Z,0,"Very good content, thank you.",True
+@zalvaje2097,2021-02-16T17:09:35Z,0,PANALO!,True
+@barbarossa11,2021-02-07T19:43:33Z,0,"Awesome job, I feel really smart following your tutorials. Thanks man!",True
+@keshavbansal5148,2021-02-05T06:56:08Z,0,The template engine is Jinja2,True
+@ArunKumar-sg6jf,2021-01-31T11:46:35Z,0,what is line statements in jinja when to use #....## for line statements,True
+@omerlevy6939,2021-01-30T11:25:00Z,0,hey can i have some help? i followed the turorial and tried to to the render_template method but it just didnt find the html file!,True
+@homayoonkhadivi5320,2021-01-29T08:44:37Z,1,"I'm so thankful I found you on YouTube😊. I am fascinated for the way you are teaching. Keep going, you are awesome👍",True
+@qwerty-6573,2021-01-28T07:36:56Z,2,"I'm trying to make changes to the main.css file, but the changes are not getting reflected. Anyone else facing this issue?",True
+@hpn1427,2021-01-25T23:45:18Z,1,I am officially the copy-paste master now ( ͡° ͜ʖ ͡°),True
+@tusharsharma6129,2021-01-13T17:10:57Z,0,"Hey!! I was wondering how can we create those snippets code by ourselves that you told us to download from your github, or is there some open sources from where we can download these snippet codes. if any one could answer this would be of great help. Thank you",True
+@apexyu164,2021-01-13T14:24:22Z,0,how to make the shortcut key in 1:53?,True
+@mutalemulenga8708,2021-01-12T14:33:57Z,0,so far found this  easier that django.,True
+@abuazzan462,2021-01-06T07:16:21Z,0,emmet is the tool you need to generate instant html,True
+@user-dj6ld8xp5w,2021-01-06T02:03:03Z,12,"For those having problems with the navigation bar, use this code: <header class=""site-header"">         <nav class=""navbar navbar-expand-md navbar-dark bg-dark"">             <a class=""navbar-brand"" href=""#"">Flask Blog</a>             <button class=""navbar-toggler"" type=""button"" data-toggle=""collapse"" data-target=""#navbarSupportedContent""                 aria- controls=""navbarSupportedContent"" aria-expanded=""false"" aria-label=""Toggle navigation"">               <span class=""navbar-toggler-icon""></span>             </button>                        <div class=""collapse navbar-collapse"" >               <ul class=""navbar-nav mr-auto"">                 <li class=""nav-item active"">                     <a class=""nav-item nav-link"" href=""/"">Home</a>                 </li>                 <li class=""nav-item"">                     <a class=""nav-item nav-link"" href=""/about"">About</a>                 </li>               </ul>               <ul class=""navbar-nav"">                 <li class=""nav-item active"">                     <a class=""nav-item nav-link"" href=""/login"">Login</a>                 </li>                 <li class=""nav-item"">                     <a class=""nav-item nav-link"" href=""/register"">Register</a>                 </li>               </ul>             </div>           </nav>     </header>",True
+@rahulhuilgol5304,2021-01-05T17:13:27Z,0,Such good instruction! I'm teeming with confidence. This is my first Python framework.,True
+@rachitmehta7738,2021-01-02T06:48:27Z,0,"awesome tutorial ! It not only helps learn easily, but your style helps to remember it as well. thanks!",True
+@rastaricky9584,2020-12-31T03:54:04Z,0,"Awesome video. Quick question about the code snippets, did you create them yourself or is there a code generator that you used?",True
+@TechDiffuse,2020-12-21T13:05:40Z,0,Great tutorial. Nicely explained!,True
+@rodhash,2020-12-19T19:55:03Z,1,"CSS can be so silly but sometimes it's hard to follow .. I hate just copying / paste commands into my code, trying to understand this styling ..",True
+@rodhash,2020-12-19T17:58:10Z,0,"You're a best! It's hard to find better quality out there, you'll be my first patreon that support! You deserve it!  Something that I got curious, those CSS and JS imported .. are they safe to use? I have very little knowledge on JS to read the code.  Thanks man, you rock!",True
+@tortue34170,2020-12-19T12:44:15Z,0,"This course on Flask is awesome, and very well explained/detailled ! Thank you so much ! I'm not sure about the following, but the render of my page is not exactly the same (side bar is different, login and register options in the navbar don't fit to the right side of the screen). My guess is that bootstrap has evolved a bit since this video has been published and then the render is a bit different than expected, but still, with some knowledge of CSS I think it will work. I'm just sharing my experience here, perhaps someone will gave me a feedback and confirm this, or maybe  I did something wrong.. Anyway it's not the main point of this video, and this comment may not be relevant ! Thanks a lot for this great (and so valuable) content ! :)",True
+@computinghub9550,2020-12-05T17:03:16Z,0,"I have a question. I want to make a freelancing and job portal website with flask/django, and would like to get an advice from you about what front end framework should I use  with it? Bootstrap vs ReactJS ?",True
+@RemyDelaCruz,2020-11-25T16:06:43Z,0,"The amount of details in these videos are unbelievable.  He never assumes you know every step, no implied knowledge.  I wish I could hug you for the amount of effort you put on your videos. Maybe one day, instead I’ll find a way to contribute by buying anything you sell.  Thanks again.",True
+@ananthramvijayaraj4554,2020-11-24T14:57:53Z,0,"Could someone please tell me how his website was already responsive, I would really like to know, thanks.(is it coz of bootstrap?)",True
+@ykartd,2020-11-16T18:45:06Z,0,"For everyone using VS code with the auto formatter turned on, when you save the home.html file, you lose the structure. If you don't want to turn off auto formatter for html extension, you can save using cmd K + S",True
+@codebreakthrough,2020-11-14T15:16:47Z,48,"Wow Corey, great job with these videos. Seems so simple, but that html snippet to generate a basic HTML structure was eye opening. Up until this point I've been looking up HTML  boilerplate code and copying and pasting. Appreciate it much.",True
+@oldmansaturn972,2020-11-12T11:25:28Z,0,The way this guy describes things just makes sense to me,True
+@dhruvpathak1850,2020-11-07T17:57:29Z,0,Why is it that the static CSS and JS files should be placed in static directories only?,True
+@crashvoodoo,2020-11-04T23:15:28Z,0,literally spent 40 minutes checking and rechecking my CSS issue to eventually realise I'd typed <link ref=stylesheet.,True
+@akramelomrani8728,2020-11-01T18:08:40Z,0,Could you please do a chat app with flask I have been looking for it for 1 month now,True
+@conscioussleeppill1093,2020-11-01T02:18:57Z,0,great tutorials.  I learnt for you a lot  about the python,True
+@DDzulian,2020-10-31T22:34:13Z,0,Your tutorials are amazing! Professional software developer here and I'm still using them :),True
+@RameenFallschirmjager,2020-10-31T13:03:04Z,0,"Actually naming the block is mandatory, otherwise it doesn't work.",True
+@Sethyys,2020-10-28T15:27:29Z,0,"Personally, after you started to copy all that things, I din't understrand a think. I don't know what every keyword does. Besides that, great video.",True
+@ongkamsiong,2020-10-24T09:33:48Z,0,I love your videos. It is really good for newbie like me. Hope you can record videos for API and other more advance topics too.,True
+@RameenFallschirmjager,2020-10-22T20:13:36Z,0,Your voice is so soothing that I can build a project while listening and learning from you when I'm in a sinking ship!,True
+@anshumalishaw4799,2020-10-17T06:16:37Z,0,"I am not getting the same view of the website as yours.. I have also copy pasted the code in the templates folder in the resource section yet i am unable to get the view like your website... Also ""url_for"" is showing unused import in the flask.py ....please help",True
+@saigonpilots7063,2020-10-16T23:02:25Z,0,Brilliant!!! Thank you!!!,True
+@mostmojo,2020-10-08T20:08:32Z,0,So glad I found this! Superb tutorial and teaching style. Thanks dude,True
+@TJKhara,2020-10-08T17:34:14Z,0,Great video. Thank you.,True
+@mostaphaberehil9319,2020-10-06T22:27:59Z,0,thank you very much bro,True
+@siewierap,2020-10-06T14:07:31Z,0,"best in the business, hands down!",True
+@christinemaynard9025,2020-10-04T22:05:48Z,0,Oh man I'm so grateful for this series,True
+@amitcohen3203,2020-09-27T08:59:39Z,0,Great tutorial!  Thank you,True
+@veereshharihar1259,2020-09-25T18:33:16Z,0,Sir my navigation bar and post content are both are combined sir what do I do to remove that,True
+@abhinav327,2020-09-22T09:32:02Z,0,You are amazing! Thank you so so much for creating this series ❤,True
+@CodingMazaa,2020-09-21T20:16:38Z,0,"Might I add just one suggestion? You have been using CLI commands to set the ENVIRONMENT variables. There is another way:  os.environ.setdefault(""FLASK_APP"", ""flaskblog.py"") Same effect, as I have verified in my own code. It just saves the hassle of setting environment variables in CLI(which I often forget to do).",True
+@adriancasillas8675,2020-09-19T11:08:36Z,0,"Agree with all the very  positive below: great stuff! And yes, I will contribute some sort of $$££. Gratitude!",True
+@recker624,2020-09-18T10:34:07Z,0,"I wish I could ""like"" this video more than once",True
+@hill2750,2020-09-17T04:43:27Z,0,You are the best!,True
+@souldialect2843,2020-09-13T21:41:14Z,0,"Hey Corey, I have all of the same code that you're using but the blue bar at the top is not appearing and the style sheet seems wrong in general. Any thoughts? Thanks!",True
+@VijayKumar-bp1fp,2020-09-11T22:08:23Z,0,great videos ... easy to understand,True
+@affandeshmukh,2020-09-06T17:55:32Z,0,please make u your video clean,True
+@abhishekpandey9717,2020-09-06T10:49:24Z,0,"I have connected my CSS file to layout, and imported (url_for) also, but when i run flask the CSS is not doing his work. But when i am inspecting the site then there my CSS file is connected. Can any one explain this??  How do i get rid of this???",True
+@franzdarellemacatangga858,2020-09-03T03:03:05Z,0,is there any github repo for this?,True
+@TheMeticulousMoo,2020-09-01T02:45:17Z,0,"Honestly Corey, people like you are the reason why the internet is so great. Excellent tutorials man, keep it up!",True
+@sathisha0601,2020-08-30T10:17:31Z,0,very nice videos sir,True
+@MrEdinaldolaroque,2020-08-24T20:24:06Z,0,Thank you for your tips! Invaluable to me!,True
+@AaravRL,2020-08-23T01:21:30Z,0,"Hey Corey, when I applied all the changes with main.css, main.html, and navigation.html, my navbar is transparent and even when I make it a dark color, the first blog post's title gets blocked by the navbar. Could you please help me with this @Corey Schafer",True
+@awokawok8453,2020-08-19T00:35:51Z,0,This is excelent tutorial. Easy to understand,True
+@damilarekeshinro8062,2020-08-11T01:50:53Z,0,Thank you sincerely,True
+@AashishKumar-op2dm,2020-08-10T17:52:25Z,0,It just similar with Django,True
+@liriani,2020-08-10T10:41:51Z,0,im getting post is undefined,True
+@hamolicious2387,2020-08-09T21:34:19Z,0,"These tutorials are so good, no bullshit, just content and pure learning! Thanks a ton",True
+@aryanshirke9440,2020-08-02T19:48:04Z,0,"I am in part 2 and was already enjoying your tut, but all of sudden the render of my page is not same as your's, maybe its not updated for latest bootstrap coz i saw lots of difference in link than you paste in you layout.html. Pleas update it to latest version cants go through unless you do update",True
+@man0976587790,2020-08-02T11:09:30Z,0,"After following all the steps taken in the video. When I reloaded the page it looks nothing like the video shown. No nav bar, and only thing thats changed is the color of the text. But the side bar did show up as well. I'm thinking the problem might come from the nav bar but i can't seemed to fix it... super rookie here..",True
+@chaudharyu.8453,2020-07-27T12:22:51Z,0,Probably one of the best courses to start with flask ! Thank you very much @Corey Schafer for providing such a great tutotial:),True
+@ashishdeora8522,2020-07-26T12:15:07Z,0,Not sure what the 55 people expected who have down-voted this.,True
+@nathanlloyd774,2020-07-25T15:31:49Z,0,Everything but my navigation bar is styled for some reason,True
+@vinitakumari5328,2020-07-25T08:32:01Z,0,"Sir ,when I coding it the way u have taught ,I am getting an error for jinja2.exceptions, TemplateNotFound..how can I solve this problem",True
+@raffy7384,2020-07-25T00:16:01Z,0,you are a great mentor. Thanks,True
+@parthshah6343,2020-07-22T13:29:45Z,0,Awesome tutorial,True
+@Felipe-53,2020-07-19T18:14:44Z,0,"You are awesome, thank you, man.",True
+@HisMajesty99,2020-07-18T09:22:31Z,1,How would I use React with this (Flask)? Any tips or resources for this please?,True
+@ashmansodhi712,2020-07-12T15:10:58Z,0,How can i change the color of the nav bar?,True
+@shubhadahibare1705,2020-07-10T20:17:05Z,0,"Hi Corey, no match for the content of these videos with any other learning sites or videos. They are truly amazing powerful and core to knowledge.And the detail description with links to each code used in your video is more than one can expect. Thanks a lot.  I have a small question. I tried to make server externally visible, by following steps as in flask quickstart -  but it doesn't work , i tried give IPv4 address too but still it wont work.  How can we make this server externally visible to any machine, be it on same network or other?  Thankyou again.",True
+@octopusmalomo,2020-07-09T11:09:52Z,0,"Can someone help me out? The validation isn't working for me, its bringing a traceback error precisely on the forms.py file regards the validator module",True
+@adityapandey8116,2020-07-07T09:51:34Z,0,Can someone help me I am getting template not found error,True
+@ramyattalla7168,2020-07-06T02:39:51Z,0,I keep getting jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'endblock'. when i write the endblock content. Does anyone know why?,True
+@joryaock,2020-07-05T18:25:37Z,1,oh this great! stuff wish I'd have known what to look for a while back,True
+@AugusSousa,2020-07-04T23:05:06Z,1,I have a problem with main.css does`not look the same way.,True
+@VincentStevenson,2020-06-30T18:41:49Z,0,"Thank you so much Corey, these are excellent videos!",True
+@PotatoMan1491,2020-06-29T16:00:32Z,0,"Part 2 only and you have been a tremendous educational help, I really enjoy these.",True
+@ulixes77,2020-06-24T06:31:25Z,0,"Corey, you are awesome.",True
+@evanariawan3083,2020-06-22T16:42:10Z,0,"i have a problem in here, my main.css doesnt work properly the nav bar and article are not same like you they are ugly",True
+@SimbaSHI,2020-06-22T10:08:14Z,1,"Thank you for the brilliant tutorial, really enjoyed it! But the snippets files seem really complicated, and I didn’t understand anything. It would be great if you can explain what those files do and how the HTML language works.",True
+@EnglishRain,2020-06-22T09:00:53Z,55,"26:45 - ""It's not very long, it's only 80 lines of custom styles."" - Corey Schafer, May 2018.",True
+@appiahdennis2725,2020-06-21T14:49:46Z,0,"Corey Schafer, you re a smart 🙌🙌",True
+@Programmers_world,2020-06-20T06:41:54Z,0,thank you soo much u make it easy for me,True
+@alexcamilleri3610,2020-06-19T22:53:26Z,0,"Oh wow, came here after watching a long 3 h course and it sucks to see how much of it was ripped off from your channel. Thank you for the great work",True
+@writtikmajumder366,2020-06-16T13:28:46Z,0,"where does the ""post"" after ""for"" come from??",True
+@akashrawat2506,2020-06-15T12:00:35Z,2,I wanted to learn flask and started so many time and end up not completing it. The main reason was I didn't find any content with this level of explanation and focus to every detail. Your video series is helping me a lot.  Love you 3000 man 🙌💥,True
+@KunaalNaik,2020-06-14T08:28:42Z,2,Clear explanation and good pace. Thank you for this tutorial!,True
+@rahulsailwal4025,2020-06-08T16:54:10Z,1,i have started watching this flask tutorial and impressed so much that i have subscribed.  Thank you so much for the wonderful video.,True
+@Popsimath,2020-06-06T09:50:49Z,0,"I may be doing something wrong but when I pasted the navigation code snippets, 3 hrefs were printing in White through my blog post letters ie <a class=""nav-item nav-link"" href=""/about"">About</a> would print About in white. I just deleted them. Not sure if that was best practice.",True
+@carlitox47,2020-06-05T23:47:20Z,0,"Hello Corey, love you Tutorials. Im pretty newie at HTML and CSS. Question: should I be able to hardcode all of the snipplets by myself when Im building a site proyect??",True
+@sanjeevkrishnaa2672,2020-06-05T19:07:14Z,0,My navigation bar is glitched out and has no background and appears behind the first blogpost. Can someone help me with this? Thank you :),True
+@plabonkumersarker,2020-06-03T15:56:36Z,0,"Thank you soo much ,you are really really good at teaching~Anyway,a bit correction needed in your main.css file.In line 9 ,you should close the paragraph tag(</p>).But you did this in line 16.",True
+@ermacheton,2020-06-01T20:31:19Z,0,"Hi Corey, I don't know what happened but out of the blues I can no longer start with debug mode =true and the code where it checks the __main__ is still in could you walk me as to what needs the process to be? this set FLASK_APP=flaskblog.py needs always to happen where Python resides? and then move where the actual project resides and do flask run  ??? I'm I right? why does debug mode is always off now?? Thanks so much for your help",True
+@ademolaajayi,2020-05-28T10:32:32Z,2,Quality Video...,True
+@user-xb7dk2qy1r,2020-05-28T03:47:53Z,1,"Hi Corey. Thanks for these tutorials. I was following along with you and ran into a problem. After incorporating bootstrap and the other html and css files from your snippet, my webpage looks nothing like what yours looks like. The Blog post headings overlap with the navigation bar, whose content is white in color and essentially invisible. Any idea what could be the problem?  EDIT: I've figured out that this has to do with the bootstrap version I'm currently using. At the time of this tutorial it was version 4.0, now it's 4.5. Switching to 4.0, it rendered the nav bar and the rest of the content just fine. So I'll need to look up what changed between the 2 versions to cause this. If you have any idea, please let me know. I'll keep researching this",True
+@kartikxramesh,2020-05-27T12:52:37Z,3,"Only 8 minutes in, and I'm just so amazed by the quality of this video. I'm a C++ programmer, and I never thought I'd enjoy Python this much. Thanks a ton Corey! P.S. I'll definitely become a patron once I get my first paycheck :)",True
+@lolkgraham1727,2020-05-24T21:35:22Z,0,"Here, mister @CoreySchafer! A sincere thank you, from the community of python beginners. You have done a very good thing. There is NO better paid or free content on the entire world wide web that can outstand The quality and easy understanding of Flask in your series!!!               THANK YOU SIR!",True
+@lolkgraham1727,2020-05-24T19:35:17Z,0,Man you are so fucking awesome,True
+@mohammedfahlaoui832,2020-05-24T17:20:14Z,0,Thanks for this tutorials i like it .,True
+@aromaljosebaby9176,2020-05-23T11:00:51Z,0,Where do we download these code snippets from?,True
+@kthegreat69420,2020-05-21T10:33:34Z,0,18:47 why not use css?,True
+@kthegreat69420,2020-05-21T07:26:20Z,0,Which is that editor?,True
+@davitkvaratskhelia86,2020-05-20T00:12:38Z,1,When i run it my page is absolutely different from page shown on this video. i also googled for another mini-project web-pages and copied their CSS & HTML code but there is also same problem with design. Everything goes well with HTML but part of design is totally different. PLEASE SOMEONE HELP ME,True
+@tanishqsangwan,2020-05-17T17:44:18Z,1,Good tutorial bro! Plus the video quality is good which definitely is required for when watching coding tutorials!,True
+@aleksandarmakedonski1543,2020-05-17T10:20:33Z,0,Is this RESTful web servirs please someone answer?,True
+@sandeepsoni9251,2020-05-16T06:22:24Z,0,"Error came as no module named forms in Flask.py Code is:= from flask import Flask,render_template,url_for from forms import RegistrationForm,LoginForm  App=Flask(__name__) App.config['SECRET_KEY']=' ' posts=[     {         'author':'Sandeep',         'title':'About Pandemic',         'content':'COVID-19 is spreading at a very high rate',         'date':'May 14 2020'     },     {         'author':'Joe',         'title':'About vaccine',         'content':'Vaccine can be founded based on some microbiology rules',         'date':'May 15 2020'     }   ]  @App.route(""/"") @App.route(""/home"") def home():     return render_template('Home.html',posts=posts)  @App.route(""/about"") def about():     return render_template('About.html',title='About')  @App.route(""/register"") def register():     form=RegistrationForm()     return render_template('register.html',title='Register',form=form)   @App.route(""/login"") def login():     form=LoginForm()     return render_template('login.html',title='login',form=form)  if __name__==""__main__"":     App.run(debug=True)",True
+@prashantpokhriyal6308,2020-05-14T16:26:50Z,0,Can you how to implement Comment and Reply to blog,True
+@adityadubey1269,2020-05-13T17:21:25Z,6,Came here after watching a confusing flask tutorial on cs50. But seriously he made it so easy n understandable.,True
+@alixaprodev,2020-05-13T12:42:15Z,0,hi there remember that there is no space between { and % . you have to write it like this {% %} it takes me to quit flask. hahah,True
+@ahmeds2278,2020-05-12T20:42:19Z,1,"Hey Corey :) First of all, I really LOVE your videos, they helped me a lot and I really enjoy them.  If I may ask, why and how did you use the dot operator to access the dictionary keys instead of doing it like this (post[""title""]) for example ? It still worked for me, but this is my first time seeing this way to access dictionary keys",True
+@DiceCrypto,2020-05-11T23:30:27Z,0,Can anyone explain why you have to pass posts=posts rather than just posts as the parameter for render_template?,True
+@degeneratetech1045,2020-05-09T20:09:39Z,0,what does mean @ ?,True
+@anishah7097,2020-05-08T19:24:26Z,1,thank you Corey Schafer for your amazing content,True
+@puhalenthirameshvidhya350,2020-05-07T22:12:32Z,2,love it,True
+@chetanhireholi,2020-05-05T06:52:27Z,0,Great series! learning a lot!,True
+@lukaslutschiano512,2020-05-04T13:29:40Z,0,Hi Corey great video. Why can we access dictionary entries like object attributes within the flask environment? I would have expected post['author'] instead of post.author. Cheers!,True
+@demigod6190,2020-05-04T08:13:36Z,0,you are best of the best <3,True
+@DrGlutton1,2020-05-03T12:12:55Z,0,Im watching this after paid Flask lecture and finally Im beginning to understand something... You are the savior,True
+@markonikolic6346,2020-04-30T23:01:25Z,0,Just move Static folder out of Templates folder and CSS will work!!!,True
+@mdyounusahamed8259,2020-04-30T19:40:12Z,0,my main.css is not working. what can i do?,True
+@Amitkumar-hq8ez,2020-04-28T06:32:20Z,0,"Would anyone help me out. I have made other pages in html by learning in this series, but unfortunately css file is not working in other html pages ? I have put ccs in static folder and htmls in templates. It only works in layout.html.",True
+@thenotorious3763,2020-04-27T14:35:01Z,0,"You are The King of Kings in these technology ! would love to know what you do in real life , are you a guy who works in IT field or do you own a Start-up ?",True
+@aguy2241,2020-04-27T09:35:00Z,0,https://www.youtube.com/watch?v=MAlSjtxy5ak,True
+@vahidsediqi5638,2020-04-21T18:43:29Z,1,"You are awesome, Thanks",True
+@kevalhirpara8210,2020-04-21T16:06:01Z,0,Hiii corey this tutorial not affected the navigation bar so what problem rais,True
+@rozznaija3301,2020-04-20T00:30:29Z,3,Does anyone have an idea on how to change the nav bar color? I've updated to different css color codes but it's not working. Thanks,True
+@daniloradosavljevic5533,2020-04-16T23:28:04Z,1,"Amazing content there man, thank you so much!",True
+@mahfuzhasan7588,2020-04-15T09:30:08Z,2,"I have been your fan by watching your teaching style and contents, amazing.",True
+@junyuan399,2020-04-13T19:16:13Z,24,"Smh i'm paying school fees to get taught by teachers that can't teach well. However, Corey's tutorial videos are so much easier to understand and it's free!    Thank you for being my actual programming teacher!",True
+@nghiepcrypto7034,2020-04-11T22:46:29Z,11,"when I think about Python tutorials, I think about you. It just pops up in my mind immediately, very natural.",True
+@yogeshvishnole1264,2020-04-11T11:02:55Z,2,Love you sir very high quality python tutorial I share to  all my friends,True
+@ai.201,2020-04-10T14:06:31Z,1,Great info,True
+@mr.RAND5584,2020-04-10T12:33:52Z,1,I am not bored this covid quarantine. Thank you sir. So clear explanation.,True
+@ritheshjarvis4177,2020-04-10T11:36:05Z,1,Thanks Corey. You are a great Teacher.,True
+@shuaishao2584,2020-04-08T19:10:48Z,0,I hope I can give you 100 likes,True
+@AbdelaazizHESSANE,2020-04-06T21:00:34Z,1,"Hello, Thank you for this video, is there any GUI, ""kind of drag and drop tools""  to generate the code of the various Snippets you have used in this tutorial ? Thank you in advance",True
+@AlorPoroshTV,2020-04-05T06:47:08Z,1,Waw.. it's really nice.. I'm from Bangladesh,True
+@anandsrikumar007,2020-04-04T19:26:34Z,3,"Your videos are better than many paid courses from Udemy! You are explaining so clearly No unnecessary theory, no dragging the video long. Just getting to the point!",True
+@palashmondal9088,2020-03-30T14:04:52Z,1,Excellent..,True
+@kakoozarichard5769,2020-03-28T23:14:32Z,1,These are one of the best tutorials ever...Thank you very much papa!!,True
+@Matias-rn9ff,2020-03-28T19:28:59Z,1,THIS IS GREAT!! THANK YOU SO MUCH!,True
+@noureddineettayyeby5210,2020-03-27T22:02:58Z,1,thank you,True
+@gauravkakran7859,2020-03-26T17:02:51Z,0,we have to write code for bootstrap or copy from the bootstrap website cause lots of code are used in this so how can we learn this?,True
+@shayhalfon5460,2020-03-25T20:08:18Z,0,"Hi, wanted to know where I can find info about the optional classes? Thanks for the video!",True
+@user-xc5xf8gp8n,2020-03-25T16:19:31Z,0,"Summary: It is complex to view all the html codes in our original python code itself, and this gives rise to the need for importing render_template class from the flask library. We can pass in variables to the html files using {{}}. We have to pass in a second argument in render_template function, as 'name to be used in html = variable in our python file'. In the html file, we can pass in the variable by inserting name in the double curly braes. Values generated from our dictionary will be accessed through '.key' format. We can also make codes using {%%}. Unlike our loops and conditionals in python, html codes has to be ended manually by using statements such as {% endif %} or {% endfor %}. This system is somehow similar to the C++ language.   We can make one html file inherit from another html file that is in the same directory. The parent file has a block code inside in the format of {% block name %} {% endblock %}. Putting {% extend ""layout.html"" %} in the first line of the child file is a declaration that we will extend from that parent html file. Simply putting the lines of code that we want between {% block name %} and {% endblock name %} will extend that particular block from the parent html file.   This way of inheriting html file from another is the best practices, because it lets our code stay 'DRY'(don't repeat your self). It makes us easier to debug, lessens time to code, and makes it easier to update our website. Therefore, Corey adds bootstrap operation and some other functions in the layout.html, which is the parent file. We add in the navigation bar, blah, blah, and so on.(I didn't really understand the last 6 minutes, because I was unfamiliar with concepts such as css, meta-data, and etc.)",True
+@matanarielhavron1,2020-03-21T12:18:32Z,5,Had this problem where my .css didn't load  - the problem was I created the static folder inside the templates folder and didn't notice... Mind your folder guys!  + I moved to VS Code lately so that didn't help.... :) Thanks for great tutorials!,True
+@infinitecosmos,2020-03-16T14:05:40Z,0,design of media-body is not shoing proper output and cardof blog post is not showing,True
+@aninditadey5852,2020-03-11T05:26:56Z,0,"i am trying to create multiple routes using jupyter as my platform.(keeping the debug mode on) but somehow there always an error popping up whenever i am doing that. when i am keeping the debug mode off there isnt any error.   FYI:the error is "" An exception has occurred, use %tb to see the full traceback"" could you help @Corey Schafer",True
+@lukerobertson1000,2020-03-11T03:00:43Z,1,Rich content mate! Love your work!,True
+@nicholaskim5807,2020-03-10T22:40:28Z,1,Why can't I change the color of different parts of the page? I put in different html color codes and it does not change. I also noticed even when I take out the main.css it looks the same.,True
+@d8nnii_,2020-03-10T16:48:25Z,0,@Corey how should I go about extending the layout if some pages are different from index.html? Do I create a another layout template jus for these pages?,True
+@TheCrashToaster,2020-03-09T23:19:50Z,0,_Let's make sure that our web server is still running_,True
+@danailpetrov,2020-03-09T09:28:54Z,0,@Jacob Cannon - where are you man ...,True
+@Khanzaki1,2020-03-06T21:23:44Z,0,First i had flowed your step But at The end it didn't show up the website correctly Then i copied all ur code from snippets but the issue is same Help (I am using Linux os),True
+@wajahatahmad2551,2020-03-05T22:51:29Z,0,"Not Working!  Try Again, Nope I would not Work! Again No Never Let Check This On Another Browser WTF ITs Working Here Lets Try Hard Refresh in the old Browse. You Fucking Chace Waste My 4 Hours                                                                                                    Ok This Shit IS                                                                Working        Worrking",True
+@marshallmyllz7561,2020-03-04T11:43:33Z,0,thanks man yo tuto helped a lot,True
+@sreevathsabr82,2020-03-01T04:53:41Z,0,Is there any rule or reason we keep function name same as route name ? Or just for identifying we do it ?,True
+@Nalurilolz,2020-02-29T23:56:43Z,1,"Thank you man, when I watch your videos it's like you're talking directly to my brain and answering just the questions I'm asking !",True
+@epic_waffle2359,2020-02-29T14:25:11Z,0,"Corey, the {% blockcontent %} says invalid syntax. what do i do?",True
+@ledung907,2020-02-28T13:26:45Z,1,awesome tutorial !,True
+@felipecaannavarro5441,2020-02-27T16:31:39Z,0,ITS DOESN'T WORK FOR ME :'( <!DOCTYPE html>  <html>    <head>      <title></title>  </head>    <body>      { % for post in posts % }      <h1>{{post.title}}</h1>      <p>By {{post.author}} on {{post.date_posted}}</p>      <p>{{post.content}} </p>      { % endfor % }  </body>    </html>,True
+@howardcdavis,2020-02-21T19:59:15Z,0,"So this ran great on local server, but got multiple 500 errors when I uploaded to AWS Elastic Beanstalk. I ran other basic Flask stuff just fine (even after tutorial 1). Not sure what problem is, but I am guessing from Bootstrap? Anyone had success with this on AWS? This is error that I see recur when loaded [Fri Feb 21 19:55:30.177044 2020] [:error] [pid 3364] [remote 206.127.6.101:116] mod_wsgi (pid=3364): Target WSGI script '/opt/python/current/app/application.py' does not contain WSGI application 'application'.",True
+@hardikkamboj3528,2020-02-19T05:56:06Z,1,"He is doing a great job, thanks a lot for providing it for free of any cost, may God bless you.",True
+@CorySchneiderOfficial,2020-02-19T01:12:38Z,5,"Corey, by glancing at your comments, I know you see this all the time, but: Your tutorials are amazing. No fluff or wasted time, but what feels like a perfect amount of information in every video. You're killing it, and I'm headed over to make a BTC donation right now. Once I get my first programming job, another $100 is coming your way.  From a fellow Cor(e)y, thanks so much!",True
+@jharris4854,2020-02-18T18:34:01Z,0,"Can anyone help me figure out why the Navigation bar isnt working correctly? I copied and pasted everything to the best of my ability to follow you precisely, but I didnt show up right at all. The first blog post is overlapping it and there is no shaded area",True
+@bharatgupta2584,2020-02-18T09:15:06Z,0,can't we just include main.css file without using url_for?,True
+@jharris4854,2020-02-18T07:42:18Z,147,"Your free tutorials are BY FAR worth more than the overpriced paid courses on udemy. Ive been educating myself in Information technology in almost every genre for the last decade, and HANDS DOWN you have the best content among any Ive watched. Only Khan academy videos come even close to your teaching quality. For so long I was disappointed Khan didnt have more computer science tutorials....and then I discovered you! lol KEEP IT UP MAN - I became a member just to support you bc Im so impressed with your work.",True
+@jharris4854,2020-02-18T07:34:55Z,0,"@Corey Shafer Do you have all of this syntax committed to memory or is there a reference manual, like a good book that you use?  Do you recommend a good reference book for those of us that cannot remember it all lol?",True
+@dipeshgoyal7070,2020-02-16T06:23:49Z,1,Great Tutorial! Easy to follow through.,True
+@alexandermedina4950,2020-02-15T18:58:48Z,0,Thank you so much!,True
+@FunnysunNet,2020-02-15T14:59:14Z,0,https://getbootstrap.com/docs/4.0/getting-started/introduction/#starter-template,True
+@mukammedalimbet2351,2020-02-15T06:31:37Z,1,"You are a man Corey, Best tutorial I've ever seen",True
+@gnolo,2020-02-09T12:57:51Z,1,"Amazing work, thank you very much!",True
+@abdeslamchettout7900,2020-02-07T15:39:35Z,1,"niiiiiiiiiiiiiiiiiiiiiiiiiiiiiice i watched many videos and u are the best bro ,thnx",True
+@pengtroll6247,2020-02-05T03:12:44Z,2,Wow the layout html inheritance is very cool! thanks for the awesome video as always!,True
+@FactDesk,2020-02-03T08:19:06Z,1,thank you bro it was easy to learn,True
+@SA-dw5ch,2020-02-02T12:22:17Z,1,You Are Great Man,True
+@bhargavibhatia5951,2020-01-30T12:16:35Z,0,"Great tutorial! I am having problems with implementing main.css for safari, works fine on chrome. Any idea how I can make it work for safari?",True
+@julidutta769,2020-01-22T20:01:08Z,0,"Hi Corey ..I want to say a big thank you for your tutorial.It is really very helpful.  I am facing an issue to extend my layout which is not working.Please advice me::::::::::::::::::  Here is layout.html:::::::: <!DOCTYPE html> <html> <head>      <!-- Required meta tags -->     <meta charset=""utf-8"">     <meta name=""viewport"" content=""width=device-width, initial-scale=1, shrink-to-fit=no"">       <!-- Bootstrap CSS -->     <link rel=""stylesheet"" href=""https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"" integrity=""sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"" crossorigin=""anonymous"">    <title>layout</title> </head> <body>  <div class=""container"">   {% block content %}   {% endblock content %}     </div>    <!-- jQuery first, then Popper.js, then Bootstrap JS -->     <script src=""https://code.jquery.com/jquery-3.4.1.slim.min.js"" integrity=""sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"" crossorigin=""anonymous""></script>     <script src=""https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"" integrity=""sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"" crossorigin=""anonymous""></script>     <script src=""https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"" integrity=""sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"" crossorigin=""anonymous""></script> </body> </html>     here is my register.html::::::::::::::::::::::::::::::::::::::::::::::::::::::::::   {% extends ""layout.html"" %} {% block content %}     <div class=""content-section"">       <form method=""POST"" action="""">        {{ form.hidden_tag() }}        <fieldset class=""form-group"">         <legend class=""border-bottom mb-4"">Join today</legend>         <div></div> class=""form-group"">          {{ form.username.label(class=""form-control-label"") }}          {{ form.username(class=""form-control form-control-lg"") }}         </div>         <div class=""form-group"">          {{ form.email.label(class=""form-control-label"") }}          {{ form.email(class=""form-control form-control-lg"") }}         </div>                 <div class=""form-group"">                     {{ form.password.label(class=""form-control-label"") }}                     {{ form.password(class=""form-control form-control-lg"") }}                 </div>         <div class=""form-group"">          {{ form.confirm_password.label(class=""form-control-label"") }}          {{ form.confirm_password(class=""form-control form-control-lg"") }}         </div>        </fieldset>        <div class=""form-group"">                {{ form.submit(class=""btn btn-outline-info"") }}        </div>       </form>     </div>     <div class=""border-top pt-3"">      <small class=""text muted"">       Already have an account? <a class=""ml-2"" href=""{{ url_for('login')}}""> Sign In </a>      </small>     </div> {% endblock content %}   ::::::::::::::::::::::::::::::::::here is my  form.py module ::::::::::::::::::::::::::::::::::::::::::::::::::::   from flask_wtf import FlaskForm from wtforms import StringField,PasswordField,SubmitField ,BooleanField from wtforms.validators import DataRequired, Length, Email, EqualTo    class RegistrationForm(FlaskForm):     username = StringField('Username',validators=[DataRequired(), Length(min=2, max=20)])     email = StringField('Email',validators=[DataRequired(), Email()])     password = PasswordField('Password',validators=[DataRequired()])     confirm_password = PasswordField('Confirm Password',validators=[DataRequired(), EqualTo('password')])     submit = SubmitField('Sign Up')     class LoginForm(FlaskForm):     email = StringField('Email',                         validators=[DataRequired(),Email()])     password = PasswordField('Password',                               validators=[DataRequired()])     remember = BooleanField('Remember Me')     submit = SubmitField('Login')   :::::::::::::::::::::::::::::::::and here is flask module:::::::::::::::::::::::::::::::::::::::::::::::::::::::   from flask import Flask,render_template,url_for from form import RegistrationForm,LoginForm app=Flask(__name__)   app.config['SECRET KEY'] = '48cb62d823a913ef108fe2f405864876'   pst=[           {               'Author' : 'Juli Dutta',            'title' : 'Blog post 1',            'Content' : 'First post content',            'Date_posted' : '17/10/2020'        },        {               'Author' : 'Ruhi Borgohain',            'title' : 'Blog post 2',            'Content' : 'Second post content',            'Date_posted' : '17/10/2020'        } ]   @app.route(""/home"") def home():  return render_template(""home.html"",pst=pst)     @app.route(""/about"") def about():  return render_template(""about.html"")     @app.route(""/register"") def register():   form = RegistrationForm()   return render_template(""register.html"",title='Register',form=form)     @app.route(""/login"") def login():   form = LoginForm()   return render_template(""login.html"",title='login',form=form)     if __name__=='__main__':  app.run(debug=True)     I have put all the html file in 'template' folder in the same directory where python module are present.",True
+@taruchitgoyal3735,2020-01-19T18:02:31Z,0,"Hello Sir,   I tried adding navigation but when I click on the button it says url not found, although my files are located in same location. In layout.html: - <body>   <div class=""container"">     <nav class=""navbar navbar-expand-sm bg-light"">      <ul class=""navbar-nav"">       <li class=""nav-item"">        <a class=""nav-link"" href=""home.html"">Home</a>       </li>       <li class=""nav-item"">        <a class=""nav-link"" href=""about.html"">About us</a>       </li>       <li class=""nav-item"">        <a class=""nav-link"" href=""#"">Contact us</a>       </li>      </ul>     </nav>   Please suggest the solution to resolve the issue.",True
+@miraccan00,2020-01-18T09:30:48Z,0,this tutorial encourage to us  :) thanks for your time and maybe you should think that 'python data structure series',True
+@mikey904,2020-01-18T02:03:02Z,0,My template borders aren't lining up properly on the front end. my header are overlapping the top links. Any fix?,True
+@leosmi1,2020-01-17T19:47:30Z,0,https://pythonhosted.org/Flask-Bootstrap/basic-usage.html,True
+@leosmi1,2020-01-17T17:38:05Z,0,"Hi, I did everything equal to you, but my bootstrap modification isn't working.. :(",True
+@SumitKumar-tx5mi,2020-01-16T07:19:25Z,0,When i run the prog. It shows jinja2.exceptions.Templatenotfound:home.html,True
+@brentvsmaximvsone,2020-01-15T19:40:37Z,1,unable to get the nav bar to show up - and sugggestions as to why?,True
+@revanthvarma2000,2020-01-13T18:41:38Z,0,I was just thinking why can't you just run that python code in sublime text itself,True
+@taruchitgoyal3735,2020-01-12T17:47:04Z,0,"Hello Sir, Its been amazing to learn and build application in Flask so far; and I am sure it will get more exciting in next set of sessions. I have a query: - While using url_for, I created a folder ""style"" and kept my main.css file in it. Then, in layout.html I wrote following: - <link rel=""stylesheet"" type=""text/css"" href=""{{ url_for('style',filename='main.css') }}"">   However it failed giving some cryptic error about Jinga syntax.  But, then I changed the folder name to ""static"" and similarly replaced the style with static in the code, the issue got resolved.   Thus, can you share if there is any special relevance to ""static"" while using url_for.",True
+@scubamage,2020-01-11T17:48:02Z,1,"This is a very good video. The only thing I didn't like is that about 24m in with the navbar it felt like you kinda did the ""draw the rest of the fucking owl"" thing. You did an awesome job explaining everything up until that point, and then you started copying and pasting large quantities of stuff with little explanation. You mentioned using bootstrap, and you said you were pasting in stuff with bootstrap styles, but you didn't really explain it. Even if you said RTFM it would have been helpful to know where it could be found in the docs for more detail. Overall it's a minor gripe since bootstrap isn't a requirement, and overall, great job.",True
+@aryanchaubey6374,2020-01-11T12:24:11Z,1,"Hi Corey! I am encountering a problem. For some reason my web application doesn't even look like yours (in terms of the styling). I used the code snippets and I have check every line of code written, but I don't see anything wrong, neither does my IDE flag anything. Everything else is running really well, just the styling is not coming through and I don't know why. Can you please help?   Thanks!",True
+@slackjaw9963,2020-01-10T22:31:41Z,0,Im getting a syntax error for line 17  ] invalid syntax error for my list with the dictionary in it,True
+@sojino,2020-01-05T09:25:44Z,1,"wow wow!  Corey, you are the god of teaching.",True
+@tubalix,2020-01-05T07:43:43Z,6,"I keep on watching more and more videos on python, also on Udemy. Then I come back to Corey and genuinly conclude time after time: Corey is the best!! I feel grateful for all of us out there you are there around making those videos in such a fantastic way. Thanks, you definitely are the man!!!",True
+@user-oj5xd7ty3u,2020-01-03T10:52:59Z,0,very kind and easy vedio ever. thank you so much,True
+@muhammadkamal1890,2020-01-03T06:32:12Z,0,"@app.route(""/"") @app.route(""/home"") def hello(name=None):      return render_template('home.html', name=name)       use this in windows if you get any error.",True
+@amitsharma8337,2019-12-24T22:50:50Z,0,Can't we have a hierarchy of folders under the static folder? Does all the files that are needed to be static needs to be directly under '/static/' folder? can't we have something like '/static/js/jquery.min' or something like that?,True
+@kendallbraun4372,2019-12-24T00:55:46Z,0,you're amazing,True
+@capeandcode,2019-12-19T10:03:20Z,2,"Everytime I look up a topic and find a Corey Schafer video about it, I know the search is over...this is it",True
+@fonzjedelarosa7587,2019-12-18T13:08:04Z,1,"Once again, excellent tutorial ... thanks!",True
+@junqueirapedro,2019-12-18T07:15:58Z,1,@coreyshafer amazing over 400k. This is the beat Python channel on YT by far. Big fan and love the flask series.,True
+@SilverMiraii,2019-12-13T09:55:56Z,1,"I have apache server running, and if I try to access the flask server using my ip, it doesn't work, even if I access a route not the home page, any ideas ? btw it does work with localhost but I basically want to set a webhook, when it sends me a request, the server would handle it",True
+@rickyoyaro1433,2019-12-10T21:30:02Z,0,You are absolutely the best tech instructor on youtube!,True
+@Ninan_9,2019-12-08T07:25:32Z,0,"Hi, could you possibly do a tutorial of this with the bottle framework? Or is it very similar?",True
+@belalsalem4261,2019-12-05T14:01:26Z,2,"Thanks... appreciate it.. quick, clear and straight to the point",True
+@ericsokoine,2019-12-03T21:08:56Z,0,fantastic tutorial,True
+@rehansarfraz4091,2019-11-29T13:58:44Z,7,I can't believe this thing is free. great content. you're sure getting blessed with quite a lot prayers....,True
+@diegoab5280,2019-11-28T16:18:32Z,3,"Hey,  when I copypaste the starting template from the bootstrap 4.4 documentation, the container div doesn't seem to work, but when I put the 4.0's one, it does. Any idea why this happens? Is 4.4 buggy or does my flask version not support it?  Thanks for your videos by the way, these are the best tutorials i've seen on youtube",True
+@Neghaheno,2019-11-19T18:59:07Z,1,Thank you ! Thank you ! Thank you !,True
+@explainmemllike5,2019-11-18T20:03:02Z,0,@14:54 inherti,True
+@explainmemllike5,2019-11-18T19:02:16Z,1,@8:50 Passing arguments to templates,True
+@explainmemllike5,2019-11-18T19:00:20Z,0,@4:58- Loading Template,True
+@topgunm,2019-11-13T22:51:51Z,1,Watching all the ads to support this awesome teacher - the ads are trying to send me to other learning sites - but we got the best teacher here already! Thanks once again Corey.,True
+@raulpinto2436,2019-11-12T16:17:00Z,0,"Hey Corey, Do you have any tutorials where you are reading from MongoDb with Flask-PyMongo",True
+@theresatobollik2382,2019-11-11T18:15:51Z,1,Great Explanation. Thank you!,True
+@hrishikeshbhanja3563,2019-11-10T16:37:58Z,0,"It would be great if you could just shorten your video time by breaking it up into smaller videos . Otherwise, I  am in love with your videos . I am 13 yrs old and it would be great if you could guide me in this huge world of programming . Please reply .",True
+@muhammadsalmankhan9326,2019-11-05T16:11:52Z,0,"your subsribers are toooo less than your efforts ,,,, great efforts indeed",True
+@AnVinhNguyen,2019-11-05T11:11:31Z,1,Your Youtube Channel brings so much good to the world. Thank you for making the contents available for us who want to learn,True
+@danielbeffermann7496,2019-11-01T20:04:21Z,0,"hey Corey, i found this very useful.   Could you do the Bootstrap extension video?   Thanks!",True
+@codinghustle5484,2019-10-30T02:32:27Z,0,sir when i am doing some changes in main.css file i can't see them in http://127.0.0.1:5000/home.why?,True
+@madhusudhanreddygone2667,2019-10-23T03:25:03Z,0,i'm getting error  jinja2.exceptions.templatenotfound   how to resolve that,True
+@markkim8802,2019-10-17T03:10:43Z,0,no one else noticed he used 4/20?,True
+@mailrafat,2019-10-15T16:00:17Z,4,"Corey is the Master of all ""Paid So-called Gurus (they should pay him to learn how to teach rich contents without asking for money)"" out there, the way he teaches gets hard-coded in your memory while you'll be having perfect to the point practical knowledge for that subject matter, Hats off sir!",True
+@space8161,2019-10-15T08:09:58Z,1,become my teacher please,True
+@freddief939,2019-10-12T20:21:08Z,0,jinja2.exceptions.TemplateNotFound: home.html,True
+@h_wavey7006,2019-10-07T09:34:02Z,2,18:40 bootstrap intro,True
+@h_wavey7006,2019-10-07T09:25:50Z,7,14:17 layout.html inheritance talk,True
+@caongocdavidlong,2019-10-07T06:24:11Z,0,Most of this is about html.,True
+@gauravkumarpandit7022,2019-10-06T06:37:16Z,0,I tried to clone your github directory but It was of huge size,True
+@austinhoag5130,2019-10-04T15:48:06Z,0,"Extremely helpful tutorial. One comment I have is if you load the external jquery script in the parent template ""layout.html""  after the block content section where each child template will run, jquery will not work in a child template if you try to use it in javascript. Bootstrap will work in this case because it acts after the page loads, but jquery must be loaded before you try to use it in a script of your own. I sovled this by putting my jquery load in the head of layout.html. However, I've looked around and putting the jquery load where you put it seems standard... How do people deal with this then?",True
+@nicholasnicolo2800,2019-10-04T04:46:38Z,0,"I am having an obnoxious time with the for loop using JinJa2. It's not only not working, I'm not able to see any HTML within the body of my file. :/ Any help here would be amazing.",True
+@tylerbonklevoss8986,2019-10-03T21:48:49Z,0,"in the for loop why is it ""for post in posts"" when all the vars are named ""posts""? so, why wouldn't it be ""for posts in posts""?",True
+@JSSTELECOM7862,2019-10-03T02:28:32Z,0,Type same code but err not def about,True
+@GreekkAlex,2019-09-28T09:09:04Z,1,You are awesome!! Greetings from Kazakhstan! \m/,True
+@mikem8915,2019-09-26T21:56:15Z,1,My navigation bar isn't showing up. Has anyone else had this problem? I think it's there ... But it's behind the content in <main>.  I tried copying Corey's code directly from Github and that didn't make a difference. It happens in Chrome or Edge and I'm using Windows 10.,True
+@gettyasnake1183,2019-09-25T15:12:05Z,1,"Great tutorial, thanks for sharing your knowledge; you are a gifted teacher.",True
+@tushargh2489,2019-09-25T12:35:24Z,1,Thank you very much Corey for providing  a wonderful learning experience,True
+@comicks3800,2019-09-22T15:25:22Z,1,"this is how many times he said ""I know this text is really small""",True
+@sarathtv,2019-09-11T06:20:06Z,1,"hai corey, let me first thank you for such an awesome tutorial. i was just working with the main.css i tried changing the color of the website by changing the hex values in main.css. but it was not reflected in the website. is there anything else i should do?",True
+@chiu-minglam630,2019-09-07T23:20:59Z,0,Any good tutorial for Bootstrap?,True
+@mirham3802,2019-09-01T18:49:39Z,0,You are really HELPFUL man! thanks a lot. It would be great if one day you tackle QT for python,True
+@saqibrahman5306,2019-08-29T18:03:11Z,0,jinja2.exceptions.TemplateSyntaxError why this error?,True
+@harishvemula6709,2019-08-29T10:49:52Z,0,Can any one tell me the color which he used in the sublime text,True
+@ChadTomford,2019-08-25T10:07:31Z,1,April 20th huh? Interesting choice :) Keep up the awesome work Corey!,True
+@kyzone,2019-08-24T13:58:43Z,1,I think I'm not saying nothing wrong if I affirm you're the best teacher on YouTube!!!,True
+@garcia3180,2019-08-23T14:39:45Z,1,"Man, your pronunciation is beautiful",True
+@berkaykrmzoglu4443,2019-08-23T11:06:00Z,1,Its really pretty clear. Thanks for that,True
+@MihneaSoulZ,2019-08-22T08:34:29Z,0,"hey, is it ok as web developer to use someone else`s css or html in order to customize your webpage?",True
+@Andi199656,2019-08-20T16:22:24Z,6,This is literally the best tutorial I have ever seen in my life. Thank you so much for creating such good content! Greetings from Germany :),True
+@h_wavey7006,2019-08-20T01:50:37Z,1,"I have been having problems with the template, after an hour of googling I can't find any solutions. Can anyone help me with why my home page wont show after following the render template steps for the home page at around 3:03",True
+@bethmonka8741,2019-08-18T20:48:09Z,0,Just want to add the templates folder has to be names templates as that is where Flask render_template looks for the templates,True
+@DarkStarRules,2019-08-17T18:57:37Z,1,"If for some reason something doesn't work, try resetting your computer. For some reason, that works...",True
+@nakhla3,2019-08-13T00:07:23Z,1,"very informative video and in the same time like playing with puzzles and a real product at end, can't thank you enough",True
+@ErickG,2019-08-11T00:28:50Z,1,ily,True
+@silvgravity4492,2019-08-06T20:32:38Z,1,amazing tutorials!,True
+@mianmwaqas4429,2019-07-30T09:58:43Z,2,thanks alot,True
+@TheMbahlol,2019-07-27T14:15:22Z,0,"Is it okay if I'm not import url_for on my .py file? when I refresh, it still works.",True
+@souvikghosh1735,2019-07-27T07:20:49Z,0,"Sir... I have been encountering an, 500  internal server error... I am a bit confused about where exactly to save the templates.. Is it inside the app directory?  But still den i am encountering the error",True
+@TinkerLittle,2019-07-22T07:19:53Z,1,"Hello , i want to ask you that how we solve flask is not updating css when we change it ? is it browser cache problem or what?",True
+@shaneshen6856,2019-07-17T13:42:54Z,0,why does the navigation part display quite strange in my website?,True
+@Monray87,2019-07-17T13:32:36Z,2,Thanks so much for creating this awesome content! you get a like and a follow from me!,True
+@thomasfeldman3613,2019-07-16T05:17:29Z,2,This is so helpful I almost can't believe it! Thank you so much Corey!!!,True
+@bhargavreddy7038,2019-07-14T15:45:01Z,1,love you Corey Schafer,True
+@zihengxu,2019-07-11T06:54:44Z,21,These are some of the highest quality tutorials I've ever seen. Makes me start to doubt the quality of my 200k college education.,True
+@chrschra,2019-07-08T10:51:35Z,2,"Hi, I don't know if it's only me but I don't see the navigation bar. Its somehow there, but its row/bar doesn't have a color and it has no spacing to the blog content container. Main.css is in place. Everything is fine. But the layout is messed up. I'm pretty sure that I've done everything correct. Does anybody know what might be the reason? REASON: ""navbar-dark"" as well as  ""fixed-top"" isn't in main.css. Its also not in that main.css of your video. Why is that working for you?",True
+@bavalpreetsingh4664,2019-07-05T08:35:09Z,1,i am not getting the same view as that of yours actually nav bar color is not there and the text flask blog is overriding Blog post 1 with white color.,True
+@aryansethi5508,2019-07-05T08:33:43Z,0,"Literally amazing tutorials. Just loved them so much. I tried about 5 others , but this one  is <3",True
+@aryansethi5508,2019-07-04T12:23:44Z,1,"Hello. I'm facing a problem. When I'm applying some changes to my main.css file ,the changes are not reflected in my webpage when i refresh it. After applying the changes to my main.css file, i opened the 'view page source' and opened the main.css file and saw there were no changes made . PLEASE HELP",True
+@mikerihm,2019-07-02T13:33:11Z,2,You are a fantastic teacher. This is so easy to follow and very enjoyable - great job man!,True
+@idogevony,2019-06-30T15:17:52Z,0,"Has  anyone run into this problem...I make changes in the main.css file, but when I go to the page in the browser it loads the previous main.css before the changes. But if I  refresh the main.css file in the browser and then reload the actual  webpages it makes the changes...",True
+@jamescathode6917,2019-06-30T13:56:06Z,0,Haha. That was too much to digest indeed.,True
+@adarshchaudhary5362,2019-06-29T21:43:44Z,1,Best Flask tutorial out there. Thanks man,True
+@dareal738,2019-06-29T20:11:09Z,0,"The video is great but I have an issue, the navigation bar is there but I don’t see the background colour of the bar?",True
+@rithikashetty1770,2019-06-27T11:51:49Z,0,How can we pass python graphs to our HTML template?,True
+@hiufungmak2436,2019-06-26T12:26:48Z,0,how to change the background image?,True
+@TrumanBurbonk,2019-06-24T20:58:59Z,0,"I have a question regarding one thing that I don't get. layout.html has block content in <body> but home and about page inherit everything from layout page including bootstrap from <head>. How is that possible, what am I missing?",True
+@suyashtrivedi6245,2019-06-22T14:55:52Z,5,Keanu Reeves of Python Tutorials :),True
+@deepakmenon7217,2019-06-21T09:00:08Z,2,Corey! you are one amazing teacher.,True
+@burhansancakl351,2019-06-20T13:59:08Z,0,0:50 its just like playing god of war like games without upgrading any items,True
+@mdabuaslam9415,2019-06-19T18:17:24Z,0,Please make videos on machine learning....I'm ready to take a paid subscription for that....if u have already made it....please paste the link... thanks,True
+@mdabuaslam9415,2019-06-19T18:15:29Z,1,Why are you sooo good....God bless u,True
+@selmanesimahdi7968,2019-06-19T11:19:48Z,2,"I love the way you explain things, you are the best maan :) :) <3",True
+@georgeconstantine9232,2019-06-19T01:07:33Z,0,"Hi Corey, Do you have any resources or know of any to recommend when it comes to learning how to code HTML. I know the basics and I can make sense of all the html in this video, but when it comes to writing it I wouldn’t know where to start",True
+@jashbangdiwala4575,2019-06-18T22:33:18Z,14,This is highly detailed and really well thought of. There’s a great structure and a perfect flow for a beginner to follow !,True
+@Liamreeves,2019-06-15T09:05:08Z,1,I see you ;) https://youtu.be/QnDWIZuWYW0?t=381,True
+@meowmeow21588,2019-06-12T03:59:21Z,0,So it's fine if I don't add the bootstrap code and CSS / html stuff in right?,True
+@pavelnikolaev2660,2019-06-09T18:26:39Z,1,Thank you for the great video!,True
+@JaishyamRB,2019-06-08T22:22:45Z,0,"even if i change the values in the main.css file the output is not reflected on the browser, why is that so ca anyone explain ?",True
+@callanmurphy,2019-06-03T01:37:13Z,0,How would I change the colour of the heading? I tried simply editing the colour code in the .css file but this didn't work,True
+@khalidshaikh7075,2019-06-01T17:26:24Z,2,this are very very high quality content we are watching for free u are awesome at this man  thank u,True
+@l4tix,2019-05-29T22:43:31Z,0,"I don't know why the text won't change (22:05), happened the same with django",True
+@krishnasivakumar2479,2019-05-29T11:36:06Z,0,"Man, bootstrap is code heavy",True
+@markslowe,2019-05-28T04:32:25Z,3,These tutorials are PERFECT. Well done and thank you!,True
+@Endlessvoidsutidos,2019-05-27T19:16:43Z,2,one of the best and most comprehensive tutorials on flask bootstrap and css integration i have ever seen well done sir,True
+@nareshchandrasekaran9427,2019-05-26T04:47:55Z,0,"Hi there,   In this templates tutorials you have used html, will you put some videos on html basics. Thank you for this tutorials.",True
+@snowwood4732,2019-05-25T09:42:29Z,0,"which is different between 2..    href=""../static/main.css""    and      href=""{{ url_for('static',filename='main.css') }}",True
+@shanmukhasrinivas2514,2019-05-25T04:13:09Z,0,while using for loop to posts which contains dictionaries how did you access those values using  dot operator??,True
+@markwoellert6440,2019-05-24T12:52:53Z,0,Hi there can u tell me your Theme u use from sublime text?,True
+@vyashas4483,2019-05-21T13:23:04Z,1,bro there videos are the best . they really are of high quality . i also loved the way you explained the things.....thankyou it was very helpful,True
+@believeit5450,2019-05-19T09:29:27Z,1,Thank you ! Interesting Tutorial Well Explained !,True
+@spencerwilliams3385,2019-05-15T17:25:48Z,1,This makes my brain hurt. Try again tomorrow!,True
+@alainhachem7168,2019-05-15T02:39:57Z,2,"As I follow your step and create the blog with you, I am learning on a next level. I have taken a python class before and left it unable to code at all, thanks to your videos it is actually all making sense. Thank you so much.",True
+@davidlanday6102,2019-05-14T00:37:50Z,0,"Corey, awesome video! One nit-picky catch that I saw was that in your layout.html file, you forgot to delete the <title></title> tags above your if statement, so title=About will not actually render in the browser (i.e: when you hover over the tab)  (edit:) NVM. It was I who forgot haha",True
+@somewherenear3003,2019-05-13T07:49:54Z,7,"Everyone don't forget to name your folder ""templates"" not ""template"" Otherwise it won't work.",True
+@nocafg,2019-05-11T20:04:53Z,1,"You are the hero, 👌, doing more than those paids one.",True
+@yltfy,2019-05-09T14:54:01Z,2,Excellent video! Much better than those paid video tutorials on some learning websites...,True
+@mikefu3382,2019-05-09T01:24:11Z,0,Thank you for your high level tutorial video! Actually I met a problem that I got nice  look page on Edge while messy layout on Chrome. How can I solve that problem? Thank you again for these materials.,True
+@lukashk.1770,2019-05-08T13:28:19Z,0,"can anybody explain how it is that he gets the value from the dictionary by using .dot operator (post.title, post.author etc.. ) instead of post[""title""], post[""author""] --- time around 9:00 in the video. is it somehthing special about jinja template (or I miss some basics in python) :-/ ?",True
+@IPADrinker,2019-05-06T22:46:26Z,1,"Grateful for this video, but I would have preferred seeing this one in particular being broken into a few videos.",True
+@bulcub,2019-05-04T04:41:21Z,0,"I understand this video is over a year old, but I was following the examples etc and on my chrome and firefox I don't have the navbar? and I don't have the containers for the Blog posts or Sidebar",True
+@priyashishkhare,2019-05-03T16:50:32Z,0,Please increase font size to view it on mobile device. It's harder to see...,True
+@alberth65,2019-05-02T16:35:11Z,0,It seems that we are not using the (url_for) directly in the flaskblog.py. May I ask why we import here? Thank you.,True
+@parvazprint1009,2019-04-30T14:13:39Z,2,a special thanks to your father for creating you <3,True
+@mohamedrashidey8027,2019-04-30T00:21:14Z,0,Corey pleas can you explain flask notifications,True
+@billhall6654,2019-04-28T13:29:06Z,1,Outstanding tutorials Corey,True
+@kacperolek4754,2019-04-28T10:27:41Z,1,Did something change since it was posted?,True
+@sebastian-yellowbunny2746,2019-04-28T08:52:52Z,0,"how render_template() know where search (in what folder) a tamplate? if we dont't put any path. This method search in root folder where we create flask_app.py??",True
+@Haitham00n,2019-04-26T08:33:02Z,24,I think I never commented to a video before in my life.  I watched the first 3 videos of this playlist and I really can't thank you enough for your effort and time and the way you illustrate it to us.  Thanks a lot :),True
+@eze2k,2019-04-24T21:10:58Z,0,"I finished the totorial but something is off in the css and shows the psot over the navbar, also the navbar has no color, i replaced all my code with the one in his page and is the same, anyone?",True
+@dylee8998,2019-04-24T19:30:11Z,25,"This man is legend, Corey, you're arguably the best Python Teacher online no cap Keep It Up!, 300k Subscribers inna bit",True
+@simplepycodes,2019-04-24T04:57:57Z,1,"Man, simply you're the best and these are the best flask tutorials i have ever seen. but a lot to take, i think we need to code a long the video couple of times. Thanks a lot, super awesome.",True
+@vinayakahegde1901,2019-04-23T16:04:37Z,1,just an amazing set of tutorials !!!!!!!!!!!   thank you so much 🙇‍♂️🙇‍♂️🙇‍♂️🙇‍♂️🙇‍♂️🙇‍♂️🙇‍♂️💖💖💖💖💖💖🌟🌟🌟🌟🌟🌟,True
+@kyuubirdz,2019-04-23T02:46:49Z,1,"I love your videos, NEVER CHANGE",True
+@codecrypt4047,2019-04-21T14:25:45Z,0,"Hello there great video, I have a question for ya, If I was to just copy all these files into a web host would the website work normally or is there additional things that has to be done for that to work?",True
+@APC9906,2019-04-18T21:40:47Z,1,Not every hero wears a cape.,True
+@tinnick,2019-04-18T04:17:40Z,0,"Something I found out just now. Flask now looks for templates within the ""templates"" folder. If you want to load your html like in this video, make a folder called ""templates"" where the python code is and than put your html in there.",True
+@parmeshawaradmane3032,2019-04-18T01:15:49Z,1,"thanks for this video, we love you",True
+@haneulkim4902,2019-04-17T06:09:04Z,0,"why not ""../home.html"", does flask take care of that for us?",True
+@gdwarakanath8181,2019-04-14T20:30:32Z,1,Awesome,True
+@axelkroa9672,2019-04-12T17:01:45Z,0,I am getting an warning saying about.html not located ------>https://imgur.com/a/6CAAkA3 can some one help me with this,True
+@uplift_therapy,2019-04-09T22:57:09Z,1,Thank you !!,True
+@nandhannatarajan2127,2019-04-05T22:10:50Z,0,Shouldn't we use post['title']? Why does post.title work?,True
+@ranjeetjha1945,2019-04-04T19:58:36Z,1,Awesome Content,True
+@MouradMourad1000,2019-04-02T17:05:23Z,4,"very good quality videos, can't wait to watch them all. At tje beginning i was afraid because you speak a bit quickly but what a enjoyment to watch this video and learn with you. keep it up man and thanks a lot. definitely I will watch again and more 👍😊",True
+@priyankapriya7332,2019-04-02T08:46:57Z,2,Best tutorial.. Thanks so much Sir:),True
+@abhinavthapper2014,2019-03-31T19:32:29Z,0,"Hey man, any tips on how to write those navigation bars and articles etc ? Like am I supposed to copy paste them always like you do or should I get to know how to make them ? If so any resources for html and css you recommend ?",True
+@RaimundoBaravaglio,2019-03-29T17:23:15Z,0,"I have reviewed the code and I have written it well. But it happens that it does not show me any content of the posts. Python does not throw me any errors and the syntax is correct. I'm disoriented. I see the rest of the content of the page without problems. The only thing that does not show me is the content of the FOR section.",True
+@assemmakhyon423,2019-03-28T18:23:16Z,1,thank you!,True
+@AlexanderKwalsh,2019-03-27T15:26:16Z,0,"Hi, i'm following your tutorials but i can't find any download link as you are saying. Can you please make the tutorial files available for download. Thanks",True
+@rockabala1336,2019-03-25T04:16:37Z,1,thank you very much it is the best explanation that I have ever seen,True
+@shashik962,2019-03-24T09:34:53Z,1,You are the great Corey Schafer...,True
+@messi123770,2019-03-23T05:11:27Z,3,@Corey Schafer What a legend you are.,True
+@mayankbisht1074,2019-03-21T19:04:30Z,1,"how is that post.title and post.author etc  working...this is not how dictionary works . i mean dictionary works like this post['title'],post['author']............. someone plzz explain it to me",True
+@lasreeram,2019-03-18T09:47:11Z,1,This is a great tutorial - thank you for this content!,True
+@BigOleHeals,2019-03-13T14:02:24Z,1,excellent! Thanks,True
+@lightninginmyhands4878,2019-03-13T02:51:39Z,1,"Legendary tutorial, once again. Concise!",True
+@JulioSanchez-kk9le,2019-03-12T01:49:56Z,5,Flask is just much simpler than django...,True
+@ashiskh123,2019-03-06T05:54:24Z,0,"Thanks Corey for the nice video.though I have a problem, I am trying with video tag in my html but my flask web page is unable to play video,whereas  when I tried same page statically in the browser it working fine. I don't understand why I am getting 404 code when I running flask.",True
+@TheLichKng64,2019-03-06T03:11:58Z,0,may Auri-El shine his light upon you! this video's content is amazing! if i could give more that one like i would!,True
+@sanathboddhula4599,2019-03-05T15:57:29Z,0,where is the snippets file from,True
+@rachaelgonzalez7591,2019-03-03T15:46:48Z,1,Thanks for the tutorial! It helped me a lot!,True
+@paul5065,2019-03-01T00:28:07Z,0,"I switched to 3.7 because of 'secrets' For some reason forward slash and page won't work. Looked over and over, no typo. ? The files were supposed to be in 'templates' folder?",True
+@AnthonyRamtulla,2019-02-21T22:08:58Z,1,Great job,True
+@SirCouchus,2019-02-16T17:10:29Z,0,"If anyone is struggling with getting the CSS file to link to the layout.html, make sure you're actually using the layout.html file that is inside the template folder. I was trying to fix it for ages then I realised I was still using the layout file that we started on outside the templates folder. If you're unsure just close all the files and reopen them from their respective folders.",True
+@dmc549,2019-02-13T00:42:22Z,0,"Hey Corey, great tutorial as many on here have already called out. Question, if I do not know what all of the HTML/CSS is doing here should I stop now and learn that first? Or continue? I have more of a Python/SQL background but I know very basic HTML/CSS.    Thanks!",True
+@erijonhasi2467,2019-02-11T19:13:01Z,0,this do not work for me I do all the code and in the end is nothing only a page white can @Corey Schafer or anyone help me,True
+@GiuseppeSerraonline,2019-02-10T12:19:59Z,0,@corey schafer How great would be a tutorial series about Python Flask and Google Firebase,True
+@linjj93,2019-02-10T12:06:00Z,0,"Hi Corey, thanks for the amazing content! However I have a small problem, I would like to make changes to the CSS styling but it just won't update when I refresh the app in debug mode. What is the problem here?",True
+@samuelyap1681,2019-02-10T08:56:31Z,1,"Thanks for putting out a series on Flask. Read the official documentation for Flask and struggled, finding your videos made it smooth as budda.",True
+@WolverineAndSloth,2019-02-07T12:05:36Z,4,"I tried out some Django tutorials after learning the basics of python and i felt so completely and utterly lost. Then i stumbled on your videos and Flask, and everything is making sense again. Thank you so much for your work, Corey.",True
+@sushmitarao53,2019-02-05T08:42:11Z,0,Please do a video with GET and POST methods.,True
+@BrianWBlock,2019-01-31T22:33:43Z,1,awesome :),True
+@lukeyang1858,2019-01-27T01:17:26Z,0,"Great content! Could we have a bootstrap series? If I would like to write all the layout of the frontend by myself (using bootstrap), how do I start? and why do I use certain CSS class instead of others? I have basic CSS and HTML knowledge. But I always found myself getting frustrated at the frontend. I know there are some bootstrap videos out there on youtube, but not in full series. A detailed bootstrap series would be great!",True
+@MylesGmail,2019-01-26T08:13:02Z,2,Ur tutorial series r so good,True
+@bartagas2,2019-01-18T04:20:25Z,1,Another great tutorial. Good stuff Corey. Appreciate the detail of explaining every line and going into the page source code.,True
+@mattjclay,2019-01-17T21:06:12Z,2,"Such a nice little, clean, yet powerful framework.",True
+@onefilm2709,2019-01-17T01:22:51Z,1,good... good.. good... very good...,True
+@madhubalajayakumaran9340,2019-01-14T01:28:45Z,3,The best,True
+@ronghuizhan4518,2019-01-12T15:05:39Z,1,you have no idea how much time you save for me,True
+@dominicdit,2019-01-10T05:52:35Z,1,"Coming from first learning HTML and CSS as a child, then picking up Python recently, and now amalgamating them in this way feels amazing",True
+@ishpeace4886,2018-12-30T01:15:14Z,2,Great tutorial! Thanks Corey pls keep up the great work,True
+@ishpeace4886,2018-12-30T01:14:20Z,0,fjf,True
+@insanecbrotha,2018-12-28T07:37:52Z,1,<3,True
+@abrahamlawson5913,2018-12-24T02:45:52Z,0,please which IDE are you using?,True
+@Rafiki041087,2018-12-23T10:00:54Z,3,"Thanks Corey, really appreciate the effort you did in making this tutorial. Great help to get familiar with web development.",True
+@md-ayaz,2018-12-23T07:02:05Z,29,"You guys could ""DISABLE"" your ad blocker while watching Corey's youtube videos. This would help him cover the costs. This is the least you could do.",True
+@tomsonman,2018-12-21T19:45:08Z,0,Thanks Corey! Great tutorial!  I am new to web development but I heard CSS Grid is better than Bootstrap for layouts. What is the reason to use Bootstrap over CSS Grid?,True
+@jimstarr5840,2018-12-21T13:32:08Z,2,"Thank you, I'm really enjoying this tutorial seris on Flask.  I'm using Python/Flask on a raspberry pi to follow along.  Even though i'm running the latest version of debian, stretch, the version of python was 3.5x (as of December, 2018).  The secrets module was introduced in python 3.6.  I built the latest version of python, 3.71 on the pi and then found all kinds of problems.  Python couldn't find flask and other problems.  The solution turned out to be simple.  As you recommended, and others, I created a virtual python environment and all started working as expected.  I was reluctant to add the extra overhead on the pi, but it solved the problem and the pi is working just fine.  I really don't notice the extra overhead at all. Just for the record, I am using a Raspberry 3b+ and a 64gig sd card. Once again, thank you for this excellent series.",True
+@SURAJSINGH-xv4fw,2018-12-18T13:50:53Z,0,"Hi sir, I have used the same code but main portion under layout page is not visible",True
+@gakujitamaki5636,2018-12-17T00:10:12Z,1,good works!,True
+@rishabhkumar5611,2018-12-13T19:51:05Z,0,Thank you for such nice videos :),True
+@ibrahimal-mahfooz8737,2018-12-07T10:08:23Z,1,You're just amazing. This can't be simpler and easier than the way you explain it.,True
+@mfrinavkvercxi,2018-12-04T16:59:54Z,2,Top quality content. Amazing people do it for free,True
+@sohag185,2018-11-27T14:28:48Z,2,Thanks for Helpful video,True
+@dannyvriens4903,2018-11-25T17:08:41Z,2,I code a lot of years in different styles and languages but I can't explain this as clear as you did here. Well done and hold this teaching skills.,True
+@OthmanAlikhan,2018-11-23T12:26:52Z,5,"CTRL+SHIFT+R to bypass cache, thanks for the shortcut, really useful to know!",True
+@taiwotosin4055,2018-11-21T12:13:00Z,0,"Is it a must that I should use: ""https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"" integrity=""sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"" crossorigin=""anonymous"" instead of bootstrap.min.css, because I had an issue when trying to use bootstrap.min.css in which my code was not aligned and well arranged until I changed it to ""maxcdn.bootstrapcdn.com"". Please help me out. When I used the offline bootstrap, the display was just like without css.",True
+@rockytironi4972,2018-11-21T05:09:20Z,1,This is  a great series! very informative and everything is explained very well.,True
+@apk29,2018-11-21T00:39:25Z,1,"My file is not picking up the main.css, so the nav bar is covering the blog post at the top. Anyone encounter this issue and have figured it out?  I've copied Corey's code to see if my code had an error, no luck. Thanks",True
+@porlando12,2018-11-17T10:01:30Z,3,"I have a feeling a string was not the only thing that was passed on April 20, 2018.",True
+@steveburrus9347,2018-11-17T02:34:25Z,0,"Cvorey Schafer I still don't  how to first get Flask. I am on the ""https://www.fullstackpython.com/flask.html"" website but how do I get to the Flask downloads page anyway? I have really done NOTHING i n Flask ever  before.",True
+@abdouwahabdiallo859,2018-11-14T02:33:13Z,1,Man u're a legend. Thanks you a lot,True
+@jasonclement6305,2018-11-11T16:05:49Z,1,Wonderfully done... you are a great teacher.,True
+@houssein518,2018-11-09T17:34:40Z,0,"just stop repeating each sentence like 4 times before doing what you wanna do, it's just so annoying ...",True
+@PiyushKumar-vd8jy,2018-11-09T16:49:33Z,0,Thanks for sharing these valuable knowledge.  Can you please guide me on the content in this video after where you discuss bootstrap as i am very beginner in flask.,True
+@Soarvivorz,2018-11-07T08:50:42Z,0,"{ post.title } By { post.author } on { post.date_posted }  { post.content }  { post.title } By { post.author } on { post.date_posted }  { post.content }   I get this when i try to pass the posts in the website even though i have my own data",True
+@LukeAvedon,2018-11-06T03:06:26Z,2,You are truly a gifted teacher.,True
+@christopherlawson2797,2018-11-03T15:37:23Z,7,"I rarely comment on videos, but this is exceptionally well done. Thank you for the time and effort you spent putting this together.",True
+@user-mb9co7yn9t,2018-11-02T16:58:25Z,1,Bravo Corey!,True
+@Rivalmusicofficial,2018-11-01T11:23:41Z,2,Corey is the man.,True
+@ronaldjohnson4470,2018-10-29T15:12:11Z,2,Great tutorial Corey.  Thank you.,True
+@shalingupta8281,2018-10-28T15:10:23Z,0,"Hi, corey thanks for the video, can you please add video's on posting JSON => GET,POST,PUT,DELETE and creating endpoints and also video and audio streaming.",True
+@crptc5707,2018-10-27T15:23:47Z,0,28:06 the *url_for* usage can be found at http://flask.pocoo.org/docs/1.0/quickstart/#static-files,True
+@mmacasual-,2018-10-24T07:22:06Z,5,Best content available on the Internet !!,True
+@BigIndia942,2018-10-21T01:15:08Z,0,April 20th ;),True
+@GaurankGoyal,2018-10-20T16:33:21Z,4,"Awesome!! Really one of the best tutorial, thanks for such a high quality tutorial!!",True
+@Abaie051188,2018-10-19T13:14:02Z,0,"Hi Corey : I tried to run the same piece of code but, I am getting the following error [using python 2.7.17]:  C:\Users\Paddy\Desktop\Flask_Blog>python flaskblog.py Traceback (most recent call last):   File ""flaskblog.py"", line 2, in <module>     from forms import RegistrationForm, LoginForm   File ""C:\Users\Paddy\Desktop\Flask_Blog\forms.py"", line 2, in <module>     from wtfforms import StringField, Password, SumbitField, BooleanField ImportError: No module named wtfforms  But I have already installed wtf forms using ""pip install flask_wtf"", and it is also installed correctly as I can find the packages in the following folder, ""C:\Python27\Lib\site-packages\flask_wtf""  I still dont understand why I get this error. Could you please guide me",True
+@thatosrsdude4831,2018-10-14T17:54:19Z,0,"'date_posted': 'April 20, 2018'   I see what you did there",True
+@BookOfSaints,2018-10-14T12:35:37Z,2,"These are professional level tutorials. I'm currently coming into an exiting flask app, tasked with adding a front end with Vue or React... Still undecided haha. This is great because I'm still very unfamiliar with Flask. I love how you explain things so clearly without going off on tangents. You are one of the best teachers on YouTube. I haven't gotten far into the tutorial playlist, but was wondering if you cover MVC?",True
+@muhammadsalah9598,2018-10-11T21:41:10Z,2,I'm actually surprised this is for free great content keep it up sir!!! .,True
+@yonathan9186,2018-10-09T08:05:29Z,2,Thanks for making my learning process very easy...,True
+@fitonkastrati6758,2018-09-29T09:05:42Z,2,Thank you for this high quality of tutorials!,True
+@gabebraden915,2018-09-29T01:21:20Z,2,Great jog Corey! Very useful tutorial. Thanks,True
+@abhijithsnair3157,2018-09-26T22:12:05Z,5,"Dear Corey,    I don't know how to thank you for all these videos. The quality of your teaching is exceptional. The pace, accent, standard and content is up to the mark. Being a newbie in this area, your course had helped me learn a lot. Thanks a ton!!!",True
+@christorok1906,2018-09-24T10:28:25Z,2,This tutorial is even more simple than the one of Flask's site. Very good! I'm using this for a software engineering group project in my database course. You're a very good teacher. I am just getting into web development frameworks. Flask is my very first. I tried following the Flask tutorial. It really takes some time and energy to mull over when you've been programming in a sandbox at a university and not having to weave different technologies together. I think I'm starting to understand. Flask uses Blueprinting in their tutorial which is a bit new to me.,True
+@marunia256,2018-09-20T19:12:22Z,0,"Can You kindly explain why I'm receiving ""File ""/usr/lib/python3.6/runpy.py"", line 193, in _run_module_as_main"" error? (I'm using Ubuntu 18.04 and PyCharm 2018.02)",True
+@amleshkumar6255,2018-09-16T09:35:32Z,0,"Hi Corey, its a nice video. I learn a lot from this video. Do you provide the course for Python and Cloud? Thanks",True
+@saidkarimsaidmahmudov3048,2018-09-15T18:13:13Z,0,"Well , It was so clear , i loved the html and css that you've created (even a ready bootstrap templates)... Well the question that i wanna is that can we actually learn all bootstrap class all the time ? and is that efficient as well as the safest way ?",True
+@akashjain35,2018-09-15T16:05:41Z,2,Better teaching skills than any professional out there !!!,True
+@parthprajapati4257,2018-09-14T03:54:07Z,0,"Millions thanks to you for huge tutorial, i want to display different information on register, home page in content-section (our slidebar , announcements, latest posts.. Etc). Instead of that another information using inherit.how can i do that? Great help if anyone?",True
+@pranavshridhar452,2018-09-12T01:33:10Z,0,"At 8:30 , how does that .(dot) notation work for accessing dictionary values inside a list? Is it a defined syntax for writing within a codeblock (flask template) or can we use it in python (elsewhere) also?",True
+@sudhanshu20094u,2018-09-11T03:26:51Z,2,Great thing about your tutorial - The way you explained how posts are being passed to home.html. I mean you explain each and every bit. Its really great.,True
+@annguyenviet9028,2018-09-11T00:45:00Z,4,this lesson is extremely valuable for a newbee like me. Thanks for sharing a great series tutorials.,True
+@mohammadghonchesefidi9238,2018-09-09T11:59:47Z,3,Best and the most complete Flask tutorial on the web. Thanks for sharing this for free.,True
+@denisdede2087,2018-09-07T11:17:42Z,0,"Corey I have a problem with the templates, they don't load correctly to the webside it shows only the text",True
+@TheMetalhead1311,2018-09-07T03:04:48Z,3,4/20 I see you Corey haha. Keep up the great work man. Already on to the second video!,True
+@TheMetalhead1311,2018-09-06T20:15:47Z,5,This is going to be such a huge help for school. Its one of the few modern tuts out there and one of the best I've ever seen. A huge thank you @Corey Schafer,True
+@sopleased6857,2018-09-06T15:26:32Z,2,this videos are gold man!,True
+@yogeshmadaan9054,2018-09-05T18:14:19Z,4,"Excellent. This is the speed and quality I was looking for. Thanks a lot, Corey. Please tell me how can I contribute.",True
+@jishnupramod2130,2018-09-04T17:42:39Z,1,"Do we need to really know and understand the code used in navigation.html,main.html,article.html and main.css inorder to step into a real world project ? I mean, is there a necessity of learning how all that works ?!  Thanks in advance",True
+@humanOSx,2018-09-02T23:53:23Z,2,"Great tutorial, thank you for that snippets; I don't why but, I don't like CSS and design in general, although it is very necessary, then, one day I need to learn it. Thanks again, Corey.",True
+@massgueye3947,2018-08-28T21:39:15Z,0,Sorry but the css code does not work on my desktop,True
+@markg3363,2018-08-22T14:13:27Z,0,*Great!*,True
+@EunchanPark,2018-08-21T12:33:47Z,4,Thank you very much! I am going to use Flask for my robot project!!,True
+@MrMiguelcdpmarques,2018-08-18T20:51:06Z,1394,The quality of these tutorials is very high. Higher than most paid content in other platforms. A sincere thank you from a Python beginner,True
+@yu_ja.mp4,2018-08-17T23:04:17Z,2,Best flask lecturer ever! :)  Thank you for your great resources.,True
+@jiangxu7819,2018-08-14T11:44:05Z,1,Great!,True
+@coinventures4453,2018-08-14T03:47:25Z,0,"Why does post.title work when we are passing a dict rather than a class, compared to post['title']",True
+@techcode_man,2018-08-14T02:07:54Z,0,Awesome as always!!! Are you planning to do any courses on Django Corey?,True
+@tanmaymishra3639,2018-08-13T07:17:48Z,0,"Hey Corey Schafer , the bootstrap and js cdn which I included is not working (only main.css working) . I have included that cdn from bootstrap get started template as you have shown in video .Please help!",True
+@AdityaKumar-ox3wz,2018-08-12T19:16:05Z,0,I am getting jinja2.exceptions.TemplateSyntaxError . What does it mean??,True
+@akashsoni4418,2018-08-10T17:18:59Z,0,"session Is very nice , and very knowledgable",True
+@noalsono393,2018-08-07T21:27:51Z,1,"For some reason, my body content is not going inside the div block when I check my blog's source. This is causing the body items to stay at the left of the page. Could I please get some help? If you need I can give you the code.",True
+@rahmahalane2455,2018-08-01T18:06:37Z,1,Amazing tutorials on Flask app! Glad I found you!,True
+@bhoomeendra,2018-07-31T18:57:19Z,2,Again thank for the second time for such awesome content,True
+@mohamedharoon9136,2018-07-30T22:35:48Z,2,"Sir, you are the best lecturer around. THANKS!!!",True
+@xlptaa5901,2018-07-30T19:21:37Z,0,is it worth learning all this stuff if AI will eventually do everything and better than us?,True
+@SabbirAhmedSibli,2018-07-26T18:58:43Z,2,Love u man!,True
+@anubhav2198,2018-07-23T22:33:38Z,0,"Hi! I am new to web development.  My doubt is : What is the purpose of Flask? As I thought it was an individual python library. But here we are using HTML, CSS and Bootstrap along with it. But can't we create a website with HTML/CSS/Bootstrap without using Flask?. Thanks for the tutorials!",True
+@BodyAli96,2018-07-22T13:32:24Z,1,"thanks a lot, you are an expert <3",True
+@samusger,2018-07-22T09:33:37Z,1,i love you man :),True
+@rakshitmalhotra2339,2018-07-22T07:51:36Z,0,Great explantion.Would appreciate if you make a vedio on flask bootstrap,True
+@vipinkhurana4923,2018-07-19T18:27:12Z,0,Sir iam getting an error like in command prompt  favicon. io page not found so plzz help me sir,True
+@johannbauer2863,2018-07-18T14:31:42Z,1,This is sooo cool!!! :D,True
+@miguelcastillo1742,2018-07-18T02:37:05Z,0,"I'm following this series and I have a little question. :D  Should I take my time to understand all those codes for navigation bar, main.css, etc.? Or is it ok if I just copy-paste?   And Thanks for your hard work to teach us, you are amazing :D",True
+@_swordancer_,2018-07-17T07:54:12Z,0,Great tutorial ! I really hope there will be a Django 2 tutorial :) no pressure... just big big hopes :D,True
+@TalesFairyFrench,2018-07-16T13:30:09Z,1,"wonderful , thank you very much",True
+@madner201,2018-07-14T19:40:01Z,1,awesome series so far! thanks very much,True
+@selazfadli5850,2018-07-11T18:46:42Z,1,"Thank you Corey, you are great teacher..",True
+@carolflyjs,2018-07-11T07:09:29Z,125,Your tutorials are probably the best tutorial I've ever taken online! Most other people's tutorials are either too slow or not clearly explaining key concepts. You nailed it! Thank you!,True
+@prateekparabify,2018-07-05T19:56:57Z,1,Amazing tutorials!!!. PS. If someone gets an exception error create  a separate templates folder and paste the html files in it,True
+@dargChuck,2018-07-05T07:11:53Z,2,"Hello Corey, thank you for these amazing videos... am just having one problem though, the 'url_for' has been imported but its unused, yet I've called it in my layout.html as you did... what would be the problem",True
+@Johnnyboycurtis,2018-07-02T21:27:12Z,13,"Instead of {% extends ""YourHeaderFile.html ""%} inside your template.html, you can put {% include ""template.html"" %} inside YourHeaderFile.html",True
+@rpavanshetty,2018-06-28T16:08:35Z,1,Going  great so far. Love your approach. Thank you. Next to the 3rd episode.,True
+@sumitshivhare8549,2018-06-27T21:09:30Z,0,Hey Corey  which command you use to re indent HTML and bootstrap code ?? please let me know,True
+@breakeract796,2018-06-24T16:00:49Z,0,"Hi Corey, I'm wonder how post.title, post.author running ? They are key word of a dictionary,  how can you use that :/",True
+@ArchAid1,2018-06-18T01:44:37Z,2,Hey Corey :D I really loved these tutorials! (at least as far as I've gotten) - This is great stuff. Many many thanks,True
+@jl_woodworks,2018-06-17T01:31:24Z,47,"Corey, whenever I learn something new that actually has a practical value I feel an undescriptable enjoyment. With that said, that is what I feel when I watch a video of yours and, I have to say, I've never liked web development that much but now I'm feeling I actually do like it! So, in short, you're a great teacher and I encourage you to keep teaching! Thank you!",True
+@yunz936,2018-06-15T06:07:13Z,0,"I had an error when running templates, it says  ""jinja2.exceptions.TemplateSyntaxError TemplateSyntaxError: Expected an expression, got 'end of print statement'"" any idea why is that happens?",True
+@saminchowdhury7995,2018-06-12T23:20:42Z,5,Amazing!!!,True
+@boneria6792,2018-06-10T20:09:26Z,2,Jinja is awesome,True
+@zswenjin,2018-06-06T11:54:49Z,2,I really like this!!!,True
+@navidpanchi,2018-05-31T13:18:05Z,0,"could you suggest some plugin to be used for autocompletion of the template for atom text editor, and suggest others also which might be useful for web development. Thank you",True
+@ifredpingplay468,2018-05-27T05:16:16Z,0,thanks for video i got many new things to learn in web app... but i having some logical errors i mean everything is coming in straight down below to each other...and everything is stacked to left side,True
+@saritagautam3483,2018-05-24T18:00:03Z,2,i was waiting for this for so long. Thanks for creating such awesome tutorials.,True
+@ariyanhasan4388,2018-05-21T20:43:56Z,2,Make a tutorial on admin panel,True
+@AdamSmith-ux5if,2018-05-21T17:21:21Z,5,Corey is the fckn man!,True
+@XxGabberlordxX,2018-05-17T19:20:26Z,1,Hey Corey!  I have a problem with the css file. I did the same like you and it worked at first... Now i've created a new project with the exact same inputs and i can't change the bootstrap colors in the custom CSS file. Can you explain me how do you exactly change the bootstrap schemes? I.e. the navbar color?,True
+@chuckynorris616,2018-05-12T21:36:02Z,0,you should make sidebar and filenames font bigger/easy to read,True
+@ayuzawamisaki239,2018-05-12T12:59:31Z,0,getting built-in method title of str object at 0x000000C1AE6BDC00 from home.html.. i try to figure it out many times but no sucess,True
+@user-gh9sk1oe4m,2018-05-12T01:39:05Z,1,这哥们英语说得太快了，o(*￣︶￣*)o,True
+@playgoods,2018-05-11T22:50:26Z,0,wonderful,True
+@AbhishekKumar-mq1tt,2018-05-08T02:27:19Z,1,Thank u for this awesome series,True
+@contactvooxel7864,2018-05-07T19:34:52Z,5,Best Flask intro  Thank you!,True
+@asgard2054,2018-05-07T05:21:15Z,73,"Yes, please make a flask bootstrap extension video!",True
+@bennis9283,2018-05-06T18:31:01Z,0,Really nice!,True
+@asgard2054,2018-05-05T20:19:55Z,1,"Thanks, Corey!",True
+@AbhishekNigam,2018-05-05T15:57:46Z,0,Perfect tutorial!! Thanks a lot,True
+@becauseistand,2018-05-05T11:17:39Z,0,"thanks for these lessons, they're amazing.",True
+@ShubhamSharma-rm9ry,2018-05-05T10:03:13Z,0,"waiting for django series, thank you",True
+@kuldeepparashar5254,2018-05-05T02:03:00Z,0,"great,thnks for helping",True
+@electric26,2018-05-05T01:33:54Z,0,"I followed everything exactly, and got this: https://imgur.com/gallery/inDhjDW I even tried copying and pasting the code directly from GitHub to no avail. Any help would be appreciated. Thanks for uploading again, Corey!",True
+@coreyms,2018-05-04T23:17:08Z,559,"I call the percent signs ""parentheses"" multiple times throughout this video. Not sure what I was thinkin. Just ignore that.",True
+@kAlhooti1,2018-05-04T20:08:22Z,5,"Amazing lecture series, Thank you",True
+@CharlesDibsdale,2018-05-04T20:03:01Z,2,"Wonderful work Corey, well worth waiting for",True
+@rajuahammad6794,2018-05-04T19:15:58Z,6,please make a video admin panel and post on a blog.,True
+@syedbaryalay5849,2018-05-04T18:53:16Z,3,3rd here to post a comment. really enjoy your tuts corey,True
+@545amit,2018-05-04T18:13:53Z,4,Thank you Corey!! Keep creating awesome videos on flask.,True
+@renitalobo927,2018-05-04T18:00:15Z,3,Awesome :),True

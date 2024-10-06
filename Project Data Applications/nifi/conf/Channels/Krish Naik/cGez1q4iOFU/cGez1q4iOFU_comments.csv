@@ -1,0 +1,120 @@
+author,updated_at,like_count,text,public
+@dikshantsharma7059,2024-05-20T14:05:01Z,0,"sir , what about purchase category pls explain",True
+@user-sg7pj2ie2w,2024-05-12T05:33:58Z,0,"10:20 we use df = pd.concat([train,test]) df.head",True
+@garimaattri4760,2024-05-04T10:01:08Z,0,Where can I get dataset,True
+@cadetmanishtiwari8694,2024-04-27T17:54:07Z,0,The append is now changed into _append so be updated guys.,True
+@blackbarbara990,2024-04-10T21:36:22Z,0,"hello mere error aa rha hai df=df_train.append(df_test) attributeError :'dataframe object has no attribute 'append'",True
+@blackbarbara990,2024-04-10T21:36:17Z,0,"hello mere error aa rha hai df=df_train.append(df_test) attributeError :'dataframe object has no attribute 'append'",True
+@blackbarbara990,2024-04-10T21:36:11Z,0,"hello mere error aa rha hai df=df_train.append(df_test) attributeError :'dataframe object has no attribute 'append'",True
+@blackbarbara990,2024-04-10T21:36:05Z,0,"hello mere error aa rha hai df=df_train.append(df_test) attributeError :'dataframe object has no attribute 'append'",True
+@blackbarbara990,2024-04-10T21:35:58Z,0,"hello mere error aa rha hai df=df_train.append(df_test) attributeError :'dataframe object has no attribute 'append'",True
+@blackbarbara990,2024-04-10T21:35:52Z,0,"hello mere error aa rha hai df=df_train.append(df_test) attributeError :'dataframe object has no attribute 'append'",True
+@blackbarbara990,2024-04-10T21:35:46Z,0,"hello mere error aa rha hai df=df_train.append(df_test) attributeError :'dataframe object has no attribute 'append'",True
+@blackbarbara990,2024-04-10T21:35:40Z,0,"hello mere error aa rha hai df=df_train.append(df_test) attributeError :'dataframe object has no attribute 'append'",True
+@blackbarbara990,2024-04-10T21:35:31Z,0,"hello mere error aa rha hai df=df_train.append(df_test) attributeError :'dataframe object has no attribute 'append'",True
+@blackbarbara990,2024-04-10T21:35:25Z,0,"hello mere error aa rha hai df=df_train.append(df_test) attributeError :'dataframe object has no attribute 'append'",True
+@blackbarbara990,2024-04-10T21:35:19Z,0,"hello mere error aa rha hai df=df_train.append(df_test) attributeError :'dataframe object has no attribute 'append'",True
+@blackbarbara990,2024-04-10T21:35:12Z,0,"hello mere error aa rha hai df=df_train.append(df_test) attributeError :'dataframe object has no attribute 'append'",True
+@blackbarbara990,2024-04-10T21:34:59Z,0,hello mere error aa rha hai df=df_train.append(df_test) attributeError :'dataframe object has no attribute 'append',True
+@ML_Engineerr,2024-03-28T10:53:44Z,0,Very helpful.,True
+@MrBING5221,2024-03-27T02:33:42Z,0,40:14 how did we get 8.0 when accessed by 0 index. no 0 is at 0 index and 8 is at 1ist index right..can anyone explain,True
+@ObhiReads,2024-03-10T00:48:04Z,0,Helpful session. Thanks Krish!,True
+@ashfaqurtahashin564,2024-01-25T14:39:56Z,0,This is a really great video but why user_id ? as we need to build model to predict the purchase amount of customers against various products which will help them to create personalized offer. If we delete user_id how can we fetch customers? Could anyone explain me this? I feel city in live or martial status more irrelevant in this case,True
+@hades840,2023-12-18T08:39:57Z,0,53:30 not recived any error,True
+@anshmatto2480,2023-12-05T10:06:48Z,0,can  we also use label encoder for dealing with the categorical values???,True
+@manilalam3574,2023-11-16T07:54:34Z,0,Nice😊😊😊😊,True
+@shahbazKHAN-wf9yn,2023-11-07T14:51:36Z,0,Love and care sir ❤️,True
+@anshikasharma6846,2023-10-20T12:32:45Z,0,"User_Id was not completely useless. Because we have to make personalized  customer offers. We can target those who have purchased more, probably by taking top 50-100 customers.",True
+@tanumoynandy3321,2023-10-05T06:55:18Z,0,"i am getting error while i'm trying to import the csv file  TypeError                                 Traceback (most recent call last) Cell In[31], line 1 ----> 1 df_train=pd.read_csv('train.csv')  TypeError: 'str' object is not callable",True
+@ashukol,2023-09-13T07:32:21Z,0,"Hi @krish Naik append seems to be deprecated and if i use concat instead of it , i get 11 columns using code -> df= pd.concat([df_train, df_test], axis=0, join=""inner""). Please suggest a solution",True
+@ANASANSARI-qd5pj,2023-08-21T07:12:37Z,0,Thanks for this 🫂,True
+@MrMandarpriya,2023-08-13T10:08:31Z,0,"Sir, awesome. In the section of the code for Gender (F to 0 and M to 1) i was getting NaN, may be some other issues. So i tried directly this df = df.replace({'Gender': {'F':0,                                  'M':1}})",True
+@aarushim9248,2023-08-09T15:05:17Z,0,"Sir while handling the categorical variable gender… it didnt get converted to 1s and 0s for me for this code .. df[‘GENDER’] = df[‘GENDER’] .map({‘M’: O, ‘F’: 1}) its showing nan value for every row instead of 0s and 1s what to do sir pls help",True
+@dubai-desi,2023-07-22T16:29:11Z,0,we can also use onehotencoder or labelencoder to handle categorical data,True
+@programmingwithraahim1164,2023-07-21T06:24:31Z,4,10:24 append function is now deprecated so use pd.concat or pd.merge instead! :),True
+@yassine.h3262,2023-06-29T10:36:06Z,0,"I think that a group-based encoding would be more reliable than the mode, assigning that huge number of NANs to a single number (mode=8) is not right",True
+@rebeccakipanga478,2023-06-03T20:38:56Z,0,Nice video! Thank you sir.,True
+@zouhir2010,2023-05-13T16:20:31Z,0,Thanks,True
+@DharmendraKumar-DS,2023-03-26T21:59:44Z,0,Awesome job...Thank you so much for this.,True
+@talibdaryabi9434,2023-03-15T17:59:40Z,0,"If I am right, Label_encoder is for the target feature. For other features, we can use oneHotEncoder or ordinal Encoder.",True
+@hammadkhan7927,2023-02-08T04:59:18Z,0,"The purchase have so high null values , because you append the test data set ,which don't have purchase section because we have to predict that.",True
+@Jarvis-siri,2023-01-29T09:33:36Z,0,I got an error while doing the visualisation of bar plot,True
+@aryanrana5658,2022-12-29T18:38:00Z,0,but we didn't the problem statement which was asked us to do so determine the purchase amount against product details,True
+@aryanrana5658,2022-12-29T18:07:19Z,0,"in feature scaling , I can't understand anything . Can anyone here to explain me?",True
+@aryanrana5658,2022-12-29T08:29:22Z,0,why we fill with mode[0],True
+@mohittahilramani9956,2022-12-27T19:21:34Z,0,Lifesaver sir thank you,True
+@jayshreedonga2833,2022-12-26T02:54:33Z,0,thanks,True
+@sanjaysarvesh6500,2022-11-29T16:03:01Z,0,Only because of you I have hope that I can learn data science,True
+@sanketmane1243,2022-11-22T05:49:48Z,0,Error at 51:19  is because indexes in df are duplicated due to train test append -- --> solution: df1 = df.reset_index()  sns.pairplot(df1),True
+@rehanbaig71,2022-11-20T14:23:49Z,0,@01:12:40 I liked your session and you presented in a professional way.,True
+@rehanbaig71,2022-11-20T14:06:11Z,0,"@01:09:49 Sorry, you have corrected.",True
+@rehanbaig71,2022-11-20T13:09:21Z,0,"@01:05:46 Krish brother your code for finding X is giving wrong result, which is also shown in your screen also. X should be without ""Purchase"" column. When you scrolled the screen purchase column was visible in screen. I am beginner and according to my little knowledge it should be like this X = df_train.drop('Purchase', axis = 1) and y = df_train['Purchase']. I always appreciate your feedback. If I am wrong please do correct me. Thanks.",True
+@rehanbaig71,2022-11-19T09:22:24Z,0,@30:45 Can we use One Hot encoder for converting city column,True
+@dandanakha,2022-11-06T11:45:31Z,0,"Hi @Krish  A doubt, here on  fixing City Category, why are we using get_dummies func?, why not a condition with map func to assign values as we did for Age or Gender variables",True
+@hang1126,2022-10-30T20:12:30Z,0,Love you sir ❤️you give me confidence to learn data science.,True
+@raufurrahim878,2022-09-28T18:15:21Z,0,"replacing product2 category with mode is too dangerous... it means a person who has not purchases any 2nd product, is being assigned some product that will ultimately create trouble for ML model prediction... i think if someone has not purchased any 2nd product it should be replaced with zero not with a positive number",True
+@anjuvijayan8026,2022-09-22T09:03:11Z,0,How to perform one hot encoding using sklearn import preprocessing,True
+@saranshsehrawat8544,2022-09-02T18:13:18Z,0,"# Lets replace 4+ with df['Stay_In_Current_City_Years'].replace(to_replace='4+',value=4,inplace=True)",True
+@sharathchandrakarnati2101,2022-08-31T17:27:54Z,1,"Thanks a lot, Krish for an amazing experience, while doing the pair we got an error ""on-axis "", after conceding two Data frames, we didn't  re-index the values",True
+@devgupta2040,2022-08-29T20:17:09Z,0,18:55  Other Method- df['Gender'] = df['Gender'].apply(lambda x: 0 if x == 'F' else 1),True
+@shikharamrakhyani5805,2022-08-29T12:55:54Z,0,Thanks a lot Krish.It feels such a relief after gaining all this knowledge.Good Work.,True
+@surge8307,2022-08-29T04:55:15Z,0,9:10 isn't it better to create a pipeline at the end of our preprocessing using Pipeline and ColumnTransformer? That way we can just pass the test data through i; and it'll be useful for incoming data in the future as well...,True
+@shivrajjoshi5031,2022-08-18T03:01:00Z,0,I have query can anyone help me out  Let's say we converted all categorical features using any method and train our model. But when we get real data the categorical features will be same i.e. how they were before apply any encoding method at that time our model not going to understand about those features.  Can someone help me out with this?,True
+@abcxyz1014,2022-08-12T11:04:25Z,0,why did we remove Product_ID before the train_test_split???,True
+@mohitdubey53,2022-08-01T08:34:27Z,0,"sir you grate sir at time 32.39 min  you have drop  'City_Category' and data set contain  nan value present there   [df['City_Category'].unique()] output :-    array(['B', 'C', 'A', nan], dtype=object) here nan value will not give any error yes na sir",True
+@user-sy6xn6ux8s,2022-07-25T10:04:48Z,0,"Getting this error while executing last code can you please tell why  Expected 2D array, got scalar array instead: array=nan. Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.",True
+@varshabhambhani4819,2022-07-04T17:56:57Z,0,"""(X_train, X_test, y_train, y_test = train_test_split...     X, y, test_size=0.33, random_state=42)""for the lazy ones like me who were looking in comments for split code part",True
+@20lalala20,2022-06-22T15:49:20Z,2,User Id is not a primary key here to be unique. You can find who are all regular customers here. Some of these products are bought by the same customer and there are many infos that you can derive from that. Removing User Ids is relevant only in the cases where UserID is unique for every row.,True
+@sidnoga,2022-06-14T09:00:21Z,0,data[~data['Purchase'].isnull()] data[data['Purchase'].isnull()!= True] data[data['Purchase'].isnull()== False],True
+@Upsc_PodcastClips,2022-05-29T16:30:33Z,0,"Please Help !!!!! when I am importing test.csv it shows   'utf-8' codec can't decode byte 0x8f in position 10: invalid start byte  what should I use in parameter  encoding ="" ????? """,True
+@afsanarabeya4417,2022-05-23T20:30:33Z,0,"why we cant just use 1,2,3 for city_category like we did on age category ? anyone ?TIA",True
+@Mehtabshah100,2022-04-21T19:49:50Z,2,Love the way you explain it! great EDA session,True
+@geetanshusinghnegi2672,2022-04-19T11:53:09Z,0,This content is really engaging.... Thanks for this video,True
+@raghavsharma6430,2022-04-18T08:43:58Z,0,amazing!!,True
+@dikshagupta3276,2022-04-06T11:33:07Z,0,why we combine df_city  to our data set anyone tell me,True
+@chandudantuluri7856,2022-04-06T10:48:37Z,0,great to have u sir very helpfull,True
+@ankan54,2022-04-03T15:16:56Z,1,"hi Krish, while doing Label encoding, the records with a larger value numeric label, will they be given higher importance by the ML algo? or it doesn't matter the value of the labels ?",True
+@anantpatel5444,2022-03-29T06:02:13Z,0,I am building anime recommendation system content based. I want to keep as much data as possible. So is there any way that cosine similarity score  ignore will some missing value and get similarity score based on other features.,True
+@anishayush5460,2022-03-25T07:50:06Z,1,"Hi Krish, As you did imputation/missing value resolution, you did it on the dataset which had combined data of train and test set. Don't you think that will lead to data leakage and overfitting?",True
+@sabarishdevendran8995,2022-03-24T03:37:53Z,0,"Why we are using %matplotlib inline function and what is the use ,can you explain in bit?",True
+@CRTagadiya,2022-03-14T19:17:56Z,1,Can we use Age distribution number rather than label encoding?,True
+@sanabraham5690,2022-03-14T07:00:48Z,0,You're amazing Good Job,True
+@sandipansarkar9211,2022-03-14T05:16:53Z,0,finished watching,True
+@som856,2022-03-14T04:32:03Z,2,Thanks a lot Krish ...This has helped me understand the EDA a lot better now specifically how to handle  missing of null values .,True
+@adithyaboyapati,2022-03-12T11:40:04Z,0,"Hi @Krish,  You got Duplicate index issue in sns.pairplot because both in df_train,df_test the index starts from 1 that's why you got that error while doing pairplot.",True
+@AV-bp3bc,2022-03-09T17:41:17Z,0,Is there a way to connect to a live dataset ? Just to get some real experience,True
+@thatascendantguy,2022-03-04T07:37:34Z,0,"1:10:04 ""nOw It Is **** FixEd""  😂",True
+@shubhamsharma-ec3re,2022-03-03T18:06:12Z,1,"During imputation, suppose value_1 is present at 100 time and value_2 is present at 98 times, so we will replace the nan value with value_1,. So is it correct bcoz chances of Value_2 is also high?",True
+@guffranmohammad8018,2022-03-02T17:37:25Z,1,"Hi Sir, Thanks for your amazing video's ,  Could be please let me know how to handle below error  since I am not able train the model due to below error MemoryError: Unable to allocate 47.5 GiB for an array with shape (368545, 17301) and data type int64",True
+@akhtarattar2744,2022-02-24T16:36:02Z,0,it was easy in understanding great session krish..,True
+@rishikeshpatil3275,2022-02-24T06:29:40Z,0,While appending time we want to use ignore_index so error not genrated in pairplot time,True
+@MrBvcnm,2022-02-23T08:15:28Z,0,Why city category converted using get_dummy? Can we use the map method or level encoding?,True
+@shubhamrasal5149,2022-02-21T09:43:52Z,0,Great explanation sir ......with full of understanding...Thank you sir,True
+@khairunnisamoghal7016,2022-02-21T09:08:46Z,1,"Sir, when I am changing categorical feature to numbers with mapping, it is giving me null values",True
+@bharatha5791,2022-02-20T18:31:25Z,4,"The problem with Seaborn (sns.pairplot()) Pairplot was, the index was duplicated while appending train and test data. You can check the duplicated index values using this 'df[df.index.duplicated()]'. To solve the issue while combining the train and test datasets use 'ignore_index  = True' like I did here.  df = train.append(test, ignore_index = True) print(""DF Shape"", df.shape) df.head() This way the index will keep continuing from the train instead of starting new indexing for test.",True
+@umamaheswararaoputrevu5757,2022-02-20T14:30:35Z,0,Krish,True
+@umamaheswararaoputrevu5757,2022-02-20T14:29:45Z,1,Bye,True
+@poojauchagaonkar9321,2022-02-20T07:34:04Z,0,Thank you Sir 😇,True
+@sanheera,2022-02-20T07:12:24Z,0,Sir can u please explain improved f-score problem and code for improved f-score in python,True
+@abelsontenny7537,2022-02-20T06:37:59Z,0,"There are only 5691 User_ID, df.User_ID.Value_counts().values.shape, which indicates this data also has repeat purchases out 700000+ records. Should it still be deleted ?",True
+@yaminadjoudi4357,2022-02-19T22:15:56Z,0,Thank you please can you make how can we preprocess the Mimic_ -III and MIMIC-CXR datasets (health-care )? For diagnosis of diseases with bert and cnn models!?,True
+@anuragthakur5787,2022-02-19T20:28:32Z,0,Great session sir Thanks a lot,True
+@gauravkoshyari1828,2022-02-19T19:45:02Z,0,"While handling  categorical feature Age  , why Krish said ""not to use 0  , since math operations will be happening there "" . If we use LabelEncoder , 0 will be included .  Also why we are not performing one hot encoding here ?",True
+@VibrantRahul1126,2022-02-19T14:09:13Z,0,Thank you sir,True
+@prakharagarwal9448,2022-02-19T12:46:35Z,0,"Krish, kindly update this playlist in ineuron community course Also.",True
+@mimansamaheshwari4664,2022-02-19T11:26:17Z,1,Amazing experience. It has helped me a lot. Thanks a lot.,True
+@remyars7128,2022-02-19T10:58:31Z,0,Sir purchase column is having missing values ....How those missing values can be handled,True
+@mayankbhardwaj1487,2022-02-19T08:19:10Z,0,guys anyone tried prediction on this I tried linear regression and got a very less accuracy.,True
+@arhamqamar7462,2022-02-19T07:06:32Z,1,"56:04 LMAOOO. Vo stree hai, kuch bhi kar sakti hai 😂😂😂😂😂",True
+@sumitrawat4103,2022-02-19T07:01:16Z,1,sns.Pairplot() is throwing error because after merging train and test we do not reset index.  df = df.reset_index() will work,True
+@abhi9029,2022-02-19T05:15:00Z,26,Please don't stop making these type of videos. I am interesting in each and every videos like these.,True
+@geekyprogrammer4831,2022-02-19T04:56:24Z,0,I tried training model after this but memory on my MacBook Pro got blowed up 😭😭 any solution to this??,True
+@tag4z,2022-02-18T20:33:03Z,0,But why did you not encoded City_category feature?,True
+@tag4z,2022-02-18T20:31:58Z,0,Very good 👍,True
+@asutoshnayak1391,2022-02-18T19:56:53Z,0,Please make a video upon how to use GitHub for beginners please,True
+@pllemost8410,2022-02-18T19:25:34Z,0,Be blessed. And go on. I'm still on day_1: some problems with plotting palette....,True
+@gh504,2022-02-18T19:01:48Z,0,Thank you sir,True
+@nitingautam8410,2022-02-18T18:47:24Z,0,I love the way you are teaching krish....amazing,True
+@geekyprogrammer4831,2022-02-18T18:44:54Z,0,Amazing session Krish!!,True
+@chetak-thegermanshepherdsm141,2022-02-18T16:59:49Z,0,Hello Sir! Please make videos on Django. The Django Playlist started earlier has been left incomplete. Request you to please complete it.,True
+@nit8826,2022-02-18T16:26:44Z,24,please like all who read so that Krish can see this comment 🙏🙏🙏🙏🙏🙏 Krish session is amazing please include correlation part whichever columns are not necessary drop it and  please include treating outliers,True

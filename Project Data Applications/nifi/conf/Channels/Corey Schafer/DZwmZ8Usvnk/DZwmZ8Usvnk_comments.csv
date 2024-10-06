@@ -1,0 +1,328 @@
+author,updated_at,like_count,text,public
+@muhammadabdullahdilshad8509,2024-05-02T14:57:34Z,0,"Notes ---------------------->>>>>>  #only be executed only if the condition is true if True:     print('Conditional Was true')  #using variables in the Conditionals language = 'python' if language == 'python': #Double Equal is Equality     print(""The langauge is Python"") else:     print(""No Match"") #Runs when the codnition is not True   #We can also use the elif for Multiple ifs language = 'java' if language == 'python': #Double Equal is Equality     print(""The langauge is Python"") elif language =='java':     print(""Language is Java"") else:     print(""No Match"") #Runs when the codnition is not True   # Boolean Operations  # and # or # not  #######  AND ######## # returns the true if all the Condiitons are ture user = 'Admin' logged_in = False if user == 'Admin' and logged_in:     print(""Admin Page"") else:     print(""bad Creds"")  ######### OR ########## # Retuens true if only one of the condition is true  user = 'Admin' logged_in = False if user == 'Admin' or  logged_in:     print(""Admin Page"") else:     print(""bad Creds"")  ######## NOT ###########  user = 'Admin' logged_in = False if user == 'Admin' and not logged_in:     print(""Admin Page"") else:     print(""bad Creds"")  a=[1,2,3] b=[1,2,3] print(a is b) #Because both of these lists are different so retuns false why ? print(id(a)) print(id(b)) print(a==b) ## But the equality retuns true    # What makes the condition actually False #False Values:     # False     # None     # Zero of any numeric type     # Any empty sequence. For example, '', (), [].     # Any empty mapping. For example, {}.  random = 50 if random:     print('Evaluated to True') else:     print('Evaluated to False')",True
+@MissAnuri,2024-05-02T07:35:27Z,0,😭for the first time I actually understand the use of the Boolean statement,True
+@uzeyirkeskin2178,2024-03-09T18:35:53Z,0,even though english is not my native language but i can understand very easily and clearly.  amazing explanation  amazing accent  amazing teacher,True
+@tarek-gamez6829,2024-03-03T16:18:02Z,0,"hello,can combine or use conditionals and str at the same time for example: if greet.startwith(""h""):     print(""$0"") can i do that??",True
+@DarkAcademyUniversity,2024-03-02T14:24:10Z,0,"print(""Corey is  GOAT"")",True
+@mohammadidreesbhat1109,2024-02-06T07:24:24Z,0,"@Corey Sir, True is 1 or any other non zero number. False is 0. When we add some number by True. That values gets incremented by one.",True
+@daviddeist1683,2024-01-22T08:30:48Z,0,"Hey, Corey!  Just stumbled upon your videos, and they're fantastic!  A quick question though:  What IDE are you using for this particular video?  It looks like PyCharm, but I'm curious how to manage to get your ""Run"" command to simply print out only the program itself, and not the file path of the program.  Is there a way to do this in settings?  Any advice you could give would be greatly appreciated.  Thanks in advance, and have a great day!   :D",True
+@rdhalla3d,2024-01-19T06:48:49Z,0,"Fast, accurate and to the point, Love it! :)",True
+@lelly1010,2024-01-12T23:13:03Z,0,2024 and your still helping learners!! big thanks! your explanation made a lot more sense then my course in Udacity!,True
+@soufianewaderhman1838,2023-12-11T13:23:16Z,0,can anyone please tell me what program is corey using to write the python code??!,True
+@gabrielbiason7609,2023-11-27T17:24:19Z,0,"At 10:07 Corey has two simple lines that read like a =[1,2,3] with no spaces between the 1 2 and 3. He then hits some hotkey to create spaces between each item in both lists in both lines all at once. Does anyone know how to do this? I'm trying to google but I'm having no luck.",True
+@himangshude3546,2023-11-13T03:56:51Z,0,"5:29 in python match case is available in version 3.10 and onwards, which exactly works like switch case in other programming languages🎉😅  Loved the tutorial❤",True
+@user-bb7di5lj6d,2023-10-31T01:36:21Z,0,thank you i am a beginner on python booleans,True
+@omaiwashinderu5912,2023-10-25T22:41:20Z,0,I kept writing down questions I'd have to ask AI and literally they were answered within the next 30 seconds lol,True
+@Paulsafaliche135,2023-10-24T21:21:28Z,0,Thanks,True
+@hartdemerchant9806,2023-10-09T23:30:51Z,0,Thank you so much,True
+@nithinbs2543,2023-09-15T11:33:41Z,0,I am completely perplexed with not boolean expression. Can someone explain this to me precisely ?,True
+@patrickwheeler1979,2023-09-14T14:06:34Z,0,"This was another good video, thanks",True
+@jakethesnek,2023-09-08T19:17:42Z,0,"I have only been learning Python for  few days now, and I'm retaining and applying everything you teach! I take my notes in a .py file, seems to help me alot as I can see the code and comment-in the explanations!   I also used what i learned to come up with another way to write (else) using a comparison operator  Elif user != 'John' or 'Jacob':          Print('Access Denied')  #which is another way of saying..  Else:      Print('Access Denied')   Long story short. You're awesome!",True
+@benjanssens8662,2023-09-05T06:55:41Z,0,how did you write in 2 spots at once!!,True
+@mohammedadnan6425,2023-08-28T10:09:13Z,0,how did you copy paste so fast?🤨😐,True
+@venturaroses5469,2023-08-25T16:17:04Z,0,"why if we put the true, false in the 'and' condition directly, without variables, always resulting in the else condition?",True
+@mingyan8081,2023-08-23T17:26:46Z,0,"Python now has switch  language = 'JavaScript' match language:     case 'Java':         print('language is Java')     case 'C++':         print('language is C++')     case 'Python':         print('language is Python')     case _:         print(f'language is {language}')",True
+@redneckengland,2023-08-19T00:53:07Z,0,python,True
+@markkennedy9767,2023-08-12T22:37:45Z,0,"At 7:05, when using the else block, you say ""if neither of these are true"". Do you mean to say ""if either or both of these are untrue"". Nice video.",True
+@obongofoneyo4856,2023-08-03T00:00:38Z,0,"okay I really hope you reply this user='admin' logged_in=False   if not logged_in:  (in other words, I am saying if logged_in is true)       print('please log in') else:       print('welcome') result= welcome But your result ends up being  'please log in' I do not understand",True
+@Steadyrock100,2023-07-14T22:25:53Z,0,"You make Python easy!  After this tutorial, im ready to take on more Python!!!! Thank You!!!!!",True
+@harshittemkar8031,2023-07-13T11:18:36Z,0,your all vedios that i had watch for python its total amazing please make like this videos for different languages🤌,True
+@user-qe8ce3lr2w,2023-07-11T21:34:17Z,0,how come we don't have to specify True as part of the if condition: statement?,True
+@shadypark78,2023-07-03T01:31:44Z,0,Thank you for describing it that way.,True
+@raghadmohd2336,2023-06-14T05:50:27Z,0,"why is this false  a =[1,2,3] b =a  print(id(a)) print(id(b))  print(id(a) is id(b))",True
+@saranyanallusamy5215,2023-05-12T03:28:22Z,0,Thank you,True
+@markkennedy9767,2023-05-08T19:00:51Z,0,"""hey there, how's it goin', everybody!"" 🙂",True
+@She_cooks2023,2023-05-08T07:42:53Z,0,loving them,True
+@emilpeychev8714,2023-05-02T13:00:36Z,0,is == used to compare both string and numeric?,True
+@cemilearabaci8549,2023-04-27T23:40:36Z,0,booleans?  I did not see them,True
+@mohindergoyal2976,2023-04-26T19:54:17Z,0,The id function on a list is not working anymore in python.,True
+@bumblee_beee,2023-03-29T05:21:39Z,0,The simplest way of teaching 😍👍,True
+@shubhadipghosh6437,2023-03-10T01:00:35Z,1,"These videos are really awesome. When it comes to switch cases, Python 3.10 introduces the match-case statement, which offers a switch case implementation for Python.",True
+@mohammedalkhateeb4539,2023-03-03T22:37:16Z,0,Thank you,True
+@jwack,2023-02-17T22:21:23Z,0,ChatGPT suggested I watch this video :),True
+@loveall2033,2023-02-12T21:58:13Z,0,difference between if condition and boolean i want some example when to myBoolean and if,True
+@abdiwahabdawlad9128,2023-02-07T06:47:26Z,1,Clear understanding :),True
+@optimisticspark4456,2023-01-18T01:56:23Z,0,Very nice.Thank you.,True
+@RameezRaja-qc9fi,2022-12-29T09:50:58Z,0,Excellent work brother,True
+@GhostSenpaiEdits,2022-12-21T09:07:22Z,0,nice loved your teaching,True
+@nikosbako1974,2022-12-16T13:31:44Z,1,I am keep coming back to these amazing tutorials all those years after. Hands down one of the best channels for getting solid and well explained educational content. Much respect Corey from a proud patreon supporter,True
+@Anonymous_019,2022-12-14T15:51:08Z,0,Def one of the best tutorials out there. Love the content a lot mate. Much respect to you Corey :),True
+@shreyaschavhan5522,2022-12-13T12:11:10Z,1,"# False Values: 12:00  	- False 	- None 	- Zero of any numeric type 	- Any empty sequence. For example, '', (), [] 	- Any empty mapping. For example, {}.",True
+@jonathanr2107,2022-12-11T13:45:39Z,0,M.V.P,True
+@paultidwell8799,2022-12-02T18:54:46Z,0,very helpful thank you.,True
+@Un-Known-2023,2022-12-01T11:40:53Z,0,"Help me guys: I need to create a Boolean for the following scenario: Student needs to study at the campus. It's open from 7-17 (5pm) It's closed between 0-6 and 8-23, so a guard is required to open it. The user enters the time (an hour number e.g. 4 or 7 etc.) If the user enters an hour that is when the campus is closed and the guard is required to open it, the Boolean has to display True for the guard. If the user enters an hour during the times/range the campus is open, it has to display message e.g. ""It's open.""",True
+@you_are_a_boer,2022-11-30T17:18:53Z,1,I am a teenager and I have found your lessons very helpful. Keep it up!,True
+@nawledge4pwr,2022-11-29T01:01:33Z,0,How can the 'is' statement be useful in programming? What do professional programmers need it for?,True
+@kanchithakkar8471,2022-11-10T09:51:55Z,0,Thank you so much,True
+@johndanielpael9698,2022-10-24T22:39:03Z,0,how did you change both java into javascript at the same time?,True
+@user-dk9lg9cq2u,2022-10-21T21:32:46Z,0,Thank you so much!!,True
+@suriyap.6516,2022-10-21T01:49:13Z,0,U da goat man,True
+@MizanurRahman-ry4cm,2022-10-15T14:13:25Z,0,"Hi Corey, great tutorial. May I ask which IDE you are using in the video? Is it PyCharm?",True
+@IronReef77,2022-10-14T23:44:39Z,0,"Hi, I am learning Python and running a basic if/else code. For starters I made a true statement such as if (3 > 1) Below typed print(""Correct""). The problem is it doesn't print Correct.  I have a screenshot too if needed.",True
+@codeSkul,2022-10-14T23:00:03Z,0,Udemy is Overrated for nothing. THANK YOU COREY.GOD BLESS YOU.,True
+@AryanSingh-eq2jv,2022-10-01T07:29:34Z,0,I LOVE YOU COREY,True
+@bucketofoddities7070,2022-09-28T23:52:42Z,0,"These are excellent tutorials! However, I have one suggestion: Perhaps there could be a synopsis of the content at the beginning so I can get what I need when I'm rushed? Your videos are awesome, and I like the length, but everything else in my life does not :(  Up to you though!",True
+@StumpStories20,2022-09-22T19:21:04Z,0,"Hey Corey greetings of the day, actually I have issues with the conditions that will give true and false evaluated output...when typein condition section true it gives evaluated true ,but when I try with the false one it again gives me same output as well   Kindly help me with this sir ,hope you'll reply soon",True
+@mafralba,2022-09-21T18:04:46Z,0,Thank you Corey,True
+@calebheino2205,2022-09-13T00:06:42Z,0,hey I'm new to python but what was the key you held down to edit both Java's in the elif and print statements @ 5:53 thanks for the tutorial,True
+@knowledgeseeker2452,2022-09-03T07:02:34Z,0,Thanks <3,True
+@Cameouo,2022-08-29T14:16:49Z,0,I am telling you. This man is gold!,True
+@helenozuna5152,2022-08-22T20:58:19Z,1,"I am loving your tutorials. I am just getting into programming. I am putting my own exercises together from each of your videos. By any chance, have you created exercises that I would be able to follow so that I can put what I have learned so far into action?",True
+@oguzturkyilmaz543,2022-07-10T19:09:37Z,0,Thank you,True
+@virgo2004,2022-06-22T08:40:56Z,0,"Until now its very helpful! but...  if person_ask == 'why?':         print('because no SWITCH CASE STATEMENT😭""  but thank you for this tutorial sir!",True
+@betterthanb4r,2022-06-21T13:06:05Z,1,now there is match case in python similar to switch case in any other language,True
+@glamify524,2022-05-24T18:47:51Z,0,That explanation of what evaluates to false was extremely helpful,True
+@flybird8693,2022-05-16T14:57:43Z,0,"Best tutorials ,many thanks",True
+@michealolayinkadamola,2022-04-25T21:06:50Z,0,Thank you sir,True
+@frederic_viennot,2022-04-25T13:02:02Z,0,AMAZINGLY CLEAR !!!! thank you ;)),True
+@Zellaaaaaaaaaaa,2022-04-15T09:52:06Z,0,Very good tutorials,True
+@donokonkwo5384,2022-04-09T06:25:58Z,0,This guy is like the Organic Chemistry Tutor of Python,True
+@zolamakhosonke7982,2022-03-26T14:10:30Z,0,"The way you make what I considered hard so easy I feel like, what a genius you are, it like you understand how my brain can understand python 😂. Thank you so much about that, I appreciate your videos 🤝.",True
+@yihongli350,2022-03-24T04:52:47Z,0,Thank you,True
+@saintz_aj,2022-03-10T00:08:08Z,0,"I just finished listening to a 3 hour lecture that I learned nothing despite asking questions to clarify and elaborate condition using examples. Thanks for this, well delivered and easy to understand.",True
+@ssaeed9574,2022-02-27T19:22:30Z,2,"Corey, these tutorials are really great. I wish I had come across your videos a lot sooner. You are precise, clear and speak at the right pace, and you've made it a lot easier to understand the language. A big thank you.",True
+@user-qn5by5iv7u,2022-02-20T09:57:27Z,0,2022,True
+@naeemaalyaarubi8483,2022-02-14T21:16:12Z,0,The font is too small,True
+@manofculture584,2022-02-09T10:33:46Z,0,"is it possible to run a function if a condition happens like this.. if condition, then call function",True
+@thirdwavve2748,2022-01-15T16:35:43Z,0,Thanks for the work you put into these tutorials. What do you recommend is the best way to follow-along with these tutorials for maximum results?,True
+@kevinjang8209,2022-01-09T14:39:45Z,0,Great video!,True
+@UniverseLums,2022-01-09T14:06:03Z,1,спасибо,True
+@baharehshahpar8674,2022-01-02T15:37:34Z,0,"Videos are great, I am really enjoying learning Python, I would like to practice what I have learned till now is there any source for practicing what we learned?",True
+@ishangoinyambo6523,2021-12-15T16:49:09Z,0,"am i the only1 who is putting condition=10 just to get the ""evaluates to false""???",True
+@Voyager602,2021-12-07T23:00:01Z,0,That was really helpful,True
+@Drone360pilot,2021-12-06T09:07:36Z,0,Best tutorials for Python that I have ever seen. Deeply appreciated 🙏🏼,True
+@adityaahuja4589,2021-11-01T12:26:14Z,0,10:00,True
+@marcello4258,2021-10-31T19:55:45Z,0,as from what I've understood. Initializing a variable by setting it to another value ( value_a = value_b ) just give the pointer as if value b changes so does value a. But how do you copy the data (which seems to be in the heap) to the new object so that it has its own data which is not depended anymore and therefore stays the same even if value b changes.,True
+@amandaahringer7466,2021-10-31T15:37:49Z,0,Found something interesting that I didn't realize after doing some testing. It seems like a string or number variable ends up pointing to the same object on instantiation.   a = 5 b = 5 print(a==b) True print(a is b) True print(id(a)) 4511852976 print(id(b)) 4511852976  a = 'Python' b = 'Python' print(a==b) True print(a is b) True print(id(a)) 4329753648 print(id(b)) 4329753648   After making a modification to the object associated to the variable a new object gets created.  b += 'a' print(a==b) False print(a is b) False,True
+@rajgiriyt8494,2021-10-16T08:52:00Z,0,person with 0% haters.. love you from nepal,True
+@MrLeonardodv,2021-10-07T07:32:59Z,0,Could you tell me or someone else - How do you write at the same time in a few lines? What combination of buttons I have to press? :) Is it Sublime Text`s feature or I can do it in Pycharm as well.,True
+@mohammadsalahradi2293,2021-09-25T19:39:36Z,0,I like your videos. You explain complex things in an easy way. Your videos are essentially beneficial kickstart for beginners. Keep going.,True
+@prod.sourdiesel87,2021-09-24T17:02:21Z,0,how did he change the value in two places at once at 5:53,True
+@chaitanyayeturi1312,2021-09-05T10:33:08Z,0,"First of all, your teaching style is good, and anyone grabs ur teachings easily, and thanks for teaching us. you are the best tutor I have ever come up with in python language. can u suggest any python language book, which is best to go through other than your channel? Moreover, I am a beginner to python language I thoroughly enjoyed ur videos, if u can suggest me best python book to ur sensibility and I guess it suits me and it helps me to learn further (I like physical like books). In case if u written any books related to this language can u suggest one (or) your favorite book, please......................................",True
+@quenyanwarrior8741,2021-08-25T05:40:45Z,0,"coming from bash language, it somewhat similar, but compared to JavaScript, python much more simpler.",True
+@saiyam2509,2021-08-22T12:57:26Z,0,You made learning Python so interesting and easy. What a Saviour!!! Thank you!,True
+@sidabras,2021-08-18T13:58:13Z,52,"For those that take notes:  # Comparisons: # Equal:            == # Not Equal:        != # Greater Than:     > # Less Than:        < # Greater or Equal: >= # Less or Equal:    <= # Object Identity:  is     # False Values:     # False     # None     # Zero of any numeric type     # Any empty sequence. For example, '', (), [].     # Any empty mapping. For example, {}.  Corey, thanks so much!",True
+@spotifypouria2246,2021-08-09T13:23:54Z,0,how do you #comment some lines all togheter?,True
+@Asterics.,2021-07-05T18:47:01Z,0,does 'for' include in condition? I hardly understand that condition if it mix with another data type,True
+@L061C,2021-06-21T05:43:30Z,0,"I have question, how can we make the if and else condition in such a way that the code checks the given value for each given condition and then gives result for which conditions matches it the best! Suppose i have  N If condition, Elif Elif Elif Else Now i want my code to check the 'N' for all given condition then give the best match in result, how can i do that? Thanks",True
+@alphabasic1759,2021-06-19T14:13:50Z,0,"Sorry, but I disagree about the the if/elif/else being clean enough to not need case/switch statements.  Almost every language that has these also has if/elif/else syntax.  What the people behind python are saying is that they know better than everyone else out there…they aren’t.",True
+@john-jv5lm,2021-06-14T10:51:09Z,0,what idle are you using if i may ask?,True
+@sonnman1221,2021-06-13T21:09:33Z,2,I love your tutorial keep up the good work 👍 I liked and subscribed👍,True
+@ttitus5416,2021-05-29T14:30:27Z,1,"Thank-you this was a very helpful video, I stumbled on a reddit site where I saw two people recommended your name. One person said they like to return back and re watch your videos even though they have been programming for awhile.",True
+@rajivtiku7259,2021-05-22T00:23:40Z,0,"Sir,  why 0=False but !0=True?, I didnt get that?",True
+@khushalingale4580,2021-05-19T03:05:35Z,1,"# Comparisons: # Equal:            == # Not Equal:        != # Greater Than:     > # Less Than:        < # Greater or Equal: >= # Less or Equal:    <= # Object Identity:  is   # False Values:     # False     # None     # Zero of any numeric type     # Any empty sequence. For example, '', (), [].     # Any empty mapping. For example, {}.  condition = False  if condition:     print('Evaluated to True') else:     print('Evaluated to False')",True
+@ayushgupta1881,2021-05-16T16:27:42Z,0,Thanks a lot!,True
+@frankpercicotte,2021-04-27T12:39:38Z,0,"Wonderful lesson, your teaching is easy to understand! Thanks!",True
+@afx-azizyarfx994,2021-04-26T10:20:44Z,0,"This helped me alot, thanks!",True
+@ClaudiaAcquistapace,2021-04-14T08:24:05Z,0,"Hi Corey, I find your videos amazing! your clarity in explaining is fantastic and all the examples allow us to really understand how python works.  I have a question regarding if conditionals; I often need to set as a condition the result of a numpy where function, something like... if where returns elements then do something, otherwise don't. I managed to use np.sum(np.where(a == 0)[0]) == 0 as a condition, but I wonder if there are smarter ways of checking for this.... many thanks for helping if you can :)",True
+@mggarekar,2021-04-14T00:17:55Z,0,amazing!,True
+@arjungoud3450,2021-03-27T17:29:46Z,0,"Thank a lot,  with 2 min watch I understood properly.",True
+@sujaa1000,2021-03-14T08:36:43Z,0,"Thank you, Thanks a bunch",True
+@hamzerada6758,2021-03-14T00:42:44Z,0,Literally explained it better then the teacher I have in this course LOL,True
+@flossdojo5151,2021-03-05T16:57:35Z,1,I am really confused on this. The other lessons that you did are amazing. Just this lesson could be less confusing.,True
+@GladanDsouza,2021-03-03T18:45:50Z,0,"Man, I am back after a few months. Man computer science is good but requires rigorous practice. Hopefully tomorrow for my test this helps! Thank you!",True
+@iljazbakalli671,2021-03-01T16:53:39Z,1,"I rly like these videos but i find a lil bit hard to learn by myself i would appreciate if som1 knows where i can learn in groups with others. Homeworks would be great too, like after a lecture finished give a small lecture just to see how would we do. Thanks anyway.",True
+@Graanvlok,2021-03-01T14:50:38Z,1,"I don't understand why nothing was printed out for ""if False"" in the beginning. How did the code know what was true or false?",True
+@jianfabentsai2438,2021-02-23T02:46:16Z,0,"Hi Corey, I love your tutorials. Respectfully, why not add a revenue stream by creating and selling Python practice questions and answers based on topics? Afterall, in practice, employer pay people for the code they produce. Please share with your team.",True
+@withkonan,2021-02-20T09:00:48Z,0,"k = 2   s1 = 'a' * k s2 = ""a"" * k s3 = 'a' * 2 s4 = ""a"" * 2  print(id(s1), id(s2), id(s3), id(s4)) //id of s3 and s4 are same rest are different  print(s3 is s4)  // it return true  print(s1, s2, s3, s4)    //aa aa aa aa  can you please explain me why s3 and s4 are refering to same object and why others are not",True
+@meganm4350,2021-02-13T23:07:11Z,0,"Thanks, man, great video. I was wondering when you would use 'not' rather than just using != . You specified that you would use 'not' for Booleans but you could have used != in that instance too, couldn't you?",True
+@x-2971,2021-02-01T19:55:42Z,0,awesome,True
+@brandonhamilton370,2021-01-29T01:35:51Z,0,"import random  my_reply = input(""What is your name? "") print(""Hello,"" , my_reply)  #My responses  pos_resp = [""good"", ""great"", ""fantastic""] neg_resp = [""bad"", ""awful"", ""horrible""]  #Bot Responses  bot_pos_resp = [""That's amazing! "", ""I'm happy to hear that! ""] bot_neg_resp = [""That's sad! "", ""I'm so sorry to hear that! ""]  while True:   my_reply = input(""How was your day? "")   if my_reply == random.choice(neg_resp):     print(random.choice(bot_neg_resp))   elif my_reply == random.choice(pos_resp):     print(random.choice(bot_pos_resp))  Why is this not working!!!???? :(",True
+@rhishabmukherjee43,2021-01-25T08:19:18Z,0,"At 5:56 , how did he change Java to JavaScript in both lines 17 and 18 but by typing only once in line 17 ??",True
+@martyedge,2021-01-18T12:54:20Z,0,"You, Sir, are a lifesaver.",True
+@salman335588,2021-01-09T15:22:01Z,0,Thanks Corey,True
+@hasankhalid,2021-01-04T04:32:38Z,0,"You can make this lesson next level if you add real world examples like you did with Pandas series. Thanks,",True
+@samarthsingh8741,2020-12-31T12:04:58Z,0,The thing I love is that you explain all of it in such short time! Thank you so much!,True
+@ab5848,2020-12-27T12:34:24Z,0,Thank you sir 👍,True
+@abhishekstatus_7,2020-11-30T09:32:38Z,0,Best #Python tutorial i have ever found !,True
+@angelgray701,2020-11-29T23:00:31Z,0,💛,True
+@guess2014,2020-11-29T15:58:13Z,0,All comments are 100 % positive..! Congrats Corey Schafer. This shows your effort.,True
+@anujpandey9339,2020-11-29T08:29:02Z,0,🔥🔥,True
+@alexanderpadalka5708,2020-11-26T11:47:48Z,0,™,True
+@zeyb8934,2020-11-18T07:59:02Z,0,why did the number change in 11:10 when we use == and not is?,True
+@TheHowToKing,2020-11-15T19:55:13Z,0,"I'm trying to run a conditional statement with required user input in Python 2.7. I created my variable and the conditional statement is printing the first line even though the numbers aren't right. It's sort of hard for me to explain but this is what I have.   age = str(raw_input(""Enter age: "")) citizen = str(raw_input(""Enter number of years as a US citizen: ""))  if age >= 30 and citizen >= 9:     print ""You are eligible for both the Senate and the House "" elif age >= 25 and citizen >= 7:     print ""You are only eligible for the House. "" else:     print ""You are ineligible to serve.""  No matter what numbers I put in, ""You are eligible for both the Senate and the House "" prints out. And neither of my other two options will show no matter even if I say I'm only 3 years old.",True
+@7XxKiKoOxX7,2020-11-14T04:39:08Z,0,Tutorial 06/143 done ! Tyvm,True
+@dhk.yankees,2020-11-09T10:42:58Z,0,I'm from Bangladesh man.And Your Explaining level is Brilliant.Love you man.,True
+@carpediem73,2020-11-07T17:19:55Z,0,thank you,True
+@exploretheworld9111,2020-10-27T19:43:29Z,0,now i am sure I am going to be a program developer. thank you Corey Schafer. Gonna join your digital academy.,True
+@cemalcakir,2020-10-17T17:54:02Z,2,"Hey Corey, great lessons. Actually I found a way to implement switch statements into python with dictionary. For example:  language_switcher = {     ""Python"" : ""Language is Python "",     ""Java"": ""Language is Java"",     ""JavaScript"":  ""Language is JavaScript""}  print(language_switcher.get(language))",True
+@vladcoman1776,2020-10-07T08:38:37Z,0,How did you changed both lines when you typed JavaScript instead of Java? Thank you!,True
+@gabrielaojeda4948,2020-09-27T18:53:43Z,0,"Thank you for this video, it's very helpful! :) at the moment i'm stuck in an exercise in which they ask me to add 200 to my variable using else, elif and else and not really sure how to proceed in this case. Anyone know how to add to variables through these functions?",True
+@Hrit,2020-09-27T15:59:34Z,0,Seriously the best python course.  Anyone reading this comment - Watch these videos + W3 schools Python (Best Combo),True
+@faouzidouche7315,2020-09-16T08:47:50Z,0,"Hi my best teacher. I'm really enjoying while I'm learning with your fabulous Python's tutorial.    I have a question concerning the IDs, why every time we run again the code the a & b IDs are changed?  Thanks in advance.",True
+@AryanSinghSingh298,2020-09-13T04:04:08Z,0,12:23,True
+@buthy9469,2020-09-09T22:53:15Z,0,"#Comparisons: #Equal: == #Not Equal: != #Greater Than: > #Less Than: < #Greater or Equal: >= #Less or Equal: <= #Object Identity: is",True
+@flourish_ol,2020-09-08T23:11:15Z,0,Your tutorial is absolutely great  But please make the text bolder  Thanks man,True
+@thebarch7594,2020-09-06T13:11:28Z,3,i missed half a year worth of learning for my computer science gcse because of the pandemic and these videos are really bringing me up to speed thanks!,True
+@alphabetsalphabets5242,2020-08-28T11:10:20Z,0,"I thought I know the basics of python well until this video series. It just showed me how untrue that is, and you know what? I'm glad it did, because now my basics are a lot stronger than they were before. Also you are a fantastic teacher.",True
+@vivekluthra21,2020-08-21T05:21:34Z,0,Thank you so much! For explaining all the things in such a easy way.,True
+@rudrakshkumar6217,2020-08-10T17:28:29Z,0,Sir can you please help me in understanding empty sequence?,True
+@Jean-is1uj,2020-07-28T11:10:01Z,0,"cant you put multiple information inside the variable? liek this language= ""java"". language= ""java"", :python"" etc. if not, what is the solution for this?",True
+@NikhilSharma-cw9lh,2020-07-25T16:32:38Z,0,inspired,True
+@juniorizcortes6370,2020-07-21T16:09:42Z,0,"Sir, you deserve to have millions of subscribers and you have mine. This is gold compared to udemy courses.",True
+@aloysiuskuon1553,2020-07-18T08:33:35Z,0,"At 8:07, for for the if condition, does 'logged_in:' literally means logged_in = true? Or it depends on what its assignment was at the beginning of the code?",True
+@nandhureddy27,2020-07-18T05:30:11Z,0,he uses copy paste to its max :-),True
+@solomon7009,2020-07-16T12:35:13Z,0,Is it better to use ‘ or “ in python,True
+@sanjeevkumarsingh4198,2020-07-15T15:40:32Z,1,very helpful.  thankyou !   so much.,True
+@friedcereal2993,2020-07-14T01:18:17Z,0,I'm probably not going to get an answer but at around 10:38 whenever I put that in it says true and when I display ID's they are the same. Am I doing something wrong or did they change how it works in the past 3 years,True
+@bonsailab8426,2020-07-05T09:08:39Z,1,Thank you so much!!!!!,True
+@sonetmollick4630,2020-06-27T19:59:19Z,0,Great lecture. I learned a lot from here in short period of time.,True
+@MultiDpz,2020-06-16T10:38:21Z,1,@Corey : Why did I find you so late....,True
+@riyabhati7416,2020-06-14T05:44:12Z,0,I really want to know how to get started with python,True
+@gouravdharkar3429,2020-06-10T11:17:12Z,1,grate video thanks,True
+@apexgameryt3035,2020-06-10T10:25:37Z,0,If we can use if statement instead of an elif statement then what is the use of elif statement? can anyone clear me this point?,True
+@f7oor,2020-06-05T16:23:39Z,1,Thanks a million for these tutorials Corey!,True
+@codingboy2254,2020-05-24T14:07:54Z,0,condition = { }  is a set not a dictionary or a mapping .........,True
+@annasergienko409,2020-05-23T02:00:25Z,1,Can't stop watching! I love these videos! Thank you so much,True
+@ayubaadigun95,2020-05-19T12:48:21Z,0,"In an if code, is it possible for a false statement to execute before a true statement will execute.  I don't know if you got my question.",True
+@ayubaadigun95,2020-05-19T12:43:50Z,0,"I find this video very educative and easy to learn.  However @Corey Schafer, it will be good if you can add a portal for us to access ourselves by doing quiz or test to know our ability and boost our confidence.   Thanks",True
+@JoshuaDHarvey,2020-05-19T01:25:19Z,0,"Great video, thank you!",True
+@lionqueenbg,2020-05-17T20:41:33Z,0,How did a space appear after every comma at 10:09?,True
+@keshavjha9835,2020-05-17T07:32:19Z,1,you are awesome mate..,True
+@ekc133,2020-05-16T14:36:31Z,0,"hello sir, if i am taking a=10 ,b=10 then I am getting same memory addresses for both a and b.",True
+@deepaksingh9318,2020-05-12T07:34:47Z,0,"Loved the explanation .. And the True,False behaviour you explained, i dont think anyone else explained that in any course.. But could you please also explain the reason of this behaviour (i.e. 0 = False but other int are True) in your coming videos(An advance python Series may be) :)",True
+@gunterclements6856,2020-05-09T16:42:24Z,171,"Corey, I would donate to you, but all of my money went to the university that taught me absolutely nothing.",True
+@muslimaallayorova2087,2020-05-06T21:00:12Z,0,"I have watched a few of other tutor, Corey is best on these part , thank you. best=your knowledge and explanation  if True: print(corey)",True
+@TarynMychalMai,2020-05-01T05:43:09Z,0,"I feel wayyy better about conditionals, thank you!",True
+@joshcummins3916,2020-04-16T19:40:25Z,3,I just found your channel dude your lessons are so clear and to the point. Thanks bro. Definitely going to go thru the course to learn.,True
+@pvlcz4360,2020-04-10T15:55:34Z,1,Thanks. Really helped me.,True
+@farshad-hasanpour,2020-04-06T20:23:21Z,1,best python tutorial ever,True
+@bertilow,2020-03-27T19:50:57Z,0,"If you come from Perl you should note that the string ""0"" does not evaluate to False in Python. In Perl it does.",True
+@alexk2883,2020-03-27T05:39:31Z,1,"By the way, your videos are  really awesome i.e even I understand what they are. Thanks for your commitment.",True
+@alexk2883,2020-03-27T05:37:21Z,0,I would like to write code for whatever I want efficiently . But unfortunately I realize that I don't have enough talent to be a coder. Press F for me :3,True
+@tooomasz,2020-03-24T11:06:14Z,2,"hey Corey, great videos! I just wanted to ask - why does ""if condition:"" works different than ""if condition == True:""?",True
+@WathiqHAtrah,2020-03-23T01:22:00Z,0,"You are Print ""The God of Python"", your tutorials are very concise, clean, clear and very easy to understand...",True
+@anishmahajan8131,2020-03-15T09:34:10Z,1,"@Corey You videos are very informational and helpful for beginners.Can you please explain why object comprasion (is -operator) return 'True' if values are less then 256 bytes. For ex: a = 3 b = 3 if a is b:     print(""Same object"")     print(id(a)     print(id(b)",True
+@aatt3209,2020-03-05T05:29:58Z,0,"another excellent tutorial, CS is the best Python teach out there!",True
+@joellee9536,2020-03-03T23:34:18Z,1,5:54 how did Corey type in both of those places at once? What do you press?,True
+@adv2164,2020-02-29T16:04:40Z,16,"This is undoubtedly the best course across the Internet!! Thanks a lot for creating this course. Sir, If possible, can you please make exercises on the topics covered in videos? It would be a great help for practicing. If not, please at least refer us the best place for practicing.",True
+@Lamitoon,2020-02-23T05:49:30Z,0,"I did not like how my CS teacher taught this chapter I was confused as to what the If,else, elif statements did exactly. My question is can I build a rock paper scissors game with using only booleans and  If,else, elif statements?",True
+@North7able,2020-01-27T08:22:54Z,0,why blurry T_T,True
+@yamiaguilar1553,2020-01-26T21:20:15Z,2,"0:18 When you type ""if True"", what exactly is it checking?",True
+@harrywu3102,2020-01-24T07:13:41Z,93,English is my second language. But I could even totally understood what Corey explained.,True
+@rizwanghzzaal1347,2020-01-19T16:07:19Z,1,Corey Thanks for amazing tutorials will recommend to my colleagues as well,True
+@chrisatronx,2020-01-13T14:02:32Z,2,py_ability = 'increased'  if py_ability == 'increased':            print('Great Video!') elif py_ability != 'increased'             print('I should probably just watch the video again') else:             print('Watch Corey Schafer Python Tutorials!'),True
+@vman049,2020-01-06T20:55:41Z,0,"Thanks for the great video! Could you please explain the difference between &, &&, and ""and""? Similarly, between ! and ""not""?",True
+@JenPurple2022,2019-12-19T17:34:18Z,3,"Concise, constructive and smooth.",True
+@keysle8635,2019-12-18T18:43:15Z,0,These videos are so helpful! GOLD! Can you tell me what portion of the video you covered any mapping {} I wasn't sure if there was more to it.,True
+@playgoods,2019-12-14T17:25:41Z,0,many thanks,True
+@kalyanit8551,2019-12-14T08:20:14Z,0,Easy to grasp the subject with full clarity. Thanks for make it free.,True
+@ankitshaw1388,2019-12-10T06:33:03Z,0,Bro whenever I write  print(a == b) it gives an error and same goes for is also,True
+@mikehattias5837,2019-11-30T12:50:59Z,4,Wasted my money on udemy. These are so succinct and comprehensive. I don’t feel any resistance or boredom watching and following the material,True
+@carl1588,2019-11-17T23:57:04Z,0,Hi thank you very much for ur awesome material. I was wondering if u had any book recommendation regarding python? THANKS!!,True
+@harmanpreetsingh6904,2019-11-15T22:16:03Z,0,Anybody knows best javascript tutorial channel for beginners on youtube ?,True
+@soumyazyx,2019-11-13T21:21:33Z,1,Thank you Corey for your time and effort. Keep spreading the knowledge.,True
+@thesoccercardsocial373,2019-11-05T19:50:17Z,0,What are you using to demonstrate looks loads easier than what I am using,True
+@bharath695,2019-11-05T12:36:53Z,0,"when logged_in = False (means not loggedin ) then -- if not loggedin  ( means  -ve of -ve ...+ve, he logged in)                 print('welcome') Isn't it @Corey Schafer",True
+@xRoyalty94,2019-11-05T02:04:37Z,0,"Did anything change with Python 3.6 or later? I declared two integers, num_1 and num_2, setting them both equal to 1. They have identical IDs. How is this possible? I thought each new declared variable had its own dedicated space in memory?",True
+@josecastro4143,2019-10-29T17:46:54Z,1,condition = [''] evaluates to True and so does [[]],True
+@kaustubh1969,2019-10-24T12:07:18Z,6,Man this is amazing...!! I am a finance grad and I am picking up programming skills as they are getting necessary day by day.. By goal is to be able to make trading algos.. and mate your videos are amazing for a non programmer like me!! The day I get my first job I will donate to you....   thank you so much!!,True
+@kapilnegi1787,2019-10-23T14:39:53Z,1,Does id(a) gives the address of object a?,True
+@itguy108,2019-10-20T21:49:19Z,1,Very helpful Python serial tutorial.  Love it. Thanks.,True
+@fahad203,2019-10-03T21:22:19Z,1,Why why didn't I find these videos before.  I wasted so much money in paying for live classes.  You owe me money Corey,True
+@programmer2736,2019-10-03T03:26:39Z,0,Day 3 done 10/2/19,True
+@abdullahyaqoob3741,2019-09-29T18:12:14Z,0,"or, and are unlimited you can add what ever number of condition when use these two conditions. Good job man",True
+@wizard-28,2019-09-18T10:16:05Z,1,"Man, you are GOD.",True
+@deadchannel7394,2019-09-06T13:02:48Z,4,"Thank you so much, I was stuck and then I found this video, couldn't thank you more.",True
+@mudhitkumar,2019-09-03T05:09:30Z,0,"Can someone tell me why do we use a colon '"" : "" after ""python"" at 2.31 ?",True
+@-J-AnujSoren,2019-08-12T08:41:51Z,0,worst teacher,True
+@-J-AnujSoren,2019-08-12T08:41:25Z,0,lol teacher,True
+@nigelblanchard5571,2019-08-06T18:05:10Z,0,"Hi Corey, in some of your videos you mention that you have/maybe/might post some exercises but where would those be - is it a feature of the ""Join"" button as I have subscribed on ""patreon"" but only a small amount as I was trying to find the exercises. Would it better to unsubscribe from Patreon and use the ""Join"" button feature on Youtube or is it that those exercises have not yet been published as you have not yet had time to develop that part of your wonderful course on Python for the beginner?",True
+@MadBunnyRabbit,2019-08-04T18:05:42Z,1,"JS has both switches and else if. Functionality may be the same but assembly is different. As such else ifs are faster than switches when there's just few conditions, but this quickly changes the more conditions you add. But yeah, sure,  it's functionaly the same.",True
+@gjayh,2019-08-01T03:00:07Z,1,Listened for a short time & enjoyed it BUT enlarge the fonts.  It gives me a headache to read it!,True
+@garrtrigger,2019-07-20T15:15:41Z,2,"Thanks sir, this video gave a better understanding of if else statements. Currently taking Automate the Boring Stuff at Udemy right now, and your tutorial is a great help.",True
+@indramaniarora7901,2019-07-19T15:46:15Z,1,"I just tried doing print(uname is 'xyz' and pw is '1234'). this evaluated to false. wheras both the is conditions, when evaluated separately, returned true. Can anyone help me understanding this.  Edit: when i am normally assigning the variables, it returns true. But when i am assigning via input and getpass respectively, i get false",True
+@imimkalada-green8244,2019-07-02T13:30:15Z,0,What IDE is that,True
+@XxAssassinYouXx,2019-06-09T22:12:05Z,0,"# Comparisons: # Equal:                        == # Not Equal:                    != # Greater Than :                > # Less than:                    < # Greater or Equal:             >= # Less or Equal:                <= # Object Identity:              is  # and  # or  # not     # Anythign python see's as false  # False values:  # False # None # Zero of any numeric type # Any empty sequence. For example, ' ', (), []. # Any empty mapping. For example, {}.",True
+@neosinan1,2019-06-08T11:13:35Z,1,if only I could give 2 thumps up to this video :),True
+@rocketmoving3860,2019-05-12T20:05:36Z,1,Great video! Always a clear explanation : ),True
+@ryanlobo7530,2019-05-12T05:51:39Z,107,"Dude, I have to say, after trying to study python for about a week I found it really interesting but then I got off it for about a week or so due to work and I was completely put off and found it really hard to get back into it and then I came across your videos. Your videos are truly amazing, the way you explain is remarkable and I don’t know why someone would go pay to learn when there are videos and channels like yours. each topic is thoroughly explained and the way you explain it makes it a lot easier to understand. Carry on with your hard work and thank you so much for these videos !!",True
+@ABShinobi,2019-05-09T18:55:24Z,3,The best tutorials on the net...,True
+@chingzhu2149,2019-05-03T03:23:22Z,1,Thank you so much for the excellent job!,True
+@videofountain,2019-04-25T22:58:06Z,0,Regarding the case switch remark.  Time point https://youtu.be/DZwmZ8Usvnk?t=309.  Some of the code above could arguably be replaced or improved or be more Pythonic .... with a dictionary container.  Of course the title tells the viewer what the main emphasis is. Perhaps a comparison would be useful.,True
+@akshayjindia,2019-04-25T07:39:10Z,3,"If python is Bible, Corey is the Jesus",True
+@wizard-cs2st,2019-04-02T14:18:33Z,0,how did you toggle the whitespace in the lists at 10:07 ? is that a sublime text keybind or osmething? im on mac,True
+@andyn6053,2019-03-22T23:23:44Z,1,You explain much better than my university teacher!,True
+@rapirapir1544,2019-03-22T03:39:34Z,0,is     if condition: and     if condition = True: the same?,True
+@siddeeqklbm,2019-03-21T10:13:22Z,404,udemy courses = 0 level understanding corey's python videos = 9999 level understanding,True
+@shrikanthyadravi9682,2019-02-28T07:15:04Z,1,Thank you,True
+@blade913,2019-02-27T17:24:38Z,2,"Thank you so much for the explanation. My current instructor just tells me to look at her badly laid out notes, and doesn’t explain how some methods work. She can’t simplify....which is frustrating.",True
+@anuragparo6595,2019-02-13T18:06:22Z,2,best tutorials in whole universe.,True
+@danomar101,2019-02-09T02:41:37Z,1,"Thanks, I might be a complete nobody in python, but I got these vids to keep succeeding.",True
+@DarnastTFT,2019-01-22T21:10:30Z,14,"Corey, thank you so much for those videos. The best teacher I have encountered.",True
+@UserMS101,2019-01-22T08:35:59Z,0,"One thing i realized in conditions evaluating to True or False when interchanging print statements.    condition = None  if condition:     print (""evaluate to false"") else:     print (""evaluate to true"")  What's printed is ""evaluate to true"".  Anyone to explain this please. Thank you in advance.",True
+@CodeMap01,2019-01-20T15:35:17Z,0,"sir ,which application are u  use for python ?",True
+@MylesGmail,2019-01-11T19:34:56Z,2,Ur teaching style is really good,True
+@scottwiseman2966,2019-01-05T00:32:59Z,1,another great video. thanks again,True
+@tam1561,2019-01-04T12:12:35Z,0,how do you comment multiple lines by marking..?,True
+@bhargavikommineni6970,2018-12-25T05:42:09Z,3,True and False values which you have mentioned are veryyy veryyyyy useful! Your tutorials covers lot of important things which other tutorials don't even bother about. You are awesome. Thanks Corey for providing such great videos!!!,True
+@jiayuyang6725,2018-12-23T18:40:43Z,1,"at 5:44 , how did you select both ""java""s and change it to ""javascript""",True
+@douglaslawrie3449,2018-12-17T05:18:19Z,2,Learning Python for the first time and finding these tutorials extremely easy and helpful. Thanks!,True
+@Sakthivel-zp9xg,2018-12-13T06:23:30Z,1,Excellent Corey!!!! Nice video!!!!!!,True
+@ddzhangzz,2018-12-11T22:04:06Z,0,"Thanks for your awesome tutorial! What's your tip to quickly add spaces around ""="" and after "",""?",True
+@kirannijwante3055,2018-12-09T08:14:39Z,0,if a no divisible by 5 then it dispaly true otherwise it display false how to write a code for this,True
+@OPTIONALWATCH,2018-12-03T02:32:43Z,0,I can barely see it in the black background.  Maybe you can switch to white next time.,True
+@TylerViator,2018-12-02T03:45:47Z,1,"# Comparisons: # Equal:            == # Not Equal:        != # Greater Than:     > # Less Than:        < # Greater or Equal: >= # Less or Equal:    <= # Object Identity:  is   # False Values:     # False     # None     # Zero of any numeric type     # Any empty sequence. For example, '', (), [].     # Any empty mapping. For example, {}.  condition = False  if condition:     print('Evaluated to True’) else:     print('Evaluated to False’)",True
+@hemanthyernagula9759,2018-12-01T15:47:37Z,0,Is this both  same ? 1. n[x] == '+' or n[x]== '-' or n[x] =='*' or n[x] == '/'   2.n[x]=='+' or '-' or '*' or '/',True
+@saramonteiro4922,2018-11-13T15:27:52Z,2,"5:54 Non related question, but how did you write in two lines at the same time?",True
+@zarekasif6727,2018-10-30T14:18:11Z,0,"why do we use "" : "" these columns at the end of the sentences and when?",True
+@GuiltyBears,2018-10-26T23:16:31Z,0,"Great content!  I am pretty new to python and coding in general but I edit in IDLE, but this looks different because when you run the mod, or program it pops right up underneath and that is LOVELY. What program are you using here?",True
+@23deepakiyer76,2018-10-26T16:39:42Z,1,a,True
+@xcoldbloom,2018-10-26T10:31:50Z,0,this covers https://docs.python.org/3/tutorial/datastructures.html#more-on-conditions,True
+@rodrigosoutilha9751,2018-10-19T06:01:47Z,0,Which IDE are you using?,True
+@jhennique6158,2018-10-12T08:51:16Z,13,"Cory you have saved my life with your videos, I can't say how much. I have been struggling. I started to think I was just pure dumb cos most materials I came across were not broken down this way. I just wish i had found your videos a month earlier, i would have gotten a better grade in school. Thanks man!  you're awesome.",True
+@curiousbit9228,2018-09-29T12:18:16Z,1,"Hey! @Corey Schafer,  in the below code How to make sense of 2 in the if statement? The code executes fine so I want to make sense of the if statement. how is it reading the number 2? is it always true or something?  def factorial(num):     if num == 0 or 2:         print(2)     else:         print(""donald"")  factorial(30)",True
+@esentea,2018-09-26T06:28:49Z,0,how come i tried to run something like this:  user = 'john' password = 'helloworld' if user == 'john' and password:      print('good creds') else:      print('bad creds')  this printed 'good creds'; password here is not a true/false but a string. so why does it evaluate to true?,True
+@debayanroy5434,2018-09-20T09:08:35Z,1,I truly appreciate you example picking skills  :)!!!....,True
+@mehekanator1810,2018-08-08T08:38:26Z,0,which is the GUI you use in videos to show python programming. I am using macbook,True
+@jaysanprogramming6818,2018-08-03T10:45:03Z,0,"As a side note, I'd add that since many non boolean values evaluate to boolean automatically, people should avoid use them as conditions without any operator because even if specialists can understand it, beginners and overall programmers won't. It should become a habit to use comparison operators for non boolean values. What do you think about that?",True
+@naseemawani3836,2018-08-01T07:14:33Z,1,beauty,True
+@md.shorifulislam8366,2018-07-26T05:15:24Z,1,Amazing Bossssss ! Salute !!  I am getting very inspired thinking that I can have much knowledge from you....many many thanks !!!,True
+@alkhashtee,2018-07-19T04:13:35Z,0,"Dear Corey, I love your skills and your way of explanation. May I ask you where did you learn that and what book you recommend to gain more experience. Thank you so much",True
+@veneranurdin8410,2018-07-13T12:42:23Z,5,I am amazed by your ability to explain things in simple and quick manner. Thanks a lot for tutorials! God bless you!,True
+@debayanroy5434,2018-07-10T11:18:40Z,1,soo crystal  :),True
+@user-yt4px4zr3s,2018-06-26T16:08:48Z,21,You are absolutely the best Python teacher!!!,True
+@muhammadjunaid492,2018-06-23T11:16:08Z,0,"var1 = int(input(""enter number for var1: "")) var2 = int(input(""enter another number for var2: "")) if var1 == var2:     print(""you have entered same numbers"") else:     print(""please try again"")  how to apply loop on this program that if you enter wrong numbers (which are not same) then it returns to the top of the program and re-execute all. like we use ""labels"" in various languages",True
+@muhammadjunaid492,2018-06-23T10:57:57Z,0,please tell me name of this interpreter thankyou,True
+@kristankek8890,2018-06-23T09:15:11Z,1,How did he do this thing at 5:54????,True
+@tahakhidr,2018-06-03T23:37:52Z,2,"Your tutorials are great! What i like about them the most is that they are fast, don't waste my time and everything in them is important! Thanks",True
+@anhminhtran7436,2018-05-29T09:51:01Z,3,"Great tutorial =)) Thanks man, really appreciate your work. By the way, I just check and actually if you set condition = 10 or 100 or -5,... THE CONDITION IS NEITHER TRUE OR FALSE. The reason why it print ""Evaluated is False"" in your code is because you use the ""else"" statement. It just means that the condition is NOT TRUE. It turns out that 1 is True and 0 is False and that's it. Please try this code:  condition = 10 if condition == True:     print('Condition is true') elif condition == False:     print('Condition is false') elif condition == None:     print('Condition is none')  It prints nothing, same for empty List,... Still, your tutorial is awesome :)) Keep up the good work!",True
+@AMINE-yy3zb,2018-05-10T02:31:40Z,82,Man. This feels like medicine. It makes one confident to do coding.,True
+@lssworld,2018-05-07T12:06:09Z,0,Great vids.  What is the IDE used for these videos?,True
+@jz343,2018-05-03T22:56:06Z,11,"Thank you very much,  simplified and fast. definitly one of the best toutorials :)",True
+@prateikjindal,2018-04-16T16:49:54Z,1,I have a question  I write a code for ex.  If a = 'yes'       If ncb = 'yes'       Ncb = input('enter your ncb amt')        else:             pass else:       print ('nothing') #please give a example how to write a systematic code,True
+@meltedcheese1908,2018-04-12T07:46:35Z,0,Great video man!,True
+@balain501,2018-03-15T12:26:00Z,0,Wonderful tutorial!,True
+@isratjahan7653,2018-03-12T19:44:17Z,0,I'm fascinated by your automated tone,True
+@philippe6724,2018-02-23T09:20:29Z,0,Fantastic teacher and pedagogue !,True
+@hardysardual9729,2018-02-21T17:54:29Z,0,"I've learned a lot from your video tutorials. would be great if you can make for Java Programming.... Therefore, Thanks a lot and keep it up.",True
+@anshumans1174,2018-02-04T22:42:10Z,0,If anyone helps me I will be forever gratefull :),True
+@anshumans1174,2018-02-04T22:40:58Z,0,"PLEASE HELP! When I type the following code into Idle or PyCharm,   Var = input(""How many days are in a week?: "")  if Var == 7:     print(""Correct"") else:     print(""Incorrect"")  If I type in 7 as the input value, I get incorrect! Anyone have a solutions?",True
+@yogabull5929,2018-02-03T18:04:38Z,0,"Dude, thanks for this video. I'm wrapping my head around this !",True
+@justforhaha5555,2018-02-02T16:55:42Z,0,nice tutorial,True
+@ugurokur,2018-01-21T15:46:11Z,0,"Kralsın, kral.",True
+@shanmukhadevsomarajupalli9003,2018-01-16T00:02:26Z,0,some one tell me what are those shortcuts used to edit multiple lines at a time and comment and uncomment the text.,True
+@hemantrakesh5010,2018-01-05T18:30:44Z,0,"For this code import sys num = input('Enter your number') def func(num):    for num in range(1,100):     if num == (2*num)+1:    print ('Weird')         elif num == (2*num) and 2>=num<=5:              print('Not Weird')                              elif num == (2*num) and 6>=num<=20:             print('Weird')        elif num == (2*num) and num > 20:             print('Not Weird')        else:             pass return func(3)   This is the output i get: File ""C:\Users\basketballlife6000\Hackerrank.py"", line 8     elif num == (2*num) and 2>=num<=5:                                      ^ IndentationError: unindent does not match any outer indentation level [Finished in 0.312 seconds]  What's the solution ?",True
+@MohamedAyman-li6rp,2017-12-27T19:41:35Z,0,Big Thank you.,True
+@anshulargelwar9896,2017-12-15T21:52:57Z,70,"Corey, you are the best teacher I have seen.  Thanks for such a wonderful videos.",True
+@keshavkumar-ro3zm,2017-11-29T09:15:47Z,0,best,True
+@Mobin92,2017-11-24T18:28:11Z,0,"Dude, if this is not meant as some troll video, delete it. Honestly you are just embarrassing yourself.",True
+@infinitus.,2017-11-23T21:45:11Z,2,"Wow, i've been trying to wrap my brain around this for 2 days now. Finally got it. You're a good teacher. Cheers mate.",True
+@samishsanthosh3682,2017-11-20T20:25:03Z,0,HI Corey I am using windows 10 64 bit your explanation is the best but in my laptop when I type if statement it is showing errors please help  me in this regard Regards Samish Santhosh,True
+@venkysmoments9155,2017-11-08T12:59:24Z,1,"Corey it would be too good if you post tutorial video about how memory is organized in python,Garbage Collection and others. It would be easy for us to learn. Your way of explanation are too good and easy to understand.",True
+@benyaminma8564,2017-10-15T01:04:29Z,1,"awesome , out of curiosity how many ram your pc has ???   :)",True
+@iAziz,2017-10-14T15:44:08Z,1,"Hi, @Corey Schafer , What text Editor are u using in this video? Thanks",True
+@singh12295,2017-09-20T08:26:32Z,0,"what it will print if we put condition ={'name' :'john', 'age':22}",True
+@aaronsingh1054,2017-09-19T01:36:57Z,1,Could you please do some videos on BASH ? Amazing work so far!,True
+@Ex_Arc,2017-09-16T14:25:30Z,0,"Previous to saying the if statement, I stored an input into a variable and made sure it was a string. When I say if var == ""The String Choose"" , it spits out a syntax error. What am I doing wrong",True
+@sushantgautam773,2017-08-27T11:01:18Z,0,Which IDE is the best to use. Which IDE should I use??,True
+@GauravGanguly017,2017-08-18T13:13:52Z,0,"Hi Corey, For your example of print(a is b) using lists I have a question. When I tried the same with list or tuple it works, however if I assign int or string to a & b the location of a & b are same. Why so? And one question..is Python data driven or memory driven?",True
+@benzeltser9851,2017-07-19T14:37:57Z,172,.Those lessons are pure gold,True
+@weiqian6298,2017-07-04T22:41:37Z,0,"Great materials, i'd like it.",True
+@raghug1753,2017-06-07T09:45:08Z,0,U Missed to Explain Elif ! ?,True
+@Sailfishkingfish,2017-06-07T04:50:28Z,0,"Near 14:34 you discuss a use case of where one can determine if an expected function return value is present by using a conditional on a sequence that contains the expected value; however, you didn't actually depict what you meant in an example. Could you give a simple example of that?",True
+@12Prophet,2017-06-01T10:36:48Z,262,"I'm loving your tutorials, they are very clean and organized. The audio is good and you're going at a good pace. Please, please keep at this level of professionalism.",True
+@edwardwhite8253,2017-05-28T05:56:03Z,0,"This is Highly helpful, Thank you very much",True
+@turglow,2017-05-24T17:49:26Z,0,how do you comment out blocks of highlighted code?,True
+@hb7of9,2017-05-22T02:05:55Z,0,GREAT!!,True
+@amirhossain2k9,2017-05-19T21:24:54Z,5,great one. love the examples on false values considered on python. thanks man.,True

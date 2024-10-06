@@ -1,0 +1,6 @@
+author,updated_at,like_count,text,public
+@blackberrybbb,2019-12-11T06:48:26Z,0,aha,True
+@inakidb,2018-09-24T11:45:12Z,0,10 videos and still waiting for Monte Carlo!,True
+@porlando12,2017-01-04T00:05:53Z,0,"sentdex,  I think the issue you're having with the simple bettor is that you're still allowing him to place a wager despite having negative funds. You only fixed this problem for the doubler in your previous video. I tried adding the following below the ""RollDice():"" function within the simple bettor while loop:  if (value - wager) <= 0:                 wager = value   Great tutorial by the way!",True
+@Souliee,2014-11-16T19:35:22Z,1,I'm having a great time as well! Just wanted to let you know! ;),True
+@maksimbanin,2014-03-29T11:03:14Z,0,"Wow, this is counterintuitve (you might have a bug somewhere). You're basically simulating roulette with 51 sectors for the casino and 49 sectors for a player. That means that on average everyone slowly loses 0.02*avg_bet*bets of their money. Why would doubler better be any good? Since the roulette have no internal state, this is exactly the same as a guy who bets 100*2^n with probability 2^(-n).",True

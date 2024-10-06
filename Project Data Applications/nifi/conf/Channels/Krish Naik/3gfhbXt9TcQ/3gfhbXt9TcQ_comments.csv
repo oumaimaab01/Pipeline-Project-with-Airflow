@@ -1,0 +1,47 @@
+author,updated_at,like_count,text,public
+@krishnaik06,2021-04-21T13:39:31Z,46,Please take care everyone.,True
+@imtiazali-xu8gw,2024-04-16T10:05:19Z,0,Sir box cox transformation pe ak video banaye,True
+@moonSTAR1893,2023-08-17T14:37:07Z,0,"Hello. Important mistake in this tutorial, so I have to stop watching it.  Problem: you e.g. use MinMax Scaler on whole X_train with differently scaled variables inside. Let's assume ""age"" is distributed 18-65 while ""fare"" goes from 5-2000. Scaling age with the global min/max of the dataset, distorts your features. In this case for age 20 you would get   z = X-Xmin/Xmax-Xmin = (20-5)/(2000-5) = 15/1995= 0.0075. Instead in the per-feature scaling with just age you would get z = (20-18)/(65-18) = 0.0426 corresponding to a 5-fold numerical difference.  The maximal age of 65 would get z = (65-5)/(2000-5) = 0.03 !!!! Meaning age would have maximal value of 0.03 instead of 1!",True
+@captainmustard1,2023-03-07T09:16:42Z,0,"thank you sir, it is just an amazing video!!",True
+@wahabali828,2022-10-04T12:30:21Z,0,thank you very much sir,True
+@ishantyagi2701,2022-04-25T14:23:04Z,1,should standardization be applied to whole dataset or after we split into train test data?,True
+@ajaykushwaha-je6mw,2022-03-31T17:07:36Z,2,"Hi Krish, while transformation why we are not dividing our data in Train and Test ?",True
+@write2ruby,2022-03-27T12:05:20Z,0,Very Informative,True
+@SomeoneElsesSomeoneElse,2022-01-31T20:09:47Z,1,"With respect to StandardScaler() If you split the dataset prior to scaling the features then don't you risk having skewed features?  Put differently, if you train your model to learn that values of 1 get a certain weight and in your test set the data isn't standardized around the same mean as the train set then the model will invariably have worse accuracy unless the train set and test set features have the same mean, right?  Shouldn't the test set samples of the full dataset removed only to serve as an ""out-of-sample"" test?  Not two separate datasets?",True
+@mostafakhazaeipanah1085,2022-01-08T08:44:16Z,0,What A Useful and Informative Video. Most of the ML Courses are based on Algorithms which they forget the importance of Data Preparation,True
+@sandipansarkar9211,2021-10-03T20:59:05Z,0,finished watching,True
+@yashpandey5484,2021-09-21T11:20:15Z,1,Sir weather scalling is required after performing log transformation ??,True
+@MdMahmudulHasanSuzan--,2021-08-05T04:55:58Z,0,how can i perform scaling on a k-fold data?,True
+@poojapatil7128,2021-08-03T02:09:32Z,1,"I have completed my 1-year post-graduation program in data science from a leading institute, but the various techniques I learned from your videos in free, were not even mentioned in the curriculum.  Thank you for your easy and detailed explanation.",True
+@mayurgupta4004,2021-06-25T21:48:20Z,0,when we are using gaussian transformation that will convert our distribution to gaussian distribution where mean=median or standard gaussian distribution where mean=0 and variance=1,True
+@umaanil3344,2021-06-12T10:20:06Z,0,Sir what about that 'df_scaled' term? I am getting error at that point that df_scaled is not defined... Can you please explain,True
+@mdadilhussain2967,2021-06-07T11:52:06Z,2,"I guess that you should first do fit_transform then train_test_split; As if you have first splited then according to train data you have calculated mean. Then applies same mean for test data, so test data won't have mean as zero. Please clear this doubt.",True
+@venkatraaman4509,2021-06-01T11:05:01Z,2,"hai, for eg I have a feature regarding age, height, weight  now I willing to make the gaussian transformation, here in my case  ==>logarithm tx makes a good fit for age  ==>reciprocal  tx makes a good fit for height the question is may I use both features(applied with age(log tx) & height(reciprocal tx)) for my train data, kindly reply to me, sir",True
+@ashiqhussainkumar1391,2021-05-26T09:40:46Z,0,Tbh I don't prefer any lecture series except nptel. But seeing your 20-25 I personally feel this channel is a better resource for practical implementation of ML...  Initially I didn't subscribe bcz I felt ur profile is looking young and u might not be knowing the way u taught 😁😁😁... Subscribed  Thanks to you and to Nptel,True
+@abhishek_dataman6348,2021-05-04T04:42:24Z,0,Do we require to check this transformation techniques in all binary classification problems?!,True
+@geianmarkdenorte9874,2021-04-23T17:39:45Z,1,I am looking for these master krish! Take care too,True
+@pseudounknow5559,2021-04-23T10:17:54Z,2,Greetings from Poland <3 Stay strong India you will overcome this ;),True
+@priyayadav3990,2021-04-22T14:13:05Z,0,In transformation we transform distribution in Normal distribution.then after transformation we also need to perform Standardisation(Scale down).please tell me if I am wrong.,True
+@foreignworker-2163,2021-04-22T13:37:11Z,0,Pray for your team!,True
+@shubhamkondekar5382,2021-04-22T11:51:20Z,1,Krish Naik is best,True
+@sarthakphatate4595,2021-04-22T11:51:07Z,1,good,True
+@vidulakamat6564,2021-04-22T09:24:56Z,0,"While doing the transformation, do we need to transform both numerical and categorical (encoded) features or only numerical ones? If target is continuous, do we need to transform that as well?",True
+@tanujajoshi1901,2021-04-22T09:03:32Z,2,"Hey Krish, Can you explain Generative Adversarial Networks (GANs) especially the coding part for a dataset other than an image dataset?? It would be of great help.",True
+@shivaragiman,2021-04-22T07:37:00Z,2,"Get well soon, you people need more to us 👍👍👍👍👍",True
+@Sivaramakrishnanv7,2021-04-22T06:29:20Z,0,"In the join button, i can see (6 months: ₹283.20) plan. you have not mentioned this plan in that join video.Can you pls explain here sir?",True
+@dheerendrasinghbhadauria9798,2021-04-21T18:54:54Z,3,krish bhai....please upload a PDF of notes of video summary.... along with each video...,True
+@prakashkafle454,2021-04-21T17:43:26Z,4,I pray for your team for speed recovery krish . We are also getting worst news day by day here in nepal ...,True
+@bhargavikoti4208,2021-04-21T17:37:25Z,3,As usual neatly explained..👍👍thank you for uploading 🙏,True
+@nishanthviswajith1496,2021-04-21T17:05:42Z,3,I know python programming. And I'm learning data science by self-study .. My problem is I have 4 years gap in employment. Will I get job in data science field? Need your suggestions.. I'm 26 yrs old,True
+@shivu.sonwane4429,2021-04-21T16:45:52Z,6,"for people in home isolation 👇🏻  I've almostj recovered from COVID in home isolation. I'm sharing what helped me recover in case it helps someone.  • Steam atleast 3 times a day • Plenty of fluids: Water (preferably warm), lemonade, coconut water • Salt water gargles   • Vitamin C supplement • Plenty of rest • Meditation for peace of mind • Balanced diet • Regain smell: Smell ajwain, kapoor and cloves • Lie on your stomach periodically  Monitor oxygen every 2 hours. Seek medical assistance if it's 92 or below. Pls add if I missed anything  Add ajwain and kapoor into the water while taking steam and drink malvani  kadha  (Tulsi, adrak, jaggery, lavng, Black paper, ajwain, gavti cha,dalchini)   Don't be panic take care use ajwain as much you can it works as natural sanitizer",True
+@mosart03,2021-04-21T16:28:56Z,2,Are we suppose to scale categorical features along with continuous features?,True
+@alihaiderabdi9939,2021-04-21T16:12:02Z,5,"praying for employees of ineuron, inshallah everyone will get well soon.",True
+@nagrajkaranth123,2021-04-21T15:02:30Z,4,Sir sudhanshu sir tested positive my god please I hope he get well soon,True
+@ayushsingh-qn8sb,2021-04-21T15:00:39Z,1,"If I have applied some encoding technique , do I have to scale them ?",True
+@sandipansarkar9211,2021-04-21T14:45:05Z,2,great explanation,True
+@satviksaxena3868,2021-04-21T14:31:53Z,2,"Hope the team will recover soon,  Take Care !!",True
+@kiyotube222,2021-04-21T14:17:28Z,4,Get we soon Sudh!!,True
+@ashutoshtiwari5222,2021-04-21T14:00:48Z,2,Sir app apna dyan rakhiye . 🥺😢,True
+@teegnas,2021-04-21T13:54:55Z,2,a very important video to review all feature important techniques at one go ... thanks for uploading!,True
+@SALESENGLISH2020,2021-04-21T13:43:10Z,18,Pray your team members recover quickly. India needs good teachers.,True
+@pankajkumarbarman765,2021-04-21T13:38:23Z,2,1st view 💞💞❤️,True

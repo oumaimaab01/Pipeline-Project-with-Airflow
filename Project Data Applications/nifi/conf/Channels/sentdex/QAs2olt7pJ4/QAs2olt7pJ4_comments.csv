@@ -1,0 +1,36 @@
+author,updated_at,like_count,text,public
+@jairajsahgal5062,2021-09-20T18:15:14Z,0,Thank you,True
+@keaneburgers5979,2021-05-27T23:54:33Z,0,@sentdex How do I scale this up for something like 10 features ? Having trouble merging my X_Test and Y_Test into a dictionary,True
+@anshshrivastava9107,2020-09-30T14:02:35Z,0,"ye oops yi, yeeeeeeeeeeeeeeee lmao our humor level is equal, this cracked me up real time",True
+@cj2074,2020-09-10T12:39:30Z,0,i cant understand the w part...code to find optimized w ...,True
+@ojussinghal2501,2020-08-04T05:47:48Z,5,"3:03 love it when he laughs for no reason at all, and he does this all the time.",True
+@uday2794,2020-05-31T19:20:51Z,1,"I changed the iteration loop just a little so that  we don't need to append to a new list for yi in self.data:             for featureset in self.data[yi]:                 max_feature_value = featureset[0]                 min_feature_value = featureset[0]                 for feature in featureset:                     if(max_feature_value < feature):                         max_feature_value = feature                     if(min_feature_value  > feature):                         min_feature_value = feature",True
+@davidirimia6463,2020-04-29T11:23:21Z,0,"6:30 I did it with list comprehension (but in my implementation, I structured my data differently). It would be something like:   max( [max( [max(featureset) for featureset in classifier] ) for classifier in data] )",True
+@xiaoyang4521,2019-12-26T15:16:55Z,3,"I'd suggest modify the concept illustration video to show SVM is really about finding the hyperplane that has the widest range. W vector and b are respectively doing rotations and shifting. The [5,5] example may confuse people as it's more intuitively like shifting where I think your real intention is to do rotation of the hyperplane.",True
+@user-nq9dr2rq6r,2019-11-16T03:01:18Z,0,я жто,True
+@aradhyakapil9323,2019-06-26T15:25:44Z,0,what is tranform,True
+@BiplavChoudhury,2019-06-08T15:30:31Z,0,why do we make vector w a 2D? you talk about it  around 12:12,True
+@VishalSharma-ve4ct,2019-04-08T08:59:38Z,2,"Sir, if I am having a 30 features dataset, how I should write the transformations??",True
+@focker0000,2019-03-27T16:45:49Z,0,doing 'data=None' doesn't mean the GC will do his work and the object is destructed right away... do  'del'  is a good way,True
+@focker0000,2019-03-27T16:43:23Z,1,6:30 you can loop with data.items(),True
+@ahmedkotb321mmwkotb2,2019-02-09T20:34:18Z,0,Please I do not understand the usefulness of transforms,True
+@victorfeitosa4276,2018-12-17T13:02:56Z,7,"Why does the 2 dimensions of w have to be equal? Couldn't  w be equal to [5,2] for example, instead of [5,5] or [-5,5]",True
+@rishabhtripathi6290,2018-07-16T18:07:38Z,0,+sentdex ... very nice tutorial sir .... i have a doubt ..can you please explain me in more brief the importance of list of list stored in  transform... what does it signify?  why it has been done so?,True
+@markroxor,2018-04-04T17:36:14Z,0,You deserve more attention than you do. :),True
+@piyushthakur8056,2018-01-19T14:56:09Z,0,What does the following mean? for yi in self.data:  for featureset in self.data[yi]:  for feature in featureset:  all data.append(feature) Can't we append the data in a single line of code?,True
+@MrXterminate,2018-01-04T15:07:17Z,0,"a prettier way to get max and min: max_feature = max(map(lambda x: np.amax(x), self.data.values()))         min_feature = min(map(lambda x: np.amin(x), self.data.values()))",True
+@muhammadzaheer9663,2017-11-21T16:19:49Z,0,can i use this algorithm for face recognition if yes then please guide me,True
+@dude2260,2017-11-04T12:50:27Z,2,all_data = list(np.array(data_set[-1]).flatten())+list(np.array(data_set[1]).flatten()) self.max_feature_value = max(all_data) self.min_feature_value = min(all_data),True
+@pranverma8933,2017-09-29T20:48:09Z,0,"A bit late :p but this worked for me (at least for your example)   aaa=sorted([b for b in np.ravel([data[-1],data[1]])]) (self.min_feature_value,self.max_feature_value) = (aaa[0],aaa[len(aaa)-1])",True
+@EranM,2017-09-03T15:46:55Z,0,Are you using G710+ brown ?,True
+@unknownboy4060,2017-06-11T11:38:05Z,0,how do i learn to know all these keywords?...i mean you seem to know what to use and what not to use...where do i learn about using those keywords and variables!!,True
+@MrFromminsk,2017-04-30T02:17:34Z,0,"how about this: for yi in self.data:             for feature_set in self.data[yi]:                 for feature in feature_set:                     self.max_feature_value = max(self.max_feature_value, feature)                     self.min_feature_value = min(self.min_feature_value, feature)",True
+@marwamakni6113,2017-04-16T15:12:25Z,0,"Great job :) , I have a question related to  W and b ( how to get their values , and once I get the values can I use them  to be an input for the svm!  it is like tell the svm that no data set will be as an input for learning instead it will be these structural parameters which are w and b) I am actually working with  LSSVM ""incremental feature learning based on lssvm"" and I need to get the historic structural parameters (b and w)  to use them..",True
+@arlabs5886,2017-04-15T13:38:23Z,0,great tutorials..I love each and everyone of it!!!!,True
+@winecheese2185,2016-10-14T20:21:18Z,0,Dude these tutorials are god damn golden!  Thank you.,True
+@user-dt2sw2gk8s,2016-10-07T14:33:33Z,0,Thank you very much for lots of great lectures !!  Could you explain what 'max_feature_value' is ?,True
+@taxeldeluxe,2016-08-10T05:20:57Z,0,"Really Great video mate, makes my math studies sense!",True
+@xuzhang872,2016-06-22T01:59:01Z,0,Great work. Hope you do a tensorflow tutorial.,True
+@Opifex_,2016-06-11T17:01:16Z,0,"I don't get why finding the highest/lowest value is that hard? It's something very common in programming, no? Just start off by defining your max lower than all expected values, and your minimum higher than the expected values. Then iterate through all elements. If an element is higher than the current maximum, replace the value in max with the value you found. Do the opposite with the minimum:  replace the value if the value in the list is smaller than the currect minimum value.",True
+@gratephulshred,2016-05-25T23:12:37Z,4,"re: your comment ""find min/max without creating a new list.""  Yep, its not that difficult.  See code here: http://pastebin.com/PCtDQ42C (hopefully no typos!)",True
+@lcscamilo,2016-05-24T14:07:49Z,3,"great work! I'm watching all your videos, congratulations!",True

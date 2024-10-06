@@ -1,0 +1,46 @@
+author,updated_at,like_count,text,public
+@krishnaik06,2021-05-09T15:15:30Z,6,Just a quick update the median is 5.5 if you remove the outlier it is 5,True
+@AanyaSS,2024-02-12T06:19:34Z,0,"Wonderful explanation, extremely clear and concise, thank you so much!",True
+@meeturiajaykumar.2384,2023-06-23T13:24:32Z,0,"Hello sir, Can you please make tutorial on the outlier detection and removal using IQR on a dataset. Had an obstacle to how to carryon if there are multiple columns with the outliers....",True
+@arshiavashisht3481,2023-06-19T22:54:26Z,0,"you never dissapoint, thanks for lucid explanations",True
+@rahmankhan4994,2023-02-08T07:51:58Z,0,I can not thank you enough literally for what you are doing but still thank you so much,True
+@shadiyapp5552,2022-12-23T14:46:11Z,0,Thank you sir ♥️,True
+@jaiswalmagic1,2022-08-24T14:27:47Z,0,"my notes for this video : https://vishaljaiswal.notion.site/5-Number-Summary-And-How-To-handle-Outliers-Using-IQR-Statistics-3881d8c6de524572b68930b280172c78  thoughts and comments are welcome. 😀",True
+@dehumanizer668,2022-06-29T09:17:07Z,5,"Actually there is a mistake. Shouldn't add 27 to the list after calculating Q1, Q3 and IQR. It gives different result if you count these by having 27 from the beginning.  import math  # Basic explanation of IQR Technique list_1 = [1,2,3,4,5,5,6,7,8,9,10,27]  # Q1 is 25th percentile and Q3 is 75th percentile l_q1 = list_1[math.floor((25 * (len(list_1)+1))/100)] print('Q1:', l_q1)  l_q3 = list_1[math.floor((75 * (len(list_1)+1))/100)] print('Q2:', l_q3)  l_iqr = l_q3 - l_q1 print('IQR:', l_iqr)  lb = l_q1 - 1.5*(l_iqr) print('Lower Bracket:', lb)  hb = l_q3 + 1.5*(l_iqr) print('Higher Bracket:', hb)  for i in list_1:     if i < lb or i > hb:         print('Outlier:', i)         list_1.remove(i)  print('After removing outlier:', list_1)  Output:  Q1: 4 Q2: 9 IQR: 5 Lower Bracket: -3.5 Higher Bracket: 16.5 Outlier: 27 After removing outlier: [1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10]",True
+@vigneshkr7391,2022-04-30T19:40:09Z,0,"Hi Krish,  Shall we replace outliers values with IQR which might gives more accuracy!",True
+@dilipgyawali1776,2022-01-10T02:39:34Z,1,why u didn't consider 27 while calculating percentiles???,True
+@AmanSharma-tn3dy,2021-11-23T04:48:11Z,0,its an osm video due to this I am able to understand how boxplot work but also how we remove outlier.,True
+@adityaayaan8727,2021-10-12T15:47:00Z,0,Why boxplot always show outliers in right side of the graph we know that the outliers can be both side why it doesn't show outliers in left side,True
+@souravpanda2686,2021-09-21T06:08:27Z,3,you have used the IQR value from the previous calculation without the addition of 27 in practice we can take the whole data set and as I see it won't make any difference. correct me if I am wrong,True
+@prakanshusahu1577,2021-09-14T17:31:22Z,0,"sir to find the 25% pertentile, ifwe have n observation why we condsider N+1 observation in the formula 25/100*(N+1)",True
+@sathishk3494,2021-09-06T05:53:14Z,0,"sir, in finding outlier using z-score and IQR video you said lower bound is q1*1.5 and upper bound is q3*1.5 but here lower bound is q1-1.5*(IQR) likewise for upper bound,  which formula to follow. and what is the use of minimum, maximum and median here we don't you it any way right, to filter the outlier. please comment on this sir please clear my doubts.",True
+@divyankrawat8371,2021-09-04T13:18:31Z,0,In accordance to the content this channel has it should have 1M subs!! Great work sir,True
+@karthikr2186,2021-08-26T12:23:25Z,0,why do ppl dislike this type of amazing videos,True
+@saumendra.behera,2021-08-17T10:52:35Z,0,Really krishna sir..nice example & explanation...,True
+@mohitrana2801,2021-08-04T06:53:17Z,0,bro ur elaboration is not clear and confusing,True
+@bhartijoshi3231,2021-07-24T05:10:11Z,3,"Hello Mr Naik, while calculating the 25 and 75 percentile you have not taken 27 , later on you have added 27. It will change. Please clarify",True
+@jinks3669,2021-07-13T04:04:52Z,1,This is one of your best videos I've seen.  So so very well explained. Naman to your efforts .,True
+@shanmukhadari4549,2021-07-11T06:09:49Z,0,sir why 1.5 is used to in calculation IQR,True
+@spandanswain2879,2021-06-27T14:25:52Z,0,Is it necessary to do the outlier removal operation in every regression project?? please answer it..,True
+@thepresistence5935,2021-06-18T05:06:00Z,0,intro love !,True
+@alshaimaasamir5560,2021-05-18T09:13:11Z,0,cool,True
+@abhishek_maity,2021-05-15T14:46:49Z,1,Amazing!! Thankyou for this... it cleared that Box Plot concept... i was always confused there !! 😀😀,True
+@hamzahjamal6286,2021-05-13T19:05:08Z,0,"Sir, instead of median why can't we use the mean?",True
+@krishnabhutada3983,2021-05-10T05:28:35Z,0,Cleared all my concepts...tHANK yOU,True
+@TheMISBlog,2021-05-09T19:35:13Z,0,"Another Great Video by a great teacher, thanks",True
+@rambaldotra2221,2021-05-09T18:38:10Z,0,Grateful Sir  !!,True
+@tharunps8048,2021-05-09T18:35:25Z,0,So the numbers should be sorted ?,True
+@shansingh9858,2021-05-09T16:57:07Z,1,"Even I don't know why Krish sir starts creating videos on those topics on which he has already created...  Please sir ..continue with some advance topics of Deep learning , Transfer Learning , Big Data using Black board.. It will really helpful for all for us !. Plsss sir.. Love u sir !",True
+@amarpratapsingh4806,2021-05-09T16:39:03Z,0,I know it is unrelated to the video. But could anybody tell me should i learn backend programming basics as a data scientist?,True
+@balramthakur9951,2021-05-09T16:22:10Z,1,The way you are explaining is outstanding ❤️,True
+@syedrahimsaqib2218,2021-05-09T16:12:41Z,0,Your previous thumbnail was cool,True
+@rushabhkabra4985,2021-05-09T16:06:51Z,5,"just told us will make a video this morning in the class and by evening we have it on youtube, insane level of dedication 💯",True
+@shrikantdeshmukh7951,2021-05-09T15:57:06Z,1,Please do not round number correct formula is If it is 3.25.  then correct is   3rd +0.25(4th-3rd),True
+@vageshyaggati8214,2021-05-09T15:39:33Z,0,"Sir, in a data set age column(17-98) years old and bank balance column are There.  I use box plot for age and balance. It shows outliers on the 70 year to 98 year.  Can I ignore or Use IQR formula for removing that outliers. Sir please help me 🙏🙏",True
+@Mere_Shivjii,2021-05-09T15:23:01Z,0,"Hi Krish thanks for the detailed information, is it always required to remove outlier, i think outlier capping at 98 or 99 the percentile value  help in getting the entire dataset for further analysis.",True
+@roshankumargupta46,2021-05-09T15:15:34Z,7,Sir please correct me if I'm wrong.  Median for even observations would be (n/2) +(n/2 +1) which should be 5.5,True
+@shibanarayansahoo1874,2021-05-09T15:14:46Z,0,Median will be (5+6)/2=5.5,True
+@kiranbagadhi4053,2021-05-09T15:12:24Z,1,"Hi Krish, a small doubt in median part if I am not wrong the median there would be the middle number right, so there the exact median number we couldn't find because the data is in evenly format so we have to take two numbers as median and we would perform the following calculation right (5+6)/2  i,e 5.5 is the median (50% percentile)...Correct me if I am wrong Krish...😊",True
+@nikhilverma1044,2021-05-09T15:02:10Z,0,"Hello Sir, would you kindly suggest how can we do relationship analysis in data among non quantitative columns while doing the EDA?",True
+@0SIGMA,2021-05-09T14:55:48Z,2,Sir. Just a huge fan of yours. Hoping you a bigger success as a youtuber !,True
+@MaksoodAlam1986,2021-05-09T14:51:38Z,0,Hi,True

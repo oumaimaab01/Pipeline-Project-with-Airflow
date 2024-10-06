@@ -1,0 +1,18 @@
+author,updated_at,like_count,text,public
+@SillyOrb,2023-11-20T01:52:10Z,0,"3:00 Why the reversed order? Take this scenario: Allocate memory Construct object Connect to service Process data ... what is the correct order to wind this back down after processing has completed or an error occurred? Do we go in order? Deallocate memory Destruct object Disconnect from service? Well, what if the service is accessed through the object and the object occupies the memory? Only the reverse order can solve that: Disconnect Destruct Deallocate Otherwise you would have use after free errors, dangling connections and possibly  memory leaks in case the object owned additional resources, but the handles to them were stomped over when the object's memory was reallocated and overwritten for another purpose before its destruction. Hopefully that makes sense, it's highly condensed and might require a second reading. Sorry about that.  PS: I am aware this video is old by now, but I guess an example might be helpful to explain the reasoning behind the mechanism to new GO learners that use these videos.",True
+@realcryptc,2022-11-03T05:22:04Z,0,This is a great tutorial series. I kept asking myself the same questions you were answering in the video as you showcased properties of defer,True
+@mahdizarepoor8964,2021-11-20T07:42:06Z,1,"as long as I know you are mostly focused on AI , machine learning , ... with python but you contents about Go Lang is just the best , I can be taught by you all the day without getting tired . I Hope you were a Web developer and have courses about web programming with go , microservices ,  ..... . think about it Buddy .",True
+@AmolGautam,2021-08-30T06:04:37Z,0,Thank you so much.,True
+@martint5340,2021-04-05T14:12:24Z,0,"Very clearly explained and thoroughly  exemplified. Great job, thanks!",True
+@princebillygrahamkarmoker2122,2020-10-22T21:45:31Z,0,"Just at point thank you, sir.",True
+@nahidshaiket9921,2019-05-26T19:46:07Z,2,Love from Bangladesh. You rock.,True
+@LeoLeo-ux1wy,2018-09-25T13:43:04Z,0,LOVE UUUUUUUUU,True
+@jimmygray3452,2018-09-08T13:38:48Z,0,"Can't you DRY up the code a bit in this example by putting ""wg.Add(1)"" in the first line of the say function, and removing the two instances from the main function?",True
+@chorton53,2018-08-19T17:54:30Z,0,Thanks so much for your videos. I learnt quite a bit.,True
+@derzasekolahdidd,2018-08-09T21:51:32Z,0,"i think the first in last out is because if you meet an error then the program will try to ""crawl"" out of the function going up from its current position",True
+@ialmoqren,2018-05-08T17:27:21Z,0,"Other than golang stuff, I learned that saying ""more simple"" is correct, Thanks (:",True
+@FredrikChristenson,2017-11-13T10:44:58Z,0,Great explanation of defer!,True
+@Mezklador,2017-11-11T22:38:12Z,2,"Can we consider ""defer"" as ""finally"" in the Try-Except statements in Python?",True
+@ThomasPihl,2017-11-11T16:31:59Z,3,"Hi,  Its last in first out to support scenarios where you first open something, deferring the close, then from the first you open something else and then defer the second close. If they where fifo, the closing of the first might break if it cannot be closed while the second is still open. Makes sense to be lifo   T",True
+@wolfisraging,2017-11-11T14:24:47Z,8,U r superman sir... Thanks for your tutorials... U r literally so unique... And one and only... Big fan 😊,True
+@hamram3548,2017-11-11T14:12:00Z,0,It's enough to realise videos about Go!,True

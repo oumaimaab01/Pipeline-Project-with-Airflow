@@ -1,0 +1,75 @@
+author,updated_at,like_count,text,public
+@gunamrit,2024-02-22T10:02:47Z,0,aaaah... great .. 99.7% of data lies in U+3Sigma which is why its mean+3s.d...  https://youtu.be/RZRoFU_abqU?list=PLZoTAELRMXVPwYGE2PXD3x0bfKnR0cJjN&t=3712,True
+@vagheeshmk3156,2023-11-15T11:59:44Z,0,#KingKrish,True
+@amadoukindybarry949,2023-04-26T14:20:58Z,0,"Afternoon sir , your session on the feature engineering techniques is ok , now is it possible to use 2 or more different techniques in the same dataset without an impact on the target variable?",True
+@sanjaysinghgariya2707,2022-07-10T16:49:21Z,0,"At 32.00 use  df[variable+""_random""] = df[variable].fillna(random_sample)  Use this code instead of last line of function",True
+@riteshmukhopadhyay6922,2022-06-26T17:10:21Z,0,"""Buddy I am teaching feature engineering"" lol XD, Ramayan khatam fir pucha Ram kon hain XXXXD",True
+@ilayaraja1551,2022-05-15T20:54:18Z,0,"At  33:22, I have the doubt, Age_median column, the missing value imputed by median, then its value should be the median.. but here it is same as random_sample.. Is that correct..",True
+@kartiksharma-wn3sd,2022-04-27T13:09:24Z,0,what is extreme value here,True
+@kartiksharma-wn3sd,2022-04-27T12:53:18Z,0,"can any anyone explain that function part that how we are getting it not null values in it because i have understood that dropna will give non null value and sam ple is  just picking 177 random samples , now how it is replacing null values. can any one help",True
+@ayaansk99,2022-02-09T06:57:56Z,0,"why we are using ""variable"" in function impute_nan? Can anyone ?",True
+@stuttzzzi,2021-11-26T23:10:25Z,0,"when i call the function,it says dataframe object has no ATTRIBUTE called AGE",True
+@naveenrajan3765,2021-11-22T03:44:59Z,0,"If we uses end of distribution to fill the NAN, then outlier will be affecting the mean values. Do we need to take care of Outlier before or with outliers it will work",True
+@sandipansarkar9211,2021-10-28T20:49:44Z,0,finished watching,True
+@aliensamv3997,2021-10-16T19:57:18Z,0,but age can't be 0.95,True
+@prashanthdhananjayan1745,2021-10-08T00:51:44Z,0,What a legend,True
+@GAURAVSINGH-qy4cj,2021-10-03T12:46:40Z,0,"One more question, Age_end_distribution is not normally distributed and right skewed then how this distribution is good just because it doesn't has outliers.....!!",True
+@GAURAVSINGH-qy4cj,2021-10-03T08:41:31Z,0,"Actually, sample function is taking random values from 0 to 117 (which is sum of NaN Values) for filling up NaN values which I don't think is needed as per the definition. It should select random observation for filling up NaN values. Can anyone clarify it...!!",True
+@ritvikpant7107,2021-09-02T12:37:25Z,0,Here as na and null values are same we know that both signify missing values so if we have already dropped na values then how are we substituting randomly collected values from our dataset hear in 21:31 ?,True
+@bhaskarg8438,2021-07-22T04:21:42Z,1,Your are Great !! helping the Data Science community,True
+@ajaykushwaha-je6mw,2021-07-20T09:27:02Z,0,End of distribution will remove outlier but it will change distribution of feature so is it advisable to use ?,True
+@virubakaran4717,2021-06-12T13:28:29Z,1,"while creating function in the last line you also changed the nan values of orginal Age column with the random sample values , thats why there is no difference in ditribution plot",True
+@arjungoud3450,2021-06-08T17:35:05Z,0,"Bhai, can we check correlation with Y variable after each technique and can go with high correlation score technique",True
+@chiragagrawal7104,2021-06-05T17:09:08Z,0,"But sir, how capturing nan values with new feature will get to know which is the new feature to work on?",True
+@harikrishna-harrypth,2021-06-02T13:14:17Z,9,You are a very patient teacher (especially with soo many weird live comments whilst you do your sessions)!! God Bless Man! Thanks for your videos!!!   🙏🏼🙏🏼🙏🏼💖💖💖,True
+@naveenkumarjadi2915,2021-05-22T12:48:07Z,0,"as in last part End of Distribution imputation are we deleting the nan values , because we are trying to make them in out from the 3rd standard deviation it means we indirectly skipping the nan values by iqr method is this true ?",True
+@akarkabkarim,2021-05-19T16:14:05Z,0,thank you krish,True
+@rambaldotra2221,2021-05-17T09:17:01Z,0,Thanks Sir!!,True
+@gaunollakalpana7866,2021-05-08T12:04:33Z,3,Amazing playlist and superb explanation Krish. Hats off.,True
+@purnimamsb352,2021-05-01T16:53:05Z,0,why the extreme and median values are equal,True
+@shwetaamit6810,2021-04-20T09:00:09Z,0,U r very hard working dude,True
+@anikasingh2464,2021-04-19T14:32:04Z,0,Why correlation is impacted?,True
+@boogeyman9824,2021-04-15T12:39:13Z,0,Sir why have u used the same dataset and features for both missing completely at random and not missing completely at random,True
+@ramireddy371,2021-04-13T15:41:34Z,0,"What happens, if we don't replace NaN values and directly create model with NaN values?",True
+@mahindrarao4565,2021-04-02T13:22:29Z,0,"The function that you have written for Random Variable Replacement is super amazing..!! 1. Creating and copying the Age to  Age_Random.  2. Put all random values to the random_sample  3.  To have the same indexes, matching the indexes of Age.isNull() to random_sample  4. With Loc operation, where ever data is null in Age_random, replace with random_sample",True
+@swetanishad7290,2021-04-01T16:07:17Z,1,Very good session,True
+@md.muntasirulhoque8563,2021-03-23T22:14:36Z,1,sir seeing your live session and learning from Bangladesh,True
+@praloysarker7639,2021-03-06T17:41:12Z,0,in the End of Distribution imputation 3rd std was used...what will happen if we use 1st or 2nd std...will you please tell  ???,True
+@abhinandrasingh,2021-02-23T08:25:02Z,1,"The impute_nan function could also be written in the following manner: def impute_nan(df, variable, median):     df[variable+'_median'] = df[variable].fillna(median)     df[variable+'_random'] = df[variable]     # to fill the NULL values in data['Age'] we are going to fill the values randomly.     random_sample = df[variable].dropna().sample(n=df[variable].isnull().sum(), random_state=0)     # now these random_sample value needs to be sent to the dataframe to replace the NAN values in the #data frame     random_sample.index = df[df[variable].isnull()].index   #df.loc[df[variable].isnull(), variable+'_random'] = random_sample     df[variable+'_random'] = df[variable].fillna(random_sample)",True
+@marijatosic217,2021-02-15T12:31:01Z,1,Great job! Keep up with the great work!,True
+@sahajrajmalla,2021-02-15T07:47:06Z,0,How does adding a feature from NAN give a meaning to the datasets? Please elaborate more on this !,True
+@chandrashekhar-ss9hm,2021-01-18T18:23:33Z,0,Do u also teach IoT classes? Pl share ur telegram channel,True
+@prateekbhardwaj8494,2021-01-01T04:34:26Z,0,Thanks,True
+@srishtikumari6664,2020-12-29T05:48:05Z,2,Amazing as usual! You are doing a great work.,True
+@equbalmustafa,2020-12-28T06:10:14Z,0,Pls provide Telegram link for paid members(799)...,True
+@GauravKumar-mi5wm,2020-10-21T21:00:21Z,1,"For those who are finding it difficult to write the function understand the logic from the video and use the code   import feature_engine.missing_data_imputers as mdi titanic = mdi.RandomSampleImputer(variables=[""Age""],random_state=0).fit_transform(titanic)",True
+@harshilgandhi4397,2020-10-04T10:33:16Z,0,"Hey Krish! following your videos from past few days and its going good. just one query, In this video at 20-22 minutes, you are replacing Age NAN with Random Variable to df['Age'] and df['Age_Random'] both. So definitely it will show perfect plot. Is this query correct??",True
+@aravindkumar9457,2020-10-02T05:23:54Z,1,krish i have a doubt....what is use of capturing null values with new feature..because what can we do with creating new feature in this method and our aim is to fill null values with something correct??...but in this case we are doing mean values to fill null values in age column...so it is same as mean median imputation right??..so what is the diffrenece,True
+@mlvali1350,2020-10-01T17:16:18Z,0,from sklearn.impute import KNNImputer imputer = KNNImputer(n_neighbors=2) you can set K value based on your data points,True
+@mlvali1350,2020-10-01T17:11:20Z,0,there are another imputation is also use full for handling missing values. hot and cold deck imputation fancy imputation em algorithm,True
+@rakeshdesu2180,2020-09-30T11:23:38Z,2,"Sir, Normally we 'fillna()' to replace NAN, it's not working if used for sample case, like below df['Age'].fillna(df['Age'].dropna().sample())   If i fill with any other value it is working like df['Age'].fillna(0)",True
+@Raveendr1191,2020-09-24T11:41:50Z,0,"Hey Krish, in[22] you try to replace all nan values with random sample  video time[21:50] there you are saying 423 replaced with 28.00 but default value of 423 is 28.0 please check in the CSV file. actually it's not replacing the value",True
+@eternalsilvers5961,2020-09-08T18:59:30Z,10,"df.sample(df['Age'].isna().sum(),random_state =0 ) : Correction Sample is just taking the 177 as an input for generating 177 random values from the non null values in the feature column. Random state = 0 is just used for reproducibility of the sample. So that we can get the same sample everytime.",True
+@chaitanyakumarsomagani592,2020-09-08T04:31:31Z,0,"sir,  the  person who helped to this many people your just like amazing and God.i am great thankful to sir",True
+@akashprabhakar6353,2020-09-04T21:29:57Z,0,Thanks a ton!!,True
+@akashagrawal085,2020-08-29T06:10:46Z,0,Sir you mentioned in last the last video that age is not MCAR  in this dataset then why we are using that in methods where  condition is of MCAR.are you doing so just for explaining or am I wrong in understanding this thing?,True
+@hazimmir1019,2020-08-27T20:45:23Z,0,"Teacher is amazing, but students are gadhay!!",True
+@rajatjain328,2020-08-26T18:10:00Z,1,sir please make videoseries on flask development,True
+@dikshantgupta5539,2020-08-15T12:39:55Z,0,why so much ads in a educative video?,True
+@phungtruong6698,2020-08-07T09:52:43Z,0,Thank you sir,True
+@AKHILESHKUMAR-nk2rk,2020-07-30T05:53:13Z,0,you are from which state?,True
+@AkashGupta-ov4cy,2020-07-29T10:35:25Z,1,Owesome content on feature engineering,True
+@gurdeepsinghbhatia2875,2020-07-28T17:44:57Z,0,"Sir , one doubt , **********SIR DROPNA , will first drop all nan valued rows , then after ,sample will choose 177 values from that columns ,, so how it will fill na values with that , u told that it will fil that nan values with that sample values ,, i am talking this with respect to  video at **23:05** , please clear my doubt sir *********** , thanku sir",True
+@saidurgakameshkota1246,2020-07-24T11:29:43Z,2,Your teaching is awesome krish,True
+@tigerbhavesh6905,2020-07-19T17:02:33Z,0,Sir i have one doubt in Variable_median and varible_at_random According too any data random_imputation is best as compared to median or not Otherwise depand upon the data,True
+@irsadalam1604,2020-07-15T13:57:22Z,0,"Sir, can you make the video on ctc_loss implementation in keras?  Please...",True
+@dipikazope8742,2020-07-15T12:24:35Z,1,"Sir, I have seen all ur videos related to data science. I m from non CS background and want to learn data science. can u please provide some information or platform about practical projects to enhance our skills. Thankyou",True
+@kunalyadav4776,2020-07-15T08:09:14Z,0,"why do the index mismatch in random_sample and df [df[""Age""].isnull()].index",True
+@vaibhavshukla9777,2020-07-15T05:41:24Z,0,Thank you sir 🌟,True
+@akashubale5199,2020-07-15T05:20:39Z,4,"Hey Krish, Please Rename this video as"" Live-Feature Engineering-All Techniques To Handle Missing Values- Day 2 "" , it will be convenient to find it.",True
+@konathammanoharreddy7670,2020-07-15T05:12:13Z,0,"sir, idid not get any notification of live .plz solve",True
+@jaykhade8940,2020-07-14T20:34:23Z,0,Function you wrote for random value imputation is very intuitive. 👌,True
+@adeyinkasotunde6870,2020-07-14T16:25:55Z,6,"what if our dataset contains large amount of missing values in virtually all the columns in our dataset. What method is the best to fill up the large number of missing values in all (say 30 columns) of my dataset? Again, just like we do for train dataset, can we do for test data missing values as well or we can concatenate both train and test datasets and later implement this imputation?",True
+@ArunKumar-sg6jf,2020-07-14T15:39:06Z,1,sir upload this video in the channel,True
+@are_amay,2020-07-14T15:36:05Z,2,Sir is there any difference in data science and engineering,True
+@are_amay,2020-07-14T15:33:53Z,1,Sir what are you doing now??,True

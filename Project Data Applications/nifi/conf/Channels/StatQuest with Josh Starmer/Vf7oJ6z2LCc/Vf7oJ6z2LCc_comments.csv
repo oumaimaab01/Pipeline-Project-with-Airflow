@@ -1,0 +1,90 @@
+author,updated_at,like_count,text,public
+@statquest,2022-05-09T19:46:12Z,3,Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/,True
+@yildizkoca8878,2024-04-19T03:40:34Z,1,thanks for the great content!,True
+@BigAsciiHappyStar,2024-03-21T01:58:59Z,1,"LOESS is a fine-grained sediment, as per Wikipedia or various Scrabble dictionaries if you are into that stuff. Your pronunciation is correct.",True
+@sachinrana7554,2024-03-14T11:39:22Z,0,"This lecture was little confusing, how did you make new parabola adding new weight?",True
+@qiyongchung6954,2024-02-25T06:09:15Z,1,I'm a masters student and this is helping me a lot with understanding the idea of LOESS. Thank you!,True
+@statsdept9416,2024-02-08T16:13:40Z,0,Here is something I found on wikipedia: LOESS (LOcally Estimated Scatterplot Smoothing) and LOWESS (LOcally WEighted Scatterplot Smoothing),True
+@vzinko,2023-01-31T13:34:04Z,0,How can a non-parametric LOESS regression be used for extrapolation?,True
+@posthocprior,2023-01-29T18:19:50Z,1,This was a great explanation. Thanks.,True
+@antoniocastan9229,2022-10-14T15:51:57Z,1,"thanks i was reviewing The Seasonal and Trend decomposition using Loess  , your video is fantastic !",True
+@spearchew,2022-08-25T20:08:45Z,1,great,True
+@cw9249,2022-08-15T22:16:29Z,0,i have a question: why does the lowess line look different near the end of my data when i change where my data ends?,True
+@liamhoward2208,2022-08-07T17:10:11Z,0,"Hey Josh,   Is Lowess and Loess the same thing as  splines? If not and if you are taking suggestions, I think some content on interpolation or cubic and polynomial splines would be great!",True
+@baharrezaei5637,2022-07-23T23:52:24Z,1,Most common methods used for local regression are  1- LOESS (locally estimated scatterplot smoothing) 2- LOWESS (locally weighted scatterplot smoothing),True
+@aldoraine7848,2022-06-15T14:15:49Z,0,How big should n be for this method?,True
+@sau002,2022-04-25T22:05:07Z,0,Is Loess susceptible to outliers?,True
+@alexander191297,2022-04-22T19:46:45Z,0,Lois!,True
+@leesweets4110,2022-02-21T13:59:39Z,1,5:34 Did you forget to move the window?  I am confused by how you choose your points and windows.,True
+@jiweihe3413,2022-01-24T03:50:25Z,3,"Thanks for the clear explanation. Just wonder in the 2nd iteration, how are the two different sets of weights used together. Are they multiplied?",True
+@serafeiml1041,2021-12-07T12:35:38Z,1,Great video.,True
+@ananyajoshi2594,2021-11-15T01:10:52Z,0,"So, you obtained the new-new points based on the distance of the y axis between the new points and old points? is that so?",True
+@Doctorpopets,2021-09-17T00:03:57Z,0,"So, are these regressions used for better trend visualization only, or there are any other reasons?",True
+@navaneethansanthanam7970,2021-08-05T09:24:09Z,0,"Hi Josh, thanks for the video. Does LOWESS allow us to use set of external values to help with smoothing? Let's say I want to smooth some time-series data for one individual in a population. I'd like to do this while keeping in mind the overall population - so, when I smooth this individual, I'm doing it ""along with"" the population's mean time-series. Is something like this possible with LOWESS? Could I use the population's mean as a some kind of weight?",True
+@RealMcDudu,2021-07-12T10:42:02Z,1,"Note that I think what you show is Robust LOESS (which also accounts for outliers, and gives the extra weight function for distance between y's and predicted y's). I think the LOWESS function in R  does it by default, but the LOESS function (it's successor) doesn't do it by default. You have to set family=""symmetric"" in the LOESS to get it. Specifically these two models do the same:   fit = loess(y~x, span=0.25, degree=1) fit2 = lowess(x, y, f=0.25, iter=0)  And so does these:  fit = loess(y~x, span=0.25, degree=1, family=""symmetric"") fit2 = lowess(x, y, f=0.25)",True
+@ranieri2700,2021-04-30T12:07:09Z,1,The best theme song so far,True
+@elrishiilustrado9592,2021-04-21T13:44:33Z,0,Very well explained as always! Thanks! but i have a little question:  when should we use this method? it looks like it overfits the data.,True
+@auzaluis,2021-02-25T12:20:02Z,3,"that's the reason why I became a Patreon supporter, you have saved my life again!!!! And the cherry was the R functions explanations, I love this channel bro!",True
+@bibiworm,2021-02-09T21:41:59Z,0,"I have a probably way too broad question here. I am reading ESL these days. And local linear regression and cubic smoothing spline are throwing around everywhere in the book. But I can't seem to have a good grasp of their relations and differences. What about them vs. neural network? Essentially, all of them are function approximators. Thank you very much!",True
+@Y45HV1N,2020-12-22T06:15:40Z,1,Thanks so much for this!!  Will we have more videos on curvilinear fitting? Do p values and inference work the same with curves ? In what way fiiting a curve is better than fitting a line?,True
+@paulinefaber997,2020-11-21T14:50:13Z,1,"Maith an buchaill, StatQuest.",True
+@Att3mpt,2020-10-25T20:09:29Z,9,Thank you so much for these videos! I am currently in a Machine Learning class and my teacher does not explain it very well. And I love your optimism. thank you again!,True
+@nievsbest,2020-10-24T12:01:48Z,1,Mindblowing.,True
+@manuelenriquelunaalegria274,2020-10-16T03:50:58Z,1,Graciasss,True
+@glaswasser,2020-10-10T15:22:05Z,1,"I'm German so I always call it ""Löss"" :P",True
+@cyrilbaudrillart9690,2020-09-10T16:47:30Z,0,"I am becoming a big StatQuest fan! Congrat for this great video. Just one question... According to what I understand the last points can be misleading because as we get more data, they will change. First we calculate last value of the curve, let's say corresponding to last point X(10), from points on the left, so X(5) to X(10). But as we get new points, let's say X(11), X(12), the value of the curve corresponding to X(10) will change because we now use points X(8) to X(12) in calculation. Am I correct? I hope this is clear... Thanks",True
+@donleitoso9322,2020-08-16T20:26:55Z,10,"Hi, Josh! I'm an Economics student from Brazil. Even though it's only an undergraduate course (right after high school), it can be very demanding when it comes to Statistics, Econometrics and Machine Learning. Although I'm very new to this world, I can understand it pretty well with your help. Awesome videos!",True
+@alvaromorales6828,2020-08-11T13:46:41Z,1,Bam!!!,True
+@ClaudiaBiguetti,2020-07-24T00:34:50Z,2,I love this channel!!! Thanks for the videos!,True
+@sureshkm,2020-07-15T06:04:17Z,6,"I first like the video, then watch it! That's the quality of StatQuest.",True
+@user-bz8nm6eb6g,2020-07-09T23:01:16Z,2,How could this vid get dislike? this video is awesome,True
+@Paboty,2020-06-25T03:58:42Z,4,Thank you so much for your intuitive explanation! I'm honestly impressed by how well you explained it. Love the intro jingle as well :),True
+@TwoandaHater,2020-06-07T23:59:19Z,1,"I was always told it was pronounced ""Low-Ess""",True
+@2und2sind4,2020-06-07T17:17:50Z,1,Thank you!,True
+@picklestirfry,2020-05-21T02:44:02Z,0,I'm going to make a religion devoted worshipping you,True
+@stefank4286,2020-05-08T11:48:13Z,1,"This was very helpful, but how do I get the actual regression function? Say I wanted to compute the approximated value for a x which is not a  data point? In linear regression, you would get two parameters which define a line and use that line to compute the estimated y=f(x) for an x which is not a data point",True
+@yomaru_1999,2020-05-05T07:19:01Z,1,thx for saving statistic dumb like me,True
+@prithabhattacharya8629,2020-04-09T18:06:31Z,2,<3 <3,True
+@salemalgharbi8834,2020-04-01T21:44:49Z,1,excellent way explaining this advance concept ... thanks Josh ...,True
+@davidgl1988peru,2020-03-27T16:50:02Z,1,Great video man! Thanks for sharing.,True
+@lmgpc,2020-03-26T23:53:53Z,3,Your intro made my day on this pandemic season. Thanks!,True
+@govamurali2309,2020-02-05T04:28:41Z,0,Please do hypothesis testing.,True
+@razzlfraz,2020-01-22T21:41:21Z,0,"Hey Josh great video!  Any idea why loess (locally estimated scatterplot smoothing) and lowess (locally weighted scatterplot smoothing), are called a local regression ( https://en.wikipedia.org/wiki/Local_regression ) instead of a local autoregression?",True
+@razzlfraz,2020-01-22T04:19:49Z,0,"This is why I love R.  It has all sorts of fun functions like this. For anyone who is playing with timeseries data, eg sensor data, lowess/loess are smoothing functions and are great for preprocessing and cleaning data.  To find out more checkout:  https://en.wikipedia.org/wiki/Smoothing",True
+@lilyha2470,2020-01-21T23:28:16Z,0,"Hello Josh, yes StatQuest is cool but do you have anything about weighted least squares?",True
+@user-bz8nm6eb6g,2020-01-13T15:24:54Z,1,Thank you so much!,True
+@random-ds,2019-12-14T18:16:25Z,1,"Hello Josh, thanks for this video, it's awesome. I was just wondering if you had time to finally make a video about splines? Otherwise can you give me links of any documents that can help. I need especialy the part where we plot K+m graphs (K for knots and m for the order). Thanks in advance :)",True
+@sau002,2019-12-07T23:12:02Z,0,What is the source of the data for the noisy curve at 8:10 ? Thanks.,True
+@sau002,2019-12-07T23:11:35Z,1,Great explanation,True
+@ramanmurty1498,2019-10-14T19:50:26Z,1,"Could you please upload some videos clearly explaining Non linear methods such as polynomial regression,step function ,splines,Basis function & GAM .  Thanks for making such awesome videos.👌",True
+@Ratchet2022,2019-09-19T09:35:23Z,1,Thumbs up just for the intro.,True
+@apoorvshrivastava3544,2019-07-20T17:36:50Z,0,what is the meaning of weight here ?,True
+@ericleonhuertamanzanilla4262,2019-07-08T23:26:48Z,1,"Excellent explanation, clear as crystal. Thank you very much for sharing it.",True
+@kavanshah9586,2019-06-22T07:33:57Z,0,What kind of a curve do you fit to the new-new points? Does the curve have to pass through all the new-new points?,True
+@winniewu8581,2019-06-22T02:41:24Z,0,what will be a normal window size?default? or do we look at other characteristic to determine? what is the relationship between window size and fit?,True
+@kartikkamboj295,2019-05-11T16:17:15Z,1,Thanks ! Keep posting such videos🙏🏻. Regards :),True
+@josuevervideos,2019-03-07T00:37:45Z,0,Excellent!!!,True
+@somakkamos,2019-02-27T19:20:44Z,1,hmmm this is interesting... i thot curves are fit using the kernel trick every time. this is new information. are you aware of any python library that can perform the same trick. and how does this compare to kernel tricks?,True
+@Bornleadr,2019-02-14T06:56:47Z,1,"How are we choosing the new points here? I am talking about all the ""Red Xs"". Will we just consider a point on the regression line that is perpendicular to the focal point?",True
+@sandpiperr,2018-12-18T03:45:52Z,2,Thank you! The first time I've ever seen loess explained clearly.,True
+@thatipelli1,2018-11-25T05:59:56Z,1,Thanks a lot for the succinct explanation!!,True
+@jingying6247,2018-10-19T07:30:13Z,1,Crystal clear!! Thank you so much!,True
+@ramenmachinegun,2018-09-28T01:27:14Z,1,You just earned a sub! ☺,True
+@aligatorbhai,2018-09-22T22:00:44Z,2,Could you make a video about fractional polynomials and splines please?great videos.Thanks,True
+@BrianRisk,2018-09-22T17:32:50Z,16,This method has helped me make an amazing stock prediction algorithm!  I'm a millionaire now!!  THANKS StatQuest!!!,True
+@BrianRisk,2018-09-22T17:29:26Z,5,Dude!  This is exactly what I need!,True
+@WalkwithSid,2018-09-19T03:40:03Z,1,Saved my Time !! Thank you very much,True
+@nelsonjma,2018-09-14T06:59:25Z,1,"Subscribed, many thanks to the information and how you present it.",True
+@aifuli3088,2018-08-13T01:08:14Z,2,"Hi, at 5'34'' when the focal point changes to 6th, why doesn't the window move forward? Thank you!",True
+@wenqianchang3471,2018-07-05T14:22:19Z,1,Thx！pretty intuitive,True
+@JayMinuti,2018-05-17T09:39:52Z,0,HI! Great video. I want to fit a confidence interval band to my loess curve. Any advice on how I do this?,True
+@technolady227,2018-03-19T18:01:56Z,2,That was so helpful!  You really break everything down to basics and let the learner soak it in.,True
+@pnhkaaaaa,2018-03-18T09:10:55Z,1,"Great video! Recently I've been working with the ""Moving Least Square"" concept which is widely used in computer graphics, especially image deformation. This video helps me understand this concept in statistical field. Thank you so much.",True
+@dinajankovic7556,2018-02-14T23:55:55Z,0,Fantastic video! thanks a lot.,True
+@SteveSolun,2018-01-25T09:15:05Z,0,"Thank you for the great explanation of the LOWESS!  Please explain the last iteration, after I have found the first new points you say that I have new weights, can you please explain in depth how do I use them for the next set of points?",True
+@yazadjabbarc,2018-01-01T07:28:27Z,0,"Hello, thats so nice of you to teach us the Lowess fitting, I have a specific parameter which needs to be fitted. Yet i need to change the weighing relationship, can you help with some explanation or some material to study for it. Thankyou.",True
+@aragaorenan,2017-08-27T21:11:47Z,0,Thank you for this!! :),True
+@anzar420316,2017-08-23T23:16:46Z,1,you are a champion. Great video,True
+@iwtwb8,2017-08-20T20:45:28Z,0,"Rafael Irizarry pronounces it the same way in his videos: ""low-ess""",True
+@bu8291,2017-07-20T10:56:17Z,0,Your videos are amazing! I can finally understand statistics :),True
+@CainisUponUs,2017-06-06T03:04:33Z,32,man you somehow make statistics feel intuitive somehow O_o,True

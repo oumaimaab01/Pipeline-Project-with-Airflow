@@ -1,0 +1,70 @@
+author,updated_at,like_count,text,public
+@anirbanc88,2023-01-29T08:11:03Z,1,"sir, this playlist and all other videos on the channel, they are so good and helpful and awesome and fun, thank you so much, i feel deeply grateful",True
+@abhishekmukherjee446,2022-03-02T07:41:02Z,0,"Hi Krish, can we use PCA instead of using Lasso Regression to select the best features?",True
+@nagasatya7378,2022-01-07T07:04:01Z,0,"Categorical features encoding is missing in the code, please update it.",True
+@anxuaafid2725,2021-12-19T07:38:42Z,0,Mazza aa gaya...  Thank you sir,True
+@lavanyasaravanan1654,2021-12-18T09:31:34Z,0,"Hai, actually i am having this error, please say how to resolve it ValueError: when `importance_getter=='auto'`, the underlying estimator Lasso should have `coef_` or `feature_importances_` attribute. Either pass a fitted estimator to feature selector or call fit before calling transform.",True
+@mranonymous7766,2021-11-21T08:30:03Z,1,Can anyone tell me why my all features are getting select???,True
+@pranavgupta451,2021-10-11T09:36:37Z,0,I didn't get what he did with the high cardinality features like Neighborhood and others. Anyone having any idea on this?,True
+@sandipansarkar9211,2021-09-30T20:29:13Z,0,finished watching,True
+@ritvikpant7107,2021-08-30T15:56:31Z,0,will use all these methods in my upcoming project,True
+@preetshah6390,2021-07-30T20:28:10Z,0,What's the reason for applying minmaxscaler to the categorical values here?,True
+@prerakchoksi2379,2021-07-16T20:11:04Z,0,next part ?,True
+@louerleseigneur4532,2021-07-16T06:30:38Z,0,Thanks Krish,True
+@humbleman8476,2021-06-13T20:52:59Z,0,"How have you handled missing values for categorical variables, you haven't shown...when you impute ""missing"" instead of NA values, then what should be do to replace ""missing"" ?",True
+@adityapathania3618,2021-04-09T00:40:55Z,2,Sel_ should be feature_sel_model,True
+@vignesh7687,2021-03-31T08:56:55Z,0,Great Work Krish. What is the difference between SelectKBest and SelectFromModel? Which is best in selecting the feature? When to use SelectKBest and SelectFromModel? Can you please make a video,True
+@bharathraj4545,2021-03-07T04:44:26Z,21,"6:21 At this point of the video , I think their is  a mismatch in the code  Please find the below code:  # Let's print the number of total and selected features  # this is how we can moake a list of the selected features selected_feat = X_train.columns[(feature_sel_model.get_support())]  #let's print same stats print('total features: {}'.format((X_train.shape[1]))) print('selected features: {}'.format(len(selected_feat))) print('features with coefficients shrank to zero: {}'.format(     np.sum(feature_sel_model.estimator_.coef_ == 0)))",True
+@aksaini9063,2021-03-03T17:10:03Z,0,Amazing explained Sir can I apply the feature selection on the test data selectfrommodel module,True
+@deepanshusaini2222,2021-03-01T09:48:51Z,0,Hey Krish plz complete is playlist 🙏🙏🙏🙏,True
+@etc-b-28atharvapatil2,2021-01-31T03:49:31Z,1,hello sir. We were told to do feature engineering on test.csv as well..nut it apperas that it does not have SalePrice in it and in some groupby functions we have to use SalePrice as our parameter. If anyone could help me please?,True
+@AshokKumar-du7yh,2020-11-21T04:08:36Z,1,Can anyone tell me  If we want to apply different model like other regression mode how can we do that,True
+@c.dharmeshwaran3470,2020-10-19T11:38:30Z,1,"For me, after applying lasso regression only 2 features are selected(True). Here in this video, it is 21 features. What should I do now to overcome this? or should I continue with those 2 features itself?",True
+@rahulpathak868,2020-10-02T13:04:30Z,0,you haven't performed one hot encoding on categorical feature,True
+@sandipansarkar9211,2020-09-22T17:11:21Z,0,Cool. finished and got my hands dirty with Jupyter Notebook.Thanks,True
+@roopeshk3147,2020-09-21T17:18:35Z,0,"Hi Krish,  Thanks for uploading all the relevant videos in proper order. Great work! One doubt on this Krish, After selecting Lasso Model in SelectFromModel technique and obtaining final X_Train dataset, Can we apply different Machine Learning Algorithm (Like XGBoost or RandomForest, etc., )for the final training of the dataset to obtain the predicted values. Please atleast can someone answer this question.",True
+@sandipansarkar9211,2020-09-18T18:40:58Z,0,great video .Need to get my hands dirty with Jupiter notebook. Thanks,True
+@akashprabhakar6353,2020-08-20T08:47:38Z,1,i am getting this error on applying Lasso  could not convert string to float: 'RL',True
+@rad.strums,2020-08-16T16:17:53Z,0,Hi please continue with the video series of model building and deployment,True
+@shindepratibha31,2020-08-13T07:25:58Z,0,Great work! Can you make a video on model building and deployment?,True
+@DasigiRaghuBME,2020-08-09T18:25:28Z,2,"Hi Krish, where can i find mode building and deployment videos for this project?",True
+@sweetyporwal8769,2020-08-07T06:44:09Z,3,Can anyone help me how to get Y_test data as we don't have target variable (sales price) in test.csv??,True
+@sarojavinash,2020-08-03T09:13:46Z,0,"Sir,please tell me , how can i eliminate this error ValueError: Input contains NaN, infinity or a value too large for dtype('float64')",True
+@sagataroy5357,2020-07-30T04:28:01Z,0,Is there model building video on this or not ? Please confirm.,True
+@youknownothingjonsnow3128,2020-07-24T21:51:07Z,0,But what is the use of test.csv file?,True
+@rishabs5991,2020-07-19T23:00:29Z,0,How do we perform feature selection for our test data when we do not have values for y?,True
+@sagar_virmani,2020-07-10T12:50:11Z,0,"Hi Krish,  how do i define y_test for the test dataset as we don't have the dependent feature there?",True
+@himanshuaggarwal8272,2020-06-23T16:55:37Z,0,Using MinMaxScaler( ) and creating dummy variables. Which one is better? A little confused on what to use for categorical data...,True
+@sahilaseeja7686,2020-06-18T18:05:18Z,0,sir i have a doubt.. this lasso feature selection is done using only linear model in python. So is this appropriate that we are using linear regression to fit for feature selection,True
+@gauravsharma-bl2sw,2020-06-05T18:30:33Z,0,why have scaled years?,True
+@davs2002,2020-06-05T13:12:04Z,18,"Hello Krish, I watched all the videos in this series. Awesome job. But I have a few questions: Q1. Why didn't you use /check correlations among features. Q2. Why didn't you check for Multi-Collinearity among features Q3.  Any specific reason to go with such simple graphs instead of choosing graphs like FacetGrid , Distplots etc  Thanks",True
+@manthanrathod1046,2020-05-07T10:22:58Z,0,great content. When will you upload the model building and deployment video?? @krish Naik,True
+@rickymehra109,2020-05-03T18:57:39Z,0,One of the best series of videos available so far!!   Just wana to ask that can we use SelectFromModel for classification as well or some other combination is used ??,True
+@rohandatta9019,2020-05-01T08:03:24Z,2,Sir please continue this video series Model building and model deployment are still left.,True
+@khajahabeebuddin6576,2020-04-21T04:44:23Z,11,"Hi Krish,  Thanks for uploading all the relevant videos in proper order. Great work! As part of pipeline, you have covered data analysis, feature engineering, feature selection in these videos. The content is pretty much covered.  With continuation to these videos, when would you upload model building and model deployment videos?",True
+@yaariyan2003,2020-04-14T07:58:01Z,0,Nice Video.....when you will upload the model buiding video @Krish Naik,True
+@BecomingSuyogya,2020-04-13T11:16:07Z,1,"@Krish Naik : Hi Krish, first of all I am big fan of your teaching. As you said you are bridge between phd holder and junior data enthusiast.  Go to 2.30 timing , you said we have to do it feature selection for TEST data as well. But I have a problem here. Please help.   I have completed everything till here.  [ Note : In test data feature engineering, I used LabelEncoder from sklearn as TEST data does not have SalesPrice. ]   But I am struck in feature selection as my train data is already with 21 features. But my test data has 82 features which we are trying to reduce to 21 as shown in this video's tutorial.  Problem :  Since we do not have SalePrice column in TEST data, how do you perform fit for SelectFromModel.  Example : In train data : feature_sel_model = SelectFromModel(Lasso(alpha=0.005,random_state=0)) feature_sel_model.fit(X_train,y_train)  But what about test data : feature_sel_model = SelectFromModel(Lasso(alpha=0.005,random_state=0)) feature_sel_model.fit(X_test,??) -> cuz y_train was ""SalesPrice"" in train data.  Kindly guide me the way as I am almost there. Thank you so much for teaching brilliantly. Cheers !!!",True
+@owaisfarooqui6485,2020-04-09T14:32:40Z,0,dislike kon karta hai bhai ese soone (gold) jese content ko ........,True
+@karansharma8951,2020-03-29T04:47:11Z,0,sir next video it is already 1 month,True
+@shangarsivananthan4744,2020-03-28T13:48:11Z,0,"Fantastic video. Just to check has the videos on the model creation, testing and deployment already uploaded?",True
+@sathishs1756,2020-03-22T18:18:26Z,0,"please guide how complete this particular task with train the model ,from this we have train data then what should i do",True
+@neerajmeena1595,2020-03-09T15:55:08Z,33,Please make a next video based on Advance House Price Prediction-Model Building.,True
+@harshsindhu1501,2020-03-09T12:15:06Z,2,"Advance House Price Prediction-Feature Selection part 2  Machine Building Machine Deployment videos waiting sir",True
+@Ram-kv1qh,2020-03-04T11:29:28Z,0,Sir what is the next after this video???,True
+@imteyazahmad9616,2020-02-29T20:50:35Z,1,It's really nice video Sir  When Next video upload,True
+@Bwithdipen,2020-02-26T20:00:21Z,8,"Thank you sir for all the great content. May I know is there any further videos for this project on modelling, performance metrics, etc.?",True
+@louismefor9539,2020-02-26T17:58:28Z,0,"I am new to data science, please where do i start with respect to your contents?",True
+@chanchalshukla683,2020-02-26T11:14:49Z,2,"How you handles Outliers?? You just find them but not treated. Also not specify what happen with Categorical values like ""Missing"" Apart from that why you have created ""LotFrontagenan"" such features while you have handled these features (like ""LotFrontage) with Median values. Please elaborate.",True
+@devanshu12,2020-02-16T04:24:38Z,6,"Shouldn't it be print('features with coefficients shrank to zero: {}'.format(     np.sum(feature_sel_model.estimator_.coef_ == 0)))   You wrote print('features with coefficients shrank to zero: {}'.format(     np.sum(sel_.estimator_.coef_ == 0)))",True
+@devadularani6811,2020-02-15T15:58:44Z,0,Thank you sir...,True
+@saxenarachit,2020-02-15T15:45:56Z,0,"Hello Krish, all your videos are fantastic and gives great learning and confidence. And, thanks for your teaching... Appreciated !!   Just to add you forgot to include the categorical feature encoding step which was missed in last video and you mentioned  'I missed the categorical feature encoding step, but i have written the step. Check the code...it will be uploaded in the next video'.   Can you pl add the codes here meanwhile so we can understand it ? I am unable to move ahead as this is pending...",True
+@SanthoshFabre,2020-02-15T15:25:31Z,1,This is very helpful.. I am gonna work on my first project through your video.. Thanks Krish!,True
+@ashokankam9171,2020-02-15T14:05:08Z,0,Big fan of your teaching sir ...doing great job,True
+@ravitanwar9537,2020-02-15T13:11:26Z,2,bb ki vines,True
+@chetankhaire8836,2020-02-15T11:24:48Z,0,Thank you sir was really waiting for this video.😇,True
+@sachinborgave8094,2020-02-15T07:53:48Z,0,Please upload a Deep learning RNN series.,True
+@sridattamarati,2020-02-15T05:59:30Z,1,Please Make a Video on Word Embedding in Deep Learning...,True
+@ManishKumar-qs1fm,2020-02-15T05:56:07Z,1,"It's really nice video, dis feature selection use for classification also? After removing of 61 columns it's not affect d our data, in not then why?",True
+@anandhuded3647,2020-02-15T03:43:33Z,1,Obviously great Teaching👏👏👏,True
+@alankarshukla4385,2020-02-15T03:24:15Z,1,Great sir.,True
+@saxenarachit,2020-02-15T03:06:29Z,2,Must be nice...  Going to watch now,True

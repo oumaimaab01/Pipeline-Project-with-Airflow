@@ -1,0 +1,187 @@
+author,updated_at,like_count,text,public
+@benhawley8334,2024-04-19T21:37:53Z,0,"""We need to find a loss function that can allow us to predict how wrong we are. Using correctness loses a lot of valuable information we can use to train our network."" Oh ok. ""Why do we use categorical cross entropy? Well for one thing, because it works."" Oh. I see how it is.",True
+@swifteducationpro,2024-04-03T06:23:18Z,0,"I am a new guy in coding in Python, I am not able to solve this. How to I import nnfs? ModuleNotFoundError: No module named 'nnfs'",True
+@jacek5809,2024-02-28T11:06:26Z,0,"I don't get it why it simplifies to -log(output[0]). If one-hit vector was [0, 1] then the cat cross-entropy would be a different value: -log(output[1]). So you cannot simplify it for all cases. What am I missing?",True
+@simplifyitofficial,2024-02-01T12:44:57Z,0,Bro i am waiting for 3 years. The bestestest series. Please Continue,True
+@user-en2go7xu3l,2024-01-26T11:08:03Z,0,This is so good. I'm making a neural network in javascript for nlp. This newbie 16 year old head understood something about networks finally 😂,True
+@the.abdulmuqeet,2024-01-02T19:13:30Z,0,You explained log better than my teacher. I was today years old when I found out log is basically to find the x in euler's exponent. Keep it up brother,True
+@actuarialscience2283,2023-10-29T07:46:47Z,0,"Following the class today, 29th October 2023, I support Israel. G-d bless you and Israel.",True
+@gagangayari5981,2023-10-10T03:56:07Z,0,8:42 .Why don't we just take a difference(or squared diff) of the two distributions .?  Eg. actual-predicted..rather than taking the cross-entropy loss..,True
+@redtiger2526,2023-09-17T11:59:21Z,0,I don't understand what is spiral data and what do you mean with samples and classes,True
+@unacceptablefringe7508,2023-05-28T05:15:26Z,0,Just gonna throw this out there but PEMDAS isn't a thing... It's BEDMAS you animal 😂😂🤣🤣 Jokes aside the two are the same but BEDMAS sounds better...,True
+@Mica_No,2023-05-23T21:08:52Z,0,Im thankful to watch this series but I understand not much what Im doing,True
+@shabnamshekhaji5540,2023-04-06T17:02:46Z,0,Sentdex come back i need a backpropagation tutorial!!!!!,True
+@janpost8598,2023-04-06T14:37:06Z,0,Neural Networks From Scratch --> nnfs. took me a while.😅,True
+@jonathancaldwell517,2023-03-15T21:28:37Z,0,"ok, I have no idea if anyone watches these comments anymore, but I totally don't get the popup in the lower right quarter at 14:04. I'm hoping your just talking about something we are going to cover, because I don't see that anywhere yet. 😕",True
+@aalaptube,2023-03-10T08:11:12Z,0,"A few thoughts/observations I had:  1) 9:18 When the model is in training phase, and it assigns some probabilities to wrong classes, since the cross-entropy just multiplies these with actual one-hot class of 0, it literally throws away the wrong prediction. If there a way to keep them, and increase the loss value, so that the back-propagation works harder to reduce this prediction of wrong classes, would it not be better? So basically, it works both to increase probability of right class and reduce probability of wrong class. Currently it is only increasing probability of the right class.  2) Per Luis Serrano, in article ""Shannon Entropy, Information Gain, and Picking Balls from Buckets"", the log is base 2. He describes entropy with an example where there are two colors of balls, and hence when there are 50-50% balls, entropy is highest = 1. However, if there are 3 colors (he does not describe it, just my extension), then log 3 will have highest entropy when there are equal number of balls of each color. This is just an observation.  3) If we plot 3 graphs in GeoGebra, where X-axis is y_pred and y_axis = ln(y_pred), log2(y_pred) and log10(y_Pred) (keeping in mind that only when y_actual = 1, we multiply log of predicted to it, otherwise it is 0). So if our prediction for a correct class was close to 1, e.g. 0.9, then -log10(y_pred=0.9) has the lowest value (lowest loss), -log2(y_pred=0.9) has the highest. [-log10(0.9)=0.046, -ln(0.9)=.0105, -ln2(0.9)=0.152). This would make me believe that log2 is aggressive in showing higher losses for same y_pred. The lower the base, the more aggressive the loss function becomes (try out log1.1(y_pred) for eg). There is no end to decreasing the value of this base, tending to 1 but not equal to 1. I guess we need to stop somewhere. In a similar vein, log10 is much less aggressive, so it may take longer time to reach same levels of loss errors.",True
+@MercUndGut,2023-01-18T09:39:40Z,0,"Hey there! Will a video regarding ""Back Propagation"" be released as part of this series or is it in the book by any chance?",True
+@danielbloom2470,2022-12-17T18:08:08Z,2,This is top dollar. Good job man.,True
+@zihengliao236,2022-12-12T11:03:30Z,0,8:30 loss,True
+@farhadnasiri3329,2022-11-06T13:50:45Z,0,"I appreciate the way you taught,  I think you should have referred to loss terms as Ln 0.7 = 0.35, not Log 0.7.",True
+@trustytrojan,2022-05-01T23:42:12Z,0,watching on 2x speed 🤤,True
+@peterhansmann3289,2022-04-20T16:19:42Z,0,So far I don't really understand why we need a log for the loss function and why we cant just take the difference between the output and the desired output. Is it because using log shortens some coding/calculation parts or is it because later in optimizing it highlights bigger losses more strongly than if it would be just the difference?,True
+@baqirhussein1109,2022-04-08T17:26:12Z,0,4:45,True
+@baqirhussein1109,2022-04-08T16:50:23Z,0,3:11 reminder  for me,True
+@skzff2259,2022-03-16T14:15:46Z,2,"Hey sentdex, you are really doing a great by sharing your knowledge with us.  But regarding this video I have a question : In your MNIST digit classification video where you used keras sequential model you supplied the outputs (y_train) as ordinal data and not one-hot encoded vectors  and the model worked properly. So in that case how did the model calculate the loss. Did it converted the outputs to one hot encoded vectors behind the scenes or did it do something else?",True
+@gabrielmalek7575,2022-02-18T05:05:27Z,0,usually when the base of log when it's now mentioned is base 10 not e,True
+@rimpri,2022-02-12T13:38:44Z,0,"Great course so far, but one-hot encoding could be explained a little better. I had to watch another video to understand it.",True
+@friedrichwilhelmhufnagel3577,2022-01-31T23:10:47Z,0,"Hallo! Danke fuer die Videos! Ich würde mir gerne das Buch kaufen. Allersings ist rs schon nicht ganz billig. Mich würde vorher interessieren, ob es mathematisch fundierter wird als die Videos, etwa in Richtung der Videos von 3blue1brown oder ob das Hauptaugenmerk so wie bei anderen Büchern über ai mit python auf der blossen Implementierung bleibt? Ich möchte gerne die Analysis dahinter verstehen bzw. auch von Alternativen und warum Du genau diesen Algorithmus gewählt hast und nicht den anderen (aus mathematischer Sicht). Ich würde mir schon länger gerne ein Buch über Neurale Netze bzw. Deep Learning kaufen und wusste nicht, welches. Die Auswahl ist so gross. Und die ganzen Bücher bei Amazon scheinen einrm kein eigenes Verständnis über die mathematischen Hintergruende zu geben, sondern, judging a book by its cover, überspitzt gesagt, nur listings zum abschreiben zu enthalten. Ausserdem Pluspunkt fafür dass der Autor von dem Buch hier ein Deutscher ist und ich hoffe foch auch Fragen beantworten würde. Viele Gruesse!",True
+@miximum1,2022-01-03T21:51:28Z,0,"you've completely lost me here with the one-hot encoding. No sorry, I rewatched it and it's pretty clear. thank you!",True
+@hosseinnajafi4960,2021-12-17T13:59:17Z,0,thank you so much....it was awsome video for learning NN from scratch!,True
+@Tinkerer_Red,2021-12-07T22:41:00Z,0,"My log function isnt the same as pythons :/ And following the examples it seems as though ""-(2.718281828459045 ^ 0.7)"" is also incorrect",True
+@k.chriscaldwell4141,2021-10-24T04:33:56Z,0,"With respect, but when written in a formula, ""log"" always refers to log base 10. The natural log is written as ""log"" with a subscript of ""n"" or ""e,"" or is written as ""ln."" Writing the natural log as ""log"" is like writing ""2x2"" when one means ""2+2"" or writing ""pi"" when what is meant is ""E.""  That formula should be written using one of the above, say, ln.  Google calculator, my calculators, I have many, the calculators on several OSes, and the many math books on my shelves support this fact.  It is unfortunate that those behind ""Math"" and Numpy"" chose to muddle such a well established convention. But now I understand why I have seen the following in code over prior years: ""math.logE = math.log"" or ""np.logE = np.log""",True
+@BizzNitzz,2021-09-17T21:22:06Z,0,Finally an easy video LOL,True
+@teze2284,2021-09-12T23:35:53Z,1,"i've been looking for a series exactly like that, that assumes that you know what NN are and you know python, so you actually DO something thanks a lot",True
+@therareblueproject3757,2021-09-10T02:57:21Z,0,"Man, your work here is HUGE! Thank you for the effort.  I've a question relayed to this ""natural log""... Following your stuff, I am working on codding the reinforcement learning algorithms in numpy (only), to use them in my smaller robots (simply because I can't install pytorch/tf on raspbery pi zero :D).  What drives me crazy is that no one, anywhere in the math, mention what type of logarithm is used. They just post ""-log(P)"", where P is the policy. You are the first in the whole net, stating that this log is actually a ""natural log"". And it makes total sense, because in softmax we use ""e"".  So my question is: is this ""natural log"" used everywhere in the machine-learning algorithms (no mater if they mention ""log()"", which math-people say it is ""log of 10"", not ""log of e""), or we use ""natural log"" for ""categorical cross entropy"" only, but ""log 10"" elsewhere..?? For example, I try to find out what type of log is used in ""log_prob()"" (from ""torch.distributions.Categorical()"") function in Pytorch. Thanks again! You're awesome!",True
+@Mahdi-ug1qy,2021-09-07T18:06:32Z,0,"I lost it at 9:31 when he went: ""well first of all.... categorical cross entropy...just sounds....cooler!"". I love Harrison.",True
+@UtaShirokage,2021-08-06T21:05:51Z,0,Amazing videos. Thank you.,True
+@amanpatyal2187,2021-08-04T03:38:57Z,0,np.e == math.e,True
+@romankoval1425,2021-07-01T13:16:43Z,0,"Who developed NumPy, why does logx = lnx. The whole point of lnx is to have a log base e, and logx = log base 10. They are in no way interchangeable.",True
+@leonlysak4927,2021-06-17T05:01:06Z,0,"JUST ORDERED THE HARDCOVER! I've had the ebook for a while and have been following along the videos as well. This is just simply amazing man, you guys have done an outstanding job",True
+@tiecheng-excelprogramming2370,2021-06-08T00:22:41Z,1,"please continue this serie, they are good",True
+@nathanstruble8587,2021-06-03T22:00:49Z,15,"Just found this series, thanks so much for this sentdex! Take your time with the content though, idk why everyone seems to think you owe them knowledge, but your doing us a huge service with this series so the least we can do is be patient.",True
+@coenvandenelsen7601,2021-06-02T21:28:46Z,0,Please continue the series! and after this make a convolutional neural network :p You are so helpfull!! thank you so much,True
+@surajbangale839,2021-05-30T13:58:14Z,1,Hi.. I love your way of explaining concept.. Really look forward to completion of this content.  Appreciate your efforts! Awaiting for part 8.. ☺️,True
+@thimalikannangara4900,2021-05-29T17:48:55Z,0,"Please continue this series, it's awesome!",True
+@amtech8650,2021-05-29T15:50:08Z,2,"This series is taking forever, and that's really weird, especially when there are too many people asking for it. People have been waiting for the back-propagation part for almost a year now, WHAT THE HECK IS GOING ON? I seriously don't understand why you Intentionally keep delaying it, or why you don't want to continue it? In case you have the intention of continuing this series, I really hope you would focus on it, rather than doing any other video.",True
+@MrBhavishya,2021-05-28T16:57:29Z,0,Thanks a lot for such a nice content. Does book cover more topics then video ?,True
+@mohamedobiedatmusic,2021-05-28T14:24:51Z,1,"Bro i have searched the wholeeee web looking for a good organized series to understand the background behind Deep Learning and Neural Networks and after watching your videos and getting your book, i could easily say you're the best in this industry. Hats off, keep em coming!  BEST OF LUCK!!",True
+@mannmann2,2021-05-28T06:39:26Z,0,Can we have backprop already? :'(,True
+@tommoritz79,2021-05-26T15:58:03Z,0,Huge thanks Sentdex! cannot wait for P.8,True
+@ZacharyCortex,2021-05-26T12:04:19Z,4,The best video series i've come across explaining this stuff. Thank you so much!.....eagerly awaiting the next videos to help me with my PhD!!,True
+@3DComputing,2021-05-20T10:05:42Z,0,"3 months, come on, you promised...........",True
+@Leonardo-uh3vs,2021-05-18T20:36:09Z,0,no next class yet? one suggestion if you want to add to the series. training through genetic algorithm. what do you think?  good job see ya,True
+@amitanand7534,2021-05-18T08:55:13Z,0,"More videos, please!!!! This series is awesome!!",True
+@bantaibaman5662,2021-05-14T20:13:12Z,0,Good sir. Episode 8 has still not been released. It's not good to play with our emotions like this. Kindly end our suffering.,True
+@IvanChristopher-ITSME,2021-05-13T03:25:55Z,0,I can't wait for the next video,True
+@browneealex288,2021-05-08T12:57:21Z,1,Thanks to you ... Honestly you have done very very great job making it and god bless you .. Please release p.8  and to the absolute end video as fast as possible and Hope you will do so. I have been eagerly waiting for your next video more than anything.,True
+@krishj8011,2021-05-07T16:03:50Z,0,Thanks..Nice explanation.. very detailed..,True
+@Alex-zr7wr,2021-05-06T19:29:22Z,0,The way you explained normalization in the last video cleared up some confusion that I've had since college statistics. You have a real talent for breaking concepts apart. Great work. Bought the book.,True
+@youssefhany4846,2021-05-02T12:17:59Z,1,please please please post the backprop. and optimization episodes,True
+@manavrao4824,2021-04-23T16:38:32Z,0,hey please upload videos of backpropagation and optimizers,True
+@ahmadmardeni6900,2021-04-19T12:43:13Z,1,Where is part 8!!!!!,True
+@kyguypi,2021-04-15T13:33:00Z,0,"Now that I have the book, and have made my way through backpropagation, 2 things are clear to me: It's important that you make the next video, and it's understandable that you haven't yet. Personally, I think the book suffers from what I see as a reluctance to strip away layers of complexity that they've already added. Backpropagate one neuron, one input, one sample, then in vectors, then in matrices. The book's kind of ""Well, we already have matrices, so now lets do partial derivatives with them"".",True
+@litDevYT,2021-04-14T21:19:18Z,0,Pleaasseeee continue with these series Pleeeeeeeeeaaaaaaaaaaaaaasssssssssssseeeeeeee,True
+@nicoarabogdan6090,2021-04-14T18:11:07Z,0,I would much  rather buy a course where you explain then buy a book cuz.. a book is lifeless and I can stay focused. Maybe a patrion smth smth,True
+@devarshdave2372,2021-04-14T15:02:46Z,0,Bro continue this series we all are waiting.,True
+@AbeikuGh,2021-04-14T13:41:11Z,77,"I have been reading the book. Now, after watching these videos, I can only humbly ask that you continue the series. It is super easy to understand from your videos. Even if you decide to do this at a fee, I will sign up.",True
+@SuperSampling,2021-04-13T08:56:01Z,0,"Have you already send out the hardcover books? I'm still waiting … and for some reason you don't answer your emails, which is a bit disappointing.",True
+@rohith9439,2021-04-12T02:42:36Z,0,Your vids have thought me the real ML. Thank you very much 🙏,True
+@serhatuyanmis1493,2021-04-10T19:38:17Z,1,It is a great series . It would be great if you could continue to record next sections. It is also amazing to follow it with book. Each section gets easier to understand when it is supported with a video from you. Thank you for the effort and energy... <3,True
+@ismaelRR,2021-04-10T11:27:11Z,0,Thank you for the video!,True
+@re.liable,2021-04-09T06:06:32Z,0,"Why is it that ""log"" is assumed base-10 on maths(? e.g. calculus, diff. eqs.) but base-e on programming (or computer science?)",True
+@TheMangz1611,2021-04-07T19:51:25Z,0,Its APRIL 2021.. pleasee release the next video quick... or tell us if u want us to pay and join ur group,True
+@woutvanderhoef765,2021-04-01T23:11:05Z,0,Worst cliffhanger. Might have to buy the book now,True
+@kanekeylewer5704,2021-04-01T22:01:36Z,0,part 8 pls,True
+@danielniels22,2021-04-01T17:42:26Z,2,WoOOwwoW THIS PART 8 IS VERY InTeReSTinG!!,True
+@devarshdave2372,2021-04-01T07:12:28Z,0,where is episode 8??? I was truly enjoying the learning . I was never this clear about topics before. Please get the 8th video as soon as possible,True
+@sourinchatterjee597,2021-03-31T17:03:19Z,0,Sir please make the next video. Eagerly waiting ❤️❤️❤️,True
+@danielniels22,2021-03-30T05:55:51Z,1,"hello, i would like to know if this is the end of this series? thank you :)",True
+@omarpasha2968,2021-03-29T15:26:35Z,2,"I just listened the first time to get a good overview. Now, I'll listen again and code along with you. You mentioned the next video in this series. So, where is part 8?",True
+@munawarali8305,2021-03-29T10:48:25Z,0,"Hi, in past I have seen a lot of your videos and this series is too awesome... I have learned a lot from your videos... What I like specially is the way you teach, your presentation skills and sense of humor (Most Important).. I would like to thank you a lot...  One question: When are your positing your new video? Is it any time soon?",True
+@danielniels22,2021-03-29T02:25:49Z,0,"hello, i would like to know if this is the end of this series? thank you :)",True
+@bartosz_z8967,2021-03-27T08:30:07Z,0,can't wait for the next video,True
+@shaikansarbasha4169,2021-03-27T07:11:06Z,0,Code for backpropogation,True
+@peschebichsu,2021-03-12T20:29:50Z,0,Can't wait for the next part,True
+@robertknopf6207,2021-03-10T18:10:30Z,0,"Was one of your kickstarter supporters - for not being in the field, I find you way of explaining this very enlightening and helpful.  Can't wait to see episode 8",True
+@Mreoinpaul,2021-03-05T09:11:43Z,0,"MOAR!! Unreal series! As always, Sentdex does not disappoint. I powered through the videos to this point and I'm waiting with baited breath for the next video in the series! Thank you!",True
+@BigMoneyPauper,2021-03-02T20:37:40Z,0,new episodes please!,True
+@pierrelebrun2313,2021-03-01T18:41:07Z,0,"Hi bro, cant't wait to see what's next",True
+@abodedaniel1827,2021-02-28T21:12:35Z,0,"Great tutorial sentdex, I am waiting patiently for the next part",True
+@poseauto,2021-02-25T23:28:09Z,0,Almost one year and the series still didn't end :/,True
+@aka0989,2021-02-25T17:22:41Z,0,thanks a lot,True
+@Janskill,2021-02-25T11:46:48Z,0,Great series. Would really appreciate a continuation.,True
+@jamesmontgomery5717,2021-02-23T16:26:07Z,0,1 Million Subs! Let's Go!,True
+@xyz4904,2021-02-23T07:12:01Z,0,"Guys, buy the book. It's worth the money and more. Every time you use a library(other than numpy) or CNN you wont understand every aspect of it. One might argue that if it gets the job done then ""why do we need to understand things from scratch?"". However, technology changes over time but the concepts behind it will remain as it's foundations for a long time. furthermore, your understanding of the NN will augment and as a result you will be able to better apply them in your code. The code is absolute beautiful in the book and if you use google colab it will be much more easier . The content of the book will help you in visualizing the inner workings of the NN. Thank you @sentdex best start of the 2021 for me",True
+@walterstukel,2021-02-22T22:37:48Z,1,The best tutorial series I've ever watched,True
+@wingyinchan6435,2021-02-22T11:21:07Z,224,man i reaaaaalllly hope you're going to continue this series until the absolute end,True
+@souravjha2146,2021-02-20T17:50:09Z,0,highly appreciate your effort man😊,True
+@youhannvarghese3468,2021-02-20T11:42:09Z,0,Can't wait for the next video(been waiting since the day it was uploaded):(,True
+@mim_tezar,2021-02-18T00:15:37Z,9,"Ohhh noooooo, it ended in a verrryyy interesting part!!!! damn, I can't wait!",True
+@DoodleHump,2021-02-16T17:06:58Z,0,Video Idea: Kalman Filters from Scratch,True
+@stefantobler,2021-02-16T06:40:20Z,1,"Really love this series, super high quality, clear explanations. Great way to learn neural networks.",True
+@t5youtube483,2021-02-13T19:56:22Z,0,Hey there! i wanna learn how to make a smart web scraper but i couldnt find a source for that i use slenium and pytorch i'd be glad if u could help me thank you for all you did teach me up to this point,True
+@Ceelvain,2021-02-13T01:48:48Z,0,"Hm... No, a neural network does NOT output a probability or a confidence and even less a distribution. You'd have to use a bayesian method for that. The fact that it outputs a real number instead of a discrete label is merely a quirk of the calculation. It has no true meaning. It might be convenient to think of a neural network as outputing a probability. It allows to use statistics and probability math tools like the log-likelihood or the cross entropy. But you have to take the results of those tools with a grain of salt since your network does not output a probability. Methods to optimize a neural network directly from the binary labels likely existed before the widespread of gradient methods. The original Perceptron had its own optimization method which did not rely on differenciating the whole network. Nowadays, people still work on the topic of gradient-free optimizations. Relaxation is the trick of taking an integral optimization problem to the Real numbers. It's pretty common in operations research. This allows for an easier analysis and for the application of continuous optimization, which gradient methods are part of.",True
+@dfgaJK,2021-02-12T01:24:42Z,1,"Rope us in with good quality free vids. Get us invested with our time waiting. Then make us pay for the book, to find out how it ties together into a full neural network. ;(  I'm sure the final episodes were recorded months ago and are being posted by some normi. Whilst big brain Sentdex is off, raking in the millions, working in marketing at a megacorp. :D",True
+@go_better,2021-02-11T17:35:11Z,0,Thanks for the episode! Waiting for continuation!,True
+@evasiveplant7599,2021-02-09T03:31:06Z,0,Nooo! I've caught up with the series,True
+@glitchypriest3462,2021-02-08T12:39:45Z,0,"Amazing series. Thanks! I am real new to the concept, so I have a question that might be obvious.  Is it possible to treat these networks as 'functions'?  E.G let's say I want a system to identify what animal is in the picture. So first network I train, would be only to see if there's a biological creature in the picture. Another will be to categorize if it's bipedal, mammal, fish, etc... Then sub networks, that will categorize species, sex, or whatever more I want.  So the first network is given a picture, if it finds it has a creature in it, it sends the output to the next network, and the next, etc...  Is that possible? To mix and match different networks for different behaviors?",True
+@justsomenamelesssoul8097,2021-02-06T20:20:40Z,0,"Didn't understand a thing in this video but I'll just keep watching 😂 Also, what is that huge ""E"" thing you show in formulas? I didn't have that at high school...",True
+@iRuthless,2021-02-05T21:58:36Z,0,"Amazing video, clear explanation and I was able to follow along with the Book. Waiting for the next one! Chapter 5",True
+@nktthegreat,2021-02-05T20:13:22Z,148,"""Categorical Cross-Entropy is called Categorical Cross-Entropy because, first of all, it sounds... COOLER.""  Wiser words have never been spoken.",True
+@isabelgoos6646,2021-02-05T16:58:08Z,0,"Is it approximately 1 video per month? They are really useful, already waiting for those to come :)",True
+@dr.merlot1532,2021-02-03T22:58:44Z,0,Very good introduction to nonscientists. Thanks Mr Snowden.,True
+@tecknowledger,2021-02-02T16:37:07Z,0,Excellent! Thanks!,True
+@omererylmaz3619,2021-02-01T16:42:45Z,1,Part 8 please:),True
+@baldeaguirre,2021-02-01T06:26:22Z,1,when will the next episode be released?,True
+@paperfavours8297,2021-01-31T15:44:17Z,1,"Ok guys, I have bought the E-Book, here goes! I will be back next week! Thanks Harrison!",True
+@wailantirajoh3052,2021-01-30T06:08:25Z,1,coming back here after watch snowden xD,True
+@boenglover2593,2021-01-28T21:59:37Z,1,CONGRATS ON 1MIL!!!!,True
+@fizix137,2021-01-27T22:53:06Z,0,Thanks for the video good stuff!  Can't wait to backprop!!,True
+@Tridentor,2021-01-27T15:56:09Z,0,"hi Harrison, thank you for your efforts - just bought your ebook to support your work!",True
+@kenonerboy,2021-01-27T08:45:43Z,0,"Awesome vid! I got a question though, why not simply use the difference between the output and the target output?",True
+@sairasaira6866,2021-01-26T21:18:10Z,0,Can you make the video on automatic data labelling on image dataset file kindlly help me how we can do automatic labelling of random images in dataset file,True
+@IamBab,2021-01-26T16:53:58Z,1,This series has been incredibly helpful. Thank you for the great content.,True
+@nobisstudio8497,2021-01-26T14:20:12Z,0,bro pls make video on this:  bro like this: https://towardsdatascience.com/how-i-used-machine-learning-to-automatically-hand-draw-any-picture-7d024d0de997,True
+@jeetshah8513,2021-01-26T05:10:03Z,0,Do you use manim?  Would be glad if you make tutorials of it.,True
+@Mohamm-ed,2021-01-25T12:00:57Z,0,Amazing series u are the best. How many parts are in this course?,True
+@blmppes9876,2021-01-25T11:39:38Z,0,Can you give me the github pos for this video pls?,True
+@francistembo650,2021-01-25T10:06:13Z,5,"Started undergraduate here,  my masters still here, Phd ? you already know....",True
+@k3nny0r,2021-01-25T07:43:52Z,0,"Don't know if you have done this for purpose but I liked to shorten the loss calculation a little :P  loss2 = -sum( [math.log(s)*t for s,t in zip(softmax_output, target_output)] ) print (loss2)  The Result should be the same.  I'm very curious about how the series is going on! Like it a lot :D",True
+@ramtinnazeryan,2021-01-24T23:57:50Z,0,"Awesome video. May I get more details about the book like author(s), publisher, edition, etc. I wanna ask the university to purchase the book and your link is only providing the title of the book. it's kinda hard to convince them to purchase with a link given to them.",True
+@bohdankhv,2021-01-24T23:05:04Z,0,How many episodes is this series gonna have?,True
+@robinferizi9073,2021-01-24T22:56:30Z,7,Would you consider making a GANs from scratch series after this one?,True
+@Xaminn,2021-01-24T20:45:05Z,0,"So, you're telling me there's a chance!",True
+@Al-Munqith,2021-01-24T20:25:18Z,0,how can i get contact with you please because i need you in work,True
+@saisaran5709,2021-01-24T17:35:44Z,0,Congratulations on 1M subcribers ..,True
+@paperfavours8297,2021-01-24T17:02:15Z,1,"Excellent tutorial, cant wait for the next one!",True
+@python1108,2021-01-24T12:06:35Z,0,Loved it!!,True
+@yannic2248,2021-01-24T11:44:28Z,1,"Wish I could like and subscribe two times, can't wait for the next video!  Also congratulations for 1Mio Subscribers :)",True
+@anonymous-ds3mc,2021-01-24T10:31:26Z,2,I love you! <3,True
+@benjaminkispal7515,2021-01-24T09:18:00Z,0,"the convention in math is: log is based 10, ln is based e programming languages name their function of ln however they like",True
+@siddharthasarmah9266,2021-01-24T09:08:02Z,0,"Congrats, your channel hits 1 million subs",True
+@sgreener,2021-01-24T08:23:52Z,4,"This series is some cracking good advertisement for the book, I am thinking about a purchase myself",True
+@_ravisingh,2021-01-24T05:55:29Z,0,The Prodigal Son Returns,True
+@ahmadtarawneh2990,2021-01-24T05:47:01Z,0,"Very nice, I bought the book and it is indeed very useful and intuitive. I would suggest to make the videos a bit longer particularly at the optimisation section (gradient decent). Many thanks to you, brother!",True
+@programming_hut,2021-01-24T05:25:01Z,1,congratulations for 1M 😍,True
+@transistorbrains,2021-01-24T01:08:27Z,24,"When I see log (with no base explicitly declared), I immediately think of the common log, which is base 10. I use ln for the natural log (base e). Programming uses log() as natural log. I think that is why people can get confused so easily on logarithms",True
+@szeyusim1034,2021-01-24T00:05:24Z,0,"Waiting this for so long,  congrats on  1 million subscribers",True
+@leonardobruno3953,2021-01-23T23:20:14Z,1,"Great, it is really good to watch while reading the book along. Although I can't access the google doc version, my google docs e-mail is different from the one I used to buy it, so I still can't enter the group with it :P",True
+@iagorhuda6558,2021-01-23T23:17:26Z,0,how I waited for that day..,True
+@splch,2021-01-23T22:28:22Z,0,these videos never miss... theyre always best in class :) congrats on the big 1M!,True
+@alonelay,2021-01-23T22:18:41Z,0,finally,True
+@ahmedabushama4024,2021-01-23T21:05:03Z,0,"Please in ur next ep8 give us more explantion on np.clip(y_pred, 1e-7, 1 - 1e-7) and len(y_true.shape) == 1",True
+@anthonyashwin3457,2021-01-23T20:56:01Z,0,Thanks dude :D,True
+@muhammadaliyu4955,2021-01-23T20:34:24Z,0,Please which software do you use for animation?,True
+@MikeSaintAntoine,2021-01-23T19:32:49Z,0,Great video! I've been using neural nets for years but feel like I didn't really understand what was going on until I came across this series.,True
+@danielniels22,2021-01-23T18:52:50Z,0,"hello sir, thanks for the tutorials so far... I'm new into your channel. I wonder if i can know what is your major, degree, or something like that? sorry for my bad english, thank you sir ☺",True
+@excrytech7586,2021-01-23T18:43:17Z,0,congrats on 1 mil :),True
+@fassoyangce1075,2021-01-23T18:27:37Z,1,"Just finished reading your book which I got for my bday! It's so awesome. The best, in-depth, introduction book to neural networks. As a mathematician, I was familiar with all the math concepts which the book covers, but nonetheless, it's nice to see different approach rather than strictly mathematical terminology. Keep up with amazing work! Really enjoying the upcoming video materials!! 💪💪",True
+@sonoVR,2021-01-23T17:55:00Z,2,"Thank you! I've been following this series for a while and although I do understand backpropagation and loss already in fully connected layers it's also very good to see it from your angle, you simplify and explain things in such a way that makes it even easier to utilize, will you be doing a backpropagation coding example for convolutional networks as well? Keep up the great content!",True
+@harshithp3007,2021-01-23T17:46:32Z,0,Now I am eagerly waiting for the next video 😍😍,True
+@darshilpatel7287,2021-01-23T17:45:16Z,0,I got the book 3 days ago.....and omg the quality is beyond my expectations from an individual (i know 2) auther...you made a lot of effort...thanks....,True
+@DevOpsJourney,2021-01-23T17:20:23Z,1,Implementing Neural Networks in my next devops project.  Thanks for the video and the great book sentdex!,True
+@jimmiemunyi,2021-01-23T17:03:07Z,1,This content couldn't have come at a better time. Thanks Sentdex,True
+@judedavis92,2021-01-23T16:59:56Z,0,Why aren’t I an awesome human?,True
+@qtptnqtptnable,2021-01-23T16:46:33Z,0,"Trying to buy the book. It doesn't accept my Spanish credit card even though I have money on it (It is very hard to get a Debit Card in Spain, stupid I know, but it's what it is).",True
+@jrbrjfnd6948,2021-01-23T16:46:18Z,0,Happy 1 MILLION,True
+@TheRelul,2021-01-23T16:42:22Z,0,NNFS army assembly call,True
+@georgebassemfouad,2021-01-23T16:41:29Z,3,Firstly congrats to 1M subs secondly I like to ask is optimisation with genetic algorithm is worth it or not?,True
+@qtptnqtptnable,2021-01-23T16:35:27Z,6,"High quality has been always a constant on your videos, but with these series you've reached the sky of AI self-learning people. Thanks a lot! Everything was perfectly explained! I'm buying your books soon!",True
+@rpraver1,2021-01-23T16:20:28Z,0,So when can we expect NEFS (Neuro Evolution From Scratch)? Fully connected and NEAT... Your last book is great. I can hardly wait....,True
+@harmitchhabra989,2021-01-23T16:08:17Z,3,Do you use 3b1b's program to animate this stuff?  Again thanks for the insane quality! Appreciate the efforts.,True
+@adityataggar05,2021-01-23T16:00:29Z,0,Thanks for coming BACK AGAIN SENTDEX !!! SO EXCITED FOR NEXT VIDEO,True
+@waleedrazzaq2994,2021-01-23T15:56:59Z,0,Sentdex you are the best.,True
+@CreeperSlenderman,2021-01-23T15:55:15Z,0,"Hi sentdex, i just opened subscriptions tab and the vídeo popped wow",True
+@febinthomas1133,2021-01-23T15:54:02Z,0,Can someone tell me how many more episodes will be there? I want to start this series when all the videos are uploaded.,True
+@robinferizi9073,2021-01-23T15:50:32Z,11,Your explanations are so good. Also are there times when you would use something different to a neural network?,True
+@DataProfessor,2021-01-23T15:49:34Z,4,"Wow, a couple of seconds of the video's release, we have 8 comments already. First data scientist here? 😆",True
+@eazye7059,2021-01-23T15:48:32Z,8,What do you think about Vladimir Putin's palace?,True
+@nirmaljohnson,2021-01-23T15:48:28Z,1,Hey Snowden,True
+@tylerpotter8460,2021-01-23T15:48:26Z,3,Let’s goooooooo! You just made my weekend man,True
+@mrfrozen97-despicable,2021-01-23T15:48:11Z,117,Finally it's here. Thanks Snowden.. Hugely awaited. I really appreciate the quality of content and the effort you guys put in it.,True
+@tgsoon2002,2021-01-22T10:10:00Z,76,This is as torture as a cliff hanger( ep8 not out yet),True
+@shmarvdogg69420,2021-01-21T21:57:35Z,2,first dog here,True
+@Stinosko,2021-01-21T20:39:05Z,3,First bot here! 👋,True
+@HT79,2021-01-21T20:31:03Z,2,First human here!,True
+@whoisabishag3433,2021-01-21T20:27:57Z,4,"Hello""!""",True

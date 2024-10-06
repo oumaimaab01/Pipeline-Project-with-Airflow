@@ -1,0 +1,23 @@
+author,updated_at,like_count,text,public
+@DheemanSaha,2022-01-12T00:50:11Z,0,How to figure out the attributes under the comment json? Are the attributes similar to the actual post?,True
+@ikennannodim7161,2021-11-12T13:49:42Z,0,does anyone know how to export this data to a csv file after crawling thanks,True
+@TheMeltone1,2021-02-13T22:33:29Z,0,What is the best way to store comments and replies in a list or dataframe? Thanks!,True
+@jinfeizhu4893,2021-01-26T21:12:16Z,0,You are amazing!!! Thank you so much!,True
+@TheMeltone1,2021-01-19T01:22:02Z,0,Could you explain how to prepare comments to be input into the nltk sentiment analyzer?,True
+@DivyaPrashanth,2020-11-12T22:35:14Z,0,is there a way to set the locations on this API .. so i only get comments from say UK etc,True
+@mehedihassan589,2020-02-21T23:44:07Z,0,Please check your email bro and  i just send you a mail,True
+@akhilraheja1268,2019-05-14T16:21:36Z,0,"I have a quick question. Like you are pulling threads with just comments, does the API allow to pull the date posted for each comment, the username for the person who posted it along with the printed comments?",True
+@ggsuicided,2018-07-21T00:23:02Z,44,"Hi Sentdex! Just letting you know if you print a good amount of comments, you're eventually bound to hit an error with encoding - because people use emojis and whatnot, however rarely.  When printing comment.body, I ended up replacing it with ""print(comment.body.encode(""utf-8"", errors='ignore'))"".  Hope this helps anyone with the same error!",True
+@charimuvilla8693,2018-06-10T00:58:57Z,14,"Hello nice tutorial! I figured out the error you got.   *submission.comments.replace_more()* applies changes directly, it doesn't return the result (it returns a list of MoreComments instances that were not replaced, that's why you got the error, you called .list() on a list). You accidentally assigned this to ""comments"" and confusion started. *submission.comments.list()* returns a list with the Comment instances (you can't call .replace_more() on that it's just a regular list)  So the right way to do it would be this:  submission.comments.replace_more() comments = submission.comments.list() And now you have your list.  As a final note help(submission.comments) gave me all the info to solve this. help() is like dir() but also gives you tons of info",True
+@joplin182,2018-03-25T23:20:45Z,1,"Hey, thank you for this tutorial. I wanna know how can I (1) have a random selection of tittles and comments of a subreddit, (2) retrieve tittles and comments from a time period (last 6 monts, etc.)",True
+@TheKukuga,2018-03-06T06:30:19Z,1,"great tutorial sentdex!, just would like to ask if i want to get the comment replies by replies from parent to child rather than the one we have here parent to parent how do we do that ? like the one we have is  parent parent ..... child .... more child where i would want to get a  parent child more child ..... parent child more child .... so on and so forth ?",True
+@Judith2295,2018-02-15T10:07:52Z,1,This helped a lot!,True
+@SuperGari2,2018-01-15T17:04:13Z,3,ImportError: No module named 'praw'?,True
+@jonnypanteloni,2017-08-31T10:25:29Z,1,Welcome back boss.,True
+@mkoller,2017-08-10T01:09:53Z,0,What does print(20*'-') do?,True
+@ktmn9998,2017-08-09T21:36:27Z,3,Could you remove the deepest frequencies from your audio? I don't know if its outside noises or you baning into something.  Im watching on a tv with 4 big speakers and someone keeps constantly banging on my walls when i watch your videos x),True
+@KronenR,2017-08-09T16:28:35Z,1,"Maybe you should say that when you don't know how many loops you need, the best solution will most likely be to use recursion.",True
+@dippatel1739,2017-08-07T16:23:35Z,0,awesome video! do video of competitive coding,True
+@eruditebishop4627,2017-08-07T14:16:26Z,2,can i call you steave,True
+@ContraFidem,2017-08-07T14:06:45Z,0,What IDE do you use?,True
+@doublegrey.broken,2017-08-07T13:45:28Z,0,Cool video! Thank you,True

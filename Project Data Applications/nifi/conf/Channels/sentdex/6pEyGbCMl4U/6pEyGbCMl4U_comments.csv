@@ -1,0 +1,49 @@
+author,updated_at,like_count,text,public
+@nadasliem4805,2023-05-28T18:29:05Z,0,How can I show the accuracy and loss plots on the tensor board?,True
+@tejasdeo1749,2023-02-20T07:15:44Z,1,"Hello, Is there an equivalent code for TensorFlow 2.0?",True
+@sahibedam6818,2021-11-11T00:04:21Z,0,"Hello, thank you very much for this very wonderful series. I only ask you to add the automatic translation, it is very useful for me. Thank you",True
+@parthshah2298,2021-10-10T15:57:18Z,2,"Doing my final year undergrad project on carla, this helps so much thanks :)",True
+@ishansoni9864,2021-09-27T14:06:29Z,0,If it is executed on normal device we may expect about a weeks time for training and execution ?,True
+@hosseinroosta5154,2021-06-09T20:34:17Z,0,Good job. Please consider subtitle for ur videos. Thanks,True
+@vikasmevada3190,2021-05-05T15:36:31Z,0,Guess what size of weight files after 6 days of training,True
+@neuron8186,2021-03-04T08:11:27Z,0,okay i need 2 years to train almost this much,True
+@PLVILE,2021-02-28T13:18:38Z,2,did anyone have a problem with running the script available from Daniel's repository?  The script runs but nothing happens.,True
+@deojeetsarkar2006,2021-01-11T06:29:54Z,0,"after all this, i came to know, this training is out of my reach, guess i still live in stone age now.",True
+@anilkumarch91,2020-11-01T11:22:51Z,0,@sentdex - question.. Instead of feeding raw image data to the dqn agent.. What if we use raw data to create semantic segmentation map and pass it into dqn agent.. Kindly share your thoughts..,True
+@timos.6241,2020-09-03T09:11:10Z,0,"Hi Sentdex, thanks for the amazing series! Have you considered Offline Reinforcement Learning to face the ressource problem of data generation while training?",True
+@brianhourigan,2020-08-31T12:45:21Z,0,"Hi the loss explosion you are seeing is called catastrophic forgetting and it's a major problem with dqns. Did you try double dqn, distributional dqn or dueling dqn to improve the dqn? Also a2c would probably work better but computationally it may be more expensive in such a high frame rate environment   Also not sure if CARLA has computer vision component but putting in extended kalman filters might work.",True
+@user-fq3un3qy1x,2020-08-22T15:38:58Z,0,"Has anyone tried training such model? What were best parameters, I mean learning rate and so on?",True
+@gorjantodorovski4803,2020-08-01T21:17:55Z,0,"Why do you use linear function on the output of the NN and MSE loss, when you have discrete actions? You should have softmax act fn on the ouput and use crossentropy for the loss.",True
+@kasramokhtari5423,2020-05-03T06:48:08Z,0,"That was a great great series on RL I've ever seen. Thanks a lot, @sentdex. I have one request tho. Is it possible to record one video for RL for POMDP problem?",True
+@Shunteshunte,2020-01-09T15:35:48Z,0,"Hi Sentdex, Can you please do a video on how to control CARLA 0.9.5 with steering-wheel or can you suggest how to make the code provided to manual control using steering-wheel run?",True
+@frate7126,2019-11-18T15:13:37Z,23,"Hi Sentdex,   I'm a research student working on deep-learning algorithms in Carla for my postgraduate thesis. I am very interested in your work and I would really enjoy to talk with you about it if you have some spare time.   Cheers, Francesco",True
+@hamidrezan4494,2019-10-01T06:11:07Z,0,thanks for yuor good education....would u pleas talk about controll of a quadcopter with image processing in python in a virtual world???,True
+@flosset9640,2019-09-25T17:40:16Z,2,"Now that you are done with Q agent now can you try deep learning instead where the agent actually tries to abide by the traffic rules traffic lights, stop signs etc etc..",True
+@joseortiz_io,2019-09-23T03:46:52Z,0,Love it!!! Splendid! Your stuff is awesome man! I've watched so many videos of yours and have learned a bunch. You have inspired me to start my very own YouTube Channel! I have just uploaded my very first video! Have an awesome day! 😊👍,True
+@olivermidbrink5958,2019-09-20T23:25:12Z,0,"I'm not sure how your model looks like so maybe you've thought about this, but why not have separate models for different tasks? Perhaps a lane detector,  car/sign detector, and a planning model for planning path and action of the car.",True
+@Rohitsingh2410,2019-09-20T04:46:36Z,0,"Maybe I sound boring as you always try to teach us fascinating projects, but can you please make a tutorial series on Data structures and algorithms?😀😀😀😀😀😀😀😀😀 Bcz they are the bare bones of any coding interview.",True
+@lukerhoads,2019-09-19T11:57:34Z,0,Jeez 96 gigs of vram,True
+@azhariamin8158,2019-09-19T10:19:01Z,1,"Hey sentdex, can your share your opinions on should either we use behavior cloning or reinforcement learning for self driving car?",True
+@aardapel112,2019-09-18T09:16:16Z,1,"Great series, reinforcement learning content is what i love to see.",True
+@chrisdepalma6844,2019-09-18T01:47:11Z,1,Have you considered NEAT/Hyperneat or other evolutionary strategies? Did u use the pointcloud data?,True
+@Pythonenthusiast,2019-09-17T10:05:08Z,2,"You're one of my idols for sure! Although my background is not in programming, but in accounting & finance, I did learn a lot from your channel. I've learnt a lot from you and I'm working on my own projects now. I would like to know how you approach the recording a tutorial process. Do you take some time to lay the structure and the content that you would like to cover or do you do it spontaneously?   Keep up the good job!",True
+@tiefkluehlfeuer,2019-09-17T09:51:36Z,1,Did you try to run the GTA5 models with carly? Your results in GTA were pretty impressive and I wonder how they would generalize to Carla.,True
+@17Codiferus,2019-09-17T06:23:28Z,0,"I see I'm not the only one sending all the initialization console spam so devnull, lol",True
+@tdungpfiev,2019-09-17T03:43:00Z,3,can u public trained models ?,True
+@StuartHolliday,2019-09-16T19:27:13Z,2,"Thank you for sharing this, very interesting. Have you tried adding channels which are the dense optical flow vectors computed on the image? This would encode almost all of the temporal information directly.",True
+@kristoferkrus,2019-09-16T18:54:35Z,0,"Nice job! :D Do you only use the reward signal to train your network, and is that dense or sparse (i.e. how often is it non-zero)? I think you should try training your network using unsupervised and/or self-supervised learning as well, in order to speed up the training. For the unsupervised part, I would use a ladder network (or similarly), which would in practice make the training procedure semi-supervised. For the self-supervised part, you could use some form of artificial curiosity (e.g. the one described here: https://openai.com/blog/reinforcement-learning-with-prediction-based-rewards/ ). It will be exciting to follow the progress!",True
+@planktonfun1,2019-09-16T18:14:33Z,1,"Any time soon an AI will have enough training and will just kill itself, just like most asian students :D Also I think your agents are half blind or something",True
+@pafnutiytheartist,2019-09-16T18:10:33Z,2,"Can you please try your best model with highrer framerate (running only one client), epsilon of 0 and unlimited episode (drive untill it crashes) to see how well it really does?",True
+@cameron3734,2019-09-16T16:25:29Z,0,Have you seen Open Pilot? I wonder if the agent could be ported to drive Carla. https://github.com/commaai/openpilot,True
+@mitesh821993,2019-09-16T16:15:02Z,2,Finally 😍,True
+@sqwekyrcon1049,2019-09-16T15:58:49Z,0,Hey do you think you could help me out with something on python?,True
+@FuZZbaLLbee,2019-09-16T15:46:20Z,0,Maybe there is a city simulation for unity. Then you could use UnityML (with proxy policy optimalisation) and imitation learning.,True
+@theunboxingexperience3480,2019-09-16T15:35:59Z,1,Interesting,True
+@jackflynn3097,2019-09-16T15:20:44Z,14,why not use ddpg or ppo or a3c for continuous control? as DQN is not good for continuous action and state space. I would love to see you put a3c in Carla. It's gonna be awesome!,True
+@OfficialYunas,2019-09-16T14:28:02Z,1,"You can also try to track the kl divergence or change of q values while training, to see when your agent changes by what factor",True
+@dipampatel5622,2019-09-16T14:16:46Z,1,"If I'm not wrong, I think the twitch streaming is of the training phase. Why didn't you do a test run with the trained model? I'm pretty sure it would do well.  Also, have you checked out the AWS DeepRacer? It's also an RL based challenge where you train the car in their simulation environment and compete for the shortest time to complete the track. It's super fun and you only have to work on the reward function unlike Carla where you have to code from scratch.",True
+@OfficialYunas,2019-09-16T14:15:48Z,0,"""Usually a loss explosion signals something is fundamentally wrong"". Can you give evidence for this conception or some reference where this is said. I can not confirm this. Not with DQN nor with other algorithms",True
+@Alphabet_-_,2019-09-16T14:06:09Z,0,<)>,True
+@kenchang3456,2019-09-14T00:06:47Z,0,"I was thinking, how about modeling sentiment across a 24 hour time period for each day in the week to predict how likely it is that you will post something nasty based on the time of day + what weekday it is?  Although that would be something you could accomplish using the usual statistical methods?!  My point is using ML with time-series data in combination is other factors like weather events and temperature variations.  Boring?!",True
+@Stinosko,2019-09-13T23:24:06Z,31,5 days on a beast pc 🥵,True
+@Stinosko,2019-09-13T23:22:05Z,1,VODs are deleted after 30 days 😉,True

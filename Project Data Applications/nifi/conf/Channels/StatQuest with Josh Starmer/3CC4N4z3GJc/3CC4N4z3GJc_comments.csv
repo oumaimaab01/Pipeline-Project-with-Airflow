@@ -1,0 +1,393 @@
+author,updated_at,like_count,text,public
+@statquest,2020-03-17T17:39:58Z,43,"NOTE: Gradient Boost usually uses regression trees. These are very similar to classification trees, but have a slightly different way to decide how to add branches and leaves. For more details, see: https://youtu.be/g9c66TUylZ4  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@lighter7405,2024-05-18T07:59:47Z,0,"Sorry, I'm not quite sure what the difference is between gradient boosting and ordinal boosting? Because from what I learned in my classes, the example shown in this video is just ordinal boosting.",True
+@ramblingsofadegenerate1174,2024-05-17T13:04:41Z,1,"You got me at ""is this awesome"", ""NO!"" 😭😭😭😭",True
+@Micomicooo-eo5ee,2024-04-30T21:41:42Z,1,YOU ARE THE MVP,True
+@jayantnema9610,2024-04-30T04:37:22Z,1,"Hellooooo! you are josh stammer, and welcome to stat quest :D",True
+@arishrajan,2024-04-28T12:20:45Z,0,"this was amazing .. thanks a lot ...  one addon query ...  in GBDT formula to calculate Predicted value, in addition to the Learning rate (common weight for all models), do we also not have separate weights multiplied to each model?  Learning rate ( r1*M1 + r2*M2  ..........)",True
+@X3rjoff,2024-04-09T14:04:56Z,0,Is the tree made here the same as a decision tree?,True
+@soupconianabundance9003,2024-04-03T13:47:35Z,1,bam,True
+@mayrabg6641,2024-03-25T11:39:09Z,1,That's amazing! BAM!!!,True
+@diadochokinetic3290,2024-03-24T13:27:53Z,1,Very good explanation.,True
+@armandfavrot3210,2024-03-18T19:21:41Z,1,Thanks for the nice work ! Just a question though: how do you build the trees ?,True
+@MrMiciPOL,2024-02-12T13:42:25Z,0,The algorithm 1 from the Friedman's paper differs or is it the same? I dont't understand from where did You take this formulas?,True
+@trisnaamanda9622,2024-01-30T13:02:40Z,0,"Hello, I'm interested in gradient boosting and more about it, especially Stochastic Gradient Boosting (SGB) which the SGB Classifier algorithm is not much discussed in journals or research articles. And maybe Statquest could be the only YouTube channel that can explain what Stochastic Gradient Boosting is, especially for classification. Thankyou and have a good day😊",True
+@simonulrichkam9657,2024-01-02T17:33:10Z,1,Only that intro got me liking and commenting ❤😂,True
+@debanjandas7738,2024-01-01T06:12:43Z,1,"Hi Josh, when can we expect the The StatQuest Illustrated Guide To Tree Based Learning to be published, where we can enjoy all these concepts in colorful printed pages? 😛",True
+@idandan9999,2023-12-30T11:24:54Z,0,"Hello, Love your channel! Quick question, how do you build the first tree in terms of nodes and leaves? how did you decide which feature is the root and what are the values and criteria?",True
+@pratik3476,2023-12-17T07:28:53Z,1,Thanks for painting such a clear picture. It really helped!,True
+@himanshuparida8813,2023-12-06T16:28:49Z,0,"@statquest At 4:57 you said that Gradient Boost builds “fixed sized trees” based on the previous tree’s error. However, at other places, I read that the subsequent trees could have different size(depth and no. of leaves).  Besides, the scikit-learn documentation for GradientBoosting shows that we can specify parameters like max_depth, max_leaf_nodes which suggest that the trees can grow upto these configurations. So, each tree might have different size. Please let me know if you meant anything else by saying “fixed sized trees”.",True
+@iurgnail,2023-12-03T07:20:36Z,1,i wish my prof is half as good at explaining concepts,True
+@honza8939,2023-11-04T07:26:36Z,1,I'm surprised how easy it is. Thanks :),True
+@seolyeong,2023-11-02T07:48:55Z,1,GOAT,True
+@user-jj3we9jv9i,2023-10-29T16:29:07Z,1,Liked and commented on the video for the YouTube algorithm.,True
+@hhhhh-pb2ep,2023-10-21T16:06:26Z,1,Bro! You deserve the greatest like of all time!,True
+@deepshikhameghwal692,2023-10-17T06:13:39Z,0,How are we building the trees?Using gini impurity index?,True
+@harisserdarevic4913,2023-10-15T02:46:58Z,0,I’ve been trying to apply a gradient boost regression to a problem I’m working on and I was wondering what’s the best place to start on a search for the right hyperparameters (and which parameters are best to modify). I don’t really have a good intuition on the right places to start looking besides the default settings,True
+@user-fi2vi9lo2c,2023-10-14T07:33:44Z,0,"Dear Josh, I have a question regarding this video. How do we build a tree to predict the residuals? Do we use SSR to do that?  Is everything like we perform for normal regression trees?",True
+@ghexz7,2023-10-11T08:07:32Z,1,You are making my dream of becoming a data scientist comes true. Thank you so much fron the bottom of my heart,True
+@saurabhchoudhary4572,2023-10-08T08:02:02Z,1,"You are like master oogway, giving life lessons is simple phrases",True
+@ziadadel2003,2023-09-29T21:49:22Z,0,baaam! you are the best,True
+@cherubin7th,2023-09-29T21:14:23Z,2,"Thank you for actually explaining it, and not just ""you would ask a bunch of doctors"".",True
+@user-kr1qg6oo6n,2023-09-07T14:24:57Z,2,baaaammmm,True
+@user-kz6xd8zx2z,2023-09-03T16:06:03Z,1,Thanks! Helps me a lot.,True
+@willw4096,2023-08-30T05:27:23Z,0,2:52 2:58 3:46 3:55 4:52 5:06 7:25 7:56❗️ 8:22 8:57 9:12 9:41 9:57 10:09 11:00 12:46 13:00 13:39 14:28,True
+@mirabirhossain1842,2023-07-28T06:51:58Z,0,"So, it is mostly like we don't want any variance and we want bias to explain things. So we start with a super bias (average) and then try to slowly add variances with it carefully with each tree.",True
+@aneesarom,2023-07-22T05:39:07Z,0,how trees are getting constructed here like how root node and decision nodes are getting selected?,True
+@prathvikgs4406,2023-07-08T20:37:32Z,1,That was a really great explanation ! thank you,True
+@willymccarthy5248,2023-06-22T13:43:16Z,1,'Small Bam' has me dying lol,True
+@harryliu1005,2023-06-12T08:18:31Z,0,"Hi Josh, How do we decide how the first tree should be build? by gini index or some other mesurements ?",True
+@priyanshujaiswal9563,2023-05-23T14:08:50Z,0,I hate this channel to my very core. The amount of discomfort that song in the start makes me feel is out this world. Tatti khao :D,True
+@inllac8832,2023-05-22T13:19:49Z,0,"thank you so much for the awesome video,! but i have a question about how you build the tree? for example, why is the( female+ less than 1.6 m, male+ color blue) together and (not male+less than 1.6 m,female+ not color blue ). will the combination of the features make a difference?",True
+@amnont8724,2023-05-13T12:23:59Z,0,"13:41 Hey Josh, how do you determine that adding the trees wouldn't reduce significantly the size of the residuals? Is there a rule of thumb? Also, speaking of rules of thumb, is there one such rule for determining the learning rate? Thanks!",True
+@aishwaryadevbanerjee6037,2023-05-05T04:41:58Z,0,"Amazing video as always Josh.. Thank you :)   I just had a small question, the tree that you make after finding out the first residual errors (at 7:35), the variables used to split are also decided using the gini impurity technique correct?",True
+@redsapph1re,2023-04-29T16:04:18Z,0,Thanks for all these amazing videos. Do you plan to do one on LightGBM in the future? Seems to be becoming one of the more and more popular gradient boosting techniques.,True
+@spevo51,2023-04-16T23:09:42Z,0,"This is a great video, but why would you use ""Weight"" as a variable name?! It makes it much more confusing than it has to be",True
+@sampathkodi6052,2023-04-13T09:13:31Z,0,So in every step you get the tree by using desicion trees concepts and this concept is just like forward stagewise methods?,True
+@martinmaati5127,2023-03-17T08:20:17Z,0,how will we incorporate women who are greater than 1.6M using this regression tree model,True
+@timlu5606,2023-02-11T07:16:47Z,0,"At 10:53, the residual should be (76-71.2-0.48) rather than (76-71.2+0.48)?",True
+@BogusArtem,2023-02-07T15:54:57Z,1,Thanks!,True
+@mpinmpin9935,2023-02-07T05:07:53Z,1,15:12 small bam,True
+@kevinramos9587,2023-02-02T05:20:27Z,1,TRIPLE BAM!,True
+@lucaalbertazzi5963,2023-01-20T09:07:26Z,1,Grazie.,True
+@_zantetsuken_,2023-01-11T23:48:42Z,1,Hey Josh!  your videos are the most valuable videos on youtube about statistics and ML that i know. Thank you for your engagement! I have a small question about the feature selection: I've taken a look at your video about regression trees and how they select the nodes depending on the SSR. Is that the procedure that is done in GradBoost as well? So the root node with the lowest SSR is used in each tree-making iteration. Then the feature is used which minimizes the pseudo residual the most?  Edit: Got it now by reading the comments. Thank you!,True
+@Nekroz05,2023-01-03T15:26:22Z,0,is pseudo residual also called the gradient?,True
+@tie6666,2023-01-02T23:34:42Z,1,it's not a good idea to use weight as a feature (especially as the response) in an example,True
+@aakashkarmakar7478,2022-12-31T06:42:09Z,0,"Hi Josh, just a question, instead of taking avg in the first step can we build 1 regression tree to predict the y values following which the subsequent residuals can be predicted just like your explanation",True
+@jamalnuman,2022-12-21T19:30:27Z,1,Great. Much better than starting by math,True
+@masoudhashemian5629,2022-12-05T13:32:57Z,1,perfect!,True
+@sachinkapoor2424,2022-12-04T17:59:53Z,0,"Hello @josh sir, my name is Sachin kapoor from India. First i want to say a very very greatful thank you you. You are such a phenomenal teacher. You explain each and every topic from very basic to advance level. Recently I bought your book. The best book ever.   I have a request can you please provide me pdf of Gradient boosting or XG boost. It's a humble request. I am ready to pay nominal amount.",True
+@sachinkapoor2424,2022-12-04T17:29:59Z,0,Hey @josh how can i get the PDF of gradient boost and XGBoost.,True
+@chongxj9263,2022-11-04T15:41:31Z,13,Thanks for your hard work producing all these incredible tutorials Josh. I just can't imagine how'd I have learned these concepts otherwise without your videos!,True
+@momoh6696,2022-11-04T13:50:20Z,1,getting me through my degree🥺❤,True
+@yurobert3007,2022-10-21T21:24:52Z,1,I found boosting conceptually harder to grasp than bagging and random forest. This video explains each step with nice clear graphics with just about right pace! Thanks for the great efforts you have put into making this brilliant work.,True
+@mrcharm767,2022-10-19T03:58:15Z,0,"hi josh , great video as usual . dont u think learning rate is very smal ?? could it have done good job if it was 0.5 something",True
+@prantikborthakur2053,2022-10-07T10:20:56Z,0,"Disappointed...You did not sing ""bip boop bipi boop booda booda bip bip boop"" while populating the remaining residuals...",True
+@malinkata1984,2022-10-06T08:18:57Z,1,"A fun fact -  you pronounce 'S' in exactly the same way as Ian Somerhalder in The Vampire Diaries. As I have said previously, your videos are awesome! Thank you so much for making the life of so many people easier.",True
+@Josh-di2ig,2022-09-15T15:50:48Z,2,"thanks for another amazing vid. watching this video alone improves my understanding not only about the model, but also about hyperparameters which makes me better at ML modelling. lucky to have you in the community.",True
+@ZnanoG,2022-09-06T10:59:53Z,0,what do you mean by saying that gradient boost scales the trees?,True
+@mohammadelghandour1614,2022-08-19T14:47:44Z,0,"In 7:37 How do we choose the root node? why ""Gender"" was used to split the data?  is it according to the  variable that best splits the data?",True
+@sidindian1982,2022-08-17T07:52:21Z,0,"Sir ., There is the mistake While considering root node in genger - F .. here 1.6 value should be mentioned < & = to 1.6 not just < 1.6 .. as  the Value record from Colum 2 in data set does not suffice the conditions ..,  if its <1.6 then  how the record is consider in DT ??? .... right condition is <& = 1.6 then the column Female record fits in the DT",True
+@preet111,2022-08-11T13:34:27Z,1,triple bam!!,True
+@erfanmoosavi9428,2022-08-10T07:27:52Z,1,Thanks for your interesting videos!,True
+@bryanparis7779,2022-08-07T20:50:14Z,0,What is the measure we use in splitting leaves in order to construct a new tree? Gini index? Information Gain?  For instance in XGBoost we have similarity score.,True
+@aly7401,2022-08-03T09:28:10Z,2,"Thank you very much, I've got the intuition of gradient boosting. MEGA BAM🥰",True
+@ayush6439,2022-07-29T09:55:43Z,1,BAM!!!!!!!!,True
+@debanjandas7738,2022-07-25T14:09:41Z,0,"Thanks a lot for this wonderful video. Is it possible to include random forest, adaboost, gradient boost and xgboost under the decision tree section in the future editions of the illustrated machine learning book. That would be really helpful.",True
+@anjalisetiya3149,2022-07-24T11:32:14Z,0,"Hi Josh! Thank you for the wonderful explanations. I have a doubt about one of the extensions of gradient boosting algorithms LightGBM. You said that people generally use num leaves to be b/w 8&32, I have seen people using larger number of leaves up to 200-300 even with max_depth around 8-12. I am myself working on a  dataset with around 10,000 samples and 3000 features so In this case how should I decide num of leaves and max depth. Hope you answer, will be really helpful. Thanks",True
+@bodybro9195,2022-07-16T10:17:43Z,0,how are u deciding the perfect tree  i don't get it. Or any tree can be taken,True
+@chaitanyat1780,2022-07-09T14:00:13Z,1,You made my day.....thanks,True
+@wert572,2022-06-24T15:05:47Z,0,"Hi, Josh thank you for this gradient boosting 101 lesson. As most of us are aware, bagging is another popular ensemble method. Is there any thumbrule or checkpoints to follow when choosing between the two ensemble methods?",True
+@LITHIUMINWATER,2022-06-20T10:43:49Z,2,"""Then it scales the tree"".-Awesome animation and great video as always!",True
+@lalithahemanth4357,2022-06-16T11:10:41Z,1,amazing videos. thanks for the playlist. I learnt a lot!,True
+@ashishjadhav7752,2022-06-01T00:40:56Z,1,This was the first video which I've seen from your channel and believe me now i can't get rid of following u.. thankyou for such a nice explanation..,True
+@auslei,2022-05-31T02:50:02Z,1,Awesome video as usual. :),True
+@aleksandartta,2022-05-26T09:00:26Z,0,"Do you know if exists python code how we can visualize a gradient boost for regressor, as you did for the decision tree? Thank you in advance",True
+@koderr100,2022-05-13T20:05:27Z,1,I like these BAMs. Improves understanding a lot!,True
+@chajath,2022-05-12T18:34:16Z,1,Thank you for this! I downed some 80k for a master's degree and your video is much better.,True
+@knowledgedistiller,2022-05-11T05:54:06Z,0,Are the 4-leaf trees at each step created using the method you outlined in the regression trees video?,True
+@yscosta,2022-05-03T02:37:19Z,0,Hello Josh!!  How are you doing?  I'm writing a paper to be launched on LinkedIn about drilling data regeneration when sensors fail.  I'd like to cite your video as a complement if you don't mind.  Let me know if you authorize me to cite Gradient Boost Part 1,True
+@jakobsalomonsson1368,2022-04-25T08:12:03Z,1,Fantastic video.,True
+@satviksrivastava6632,2022-04-24T07:41:34Z,0,what is Gender = F means???,True
+@amanagarwal6940,2022-04-23T08:25:24Z,1,"Hey Josh. Great video again. By the way, how do we know that we have got enough trees to stop, because i think that if the no of trees is too high, we'll end up overfitting anyway. Thanks.",True
+@nicolasreinaldet732,2022-04-13T15:20:29Z,0,"If i can make a question, wont all the N-trees have the exact same structure just with diferent values on the leaves ? I mean if 2 values were close in the first tree them their pseudo-residual will also be close and so on.  Just curius about that thank you.",True
+@nicolasreinaldet732,2022-04-13T14:05:53Z,1,Be me:  2 years in college doing a physics bachelor.  Pause everything to spend some time with my father in Germany.  Get a internship in a lab at a very good university.  Be given the task to research in the topic of AI capable of getting data from a experiment and give advice on how to improve the experiment.  On the few papers close to this topic learn about bossted tress.  Come here to learn about the topic.,True
+@pawantech101,2022-04-03T13:49:45Z,0,"Thanks for the nice video!!! But have one doubt on How Gradient Boost will work during live data, as we are not having the residual error?",True
+@mingyuli4865,2022-04-01T13:50:56Z,3,"Every time I try to learn new machine learning algorithm, I will firstly check your channel. You really helped me a lot!",True
+@teelee3543,2022-03-29T10:35:15Z,0,"Hey Josh, at 5:38 of this video, the bold character ""Gradient Boot"" should be ""Gradient Boost""",True
+@lotfiholmes6397,2022-03-27T20:33:11Z,1,Thanks so much!  Please update the decision tree link in the description to the new video,True
+@alrapie8,2022-03-25T04:14:11Z,0,How to decide the root node from the features?,True
+@ruihanli7241,2022-03-18T03:13:08Z,0,gradient boost also use methods like gini to decide to use which condition to split the tree?,True
+@hongkyulee9724,2022-03-17T11:32:47Z,1,"I was going to give up to study machine learning, but you save me. I will have to contribute to the world like you. Really thank you for nice educational resource...><",True
+@rameshbabu2228,2022-03-04T15:34:24Z,1,"super sir, you are awesome",True
+@janedraw,2022-03-01T09:45:00Z,0,"wow this makes sense than in university lectures  btw, i have a question are we free to choose any learning rate as long as its between 0 and 1? and does the outputs differ?",True
+@k1tajfar714,2022-02-23T14:12:28Z,0,QUESTION: first it was great thank u for the content you make. i just didnt get the prediction part. how we predict a new value with just adding up the trees' outputs? i mean either the trees number should be some number that matches the weight when we add them uptogether or we shoulddo some dividing. thanks for the answers (which willbe up soon probably) and thats it,True
+@cookie6299,2022-02-20T13:34:59Z,0,2.20 gogo,True
+@hyejinlee913,2022-01-31T14:33:37Z,1,Best video I've ever watched. Thanks a lot :),True
+@shashankkapoor2828,2022-01-25T16:44:54Z,2,I cant thank you enough for this amazing tutorial!,True
+@ericzheng2340,2022-01-19T03:53:05Z,0,"Hi, Can I download the PPT?",True
+@algokiddo,2022-01-18T00:05:27Z,1,Great video dude! Thanks! Keep Bamming!,True
+@sandipansarkar9211,2022-01-16T15:50:56Z,1,finished watching,True
+@girlthatcooks4079,2022-01-15T17:47:56Z,2,"Im in love with this chanel, idk how i didnt know about it",True
+@LunaMarlowe327,2022-01-14T08:06:52Z,1,cls,True
+@aweqweqe1,2022-01-08T15:11:23Z,0,"On 11:20 new residuals are not smaller, but closer to zero",True
+@krocodilnaohote1412,2021-12-22T15:40:37Z,1,"Thank you good sir! Your videos are amazing, very helpful!",True
+@ujjwalagrawal53,2021-12-11T13:19:43Z,0,How the outliers make no or minimal impact on decision trees? Also can you explain if the values are missing how decision trees xgboost or lightgbm handles them?,True
+@mau345,2021-12-08T13:38:13Z,5,"great material, thank you :) sometimes, we need to relax, take a step back and look at seemingly complicated things with a simple perspective. I hope more teachers are exposed to this kind of freedom and agility to creatively present their lessons.",True
+@karmelsalah3401,2021-12-03T17:35:10Z,0,wait I didnt get the example where the gender is male and height 1.6 with blue color went to 16.8! plz explain why Gender = F so it will go left ?@,True
+@ruchikamohla2145,2021-11-24T06:49:58Z,0,How to determine the learning rate value?,True
+@linjiahu4387,2021-11-17T08:14:13Z,0,"at 7:35, after compute the average of the weight,  do not understand clearly how the tree is created. please help to explain.  thanks!",True
+@quant-trader-010,2021-11-04T16:22:26Z,6,I really like the contrast between different models that are seemingly similar. It helps a lot to clarify the ideas.,True
+@jpeel36,2021-10-29T23:36:37Z,1,You are a hero. Thanks for such a clear lecture,True
+@kumbharcm,2021-10-21T13:30:57Z,1,Nice,True
+@wadewang574,2021-09-20T15:35:33Z,0,"At 14:08, i have no idea why the third tree will choose a different path from first tree and second tree...",True
+@annwie4435,2021-09-20T15:06:03Z,0,"Dont get the example of 1,7 / Green / Female = 71,2 + FirstTree 0,1*3,8 + 2nd Tree 0,1*3,4....how can you get 70 ?",True
+@omarabdelaty634,2021-09-12T15:51:17Z,0,"I disagree with the bams in this video, unfortunately,  the example was monotonous. I guess the trees would change with much bigger sets and after many many iterations. Then I would say it is a double BAM",True
+@rohitvenkatesan5852,2021-09-11T03:09:05Z,1,The dude is cool! BAM!,True
+@EmilyBoInvests,2021-09-10T14:38:45Z,1,i love your channel! Thanks a lot for providing such good resources to the curious learners :),True
+@adiamirudin430,2021-09-08T18:39:35Z,24,"This is some godlike storytelling, I know myself sometimes skipped/half-understand the mathematical reasoning behind every algorithm, because sometimes its unbearable, too mathematical. You get the essence and storytelling it perfectly! Thanks man! Tha'ts a subs and bell for you!",True
+@adsax1903,2021-09-07T07:49:15Z,1,"this is pure gold, Josh!",True
+@olehsorokin7963,2021-07-30T12:18:52Z,1,Is there a chance you're making a video on Light GBM any time soon? I wanna learn it but really don't want to look for other videos. I really like your approach to teaching it.,True
+@adityaagrawal3576,2021-07-28T05:15:56Z,1,maza aa gya.,True
+@sachadu779,2021-07-27T07:45:26Z,0,"Thank you so much for all, great professor and great channel !  But in my opinion you should stop trying to make it look funny with the ""bam"", it's not very funny and quite embarassing.  Tchuxx ;)",True
+@meysamamini9473,2021-07-09T10:13:18Z,1,I wonder how can someone dislike a great content like this :/// these videos are amazing!!! even a 5 year old kid can learn complicated ML concepts from StatQuest! THANK U Josh ❤️!,True
+@ravikanur,2021-07-07T06:15:29Z,1,BAM!!!! This was super cool.,True
+@parveenparveen9384,2021-07-03T18:08:25Z,1,Thank you. Just Amazing. Made it simple and clear,True
+@ISK_VAGR,2021-06-29T10:37:09Z,1,Amazing.....,True
+@jamemamjame,2021-06-29T08:47:47Z,0,God!,True
+@ranjitprakash1986,2021-06-27T08:20:49Z,1,Bam for Bam,True
+@hamman_samuel,2021-06-23T18:59:13Z,0,"At 7:16, do we calculate Gini index to choose the order of the nodes? (like decision trees) Or do we randomly select the order? (like random forest)",True
+@sachi-4750,2021-06-15T12:13:49Z,1,Thanks you so much Josh,True
+@moushumisikdar198,2021-06-14T15:06:08Z,1,"Finding StatQuest channel ""results in a small(but hugely significant) step in the right direction'"" for ML. Thank you so much Josh!!",True
+@arda8206,2021-06-10T09:58:46Z,1,Watching these videos is the best thing someone can do before jumping into papers and articles.,True
+@SteveSolun,2021-06-09T21:51:32Z,1,7:49 How do you build a regression tree based on categorical and numerical columns?,True
+@61_shivangbhardwaj46,2021-06-04T07:32:24Z,1,"great, great, great video! Thnx sir for great content 😊",True
+@Sandy00749,2021-05-25T13:29:06Z,1,The research papers of the algorithms should consult you to make the video before releasing the paper in arxiv. The papers should contain the links of these videos instead of horrible mathematics formulae.,True
+@maheshgudisa378,2021-05-23T18:44:42Z,1,Your videos are awesome..you deserve much more attention from ML community. Hope you reach more heights and explain us many more concepts!,True
+@praveerparmar8157,2021-05-23T14:05:09Z,1,"Watching StatQuest videos is like multiplying yourself by the learning rate......slowly and steadily, you reach the goal",True
+@shivanshjayara6372,2021-05-13T11:52:57Z,0,@7:55 sir we can directly write the average value of -15.2 and -14.2 in left side of the height<1.6 node na? Like we have done in regression tree where we always take and average...,True
+@8eck,2021-05-12T11:54:06Z,0,9:08 can we see that on a plot anyhow?,True
+@8eck,2021-05-12T11:48:40Z,0,"6:24 is called loss, right?",True
+@nguyenleanh9589,2021-05-09T10:06:39Z,1,thanks for an excellent video,True
+@janmagnuszewski5385,2021-04-29T18:01:06Z,0,"Ok, I got this now. But I have a question: does regularization (ridge and lasso regression) can apply to this too? Or is it completely different?",True
+@DipankarNath,2021-04-26T21:05:34Z,1,Bam! This is the best tutorial on gradient boosting!,True
+@darioarango671,2021-04-21T04:43:02Z,1,You are the Best teacher,True
+@sammitiyadav6914,2021-04-13T07:37:06Z,3,What would I do without your videos? Thanks a ton!,True
+@binbochen1885,2021-03-25T11:55:52Z,1,This channel saves my machine learning!,True
+@RS-fe1hk,2021-03-19T16:05:12Z,0,Hey hi... In Gradient boost Regression while building the trees How is the Best Split found out for each node? (using mse as in Random forest regression?? ),True
+@tymothylim6550,2021-03-16T13:39:12Z,1,Thank you Josh for this very fun video! I really enjoy watching these videos and I learnt a lot on how this is done! The use of specific step-by-step examples makes a big difference in terms of my understanding!,True
+@__krossell__,2021-03-15T23:33:09Z,1,This is the best explanation of the gradient boost. Period.,True
+@reshmachikate5713,2021-03-04T08:58:10Z,0,"Hi Josh, Many thanks for this awesome video series on tree-based algorithms, this gave us a detailed understanding of the concepts. However, I wanted your views on the below points:-  1.Like a random forest, does gradient boost use a subsample of the sample to build an individual tree? If yes, then how it minimizes the error of the previous trees as the previous trees can have a different sample.  2.How does hyperparameter- subsample works in case of gradient boost? 3. Does gradient boost use a sample of features to build a tree? or it builds a tree by considering all the features? How max_feature hyperparameter works?  Your kind help will be very much appreciated.  Thank you !!!",True
+@user-sw9pk3wg5i,2021-02-26T04:30:19Z,0,まとめ　14:28,True
+@matrix4776,2021-02-19T02:49:24Z,0,All those dislikes I can bet that those are Data Camp and Udemy idiots..,True
+@Sbtr87,2021-02-12T14:50:14Z,0,Good material this guy couldn't be more annoying with the stupid bams though!,True
+@jatinsharma9977,2021-02-10T02:41:09Z,0,"Great explanation Josh. Quick Q - based not his logic, we will always get a prediction of weight higher than average wt. How will this work for cases where we have a weight much lower than the average? let's say if someone we had 40kg as one of the records, this model will always give 71.2 + something as the prediction which is far off from 40.",True
+@yashpatil9564,2021-02-08T13:55:48Z,0,Do the number of features  in each tree remain same or are they selected randomly.,True
+@kumarabhishek5652,2021-02-08T10:04:06Z,0,how to choose  branches each time especially if we have high number of features??,True
+@ABEALMIGHTY,2021-02-02T15:14:34Z,0,small bam,True
+@KishanKumar-cr8hs,2021-01-30T12:02:10Z,2,Man !! you are such a gem. Even kids can learn these topic if they refer your videos,True
+@feeelgoood9580,2021-01-27T15:35:01Z,1,the best explanation,True
+@ssooni526,2021-01-25T03:27:08Z,1,Triple BAAAAAAAAM!!,True
+@bhasselgren,2021-01-18T19:05:31Z,1,You are the best.,True
+@bibiworm,2021-01-15T21:56:14Z,0,"A question please. Thank you in advance.  When we are building a regression tree, we try all the splitting values of all the variables, and pick the set that gives the minimum SSR/GINI impurity as the root node. We repeat this process to build a tree. This makes sense in Adaboost, because in Adaboost, we either resample using the updated weights or use weighted GINI impurity. Either way, we are very likely to get a different new tree for each round. Similarly, in random forest, each tree uses a different bootstrapped sample, and to build each node, a random set of features is considered. All these ensure diversity and independence among trees just so to reduce variance. But I am not sure how this works in gradient boosting.   Suppose we are now building the second tree given the Pseudo residuals from the first tree. We first pick, say, feature height and sort it in an ascending order. We pick the smallest first 2 observations with the average as the splitting point, get the average of each region, then calculate the sum square of residuals of such split (i.e., sum over (y_i - y_bar)^2). We repeat this process until a tree is made. But this does not take into consideration the residuals of last tree and feels like generating similar tree each single time. Or the correct way is to use predicted weight from last tree to calculate average and then sum square of residuals of each split? (I was thinking about simply averaging over Pseudo residuals, but then SSR would remain the same regardless of splitting values.) Please help shed some light. Thank you.",True
+@himanikhurana6656,2021-01-15T07:53:23Z,1,Wow !!! Amazing Explanation,True
+@kennethleung4487,2021-01-08T10:18:08Z,1,Great video as always!,True
+@TechAddictGuy,2021-01-07T18:00:29Z,7,Is it just me or does anyone else loudly repeats BAM ?,True
+@deepakmehta1813,2021-01-01T16:59:23Z,1,"Thanks Josh.  The whole series on boosting algorithms is awesome. I am enjoying it. One general question I had is regarding regression trees.  It is clear that linear regression model would be able to scale based on the input. What I mean is that if the training data (X) ranges from 0 to  100 but if in the test data  X is 200 then depending on the intercept and the slope y would scale accordingly. However, in regression trees the model relies on the historic average number associated with the leaf node. So if X is 1000, the error in y could be very high.  Does it mean that regression trees could have higher bias ?",True
+@Han-ve8uh,2020-12-19T01:54:01Z,0,"At 7:42, it says ""here's the tree"", but there's no explanation of how the tree was built. So it also makes it impossible to understand the point at 11:33 saying in this eg, the new tree is the same but can be different. (Can't guess how it can be different without knowing how it is built) Is the tree building process same as adaboost?",True
+@thilinikalpana7206,2020-12-16T19:25:57Z,1,"Excellent video! One question, how did you decide which variables and thresholds to use when splitting the nodes? Is it based on residual sum of squares like in Regression trees?",True
+@elrishiilustrado9592,2020-12-14T22:05:29Z,1,Half of my master degree in public health data sciences is thanks to you !,True
+@dharmatejaadepu8597,2020-12-14T15:50:37Z,1,Bam :) Thnx man,True
+@marthalanaveen,2020-12-10T06:17:27Z,0,"Thanks, this cleared up many things for me and I now understand what many of the parameters of the gradient boosted trees are there for.  In the example, complete data has been used to build the tree and then next tree on the pseudo residuals. But, in `sklearn.ensemble.GradientBoostingRegressor` takes an argument called `subsample`, which determines the fraction of total samples used to build and improve each tree. This clearly means that complete data doesn't go to each tree, when `subsample` is set to something like ""0.65"", which i presume mean, that only 65% of the data goes to building each tree.. So, in this case, will the multiple independent trees be built and during prediction, contribution of all the trees will be averaged? or what actually happens in such case?",True
+@SPLICY,2020-12-09T18:51:10Z,0,13:49 (bam),True
+@beautyisinmind2163,2020-12-01T13:11:00Z,0,"Sir may I ask if  Stochastic gradient boosting is another name of gradient boosting? or they are different with each other, bit confused?",True
+@OuZhang,2020-11-30T17:20:56Z,0,"I like your intro but hate all the ""bams"".",True
+@SupremeChickenx,2020-11-26T11:08:22Z,1,i could give you a hug right now,True
+@user-mc1oi1vf5d,2020-11-18T11:05:20Z,1,looks like Josh is made of GBM,True
+@jaikishank,2020-11-10T14:46:55Z,1,It was a very simple explanation of the complicated concept .Thanks for the great efforts and iam very passionate about  your technique to slowly unravel the concept to brevity. Please keep doing the good work and may god bless you and your initiatives.,True
+@frankOcean825,2020-11-06T07:52:09Z,1,"i love this channel, from korea",True
+@dpranay6262,2020-11-04T10:25:29Z,1,crystal clear,True
+@jmarkinman,2020-11-03T23:44:20Z,1,"This is probably the best CS/Math channel I've ever seen. Right up there with 3Blue1Brown, Kudos!",True
+@frederikbrokbrandi917,2020-10-28T09:34:51Z,0,Nice explanation but cut the crap please :),True
+@shimamohammadi4765,2020-10-23T17:02:17Z,1,Great job.  Thanks,True
+@abhishekrao4307,2020-10-07T15:18:24Z,1,i like the first 5 sec xD,True
+@puneettiwari2251,2020-09-30T14:26:55Z,1,Fantastic session,True
+@shivadumnawar7741,2020-09-29T18:35:22Z,1,thanks josh..,True
+@vishalaaa1,2020-09-21T20:03:57Z,0,"You have to plan a right path sir. Create a training program as per indian conditions. Whole training market goes across India. And upload the course in UDEMY etc as well as in your personal website . But, think that a new person need to learn it as well as show experience and try for job. This is what Indian principle is.",True
+@vpee,2020-09-19T00:09:39Z,2,"Salut Josh et merci! (Just a french person trying to show his gratitude). Man, your method is amazing and you have a good voice. I saved your videos and locked them in a safe for when my 5 y old daughters are ready to hear about stats and ML... Precious gift you've got. Au revoir!",True
+@rodolfoviegas8504,2020-09-17T20:52:55Z,1,"Simple and excelent explanation, thanks for made this class; greeting from Brasil!",True
+@addankijaswanth9292,2020-09-17T14:46:55Z,2,Small bam😂😂,True
+@sebastianschulz6741,2020-09-15T16:14:58Z,1,By far the best explanation in the internet 😉,True
+@asmersoy4111,2020-09-15T12:07:01Z,1,I love the quick and small BAMS Lol thanks!,True
+@shivamkaushik6637,2020-09-14T06:47:27Z,1,I was dying to listen to that calculation sound.,True
+@fazrulrahmanM,2020-09-08T06:22:59Z,1,Bam...,True
+@ShahidKhan-eq1gx,2020-09-06T12:44:54Z,0,can we have access to your slides?,True
+@gilbd1,2020-09-02T18:20:39Z,1,Josh you're really awesome! I own you my current job!!,True
+@thedarkknight579,2020-09-01T18:14:22Z,32,Explanation for those 33 dislikes:  Youtube adds Dislikes to Statquest videos just to make sure that THEIR MODELS DON'T GET UNDERFIT due to biased(Only likes) Training  data .....,True
+@nataliabarros4765,2020-08-30T18:58:13Z,0,Is there a video similar to this but about Lightgbm?,True
+@shubhamtalks9718,2020-08-26T11:20:46Z,1,Is Troll 2 your favourite movie?,True
+@yuppiesyoo,2020-08-10T12:16:25Z,0,"Hi Josh, thank you so much for this amazing overview! I was just wondering what determines the learning rate\how to chose it?",True
+@siyangzhou5513,2020-08-07T16:24:07Z,2,Who else hasn't started learning from this GENIUS??,True
+@rishikumarraman4081,2020-08-06T11:38:16Z,0,Hi where can i get the course videos ppt version? Please Help,True
+@daviddang6791,2020-08-01T00:48:51Z,0,"When you say ""scales tree by same amount."" You mean the weights are the same for each tree in gradient boost right? So effectively there are no weights.",True
+@sjwang3892,2020-07-31T05:08:35Z,1,The intro song should be in iTune,True
+@karthiavenger4577,2020-07-25T08:26:31Z,1,Man you are awesome 😍😍😍😍😍,True
+@pushkarparanjpe,2020-07-24T06:55:54Z,2,Having summary at the end is so thoguhtful but extra effort on your part but hugely helpful for the learner! Thanks.,True
+@TheShadyStudios,2020-07-24T01:05:16Z,1,Dang what an awesome concept,True
+@nikhilagarwal2003,2020-07-21T02:36:18Z,0,"Thanks for explaining complex problems so easily. I've a doubt though. Like Trees, are Boosting Techniques i.e. Gradient Boosting, XgBoosting applicable for Linear Models as well?",True
+@suryan5934,2020-07-19T15:52:33Z,1,"Hi Josh, at 8:32, I have a confusion. We are taking the sample as Male, fav color Blue etc.. And we run it down the tree but the root node is Female and color not blue branch. How do we end up with the weight then?",True
+@deepanshusonparote5776,2020-07-18T21:16:39Z,1,How can someone dislike these videos!?,True
+@Patrick881199,2020-07-13T06:31:03Z,0,"Hi, Josh, at 11:39, you mentioned that the tree can be different each time, I just wonder how? I am confused because I guess if you use sum of squared residual to decide which feature goes to which node(the method you taught in Regression tree), then each time we create a new tree, the tree should be the same. Because the observed results in the original data set  will never change",True
+@JaiseJoseph152,2020-07-11T15:33:46Z,0,One small question... Do you check residual value while building the tree? Trying to understand how this tree was created,True
+@harkus8831,2020-07-10T10:28:03Z,1,This video was helpful! Thank you !,True
+@mattsamelson4975,2020-07-07T00:31:43Z,0,"Thanks for your awesome videos and songs!  Question I’ve been pondering for a while….  In Gradient Boosted Trees Part I video, after starting with the process by creating a leaf with the average value of the weights we calculate the first set of pseudo residuals. I’m confused about how the tree is then build to predict the pseudo residuals.  You reference the Decision Tree video but we’re not classifying so there is no Gini calculation. I notice you have a Regression Tree video but that doesn’t seem to explain how the tree is constructed in this case.  Can you explain or direct me to a resource that might answer that question?  Thank you in advance.",True
+@LeslieSolorzanov,2020-06-30T08:32:53Z,5,"""Is this awesome?""  ""No"" hahaha that made laugh. But it's good to take bias and variance seriously",True
+@LeslieSolorzanov,2020-06-30T08:27:50Z,1,I am following these videos in descending order hhehe. Started with XGBoost and arrived here :),True
+@edvinsjudins1109,2020-06-29T17:12:04Z,1,"Thanks, your videos helped me start my professional career! (initially small but gradually increasing in significance BAM!)",True
+@mptire,2020-06-29T13:30:57Z,1,Double BAM!!!,True
+@HarpreetKaur-qq8rx,2020-06-24T06:08:52Z,0,"Hi Josh, In this why did you create a separate branch of color=not blue and why is it not a child node of height<1.6 or why is the height not child node of color=not blue",True
+@nadunudawela8894,2020-06-24T05:57:39Z,3,"Thanks for this video Josh! I'm just a little confused on how the different trees are built based on residual values @7:40 and @14:08 (particularly in assigning the root nodes). In your ""Regression Tree"" video, you used the ""drug effectiveness"" percentage and used SSR's for each category to build your tree. In order to get all the different tree's in this video (14:08), are we to use the ""residuals"" column as the equivalent to the ""drug effectiveness"" column in the other video?",True
+@karthikdeepan1998,2020-06-21T18:45:30Z,1,"That was a very good video..  I always refer your videos for your version of topic after I learnt something new... Thank you.. I have a question, at 7:38 How are you creating this Tree (How you confirm Root should be 'Gender' and so on) ?  Are you splitting the Tree based on Entropy/Ginni Index or something ?",True
+@uniwander,2020-06-19T19:12:03Z,4,Your channel has the best videos I found for explaining gradient boosting (and many other data science and stats topics). Really appreciate it!,True
+@rithikbhandari8062,2020-06-18T19:48:02Z,2,"Holy shit man, how do you manage to reply to all comments?  really cool of you tho.",True
+@subhz1,2020-06-16T14:36:27Z,1,Excellent!!!!! BAM!!!!! great explanation👍,True
+@raj-nz4bj,2020-06-16T04:00:36Z,1,I love this channel but kindly reduce the frequency of BAMS .they agitate me .,True
+@navnitansv8636,2020-06-12T06:32:16Z,0,I can't understand the difference between Gradient descent and gradient boosting. I feel both are same at the math level.,True
+@alvarofuentes7699,2020-06-11T02:34:37Z,1,Thanks! Triple BAM!,True
+@mattchen5777,2020-06-08T00:16:03Z,0,Can you explain whether gradient boost use all samples and variables?,True
+@sebastian3291,2020-06-04T14:07:52Z,2,"Wow, you are amazing, thanks for sharing your knowledge in such a didactic way! Greetings from Chile :)",True
+@bikalpapaudel6836,2020-06-02T02:21:39Z,0,Are these trees made by the same method of building a decision trees?,True
+@DrDress,2020-05-25T10:08:51Z,1,"7:40 Why does the first tree look like that? It's seems fine to my intuition, but how would a computer come up with a tree?",True
+@gggrow,2020-05-23T19:21:44Z,0,The rate of talking about clarity of pronunciation make me feel like you think I'm very stupid.  Stats makes me feel very stupid sometimes so this is perhaps justified.,True
+@daneshwargobbani8693,2020-05-23T15:17:38Z,1,triple baaaaam.,True
+@daneshwargobbani8693,2020-05-23T15:14:23Z,2,double baaammm.,True
+@SandeepKumar-ie1ni,2020-05-23T06:44:51Z,1,DOUBLE BAM ! :) your work is superbb . KEEP MAKING,True
+@toufikider1419,2020-05-21T11:03:05Z,1,"Really well explained, Thanks.",True
+@khanster,2020-05-20T15:02:58Z,6,I came for the math but stayed for the singing.,True
+@ahanadrall5661,2020-05-17T18:12:45Z,61,"i still remember the first StatQuest i watched.  ""you can fit a line, you can fit a squiggle, you can make me laugh, you can make me giggle. StatQueeeest"" keep up the good work.  this is one of the best channels of all. thanks josh.",True
+@sris1986,2020-05-14T14:33:26Z,0,Any new weight we try to predict is always greater than the average weight as per the formula new_weight = avg_weight + learning_rate * residuals for how many every number of trees we build. This method will never assign a weight to a test sample that is less than the average weight. Isn't this an issue?,True
+@NIHIT555,2020-05-14T06:09:33Z,1,what a great video.I watched multiple lectures on this from various colleges.it is by far the best,True
+@adhiyamaanpon4168,2020-05-12T12:23:06Z,0,hey josh...one doubt. is it mandatory that the learning rate values of each tree must be same?,True
+@MrKashyani,2020-05-07T08:44:46Z,1,You are beyond words Josh. Just love the work you are doing.,True
+@astaconteazamaiputin,2020-05-02T19:15:50Z,2,"This is a great example of designing good instructions ! The methods you use for putting the learner in the right mindset for taking in difficult information is just inspirational <3 According to the comments, this approach works so well for so many people. Thank you for putting so much though and effort into these videos !",True
+@TheOraware,2020-05-02T13:18:30Z,0,"Thanks for such wonderful detail ,as you showed Gender was the first good candidate for splitting data at root , is it due to its gini index was small compare to other variables?",True
+@winsonwijaya5592,2020-05-02T05:27:09Z,0,"BAM! new subscriber alert! btw, when defining our first leave before create the first tree, is there other way than using mean? what if the data is extremely skewed? if we use mean as our first leave for creating the tree, does the predicted residual outcome of the tree added with the mean will still give the exact target value in our training data given that the learning rate is equal to one(e.g. does 71.2 + predicted_res_value will still equals to 88 as in this video examples if 71.2 comes from a skewed distribution of weight?)?",True
+@muzamilshah8028,2020-04-27T20:10:52Z,0,"in classification you find residual after u have predicted probability ,while in this video i am little confuse  because if you jump to 11:13 and see you have created tree based on residual and create another residual column directly without any predicted probability of weight",True
+@Azuremastery,2020-04-16T12:08:39Z,0,Thank you Josh. Clear explanation. One query - How the trees are split in gradient boosting? I saw your XGboost for Regression main ideas video where splits happens based on similarity score gain.,True
+@stanislavezhevski2877,2020-04-14T11:01:51Z,0,"Do i understand prediciton process correctly ? Using new measurements we're trying to figure out to which leaf our new measurements should belong to, for each estimator ? Futher, based on these assumptions we're getting pseudo-residuals and amending initial guess.",True
+@eliecerecology,2020-04-13T07:51:57Z,0,Triple Bam videos!,True
+@MrAlb3rtazzo,2020-04-11T23:04:31Z,1,are you going to do a quadruple bam in the future ?,True
+@tamilarasankrishnan,2020-04-06T14:58:32Z,1,Thank you Josh:},True
+@arnavgrover8301,2020-04-05T17:49:42Z,3,This is brilliant. Simple yet detailed,True
+@lucianobatista4554,2020-04-03T12:33:54Z,0,"You made all this slides with beamer? If so, could you show me the final code? This channel is amazing!!!!",True
+@TheSachinbob,2020-04-02T12:08:37Z,3,"Hi Josh, I am a Data Scientist and a music enthusiast (drummer). This video has cleared a long time confusion of mine. Thanks a lot buddy. Your songs are also good. :) Keep Rocking.",True
+@sushilchauhan2586,2020-03-30T15:10:36Z,1,People who doesn't like his videos ... are with no BAM!   please guys who watch his videos do like it .. least you can contribute and you know how much it takes to make  such videos ...just go through refrence and read it,True
+@anujprasad001,2020-03-24T23:38:03Z,0,"At 8.43, The Decision tree's Root Node is 'female' then why we are comparing the prediction with the observed weight of Gender=Male from the training example. Also, even the branch node is 'color not blue', then again we are doing the same thing. Isn't it a wrong comparison? Can someone explain? please.",True
+@shristisingh2417,2020-03-23T14:08:03Z,1,Triple BAM!!!,True
+@joehigh6855,2020-03-18T03:41:32Z,2,"Great videos! By the way, I’m not sure if you’ve been told this before, or if this is what you’re going for, but the combination of your voice, your persona throughout your videos, and the intro for each of your videos remind me of Steve on Blue’s Clues.",True
+@statquest,2020-03-17T17:39:58Z,43,"NOTE: Gradient Boost usually uses regression trees. These are very similar to classification trees, but have a slightly different way to decide how to add branches and leaves. For more details, see: https://youtu.be/g9c66TUylZ4  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@anonyme103,2020-03-06T11:03:42Z,1,Your content is simple and straight to the point!  Quadruple Baaaaam!,True
+@kalyanchakra3505,2020-03-06T04:52:23Z,0,What are the drawbacks of adaboost ?,True
+@fatimahabib1431,2020-03-01T21:54:05Z,0,"thanks alot ,  i have a question what does it mean ""scale the  tree ""?",True
+@gopalpadhi4922,2020-02-23T17:58:49Z,1,Triple Bam... U r the best,True
+@user-jr1ft4uf1u,2020-02-20T06:09:08Z,0,Can you teach me the LightGBM? Thank you,True
+@samsonpham33,2020-02-19T20:36:16Z,0,"hi Josh! couple of quick Qs please: 1. was the one observation (1st on your dataset) randomly chosen to calculate the residuals and make trees? had we chosen any other observation, will it make a diff? 2. in practice, what makes the trees different as there is no random element of sample & features selection?",True
+@vinovano3774,2020-02-12T21:18:18Z,1,Dude you are simply the best,True
+@meam7974,2020-02-09T20:54:45Z,0,"Great video! Just a question, how do you choose the Learning rate??",True
+@philippeassouline,2020-02-08T10:23:26Z,1,Donating. You are a champion of champions.,True
+@jasonshen4404,2020-02-05T04:23:22Z,1,"You are amazing! I have been reading papers and ppts, none of them helped me to visualize the mechanism as what you have done! BAM!",True
+@MaryJoWright,2020-01-29T08:15:31Z,1,"I love your videos! And I love your teaching style! I stopped to write this comment at the ""Is this awesome? NO."" part :-)  In fact I was so excited that I first posted this comment under the wrong video...",True
+@shubhamborghare873,2020-01-27T15:18:48Z,2,"oh wow! amazing explaination, amazing, thank you so much.",True
+@Sathya_,2020-01-09T04:31:39Z,0,In adaboost video it was mentioned that stumps are made first and then changes are made to  sample weight using total errors of the stumps and it repeats the process... But here you mention that stumps creation as a continuous process... Both of it sounds meaningful but opposite...,True
+@codingcart,2020-01-06T01:53:56Z,1,"very well expalined in a simple way. Josh, at the last we we predicting the weight for a new dataset [1.7 green female ??] you got the weight 70. If im using residual  only upto three tress(as calculated in the video), then my predicted value is 72.5. is this correct??",True
+@user-ss5up8le4j,2020-01-05T14:53:54Z,0,"Hi, im very impressed with your explanation. Thank you. Can i upload the captures of your video and my own summary in my blog with source link?",True
+@kaapiglass,2020-01-05T00:37:35Z,0,"Hello Josh,   Thanks 4 your wonderful explanation... My doubt is when developing the model with training data we will have the weight(Output) column so we can calculate the average of the weight (value intialized in this ex: as 71.2) and then we can add residual*learning rate from each trees. But in case of test data we would not have the output column, SO in that case how will an initial weight be set? or how does the model predicts??? Thanks again!!!",True
+@haneulkim4902,2020-01-03T02:20:44Z,0,"Very helpful, thank you! one question though, how does the machine know which feature to choose for its root? in this case its root was gender.",True
+@rreinec,2019-12-16T08:16:24Z,1,the clearest explanation for gradient boosting on the internet,True
+@kguru1186,2019-12-13T16:24:14Z,1,Thanks!!! :),True
+@sandeepm625,2019-12-13T04:25:43Z,2,"very good explanation. First time, I got a a detailed understanding of the boosting algorithm and how trees are built.",True
+@jakedesnake97,2019-12-08T18:19:20Z,4,"I have my Classification final tomorrow and Josh, you explain 100% better than my prof and the textbook combined. Thanks for boosting my confidence!",True
+@panchamdesai7090,2019-12-06T14:43:27Z,15,Hey your channel is a saviour for me because  you make all complicated concepts easy to understand . Thanks for contributing the datascience community with such great content,True
+@Georgesbarsukov,2019-12-01T00:17:04Z,0,"Too many bams, I can't continue",True
+@MrLilipili,2019-11-29T02:10:42Z,2,You are just awesome!!! It’s 2:10 am London time! I have to submit my coursework tomorrow morning! I had to code it from scratch! Thank you so much 🙏,True
+@anashwara7000,2019-11-27T15:16:39Z,1,For understanding any ML algorithm ... yours is my go to channel!! Thank you  tons !!!,True
+@johnysingh5023,2019-11-25T07:00:33Z,3,Me after eating 2 hamburgers 10:19,True
+@WASDsweden,2019-11-23T17:06:10Z,0,8:56 IS THIS AWESOME??? ...no...,True
+@sheldonsebastian7232,2019-11-17T18:16:42Z,2,Im passing my classes just because of you!!!,True
+@yuriystrilets2207,2019-11-14T18:38:05Z,1,Let it be my first comment on YouTube... Really great and super very well explained things in simple words! Josh thank you for the great job!!!,True
+@Privacy-LOST,2019-11-11T07:57:14Z,1,Recent Videos Quality clearly levelled up. If that were even possible at this stage.,True
+@geminicify,2019-11-06T05:59:31Z,0,Thank you for sharing! You are an awesome teacher! I have a question. How does gradient boost regression tree perform on new data with independent variable values un-seen in training dataset? I also have the same question for regression tree since in essence it is the same problem.,True
+@user-pg6tb3uv5e,2019-11-04T17:16:22Z,0,Hii I wonder how would the tree be different if each tree is calculated based on gini impurity or SSR? Thank you,True
+@user-dq6di3fg8c,2019-11-04T06:58:42Z,248,Thanks for your immense contribution to humanity,True
+@rainfeedermusic,2019-10-28T07:31:13Z,1,Awesome explanation!,True
+@nischalsehrawat2130,2019-10-27T16:27:38Z,0,"Hi Josh, can you make a video on calculating mutual info please?",True
+@user-hb5jj8lc8l,2019-10-26T03:32:47Z,1,"GOOD  Explained!! But what does ""BAM"" mean? Haha",True
+@mcool87,2019-10-23T20:18:09Z,0,Please make video on xgboost,True
+@kaunghtetmyat1704,2019-10-22T11:57:48Z,2,I was scratching my head for 2 days to understand the GB algorithm and all the sites and resources on the internet are quite confusing. You just explained it so clearly and BAM...you got a new subscriber!,True
+@michelpereira3194,2019-10-22T10:09:29Z,1,Excellent methodology! You've just gotten a new subscriber.,True
+@jaysoncena8539,2019-10-20T19:02:22Z,20,"Holy shit, I was able to finish my assignment in 1 night while watching this. For the past 1-2 weeks I'm doing an all-nighter and pulling my hair to finish my assignment using the notes I have from my class.",True
+@Thelee4music,2019-10-10T09:44:26Z,1,Thanks for it Simple and understandable... BAM!!,True
+@Demonithese,2019-10-10T00:00:11Z,1,Thank you for all the hard work you do to produce these videos. They are simply fantastic and every one rekindles my appreciation for statistics.,True
+@whatstop1010,2019-09-18T02:06:17Z,1,massive BAM,True
+@ahmadalghooneh2105,2019-09-17T20:11:15Z,1,you are lovelyyyy,True
+@ahmedabbas2595,2019-09-10T08:16:10Z,1,You're AWESOME man! your videos are easy to understand and you use your BAMS wisely.,True
+@sdaf48,2019-09-09T20:26:47Z,0,"Can you please explain why in practice, the branches could be different? As the way I see it, the features to split in each iteration are the same, so the branches would be the same as always, right? Thank you in advance!",True
+@thibautsaah3379,2019-08-28T15:37:19Z,1,Thank yu This video helps me to get an good idea about how xgboostRegressor works,True
+@xuhao7208721,2019-08-22T07:04:56Z,2,"thank you so much, you are basically not wasting any of your words explaining this concept.",True
+@talelkarif1,2019-08-21T13:45:00Z,2,The calculation bip bap bup is missing,True
+@agentanakin9889,2019-08-19T06:01:05Z,0,Looks like an artificial neural network with decision trees replacing neurons.,True
+@richardhu8971,2019-08-17T17:03:49Z,0,"Thankful ,teacher ,could you  give  us the ppt please？",True
+@quenar,2019-08-14T00:36:02Z,1,Exam exam exam in the moooorning :) - so thanks ;D,True
+@ritendradhakciya9935,2019-08-11T19:37:29Z,1,Greatest Video I saw on the Internet to understand with this much clarity,True
+@bernardmontgomery3859,2019-08-11T15:46:20Z,3,It is the first vedio that makes clear for me to understand Gbm,True
+@AayushSoni1196,2019-08-10T21:29:49Z,0,"Josh, create a patreon link for yourself, we wanna support your channel. OR, may be create better T-shirts so we can actually buy them LOL :')",True
+@DeepakSingh-fo2wm,2019-08-09T18:48:44Z,2,I am amazed .. such a complicated topic you have explained so simply.,True
+@priyankjain9970,2019-08-08T10:28:22Z,1,God !!! your videos are incredible and fun to watch.,True
+@amirkhan355,2019-08-08T01:44:30Z,1,sooooo clear! Thanks,True
+@noguilt007,2019-08-05T19:36:26Z,0,How are the trees made? Is it randomly made or are they made using the rules for a decision tree?,True
+@weemengaitan9106,2019-08-04T15:42:13Z,4,"Hi Josh, this is by far, the clearest explanation for a concept I was try to figure out for 3 months.  Thank you very much!  really appreciate your effort !  Keep up the good work !",True
+@its_ya_boi_ace,2019-08-03T06:58:41Z,1,"if my saying so makes a difference... dont stop doing what you do, mate... i've searched for this knowledge for days :'(",True
+@its_ya_boi_ace,2019-08-03T06:57:36Z,4,Dude... how tf is this channel not one of the most subscribed on youtube ?,True
+@sumod12,2019-07-27T00:49:20Z,1,super,True
+@okioking2,2019-07-25T01:00:25Z,5,this is incredible! very clear. thank you so much!,True
+@michaellohier,2019-07-24T14:01:30Z,0,How are the nodes of each tree chosen at each iteration?,True
+@raghavgaur8901,2019-07-22T12:06:37Z,0,If There is a case where decision trees are getting overfitted so by using gradient boost method do we solve that problem?,True
+@raghavgaur8901,2019-07-22T12:05:06Z,0,Do we decide the tree structure when building a new tree with the help of Gini index values,True
+@shashankkapoor2828,2019-07-22T02:02:55Z,1,"Josh, you are awesome. Thanks (Y)",True
+@raghavgaur8901,2019-07-21T11:56:01Z,2,When we use the learning rate aren't we moving towards overfitting slowly,True
+@jackyyang4557,2019-07-16T03:08:31Z,0,"aren't you just using the previous residual to time 0.9 to get the new residual? why do you need a tree then? and what does it mean by train on residuals? You use residual as the target variable and fit a model to predict them? but in your video, you could just time 0.9 to the previous residual and get the new one. I am confused here. please help me out. thanks",True
+@evazhao01,2019-07-14T17:34:28Z,0,How do you have the rhythm of Amy Schumer,True
+@nicereis,2019-07-11T18:41:23Z,1,You're perfect  thanks!!!,True
+@pragun1993,2019-07-01T14:34:34Z,0,"But, how is it related to boosting/adaboost. It is entirely different in approach.",True
+@SESHUNITR,2019-06-23T09:49:07Z,1,"It would have been more clear, if you could have explained how a tree is formed , just to connect the dots.",True
+@weichengzhu6605,2019-06-12T15:47:39Z,0,"Hi Josh, thanks for your sharing. At the 7:44, you mentioned here is the tree and then calculates the residuals. How is this tree created? Thanks",True
+@alyssagao5830,2019-06-11T08:59:51Z,3,"Hey, guys, just wonder where to get the slides?",True
+@deepwebtube,2019-06-08T12:22:32Z,1,Too good sir! Nothing can get better than this...namaste!!!,True
+@LucjanKucharski,2019-06-05T14:02:25Z,2,You got my heart at the intro.,True
+@r.a.9294,2019-06-05T09:14:56Z,0,hi   i want to ask what is difference of Gradient boost and Logit Adaboost or Gentle Adaboot?,True
+@xiao2634,2019-06-04T05:15:30Z,392,This channel should be boosted. Better than my professor.,True
+@emrecaglayan1329,2019-06-02T06:43:57Z,215,You were BAMless for ten min. I was kind of concerned. But then you made a step in the right direction.,True
+@HKwak,2019-05-31T13:30:58Z,2,"This man saves my life. I first tried to understand the one by reading the book: Elements of Statistical Learning, the book is too complicated and too much information for beginners. I think it's better approach to learn the cores with the visualization first, just like this video, and mathematical properties then next. Looking forward to watching the next video! Right away!",True
+@JeremieSimon,2019-05-26T16:08:42Z,0,"Very nice. One thing I might have missed though is how do you guarantee that the tree from an iteration to another will not be too close to each other.  In practice, would you, at each iteration, take a different sample from the dataset when building your new tree?",True
+@sanglierquipue,2019-05-18T09:43:25Z,1,Probably one of the best explanation of GB I have ever seen,True
+@torstenschindler1965,2019-05-12T13:19:44Z,0,Can you do a video on quantile regression? I really love your visual explanation style.,True
+@kohei4828,2019-04-23T07:17:15Z,1,Another great video! It would have saved me a ton of time to understand how GBM works if I had watched this video rather than going through lots of random online materials.,True
+@boglu4382,2019-04-22T04:40:21Z,1,"Watched many machine learning videos from your channel, very nice and clear and easy to follow , thank you ! good luck to my final tomorrow too!",True
+@xudongzhang9234,2019-04-21T05:00:10Z,9,"The Moment I clicked in and realized it is from StatQuest, I just knew I'm gonna have a really great grip on this topic.",True
+@41abhishek,2019-04-13T07:27:53Z,2,Best Tutorial I have ever seen,True
+@dragnet232,2019-04-10T00:20:33Z,1,lots of little Bams in the right direction leads to TRIPLE BAM !!!,True
+@vinothv8514,2019-04-09T07:30:30Z,1,"Hi Josh.. Can you help me to understand how you considered GENDER as root node(@ 7:34) to predict the residuals. Because in previous videos, you have explained with categorical output(Heart disease = YES/NO) and i am clear on how to go with the initial tree based on GINI IMPURITY...  Hence i need some more input related to this video...",True
+@strikerj_,2019-04-04T16:30:15Z,1,Hi Josh! Great video as usual :) How did we arrive at the tree at 7:37 ? Is it done via some decision tree algorithm?,True
+@user-jt7kw4jf9o,2019-04-01T06:54:52Z,1,look forward to see the next 3 series,True
+@weijiang6207,2019-03-30T13:08:37Z,2,Super useful vidoes. I do appreciate if you can post a similar video  aboud Bayesian. I heard this word for hundreds of times and read some literature but never get a sense of it.,True
+@martinetellerandet8566,2019-03-30T09:19:25Z,1,thank you so much,True
+@marjunodtojan3912,2019-03-30T08:39:25Z,2,Great job sir. I am hoping that you will make a video on explaining Frequency Ratio. Thank you.,True
+@akshaydixit8039,2019-03-29T16:51:53Z,4,"the explaining and all is good, but the best part is starting melodies!! with guitar i presume!!",True
+@CC-um5mh,2019-03-29T00:15:50Z,1,"I have a question about assigning leaf prediction. Looks like you took average of the residuals for each leaf as the new prediction. Is there a more general form? From my reading, is it right to say the predictions are actually optimized by reducing loss function?",True
+@Zombie-wx9cq,2019-03-28T23:23:25Z,1,statquest is the best ML video out of all on the internet,True
+@rrrprogram8667,2019-03-28T06:11:42Z,3,This is becoming more n more  awesome josh.... MEGAAAAA BAMMMMMM,True
+@nikhilkumarmishra1225,2019-03-28T01:13:57Z,1,"Hey StatQuest Wonderful Job. Just one part I did not understand, why are we predicting the residuals in Gradient Boosting and not the original target values?",True
+@SamirSheriff,2019-03-27T16:45:18Z,9,"This video came out at exactly the right time!! Triple BAMMM!!!! Thanks, Josh! :)",True
+@Maya_s1999,2019-03-27T09:45:14Z,1,Wow Josh - this is just what I needed right now. Bring on part2!!,True
+@yulinliu850,2019-03-27T09:00:27Z,1,Excellent! Looking forward to future parts of the series!,True
+@shaz-z506,2019-03-26T19:45:07Z,1,"After waiting for a while, finally, the series is here. Thanks :)",True
+@asimazehra8597,2019-03-26T15:12:46Z,1,Thank you for this video...,True
+@vadimborisov4824,2019-03-26T13:38:28Z,1,waiting for the PART 2!,True
+@Sebpv2006,2019-03-26T12:45:44Z,1,Start a Patreon !!!!!,True
+@joerich10,2019-03-26T10:19:21Z,3,"Josh - another amazing video, well done! Been waiting for this one, looking forward to parts 2 & 3. Thank you so much for your crystal clear explanations - its so refreshing in a world full of confusing, jargon filled stats tutorials. Your videos really stand out!",True
+@anaswahid8520,2019-03-26T06:49:16Z,2,You are LOGICALY CONSISTENT You have depth knowledge of your subject,True
+@rrrprogram8667,2019-03-26T04:42:03Z,1,BAMMMMM is backkkkk,True
+@mike_hu,2019-03-26T03:14:20Z,1,"I hear ukulele, I hit like! Good one!",True
+@juansb1509,2019-03-26T02:17:42Z,2,"Congratulations for a great video and thank you! Hope you talk about the ""Gradient"" part. How it relates to residuals...",True
+@asabereowusu5854,2019-03-26T02:00:41Z,2,This is similar to Random Forest. Great explanation. Great job!,True
+@benben0814,2019-03-26T01:33:42Z,1,Josh returns from day job!,True
+@aop2182,2019-03-26T01:03:07Z,1,"Finally! I have been waiting for you to talk about this since last year. GBM for classification would be more exciting, can't wait.",True
+@Artificial_Intelligence_AI,2019-03-25T21:08:27Z,4,"Today I was building a haar-like face recognition with Python and I didn’t understand the adaboost algorithm very well, suddenly YouTube showed me a notification about this video so once more you are my salvation... I won’t never understand how some of you can read people’s mind 😂... has you some kind of ML technique never shown before based on trends and predictions?",True
+@anjithnair3082,2019-03-25T20:27:45Z,7,One of the best explanations for GB regressor. Excited for the next one.,True
+@yilinxie2457,2019-03-25T19:17:01Z,27,I’m preparing for an interview and this definitely helps!,True
+@emiya_muljomdaoo,2019-03-25T19:12:48Z,1,thank you! :),True
+@MSalman1,2019-03-25T19:06:08Z,1,BAM AF,True
+@jhfoleiss,2019-03-25T18:02:11Z,1,Awesome explanation! Thank you very much!!!,True
+@kornellewychan,2019-03-25T17:56:13Z,1,nc work,True
+@3rl0y,2019-03-25T16:44:47Z,47,"I was working on this all day, because most examples on the internet only touch the classification side of tree-based models. And now my Messiah, my saviour. StatQuest is the only true way of living and all infidels shall be doomed to misinterpret data for the rest of their mortal existence.",True
+@mycssubs1769,2019-03-25T16:02:59Z,6,i was reading on this topic the second u posted it O_o creepy sht thx tho XD,True

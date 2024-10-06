@@ -1,0 +1,558 @@
+author,updated_at,like_count,text,public
+@statquest,2019-12-11T18:19:45Z,400,"Corrections: 3:18 I should have said the same feature (or variable) can be selected multiple times in a tree. Every time we select a subset of features to choose from, we choose from the full list of features, even if we have already used some of those features. Thus, a single feature can appear multiple times in a tree.  9:28 I say ""square"" when I meant to say ""square root"".  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@AndrewMakesPuns,2024-05-01T13:09:36Z,2,"Perfect explanation, thank you",True
+@myceliumbrick1409,2024-04-25T16:59:43Z,2,double bam!!,True
+@gurjotsingh3026,2024-04-13T21:55:10Z,1,I love you,True
+@mariebonduelle4716,2024-04-11T14:39:47Z,1,"OMG you saved my day ! I am currently preparing a phd exam, and I was lost about random forest, now I can easily breath thanks to your amazing video ! Thanks a lot",True
+@ezfinvest2717,2024-04-02T20:20:13Z,1,"I like it, it's clearly easy to understand. Thank you so much",True
+@lilpop2113,2024-03-22T13:38:36Z,0,"i don't understand 1 thing , when calculating the error for each out of bag entry, for every bootstrapped dataset, we compare the overall prediction of the model using every decision tree, but the out of bag row is expected to be there in 2/3rds of all the n the bootstrapped datasets . Now if the model is already trained on this data, how can we use this prediction data to determine the error of the model ?",True
+@r0cketRacoon,2024-03-16T09:17:24Z,0,which method do u think is better: bagging or random forest?,True
+@user-is5uo1od3p,2024-03-06T12:12:54Z,0,how the questions are defined into the décisions tree and how the décisions are taken for each one of them... to answer for example if the patient have a heart disease or not,True
+@dorothymartin2477,2024-02-26T15:18:59Z,0,is it okay if im using cross validation for RF since it already has the OOB?,True
+@pooriasalehi5402,2024-02-17T00:44:10Z,1,GOD BLESS YOUUUUUUUU😭😭😭😭😭❤❤❤❤❤❤,True
+@kivan26,2024-02-12T11:08:07Z,0,Why do we repeat elements in bootstrapped dataset sample? what would be different if we just chose random sub-set from original dataset without repetitions?,True
+@aristide_F,2024-02-10T12:54:23Z,1,"Thank you so much Statquest. in my ""quest"" to build random forest from scratch in C++, I found this resources soooo usefull. Including the video on the decision tree classifier",True
+@Mathsartlete,2024-02-09T17:09:00Z,1,You're really good. I love your videos!!,True
+@big_snake431,2024-02-09T14:04:53Z,3,"my project is about using random forests on accelerometer data from goats, but Josh is the real goat",True
+@Sparzzzzzzzzzzz,2024-02-07T13:01:56Z,0,"This is a beautifully explained video. Thanks a lot!  I was wondering though: why should the random number of variables, let's say m, that we are taking be constant throughout the process of building a decision tree? why cant i chose a random subset of 2 variables for the first node, a random subset of 3 variables for the second node, etc. Won't this increase the randomness and increase the accuracy? Although with this, ig only 1 rf would be good enough instead of multiple rfs with different but fixed m values",True
+@dineshmarapatla3210,2024-01-18T05:22:33Z,0,What's the use of squaring number of variables here?,True
+@-hedredo8420,2024-01-12T08:38:16Z,0,"@statquest Hey josh, i haven't test yet this kind of model but using SKLEARN, i guess that RF accuracy on your training set is directly evaluated on the Out of Bag error ? Since RF uses some type of cross validation with the Out of Bag error, is it really necessary to train test split your data before ?",True
+@Zrizzy7,2024-01-08T23:08:25Z,1,"""We'll conclude that this patient has heart disease.. BAM!""",True
+@sandramourali,2024-01-02T10:33:34Z,1,I love your explanations !,True
+@a7med7x7,2023-12-20T07:32:20Z,2,I'll keep saying stat-quest is the best stat tutorials channel ever,True
+@xxMegha33xx,2023-12-06T10:21:10Z,0,Difference between Bagging and Random Forest?,True
+@martinmiles7819,2023-12-04T23:52:56Z,0,Does someone know if RandomForestClassifier from sklearn does all this??,True
+@Why_I_am_a_theist,2023-11-25T10:05:27Z,1,"If I ever do some teaching , you will be my inspiration",True
+@tgirici,2023-11-24T10:23:21Z,0,"At 03:08 , isn't Blocked Arteries better in separating the samples (than Good blood circulation) ?",True
+@liamroche1473,2023-11-17T17:22:15Z,1,"Great video, like the others! At 9:28, did you mean ""typically we start by using the square _root_ of the number of variables""?",True
+@ANILKUMAR-mn7pk,2023-11-15T10:35:49Z,1,sorry to say... not understandable .... first time commenting such  comment....,True
+@maiquynh3488,2023-11-13T21:26:08Z,1,Everyone here watching just for fun instead of scrolling through phone :),True
+@SafinaPeerzada-sx4ql,2023-10-30T10:07:01Z,1,Sir i love the starting song,True
+@user-jj3we9jv9i,2023-10-29T17:32:47Z,1,Liked and Commented for the Algorithm,True
+@wenapse1639,2023-10-26T04:32:45Z,0,"I would seriously enjoy you videos 1,000,000,000 times more if you would just stop the cringy songs and seriously bad jokes dude. Please, they are painfully bad, but your videos are very valuable. Just make them painless please!",True
+@longlivelinux90,2023-10-24T18:10:27Z,1,"im gonna steal ""Oh No! Terminology Alert!"" lol",True
+@bouguenadrien1278,2023-10-18T02:39:48Z,1,Great video thanks! one question about random forest when y is continuous ( regression tree). The out of bag error cannot be calculated  using the tree votes. I am guessing we could use the y prediction and contrast it to the true y i.e a sort of a SSR. Is it the right intuition?,True
+@gauraviitmcs,2023-10-09T16:02:28Z,0,"🎯 Key Takeaways for quick navigation:  00:31 🌲 Decision trees are simple but lack accuracy, especially with new data. Random forests combine simplicity with flexibility, significantly improving accuracy. 01:39 🔄 Random forests create multiple decision trees using bootstrap samples and random subsets of variables at each step, resulting in a diverse set of trees. 04:27 🌳 Random forests use a voting mechanism across all trees to classify new data. Bagging, combining bootstrapping and aggregation, enhances the accuracy of the model. 06:53 📊 Out-of-bag data, not used in creating trees, helps estimate a random forest's accuracy. The proportion of correctly classified out-of-bag samples determines the model's effectiveness. 08:34 🎯 Fine-tuning random forests involves experimenting with different variable subsets per step. Testing various settings helps choose the most accurate model.",True
+@alexlee3511,2023-09-27T08:49:55Z,0,"About randomly selecting variables, do we still calculate the impurity but only limited to the variables we chose?",True
+@BeginnerVille,2023-09-22T08:22:12Z,1,謝謝！,True
+@ofekpearl,2023-09-15T21:07:19Z,1,Invaluable. Thank you.,True
+@mohammadaljumaa5427,2023-09-06T13:09:56Z,1,"I just love your videos. Im attending a bootcamp about Datasceince and all the concepts that the instructor is not explaining as i would understand them, i come to your channel to learn them better. Thanks man ❤❤",True
+@willw4096,2023-09-01T04:18:03Z,0,"2:23 3:23 ❗This reminds me of the ""dropout"" used in neural nets as they are both forcibly (temporarily) erasing part of the data to force the model to become more robust and generalized by preventing over-reliance on any particular feature. 4:35 5:44 Bagging = Bootstrap Sampling + Equal votes to decide final prediction 6:38 Out-Of-Bag Dataset 8:02 How to Calculate the Out-Of-Bag Error 9:10 Tuning❗",True
+@meobliganaponerunnom,2023-08-11T18:52:25Z,0,"When you say ""out of bag sample"" does that mean that the sample was not used to build at least one tree, or that it wasn't used to build any tree?",True
+@quanuongminh1458,2023-07-31T09:25:26Z,1,Extremely easy to  understand. OMG,True
+@HeavyBoredRabbit,2023-07-27T11:13:51Z,0,Can anyone clarify what he means by random selecting a subset of variables/features? In the decision trees he seems to only use one feature per node and re-selecting the subset for each step so I don't really understand. How the feature for the node is chosen nor why we are creating a subset if we recreate a new one for each node?,True
+@Hellotherewhtsup,2023-07-17T17:51:47Z,0,"I work as an antifraud risk analyst. If this is an inaccurate model to classify new users into low med and high risks, then what could you suggest?",True
+@pratyanshvaibhav,2023-07-05T08:33:31Z,2,Guys check out the book written by him. Its a  well written book covering almost everything with crystal clear explanation through diagrams ..must for learning ML.kudos to you sir for writing such a mind blowing book..,True
+@user-nh4mn9hq2w,2023-06-24T07:50:56Z,1,"Brilliant! I know you from bilibili, upload some more video to it please~",True
+@LeviKek,2023-06-20T18:19:32Z,1,1:27 that's what I tell my girlfriend every time,True
+@landaalhanshaly7989,2023-06-12T03:45:01Z,1,Props to this guy. He is amazing.,True
+@javierpadillah,2023-06-01T04:00:02Z,1,Love this !!,True
+@tonycardinal413,2023-05-21T20:32:30Z,0,"Another awesome video.  One thing:  in 9:30 don't you mean square root of the number of variables? You say square of number of variables in 9:30. You have 4 variables. If you square that number, you get 16. How could you choose 16 variables at a time to consider in order to make your root or branches of your random forest? thanks",True
+@hawardizayee3263,2023-05-04T10:55:00Z,0,"I (data science student ) tried reading 'the elements of statistical learning ' but it was too difficult to follow, can you recommend some preliminary books to prepare me please ?",True
+@aubreylim9123,2023-05-02T04:24:35Z,1,You are a legend.,True
+@KrishnoSarkar,2023-04-15T23:53:50Z,1,Good explanation of a complex concept with nice visuals.,True
+@esan120au,2023-04-13T05:58:38Z,0,09:31 square root (not square),True
+@shawnkim6287,2023-04-01T02:57:05Z,0,"Thank you for the video. I have one question. You create many bootstrap samples in the training set. If you want to test using the testing observations, do you just take the bootstrap samples that you have built on the training set?",True
+@renepeterwerner,2023-03-25T10:14:01Z,1,Great video thank you!!. In 9:35 you say to start with using the square of variables for the candidate nodes. Do you mean square root? Because surely the number of variables to consider for candidates should be less than the total available variables and not more? This part is not clear to me yet. Please could you help me understand? Cheers 😊,True
+@khn217,2023-03-08T18:50:22Z,1,First time here - just wanted to buy you a coffee. You deserve so many likes!,True
+@noamills1130,2023-03-06T20:37:47Z,1,"I love your content! It's super helpful to have all the information presented verbally and written at the same time. I usually use captions, but those often cover up the content which is annoying and the way you do it is so much better. Plus your intros make me giggle. Thank you so much!",True
+@alexismotet9327,2023-03-03T12:07:16Z,1,"seems so easy, thank you",True
+@Moiez101,2023-02-25T12:05:52Z,1,"Hey Josh, great video as always. Question: In the instance where a decision tree is made, is a random forest always the following algo used or are they situations when a random forest is NOT needed/reduntant? Is it a matter of computational cost?",True
+@jingzhouzhao8609,2023-02-14T17:46:13Z,0,"A friendly suggestion: At 9:38, the sentence should be ""Typically, we start by using the square root of"" rather than ""Typically, we start by using the square of"".",True
+@knightedpanther,2023-02-05T20:28:37Z,0,"Hi Josh, Is there a situation where linear regression can outperform random forest regression. Maybe if there is a perfect linear relationship, linear regression will outperform a random forest regression model?",True
+@dsagman,2023-01-24T23:02:29Z,1,I am getting a masters in comp sci and statquest is where I go before even looking at the textbook.,True
+@mariussame9357,2023-01-24T14:52:32Z,0,Great video. I was thinking that in order to build a new tree we have to choose another bootstraped sample in order to avoid out of bag sample ?...,True
+@mahammadodj,2023-01-23T21:19:54Z,1,Thank you so much! I learned a lot from your videos.,True
+@matthewsarsam8920,2023-01-18T04:05:53Z,0,"What's the point of selecting random features to do the splitting? Wouldn't you get really bad features to split sometimes, in this case maybe the misclassification rate is way to high based off an initial split of the random feature, so how would the result be any accurate",True
+@oluseyiakinboade1673,2023-01-05T19:39:07Z,1,"Just this video was enough for me to subscribe, Thank you Josh!!!",True
+@AHMADKELIX,2023-01-05T00:06:16Z,1,Permission to learn sir,True
+@srinivasvalmeti1505,2022-12-26T13:24:10Z,0,I am loving all these videos. The clarity and simplicity in explaining the concepts. Just want to highlight a small error. I guess it is the square root of number of variables (and not the square) that are typically started with.,True
+@chandramanrai9270,2022-12-22T19:46:21Z,1,An excellent video. Thank you.,True
+@rishipatel7998,2022-12-05T09:01:20Z,1,Thank You,True
+@smyanjain674,2022-12-02T14:09:05Z,1,This helped me land my first data science job. Thanks a lot Josh. #IITD,True
+@suchameme,2022-12-01T01:39:09Z,0,"there's something so funny about ""we will conclude that this patient has heart disease, BAM!"" 5:36",True
+@mezhpro,2022-11-24T11:47:31Z,1,boopidoopiboopidu the first tree says yes the patient has the heart disease,True
+@jeanhwang18,2022-11-22T09:34:03Z,0,"Hi, Josh, I am a bit confused about building random forests by 3 variables (9:07), does it mean three arrows from a single block per step? Actually, back to 2 variables, you initially choose good blood circulation and blocked arteries as the variables, but you use good blood circulation as the root node to demonstrate, where is the blocked arteries variable? Appreciate your help:)",True
+@cutestbear3327,2022-11-17T12:10:26Z,0,"Into the woods, it's time to go, I hate to leave, I have to, though Into the woods, it's time, and so, I must begin my journey",True
+@irisli2932,2022-11-12T22:28:01Z,0,Does the section of random forest included in your machine learning book? I didn't find them.,True
+@acdundore,2022-10-21T17:28:07Z,2,"Your videos are unbelievably simple to follow and intuitive. You know that someone is a master of their craft when they can explain it to someone else in a concise and easy-to-understand way. Well done, and thank you for all of your videos!",True
+@scottzeta3067,2022-10-17T08:14:47Z,0,"I think the core of random forest is to use randome sample and random perditor to reduce the variance, in case to avoid overfit. Is that right?",True
+@George-rq1yp,2022-10-15T03:59:18Z,1,Amazing content!,True
+@kayteeflick,2022-10-12T16:42:16Z,1,As always you rock!,True
+@daddychill6925,2022-10-01T19:32:40Z,1,"This guy is a living legend, giving us quality content for free",True
+@reynoldyehezkiel,2022-09-16T07:57:24Z,1,BAM!!,True
+@inwonderland9842,2022-08-24T17:24:12Z,1,🌲🌳🌴🎄,True
+@fracturecreed,2022-08-23T23:10:51Z,0,Considering the high correlation between Blocked Arteries and Heart Disease the first tree decision is supposed to select Blocked Arteries instead of Good Blood Circ. Is it correct? Thank you,True
+@vidyasurbhi8274,2022-08-19T03:05:29Z,1,You are the cutest stat teacher i have came across in my life . Lots of LOVE and Respect.,True
+@abdullahsaeed3437,2022-08-14T12:45:21Z,0,what if the number of votes are same? for yes & no candidates,True
+@zhaoqian58,2022-08-12T09:38:22Z,0,"3:38, I was just wondering how do you consider two variables at a certain node simultaneously? For example, following good circulation, we can only choose one of the remaining variables (e.g., Chest pain) as the next node, right?",True
+@abdulsami5843,2022-08-07T20:22:01Z,0,how is the random forest converted into a single final tree or for every time we need to predict we take vote from all trees ? ( so the part after aggreagation is unclear ),True
+@stedev2256,2022-08-03T17:56:38Z,0,"Hi Josh, if we build a regression random forest, each tree in the forest would presumably split the input domain in different subranges that give rise to different avg output values as the result, is that correct? If so, how is the final answer determined (as no two trees presumably give out the exact same answer)? Thanks",True
+@dorothymartin2477,2022-08-02T17:04:07Z,0,"Hi, can u demonstrate on how to do stacking of machine learning ?",True
+@hanadiam8910,2022-07-26T11:59:51Z,1,I can’t thank you enough!!! Your videos saved me 🫶🏽🫶🏽🫶🏽,True
+@xiaohanwu7464,2022-07-23T14:28:08Z,2,"My second time commenting on your musics, they are also the best part of the video, watching a study video and a comedy at the same time, I'm so motivated everytime watching your videos very much cuz of the musics lol. You should consider a music PHD as well :)",True
+@jayhu2296,2022-07-19T18:15:52Z,0,that unresolved G7 in the beggining is really bothering me  😂,True
+@karimahmed7685,2022-07-14T11:30:03Z,0,can you share slides with us,True
+@yuichao0718,2022-07-12T15:40:21Z,1,Many thanks.,True
+@senrichirdesstatistiques9396,2022-07-12T06:31:26Z,2,very well explained,True
+@rmcgraw7943,2022-06-27T04:45:33Z,0,"I guess the key here is the volume of data and # of iterations you use.  But, I guess my compliant could be applied to all of statistics involving randomness.  Still, it has some value, more than a guess anyway.",True
+@rmcgraw7943,2022-06-27T04:44:00Z,0,"The higher the trees from which you create your forest, the more viable your results by reducing variance and bias, but the randomization of selections made for each tree invalidates the entire operation.  I am not sure if pseudo RNG or actual would be better, but I think a pseudo would be required to iterate enough tree generation, and thus you get what you get.  I guess it still has some value, but we’re kind of in a pickle, damned if you and dont.",True
+@nata20117,2022-06-25T17:10:05Z,0,"Very helpful video in such a creative way! I have one question though. If at 8:12 we have let's say 2 Yes and 2 No's for one specific OOB sample, which class are we going to assume for that specific OOB sample? Is it possible such scenario? Does it matter which class we're going to take? Thank you so much in advance :)",True
+@alexisward6435,2022-06-24T17:28:55Z,0,3:08 How do you know what the best candidate is for the first root node?,True
+@sumanmanandhar4124,2022-06-19T13:52:24Z,0,What can be the variables for sentiment analysis?,True
+@michelef406,2022-06-19T09:55:09Z,1,"This is incredibly useful and, yet, hilarious.",True
+@wesamamiri2323,2022-06-16T14:22:29Z,0,Thanks for the amazing explanation! I have a question please.  f we have a raw data (values of PDF functions) that need to be classified using Random Forest or KL-divergence. Is there any theoretical method to check which one outperforms the other? Or just I need to try both classifiers and test which one is better?,True
+@sfundoy5dube59,2022-06-15T06:01:17Z,2,"You're so cool Josh, by only first listening to your song, I knew you'd nail this topic just as usual. You're much appreciated Sir Starmer",True
+@eric752,2022-06-10T12:37:53Z,0,"One question: do we use one bootstrapped dataset for building 100 trees, or we need 100  bootstrapped dataset for these 100 decision trees? Thank you",True
+@christiangericke1125,2022-06-08T20:09:38Z,0,Thank you so much for helping me to easily dive into complex statistical methods. One question remains about this video: You give an example by taking two randomly determined columns for the next step in random forrest (here blood circulation and blocked arteries) but the blocked arteries are not used then and afterwards two new columns are determined but only one of them is used again. So why to choose two or more columns per step instead of one? Thank you in advance,True
+@brenomarcolino1625,2022-06-02T19:23:57Z,1,"Incredible explanation, as always! My favourite statistics channel by far, wish I knew you back in college!",True
+@marcelocoip7275,2022-06-01T13:19:42Z,0,"Hi Josh, great explanation! I keep this doubts: When you test the ""out of the bag sample"" you choose only the trees in which that sample was not used, right? As you said, that a good starting point is using a square root of features for each tree, is there a recomendation to choose the number of trees as a function of samples and features?",True
+@NguyenTran-eq2wg,2022-05-30T10:38:11Z,1,I am saved. This is what my professor struggles to explain for more than an hour. It is so simple.,True
+@nedgu2795,2022-05-27T14:24:35Z,0,"Thank you, Josh! I'm just curious why the data set created in step 1 is called ""bootstrapped""😁",True
+@giang2u,2022-05-26T20:21:23Z,0,9:35 We should start with SQUARE or SQUARE ROOT of the number of variables?,True
+@mobime6682,2022-05-16T20:34:24Z,1,I can't wait to work through all your videos!,True
+@shawnstein8959,2022-05-11T14:25:40Z,1,"thank you, your videos are very helpful",True
+@hitchinaride94,2022-05-09T17:17:40Z,0,"Awesome video. Question, though: When splitting the samples for Weight, it isn't good vs. bad or yes vs. no. How is 180, 125, 167, etc. converted into an answer to a binary question?",True
+@husseinjafarinia224,2022-05-05T12:42:02Z,1,I loved TRIPLE BAM!!! :)))))))),True
+@curtiswfranks,2022-04-21T03:10:51Z,1,Note: The sound effect for progressing through the tree is absolutely necessary.,True
+@DEEPAKSV99,2022-04-16T23:56:16Z,0,"Your videos are so good. Thank you so much.  I have a doubt in the method: While we know which exact trees have a bad out-of-bag performance, why don't we just remove those trees, and retrain new tress until we reach a good accuracy, with very less number of trees with poor out-of-bag performance?",True
+@lingyahu4645,2022-04-11T00:29:42Z,1,You guys are amazing!!!! So clear and easy to understand especially for me who hate math!!! Thank u!!!,True
+@MrPilz28,2022-04-07T09:57:00Z,2,Just discovered your channel. I really like your work. Love the funny moments you add in it. Thank you for clarifying those concepts!,True
+@bluevalley82,2022-03-30T23:25:29Z,1,"Thank you for the knowledge sharing. In the first tree, how the data decide yes or no?",True
+@googlegoogle1610,2022-03-29T18:56:03Z,0,"please, can you teach us how to optimize the hyperparameters using python?",True
+@sadhana2619,2022-03-26T05:04:04Z,1,I found this on top of the list while searching and now I don't need any other video to understand it. Thanks,True
+@Dz_Livestrong,2022-03-24T16:38:21Z,0,"Thank you for summarizing the random forest into such an easy to understand presentation.. i have a question, is the bootstrapping process being done because of lack of sample (I.E repeating of the same dataset)? Can we applied random forest on very big dataset? Thank you in advance for your reply",True
+@nisithaukkarapattanakul8860,2022-03-06T09:57:48Z,1,Thanks !!!,True
+@PeterPrevos,2022-02-22T04:16:19Z,1,I can't see the trees through the random forest. BAM!,True
+@renaldomoon3097,2022-02-15T08:27:06Z,1,nice video! BAM!,True
+@napatyimjan747,2022-02-01T09:08:23Z,1,i like your every clip coz of opening song 🤣,True
+@ouissalsadouni2837,2022-01-26T09:02:49Z,0,"Thank you so much for your amazing explanation! Can you please put the reference of the book ""The Elements of statistical learning""? I found three books with the same name so I'm not sure which one is the right one?  - The elements of statistical learning: data mining, inference and prediction by J. Franklin, T. Hastie and R Tibshirani, 2005 - The elements of statistical learning by J. Friedman, 2001 - The elements of statistical learning by ER Ziegel, 2003 Thank you in advance",True
+@shilashm5691,2022-01-24T03:22:05Z,0,Training dataset sample size should be lesser than the Total Population dataset. It is rule of thumb 💥,True
+@hemitpatel4758,2022-01-20T00:16:14Z,2,Amazing,True
+@FranciscoPereira-uk4mf,2022-01-19T15:40:23Z,1,"Hi Josh! Thank you for your content is amazing! I was wondering if you ever thought of posting a video about Anomaly Detection Algorithms, like Isolation Forest? Thanks",True
+@frederiktolberg8002,2022-01-09T20:11:40Z,2,It just hit me that its called random forest because its a forest of random trees. This channel is pure gold for bioinformatics students <3,True
+@cookie6299,2022-01-09T13:10:39Z,1,2022 01 09 thanks for clear explanation about OOB,True
+@flaviograf4572,2022-01-07T21:10:30Z,0,Thanks for the content. Now I would like to understand the application of random forests but to regressions.,True
+@vig9737,2021-12-25T01:14:46Z,1,4:52 is why I love StatQuest! A serious topic is made a lot more fun lol,True
+@user-yg5hi6gz3r,2021-12-23T08:57:02Z,1,your videos are amazing,True
+@kesemadi8075,2021-12-22T15:43:36Z,1,"Great video, thank you!",True
+@feedtowin1309,2021-12-16T14:57:25Z,1,"I love your opening song, it makes the content less stressful!",True
+@liyuma1937,2021-12-07T20:19:05Z,1,"For each tree in random forest, do we need to prune each tree? thanks!",True
+@lisun7158,2021-12-07T18:16:32Z,2,"0:31 Decision tree is easy to build, but lacks accuracy when it deals with test data. 4:40 Random forest conquers the inaccuracy problem by combing the results of tons of trees (made by bootstrapping using the original train data). - -> 5:44 Bagging  Evaluation: 6:03 ""Out-of-Bag Dataset""                      6:53 ""Out-of-Bag Error""                      8:43 ?build random forest using n variables per step?                               Testing the performance of the random forests build by different n, and choose the best one.                                 n = square root of the number of variables, then a few settings above and below that value.",True
+@projectmanagement9564,2021-12-04T22:03:59Z,0,"What do you mean by using the square of the number of variables? In this case, there are 4 variables, should we use 16 variables? It doesn't make sense.",True
+@jjj408_,2021-12-01T19:03:44Z,3,Words cannot express how much I love StatQuest!!!!!! Thanks Josh for the amazing videos! I'm definitely gonna recommend StatQuest to my classmates!,True
+@mosama22,2021-11-30T07:39:09Z,42,"I'm studying Data Science at MIT, you really can't imagine Josh how much StatQuest is helping me, and a couple more channels, before I start any topic I like to tackle it first or just take a general idea, and you can't imagine how much your videos helped! Short, concise, and to the point! I even started to like mice man for god sack! Thank you Josh 🙂",True
+@vishalmandhani9571,2021-11-29T09:56:35Z,2,Your service to the data science community is very very much valuable...!!! Your videos on basics leaves a long lasting memory..!! Thank you..!!,True
+@megou1678,2021-11-25T21:08:36Z,1,"I enjoy the tutorial and your album a lot. Math + music, what a combination.  thanks for the content this helps me more than my couple hundred dollar textbooks.",True
+@petergriffin513,2021-11-25T07:16:33Z,0,1.5x is just bliss.,True
+@beatriceng23,2021-11-23T15:31:22Z,0,"Hey Josh, quick one. I'm trying to link this to the regression decision tree because ultimately it should be the same idea, just that RF has multiple trees and you can only randomly select from m predictors (where m<p & p = full list of predictors). Understand that RSS (for regressions) & Gini index (for classification) are used to determine the predictor to be used in the node, are these also used in RF? Where do we use RSS and where do we use the OOB error? Thanks a lot in advance, I have an exam next week but not sure if you'd be able to see my question in time :'(.",True
+@NiveditJainBCSE,2021-11-23T05:58:35Z,1,"Hi,  I really like your videos and want to know which software you use to make them?",True
+@karenpedraza9999,2021-11-21T11:08:30Z,1,thank you very much for this well-crafted and excelllent video!! finally understand bagging,True
+@vijaykumarlokhande1607,2021-11-21T03:38:56Z,1,"you are god, just in a few minutes",True
+@konmemes329,2021-11-15T19:55:29Z,0,"Thanks for this video. Just wanted to double check, when you decide to end each tree?",True
+@chenbruce318,2021-11-15T05:59:15Z,1,super clear with big thanks,True
+@sandipansarkar9211,2021-11-01T22:24:30Z,0,finished watching,True
+@user-bz8nm6eb6g,2021-10-30T01:50:40Z,1,Awesome! Thank you so much!,True
+@danillogunov2629,2021-10-26T15:55:28Z,0,"Hey, do we use EA (GA for example) to generate this trees. If not, where i can find info about generation decision trees with GA? Thanks",True
+@75hilmar,2021-10-23T20:04:24Z,0,I am getting a love novel ad... is there a high percentage of female statisticians?,True
+@younesselhamzaoui6783,2021-10-18T12:39:42Z,1,Excelent. Go ahead,True
+@eduardorosendo3208,2021-10-12T20:16:38Z,1,Amazing videos!! Your way of teaching is amazing and the animation is great!,True
+@danielniels22,2021-10-07T04:44:27Z,0,"8:51 what is the scikit-learn's RandomForestClassifier() parameter/argument, so we can either choose the random 2 or 3 and so on features/columns from our dataset to build and compare those various Random Forest? I tried to read the documentation, but didn't really find the one that match this one 🤔  Or should we just code our own def function?? Thankss 🐣",True
+@szco9814,2021-10-07T03:14:20Z,1,Better than my professor for sure!,True
+@joeyzalman8254,2021-10-03T09:02:46Z,1,"Thank you for another great video, i love how you are to the point and explain everything in such an easy way",True
+@shaahinfazeli9095,2021-10-01T08:20:00Z,1,Thank you very much  very intuitive    Triple BAM!!!,True
+@brendansullivan4872,2021-09-28T17:27:01Z,1,TRIPLE BAMMM!!!!!!,True
+@isurumahakumara,2021-09-27T06:53:39Z,1,Dude you're funny and I learned a lot 😂👍😉👏,True
+@abdallahsiyabi4784,2021-09-26T07:55:19Z,2,Too bad it's not up to you Josh :D @6:42,True
+@chaimaa8642,2021-09-23T23:33:05Z,1,the way statquest Channel makes learning Maching Learning easy is just B.A.M,True
+@myaimine3921,2021-09-23T04:48:28Z,1,Oh my god you made it easy to understand. Please keep this process.,True
+@user-mg1xi9mn7n,2021-09-12T05:17:18Z,0,"AT 7：13 say “run the out-of-bag dataset through all the other trees” is it correct? Each dataset has its own out-of-bag dataset,one data is out-of-bag for this tree, but maybe is not out-of-bag for that tree?",True
+@pradeepsingh-zu1pi,2021-09-09T17:12:36Z,0,"Thanks for the video, juat one question, if we are using booststrapping, isint it extension of random forest that is bagging? Please help",True
+@bhuppi13,2021-09-09T10:21:11Z,2,Me in interview: BAM! Interviewer: Double BAM! Me: Triple BAM!  Triple BAM always wins.,True
+@yacobzuriaw8483,2021-09-07T15:52:45Z,0,"Question: if you're building decision trees using n number of randomly selected variables, then among the 6 shows trees how does there exist cases where a root node leads immediately to a leaf? Shouldn't there be at least 1 more node, since I'm supposing that no single category explained Heart Disease better by itself.",True
+@Pongant,2021-09-06T12:26:28Z,1,"For everything, there's a statquest episode.",True
+@jmac8470,2021-09-03T04:45:37Z,1,i love everything about this video,True
+@Integralsouls,2021-08-31T15:15:50Z,0,The songs dont even rhyme!!   I love you ur channel btw.,True
+@hmna_bujs_bhjl,2021-08-28T18:54:33Z,1,"Thank you Josh, have a good day",True
+@gbchrs,2021-08-25T17:25:59Z,1,bagging just got a whole new meaning,True
+@user-dn5hg8ch4m,2021-08-21T14:59:54Z,0,"Thanks for your sharing！But I find it hard to understand without learning the decision tree. Could you please list the content we need to know in the command or introduction, such as an url of decision tree learning etc. Thank you!",True
+@ahmedabuali6768,2021-08-16T13:03:01Z,1,I love that,True
+@joshelguapo5563,2021-08-04T22:39:48Z,1,These theme songs just tickle my jimmies,True
+@rgodoy86,2021-08-03T16:43:44Z,1,"Impressive way of explaining, I love it!  Lots of tutorial lost themselves in Xi, Y, Theta (and bad handwriting and unclear words  does not make it easier)   many thanks",True
+@amalnasir9940,2021-08-02T15:50:27Z,0,"I'm sure you guys know that you're AWSOME. BAM! I want some clarification on 5:50 ""Bootstrapping the data and use the aggregate to make a decision..etc"", what do you mean by using the aggregate? Thank you",True
+@julescesar4779,2021-08-01T14:04:12Z,1,❤,True
+@hamman_samuel,2021-07-23T16:21:01Z,0,"Bam-Bam Rubble approves! Except for 3:18, which is still unclear to me. What's the ""2 random variables"" part mean? We only get to choose from the 2 randomly selected variables for each branch node?",True
+@wiczus6102,2021-07-18T19:48:33Z,1,Midway upon the journey of our life I found myself within a random forest...,True
+@meysamamini9473,2021-07-07T13:27:06Z,1,booo bedoo bedooo bedooo bedooo bedooo bedooo! 😂😂Ur amazing !,True
+@AradAshrafi,2021-07-04T22:18:38Z,1,Your songs are also amazing. I loved the last album you shared on Bandcamp. It motivates me to continue my passion for music as well as my studies in Computer Science.,True
+@hoaile2289,2021-06-26T15:50:44Z,1,"great video, great voice, easy to listen, it's helpful for people who are not native English speakers like me.",True
+@gyasaswini3037,2021-06-22T09:49:32Z,0,Is there any mathematical equations in random forest?,True
+@carlosmspk,2021-06-16T10:30:24Z,0,"Wow, I've seen the term ""bagging"" so many times and I had always assumed it was just another way of referring to classification (since these two usually go hand-to-hand) and never ever considered looking it up, cause it always made sense (although it was weird that authors pointed out that they used ""bagging"", despite already having described that their approach was a classifying one)",True
+@natureaspirers6444,2021-06-14T08:29:07Z,1,Great Explanation Josh,True
+@siddheshsutar3879,2021-06-11T15:49:02Z,0,"I have a doubt as we use out-of- bag data to estimate the accuracy and we create new bootstrap dataset for each new tree, which out-of -bag dataset  to consider for the estimation of accuracy as there is N number of bootstrap dataset to choose from. BTW lately watching all your video thanks for explaining the topic and making it so easy to understand!",True
+@xaaksw,2021-06-11T04:49:52Z,1,man I love it !,True
+@ThinhNguyen-zb6rv,2021-06-10T17:37:30Z,0,"Ser , In the right note at 3:38 , what should we fill in ? tks",True
+@mehdiaiyad7840,2021-06-08T10:19:41Z,4,"The ""Oh no! Terminology/Jargon alert !"" always gets me",True
+@gr4707,2021-06-07T01:23:02Z,0,Ensemble models.,True
+@pallavimanjunath8349,2021-06-06T04:03:33Z,34,I have no background in Machine Learning and was attempting to understand random forests. Watched a bunch of videos but this was the one that actually made it clear to me. Thanks a lot!,True
+@lakshman587,2021-06-04T11:47:51Z,0,1. What are the prerequisites for learning *The elements of statistical learning* book? I have seen the book. But the prerequisites mentioned in that book was not satisfying 2. Is it really necessary for learning the whole book(mentioned in 1)? 3. Is the book really good for beginners?,True
+@rubensasson175,2021-06-01T14:39:52Z,1,"So good, thank you very much !!!",True
+@aditirathore8167,2021-05-23T06:28:04Z,1,"I wasn't even looking to understand all this, I only wanted to understand the basic definition, its not even the part of my curriculum, but the videos are so engaging that before I knew it , I've seen like 5-6 videos of various topics.",True
+@danielgray8053,2021-05-13T13:55:47Z,0,Oh man super radioheadesque on this one,True
+@yuentsang6903,2021-05-06T16:28:50Z,0,Best explanation.  Do you have a video for random survival forest?  Thank you.,True
+@breopardo6691,2021-05-06T11:00:32Z,0,"Hello @Josh Starmer, I have one question, at 7:12  you mention to use the out-of-bag dataset in all decision trees of the random forest. However, my question is, there is not a unique out-of-bad dataset, since each decission tree has its out-of-bag dataset, right? (every new decision tress is built with a new boostrapped dataset+random subset of variables at each step). Therefore, unseen data for one decision tree not necessarily be unseen data for another decision tree. Could you or anyone please help me here?",True
+@sundarkris1320,2021-05-03T22:50:21Z,1,"If someone teaches at this level, anyone can become data scientist..",True
+@xy-gw6ti,2021-04-30T02:46:38Z,0,"What do you mean by selecting only 3 variables in total, but the tree has 4 layers? Confused here. 3:39",True
+@kangtaw,2021-04-16T04:24:12Z,1,Hail BAMS. Thank you. Your explanation is very clear 🙌,True
+@praveerparmar8157,2021-04-14T19:29:12Z,3,"This video is totally ""Out-of-Boot"" among all other Random Forest videos on YouTube  😀",True
+@salivona,2021-04-12T08:54:29Z,1,"Thank you, you are talented teacher!",True
+@MrOchsenfrosch24,2021-04-11T12:22:01Z,0,"Hey, at 3:08 you say, for the sake of the example we assume, that good blood circulation did the best job at seperating samples. I have two questions: 1. How exactly is the variable determined, that does the best job at spereating samples? 2. What does it mean to ""do a good job at seperating samples""? To split the samples as even as possible?  I would really appreciate a quick reply, thank you! :)  EDIT: I am dumb, I should have watched the mentioned video about decision trees. There it is wonderfully explained at 3:30",True
+@mukuldhalia8407,2021-04-10T04:58:04Z,1,Bam,True
+@mrwhatevs3760,2021-04-03T07:41:22Z,1,"you're the best!!! Jesus Christ, this has been great help for my ML course",True
+@thanapholwatthanachoktawee3180,2021-04-02T07:31:29Z,1,Very clear and illustrative!,True
+@akashjauhari7853,2021-04-01T06:18:09Z,1,Sitting here and enjoying your videos like a ml movie. Bless josh bless YouTube 😀,True
+@teelee3543,2021-03-27T06:42:09Z,0,whether the random forests model could be used for a panel data ?,True
+@obliviontb,2021-03-15T21:32:37Z,0,Is bagged trees the same as random forest?,True
+@rickb_NYC,2021-03-12T18:43:05Z,1,This makes it so easy. I understand it well enough to explain it to others. Thanks.,True
+@pranavagarwal9757,2021-03-11T06:59:05Z,1,lots of love from India! <3,True
+@jay-rathod-01,2021-03-08T04:49:25Z,0,This is too much of music😑,True
+@siyuanwei8315,2021-03-07T22:48:34Z,1,BAM BAM BAM ! ! !,True
+@OZ88,2021-03-06T16:46:59Z,0,"Josh although I have an msc in statistics please explain to me: why do we call the observations samples instead of using ""sampling observations from the original sample""?",True
+@spearchew,2021-03-05T11:44:46Z,0,"Another great video.   Here's a tricky bit though:  To build the forest we ""go back to step 1 and repeat... make a NEW bootstrapped dataset"".  It seems to me that what we call an ""out of bag sample"" will ONLY be truly ""out of bag"" for a sub-set of the trees in our forest - because many of the trees in the forest WILL actually have been trained on that particular sample (assuming the bags are different for each tree).  I'm struggling with this concept because it seems a bit UNFAIR to evaluate the effectiveness of the forest using ""out of bag samples"", when each tree is not necessarily being fed the SAME diet of ""out of bag samples"".   Hope that makes sense to someone...",True
+@tymothylim6550,2021-03-05T05:41:09Z,1,Thank you very much for this video! It was a great use of visuals to explain the progression of various aspects of this topic (e.g. eventually using the out-of-bag samples to calculate accuracy)!,True
+@docd5949,2021-03-04T21:58:30Z,0,Omg just realised my teacher uses the examples you use just by modifying their names and keeping all other values same😂😂  Should have just referred to your videos😂,True
+@catherinehiggins4526,2021-03-02T19:47:13Z,0,Hi when you calculate the best split branch do you take in all the other attributes for calculating the Gini index / Global entropy with just the 2 randomly selected attributes ? Thanks,True
+@vishalverma-wx7eo,2021-02-23T04:13:52Z,0,The mechanism f the algorithm seems to have very huge space and time complexity. Isn't it?,True
+@saifhakeam8599,2021-02-19T16:05:06Z,3,Man you're a legend. LOVE Your content especially the music.,True
+@slyel2747,2021-02-18T14:03:45Z,0,"Hi, thank you so much for these videos, they REALLY help! Can I ask if bagging also works on regression tree with quantitative responses, and if so should we just average SSR as OOB error estimates? Thanks!",True
+@anirudhgupta455,2021-02-14T07:39:39Z,0,"While creating a bootstrapped dataset at first, do we need to take the same number of rows we had for the original dataset?",True
+@high_fly_bird,2021-02-07T09:33:26Z,4,"the presentation is so simple and adorable, and what's more the topic is truly clearly explained! Thanks!! I love this animation and color choice",True
+@TooManyPBJs,2021-02-06T17:25:19Z,0,"Can you make a video on the Friedman dataset (make_friedman1 , 2, 3  from sklearn)? And possibly a part 3 to this for Isolation Forests? Thank you!",True
+@hugogallardo8559,2021-01-24T20:23:19Z,1,Nice!,True
+@talmaimon4534,2021-01-21T00:43:19Z,0,"When you said at the end ""we start by using the square of the number of variables"" Did you mean square root? If I have 100 variables, I'll start by setting number of variables at each step to 10 and then work my way through there?",True
+@aasavarikakne3655,2021-01-17T12:13:01Z,0,"While testing, shouldn't we use a completely out-of-sample data point? Because an examples 'x' maybe out-of-bag for 'tree 1' but may not be out-of-bag for 'Tree 2'. Thank you in advance for your help!",True
+@vigneshvenkateswaran3270,2021-01-04T13:07:14Z,0,Would you be intersted in making a video on iterative random forests as described by Basu et al 2018: https://www.pnas.org/content/115/8/1943 ? It sounds super interesting. Once again thanks for the content. It is super interesting.,True
+@marioandresheviacavieres1923,2020-12-30T19:50:23Z,1,"If it were up to me,  I would propose you for a big price, like a novel price of sharing, unfortunately is not up to me, but in my mind  thinking about it already. Thanks dude!",True
+@lejyonerxx,2020-12-24T17:05:52Z,0,"Hello. I have a question about evaluating the random forest. The proportion of correctly labeled out-of-bag samples gives the accuracy, right? But each tree in the forest were built using a different bootstrapped dataset. Therefore I guess each sample in the original dataset is used to evaluate only the trees that were built without using that sample. Am I right?",True
+@victorreloadedCHANEL,2020-12-16T15:05:43Z,0,"Another one Josh 😇 If the first node after the root node, in the left side, happens to be the variable “V1”, will that variable be one of the eligible in the right side nodes after the root node?   I mean, when you grey out one variable, it won’t appear again even if it is in a “path”/“branch” where such variable never appeared before...  Thank you",True
+@rajputster,2020-12-16T10:32:33Z,0,Amazing videos. Loved them. Could you pls also explain how reducing the number of varibales also reduces corrleation among the trees?,True
+@victorreloadedCHANEL,2020-12-15T15:39:44Z,0,I have a question: should you set an odd number of decision trees so that you get never a tie in the classification of a sample?  I mean: what if 3 trees classify a sample with target 1 and the other 3 trees classify the same sample as target 0? What target can we assign to that sample?  Thank you from a fan,True
+@victorreloadedCHANEL,2020-12-15T15:29:29Z,1,I could have 12 bacherlor’s degrees if Josh were the teacher (I have just one),True
+@diegoguillen4847,2020-12-07T18:11:04Z,1,Best explanation!!,True
+@RishabhJain-uv7zj,2020-12-06T11:17:25Z,0,Great Video. is it necessary for the bootstrapped dataset to be the same size as the original dataset?,True
+@2DReanimation,2020-12-05T17:17:45Z,2,"Damn! visualizing the trees, and going through it step-by-step, really engraves the workings of decision trees and random forests in my brain in comparison to the head-spinning math formulae on Wikipedia ^^ I mean, when reading on Wikipedia, you have to carefully consider each formulae, instead of just getting the big picture, and being able to consider the applications of it as you go through samples here. It's just a more efficient learning method, no question about it!  This is really an example of a video tutorial beating book learning by miles! I mean just 10 minutes, and you can really get the gist of it, then you can start considering the actual implementation of it, and its different forms. Instead of getting bombarded with math right from the start! ^^  I would have liked more information on the nodes instead of keeping them empty though. Also a flow-diagram of the whole algorithm would have been nice.  If you have the time and energy to read up on a lot, well, that's the way to do it! it's very rewarding! but I'd direct most people right here if they want to know how advanced decision trees works! As someone who's more intuitive and creative, it's clearly the best way! I can simultaneously think about my own data-sets and applications as I'm watching, whereas reading would take up more mental resources.",True
+@johnanih56,2020-12-05T16:54:30Z,1,I wish I could like this more than 100 times :),True
+@henkhbit5748,2020-12-04T21:59:21Z,1,"Great explained. In the standard decision tree we have nice ""if then else"" rules. Is this also possible in random forest? And how can you see the contribution of each variable?",True
+@harvey2242,2020-12-02T11:11:39Z,0,Clear and concise as always.  Will you be making a python video on random forest?? similar to the one you did for the decision tree.,True
+@moma2804,2020-11-27T10:20:07Z,0,"Great video, Josh! I have a question regarding the process of running all of the out-of-bag samples trough the trees of the forest. Since every tree has its own bootstrapped dataset -> each tree has its own out-of-bag samples. But when it comes to evaluating the forest, we run all the out-of-bag samples through all of the trees? Does this mean the out-of-bag samples of tree A, are not just run through tree A, but also run completely through tree B, tree C and so on?",True
+@grandthruadversity,2020-11-26T14:21:04Z,1,fk this channel is awesome af,True
+@antoniosong96,2020-11-18T18:09:29Z,1,You're funny as hell dude. keep it up,True
+@matthewwright2268,2020-11-17T23:32:18Z,0,"Great work, Josh! I see there are some minor nits that have been raised. If you make a revised version, I think it would be good to clarify that there is one bootstrap per tree. To me, it seems to currently suggest that there is one bootstrap data set used for all trees, in part because the same OOB data sample is shown to be tested on all the trees.",True
+@thisismuchbetter2194,2020-11-17T01:40:24Z,0,checkout my StatQuest and be .......... what did I hear?,True
+@haliml,2020-11-13T21:50:14Z,0,made a little quiz to go with the video http://datasciencedrills.com/quiz/random-forests/,True
+@sheilacloudcroft,2020-11-12T04:25:37Z,1,lol ... the intro. classic.,True
+@jeffery_tang,2020-11-09T03:52:16Z,0,6:51 out of bag also makes sense since it's not part of the bagging,True
+@gavin8535,2020-11-08T23:17:23Z,0,so the out of bag data is like the test data set when we split data into training set and test set?,True
+@lisaron13,2020-11-05T12:20:55Z,0,"A question: During the training of the model (partly step 2 of this video) the model tries to get the best split at each node. In the end of a tree it gives the sample a final value. During this process, does the model take into account the value of the dependant variable of that sample? Like, does it try to get 'yes' as the outcome if the real value of that sample is 'yes'? Or does the model not look at the pre-knowledge about the sample (aka the value that the sample has in reality).   Also second question: How do you decide how many splits your trees should max get?",True
+@zainabihsan017,2020-11-04T18:48:13Z,1,This was so good!! thank you.,True
+@KansasFashion,2020-11-04T05:16:33Z,0,"Hi Josh, I have a question about ""voting"" part. In the above example, we got 'yes' 'no' 'no' '168'. In every situition, there'll be only one tree exactly matching our given input. So how could you get more than one different routines? Like since we already know chest pain is yes, why do we still go to the tree path where chest pain is no?   Thanks,  Kansas",True
+@alfaris5523,2020-10-30T13:20:36Z,1,Thank you,True
+@nicholasheimpel5998,2020-10-29T23:10:02Z,0,"My guess is that Gini impurity is related to the Gini coefficient used in economics, which is an index of wealth inequality in a population. The two values are conceptually similar but computationally distinct. It looks like you can also use the Gini coeefficient in machine learning. Overall, Gini seems to relate to various aspects of inequality.  https://datascience.stackexchange.com/questions/1095/gini-coefficient-vs-gini-impurity-decision-trees https://en.wikipedia.org/wiki/Gini_coefficient",True
+@lisaron13,2020-10-28T12:55:23Z,0,"So, not all trees are validated by the same data, correct? Since the out-of-bag varies among trees.",True
+@tiagoshimizu6473,2020-10-25T13:31:26Z,0,"Thanks a lot for the amazing explanation! I have some questions:  1. As Random Forest has OOB and you find accuracy looking at the OOB error, does it mean that it is not needed to split your whole dataset into training and testing? Or should you still do it? - if you should still do it, is there any correlation (or is it the same) the model score and the OOB error?  2. Is there any video explaining how to optimize RF by selecting the best number of variables? That would be great!  3. Is there a final confusion matrix or do we have the number of confusion matrix as the number of trees we created? - How can we draw it if there is a final one in Python?  4. Would it be possible to record a video like you did for Decision Tree but for RF showing a python code? That would be awesome! - it could be with the optimization of question 2 - it would be nice to look at one of the forest trees  - another idea would be to add cross validation in the end  That would be such a complete video!  Thanks a lot for this awesome work you’re doing! TRIPLE BAM!",True
+@sherryqixuan,2020-10-17T22:28:48Z,0,"Love your video. I have one question, what is the benefit of creating a  bootstrapping dataset? My understanding is by creating the bootstrapped dataset, we not only random resampled from the original dataset, and the main benefit is to get the ""out of bag"" dataset for evaluation. But this can be done also from a train-test split? Thanks a lot",True
+@sandeshbirla4331,2020-10-17T20:00:16Z,1,"Great explanation, made concepts simple and easy to understand!",True
+@MelNuesch,2020-10-14T07:54:40Z,2,the best channel ever!,True
+@pisoiorfan,2020-10-13T11:49:20Z,0,in the end can't use another random forest (or decision tree)  to pick the most accurate random forest?,True
+@matyas7403,2020-10-11T13:13:54Z,1,This patient has heart disease! BAM! Let's go!,True
+@sasss7060,2020-10-10T22:39:16Z,1,i searched for so many tutorials but no one explained it like you. Thank you!!,True
+@QueenD75,2020-10-08T23:48:05Z,0,Isnt the out of bag sample same as test data ? A little confused,True
+@zacharypashkutz2406,2020-10-08T17:02:47Z,0,"What does he mean at the very end by ""using the square of the number of variables and then try a few settings above and below that value""? Let's say I have 10 variables, how many variables should I start with?",True
+@boyu4415,2020-10-06T15:16:18Z,0,"Hey Josh, thank you for clear explanation. Can you also discuss random forest for continuous variables? Thank you again!",True
+@sulavghimire6473,2020-09-30T11:58:43Z,0,Why always dad songs at the start of the video?,True
+@puneettiwari2251,2020-09-29T08:17:58Z,1,"Awesome,now i regret breaking my head. Should have watched this video earlier. Awesome...",True
+@martinotanasini3716,2020-09-23T10:49:54Z,4,"Heavily relying on these videos to understand the techniques relevant for my Master Thesis in experimental particle physics. Thank you so much, you are the best!",True
+@adityafirman3116,2020-09-21T13:41:14Z,1,Thanks a lot,True
+@santoshthapa876,2020-09-20T02:47:48Z,1,just wow man!!! Thanks I got this channel,True
+@Govindyatnalkar,2020-09-18T13:04:19Z,1,The best explanation for Random forests!,True
+@bakulpatil8478,2020-09-17T22:00:31Z,1,This is the best video that very well explains random forests.Very Helpful!,True
+@Themojii,2020-09-15T21:56:27Z,322,"Please continue what you're doing. YouTube users are blessed to have you here. Your contents are not long, right to the point, clear and your way of teaching is amazing. If there will be a heaven you will be right in the middle of it.",True
+@edgargarzon350,2020-09-07T09:08:19Z,1,Best explanation I found on the topic in youtube,True
+@ahmadz113,2020-09-03T15:15:27Z,1,"You are the best man , keep doing what you are doing !",True
+@mohakdayal2517,2020-08-31T12:30:13Z,0,"Hi Great video,  I had 1 question though, The ""Out of Bag Dataset"" has the entries of data that was not taken in any iteration of creating the bootstrap dataset (because in every iteration new bootstrap dataset is created) ?",True
+@rajarajeshwaripremkumar2842,2020-08-25T04:36:49Z,0,Is it good to use random forest model for time series forecasting esp. if the data does not have trend and only seasonality?,True
+@mayconmarcao4554,2020-08-15T21:50:42Z,42,"Your ""BAM!!"" always bring me back to the reality when, eventually, my brain takes a nap during the class haha. It makes me go back and rewatch the issue. I really appreciate your art, sir.",True
+@av3499,2020-08-11T23:08:48Z,0,you mentioned decision trees are inaccurate and that's why we do random forests. but why are decision trees inaccurate ? could you give example of simple dataset where RF performs better than DT ? and why does randomly choosing rows/columns perform better - what's the intuition behind it ?,True
+@mehraadi09,2020-08-08T08:16:33Z,1,"I hope you remember me, the one who accused you of not explaining p-values properly. Thank you so much for uploading this gem. And yes, I understand P-values now, thanks to you. HAHA",True
+@PRUTHVIRAJRGEEB,2020-08-07T16:27:21Z,1,This is one lovely presentation on Random Forests! Thanks a ton for making it easy for us to understand.,True
+@HarpreetKaur-qq8rx,2020-07-30T01:40:10Z,0,Could you please do a Random Forest for Regression too,True
+@YLIU-fr3gp,2020-07-29T07:36:35Z,1,Nice!,True
+@nmana9759,2020-07-24T10:44:13Z,0,"At 3:12, what do you mean by the 'best job at separating the samples'? Can you elaborate?",True
+@veducatube5701,2020-07-23T23:06:46Z,0,please make videos on ANN. PLeaae Please Please.  Regards from INDIA,True
+@harinijeyaraman8789,2020-07-23T08:27:37Z,1,"This was such an awesome and a cool video !! Found this helpful :)  Kudos for making this video, and hope you continue with your Quest !!",True
+@Adriana-cq2rr,2020-07-17T16:37:25Z,0,"Hello! And thank you very much for all your videos :)  I have a question: what happens if when we want to predict if a new patient has a heart disease or not, after running through all the trees, the results of YES(heart disease) or NO(heart disease) are equal? Is this scenario possible and if yes how the algorithm deals with it ?",True
+@xiaoxiaozhou6956,2020-07-12T16:49:23Z,1,"I like this, quite clear explanation and hit the points we need to know. Thanks.",True
+@neerureddy2656,2020-07-06T16:56:01Z,0,"Really loved your video , it was awesome. TO be honest, I didn't follow up first times, because I had a whole lot of doubts in between. Like running 'out of bag dataset' only through trees which are built ""without""⚠️ them.. and then do it for all out of bag samples with all trees built without them..  I initially had confusion that whether to run it with all the trees in the forest.🤦‍♂️..(which is NO),    hope u will  reply, if ur reading this...",True
+@derekw1073,2020-07-06T06:17:51Z,1,This video is so good thatI died at 'psst...'',True
+@matrix4776,2020-07-05T14:36:55Z,1,I read lots of blog on Medium app..none of them clarify  its so well the you do Mr. stramer. Thanks for your effort to make is so easy,True
+@RealSlimShady7,2020-07-01T05:51:23Z,0,"Amazing content as always! I had a small doubt. Suppose we have 100 features and 1000 observations in our dataset. As per random forests, if we create 100 trees, we will randomly select sq root of features = 10 for every small tree where these features might or might not repeat and we will bootstrap the data for every tree. Will all these 100 trees have the same number of observations as the original tree(1000 obs), the only difference being that the observations would be bootstrapped. Is this observation thing the same in bagging and boosting? (Boosting does not consider bootstrapping iirc).   Also one question as per curiosity, What if we randomly create observations like in SMOTE using KNN rather than bootstrap? The observations will be different so might do better??  Thanks for your patience with this questions and BAMMMMM!!!!!",True
+@amarmaruf8909,2020-06-30T15:12:58Z,1,QUADRUPLE BAM!,True
+@DrlGSN,2020-06-29T07:41:46Z,0,How do we decide which random features to be a candidate for a node? Is it using Gini Impurity like in Decision Tree?,True
+@lbryan250,2020-06-28T21:52:40Z,0,3:16 So we can't use the same variable twice in a single tree? I thought you're supposed to take a random sample from all variables at each split.,True
+@SaroshFatimasash,2020-06-28T12:54:26Z,0,"At 9:29 you said 'square of the number of variables, I think it's ""Square root''. wa...waa..",True
+@riteshpatidar9184,2020-06-26T12:54:34Z,2,"you are good, I am subscribing",True
+@ramons.g5135,2020-06-23T17:37:59Z,0,"Hi Josh, i have a question related to how to compute the accuracy of the random forest. Does it really matter whether to use the o-o-b sample or the validation test set, since neither of these are used to obtain the trees in the forest? Thanks!",True
+@me3jab1,2020-06-23T16:44:45Z,0,how to calculate a misclassification rate from Tree graph ? please help,True
+@grzegorzl4825,2020-06-22T08:46:16Z,1,5:25 - I love democracy,True
+@Rifqiri,2020-06-19T13:11:57Z,0,"hello sir , i wanna ask if random forest is used in regression model did random forest build a decision tree or a regression tree?",True
+@gabrielcournelle3055,2020-06-19T12:15:21Z,0,"Thanks for this amazing explanation. I have a question concerning the calculation of the OOB score. If i understand correctly, the boostrap dataset is different for each tree. So that means that the out of bag dataset is different for each tree. Is that correct ? Does that mean that the we calculate the OOB score for each tree independently and that the final score is the average of these scores ?",True
+@rahulahoop1,2020-06-18T15:48:53Z,0,when did kevin from the office get smart?,True
+@amrutajahagirdar7438,2020-06-18T06:34:57Z,0,"What I do't understand is after selecting two candidates for root node, how we end up with the winner?",True
+@rhysprevite8733,2020-06-17T18:07:57Z,1,Hi Josh. Would you highly recommend the book 'The Elements of Statistical Learning' you mentioned for someone learning data science and machine learning?,True
+@PaulXiaofangLan,2020-06-16T18:59:34Z,1,"In terms of `Gini`, it sounds like the `Gini Index` used to indicate the distribution between the rich and the poor. It's a major feature measuring economic inequity. https://en.wikipedia.org/wiki/Gini_coefficient",True
+@varunpusarla2590,2020-06-16T12:46:49Z,1,This patient has heart disease. BAM!,True
+@ashishpondit8183,2020-06-14T05:44:20Z,1,awesome dude,True
+@aleidalimaciasangeles9808,2020-06-10T16:19:20Z,1,Muy útil y muy claro el video!,True
+@awanishkumar6308,2020-06-06T17:45:11Z,0,Will you please not start with singing,True
+@navinkrishnan9419,2020-06-06T17:22:54Z,1,You are awesome! Thank you!,True
+@thomasrobatsch2582,2020-06-03T08:02:51Z,0,"At 9:08 I thought we didn't have to select the most accurate forest, as we were just taking the average of the decision of all trees and then rounding it to 0 or 1.",True
+@ibrahemnasser2744,2020-06-03T05:09:24Z,1,Triple  Thanks,True
+@kemalcn,2020-05-30T22:15:10Z,0,"In your video, you created several decision trees per bootstrapped dataset. For ex. if you have M amount of bootstrapped dataset, and you created B amount of trees for each bootstrapped data set; you ended up with MB amount of trees. Some other resources suggest that each bootstrapped dataset has only 1 decision tree. Is there general consensus there ?",True
+@sidharths9416,2020-05-30T19:43:15Z,2,BAAM! Why didnt damn youtube suggested this channel to me before,True
+@shubhamjha8662,2020-05-30T15:22:08Z,1,❤️❤️❤️ from Bihar India,True
+@myunghee7231,2020-05-27T20:48:47Z,0,random forest and bagging are not sensitive to outlier ? they both use bootstrapped data and they use mean so i think they are sensitive to outlier  i was wondering if i have outliers how to use both trees.... 😹,True
+@dannyisrael,2020-05-22T21:29:52Z,0,"Are out of bag samples out of bag for all the trees or just at least one of the trees? Initially it sounded like you selected it because it was out of bag for one tree, and then you let all the other trees judge it.",True
+@mohammadsalman3257,2020-05-16T18:44:52Z,1,best video man!,True
+@rabiafiaz5292,2020-05-16T17:46:47Z,0,Can i get these slides??please,True
+@balasubramanian5232,2020-05-15T07:03:33Z,0,Hi I have a couple of questions. 1. Is there any rule for the number of trees in random forest? 2. Is there any rule for the size of bootstrap dataset?,True
+@aggelosdidachos3073,2020-05-11T18:29:14Z,0,"Hi again Josh. I hope you're not getting tired of my questions! ""And we just build the tree as usual"". Does this mean that after we select 2 variables randomly, we pick the one with the lowest Gini score? I just want to make sure that the random choice does not concern which of the 2 randomly selected variables will be used as a node.",True
+@vishank7,2020-05-11T06:44:28Z,1,"I can't be any happier lol! Thanks a ton for the vid, the explanation is awesome!",True
+@kumarrishabh8904,2020-05-07T09:55:53Z,1,"Again one of the simple and informative video on Random Forest! I can't resist applauding for your work. Last moment you mentioned, @9 :28 that we should start by the square root of the variables what does that mean exactly?",True
+@guillaumegiroux9425,2020-05-07T03:12:41Z,3,"I'm in grad school and I'm supposed to ""quote"" litterature, yet I just watch StatQuest's videos because they are easy and fast.",True
+@utkarshsharma7336,2020-05-06T13:32:17Z,1,Bammm!!,True
+@iefe65,2020-05-05T16:12:36Z,0,"In 3:16, you said you were going to gray out Good Blood Circulation, but in principle if we use a variable, we can still use it again in the same tree right ? If we choose Weight instead (and we split with weight > 30 & weight <= 30) we can still pick it again (with weight < 15 and weight >= 15) right ? Not sure if I confused some principles of decision trees : (",True
+@Alejandra-jq4xf,2020-05-02T18:06:50Z,0,"Hi Josh! regarding the random selection of features, do we have to select from the remaining variables that are not being used in the current node, or can we include that variable as well? thanks!",True
+@melakuhailelikka,2020-04-27T15:48:06Z,0,"Thank you, Josh, for making things much easier. This 10 minutes tutorial is almost tantamount to reading one whole book about random forest decision tree. I heard the piece at 9:39 as '.... square root of the number of variables....""",True
+@ninglu1636,2020-04-21T13:17:21Z,0,"Despite the good material and explanation, the ""bam""s are distracting and annoying, to say the least.",True
+@hemantdas9546,2020-04-19T02:26:52Z,0,What if number of yes and no are same suppose 2yes and 2 no. Then what ?,True
+@adhiyamaanpon4168,2020-04-18T10:16:06Z,0,@ 8.13..IS THE OUT OF BAG ERROR FOR 1ST ONE IS (1/4)i.e..proportion of incorrectly classified,True
+@Xiao-rf9kl,2020-04-17T21:33:05Z,0,"Hi Josh, thanks for the video, very helpful! I have a question about using random forests regression for prediction. In this video, you averaged the results, and treat them with equal weight. Is it necessary to define a weight factor for prediction? If yes, in what form the weight factors should be calculated? thanks a lot!",True
+@anurajjaiswal4609,2020-04-14T05:30:03Z,11,You are a boon to humanity...Hope you make a lot of money:),True
+@baselkhateeb,2020-04-13T22:06:40Z,2,"Wow man,, best explanation on earth,, we love you,, I watched and read alooooot about it but was ending up more confused,,, I wish your way of explanation becomes the standard",True
+@abdullahak2204,2020-04-12T14:11:10Z,1,This is explained brilliantly it's so simple and makes the concept clear,True
+@atakanekiz,2020-04-08T19:58:08Z,12,Your videos deserve a million kudos. They should be a legit applied statistics class for biologists like myself. Please continue your amazing work! I invite everybody to support Josh with as little as $1 a month.,True
+@fahimfaisal4660,2020-04-08T14:09:14Z,1,Great!!!!!!,True
+@lomailru20,2020-04-06T02:03:05Z,0,Hi again!) I have a question for you. How we make a final prediction (in case of numeric values) if the leaves of each tree contsist of residuals? Thank you),True
+@salamissmail6235,2020-04-04T16:40:46Z,1,Wow! Amazing explication!,True
+@marystreet7661,2020-04-04T15:00:20Z,0,"Hi two questions if you don't mind regarding the feature selection of the random forests. 1. if good blood circulation and blocked arteries were chosen at the root node for the features of a specific tree, are those the only two features considered for the rest of the tree construction? Or at the next node (not root) would we also take into account weight and chest pain for the next split? 2. are the same number of features chosen for each tree of the random forest? Can we have blood circulation and blocked arteries chosen for one tree and then blood circulation, blocked arteries and weight as features for another tree?",True
+@heart328mind,2020-03-31T16:48:03Z,5,easily the best channel for data science/machine learning. respect,True
+@harshitgupta5053,2020-03-30T04:04:31Z,2,triple bam,True
+@vinaychawla5949,2020-03-29T22:33:17Z,0,"Does the ""bootstrapped dataset"" always have to be the same size as the ""original dataset""?",True
+@ImtithalSaeed,2020-03-26T10:55:06Z,1,simplely explained,True
+@fatimahabib1431,2020-03-25T18:45:20Z,0,Thank you for these great efforts. I have a question when we are building another Random forest should you create a bootstrapped dataset again or we use the same bootstrapped dataset    ?,True
+@sneakeraplus,2020-03-25T15:18:32Z,0,"Can you please do a video on support vector regression (SVR) as opposed to SVM. I actually sruggle with how we decide epsilon for SVR. I know for SVM, we use cross validation in allowing misclassifications as your video said. However for SVR, I wonder what the cross-validation method is exactly for determining which data points(vectors) are excluded in the regression model..",True
+@sneakeraplus,2020-03-25T14:51:05Z,1,Oh no! echoes in my head all the time. lol,True
+@alecvan7143,2020-03-24T13:50:46Z,1,TRIPLE BAM,True
+@rajarajeshwaripremkumar3078,2020-03-19T23:44:39Z,0,"When we build another random forest with different number of variables per step then do we use the same out of bag dataset or a different one? Also, this out of bag dataset can have imbalanced classes, so we should use F1score instead of Accuracy for classification? Sorry for so many questions. Watched videos mutliple times, still there are lingering questions in mind!!",True
+@afsarabenazir8558,2020-03-19T20:31:28Z,0,"Great video! Well explained!  I have one question: in the step of building the n number of trees, after we randomly choose two features, we split the nodes by choosing the node with the highest information gain/gini index, right?",True
+@keithypatootie,2020-03-17T15:39:52Z,2,Super thankful for your tutorials! I might just get my MSc degree :'(,True
+@hk91v29,2020-03-13T04:10:22Z,1,Thank you for sharing this easy way to understand RF!,True
+@ak-ot2wn,2020-03-08T09:15:05Z,0,"9:30 - what do you mean by ""we start by using the square of the number of variables"", please? Didn't you mean square root?",True
+@thisaintarf,2020-03-07T04:52:20Z,0,"is Bootstrapped Dataset similar to training data, and Out of Bag means the testing data ?",True
+@salsabilidrissomar8787,2020-03-02T20:47:38Z,1,thank you statQuest it was very helpful,True
+@abdelrahmanfayez2402,2020-02-28T20:34:13Z,1,"Amazing explanation, thank you",True
+@emmagarland,2020-02-25T16:57:47Z,11,I really like the pace of these. It helps me get around the terms and have chance for my brain to keep up,True
+@theunlightenedone6766,2020-02-25T16:00:59Z,1,"Hey Josh, your videos are very interesting and easy to understand. Keep up the good work, man. The gini impurity could be the 'Gain Ratio Impurity'. The Information Gain Ratio is an important parameter in decision tree learning, so seems plausible to me.",True
+@pratyushsharma6655,2020-02-18T19:02:03Z,1,Your channel is like a course in ML and Stats but better than most !!!,True
+@seanhickey41,2020-02-16T21:39:27Z,4,In grad school and am planning on applying the RF method to my air quality data. Your videos have been a life-saver!,True
+@akashjain35,2020-02-16T17:30:26Z,3,I would give this video a thousand likes if I could. Awesome explanation😍,True
+@mohammadreza8832,2020-02-14T11:12:41Z,1,MAAAAN! GREAT!,True
+@danishiqbal8492,2020-02-12T14:16:40Z,0,"Is there any way we can built Random Forest Model for Ordinal dependent( Predicting stage of a disease, say 5 stages) in Python? Is there any tutorial available on it :)",True
+@chinedunwasolu4913,2020-02-11T15:19:54Z,0,"if you find him annoying at first, play the video at 1,25 speed.",True
+@flikkie72,2020-02-11T13:58:52Z,5,9:36 Typically we start by using the square [root?],True
+@baruchschwartz819,2020-02-03T20:01:42Z,0,"Considering the fact that the creation of a Random Forest has so much ""randomness"", ie the creation of the bootstrapped dataset, as well as the random choosing od variables to create the random decision trees, how is it possible that when we all use R to create a random forest prediction, we get the exact same answers?",True
+@jaysonklau3683,2020-02-03T17:26:05Z,0,"Hello, I have 2 questions  First:  You mentioned ""2) Only considering a random a subset of variables at each step"" at 3:55, but this subset of variable includes ""Good Blood circ"" or not ?? Since you grey ""Good Blood circ"" out at 3:16   Second: size of original data set = size of bootstrapped data set ??",True
+@danishiqbal8492,2020-01-31T11:43:53Z,0,Can only same size Bootstrapped dataset in Random Forest can be taken or part of it?,True
+@jayjagtap7873,2020-01-30T04:02:11Z,1,Very Well explained!! Hats Off,True
+@daviddumig166,2020-01-20T18:56:45Z,0,I would turn bootstrapping off and use the entire training set,True
+@Leon-pn6rb,2020-01-19T09:19:52Z,1,you are my hero,True
+@shrutikumar7342,2020-01-10T06:30:31Z,1,Thank you StatQuest! Very useful video! Can you please make one on Catboost - both Classification & Regression please?,True
+@javad6329,2020-01-01T20:23:36Z,1,"In one word, Great!",True
+@L.-..,2019-12-28T15:00:28Z,2,I love StatQuest. You really make statistics enjoyable. BAM!!!!!!!! Thank you for your time and effort in making these videos. You have helped out a lot of students.  Please keep up the good work. Keep them coming.,True
+@beatlekim,2019-12-28T13:12:24Z,2,YOU ARE SIMPLY AMAZING BETTER THAN MY UNIVERSITY,True
+@blindprogrammer,2019-12-28T02:40:45Z,1,best explanation so far on YouTube. thank you!!,True
+@rickandelon9374,2019-12-27T13:33:55Z,3,After learning so much from your videos and then listening to your beautiful sentimental songs makes me cry!  ;),True
+@josherickson5446,2019-12-23T16:45:25Z,0,"Hey thanks for the response about RF! Just to give a little background and context, i've been using RF along with a few other models (gbm, xgboost, nnet) to spatially predict the occurrence of streams using remote sensing covariates and a binary response (is there a stream or not). The RF model's specificity, accuracy, and Kappa are all better than the other models during the assessment and I thought it would be the best fit for predicting. However, someone who is advising me on this suggested that I looked more into RF and especially its ""issue"" with overfitting when it comes to *terminology alert* spatial autocorrelation. I've been using a workflow used by Meyer et al 2018 (https://www.sciencedirect.com/science/article/pii/S1364815217310976) and I think that when taking out chunks of spatial data (watersheds) that the RF isn't affected by its tendency to 'associate' cause when there isn't cause. But, it's interesting to see how the other models (gbm, xgboost, nnet) don't behave like this when given the same data.    So, to finally get to your response; the similar values are basically doubles of data as either a) exactly the same for all covariates and response, b) within one real number of the covariate but exactly the same for response. Example, take a rnorm response and 3 rnorm covariates -> run RF model -> get results -> then take the original response and covariates and duplicate ('double' using a or b method)-> run model -> results go from RMSE 1.054 to RMSE 0.21! Now use same workflow with other models and they hardly get a better RMSE. Just curious how this or why this  happens with RF? More of a curiosity question as it's probably uncommon to get super super close 'doubled' data; however in spatial statistics this can happen more often than not. Thanks for your time and all the great stuff you upload!",True
+@kittipobkomjaturut8797,2019-12-21T11:21:40Z,2,Maybe the founder of this algorithm realized how weird  “ out -of-boot error “ sounded?,True
+@samuelws1996,2019-12-19T22:38:28Z,0,"so in case of random forest regression, let's say 1000 trees outputs 1000 different predictions of house prices, the model's result would be the average of the 1000 predicted prices?",True
+@paveldvorak2014,2019-12-17T07:42:12Z,1,"I really enjoy your videos, Josh. I just found the pace a bit slow. But I found a solution: play at 1.75 speed! Works like a charm 😄",True
+@amazing_human_slash_genius1492,2019-12-16T10:40:29Z,1,You are an amazing teacher/genius.,True
+@lashlarue7924,2019-12-14T02:04:08Z,166,This video is so well made and so well explained that I comprehend the subject matter even while sitting here drunk AF at my keyboard... *hic*,True
+@mahmoudreda5054,2019-12-13T15:16:08Z,1,really thank you <3,True
+@rajarajeshwaripremkumar3078,2019-12-12T01:38:07Z,0,Are we allowed to have more than 2 children for a node? Considering the parent is not binary in nature.,True
+@statquest,2019-12-11T18:19:45Z,400,"Corrections: 3:18 I should have said the same feature (or variable) can be selected multiple times in a tree. Every time we select a subset of features to choose from, we choose from the full list of features, even if we have already used some of those features. Thus, a single feature can appear multiple times in a tree.  9:28 I say ""square"" when I meant to say ""square root"".  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@adamtalent3559,2019-12-05T18:39:44Z,0,"I'm bigger for RF. It's the first class of me  and I loved it  with big thanks for you. So I'm inspired to know more.....my question is by taking example Diabetes mellitus. I have understood random  forest for categorize patients as positive diabetes vs negative diabetes. But if I want to classify diabetes patients As type 1, Type 2, gestational at the same time, Does it(RF) enough to classify patients with types or other algorithms are needed? How and what is the next task for it? Thanks for your kindness!",True
+@Twilight2595,2019-12-03T16:14:44Z,0,for a single bootstrap dataset how many trees can we create...is it only one decision tree foe each bootstrap dataset?,True
+@MohammedBakheet,2019-12-02T13:25:53Z,1,"I trust the information you provide so much, to an extent that I press the like button even before I watch the video",True
+@shritube123,2019-11-23T05:34:38Z,0,Hi Josh. Does random forest use gini index or information gain for spliiting ?,True
+@KingArthurxD,2019-11-20T09:59:23Z,3,This patient has heart disease. BAM!! Congrats,True
+@joeroc4622,2019-11-19T11:45:49Z,1,Thank you very much for sharing! :),True
+@globetrotter9731,2019-11-18T08:57:10Z,0,Why can't we improve the Model based on the out-of-bag error done by it?,True
+@globetrotter9731,2019-11-18T08:55:09Z,1,It's called Out-of-Bag because we're doing Bagging here!,True
+@agiokap,2019-11-15T11:31:04Z,0,"Are all the Decision Trees (DT) trained with the same, bootstraped, dataset (BD)? If so, this means that every DT's training, is performed with the same number of ""Out - Of - Bag"" (OOB) samples?   I am asking these Qs, in order to make clear the way by which we know, which OOB samples correspond to which DTs. If every DT is trained with the same BD, then every DT would have the same amount of OOB samples linked to it, which would, then, be used to evaluate their performance.   Thank you",True
+@yunglinchang,2019-11-09T04:58:47Z,2,OMG loved the BAM! Thanks for the great video!,True
+@usama57926,2019-11-06T17:41:58Z,2,thank u so much,True
+@usama57926,2019-11-06T17:41:51Z,2,very nice explanation,True
+@liamlaird1494,2019-11-06T09:20:10Z,1,Terminology Alert!,True
+@ireneylhsiao,2019-11-03T11:51:33Z,1,"I literally didn't understand what the professor was saying in the class, but after watching this video......BAM!!!",True
+@snjjain,2019-10-29T22:13:29Z,0,"When you said assume that any of them did a best job.. does the model randomly assume at each node , or any kind of calculation is done ..",True
+@tuongminhquoc,2019-10-18T18:27:28Z,0,"You are the best teacher on ML I ever have. Thanks so much, StatQuest!!! Other than that, I would like to know does random forest makes calculation slower than a few seconds or it is up to my computer performance?",True
+@hstanciu,2019-10-16T01:36:39Z,1,Excellent! Clear! Thanks!,True
+@nematgholinejad3668,2019-10-12T20:32:10Z,1,Oh good..! I understood random forest concept after watching this video. Thanks so much,True
+@utkarshkumar16,2019-10-07T04:48:44Z,11,I was required to give a ppt on random forest in my class and after going with such a lucid video I am a felling great. Thanks STATSQUEST,True
+@slirpslirp,2019-10-06T19:33:35Z,1,Awesome! how to use random forest for assessing variables importance ?,True
+@perrygogas,2019-10-04T18:29:51Z,0,I think it is the Out Of Bag dateset because Bagging comes from Bootstrapping and Aggregating and these samples were not selected in bootstrapping and thus not aggregated later.,True
+@mohit2072,2019-10-01T23:45:54Z,0,At 6:25 you gave a claim. Gave u give some references to that claim?,True
+@pradeepmunikrishnan1164,2019-09-29T05:38:42Z,2,I really started Loving you for your lectures :P,True
+@baruchschwartz819,2019-09-26T19:21:19Z,0,"at 4:04 , you say that to create the random forest, you  make a new bootstrapped dataset, and a new tree considering a new subset of variables. Did you really mean that you make a new data set? That would imply they you go back to your original, complete dataset, and bootstrap  again. Eventually, all the data will get used in some of the trees.  But if you do that, you will not be left with data that is truly out of the bag.  Did you mean keep the same bootstrapped dataset, but a new tree each time with only a new subset of variables?",True
+@clapdrix72,2019-09-25T03:09:48Z,1,I have a masters in Analytics from a good university... and still find these helpful ;0),True
+@najiaahmadi6867,2019-09-14T11:38:04Z,1,Nicely explained. Thank you,True
+@omarq6210,2019-09-12T14:20:45Z,0,bagging (Bootstrap AGGregation),True
+@shoneetpatwary2385,2019-09-11T18:01:55Z,2,Hi Josh. First of all thanks a ton for making our life easier with your videos. I do have a question to ask. What is the advantage of bootstrapping the dataset ('sampling with replacement'). How will it be different if we just sample without replacement to build the trees in Random Forest? Thanks in advance !!,True
+@arminschock7320,2019-09-06T09:08:21Z,0,"I am little bit confused. First you stated that for each tree you create a new boots-trap dataset. Then, for validation, you looked at the out-of-bag samples and their accuracy ... but the out-of-bag samples would not be the same between different trees?   So .. while an out-of-bag sample of one tree could have been used for the creation of another tree according to your video? This would of course bias the validation with the out-of-bag samples. I guess there is something wrong. Can please someone clarify :)?   Other than that, great video - as usual.",True
+@Issus94,2019-09-05T14:57:44Z,0,At 5:06 how do you get to the very right place in the random forest (with a yes) from the data? Can someone please describe it in more detail?,True
+@HighTechTaco,2019-09-05T01:11:36Z,0,I'm glad he narrates the text word for word since I can't read.,True
+@sudarshinityagi8320,2019-08-28T22:05:23Z,2,"I've watched this a couple of times but still when Josh goes ""Booba dooba dooba dooba dooba dooba doo"", I giggle like a little child.",True
+@shaostclk,2019-08-26T20:29:08Z,1,nice video,True
+@okioking2,2019-08-25T01:02:47Z,0,"at 0:55 is it same as overfitting problem, Josh?",True
+@shawnberry9335,2019-08-11T23:37:49Z,0,"Hi Josh, Good lesson overall.  At 9:30 don't you mean the Square Root of the Number of Variables, not the Square of the Number of Variables.",True
+@perrygogas,2019-08-08T21:24:17Z,0,"Josh, in 9:37 when you say that ""we start by using the square of the number of variables "" you mean the square root? ie in the example you have 4 variables so that we started by using 2 the SQRT(4)?",True
+@farhan-jb2zn,2019-08-04T04:14:24Z,0,"Corrado Gini was an Italian statistician, demographer and sociologist who developed the Gini coefficient, a measure of the income inequality in a society. Gini was a proponent of organicism and applied it to nations.",True
+@tersamuno9898,2019-08-02T10:29:35Z,1,"Thank you, this is excellent\ More later/have to study",True
+@Lets_MakeItSimple,2019-08-01T10:42:20Z,1,You sing well.. Bought some songs of yours.,True
+@jojo22823,2019-07-31T20:32:02Z,0,at 4:02 you have said to go back and create another bootstrapped data set  implying that this is done for each new tree. Is this right? if you create 1000 trees and so make 1000 bootstraps you'd have no data left for testing. This leads me to my next questions. Why do we create bootstrapped data sets rather than just separating the data in to training and validation as we would in other machine learning concepts? Also thanks for the video it was very useful,True
+@julesancillon275,2019-07-22T11:36:11Z,0,"When choosing randomly 2 (or more) variables, how do you know which one to select for the node?",True
+@andersonbessa9044,2019-07-18T22:19:18Z,0,Each tree has its own bootstrapped data?,True
+@ranjithkumarkalal1810,2019-07-17T14:56:40Z,0,"Hello sir, nice video.  Will you please tell me how the variance is reduced here, because the main motto of the bagging is to reduce the variance.  Thanks in advance",True
+@shwethavasudevan1788,2019-07-13T08:18:00Z,3,I've seen multiple videos and articles explaining Random Forests and I must say this is the best so far. Awesome work!,True
+@MathGirlEducation,2019-07-12T16:30:20Z,1,This is SO HELPFUL!,True
+@nevermindshort3,2019-07-02T10:43:28Z,29,"Everytime he starts ""Bo pi do pi do pi doo"" i inadvertently start laughing",True
+@earthJaratmanachot,2019-06-28T10:21:11Z,0,So how's BAGGING different from RANDOM FORREST.  After I finished watch the video I think both are the same.,True
+@khanhtruong3254,2019-06-24T13:30:08Z,3,"In evaluating the random forest, you mention: use trees to classify samples that are not used to build the trees. As a result, the number of trees to test an out-of-bag sample is different from one sample to another, aren't? E.g. a sample can be tested by 4 trees (there are 4 trees that do not use the sample to build), while another sample can be tested by 10 trees.",True
+@adityaghosh8601,2019-06-23T10:21:35Z,1,"quadruple bam!! , i understood decision tree",True
+@kkomment2152,2019-06-16T20:38:58Z,142,"""Sir, after your examination we found that you've got heart disease. BAAM""",True
+@georgedonga9208,2019-06-16T09:30:44Z,0,"Oob was not explained clearly. Oob dataset is kind of validation set, isnt it ? How well each classifier performs against oob data set ? If there exist  a higher proportion of overlap between train & oob data set predicted outcome can we say the precision accuracy is good ??",True
+@looploop6612,2019-06-10T07:12:01Z,0,Gini is not involved in Random forest?,True
+@mafiamustafa,2019-06-05T20:45:22Z,2,"I must say I went through a few mathematical books in order to understand it, but this explanation is just BAMMMM!! :)",True
+@MontahaAlriQa,2019-06-01T02:23:13Z,2,Your channel has saved my research career,True
+@itsamario,2019-05-30T14:43:41Z,0,please provide video explaining the T-bagging algorithm,True
+@robertdiniro8881,2019-05-15T12:56:56Z,21,This is absolutely awesome and so clearly explained. I wish all textbooks were like this. Keep it up !!,True
+@eddisonjose,2019-05-12T23:49:34Z,0,"Hola, hay cursos muy buenos, ellos dan cursos de Procesamiento de Datos de Radar con Software Libre, Lidar, Sistemas de GPS, Procesamiento de Datos de Camaras Infrarrojas como RedEdge, Sequioa etc, Procesamiento de Datos de Imágenes de Drones entre otros, el correo de ellos es cursosonlinegis@gmail.com",True
+@azizlarabi1941,2019-05-05T22:00:52Z,215,Can I say BAAM in an interview after explaining what is Random Forests?,True
+@hangchen,2019-05-01T19:33:18Z,0,BAM!!!,True
+@AmokBR,2019-04-26T20:59:34Z,1,"Say you use majority voting resulting from a random forest to make a prediction for a certain person (Heart Disease yes/no). In your example at around 5:40, it's 5 yes, 1 no. The predictions is YES. Could we use these numbers in order to ACCURATELY estimate probabilities? In this case, the person would have P(YES) = 5/6 and P(NO) = 1/6. I've run some tests and read a paper and came to the conclusion that the probabilities are accurate. I've never come across a definitive argument saying that this is the case though. Random Forest is built to be a classifier, unlike logistic regression which is built to estimate probabilities. Sometimes it's very useful to be able to estimate probabilities, but logistic regression has its limitations. Any thoughts, Mr. Starmer?  Great videos btw.",True
+@nagarchana5722,2019-04-20T17:01:42Z,2,"Sir.. Your video was really helpful. But I think you have missed a point in your  random forest explanation. For each tree, a new bootstrapped data set is used. This is what I know. Correct me if I am wrong.",True
+@peiwang3223,2019-04-16T21:13:12Z,1,"sir, you are always so helpful, when I have problems, the first thing came to my mind is to search the relative topic in your videos, looking forward more videos from you, thank you very much!",True
+@jotablanco,2019-04-11T17:39:17Z,0,"Hey Josh, still don´t quite get where the out-of-bag data comes from, sorry:  I understand that a sample has around ~1/3 of chances (actually ~1/e to be precise as the number of samples gets bigger) of not ending up in a bootstrapped dataset.   However, if we generate a new bootstrapped dataset for each decision tree then a given sample has (~1/e)^(number of trees) chances to not to end up in any bootstrapped dataset at all. This will tend to cero quickly, so chances are all samples will be used at some decision tree at least once.   If I am right, where do we get the out-of-bag data from then?   Thanks for your quality material. I love it!",True
+@lohithArcot,2019-04-09T02:30:43Z,0,Nice nice nice,True
+@chengzhaotu2689,2019-04-03T18:18:55Z,0,I am ivy student and I have to say your lecture express clearer than my professor's...,True
+@manideepgupta2433,2019-03-21T02:32:39Z,1,Bam Bam Double Bam!!! Awesome Tutorial Videos and very helpful!!,True
+@TiStoDiaoloNameThes,2019-03-20T18:39:27Z,0,Great video,True
+@bedegong08,2019-03-20T17:42:09Z,0,Hi Josh; so the out of bag sample is similar to test data if we do train/split?,True
+@FiBunnyCci,2019-03-11T21:51:39Z,1,Thank you very much sir! Very helpfull! from italy,True
+@professorg000,2019-03-07T18:14:45Z,0,Poorly explained,True
+@shashankgupta3549,2019-03-01T20:05:56Z,0,"Considering C 4.5 DT algorithm, we can't select any random feature for splitting the tree into internal nodes. If I'm correct we look for the feature that has the capability to minimize the entropy or correspondingly we can say we choose the feature with high Information gain and low entropy. I think you're wrong there and If not please correct me I'm a little confused here.",True
+@KhangTran-ml2hm,2019-02-26T21:39:02Z,1,"Came for machines learning, stayed for the theme songs",True
+@shenquanwang1625,2019-02-26T01:45:58Z,1,9:28 Is that should be square root instead of square?,True
+@adosub,2019-02-23T18:48:43Z,3,"very good approach, genious simplicity and to the point, helps anyone learn(even me). I even stopped skipping the ""music"" to pay my respects to you Josh!",True
+@jordanmakesmaps,2019-02-17T17:46:20Z,0,"Hey Josh, great video. I am curious, why do we not remove the trees that incorrectly classified the out-of-bag samples from the forest since we know that they lower the accuracy and increase the error of our forest?",True
+@jyotimawri6772,2019-02-15T17:09:20Z,1,"Hey Josh, one silly question  😁..while selecting root node out of 2 or 3 variables .. do we use gini index or some other technique or is it also random ?",True
+@dr.michaelr.alvers17,2019-02-15T13:06:26Z,1,At 3:07 I'm a bit lost. Why did Good blood circulation win the game?  And at 3:30 who gets left left position and why?,True
+@a_sn_hh7027,2019-02-15T01:53:45Z,0,I like the stat quest intro better,True
+@glowish1993,2019-02-07T07:31:16Z,1,legendary explanation,True
+@maryanto2540,2019-02-07T03:20:47Z,1,great,True
+@Jason-xe4tt,2019-02-04T16:04:47Z,0,"At 7:17, you are using out-of-bag sample at b=1 and evaluate on all the b=1,...,100 tree that are generated.  The out-of-bag sample could be selected on b=2 or b=72 or etc.  Do we keep track on all out-of-bag samples on b=1,...,100 and evaluate it on the forest we made?",True
+@keshavnemeli,2019-01-30T14:28:05Z,1,So out-of-bag or out-of-BOOT dataset is just the test data in train_test_split ??,True
+@shreshthasarkar991,2019-01-27T13:03:04Z,3,One of the best tutorial channels. Keep up the good work and helping us all who are in need.,True
+@umiumi1038,2019-01-24T00:32:00Z,1,"Just curious: I think around 8:00, those 3 entries are not out-of-bag samples since they were selected as bootstrapped dataset.",True
+@yiy11005,2019-01-22T03:29:27Z,1,Amazing tutorials!!!!!!!!,True
+@rrrprogram8667,2019-01-20T10:52:21Z,1,"Hi josh .... I would like to suggest one thing... while doing this kind of conceptual videos... if you can also tell the nomenclature / arguments it is represented in R, that would be AWESOME...  Example .. In the video.. it says that .. ""the initial number of variable is used to split the tree is square root""... and , in correspond R.. it is ""mtry"" argument ... This kind of comparison really makes further easy to relate...",True
+@belavalonni,2019-01-19T19:56:46Z,1,"really good video, thanks!",True
+@ql8137,2019-01-06T22:07:27Z,1,Such a good explanation! Well done!,True
+@kikokimo2,2018-12-27T18:25:31Z,34,"at 3:18, I think you're wrong there. The subset of features is also selected with bootstrapping. Why graying it out, if it could be selected again, in a deeper split, in the same branch? Or did I understand something wrong? Here is a screenshot, of a part of a tree, generated with sklearn.tree's export_graphviz: https://imgur.com/a/iBx4OKU You can see that the same feature has been chosen in the same branch, 2 levels deeper.",True
+@user-xf1gm4en4e,2018-12-21T08:06:02Z,1,"Hi, i`m very wondering ... how do you explain this concept without math..so perfectly! HaHa!!  My question :Does square root at the end mean that when choosing root node, the number of subset    variables is the square root of the number of all variables?  and i`m always thanks for your video and your understanding of my poor english.",True
+@cofud90,2018-12-20T21:39:49Z,1,This is the best!!!! BAM!,True
+@TheBjjninja,2018-12-18T13:02:54Z,0,He should have shown the built out tree with all feature names at 3:50 to better illustrate the tree built,True
+@erenarkangil4243,2018-12-16T20:11:06Z,2,"that could be best tutorial i've ever watched, nice humour..",True
+@bibhunanda480,2018-12-16T19:18:31Z,2,"Respect ,The way you have present Random forest",True
+@thibautsaah3379,2018-12-11T15:20:26Z,1,Magic your lesson! Thank you very much for what i learned,True
+@nourabarraa9315,2018-12-04T00:32:01Z,1,"How simple and amazingly comprehensible , thank you for the video ! subscribed right away , keep it up (y)",True
+@alexeikalveks4099,2018-12-01T17:37:08Z,1,This is excellent - thank you!,True
+@danielm793,2018-11-30T15:01:42Z,3,3:37 looks like a warning on a cigarette pack,True
+@nihilionsaro,2018-11-28T18:55:29Z,1,"I love your videos. They're incredibly helpful. BTW, the plural of ""100"" is ""100s.""  No apostrophe.",True
+@kikokimo2,2018-11-27T22:06:07Z,1,"So when choosing (considering) just 2 variables (features) randomly, from all possible 4 features: Question1) Is that n=2 that RF choosed (or you), will be the same for all the coming Decision Trees? Or for the next tree, it could choose n=3 for ex? Question2) Is that n=2 the parameter that you can pass as argument to Sci-kit-Learn's RandomForestClassifier as 'max_features'? So that it chooses >=2 (in this case) features at each node (step)?? Please correct me if I am wrong with the terms in brackets. Thanks!!",True
+@marcelosua9,2018-11-19T11:22:04Z,1,When creating the bootstrapped datasets do these have the same dimensions as the original dataset? Thank you very much.,True
+@JimmyCheng,2018-11-18T03:49:05Z,1,"by stating good blood circulation did a better job in classifying samples at 3:25, do you use gini impurity to determine just as in decision tree?",True
+@johnlloyd9286,2018-11-04T03:40:29Z,2,"hi there! thanks for the vid.  my question: how do you use the integers of category: ""weight"" when comparing a boolean variable like ""chest pain""? I mean when you try to decide which one does a better job at seperating the samples into the right categories?  also: is it possible to use this technique to classify into more categories? for example, low risk, average risk and high risk of heart disease?  thankxx!",True
+@ashfaqueazad3897,2018-10-26T15:53:58Z,1,"While training the model, are the decision trees which misclassify the O-O-Bag samples penalized in any way or retrained with the O-O-Bag samples?",True
+@eduardopasseto2387,2018-10-25T14:13:53Z,2,Thanks for the clear explanation!,True
+@RajaSekharaReddyKaluri,2018-10-19T17:48:24Z,1,What is BAM??,True
+@syedmostofamonsur7583,2018-10-16T14:05:44Z,1,Double Bam!!,True
+@ariani86,2018-10-12T02:01:55Z,2,This is the best video I've ever seen to explain Random Forrest! Thanks so much for making this!!Please keep making videos!  Love the humor also :),True
+@SeitzAl1,2018-10-11T22:04:42Z,2,"this is so well explained that even I could understand it, and i'm a humanities student",True
+@hlpan3301,2018-10-11T13:11:04Z,1,"Wow! Thank you Josh, only after watching your videos about decision tree and random forest, I really get the concepts of them!",True
+@subhadipsen3982,2018-10-08T18:07:24Z,0,just like F**king tutorials,True
+@chester9880,2018-10-06T14:39:08Z,1,BAM!!!,True
+@JoeWisniewski,2018-10-04T21:05:03Z,1,"Nice video, good explanation. I'd give it a BAM!",True
+@sonicking12,2018-10-03T16:11:20Z,1,"Will you discuss Boosting method (e.g., XGBoost) soon?  Thanks.",True
+@CarlosEduardo-je7ns,2018-10-03T02:14:10Z,7,Double out-of-bam,True
+@justind6931,2018-10-02T00:38:14Z,1,Then we run this oob sample through all the other trees that were built WITHOUT it -- this statement solves the myth about building oob validation to me!,True
+@saber291996,2018-09-25T14:16:49Z,1,"Hi Josh,  Could you consider to talk about methods of hyperparameter searching in future? Because the number of trees is sensitive to Random Forests. Sorry for my rude request.",True
+@gzzperi,2018-09-24T18:05:43Z,1,You are a great pedagog. thanks!,True
+@newsbyanna,2018-09-24T17:11:20Z,1,Very helpful. Thanks so much!,True
+@aop2182,2018-09-23T16:33:06Z,1,"Assume there are 100 trees and then 100 bootstrap datasets, one record is out of bag sample for 30 bootstrap datasets. When calculating the out of bad error only these 30 trees are gonna vote, did I understand correctly?",True
+@widowcleaner69,2018-09-21T11:10:15Z,1,"Hi, thanks for the vid. Very clear as usual. I was wondering whether it would make sense to only use part of the forest for certain examples, based on their 'nature' (felt like this would nicely fit into the forest analogy ;) ). For example, suppose we have a new, unlabeled example, which we need to classify. Would it make sense to only use the trees that correctly classified the out-of-bag sample that is most similar to this new example? With similar, I mean with respect to some measure that would be used for similarity in an unsupervised (e.g. clustering) context.  Looking forward to any input!",True
+@scorpion7434,2018-09-21T09:29:04Z,4,There are 7 idiot heaters who down-voted this amazing video... They probably live in pain!!,True
+@elmonovagales2929,2018-09-18T12:57:42Z,1,marry me!,True
+@jonathancomputer,2018-09-12T14:12:09Z,4,Great video.  Very simple and easy to understand.  Nice job!,True
+@neelamj8534,2018-09-09T15:12:21Z,12,"I must say,this is the best video! You made it so easy to understand. And the way you explain it is perfect!",True
+@esteveslisboeta,2018-09-05T21:38:44Z,1,Can the random subset be empty? (No variables) so the tree ends abruptly ?,True
+@neirakurtovic4474,2018-08-23T21:43:23Z,1,"These videos are so amazing, I absolutely love them! Thank you so much!",True
+@yoonahkim7912,2018-08-23T03:08:11Z,1,I love the way you explain. so clear and helpful ! Thanks,True
+@vandread1400,2018-08-16T23:18:00Z,1,BAM ajjajj,True
+@Crazymuse,2018-08-13T10:16:12Z,2,"One of the best videos for Random Forest. Kudos dude. In the last line, is it square or square root?",True
+@Charles-rn3ke,2018-08-13T06:18:13Z,13,Finally found an ML tutorial without accent.,True
+@andrezaluko,2018-07-28T11:34:32Z,1,Great job StatQuest! I am in love with this channel.,True
+@ProfessionalTycoons,2018-07-17T17:18:26Z,1,amazing video!,True
+@williamchamberlain2263,2018-07-16T08:26:08Z,1,"So clear, so concise.",True
+@hyy23019,2018-07-15T06:19:24Z,1,"Thank you, you r great. I really enjoy your music and tutorial",True
+@shibukalidhasan5815,2018-07-11T07:52:24Z,1,You made my day!!! Excellent ... succinctly presented ... just one correction about choosing the number of variables/features that you acknowledged in the comments ...,True
+@ruangbelajarizza8120,2018-07-06T05:12:41Z,1,is all the original data ever be the OOB data?,True
+@lakshaydulani,2018-07-03T04:52:34Z,1,So Random forests are basically the set of decision trees with permutations combinations of all the independent variables,True
+@lakshaydulani,2018-07-03T04:51:38Z,1,Hi josh..whats the difference between bootstrapped data set and original data set,True
+@yodhakei,2018-07-01T16:20:35Z,503,"Isn't it 'square root' of the number of variables at the end, instead of 'square'?",True
+@yulinliu850,2018-07-01T04:40:23Z,1,Excellent!,True
+@fkhan4504,2018-06-30T14:02:13Z,1,ya i am on the right path with statquest,True
+@LilyMyLolita,2018-06-25T13:26:07Z,3,You are the only one who clearly explains how the *size of bootstrap* can be the same as the *size of the original train data* . Thanks!,True
+@saiyesaswymylavarapu6170,2018-06-23T20:19:15Z,2,Excellent tutorial! His tutorials are underrated.,True
+@shawnreddick9312,2018-06-18T15:44:13Z,1,"Hi. Thanks for the great tutorial. I have one quest: why do we even need to use the bootstrap dataset to create decision trees. In other words, all we need is the headers (features) to randomly create multiple trees. Not quite understanding the use of the 'training' data in the tree creation. Explanation appreciated.",True
+@osxdjr,2018-06-17T14:19:38Z,1,This is such a great tutorial!,True
+@somimukherjee5151,2018-06-11T14:28:59Z,1,Thanks for making it so easy to understand,True
+@shawnreddick9312,2018-05-31T20:31:32Z,2,Great presentation. I understood for the first time what RF is ... after BANging my head reading math equations and set theory. I guess that is what mathematicians and PhD is for ... to make a problem more and more difficult,True
+@EMGalbarini,2018-05-16T18:49:23Z,0,Excellent! You definitely have to continue making educational videos. Congratulations for your work.,True
+@ThePineappleChapel,2018-05-15T08:44:27Z,0,"Cheers for the video, very clear and easy to understand! I'm confused why you would select some of the samples multiple times while creating the bootstrapped dataset... surely this would skew the model in favour of the duplicated data point? Why not do a regular train-test split?",True
+@bishwasapkota9621,2018-05-14T00:57:54Z,0,Really good tutorial. It's always the best to explain using real examples. Good job!!!,True
+@gurjanl8709,2018-05-10T13:45:48Z,0,probably these best video fora  beginner on the internet. Thanks!,True
+@timharris72,2018-05-03T06:48:23Z,2,These graphical examples are awesome. I love your videos!!,True
+@rrrprogram8667,2018-04-29T09:28:30Z,0,I like BAMMM.... Liked and subscribed,True
+@rrrprogram8667,2018-04-29T09:19:42Z,0,Hi ... Is this channel about ML ???,True
+@user-tl3sv8fe8n,2018-04-25T18:14:32Z,1,Super clear! Love it!,True
+@steveb.s.baleba5944,2018-04-20T06:36:32Z,1,"Hi Joshua, so helpful your tutorials. Can I get your mail address ?? I want an explanation concerning variable importance in RF analysis",True
+@bhupen008,2018-04-09T00:02:24Z,0,U have got great skills in explaining concepts. Thank you!,True
+@roshanipatel1307,2018-04-03T23:51:03Z,0,You're the best! Out of many  tutorials on Internet...this best explains Random forest and its working! Thank you so much :),True
+@nifemioyebanji9798,2018-03-27T23:39:02Z,0,Awesome video!!,True
+@adarshhegde2737,2018-03-18T16:08:24Z,0,Excellent video! I didn't understand the last part. How can we choose the square of the number of variables at each step? There are not that many variables.,True
+@jaseelashajahan3897,2018-03-13T16:14:03Z,1,very good lecture sir,True
+@lamphamtrong8351,2018-02-21T15:08:05Z,1,Super awesome!!!!!!,True
+@urjaswitayadav3188,2018-02-08T03:10:11Z,12,"Great tutorial, as always!",True
+@cjrocs52,2018-02-07T17:52:03Z,1,Awesome!,True

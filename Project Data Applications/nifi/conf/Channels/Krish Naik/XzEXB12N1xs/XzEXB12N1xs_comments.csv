@@ -1,0 +1,61 @@
+author,updated_at,like_count,text,public
+@akshatabm4491,2023-10-21T06:50:39Z,0,Is the detect_outlier using z score program working fine for everyone?? It is not returning correct output for a diff dataset used.,True
+@sheelstera,2022-11-19T13:08:36Z,0,Standard Normal distribution can be applied only to a normally distributed column...SND applied to a non-normally distributed column may give you a mean of 0 and and SD = 1 but the nature of distribution is still non-normal. Z score cannot be directly tied to the 99.7% of ND in such a case. The interpretation of Z score is therefore subject to the kind of the distribution structure of the column which remains unaltered before and after the Standardization process.,True
+@ty_b_63_prajwalwaykos86,2022-07-03T18:49:18Z,1,"Hi Krish, its always great to learn from you... can anyone please tell when to use what? Or which amonthe the methds is best? or is it case wise and if yes what are the cases?",True
+@rajprajapati888,2022-06-06T03:10:54Z,0,Z-score isn't give output for more than 3 outliers,True
+@pawansonu41,2022-03-27T08:26:37Z,0,"at 14:13 point 4 and point 5 are wrong..however in code you have implemented correctly. A suggestion please ""try to keep formulas and notes clean, because if that is ruined whole plot gets off"". Though you have done a good job by far.",True
+@indirajithkv7793,2022-03-02T05:28:36Z,0,❤💫,True
+@justfun6409,2022-01-15T18:29:41Z,3,"Could you please arrange the playlist videos in 1st to last manner? Just I am getting confused that which video I should watch after particular video. By the way, you explain very well👍🏻💥",True
+@janardanpandey6942,2022-01-02T09:04:57Z,0,Here outliers is exactly coming in Z score when I'm putting the value of threshold=1 and not coming when putting the value of threshold=3 WHY????? Btw thaxx alot very outstanding playlist for STATISTICS.....Gtr work,True
+@vsabinat,2021-12-10T06:59:31Z,0,Wonderfully explained. Won't forget now. Thank you,True
+@maithreshpalemkota,2021-08-05T07:02:09Z,0,It is more appropriate to call it Quartile than calling them Quantile.,True
+@ukquaratine1019,2021-07-29T05:08:22Z,0,can the value of inter quantile would be range in negative(-),True
+@rahulgarg6363,2021-07-10T07:16:28Z,0,perfectly explained krish but  How to detect outliers for multidimensional data,True
+@louerleseigneur4532,2021-07-08T21:32:32Z,0,Thanks Krish,True
+@903vishnu,2021-06-16T16:42:35Z,0,If there are more number of features (like X1 X2 X3 and so on) then how can we find out using Scotter plot,True
+@ayushijmusic,2021-06-16T04:14:43Z,0,Best!!! Thankyou! This channel is a saviour in DS doubts,True
+@rambaldotra2221,2021-05-10T10:15:37Z,0,"Thanks a Lot Sir, Really helpful.",True
+@cvb6931,2021-05-08T18:30:45Z,0,I have few doubts...  why threshold value is considered as 3 I have seen other examples they also considering as 3 only ? is it always 3 ? why to only multiply with 1.5 for lower and upper bound values ... any specific reason? Does  iQR works on categorical columns also ... I know that zscore doesn't work for categorical values?,True
+@namansharma9697,2021-03-23T18:37:01Z,0,how can mean be equal to zero in real-time scenario as weight cannot be assigned a negative value please help,True
+@baharehghanbarikondori1965,2021-03-08T17:48:52Z,0,"amazing tutorial, thank you",True
+@jiteshmishra6949,2021-02-11T13:02:49Z,0,How to detect and  remove from each column in one shot,True
+@vicky-do5th,2021-01-26T19:47:01Z,0,"sir why you have taken threshold as 3 as you said it should fall in 3rd standard deviation ,so it should not be (3*std)?",True
+@mohammedyahya39,2021-01-26T17:52:22Z,0,"Hi Krish,  I have a doubt regarding the parameter inside the function , when defining the function ...it is given as data. It should be the dataset right ?",True
+@knavk1,2020-12-21T06:19:43Z,0,Hi.. How to work with outliers.. I don't want to remove outliers from my data. Is there a way which I can do that?,True
+@shahzan525,2020-11-26T12:13:00Z,0,i couldn't find the next video which you talk about in the last....,True
+@srinathganesh6985,2020-11-13T10:55:51Z,0,can categorical data (encoded) have outliers?,True
+@forammodi5850,2020-10-25T08:22:44Z,0,Sir i got error name error  Nameerror: name mean is not defined,True
+@Daily_Dose_Of_Life,2020-10-25T06:20:39Z,1,"Thank you, sir Finding Outliers with help of Z Score  Using Pandas:  Just some modifications  outliers=[] def detect_outliers(df):          threshold=3       # 3 standard deviations    # mean=np.mean(df)     #std=np.std(df)     z_score=(df-df.mean())/df.std()     df['out']=z_score[z_score>threshold]     df.dropna(inplace=True)          return df.iloc[:,0].values.tolist() detect_outliers(d)",True
+@yendamurikrishnavamsi3188,2020-10-03T19:00:12Z,0,super!!! well explained sir!!!!!,True
+@sandipansarkar9211,2020-09-14T18:26:29Z,0,Awesome explanation Krish.Thanks,True
+@tammy4994,2020-08-27T08:47:54Z,0,how he has set threshold as 3?,True
+@prateshtamhankar3568,2020-08-12T09:47:52Z,1,we can use any one of the technique 1.Z-score or 2.IQR  to find outliers??,True
+@akankshagupta5067,2020-08-06T14:58:39Z,0,"In your code,  after are np.abs(z_score) > threshold: Why are you appending y?? Shouldn't you append i?? Please correct it as it is misleading.",True
+@TechBinod,2020-07-01T12:40:51Z,0,Your video is great but not systemically managed,True
+@abishekkachroo938,2020-06-26T22:35:51Z,0,"I am facing a unique issue , following this methdology for IQR: Mine lower value of column is coming . Below is the pseudo Code: Q1 = df[' shares'].quantile(0.25)  Q3 = df[' shares'].quantile(0.75) IQR = Q3 - Q1 low = Q1 - 1.5 * IQR ------>>>>>>>>> this value is coming extreme negative  which is not even present in columns  The problem maybe is IQR value > Q1.  How to solve ? Shall I change the % age?",True
+@sudiptachakraborty745,2020-06-23T17:42:03Z,6,"Sir - I appreciate your effort of making all these beautiful videos. It makes life easy for all of us. But I need to make one comment on this video, at the beginning you said when the weight(x) is increasing height(y) is also increasing but in real world if you think it's not possible right ?   As per my thought process may be you wanted to say when the height(x) is increasing weight(y) is also in a increasing trend.  In most of the cases, when a person's height increases automatically weight also get increased but it's not the reverse.  I hope i am making sense here.   Thank you once again :)",True
+@anchitbhushan6172,2020-06-18T12:13:46Z,0,So which one should we use for removing the outliers??,True
+@meenadalvi9743,2020-06-08T13:11:25Z,2,"In the detect outlier function ""y"" is not defined anywhere please change it to i",True
+@nayazithousifkhan1696,2020-06-03T06:44:46Z,0,Post the video of box plot technique,True
+@umesh789s,2020-05-10T21:48:01Z,1,I am not able to find the link of the next video which you have told related to outlier handling in a dataset from kaggle.,True
+@umesh789s,2020-05-10T21:37:54Z,1,"This was really explained very well. I have a doubt regarding multipication by 1.5 , can you please elaborate how this 1.5 came or what is the method by which we can get this value in any other dataset.",True
+@sandipanpaul1994,2020-04-03T12:03:21Z,0,@krish why it is only 1.5 . Why not 1 or 2. Why only 1.5,True
+@mannudhapola1210,2020-03-24T16:28:42Z,0,Smoothly explained,True
+@ashwinimandani2829,2020-03-17T13:02:14Z,0,"Sir, I tried finding the outliers in a dataset using both methods(Z-Score,IQR) and the answers are different. Can you please explain why?",True
+@pranjalmittal7475,2019-10-17T15:35:43Z,0,sir please upload video on preprocessing data using sklearn library,True
+@ele_wings7521,2019-10-14T06:16:21Z,0,thanks alot... sir..,True
+@idanamayank,2019-09-24T17:09:59Z,0,"Simply awesome,great work",True
+@lifeisfun9,2019-09-23T10:07:16Z,0,"Sir. Firstly a brilliant teaching and mentor. I have some doubt in calculating upper bound and lower bound you showed. You are saying anything beyond 1.5iqr will be outlier, then why we are doing low= q1-1.5iqr and high=q3+1.5iqr. cant we straight away get outliers by comapring if number is less than or greater than 1.5iqr. I did not understand meaning of q1-1.5iqr as lower bound and similarly for upper bound. How?",True
+@kadhirn4792,2019-09-19T06:12:50Z,0,Damn good dude. Thank you so much.,True
+@rohitsharma-kr9gk,2019-09-14T19:52:25Z,2,Sir can you make a video on fitness based recommendation system.  and can you tell me how to collect data set of different people and recommend them food and exercise according to that data set. plz reply sir....,True
+@shashankverma4044,2019-09-13T18:27:55Z,1,Thank you so much ...Concept cleared perfectly:),True
+@prathameshjoshi1408,2019-09-13T18:16:52Z,5,Thank You so much for explaining most of the concepts in simplest way.When you explain anything by far anyone can say you really want us ( your students ) to learn more . One of the best teachers for sure. Thankyou and best of luck for further success on Youtube.,True
+@AkshaySharma-vm9sp,2019-09-13T17:44:30Z,2,Sir please make video on p value,True
+@shivambhayre5056,2019-09-13T16:09:09Z,1,Thanx bro mujhe ye sb pta tha i mean pure theory and formulas but implement kese krte h python me ye tumne bahut easy way me explain kia thanx man really appreciate that and me wait krunga agle video ka jisme real data p kre thanx for that because me R p ye kr leta hu but i am not good in python aur tum bahut sahi tarike se smjhate ho thnx for that🙏,True
+@shivambhayre5056,2019-09-13T15:58:55Z,3,"If we have many outliers, in that case, is it good to calculate(or detect by frequency)mode over mean and median ??  And then replace them with mode (mostly we do it for categorical variables) is this a good way?????",True
+@safwanmansuri792,2019-09-13T15:48:13Z,5,"You continue this hardwork ,surely you will get success one day on YouTube.",True
+@balajivarma83,2019-09-13T15:45:40Z,6,Sir please upload you kaggle competition of house price with feature selection. Waiting for your vedio,True
+@satyaprakash5905,2019-09-13T15:25:55Z,17,Z-Score & Outliers -  explained in very easy way. Thank you..,True
+@ash_engineering,2019-09-13T15:12:46Z,1,Sir how is this method  scalable  when we have 50s or 100s of dimension /features in a dataset,True
+@harshtamkiya8505,2019-09-13T15:05:25Z,2,Nice explanation..,True
+@TheTimtimtimtam,2019-09-13T14:28:43Z,2,Nice,True

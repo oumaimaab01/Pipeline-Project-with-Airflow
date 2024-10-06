@@ -1,0 +1,33 @@
+author,updated_at,like_count,text,public
+@allinoneofficial5300,2024-05-20T12:19:37Z,0,"Updated Code of Chain-lit  import os from langchain.prompts import PromptTemplate from langchain.chains.llm import LLMChain from chainlit import on_chat_start, on_message from chainlit.message import Message import chainlit as cl from langchain_groq import ChatGroq   template = """""" Question: {question}  Answer: Let's think step by step.""""""  prompt = PromptTemplate(template=template, input_variables=[""question""]) llm = ChatGroq(groq_api_key = """")  # Instantiate the chain for that user session llm_chain = LLMChain(prompt=prompt, llm=llm, verbose=True)   @on_chat_start def main():      # Store the chain in the user session (optional)     cl.user_session.set(""llm_chain"", llm_chain)   @on_message async def handle_message(message: Message):     try:         # Extract the plain text question from the Message object         question = message.content          llm_chain = LLMChain(prompt=prompt, llm=llm, verbose=True)         # Call the chain with the extracted question         res = await llm_chain.acall(question)          # Do any post-processing here (optional)          # Send the response         await Message(content=res[""text""]).send()     except Exception as e:         # Handle the error gracefully         await Message(content=""An error occurred. Please try again later."").send()",True
+@user-mg6ou9mi1v,2024-05-15T08:36:00Z,0,Can you make a video of performing authentication using chainlit,True
+@ezSyntax,2024-05-06T09:01:49Z,0,"Hey, can anyone help me with chat history in frontend?, like how can we add it in custom frontend?",True
+@code_ansh,2024-04-14T10:06:37Z,0,Can someone drop me the api key,True
+@kevinshah2702,2024-04-05T08:59:05Z,1,Can you please provide the code for the above mentioned implementation,True
+@wftrdshometoprofessionalfo142,2024-03-24T14:11:33Z,0,Amazing!,True
+@RazorIance,2024-01-24T22:42:26Z,0,what does the -w flag do?,True
+@amparoconsuelo9451,2023-09-15T03:45:30Z,0,"Can a subsequent SFT and RTHF with different, additional or lesser contents change the character, improve, or degrade a GPT model? Can you modify a GPT model?",True
+@darshankholakiya553,2023-08-31T07:55:58Z,0,Great video sir! Can you please make one end to end video on making LLM model with tunning pre trained model for our use case and without Open AI Key so students like me can make project on LLM and include in our resume.,True
+@ajlahade2201,2023-08-29T17:06:24Z,0,more on this brother please : Chainlit,True
+@darshan7673,2023-08-25T09:23:03Z,1,Can we just use serpAPI key and make a chainlit application? As a student I cannot buy OpenAI's API Key.,True
+@Artificialintelligencia,2023-08-17T12:58:20Z,2,where are the codes ???,True
+@avbendre,2023-06-23T06:38:52Z,0,AttributeError: partially initialized module 'chil' has no attribute 'langchain_factory' (most likely due to a circular import),True
+@nikk6489,2023-06-22T16:05:25Z,0,can we run it using Docker or Docker-compose? Locally it's running fine. If not running on the docker then no use :(,True
+@akshatapalsule2940,2023-06-21T04:11:43Z,0,Thankyou Krish hope it would be easy creating UI with chainlit 👍,True
+@pawankarthik1578,2023-06-19T17:21:30Z,0,can we use this in organization by providing some customized data resources which it can search provide us the information,True
+@pareshsharma1584,2023-06-19T14:20:55Z,0,"I have built an platform to learn datascience practically. Where a learner choose dataset, then follow step by step guide with AI, to build the model and consideration while building model. Also include, how to derive a business question/problem and draw a path to make a decision on problem. The software do everything from A to Z. But at the moment it's only limited to small datasets about 2 gb max and no CVision models. If possible I am looking for place to sell this platform or interested in deal with collaboration.",True
+@Tech_Enthusiasts_Shubham,2023-06-19T11:55:51Z,0,siŕ please make a playlist on how to make a L.L.M.  model from scratch to advanced,True
+@godgdfhackergod3836,2023-06-19T10:42:13Z,0,please tell us how to do EDA on  chat Gpt,True
+@user-wr4yl7tx3w,2023-06-18T18:21:14Z,0,can OpenAI function calling be used instead of LangChain agents?,True
+@rangaraokulkarni3069,2023-06-18T17:51:22Z,0,"Hello Sir, how this will be useful for HR analytics / People Analytics?",True
+@ctcsys,2023-06-18T17:47:10Z,2,Great stuff. Maybe you could do a sum up also with using embedded vectors and get code search/ created based on human language requirements but also getting those 'reengineered' from given code maybe using code2seq tools? Thx!!,True
+@user-wr4yl7tx3w,2023-06-18T17:24:18Z,2,"Is there a way to deploy Chainlit on the cloud, so others can use it?",True
+@malleswararaomaguluri6344,2023-06-18T17:00:33Z,2,"Hi krish, is there any way  to generate  gpt or llm model using our own data due To data privacy. Pls  clarify",True
+@khalidal-reemi3361,2023-06-18T16:47:33Z,1,Thanks Krish for your GREAT videos. Please consider building opensource ChatGPT like models and how to fine tune them. Be amazing as usual. ❤,True
+@Tech_Enthusiasts_Shubham,2023-06-18T15:58:17Z,1,Thanks a lot please be continue in publishing ai content like this your videos are really interactive and helpful for me to understand new tech stuff,True
+@lakshmik.v-mh9ej,2023-06-18T15:44:21Z,0,"Please upload tutorial on Creating algorithms for analysing data like 5PL, 4PL, Quadratic, Log-Log, exponential.",True
+@pritishghatkar6148,2023-06-18T14:49:48Z,1,Hi krish please upload tutorials if possible of using GPT4All and langchain   which allows us to chat with our pdf files or csv without using OpenAI,True
+@mohsinkhan-bw3cd,2023-06-18T14:18:48Z,0,Thanks for the video and pls continue with mlops tools,True
+@commoncats5437,2023-06-18T13:54:35Z,3,@krushnaik please cover from scratch so everyone can understand..we r new to llm,True
+@Coding_Connoisseur,2023-06-18T13:34:20Z,1,What an amazing library!!! Thank you sir for uploading this video.,True
+@jagatkrishna1543,2023-06-18T13:33:02Z,1,Thanks SIR ❤🎉,True

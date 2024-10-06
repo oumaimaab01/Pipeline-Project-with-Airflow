@@ -1,0 +1,73 @@
+author,updated_at,like_count,text,public
+@pawankumarraj6653,2024-02-01T07:23:10Z,0,"In Google collab while reading file it shows an error. Is there any other way we can proceed. Pls Suggest Code:  file_path = 'gps_data (1).csv' df = spark.read.csv(file_path, header=True, inferSchema=True) df.show() It shows an error:  AttributeError: 'function' object has no attribute 'read'",True
+@shubhragarg-ts5st,2024-01-18T01:48:54Z,0,"df_pyspark2.show() +------------+-----------+---------+ |        name|    college|     city| +------------+-----------+---------+ |Shubhra Garg|BITS Pilani|Bangalore| |  Ankit Garg|        LPU|   Jaipur| |   Amit Garg|    Mathura|      RTU| +------------+-----------+---------+   But, the describe().show() shows the wrong information ( for shubhra it is showing mathura- wrong information). Why?  df_pyspark2.describe().show()  +-------+------------+-----------+---------+ |summary|        name|    college|     city| +-------+------------+-----------+---------+ |  count|           3|          3|        3| |   mean|        NULL|       NULL|     NULL| | stddev|        NULL|       NULL|     NULL| |    min|   Amit Garg|BITS Pilani|Bangalore| |    max|Shubhra Garg|    Mathura|      RTU| +-------+------------+-----------+---------+",True
+@Nathisri,2023-11-14T15:04:41Z,0,@Krish: I'm not able to create the spark session. I get the error 'No module named spark',True
+@manishtomar8797,2023-11-12T21:06:39Z,0,"Hi, Thanks for uploading this playlist. It's quite informative. Just a question, I see tutorial #26 and tutorial #1-8. Are the tutorials missing from 9-25 ? Can you please check.",True
+@satishkumar-ir9wy,2023-10-26T14:23:08Z,0,"Thanks for wonderful tutorials while creating a spark session in my jupyter notebook, i am getting below error ""PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number."" can anyone suggest solution to this, i am a newbie to spark.",True
+@khushboojain3883,2023-08-19T04:21:18Z,0,"What I noticed is 'Describe()' function gives the data types of Age and Experience as Strings, not Integer. But 'Describe' method gives the correct data types as Integer. In addition, df_pyspark.describe.show()   does not work, but df_pyspark.describe().show() works successfully.",True
+@SuperShaneHD,2023-08-09T17:20:00Z,0,Data frame is basically a RDD with some schema,True
+@hardikshah9542,2023-08-09T11:50:00Z,0,what to do wehn we have large integer and it shows the values in scientific format but want it in normal froamt what to do?,True
+@1981Praveer,2023-05-30T07:19:31Z,0,"@11:39 - it does not look like it s due to the index, I think internally it sorts the strings and then  show min as lower and max as highest point in the sorted array",True
+@Akshay50826,2023-04-27T15:48:59Z,0,Thank you Krish !!,True
+@tanushreenagar3116,2023-04-26T08:31:01Z,0,nice sir perfect,True
+@bodhisattadas304,2023-04-11T07:02:37Z,0,RuntimeError: Java Gateway process excited before sending its port number,True
+@Good_kids787,2023-03-02T08:52:14Z,0,Thanks!,True
+@sahityamamillapalli6735,2023-01-11T11:49:07Z,0,I think in this video you have not covered about data sets please check once sir,True
+@gorangkhandelwal4790,2023-01-09T09:39:36Z,0,"Hi everyone, how can we add a new independent column (Eg: Emp ID) in existing dataframe ?",True
+@romesupaila1864,2022-11-27T10:37:02Z,0,"if getting two list, list of headers and list of body ,datatype also  mismatch  , in this time ,how can create CreateDataFrame() if any passable or any suggestions",True
+@kaxxamhinna5044,2022-11-10T21:18:32Z,0,Thank you very much for the pedagogy 🙏,True
+@SMHasan9,2022-09-02T18:05:51Z,0,"Your way of teaching is excellent, Krish !",True
+@chillagundlavamshi8504,2022-08-27T11:21:27Z,0,"In this code  line  30  adding columns in data frame lo  it's only adding numbers  'df_pyspark.withColumn('Increment of Salary',df_pyspark['Salary']+1500).show()'  -  excute this code df_pyspark.withColumn('Increment of Salary',df_pyspark['Salary']+10% (['Salary']).show() -- it's not excuted solve this one",True
+@stephenmartin6995,2022-08-03T04:18:37Z,0,Thank you for this very clear explanation !,True
+@abhisheks.2553,2022-05-30T16:33:02Z,0,"Sir , How to read xml file in pyspark and write it to csv. if we dont know the roottag and rowtag of it.",True
+@mohitupadhayay1439,2022-05-14T12:20:07Z,0,Why hasn't this guy go 10mn subscribers yet? Kudos to you Bhai!,True
+@betterbrained,2022-03-14T19:43:28Z,1,"Thanks to all the great teachers on youtube, one of which you are. Very helpful! Good luck and all the best!",True
+@shrutijain1628,2022-03-02T19:53:57Z,1,This was the most simplest and understandable tutorial for pysparks,True
+@piyushjain5852,2022-02-23T14:25:33Z,0,"good Tutorial Sir, it was really helpful to clear the basics!",True
+@ayaansk99,2022-02-11T17:30:31Z,0,Can any one explain me that how to save Pyspark.sql output to csv,True
+@ashwani14725,2022-01-06T08:16:57Z,0,Having this issue Java gateway process exited before sending its port number,True
+@ajaysinha1007,2021-10-11T05:53:58Z,0,What is aapName here.... ?,True
+@maheshpatkar886,2021-10-11T05:29:16Z,0,pretty much simple 🤣🤣🤣🤣,True
+@MrinalDasListenToMe,2021-09-30T19:08:56Z,0,"I am using a mac and i am new to Python. I get ""This context might be already existing"" error while creating the session. Can someone help. TIA",True
+@dendi1076,2021-09-27T04:41:11Z,0,music at start of video sounds like a pokemon ghost movie theme,True
+@PramodKhandalkar5,2021-09-24T17:49:59Z,0,Superb,True
+@cloudlover9186,2021-09-13T10:01:35Z,0,"Great content  , please let me know where i can download csv files?",True
+@vinayvinay9,2021-08-03T18:45:46Z,0,Min and Max of a string column is taken based on alphabetical order I guess,True
+@yogeshrashmi,2021-07-25T14:24:47Z,0,Informative,True
+@lalawinter4056,2021-06-29T01:46:51Z,0,"Sir, how do we display the number in describe() with 2 decimals point?",True
+@mjchalla,2021-06-27T01:58:46Z,0,"inferSchema=True does not work with JSON files and read.json(""path""). What is the alternative?",True
+@deekshamalik8813,2021-06-17T15:51:59Z,0,"While displaying a particular column, I am getting this error : cannot resolve '`'Name'`' given input columns: [Age , Experience, Name ]. How to resolve it?",True
+@ritizsaini2106,2021-06-16T18:50:25Z,0,Great content! Thanks for this wonderful series :),True
+@joeljoseph26,2021-05-15T17:25:26Z,0,"Krish, you're a good human! :) Thank you!",True
+@Agrima_Art_World,2021-05-14T18:16:57Z,0,you can use...df_pyspark[['Name']] to get the values,True
+@XiwithHighPing,2021-05-14T06:40:37Z,0,"multiple columns can be renamed using .withColumn Renamed.  for example:  covid4=(covid.withColumnRenamed('Country/Region','Nation')         .withColumnRenamed('Province/State','State')         .withColumnRenamed('Deaths','Deceased'))",True
+@XiwithHighPing,2021-05-13T19:48:50Z,0,"for adding column--> df_pyspark.withColumn(Experience after two year', df_pyspark.Experience + 2) this query is also okay.",True
+@shravanibadadha9552,2021-05-11T17:24:18Z,0,"Hai Krish,How to add new column which is of string datatype?",True
+@VikashKumar-ty6uy,2021-05-09T04:49:39Z,4,Thank you so much for the Pyspark session..Requesting you to kindly complete the playlist as per your availability. I know you have to put lots of effort for this but it is really helpfull for we people who always thrive to learn something new to come out of the box...and you are the reason for that...,True
+@utsavdatta7532,2021-05-05T15:34:48Z,1,Great series..eagerly waiting for MLib...u deserve more subscribers,True
+@gokulyc,2021-05-05T13:16:04Z,0,Is JDK enough to make pyspark work ?  I am facing issues even after installing JDK and adding to JAVA_HOME.,True
+@navejpathan,2021-05-05T11:43:24Z,0,Please make video on MITO library for data preprocessing 🙏 waiting for your reply,True
+@ayushikaushik1138,2021-05-05T10:01:58Z,1,I feel so lucky that I started learning pyspark yesterday and you started this series as well!! Thank you sir!!,True
+@hariniprabakaran5434,2021-05-05T08:28:56Z,0,waiting to complete this series. Can you give 2 real time projects at the end,True
+@tanishasharma3665,2021-05-05T08:15:24Z,6,I was recently told by my company to learn pyspark and here is your playlist! Thank you so much!! Btw I have been offered the role of a Data Scientist.....thanks a lot for all your playlists have learnt a lot...keep up the great work!!!,True
+@tomparatube6506,2021-05-05T06:09:32Z,1,"Please help: When I ran ""spark=SparkSession.builder.appName('Dataframe').getOrCreate()"", I get ""Exception: Java gateway process exited before sending its port number""  Anybody can point out what am I missing or need to install / modify? Thanks a ton. Love your tutorials.",True
+@shwetaraghav8055,2021-05-05T05:13:20Z,0,"Sir please suggest, institute for sas training &certification at free of cost.",True
+@ratnajyotibhowmick9801,2021-05-05T02:59:38Z,0,"Thanks for starting PySpark playlist! Also, could you please share your exclusive explanation on Attention and BERT not by someone else. Thanks.",True
+@bilalpanhalkar6944,2021-05-04T23:03:27Z,0,Pretty much simple😍😅,True
+@adshakin,2021-05-04T20:47:03Z,1,"Amazing, you made it so simple. thanks",True
+@reenasheoran893,2021-05-04T19:28:30Z,0,Hey Krish ... what I realized from this is that SQL knowledge will help to learn spark quickly :),True
+@ahimsaram5361,2021-05-04T18:46:39Z,0,if anybody knows  how to connect sql server to pyspark...i use spark sql ...but i got some error...i want to fetch the data from the database,True
+@shrikantdeshmukh7951,2021-05-04T17:20:34Z,0,Your doing great job,True
+@martian.07_,2021-05-04T17:13:56Z,1,Wow really helpful.,True
+@prankushsharma2588,2021-05-04T17:09:33Z,1,WHEN MACHINE LEARNING AND DEEP LEARNING CLASS WILL RESUME??😒,True
+@sanjaykale5001,2021-05-04T16:12:28Z,1,"Data pipeline stored in Aws  S3 bucket using pyspark ,sir, plz isme video banao",True
+@nigamaveena4211,2021-05-04T15:56:34Z,1,Sir what's the difference between pandas and pyspark? Y do we have to use pyspark. Are there any advantages of using pyspark?,True
+@RangaSwamyleela,2021-05-04T15:39:17Z,1,Sir can u teach all the topics of pyspark,True
+@ajaysaikiranpenumareddy9809,2021-05-04T15:32:43Z,1,"Java gateway process exited before sending its port number,this is the error  i got sir while initiating the session",True
+@bhargavikoti4208,2021-05-04T15:32:37Z,1,Explained neatly..thank you👍👍,True
+@alanhenry9850,2021-05-04T15:26:32Z,4,Can u also make tutorials on kafka,True
+@yogaandernostlich1007,2021-05-04T15:20:14Z,6,Big data playlist..krish make this as good as ml,True
+@prashanthpaul2713,2021-05-04T15:11:50Z,1,This is great! Thank you! :),True
+@swaraj2235,2021-05-04T15:10:48Z,1,Excellent explanation Krish. Thank you very much.,True
+@biswanandanpattanayak6083,2021-05-04T14:53:54Z,2,Nice session. Much awaited vedio,True
+@nikhileshyoutube4924,2021-05-04T14:50:52Z,2,Sir can u give the link description of u r earphones ❤️,True

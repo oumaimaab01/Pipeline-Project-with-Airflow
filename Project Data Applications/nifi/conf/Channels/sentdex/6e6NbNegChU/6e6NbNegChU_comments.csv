@@ -1,0 +1,31 @@
+author,updated_at,like_count,text,public
+@enlost3052,2022-03-25T00:35:51Z,0,"set the distance between the corners to 3 or 5 , instead of 10 and we will the get that inner corner in 'e'. corners = cv2.goodFeaturesToTrack(gray,74,0.01,3)..........this will get the best results acc. to me which I could find. This also includes the 2 corners on the bottom of the stick of exclamation mark.",True
+@sibarton8734,2020-05-06T12:39:01Z,0,"Используйте для того, чтобы отобразился результат. Use to display result:   cv2.waitKey(0) cv2.destroyAllWindows()",True
+@jeevanshrestha8888,2020-01-19T02:57:12Z,0,how do I do this in a video and get the location of the corners,True
+@santoshherur9118,2019-08-09T16:29:35Z,0,Can I use corner detection in Bio-medical applications or military applications? How?,True
+@zaferkacmaz8214,2019-04-19T16:00:05Z,0,you are awesome bro please keep goin i know  a little bit late for saying this to this video and this is also annoying but i love your works they are amazing,True
+@samvinsmoke,2019-03-26T06:17:01Z,0,can we find the coordinates of the corners of the rectangles and save them in a sequential manner in variables?,True
+@k.alipardhan6957,2019-02-16T01:54:23Z,0,the code doesnt not work.,True
+@sleepyj222,2018-11-05T22:02:22Z,0,"Neither of the type conversions used, np.float32 and np.int0, seem to be necessary for cv2 anymore if anyone else wondering. Great Video!",True
+@denizdeniz5573,2018-10-28T15:13:31Z,0,love ya,True
+@nikhilkumar6036,2018-10-08T15:40:01Z,0,Is it possible to detect images on white background ??,True
+@shikharagrawal1797,2018-10-03T13:36:50Z,1,"Thank you for the videos sir, but the explanations you provide in these videos isn't detailed enough.",True
+@MagicalSAMElectronics,2018-05-25T12:42:13Z,1,its not working.....seems like the syntax has been changed.is it??,True
+@PS-gr7px,2018-01-02T17:56:29Z,0,The corner in the inside of 'e' wasn't detected because 10 is too large for a minimum distance between corners. Try 5,True
+@kloudmuka,2017-12-03T16:31:04Z,2,a TUTORIAL with a failed result,True
+@jonaskorte6873,2017-11-18T14:32:19Z,2,You said that this is great for 3D reconstruction and motion tracking... Can you make a tutorial for how i can implement this?,True
+@jonaskorte6873,2017-11-18T13:29:38Z,0,Nederlands??,True
+@MrFTW733,2017-08-29T17:56:31Z,0,thank you for sharing this!  I'm doing volunteer work at a 3D printing lab and i'm doing something like this on opencv but need to make the algorithm for C++  can you make a video on that?,True
+@mukeshsinghbhakuni3819,2017-08-13T20:18:02Z,0,how does corner detection work mathematically  in other words intrnally,True
+@SirCorrino,2017-07-19T11:12:55Z,14,"You didn't find the inside corner of the 'e' because it was too close to the corner on the opposite side. Also, if you set the quality to for example 0.1 instead of 0.01 you don't get the false positives from the aliasing. With quality 0.1 and minDistance 5 you catch every actual corner in the sample you used.",True
+@nimmisharma8243,2017-03-23T10:48:14Z,0,"hi, can i use similar approach to detect filled circles in scanned omr images",True
+@divyanshmethi1159,2017-03-11T14:07:01Z,0,Can u plz explain what does the line corners = np.int0(corners) do Why have you used int0 and Why not int8 ?,True
+@agnesrobaglia3006,2017-02-27T16:56:57Z,0,"Hi,  Thank you very much for this tutorial. I dont understand why I have this message error : image is not a bumpy array, neither a scalar.  So I can not use the goodFeaturesToTrack. However I made the np.float32. What could be the problem please? I really need help",True
+@dr.grimm.,2017-02-13T15:12:23Z,3,"just like tutorial 12, when i run module it only shows a gray window and stops responding immediately... no errors, no nothing... any ideas?",True
+@yangeason1382,2017-02-05T03:30:47Z,0,"Hi, if I want to detect a line in a picture, and return the line's coordinate in graph, what should I do? Thank you in advance!!!",True
+@lokeshchandak4914,2017-01-28T10:56:11Z,0,"in cv2.goodFeaturesToTrack(), useharrisdetector which provides better corner detection. assign true value to the harris detector argument",True
+@suhassreenivas1878,2017-01-13T14:38:35Z,1,"corners = cv2.goodFeaturesToTrack(img_gray,2000,0.1,10,useHarrisDetector=True)  when i set the useHarrisDetector attribute to True, it was able to identify the corner within the 'e'",True
+@JyoPari,2016-11-14T22:37:01Z,0,"Hi, i keep getting this error, I am using a webcam. HIGHGUI ERROR: V4L: Property <unknown property string>(2) not supported by device",True
+@kleingilbert9029,2016-11-02T15:04:01Z,2,"Hi,  Why converting gray to Float32 ?   Gilbert, from Germany",True
+@ednarvaez8545,2016-04-14T01:39:05Z,6,"noticed the same thing.  had to add cv2.waitKey(), in order to display image.",True
+@MattCamp,2016-04-02T14:37:44Z,18,something I have noticed over the past couple videos is that you aren't doing cv2.waitKey(0) any more. I seem to have to do it or my picture window closes immediately. Think its a change to cv2 or am I just doing something stupid?,True

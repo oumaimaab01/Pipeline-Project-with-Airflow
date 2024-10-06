@@ -1,0 +1,106 @@
+author,updated_at,like_count,text,public
+@JJGhostHunters,2024-05-06T18:54:46Z,0,"Hi...Could you make some videos that cover how to create custom environments for ""real world"" problems?",True
+@karaniii,2024-05-02T07:36:18Z,0,0:58 100%,True
+@awaisahmad5908,2024-03-07T20:06:59Z,0,you always laugh like a champ :),True
+@homataha5626,2024-02-19T03:02:29Z,0,Why there is no gym??,True
+@shadowangel-ou6bg,2023-11-11T05:55:42Z,0,"Thanks, like you said at the end most of the tutorials i have found don't explain anything and the code nearly always doesn't work.",True
+@SudeepDasguptaiginition,2023-09-17T18:04:20Z,0,give example with tf_agents,True
+@YashSingh-rf7nk,2023-07-02T00:02:04Z,0,"Never change man... This is therapy for people like us, so wholesome and informative",True
+@stef154,2023-06-29T22:18:52Z,0,Whats up! I just found your channel and I was wondering if I am on the right thought track for RL.              1. target model acts randomly (according to the epsilon) to collect experiences and store in the memory buffer. 2. We then take a batch of experiences and feed them into the self.model to train that network. 3.Then the weights are adjusted on the target model  4.Then the process repeats until the main model is ready to interact on its own with the environment  Am I on the right track ? Also for the bellman equation is that applied to the outputs of the training model and then compared to the output of the main model or is that incorrect as far as how the bellman equation is used ?,True
+@chaimaelaissaoui6870,2023-06-13T16:33:25Z,0,thank you for your amazing work !,True
+@gdelcacho,2022-12-01T17:38:44Z,0,"Okay. After finally implementing my model, let's see what the hell I have done.",True
+@jeremiahjohnson6052,2022-10-12T12:01:31Z,0,"In the case of DQNs, what would be the benefit of a Dropout layer? I understand when we have a limited amount of data and wish to make the model more robust to overfitting with the tradeoff of somewhat longer training time, dropout layers are great. But in the case of DQNs, you have a relatively infinite number of possible training samples, how would dropout benefit the model?",True
+@petarulev6977,2022-08-23T21:48:09Z,0,didn't understand why 2 models,True
+@Nyamco_Cat,2022-08-10T20:00:32Z,0,it almost 3 year since this helpful video been uploaded   i think we clearly need todey tutorial like this,True
+@zezimabig,2022-08-09T14:52:44Z,0,Sad that all tutorials start with convNets and not just fully connected layers,True
+@coopermaira,2022-05-12T18:07:06Z,0,"I actually didn't notice you drinking, but it sounds like your phone is on vibrate and near the mic or something and i keep hearing these little buzzes and thinking its my phone.",True
+@dahampter3844,2022-01-29T00:55:18Z,0,"""All the tutorials suck"". Finally someone who said the truth.",True
+@asifkhan-gj4vd,2021-12-15T19:39:47Z,0,Is this process of training these two model similar to generative adversarial network?,True
+@elishashmalo3731,2021-12-07T12:19:20Z,1,"13:36 why did you use a liner activation function for the output layer? Doesn’t that stop the model from learning non liner patterns? Do I not understand the point of softmax/sigmoid?! Could someone (ideally syntdex) please explain?  Edit - also, why is the loss mse? Shouldn’t it be categorical_cross_entropy?",True
+@thomascrypto5672,2021-12-05T00:51:27Z,0,Why would you implement the Deep QL stuff yourself and not use something like stable baselines?,True
+@cromi4194,2021-09-13T10:16:45Z,0,"I'm trying to implement deep-q-learning to learn Heads Up Poker through self-play. What keeps happening is that eventually, the network gives the same q-values as outputs, independent of the observation used as input. The longest it went without running into this issue were around 200k episodes. I am now trying to change the activation function from relu to LeakyRelu. Can you think of a few other reasons, why that would happen and a few ways to solve the problem? I hope changing activation will solve the issue.",True
+@comvnche,2021-07-06T10:05:15Z,0,"Hi, thanks for the video. I feel like I am stuck between much to high level videos like by  Deep Lizard and yours, that on the other hand already uses it all in form of libraries, while I'd really like to understand the background, e.g. how we can estimate Q*, an inutition vor gradient vs. semi gradient descent etc., but find the later chapters in the Button Book not to be an easy read.",True
+@Throwingness,2021-06-15T20:22:34Z,0,9:15. Pro broadcasters have a 'cough button' when they need to make a noise they don't want to broadcast.,True
+@hadeeranwer8323,2021-03-31T00:56:30Z,0,"please can anyone help me with this error tensorflow.python.framework.errors_impl.FailedPreconditionError: Error while reading resource variable block3_sepconv2_bn/gamma from Container: localhost. This could mean that the variable was uninitialized. Not found: Resource localhost/block3_sepconv2_bn/gamma/class tensorflow::Var does not exist.          [[{{node block3_sepconv2_bn/ReadVariableOp}}]]",True
+@marcel2711,2021-02-28T03:38:53Z,0,haha. do this without kersas or other ai library.,True
+@k.alipardhan6957,2021-02-13T21:44:42Z,0,14:00 why use MSE as the loss? isnt this a place for BCE/NLL,True
+@kennethlim3082,2021-02-05T07:41:05Z,0,1k likes!,True
+@Sercil00,2021-01-05T15:31:04Z,0,"Is there an explanation how to choose the parameters for the neural network? I've watched the tutorial on that and multiple other tutorials over the net, but it's always the same: ""We just use a Conv-Net and set that to 64... hmmm maybe 128 nodes, I dunno, whatever. Now copy all of those layers I guess."" I understand that you can't explain all of that in depth all the time, but I have yet to find a video that explains what layers to use and why, and how many nodes you need.",True
+@sumanpandey5368,2020-11-24T03:00:50Z,0,don't bother for ppl complaining about drinking... thanks to your efforts. You are totally cool...,True
+@DB-in2mr,2020-11-21T14:05:46Z,0,cool!,True
+@ramonolivier57,2020-11-15T23:06:42Z,2,"So, Professor Sentdex mentions in this video that (paraphrasing) none of the other deep Q learning videos/tutorials do not really show some important steps (""...all the tutorials suck..."").  Well, perhaps they don't suck, but they do gloss over or hide certain steps.  This tutorial here (p.5 and p.6) truly does explain and show each step.  It delivers.  I've takin 2 courses on Udemy and trolled several other AI channels.  This is the best DQN tutorial out there.  It's a little long and each step is highly detailed. My advice is follow along....code as you watch.  Thanks for this tutorial!  (Would love to see a Paperspace tutorial!)",True
+@ByteSizedBusiness,2020-10-30T22:14:06Z,0,"How do you use metrics = ""Accuracy"" , If you are using mse. isn't this a regression problem ?, I am a little confused",True
+@priyankadas7102,2020-10-26T13:26:44Z,0,Sentdex you and your YouTube Channel is awesome! Great content and videos,True
+@StaglyMusic,2020-10-24T04:04:27Z,1,I'm new to this. Can you tell me. Which line exactly makes the magic happen?,True
+@jeremyjiang2805,2020-10-23T12:54:12Z,0,excellent tutorials,True
+@kasramokhtari5423,2020-09-23T06:09:09Z,0,Thanks for an awesome video. I am wondering how we can you train a sequential DQN meaning that the agent will be able to predict let's say the actions for the next 5 timesteps?  Thanks a lot!,True
+@mbouchra295,2020-09-20T18:08:19Z,0,"Best channel, Thank you for  this tutorial",True
+@karandeepdps1,2020-08-28T12:01:00Z,0,And i am the one who is wondering what drink he drinks. he got wings. the best tutor ever.,True
+@poprockssuck87,2020-08-12T03:06:25Z,0,A deep neural network can interpolate. The network scales much better because it can map the state space to a fixed number of nodes instead of needing a node for every state. The reasons it can scale and interpolate are related because the mapping is a kind of convolution of the state onto the network.,True
+@vaizerdgrey,2020-07-22T09:04:30Z,0,can we convert these action to_categorical and use categorical_crossentropy??,True
+@rohanchaudhury397,2020-06-29T22:05:03Z,1,"Hi @sentdex, Thanks for this awesome content. Just wanted to ask one thing, is this by any chance Double Deep Q learning that you are implementing?",True
+@Mikey-lj2kq,2020-06-14T16:41:01Z,0,one can use np.newaxis for expanding one dimension of an np array,True
+@amogh3275,2020-06-10T14:30:20Z,0,22:30 50K steps for  one episode or 50K steps for all the episodes?,True
+@satyamedh,2020-06-02T07:33:29Z,0,I plan On doing a minecraft deep-q learning,True
+@alexandrudan1339,2020-05-28T13:03:12Z,8,"Dude, this is amazing. As a systems developer, I am using this for my master thesis on streaming algorithms and congestion control. You literally saved me a ton of hours since I don't have much background in RL. Thanks for the amazing work.",True
+@arnaudrochez7582,2020-05-13T08:26:39Z,0,"I rarely comment on youtube videos, but I gotta say that I love your energy and the way you explain things in a fun and clear way!  You got yourself a new subscriber, Keep up the good work! :)",True
+@MegaGippie,2020-05-06T13:28:37Z,0,"Nice tutorial :)  I cant run the ModifiedTensorBoard class...  The function update_stats writes this message:   ""AttributeError: 'ModifiedTensorBoard' object has no attribute '_write_logs'""   does anyone have a solution for this error?",True
+@MegaGippie,2020-04-30T07:46:32Z,0,"Hi there,    Do you have a video or a blog post where you gibe an example how to migrate code from Tensorflow 1.X to Tensorflow 2.X?  Especially in terms of placeholders and sessions?",True
+@stelianiantchev7274,2020-04-26T18:12:10Z,0,"Amazing, thank you !!!",True
+@sergclevitz3170,2020-04-13T18:51:21Z,0,please make a video where we can use a dqn model in chatbots (something like sentence classification + dqn model to choose the response so it can handle entire conversations and not giving only a response for what is classified),True
+@parthpiyushprasad709,2020-04-12T14:41:51Z,0,"I love your tutorials sentdex :) I have just one doubt tho: if the target_model and model are initially same (in case of the weights and the architecture), the model will be training against its own self the whole time, because the weights of the target_model are always updated to the actual model. thnx so much!!",True
+@boongbaang482,2020-04-03T19:29:50Z,0,"People who did this, is the previous video on the creation of environments needed for this and next video ?",True
+@AndJusTIceForRob,2020-04-02T17:38:27Z,0,"27:43, you say ""observation space"" twice, but in the subsequent lecture it becomes evident that what you meant to say is ""state."" This is confused me, and I had to go run this to ground to figure out why.",True
+@cristianbergamo,2020-03-30T11:17:11Z,0,"HI! Can anybody tell me why using the fit() method instead of train_on_batch(), if we want the optimizer to keep track of the number of iterations we made?  Thank you",True
+@rajcivils,2020-03-21T11:33:18Z,0,Can someone tell me the difference between double deep q learning and duelling deep q learning and which one is @sentdex using. He has the best tutorial for reinforcement learning I could find but I wanna know which is the best algorithm and if he is using the best algorithm here,True
+@AChadi-ug9pg,2020-03-19T07:19:05Z,2,Plz ! Can you do the atari breakout tutorial.. every tutorial in the Internet sucks veeeery bad,True
+@eoinmc12,2020-03-11T23:29:21Z,0,"You can also do 5e4 instead of 50,000 It returns a float so int(5e4) works. Useful for when numbers get large like 1e9  'deque' is also pronounced like 'deck' I think",True
+@jorostuff,2020-02-16T14:59:32Z,1,This is by far the best tutorial on DQNs on the entire internet.,True
+@andrewdodd6586,2020-01-09T01:26:06Z,0,"Great video, thanks very much.",True
+@Corpsecreate,2019-12-30T22:22:05Z,0,"Hi sentdex.  I used your provided code as a template for one of my own little projects, and when I gave the discount factor higher than 0.5, my Q-values diverge and tend to infinity. I am using the double q-learning, have played with hyper-parameters, target-network update rates etc, but I absolutely cannot get Q-values to converge if the factor is > 0.5. Any idea why this is happening?",True
+@viveksark,2019-12-28T07:26:44Z,1,"Thanks Sentdex, this indeed is a great tutorial. How about extending this to some of the atari games..!",True
+@adityaRaj-uh7es,2019-12-18T15:46:51Z,0,"how are you so confidently building a specific type of model, why not some other variant?",True
+@jingruihu5625,2019-12-18T03:19:34Z,0,Best tutorial for RL seen so far! Love yah!,True
+@alessandroruggiero8932,2019-11-17T11:59:55Z,0,Is this video still up to date with keras ?,True
+@petercarras3541,2019-11-06T00:32:45Z,1,"@sentdex Deque is pronounced the same as deck. Great tutorial, thank you!",True
+@glomerulust9102,2019-10-26T17:04:50Z,0,This is actually one good tutorial I could find. Thank you sentdex!,True
+@risingredstone5949,2019-09-30T13:05:42Z,10,Wait should we really use max pooling here? I think network also has to know where in the frame an object is and that information is lost with pooling. Correct me if I'm wrong,True
+@jahcane3711,2019-09-05T04:03:36Z,2,"Really looking forward to the following videos in this series. You're totally right, there is a serious lack of RL tutorials. Thank you for producing this series <3",True
+@smitshah5103,2019-08-17T06:53:36Z,0,Why can't we use train_on_batch instead of .fit? I guess that would not recreate a log file...,True
+@sabariraaj9067,2019-08-07T10:28:35Z,1,"Awesome dude. Just got the ""Perfect"" tutorial in the internet on RL!",True
+@deboy811,2019-07-30T14:43:54Z,1,"So if we are predicting against the target network, shouldnt the agent.get_qs() call self.target_model.predict instead of self.model.predict()?",True
+@josephwalker7631,2019-07-11T15:36:31Z,2,"I don't think you want to use pooling layers for this application. Pooling provides a form of translation invariance, so for classification problems its very useful. But for this application it matters where on the board the enemy is and max pooling throws out this information",True
+@rob6129,2019-07-05T06:49:13Z,0,"I actually generated a Q Table with 3 observation tuples: 1 food, 2 enemies. The size of it went from around 15MB to 3.8GB. I had to generate it in multiple chunks so my RAM could handle it",True
+@fuba44,2019-06-30T20:33:38Z,0,Juuust sporting my 12+ membership badge.. I mean I didn't get mentioned or anything like these youngster 10 month guys... Just saying.,True
+@lucaslopesf,2019-06-28T03:39:45Z,0,16:00 LOL,True
+@happydays3300,2019-06-27T01:57:57Z,0,"why dont you use "".train_on_batch()"" Function  instead of the  ""fit"" Function ?",True
+@RASKARZ34,2019-06-23T10:21:40Z,0,"You're talking a lot about Daniel, who is this person ?",True
+@SandwichMitGurke,2019-06-22T18:42:55Z,0,are you planning on doing a video on actor critics and proximal policy optimization? that would be really cool because I couldn't find any good tutorial about it I would also be really interested in advanced RL stuff like LSTM,True
+@rafeeqalfaqih977,2019-06-22T15:45:50Z,0,i am here for i while. why my name is not in the list ?,True
+@liangyumin9405,2019-06-22T15:11:21Z,0,"great, but I follow your tut. since last summer~",True
+@digitalboltwebdesign,2019-06-22T12:01:39Z,4,Please show how to use this with cryptocurrency and or stocks and how to use it for realtime trading please,True
+@Ahmad-ct8xp,2019-06-22T09:11:35Z,4,Why did you not have an activation function at line 20? model.add(Dense(64))?,True
+@YashChavanYC,2019-06-22T07:15:49Z,0,"Great tutorial. One question though... What is the Q-network using as the labels. All neural nets need labels to train, in the case of a game- we don't already know what the correct ""label"" or ""action to take in this state"" is. So how exactly is it learning the optimal Q value?",True
+@girish7914,2019-06-22T03:49:04Z,0,"great!!! its out there, at  last!!!!!",True
+@nikhiljagtap6587,2019-06-22T03:46:45Z,1,I have seen DQN playing Subway Surfers. Are we gonna see something like that?,True
+@AR-fh2uh,2019-06-22T01:33:15Z,24,"Shout out to all of those shouting ""self."" at the screen @15:40 🤣",True
+@samfulton172,2019-06-22T00:46:36Z,12,Finally a good reinforcement learning series! I would love to see this implemented into trading for the next video.,True
+@midoooo1111,2019-06-21T20:25:18Z,0,welcome back,True
+@miketian5348,2019-06-21T17:32:41Z,1,Yess! Episode 5!,True
+@camilledevalk,2019-06-21T16:01:26Z,4,Hi! Just wanted to say that I really like your video series on reinforcement learning! Your voice is nice to listen to and you explain everything in a nice way and at a speed that works really well for me! :) thanks!,True
+@aakarshan01,2019-06-21T15:23:52Z,0,A question regarding the previous vids. We trained our model to predict the number from the given test/train sets. How can I make it so that I make one photo of handwritten number and then pass it through my already trained model and get the prediction,True
+@aakarshan01,2019-06-21T15:22:01Z,0,I have started python upto yours last keras TF tutorial. And I understood everything. Best person.,True
+@aakarshan01,2019-06-21T15:20:45Z,1,Part Phaaaiive of the series. Love how u say that,True
+@andreamassacci7942,2019-06-21T15:10:52Z,11,I think doing a tutorial on how to create a  Gym env from a csv file for playing with stock datapoint would be amazing!,True
+@ramzykaram296,2019-06-21T15:07:10Z,0,"In case of signal processing, and you've multiple signals where the past n values of signal should affect the action. so you'd use Conv1D after transforming the signals on the top of each other or consider Conv2D considering it as 2D image. What do you think about both approaches ?",True
+@andreamassacci7942,2019-06-21T15:06:29Z,59,I started watching your videos in finance about 2 years ago.  Now I am so fluent in python and I do have a decent Hedge fund where I use algo trading and I'm doing super good. All cause you introduce me to programming.  Thanks my friend.,True
+@RutgerMusicOnline,2019-06-21T14:50:37Z,48,Watch out deepmind! We're catching up!,True
+@aadityarane3464,2019-06-21T14:38:49Z,1,great! it's finally there !,True
+@ramzykaram296,2019-06-21T14:30:47Z,1,Finally ♥,True
+@Terror500,2019-06-21T14:20:36Z,79,Best channel for python developers :),True
+@AhmedAli-go7wx,2019-06-21T14:20:31Z,0,7th,True
+@pythoning5284,2019-06-21T14:19:49Z,0,6th,True
+@blueskies1254,2019-06-21T14:19:10Z,1,I love u,True
+@Stinosko,2019-06-14T19:14:45Z,0,Third!!,True
+@carterbabin6867,2019-06-14T16:05:02Z,0,Second!,True
+@shmarvdogg69420,2019-06-14T16:04:29Z,0,First,True

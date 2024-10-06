@@ -1,0 +1,36 @@
+author,updated_at,like_count,text,public
+@codewithtej494,2024-04-12T12:26:14Z,0,"i was confident and applying for data science fresher role. i was frustrated,why i am not getting interview call.  i thought i can easily ace teh interview , all i want is interview call. i dont know why this video came to my feed.  after struggling 20 minutes i got thisss...  df[[""gender"",""day""]][df[""day""].notna()]    after this i am brokken.. i took 20 minutes to solve this simple thing 🤧🤧🤧🤧🤧🤧",True
+@deniowork7084,2024-02-29T19:13:08Z,0,Love this!,True
+@tapabratacse,2023-07-01T01:42:35Z,3,@krish sadhanasu explanation with CNN is partially correct .....we can build time-sequence CNN+LSTM to do video analysis. Only reason CNN is used to  extract features and  reduce features  but here we already have the feature . So we can directly use   LSTM > RNN . Also we had done one mistake we have aggregated the data on year and removed month. We should have aggregated to a month and then based on EDA we could use SRIMAX or ARIMA,True
+@akashbhor4036,2023-04-26T04:40:05Z,0,he just reading the answer...when they talk he looks upward and when asked qauestion he saw on screen,True
+@vivekparihar3800,2022-07-05T14:07:39Z,0,"Ans for Q1- df[(df['day']=='float64') | (df['gender'].dtype=='O')][['day','gender']].dropna()",True
+@tusharnautiyal8998,2022-04-19T23:12:21Z,0,"mylist = list(df.select_dtypes(include=['float','object']).columns) is this right can someone tell me for the first question  if we don't use .columns we will get true false which col don't have the datatype in day or gender. Please tell me if this is the solution if some can.",True
+@rafibasha4145,2022-01-04T11:36:30Z,0,nice,True
+@prateeksingh812,2021-05-31T05:05:40Z,1,"Hi Krish/All,  can someone provide me any video link or any resource where I can practice these kind of practical questions like the one asked by the interviewee (python questions) just so that I can brush up my skills.",True
+@muhammadiqbalbazmi9275,2021-05-25T20:59:22Z,0,"After watched this video, I realized that now I am able to crack any Interview related to NLP and CNN. How can I approach having a Virtual Mock Interview on Computer Vision using Deep Learning and in General Data Science?",True
+@mosesk9449,2021-04-06T07:20:43Z,0,Great please keep on do this job,True
+@SAINIVEDH,2021-03-30T05:51:38Z,3,"55:10 The biggest disadvantage of LSTM/GRU is they're incapable of Transfer Learning, No support for parallel distributed training, 'tanh' activation functions and also vanishing gradients",True
+@engineering5101,2021-03-10T16:34:44Z,7,This guy interview is like my college day's viva..where I used to explain all histories except answer.,True
+@co_be_a_25_furqan_shaikh92,2021-02-16T12:39:10Z,2,Whenever I see krish sir...he seems to look like ashish chanchalani,True
+@gunnu61,2021-02-12T11:25:34Z,0,"Is anybody trying to find data science related jobs in delhi/ncr cause i am to ,but there aren't any ..most of the data science jobs qre in Bengaluru pune Hyderabad",True
+@deryl04,2021-02-04T19:28:38Z,2,Could we have more videos on projects and concepts rather than virtual interviews?,True
+@quantum3712,2021-02-04T15:05:57Z,1,Is it too late to change the career at 32 in data science?,True
+@naveendubey2815,2021-02-02T23:14:34Z,2,Amazing discussion..a lot to learn from this..Thanks for sharing it with open platform..🙏,True
+@phanindraparashar8930,2021-02-02T16:37:58Z,1,Check for seasonality and trend use either additive or a multiplicative aproach,True
+@OMGitsSMASH,2021-02-02T12:57:46Z,1,Real interviews arent much like this,True
+@akshayjadhav2213,2021-02-02T09:34:43Z,2,"Lovely concept sir , got to learn a lot. Thank you all of you.",True
+@bhaveshnaidu8179,2021-02-02T06:12:47Z,2,videos say Mock Interview For Data Science Role but most of the questions were deep learning-based.,True
+@pratikbhansali4086,2021-02-02T05:44:26Z,9,"Sir  just one small request, whatever questions u guys ask in the interviews pls try to pen down it and later try to provide answer of it in the description or later pin down the comment.",True
+@varunkiran3888,2021-02-02T02:21:08Z,6,Good interview. I watched the whole thing. It would be helpful if you could tell if the candidate would be hired or not for a data science role based on the performance in the interview...,True
+@Raja-tt4ll,2021-02-01T20:01:15Z,1,Nice,True
+@rhiteshkumarsingh4401,2021-02-01T19:45:33Z,6,This was very very informational. I was recently interviewed for a data science role and i was also asked questions on cnn and transformer model. I answered everything related to cnn but i had no idea on nlp transformer model. It has helped me a lot by watching this interview. I was also asked on the recent popular models like gpt2 and gpt3. I would like to thank Sudhanshu sir and Krish sir for giving their time. Thank you.,True
+@brijesh0808,2021-02-01T19:39:05Z,2,"Q1 soln: df['day_temp']=df.day.apply(lambda x: True if isinstance(x, float) and np.isnan(x)==0 else False) df['gender_temp']=df.gender.apply(lambda x: True if isinstance(x, np.object) else False) df[(df.day_temp==True) & (df.gender_temp==True)].index  OR just df.dropna().index  Q2.  sorted(s1.lower())==sorted(s2.lower())  Q3. df2 = df[['year', 'gender', 'births']].groupby(['year', 'gender']).sum() df2.head() will get table having male and female births year wise which can be scatter plotted.",True
+@themustknowfacts510,2021-02-01T18:05:29Z,4,Sudhanshu is superb while explaining the concepts...,True
+@themustknowfacts510,2021-02-01T18:04:50Z,6,Brilliant learning... Thanks for this level of content.,True
+@satishkundanagar3237,2021-02-01T17:24:36Z,2,"21:24 the solution presented selects entire columns of the dataset whose datatype are float and object; it seems the question asked was to filter the""data points"" a.k.a records which have float values in day column and string values in Gender column. Kindly clarify.",True
+@satishkundanagar3237,2021-02-01T17:18:38Z,4,"8:59 python question : I've a question. Why would I apply a filter to select only those records from the dataset that have floating point values in day column whose datatype is already ""floating point""?  To select records containing string values in Gender column whose datatype is object we have to apply filter because object type column may contain numeric values enclosed in quotes.  Note: I have not watched complete video yet.",True
+@ShashwatAgarwal007,2021-02-01T17:12:49Z,2,Notification ni aaya iska,True
+@himanshuaditya7,2021-02-01T16:52:37Z,2,Check with isinstance(),True
+@RajatKumar-tv5hn,2021-02-01T16:46:03Z,4,I am Fresher and I don't know python  but I am planning to persue my career as data analyst from last 20 day's so my friend suggested me to watch video from your YouTube channel. really it is wonderful interview. please sir keep it up 🙏🙏🙏,True
+@nikhilkant8089,2021-02-01T16:37:10Z,4,I'm not so fluent in English.. Should I worry?,True
+@surajkarekra4527,2021-02-01T15:49:06Z,3,Thanks,True

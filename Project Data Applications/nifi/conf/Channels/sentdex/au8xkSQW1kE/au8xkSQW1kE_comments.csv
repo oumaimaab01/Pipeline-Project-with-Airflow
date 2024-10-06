@@ -1,0 +1,59 @@
+author,updated_at,like_count,text,public
+@beer2273,2023-08-18T21:22:32Z,0,"i did write the same code and the result has some errors ,my tic tac toe always show a diagonal win and none of horizontal win , would someone help me ):",True
+@gabriellachitamu5096,2021-11-18T15:14:17Z,2,"This was by far one of the hardest videos of your to watch,",True
+@Pkotiu9292,2021-08-24T00:03:23Z,8,"Fun fact - 'iter' is Latin for a 'walk', 'path', or 'journey'. An 'iterator' is someone/thing that actively takes steps along a path (just as a 'victor' is someone who wins), whereas a path (or in this case, a list, etc.) is 'iterable' because it can be followed but doesn't necessitate that stepwise movement (same as when you 'reiterate' something you return to the beginning and walk through it again). Anyway, great stuff, I appreciate your lack of smoke and mirrors!  EDIT: Some parallels might be ""terminator"" vs. ""terminable"" or ""negotiator"" vs. ""negotiable""",True
+@imilkyplays3443,2021-04-19T18:48:35Z,0,for some reason this code works too  print(players_choice.__next__())   was wondering why,True
+@memegod9999,2021-03-19T07:19:14Z,3,anyone notice how every time he has a different mug lol,True
+@longde9968,2021-02-13T17:47:01Z,0,Visual studios keeps it as player 1 no matter  what!?,True
+@puptato1655,2021-02-06T00:55:33Z,0,Your videos are so helpful!,True
+@tobias7483,2021-01-28T11:43:11Z,2,"Is there an advantage when you use itertools instead of just loop through a list players = [1, 2]?       while not game_won:         for current_player in players:             column_choice = input(f""Player {current_player}: What column do you want to play? (0, 1, 2) "")             row_choice = input(f""Player {current_player}: What row do you want to play? (0, 1, 2) "")              game_board(game, player=current_player, row=int(row_choice), column=int(column_choice))             game_won = win(game) # win() function checks for every way to win tic tac toe              if game_won:                 break",True
+@invinciblegamer2010,2020-11-24T09:59:41Z,1,Hi! Ig u didn't include how to define if it's a draw....I have been trying check for draw but I can't ......can pls tell how to define a draw or tie,True
+@findiariesteam3325,2020-11-11T12:42:37Z,0,why is this code not working on pycharm? I had to use CMD where it works perfectly. What is the reason? (12:34),True
+@rubempacelli6815,2020-10-06T02:54:36Z,0,"Man, What is your state? I like this kind of accent. It is very different. If anyone can help me, would be amazing! :D",True
+@rahulprajapat3215,2020-06-22T16:10:01Z,0,"for i in range(n*n):     player = i%2 + 1  Here n is the size of the game.  And we simply rotate through the reminders of these number - odd/even - plus 1",True
+@ahmedanwer6899,2020-06-16T07:03:54Z,2,"13:33 okay so at this part the player can play the game! Cool but how is it working??Like what part of the code allows to print ""1"" given the column choice and row choice. Sorry about the noob question",True
+@jamesbuchanan27,2020-04-12T18:43:04Z,1,Great videos ... how about this one for toggling players: player = (player % 2) + 1,True
+@aka0989,2020-04-05T02:19:01Z,0,thanks a lot,True
+@MiledRizk,2020-04-02T20:15:21Z,0,"I did a small implementation for cycling in a list of two elements :  l = [0, 1]  for idx in range(10):     l2 = l[-1:-(len(l) + 1): -1]     print(l2[0])     l3 = l2[-1:-(len(l) + 1):-1]     print(l3[0])",True
+@alexpedraza6573,2020-02-23T20:53:49Z,0,Why ? game = game_board(game) When  game_board(game)   Does the same thing...,True
+@rubempacelli6815,2020-01-12T23:45:08Z,0,Great explanation about de difference between iterator and iterable,True
+@lucaslopesf,2019-11-25T04:10:57Z,0,8:00 lol,True
+@Pierredontcare,2019-11-14T14:21:25Z,0,"Around 11:30 mark, when I input my row and column for player 1, the grid stays as all zeroes. I feel my code is all the same. Is there an obvious reason for this?",True
+@paulbird2772,2019-11-14T13:04:14Z,0,For two player game I find the ternary operator quite readable.... current_player = 2 if current_player == 1 else 1,True
+@tommasogambini2538,2019-10-18T09:32:25Z,0,"#no modules, no functions:  players = ['a', 'b']  index = 1 while True:     index = index*-1+1     print (players[index])",True
+@grepme2001,2019-10-18T00:56:25Z,13,"For revolving the player number I went with:   players = [1,2] while not game_won:     current_player = player[0]     players.reverse()     Obviously it falls apart if we want to try three player tic-tac-toe. :)",True
+@SS-xt5ul,2019-10-14T12:26:46Z,0,"hello, could you please aloud the source code? tnx",True
+@Fullstad,2019-09-21T21:22:33Z,0,"player = list(reversed(range(1, 4)))[player]   takes the value from created reversed list [ 3, 2, 1] if player = 1    player = list[1] # which would be number '2' if player = 2   player = list[2] # which would be number '1'   update for using  'X' and 'O': player = { 'X' : 'O', 'O' :'X'}[player]",True
+@abdullah-946,2019-09-18T18:56:55Z,2,Is the any additional help on building knowledge on python I feel I am not getting a grasp,True
+@eastwoodsamuel4,2019-09-09T04:41:25Z,3,"players = [1,2] for i in range(10):  print(players[i%len(players)])",True
+@shivatejachavali787,2019-09-05T02:21:59Z,2,"what does that ""f"" mean in that print()",True
+@shivatejachavali787,2019-09-05T02:03:05Z,0,"why write {row[0]} , i mwan why encapsule it iin flower brackets ( see the winner print statement ) ?",True
+@veerayasawangsinudomchai5122,2019-09-01T23:00:45Z,0,"I got an error in this line ""game_map[row][column] = player"" TypeError: list indices must be integers or slices, not str Do you have any ideal?",True
+@vedantsohoni7219,2019-08-19T05:40:20Z,0,Do you have a collection of cups?,True
+@uncommonsense6022,2019-08-12T01:17:10Z,0,"why is it that whenever I type in ""import itertools"" it becomes grayed out and I get a nonetype error after inputting row and column?",True
+@hiteshdeora4207,2019-07-30T10:36:29Z,0,"hi, for me after i have followed till here,  while taking an input for the row i get no option to take the input for the column i tried with the code you left on the text version too, still i face the same issue",True
+@anubis9139,2019-07-02T05:27:01Z,6,"For me, I think a great way to toggle between player one and two is like this, ""player = (player - 2) * -1 + 1"".",True
+@robertom4287,2019-06-24T22:25:53Z,0,"I getting this error: ""line 15 diags = [ ]  IndentationError: unident does not match any other indentation level""",True
+@geocao,2019-06-14T02:46:00Z,0,"for i in range(9):     print(int(i) % 2 +1)",True
+@harshitgupta913,2019-05-31T06:13:53Z,0,Im getting an error:  'NoneType' object is not subscriptable Any ideas to what this is?,True
+@bavalpreetsingh4664,2019-05-10T14:59:30Z,1,"when we input 2,2 then 1,1 and then 0,0 at 13.40 minutes in video than it shows 'NoneType' object is not subscriptable",True
+@antogs3203,2019-04-21T14:58:56Z,6,"You stop explaining what you do, only why you do it. 😭",True
+@michailb2563,2019-04-17T13:33:35Z,0,diagonally is pure Greek word,True
+@nicozahniser4939,2019-03-15T21:09:46Z,0,"Where is the link to the text-based to this? Usually, there is a website attached! Thanks guys",True
+@amberhines8532,2019-02-28T15:37:12Z,0,"Hey! I got a two line code idea to swap between two consecutive numbers; current_player = 1 then to change players... current_player = int(-(current_player - 1.5) +1.5)) Explanation: First subtract 1.5 from current_player to make it -0.5, then flip it from one side of zero to the other (+0.5), next add the 1.5 back into the number to make it 2.0, lastly, use int to turn it into a whole number again (2 instead of 2.0.) This will work both ways and is only two lines of code (though this comment unfortunately isn't.)",True
+@jay_ta708,2018-12-10T06:22:27Z,0,"for user input, how would I allow the user to input just tile 1 (in which the user inputs 1 for the tile) to be [0][0] on the list in the tic tac toe? Instead of asking for the user to input their choice in column and row. Basically, combining column and row to be one user input for the player.",True
+@tcpinedo,2018-12-07T00:54:53Z,1,Where is the text based version of these vidoes?,True
+@Yoshiko_ESK,2018-11-27T17:28:34Z,2,"i""m just a beginner in programing trying to learn python but i come up with neat way to switch players i just enter this 2 line inside the main loop:  active_player = (i % 2) + 1  i += 1  and that's  it. you got your players rotation :-)",True
+@nikhil2021,2018-11-12T15:56:52Z,0,"For input in sublime text, use sublimeREPL",True
+@Sarni930,2018-11-10T20:31:48Z,0,"sentdex how to tab everything over all at once,  and thank you for what you don on your channel",True
+@blzfrost,2018-11-10T17:04:41Z,15,I <3 your collection of coffee cups!,True
+@MrBoubource,2018-11-09T11:02:10Z,2,"that was a complicated way to go from player 1 to 2... while play:     for player in (1, 2):         ""play the game""  maybe your point was to introduce us to itertools tho ;) And it also avoids overusing 'break' statement...",True
+@atrumluminarium,2018-11-08T17:45:57Z,1,"I may be missing the point but to get the [1212121212...] sequence, can you not just put in a counter (let's call it c) that increments with each repetition of the while loop and then use player=1+(c%2) rather than itertools?",True
+@ac-ml8gd,2018-11-08T13:41:55Z,2,"This tutorial was really helpful for me, a rusty semi-beginner. I managed to modify this into a working Connect Four game which I recommend to anyone who wants some extra challenge!",True
+@Dino-bp2tz,2018-11-08T04:22:23Z,0,"Hi, am i able to do this tutorial on a chromebook?",True
+@edster512,2018-11-07T21:33:59Z,0,"player = 1main:    player = player % 2 + 1There are so many ways you can do things in programming, I guess that's why its so interesting",True
+@lank_asif,2018-11-07T21:26:07Z,8,"sentdex    I LOVED this video!! Laughed when you called me out for hating on the trailing comma hahahahaha These tutorials are so wonderful because we're learning bits and pieces as we need them on a project that isn't too scary and intimidating. I'm excited to see why you keep putting an 'f' before the string in your prints. Thank you for all your hard work.  Also, would you consider making a sudoku solver in python (done in a similar fashion to this series)? I ask because I made one as my first program and it seems to work, but it's slow as hell and I'd love to see how a skilled person such as yourself would tackle the task. Would you please consider this as a request, and then consider my request ;p",True
+@asriel09,2018-11-07T20:28:14Z,1,All the code in win() doesn't make use of the current_game variable that you're passing in.,True
+@cicciobombo7496,2018-11-07T18:39:16Z,1,"I know this was made to explain iterators, but man... a =1 while not won:     ...     a = (a+1)%2     player = a + 1     ....",True
+@nickchamberlin,2018-11-07T18:03:37Z,0,Yay longer video,True
+@loukask.9111,2018-11-07T17:05:17Z,9,"got the notification that the premiere starts 2 minutes after it ended, let's go!",True

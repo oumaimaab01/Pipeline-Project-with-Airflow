@@ -1,0 +1,140 @@
+author,updated_at,like_count,text,public
+@adarshadas3037,2024-05-04T11:13:24Z,0,i really hate krish man how can people be so boring and watching his video DATA SCIENCE is such boring job how can people have fun in this carrer,True
+@garimaattri4760,2024-05-04T09:16:35Z,0,You make it very easy sir..the way you teach is fabulous....,True
+@user-wi7mt5st2s,2024-05-03T11:44:58Z,0,Thank you so much Sir for the great video,True
+@siddnrx3943,2024-05-03T07:36:15Z,0,final_df[final_df['Rating text'] == 'Excellent'][final_df['Aggregate rating'] == final_df['Aggregate rating']]['Cuisines'].value_counts(),True
+@siddnrx3943,2024-05-03T05:22:36Z,0,final_df['Country'][final_df['Rating text']  == 'Not rated'].value_counts(),True
+@usamashaikh1046,2024-04-30T13:27:02Z,0,Really appreciate your work,True
+@shafatnawaz6102,2024-04-27T21:51:49Z,0,# ASSIGNMENT TOP 10 Cuisines  here is the code top_10_cuisines = df['Cuisines'].value_counts().head(10) print(top_10_cuisines),True
+@user-rl4bu3mc8d,2024-04-12T10:04:07Z,1,Naye bottle chamka rahae ho Kris naik,True
+@shanmuganathan6230,2024-04-06T14:54:19Z,0,"final_df[['Cuisines']].groupby('Cuisines').size().reset_index().rename(columns={0:'Count'}).head(10).sort_values(by='Count',ascending=False)",True
+@InspiroSpheres,2024-04-01T17:25:41Z,0,Aw$m :),True
+@MuhammedShaheb,2024-03-25T14:13:28Z,0,Great session,True
+@pdivyanshupandey104,2024-02-20T15:06:32Z,0,i m getting error in barplot where we plotting aggregate rating  vs rating count   (the error showing value error not able to interpret the  rating count) at 55.20  mins,True
+@drprince8766,2024-02-03T11:53:15Z,0,How to create website video. thank you,True
+@prashindu,2024-01-29T06:10:24Z,2,"Enjoyed going through this EDA session. Sharing my new learnings from my first EDA session as my thanksgiving.   1) Learnt about encoding errors. 2) Learnt about matplotlib  figure sizing use rcParams 3) Learnt about why hue did not work in Seaborn as intended. 4) Learnt to understand the difference between value_counts and groupby().size 5) Loved to see how reset_index was being used time and again.  58:08  We use hue when we wish to differentiate the categories. But remember the colours of the bar graph were already in different colours. Why was that? In Seaborn library, the default palette is to show a mix of colours for each bar, which we subsequently changed to the colours we wanted. So the hue parameter did not do anything additional in this context. But the hue parameter did give us a legend.   1:18:45 We used groupby().size plenty of times. I was wondering when to use value_counts and when to use groupby().size  df[condition] returns a series ==> Here we can use value_counts(). We cant use groupby when it is a series. df[df[condition]] returns a dataframe ==> We can use groupby().size here.   Also size gives total count of all elements. If used with a groupby, it gives count of all elements for each group, including null values. But if we use value_counts, we get the element-wise total excluding null values.",True
+@deepikabeniwal5133,2024-01-24T11:14:29Z,0,What is df stands for,True
+@sparshruhela8584,2024-01-23T22:38:40Z,1,"#find the top 10 cuisines final_df['Cuisines'].value_counts().head(10).reset_index()",True
+@niteshkuwarbi04,2024-01-23T15:23:38Z,1,for assignment 1:26:16 final_df['Cuisines'].value_counts().reset_index().head(10),True
+@sagaragalawe1536,2024-01-23T10:00:27Z,0,About error we can ask chatgpt direct,True
+@abhiramadala9864,2023-10-09T15:56:16Z,0,so it is a regression dataset,True
+@shaikmahaboobpeer2357,2023-10-07T10:10:54Z,0,final_df.loc[final_df['Aggregate rating']==0].Country.value_counts()    we can find rating without grouping also,True
+@user-fb9tw6yh1f,2023-10-04T09:09:51Z,0,Thank you Krish.,True
+@evelyncusilopez6776,2023-09-25T20:45:07Z,0,"Awesome, thank you Krish!",True
+@user-vb5hh7rw3s,2023-08-30T11:35:00Z,0,"df.groupby('Cuisines').size().sort_values(ascending=False).head(10)  Cuisines North Indian                      936 North Indian, Chinese             511 Chinese                           354 Fast Food                         354 North Indian, Mughlai             334 Cafe                              299 Bakery                            218 North Indian, Mughlai, Chinese    197 Bakery, Desserts                  170 Street Food                       149",True
+@aryakurniasandi9671,2023-08-18T03:19:27Z,0,"what extension do you have on jupyter notebook,for auto that's formula  sorry if my english soo bad,but i'm trying",True
+@rajesh5201,2023-07-29T06:35:00Z,0,df1['Cuisines'][:11].reset_index(),True
+@aleenakotadiya8629,2023-07-25T13:48:29Z,0,Can we add this zomato EDA to our github? is this a complete EDA?,True
+@er_ritesh_meshram,2023-07-12T19:36:56Z,0,sir please do  EDA and ML project.,True
+@akashrathore1388,2023-07-12T12:12:17Z,0,Mzza hi a gya,True
+@karthikrajendran3394,2023-07-01T12:27:46Z,0,"This is convenient data set, no strings in numerical columns, or extra characters. That's a challenge.",True
+@kartik_exe_,2023-06-24T06:23:09Z,0,"Hello the explanation is great and i have done the assignment it was super easy:   # Finding top 10 cuisines cuisine_counts = df.groupby('Cuisines').size().reset_index() top_10_Cuisines = cuisine_counts.head(10)",True
+@sonalipandit3951,2023-06-22T07:45:15Z,0,Please can you make these videos in hindi,True
+@yadhunandan5765,2023-06-16T05:40:11Z,0,Hi Krsih i know how to do the EDA but Im not confident in feature engineering how can i get it done how do i practice it.,True
+@user-bt3hy4ny2w,2023-06-08T14:46:31Z,0,"df[""Cuisines""][0:10]",True
+@omarsalam7586,2023-05-26T19:50:54Z,0,😍,True
+@samuelmorales4871,2023-05-25T01:41:46Z,0,Thank you amazing video,True
+@prakashg7024,2023-05-14T12:28:32Z,0,i am trying file is not down loding,True
+@prakashg7024,2023-05-14T12:27:24Z,0,i am trying file is not down loding,True
+@prakashg7024,2023-05-14T12:26:53Z,0,i am trying file is not down loding,True
+@user-wv5ei5cc2w,2023-05-02T11:26:57Z,0,How can we read these json files?,True
+@graphicswithsk518,2023-04-24T05:30:32Z,0,please help me how to find top 10 cuisines,True
+@rithikahuja8203,2023-04-19T06:02:52Z,0,The most helpful video sir thank you so much for your valuable efforts ❤❤,True
+@user-rg6og5en2k,2023-04-18T19:37:35Z,1,This was sooo helpful krish sir! U made it like butter for us. I liked everything thank you u keep inspiring us,True
+@arvindersingh2193,2023-04-07T17:55:44Z,0,ty sir,True
+@talibdaryabi9434,2023-03-15T17:05:23Z,0,"assignment: df_combined['Cuisines'].value_counts().reset_index().rename(columns = {'index' : 'Food'}).iloc[:11,:]",True
+@kapilwasule8474,2023-03-13T17:36:05Z,0,sir how you auto complete command in jupyter,True
+@amolghongade19_07,2022-12-31T09:26:08Z,0,Good learning,True
+@praveentanikella4078,2022-12-06T12:12:01Z,0,Krishna have a lets say confusion rather than doubt as am looking for EDA knowledge if in real time if i was given a data set for doing EDA as am data analyst so my work related to get the insight from the data and to represent to client or have to do Machine learning for predictions also. Please can you give clarity?,True
+@VishalMeghwal-pv6fw,2022-11-29T08:36:13Z,0,"Sir , can we get the assignment solutions ?",True
+@ashulohar8948,2022-11-15T15:59:51Z,0,Please make more vedios on different use cases,True
+@ashulohar8948,2022-11-15T15:58:50Z,1,Best teaching I am from non tech background even I understand ur teaching 😊 god of data science krish naik,True
+@prathamdave5849,2022-11-06T11:41:45Z,0,"""Assignment Question Answer"":  from collections import Counter  smt = df['Cuisines'] smt.dropna(inplace=True) cusinevals = smt.values.tolist() finallist = [] for cusine in cusinevals:     for val in cusine.split(','):         finallist.append(val.strip())  print(Counter(finallist).most_common(5))  (Note that directly querying it wont work because Cuisines contains comma separated values)",True
+@chaiyanutjirayupat4724,2022-10-19T03:30:05Z,0,You are the best!,True
+@deepakrc8956,2022-10-18T17:45:19Z,0,Thankyou sir..,True
+@vivekpandey7896,2022-10-16T03:57:22Z,1,Can any one provide solution for the top cuisine,True
+@javeedtech,2022-10-16T03:44:26Z,0,"Thanks sir One issue is Krish sir moves his screen rapidly, it is difficult to code along with him, In YouTube we can pause video and look for that section, but in live class difficult.",True
+@sonaganeshg2301,2022-09-27T06:05:05Z,0,Thank you so much sir. You are like a way to build confidence in me to start data science,True
+@kaushaltiwari6045,2022-09-17T07:34:33Z,0,how do i get a job as data analyst or data scientist . i am a beginner and i have done projects on nlp and classification.,True
+@cricketmasstti_68,2022-09-16T12:28:00Z,0,How could we get this database,True
+@muhammadowaiskhan6831,2022-09-03T17:36:03Z,3,"I am from Pakistan and I have seen a lot of videos about EDA, But this one is just amazing. It is really easily understandable for begginers. Respect to you Sir!!!",True
+@HarishKumar-qt3mr,2022-09-01T04:39:04Z,0,Very helpful content brother,True
+@gopikrishna4552,2022-08-22T08:23:24Z,0,"Hi sir, while  merging two different data sets. either data shape should be same or different?",True
+@samshaikh278,2022-08-21T17:54:02Z,0,"The Seaborn package seems to have updated and is reporting error to me for ytickslable() and cbar(), can anybody please help?",True
+@Aa-ph5bj,2022-08-16T16:50:07Z,0,How i know what is the target cloumn?,True
+@iakhileshgupta3553,2022-08-08T08:11:50Z,0,I cannot open this CSV to read in pandas can you please help me to read it.  I'm getting a permission error,True
+@sureshbabuboyalla2332,2022-08-01T02:24:43Z,0,How do we select max no of ratings is between 2.5 to 3.4?,True
+@datasciencegyan5145,2022-07-28T11:56:08Z,0,"we can use  import matplotlib.pyplot as plt plt.figure(figsize=(10,4)) for figure size in visualization",True
+@skuna1217,2022-07-21T09:20:25Z,0,Wonderful Content,True
+@AbdulHannan-dg6dl,2022-07-15T13:16:30Z,0,"cuisine_names=final_df.Cuisines.value_counts() cuisine_names[:10] # Assignment",True
+@indranisen5877,2022-07-01T15:07:32Z,0,Very helpful..,True
+@neeraj.kumar.1,2022-06-24T00:18:05Z,0,*Assignment Solution* final_df.Cuisines.values_counts().head(10),True
+@MechTech17,2022-06-21T17:18:31Z,1,"top 10 cuisines ----""zomato.Cuisines.value_counts().sort_values(ascending=False).head(10)""",True
+@antonioarana8002,2022-06-15T03:11:21Z,0,"Prefect explanation! the visualization, the sub-setting , everything, the queries and the observations! GREAT thanks so much... (i just sttruggle a little bit about when to use groupby)",True
+@antonioarana8002,2022-06-14T23:41:28Z,10,Is really helpful that someone with real knowledge and experience teaches this kind of hands on real example stuff! so many thanks Krish,True
+@amoldusane9851,2022-06-07T15:35:08Z,0,nice section very informative.....,True
+@areebakhtar9841,2022-05-17T11:30:45Z,0,(To get countries given 0.0 aggregate rating)  df1[df1['Aggregate rating']==0.0]['Country'].reset_index()['Country'].value_counts().index,True
+@ankitraj3180,2022-05-17T10:18:47Z,0,final_df[final_df['Rating text']=='Excellent']['Cuisines'].head(10) answer for the last question---->   plz someone tell me this code is appropriate or not ??,True
+@adityadubey9565,2022-05-10T09:38:42Z,0,Code to find top 10 Cuisines:      final['Cuisines'].value_counts().reset_index().head(10),True
+@riteshmukhopadhyay6922,2022-05-07T23:13:17Z,0,"awesome work, <3",True
+@riteshmukhopadhyay6922,2022-05-07T05:10:38Z,1,"In missing values part the heat map plot is not visible instead if we resize the scale of the graph we will be able to actuallyplot the point. plt.figure(figsize = (15,8)) sns.heatmap(df.isnull(), yticklabels = False, cbar = True, cmap = 'viridis') the figure method will help us to resize the heat map accordingly.",True
+@palvinderbhatia3941,2022-05-02T13:05:08Z,1,"Hi Krish Amazing video. Thanks alot for all the videos, keep it up 👍 Have a doubt  @1.02, why max no of ratings is between 2.5 to 3.4? And not 2.5 to 3.9?",True
+@exclusiveglobaleducation2658,2022-04-22T07:14:22Z,0,really a great session .,True
+@harish00784,2022-04-21T11:10:53Z,0,💖💖💖AMAZING💖💖💖,True
+@khubimkumarchhetri5454,2022-04-15T11:16:39Z,0,How to access all the lecture series of this  session?,True
+@shaelanderchauhan1963,2022-04-15T05:59:16Z,0,Pronunciation of Cuisines was hilarious 1:26:20 HHAHAHAHAHHHAHAHAHAHAHAHAHAHAHAHAHA. It was an Amazing Video Kudos,True
+@dikshagupta3276,2022-04-14T00:48:27Z,1,In cell no 10 you added so many features it is important pls reply nice explanation 👍,True
+@harshkumarsharma8498,2022-04-10T12:17:33Z,0,"##Find top 10 cuisinies final_data[[""Cuisines""]].groupby([""Cuisines""]).size().reset_index().rename(columns={0:""Counts Cuisines""}).head(10)",True
+@swapnilloharkar9668,2022-04-08T20:30:25Z,0,Really Helpful.,True
+@dikshagupta3276,2022-04-05T11:49:18Z,0,Nice session thanku sir  In jupyter how we execute all cell in one command,True
+@aashishraj685,2022-04-05T05:03:45Z,0,"in case of skewed data, do we need to perform yeo-johnson power transformation and then standard scaling for the SVM model?",True
+@niharikathakur1672,2022-03-28T14:28:30Z,9,Just completed this session. Now everything seems so relatable and understandable. THANK YOU,True
+@bhooshan25,2022-03-25T16:39:10Z,6,Thanks!,True
+@yogeshwarkumar409,2022-03-17T17:54:28Z,0,How can I download the dataset ??? Plz reply,True
+@sandipansarkar9211,2022-03-17T17:38:45Z,1,finished coding,True
+@chandrashekhar-ss9hm,2022-03-14T04:41:57Z,0,pl upload EDA videos in community group,True
+@surajsuryawanshi5182,2022-03-10T18:00:06Z,0,Osm session ❤👍,True
+@AnkJyotishAaman,2022-03-06T15:32:06Z,2,"For the last Assingment which he has given as homework you can replace final_df as what you've coded in your book final_df[[""Cuisines""]].groupby([""Cuisines""]).size().reset_index().sort_values(by=0,ascending=False).head(10)",True
+@thilak8595,2022-03-06T07:18:21Z,0,"final_df[final_df['Aggregate rating'] == 0][['Aggregate rating','Country']].value_counts() this also workes at 1:11:19",True
+@onlymusic2005,2022-03-04T14:01:48Z,1,"You are a source of motivation... Keep up the good work, Krish! May Allah bless you and all your beloved!",True
+@kibetwalter8528,2022-02-28T21:15:59Z,0,"Hi Krish.   Please do an example for the difference between  using LSTM for classification and  LSTM for regression.   Explain the difference between using LSTM for the two. Especially for multivariate.   You  have always been my teacher. I learned machine learning and deep learning from you. No other bootcamp, I didn't do any computer science course in University. Just your YouTube videos.  Thank you so much.",True
+@charansundar7382,2022-02-28T06:49:43Z,0,"can anyone explain me how the count there is 9551,isint it 5?",True
+@aryamanbansal1,2022-02-27T21:43:52Z,10,"final_df['Cuisines'].value_counts(sort=True, ascending=False)[:10]",True
+@AartiKumari-gf5vx,2022-02-26T06:45:34Z,0,the zomato dataset isnt ipening,True
+@ayushrai654,2022-02-25T04:02:42Z,0,HELP!!!!!! AT 01:01:05 while using palettes I am getting the following error : ValueError: Could not generate a palette for <map object at 0x13D842F8>. Please someone clear it.,True
+@ajaykushwaha-je6mw,2022-02-23T13:21:57Z,36,"In real project we do not import CSV file, we pull data from mongo or from SQL db, can you please create video on importing  data frame from Database.",True
+@sidnoga,2022-02-22T15:24:17Z,0,Thank you for the amazing session,True
+@sakshirathoree2908,2022-02-21T13:10:47Z,1,How to change the background color of seaborn plot to black??,True
+@tanish7124,2022-02-21T10:49:34Z,0,"Thank you sir, Where to do we get the notepad which you have worked? is it saved somewhere. please inform",True
+@riffatabdulrauf2132,2022-02-21T07:20:19Z,0,"Sir I want to extract features from a text .CSV file, by using TFIDF and Ngram model, and I want the output in sparse matrix, Do you have any tutorial on that plz guide.",True
+@sumijasukumaran1394,2022-02-20T19:05:46Z,1,"Good live class ,understandable,thank you for the session",True
+@catchursam,2022-02-20T18:41:38Z,0,Great session. Wish I could have joined online,True
+@syeedafatima8634,2022-02-20T08:18:24Z,0,you are just amazing!,True
+@ankitayadav2690,2022-02-20T07:50:50Z,1,"Superb sir,  we are lucky to have a mentor like you",True
+@kangkankalita5221,2022-02-20T07:12:20Z,4,"Awesome session , much better than paid session, please keep posting sir.. thanks lot",True
+@discoverychannel6799,2022-02-20T07:10:44Z,0,great session thank you I learnt so much,True
+@equiwave80,2022-02-20T05:16:40Z,1,Thanks for this video. I spent my Sunday morning in a very useful way in brushing up my Python skills.,True
+@anandmohite,2022-02-20T04:56:29Z,45,"so just to clarify,  UTF8 and Latin1 encoded means UTF8 is used for electronic communication, like the data we process we convert this alpha numeric data into machine language using UTF8 encoding .. and we all know at granular level the machine language is in 0s and 1s, so we need some sort of encoding to convert the incoming English language alphabets into machine language for a machine to process the data ...  but when the incoming language has some characters which are not defined in English language then machine will not able to convert it into 0s and 1s cos for it its a foreign word/character not listed in given reference directory which is UTF8 in this case, so we need to provide appropriate reference so in case of incoming data has Japanese character then you can use JIS encoding, in case of incoming data has Latin characters then latin-1 etc ...",True
+@live.through.dance.,2022-02-19T20:09:54Z,9,"Thank you sir for this! I think, you should conduct more such sessions where you assign us such questions related to Data Analytics and then discuss answers",True
+@abelsontenny7537,2022-02-19T17:04:37Z,0,Using concat instead of merge will result in NaN values perhaps,True
+@anuragthakur5787,2022-02-19T15:09:20Z,2,Wonderful session sir thank you very much we are catching up please don't get disheartened by viewer counts,True
+@pythonenthusiast9292,2022-02-19T13:14:58Z,2,what are the pre-requisites for this series?,True
+@maneeshmm8105,2022-02-19T05:56:48Z,0,thank you for giving such an amazing things that from your channel....,True
+@karankumarchaudhari9477,2022-02-19T04:08:25Z,2,Thank you sir for this amazing session. Sir please do live sessions on NLP and Deep Learning,True
+@chetak-thegermanshepherdsm141,2022-02-18T14:38:34Z,0,"Sir, Django playlist has been left incomplete, I believe. Please upload more videos on django",True
+@kartiksopran1359,2022-02-18T03:08:17Z,0,Where we can get function we can use with group by,True
+@kartiksopran1359,2022-02-18T03:07:35Z,0,Hi sir can you explain how to aggregrate multiple columns in group by,True
+@firasathali8044,2022-02-18T00:49:36Z,1,"Hello sir, your contributions are very much helpful to many aspirants. one question why have stopped linear algebra tutorial ?",True
+@geekyprogrammer4831,2022-02-18T00:48:36Z,0,Amazing session Krish😁,True
+@arbaazkhan7136,2022-02-17T21:19:24Z,1,1.11.00 sir aapne kya paadha hai us time😆😆😆,True
+@abhishekrao1097,2022-02-17T20:35:59Z,2,final_df['Cuisines'].value_counts().head(10),True
+@soumya7427,2022-02-17T19:51:52Z,4,Thank you sir. This is a great session. It is very helpful and everything seems very easy to understand.,True
+@faheemsification,2022-02-17T19:43:01Z,0,"Wonderful, I want to interact with you  in regarding of Data science?",True
+@venkateshpolisetty5624,2022-02-17T18:47:28Z,0,"1:10:58 I Think The last record shouldn't come sir. Because, it has 1.8 rating and we require only 0 rating countries.",True
+@gh504,2022-02-17T18:02:23Z,3,Thank you sir for this amazing session. Sir please do live sessions on deep learning and NLP,True
+@sethusaim1250,2022-02-17T16:35:28Z,1,Thank you sir,True
+@colabwork1910,2022-02-17T16:05:37Z,0,Love  you,True
+@shubhamsingh3122,2022-02-17T15:37:30Z,1,sir i am unable to open this dataset on my jupyter  notebook,True
+@atharv_preeti,2022-02-17T15:05:17Z,0,Wonderful Krish. Just love it.,True
+@pawankatwe8985,2022-02-17T14:56:58Z,2,Great session... Thank you,True
+@kareoss,2022-02-17T14:55:29Z,1,Nice sir,True

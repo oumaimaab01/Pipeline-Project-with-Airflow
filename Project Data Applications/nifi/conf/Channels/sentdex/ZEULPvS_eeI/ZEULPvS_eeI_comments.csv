@@ -1,0 +1,36 @@
+author,updated_at,like_count,text,public
+@christiangeng6070,2021-01-24T12:01:53Z,0,"I am having problems in running the code. I get the same error as the one in  https://github.com/quantopian/zipline/issues/2470. I have used instructions of the first video of the series (thanks a lot, very helpful to get going!). My zipline version is `1.4.1`.",True
+@mahendradangol2120,2020-08-15T07:17:57Z,10,"while running the algo i get,  TypeError: run_algorithm() got an unexpected keyword argument 'data' .  How to resolve this one?",True
+@lucascerro8189,2020-05-09T08:45:39Z,0,"could you explain what you mean by ""because I can't trust any API""?",True
+@cemalyildirim4529,2020-03-13T23:29:41Z,0,"Did anyone figure out how to ingest data bundles? I have eod quandl data as a csv, but no clue how to use that",True
+@spam41912,2019-11-15T03:24:33Z,0,Shouldn't we be feeding adjusted close?,True
+@balavigneshk5382,2019-10-30T14:48:46Z,1,"Very useful as usual.. Can you help me with adding columns that are not OHLCV? I am trying to do this with all stocks, and I want to add things like Earnings Per Share etc..  Zipline throws an error when I run a panel with all these non OHLCV columns",True
+@Preppster83,2019-10-10T19:20:06Z,0,This is so cool and helpful.  Thank you for the education.,True
+@axelsolhall5830,2019-08-18T09:59:59Z,0,"I have this crazy problem when I got json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0).  I reinstalled everything like 4 TIMES, and then it suddenly worked as in the video. I went for dinner and when I came back I get the same error as before. I changed absolutely NOTHING! Can anyone help me? I've gone through dozens of threads and the entire comment sections for all videos, nothing works for me.   I did the following the time it worked: conda create -n Zipline python=3.5 pip install tensorflow-gpu==2.0.0-beta1  pip install zipline zipline ingest -b quantopian-quandl   I copy-pasted the code and have SPY.csv in the right directory. I have tried with both panel = pd.Panel(data) and panel = pd.DataFrame(data['SPY'])   Big thanks",True
+@gmax0,2019-05-20T03:55:03Z,0,How to account for stock splits? Let's say in the APPL example?,True
+@balavigneshk5382,2019-01-16T17:40:40Z,0,Thanks for this sentdex. Great stuff as usual! Could you also tell us how to ingest a custom bundle- which seems to be non-trivial.,True
+@marcusjun94,2018-12-21T03:44:08Z,0,In this case why do we need OrderDict? Sorry for beginner questions,True
+@hansmeiser2487,2018-11-28T03:28:39Z,0,How can i use pipeline with my local data?,True
+@YiLi1989,2018-08-14T18:04:53Z,0,How can we use buildin factors for our own data? With the panel data ingestion format? Thank you!,True
+@jesusborruel6936,2018-08-12T11:49:44Z,1,"Awesome tutorial, thanks Sentdex  So far I've being able to replicate everything. I 've changed SPY.csv by  AT&T (T.csv) and data includes not only AT&T but also spanish IBEX35 stocks.  To me it works with a small change, instead of : perf.SPY.pct_change().fillna(0).add(1).cumprod().sub(1).plot(label='benchmark') with ""ZeroDivisionError: float division by zero"" as result.  I put: perf['SPY'].pct_change().fillna(0).add(1).cumprod().sub(1).plot(label='benchmark')  Indead, I write perf['T'].pct_change()...",True
+@alvintng4708,2018-07-23T19:37:32Z,4,"Hello! Apparently panel is depreciated, and DataFrame should be used instead. :)",True
+@j.javiergalvez7934,2018-06-06T00:38:15Z,1,"Excellent tutorial. One question, when I tried to indicate the `start` end `end` date in the zipline.run_algorithm() function with hour specification it doesn't read it properly. For instance, if I indicate the `start` as datetime(2018, 1, 2, 9, 33, 0, 0, pytz.utc) it trows me the error Equity(0 [SPY]) does not exist on 2018-01-02 00:00:00+00:00. It started trading on 2018-01-02 09:31:00+00:00. It's like the parameter only accept the day and not the hour. Have you ever faced that trouble?",True
+@akashreddyeda9547,2018-06-04T22:35:20Z,0,"Hi sentdex, I followed all the steps but I got an error ,  None of [['close']] are in the [minor-axis]"" . Please advise",True
+@bozkurttatanga,2018-05-30T06:06:24Z,0,"Hi sentdex,I m trying to use more than one ticker but when i m trying to give symbol(stock) command error is  raised: ""str"" object is not callable.",True
+@kingkeshu5561,2018-05-17T04:37:05Z,0,"hey, can you please tell me how i can set my custom image for the curscor? its urgent, please respond and tell.",True
+@Factorpad,2018-05-12T15:05:03Z,1,"Nice video Harrison. For your subscribers who want a background on portfolio optimization and constraints it may be worth looking at white papers provided by risk model providers that work with huge ($1B+) quant funds. Whether it be a fundamental-factor or economic macro factor APT model, firms like Barra, Northfield, Axioma, Wilshire have been integrating optimization with risk models for decades. They're expensive, but you may be able to improve your performance by incorporating nuances of optimization with constraints in Python. -Paul",True
+@DanielWeikert,2018-05-07T18:31:33Z,0,does the good old datareader still work. Afaik yahoo is not available anymore but google maybe,True
+@myztic123,2018-05-04T18:32:44Z,1,pandas Panel is  already deprecated for quite some time,True
+@elddyhosea9036,2018-05-04T02:48:33Z,0,"Hey HK, can you show us an example of using an actual trading strategy? Am trying to backtest  a personal trading strategy e.g MACD on Bitcoin and then leveraging zip line.",True
+@gabrielnine7292,2018-05-03T17:26:53Z,0,is it possible to create a trading platform with python ?,True
+@dawah7556,2018-05-03T13:07:47Z,0,would you please recommend a good book for machine learning?,True
+@francoispaulsen2642,2018-05-03T10:16:43Z,0,Would you be willing to make a mini series on how to connect Python to MT4 using ZeroMQ or whatever alternative? There are not many resources on the internet for this and of what there is I cannot make sense of. I am trying to connect to MT4 so that I am  able to receive real time data and historical data as well as to be able to send/place orders etc. However any advice will be appreciated. Keep up the good work man!,True
+@Evlenden,2018-05-03T04:43:39Z,3,Does Zipline support Forex Backtesting ?,True
+@saeedrahman8362,2018-05-02T22:33:53Z,1,"Awesome, thanks",True
+@moniquemarinslp,2018-05-02T21:19:34Z,0,Great!,True
+@polares8187,2018-05-02T19:53:18Z,0,can you use dask with zipline to use csv files bigger than your ram?,True
+@whocareswhoiam2day,2018-05-02T19:40:23Z,0,"nice, cool stuff. i hope you will do also integration with IB, and you will use indexes like TNX or VIX :)",True
+@huyvole9724,2018-05-02T18:54:11Z,0,pygame put me here,True
+@Liam-pf7ih,2018-05-02T18:08:33Z,0,(unrelated) i have installed the pygame module and it is in my site packages folder (after I installed with pip) but when I try to load it it doesn't work. Any chance you know why,True
+@FinJN,2018-05-02T18:08:06Z,0,cool!,True
+@x-lightsfs5681,2018-05-02T17:59:23Z,1,First,True

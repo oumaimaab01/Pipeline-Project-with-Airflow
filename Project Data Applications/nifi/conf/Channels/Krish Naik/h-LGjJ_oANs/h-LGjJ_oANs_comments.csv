@@ -1,0 +1,68 @@
+author,updated_at,like_count,text,public
+@sowmyamadugula9542,2024-04-23T10:30:22Z,0,Learn by doing,True
+@sowmyamadugula9542,2024-04-23T10:25:09Z,0,Do it while you are learning.,True
+@AbhishekBade1310,2023-09-10T06:47:07Z,0,can we call this FinBERT?,True
+@AbhishekBade1310,2023-09-10T04:41:40Z,0,the dataset you used has news headlines for only one company or multiple companies?,True
+@kashishshukla23,2023-05-16T07:13:05Z,0,"krish it is showing only the accuracy of the model, where is it predicting the stock price movement?",True
+@prathmeshdesai4480,2023-04-07T11:43:34Z,1,"The train test split initially done has overlapping data. df.shape equals 4101 but the sum of train.shape and test.shape equals more than that.  The problem occurred at the code train = df[df[date]<'20150101']. Because when we check train.max(), result is '20151231' and test.min() returns '20150102', which means the entire year of 201's records are present in both test and train",True
+@sebastiandylicki3245,2022-12-30T11:13:19Z,0,"Hey, I only don't understand how to get proper labels from the past according to our data, did you scrape them?",True
+@bhavikdudhrejiya852,2022-08-25T19:27:40Z,0,Best practice example to understand the the basics of NLP,True
+@datascience3046,2022-07-18T05:05:11Z,2,"I AM GETTING THIS ERROR  (WHAT TO DO NOW ) --------> 'X has 13932 features, but Random Forest Classifier is expecting 39642 features as input.'  PLEASE HELP ME OUT....",True
+@pravinshende.DataScientist,2022-04-27T06:05:52Z,2,I am following this playlist . .. and watched this playlist 5 times .. evry time I got some extra glimses and it enrich my knowlegde..Thank you sir  !!!,True
+@rajarshidgp2003,2022-02-24T15:17:12Z,0,why did you choose a random forest classifier and not naive bayes in this case,True
+@antonyvibin3274,2022-01-31T10:42:29Z,0,Hi Krish... Why have we used BOW here? When we say TF-IDF and Word2Vec is better why BOW?,True
+@miransh,2022-01-28T14:34:38Z,1,"Hi Krish, do you do one-on-one for stock market picks for investment? How much will this cost in INR?  I have just learnt R sutdio, not knowing Python yet. I need this for my stock analysis to pick good quality stocks, predict the sensex and top 10 performing stocks which I should stay invested in for the next 10 years.. I am learning IT to invest, I am an investor primarily...Thanks",True
+@plabmadeeasy,2022-01-20T23:12:50Z,0,"I am getting this error when I execute predictions = randomclassifier.predict(test_dataset)  Error : Found array with 0 sample(s) (shape=(0, 454466)) while a minimum of 1 is required.  Can you help with this please?",True
+@kunalkumar2717,2021-07-31T06:22:58Z,0,This video is gold for beginners.,True
+@lucksimi3320,2021-07-25T04:44:11Z,0,Hi  Can i get the news for hong kong stock exchange or shanghai SE? Thanks,True
+@sirsendusarkar9792,2021-06-18T05:23:31Z,3,why dont you put the link of the kaggle data? or tell us the excat name by which we can search in kaggle ?,True
+@pepetikesavasiddhardha7852,2021-06-11T07:03:54Z,3,where can we find this dataset,True
+@premranjan4440,2021-05-20T06:07:25Z,1,This video was not satisfactory as you didn't taught the concepts or elaborate about the code you wrote. You just read the code straight away!,True
+@nileshmandlik9662,2021-05-07T16:32:07Z,0,perfect,True
+@IGTechTeam,2021-05-05T15:51:44Z,2,"This is totally wrong as most of the trained data and tested data are same, so the accuracy in your case is high. I got only 52% accuracy. Can you solve this again and back to us??",True
+@nischalsubedi9432,2021-05-05T03:41:15Z,2,Why don't we need to apply lower() and remove and other expressions such as numbers from the test set as we did in the training set? Great video btw!,True
+@kaveriparida7575,2021-04-22T09:03:34Z,3,"Why you have not applied lemmatization or stemmimg here , because we Generally apply them in NLP",True
+@cinderellaman7534,2021-02-19T18:11:05Z,0,"Hey Krish, The kaggle dataset has been removed. Do you have a back up for this.",True
+@BikasKatwalK,2021-02-19T05:21:13Z,0,"Hey, could you do a video on the non-binary classification. Almost all the tutorials out on the internet stick to binary classification.",True
+@coder_1037,2021-02-03T17:07:17Z,0,why cournt vectorizer and tfidf is used as we can use word2vec as its good for sentiments ?,True
+@pjo3800,2020-12-31T05:37:27Z,7,"Lot of the entries in train and test are same. Use the below syntax to split the data into train and test to get rid of duplicates; train = df[df['Date'] < '2015-01-01'] test = df[df['Date'] > '2014-12-31']",True
+@aishwaryabhargava5167,2020-10-26T08:03:51Z,1,kaggle dataset link?,True
+@sergeyzaitsev2365,2020-10-22T14:15:19Z,1,Hi Krish! Could you please provide a link to the kaggle web site? I can't find such a competition,True
+@Simar2222,2020-10-08T18:01:34Z,0,The link for the dataset is not in description. Here it is from Krish's GitHub - https://github.com/krishnaik06/Stock-Sentiment-Analysis,True
+@aneeshgupta1617,2020-10-06T19:27:30Z,35,"Sir, the condition you've taken takes 66% of test data from train data, therefore, most of the entries of test data had been trained...so the original accuracy came out as 58%",True
+@akarshsrivastava2548,2020-10-03T19:38:39Z,1,Don't we need to preprocess the 'test set' as it still not concerted to lower case and punctuations and other symbols still exist?,True
+@d3v487,2020-09-30T16:57:29Z,0,Can someone drop the kaggle dataset link here ? Thank you.,True
+@ujjwal1152,2020-09-25T15:35:40Z,0,"If I'm using train test split, the precision is less than 50%. Can anybody explain why please ?",True
+@graphicboy,2020-09-01T23:34:27Z,1,dedaa on garglee,True
+@actionadventuregaming,2020-08-25T14:14:24Z,1,"I am getting an error 'Number of features of the model must match the input. Model n_features is 44486 and input n_features is 16127'  at the end ,after executing this(randomclassifier.predict(testdata). How do I fix it?",True
+@harkiratkaur7050,2020-06-29T03:43:07Z,0,I am unable to download data. can you please share link to the kaggle project?,True
+@sandipansarkar9211,2020-06-18T19:21:57Z,1,Great video once again Krish. Please practice.Just viewing wont do.Thanks,True
+@BalaguruGupta,2020-06-13T18:56:52Z,0,"sir, why all the numerics are removed as part of feature engineering? or is there any specific way to handle the alphanumeric text data?",True
+@SP-db6sh,2020-06-10T07:05:14Z,0,Please start a series on ML Algo trading bot .,True
+@saivishwagaddam3057,2020-06-05T06:50:34Z,1,feature enginerring is not done on testdata,True
+@souravbiswas6892,2020-06-01T07:16:41Z,0,"excellent video, but 1 qn, why random forest? why not naive bayes?",True
+@mukulsharma9673,2020-05-27T07:39:44Z,1,Does countvertorizer includes lemmatization as well ?,True
+@aarohibychithrasona4004,2020-05-25T07:21:01Z,4,"sir,all feature engg process in training data shud be done to the test data also right??but u didnt do it ??",True
+@kanhataak1269,2020-05-23T12:58:54Z,1,"Hello  sir, well exp  we can also apply Passive Aggressive Classifier and naive bayes classifiers.",True
+@narangdeepak6209,2020-05-18T17:10:07Z,1,"Why we didn't remove the stop words?  We have developed a model where all the top comments are combined to predict 0 or 1. When there will be new statement which will be single, how it will predict by this model ?",True
+@prasunprakash2297,2020-05-17T07:25:44Z,5,"Hi Krish,   Why we have not applied Stop words here?",True
+@NaazbyGurleen,2020-05-14T14:44:14Z,3,why is the train dataset including the year 2015 because the condition is less than 2015,True
+@sarthis7,2020-05-08T17:17:28Z,0,"Hi sir, instead of random forest can i use .GaussianNB?",True
+@prelimsiscoming,2020-05-08T14:11:17Z,0,link of the kaggle dataset pls ??,True
+@PositronQ,2020-04-17T06:18:16Z,9,I use LSTM layers for predicting stocks and I won $12.000 aprox,True
+@yashikalanjewar6857,2020-03-24T18:50:53Z,1,please upload the kaggle link as well,True
+@varungupta1047,2019-12-26T13:17:12Z,0,"Hi , from where can i get this dataset.I try to found on Kaggle but couldn't.Please help. Thanks",True
+@reach2PR,2019-09-21T15:17:11Z,2,"You have a good heart Krish, your videos are really helpful for many, thank you is simple to you. I owe you a lot.",True
+@ManishBhatikumar,2019-09-15T15:04:22Z,0,Hi krish this was very useful video. I just have one doubt. As u are using colums count hard coded why not using the column count dynamically,True
+@shaz-z506,2019-09-15T13:14:24Z,0,"Hi Krish, Its a good video for sentiment analysis, please upload a video on how we can use RNN with word2vec for sentiment analysis.",True
+@rohitsharma-kr9gk,2019-09-14T19:52:09Z,1,Sir can you make a video on fitness based recommendation system.  and can you tell me how to collect data set of different people and recommend them food and exercise according to that data set. plz reply sir....,True
+@VinodRS01,2019-09-14T14:34:52Z,13,😍sir you are a inspiration to so many of data science aspirants like me..thank you 😊,True
+@puliraju9222,2019-09-14T13:27:36Z,0,"Sir after seeing your videos ,i have decided to learn data science...but I am from Telecom background.can you please help me to learn concepts easily...mulinti.rajukkl@gmail.com",True
+@VaibhavPatil-rx7pc,2019-09-14T13:27:17Z,1,Good job!!,True
+@PallatiCharan,2019-09-14T12:36:48Z,4,"Great video sir, Do you have any idea, How do we create our own dataset for any company and classify the 0's and 1's",True
+@KrishnaList,2019-09-14T12:04:16Z,6,Can you do live streeming kaggle project so we see   how to think and solve realtime,True
+@KrishnaList,2019-09-14T11:58:23Z,1,Awosom video gr8 work,True
+@bhargavreddy588,2019-09-14T09:52:48Z,3,"Hi Krish,  I have one doubt.  Suppose if we have 1 lakhs rows (reviews or tweets etc) we cannot read each review to label the sentiment in train data in that case how we will label the sentiment(1 or 0) of the train data?",True
+@sawangupta1217,2019-09-14T07:54:19Z,2,"Hi krish naik,  Can you send all machine learning videos step by step like a course Whereby we can learn on proper way.",True
+@vishal56765,2019-09-14T07:45:43Z,1,again an awesome video. I wish you could mentor me directly.,True
+@pratikagarwala2919,2019-09-14T05:04:39Z,1,thankyou sir i was waiting for since long,True

@@ -1,0 +1,144 @@
+author,updated_at,like_count,text,public
+@alberro96,2023-01-28T10:53:47Z,0,"How could I implement this with CNN? I'm working with my own dataset adn it seems like the keras tuners don't like the tf.data.Datasets yet. They're still expecting (x_train, y_train), (x_test, y_test). Is my thinking correct there? Essentially I'm loading my data using tf.keras.preprocessing.image_dataset_from_directory and would like to feed this into the tune.  How could I split my own data in (x_train, y_train), (x_test, y_test)?",True
+@neoblackcyptron,2022-09-03T18:22:44Z,0,"Sorry I am worse than a paper bag. I could not solve the fashion MNIST problem manually by different layers sizes and depths for a non-CNN FCN, I could not cross the 90% val_accuracy.  That is why I am going to use the keras tuner.",True
+@programerahmed4470,2022-08-28T02:41:20Z,0,Great video:  How can  I force Keras Tuner to use default hyperparameter values for the first optimization iteration,True
+@eranfeit,2022-08-10T19:49:00Z,0,Thank you for great video,True
+@felixmuller9062,2022-03-25T15:37:30Z,0,"First of all thank you very much for this amazing video. Helped me a lot! I still have a quastion. Is it possible to give the Coice function a ""none"" as a value? I´m aiming for a HP-Optimization where I want to try different regularizers. One option shall be that I don´t use any optimizer. Is this possible with keras_tuner?",True
+@angelazhang9082,2022-02-05T23:10:44Z,0,"Thanks for the thorough video.  I've been trying to figure out a way to find batch_size that the tuner found the best results with, but I've been unsuccessful.  Can you comment on that?  I watched your video several times and don't think you mentioned anything about batch size, which is a very common parameter to test with.  I looked up several articles and haven't found any information on that either.  I also haven't found any information on how to add batch size as a parameter for the tuner.  So the only thing I can think of is to run the tuner multiple times for the varying batch sizes, but I'm sure there's a better way.",True
+@coder3652,2022-01-18T16:10:27Z,0,Thanks for video,True
+@51nibbler,2022-01-14T12:35:23Z,0,thx for good explain,True
+@maliksalman1907,2022-01-10T15:51:14Z,0,"Sir, I need to ask you about the firefly algorithm to optimize CNN model.",True
+@chaitanyasharma6270,2021-12-26T19:04:46Z,0,"why did you remove maxpooling , is there a way to add some maxpooling layers?",True
+@JordanMetroidManiac,2021-12-05T09:18:56Z,11,"26:30 The number of possible hyperparameter combinations with that search space is 8^2 + 8^3 + 8^4 + 8^5 = 37440.  So, of course, a random search on that could take up to 37440 trials to find the best possible combination of hyperparameters. There are usually subsets of combinations that are ""alike"" and would achieve similar performance, so you wouldn't need to set max_trials = 37400, but more like max_trials = 100.",True
+@k4qdex,2021-11-28T00:49:15Z,0,whats the point of this video when not even explaining what  each layer does? pointless,True
+@amirmasoudkiakojouri6655,2021-10-29T12:52:50Z,0,"Thank you for your clear description. I have problems with kerastuning installation and import it for tuning. Would you please let me know how to install it? When I want to install kerastuner in the terminal, I see an error as below:  ERROR: Could not find a version that satisfies the requirement kerastuner (from versions: none) ERROR: No matching distribution found for kerastuner",True
+@yazanmajzoub6582,2021-10-25T11:17:45Z,0,really..... thanks,True
+@rchuso,2021-09-01T02:25:05Z,0,"I've been using Bayesian-Optimization, and this looks a lot like that.",True
+@jm10oct,2021-07-10T01:03:23Z,0,WOW!!! that might have just made my project 3 months shorter!!!!,True
+@TheMaytschi,2021-05-13T19:29:26Z,0,"Great video!! @sentdex or anyone else: I am using the tuner for RNN with stacked LSTM layers, but for some reason the tuner does not converge whereas if I try the same architecture during normal fitting, it converges. Any idea why this could happen?",True
+@matt_t937,2021-05-03T12:53:29Z,0,"Hi! thank you for the quality of your videos, you are doing an awesome job! I wanted to ask you if there you know how to tune keras models hyperparameters using Sklearn TimeSeriesSplit cross validation method and not just a shuffling cross validation like in yuor model. I tried to use Sklearn tuner but it doesn't work with my deep learning model however I really really need that cv option... help me please I need to finish up my Bachelor thesis, I can pay :)",True
+@marmar321,2021-04-29T13:33:37Z,0,"I forgot to save the pickle file for my test. By any way, is it possible to do a load summary in a previous run of keras tuner without pickle? Thanks",True
+@ivavrtaric,2021-04-06T21:15:55Z,0,I still cant figure out how is even possible to have -1 in reshaping while creating x and y train and test labels,True
+@rafaelstevenson,2021-03-29T09:20:14Z,0,"Hello, i seems to have problem in using keras tuner that the result shows disagreement , if you understand and care to help here is the detailed issue statement in stack overflow questions/66783048/keras-tuner-uses-for-i-in-rangehp-intn-layers-1-3-but-does-not-show-agre",True
+@meandkg,2021-03-10T06:28:30Z,1,What about cross validation? Does it support optimizing for the average score of say 5 fold cross validation? Or does it just optimize on one fold?,True
+@meandkg,2021-03-10T03:28:52Z,0,ha ha 7:54 'woah whats that',True
+@meandkg,2021-03-10T03:20:24Z,0,so.... Keras Tuner is better than writing for loops and testing manually? Can it get stuck in local optima?,True
+@yoannrey5286,2021-03-03T18:03:22Z,0,"Hello ! Thanks for the video :)  One question, did you manage to use Keras-tuner with Tensorboard ?",True
+@thomhomsma5474,2021-03-02T16:48:46Z,0,How do you use tensorboard after running the search?,True
+@sriadityab4794,2021-02-08T07:42:00Z,0,Can you tell me how to perform cross-validation/hyper parameter tuning for time series forecasting using LSTM?,True
+@RojinaPanta1,2021-02-05T13:38:48Z,0,how can we carry out search on train_on_batch dataset ?,True
+@ankitganeshpurkar,2021-02-01T14:15:35Z,1,"Hi sir, This tutorial is simple and effective. I have query when i am applying this random search the codes runs well. But the number of layer is something else and actually layers are different in numbers. The both number don't tally most of the time. Example number of layer in a model is 7 but total layer shown is 18. What could be the problem?",True
+@rogervaldivia7033,2021-01-29T17:16:33Z,0,Thanks for the video! Do you know if its possible to optimize to cross validation error?,True
+@patrickduhirwenzivugira4729,2021-01-20T01:52:57Z,0,"Thank you for the great video. How can I also tune the optimizers (let's say ['Adam, RMSprop]) with dynamic learning rates? Many tutorials keep it fixed. Thank you.",True
+@bhargav7476,2021-01-10T17:19:24Z,1,"Do give 'Optuna' a try, it's just as easy as this and uses Bayesian Optimization to pick parameters instead of random search.",True
+@paulzimmer914,2020-11-25T14:51:35Z,0,Every time that this code is run it performs 1 tiral with 1 set of parameters right? and then all the trials are saved as pickle files.,True
+@guermouimawloud1782,2020-11-18T15:21:31Z,0,How can we define Dropout for each layer!!!!,True
+@FrostEnceladus,2020-11-04T21:45:36Z,0,How do you know when you are using too many or too few neurons? And how do you solve the number of neuron from the number of layers needed. That's my problem,True
+@FrostEnceladus,2020-11-04T21:45:25Z,0,How do you know when you are using too many or too few neurons? And how do you solve the number of neuron per layer from the number of layers needed. That's my problem,True
+@gouki1001,2020-10-29T01:23:45Z,0,Is it a norm to use keras tuner and keras callbacks to optimise? OR these are two methods not needing to utilize each other,True
+@MultiNarutoGamer,2020-10-28T18:42:26Z,0,@sentdex Is it possible to tell the model to try it with and without max pooling? Or with different activation functions?,True
+@eleftheriaggp4572,2020-10-25T11:22:46Z,1,"Wow, now this WOULD be perfect ... wondering if you could share a liittle bit of your precious time and tell me what this is about ... ""INFO:tensorflow:Oracle triggered exit""  just mainly. just a hint. something. please.  #muchasgracias",True
+@siddheshwarimishra8042,2020-10-21T11:10:46Z,0,"Respected sir, please tell me how to use the swarm optimization technique in the pre-trained model. and please suggest me can I use multiple pre-trained networks with multiple nature-based optimization techniques for multiple inputs. please.....",True
+@leonhma,2020-10-03T07:17:08Z,0,Try tabnine complete it’s even better.  **uses machine learning**,True
+@oliverpolden,2020-09-25T11:57:46Z,0,How does keras-tuner compare with Tensorboard's hparams? Seems hparams would be better for analysis within Tensorboard?,True
+@usamatahir7091,2020-09-20T02:27:21Z,0,I love you Harrison!,True
+@ujjalmodak2656,2020-09-05T17:11:29Z,0,you look like eminem,True
+@Evan_242,2020-08-21T15:53:58Z,1,"This kite things looks awesome, I will definitely check it out. Thanks Harrison, hope you're doing well :)",True
+@ahsanrao6164,2020-08-11T12:50:49Z,0,"If someone has issues during running this code then remove this line from your model model.add(MaxPooling2D(pool_size=(2, 2))) My code was not working, and when I remove this line, it works fine now.",True
+@kaustubhkulkarni,2020-07-30T18:59:55Z,0,How do we save and checkpoint the kerastuner random models?,True
+@sebastianmuller1866,2020-07-22T17:11:39Z,0,Hey  Thanks for that awesome video! :D  I have troubles with the logdir. So my model is built and the tuner object is implemented but when i run the tuner.search() command i get following error:  NotFoundError: Failed to create a directory: logs\\20200722-185902\untitled_project\trial_f59ef3a7180c98ecbc29e51e0e266084\checkpoints\epoch_0\checkpoint_temp_3b100814fd5145d29701b6ad3b892443; No such file or directory [Op:SaveV2]  Did somebody encounter the same problem (and can help me?!) Have a nice evening!,True
+@pushkarajpalnitkar1695,2020-07-10T14:09:56Z,0,Graet video! Can anyone please suggest me the number of epochs to use in the search? More specifically will using more number of epochs helps the search? Or small say 1-3 epochs are sufficient for comparison of model performance?,True
+@scuffedtwitchmemes1834,2020-07-08T22:12:46Z,0,how would i go at doing this for an image generator?,True
+@jakaseptiadi1752,2020-06-24T06:39:05Z,0,I'm thinking about changing keras optimizer algorithm during training. Is it possible in keras?,True
+@fcolecumberri,2020-06-22T23:46:24Z,0,You should add this to your keras tutorial playlist. Thanks for this and for that tutorial,True
+@GauravKumar-ch3xn,2020-06-21T15:16:16Z,1,"There is a default hyper-parameter tuning available in TensorFlow, does the same thing with some pretty visualization also while attached to tensor-board, What would be interesting to see if any of these packages apply Bayesian Optimization also , that would be nicer",True
+@deepakkumarjoshi,2020-06-21T13:54:41Z,0,"Thanks for the great work, how do we plot the result to compare, actual, predicted datasets after using the tuner?",True
+@tingyizhu3691,2020-06-06T01:23:48Z,0,R package has plot_tune function to have a nice visualization of the tuning results. Does python have similar thing?,True
+@nmana9759,2020-05-21T10:24:07Z,0,"Can this tuner used for RNN, Please answer thank you",True
+@david-vr1ty,2020-05-19T22:42:38Z,0,"Nice tutorial! While watching I came up with some questions regarding overfitting/generalization: 1. Does Keras-Tuner searches for the best model considering overfitting? We specify the parameters for training (epochs & batch size), so is Keras-Tuner somehow considering overfitting in the model comparison or is it just comparing the acc of each model after the specified epchos rigardingless the number of epoch leads to overfitting or not? 2. If it does not, is the tuner still usefull? 3. If it does, can we show the number of epochs used for each model in the model report?  Thx in advance ;)",True
+@chaimaaessayeh8929,2020-05-09T14:32:46Z,0,Very interesting!! Is there a way to apply this same technique on a reinforcement learning model? like the one you build in another video series?,True
+@riadhgharbi7985,2020-05-02T22:46:41Z,3,"keep up the likes and comments lads, we need more of his content, support our guy here xD",True
+@varunnagpal2258,2020-04-22T20:45:58Z,0,"I ran it with varying number of layers, but it shows strange  mismatch between number of layers reported and value of num_layers   [Trial summary]  |-Trial ID: 79cd7bb6146b4c243eb2bc51f19985de  |-Score: 0.8444444537162781  |-Best step: 0  > Hyperparameters:  |-Conv2D_0: 448  |-Conv2D_1: 448  |-Conv2D_2: 512  |-learning_rate: 0.0001  |-num_layers: 1  |-rate: 0.5   You can see there are three Conv2D layers and yet it shows num_layers as 1 ...why ?     def build_model(hp):     model = tf.keras.Sequential();     model.add(base_model);          for i in range(hp.Int('num_layers', 1, 2)):         model.add(tf.keras.layers.Conv2D(filters=hp.Int('Conv2D_' + str(i),             min_value=32,             max_value=512,             step=32),             kernel_size=3, activation='relu'));         model.add(tf.keras.layers.Dropout(hp.Choice('rate', [0.3, 0.5])));          model.add(tf.keras.layers.GlobalAveragePooling2D());     model.add(tf.keras.layers.Flatten());     model.add(tf.keras.layers.Dropout(0.2));     model.add(tf.keras.layers.Dense(5, activation='softmax'));          model.compile(optimizer=tf.keras.optimizers.RMSprop(hp.Choice('learning_rate', [1e-4, 1e-5])),         loss='categorical_crossentropy',         metrics=['accuracy']);          return model",True
+@interpro,2020-04-17T21:17:14Z,0,Great tutorial! Thanks much!,True
+@neatpolygons8500,2020-04-07T09:33:00Z,0,"oh yeah, Kite. It's fricking genius and I use it with vim",True
+@jasonproconsult9525,2020-04-01T01:09:49Z,0,I'm using Spyder which prints  tuner.results_summary()  as an <IPython.core.display.HTML object>. Seems no workaround yet from Spyder dev  :(,True
+@princeofexcess,2020-03-26T04:22:48Z,0,could anyone give me a link to the old video with loops?,True
+@Accarvd,2020-03-19T13:44:07Z,2,Probably one of the best YouTube videos (on this topic),True
+@1991kushagra,2020-03-18T23:40:43Z,0,"That was really an awesome video. Hats off. I have an additional doubt in this. What if we want to use cross validation also together with random search? In scikit learn we can do that by randomizedsearchCV, is there any way in Keras also?",True
+@Yisi.voyager,2020-03-14T19:50:11Z,0,Does the keras tuner tell you how many layers is the most optimal?,True
+@lakeguy65616,2020-03-13T22:04:42Z,0,Is there a tuner for pytorch? Thank you,True
+@hassenzarroug9159,2020-03-13T20:14:50Z,5,"Seriously man, you are the reason why i love machine learning! you make it look easy and fun which is the exact opposit of what my teachers are doing! Thank you so much and God bless you!",True
+@francescaalfieri5187,2020-03-10T14:55:09Z,0,"Thanks for this video!!! I have a question, is there a way to check the value assumed by the variable hp.Int(""inputs_unit"") in every step? I have already tried to use debug with no success.",True
+@Yourbitchiscrazy,2020-03-10T02:12:29Z,0,"Can and if how do, you use tensorboard and keras tuner together?",True
+@riyabanerjee2656,2020-03-04T18:24:39Z,1,"I get the error ""RuntimeError: Model-building function did not return a valid Keras Model instance, found <keras.engine.sequential.Sequential object at 0x7f243626da20>"". Any idea what I should? I googled it, and this was written:  ""If you want to return more than one Keras Model, you'll have to override Tuner or BaseTuner. In this case, I recommend overriding BaseTuner, since Tuner assumes a single Keras Model but BaseTuner works for any arbitrary object(s).   The methods you'll need to override are BaseTuner.run_trial, BaseTuner.save_model, and BaseTuner.load_model   The docstring of BaseTuner.run_trial should have enough info to get you started with how to do this, if not please let me know:   https://github.com/keras-team/keras-tuner/blob/master/kerastuner/engine/base_tuner.py#L134""  I did not quite understand the error. Any idea?",True
+@Neogohan1,2020-02-13T09:48:06Z,0,"Both Kite AND Keras Tuner were things I've been wanting for awhile as part of learning TF, and you managed to knock em both out in the one vid. Very useful stuff! Thanks!",True
+@kitgary,2020-02-10T18:42:45Z,0,Which operating system are you using?,True
+@andris788,2020-02-08T14:13:49Z,0,"Would this work if you have a mixed input NN? I'm trying to implement this to mine. It has a CNN and an MLP combined in a final dense layer. Keras-Tuner doesn't like if I divide X_train to [X_train_cnn, X_train_mlp].",True
+@mattb9823,2020-02-07T21:49:38Z,2,"This is awesome.  I've been learning ML for about a month, paid for a couple courses on Udemy but I seem to be learning more from your channel when trying to debug and optimize things.  Quick question, is there any way to integrate TensorBoard with RandomSearch?",True
+@TheRedProject,2020-02-06T03:59:43Z,0,I started using Kite a month ago. I love it.,True
+@spitfire-dragonboatita9610,2020-01-16T11:30:43Z,0,"I have a problem, when i put ""hp""into the build_model function's argument it gives an error: ""NameError: name 'hp' is not defined""; I've already import keras and I've following step by step your tutorial...but it doesn't work :(",True
+@luizhenriquesilvajunior5449,2020-01-15T19:09:09Z,0,I'm getting the following error:  tensorflow.python.eager.core._FallbackException: This function does not handle the case of the path where all inputs are not already EagerTensors.,True
+@jumpthecagemma4987,2020-01-15T18:20:50Z,0,Last comment - this tuner only works if calling keras directly from tensorflow  Example: tf.keras.add.layers(etcc)  Calling Keras on it's own provides an error about compiling a model Bad Example: Keras.add.layers(etc)   Hope this helps,True
+@mbonuchinedu2420,2020-01-11T04:04:16Z,1,Sentdex 🥰🥰🥰🥰,True
+@plutoboy8827,2020-01-09T12:59:43Z,0,Thank You !!!!!!!!!,True
+@gianlucavernia9444,2020-01-09T12:06:14Z,0,Hey Sentdex are you going to continue the quantum programming series or is it finished?,True
+@jumpthecagemma4987,2020-01-07T16:09:40Z,0,"Also, can someone properly explain to me what .reshape(-1,28,28,1) does? I know the 28,28 re shapes the x and y sizing and the positive 1 at the end makes it all one dimensional, but am i missing something @sentdex?",True
+@hartstorm69,2020-01-07T15:24:51Z,0,Do a pyglet intermediate tutorial,True
+@andris788,2020-01-07T14:58:12Z,0,It's already the next decade and still 1.0.0. All hope is lost.,True
+@jumpthecagemma4987,2020-01-06T22:39:01Z,0,What playlist will this be added to?,True
+@shayekhbinislam,2020-01-05T21:40:41Z,0,What is the best counterpart of keras tuner for pytorch?,True
+@manikanta3977,2020-01-04T14:52:06Z,0,Hai can you make a video on data science how to start learning data science ..,True
+@ironmantooltime,2020-01-03T00:50:59Z,0,"I get an error the val_accuracy objective needs a direction - anyone? Ok, I can get past that with objective=kt.Objective(""val_accuracy"", direction=""max"") but then I get a new error: module tensorflow has no attribute 'io'..",True
+@erosennin950,2020-01-02T11:44:58Z,0,I would enjoy a kaggle-challenge playlist :D what do you think?,True
+@redone823,2020-01-02T04:48:13Z,0,"anyone know all of the apps on his left panel?  i see discord, brave, and obs that i know of.",True
+@stenzorr,2019-12-31T10:51:37Z,1,Hi,True
+@rajcivils,2019-12-31T04:33:12Z,0,What about a project of playing super mario world and then using this keras tuner to optimize our model. 😀,True
+@cargouvu,2019-12-30T01:36:55Z,0,"Hey guys... not sure where to post this.  I hope someone from the community can help.  How come the random seeds change when we change the number?  Like, the dataset is different when we do randomseed ==5 and when we do randomseed==10.",True
+@magicalidea9584,2019-12-29T08:01:05Z,0,have you tried using TensorRT,True
+@froozynoobfan,2019-12-28T20:50:06Z,0,"THIS IS WHAT I NEED. but the problem is i have a hard time modifying it to work with my dataset. it sees the whole dataset as one sample, how do i implement some sort of batch_generator? https://colab.research.google.com/drive/1TYgSXjx1HoW8xS0TO_-a4kmtPuMaV6tU#scrollTo=k6hq_bD5dYsT",True
+@alberto.polini,2019-12-26T11:33:31Z,0,Thank you sentdex i love your videos,True
+@beyhan9191,2019-12-26T09:44:24Z,1,Zero unlike! You’re doing great things,True
+@minazulkhan8287,2019-12-25T13:19:26Z,0,"hi dear  i m working on tkinter . i used ur code for multiple windows using tkinter ...the code works fine but when i used  inbuild function to display current time in second window it gave error   "" module tkinter has no attrribute time"" the code line is : localtime =time.asctime(time.localtime(time.time())  the next line includes label with a term text= localtime  plz give aolution soon",True
+@Atreyuguy590,2019-12-24T18:17:32Z,0,Is it Edward Snowden?,True
+@rezan6971,2019-12-24T11:39:40Z,0,"would you please take a look at fastapi and make a tutorial, todo app with react maybe(for someone who already knows react) or at least the back end of it without frontend",True
+@davidcristobal7152,2019-12-23T19:16:10Z,0,"Hi sentdex, nice video. Is there any way to integrate this keras-tuner with keras-rl (reinforcement learning) and custom environments with open ai gym interface?",True
+@taylormcclenny1416,2019-12-23T18:27:26Z,0,Are you going to do any more videos in this vein/series?,True
+@taylormcclenny1416,2019-12-23T18:23:33Z,5,"Doing God's work, my friend!",True
+@Gavinnnnnnnnnnnnnnn,2019-12-23T16:13:01Z,0,"this is just like grid search cross validation, which has existed for years",True
+@bhuvaneshs.k638,2019-12-23T14:18:07Z,0,"This is computationally expensive.... !!!! So is this random search done with 1 or 2 epoch n we note down parameters... Finally while we save model we do traditional method with 20-50 epochs or so... N load these parameters...? Can u explain max trials, execution per trials ??.... Say 4 epochs... So for each epoch, execution per trial is done ??",True
+@deojeetsarkar2006,2019-12-23T11:20:17Z,34,"Thanks for everything sentdex, your name'll always find a folder in my PC.",True
+@bhuvaneshs.k638,2019-12-23T07:44:19Z,1,Thanks for this.... Very helpful.... U r the guy for machine learning in python. Thqs.... !!,True
+@jorgeespinoza3938,2019-12-22T22:35:31Z,0,"Pharmaceutical companies should be dreaming of having an actual physical tuner for their compounds, although I beleive the length of their testing takes bit more than just 19 seconds.",True
+@abhishek_ar97,2019-12-22T19:34:50Z,1,GridSearchCV?,True
+@_nttai,2019-12-22T14:04:21Z,2,I'm glad I found your channel,True
+@nano7586,2019-12-22T10:04:41Z,0,"I ALWAYS wondered how there is no optimizer for hyperparameters. People working with neural networks and machine learning but talking about ""trial and error"" when it comes to HYPER and not HYPO parameters. This always really confused me. It's basically like applying a neural network to the neural network. Sure, it takes a long time and is CPU/GPU expensive, but if needed you can run it overnight or even for longer times. But that also overfits your model to the validation data you are using for optimization, right? Anyways, thanks so much for sharing!",True
+@ahmadanis9930,2019-12-22T08:05:06Z,0,❤️❤️,True
+@edeneden97,2019-12-22T07:35:09Z,0,Is it random search or does it use some genetic algorithm / other RL stuff?,True
+@mdashad439,2019-12-22T07:01:04Z,0,Best Python Tutorial ever very understandable.,True
+@lilprotakeit,2019-12-22T06:13:12Z,2,"Hi Sir, Your videos are the reason why i am continuing and surviving as a data engineer. I would be grateful if you can create a series on Apache Airflow as its a heavily used framework for data engineering. Please do consider.",True
+@nileshmishra3796,2019-12-22T05:42:20Z,1,"Awesome man, you never disappoint :)",True
+@MrLiquimatter,2019-12-22T04:46:49Z,1,sold on Kite!,True
+@billfujimoto5905,2019-12-21T22:44:17Z,0,"This reminds me of gridsearch in scikit-learn. I tried following your tutorial, but when the training completes on the first trial i.e. after the tuner.search function, the code crashes when trying to write the results, at least that is what I can make of the traceback which is very ugly.  Did you have any issues here?  I'm using Win10 no gpu.  I tried deleting and recreating a new conda environment with TF2 and Python 3.7 but still no go.",True
+@ggpopa1319,2019-12-21T22:11:54Z,5,But then why don't use an optimiser like Adam or SGD to optimise the hyperparameters too?,True
+@ZipMapp,2019-12-21T22:05:39Z,1,"(Psssst, go pytorch you'll understand what you're doing)",True
+@Harriswilliam94,2019-12-21T21:25:57Z,0,Can you change the random search objective to an f-test?,True
+@walisyed4625,2019-12-21T20:06:57Z,0,"Very useful, thanks",True
+@leonshamsschaal,2019-12-21T18:59:24Z,3,@sentdex can we have a building nn from scratch?,True
+@moniquemarinslp,2019-12-21T17:37:53Z,0,Great stuff! Thumbs up for the tutorial and Kite (also quite cool)!,True
+@bhaskersriharshasuri7359,2019-12-21T16:39:30Z,122,"""A paper bag can solve MNIST "". That should be a quote on a T-shirt.",True
+@wadyn95,2019-12-21T16:16:01Z,3,"Dear Sentdex, could you introduce tensorflow object detection API? TF updated up to 2.0 and there is no fully working tutorial now...  I got too many errors while trying to use that stuff",True
+@sankamadushan7940,2019-12-21T16:10:49Z,0,Good job Sentdex. This is great. Save lot of time.,True
+,2019-12-21T16:08:02Z,0,I made dual boot because of cuda. Are you using the same?,True
+@avinashdwivedi2015,2019-12-21T16:05:44Z,0,It was 999 views.. so i clicked to make it 1k,True
+@myselfremade,2019-12-21T16:00:30Z,5,Now THIS is podracing,True
+,2019-12-21T15:40:29Z,0,"Can you explation ""Natural Gradient Descent""",True
+@12mkamran,2019-12-21T15:38:32Z,0,Yesss. 😍😍😍,True
+@Zifox20,2019-12-21T15:33:06Z,0,"Interesting feature, thanks !",True
+@atharvapagare7188,2019-12-21T15:31:26Z,1,"Great, really hoped for something which is similar to sklearn grid search for deep learning framework.",True
+@danny10177,2019-12-21T15:19:22Z,0,Will you introduce autokeras in the future,True
+@ajaysingh8887,2019-12-21T15:12:08Z,13,"Finally, this is what I was looking for.",True
+@kerolesmonsef4179,2019-12-21T15:09:53Z,2,you are great . Thank you,True
+@kacperkubicki1101,2019-12-21T15:09:41Z,9,"Woah, first time my uni classes were faster to teach me something than sentdex. I might reconsider my lack of faith in their purpose ;) have you tried talos for hyperparameters optimization? We've been using it during classes and tbh it seems nicer to me than keras tuner.",True
+@alexanderwatson3824,2019-12-21T15:05:34Z,0,"What do you prefer, pyToch or Tensorflow?",True
+@fuba44,2019-12-20T14:10:12Z,1,This was great! I will go play with it right now. thank you!,True
+@Stinosko,2019-12-19T15:35:46Z,0,Hello :-D,True

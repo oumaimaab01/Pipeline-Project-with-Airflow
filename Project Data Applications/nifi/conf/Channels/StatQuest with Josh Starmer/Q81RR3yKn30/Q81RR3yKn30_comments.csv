@@ -1,0 +1,619 @@
+author,updated_at,like_count,text,public
+@statquest,2019-11-18T09:16:03Z,137,"Correction: 13:39 I meant to put ""Negative Log-Likelihood"" instead of ""Likelihood"".   A lot of people ask about 15:34 and how we are supposed to do Cross Validation with only one data point. At this point I was just trying to keep the example simple and if, in practice, you don't have enough data for cross validation then you can't fit a line with ridge regression. However, much more common is that you might  have 500 variables but only 400 observations - in this case you have enough data for cross validation and can fit a line with Ridge Regression, but since there are more variables than observations, you can't do ordinary least squares. ALSO, a lot of people ask why can't lambda by negative. Remember, the goal of lambda is not to give us the optimal fit, but to prevent overfitting. If a positive value for lambda does not improve the situation, then the optimal value for lambda (discovered via cross validation) will be 0, and the line will fit no worse than the Ordinary Least Squares Line.  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@fisicaparalavida108,2024-05-27T23:39:15Z,1,those grapsh are excellent. how much work doing it. Thank you so much!,True
+@_kingston,2024-05-20T03:24:58Z,0,"When you mention air-speed velocity of a swallow, are you referring to an African or a European swallow?",True
+@rafaelmondragon9323,2024-05-10T15:13:08Z,0,"Amazing video! I just have one doubt, how do we got the function ""Size = 0.9 + 0.8 x Weight""? Is it something that we calculated or is it just an example of how a Ridge Regression line decreases the sum of squared residuals + lambda * slope^2?",True
+@biomagician,2024-04-29T14:54:31Z,0,"Hello, and thanks for your amazing videos! I do not understand the idea behind ridge regression. It seems that you are basically punishing against a high slope. But why is that? What if the non-training data were higher and thus by getting a lower slope with ridge regression, you were actually increasing the sum of squared residuals in linear regression?",True
+@pritamfeb13,2024-04-28T03:31:35Z,1,Only Statquest can make someone emotional while learning statistics. The ease with which the concepts are flowing flawlessly into my brain makesme teary. Thank you so much 🥺❣,True
+@gustavoholo1007,2024-04-24T16:55:16Z,0,Isn't it problematic to use the test data for cross validation? Shouldn't there be a separate test set that isn't used for cross validation when using ridge regression? Or does regularization make it irrelevant since it prevents overfitting?,True
+@supratiksadhukhan4147,2024-04-21T07:09:41Z,0,Is the CV done on the training data or the whole data?,True
+@anubhavsoni7620,2024-04-11T18:28:31Z,2,Thanks for this your videos allways help me 🙏❤,True
+@Charles_Reid,2024-04-11T12:59:34Z,0,"what if the model is overtrained, but the slope must be brought further away from zero in order to correct for the over-training? Is there a way to do this with ridge regression? Seems like ridge regression can only bring the slope closer to zero for a linear model. Also, why can't lambda be negative? Thanks",True
+@junksfox,2024-04-08T12:43:34Z,0,"the last part about using only one data point seems a bit misleading, as you need more points to do the Cross Validation step and thus get the appropriate lambda value. sure, the training set will only have one data point at a time, but you need more in your overall dataset to perform cross validation",True
+@habeshadigitalnomad137,2024-03-27T18:27:18Z,1,"its insane i keep coming back to this channel to brush up on material. I am finally graduating this summer but i know for sure i will coming back here just here ""small Bam!"" and ""Bamm"" lol",True
+@furo.v,2024-03-26T02:27:09Z,1,"I think the problem of having two examples and trying to fit the line so that it fits other imaginary examples that aren't present, and saying this is the unsolvable that Ridge solves, is a bit misleading. If you only have two examples, you have to find more data, the solution to that isn't to use Ridge.",True
+@familienolte1501,2024-03-21T14:45:33Z,0,"awesome explanation of difficult problems ! Is there any donate option ? I am from Germany, so shipping your shirts is a little to much effort, but I would like to donate!",True
+@ahmedshawkey6794,2024-03-19T19:31:35Z,1,Ur great ❤️❤️❤️,True
+@dfsgjlgsdklgjnmsidrg,2024-03-19T07:49:01Z,1,You said at 3:40 the line is overfitting but the diffiniton of overfitting being low bias and high variance is not true. two data points in training data is in this case underfitting.,True
+@naveent2785,2024-03-12T06:24:21Z,0,"Why should we only try to reduce the slope of the ridge regression line?  In a real data set, can't  the  changes in X cause highly varying changes in Y?? I mean are we not compromising on the variation in prediction(if it's required based on the dataset/problem) by reducing the slope.",True
+@AanyaSS,2024-02-24T10:44:47Z,1,Thanks!,True
+@AanyaSS,2024-02-24T10:43:30Z,1,"How are you so amazing, how is it possible....a thousand thanks!!",True
+@yazan-ek7zc,2024-02-22T21:05:55Z,0,a lot of squares wallah,True
+@SunSan1989,2024-02-21T08:53:30Z,0,"Dear Josh， Whether Ridge regression and Lasso regression can be understood as when the population distribution is biased, the mean regression is not the expected value of the dependent variable based on the independent variable, so the mean value  is adjusted to approximate the expected value by increasing the penalty term.?",True
+@bon8131,2024-02-20T16:33:05Z,0,Does the lambda parameter ever vary by coeffecient? If so when/why would that be the case?,True
+@bradleyrivers9489,2024-02-19T19:57:33Z,11,"This channel is by far the best at explaining mathematical concepts related to machine learning. I'm in a machine learning class at my university and go to every class lecture. I leave not having understood an hour and fifteen minutes of lecture. I immediately pull up this channel and watch a video on the same concept and ""BAM"". It makes sense.",True
+@it41tanmayaron74,2024-02-14T19:56:35Z,0,Can you share slides?,True
+@haraldhuber3077,2024-02-08T10:39:38Z,0,"Hi Josh, great videos. thanks a lot for them. what i still don't get is how do you get to the numbers for the Ridge Regression line (video at 5:55). thanks a lot for your explanation.",True
+@taruchitgoyal3735,2024-02-01T09:59:09Z,0,"Hello Sir, As I understand, (h(x)-y)+regularization_constant * (slope1^2 +slope2^2 + slope3^2....) = cost function + Ridge regression penalty And then we can compare the cost function + Ridge regression for different models to find which has lower value and thus, we select that.  But I need your guidance to understand how do we determine which features to choose with Ridge regularization? And how to calculate updated values of hyper-parameters with regularization?  Thank you",True
+@captaincal6447,2024-01-31T14:46:31Z,0,"Isn't it that the higher value you give to lambda, the steeper the slope gets?",True
+@Tapsthequant,2024-01-30T07:56:50Z,1,"Clearly explained is an understatement, it is the saturated BAM!!!",True
+@youknowwhatlol6628,2024-01-26T15:22:29Z,1,"Greetings from Ukriane, Josh! I'd like to say thanks to you for even though we are in a difficult situation here, but your videos on machine learning techniques always help me comprehend topics of this field....i am grateful to you! Thank you so much!!!",True
+@leosmi1,2024-01-25T19:51:33Z,0,"Me at the beginning: Why is he relating weight and size of an neural networks? Yes, I do have ADHD OR ANXIETY.",True
+@jayceantaylor579,2024-01-23T11:43:27Z,0,"Josh, quick question.  at 11:35 that least squares equation line, how does the first part (1.5) predict the size of mice on nornal diet. Like wouldn't for each data point for normal mice be 1.5 + residual for THAT data point, like you previously explained in another least squares video, how does 1.5 solely predict it? Thanks",True
+@MrFarooqueazam,2024-01-19T09:17:44Z,0,"🎯 Key Takeaways for quick navigation:  03:38 📉 *Ridge regression addresses overfitting in linear models by introducing a small amount of bias to the fit, resulting in a significant drop in variance.* 04:29 📐 *Ridge regression minimizes the sum of squared residuals plus a penalty term (lambda times slope squared), where lambda controls the severity of the penalty.* 08:31 🔄 *The Ridge regression penalty reduces the slope of the line, making predictions less sensitive to changes in the input variable (weight in the example).* 09:26 ⚖️ *The value of lambda in Ridge regression determines the strength of the penalty; cross-validation helps choose the lambda that results in the lowest variance.* 13:26 🔄 *Ridge regression is applicable not only to linear regression but also to logistic regression, helping reduce sensitivity to input variables and optimizing the sum of likelihoods.*  Made with HARPA AI",True
+@kcAndyyyyy,2024-01-12T07:49:37Z,0,I'm very confused. Is the diet difference the difference between 2 average?,True
+@perrygogas,2024-01-06T21:38:53Z,0,"In the last part with 1 data point, how can you use CV when you only have 1 data point without touching the out-of-sample data?",True
+@Jimarass,2024-01-03T13:40:33Z,0,"In ridge regression example, how we started with slope 0.8? We test various slopes?",True
+@emirhandemir3872,2024-01-03T13:03:51Z,0,Can someone explain to me what is meant by the Note at 13:48? I couldn't get that part.,True
+@jannes4742,2023-12-31T18:14:03Z,1,"Rarely commenting, but good work!",True
+@friedennn6714,2023-12-20T14:01:01Z,1,U re awoseme dude!,True
+@hasinthasriwiduranga9923,2023-12-06T13:05:57Z,0,"how does the slope of the ridge regression line change accordingly when we change the lambda values? can someone explain me, please?",True
+@EvaPev,2023-12-05T20:38:56Z,8,I have no words to express how good this lecture is.,True
+@zechariahconner8977,2023-11-25T20:49:52Z,0,"Hi Josh, thank you so much for your videos, they're helping me get through a Machine Learning course. I do have a question that comes up early in the video. How do you get the Ridge regression line ""0.9+0.8x"" from the preliminary LSM line ""0.4+1.3x"" ? From my course work I imagine you use the design matrix inverse multiplied by the design matrix to aid in getting to that equation, but how they all connect is very fuzzy for me. Thank you!",True
+@josephpark3949,2023-11-22T16:36:39Z,1,Nice Holy Grail reference,True
+@oussamaraoudi1249,2023-11-06T15:33:15Z,1,love the Energy :),True
+@techsnail8581,2023-10-31T21:47:24Z,1,bro is making maths fun,True
+@monazaizan947,2023-10-31T11:56:53Z,3,You made learning this complicated topic (for me) a lot more fun than from reading from a textbook or from my own lecturer. Very entertaining too... Well done!,True
+@danilafarga6810,2023-10-28T01:40:29Z,1,if I pass my ML class I am dedicating my PhD to you lol <3,True
+@marahakermi-nt7lc,2023-10-27T01:27:57Z,0,heyy josh thanks for this beautiful explanation i have a question since i  m  not big fan of frequentist approach can we use bayesian framework instead of cross validation to get appropriats alpha ? if yes how is that?,True
+@abhinavseth2536,2023-10-21T11:20:18Z,0,"Hi, Could you please explain where you are getting the ridge regression line equation from?",True
+@duonglehai2695,2023-09-29T04:50:03Z,1,I always look forward to your opening video 🤣,True
+@nicholasyuen9206,2023-09-26T02:01:54Z,0,"Great video but why @5:56, the ridge regression line have a gentler slope(0.8) as compared to the least square line(1.3)? The numbers in the video work due to a gentler slope ""given"", is there a reason why it would be necessarily smaller slope under ridge?  Edit: Having read the latest comments on the video, I have noticed similar qns to mine. Just to clarify as well, the reason for a gentler slope here is due to the introduction of the ridge parameter (lambda) to the loss function thus""forcing"" the slope to be smaller when minimising the loss function?   So for this example in the video, the slope is necessarily smaller since there is only 1 independent variable( i.e. weight). But for a multiple linear regression model, some coefficients can be larger but overall the sum of coefficients have to be smaller?",True
+@user-iq7zg6lx4j,2023-09-25T18:10:34Z,1,how do you double like a video?,True
+@ahmedelgabry2780,2023-09-20T14:45:43Z,2,BAM!,True
+@tolbaahmed,2023-09-19T06:19:34Z,1,almost 1 million follower,True
+@fitshake5380,2023-09-16T14:24:07Z,0,How does lambda value changes on the y axis? if the line is starting from 0.2 on y axis and if we make the lambda 1 then the start of the line would be 1 x 0.4 = 0.4. I am a little confused with this concept.,True
+@user-my9pn1xg4g,2023-08-19T12:03:14Z,0,i don't understand why is diet difference getting minimized,True
+@anuragmukherjee1878,2023-08-19T06:51:09Z,0,"Hi Josh,  Have a question here, Only 10:23 minutes through the video, so you might have answered the question after, so apologies in advance.  In the Ridge Regression details section we assume that training data due to bad samples is best fitted with a line with higher slope than what an ""Ideal"" line (including the test data will be) What if the case is the exact opposite of this? what if, the best fit line would actually be (keeping in mind the test set) something with a higher slope compared to the best fit (train set). In that case, we would need a negative lambda, but it ranges from 0 to positive infinity. Anyone can answer if they know it.  Thanks in Advance!",True
+@user-zp2hu2wz1f,2023-08-15T10:41:30Z,1,I love you man,True
+@dollysiharath4205,2023-07-23T17:51:00Z,1,I do enjoy your single as well as learning  from your teaching :),True
+@roki33524,2023-07-15T20:28:26Z,1,i like tots 😊. napolean dynamite. anyone bts fan?,True
+@ashishdayal172,2023-07-03T10:59:48Z,0,"JOSH is there any mathematical relation between slope and the value of lambda. i know theortically,is it any mathematical expressions exist?",True
+@deepakrout2310,2023-06-26T10:49:38Z,0,I don't know how I concentrate on theory when I am imagining pumping mice to increase its size and what is the Zodiac sign of Fat mice. 14:54,True
+@pratyanshvaibhav,2023-06-18T13:10:20Z,1,love from india sir..very nicely presented.but i have one doubt that how are we supposed to write the equation of ridge regression line.,True
+@gourabbiswas6961,2023-06-17T19:53:22Z,1,Love from India,True
+@kylmaz5782,2023-06-11T10:38:36Z,0,Hello. I want to implement the ridge regression method on a small dataset. but I want to get it by solving the model manually (by hand). How can I do it? I will be glad if you can help.,True
+@shivanit148,2023-06-09T06:16:34Z,0,"So basically just take any smaller arbitrary slope (introduce bias) and that's all. I don't see why we even use lambda, it doesn't seem to change anything 🤔, i'd understand if it were a value between 0-1 but not any>=0. Can someone please explain? Multiplying lamba (scalar) to slope² should only scale it in parallel direction right?",True
+@amnont8724,2023-06-03T12:05:44Z,0,"13:55 Hey Josh, in logistic regression, does the ridge regression optimize the sum of the likelihoods or the sum of the natural logs of the likelihoods? And why so?",True
+@amnont8724,2023-06-03T11:53:16Z,0,"3:42 Hey Josh, how does the line have high variance and not high bias? I'm struggling to understand and it may be something trivial I don't see.",True
+@karannchew2534,2023-05-28T09:38:10Z,0,"Notes for my future revision.  *Why Ridge Regression?* Make prediction (model) less sensitive to training data. Such that the predicted results will have lower sum of squared residual (variance). Especially needed if the training data size is small (not representative enough). This reduce overfitting to training data. As the same time reduce the effect of variables to the result.  *Normal Linear Regression* Get a slope (weight) that minimise the Sum of Squared Residual, SSR.  *Ridge Regression* Get a slope (weight) that minimise [ Sum of Squared Residual + a factor based the slope ], [ SSR + λ*slope² ].  Overall effect of Ridge Regression: .A fitting line will have a lower slope. .The y variable will be less sensitive to the x variable. . There's less effect of x variable on y variable, to the extent that its effect negligible.   How to decide value of λ? Simply try different values with the training and testing data, and choose one that give lowest variance.   --  *For Discreet X variables*  Predicted Size  = 1.5 + 0.7*var_x_yesno = average size of all data + a factor * size difference between data group with var_x_yes and data group with var_x_no = 1.5 + Difference*var_x_yesno  Normal Regression: Minimise Sum of Squared Residual, by getting best value of Difference.  Ridge Regression: Minimise [ SSR + λ * (Difference between var_x_yes and var_x_no)² ]   Here, λ will affect the best ""Difference"" value. Which will also impact SSR. Need to balance them.  If λ is high, Difference need to be lower (but SRR will be high).   After balancing, the overall effect of Ridge Regression: .The delta fitting line will have a lower height .The y variable will be less sensitive to the difference because x variable. .There's less effect of x variable on y variable, to the extent that its effect negligible.   --  *For Multiple X Variables* Y = slope*x1 + difference*x2_yesno +... (where x1 is continuous, x2 is categorical)  Ridge Regression minimise SSR + λ * (slope² + difference² + ...)",True
+@pavelerokhin1512,2023-05-17T13:40:48Z,1,I love it!,True
+@amnont8724,2023-05-12T22:03:25Z,0,"9:38 Hey Josh, could you please explain a bit more in detail why the bigger the lambda, the smaller the slope? The concept of trying to find a slope and the intercept so that the sum of squared residuals + lambda*(slope^2) (Which correct me if I'm wrong, it's exactly the way to find the ridge regression line), feels a little odd. I'd appreciate your help :)",True
+@albertodebenedictis3380,2023-04-19T22:23:45Z,1,THANK YOU,True
+@the40yearpuzzle,2023-04-08T14:58:01Z,4,"I am brand-new to statistics, and I'm in school to be a data scientist.  so many times, I lose the plot watching lectures from my professors who have the Curse of Knowledge.  I end up spending hours watching your videos and they help so much,  I just don't even have words!  I've recommended your channel to all my classmates--and I mentioned it so much, my professor is considering adding your channel to recommended materials for next semester!  you are a shining light of joy in a jargon-filled sea of confusion.",True
+@jimwest63,2023-04-02T05:04:08Z,1,Thanks!,True
+@skit555,2023-04-02T04:37:39Z,0,"Thanks for your work, but I didn’t get why the square contribution of the slope. This seems arbitrary and even problematic if your best fit is close to being vertical, no? 😅",True
+@balancinggargoyle,2023-04-02T03:58:20Z,1,When will we see a quadruple bam!,True
+@elliotyip9844,2023-03-19T10:00:51Z,2,"The way you go through the logic step by step makes you a good teacher. In many of my research occasions they just say ""adjust your alpha higher or lower until you don't overfit / underfit"" but I don't even know what am I looking at. Bless you.",True
+@snehabag4820,2023-03-04T14:38:15Z,1,I looked out for 3-4 videos before this. But this one was the best in term of explanation and very easily understood. Thanks!,True
+@obedruiz474,2023-03-02T06:04:45Z,1,I'm a huge fan of the introductions and the BAMsss,True
+@windy_days_matters,2023-02-28T11:09:18Z,0,why always mice XD,True
+@theredviper24,2023-02-18T12:09:05Z,1,I'm convinced this is Phil from Modern family teaching us statistics.,True
+@mohamad5005,2023-02-13T17:47:59Z,1,"You are a real man, when you said it is clearly explained, it is clearly explained.  Mohamed from Syria",True
+@timshao13,2023-01-31T00:52:45Z,1,This Vid is simply life-saving,True
+@alpeshpatel5854,2023-01-13T00:09:11Z,0,"Hello, I have a doubt In case if the training set contains data observations with low values and testing data set have observations with high values then also the ridge and lasso will shrink the coefficients?",True
+@hrushikeshkulkarni7353,2023-01-12T06:44:34Z,3,The lecture was at a whole different level.....thank you for such amazing content dear Josh,True
+@becayebalde3820,2023-01-06T21:47:17Z,0,"Hi Josh, your awesome book is out of print, will it become available!",True
+@existentialrap521,2022-12-14T02:22:56Z,1,"My Crips lurkin', don't die tonight I just want to dance wit' you, baby Just don't move too fast, I'm too crazy Man down, down the ave and get shaded  WE OUT HERE LEARNIN RIDGE BOIIS AY AY AYAYAYA YAY  thanks Josh",True
+@sachinkapoor2424,2022-11-30T08:13:27Z,0,Hey josh can you please help me to understand how slope changes when lambda get change?,True
+@rishipatel7998,2022-11-13T12:14:58Z,2,BAM!!,True
+@detlefmuster8750,2022-11-07T16:59:19Z,0,"Great video, thank you! Just for my understanding: When you speak of of introducing bias to reduce variance, you actually mean error-variance, right?",True
+@swapnildudhane6193,2022-11-03T15:21:54Z,0,"Hi Josh, thanks a lot for the explanation. One question though: Q: Why does Slope Decrease when we increase lambda( assuming that the slope is constant for a given equation?  Is it to keep the penalty in check?",True
+@Dave-in3oj,2022-10-27T03:58:15Z,0,"Hey, I found this tutorial very helpful, it explains Ridge clearly without any of the fluff I found on other tutorial, I do have one question though. You say you add bias to the line and then you get that new line that has a smaller slope, how does this exactly work? Does lambda have anything to do with this? How do you calculate this new line?",True
+@Sickkkkiddddd,2022-10-24T22:25:52Z,0,Are you saying introducing bias is particularly helpful when we do not have an adequate sample size to train on?,True
+@ZinzinsIA,2022-10-21T14:15:48Z,0,"Thank you so much for that amazing work Josh !  have 2 questions that puzzle me a little bit on Ridge regression. 1°/ What if your data has a distribution best fitted by a line with an important slope lambda ? Can sometimes the benefit of regularization be cancelled or even lead to worst results if the bias is too important ? 2°/ Closely linked to the first question, doesn't ridge regression prevent us to explore sufficiently the weight space (parameter here, not the weight of a person like in the video xD), especiallly when weights are big so, and if so, is there any solution (for example doing translation before computing the regularized term) ? Thank you again",True
+@runxingjiao1979,2022-10-20T08:29:53Z,1,Can't say how much I love you!! God please make sure this channel is always here❤,True
+@Anthestudios,2022-10-19T14:20:39Z,1,I just keep coming back to you Josh! Thanks for your clear explanation.,True
+@oleksandrmarkovichenko5774,2022-10-12T22:27:12Z,0,"The intuition feels very fake. You are saying that ridge helps to lower the variance, but it only works in your hand-picked example, where the actual fit line has a smaller slope. If instead of picking the 1-st and 3-rd points as data samples, you will pick 1-st and 4-th - the perfect fit line for these 2 points will have a smaller slope than the best fit line for the whole data. If, after this, we apply ridge regression - the prediction will become even worse. I'm not saying the ridge regression is useless, but I think your explanation of why it is useful is incorrect",True
+@pallavij8672,2022-10-12T18:01:54Z,0,Thanks for the amazing explanation! I have a doubt though.  You took the example in which line fitted on training data had more slope than the one fitted for validation data because validation points lied below the training data line. What if the validation points are above training points which will give higher slope value? Then in that case smaller change in the weight will create big change in size,True
+@rupeshch3177,2022-10-07T16:07:07Z,0,"My doubt is: With regularization, we will reduce the weight values to generalize the model well with unknown data (by increasing bias slightly, and variance will be reduced for unknown data). This concept is very well if that unknown data is right side of the unregularized model. with a bit regularization, the model will generalize the data better. But, what if the unknown data points are to the left side of the unregularized model? in this case, woudn't regularizing weights still worsen the model away from data points?",True
+@jadsadaka9727,2022-09-26T22:48:54Z,0,"I don't get the relation between Lambda and the slope of the ridge regression line. How does the Lambda contribute exactly to the slope?  Thank you, love your work <3",True
+@leowhynot,2022-09-17T11:48:44Z,0,I don't get it. How L2 could beat overfiting if we took a measurement with low size instead of a high-sized one 4:08 ? Then the slope of the fitted line would be the lowest possible slope and further reducing the slope would make the varience worse,True
+@mohsinkhalid2375,2022-09-15T05:53:57Z,0,"How do we adjust the slope as our SSE changes, do we add SSE to our regression equation?",True
+@datle5585,2022-09-05T14:47:29Z,1,"Thank you very much !! Already subscribe the channel since the first video i saw ( bias and variance ) . You deliver the academic content in a very fun , full of pictures ( which helps a lot because many people find it hard to understand new concept without solid examples , including me ) , and easy to understand way . Please continue making more content like this !!",True
+@sahaj2805,2022-09-01T14:13:37Z,0,"Thanks for the amazing video, Can you also please make a Python tutorial with the real world application of Regularization. Thanks in advance :)",True
+@scottzeta3067,2022-08-25T07:44:27Z,1,"4:58 ""I usually try to avoid using Greek characters as much as possible"" You are too kind and it is very true, lots of students start shaking once they saw Greek letter in an equation!🥶",True
+@miguelangelv7872,2022-08-22T07:38:18Z,0,"Hello Josh! Great video! I am really enjoying this channel and your book!😃 I have a question I was hoping you could answer: You mention that as lambda grows you get a slope that asymptotically nears 0, why can't it reach 0 and why it can in Lasso? thanks!!",True
+@mohammadelghandour1614,2022-08-21T14:20:41Z,0,"In 18:51 and 18:59, you compared between least squares and ridge regression when we have only one training data point.  Do you mean that with ridge regression in addition to the single training red point we can use the green data points for validation ?  If so, I think we can still use cross validation with least squares and at least we will obtain an optimum line that fits the data ( not as good as when using penalty with ridge regression though but better than the case in 18:51)",True
+@h.mrahman2805,2022-08-12T05:48:46Z,0,Did you lose your balsack,True
+@beshosamir8978,2022-08-05T15:02:32Z,0,"imagine we have like 10 point and we fitted the line too well and in contrast when we test the model on the test data it turns out the model fitted to well (High Variance) , so we used ridge regression to make the line less sensitive to the dependent variable , okay now imagine another thing what if the test data above the fitted line ? we know that the line will be less steep after using L2 so it will make it worse than before right ?",True
+@fjumi3652,2022-08-04T13:46:33Z,1,"this is actually quite simple (conceptually at least), why did my professor make it so complicated?!",True
+@austinduke8876,2022-08-03T02:49:36Z,0,Why do we have to rely on cross-validation to minimize lamda? It feels like we should be able to pinpoint the perfect value that minimizes the SSR + lamda(slope)^2  Also can I buy a collection of posters from you that explain the concepts?,True
+@hanadiam8910,2022-07-27T08:46:07Z,1,Thank you thank you thank you,True
+@hansenmarc,2022-07-21T22:31:22Z,1,StatQuest or: how I learned to stop worrying and love the Greek characters.  Yee-haw! 🤠,True
+@nriezedichisom1676,2022-07-21T22:14:05Z,1,Excellent. Bravo,True
+@fhoihoh4001,2022-07-07T14:01:01Z,1,Amazing explanation !,True
+@yahiagamal937,2022-07-06T09:35:34Z,1,"hi sir,  How do you determine the ridge regression equation ?",True
+@v.c.18,2022-06-10T09:47:26Z,0,"14:55 ""What do you mean? An African or European swallow?""",True
+@sagark1431,2022-06-07T11:18:56Z,1,Thank You! :),True
+@travisjamessmith1749,2022-06-04T23:58:50Z,1,Thanks!,True
+@skylarj720,2022-05-28T02:30:01Z,2,"Thank you, Josh, you made the ML and stat easy and enjoyable. Hands down better than most stat prof.",True
+@vusalaalakbarova7378,2022-05-24T10:44:58Z,1,"Thanks for great explanation, but at 5:55, you magically jumped from 0.4 intercept to 0.9 and 1.3 slope to 0.8 and didn't explain how you got these values. I'm totally beginner so couldn't understand this point.",True
+@nr7507,2022-05-22T08:09:27Z,0,"Great Tutorial! At 12:12, you speak of minimizing the distances between the data and the means. But is mean not a constant value on the y-axis or would it imply shifting the position of the points to generate a mean such that the former condition is met? Thanks!",True
+@chiragsharma6261,2022-05-20T09:48:07Z,0,Why variance always reduces the slope of the line?  Is there any case where the slope is increased by decreasing variance?,True
+@joxa6119,2022-05-10T03:03:32Z,0,Do you have any video on how the sum of square value determine the parameters in the linear equation?,True
+@yc6768,2022-05-05T13:18:28Z,0,"Great video, thanks again Josh. I have a question: in the 2D example you had in the beginning, if all the testing data points are on the red line (LSF) then using the Ridge regression won't be a valid method unless there's cross-validation being applied. In other words, running L2 is not a valid method or at least won't be accurate if we don't have enough data even to run cross-validation. Is that rigth? thanks!",True
+@jackjakie6076,2022-04-27T03:13:30Z,1,谢谢，讲的太好了！Thank you very much!!!!!!,True
+@sujeetsahoo8377,2022-04-26T23:07:55Z,0,Can someone explain how to represent the final Y predicted in equation form? I'm i supposed to use Lambda in Y predicted or it is only used for optimizing mse.,True
+@marcelocoip7275,2022-04-26T02:42:08Z,0,"Related to the ""lambda can't be negative"" then this method will prevent half the time overfitting? Flip a coin about the train data to get any advantage of ridge regression? And overall, what Ridge regression offers as an advantage instead of Linear Regression if we are ussing Cross Validation?",True
+@lampuiking4140,2022-04-25T17:59:04Z,1,"I don’t like to make comment often, but dude. What a waste of talent of you with this level of gifted talent on statistics. You should have been making million of dollars if u work in ibank or whatever. Thank you very much for your video. For a guy like me just want to enter data science field, u help us to achieve more than what u expect.",True
+@velevki,2022-04-24T10:37:48Z,0,Still not understanding how changing lambda changes the slope. Doesn't slope comes from the equation?,True
+@q2kq885,2022-04-10T06:40:16Z,0,"Hi Josh, thanks for your great explain about ridge regression. It really helps me a lot. And I have a small question about how to fit numerical variable like Weight and categorical variable like High Fat Diet into the ridge model, because they have different scale, and I'm not sure whether normalizing dummy variable (High Fat Diet) is correct or not.",True
+@yesimbasaran4972,2022-04-03T20:25:34Z,1,Bam!!! I understand!,True
+@aarondijkstra7623,2022-03-30T21:23:18Z,1,"Hahahah my college professor cant explain shit, thanks for the clarification",True
+@williamrinauto1498,2022-03-14T03:00:22Z,1,Amazing.,True
+@rameshbabu2228,2022-03-06T16:55:03Z,1,again another super explanation from you sir... thanks you so much sir.,True
+@Nicole-se7zj,2022-03-03T08:08:18Z,9,I've spent so much time trying to read and understand what EXACTLY is ridge regression. This video made it much easier to understand. Thank you so much for simplifying this complex concept!,True
+@suikavic1589,2022-03-01T16:33:29Z,1,"Wonderful vid, thanks",True
+@cookie6299,2022-02-28T09:37:42Z,0,228,True
+@vaclavpasak2703,2022-02-25T18:40:33Z,1,True legend!!,True
+@shaneglean217,2022-02-25T14:04:56Z,1,Definitely appreciated the Monty Python reference,True
+@ArinzeDavid,2022-02-24T09:57:53Z,2,"I study financial Technology at Imperial College Business School; I must say your content made the ""Big Data in Finance""  module damn easier to understand",True
+@jacobmontgomery7474,2022-02-24T02:59:45Z,1,Bayum!!!!!,True
+@balajiadithya1292,2022-02-19T13:25:44Z,1,Wow! Such a simple yet detailed exposition!,True
+@carlortiz2695,2022-02-16T15:28:06Z,0,"Great video! Just a question in 09:37 where you said that increasing lambda causes the slope to flatten. Why is it that when I used higher lambda, the value I got was higher? From your example, the value at lambda 1 is 0.74. I tried lambda 10 and got 6.5. I'm thinking this is not the slope but rather the cost function. If so, what values given the example can prove that higher lambda causes slope to decrease?",True
+@satviksrivastava6632,2022-02-13T14:28:39Z,0,"Slope ,here means weights which we find by stochastic gradient descent method",True
+@malini76,2022-02-11T02:44:13Z,2,"Whenever I feel some concept in ML,  DS is not easily understood, I come to this channel because  you explain it in a simple way with good examples.",True
+@billmo6824,2022-02-09T08:15:05Z,0,"Hi Josh, I got a simple question. For continuous variables, why does lambda range from 0 to infinity? In your example, the new line should have a smaller slope than the original one. What if I want my new line to be steeper? I think in this case lambda should be minus.",True
+@debatradas9268,2022-02-05T15:52:31Z,1,thank you so much sir,True
+@MrFalingdown,2022-02-04T10:23:27Z,1,"Wow, you are my personal Lifesaver. Didnt understand the concepts of Ridge Regression in any other source",True
+@gurns681,2022-02-04T00:23:30Z,1,Great explanation,True
+@ameliaschricker2527,2022-01-26T08:03:18Z,1,You are literally a LIFE SAVER!! Thank you sosososo much,True
+@jirenqi7610,2022-01-09T21:43:08Z,0,Hello Josh! Thank you for explaining it in such a easy way. May I know how did you come up with the equation for ridge regression line at 5:55? Were you drawing random line that has slightly small slope? Thank you.,True
+@adamoja4295,2021-12-30T21:51:48Z,0,19:08 is the episode out yet?,True
+@aliozcankures7864,2021-12-21T20:49:03Z,3,"absolutely amazing, thank you sir!",True
+@alikm4452,2021-12-17T10:27:15Z,0,"I was wondering about the relationship between slope and lambda. how enhancing lambda reduce the slope, mathematically? is the equation [ lambda times squared slope] constant that increasing the lambda leads to decreasing the slope?",True
+@Dave-lc3cd,2021-12-08T15:24:21Z,1,"there goes my hero, watch him as he goes",True
+@channel_panel193,2021-12-08T10:16:41Z,0,"I assumed L2 was the euclidean norm? How does the square of a slope have anything to do with the hypotenuse of a triangle? Apologies if this has already been asked, and thanks for the video",True
+@rafibasha4145,2021-12-06T15:33:03Z,0,"@10:39,Hi Josh could you please explain more about discrete variable part ..dont we convert them to one hot encoding and then do calculation",True
+@adamadamov676,2021-11-30T08:56:27Z,1,"Thanks a lot, better than studying in HSE)",True
+@arthurus8374,2021-11-26T09:35:36Z,1,thanks again !!!!!,True
+@mosama22,2021-11-22T00:40:22Z,0,"Hi Josh, I'm a big fan of your videos, but I've a question can't take it out of my head, what is the deal with mice? Always Mice :-D",True
+@manaskrthk,2021-11-10T22:19:49Z,0,I am a little confused. How was the 1.69 used? How did we shift the line?,True
+@rafibasha1840,2021-10-30T03:51:02Z,0,"Thanks for the excellent videos ,16:23,if we have 2 datapoints don’t we have 2 slopes",True
+@edoson01,2021-10-21T07:03:39Z,0,"The initial example is not very good, actually, misleading. If the two dots came from any different cluster, one following a line with a higher slope, than the ridge regression would end up worsening the test set result. The ridge regression just lowered the coefficients, but that's ended up being a good thing just because you choose the data this way and not another.",True
+@vamsiramineedi6296,2021-10-19T06:04:56Z,0,The example shown in the video had all the test data below the ordinary least squares line. What if the test data is above? How would reducing the sensitivity to features improve the variance?,True
+@matakos22,2021-10-16T14:32:49Z,1,pure gold,True
+@pedroventura2219,2021-10-12T11:17:55Z,0,Bad Triple Bam.... 😢,True
+@Ahmadalisalh6012,2021-10-08T10:46:27Z,0,is there any way  i can get those slides,True
+@Ahmadalisalh6012,2021-10-08T10:46:03Z,1,"Your videos are super helpful, THANK YOU",True
+@Chuukwudi,2021-10-08T00:02:30Z,0,Hahahaha. This man is not serious!!! Air speed of swallow? Hahahahahaha.  Sounded funny to me until I checked and found out that such a thing actually exists.,True
+@danielniels22,2021-10-01T17:33:16Z,0,19:01  i don't get it. how do you Cross Validate a data set with only ONE POINT 😭,True
+@bharathsf,2021-09-27T11:46:00Z,0,How is ridge regression line calculated though?,True
+@Marcus99998,2021-09-27T04:39:45Z,1,BAM,True
+@prabalbhadoria5398,2021-09-22T15:39:23Z,0,I still can't understand how slope is getting reduced ? We're modifying only lambda right ?,True
+@cyan-chunyuezheng7783,2021-09-19T16:26:43Z,1,Thanks your explanation is much better than our lecturer :0,True
+@moazim1993,2021-09-16T20:11:54Z,0,If lambda = 1 the residuals of least square and residuals of lambda penalty least square is the same.,True
+@abinsharaf8305,2021-09-16T18:40:55Z,1,"Dear josh, when i get a job, ill buy an entire album, thanks for all these videos, they are super helpful for me to understand. I was not able to understand the purpose of regularization until i watched this video, i was always confused why are we adding penalty to error. got a load off my mind,  again thanks a lot !",True
+@daliakamal5621,2021-09-05T13:00:42Z,2,"Amazing video, I have read many articles and watched many videos to understand the idea behind Ridge & Lasso Regression and finally you explained in the most simplest way, many thanks for your effort.",True
+@nano7586,2021-08-29T20:49:38Z,0,"17:55 Why 10,000 mice? Wouldn't it be 10,000 genes from 1 mice? This irritates me and such paradoxes make me not want to learn..",True
+@charissapoh1159,2021-08-29T08:12:21Z,7,"your explanations are insane... they're so easy to understand and literally capture the essence of the topic without being overly complicated! i've bingewatched so many of your videos ever since chancing upon your channel last night - i specially love the little jingles you add in at the start of your videos, they really add such a fun and personal touch~ thank you so so soo much, your channel has really helped me immensely!!!",True
+@yuvl32,2021-08-26T08:49:31Z,0,"There is no explanation why smaller slope would always lead to better fit. It is very simple to find such two dots that already provide slope that is too small and further reducing it will increase variance. Besides, changing lambda looks like a good way to overfit your model.",True
+@AhmedElsayed-ur1iy,2021-08-16T14:56:13Z,1,I wish you were my dad.,True
+@prateek2159,2021-08-10T11:35:03Z,0,"When will you upload ""the future video"" for the working of Ridge Regression when p>>n ??",True
+@bitcoinboss5856,2021-08-09T08:14:14Z,0,i have doubt suppose my training data below my testing data now i fit least square fit i got slope but my testing data is far above the training data than i will have huge variance to solve this i used ridge regression technique but all that ridge regression can do flat the line even more but it cant increase the line slope but i want to increase my line slope in order to fit test data with little variance how to achieve it please tell me soon,True
+@akshitmiglani5419,2021-07-15T20:01:47Z,2,"That's a great explanation. However I have a doubt in this.  When you showed the example @6:25, you reduced the slope to 0.8 from 1.3 and then mentioned ""Setting up lambda = 1 resulted in a smaller slope"" but we already reduced the slope to 0.8, it's not the lambda that did it, lambda is just the penalty multiplier in the cost function. So are we tuning only lambda or lambda and slope? How does this work?  Thank you!",True
+@CyberSinke,2021-07-13T07:36:55Z,0,"Why do we assume that line obtained by Linear Regression is too steep? In this video, conveniently, test data points were all below that line, so yes, Ridge Regression reduced the variance. But those test points could (with the same probability) have ended up above the line obtained from training data. In that case Ridge Regression increases the variance. What am I missing?",True
+@irving20092654g,2021-07-12T05:07:25Z,1,Amazing explanation of the Ridge regression,True
+@balaji.j2024,2021-06-23T10:45:44Z,1,Bammmm!!!!!,True
+@popohim,2021-06-20T01:54:08Z,1,BAM!,True
+@prathapkb123,2021-06-19T18:45:11Z,0,@5:37 .. why are you adding penalty term to least squared equation resulting in 1.69? . penalty should be added only for ridge line right?,True
+@billzhang7794,2021-06-19T04:03:22Z,1,all thijs learning turned me on,True
+@rishabjain9275,2021-06-15T17:23:15Z,0,hi how does increase in Lambda value decreases the slope?  as lambda increases it just gives higher values how does it relate to the slope?,True
+@chrisidema,2021-06-15T12:57:51Z,0,I had to speed the video by 15% to be able to listen to this,True
+@palsshin,2021-06-12T23:57:40Z,1,thanks for the nice explanation,True
+@anupriy,2021-06-05T06:28:57Z,1,Love this channel. Great work sir!,True
+@vishal733,2021-05-21T19:07:25Z,0,"Very good explanation.. And I respect both your effort, knowledge, & the clarity in your explanations... The ""bam"" thing seems somewhat childish though, could probably be done without.",True
+@jzxc,2021-05-21T02:49:51Z,0,If you only had one data point can’t you still just use OLS and cross validation to minimise your cost function?,True
+@sandeshacharya553,2021-05-20T09:42:02Z,1,BAM! Love your content. :),True
+@ninaw6727,2021-05-11T03:06:29Z,0,Could you explain more about how ridge regression can fit a line when there are more variables than observations? Is there another video to refer to ? Thank you so much,True
+@nelsony2112,2021-05-10T11:31:32Z,1,Jesus Christ this saves my life,True
+@hichamsabah31,2021-05-08T06:48:52Z,0,"By the Way, ridge regression was a precursor to Neural Network in an era where the firepower of computers was weak.",True
+@abhinavkaul7187,2021-05-07T05:05:42Z,0,"One doubt, Josh. You have said that lambda can be between 0 and inf and that ridge regression penalty will give us a line that has a smaller slope. Also, you have given an example of logistic regression in which all the test (green) data points is below the two train (red) data points. But, what if the test (green) data points are above the red data points and we actually need a ridge regression line with higher slope value?",True
+@ardakosar3826,2021-05-07T03:54:04Z,86,Explaining things at this complexity at this level of simplicity is a real skill! Awesome channel!,True
+@hang1445,2021-04-28T08:44:53Z,0,"May I ask how does the Ridge Regression work in the complicated model?  Takes 14:18 as the example, what I think is that we start with introducing two new lines that do not fit the training data as well as Least Squares in both Normal and High Fat Diet.  The given equation is ""Size = y-intercept + Slope × Weight + Diet Difference × High Fat Diet"", and Ridge Regression minimizes ""Sum of the squared residuals + λ × (Slope² + Diet Difference²)"".  When λ is getting larger, will both the Slope and the Diet Difference shrink?   And the prediction of the size of mice on weight in both types of diet becomes less sensitive. If we would like to decide the value of λ, we will use Cross-Validation to find it.   At last, with Ridge Regression, we will get two different new lines different from Least Squares with small amount of bias but less variance.  Josh, Do I say anything incorrect? Thanks",True
+@QuantumWithAnna,2021-04-23T18:10:32Z,0,"Josh perhaps some folks need it, but it feels like you're talking down to me. I would like to see the equations up front, earlier",True
+@yungrabobank4691,2021-04-23T12:28:28Z,0,"Thank you for the explanation. One thing I'm still confused about is that you mention that the Ridge regression takes into account the slope of the line squared, and Lasso the absolute value of the slope of the line. However, how does this translate to regularizing the L2 and L1 norm? Why is the slope of the line squared the L2 norm in 1D, and the absolute value of the slope of the line the L1 norm in 1D?",True
+@user-dp3hj4df6j,2021-04-19T15:51:42Z,0,"Can anybody explain why we do not use y-intercept for the penalty term. From the video it is not clear and I tried to find anywhere else, one with reference to Andrew Ng claimed that there would be little difference if we use y-intercept",True
+@4wanys,2021-04-09T14:41:20Z,1,"great vedio ,thank you",True
+@HardFault0x00,2021-04-05T14:53:55Z,0,"Hello Josh, Thank You for your video, for your visualization, it is really makes me easier to understand :D Anyway, I am little bit confused right now, please correct me if I wrong, I am totally new about this, why lambda can make effect to the slope?  AFAIK based on several videos in Youtube including your video, ridge regression is RSS + lambda * sum of all squared coefficient (except the intercept), right?   First part, RSS : RSS it self for assessing accuracy of model, we must have the estimation of coefficient in order to perform RSS, thus just by performing RSS it can't change anything on slope because we are not changing anything in coefficient.  Second part, Penalty : Then we add  the penalty part which is the lambda * sum of all squared coefficient (except the intercept), in this penalty part we can change the value of lambda and then the slope can also change, this is what makes me confused. We are just changing the lambda value, we are not changing the coefficient, but why it is effecting the slope?   I mean in order to change the slope we need to change the coefficient, right? But right now I can't see where is the part that changes the coefficient value, what can I see just changing lambda value. Maybe there is another step after we change the lambda value?  Thank You!",True
+@thecurious926,2021-04-04T20:19:42Z,0,But what happens when we want a line with high slope?,True
+@briant1226,2021-04-04T03:43:59Z,1,Thank you! This 20 minutes lesson is a lot of info lol.,True
+@yijiehsieh3986,2021-04-02T20:47:16Z,1,That moment when I DOUBLE BAM with you!!!,True
+@santoshbala9690,2021-04-01T10:59:14Z,0,Hi Josh.. Thanks for the video.. Towards the end.. you mentioned that Ridge used cross validation to to find a solution for  more parameters(variables) with lesser observations.. How is that done.. is there any video done for that already... Please help to understand,True
+@prasanth123cet,2021-03-28T05:58:54Z,0,Can we have different lampda values to different attributes in case of multi variable regression? Will it helps or lead to overfit?,True
+@gordonkwso,2021-03-27T21:11:58Z,1,BAM! Thank you :),True
+@melissamengxuanlu2216,2021-03-23T13:48:54Z,0,"At 5:54, where does the ridge regression line size = 0.9+0.8*weight come from? Could you explain?",True
+@dracleirbag5838,2021-03-17T18:39:37Z,1,an African or European swallow?,True
+@sunjulie,2021-03-17T10:51:56Z,1,"It always blows my mind how simple you explain stuff and how much I learned in this short time period. Thank you!  Who taugth you how to teach, couldn't you do some explanation series on how to teach for professors, so they could also learn something new? ^^",True
+@dennismikolaj2541,2021-03-17T09:02:19Z,1,"your tutorial worth much more than my university ML course which is 5000 dollars one semester. must donate, keep going.",True
+@sagaradoshi,2021-03-15T10:50:41Z,0,"When we had only gradient descent problem, we used to differentiate the equation and solve for slope and intercept. The new slope or intercept was updated with (learning rate* slope or intercept). In ridge regression how does the slope and intercept update differ? Do we still update the new slope or intercept with (learning rate* slope or intercept) or do they get modified by Ridge penalty. For example if we start with slope as 0.8 and intercept as 0.9. Then after  differentiating the cost function and equating to zero how we calculate new slope or intercept?",True
+@heteromodal,2021-03-15T10:16:50Z,1,Thank you Josh for a great video as always!,True
+@roberdantes9133,2021-03-10T23:20:50Z,0,"Hi, I love your videos and your teaching. One question, How do we ensure that ridge regression improves the model and not vice versa, i.e., how do we ensure that the error obtained when evaluating the model with ridge is less than the one originally had? Thanks!",True
+@sagaradoshi,2021-03-10T20:20:49Z,0,Thanks for this wonderful video. I have a question that Why the regularization term (lambda*slope^2) added  and not subtracted. Also please let me know/video path where you have explain Ridge regression can improve prediction with less sample size,True
+@ajithc9277,2021-03-01T17:39:34Z,0,in 5:54 how you drawn the ridge regression line with y intercept 0.9 and slop 0.8? how we get these values?,True
+@tymothylim6550,2021-03-01T02:31:13Z,6,"Thank you, Josh, for another fun StatQuest! I really enjoyed learning the use and benefits of Ridge Regression!",True
+@yashmehta4481,2021-02-26T04:22:43Z,1,"Ridge regression line will always be flatter than Lease squares line it seems. But what if based on testing data, the slope must be increased to get lower variance? Your videos are great! Just need help to understand this.",True
+@michaellewis7861,2021-02-25T17:31:15Z,0,You speak so slow I put it on 2x and it seemed normal.,True
+@ashishmenon6920,2021-02-20T09:02:07Z,0,"Hi. Can you help me figure out mathematically, how the y-intercept increased and the slope decreased after applying the regularization term, assuming that the parameters are updated using gradient descent.",True
+@phungdao9184,2021-02-20T08:40:54Z,1,"Hi Josh, is there a typo at 19:28 cause i think when you making the predictions less sensitive to the training data then the variance of your model is increased according to what you have said",True
+@unnatinandrekar99,2021-02-18T16:00:47Z,0,Great explanation! But wanted to know if that future StatQuest mentioned at 19:06 is uploaded or not.,True
+@pietronickl8779,2021-02-17T12:46:45Z,1,So glad I found this channel 💕📈,True
+@shashanktripathi3034,2021-02-14T13:33:45Z,0,"sir, for example, the initial best fit line was y=x so the slope is one sir when we apply the linear regression function we get the error as 0  but if we use ridge regression then still the value of square error is 0 but considering the value of lambda=1  the penalty  becomes 1  and if the value of lambda is 2, the slope 1 the penalty becomes 2   so sir my doubt how is the value of lambda changing the slope?  and which line do we select(considering the penalty ) line with a high or a low penalty?  THANK YOU",True
+@praveshgupta1993,2021-02-13T22:55:17Z,0,"Airspeed of swallow, wth...did you invent this up, first time I heart of this concept :D",True
+@praveshgupta1993,2021-02-13T22:47:50Z,1,I understood the concept. Thanks...Double Bam :D,True
+@21LeonidasZ,2021-02-11T21:13:11Z,2,4:53 Me as a Greek: but why? 😢,True
+@spearchew,2021-02-11T12:36:51Z,0,"i'm sure this is going to be a very stupid question but... Around 07:12 I can't help as though think that you ""got lucky"" that it just so happened the unseen Green Blobs turned out to be in the lower right area of the chart. By making your prediction less sensitive to your weight variable (which it seems ridge regression is destined to do), your model became more generalisable. But what if the green blobs happened to be in the TOP LEFT of the chart? In that case you made it worse. Just struggling to see how this approach can ever result in the line spinning ANTI-Clockwise which in some circumstances might end up making it more generalisable...",True
+@anmoldeep3588,2021-02-10T09:14:41Z,0,"Notes: - When the sample sizes are relatively small, then Ridge Regression can improve predictions made from new data(i.e. reduce Variance) by making the predictions less sensitive to the Training Data - Even when there isn't enough data to find the least square parameter estimates, Ridge Regression can still find a solution with Cross Validation and the  Ridge Regression Penalty",True
+@sofiyavyshnya6723,2021-02-06T02:27:49Z,0,Hi! Thanks for the amazing video! I was curious about one thing though. How does bias in machine learning compare to bias in biostatistics/econometrics (e.g. biased estimators and omitted variable bias)?,True
+@sofiyavyshnya6723,2021-02-06T02:24:10Z,1,TRIPLE BAM! You are amazing! Thank you so much for all your videos!,True
+@samersheichessa4331,2021-02-03T12:22:28Z,0,"This channel is really great!, thanks for the good work. One more thing would be nice is, can you please use the mathematical terms maybe at the end of the video or also in between.",True
+@NaimishBaranwal,2021-02-03T07:02:19Z,0,generally we use adjusted r square or p value for it. Is it the same with regularization in linear regression  case,True
+@nax2kim2,2021-02-01T19:31:54Z,0,I need korean description...T_T,True
+@yaroslavtyschenko7266,2021-01-31T16:45:07Z,1,BAAAM),True
+@shanmukhasaratponugupati6308,2021-01-29T13:54:59Z,1,If there's a noble prize for good stats teacher on yt...give this guy one...,True
+@scchouhansanjay,2021-01-28T16:07:41Z,0,"So it will always prefer a line with a less steep slope? Also, imagine these green rectangles were the test data https://i.imgur.com/2sw8nMN.png then actually we are choosing the wrong line.",True
+@supriyamurdia4989,2021-01-26T20:09:37Z,2,Here for the 'Bamm's :p,True
+@FineFlu,2021-01-14T17:20:37Z,0,"Why does the L2 term approach 0 as lambda increases? If slope is in (0,1], lambda > 1 makes it bigger and bigger so the slope increases, yes? And if lambda is in (0,1) then it shrinks the slope, approaching 0, yes?",True
+@FineFlu,2021-01-14T17:17:05Z,0,"Is this correct?  Since OLS minimizes the sum of squared residuals which may lead to overfitting training data, and underfitting testing/real data,  I can use ridge regression to increase the sum of squared residuals away from the minimum from OLS (the lambda L2 penalty term) which will increase the error of on my training data while possibly decreasing error in my testing data.",True
+@user-bx5pn9nj8f,2021-01-14T02:35:46Z,1,優質,True
+@venki666,2021-01-06T05:41:24Z,1,Thanks for clearly explaining to my impatient brain :) Looking forward to more BAMs!,True
+@ugochukwu2585,2021-01-06T00:16:21Z,0,"please make a tutorial on LARS regularization, thank you",True
+@scubashar,2021-01-04T03:35:09Z,474,"I am a machine learning engineer at a large, global tech company with a decade of experience in industry and a computer science graduate student. Your channel has helped me immensely in learning new concepts for work and job interviews, and your videos are so enjoyable to watch. They make learning feel effortless! Thank you so much!!",True
+@seetarajpara7626,2021-01-03T18:44:52Z,4,This is incredibly helpful!! I will be watching many of your videos to supplement my stats/data science studies :) Thank you!,True
+@biogerontology7646,2020-12-28T21:24:20Z,0,15:21,True
+@victorhugovampire,2020-12-28T16:17:15Z,0,"your videos are so helpful!!! one question though, when applied to linear regression, we hope to minimize the sum of squared residuals with the additional penalty term. but when applied to logistic regression, we hope to maximize the  sum of  likelihoods with the additional penalty term. How is this difference accounted for?",True
+@email4ady,2020-12-25T18:36:00Z,1,@josh hugely underrated channel,True
+@adenuristiqomah984,2020-12-24T15:16:28Z,1,"Hey Josh, it might be unrelated to the video's content but have you considered making videos about Gaussian processes? Thanks!",True
+@kashishbhagat9388,2020-12-19T18:08:48Z,0,Don't do to much of BAM BAM!!,True
+@RyuDaHadouken,2020-12-16T03:49:16Z,0,I fucking loved the Monty Python reference,True
+@zchasez,2020-12-15T23:40:05Z,0,@6:45 what do the values 1.69 and 0.74 mean? are they the new slope for the new line?,True
+@franciscotarantuviez2207,2020-12-14T15:48:41Z,1,regularization is jUST ANOTHER WAY TO SAY DESENSITIZATION,True
+@sarvagyagupta1744,2020-12-14T11:12:27Z,0,So is ridge regression nothing but MSE + regularising term?,True
+@pablo_brianese,2020-12-08T19:54:24Z,0,"I don't really get this topic, I will have to keep coming back untill I do.",True
+@pablo_brianese,2020-12-08T19:36:18Z,1,The airspeed of an african or european swallow? https://www.youtube.com/watch?v=uio1J2PKzLI&feature=emb_logo,True
+@JMcMah0n,2020-12-07T21:37:14Z,0,Of Mice and Mean,True
+@nplgwnm,2020-12-06T21:57:35Z,0,"I am kind of stuck around 8:15 where you mentioned when lambda gets larger, the slope becomes smaller. Is it because we are trying to minimize the whole thing (SSR+penalty), so when lambda gets larger, the slope has to get smaller to compensate for the growth in lambda?",True
+@abhishekagarwal4408,2020-12-04T07:10:26Z,0,this is really very helpful..but i have one doubt..we split the dataset in the ratio 70:30 for getting trainig and testing data..then whgy we will have only 2 points for training data???,True
+@nusrettolgaaydn6802,2020-12-03T20:16:08Z,0,123 dislike = lasso lovers,True
+@josecarlossoaresjunior6675,2020-11-23T11:40:08Z,1,This was beautiful,True
+@mwaleed2082,2020-11-16T18:06:24Z,0,"sometimes I wish you had made available a PDF version of your slides, even with watermarks. I have to go through the trouble to taking each slide's screenshots as I have to look frequently to recall the concepts.  Eitherway , you're doing a great job boss!",True
+@jhoancfl,2020-11-12T23:46:16Z,2,BAAAAAAAM!!!!,True
+@emiljessen6844,2020-11-09T18:55:41Z,0,"Very nicely explained, thank you! Your video doesn't specify how exactly cross-validation (CV) is used for finding the optimal lambda value, however. Do we do an entire k-fold cross-validation for each lambda value that we try? Or do we use each fold a lambda value that we try out?",True
+@fredyfredburger,2020-11-08T18:20:22Z,0,"... why L2 = part 1, L1 = part 2?  That not how math work, brain hurt.",True
+@goutambhattacharjee6928,2020-11-02T19:00:00Z,0,Can’t understand why a higher value of lambda would cause a flatter slope. Is the slope dependent on the value of lambda? Can someone explain this?,True
+@zairacarolinamartinezvarga1070,2020-11-01T21:14:14Z,1,Best song ever.,True
+@nepalonlineacademy,2020-11-01T18:20:12Z,1,Thank you for explaining it so well.,True
+@PritishMishra,2020-10-28T18:02:55Z,0,3:27 You are wrong the new line is Underfiting the data !! In the previous video you only said that High Bias means Undetfitting !!....?,True
+@akarshnagaraj6155,2020-10-27T07:44:52Z,1,"Your content is SOOOO good, thank you!",True
+@mouwersor,2020-10-21T15:52:39Z,0,"Hol' up, if you just happen to choose weight on the y-axis and size on the x-axis this metho would fuck up your prediction even more instead of less...",True
+@beautyisinmind2163,2020-10-20T04:50:23Z,0,what is sensitivity analysis?,True
+@samerrkhann,2020-10-17T14:11:50Z,0,"Hello Josh! I had one little confusion regarding the additional function we are minimizing. Is it always equal to lambda x (slope)^2 or it can also be defined as the lambda times half of the square of the weight vector (here weight vector means the vector with all model parameters/slope but intercept). kindly clear my this little confusion. By the way, I love your videos, keep making great content. BAMM!!",True
+@firaskedidi9868,2020-10-15T16:38:05Z,1,What an amazing explanation !! Merci infiniment !!!,True
+@dorrykarzu5924,2020-10-14T09:04:40Z,0,Is there somewhere part2 for Ridge regression when you dont have enough of the data? ( as stated in the vid) thx!,True
+@andersonarroyo7238,2020-10-11T22:41:38Z,9,"This is my first video and I am so impressed by how you explain things!!! It is like my buddy from college will explain it to me in plain words. You rock StatQuest, I am a follower from now on!! Thank you",True
+@dafni5674,2020-10-09T14:08:48Z,1,"I am an aspiring to be data scientist.. Right now I feel lost with all the math, stats, machine learning and programming... I have been watching a lot of YouTube videos and I came across your channel! I simply love it! I plan to watch all the videos. And let me just say I love the jokes and the silly songs <3 Thank you so much! Greetings all the way from Greece!",True
+@quahntasy,2020-10-07T18:00:33Z,1,*Who else is here from india*,True
+@anamfatima5489,2020-10-06T18:14:51Z,17,I came to know about this channel  2 hours ago. Simple and Outstanding explanation. My aim is to watch each and every video.  Loving your style of teaching. From India.,True
+@rchatterjee2837,2020-09-29T13:04:06Z,1,Awesome explanation. Just superb!!!,True
+@Prajwal_KV,2020-09-27T12:04:45Z,0,In simple words we can reduce high Bias by shrinking the Features(parameters or independent variables).what about high variance how to reduce it?,True
+@PedroRibeiro-zs5go,2020-09-23T23:14:35Z,3,Thanks Josh! You’re absolutely the best 💪🏻,True
+@deepanshudashora5887,2020-09-21T08:05:38Z,1,Terminology alert ! Josh is obsessed about weight and height of mouse😂,True
+@yscosta,2020-09-18T22:48:56Z,0,"Hello Josh!! I've watched the three parts of regularization and they are compelling videos. But, I'd like to suggest something. What about to create a video to show a regularization applied to linear regression, logistic regression, decision tree regression, random forest regression, etc. I think it will be MULTI-BAM!!!",True
+@saianishmalla2646,2020-09-15T18:40:15Z,2,Loved the video thank you!!,True
+@hrishikeshkashyap8485,2020-09-14T08:19:44Z,1,BAM,True
+@yunfan7034,2020-09-11T11:42:00Z,0,"Thank you. Do you know why ridge regression can only set slope close to 0, but not  equal 0?",True
+@donaldmahaya2689,2020-09-07T01:06:15Z,0,Is ridge regression still useful if the sample size is large?,True
+@pranjalsaxena1075,2020-09-05T18:02:05Z,1,BAM!!! DOUBLE BAM !!!! TRIPLE BAM!!!!! QUADRUPLE BAM !!!!!!,True
+@RaviYadav-nj8zh,2020-08-31T10:10:02Z,2,Level of simplicity on this channel is just BAM!!!,True
+@republic2033,2020-08-24T22:30:57Z,6,"You have that ability to explain difficult topics in a very simple way, this is amazing! Thank you so much",True
+@Amigonnastay,2020-08-23T07:35:12Z,1,I like you voice HAHA... it's hard to relate that voice with statistics lol.. i think i can do better if my prof's voice is like this =),True
+@adrianmisak07,2020-08-20T18:09:36Z,1,thank you,True
+@shashankupadhyay821,2020-08-17T16:48:11Z,3,"This is so cool, it's almost like magic.",True
+@doctor9101,2020-08-15T00:31:26Z,0,"The picture shows projection to the line ,at 3:32, should it not be perpendicular distance",True
+@krittikadhar2398,2020-08-13T07:56:32Z,0,"At 6:07 you found the penalty for OLS and Ridge Regression,but how did you find the equation of the line that will come from Ridge Regression?",True
+@tusharpatil96,2020-08-12T13:19:47Z,4,Probably the most sensible explanation available on youtube..and yes...BAM!! ;),True
+@Dreaming-11,2020-08-11T15:20:26Z,0,"I have a doubt that I can't find the answer anywhere: If you have 2 predictor variables with perfect collinearity (one is a linear combination of the other), how can Ridge/Lasso regression decide which one to use and which one to get rid of, since both are in essence the same variable?",True
+@zamanmakan2729,2020-08-10T19:20:17Z,1,very helpful as always!!,True
+@alois7498,2020-08-07T20:38:32Z,1,Bruh.,True
+@fatarrammah8829,2020-08-05T12:27:28Z,1,brilliant !!!!,True
+@emersonsouza4568,2020-08-04T11:35:49Z,1,I'm crying here. many many many ridge thanks,True
+@debasishgoswami6707,2020-08-03T19:35:05Z,1,Really Awesome !!! Brilliant style of explanation of complex things in simplest manner.Hat off!! is there any videos of python implementation of Ridge and Lasso using Cross validation?,True
+@hwnaughty,2020-07-31T11:47:57Z,1,BAM!!!,True
+@phoelapyae4206,2020-07-30T04:55:48Z,2,"I love intro song. If i were a producer, i'll produce the record with u.",True
+@jedarno2598,2020-07-27T22:41:33Z,1,This was really helpful! Thank you so much,True
+@BeSharpInCSharp,2020-07-26T09:40:46Z,0,I have equation say w1x1 + w2x2 + w2x3 +c = y where w are weights and c is constant.How do I calculate the slope here for regularization?,True
+@lingyan7602,2020-07-25T04:01:17Z,0,What if your testing samples actually need a slope larger than training samples? Wouldn't it be more convenient to set the lambda negative in this case?,True
+@aromax504,2020-07-21T10:05:25Z,0,The penalty term in math is = lambda*(w1^2+w2^2+....+wn^2) which is as u said is equal to lambda * |slope|^2.  That case slope = Sq root of(w1^2+w2^2+....+wn^2). Is that true ? If that is true what is the geometric interpretation of that ?,True
+@BeSharpInCSharp,2020-07-19T12:22:10Z,1,How come your description of video is also so neat and organized. I want to slap myself.,True
+@sudhakars3904,2020-07-18T16:57:24Z,0,"Hi Josh, Your videos are awesome. Thanks for sharing your knowledge. I joined my first youtube channel because your lessons and songs are awesome. I have a question what will happen Lambda value is increased?  whether it will underfit?",True
+@leanneZzz08,2020-07-12T17:37:48Z,1,Really appreciate your videos. They are valuable for beginners. Easy to understand and easy to learn. Thanks for your good work. Greeting from a new PhD student.,True
+@luizelias2560,2020-07-12T16:46:36Z,1,best video about Ridge ever !!!!! very clear and precise!,True
+@junweizhang,2020-07-11T17:41:19Z,1,"looks like ""friends"" phebe's guitar music",True
+@abhi13091985,2020-07-10T15:57:03Z,1,Very well explained.....,True
+@mohammedhamandi3500,2020-07-03T07:10:20Z,1,"Excellent channel, thank you a lot for your helpful, and well organized videos. Btw, I find you funny as well BAAM .. hhh",True
+@junhanouyang6593,2020-07-02T21:19:01Z,0,I have a question. If we only have 1 data point? How are we suppose to do K-Fold-Validation? Do we only change the lambda value when more data come in or did I miss something?,True
+@paulopereira6374,2020-07-01T21:55:07Z,1,DOUBLE BAM! HAHAHAHAHA,True
+@user-bz8nm6eb6g,2020-07-01T16:19:43Z,1,Cool BAMMM!,True
+@temjim,2020-06-30T12:39:18Z,1,Double Bam!... This is a life saver!..,True
+@Seff2,2020-06-28T11:21:28Z,0,"This all makes no sense:  1): The example in 3:31 has two points that are coincedently too steep. So Ridge-Regression is just a fancy term to say ""make the line more flat"". In this example it works fine, because the line was too steep initially. But if we chose two points where the line would be too flat, ridge regression would make the thing even worse....  2) If we search for lambda by using cross validation (because somehow we suddenly have more data), why dont we just use all the data we have and do linear regression on it? This will by definition find the best fitting line.  3) In 19:04 we see that we are searching for a 2D line but only have obne datapoint. The solution seems to be ridge regression with cross validation. For cross validation we need more data, but if we had more data, we wouldn't have the problem in the fist place... So am I missing something?",True
+@NaggieNag,2020-06-23T14:21:50Z,7,I don't know how my stat teacher can make something this easy to understand that complicated. Everytime I can't understand what he's talking about in the class I know that I have to turn to StatQuest. Thank you for what you're doing.,True
+@mojitocod,2020-06-20T15:56:42Z,1,"You explain these things very well, thank you! I have a question, what if the testing data is above the linear regression line? Why can't we make the slope of the line get bigger if it suits our testing data, but the slope can only get smaller?",True
+@insanesoul2400,2020-06-20T15:23:06Z,0,"I understand that lesser the slope, size would be less sensitive to size at 10:01, but when you fit a ridge regression line, and plug value for penalty lambda, how would that affect how the line is fitted, I see there is no direct relationship between lambda and slope or intercept. How does plugging lambda values change the orientation of the line?",True
+@Patrick881199,2020-06-20T08:49:22Z,0,"Hi, Josh, at 19:11, you say there is going to be a future statquest to discuss the topic, so has this future statquest already been made? Thanks",True
+@ryzary,2020-06-14T03:01:03Z,209,"After watching dozens of StatQuest videos, I finally know when to say 'BAM!'",True
+@LOca030388,2020-06-12T18:12:11Z,3,100001 like froma Armenia 🇦🇲,True
+@rithikbhandari8062,2020-06-11T10:07:53Z,1,"haha Airspeed of a swallow, refernece to monty python maybe?",True
+@danielt3884,2020-06-11T07:54:24Z,0,"Hi Josh, you mention that the best lambda is the one that results in the lowest variance. Other sources say that the best lambda is the one that minimizes the MSE. Are these two ideas the same thing?",True
+@tejbirsinghbhatia3090,2020-06-11T03:01:11Z,2,"Man, love the sarcasm in your voice and the concise / crisp explanation of your concepts! DOUBLE BAMMMM!",True
+@saadmansakib01,2020-06-09T09:51:11Z,0,"Hi Mr. Starmer , I had a question: At the 18:58 you stated that, Ridge Regression can find a solution by cross validation and the Ridge Regression Penalty that favors the smaller parametervalues. you said you would, discuss the inner mechanisms  in another video...was wondering if you made that video?",True
+@Ezechielpitau,2020-06-06T08:58:29Z,0,"A couple of things seem a bit weird to me: 1. Why would lambda have to be >0? By doing this, we make the assumption that our least squares solution needs to be less sensitive to the x value. But maybe that's false and it actually needs to be MORE sensitive? I can easily pick 2 values which would result in a least squares solution that's too flat and lambda <0 would suddenly improve our predictions. 2. All of this sounds like we simply don't have enough training data. Using this method we're pretty much just also training on our validation data. That's obviously beneficial and maybe I'm missing something but it sounds like we could have just used more training data in the first place and not do any of this ridge regression at all. 3. Not completely sure but I don't think this is an example of overfitting at all at 3:25. Overfitting is when we're letting our prediction function get too complex so it then fits the training data too well (For example choosing some x^7 function at 1:10 instead of a linear function would surely be able to perfectly hit all 8 training points but would be a rather bad predictive function). But here, the problem clearly isn't the complexity of the predictive function but rather the amount of training data.",True
+@cat-.-,2020-05-30T12:01:59Z,0,"Using ridge to find params with insufficient samples for the polynomial sounds cool but all I can picture in my brain is that as soon as you add any penalty term, the machine will immediately default to the safest, most boring solution. In simple linear ridge with one sample and two params, this will always result in a flat line (since that minimizes slope^2 penalty term), so it’s not helpful at all. In higher dimension I imagine he same thing, I.e. ridge will lead to the most uninteresting, least informational outcome as well. But since it sounds like a standard practice, I imagine I will see why it’s useful once I learn more about it. I shall find the next video about it.",True
+@cat-.-,2020-05-30T11:44:26Z,0,"Question: why lambda must be positive? In other words, why favour smaller slopes, while the underlying relation might actually have a huge slope? Also If you flip the x and y axis, the ridge modifies linear regression in a non-symmetrical way, as it always favours smaller slope, it seems very arbitrary and not elegant, and the problem can be clearly resolved by just allowing negative lambdas. Why not?",True
+@balanaguharshavardhan3725,2020-05-30T10:58:33Z,0,Is there a simple software which allows us to make videos like these?,True
+@tomasramilison,2020-05-29T14:22:16Z,1,BAMDA!!,True
+@andriicherevko6203,2020-05-28T18:23:59Z,1,U are the really cool teacher. Thanks!,True
+@naveenkalhan95,2020-05-23T21:15:59Z,0,@14:29 should the formula also not be including (diet diff.   x    Normal Diet) ? Thank you for your great work.,True
+@usamanavid2044,2020-05-23T13:56:54Z,3,Love from 🇵🇰 Pakistan.,True
+@davidm3894,2020-05-22T14:49:06Z,0,What if the training versus test data is such that increasing the slope would be better? How would Ridge account for that if it reduces the slope?,True
+@watermelonzzz8250,2020-05-22T12:19:09Z,1,Thank you Josh! Is  the lambda in ridge regression chosen by us or by cross validation?,True
+@berryblack1977,2020-05-22T07:21:25Z,1,Awesome,True
+@mathildereynes8508,2020-05-21T14:43:56Z,0,"Please tell me the video on Ridge explaining how it is working with less datapoints n than features d (that you are talking at 19:07) is coming! Or did I miss it? Thanks a lot, splendid video, very clear and precise",True
+@pa4761,2020-05-21T14:18:47Z,0,You are a god send! How do u decide how much to alter the slope by of your bias ridge regressions?,True
+@DavenH,2020-05-21T13:38:06Z,0,"I don't get any intuition for why this is beneficial. It seems to be quite arbitrary. Why not penalize the square root of the non-constant coefficients? Why not the cube? You can get away with a lot by adding more hyperparameters if they're optimized by cross-validation, but their inclusion doesn't offer much insight. In fact, adding algorithmic complexity like this to the model increases the risk of overfitting.",True
+@rogerchen9110,2020-05-13T08:17:30Z,1,it will be nice if my lecture teach it in such way instead of whole bunch of sentences .,True
+@vidyac5425,2020-05-13T07:59:18Z,1,can't thank you enough :),True
+@tmorison5553,2020-05-11T21:33:10Z,0,This video was super helpful for me! Is there already the next video for using Ridge Regression to estimate the slope from small data sets?,True
+@ianhou3541,2020-05-11T02:30:04Z,1,This man is God,True
+@MohamedIbrahim-qk3tk,2020-05-10T14:43:18Z,0,"In 5:53 you got 1.69 as ridge regression penalty for Least square line. In 5:58 you said the numbers for Ridge regression line would be size=0.9+0.8×weight. My question is, how did Ridge regression line end up with 0.9 as intercept and 0.8 as slope?",True
+@LaylaKilolu,2020-05-08T20:08:33Z,1,BAM!!,True
+@anonyme103,2020-05-08T04:50:40Z,1,How come you are not a kaggle GrandGrandTripleBAM master ?,True
+@rounakchourasia2030,2020-05-07T20:13:49Z,2,BAM is like hypnotizing trigger,True
+@epsiloc9599,2020-05-06T13:31:21Z,0,"Hello, at 2:57, you speaks about ""original data"". Where do these data come from ?  I do not understand.  Thanks , Loïc",True
+@nathanx.675,2020-05-06T01:19:11Z,9,Who's watching this the day before their machine learning finals?,True
+@nibinkarayi,2020-05-02T16:18:53Z,1,"Josh,you are the best,and you know this by now.Please help us with the video on why ridge regression works for datasets with lots of parameters and less data points",True
+@hemaswaroop7970,2020-04-30T13:46:02Z,0,"Hi Josh.. I been following your videos for quite some time. I'm also your patreon member. I just wanted to know if you'd be interested in doing Neural Network related videos and its related Hyperparameters like Entropy, Cross-Entropy. Thanks for this video.👍",True
+@arnobchowdhury3191,2020-04-28T06:41:36Z,2,At 15:19 there's a typo: You meant triple BAM?,True
+@arnobchowdhury3191,2020-04-28T06:40:38Z,0,Air speed of swallow is where I lost my concentration.,True
+@well....7751,2020-04-27T19:51:46Z,1,this series is really dope and deep,True
+@rasraster,2020-04-26T14:00:19Z,0,"Great explanation, as always. Just one question - why would anyone want to or have to train on such a small percentage of the available data set? Why not train using 75% of the data point or something? Thanks.",True
+@sarvariabhinav,2020-04-25T21:57:05Z,3,Legit Quality Content.,True
+@MasterofPlay7,2020-04-25T04:04:01Z,0,where's part 2 to the ridge regression? Is it because of 10 fold cross validation to determine lambda that's why is able to predict the slope of with just one sample point?,True
+@1pompeya170,2020-04-25T00:49:20Z,6,"you are my sunshine,my only sunshine , you make me happy when f**king math puzzled me!",True
+@sanjo3108,2020-04-23T08:45:35Z,0,"In 13:56 , is that sum of likelihoods or product of likelihoods?",True
+@prithabhattacharya8629,2020-04-22T17:06:43Z,0,"Thank you for this amazing video sir! I have one doubt though. If we have only one training sample in the size vs weight example, then wouldn't using ridge regression try to minimize the (lambda*slope^2) value only as the least square error for any line passing through that point will anyway be zero? If that is the case, then wouldn't the ideal value of slope be zero?  Imean whenever we have just one single point for a 2-D dataset, wouldn't we just end up fitting a horizontal line through the point so that slope = 0? I'm sure this is not how this works, I just didn't understand it somehow.",True
+@y37chung,2020-04-21T22:34:35Z,0,"If the dataset doesnt have a ""time sequence"" why do we even divide it into a training and validation set? Why not just pool all data tgt to parameterize a simple linear model?",True
+@thanmayi4126,2020-04-21T14:58:43Z,1,I'm a huge fan of those silly songs ;),True
+@pradeeptripathi1378,2020-04-18T15:34:15Z,0,Ridge regression shrinks the parameters (Coefficients) towards zero by penalize it to avoid overfitting. I just wanted to ask how Ridge regression calculates the coefficients (parameters)?,True
+@godhulyhasan8559,2020-04-17T20:16:47Z,1,Amazing,True
+@10kfreemen,2020-04-17T02:24:43Z,1,I love you stats quest,True
+@adsax1903,2020-04-15T04:02:05Z,0,"https://youtu.be/Q81RR3yKn30?t=389 : where do the figures ""0.3"" and ""0.1"" come from? =)",True
+@ccanyways8297,2020-04-13T10:38:17Z,1,bam!! had me weak lmao,True
+@snackbob100,2020-04-11T09:31:20Z,0,please please do one on bias-variance decomposition,True
+@sau002,2020-04-08T21:25:35Z,2,Baaaaam!!!!  You should record and patent this single word.,True
+@mridhusharma8119,2020-04-07T13:11:22Z,1,your channel is blessing . I request you to kindly  make vedios on text analysis,True
+@domizianostingi9504,2020-04-04T14:45:16Z,0,"What would happen if insted of standardized the values, we only perform centering? Plus, have you ever heard about the Regularized k-means clustring?",True
+@rbanerjee98,2020-04-03T21:43:28Z,0,This channel is like if Flight of the Conchords decided to teach statistics,True
+@apoorvgupta1024,2020-04-02T23:03:21Z,1,Thank you...very simple and good explanation.,True
+@jeremyandersen9456,2020-04-02T17:20:56Z,2,8:11 would seem to be esoteric knowledge but it does help a lot in contextualizing things,True
+@ProBilogo,2020-04-02T07:22:59Z,0,"Guys, our professor said that regularization shrinks the ""LOW VARIANCE"" components of the weights. Can someone explain exactly what it means?",True
+@lucaspenna6009,2020-03-31T17:56:56Z,63,Professors in general teach Ridge Regression with many complicated equations and notations. You made this topic very clear and easy to understand. Thank u very much again.,True
+@vladtudor9899,2020-03-31T15:44:59Z,1,God bless you,True
+@dainegai,2020-03-27T21:51:41Z,1,"Great 'Quest as always! Small visual typo: at 12:48, as lambda increases, the model should converge to ""the mean of all the (training) samples"", right? (As lambda -> infinity, we set ""diet difference = 0"", and to minimize sum of squared residuals term, we'd set the intercept term to be the mean of all the samples.) So the ""high-fat diet line"" goes down, *but also* the ""normal-diet line"" would go up, right?",True
+@shinunotenshi,2020-03-25T17:11:55Z,0,"You killed me at minute 19 with ""we'll save this for a future video"". That was the most interesting part! Is that new video out yet?",True
+@vspecky6681,2020-03-23T15:18:54Z,31,"I was listening with extreme focus and you suddenly threw ""Airspeed of Swallow"" at me. I died XDDDDDDDDDDDD",True
+@charlottedsouza274,2020-03-23T07:54:12Z,1,absolutely love your videos ...Keep up the good work Josh :),True
+@timdai6396,2020-03-21T03:38:30Z,1,Thank you. That's just it. Thank YOU!,True
+@SimohmedRaiss,2020-03-18T12:32:07Z,1,"Thank you so much Josh Starmer for the clarity and efforts made to come up with this video. I have got a question please concerning 9:36 about the impact of changing lambda. When you say that by choosing lambda =1 we have a smaller slope, does it mean that the new slope is calculted based on lambda ? (I understood that we first change the slope and then we calculate the penalty, so lambda in not linked to the slope)",True
+@wenhong5852,2020-03-17T19:30:50Z,0,"Hello StatQuest! This video is amazing! I used it to prepare for my finals and my projects. A small suggestion is that the weight-size example is a little confusing, because I just assumed that weight means the ""weight"" is mathematics, which is the coeffecient of each variable terms. It took me a while to realize that it meant the physical weight of subjects.",True
+@taltastic2,2020-03-15T11:59:18Z,2,"I love you Stat quest. Your videos are better than any other stats resource I have come across, and I am actually understanding things now, which will help me do my job better. Please never stop making these excellent videos...",True
+@tommcnally3231,2020-03-13T03:18:09Z,5,My lecturer explained this by just putting the equation in front of us on the slides. The maths is easy but I didn't understand the point or intuition behind behind adding a penalty. Now I do. Thank you.,True
+@vincentwu3852,2020-03-12T03:32:53Z,0,"Great video! I watched it 3 times....  I am actually confused about the comparison part. on the Ridge Regression Line, you assigned Beta 1 as 0.8 when you try to minimize the penalty. However, when you are calculating the testing data set, Beta 1 you used as 0.75. My question is did you just round it? It is probably a stupid question. I guess the answer is you round it. Just double confirm.",True
+@JT2751257,2020-03-10T04:40:08Z,20,"Josh, I have been practicing data science since last 4 years and have used Ridge regression as well. But now I am feeling embarrassed after watching this explanation because before the video I only had half baked knowledge. You deserve a lot of accolades my friend :)",True
+@tamzidahmed1890,2020-03-10T00:28:05Z,0,does the slope always decreases in ridge regression hence reducing the effect of the weight?,True
+@george480,2020-03-09T17:04:38Z,2,Great explanation Josh. Thank you so much! Helped mea lot!,True
+@mikeczyzewski7187,2020-03-04T22:37:27Z,2,Has there ever been a quadruple bam?  :P  Great vid!,True
+@kaimueric9390,2020-03-01T11:12:58Z,3,BAM! The concepts are presents in the clearest way ever.,True
+@LetWorkTogether,2020-02-29T03:42:53Z,2,So awesome!!! Many complicated stuffs are simply putted. You're grate! :D Thank you.,True
+@rufledore,2020-02-27T11:37:00Z,0,"This thing with the awful singing of stupid song in the beginning of the video is very wrong decision. It was so irritating to me, that I have been keeping this video open for more than a month and I haven't watched it at all and I am closing it right know. Sorry.",True
+@wizardom,2020-02-26T01:33:11Z,0,"Such a helpful explanation, but man, do I dislike your BAM!!s But since you transcribe everything you say, I can just mute you, so thanks for that.",True
+@kadhirn4792,2020-02-22T08:54:17Z,15,Love from India. Wish me good luck interview in less than days.,True
+@arifmd1986,2020-02-20T22:39:19Z,0,"Hi Josh! Please upload lectures on neural networks ,CNN and RNN's please",True
+@ahmedabdo-oz9zy,2020-02-18T14:33:09Z,1,Hi. It was really good and simple. can you please make one about Bayesian ridge regression?,True
+@user-bc7wv4ys7f,2020-02-17T15:58:29Z,3,"Hi Josh, your videos are amazing and I love it.  You mentioned at the end of the video that we can use ridge regression and cross validation to fit some data points that the least squares cannot. But how can we fit a sample with only one data and we are not able to use the cross validation here? (since there is only one data)",True
+@akshaygupta8837,2020-02-16T16:10:28Z,3,"Great Video. One question though, does ridge regression always reduces the slope. What if the Line of Least square had low slope from the beginning and a good fit would be one with higher slope. So will the regularisation increase the slope?",True
+@thecontroller6786,2020-02-15T02:46:37Z,2,You know what? Your video is so.... PERFECT.,True
+@user-ug9ve2wk2l,2020-02-14T04:32:06Z,0,"Hi Josh, thanks for all the videos, they are reallly helpful! I wanted to ask @17:10 if we have 3rd data point sharing the same straight line as the other two, then does it still hold that we need at least 3 data points to fit a plane?",True
+@vinodr9655,2020-02-13T05:31:16Z,2,hello sir i just wanted to tell you that  you are the teacher ! thank you for your diamond cut clarification,True
+@suyashneelambugg,2020-02-08T15:18:25Z,0,You chose the weight for the ridge regression to be 0.8 as against 1.3 for linear regression and set Lambda = 1. Then you go on later to say increasing lambda reduced the slope so you got 0.8. Self-contradictory !! I think this is one of your poor videos with false explanation.,True
+@mmkthecoolest,2020-02-04T18:08:32Z,0,Where did you get the number for the Ridge Regression Line from?,True
+@MayanPatel1,2020-01-23T21:51:52Z,1,This really helped me! Thank you so much for making these videos.,True
+@badoiuecristian,2020-01-23T11:44:18Z,0,How does lambda decrease the slope? If we have lambda * slope^2 and the slope is constant then the slope increases with lambda. If I assume the same equation and just increase lambda then as I grow lambda I get larger values???,True
+@prateekaneja9841,2020-01-21T21:23:26Z,0,How is the Residual sum of squares (RSS) is affected as lambda moves from 0 to infinity? Kindly elaborate.,True
+@KayYesYouTuber,2020-01-20T23:29:00Z,0,Isn't the slope of the ridge regression line independent of the Lambda? You mention that as lambda increases the slope decreases. I am little confused about that. can you please explain that?,True
+@jacksonchow3359,2020-01-17T12:30:50Z,0,Tony Stark: we don't really need to start a conversation. Me: you don't really need to sing a song to explain regularization,True
+@sergioorozco7331,2020-01-17T03:33:00Z,1,"I have a very high level explanation of Ridge Regression. Can you let me know if this thought process is correct? Essentially, you are using your limited training data to get you to a certain degree of correctness, then you are guessing for lambda (using cross validation) to get the best generalized model for testing. You use the Ridge Penalty as a means of generalizing.",True
+@RS-el7iu,2020-01-16T19:18:36Z,1,👍🏻👍🏻👍🏻thanks,True
+@IcySpicykitchen,2020-01-16T11:41:01Z,1,Awesome! explanation...great,True
+@haneulkim4902,2020-01-13T07:46:46Z,0,Thanks for great video! Do we use regularization technique for gradient boosting regressor?,True
+@greektrader7325,2020-01-12T13:30:37Z,1,"There is no reason avoiding Greeks,it's one of the most ancient languages and it has offered great things to every science including maths...Not mention thousands of words not only to English language but also to others..",True
+@guilhermejf8642,2020-01-11T00:48:31Z,1,That is very clear! Thanks a lot for that.,True
+@isabellaexeoulitze6544,2020-01-07T20:38:09Z,0,Thank you very much for the video. I have a question: @5.55 minutes you introduce Ridge Regression Numbers. Please could you point out where did you get them from? Many Thanks!,True
+@moesqhwifmg,2020-01-06T12:24:16Z,1,bam!!,True
+@Troglodyte2021,2020-01-05T03:43:25Z,0,Is λ the same as α as in hyperparameter?  Are they the same thing with different Greek name?,True
+@dfragoulis,2020-01-04T19:40:13Z,1,Why avoiding using Greek characters as much as possible? :) (just kidding - I'm a Greek),True
+@rajarajeshwaripremkumar3078,2020-01-04T18:56:06Z,0,"one question - if there is only one data point, how can we do the cross validation on that. Also even if there are multiple data points, why cant we do cross validation on the ssr itself. why this should be the reason why ridge works better than ssr?",True
+@VVV-wx3ui,2020-01-02T14:05:37Z,2,this is one super explanation of the Regularization concept of Ridge Regression. Great work.,True
+@urdeathisnear885,2019-12-31T00:06:12Z,0,"Hey Josh, super helpful as usual, thanks! Question: could you explain briefly or point me to material that explains how the ridge regression line is actually fit to the data? I understand the analytic solution for solving for the slope and y-intercept using least squares error; is there an analytic solution for solving for the slope and y-intercept for a given lambda when using ridge regression error, or if not, how are the slope and y-intercept values for the ridge regression line actually obtained?  e.g. at 5:57, given lambda == 1, how were the values 0.9 for the y-intercept and 0.8 for the slope obtained? I know they come from miniminzing the ridge regression error.",True
+@shankar3109,2019-12-25T10:29:43Z,1,Awesome.... BHYAAAAMMMM!!!!,True
+@zhizhongzhu9524,2019-12-25T06:42:35Z,2,So great! Like the BAMMM,True
+@amishsharma7578,2019-12-23T04:43:27Z,1,BAM!!!,True
+@paulyu6334,2019-12-18T16:20:14Z,1,amazing work... thanks for your effort.....,True
+@markneuert2060,2019-12-12T05:49:22Z,0,"Around 10:10, you state that the selected alpha from the cross-validation analysis is the one results in the lowest variance. My question is, variance of what? Most packages I'm familiar with (e.g. glmnet in r) select the alpha that has the lowest cross-validation value (mse in the case of ridge regression). I can see how a low variance would be desirable, but wouldn't a low mse be the main objective?",True
+@therealaverma,2019-12-09T03:00:59Z,0,"Great video!  I don't understand the part about how ridge regression can find a solution when there isn't enough data for least squares. For example, at 19:52, you show 1 data point in a 2D space. Wouldn't we still need 2 or more points in this case to find a slope. How can Ridge regression penalty be calculated without the slope? And what is there to cross validate when there is only 1 data point in the training set?",True
+@ashishkannur7773,2019-12-04T13:45:28Z,0,"I am very happy that you cleared my concept. But still i am kinda stuck over the statements made in the video from 9:39 to 9:52 . Well , according to me increasing the lambda is not decreasing the slope. Its just that you already had different slopes(lines with different slopes) and then the (sum of resi+ lambda*slope^2) term helped you choose the line with the least slope. So dont see the lambda playing a major role here. How does lambda play a role in dataset with significant sample size but still considered small for training?",True
+@logicalNerd,2019-12-04T01:13:01Z,0,"So Ridge regression is basically cheating with extra steps? You try to fit the line wrong, and then see if the results were any good. If they weren't then you try again. Also, having less data points was never a premise since it doesn't make sense to train on smaller dataset and test on a larger one.",True
+@SpL-mu5zu,2019-12-03T20:35:11Z,16,YOU ARE THOUSANDS OF TIMES BETTER THAN MY PROF...CLEAR & SIMPLE.  THANKSSSSS,True
+@subhankarhotta7094,2019-12-02T03:49:47Z,0,Didn't get the part that every parameter except the y-intercept is scaled by the measurements. Can someone throw some light here?,True
+@hgflame,2019-11-29T16:31:01Z,1,Too good!,True
+@atuldeshmukh3074,2019-11-27T16:55:40Z,0,Dear Josh..One feedback between the session dont use BAMM... It does not sound good..Please sincere request...Keep up the good work,True
+@knjpollard,2019-11-26T13:34:33Z,0,Trying to predict when you will say 💥,True
+@hkkhgffh3613,2019-11-20T20:03:55Z,0,Watchin at 1.75x speed....,True
+@sjwang3892,2019-11-19T06:41:18Z,2,Such face palm for the opening.... good video though! Thanks!,True
+@statquest,2019-11-18T09:16:03Z,137,"Correction: 13:39 I meant to put ""Negative Log-Likelihood"" instead of ""Likelihood"".   A lot of people ask about 15:34 and how we are supposed to do Cross Validation with only one data point. At this point I was just trying to keep the example simple and if, in practice, you don't have enough data for cross validation then you can't fit a line with ridge regression. However, much more common is that you might  have 500 variables but only 400 observations - in this case you have enough data for cross validation and can fit a line with Ridge Regression, but since there are more variables than observations, you can't do ordinary least squares. ALSO, a lot of people ask why can't lambda by negative. Remember, the goal of lambda is not to give us the optimal fit, but to prevent overfitting. If a positive value for lambda does not improve the situation, then the optimal value for lambda (discovered via cross validation) will be 0, and the line will fit no worse than the Ordinary Least Squares Line.  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@user-bc9lq3mv5e,2019-11-18T07:04:51Z,0,"Thanks for your great video :) I have a question. In this video, It was said that when I want to apply the ridge regression to logistic regression, I have to replace SS(residuals) with the sums of the likelihoods. But as I think, SS(residuals) is error term, so it has to be minimized, and the sums of the likelihoods is the thing which I have to maximize. So this replacing is strange, I think... Please correct me...",True
+@khaleda883,2019-11-17T16:28:07Z,0,"can you please what do you mean by ""every parameter is scaled by measurements"" in 15:11 ?? by the way thanks for the clear explanation",True
+@sumanthbharadwajm6506,2019-11-17T00:05:15Z,0,Thanks for the great videos.  I just wanted to know what would happen when lambda equals negative infinity for the continuous variable example.,True
+@raghavgaur8901,2019-11-16T13:19:57Z,0,"Hello Sir,I wanted to know that as the cross validation is performed on the training data only like in k fold cross validation we divide the training set into k parts and then train our model with few parts and test them with others so in case if we have only 1 data point as you showed at 18:58 so how will we perform cross validation?",True
+@snjjain,2019-11-15T23:15:36Z,0,at @05:00 how do you use the value = 1.69( which you calculated from the sum of square + penalty ) to create the new ridge regression line. how are the new parameters derived from this 1.69 ?,True
+@nulliusinverba7732,2019-11-14T10:57:48Z,0,Why can't we use the ridge regression penalty on the intercept?,True
+@mayankmishra3875,2019-11-13T10:19:20Z,0,"Hey Josh That was a great video. Was just wondering why did the lambda vary from 0 to +ve infinity. If we had to move the line anticlockwise, wont will we need to have the lambda as negative?",True
+@christianmaximillian4390,2019-11-07T15:58:25Z,0,In python ridge function.. why the alpha or what we call lambda can be greater than 1 sir?,True
+@christianmaximillian4390,2019-11-07T15:57:06Z,0,How to calculate the best vif while testing and finding the best alpha or lambda in python sir?,True
+@Gisariasecas,2019-11-04T07:03:14Z,0,"I have a question, at 3:43 you mentioned that ""introducing bias to a model reduces variance on the testing data"" Where could I check more information on that specific property?",True
+@changmoliu130,2019-10-26T06:15:28Z,0,How to interpret the lasso or ridge coefficients,True
+@ben7590,2019-10-25T09:40:02Z,0,"I wonder why setting the lambda and you get a new slope / line. I meant, what is the relationship between Lambda and Slope? any equation for this? Because, in the video, every time you change the Lambda, suddenly a new slope and line appear.",True
+@t-ranosaurierruhl9920,2019-10-24T20:31:50Z,1,Thanks for this brilliant explanation!,True
+@mohammadrezahashemi4240,2019-10-23T08:26:34Z,1,coooool ! Baaaam ;),True
+@hzyTMU,2019-10-22T05:18:58Z,4,"How to prove ""the slop close to 0 when lambda increasing in the 9:42""?",True
+@MinecraftLetstime,2019-10-18T22:41:06Z,1,This was great! Thank you.,True
+@gramble10,2019-10-10T13:28:29Z,3,14:57 An African or European swallow?,True
+@itsIs263,2019-10-09T16:33:53Z,2,I wished My school UT Dallas had professors like you. So I need not struggle on web. But thankfully I found you.,True
+@tedwong9301,2019-10-09T01:30:44Z,1,Your videos are always with so much fun! Thank you.,True
+@mrsmith33712,2019-10-06T20:50:21Z,3,"Thank you so much for this video, I love you! I hope it helps for the exam tomorrow",True
+@JTan-fq6vy,2019-10-04T20:28:30Z,0,10:08 we talked about using 10-fold cross validation to determine the optimal lambda with the lowest Variance. So what exactly is the variance defined here for us to choose the optimal lambda? Average model performance (e.g. ACC) or STD of 10 optimal weights/slopes (in 10-fold cross validation)? Thanks!,True
+@nielsmichalski5584,2019-09-26T07:13:44Z,0,Any reason to estimate size as a function of weight? In causal terms it does make more sense to switch iv and dv here.,True
+@OttoFazzl,2019-09-26T02:13:16Z,1,"I came here to learn about ridge regression only to realize it's L2 regularization. Aside from this, StatQuest is simply amazing. I use it to brush up on theory before interviews.",True
+@jobandeepsingh1929,2019-09-25T16:54:58Z,4,"your channel deserves more recognition, Keep up the good work",True
+@aliciachen9750,2019-09-25T14:51:40Z,4,wow. seriously better explained than lectures from my professor in the data science department,True
+@jushkunjuret4386,2019-09-20T04:28:54Z,1,"What if the data we are observing actually gives us a smaller slope than it should have, and having a Ridge penalty term will make the model worse.",True
+@trmohr,2019-09-07T14:21:33Z,2,StatQuest - you are awesome! You’re my go-to source to learn stats when my textbooks fail me.,True
+@pawegrzegorzko225,2019-09-05T19:00:51Z,0,"""great"" idea to use weight in example about machine learning",True
+@user-kj6jo2sd3b,2019-09-05T07:15:52Z,0,"you are amazing,Thank you",True
+@user-kj6jo2sd3b,2019-09-05T07:15:27Z,1,you are amazing,True
+@milleniumsalman1984,2019-08-29T11:39:15Z,1,"learned it , Triple BAM",True
+@samarkhan2509,2019-08-29T07:41:07Z,1,Awesome,True
+@nirmal886,2019-08-15T18:04:02Z,1,Along with statistics. I'm also learning on teaching... Bam..!,True
+@imshafay,2019-08-15T10:15:55Z,1,THis guy is so good in teaching.,True
+@yerhoam,2019-08-09T13:57:20Z,1,BAM!!!,True
+@arkarnyanhein,2019-08-08T20:29:55Z,0,I hate that music in intro man. It was so distracting. But I like your explanation so thanks.,True
+@dhirendrasingh5409,2019-08-07T06:07:58Z,0,"You have done a calculation to show how bias is introduced(Size and weight relation). The equation you used for the line with bias has the same slope (1.3) as the one without bias. In that case, these two lines should be parallel.  I feel the slopes of the lines will be different after you introduce bias to the equation you got with least square error optimization without bias.",True
+@reassume4826,2019-08-03T14:39:38Z,0,How's the JOSH?,True
+@uwerich9885,2019-08-02T22:52:54Z,0,"In your video, the ridge regression fits the testing data better than OLS, because the actual relationship not as positive as on the training data. So shrinking Beta works well.  However,  what happens if the opposite is the case? How does ridge regression perform if the actual relationship is more positive than on the training data?",True
+@ilhambintang3425,2019-07-30T03:35:08Z,1,double BAM,True
+@phamducminh9451,2019-07-25T08:54:21Z,1,The lectures are amazing. Can we have slides?,True
+@Shubhamkumar-ng1pm,2019-07-18T13:27:02Z,2,this is the best content i have ever seen on machine learning triple baam.,True
+@taylorjohnson6261,2019-07-10T23:05:11Z,0,"At 5:60, how did we get to calculate the ridge regression line? I may be missing something here... Thanks!",True
+@marianotorcalloriente1751,2019-07-09T04:08:56Z,1,excellent explanation. Congratulations,True
+@tetexu6859,2019-07-07T04:32:07Z,1,"god! amazing videos~ with your help, I can lay a basic foundation in order to understand the book named the Elements of  Statistical Learning.",True
+@matgg8207,2019-07-01T23:25:44Z,1,you are the GOLD to the DS,True
+@ashutoshnegi9531,2019-06-24T22:48:19Z,1,Bammm..,True
+@TheMuslimMan1,2019-06-19T03:56:52Z,1,How do you make this sound this easy,True
+@dropfiremusic4752,2019-06-13T06:57:37Z,1,"Man, you're cool!",True
+@meichendong3434,2019-06-07T16:50:24Z,3,I love your videos. They are so easy to follow and understand complicated concepts and procedures! Thanks for sharing all of the brilliant ideas!,True
+@dadipsaus332,2019-06-05T12:07:00Z,0,How does he mean which cross validation results in the lowest variance? Variance in what?,True
+@dadipsaus332,2019-06-05T11:09:24Z,1,Which videos gives the more thorough discussion of how this works? He says in the video?,True
+@monicakulkarni3319,2019-06-04T01:58:19Z,7,I really appreciate your videos! Keep up the good work.,True
+@latentboy,2019-05-30T04:31:39Z,0,"I do not understand why when lambda is increase the slope will decrease, as the slope is fixed before we change the lambda?",True
+@louissantos4240,2019-05-26T23:28:42Z,1,"Ah, but the real question is: Are we talking about an African Swallow or a European Swallow? 14:57",True
+@thej1091,2019-05-26T10:22:25Z,0,"@UCtYLUTtgS3k1Fg4y5tAhLbw, I looked at all your lectures but I am not able to find the explanation for doing ridge regression on more variables than data points! You said you would deal with it in a future video! Thanks! please let me know!",True
+@omprakash007,2019-05-19T17:05:33Z,1,"Firstly i like to thank you for explaining these concepts in such a crystal clear manner , this is one of the best video i ever witnessed. second, i request you to please make some video on backpropagation  and some tedious concepts of M.L. once again thank you.",True
+@DelandaBaudLacanian,2019-05-17T19:11:37Z,1,♫ regularizaiton is just another way to say desensitization ♪♪♪,True
+@mkuronadeem7159,2019-05-15T17:58:50Z,0,BAM!!!  :/,True
+@JMRG2992,2019-05-13T05:44:49Z,0,Ridge regression seems way to powerful. Like the god in regression models.,True
+@keyangke,2019-05-07T09:06:20Z,0,"Check at 5:54 , if you calculate least square  on training data, you can only make blue line has a smaller  slope to get a smaller least square on training data.  what if the test data on the another side?  So I think we should only use least square on test data to make the new  blue line ?",True
+@scottsimontacchi8815,2019-04-26T20:55:47Z,0,I'm a little confused about how Ridge favors smaller parameter values and how that helps with a large number of parameters (the mouse gene example). Thanks for your help!!,True
+@randhallcarteri,2019-04-24T15:57:29Z,2,"I love your channel, you are awesome!",True
+@vedient,2019-04-21T23:42:33Z,1,seriously this BAM!!  is so annoying.,True
+@srudeeppa9650,2019-04-20T02:19:26Z,0,If there are two features (Weight and Size) and a single data point. How can the ridge regression work with a single data point? From where did all that green dots come from.,True
+@svin30535,2019-04-16T18:39:50Z,0,BAM!!,True
+@user-ld6cq6ez9x,2019-04-12T17:53:29Z,0,Thanks very much for your clear explanations. So I want to know whether you can share your PPT or where can I get it?,True
+@mahmoudreda1083,2019-04-12T13:24:40Z,0,BAAAAAAAAAAM!!!!!!!!!!,True
+@hamzaaliimran6441,2019-04-12T13:12:46Z,0,why that song in start.,True
+@kundanranjan7279,2019-04-10T15:16:01Z,0,Dammmm!!!!!,True
+@malteshkumar421,2019-04-07T15:03:14Z,0,"At 5:56, how did u get the equation of Size = 0.9+0.8*Weight and what happened to value 1.69",True
+@lazypunk794,2019-04-06T16:44:33Z,3,"So from what I understand, ridge regression controls the slope from getting big right? This affects bias but reduces variance a lot so overall its better. But what if my true model has a slope that is actually bigger(steeper) than what I got using my training data? In that case wouldn't you be making the model worse by using regularization? In other words, why are we ""desensitizing"" when we don't know what the underlying model is? What if sensitivity in actual model is higher?",True
+@stephennguyen8052,2019-04-05T16:05:24Z,0,"I believe I understand the theory behind ridge and lasso regressions, but I'm not sure when do I use these instead of using best subset/forward/backward selection?",True
+@wehavebiscuits,2019-04-02T09:15:25Z,0,Very helpful video!,True
+@arpitmishra8439,2019-03-29T14:30:00Z,1,Never stop teaching sir... U r the best,True
+@leopoldomaldonadov.4918,2019-03-28T23:24:03Z,0,"Hello, thanks for the video. Is there any other video in which you solve for the case in which there are less measurements than variables?",True
+@petax004,2019-03-18T16:21:41Z,27,"You just spoon feed my brain with your clear explanation, thanks man!",True
+@aydinahmadli7005,2019-03-16T18:25:04Z,0,"very helpful, thank you",True
+@iefe65,2019-03-15T12:00:11Z,6,"Small question: Does ridge regression only decrease sensitiveness ? What if instead of this example, our test set was above the red line ? Normally we'll need to increase sensitiveness ?",True
+@iefe65,2019-03-15T11:56:34Z,0,Very cool video ! Does anyone know if he covered this part yet 19:03 ?,True
+@muhammaddaniyalafzal9085,2019-03-13T15:22:24Z,0,stop saying bam dude,True
+@TheGoldenFluzzleBuff,2019-03-07T06:30:53Z,31,"I have a big data economics exam tomorrow and you literally just saved my life. I don't always understand what my professor is trying to explain, but you did it super clearly. Actual life saver",True
+@viniths7683,2019-03-06T10:49:19Z,1,So far the best Video i ever saw for regression ... thanks Josh !!,True
+@elenaanele4841,2019-03-06T06:26:15Z,1,Algun voluntario para.traducir a español,True
+@SomeOfOthers,2019-03-05T14:54:15Z,2,"I've taken 4 machine learning courses and always wondered what ridge regression was, because I've heard it several times, but I was never taught it. I never realized it was just adding the regularization parameter! Awesome! Thank you so much.",True
+@raghavgaur8901,2019-03-05T13:56:18Z,1,What is the sum of likelihood,True
+@jacobmoore8734,2019-03-04T00:03:47Z,0,My professor said that Ridge Regression can be understood as principal components via singular value decomposition (SVD.) I have no idea what this means. Reference below for anyone who might be familiar... https://chicagods.com/575/lec04.pdf,True
+@raghavgaur8901,2019-03-03T23:30:30Z,0,"Sir,in your video you told that in linear regression we need the same number of data points as the number of parameters to find the value of the parameters but in actual practice linear regression uses gradient descent to find the values of parameters so still in case of less number of data points as well we can find the values of the parameters so this is not the reason to use ridge regression over linear regression right?",True
+@raghavgaur8901,2019-03-03T13:26:15Z,0,If we are applying ridge regression and if we have only one data point in the training set then in ridge regression we will use cross validation to minimize the sum of residuals plus the penalty term and for minimizing that we get lambda value as zero for minimum value of ridge regression minimization term so it will become as minimizing least saare as it is also zero,True
+@raghavgaur8901,2019-03-02T23:04:25Z,1,Can you just explain that what is the advantage which we get by having smaller slope and the size being less sensitive to weight.,True
+@raghavgaur8901,2019-03-02T13:01:58Z,0,So usually if we don't have the same number of data points as the number of parameters so we use ridge regression instead of linear regression,True
+@programminginterviewprep1808,2019-02-24T20:48:27Z,21,"These videos are awesome!  Somehow, listening to the video, I feel it comes from/for someone with a background in stats, than a typical computer science machine learning video.",True
+@999Stergios,2019-02-23T19:52:18Z,1,This is not StatQuest.. this is Machine learning slayer! Damn! Another awesome video. Bravo bravo!,True
+@massimobuonaiuto8753,2019-02-20T12:44:27Z,1,EXCELLENT. Really well done!,True
+@frozenburrito9313,2019-02-17T05:00:17Z,2,This is a god tier channel,True
+@Tyokok,2019-02-11T22:54:30Z,0,"Josh, quick Q: do you have video of ridge regression detail? like do you get 0.9 and 0.8 at 5:55? Thanks a lot man!",True
+@pradeeshbm5558,2019-02-11T13:00:11Z,1,BAM!!!,True
+@masterdataengineering,2019-02-10T05:04:41Z,1,What if the slope is negative? Will adding penalty not increase the absolute value of the slope rather than decrease it?,True
+@AhmedIsam,2019-02-08T08:13:40Z,1,"18:45 Least squares cannot find a single optimal solution.  Not true. It does, and it picks the one that has the smallest norm. So, in case of under-determined system like your case (single point and you want to fit a line) The optimum solution given by a least squares minimizes ||Ax-b||^2+||x||^2",True
+@kevindeng3576,2019-02-07T03:37:35Z,1,"So we only use ridge regression when we know the response is less sensitive to the predictors than it appears in our data? I mean otherwise, ridge will give worse results than least square.",True
+@GibranMakyanie,2019-02-03T16:50:30Z,1,Thank you for the explanation!,True
+@somakkamos,2019-01-31T18:24:15Z,1,may be a stupid question so i aplogixe.... i understand we introduce a bit of bias to fit the points not perfectly ..so that pattern is learnt instead of specificity.. and we use ridge regression to do that... bt then why do we apply ridge as lambda * squared(coeff).... why not do something weird like lambda* squared(0.25)... meaning we optimized lambda as well the param that we are squaring... what is the intuition behind squaring the coefficient(slope in this example),True
+@utkarshkulshrestha2026,2019-01-28T07:21:09Z,1,"Hi Josh, can you please tell me that how is the slope decreasing with increasing values of lambda? It is pretty unclear and I am stuck at this point since a long time.",True
+@IamMiracleAlex,2019-01-28T03:47:55Z,1,Wow..  nice explanation bro,True
+@sam271183,2019-01-23T03:27:21Z,4,Just Brilliant!! Josh Starmer - You are a genius!,True
+@mugwortofz3lb1za,2019-01-09T02:02:29Z,1,"Good day Josh, thanks for your videos, you might have just saved me on my machine learning exam. I have a couple of questions about this, firstly I think you may have stated the logistic regression formula wrong at 13:35, correct me if I'm wrong but shouldn't it say    is obese = e^(yintercept+slope*weight) / (1+e^(yintercept+slope*weight)? And then I think what your saying is that ridge regression minimises this slope (which is actually the slope of the log(odds) function).  Secondly, I was wondering why when it's applied to a multivariate problem, does it only use 1 value of lambda? It seems to me that because the dependent variable may be more dependent on some independent variables more than others, that it may need to be de-sensitised by different amounts for each parameter, giving lambda1*slope1^2+lambda2*slope2^2... I dont think it would make too much difference, and theres also then the problem for optimising for multiple lambda values!  Let me know what you think",True
+@llllloolllll,2019-01-08T22:40:07Z,1,Eres muy bueno enseñando - You are great teaching,True
+@RobertWF42,2019-01-07T15:41:32Z,0,"One thing to keep in mind when using ridge regression or lasso: the resulting coefficients are biased. This isn't a problem in predictive models, but if you're primarily interested in *explaining* why or how a particular variable causes changes in the outcome, then you'll likely want unbiased estimates and the standard BLUE least squares regression is more appropriate.",True
+@MrChryssy1,2019-01-03T12:23:40Z,11,"How do we get the new line in 3:40 ? We calculated 1.69 and 0.74, what did we do with it to get the new line?",True
+@cva456123,2019-01-01T21:08:37Z,1,Can you please share how these videos were made?,True
+@deepakdodeja4663,2018-12-30T14:24:36Z,1,Great Thanks!! Don't we have any option on youtube to give more than 1 like if a video steals your heart? :) :),True
+@akhilmahajan1417,2018-12-30T09:37:57Z,1,"Hi Josh, I have a question for you. At time 6:01 in video, you have calculated the value of sum of squared residuals plus ridge regression penalty for the regression line that covers all data (training plus testing). Then you compared this value with the value of sum of squared residuals plus ridge regression penalty for the regression line that covers only training data (that has only 2 data points). In real world, how will the model find the slope and intercept for ridge regression line when it is using training data only and has not seen any testing data? Also, if we do not know the slope of ridge regression line, how do we find the ridge regression penalty (penalty = lambda multiplied by slope of ridge regression line) - there seems to be circular dependency between the slope of ridge regression line and ridge regression penalty?",True
+@akhilmahajan1417,2018-12-29T12:04:44Z,0,I am glad that I found this video! I had trouble understanding regularized regression and this video made it too simple to understand.,True
+@GurjasSingh92,2018-12-29T10:19:58Z,1,Hi.. Thanks for such a great tutorial.. Can you please share the equation of ridge regression? how are you calculate the new equation of line for ridge regression?,True
+@karthik-ex4dm,2018-12-18T16:43:46Z,2,"Great work Josh! I have a question. By changing the slope, we are reducing the effect of that independent variable on dependent variable, if we keep on moving on that path, After a certain time, the effect becomes negligible. This means having there is no point in having that feature in our data and discarding them will not have a huge impact on the performance and this is why regularization is said to be used for Dimensionality reduction?  But lasso regression already does this by increasing the sparsity of the matrices.. What am I missing here?",True
+@DebatingDog,2018-12-17T01:15:57Z,1,In some ML books the λ factor is shownn as α.,True
+@stevens.k.markrov3547,2018-12-15T22:19:25Z,1,why does an error (mean square error) from ridge regression becomes similar to least square regression as the sample size increases? It is obvious that for small sample size ridge has much lower error than lsr but i am not sure why the error is similar (or the same) for both regressions with large sample size.....please can anyone help me?,True
+@afsangujarati9427,2018-12-14T16:35:02Z,1,I still don't get how did you select the ridge regression line at 5:56,True
+@winghho9,2018-12-13T12:46:41Z,2,"Didn't even realized this StatQuest video is super long until you mentioned it, truly enjoy your way to explain, thanks))))))))",True
+@diichang3121,2018-12-12T03:03:05Z,1,"Thanks, you helped me a lot",True
+@chenni8759,2018-12-11T05:35:41Z,2,"That's very nice, thank you Josh :)",True
+@user-xf1gm4en4e,2018-12-11T02:24:56Z,1,Very easy to understand and i like your BAM~~~,True
+@yassersayed6109,2018-12-09T17:39:21Z,1,"People like you, makes world a better place … thanks for being you ...",True
+@ypankaj00,2018-12-08T11:11:41Z,1,BAM!!! Stat has never been so clear...,True
+@spencerprice1676,2018-12-08T02:02:15Z,4,Thank you so much. You made this so much easier to understand than my professor. Really appreciate it,True
+@juhipathak8433,2018-12-03T07:38:26Z,150,Your channel is a god send!,True
+@ccuuttww,2018-11-30T10:00:52Z,0,"I wonder if your beta with power 2,3 or it cos log is it just square it in the equation such as beta power 2 become beta power 4?",True
+@reneeliu6676,2018-11-29T18:42:27Z,1,Hi Josh! Thanks for your awesomeness. Do you have a video on the nature of overfitting?,True
+@MrAndreaCaso,2018-11-27T07:07:29Z,1,"Why not a Patreon account, Josh?",True
+@nicolassantis5198,2018-11-25T04:58:20Z,1,"I was SO STUCK about lambda, thank you",True
+@dimonchotkiy,2018-11-19T09:30:05Z,2,"Hello! I thought ridge regression means that we just add lambda multiplied by slope2, but in your example the blue line has completely different parameters. Where did you get them?",True
+@fmetaller,2018-11-19T08:02:35Z,3,Great explanation as always. There is something it's not convincing me about this type of regression. The ridge regression assumes that the training data are always overestimating the slope. Isn't possible that the training data are underestimating the slope instead?,True
+@ineeking,2018-11-10T10:20:14Z,1,Songs...are addictive !!!,True
+@senzhuang9408,2018-11-05T01:23:05Z,1,"You are absolutely amazing and the videos are so insanely useful! If these videos were available 5 years ago, I would have skipped all my stat classes! : )",True
+@shona26,2018-11-04T02:17:00Z,2,"Hi Josh, Great videos :) I did not understand the part where you explain how we can do crossvalidation with a single datapoint.",True
+@akashdesarda5787,2018-11-02T02:57:10Z,6,Quadruple bam!!!! For your explanation,True
+@Tntpker,2018-10-29T17:02:15Z,4,"How would you do cross validation for the example @ 10:16 to determine lambda? For example, would you then take 10 random samples of 2 (out of 8) data points and try different lambda's (for example lambda 1-20) for each _individual_ sample? And then determine which value of lambda in all those 10 samples gives the lowest variance?",True
+@user-bt2lc5wh7h,2018-10-29T00:49:33Z,1,I like the cephalic flexure！,True
+@pradeepb.y4156,2018-10-27T15:45:28Z,1,Dude u r awesome :-),True
+@macilguiddir3680,2018-10-26T11:57:41Z,9,"Josh, even though I have just started Machine Learning and Data Science in my French Engineering ""Grande Ecole"", watching your videos just replaced most of the teachers I had met in my life. Great BAM my friend and thank you, just keep it up!  You got a rare gift",True
+@shangxiang7160,2018-10-23T04:17:25Z,3,"Hi, thank you for the nice video but I have one concern: You example works well when slope on training data(red data) bigger than the original data(green data), what if the slope is smaller than original one? Will Ridge regression make things even worse?",True
+@lilmoesk899,2018-10-23T01:46:53Z,2,amazing as usual.,True
+@chuanqichen4951,2018-10-21T03:46:32Z,1,"Hi, I have one question. How could fit a ridge regression on only one predictor?  Thanks!",True
+@DragomirJtac,2018-10-19T01:08:24Z,4,Incredibly clear explanation. I'm using your Machine Learning videos to study for my midterm for sure. It's so nice to know that these concepts aren't above my head after all.,True
+@abhilashsharma1992,2018-10-18T01:31:34Z,1,BAM!,True
+@cristinazhao8738,2018-10-15T22:17:29Z,1,I am confused about how you drew the ridge regression line at 6:06. Could you explain how you introduced a small amount of bias?,True
+@sonicking12,2018-10-12T22:19:10Z,1,Is this method good for interpretation?,True
+@herp_derpingson,2018-10-07T03:48:35Z,3,This reminds me of L2 regularization of weights in neural networks.,True
+@yousufali_28,2018-10-06T03:13:53Z,2,Thanks for this awesome explanation. This is the first time I really understood how ridge regression works.,True
+@ylazerson,2018-10-02T20:40:31Z,1,"Great video, thanks!",True
+@hemanthkumardev11,2018-09-29T04:13:31Z,1,"Very very helpful, waiting for the next part....",True
+@CWunderA,2018-09-27T22:04:27Z,2,"Looking forward to that next video, it doesn't seem very intuitive how ridge regression can still  find a decent fit when there are not enough examples.  I'm guessing this ends up being very sensitive to the value of lambda?",True
+@bigmacbeta,2018-09-26T11:54:34Z,2,Keep up the good work. When's Part 2 coming.,True
+@romellfudi,2018-09-26T04:49:49Z,1,Best tutorial ever!,True
+@kslm2687,2018-09-25T18:23:41Z,8,"Thank you for this video, it's so helpful! I can't believe, it's only 500 views. Please consider patreon account that people could thank for your work!",True
+@zeerot,2018-09-25T05:37:29Z,6,"Josh, you're a true hero with your explanations. Thanks a bunch!  I have one question though. In the video (in the graph at 19:20 for example) you show that a ridge regression would fit real world data better, as it shrinks the beta (the graph shows that in the real world this beta is also smaller, due to most green points (=real world data) being positioned below the red line (=training data)).  However, would ridge regression still be better if for example most of the green dots would be above the red line? Because with ridge regression we would shrink the beta, while the real world beta in reality has even a higher slope than the slope of the red line (thus in this case ridge would lead to increase in both variance and bias for real world data?)",True
+@yulinliu850,2018-09-25T02:52:30Z,2,Excellent as always! Thank you for sharing!,True
+@codewithsid2063,2018-09-25T02:07:33Z,2,Your videos are so underrated. Please have a patreon account so that community can help you bring these high quality videos.,True
+@mlnjsh1,2018-09-25T01:43:13Z,1,Brother!!! Josh!!! You are super human!!! Can you post a video on soft margin SVM clearly explained ..just can't wait,True
+@fabiof.deaquino4731,2018-09-25T01:25:56Z,1,"Definitely, Quest On 🖖",True
+@longkhuong8382,2018-09-25T00:08:05Z,3,Mega BAM!!!! Thank you I can't wait to learn the next lesson,True
+@chrisg0901,2018-09-24T23:45:27Z,1,Thanks for all your hard work,True
+@firminodefaria,2018-09-24T22:13:13Z,1,Terrific video! Could you explain Holt-winters method pls?,True
+@yungetong634,2018-09-24T21:05:24Z,1,Great! Thank you.,True
+@vinodpathak1991,2018-09-24T17:46:29Z,2,Informative. Can we have the geometric interpretation of ridge regression?,True
+@urjaswitayadav3188,2018-09-24T17:10:57Z,1,Thanks for the video!,True

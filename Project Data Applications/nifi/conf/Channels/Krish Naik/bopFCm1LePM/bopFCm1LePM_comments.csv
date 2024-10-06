@@ -1,0 +1,9 @@
+author,updated_at,like_count,text,public
+@vishalthakur4920,2022-10-10T08:27:23Z,0,This playlist is completed ?,True
+@sandipansarkar9211,2021-09-22T18:09:07Z,0,finished watching,True
+@nidhijakhad128,2021-05-01T08:50:43Z,1,Not good teacher at all,True
+@ajaygautam360,2020-09-13T15:17:52Z,2,"Sir, please complete this series of TABLEAU.",True
+@alipaloda9571,2020-04-12T22:58:36Z,0,Sir can you please make some more videos on how to apply calculated field with more examples of coding because we are getting issue on that,True
+@saravana4556,2020-04-03T23:56:06Z,0,Could you please tell how performant is Legion y540? And why did you choose it than Ideapad L340?,True
+@abhishekudgire8335,2020-04-03T14:45:04Z,0,This is a last video in tableau tutorial??,True
+@chiragagrawal7104,2020-04-01T13:18:39Z,2,"sir what is this error? i am not getting this from anywhere please explain,  SpecificationError: nested renamer is not supported Generated on grouping the columns with aggregation   aggregation_jtd={ 'Description' : {'Description' : lambda x: str(set(x)).strip('{}').replace(""'"","""")},                       'Item Category' : {'Item Category' : lambda x: str(set(x)).strip('{}').replace(""'"","""")},                        'Order Quantity' : {'Order Quantity' : 'sum'},                       'Net value' : {'Net value' : 'sum'} } jtd_grouped = jtd_data.groupby('DBM Order')['Description','Item Category','Order Quantity','Net value'].agg(aggregation_jtd).reset_index()",True

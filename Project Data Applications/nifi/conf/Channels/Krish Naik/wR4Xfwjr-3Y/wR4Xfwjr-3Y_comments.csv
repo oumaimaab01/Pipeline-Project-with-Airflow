@@ -1,0 +1,100 @@
+author,updated_at,like_count,text,public
+@goldsharon2296,2024-03-17T09:58:58Z,0,"3:56 , It will give error if 0 is converted to log.",True
+@prathambhardwaj6797,2024-02-18T14:44:33Z,0,Ab to bore hona start hogya ye video 😴,True
+@user-kn6wr1vj9p,2024-01-07T18:07:09Z,0,what about the variables that have negative values too?,True
+@avinashbhardwaz5717,2023-12-16T08:16:49Z,0,"Sir,  because log(0) is not defined.  One thing I am not getting that , why are keeping the code data=dataset.copy() inside for loop.  If loop runs every time why you need a copy of dataset.  You can have only one time and it should be before starting loop.   Thanks.",True
+@salihsartepe2614,2023-11-17T08:17:58Z,1,This is the best EDA series . Thanks Krish :),True
+@abdurahman1019,2023-04-03T05:45:24Z,1,I am a beginner at data science and python as well. Is it expected from me to be able to write all these code by myself or is the understanding enough for an interview?,True
+@user-ym2vs5bd1t,2023-03-27T13:18:55Z,0,log(0) not defined,True
+@mirroring_2035,2023-02-20T08:59:31Z,0,why is checking for outliers only done for continuous variables?,True
+@mirroring_2035,2023-02-20T08:43:21Z,0,Why is logerithmic transformation part of EDA not feature engineering?,True
+@ajaharuddinmohd9590,2022-09-20T19:52:39Z,8,We used 'If 0 in dataset[feature].unique()' to avoid log(0) condition. Because log(0) is not defined,True
+@RajveerAroraA,2022-09-06T17:41:30Z,0,Hey krish  You are such a great help man But I am facing an issue since the start of the video Every time I’m running a print(feature) code  I’m getting an error saying  Tuple is not callable,True
+@osho_magic,2022-08-23T08:50:14Z,0,log 0 not defined,True
+@preetisrivastava1624,2022-07-08T10:30:56Z,2,I think log normal transformation should only be applied if the variables doesn't form a gaussian distribution......pls correct if I am wrong,True
+@belacpp3940,2022-07-05T06:53:40Z,1,You can simplify this :->  len(dataset [feature].unique()) === dataset[feature].nunique(),True
+@sajeevyadav9,2022-06-20T09:43:18Z,0,"That was fun, enjoyed the video!",True
+@vipulritwik,2022-05-24T11:13:20Z,0,if we apply log to both the input features and output variables then the basic relationship between the two remains the same,True
+@varnikavasisth8385,2022-03-26T14:07:30Z,0,9:33 Why did you find outliers after log-transforming the feature?,True
+@sidnayak4395,2022-01-15T16:08:53Z,0,"if 0 in data[feature] ? why is 0 used ? A normal/gaussian distribution has (mean, standard deviation ) as 0 and 1  Let me know if this is correct..",True
+@shubham-pp4cw,2021-12-08T04:45:05Z,0,in if condition whenever zero arrives it pass bcuz log(0) is not defined due to which it kernel will give error.,True
+@anishag364,2021-11-26T02:20:33Z,0,1.Why box plot is not applied to discrete features? 2.Why should we apply log transformation for detecting outliers?Is it necessary ?,True
+@sharkk2979,2021-11-06T16:04:29Z,0,thanks !!!  100000 likes from me,True
+@SuperNayaab,2021-10-27T17:53:20Z,0,Do we need to do log(SalesPrice) for every iteration? Cant it be done once outside the loop?,True
+@Pawan-tc2ih,2021-10-22T14:02:14Z,0,Why didn't u find the outliers for discrete features?,True
+@sandipansarkar9211,2021-09-27T15:11:51Z,0,finished coding,True
+@sandipansarkar9211,2021-09-26T18:50:42Z,0,finished watching,True
+@manojrangera5955,2021-08-30T17:35:57Z,0,Sir i have 1 question if my target features  is not in Gaussian distribution but some kind of skewed like this house dataset.. So after transform target feature into log transform it became Gaussian so i have to used transform target in my ml model yaa without transform?... Please answer it.. I am bit of confused.. I saw somewhere there  target was transform me then used that target into ml model.. Please answer anyone who know about it.. 🙏🙏🙏,True
+@manojrangera5955,2021-08-30T17:31:59Z,0,He took log transform features in outlier because without log transformation features distribution was not in Gaussian  Form.. But after taking it . It converts features distribution kind of Gaussian .. So in model we will use transform feature instead  without transform features so.. Need to detect outliers in log transform feature.... Am I correct?..  I feel this is right... Correct me if I am wrong...,True
+@mikefda12,2021-08-28T21:24:38Z,0,question how do you get the bars to be colorful? mine are boring blue,True
+@karthebans248,2021-08-18T10:56:26Z,0,"log 0 is not defined, hence finding value for the o is not valid, hence we are skipping when the value is o.",True
+@sanjithraman1296,2021-08-07T22:28:30Z,0,Can someone tell me like What is the difference between continuous features and Discrete features ?,True
+@louerleseigneur4532,2021-07-16T05:25:57Z,0,Thanks Krish,True
+@KiranKumar-lq4td,2021-07-15T07:34:12Z,0,Why we r using log transformation? To handle the skewed data or for something else?,True
+@shyam.upadhyay,2021-06-25T06:46:27Z,0,Because log 0 will give your an error,True
+@72akshayvasala59,2021-05-30T07:28:29Z,0,log 0 is undefined therefore we cant to do the logarithmic transformation on that feature,True
+@sivakavin6090,2021-05-26T05:33:01Z,0,If any null value in column to skip  that particular value,True
+@sakshamchauhan7980,2021-05-15T15:44:23Z,0,"while plotting bar plots, why do you take Median as aggregation function? Why not mean??",True
+@uditnandy1766,2021-05-02T10:15:23Z,0,log(0) is undefined,True
+@vignesh7687,2021-03-30T12:57:47Z,1,Good one Krish. Thank you. We can also use nunique() function to calculate the number of unique values,True
+@prithvimd9091,2021-03-25T10:08:30Z,1,"With respect to ua question on 4.08, I think if your feature name is unique you apply the log function to make it normalized else you skip it as you've done the same for one previously. But this wont be necessary since we've filtered the features in the Part-1, I believe. Please  Correct me if I'm wrong.",True
+@darjivishva8865,2021-03-18T12:46:03Z,1,"In case our features are in large number then EDA seems tough, so can we do log transformation and outlier detection after feature selection?",True
+@TheGautamj,2021-01-10T00:51:03Z,0,"Hi Krish,  Your videos are of great help.  I am new to data science.   I wanted to understand as to why at 4:45 you have once again done logarithm transformation for sales price when it was already included  in continuous_variable?",True
+@swathyramesh9460,2020-12-25T17:41:35Z,0,"Well explained eda.,sir. I hav a qn to ask... Y was data. groupby used in categorical variable vs Saleprice relationship",True
+@pranshushrivastava4551,2020-12-21T14:22:27Z,0,"hi Krish,  data = dataset  also works. I tried to remove a column from 'data' & check back at 'dataset'. 'dataset' was unchanged. need not use the .copy() function  also id(data) != id(dataset)",True
+@dwaipayandutta5067,2020-11-11T18:12:29Z,2,"Great video sir. If I am not wrong, sir, you are trying to avoid 0 while doing log normal distribution because log(0) will give  infinite value",True
+@theoutlet9300,2020-10-22T12:45:45Z,0,"we can use nunique instead of len() and then using unique, just makes it a lil simpler",True
+@sushmitamitkar7952,2020-10-22T00:31:02Z,0,"If some columns in the dataset contain both positive and negative values, then how to log normalize such columns? As log normalization works only for positive values.",True
+@saeedhamad780,2020-09-26T17:10:11Z,0,boxplot @10:00 y_axis must be set to 'SalePrice' rather than feature. Ain't that right?,True
+@sandipansarkar9211,2020-09-20T18:59:37Z,0,Finished practicing on jupyter notebook. Feeling relaxed .Thanks,True
+@sandipansarkar9211,2020-09-17T20:38:10Z,1,Awesome video.Please don't miss practicing the code in Jupyter notebook.Thanks,True
+@sanjampatwalia9223,2020-09-03T01:43:20Z,0,why log trans was performed only on continuous feature and why discrete feature was missed out? Thanks for your help...,True
+@akashprabhakar6353,2020-08-25T15:23:24Z,0,Thank you very much Krish...Kindly show its deployment also,True
+@aishwaryashinde6491,2020-08-15T22:38:10Z,0,I am executing same commands but getting all blue color plots. Can anybody explain how to get colorful plots as shown in video???????????????,True
+@sukanyabag6134,2020-08-14T08:39:31Z,0,"Sir, the github ipynb files are not opening for this repository, can you please look into it?",True
+@hariprasanth7568,2020-07-25T06:57:13Z,0,log(0) is inf so we pass the statement in (if class),True
+@younessandi2414,2020-07-24T10:09:42Z,11,"Krish I appreciate your work here, great job! I have some questions regarding your EDA, I'd appreciate it if you reply 'em: 1. why did you take the log before detecting outliers? it's a practice I've never seen before. 2.why didn't you apply Isolation Forest instead of the box plot, there are at least 2 upsides to it vs box plots, it will find outliers based on the relationship of multi-variables and by opting the right parameter it possible to get the index of outliers which is not possible in box plots. 3.why not using the correlation matrix at least for continuous variables (I said it because somehow we can transform categorical variables to numerical by implementing kind of label encoding) since it is kind of high dimensional dataset, and in real projects, it's really time-consuming to explore scatter plots one-by-one.",True
+@davs2002,2020-07-11T13:16:07Z,1,Why haven't we checked for OUTLIERS in discreet numerical variables,True
+@us12345,2020-06-20T17:55:24Z,0,Superb video for beginners,True
+@moises.vfgarcia,2020-06-18T21:52:15Z,0,Does boxplot works with discrete data as well??,True
+@dipk.mishra,2020-06-07T08:47:58Z,0,"while normalising the continuous features , can u explain why this is not working , sns.distplot(data[feature],data['SalePrice'])",True
+@aadityajaiswal2225,2020-06-06T15:10:26Z,0,cause log 0 is undefined,True
+@edwinjerry4648,2020-06-04T19:24:04Z,0,"Thanks krish. After seeing this video, I got to know what is exactly EDA and why we do it.",True
+@sandeepshekhar1492,2020-06-01T15:14:38Z,0,Since Log 0 is undefined and we would be getting a plot for the numerical features which don't have a value 0.,True
+@rishavpaudel7591,2020-05-21T04:56:04Z,0,"Could you please explain this point----> ""Why normal distribution is needed in machine learning and what can it do to our model? Referred some articles but couldn't get exact answer. What happens in my prediction or model performance if i dont have normal distribution??  IMPORTANT QUESTION OUT THERE. WAITING FOR RESPONSE",True
+@adityamorankar9930,2020-05-17T11:03:53Z,0,Log0 is not defined,True
+@itzmekallam7277,2020-04-21T11:14:40Z,3,"At 5:01 you're over-scaling the sales price, when you kept in a loop it scales multiple times, and it's already present in features, so no need to mention it manually again",True
+@manojnahak7776,2020-04-15T11:24:53Z,0,how to get different color bars using Google Colab?,True
+@ameysawant2301,2020-04-15T04:29:19Z,16,"One of the best, most clear and detailed EDA tutorials I have ever seen. Good job Krish !!!!",True
+@owaisfarooqui6485,2020-04-08T21:35:44Z,1,"AT :  5:00   data[feature] = np.log(data[feature]) <<<< this includes  >>>>""SalePrice""<<<          data[""SalePrice""] = np.log(data[""SalePrice""])  <<<<<<<< why did you do this , because if you are executing the first line it also includes  >>>>""SalePrice ""<<< feature, then why did you do log transformation again on >>>>""SalePrice""<<<<            plt.scatter(data[feature],data[""SalePrice""])         plt.xlabel(feature)         plt.ylabel(""SalesPrice"")         plt.title(feature)         plt.show()   thanks in advance ...... for eveything",True
+@robinkhandelwal3402,2020-04-06T06:16:51Z,0,"How to convert the MSzoing , Alley and other categorical features in numbers, this part is clear in this video kindly help me out.",True
+@mansoorbaig9232,2020-04-02T08:30:10Z,1,Awesome explanation. You make things so simple and easy to follow. Waiting eagerly for the remaining parts till the deployment.,True
+@vikasbhadoria6535,2020-03-31T09:00:07Z,0,"Hello Krish, I had a doubt, if we are taking log of every feature in continuous_feature then SalesPrices is also included in that, correct? So is it necessary to take a log of ""SalePrice"" separately?",True
+@sagark4754,2020-02-26T10:46:08Z,1,"Hello sir, While plotting the bar plots, I am not getting different color bars & getting only single color bars. Can you please tell how to get different color bars. ex. line 75",True
+@SanthoshFabre,2020-02-15T15:28:31Z,0,"Krish will you be posting next up from Model selection, evaluation and till deployment?",True
+@josechavezuriarte9224,2020-02-08T13:43:28Z,2,"Great video Krish. just an observation, Instead of using a for loop in 14:11 we could just use the nunique() method to achieve the same result. Anyway that just a detail, thanks for sharing your knowledge!",True
+@kishlayamourya3141,2020-02-06T12:53:39Z,2,BEST EDA tutorial ever,True
+@bharathjc4700,2020-02-06T10:17:03Z,3,"Hi sri, how do we handle multi co-linearity  for linear and non linear algorithms",True
+@soumyaranjansethi1790,2020-02-05T18:40:16Z,0,"Sir , don't get the home work why we use the, if o in data[feature]. unique ()   function  any one can help me to understand it!?",True
+@omkarpatil2854,2020-02-05T11:09:15Z,2,because log(0) is undefined,True
+@RahulGupta-kd1cn,2020-02-04T09:44:30Z,0,"copy the dataset inside the loop, it is not a good idea, it will iterate the same process again.",True
+@ranjan4495,2020-02-04T04:43:12Z,2,"Sir,   In In[60] In[75], the bars are colourful of the above jupyter solution page, how can you get such. Kindly help me to do such.",True
+@HassanAbbas-jl6ym,2020-02-03T17:20:24Z,0,please sir guide  us make tutorials on deploy django,True
+@HassanAbbas-jl6ym,2020-02-03T17:20:02Z,0,many students wants to learn how to deploy ML model to django,True
+@HassanAbbas-jl6ym,2020-02-03T17:19:47Z,0,sir please deploy it to django,True
+@HassanAbbas-jl6ym,2020-02-03T17:19:38Z,1,sir please isko django pe deploy krna sikhao,True
+@rajeevteejwal,2020-02-03T10:56:00Z,1,Can I use np.log1p() replacement of if-else condition statement?,True
+@unsharma9229,2020-02-02T07:35:12Z,0,Please upload part 3plz,True
+@rohitjaiswal6102,2020-02-02T06:32:43Z,0,Please please upload the next video... Thanks a lot...,True
+@amankhaira2249,2020-02-02T04:29:22Z,5,log 0 is infinite hence we need this iteration,True
+@MrJaga121,2020-02-01T22:52:39Z,67,Log 0 is undefined. So before applying logarithm function excluding 0.,True
+@anketlale3945,2020-02-01T17:07:27Z,2,Thank you soooo much for this video..this is so useful for the person Like me who want to learn data science in proper way...,True
+@arvindkumar-ug1zf,2020-02-01T13:34:53Z,0,Sir Great !,True
+@KVishya,2020-02-01T11:06:51Z,1,"Log of 0 is not defined, that is the reason for checking if 0 is one of the unique values in the for loop.",True
+@hanman5195,2020-02-01T09:54:37Z,0,"Hi Sir, This is the good video. Thanks for sharing. I have requirement where i have categories variables like 25 to 100 unique categories ? what is the best approach to solve them. If you want to give explain over a phone please call me on 9010652782.",True
+@unsharma9229,2020-02-01T09:41:45Z,0,eagerly waiting for next part,True
+@iftekarpatel123,2020-02-01T08:46:18Z,0,@ 3.33  log 0 is undefined so u wrote tht statement,True
+@gurditsinghchandok1641,2020-02-01T06:48:19Z,0,"for testing the assumptions of normality , creating histograms or finding kurtosis value is sufficient or we have to perform shapiro wilk test?",True
+@habiburrehman7482,2020-02-01T04:22:37Z,1,Hi Krish. I Love your content. Thanks a lot for all the previous lessons you taught. I have a request. Can you also do a video on Chicago Crime dataset; Predicting crimes.,True
+@smitsG,2020-02-01T03:42:49Z,1,In logarithmic transformation we are copying data inside for loop  Why we r copying entire data during iterating over each feature ??,True
+@simanchalpatnaik2566,2020-02-01T03:00:26Z,2,Hii Krish...What & all Statistics concepts required to work on a EDA..?,True

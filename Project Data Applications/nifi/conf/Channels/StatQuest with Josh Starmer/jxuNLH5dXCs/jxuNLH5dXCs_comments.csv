@@ -1,0 +1,220 @@
+author,updated_at,like_count,text,public
+@statquest,2020-03-29T11:20:51Z,25,"NOTE: Gradient Boost traditionally uses Regression Trees. If you don't already know about Regression Trees, check out the 'Quest: https://youtu.be/g9c66TUylZ4 Also NOTE: In Statistics, Machine Learning and almost all programming languages, the default base for the log function, log(), is log base 'e' and that is what I use here.  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@vikramm4967,2024-05-05T18:13:54Z,0,"While calculating the initial residuals in the first tree, we use Actual target and log odds (0.7). But while building the second tree, we are using the Targets and probabilities to calculate residuals. Which one is right?",True
+@mayankamble2588,2024-04-02T05:27:52Z,1,This is amazing. This is the nth time I have come back to this video!,True
+@FelipeArayaable,2024-03-26T13:32:01Z,1,"Hello Josh! I think that there might be a mistake in methodology at min 5:11 compared to what you showed in part 4 of the series for computing the residual. In this video, the first set of residuals you computed it as (Observed - log(odds) = residuals) and in part 4 you calculate it as (Observed - probability = residuals), so in this scenario where we have Observed as 1, log(odds) as 0.7,  and p as 0.66, shouldn't the residuals be (1 - 0.66 = 0.33) instead of (1 - 0.7 - 0.3)?  Love your videos and I am a huge fan!",True
+@rickymort135,2024-03-24T20:29:32Z,1,The initial model is right.  Troll 2 is awesome and those two people who didn't like arr just incorrect.  Theres no need for more models.  Just label as outliers and defective people.,True
+@user-ut3sy6hy4p,2024-03-06T20:01:37Z,1,"thanks alot , ur videos helped me too much, plz keep going",True
+@TrucTran-tl4br,2024-03-02T15:42:00Z,0,i'm sorry but log(4/2) equals 0.3 :(((( in the video you said it 0.7,True
+@user-sq2zw4un3q,2024-02-24T23:31:37Z,0,"Best video ever, quick question on building the next tree. Once we have the new residuals, how do we decide the new node for the next tree? Is it still the same as calculating Gini but on the residuals ?",True
+@mudassirahmedi5617,2024-02-21T18:40:46Z,0,What is the relation between the predicted probabilities calculated from the first tree and the  corrected split points considered for the new tree?,True
+@bathalapallishrisarrang2928,2024-02-20T15:07:10Z,0,who else was sweating while taking notes,True
+@maorwin1,2024-01-23T16:24:58Z,0,"Hey, there is something I didn't think you covered in the gradient boost series and it's how are the trees are picked?",True
+@user-ll8dr9bm5v,2023-12-20T21:07:21Z,0,@statquest you mentioned at 10:45 that we build a lot of trees. Are you trying to refer to bagging or having different tree at each iteration?,True
+@hermes5442,2023-12-13T19:54:53Z,0,wow is that the mega bam at the end? I'm lucky to see,True
+@HamidNourashraf,2023-11-18T14:33:42Z,1,the best video for GBT,True
+@shridharvaidya-fv6bz,2023-10-13T04:23:58Z,0,What will be residuals in a classification problem when there are more than 2 classes?,True
+@edwinokwaro9944,2023-09-26T16:27:19Z,0,good job but log (4/2) is not 0.7??,True
+@ankailiu3365,2023-09-20T14:18:08Z,0,"Just curious at 3:00 why we dont just count the probability instead we use log odd and obtain probability from it. This two probabilities are essentially the same thing arn't them? I guess they are the same and the reason being we want to perform gradient boost tree on log odd instead of directly on probability since it might cause over shot and obtain something not in [0,1].",True
+@TechBoy1,2023-09-14T06:33:53Z,1,The legendary MEGA BAM!!,True
+@willw4096,2023-09-01T08:03:05Z,0,1:13 1:29 2:45 5:11 5:36 6:10 6:42 7:04 9:05 10:42 12:00 13:27 14:28 15:08 15:53,True
+@xinjietang953,2023-08-23T19:45:01Z,2,Thanks for all you've done. You know your videos is first-class and precision-promised learning source for me.,True
+@kalyankumar6879,2023-08-16T12:04:46Z,0,"on what basis the decision trees are built in gbm, like in random forest , the split with highest information gain is choosen,",True
+@anshvashisht8519,2023-07-25T07:15:10Z,1,really liked this intro,True
+@aneesarom,2023-07-21T09:04:23Z,0,will log of odds be same for all the trees?,True
+@CrazyProgrammer16,2023-07-19T18:19:43Z,0,But how do they build those trees? do they use gini or something?,True
+@sergiochavezlazo5362,2023-07-12T17:11:44Z,0,Lovely video! But how does it work for cases when we have more than two categories to classify,True
+@abissiniaedu6011,2023-05-23T14:32:45Z,1,"Your are very helpful, thank you!",True
+@DharmendraKumar-DS,2023-05-07T17:41:50Z,0,"Hello Josh, I have a confusion. For getting residuals, are you subtracting log(odds) from the 1/0 output or the probability. If you are subtracting probability, then why converting the transformed values again using probability formula for making predictions?",True
+@balancinggargoyle,2023-04-26T11:56:41Z,1,"If you think Josh's data is legit, think again. https://www.youtube.com/watch?v=CkNB0w1fYKk",True
+@ShuaiWang12,2023-04-26T02:04:47Z,1,11:53 should be 1-0.9 = 0.1,True
+@sampathkodi6052,2023-04-15T17:14:26Z,0,Why the trees are changing at each step and how to find them just by using desicions trees concept if so why it is changing  at every step?,True
+@siddharth4251,2023-04-14T08:01:48Z,1,subscribed sir....nice efforts sir,True
+@Martin-so8gb,2023-03-22T21:27:24Z,0,"Hey Josh, When these trees are being built using the variables, how are you determining how to build them? Are you using gini impurity to choose each split as in the decision tree videos? Same question goes for regression trees in gradient boosting vids. Thanks in advance brother!",True
+@CodingoKim,2023-02-17T12:40:40Z,2,"my life has been changed for 3 times. First, when I met Jesus. Second, when I found out my true live. Third, it's you Josh",True
+@timothygorden7689,2022-12-30T15:32:12Z,1,absolute gold,True
+@siddheshdeore8752,2022-12-28T11:57:23Z,0,Cant we just substitute Probability for Log(odds) .. 4/6 & 2/6 is easier than log(odds) i.e log(4/2),True
+@vinayakgaikar154,2022-12-25T08:37:55Z,1,nice explanation and easy to understand thanks bro,True
+@rahulthaker694,2022-12-04T23:51:30Z,0,what is there are more than 2 outcomes categories then how is the outcome calculated,True
+@yasserothman4023,2022-11-10T08:51:41Z,0,@5:43 the tree was built by color then age nodes but at @12:02 the tree was built by the age only   How did you determine that ?  Where is the name gradient here coming from ?,True
+@shrinivas1086,2022-10-18T10:56:11Z,0,"Hi Josh.... ""-0.7""...... is it '0' class or '1' class?",True
+@jackqiu501,2022-10-14T03:39:56Z,0,"Hi Josh, I'm a little bit confused about choosing the optimal split feature and threshold for each regression tree in the Gradient Boost Classification setting. For standard regression tree, we use mean value as output, and choose the feature results in smallest MSE. However in GBDT, the y variable(residuals) is in probability form. The output for each region is in log-odd form, instead of a simple average. Should we still choose the split variable and threshold for each tree by minimizing (residual-output)^2? I think the output and residual are not comparable in this case.   Thank you for the great video!",True
+@muhammadlabib3744,2022-10-08T10:03:48Z,0,"Hi, i'm litte bit confused. When classify new person on minutes 14.33,  how to choose node leaf? example first tree you choose color=red -> age>37 -> 0.3, 0.3, 0.3. how to choose that right? why not choose another leaf node? Thanks",True
+@user-be1hp3xo1b,2022-09-25T07:06:32Z,1,Great video! Thank you!,True
+@bryanparis7779,2022-09-23T08:59:19Z,0,"6:42 The transformation formula has as numerator ""something came from log(odds)"" , while denominator has probabilities.  The output for this fraction is something in terms of log(odds). I don't get the point of why ... Maybe because we have lets say: log(prob)/prob=log( )???",True
+@designcredible8247,2022-09-12T05:02:45Z,0,"Hi Josh, can you please explain how multi class gradient boost will work? Are trees created for all the classes as yes / no predictors? Like predicting the probability that the new point belongs to each class (example cranberry, strawberry, blueberry) ?Like in Naive Bayes we go with the class having highest probability.",True
+@mohammadelghandour1614,2022-08-22T00:35:40Z,0,why  is log(odds) used instead of probability in classification based problems using Gradient Boost algorithm?,True
+@juliocardenas4485,2022-08-11T21:26:27Z,1,Yet again. Thank you for making concepts understandable and applicable,True
+@beshosamir8978,2022-08-09T13:40:26Z,0,are we build a classification tree just like how we build a regression tree ? i mean are we always look for the minimum residual in every node in the tree?,True
+@bryanparis7779,2022-08-07T20:51:00Z,0,"What is the measure we use in splitting leaves in order to construct a new tree? Gini index? Information Gain?  For instance in XGBoost we have similarity score.",True
+@Mars7822,2022-07-19T07:52:12Z,1,"Super Cool to understand and study, Keep Up master..........",True
+@aritratalapatra8452,2022-07-17T21:43:07Z,0,Question: At step 1 we calculated log of odds then covert it to probability using sigmoid. Then computed residuals I.e difference in probabilities. At step 2 we are constructing trees to predict residuals which are already in terms of probability values since they are differences between probabilities. Then why the tree (in this case the first tree) would predict in terms of log of odds ? And then again we have to convert those predicted log of odds into probabilities. Did not understand the part,True
+@juanete69,2022-07-15T00:55:39Z,0,Hello. Why don't you use directly the probabilities instead of the log(odds)?,True
+@jt007rai,2022-06-22T04:09:17Z,0,"thanks for this video! qq - @7:45 : How did the output of the tree have negative values in their leaf? Even we use it as a classifier, shouldn't the value be in terms of ratio of positives to negatives?",True
+@jayyang7716,2022-06-21T03:00:27Z,1,Thanks so much for the amazing videos as always! One question: why the loss function for Gradient Boost classification uses residual instead of cross entropy? Thanks!,True
+@gabrielpadilha8638,2022-06-14T11:57:13Z,1,Mega bammm!,True
+@Adi-hr1yz,2022-06-08T10:59:06Z,0,How if i have 4 class?,True
+@surajadhikari7766,2022-06-03T08:02:39Z,0,log(4/2) = 0.7 ?,True
+@jongcheulkim7284,2022-05-20T10:21:26Z,1,Thank you so much.,True
+@keylazy,2022-05-19T10:00:13Z,0,"Thanks for the great video. I wonder if the output of each leaf is probability instead of log(odds), would that simply the math a little?",True
+@stephentan9523,2022-05-18T14:20:35Z,1,That's a rare mega bam!!! I can die peacefully now.,True
+@anupamadeo2455,2022-05-15T06:50:24Z,0,"Hi again, I have a small question. When decision tree is built at 5.25 in classification model using residuals, is it built as decision tree regression as there are no classes",True
+@koderr100,2022-05-14T09:32:38Z,1,"thanks for videos. best of anything else I did see. Will use this 'pe-pe-po-pi-po"" as message alarm on phone)",True
+@wupaul9374,2022-03-31T05:45:37Z,0,Does anyone know How Gradient Boost do multi-class (>2) classification?,True
+@DrAhmadMohaddespour,2022-03-28T16:30:25Z,0,"Thanks Josh for your comprehensive lectures. But here you don't explain when a tree is made, how do we know this tree is the best one explaining the variance? in XGBoost as you said, we calculate the GAIN but here there is no criteria mentioned.",True
+@JoaoVictor-sw9go,2022-03-24T02:39:43Z,2,"Hi Josh, great video as always! Can you explain to me or recommend a material to understand the GB algorithm when we are using it for a non-binary classification? E.g. we have three or more possible outputs for classification.",True
+@rafibasha4145,2022-03-22T02:27:18Z,0,"4:04,Hi Josh are we substracting actual value and probability value or actual value and log odds …",True
+@lemauhieu3037,2022-03-19T10:35:17Z,2,I'm new to ML and these contents are gold. Thank you so much for the effort!,True
+@amitv.bansal178,2022-02-27T12:24:54Z,1,Absolutely wonderful. You are are my guru and a true salute to you,True
+@siddhantjain452,2022-02-27T11:33:07Z,0,"Dislike for intro, Like for content",True
+@nicholas_as,2022-01-27T16:30:30Z,0,15:42 What class should be classified  if the probability is exactly 0.5 since 0.5 is equal to the threshold ?,True
+@sandipansarkar9211,2022-01-17T12:57:49Z,1,finished watching,True
+@aweqweqe1,2022-01-16T12:53:31Z,1,"Respect and many thanks from Russia, Moscow",True
+@ShahidKhan-eq1gx,2022-01-13T10:21:47Z,1,How does it calculate the log of the odds for a multi-class problem?,True
+@isurumahakumara,2021-12-11T09:00:55Z,1,"""check out the quest"" 👌😉",True
+@ayahmamdouh8445,2021-12-02T12:41:07Z,1,"Hi Josh, great video. Thank you so much for your great effort.",True
+@SergioPolimante,2021-11-30T00:05:36Z,1,"man, you videos are just super good, really.",True
+@siddharthvm8262,2021-11-29T21:47:52Z,1,Bloody awesome 🔥,True
+@mahadmohamed2748,2021-11-28T14:08:03Z,0,"Hi Josh, great video. Quick question: How would this work with multi-label classification?",True
+@dionalief3890,2021-11-26T07:57:45Z,0,i look it up at calculator for log(4/2) its different from what is shown in the video why is that??,True
+@nayrnauy249,2021-11-24T14:11:55Z,1,Josh my hero!!!,True
+@muvvalabhaskar3948,2021-11-23T15:04:00Z,0,5:27 how did you build your tree what if the question contain color blue you took path only for red,True
+@vijaykumarlokhande1607,2021-11-22T09:01:05Z,0,"I salute your hardwork, and mine too",True
+@ditian518,2021-11-15T11:34:08Z,0,"Dear Josh, I am a data science student and I am writing a paper regarding using LightGBM as a way for credit risk modeling. I am wondering if I could use your example in the video in my paper to explain the gradient boosting algorithm? I will reference the example in my paper. Thank you very much!",True
+@marjaw6913,2021-11-13T13:33:51Z,1,"Thank you so much for this series, I understand everything thanks to you!",True
+@teelee3543,2021-10-30T05:51:07Z,1,"First, great thanks to your video series. May I ask a question ? How to build a tree based on residuals?",True
+@huesOfEverything,2021-10-05T18:58:48Z,0,"Hi Josh. thank you so much for the amazing videos. I have a question for part 9:41 when you are taking first data point(age 12) and using the right leaf (age>37), why are you taking the right node rather than the left node?",True
+@rohitverma1057,2021-09-29T11:53:40Z,0,"Hey josh great videos!! But I want to ask a doubt around 6:40. To add the leaf and tree's prediction, we are converting tree's prediction through that formula to convert it into log(odds) format, the same type as of leaf and continue to do the same process for each subsequent trees, Right.   My question is why not we convert the initial single leaf's output to probability format for once and spare all the predictions of further trees from that conversion formula ?",True
+@cmfrtblynmb02,2021-09-07T15:33:35Z,2,How do you create the classification trees using residual probabilities? Do you stop using some kind of purity index during the optimization in that case? Or do you use regression methods?,True
+@Valis67,2021-08-23T21:19:44Z,2,That's an excellent lesson and a unique sense of humor.  Thank you a lot for the effort in producing these videos!,True
+@rungrawin1994,2021-08-03T17:32:08Z,2,"Listening to your song makes me thinking of Phoebe Buffay haha. Love it, anyway !",True
+@cmfrtblynmb02,2021-08-02T13:26:19Z,1,Finally a video that shows the process of gradent boosting. Thanks a lot.,True
+@KalyanGk0,2021-07-12T04:27:24Z,1,This guy literally coming to my dreams 😂,True
+@lakshman587,2021-06-05T13:54:17Z,4,16:25 My first *Mega Bam!!!*,True
+@61_shivangbhardwaj46,2021-06-04T14:53:53Z,1,You r amazing sir! 😊 Great content,True
+@iraklisalia9102,2021-05-28T18:57:00Z,0,Why do we take such a complicated way to predict the initial probability(taking log of odds and then transforming it back to probabilities) while we can calculate the same probability by simply calculating: Probability(Yes) = Number Samples of (Yes) / (Number of Samples(Yes) + Number of Samples(No)  I tried some values for Number of samples of Yes and Number of sample of No and calculated with both approaches and I seem to get the same number each time.  P.S. I haven't watched the video to the end so if you explain it in the end then you can disregard the comment,True
+@rishabhkumar-qs3jb,2021-05-18T06:31:39Z,1,"Fantastic video , I was confused about the gradient boosting, after watching all parts of gb technique from this channel, I understood it very well :)",True
+@gengatharans7241,2021-05-12T15:04:29Z,0,log(4/2) is 0.3010 but ur answer is 0.7 how 0.7 came?,True
+@tudormanoleasa9439,2021-05-02T11:32:59Z,0,"Instead of e ^ (log(odds)) / (1 + e ^ (log(odds)) ), can I just use 1 / (1 + e ^ log(odds)) ?",True
+@parthsarthijoshi6301,2021-04-26T08:14:27Z,1,THIS IS A BAMTABULOUS VIDEO !!!!!!,True
+@debsicus,2021-04-23T17:22:28Z,51,This content shouldn’t be free Josh. So amazing Thank You 👏🏽,True
+@haitaowu5888,2021-04-22T06:02:56Z,0,"Hi, I have a few questions: 1. How do we know when GBDT algorithms stops( except the M, number of trees) 2. how do I choose value for the M, how do I know this is optimal ?  Nice work by the way, best explanation I found on the internet.",True
+@mnaufalfsahab6153,2021-04-11T05:34:14Z,0,Log (4/2) supposed to be 0.3 (?),True
+@zhengcao6529,2021-03-30T20:59:45Z,0,I wasted my life in school.,True
+@aeronramos6233,2021-03-23T15:35:59Z,0,I think the example should have an age of greater than 37?.  The age for the sample is 25.,True
+@kadrimufti4295,2021-03-23T09:40:24Z,1,"For computing the initial probability of ""loving Trolls 2"", why did you find the odds then use the logistic function? Wouldn't it have been easier to say it's just 4/6?",True
+@karannchew2534,2021-03-20T14:41:46Z,0,"Notes for my future reference.  For each sample,  Odd = number of True / total no. of sample x = log(odd) Prob predicted = e^x/(1+e^x) Residual R = Observed Prob - Predicated Prob  Build a decision tree for the  Residual R values.  For each sample, pass it through the new decision tree. Each new decision tree leave contains Residual R values (the decisions) of data samples that led to the leaf.  For each leaf, transform the R value. R value transformed = ∑ R / ∑ (P x (1 - P) ) = Output Value  For each sample, calculate new predicted probability. But got to first get the log(odd) value. x = New log(odd) = log(old odd) + rate*Transformed Residual aka Output Value in relevant tree leaf. New Predicted Prob = e^x/(1+e^x) Newer Residual R = Actual Prob - New Predicted Prob  Build a new decision tree for the Newer Residual. Get residual, output value, log odd, predicted probabilities and another set of new residual value.    Repeat. Until certain number of tree, or the residual can't contribute more.",True
+@tymothylim6550,2021-03-16T14:24:26Z,2,"Thank you Josh for another exciting video! It was very helpful, especially with the step-by-step explanations!",True
+@mariaceciliamatoscorrea1332,2021-03-11T22:28:14Z,0,how does it work when we want to make a classification with more than 2 classes?,True
+@soujanyapm9595,2021-03-09T02:17:55Z,1,Amazing illustration of  a complicated concept. This is best explanation. Thank you so much for all your efforts in making us understand the concepts very well !!!  Mega BAM !!,True
+@junbinlin6764,2021-03-06T03:30:16Z,0,Do we use 'gini' or entropy to split trees for gradient boost classification??,True
+@vans4lyf2013,2021-03-04T11:27:45Z,7,I wish I could give you the money that I pay in tuition to my university. It's ridiculous that people who are paid so much can't make the topic clear and comprehensible like you do. Maybe you should do teaching lessons for these people. Also you should have millions of subscribers!,True
+@shashiramreddy9896,2021-02-09T07:28:05Z,0,"@StatQuest Thanks for the great content you provide. It's a great explanation of binary-class classification, but how will all this explanation apply to multi-class classification?",True
+@weiyang2116,2021-01-24T04:28:41Z,154,I cannot imagine the amount of time and effort used to create these videos. Thanks!,True
+@thej1091,2021-01-14T22:13:31Z,0,Why are we predicting log(odds)???? why not just predict the probability???? I dont' get it why there is so much back and forth between log odds and prolty.,True
+@deepakmehta1813,2021-01-03T11:22:53Z,0,"Fantastic song, Josh. I have started picturing that I am attending a class and the professor/lecturer walks by in the room with the guitar, and the greeting would be the song. This could be the new norm following stat quest. One question regarding gradient boost that I have is why it restricts the size of the tree based on the number of leaves. What would happen if that restriction is ignored? Thanks, Josh. Once again, superb video on this topic.",True
+@rohitbansal3032,2020-12-16T18:50:56Z,1,You are awesome !!,True
+@nehamanpreet1044,2020-12-10T18:42:11Z,0,"So here we are using log odds but what if there are more than two levels in our dependent variable (0,1 and 2) ??",True
+@az8134,2020-11-24T17:58:21Z,1,2:58 the rounding is really causing confusion. Are you putting the log(odds) or probability into the node?,True
+@anusrivastava5373,2020-11-24T15:40:00Z,1,Simply Awesome!!!!!!,True
+@asdf-dh8ft,2020-11-15T17:11:22Z,2,Thank you very much! Your step by step explanation is very helpful. It gives to people with poor abstract thinking like me chance to understand all math of these algorithms.,True
+@amanbagrecha,2020-11-03T12:26:11Z,0,Need to learn how to run powerpoint presentation lol. Amazing stuff,True
+@shubhambarhate6997,2020-10-25T18:55:54Z,0,"Hi Joshua, I am trying to understanding in what context might GBDTs use Gradient Descent? In case of learning to rank, lets say a pairwise formulation. We would have a binary logistic loss function but build decision trees for classification. So, how do we optimise this loss function using gradient descent? What parameters of the decision tree get updated?  This maybe a longshot, but I would be really happy if you get a chance to make a video and explain it in detail",True
+@narasimhakamath7429,2020-10-25T17:06:28Z,4,"I wish I had a teacher like Josh! Josh, you are the best! BAAAM!",True
+@prodmanaiml9317,2020-10-22T07:21:23Z,0,How d you choose conditions in the leafs?,True
+@Just-Tom,2020-10-21T11:39:36Z,3,I was wrong! All your songs are great!!!       Quadruple BAM!,True
+@dankmemer9563,2020-10-10T00:25:03Z,2,Thanks for the video! I’ve been going on a statquest marathon for my job and your videos have been really helpful. Also “they’re eating her...and then they’re going eat me!....OH MY GODDDDDDDDDDDDDDD!!!!!!”,True
+@primozpogacar4521,2020-09-22T19:43:18Z,21,Love these videos! You deserve a Nobel prize for simplifying machine learning explanations!,True
+@fvviz409,2020-08-09T12:00:29Z,0,"Hello Josh, So i have a little question. How would we make the first leaf if we have more than 2 labels, Because you said to calculate the first leaf we need to do log(odds) but log(odds) can only be done for classification with 2 labels, What would we do if we had more than 2. Do we  use One-vs-All classification like we do in Logistic regression or what?",True
+@hamzael2200,2020-08-08T00:33:54Z,0,HEY ! THANKS FOR THIS AWESOME VIDEO. I HAVE A QUESTION : IN THE 12:00 MIN HOW DID YOU BUILD THIS NEW TREE? WHAT WAS THE CRITERIA FOR CHOOSING AGE LESS THAN 66 AS THE ROOT ?,True
+@sidagarwal43,2020-08-07T16:49:33Z,1,Amazing and Simple as always. Thank You,True
+@HarpreetKaur-qq8rx,2020-08-02T21:12:03Z,0,"Hi Josh,  Does the Gradient Boost use GINI Impurity too select the best node to split on or is it split on a random node or does it make use of some other criterion to split the data",True
+@ebizmit866,2020-07-26T21:50:44Z,0,Will you also release the study guides for Gradient boosting and XGboost?,True
+@shikha_and_vikas,2020-07-23T15:16:48Z,0,Why do we first take log(odds) and convert it into probability for initial value and not probability directly?,True
+@maloriekasparian6020,2020-07-22T19:42:39Z,0,your graph at 5:00 just doesn't make sense...why would you put the same parameters on both the x and y axis?,True
+@suryan5934,2020-07-19T16:22:17Z,4,Now I want to watch Troll 2,True
+@romajain2425,2020-06-30T05:58:12Z,0,"When we tune GBM for hyperparameter, should we use min_samples_leaf and min_samples_split, keeping in mind that we want weak learners?",True
+@dhruvjain4774,2020-06-28T16:17:15Z,10,you really explain complicated things in very easy and catchy way. i like the way you BAM,True
+@SwarnikaRastogi2112,2020-06-11T14:45:52Z,0,Is this a generative or a discriminative approach?,True
+@sndrstpnv8419,2020-06-07T17:01:28Z,0,about probability calculation at 2:39 . Why not calculate probability directly by 4/(2+4) = 4/6 ~=0.7???? in short you do not need this long trick with complicated math?,True
+@enkhbaatarpurevbat3116,2020-05-12T01:00:55Z,1,love it,True
+@rvstats_ES,2020-05-01T22:12:54Z,1,Congrats!! Nice video!   Ultra bam!!,True
+@uwt_sorting_visualization9911,2020-05-01T13:38:37Z,0,"If we are predicting on residual values, how do we decide what feature gives the best split at every level for a given tree? In the previous videos on classification with known output categories like Yes/No, we used weighted Gini impurities. Not clear on how that translates to residual values in this case",True
+@ElderScrolls7,2020-04-29T20:45:06Z,1,Another great lecture by Josh Starmer.,True
+@MasterofPlay7,2020-04-28T04:22:36Z,0,So this is more complicated that random forest?,True
+@UFOgamers,2020-04-26T14:11:25Z,1,log as ln ?,True
+@a_sun5941,2020-04-25T08:22:58Z,0,"potentially, do you want to use a different example, so that log odds does not equal to the prob accidentally (0.7 in the video), like 5 positive out of 6 examples?",True
+@muzamilshah8028,2020-04-23T03:43:28Z,0,very good explanation.what if we have more the 2 classes?,True
+@kunlunl6723,2020-04-15T06:12:59Z,0,"Hi Jose, appreciated for all the great works. I have a question about the differences between XGBoost and GBDT. So for XGBoost, the method to rank the features to split is similarity score for both regression and classification, right? What about GBDT？ Does GBDT rank features based on Gini for classification and sum of squared error for regression? Thanks",True
+@patrickyoung5257,2020-04-14T10:30:55Z,5,You save me from the abstractness of machine learning.,True
+@abhilashsharma1992,2020-04-10T02:24:56Z,5,Best original song ever in the start!,True
+@abyss-kb8qy,2020-04-09T03:04:25Z,2,God bless you ， thanks you so so so much.,True
+@pradeeptripathi1378,2020-04-08T18:18:47Z,0,"Gradient Boosting creates strong model by combining multiple weak models. Weak models are the decision tree with one node, but in First Tree you are using two nodes ""Color(colo=red)"" and ""age(age>37)"". Please explain",True
+@vikashtripathi5071,2020-04-08T06:30:51Z,0,"at 4:19 How Probability of Loving Troll 2 = 0 for Red Dots and Probability of Loving Troll 2 = 1 for Blue Dots. Logistic regression model calculate the probability of default Class for each input. Here default class is Yes, so Probability for 1st row (first input) should be P(Loves Troll 2= Yes/likes popcorn= Yes, Color= Blue, Age=12) and Probability for 3rd row (Third input) should be P(Loves Troll 2= Yes/likes popcorn= No, Color= Blue, Age=44) etc. Please explain how actual/observed  probability is 1 for Yes class and 0 for No class? It could be between 0 and 1 also?",True
+@statquest,2020-03-29T11:20:51Z,25,"NOTE: Gradient Boost traditionally uses Regression Trees. If you don't already know about Regression Trees, check out the 'Quest: https://youtu.be/g9c66TUylZ4 Also NOTE: In Statistics, Machine Learning and almost all programming languages, the default base for the log function, log(), is log base 'e' and that is what I use here.  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@kshitijpemmaraju4177,2020-03-29T10:46:23Z,0,"can you please explain, on what basis, did you build tree root node,color=red?",True
+@sid9426,2020-03-21T19:17:17Z,1,"Hey Josh, I really enjoy your teaching. Please make some videos on XG Boost as well.",True
+@josherickson5446,2020-03-13T16:10:02Z,0,"Hey Josh, just trying to clarify how the root node in gradient boosting machine (gbm) is decided (i'm sure different packages/model types differ) compared to random forest? From what I understand is rf uses a random 'mtry' of predictors to choose the root node and then uses gini or entropy to pick the variable and then splits using this method, etc, etc. But how does gradient boosting machines do this? Is it like a regular decision tree where all predictors are available and some statistic is used to choose the best one ? Thanks as always for your awesome videos and have a good one!",True
+@rosamendrofa8173,2020-03-11T02:07:49Z,0,why do you only use 2 features?  why the popcorn likes feature isn't included in the tree?,True
+@user-qu7sh1kb1e,2020-03-10T13:54:43Z,1,very detailed and convincing,True
+@fatimahabib1431,2020-03-06T13:40:33Z,0,Thank you for your explanation. I do not understand  how we make the trees for example in the first tree we choose the color red and the  age to separate the residuals why we choose them what is the rule for that ?,True
+@Konzor,2020-03-06T08:43:45Z,0,How did u come up with the tree in minute 7:00 (Color=Red and Age >37)? Was this an arbitrary choice?,True
+@jfjdkdj,2020-03-01T17:42:31Z,0,"for multiclass, use softmax?",True
+@dvdmrn,2020-02-24T02:54:42Z,1,"Why when plugging into the logistic function around 2:42 is 1+e^log(4/2) in the denominator and not 1+ e^-log(4/2)? (Given the sigmoid is 1/[1+e^-x]). When I try plugging in e^(log(4/2))/[1+e^log(4/2)] I get 0.574, and when I use e^(log(4/2))/[1+e^-log(4/2)]  I get something closer (0.776). What base is the log in? (I tried base 2 and base e but got diff results still)",True
+@raghavgaur8901,2020-02-23T06:55:14Z,0,"Hello Josh, actually I have a question that in case of the first tree you used 0.7 as previous prediction but what would you use as previous prediction for second tree for each leaf",True
+@chinedunwasolu4913,2020-02-20T15:28:20Z,1,mega bam,True
+@umeshjoshi5059,2020-02-16T01:12:02Z,2,Love these videos. Starting to understand the concepts. Thank you Josh.,True
+@EvanZamir,2020-02-13T23:18:41Z,0,Why would you calculate logodds only to convert that to a probability when you could just calculate the probability (MLE) in the original step (eg 4/6)?,True
+@OgreKev,2020-02-05T22:57:57Z,52,"I'm enjoying the thorough and simplified explanations as well as the embellishments, but I've had to set the speed to 125% or 150% so my ADD brain can follow along.   Same enjoyment, but higher bpm (bams per minute)",True
+@igormishurov1876,2020-02-05T16:25:43Z,7,"Will recommend the channel for everyone study the machine learning :) Thanks a lot, Josh!",True
+@anujsaboo7081,2020-01-18T18:10:17Z,0,Great learning. Does the same logic apply to Classification with Ada Boost?,True
+@pradeeptripathi7366,2020-01-17T09:17:42Z,0,"at 4:19, How Probability of Loving Troll 2 = 0 for Red Dots and Probability of Loving Troll 2 = 1 for Blue Dots. Probability = Favorable Outcome/Total Outcome, so for Blue Dots it should be 4/6 and for Red Dots it should be 2/6. How Probability is 1 for Blue Dots and 0 for Red Dots? Please explain",True
+@sajjadabdulmalik4265,2020-01-16T20:37:39Z,0,Hi Josh thanks alot for your clearly explained videos. I had a question @12.17 when you make the second tree spliting the tree twice with Age only the node and the decision node both are Age. If this is correct will not be a continuous variable create kind of biasness? My second question when we classify the the new person @ 14.40 the initial log(odds) still remains 0.7?  Assuming this is nothing but your test set however what happens in the real world scenario were we have more records does the log odds changes as per the new data we want to predict meaning the log of odds for train and test set depends on their own averages (the log of odds)?,True
+@sajjadabdulmalik4265,2020-01-16T10:47:28Z,0,Hi Josh thanks alot for your clearly explained videos. I had a question @12.17 when you make the second tree spliting the tree twice with Age only the node and the decision node both are Age. If this is correct will not be a continuous variable create kind of biasness? My second question when we classify the the new person @ 14.40 the initial log(odds) still remains 0.7?  Assuming this is nothing but your test set however what happens in the real world scenario were we have more records does the log odds changes as per the new data we want to predict meaning the log of odds for train and test set depends on their own averages (the log of odds)?,True
+@Anuarlogon12,2020-01-12T05:55:34Z,0,How do you identify trees?,True
+@jagunaiesec,2019-12-17T17:50:47Z,34,The best explanation I've seen so far. BAM! Catchy style as well ;),True
+@taimoor722,2019-12-06T15:27:54Z,0,out of topic but which software you use ??? for this video making ??,True
+@user-th4tb3mf5s,2019-12-02T18:08:35Z,3,Gradient Boost: BAM Gradient Boost: Double BAM Gradient Boost: Triple BAM Gradient Boost: Quadruple BAM Great Gradient Boost franchise),True
+@user-tk6bz6lw4e,2019-11-30T10:12:23Z,1,Thank you for good videos!,True
+@AmokBR,2019-11-28T19:37:54Z,1,Why have as initial guess the log(odds) = log(4/2) instead of just the probability 4/6?,True
+@adityagautam1664,2019-11-28T16:50:31Z,0,The test input also takes log(odds) as initial prob because that was computed using training data?,True
+@siyizheng8560,2019-11-25T02:11:13Z,2,All your videos are super amazing!!!!,True
+@joeroc4622,2019-11-19T12:57:00Z,1,Thank you very much for sharing! :),True
+@vijayendrasdm,2019-11-03T18:08:28Z,0,HI Josh  Great video. I have a  question.  In the classification example for adaboost the  misclassified  data points were sampled with higher probability in the next iteration of adaboost.  This was very clear in adaboost.  Where  and how exactly the misclassified points are assigned higher weightage in GBM so that they can be sampled with higher probability in next iteration of GBM ?,True
+@yjj.7673,2019-09-28T23:32:42Z,1,This is great!!!,True
+@pmanojkumar5260,2019-09-25T12:43:28Z,1,Great ..,True
+@rerunepisode,2019-09-05T13:37:00Z,2,the residuals on the last 3 observations at 12:03 are calculated wrong. otherwise great video,True
+@jwc7663,2019-08-20T13:52:28Z,0,Thanks for the great video! One question: Why do you use 1-sigmoid instead of sigmoid itself?,True
+@pranaykothari9870,2019-07-04T13:59:41Z,2,"Can GB for classification be used for multiple classes? If yes, how will the math be, the video explains for binary classes.",True
+@abdelhadi6022,2019-06-17T22:31:12Z,1,"Thank you, awesome video",True
+@mengdayu6203,2019-06-16T08:04:16Z,17,How does the multi-classification algorithm work in this case?  Using one vs rest method?,True
+@ulrichwake1656,2019-06-12T02:26:02Z,3,"Thank you so much. Great videos again and again.   One question, what is the difference between xgboost and gradient boost?",True
+@IQstrategy,2019-06-10T17:45:40Z,1,Great videos again! XGBoost next? As this is supposed to solve both variance (RF) & bias (Boost) problems.,True
+@VijayBhaskarSingh,2019-05-29T12:52:33Z,0,"I think there is a mistake, in the way the tree classified to predict after 14:41. As Age = 25 and the explanation takes to right, which shouldn't have been. Typically, ""Yes"" follows to the direction of the Arrow and a ""No"" to the left.  However, its contrary to the assumptions. Correct me if I am wrong. Great Explanation.",True
+@sebastianlinaresrosas3278,2019-05-23T17:27:43Z,2,"How do you create each tree? In your decision tree video you use them for classification, but here they are used to predict the residuals (something like regression trees)",True
+@user-gr1qk3gu4j,2019-05-05T14:58:48Z,1,"Very simple and practical  lesson. I did created a worked sample based on this with no problems. It might be obvious, but not explained there, that initial mean odd should be more than 1. It might be explained as odd of more rare event should be closer to zero. Glad to see this video arrived just at the time I started to interest this topic.  I guess it will become a ""bestseller""",True
+@sandralydiametsaha9261,2019-04-21T20:33:31Z,1,thank you very much for your videos ! when will you post the next one ?,True
+@stepanru4516,2019-04-21T19:01:44Z,0,"Man, its uneasy to navigate in your shop, cant order anything :(",True
+@dhruvarora6927,2019-04-18T00:51:17Z,0,Thank you for sharing this Josh. I have a quick question - the subsequent trees which are predicting residuals are regression trees (not classification tree) as we are predicting continuous values (residual probabilities)?,True
+@jrgomez7340,2019-04-17T12:44:32Z,0,Very helpful explanation. Can you also add a video on how to do this in R? Thanks,True
+@123chith,2019-04-15T15:46:33Z,16,Thank you so much can you please make a video for Support Vector Machines,True
+@rrrprogram8667,2019-04-15T01:01:23Z,0,Waiting for part 4,True
+@GauravSharma-ui4yd,2019-04-14T06:56:58Z,1,Plz make a video on svm and Gaussian mixture model,True
+@rodrigomaldonado5280,2019-04-13T21:46:01Z,4,Hi Statquest would you please make a video about naive bayes? Please it would be really helpful,True
+@AmelZulji,2019-04-12T18:45:12Z,1,"First of all thank you for such a great explanations. Great job!  It would be great if you could make a video about the Seurat package, which very powerful tool for single cell RNA analysis.",True
+@CC-um5mh,2019-04-11T21:33:02Z,1,This is absolutely a great video. Will you cover why we can use residual/(p*(1-p)) as the log of odds in your next video? Very excited for the part 4!!,True
+@arijit07,2019-04-11T18:05:22Z,2,thanks for this video but I request you to make next videos on CATBOOST,True
+@MrRajs37,2019-04-11T12:08:29Z,1,BAM !!!,True
+@kevindeng3576,2019-04-10T21:31:29Z,0,Do we have a video on neural network? It seems to me we just throw a bunch of functions and get an output. What is the idea of it? Why does it work at all?,True
+@nathanbenichou9144,2019-04-10T20:28:04Z,0,How does this algorithm works if there is more than 2 class ?,True
+@gonzaloferreirovolpi1237,2019-04-10T07:50:12Z,1,Already waiting for Part 4...thanks as always Josh!,True
+@wenhuizeng5625,2019-04-10T00:35:15Z,0,"Also, xgboosting will be good",True
+@user-ki7hc6pu5u,2019-04-09T07:45:32Z,0,"Josh, I have a problem with this initial prediction as being log(odds) thing, say if we get 100 samples initially, and 99 of them are positive and 1 is negative, then we get log(odds) = log(99/1) = 4.6, which is more than 1. My question is if the odds of positive and negative samples are more than ""e"", how can we translate this ""more than 1 number"" to a probability? Thanks!",True
+@TheAbhiporwal,2019-04-09T06:58:41Z,2,"Superb video without a doubt!!!  one query Josh, do you have any plans to cover a video on ""LightGBM"" in near future?",True
+@wenhuizeng5625,2019-04-09T04:34:56Z,0,Could you post videos about SVM?,True
+@yulinliu850,2019-04-09T00:49:40Z,1,Excellent as always! Thanks Josh!,True
+@tumul1474,2019-04-08T21:04:43Z,2,amazing as always !!,True
+@junaidbutt3000,2019-04-08T17:40:44Z,1,Another superb video Josh. The example was very clear and I’m beginning to see the parallels between the regression and classification case.   One key distinction seems to be in calculating the output value of the terminal nodes for the trees.   In the regression case the average was taken of the values in the terminal nodes (although this can be changed based on the loss function selected). In the classification case it seems that a different method is used to calculate the output values at the terminal nodes but it seems a function of the loss function (presumably a loss function which takes into account a Bernoulli process?).  Secondly we also have to be careful in converting the output of the tree ensemble to a probability score. The output is a log odds score and we have to convert it to a probability before we can calculate residuals and generate predictions.   Is my understanding more or less correct here? Or have I missed something important? Thanks again!,True
+@jacobmoore8734,2019-04-08T16:35:12Z,1,"Josh, you are a wizard! Curious - will Gibbs sampling, MCMC, and/or expectation maximization on your radar? Handling data from mixed gaussians is proving to be complicated stuff :/  http://www.cs.cmu.edu/~tom/10-702/GibbsAndMCMCsampling.pdf",True
+@rrrprogram8667,2019-04-08T15:37:49Z,2,So finallyyyy the MEGAAAA BAMMMMM is included.... Awesomeee,True
+@rrrprogram8667,2019-04-08T14:26:13Z,2,I have beeeeennnn waiting for this video..... Awesome job Joshh,True

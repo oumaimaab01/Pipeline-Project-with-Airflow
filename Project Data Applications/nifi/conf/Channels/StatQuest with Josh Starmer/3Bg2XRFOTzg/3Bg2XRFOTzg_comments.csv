@@ -1,0 +1,35 @@
+author,updated_at,like_count,text,public
+@statquest,2023-03-06T12:54:25Z,2,NOTE: At 7:23 I should have said that the cosine similarity was 0.71.  To learn more about Lightning: https://lightning.ai/ Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/,True
+@aakashdusane,2024-04-27T10:01:08Z,4,Not gonna lie catBoost nuances were significantly more difficult to understand than any other ensemble model till date. Although the basic intuition is pretty straightforward.,True
+@aryanshrajsaxena6961,2024-04-12T10:05:38Z,0,Will we use k-fold target encoding for the case of more than 2 bins?,True
+@sanukurien2752,2024-03-23T05:04:04Z,0,what happens during inference time when the target is not available? How are the categorical variables encoded then?,True
+@danieleboch3224,2024-03-12T16:52:47Z,0,"i have a question about leaf outputs. don't gradient boosting algorithms on trees build a new tree all the way down and after that assign some values to their leafs? you rather did it iteratively, calculating outputs when the tree wasn't built yet.",True
+@nitinsiwach1989,2024-01-22T23:11:53Z,0,"Hello Josh, Thank you for your amazing channel In the catboost package, why do we have both 'depth' and 'max_leaves' as parameters? One would think that since the trees here are oblivious, the two are deterministically related. Can you shed some light on this?",True
+@nitinsiwach1989,2024-01-12T09:06:59Z,0,"What do bins have to do with the ordered encoding computation as you mentioned at  11:26? In the video, you have mentioned one use-case for the bins which is to reduce the number of thresholds tested like other gradient boosting methods.",True
+@nilaymandal2408,2024-01-11T06:35:07Z,1,5:28,True
+@Mark_mochi,2023-12-12T09:07:24Z,1,"In 8:25, why does the threshold change to 0.87 all of a sudden?",True
+@rishabhsoni,2023-11-17T19:19:17Z,1,Great video. One question: Is the intuition behind using high cosine similarity to pick threshold that essentially we are adding the scaled leaf output to create predictions and if leaf outputs are more closer to residuals then we are moving in right direction as residuals represent how far away are we from actual target?  Usually we minimize the residuals which kind of means that you find similarity with target,True
+@user-fi2vi9lo2c,2023-10-14T07:43:41Z,0,"Dear Josh, I have a question about using Catboost for Classification. In this video, which tells us about using Catboost for Regression, we calculated output values for a leaf as an average of residuals in a leaf. How do we calculate output value for Classification? Do we use the same formula as for Gradient Boosting? I mean, (Sum of residuals) in the numerator and Sum of (Previous probability(i)*(1-Previous probability(i)) in denominator.",True
+@user-zq4cv6yn8u,2023-10-13T18:20:44Z,1,"Thank you for your content! It's very nice, everything is clear, I hope you want stop producing your content :)",True
+@user-hv2lq3yt4w,2023-10-12T14:15:42Z,0,"TKS a lot~ i'm looking for an answer! For the new data whose ""Favorite Color"" is blue, why does it belong to bin#0 instead of bin#1 ?",True
+@LL-hj8yh,2023-10-04T20:10:25Z,2,"Hey Josh, thanks as always! Are you planning to roll out lightgbm videos as well?",True
+@TheDankGoat,2023-09-28T16:30:33Z,0,"obnoxious, arrogant, has mistakes, but useful....",True
+@alphatyad8131,2023-09-26T13:12:45Z,0,"Excuse me again Dr. Starmer. Do you know how CatBoost determines the final tree (I mean from many trees of gradient boosting that CatBoost builds) till that becomes a rule so it can predict new data?  Cause I haven't found a source that tells an explicit explanation of how CatBoost made the decision trees till it can be used to predict. Thanks in advance, Dr.    (Or for anyone who knows, I would appreciate your help)",True
+@alexpowell-perry2233,2023-09-21T08:28:08Z,0,How does catboost decide on the best split at level 2 in the tree if it has to be symmetric? What if the best threshold for the LHS node is different to the best threshold for the RHS node?,True
+@alexpowell-perry2233,2023-09-20T17:04:20Z,0,"at 11:48 when you are calculating the output values of the second tree, the residual for the 3rd record with a favourite Colour value of 0.525 and a Residual of 1.81 gets sent down the LHS leaf, even though the LHS leaf contains Residuals that are <0.29. Shouldn't this residual get sent down the RHS leaf?",True
+@serdargundogdu7899,2023-08-21T11:23:15Z,0,"I wish, you could replay this part again :)",True
+@serdargundogdu7899,2023-08-20T19:47:55Z,0,"how was ""favorite color  < 29"" changed into ""favorite color < 0.87"" in 8:28 ? Could you please explain?",True
+@recklesspanda8669,2023-07-12T06:20:31Z,0,is it still work like that if i use classification?,True
+@frischidn3869,2023-06-23T18:11:07Z,0,What will the residuals and leaf output be when it is a multiclass classification?,True
+@YUWANG-du4pv,2023-06-09T02:55:57Z,0,"Dr. Starmer, could you explain lightGBM🤩",True
+@alphatyad8131,2023-05-21T12:03:00Z,0,"Dr. Starmer, I try to manually calculate and use a calculator too for several times but it was different from the results in 7:23. I get 0.7368, but there is 0.79. Am I missing something? Does anyone get the same result as me?",True
+@Monkey_uho,2023-04-18T15:09:49Z,1,"Awesome work ! I've been watching a lot of your videos to understand the basics ML algorithms, continue like that ! Thank you for taking the time and the energy to spread knowledge with others. Also, I would like to say that, like others, I will also love a video explaining the concepts behind LighGBM.",True
+@reynardryanda245,2023-04-13T22:07:24Z,0,"12:41 how did you get the optionCount for prediction? I thought that it’s the amount of time that color for that bin appears sequentially. But if it’s for prediction, we don’t know the actual bin right?",True
+@user-lu5ds2qp2f,2023-04-12T10:51:40Z,1,Big Fan !! 🙌,True
+@TrusePkay,2023-04-05T23:13:37Z,0,Do a video on LightGBM,True
+@near_.,2023-03-15T00:40:00Z,1,Awesome. I'm your new subscriber 🙂,True
+@razielamadorrios7284,2023-03-07T17:23:48Z,4,"Such a great video Josh! I really enjoyed it. Any chance to do an explanation for lightGBM? thanks in advance. Additionally,  I'm a huge fan of your work :)",True
+@Quami111,2023-03-07T15:15:20Z,9,"In 2:09 and 12:40, you assigned row with height=1.32 to bin=1, but you said that rows with smaller heights would have bin=0. It doesn't appear in 11:24, row with height=1.32 has bin=0, so I guess it is a mistake.",True
+@sahilpalsaniya724,2023-03-07T10:31:42Z,3,"""BAM"" and its variants are stuck in my head. every time I solve a problem my head plays your voice",True
+@yufuzhang1187,2023-03-07T01:35:14Z,2,"Dr. Starmer, when you have a chance, can you please make videos on LIghtGBM, which is quite popular these days? Also, can you do ChatGPT or GPT or Transformer, clearly explained! Thank you so much!",True
+@TheDataScienceChannel,2023-03-06T15:07:18Z,4,As always a great video. Was wondering if you intend to add a code tutorial as well?,True

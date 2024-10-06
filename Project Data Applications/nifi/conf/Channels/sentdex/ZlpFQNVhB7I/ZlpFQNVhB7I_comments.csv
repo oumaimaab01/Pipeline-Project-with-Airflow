@@ -1,0 +1,19 @@
+author,updated_at,like_count,text,public
+@SisHattie,2022-10-07T20:16:21Z,0,"Can this video be updated to a more recent version.  ""positional arguments to plot_wireframe() are deprecated since 3.4 "". Thanks.",True
+@talkingbirb2808,2021-09-16T17:06:45Z,1,use plot instead of plot_wireframe and everything will be ok,True
+@neuron8186,2021-05-03T14:47:28Z,0,old but gold,True
+@himanskss3749,2020-08-11T12:02:29Z,0,"Code isn't working new version is like this.  fig = plt.figure() ax = fig.add_subplot(111, projection='3d')  X, Y, Z = [ int(ss[0][0]), int(ss[1][0]) ] , [ int(ss[0][1]), int(ss[1][1]) ], [ int(ss[0][2]), int(ss[1][2]) ] ax.plot(X,Y,Z, 'blue')  i have list named ss.",True
+@tinmisic6950,2020-08-09T14:45:07Z,0,"Thanks, this worked for me.",True
+@suchitagaikwad755,2020-05-25T05:02:20Z,0,How can plot string data an this 3d graph? Because I. Getting error while ploting string data on this 3d graph,True
+@minkim8358,2019-06-02T23:09:23Z,0,"hi, im not sure whether if i could change each points in 3d chart.",True
+@nostrajara,2019-01-28T14:52:54Z,5,"Traceback (most recent call last):   File ""C:/Users/ABC/App Demo/Plot 3D/matplotlib plot 3D.py"", line 16, in <module>     ax.plot_wireframe(X, Y, X)   File ""C:\Users\ABC\App Demo\Plot 3D\venv\lib\site-packages\mpl_toolkits\mplot3d\axes3d.py"", line 1806, in plot_wireframe     if Z.ndim != 2: AttributeError: 'list' object has no attribute 'ndim' how to fix this error?",True
+@sultanislam12,2019-01-14T07:37:56Z,1,I find this error: AttributeError: 'function' object has no attribute 'add_subplot'  I check matplotlib folder and subplot is there. why does it show traceback @Sentdex?,True
+@rpgatiss2892,2018-09-08T20:23:13Z,0,If i do this in pycharm will it work,True
+@DistortedV12,2018-07-17T16:11:46Z,1,"Sentdex, the code doesn't work right now",True
+@frankelindddd,2018-06-11T04:43:28Z,30,I tried this but it showed: AttributeError: 'list' object has no attribute 'ndim',True
+@rendianwar0664,2018-04-14T08:00:22Z,0,"Traceback (most recent call last):   File ""C:\Users\A 455L\Desktop\Python\ujicoba.py"", line 10, in <module>     chart.plot_wireframe(X,Y,Z)   File ""C:\Python36\lib\site-packages\mpl_toolkits\mplot3d\axes3d.py"", line 1848, in plot_wireframe     if Z.ndim != 2: AttributeError: 'list' object has no attribute 'ndim'  can you solve it? please...",True
+@kindle8808,2017-09-26T18:31:21Z,2,How do i make python 2.7 from anaconda to display the figure box instead of displaying it in the IPython terminal?,True
+@andyturner753,2017-03-03T18:41:11Z,0,I'm trying to plot the orbits of 2 gravitating objects using matplotlib.pyplot; how would I go about plotting two 3D lines using this method?,True
+@fosheimdet,2016-10-20T20:40:52Z,2,How do you specify the color of the graph?,True
+@szekspirr,2015-04-10T11:11:52Z,0,"Hi, Is there possibility to share those 3D charts in browser window using for example django web framework? But keep them responsive, not as .png? Thanks.",True
+@maicondns,2014-03-31T22:50:14Z,0,"Hi, please, could you explain how to do that in Visual Basic .net? Thanks!",True

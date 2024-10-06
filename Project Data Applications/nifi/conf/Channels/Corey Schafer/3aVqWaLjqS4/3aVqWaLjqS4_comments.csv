@@ -1,0 +1,407 @@
+author,updated_at,like_count,text,public
+@superoya9747,2024-05-02T07:01:06Z,3,"For those who are doing this on newer django versions and are having a problem with logout: since the logoutview has been depreciated in the newer versions it won't work. Instead I created a view in user views (you will need to add [from django.contrib.auth import logout] to the file as well)  def user_logout(request):     logout(request)     return render(request, 'users/logout.html', {})  and then changed the path in urls.py to path('logout/', user_views.user_logout, name='logout'),  Worked for me",True
+@nishantketu2040,2024-04-22T14:05:36Z,2,If you are having logout issue read this https://stackoverflow.com/questions/77690729/django-built-in-logout-view-method-not-allowed-get-users-logout  please like if found useful,True
+@sumankumardangi654,2024-04-22T08:54:23Z,0,"Method Not Allowed (GET): /logout/ Method Not Allowed: /logout/  ""GET /logout/ HTTP/1.1"" 405 0   I am getting this error while logging out Can You suggest me this solution in Django 5   @Corey Schafer",True
+@ferdousrehan3727,2024-04-15T22:01:49Z,0,Hi! i was following this and making this. Amazing content! But i am having issue with logging out the way you showed. The get method not allowed. So i did research and tried adding the Form with Post method. But still not working. I mean it logs out the admin. but not the user and doesnt redirect to logout.html. Can anybody help please? @Corey,True
+@ccandour,2024-04-08T19:34:55Z,4,"If you're using Django 5 or higher you will encounter the problem with accessing the 'logout' page directly from the browser like Corey does. This is because the logout endpoint can be accessed now only using a 'POST' method, and accessing it via a URL is using the 'GET' method. One of the ways you can resolve this issue is to add this short code snippet instead of the standard link element in the navbar:  <form action=""{% url 'logout' %}"" method=""post"">     {% csrf_token %}     <button type=""submit"" class=""btn btn-outline-light"">Logout</button> </form>  Doesn't look perfect but it works :) Hope this helps!",True
+@user-wl6tj6hm3g,2024-04-06T20:37:31Z,1,I love it how you taught any topic in such a easy way In my project on opening logout page it was showing 405 error and page breakdown. I have tried various thing but it was not helping so help me in this.,True
+@PippyPappyPatterson,2024-03-24T05:05:51Z,1,"Anyone else unable to get the logout page working in 2024? No error displayed or printed from the `runserver` command, just a blank page with nothing on it.",True
+@vegadevelopers,2024-03-21T16:11:15Z,2,Thank you so much with details explanations and teaching. 👌👌👌 Quality Tutorial!,True
+@hiphopdog8445,2024-03-20T20:16:21Z,0,"hi i am using your method but when i click logout getting  ""This page isn’t working If the problem continues, contact the site owner.""  HTTP ERROR 405",True
+@xanderkaufman5162,2024-03-17T21:07:20Z,2,I love these videos however Django 5 has redone their log out and it took me 2 hours to figure it out..,True
+@sambhavchourasia6404,2024-03-14T02:52:01Z,0,"when I go to the logout link i get ""This page is not working contact the site owner error 405"" please help me with this",True
+@SaudMukhair,2024-03-10T07:46:29Z,3,anyone here getting error 405 at @15.18 after /logout ? if so can anyone pls help me here?,True
+@olaniyiajayi8012,2024-03-08T04:04:25Z,0,Welcome,True
+@sayalikarnewar6845,2024-03-07T06:15:15Z,3,"The LogoutView functionality is not working for latest release.  Replace the: <a href=""{% url 'logout' %}"">Logout</a> (in the .html file) with:  <form action=""{% url 'logout' %}"" method=""post"">                   {% csrf_token %}                   <button type=""submit""Logout</button> </form>",True
+@aaravharithas,2024-03-03T15:02:14Z,0,really liked all video but for new viewer this logout is not working in 2024 it requires post method which will work when passing the logout link as button enclosed in form with post method.,True
+@user-ji7yl1wq6r,2024-03-03T07:27:42Z,0,"while trying logout im getting, This page isn’t workingIf the problem continues, contact the site owner. HTTP ERROR 405 error. someone please help me.",True
+@shafiulsabbir7245,2024-02-29T21:34:22Z,6,"here instead of using  <a class=""nav-item nav-link"" href=""{% url 'logout' %}"">Logout</a> in the base.html of blog app, i have used  <form method=""post"" action=""{% url 'logout' %}"" class=""nav-item"">                     {% csrf_token %}                     <button type=""submit"" class=""nav-link btn btn-link"">Logout</button>                 </form> without replacing this, i have been encountered by an error ""This page isn’t working right nowIf the problem continues, contact the site owner. HTTP ERROR 405"".  here is my ful if else part of this base.html   <div class=""navbar-nav"">                 {% if user.is_authenticated %}                   <form method=""post"" action=""{% url 'logout' %}"" class=""nav-item"">                     {% csrf_token %}                     <button type=""submit"" class=""nav-link btn btn-link"">Logout</button>                  </form>               {% else %}                   <a class=""nav-item nav-link"" href=""{% url 'login' %}"">Login</a>                   <a class=""nav-item nav-link"" href=""{% url 'register' %}"">Register</a>              {% endif %}  </div>",True
+@AhmetCanE99,2024-02-29T15:31:26Z,2,"If you are having a problem with logout thing since it is deprecated do these,  First insert this line of code to your views . py in your users folder       def logoutView(request):     logout(request)     return render(request, ""users/logout.html"")  Then add this line of code to your base .html folder right after that register button code       <li>         <a class=""nav-link"" href=""{% url 'logout' %}"">Logout</a>                         </li>  You'll be fine now, use that logout button to log out.",True
+@sanskarprasad2714,2024-02-25T09:39:04Z,0,What to do as auth_views.LogoutView.as_view()  Is depricated in latest django release,True
+@abdelrahmannabil4984,2024-02-18T17:39:25Z,0,"I did exactly how you did but when i try to access the ligout page gives me ""this page isn't working right now http error 405""",True
+@abdelmoumen.eddaoudy,2024-02-18T16:17:21Z,4,"If you get an Error HTTP 405,  you need to do this through a POST request, it worked with a GET request was (likely) a violation of the HTTP protocol:                          <form method=""POST"" action=""{% url 'users-logout' %}"">                             {% csrf_token %}                             <button type=""submit"" class=""nav-item nav-link"">logout</button>                         </form>",True
+@user-hz5iu9tn2z,2024-02-14T10:25:45Z,1,I am getting an error for the logout view. [http error 405]. How can I fix that?,True
+@thevoiddancer,2024-02-12T12:34:06Z,7,"For people who have problems with the logout page, Method Not Allowed (GET). The issue is that Django 5 deprecated GET for logout, and needs to use POST. I worked out a workaround with leaving the code as intact as possible.  in blog/templates/blog/base.html instead using <a href> for logout link, paste the following: <form method=""post"" action=""{% url 'logout' %}"">     {% csrf_token %}     <button class=""btn btn-link nav-item nav-link"" type=""submit"">Logout</button> </form>  This replaces the link with a POST form (thus fitting in Django 5 logic), and uses bootstrap class to shape button as a link (btn-link) and then shape them as the rest of the nav.  Corey, can you add this or the solution by @olaniyiajayi8012 to the video description (or pin either) so people avoid the error?",True
+@YouTubelesss,2024-02-03T15:02:43Z,0,Being an introvert my mind was shouting to tell him the mistake at 1:16,True
+@headhunterz135,2024-02-03T13:03:38Z,0,Hi  Does anyone have problems with Logout?  It shows me a error 405?,True
+@MrTimax-lw9vl,2024-02-01T11:39:22Z,1,For logout trouble: in users/views  from django.contrib.auth import logout def logout_view(request): logout(request) return redirect('blog-home') change path in urls to user_views.logout_view,True
+@AdityaSharma-ks9rb,2024-01-30T00:00:56Z,1,The logout method shows here doesn't work in the latest Django version and throws an error related to GET. How do we make the logout page now?,True
+@haack79,2024-01-27T02:47:10Z,1,"when i go to /logout it gives me a 405 error, not sure what i'm doing wrong.",True
+@amine63404,2024-01-24T17:27:55Z,0,"Peace, if you have issues settling up the logout route, do the following :  To the base.html template add a POST form as a logout link :  <form method=""post"" action=""{% url 'logout' %}"">                 {% csrf_token %}                 <button class=""nav-item nav-link"" type=""submit"">Log out</button> </form>  PS: Show this link only if the user is authenticated.",True
+@olaniyiajayi8012,2024-01-20T14:58:11Z,27,"If you have error 405 page on logout page it may be due to latest django version this is what I did to get round it. In users views folder i put this code  from django.contrib.auth import logout def logout_view(request):     logout(request)     return render(request, 'users/logout.html')  then in main project urls I put this in urr parttern list  path(""logout/"", user_views.logout_view, name=""logout""),  You can comment out the former url path of logout",True
+@ahmedreza3374,2024-01-19T17:45:23Z,0,Getting error 405 while using logout.  How to fix this!?,True
+@kirtipriya1063,2024-01-17T20:28:20Z,0,"hi everyone, i can't figure out why my localhost/logout is not working but localhost/admin/logout is working. send help",True
+@luqmanjinadu2471,2024-01-16T15:57:20Z,0,Thank you for your wonderful tutorial. My logout/ doesn't work and it just returns a blank page. anyone with a  trick? thank you in advance,True
+@alizolfaghari3951,2024-01-16T11:55:57Z,0,19:30 logout doesn't work as described here by using a simple link! I needed to have a form with csrf_token tag. after that worked fine!,True
+@montyjames2535,2024-01-15T17:05:59Z,3,"For all watching this and getting the ""Method not allowed error (GET): /logout/"". The GET method for logout was considered as ""unsafe"" and has to be replaced by a POST method. Replace: <a class=""nav-item nav-link"" href=""{% url 'logout' %}"">Logout</a> With: <form method=""POST"" action=""{% url 'logout' %}"">       {% csrf_token %}       <a href=""#"" class=""nav-item nav-link"" onclick=""this.parentNode.submit()"">Logout</a>  </form> That should do the trick.",True
+@RhaclleyAraujo,2024-01-14T21:32:59Z,2,"Solution for logout error: In users/views.py add: from django.contrib.auth import logout def logout_view(request):     logout(request)     return render(request, 'users/logout.html')  in django_projects/urls.py add: path('logout/', user_views.logout_view, name='logout')  after add that, the tutorial remains the same.",True
+@marcelmeiling6629,2024-01-10T19:56:42Z,0,"The Logout link does not work anymore since django 5.   "" Since django-5, you need to do this through a POST request, since it has side-effects. The fact that it worked with a GET request was (likely) a violation of the HTTP protocol: it made it possible for certain scripts to log out users, without the user wanting to. So a POST request also protects against cross-site request forgery (CSRF) [wiki]."" How do i get my non admin profile's to logout now?",True
+@Kmsingh017,2024-01-08T05:58:49Z,0,sir you paste the same code of register.html in login.html then why both forms are different from each other?,True
+@user-uh7tj8yf3w,2024-01-05T20:16:10Z,0,Quick heads up 15:40 i was not able to directly logout with this as the link tag in base.html was sending a GET request and by default for security reasons Django handles POST request so I had to add button with POST request inside a form instead of link tag in base.html,True
+@user-kw5ls3kq9k,2024-01-01T13:21:42Z,1,"Method Not Allowed (GET): /logout/ Method Not Allowed: /logout/ [01/Jan/2024 13:05:47] ""GET /logout/ HTTP/1.1"" 405 0   will  someone clear this error",True
+@user-kw5ls3kq9k,2024-01-01T13:19:04Z,0,"Method Not Allowed (GET): /logout/ Method Not Allowed: /logout/ [01/Jan/2024 13:05:47] ""GET /logout/ HTTP/1.1"" 405 0  am getting error like this when logout will someone clear this",True
+@UncensoredChristian,2023-12-31T16:32:47Z,0,"For those getting Method Not Allowed (GET): /users/logout/: Django LogoutView no longer accepts GET requests, it only accepts POST requests for security reasons. This means that you must access the LogoutView URL using a POST request which can be done in your html by using a form/button with a method=POST. This will solve your problem.",True
+@debadityanath4398,2023-12-29T15:35:14Z,2,"i am facing an issue where the logout view is giving a 405 error, anyone else facing the same issue, and did you find a solution",True
+@manuelv.amantejr.9952,2023-12-18T05:07:43Z,0,My /logout returns error 405,True
+@Metolix,2023-11-23T01:36:20Z,0,"5 years after, adding a comment. Would have been better with email verification upon registration, Now I could be an idiot and comment right now, But maybe in the future of the series you add it",True
+@angeldiaries2331,2023-11-08T07:14:31Z,0,Truely very informative video,True
+@sreerajmv,2023-09-03T07:17:01Z,0,❤,True
+@susanca8443,2023-07-01T20:03:44Z,0,"You used a from {{ form|crispy }} in login.html without a context from views, but where does this form come from.",True
+@PrinceofPersia7074,2023-06-29T19:15:43Z,0,"Hi Corey,You copied code from register.html to login.html, wouldn't that means there will be a form field for confirm password in the login view? but i don't see anything like that.Can you please clear this doubt",True
+@user-fx6ru7ns5o,2023-05-09T13:46:33Z,0,"Hi Cory, I really like the way you explain in each chapter of this course, really, thank you. I have a question about how the registration page can send these users to the administrator page, that would be my question.",True
+@superrelaxation508,2023-04-18T00:18:34Z,0,Going amazing so far best instructor suggest according to chatgpt and it is true thanks sir,True
+@Aaronisification,2023-04-17T21:05:59Z,0,left at 8:00,True
+@commonsense1019,2023-04-05T15:22:19Z,0,his clearity about the concepts is visible through his advance yet easy to understand explaination,True
+@tsuichamp,2023-02-08T15:35:00Z,0,"Hey Corey, thank you for the amazing content.. I have one question regarding the navigation bar changes.. you moved the login and logout pages based on whether the user is authenticated or not. But the home  page is still always displayed in the navigation bar. Is there any specific reason why we do not conditionally display it?",True
+@smbabarali,2023-02-02T23:51:15Z,0,"@Corey Schafer: Thanks you very much, great explanation, I have one issue, my path('login/', auth_views.LoginView.as_view(template_name='users/login.html'), name='login'), doesn't work, it shows an empty page, could you help me?",True
+@siddharthpunmiya2744,2023-01-08T10:43:17Z,0,Can anyone clear my doubt ? When we are using form in login how do login template shows only 2 field instead of 4 field shown in register page ? And how are we able to use form in login.html as we are passing form as an argument in register.html plz can anyone clear this?,True
+@pcb5135,2022-11-21T18:21:28Z,0,@Corey Schafer can you explain why 90% of the code not even python? 2nd question. How to be good at programming?,True
+@buzz.b,2022-10-31T07:57:35Z,0,At 15:29 and again at 20:10 why is there no flash message about a successful login?,True
+@gavinmurambadoro,2022-10-26T14:05:58Z,0,Django really compares well with Symfony Framework but I feel like it has a better developer experience. Thanks for this.,True
+@godeytech,2022-09-26T16:22:56Z,2,I really love this. Easy to understand and easy to practice on your own,True
+@KamikazeDaze15,2022-09-22T03:58:52Z,0,20:00,True
+@aleksandramilicevic1153,2022-09-16T14:38:28Z,0,"I need help, so i came till the pagination part, but all of a sudden now when i register new users and it redirects me to login it says password is incorrect, so i went to admin page and I saw that username is saved but password is not. i double checked it like 100 timea! Any suggestion?",True
+@idontknow-rt3vd,2022-09-12T05:15:48Z,0,"Hello guys, i'm not a english speaker so i cannot understand the entire video, but i need assistance with my code so i hope someone can help me. My login page is not showing the error message when i miss the username or password, it justs reload and not log in. Any ideas what going on and how could i fix it?",True
+@lefterismantas437,2022-06-22T13:43:49Z,0,Logout doesn't work anybody help?,True
+@Raphael-bq1fc,2022-06-04T20:47:01Z,1,Thank you very much! exactly what I was searching for; even more..,True
+@jacksonsmith4657,2022-06-02T17:48:48Z,0,Corey is a MFin boss,True
+@petergames4819,2022-05-03T22:25:58Z,0,Love these tutorial videos! Thanks!,True
+@sekiro_19,2022-05-02T17:21:25Z,0,thats big,True
+@hammadyasir2174,2022-04-27T18:52:20Z,0,thanks,True
+@congcuongnguyen413,2022-04-26T15:27:58Z,27,0:31 built-in login/logout page for user 1:02 import auth_views & create path 2:53 create templates for those views 8:37 setting login_redirect_url 11:28 redirect to login page after register 12:32 create template for logout page 16:37 change navigation bar base on login/logout 18:20 built-in user variable contain current user 20:55 restriction on certain route if not login 21:47 create profile view & template & URL 25:57 login_required decorator 27:50 setting login_url 28:43 ?next=...,True
+@ishanmahajan6622,2022-04-15T14:42:20Z,0,It is very good tutorial. Please guide me - how to see function in views of user and auth because while login the {{form}} variable is used and username variable is passed while configuring logout page. How you make sure that you are calling right varable without looking into documentation? Thanks,True
+@carlfranz6805,2022-04-14T00:49:44Z,0,"um.  Why is a successful login going to ""/accounts/profile/""?  Where is this happening?  [edit] question answered at the end of the video (30 minute mark), just not entirely satisfactorily.   Basically, this is delivered behaviour.",True
+@monicacolling2399,2022-04-06T06:34:51Z,0,LOGIN_REDIRECT_URL = 'blog-home' did nothing and I can't get my login to stop taking me to accounts/profile.,True
+@GDLAPROD,2022-03-23T08:02:09Z,1,Wow! Impressive. Everything is still relevant.,True
+@afafsgdchdhdg,2022-03-14T09:47:51Z,0,Corey whenever I logout and press back button on the browser it takes me back to the homepage. I don't want that to happen as it is a security issue. What can I do to avoid that as per your video ?,True
+@paridhigupta2747,2022-02-20T19:16:05Z,0,Best teacher ever.,True
+@thiagonunes2751,2022-02-14T02:10:30Z,0,"Brilliant videos, congratulations!!!!",True
+@muntadher8087,2022-01-22T11:28:25Z,0,lOVED IT THANKS,True
+@soumyapatel7472,2022-01-06T08:55:42Z,0,Are we using http request or an ajax request in this whole project ?,True
+@gavinkolz280,2021-12-29T19:25:16Z,0,Dankie Oumes..,True
+@muhammadyaseenmughal3537,2021-12-17T12:39:02Z,0,"BEST SERIES ON INTERNET , I'm LOVING IT :) Have a question! While accessing profile without login, How can we show Some message on top of Login Page like 'Login First' ?",True
+@leehaney4390,2021-10-18T20:22:04Z,0,I commented out the LOGIN_URL = 'login' from settings.py and the project still works the same. I am still able to access the login.html page from the link on the logout.html page. Is there another reason why it's there?,True
+@easffawe7046,2021-10-05T18:22:03Z,0,wanna leave it ehre,True
+@TUSHAR-mj1en,2021-09-27T06:17:58Z,0,Love from India Thank u BHAI,True
+@bbrendon,2021-09-12T00:59:03Z,0,You're starting to go too fast and I find I'm now constantly having to pause and rewind.,True
+@suryamanipandey8002,2021-09-06T07:21:13Z,0,this series is so amazing that its hard to put in words. Thank you for teaching so much in so less time.,True
+@abhinandankumar3561,2021-08-29T18:23:50Z,0,"Hey sir, in the register.html, my {% url 'login' %} is not working. Error 404 is coming, It is not recognizing the login from project/urls.py",True
+@yadav-vikas,2021-08-12T21:41:50Z,0,"Hi, why did we add -<-users/login.html-> template inside ""as_view()"" function instead of defining them inside view.py file ? also is this fast or better way to do it ?",True
+@athisyy8934,2021-08-12T09:33:50Z,0,"If anybody watches this and runs into the error of ""NoReverseMatch at /login/"". All you have to do is in the urls.py (in the main file) add ""name='register' "" to the end of  path('register/'...). That will solve that.",True
+@sachinfulsunge9977,2021-07-03T08:31:21Z,0,dajngo,True
+@shailkardani8159,2021-06-30T10:12:25Z,0,Those who started learning Django for the first dont start. First watch the Flask series by Corey. This series will then be much easier for you. Both the series are master class. You wont find such rich content on any other platform.,True
+@SachinSharma-bk2lg,2021-06-12T17:24:11Z,0,"really awesome and infomative video but. here all the users who are loggin in are actually superuser, what if other commoners n users want to login",True
+@anand_dudi,2021-06-08T19:11:11Z,0,where the user in user.is_authenticated comes from??,True
+@cindyliveshere8865,2021-06-03T06:05:36Z,1,Well I have been following the steps from the start. And I didn't get any error except when I strated creating the profile. It keeps on giving an error. AttributeError module 'users.views' has no attribute 'profile'  ....,True
+@SandeepPareek1,2021-05-30T16:53:55Z,0,oh you are the best guy !.... really good tutorials.. keep the good work up .. 1000 thumbs up for you .,True
+@blockbusterchain,2021-05-20T19:13:25Z,1,NoReverseMatch at /logout  Got this error while clicking on logout button  Help please!  Edit: Solved,True
+@harshbhatt4527,2021-05-10T04:29:19Z,0,Sir great work I have not seen a django playlist like this!!!,True
+@muratsokucu5891,2021-04-28T10:12:07Z,0,"In 6:00, we copy-pasted the register template that we wrote to the login template and done some changes. But form variable in an instance of UserRegisterForm class. Does LoginView function overwrites the form variable? Thanks!",True
+@derekkroeker4582,2021-04-26T02:28:49Z,0,Seems like YouTube deletes my comments?,True
+@derekkroeker4582,2021-04-26T02:27:56Z,0,"3:37 Got that one many times...    Didn't get exactly ""TemplateDoesNotExist"" on the other videos, but this time yes.",True
+@jamatiasabirdfarming7760,2021-04-23T04:16:10Z,0,"very easy and helpful series, thank you  Corey.",True
+@patrickknows2296,2021-04-13T05:41:55Z,0,Corey deserve some 🍻,True
+@subharupchakraborty522,2021-04-10T15:12:54Z,0,29:10-I have faced this in Instagram,True
+@piacademy1991,2021-04-05T08:18:54Z,4,"Can you do a tutorial on how you learn all this stuff, That'd be real cool!!",True
+@TRGIZATION,2021-03-22T21:15:49Z,0,Your videos are really helpful. Thank you,True
+@yassinzayn1231,2021-03-19T14:36:49Z,0,Thanks for good content Corey. Can you combine the login required decorator with a flash message?,True
+@momozkichutney,2021-03-19T14:13:14Z,1,23:48 what is this user.username I think user is from the inbuilt User that we imported.  And what is username then.. Is it for title?   Please help anyone.  Thanks,True
+@justinlee3453,2021-03-19T00:54:13Z,2,"Thanks corey, I've gone over this for the third time, and now this totally makes sense",True
+@rubel1477,2021-03-04T09:32:29Z,0,20:00 26:00 Login required decorator,True
+@islamh6042,2021-02-28T20:55:18Z,0,Thanks a lot for a great series!,True
+@momozkichutney,2021-02-28T13:14:55Z,3,"At 20:00 when he login and he gets option for logout and then he log out, and then he gets option for login and register.  In my case after logging in , I get option for log out. And after logging out I do not get option for login or register. I get option for logout now also. I am very confused what is wrong here. Can anyone correct me Or suggest me what mistake I have done. I followed all the steps correctly and I have seen the video thrice till here but still I do not find any mistake.",True
+@zacksims3623,2021-02-26T19:38:45Z,0,Super Helpful!,True
+@amirjamshidi332,2021-02-26T14:54:10Z,0,just Awesome,True
+@johnfluke6842,2021-02-22T21:45:54Z,0,I am following along on this Excellent series and I have introduce a bug I can not figure out.  On the localhost:8000/register/    page the sidebar is at the bottom instead of at the side. Anyone have an idea what I did wrong.   I check base.html template and it matches the one in the code snippets.,True
+@Klutche,2021-02-21T23:31:14Z,1,I can't wait to bring my idea to life with your guidance! Thanks Corey for all you've done! I will follow up once i've deployed my first app!,True
+@tahhaa906,2021-02-13T19:03:06Z,4,"I Really like when he says : "" that django provides for us "".",True
+@nickortan1594,2021-02-13T17:31:23Z,0,Isn't that possible to redirect to next page without using login_view inbuilt method??,True
+@amannegi8256,2021-02-06T11:40:17Z,1,How are we passing form in Login template when its actually not passed by the Login view,True
+@williamhu9904,2021-02-05T04:10:36Z,1,ugly,True
+@octaviomontt4628,2021-02-04T01:17:05Z,0,i love you,True
+@romnegrillo,2021-01-29T20:03:08Z,1,"You can still view the login page even though you're logged in. You can change your login route as:  path(""login/"", auth_views.LoginView.as_view(template_name = ""users/login.html"", redirect_authenticated_user=True), name=""login""),  so it will be reditected to blog-home route when you try to access the login page even though you;re authenticated.  I'm loving this series. Your tutorial is really good. You explain complex problems into simple terms.",True
+@aleksandarpetrovic2632,2021-01-28T12:14:54Z,0,"Hi Corey, thank you for these amazing tutorials. I have a question, in file base.html you write 'user.is_authenticated', this 'user' from where coming? Is it django default object for the user?",True
+@user-no6tk7uj1o,2021-01-07T06:36:00Z,0,"thank you to make this tutorials. i have a question . i did same doing while watching this videos. but mavbar of  my blog page is different login, register button is right beside home,about button.... what should i do for this problem..?",True
+@ab5848,2021-01-06T07:20:05Z,0,Thank you sir🙏🙏,True
+@mohammedsohail3544,2020-12-25T06:56:24Z,0,Hi Corey  I'm getting type error at /login/ __init()__ takes 1 positional argument but 2 are given  And there is no code in init.py file and I'm not knowing where is the error from? Would you please help me,True
+@bforbelive,2020-12-23T04:04:03Z,1,"Hello Corey, After adding redirect URL in settings.py when i tries to login with valid user i got CSRF Token missing error then i fixed it by adding {% csrf_token %} at top of my base.html template.. Thanks for good work keep it up..",True
+@mohitmakwana7660,2020-12-09T17:43:26Z,1,Instead of using decorator cant we again use if user.is_activated condition to send user to profile link or login link?,True
+@aadarshlalchandani8324,2020-12-04T16:45:28Z,0,My login.html is unable to load {{ form | crispy }}... PLEASE HELP!!,True
+@pantepember,2020-12-04T10:42:33Z,0,VS Code seems way better than Sublime Text. Intellisense is not working in Sublime Text for me.,True
+@aadarshlalchandani8324,2020-12-03T05:53:16Z,0,Dude best tutorial till date! But my login page isn't showing username and password fields... It's just showing Log In and the login button.... What to do?? My code is the same code you've written! Please help!!!!,True
+@hamedbeiraghdar3359,2020-11-18T04:52:22Z,0,awesome video,True
+@r2miss,2020-11-08T23:20:34Z,0,This has been really helpful.  Though I'm wondering how do add a remember me function.,True
+@Ashish8363,2020-11-03T09:43:47Z,0,"How would you add a warning message when trying to access the /profile page getting redirected to /login page? I thought of trying to making my own decorator by using the login_required source code, but things got super complicated real fast.   Another logic I thought was, if there was a way to check/test if the page I'm trying to access is being redirected to the login page, then add a warning message. But I dont know how to implement it.",True
+@lingxu3570,2020-10-21T05:34:57Z,0,"Corey, amazing video, thanks for posting them. Could I please ask what do these lines of code comes from?? Could you please explain more thoroughly?   from django_project settings, you put these at the end of the page:  LOGIN_REDIRECT_URL = 'blog_home'  LOGIN_URL = 'login'",True
+@KevinTempelx,2020-10-17T03:21:35Z,0,Thanks!,True
+@neiveinkhalil1290,2020-10-16T06:44:46Z,0,hi sir ...i want  the login page to be  the first thing that appear to the user...i don't want the user hit the login button in another page to  redirect him to login page  ...how can i handle that in url,True
+@mhmt_dmr,2020-10-06T20:56:48Z,2,Thanks Corey for the perfect lessons. 40 dislike comes from udemy sellers :),True
+@omdivyatej3818,2020-09-23T08:58:03Z,3,First of all thanks Corey. Love ya man.  I have a question. How does user.is_authenticated works if we have not used user variable anywhere in the project. We have used User and not user.  Neither have we used user=User.objects.all() to  get the relevant info.  But your method still works. How is it possible? Can we use any other variable like usernew or something like that?,True
+@paulohsgoes1959,2020-09-22T14:38:30Z,0,Another great tutorial of yours. Congrats!,True
+@shayhalfon5460,2020-09-19T09:43:37Z,0,"What considers as best practice? I tried to use an action in the form  such as action=""{% url 'blog-home' %}"" and it did work just like the use of LOGIN_REDIRECT_URL",True
+@wozdog7425,2020-09-17T05:33:38Z,0,something about you Corey ... I always come away feeling smarter !!,True
+@najeebmoneeb,2020-09-16T06:18:17Z,0,A very help full tutorial sir,True
+@ananyamahapatra6597,2020-09-12T19:24:37Z,1,😊😊😊 a bunch thanks,True
+@alabhyasingh8993,2020-09-08T09:47:40Z,0,I am getting error...no userprofile,True
+@davidallsopp4030,2020-09-04T11:52:29Z,0,Great vid as always! Just wondering how do you (and is it difficult to do this) give users to Register/Login with Facebook/Twitter etc. ?,True
+@abdifatahwebdeveloper117,2020-09-04T05:34:24Z,0,I learned a lot thanks,True
+@byanju_,2020-09-02T12:07:43Z,0,how do we know when to import specefic modules from django? do we have to go through documentation?,True
+@momahdy,2020-08-26T19:34:58Z,0,thank you,True
+@varunpusarla2590,2020-08-24T17:29:05Z,0,I cannot login using the form when using my superuser account. The rest fake accounts I created works fine though. Anyone else having same problem.,True
+@yanis2183,2020-08-10T19:10:29Z,1,Thank you for this video,True
+@grouchydrago1396,2020-08-09T19:20:41Z,1,thank god Django does all the hard stuff for me ;),True
+@jamesskipworth5142,2020-08-09T19:18:36Z,2,Suggestion for anyone recreating to add 'redirect_authenticated_user=True' at 4:50 so already logged in users are redirected through the login page. Loved the series though Corey really helped with my school project.,True
+@masu3701,2020-08-09T17:47:42Z,1,"While logged in, if I click on logout i get the ""You have been logged out"" message, however I still have the Profile and Logout in Navbar. My logout doesnt seem to be working. It redirects but doesnt actually log out. What am I missing?",True
+@hamza-325,2020-08-05T19:37:14Z,0,"Thanks for the tutorial! I noticed how much login.html and register.html are similar, so I have merged them into a single page that changes its title and the small text according to the {{request.path}}.",True
+@arjunsikhwal3512,2020-08-03T15:05:27Z,0,"Hi I really enjoy these tutorials, but after the video when I want to reconcile the whole thing - it gets tricky. I have a suggestion can you please summarize the entire process that you are gonna do in the video first and then start with hands on.",True
+@sarthakbhutani7413,2020-07-30T18:10:39Z,14,"I really love that : ""we haven't created this yet but we will in just a second""! God bless you sir.",True
+@christianvillegas3063,2020-07-30T03:29:42Z,1,"NoReverseMatch at /logout/ Reverse for 'Login' not found. 'Login' is not a valid view function or pattern name. I'm stuck here cannot find a way to solve this",True
+@AdamHopeGreen,2020-07-28T21:26:22Z,0,"6 Done 11 more to go wooooooooooooooooooooooooooooooooooooooof, but i love u man <3",True
+@EltigreTafur,2020-07-26T19:32:38Z,0,Hola buenas tardes unas pregunta como hago para saber el ID del usuario logueado y guardarlo en la bd o poderlo pasar de la vista al form para guradarlo en el modelo o BASE DE DATOS,True
+@claudiomarcio7579,2020-07-24T14:44:01Z,0,"Hy guys. I don't know why but my form just save the new user after I included a form.save() line above the return redirect... maybe could it be related to Django version? By the way, this course is amazing.",True
+@financialhourmedia6384,2020-07-23T18:00:57Z,1,"Hy mr corey i'm having a troble when trying to get in the profile it gives me an exception error here is the error ""[Errno 13] Permission denied: 'C:\\Users\\EC PC\\PycharmProjects\\youth1\\templates' """,True
+@PrashantKumar-nb5ig,2020-07-19T05:40:56Z,1,Great Video sir,True
+@keshavmaheshwari6420,2020-07-12T20:00:00Z,0,How can we make usernames case insensitive?,True
+@williamzhang7083,2020-07-12T07:44:56Z,1,"How do you do a ""logout required""? So you showed how to block access to /profile/ but how do I block access to /login/ and /register/ if there is a user logged in?",True
+@devangsrivastava6736,2020-07-08T12:01:27Z,0,just make a mistake once!!!!!!!!!!!!!!!!!!!!!!!!!,True
+@shadow_was_here,2020-07-04T09:14:55Z,1,The Best django tutorial.. Love your teachings man. Great work. <3,True
+@abdulahamer6238,2020-07-02T19:34:26Z,0,Super cool adding features and helping to put students in a user mindset to see functionality and feedback that users will enjoy and will help make things feel intuitive and easy to use,True
+@kmurray24,2020-07-02T04:38:56Z,0,Does anyone know why I have to add crispy_forms to the installed apps?  We don't do that for any other stuff we installed with pip..  Thanks!,True
+@AveryMarrow,2020-06-26T15:07:18Z,0,"path('logout/', auth_views.LogoutView.as_view(), name='logout'), syntax error WTF?",True
+@md.soleymankhan6550,2020-06-23T10:19:49Z,0,Best Django tutorial.,True
+@mohit7717,2020-06-23T02:59:34Z,0,can u upload a video related to dsa using python,True
+@ahmedbadal3795,2020-06-20T20:46:56Z,0,Hellow am following along everything looks good except the login.html file is not showing the three sections of log in is not avaiblbe,True
+@yeasinarafat1980,2020-06-20T16:18:18Z,0,Hey Corey !  I see 'registration/login.html' whereas you see 'users/login.html'. You fixed the error by making a 'login.html' file inside your app directory. As did I. But  I continue to have the same error as before and can't make my login route. Very sad!,True
+@noureddineettayyeby5210,2020-06-17T19:05:24Z,1,This is great thank you,True
+@sanjeevkm1656,2020-06-14T14:16:09Z,11,"The great tutorial I learned a lot from your tutorial excellent work, but it has one small but important bug to be fixed : in urls.py : along with the path to log in, the LoginView also should be given another parameter ""redirect_authenticated_user = True"" along with template_name. So that logged in user cannot log in again. When logged in user tries to log in it simply redirects to the page listed in LOGIN_REDIRECT_URL in settings.py",True
+@garylewis5397,2020-06-07T14:06:35Z,0,"receiving this error after running server to access the profile. any ideas? Exception Value:	 name 'users' is not defined Exception Location:	/Users/garylewis/PycharmProjects/Try_Django/src/users/views.py in profile, line 22",True
+@aminuolawale1843,2020-06-04T21:00:49Z,2,Your Flask Series helped me land my current Python job! You are a great teacher !,True
+@marwinfrancis6294,2020-05-31T19:46:22Z,0,Quick question. How can we restrict the 'About' page of the blog app so that users need to be logged-in to access the about page. And how to send the objects of that user to the about page?,True
+@praneshtamang4494,2020-05-20T17:42:16Z,0,"hello corey, i made login page like in the video but the  input fields are not showing in login page . The page only shows the login button  but the same code shows the input field in registration page. Can you help me solve this?",True
+@christianzelioh552,2020-05-19T16:43:02Z,1,i love you corey,True
+@PrieyudhaAkaditaS,2020-05-16T08:29:49Z,1,The best django tutorial ive ever seen. Thankyou,True
+@sandeepgottipati4272,2020-05-14T02:58:43Z,0,how does the LOGIN_URL='login' works,True
+@sharathkrishnan1558,2020-05-12T19:55:16Z,9,"Not only are these  tutorials the best.. But the way you  explain,  it motivates   me to  carry on further  and it really creates interest in the subject",True
+@Suyash_Khade,2020-05-12T15:38:28Z,0,how to add fields like contact number etc in our registration forms and validate them ?,True
+@yashshah4842,2020-05-11T17:47:59Z,5,By far the best Django Tutorial on the youtube right now. You are truly amazing sir (❁´◡`❁),True
+@banaras.wala.foreignaala,2020-05-11T17:13:51Z,1,"Hi Corey, So far so good,  I want to say thanks for your efforts.",True
+@xintongliu8068,2020-05-07T02:35:57Z,6,"Brief conclusion for the video:  1. how to create login, logout and simple profile page.     Unlike register, login are provided by django, so remember to check settings.py when you play with login.  2. how to use decorator for profile in view.py.",True
+@sahilbisht3661,2020-05-06T20:06:49Z,0,simply awesome thank you so much sir these videos helped me a lot love from India !!,True
+@jameskulu,2020-05-03T16:04:07Z,1,Can anyone help ? How can we show successfull login message ?,True
+@shikunchen8523,2020-05-03T13:22:29Z,1,"how can we fix it when login, the page always redirects to the home page instead of profile page?",True
+@tommy_1446,2020-05-02T23:06:21Z,2,How come in the minute 23:04 we could access the username without having to provide a context dictionary to the render function at views.py?,True
+@jithinjose8004,2020-05-02T08:34:05Z,1,why we give LOGIN_URL = 'login' ??,True
+@albertoleaplaza3048,2020-04-29T19:54:40Z,0,The Best Videos I have seen so far!!!!,True
+@jasonvictor1798,2020-04-28T22:13:39Z,1,Question...why would you not create a separate urls.py for users? but instead put it in the project.urls,True
+@TechSimplified19,2020-04-27T17:36:24Z,0,"Could you make a video later on adding a search bar to search for posts, a button to like posts, and place to comment on other peoples posts.",True
+@stephenhunt7760,2020-04-26T09:11:15Z,0,"Very good video enjoyed it, thank you",True
+@justkeepfilming9767,2020-04-25T21:55:23Z,1,Awesome series Corey! How can we restrict the home and about pages to users that are not logged in?,True
+@arushwadhwani9262,2020-04-25T13:10:16Z,2,"after doing amendments at the end in settings.py file, on accessing ""localhost:8000/profile/"", I am not getting the desired output on safari, but I got the correct output on Google Chrome. can you tell me why that's happening??",True
+@waleedabdulmanea5301,2020-04-22T23:40:33Z,18,"I like when he says, 'we are gonna fix this in a second', the instructor is reading our minds, good job, and keep the great work, i am one of your students :)",True
+@nasservali2205,2020-04-18T09:09:07Z,1,"Hi, all, could anybody help me. How can I implement recaptcha on auth_views.LogoutView.as_view, basically recaptcha should be validate in backend. I do not know how to validate recaptcha when I follow Corey's solution. Please a.s.a.p",True
+@tigger2581,2020-04-17T10:01:50Z,1,hands down best tutorials on youtube. and ive watched many,True
+@kirankumaruppuganti,2020-04-15T11:01:52Z,1,"I have a issues here ....  when user is not signed in, if I try to access profile page manually it is asking for login details.. but after credentials are given it not taking me to profile page, instead it is taking me to blog home page (as we set in settings).. what may be the issue ?  my settings.py shows  LOGIN_REDIRECT_URL = 'blog-home' LOGIN_URL = 'login'",True
+@ai.201,2020-04-13T09:35:21Z,0,So clean,True
+@awadheshkumar-bf8re,2020-04-12T13:46:08Z,0,"Thanks for this amazing series on Django, I learned a lot from this series. I  have a request, can you please also tell how can we use oAuth in Django.",True
+@fariborzseyedi9711,2020-04-10T19:28:57Z,1,Very Very nice videos. thank you Corey. I will suggest this tutorial to every one that want learn Django.,True
+@xristoskapotis6370,2020-04-09T16:47:46Z,0,"Hi Guys,   I would like to display only the contents of the username who has log in and the username can see only him comments, please help    Thank You",True
+@user-hj7mf4hz3r,2020-04-08T16:26:37Z,1,"Anyone who know replace the url  'profile/' into '{{user.username}}/'  just like instagram, facebook.... ,please help me!",True
+@svetoslavhalachev4121,2020-04-05T10:51:08Z,1,How to make the login and register routes to be available only if the user is not logged in? Because now if you are logged in you can still visit register and login routes. BTW GREAT TUTORIALS,True
+@bavidlynx3409,2020-04-05T06:52:51Z,1,Thank you,True
+@akankshabharadwaj8426,2020-04-01T07:19:06Z,0,"Hi Corey, nice videos. How can we convert Django web applications to microservices?",True
+@zeelsinojia1289,2020-03-30T12:30:02Z,3,When i am on home page and i click logout and the click back button on browser i am taken back to home page. TO solve this is the @login_required best way or there are other way to do so?,True
+@willhenrygates1662,2020-03-28T04:42:17Z,0,Youtube still sends you somewhere completely random when you have to login to view something. Maybe their devs should watch this series,True
+@eneashallsten5147,2020-03-25T21:59:22Z,0,"When you create the login.html page, I don't understand from where it pulls the ""forms"" information from inside the {{ forms|crispy }}. I though from the register.html that the ""forms"" came from the registration function inside views.py, so how does it know what the forms are in the login.html file?",True
+@michpo1445,2020-03-24T21:53:43Z,1,Can anyone explain why going to a logout.html page actually logs the user out? Is it no different than any other html page? Why does it automatically log the user out?,True
+@billfujimoto5905,2020-03-21T23:06:39Z,0,"I'm joining this tutorial over a year after posting so I hope some one can answer a question:  Through all the back and forth of following the tutorial, I forgot the admin password I used to create the admin.  Is there a simple way to recover by simply deleting the db.sqlite3 file, or do I need to recreate a new django project folder?",True
+@davidbarrow,2020-03-17T11:20:28Z,0,"Hi, Thanks for some very helpful tutorials,  I was after some advise to get me on the right track on a concept;  How to implement an auth system that would filter users in to two separate groups, for example,  (a)Employer (b)Job seeker  :  A Job seeker would create a profile, portfolio page etc/ An employer would search profiles or use a shared link to view a specific profile..... Thanks Again :-)",True
+@multitudes389,2020-03-16T17:28:29Z,0,Great stuff however at present I am able to click on 'back' on the browser and see the previous page when I logout.. Hope will be fixed in a future vid,True
+@antonmullakhmetov707,2020-03-15T16:09:30Z,0,thank you!,True
+@jasmeetubhi8814,2020-03-06T04:42:59Z,0,"I am getting this error ""The view users.views.register didn't return an HttpResponse object. It returned None instead."" what to do for this.",True
+@sanjaydangwal2501,2020-03-02T18:34:46Z,1,these tutorials are very helpful.,True
+@cawag98,2020-03-02T17:53:39Z,0,"For Django Part 7, it looks like package Pillow is a requirement.  I wasn't able to get Pillow to successfully installed because  Zlib and libjpeg couldn't be installed.  I'm using Python 3.8 on Windows with PyCharm.  Has anyone with a similar environment had the same issue, or solved it?",True
+@sebastianb2092,2020-02-25T21:20:42Z,2,Like I'm watching these videos for 3 days now every day after work and continuingly learning about Python and the Django framework. Love it @Corey Schafer,True
+@saliksheraz6236,2020-02-22T11:47:44Z,1,Great and helpful tutorials,True
+@chopinfanclub6672,2020-02-22T03:47:35Z,0,"Lord, please help me get over any difficulties I may have today, and guide me in the correct path. Thank You. Amen.",True
+@harwinderthakur9708,2020-02-20T05:28:32Z,4,I was surprised to see how well crispy forms work with django . It's like a magic don't have to do anything.,True
+@teddytalks499,2020-02-16T23:36:41Z,2,Thanks Corey,True
+@doniyorabduvokhidov1862,2020-02-13T17:22:32Z,2,The best Django tutorial I've ever seen .. thank you for all of your effort .. really appreciate,True
+@cnm1987,2020-02-10T04:20:11Z,0,"Hi Corey Schafer, I am immensely grateful for your Django series. However, on this video, I get an error at 8:15.  Can you help me with this:    TemplateDoesNotExist at /login/ users/login.html Request Method: GET Request URL: http://localhost:8000/login/ Django Version: 2.1.5 Exception Type: TemplateDoesNotExist Exception Value:  users/login.html Exception Location: C:\Users\mogon\Documents\new_pc\Django\project_two\lib\site-packages\django\template\loader.py in select_template, line 47 Python Executable: C:\Users\mogon\Documents\new_pc\Django\project_two\Scripts\python.exe Python Version: 3.7.4 Python Path:  ['C:\\Users\\mogon\\Documents\\new_pc\\Django\\django_project2',  'C:\\Users\\mogon\\AppData\\Local\\Programs\\Python\\Python37\\python37.zip',  'C:\\Users\\mogon\\AppData\\Local\\Programs\\Python\\Python37\\DLLs',  'C:\\Users\\mogon\\AppData\\Local\\Programs\\Python\\Python37\\lib',  'C:\\Users\\mogon\\AppData\\Local\\Programs\\Python\\Python37',  'C:\\Users\\mogon\\Documents\\new_pc\\Django\\project_two',  'C:\\Users\\mogon\\Documents\\new_pc\\Django\\project_two\\lib\\site-packages']",True
+@xmuta,2020-02-07T23:29:53Z,1,Great video tutorial,True
+@lightyagami5776,2020-02-03T04:39:39Z,1,?next=/profile/  not working. Keeps redirecting to home page   edit(fixed): removed action attribute from forms,True
+@shashanksharmadon4295,2020-02-02T02:59:35Z,1,Awesome bro thanks best video ever.....,True
+@shashanksharmadon4295,2020-02-02T02:59:34Z,1,Awesome bro thanks best video ever.....,True
+@shashanksharmadon4295,2020-02-02T02:59:34Z,1,Awesome bro thanks best video ever.....,True
+@akshaykaushik9,2020-02-01T19:07:24Z,1,love you bro.Watched every video available on your channel. Everything learned from you. Feels like i know python as intermediate although it is hard to keep remember every topic.,True
+@geolegacy2,2020-01-30T09:09:59Z,1,7 videos in and so far still so good! God bless,True
+@leventerencsik5726,2020-01-28T13:21:11Z,0,"I still get that noreversematch error, can anyone help me?",True
+@amirhosseinnashvi2125,2020-01-26T17:55:04Z,0,hey just an small problem when a user is logged in  nothing prevents him to sign up again,True
+@waili4028,2020-01-22T16:39:52Z,0,"while following the tutorial I am getting a little bit confused about the views.py, why when we work on login.html or logout.html, we don't have to do anything in the views.py ?",True
+@keeganzarboch9549,2020-01-21T20:05:58Z,0,What the FUCK is this and WHY does it keep getting recommended to me,True
+@arpitsingh1000,2020-01-19T07:06:26Z,1,Awesome Series,True
+@syedazeemasghar9518,2020-01-17T14:55:48Z,0,NoReverseMatch at /logout/ Reverse for 'login' not found. 'login' is not a valid view function or pattern name. this is the issue am having.,True
+@hotasry6749,2020-01-16T04:47:37Z,0,This tutorial kinda sucks.,True
+@MrRynRules,2020-01-13T05:20:24Z,1,Thank you!,True
+@muditsharma8379,2020-01-13T04:22:29Z,1,"Hey there, How do we implement sessions on this login and logout page for better real life execution?",True
+@Marek-zt9fy,2020-01-02T10:02:50Z,0,"How would we go about displaying a message using the message framework to tell the user that he has to log in before accessing the profile page? Right now, we're only redirecting him, and he won't know why.",True
+@Marek-zt9fy,2020-01-02T09:31:02Z,1,"I love your tutorials, you're amazing man, keep it up!",True
+@akramnarejo6221,2020-01-02T08:12:07Z,1,Corey you're amazing really a great blessing. thanks man.,True
+@sajadtorkamani9399,2019-12-31T20:22:45Z,0,Another great video!,True
+@h_maina,2019-12-30T15:39:14Z,0,Helpful vid. Keep up the good work. But is it possible to make a bot I've built accessible online. I mean build a bot like the popular instagram bot and make it accessible for third party,True
+@ManojKumar-ml2vl,2019-12-18T12:42:37Z,2,"Query : When I hit python manage.py runserver, Its showing previous logged-in user, even in incognito mode, how to handle it ??",True
+@shahidshaikh7438,2019-12-17T07:32:32Z,1,Great video but as an add on. how to display the username of the currently logged in user next to the logout button,True
+@mohammadyusuf1636,2019-12-15T14:01:24Z,0,I forgot the Administrator password  at this stage. Someone please tell me how I can retrieve the password.,True
+@matthieurousseau3974,2019-12-10T00:09:31Z,2,"Hi Corey, Very good video! I was wondering if it's possible to add a flash message (messages.faillure) when you try to access the profile page. To notify the user that he has to log in first    Thx!",True
+@RandomEpicFails,2019-11-30T17:05:45Z,0,"These videos have been very helpful to me! Though I have a question, is it possible to have an online database for Django framework? Like Firebase for example.    I am assuming that the database we did in the previous videos is local or does it also get uploaded?  Again, thanks for these videos!",True
+@toastrecon,2019-11-29T18:33:53Z,7,"Amazing how much functionality is available right out of the box. Thanks, Corey!",True
+@waltervictor2334,2019-10-28T20:09:48Z,1,"Sir Thanks for this tutorial ,I have a problem am asking for your assistance I dont know if the problem is with my signal.py file ,when i create an account and loginto it and open its profile i get an error =save() got unexpected keyword argument into 'force insert'      Then the pycharm IDE indicates that the error is caused by  users/views.py  in register line form.save() and users/signals.py in create profile line Profile.objects.create(users=instance)  .I will appreciate your assistance.Thank you",True
+@wentaoqiu4072,2019-10-23T02:45:27Z,1,You’re a teaching god.,True
+@LakeJopata,2019-10-19T12:31:09Z,0,"When I go to delete a user, i get an error:  OperationalError at /admin/auth/user/ no such column: website_post.date_posted   Could you explain how to resolve this?",True
+@phillipctwang,2019-10-16T04:05:40Z,5,Does anyone else get hungry when Corey says crispy forms?,True
+@billionairesmotivation1159,2019-10-12T13:30:18Z,1,somebody please help me :),True
+@billionairesmotivation1159,2019-10-11T14:08:35Z,0,Profile is not working and it says that Template Does not Exists at profile . Can anyone help me :) it will help me a lot :) thanks,True
+@jismathew3573,2019-10-09T17:53:47Z,0,Is there a way to pass context to the template users/login.html ?,True
+@xinnanluo3296,2019-10-09T12:26:20Z,0,What if I want to redirect all non-authenticated users to a certain login pages without adding is_authenticated decorator to every view class/function which is quite annoying. Is there any other way to achieve that?,True
+@gcajay8225,2019-09-28T21:43:29Z,0,"Could anybody help here, cripsy form is not loading for  built_in auth. Username and password form doesn't load in Sign In page.",True
+@ashrafulfuad2967,2019-09-26T16:52:10Z,1,Thank you so much I learned total django from your tutorial series . now my project is going on,True
+@himanshums69,2019-09-12T12:43:21Z,0,"how to redirect users to their profile page once they're logged in but in the they put /login and /register the page still displays login and register page, instead how to redirect them to their profile page wen they try to access either login or register page once they're logged in? PS: Thanks for these wonderful tutorials, you're awesome!",True
+@pratikchakravorty6623,2019-09-07T21:40:17Z,0,Great video. Just one small thing to not let the user go back and access the register and login page after they have logged in add the redirected_authenticated_user=TRUE to the login path in the project's urlconf and also add a check to the register view. You can access the user using request.user,True
+@abdelrahman2348,2019-09-06T01:49:29Z,0,How to implement jwt?,True
+@ShivamSingh-bx5lg,2019-09-04T07:22:52Z,2,"I love your content, but I was expecting to see an example where you create a raw original form and link it to the database without using the default form creation functions.",True
+@cisbeautifulanildhar3292,2019-09-01T01:42:10Z,0,"Hi Corey, Thanks for the video. It is simply awesome. I have a question about the profile page. Why do we need to define LOGIN_URL = 'login' in the settings.py? Why can't Django resolve from "" path('login/', auth_views.LoginView.as_view(template_name='users/login.html'), name='login'),"" in the users\urls.py. Kind regards.",True
+@liviapribeiro,2019-08-29T08:13:43Z,0,"If it is the first time login, I would like to redirect to the profile page. If it is regular login, redirect to the homepage. How can I do that ?",True
+@slan7,2019-08-27T20:26:18Z,3,"God-tier tutorials. Thank you, sir.",True
+@massimehrkhah607,2019-08-26T07:50:22Z,1,Hi. Thanks for the tutorial. I've got a few questions though. My tongue  is Persian. How can I convert the form's labeling language to my own and  why portrait images in profile get rotated 90d before they are placed  into profile pic ? Thanks,True
+@dottechnoologies,2019-08-23T02:43:39Z,0,"Hello Corey, thanks for the awesome. Please I have a question. When a user log in and you enter the login endpoint / route in the browser, the login form still shows. Aesthetically, this is not good... How do I correct this behavior? Thanks.",True
+@debashishchakraborty7924,2019-08-11T01:38:23Z,1,"you will be Billionaire(Indian Rupee), if you come to India. :)",True
+@namesare4fools,2019-08-10T15:51:53Z,2,LOVE IT !! I would like to see a more advance django tutorials.. :),True
+@stanleyruheza,2019-08-03T22:56:21Z,1,"hey Corey, how can i remove helping texts on that registration form??  i want them not to appear o'rer ther",True
+@davidlinux,2019-07-28T16:39:21Z,3,"Corey:  for my home page I have to display the client's home page from another server while still having my navigation buttons (menu) on the home.html.   1 - can this be done? 2 - if so, how can it be done?   Thanks",True
+@blacknight6192,2019-07-18T15:11:44Z,0,hello you can my projects https://github.com/aakashpadhiyar/Product-Hunt-Django,True
+@imenebenyamina5388,2019-07-17T17:52:24Z,0,sir please help me i have my log in form in a modal and not a whole new html page and this modal is in multiple html pages should i configure the path to every single page? i would really appreciate the help :/,True
+@YazeedAlKhalaf,2019-07-13T11:14:08Z,0,how to delete the back history after login?,True
+@osamakhan5381,2019-07-03T15:05:49Z,2,"Epic Tutorials, Keep up the good work",True
+@ralphcaritativo2033,2019-06-24T04:17:04Z,2,DONE TUTORIAL #7! Thank you SENPAI! :),True
+@liviumircea6905,2019-06-22T09:59:58Z,4,amazing ...one of the best tutorials on django,True
+@ekshivbhakt2417,2019-06-22T04:45:54Z,2,Not reverse match. Reverse for login not found. Login is not valid view function or pattern name. When i visit register and logout route,True
+@kingcold7984,2019-06-19T19:34:03Z,0,"Hi Corey, I am learning a lot from the series so thank you immensely for putting the time to make it for us. One question: how do I go about retaining the information in this series? There is a lot of information regarding structure, command line commands, syntax, etc. What would you recommend for someone trying to study Django so that they can make their own projects without looking back at your videos every single time?",True
+@secwriteups,2019-06-14T12:40:13Z,19,"And now how could you prevent users from seeing login page after they logged in ? [EDiT] Solution : path('login', auth_views.LoginView.as_view(redirect_authenticated_user=True), name='login'),",True
+@footballfan7796,2019-06-12T22:39:50Z,0,when your logged in how can you stop users from seen the login form once then input the login url ?,True
+@jayedm3342,2019-06-12T11:20:20Z,37,i dont know why the channels sharing knowledge have only 100k+ subs while nonsense channels have milliions ... GUYS lets hit that subs red btn  and make it to million+,True
+@pembadorji5445,2019-06-11T18:02:56Z,1,What a legend,True
+@walter1323,2019-06-05T18:03:25Z,2,Thank you for such a great video!!,True
+@viniciusvrd,2019-06-04T11:13:55Z,0,Does the variable user always refer to the current user in any template? 18:46,True
+@ASADULLAHGALIB25,2019-05-25T07:35:58Z,2,"Corey Schafer, you are the best teacher 👌",True
+@vighnesh153,2019-05-22T11:03:29Z,2,"How do you show a message when it is automatically redirected? Something like, 'YOU NEED TO BE LOGGED IN TO DO THAT'",True
+@federicocucinotta9977,2019-05-20T07:51:08Z,0,"Hey Corey,   Awesome series! I have one question, however. Would it be possible to change the login form to: 'Email, password' instead of 'Username, Password?'   Thanks in advance!",True
+@milesmontego7417,2019-05-19T14:14:14Z,0,"hey there sir thanks allot your videos have really help me allot just have some problem with login when a user  is loged in from the admin page it overwrites the user from the web site then the admin account will be loged in , in the front end too",True
+@eng.ahmedkhaled53,2019-05-17T22:36:30Z,0,I wanna build login system without use build in login django how can I do that ? If you illustrate that can you give me a link of viedo?,True
+@mr_don_key,2019-05-11T18:15:10Z,0,"Nice tutorial so far... however, will you do a bonus: oauth2 use.. for users.. (like many site these days also provide)",True
+@RandomShowerThoughts,2019-05-08T20:28:34Z,2,You are the best,True
+@biplobhasan9441,2019-05-08T10:14:19Z,0,"When user logged in, then also it can access """"""register and login"""""" page...How i use logout required to access """"""register and login"""""" page?",True
+@gabrieludoudo2718,2019-05-03T13:10:12Z,2,"Thanks Sir for giving us the best Django videos on Youtube , Please can you do a video on how to upload audio file in django",True
+@_justsiva_4146,2019-05-01T10:17:48Z,0,very nice explanation...how can we apply decorators to class based views?,True
+@sarunasj,2019-04-29T18:52:29Z,2,This is amazing. Simple and to the point. I'm now going to go back to Part 1. Thank you!,True
+@hashifmuhammed1103,2019-04-28T06:11:34Z,1,The real tutor,True
+@lightninginmyhands4878,2019-04-27T03:48:30Z,9,27:50 `LOGIN_URL` is used to override Django's default URL when a user is trying to access a `login_required` site.  We have created our own login route thus `LOGIN_URL` will be assigned to that.,True
+@lightninginmyhands4878,2019-04-27T03:18:00Z,1,Excellent.  Simple.,True
+@RogerDearly,2019-04-22T19:47:37Z,0,"Thanks a lot for all videos ! I want just ask how can I add a certain error html in certain errors : For ex  : user wants to get in url which doesn't exist I want to shaw him a pretty nice html saying something like "" Oops page not found"".",True
+@danishdarren1179,2019-04-21T21:03:10Z,1,class ActionForm(forms.Form): AttributeError: module 'django.forms' has no attribute 'Form'  its showing while performing an import statement : from django.contrib import admin  can you please help me out with the above errors,True
+@nileshzagade2092,2019-04-21T12:06:00Z,0,"Hey Corey, I wanna create a different user model from the default one given by Django, I tried searching online but all tutorials are either too old or not to the point. Could you just give me pointers to do this? That would be great.",True
+@roshanpandey5357,2019-04-21T11:06:33Z,6,"Well, this video is awesome as others of the same series. Just loved it :-)",True
+@stefantataru8,2019-04-21T08:59:56Z,0,"gods of stack overflow bless you, but please  get a real computer set ....",True
+@jac007que,2019-04-12T20:19:58Z,1,thanks!,True
+@AnthonyRamtulla,2019-04-11T01:44:05Z,0,Another great video,True
+@nimcos2082,2019-04-08T17:54:43Z,0,"So user.username and user.is_authenticated can be used in any .py file without importing it, does that mean user is a reserved word in Django or built into the default path?",True
+@LanarFalcon1,2019-04-06T19:44:02Z,6,"Hey Corey, I'm loving this series. I've looked on Amazon and there are a couple of books on Django. Have you read any of them, and if so - would you recommend any of them?",True
+@kabauny,2019-04-05T20:51:17Z,2,"where is ""user"" defined in the base template in blog? How does html know what we are referencing?",True
+@easazade,2019-04-04T07:52:33Z,1,thank you for this tutorial specially for doing a django 2.x tutorial,True
+@AbuthahirPKPMC,2019-04-03T06:41:38Z,0,"module = import_module(entry)   File ""C:\Users\THR\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py"", line 127, in import_module     return _bootstrap._gcd_import(name[level:], package, level)   File ""<frozen importlib._bootstrap>"", line 1006, in _gcd_import   File ""<frozen importlib._bootstrap>"", line 983, in _find_and_load   File ""<frozen importlib._bootstrap>"", line 965, in _find_and_load_unlocked ModuleNotFoundError: No module named 'crispy_forms' PS C:\Users\THR\Desktop\New folder (4)\code_snippets-master\Django_Blog\07-Login-Logout-Authentication\django_project>   ERROR ^",True
+@johno6020,2019-04-01T22:01:04Z,0,Could you do this for 2 players,True
+@hasan8267,2019-03-28T09:11:38Z,1,Great tutorials! Thanks,True
+@MagnusAnand,2019-03-27T22:01:33Z,2,This tutorial is becoming better in every video,True
+@camryncrowder4223,2019-03-26T05:11:42Z,0,How do you remember all of this???,True
+@AmeerHamza-kz3gq,2019-03-25T15:28:16Z,0,"If i want to add another field of different Model along with ""Username"" and ""Password"", for example i want to add another text field which is ""company name"" so how can i do this?",True
+@shreyas0002,2019-03-24T18:03:27Z,1,"Basically Corey Is A Magician, Guy Knows What problem will arise due to every Small Changes in code and even fixes it!",True
+@Fightlapa,2019-03-23T10:05:27Z,0,"Very nice series. After 7 videos I have my first problem. I have a url pattern ""exam-templates"" wchich exists, I have tested that after login. But after I logout, try to access it, it redirects me to ""/login/?next=/exam-templates"", after I login I'm on home page... What can cause this? I have defined LOGIN_REDIRECT_URL and LOGIN_URL.",True
+@avhishekbiswas4251,2019-03-10T19:20:28Z,1,I am having RelatedObjectDoesNotExist error when i am trying to login or opening the admin page..what should i do please help.,True
+@ik6nee,2019-03-07T12:06:39Z,0,how can I authenticate both email and username? a user a email,True
+@diyAutomate,2019-03-04T19:08:54Z,0,"If the goal is to be able to take individual apps and treat them as ""stand alone"" items why are you suggesting we inherit an html page from the blogs app 'blogs/base.html' into the apps template 'login.html' for example?",True
+@ashG1234,2019-03-04T05:41:18Z,0,Dear Corey THANK YOU for producing such wonderful videos. Much appreciated. I would request you to produce 2 more videos - 1) Token Based authentication (must required for REST apps) and 2) Use of the token for fetching information.,True
+@rohanraj4260,2019-02-27T07:09:14Z,0,"sir ,how make without default Login & Logout views,  login and registration",True
+@lyfofvipin_tech,2019-02-25T06:41:24Z,0,Awesome tutorial but i have a dougth in a project where i have 2 type of user sailor and buyer i have 2 different register page for them but the problem is how could i differ them ?,True
+@hamidraza5416,2019-02-23T09:08:13Z,1,How some one can dislike it,True
+@boomnj127,2019-02-23T08:28:18Z,2,thank you for every thing. you are the best teacher,True
+@ginopornasdoro3081,2019-02-22T12:22:13Z,0,also when i logout and hit back button on my browser it becomes login again.,True
+@ginopornasdoro3081,2019-02-22T11:55:09Z,0,how do you put restriction on login and registration page after logging in?,True
+@jayachandraB,2019-02-19T11:37:13Z,0,"Hi Corey after  implement profile page, it is displaying the profile even after logout also, if we logout, the previous logged in user details should not be displayed.",True
+@jalphonso,2019-02-16T14:49:50Z,0,"Corey I need your help, is it possible to add 2 forms in auth_views.LoginView? I'm trying to add a Registration form in the LoginView kinda like the one in Linkedin's, but it doesn't call the view request because it only takes a template parameter in auth_views.LoginView.as_view()",True
+@NobleStories1,2019-02-15T15:27:09Z,0,"Hi for those who have a problemes in debuggin run this instruction before (python manage.py runserver)    Install Dependencies    1 (pip install -r requirements.txt )   Set Database (Make Sure you are in directory same as manage.py)      2 (pip install pillow)  3 (python manage.py makemigrations ) 4 (python manage.py migrate )   Create SuperUser    5 (python manage.py createsuperuser )     After all these steps , you can start testing and developing this project.    6( python manage.py runserver)     That's it! Happy Coding!",True
+@juniormichaelseri5212,2019-02-11T09:23:50Z,1,Fantastic tutorial!,True
+@ALEXEIS,2019-02-08T06:45:48Z,0,How to prevent already logged-in user from accessing the login/register routes.,True
+@mahadihassan5897,2019-02-07T21:26:23Z,1,"I want two user type in my app, one is student another is teacher, and after log in i want to route them two different views, how can I do that",True
+@ahmad-ali14,2019-02-07T00:28:02Z,2,this is the best toturial,True
+@rambaghdadi7525,2019-02-06T23:07:23Z,0,"Hi Corey, great tutorial! Just one question. Is there a way to prevent users being logged out by directly typing the logout url?  Basically I only want users to be able to logout if they click on the logout button like most website do.",True
+@sriharsha580,2019-02-06T08:30:58Z,0,"Hi COREY thanks for the tutorial. I'm currently facing two issues regarding this tutorial. user.isautheticated() in base.html seems  always remaining true in my case. The page is displaying only logout, no login or register. I'm getting the following error for profile module 'django.contrib.auth.views' has no attribute 'profile'",True
+@DataInsightsNepal,2019-02-01T11:10:26Z,0,this tutorial is great i also want to learn django rest framework plz do make the video COREY. thankyou,True
+@user-zp7ey1sl5b,2019-01-27T14:17:57Z,0,"Hello) Your videos are really helpful I have a small question to you, maybe it will be easy for you to answer. Any help would be appreciated :) It's about the last part of your video: reverse routing. For example: I have an article in the blog. And user wants to leave a comment. Only authenticated users can post comments. OK, then user decided to log in. And after succesfull logging in he/she wants to navigate to previous page. So, there should be such shema: post page > logging in > back to the same post page. How should I implement this?) How can I remember adress user is came from?",True
+@rishabhkumar5611,2019-01-26T13:07:43Z,478,"I love it how he says - "" We'll fix that in just a second "" and actually fixes it quite well in a second :)",True
+@Canda-fh4xc,2019-01-25T19:23:15Z,188,"This is my second tutorial series with you. I already finished Python Flask Tutorial. I watched multiple Django tutorials. Free (blogs and YouTube) AND Paid(Udemy, edx,..). Your way of teaching is completely different. You are real instructor. You made Django/python really simple to anyone who wants to learn the language. I will make sure to share your Youtube Tutorial Channel with everyone I know/meet  Thank you so much,",True
+@arunjose1596,2019-01-25T07:40:01Z,0,"This tutorial is really helpful. I have a doubt, can we add a gender field to the existing default django auth_user table",True
+@Aurelian159,2019-01-23T11:36:27Z,0,how to set an expiration of any username?,True
+@varunvaibhav8950,2019-01-21T11:40:57Z,0,"hey i'm suddenly started getting this error when try to login please help me... code 400, message Bad request syntax ('csrfmiddlewaretoken=VszeF17Lj9Lr2x4NhvpKcqb7445fiBiltG1MvNwSlfGBfD4auxWC3N0CF eRvPziB&username=admin&password=admin&button=')",True
+@semanurdin2777,2019-01-18T12:38:38Z,1,You are the best!,True
+@room101b7,2019-01-11T12:26:27Z,0,"Good tutorial, one question. Once Iogged out, the profile page should have been blocked, this is the case if I type 'localhost/profile/' into the browser, but if I simply do back from logout page I'm not blocked. Why is this?",True
+@BlackScythertainment,2019-01-11T10:41:33Z,0,I've run in some errors and everybody on google search claims it's Django*s fault. It's a little too much text. So I'll create a StackOverflow Question and send you the link.,True
+@vladadidko3932,2019-01-08T16:25:53Z,4,"Thank you, Corey! You're the best)",True
+@amitzore,2019-01-08T15:19:52Z,1,Thanks Man,True
+@furkangurel175,2019-01-07T18:16:57Z,0,Azerbeycandan selamlar,True
+@zacmitri4281,2019-01-05T11:18:47Z,1,how did you learned django? or from where did you get the resources to learn it?,True
+@tashiwangchuk9126,2019-01-03T06:00:53Z,2,Thank you so much for the tutorial.,True
+@vishnusingh4118,2019-01-01T09:44:33Z,0,0:40 Intro,True
+@ziyisong634,2018-12-29T21:51:43Z,0,I cannot logout successfully for some reason.,True
+@vp9041,2018-12-29T17:56:01Z,3,"Annoyed in the past about not having that next function, truly a nice feature, well explained nice video",True
+@anoopkg8681,2018-12-28T17:33:15Z,1,who are the two guys who disliked this vedio ? i wanna ask him something baad,True
+@MistaT44,2018-12-27T23:02:11Z,0,"I feel that in the flask series, it was more about logic and actually writing code in a ""traditional"" manner (if that makes sense), I feel that if I start a project of my own after this series, I won't remember half the things that are needed cuz you have to do it ""the dango way"". Just my thoughts, excellent series nonetheless!",True
+@michelkant,2018-12-27T15:02:19Z,0,"Bedankt Corey! Once again learned somthing new :) It's interesting to see the already 4 different versions of URL patterns we have created, including the basic admin.site.urls. Don't yet understand why class based views are preferred over the include version. Is that a matter of prefference? Also, in large applications would you advice to go with the ""include' version and manage the URL's per app? Or always in the main URL's file?",True
+@vivekbhavsar3037,2018-12-26T12:39:49Z,0,"Thanks Sir, I want help. On my windows it works fine but can you tell me how to reduce font size of our whole web page. I tried it by doing in main.css file but it did not work. Because it looks little bit bigger on my PC so I want to reduce its size. Please reply.",True
+@patriotlightning7791,2018-12-22T16:31:59Z,0,"Too much magic, this is not like the flask way.",True
+@patrickgermaine,2018-12-21T05:16:49Z,0,2 people missed the like button,True
+@m.farhanzia9712,2018-12-17T11:16:14Z,0,Hi Corey How u r showing user profile without doing the migrations?,True
+@lardosian,2018-12-15T17:28:58Z,0,"Whats peoples feelings on Django, I have been using flask for a project last few weeks, thanks to Corey's Flask series.  Some things I prefer in Django is having things like migration already set up, was having problems trying to install that properly in flask, on the other hand it seems to be a bit trickier styling my own forms in django, was able to do it very easily in flask.  I have a feeling I will be leaning towards django but need to get more familiar.  I do have a friend who hates django though!",True
+@muralimohan807,2018-12-12T11:57:47Z,0,TypeError at /register/  save() got an unexpected keyword argument 'force_insert'  Request Method:  POST Request URL:  http://localhost:8000/register/ Django Version:  2.1.4 Exception Type:  TypeError Exception Value:    save() got an unexpected keyword argument 'force_insert' at user creation and profile creation as i finished almost all except this is not fixed kindly let me know where i got struck reply awaiting,True
+@andrewchen7710,2018-12-11T23:33:15Z,5,Thank you so much Corey! Really helps my startup on building on page! Whether we succeed or not we owe a huge one to you!,True
+@FULLUPE1,2018-12-05T21:36:03Z,2,"i wish to see u and say to you  ""medaase""  = THANK YOU",True
+@noirekuroraigami2270,2018-11-30T01:45:00Z,1,Great Series,True
+@moebazzi8412,2018-11-27T05:02:51Z,0,AMAZING AND CLEAR TUTORIALS WELL DONE COREY!!!,True
+@jear3559,2018-11-24T19:11:23Z,3,"Hi Corey, Thanks for this tutorial... it helps me a lot...",True
+@brylie,2018-11-23T20:37:56Z,0,"Please remember to add a LICENSE.txt to your GitHub repository, so people can re-use the code you shared :-)",True
+@suneeltech6857,2018-11-20T09:49:07Z,1,"Excellent videos, thanks for the series .  ""from users import views as user_views"" this is not working for me in main project urls.py module when we ry  to import views from users app  ,and it says unresolved reference. i tried to resolve myself but no luck even after spending enough time.  any help here to solve (i am using pycharm editor, is this the culprit)  .  i have unblocked and proceeded with ""path('user/', include('users.urls')),"", so my paths become user/register and user/profile",True
+@suneelarumalla,2018-11-20T09:43:13Z,2,"Nice videos,thanks for all your hard work",True
+@adamtak3128,2018-11-18T00:54:03Z,16,"Question : How do you know what to import and where to import it from? That's the most confusing part of django to me. Thanks,",True
+@andrewdenike1743,2018-11-14T06:48:05Z,0,"In the base.html file, I am curious as to where the 'user' is coming from when we run the conditional to check if it 'is_authenticated' ?",True
+@gabriel123452870,2018-11-11T23:11:27Z,1,there is a way to put a placeholder in login form ?,True
+@nicachipal1,2018-11-11T18:19:01Z,0,"Awesome videos Corey ! Thank you so much.  Now to the question.  How can you allow access to a group of pages that are exclusively for people who are registered to the website? Let see you have probably 50 to 100 pages content than only registered user can access. How would you do that ?  Do you have to create a list of all these pages or can you  create a folder where all these pages will live and only and only restrict access to that folder?  if it is like that, how would you do it ?  Thank you so much in advance.",True
+@SaimonThapa,2018-11-11T09:06:10Z,0,"hello corey, two questions: Should we always use django.contrib.auth.model to create users, and if we don't how can we authenticate if a user has logged in?",True
+@manikndn8,2018-11-10T15:32:37Z,2,You are awesome,True
+@jeremyohandley9133,2018-11-04T01:41:22Z,0,"I'm a little perplexed about how the HTML is the same within the register and login page, but they have different text fields available. Which part of the code actually sets up which fields are displayed?",True
+@JesusGil90,2018-10-28T06:16:38Z,1,Beautiful 😍,True
+@deepakprakash8940,2018-10-19T14:50:35Z,0,"Like always ""mast"" (fantastic) in Hindi",True
+@iancarr3923,2018-10-17T19:36:01Z,0,Excellent again! Could not get user.isauthenticated to work but is working in another project so will review.,True
+@umdmrlbro,2018-10-17T17:53:01Z,1,"Hi Corey, you are a great teacher, thanks for these videos.   What is the difference between referencing ""user"" directly in the profile template, vs doing a ""currentuser = request.user"" and passing that as the context in the user views? Both seem to work but is one way better than the other?",True
+@user-vr8kh7pl5k,2018-10-16T09:08:13Z,1,thank you~,True
+@heavylifter,2018-10-12T07:48:07Z,2,"This is the very best tutorial I have ever seen in youtube! Thank you very much!!!!  One question,  is there a way to log in with email without customizing the user model?",True
+@vagifmammadaliyev9968,2018-10-04T17:59:37Z,1,How is there 1 dislike?,True
+@apoorvwatsky,2018-09-30T14:00:45Z,3,"Amazing tutorials , Corey! One doubt. If I'm trying to access the profile page without being logged in, how can I show the log in page with an additional message saying ""You must login to view your profile.""",True
+@timothybloxsome5802,2018-09-29T00:59:50Z,14,Fantastic series! plus thanks for all the other Python lessons.  Just sent a donation by Paypal!  (Might show up in your account as CryBloxsome ),True
+@LamusWhiteALM,2018-09-18T10:09:32Z,3,Thanks Corey :),True
+@Teranomy,2018-09-15T20:28:45Z,1,God bless.,True
+@cgunawan,2018-09-14T11:57:41Z,1,This awesome! This helps alot,True
+@MiguelSantos-dl4il,2018-09-14T11:47:24Z,6,Hey Corey! Thank you for the great tutorials and your effort.  I would like to ask a question: how do you remember which module to import?,True
+@lkarthik1985,2018-09-14T05:06:34Z,6,"Hi Corey, Thanks for this excellent video.",True
+@arindammukherjee391,2018-09-10T11:16:03Z,0,Thanks Corey for such an awesome series. I was hoping to learn the Django Rest Framework as well so will you do it in future for another project?,True
+@AbhishekKumar-mq1tt,2018-09-04T18:33:56Z,0,Thank u for this awesome video and series,True
+@Skaxarrat,2018-09-03T16:35:55Z,0,Won't be better to create an accounts app for Login/Logout system?,True
+@DocPosture,2018-09-03T02:24:34Z,0,3:53 im not getting as much error info. basically getting 404 + method + url + order of url patterns attempted. nothing else. one of the reasons i fell in love with python was the gobs of error info i get. #wheresmytraceback?,True
+@olhamarushchak3514,2018-08-31T19:45:34Z,4,"Love you so much!! Thank you for this Django course, I've been waiting for so long!",True
+@namanjain8002,2018-08-31T19:34:40Z,1,Love you Corey... : ),True

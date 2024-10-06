@@ -1,0 +1,153 @@
+author,updated_at,like_count,text,public
+@rede_neural,2024-03-21T00:58:19Z,0,"11:17 are you sure we have to sum them? It doesn't seems like the the two sides are equal when we ""cancel"" the chain",True
+@Philanthropic-fg8xx,2024-03-06T17:08:33Z,0,Then what will be the formula for derivative of loss wrt w12^2 ?,True
+@ganeshvhatkar9040,2024-03-03T11:19:59Z,1,"one of the best videos, I have seen in my life!!",True
+@mdmuqtadirfuad,2024-02-23T22:32:48Z,0,I can't understand( 11:09) dL/dw^2_11= 1st term + 2nd term... We are updating w11. But how w12 make impact (2nd term)?,True
+@deepknowledge2505,2024-01-10T19:09:09Z,0,"Backprobagation with example, very simple  https://youtu.be/EQPjZwyBa1g",True
+@axelrocco2760,2023-11-22T14:31:42Z,0,"Sir, I have a doubt , how will we calculate del(o31)/del(o21) , both are functions",True
+@joshithmurthy6209,2023-09-22T05:23:22Z,0,You have such a poor math understanding of partial derivatives,True
+@Rimon-Talukdar,2023-09-16T19:38:40Z,0,"Your teaching style is nice. But u have made a mistake while backpropagating.   Loss function, L = Σ 1/(2m) *  (yi - y^i)^2    ;  the summation is from i = 1 to i = m where m = total no of sample data;  yi = actual output of i-th sample; y^i = prediction (output value estimated through feed forward network) for yi (actual output of i-th sample)  dL/dw11(2) = dL/dO31 * dO31/dO21 * dO21/dw11(2)        ; This is because w11(2) affects the output through f21 and hence through  O21. w11(2) does not affect the output through O22  dL/dw11(1) = dL/dO31 * dO31/dO21 * dO21/dO11 * dO11/dw11(1) + dL/dO31 * dO31/dO22 * dO22/dO11 * dO11/dw11(1)        ; This is because, w11(1) affects the output through f11 and thereby through O11. And that is why, all the connections that are generated from O11 affects the output from w11(1).  Hope, that makes your mistake clear.   Despite the mistake, i appreciate your hard efforts. Keep on going, brother.",True
+@tobiasfan5407,2023-08-23T18:32:00Z,0,subscribed,True
+@tobiasfan5407,2023-08-23T18:31:39Z,0,thank you ser,True
+@varunsharma1331,2023-07-25T21:34:15Z,0,Great explanation. I was looking for this clarity since long...,True
+@adityashewale7983,2023-07-24T04:27:36Z,0,"hats off to you sir,Your explanation is top level, THnak you so much for guiding us...",True
+@jontyroy1723,2023-07-20T18:17:33Z,0,"In the step where dL/dw[2]11 was shown as addition of two separate chain rule outputs, should it not be dL/dw[2]1 ?",True
+@channel8048,2023-07-13T15:53:57Z,0,Thank you so much for this!  You are a good teacher,True
+@Pink_Bear_,2023-06-24T21:08:29Z,1,here we used optimizer to update the weight slope is dl/dw so w here is w_old or something else.,True
+@iqrajannat,2023-05-28T20:45:13Z,0,"HELLO, CAN I GET THE LINK OF ITS IMPLEMENTATION",True
+@tarun4705,2023-05-09T00:55:49Z,3,This is the most clear mathematical explanation I have ever seen till now.,True
+@aj_actuarial_ca,2023-05-05T12:52:03Z,1,Your videos are really helping me to learn Machine learning as an actuarial student who is from a pure commerce/ finance background,True
+@sriramayeshwanth9789,2023-04-28T17:13:44Z,0,If someone is looking for a solved example...  https://youtu.be/AWhboi1aTxI,True
+@ZaChaudhry,2023-04-26T17:27:06Z,0,"❤. God bless you, Sir.",True
+@OMPRAKASH-uz8jw,2023-03-04T18:11:28Z,2,"you are no one but the perfect teacher,keep on adding playlist",True
+@ritabrotoganguly5729,2022-12-08T18:22:50Z,0,Iska zytatar video depthless hain. Ulta sidha facts aur kaise bhi karke cover kiya hua hain. Iska playlist dekhke exam doge toh achcha maza ayega tumko.,True
+@venkat3574,2022-10-07T08:36:29Z,0,How Can We Calaculate the Weights,True
+@akashsinghdahiya5862,2022-10-03T13:25:37Z,0,👍👍,True
+@sapito169,2022-08-19T02:31:11Z,0,finally i understand it,True
+@gunjanagrawal8626,2022-08-12T06:52:10Z,1,"Could you please recheck the video at around 11:00, W11 weight updation should be independent of W12.",True
+@good114,2022-06-29T10:25:50Z,1,Thank you Sir 🙏🙏🙏🙏♥️☺️♥️,True
+@pravinshende.DataScientist,2022-04-28T03:03:03Z,0,loss will decrease for each and evry  epoch . .. sir you said opposite ..,True
+@Yzyou11,2022-04-27T18:05:48Z,0,Sir confusion last find derivative of loss,True
+@manateluguabbaiinuk-mahanu761,2022-03-17T15:13:52Z,2,Deep Learning Playlist concepts are very clear and anyone can understand easily. Really have to appreciate your efforts 👏🙏,True
+@rohitlohani7378,2022-02-23T05:21:36Z,0,"sir, can you tell that difference btw w(11 ) and o(11)",True
+@rahul-wz7rn,2022-01-05T01:20:06Z,0,is w11(2) and w12(2) calculation is same...?,True
+@uddalakmitra1084,2022-01-03T10:39:39Z,0,Excellent presentation Krish Sir .. You are great,True
+@orgdejavu8247,2021-12-25T17:29:39Z,0,I think what you write at 11:00 is dL/dW111 and NOT dL/dW211,True
+@mikelrecacoechea8730,2021-12-15T17:36:33Z,0,"Hey Krish, god explanation   I think there is one correction. In the end, you explained for w11^2, what I feel is, it is for w11^1.",True
+@saygnileri1571,2021-11-11T20:15:05Z,0,Nice one thnks a lot!,True
+@xensisindia5276,2021-10-07T17:33:33Z,0,"In the chain rule, where does the bias go?????",True
+@vishaljhaveri6176,2021-10-03T04:36:07Z,0,Thank you sir.,True
+@pranjalbahore6983,2021-09-25T11:34:40Z,0,so insightful @krish,True
+@grownupgaming,2021-09-18T03:11:37Z,0,"Isnt the dL/dw2-11 independent of dL/dw2-12?    At 12:21 why is dL/dw2-11 those two terms added up?  dL/dw2-11 is the first line of additions, and dL/dw2-12 is the second line of additions.",True
+@ZIgoTTo10000,2021-09-07T14:44:17Z,0,"You have saved my life, i owe you everything",True
+@pranjalgupta9427,2021-08-31T05:08:48Z,1,Nice 👍👏🥰,True
+@utkarshdadhich771,2021-08-15T05:44:32Z,0,@krish naik Correction at 13:05.. I guess Loss should be dcecreasing not increasing with to every epoch.,True
+@nishitnishikant8548,2021-08-01T01:48:53Z,44,"Of the two connections from f11 to the second hidden layer,  w11^2 is affecting only f21 and not f22(as it affected by w21^2). So, dL/dw11^2 will only have one term instead of two.  Anyone, pls correct me if i am wrong.",True
+@premranjan4440,2021-07-23T16:38:28Z,0,We have to store the output and weights of each neuron and then use them to update.,True
+@hope2251,2021-06-09T17:22:11Z,2,"10:30 i dont think w112 is effecting o22, so the plus oart should not come",True
+@deepaktiwari9854,2021-06-03T09:07:07Z,12,Nice informative video. It helped me in understanding the concept. But i think at end there is a mistake. You should not add the other path to calculate the derivative for W11^2. Addition should be done if we are calculating the derivative for O11.  w11^2(new) = (dl/dO31 * dO31/dO21 * dO21/dW11^2),True
+@bsivarahulreddy,2021-05-17T05:51:06Z,0,"Sir, O31 is also impacted by weight W11(3) ryt? why we are not taking that derivative in chain rule?",True
+@sahandajami3171,2021-05-15T07:12:40Z,0,"Teaching good, but numerous adds is irritating",True
+@aswinthviswakumar64,2021-05-10T02:31:26Z,0,Great Video and a Great initiative sir  from 12:07 if we use same method to calculate dL/dW12^2 it will be the same as dL/dW11^2.   is this the correct way or am I getting it wrong  thank you!,True
+@louerleseigneur4532,2021-04-20T06:41:13Z,0,thanks sir,True
+@cynthiamoricordova5099,2021-04-04T20:36:17Z,0,Thank you so much for all your videos. I have a question respect of the value to assign to bias. This value is a random value? I will appreciate your answer.,True
+@nikhilramabadran2959,2021-04-04T19:32:34Z,0,for calculating the loss function wrt W112 why do you also consider the other branch leading to the output ?? Kindly reply,True
+@shrutiiyer68,2021-03-21T14:28:37Z,1,Thank you so much for all your efforts to give such an easy explanation🙏,True
+@hashimhafeez21,2021-03-14T07:22:52Z,0,first time i undestand very well by your explanation.,True
+@kumarsaimirthipati8173,2021-03-13T09:27:32Z,0,Please tell me what's that o represents,True
+@kumarsaimirthipati8173,2021-03-13T08:54:35Z,0,Sir what that o represents,True
+@pakizeerdogmus7593,2021-03-11T10:27:37Z,1,"As far as I know, there is an error for the calculation of w11.",True
+@viveksm863,2021-03-07T12:56:36Z,1,"Im able to understand the concepts you are explaining, but I dont know that from where do we get values for weights in forward propgation.Could you brief about that once if possible.",True
+@debtanudatta6398,2021-03-06T08:40:44Z,177,"Hello Sir, I think there is mistake in this video for backpropagation. Basically to find out (del L)/(del (w11^2)), we don't need the PLUS part. Since here O22 doesn't depend on w11^2. Please look into that. The PLUS part will be needed while calculating (del L)/(del (w11^1)), there O21 & O22 both depend on O11 and O11 depends on w11^1.",True
+@RomeshBorawake,2021-03-02T06:48:22Z,18,"Thank you for the perfect DL Playlist to learn, wanted to highlight a change to make it 100% useful (Already at 99.99%),  13:04 - For Every Epoch, the Loss Decreases adjusting according to the Global Minima.",True
+@jerryys,2021-02-28T07:54:31Z,1,Great job! Does the last derivative need the second part? I do not get it.,True
+@akumatyy,2021-02-07T15:41:28Z,9,"Jabardast sir, i am watching ur videos after watching Andrew Ng's lecture of deep learning. I will say you simply explained even more easily. Superb.",True
+@shashishankar1352,2021-01-29T02:56:35Z,0,"When we update the weights, book says to travel in opposite direction of gradient. But gradient on loss function curve could be negative or positive, so when gradient is negative why we should travel in opposite direction?",True
+@satishkundanagar3237,2021-01-28T17:27:35Z,0,"""Why"" back propagation works in learning weights of the neural networks? What is the intuition behind using back propagation to update the weights? I know that we are trying to make corrections w.r.t the predicted value if the predicted value has some errors when compared to the actual value.",True
+@utkarshashinde9167,2021-01-07T12:23:19Z,0,"Sir , If to every single neuron in hidden layer we are giving same weights and features with bias then what is the use of multiple neurons in single layer?",True
+@sukumarroychowdhury4122,2021-01-07T04:07:51Z,0,"For the first time, I hear a clear example of Chain Rule in the context of Back Propagation. Congratulations.   This is super class. I want to join your class in iNeuron. I sent you a mail. Please reply.   Email: eroali@yahoo.com",True
+@skviknesh,2021-01-06T07:44:22Z,1,Thanks ! That was really awesome.,True
+@dipankarrahuldey6249,2020-12-20T17:40:22Z,4,"I think this part dL/dw11^2 should be (dL/dO31 *dO31/O21 *dO21/dO11^2). If we are taking derivative of dL w.r.t w11^2 then,w12^2 doesn't come into play. So,in that case, dL/dO12^2= (dL/dO31 *dO31/O22 *dO22/dw12^2)",True
+@someshanand1799,2020-12-19T06:00:11Z,1,"great video especially you are giving the concept behind it, love it.. thank you for sharing  with us.",True
+@tanvirantu6623,2020-12-06T14:01:16Z,0,"love you sir, love ur effort. love from Bangladesh.",True
+@yedukondaluannangi7351,2020-12-02T16:27:54Z,0,Thanks a lot for the videos it helped me a lot,True
+@kasozivincent107,2020-12-02T00:41:58Z,4,But w(11)^3 doesn’t affect O(21). Am sure you made a mistake. That addition seems unnecessary,True
+@chaitanyakumarsomagani592,2020-11-17T15:30:08Z,0,"krish sir, is it w12^2 is depends on w11^2  then only we can do differentiation. w12^2 is going one way and w11^2 is going another way.",True
+@hafi029,2020-10-21T05:53:02Z,0,a doubt in dL/dw11 is that correct?? we need to add?,True
+@mohammedsaif3922,2020-10-20T21:30:18Z,0,Krish your awesome finally I understood the chain rule from you thanks Krish again,True
+@DP-od4yr,2020-10-17T12:22:24Z,0,Hi Sir...plzz show the path for w11 to the suffix of 1... thanks !!,True
+@rajshekharrakshit9058,2020-10-12T13:54:58Z,0,I think the equation of dL/dw^(2)11 is wrong.,True
+@rajshekharrakshit9058,2020-10-12T13:51:25Z,1,"sir i think one thing you are doing is worng. as w^(3)11 impacts O(31) , here is one activation part. so the dL/dw^(3)11 = dL/dO(31)  .  d0(31)/df1 .  df1/dw^(3)11  I might be wrong, can you please clear my query ?",True
+@saritagautam9328,2020-10-09T08:44:51Z,0,This is really cool. First time samjh aaya. Hats off Man.,True
+@aditideepak8033,2020-09-28T19:36:28Z,1,You have explained it very well. Thanks a lot!,True
+@muntazirmehdi503,2020-09-02T18:06:30Z,0,how will we find value of w12  ?,True
+@tabilyst,2020-08-28T16:35:16Z,0,"Hi Krish, can you pls let me know, if we are calculating the derivative of W2 11 weight then why we are adding derivative of W2 12 weight in that. ? pls clear",True
+@vishalgupta3175,2020-08-23T20:56:01Z,0,"Hi sir, Sorry to say you that which degree you have completed,you are awesome!",True
+@shindepratibha31,2020-08-17T07:40:13Z,0,"Hey Krish, your way of explanation is good.   I think there is one correction. In the end, you explained for w11^2, what I feel is, it is for w11^1. It would be really helpful if you correct it because many are getting confused with it.",True
+@MrityunjayD,2020-08-14T15:13:04Z,0,Really appreciable the way you taught Chain rule...awesome..,True
+@karthikprasad7991,2020-08-07T18:18:49Z,0,"Thanks a lot for this video , some m f wont explain properly",True
+@mapy1234,2020-08-07T13:23:39Z,0,how to calculate w11^1?,True
+@jpdubey1765,2020-07-30T10:12:26Z,0,Inspirational story about importance of Being a balanced controller https://youtu.be/4BiKhka7APc,True
+@sivakrishna1682,2020-07-26T08:01:56Z,0,"Sir, I've just completed my class 10. So, I don't know if my doubt is correct or not so please mind it.  coming to my doubt... If both the derevatives (dO31 and dO32) get cancelled then why did't you remove them from there.  hope you understand my doubt.",True
+@camilogonzalezcabrales2227,2020-07-25T03:01:48Z,2,"Excellent video, I'm new in the field, could someone explain me how the O's are obtained. Are that O's the result of each neuron computation? are the O's numbers equations?",True
+@bharathreddy2805,2020-07-01T10:03:43Z,0,What is the difference between gradient descent and back propagandtion,True
+@sivaveeramallu3645,2020-06-28T02:20:15Z,0,excellent Krish,True
+@latifbhanger,2020-06-15T09:10:56Z,3,"Awesome Mate. however, I think you got carried away for the second part to be added. read the comments below and correct, please. W12 may not need to be added. But it all makes sense.  A very good explanation.",True
+@asvintha1035,2020-06-10T19:53:10Z,1,Indian Andrew NG,True
+@JaySingh-gv8rm,2020-06-06T06:55:56Z,0,how can we cumpute dL/dO31 or what is the formula for to find dL/dO31 ?,True
+@siddharthdedhia11,2020-05-25T21:11:55Z,0,Skip to 3:50 If you've watched the previous videos,True
+@amitjajoo9510,2020-05-16T18:24:37Z,1,Best video on back proportional on internet,True
+@dnakhawa,2020-05-15T16:11:41Z,0,"You are too Good Krish , nice Data science content",True
+@skc1995,2020-05-13T09:18:30Z,0,"sir, What is Jacobian and Hessian and how to define both of them in my objective function in python. if you could address that, would be a huge help",True
+@vishalsavade3867,2020-05-08T07:18:42Z,0,sir how we will decide the global minima??,True
+@TheTechnokobi,2020-05-07T16:06:46Z,0,WHAT IS 'i' IN THE LOSS FUNCTION ?,True
+@chandanbp,2020-05-05T11:39:04Z,0,Great stuff for free. Kudos to you and your channel,True
+@rahulagnihotri344,2020-05-02T08:36:48Z,0,👍👌,True
+@sundara2557,2020-05-02T02:26:27Z,0,I am going through tour videos. You are Rocking Bro.,True
+@jpovando25,2020-05-01T18:03:05Z,0,Hola. Sabes Redes nueronales (Neural networks) utilizando el software Statistica?,True
+@mranaljadhav8259,2020-04-29T18:23:27Z,1,"Well Explained sir ! Before starting the deep learning, I have decided to start the learning from your videos.  You explain in very simple way ...Anyone can understand from your video. Keep it up Sir :)",True
+@kasimidrisi7602,2020-04-26T23:46:27Z,1,His sir i think there is something wrong wrong because the w11 to the suffix 2 is not impacted with the w12 to the suffix 2..! But this playlist is really helpfull to me thankyou sir...:),True
+@tintintintin576,2020-04-25T13:13:17Z,0,so helpful video  :) thanks,True
+@arpitdas2530,2020-04-22T15:31:55Z,2,Your teaching is great sir. But can we get some video also about how we will apply these practically in python?,True
+@sandipansarkar9211,2020-04-15T19:58:44Z,0,yeah I did understand chain rule but being a fresher please provide some easy to study articles on chain rule so that i can increase my understanding before proceeding further.,True
+@nikhilverma6702,2020-04-08T20:20:33Z,0,Please tell me the reason why the second path is considered while derivating dL/dw11 . I guess it's not needed because in chain rule the effect of w12 becomes null,True
+@abhishek-shrm,2020-04-07T12:15:21Z,1,This video explained everything I needed to know about backpropagation. Great video sir.,True
+@Adinasa2,2020-03-29T08:53:21Z,0,How do we know we have reached the global minima,True
+@mahajanpower,2020-03-26T13:08:57Z,0,Hey krish! You need to make a correction to find out the derivative of w11 new.,True
+@pratikgudsurkar8892,2020-03-25T15:09:00Z,2,"We are solving supervised learning problem that's why we have loss as actual-predicted , what in case of unsupervised where we don't have y actual how the loss is calculated and how the updation happen",True
+@devgak7367,2020-03-08T14:39:53Z,0,Just awsome explanation of gradient descent.,True
+@yuvi12,2020-03-07T04:23:17Z,0,"but sir, In other source of internet, they are showing a different loss function. which 1 would i believe?",True
+@pratikchakane5148,2020-03-04T06:21:12Z,0,If we are calculating the updated weight of W11^2 then why we need to add the weight W12^2 ?,True
+@PradipKumar-zi2pz,2020-02-09T14:46:53Z,0,"why , he has not differentiated activation function , when he was updating weight w11^3? I think ,something wrong.",True
+@mdejazuddin4939,2020-02-04T15:19:34Z,0,"last differentiation was wrong, u can't add extra terms",True
+@manjeetkumar1807,2020-02-03T17:50:53Z,1,Some corrections is needed for last 3 minutes..,True
+@aravindvarma5679,2020-01-05T19:11:57Z,0,Thanks Krish...,True
+@enquiryadmin8326,2019-12-27T03:02:22Z,0,"in the back propagation, calculation of gradients using the chain rule for the w11^1, i think we need to consider 6 paths. please kindly clarify.",True
+@VIKASPATEL-of2sy,2019-12-10T12:07:22Z,36,"i guess differentiation done at 11:26 is  bit  wrong, r u sure about? i mean why do we have to addan extra term of delta loss by delta w12",True
+@ThachDo,2019-12-09T07:16:28Z,1,"10:44 you are pointing to w1_11, but why the formula on board is the derivative w.r.t w2_11?",True
+@quranicscience9631,2019-11-21T02:30:43Z,0,very good content,True
+@ruchikalalit1304,2019-11-05T05:41:30Z,8,@ 10:28 - 11:22 krish do we need both the paths to get added . since w11 suffix 2 is not affected by lower path ie w12 suffix 2? please tell,True
+@punyanaik52,2019-10-30T16:38:20Z,15,"Bro, there is a correction needed in this video... watch out for last 3 mins and correct the mistake. Thanks for your efforts",True
+@AmitYadav-ig8yt,2019-10-15T14:35:42Z,30,It has been years since I had solved any mathematics question paper or looked at mathematics book. But the way you explained was damn good than Ph.D. holder professors at the University.  I did not feel my away from mathematics at all. LoL- I do not understand my professors but understand you perfectly,True
+@omkarpatil2854,2019-10-12T19:27:31Z,3,"thank you for great explanation,  i have a question,  with this formula which generates for ( diff(L) / diff (W11))  is completely same for ( diff(L) / diff (W12)) i am i right? does both value gets same difference in weights while back propagation ( though W old value will be different",True
+@rajeeevranjan6991,2019-10-08T21:58:27Z,6,"simply one word ""Great""",True
+@aminzaiwardak6750,2019-10-08T07:37:36Z,1,"thank you sir, you explain very good keep it up.",True
+@sandeepganage9717,2019-09-26T13:54:37Z,0,Brilliant explanation!,True
+@bibhutiswain175,2019-09-23T14:36:04Z,0,Really helpful for me.,True
+@Skandawin78,2019-09-16T18:34:24Z,0,Do u update the bias during backpropagation along with weights? Or does it remain constant after the initialization?,True
+@manjunath.c2944,2019-09-12T17:15:31Z,1,clearly understood very much appreciated for your effort :),True
+@iamneela,2019-09-12T13:19:44Z,0,"Hey thanks for everything. I have a question, how we know that we have reached global minima? does loss function will be changed to 0 or 1 at global minima? Thanks",True
+@armanporwal4032,2019-08-31T07:23:18Z,2,OP... Nice Teaching... Why don't we get teachers like u in every institute and college??,True
+@shashireddy7371,2019-08-29T14:51:48Z,0,Well explained video,True
+@vishalshukla2happy,2019-08-26T18:08:14Z,1,Great way to explain man.... keep on going,True
+@VVV-wx3ui,2019-08-26T09:14:41Z,0,"This is simply yet Superbly explained. When I learnt earlier, it stopped at Back Propagation. Now, learnt what is in Backpropagation that makes the Weights updation in an appropriate way, i.e., Chain rule. Thanks much for giving clarity that is easy to understand. Superb.",True
+@kamranshabbir2734,2019-07-22T16:46:33Z,14,the last partial derivative of Loss we have calculated w.r.t. (w11^2) is that correct how we have shown there that it is dependent upon two paths one w11^2 and other w12^2 ......... Please make it clear i am confused about it ??????,True
+@meanuj1,2019-07-22T15:15:47Z,1,Nice and requested to please add some videos on optimizer...,True
+@sekharpink,2019-07-22T13:19:18Z,1,"Hi Krish,  Please upload videos on regular basis. I'm eagerly waiting for your videos.  Thanks in Advance",True
+@saitejakandra5640,2019-07-21T17:53:49Z,3,Pls upload ROC auc related concepts,True
+@manikosuru5712,2019-07-20T19:35:16Z,1,"Amazing Videos...Only one word to say ""Fan""",True
+@maheshvardhan1851,2019-07-20T14:52:52Z,2,great effort...,True
+@hokapokas,2019-07-20T13:17:39Z,1,Loved it man... Great effort in explaining the maths behind it and chain rule.  Pls make a video on its implementation soon.  as usual great work.. Looking forward for the videos. Cheers,True
+@ksoftqatutorials9251,2019-07-20T05:26:07Z,5,I don't want to calulate Loss function to your videos and no need to propagate the video back and forward i.e you explained in such a easiest way I have ever seen in others. Keep doing more and looking forward to learn more from you. Thanks a ton.,True
+@sekharpink,2019-07-19T18:42:18Z,2,Very very good explanation..very much understandable. Can I know how many days ur planning to complete this entire playlist?,True
+@ga43ga54,2019-07-19T17:18:45Z,2,Can you please do a Live Q&A session !? Great video... Thank you,True

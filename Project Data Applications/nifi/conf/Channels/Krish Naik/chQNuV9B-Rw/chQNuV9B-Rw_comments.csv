@@ -1,0 +1,270 @@
+author,updated_at,like_count,text,public
+@WaiTheng,2024-05-20T10:23:38Z,0,Can this training process be done by using YOLOv8?,True
+@stitou2010,2024-04-20T21:58:26Z,0,Usefull video. Thank you Sir.,True
+@abhishekpatil2811,2024-03-22T12:01:16Z,0,Can you please make a video on Efficientnet V2 model,True
+@sudhanthejeswin9874,2024-03-18T06:06:28Z,0,The dataset is not found,True
+@kiruthikab3775,2024-03-08T13:43:30Z,0,where is the colab botebook code sir ?,True
+@gnaneshwartankala2242,2024-02-07T14:19:08Z,0,"Sir please tell me why iam getting the same output everytime , iam using cnn to detect the brain tumor  Please help me sir",True
+@SonuTanish12345,2024-02-05T01:50:12Z,0,hy sir i try to contact to you sir,True
+@bhaumiks.6543,2024-01-17T18:25:23Z,0,Amazing videos sir. Thanks for videos.,True
+@kenyosh8957,2024-01-07T23:16:20Z,0,Thank you SOOO much for making this video,True
+@SelfLearnNV,2023-12-31T14:10:10Z,0,Could you please prepare one video about how to create your own model based on CNN,True
+@lakshmihymavathichaturvedu7953,2023-12-29T17:36:48Z,0,"good evening ,can anyone please resolve the issue...actually at the last step of execution iam getting error as invalid exception and it is showing that argument error.as we are running the same code but with different dataset.i dont know y the error is occuring.",True
+@ABSSBABSA,2023-12-19T12:24:18Z,0,"from tensorflow.keras.layers import Input, Lambda, Dense, Flatten from tensorflow.keras.models import Model from tensorflow.keras.applications.inception_v3 import InceptionV3 from tensorflow.keras.applications.inception_v3 import preprocess_input from tensorflow.keras.preprocessing import image from tensorflow.keras.preprocessing.image import ImageDataGenerator, load_img from tensorflow.keras.models import Sequential import numpy as np from glob import glob 		 #resize all images to this IMAGE_SIZE = [224,224]  # Verify and correct paths if needed train_path = 'content/drive/My Drive/PlantDiseaseDatasetAug/train' valid_path = 'content/drive/My Drive/PlantDiseaseDatasetAug/valid'  # Print paths for verification print(""Train Path:"", train_path) print(""Valid Path:"", valid_path)   inception = InceptionV3(input_shape=IMAGE_SIZE + [3] , weights='imagenet', include_top=False)  for layer in inception.layers:       layer.trainable=False 	   # Print list of folders inside the 'train' directory folders = glob(train_path + '/*') print(""Folders inside 'train' directory:"", folders)   # our layers - you can add more if you want x = Flatten()(inception.output)  prediction = Dense(len(folders), activation = 'softmax')(x)  # create a model object model = Model(inputs=inception.input, outputs=prediction)  #view the structure of the model model.summary()   # tell the model which cost and optimization methods to used model.compile(  loss='categorical_crossentropy',  optimizer='adam',  metrics=['accuracy'] )  # use the image data generator to import the images from the dataset  from tensorflow.keras.preprocessing.image import ImageDataGenerator  train_datagen = ImageDataGenerator( rescale= 1./255, 								    shear_range=0.2, 									zoom_range=0.2, 									horizontal_flip=True) test_datagen = ImageDataGenerator(rescale=1./255)   #Make sure you provide the same target size as initialized for the image size training_set = train_datagen.flow_from_directory('content/drive/My Drive/PlantDiseaseDatasetAug/train', 												target_size=(224,224), 												batch_size=32, 												class_mode='categorical')   # fit the model # run the cell. it will take some time to execute  # Use model.fit for training r = model.fit(     training_set,     validation_data=test_set,     epochs=10,     steps_per_epoch=len(training_set),     validation_steps=len(test_set) )    import matplotlib.pyplot as plt  #plot the loss plt.plot(loss_values) plt.show()",True
+@MAhmadian,2023-11-02T23:20:40Z,0,"Thank you for your great work, I see the input image size in the Kaggle is 256x256 but you specified 224x224 is it a typo or you have done some scaling. My second question is in the training dataset you have 10 classes but your model's output has 15 classes which is not right, please elaborate.Thanks again for your awesome work.",True
+@maryzakiandourrugrats4671,2023-09-18T21:22:35Z,2,"This is an amazing video, as a beginner you answered so many questions that popped up as I was following along, as if you were reading my mind, excellent brother",True
+@tryagainandagain2462,2023-08-30T06:59:01Z,0,Lov U sir❤,True
+@melusimj3800,2023-08-22T21:15:10Z,0,"@Krish Naik, and everyone.. Can someone please assist me, I have a problem when it comes to fitting my model during training... How can I fix the ""Invalid-Argument-Error? I have followed all the steps from this video, but I still get the same error. Any suggestion, on how to solve the error?",True
+@lakshaychauhan686,2023-08-12T10:44:00Z,0,how can i train a prebuild model?,True
+@nriezedichisom1676,2023-07-30T05:22:25Z,0,Perfect as usual. Thank you,True
+@eqtidarma4726,2023-07-17T17:58:06Z,0,thank you sir,True
+@badass_bloke144,2023-07-08T06:27:18Z,0,what is the pre-sequence of following up with this video?,True
+@sourishdutta6925,2023-06-21T09:21:30Z,0,Google colab is just worst. Even one line of code for tensorflowlite is not loading. Disk Space fullef,True
+@juangut4531,2023-05-28T14:35:35Z,0,The tutorial is incomplete. How to actually make predictions and decode category labels?😢,True
+@souravkumar2401,2023-05-09T11:24:30Z,0,Thank you sir,True
+@sheikhobama3759,2023-05-09T09:37:46Z,0,"OMG I absolutely loved your video Sir, I Have just watched it halfway and I felt I had to comment. The way you explain things are just perfect. I wish if only we students had teachers like you. I've already subscribed to your channel and can't wait to watch more of your content. Your knowledge is invaluable, and I appreciate you taking the time to share it with us. Thanks again for creating such an awesome content! 🥰 These videos really do help us beginners in a great way!!",True
+@muskaanfathima8183,2023-05-09T07:12:46Z,0,Thank you so much sir u saved my final year project,True
+@user-uz6bf7op4f,2023-05-09T01:00:07Z,0,I have gone through this but validation_data is not defined,True
+@user-pp1kg5ts7q,2023-04-18T07:49:08Z,0,why u did not evaluate the model,True
+@jongameshow,2023-04-15T09:18:45Z,0,Any idea how I can create a model with three dimensions? As this is resulting in a 2 dimension model,True
+@ginawhalevg,2023-04-11T03:17:35Z,0,your video is really helpful thanks a lot! but i can't find the colab notebook address of the examlpe you use in this video. can you please upload again?,True
+@saoshyaant,2023-03-30T18:58:06Z,0,is it the free version of colab or colab pro?,True
+@dirobayisa864,2023-03-19T18:08:53Z,0,"Hi Krish, Thank you for your tutorials. I am doing on plant species recognition can you share something............",True
+@lias1,2023-03-17T20:04:25Z,0,Do you have zoomclasses or tutoring? if yes where can i sign up?,True
+@touhidulislamsovon6927,2023-03-14T06:22:51Z,0,Thank You sir!!,True
+@YeshaPatel-oq4oy,2023-03-08T22:49:49Z,0,Does this code run on any size or type of dataset? I am going to try this code on simpson images.,True
+@murtaza2265,2023-02-24T11:34:13Z,0,"WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op. WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op. WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op. WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op. WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op. WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this    sir  i got this error after compiling  CNN model please help sir",True
+@PranaviKasam,2023-02-18T10:42:48Z,0,Hi the pip install tensorflow-gpu command is giving me errors when executed what should i do,True
+@MoganaVadhnaSuntraKumar,2023-01-16T10:08:35Z,0,Thank you so much😃😃,True
+@paradox2738,2023-01-15T22:03:49Z,0,"Why is this video imcomplete, what do I do after the building the model",True
+@ALLFITdudes,2023-01-07T15:44:08Z,1,Thank you so much sir for this wonderfull video..❤❤,True
+@rehippie,2023-01-05T07:50:49Z,0,"Hi Krish, I didi it all and it worked! Now, how do I save my trained model to use it in onther scripts?",True
+@codingcrush,2022-12-17T04:12:13Z,0,Why lable.txt not created,True
+@tamkeensheikh9497,2022-12-16T03:00:01Z,0,"Hi, can someone guide me on how to use model fit generator getting error on that part again and again",True
+@ritikirdande5246,2022-12-14T16:16:24Z,0,Where is the another video,True
+@shaikhfarheen5115,2022-12-04T18:28:06Z,1,"disgusting,just a waiste of time uploading data set to a google drive takes lots of time.",True
+@CogniCraftedMinds,2022-11-15T07:29:59Z,0,"Thank you, I've learned from your tutorials.",True
+@risingresearchlab4793,2022-11-13T11:43:05Z,0,How to choose optimal batch size and epochs number? plz help me,True
+@risingresearchlab4793,2022-11-13T11:36:56Z,0,how to select target size? here 224 by 224,True
+@alexron1603,2022-10-27T12:23:38Z,0,hello sir i am having an issue of reshape with this code can u help in this matter,True
+@sameerdubey1990,2022-10-09T08:48:09Z,0,"Hi krishna, i have droplet videos/images at 5 viscosity ratio each at 8 speeds of fluid .can we train deep network to find the speed of fluid for any droplet image.I need not categorize the images but it must be able to tell speeds other than given 8 speeds.plz guide",True
+@hemanthmohan4334,2022-10-08T15:04:57Z,0,"Dude, on the galaxy watch 4 is there a way to turn off the indicators like the airplane icon and the phone icon on the main screen? cause its annoying on analog watch faces that these icons overlay it....can't find any toggle in settings? reply plz..anyone",True
+@anshsrivastava2452,2022-10-04T18:26:01Z,0,"r = model.fit_generator(     training_set,     validation_data=test_set,     epochs=10,     steps_per_epoch=len(training_set),     validation_steps=len(test_set) )  for this line i m getting an error that is :-  /usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:7: UserWarning: `Model.fit_generator` is deprecated and will be removed in a future version. Please use `Model.fit`, which supports generators.   import sys Epoch 1/10 --------------------------------------------------------------------------- UnimplementedError                        Traceback (most recent call last) <ipython-input-29-79c61ccb656b> in <module>       5     epochs=10,       6     steps_per_epoch=len(training_set), ----> 7     validation_steps=len(test_set)       8 )  2 frames /usr/local/lib/python3.7/dist-packages/tensorflow/python/eager/execute.py in quick_execute(op_name, num_outputs, inputs, attrs, ctx, name)      53     ctx.ensure_initialized()      54     tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name, ---> 55                                         inputs, attrs, num_outputs)      56   except core._NotOkStatusException as e:      57     if name is not None:  UnimplementedError: Graph execution error:.  . . . .  .  . Please help me to solve this error",True
+@platypusnebula7401,2022-10-03T18:49:39Z,0,"Has anyone followed along this video recently with success? I followed along with the video (typed along), and used the picture files from Github, but when I executed the final command to run the cell, I got an ""UnimplimentedErrors"" at line 8, where the code reads: ""validation_steps=len(test_set)"". It's a long error message, but at the end is says ""DNN Library is not found."" Some of the libraries installed earlier in the notebook were of a different version.",True
+@prasadmaharana,2022-09-24T12:28:00Z,0,"Hi Krish, Despite following the above steps on google colab, When I run model.fit(), the system RAM usage goes exponentially high and then the runtime restarts, I am unable to force tf to use GPU.",True
+@sehrishbilal2023,2022-09-22T16:07:27Z,0,I need help can anyone help I am stuck in a last .. validation_steps=len(test_set) giving error .. how can I fix,True
+@user-hc4we4kb4j,2022-09-05T13:14:07Z,0,hi l'hav HP probook  I5 6th 8gb 256ssd   is 't  good for ML and open CV and AI,True
+@surabhibtech,2022-09-01T05:53:05Z,0,"Hello Sir, I am following this video with code in COLAB . In model.fit function it goes under training and after running 10-15 min it give CUDA error , out of memory . Kindly guide me with this .",True
+@siddharthmagadum16,2022-08-31T10:27:36Z,0,can anyone share drive link of the dataset? So I can use it without downloading.,True
+@gauravfamily2209,2022-08-23T15:10:50Z,0,"When i train the model with huge dataset then i have got message "" The kernel appears to have died. It will restart automatically."" but i have gpu system (Nvidia Getforce RTX 3060). Please suggest on it.",True
+@jagyansenipanda12panda37,2022-08-19T13:26:25Z,0,Sir can you show a small example of the CNN model for image interpolation using Google Colab?,True
+@chimechfulam,2022-07-25T21:41:09Z,0,"Nice tutorial sir .After training on colab ,can I download my model and use as pretrianed model ?",True
+@mdfaizulabedinshibli3635,2022-07-25T13:49:41Z,0,"ValueError: Asked to retrieve element 0, but the Sequence has length 0 ...Can you fix this error kindly?",True
+@mdfaizulabedinshibli3635,2022-07-25T13:48:43Z,0,"ValueError: Asked to retrieve element 0, but the Sequence has length 0",True
+@md.khurshidulalam.836,2022-07-21T08:33:45Z,0,"sir , How can i add more layers?",True
+@t4tripstours429,2022-07-13T10:41:13Z,0,"Can you please guide me on how to access the server through SSR, and how to train the deep learning model with the high-performance server with ssh and a webpage? i will be very thankful if you and anyone here guide me about this",True
+@kumarprakhar6011,2022-07-12T08:29:04Z,0,The code you are using is not available on your git,True
+@kumarprakhar6011,2022-07-12T08:28:45Z,5,Your code is nowhere to found on your git!,True
+@samrayaseen4672,2022-06-28T06:33:03Z,0,Sir i have been following your tutorials. i need some little help. how i can run project files  with connecting one code cell to another code cell. please help i am waiting for your response.,True
+@samrayaseen4672,2022-06-28T06:20:04Z,0,Sir i have been following your tutorials. i need some little help. how i can run project files  with connecting one code cell to another code cell. please help i am waiting for your response.,True
+@arunakranthig9942,2022-06-24T10:06:48Z,0,HI Krish.... I need the concepts of Inception V3 Architecture..If already video is done can u please share the link?,True
+@arfinarif9669,2022-06-20T05:59:15Z,0,"any solution? in google collab InvalidArgumentError                      Traceback (most recent call last) <ipython-input-22-c27d8fba63ce> in <module>()       6   epochs=10,       7   steps_per_epoch=len(training_set), ----> 8   validation_steps=len(test_set)",True
+@arfinarif9669,2022-06-20T05:50:45Z,0,"any solution? in jupyter notebook  ----> 3 r = model.fit_generator(       4   training_set,       5   validation_data=test_set,       6   epochs=10,       7   steps_per_epoch=len(training_set),       8   validation_steps=len(test_set)",True
+@ranaafreen1265,2022-06-01T14:21:11Z,0,Can you implement multioriented text detection using deep learning?,True
+@ashikroy4618,2022-05-10T23:05:12Z,5,"Hi Krish, Thank you for your tutorials. I am a beginner, and I am wandering why didn't you use validation and test, both of the datasets  to evaluate the model? thanks",True
+@lokeshr2615,2022-04-18T14:21:16Z,0,Sir I am getting graph execution error,True
+@anchitalokhande2283,2022-04-08T05:44:53Z,0,Can you please tell how to train gfp- gan  ffhq - dataset,True
+@anisghabarou1544,2022-03-30T22:36:55Z,0,Can anyone please help me to find where did he put the code .,True
+@alaaabdullah2648,2022-03-30T01:43:39Z,0,The path of image should be on Google drive? What if i am working with jupyter and i decide the path in my local device its will work?,True
+@ochanabondhu,2022-03-14T13:50:13Z,0,Now this video is nothing but a gem.. Thank you Krish.. Just 1 question... I have seen in many datasets there is another folder called validation.. Why it's so and what's the use? Can you please explain or guide me to any of your video wish such a reference,True
+@girijavarma5271,2022-02-20T08:18:10Z,0,"in this dataset, we have 2 folders one 'train' for testing and another 'valid' dir is for training ?? anyone is this right",True
+@spiritualjourney5566,2022-02-15T12:05:29Z,0,How to predict a test image other than that from dataset?,True
+@yoboys4774,2022-02-05T21:17:12Z,0,"Hello Sir, Can You please tell me How to save the model in Google Colab?",True
+@Saad-xo6yc,2022-01-24T11:03:50Z,0,"Getting this error UnknownError:  Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.",True
+@cagla4717,2022-01-18T12:19:04Z,0,thanks,True
+@SGandhi,2022-01-17T09:43:12Z,0,"Showing epoch 1/10 but then utbis showing failed to get convolution algorithm , because of cuDNN failed so try looking to see if a warning log message is printed above this error is coming how to solve sir",True
+@SGandhi,2022-01-17T09:41:30Z,0,Error is coming while I am performing model fir can you help me.out,True
+@sayalidudhane5921,2021-12-30T06:31:17Z,0,I am unable to change the gpu to tesla T4..,True
+@knowledgehub9106,2021-12-22T17:04:47Z,0,Sir can you helpp.me  i have image dataset in csv file and i have an image in this dataset so how can i fetch the image in loaded dataset??,True
+@afzalrahaman6306,2021-12-19T16:32:26Z,0,"Dear krish, your theory explanation on deep learning helped me a lot. My pc is low configured, it dual core windows 7 64 bit. I know it's impossible to work with tensorflow with this configuration. Let me know is it possible to practice in cloud",True
+@LearnWithVikhyath,2021-12-18T08:00:50Z,0,"I got Tesla K80 for GPU, is that fine?",True
+@princeprajwal,2021-11-29T11:38:42Z,0,u been always helpful krish thank you so much,True
+@qchirac,2021-11-14T17:28:42Z,0,"a third question is how to keep it training backstage. the training might take much time, the mount and even the colab runtime session might disconnected before training is finished. how to resolve this concern..",True
+@qchirac,2021-11-14T16:54:31Z,0,"Another questions, should we save the training data in google drive and mount or copy them to colab? google drive is a cloud drive away from colab I guess. If save in google drive, the training would be slower or same same?",True
+@qchirac,2021-11-14T16:52:08Z,0,"is there a way to rename 'My Drive' to something like 'my_drive' in google drive? Sometimes, the space cause trouble. I know we could rename sub folders in google drive. However I didn't find the way to rename the root 'My Drive'.",True
+@kybal7154,2021-11-11T00:27:33Z,0,"what are the consequences of not normalizing the images to 1/255 ([0,1] range)?",True
+@jannatulkamrunnisha3737,2021-11-04T00:49:43Z,0,"Regarding ads,,, I  Couldn't  find any logic to show this kinda anti-islamic ads.Without any precise knowledge about islam just showing a verse,humiliating Al-Quran here it's trying to prove Islam is wrong.How stupid!!! You want to leave, you leave.How do you dare to demotivate others publicly spreading hatred particularly towards a religion😡😡",True
+@nazzishrazzaq,2021-11-01T14:20:46Z,0,Do i need to have cuda installed in my workstation to run Google Colab and train the model?,True
+@chaitrasuvarna1915,2021-11-01T12:52:24Z,0,How do we work with image recognition by creating our own image dataset?,True
+@ohood1987,2021-10-14T07:47:55Z,0,i have error in   >>>     model=load_model('model_resnet50.h5'),True
+@vishaldedavat6835,2021-10-11T15:11:28Z,0,i am getting error .. i have run the same code as yours.. but while running the epoch.. it is showing failed to get convolution algorithm,True
+@DigiToonAdventure,2021-10-06T05:27:08Z,0,When i connect to a gpu model through error.,True
+@rkgamingzone6726,2021-09-26T20:02:10Z,0,Please show me the confusion matrix for this project...plz plz plz,True
+@divyanshpatel5757,2021-09-25T19:16:02Z,0,"Getting error in epocs parts- ""Failed to get Convulation algorithm"". what to do.?",True
+@fabricesimo6163,2021-09-20T11:59:35Z,6,"Hi Sir! Following your steps, I bumped into this error  UnknownError:  Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above. 	 [[node model/conv2d_94/Conv2D (defined at <ipython-input-20-ac993f60cff7>:7) ]] [Op:__inference_train_function_17502]  Function call stack: train_function  Could you please help me to solve it?",True
+@nsd6297,2021-09-17T05:39:24Z,0,Can I use the training dataset without a class.....I mean only images in directory and no subfolder,True
+@premranjan4440,2021-09-15T15:29:23Z,0,"I  am facing this issue..Please help InvalidArgumentError:  Input to reshape is a tensor with 1179648 values, but the requested shape requires a multiple of 51200 	 [[node model_1/flatten_3/Reshape (defined at <ipython-input-46-04ffb29a66a7>:8) ]] [Op:__inference_train_function_27969]",True
+@angelferhati,2021-09-12T13:36:42Z,0,can i Train Deep Learning Models In kaggle?,True
+@justinfor5082,2021-09-05T17:45:00Z,0,Please share as .h5 file,True
+@zahrasiraj106,2021-08-24T18:51:56Z,0,hi krish can you please make a complete tutorial on hierarchical text clasification using deep learning algorithms,True
+@angie7706,2021-08-22T17:19:03Z,0,I have photos in different resolutions. How can I resize every images in to same resolution?,True
+@anupurbadas8609,2021-08-13T07:48:05Z,1,i got multiple errors after #fit the model portion. it says r is not defined than it says Model is n ot defined,True
+@lydiadarla7543,2021-08-05T22:03:56Z,0,Thank you so so much sir!,True
+@nailashah6918,2021-08-02T13:10:07Z,0,plz tell the minimum laptop specifications requirements for running latest matlab with MASK RCNN,True
+@hsahu11,2021-07-30T12:08:38Z,0,when we are working on transfer learning why we are training the model. We already set the layer_trainable = false..,True
+@RaviTeja-cd2tp,2021-07-25T14:10:18Z,0,this is not working on real-time images please look to it. before going for it,True
+@darshanathaveesha2026,2021-07-17T14:03:37Z,0,"r = model.fit_generator(   training_set,   validation_data=test_set,   epochs=10,   steps_per_epoch=len(training_set),   validation_steps=len(test_set) )  model.fit_generator is deprecate, please help to fix",True
+@anirbansarkar6306,2021-07-17T13:24:11Z,2,Thanks for this wonderful tutorial Krish.  Also please do come up with the architecture video they will be really helpful,True
+@rimshatehreem9489,2021-07-14T16:34:01Z,0,where to get this code?,True
+@hossamsamir1141,2021-07-13T13:28:47Z,0,Is google colab  working in all projects or there is a limit and it can't work with complex projects ?,True
+@Priyanka-iz9bq,2021-07-12T11:16:00Z,0,What is the difference in estimated time and accuracy when we run this code on our own system rather than running on Google colab?,True
+@fikadumoti9098,2021-07-10T11:49:18Z,0,How to fix  AttributeError: module 'tensorflow.python.keras.api._v1.keras.layers' has no attribute 'DropoutWrapper',True
+@philip-niron,2021-07-02T05:06:22Z,0,Nice Video sir. How to change this model to tflite and deploy in android Application? Kindly do a video on that sir,True
+@pradeep5296,2021-06-25T11:18:26Z,0,Thank you so much Anna,True
+@apollogen4697,2021-06-21T15:46:45Z,0,Hi sir! How can I convert this model into TensorFlow Lite ??? please I really need this for my project.,True
+@2SourceFort,2021-06-19T10:02:40Z,0,How to generate API  after design model this model,True
+@2SourceFort,2021-06-19T09:10:41Z,0,14.34 not working I cannot read my folder,True
+@kinzasardar3039,2021-06-18T05:26:22Z,0,ImportError: `load_weights` requires h5py when loading weights from HDF5. igot this error .... when running this statement .. i searched alot but not found any solution please guide me,True
+@2SourceFort,2021-06-11T07:01:09Z,0,How to convert it as a model and how to use it in flutter Project. .... And how to create model API?,True
+@bacem1439,2021-06-06T12:07:44Z,0,"Thank you for this video i successful to create a model inception V3 but when i used it in stmcubemx it tell me error, any idea?",True
+@madhukanadeeshani6982,2021-06-03T15:46:40Z,0,Thank you very much!!!  Tutorial is great,True
+@2SourceFort,2021-06-03T06:45:24Z,0,How to use this model in mobile application?,True
+@2SourceFort,2021-06-03T06:45:04Z,0,Thank you so much 🥰 it's such a wonderful help to me,True
+@nimayoezer1282,2021-06-02T11:09:29Z,1,"Hello Sir, I am Yoezer greeting from Bhutan. Sir, may you kindly make videos on how to deploy machine learning models in mobile apps. E.g:- Deploying this code to mobile app and use in real life from our mobile phone to detect the disease of the plants.",True
+@BearuanG69,2021-05-30T15:42:16Z,0,Thank you for the tutorial. But how do we save my trained model to be tested with new samples? Thank you,True
+@burhanuddinkutub4594,2021-05-29T12:06:33Z,0,"The model doesnt get trained,also tried to use the same tensorflow version mentioned",True
+@nailashah6918,2021-05-28T15:26:39Z,0,sir can we use google colab for matlab code also?,True
+@rkag5811,2021-05-25T14:35:36Z,0,I got a clear idea. Good explanation sir👏,True
+@keerthanabandari5950,2021-05-21T16:46:38Z,0,Can anyone help me..am getting invalid arguement error?,True
+@jeriljose9933,2021-05-14T10:41:41Z,0,how to do fine tunning after transfer learning,True
+@shabnaayoob9318,2021-05-14T08:27:04Z,0,"Sir, Can you please try to explain foveabox, an anchor free object detection, code",True
+@rachana1768,2021-05-12T13:59:07Z,0,"This dataset is having so many images ,can you suggest some new dataset which has less files?",True
+@adharsh8613,2021-05-08T07:39:03Z,0,where will this model be saved,True
+@apunbhagwan4473,2021-05-05T18:14:32Z,1,"He did gave UPSC in 2019 and now he is a youtuber, Sandeep bhaiya",True
+@sandipansarkar9211,2021-05-02T13:14:25Z,0,great explanation,True
+@islamnuralam4402,2021-05-02T01:19:01Z,0,thanks you so much,True
+@ashutoshdixit2806,2021-05-01T02:14:51Z,0,great work .... this is my first time on your channel,True
+@JalalKhan-we1th,2021-04-29T05:56:41Z,0,Don't we have to label the dataset?,True
+@PrabhjotKaur-xp9ur,2021-04-26T16:47:52Z,0,I have one query. How to run inceptionv4 for this tomato leaf dataset. kindly explain beacause i am not able to import or define inceptionv4 model. please reply or share code for inceptionv4 on my email id:- prabhjotk171@gmail.com,True
+@PrabhjotKaur-xp9ur,2021-04-26T16:45:49Z,0,nice explaination sir,True
+@Redgreenparryot123,2021-04-26T06:28:37Z,0,how was upsc 2019 though,True
+@abhinaygupta8243,2021-04-22T20:06:14Z,0,will we have to add drop out layer,True
+@abhinaygupta8243,2021-04-22T20:02:11Z,0,"validation accuracy is going higher than  training accuracy. so, it should be overfitting",True
+@dhruvmittal4992,2021-04-19T18:44:38Z,0,"Epoch 1/5 50/50 [==============================] - ETA: 0s - loss: 0.1254 - accuracy: 0.9725 InvalidArgumentError                      Traceback (most recent call last) <ipython-input-18-6eb88ea810e4> in <module>()       5   epochs=5,       6   steps_per_epoch=len(training_set), ----> 7   validation_steps=len(test_set),  InvalidArgumentError:  logits and labels must be broadcastable: logits_size=[16,4] labels_size=[16,2]  Batch size is 16 for train and test set, 4 class of train set and 2 classes of test set.   Please someone help me with this error",True
+@learnwithsaeed1,2021-04-19T12:17:09Z,0,"very helpful could anyone guide me, is the given github code is working",True
+@mansukhprajapati5242,2021-04-18T09:28:36Z,0,can u make a video for training a model with provided image dataset using YOLOV3 architecture. OR can u add a code for it on your github account...please..,True
+@Sazia_Cooking_Creativity,2021-04-16T09:38:01Z,0,"InvalidArgumentError:  Input to reshape is a tensor with 2408448 values, but the requested shape requires a multiple of 1728 	 [[node model_1/flatten_1/Reshape (defined at <ipython-input-4-fc4b263bc24f>:18) ]] [Op:__inference_train_function_761]  Function call stack: train_function    Will you fix this essue?",True
+@Sazia_Cooking_Creativity,2021-04-15T11:36:41Z,2,Can you upload a video on the Facial recognition project?,True
+@pranavshete7130,2021-04-14T04:32:53Z,1,After training the model what about the next process i.e runing or executing?? Please help or share videos,True
+@pranavshete7130,2021-04-14T04:30:14Z,2,"After training the model in google colab , how to run or execute the project???",True
+@amanuelhirkooyoutubepage7743,2021-04-12T09:00:30Z,1,THANKS ALOT! let u teach as well on text classification specially on multi label problem using CNN,True
+@poojakamra1177,2021-04-08T20:13:53Z,0,Here we have multiple classes. After predict call we get index. How we map index with class name,True
+@Ellionart,2021-04-08T02:02:43Z,0,"I am very noob to this. I am trying to figure out where I get the code you show in the tutorial. In GitHub link I see 2 files of that format, none of them have the same name as the one in a video....",True
+@ametaful,2021-04-06T15:56:16Z,0,"Please help me I have error program image classification using the neural network so we will start loading image is still an error in the below -------------------------------------------------------  FileNotFoundError      Traceback (most recent call last) <ipython-input-82-f4a11306ab8e> in <module> ----> 1 img = image.load_img('Pictures/Mikrolet/train/_01.jpg')  ~\AppData\Roaming\Python\Python38\site-packages\tensorflow\python\keras\preprocessing\image.py in load_img(path, grayscale, color_mode, target_size, interpolation)     297       ValueError: if the interpolation method is not supported.     298   """""" --> 299   return image.load_img(path, grayscale=grayscale, color_mode=color_mode,     300                         target_size=target_size, interpolation=interpolation)     301   ~\anaconda3\lib\site-packages\keras_preprocessing\image\utils.py in load_img(path, grayscale, color_mode, target_size, interpolation)     111         raise ImportError('Could not import PIL.Image. '     112                           'The use of `load_img` requires PIL.') --> 113     with open(path, 'rb') as f:     114         img = pil_image.open(io.BytesIO(f.read()))     115         if color_mode == 'grayscale':  FileNotFoundError: [Errno 2] No such file or directory: 'Pictures/Mikrolet/train/_01.jpg'.",True
+@Abdnimit00,2021-04-04T17:08:00Z,1,Can anyone provide me code for PREDICTING IMAGE of these diseases in google colab please! 🙏 🙏 🙏,True
+@Abdnimit00,2021-04-03T18:22:39Z,8,After completing the epoch how can i call an image and test it? what is the code can anyone help?,True
+@radhikapatil8003,2021-04-01T18:22:46Z,0,Please make a video on Fixefficientnet image classification,True
+@sanatbek819,2021-03-31T19:13:37Z,0,"Thank you. Very nice bro.  I am having a hard time understanding the functions you explained. Please, share a successful path to learn.",True
+@muneermalik8680,2021-03-29T16:28:12Z,0,"Sir can you provide me the file with train and valid both segmentattions, i am a bit confuse while doing augmentation",True
+@Maryashahere,2021-03-24T07:15:00Z,0,Sir Can you explain the same concept with respect to DNA sequences?,True
+@TechInventorAman,2021-03-23T18:41:46Z,0,Is it using keras ?,True
+@Av-yf6nn,2021-03-22T17:46:53Z,0,"Hi Krish, is EarlyStopping useful for this model? how do we avoid overfitting?",True
+@Kamran_ai,2021-03-22T14:27:19Z,0,we are waiting for inception v3 testing phase,True
+@Kamran_ai,2021-03-22T14:26:42Z,0,Sir please also make a lecture on testing phase thanks,True
+@ethicalsaw8101,2021-03-21T12:16:38Z,0,can you please tell me how to use this .h5 model in raspberry pi. any conversion needed in the model or I directly use this model in raspberry pi.,True
+@ethicalsaw8101,2021-03-21T12:14:33Z,0,great help thanks a lot.,True
+@PrityKumari-rq2gp,2021-03-21T10:58:50Z,0,Also please make a videos for an app development from scratch for disease detection and if i want to deploy that whole app concept on arduino then what are the steps.,True
+@PrityKumari-rq2gp,2021-03-21T10:55:56Z,0,"Hello Mr. Krish Naik, I have seen your video it makes my concept of coding much better than other videos. thank you so much. please comment your email if in case i need any help or guidance i will surely ask you.",True
+@spicytuna08,2021-03-18T04:37:20Z,0,Thanks Krish.,True
+@renjithvs2424,2021-03-16T19:35:01Z,0,whats the model used train data(signal),True
+@subash000000,2021-03-16T16:36:58Z,0,sir can you please make video on deployment of the trained model in Django,True
+@krazyaria,2021-03-14T13:56:47Z,0,works like a charm.,True
+@hashimhafeez21,2021-03-09T13:15:28Z,0,Any code in deep learning for image completion?,True
+@umerkhan4987,2021-03-07T13:10:20Z,0,"very nice video, there is one query, can we run the code once and turn off the note book, is there any option with us that we can resume after an hour or some couple of hours to get output values?",True
+@JordanMetroidManiac,2021-03-01T08:18:08Z,5,Google Colab is such a helpful resource.  Thank you for explaining this!,True
+@latabai3533,2021-02-25T19:03:31Z,0,Please make one video on traffic sign recognition using cnn and mask cnn as soon as posiible,True
+@sagihaviv5675,2021-02-25T05:21:38Z,0,sir how can I train for ocr recognition for SPECIFIC word or sentences using OCR and print in pdf,True
+@rubabatulurba6662,2021-02-23T07:59:43Z,0,"can you do an error fixing video, certain errors are hard to trace back as the code seems to be appropriate",True
+@SabbirAhmed-nc5hh,2021-02-17T16:29:21Z,0,thank you so much,True
+@jatinoham,2021-02-13T10:51:59Z,0,Subscibed 😎,True
+@tasveerahmad5002,2021-02-08T19:17:17Z,1,"Thanks dear, A very nice and helpful video. I learned a lot and enjoyed. Stay Blessed!",True
+@rupiyaldekai6136,2021-01-29T18:24:38Z,0,"nice videos brother can you do a video on id3 algorithm,J48,JRip,SMO",True
+@chinmayshinde6478,2021-01-22T03:15:49Z,5,Good video. Can u show the following: 1) importing tensorflow/pytorch/scikitlearn 2) import specific version of tensorflow/ pytorch/ detectron 3) advise about loading personalised dataset - whether it should be zip upload or extracted image files.,True
+@punks0325,2021-01-16T11:25:05Z,0,How to save model sir and how to use that model for prediction,True
+@AJAYKUMAR-sf7mc,2021-01-16T03:56:52Z,0,"when i train the DL model at google colab , according to this example it throw a msg which is ""your session is crashed for unknown reason"" , @krish sir plz help over here",True
+@hazkimshazkim1041,2021-01-15T22:27:51Z,0,"hallo sir, great video learning. Can i ask if this method is also in Convolutional neural network?",True
+@adesojialu1051,2021-01-15T13:40:16Z,0,"training_set = train_datagen.flow_from_directory('/content/drive/MyDrive/PlantVillageDataset/train/',                                                  target_size = (224, 224),                                                  batch_size = 32,                                                 class_mode = 'categorical')  Found 0 images belonging to 37 classes. please help",True
+@gopikasnair2813,2021-01-13T13:16:38Z,0,I have almost 100 images ..but colab GPU just crashes...do u know how to solve?,True
+@lakshyajain5022,2021-01-12T09:17:17Z,0,how can I download my trained model from google colab like creating a pkl file from colab,True
+@anita2931,2021-01-09T10:53:32Z,0,"Sir, I have worked with my own small dataset. But I have obtained an error                                                                                                   /usr/local/lib/python3.6/dist-packages/tensorflow/python/keras/engine/training.py:1844: UserWarning: `Model.fit_generator` is deprecated and will be removed in a future version. Please use `Model.fit`, which supports generators.   warnings.warn('`Model.fit_generator` is deprecated and '    Kindly help me, how to rectify it?",True
+@uswamubeen9522,2021-01-08T22:54:00Z,1,Assalam o Alaikum sir i want to know which one is the latest architecure for multi class image classification ????,True
+@sunnychaturvedi9958,2021-01-03T23:56:48Z,0,you are a life saver,True
+@prapoojithadasari8129,2020-12-30T10:30:35Z,0,When running a deep learning project on Google colab I am getting an error : session crashed running out of available RAM. And there is no option to extend RAM beyond 12GB.can we resolve this. please suggest.,True
+@kushbhati5245,2020-12-29T03:57:10Z,0,Sir please make a video of deploying this model using google colab,True
+@NilBorun,2020-12-27T15:32:41Z,1,Do you have video on Inception3 or will you make it?,True
+@maharkreviews6942,2020-12-27T12:33:14Z,0,sir please please make a video on how to read MRI 3D VOULMETRIC data in google colab. please some one help me how to do this.,True
+@saritagautam9328,2020-12-26T03:25:08Z,0,Which workstation u own Sir?,True
+@yulbroh0915,2020-12-22T18:12:21Z,1,Please make a video about csv in deep learning please for my exam,True
+@ajaymauryabbn,2020-12-19T11:47:50Z,0,Hi Sir  Not able to join Telegram as link is not opening.,True
+@raviyadav2552,2020-12-18T18:19:49Z,0,seems like youtube algorithm is improving.,True
+@kalpanagona7841,2020-12-15T16:17:37Z,0,Sir please suggest aa good method for paddy leaf disease classification in deep learning please sir,True
+@priyeshgautam668,2020-12-14T15:31:52Z,1,can we fine tune the last dense layers using grid search cv or keras tuner,True
+@muhammadmustaffa6628,2020-12-14T06:57:28Z,0,THANK YOU VERY MUCH,True
+@sukumarroychowdhury4122,2020-11-29T17:50:32Z,0,"Krish: If you practice:  1.  to talk a little slower and   2. move your cursor a little slower,  and  3. Also stop uttering ""guys"".   You will achieve great heights. My boss in India (Mr. Janmejaya Swain) was from Orissa. My Guru is also from Orissa (Mr. Satpathy). Mr. Swain did the same as you are doing. Once he listened to me, he became the CEO of the company.   These 3 tips will make you a Great Trainer.   It requires many stops and repetitions before one can catch up with you. You are too fast and too eager to explain. I respect your passion but request you to understand that a learner is not as sharp as you are.   Sukumar Roy Chowdhury, Portland, USA. Email: eroali@yahoo.com.   Regards, Roy",True
+@SurajKumar-bw9oi,2020-11-29T10:51:50Z,1,The video was a lot of fun. Explaining and searching about GPUs and saying P4 instead T4 :),True
+@tejarapaka8411,2020-11-27T08:24:24Z,0,Thankyou for this helpful video. Through this I started try to train gan network. Sir can you help how to use .h5 files in python (to develop GAN models) waiting for your reply - urgent please,True
+@PankajKumar-tr2ib,2020-11-19T09:18:36Z,0,sir please make the architecture videos,True
+@samarjitnathmazumder4241,2020-11-18T11:12:59Z,0,Sir I am doing a project related to defect detection and sizing. I have build a model using ANN to classify defect. Can you guide me how can I get the bounding box coordinate of classified image.,True
+@carijay2400,2020-11-16T07:31:19Z,1,thank you very much sir for this tutorial. seems im getting the right direction for ML lecture for clinical dx. im a newbie who want a career shift.,True
+@Dr.AhmedQusaySabri,2020-11-15T07:22:37Z,0,thanks,True
+@zulfiqarali-zq1rg,2020-11-12T11:19:09Z,2,Exellent sir. you are one of my mentor in Deep learning CV.Thanku sir,True
+@prathams8685,2020-11-02T11:18:06Z,0,Thanx a Ton!,True
+@punks0325,2020-10-30T16:44:12Z,0,Sir in my lapi it is taking  more time to  run epoch 10 .....more than 12 hours  what should I do?,True
+@jillurrahaman8689,2020-10-26T13:21:25Z,0,"Sir, Please help, How can fix it When i train this model  InvalidArgumentError                      Traceback (most recent call last) <ipython-input-23-3bbdf1bd212d> in <module>()       4   epochs=10,       5   steps_per_epoch=len(training_set), ----> 6   validation_steps=len(test_set)       7 )   10 frames /usr/local/lib/python3.6/dist-packages/tensorflow/python/eager/execute.py in quick_execute(op_name, num_outputs, inputs, attrs, ctx, name)      58     ctx.ensure_initialized()      59     tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name, ---> 60                                         inputs, attrs, num_outputs)      61   except core._NotOkStatusException as e:      62     if name is not None:  InvalidArgumentError:  Input to reshape is a tensor with 819200 values, but the requested shape requires a multiple of 61440 	 [[node functional_3/flatten/Reshape (defined at <ipython-input-23-3bbdf1bd212d>:6) ]] [Op:__inference_train_function_15193]  Function call stack: train_function",True
+@sunidhiashtekar9175,2020-10-23T05:52:09Z,1,sir can you please tell me your video in which you have explained all this code,True
+@mallubot7074,2020-10-22T07:41:48Z,0,"is that possible to create browser in colab  ,",True
+@naeemmuhammad3494,2020-10-20T06:41:44Z,0,after the execution how do we normalize the training and validation curves (overfitting problem),True
+@CreatingUtopia,2020-10-14T04:21:48Z,18,Tech websites: Let's compare gpu on benchmark scores Krish: Let's compare prices,True
+@jeriljose9933,2020-10-11T13:01:28Z,0,Can we convert our image classification code in colab into tensorflow lite inorder to run it in android studio,True
+@mrbroker3777,2020-10-11T12:51:45Z,8,Can we convert our image classification code in colab into tensorflow lite inorder to run it in android studio,True
+@ras4327,2020-10-06T21:45:12Z,0,thank you so mach,True
+@jayhingrajiya3703,2020-10-06T20:00:44Z,0,sirji.....tusi great hooooo,True
+@mahinqureshi5809,2020-10-02T14:45:16Z,0,"i m totally new on colab .. i have one question ...  what can i use in colab instead of OS module?????? i need some operations like, os.isfile .. bt i donno how  . and also how can i access the folders in gDrive.. what module to use ??????",True
+@s.husain6125,2020-09-27T21:46:53Z,0,Which arcitecture is best for plant disease identification sir....i want to train model with many plant diseases should i go for inception v3 or Resnet52 or any other sir,True
+@prajyotkhadse,2020-09-24T12:55:22Z,0,Can anyone explain why I was unable to connect to hosted runtime on Google Colab?,True
+@PoojaGupta-ry3oj,2020-09-23T14:59:50Z,2,After training now how to predict class for new image?,True
+@shilpaprusty3319,2020-09-19T06:07:43Z,0,Can we do object detection using TFOD in colab?,True
+@gurdeepsinghbhatia2875,2020-09-15T00:28:08Z,0,too gud sir  as always,True
+@poshamchandrika1340,2020-09-14T13:16:40Z,1,"during to fit the model i am getting value error ValueError: You are passing a target array of shape (16, 1) while using as loss `categorical_crossentropy`. `categorical_crossentropy` expects targets to be binary matrices (1s and 0s) of shape (samples, classes). If your targets are integer classes, you can convert them to the expected format via: ``` from keras.utils import to_categorical y_binary = to_categorical(y_int) ```  Alternatively, you can use the loss function `sparse_categorical_crossentropy` instead, which does expect integer targets.",True
+@imranulbari,2020-09-12T09:22:23Z,0,"hi, how I can convert this keras .h5 model to frozen .pb model? Thank you",True
+@carryminatifan9928,2020-09-12T07:41:44Z,0,Sir please Share Google drive link we will copy the dataset folder from there only and it will be done in minutes with out waiting for 2 hours.,True
+@avinashnair5064,2020-09-11T06:37:33Z,1,Can anyone help me with this :  The training gets stuck at epoch 1 (completes)its not moving to another epoch.,True
+@shivaragiman,2020-09-10T07:30:30Z,1,for layer in inception.layers:       layer.trainable=False What is the use of this code:?,True
+@athirajoshy7081,2020-09-09T05:15:52Z,6,"Sir,I admire u a lot..u r my role model..sir,I have a request..can u please make more deeplearning projects on colab pls..bcoz most of the students don't have a high performance laptop",True
+@maryjasmine6767,2020-09-08T19:21:17Z,0,How to train numerical weather data  using deep learning???,True
+@rshndb99,2020-09-08T15:01:18Z,1,This video is not for everyone it is for expert New learners can't understand,True
+@suryav3959,2020-09-07T13:54:16Z,4,Please make a video on the architectures of cnn transfer learning models.,True
+@harshavardhan9559,2020-09-07T13:33:57Z,0,"Hello sir , recently I have learned that google is working on computer programme that eliminates the need of data scientist in future",True
+@aayushjoshi2032,2020-09-07T13:26:45Z,0,"Sir, I belong to mechanical background just stepped into this deeplearning field as I have my M.tech thesis on this topic in which I will be using 1D CNN +LSTM modelo for prediction of state of charge of battery in electric vehicle..how to start as I am new in this field...data input is in CSV format .,,how to learn coding for that how to build coding using architecture from research papers..please help..😕",True
+@kalpanab9869,2020-09-07T12:08:59Z,6,"Error in model fit InvalidArgumentError                      Traceback (most recent call last) <ipython-input-34-23c981e47d33> in <module>()       7     epochs=10,       8     steps_per_epoch=len(training_set), ----> 9     validation_steps=len(test_set)      10     )  InvalidArgumentError:  Reduction axis -1 is empty in shape [16,0]  Any idea what can be the error. I have followed the same steps",True
+@jungleking9,2020-09-07T11:38:06Z,1,Image size of 244 😱😱 I took image size of 128 and it took me 34mins for this dataset with my laptop's mx150 gpu 😁,True
+@akashsujith627,2020-09-07T10:40:21Z,0,for one hour calculation do need to connect to the internet all the time.,True
+@Patrickdot92,2020-09-07T10:02:11Z,1,Thanks for sharing !,True
+@mojganrezakhani3403,2020-09-07T07:37:30Z,0,"Hi. thanks for your education. According to Google Colabs, I don't know how to gather Dataset. How can I save many images in DATASET??? especially for the Image DATASET for stylegan and cyclegan thanks in advance. indeed, your page of DISCORD doesn't work. I couldn't join it.",True
+@FoodieBeast,2020-09-07T06:37:39Z,0,"Hello sir , big fan .. i just want to make a request .. can you make a video on microsoft project sketch2code ..like how to get started with this project im very new to machine learning and deeplearning so it will be a great help",True
+@navneetgupta2474,2020-09-07T06:05:39Z,1,"Sir explain XGBoost algorithm, how it differs from Gradient boost. Also I can't find easy explanation of Bayesian search in hyperparameter tuning so make one on it's theory part. Thank you",True
+@jayantmathur7987,2020-09-07T04:42:00Z,0,"Sir , I wanted to know how I can make my ML/ DS project unique? As most of the projects can be found on GitHub or kaggle How I can reduce plagiarism in my project ?",True
+@arunporky,2020-09-07T01:41:20Z,5,Sir i have been following your tutorials for a long time. I want to learn about augmented reality what are the libraries or prerequisites needed. If possible please make a detail video on how to proceed in the  field of augmented reality. I am eagerly waiting for your response.,True
+@dikshabhati1441,2020-09-06T20:03:33Z,1,really amazing video sir....i have learnt a lot of things thorugh watching your videos....you are just amazing.....sir please one video on how to deploy model by writing code on google colab,True
+@shivak1476,2020-09-06T19:42:49Z,0,Sir telegram link not working. How to join,True
+@anuragagnihotri3679,2020-09-06T18:59:01Z,0,Sir i have made this same project 1 year ago and Iam in 11 th standard   Pls refer to my GitHub id github.com/rudransh2004 and give your suggestion   Repository name is plant disease detection,True
+@Thedark.i,2020-09-06T18:03:41Z,1,Sir please make transfer learning architect videos if its possible.,True
+@jitenkumarsahoo667,2020-09-06T15:41:42Z,0,"Hi krish, can you please tell me how to train images in AMD graphics...I don't have Nvidia gpu...I have 4gb  AMD gpu in my system....is there any library that supports AMD for deep learning?",True
+@kuldipjoshi1406,2020-09-06T15:17:21Z,2,no need to pay for google drive space..just use local conda env in colab along with colab's powerful  gpu . because uploading on google drive will take lottt oof time...,True
+@akansha_bhatt28,2020-09-06T15:10:49Z,11,"Sir, After training model on Google Colab, please make video on how to test on real time",True
+@kuldeepsharma7924,2020-09-06T15:07:07Z,0,"Sir, Google Colab has preinstalled Tensorflow. Why we are installing tensorflow again? I did'nt installed it just checked the version of tensorflow it still showed me 2.3.0",True
+@sovitrath4735,2020-09-06T14:57:51Z,0,"​I think that GPU is not being used. Because 2 hrs is a long time for 18000 images classification. And I think we have to do !pip install tensorflow-gpu. Please check this out Krish. I may be wrong.",True
+@omkarmore2198,2020-09-06T14:51:48Z,0,Google colab has disconnecting problem...I used it but it disconnects automatically after some time,True
+@akashdebnath3631,2020-09-06T14:13:56Z,3,"sir, please tell me how did you know how many hidden layer and neuron will give best result in MLP-ANN?",True
+@smartemitra7594,2020-09-06T11:59:36Z,1,sir i am ready,True
+@ajayraju999,2020-09-06T11:02:29Z,11,Sir can you please can you make a video on image segmentation..🙏,True

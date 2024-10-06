@@ -1,0 +1,95 @@
+author,updated_at,like_count,text,public
+@rahulfederer20,2022-11-07T10:45:12Z,0,Legit the perfect video for a beginner. Thanks a ton man,True
+@vincenzo4259,2022-02-24T08:27:44Z,0,Thanks,True
+@josephmakambala6395,2022-01-19T12:04:21Z,1,I need some help with my R language biostatistics  and I'm glad to pay the affordable R tutorial through Zoom or any other platform.,True
+@Jenna-iu2lx,2021-09-30T07:11:20Z,5,"This video is literally PERFECT for ggplot2 beginners! In only one hour, you'll learn the basics of ggplot2 R coding and you'll end up falling in love with ggplot2 (I thought this language was weird and not intuitive at first, but after this video I think it's very useful and practical to visualize more accurate data plots!)",True
+@victorsamuel6199,2021-09-23T17:32:17Z,0,This is so awesome. Thank you so much.,True
+@georgemathematician1186,2021-09-10T20:51:10Z,0,Pretty cool,True
+@pewolo,2021-08-25T01:27:09Z,1,Clear and pertinent!,True
+@mursyidhb,2021-07-21T04:31:24Z,3,"Thanks Dave... I think the way you present the code and interpreting the result is awesome. even I have just new to ggplot2, the presentation bring me as if we have so familiar with the code. You make R is not that difficult.",True
+@ayasuniverse,2021-07-20T17:19:36Z,1,THIS IS ABSOLUETELY ONE OF THE BEST TUTORIALS ON CODING THAT I'VE EVER SEEN !!!! THANK YOUUU !! UP UP UP,True
+@RamadanElsharif,2021-05-29T03:24:12Z,1,So clear and nice lecture. Thank you so much.,True
+@Jxdemelo1961,2021-04-29T13:14:24Z,1,"Simply exceptional. Thank you. I'm hooked. And I'm not even a Data Scientist. If I was 20 years younger, I'd get into this field.",True
+@jovial129,2021-03-19T01:15:43Z,0,Histogram 54:44,True
+@saurabhyelmame,2021-03-04T03:24:33Z,1,Why the column names are converted to factors in 32:38 ? I tried using them without converting to factors. Some were executed but some gave errors.,True
+@djangoworldwide7925,2021-02-15T20:28:11Z,0,That video was fantastic. I now know i should be a girl if i want to go on a cruise,True
+@sharanyasredharan9625,2021-01-12T06:21:54Z,0,Hello..the  titanic.csv dataset is stored in code.datasciencedojo..May I please know where or how else can I retrieve the file as I would like to go through these class? Thank you.,True
+@tassoskat8623,2021-01-03T23:51:58Z,1,I just started loving R,True
+@eyadha1,2021-01-03T10:36:12Z,0,"thank you very much, very helpful for me.",True
+@TheWankersunited,2020-12-29T10:40:29Z,0,what a load of unnecessary talking.... 25 minutes of not needed introduction. 5 minutes to tell why passengerID and name are not relevant.... get to the point already...,True
+@constantineau9686,2020-12-25T09:27:38Z,1,An excellent video! Thanks a lot!,True
+@KK-ty6ez,2020-12-12T16:42:13Z,0,"DATA SCIENCE DOJO Piliz share the R code , my not running properly",True
+@schraudi5763,2020-11-30T18:59:05Z,0,Isn't there a mistake in the axis description of the last histogram?,True
+@bikashpokharel478,2020-11-13T09:40:09Z,1,"Wait a minute, I am gonna update my linked In bio to R expert",True
+@mohdyounisbhat2447,2020-11-10T06:58:41Z,0,Such a wonderful video!!!So simple and easy way to make it understand,True
+@charleschungudaka6879,2020-10-23T23:06:39Z,0,"Wow, the Best video on ggplot2. Love you Data Science Dojo. So very much helpful and really got me excited.",True
+@shreyachauhan9181,2020-09-20T03:42:53Z,0,"oh man I can't thank enough, you are so good I lost my mind in understanding u hold my back, thanks",True
+@statisticstime4734,2020-08-22T16:38:05Z,0,Excellent!,True
+@aikagyan999,2020-08-19T12:20:15Z,0,Thank you so much..,True
+@JulioCCavalcanti,2020-08-10T03:15:59Z,0,Very good!,True
+@kikkaka3079,2020-06-10T20:17:52Z,0,"92% discount #coupon #udemy #course for Complete Data #Wrangling & #Data #Visualisation In R #couponcode https://www.udemy.com/complete-data-wrangling-data-visualization-with-r/",True
+@jiangxu3895,2020-06-03T01:23:48Z,0,Thank you very much for your explanation.,True
+@Justme1635438,2020-05-23T12:46:09Z,0,"I loaded the dataset in both SPSS and R and did all of the plots - to me SPSS was more easy to use, but the plots actually look better in R. Great video.",True
+@joanabucheri1380,2020-05-20T14:05:05Z,1,"Thank you for this video, it was indeed helpful. Didn't have sufficient knowledge in ggplots but now i do. Thanks a lot!",True
+@atomii9455,2020-04-28T14:46:27Z,0,Wow. Thanks,True
+@akakhbod,2020-04-23T08:39:17Z,0,Thanks a ton david ...,True
+@kakekmesum4757,2020-04-21T21:03:33Z,0,tq dojo,True
+@aegystierone8505,2020-04-11T15:49:53Z,0,"Incredible, telling a story with data!",True
+@ruizhang3956,2020-04-08T21:40:44Z,2,"Thanks for the tutorial! Small caveats on the density plot and the histogram towards the end. The axes are mislabeled. Y should be probability density or counts, while X should be age",True
+@yaoliao3517,2020-03-21T00:02:58Z,0,Really thanks,True
+@joelrodriguez1232,2020-03-14T23:19:09Z,0,"Here is all the code:   library (ggplot2) titanic = read.csv(""titanic.csv"", stringsAsFactors = FALSE) View(titanic)  # set up factors. titanic$Pclass = as.factor(titanic$Pclass) titanic$Survived = as.factor(titanic$Survived) titanic$Sex = as.factor(titanic$Sex ) titanic$Embarked = as.factor(titanic$Embarked )   ggplot(titanic,aes(x = Survived)) + geom_bar()  geom_bar()  prop.table(table(titanic$Survived))  #Compares who perished and who survived    #create the same plot with title # We can use color to look at two aspects (i.e dimmensions) ggplot(titanic,aes(x = Sex, fill = Survived))+  theme_bw() +  geom_bar() +  labs(y = ""Passenger Count"",       title = ""Titanic Survival Rates by Sex"")  # What was the survival rate bty calss of tickets ggplot(titanic,aes(x = Pclass, fill = Survived))+  theme_bw() +  geom_bar() +  labs(y = ""Passenger Count"",       title = ""Titanic Survival Rates by P-Class"")  # 4 What was the survival Rates by class of ticket and gender?  ggplot(titanic,aes(x = Sex, fill = Survived))+  theme_bw() +   facet_wrap(~Pclass)+  geom_bar() +  labs(y = ""Passenger Count"",       title = ""Titanic Survival Rates by P-Class and sex"")   # 5th What os the distribution of passenger ages?  ggplot(titanic,aes(x = Age)) +   theme_bw() +   geom_histogram(binwidth = 5) +  labs(y = ""Passenger Count"",       x = ""age (binwidth = 5)"",       title = ""Titanic Age Distribution"")    # 6th question  - What are the survival rates by age?  ggplot(titanic,aes(x = Age, fill = Survived)) +   theme_bw() +   geom_histogram(binwidth = 5) +  labs(y = ""Passenger Count"",       x = ""age (binwidth = 5)"",       title = ""Titanic Age Distribution"") #boxplot is another way of visualization  ggplot(titanic,aes(x = Survived, y = Age)) +   theme_bw() +   geom_boxplot()+  labs(x = ""Age"",       y = ""Survived"",       title = ""Titanic Age Distribution"")  #use Facets for density plots ggplot(titanic,aes(x = Age, fill = Survived )) +   theme_bw() +   facet_wrap(Sex ~ Pclass) +   geom_density(alpha = 0.5) +  labs(x = ""Age"",       y = ""Survived"",       title = ""Titanic Age Distribution"")  # you can tell the same story with a Histogram ggplot(titanic,aes(x = Age, fill = Survived )) +   theme_bw() +   facet_wrap(Sex ~ Pclass) +   geom_histogram(binwidth = 5) +  labs(x = ""Age"",       y = ""Survived"",       title = ""Titanic Age Distribution"")",True
+@This_aint_rocket_science,2020-03-03T13:04:42Z,1,thanks very informative,True
+@gyandeepsharma5516,2020-02-28T03:25:44Z,0,"thanks for such good vedio. Loved it,",True
+@maurocarvalho9835,2020-02-26T19:40:37Z,1,Great presentation! Thanks for making ggplot2 easier to be understood.,True
+@asimmunshi4830,2020-02-11T15:34:22Z,5,"This was amazing - thanks. It was, literally, the first time I've ever coded anything in my life, I've wanted to learn about data vis stuff for sports analytics for a long time and this video was the perfect introduction.  If anyone is in a similar position to myself, and has zero ! previous knowledge of R or programming, and wants to learn about data vis, I'd just start with this video. The only thing I needed to hit google for was to learn how to import the dataset into RStudio (yes, really).  Thank you!",True
+@soakohaji8009,2020-02-10T17:06:06Z,0,"Kinda too slow :( But to make the video helpful for everyone I understand that it is this slow, so dont worry. It's great video.",True
+@sureshkharel1514,2020-01-20T04:16:00Z,0,please create more content on prediction and fitting function,True
+@najibbht9727,2020-01-16T21:01:32Z,1,Super helpful and crystal clear intro. Thank you very much!,True
+@punchline9131,2019-12-20T12:37:14Z,0,"I would like to use ""ggplot2"" to create a graph showing whether life satisfaction returns to the value it had before the unemployment event occurred. Unemployment I have coded with 0 = not unemployed and 1 = unemployed.  General life satisfaction is coded 0 - 10.  I have already created the data set df_emp with a subset command, which contains all persons who were unemployed at least once.  It also contains all years of observation of these persons.  So all years before, during and after unemployment, as well as the corresponding values for life satisfaction   The years before, during and after the event should now be entered on the x-axis.  Where 0 is the event unemployment.  The values -1 -2 and 1 2 etc. show values for the years before and after unemployment. On the y-axis the values for life satisfaction should then be deducted (centered).     Unfortunately, I can't manage to model this graphic in R and would therefore be very pleased if somebody could help me or give me some tips on how to proceed.   Best regards   ps.  I got the graphic from Lucas et al. (2004) - Unemployment alters the set point for life satisfaction",True
+@jiyaadnaeem4802,2019-12-17T03:03:27Z,0,"Great tutorial, thank you!",True
+@mehriban9003,2019-11-26T11:08:55Z,0,I wanted to practice with the file while watching this video. But I haven't been able to download the file that he mentions as 'easily downloadable'.  I wish he made the file available for downloading on github.,True
+@levibauer375,2019-11-20T07:27:18Z,0,Found this super helpful! Thanks so much,True
+@ahsanamrirohman6865,2019-11-18T17:37:55Z,0,Install equiser package,True
+@RanaMuhammadWaqas,2019-09-06T16:27:14Z,0,"ggplot(titanic, aes(x = Age)) +   theme_bw()+   geom_histogram(binwidth = 5) +   labs(y=""Passanger Count"",        x=""Age (binwidth=5)"",        title = ""Titanic Age Distribution"") This doesnt work getting an error    Error: StatBin requires a continuous x variable: the x variable is discrete. Perhaps you want stat=""count""? >",True
+@afifkhaja,2019-04-15T01:41:08Z,1,Superb presentation,True
+@didimoescobar2247,2019-03-05T20:42:58Z,0,I don´t read the CSV file.....please help..,True
+@kmlim4657,2019-03-02T11:12:58Z,1,"Thanks for great lecture, and I'm wondering in the lecture around 1:05:58, the code indicates that aes(x is Age), but the label says it is Survived. Shouldn't it be flipped? labs(y = Survived, x = Age ...)",True
+@darren46166,2019-02-24T07:57:20Z,4,"Mistakes in your code 162, 163, 171 and 172. The x axis should be ""Age"" and y axis should be ""Survived"". By the way, great tutorial!",True
+@manonabrilestades,2019-02-01T01:51:18Z,0,can i do you one cuestion? is about a graphic that i can't resolve,True
+@khoadang4844,2019-01-31T01:15:43Z,3,"Currently a college student pursuing a degree in Economics. I'm taking Intro to Economic Data Analysis, and we have the choice of using R or Excel. Our first Homework Project directly coincides with using ggplot2. I haven't even finished half of the video but can already say I have learned so much about R. Sweet vid!",True
+@pravinmsp8025,2019-01-27T08:54:18Z,0,I need the excel or csv file to practice,True
+@LucasSantos-sh8tu,2019-01-18T13:34:57Z,0,"Hi! How can I change the graphic color? I created the graphic but I don't want it to have only the basic colors of the ggplot2, like this pink and blue colors. I did a little research on google, but I only find how I can change the color on graphics that has continous variables and my variables are discrets. Can you help me?",True
+@ButterfaceGMusicSlump,2018-12-30T00:07:28Z,1,for people that are familiar with R skip to 33:33,True
+@ramenchetia7529,2018-11-11T10:25:25Z,0,"Hi, I tried running the code for 2nd question w.r.t Sex but still getting the grey bars. The color for survived is not coming. Please help.",True
+@poojadhonde3169,2018-10-15T07:18:57Z,0,"Very nice sir, Please make a videos for 3d visualization .",True
+@aks1008,2018-09-12T18:59:59Z,0,Sir very good video...I just had a doubt ...if we have 8-10 categories instead of 3 for pclass is there an option to select and show  the top 5 pclass from the 8-10 categories and plot them.using ggplot...because I work in the aerospace industry and have multiple categories for each variable...thanks Amod Shirke,True
+@sayedmohammad2394,2018-08-15T23:26:03Z,0,start from @24:00,True
+@techknowhow4802,2018-07-15T19:25:37Z,0,Good lecture on ggplot and its functionalities.  I liked the examples.  I would have liked to see it go a little deeper into examples coders and analysts can use directly in their analysis and data science problems.  Thank you.,True
+@the29couple7,2018-07-05T18:08:22Z,0,"Hi I have started working with ggplot2 recently install.packages(""ggplot2"")is working fine but while using library(ggplot2) I am having below and can't come out. library(ggplot2) Error: package or namespace load failed for ‘ggplot2’:  object ‘enexprs’ is not exported by 'namespace:rlang' In addition: Warning message: package ‘ggplot2’ was built under R version 3.4.4   Your help is highly needed",True
+@shahronak47,2018-06-18T15:10:56Z,184,26:30 - Actual video,True
+@AncillenoDavis,2018-06-17T13:03:51Z,0,Definitely one of the best intros to ggplot2,True
+@pamelabenitez7077,2018-05-24T07:37:32Z,0,Nice video to get you hook  with ggplot2,True
+@michaelrockinger,2018-05-07T20:20:10Z,5,Show really starts after 25min. You should have discussed passengerid and name when you discussed the variables. Is ggplot smart to use factors for visualization? In a few days i will be desperate to remember that i need to factor to get certain visu. It should be the programmer to have contol not the program. No? Is it really sooo complicated to put % in the plot? Not good publicity for such a great package as ggplot.,True
+@tpeldonyou,2018-04-12T04:41:58Z,0,What is the use of factorise here? I thought factorising some variable was going to be used later in exercise.,True
+@dreznik,2018-03-15T11:02:00Z,0,you should do geom_boxplot(notch=T) so folks understand the concept of visually comparing medians; also read_csv preferred over read.csv,True
+@WahranRai,2018-02-18T11:27:42Z,1,"46:08 May be instead of using copy and paste, we could use, for example: ggplt = ggplot2(titanic,aes...) and add layers to that  ggplt + theme_bw().+ labs()....",True
+@AYODEJIIYANDA,2018-02-17T21:31:10Z,0,"This is a great tur]torial, good job",True
+@kylelarson5074,2018-02-14T14:36:49Z,0,What would be fantastic is if you could please create 10-15min or less summary videos of your lessons just to provide a snap shot of the different codes. That way it would make it extremely easy to revise your information without needing to sit through the repetition of the more indepth explanations we have already heard.,True
+@thedeadman8361,2018-02-12T12:57:58Z,0,Great intro to ggplot2. Made the basics very clear.,True
+@tuanlong9238,2018-02-03T08:07:56Z,0,thanks a lot !!!,True
+@robinredhu1995,2018-01-27T07:27:20Z,4,I think in last two graphs both density and histogram are wrongly labeled,True
+@nkristianschmidt,2018-01-16T15:52:48Z,1,"Very helpful. I think at the end, the density plot vs histograms issue is, the layered density plots show two different distributions of age and the histograms show one distribution of age and bi-color that distribution by survival. Two different things.",True
+@hasibulislam2187,2017-12-25T23:31:02Z,0,"in 42:30min, you have a color on you bars. but with same code, my bars are having the same color. Why? Please give me a solution.   Thanks in advance",True
+@RavinderRam,2017-11-30T15:52:18Z,1,ggplot2 best package in data science for visulaization,True
+@mohamedbelo5462,2017-11-26T15:24:16Z,0,"Wonderful, this is was so useful and one hour full of knowledge and hand on practice.  Thanks alot guys !  Belo",True
+@andymonks2808,2017-11-24T18:36:36Z,0,excellent video! Thank you very much Dave,True
+@examtest2883,2017-11-22T18:25:46Z,0,worth watching 1 hr..Really helpful. Thanks a lot,True
+@CharwakApte,2017-11-05T02:41:14Z,0,Infinite SNR - Thanks!,True
+@sahalnaz3904,2017-10-10T03:48:17Z,1,very useful video... thank you,True
+@ntimdomfeh1959,2017-10-07T17:32:53Z,0,Thank you very much. You are far too kind,True
+@asifkhan-fr4wb,2017-10-05T14:24:18Z,2,very nice explanation with the dataset. Thank You.,True
+@libertymgbanyi5559,2017-10-01T00:34:21Z,0,Please how do I display equation of the line and r^2 on my plots in R?  In excel it is very easy to do this. I am buying into R because of R markdown. Please help out as I need my equation displayed just the way I use to in excel,True
+@shubhangisuralkar8436,2017-09-27T10:22:59Z,2,really helpfull,True
+@martinwilson1729,2017-08-31T09:53:15Z,1,"Very helpful and appreciated, thanks for uploading",True
+@AliAwadh980,2017-08-20T12:10:29Z,25,"The seventh question, I believe the labs should be as: labs(x = ""Age"", y = ""Density""), and labs(x = ""Age"", y = ""Survived Count"")",True
+@kushagramishra9257,2017-08-19T17:45:38Z,55,"I would suggest everyone beginning with ggplot2 to go through this 1hr vedio, it will save you a lot of time understanding the basics.",True

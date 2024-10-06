@@ -1,0 +1,34 @@
+author,updated_at,like_count,text,public
+@abdoukhadre.,2022-05-27T15:50:04Z,0,"Thats awesome  , i have a question how to use this libray opencv for vein viewer project ?",True
+@sezermezgil9304,2021-02-16T11:52:42Z,0,"is there any way to do ""opening"" same color as cap ?",True
+@SeanGildea77,2020-11-11T19:27:41Z,0,"Thank you so much for these tutorials!! They're so helpful, you're a good man!",True
+@darshanghorpade9590,2020-11-10T13:00:29Z,0,Hey how to apply thickening on a binary image,True
+@franklynxavier5643,2020-10-22T06:14:27Z,1,Check this course for an in-depth explanation of OpenCV from beginner to advanced: ​@9M38​,True
+@Languageso,2020-10-19T18:57:22Z,0,can you please make a video foe Hit and Miss algorithm in order to finding an object in the image,True
+@nikunjgupta23,2020-07-13T06:29:53Z,0,"Shouldn't dilation be done after erosion? something along these lines -  dilation = cv2.dilate(erosion, kernel, iterations = 1) In cv2 documentation, it is mentioned that usually erosion is followed by dilation. That makes sense as well since in erosion you are reducing white content in the image. So, you HAVE to restore it. That's why we do dilation.",True
+@Muhammad-pk8fi,2020-05-08T17:12:13Z,0,"H thank you for the awesome tutorial!, im a beginner in opencv. Im working with background subtraction where thr background is a sea. Having a lot of noises including sea reflection , sudden sun light change. Any advice how to go about removing the noise?",True
+@mohamedshokeir1989,2019-11-02T19:15:58Z,0,i want to make filter for grrn colors in my video  what may i change in this code to make that cause i don't understand why this code make red color filter,True
+@masoudghodrati3770,2019-09-16T07:06:28Z,0,"great video, thanks! but honestly, why people in tech/science/eng tend to define things more complex than simple? shouldn't it be the opposite?  ""opening is there to remove false positive""! come on, it takes a lot of my brainpower to get the meaning out of this sentence :(, and I know what erosion is let alone someone who doesn't or new",True
+@burhanrashidhussein6037,2019-08-05T17:16:51Z,0,which IDE are you using for these tutorials? Pretty simple love it,True
+@ashutoshdash1999,2019-07-09T08:05:29Z,0,"blackhat = cv.morphologyEx(img, cv.MORPH_BLACKHAT, kernel)  tophat = cv.morphologyEx(img, cv.MORPH_TOPHAT, kernel)",True
+@haanyali6396,2019-06-18T11:04:57Z,4,Lucky I was wearing a red T-shirt to begin with!😅,True
+@Romeeras,2019-06-04T18:28:16Z,0,7:51 NameError: 'tophat' is *not* defined. This is clearly states there is an error in the code...,True
+@froggenfury6169,2019-05-13T11:39:19Z,0,thank you so much !!!! thank you one million times !!!!,True
+@Athoscaetano1,2018-10-24T21:10:05Z,0,"Sie sind super Geil S2 (sage ich Sie, weil du ein Professor (via YT) bist! :P )",True
+@aladdinalhaffar9187,2018-09-04T22:00:02Z,8,Thx for what you are doing but please explain more on the parameters detailes,True
+@eshasukhija4672,2018-08-08T05:47:08Z,0,hello do you have any idea how to do adaptive gamma correction of a given image,True
+@tristanshah9716,2018-06-13T19:09:00Z,3,How does one learn openCV to the level that sentdex knows it? What other resources should I be looking at to better understand this library. It seems like he knows all of the arguments for every function by heart!,True
+@RoshanKumar-tl6ei,2018-05-11T19:52:47Z,0,Help!!! error: (-215) (scn == 3 || scn == 4) && (depth == 0 || depth == 5) in function cv::cvtColor !!,True
+@mohammedal-alaw6249,2018-04-16T12:36:58Z,0,"Unfortunatly I am only getting this error OpenCV Error: Assertion failed ((scn == 3 || scn == 4) && (depth == 0 || depth == 5)) in cv::cvtColor, file C:\projects\opencv-python\opencv\modules\imgproc\src\color.cpp, line 11178 Traceback (most recent call last):   File ""C:/Users/Lab/PycharmProjects/untitled2009/untitled20009.py"", line 8, in <module>     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV) cv2.error: C:\projects\opencv-python\opencv\modules\imgproc\src\color.cpp:11178: error: (-215) (scn == 3 || scn == 4) && (depth == 0 || depth == 5) in function cv::cvtColor  with no EXECUTION!!!!",True
+@FlorisVermeir,2018-01-17T19:10:48Z,0,how would you program focuspeaking in opencv. So that the area that is in focus is say colored in red ?,True
+@geraldsy,2017-11-06T09:01:00Z,0,"Yo bro thanks for the playlist of the videos, been wanting to study image processing in python since I already know how to OpenCV in C++! Great tutorials! :)cheers",True
+@sunnybeta_,2017-08-26T17:26:35Z,0,Lane detection is complete after dilation :O .... phew ... thank you so much :D :*,True
+@rvssvedavyas921,2017-02-02T17:36:54Z,0,sir plss make image processing for android using python tutorials sir,True
+@borgestheborg,2016-12-31T04:34:53Z,0,I'm curious to know whether the window that's being slid across the image is the kernel we defined.,True
+@alierencelik2188,2016-11-22T18:43:28Z,3,Thank you a lot for these awesome tutorials..,True
+@qzorn4440,2016-11-20T00:36:39Z,0,nice demo as always. this will be a great raspberry pi3 project for kids2adults. thanks.,True
+@govindaar,2016-11-07T02:51:31Z,0,"Hi,        I was just curious to know how will the change in kernel matrix and change in the value of iterations affect the output.  Thanks in Advance",True
+@rahulbhambri7839,2016-06-28T09:09:00Z,0,shark is not a false -ve. Its just not red :),True
+@damianradinoiu4314,2016-06-07T20:25:13Z,0,"Is there a way to show the entire red hat and without noise and without background ?    P.S. Great tutorial man, keep up the good work and don't stop being an youtuber. I really like your videos",True
+@thetdg,2015-12-30T16:04:32Z,0,"I think, instead of showing morphological operations on the video captured by the webcam, it would have been better if you had used some standard binary images.",True
+@JulienFAUJANET,2015-12-30T04:39:47Z,0,thanks ! i think the next one is gonna be most usefull ;-),True

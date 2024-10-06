@@ -1,0 +1,43 @@
+author,updated_at,like_count,text,public
+@murtazajabalpurwala8124,2021-05-13T22:04:43Z,0,confusing explaination. Can be better,True
+@mikelim91,2021-01-21T19:59:21Z,0,"[print(i,new_dict[i]) for i,j in enumerate (new_dict)]   0 left 1 right 2 up 3 down    [print(*i) for i in enumerate(example)]   0 left 1 right 2 up 3 down",True
+@sokiprialajonah4932,2020-12-28T12:04:31Z,0,this is by far the easiest explanation have seen on the explanation of enumerate,True
+@azelbane87,2020-11-24T03:13:12Z,0,Wow!  I am truly amazed by the content of ypur channel!! And all of it EXTREMLY EDUCATIONAL and well organized! AWSOME,True
+@hardikgarg7011,2020-08-13T17:39:05Z,0,"please tell me if i had written is correct for i in example   print(i,example[i])",True
+@mcdaddy1334,2020-02-04T18:43:23Z,0,VERY NICE!,True
+@damipad4,2019-12-20T18:05:25Z,0,Thank you for the video! it was really helpful,True
+@connormccafferty5288,2019-09-25T18:16:17Z,0,Thanks!,True
+@mrkostya008,2019-09-24T16:17:06Z,0,"I came here for a better explanation of what enumerate does after publishing my python question on a stackoverflow (unfortunatelly the guy who proposed the enumerate deleted his comment). And his code was pretty much like yours, lol. Here's the link for the problem, it's still not resolved, lol: stackoverflow.com/questions/58081550/a-python-append-list-method-bug",True
+@Dopeboyz789,2019-09-17T06:05:06Z,0,How do you enumerate with list comprehension,True
+@JS-ys2uk,2019-09-15T15:56:20Z,0,I'd like a real-world example of why I would use enumerate,True
+@krazyq00,2019-09-15T03:37:11Z,0,"Finally get what enumerate does, been struggling for days trying to figure it out. THANK YOU!!!",True
+@khalid11221122,2019-05-28T14:04:17Z,0,"arr = [1,2,1,2,1,2,1,2]   how will you find the number of even nums in arr with enumerate?    def count_evens(nums):     count = 0     for i in nums:         if i % 2 == 0:             count += 1     return count    this will be right if we were working in C, If we want to make that code pythonic with enumerate how will you do it?",True
+@shadow201011,2019-05-15T18:07:41Z,11,"I came for Enum, but that's okay I learned about enumerate() anyway",True
+@spcl-vid801,2018-11-12T03:44:33Z,0,GREAT JOB OF EXPLAINING. Your videos are always very clear and easy to follow,True
+@wlancer8826,2018-10-12T22:40:45Z,0,"[print(k,v) for k,v in new_dict.items()]  # output: # 0 left # 1 right # 2 up # 3 down",True
+@sairajdas6692,2018-09-14T14:45:36Z,2,for i in enumerate(example):        print(*i),True
+@williamdahl1495,2018-09-05T10:32:13Z,0,"Thanks, this was super useful in partially mapped crossover :)",True
+@ThinkSmartData,2018-04-25T02:18:20Z,18,You have a gift for teaching. thanks for all your videos.,True
+@louieyizuo2558,2018-01-15T13:18:54Z,0,could you please show the short-cut key to add # in front of the lines?  like what you did at 2:25 in the video,True
+@darthvador3699,2017-09-08T23:56:40Z,0,Wha...I've been using for i in range(len(thingy)) my entire life,True
+@geoptus,2017-08-27T03:34:35Z,32,"enumerate also has the keyword arg 'start', which allows the index to start from any number - default = 0 your_list = [1, 2, 3] for i, j in enumerate(your_list, 1):     print(i, j)  1 1 2 2 3 3",True
+@spaphy,2017-05-20T08:13:55Z,1,I really like this series. Thanks for making it!,True
+@tyroneslothdrop9155,2017-04-03T21:46:53Z,1,"Your tutorials are good, but I would suggest using an interpreter which doesn't melt one's eyeballs with it's hellish, white glare.",True
+@albertkisiel4346,2017-01-23T09:48:12Z,0,"there is also possibility to get quite readable code without enumerate:  for i in example:     print(example.index(i), i)  as you know i accepts every value of example in order: from left to right. thats why you can access index of i by example.index(i) which will give you result equal to using enumerate function.   it works only thanks to order of iteration.  maybe it isn't best solution but maybe beginners will find out something new  (i'm sorry if my explanation and whole comment isn't understable, i'm not a good teacher and english isn't my primary language)",True
+@playful_batman,2016-12-08T11:03:27Z,0,"The best use of 'enumerate' that I have seen so far is in getting the indices of a sorted list: [ i[0] for i in sorted(enumerate(myList), key=lambda x: x[1]) ]",True
+@cheesandpinuts,2016-11-16T08:50:54Z,10,I use the range(len()) all of the time. Thank you so much Sentdex your tutorials are helping me out a lot to become a more efficient programmer.,True
+@kaiocesar8578,2016-11-14T21:55:09Z,0,Hahahahaha I used to do the len thing Thank you Sentdex :D,True
+@KamilTM1,2016-11-13T19:24:59Z,0,I have question about Python IDLE. Mine stopped working and i dont know reason why. If i reinstall Python all my libs will be removed?,True
+@MrGhostrider135,2016-11-10T21:34:42Z,0,"Is there a ""pythonic"" way to reverse those enumerations and keeping the indecies correct? I got no real usecase... just came to my mind that i would not know how to do that, except getting the indecies in a new list and then zipping the two reversed lists or something...",True
+@50red510,2016-11-10T18:47:36Z,0,"Hey sentdex I went and tested this out but I'm running into some trouble.  using ""for i2,filename, stats in enumerate(li):"" it's returning an error of ""need more than 2 values to unpack""  but using ""for filename, stats in li:"" returns what I would expect  I am assuming it's because of the generator returning a tuple Any idea? cheers",True
+@lecioufs,2016-11-10T00:06:51Z,14,Suggestion: how about finish up the intermediate tutorial developing a small app from scratch?,True
+@repaler6715,2016-11-09T22:48:38Z,1,"Hi Sentdex, I was hoping you could answer another question for me, if I was going to make a haar cascade that detects specifically my face, can I use bigger images (than the 50x50 pixels used in the tutorial). Also can I put other peoples faces in the neg file, thanks",True
+@badgerlife9541,2016-11-09T22:17:12Z,0,Thank you for this series!,True
+@kommentiererei,2016-11-09T19:46:28Z,0,What are the advantages if I'll use enumerate? I used .index() since I have started to work with lists.,True
+@beckettman42,2016-11-09T19:44:09Z,5,Thank you for your incredibly well constructed and clear videos.   I have probably learned more practical programming in the last week than all of my Electrical Engineering education.  Also....um......good luck america.,True
+@sportacus509,2016-11-09T19:29:22Z,0,I thought the 301 bug was fixed!,True
+@R0b0Penguin,2016-11-09T17:22:34Z,0,Thanks for another great video Harrison Snow Kinsley!,True
+@GabrielHidalgo796,2016-11-09T16:47:52Z,0,"Nice tutorial, but You talk very fast.... and  Its difficult understand. Thanks",True
+@UnixSan,2016-11-09T16:31:17Z,0,"Hey, could you please make a video about writing a program with opencv, that recognizes geometric shapes from a camera stream.",True
+@Crider64152,2016-11-09T15:53:32Z,13,Can you enumerate over the election results?,True
+@Jacklawi,2016-11-09T15:04:40Z,0,"If you create a dictionary where the key is simply the index of the value in a list, just keep it as a list. The dictionary lost its purpose in this example.",True

@@ -1,0 +1,72 @@
+author,updated_at,like_count,text,public
+@hrshtmlng,2024-04-06T21:00:46Z,0,Now this dataset load_boston isnt available in sklearn instead I'm using california_hosing dataset,True
+@Amir-English,2024-04-06T10:24:15Z,0,"Why did we split the data into train & test ""after"" doing fitting in lasso regression? I mean, shouldn't it be like splitting the data before fitting and creating a model? 8:34",True
+@sanjanaprakash6847,2024-03-17T18:37:06Z,0,"The concept is well explained. However, as the ridge and lasso model is trained with the entire dataset and not x_train, data leakage has happened as the model is aware of the test inputs much before testing.",True
+@d39-nischithhegde65,2024-03-16T06:21:10Z,0,boston dataset has been depricated,True
+@preranav7149,2023-12-02T08:23:06Z,0,veryhelpful,True
+@garima2158,2023-11-16T05:54:23Z,0,"Error i m getting: It seems like you're encountering an issue because the load_boston function has been removed from scikit-learn since version 1.2 due to ethical concerns related to the dataset.",True
+@daspopdsa,2023-06-14T17:29:27Z,0,Sir there is error like 'load_boston' has been removed from scikit-learn since version 1.2.  What should i do???,True
+@jayeshbhanushali1745,2023-03-06T17:40:55Z,0,"If you get error while importing dataset you can use code like this  from sklearn.datasets import fetch_california_housing df = fetch_california_housing()",True
+@kushswaroop7436,2022-08-22T12:47:13Z,1,"How do we select the value of Aplha/Lambda, what is the ideal value",True
+@vishalvishwakarma7603,2022-05-27T09:19:17Z,0,Beautifully explained. Really Helpful. Thank you!,True
+@ejikeozonkwo1705,2022-03-23T14:11:20Z,0,"Hi Krish, is there a reason you trained the whole data set before doing a train test split.",True
+@mitulkoul1909,2021-11-10T07:36:39Z,0,I had a doubt. what would happen if the best fit line has a slope 0 i.e parallel to the x axis. How would ridge and lasso regression help overcome overfitting in that case?,True
+@abinsharaf8305,2021-08-27T06:06:05Z,0,once we findout the best parameters do we use it ? where are we using it ?,True
+@NEHASHARMA-tm9gu,2021-08-24T11:40:21Z,0,"Just a small doubt Since I m new to data science, You used cross_val technique for Linear Regress ion but Grid Search for Ridge and Lasso ?",True
+@anishyekhande6520,2021-08-10T11:55:37Z,0,Thanks!,True
+@raghavsinghal22,2021-07-18T15:10:51Z,0,is alpha is Lamba which we are trying to found out in ridge?,True
+@Emotekofficial,2021-07-12T06:29:12Z,3,"Krish thank you for this video very informative. I have question though. Dont you think predicting (x_test, y_test) from the model that is trained from (x,y) would predict a memorized value? shouldn't it be accurate and realistic prediction if model is trained from x_train and y_train rather than x,y for testing purpose?",True
+@onlydilip8124,2021-06-13T06:42:23Z,0,cross_val_score is the costfuntion as u send in the previous video,True
+@easewithjapanese1844,2021-05-26T11:20:14Z,0,Hi Krish. Nice video but not getting my histogram graph. it throws a value error. please help,True
+@beautyofnature1541,2021-05-18T15:57:44Z,0,Thank you for sharing your knowledge. I have recently started watching and have learned a lot. I was just practicing the above code on Colab and it's giving me the following error: AttributeError: 'Series' object has no attribute 'prediction_lasso' on the line sns.distplot(y_test.prediction_lasso) and also at sns.distplot(y_test.prediction_ridge). Can anyone please help with how to fix this?,True
+@deepalisharma1327,2021-05-05T14:43:12Z,0,can someone please explain why are we subtracting y_test from prediction_ridge or prediction_lasso?,True
+@shubhamkundu2228,2021-05-02T16:29:39Z,0,Is it necessary to use GridSearchCV for ridge and lasso regression?,True
+@shubhamkundu2228,2021-05-02T16:24:55Z,0,cross_validation not explained clearly. What it is? Why it's needed to perform linear_regression here and what are those hyperparameters e.g cv used under cross_val_score ?,True
+@hemantkapoor6777,2021-02-17T20:10:26Z,0,your videos are really nice keep it up!,True
+@Datacrunch777,2021-01-23T10:04:02Z,0,"How can I find summary of date in ridge regression as like in OLS ( estimatr, standard error and p values ) ? Kindly help plZ",True
+@arindamghosh3787,2020-12-31T12:07:29Z,0,how to check which are the best variables left for the model,True
+@barax9462,2020-11-25T23:11:05Z,0,why im getting -1.34e+23 when i do mean_mse for linear reg??? is that bad?,True
+@abhishekchatterjee9503,2020-10-04T20:23:11Z,4,Watch the 2nd part just now.... You're like a savior to me as I have some deadlines due tomorrow and this helped me a lot sir. Thank you very much.💯💯,True
+@narotian,2020-09-25T15:37:04Z,3,"your theory videos are good, but i don't like coding part it looks way different from what i do. you must have tried doing it from start with some new dataset. i'm good with theory but now i'm messing my mind with coding part(everyone has their own way of coding).",True
+@kapilchand6017,2020-09-24T05:20:01Z,0,Hi Krish can you please explain why lasso is better than bridge in histogram prediction didn't able to follow the last minutes of the video.It would be great if you can clarify.,True
+@sandipansarkar9211,2020-09-18T18:22:40Z,0,Superb explanation. Need to get my hands dirty in jupyter notebook. Thanks,True
+@surajsoren637,2020-08-31T15:24:58Z,1,can we use other scoring method rather than neg_mean_squared_error to solve the problem...If any please suggest...Please help me out..,True
+@RandomGuy-hi2jm,2020-08-15T13:28:16Z,1,but sir u have not scaled the values????,True
+@kks47,2020-08-11T22:43:13Z,2,"Hello krish , i am confused at the end which one is performed well ? Lasso or Ridge in this case? Please give some feedback.",True
+@sufiyanansari1739,2020-08-06T13:34:22Z,0,"Cannot clone object. You should provide an instance of scikit-learn estimator instead of a class. what is this error",True
+@sobhagyashri,2020-07-14T03:20:05Z,0,Thankyou sooooo much.. :),True
+@bassamal-kaaki3253,2020-07-13T22:02:59Z,0,Excellent straightforward video :),True
+@ayankoley5358,2020-07-09T19:40:25Z,16,"I'm following the 'the complete machine learning playlist' playlist, but you're step-jumping skipping many details saying 'hope you know this', love your teaching though but Can you make any good completed playlist??",True
+@shashankverma4044,2020-06-26T12:23:18Z,0,Excellent !!,True
+@dhivya_animal_lover,2020-06-22T17:32:41Z,1,Thanks for your previous video Krish. I am not getting whether Lasso or Ridge is better at the end of the code. Also i referred a blog on this topic and found Elastic net is more efficient. Can you kindly explain this.  Dy,True
+@vinayakpawar2460,2020-06-18T20:23:30Z,1,"Hi Krish, Amazing videos....On what basis Alpha parameter list is decided? Also can you please explain in more detail about the 2 plots in the last.? Thanks.",True
+@shindepratibha31,2020-06-09T02:12:26Z,7,"I feel, steps for regression process can be like this: 1) split the data into train and test. 2) Use train data for cross-validation and find the parameter with min MSE. 3) Use the same parameter over test data and check for the accuracy of different models.",True
+@2828jordan,2020-05-26T13:02:22Z,10,"Good videos. So far so good. From most of the videos, i feel inference part is missing. What can we infer from the plots ?",True
+@3pandya,2020-05-18T19:18:10Z,2,"Hi. I just want to know if I am not wrong, we need to use train_test_split method before training the data. right? But you trained the data and then split the data into train & test, which for sure do not give us an accurate prediction on future predictions.   Please correct me if I am wrong.   Thank you.",True
+@nagashishsv843,2020-05-18T12:03:09Z,0,sir if i use cv=10 then the mse is coming still less..so how to chose the cv value appropriately..??will it depends upon the dataset..??,True
+@nikheleshpanigrahi4640,2020-05-15T11:00:15Z,0,"Hello Krish, can you tell me how are you selecting alpha(lambda) values ?",True
+@adarshnamdev5834,2020-04-24T12:40:41Z,0,"Hello Krish, thanks for making this wonderful video. Could you also please make a video on SVM and its underlying aspects like Kernelization etc...",True
+@adityay525125,2020-04-23T17:14:33Z,1,"Sir after you made everything, I did not get things related to Cross Validation, can you please explain it in brief?",True
+@krunalpatel9952,2020-04-15T12:34:55Z,1,"HI Krish, At 5.58 time in video, you said that this best score helps us to find out which lambda value is suitable! but question that how? you have mentioned those values as an alpha values. and alpha values as a learning rate should not be very high number, instead it should be very small in order to reach global minima. regards, Krunal",True
+@yadavsanderamniwas,2020-04-13T12:27:43Z,1,I have a question. what do you mean by stable in the last ses distplot graphs? both ridge and lasso looks same to me. how is one more stable than other,True
+@galymzhankenesbekov2924,2020-04-09T08:35:29Z,0,"Krish, as always amazing video. But why you decide to use cv=5, and how you come up with alpha values ? thanks",True
+@Kumar-oh2jl,2020-03-27T18:39:22Z,3,I think the good example for regularization would be to show that model's accuracy on training data is excellent and accuracyon test data is bad i.e- overfitting; then we can use  regularization and compare the results,True
+@esakkiponraj.e5224,2020-03-25T14:27:29Z,5,A small suggestion --- better differentiate the terms -  alpha (for Lassa) and lambda (for ridge). It is confusing.,True
+@sudarshansharma8647,2020-03-17T18:48:59Z,0,"Sir, will Ridge and Lasso Regression would always give us better result than linear regression or polynomial regression?",True
+@lotmoretolearn-dataanalyti9312,2020-03-15T14:24:30Z,0,Great explanation. Very nice and simple explanation for ridge and lasso. Both theoretical and practical concept is good. Keep doing such videos.,True
+@alakshendrasingh3425,2020-03-04T11:06:53Z,40,You have already trained the model with whole data at first then splitting it for the prediction. Nothing wrong but I don't think so its an ideal technique.,True
+@apoorvshrivastava3544,2020-02-27T02:25:42Z,0,Sir you are saviour,True
+@rajeshthumma5930,2020-02-06T18:45:07Z,0,"Hi Krish, You are explained in a clear and easy manner to understand the concepts. Krish, If possible can you please explain the machine learning algorithms as like you explained as linear regression algorithm. I Mean to say, theoretical explanation of the all the important machine learning algorithms. thank you",True
+@MrPiickel,2020-02-04T22:33:14Z,5,"Is the method correct? In my understanding we should: 1.  split up the data train and test.set (maybe - depends on data units -  standardize before) 2. do the hyperparameter optimization on the train set with cv-> best model for training data 3. predict with best model on the test set -> realistic result for unseen data   you did: 1. hyperparameter optimization on all data using cross validation -> best model for all data 2. split up all data in training and test set 3. predict with best model on test set -> in my opinion your  ""best model"" has already seen the data in the test set. Hence the result should not be quit realistic. What do you think?",True
+@madhu1987ful,2020-01-18T18:39:30Z,1,Krish  Just the video I wanted to see how ridge and lasso can be used in Python. Thanks a ton  Can u pls explain what is the inference from last 2 dist plots...I didn't get,True
+@Prachi_Mayank,2020-01-18T04:20:44Z,0,Sir this  mse =cross val  This line is showing error in my system sir...  As per this 'neg_mean This line is showing error...  Wat do I do sir?,True
+@UnfoldDataScience,2019-12-16T06:07:56Z,7,"Thanks Krish for the amazing explanation. Some people are asking for things to be in order etc, I just want to put my comment here for them which krish has mentioned in one of his previous video. Lets say you want to search random forest by krish. Just type “random forest by krish naik” and u ll get that as first video. This is the way I go to particular video.",True
+@manikantasai4766,2019-12-14T11:04:18Z,3,Can you please make video on sentiment analysis on twitter,True
+@arvindtechnical940,2019-12-13T15:33:15Z,1,Sir AirIndex Project Second Video?,True
+@adarshmamidi334,2019-12-13T09:32:21Z,1,Reply in insta,True
+@rajusrkr5444,2019-12-12T13:17:31Z,1,"please provide code also sir,  when practicing it will take more time to watch the video  and type the code in editor.",True
+@JaiSreeRam466,2019-12-12T03:17:41Z,1,Please explain elastic regression aswell,True
+@techbenchers69,2019-12-11T20:22:58Z,2,Is deep learning playlist is complete ?if not please complete it🙏🙏,True
+@RitwikDandriyal,2019-12-11T19:14:17Z,1,Just curious but shouldn't we be standardizing our data when using linear regression? Or does sklearn automatically take care of that?,True
+@ali013579,2019-12-11T18:33:16Z,4,I just don’t know where to start. By the way nice videos,True
+@iftekarpatel123,2019-12-11T18:11:51Z,1,I m d first to to watch ur video.. Was watching ur bias n variance video... N notification came for this... Big fan of urs sir...,True

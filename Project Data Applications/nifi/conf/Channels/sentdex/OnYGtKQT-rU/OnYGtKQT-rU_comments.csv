@@ -1,0 +1,58 @@
+author,updated_at,like_count,text,public
+@HeigthTrielli,2024-05-26T16:45:48Z,0,Hi! Can you share what hardware were you operating on?,True
+@mikahoy,2024-05-12T14:14:14Z,0,"Hi, how to do it for geopandas? is it same?",True
+@Andrea-du3or,2024-05-11T12:34:13Z,0,Has anyone been able to install the library with pip as he shown ? I keep getting errors like - Preparing metadata (pyproject.toml): finished with status 'error' :'),True
+@Mil-Keeway,2024-02-13T14:09:53Z,0,"3:38 it doesn't have the prices ""in quotes like a string"", it's a properly exported csv that has ALL fields quoted. Your pd.read_csv is missing quoting=csv.QUOTE_ALL (or just quoting=1) and optionally quotechar='\""' . The only ""magic"" pandas is doing is interpreting that column as quoted. If you add those options, I'm guessing cudf will run just as well, since the ingest portion will still be using python standard lib or at least pandas C implementations.",True
+@BDog_1,2024-02-03T06:28:37Z,0,how would you start to make an AI that deals with data using python. I'm trying to learn more about this,True
+@catslover4745,2023-12-12T15:26:28Z,0,Hey does anyone know how to get this working on normal visual studio code python file instead of opening it in jupyter? Thanks,True
+@shaftymaze,2023-12-11T07:28:30Z,0,Polars in rust wrapped in tqdm.,True
+@gingerjiang666,2023-12-01T04:10:56Z,0,Does it still use memorry to fit the entire dataset?,True
+@JuanRamirez-di9bl,2023-11-27T02:04:37Z,0,Is this faster than numpy??,True
+@ahmed-yassinechraa8731,2023-11-26T19:19:01Z,0,"Can you make a tutorial on howa to install cuDF, i saw that there is a lot of things to install before it",True
+@shashisaini7919,2023-11-25T14:35:44Z,0,"@sentdex sir please make videos on 3d deep learning, its really exciting to see your work on point cloud",True
+@sillybuttons925,2023-11-23T09:59:40Z,0,**does scipy work with it?,True
+@ai.simplified..,2023-11-20T21:14:00Z,0,3:20,True
+@BohonChina,2023-11-20T17:52:46Z,0,"how about Mojo? Mojo can actually use GPU to accelerate calculation too, currently Mojo support numpy，pandas in cpu. It will be fun to make a comparison with CuDF. Mojo is more like a superset for python.",True
+@extrememike,2023-11-20T00:41:02Z,0,Great find!🎉,True
+@poloceccati,2023-11-18T21:59:19Z,0,what about amd gpu ?,True
+@EarlZMoade,2023-11-18T11:01:15Z,1,What's the reasoning for not using groupby in this demo? Wouldn't that be the more natural and faster pandas method to use - instead of looping over everything.  Feels a little disingenuous to compare poorly optimised pandas code that no one would actually write.,True
+@youknowmyname12345,2023-11-17T23:52:45Z,0,Does this new accelerator speed up groupby() operations?,True
+@noormohammedshikalgar,2023-11-17T14:38:16Z,1,"Hello Sentdex, I am reaching out to you regarding your Neural network from scratch series ? any updates on that, you left on pt 9  Please do continue its an awesome series  and any updated on Book discounts for use for the Black friday ??  please do help",True
+@AyahuascaDataScientist,2023-11-17T05:22:46Z,0,Does cudf.pandas work with apple silicon MPS GPU framework instead of just cuda?,True
+@ivchatov,2023-11-16T11:02:32Z,0,Is this compatible with Python 3.7 at all? Last time I tried installing CuDF I remember version incompatibility stopping me.,True
+@jamoncitovideos,2023-11-15T11:20:48Z,0,"Ditch pandas and use spark, your local data engineer will thank you",True
+@thetdg,2023-11-15T10:02:21Z,1,"Great video. Just one thing: instead of comparing cuDF with vanilla Pandas, wouldn’t a comparison with Modin be a more appropriate one?",True
+@bikkikumarsha,2023-11-14T06:55:07Z,0,"please make a video on custom GPTs, actions and open ai dev event",True
+@Stinosko,2023-11-13T17:42:05Z,0,Cool!,True
+@d_b_,2023-11-13T15:56:35Z,0,This looks like it would beat out something like Dask for non-distributed large datasets. Is that the case?,True
+@AlignmentLabAI,2023-11-13T12:03:51Z,0,jesus christ my life has totally changed,True
+@megalomaniacal,2023-11-13T10:44:23Z,0,"Thanks bro, will give it a test run.",True
+@HarrisBallis,2023-11-12T22:02:30Z,54,"Enabling cuDF using a single flag is insane! However, I just wannted to point out (especially for new pandas users) that the proper way to calculate average price per city in pandas is by using groupby. Running `df.groupby('Town/City')['price'].mean()` in plain pandas is blazing fast (a few ms), nothing compared to 19 minutes. That doesn't mean that cuDF is not useful, but don't forget that using plain pandas properly can get you a long way.",True
+@citizenR1203,2023-11-12T13:42:00Z,0,"Very interesting, thank you for sharing 😊but this seems to be not compatible with MacOS and 2,9 GHz Quad-Core Intel Core i7 processor.",True
+@r.k.vignesh7832,2023-11-12T03:42:23Z,0,"9:01 I'm running late for work, but wouldn't it be possible to vectorize this code and it be faster than both the CuDF and the CPU versions of this benchmark? Curious to see how CuDF plays with vectorized versions. If I get the time I'll try some experiments and update this comment.",True
+@ashu-,2023-11-12T00:40:37Z,0,"Ngl, your video looks like Deepfaked, I also think at this point you can probably deepfake yourself with a bit editing to make an people believe its real.",True
+@usamatahir7091,2023-11-11T16:18:50Z,0,Thanks a lot for sharing. super useful <3,True
+@VermontStrolls,2023-11-11T16:05:38Z,0,Thanks a ton!,True
+@vigneshpadmanabhan,2023-11-11T07:06:58Z,1,CuDF vs Polars may be.,True
+@delt19,2023-11-11T04:30:23Z,1,10 sec compared to 19 min?!?! Holy f....!!!!!,True
+@kascesar,2023-11-11T01:04:23Z,0,Impresive!,True
+@SwissPGO,2023-11-10T22:39:21Z,0,Any alternative for Apple Silicon ?,True
+@kelkka7,2023-11-10T19:09:47Z,0,Will this work with geopandas?,True
+@__python__,2023-11-10T18:39:22Z,3,Thanks for sharing... I would be curious about a comparison between accelerated version of pandas and polars.,True
+@Arctect,2023-11-10T18:20:12Z,0,like ** 10 == 0.0s,True
+@leetrout8104,2023-11-10T18:17:31Z,0,Does Pandas / Numpy always use SIMD?,True
+@acelaox6836,2023-11-10T17:07:08Z,0,the kubota warrior is back with the heat 🗣🗣🗣,True
+@oguzhanyldrm962,2023-11-10T17:03:26Z,1,Please post more often videos Harrison ,True
+@jameslucas5590,2023-11-10T16:57:46Z,0,Outstanding.  Thank you for this informatoin.,True
+@EtienneTremblay,2023-11-10T16:50:31Z,2,What happens if your dataset doesn't fit in GPU memory?,True
+@maurice9327,2023-11-10T16:46:23Z,1,What if my RAM (128GB) is larger than my VRAM (32GB)? Is normal pandas still faster for data that's larger than the VRAM?,True
+@Summersault666,2023-11-10T16:44:49Z,1,Will it work on apple notebook?,True
+@MuhammadNurdinnewspecies,2023-11-10T16:39:58Z,1,Next brow... how to manage your gpu memory. Loading your dataset and training your model,True
+@perryholman5302,2023-11-10T15:59:11Z,9,Wonderful!  Thank you.  It would be an interesting comparison with polars library as well.,True
+@sternsemasuka9716,2023-11-10T15:53:24Z,1,How about Polar?,True
+@harshvaragiya8834,2023-11-10T15:53:07Z,24,Awesome video! I encountered a similar issue where I had to process ~8 GB of data using an AWS Lambda (limited RAM and time). I used polars (pandas alternative written in rust from scratch for performance) and I found it to be blazing fast . It's really really useful - especially with non nvidia devices like my raspberry pi and the AWS lambda function. You should definitely check it out!,True
+@spicy.d,2023-11-10T15:51:36Z,2,I'm waiting on AMD to enter the DS space so I can use my 7900XTX to do things LOL,True
+@damianshaw8456,2023-11-10T15:45:43Z,6,"For the read_csv operation I would be curious what is actually taking the most amount of time with the Pandas object, I suspect it's building the Python string objects, and if so I wonder if you have PyArrow installed and set pd.options.future.infer_string = True it would be much faster?  And in general it makes sense that using strings are slow in Pandas, because it's falling back to looking up a Python object by via reference to it, it's actually a much more interesting comparison for number or datetime data types. For strings it would be much more interesting if you had use the PyArrow string data type.",True
+@kenchang3456,2023-11-10T15:34:52Z,1,Once again thank you for sharing :-)  You are appreciated.,True
+@Brickkzz,2023-11-10T15:31:14Z,5,"Missing your tutorials man, trying to install this on windows...",True
+@bantaibaman5662,2023-11-10T15:28:11Z,26,"Hey Sentdex, can you take this video down so my manager doesn't find out that I sped up the entire codebase by 200 fold with just one line and I end up getting appreciation bonuses??  Jokes aside, this is absolutely wild. What a gamechanger. Thanks a lot as always, Kevin!",True

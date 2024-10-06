@@ -1,0 +1,69 @@
+author,updated_at,like_count,text,public
+@coreyms,2019-06-17T15:16:22Z,45,"I hope everyone finds this video helpful. The next video of the series will be posted tomorrow at the same time. The next video will cover how to plot live data in real-time. We will learn how to monitor a CSV file for changes and add that data to our plot as it's being generated, so be sure to check that out.  I'd like to thank Brilliant for sponsoring this series. If you'd like to check them out then you can sign up with this link and get 20% off your premium subscription: https://brilliant.org/cms",True
+@anujsharma3656,2024-05-18T15:45:09Z,0,It took me quite a while to get it to work. 1) I had to install ffmpeg otherwise I was getting index error which was impossible to resolve . If it was not for chat gpt I could not figured out. 2) Also I had to add a frames by using reading len(data['x_value']) to animate object to make FuncAnimation being called and also updateanimate func with frames being updated during the call to be used again 3) I running jupyter notebook from vscode. I had to add %matplotlib inline. Though my plot still does not show dynamically with plt. show . I had to save the animation to file to view it getting updated dynamically.,True
+@anujsharma3656,2024-05-18T08:56:11Z,0,"i could not get the plot to show and had to modify writ to an image and also if I don't put frames or save_count the image does not display. Is this behaviour being seen by other as well. f = r'test_animation.gif' ani=FuncAnimation(fig1,animate,interval=1000,save_count=100) writergif = anm.PillowWriter(fps=3) ani.save(f,writer=writergif)  ani.save(f,writergif) plt.tight_layout()  plt.show()  Image(open('test_animation.gif','rb').read())",True
+@suchetapathalam5693,2023-10-26T10:00:37Z,0,Absolutely love how you explain evrything so clearly!!,True
+@shreyashkashyap,2023-07-23T14:42:43Z,1,Beneficial video. I would have mistakenly kept the dates as strings instead of datetime data. Will make sure to convert them before plotting them.,True
+@viniciusinojosa8437,2022-11-06T18:06:17Z,0,"Hello there, nice video. Is it possible to do it in subplots?",True
+@BarbaraBezd,2022-08-09T15:39:05Z,0,Thanks for this video. It was very useful!,True
+@anubhavrauniyar3192,2022-07-21T14:48:49Z,0,Thank You Corey!  love your Work..........,True
+@anurasenarathna1703,2022-03-14T02:08:45Z,0,"As usual, great series. Thank you very much.",True
+@MrsDyarvane,2022-02-14T14:10:38Z,0,"This was helpful , thank you!",True
+@dr.bhartivnathwani2073,2022-02-11T06:33:47Z,0,Nice video. How to download and save data.csv file in laptop which you shared?,True
+@danielflorea3001,2021-11-28T11:33:06Z,0,Exremely useful and great explanations,True
+@lovesparkles1983,2021-10-25T14:15:07Z,0,"Hello, may i ask how do I just filter out for example 2019 in a column of different years and then plot it? :)",True
+@swetajha,2021-07-24T07:55:42Z,0,Using DateTime Formatter changed my X-axis dates to 1 Jan 1970. Why is that happening?,True
+@anibalguerrerohernandez257,2021-07-20T11:44:11Z,0,"Had been stuck for several days on a big data structure, but your video has helped me out. Thank you so much!",True
+@sanjuktaghosh7855,2021-07-16T15:27:51Z,0,How to do with only hours? I have daily data of each hour and I need to plot for hourly timeseries,True
+@gustavoteixeira8295,2021-04-07T14:08:07Z,0,'Amazing' is not enough to describe the video quality. Thank you very much.,True
+@ThomasHaberkorn,2021-04-01T08:33:06Z,0,great series of videos! One more to round it up: Is it possible to create a 'data cursor' to display the CSV values near the mouse location? would be a very useful add-on in my opinion. thanks,True
+@danielalegriasallo5551,2021-03-15T20:38:28Z,0,"I'm binge watching this series, it's been so interesting to learn MatplotLib.",True
+@nickt423,2021-03-14T14:49:51Z,0,@8:46 I wish you had shown that. Has anybody successfully formatted the dates in the 2nd example (as he showed in the 1st example)?,True
+@aeroscience9834,2021-03-11T07:24:59Z,0,What about times all at the same date?,True
+@abdelrahmanali4550,2021-03-07T22:46:13Z,0,Thanks Corey for making it look so easy.,True
+@joelmathew855,2021-01-20T12:07:44Z,0,"Hey Corey, can you tell me how I can use Timestamp in x-axis with live data so that after every plotting the time keeps moving for the respective y axis and so that the axis does not get complete. Awaiting your reply",True
+@SimpleHumanInNY,2021-01-06T15:07:08Z,0,"Folks using jupyter notebook:  import datetime as dt  dates = [     dt.datetime(2019, 5, 24),     dt.datetime(2019, 5, 25),     dt.datetime(2019, 5, 26),     dt.datetime(2019, 5, 27),     dt.datetime(2019, 5, 28),     dt.datetime(2019, 5, 29),     dt.datetime(2019, 5, 30) ]",True
+@jackyhuang6034,2020-12-31T07:34:17Z,0,"Awesome tutorial.  If we have many rows (too many points), how can we select only year-month and each month only needs to show once?",True
+@KillerBee1917,2020-12-11T17:05:44Z,0,"Extremely useful, thanks a lot!",True
+@harvey2242,2020-12-09T11:03:43Z,2,"at 12:31, a faster method to define the datetime column  data = pd.read_csv(.""...."",  parse_dates=[0]) 0 refer to the column index where the date column lies.",True
+@bernardclark274,2020-11-30T21:58:36Z,0,Great series. Can someone explain why only every second date is printed on the x-axis? How can the code be changed to print very day?,True
+@rishiraj1028,2020-11-04T05:27:44Z,0,"If the dates are not arranged in order in your list and you use solid line...the dates will be arranged according to time, but the y values will be connecet to each other as they appeared in the list...and that will look very weird graph, having many intersecting lines",True
+@abhinav9561,2020-10-16T11:15:51Z,0,Thanks man!!,True
+@microsoftmath,2020-10-08T13:34:05Z,0,How to add percentage change from one point to another in the plot that you have shown.,True
+@suhailanjumabdurraheemsayy7639,2020-10-06T14:00:01Z,0,Thank you very much for very nice series of videos.  I am following all the videos.   Only in the present video it show the error about itertools. I try to install it using pip as well as conda but can't do that.  the i try to install pip3 install more-itertools. it says the requirements already satisfied. but still same error.  I am using Windows10 64 bit and using Spyder4 editor (comes with anaconda installation). Your kind help in this regard is highly appreciated.,True
+@johangodinho,2020-09-27T18:57:19Z,0,"Thank you for this amazing series. Being a fellow python  creator aswell, I really appreciate the amount of effort you put into creating this amazing tutorials, and all the best for the future :))",True
+@Terence818,2020-09-12T20:33:34Z,2,"14:00 I think even without pd.to_datetime() conversion (line 10), pd.sort_values() (line 11) will still work as expected, since treating dates as strings will still produce the same plot. Am I right?",True
+@VJ-td6oc,2020-08-11T09:39:20Z,0,"What about plotting hours:minutes:seconds, i suppose that it can't be done with dates,and i need timestamp format for that?",True
+@muzzamilnadeem3104,2020-07-28T19:25:09Z,1,This is such an informative video. Really appreciate how u explained each and every thing !,True
+@juanventrone,2020-07-23T14:44:51Z,0,"I feel that I love you!, Thanks for share all this videos bro!!",True
+@slobodantajisic2762,2020-07-08T11:37:19Z,0,"11: 44 We could sort the strings here, as we sort the dates later. We would get the same. We do not have a May 17th at the beginning because we didn’t sort, not because those aren’t dates. Am I right?",True
+@guanfuqiao5879,2020-06-07T00:39:25Z,0,Just come across that in pandas they have date_range function.,True
+@ashikka5902,2020-05-02T15:23:07Z,0,"Hey Corey! Thanks a lot for the videos. Could you create some more videos that cover Time Series in detail please? I have gone through the one on your channel and its great, but I guess it would be really helpful if you create more on it with examples. There's very less content that I found good related to Time-series and I'm sure your videos would solve that issue.",True
+@shikharsaxena9989,2020-05-01T18:33:56Z,0,the best lecture i have found on youtube. DO share some more resources,True
+@nickm2642,2020-04-30T00:26:32Z,0,"What about plotting data by date when you're just looking for how many events took place in a time frame? For example, how many customer bought x, y and z product in 2019? Or by quarter? Data sets don't always track data by date in each row like stock or coin prices.",True
+@digipak07,2020-04-13T21:44:43Z,1,Excellent video. Thanks for sharing.,True
+@PW_Dingo,2020-04-07T04:19:10Z,0,what python program did u use to code this?,True
+@yuvii007,2020-03-25T11:37:01Z,0,what about datetime? how to set ticks for date time axis,True
+@laurentb6563,2020-02-25T13:27:55Z,1,This is beautiful,True
+@AbdulRehmanappsforall,2019-11-18T06:12:13Z,2,"Great video as always, but how we can adjust if we have time also? Because in some datasets where the time-interval in minutes we probably have the time with date also.",True
+@user-qg4ky1dq7n,2019-11-09T08:11:10Z,0,How do you use the # symbol such it will either show on many lines of code AND delete all of them in a shortcut?,True
+@ghostwhowalks5623,2019-09-22T00:02:59Z,1,"excellent tut as always. Any thoughts on how to make the month lower case; as in I'd like to get ""may-19"" instead of ""May-19"". Thanks",True
+@FawadJaved,2019-09-08T15:53:33Z,1,"error at df = pd.to_datetime(df)     to assemble mappings requires at least that [year, month, day] be specified: [day,month,year] is missing.     i dont have days or months or years i only have like '09:00:00.036' %H:%M:%S.%f but its given me error ... please help me ....  i only want to show the given h,m,s.f .......days years and monhs are not given in dataset",True
+@rahulsharma-st5yg,2019-08-08T02:47:16Z,0,@corey: how to plot candlesticks with volume,True
+@josesaldanamoreno9845,2019-07-14T10:01:39Z,0,"Could any intelligent human tell me how can I animate vectors  (arrows) in Matplotlib. I've tried many different ways and they either not move the vector or Python gives an error (something like: You can not update data from vector, plt/ax.arrow). I'm a noob and I've been stuck for a while with this problem, so I would really appreciate ANY idea. Thanks",True
+@francist3979,2019-06-24T22:34:48Z,4,Amazing work Corey! I enjoy your videos and will be watching as many as possible! love the work!,True
+@Andresdha,2019-06-19T09:09:37Z,3,Awesome videos! Do you plan on doing videos on Pandas? That’d be great!,True
+@CentboyMidnight,2019-06-19T07:23:27Z,1,if you pass this arg  parse_dates=True into the csv function. It doesn't do the trick for you?,True
+@kalyanalladi,2019-06-18T07:29:49Z,7,"Corey, your videos are awesome. Learning lot from these. Would like to see more videos on machine learning, neural networks as well",True
+@chenliang4942,2019-06-17T23:10:33Z,1,Thanks a lot.The series is awesome,True
+@amanrastogi1232,2019-06-17T20:41:44Z,0,Awesome Video Series. I have followed all your python series and OOPs in python :) and i love those very much. I am highly interested to know what will the next chapter we are going to learn from you?,True
+@iyanu3723,2019-06-17T20:34:18Z,0,please can you show how to plot multidimensional time series. i love your videos,True
+@xSayllusx,2019-06-17T19:30:39Z,0,"Very nice. Is their any way to use the rest of the columns tho? Can u make a graph that includes high, low, closing value and volume? Does a graph like that even make sense? Or can u do some tips of aggregations if u had more than one currency, for instance what if u had a similar table but with euros, pounds and yuan mixed in too? Sorry for the long question :)",True
+@youngzproduction7498,2019-06-17T18:06:10Z,21,The whole matplotlip is awesome. I keep watching them on and on.,True
+@dskeshav9038,2019-06-17T17:45:59Z,0,"Please explain how to visualize a multi-class time series classification dataset with different DateTime formats in a single column. The time interval of the recording of each sample measurement is every 15 minutes. Please find the link to the dataset for reference -""https://www.hackerearth.com/problem/machine-learning/on-the-plague-trail/""",True
+@ulfgj,2019-06-17T16:27:36Z,18,- video liked - beer opened - watching video,True
+@liangyumin9405,2019-06-17T16:22:58Z,1,Great!,True
+@coreyms,2019-06-17T15:26:22Z,21,"I just realized that I'm missing a date in my CSV data. I fixed that in the snippets, so if you're following then there will no longer be a missing date in the downloaded snippets. But we can see that even with the missing date in the video, it interpolates the values for that missing date in the plot.",True
+@TheBIMCoordinator,2019-06-17T15:11:10Z,1,Great info!,True
+@CodeLvl,2019-06-17T15:06:55Z,0,"Sir, I need some help about Django raw queries. Please help me.",True
+@rancoxu,2019-06-17T15:03:59Z,3,Thx a lot for making this series!,True

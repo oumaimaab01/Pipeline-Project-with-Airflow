@@ -1,0 +1,394 @@
+author,updated_at,like_count,text,public
+@NoNo-nr2xv,2024-05-02T16:40:44Z,0,"Sorry I just don't get list comprehension. It always seems like circular logic and magic, lol.",True
+@oguzturkyilmaz543,2024-04-28T15:34:38Z,0,Thanks,True
+@maximillianquaife-larsen3799,2024-02-26T15:11:20Z,0,Thank you for the amazing video,True
+@faturotivincenttemitope4709,2024-02-09T11:23:36Z,1,"I got confused with your print function in this video, i.e print my_list instead of print(my_list). After a little research I discovered the former is python 2.x while the latter is python 3.x.  I also discovered I can directly create a dict with the zip keyword i.e dict(zip(names, heros)).  Finally, I love your videos, they are straigtforward and refreshing.",True
+@silvertech683,2024-02-04T15:59:13Z,0,Thanks man,True
+@praveennr5977,2024-01-29T10:34:26Z,1,Thanks,True
+@kapibara2440,2024-01-24T20:04:18Z,0,"Fantastic video, watching it in 2024. Kudos ❤",True
+@500magnum4,2023-12-31T15:32:08Z,0,This is the ace in spades.,True
+@just_living_,2023-12-20T08:03:29Z,20,"8 years after and my man is still better than 90% of other tutorial, cheers man",True
+@sonysunny9248,2023-12-17T11:55:48Z,0,13:20 my man predicted Multiverse of Madness.,True
+@husseinhadliye2992,2023-10-28T19:28:17Z,0,"Easy explanation thanks, but what is the first letter like n what does it means",True
+@leomak7580,2023-08-17T08:00:53Z,0,lambdas are 10 times more readable then list comprehensions. Comprehensions looks like some hack. Everything mixed together like we were forced to fit everything in one line.,True
+@Cloudxxx23,2023-08-16T16:07:52Z,1,"11:01 This is the right syntax in 3.11 version --->  print(list(zip(names, heros)))",True
+@nelsonberm3910,2023-08-15T20:18:05Z,0,Thanks for the information!,True
+@AlexKashie,2023-07-17T14:53:33Z,0,"Thank you Corey, content made 7 years ago and still fresh.",True
+@user-yk9rr5ir7v,2023-05-30T08:22:23Z,0,"Great video! The concept of list and dictionary comprehensions was very well and clearly explained. I understand it much better now. I just want to add that the generator expression at the end can all just be written in one line I believe: print(list(n*n for n in nums)) though that would only print it as a list rather than line by line.",True
+@user-fz8qy6tt3m,2023-05-03T09:12:10Z,0,"we can also use itertools:  # itertools pairs = list(itertools.product('abcd', range(4))) print(pairs)",True
+@oleksiy.tryfonov8,2023-03-16T18:13:57Z,1,"Nice tutorial. Please emphasize, if you use two for loops within list comprehension, the second one is the Nested loop. You can use different condition in each for what you want.  List comprehension can also create not  only list of variable, but  the  list comprehension: [[i for i in something] for j in something] --> list with nested lists inside.",True
+@eldarmammadov7872,2023-03-14T14:39:55Z,0,"Great explanation! ""[item for sublist in list for item in sublist]"" Is it same for what you have shown in 9:18 min about nested loops but in your example it is for dictionary comprehension. [item for sublist in list for item in sublist] is used for flattening nested lists, that's where I took it from",True
+@haneensaad533,2023-03-12T18:50:52Z,0,"thank you for the videos, but I had problem with map if anyone like me uses list() , that will solve the problem , thank you",True
+@williamsquires3070,2022-12-17T18:07:00Z,1,"When I try to print my_list after: my_list = map(lambda n: n*n, nums) It prints: <map object at 0x<some hex address>> I’m currently using Python 3.9.12 Interestingly, it does the same thing with the filter() function, except it returns a “filter” object instead.",True
+@edwardwong654,2022-11-22T10:55:38Z,1,"I  love this channel, ut I a using 3.9.12 and it complains if I do include parentheses in my PRINT statement?",True
+@Official_Happy_,2022-10-27T05:11:31Z,0,ITS TUP-EL NOT TU-PLE,True
+@argonaut4981,2022-10-11T06:17:03Z,1,why does your print statement for your generator not have any parenthesis? great video by the way.,True
+@alyssa4347,2022-10-08T19:12:18Z,0,What a life saver love you sir <33,True
+@emperornugz89,2022-10-07T19:37:43Z,0,"Using these videos to fill in some of the gaps I've had while reading ""Automate the Boring Stuff"". Been making cheat sheets to code along with off your videos!",True
+@nicolasoyaguesantolalla4445,2022-10-06T02:48:25Z,0,The best videos!!! Thanks!!,True
+@buzz.b,2022-10-02T17:28:54Z,4,"This is an exceptional tutorial on list comprehensions. The use of writing out what we want in normal language, seeing it implemented in a loop, and then how it translates to a list comprehension makes it very clear and intuitive. I never quite got comfortable with them when I originally learnt this, but your method of teaching it allowed me to understand the concept. Many thanks.",True
+@jorgeguerrero4353,2022-09-30T19:48:11Z,0,😮,True
+@jialiangpan7258,2022-07-23T11:23:17Z,0,This is by far the best tutorials on list comprehension I’ve ever got online. Thank you so much!,True
+@akira_asahi,2022-07-19T04:22:37Z,0,"Thank you for the video. I am grateful for your time and contribution. Kind regards, Akira.",True
+@HamsterCatLionn,2022-07-09T02:52:44Z,0,For the set comprehension would it not be the same thing to just cast the original list to set type? or is something different going on there that I'm not understanding?,True
+@thealphabong9195,2022-07-08T12:33:50Z,0,LOVE LOVE  & LOVE nothing else...,True
+@joeyzalman8254,2022-07-08T12:16:28Z,0,"very clear, thank you so much!",True
+@emiliorambaldi2894,2022-07-08T01:46:03Z,0,"Ud me puede mostrar cómo hacer un arreglo de ventanas?  Es muy fácil hacer una ventana VENT=Tk() #Ya superf[acil.  Ahora deseo tener el arreglo VENT(1), VENT(2), VENT(3)........................ PUEDE AYUDARME? GRACIAS.",True
+@bintangalifseptiawan5103,2022-06-08T14:20:20Z,0,"Damn, u really are an angel",True
+@nashsok,2022-06-07T23:21:08Z,2,"For anyone following along in Python 3, the zip() function works a bit differently in Python 3 than it did in Python 2, returning an zip object iterator, rather than an iterable.  In order to create a dict with a 'for' loop as shown in this tutorial you'll need to cast the zip object to a list using the list() function  for name, hero in list(zip(names, heros)):      my_dict[name] = hero  Or, to create a dict with a comprehension:  my_dict = {name: hero for name, hero in list(zip(names, heros))}",True
+@wonkyu1qlee66,2022-05-31T05:21:52Z,0,"Your print statement works without parenthesis, but mine doesn't. I'm running python 3.10.",True
+@kwrifles,2022-05-13T16:13:16Z,0,"best video ive found so far on the subject, you break it down the information in easily digestible sizes. appreciate it and subbed",True
+@jaroffdaniel5242,2022-04-01T13:42:51Z,0,I do feel bad for watching this video after 7 years LOL!!! But can't be thankful enough....,True
+@jaroffdaniel5242,2022-04-01T13:41:14Z,0,I would say your videos are so much useful. I am just getting started with python but these comprehensive videos are rapidly making to go to intermediate level of code manipulation and understanding... THANK YOU SO MUCH!!!!!!!,True
+@pmt4297,2022-03-30T19:37:47Z,0,BIG LIKE for this video! Your videos are great but this one answered some of my main questions about coding in Python. Thanks a million.,True
+@aishat3808,2022-03-25T09:39:02Z,0,Thanks a lot. Much appreciated.,True
+@urosselena935,2022-02-19T16:44:48Z,0,as always awesome,True
+@yomajo,2022-02-16T19:00:46Z,0,"What I recently learned in David Beazly's course, is that for 13:05 dict forming you can simply use: d = dict(zip(names, heros))",True
+@jovar7545,2022-02-15T20:33:04Z,0,a beginner question. Why can I use any name instead of n. I thought n would be the amount of numbers in my stack but apparently it works if I put in x or y aswell. Thank you,True
+@anishachoudhury3905,2022-02-15T14:06:26Z,0,Thankyou so much Sir!!!! Love from India!!!!!!! <3,True
+@user-qn5by5iv7u,2022-02-13T08:38:18Z,0,2022,True
+@dishant5157,2022-02-12T05:58:14Z,0,Nice one 🔥🔥🔥🔥🔥,True
+@whimsicalkins5585,2022-01-25T13:15:04Z,0,Thanks for your detailed explanation. I appreciate the efforts put by you to explain the difference between naive approach and list comprehension.,True
+@TheJAM_Sr,2022-01-19T16:32:19Z,0,Dude you are a rockstar! Thank you for making this easy to follow tutorial!!,True
+@aisolutions834,2022-01-16T04:11:29Z,0,"Wow, a concise video teaching elegantly creating lists, dictionaries, sets, and generators!",True
+@simondolapo1567,2022-01-07T02:43:11Z,0,All I can say is amazing contents never die...They still live for decades to come,True
+@Bubbalubagus,2022-01-07T00:52:42Z,0,Only criticism is you didn't run the code at 10:38 which made it a little tricky to follow you in the next dictionary example. I love your videos!,True
+@muntadher8087,2022-01-01T16:20:37Z,0,Thank you,True
+@BJack281,2022-01-01T01:07:13Z,0,"Thank you for the tutorial.  I'm still trying to grasp that concept of list comprehensions.  I know it's not all that difficult, but for some reason, I think too hard when it comes to trying to understand the concept, or the format (syntax) of writing list comprehensions. ugh!! anyway thank you...much appreciated!!!",True
+@theegreatestever2420,2021-12-24T08:22:18Z,0,ABSOLUTELY AMAZING EXPLANATIONS!,True
+@VIDOCQ1321,2021-12-12T10:21:22Z,0,man u ar the BEST :),True
+@aposaheed4543,2021-12-09T04:27:06Z,0,You are the best tutor for me. I understand ur style than anyone. Thanks,True
+@benarcher372,2021-12-06T17:23:44Z,0,What happened to this fantastic channel?,True
+@Moses_42,2021-11-16T12:34:49Z,0,"Am very new to Python and i would love to learn it, where can i start from? Thanks",True
+@shyamss2338,2021-11-16T07:38:06Z,0,Don't we need to use the append function while using the for loop to create the dictionary?,True
+@shyamss2338,2021-11-16T05:33:54Z,0,"When I try to run the below code:- # Using a filter + lambda nums = [1,2,3,4,5,6,7,8,9,10] my_list = filter(lambda n: n%2 == 0, nums) print(my_list) I get the output as <filter object at 0x000002C8977129B0> instead of [2, 4, 6, 8].  Can someone tell me why am I not getting the list as the output?",True
+@amandaahringer7466,2021-11-04T15:09:27Z,2,"Just spent a couple hours reading articles, watching videos, and practicing nested comprehensions. The whole time I was thinking ""wow if Corey had a video on this it would have been so much faster and easier to understand!"" Your channel is awesome :)",True
+@database_tips_tricks,2021-11-01T15:51:40Z,0,"I hope you never take down these videos  , so convenient to always be able to come back to them again when not understanding at first and then real life situation makes one have to u understand and then these videos are so helpful THANK YOU best python learning channel I ever used",True
+@bartuslongus,2021-10-29T12:36:17Z,0,Thank yo so much Corey for all your tutorial videos! They are exactly the format I need to learn this language and coming back when I struggle doing it myself just to see that you already mentioned it. Coming from a Java backgound I really enjoy being able to do such great things so easily and having so clear instructions how to do it (right). Combining it with a Raspberry Pico and Unicorn hat makes it so much more enjoyable and motivates me to try out even more cool stuff!,True
+@amranmohamed377,2021-10-23T18:55:44Z,0,"Hello I have just tested which code runs faster: for loops, comprehension and lambda and I found that comprehensions is the fatest and the lambda is the slowest. Their ratio time they took executing comprehension: for loop: lambda was 1:2:3.  Think that helps",True
+@arthuralexandersson,2021-10-16T14:25:44Z,0,"Very useful even after 6 years, thank you!",True
+@triplestrikee875,2021-09-29T21:11:31Z,0,Awesome explanation,True
+@MKSundaram,2021-09-26T14:03:18Z,0,"1) I got map object address rather than the list.  my_list = map(lambda n: n*n, nums) and then print (my_list). output: <map object at (some address)  2) # Dictionary Comprehensions I got zip object address rather than the key, value pair as you got.  print(zip(names, heros) it returned my object address  3) # Set Comprehensions my_set = {n for n in nums} print (my_set) Output: {1, 2, 3, 4, 5, 6, 7, 8, 9} my O/p for the for loop was same. why I am got curly braces and you got different o/p?  Thanks",True
+@venkatlokesh4113,2021-09-23T14:32:41Z,0,Who are from 2021,True
+@jpeg.600x2,2021-09-11T16:51:15Z,0,r u able to use multiple expressions in a list comprehension to mimic a for loop?,True
+@plazmadolphin5081,2021-09-09T23:59:13Z,0,aha now its off to show this off to my CS teacher in an introductory class once i learn wrappers i'll be unstoppable!!!,True
+@vickyvignesh3147,2021-09-09T04:00:27Z,0,"<zip object at 0x000002A7547680C0> whenever I try to zip() , I get an value like this but not the dictionary , what should I have to do ??",True
+@vigneshrb1626,2021-09-02T10:56:43Z,0,Amazing video but I have one doubt. I don't know if it's a new feature but to convert list to set we can directly do set(list_variable),True
+@zaidahmed4413,2021-09-02T03:12:28Z,0,"the best youtube channel i have seen upto to now i have doubt about  print zip(names,heros) i am unable to run it is there any thing which i have to import",True
+@javaguitarist,2021-08-27T16:11:35Z,0,Why does your print my_list work without the parentheses please?,True
+@pingpangqiu5605,2021-08-04T22:05:41Z,0,Awesome tutorial videos. Is comprehension more computationally efficient that for loop?,True
+@MrBlackitalian,2021-08-02T19:20:39Z,0,Thank you.,True
+@jehushaphat,2021-07-26T17:02:06Z,1,This was the most comprehensive video I've seen on comprehension.,True
+@TanmayKaashviVlogs,2021-07-24T16:02:42Z,0,Thnx buddy ❤️,True
+@jessg7144,2021-07-15T04:28:13Z,0,"15:20 I did ""my_set=set(n for n in nums)"" ..can you explain why you can use "" { } "" and it creates a set with out the set keyword? just a bit confused because I though "" { } } were for dictionaries.",True
+@georgeanton8567,2021-07-07T19:18:19Z,0,How do you comment out multiple lines of code on Atom at once?,True
+@trevordontstalkme1303,2021-07-06T22:56:51Z,0,Thank you. Even though i didn't come for list comprehension this solved my lack of knowledge with lists in python! Definitely will look more into your channel once i need to seek more knowledge.,True
+@mastiwithdearak300,2021-07-04T03:31:07Z,1,Thanks sir!,True
+@santhoshganesh9706,2021-06-29T17:07:51Z,0,"is dict(zip(names,heros)) not a correct one to use?",True
+@benmackay28,2021-06-24T22:31:09Z,0,"Hello!  I am wondering if i can get some feedback.  I am following along to the video and at around the 11-12 minute mark where we start going over Dictionaries, i am unable to pass the zip function successfully, and i cannot create a successful for loop or comprehension for the Heroes Dictionary.  I copied all of the code 100% to double check it and i get a syntax error whenever i try to use print zip(names, heroes) like Corey does and i also get a ""TypeError: list indices must be integers or slices, not str"" relating to the my_dict[name] = hero line.  Im not sure what to do, as the code is 100% the same as in the video.",True
+@nocodelimits,2021-06-12T05:04:11Z,0,in case of both the map and filter function i getting something different like it is giving me garbage value,True
+@mateuszpolanski3162,2021-06-08T19:35:00Z,1,"Corey, I never leave any comments under YT videos but man, your tutorials are just something else. Cannot THANK YOU enough for being such an amazing teacher. I love everything about them: the way you explain concepts, carefully go through examples over and over again...and you just sound like a cool guy! Thanks for everything Corey, truly appreciate you are here for us.",True
+@alecdelu83,2021-06-05T20:05:05Z,0,Hi Corey and everyone! I have one question: how do you call that feature of not having to write pharenteses for the print function? Thanks! I am trying to do the same on Visual Studio Code.,True
+@cralx2k,2021-05-30T21:17:28Z,0,Amazing teacher... THANK YOU,True
+@nazaserh,2021-05-04T23:06:16Z,0,"As always, a fantastic lesson. 👏",True
+@burakhanaksoy,2021-04-29T14:45:31Z,0,"Thanks for this amazing video Corey. However, I have a question. at 13:47 you create a dictionary with dict1 = {key:value for key,value in zip(names,heros}. This is all well understood but when I assign zip(names,heros) to a variable, say x = zip(names,heros), and do the same thing as dict1 = {key:value for key,value in x} and print(dict1), I get {} (Empty dictionary) printed out. Do you know the reason for this?",True
+@shreyaskulkarni526,2021-04-26T15:07:35Z,0,6 years old but still the best,True
+@peternguyen6266,2021-04-23T06:38:27Z,0,"Wow, your video are the best out there.  It's so easy to understand.",True
+@victorpinasarnault9135,2021-04-09T18:29:48Z,0,Could you loop in dictionaries as well?,True
+@duncan-mcrae,2021-04-06T04:56:52Z,0,"How to get a list of '*.conf' files from [f for f in Path.joinpath(Path.cwd(), 'configs').iterdir()]?",True
+@GuilhermeMendesG,2021-03-26T17:12:36Z,0,"Briliant explanation, man. Thank you very much!",True
+@cheeyuanng853,2021-03-11T14:17:45Z,0,"io = {'X':[1,2,3],'Y':[4,5,6]} io_values = io.values() new_io = [x for v in io_values for x in v]   print(new_io)  I was trying to combine all the values in the dictionary to a single list. Found this on a site, and it seemed to work, but I don't quite understand the syntax. Could someone maybe assist?",True
+@frankkoslowski6917,2021-02-26T21:26:07Z,0,"squares = list(map(lambda n: n**2, range(1, 101)))  Try this. List instruction is vital to print a list of squares.",True
+@TheSoftwareServices,2021-02-14T17:43:47Z,0,"We Love you Corey, u r awesome teacher.",True
+@nickybarranger-clark6911,2021-01-24T08:30:47Z,0,Great instructor :),True
+@hacninetushar,2021-01-23T09:09:22Z,0,Whenever fall problems in programming I searched that problem in your channel.,True
+@amaarquadri,2021-01-19T05:39:29Z,0,I saw a dictionary compression for the first time today and was super amazed I had never encountered it. Eventually led to this video!,True
+@duncpol,2021-01-10T01:05:08Z,1,"print(dict(zip(names, heros))) is even shorter.",True
+@bgable7707,2021-01-01T17:19:41Z,0,"Well done, KISS, great examples !!!",True
+@zhangweimin5439,2020-12-26T12:16:00Z,1,"very useful vedios corey! May I have a QUESTION? I have a three-level nparray A=[[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]]] and for each first-level item in A (eg [[1,2,3],[4,5,6]], named as Vs, I know there are many of them), I'd like to perform B=np.array([i / sum(i) for  i in v ]), how can I nest this two iteration in one nparray comprehension?",True
+@Abcsciencemusic,2020-12-25T15:32:49Z,0,I was trying to learn that for over a year but never got that the exact format or remember it. But you saved me. SO WELL EXPLAINED .merry christmas,True
+@arbaazjamadar6190,2020-12-24T16:15:54Z,0,can you tell me what software are you using please? By the way great work dude.,True
+@mari0xDD,2020-12-23T20:56:53Z,0,which program do you use to see the output directly? can I use it on ubuntu?,True
+@victorlefeu,2020-12-22T23:19:18Z,0,thanks!,True
+@firstfiverugby,2020-12-09T23:41:13Z,0,Preparing for my code interview tomorrow. Thank you for this video. Will most likely be brushing up more often now so I will be back :),True
+@LuanNguyen-pl2wf,2020-12-09T05:00:24Z,0,don't think i can find better explanation than this,True
+@sunyboy333,2020-11-29T15:00:32Z,0,"Set comprehension is useless, it should be: nums = [...] my_set = set(nums)  I wonder if there is a sensible way to use them that cannot be done in this simpler way.",True
+@expat2010,2020-11-28T13:44:21Z,0,"I've taken several paid courses on the Internet - I won't mention the company..... I'm in the middle of one now on Plotly and Dash. They are mostly okay, but even the best of them is not as good as your videos. Professionalism, pace, production, the way you progress through the stages of solving a problem or teaching so that it is easy to follow you through the steps, fluid, no wasted time or confusion in correcting errors, even voice, which is important. One thing that site asks you to rate is how engaging the teacher is. There was only one that was even in your class.  I'm sure you do well in your day job, but it's amazing to me that with this teaching skill you have, you didn't go in that direction professionally.",True
+@7XxKiKoOxX7,2020-11-25T09:32:23Z,0,Video 20/143 done tyvm !,True
+@shantanusudame1916,2020-11-09T11:46:59Z,0,Who are these 44 ppl who disliked it?????????,True
+@dev_blakee9601,2020-11-09T03:11:51Z,0,"here comes the dark turn i copied his code at 1:30 and got [[1, 2, 3, 4, 5, 6, 7, 8, 9]] [[1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9]] [[1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9]] [[1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9]] [[1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9]] [[1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9]] [[1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9]] [[1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9]] [[1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9]]",True
+@sathvickhk374,2020-11-01T16:01:41Z,0,dude you sound somewhat like xqc,True
+@jpm4689,2020-10-23T14:51:03Z,1,"For those on python 3.6 at 11:20. result = zip(names, heros) result_set = set(result) print(result_set) This may be an individual thing where mine didn't work using the method corey used, but this seemed to work fine.",True
+@Aa-jq3yu,2020-10-16T04:37:52Z,0,13:14 *sad spiderman noises*,True
+@adityasaini495,2020-10-16T03:06:26Z,0,thanks so much sir!,True
+@stephenpalcic58,2020-10-12T14:55:33Z,0,"Corey, I'm confused about that last example with my_gen,  it comes back a list not a generator?",True
+@DeanG621,2020-09-30T10:32:00Z,0,"I like your vids, they are well explained. It helped me to get two things straight and use list comprehensions:  The first n in for n in nums is the same as my_list.append(n)  The one-liner has the same built as a for loop. First for n in nums and then the if.",True
+@karimalaa204,2020-09-27T20:42:27Z,0,This is soo good man god bless you <3,True
+@simplyviki,2020-09-23T11:33:15Z,0,"These filter and map are not working on my vscode, it shows the output like ""<filter object at 0x0000000002041220>"" do I need to install any package to get these to work.   I found the answer that I have to use it like this: my_list = list(filter(lambda n: n%2 == 0, nums))",True
+@simplyviki,2020-09-23T11:10:18Z,0,"Hey Corey, I want to learn pyspark from you.....you are the Pyman...!!",True
+@steveneven9408,2020-09-20T12:17:29Z,0,Use print(list(my_list)) for the lambda example above for python 3,True
+@HackingIsDope,2020-09-18T16:04:10Z,1,"hey should I import a module or what , cause my zip function seems broken lol, it causes an invalid syntax exception",True
+@difegam3,2020-09-09T18:47:50Z,1,Unfortunately it is not possible give you more than 1 like. You are the best man! Thanks Corey.!,True
+@DJH3891,2020-09-07T13:37:28Z,1,Great Video again! But one thing bothers me: How does the generator_function comprehension differ from a tuple comprehension? In my understanding that would be the same expression?,True
+@Noah-qj9fn,2020-09-03T19:03:14Z,0,This is extremely useful. Thanks!,True
+@D3athW1ng,2020-08-27T22:43:10Z,0,"Wow ... you didn't have what I was looking for exactly ... I wanted an example that had some really deep for loops like ""for i in <stuff>: \n for j <instuff>: etct ... and what to do with that ... to get a matrix returned ... but your example on the strings/char helped me figure it out ... THANK YOU!!! :D",True
+@kritanbhandari7780,2020-08-26T13:14:38Z,0,I had used zip function before but I was just assuming it does something that lets me iterate over more than one list. Thanks Corey for this amazing video.,True
+@anahata1710,2020-08-10T16:38:56Z,0,"*Python по скайпу. Научу мыслить нестандартно. Решаем задачки, строим утилиты, игры. Data Science и всё, что с эти связано. Телега у меня в контактах. Напиши мне*",True
+@HhhHhh-et5yk,2020-08-10T04:31:52Z,0,Corey♥️☄,True
+@nedimcanulusoy,2020-08-07T12:26:44Z,0,It was an amazing and helpful video Corey! Thanks a lot!,True
+@occasionallyhuman,2020-07-31T14:49:25Z,0,Zip command and map and filter doesn't work Comes with an error starting with 0x Changing everytime,True
+@NikhilSharma-cw9lh,2020-07-26T11:52:09Z,0,I have to use list() on top of filter or map to get the results.. is it because i am using an newer version of python ?  BTW I am very much inspired by your tutorials... You are great.,True
+@aminzaiwardak6750,2020-07-18T15:50:51Z,1,"thanks a lot, you explained very well.",True
+@BrendanMetcalfe,2020-07-16T16:31:25Z,1,Nice vid thanks!,True
+@jeonboocodingjalham,2020-07-10T01:02:00Z,1,<- python beginner series available :) come check it out !!!!!,True
+@anotter_one,2020-07-05T02:26:06Z,1,"Man, you're the real MVP. Thanks a bunch.",True
+@Retrosenescent,2020-07-03T22:27:05Z,0,"10:22 you could also just do my_list = enumerate(""abcd"")",True
+@AundreL,2020-06-26T14:07:55Z,0,"4 years later still the best tutorial available thank you so much, sir.",True
+@saunaknandi1814,2020-06-21T20:24:00Z,0,Its so wonderful na the course which should be a paid one is available for free,True
+@harshkanumuri3977,2020-06-16T11:30:28Z,0,"it says "" append() takes exactly one argument (2 given) "" what should i do? ( i am using an IDE called Spyder) . I tried the code in another python IDE and it works. I am confused why this is happening? Please help me",True
+@youvanced6593,2020-06-16T05:10:50Z,0,But isn't he creating a tupple in the last example? what made it a generator?,True
+@pcwinstead,2020-06-07T16:26:23Z,1,Amazing. Thank you.,True
+@ranjaninatarajasharma5917,2020-05-30T14:33:45Z,1,Just luv it,True
+@abidvu2472,2020-05-25T17:41:52Z,0,"I've learnt a lot from your videos. Thanks heaps.  I have a question though.  When I tried to print(zip(names,heros)),  the result I got was zip object at....(I'm using Google Colab to practice alongside with your vids)  Anyone can help me on this one, I'll very much appreciate it.  Thanks x",True
+@JoshuaDHarvey,2020-05-21T00:36:14Z,2,"Great video, thank you! 11:03 is your print zip(names, heros) a configuration? I was only able to get print(zip(names,heros)) to return <zip object at {memory_loc_id}>",True
+@rockzzzta9796,2020-05-20T06:53:59Z,0,"Sir, can you make a detailed video on maps and lambda function too?",True
+@vladi21k,2020-05-18T17:00:07Z,1,Thank you for this great tutorial!,True
+@onurkoksalan4462,2020-05-15T11:59:15Z,1,I couldn't use print function without (). How can he use like this? 3.7 anaconda btw,True
+@PrabhuShreeRamKiJai,2020-05-07T05:03:09Z,0,i cant get it at 15:29 if you used {} then why output is in [ ] and in ( ) why curly{ }?????,True
+@alixaprodev,2020-05-06T17:22:10Z,0,i think this comment may help some one if we want to create a list of even then evenlist=[x for x in range(10) if not x%2]   i am watching the video while coding. i am new to python and its interesting language.,True
+@alixaprodev,2020-05-06T17:16:34Z,0,"if we want to pass more than one params to the lambda function the  map(lambda n,x: n*x,range(4),range(4,8,1))   we can do in this way.",True
+@Mykas2,2020-04-30T09:25:56Z,0,"Thanks for the video! I have two questions: 1) Why don't you put parenthesis before print? It doesn't work for me this way and I always need to put print(). 2) It looks like zip works for you as print zip (names, heros). If I do that (with parenthesis after print), it just prints the location in memory. I have to use print(list(zip(names, heros))) in order to get the pairs. How come you don't have to use list in your example?",True
+@yashrathi6862,2020-04-29T16:03:13Z,1,Can't you use dict  function instead of dictionary comprehension?,True
+@k.m.jiaulislamjibon1443,2020-04-27T14:42:03Z,0,is there any way of using list comprehensions like N = 4 now i want a list like arr = int(input()) --> for 4 time at a time separated by space in a line? Sorry for my bad english. i can for arr = [int(x) for x in input().split())] but that doesn't use the N value to check ? Is there any way to get fixed input with list comprehensions . TIA,True
+@shivasiddharthnarayanan,2020-04-22T20:37:04Z,0,"which py version are you using ? py3 doesnt support print statements as you show here.., right ? Am I correct ? Are you using py2  ? If you are using py3, can you please explain how to have this feature enabled for print method...?",True
+@jeevan999able,2020-04-21T08:38:51Z,0,thers a slight tint of southern accent in your English,True
+@yuchai4696,2020-04-19T14:50:15Z,0,very helpful videos,True
+@prasadp8265,2020-04-12T13:56:30Z,0,Best Python tutorials in youtube!,True
+@mrweisu,2020-04-07T18:46:11Z,0,What is the meaning of 'comprehension' in these operations? That is the most puzzling point for me personally. Thanks.,True
+@FamFitFun,2020-04-04T20:05:17Z,0,"'check out 11:21' when i tried to print (zip(names,heros)) it throws output <zip at 0x10aa9bf00> instead of printing . i am using python 3 in Anaconda env.?",True
+@TheAasalem,2020-04-03T16:53:02Z,0,Can pickle be used in list comprehensions loop?,True
+@palsumit1,2020-04-03T00:04:02Z,0,Do you have a tutorial on python script to scrape data out of tables embedded in PowerPoint files?,True
+@uiato,2020-03-31T20:14:39Z,2,CONCISE and ELOQUENT are the words for you. First content youtube channel that I don't have to speed up the videos. Thanks!!!,True
+@GeoPoly55,2020-03-28T13:50:59Z,0,does it work for string also,True
+@safiullahkhansherzad7214,2020-03-25T02:29:54Z,0,Corey I've been following your tutorials for quite a couple of months and what you teach is clearly unique than what other tutors are teaching on youtube. I mean the concepts and topics you choose. would you plz suggest me some books for learning python and django more in depth ? I hope to get a reply soon.,True
+@eternalblue4660,2020-03-19T00:16:36Z,0,Great video.,True
+@Press_StartGameplays,2020-03-18T11:23:01Z,0,"Dude, thank you. I have learned a lot with this video. I was about to quit my bachelors degree ‘cuz I though I was not good enough. You saved me.",True
+@immanuel4747,2020-03-17T18:12:20Z,1,You are great and I am now a great fan of u,True
+@ZeeshanKhan-rp9or,2020-03-05T06:40:35Z,0,Corey Your communication skill is at another level. You just speak so clearly. I love that. How did you achieve this mastery? Any tips...,True
+@riyan5259,2020-02-29T04:10:29Z,3,I'm so mad at the viewers for not subscribing.. Mate you DESERVE a million subscribers.,True
+@Z0Gab,2020-02-26T00:37:00Z,0,"This video is good and i want to save it for further rewatches, so im commenting this so that i dont forget.   Bump",True
+@antoniolewis1524,2020-02-15T19:49:56Z,0,Where did n come from when nums is the variable  called ? N can't  be a keyword ?,True
+@psysc0rpi0n31,2020-02-08T12:41:13Z,0,"In dictionary comprehension examples, you use pairs 'name: hero', but then you use 'zip(names: heros)'. Right before this, you actually mention that we need to use the same names or the program won't recognizes the variable names. So, how here you can use different names?",True
+@senolkurt7864,2020-02-08T07:53:50Z,0,"List comprehensions can also be used for nested list: `nested_list=[[1,2,3,4,5], [6,7,8,9,10]] x = [item for inner_list in nested_list for item in inner_list] print(x)` and it prints:  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",True
+@user-he4ef9br7z,2020-01-20T02:46:26Z,0,is there any advantages of comprehensions over using map and filter and lambdas . which is faster and which do you prefer and why?,True
+@kerwinso,2020-01-17T14:59:12Z,56,"Corey, you have really helped me to make the leap from beginner to intermediate Python programmer. I'd heard of list comprehensions before, but never dictionary comprehensions. Once again, many many thanks!",True
+@graymalkinHaim,2019-12-18T01:26:41Z,0,"What I dislike about Comprehensions is that they could be wasteful if all you need is to run on certain values and instead in order to make things more ""readable"" you run on all values.",True
+@tsumardi,2019-12-12T01:07:13Z,0,coming from C/C++ list comprehension is beautiful and makes sense. lambda is ugly like C++ syntax.,True
+@vmehtav,2019-12-10T22:17:06Z,0,"Hi, In Python3, zip methods returns a zip object instead of a list. Can you please amend the video to update the information?",True
+@soumyazyx,2019-11-20T19:35:57Z,1,Thank you Corey for your time and effort. Keep spreading the knowledge,True
+@rahaasadimehr3512,2019-11-14T15:46:06Z,0,"Thanks again and again for the great videos. I have a question about the dictionary aggregation. Let say we have a list of dictionaries with multiple keys, each key has a list as a value, now we want to aggregate the key's values :  lst = [ {T1:[id1, id2,id3]}, {T2:[id4,id5]},{T1:[id4,id5]}]   ---> aggregation result :  lst = [ {T1:[id1, id2,id3,id4,id5]}, {T2:[id4,id5]}]",True
+@iiit2tech,2019-11-13T08:28:45Z,1,Must say your videos are best in class and I have learnt so much from them. Your explanations are very clear and makes even tricky concepts easy to grasp.,True
+@TheDouglasTrevino,2019-11-07T03:48:42Z,0,"Great video series. BTW: You can use a list comprehension to print the generator object as well. I'm running this in Anaconda 3.7 on Pop OS 19.04.  nums = [1,2,3,4,5] my_nums = (n*n for n in nums) print([n for n in my_nums]) pwd# [1, 4, 9, 16, 25]",True
+@jonathandaniel7321,2019-10-27T17:01:31Z,1,the most important python video I ever saw,True
+@brianevans4,2019-10-24T14:27:44Z,1,very useful video!,True
+@wcottee,2019-10-23T21:00:21Z,0,"Maybe this was asked already but in the last example why do we use ""yield"" instead of ""return""?",True
+@davidtodd9918,2019-10-14T20:30:26Z,1,"Thanks. I had not heard of set comprehension or generator creation using parens, and I appreciated the excellent refresher on other topics!",True
+@programmer2736,2019-10-10T03:18:29Z,0,"Is this valid in 2019? For example, I noticed yield, isn't it 'return' in python 3.7?",True
+@boxcubestudios,2019-10-03T19:58:36Z,1,Fantastic teaching!,True
+@thevinsilva8190,2019-10-02T21:31:29Z,0,"11:12 try mylist = list(zip(heroes,names))",True
+@Lu3ck,2019-09-27T22:14:49Z,0,"I think I may be the only one experiencing the issue with zip. I'm having to do this: var = list(zip(names, heros)); print(var). Anyone else having this issue? (this is with python 3.7 btw",True
+@logeshgopi4212,2019-09-24T11:11:39Z,1,thank u so much corey its really useful; keep on going\\\,True
+@sudhakannan3080,2019-09-19T15:55:50Z,1,Very good video to understand list comprehensions,True
+@vaclavvlcek4527,2019-09-13T21:06:01Z,0,"Hi,  concerning the creation of dictionary based on two lists, let me please just contribute, that we could also write my_dict = dict(zip(names, heros) This is probably the shortest syntax ;)",True
+@Proth7,2019-09-11T19:18:11Z,0,I've heard you saying my dick 12:28,True
+@sriramkolipakula4096,2019-09-11T16:18:24Z,0,how to print odd position of the string using slicing can you please explain sir...,True
+@peterchen5710,2019-09-10T13:30:39Z,1,Finally see an ad in this tutorial video! Chosen not to skip the ad so Corey gets the pay from Youtube! This is the least I can do to express my gratitude for the great teacher! <3,True
+@Ryebanana,2019-09-04T06:59:30Z,1,Glad I found your channel.   I am working my way through Automate the Boring Stuff with Python and stopping after every chapter and watching your videos has helped so much in understanding the topics in greater detail.,True
+@ajith1804,2019-08-19T15:32:43Z,5,"To be frank,this is the best video for learning about list comprehension on Youtube!",True
+@kajalmishra6895,2019-08-17T08:43:14Z,1,Love the video ....,True
+@karanmalhotra1858,2019-08-09T18:02:00Z,0,"my_list = [(letter , num ) for letter in'abcd' for num in range(4)] this actually appends ... what if i want to extend this list. how to do that and how to print the list in new line like:- for -------:     print(list) // this will print in new line print(list) //this will print in single line  so, how to extend the list and how to print in new line using list comprehensions",True
+@ezraanna1,2019-08-09T10:43:01Z,1,I think you are very good at Python and the way you present things; clear & to the point. You are among the best out there. God bless you!,True
+@mihaidinca2062,2019-07-10T18:48:51Z,0,"when i print zip(names,heros) it gives me this: <zip object at 0x100657e08>. Just in case i make list(zip(names,heros)) it works, but i am usig python 3.4",True
+@chigglywiggly,2019-07-08T06:57:55Z,1,Best series of videos on Python on the internet.,True
+@ozzyfromspace,2019-07-01T15:47:04Z,1,"When I saw the for loop with two iteration variables, my mind just lit up. Does the for loop used in that case necessarily have to have the structure of a list containing tuples, or was that just the convenience of the zip() function that generated that data structure? I'm wondering because I've seen something similar when .items() is added to the end of a dictionary for quicker processing (in a Dataquest tutorial I'm doing). I noticed that .items() returns a data type called dict_items, that's why I'm wondering.... Thank you, and whether you respond or not, I just want you to know that your tutorial presentation style and communication is highly effective! Thank you!",True
+@ronit8067,2019-06-27T08:12:37Z,0,why use a generator function when basically same thing can be achieved by a simple for loop or comprehensions. what is the purpose of generators,True
+@bismeetsingh352,2019-06-17T03:31:59Z,0,python==pseudocode,True
+@rotrose7531,2019-06-08T13:32:39Z,5,"Your python series conquer the whole youtube, the explanation is concise and to the point. I especially enjoy those real word examples, Hope you will make a series to feature more and more real world examples. Thank you.",True
+@LuCaaZ7,2019-06-05T01:57:57Z,0,"I was searched the solution for the ""zip"" method before reaching that part of the video. Wasted about 30 minutes to realize it was down there :(                                           At least got +1 in troubleshooting.",True
+@lechterred9519,2019-05-30T08:31:45Z,0,"12:28 ""my dick""",True
+@InnoTech_Insights,2019-05-28T02:41:06Z,0,Then what is the difference between Comprehension and Generatoe @corey Schafer,True
+@shazkingdom1702,2019-05-22T14:45:21Z,4,"I suddenly remember my best Algebra 👨‍🏫 because of you! - Thanks Corey, I wonder where you are right now,  want to shake hands with you and meet you!, You are a great teacher. 👨‍🏫",True
+@siqizhang,2019-05-09T23:01:24Z,0,"Good video. But list comprehension is a pretty redundant piece of syntax; All of its use are covered by map, reduce and filter functions, which do a lot more.",True
+@kamolusmonov6540,2019-05-01T12:01:49Z,0,"About the last one, generator expression, it is more likely to call that list comprehension?",True
+@animapandey,2019-04-19T10:27:56Z,1,Best tutorial......Thank you so much,True
+@JasonKuang,2019-04-12T18:35:49Z,1,thank you!,True
+@KirillBezzubkine,2019-04-05T08:42:38Z,1,your vids are godly,True
+@raat1,2019-03-29T18:16:27Z,2,i normally don't post comment .. But could not help on this one. Very well laid out .. nicely explained and very well planned ... good job thanks,True
+@sodapopinski9922,2019-03-05T07:17:16Z,1,what if you didn't want to nest the loops instead of output a0/a1/a2/a3/ .... you wanted a0/b1/c2/d3 with wouldn't be nested how would this be written in a list comp,True
+@sarar2047,2019-02-25T05:07:18Z,1,i am bit confused as to why i would need a generator if i can just use comprehensions?  Do u have more examples where a generator might be more appropriate to use than a comprehension ?,True
+@THULAA100,2019-02-21T08:28:11Z,2,Awesome .,True
+@harnathatmakuri2394,2019-02-19T05:36:23Z,2,learned a lot from this best video ever seen thank u,True
+@ACohen,2019-02-18T19:08:52Z,1,"for Python 3.7:  names = ['Bruce', 'Clark', 'Peter', 'Logan', 'Wade'] heros = ['Batman', 'Superman', 'Spiderman', 'Wolverine', 'Deadpool'] print(*zip(names, heros))",True
+@mandeepubhi4744,2019-02-18T14:20:48Z,2,"An elegant approach of illustration, Beautiful!!!",True
+@RajanKumar-lv7ve,2019-02-08T06:33:07Z,0,my program says SyntaxError for zip function... can someone please help?,True
+@olee_7277,2019-02-02T13:34:47Z,111,I know Im immature but every time someone calls a dictionnary variable : my_dict I burst out laughing,True
+@astspace6708,2019-01-24T05:44:58Z,1,"Since the last example is a generated comprehension without the ‘yield’, how can one tell if it is a list comprehension or a generator comprehension? Is important to be able to distinguish them?",True
+@Gameplays4u2,2019-01-21T04:02:52Z,2,OMG you made these concepts to simple it took me forever to understand generators till I found your video.,True
+@deepgsingh,2019-01-14T01:18:47Z,2,"Awesome, I have watched all of your python videos and they are great stuff , Thank you",True
+@tunkyi7162,2019-01-13T10:24:36Z,2,Thank you bro. Your lectures are GOLD!,True
+@petkoelenkin5713,2019-01-13T06:44:35Z,0,Love these videos! Im hoping that you would achieve these 300 patrons for Rasbery Pi videos.,True
+@kalangiprasad4073,2019-01-12T12:33:10Z,0,"names = ['Bruce', 'Clark', 'Peter', 'Logan', 'Wade'] heros = ['Batman', 'Superman', 'Spiderman', 'Wolverine', 'Deadpool'] print(zip(names,heros)) #print zip(names,heros)-------> This way is not working in my PC.  output:- <zip object at 0x00F097B0>  How to reslove it @Corey,can you please reply for it Its at 11:10 minutes",True
+@anirband3082,2019-01-11T19:37:14Z,5,"haha he said ""my dict""  12:27",True
+@ROC4Life96,2019-01-11T01:02:02Z,1,"This wasn't what i was looking for, BUT i am very glad i stumbled upon this video! Thank you!",True
+@jebipunnoose,2019-01-09T16:39:49Z,0,my brain hurts,True
+@sunchit,2018-12-28T05:56:04Z,0,What IDE are you using? How are you running the code in Sublime Text?,True
+@XBoysGaming22,2018-12-21T12:34:26Z,2,Good Stuff!,True
+@stawag3478,2018-12-17T09:38:44Z,2,simply awsome,True
+@djcoolio8096,2018-12-11T21:04:01Z,2,The best explanation ever! You're making our lives so much easier! Thanks!,True
+@abdurahmanomoruyi7753,2018-12-08T18:47:28Z,0,hey can Someone help me with using the zip function in python 3.7. I tried printing the zip function but it gave me a function location,True
+@tongliu1076,2018-12-07T23:20:21Z,1,"I want to add 'else' for practice. I found: I tried [n for n in nums if n % 2 == 0 else 0], it didn't work.  But [n if n % 2 == 0 else 0 for n in nums] worked out. However, [n if n % 2 == 0 for n in nums] didn't work either. I got confused.",True
+@tongliu1076,2018-12-05T23:38:38Z,2,I watched every topic video before the topic my class is going to reach. It makes my class so easy.,True
+@tongliu1076,2018-12-05T23:36:04Z,2,NIce contents,True
+@HappyAnimals3D,2018-11-27T17:35:53Z,2,This was very informative. Your examples helped a great deal.,True
+@JAREMAIALOOK,2018-11-25T00:16:47Z,2,"I am very grateful that you make these videos, keep up the great work!",True
+@zackm7541,2018-11-21T05:48:05Z,230,Corey I hope you always go to bed feeling good about your work and helping out the community. Thanks for your very clear tutorials.,True
+@kedwards127,2018-11-18T06:05:17Z,2,You just saved me on my homework assignment. I looked at several resources online and asked three different people and your video is the only thing that made the light bulb in my head turn on (in learning dictionary comprehensions)!! Thank you.,True
+@sahilsharma-hj4gq,2018-11-17T12:49:12Z,2,oh mannnnnn....... simply AWESOME.. You teach way better than most of the python tutors. Your detailed explainations are dope.,True
+@lovejaexi707,2018-11-16T02:02:23Z,2,thank you！you are amazing at teaching! love you~,True
+@mrmoinn,2018-11-14T05:13:16Z,0,"Would all of the examples work with range(1, 11) replacing nums?",True
+@bulldawg4498,2018-11-13T02:24:53Z,2,Excellent presentation ...,True
+@craigwarren4123,2018-11-09T18:34:23Z,0,"Great tutorials.Also.... my_list = [ n % 2 = 0 for n in nums ] works as well, to return list of true/false if item is odd or even.",True
+@olimhon3188,2018-11-03T13:26:36Z,2,It is very easy to understand,True
+@Shubhamsingh-eg9qv,2018-11-03T04:37:00Z,2,It really helpfully for me thanku..,True
+@isaackay5887,2018-10-31T17:59:10Z,4,"For Python 3.6+, it's *NO LONGER* just the *_reduce(your_function, your_data_sequence )_* method.  You *MUST* first *_import functools_* , then you use _* functools.reduce(your_function, your_data_sequence) *_",True
+@moj8301,2018-10-18T19:29:59Z,0,After watching this if you want to practice the concept he just taught visit this website and read the article i promise you that you will be able to write your own list comphresions easily https://www.pythonforbeginners.com/basics/list-comprehensions-in-python,True
+@jaiverma1,2018-10-16T22:03:39Z,0,dude! Generator is  different thing. you can not use comprehension for this.,True
+@abhishekomi1573,2018-10-13T06:34:33Z,0,$ python p7.py <zip object at 0x02DD93C8>  why i always get this,True
+@aadishjain6838,2018-09-27T01:49:50Z,0,when im using zip function in python3 it just says <zip object at 0x1041a4d48> > ....what should i do ?,True
+@tripkendall,2018-09-17T15:13:27Z,0,"I am trying to address the weak spots in my Python.  List comprehension is among them, so I have been seeking further edification on the subject.  I say all that to say that this video was great, but maybe you could make a video that goes beyond the scope of this one while remaining on the general topic?  You have a style and method that is easy to follow and I appreciate your time.",True
+@vatsavsree4783,2018-09-15T12:06:18Z,0,"result = { x+y for x in range(3) for y in range(3)} , i want know the values in result  ,i taught there would be 9 values(i.e sum of all combinations of 0,1,2 in x and 0,1,2 in y but answer is 5 i'm not understanding its control flow, thanks in advance",True
+@milutinndv,2018-09-11T12:14:49Z,0,"print(list(zip(names,heros)))",True
+@raidermack8723,2018-09-07T01:34:26Z,0,"I'm having an error code that could laughable to someone with your knowledge.  I've created a list, (for example 1-10)when attempting to access an element in that list (beginning with [0] - [9] ). I get an 'out of range' error.  Can you please help with this?  This baby step issue but I'm not seeing it.",True
+@ashj1165,2018-08-31T13:45:00Z,2,Best video on lists.,True
+@RandomShowerThoughts,2018-08-30T00:56:30Z,7,the amount of material I have learned from this channel is literally amazing!,True
+@MihailButnaru,2018-08-28T23:33:45Z,3,You are a legend!,True
+@ArunKumar-qy6fm,2018-08-25T18:50:50Z,2,Explained wonderfully.  Thank you.,True
+@MegaJohn144,2018-08-15T23:16:28Z,11,"I just started learning Python and decided to rewrite a program in Python that I first wrote in C++. I wanted to use a lot of these Python features to eliminate all those those for-loops. So far, my Python program is turning out to be a lot more complex than I thought it would be. (I think I'm over-thinking the problem.) I'm hoping I can use list comprehension to eliminate a lot of that coding and fully utilize the power of Python. I happened to find your video, and I know it is really going to help me. I was also looking for a way to code, debug, and run .py files. You are doing things in Sublime Text that I didn't know you could do. I'm looking forward to watching the video again and following along, as well as watching more of your videos.",True
+@TheKaushal8686,2018-08-15T05:01:02Z,2,best python videos on youtube..,True
+@rsdntevl,2018-08-14T03:42:01Z,0,haha.. my dict,True
+@CipriValdezate,2018-08-13T07:52:06Z,2,Very good!!,True
+@rocky_xiao,2018-08-03T14:00:52Z,0,Why do we bother to use generator with (n*n for n in nums) instead of a list [n*n for n in nums]?  thanks.,True
+@AbdulwahabDev,2018-08-01T01:54:56Z,2,thank youuuuuu,True
+@antonioburke7716,2018-07-29T12:16:16Z,2,"You are the best on youtube, God thank you.",True
+@bialcus69,2018-07-28T09:50:32Z,0,This udemy ad make me cringe!,True
+@priyankkharat7407,2018-07-25T06:20:25Z,2,Amazing tutorial! Very Helpful,True
+@ppant,2018-07-18T14:37:30Z,2,You are a great teacher. Keep it up! Thanks,True
+@nasalee3729,2018-07-14T18:45:16Z,101,"04:15 python 3.6 should this: my_list = list(map(lambda n: n * n, nums))",True
+@davidalexander829,2018-07-07T22:25:45Z,0,"File ""<ipython-input-21-1d8e5942b84a>"", line 3, in <module>     my_dict[names] = heros  TypeError: 'tuple' object does not support item assignment Oops!  Sorry, just read a comment that Corey is using version 2.7.",True
+@valeriewang6244,2018-07-06T17:31:08Z,4,Corey!!!! You are so nice!!!!!!!,True
+@nikhilbhardwaj6055,2018-07-06T16:35:18Z,1,<map object at 0x00000145D9560B00> but i'm getting this as output while trying n*n with lambada,True
+@vijaykribha4223,2018-07-02T09:43:12Z,0,can you explain the use of * in python.,True
+@novicetech1,2018-06-29T15:33:26Z,2,Wow! Now I finally understand list comprehensions. Thanks Corey. Another great tutorial.,True
+@chungeyeme,2018-06-26T10:23:10Z,0,Question: the builtin function filter() and map() are returning class 'type'. How could you assign a type value to my_list,True
+@shritamkumarmund5273,2018-06-20T10:34:53Z,0,"I have a doubt on variable iteration. Let's see my outputs.  .py file: *********** i=20 a= [1, 2, 3, 4, 5] for i in a:  print(i) print(i) print(i) print(i) print(i)   Output: 1 2 3 4 5 5 5 5 5  It's totally changing my defined value of the variable. Can you please tell me, how to fix it for a better programming.",True
+@santoshbhosale7881,2018-06-16T15:51:50Z,0,Hey Corey!!.. Thanks a lot for the series of tutorial.. it is making my life easier as am a learner. Can you post some tutorials purely based on Data structure and Dynamic Programming. It would be a great help,True
+@nawendusingh2858,2018-06-15T16:58:17Z,1,"for those who found this channel late,Corey is using Python 2 and the map+lambda function in this example will return a map object  in Python 3.x. more explanation can be found at https://stackoverflow.com/questions/1303347/getting-a-map-to-return-a-list-in-python-3-x.  The following 2 ways now work in Python 3:- 1.  my_list = [*map(lambda n: n*n, nums)]  print(my_list) 2. my_list = map(lambda n: n*n, nums) print(list(my_list))",True
+@mariaaraujo3042,2018-05-28T10:41:00Z,0,"'more readable way', hahaha what a joke!",True
+@subhasnandy391,2018-05-27T15:04:49Z,0,Are generator expressions faster than comprehensions by any chance ?,True
+@subhasnandy391,2018-05-27T14:27:38Z,0,"I found one query here. When the list of names and heroes was created, 'Clark' was present as the second element. However, on usage of zip(names, heroes), the corresponding tuple ('Clark', 'Superman') shifts to the end. Any explanation as to why it happens ?",True
+@irkhamwidhisaputro5739,2018-04-07T17:45:45Z,0,"best bruh, thank you",True
+@zes7215,2018-04-07T07:53:18Z,0,"no such thing as shouldx or familix or exp have to exp or not, nonerx",True
+@faleru,2018-03-26T13:50:34Z,0,Is this python 2 or 3?,True
+@PacifiqueNzitonda,2018-03-24T08:13:34Z,0,I'm beginner in Python and I learn it for Rigging task in Maya. Thank you so much!!!,True
+@shivanikumar6752,2018-03-12T16:17:18Z,0,you're awesome!,True
+@Beatsbasteln,2018-03-12T12:34:28Z,0,that's awesome,True
+@babbalaminou7697,2018-03-09T06:09:29Z,0,I subscribed. You are good! Thanks!,True
+@pavelpavlov8143,2018-02-21T19:57:18Z,0,Great stuff.Thanks Corey!!!,True
+@sushichanel7299,2018-02-20T09:36:10Z,0,"I have this errors when using map(lambda()) combination. <map object at 0x024F3310> . My whole code is nums = [1,2,3,4,5,6,7,8,9]  my_list = map(lambda n: n*n, nums)  print(my_list)  ---------------------------------- nums = [1,2,3,4,5,6,7,8,9]  # my_list = [n for n in nums if n%2==0] my_list =filter(lambda n: n%2==0,nums)  print(my_list)  Errors: <filter object at 0x02D73310>",True
+@SriramM289,2018-02-18T02:58:55Z,0,"Corey, do you have videos on django 2.0 ?",True
+@stillyi,2018-02-12T20:36:59Z,0,how do you comment and uncomment multiple lines with # at one command?,True
+@geekyprogrammer4831,2018-02-10T23:08:39Z,2,You definitely deserve more views!,True
+@lukamilosevic8947,2018-02-09T17:22:35Z,0,Much better than slatkin...,True
+@hongphuongo1862,2018-02-02T07:23:16Z,0,"Thank you for the video, I'm just a novice and this helps me a lot. I have a question: in dictionary examples, I just happened to 'discover' that I can have the same output with this: new_dict = dict(zip(names, heros)) print(new_dict) Is this legit in practice? Or have any downside? Or maybe this is just new in Python 3?",True
+@CheiithooCat,2018-02-01T12:13:29Z,0,Pinche espiderman nadie lo quiere,True
+@denver1037,2018-01-31T15:19:50Z,3,"Great Video! As usually! If I could (if youtube would allow it), I would give you a thousand ´like´! Thanks for your work!",True
+@SriramM289,2018-01-30T16:47:03Z,0,Observe the following list comprehensions: L=[n*n for n in range(11)] K=[2n for n in range(11)]  The 2nd comprehension syntax throws an error. Can someone explain why?,True
+@JonesDTaylor,2018-01-16T15:33:25Z,0,Awesome tutorial,True
+@SriramM289,2018-01-16T13:41:50Z,0,"HI Corey, I see that zip() when tried to print throws an error. A google search revealed that one should use __next__() to print the next pair. Do not know if the example cited in this video works in Version 2.0",True
+@RaviPrakash-tc5nw,2018-01-11T18:38:05Z,0,Sir please make a video on Algorithms in Python,True
+@Lowzenza4,2018-01-09T23:25:36Z,0,Can you make tutorials using pandas and dataframes? That is the stuff I am struggling with.,True
+@nickt423,2018-01-07T18:50:47Z,0,"How is he able to use the print function without the parenthesis? For example, he writes print my_list instead of print(my_list).",True
+@acamineronewyork8593,2018-01-05T22:57:35Z,0,You are the best !!!! Thank you,True
+@riturajborah8529,2017-12-26T06:44:58Z,0,"Hi Corey, thanks for such wonderful and clear tutorials. I have one simple doubt. While running the below code, I am getting the output as ""the memory location instead of data."" Can you please explain the issue, I am running the codes in Jupyter Notebook.   nums = [1, 2, 3, 4, 5, 6, 7, 8, 9] mylist = map(lambda n: n*n, nums) print(mylist)  output ""<map object at 0x0000000005B2BF60>""",True
+@davidm.johnston8994,2017-12-21T07:02:22Z,0,Why do you always use n*n instead of n**2? Is it somehow more efficient?,True
+@annamarcus1249,2017-12-16T22:42:13Z,0,can you do a tutorial on map,True
+@stevefrt9495,2017-12-14T17:14:09Z,0,thanks you so much,True
+@rohankudale1392,2017-12-09T17:50:10Z,0,It is confusing to see how generators work in terms of program flow. Can you explain or suggest on how I can trace?,True
+@RC-bl2pm,2017-10-27T05:35:56Z,1,Boy you're a good teacher! Great explanation followed by meaningful demonstration. Clear.Punchy. Keep going I'll keep watching.,True
+@haoyangrocks,2017-10-21T11:23:43Z,0,Super fantastic video!,True
+@sbarter,2017-10-04T06:08:46Z,0,these videos are the beeznees,True
+@stefanvig,2017-08-03T05:31:25Z,0,"Can't print map, filter, or zip directly with python 3, because they return iterators.  Need to make it a list() for printing... Great videos!",True
+@pmons1337,2017-07-26T13:20:59Z,0,this is beautiful can't wait to get into your tutorial,True
+@lolaplolap1,2017-06-15T01:56:57Z,4,12:28 My Dick...... *my_dict,True
+@silvanadonato7869,2017-06-06T19:04:32Z,0,One question: where have you found the terminal for sublime? :),True
+@mohankumarbalasubramani3410,2017-05-09T12:00:18Z,0,"nums = [1,2,3,4,5,6,7,8,9,10]  mapped_list = map(lambda n: n*n, nums) filtered_list = filter(lambda n: n%2 ==0, nums) well,  my question is .. is it possible to implement filter and map with one line of code using LAMBDA ?",True
+@papaschubo7828,2017-05-08T21:15:58Z,0,"Thank you for the python videos, really great, they help a lot, very precise! I started with python and have the following problem which causes a knot in my head. I have a list of numbers , and need  all pairs of numbers out of a list[1, 2 ,3, 4, 5, 6] with a a certain index distance like - distance =1  result 1,2  2,3  3,4  ... or distance=3  result 1,4  2,5  3,6 ....... is this possible with comprehensions ? Thanks again!",True
+@justinstar9710,2017-05-08T02:54:28Z,0,"great tut, taught me a lot which school did not on the same subject.",True
+@DM-py7pj,2017-04-30T18:22:42Z,0,"Excellent video.  i am following a tutorial on time series forecasting that has the following lines of code:  dateparse = lambda dates: pd.datetime.strptime(dates, '%Y-%m') data = pd.read_csv('C:\\Users\\USER\\Desktop\\AirPassengers.csv', parse_dates=[0], index_col = 'Month', date_parser = dateparse)  I was wondering if it is possible to use a list comprehension for the date_parser function?  I had tried: dates = ['1949-04', '1949-05'] dates_list = [pd.datetime.strptime(dates, '%Y-%m') for date in dates] print(dates_list)  However, i get the following:  TypeError: strptime() argument 1 must be str, not list  Is there a way around this to allow conversion of each date value in a column from e.g. 1949-04' to '1949-04-01 00:00:00' using list comprehension? I appreciate that here a function  is being called.",True
+@averaguilar,2017-04-18T04:36:30Z,10,Somehow my cortex was aroused when the comprehension parts started.,True
+@kyachalaaa3542,2017-04-05T14:25:11Z,0,plzz add a tutorial for abstraction in Python... asap,True
+@brisketbaron,2017-04-04T22:53:17Z,0,"nice one, should do some huge random stuff both ways and cmp execution times. Did you thumbs down your own videos just cause?",True
+@joselima9398,2017-03-31T02:57:51Z,0,"finally, you have glued this together in my head. thanks!",True
+@ventin75,2017-03-20T13:25:25Z,0,"how do you remember which types of brackets to use for each example? The obvious ones are [ ] for list, { } for dict, ( ) for sets.",True
+@leithhawkins2165,2017-03-18T04:59:06Z,0,Awesome Tuts.  Well thought through but clear and concise !  well done,True
+@jeffreystockdale8292,2017-03-17T01:24:12Z,16,"1st time seen this explained, I agree, your lack of ""ummms, uhs, hold-ons, etc."" are very pleasing to the ear, great instructor. Thanks.",True
+@snpsforyomom,2017-03-14T07:45:30Z,0,awesome video! I didn't know about sets and generator compressions. will be trying them out. thanks!,True
+@user-hk2jx5mj6z,2017-03-13T16:18:54Z,0,Thank you.,True
+@mrskumarvlogs4021,2017-03-10T00:41:40Z,0,Nicely explained.  well done. and Thanks.,True
+@bogdanjcnd,2017-03-02T20:06:29Z,0,"I have a question about  zip . In case of print(zip(names,heros)) I received  <zip object at 0x00000172F53A37C8>  I wonder why  you  received a tuple as on output.",True
+@srineeshsalur524,2017-02-23T12:22:11Z,0,"i am getting output as <filter object at 0x00D25AF0> when i use lambda functions pls help code: nums = [1,2,3,4,5,56,70] king = filter(lambda o:o%2 ==0,nums) i am using pycharm",True
+@lokeshbhatt4u,2017-02-17T09:32:31Z,0,"Great, fast paced contents with nice illustrations !",True
+@lennyadams8275,2017-02-14T03:23:24Z,0,"Fantastic video! Thank you for sharing your knowledge with us, Corey! :-)",True
+@deandre1988,2017-02-14T01:52:48Z,0,"heroes*,  good vid",True
+@Robert-nl2jv,2017-02-12T02:48:13Z,1,Great videos! How about a tutorial for map and lambda? I've worked through a couple beginner Python books and haven't heard of these.,True
+@insanecbrotha,2017-02-01T10:55:28Z,0,the dict comprehension works also with something like this (this was my first idea when I read the verbose task description): : fullname_dict = {names[i]: heros[i] for i in range(len(names))}  Unlike the given solution this throws an IndexError if the iterables don't have the same len though.. :(,True
+@isaaslan1317,2017-01-31T20:41:17Z,0,hello can you show how to change from for loop in to list comprehensions,True
+@battlemode,2017-01-26T16:35:47Z,1,"Really good tutorial, very clearly and concisely explained. Thank you!",True
+@enockaddey,2017-01-11T21:37:59Z,0,Thanks so much! Great examples.Very helpful!,True
+@sharadchandakacherla8268,2017-01-09T16:09:21Z,0,thanks man.,True
+@eclecticmirage,2017-01-08T17:40:34Z,0,Fantastic tutorial. Thank you.,True
+@carlgusler1554,2017-01-05T14:58:20Z,0,Great and helpful video.   Which IDE is this?,True
+@maziarghorbani,2016-12-20T23:54:30Z,0,You are a talented tutor. Thanks,True
+@saradeeee,2016-12-14T20:33:59Z,0,"YES! thank you so so much! All other tutorials kind of just mention this casually thinking that we understand what is going on, but we cant really know what's happening until someone actually explains it! You are an amazing teacher",True
+@24junar,2016-12-11T14:08:57Z,2,"This is the best python tutorials I've ever seen so far. Clear, very detailed, even the examples and text editor you've use is perfect. thanks, looking forward for more advance python techniques in the future. Once again.. thank you so much",True
+@MatiasEzelQ,2016-11-27T13:51:23Z,0,Very good videos!,True
+@hslilly,2016-11-18T15:31:28Z,3,"Thanks for the videos. Just subbed.  n.b.: Python3 zip returns an iterator, I needed to create a list then print.",True
+@HuyNguyen-tk9iw,2016-10-14T05:33:50Z,0,That was really good. Thank you very much.,True
+@sanjayshr1921,2016-10-06T19:59:01Z,0,how do i create multiplication table using LC(List Comprehension) ?,True
+@jmack6046,2016-09-14T04:23:24Z,3,i love u,True
+@pkaramol,2016-09-08T07:59:17Z,0,Perhaps an alternative to list with my_nums if even:  my_list = [n for n in nums if not n%2],True
+@gyan2664,2016-08-25T23:47:21Z,0,Can you please make some tutorials on python3 and  selenium framework....,True
+@gyan2664,2016-08-25T23:46:04Z,0,"your tutorials are really helpful and best available on you tube they are very detailed I have gone through multiple tutorials on Python for ex Sentdex ,newboston .but none is as detailed as your you have gone from basic to advance .......thanks man ....",True
+@CoolGuy-ez8lj,2016-08-13T16:18:45Z,0,"Thanks for your videos on python. I need tutorial on the datetime, time and calendar modules on python with easy understandable examples from the scratch on those modules.  Can you help me with that?",True
+@ProbuddhaNag,2016-08-01T20:41:10Z,0,I am learning Python and your videos have been more than helpful. Thank you very much!,True
+@anuradhapani1918,2016-07-17T04:26:53Z,5,very nicely explained! thanks,True
+@jerril42,2016-05-31T02:27:06Z,1,I'll never look at lists the same again :),True
+@darrenandveronica,2016-05-28T08:45:01Z,1,"Succinct yet comprehensive, and beautifully explained. I am really getting a lot clearer about python through your videos - thank you.",True
+@americaexpointernational5277,2016-04-30T12:17:47Z,0,excellent,True
+@ravi2047,2016-04-21T02:45:34Z,0,Very helpful video. :) One question though! To remove the duplicates in an array we can simply use the set function right? my_set = set(array),True
+@Pd69bq,2016-04-12T09:29:50Z,0,"for the dict/hash comprehension, imo using dict function is shorter and easier. especially in python 3 since zip returns its own ""zip type"". although, you still can unpack returns with the same way, but type less is alway good, right?",True
+@w.schobel1514,2016-04-09T09:01:51Z,0,your videos are brilliant! glad i found your channel,True
+@themossinator,2016-03-31T19:55:48Z,0,"Hi, what program are you using here to run your code? I love the dark background, great vid, thanks",True
+@RameshK-rn3hf,2016-03-12T14:45:26Z,0,Excellent,True
+@leshghett8956,2016-03-02T23:52:46Z,0,"Just wanted to know how you put comment symbols on multiple lines at once, thanks.",True
+@lamarts100,2016-03-02T04:06:29Z,0,Great job!   This is way better than the for loops.   Crystal clear explanation...,True
+@spizeck,2016-02-23T05:01:00Z,4,Brilliantly done. You were very well prepared and it showed. Bravo sir.,True
+@serhiy2020,2016-02-18T06:23:56Z,0,"This is probably my favorite feature in Python. Thanks for these videos, you're a great teacher!",True
+@SeekHeart,2016-02-10T00:35:48Z,40,"Hey Corey, could you do a video on lambda, map, reduce and those family of lovelies?",True
+@FirdausAziz,2016-01-24T05:53:52Z,3,Great tutorial... mind doing one on decorators?,True
+@playgoods,2016-01-01T14:58:10Z,0,Great,True
+@zzspenz7492,2015-12-14T20:58:18Z,0,"...great way to bring into context lambda and functional - very clear/informative, excellent!!",True
+@VMSaloudi,2015-12-11T07:28:51Z,44,"A person could be a good programmer but good programmer != good teacher. You are the best python teacher on YouTube. Thanks for making our lives easier by putting the hard work in making those videos and explaining the concepts in simple and understandable form.   Also, whenever you have time, please consider making video on decorators.",True
+@vinc9846,2015-09-01T08:37:50Z,32,"at 12:00 you are able to create dict from zip: dict(zip(names, heros))",True
+@PavelKarateev,2015-08-26T17:41:54Z,0,PEP8 violations in a tutorial video drive me crazy = (,True
+@SSCrow,2015-08-24T18:43:35Z,346,"I have to say that your videos are among the best that I've found on youtube for learning python. You're very well spoken, and your examples are great at illustrating the concepts!",True

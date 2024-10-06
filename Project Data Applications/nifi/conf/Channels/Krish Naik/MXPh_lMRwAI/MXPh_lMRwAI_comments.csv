@@ -1,0 +1,123 @@
+author,updated_at,like_count,text,public
+@mak_kry,2024-01-28T15:45:42Z,0,It’s better to use Stratify when you’re splitting your dataset into train and test to keep the same balance between classes in train and test,True
+@abhicasm9237,2023-07-31T21:33:17Z,0,You are not using Word Embedding in this,True
+@abhicasm9237,2023-07-31T20:38:59Z,0,"how does X.shape is (18285, 20). Doesn't that 20 means 20 features. I could only see 4. Somebody please explain",True
+@MuhammadAbdullah-gx2ou,2023-07-19T03:22:02Z,0,"Dear, its great to learn, one thing is can you please make a video on Fake news detection on unlabeled data set and method like transformer based learning technique. Thanks",True
+@captiandaasAI,2023-07-03T01:59:45Z,0,"here this is showing ""ValueError: Classification metrics can't handle a mix of binary and continuous targets. could you please help??",True
+@biplobroy8022,2023-07-02T19:02:56Z,0,"y_pred=model.predict_classes(X_test) --------------------------------------------------------------------------- AttributeError                            Traceback (most recent call last) <ipython-input-55-66f7fe571d01> in <cell line: 1>() ----> 1 y_pred=model.predict_classes(X_test)  AttributeError: 'Sequential' object has no attribute 'predict_classes'  how solve this problem?",True
+@user-tx3mo1ez2n,2023-04-20T06:25:15Z,0,"This model doesn't have access to correct data, how it will identify which is fake. It is just applicable on the current dataset.",True
+@manasviemmadi8072,2023-04-03T16:14:35Z,0,SUCH A WASTE OF TIME.,True
+@pranavpratyush4075,2023-02-10T08:46:31Z,0,"You are using the dataset which has 20 columns - X.Shape (18285, 20) And the link u gave in the description has only 4 columns excluding Label because u use that as output. Kindly provide the dataset link you are using",True
+@peddamallamuralikrishna5557,2022-12-14T07:04:26Z,3,"I followed step by step process which you explained sir, even though i got an error as Classification metrics can't handle a mix of binary and continuous targets for this i used e-mail spam detection data set",True
+@nickrathee8891,2022-11-13T13:48:51Z,1,if we don't have any labeled data then how to do it?,True
+@mikiyasassefakassa9136,2022-09-24T10:02:16Z,0,sir how to remove self built stopwords using python,True
+@harissaeed5811,2022-09-03T10:33:06Z,0,@krish Naik Sir i am following ur pattern on Roman Urdu data set but my accuracy is nearly 48 percent . how can i implement roman urdu stop word please any 1 help me in this,True
+@aekanshgupta6642,2022-07-21T12:53:13Z,0,Why are we using one hot encoding here instead of TFIDF or Bag of words to vectorize this data?,True
+@mdraihanulislamtomal6064,2022-06-03T18:39:05Z,0,"According to Bangla dataset it's not working. what I should do? I am facing problem,when I print corpus. It's seems empty such as [ "" "", "" "","" "", "" "" ]",True
+@geekyprogrammer4831,2022-06-03T01:31:05Z,0,I am getting 98% accuracy for validation but 63% when I submitted on Kaggle 😭😭😭,True
+@nek_insan,2022-05-03T12:30:46Z,0,"Hello sir, Thanks for the great explanation, I have one doubt here, could you please clear that. While testing this model if we have sentence more than sent length , then how we can handle the padding?",True
+@ayushthakral6692,2022-04-29T05:19:11Z,0,"In my code , the  review in for loop only shows last row after re.sub...Please help me with this.",True
+@MrHamid-ct7hy,2022-03-18T09:40:02Z,0,y_pred=model.predict_classes(X_test) after this line i got this error and when i solve this error the accuracy of model only 56%   error ('Sequential' object has no attribute 'predict_classes'),True
+@shreyjain6447,2022-01-24T16:49:51Z,2,You are splitting the data after using the embedding which might lead to data leakage. Is there a way to avoid this?,True
+@sanabasingha8918,2022-01-20T17:06:19Z,0,frustrated....... NotImplementedError in LSTM Tried many solutions yet not resolved....,True
+@bhavinmoriya9216,2021-12-11T15:53:20Z,0,Thanks for the video. DO I need to do minmaxscaling?,True
+@AkshayDudvadkar,2021-12-09T12:10:50Z,0,#preprocessing the data import gensim  title_text = df.title.apply(gensim.utils.simple_preprocess),True
+@unclesam7853,2021-11-07T10:18:45Z,0,Do you know how to predict whether a single sample is spam or not? Like there is this text msg and we have to predict whether it is spam or not Using this model to make a single prediction and get the probability that this msg is spam/fake news,True
+@pratikshajd,2021-10-12T14:56:29Z,0,"Hello,your all videos are very informative.I want 1 help related to data set...how can I contact you.please let me know.Thanyou",True
+@manojrangera5955,2021-09-07T16:42:18Z,0,In this model the validation loss is increasing so model is Overfitting  so to stop that we need to use early stopping so that we didn't overfit our model...,True
+@prajg4310,2021-08-21T12:22:49Z,14,"those who are seeing this after tensorflow 2.5.0, predict_classes(X_test) will not work, instead use:  y_pred = (model.predict(X_test) > 0.5).astype(""int32"")",True
+@fatemehebrahimi7575,2021-08-20T14:52:06Z,0,"thanks a lot, it is really helpful.",True
+@oriabnu1,2021-08-11T16:36:06Z,0,how can we use LSTM for text steganography,True
+@PatientInAffliction,2021-08-02T23:06:07Z,0,can someone please explain why vocab size of 5000 was chosen? Shouldnt vocab size be = the vocab of the corpus?,True
+@ravilourembam9412,2021-07-22T16:21:47Z,0,"@Krish Naik  can you do a tutorial on different level sentiment analysis.. classifocation at word level , sentence level, doc level?",True
+@laharipadmanabhuni3426,2021-07-14T06:08:24Z,0,How can we build fake news classifier using cnn,True
+@kumaragurumohan9751,2021-07-11T18:55:39Z,0,Could you please provide the notebook link,True
+@Jai_Ram.2602,2021-07-03T13:37:13Z,0,"sir actually u are applying pad_sequence for max_len = 20,but  length of some list in one_hotrepr is more than 20 ,so it decreases that sentences to 20 words if u do so we lose some words right sir......so can we find the maxlength of the sentences in one hotrep and give it as max_len right sir",True
+@navinseab3620,2021-06-29T04:45:20Z,0,How can we predict new sentence with this model sir?,True
+@jasdeepsinghmonga4383,2021-06-09T11:06:09Z,0,"Hi Krish,  I ran the code on Google Colab and Jupyter Notebook. I am getting an Accuracy of 98-99% on Train Data and Test Data seems to give an accuracy of only 37%. Whereas you got close to 90%. Can you help me out with this?  I am not sure whether you will see the comment or not but in case you do I would appreciate some insight on this.  Regards, Jasdeep",True
+@louerleseigneur4532,2021-05-23T21:39:36Z,0,Thanks Krish,True
+@nidhisolanki5314,2021-05-21T18:32:30Z,0,Krish sir in my opinion you are the best data science teacher in youtube.please keep making practical sessions like this in deep learning,True
+@iamrahulkumar11,2021-05-20T06:52:14Z,0,"Cast string to float is not supported 	 [[node binary_crossentropy/Cast (defined at <ipython-input-53-210b3a33ee64>:2) ]] [Op:__inference_train_function_9451]  Function call stack: train_function Hi sir , I am getting this error while fitting the model , could you help me out",True
+@anaswarak6242,2021-05-14T06:23:46Z,0,How test_size is taken? 18:30,True
+@joeljoseph26,2021-05-13T18:22:34Z,2,"sent_length=20 is chosen based on the maximum number of words in a sentence or is it top 20 words or random? If there are words in a sentence of more than 20 words, then what to do (adjust the sent_length, or is there any method to handle this scenario)?",True
+@samimtu8994,2021-05-12T08:03:04Z,0,please videos on multimodal hate meme detection,True
+@Lucifer-wd7gh,2021-04-15T13:29:22Z,1,"Ok guys I have one request, use lemmatize instead of stemming",True
+@sreekanthkumar4297,2021-04-07T07:59:14Z,0,what we will be giving input to this model,True
+@datastory5244,2021-04-02T14:29:53Z,0,nice video!! but I didn't understand that why you said that we can't achieve an accuracy above 83% without LSTM😕😕😕,True
+@adeyinkasotunde6870,2021-03-27T06:06:49Z,0,"Sir you're doing a great job. I am one of your faithful fans. My suggestion though, sir try to always include test data in your tutorial. So that we can always see the model effectiveness on test data after using the model to make prediction on unseen test data. And this is very Paramount to all your fans. I must say.... Thank you very much for your great job always ♥️👍🙏",True
+@penugondasaichand692,2021-03-16T11:05:44Z,0,is embedding layer and word2vec are same ???,True
+@krishnakumarprathipati7186,2021-03-08T19:05:40Z,0,Sir make a video on word embeddings using BERT,True
+@sandipansarkar9211,2021-02-19T20:38:34Z,0,great work .Practiced the code in colab,True
+@jaikishank,2021-01-21T17:01:50Z,0,That was a great presentation and could work on 23000 observation data set with good accuracy. Many thanks Mr Krish for the knowledge disseminated.,True
+@mohammaddanish9713,2021-01-14T11:17:46Z,0,Hi krish..... My accuracy is coming 33% only. Is it a bad prediction,True
+@ssamiit,2021-01-01T10:40:07Z,0,"Great video! Just one comment - the validation set is same as X_test, and its accuracy is being displayed after each epoch. So, maybe there is no need to predict on X_test (again).",True
+@karansagar7870,2020-12-25T16:43:31Z,0,"Error tokenizing data. C error: Expected 5 fields in line 4772, saw 7 same dataset  giving error on colab but working on kaggle",True
+@viviennele7760,2020-12-10T08:13:41Z,0,great video! how do you plot the graph of the training loss vs. validation loss over the number of epochs? and how do you plot the graph of training accuracy vs. validation accuracy over the number of epochs?,True
+@DP-od4yr,2020-11-29T17:47:26Z,1,"with dropout = 0.3, accuracy is reducing to 67% as false positives are increasing",True
+@mihirjoshi8792,2020-11-26T06:17:10Z,0,"i have one question, how will it identify negative statements? for example: ""this earphone is not good as the another one."". In this statement stopwords will remove ""not"" but it is the  most important word.",True
+@jitendrakumarshah3443,2020-11-03T07:33:14Z,0,How we can decide length of the sentence?i.e set_legth?,True
+@shashanksingh5411,2020-10-31T21:11:50Z,0,anyone know how to use the weight of this model to make a flask app out of it?,True
+@shindepratibha31,2020-10-30T14:55:20Z,0,What does LSTM(100) indicate? I mean we have 3 gates in LSTM and how this 100 neurons coming into picture? Can anyone please explain this?,True
+@ajitkumar2670,2020-10-28T12:58:38Z,0,"Hello Krish,  I hope you are doing  can you please tell me how to decide vocab_size",True
+@ashvinravi5449,2020-10-10T06:51:57Z,0,2:15 After seeing trump in fake news data competition LMAO,True
+@murtuzadahodwala301,2020-10-07T07:19:54Z,0,How can we predict for a new unseen news?,True
+@manishsharma2211,2020-10-06T15:49:38Z,0,Why the x shape has 20 cols ??  It has only 4 right,True
+@munishrajora2303,2020-10-06T09:10:33Z,0,"We should use padding = ""Pre"" or ""post"" . can you help to provid the mathematical insights.",True
+@kjayeshnaidu6012,2020-10-03T10:43:14Z,0,Sir I have a question when I used the text  attribute instead of title I got an validation accuracy of 83%. Can anybody help me with how can I improve,True
+@arjyabasu1311,2020-09-18T04:20:05Z,0,Please do deployment sir!,True
+@PraveenKumar-pd9sx,2020-09-10T10:38:19Z,0,Why No Flatten layer before Dense?,True
+@sachins4522,2020-09-06T20:39:33Z,0,"hi, is there any impact of pre or post padding sequence?",True
+@AvinashKumar-sl4ew,2020-08-29T20:21:56Z,0,"What is the level of this project? Who can try this a beginner , Intermediate or Advance?",True
+@md.hafizurrahman5590,2020-08-28T22:04:17Z,0,Thank you so much.,True
+@ajaybhatt6820,2020-08-27T14:23:36Z,0,sir GitHub code is not opening,True
+@somyajain5579,2020-08-21T11:48:37Z,0,Hello Krish... how to predict for a single instance in this case...?,True
+@subarnasamanta4945,2020-08-10T06:07:00Z,0,sir please tell hoe to do fit one hot code in train data and fit on test data,True
+@subarnasamanta4945,2020-08-09T13:38:34Z,1,sir you have achieved more accuracy with the help of passiveaggressive classifier and i too 90% is less than that(in your members only project playlist),True
+@subarnasamanta4945,2020-08-09T12:17:06Z,0,sir i think countvectorizer should only be used during  train time i.e. fit(train) and transform through that data only to both whereas you have apply fit_transform at the beginning which may be a wrong approach here our model is also learning from test data which should not be our aim,True
+@pallebharath3138,2020-08-03T07:59:16Z,0,sir while fitting the model we are getting accuracy 1.00..Why dont the model is said to be overfitting..Can anyone sort out this.,True
+@laharipenmatsa1276,2020-07-27T14:22:16Z,0,"Great work sir, plz implement with soft attention- blstm",True
+@shubham9589,2020-07-22T23:47:21Z,0,pitch of  introductory music is  very high.,True
+@sonalgarg5628,2020-07-22T05:55:46Z,0,Expected string or byte like object error occurred in datapreprocessing,True
+@tttanvi,2020-07-21T09:34:07Z,0,Can you pls create video for glove and word2vec also for the same problem - Fake News Classifier.,True
+@suyashdandekar4653,2020-07-14T10:49:13Z,9,Dude you are the best ML tutor ever. You not only focus on theory but also teach practical implementations and that too with in a video not more than 30 minutes. I truly love your teachings and am always excited for latest of your videos,True
+@VarunSharma-ym2ns,2020-07-10T09:14:39Z,0,"Hey Krish, The X.shape in the video showing (18285, 20) the data have  5 columns, while I am using my train.csv, it is showing X.shape as (18285,  4). Could you please tell this reason. Where is the mistake",True
+@shashanksingh5411,2020-07-09T10:14:11Z,1,CAN WE SEE THE DEPLOYMENT OF THIS PROJECT.,True
+@pritam1366,2020-07-04T21:43:37Z,0,Can't install tensorflow man..,True
+@satyammishra3355,2020-06-08T11:58:23Z,1,"If we remove the emojis, can we increase the accuracy in similar datasets?",True
+@milantripathi720,2020-06-07T08:16:16Z,0,would you decrease audio volume for start of your video....the difference is too much...before and after,True
+@technicaltrainings6429,2020-05-30T13:27:26Z,0,what is nan,True
+@roshankumarsharma8725,2020-05-28T09:16:07Z,0,sir please make a video on sentiment analysis,True
+@mahendrakumarbhooshan9706,2020-05-23T06:29:22Z,0,Sir can you provide a tutorial on how to train annotated video dataset? There isn't a quality article on this topic.,True
+@rog0079,2020-05-21T14:04:59Z,0,"hey, great video next time can u also add like implementing this trained model with a real example, like creating a negative or positive title and giving it to the model to predict the output, this would just add cherry on top :D",True
+@tarunshukla1521,2020-05-20T18:27:18Z,0,"hey, krish.. been following all videos very closely. did you miss to upload Adam optimizer and binaryentropy video? Cuz the optimizers you discussed in your videos were adagrad, adadelta, rmsprop etc. but in almost all your codes, you use Adam. Would be great if you can explain that too and insert appropriately in the playlists? Thank you for all the hard work.",True
+@moidrees4661,2020-05-20T18:01:41Z,3,"Hey Kish, the video was great. In NLP the most important step is preprocessing. It will be very useful if you can demonstrate different preprocessing techniques for different problems like Twitter analysis where hashtags and URLs should be removed. If possible make a video tutorial on Regex.",True
+@dineshkumarprabhakar5525,2020-05-20T16:31:41Z,0,it is ok with binary classification. what changes are required for the multiclass classification.,True
+@MAYANKAGARWAL1234,2020-05-20T14:53:51Z,0,"Hi Krish, I wanted to know that why we didn't used any Flatten layer as embedding will be a 2d Vector?",True
+@Abhishek-fw7oo,2020-05-20T11:17:52Z,0,Im beginner but still watched full video,True
+@rohitmohite7997,2020-05-20T10:56:18Z,0,Share the f1 score @krish sir..,True
+@sagarwaghela1118,2020-05-20T07:50:35Z,0,Krish sir in case my Data dose not have labels feature that is 0 and 1 then in that case do we have to give that manually or is there any coding technique for the same?,True
+@ketkinimdeo1304,2020-05-20T07:23:53Z,0,"hi krish, can you make a video on time series example using LSTM?",True
+@Vignesh0206,2020-05-20T04:24:52Z,2,"sir, is the deep learning playlist of yours is completely  enough to learn the deep learning ? or do u have plans to update it ?",True
+@shubhamsankpal270,2020-05-20T04:13:11Z,3,"Hey Krish, just a quick question. The X.shape in the video shows the output as (18285, 20) but as the data have one 5 columns of which we are not considering ""label"" column for X so it should show X.shape as (18285,  4) isn't it?",True
+@AbdulSattar-zq5yg,2020-05-20T00:44:16Z,7,Great work! Please make a video on LSTM with class imbalance dataset,True
+@subhashachutha7413,2020-05-20T00:23:03Z,1,krish if words  mmore than voc_size   then what happens???,True
+@aqibhuda7652,2020-05-19T23:12:25Z,1,do we need to code every single step or is there a hint of code already provided in a tensorflow website? please reply,True
+@chitneedihemanthsaikumar7511,2020-05-19T21:22:36Z,1,"Hi sir, Why is the padding done 'pre'..is there any specific reason.. i mean can it be done as 'post' also the GIT URL is having apostrophe ' which is creating a 404 please correct if possible.",True
+@saitharun3334,2020-05-19T19:29:25Z,1,"Hey Krish, when we do padding, it is assigning zero right, but zero is a index of a word in the vocabulary right, instead of zero can we assign -1?    Curious to know",True
+@theniyal,2020-05-19T19:03:22Z,1,"Hey Krish, one hot does the same thing as Tensorflow Tokenizer, right?",True
+@PAVANKUMAR-vx9ty,2020-05-19T18:49:50Z,1,What about docker tutorials tat you started?,True
+@mohdzuhaib4138,2020-05-19T17:55:35Z,2,Amazing thank you,True
+@tech-talks-with-shakeel0346,2020-05-19T17:52:25Z,1,Hi krish sir  I have developed my own emotion detection lstm tensorflow model for our regional language. How to deploye this model with an android app to make it into production ?? Any help plz,True
+@ganeshgulati5780,2020-05-19T17:44:40Z,1,"Hi Krish, can we use Pytorch ?",True
+@naumanmansuri4441,2020-05-19T17:41:31Z,1,Atlast released requested during live thanks!,True
+@rukshanthdevakumar9421,2020-05-19T16:28:03Z,4,"Thanks Krish that was good implementation , am trying to understand if we  can use tfidfvectorizer during nstm model , but I can see sequence and one hot gives great result , even though I am just learning NLp with ML still not into deep learning part yet .",True
+@kalppanwala6439,2020-05-19T16:18:52Z,3,"Hey Krish, i got an test accuracy of 99.8% on this dataset using bert :)",True
+@bhismaosti7949,2020-05-19T16:18:10Z,1,"Hello Data Science Community, i need a small help for the deployment of DL model in heroku . I want to deploy a model using flask which include tensorflow2.2.0 but the tf is 500+ mb and couldnot support more than 500+ mb by heroku and gives application error. Please provide me a help. (Note: I am a begineer in DL field)",True
+@MutenRoshiUI,2020-05-19T16:16:59Z,1,"Hey Krish, your new intro to the video transition is way too flashy..Hope you make a better one next time.",True
+@saaiiraman1809,2020-05-19T16:14:04Z,1,is typing is nessary for programming,True
+@subhanjanbasu6148,2020-05-19T16:13:22Z,2,"Hey Krish, do we need good GPU for running deep learning projects?",True
+@Sonu-ev9zp,2020-05-19T16:10:36Z,2,Sir please make a video on deployment of ml model on android app...,True
+@dheerajkumark2268,2020-05-19T16:03:17Z,3,"Thank you so much sir 🙏, it is really helpful.",True
+@RitikSingh-ub7kc,2020-05-19T15:59:22Z,1,"Krish, can you explain some applications of nlp using lstm like next word prediction, translation and Image captioning ?",True
+@jayshreesharma6879,2020-05-19T15:59:01Z,6,Sir please upload multiclass classification confusion matrix with F1 score precision and other measures..with full code..and explanation...,True
+@sukanthenss914,2020-05-19T15:55:57Z,3,Thank you so much. I was waiting for this session for months..,True

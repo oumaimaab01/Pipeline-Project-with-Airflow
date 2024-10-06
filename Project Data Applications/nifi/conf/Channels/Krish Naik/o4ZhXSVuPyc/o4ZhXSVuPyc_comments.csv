@@ -1,0 +1,61 @@
+author,updated_at,like_count,text,public
+@krishnaik06,2023-12-25T12:04:55Z,20,Merry Christmas Guys :)😀,True
+@bye835,2024-05-26T09:14:21Z,0,I'm trying to feed chat history to the Google Gemini API using a cURL request. I want to provide both the user's previous input and the model's previous response in the request. Here's the cURL command I'm using:,True
+@simeonkrah2340,2024-05-18T20:03:43Z,0,"Amazing tutorial, sir. Please, is it possible to teach us how to train Gemini pro model with our custom data?",True
+@acadmx3167,2024-05-15T05:25:51Z,0,"Sir I have a query: I think the model has no history of chat as when the model is asked about previous output message such as if previous question is ""Who is Sachin"" and then we ask ""Does he play cricket"", the model says it doesnot know the 'he' in the context. Can you please help me resolve this doubt. I shall be really thankful to you.",True
+@DeepakPoojary,2024-05-07T06:02:13Z,1,how to train model by giving it a pdf or somthg,True
+@AmitShelke-cs8vi,2024-05-04T10:22:57Z,0,Hello Krish! Could you please make a video on deploying GEMINI-PRO-VISION app as API using fastAPI.,True
+@shantilalzanwar8687,2024-05-03T03:51:30Z,0,"Sir, I want to develop an android app with Gemini pro to set up alarm everyday with voice. Can you make tutorial ? Thanks for your generosity to share all knowledge. You are really amazing.",True
+@palashjain4203,2024-04-18T11:21:05Z,0,Hello Sir! This tutorial is indeed amazing. Can you please share a video on context settings. Because when I send a new prompt it loses the context of the previous prompt. Basically how chat gpt holds content for a specific chat window.,True
+@zeyada51,2024-03-24T00:59:30Z,0,We need model with free api,True
+@yashgajewar9019,2024-03-22T18:37:52Z,0,"Sir I am trying to make mini project using gemini api so do you or does any reader know what is the limit of this api, like how many hits I can make to this api per hour or some specific number of hits I can make",True
+@guneetsingh1416,2024-03-15T09:08:33Z,0,"Hello Sir, Can you create any video related to attendence detection of employees using Gen ai in your free time",True
+@yourlinuxguy,2024-03-15T07:35:11Z,0,Hey does it work with Mobile internet? Like when you request from outside your home api,True
+@AbhayKumar-fe8gl,2024-03-13T07:53:27Z,0,Add comes in between,True
+@co1iharshkale255,2024-02-29T14:41:19Z,1,I don't know I followed the same process as people follow by watching the tutorial but still my gemini api key is not working...!,True
+@kweffilover5677,2024-02-29T10:16:25Z,0,Please make vidéo how to do this in WordPress please,True
+@mrstone023,2024-02-26T15:25:46Z,0,krish i am having a error in the streamlit i don't know what to do it says i have not initialised the session state when i have done step by step of what u used i tried doing this in both vs code and colab i dunno what to do,True
+@varunrakshe4984,2024-02-25T12:09:19Z,0,"Sir , can i use it for custom dataset like medical dataset etc.?",True
+@krishnaprasad5874,2024-02-23T18:09:43Z,0,Where can I find the previous video where he build the rest of the code?,True
+@luckytalkz9442,2024-02-23T12:33:36Z,0,"Hello krish naik sir,  When I entered 'streamlit run  qachat.py' they show me blank page.  Why?",True
+@datasciencegyan5145,2024-02-23T11:40:23Z,0,"Hi @krish I have a question related to the input which we provide to gemini pro. So whichever input I am giving to gemini pro, Is it saving onto the server to train it. What is the principle of ethics for security of input data which we are providing. Can you please make a video on it. Wanted to use it in my company's project, how much it is feasible?",True
+@jermesastudio,2024-02-13T10:20:33Z,0,Thank you for this tutorial. It has been very helpful for my commercial projects.,True
+@kushagratripathi-xb2qv,2024-02-10T07:02:52Z,0,how do we change the front end layout and design of the chat bot...how to make it into something that can be added on websites,True
+@pariwalatanishq,2024-01-28T19:23:19Z,0,My question was is there any way using which we can conncet it with internet,True
+@pariwalatanishq,2024-01-28T19:22:45Z,0,Thank you sir great tutorial,True
+@himanshudash5512,2024-01-28T00:54:14Z,0,sir more videos pls,True
+@vinodkumar-ce5eu,2024-01-26T07:05:25Z,0,"hey @krishnaik06 can we integrate thi chatbot to my database, so that i can ask questions about my data",True
+@KumR,2024-01-17T03:33:42Z,0,OK,True
+@taiworidwan194,2024-01-07T10:37:39Z,0,Thanks very much for this. I tried to deploy the app on Streamlit Cloud but was not successful. It keeps saying permission denied. Does that mean the free Gemini API does not support that? Thanks.,True
+@manojkumarg8808,2023-12-29T16:50:44Z,0,"hii sir, i really enjoyed the video and the way of your teaching. is this possible to deploy the model in streamlit public",True
+@sandeepsasikumar701,2023-12-28T13:13:22Z,0,"Hi Krish,  Code:  import streamlit as st import os import google.generativeai as genai   GOOGLE_API_KEY='AIzaSyCLb_hvq9dddfH00cP-MQTKEdb7itY9PpA' genai.configure(api_key=GOOGLE_API_KEY)   ## function to load Gemini Pro model and get repsonses model=genai.GenerativeModel(""gemini-pro"") chat = model.start_chat(history=[]) def get_gemini_response(question):      response=chat.send_message(question,stream=True)     return response   ##initialize our streamlit app   st.set_page_config(page_title=""Q&A Demo"")   st.header(""DKM College Chatbot"")   # Initialize session state for chat history if it doesn't exist if ""chat_history"" not in st.session_state:    st.session_state[""chat_history""] = []   input=st.text_input(""Input: "",key=""input"") submit=st.button(""Ask the question"")   if submit and input:   response=get_gemini_response(input)  # Add user query and response to session state chat history   st.session_state[""chat_history""].append((""You"", input))   st.subheader(""The Response is"")   for chunk in response:    st.write(chunk.text)    st.session_state[""chat_history""].append((""Bot"", chunk.text)) st.subheader(""The Chat History is"")  for role, text in st.session_state[""chat_history""]:     st.write(f""{role}: {text}"")  I am getting below error when running the code in google colab as well as in vscode.  Error:  KeyError                                  Traceback (most recent call last) /usr/local/lib/python3.10/dist-packages/streamlit/runtime/state/session_state.py in __getitem__(self, key)     393         try: --> 394             return self._getitem(widget_id, key)     395         except KeyError:  4 frames KeyError:   During handling of the above exception, another exception occurred:  KeyError                                  Traceback (most recent call last) /usr/local/lib/python3.10/dist-packages/streamlit/runtime/state/session_state.py in __getitem__(self, key)     394             return self._getitem(widget_id, key)     395         except KeyError: --> 396             raise KeyError(_missing_key_error_message(key))     397      398     def _getitem(self, widget_id: str | None, user_key: str | None) -> Any:  KeyError: 'st.session_state has no key ""chat_history"". Did you forget to initialize it? More info: https://docs.streamlit.io/library/advanced-features/session-state#initialization'  Could you please help me?",True
+@qammaruzzamman9621,2023-12-28T06:02:36Z,0,"please do an end to end project demonestrating mongobd verctor embeddings, vector search,  using python langchain, developing a q and a chatbot",True
+@debatradas1597,2023-12-27T18:34:00Z,0,thanks,True
+@nava5044,2023-12-27T05:48:04Z,0,Can you do stable diffusion XL paper and uscase,True
+@vanshkumar3445,2023-12-27T05:09:29Z,0,Gemini ai is great 😊,True
+@vanshkumar3445,2023-12-27T05:09:14Z,0,Gemin pro is great,True
+@vanshkumar3445,2023-12-27T05:04:59Z,0,Great sir,True
+@shantilalzanwar8687,2023-12-27T00:37:17Z,0,Nice video. Please do some image processing video with Gemini sir,True
+@haryanaharyanvi782,2023-12-26T08:09:04Z,0,sir i am enrolled in data science batch of pwskills ....please make a video on complete data science roadmap for 2024,True
+@gantyadaanusha7193,2023-12-26T08:06:32Z,0,"Sir can this llm useful for custom dataset?, I have dell G15 laptop will that can be used for training LLM with custom dataset?  Please make a video on required specifications sir",True
+@velugucharan8096,2023-12-26T06:17:30Z,0,Sir please explain GRU architecture in your YouTube channel sir,True
+@sriharsha5701,2023-12-25T19:05:38Z,0,Please try to build a chatbot with free open source waiting,True
+@ShubhajitDutta-ve8bb,2023-12-25T18:38:31Z,1,Waiting for document q&a chat bot by using Gemini API..,True
+@VanillaGun,2023-12-25T18:31:26Z,0,I'm getting module not found error for google.generative ai package on vscode even though it's installed in packages of my virtual env,True
+@faheemkhan9786,2023-12-25T18:22:32Z,0,Why are you left pwskilss. please come with data science job guarantees on ineauron,True
+@chinnibngrm272,2023-12-25T17:14:26Z,1,Hi sir  Firstly Thank you so much for your excellent teaching  sir please come up with some real world usecases with Gemini LLM It will be Helpful for each and everyone,True
+@HarshSingh-zp7jb,2023-12-25T16:23:58Z,4,"Hey Krish sir, I think you could make the UI better using streamlit chat message, this is a function that makes UI pretty similar to Bard interface",True
+@jagadeeshcreator9853,2023-12-25T14:50:53Z,1,Hello Krish sir  I like your video please build a mini project instated of using gemini ApI  My request is please build a mini project using bhashini API       India ai multiple languages  model,True
+@ashraf_isb,2023-12-25T13:59:59Z,3,"eagerly waiting for your next video ""Chat with PDF using Gemini Pro"" 😇",True
+@Soumya_ranjan_barik,2023-12-25T13:43:13Z,0,Merry Christmas to you krish sir ❤and your happy family.,True
+@muhammadakmal457,2023-12-25T13:29:28Z,1,when Ever I Use My API in Colab is It GIves me This error  Secret AIzaSyBiCdDaGvJVs-MsA0Xju9JmWP0Po_epjM4 does not exist.   Please tell me how to fix this as I am Beginner in This,True
+@GhostCoder83,2023-12-25T13:26:38Z,0,Merry Christmas 🎉,True
+@kbkhalsabro3423,2023-12-25T13:05:44Z,0,Today is me birthday,True
+@AnshDarji_1213,2023-12-25T13:00:26Z,2,Sir create more projects on this topic,True
+@freshnews7198,2023-12-25T12:53:22Z,0,Sir please make a tutorial flask and Gemini also,True
+@panchumarthibhargavi6980,2023-12-25T12:52:28Z,1,"I watching your vedios,  plz guide me Sir how to improve coding logical building  plz help me Sir How to overcome this and how to improve logical thinking for the coding",True
+@HumorMen,2023-12-25T12:28:49Z,0,Sir what is environment and how we configure it for diff diff software. Thank you in advance ❤,True
+@SreeRama_20,2023-12-25T12:25:42Z,0,Definately your vedio will reach  more than 1k likes sir❤,True
+@mohammadkaif9182,2023-12-25T12:21:37Z,0,Like shar download teeno kr dia 🥲❤😅,True
+@abhisheksingh-fh2mm,2023-12-25T12:18:06Z,0,Marry christmas sir 💗 you are our inspiration to move ahead.... We are updated in technology because of you.,True
+@Lovebusted,2023-12-25T12:04:30Z,1,1 person ❤,True

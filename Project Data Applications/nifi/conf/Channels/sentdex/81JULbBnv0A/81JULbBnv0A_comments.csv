@@ -1,0 +1,43 @@
+author,updated_at,like_count,text,public
+@alincj21,2019-02-27T14:54:47Z,0,nitpick: You can use self.ordered_exp_distances = sorted(self.expand_dis_dir.keys()),True
+@rohanpaleja,2018-08-31T02:34:05Z,0,"I am receiving a weird error,  ERROR:sc2.main:AI step threw an error Traceback (most recent call last):   File ""\AppData\Roaming\Python\Python36\site-packages\sc2\main.py"", line 61, in _play_game_ai     await ai.on_step(iteration)   File ""/.spyder-py3/new_update.py"", line 54, in on_step     self.time = (self.state.game_loop/22.4)/60 AttributeError: can't set attribute ERROR:sc2.main:resigning due to previous error I am a little confused as why this could be as I am using the exact code off the text based tutorials,  Anyone encounter the same problem?",True
+@neyliolol,2018-08-03T02:09:27Z,0,"Hey , i've been following you for a while ( not the loop , sorry for the bad joke :( ) I know that this could be annoying but i think it would be better if you tried being more pythonic for example len shouldn't be used inside an if ,empty dict , list evaluate to false by default so if len(a)==0: is the same as if not a :",True
+@DMGendron1,2018-07-30T14:14:55Z,0,I'm sure you know your triple nested for loop (14:23) that might create such a lag.,True
+@chinmaydas4053,2018-07-30T09:27:23Z,1,You are the undoubtedly best teacher in youtube.. Lots of love and respect 🙏🙏🙏...,True
+@piyh3962,2018-07-29T06:13:07Z,0,"How much longer do you think you'll keep this tutorial series?  I really enjoy it, but I get if you're getting burned out around the 15th video.",True
+@renaton3992,2018-07-28T14:48:03Z,1,"Dude, your chanel is the best!",True
+@BigDvsRL,2018-07-28T14:11:07Z,0,how about changing the Difficulty from Easy to Hard? 60% winning rate at Easy is okay...but i think the A.I should learn how to win against an Hard-bot :D,True
+@anikislam8826,2018-07-27T13:50:22Z,0,"Hey Harrison, would you consider doing a series on Dota 2 AI? Great stuff btw, keep em coming! :)",True
+@rj-nj3uk,2018-07-26T11:58:39Z,0,Is it normal to not understand anything? 😦,True
+@kirkusmaximus3314,2018-07-24T20:43:51Z,0,"maybe make unit_limit for ovbservers equal to min(15,self.time*2)? that way you build up to the total so they start off with more than you need?",True
+@awalvie1060,2018-07-24T12:58:54Z,0,"I've seen you wear your python hoodie in so many of your videos the black one. WHERE CAN I GET ONE,",True
+@spacewad8745,2018-07-24T03:44:05Z,1,what plugins is he even using? can someone tell me?,True
+@derstreber2,2018-07-23T19:46:31Z,0,"@sentdex protoss also has chrono boost, that may be a good thing to give the ai control over, so it can make decision of what buildings to prioritize.",True
+@TOCZEKX,2018-07-23T17:06:45Z,1,Does anyone know how to upgrade units via forge? E.g. Upgrade Protoss Shields to lvl 1 or ground weapons or others?,True
+@replacehumans,2018-07-23T13:57:31Z,5,"Four for loops nested #ForTheWin.  EDIT: commented intended as 100% LOVE. Can't wait for next episode, this channel and series is one of my favs",True
+@Petch85,2018-07-23T11:28:29Z,0,"I love these videos, although the views has decreased. Maybe they are stil building a simple bot like me. :-) Also it just proves you are human.",True
+@MaksUsanin,2018-07-23T11:26:23Z,0,"Hello, can you share the github repo? :)",True
+@islandfireballkill,2018-07-23T07:55:24Z,1,Using a conditional generator to lookup a value by key in a dictionary 😂😂,True
+@slippy8191,2018-07-23T07:20:03Z,14,I always knew the best AI is just 9000 nested 'if' statements :D,True
+@SM-ht7qf,2018-07-23T02:54:02Z,0,"I’m the first dislike, sorry",True
+@idacal,2018-07-23T02:29:33Z,0,excellent tutorials!,True
+@sergey1980sep,2018-07-23T01:25:30Z,1,"Hi, Sentdex Great series! Thank you very much.  Small notes - it's not good idea to use distances as dict keys - because they can be not unique. Just use list of tuples (dist, loc) and then sort it by default key(sorted(expand_dis_dir))",True
+@Ferdii256,2018-07-22T21:05:00Z,0,"I want those awesome mugs, too! 😃",True
+@l0pher,2018-07-22T18:36:50Z,0,You call scouts_and_spots() but the function name is still scouts()... Maybe?,True
+@Maknopono,2018-07-22T18:03:51Z,8,"It might be of value to not continuously send probes to the enemy base when they die relatively quickly. You're missing out on a lot of resource gathering from them at that point while they are not actually doing any scouting. Just something you might implement! Great series though, absolutely loving it.",True
+@TOCZEKX,2018-07-22T17:23:37Z,11,Best series you have ever made (22.07.2018),True
+@roar779,2018-07-22T16:22:46Z,0,"location = next(value for key, value in self.expand_dis_dir.items if key == dist)",True
+@wolfisraging,2018-07-22T15:54:50Z,1,Great as always,True
+@hmm-.-,2018-07-22T15:46:54Z,0,"In this part of the code:  """""" if unit_type == PROBE:             for unit in self.units(PROBE):                 if unit.tag in self.scouts_and_spots:                     assign_scout = False """"""  It looks like you can put *break* after *assign_scout = False*  no need for further iterating, unless that's a bug ?",True
+@hmm-.-,2018-07-22T15:46:22Z,0,"In this part of the code:  """""" if unit_type == PROBE:             for unit in self.units(PROBE):                 if unit.tag in self.scouts_and_spots:                     assign_scout = False """"""  It looks like you can put *break* after *assign_scout = False*  no need for further iterating, unless that's a bug ?",True
+@hmm-.-,2018-07-22T15:44:48Z,0,"In this part of the code:  """""" if unit_type == PROBE:             for unit in self.units(PROBE):                 if unit.tag in self.scouts_and_spots:                     assign_scout = False """"""  It looks like you can put *break* after *assign_scout = False*  no need for further iterating, unless that's a bug ?",True
+@azthecx,2018-07-22T15:32:45Z,12,"That limit of 15 observers is way to high, I can see a game happening where eventually you hit that cap and it costs you 30 of your 200 supply alongside with some 400 minerals and 1200 gas. Three, maybe four, should do it.",True
+@user-li6ev1ro9c,2018-07-22T15:23:15Z,1,https://www.youtube.com/watch?v=20fkxRrAuSY   awesome vid by the way!,True
+@samhall4409,2018-07-22T15:19:29Z,0,"Hey sentdex, I have a question with an ML program I am making but it doesn't relate to these videos that much but I can't find a video where you explain what I am trying to do, so I was wondering; could I contact you outside of this comment section for help? If you are busy I understand but thanks for this tutorial anyways!",True
+@user-hh4uu9jd9f,2018-07-22T15:14:49Z,1,Hello Sentdex! Would you like to play in ML programer emulator game for us? https://store.steampowered.com/app/619150/while_True_learn/,True
+@lucaschristensen4076,2018-07-22T15:13:31Z,2,"Could you maybe upload the final project, on github??",True
+@user-hh4uu9jd9f,2018-07-22T15:04:52Z,0,"After maybe 10 video sentdex, StarCraft AI can capture the World.",True
+@huhulili9021,2018-07-22T14:54:03Z,0,Nice chunk of nested methods....plz no censorsheep,True
+@iamPanchsheel,2018-07-22T14:35:15Z,0,Hey *Sentdex* i want a full video tutorial of Chatbot how made and how to make one with detail.... please,True
+@h3nnn4n,2018-07-22T14:33:34Z,9,Great series. Loving it,True
+@GoodDayTrade,2018-07-22T14:32:59Z,2,enjoy your video,True

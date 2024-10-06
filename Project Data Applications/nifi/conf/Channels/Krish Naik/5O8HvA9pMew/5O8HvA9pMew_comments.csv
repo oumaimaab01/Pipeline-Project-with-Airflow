@@ -1,0 +1,73 @@
+author,updated_at,like_count,text,public
+@Manan-ei7ek,2023-09-16T00:33:20Z,0,"Hi, Nice Explanation, Is the Decision Tree complete in this playlist?",True
+@aisolveltd,2023-05-19T07:45:11Z,0,Why did you cut the part where you mention how the split is calculated at 4:39s ?,True
+@anonymous_4276,2023-03-27T14:05:34Z,0,"There can be 2 thresholds and hence 3 categories as well, or in general n thresholds and n+1 categories, right? Is the time complexity for such implementations too high to be of practical use? Seems like decision trees waste a lot of the information that can be obtained from numerical variables.",True
+@kavankomer3048,2023-01-13T08:21:46Z,0,"But in this numerical split of a feature, what if the Y variable is of numerical type of and not categorical as shown in this video?",True
+@xfactor747,2022-09-20T11:17:06Z,0,"how can someone dislike your videos , thank you soo much for these amazing videos",True
+@yur-liubomysldekhtiar9040,2022-07-29T08:08:14Z,0,"Should we split the feature only once, or should we keep splitting? I mean, say we split on threshold value 3.6, then the features can be divided into 2 groups [2.3, 3.6] and [4, 5.2, 6.7, 8.9, 10.5, 14.2] and we can split further recursively. Does it make sense? Or is it overengineering?",True
+@ishuram.musical,2022-07-25T12:44:45Z,0,"Hi Krish, what if we have both catagorical and numerical columns? so do we need to the split separately?",True
+@blindprogrammer,2022-07-24T16:44:34Z,0,"if more than one features, I think we need to repeat this process for every features, and we split the tree based on the feature which has max info gain. For example, if there are two features f1 and f2 and there are 10 rows (experiments) then this process will be repeated 20 times then we can conclude on which feature to split the tree either f1 or f2.",True
+@thombresir20,2022-04-26T15:31:47Z,0,"Which algorithms uses this method to split numerical values? ID3 , C4.5 or CART?",True
+@vinnn2279,2022-03-31T14:57:34Z,1,DDENGKYU,True
+@jaheerkalanthar816,2022-03-16T18:42:01Z,0,Thank you brother for great explanation,True
+@alishaparveen5226,2022-01-27T12:19:49Z,0,"If we have more than 1 feature, then how we can sort the values?",True
+@vishaljhaveri6176,2021-11-20T13:22:31Z,0,Thank you Krish sir.,True
+@jagannadhareddykalagotla624,2021-11-19T17:02:29Z,0,@krish naik plz do video on Decision Tree Regression also ✋,True
+@vishaljhaveri7565,2021-10-13T05:48:46Z,0,"Thank you, Krish sir. Nice explanation.",True
+@digitizzeyourbusiness1632,2021-10-10T11:58:07Z,0,"Hi Krish, Amazing explanation. I have a doubt here. For numerical features here we saw for only one feature. What if we have multiple features. How does that work ? I could not create the analogy and understand. Can anyone please explain ?",True
+@redroom07,2021-08-19T00:44:21Z,0,but when we use mse /mae criteria for splitting ??,True
+@louerleseigneur4532,2021-07-16T02:59:28Z,0,Thanks Krish,True
+@yogeshbabu3106,2021-07-14T02:51:32Z,0,can you explain if the predictor has continuous &  categorical as a feature how splitting will be done :),True
+@parneetkaur4444,2021-07-06T12:55:25Z,0,is there any way to overcome the disadvantage of time complexity in numerical values case??,True
+@akashs9414,2021-06-03T07:23:44Z,0,can anyone tell how decision tree will handle if dataset has both categorical and numerical variables?,True
+@rich007p,2021-05-30T02:32:06Z,1,@krish Naik .. I find your tutorials very informative and easy to understand.. can you also explain the concept for Decision Tree Regressor for numeric independant variables.,True
+@trivendratiwari9231,2021-05-12T10:17:45Z,1,"how can someone dislike your videos , thank you soo much for these amazing videos",True
+@christopherami8142,2021-05-10T05:52:53Z,0,Bro but what if we have different columns as features ?????,True
+@rambaldotra2221,2021-05-03T20:43:02Z,1,"Hats OFF SIR!!!! You just explained it so easily, so clearly. Thanks a lot for sharing your knowledge with us.",True
+@godse54,2021-04-25T19:39:36Z,0,Pls explain DT for regression,True
+@khiderbillal9961,2021-04-01T20:12:24Z,0,this is very helpful thank you sir,True
+@soumitramehrotra5547,2021-03-25T06:33:37Z,0,"Wow, you are saying that for a continuous variable, you iterate through each value and try splitting. Nope, that's not how it works. There is an algorithm for determining and optimizing the thresholds.",True
+@riz237,2021-03-14T13:58:44Z,0,4:24 How do you decide which one has better information gain seeing so many decision tree?,True
+@adiflorense1477,2021-03-04T10:04:20Z,0,"4:45 Sir Krish, that's high computational costs",True
+@adiflorense1477,2021-03-04T10:00:25Z,3,2:37 Suppose that there are 3 attributes with numeric type. do we have to calculate the threshold value for each new node again?,True
+@dananjanirathnayake8653,2021-01-19T21:03:53Z,0,Thank you very much,True
+@chethanvkumar2231,2021-01-10T05:53:34Z,1,Hi Krish What is the Need for sorting when the algorithm is calculating entropy and IG for each threshold?,True
+@ashwindesai7264,2021-01-08T10:42:16Z,0,"What if a categorical variable has multple labels ? like sunny,  rainy , windy. In this case will the algorithm take permutations and combinations? whether it calculates Information gain for sunny, rainy and then rainy, windy and sunny, windy and then whichever has the highest Information gain that split is selected?",True
+@akshaykapoor9492,2020-12-24T23:04:40Z,0,Amazing explanation Krish! One question if I want to optimize this what would be the way?,True
+@jasoncysiu,2020-12-24T04:41:36Z,0,thank you,True
+@vaddadisairahul2956,2020-12-02T07:43:19Z,1,"Good intuition, but how will be the entropy and information gain be calculated for each split?",True
+@subrahmanyamkv8168,2020-11-07T11:12:20Z,0,Hi Krish.. Thanks for the video.. can you also help us understand how DT works when target variable is continuous.. What metric us used instead of entropy,True
+@atultripathi9166,2020-10-28T08:46:15Z,2,"you are genius bro.I read many books where they didnt explain it in detail.The only confusion I had was that how can I select the key which can split the datasets into ""smaller than key"" and ""greater than or equal to key"" subsets. You solved my confusion bro thnks.",True
+@siddharthaojha7742,2020-10-23T07:59:29Z,0,Very informative.  Thank you for this video. :),True
+@sausken101,2020-10-21T15:04:22Z,18,"bro you're freaking amazing, saving me for my masters degree",True
+@adiflorense1477,2020-10-08T02:46:23Z,2,I think the split point method on numeric attributes takes a lot of effort and time. what if i take a random split point,True
+@AmanPratapSinghBITsindri,2020-10-02T10:17:55Z,0,"thank you, sir 1st time watched ur video I had few doubts then I again watched it. and in my 2nd go I was able to grasp complete concept",True
+@pranavgarg4124,2020-09-27T17:28:02Z,1,"Hi, what if there are 2 or more than 2 continuous features then how to perform sorting. I mean on which feature should I use sort, how to decide it or if there is any other rule which should be followed... Thanks",True
+@sandipansarkar9211,2020-09-17T19:08:21Z,4,Thanks Krish .Slowly I am understanding which algorithm is suited for which operations which will help me a lot in product based interviews.,True
+@loveanis5607,2020-09-07T10:30:50Z,0,sir can you slove one decision tree problem for me?,True
+@memescompilation6477,2020-09-01T18:24:24Z,0,how do we tackle that disadvantage? Anyone??,True
+@sidduaduke6495,2020-08-21T17:51:26Z,1,"Hi Krish, Very nice Explanation, i really like the way you explain,  please do a session on Time series as well.",True
+@manideepgupta2433,2020-08-08T22:35:56Z,5,"Please kindly make videos on data structures and algorithms, like time and space complexity, sorting and other things...",True
+@RiteshKumar-ki8op,2020-08-06T10:19:33Z,0,"Sir, How DT is used for Regression?",True
+@khushburajput1841,2020-08-05T16:30:41Z,0,"Sir for one feature there will be one DT so for N number of features(attributes), there will be N DT ? But when we plot the DT for a model,we see only one DT..",True
+@vihaanrajput8082,2020-08-04T12:35:06Z,0,"Hey krish,  you said that the algo.  Select a threshold for spiliting the node,  that threshold selection is random or the algorithm do some statistical calculation like taking mean of all the record in that feature and that mean is the threshold for spiliting the node.",True
+@adiflorense1477,2020-07-17T14:14:13Z,0,"sir, I ask how we have 3 class/label? how much decision point node",True
+@vidulaarolkar5183,2020-07-05T17:24:05Z,0,"Hey Krish, What is the effect of Outliers on Decision Trees?",True
+@jagadishprasad5928,2020-06-26T19:24:31Z,0,Thank you,True
+@neeravganate9562,2020-06-23T14:27:39Z,0,can anyone tell how to perform decision trees in regression???,True
+@kurbanchoudhary2489,2020-06-21T05:24:36Z,0,Sir it's very helpful for me,True
+@Aji4974,2020-06-14T08:08:39Z,0,"Hi Krish, really love your videos & thank you, kindly also include implementation videos in python also.",True
+@PraveenKumar-yu4eh,2020-06-02T08:37:38Z,0,Nicely explained to understand.,True
+@sonamkori8169,2020-05-24T05:14:43Z,0,"Really like the way u teaching, it clear my all doubts.",True
+@manojp6008,2020-05-19T17:44:29Z,0,"Sir I was performing a classification technique on  Bank churn data set and I encountered this problem, ""Classification metrics can't handle a mix of continuous-multioutput and binary targets"". How to solve this?",True
+@sadabratakonar4219,2020-05-07T20:44:17Z,0,"Sir, can this be considered as an example of how decision tree is used for regression?",True
+@veenabbasani1196,2020-05-05T11:02:07Z,0,"Hi Krish, DT for numeric variables, actually we can code the numeric variable then run the DT to calculate entropy and information gain",True
+@abdellatifthabet568,2020-04-11T19:50:42Z,0,such an incredible teacher .. i like this,True
+@vasaviedukulla5141,2020-04-05T23:16:11Z,2,"if there are multiple numerical features, for every feature various entropies and  info gain is calculated with different thresholds? and from those in the end best feature is selected as root node and the point of split is selected?",True
+@avinashm7423,2020-04-03T09:50:23Z,0,U mean decision tree stumps,True
+@bharatchoudhary9836,2020-03-28T07:26:42Z,2,"what about if we perform binning on numerical feature in dataset before implementation of decision tree algorithm, it will reduce time complexity as well as performance of model",True
+@sushilchauhan2586,2020-03-23T12:26:12Z,0,what if we have multi feature data ... ?,True
+@aadichowdary299,2020-03-17T17:49:58Z,0,i am very much impressed of content in your vedioe's. please try to make a online classes on your own,True
+@swagatdash91,2020-03-15T15:36:10Z,35,Nice way of explaining..Thank you it.. I think Small correction is needed when thresholdvalue is 3.6..right hand side will have 2Y/4N..Please confirm,True
+@bishwarup1429,2020-03-07T15:14:48Z,2,"Wonderful explanation. Sir can you please confirm that do we take the value as it is for threshold or the average between n and n+1 eg avg(2.3, 3.6) as threshold?",True
+@ArunKumar-sg6jf,2020-03-06T12:14:54Z,1,Sir next batch for machine learning,True

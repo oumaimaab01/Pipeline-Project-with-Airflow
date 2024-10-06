@@ -1,0 +1,243 @@
+author,updated_at,like_count,text,public
+@ransinghray3688,2024-05-07T07:15:21Z,0,"In time stamp 13:40 , you mentioned we want the logger level for the module set to DEBUG but we only want the error to be logged to sample.log file. What does it mean?",True
+@dimkayilrit2606,2024-04-11T09:29:44Z,0,"it's 2024, and your explanation is still amazes me🙂🙂🙂🙂🙂🙂🙂",True
+@rodi-soonshin-kwon,2023-12-29T12:19:37Z,0,"You are really awesome. starightforward, still classics even after 6 years. thanks a lot!",True
+@RoyAAD,2023-12-07T17:37:45Z,0,I love your vids. What IDE do you use?,True
+@ChrisJones-hv7mo,2023-12-07T10:31:46Z,0,I'm glad at least someone explained what I needed to know about multi-file logging. Good video.,True
+@muhammadmz8791,2023-10-06T14:39:50Z,0,"thank you man, you helped  me alot",True
+@devarapallivamsi7064,2023-09-29T09:43:38Z,0,Awesome!!!,True
+@clashcosmos4641,2023-09-25T07:17:37Z,0,Thank you,True
+@dawnS33ker,2023-09-21T15:43:01Z,0,Thank you for explaining the logging ops to clearly. 👍,True
+@martinndegwa7155,2023-09-02T14:13:39Z,0,still relevant after 6 yrs. the way you share the content makes it so easy to understand. Hopefully you still teaching. Thank you for this.,True
+@salarghaffarian4914,2023-08-26T20:05:54Z,0,Awesomeeeee! Thank you so much for this great content.,True
+@malcolmanderson6735,2023-08-14T02:05:35Z,5,"Amazing video, 6 years old and still one of the top rated videos on setting up logging for python.",True
+@ekunnusitheophilus6587,2023-08-03T19:20:11Z,0,Thank you for this!,True
+@yaboobayyaboobay8191,2023-07-21T08:26:56Z,0,What is the point of specifying the level in file_handler rather than in logger?,True
+@veliamomo6561,2023-03-16T07:32:16Z,0,"before logger, like we have a single pen, need to change the color each time we use it. using logger, we have several pens set up ",True
+@veliamomo6561,2023-03-16T07:20:48Z,0,didn't know the module imported will auto run 3:02,True
+@YumanoidPontifex,2023-03-14T23:21:35Z,0,watch out for the formratter. it's going to rat out your forms.,True
+@sanjeevKumar-eg6hp,2023-03-09T13:47:06Z,0,Thank you so much for such a detailed explanation,True
+@chilukanand,2023-03-08T07:36:15Z,0,God excellent videos by you!,True
+@brownstephen5966,2023-02-05T10:59:43Z,0,Thanks for this tutorial gave better undrstanding on how to use logging,True
+@rahulmittal6482,2023-02-02T17:11:37Z,1,"Thanks for the detailed video. I was wondering what will happen if we have multiple modules in our project, and we want all of the modules to write in same log file. Would be great to see something on it for complex projects.",True
+@ranjeetnbittu,2023-02-02T14:43:33Z,0,Thank you Corey Schafer for the nice video tutorial. 😍,True
+@locchuong,2023-01-29T17:37:18Z,0,how i can update new record on top of logging file?,True
+@Noobded,2023-01-04T00:45:21Z,0,Can you do a tutorial on loguru?,True
+@deemon710,2022-12-30T20:23:24Z,0,This is perfect for getting started.  Thank you!,True
+@kevinshao9148,2022-12-15T15:57:24Z,0,Thank you so much for your great tutorial!,True
+@juanclopgar97,2022-11-16T04:36:19Z,0,"so logging.basicConfig only can be executed once?, can you config the logger directly with the attributes, or that method is the ""correct"" way to do it, because in that case, can you reconfigure a root logger with the  attributes instead of basicCOnfig()?",True
+@antoniomembrino7460,2022-11-09T11:33:37Z,0,"hi, I need an help. I'm trying to write on a log file  while a program scheduler is active. I passed to the basicConfig function a filename, but the process of writing on the file works only when the scheduler ends",True
+@Tyokok,2022-11-08T00:52:46Z,0,Oh god great video! wish I could thumb up multiple times! One question: so this breaking down to handler configure setup is the only of overwriting logging when import another logging before hand? Thank you!,True
+@darrenlefcoe,2022-10-21T11:22:30Z,0,I might include logging in the next python book:  DM me for a link.,True
+@HernanM019,2022-10-04T10:41:36Z,0,"How do you keep record of the previous executions? Every time i run a new test, it just replaces the logs previous content with the newer execution. Also thank you so much for your content. You are the best python teacher i had in YEARS. Couldn't be more grateful for this.",True
+@talhaghaffar4544,2022-09-21T07:17:33Z,0,"Thank you , This was great help",True
+@cmcdougle,2022-08-07T18:28:28Z,0,The link to the video for if __name__ == '__main__' from 6:00ish in this video https://youtu.be/sugvnHA7ElY,True
+@kosmonautofficial296,2022-08-04T05:27:41Z,0,Awesome video thanks Corey!,True
+@kevenfeittosa1243,2022-07-31T20:35:12Z,0,"Hello. Great video! You can record a video showing more of ""logging.handler.TimedRotatingFileHandler""",True
+@Tyuvfdhb,2022-07-09T21:57:18Z,0,I haven't seen a better tutorial on advanced python logging and I don't think I ever will unless this dude starts a new series on python.,True
+@thisisthebestid,2022-06-21T04:37:53Z,0,Fantastic video! SUPERLIKE!,True
+@CSBBADRIGAUTAM,2022-06-17T06:50:33Z,0,"I have a doubt in loggers. I used a logger to wrote the messages I need to the file.  So the problem statement could be similar to this: There is for a loop that runs for some inputted iterations and each iteration predict some values as we don't know the number of iterations, we will be storing the values for each iteration and as for the overall of program, the output we only need is the last iteration's prediction so we are trying to remove the file itself using os.path.isfile() and os.remove().  We are facing an error saying that the log files has been accessed by some othe process and can't be removed. There was no other command/instruction/ststement of code saying opening log file. Any idea what the problem could be?",True
+@JorgeEscobarMX,2022-06-10T18:54:58Z,0,"Thank you, I watched part 1, and I'm about to code my own logging now, so I'm re watching these 2 videos again",True
+@amandaahringer7466,2022-06-10T17:32:28Z,0,"Very helpful, thank you!",True
+@shaikabdhulrasheed566,2022-06-10T04:04:10Z,0,how to set filemode ='w',True
+@johanneswestman935,2022-05-30T16:21:58Z,0,Excellent. Exactly what I needed in just a few minutes.,True
+@MounikaBhanushekar,2022-04-30T06:48:50Z,0,"hi Corey, i need your help in writing this in multithread logging,i am facing duplicate entries are getting logged",True
+@carlwainwright5415,2022-04-25T23:14:44Z,3,This was a really useful explanation on handlers and now I understand them better than ever. Great series as well.,True
+@michaeldelossantos2777,2022-04-11T23:21:49Z,0,What exactly does the handler do? i am having issues.,True
+@deepakmudila3919,2022-03-15T10:45:22Z,0,Amazing...explained nicely.,True
+@jjeverson2269,2022-03-15T06:28:45Z,0,these tutorials are on a whole new level,True
+@rahulgoyal3179,2022-03-15T05:31:12Z,0,amazing tutorial! thanks for posting this!,True
+@chittaranjanbhat9532,2022-03-08T18:38:33Z,0,"This creates log file for each module, What if I want one log file from main module and capture all the imported modules logs?",True
+@adrianramirez4272,2022-03-06T00:18:42Z,0,Amazing !,True
+@Iqbalsharib4,2022-03-05T06:34:00Z,0,Hi Please help on how to secure log file from modifying by any person it should only be updated through code and not by any person. By Default i can see that any one is able to make changes in this log file.,True
+@abhishekbhadauria2226,2022-02-22T11:45:41Z,0,How can we hide a specific parameter in logs via inbuilt method? For eg- {password:[secret123]} to {password:[HIDDEN]},True
+@ibrahimal-mahfooz8737,2022-02-10T12:48:45Z,2,What a masterpiece!  Wondering how much time you put in producing such a quality and easy-peasy tutorials?,True
+@kishanr849,2022-01-13T09:07:43Z,0,Great and informative video,True
+@hugopasqualdelpobil4224,2022-01-03T09:03:09Z,0,Good content! Well explained,True
+@Mitth-raw-nuruodo,2022-01-02T04:41:34Z,0,"I'm adding these videos in my work's wiki, I really appreciate the straightforward and well thought out videos",True
+@Maric18,2021-12-07T10:01:28Z,0,i have a remaining question: is there a way to just load all this stuff from a config or do i have to really have 10+ lines of code in all the files i want to do logging in? whats the best practice there,True
+@sridharsrinivasan7203,2021-11-03T12:21:10Z,0,"Hey @Corey, is it possible to use setFormatter() method on the ""logger"" object directly? (skipping the file_handler object)",True
+@munteanionut3993,2021-10-27T15:53:32Z,0,"Thanks a lot! Very nicely explained! Definitely liked the video. One thing I'd like to point out is that you forgot to include the link to your ""__name__"" variable in the video description. Keep up the good work! You're one of the pillars of the foundations of the programmers' knowledge base on youtube. God bless!",True
+@saketsuraj1706,2021-10-26T07:47:54Z,0,Explain memoryhandler,True
+@iliasaarab7922,2021-10-23T01:01:56Z,0,"Amazing explanation, will be sure to log all off this! Thanks!",True
+@vijeandran,2021-10-13T14:06:35Z,0,Amazing explanation,True
+@mahditabatabai9458,2021-10-06T11:16:41Z,0,perfect .love u man🔥🔥🔥🔥,True
+@riuza9681,2021-10-05T15:08:07Z,0,This was very clear. Thanks !,True
+@wexwexexort,2021-09-04T10:11:32Z,0,very useful tutorial.,True
+@omar7amdi,2021-08-27T04:59:38Z,0,Thanks. Great tutorial.,True
+@vijeyetasharma2057,2021-08-23T10:02:01Z,0,i was grinding all the day to understand the log concept and when i found these videos i finally felt like its just as easy as that...Corey!! thanks a lot man... you r truly a life savior ..thanks a ton you big man,True
+@jaymufc2,2021-08-06T17:55:00Z,0,"Not sure why but in the log file, instead of “…:__main__:…” I get “…:DEBUG:…” for the log-sample.py module (and similarly INFO for the employee.py module). Anyone know why? My code is exactly the same",True
+@DucNguyen-in1xd,2021-08-05T00:57:44Z,0,Really hope you make more stuff like this,True
+@imgopz786,2021-08-04T20:03:17Z,0,"Nice video, I've a doubt - how can we avoid printing logs from imported libraries in the console.",True
+@debojyotichakraborty,2021-07-29T14:01:01Z,0,really great,True
+@talsedaka5440,2021-07-24T20:01:47Z,0,"if you want to create MyLogger based on that logger but that will be singelton, how ?",True
+@anilmurmu6675,2021-07-10T10:01:52Z,0,Can we create a common logger file and import it in different py files?,True
+@thunder852za,2021-07-09T07:05:09Z,1,"Your format for tutorials is really good - straight to the point, no fluff and crap. Just exactly what is needed to get going, then building on that. Really really good.",True
+@aditirajguru7426,2021-07-05T08:07:04Z,0,message is showing none in log file,True
+@tymothylim6550,2021-06-21T05:09:51Z,0,Thank you very much for this video :) It was a fantastic tutorial and I learnt loads from this! Great work!,True
+@sachin143ful,2021-06-18T15:44:37Z,0,How to rotate file to specific folder when rotated and deleted when backup count exceeds,True
+@BehruzbekOtayev,2021-06-16T00:08:16Z,0,Still the best in 2021,True
+@eddiealbanian9004,2021-06-04T04:49:37Z,0,"Hi, thank you so much for the videos. I was trying it in my code working on jupyter lab. If I run the code for the second time, the message will duplicate two times. If I run the code the third time, the messages will repeat three times and so on. But if I restart the kernel everytime that I want to run the code, it runs fine, only one message, no duplicates. Can you help me how to fix this problem? So that  I do not have to run the kernel everytime I want to run the code. Thank you so much",True
+@benurm2390,2021-05-31T11:03:23Z,0,12:19 Professional programmer: replaces 6 lines with 1 -> happy :) Logging programmer: replaces 1 line with 6 -> happy :),True
+@misty_jeera,2021-05-29T12:38:17Z,0,Thank you! I couldn't understand anything but your video made it really clear! Awesome teacher xd,True
+@serhiishostak3371,2021-05-22T10:18:05Z,1,"Who dares to put dislike here... Still the best logging tutorial in 2021, thanks to Corey Schafer",True
+@Ef-sy4qp,2021-05-04T00:52:42Z,0,Great video. Thanks,True
+@mahdinouroozi6346,2021-04-28T07:39:43Z,2,"It's really a blessing to have nice people like you in the world, thank you sir for all your courses.",True
+@mkhnuser,2021-04-24T10:53:34Z,0,Thanks from 2021!,True
+@shreshthasingh,2021-04-16T18:13:02Z,0,"Thank you so much, very grateful for this tutorial. :)",True
+@ronenoren8267,2021-04-14T19:00:41Z,0,Great tutorial. Thank you very much!,True
+@soupnoodles,2021-04-14T16:37:05Z,1,"So, let me just get this cleared, using handlers and loggers is only to use multiple files right? like if im working on only one file, i dont really need them do i?",True
+@renekal975,2021-03-19T18:37:02Z,2,"Hey, thanks for your learning content it's been super useful so far. I wonder if you could clarify a thing or two for me:   (Context) Working with a big project of a pretty big variety of scripts, trying to setup a system to console log all of these efficiently.  - Do you generally implement this setup in each file? Or is there a way to streamline this with a class or something?  - Is it generally advized to use a seperate logger for each script?",True
+@mesutalkan322,2021-03-15T12:28:09Z,0,"Sir, I love this video, God Bless You!!!",True
+@pritampatel4638,2021-02-28T15:30:41Z,0,"Man, You are a LEGEND.. The way you make things look easy is really amazing. Absolutely amazing content, fabulous teaching.. I have really become a fan of yours..",True
+@prannoyroy5312,2021-02-26T19:34:56Z,0,Amazing tutorial!,True
+@satpremsunny,2021-02-15T16:36:08Z,0,"Just wanted to ask, can we create a decorator to perform the 4 lines which you have copied and pasted ( logger, filehandler n so on). It’s unnecessary if we copy the same line code in multiple class files, any thoughts ....",True
+@pavelivanov957,2021-02-14T18:48:12Z,0,"Thank you for these tutorials, liked the practical examples!",True
+@yantinghuang7491,2021-02-03T20:15:27Z,0,great tutorial to watch!,True
+@ketanbutte3497,2021-01-27T07:04:35Z,0,god bless stack overflow and Corey.,True
+@harsha00761,2021-01-12T15:30:03Z,0,Just what I needed. Thanks a lot man 👍,True
+@dani2500d,2021-01-10T20:46:12Z,0,Brilliant!,True
+@Pd69bq,2020-12-24T06:13:49Z,0,"loggers create log records, so things like set log level is logger.setLevel handlers send the log records to its appropriate destination hence ""logger.addHandler"" formatters specify the layout of log records in the final output hence ""handler.setFormatter""",True
+@TomerGuttmanS,2020-12-13T15:55:18Z,0,Thank you for sharing this!,True
+@jkb12609,2020-12-01T19:41:37Z,0,why are there so many outdated tutorial and examples on the web? Why doesn't this stuff get achieved?,True
+@magnussorensen2565,2020-12-01T14:11:47Z,0,Thank you.,True
+@tubalix,2020-11-08T09:04:10Z,0,"Thank you very much for this video. You are such a gifted teacher and instructor, I am very thankful having you around showing how to apply Python with such clarity. God bless you.",True
+@TheShankarPrasad,2020-11-01T20:34:39Z,0,"Hi Cory,    Excellent tutorial. I request you to help similar one for multithreading which can log for individual thread with uniqueID as part of formatter..  Appreciate it.",True
+@magroubezpieczeniasp.zo.o.2137,2020-10-05T10:25:56Z,0,Great! You should also add  logging within multiprocessing as a next part.,True
+@erickballesteros4531,2020-09-04T02:26:24Z,0,I really wish my professors would've taught me about logging,True
+@janezperme9770,2020-08-25T11:34:59Z,0,Valuable info about logging. Thumbs up !,True
+@FiveMChillZone,2020-08-05T22:47:32Z,0,Can you make a video about creating SQL database?,True
+@t2elzeth,2020-08-01T11:37:59Z,0,This is the best video I have ever seen about logging. Everything is clear and simple. Keep going!,True
+@munish259272,2020-07-14T18:59:16Z,0,3:21 to  5:13 - Why custom root logger is needed,True
+@ankursrivastava5760,2020-07-13T11:27:24Z,0,"what will happen if in a running system, I delete the log file, will it be auto created or there is any specific flag to achieve that.",True
+@nathanbenton2051,2020-07-07T18:54:06Z,1,This is top-class instruction. Keep up the outstanding work!,True
+@mahathirmohammad8635,2020-06-21T02:42:53Z,0,"How do I send server-log via flask_socketio?  I watch your video regularly. I watched your flask course, logging basic and logging advanced video. Now I got a project on freelancer.com, Where I have to collect server logs and send that log via socket. I tried to send logs via flask_socket but failed. I watched your logging video but you didn't mention anything about socket. I read official documentation but didn't understand anything.  My request to you, please make a video about ""How to send server logs via socket""",True
+@mahathirmohammad8635,2020-06-17T13:16:54Z,0,official document writer don't know English. Documentation sucks. please make a video about how to handle realtime log with socketio. PLEASE PLEASE PLEASE,True
+@mahathirmohammad8635,2020-06-16T06:10:25Z,0,"https://youtu.be/a0eGE4Ibre0 inform me, did you take action against this channel? Throw a copyright strike",True
+@mahathirmohammad8635,2020-06-16T01:14:10Z,0,https://youtu.be/a0eGE4Ibre0 this channel uploaded you video,True
+@dhruvagarwal7808,2020-06-05T12:05:35Z,0,Is there a way to use the 'logging' module to log to a SQL database? Also is it possible to 'UPDATE' already 'INSERT'ed values? I'm trying to write a handler data model which does that. Any help is appreciated.,True
+@aHardReset,2020-06-01T19:23:27Z,0,How to Log the errors in logging module implementation? jajaja Great video!,True
+@nikhildharap4514,2020-05-31T20:59:01Z,3,great job explaining all of this in just two videos.  Great place for someone to come brush up their basics in no time. Kudos to you!,True
+@whitedragon231,2020-05-17T14:11:40Z,0,i didn`t get it its the same as basic logging am i right?,True
+@saipranav8338,2020-05-16T17:54:26Z,0,17:52 What is the default format for the stream handler?,True
+@robv3872,2020-05-12T03:52:53Z,0,Awesome video!!  How much overhead does logging have?  Also - can multiple class objects interact with the same log file?  Say I have 10 different class/objects and I want them all to log in the same master log?  Is the interface to the logging object thread safe?  Thanks for such great content!,True
+@MrJoseph235,2020-04-28T10:58:14Z,0,Corey Schafer for President,True
+@HanZhang1994,2020-04-27T00:16:37Z,0,How do you do that multiline select and type? That's nifty.,True
+@itzsarathy,2020-04-19T07:49:51Z,0,"Thank you very much for the tutorial.  Can we replace ""__main_""  with some custom message?",True
+@JU-sq5ek,2020-04-16T10:40:15Z,0,"I have some question to ask. Now I'm running a crawler project using python +selenium. The project is so big that it has 1814 rows and I want computer to run the code regularly and automatically. It sounds that logging is similar to print(),the print() can be replaced by logging if you want to record the print() outcome if it goes wrong. However, I cannot write each one of my row code with print(). For instance, there are 300 rows codes with print() , but the rest of 1514 rows codes not. What if crawler cracks down if one of the rest 1514 rows codes goes wrong? How should I know if this situation happen? Can logging record that error too? if so, how to write that code? Thank you.",True
+@brandomiranda6703,2020-04-15T14:45:21Z,0,Its sort of weird to me that .error .exception .critical exist cuz they dont actually halt the code so whats their use? Make code more usable and readable? Write the word error for u in the log file? I fail to appreciate the subtlies i believe,True
+@brandomiranda6703,2020-04-15T14:36:24Z,0,The logger.exception is gold and not mentioned often anywhere else I’ve looked!!!,True
+@brandomiranda6703,2020-04-15T14:35:03Z,0,What if i always want it to print to the terminal stdout no matter what? Do u just give to all file handlers the the stdout stream?,True
+@brandomiranda6703,2020-04-14T20:21:46Z,0,Why __name__ as input in getLogger?,True
+@brandomiranda6703,2020-04-14T19:21:30Z,0,what about deleting logger file automatically each time we run the files?,True
+@brandomiranda6703,2020-04-14T19:14:38Z,0,"What is the ""root level"" again?",True
+@deepakbehera498,2020-04-10T20:39:36Z,0,"i am getting multiple output for the same exception: example: 2020-04-11 01:53:28,523:ERROR: Exception occurred 2020-04-11 01:53:28,523:ERROR: Exception occurred 2020-04-11 01:53:28,523:ERROR: Exception occurred How can i get only a single output as mentioned in the video instead of multiple output?",True
+@wamikgildiev6632,2020-04-08T05:44:18Z,0,"How to make logs in JSON format wit some additional static fields in every message - app, version, environment, pod?",True
+@hubertcombomarketing2693,2020-04-08T05:29:31Z,0,"Another great Python Logging Tutorial. Thank You. If I could give You one advice, just make your personal brand stronger. The first impression of your channel was not proffesional for me, inspite of large number of subscribers, views and comments. You have an unique and valuable content, but I found your logo and video thumbnails not standing out. I am not a marketing guy nor a proggramer and I am not trying to sell You anything.",True
+@slobodantajisic2762,2020-04-07T13:19:26Z,1,"Wow, this was very informative. Thanks...",True
+@saurabhvaidya4228,2020-04-03T05:53:02Z,1,Corey the superhero,True
+@rajtheo,2020-03-26T20:04:50Z,3,Corey I come back to your tutorials when I am stuck on a topic and to have a better understanding. Thank you very much.,True
+@anindyabhattacharya4878,2020-03-23T16:34:56Z,0,"one thing I have totally disliked about Python is the naming conventions. It's awful. Some are lowercase, some are camel case. Is there any pattern to remember. formatter(allsmall), FileHandler(one type),getLogger(another type). Please give us a way how to remember. It sucks when code fails due to this. Every time referring to the doc for the functions which I know is irritating.",True
+@anindyabhattacharya4878,2020-03-23T15:52:50Z,0,"How to write to the logfile not append to it using logger?I used filemode=""w"" in basicConfig() for root logger case.",True
+@yousofebneddin7430,2020-03-10T18:37:18Z,0,Thanks. A Question. If a 3rd party module is using logging. Is it possible to change its behaviour from outside? I mean I want to pass all the logs that the 3rd party library has created to a file with my format.,True
+@yltfy,2020-03-05T08:20:15Z,83,"I've used python logging for years, and after watching this video, it was safe for me to say that I didn't know how to do logging before.",True
+@madhusudanjalendra7353,2020-03-04T06:41:43Z,0,"amazing tutorial...., thank u so much",True
+@goaljason1813,2020-02-10T18:10:46Z,0,"Hi, Corey, great videos, I learned a lot from you. Regard this logging thing, is that possible to log the console display after   df = pd.read_csv(f, error_bad_lines= False), I want to record both *f* and the console output (e.g., b'Skipping line 6866: expected 9 fields, saw 17\n')? how can I do that if so?",True
+@tcarney57,2020-02-06T10:22:40Z,5,"I love watching how long it takes before you spot a typo. You almost always find them before running the code. I, on the other hand, have to beat my head against a wall after frantically searching SO for solutions and diving down numerous rabbit holes, and only after all that noticing my typo.",True
+@sudhirs003,2020-01-28T10:25:31Z,1,Awesome explanation...,True
+@swamy4494,2020-01-22T15:37:36Z,0,"Hi ,Mr.Corey Schafer,i have an issue.I am doing log file rotation.I am getting an error like ""permission error:the file is being used in anither process."".Will you pls give me the solution for it.Pls help me sir.I am fan of your teaching",True
+@amrgaber4662,2020-01-19T04:19:38Z,1,Thanks man 💪,True
+@SaurabhKumar-xw7iq,2020-01-18T06:34:45Z,0,"I’m working on a Django application wherein my application is writing time in to the logs in UTC time zone, however, I want this to be a local time, but I am not sure where to make the changes in my configuration, could you please suggest something on this.   Please note I have all my logging configuration in the the form of python dictionary.",True
+@shobhitverma2478,2019-12-27T16:25:42Z,0,Thank you so much. You explain logging from basic to advanced very well.,True
+@marcoantonio7648,2019-12-21T05:14:03Z,0,Amazing,True
+@Technologism,2019-12-15T09:04:53Z,0,"you are the best channel on youtube for python , every time i need to understand something about python i find it here and i understand it very well , so keep making these awesome python lessons",True
+@annikaelting8492,2019-12-12T09:37:57Z,0,"Thanks Corey, very helpful. I did pretty much the same you are doing in this video. However, in my file records are logged twice or even multiple times. Why is this happening and how do I get rid of this? Also some of my messages are appearing in my console although I never added a streamhandler - I only used a filehandler. Can you help?",True
+@raavikaGaba,2019-12-08T14:40:10Z,1,"You are indeed the best tutor, would request you to make some session on traceback module in python, would be really helpful",True
+@kollol2007,2019-12-08T13:13:31Z,0,How does logging hierarachy works?Any tutorial to describe it?,True
+@AkshayDeshmukhadd,2019-11-25T14:29:23Z,20,I must say you have an ART OF EXPLAINIG thoroughly sir.,True
+@ruchirsinha4036,2019-10-12T17:16:30Z,1,Thanks Corey!! These tutorials are simply great.,True
+@georgesmith3022,2019-08-12T06:47:05Z,0,"i think there will be a problem if you define all your loggers as logger, not in this specific case, but in general",True
+@ruby_gleyzes,2019-08-08T07:44:16Z,2,"Oh man, you are such a talented teacher! Another fantastic tutorial!",True
+@demev7488,2019-08-06T23:24:48Z,0,"Thought I'd share in case anyone in the future runs into this and save some troubleshooting. Non-string format statement with a variable don't seem to log. IE. logging.info('Hello ', world) didn't log vs logging.info('Hello {}'.format(world)) does log.",True
+@panagiotisdeligiannis9610,2019-07-09T08:08:28Z,178,"This is so fun to watch, Netflix could use it as a series.  Thank you! Amazing tutorial!",True
+@rajlearn2883,2019-07-09T03:49:39Z,0,"Thanks,  Can you explain, do we need to write every module files for the logging, can you explain how to logging data in one file and use it in all the modules with the same log file.",True
+@MsSuyash1995,2019-06-19T13:10:56Z,1,"Thank you so much for sharing with videos on logging and unit testing (not to mention,  other advanced topics)...   I am well past the beginner stage and in the process of creating my own projects... And, I am so happy that a great teacher like you are taking up such concepts...",True
+@Rwpankaj,2019-06-07T12:39:27Z,1,I appreciate the videos you create and share knowledge. One of best python tutorials available.,True
+@sanr6838,2019-06-04T11:42:48Z,0,"What is the difference between ""logger.setLevel(logging.DEBUG)"" and ""filehandler.setLevel(logging.DEBUG)""",True
+@r.gurkanakcakaya6338,2019-04-24T07:11:50Z,0,"Hi I have a problem, I would like to implement logging on a higher level. I have created a logger class and imported that one in to 4 others. The problem now it that one line of log is being written multiple times. I have also asked the question on stackoverflow but no answers yet. https://stackoverflow.com/questions/55823803/how-can-i-implement-logging-in-python-for-multiple-modules   Could you maybe create a vid on how to do this please?    Many thanks for all the videos, they have been really helpful.",True
+@mohammadshafiullah4006,2019-04-18T12:27:42Z,0,Can you share an example for Rotating File handler,True
+@anuza69,2019-03-24T09:52:39Z,1,Very good tutorial !,True
+@deepakbhargav9633,2019-03-22T12:14:44Z,1,Hey man  thank you.........,True
+@Neoplasie1900,2019-03-12T15:57:01Z,0,"Might be a little late on this one... But maybe someone in the future might give me an answer on that. In the first part of the video (before setting specified loggers) the root logger is initialized and is not overridden in the second config call. Why is that? As I understand Python so far, it works from top to bottom. So why doesn't a second call configure the logger?",True
+@eduardolucas391,2019-03-06T17:02:24Z,1,Simply brilliant!,True
+@Greyknight08,2019-03-03T19:24:47Z,0,Not sure if it is because of using intellij or not but when changing around the logger I am not getting the logger name in the files anymore. So I am not seeing __name__ or root,True
+@rakeshsunku8593,2019-03-03T00:31:50Z,0,"hi, very nice explanation.  I am new to python and trying to build python. needed one information, we want log to end at certain point even though our job is still running. can you help on this. I tried with shutdown and close it didn't work..",True
+@iangitonga2811,2019-02-18T14:39:02Z,1,Great tutorial which I've found easy to understand.,True
+@shanshen7363,2019-01-30T17:51:13Z,1,Super clear. Thank you so much!!!,True
+@aureliusnt,2019-01-29T17:18:06Z,26,Someday I'll show up wearing a T-shirt with your face on that.,True
+@kkyes,2019-01-29T14:40:32Z,2,Hey! how can I have logs from different modules in the same logfile?,True
+@HG-mt3vl,2018-12-28T05:06:32Z,0,"Great video, but it was so complex. Can you make more ""easy to understand"" video on this one .thanks",True
+@ramyaselvaraj6485,2018-12-25T17:16:21Z,1,amazing video :) thanks much,True
+@garyvonerden9619,2018-11-24T15:26:15Z,1,Excellent. Clear and concise !! Thank you.,True
+@priyankyadav4024,2018-10-24T03:22:39Z,1,"Clear, Precise and elegantly explained. Loved it Corey",True
+@daniel280187,2018-10-07T16:52:51Z,4,Thanks for sharing these videos. Your channel has been by far the best source I've found to improve my Python skills.,True
+@lepa7777,2018-09-19T18:28:10Z,0,"Hi Corey,  Do you know how to integrate a robot.api.logger with python logger? I have a python methods that are called from robotframework keywords. Everything is ok when I run tests from robotframework, but I need to run python unit tests as well.",True
+@leonardogrinstein9815,2018-09-14T13:58:13Z,0,"Is there a way to log errors that are not part of a ""try/except"" line of code? That would be errors you don't expect.",True
+@abdelhafiddahhani2514,2018-08-12T12:58:58Z,1,Thank you ^_^,True
+@jerchinn,2018-07-23T06:26:05Z,0,"I do not see the same effect as shown here @11.18 My code is as follows  (Employee.py): import logging logger=logging.getLogger(__name__) logger.setLevel(logging.INFO) formatter=logging.Formatter('%(levelname)s:%(name)s:%(message)s') file_handler=logging.FileHandler('C:\Users\jerome\PycharmProjects\Logging\employee1.log') file_handler.setFormatter(formatter) logger.addHandler(file_handler)   class Employee:     def __init__(self,first_name,last_name):         self.first_name=first_name         self.last_name=last_name         logger.info('Object created with first_name:{} and lastname: {}'.format(self.first_name, self.last_name))   if __name__=='__main__':     emp1=Employee('f1','l1')     emp2=Employee('f2','l2') -----------------------------------------------------------------------------math.py-------------------------------------------------------- import logging import Employee  logging.basicConfig(filename='C:\Users\jerome\PycharmProjects\Logging\sample1.log',level='INFO',                     format='%(asctime)s:%(levelname)s:%(name)s:%(message)s')  def add(a,b):     return a+b  a=3 b=5 add(a,b) logging.info('Addition {} + {}'.format(a, b))  ---------------------------------------------------------------------------------------------------------- Now when I run the math.py ,as per the video - I should get the logging recorded into employee1.log with module name as ""Employee"" ...Could you help me here ....I use python 2.7  thanks, Jerome",True
+@smithlo4092,2018-07-05T12:40:56Z,0,I ran in Spyder and it seems the logger.addHandler keep generate multiple log records each time I execute the python file. I have to pop the logger.handlers.pop()  or logger.removeHandler(file_handler)  after finish execute the files. anyone have have any issues like this? I want to know what's the best solution for this issue. Thanks.,True
+@NicolasEsatto,2018-07-02T18:53:21Z,0,is there a good way to print console output to a GUI text edit?,True
+@prashantgandhi2186,2018-06-18T02:17:20Z,1,great  video ... very easy to understand. Thanks !,True
+@bradyhuang5606,2018-05-30T12:04:12Z,1,Very helpful!! Really learn a lot from this episode!!,True
+@pradeep-he9jq,2018-05-25T20:36:33Z,0,"Thanks for the video.  What if I have scripts  in two different folders, but I want to log information to one file.",True
+@alextriphonov4427,2018-05-23T11:04:57Z,5,thank you. it's still the best logging tutorial in 2018 ;),True
+@satyareddy901,2018-05-13T07:49:01Z,0,Nice explanation...........,True
+@AshokKumar-tr9bu,2018-05-09T19:19:10Z,0,can you use dictConfig method and make a video ?,True
+@TechEats,2018-04-11T13:11:01Z,0,I execute a function in recursive order wherein name of the log file depend on the key:value read from json. I want to maintain file handlers on scope basis in other words when function returns the file handlers that was opened for that call should be alive..,True
+@marveltv5341,2018-03-26T09:13:45Z,0,U r great,True
+@patrickshapard5507,2018-03-26T04:19:23Z,0,Just watched the video.  Great presentation Corey.  I learned some new things about logging.  Thanks Corey.,True
+@townheadbluesboy,2018-03-13T08:29:42Z,1,Your Videos are excellent.,True
+@imxron,2018-02-27T17:49:19Z,0,"Really needed a quick run down on logging for work, sometimes the Python docs are just too cryptic or overly complicated. Thanks for this!",True
+@jeff_mci_gaming6018,2018-02-24T12:50:14Z,1,"Additional info for  everyone: I was going to ask how to only See multiple specific log messages using the FileHandler class ..for instance, if you wanted to see both the DEBUG and INFO messages within a single file( if you didn't want to run it straight to the console).. I found that you would just add an additional line of code for the file_Handler:   file_Handler.setLevel(logging.INFO) file_Handler.setLevel(logging.ERROR)  Great video.",True
+@princesangeluniyal,2018-02-24T03:44:21Z,0,Thank you for creating detailed video. This was very helpful in understanding the basics of logging!,True
+@cd-ux9ot,2018-02-18T15:32:01Z,1,This is exactly what I needed thank you!,True
+@shivamsinghal3972,2018-02-17T15:04:57Z,3,how to send that log file over the internet by email ? I would love to have a video about it? :),True
+@erickmwazonga494,2018-01-17T07:34:21Z,0,"If there are tutorials I enjoy, are Corey's....thank you for the knowledge impact!",True
+@seans9168,2018-01-15T06:48:11Z,0,Great example of how to use multiple handles. I was just wondering how and why. Perfect! Thanks Corey.,True
+@arczi414,2018-01-09T08:39:50Z,0,"Hello, can we configure logging into file to add new line always on the top?",True
+@disooqi,2018-01-08T13:10:21Z,0,"I have a question Corey, is there a way to define logger and logger handlers in a different module other than the module I want to log?",True
+@scorpsallday33,2018-01-05T00:14:56Z,0,"I have the same formatting as you on the log-sample.py file, level=logger.DEBUG but in my sample.log file It still does not say root, it says INFO. What could be the issue?",True
+@vkankata79,2018-01-03T09:41:20Z,0,"excellent video , great explanation . pls keep posting more ..",True
+@shareenadelacruz6801,2017-12-11T02:27:58Z,0,"Great Video, easy to understand. I have a question though, is there a way to separate a logger file config and call each type to logs from that file ?",True
+@jsc0,2017-11-05T17:32:25Z,0,Nice explanation. Thanks.,True
+@gernotpokorny8902,2017-11-03T23:50:55Z,0,"great video, thx",True
+@saurabh75prakash,2017-10-28T18:20:31Z,0,"Cory, thanks for the excellent video. Can we set loglevel for stream handler also.",True
+@jackotonye,2017-10-23T23:54:40Z,0,"Hi Corey,     Will also suggest using PyCharm to ensure code completion and ensuring Python Enhanced Proposals are verified.",True
+@andreasmakus4887,2017-09-26T12:10:35Z,2,"Absolutely great content! Thanks a lot, Corey!",True
+@haierlisp7381,2017-09-13T06:26:43Z,0,Thank you so much!,True
+@nirvana8145,2017-09-07T04:21:42Z,0,Thank you,True
+@xiaofeiwang4434,2017-07-23T04:01:08Z,0,Great video!,True
+@liorpr,2017-07-18T12:00:03Z,0,Great video! thanks,True
+@void-qy4ov,2017-07-15T12:13:30Z,0,"Good explanation, what is missing as in many videos regarding the logging is the explanation about load configuration from dictionary and other centralized configuration features.",True
+@doondoon6512,2017-07-04T07:32:07Z,0,"Finally, I fully understand the logging module with this video. Thanks!",True
+@javzav2026,2017-06-19T18:51:39Z,0,what is the ide you use?,True
+@daxmickelson6884,2017-05-28T02:21:46Z,0,"As always, you have a great teaching style!  I've watched MANY of yourTube videos and have learned something from each and every one!  I do have a question/comment though.  I'd like to see a 3rd Logging video covering how to do logging in a Python package.  Should the main logging setup be done in the __init__.py file?  What about best practices?  Should each module have its own logging file?    In my experimentation I've found that the logging files end up at the location from which the files are run from.  So if you import a package that has logging enabled their ""log"" files will end up in your current directory.  Maybe that is good behavior?  (I was expecting the logs to end up in the directory relative to the file that is creating it.)   I guess I still have more to learn.",True
+@ManicEightBall,2017-05-21T00:31:28Z,6,"This was a really great tutorial. It was concise, on point, clear with good code. I wish there were more people like you.",True
+@RobertMatejko,2017-05-15T18:03:51Z,0,Thank you for the great explanation!!,True
+@malikrumi1206,2017-05-13T18:04:09Z,0,"Corey, how do I know what to set as critical, error, warning, info, or debug? It seems to me that if I knew all that ahead of time, I wouldn't need a log to begin with. Please illuminate in the comments, or maybe make a Logging Part 3 tutorial - soon, of course!",True
+@ikerhua6500,2017-04-28T05:38:37Z,5,"Very good and easy to understand. I have one question, though. Is there a more efficient way to apply logging in project with a lot of files? Because I see that doing logger for each like this is kind of repetitive.",True
+@phizicks,2017-04-23T08:49:18Z,0,this has got the same ending sound as the channel veritasium,True
+@nramesh1990,2017-04-20T01:04:23Z,0,Useful one.. :),True
+@josephbatish9476,2017-04-19T19:14:09Z,0,thank u sir i love your classes,True
+@STONE9523,2017-04-18T14:23:52Z,2,Thanks a lot for the video! So far the BEST logging tutorial EVER! Concise but crystal!,True
+@htmlformatnews5889,2017-04-16T19:56:04Z,0,how do i use the rotatingfilehandlers?,True
+@ljka,2017-04-11T23:17:20Z,0,I just want you to know that we appreciate what youre doing here. :)  Im new to Python.,True
+@girishjahagirdar4379,2017-04-10T14:24:47Z,18,Tutorials are simply amazing and with these tutorial no book is needed to learn Python.Thanks for great service to programming community,True
+@rakesh903,2017-03-31T23:01:26Z,3,"Can we have just one log file for the entire code , instead of separate log files for each script. Also is there a way we can set the logging at one place instead of all the files. Like some common place",True
+@SkillCollectors,2017-03-25T23:03:19Z,215,"Thank you for creating all of these videos. I'm past the point of python basics and it's nice to have a resource with more intermediate and advanced topics. Please never stop teaching, donation sent :)",True
+@martus143,2017-03-24T04:33:51Z,0,thanks Corey for the wonderful tutorial,True
+@michael_d2,2017-03-22T09:47:37Z,0,very nice!,True
+@swadhikarc7858,2017-03-19T08:40:24Z,5,Thanks for the wonderful explanation...,True
+@simonrydell5433,2017-03-16T10:18:42Z,2,He's back! 😀,True
+@cmwh1te,2017-03-15T22:04:52Z,0,Your comments are strings and for some reason that deeply bothers me.,True
+,2017-03-15T18:35:21Z,17,"Love your videos Corey. Even tough I am using JS at my everyday work I still can learn a ton from your lessons on Python programming. I wish I had professor like you when I was going to university :D Keep doing great job, wish you all the best :)",True

@@ -1,0 +1,42 @@
+author,updated_at,like_count,text,public
+@mastersanskartiwari,2019-05-19T14:15:46Z,51,2:52,True
+@saketmalik6488,2023-07-04T16:45:09Z,0,sorry teacher for being late....,True
+@boses5320,2019-11-17T15:55:38Z,0,I laughed at  (Time stamp : 2.57) Granma speaks,True
+@voass9731,2019-06-17T22:00:29Z,0,"its not uno momento, its un momento",True
+@valentinfontanger4962,2019-06-09T17:11:20Z,1,Why are you freaking funny. Nice video by the way,True
+@goodester6924,2019-06-04T14:02:12Z,0,I'm pretty sure that in functions this is reference to a Window object but in strict mode its value is undefined.,True
+@dininabodinay1707,2019-05-24T01:55:31Z,6,skip to 3:00 for tutorial        lol,True
+@hronorog,2019-05-22T18:34:49Z,3,"""Backward R"" - it is russian letter ""Я"", ""me/myself""",True
+@abdulazizkodirov5323,2019-05-22T07:52:18Z,0,It is Michele,True
+@lordoflamanchar,2019-05-22T06:33:19Z,2,Love that you keep translating it to python! Thanks so much for this series,True
+@stacksonchain9320,2019-05-21T13:05:44Z,0,why do you code standing up?,True
+@mamazu1995,2019-05-21T11:49:04Z,0,"Very great introductory video. The Syntax you showed is the new ES6 Syntax. This is just syntactic suggar for the old way of creating classes. Opposite to other programming languages javascript uses prototypes for objects.   For more information, there is a great video series of FunFunFunction. You might want to get some inspiration from it. :D  https://www.youtube.com/watch?v=GhbhD1HR5vk&list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub",True
+@theinternet2116,2019-05-21T08:03:07Z,0,Tutorial starts as 2:56,True
+@jiandeng8595,2019-05-21T00:06:28Z,0,"try to use ctrl+shift+v to paste the block, it will get indentation",True
+@Jojo-hr7il,2019-05-20T23:59:32Z,0,"I think the messy things are the => function, functions and (){}, if you could cover it, please.",True
+@aviskhatiwada7141,2019-05-20T23:50:32Z,0,2:52,True
+@MrQuenonoscaguen,2019-05-20T23:45:15Z,0,Lovin this tuto!!!,True
+@Mak1j,2019-05-20T22:47:44Z,0,Michele Berardi is an Italian name ;-),True
+@commodorecode1404,2019-05-20T21:41:19Z,0,"You were right,this is a keyword.",True
+@micycle8778,2019-05-20T20:42:49Z,11,Tutorial starts at 0:00 in the text version.,True
+@koroll_rakov,2019-05-20T19:49:25Z,0,"Я - it's in russian ""I am"" and Michele - it's [Mi∫el'] or even [Mit∫el']",True
+@Random-ot1mk,2019-05-20T19:44:33Z,3,great life lesson about significant others :D,True
+@MrBledi,2019-05-20T18:44:49Z,0,You're the man!,True
+@scootscoot2k,2019-05-20T18:33:46Z,0,"Still loving  this series, when are you gonna put a cap and gown on one of the dogs? he is the best student!",True
+@atrumluminarium,2019-05-20T17:48:42Z,0,"Regarding the ""old way"" it is still around (and has been refined further) since it takes up less characters. More characters means larger .js files to send to clients.   Also say we want to make a quick object like a vector it's much faster to slot in (I am using ""•"" for multiplication due to YouTube formatting)  function vector (x,y){  this.x=x;  this.y=y;  this.length=()=>Math.sqrt(this.x•this.x + this.y•this.y); }  And then calling   let v=new vector(1,1);  Personally I prefer this way. That being said, I can remember there being an exception where this didn't cut it but I cannot remember what the situation was.",True
+@BryanRayFlorida,2019-05-20T17:39:42Z,0,"Long time follower of your channel.  Since JS is not your ""normal"" language you upload videos on, i'd like to see what you think of the Transcrypt project.  It basically lets you write Python 3.7 and outputs JS. https://github.com/qquick/Transcrypt?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more",True
+@ohmyshell,2019-05-20T17:19:23Z,0,Tensorflow.js... are you alluding to machine learning tutorial in javascript? I surely hope so... Thank you for your videos,True
+@indranilkarmakar7052,2019-05-20T15:59:47Z,0,"My code is not running, can you please tell me where the problem is         <!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd""> <html xmlns=""http://www.w3.org/1999/xhtml"">  <head> <meta content=""text/html; charset=utf-8"" http-equiv=""Content-Type"" /> <title>Learning JavaScript</title> </head>  <body> <canvas id= ""myCanvas"" width=""500px"" height=""500px"" style=""border: 1px solid #000""></canvas>  <script>   const canvas = document.getElementById(""myCanvas"");   const context= canvas.getContext(""2d"");      class blob   {    constructor(color,size)    {      this.x = 100;     this.y = 100;     this.color = color;     this.size = size;     this.xChange=1;     this.yChange=1;    }    move()    {     if(this.x == canvas.width || this.x==0)     {      this.xChange=this.xChange*(-1);     }     if(this.y == canvas.width || this.y==0)     {      this.yChange=this.yChange*(-1);     }     this.y=this.y+this.yChange;     this.x=this.x+this.xChange;    }    draw()    {     context.beginPath();     context.arc(this.x,this.y,this.size,0,2*Math.PI);     context.fillStyle=this.color;     context.fill();     context.stroke();    }   }      const newBlob= new Blob(""green"",50)   newBlob.draw();     </script> </body>  </html>",True
+@Ghasakable,2019-05-20T15:40:55Z,0,"it's now 0:40 am-JST and I am confused, should I open my computer and follow this tutorial or watch the last episode of Game of Thrones!  As always, thank you so much, best Python/JS tutorial channel ever.",True
+@tiagotaquelim1776,2019-05-20T15:40:29Z,0,"Click on Dev tols and do  Ctrl + ""+"" to increase the font-size. (atleast on chrome is)",True
+@sirynka,2019-05-20T15:21:34Z,2,// class class ClassCar {   drive () {     console.log('Vroom!');   } }  const car1 = new ClassCar(); console.log(car1.drive());   // constructor function ConstructorCar () {}  ConstructorCar.prototype.drive = function () {   console.log('Vroom!'); };  const car2 = new ConstructorCar(); console.log(car2.drive());   // factory const proto = {   drive () {     console.log('Vroom!');   } };  function factoryCar () {   return Object.create(proto); }  const car3 = factoryCar(); console.log(car3.drive());,True
+@sirynka,2019-05-20T15:10:21Z,0,Im not shure about Firefox but you can make a console size bigger just by clicking on it and press ctrl + a bunch of times,True
+@ronyshtamler,2019-05-20T15:10:19Z,2,"Great series!.  line 46 is missing a "";""",True
+@TheGBsXB,2019-05-20T15:09:59Z,0,Another outstanding video as always,True
+@chyavan,2019-05-20T14:45:20Z,2,"""to access this value, this is why we use this"". self seems so much better.",True
+@rahmahdirasuciprimalovita5119,2019-05-20T14:26:46Z,1,I've never seen 'class' in javascript till today.,True
+@iNuchalHead,2019-05-20T14:21:12Z,0,Blobject™,True
+@MD-vm7tv,2019-05-20T14:06:10Z,0,what the os your are using and what is the best os for python programming. i am using win 10 pro,True
+@usmanabdurehman97,2019-05-20T13:41:11Z,0,I thought typescript had classes and interfaces and all that? When did javascript get classes?,True
+@vytran7661,2019-05-20T13:37:41Z,5,You are my teacher. I really appreciate your tutorials. Thank a lot! ^^,True
+@braker37,2019-05-20T13:32:31Z,5,Just finished the last video and got the notification for this one. Awesome timing! :D,True

@@ -1,0 +1,62 @@
+author,updated_at,like_count,text,public
+@bethmishkin5242,2024-04-19T09:34:04Z,0,Hey - nice video. Why did you predict on the train set?,True
+@LawrenceReitan,2024-01-01T19:45:19Z,0,But you predicted the training data.... Of course ut oerforms that well.... Why did you even bother then creating a validation set?,True
+@rajshekharpatil8343,2023-12-10T05:21:53Z,0,"Hi krish./all, For time series analysis we should make thr data stationery it it is not stationery. If we ues here datrs is it not required to make data stationary and dats is going to tske care of  this for predection. Plzz guide",True
+@puggyk4220,2023-07-24T13:21:51Z,0,I have univariate data I need to how to impute it ; minute data,True
+@TheStallbr,2023-05-20T16:22:35Z,0,"Hey Krish, thank you for the video!",True
+@souravbarua3991,2023-04-24T19:50:34Z,1,Pls make a video on darts with more elaborate explanations and more examples. Thank u.,True
+@kevinkurnia2259,2023-04-15T03:47:26Z,0,"WHY I CANT SCALER() MY DATA? PLEASE HELP  I ALREADY USE CHANGE DATA TYPE new_df_quantity_start_date['quantity'] = new_df_quantity_start_date['quantity'].astype(int) new_df_quantity_start_date.info() AND THEN SCALED IT from darts.dataprocessing.transformers import Scaler scaler = Scaler() ts_scaled = scaler.fit_transform(new_df_quantity_start_date) kevin kurnia <class 'pandas.core.frame.DataFrame'> DatetimeIndex: 12 entries, 2022-01-01 to 2022-12-01 Freq: MS Data columns (total 1 columns):  #   Column    Non-Null Count  Dtype ---  ------    --------------  -----  0   quantity  12 non-null     int64 dtypes: int64(1) memory usage: 192.0 bytes --------------------------------------------------------------------------- AttributeError                            Traceback (most recent call last) <ipython-input-73-5aeffed5d1d9> in <cell line: 4>()       2        3 scaler = Scaler() ----> 4 ts_scaled = scaler.fit_transform(new_df_quantity_start_date)  3 frames /usr/local/lib/python3.9/dist-packages/darts/dataprocessing/transformers/base_data_transformer.py in apply_component_mask(series, component_mask, return_ts)     417         """"""     418         if component_mask is None: --> 419             masked = series.copy() if return_ts else series.all_values()     420         else:     421             raise_if_not(  AttributeError: 'str' object has no attribute 'copy'  it complain about my data type",True
+@kevinkurnia2259,2023-04-14T16:14:46Z,1,So generous of you to spread free education. Much Love From Indonesia. :),True
+@kevinkurnia2259,2023-04-14T16:14:16Z,0,I SUBSCRIBED IMMEDIATELY,True
+@kevinkurnia2259,2023-04-14T16:13:58Z,0,Amazing thank youu,True
+@5112vivek,2023-02-12T12:22:08Z,1,"there is information leakage here, when you transform the dataset using scaler to create training and validation set.  Ideally you should use scaling from the training dataset and transform your validation dataset using these values.",True
+@maaleem90,2023-02-02T17:13:52Z,0,Fit : it just learns the data Transform : it actually changes the data Fit_transform : it does both learning and transform at once,True
+@sangeethajith,2023-01-10T16:32:56Z,0,Can anyone tell me How to plot the epoch vs loss when am using the Darts TransformerModel?,True
+@mpty2022,2022-12-17T17:44:00Z,0,"data=SpeechToText(""ThisVideo.mp4"") print(data.count('particular')/len(data))  # Output 0.45",True
+@aniketpande1703,2022-12-01T20:26:41Z,0,but can this nbeats model be used for 3 features multivariate forecasting?. I have a dataset 3 features. I want to predict 1 feature based on other 2 feature's lagged values.,True
+@persianmeme3530,2022-11-03T17:25:21Z,0,"Why i get ""series object has no attribute 'static_covariates' "" while fitting the model ?",True
+@digipak07,2022-09-24T23:07:54Z,0,How to do time series analysis on categorical data?,True
+@stanislavzamecnik3049,2022-09-17T08:12:39Z,0,Very good tutorial. Keep up perfect work man! Big thumbs up.,True
+@ervhint,2022-09-08T08:23:39Z,0,is darts support SVR?,True
+@MusicMonster26000,2022-09-06T12:16:11Z,1,Series' object has no attribute 'static_covariates? anyone know how to fix,True
+@sohaibahmed1771,2022-09-02T08:35:13Z,25,Multivariate forecasting is when you have multiple independent variables to forecast at t+1. It's not when you have two different datasets like you have shown.,True
+@abdullahalnoman6637,2022-08-17T09:08:42Z,1,"the example you showed here is univariate time series data, not multivariate...",True
+@umeshk0697,2022-08-01T18:14:05Z,0,"can you help while importing darts i got this knd of error"" load() missing 1 required positional argument: 'Loader'""",True
+@zainabalali3806,2022-05-12T10:52:58Z,0,can you please do more video in BlockRNN,True
+@mp3311,2022-04-15T17:21:48Z,1,"Thanks for the video! Amazing explanations! I have a question, here the datasets both have only one column and the time as index. If I have only one dataframe with time as index, milk and passengers as columns, is it multivariate prediction? I mean, are the passenger values being influenced by the milk values or vice versa?",True
+@elyseekoulnodji4340,2022-02-25T14:07:40Z,0,how to do if I have mutiple variable like five and want to forcat one among them.,True
+@JPARK7167,2022-02-03T15:56:46Z,4,"How would you make an out of sample forecasting? Also, it'd be so interesting if you can discuss how we can deal data with covid periods (because in most cases, covid has created some majors shocks in time series data)",True
+@m.andrianmaulana9569,2022-02-02T14:02:48Z,0,"Thank you it's helpful, i want to ask OOT, how much the minimum data for getting adequate accuracy in time series forecasting?",True
+@nineteen5899,2021-12-30T18:02:12Z,0,"How do you do a multivariate analysis using darts...  Let's say, I have open, high,low, close, and volume of a stock  dataset.  How do you apply one of the models using darts??  Thank you",True
+@vishwasthakur4245,2021-12-04T06:33:51Z,1,"Hey @krish naik ,how to handle large block of missing value in multivariate time series data and how to impute those missing value? Any tips ,suggestions!! Thank you.",True
+@devloper_hs,2021-10-18T10:34:56Z,1,fit_transform is different from fit in that it combines both fit and transform methods on one go. One may want to use it as it increases efficiency for the data scaling and reduce the code,True
+@lagankukreja475,2021-09-28T15:44:42Z,0,Is there anything similar in R?,True
+@AQ36541,2021-09-28T12:49:15Z,0,Thank you membership nice meeting,True
+@manikandanmani-bo2el,2021-09-28T01:52:19Z,0,is it possible to build SARIMAX in this library darts.?,True
+@vivekuk4329,2021-09-26T19:07:08Z,0,thank u bro i have been fallowing since years thank uu so much for the valuable info,True
+@ALANGEORGE-fz2dy,2021-09-26T18:24:59Z,1,"Dear krish, Can you try another video of stock prediction with this, to show the efficiency. Love to see the model in action.",True
+@prashantsharmastunning,2021-09-26T18:18:46Z,0,how so we use our own dataset? in which format it accepts data?,True
+@prashantsharmastunning,2021-09-26T18:02:12Z,0,"'numpy.ndarray' object is not callable , i am trying to fit with pandas dataframe",True
+@SALESENGLISH2020,2021-09-26T16:57:53Z,8,"It will be a great day to see a million students subscribing to this channel. So forward it to the friends you care about. Krish is such a likable teacher, even I got inspired to program machines to do useful predictions :)",True
+@prashantsharmastunning,2021-09-26T16:55:36Z,0,"wow what timming,. i had the time series forcasting assignment and this dropped in the suggestion.. thankyou krish.",True
+@lucknowmarkaz1871,2021-09-26T16:26:35Z,0,"Hi Krish I really want to ask you an important question..... if I completed  watching whole of your videos on ML, DL, and your spicy Live Session videos and just practice all your projects will I've to go anywhere else to get something more about data analyst, Yes I know that you can't give surety of my job ☺ You know because jumping here and there on YouTube is demotivating me except your channel where I could find projects exercise experience and at last your free content on YouTube is complete in itself or not PLEASE ANSWER ME",True
+@Visal_pk,2021-09-26T13:49:51Z,0,Sir is upload a video on OCR on math equations and solving it. It will be very helpful.,True
+@thechhavibansal,2021-09-26T07:47:08Z,3,"Hey! Krish sir, doesn't multivariate means that multiple factors like holidays, months, occasions affect the outcome of 1 time series, instead of what you showed as 2 completely different time series?? Can you explain if this is the correct use case of multivariate time series !! ???",True
+@sumeet2ful,2021-09-26T03:47:06Z,0,thank you sir..,True
+@umeshtiwari9249,2021-09-26T03:46:02Z,1,Thanks sir,True
+@siddhantashtekar5806,2021-09-26T03:41:27Z,0,Hello sir Can you make video tutorial on PFAFN paper source code,True
+@PavanKumar26,2021-09-26T03:30:02Z,0,Data science guru is back🙏🙏,True
+@deartomorrow8737,2021-09-26T03:19:52Z,0,"Dear sir, Really your videos are very interesting can get your address please I want contact you privately",True
+@shaik27rafi,2021-09-25T22:37:13Z,0,Recently stumbled your channel. Love your teaching style. I think AutoTS  is another amazing package. Would love to know your thoughts on it!,True
+@chelvanchelvam4332,2021-09-25T19:58:32Z,0,"could you tell me the difference between the airline passenger data train with year,month covariate factor  and this airline and milk data as multivariate factor?",True
+@adithyamadhavan6804,2021-09-25T17:00:50Z,0,"Hey Sir, Congratulations again, Can you make timeseries project ? it would be great",True
+@ShahnawazKhan-xl6ij,2021-09-25T16:41:22Z,0,"Oh, amazing",True
+@abhisheksingh-zz1hy,2021-09-25T16:36:49Z,0,I am doing time series forecasting on  cross panel type dataset and its really hard to interpret 😖😖,True
+@dydx3741,2021-09-25T16:34:14Z,0,Thank you sir...love u alot.. thank you very much for giving us immense knowledge 🙏🏼🙏🏼🙏🏼,True
+@mohammaddanish9713,2021-09-25T16:03:01Z,4,Fit_transfom is using for transforming the data and fit is using during model building to fit the  transformed data,True
+@janakiraam1,2021-09-25T15:53:04Z,6,"Hello Sir, congratulations again !!! We are missing you in regular classes in ineuron.",True
+@nitinsinghbisht8959,2021-09-25T15:51:40Z,1,"Hi Krish,  What resources would you recommend someone to learn time series i saw this today and got interested",True
+@SANJIVRAI6693,2021-09-25T15:44:10Z,0,Any good resource for MULTI-LABEL TEXT CLASSIFICATION #NLP #Customer-Comments,True
+@mrrishiraj88,2021-09-25T15:43:21Z,0,🙏🙏,True
+@Comedy-tg7yx,2021-09-25T15:40:49Z,2,"Krish you are awesome bro, love you bro! I am doing data science course from an institute where i dont understand anything to bw honest but your videos have helped me a lot and got my faith back to the course.",True
+@rishisingh5581,2021-09-25T15:40:15Z,0,Great Sir,True

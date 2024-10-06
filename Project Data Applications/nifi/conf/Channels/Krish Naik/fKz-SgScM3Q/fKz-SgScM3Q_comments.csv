@@ -1,0 +1,49 @@
+author,updated_at,like_count,text,public
+@prateekkumar.1325,2024-01-01T03:04:52Z,0,"sir,if i run stratified k fold code for different time, will the result vary? it shouldn't isn't it? But mine does, I don't know why? Also, if I make changes with the number of folds, my accuracy changes.",True
+@baburamchaudhary159,2022-11-23T17:14:34Z,0,I would be best if you had provided link of the dataset for the practice and confirmation.  Thanks.,True
+@panosp5711,2022-03-24T17:37:52Z,1,"Hello very nice video, but ONE QUESTION, what is the train/ test ratio in every iteration when you use stratiified k cross validation. I mean somehow combining stratified  k fold cross validation with  train test split",True
+@abhi9029,2021-10-11T13:44:24Z,0,This video could have been better.,True
+@ayushijmusic,2021-09-02T17:15:41Z,0,You are a saviour!,True
+@louerleseigneur4532,2021-08-08T04:49:35Z,0,We are living in a wonderful universe,True
+@mohe4ever514,2021-06-01T12:37:28Z,0,"Krish, In K fold validation, You fitted the classifier on diff sets of X train and Y train and got the different accuracies. This is fine to evaluate the model but you didn't mention on which data we need to train the model if we want to evaluate the performance using k fold. Are we going to train our classifier on full data i.e. X and Y? Final model which we want to use later on should be trained on full dataset?",True
+@skasifali2202,2021-05-27T07:11:54Z,0,Hello Krish sir...What if need to perform customize prediction. I do need to perform classifier. predict(test). But in my code it shows me feature name missing. I'm using the Pima Diabetes dataset in kaggle,True
+@gebremedhnmehari8451,2021-05-21T06:53:56Z,0,"how about precision, recall and f-measure?",True
+@Aaronisification,2021-05-18T18:21:24Z,1,"I love your content, it is very helpful. You are a treasure. But this video would have been loads better if you slowly allowed students to copy over the code.",True
+@karan9837768555,2021-04-15T09:00:06Z,0,Sir plz upload github link also,True
+@banjiaderibigbe1415,2021-04-14T16:24:33Z,0,is this video notebook available in gitbut @krish,True
+@saltanatkhalyk3397,2021-04-05T09:01:32Z,0,so clear explanation thanks,True
+@saifulislamsanto6147,2021-03-29T23:52:16Z,0,How can I find roc curve and confusion matrix from this project in all Train Test Split vs K Fold vs Stratified K fold Cross Validation please give us a video of this.,True
+@saifulislamsanto6147,2021-03-24T21:55:21Z,0,"Y.iloc[number] is not working. Error is  AttributeError: 'numpy.ndarray' object has no attribute 'iloc'",True
+@maxwellpatten9227,2021-02-26T14:18:03Z,0,"great video, thank you!",True
+@dollylollapaloosa,2021-01-28T02:36:49Z,0,"I've been wondering for this topic for a while, very happy to find your content!!!",True
+@pavanim6258,2021-01-17T15:18:18Z,0,Thanks for very clear explanation Krish..can u pls share github link also,True
+@tomstomsable,2021-01-05T20:19:57Z,0,"higher bias does not necessarily mean a good accuracy,  best one is low variance and low bias",True
+@sridhar6358,2020-12-10T12:28:31Z,0,with stratified k-fold the only difference is that the classes of type Yes and No are also considered when choosing the test size and the rest of it is the same as k fold cross validation is that so,True
+@muhammadairlanggarahmadi7301,2020-11-25T11:12:31Z,0,Github link for those of you who need  https://github.com/krishnaik06/Hyperparameter-Optimization,True
+@pratikramteke3274,2020-11-22T10:42:51Z,0,"By selecting n_splits as 4, i got highest accyracy in the 4th ie the last fold.. any idea on how to extract the exact dataset fed to train test so that i can replicate the output of the 4th split???",True
+@ravindrachauhan4078,2020-10-16T23:08:37Z,1,How to get confusion matrix and auc roc curve after k fold varification?,True
+@ravindrachauhan4078,2020-10-15T04:19:58Z,0,How to get confusion matrix after cross validation,True
+@user-ur1oj7vj2z,2020-10-09T08:50:22Z,3,where can i get the dataset set 🙏,True
+@PadminiMansingh,2020-10-05T12:26:45Z,0,May I have ur mail-id sir,True
+@pawankulkarni7634,2020-09-21T07:22:50Z,1,"Sir, I have question on this. Since we have imbalanced data set earlier and then we fix it by some feature engineering technique.so after fixing it we can use again k fold CV? or we have to stick with stratified CV only?",True
+@kushagrak4903,2020-09-17T06:37:19Z,0,"Hello sir can you share your Jupyter notebook, please.",True
+@ishantguleria870,2020-08-26T10:34:26Z,0,cross value is coming what does it mean,True
+@philipokiokio3000,2020-08-14T00:09:30Z,1,Thank you for teaching can I get a link to the notebook.,True
+@kamenxxx9037,2020-08-12T02:33:19Z,1,"wow this is very enlightening!!!! thank you sir! one question tho. what if we need to have the confusion matrix? I am using Repeated Stratified K-Fold, and im curious on how to obtain a reasonable and easy to execute confusion matrix. Any suggestion on this?",True
+@ClickyKitsune,2020-08-09T13:00:12Z,1,Isn't stratified validation by default included in cross_val_score library..,True
+@megalaramu,2020-08-04T05:51:28Z,1,"Hi Kris, When we use cross_val_score and give the paramter to cv as int which tells about number of folds and if the model we are using is classification it chooses stratified by default right and not k-Fold type of cross validation.  I found this in the sklearn library  cv: int, cross-validation generator or an iterable, default=None Determines the cross-validation splitting strategy. Possible inputs for cv are:  1)None, to use the default 5-fold cross validation, 2)int, to specify the number of folds in a (Stratified)KFold,  3)CV splitter,  4)An iterable yielding (train, test) splits as arrays of indices.   For int/None inputs, if the estimator is a classifier and y is either binary or multiclass, StratifiedKFold is used. In all other cases, KFold is used.  This is just a query. Please let me know if my understanding is wrong.",True
+@supersql8406,2020-07-29T17:23:14Z,0,Thank you! Keep going with other vids tutorial!!,True
+@hasnain-khan,2020-07-25T05:29:52Z,0,If i have 1000 rows in dataset. Then how can select first 200 rows for testing and last 800 rows for training instead of select randomly in splitting?,True
+@HARDYBOY290988,2020-06-22T09:43:01Z,0,"Hello Krish  I have subscribed to your  799 plan, please let me know how i can add myself to your whatsapp group",True
+@shantanupagare7141,2020-06-15T16:26:21Z,2,"Sir your content is great, thanks for uploading such important and informational videos. These videos are very helpful. Keep making these, more power to you. <3",True
+@21Gannu,2020-06-12T02:33:38Z,0,So my understanding is with cross-validation we can look up what is the achievable score however it lacks interpretability likeability to make confusion matrix out of it.,True
+@ajayvishwakarma6943,2020-05-24T18:04:22Z,0,thanks man,True
+@amitagarahari8501,2020-03-12T07:24:52Z,0,"Gud sir, I like your videos very much, sir I have a question that, in K fold validation, after score value getting how can i make confusion matrix sir....?",True
+@mashalnabh2747,2020-02-21T15:51:40Z,0,"Namaskar Krish Ji! Great video, well done. The question I have is regarding the imbalanced dataset and StratifiedKFold validation. Taking your example of Churn, lets say your churn rate is 1% which means in total 50k observations your churners are 500. Now, because your data is high imbalanced with very rare events, suppose you want to do some balancing (over , under or both) and then do the stratifiedkfold validation. How would stratifiedkfold validation work in this case? Will stratifiedkfold validation take test data (lets say 10%) without balancing and build model on balanced dataset (90%), hence we would know the validation is done on real data? Or even validation is done on balanced data? If later, we would need a separate test dataset to see how model fits on real unbalanced dataset, isn't it? I hope its clear. thanks Sachin",True
+@HarishS12137,2019-12-29T17:45:18Z,4,How different is this from in setting the stratify parameter (stratify=y) while splitting the data using train_test_split?,True
+@manusharma8527,2019-12-12T21:17:02Z,0,sir in terms of skf you have miss  the line nubmber 86.  skf = StratifiedKFold(),True
+@mahnabraja1086,2019-10-11T05:39:18Z,0,excellent work,True
+@jawaharunited,2019-09-20T06:33:29Z,1,Can you provide the link of source code...,True
+@siddharthwaghela7234,2019-08-21T02:35:32Z,5,"Hello Sir, Stratified K fold works only for categorical and multiclass target variables. What if the target variable is continuous?  Binning the target variable is the solution ? Thanks",True
+@mgcgv,2019-08-16T07:09:16Z,5,just  awesome!!!! But can it be possible that you also share  GIT repository for its code,True
+@babayaga626,2019-08-09T06:35:29Z,6,"Hello Sir, Thanks for the wonderful explanation. However I have a naive question to ask, How is RandomizedSearchCV and GridSearchCV different from K-Fold, Stratified K-Fold?",True

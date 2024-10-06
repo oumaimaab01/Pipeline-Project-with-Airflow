@@ -1,0 +1,6 @@
+author,updated_at,like_count,text,public
+@princeofexcess,2018-05-28T08:54:26Z,0,The suspense kept me on the edge of my seat the whole video.,True
+@louisgeradtsvetter,2018-05-27T10:02:46Z,1,"How about slowing everything down? You just decrease the striking speed and limit the number of processed frames and therefore the number of commands. Assuming the acceleration on your table is near 0, speed only matters for the arm. This is computationally advantageous and solves all of the arms speed issues.",True
+@viney50567,2018-05-27T08:15:47Z,0,"You should use the Kalman filter to predict where the puck will cross the line, then for each frame the puck gets closer to the hit point, update the kalman filter. This will provide a really accurate prediction and means the robot doesn’t have to keep following the puck. It can just sit in one place",True
+@desertdweller9003,2018-05-26T19:15:45Z,7,"You should make it return to the goal when it doesn't find the puck, because 90% of the time it doesn't is because its under the arm.",True
+@kubasachajko8216,2018-05-26T18:58:16Z,0,What's the program in which u write your code ?,True

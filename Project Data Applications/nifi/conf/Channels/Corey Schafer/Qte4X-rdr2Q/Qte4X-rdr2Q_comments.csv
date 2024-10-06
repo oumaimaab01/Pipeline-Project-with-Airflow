@@ -1,0 +1,42 @@
+author,updated_at,like_count,text,public
+@rezamostafid8810,2023-10-06T04:16:37Z,0,Corey...I just >learned< that I was doing it all wrong! It all clicked after watching this video......now I have to spend a few hours undoing my clumsy setup and implementing the learnings from your clip...but it'll be worth it. Thanks You!,True
+@John-po5vp,2023-10-04T13:19:36Z,0,Thank you!,True
+@bgsebs,2023-09-24T12:49:05Z,0,"really useful tutorial, thanks",True
+@user-ro2vo4lq1g,2023-09-08T20:38:34Z,0,Great lesson!,True
+@paulafranginha5749,2023-01-04T10:52:14Z,0,"Very useful video, thank You very much <3",True
+@inteligenteimpostor.,2022-10-17T03:00:08Z,0,"Masterpiece of knowlodge, danke.",True
+@RGSmith-wo7dx,2021-09-14T18:06:20Z,0,Thank you for all the examples and descriptions. Four years later and this info is still germane.,True
+@thejedijohn,2021-08-06T17:00:59Z,0,Thank you. This explained everything I needed to know.,True
+@kumanish75,2021-04-14T18:40:12Z,0,thanks a lot for the very helpful and comprehensive video,True
+@pussyvid,2021-02-22T19:58:15Z,0,I guess I can delete Snapshots without loosing the current state?,True
+@pedroleite8193,2021-02-10T16:04:11Z,0,"i have a problem, my memory run out so i had to change the local file to a another driver, and when i did that i couldnt load kali so i reinstall but i kept a snapshot, can i use it? it doesnt appear in the VB but its in a file.. i need some help :/",True
+@Pinkie-Dash,2021-01-22T00:18:30Z,0,"What do I do if I never had system restore set up on my computer and I need to recover a folder with certain files and I need those files back to the original folder? I messed up with a virtual machine in virtual box and on the virtual machine, I need the files from that machine on virtual box. I accidentally moved sometimes to a different folder and stuff and I forgot which files were exactly where. Please help me!!! 🥺🥺🥺😢😢😢😭😭😭",True
+@marcinbiaecki9731,2021-01-18T13:17:42Z,0,Thank you! :),True
+@sameerparnami8552,2020-10-12T15:40:14Z,0,Thankyou very Much :),True
+@bofh85,2020-06-24T14:56:18Z,0,"I created a Tool ""VM Snapshot Manager"" for exactly that purpose, which you can get from here: https://github.com/BOfH85/VM_Snapshot_Manager/tree/en-us  Why using this project instead of the build in Snapshot-Manager of Virtualbox? Well, first of all, this program was developed as a quick and dirty solution for VM Workstation Player which doesn't even have the option to create Snapshots. But furthermore I discovered that even with Virtualbox it is better if you store your snapshots as 7Zip-compressed 1:1 copies of your full vdi or vmdk File. Virtualbox splits the data in a complex manner if you create snapshots there which makes it quick to create one but takes also a long time to restore. And you always need the whole tree of snapshots if you want to clone or move your VM - you can't just take your .vdi File, ignore all the Snapshot-Files and mount it in a new machine as Hard Drive - the data won't be the same as your last working point in the old machine. But if you don't do snapshots with the programm at all und use this tool instead, you always keep your min vdi or vmdk File 100% comnplete and movable.  It's a terminal based python program which uses 7zip to high-compress your current VMDK-File (or VDI-File since you also can use it with Virtual Box). It basically copies and compresses your vmdk-harddrive and can restore the compressed files so that you can jump back and forward to any backuped state you created in the past. It's necessarry for the program to work that you store your VM in only one vmdk-File and don't split it up in several files. Maybe this tool is helpfull - if so just spread the news, it's free :-) Regards BOfH85",True
+@topoftech6459,2020-06-16T16:55:23Z,0,"Thanks, I needed this so when viruses ruin my vm, I can revert back to the original state.",True
+@vijitkumawat2874,2020-05-27T02:49:57Z,0,thank you very much,True
+@vin8816,2020-05-15T19:29:49Z,1,Thank you very much for the tutorial. Very helpful and to the point.,True
+@mokera3801,2020-05-08T06:56:11Z,1,"very helful, Thanks",True
+@nicozica,2020-04-11T14:47:16Z,1,Thanks for this great video!! My key takeaway: running machine snapshots do take a lot of more space. I'll try to avoid them from now on!,True
+@aliyaserramazani9695,2020-02-08T16:49:15Z,1,"Great video, very clear. Thanks a lot",True
+@prabhatranjan5952,2020-01-27T11:05:40Z,0,can I transfer this snapshot to other system and restore it from where it is?,True
+@elbezz,2019-12-04T17:21:31Z,1,"thanks man!, very good explanation.",True
+@Turnpost2552,2019-10-13T02:51:36Z,0,Be careful 13:10 snapshots do take up alot of Memory on your Drive.,True
+@hothpeter,2019-10-02T06:54:25Z,3,Thanks for the clear explanation. Saves me a lot of time and thanks for the great effort Corey !,True
+@johnhudson9558,2019-07-07T08:52:04Z,0,Hello how do stop it  from taking snapshot,True
+@kevyelyod1211,2019-06-15T01:03:07Z,1,"Thank you nan, you have made my day easier. When I have the cash I’ll send you on a few bucks.",True
+@bevintx5440,2019-05-17T12:18:36Z,2,"Thanks for this informative video about VirtualBox Snapshots.  I've used VirtualBox for several years, but had never looked at using this useful feature.",True
+@stellatoweett1201,2019-05-01T22:52:26Z,2,I love you guy u are the best!,True
+@mirkogrcic2612,2019-03-14T16:31:01Z,2,"Hello, you did not cover deleting of the snapshots and what it causes to the VM or other snapshots in the tree, since it takes time for deleting of a snapshot I believe there is some merging going on.",True
+@midwestiowashooter,2018-12-06T16:09:02Z,0,Great video. What if you have several snapshots and you feel you are at a point to take a master snapshot. Can we delete older snapshots without effecting the final version?,True
+@SuperMrwil,2018-10-10T13:07:34Z,1,Great video. Thanks for sharing this!,True
+@geoptus,2018-09-27T21:39:57Z,0,"This is a great  and powerful feature that I had never concidered using before, thanks for explaining how to use this.  - having various install options as snapshots on one machine is a very cool  use of this feature Now saving so much time not having to rebuild broken vms from scratch! thanks  :  )",True
+@ranchocommodorereef,2018-06-29T06:42:24Z,1,"Thank you very much for this video, it was very helpful, I lost my virtual machine due to a huge error I made and luckily, I learned from you to avoid such problems like that",True
+@kiranmayeekolluru1750,2018-04-12T08:44:02Z,0,Great video,True
+@sbtpaul,2018-04-01T23:44:01Z,0,"If I get the exe file of the trial version of a software and take a snapshot just before installation, and then get back to the snapshot once the trial period is over, can I install it again and use for the trial period? Thanks.",True
+@jonathanstudentkit,2018-01-19T18:14:24Z,0,"very useful, thanks!",True
+@sagace1000,2018-01-16T18:30:45Z,31,"The sequencing and the steam of thoughts are flowing nicely in your videos. The process of explaining feels smooth like silk. You put a lot of effort into it I guess, so thank you so much",True
+@deepakcsjm,2017-11-19T06:33:05Z,0,"Thank you so much Corey, I was looking for this amazing tutorial explaining ssh with virtualbox and really it helped me a lot saving my time. Keep adding new tutorials. Request you to demonstrate some automation with ansible please.",True
+@cwash08,2017-07-15T22:01:39Z,6,"Huge timesaver. When I see features like this, I never know what they are for or how they can be useful. Thanks for this.",True
+@rahulpulagamofficial,2017-07-14T06:19:31Z,0,recently I reinstalled Kali Linux for 2 times from scratch.. This technique helps me a lot. thank Q u once again..,True

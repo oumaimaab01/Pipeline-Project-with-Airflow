@@ -1,0 +1,55 @@
+author,updated_at,like_count,text,public
+@maalonszuman491,2023-01-28T21:24:47Z,1,Hey really great video !! Can you publish the code ?,True
+@ride4speedrr53,2022-12-02T15:16:04Z,2,What is Chap lot?  Ai: A lot of Chaps.  Very straight forward 😂,True
+@IwinMahWay,2022-08-14T11:56:27Z,0,Is there a way to use the newly released bloom model with this?,True
+@SaurabhSingh-vv7wt,2022-07-05T21:16:13Z,0,can we make some changes to the dataset like what if i add a persons name and about and  ask the bot who the person is ?,True
+@arsiarsi1884,2022-05-06T02:30:10Z,0,Is this chatbot working online or offline?,True
+@pruthvirajmhaske,2022-02-15T14:46:39Z,0,"I don't know why, but I feel she has asian accent. ask her some math questions...",True
+@divyanksingh4829,2021-12-21T17:32:54Z,0,I did not get the jarvis files part. Did you create them in a video or installed from a source?,True
+@pjsilvino,2021-10-26T05:17:20Z,0,u have source code?,True
+@remix-m1681,2021-09-25T19:54:19Z,0,can you send the source code!!,True
+@amzker,2021-08-25T07:55:27Z,0,can you please upload the source code,True
+@surajvkothari,2021-08-04T12:18:01Z,1,Is it keeping a history of the conversation? Why did it repeat the same sentence when talking to itself? Shouldn't it change the response if it had said the exact sentence before?,True
+@dr.mikeybee,2021-08-03T13:42:53Z,0,"Also, try saving good responses by keyword ""correct"" or as questions for ""wrong.""  Then use a greedy algorithm to retrieve correct answers if the question has been asked before.",True
+@dr.mikeybee,2021-08-03T13:40:05Z,0,Have you stopped this series?  Why not do BERT question answer next?,True
+@dr.mikeybee,2021-08-03T13:37:01Z,0,"I don't like that voice.  gTTS has a better one.  Besides, if you run nvtop, you'll see that voice server (I'm pretty sure it's espnet) is using a ton of memory.  That's fine on a DGX, but, with a normal desktop, it would use up a GPU like a 1650.  BTW, do you know if Jarvis is using opensource vosk or Deep Speech or something else?",True
+@toni3124,2021-07-25T22:28:28Z,0,when do you publish part 3,True
+@ZikyFranky,2021-07-25T10:13:06Z,0,"Congrats on 1M subs.  Love your videos, you make learning and coding fun!",True
+@rameshraghavan6010,2021-06-21T15:22:40Z,0,I am using azure text to speech. It's free (Unless you reach the limit) and it has a lot of good voices ;),True
+@bhumikakore5463,2021-05-18T09:21:44Z,2,I hadn't ever seen such a intelligent chatbot and this series changed my life and my dream accociated to this will come earlier true,True
+@akonbca2011,2021-05-14T08:13:27Z,0,Awesome,True
+@jasonreviews,2021-05-07T23:51:21Z,0,i think Alexa is a bit smarter. LOLs.,True
+@martintremblay9525,2021-05-04T22:00:56Z,0,I downloaded this chatbot and tried it out.  It's not that impressive to be honest.,True
+@raseruuu3742,2021-05-03T14:37:33Z,0,Love ittt!!!! you actually did it maaan! so fun!,True
+@harinkumar1073,2021-05-03T13:58:26Z,7,"i figured that most people couldn't run jarvis coz of bad gpus, so i am leaving this code here which doesn't require a gpu or jarvis, it's pretty straightforward and i hope you have some fun with this😊  import os import torch import playsound from gtts import gTTS import speech_recognition as sr from transformers import AutoModelForCausalLM, AutoTokenizer  class Bot():     def __init__(self):         self.r = sr.Recognizer()         self.temp_file = ""output.mp3""         self.tokenizer = AutoTokenizer.from_pretrained(""microsoft/DialoGPT-medium"")         self.model = AutoModelForCausalLM.from_pretrained(""microsoft/DialoGPT-medium"")      def _get_audio(self):         with sr.Microphone() as source:             audio = self.r.listen(source)             inp = """"             try:                 inp = self.r.recognize_google(audio)             except sr.UnknownValueError:                 pass             except sr.RequestError:                 print(""service is down"")         return inp      def _speak(self, text):         tts = gTTS(text=text, lang='en', tld='co.uk')         tts.save(self.temp_file)         playsound.playsound(self.temp_file)         os.remove(self.temp_file)      def _reply(self, inp):         new_user_input_ids = self.tokenizer.encode(inp + self.tokenizer.eos_token, return_tensors='pt')         bot_input_ids = new_user_input_ids         self.chat_history_ids = self.model.generate(bot_input_ids, max_length=1000, pad_token_id=self.tokenizer.eos_token_id)         ret = self.tokenizer.decode(self.chat_history_ids[:, bot_input_ids.shape[-1]:][0], skip_special_tokens=True)         return ret      def chat(self, use_mic, speak):         greeting = ""Hi Human!""         print(f""bot: {greeting}"")         if speak:             self._speak(greeting)         while True:             if use_mic:                 inp = self._get_audio()                 print(f""you: {inp}"")             else:                 inp = input(""you: "")             if ""shutdown"" in inp.lower():                 break             ret = self._reply(inp)             print(f""bot: {ret}"")             if speak:                 self._speak(ret)  if ___name___ == ""__main__"":     print(""booting up..."")     bot= Bot()     bot.chat(use_mic=True, speak=True)",True
+@youssefhany4846,2021-05-03T11:02:51Z,1,"please continue the neural network programming from scratch series, a request from egypt.",True
+@intox4953,2021-05-03T08:52:07Z,0,"I don't know if you have fixed this, but when you set step=0 in the listen_loop function, you are making it such that the history never gets concatenated in that inline if statement. Unless I am missing something, that might make it converse better.",True
+@kishoreksm8366,2021-05-02T13:42:00Z,0,"Next step create aa another chat bot, Put Artificial intelligence🤖 into it. Wait till they plan to take over the world..",True
+@TheHackysack,2021-05-01T09:23:10Z,0,Sharkmug spinoff when?  It also makes me happy to be super hacky(sack) :D,True
+@amkarkare96,2021-05-01T08:44:24Z,0,Have you ever had to watch your own tutorial to write the whole code again because you accidentally deleted/screwed it up without backup?,True
+@roostertechchan,2021-05-01T07:40:51Z,0,"The ultimate example of ""LMAO"" 16:07",True
+@whoisabishag3433,2021-05-01T05:01:56Z,1,19:02 ... Bring it into Discord,True
+@whoisabishag3433,2021-05-01T04:42:05Z,3,"00:16 ... Irene Says: ""Its Not Boring Its Just Not As Fun""!""",True
+@oyber201,2021-04-30T22:50:31Z,6,"I think you forgot to increase the step, so the chatbot won’t remember the history.",True
+@blackdeckerz0r,2021-04-30T20:41:00Z,0,"I love your ""this is not ideal or best pratices, but im gonna do it anyway"" laught",True
+@JKNProductions,2021-04-30T20:06:37Z,0,I love how it figured out how to play telephone and still messed it up,True
+@ruidian8157,2021-04-30T17:32:22Z,0,"Hey, I just found a python library name “rich” and I feel like you’ll like it a lot! Do check it out when you’re free.",True
+@mytechnotalent,2021-04-30T15:59:52Z,0,Pretty incredible and yes this would not have been possible to this level years ago.  Brillaint!,True
+@joannot6706,2021-04-30T15:59:44Z,5,We've come a long way since Cleverbot.,True
+@sanjaymarison5629,2021-04-30T15:40:42Z,1,Mac is the best for tts it is so easy and there are so many voices.,True
+@ahkb,2021-04-30T15:39:29Z,4,Sentdex the G.O.A.T. 🐐,True
+@phillipotey9736,2021-04-30T15:37:26Z,1,It's all fun and games until it becomes sentient,True
+@NetflixWithQuickies,2021-04-30T15:34:38Z,20,That self talk by the bot was hilarious😂,True
+@Xana8U,2021-04-30T15:25:02Z,0,"Isn't ""Jarvis"" a patented product for AI voice products? hope that certain pieces of s.. don't try and raise some lawsuit :D",True
+@wktodd,2021-04-30T15:20:42Z,0,"I don't think your going pull , Harrison!  Lol at it talking to itself.",True
+@pyshine_official,2021-04-30T15:15:42Z,1,Congratulations! Keep the excellent work up!,True
+@voxelltech,2021-04-30T15:02:44Z,0,Yes in the discord!,True
+@Gazzar19,2021-04-30T14:57:17Z,2,After jarvis is finished you should start building that iron man suit 👍,True
+@nickadams2361,2021-04-30T14:47:39Z,0,good job man very nice work,True
+@Ahmad-tn4dg,2021-04-30T14:41:16Z,1,"17:33 line 306, in wait    gotit = waiter.aquire()  Lol nice variable name ""gotit"" Sounds more like ""go t*t"" rather than ""got it"" :D",True
+@pianorials3217,2021-04-30T14:39:13Z,1,8th,True
+@maharshiguin7813,2021-04-30T14:21:22Z,51,"What is chap lot? -""A lot of chap""  Damn right it is 👌",True
+@finn8843,2021-04-30T14:21:18Z,4,When is ep. 8 of the neural networks from scratch in python playlist coming out?,True
+@muneeraminugireis2273,2021-04-30T14:20:11Z,0,Absolutely incredible 😍 I ve been looking for something like this Thanks so much sir 👍God bless 🙏,True
+@ronballsgaming6531,2021-04-30T14:19:22Z,11,congrats on hitting a million,True
+@Stinosko,2021-04-22T20:10:10Z,1,Hello how are you doing 🤠,True

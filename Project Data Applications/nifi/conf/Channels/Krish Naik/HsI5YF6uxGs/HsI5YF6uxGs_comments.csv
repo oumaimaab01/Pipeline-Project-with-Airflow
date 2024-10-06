@@ -1,0 +1,46 @@
+author,updated_at,like_count,text,public
+@sameerasalih773,2024-05-07T21:25:02Z,0,Is this topic good enough for masters thesis?,True
+@siddhantkohli5063,2024-04-14T15:17:57Z,0,"Hey sir , I have done sentiment analysis before but just wanted to ask that why do we need to do stop words removal or lemmitization tokenization etc for sentiment analysis. Its fine for LDA etc but why sentiment analysis  in sure without its fine too ?!",True
+@sashi.maraiah24,2024-04-08T22:38:10Z,0,i am not able to extract csv file,True
+@deepanshugupta641,2023-11-11T19:53:28Z,1,"sir, how can I access news related to different stocks? I'm eager to practice with various stock updates.",True
+@user-wy6lv2ne1d,2023-10-17T08:16:30Z,0,after running my model using countvectorizor i got 1.0 score in the output . is it good for the result or may i have to change the code please tell me.,True
+@fabiovaglini639,2023-09-17T13:18:30Z,0,What is the ticker/company of the dataset?,True
+@orthodoxreview8490,2023-05-23T11:15:15Z,0,"Sir, why didn't we do lemmatization?",True
+@muzaffarhussain7386,2023-03-23T09:28:20Z,0,"Please, Sir Krish, kindly create playlist on Data Engineering and its most widely used tools such Hadoop, spark and casndro and so on.",True
+@youhavetodoit9070,2023-03-19T18:37:34Z,2,Thank You So Much Sir :),True
+@Heisenberger_,2022-08-24T00:00:51Z,0,"Hello, sorry to burst your bubble, but you do realize that with selecting the date for the training dataset by < '20150101' is faulty and you have the complete year of 2015 in your train set & test set. Of course you have that high of a score through that. Select the dataframes like one should, by transforming the date into an actual date type and your results won't be better than a cointoss, worse even",True
+@usemyreferral,2022-08-23T15:58:13Z,0,Where is the sentiment analysis..? Everything discussed except the sentiments.,True
+@transformingsociety3171,2022-07-25T08:06:24Z,1,hello krishnaik sir what is the secret of your energy?,True
+@YogiNotTheBear007,2022-06-22T13:56:51Z,1,"hi, thank you so much for such an informative video . However could you please tell me which company these stock prices labeling (0,1)  represents?",True
+@anuroopshivdasan931,2022-06-08T06:58:34Z,0,Video Starts from 4:54,True
+@chinmayc4,2022-05-28T07:12:02Z,0,How to download the data from github link......data in raw format .....,True
+@theknightsoldier,2022-04-25T14:32:17Z,0,can we get this document link to download,True
+@sandipansarkar9211,2022-01-05T18:23:55Z,0,finished coding,True
+@sandipansarkar9211,2022-01-04T20:25:38Z,0,finished watching,True
+@abhijit227,2021-11-24T21:23:46Z,0,"I dont know if anyone faced this issue while trying to implement with flask. Just a workaround that I came up with while trying to implement it.  Scenario: I saved the model and when I wanted to predict the class using some text using the saved model, the app threw error : ""X has 6 features, but RandomForestClassifier is expecting 598207 features as input"".  Well this is because I was trying to directly transform the test data without any vocabulary reference.   So when we want to predict with some test headline we have to first fit the countvectorizer with the training data (which acts as basis for dimensions to convert the data into vector). then transform our test data with the dimensions we get. train_data = clean_data_csv(train_data) transormed_data = []     for row in range(len(train_data.index)):         transormed_data.append(' '.join(str(text) for text in train_data.iloc[row, 0:25])) count_vectorizer = CountVectorizer(ngram_range=(2, 2))  count_vectorizer.fit_transform(transormed_data) data = count_vectorizer.transform(data)  However this is not optimum solution as every time we have to fit with the training data (Not ideal for huge data size). If anyone knows how to save the vectorized data and then use it later please reply to this comment.  Thanks Krish for amazing work :)",True
+@jahanurbiswas7816,2021-08-10T18:56:22Z,0,"Thank you, Sir. Your videos are best.",True
+@devanshshah3019,2021-07-27T07:17:12Z,2,Can you please reply from which website you have taken this dataset?  It's very urgent for my project...,True
+@priyabratasahoo8535,2021-05-25T04:40:00Z,0,great content,True
+@prabhakarsinghbanafar4081,2021-04-06T11:24:23Z,3,"ValueError: Found array with 0 sample(s) (shape=(0, 119379)) while a minimum of 1 is required.  Facing this error",True
+@krantiwadmare1441,2021-04-01T12:10:46Z,1,"Sir , I have a doubt here.. why aren't the punctuations removed in the  the text dataset and  converted to lower case as the train dataset.",True
+@swapnilingale1075,2021-03-26T04:57:12Z,0,Sir after this script how to run the model? please reply,True
+@vaibhavgupta4413,2021-02-27T18:16:25Z,0,You are damn amazing ❤️❤️❤️❤️,True
+@llogic4386,2021-01-17T17:54:58Z,0,Hi sir  this video is really helpful for me,True
+@ChandraMohancvickey,2020-12-29T13:45:25Z,0,I have a project sentiment  analysis on consumer buying  computer hardware after watching this video i got the idea how to execute  my project .but i m not able to extract the .csv data file from internet...plzz help in data collection,True
+@ChandraMohancvickey,2020-12-29T13:42:55Z,0,Can you please tell me from where we should collect  the data,True
+@chetanb5404,2020-11-13T20:05:51Z,1,how did you classify the news as 1 and 0,True
+@apprendrelafinanceautremen711,2020-09-22T08:26:44Z,0,hey can you sind me the data plz,True
+@TelliniRicardo,2020-08-30T18:58:04Z,2,"Excellent content, greetings from Perú!",True
+@nivitus9037,2020-08-11T14:31:44Z,1,"Wonderful statement sir ""Data Science is Everywhere"" 😄😄",True
+@Dheeraj-ed6rr,2020-07-29T14:50:10Z,0,Use neural nets with trax library of Google,True
+@raghavsharma6430,2020-07-10T06:14:51Z,0,"hi krish, i want to confirm that in front end we will give 25 unknown input headlines for prediction. so please reply.",True
+@aakashreddy,2020-07-05T08:08:23Z,0,hello sir..love from mumbai..can you  plz make video on titanic data set project,True
+@praveensingh1234,2020-07-03T18:08:55Z,0,Great,True
+@poojakumari-yy9xo,2020-07-03T06:07:39Z,1,Hi sir can you please help me in deployment of machine learning model.... I am stuck in one point and unable to fix it,True
+@paraschaurs,2020-07-03T04:51:35Z,3,"For exp ppl they are not getting time to study, all of the energy is been sucked by mean bosses.. Even in lockdown they are harassing employees.. Working 9 hrs a day, how can ppl study with job plus 6 days working..",True
+@mounicak5923,2020-07-02T18:25:12Z,2,Useful session,True
+@abhijeetjain2098,2020-07-02T17:49:12Z,0,Thank you Sir....before seeing the video,True
+@VINITSANSARE,2020-07-02T17:06:01Z,0,"Hi Krish, Where can I post my question?",True
+@necuo25,2020-07-02T16:18:06Z,4,"This analysis takes into account that we have labeled data. In other languages than English we don't have too many labeled datasets. So, how can we apply sentiment analysis then?",True
+@akashubale5199,2020-07-02T15:51:04Z,0,Please have the discussion on getting the job for freshers,True
+@venkatesanr9455,2020-07-02T15:50:29Z,8,"Hi Krish,  Kindly try some other features like Parts Of Speech, POS in NLP tasks other than TF-IDF which most of others trying",True

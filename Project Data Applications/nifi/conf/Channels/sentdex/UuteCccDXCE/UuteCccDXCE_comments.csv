@@ -1,0 +1,94 @@
+author,updated_at,like_count,text,public
+@billfujimoto5905,2019-10-24T04:36:06Z,28,"A simple way to smooth the accuracy and loss graphs using pandas exp weighted moving avg:   df['train_acc_mva'] = df['train_acc'].ewm(alpha=.02).mean()  # exponential weighted moving average df['test_acc_mva'] = df['test_acc'].ewm(alpha=.02).mean() df['train_loss_mva'] = df['train_loss'].ewm(alpha=.02).mean() df['test_loss_mva'] = df['test_loss'].ewm(alpha=.02).mean()   Then plot using pandas: df.plot(x='batch_ind', y=['train_acc_mva', 'test_acc_mva'], figsize=(8,4)) plt.ylabel(""Accuracy"") df.plot(x='batch_ind', y=['train_loss_mva', 'test_loss_mva'], figsize=(8,4)) plt.ylabel(""Loss"")",True
+@Hazar-bt6nf,2024-01-30T19:43:52Z,0,"Is this video series includes all the subjects about pytorch? After finishing it, can one say ""It's done with the pytorch""?",True
+@rbaleksandar,2022-04-13T08:19:41Z,0,"Maybe I missed it in one of the tutorials but you actually never show how to save and load a trained model. Especially on a large dataset if at some point loss starts increasing one might consider stopping the training. In order to properly do that one needs to create snapshots of the model every X epochs, which can then be loaded for further analysis.",True
+@farhanuddinfazaluddinkazi7198,2022-01-19T19:55:12Z,0,Do u have plans on continuing the series ?,True
+@faatemehch96,2021-09-09T11:24:13Z,0,thank you of the tutorial,True
+@arindam96,2021-08-31T18:56:48Z,2,Just finished all the 8 videos in this playlist. Loved it. Hope you make more of these pytorch videos.,True
+@yuhanping315,2021-08-23T08:02:27Z,0,May I ask will u continue this tutorial?,True
+@undfmusic,2021-07-09T08:55:41Z,0,Very cool series! Waiting for the project :),True
+@macsenwyn5004,2021-07-07T23:06:49Z,0,whenever I save the data using .write the file is all on one line,True
+@abehzadfar,2021-06-17T11:03:18Z,0,enthusiastic to watch your next ep of this series,True
+@speed-stick,2021-06-05T11:13:31Z,0,"To sample a random population just sample random indices in the range len(text_X), and select those indices from both arrays: idx = np.random.choice(len(text_X), size) X,y = np.array(text_X)[[idx]], np.array(test_y)[[idx]]  # or: X,y = [text_X[i] for i in idx], [test_y[i] for i in idx]",True
+@mohdkashif7295,2021-04-16T10:37:28Z,0,"for random slice use np.random.choice(len(x_test),size), this will give random idx for test sample",True
+@owenlu6527,2021-03-05T07:24:47Z,0,"for the matches line, I would just use something like torch.eq(torch.argmax(y), torch.argmax(outputs)) as its probably faster and more clear",True
+@aliishahh,2021-02-19T21:49:40Z,0,do I need a GPU for this part of the tutorial??,True
+@N3Wk1d5,2021-02-19T20:23:55Z,0,39:19 OG,True
+@regularviewer1682,2020-12-29T23:05:00Z,0,Quick question - how can you have negative values on the x axis? 44:35,True
+@era_ali,2020-12-18T11:21:37Z,0,"Just love the way you teach. Looking forward to learning more about Pytorch from you.  However, I really like your cups and your senses of humor :D",True
+@scm6668,2020-10-15T21:56:45Z,0,"Man, please continue this series :(",True
+@ask8ing,2020-10-01T10:54:25Z,2,"NOTE: the ""if i % 10 == 0"" is not only true for every 10th step because our batch size is 100, so it's actually true EVERY STEP. That's why it takes so much longer, what we actually intended to avoid. Instead you could say: ""if i % 9 == 0"" beacause now it will only calculate it every 10th step! (note that range(0, len(train_X), BATCH_SIZE) will output 0, 100, 200 etc for i, so if i = 900 it's the 10th step)",True
+@tomshanahan3346,2020-08-10T21:27:23Z,0,Really great tutorials. So much better than the pytorch docs! Thanks.,True
+@drewriggs423,2020-08-08T16:09:59Z,0,ROLL TIDE ROLL didn't know you were a BAMA fan!!,True
+@AvinashBeck,2020-07-30T16:28:46Z,0,What is the negative time in the plot? We are plotting time vs acc or loss. Why do we get plot for negative time less than 0??,True
+@RedionXhepa,2020-07-21T18:22:35Z,0,Hello nice job! Would be nice if u continued with this series,True
+@user-lo5xl5fn4x,2020-07-01T19:24:35Z,1,94 комментария и ни одного на русском,True
+@vadimsechin7373,2020-06-15T18:52:37Z,1,Will you make more videos about pytioch?,True
+@Lars22,2020-06-02T17:34:06Z,0,"The proposed random is not equally distributed.  The start and end-range will not be used as often as the middle part wich can be selected both by start as well as by the end. For size 2 on a len of 4, both 0 and 3 are used once while 1 and 2 are used twice.  0 1 2 3: XX    XX       XX 1,2,2,1 For size 3 and len 5, indexes 0 and 4 are only used once, while 2 is used all 3 times. 0 1 2 3 4: XXX   XXX     XXX  1,2,3,2,1 Then again I understand that the random was not the main part of the video.",True
+@anshulgoyal1095,2020-04-28T19:31:55Z,0,Thanks man.,True
+@openroomxyz,2020-04-10T21:48:55Z,0,"Does it mean, that if we would train the same model with much bigger data that it would not overfit? Is it possible no mater how long the training takes that a model would not over fit?",True
+@david_broz,2020-04-07T15:42:52Z,0,Your series is amazing ❤ can you do RNN with text generation in PyTorch?,True
+@martinmartin6300,2020-04-05T15:35:24Z,0,"Yeah you did the same mistake where you update after each example rather than after each batch. In this code, the additional iteration over the batch is actually pointless.",True
+@pernia07,2020-04-05T00:45:50Z,0,"Thanks for the series man! But i  think we got one thing missing, how to properly save the model for  using it later, or continue with the training after a checkpoint.  https://pytorch.org/tutorials/beginner/saving_loading_models.html",True
+@martinmartin6300,2020-04-04T18:46:00Z,0,"Hey, I think a proper way to validate over the test set inside of your training loop is to do this once in a while as you otherwise end up taking the most of your time validating over your test set. Also, I don't think validating over a small fraction of your test set is not really valid. You definitely get wrong numbers as the accuracy for one fraction of the test set may be different to another fraction.",True
+@user-rd4gv8hn4e,2020-03-24T03:20:33Z,0,"the best series I have ever known for learning pytorch! But it could be better if some code of photographing the feature map could be added. Anyway, give you a thumb!",True
+@aneeshantony401,2020-03-10T12:55:08Z,0,Bro any idea about stock market chart pattern identification advance thanks,True
+@kanharusia9399,2020-03-04T19:33:53Z,0,How to show a graph in real-time when the model is still training?,True
+@oliviazhi6161,2020-03-03T16:29:44Z,2,Best series :) Wanna learn more with pytorch. More series needed!! 💕,True
+@ankurgupta2806,2020-02-29T21:39:57Z,0,Can you please make a tutorial on distiller from intel,True
+@mohanedabid9532,2020-02-26T00:19:25Z,0,just finished the whole pytorch playlist !! love it thanks @sentdex  keep it up ;),True
+@HoangMinhQ,2020-02-11T08:09:57Z,0,please make a video about SSD object detection on pytorch,True
+@carmendiaz7164,2020-01-10T16:33:30Z,5,"Thank you for putting together this series. I really enjoyed watching it. Are you going to do any more video on pytorch?  Since you asked for requests, I will: Would love a video digging more in data preparation,including data augmentation. As you mention in your #5, data preparation can be a really tedious task.. would love to hear more about it :D Thanks again.Great job @sentdex",True
+@RoderickMCox,2020-01-09T00:50:26Z,0,Don't spaghet to leave a like on the video people,True
+@konataizumi5829,2019-12-21T21:16:05Z,30,Dude what happened to this series?? :(,True
+@projectaddictive5226,2019-12-21T13:41:32Z,15,pls continue this series :D . i'm waiting for that,True
+@bluenighttw1558,2019-12-18T07:29:37Z,0,"Thank for the tutorials. but how do i use this model to other pitcher i took , i'm struggle load the image to this model,it error Expected 4-dimensional input for 4-dimensional weight [32, 1, 5, 5], but got input of size [1, 50, 50] instead",True
+@anneest,2019-12-03T13:53:55Z,0,"Thanks dude, that was awesome! :-)",True
+@rizki3105,2019-12-01T13:42:44Z,15,Are you planning to continue this series? I like the way how you explain,True
+@101fobster,2019-11-24T12:19:49Z,0,"Hi sentdex, I really liked your video series on Pytorch! Very helpful. I was wondering if you could please also release a tutorial on how to incorporate a confusion matrix into the code.",True
+@rajcivils,2019-11-20T10:52:56Z,0,when are you going to make tutorials on igni,True
+@sachinprabhusachinprabhu007,2019-11-12T15:57:12Z,0,Great series! thank you so much :),True
+@nadavpotasman7534,2019-11-11T18:32:03Z,1,"Great series.  One question - why you didn't use the Dataset/Dataloder of pytorch? is it because the specific size of the dataset (dogs vs cats)? Thanks!",True
+@yasmineguemouria9099,2019-11-11T17:27:32Z,0,Can you maybe please please please add 1 video in this series about using this model for realtime detection using a webcam?? please Dex,True
+@bhaskarsyamal,2019-11-10T19:17:11Z,0,It seems we can easily use tensorboard for model analysis. I found a video of deeplizard on how to do it. Thought it'd be somewhat useful and a bit less complicated.  https://youtu.be/pSexXMdruFM,True
+@Sposhal,2019-11-09T05:33:20Z,0,it give me this error sir No such file or directory: 'training_data.npy' please reply,True
+@indivarmishra6119,2019-11-08T05:22:30Z,0,loss.float(),True
+@indivarmishra6119,2019-11-08T05:06:27Z,0,you can use np.random.choice(),True
+@billfujimoto5905,2019-11-06T22:43:03Z,0,"@sentdex, just wondering if you will be continuing the Pytorch series in RNN's or have you decided to move on?",True
+@youngcolt5305,2019-11-03T08:32:15Z,0,Why do the timestamps on x-axis start from -100? Why are they negative?,True
+@mockingbird3809,2019-10-30T14:58:04Z,1,"Please Make more Pytorch Videos, Sentdex's Pytorch series is the best in the entire Youtube.",True
+@arjunbemarkar7414,2019-10-26T22:34:47Z,0,do a video on the plant20million trees thing!,True
+@marciobremer,2019-10-25T00:38:38Z,0,"@sentdex !  please I saw a long time ago a video than you explain how to contro the gta v screen with python, today I have a question, I need to create a program and this program listen the current screen and do 3 clicks in a determinated area pre selected. Could you help me with this?",True
+@benjaminhofmann7665,2019-10-24T22:27:24Z,0,"Very good Video love your content! Btw with %matplotlib qt you are going to get the same graphs rendered in qt as you get from regular scripts. Also, there is %matplotlib nbagg which would enable to draw the graphs while training below the cell",True
+@esysss,2019-10-24T22:15:03Z,0,The whole data is 100 mb but why it take more than 1 gb in GPU Ram ?,True
+@esysss,2019-10-24T22:13:14Z,2,Very very good Can't wait to see your next video,True
+@blackberrybbb,2019-10-24T19:43:59Z,0,hahahahaha the mug😂plz make new videos~~~~~~~,True
+@fuba44,2019-10-24T15:00:45Z,0,"Sentdex : ""simplify, simplify, simplify. But don't repeat your self.""",True
+@webaruhazberles,2019-10-23T16:55:43Z,0,"I need you (or anyone who is reading) to do us a favor, would you be kind and make a video for beginner programers about HOW, from WHERE we should choose the RIGHT quality content or resource to learn coding. There are out there so may websites and most of the times the videos are not worth to much they are very boring, confusing, skipping steps so one. Many thanks",True
+@jparseval3940,2019-10-23T02:34:01Z,1,You need to use optimizer.zero_grad() before doing the forward pass else pytorch won't reset gradients and accumulate them instead,True
+@beny_ax,2019-10-22T22:01:56Z,0,Hey sentdex/Snowden could you Provide a Tutorial in socketservers? Especially Python to mql5 or Java/c++ with zeromq,True
+@avrXperiments,2019-10-19T22:51:19Z,0,"if you are going to do a tutorial then do a tutorial, 1-5 videos pretty good put together, rest just random crapola, going to quick over lines in a hurried way, adding more knowledge gaps then clarifying. I get that you do it for a hobby and you are got getting paid for it (like a normal tutorial, you would find a website) but put some effort into it. Also ""Nobody knows what they’re doing, like truly nobody knows, because nobody understands how neural networks work (i.e. poking with a stick in the dark)""  - IS this REALLY the message you wanted to pass through these series ? really ?",True
+@zer0xxxx1337,2019-10-19T15:15:09Z,6,"I appreciate the videos, hoping you change your mind about covering RNNs :)  Btw, for getting a value out of a single-element Tensor, you could also use the .item() method",True
+@CyborgGaming99,2019-10-17T07:18:56Z,0,How many of those cool mugs do you actually have?,True
+@masternobody1896,2019-10-17T01:18:31Z,0,Gta 5 ai please,True
+@gagegolish9306,2019-10-17T00:47:25Z,1,Instead of casting to a float you can call loss.item() instead to get the value of the tensor.,True
+@chris-graham,2019-10-16T17:01:16Z,3,"Since your batch size is 100, tqdm outputs 0, 100, 200 etc which will always match with i % 50 == 0",True
+@tqv0601,2019-10-16T16:09:43Z,4,maybe i tutorial about GAN (Generative Adversarial Network) is amazing and kind of new stuff you told you want to do :D :D  Hopefully you'll do so haha,True
+@RabeezRiaz,2019-10-16T12:20:49Z,0,"At 10:02 where you're experimenting with the RNG functions in the notebook, you could've used jupyterlab docstring viewer. Place cursor inside the function call parentheses and press shift+tab. It opens a dialog box thing with the function docstring along with the function definition. Since most of the libraries auto-generate their docs using the docstrings, you can see the entire thing within jupyterlab like this (granted you know the name of the function already :P).",True
+@rameshraghavan6010,2019-10-16T04:43:59Z,3,Great series.  Learned a lot from it.  Thank you so much.,True
+@thomaswong5755,2019-10-16T02:20:18Z,31,"I highly recommend plotting on Jupyter notebooks using the magic ""%matplotlib notebook"", it makes your plot interactive. And probably a better way to store your training metrics would be create an empty pandas dataframe and append each row while it's running.",True
+@BiranchiNarayanNayak,2019-10-15T23:55:41Z,1,Love you bro... i love all your video tutorials...,True
+@madaragrothendieckottchiwa8648,2019-10-15T22:21:21Z,0,Nice,True
+@codeonion,2019-10-15T17:56:02Z,1,"Your videos should have ""Mortal Kombat"" background music playing all the time",True
+@user-fe4rt6ce9d,2019-10-15T17:04:02Z,13,"Actualy, you can interact with graphs by comand ""%matplotlib"". It will plot graph in standart matplotlib window",True
+@user-vn9dm6xf1c,2019-10-15T16:56:10Z,0,I love you,True
+@jeff4877,2019-10-15T16:14:56Z,4,"You could use np.random.shuffle(array) to shuffle your X,y...to shuffle.",True
+@Indemere,2019-10-15T15:38:06Z,0,Nice work! Keep it up! Are you going to cover mutli-GPU models? Like how you can assign batches to different GPUs or how to run a big model across multiple GPUs in pytorch?,True
+@keithlaskay2357,2019-10-15T15:37:31Z,0,"Sentdex, have a look at the pytorch-lighting wrapper, it takes away a bunch of the boilerplate code for training models while still allowing for flexibility:  https://github.com/williamFalcon/pytorch-lightning",True
+@iguessiamsometimes4911,2019-10-15T15:28:04Z,0,Why did you stop making GTA videos? those detection algorithms and all are inspiring no?,True
+@techmatrix2103,2019-10-15T15:24:07Z,1,Can you make a video creating generative adverserial network from scratch?,True
+@devgupta9469,2019-10-15T14:42:21Z,2,Hi I have been following this amazing series. And I want to know where should I learn the mathematics behind the machine learning and deep learning algorithms? I prefer videos and blogs mostly,True
+@mangaart3366,2019-10-15T14:40:02Z,12,"I'm a simple man, I see sentdex I press like!",True
+@TonyM0ntana77,2019-10-15T14:37:25Z,0,Great,True
+@benjaminbianchi1804,2019-10-12T18:59:11Z,2,Great serie ! Ty so much!,True
+@Stinosko,2019-10-12T12:03:57Z,0,Hello 🤠,True

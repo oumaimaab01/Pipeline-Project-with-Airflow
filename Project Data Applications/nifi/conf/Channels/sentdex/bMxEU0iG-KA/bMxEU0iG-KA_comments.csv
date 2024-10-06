@@ -1,0 +1,29 @@
+author,updated_at,like_count,text,public
+@ManishKumar-ip8md,2021-11-25T11:54:27Z,0,"t=[1,2,3,4,566,7,88,9] r=[4,5,6,7,8,9] xyz=zip(t,r) print(dict(xyz)) print(list(xyz)) Output is  {1: 4, 2: 5, 3: 6, 4: 7, 566: 8, 7: 9} [] why is it giving the empty list as output?",True
+@codingwithmark2731,2020-08-11T02:05:55Z,0,you know you a geek when you wear a python jacket lol,True
+@hany-tawfik,2020-06-05T19:57:56Z,0,Very nice,True
+@blazetechnogeeks600,2020-06-05T09:52:40Z,0,"first_name = input('Enter First name: ') last_name = input('Enter Last name: ') middle_name = input('Enter Middle name: ')  for a, b, c in zip(first_name, middle_name, last_name):     print(a, b, c)   In this case it prints only the first letter of the input not the entire zip. need help",True
+@revdamage9430,2019-08-16T14:57:34Z,0,@sentdex how about different step ?,True
+@pradyumg,2018-12-27T05:42:46Z,12,Update late 2018: This bug for stored temp variable value in list compression has been resolved its been working now ....,True
+@MistaT44,2018-10-29T08:20:08Z,0,I didnt know if I would use this until today when I had to write values from different lists as a row in csv. Neat tutorial!,True
+@elabeddhahbi3301,2018-04-14T17:32:13Z,0,this is sparta,True
+@zes7215,2018-03-11T15:42:33Z,0,"wr, no temptx by that, the cx doesn't l grex,nonerx, can sx answex anyx by anyx no matter wx",True
+@AntonioAndrade,2017-11-10T02:52:36Z,9,"oh, I think you forgot to add c into your print function at minute 2:15 :-)",True
+@nikunjparmar4256,2017-10-22T15:26:07Z,0,"[print(x,y) for x,y in zip(x,y)] is not right way to print things , it'll generate unwanted list of 'None' value like ['None' , 'None' , 'None' , 'None' ] . zip(x,y) will generate comma separeted values of tuple, so you can not use [print(x,y) for x,y in zip(x,y)], it's better to use [print(*i) for i in zip(x,y)]. Still don't use above mathod for printing anything.",True
+@gillianbc,2017-10-05T06:25:15Z,0,Really good tutorial.  I came here as I'm doing a DataCamp python course (paid) that includes zip and your tutorial cleared everything up - for free!  Many thanks.,True
+@prasaddalavi9683,2017-05-22T05:16:59Z,1,"print zip(xyz)  Output: [(1, 7, 'a'), (2, 6, 'b'), (3, 2, 'c'), (4, 1, 'd')]  It is giving me list and not an object. Is this because Python 2.7.8",True
+@satter87henne,2017-03-04T09:43:35Z,4,WHAT IS GOING ON EVERYBODY :D :D :D So funny to hear that introduction every single time hahahaha,True
+@RomaN23917,2017-01-14T11:28:19Z,0,"Hi, thanks for great tutorial. I just wanna say there's one more cool thing, where we can use zip. For example if need to split up a list, it can be done so: list(zip(*[iter(s)]*n))  >>> s = [1, 2, 3, 5, 6, 7, 7, 9] >>> list(zip(*[iter(s)]*2)) [(1, 2), (3, 5), (6, 7), (7, 9)]",True
+@tear728,2016-12-17T18:10:08Z,1,"Wow, zip is actually a tool to transpose a matrix. That's super useful!",True
+@winecheese2185,2016-11-14T17:25:49Z,0,Could you show us the uses of global variable?,True
+@icedragon769,2016-11-14T00:27:57Z,6,The hell kinda keyboard layout are you using that you typo x as xm and y as yk :P,True
+@EtsuNDmA,2016-11-11T08:09:33Z,0,"It's should be noted that ""The iterator stops when the shortest input iterable is exhausted. With a single iterable argument, it returns an iterator of 1-tuples. With no arguments, it returns an empty iterator."" https://docs.python.org/3/library/functions.html#zip",True
+@ezekielivory9182,2016-11-11T06:58:01Z,1,Do a tutorial on how to open zip files with python code. EVERYONE PLEASE UP COMMENT THIS,True
+@DivusMeta,2016-11-10T20:41:59Z,4,"You can print the zip tuples without temp parameters, e.g. print(*zip(x,y), sep='\n'). Should produce the same output...",True
+@kebakent,2016-11-10T20:25:17Z,1,"I usually just do list of my lists, and index them like mylist[5][6]. I don't really see the benefit of zip, from what you presented.",True
+@TheSldsnake,2016-11-10T17:41:51Z,0,Makes me happy when i see a new tutorial !! thanks,True
+@Kazaaak,2016-11-10T17:30:40Z,0,what does the 0x00001Ea72... whatever part of the object mean when you print it at 2:30? is it the memory location?,True
+@MorebitsUK,2016-11-10T17:20:18Z,0,"Hey Harrison, just wondering when you're going to show the 'yield' keyword :)",True
+@ElizaberthUndEugen,2016-11-10T15:49:36Z,2,gotchas like these make me hate python's guts. I mean... what the hell? Overwriting a variable from a higher scope with a lower scope local one??,True
+@gardnmi,2016-11-10T15:40:39Z,36,Never knew that Python would overwrite your variable if you used it as an iterator.  I could see how that would lead to a bad day of debugging.,True
+@Crider64152,2016-11-10T15:09:21Z,2,"Bounced on my boy's dick to this for hours.  Just curious, in what scenarios would you be using ZIP other than print? Like I love your tutorials and they are great for doing basic things like... wanting to print all the time... but like can you give a few examples of when you actually use the code to do something aside from print? Like, assume I'm completely ignorant, I'd only assume that intermediate python programming was about using different modules to print things different ways.  Not saying I don't love your vids, cuz I do, but some other examples would be NOOOICE.   George Bush did 9/11, the government is putting chemtrails in your cereal.",True

@@ -1,0 +1,47 @@
+author,updated_at,like_count,text,public
+@haz5248,2023-12-20T16:31:24Z,0,not wokring man,True
+@vibhashukla8221,2023-11-14T18:29:44Z,0,"In all these examples of dockers and containers for ML pipeline, I do not see any projects where the data set was also uploaded with the image, and consumed in the ML code, here also it is Pycaret inbuilt data set, would be very interested in seeing how data set are loaded as part of the package and then consumed, by the ML model.",True
+@TheWalkingNomads,2023-02-08T14:11:07Z,1,"Hello, I followed all the step and did it again, but i can't expose to the internet. it did show a external ip with commend kubectl get service. But its refuse to connect from internet. i did check firewall and there is still a work.",True
+@ivavrtaric,2023-01-21T23:46:42Z,0,"ResponseError: code=403, message=Insufficient regional quota to satisfy request: resource ""SSD_TOTAL_GB""  -- how to fix this?",True
+@RahulGupta-to4ng,2022-12-16T17:50:40Z,0,Pod creation does not work on both local and GCP cloudshell also....I tried like10 times....there seems to be an unresolvable issue in pod creation (CrashLoopBackOff),True
+@sachinkun21,2022-02-02T09:10:06Z,0,Is a cluster of node size 1 equivalent to hosting the app on a single vm?,True
+@BalaguruGupta,2021-09-30T11:34:29Z,0,Amazing explanation Krish. You made it simple and easy.thank u,True
+@aishahassan6925,2021-08-28T07:26:03Z,1,Krish Sir it is my humble request to make video on how to deploy docker on Amazon sagemaker instance notebook.And (customized ML model)which is inside docker after deployment on aws sagemeker instance how to retrain it and test on news testing dataset. Please if possible for you kindly make this video i will be really grateful to you .Thanks and regards,True
+@krishj8011,2021-08-11T14:51:43Z,2,There are so many stuff to learn from your videos and all content is well organized. thanks,True
+@louerleseigneur4532,2021-07-27T21:41:15Z,0,Thanks Krish,True
+@csoham,2021-07-08T08:04:44Z,0,Thanks for the step by step process. After deployment and exposure of the api the url is not working. curl command returning.. connection refused. any body knows a solution to this,True
+@denisdenis1730,2021-06-25T23:19:57Z,6,"Hi! great video! I have almost done all the steps, but finally I am unable to check the result  AME            TYPE           CLUSTER-IP      EXTERNAL-IP     PORT(S)        AGE insurance-app   LoadBalancer   10.35.253.169   34.121.225.58   80:30577/TCP   19m   but web page is not availabe. Hovewer, ping from local cmd worked fine. What is thr reason?  Ping statistics for 34.121.225.58:     Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),",True
+@ratulghosh8174,2021-05-31T09:02:21Z,0,Thank you for this tutorial!,True
+@rakeshrohanpasupunuri6630,2021-05-20T09:35:33Z,0,Sir can we deploy this code in heroku is it able to deal with docker,True
+@sagarmadutha2297,2021-05-15T20:08:01Z,0,"Krish sir, Please make video on kubeflow",True
+@consistentthoughts826,2021-04-12T23:20:40Z,0,This is very easy in gcp  In aws it is little complex,True
+@James-qw8yh,2021-04-07T18:16:16Z,0,awesome!!,True
+@Projyots,2021-02-19T22:58:50Z,0,Delete the Kubernetes cluster to stop the gcloud instance because kubernetes will restart the instance if only gcloud is stopped.,True
+@ArunKumar-sg6jf,2021-02-19T14:24:23Z,0,Make video for full stack web development,True
+@sreenathgupta6767,2021-02-17T02:59:14Z,2,"Nice video. Instead of GCP, can you please make video with implementation local system i.e normal windows machine with kubernetes and docker images as continuation of the previous tutorial.",True
+@yogeshsharma4308,2021-01-27T11:51:23Z,0,"Krish, wow. What a useful info Yaar. You are doing such a great service making these buzzing technologies so simple",True
+@techadda6570,2021-01-24T14:41:09Z,0,Thanks for great tutorial,True
+@ig2947,2021-01-12T06:13:01Z,0,Thanks a lot Sir.. can you pls do a video on kubeflow ?,True
+@vikramnimma,2021-01-06T12:05:15Z,0,*Major problem with GCP is it wont allow indian debit cards.*,True
+@reachDeepNeuron,2020-12-03T17:01:52Z,0,awesome job buddy !  i was able to successfully deploy it,True
+@pyclassy,2020-11-27T18:58:51Z,0,hi Krish can you upload video to deploy pipeline in kubeflow?,True
+@lokeshkaturi4040,2020-11-18T12:50:14Z,0,PROJECT-ID-Kubernetes-296012': not a valid identifier. I'm getting this error. Can anyone help me out of this?,True
+@abhishek_sengupta,2020-09-27T20:54:08Z,0,Thanks a lot!!,True
+@ritushreechakraborty2692,2020-09-21T21:32:28Z,1,Sir please upload a Kubernetes tutorial. Having problem in understanding few concepts.,True
+@ashishbhatnagar8682,2020-08-24T07:31:22Z,0,Thank you so much for this informative video,True
+@harshyadav1190,2020-07-19T18:49:29Z,0,whe i push my docker image  docker push gcr.io/${PROJECT_ID}/insurance-app:v1  it give me error  unknown: Project 'project:pycaret-kubernetes-demo' not found or deleted.  plz help,True
+@sureindia,2020-06-30T07:03:46Z,0,"Hi Krish : I am seeing the below error when trying to push. It keeps retrying for a few minutes and then says not able to find the project. But docker images show it is there :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              @cloudshell:~/pycaret-deployment-google$ docker push gcr.io/${PROJECT_ID}/insurance-app:v1 c7def22f7999: Retrying in 1 second 930b18f09a43: Retrying in 1 second 2c98a188fb2a: Retrying in 1 second 7e064c4d0f8f: Retrying in 1 second 69c43af00d63: Retrying in 1 second 69c43af00d63: Retrying in 7 seconds f8d89ba0399b: Waiting 2be8fac4a55f: Waiting dabd0b48256e: Waiting 98d95bdfa037: Waiting da9418a2e1b1: Waiting 2e5b4ca91984: Waiting 527ade4639e0: Waiting c2c789d2d3c5: Waiting unknown: Project 'project:pycaret-kubernetes-demo' not found or deleted.",True
+@gokulpisharody3155,2020-06-25T02:13:18Z,0,Is this video is continuation of docker playlist..?,True
+@akhileshtrivedi7120,2020-06-25T01:46:51Z,0,Thanks for making this video...,True
+@raghavsharma6430,2020-06-24T03:23:41Z,0,thank u so much sir for sharing this project details and making us understand it.,True
+@deghanandreddy7168,2020-06-23T17:56:08Z,6,Scaling the application using kuberenetes is missing here pls implement that part also by setting pods,True
+@sumitjoshi9972,2020-06-23T17:26:03Z,1,Thanks sir love you,True
+@anveshreddy7292,2020-06-23T17:03:17Z,2,Excellent sir 👍👍,True
+@NhatNguyen-bq6jj,2020-06-23T16:21:59Z,7,You move to another level. Congrat!,True
+@harshbathia4136,2020-06-23T15:50:18Z,1,"Thank you Krish, for this amazing tutorial",True
+@vikasrana1732,2020-06-23T15:19:08Z,2,"Great video, I would like to add that we can also deploy it in kubernetes using yaml file for both deployment and exposing the service. Also It would be great if you make a video on to create a automated ml pipeline workflow which involves kubeflow(In kubernetes) and Apache Airflow so that the ml model can be recreated after every time span . Thanks Krish :)",True
+@sachinborgave8094,2020-06-23T15:17:45Z,1,Please make a video on Bert...,True
+@sachinborgave8094,2020-06-23T15:17:27Z,1,Thank you so much Krish...,True
+@priyabratamohanty3472,2020-06-23T14:18:36Z,3,That's what i was waiting for,True
+@darkhorse9694,2020-06-23T14:11:05Z,5,Finally.... Thank you so much Krish!,True
+@shashwatjain8036,2020-06-23T14:10:42Z,3,Great title....should be a great video...watching now😁😍,True

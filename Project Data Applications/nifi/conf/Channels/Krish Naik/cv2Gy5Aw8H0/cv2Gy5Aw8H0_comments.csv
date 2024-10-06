@@ -1,0 +1,17 @@
+author,updated_at,like_count,text,public
+@amitbisht5445,2021-01-18T08:20:07Z,0,"Hi, I am getting the error; ""Operation returned an invalid status code 'Gone' "" in luisApp.py over written function. Can someone help me with this issue, not able to figure it out. Thanks.",True
+@priyagupta1936,2020-09-23T21:38:07Z,0,"For those getting POST500directline error, it is due to the syntax changes in pyOWM v3 (v2 is used in the video), so replace the code in weatherApp.py by this -     import pyowm from config.config_reader import ConfigReader  class WeatherInformation():     def __init__(self):         self.config_reader = ConfigReader()         self.configuration = self.config_reader.read_config()         self.owmapikey = self.configuration['WEATHER_API_KEY']         self.owm = pyowm.OWM(self.owmapikey)         self.mgr = self.owm.weather_manager()      def get_weather_info(self,city):         self.city=city         observation = self.mgr.weather_at_place(city)         w = observation.weather         latlon_res = observation.location         lat = str(latlon_res.lat)         lon = str(latlon_res.lon)          wind_res = w.wind()         wind_speed = str(wind_res['speed'])          humidity = str(w.humidity)          celsius_result = w.temperature('celsius')         temp_min_celsius = str(celsius_result.get('temp_min'))         temp_max_celsius = str(celsius_result.get('temp_max'))          fahrenheit_result = w.temperature('fahrenheit')         temp_min_fahrenheit = str(fahrenheit_result.get('temp_min'))         temp_max_fahrenheit = str(fahrenheit_result.get('temp_max'))         self.bot_says = ""Today the weather in "" + city +"" is :\n Maximum Temperature :""+temp_max_celsius+ "" Degree Celsius""+"".\n Minimum Temperature :""+temp_min_celsius+ "" Degree Celsius"" +"": \n"" + ""Humidity :"" + humidity + ""%""         return self.bot_says",True
+@priyagupta1936,2020-09-23T20:14:58Z,0,What github repo/documentation did you refer to write all that code ?,True
+@christycollins8287,2020-07-27T08:03:01Z,0,Can we use Spyder instead of Pycharm for this?,True
+@shouvikmitra9461,2020-07-15T11:12:16Z,0,getting 400 code in emulator. pls advise,True
+@mendalin123999,2020-05-17T20:13:25Z,0,"nice, it is working now :)",True
+@amruthpradeep7,2020-05-09T16:33:13Z,0,"I am getting error: "" ModuleNotFoundError: No module named 'luis.luisApp'; 'luis' is not a package "" when I import this package: from luis.luisApp import LuisConnect. Please help",True
+@srinud3020,2020-05-08T06:39:42Z,0,if anyone resolved these error.please help me,True
+@srinud3020,2020-05-08T06:38:44Z,0,POST500directline/conversations/<conversationId>/activities   error in bot emulator. Please help me,True
+@HM-Analytics,2020-05-08T06:23:27Z,0,POST500directline/conversations/<conversationId>/activities   error in bot emulator. Please help me,True
+@nadellagayathri,2020-04-29T16:43:14Z,0,"Sir, I am getting POST500directline/conversations/<conversationId>/activities error in bot emulator. Please help me",True
+@VideoGraphy,2020-04-23T12:41:38Z,0,Sir iam not using pycharm iam using jupyter notebook  Please give details to that envs,True
+@goldymazumdar9741,2020-04-17T14:42:40Z,0,how to get bot URL ??,True
+@bhavyaparikh6933,2020-04-13T08:39:02Z,0,POST 400 in bot emulator,True
+@nehasaroha2505,2020-04-10T10:22:13Z,0,Hi where can I find all this python code?,True
+@abhijeetbatra8451,2020-04-01T20:01:46Z,0,I tried doing it but its showing some error as KeyError: 'LUIS_APP_ID' .Which one is endpoint key and which one is application key can u specify?,True

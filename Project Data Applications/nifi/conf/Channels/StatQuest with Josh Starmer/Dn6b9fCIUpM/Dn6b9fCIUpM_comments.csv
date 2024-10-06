@@ -1,0 +1,654 @@
+author,updated_at,like_count,text,public
+@statquest,2020-02-10T18:40:27Z,126,"Correction: 2:39 I said likelihood=0.03 for mu=30, but mu=28 is in the equation.  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@mardavpatel1951,2024-05-28T09:45:37Z,1,TRIPPLE BAAMM ❤❤,True
+@zongyili4629,2024-05-28T07:32:52Z,0,"Thank you for the informative video. I have a question about estimating parameters in statistical analysis. Could you explain the difference between: Using Maximum Likelihood Estimation (MLE) to estimate the parameters of a normal distribution, where the variance formula includes n in the denominator, and Calculating an unbiased estimate of the population variance from a sample, where n−1 is used in the denominator? Both methods use measurements to estimate the parameters of the population from which the measurements are derived, yet they approach the calculation of variance differently. This can be confusing. Could you clarify this?",True
+@birdost8448,2024-05-27T19:54:27Z,1,You are the best!!!!!❤🎉😊,True
+@peperomero4603,2024-05-19T14:38:57Z,1,bravo!,True
+@sebinvincent4009,2024-05-04T17:19:56Z,1,"People from Mtech IIIT kottayam; Leave ""Bam"" like here.",True
+@MohamedBadry-pc4ib,2024-04-23T01:04:35Z,1,Love ur way man  BAMMMMMMM!,True
+@Iamfafafel,2024-04-20T20:11:19Z,0,i still dont see why taking the equation for critical points give you maximum and not e.g. minima,True
+@Iamfafafel,2024-04-20T20:03:15Z,0,"log, or more generally any strictly mono increasing function g preserves (and introduces no new) critical points and extrema.   let g' > 0, then        0 = (g∘f(x))'= g'(f(x)) f'(x)   therefore, the cp of g∘f occurs at the cp of f. for extrema, x is a max (local or global, just take appropriate y), then        f(x) ≥ f(y) → g∘f(x) ≥ g∘f(y)  since this is over the same neighborhood y, preservation of extrema follows.  amazing how such a basic property gets overlooked",True
+@Iamfafafel,2024-04-20T19:33:25Z,0,"if you have 1 data point x, and center your mean at μ = x, then the likelihood reduces to       L(σ | μ = x) = 1/√(2π)σ,  and taking a derivative to get the critical point for maximization, we get            0 = L' = -1/√(2π) σ^2.  This eqn can never be satisfied for any σ, so we can't try to maximize σ with one data point, if we center the mean at that point",True
+@BLooDy21HD,2024-04-17T09:06:47Z,1,Watching videos like that make me wonder why my math teachers were so bad at explaining even the most basic stuff like (a+b)^2 and went on by saying: it works because i say so.  Not surprised so many people suck at math and most of them have to rely on online videos to explain stuff. Thank you!,True
+@Wolfey281,2024-03-24T12:06:50Z,0,"what if I want to use MLE to help define values for the bass function, where I have some forecasted values but not all.  So I need to calculate mu and sigma when I only have lower values in my distribution",True
+@buonphim7872,2024-03-16T09:51:59Z,0,"It’s cool and all. But how do we come from finding out the mean and SD like the tripple bam result, to compile a linear regression using MLE?",True
+@buildlackey,2024-03-15T18:41:06Z,1,quadruple bam.   very nice !,True
+@niccolobaronio7555,2024-03-14T10:15:34Z,1,Thank you so much for this video! I'm preparing my Statistic Exam and this is gold Greetings from Italy,True
+@s5079282,2024-03-05T05:52:07Z,1,The Chain Rule!!! 😎,True
+@AbdullahElsobky-bc5ft,2024-03-04T16:28:55Z,1,watching this before my AI midterm in 7hr. you are so goated,True
+@prateekyadav9811,2024-02-27T11:59:57Z,0,How can this be used to fit the curve? I ask because I want to fit power law to my data and I  keep coming across MLE as a viable method. But I have no clue how it's done and I wanna know !,True
+@prateekyadav9811,2024-02-27T11:48:45Z,0,Wait! I am confused. We did all that to obtain the equations of mean and std dev? I am so befuddled by the ending.,True
+@goldenhawk1925,2024-02-23T01:15:36Z,2,This is one of the most beautiful videos I have ever seen on youtube. Thank you for what you do,True
+@FootballRecaped,2024-02-12T21:17:33Z,1,"I should have paid £12750 for this video rather than for my university! I have been reading slides and watching the lecture recordings from my university for over a week, but I couldn't understand. I understood everything clearly in this 20-minute video in one go. RESPECT!!!",True
+@because2022,2024-02-12T06:45:45Z,1,I can clearly see your dedicated efforts to create such amazing content which is explained in depth. Hats off to your commitment. Thank you so much.😀,True
+@samiotmani9092,2024-02-07T07:10:50Z,1,Est-ce qu’on doit mettre un merci sous chaque vidéo ? …. Quintuple Bam !!!!!     Avoues que tu l’avais pas celle là 🙏🏻,True
+@katielui131,2024-01-26T16:26:26Z,1,Wow i can’t believe I understood 😮,True
+@ThanhNguyen-zm8hh,2024-01-11T08:07:13Z,1,I rarely comment but this is GOLD 🎉,True
+@maxipaxi1892,2024-01-10T22:45:21Z,1,What an incredible way to show how the formulas for the mean and standard deviation of a normal distribution are found! Videos like these make me enamored by statistics all over again,True
+@luisviegas1453,2023-12-28T04:41:31Z,1,Very good! Congrats for the videos,True
+@user-kz9mw8nu3e,2023-12-22T19:58:11Z,0,"Hey! In another video, you explained that the denominator for standard deviation should be n-1 because n underestimates the true variance, right? So shouldn't the maximum likelihood of standard deviation be one which doesn't underestimate the true variance? So why are we getting n here instead of n-1?",True
+@marcusweber5370,2023-12-15T17:33:50Z,0,At 13:30 when calculating the derivative with respect to mu we apply the chain rule. The numertor (x1 - u)2 turns into 2(32-u). How does this happen?        Where does the 32 come from? Is there a name for this step in the calculation?,True
+@hex9219,2023-12-13T16:16:29Z,1,not all heroes wear a cap,True
+@apexabhi9389,2023-12-12T13:37:49Z,1,how could he make everything this easy!!!!!,True
+@khushalkumar31,2023-12-11T19:54:11Z,0,What would be the time complexity of GMM that uses expectation Maximization?,True
+@khushalkumar31,2023-12-11T14:43:06Z,1,The Chain Rule!!!,True
+@ismailelabbassi7150,2023-11-15T20:32:12Z,1,really nice nice loooooooooooooooove it,True
+@ismailelabbassi7150,2023-11-15T20:30:56Z,1,Thank you so much this is therapy i understood a lot of things thank u thank u keep going,True
+@harshadshinde4546,2023-11-10T05:52:26Z,0,9:28 is it that taking the log also avoids the underflow problem,True
+@liviumircea6905,2023-11-05T18:12:25Z,1,This is next level,True
+@buihung3704,2023-10-31T14:53:29Z,1,"Holy hellllll, now I know where do those formula comes from. It's funny when kids are taught to use the formula that have been found by geniuses in the past but don't know how they are found",True
+@Ray81194_mw,2023-10-24T20:48:21Z,1,"Now that I have the solution for the normal and Bernoulli distribution proof, off I go to understand the poison, chi-square and t distribution if they have any 😭😭😭",True
+@kiratpreetdhillon,2023-10-04T18:03:33Z,0,Great video! Why (n-1) wasn't the denominator for best likelihood estimation for Sd?,True
+@eriboyer2229,2023-09-13T06:41:09Z,4,Thank you Josh for this amazing StatQuest. It is people like you who keep learning to be very fascinating.,True
+@antonisfritzelas6567,2023-09-06T15:38:13Z,1,Thanks,True
+@waisyousofi9139,2023-08-26T21:48:39Z,1,What a great love you have with what u have been doing ! Thanks alot.,True
+@Stephanfreund,2023-08-01T21:09:06Z,1,The chaaaaaaaaaaaaaaaain rule,True
+@-hcc,2023-07-26T07:01:14Z,1,Thanks!,True
+@josy4767,2023-07-19T19:31:25Z,1,"I really felt like you were telling me a bedtime story here, and rewinding was like asking you to go over the good bits. The ending of and the mean, equals the mean, and the standard deviation equals the standard deviation, was a pretty good ending.",True
+@yarenlerler67,2023-07-01T08:05:29Z,1,where 32 came from?? 🤔,True
+@yarenlerler67,2023-07-01T08:01:35Z,1,BAM!,True
+@yarenlerler67,2023-07-01T07:58:23Z,1,"I have an exam on Monday , and I am pretty sure MLE will be asked. I will follow your steps which are very clear! Thanks thanks thanks. :) <3",True
+@astradrian,2023-06-22T18:20:29Z,1,Most satisfying video ever!,True
+@user-pj5xc3ty4d,2023-06-20T11:30:09Z,1,BAM！,True
+@BetwenTheSheets,2023-06-09T01:12:24Z,1,Thank you so much! You put the effort in to visualise each step as good as possible  Great to follow along and understand in detail,True
+@paddygthatsme,2023-05-25T13:40:16Z,1,That was excellent. p.s. your book is also awesome!,True
+@familywu3869,2023-05-22T23:18:13Z,1,Excellent tutorial! Thank you so much for sharing your wisdom with all!,True
+@jatinderkaur2030,2023-05-11T08:55:00Z,1,This video deserves  a big thanks,True
+@serkanmacit377,2023-04-28T15:41:06Z,1,"university students see this kind of topics as a rocket science and lose their attentions to the ML. That is very nice and inspiring explanation, thank you.",True
+@carlosdanielgt,2023-04-20T00:12:36Z,1,Hardly comment on Youtube videos but this one really deserves a big thank you. This material is pure gold! You made me understand concept's as never before.,True
+@kvtys,2023-04-14T03:59:09Z,1,TRIPLE BAMM !!!!,True
+@bnuyZ,2023-04-11T02:40:22Z,1,"tldr: when guessing the population mean from sample, your best bet your sample mean; and when guessing population variance, it's most likely to be the sum square of all residuals divided sample size. (proven by maff)",True
+@victoraguiar5021,2023-04-10T20:21:22Z,1,i love you,True
+@shamsuzzoha-uz3tg,2023-04-04T17:39:58Z,1,excellent sir,True
+@leedongsik2,2023-03-28T02:24:50Z,0,"I understand the optimal value for mu. But, I cannot solve the exercise to find the optimal value for sigma.  How can I plot the likelihood curve of values for sigma in the case of  L(sigma | x=32, mu=32)?",True
+@beniaminradomir9798,2023-03-15T08:22:23Z,1,"Holy this videos must take lots of effort, but it is so worth it.  If conveying a subject in a clear manner is the main goal, this dude is a 10/10",True
+@min_ara7216,2023-03-07T15:13:04Z,1,"this was AMAZING! i am currently taking machine learning course, and the teacher gave us these formulas to memorize without any derivations. i was looking for something exactly like this :) thank you!",True
+@dp622,2023-03-06T01:39:44Z,1,So boring explanation and weird style of teaching,True
+@elperrocheems867,2023-02-11T01:55:06Z,0,"Maybe  is a silly question, but, Why are the Likehoods multiplicated? Why not added? They are in some way treated like probabilities?",True
+@Sophia-mb4ww,2023-02-03T19:19:05Z,1,Thank you so much!,True
+@javiergonzalezarmas8250,2023-01-31T10:54:35Z,1,This is just beautiful,True
+@dsagman,2023-01-22T03:03:11Z,2,That was amazing. I did not see the surprise twist ending if mean and standard deviation coming till you got there. I was a math major and always avoided stats because my classmates said the theorem proofs were so hard. Your videos illuminate those dark corners.,True
+@bin4ry_d3struct0r,2023-01-19T20:47:47Z,5,Watching a step-by-step differentiation of the Gaussian PDF has been on my to-do list for a long time. Thank you so much for this!,True
+@mironpetrikpopovic1621,2023-01-08T13:10:21Z,1,thank youuuuuuu,True
+@pedrocolangelo5844,2023-01-03T03:38:34Z,1,Josh Starmer is the super hero that every field of knowledge should have,True
+@greenneko,2022-12-29T23:54:23Z,1,"This is SOOO useful, thank you so much!!!",True
+@lizzzylavender,2022-12-14T19:33:28Z,8,"Ahhhhhhh I’m so mad! I found this channel while studying for my stats FINAL and it’s so good. My life would have been so much easier this semester if I had found this earlier!  You explain things so intuitively so I always understand what is really happening instead of just watching numbers move around completely confused. You’re doing a great thing man, wish I could have been able to use your channel more haha.",True
+@david_eom,2022-11-27T05:44:11Z,1,"ur a fking legend man, what an explanation  does it 10x better than my prof haiz",True
+@kavourakos,2022-11-27T00:36:35Z,2,what my teacher couldn't teach me in 2 months I learned here in 20 mins,True
+@HieuNguyen-so3et,2022-10-22T23:42:47Z,1,"Hands down thank you! This video with its visual explanation probably just saves me from enormous self-doubt and dropping out of my degree. I wish profs would put in the time to give you such illustration to help you understand, rather than pages of words and functions that confuse you even further.",True
+@undine8750,2022-10-19T23:47:29Z,3,"I can't believe we just did all that and ended with like ""2 = 2.""",True
+@yunyihuang6653,2022-10-16T20:07:30Z,1,you saved my life. My professor spend 3* 2 hour lecture on this and she does not teach shit,True
+@josefsieber8377,2022-10-03T03:31:26Z,1,I had been wishing for a broken down video of the process of logging the likelihood function for a while and I just found this. Thank you! This is awesome and one of the most helpful things ive seen all year,True
+@raa__va4814,2022-09-28T23:50:58Z,1,this is by far the cleanest explanation on this topic EVER,True
+@rahul-qo3fi,2022-09-23T04:45:12Z,1,❤❤❤,True
+@yingc1233,2022-09-09T13:10:46Z,1,"LOL I really love the content of this video, especially the jokes!!",True
+@rmiliming,2022-09-05T08:50:43Z,1,Tks a lot for your video! Helped me greatly in my self learning journey in ML and stats !,True
+@exxzxxe,2022-09-02T18:41:33Z,1,"Josh's book is great, by the way.",True
+@exxzxxe,2022-09-02T18:40:27Z,1,A Herculean task performed extraordinarily well!,True
+@stallman3738,2022-08-21T11:01:13Z,1,"After reading several pages and books, this is the first time I really understand that this is. Thanks alot",True
+@grasielebezerra5669,2022-08-10T15:35:58Z,1,"I liked that you explained it for idiots, thank you so much, that was exactly what I needed.",True
+@70amazed,2022-08-05T20:09:22Z,0,7:08 I don't understand the logic behind this step. It is not true for probabilities that P(A| B and C)  = P(A|B) * P(A|C) even if B and C are independent events. Is it true for likelihoods?,True
+@ilovetensor,2022-08-04T06:16:58Z,1,Your songs are just BAAAMMM ❗,True
+@joshuagerald5434,2022-07-23T08:35:53Z,0,Do you store your slides anywhere or will you be able to provide your slides for each video?,True
+@debanjandas7738,2022-07-19T13:23:38Z,0,"Thanks a lot for this video. I have a confusion here. We are saying that the y value of the distribution for input x is p(x|mu, sigma) and is called likelihood of the observation x. Again, we are saying the likelihood of a distribution given an observation x is L(mu, sigma | x). Also we can see that P(x | mu, sigma) and L(mu, sigma | x) have exactly the same formula. So, are we saying that likelihood of an observation given a distribution is the same as the likelihood of the distribution given the observation? It would be great if you can help me understand this.",True
+@karannchew2534,2022-07-15T19:32:10Z,0,"Am I right that:. 1) with the same values of x, µ and σ, P( x | µ,σ ) and L( µ,σ | x ) give a same number? 2) Therefore, both Probability and Likelihood present the ""chance"" of something happens, but from different perspective? And, both range from 0 to 1?",True
+@CatherinePryde,2022-07-12T08:49:37Z,5,"Truth is even after years of working extensively with data, it is not only always informative to go back studying the most basic concepts possible in Statistics but also a real relaxing moments to listen to you teaching. It takes my head off overcomplicated matters, cleanses my reasoning and lets me walk out of this 20-minutes coffee break feeling more refreshed than any caffeine intake. Thank you !",True
+@daeyoungkim4971,2022-07-01T11:13:31Z,1,This is truly a fantastic explanation of maximum likelihood for the normal distribution. Great job!,True
+@DrN007,2022-06-17T18:56:38Z,0,But why is the likelihood function itself a gaussian?!,True
+@jahnavikumar90,2022-06-11T07:47:55Z,1,Amazing video.,True
+@anuraggarg1209,2022-06-08T19:11:22Z,2,Thanks for saving me man! I will promote your channel as much as I can in my university,True
+@kaczucha3able,2022-06-03T18:41:11Z,1,StatQuest thank you for your existence,True
+@michaelliu6323,2022-05-24T03:17:19Z,1,"Great Tutorial, thank you so much!!!",True
+@Nicolas-je2hc,2022-05-22T10:08:03Z,2,THE CHAIN RULE !!!,True
+@ganpangyen4444,2022-05-17T14:11:10Z,1,the explanation is soooooo noiiiiiiceeeeeeeee,True
+@vadimkorontsevich1066,2022-05-12T17:18:05Z,1,"i cant guess, why do you have just 3% of likes for that  breaking video.  I could get that, what my profs couldnt explain me whole semester long.",True
+@saqibtariq3095,2022-05-08T22:22:55Z,1,Is this guy real? His explanations are the best! You are a gem. Keep doing it and I’ll try to support your channel :),True
+@stanfordjb,2022-05-08T07:49:17Z,1,This entire tutorial was a double bam.,True
+@user-rg6zk4ly1e,2022-05-05T17:57:41Z,1,谢谢！,True
+@byronmcmullen5599,2022-05-04T22:14:43Z,1,Thank calculus that was easy to follow.,True
+@englishwitharash,2022-04-24T05:13:01Z,1,You're the best !,True
+@osielvivar8804,2022-04-14T05:00:46Z,1,Man these intros make me feel so much better about having to do this lol.,True
+@leosutcliffe8547,2022-04-07T23:59:51Z,1,"I'm 2nd year Engineer stumbling through this stuff all semester, the lectures my professors have recorded just make me feel like a total idiot and really fuel the imposter syndrome... So thankyou so much for explaining so well! It's not only teaching me the stuff but it's given me a bit of confidence back!",True
+@nzambabignoumba445,2022-04-07T09:23:34Z,1,"Josh Stamer, definitely you are the BEST!!!",True
+@Infinitesap,2022-04-06T22:52:22Z,1,Crazy well done ☺️,True
+@zoomrecordings8691,2022-04-04T14:37:00Z,1,What a BAM Video😂😂,True
+@chonccchoncc,2022-04-04T11:50:16Z,1,You the GOAT,True
+@maheklaul3886,2022-04-02T20:52:34Z,0,"i wish there was one of these videos for a bimodal distribution, my exam is due on monday and i am suffering",True
+@injeonglee8030,2022-03-24T17:13:54Z,1,I really love it,True
+@hatelovebowel4571,2022-03-24T14:54:31Z,0,"Professor, you're a math genius, but singing is definitely not your strong suit. So please stop with the cringy singing in every video😫p.s. love your videos(except for the singing part).",True
+@mahdiranjbar3569,2022-03-24T11:34:49Z,1,Beautiful!,True
+@Acha413,2022-03-19T07:05:42Z,1,"Good Explanation,.. way easy to follow.",True
+@Acha413,2022-03-19T07:05:11Z,1,i love that Double BAM thing.!! lol,True
+@Exceltech810,2022-03-14T18:31:36Z,1,"It's very helpful. Please come out more videos regarding to estimator, different types of distribution and probability for function. Thank you!",True
+@arshadkazi4559,2022-03-13T13:14:18Z,1,Absolutely Bamm!!!,True
+@Erays_Adventures,2022-03-06T22:03:09Z,1,we prayed and God sent us Josh Starmer! :) Thank you very much sir!,True
+@maurobruno6954,2022-02-26T11:37:44Z,1,"Dear Josh, your videos are absolutely awesome! TRIPLE BAM :)",True
+@madcat2709,2022-02-21T16:12:38Z,1,This stuff is so good!,True
+@georgedouglas7567,2022-02-19T08:52:49Z,1,Excellent video!!,True
+@ibrahimrustemov5185,2022-02-18T10:48:30Z,1,Great explanation,True
+@coder2j,2022-02-14T21:45:38Z,1,Greate content! Love the way how you explain math and also make it very entertaining. BAM!!,True
+@ericahays4281,2022-02-10T20:49:51Z,1,BAMM!!,True
+@aylabiu17,2022-02-07T18:45:43Z,1,Hahaha wait for the triple bamm,True
+@kylepham549,2022-02-07T18:21:43Z,1,"Thank you so much, my class lecture was complete gibberish to me until I watched this.",True
+@bobbywu7701,2022-02-07T06:04:36Z,3,This explained what I tried to learn in our uni course for 3 weeks in just 20 minutes. If the teacher just showed the class this video there wouldn't be any confusion anymore,True
+@Gavinbcarter,2022-02-03T09:57:48Z,1,Amazing video,True
+@sravaniwayangankar4072,2022-02-03T03:57:46Z,1,nice1 bro,True
+@coolblue5929,2022-01-29T06:37:43Z,1,"Thank you for deriving what is intuitively “obvious”. At least for a distribution like this. It really helps. When I started to look at MLE, I saw all of these other videos talking about theta this and pi that and I was like: why not just pick the solution with parameters of the distribution set to the calculated values from the sample data?? Now, thanks to you I can see how to generalise MLE, and how to relate it to the intuitive approach. This is the missing link.",True
+@rodrigomaximo1034,2022-01-25T23:43:29Z,1,AMAZING video. Thank you so much!,True
+@mrcoet,2022-01-23T05:34:35Z,0,at 7:06 why we use multiplication instead of adding? and what is the multiplication even means in this case? Thank you!,True
+@jjj78ean,2022-01-18T22:02:46Z,1,"Josh, thanks for amazing explanation(as always!)",True
+@mlpython1089,2022-01-15T20:01:01Z,0,Мышек жалко.,True
+@teric.g.a5656,2022-01-09T14:33:02Z,1,"u r great sir, best explanation i have ever seen....................",True
+@Noobsaucer,2021-12-27T11:54:48Z,2,"Man, I really really hope from the bottom of my heart that you teach actual classes somewhere IRL too. You could have been the the difference between me failing out of university because of math and stat and finishing it with flying colors. Too bad I only found you now.",True
+@khawajaaffan5062,2021-12-27T02:23:48Z,1,Incredible video!,True
+@user-yg5hi6gz3r,2021-12-23T08:36:23Z,1,thank you so much,True
+@monoarul_islam_3,2021-12-19T10:13:59Z,1,This is the cooooooooooooooolest one by far. My love for josh is escalating exponentially.,True
+@ajaydhungana1921,2021-12-17T22:51:03Z,0,So while MLE comes into play while finding the variance components? i guess MLE finds best suited mean and sigma...then what is varince compoenents of randome effects in linear models??,True
+@DeepakYadav-ic2uv,2021-12-17T13:36:47Z,1,"BAM! Amazing teaching style, Man!",True
+@MyGaurav12,2021-12-15T13:12:37Z,1,This is the most intutive yet thorough explaination of MLE I have ever seen. Thank You so much Dr. Starmer.,True
+@PhuongNguyen-un5ho,2021-12-08T23:16:13Z,1,"I really appreciate your video, I was struggling up and down with that, next two day is my final and I'm grateful that I watched your video",True
+@mariarepson4007,2021-12-08T09:08:38Z,1,I love you,True
+@bigfriki,2021-12-07T10:35:22Z,1,I don't get it. Why do we even have to do all this? Isn't the probability density function BASED on the data? I.e. the mean and the variance (or standard deviation) are ALREADY GIVEN by the data itself!,True
+@danikmolly875,2021-12-07T10:08:17Z,1,Победила это видео за 4 просмотра!,True
+@mahdimantash313,2021-12-06T10:58:48Z,1,The whole vedio I was just waiting for that TRIPPLE BAM ... man what a genius way to present knowledge,True
+@chaitanyasingh1730,2021-12-04T16:46:17Z,0,Can anyone elaborate on the mathematical reason/proof behind why multiple data points are needed to find the MLE estimate for sigma (standard deviation)? Josh mentioned he'd leave it as an exercise for the viewer at around the 4:50 timestamp,True
+@xitan4194,2021-12-02T15:54:33Z,1,I almost cry out!! Thanks for saving me from thinking I'm a math idiot!!!,True
+@cmdeckermusic,2021-11-29T03:33:41Z,1,well that was cool,True
+@zombieboobuu9233,2021-11-27T23:51:24Z,2,Thank you so much for all the hard work you put into the video. Believe it or not! I first watched your video when I was in undergrad. Now I moved to US to do my master’s I’m still here!,True
+@p-niddy,2021-11-12T09:45:34Z,0,"Around 2:40, aren't we looking at L(x = 32 | µ = 28, ∑ = 2), rather than the other way around as it is written, L(µ = 28, ∑ = 2 | x = 32)? This may seem nit-picky, but I think it's an important distinction.",True
+@arowadilubis8203,2021-11-06T09:32:49Z,0,Hope you are going to make video series of Method of Moment and Generalized Method of Moment Sir.,True
+@shuxindong2790,2021-11-01T22:00:03Z,0,Hi! Is it possible for you to do some videos on cox proportional hazard model? especially on the partial likelihood. thanks!,True
+@bestbytest1974,2021-10-28T18:57:34Z,1,"In Greece, the letter μ is pronounced as the word 'me'",True
+@ashishpuri3571,2021-10-27T17:00:55Z,1,"Man, I'm a fan of your work. I'm glad I found your channel otherwise statistics would have been a pain in the ass. BAMM!",True
+@yashchudamanpatil7477,2021-10-26T12:32:19Z,2,man u earned my respect i almost got cleared all my doubts in this covid semester since cant ask doubts to prof lively,True
+@0xsunil,2021-10-25T11:05:32Z,1,Triple Bam!,True
+@lindispoelstra8283,2021-10-24T15:21:28Z,1,i don't wanna come off to strong but i love you,True
+@hurdurstudy295,2021-10-20T12:10:41Z,0,"I'm unsure, the reason we need more than 1 measurement to determine the best sigma is ....? in the case that there is only 1 measurement, shouldn't the sigma tend to 0 as that would maximise the likelihood. Is that the reason ? because if it is 0 then the likelihood if infinite ?",True
+@MrKingoverall,2021-10-16T15:06:14Z,2,Bra !!! I. LOVE. YOU,True
+@rajnish747,2021-10-15T10:14:46Z,1,Triple BAM!,True
+@Ankhelz,2021-10-14T13:29:57Z,1,"God, i'm still laughing at ""crazy times"" at 5:49. Maybe too much StatQuest for this week...",True
+@chrismott2681,2021-10-12T17:34:51Z,0,Love the vids. Watching for my Machine Learning Theory course. We are told to take the negative log to simplify the process. Does it matter?,True
+@proviptk,2021-10-08T15:44:59Z,0,"At 14:04, I think he means (x1 - μ) instead of (32 - μ)",True
+@mmad9508,2021-10-06T19:07:52Z,1,Your explanations are amazing. Massive THANK YOU! And I love your humour too. Nice to get a little giggle in when studying stats!,True
+@hqs9585,2021-10-04T20:28:05Z,1,Excellent presentation!,True
+@sakhawat3003,2021-10-04T13:44:59Z,0,"You know, how do I feel right now after taking this lesson? I feel like I had a very bad stomach after lunch and just gotten out of the toilet. It feels so calming and relaxing.",True
+@dzmitryk9658,2021-09-26T01:18:30Z,1,"Wow, thank you!",True
+@hedgehog1962,2021-09-23T02:13:49Z,1,Thank you so clear,True
+@omurcantatar4359,2021-09-14T19:17:09Z,2,"Hi Josh thanks for your video. Why we multiply Likelihood of each data when we have two or more data? For example, why don't we add these values? And by the way When do you think upload video about Time Series Analysis for FbProphet?",True
+@loudencm,2021-09-10T19:09:03Z,1,"Question @ 4:46: for the standard dev....you need to have the data(x), the mean (µ), and the number of samples (n)... if we have all those values then why do we need to plot the likelihood of sigma? Answer @ end of video: EXACTLY!!!",True
+@lophyre1380,2021-09-10T07:01:44Z,1,Thank you for visualizing it so clearly!,True
+@duongoku,2021-09-09T03:33:27Z,1,"very helpful, thank you",True
+@sunyinho,2021-09-08T04:14:02Z,0,"My response to the exercise:  If there's only one measurement, the sigma that maximizes L( sigma | x_1, mu=32) is just zero. Intuitively, this makes sense because the max likelihood of a single data point appears when the underlying distribution does not have any variation at all. That is, the distribution was just a constant. We would like to have at least 2 measurements to have an implied distribution with some degree of variation.",True
+@virajwadhwa6782,2021-09-06T01:40:08Z,1,"This was absolutely excellent... so helpful, thank you!",True
+@manujkumarjoshi9342,2021-09-03T11:52:44Z,1,Ohh.....This is the thing that other people were trying to explain,True
+@sunraiii,2021-09-01T13:28:19Z,1,"I've learned that the standard deviation and the mean are the maximum likelihood estimates for the normal distribution, but I never knew why. This was the key piece missing!",True
+@cth8802,2021-08-31T02:56:55Z,0,"@ 7:09 while I do understand that they're independent data samples, why multiply even though they're values from a  probability DENSITY function of a normal distribution which is described by the ""nasty equation"" @ 0:49  ?  I mean, they're not actual probability values in the sense that they're really not numerical values of AREAS under a PDF curve, but rather, in this case, values RIGHT ON a PDF curve.",True
+@unehome7490,2021-08-26T06:59:09Z,1,awesome explanation thank you for making those video,True
+@kaggleone3947,2021-08-24T20:58:43Z,1,"You are the best, thank you, sir!",True
+@geogeo14000,2021-08-21T15:37:44Z,0,"Amazing. Just to be sure, when you talk about a measurement, it should be p(weight > or < value) and never p(weight == value) as it is always equal to 0 here as it is a probability with density function ? And why can't we find sigma with only one measurement, is it because the deviation only has meaning when we have at least two different points  ?   Another thing related to these questions I'm a little bit puzzled by is the way the curves are plot over the data points when we say it is the maximum likelihood. For a mouse to have a weight of 32 or more precisely p(weight <= 32) when the mean is 32, the probability is 50% as the area under the curves is half covered. But if we put the mean ridiculously low like 5 grams, it means that when we reach 32 grams we have covered almost all the area under the curve and p(weight <= 32) = 1. So following this logic, the data points should always be put on the far right of the graph, where the area (= the probability to see these measurements) is the highest because close to one ? I'm sorry I'm a bit confused, maybe again it is because we reason with p(weight == 32) whereas I thought it was always 0. Or are the probabilities of the measurements in reality something like p(x - eps <= x <= x + eps) ?   Thank you very much",True
+@BillHaug,2021-08-19T10:10:41Z,1,Enjoying this song as well... but it is more of a slow burn.,True
+@algorithmo134,2021-08-18T12:51:03Z,0,can you do a video on monte carlo and time analysis,True
+@tom_verlaine_again,2021-08-16T17:19:58Z,1,This is amazing. Thank you!,True
+@liamhoward2208,2021-08-16T15:58:21Z,0,I love the natural log. It’s like a mechanism for function decomposition. Quick question. When and why is this used?,True
+@majdalhafi3475,2021-08-01T20:02:30Z,1,You are incredible man!!,True
+@drsandeepvm5622,2021-07-29T22:12:39Z,1,Thanks for super simplified mathematical explanation 👍😀😊👏,True
+@seaeagle8976,2021-07-28T16:55:03Z,1,Extraordinarily clear. Well done; I am now a subscriber!,True
+@ritik9799,2021-07-19T21:08:26Z,1,Words can't describe how awesome this video is !!!! I literally stood up and clapped at the end of this video. Request all that benefit professionally from StatQuest's videos to kindly support the channel via means listed in the description. God I love this channel !!!!,True
+@luisrogelio98,2021-06-30T17:02:49Z,1,"This is such a good explanation , anyone that says math can't be fun clearly hasn't watch this videos",True
+@1000raey,2021-06-28T13:29:23Z,0,"CAN U GIVE ME A HINT TO SOLVE map decision rule for gaussian distrubtion Y=X+N IN A BINARY COMMUNICATION SYSTEM  given that P(X=0)=3/4 ,P(X=1)=1/4 Thank u.",True
+@abhisheksaini5217,2021-06-28T11:38:06Z,1,BAM ..I UNDERSTOOD EVERYTHING....THANK YOU SIR,True
+@brarnirmal6382,2021-06-27T16:25:49Z,1,"thank you so much, here is the first video where i got my answer that what actually likelihood function does and how it's different from ordinary least square method under regression approach",True
+@andremikha4507,2021-06-27T09:06:46Z,1,Thanks a lot for your videos!,True
+@TheV2ng,2021-06-25T09:55:01Z,0,i hate data analysis and my lecturers. thx for this video,True
+@shobhrajsingh1177,2021-06-15T14:23:33Z,0,"If the equation at 0:49 is the PDF of normal distribution, it is then the probability density at x which is being returned rather than the probability of x. Correct?",True
+@minamahmed2366,2021-06-11T13:55:56Z,1,Awesome explanation...Great work!!,True
+@gilbertolopezcampos8177,2021-06-05T02:19:02Z,0,"when i imput the complete likelihood for all my individuals (7:35) the likelihood is zero... so, how can i know what parameters are the best if when i put different parameters i got zero?",True
+@uvernessomarriba5397,2021-05-25T21:58:45Z,1,"Excellent video, thanks!",True
+@inkam4962,2021-05-23T11:14:08Z,0,"can someone please explain -2(32-mu) at 13:44, I'm really lost! where did -ve came from and also 32?",True
+@tofiktahirov4672,2021-05-19T14:29:11Z,0,71st dislike),True
+@akshaymathpal9111,2021-05-12T23:38:42Z,1,"You are making statistic fun, enjoyable and most importantly easy to understand.....wait for it.....(infinite)*""bam!!!"", Thanks for clearing our doubts.",True
+@linhdinh136,2021-05-12T05:00:58Z,1,I have never understand MLE this clear until now in my life. Thanks for excellent video. Subscribed and Liked!,True
+@Rainbowgabs,2021-05-05T02:13:06Z,1,"You're amazing, thank you",True
+@basantmounir,2021-04-27T08:44:01Z,1,Wow!!!!!,True
+,2021-04-24T09:05:19Z,1,omg I love you,True
+@carolinel3483,2021-04-19T23:26:43Z,0,"I hate statistics so much, thank god it is the last math class i have to take in college",True
+@hasinabrar3263,2021-04-12T05:24:25Z,0,DUUUDEEE!!! you are like the test teacher in statistics,True
+@QZainyQ,2021-04-08T10:31:57Z,0,dude!!,True
+@k2they2,2021-04-07T11:37:35Z,1,You have amazing talent in explaining difficult concepts very easily :D Thank you so much always!,True
+@santprakash128,2021-04-04T06:54:57Z,1,Bam!!!... I subscribed your channel.,True
+@abivilion8559,2021-04-03T10:43:52Z,1,FOURTH BAM!!!  for 400K subs,True
+@carylannebeltran,2021-03-24T15:15:37Z,7,"You are a true hero!! Especially now with online classes and everything. Thanks soo much! This lesson was super intimidating to me, but learning from this video has made me realize it's not that hard at all. Good teaching makes miles of difference. Thank you so much!!",True
+@SiLvErChRiStoLiTe,2021-03-23T17:30:12Z,1,I might just pass this course bc of you,True
+@donnymac575,2021-03-21T20:45:49Z,1,This is the best/clearest explanation of MLE I have ever heard.,True
+@somanshbudhwar,2021-03-21T01:51:35Z,1,"I just can't thank you enough. After college I'll definitely donate to your channel, with my first salary ! I don't understand why my college prof can't explain it simply like this.",True
+@killerthoughts6150,2021-03-16T16:21:07Z,0,"Awesome as always, Please make a video on maximum a posterior estimation",True
+@vinhnguyenthi8656,2021-03-16T05:23:30Z,1,"overjoyed, when I was watching your other videos of logistic regression, but I don't understand the pattern in the saturation model. I went back to looking for your videos to see more. I saw this video, thought this might be the knowledge I needed. When I finished watching, it did not match the answer I was looking for at first, but it was an unexpected answer for me. oh, all of a sudden you helped me understand the curve Why normal distribution like that is built mathematically, great, thanks for your channel for helping me Understand the difficult knowledge that I always wonder about when studying statistics. Thank you so much, I learned a lot from your channel",True
+@hengdao1507,2021-03-13T02:38:07Z,0,"sorry to disturb you.  Just wanna to know more about that may I know what is the e in the likelihood equation? and also, is it 2*3.14*2^2?  thank a lot!! 🙏",True
+@theophylline2423,2021-03-10T17:35:39Z,0,"Thank you for this great tutorial. I'm still a bit confused about the notation for the likelihood function. I've seen elsewhere that the likelihood function is expressed as the joint pdf/pmf of the observed data (e.g L(theta | data) = p(x1 | theta) * p(x2 | theta) * ... * p(xn | theta). However, in your video, the likelihood function is a product of the likelihood for each sample. What is the difference? Thanks again!",True
+@pythongui5199,2021-03-03T17:57:24Z,1,The beginning music is the best....great content as well,True
+@KansasFashion,2021-03-02T04:49:52Z,0,Love you Josh! I tried to contact you from your website about tutor information. Please let me know how to contact you if you have time taking students. Thanks a lot!,True
+@namitaa,2021-02-25T21:46:10Z,1,KING THANK YOU,True
+@undergrad4980,2021-02-23T13:37:09Z,1,The triple BAM really got me.,True
+@SimoneIovane,2021-02-19T20:19:50Z,0,Really like your videos Josh. Thanks! Did you make any video about MAP estimate?,True
+@rey_broncas,2021-02-15T13:27:04Z,1,BAAM,True
+@kelvinz4989,2021-02-14T12:47:31Z,1,"Can only second @Pejvak. I too give little feedback, but this video definitely warrants it. Thanks so much for explaining supposedly complex theories in very simple ways.",True
+@dreamzhu3322,2021-02-10T20:07:59Z,1,"I've no idea how to express my thanks to you, dude! These are really informative and helpful courses!!! Hooray!!!",True
+@nightravens1953,2021-02-09T20:14:35Z,3,"I'm a current graduate student in a Machine Learning class, and I just wanted to take the time to say thank you from the bottom of my heart! It's online (due to the pandemic) and my professor's videos are honestly hit or miss (and his MLE video for me was definitely a miss....) The example REALLY helped me wrap my head around what we are doing. Thank you so so so so much... definitely donating (or buying some merch lol) as soon as I'm able!",True
+@davidmwakima3027,2021-02-07T17:35:34Z,0,"Is the likelihood function L(D | M) where D = Data and M = Model/Distribution? You seem to have it the other way round? L( sigma, theta | data). Does it matter?",True
+@pooydragon5398,2021-02-02T09:46:26Z,1,I watched the entire 1 min ad cause this is great!!!,True
+@purvangchaudhari5313,2021-02-02T03:11:29Z,1,"Lovely work sir, things never felt this easy.. heartiest thank you 😊",True
+@tetlleyplus,2021-02-02T02:00:42Z,0,"Best videos! BTW, the MLE of the standard deviation is not unbiased, right?",True
+@lukeevans6985,2021-01-30T18:00:08Z,1,this bloke is better than my lecturers,True
+@zeelpatel3222,2021-01-27T19:18:15Z,1,"Hello Sir,                 I have data of Extreme Rainfall Intensity and Temperature (Monthly Mean for 57 years for Both). I'm working on Non-stationary models. For that I have to use Poisson-Generalized Pareto (GP) Approach. Now, I have to find out parameter estimates (shape and scale parameter) by using Maximum Likelihood Estimation (MLE).                 Please help me to find out parameter estimates for that.                 Contact me : patelzeel309@gmail.com                Thank you !!",True
+@nafassaadat8326,2021-01-26T13:22:14Z,1,Thank you so much for your great video,True
+@selliahsivarajasingham3769,2021-01-21T12:15:22Z,1,It was very easy to understand and very informative. I enjoyed very much Thank you,True
+@bigfatgoalie,2021-01-20T17:00:15Z,1,BAM!! Now I get it. This series of videos is simply AMAZING! Thank you for this.,True
+@solmaznaderi4104,2021-01-19T06:42:31Z,1,"Thanks a lot, your cleared my doubts.",True
+@nataliabravo1102,2021-01-14T11:32:37Z,1,I love you,True
+@abhijitpaul7683,2021-01-12T03:31:38Z,1,i love the MUSIC AND THE BAM.,True
+@adesiph.d.journal461,2021-01-07T16:38:22Z,1,People should stop using Theta and X in the books! Things explained with an actual example makes so much easier for math scared people like me,True
+@adesiph.d.journal461,2021-01-07T16:35:31Z,1,What! I mean what magic did you just cast! I was reading the d2l.ai book and got really messed up and suddenly your video made things so much easier!!,True
+@kennethleung4487,2021-01-06T05:36:50Z,1,"Hi Josh, I noticed in the video that you used the term L ( parameters | data). When I look at several other resources, they tend to use P ( data | parameters (i.e. the parameters and data within the brackets are switched). May I know how to interpret this? Thanks!",True
+@moliv8927,2020-12-30T20:28:50Z,1,"nice video, hope you stay motivated and keep making those videos!  good job!",True
+@ricardobarros83,2020-12-23T18:09:50Z,1,Great work!,True
+@santilinares,2020-12-19T22:37:28Z,2,picado wachooooooooooooooooooo saludos desde la argentina pa,True
+@shaunwee1773,2020-12-16T11:06:21Z,1,Thanks. Really helped alot when learning alone,True
+@HuehuehueWolooo,2020-12-14T22:34:30Z,1,subbed for step by step and musicality,True
+@ndonyosoko5680,2020-12-14T17:36:00Z,1,Daaaaaaaamn!!! a whole University syllabus beaten by Pror. Log Statsquest.,True
+@dikshantgupta5539,2020-12-14T13:23:21Z,1,TRIPLE BAM Best explanation so far,True
+@UltraXan,2020-12-11T20:51:31Z,1,"Jesus H-Bar, I wish I had math this clear and well explained when I was taking my stats class. So many profs just skipping lines and jumping ahead in their proofs, expecting us to fill in the blanks. Now here I am in a robotics course looking at maximum likelihood estimation and this video is giving me the lesson I wish I had years ago. A+, kudos, cookies, high fives... you take it all!",True
+@bevansmith3210,2020-12-10T07:49:22Z,1,Brilliant Josh!,True
+@Theviswanath57,2020-12-05T06:33:28Z,1,Amazing Josh & Thank you so much for this video,True
+@mohamedhany2306,2020-12-04T16:14:44Z,1,Triple BAM !!! you're the man,True
+@akhileshshastri1278,2020-12-02T19:54:02Z,1,Awesome explanation...more power to you,True
+@yangyijane,2020-12-01T22:39:10Z,1,I found it crystal clear... love it. save me from the math hell,True
+@nonalcoho,2020-11-29T09:18:49Z,1,Thank you very much for the proof. I think you deserved Million BAM~~~~,True
+@oliverf2924,2020-11-26T12:36:55Z,1,Makes you wonder if normal professors are just bad at teaching or make their courses hard to understand on purpose. Thank you a lot,True
+@auraSinhue,2020-11-26T04:41:34Z,1,pure gold! more videos like this,True
+@jiji89960,2020-11-24T19:27:49Z,13,the *CHAIN RULE* dramatic atmosphere intensifies,True
+@vornamenachname5800,2020-11-18T01:23:44Z,1,I love you man,True
+@keweml3544,2020-11-14T08:44:16Z,1,I wish you were my math teacher. Struggling...,True
+@marc-antoinediot4315,2020-11-12T11:45:25Z,3,"That is absolutely amazing : I'm from France so English isn't my native language, though I still understand it better than with my french teacher lessons! Hundred thanks",True
+@sukursukur3617,2020-11-11T15:42:57Z,0,"Why do we calculate standard deviation by using mean? Namely, why dont we use mode instead of mean?",True
+@ChiragSutariya,2020-11-10T17:13:50Z,1,Never seen such a detailed and conceptual explanation. Thank You Josh,True
+@kittyxing,2020-11-09T22:56:14Z,0,"Thanks so much for the video, it is so great! I do have a question regarding to the derivation of max likelihood of Sigma (around 18:40). I have the impression that the mu on the right side of the formula should be the mean of distribution in the assumption instead of the mean of measured points (x1,x2...). I'm confused when you mentioned the formula is actually the STD since in the STD formula, the mu should be the mean of measured points. Is it safe to simply treat those two values the same? The other related question is that, do we suppose to search the global minimum in a two dimension surface defined by (mu, sigma)? If we only search mu and sigma one by one in a one dimension way, will it promise to give us the global optimal solution? Thanks again and so love your video!",True
+@amirkhoutir2649,2020-11-09T17:04:03Z,1,Thank you <3,True
+@billclinton6040,2020-11-08T06:22:40Z,0,"Well, that was a rather long winded way of proving that the maximum likelihood of the mean for a data set is simply, well, the mean.",True
+@MohamedKhaled-el7vv,2020-11-06T23:22:32Z,3,If professors in universities explain like that the world will be a better place.......really thank you so much you are awesome,True
+@serg8004,2020-11-06T14:17:57Z,1,thanks Josh! as always very clear and helpfull,True
+@pradeepkumar-ew1ze,2020-11-06T06:10:52Z,0,"Answer to the exercise @ 4:46  -  Since we divide by ""n-1"", n cannot be '1' , hence we need at least two measurements?",True
+@hibashahid948,2020-11-05T15:34:20Z,0,Please doo some questions on methods of point estimation pls !!! :(,True
+@hibashahid948,2020-11-05T15:30:05Z,1,THANK YOU,True
+@shehanstainwall8689,2020-11-04T16:37:12Z,1,very easier to understand the concept!!!  thank you!! Doule Bammmmmm!!! :),True
+@wtfzalgo,2020-11-03T17:03:36Z,1,Me before StatQuest: what even is math Me after watching literally 3 videos:  ok guys I solved the universe,True
+@VincentZYu,2020-11-02T22:24:18Z,1,"Whoever left that unlike, you probably clicked it by mistake. Or you are one of those over-complicated statistic professors.",True
+@chulolo997,2020-10-30T22:39:04Z,1,Superb work!,True
+@rohankavari8612,2020-10-30T14:01:47Z,1,great work!!!,True
+@Julian-tf8nj,2020-10-29T03:13:50Z,0,"Good explanation... but before anyone develops a premature reflex that ""zero derivative means a maximum"", let me remind people that *zero derivatives also occur at minima, as well as at **_inflection points_* (think of a function whose value grows, then levels off and becomes flat, then grows again.) In 2-dimensional functions, having all the partial derivatives be zero could mean a _saddle point_ , i.e. a maximum for a variable while at the same time a minimum for the other one  (think of the part where one sits in a horse saddle.)",True
+@rajkmr15,2020-10-28T09:12:26Z,2,wow. Never seen someone explaning maximum likelihood to look this ease. Hats off :),True
+@Titurel,2020-10-26T17:46:55Z,1,You are a math hero!,True
+@elrishiilustrado9592,2020-10-24T11:09:32Z,0,Amazing video. But i can't get how understanding Maximum Likelihood could be useful.,True
+@gloriouszorn4578,2020-10-23T22:25:30Z,1,"LIfesaver. I wish all math was explained this well, instead of a jumble of terms and symbols that are poorly  defined.",True
+@visshalnatarajan8188,2020-10-21T07:25:03Z,0,Is there a way to derive the likelihood function from the probability distribution function?,True
+@Luutzen007,2020-10-18T10:26:41Z,1,"Finally, I see the derivation of the sigma = standard deviation in stunning clarity.",True
+@GladwinNewton,2020-10-17T13:37:24Z,1,BAM!,True
+@Amf313,2020-10-15T06:10:37Z,1,Great 👍,True
+@matteobarberis1069,2020-10-14T13:13:12Z,1,why the f**k am i paying 9250 £ a year for a lecturer to read someone elses slides word by word to me when there is gold for free on youtube,True
+@maitreyimandal8910,2020-10-12T10:20:33Z,1,My respect.,True
+@mahdiamrollahi8456,2020-10-10T10:07:27Z,0,"If we have the data, so we can calculate the “mu” and “sigma”, then we have the likelihood at the point of “mu” and “sigma”. Why you test it with different “mu” and “sigma”?",True
+@mahdiamrollahi8456,2020-10-10T09:49:26Z,1,Great...,True
+@wz5445,2020-10-07T16:27:56Z,1,"DANG . . . PS: thank you man, your vids have been really helpful",True
+@thedailyepochs338,2020-10-04T19:49:16Z,0,why do you have to plug in different values for sigma to find the optimal SD,True
+@johnhan2995,2020-10-04T14:20:54Z,1,Bam!!!,True
+@karankewat1.10,2020-09-29T12:27:59Z,1,Wow. Thank You!,True
+@taotaotan5671,2020-09-29T02:58:10Z,0,BAMMM. Should the sample standard deviation be (n - 1) on the denominator?,True
+@nandanimadhukar,2020-09-28T22:27:25Z,1,Amazing video with apt explanation. This helped me understand the math written in my machine learning textbook! Keep it up.,True
+@user-cc8kb,2020-09-22T19:18:32Z,1,This explanation is amazing! Thank you so much. I love your videos! :D,True
+@rinkeshverma2880,2020-09-22T19:01:52Z,1,Excellent,True
+@BrunJulie,2020-09-22T15:53:37Z,0,Why is the last term stay the same at  12:44. Why don't they get multiplied by n?,True
+@llDietryingll,2020-09-21T15:10:26Z,1,I love you,True
+@vaishanavshukla5199,2020-09-20T11:29:15Z,1,great way of explaining thing!!!!!!.....becoming a fan,True
+@barondra38,2020-09-08T20:29:59Z,1,Epic quest! Took me two tries to complete this reasonably,True
+@chiragvartak5658,2020-09-05T11:21:35Z,1,I love you,True
+@alvinc5225,2020-09-02T13:35:18Z,1,"Damn, thanks heap..!!!",True
+@agb2557,2020-09-01T10:45:24Z,0,Calculating the standard deviationon one value will be = 0. This has no real world significance because you're interested in the spread of a series of numbers.,True
+@chuzai2156,2020-08-31T10:55:50Z,1,I like the sound of the Chain Rule[Doge],True
+@anasbekheit5479,2020-08-26T04:59:27Z,1,"I swear to god, you 're an Angel <3 keep up the good work Sir, I was really struggling with these topics , but somehow you explained them very clear , appreciation from Egypt!",True
+@PratikPrajapati84,2020-08-25T14:44:36Z,0,"Hi Josh, Which books or other resources you would recommend for statistics, from beginner to advanced levels? Once again, all your videos are triple bam !!! :)",True
+@bat-orgilenkh-amgalan6631,2020-08-19T04:12:53Z,1,thanksssssss babe,True
+@fawadmahdi,2020-08-17T17:54:42Z,1,How do you make those great presentations?,True
+@ButtsMcCracken,2020-08-06T18:52:18Z,1,"Bruh... all that work to find out that the best estimators for the mean and sd of the distribution are just the mean and sd from the sample...  Fantastic explanation, though.",True
+@jennyapl1791,2020-08-06T14:55:49Z,0,Why will I go all through the trouble of calculating the MLE if I can just use the mean? The idea would be to use different means?,True
+@giridharjadala2182,2020-08-06T14:01:20Z,1,"its was very helpful,thanks a lot buddy.",True
+@rookiedrummer6838,2020-08-05T03:15:54Z,1,awsome,True
+@ujjwaltyagi3030,2020-08-02T00:24:13Z,0,I was actually searching for and introduction to Joint Maximal likelihood (JML)and marginal maximum Likelihood(MML) when i stumbled upon your video. Are JML and MML the same as what you are explaining in the video?,True
+@chungyeungvideo,2020-08-01T08:33:28Z,2,"OMG , my feeling just like riding in a roller coaster. when you bring up the formula with derivative, my head start bumping. but when you explain the slope = 0 till the end, it just like riding down the slope and make it so excited. LOL thank you josh",True
+@akshunair3367,2020-07-29T14:40:25Z,1,"Thank you so much sir, thank you so so much!!!",True
+@dhananjaymalla6151,2020-07-28T15:35:58Z,0,Sir can make video for MLE  normal distribution with right censored,True
+@computer-science-with-mani,2020-07-27T18:07:43Z,0,Is there also such a best video explaining Bayesian estimation. Which is another way of finding the point or interval of some occurrence?  (from chapter parameter estimation),True
+@ade3966,2020-07-26T01:10:12Z,0,"at 2:20, he says the ""likelihood of the data given the curve""? I think that is a little wrong. Shouldn't it be the likelihood of the curve given the data?",True
+@avacatototo,2020-07-25T17:44:28Z,1,Best explanation ever!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!,True
+@125errorz,2020-07-24T10:02:29Z,1,here for the BAMS and the original songs,True
+@goodfeather16,2020-07-21T18:22:49Z,1,Your singing is just as good as your math.,True
+@RubenAlvarezMtz,2020-07-10T22:51:47Z,2,This was better than going to Disney and getting on the space mountain. Thank you.,True
+@MarshallDTeach-yr2ig,2020-07-08T14:33:59Z,1,BAM! BAM! BAM!,True
+@abhijeetsharma3656,2020-07-07T17:34:28Z,1,wish my math teacher had such a patience to teach. You are amazing sir :),True
+@haroldsu1696,2020-07-07T02:05:31Z,1,"Thank you sir, and  It really helps !",True
+@billaspiel,2020-07-03T20:00:31Z,0,@StatQuest with Josh Starmer Thanks for this awsome video .Request  you to please make a video on Expectation maximization and on  why Gaussian mixture model for  multivariate uses Expectation maximization  instead of gradient descent to find optimal parameters,True
+@Saint.Laurent.Jacket,2020-07-01T16:17:49Z,1,This video just made me pass my Statistical Inference unit....Thank you so much!!!!,True
+@vaibhavkhobragade9773,2020-06-30T10:26:36Z,1,The chain rule....... Haha. ;)  life savior for who are struggling in MLE calculation. it's pretty hard. Thank you!,True
+@amitg2476,2020-06-29T17:17:02Z,0,"when we are using the likelihood function, is it likelihood of data given curve 2:16 or likelihood of curve given data 2:46 ?",True
+@AnuragTK,2020-06-20T13:37:54Z,1,Thank you so much!!,True
+@rodrigomaldonado5280,2020-06-17T15:56:46Z,1,EXCELLENT!,True
+@lanxizhang2816,2020-06-17T06:48:43Z,1,save my degree again and again. Huge thanks,True
+@thai19995,2020-06-11T20:56:33Z,1,"Struggling with the Pattern Recognition course for a while. You, sir, are the true hero!",True
+@salmaabdelmonem7482,2020-06-08T20:10:36Z,1,TRIPLE BAM !!! :D,True
+@user-ml3vx2dk8s,2020-06-08T18:04:15Z,2,"I was amused by so many ""BAMMM” hahaha! Never thought I could laughing so much when watching a stats video. Thank you so much!!",True
+@jahquantum420,2020-06-03T14:09:06Z,0,"I think we  need to use more than one data to get the maximum likelihood for sigma, because if we use just one, it will be always a sigma better than the previous one, and with more data if the bell becomes narrower some data in sometime its y-value will be smaller than the previous one.  I Love your videos, Josh. I wanna get some of your merch soon.",True
+@karanmitra4880,2020-06-03T10:07:14Z,1,Beautiful!,True
+@tysonheffer8731,2020-05-29T20:08:59Z,1,"Josh Starmer and Team, you guys are my effing heroes!! 100 out 5 stars! (you know... because stats ;) Much love!",True
+@Patrick881199,2020-05-28T03:42:09Z,0,"Hi, Josh, I am a little confused.  at 1:47,  you transfer probability equation to likelihood equation, and the right side of these two equations are identical which is very confusing, because as you said,  probability is area while likelihood is y axis value, they are totally different. How come the equation for them are exactly the same",True
+@barshalamichhane6761,2020-05-27T06:58:52Z,1,excellent,True
+@oscarruiz24,2020-05-21T04:14:31Z,1,awesome!!!!the best!!!,True
+@MecchaKakkoi,2020-05-18T01:14:26Z,1,Best video I've seen on this subject! Wish this had been around 10 years ago! :),True
+@shakyasarkar7143,2020-05-15T14:08:20Z,0,"Can you help me out a bit please? When we were using a single point, we just have to find the point where the likelihood is maximum.  But when, we are having multiple points why are we going to find the derivative?  Otherwise, this is a super intuitive video! I liked it to my heart's content!",True
+@vipulvivek3874,2020-05-14T17:21:04Z,18,"I was reluctant to start this video, seeing its length. I thought it will be some other university guy explaining it mundanely. I am glad I clicked. Even more glad that I was wrong.",True
+@shabnumshah3107,2020-05-12T06:13:27Z,1,"Struggled years with this mle.Thankyou so much sir,very well explained.....",True
+@alessandro49946,2020-05-08T09:52:09Z,0,"In this case however the denominator if the sd is not n-1. yes, we are not estimating the population sd, but wouldn't be right for the same reason of underestimation of the variance? Thanks a lot for  these videos!",True
+@mostinho7,2020-05-06T21:49:32Z,1,Amazing thank you,True
+@riddhimanna3450,2020-05-05T06:31:16Z,3,everytime you went BAM!! I couldn't help laughing!!,True
+@barzansaeedpour3853,2020-05-01T15:52:59Z,1,the best explanation ever. thanks a lot.,True
+@auzaluis,2020-04-30T23:38:47Z,1,THE CHAIN RULE!,True
+@bill_nj8543,2020-04-26T16:24:43Z,4,These videos on MLE are really wonderfully thought out and presented - very helpful in getting an intuitive handle on this important topic.,True
+@sneezypete382,2020-04-24T05:07:06Z,1,I like your music too!,True
+@ravirajshinde465,2020-04-20T06:50:30Z,1,"This explanation is simply  great ,Thank You",True
+@ezequielzion,2020-04-19T18:30:53Z,1,"you seriously  have no clue how much this video helped me bro, plus i love how you put in some humor so it doesn't become boring. you're amazing man :)",True
+@sakshipagrut499,2020-04-19T14:11:22Z,2,great.....osmm😊😊..i dont have words to say🙂🙂,True
+@TheNabob57,2020-04-19T02:14:16Z,0,Moo not mew,True
+@yf1177,2020-04-17T15:46:21Z,1,You are a brilliant teacher. I can throw away all of my clunky boring statistics books now..,True
+@ichwanrasidi5934,2020-04-16T06:30:09Z,2,You are a true mathemagician. Excellent video,True
+@ravitanwar9537,2020-04-14T18:21:38Z,1,i'm gonna buy your whole album when it comes out,True
+@zwitter689,2020-04-13T15:11:29Z,0,It's unfortunate that your singing isn't as good as your explanations but given the choice I'm going with the explanations - thanks.,True
+@mr.luvnagpal7407,2020-04-11T18:23:41Z,1,seriously amazing you are the best teacher in the world no words to explain how much helpful it was thank you so much!,True
+@ilnurgazizov2959,2020-04-11T15:59:25Z,1,Great explanation of Max Likelihood I've ever seen! Step by step and clearly to understand!  I used Max Likelihood in my Master degree to find out the optimal parameters for Hidden Markov model(HMM).,True
+@peshalgoel7414,2020-04-06T12:57:41Z,0,"Referring to 4:41  Because when we have only one measurement (X) and calculate maximum likelihood estimate for µ, keeping σ and X as constants, will result in µ = X. Then we will calculate maximum likelihood estimate for σ, keeping X and µ as constants. Here X = µ = 32 (in the above example). If we plot the likelihood (Y-Axis) against different values of σ (X-Axis), we will get a decreasing exponential curve (not sure that it will be exponential, but it will always have a negative slope) and the point corresponding to maximum likelihood will have slope ≈ infinity or a negative slope with an unknown magnitude. Therefore when we will take the derivative of the likelihood function with X and µ as constants, we will have to solve for derivative ≈ infinity/negative slope with an unknown magnitude.  The slope will be infinity if the curve is exponential. It will be a negative slope of unknown magnitude, if the curve is any other ever decreasing curve. In both the cases, we will not be able to solve the equation.  PS: Intuitively, it feels like it will be an exponential curve with negative slope.  Please correct me if I am wrong!",True
+@nimatajbakhsh999,2020-04-02T04:06:23Z,0,"Thanks for yet another great tutorial. Actually, I have a confusion here: You define likelihood as p(theta|x), which differs from p(x|theta) that is found on wikipedia and many other text books. Please advise.",True
+@sergior.m.5694,2020-04-01T21:45:53Z,364,"This channel, along with 3blue1Brown make me feel like a mathematician who is actually discovering this techniques for the first time in a logical way, rather than just handed to me through some obscure formulas that one just take for granted, because most academics forget about the importance of visual intuition.",True
+@beppenonantola216,2020-03-31T14:43:28Z,1,"Very good, bravo!!",True
+@karakter3,2020-03-28T10:06:47Z,1,BAAAM,True
+@AKJY,2020-03-24T09:57:11Z,1,Nobel Prize should be given to you,True
+@farzanehaskari9703,2020-03-23T21:26:01Z,4,"""chain rule"" has a different meaning than what it is used for in this video.",True
+@cadjadoad,2020-03-20T05:30:01Z,1,"Josh, you are an absolute legend! Your videos make everything so easy to understand, and my kids and I love your funny musical introductions as well.",True
+@monikagrigorova485,2020-03-13T13:59:22Z,1,Is there a textbook written by you that I could buy? :),True
+@rongxinzhu,2020-03-10T12:45:48Z,1,I like your explanations very much! Your ways of interpreting concepts are amazing!,True
+@ahmedshahat4619,2020-03-09T22:03:33Z,1,"One more excellent video, the over simplification of this complex math simply means excellent instructor... thanks",True
+@ahmadalghooneh2105,2020-03-09T10:23:09Z,1,"As I said before, you are lovely !",True
+@dahailiu2067,2020-03-08T19:06:23Z,34,OMG again this is the best MLE explain I've seen ever in my life.,True
+@adilshaik4228,2020-03-06T20:41:38Z,1,I can't emphasize how helpful this is. Please do a MAP video.,True
+@flycanfly,2020-03-06T02:10:26Z,1,Wow..,True
+@ilyafastovets9607,2020-03-02T19:09:04Z,0,"Why do we have n in the denominator of sigma, instead of (n-1) as a maximum likelihood estimator?",True
+@MegaGauravrai,2020-03-01T00:03:09Z,1,StatQuest is Awesome !!,True
+@DarkFacet,2020-02-27T21:03:39Z,1,"Damn, that was crazy helpful!! Thanks a lot!!",True
+@vatsalamolly,2020-02-27T19:47:40Z,1,"I am not a beginner to all this, but still even now sometimes the very basics become muddled. This video has been so helpful! I am definitely gonna be revisiting your channel in the future.",True
+@rohtashbeniwal9202,2020-02-23T07:48:45Z,1,best explana.,True
+@kc_good_luck,2020-02-22T20:47:29Z,1,BAM!!!,True
+@cristianleoni6852,2020-02-20T19:55:01Z,0,"When we multiply both sides by sigma don't we lose one solution? I know that it is sigma = infinite, but it would be nice to explain that as well instead of just not showing it Great channel btw, nice explanations and really helpful ;)",True
+@user-xn7qt3zl4m,2020-02-20T12:51:43Z,1,Amazing! Thank you all the time!,True
+@shreevathsa9333,2020-02-19T10:04:55Z,1,Excellent explanation with great Illustrations!!!,True
+@alexanderperegrinaochoa7491,2020-02-18T01:36:29Z,1,wooow,True
+@nabilmahmoud608,2020-02-15T15:55:56Z,1,This is Amazing!!!,True
+@ralphzhang1490,2020-02-14T04:52:07Z,2,"the likelihood I learned 20 years ago, and taught college students for 2 years before I went abroad. Never, never really understood it before watching these three of your videoes. I know the formula, know how to calculate. But it's you let me know the visual meaning.",True
+@statquest,2020-02-10T18:40:27Z,126,"Correction: 2:39 I said likelihood=0.03 for mu=30, but mu=28 is in the equation.  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@vijaypalmanit,2020-02-10T17:47:17Z,0,At 2:41 my should be equal to 28 and not 30 I think.,True
+@fabianzh5577,2020-02-09T14:47:18Z,7,Bruh you're hilarious. You must be popular in Stats Land!,True
+@radwan7267,2020-02-08T16:29:09Z,0,Any « time series » corses please :)  ???,True
+@mojazzz284,2020-02-07T16:20:25Z,1,The best explanation on this face of the earth,True
+@vl_3171,2020-02-06T16:59:50Z,2,"Amazing! Thank you for the Math, Statistics and the Music. I even start singing when the clip starts!",True
+@akshaytiwari5085,2020-02-05T07:03:29Z,0,This video would have become legendary if you would have shown the relationship between Max. likelihood and Mean square Error.How both are just same things.,True
+@socratears,2020-02-04T05:29:06Z,0,i wanna kill myself.   QUADRUPLE BAM!!!!,True
+@szu-minyu3415,2020-02-04T04:17:02Z,1,TRIPLE BAM!! You're the best!,True
+@kareemel-rafei1698,2020-02-03T17:30:24Z,2,"When I compare the usefulness of this video to me, engineers, society in general and I see it gets 131k views as opposed to a justin bieber song...I feel sad. Thanks man, you helped a lot! Any recommendations for good reference books for these topics?   Thanks again! BEST EXPLANATION IN AGES!",True
+@Sgoose105,2020-02-02T03:19:53Z,1,The chain rule lmao,True
+@sans8119,2020-02-01T13:45:42Z,1,One of the best educational videos I have ever seen !,True
+@MrMegaFlich,2020-01-29T04:26:32Z,1,You know you've made it in life when Indian guys start watching YOUR tutorials,True
+@Meloman0001,2020-01-27T03:58:20Z,0,"Thank you for the videos. May I ask, what software do you use to visualize these graphs?",True
+@rajat1548,2020-01-26T18:19:45Z,1,"Great explanation sir, Thank you for such a amazing video.",True
+@debashis.sahoo.,2020-01-23T12:37:28Z,1,Understand with visualization finally!!  Great !!!!,True
+@sander5764,2020-01-22T12:12:58Z,1,"""THE CHAIN RULE""",True
+@DXenakis,2020-01-21T22:43:39Z,0,"In the beginning, it is mentioned that pr(x|μ,σ) = L(μ,σ|x) = normal PDF formula. How correct is this notation?",True
+@anitapallenberg80,2020-01-21T21:27:54Z,1,One of my favourite videos of the whole internet!! ♥ StatQuest is simply amazing.,True
+@anilsarode6164,2020-01-21T20:51:07Z,1,No words simply great !! love the sound of the Chian RULE.,True
+@tamirtsogbayar3912,2020-01-21T08:53:05Z,0,hello  thanks for this video  and i'm not sure that negative log likelihood is it same ?,True
+@silviapetrova8562,2020-01-20T19:38:10Z,1,holy god. one of the few times i had cry from the beauty of math. thank you,True
+@solaweng,2020-01-14T05:08:25Z,6,"Every time when I have a new stats related course, I always use statQuest for a quick review. Cannot recommend more!",True
+@ralvarezb78,2020-01-09T08:02:02Z,1,BAM!!!,True
+@wenyange2607,2020-01-08T00:40:19Z,1,BAM!!! Your explanation is as clear as day! Thank you!,True
+@poole4871,2020-01-05T17:29:46Z,1,Preparing for stat final and came here seeing this is just so amazing thanks for explaining in a way so that dumb like me can understand !,True
+@sweemok4995,2019-12-31T22:16:59Z,1,Excellent!,True
+@CalvinWells118,2019-12-25T20:22:51Z,2,omg why I have found your videos only the day before the exam,True
+@Originalimoc,2019-12-25T03:00:21Z,0,Annoyingly detailed 😂,True
+@glexmad,2019-12-20T10:40:50Z,2,Amazing. Just so perfect explanation!,True
+@alanraymundo,2019-12-18T00:50:46Z,1,That tripple BAM really hit me,True
+@KunalSaini97,2019-12-17T21:35:57Z,2,"can't even imagine my college ,teaching this topic like that. <3",True
+@kaif7312,2019-12-17T05:16:10Z,1,THE CHAIN RULE LE LE,True
+@BruinChang,2019-12-15T12:20:06Z,0,Does it behave like an autocorrelation function?,True
+@sayedabedin5368,2019-12-12T01:57:28Z,1,awesome.......so clearly explained,True
+@shalompatole5710,2019-12-09T19:32:21Z,84,"Give this man some Nobel Prize already. Peace, Economics even Literature will do. This sort of genius shouldn't go unrewarded.",True
+@yuval260990,2019-12-05T23:59:40Z,1,Thanks!,True
+@parambole8671,2019-12-04T06:58:53Z,2,I spent 8 grand to learn ML in college and yet didn't truly understand what MLE is. Learned it for FREE on StatQuest. You Rock,True
+@chrisbee8684,2019-12-03T16:19:26Z,0,Hey! Can't you put your music on spotify please? It's really good.,True
+@notprof,2019-12-01T00:15:54Z,1,Triple likelihood!,True
+@jingxu4515,2019-11-25T18:55:03Z,2,"Fantastic videos, really like the beginning song!!!! You make the complicated math much easier to understand!",True
+@DarkFacet,2019-11-21T22:34:19Z,1,Thank you so much!!!,True
+@raharijaonazolalainayannic7851,2019-11-17T00:57:18Z,1,Nice,True
+@vishalverma-wx7eo,2019-11-16T12:09:32Z,1,Love you Josh!! For your Quest and BAMS!!!,True
+@georgehughes6615,2019-11-12T21:47:04Z,2,"Thank you so much, teaching at its finest <3",True
+@coldnlonely,2019-11-12T02:11:35Z,2,Your ability to explain this so well gives me goosebumps.,True
+@abdoulayely8284,2019-11-12T01:38:32Z,1,I wish I could like your videos a million times. I barely comment on youtube but I wanted to thank you josh for such incredible resources you are providing to us. You are saving lives out there :),True
+@truthrevealed7478,2019-11-08T16:24:08Z,1,I am really impressed.,True
+@MohammedBakheet,2019-11-07T20:41:07Z,2,"You just explained what my teacher couldn't in three lectures, I wholeheartedly thank you, keep it up",True
+@da_lime,2019-11-05T22:09:34Z,1,BAM !!!,True
+@raullopezvalle3083,2019-11-05T15:02:33Z,1,Excellent video!!!!!!,True
+@GlebMikhaylov,2019-11-04T01:38:18Z,1,plug and chug)))) it's amazing,True
+@ben7590,2019-10-31T23:03:55Z,1,Josh for the president!!!!!!!!,True
+@josephsk9397,2019-10-31T02:05:33Z,1,could you plzzzzzzzzzzzz do a video for Maximum A Posteriori????????,True
+@josephsk9397,2019-10-31T02:02:20Z,2,BAM the sub button boyzzzzzzzzz,True
+@yohanjeong3869,2019-10-29T20:40:42Z,0,"i learned this concept long time ago, and several times i felt that i needed to review it, but i have delayed it for a long time. But, I did this now for only 10min with skipping the things that i could remember.",True
+@AishwaryaRadhakrishnan34,2019-10-23T03:11:19Z,1,amazing !!!!!!!,True
+@kuroshzamani1775,2019-10-22T15:39:50Z,1,Thank you for this awesome Video! first I just thought what we are doing here cause we could already calculate mean and sigma given the data itself and there remains no unknown parameter to be calculated! (optimised ) but I just continued watching and at the end of the video I finally got your point. Maybe renaming the optimisation parameters to something else and then showing that they are actually equal mean and standard deviation helps make this awesome video even better.,True
+@SRAVANAM_KEERTHANAM_SMARANAM,2019-10-22T05:14:40Z,0,Kindly make a video on MAP in machine learning,True
+@ahmadaboulella7196,2019-10-19T20:34:24Z,1,Thank U sir  A life saver you are indeed.,True
+@mostafatarek5088,2019-10-19T19:08:49Z,1,best explanation ever L.O.V.E  u man,True
+@nilpajha5119,2019-10-18T11:36:27Z,1,Best explanation ever !,True
+@Learner_123,2019-10-16T01:47:51Z,4,"Classic. I have seldom seen a teacher taking his students/audience from the base of the hill to the top in such a smooth fashion! Excellent. P.S. I can only pity on those who disliked this video, better get admitted into kindergarten :)",True
+@ariessheep9488,2019-10-10T14:23:47Z,2,Thank you so much!!!!! You're undoubtedly a hero!!!,True
+@malharjajoo7393,2019-10-10T12:51:15Z,0,"Very nice explanation ... but at the start, how did you get the formula for the likelihood of the normal function to be = normal function itself ?",True
+@suguangdou790,2019-10-08T09:56:41Z,1,so wonderful,True
+@SS-lv4kf,2019-10-06T18:20:03Z,1,Oh my God!!! The song makes these videos even better!!!,True
+@juansebastianpaboncubillos1024,2019-10-06T14:26:57Z,4,What a good video. I took me 7 year to understand it properly. U kicked out of the park.,True
+@hanifanmohamad2327,2019-10-05T07:10:33Z,1,CLEAN AND CLEAR!,True
+@vivekrbs,2019-10-03T17:27:12Z,1,o thy Guru,True
+@saraperestrelo8377,2019-10-02T09:50:42Z,1,BEST EXPLANATION EVER BAM!,True
+@SPmorality,2019-10-01T20:06:41Z,1,You are an absolute hero!!!,True
+@Lordvader2706,2019-10-01T19:30:08Z,1,Your channel................. is perfect. Thank you so much!,True
+@xMereepx,2019-09-27T13:21:31Z,0,"Thx, I think I could follow like 98% percet of it :) I just took the intuition at the end until now for granted. But its nice to see that one can actually derive it. I still have one more general question: The likelihood  is defined as the product of all the propabilities of each data point (about 8:25). What would fundamentally change if one would take the product of the propabilities instead and optimize this? It would basically follow the same logic. Like big number -> more likely, small number -> less likely.",True
+@MisbahAnwaar1988,2019-09-24T04:13:14Z,2,I was struggling with a research paper n using restricted maximum likelihood estimation for analysis... n this video made me understand the whole thing clearly!!! Bam * infinity!!!,True
+@MisbahAnwaar1988,2019-09-24T04:08:38Z,1,U're a gem!,True
+@gigachadster,2019-09-20T21:48:23Z,1,I learned it... QUADRUPLE BAAAAM!!!,True
+@johnfinn9495,2019-09-20T17:48:51Z,0,"In deriving sample mean and sample variance, shown in all basic probability books, the requirement that the results be unbiased leads to a (n-1) denominator in the sample variance result. So the ""unbiased"" result and the maximum likelihood result are a little different, right?",True
+@camilaarcu2254,2019-09-19T20:40:54Z,1,You have blown my mind,True
+@arminhaghjoo3566,2019-09-19T20:23:05Z,0,how can I have the slides for this video? I really need it.,True
+@bidaubadeadieu,2019-09-12T17:20:58Z,1,"So much clearer than my professor, thank you",True
+@ashrafabir3274,2019-09-11T21:41:30Z,1,Breathtaking!,True
+@xuyangli4324,2019-09-08T18:53:31Z,0,Watched the whole video at X2 play speed. Saves me so much time understanding what is ML,True
+@yuthpatirathi2719,2019-09-05T14:12:21Z,0,Josh you are a god!,True
+@MausamJain,2019-08-29T14:58:02Z,1,Fuckin AWESOME explaination man! BAMMMM,True
+@charlesstrickland8839,2019-08-29T00:41:18Z,2,"StatQuest, best as always",True
+@ASoumakie,2019-08-29T00:27:59Z,1,Josh>>>>> You are the KING,True
+@siyizheng8560,2019-08-28T03:08:34Z,1,"Oh my god, the video is so amazing !",True
+@maheshkarigoudar117,2019-08-27T16:40:22Z,0,Why probablity and likely hood equations are same,True
+@ajeethsuryash5123,2019-08-26T05:03:41Z,1,Dammnnnnn.....,True
+@prateekdaniels,2019-08-22T04:33:36Z,2,"your videos are just too awesome ! keep up the good work, the world needs teachers like you !",True
+@jairoalves8083,2019-08-20T15:29:15Z,2,THIS IS PURELY GREAT!!! DID I SAY GREAT??? Congratulations!!!!!!!!!!!!!!!! Super Cool,True
+@indie209,2019-08-06T23:36:49Z,0,"You're the hero Gotham deserves, but not the one it needs right now",True
+@yanbowang4020,2019-08-02T21:15:29Z,0,Could you also do quasi maximum likelihood please?,True
+@user-qr5yn6xs6m,2019-07-30T16:35:19Z,1,wow. it's gooooood,True
+@eswan7638,2019-07-30T06:48:39Z,0,This is simply fantastic. Thank you. Could you make a video on expectation maximization and  how to estimate parameters of the gaussian mixture models?,True
+@carl6167,2019-07-29T14:25:53Z,2,What a hero. It takes a lot of time to do things in such detail that even the worst could still understand everything without having to ponder at why a step is valid !  GG,True
+@astaragmohapatra9,2019-07-28T14:25:08Z,0,"Sir, why do we use cross-entropy for logistic regression rather than MSE? Which video of yours explained this part?",True
+@geocarvalhont,2019-07-24T13:35:01Z,1,DANG!,True
+@pingyu8335,2019-07-18T04:55:17Z,1,bruh. you saved my life!!!!,True
+@rechellejacobs3315,2019-07-17T10:24:33Z,0,"wonderlike beskrywings, dankie !!!",True
+@user-vz5qb5pl6r,2019-07-15T07:51:40Z,1,"BAM! you make my day, Josh!",True
+@valor36az,2019-07-09T01:46:48Z,0,Please write a book,True
+@serkansandkcoglu3048,2019-07-05T19:43:10Z,1,You are a legend!,True
+@henriquevoni2481,2019-07-02T14:42:20Z,0,"So, this Maximum likelihood estimator is just a prove to the variance and mean formulas?",True
+@reactorscience,2019-06-28T11:01:32Z,1,1000000000000000000000000000000000000000000000000000000000000000000000000000000 bam!!!!!!!!!!!. Great explanation sir. Thank you.,True
+@obd801,2019-06-27T15:12:24Z,1,"Clear explanation, thanks",True
+@AdnanGora,2019-06-27T11:33:02Z,1,Absolutely Amamzing,True
+@alexsong4433,2019-06-22T11:42:05Z,1,"BAM！！Your video helps me a lot, I use to struggle with Maximum Likelihood estimation for a long long time, but your video just saves me in 19mins. BAM! BAM! BAM!",True
+@ParniaSh,2019-06-19T20:41:28Z,1,Bam!!! Awesome as always! I enjoy learning from your videos. Clear explanation. Well done,True
+@user-jq4kr9wl9q,2019-06-14T02:15:43Z,1,thanks for  super-clear explanation!,True
+@dfnoshamps,2019-06-11T15:22:23Z,1,Best explanation ever! Thank you!,True
+@Trackman2007,2019-06-10T10:45:22Z,2,Absolutely fantastic explanation! Best of the best of the best. Very well thought.,True
+@mehranamiri9105,2019-06-09T22:15:18Z,1,That was a great explanation! Crystal clear! Thanks a lot. Waiting for other new videos on StatQuest!,True
+@philipkostadinov1457,2019-06-06T23:55:28Z,1,Double baamm,True
+@neel55555,2019-06-05T08:27:33Z,1,you are master!!!,True
+@James08091980,2019-06-04T19:01:25Z,1,Probably the best explanation of the Maximum Likelihood estimator I've ever seen. Well done.,True
+@zeio-nara,2019-06-02T09:40:30Z,1,Perfect explanation!,True
+@usamazahid1,2019-06-01T04:23:46Z,2,very good explanation and the illustrations....keep it up man!,True
+@tswfootball,2019-05-20T19:29:11Z,1,You're presenting this so clearly I feel like I'm cheating lol,True
+@raminaassaoui6083,2019-05-20T14:47:56Z,5,You should sit on the Throne of maths.... I BEND THE KNEE :'),True
+@versystudio822,2019-05-19T22:26:38Z,0,Amazingly simple explanation. Thank you a lot!,True
+@olivierphilippe8686,2019-05-16T12:09:46Z,22,I am amazed how you teach these concepts and make them easy to understand. It is the first time I fully understand the standard deviation. Having this 'Eureka' moment was only possible because of your effort and your skills! You are really good! Thank you so much!,True
+@sandipanmajhi2770,2019-05-14T18:16:30Z,0,omg !! what did my teacher teach in the class !!! you're great :D,True
+@SANKALP667,2019-05-14T07:24:08Z,1,triple  wait for it   baamm!!,True
+@chyldstudios,2019-05-14T06:35:02Z,19,One of the best descriptions of Maximum Likelihood ... in the UNIVERSE,True
+@xiajing6009,2019-05-13T08:13:30Z,0,Don't believe there are thumbs DOWN for this video!!! Super fan for this series!!! HERO!!!,True
+@stephyjames9233,2019-05-10T12:41:24Z,2,Thank you Josh for the super simplified explanation. Students at Monash University are your latest fans.  BAM!!,True
+@deeraj3069,2019-05-06T03:43:51Z,0,Best lecture on maximum likelihood estimation. Thank man,True
+@greenElement,2019-04-30T18:37:56Z,0,Math lesson and a concert in one video :),True
+@sijial9674,2019-04-28T23:33:20Z,0,such a great explanation,True
+@imrul66,2019-04-28T06:30:08Z,0,Hi! Many thanks for the video. Can you please do a similar video with MLE estimate for non-parametric scenario.,True
+@vaud_z,2019-04-26T21:00:52Z,0,Loved the video explanation...,True
+@wanyiwang4675,2019-04-20T01:47:13Z,0,thats incredibly helpful thank uuuuuuu,True
+@manikantanuthi957,2019-04-18T11:47:50Z,0,Wow..You made it simple and Aaaawesome....       DDDDDDaaannggggG..!,True
+@deniseniu5406,2019-04-17T18:45:49Z,0,A TRUE HERO!!! BAM!!!,True
+@freshprinceofPersia,2019-04-17T12:54:56Z,406,"I'm a teaching assistant in stats at both UCL and Birkbeck (University of London), and I can say, hands down, I have rarely ever seen teaching as phenomenal as this in stats and maths. I wish I had access to your videos when I was learning, and struggled with all these topics (with teachers who didn't have anywhere near as as much commanding knowledge, and tended to over-complicate things), and not only, now, learn from you how to teach effectively (and obviously, still, a lot of maths & stats :). You don't begin to appreciate how much in-depth understanding a teacher has, to make stats&maths so seemingly simple and quick to swallow, until you start teaching these things yourself. Bravo! (This is one of my few comments on anything online ever)",True
+@nju415,2019-04-13T06:17:05Z,2,This is my favorite channel!!,True
+@jhfoleiss,2019-04-12T13:25:04Z,0,"First of all, thank you very much for all your hard work with these videos! Now, a quick question. In 17:39, why can you multiply both sides by sigma²? Since the left side is zero, I thought you couldn't do that =/. Is there a specific case when you are allowed to do this? Is there a property a should look for? Thank you very much, and sorry if this is a dumb question!",True
+@empirewhite,2019-04-09T16:41:01Z,0,Thank you you are the best,True
+@socratic-programmer,2019-04-07T20:58:12Z,0,"You say that we need more than 1 measurement to find an optimal value for sigma - but surely in the degenerate case of a single data point, the normal distribution that best fitted that point is mu = value of point and sigma tends towards 0? In that case, it would resemble a straight vertical line at that point.  Which brings me onto the next example you give straight afterwards. Assuming each of the 3 data points are weighted equally, and the mean is fixed at the middle point, wouldn't a standard deviation of approx 0 give a likelihood of 1/3 because it accounts for that one point perfectly but not the other 2?   EDIT: Oh, they're independent. So in the case where sizeof(X) > 1 the likelihood of the other 2 points would be 0 and then the overall likelihood is 0. Makes sense for the second paragraph then, but the first question still stands.",True
+@andresgonzalezsantacruz2880,2019-04-07T20:39:51Z,0,Mr StatQuest plz explain random vs fixed effects or hierarchical models!!!,True
+@eltongoba1592,2019-04-06T20:44:38Z,0,nobody explains better than you do,True
+@dusaovox,2019-04-06T15:44:12Z,0,you blow my mind !,True
+@WesternJiveStudio,2019-04-05T08:09:01Z,0,"Thank you for your amazing work, Josh! <3",True
+@mattchang4694,2019-04-05T00:33:21Z,0,Sooooo clear! Your explanation is way way way better than my Math stats’ professor!,True
+@WhatTheGuiz,2019-03-30T21:36:46Z,201,wtf man  how are you not president yet,True
+@abhilashsharma1992,2019-03-30T18:23:21Z,0,BAAAAAM!,True
+@kewangchen4338,2019-03-29T14:15:07Z,0,BAM!,True
+@beachboardfan9544,2019-03-27T12:58:29Z,0,Less singing more math...,True
+@bhuvneshpal6517,2019-03-26T05:46:00Z,1,"love from india HERO ,love the way u teach amazing!!",True
+@harveyspecter3361,2019-03-25T18:17:47Z,0,I feel better because of that triple BAM,True
+@martinroa,2019-03-24T20:26:29Z,0,I laugh at your jokes not because they are funny but because you are so good at explaining stuff.. thanks a lot my man,True
+@GuilhermeKodama,2019-03-19T18:11:46Z,0,loved this introduction,True
+@jimjames7658,2019-03-19T05:33:14Z,0,You are a life saver:),True
+@mohammedsazid9751,2019-03-17T00:05:18Z,0,I love his humor...CRAZY TIMES..Lol.,True
+@nidhikesarwani4549,2019-03-13T12:38:07Z,0,BAM!!! Where were you my whole life?,True
+@lhansa462,2019-03-11T09:48:38Z,2,"I am truly staggered of how well-made this explanation video is. A lot of textbooks don't bother to explain their derivations and proofs, as they consider them to be ""self-explanatory"".  Thank you a lot Mr. StatQuest, I learned more through your videos than in any statistics lecture! Keep up the good work!",True
+@destiny_religion,2019-03-08T11:25:13Z,1,Wonderful math lecture!,True
+@1243576891,2019-03-08T03:45:19Z,1,The Chain Rule~~ Fantastic Explanation! XD,True
+@ashumohanty566,2019-03-07T01:29:45Z,3,you give me clarity about likelihood function thank u sir,True
+@VipinChaudhary14119,2019-03-04T06:44:41Z,0,"I dint understand one thing, at 2:45 that you calculated likelihood for L(u=28, s=2|x=32) = 0.03 but when you said likelihood of u=30 and s=2 is 0.03 shifted the curve to u=30 , why ? is that typo or i am missing something ?",True
+@muhammadzaki5017,2019-03-03T18:45:10Z,1,What is the (pi) symbol meaning in the first formula?,True
+@robertbrady2799,2019-03-02T10:25:14Z,1,"Amazing thank you very much...I hate your BAMS, DANGS etc though :-)",True
+@wew6438,2019-02-28T08:07:59Z,1,"Great video, explained in an information discovery way. One question how do you have such depth understanding on the topic like those? I love to understand how u learn.",True
+@abelbognar8101,2019-02-28T02:45:16Z,1,Very good work,True
+@DB-in2mr,2019-02-24T10:31:51Z,0,"Josh,  wondering what's the link function (or kernel) BETWEEN maximum likelihood and derivatives calculus (given a selected distribution function)? by the way...the more the use of graph dynamics the higher kudos for you ; )",True
+@hashaabataa463,2019-02-23T18:57:09Z,1,good bro tnks,True
+@yassineelbasraoui8516,2019-02-22T02:30:22Z,0,WHY THE ARGUMENT OF IID SPREAD THE LIKLYHOOD FUNCTION INTO A PRDUCT OF EACH XI 4S LIKLIHOOD EITHER THE LIKLIHOOD IS NOT A PROBABILITY FUNCTION? TANK YOU,True
+@aydinahmadli7005,2019-02-21T14:50:09Z,0,it smells quality here,True
+@aydinahmadli7005,2019-02-21T14:47:12Z,1,"very clear! ,., thank u!",True
+@sultanislam12,2019-02-19T18:59:56Z,1,You really deserve subscription. BAM for this amazing work.,True
+@abhisheksrivastava9970,2019-02-16T13:43:17Z,11,The absolute pleasure of watching this video can only be attained by sticking to the playback speed of 1.0,True
+@Rice01ful,2019-02-15T03:20:29Z,1,"Thank You for the clear explanation! I had a question, could this same process be used to estimate parameters for other distributions like say a weibull or a binomial distribution?",True
+@falnesioghander6929,2019-02-13T23:29:26Z,1,Anyone want to help out transcribing and translating these?,True
+@falnesioghander6929,2019-02-13T23:26:02Z,1,"Omg, you are wonderfull!",True
+@jordanmakesmaps,2019-02-13T01:45:49Z,1,"@2:46, shouldn't μ be equal to 28, not 30?",True
+@liamhannah6325,2019-02-07T14:47:53Z,1,"Oh man I've been trying to figure out MLE for the normal distribution for so long and it's been hella confusing until now, I just got IT! Quadruple BAM! Thank you so much.",True
+@maojingye5657,2019-02-07T03:38:17Z,2,thank you for the video! you can be a great prof.,True
+@Ahmed000Saber,2019-02-06T11:09:51Z,3,You are the best.,True
+@hangyutian,2019-02-06T02:44:46Z,24,"""I double checked"" Hahaha",True
+@shkmamun,2019-02-04T20:31:32Z,1,"if the MLE of mean is equal to avarage, why do we need MLE?",True
+@yatta4059,2019-02-03T18:09:54Z,1,"I involuntarily watched this video with my mouth wide open because I couldn't believe that within 5 minutes into the video I understood what three 3 lectures+script couldn't explain ;) Keep up the good work, Josh",True
+@utkarshkulshrestha2026,2019-02-02T10:35:31Z,1,Superb explanation. Thank you. You make it so easy for us. Please keep on doing it. Do more on Machine Learning and Deep Learning.,True
+@XploreWithShishir,2019-01-31T16:43:15Z,3,how can one make things so easy....you are great.,True
+@s.h.raheem2981,2019-01-28T20:30:13Z,1,Please can you answer my question? How can i find the reliability of normal dis. by using the MLE for unknown mean and variance?please I really need the answer? and can we make a table for the expected results?,True
+@tjdud2651,2019-01-27T19:47:55Z,1,ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ오프닝은 왜 항상 이따위인거야 설명개명료명-쾌 your videos are so helpful!!!! <3<3,True
+@shwetakushwaha5664,2019-01-27T07:43:03Z,1,Really Awesome... Love for math again.,True
+@565-FENRIR,2019-01-24T21:54:18Z,0,"Fuck, man! I really, really enjoy your videos! I'm non-statistician, but now I can figure out more things thanks to you! Bravo!",True
+@tumul1474,2019-01-23T16:51:08Z,2,Double BAMM !! Awesome Tutorial !!,True
+@sumantabanerjee9728,2019-01-21T18:10:56Z,15,at 2:42 you said likelihood=0.03 for miu=30 but miu=28 which was used in the equation.,True
+@safeeqahmed3306,2019-01-18T13:32:27Z,1,Thanks a lot for the video. I have a doubt. It is my understanding that the probability of any single value occurring in a normal distribution is 0. We always calculate the probability of a value lying within a range. So how can we calculate the probability of a single value using the normal distribution formula?,True
+@JFernandes221,2019-01-18T06:03:42Z,1,Excellent video! It was really clearly explained.,True
+@pictureworksdenver,2019-01-16T08:52:21Z,0,Dude!,True
+@mrdan123x,2019-01-15T17:07:16Z,1,TRIPLE BAM!,True
+@Tyokok,2019-01-14T18:16:08Z,1,Best math tutorial channel so far on Youtube !!! Enjoyed the derivation so much !!! Great Thanks!,True
+@Tyokok,2019-01-14T15:50:04Z,1,"Thanks for the video. Question at 4:46! the formula to get max L for sigma, apparently that inverse quadratic function, you get max(L) at sigma=0, and L goes infinite. Could you please explain this?",True
+@kirshagunasegaran8355,2019-01-13T16:04:26Z,1,God bless you 😭😭,True
+@BilalAhmed-ib3yw,2019-01-11T07:22:26Z,6,triple BAM!!!,True
+@alialhadab,2019-01-10T16:14:32Z,1,Thanks Josh. Your videos are what I was looking for. Can you please do a video similar to this to explain the matrices to estimate parameters and covariates effects?,True
+@AnimeshSharma1977,2019-01-09T16:26:52Z,1,"sounds like a circular argument though, as it starts with mu and sigma in the gaussian equation to begin with ;)",True
+@hakangecili4072,2019-01-03T15:29:05Z,1,you got me subscribed at 13:37 Da cccCCCCHHHAAAiiinnnnn... RRrruuulll !,True
+@cmanna285,2018-12-31T00:50:21Z,1,This is awesome. You did a great job. Thank you for sharing.,True
+@DadeKuma,2018-12-25T18:02:22Z,2,"Josh, you are a wonderful teacher. Thank you very much for your effort. BAM!!!",True
+@kiveynen,2018-12-24T21:42:12Z,4,10 / 10 presentation skills :D. Love it.,True
+@tikke8511,2018-12-21T20:16:28Z,1,Thank you very much!,True
+@balaramkrishnahanumanthu5869,2018-12-17T07:53:20Z,0,"14.54, x1+...+xn =/= n(u), because the x'es are chosen at random, are not the defining variables for the curve(that are only being defined by sigma and mu), sorry, i was confused, and just realized that",True
+@matthewkim5420,2018-12-15T04:51:53Z,1,"Thank you, best explanation for mle out there!",True
+@IsisMarquesDesign,2018-12-14T23:20:18Z,1,"OMG, It's amazing! I definitely got thr DANG, ahaha!",True
+@HelloYouThisIsMe,2018-12-11T22:24:30Z,1,DOUBLE BAM!,True
+@jamemamjame,2018-12-10T20:09:42Z,2,Very thank. Here is the best Christmas gift fir me forever.~,True
+@jonibeki53,2018-12-09T01:45:48Z,13,"Man, you just explained my whole lecture topic clearly and fast. Thank you!",True
+@hengky753,2018-12-08T21:35:41Z,1,Good explanation and clear,True
+@xdxn2010,2018-12-08T09:57:21Z,1,great,True
+@rezakheyrandish779,2018-12-06T19:56:39Z,1,The way you teach is great :) Thanks a lot.,True
+@angelachikaebirim8894,2018-12-05T14:24:32Z,1,how did mean become 30 when you set it at 28 for the normal distribution ?,True
+@qcutex,2018-12-04T17:27:09Z,1,"informative and I like it, double bam:)",True
+@denisepatrick5547,2018-12-02T17:44:59Z,373,Some heroes do not wear capes......You are the real MVP!,True
+@RogerLynnScott,2018-12-01T23:06:23Z,2,"Hi, great video.  at 2:39min into the video shouldn't mean-mu be 28 instead of 30?",True
+@engineershmily,2018-11-30T18:30:32Z,1,"What is the difference between probability density function and likelihood function? For curve of likelihood of mean, what should be the range  of different mean values like in this example 20 to 40 ?will it be given how we know about it?",True
+@malukuboy26,2018-11-25T12:33:38Z,1,Thanks man!,True
+@Al.Mo.,2018-11-25T11:15:14Z,1,"""oooh yeah, plz keep going don't stop, feeling it already"" me having staty mathy orgasm",True
+@ArashKhoeini,2018-11-23T20:37:26Z,1,The way you explain these stuff is just AWESOME! Thanks man!,True
+@mg6192,2018-11-22T17:23:20Z,1,"Thank you so much! This was really intuitive. My question now is, what if you don’t know that it is a normal distribution? How would you figure out the likelihood?",True
+@davidhofmann4857,2018-11-20T13:07:49Z,1,Very nice!!!,True
+@user-lq8gg2uv9z,2018-11-17T21:46:21Z,4,This Channel keeps getting better and better.,True
+@DarnastTFT,2018-11-17T18:52:10Z,1,Great video for MLE,True
+@nurarfahsarifuddin2350,2018-11-11T09:38:20Z,1,"It really easy to understant, your video. Can you talk about Benoulli-gaussian distribution? And a lot thank for your other video :)",True
+@benphua,2018-11-10T03:03:23Z,1,"My hero... thanks for taking the time to work through a whole example, was utterly confused by this concept.",True
+@xiaochengjin6478,2018-11-08T08:00:33Z,1,This video is damn helpful,True
+@PavanKumar-ef1yy,2018-11-08T05:53:42Z,3,Excellent teaching,True
+@demondaze100,2018-11-07T20:39:28Z,1,This guy is like 3Blue1Brown of stats. Instant subscribe.,True
+@eemmmaaadd,2018-11-06T17:50:18Z,1,"I have seen many of your videos, and I can say that you made statistic looks sooooo easy. Thanks a lot.",True
+@mikail5682,2018-11-05T02:15:38Z,1,"well done, very good explanation",True
+@mikametalll4798,2018-11-04T12:36:56Z,1,"Hey! I saw your video index. I didn't find any of MAP. Do you intend to do one video of Maximization a Posteriori? If you don't, do you have any reference (as well explained as yours)? Congrats on the great job you do man! You're one of the small population of Youtubers that make Youtube worth to spend the time.",True
+@Matias-eh2pn,2018-10-30T15:16:52Z,1,Do you have a similar video for the two parameter Weibull distribution?,True
+@liambigler7675,2018-10-29T06:37:56Z,1,Legendary. Triple Bam!,True
+@joeychu3439,2018-10-25T02:56:07Z,1,Great explanation and steps . Could you also talk about EM for Gaussian mixture model? Thx,True
+@akjdl5734asdf,2018-10-16T21:11:29Z,83,Joshua you are a hero! Truly a man of the people. Bless you kind sir,True
+@ddw802,2018-10-13T05:59:30Z,1,Triple bam!,True
+@squarema,2018-10-09T23:00:18Z,1,Very good step by step explanation!,True
+@tariqkhasawneh4536,2018-10-05T15:43:59Z,2,Could you do a video on MAP please.,True
+@rrrprogram8667,2018-09-30T17:40:35Z,2,MEGA BAMMMM..... Long time no see Josh..... was occupied with regular work lately....,True
+@worldofbrahmatej2023,2018-09-30T00:01:31Z,1,Excellent!,True
+@martinai,2018-09-26T01:20:36Z,2,dude you rock!,True
+@dougiehwang9192,2018-09-21T02:09:43Z,1,BAM!! DANG!! MAXIMUM BAM!!,True
+@jedidelalog9834,2018-09-20T19:53:20Z,2,A bit long but honestly it is really worth it!!!! :),True
+@serg8004,2018-09-18T04:20:38Z,1,"Thanks Josh, great video as always",True
+@777bloomingdale,2018-09-11T03:41:01Z,11,"Dear StatQuest, Great explanation. Please do video on MCMC metro polis Hastings and Gibbs sampling.",True
+@blakeobeans,2018-09-11T02:48:12Z,2,Epic,True
+@thongnguyen1292,2018-09-10T22:59:16Z,3,Triple likes!!! Can't wait to see videos on more advanced concepts,True
+@krishnarupz,2018-09-10T19:27:09Z,1,Is mu at 2:45 equal to 28?,True
+@sonicking12,2018-09-10T18:33:13Z,13,Can you talk about the EM algorithm? Thanks.,True
+@faridrv3889,2018-09-10T15:45:20Z,1,Thank you so much,True

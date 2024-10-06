@@ -1,0 +1,27 @@
+author,updated_at,like_count,text,public
+@princejindal3618,2022-06-28T18:00:10Z,26,"For the people who are trying to implement the train_test_split and getting error.  The reason for this is when you apply lemmatize some sentences in the corpus are turned to blanks.  Try running the below code after lemmatizer code: [[i,j,k] for i,j,k in zip(list(map(len,corpus)),corpus, messages['message']) if i<1]  You will see that around 8 sentences are turned into blanks and their length is zero. The reason they turn blank is that all the words in the sentences below are in stopwords list.  [[0, '', 'What you doing?how are you?'],  [0, '', 'Where @'],  [0, '', '645'],  [0, '', 'Can a not?'],  [0, '', ':) '],  [0, '', 'What you doing?how are you?'],  [0, '', ':( but your not here....'],  [0, '', ':-) :-)']]  Because of this reason, 'simple_preprocess' ignores these rows in the corpus and the final dimensions of X and y do not match i.e 5564(X) vs 5572(y). Therefore train_test_split also throws an error.  To fix this, recalculate y by removing the messages dataframe rows corresponding to the above blank sentences as follows:  y = messages[list(map(lambda x: len(x)>0 ,corpus))] y=pd.get_dummies(y['label']) y=y.iloc[:,1].values  y.shape",True
+@sagarbp-2854,2024-04-14T11:26:00Z,0,"Hi Krish, Ineuron link is showing 404 error. I wanted to download resources",True
+@kartiksood8105,2024-04-03T10:44:01Z,0,I am getting this error while training my avgWord2Vec model. Any fixes? TypeError: only size-1 arrays can be converted to Python scalars,True
+@AlgortiMath,2024-03-07T00:21:01Z,0,Thank you Sir 🎉,True
+@saurabharbal2684,2023-03-15T13:56:33Z,0,"Hi sir hat's off to you, I am facing errors while implementation of word2vec and avg_word2vec on mails dataset. Please help me solving this error",True
+@user-kz4xe5to1g,2023-01-18T15:01:51Z,0,44:05 45:02 lol,True
+@MM-vx8go,2023-01-16T04:05:55Z,0,Informative 🎉,True
+@technicaljethya993,2022-12-09T10:00:46Z,0,Thanks 🙏,True
+@WahranRai,2022-09-06T17:29:45Z,1,"By taking the average, 2 different sentences (input) could have the same AvgWord2vec",True
+@datasciencegyan5145,2022-08-26T04:07:42Z,2,You can continue with the quiz it's really fun and getting to know how much knowledge we are getting.,True
+@ravichoudhary2365,2022-08-21T14:50:23Z,0,Thank you Krish for your Amazing Video. I have learn a lot from your videos. Since last 2 years I have been following you. Thank for everything,True
+@saimanohar3363,2022-08-12T18:32:26Z,0,"Thanks, Krish for providing free sessions. Really appreciate your guidance. 👏",True
+@hargovind2776,2022-08-09T13:47:29Z,0,Awesome stuff,True
+@ratnak1058,2022-08-07T16:25:07Z,0,Sir please explain interview questions with answers,True
+@ratnak1058,2022-08-07T16:21:56Z,0,Thank you sir,True
+@pankajkumarbarman765,2022-08-01T02:54:46Z,0,Thank you sir for this amazing session 👌👌👌👌👌👌,True
+@anirudhagrawal5044,2022-07-19T21:51:37Z,0,"Krish, I'll be as honest as possible. There is no better educator who teaches soo well about data science and also gives the more profound knowledge of  concept that is not even available on any platform that is paid thank you so  much for teaching .I am really grateful to you.",True
+@venkatasubbareddykachiredd9343,2022-07-11T22:29:41Z,0,"Hey Krish, I am not sure if you have clarified this, but I have a question. When we train our own model for Word2Vec, do we have to 1) split the corpus even before lemmatizing and generating word2vec model or 2) include the entire corpus (because lemmatization requires the entire vocabulary) and then split only when training the model. If we follow the first method, will we have an out-of-vocabulary issue?",True
+@sandipansarkar9211,2022-06-27T18:04:29Z,0,finished watching,True
+@progamer0256,2022-06-26T17:31:44Z,1,sir i dont attend your live session becuase of job but later i watch your every videos to catch each and every word u says,True
+@vijayalaxmimchatter6650,2022-06-25T13:04:50Z,2,"Hi Sir, actually I tried building model which was part of assignment.. but I was getting error while splitting the data into train and test.. can you please do it in next class...",True
+@nikhilgupta4859,2022-06-24T17:55:27Z,3,"Heyy Krish, I am your subscriber from past 1.5 year and I feel honoured to tell you, after following you I finally got a job transition as a senior data scientist at an MNC 6 month back. Now I have understood the datascience project ecosystem in my company. You are one of the contributors for my success. Thanks a Ton!!!!!  Also I would like to open my hands for helping learners. So learners you can tag me asking any doubts. I would be more than happy helping you.",True
+@litonpaul6133,2022-06-24T16:22:08Z,1,Hi Krish..Please share interview questions regarding the topic which you are teaching after completing the teaching every session. It will be helpful. Day by day people will be ready for interviews. That is the idea.,True
+@adityanarendra5886,2022-06-24T04:27:51Z,1,"When doing TrainTest Split for the AvgWord2Vec in the day5 notebook at the end one. Its showing: Found input variables with inconsistent numbers of samples: [5564, 5572] My code: from sklearn.model_selection import train_test_split X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.2,random_state=0)  Please Help. Btw Loved the Session👍🏽.",True
+@mallikamehta3928,2022-06-24T04:27:44Z,1,how to open an account on github and post our projects,True
+@AnkitSharma-yh3nm,2022-06-24T03:24:50Z,0,Awesome Session😊,True

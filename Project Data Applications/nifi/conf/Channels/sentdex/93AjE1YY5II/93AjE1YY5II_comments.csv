@@ -1,0 +1,21 @@
+author,updated_at,like_count,text,public
+@jairajsahgal5062,2021-09-21T19:58:04Z,0,Thank you,True
+@swarnarampalli,2019-11-18T14:13:18Z,0,Could you give me an example with class_weight as dict?,True
+@prateekgupta11,2019-01-24T13:32:38Z,0,"@sentdex this could be a better way to convert to numeric from non-numeric columns!!!! import numpy as np import pandas as pd  df = pd.read_excel(""titanic.xls"")  # selecting names of columns which are non-numeric non_numeric = [col for col in df.columns if df[col].dtype!=np.int64 and df[col].dtype!=np.float64]  #column wise finding unique values and replacing it with 1 till the number # of unique values in the column for col in non_numeric:     value=df[col].unique()     df[col].replace(dict(zip(value,range(1,len(value)+1))),inplace=True)",True
+@MrTravelerX,2018-11-20T13:46:35Z,1,Do you have a video or some reference to a video about image classification with SVM?,True
+@Rossboe1,2018-09-08T19:09:48Z,0,"Hi, I have  7 independent varibles where 1 needs to be weighted heavier than another 1, but the rest the same.  How do I do that? LogisticRegression = (class_weight{4:5}). When I try and fit the classifier to the X and Y training sets it doesnt see the independent varible 4 in the y_train. But y_train has only  1 dependent variable?",True
+@noureddinehoucineamraoui7537,2018-06-15T16:17:40Z,1,"could you please make a tutorial on One Class SVM, I can't find anyone on Youtube",True
+@jrM5492,2018-05-21T04:30:29Z,0,so...how do you classify more than 2 classes in practice?,True
+@sorabhrathod2333,2018-04-04T14:25:06Z,0,how do you install cvxopt for Python 3.6,True
+@geetanjalisharma3521,2018-03-17T04:43:48Z,0,"sir, i have extracted the feature of each layer but i dont know how to concatinate into single vector ....?????????? and then how to use in svm  ?????",True
+@DaLoler1,2018-03-15T13:15:46Z,1,Wich one of those are W and wich ones are B ?,True
+@geetanjalisharma3521,2018-03-05T09:44:21Z,0,how to use svm classifier for multi class classification in python ??,True
+@BudiMulyo,2018-02-23T03:33:48Z,0,"i like all u tutorial.. keep good tutorial bro..   btw, can i ask, in ovr why 3 vs 8,  it's should be 3 vs 7 ?",True
+@sultanmdsabir16,2017-07-21T12:04:50Z,0,Can any body give me walkthrough  for anomaly detection :fraud detection experiment using one class support vector machine algorithms in azure machine learning .thanks in advance sir. I am very new to machine learning,True
+@lodashnotebook5390,2017-06-12T23:19:43Z,0,"Quick question, these 'from scratch' videos where you make the algos right from scratch are pretty much going from the top of my head. Can I just skip to video 33 (this) since you're gonna start using the actual machine learning methods w/ parameters?",True
+@clickaws2654,2017-06-11T13:47:23Z,1,"topics are more clear due to this lecture , what we can actually do and  which  one topics are related to another topics ....THank you",True
+@ragvri5657,2017-05-30T17:27:53Z,12,Why no practical eg for svm using kernels?,True
+@greettheceo395,2017-01-21T10:27:57Z,0,"Hi @sentdex,   a very explanatory tutorial found it very helpful,  I have a question in Input parameters ( X : {array-like, sparse matrix}, shape (n_samples, n_features) ), how can we add sparse matrix ? considering sparse would be libsvm format  ( <label> <index>:<value> <index>:<value>)  thanks",True
+@kaushikkashyap1378,2017-01-05T19:46:09Z,0,Hi.. Very good tutorial. I have one question. How can you calculate confusion matrix in this? Do we need to calculate separately ?,True
+@lauraomalley7419,2016-06-06T19:35:00Z,0,Could you make a video working with the google vision api with face/label detection and just how to use it or even making minor modifications to the code they offer?,True
+@knabbagluon,2016-06-04T08:17:14Z,1,Love your work. Recently I learned about: https://www.udacity.com/ Maybe it is interesting for some viewers or even our sensei :),True

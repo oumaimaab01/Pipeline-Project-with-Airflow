@@ -1,0 +1,102 @@
+author,updated_at,like_count,text,public
+@banku3708,2024-03-29T12:23:30Z,0,Can’t u use update instead of the replace . Because I used update and it got it done,True
+@pourannazariansamani1400,2024-03-12T16:16:18Z,0,"Hi Alex! by running substring code , I didn't get the result in the table??    select err.FirstName, substring(err.FirstName, 1,3), dem.FirstName, substring(dem.FirstName, 1,3) From EmployeeErrors err join EmployeeDemographics dem  on substring(err.FirstName, 1,3) = substring(dem.FirstName, 1,3)",True
+@yanpaucon1043,2024-03-11T13:18:28Z,0,"It only showed jim and Pam,  I don't know why it didn't show Toby.",True
+@Ifeypeters,2024-03-02T05:30:07Z,0,"Thank you so much Alex, you've been a great help to my Data analytics journey. I noticed the original inputs on the error table doesn't change after using the TRIM functions, how do we achieve this?",True
+@user-ui9ti3wk7n,2024-02-21T15:01:55Z,0,"The fuzzy matching code does not work for TOby on my end, it only works for Jim and Pam",True
+@al-kaviulsarker9733,2024-02-04T12:51:49Z,0,I did not understand the fuzz matching and why only TOby came as outcome?,True
+@charitaa1218,2024-02-02T19:53:07Z,0,"What if we want to filter numbers instead of strings based on first 3 or last 3 values from a column,is there a specific alternative to substring function?",True
+@avidhakal6451,2024-01-30T13:42:37Z,0,Hey alex thanks for the video  Just a question  Why do sometime i need to refer to whole database and sometimes just the table name while refering to the tables during join or some other operations ?,True
+@catarinamacedo2864,2024-01-02T13:04:05Z,1,"I didn't see bad data at all hahahah It'd not be a surprise if Michael Scott put Fired as the last name of Toby and write it wrong, and put Beasely and Jimbo nicknames as well 😂😂Gotta love the consistency  with the show in this tutorial",True
+@TopGear-GT,2023-12-14T16:17:24Z,0,👍,True
+@davidcrdz1966,2023-12-12T17:28:20Z,0,I noticed that some commands were written in lowercase and some in uppercase;  is there a best practice procedure using either format?,True
+@chrisomoha636,2023-11-28T20:05:51Z,0,great lesson,True
+@asiagladden3080,2023-11-28T18:56:02Z,0,This was so clever! Thank you!,True
+@1440MAP,2023-11-19T15:57:38Z,0,Learned. Thank you!,True
+@lorainemukwauri9349,2023-11-18T22:09:32Z,0,"Hey Alex,great fan of your work by the way, but the SUBSTRING concept was poorly explained.",True
+@user-ih7ot7vl8u,2023-11-16T15:43:12Z,0,Many thanks for  great tutorial. 🙌🏻,True
+@emekahenry8140,2023-11-15T14:07:53Z,0,Using Replace: Flenderson-fired nothing Changed. Mine didn't work. Any help,True
+@uchindamiphiri1381,2023-11-03T09:57:30Z,0,I am really enjoying this. at first I tried all programming languages but now I think I know what I want. I want to be a data scientist and am sure taking a data analytics course to master these skills first isn't wrong right?,True
+@manthansharma2578,2023-11-02T06:33:41Z,1,"Hi Alex, Thanks for the boot camp, Really helpful for newbies. Just a question, Why can't we just use the update command instead of replace, Like:  Update EmployeeErrors Set LastName = 'Flenderson' Where Firstname = 'Toby'  The outcome is the same.",True
+@katedavid4519,2023-10-20T14:09:46Z,1,"Hi Alex, thank you for this tutorial.  I am getting an error for the substring - Invalid object name ‘EmployeeDemographics’ Please how do I sort this? I’m stuck",True
+@havinashz,2023-10-10T12:23:39Z,15,as a fellow office fan and an aspiring data analyst i love your content,True
+@rajkumarrajan8059,2023-09-23T06:48:38Z,0,"Hi Alex, How can we do a proper case in SQL? Is there a way to do that?",True
+@s.g.937,2023-09-14T00:56:49Z,2,"And if we wanted to  lower case just the second letter of the name TOby for example, or any other name in which the second letter is uppercase we could use the following:  *LEFT meaning only the letters starting from the LEFT, and the number 1 means only 1 letter. Basically only the first left letter.  *LEN meaning the length of the name, so basically this will use the maximum length of the name.  SELECT FirstName, UPPER(LEFT(FirstName,1)) + SUBSTRING(LOWER(FirstName),2,LEN(FirstName)) AS CorrectedName FROM SQLTutorial..EmployeeErrors  But is there a better and shorter way ?",True
+@islammounier1477,2023-09-10T12:31:08Z,0,i just wanna ask there are upper and lower ..what about the proper is it exist or not ?,True
+@islammounier1477,2023-09-10T11:45:49Z,0,this course is very useful and quick not boring at all 😍🤩🤩,True
+@justmedidi,2023-08-29T15:16:27Z,0,"learning this is great, but how can these changes/fixes be made permanent? when i go through the examples, the table with errors still contain the errors and the data doesn't update..",True
+@user-le2ei6ue7l,2023-08-03T22:44:51Z,0,Why use LTRIM and RTRIM at all? Why not just TRIM everything?,True
+@YouTubeVenJiX-zl4bj,2023-07-19T10:06:55Z,3,Hello sir can you please make one separate video on substring 🙂,True
+@joshuasolano9631,2023-07-18T15:04:33Z,0,Is this for checking purpose or editing purpose?,True
+@SamFisherman59,2023-07-10T20:45:50Z,1,"loved the ""Flenderson - Fired"" ... good idea to keep the video informative and fun ... very clever.",True
+@joytotha,2023-06-24T02:12:31Z,1,"😂😂Not Michael learning SQL to insert 'Fired'  CREATE TABLE #Damnit_Michael  (EmployeeID varchar(50), FirstName varchar(50),  LastName varchar(50),  Age int,  Gender varchar(50))  INSERT INTO #Damnit_Michael SELECT *  FROM EmployeeDemographics  UPDATE #Damnit_Michael  SET LastName = LastName + ' - Fired' WHERE EmployeeID = 1005  SELECT * FROM #Damnit_Michael",True
+@blip_qild,2023-06-19T06:35:02Z,2,8:05 can someone tell me how he could just type [EmployeeDemographics] without adding the sources [SQLTutorial] like the previous Queries??,True
+@rahathussain9313,2023-06-09T14:30:34Z,0,how do i correct table.EmployeeErrors ID-1002 row of extra spacing through sql not manual  replacing,True
+@chefernandez563,2023-05-30T12:39:09Z,0,"im a marketing major trying to learn data analytics, i do not have any background in programming so i dont understand the substring function at all I cant imagine a use for it other than getting a few characters from a first name for example. watched it over still dont get it😂",True
+@newbie6377,2023-05-25T18:00:57Z,0,why do i have two rows of TOby after executing ?,True
+@swetachaudhary6826,2023-05-18T12:05:24Z,0,Its not working for me,True
+@elizabethwillrealtor,2023-05-01T15:01:21Z,0,"Hi Alex, thank you ones again for putting this together.  I have a little challenge. The substring didn't fully work for me. The command was right. It displayed only the column but didn't display the datas. The other string worked just right.  How do I fix this please?",True
+@amaoamao9443,2023-04-25T15:36:24Z,0,Thank you! I did learn a lot!,True
+@paarthkohli6552,2023-04-20T11:54:44Z,0,I like those references to The Office 😂,True
+@FrederickFongTW,2023-04-17T13:21:46Z,0,More information on this.... need to watch more than once 😂,True
+@Babulal32218,2023-04-17T04:18:24Z,0,Length function can be used to understand change post RTRIM better,True
+@shadan5487,2023-04-08T22:20:25Z,0,1:16 NO GOD! NO GOD!  PLEASE NO!!! NO NO NOOOOOOOOOO,True
+@anthonyd9043,2023-04-05T21:45:57Z,2,"Thanks Alex, I'm curious if there's a TITLE string command to revert back to ""Title"" case from either ""UPPER"" or ""lower"", something I come across occasionally.",True
+@faizlabunu4460,2023-04-05T18:42:07Z,0,"again this toby caught me offguard, finally toby got fired after didnt get raise salary and got deleted from list XD",True
+@alaeddinmsetri4788,2023-03-25T16:27:59Z,0,Good expalanation thanks,True
+@CaelestsFilius,2023-03-24T17:24:14Z,0,"Why can't you do it as replace(lastname, '-%',' ') ? Is there a reason you can't use the wild card?",True
+@allahverdibalamemmedov-jl4uv,2023-03-23T08:42:36Z,0,amazing tutorials,True
+@NB20079,2023-03-19T03:48:01Z,0,"Hi, how to fix this.  After creating a table, I can't see  where the table is?Before I had the success of creating a table but now i can't see the table after creating the table, can anyone help me? Thank you",True
+@nehamehra3736,2023-03-14T14:23:51Z,0,@5:09 This query is not working in MySQL.,True
+@shokoofehheidari5345,2023-03-08T00:59:27Z,1,Great video :)! Thanks so much!,True
+@phuocvuhoang3606,2023-03-06T18:16:22Z,0,"CREATE TABLE EmployeeErrors ( EmployeeID varchar(50) ,FirstName varchar(50) ,LastName varchar(50) )  Insert into EmployeeErrors Values  ('1001  ', 'Jimbo', 'Halbert') ,('  1002', 'Pamela', 'Beasely') ,('1005', 'TOby', 'Flenderson - Fired')  Select * From EmployeeErrors  Code here.",True
+@EMO_85,2023-02-28T14:51:00Z,0,"Hello Alex, I have a little issue here. While inserting values to my EmployeeError table, the blank spaces inserted in the EmployeeID did not reflect on the table. My table executed without any blank space in the EmployeeID. What could I be doing wrong?",True
+@danielorji595,2023-02-27T12:16:21Z,0,"Proper works fine too, just tried it",True
+@samuelraj5613,2023-02-13T10:59:31Z,0,Done,True
+@akshayspeaking,2023-02-08T14:00:50Z,0,"For some reason, TOby and Toby are not showing up in the SUBSTRING function. Can anyone help? I have copied the data from GitHub, yet I don't know what I'm missing.",True
+@hirdyeshvanvani5763,2023-01-19T08:02:51Z,0,"Great Video, I was wondering if there is an efficient way to convert the string into Proper case? since SQL doesn't have any PROPER function..",True
+@Quis1989,2023-01-18T04:45:21Z,1,"Can you join on multiple fields? In other words, have multiple ON statements in a single join?",True
+@naorl8866,2023-01-16T07:44:28Z,0,How can you fix TOby by make only the first letter upper and the rest lower?,True
+@pavanreddy9543,2022-11-15T17:53:40Z,0,"Hi Alex, I have a question here about using UPPER and lower. How do we make the first letter as UPPER and all other letters following it as lower letters??",True
+@MrDannie7271,2022-11-14T20:56:18Z,0,"thnak you for the git hub, can you add that to all your videos? thank you.",True
+@willieleaverton668,2022-10-20T15:07:48Z,1,"You explain everything so smoothly I appreciate your work! In the last part of this video, is there a way to only lowercase the ""O"" in ""TOby""? Or is it all upper / all lower?",True
+@jismissalim9214,2022-10-01T18:37:30Z,0,"Hi Alex, I want to ask what's difference replace and update?",True
+@halildurmaz7827,2022-09-24T18:23:31Z,0,"4:47 Here, ""- Fired"" should be "" - Fired""   Otherwise, you will return ""Flenderson "" (with 1 space character)",True
+@rohansrivastwa827,2022-09-18T12:21:37Z,0,How does your column name automatically change to its name in the column.. .I struggle a lot in writing exactly my table.column_name...pls explain to anyone!,True
+@rohansrivastwa827,2022-09-18T12:21:23Z,0,How does your column name automatically change to its name in the column.. .I struggle a lot in writing exactly my table.column_name...pls explain to anyone!,True
+@romanvasiura6705,2022-09-02T05:00:11Z,1,I am curious to know... Why Alex put comma(s) before line (Create/Insert statement)? Thank you for these tutorial videos 😀,True
+@franzjosefbenjaminmacapaga278,2022-08-28T09:23:37Z,0,"Hi Alex, under STRING FUNCTIONS + USE CASES video - I tried to execute the Fuzzy match example you ran, however it is not showing me any results at all - I tried to Drop the EmployeeErrors table and created it again but still nothing is showing up I can only see column headers but no 'Toby' data :(",True
+@anthonynkem,2022-08-26T12:19:03Z,1,Awesome tutorial. Thanks Alex!,True
+@AhmedAli-pp1jo,2022-07-28T21:23:09Z,0,"Great video) I got one question, how we can replace last name, here is the situation. I put where condition it did not work FirstName                                        Last Name Alison                                                -Plunket Madison                                            -Plunket",True
+@StevenDonaldson11,2022-07-26T19:09:55Z,2,Whoa the sound is suddenly better.,True
+@ancamihaila3986,2022-07-26T15:50:30Z,0,Hi everyone! I don't get it why TOby doesn't appear in my table when I do the Substring.,True
+@ifedijnrezenwobodo4119,2022-07-16T07:31:28Z,11,"I don’t know if this helps, but I found out you can run TRIM, LTRIM, RTRIM, Lower and Upper, all in one go from Select. Example: SELECT EmployeeID, LTRIM(1002) As IDTRIM, LastName, RTRIM(‘John’) As Name, LastName, UPPER(‘Jim’) As New FROM EmployeeErrors",True
+@salehmehdizade,2022-07-08T12:03:50Z,0,But is this trim and replace stays in the table permanently ?,True
+@josephj1643,2022-06-28T05:34:07Z,7,This was exactly what I needed for one of my assignments in my course! Thanks a ton!,True
+@krishnabarfiwala5766,2022-05-24T09:46:53Z,0,"Hey Alex, awesome video. Do you have a video for Windowing functions?",True
+@timemage729,2022-04-09T01:24:43Z,0,"I seem to be having trouble with the REPLACE function. I have the query written out exactly as it is shown on screen, however, the last name is not being changed in  the new column. When I tried to change the last option to change the last name, the same thing happened and nothing new was inputted into the new column. Any advice?",True
+@chvenkatesh6642,2022-03-03T09:45:01Z,2,Hi sir we have PROPER function in EXCEL do we have anything like that in SQL,True
+@niroshamirthipati5833,2022-01-31T02:07:19Z,14,"Thanks for creating this content, Alex. I request you to create a video on Ranking Window functions like Rank (), Dense_rank (), Row_Number () with the same database.",True
+@shyamss2338,2021-12-18T01:58:24Z,0,"Can we apply lower on a substring function? Like select firstname, lower(substring(firstname,2,3)) from tablename",True
+@shyamss2338,2021-12-18T01:57:39Z,0,"Can we apply lower on a substring function? Like select firstname, lower(substring(firstname,2,3)) from tablename",True
+@giuliamancini5887,2021-11-29T11:23:46Z,3,"Hi Alex! Thank you for this amazing tutorial! I run the substring code that you have kindly shared with us and that i put below but it show me just Jim and Pam but not TOby. Maybe it's keysensitive or something else? I know that i gave you just few infromations and i don't expect an answer but i thank you for this beautiful video. I send you an hug! Select Substring(err.FirstName,1,3), Substring(dem.FirstName,1,3), Substring(err.LastName,1,3), Substring(dem.LastName,1,3) FROM EmployeeErrors err JOIN EmployeeDemographics dem 	on Substring(err.FirstName,1,3) = Substring(dem.FirstName,1,3) 	and Substring(err.LastName,1,3) = Substring(dem.LastName,1,3)",True
+@jackp1490,2021-09-03T17:28:22Z,3,"Should've made the error for Pam as 'Pan'  ""Okay, see you later Pan"" - Dwight",True
+@digileapmarketingservices,2021-09-01T12:17:41Z,1,very well explained. Thank you for sharing contents like this,True
+@rafatruong,2021-08-31T08:28:42Z,0,"Dear Alex, I can't use Trim function in SQL 2018. SQL show messege : 'TRIM' is not a recognized built-in function name.  Tks for help Alex. :D",True
+@jonasvianney6371,2021-07-21T19:18:35Z,0,Hello Alex  My name is John all the way from Uganda(africa) I wanted to follow a path to becoming a data analyst through self study but all I need from you is what exactly do I need to study n concentrate on. otherwise thanks for the good work,True
+@41dhir,2021-06-24T13:53:08Z,45,Apparently you and Michael both hate Toby a lot. First giving him 0.0001% raise and now this.,True
+@sriramvoruganti1399,2021-05-25T07:03:37Z,0,What's the difference between using the master server and the SQL Tutorial ? l am often confused which one to use usually,True
+@sreeramvenkatasubramanian6300,2021-04-23T06:24:59Z,0,"How it could be if I need to change the case of one specific character alone.  -- Select FirstName , Lower(Substring(LastName, 1,1) from Table_Name; --  # I am changing the first letter of my last name into lower case.  Do you think is this a right approach? if not, kindly rply with the correct method to do.",True
+@gwenchen1771,2021-04-15T21:44:11Z,9,"Great video :)! Thanks so much!  is it possible to do tutorials or a video with your opinions on while loops, cursors or dynamic sql?  I'm wondering how useful they are/use cases for each and is it worth it to spend time studying them...",True
+@flygame2743,2021-03-18T10:40:37Z,6,Can you use the UPPER or LOWER case Stringfunction on only the First Letter for example?,True
+@JamesAndrewA,2021-03-11T16:26:09Z,23,I love this series please make more! I cant wait for your portfolio project.,True
+@sakirinteser9536,2021-02-22T16:01:34Z,0,"As a beginner, is it necessary to SQL projects to showcase my skill in SQL? If so, what kind of projects do you suggest for a beginner to do?",True
+@tyvanra2266,2021-02-17T01:49:21Z,0,CREATE TABLE  dd/mm/yyyy  ? Teach immediately thank you,True
+@mohamedabdourahman9845,2021-02-16T05:35:10Z,0,https://www.udemy.com/course/complete-python-bootcamp/ currently the course isn’t on sale but would you recommend this course for a first time  zero programming and python experience?,True
+@kobi981,2021-02-12T13:36:24Z,2,"Hey Alex how are you? Hope you’re doing good I’m gonna start school in the next summer ,the studies that I want are statistics with Data science. I wanted to ask you 2 questions: 1. How can I know for sure that I like the data science studies? 2.unfortunately, the first course in the degree is Java and I heard that it’s very hard Compared to python or sql.. I’m new in the programming world and I want to start  the basic python course soon..how can I prepare myself better for the degree and Java studies?  Thanks and stay safe:)",True
+@ArbHunter,2021-02-09T15:15:29Z,6,"Thanks well explained  Looking forward to your py videos, are you doing any pandas ones?",True
+@adhiganesh9145,2021-02-09T07:50:16Z,1,"Hi Alex,  Nice video.  I am currently doing the job role of Rpa Developer, specialized in Uipath. But I do not have a future as I am not an expert in Coding. Is it advisable for me to switch my career to Data Analyst? Please reply.",True
+@markt8696,2021-02-05T19:51:10Z,1,"hey man, do you any ENFPs who love being a Data analyst?",True
+@silencer91,2021-02-05T17:57:33Z,0,"Hey Alex, I'm a cybersecurity major who has been exposed to python, java, HTML, and some networking as well. Does a sports analyst fit my major?",True
+@marcelopereira1183,2021-02-04T19:55:59Z,2,"Hi Alex, I'm a finalist on a bachelor and I just got an academic internship for a BI team.. I want to apply for my masters (at night) and although different I love both BI and Data Science... In terms of future, what would give me more job stability? Any thoughts? Thx in advance and thx A LOT for all the videos you make they really help!!!",True
+@jakeduddy3257,2021-02-04T16:02:56Z,1,No regular expressions :(,True

@@ -1,0 +1,54 @@
+author,updated_at,like_count,text,public
+@biplob973,2022-10-11T03:07:37Z,0,Awesome boss.,True
+@deepika2472,2022-09-19T13:26:56Z,2,"hi, it would be really helpful if you share the exact links of the videos that you mention in your videos. Some of us may be looking only for a particular concept and not the whole ML series.  Thank you!",True
+@AjayKumar-id7mb,2021-08-29T23:17:39Z,0,"It is not sensitive to outliers.Since, extreme values or outliers, never cause much reduction in RSS, they are never involved in split. Hence, tree based methods are insensitive to outliers.",True
+@ArunKumar-sg6jf,2021-08-08T15:24:18Z,0,Lgm boost video when bro,True
+@rahulnairai,2021-07-16T08:02:30Z,3,Second Question: Decision Trees is a non-parametric technique and there are no assumptions hence outliers have no effect on the final result.,True
+@karthebans2420,2021-04-19T18:31:10Z,0,Very much informative and keep exploring such knowledge. It will enhance our learning skills.Thank you so much,True
+@AK-ws2yw,2021-04-17T14:39:23Z,13,"For Classification Decision Tree should not be affected by outliers as it calculates best split based on Gini Impurity or Information Gain criterion, however for Regressor Decision Tree algorithm calculated Mean Squared Error for each value, in which case outliers would affect result, thereby we need to consider mean or median imputation before building model",True
+@vimalthanth1147,2021-04-05T04:03:53Z,0,"if depth of DT is large then, leaf nodes contains very few points. so outliers can impact on such trees.",True
+@bishwajeetsingh8834,2021-03-31T09:30:35Z,0,"if the outliers are in the predictor variable then there will be no effect on outliers, but if the outlier is in the target variable then there will be an impact (not necessarily)",True
+@debadattanaik3467,2021-03-27T19:47:50Z,0,"Hello Sir,                If my table consists of a large number of features set that are having binary values.  So how can I determine the importance of any feature in terms of Entropy or Ginni Index? Is there any other metric used to determine the importance of a feature?",True
+@adiflorense1477,2021-03-04T09:18:47Z,0,"7:22 Sir, I think that mean square error is a model validation method",True
+@adiflorense1477,2021-03-04T09:15:33Z,0,6:53 Great sir.  is the term outlier the same as noise?,True
+@Yashgupta-dd6eq,2021-02-22T04:38:14Z,0,Decision trees are not sensitive to the outliers.,True
+@chandanbhardwaj6723,2021-02-17T14:08:47Z,0,Please make a video on ensembled technique in brief.,True
+@PriyankaSingh-gc1ze,2020-12-25T22:33:26Z,2,"Decision Trees can be impacted by outliers if the decision tree constructed is very deep, as when the trees are very deep , the chances of overfitting the noise increases  and outliers  will  have higher possibilities of impacting the tree in such case",True
+@vaddadisairahul2956,2020-12-02T08:36:41Z,0,"Outliers do affect decision trees but are not handled implicitly in algorithms like ID3 and C4.5. However, CART handles outliers using cost complexity pruning.",True
+@bhumikalamba186,2020-10-25T09:16:51Z,3,Outliers increases the chances of overfitting of the decision tree unless the pre-pruning measures are specified. Post-pruning can also help to prevent making overfitted decision boundary regions.,True
+@adiflorense1477,2020-10-08T04:07:50Z,1,"7:12 The classifier is a decision tree if the labels are categorical, while the decision tree regressors if the labels are continuous",True
+@adiflorense1477,2020-10-08T03:01:42Z,0,"3:32 Sir, in the decision tree, are noise and outliers the same term?",True
+@arjunbali2079,2020-09-16T06:51:55Z,0,thank you,True
+@nikhilparmar9,2020-09-07T14:14:53Z,0,"Very informative video. Which video should I refer for the DT Library question from your ML Playlist?  I searched the playlist, pls let me know. Thanks",True
+@satyamuralidharpeddireddi6192,2020-08-23T05:36:40Z,0,Sir could you please suggest best laptops for deep learning model trainings around 70k,True
+@isaiahss2193,2020-08-21T22:38:36Z,0,Great Video! Thanks so much.,True
+@shilpaprusty3319,2020-07-24T14:31:56Z,1,"Sir ,if we are doing multi class classification by DT,say a rating of product between 1 to 5 ,how will DT decide which class it belongs? This was an interview qs . How many decision trees are needed to solve it?if 1 how ,if many why?",True
+@shindepratibha31,2020-07-21T08:58:58Z,0,"Since decision tree uses probability, it has less impact due to outliers.  Can you please make a video on decision tree as regressor?",True
+@bhawnajyoti2000,2020-07-08T10:54:50Z,0,Very helpful,True
+@anujvyas9493,2020-06-13T10:18:07Z,4,"Krish you are doing a great job! Keep it up. . If by any means you read my comment, please add these videos in your interview questions playlist. 😊",True
+@prasunprakash2297,2020-05-20T12:05:40Z,0,"Hi Krish,  Could you please share the link for Decision tree with classifier as well as regressor both. I am unable to find in your playlist",True
+@Agrima_Art_World,2020-05-19T02:57:52Z,42,"Outliers does not impact Decision tree as they DOES NOT USE any distance metrics to calculate .They uses probilities by entropy,information gain or gini  index to create the tree.So basically no impact",True
+@arpittiwari6590,2020-05-10T06:20:09Z,2,Trust me man you have the best explanation.,True
+@nikhilgupta4859,2020-04-02T04:41:29Z,6,"Most of the people are commenting that there is no impact...however i think  outlier has impact in DT regression as we are calculating SSE.If there are outliers then SSE will be high,so we will not take the variable in the split,nomatter it is significant or not.",True
+@athyamjagadishkumar3819,2020-03-24T07:59:56Z,0,decision tree working on information gain i thinking decision tree not issue for outliears,True
+@abhishekkulkarni8813,2020-03-24T05:51:18Z,8,"Outliers can lead to overfitting in DT. As the depth increases those points may be the outliers, higher the depth chances of overfitting increase.",True
+@ankurbhargava2790,2020-03-23T20:22:55Z,1,There is no impact of outliers on DTs.,True
+@RajaSekharGowda,2020-03-23T14:54:45Z,0,We are very thankful to you sir...,True
+@jyotirmoymondal7640,2020-03-23T14:03:09Z,5,"Because decision trees divide items by lines, so it does not difference how far is a point from lines.Outliers will have a negligible effect because the nodes are determined based on the sample proportions in each split region.",True
+@jaggu6409,2020-03-23T13:51:50Z,1,Bro please post gradient boosting mathematical representation video on YouTube please,True
+@babupatil2416,2020-03-23T13:15:19Z,5,"We can say outlier is the one which is located distant away from all the data points, in case of Classification, distance never comes into picture, here we calculate Entropy then Information gain(some times Gini Impurity as well) whichever node gives best IG that node we select as a root node and the process continues. In case of Regression we chose that region as root node for which residual sum of squares is minimum, if we have outlier in data then RSS is always high hence we don't select that region which has an outlier at all. So in this way Outlier Doesn't have an impact on the Decision Tree.",True
+@marveltv5341,2020-03-23T12:38:48Z,1,3 videos.. back to back....  Yo...boiiii,True
+@ibrahimbadmus9264,2020-03-23T12:02:20Z,2,When are you doing the next live session?,True
+@kulpreetsingh9064,2020-03-23T11:37:26Z,3,"Do more of such interview question series, it is very helpful",True
+@pethumani.v7986,2020-03-23T10:55:04Z,0,I did n get ur answer,True
+@ritikdutta_com,2020-03-23T10:22:13Z,3,"we can use random forest to overcome outlier effect, in decision outliers are responsible for bad/incorrect nodes selection. we can also elaborate our answer by explaining incorrect impurity scores because of outliers.",True
+@mr.lingam,2020-03-23T09:55:10Z,0,Thanks and lots of love from us.,True
+@arpitcruz,2020-03-23T09:19:17Z,5,Krish is utilizing WFH very well.. video coming back to back,True
+@manishsharma2211,2020-03-23T08:49:26Z,0,Very informative,True
+@bharatpruthi278,2020-03-23T08:30:43Z,2,What about Cost Function of Decision Tree ? Is it Important concept w.r.t DT ?,True
+@abhishekpaul3486,2020-03-23T08:15:32Z,3,Continue the competitive programming please,True
+@cutyoopsmoments2800,2020-03-23T08:07:33Z,2,Great video,True
+@tusharchouhan9606,2020-03-23T08:05:30Z,1,Please sir reply,True
+@tusharchouhan9606,2020-03-23T08:05:07Z,1,I am in iiit vadodara,True
+@tusharchouhan9606,2020-03-23T08:04:52Z,2,How to do ds during btech,True
+@thunder440v3,2020-03-23T07:59:46Z,2,☺️🙏,True

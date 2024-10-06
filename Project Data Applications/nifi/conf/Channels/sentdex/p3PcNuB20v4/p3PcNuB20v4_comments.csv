@@ -1,0 +1,17 @@
+author,updated_at,like_count,text,public
+@atufasarwath582,2023-03-18T08:38:48Z,0,Hi i want to run my python script hourly which fetches live data in Postgresql db im trying to use kali linux it's not running file nor updating db.thankyou,True
+@kenn756,2020-11-14T13:15:10Z,0,Does the apscheduler package do the same cron job as described in this video?,True
+@itayb91,2020-06-17T11:54:34Z,0,"hey guys.  just published my new package: https://github.com/itay-bardugo/python-cron-migration  the package helps developers to add/remove cronjobs with python by revision files which are composed through CLI  I will be happy to hear what do you think. Enjoy :-)",True
+@michaels8297,2020-03-28T05:04:07Z,0,is is possible to set a cronjob from a flask route?,True
+@No_Direct_Translation,2019-01-16T03:38:15Z,0,"Damn, you're solid.",True
+@mileso7424,2018-10-04T19:29:39Z,0,"is this the same in Linux? if so, what about gnome scheduler that uses crontab?",True
+@torbjornsvensson2527,2018-08-08T15:37:22Z,0,Good tool to get it right: https://crontab.guru/,True
+@SaeedAhmed-ix8nm,2017-12-22T21:10:45Z,0,"Thanks alot for your video. Appreciated.  Little help needed. I want to turn On  light using 8 channel relay,  Raspberry pi 3 and code in python,  schedule: one hour every 4 hour, Everyday, 365 days a year. Can you please help me.",True
+@andrewkuehn9611,2017-11-15T21:28:51Z,0,I just want to say thank you for all that you do.  I enjoy your enthusiasm and your talent.,True
+@digvijaysingh6332,2017-08-30T12:14:07Z,0,how can we check the console of a file executing through a job?,True
+@luisduransandoval9627,2017-08-26T22:15:48Z,0,on django ?,True
+@HrvojeSpoljar,2016-10-26T15:50:34Z,0,drop_caches is bad; stuff you are purging from there will need to be read again from disk and will cause your disk to become bottleneck sooner rather than later. I urge you to revisit this video and reconsider this strategy. If you have issues tuning your system let me know I can help you tune it so you don't need to do this truly horrible thing which will honestly not bring you any good.,True
+@dornie_donko,2016-06-02T20:28:39Z,1,Great tutorial from a friendly dude - thanks!!,True
+@muzzbrudr,2015-04-12T00:35:38Z,0,Haha digital ocean so true lol!,True
+@wizkobenaempire3277,2015-04-07T16:51:38Z,1,hi Sentdex.. i you haven't replied to my email.. i am still waiting.. anyways.. great job.. God bless you,True
+@mulchi01,2015-04-06T17:46:34Z,8,"One little correction. In your own example file you have  * */5 * * *  as an example for ""every five hours."" Well, that's slightly wrong.  That minute * is actually quite a tricky one. What you have is ""run every minute every hour divisible by 5"". So it will run every minute in the hour 5, 10, 15 and 20, or 240 times a day. With scripts that run longer than a minute, that could actually create all sorts of problems.  What you want is  0 */5 * * *  Instead of the leading 0 you can of course state any minute you want, but this will run it only on the ""0""-th minute every 5 hours, or only 4 times a day.",True

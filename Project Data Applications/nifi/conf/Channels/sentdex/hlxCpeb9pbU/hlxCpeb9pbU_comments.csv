@@ -1,0 +1,36 @@
+author,updated_at,like_count,text,public
+@koolkid54100,2022-07-06T20:50:15Z,0,i know this video is old so i probably wont get any reply but why would you want to have a script that does different things if its run in main or used as a module? why not just created two scripts one to be used as a module and one to be used as a main and then import the module only script if it is needed in the run as main script? it just seems messy and unorganized when you could just make two different scripts to do the same thing and it would be much more clear and organized and run the same.,True
+@flatmates6166,2020-05-12T23:09:22Z,0,amazing we can make our own modules,True
+@shahbazquraishy143,2019-06-13T17:17:33Z,0,Thanx a lot bro....,True
+@gaurangmangukiya9889,2019-05-27T09:10:00Z,0,@sentdex i really don't understand __main__,True
+@craigwarren4123,2019-05-06T00:24:04Z,0,"Hi Harrison, Series is great. Think some may find the explanation of name == main ... a tad confusing. Now, this is just a suggestion for a tutorial rewrite .....  Use the (if __name__ == '__main__': # do something),if you want to run code in your module, that will exclusively run, only when you are directly running your module as someFileNamedotpy versus running your module by way of importing it into another file as in.. import someFileName...              Keep up the great work, it is very much appreciated.",True
+@fupopanda,2019-01-07T01:55:54Z,12,"This tutorial is your worst in this series so far; probably the only bad one. You essentially skipped the explanation of what ___name___ means.  *For those very new to Python,* ___name___ is a special variable that Python declares before running a module. A module is just another name for a Python file. When a module is run, the variable ___name___ is set to the string ___main__._ If a module is being imported into the main module that is running, the variable ___name___ of the imported module is set to its own name.",True
+@michaela8824,2018-12-20T16:28:34Z,5,"Okay, this is epic()",True
+@bharatroy6517,2018-10-03T16:35:06Z,0,what's the best book for learning python?,True
+@himarajab3841,2018-09-30T15:42:24Z,0,for those who still struggle with__main__ this link help me a lot  read first tow comment,True
+@adityasinghbais5924,2018-04-23T03:03:03Z,0,"I didn't understand this lecture, can you make it more simplify",True
+@ankushsingh0,2018-02-01T16:24:58Z,0,I have no words for your great work.,True
+@magnushansson9565,2018-01-16T07:40:42Z,0,Where did you learn all your Python skills? Is there a book or something that you would recommend? Thanks!,True
+@_robyn_,2017-12-26T16:11:08Z,0,python3\python3.19 -shebang  seems like a nice folder name to me :),True
+@vigneshpadmanabhan,2017-12-26T03:00:21Z,0,in HackerRank without even using the def they have  if __name__ == '__main__': on almost every program so how does it work as a model there?,True
+@sardagaurav,2017-04-24T12:08:32Z,1,Awesome series. Really helpful for me. Thanks for uploading these videos on YouTube. You are great programmer.,True
+@arpanshah5800,2017-04-06T04:56:43Z,1,Thanks. I never understood the concept of __name__=='__main__' practically. I knew it was used for checking namespace but I didn't realize its practical use.,True
+@TehBryanxx,2017-03-07T03:22:55Z,12,I guess i am the only person who still doesnt understand. ive looked at so much stuff idk what any of this stuff is. what is name== main ? what is a module? very new to coding,True
+@AntonioSantos-ve6zv,2016-11-02T15:10:32Z,1,Love your tutorials! Could you let us know which has been the most challenging python project you've undertaken so far? Thanks and all the best. Cheers from Northeastern BR!,True
+@SuperPradeep01,2016-08-20T21:28:10Z,2,This tutorial helped me a lot ... thank you so much  :),True
+@manojmnit6408,2016-06-01T18:21:11Z,0,if _name_ =='_main_'  its giving an error _name_ is not defined . Then how to solve this.,True
+@rachelhwung5822,2016-04-10T06:43:04Z,1,"Harrison, thank you so much for explaining if name = '__main__'. I have been wanting to know this for a while, unfortunately I wasnt able to find a clue by reading online. Your explanation is very clear. Now I totally understand why people use it.",True
+@sriramraghunathan6,2016-03-08T03:22:29Z,0,You are such an awesome guy!!,True
+@DhananjayArunesh1234,2016-02-22T00:21:11Z,0,unable to get if __name=='__main__': properly plz help me get in the working of it in framework please,True
+@AdlerWeber,2016-02-11T19:57:12Z,0,"+sentdex For some reason I can't import and run the class, I have both files in the same directory. One of them is called ""colorsorting"" and the other ""classtest"". ""colorsorting"" works on its own and I have a copy of main() in the class ""color"". Whenever I attempt to import colorsorting, ""import colorsorting"", and run the function, ""colorsorting.color()"", it only creates a folder in the same directory titled ""__pychache__"" with a compiled python file of colorsorting.py (titled colorsorting.cpython-34). Any ideas? I'm really new to Python so I may have made a stupid mistake.",True
+@Mrkonc,2016-02-03T12:34:38Z,0,"Correct me if I'm wrong, but isn't the shebang useful on Windows if you're running multiple versions of Python, so you can specify which should be used?",True
+@WaervynsWorld,2016-01-28T17:44:39Z,0,"Very useful, thanks!",True
+@garthsstare5454,2015-12-16T16:22:35Z,1,Hey man I love your tutorials and I have learned a lot from your tutorials...Will you tell me what to start with after learning this Python 3 series..suggest pls,True
+@vantegio,2015-09-16T07:10:46Z,0,Awesome! Please teach us django!,True
+@ScottDonald78,2015-02-06T13:05:03Z,0,sentdex could you say that 'If name equals main' means that if the module name appears in the file you are running then it will activate and use that module? Just trying to get my head around the concept.,True
+@dhavalshah6552,2015-02-03T17:12:47Z,1,Awesome video tutorials !!! Really helpful and easy to understand. Thanks for uploading them mate !!,True
+@EricZimerman,2014-12-22T21:09:03Z,0,Great videos man. Is there a module you would recommend to compare two unicode strings? I want to compare two Chinese language strings and determine their similarity in terms of a value/%. Is NLTK the best approach?,True
+@00nsqo,2014-11-21T05:00:13Z,0,Thanks a lot for this and all your tutorials. The most comprehensive beginner python series that i have run into on youtube!,True
+@karanjit28,2014-09-19T14:00:18Z,0,Hi i was wondering what does it mean when it just has () so two brackets with nothing inside them. I have the example of  def menu () : . So what do the to brackets mean and the colon. ,True
+@fergus247,2014-09-16T13:23:21Z,0,"this was good. i wonder what use there is of if __name__ == '__main__': can you call it somehow? how do you call it, if you wanted?",True
+@trickycommandfool,2014-06-26T20:06:53Z,20,Great video series. I was able to quickly and efficiently get acclimated to using python in time for a new college course i am taking last minute. The videos are presented in a logical and easy to understand manner. You've got a knack for teaching friend.   Thanks for the work.,True

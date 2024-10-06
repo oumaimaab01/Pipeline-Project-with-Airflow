@@ -1,0 +1,77 @@
+author,updated_at,like_count,text,public
+@RodrigoMiranda,2023-08-09T15:29:12Z,0,"I'm wondering now, in 2023, if SentDex would still leads us to look into google or will say ask to chatGPT(?)",True
+@SHIVAMRAJ-ne2ip,2023-03-24T16:07:20Z,0,Could you please explain the code which you googled .😅  It might be very useful . By the way love your tutorials,True
+@asmitadasgupta,2022-07-13T05:11:59Z,0,"In spyder python, the row.count() function is not working. Any logic that I should keep in mind?",True
+@user-pq1cj3hy3q,2022-05-18T01:37:39Z,0,11:33 to answer why use length,True
+@MRrafaloxPL,2021-07-17T16:11:38Z,4,"The funny thing is that you passed the game varible to the function as ""current_game"" but you was still using game varible istead of the reference :)",True
+@Dr.Cosmar,2021-04-15T01:48:53Z,0,"I was stairing so HARD at that double =. I was like...""am I crazy, or am I supposed to be asking if it's true right there?"". Clarification at 8:44 lmao.  Thanks for the tutorials.",True
+@subtractionsign8713,2020-12-23T03:22:16Z,0,Thousandth like??? Pog,True
+@meesiphht2769,2020-12-17T21:04:06Z,0,@1:46 - Ding!!! is my sound for stop coding!!!  Talk about a vicious loop ...,True
+@vasanthkannan3398,2020-12-05T12:48:31Z,0,Still tagging me after 7 years😂,True
+@skygrey4867,2020-09-15T23:21:07Z,0,really appreciate your cups changed with every episode !!,True
+@jaidixit7435,2020-09-06T14:42:53Z,0,"Listen, I am a JavaScript programmer but I don't google anything..... at all, but I don't think you deserve a down vote, so I'm giving you a like. Although it's happy to see you do mistake as it make me believe that I am not the dumbest( whatever it is, I don't know ) in this world.",True
+@user-mi9ng9ez1x,2020-08-23T06:17:13Z,0,"def win(game_map): 	for row in game_map: 		print(row) 		if row.count(1) == len(row): 			print(""Player 1 Win!!"") 		if row.count(2) == len(row): 			print(""Player 2 Win!!"")",True
+@amrandom6509,2020-07-03T17:48:28Z,3,"def win(current_game): 	'''current_game = list(map(list, zip(*current_game)))''' 	for row in current_game: 		print(row) 		match = True 		if row[0] == 0: 			match = False 			break 		else: 			for item in row[1:]: 				if row[0] == item: 					match = True 				else: 					match = False 					break 		if match == True: 			print(""winner"") ~made by my girlfriend and use transpose on game matrix to check verticality: current_game = list(map(list, zip(*current_game)))",True
+@woahart7476,2020-07-02T16:08:00Z,1,I don't get half of your jokes but ur laugh cracks me up xD,True
+@zen9468,2020-06-25T15:33:44Z,0,only 19 java programmers,True
+@aaronbarber6816,2020-06-02T01:44:09Z,1,"ehh, ehhh, he said ""doodoo"" at 6:04... Seriously though, love the videos!",True
+@wchen7915,2020-05-28T15:08:10Z,1,"I know, stack overflow blows my mind when I asked a simple question hahaha  Thank you for the videos, I enjoyed them! <3",True
+@joyofcooking5247,2020-05-24T05:21:30Z,0,5:18 BURNNNN,True
+@theonenobodey4815,2020-05-22T21:34:18Z,0,how does for work,True
+@jamieharrington91,2020-05-15T09:26:38Z,0,lol 6:04 he say doo-doo         great course btw,True
+@amjadtaleb,2020-05-12T13:57:29Z,1,"I expected that switching the order of comparisons (checking for row[0] !=0 first) either on the same line of using nested loops would improve the performance, but actually it doubled the time of the running the function! I don't understand why XD.",True
+@joro8604,2020-05-10T22:53:48Z,16,"Good job. I like seeing the struggle. Makes me feel slightly less dum, lol.",True
+@TXfoxie,2020-04-27T20:54:25Z,1,"that's why I joined your channel just now.  The best programming channel out there. As a newbie in programming, I just want to have a peek of what goes thru your head while dynamic programming.",True
+@milindprajapat7177,2020-04-24T13:43:26Z,0,"Code to check elements in a list are same, If len(set(<list_name>))==1:       Print (""Win"")",True
+@InsightIndiaraviverma,2020-03-30T15:02:28Z,0,"It's a lovely concept to teach a programming language building a project. I love it. Please do the same with more projects. The thing that I could not understand was the use of just_display, what is that and what purpose does it serve?",True
+@chrisdutton2011,2020-03-29T19:58:10Z,21,"""That's what I describe as disgusting"", this made me lol XD",True
+@alfredovalerijlaino5284,2020-03-22T16:16:04Z,0,"Nice way to teach, makes a lesson easy to flow. Super Top !",True
+@mindfulcoding,2020-02-27T12:28:44Z,1,"i did few tweaks on my own. felt good even if it was little. by playing around with row.count() i understood the concept of it quite well by writing it in my own way. im literally two days old to python :D. check it. game = [[1,1,1],                 [0,0,0],                 [2,2,0]]   # Define a function named WIN with parameter   def A_Function_Named_Win(current_game):         #then         print(""   0  1  2"")           #then iterate list of lists named game to print each index number and list item value         for IndexNumber, ListItem in enumerate(current_game):                #then                 print(IndexNumber, ListItem, ListItem.count(ListItem[0]), ""-matches"")                   #use count(with INT value) method on/with ListItem to return total number of occurrences of the value in ListItem                 #and then check if it is equal to the length of ListItem  and if it is TRUE than print winner.                    if ListItem.count(ListItem[0]) == len(ListItem) and ListItem[0] != 0:                         print(""winner"")   A_Function_Named_Win(game)     """""" def win(current_game):         for row in current_game:                 print(row)                 if row.count(row[0]) == len(row) and row[0] != 0:                         print(""winner!"")   win(game) """"""   OUTPUT:         0  1  2 0    [1, 1, 1]   3 -matches winner 1    [0, 0, 0]   3 -matches 2    [2, 2, 0]   2 -matches  EDIT: COPY PASTE IT IN CODE EDITOR TO SEE COLOURFUL and less confusing :D",True
+@01hZ,2020-01-27T15:51:21Z,1,"don't be too tough on yourself for making ""errors"" in your videos.    it better illustrates the thought process that goes into programming and can be easily related to by beginners",True
+@vineetpandita9707,2020-01-09T11:48:14Z,0,can anyone tell me what is the meaning of using row[0] in the if item != row[0] please......,True
+@BayesianBrain,2020-01-02T20:34:02Z,0,"You could also make a set of row and remove repetitive elements like so   if len(set(row)) <= 1 and row[0] != 0:             print(""Winner!!!"")",True
+@shyamskcetlib1409,2019-12-27T02:47:16Z,0,row.count(row[0]) unable understand bro,True
+@shyamskcetlib1409,2019-12-27T02:07:08Z,0,"game=[[1,1,1],       [0,1,1],       [0,0,0],] temp=0 for row in game:     temp=0     for item in row:         temp=temp+item         if len(row)==temp:              print(""winner"") this is I tried bro for me,for horizontal winner working,thank u",True
+@pawlack,2019-11-23T16:47:15Z,0,I just didn't care and done user input already anyway :D,True
+@Glukodrom,2019-10-14T18:28:02Z,2,"Hey bro, nice tutorial. Good job! https://youtu.be/D4IjxVPzb7k?t=806 - I'd put the check for ""row[0] != 0"" ahead, because there is no reason to make a count for anything as this row is not fully filled out",True
+@himanshukumar-sz6ok,2019-09-24T06:12:40Z,0,"I found Like if you use all() this also checks if the data in the list is all same. Here we have 3 small list's, so we can pass it one by one making sure  list don't contain 0 and yeah work is done.                       For row in game:     if (all(row) and (0 not in row)):         print(""winner"") May be useful.",True
+@himanshukumar-sz6ok,2019-09-24T06:12:10Z,7,"I found Like if you use all() this also checks if the data in the list is all same. Here we have 3 small list's, so we can pass it one by one making sure  list don't contain 0 and yeah work is done.                       For row in game:     if (all(row) and (0 not in row)):         print(winner) May be useful.",True
+@VidyaSagar-hc9nu,2019-09-12T14:06:56Z,0,How the last command is executed which is taken from the stackflow Can u explain once😊,True
+@ztrixx3280,2019-07-08T09:33:50Z,2,x.count(x[0]) == len(x)  I couldn't understand how it's working...,True
+@ajitesh764,2019-06-30T14:21:46Z,0,"how about this: def win(current_game):  for row in game:   print(row) for item in row:    if item!=row[1] and item!=row[2] and item!=row[0]:                                   print('no winner') if row[0]==row[1]==row[2]:        print('winner') I came up this and it worked.   But in ur case ""item!=row[0]"" whether it is row[1] or [2]... answer doesn't change.....is mine logically correct??",True
+@Dwika34,2019-06-24T10:20:32Z,2,"Hi im a bit confused on the row[0] part isnt it only referring to the first list? How is it able to check row[1] and row[2]? Also,  I've changed it to row 2 or 1 and found that it still found the correct answer.",True
+@gtorres94,2019-06-17T18:36:38Z,4,"I like the way you go through different topics while solving a simple exercise. However, I'd suggest you give a better explanation each time a new topic is introduced. I couldn't understand the single line you used to find identical items in the list from the video.",True
+@sabarblatoe,2019-06-10T09:12:36Z,3,9:48 Thumbs up for the Java joke,True
+@harshitgupta913,2019-05-30T10:27:32Z,15,"9:17 I was listening so carefully for the SECRET All I got was a snort well player sir, well played!",True
+@mertang94,2019-05-23T15:08:58Z,0,"Metanoia = “repentance"" its a greek word and the ""oi"" pronounced like the ""i"" in think so its like metania!",True
+@user-bq3eo1xh2n,2019-05-01T08:14:11Z,0,"To resolve your question: Metanoia is spelled metánia with emphasis on a. It is a Greek word and means ""repentance"".     Thanks for your videos.",True
+@GK-wn6ur,2019-04-11T18:52:25Z,2,"How does the program know what 'row' is? How does the statement 'for row in game:' know that the 'row' is the first item in the first list?  Where was 'row' defined?   Edit: Figured it out by going back to the second tutorial.  Still can't figure out how line 8 is counting the elements of 'row' that have a given value (1 or 2).  When I try checking by inserting a line ""print(row.count(row[0]))"" it prints '3' each time which is merely the number of elements in each row and not the occurrence of either a 1 or 2.",True
+@danielbraguita,2019-03-29T15:09:50Z,1,"I know this may be a stupid question, but I am having some trouble with row. Maybe its because I have always programmed in Matlab, but how does the program know that row refers to a row of a matrix (in this case game)?",True
+@rogerw6064,2019-03-26T04:29:16Z,5,"Hi SentDex, Love your videos. Mistakes are embarrassing but honestly they also help us a lot to look out for dumb mistakes that we might also make. I feel like a lot of learning opportunities are missed from teachers who are too afraid to make mistakes.  Also even incorrect attempts are pretty useful for anyone trying to walk back through the logic to see how they should be thinking, even if the final method is incorrect",True
+@cultofsogga5863,2019-03-16T15:24:23Z,0,"Thank you man. I just love not only to study, I really like to listen to you) Your experience is invaluable! I told all my friends about the man who made this brilliant channel)",True
+@gueddoudjaafer435,2019-03-14T09:55:53Z,0,"Mr.Tutorials (@sentdex), i have problem. when i run code, it does not stop i used PyCharm",True
+@FeniksGaming,2019-03-13T21:41:51Z,1,That's not good that's what I would describe as disgusting - made me laugh :),True
+@jiandeng8595,2019-01-12T07:30:54Z,0,wouldn't it be better to use `current_game` in the win() function `for row in current_game`?,True
+@toto-valentin,2018-12-26T16:30:34Z,0,"Lmfaooo ""... That is what I would describe as disgusting""",True
+@gauravgrover2591,2018-12-25T10:11:52Z,0,def win(CURRENT_GAME):     for row in GAME:      😐🤫,True
+@cathylouisewalker,2018-12-25T01:28:25Z,0,"PayPal for a Join option of pay would be great, not sure if possible on youtube",True
+@Alptraum669,2018-12-05T03:59:40Z,0,Finally a video at a reasonable hour!! :),True
+@Quantickzz,2018-11-09T22:49:35Z,1,"I think you pronounce it like knoia, imagine the beginning of knot then the end of lawyer if you were british xD",True
+@nikhil2021,2018-11-09T13:46:23Z,1,"On line 7, shouldn't it be ""current_game"" instead of ""game""?",True
+@Cool-wh6ov,2018-11-09T13:46:02Z,0,"alright,i am a noob from GCI,a 17 yo boy,but ez to understand",True
+@rajshekar149,2018-11-08T08:37:53Z,0,Wow ! Super . I got a winner 🤣🤣,True
+@sebastian-yellowbunny2746,2018-11-06T09:50:32Z,0,"The most important to have  self esteme :) quote ""stupit idiot""",True
+@freeelectron8261,2018-11-05T18:21:52Z,2,Stack overflow had a very elegant one line solution. Good tut- thanks!,True
+@Xtr835,2018-11-05T18:18:53Z,5,4 js viewers watched this video...,True
+@diegogarcia-aguirrebeitia8218,2018-11-05T09:08:40Z,0,Hello sentdex! I´m working on a program which has to recognise in an image a range of colors defined by me. What of your tutorials would you recommend me? Thank you for your time.,True
+@baruchba7503,2018-11-05T08:35:40Z,0,"Oy Veh!!!  Fortran IV does it best in a nested i and j iteration.  Yes, I'm that old.  Hahahahaha",True
+@MrJoberist,2018-11-04T23:54:31Z,0,How many episodes did you plan?,True
+@MrBoubource,2018-11-04T22:34:31Z,1,"If you want to use all() built-in, i did this:  for player in (1, 2):     if all(x[i] == player for i in range(3)):         print(""winner is"" + player)",True
+@martinstickley9573,2018-11-04T20:52:07Z,8,"Hey. In the win method you have a parameter called current_game, but you don't use it. ""game"" inside the method should be current_game?? Otherwise you are referencing the global ""game""",True
+@RipYaZa,2018-11-04T19:25:24Z,2,What is it with the double == False? If you use 2 it's a condition? Otherwise it's a declaration?,True
+@shubhamdimri8320,2018-11-04T17:36:32Z,0,I'm confused please help,True
+@SteepMountainGames,2018-11-04T16:45:22Z,2,What about making something a little more complicated like Mastermind? Then have some sort of machine learning find the optimum solution to solve it?,True
+@ShirshKhandeliaSKJ,2018-11-04T16:27:05Z,2,"Oh, wow. Youtube notified me of the Premiere after it was over. Great. BTW did you start the Premiere a little early? I don't see how I missed it. Anyways, great help. On the plus side, I could enable subtitles. (Greetings from India) Still need that code though for GCI. (I think we're getting close to that on the series)",True
+@rohi9594,2018-11-04T16:19:41Z,88,"If you are new to this channel, feel proud that you found this youtube channel :) sentdex is the best professor I've ever met",True
+@obivanJR,2018-11-04T16:17:36Z,58,He should be starring in a snowden movie.,True
+@Stinosko,2018-10-31T12:05:00Z,0,Can you make sure in the video's that one line code != the fastest possible way for everything but if it's designed to do what you intended it's a big change it's the most optimal way in python?,True

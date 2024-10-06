@@ -1,0 +1,69 @@
+author,updated_at,like_count,text,public
+@bhopinderkambo9143,2022-02-28T08:03:21Z,25,"Sir  Ur teaching us super  I person of 70+ hv no background in computer but know statistics understanding yr ML lectures Sir ur all vedios, ar very clear. Cincepts are well explained.  Ur are doing very good services to the society by way of spreading knowledge I hv no words to express ur thanks Being elder I wish you and ur family and above all ur parents who brought u to this level.  With best wishes and love May God bless you and ur family Bhopunder singh kambo New Delhi",True
+@RaheemKhan-vb8tj,2024-05-09T09:03:51Z,0,Label encoder technique is used for labels i.e  target feature,True
+@khuzaimaamir8458,2024-04-15T01:26:34Z,0,"#Duration into Minutes df[""Duration_m""].dropna(inplace=True) df['Duration_h'] = df[""Duration_h""].astype(int) df['Duration_m'] = df['Duration_m'].replace('', pd.NA) df['Duration_m'] = pd.to_numeric(df['Duration_m'], errors='coerce') df = df.dropna(subset=['Duration_m']) df[""Duration_m""] = df[""Duration_m""].astype(int) df[""Duration_in_min""] = df[""Duration_h""] * 60 + df[""Duration_m""]",True
+@MrBING5221,2024-03-29T07:44:30Z,0,Why are we using both Label and One hot encoding,True
+@amitx26,2024-02-28T10:20:43Z,0,Sir why i cant append the test and train dataframes? it says that :  'DataFrame' object has no attribute 'append',True
+@tala9929,2024-02-25T09:39:55Z,0,❤,True
+@shubhamdewangan9309,2024-02-17T17:44:48Z,1,"We could also use the below to convert duration into minutes  final_df['Duration']=  final_df['Duration'].str.replace(""h"", '*60').str.replace(' ','+').str.replace('m','*1').apply(eval)",True
+@The_TusharMishra,2024-01-30T16:22:13Z,1,"Does we require the columns of ""Departure"" and ""Arrival"",   when we have DURATION COLUMN    Because Duration is calculated by ((arrival - departure))",True
+@mohammednadhim1918,2024-01-26T10:46:51Z,0,"# best alternate for 18:00 # No need to change data type  df[""Date_of_Journey""] = pd.to_datetime(df[""Date_of_Journey""])  df[""Journey_Date""]  = df[""Date_of_Journey""].dt.year df[""Journey_Month""] = df[""Date_of_Journey""].dt.month df[""Journey_year""]  = df[""Date_of_Journey""].dt.year df[""Jouney_day""]    = df[""Date_of_Journey""].dt.weekday",True
+@hades840,2023-12-18T12:20:30Z,0,46:00 what if we map h and m with blank space and then use spilt,True
+@MrGoatBeamNG,2023-10-28T06:55:48Z,1,55:18 Solution for Hours to minutes import datetime final_df['Duration_min'] = (pd.to_timedelta(final_df['Duration']).dt.seconds)//60,True
+@sahilpatel2187,2023-10-11T11:03:02Z,0,sir when i'm appending the two data sets its showing 'DataFrame' object has no attribute 'append',True
+@nikhilgupta9228,2023-09-30T07:43:39Z,0,Sir first of all thanks very much for the session but I found a mistake in the code when we concat the data and checked the tail value index it was nearly close to 2667 but our dataset has 13.5k rows so please check this because i not find any solution to rsolve this so please help.,True
+@n.aniruddhan4464,2023-09-07T18:16:53Z,0,"@krishnaik06 Sir Huge fan, one doubt can we convert duration into range like feature '1-2' hour, '2-3','3-4','4-5' hour flights?",True
+@sagargupta7609,2023-07-27T15:36:19Z,0,"# Assuming the 'Duration' column contains strings in the format ""Xh Ym"" (e.g., ""2h 30m"")  # Extract the minutes from the 'Duration' column and handle missing values (NaN) final_df['duration_minute'] = final_df['Duration'].str.split(' ').str[1].str.split('m').str[0]  # Replace missing (NaN) values with 0 final_df['duration_minute'] = final_df['duration_minute'].fillna('0')  # Convert the extracted minutes to integers final_df['duration_minute'] = final_df['duration_minute'].astype(int)",True
+@amitbudhiraja4135,2023-06-29T01:32:54Z,0,"I have a question if anyone can help after doing all this feature engineering steps one by one on the dataset , but how it will be all done on the unseen data when comes for the prediction because then it will be in the same format as this data before. Then how to get it proceed there after",True
+@DeepakSharma-sl5et,2023-06-11T07:06:14Z,0,"Hiii sir, actually I have a query in arrival time .In my dataset the arrival time data is given like 18:00 19 May.  this type and I am not able to right the correct code of this..  Can you please help me...",True
+@rebeccakipanga478,2023-06-07T08:24:25Z,0,Wonderful!Thank you sir.,True
+@niharranjansamal8263,2023-03-16T16:56:31Z,0,Sir somehow the data set is not downloadable now don't know why,True
+@jayshreedonga2833,2022-12-26T14:32:28Z,0,sir learning flask module should we knowledge of css and html,True
+@freedom5941,2022-11-16T20:51:46Z,0,"Sir how to handle a alphanumeric feature , like a diagnosis code .. which had alphabets at random places like 5SFYR",True
+@jayadevi2341,2022-10-12T12:58:51Z,0,Why did you do get dummies after label encoding.is it Mandatory,True
+@jinsmonjoseph2855,2022-10-09T18:34:13Z,0,Great video ...Thanks sir,True
+@arpittrivedi6636,2022-10-08T19:07:00Z,0,good,True
+@sharathchandrakarnati2101,2022-09-01T17:55:45Z,0,sir  tysm *infinity  tysm saying is very small  word for ur help to ppl who are interested really this playlist helps a lot,True
+@developersmode6019,2022-08-26T07:49:37Z,0,"Easy way to convert duration time into Minute: df[""Duration""]  = df['Duration'].str.replace('h',""*60"").str.replace('m',"""").str.replace(' ',""+"") df['Duration']  = df['Duration'].apply(lambda x:eval(x))",True
+@ppsheth91,2022-08-22T07:41:14Z,0,df_new['Duration_Minutes'] = (df_new['Duration'].str.split('h').str[0].astype('int64')*60) + (df_new['Duration'].str.split(' ').str[1].str.split('m').str[0].fillna(0).astype('int64')),True
+@MOHITTIWARI-kb5ne,2022-08-13T18:36:04Z,0,inplace = True ka matlab batado koi please??,True
+@niharranjansamal8263,2022-08-06T16:30:14Z,0,"The dataset has duplicate index like e. g. two 53, 74... Meny",True
+@riteshmukhopadhyay6922,2022-06-22T18:01:39Z,0,"U r an awesome instructor and a mentor. Your videos are super lucid and fun doing in real-time but here is one shortcoming I noticed while you used label encoding while handling the categorical data Airline..., A explanation is what I expected because being an ordinal data treating it like nominal categorical data for helping the machine to model it was an incomplete one. Edit - Alas! I should have watched the whole video before commenting but keeping this comment as we really got the insight into what is wrong and what the approach to the problem should be instead. Thank you, Krish <3  Do take it as a feedback, I am your fan too  👌😁",True
+@tahiridriss93,2022-06-10T20:58:39Z,0,"Date_of_Journey column can be split  into  date,month and year in one shot code :  df=pd.DataFrame(df_train_data_merge[""Date_of_Journey""].str.split('/',2).tolist(),columns=['Date', 'Month','Year'])",True
+@ebyqueensley7386,2022-05-25T08:15:17Z,2,"Sir, this was a wonderful session,  especially when you admitted that you don't know everything. It really boosts the confidence of amateurs like myself",True
+@sangamjjagadish5304,2022-05-02T07:31:27Z,0,"hi, can anyone please give solution to this ""invalid literal for int() with base 10: '10 22 Mar'"", i am able get answer for 'invalid literal for int() with base 10: '123' or 'invalid literal for int() with base 10: 'abc' but not for 'invalid literal for int() with base 10: 'number alphabets''. Thanks in advance.",True
+@khubimkumarchhetri5454,2022-04-15T11:16:09Z,0,How to access all the lecture series of this  session?,True
+@dikshagupta3276,2022-04-15T01:58:04Z,0,Nice explanation 👌,True
+@tusharnautiyal8998,2022-04-13T22:02:06Z,1,"We can also use Regular Expression like this for the same task . finaldf['Day'] = finaldf['Date_of_Journey'].str[0:2].replace( ""/"", """",regex = True).",True
+@tanmaychakraborty7818,2022-03-31T04:47:43Z,0,This EDA session has given me lots of knowledge of pandas also thanks,True
+@sandipansarkar9211,2022-03-17T01:54:52Z,0,finished watching,True
+@surajsuryawanshi5182,2022-03-11T10:02:37Z,0,Osm❤👍,True
+@bickramjitbasu5751,2022-03-11T08:22:19Z,0,Sir you are a gem of a person with a golden heart 💖💖,True
+@akashravindra..,2022-03-08T14:03:17Z,2,"Guys whoever facing an issue in Duration here is the code final_df['Duration_hour']=final_df['Duration'].apply(lambda x:x.split(' ')[0].split('h')[0].split('m')[0]).astype(int) final_df['Duration_min']=final_df['Duration'].apply(lambda x:x.split('m')[0].split('h ')[-1].split('h')[-1]).replace('','0').astype(int) final_df['Duration_mins']=final_df['Duration_hour']*60+final_df['Duration_min']",True
+@shekharkumar1902,2022-03-08T04:34:17Z,0,Cool Down Sir !,True
+@aanalpatel5361,2022-03-04T10:21:47Z,0,"Enjoyed the session, sir!!!",True
+@sivachaitanya6330,2022-03-01T16:15:58Z,1,59:50 krish said we can save this in the form of pickle file for transfrom test data what does that mean can any one clear it out....i don't understand????????????,True
+@zeeshansams2731,2022-02-24T06:37:58Z,0,video on Deployment,True
+@sridatta2647,2022-02-21T07:42:32Z,0,"please post the video , i am following all sessions from begining somehow i missed yesterdays session ...? please do needful",True
+@sridatta2647,2022-02-21T07:42:18Z,0,"please post the video , i am following all sessions from begining somehow i missed yesterdays session ...? please do needful",True
+@sridatta2647,2022-02-21T07:39:44Z,1,"hi krish , what happend about EDA live session on day 4",True
+@maneeshmm8105,2022-02-21T07:03:01Z,0,sir where the 4th video,True
+@shashankpandey1966,2022-02-21T06:28:34Z,0,"-> 2897                 raise KeyError(key) from err    2898     2899         if tolerance is not None:  KeyError: 'Date'",True
+@jamithireddyr,2022-02-21T06:21:45Z,1,"For duration part, This works like a charm flight_df['Duration']=flight_df['Duration'].str.replace(""h"",""*60"").str.replace(' ',""+"").str.replace('m','*1').apply(eval)",True
+@maneeshmm8105,2022-02-21T05:53:26Z,0,"sir ,please  please make a deep learning sessions",True
+@rajasekharreddy7624,2022-02-20T22:19:10Z,0,Nice video krish mail sir,True
+@anujnayak8497,2022-02-20T20:50:39Z,0,Sir please make 4th video public!,True
+@soham4741,2022-02-20T15:34:49Z,1,Sir why 4th video private?,True
+@WandererKshitij,2022-02-20T14:52:07Z,4,Can you please make todays live session of Automated EDA available ?,True
+@41_ahwaszargar73,2022-02-20T13:20:18Z,0,"HELLO SIR I AM A FREELANCE ENGINEER WHO MAKES MONEY BY MAKING PROJECTS BASED ON CLIENT NEEDS  I WOULD LIKE TO ASK YOUR PERMISSION TO USE YOUR CONTENT AND TO USE YOUR CODE  TO LEARN AND MAKE DIFFERENT PROJECTS.I WONT BE SELLING YOU CONTENT TO ANY WEBSITE",True
+@rajkrish592,2022-02-20T10:41:03Z,2,"if you can do session on deep learning, it will be great",True
+@guneetsingh1416,2022-02-20T08:27:13Z,1,Great  Session and After Eda Please go with the time series analysis.,True
+@an1mesh,2022-02-20T06:18:35Z,1,"Please do Deep Learning next, thank you",True
+@NUTANKISHORE,2022-02-20T06:10:14Z,3,Deep learning plz,True
+@meditationmelody6452,2022-02-20T02:20:20Z,2,"Dear sir, Please do series on credit risk modelling",True
+@yasink18,2022-02-19T21:51:47Z,0,Please make a series video on EDA n feature engg,True
+@dasaradhamurali3099,2022-02-19T17:25:56Z,0,Nice sir  only available in your channel,True
+@pavants3697,2022-02-19T17:20:45Z,3,Deep Learning,True
+@varunvadlamani6446,2022-02-19T15:00:16Z,3,Do we need prior knowledge about machine learning for these sessions?,True
+@-Poojitsurya,2022-02-19T14:58:53Z,4,Ml interview questions,True
+@eternalstar3607,2022-02-19T14:43:31Z,3,Deep learning..,True

@@ -1,0 +1,110 @@
+author,updated_at,like_count,text,public
+@siddheshmirjankar910,2024-04-02T22:07:33Z,0,"Hi Krish! Do you have a video explaining how one can use the Keras tuner with a pre-trained model? I am currently working on a drug classification project using MobileNet. I am not able to go above a test accuracy of 85%. Also, when I try to predict an image that is input by the user,  the prediction is incorrect a lot of the times. Hence, I was wondering if I can use the keras tuner to fine tune the MobileNet to get a better accuracy. Is it possible?",True
+@michaelvm2404,2024-01-26T06:57:05Z,0,Keras and Tensorflow: two tools with some of the highest numbers of installation issues that you can get.,True
+@rahulpalivela1449,2023-10-26T20:08:21Z,0,"at the last line of code when you used model = tuner_search.get_best_models(numb_models=1)[0] and got the best params with epoch = 3 , how can you use these params and then use it to test your model , and you didnt mention in the video how to test the model.",True
+@gamerdog5585,2023-09-10T10:36:27Z,0,Hi can you do the project aqi prediction based on image based deep learning algorithm,True
+@pec8377,2023-08-09T20:09:21Z,0,"I love your videos, and I realized something, your epochs are running damn fast.. So I looked at my code, and copied the same model.. 4 minutes on a Titan.. mmm ..After hours of searching for the cause, I discovered it was coming from the ImageDataGenerator that is slow as hell !  If I don't use a flow from dataframe.. hard to get an epoch of more than 30s. If I put a simple shear, or any transformation in an ImageDatagenerator: 4minutes !  But then how can I do transfer learning, like VGG16 that has a preprocess function (so my epochs are of 4minutes !) If I remove the preprocess ? few secs per epoch",True
+@manujkumarjoshi9342,2023-07-28T05:54:43Z,0,It is an amazing add-on while building models.,True
+@user-wl6km8vr9d,2023-06-10T10:53:36Z,0,sir will you please upload video about GANs,True
+@tirthadatta2072,2023-04-13T17:40:58Z,0,Can anyone tell me is there any function for maintaining imbalance data in tensorflow?,True
+@viplovethakran1505,2023-04-11T18:46:18Z,0,ohh my god its very amazing really,True
+@user-cc3eu4ng7f,2023-02-19T14:46:56Z,1,"Hi,so i build a model for 1 dim cnn regression problem using keras and i did the preprocessing and reshape the data and so on, the thing is the loss for train and valid very big about number with 9 digits for both of them and the model shows accurcy equal to 1 from the first epoch .so what can i do to solve it i tried to use keras tunner but there is no difference ,any help please",True
+@rakeshsahoo7316,2023-01-10T10:49:54Z,0,"Sir, how to adjust the parameters of CNN... like no. of convolution layer.. Pooling layer... Fully connected layer",True
+@sakshitattri4882,2022-11-16T17:21:06Z,5,hii Krish... thanks for such an amazing tutorial but i have a doubt why you haven't used pooling and data augmentation for more accurate prediction?,True
+@avb9697,2022-09-28T07:16:11Z,0,hello sir ! can we apply this method for CNNS that deal with Image Classification as well? by images I mean set of JPg images which are directly used as Input Training data?,True
+@programerahmed4470,2022-08-28T02:31:33Z,0,Great video:  How can  I force Keras Tuner to use default hyperparameter values for the first optimization iteration,True
+@eranfeit,2022-08-10T14:31:03Z,0,"Great video , Why did you skip the Max pooling layer ?",True
+@dicksonaranha9613,2022-07-30T13:46:29Z,0,val_loss=51% I don't think this model is of any good,True
+@mamtagupta4-yearb.tech.mec203,2022-06-06T12:46:03Z,0,How to solve this error?  ValueError: attempt to get argmin of an empty sequence,True
+@saimaheshparuchuri9826,2022-01-28T12:52:52Z,0,Why don't you teach in pytorch sir???,True
+@totalengineer9740,2022-01-27T18:14:44Z,0,Path ka error ata hai😢😢😢,True
+@alam_tapia,2022-01-16T06:06:37Z,0,Thank you! Amazing help!,True
+@badcode8037,2021-12-25T14:37:41Z,5,"Pooling layer should be given after convolutional layer. Its a must to reduce the computation and it also effects the accuracy, so you have to also use it in keras tuner as well. The results you got from keras tuner wont be the same, when you will actually be bulding the final model with pooling layer",True
+@spicytuna08,2021-11-07T01:24:11Z,0,can you create several env in colab?,True
+@syedzoofa8711,2021-10-17T15:35:18Z,0,It's showing me the error build_model not defined??,True
+@unscript09,2021-10-08T02:31:57Z,0,"Sir please make a simple cnn video without using any tuners, its confusing",True
+@zartashiamehak562,2021-10-01T11:16:45Z,0,"Sir kindly guide me, can we use this code to perform binary classification on text dataset?",True
+@ramaswamikv,2021-08-17T14:09:50Z,0,"after model gets trained, there is no test? lines of code missing at end in Colab Code?",True
+@premranjan4440,2021-08-16T15:02:44Z,0,"while training in your system it is showing out of 54000 but in mine, it is showing 1688! Why?",True
+@surajpatil4815,2021-08-16T11:16:29Z,0,I HAVE QUESTION ON TEST ACCURACY OF FIGSHARE DATASET of  brain tumor classification.  My model train accuracy and validation accuracy is above 90 but for test sample the accuracy is not so good.  It is showing lot of miss classification . Data augmentation  has been done but no improvement,True
+@tirthadatta7368,2021-08-07T16:12:06Z,0,"Sir, when I run this code in Colab,  tuner_search = RandomSearch(build_model,                             objective='val_accuracy',                             max_trials=5, executions_per_trial=3, directory='output', project_name=""Mnist Fashion"")  I have got this error given below: RuntimeError: Too many failed attempts to build model.  Can anyone help how to solve it??",True
+@anaghadeshpande4873,2021-06-28T09:17:40Z,0,Is this technique works for video data set or 3D CNN?,True
+@kanhasinghal8053,2021-06-17T18:32:01Z,0,"In line 11  I get error..tuner_search =RandomSearch(build_model,objective='val_accuracy' max_trails) in this line..error flatten is not defined..please help me",True
+@ariyarasekh8839,2021-06-10T16:03:45Z,0,"The result is not that good, you are obviously overfitting!!",True
+@babaabba9348,2021-06-09T09:26:35Z,0,"you should have used early stopping, obviously your model is overfitting",True
+@louerleseigneur4532,2021-05-20T17:31:21Z,0,Thanks Krish,True
+@upasanabhardwaj6140,2021-05-04T01:51:07Z,0,Thank you sir for this video.. Please upload video for the explanation of CNN for text classification.,True
+@surehdau672,2021-04-30T10:05:16Z,0,Sir in kernal do we have predefined dataset for face detection like fashion_mnist dataset  ?,True
+@lakshit-khanna,2021-04-27T10:24:14Z,0,Hi sir can you please make a video on what is the right mindset a person should have before he starts building something with deep learning. I was a Django developer till now following your videos to enter in this domain. thank you sir,True
+@mukund198526,2021-04-24T12:25:48Z,0,"Hi Krish - when i tried to follow you  and gave -  tuner_search=RandomSearch(build_model,objective='val_accuracy',max_trials=5,directory='output',project_name=""Mnist Fashion"") so seems for me it is giving error like -   Traceback (most recent call last):   File ""/usr/local/lib/python3.7/dist-packages/kerastuner/engine/hypermodel.py"", line 104, in build     model = self.hypermodel.build(hp)   File ""<ipython-input-30-a81798d63ef4>"", line 7, in build_model     input_shape=(28,28,1) TypeError: __init__() missing 1 required positional argument: 'filters'  is there any changes",True
+@rakshiths3220,2021-04-21T07:03:14Z,1,how do you use maxpooling in it?,True
+@yashmistry61,2021-04-19T08:42:31Z,0,what is step size in hp.Int()?? How does it affect?,True
+@devloper_hs,2021-04-07T16:57:19Z,0,"Awsome Library , But How To Use It For Dropout layer?",True
+@sup0ds,2021-03-21T04:36:00Z,4,"The validation loss 0.5  and the training loss is about 0.02, which means the model is performing very on the training data but it performs horribly on the validation data. So indirectly the training accuracy won't matter even if it is greater than 95%, the model will be predicting wrong. Requires a lot of hyperparameter tuning. But I won't complain coz u only ran for 5 epochs.",True
+@ramsiromanidixit7322,2021-03-15T05:34:26Z,0,How to use keras-tuner in functional api model ??,True
+@rhiteshkumarsingh4401,2021-03-13T04:12:28Z,0,"i am facing an error ""INFO:tensorflow:Oracle triggered exit"" after running tuner_search.search. Pls help how to resolve this error.",True
+@AdarshMahabubnagar,2021-02-16T10:26:20Z,1,"Hi, very good explanation. but i found that the model is overfitted as the percentage of training loss and validation loss is more. kindly explain",True
+@aniketgokarn3941,2021-02-12T08:36:17Z,5,"Thank you for the video :) I have a small doubt, umm, the accuracy was increasing, but the validation loss (val_loss) at the end during training was also increasing, does not that mean , the model is over fitting?",True
+@jacksonsunny1261,2021-02-02T14:31:45Z,0,"your mic quality is bad, sir! Please fix it.",True
+@patrickduhirwenzivugira4729,2021-01-20T01:54:44Z,1,"Thank you for the great video. How can I also tune the optimizers (let's say ['Adam, RMSprop]) with dynamic learning rates? Many tutorials keep it fixed. Thank you",True
+@chaitanyaravi4482,2020-12-03T16:00:01Z,0,Hi krish how to reslove this error  TypeError: __init__() missing 1 required positional argument: 'kernel_size' in googlecolab,True
+@priyeshgautam668,2020-12-01T16:16:15Z,0,Can we use this for CNN pretrained models ?,True
+@mukeshchoudhary_1038,2020-11-29T07:38:57Z,0,thank you so much for really helped,True
+@prachigopalani5399,2020-11-09T18:12:18Z,0,Plzz show how to run flask on Google colab,True
+@StepbyStepDataScience,2020-10-31T12:18:06Z,0,Thank you. This was awesome,True
+@akashchatterjee5409,2020-10-28T19:27:52Z,1,"Sir can you plz tell how to reshape train set & test set if the datasets are  RGB images becoz  that reshape thing is not working even after giving reshape(len(img_train),50,50,3).Here  50x50 is my pixel size",True
+@tanvishinde805,2020-10-27T08:21:43Z,0,waiting for adam optimizer video,True
+@tanvishinde805,2020-10-27T08:18:58Z,0,what is flatten layer?,True
+@kavitabhosale2397,2020-09-23T14:34:03Z,0,"please can you tell me? ...what happen if we decrease number of filters in CNN like 64  ,32 ,16? because generally we increase number of filters in cnn",True
+@MohamedAshraf-zs6nv,2020-09-06T21:36:00Z,1,"Thanks for the great effort, I wish if you enhance the audio quality so I can follow the tutorial without struggling to catch the steps even videos on 6/2020 have low audio quality.  And thanks again Krish for the valuable tutorials.",True
+@akshatsingh6036,2020-08-27T14:44:47Z,0,I DONT KNOW WHAT SIR is doing in this lecture he didn't tell what flatten layer is why we use conv2d and dense both and he tell us many loss functions but he uses those which he didnt tell like sparse_categorical_crossentropy and same as activation function we didnt know what adam activation is????????????? Really i am so CONFUSED!!!!!!!!!!!,True
+@divyanshuyadav1566,2020-08-23T20:05:20Z,4,Bro🔥🔥 You saved my time. I was thinking this from last day that how can i choose parameters for my cnn model .. in this Computer world how can someone leave things to do manually by Programmer .... See Its KerasTuner here ❤️.. thanks Bhaiya You are awesome i always check you videos. 🔥🔥,True
+@rajeevpathania5801,2020-08-22T11:25:41Z,1,RuntimeError: Too many failed attempts to build model.,True
+@abhishekpurohit3442,2020-08-18T12:07:50Z,1,"Sir, why are we adding dense layers after adding the Convolution layers? You didn't explain this in the lectures..",True
+@ammaraikram7291,2020-08-09T12:35:11Z,1,"run time error to many failed attempts to build model if anyone knows, please answer",True
+@vikasrajput1957,2020-07-29T19:26:54Z,0,why didnt you use pooling here?,True
+@rohithvarma2454,2020-07-28T17:38:32Z,0,What about the pooling layer??,True
+@AdityaYadav-pn7yb,2020-07-16T06:32:53Z,0,"@krish I'm getting RuntimeEroor:-Too many failed attempts to build model and TypeError: __init__() missing 1 required positional argument: 'fiters""",True
+@faisalshehzad9504,2020-07-16T05:41:15Z,0,"sir, can we use CNN rather then images datasets like software defect prediction dataset of NASA repository",True
+@mohinitambade2477,2020-07-06T17:15:29Z,0,"InvalidArgumentError:  Incompatible shapes: [32,1] vs. [32,22,22]    error is shown at line   tuner_search.search(train_images,train_labels,epochs=3, validation_split = 0.1)",True
+@harshvivek14,2020-07-06T08:55:31Z,1,Why reshaping is required?,True
+@skmusic_2022,2020-07-05T14:09:03Z,0,I came across a term called pilot code. Can you tell me what is a AI pilot code?,True
+@dipanwitamallick8793,2020-06-30T06:21:08Z,3,the validation accuracy is less than training accuracy ......so it is clearly overfitting ...any suggestions for that ????  great video :),True
+@ryuk9204,2020-06-16T17:25:42Z,0,"Great tutorial, Can you update the code where ""no. of epoch, choice of optimizers, batch size "" as a hyperparameter for keras tuner. Thanks in advance.",True
+@paraslaul3307,2020-06-11T09:28:49Z,0,how to predict images based on labels,True
+@joe8ones,2020-06-10T12:03:03Z,1,"i followed the exact sane steps, but my output is 0.09",True
+@thevivekmathema,2020-06-07T08:23:37Z,0,"hello, can you show thsi using custom jpgs image folder and data (e.g ./Train (./cat ../dog ../panda ) ) & Test (.simlar)",True
+@AyushGupta-kp9xf,2020-05-27T00:07:23Z,2,"Please explain the reshaping part, I didn't get that",True
+@shivanisood1562,2020-05-23T10:41:58Z,1,how to predict the hyperparameters for own dataset,True
+@bilalayubi419,2020-05-23T07:16:38Z,1,Dear sir i am confusing how i will give input image and how get output.,True
+@sudeepnellur,2020-05-20T07:41:56Z,0,thank you sir,True
+@OrionEx88,2020-05-12T19:17:38Z,12,"Great video! I have a question, it seems you already chose 2 conv2d layers, and you only searched for filters, kernel size, dense layers and learning rate. Can we also search for how many conv2d layers, pooling, dropout, etc.?",True
+@carlosfotsing6779,2020-05-12T11:22:28Z,0,sir can you kindly upload the code of this tutorial?. it was so interesting,True
+@bhavyachhabra1600,2020-05-06T20:49:03Z,5,"Sir, how can we use keras tuner alongside transfer learning?",True
+@bhavyachhabra1600,2020-05-06T20:34:59Z,0,Great explaination like always sir! Thankyou!,True
+@sandipansarkar9211,2020-04-20T17:44:58Z,1,Great video but no value if we do not practice.Thanks,True
+@ebrahimkutty1491,2020-04-16T09:57:18Z,0,Flatten function is not explained!,True
+@sayantansinha4545,2020-04-12T15:47:31Z,0,Why did we reshape the image arrays at 9:26 ??,True
+@harshzota161,2020-04-11T10:16:10Z,0,"Hi , I had some doubts regarding a project i am doing for my final year , I am very confused presently what to do and how to go about , it would be really great help if I could contact you personally somehow.  please if you read this contact me on : hzota1042@@t anyone with great knowledge about deep learning , image recognition is please contact me on the given email",True
+@afsheenmaroof6209,2020-04-04T09:44:52Z,1,"FileNotFoundError                         Traceback (most recent call last) <ipython-input-23-1dbf7f166e0b> in <module>()      10 testdog_dir=os.path.join(valid_dir,'dogs')      11  ---> 12 print('total training cat images:',len(os.listdir(traincat_dir)))      13 #print('total training dog images:',len(os.listdir(traindog_dir)))      14 #print('total test  cat images:',len(os.listdir(testcat_dir)))  FileNotFoundError: [Errno 2] No such file or directory: '/content/drive/My Drive/dataset/train/cats' getting this error here is code base_dir='/content/drive/My Drive/dataset' train_dir=os.path.join(base_dir,'train') valid_dir=os.path.join(base_dir,'validation')  traincat_dir=os.path.join(train_dir,'cats')  traindog_dir=os.path.join(train_dir,'dogs')  testcat_dir=os.path.join(valid_dir,'cats') testdog_dir=os.path.join(valid_dir,'dogs')  print('total training cat images:',len(os.listdir(traincat_dir))) #print('total training dog images:',len(os.listdir(traindog_dir))) #print('total test  cat images:',len(os.listdir(testcat_dir))) #print('total test dog images:',len(os.listdir(testdog_dir)))",True
+@manikosuru5712,2020-03-31T20:29:56Z,1,Hi sir It's really amazing video.. Can u perform CNN on own data like cats/dogs in google colab like how to read our data to perform simple CNN classification model.Can u pls...,True
+@prasantas2195,2020-03-24T13:45:58Z,0,"Hey Krish, didn't find the code in the description (as you mentioned in the video tutorial).",True
+@smurtiranjansahu5657,2020-03-04T07:07:42Z,0,Sir pls make a project video of RNN using karas,True
+@yerriswamyv1910,2020-02-16T08:26:24Z,0,How to check the accuracy on test data ? here it's multi class data.,True
+@yerriswamyv1910,2020-02-16T07:08:41Z,0,"aren't filter and kernal same ? if same, why we are giving two separate names conv_1_filter and conv_1_kernal ?",True
+@raghubetageri5378,2020-01-31T09:43:16Z,1,make a video for creating our own dataset and classification......which wil be very helpful,True
+@forever-fz1hk,2020-01-17T06:22:40Z,0,sir just one question how to decide the output nodes in dense layer..you have taken 10 but how to decide that...or how you came with 10..please answer sir,True
+@vikashchandramaurya1168,2020-01-16T22:15:46Z,0,"Very helpful tutorial, thanks a lot",True
+@bhupendrapal9176,2020-01-12T20:27:03Z,1,"I am getting beow error while executing this code. Please help me  to figure this out. Objective value missing in metrics reported to the Oracle, expected: ['val_accuracy'], found: dict_keys(['loss', 'acc', 'val_loss', 'val_acc'])",True
+@kryptoskaggle7031,2020-01-06T14:43:29Z,1,"what is that ""step=16"" in each conv2d??",True
+@pallabidas3064,2020-01-04T09:06:10Z,0,can anyone tell me  how to save this final output?,True
+@enquiryadmin8326,2019-12-28T08:32:56Z,0,"hi, i wanted to ask can we use pretrained  models for facial emotion classification problem?",True
+@enquiryadmin8326,2019-12-28T08:31:58Z,0,"hi, can we use pretrained  models for image classification problem?",True
+@Abhishekpandey-dl7me,2019-12-26T08:00:42Z,13,"can you plz make a video on Adam optimizer as you have made for gradient descent, coz we r unable to understand how this adam works",True
+@psw1,2019-12-25T22:33:51Z,2,What's new in keras-tuner ? Earlier also it was possible by using scikit wrapper class for the keras model and then perforrming gridsearch or random_search for finding the best parameters.,True
+@arjunpukale3310,2019-12-25T13:43:05Z,2,Sir please make video using keras tuner for cat dog classifier,True
+@JaiSreeRam466,2019-12-23T12:41:15Z,1,thanks alot sir,True
+@samhrmujawar,2019-12-23T07:38:06Z,34,Out of 309 videos 285 videos you created in 2019 itself. great work man! Keep going.,True
+@GauravSharma-ui4yd,2019-12-23T04:08:16Z,2,Thanks for these video sir. Please also continue the ml deployment series,True
+@aashishyasinha8078,2019-12-23T04:05:31Z,1,Sir what is mobile net and vgn architecture ??,True
+@neeleshjaiswal4922,2019-12-23T03:57:09Z,5,Thanks for this video. Yesterday only I saw your video 26. You said you will be completing the code explaintion in the next video. I am waiting for the second part of video -26 to come.😁,True

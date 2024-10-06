@@ -1,0 +1,44 @@
+author,updated_at,like_count,text,public
+@harshwardhanwaghchoure2102,2024-05-12T16:05:54Z,1,"Code for region other than ""us-east1-""  s3 = boto3.resource(""s3"") try:     if my_region == ""ap-south-1"":         s3.create_bucket(Bucket = bucket_name, CreateBucketConfiguration = {""LocationConstraint"":my_region})              print(""Bucket Created"")      except Exception as e:     print(""S3 Error:"", e)",True
+@JannickBayar,2024-04-27T09:48:31Z,0,Seems like us-east-1 is a default. If your region is different you have to consider constraints. I dont know how to do that. It seems way more complicated..,True
+@apbaba5821,2024-03-20T09:14:15Z,0,"I get ""IllegalLocationConstraintException"" error too, than I change the code as below, and it works.  The S3 bucket name must be globally unique, if you set your bucket name same as other Amazon S3 user's bucket name, you will get ""IllegalLocationConstraintException"" error too. --- s3 = boto3.resource('s3') try:     if my_region == 'us-east-1':         bucket = s3.create_bucket(Bucket=bucket_name)     print(""S3 bucket created sucessfully"") except Exception as e:     print(""S3 error:"", e)",True
+@davidatoyebi-jy4ko,2024-01-05T20:49:12Z,0,"This works for me xgboost_container = sagemaker.image_uris.retrieve(""xgboost"", boto3.Session().region_name, ""1.7-1"")",True
+@Asoville18,2022-08-18T18:26:30Z,0,I mistakenly included an upper-case character in my bucket name. Thats not allowed.,True
+@maggietang1369,2022-08-05T18:28:21Z,0,Thanks!,True
+@shalakamhetre8093,2022-07-01T19:59:02Z,0,Thanks Krish for sagemaker series,True
+@sainathmitalakar3081,2022-06-15T05:12:46Z,0,Bro not able to create a bucket it's showing error like illegal location constratnt exception,True
+@rishabhgoel1877,2022-02-11T08:22:14Z,0,can you provide code links in description ?,True
+@akashprabhakar6353,2021-09-05T10:30:11Z,0,Thanks a ton,True
+@planetnicky11,2021-07-23T03:37:06Z,0,Dude Krish I love your vibe,True
+@AshwinKachu,2021-07-21T07:04:08Z,6,"5:48  While naming the S3 bucket please take care of these steps https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html If this IllegalLocationConstraintException error came add the following line in the s3.create_bucket() s3.create_bucket(Bucket=bucket_name,CreateBucketConfiguration={'LocationConstraint':'us-east-2'}) instead of 'us-east-2' please use your specified location",True
+@shubhamvijayvargiya4119,2021-06-21T16:28:54Z,0,"for those who are not able to create the bucket due to (IllegalLocationConstraintException), use below code to create your s3 bucket.         s3.create_bucket(Bucket=bucket_name,CreateBucketConfiguration={'LocationConstraint': 'YOUR REGION NAME'})",True
+@ronyjoseph7868,2021-05-11T15:47:48Z,0,"cannot reshape array of size 6160368 into shape (682,100,100,1),why this error come in aws sagemaker jupyter, but i did not get such error in anaconda jupyter",True
+@devendrasharma4823,2021-04-09T09:25:33Z,0,You're the BEST ;( the savior!,True
+@janmajayadhikari6492,2021-04-05T12:32:32Z,0,"I'm not able to see the S3 bucket created from s3.create_bucket(Bucket=bucket_name, CreateBucketConfiguration={'LocationConstraint': 'ap-south-1'}) in the S3 console. Any one faced this? I logged in as root user",True
+@mrflame759,2021-03-04T06:32:50Z,1,They showing bucket created successfully in code but why there is no bucket showing in my s3 console ???,True
+@suhasshirbavikar9496,2021-02-10T02:42:32Z,0,Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.,True
+@suhasshirbavikar9496,2021-02-10T02:39:32Z,4,'s3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.,True
+@karth12399,2021-01-21T16:29:30Z,0,Love you sir for providing such a quality content. I know many academy are charging heavily without even 1 percent of the content what you are providing in youtube,True
+@maYYidtS,2021-01-19T15:03:43Z,1,can you please make a video to fetch data from the MySQL database using this was services?,True
+@pz2519,2021-01-09T17:24:35Z,4,"Hi, I really appreciate your way of helping people like me. Thanks for this Sagemaker video series. While creating instance I am facing issue like S3 error:  An error occurred (IllegalLocationConstraintException) when calling the CreateBucket operation: The unspecified location constraint is incompatible for the region specific endpoint this request was sent to. my_region is 'us-east-2'. Thanks in advance.",True
+@shhivram929,2021-01-07T08:45:09Z,0,"S3 error as : An error occurred (InvalidBucketName) when calling the CreateBucket operation: The specified bucket is not valid.  If any one is getting this error: First check if the bucket name is in all lower case, it worked for me this way.",True
+@aczenthil,2020-12-09T09:47:22Z,2,"s3_input() has been replaced with ""TrainingInput""",True
+@ArunKumar-sg6jf,2020-11-18T04:13:01Z,0,can we do deep learning model  in awws,True
+@asrarafi6322,2020-11-10T09:32:25Z,2,S3 error An error occurred (IllegalLocationConstraintException) when calling the CreateBucket operation: The unspecified location constraint is incompatible for the region specific endpoint this request was sent to.,True
+@manideepgupta2433,2020-11-08T19:35:51Z,0,"Man, you are such an amazing guy, made things very clear and Thank you very much Krishna! /\, please if possible also make videos on Lambda, Redshift, RDS and DynamoDB!!!!!",True
+@kaushikdayalan924,2020-11-01T19:03:58Z,0,"Sir, how is storing data in s3 bucket different from uploading the dataset directly to the instance.",True
+@chekrasena,2020-10-08T17:35:40Z,0,Keka,True
+@ravindarmadishetty736,2020-09-02T07:25:39Z,0,I have been created s3 bucket using a notebook. But after creating i dont see bucket name in S3. I have checked region and everything. I made also any S3 bucket. But could not see. what is the issue here. Please help,True
+@arulsebastian6338,2020-09-01T13:13:53Z,0,Thanks krish for the tutorial. helped me to create ML model in sagemaker,True
+@baselmaarof8143,2020-08-31T11:16:27Z,5,3 error:  An error occurred (IllegalLocationConstraintException) when calling the CreateBucket operation: The unspecified location constraint is incompatible for the region specific endpoint this request was sent to.,True
+@baselmaarof8143,2020-08-31T11:08:01Z,0,"s3 = boto3.resource('s3') try:      if my_region == 'us-east-2':            s3.create_bucket(Bucket=bucket_name)     print('S3 bucket created successfully') except Exception as e:     print('S3 error: ',e)  sir when I run this code the output seems like this  Anyone can help pls?",True
+@balajikumaresan4522,2020-08-29T18:31:43Z,0,i got an excection error: S3 error:  An error occurred (IllegalLocationConstraintException) when calling the CreateBucket operation: The unspecified location constraint is incompatible for the region specific endpoint this request was sent to.,True
+@arjundev4908,2020-08-29T17:21:21Z,3,Just curious to know @Krish.. on an average how many hours do you spend in front of your laptop?,True
+@venkateshsadagopan2505,2020-08-29T13:28:33Z,4,"Hi Krish, Nice explanation. One small addition for creating the bucket which always works will be using the below command s3.create_bucket(Bucket=bucket-name, CreateBucketConfiguration={     'LocationConstraint': region-name}) Without specifying the region constraint sometimes I have faced failures in creating bucket.",True
+@anandhasrivi,2020-08-29T12:26:22Z,1,Nice exolanation. Keep up the good work,True
+@basiletalla1802,2020-08-29T11:59:23Z,1,"Very good tutorial and very helpful. Thank you Krish, you always deliver",True
+@dsbupadrasta2385,2020-08-29T10:54:35Z,1,Thank you sir,True
+@lokeshjoshi9042,2020-08-29T10:15:36Z,1,Love You Sir😍,True
+@princepatel4170,2020-08-29T10:02:46Z,1,can you make video about multiprocessing in python and how its work backend and whats there benefits,True
+@amitjajoo9510,2020-08-29T09:22:01Z,1,thanks sir😊,True
+@chetanmundhe8619,2020-08-29T09:15:04Z,1,"Very good tutorial sir. is it required to be very good in aws sagemaker for datascientist,  does datascientist need to deploy all the models through sagemaker?",True

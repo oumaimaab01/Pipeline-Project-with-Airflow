@@ -1,0 +1,57 @@
+author,updated_at,like_count,text,public
+@bear76917,2024-05-12T22:00:28Z,3,"As a python beginner without any programming background, I watched a lot of videos on youtube and found them very hard to follow. This video is the best I've ever watched so far! Thanks!",True
+@a.m.3627,2024-05-06T08:21:49Z,0,"In the end of the video, I believe it should be: df.loc[df['Country'] == 'Afghanistan']",True
+@aashishmittal206,2024-04-09T00:24:32Z,0,"Can anyone please explain how to get ""copy as path"" in Windows right click context menu?  I don't think it is there by default!",True
+@juhairmanar7055,2024-03-27T12:37:53Z,0,Datasets links not working,True
+@user-zt9ki3nt8h,2024-03-26T05:27:23Z,1,Very fantastic way to teach.,True
+@grandetaco4416,2024-03-26T04:54:47Z,0,"I've been running this in python on my local machine, for read excel to work you need to install openpyxl. It worked after doing this, sheet_name is case sensitive.",True
+@chahineatallah2636,2024-03-10T05:29:29Z,0,"great video, new for me is the ""copy for path"" lol, used to do that different way or ""type manually""",True
+@bennguyen1313,2024-03-09T16:15:45Z,0,"What if your text file doesn't contain a perfect table.  For example, I have a huge text files that looks like this:  #Time (HHH:MM:SS): 002:34:02 # T(ms) BUS CMD1 CMD2 FROM SA TO   SA WC TXST RXST ERROR  DT00 DT01 DT02 DT03 DT04 DT05 DT06 DT07 # ===== === ==== ==== ==== == ==== == == ==== ==== ====== ==== ==== ==== ==== ==== ==== ==== ====   816   B0  D84E      BC      RT27  2 14      D800        2100 0316 0000 0000 0000 0000 CCCD 0000   817   A0  DC50      RT27  2 BC      16 D800             2120 0000 4080 3000 0000 3000 0000 0000  #Time (HHH:MM:SS): 002:34:03 # T(ms) BUS CMD1 CMD2 FROM SA TO   SA WC TXST RXST ERROR  DT00 DT01 DT02 DT03 DT04 DT05 DT06 DT07 # ===== === ==== ==== ==== == ==== == == ==== ==== ====== ==== ==== ==== ==== ==== ==== ==== ====   056   B0  D84E      BC      RT27  2 14      D800        2100 0316 0000 0000 0000 0000 CCCD 0000   057   A0  DC50      RT27  2 BC      16 D740             2120 0000 4080 3000 0000 3000 0000 0000   How can I do pd.read_table to get just the data from DT00 thru DT07 into an array, without doing lots of preprocessing to scrub out the repeating #Time headers that appear throughout the file?",True
+@truthseeker457,2024-03-03T11:50:37Z,0,"But it didn't give me Uzbekistan when I run dfworld.loc['Uzbekistan'], here is what it said: <ipython-input-42-9669e5cc918b> in <cell line: 1>() ----> 1 dfworld.loc['Uzbekistan']  4 frames /usr/local/lib/python3.10/dist-packages/pandas/core/indexes/range.py in get_loc(self, key, method, tolerance)     393                     raise KeyError(key) from err     394             self._check_indexing_error(key) --> 395             raise KeyError(key)     396         return super().get_loc(key, method=method, tolerance=tolerance)     397   KeyError: 'Uzbekistan' Can you explain, please?",True
+@Nandhu470,2024-02-19T13:45:17Z,0,Can  you make a playlist of numpy and matplotlib libraries it will help us a lot,True
+@daewanshbansal6173,2024-02-08T16:08:28Z,0,Hi can anybody help me im getting error refers that no such module exists named “pandas“?,True
+@preetshah3793,2024-01-26T06:19:55Z,0,Please make a video on numpy for data analysis,True
+@Hanap.s-jp4sv,2024-01-23T06:55:28Z,0,thank you soo much sir,True
+@catarinamacedo2864,2024-01-06T16:56:40Z,0,"Hey! :) I'm having problems with pd.set_option(""display.max_rows"",200).   If I write pd.get_option((""display.max_rows"") it says is 200, but when i run df again, its only showing first and last columns as before. Do you know what the problem could be?🙏",True
+@emmanuelojuyenum879,2023-12-30T22:22:39Z,0,"This is so simplified and informative, thanks Alex.",True
+@positively8461,2023-12-24T15:29:04Z,0,Thank You,True
+@agadirmaroc6908,2023-11-21T07:47:57Z,1,Alex thanks for the video but for information (“western sahara) is not an official country it’s a part of kingdom of Morocco 🇲🇦,True
+@Nixsystemd,2023-11-19T00:21:16Z,0,"Thanks 🙏 Alex, I understood the difference between iloc y loc",True
+@samshepherd6197,2023-11-02T22:38:03Z,1,i need your help! I try to brimg in Pandas as pd but i get error message: it is there i can see it.? FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Samson\\Documents\\CSV Excel Databasse\\sales'  ​,True
+@samshepherd6197,2023-11-01T21:26:06Z,1,How to use pandas in 2023,True
+@kmetriqs,2023-10-03T18:35:03Z,0,"Thank you Alex! I watched the first video and it automatically switched to the next one, but I came back to hit thumbs-up and leave this comment. The best Pandas course (I tried many of them)",True
+@user-vd9os2pe1p,2023-09-24T16:01:08Z,0,"@Alex hi Alex ,  "" import pandas as pd pd.read_csv(r""C:\Users\munag\OneDrive\Desktop\Learnings\Data Analyst\countries of the world.csv"")"" FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\munag\\OneDrive\\Desktop\\Learnings\\Data Analyst\\countries of the world.csv'  ---- I am getting this error. Can you Please point out where did i do wrong?",True
+@litaogechi86,2023-09-14T01:47:46Z,0,I feel like giving you a hug @Alex.  Thanks for relieving me hours searching for this solution.  Thanks alot,True
+@futbolstudio6361,2023-08-31T18:43:33Z,0,18:19   Uzbek sila,True
+@FredyArg,2023-08-25T14:57:26Z,0,"Hello, great videos, do you know how to use python pandas to read excel files from sharepoint online, using certificate or PKI or x509? I have tried everything and cant get access, keep getting 401 errors…thanks",True
+@codingtrap5389,2023-08-24T16:38:38Z,0,Is it the first video of pandas??,True
+@infiniteboredom1,2023-08-23T08:05:49Z,0,"how would I manipulate the data frame such that I could set a min and max? lets say in the case of the example above, ranking from 12 to max 35",True
+@yurobert3007,2023-08-02T05:27:17Z,1,Brilliant tutorial. Thanks.,True
+@the_seahawk22,2023-07-24T20:56:25Z,0,kept getting an error when trying to import the excel file. Not sure what is going on. Help? kept telling me persmission denied,True
+@akhmadmikael6576,2023-07-15T01:41:20Z,0,Like always this video is very good. But when i try to read the Excel. But why it can't read it? Should i download the openpyxl?,True
+@user-le2ei6ue7l,2023-07-06T11:48:27Z,0,"No matter how far I get in data analytics, I will always think of black and white bears first when I hear pandas. Where the heck did the name come from, anyway?",True
+@chefernandez563,2023-06-28T11:21:22Z,0,so i got an error when importing 'sheet1' i then renamed the sheet to somthing else and then it worked,True
+@KvintKek,2023-06-14T16:30:14Z,0,Nice channel you have got!!! Thank you!!!,True
+@AnieAnime,2023-06-06T18:48:55Z,0,"for some reason i am not able to download these files from github, the raw files end up not opening the page and the download button doesn't work.",True
+@srijanrawat4014,2023-05-20T10:43:15Z,0,"Great videos MAN , one thing i struggled with was no module named panda , would have helped if you told us how to download the library  or maybe its because i am doing it in vs code : still great vidoes man u are G.O.A.T",True
+@kpeyialale1104,2023-05-06T05:55:40Z,1,You teach in the most simple way. Thank you for zooming the screen so one can see the text clearly.  God bless you.  Keep up the good work,True
+@victorchinemerem2704,2023-04-08T13:03:06Z,11,"Thank you for being a truely outstanding teacher. Your passion for impacting knowledge and your dedication to your students is obvious in everything you do. I feel so lucky to learn from you sir. I hope you know the priceless impact you are making in so many lives. Sir, please I have a humble request. I would appreciate if you would make a video of PYTHON in Data Analysis. A complete series. Much love sir.....",True
+@dccoulthard,2023-04-06T14:14:00Z,2,"Great video. It's been really hard to find good Python videos. It seems like EVERY Python for Data Analytics course that I buy has a teacher that comes from the computer science world, and talks about it that way. Your approach makes is SO much easier for us non-computer scientists to learn!",True
+@user-qz5vj4tw4d,2023-03-22T08:42:42Z,0,"Great video! Thanks, keep moving forward!",True
+@namaaazaizeh1258,2023-03-16T12:59:51Z,0,"thank you Alix for every thing  I want to ask you smth  how can I download the txt , json , csv files form gethup  ?",True
+@rajeshkumar2k567,2023-03-08T10:35:39Z,0,"13:26 how does the comand knows that it has to do changes for jason file, you did not mention that show all the columns for Jason file.",True
+@benrum,2023-03-04T17:52:30Z,0,sangat bermanfaat,True
+@wise6469,2023-03-04T13:50:15Z,0,"Hello Alex, I would like to know your opinion on Data Analyst freelancer jobs. Is there actually such a thing?  It would be great if you'd share your thoughts on this.",True
+@PawanSahare,2023-03-03T18:42:41Z,0,How do I read .dat file?,True
+@christianwiah4526,2023-03-03T06:29:23Z,24,"This is how people should teach - easy, smooth, and clear breakdown of concepts.",True
+@vishnuekilwale4186,2023-03-02T05:00:46Z,3,This is the thing I was looking for. I had wish to someone make it more easy. This is my first step 🚶‍♂️ to learn python.  Lots of love ❤️ for this video,True
+@sajuthomas9659,2023-03-01T14:28:37Z,0,"Alex, thanks for the video. Nicely explained. Looking forward to future videos.",True
+@kunalkaushal6466,2023-03-01T09:03:39Z,0,"Hello Alex, I have been going through your videos and learned a lot from them. Really thankful for it. Just wanted a little bit of your time to review my Resume which I have made. Your advice would be of great help. Looking forward to your time.  Thank you.",True
+@beardedmtbr,2023-03-01T05:42:49Z,8,"Great video Alex as always, still can’t believe how much I have learned from you and your videos in the last 6 months! Definitely tunning in to brush up and keep it fresh! Bring back the intro!",True
+@moxie1189,2023-02-28T20:30:42Z,0,Chris Bruehl from Maven Analytics has an outstanding Pandas and NumPy master class course. I would recommend that over some unknown course.,True
+@damaslan2246,2023-02-28T19:29:28Z,9,"Great video from Alex as always. For those who don't know how to access to ""copy as a path"", you hold shift and right-click the file. I hope this helps.",True
+@ivanko-nebo,2023-02-28T17:03:18Z,16,not having intro sounded so different. It feels that I've missed some part of the video or even lost a complete previous episode.,True
+@Bendelman911,2023-02-28T17:03:16Z,3,Hi Alex! Thanks for video. 12 out 10 as usually. I would like to ask you if you could give us permission to download the files? Thanks in advance!,True
+@ianafele6196,2023-02-28T16:30:20Z,1,Finally!!!!!!!!!!,True
+@shadow6161,2023-02-28T15:15:48Z,0,finally pandas came to the zoo now slowly import Numpy animal also from numerical statistics city .,True
+@moseistrujillo8300,2023-02-28T12:35:37Z,6,no intro?,True

@@ -1,0 +1,72 @@
+author,updated_at,like_count,text,public
+@Lunsterful,2018-06-15T18:05:26Z,35,"YES!  I NEED MORE.   Python is great, but JavaScript is everywhere, so this will be the entry point for many devs coming into ML, noobs like me.",True
+@Badboyifier,2021-03-29T09:18:02Z,0,7:47 starts here,True
+@taktouk17,2020-11-01T15:15:42Z,0,A neural network of 3 layers to predict  a linear regression,True
+@abhinavtembulkar4464,2020-08-03T17:54:38Z,0,Great tutorial ! I was looking for it for eons !,True
+@bidhanmajhi,2019-08-20T12:00:50Z,1,"Everytime I search for a tutorial, this channel has it. Great",True
+@duckchillings3696,2019-06-17T15:47:54Z,0,Why does hidden layer have 64 for units?,True
+@bobcrunch,2019-03-18T06:41:08Z,0,"This drove me crazy for about an hour. Trying to find a working complete html file on the web is difficult.  I finally figured out what the html file should look like: <html>   <head>     <!-- Loading in TensorFlow.js version 0.13.0 -->     <script src=""https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.0""> </script>     <script>       const model = tf.sequential();       model.add(tf.layers.dense({units: 1, inputShape: [1]})); ...       model.predict(tf.tensor2d([6], [1, 1]))       model.predict(tf.tensor2d([6], [1, 1])).print()      </script>   </head>   <body>   </body> </html> There are two <script> ... </script> sections: one with the tensorflow-js load, and a second with the tfjs code. These are both in the <head> ... </head> section. The Firefox Web Developer > Inspector > Console indicates warnings but it still works. You're welcome!",True
+@amlife180,2019-02-05T02:09:17Z,0,Semicolons in JavaScript are optional 😋,True
+@khutulka,2018-11-23T01:30:08Z,0,19:53 @ here's a nice video about promises: https://youtu.be/2d7s3spWAzo,True
+@liakopoulosjohn,2018-10-08T16:23:57Z,0,"Does this mean that by using webGL all the restrictions that CUDA poses in preventing AMD cards being used, are gone?",True
+@Sharyf,2018-09-12T16:38:32Z,0,"but but but...  you didnt make a JS tutorial, did you?  Would be cool to have one , you're great at making tutorial series.",True
+@ishandeb334,2018-07-21T08:52:55Z,0,"I keep getting Promise state as pending after fit.I'm running this in the web console of Firefox & I have not tried any other browser yet(I refreshed & tried the code again, still the same & has been like this for over an hour).  Anyone had any issues while running this on Firefox?  This is the code I ran till now: const model = tf.sequential(); model.add(tf.layers.dense({units: 1, inputShape: [1]})); model.add(tf.layers.dense({units: 64, inputShape: [1]})); model.add(tf.layers.dense({units: 1, inputShape: [64]})); model.compile({loss: 'meanSquaredError', optimizer: 'sgd'}); const xs = tf.tensor2d([1, 2, 3, 4, 5], [5, 1]); const ys = tf.tensor2d([2, 4, 6, 8, 10], [5, 1]); model.fit(xs, ys)  This is the error I keep getting: Promise { ""pending"" } ​<state>: ""pending"" ​<prototype>: PromiseProto ​​catch: function catch() ​​constructor: function Promise() ​​finally: function finally() ​​then: function then() ​​Symbol(Symbol.toStringTag): ""Promise"" ​​<prototype>: Object { … }",True
+@leonhardeuler9839,2018-07-19T15:31:16Z,0,I got the answer at my first compile \(._.)/,True
+@randyellis6924,2018-07-11T14:58:02Z,0,So... can you train in the web? Or would you need a cloud server to do this?,True
+@zapshadab3450,2018-07-04T16:45:29Z,0,can u please tell me...how could i understand the implementation of neural network . i am finding little problem to code a neural network,True
+@zapshadab3450,2018-07-04T15:52:33Z,0,Where you learn these new technologies..?,True
+@stevedarmoe2590,2018-06-28T03:55:49Z,0,"why am i getting really bad predictions even with big epochs ,  sometimes it gets worse as i add more epochs?",True
+@srikanthguptha3145,2018-06-27T16:52:11Z,0,You're amazing.....just keep doing this great stuff!!! Thank you so much,True
+@EzraSchroeder,2018-06-27T08:20:29Z,0,Activation has to be nonlinear not linear. Only nonlinear activations are used because otherwise neural networks wouldn't be universal approximators. Essentially they would be worthless / useless. https://youtu.be/Bc8UC_m7M_Y,True
+@Penguinz-fr1mu,2018-06-21T09:54:16Z,0,THANKS!!,True
+@jimip6c12,2018-06-19T13:10:13Z,3,"Just to add on, Promise only have two categories, resolve or reject. In this case, the promise in tensorflow can help user to define a function to basically do something if the training is finished, or something else when the training is failed.  Promise is more or less same as callback, its just that promise has (overall) a better, more readable syntax when we are having multiple promise / callback at the same time.",True
+@akashnag3879,2018-06-18T10:34:46Z,2,i was eagerly waiting for a comprehensive tensorflow.js tutorial.... didn't expected to get it here in a python predominant channel. thanks mate..,True
+@dechaomeng9866,2018-06-18T09:32:20Z,0,"Default activation is None. So in fact the nn in this example only fits a linear scalar. If your data is more complex, the result will be bad.",True
+@petr.g,2018-06-18T05:10:47Z,0,Start 7:51,True
+@MrBoubource,2018-06-17T21:35:29Z,4,"But.. To do linear regression, you don't even need any hidden layer? It's just output = weight×input + biais, so only 1 neuron, hence no intermediate layer between input and output? Am i missing something? Maybe you just did it for tutorial, but it might ""over-layer"" (or whatever it's called) the neural network.",True
+@nikhiledu7556,2018-06-17T14:49:56Z,0,Whatcare prerequisites for this series. Can anyone tell me??. Thanks,True
+@yishahai1798,2018-06-17T01:04:52Z,0,"I got some questions, if client side don't share data with you, is that means model will trains on client side and transfers back the trained model data?  and is it also means you are going to use clients machine capacity?",True
+@EctoMorpheus,2018-06-16T14:52:02Z,1,"Thanks for the tutorial! I have one question I can't find an answer to anywhere: is TensorFlow.js with GPU faster than Python TensorFlow with CPU?  Regular TensorFlow doesn't support my GPU, but WebGL should. Therefore, it might be worth switching to TensorFlow.js if that enables me to use my GPU and if it's actually faster than CPU.",True
+@shaylempert9994,2018-06-16T14:24:31Z,0,"""hopefully someone will mark a timestamp for anybody who doesn't care for all of that information. I'm sure sombody will post one"". *On it* . By the way tutorial starts here: 5:10.  *Edit:* it starts at 7:50.",True
+@shravankumarshetty9012,2018-06-16T14:06:57Z,0,"When I'm giving the xs  and ys as tensors it gives an error by saying, ""Error when checking input: expected dense_Densel_input tfjss@0.11.6:1:409295 to have shape [ ,1] , but got an array with shape [5, 1]""  So I'm stuck ...",True
+@vanchurwong6849,2018-06-16T12:08:24Z,0,Awesome job you’re doing,True
+@zhoubei5994,2018-06-16T06:58:17Z,1,"Thank you for the tutorial you shared, may I ask will you teach blockchain to us in the feature ? I really like your tutorial. Thank you.",True
+@MarkJay,2018-06-16T06:18:19Z,0,Nice! looking forward to more :D XD,True
+@AbhishekKumar-mq1tt,2018-06-16T03:23:46Z,0,Thank u for this awesome video and this series,True
+@nixonyh06,2018-06-16T02:47:57Z,0,Yes I like this type of content!,True
+@sanchitjain3498,2018-06-16T02:35:49Z,1,Hey setndex! Love your channel! I just wanted to ask that can i learn django without any prior python knowledge?,True
+@EldeNova,2018-06-16T01:57:32Z,0,"Well done dude. This is also a good showcase that no mater what programming language you know, it doesn't really matter, you can figure it out.",True
+@PandemicGameplay,2018-06-15T22:04:13Z,0,So is the advantage of using this vs. Python version that if you have a relatively small/medium size model and have a TON of users hitting it then it would be better to use TensorflowJS vs hosting it on a server?,True
+@spherevsgravity,2018-06-15T18:55:59Z,0,Thank you very much Sentdex ! You are doing a great job !,True
+@lukeschollmeyer8811,2018-06-15T18:29:51Z,0,"Great job. One of the few examples out there showing an easy way (other than an XOR prediction) of use...from the browser console, no less!",True
+@RinkuYadav-ur5sx,2018-06-15T18:22:09Z,0,Awesome video sentdex  please make video on dealing with pixels of images in  neural network for object detection and real time frame calculation?how to mark on images after processing through detection,True
+@leninaguilars,2018-06-15T18:16:09Z,0,awesome!,True
+@puipuiboi6386,2018-06-15T18:14:11Z,0,can i like this twice :D,True
+@anandpawara4048,2018-06-15T17:59:58Z,0,Finally tf.js tutorial was waiting for long time !!!!,True
+,2018-06-15T17:48:46Z,0,You can use  javascript observables instead of console ( similar to jupyter notebook).,True
+@kamalnayan9157,2018-06-15T17:47:43Z,0,Dhanyawad,True
+@aswathgi6468,2018-06-15T17:44:57Z,0,Awesome 👏,True
+@kocur4d,2018-06-15T17:25:14Z,0,Why did he laugh on the question about Scikit-Learn tutorial?,True
+@smileyoval4766,2018-06-15T16:38:31Z,0,Where should I start with machine learning in python?,True
+@Alex4n3r,2018-06-15T16:29:59Z,1,Probably one should also compare performance and battery drain between tensorflow in an android app and as tensorflow.js (webview?). The latter is plattform independent utilizing the GPU contrary to specialized units being used in new phones.,True
+@Tony770jr,2018-06-15T16:09:35Z,0,Too confusing dude...,True
+@hammordaxe3665,2018-06-15T16:02:11Z,0,Should i learn javascript?,True
+@rafeeqalfaqih977,2018-06-15T15:29:07Z,0,last time it wasn't clear but now its perfect man thank you so so much . i am learning a lot from you . wish you the best .,True
+@Uditsinghparihar,2018-06-15T15:25:49Z,0,"Good series, can't wait for future videos. May be this way I could be motivated to learn basic JavaScript",True
+@GalHorowitz,2018-06-15T15:23:36Z,3,"A Promise is what it is - a ""promise"" when a function returns a Promise, it promises you that when you will be called things will be ready. A neat feature of working with promises is requirement stacking: For example,  getSomeImportantData().then((data, error) => {     // Handle errors     return useThatDataForAnotherPromise(data); }).then((data, error) => {     // Hooray! We are sure we have our data to use.     console.log(data); });  Do note that the ""data, error"" format is not set in stone and you will need to check the API reference for exact parameters. A promise has three resolution states:  1) Pending - Initial state. 2) Fulfilled - Represents a successful operation 3) Rejected - Failure  Other useful tips: Use Promise.all when you need data from multiple sources that do not depend on each other: Promise.all([promise1, promise2, promise3]).then((data) => {     // I am called when all promises resolve/reject.     // In this case, data is an array of all values returned by the promises, by order. });",True
+@robertaradi9994,2018-06-15T15:15:07Z,0,"Wow, this is super cool!",True
+@GalHorowitz,2018-06-15T15:12:16Z,4,"At 15:46 you missed it, it is written: ""If unspecified, no activation is applied.""",True
+@manojtripathi7221,2018-06-15T15:11:56Z,1,"its just start ""fast food fast fart"" it will be better with time",True
+@daehjeon,2018-06-15T15:07:44Z,2,Thank you Sensei!!,True
+@Alex4n3r,2018-06-15T15:05:59Z,0,When there is a good free model of a text2speech neural network one could really do a great chatbot in js.,True
+@StanleyYip011,2018-06-15T14:58:25Z,0,i love you <unk> sentdex,True
+@ParthDavee,2018-06-15T14:53:39Z,0,Love your Videos man,True
+@simondungeon1218,2018-06-15T14:52:32Z,5,i am a beginner in python.. but this videos will definitely help me in the long run,True
+@bruhaspati560,2018-06-15T14:48:57Z,0,I was waiting for this desperately,True
+@lucav4045,2018-06-15T14:47:29Z,0,I personally don't like tensorflow.js. Don't know why but I just don't like it,True
+@MarsGamer7,2018-06-15T14:46:36Z,20,5:15 It starts here :P,True
+@Stinosko,2018-06-15T14:46:03Z,0,"Timestamp, tutorial begin: Lost in explanations ;-)",True
+@deepaks.m.6709,2018-06-15T14:41:42Z,0,AWESOME :D,True
+@shamaldesilva9533,2018-06-15T14:38:31Z,0,Yes ... was waiting for this .thank you so much,True
+@meetshah7989,2018-06-15T14:37:55Z,1,You are doing a great work!!,True
+@abhinavchavali1443,2018-06-15T14:37:19Z,0,first,True

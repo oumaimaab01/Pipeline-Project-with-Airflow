@@ -1,0 +1,153 @@
+author,updated_at,like_count,text,public
+@alexomelak4200,2024-02-26T06:57:39Z,0,"Sir ,help me please? I was doing  gray scale image classification using VGG16. their is an error when I update the code from  vgg = VGG16(input_shape=IMAGE_SIZE + [3], weights='imagenet', include_top=False)     to            vgg = VGG16(input_shape=IMAGE_SIZE + [1], weights='imagenet', include_top=False). help me please",True
+@karthikarumugam9905,2023-11-26T16:41:54Z,0,how to write a test func to load the saved model and test on new images? Please help,True
+@sumagopan8730,2023-09-22T08:45:34Z,0,"Sir I have a 1000 classes to train the VGG16 network, but I am not able to train it in a single attempt. I want to train the image with 100 classes and aging using the new weight I need to train again. What shall I do?",True
+@swatimishra1555,2023-09-08T07:53:57Z,1,can you make a video on skin cancer classification ISIC2019.,True
+@subrinanaureen399,2023-09-02T18:54:08Z,0,Thank you so much,True
+@randyansyah1851,2023-08-20T11:05:55Z,0,"sir, i want to ask. how to use this model after we save?",True
+@varunraj5543,2023-07-06T13:13:09Z,1,this solved my entire problem . Really really helpful . sir how can we write code for predicting the outputs,True
+@aanchalsharma4662,2023-06-30T08:46:36Z,0,1,True
+@alirezaparsay8518,2023-06-15T16:54:57Z,0,It was so clear. Thank you.,True
+@sapnilpatel1645,2023-06-10T09:30:59Z,0,very useful video. Thank yo sir!,True
+@abutareqrony4513,2023-04-14T19:16:49Z,0,You man are seriously legend. You deserve lot lot appreciation krish. Great fan of u.,True
+@bigghostshadowchannel3955,2023-03-19T13:15:57Z,2,"Hi Krish, I have watched some of your videos recently. I was amazed at your teaching techniques. You deserved a big thank you from me. However, I wonder if you have made any videos regarding Transfer learning using CNN (VGG16, VGG50, Alexnet, Resnet, Etc.) as a feature extractor and Classifiers (Random Forest, Decision tree, SVM, KNN, Naive Bayes, etc.) as a classifier for a multiclass classification problem and compare their performance in terms of Accuracy, Recall, F1 score, and precision?",True
+@seanrodrigues1842,2023-03-10T18:36:10Z,0,setting image size+ [1] does not work for black and white images ! how do I solve that?,True
+@amruthgadag4813,2023-03-02T12:14:32Z,0,can keras be imported in pytorch model?,True
+@Maryashahere,2023-02-22T02:35:05Z,0,Sir How can we apply transfer learning for numerical data?,True
+@tejaswinicode,2023-02-01T09:50:19Z,0,can please add confusion matrix and ROC curve after transfer learning CNN model,True
+@matcarpes,2023-01-28T13:13:02Z,0,"If you get an error trying to plot the ""accuracies"" step near the end it is probably because there was a change in Keras release 2.3.0.  “Metrics and losses are now reported under the exact name specified by the user (e.g. if you pass metrics=[‘acc’], your metric will be reported under the string “acc”, not “accuracy”, and inversely metrics=[‘accuracy’] will be reported under the string “accuracy”.”  Just change: plt.plot(r.history['acc'], label='train acc') plt.plot(r.history['val_acc'], label='val acc')  for this: plt.plot(r.history['accuracy'], label='train acc') plt.plot(r.history['val_accuracy'], label='val_acc')",True
+@SIMHADRICHINNAGOPIPHD,2022-11-15T05:01:13Z,0,"Hai krish sir..Thanks to share your knowledge and your videos are very helpfull to my research work ... and i have small doubt can please help me... for the above transfer learning code i run and save the diff models..,after saving the model in .h5 format is it possible to calculate performance metrics like precision, recall, f1-score, sensitivity and cf. If possible Please help me regarding this.",True
+@RAZZKIRAN,2022-10-22T09:08:59Z,0,how to print classification report for the above code?,True
+@ayushtulsyan4695,2022-10-20T20:55:22Z,0,last 3 videos mai hug diye bhai,True
+@suchalpote3775,2022-10-19T23:05:06Z,0,getting an error while training the model.,True
+@shivangbhardwaj51,2022-10-16T15:51:24Z,0,Thank u sir for this wonderful video😊,True
+@caiohenrique-bg1pp,2022-09-19T22:41:16Z,0,Thank you so much for this tutorial! I think this is the best one on youtube so far! Congratulations!,True
+@tulsichopade,2022-09-17T19:20:47Z,0,If we want to predict the class for a particular image then how to do it?,True
+@dr.d.vetrithangam5787,2022-09-05T05:35:20Z,0,"Great content sir , kindly provide the code with explanation for computing confusion matrix for resnet models",True
+@RahulKumar-qo2ce,2022-08-29T04:34:08Z,3,"For anyone having an issue in executing model.fit_generator() and it says shape value error: ""shape incompatible"", please check the ""loss"" attribute in model.compile and make it ""sparse_categorical_crossentropy""",True
+@kin_1997,2022-08-09T12:42:46Z,0,"followed all steps, using 4 similar type of classes. Why only getting 20% accuracy ?",True
+@global4069,2022-07-18T13:58:14Z,0,"A great tutorial. Is it possible to use an independent model  in Transfer Learning , other than the documented  set  from keras library?",True
+@sahajrajmalla,2022-07-16T11:56:43Z,0,You have to load models and make the prediction too sir,True
+@sahajrajmalla,2022-07-16T09:37:42Z,0,"I have trained the model using this technique and while predicting it showing this error:  ValueError: `decode_predictions` expects a batch of predictions (i.e. a 2D array of shape (samples, 1000)). Found array with shape: (1, 31)  Please help",True
+@tilkesh,2022-07-13T13:32:44Z,0,Thanks,True
+@eranfeit,2022-06-17T16:48:02Z,0,"Very nice. You can watch also my transfer learning tutorial for classify weather scenes  based on in dataset of weather images. It is based on Vgg19 pre-trained model.  The tutorial is here :  https://youtu.be/uw3WK0TcGH4 I also shared the Python code in the video description.  Eran",True
+@mh1630,2022-05-28T10:36:19Z,0,very thanks for you,True
+@shaikhahibrahim1140,2022-04-26T23:16:42Z,0,thank you so much,True
+@lotfimerad658,2022-04-12T10:44:40Z,0,in 13:38 s you have to change the line 17 to form keras.application.resnet50 import preprocess_input,True
+@Ticitacapepguordiola,2022-04-10T09:05:06Z,0,Where can i find the fucking dataset,True
+@sohailahmaddes,2022-03-31T08:22:48Z,0,very useful tutorials sir,True
+@surajpatil4815,2022-03-19T16:17:37Z,0,How to fuse features from multiple deep learning model,True
+@Raj-sz9pg,2022-03-14T15:34:11Z,0,You make it look so doable👍,True
+@learn2know927,2022-01-29T16:28:13Z,0,"very nice sir, thank you",True
+@manalisingh1128,2022-01-18T15:54:55Z,0,"Should we create 4 sub-folders under ""test"" folder as well?",True
+@PranavKumar-yn1sw,2022-01-10T12:24:26Z,0,"Sir, is it possible to use transfer learning for recommendation system?",True
+@bhavukthakur9501,2022-01-03T10:17:03Z,0,"sir, could you help me out with image augmentation part. After applying image augmentation in train data do we get 4 times the number of image or just one augmented image?",True
+@sayansaha5348,2021-12-22T12:51:50Z,0,wanted the dataset also....,True
+@tirthadatta7368,2021-11-20T13:34:06Z,0,"Sir, how can I use stratified cross validation and label encoding in the vgg16 model given in video??",True
+@purushothamkothakota4327,2021-11-07T05:04:15Z,0,Is transfer function in Ann diffrent from activation function,True
+@djibrildassebe4327,2021-11-04T12:45:16Z,0,Great explanation 👏👏👏,True
+@shreearmygirl9878,2021-11-04T10:17:03Z,0,"sir,pl can u send the videos to prepare custom dataset for satellite images",True
+@shreearmygirl9878,2021-11-03T18:45:14Z,0,"Hello Krish, Fantastic videos fro beginners, please can u send any videos for creating our own dataset for satellite images.",True
+@shashankjaiswal1298,2021-10-25T13:53:25Z,0,"Hi Sir, can I use same code for classification for WISDM dataset for human activity recognition?",True
+@chessfreak8813,2021-10-14T13:23:09Z,0,,True
+@muhammadsajad2230,2021-09-09T07:31:07Z,0,"# don't train existing weights for layer in vgg.layers:   layer.trainable = False  (if here we give false then how it is possible to train the network on our data?)",True
+@achintya-7,2021-08-27T09:27:46Z,2,"Sir, I have a question If our image size is small like 32, 32, 3 What would happen to the image if we are resizing it to  224, 224",True
+@ramaswamikv,2021-08-17T15:09:44Z,0,How do we get the dataset?,True
+@nikolaostziokas6847,2021-08-09T09:45:17Z,0,Great video. I have only one question to the community here. What the dimensions of the training and test images should be? Do they have to be 224*224 before the import into the algorithm or the user can set them (the dimensions) afterwards? Many thanks,True
+@aqdaszubair1777,2021-07-31T15:48:37Z,0,From where you get dataset,True
+@monikasethi1768,2021-07-22T13:29:43Z,0,"ValueError                                Traceback (most recent call last) <ipython-input-25-715d1c316c7e> in <module>()       1 # our layers - you can add more if you want       2 #x = Flatten()(vgg.output) ----> 3 x = Flatten()(vgg.output)  5 frames /usr/local/lib/python3.7/dist-packages/tensorflow/python/framework/constant_op.py in convert_to_eager_tensor(value, ctx, dtype)      96       dtype = dtypes.as_dtype(dtype).as_datatype_enum      97   ctx.ensure_initialized() ---> 98   return ops.EagerTensor(value, ctx.device_name, dtype)      99      100   ValueError: Attempt to convert a value (None) with an unsupported type (<class 'NoneType'>) to a Tensor.  What is this error??",True
+@muhammadafzaalkhan9277,2021-07-21T04:08:24Z,0,Plz share the predicted source code that show predicted image as output based on classification.I am working on the Diabetic retinopathy detection project i need only prediction code.Plz help me out.,True
+@AliAli-ow6zw,2021-06-27T04:15:47Z,0,what is the parameter can be changed in VGG16 usin detection COVID-19,True
+@stephentidi7320,2021-06-25T09:31:36Z,0,Thank you for the excellent video Prof,True
+@yarnagarikalyani6056,2021-06-12T16:00:19Z,0,Guy's help me to write coding to find defects on stell sheets like surface  and edge defects,True
+@ruchikabala977,2021-06-09T18:26:06Z,0,"Hello Sir, I watch your all videos and share them with my other friends too. I am stuck with one problem that whenever I run any program of CNN, epoch time is incrementally increasing. If the first epoch takes 23 sec, the next will take more than 23, and so on....I don't understand why? I run my programs on RTX 2070. If possible, please reply.",True
+@ladiharish7843,2021-06-08T03:15:43Z,0,Without training the new data with VGG16 or ResNet how come the features got extracted simple using softmax function at the end of the previously trained neural network?,True
+@mele1314,2021-06-07T17:23:50Z,0,Thank you ! it is fantastic and important  tutorial !!  but can you show the confusion matrix ?,True
+@EverlastingsSlave,2021-06-01T16:51:58Z,0,"Thanks man done my assignment, I pray that Allah give u guidance to Islam and bless u",True
+@babaabba9348,2021-05-24T14:29:27Z,0,how to covert picture from fashion mnist size 28x28 to 32x32x3,True
+@louerleseigneur4532,2021-05-20T20:14:44Z,0,Thanks Krish,True
+@pawanagrawal7653,2021-05-19T06:03:12Z,0,sir how to load the  dataset if it is not available already in the Keras or TensorFlow library.,True
+@aneethballa880,2021-05-10T16:52:40Z,0,"for CNN watching up to here will it be sufficient. Anyone, please answer this. I have to do my project using CNN so asking this.",True
+@strakammm,2021-05-08T11:09:43Z,0,<3,True
+@andrestiti9698,2021-05-07T06:31:00Z,0,U are the reason to succeed in my scholarship year thanx,True
+@aachaljakhotiya523,2021-04-28T10:34:10Z,0,Can we use these models for text polarity classification??,True
+@jaikishank,2021-04-23T04:54:25Z,0,Very useful video and well explained. Thanks Krish for the same.,True
+@navjiwanhira3888,2021-04-22T16:27:34Z,0,Thank you!!!,True
+@kumarabhishek5652,2021-04-14T15:41:26Z,0,Where is the dataset???,True
+@anantgoyal7297,2021-03-26T06:18:19Z,0,"Hello sir , Can you please make a video about GAN,s ,its implementation",True
+@hitakshitripathi3039,2021-02-26T12:09:50Z,0,As I increase the data my accuracy decreases for ResNet50 ...any suggestions,True
+@madhavnegi4389,2021-02-26T06:03:58Z,0,can you please help me in adding a confusion matrix in it??,True
+@josephadamu2723,2021-02-25T21:23:03Z,0,Please can you suggest articles or papers for this topic,True
+@vibesnovibes6320,2021-02-23T15:29:42Z,0,Great video. Thanks 👍,True
+@pankajaggarwal1263,2021-02-22T23:19:51Z,0,"This is exact opposite of how you taught ANN. It's not even like the summary of cnn. For ml and Ann models, your videos are quite good but not for cnn atleast. Will check RNN videos though.",True
+@siddharthmishra8012,2021-02-15T03:11:22Z,0,Actually VGG net is trained on other images then how come it will classify your face?,True
+@raghavkandhari1838,2021-02-02T09:54:03Z,1,What about including a confusion matrix?,True
+@artificialintelligenceengi6125,2021-01-31T21:03:54Z,0,"Sir, I am getting the following error:-  File ""C:\Users\Ammu\TL\face_Recognition.py"", line 91, in <module>     plt.plot(r.history['val_loss'], label='val loss')  KeyError: 'val_loss'",True
+@venkateshsurampally8915,2021-01-28T16:28:12Z,0,Fantastic,True
+@anshikachoudhary4134,2021-01-27T09:30:52Z,0,@Krish Naik sir pls explain Google Net as well as Squeezenet,True
+@syedrehman5755,2021-01-11T17:27:04Z,0,thank you sir huge respect from pakistan,True
+@unemployedcse3514,2020-12-26T07:25:35Z,0,Awesome 💞,True
+@ameentendolkar4430,2020-12-17T18:59:56Z,0,Please post a video with pretrained AlexNet,True
+@mapy1234,2020-12-16T11:17:41Z,0,how many images have you taken in your train and test set??? and how many folders are there in your test folder???,True
+@rameshjaganathan6444,2020-12-13T11:28:59Z,0,"Professor, I have a feature dataset, how to apply for classification in deep learning",True
+@bhupendrasingh59,2020-12-01T15:11:20Z,0,Very simple and helpful,True
+@pankajuprety9216,2020-11-29T02:45:37Z,0,Thank you so much,True
+@ayushaggarwal4714,2020-11-26T12:26:54Z,0,Where have you provided labels for your images?,True
+@divyarajvs8890,2020-10-28T05:11:01Z,0,why are we removing the last layer 3 of vgg16 that is include_top=False,True
+@HashanDananjaya,2020-10-27T03:57:01Z,0,Really helpful video. Thank you!,True
+@yepnah3514,2020-10-25T22:41:38Z,0,my professor wants me to extract the weight values is there a way to do that? IM pretty new to this.,True
+@mrmystery-jz2ev,2020-10-23T06:06:43Z,0,"I have question, what if we want to use Alexnet for transer learning? what should write?",True
+@hashamfaridy8152,2020-10-09T21:16:02Z,2,Thank you so much 💗 i have successfully trained and integrate my cnn model with my django app locally on my system. i have a question how can i deploy my trained cnn model with django app  on heroku do i need to make an API of model to serve django app on heroku? it will be really helpful if you can answer my question.,True
+@luq2337,2020-10-05T19:19:11Z,20,"There is one mistake I made when doing my homework. And I wish you guys who see this comment will not make the same mistakes as I did. Be careful with function flow_from_directory(...), you need to make subdirectories for the files under your training folder or testing folder. For example, if you have three classes under the training folder, you need to make three folders. training/calss1/; training/class2/;training/class3/; If you put all files in one folder(like training/... or testing/...), it will return 0 classes. And your program will not work.",True
+@luq2337,2020-10-04T06:26:41Z,42,"That's true. My professor: Do it, I won't teach you!!! Give me the results next week!!!     Some smart India guys on youtube: do this, do this ..... and then you get it!",True
+@zahidrasheed5273,2020-09-26T20:13:50Z,0,"Hello Sir, I am doing experiment by using this model and datasets is (cats and dogs) downloaded from kaggle all things are same... but i am not getting accuracy more than 50% on VGG16 model please give me some suggestion thanks",True
+@mdjuealmia9952,2020-09-25T07:53:49Z,0,How to print confusion matrix in this code??,True
+@siddharthpandit2117,2020-09-20T09:54:03Z,0,data link?,True
+@lavanyamaddisetty,2020-09-20T05:45:53Z,0,"I have designed a multiplier and output is obtained for it. How to use this multiplier in CNN(the multiplication operation takes place between the inputs and filters in CNN),  where to place the designed multiplier architecture in CNN.",True
+@mnmahir,2020-09-20T02:09:19Z,0,"Hi, how do I create a confusion matrix from here?",True
+@rajeevpathania5801,2020-09-19T10:55:16Z,0,How can I create my dataset for the transfer learning?   I have 1000 images of 04 friends. How to divide my images into Train and test and How can I label my data. (Means during training how my model know this particular image belongs to friend1 or friend 2),True
+@akhilsharma4004,2020-09-10T04:50:56Z,1,"I really like the way you explain your concepts but to be honest i amm really disappointed the way you have hurried up in video number 28 which is using vgg16 , firstly it took me a while to understand that i need to create a folder named dataset and i need to upload some images into it ,,, as you didnt mentioned that part also i am getting an error :'ProgbarLogger' object has no attribute 'log_values' when i am trying to run the model.fit_generator code cell and then i somehow googled that i need to set verbose=0 in that part  and then i am getting a keyerror:'loss' , i would have really appreciated your much efforts if you could have run the code and shown us the output it really difficult for those who are really trying their hands on Deep Learning for the 1st time",True
+@rupeshpatil9266,2020-08-26T13:13:16Z,0,Can you please make a new video on RestNet50. I have hard time understanding it.,True
+@tirthadatta7368,2020-08-25T18:35:01Z,1,"Sir, I have run this code in colab. but it stopped in the model fitting part after a small amount of data build in the first epoch.  But in spyder, it ran perfectly. Can anyone here pls tell me why happen  this?",True
+@Twilight2595,2020-08-12T09:10:07Z,0,the Train set has images but what is inside the Test set?? how did u divide it?,True
+@balugdb,2020-08-08T02:18:46Z,0,"Hi, I have thousands of images that are in a different size. As you mentioned image_size should be 224x224,  is it mandatory? If it is mandatory to mention image_size is 224x224, then there is a chance of getting the lose of information from the original size of the images. I have different sizes of images like 978x2345, 6784x4802, etc. This will lead to the wrong classification. Please correct if my statement is wrong",True
+@yasminekhemiri6221,2020-07-19T14:36:15Z,0,THANK YOU !!!!!!!!!!!!!!!!!!!!!!!!!!!,True
+@ayushminanayak5352,2020-07-11T15:50:27Z,2,Can I know what data set are you using??? Great video,True
+@japeshmethuku9223,2020-06-24T22:49:47Z,1,"Krish Naik, I think you missed out on changing 'preprocess_input' function while explaining ResNet50 implementation.",True
+@akshatporwal1061,2020-06-20T09:17:31Z,0,I had a query that if we are using Transfer learning technique then what is the need of data augmentation... I mean the model is already trained.. Why are we training again?,True
+@poonamanand9011,2020-06-19T08:35:08Z,0,"Hi Krish, Pls make  a video on Local Response Normalization used in Alexnet.",True
+@punkster36,2020-06-16T16:23:15Z,0,"What if the input images are not of size [224,224] and are [32,32]. How can I change the input image size to fit this model?",True
+@prashantbhardwaj8708,2020-06-09T14:54:39Z,1,"hello sir, i am getting an error 'AttributeError: 'tensorflow.python.framework.ops.EagerTensor' while running this code on my dataset. Can you please help me to fix this.",True
+@syedmuhammadusmanghani9220,2020-06-08T10:46:40Z,0,a very helpful video sir..Stay blessed,True
+@adityarajora7219,2020-06-04T09:50:57Z,0,Where are FC1 and FC2 layers as they present in VGG16 ?,True
+@FaczutMon,2020-06-02T15:16:33Z,2,Thank you for your video but may I ask how to use this model? Like load some random image and see if the model is correct or not.,True
+@priyankapradhan4539,2020-06-02T06:00:57Z,0,very knowledgable video... can we use more than one pretrained model like vgg16 with reset etc...???,True
+@SurajVerma-rh9xi,2020-06-01T07:38:24Z,0,Thank u Sir !!,True
+@thebeatlesinformation2472,2020-05-21T19:36:45Z,0,AttributeError: 'ProgbarLogger' object has no attribute 'log_values' Sir please solve the error.,True
+@Eren-jeager7,2020-05-14T05:43:43Z,1,"while running the model.fit , in the epoch section ,there's only value of loss and accuracy, so its showing error KeyError='val_acc'  and KeyError='val_loss'",True
+@hardikkamboj3528,2020-05-12T08:09:29Z,1,"Thank you sir, that is really very well explained. Sir, can you please go through this link -  https://github.com/osanseviero/Dog-Breed-Classifier/blob/master/dog_app.ipynb in this transfer learning has been applied in the last section of the program, they are using some .npz file,  but i am not able to understand why so, can you please explain how is it done...Thanks in advance",True
+@carlosfotsing6779,2020-05-11T19:12:30Z,2,You are the best keep doing,True
+@DIYGUY999,2020-05-09T15:12:17Z,0,"Hi Krish, A small query, if we were to train VGG16 from scratch for whatsoever reason, then the line layer.trainable should be True, right?",True
+@thevivekmathema,2020-05-05T15:52:43Z,0,very good information....thank you,True
+@MithileshDSCS,2020-04-27T14:11:25Z,0,hey Krish could you like maybe post a video as to how to import and use data sets used for cnns and image classification in Colab? Because it is not a simple csv file and has different folders so accessing and using them is hard. Would really help as other tutorials only use cifar and mnist which are already pre loaded into keras. So yeah!!,True
+@aakashsinghrawat3313,2020-04-20T18:22:22Z,0,Sir plz help with predict and plot image to check it is correct or not,True
+@sandipansarkar9211,2020-04-20T18:01:39Z,1,Great video.Thanks,True
+@nisarggandhewar8242,2020-04-10T15:10:14Z,0,"Its very nice tutorial, it helps me lot. While running this script on google colab while prediction, I am getting this error kindly convey solution.   AttributeError                            Traceback (most recent call last)  <ipython-input-29-f41ecc95637f> in <module>()       4 test_image = image.img_to_array(test_image)       5 test_image = np.expand_dims(test_image, axis = 0) ----> 6 result = r.predict(test_image)       7 #result = r.predict_classes(test_image)       8 training_set.class_indices  AttributeError: 'History' object has no attribute 'predict'",True
+@vinodvarma3405,2020-03-29T05:55:45Z,0,"sir iam getting an error called  InvalidArgumentError:  logits and labels must have the same first dimension, got logits shape [4,4] and labels shape [20]  i have the steps you explained in this video, can you explain how would i remove this error google colab link:-https://colab.research.google.com/drive/10YSY5D9oUb5YK2ZycvnoowjyP-OG_Wu6#scrollTo=pKMwq3V_NIcA",True
+@sharatchandra2045,2020-03-27T21:40:53Z,0,good content,True
+@sdc5574,2020-03-27T07:09:21Z,0,How to do this??  I mean I will just copy this code and?,True
+@sankalp2610,2020-03-14T22:23:20Z,0,Where are the labels?,True
+@layallayal2761,2020-03-03T17:42:25Z,2,"I am a beginner to deep learning I want to ask you for example if I took alexnet as my pre-trained model and I only kept the first 2 conv without any modification, but the rest of the layers I did change it dose this consider transfer learning?!",True
+@thepaikaritraveller,2020-02-25T19:12:59Z,0,"how to spilit data into x_test,y_test and evaluate the model?",True
+@user-or7ji5hv8y,2020-02-04T20:20:47Z,0,Can you do a video with PyTorch?,True
+@karmawangchuk283,2020-02-04T14:42:47Z,17,"Sir,  I salute for your comprehensive tutorial. You are a source of inspiration. Hats off to you.",True
+@parimalakhenia9528,2020-02-02T19:24:07Z,2,"r = model.fit_generator(   training_set,   validation_data=test_set,   epochs=5,   steps_per_epoch=len(training_set),   validation_steps=len(test_set) )  when it fit 'Tensor' object has no attribute 'assign' this is error",True
+@sweeten5878,2020-01-28T21:33:27Z,0,is their any video lecture how to use transfer learning in mask rcnn? Or any video lecture how to develop mask rcnn from scratch using images?,True
+@dkishore599,2020-01-06T15:06:32Z,0,"it is great explanation, i just wondering about one thing here i seen some videos they used MobileNet of Keras on image classification , so   what is the  difference b/w CNN code and MobileNet code ? can we do Dog & cat classification by using MobileNet ?",True
+@enquiryadmin8326,2019-12-28T08:06:55Z,1,can you explain soaftmax?,True
+@mindfool8072,2019-12-24T06:34:04Z,1,Hey! I am a fresher from mechanical engineering background. Looking to dive into data science. Is the Great Learning 5 months course in Data Science worth the money?,True
+@segundojaramilloromero9909,2019-12-24T03:57:47Z,1,Could you make an example of segmentation?,True
+@AmanKumarSharma-de7ft,2019-12-23T18:48:43Z,9,Great content sir ....and wonderful explaination!!......can you please upload more videos on deployment of machine learning models as these are the areas nobody have such extensive tutorial about,True
+@aashishyasinha8078,2019-12-23T14:01:35Z,2,Sir how to train CNN model using GPU ..what extra knowledge we require ... How is it different from cpu implementation .. what are the steps,True
+@lakshmitejaswi7832,2019-12-23T08:23:14Z,2,why kernel size is always odd?   how backpropagation takes place in max-pooling?,True
+@samueladoun2989,2019-12-23T08:04:34Z,8,You are doing a great work here. Keep it up.,True

@@ -1,0 +1,66 @@
+author,updated_at,like_count,text,public
+@ishankanodia7477,2024-05-27T08:52:40Z,0,"For train test split, in the brackets we should use x and y but why are we using the complete dataset in place of x? (it contains Sales Price too)",True
+@ananthkumar8901,2024-01-26T09:36:45Z,0,KrishNaik video + chatGPT/Bard is a deadly combination,True
+@ocean2738,2023-06-23T13:31:57Z,1,"In train test split part their should be dataset.drop('SalePrice'),dataset['SalePrice]",True
+@abdurahman1019,2023-04-03T06:30:39Z,0,I am a beginner at data science and python as well. Is it expected from me to be able to write all these code by myself or is the understanding enough for an interview?,True
+@christiansetzkorn6241,2023-02-19T13:00:27Z,0,nothing advanced even in part 2 )-:,True
+@Abdullahkbc,2022-12-26T00:12:21Z,0,pretty smart way at 09:58,True
+@aashishrana4129,2021-12-08T14:02:21Z,0,"very insightful video, thanks krish",True
+@amitbudhiraja7498,2021-11-12T08:17:16Z,0,Sir u forgot to remove the outliers in the data,True
+@prabhatkumarsharma4240,2021-10-05T07:52:19Z,1,"as you said in the case of high outliers the missing values for the feature should be replaced with median and mode, can you elaborate why? and what we should do if our variables don't have many outliers? Please answer if possible, it may solve others doubts as well.",True
+@sandipansarkar9211,2021-09-28T16:10:02Z,0,code finished,True
+@peacefullmusic8374,2021-09-12T15:27:44Z,0,@Krish Naik bro why did use simple imputer for missing  values ?,True
+@manojrangera5955,2021-08-31T09:37:38Z,0,Sir I have 1 question in categorical features some of category having more than 90 ℅ of missing data . So can we remove those feat from dataset...?   I saw EDA video also in which we get that missing data have important role in saleprice.. May be that y you used all features to get all the information.. Please sir reply me.. And get my doubt clear.. 🙏🙏,True
+@lijindurairaj2982,2021-08-31T07:01:32Z,0,GOD bless you,True
+@vedprakash9050,2021-08-20T09:18:17Z,0,The sales price is decreasing due to the Wall Street depression circa. 2008. As you can see in beginning the price is steadily increasing but it started decreasing since.,True
+@adityanarendra5886,2021-08-14T06:08:18Z,0,"Which feature is replaced with 0,1,median respectively?",True
+@sarrae100,2021-07-30T05:08:36Z,0,"Excellent, yet simple.",True
+@louerleseigneur4532,2021-07-16T05:36:14Z,0,Thanks Krish,True
+@c.vinaykumar7737,2021-05-27T01:51:30Z,1,"hello krish sir, your videos are brilliant, one slight correction, while calculating percentage of nan values in columns, your using mean to calculate percentage, after using mean you should multiply by 100 to get percentage, pardon me if iam wrong.",True
+@adityapathania3618,2021-04-08T21:51:26Z,0,"For numerical nan values I am getting all replaced by 0 none of them are replaced by 1 , any suggestions. @krish",True
+@shatadruroychowdhury6319,2021-04-04T08:03:34Z,2,"5:00 That condition should have been >0, if u have a feature with only 1 missing value, u won't be able to capture it.",True
+@vignesh7687,2021-03-31T07:03:26Z,1,"Nice Krish. I have one question, why can't we fill the NAs with mode value of that feature in a categorical feature column? Why encoding those as 'Missing'?",True
+@unezkazi4349,2021-01-21T03:52:03Z,1,The percentage of missing values that you are printing in the start are divided by 100 I guess. You need to multiply them by 100.,True
+@sumironchatterjee6289,2021-01-15T12:24:17Z,0,"In the last part, my 'YearBuilt' and 'YearRemodAdd' got converted, but 'GarageYrBlt' did not.  Someone Help Please.",True
+@mohanramesh3506,2020-12-11T19:32:47Z,0,"Hi Krish, How do I handle a column with 'Text description' i.e, a paragraph of text in it.  Please let me know.",True
+@saipatibandla4049,2020-12-05T08:21:57Z,1,"Hi Krish, when I looked at the description for this dataset, some of the categorical features had 'NA' as one of the categories. I think this conflicts with data not being present vs showing some category as NA. Wouldn't that be like a problem when deciding which data is actually missing?",True
+@tirumaleshn8504,2020-12-02T04:19:00Z,0,Krish sir! Why didn't use the train and test data separately for feature engineering?,True
+@gulsanafatima419,2020-11-09T11:12:26Z,0,Sir plzz urdu m v De dety same yhi lecture h,True
+@csprusty,2020-11-06T13:25:33Z,0,Amazing effort and clear explanation.  great work Krish!!!,True
+@sandipansarkar9211,2020-09-21T15:23:52Z,0,Finished practising this particular code in Jupyter Notebook. thanks.,True
+@sandipansarkar9211,2020-09-18T17:01:01Z,0,Great video Krish. Now need to get my hands dirty with coding in Jupyter Notebook. Thanks,True
+@astrostudent2302,2020-09-06T03:12:32Z,2,Finding missing values part at 05:04..I have a doubt... Why is it not dataset[feature].isnull().sum() >= 1 (I have added equal operator). Can you please clarify sir?,True
+@ayanasalim3318,2020-09-04T15:18:13Z,0,"If the year fields are subtracted from year sold,  is there  handle situation where year value is zero, say in yearmodified? Because 2020-0 would give 2020 years since modified.",True
+@suryapratap1961,2020-08-01T17:35:12Z,0,Dataset.groupby('YrSold')['SalePrice']. median ().plot()  . Here median will give one value so how we can plot from this ?,True
+@rajsekharrouthu8438,2020-07-27T08:57:53Z,0,Can we do feature engineering together for trains and test data at once,True
+@vinayakbasavaraddi3135,2020-07-18T07:18:34Z,0,"why are we not creating dummies for categorical variables ? Instead of just replacing the null values with ""Missing""",True
+@saswatleo,2020-06-22T19:35:27Z,0,Why you are doing NaN replacement with 0 or 1 As u r replaced with Median ?? Plz Clarify,True
+@devleenabanerjee4036,2020-06-18T14:10:01Z,0,"Hi Krish, Thanks for such a nice explanation.  If I want to share my file with you, where should I send? Please share your email ID. Thankyou.",True
+@ramavathusrinivas8282,2020-05-26T12:29:57Z,0,why we are keeping mean here dataset[feature].isnull().mean(),True
+@aashiagarwal9870,2020-05-24T10:40:12Z,0,Please give me your telegram account,True
+@aashiagarwal9870,2020-05-24T10:38:44Z,0,I need help sir. If i do same code with test data than in place of saleprice which variable should I use?,True
+@raghavarora5077,2020-05-07T18:45:48Z,0,What if we use K - fold Cross validation instead of Train-test-split?,True
+@manishbolbanda9872,2020-05-01T16:33:19Z,2,discrete_feature = [feature for feature in num_feature if len(dataset[feature].unique())<25 and feature not in year_feature+['Id']] sirplease tell me  in above line of code why you have taken condition less than 25 to consider it descrete variable????plz any one any help would be appreciated,True
+@Neuraldata,2020-04-23T02:24:45Z,0,"Great video sir, I have also started the initiative to teach Data Science online for knowledge dissemination :)",True
+@raghupro,2020-04-20T13:55:19Z,2,"Thanks for the video Krish. Would like to understand why for identifying features with missing values you have considered isnull().sum() > 1 and not > 0. If a feature has only 1 missing value, can we omit it?",True
+@143balug,2020-04-19T13:18:25Z,2,"Hi Krish, I have observed one thing here, the temporal feature ""GarageYrBlt"" is replaced the missing values while handling the numerical feature. Could you please correct me if i am wrong.",True
+@mansisarda2259,2020-03-29T08:13:52Z,0,Sir why  GarageYrBuilt values is getting converted to object datatype after handling its missing values ?,True
+@shreyapande9289,2020-02-29T12:01:35Z,0,why to replace the' nan' values ONLY by median or mode in numerical feature  ... is there any specific reason ?,True
+@rakeshdayalan8049,2020-02-06T00:50:56Z,0,"Krish , you're awesome ! thanks for your videos",True
+@sahayaajay7684,2020-02-05T14:24:08Z,0,Thank you for sharing your knowledge. I am waiting for your part 2 of feature engineering.,True
+@ranjan4495,2020-02-05T05:07:19Z,3,"Sir,   The test.csv dataset, do not contain a feature named ""Sale price"". So how to proceed in this dataset.",True
+@freefallappz,2020-02-04T20:37:49Z,0,Put the camera so we can also see your mouth. It makes it easier to understand what you are saying.,True
+@aimeokoko726,2020-02-04T20:14:32Z,2,"Thanks for your videos, very useful. I have a question. To handle missings, you use ""sum()>1"", does it take into account features with only one missing?",True
+@arunprabhu1853,2020-02-04T14:12:19Z,3,"Hi krish, I am in need of guidance from experts like you. My qualification is MSc (IT). My entire work experience is, being a  ""Computer Teacher"". I am at my 30's too. By self-interest right now i am pursuing some Data Science courses through online. My question is, whether the companies will consider me for an IT job. Even as a fresher ? Please guide me in this. I am planning to change my profession.",True
+@Ravi-sl5ms,2020-02-04T13:33:59Z,2,you have such a nice style of explaining things. waiting eagerly for the next part,True
+@SuperChowhan,2020-02-04T11:54:54Z,1,"Plz plz help me with Anaconda installation.  I have reinstalled anconda but i cannot find anaconda-navigator, anaconda command prompt.  No shortcuts are found related to anaconda.plz plz help me",True
+@rohitjaiswal6102,2020-02-04T07:51:03Z,0,Please upload the 2nd part.,True
+@RahulGupta-kd1cn,2020-02-04T04:47:06Z,2,"dividing train and test, if we have train and test data. then we can do like this train data, validate data (that will come when we divide the train data into the train and validate data) and use test data for testing the model",True
+@akashsaha3921,2020-02-03T16:12:25Z,12,Applied Ai course plus krish's tutorial!!! Deadly combination. I am in love wd ML. Thanks to you. You just changed my perception and gave me a perfect strategy to proceed. God bless u man!!!,True
+@devadularani6811,2020-02-03T16:02:42Z,1,Explained well...will be waiting for tomorrow's video,True
+@miteshkumar7739,2020-02-03T15:15:03Z,4,Hello sir...           How to work data scientist in company. Make practical video plzzz....,True
+@teachingmachine,2020-02-03T15:05:20Z,0,"https://youtu.be/LJcONocPuAM Hey krish, here I made a video on How to use custom intent and custom entity recognitions, using RASA APIs with Postman do share it if possible",True
+@AmanKumarSharma-de7ft,2020-02-03T14:52:07Z,1,"Great work sir👏👏👏simplicity as always  Please upload the roc cirve video, docker video and how to write a research paper in ml and dl. Thanks for your support",True
+@ijeffking,2020-02-03T14:29:41Z,2,Very nice tutorial. Thank you very much.,True
+@vijendramathur1483,2020-02-03T14:29:14Z,1,Any idea about Algo Trading?,True
+@rohitjaiswal6102,2020-02-03T14:27:42Z,1,Thank you sir...,True

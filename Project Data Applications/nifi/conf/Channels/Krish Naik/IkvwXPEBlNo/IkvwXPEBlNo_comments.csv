@@ -1,0 +1,66 @@
+author,updated_at,like_count,text,public
+@AadityaAgarwal-qo1km,2024-05-20T12:12:23Z,0,I love when krish calls Hue as Huiii,True
+@d39-nischithhegde65,2024-02-29T05:19:53Z,0,can you also include link to dataset used,True
+@zainabzafari2336,2024-01-17T20:25:47Z,0,"Thank you very much for your great videos. However, this is the first video of your playlist that I could not understand. The dataset was not clear and you did not explained much.",True
+@Guidance.8566,2024-01-14T06:14:52Z,0,"sir, what is web address you are using and is it free or paid please give some details about that also.",True
+@ashukol,2023-09-27T07:54:31Z,0,"Line 17th code needs modification as follows: sns.FacetGrid(df,hue=""species"").map(plt.scatter,""petal_length"",""sepal_width"").add_legend(); plt.show()",True
+@niraliborad7475,2023-03-16T13:32:38Z,0,After executing the same code for univariate analysis my output is not color distributed as shown in video. can anyone help,True
+@vatsalshingala3225,2023-03-15T17:38:08Z,0,❤❤❤❤❤❤❤❤❤❤,True
+@makanjudavid992,2023-03-07T16:02:20Z,0,Question: it is possible to use categorical features to make predictions for  a numerical targer variable ??,True
+@sengnawawnghkyeng9179,2022-12-29T01:23:14Z,0,The best explanation about these variates ...,True
+@re-cordinglyf7176,2022-10-18T14:06:37Z,0,I can't believe you pronounced it as hueee....😂😂,True
+@krishnasahoo4598,2022-09-13T11:43:33Z,0,thank you so much for this..I dont know why I was unable to understand this concept. Thanks for this,True
+@surge8307,2022-08-09T06:20:45Z,0,"Another easy way to do the bivaruate plot at 11:20 is sns.scatterplot(df['sepal_length'],df['sepal_width'],hue=df['species'])",True
+@gokulansundaraj8149,2022-07-16T13:50:46Z,0,Wow...,True
+@tanujsharma5492,2022-05-21T13:49:19Z,1,sir i think there is 'sepal length' instead of 'petal length' in xlabel. am i wrong or right??,True
+@rahuldas6777,2022-04-02T11:31:51Z,0,why put semicolons after your lines of code?,True
+@siddharthjain4361,2022-03-08T02:31:43Z,0,what if we have dimension in order of 100s...??,True
+@souravsaha7751,2022-02-03T13:52:25Z,0,sir a virginica or versicolor kaya ha,True
+@erumalibhatti1218,2022-01-14T17:11:02Z,0,Hi krosh what will be the codes for R for same analysis??,True
+@sumantwankhede,2021-10-25T23:57:03Z,3,Just one tiny correction for Univariate x label should be Sepal Length ...all other good ..Thanks Krish,True
+@SATISHKUMAR-bj2kl,2021-08-29T15:57:07Z,0,"sir evertime whenever i am running code then also error messege comes with ""name df is not defined""    can you please help me",True
+@MageDigest,2021-08-26T06:44:49Z,0,"so from multivariate if we some graphs with overlapping variables like sepal length and sepal width, we can ignore one of them while doing any further analysis ? Please help here",True
+@mlwithstats1703,2021-08-16T05:23:20Z,0,Sir how we can the data ???,True
+@yugen3968,2021-07-02T15:02:55Z,0,Why not just plot histograms for every feature for univariate analyis?,True
+@sohamsarkar5255,2021-05-31T17:23:27Z,0,"Isn't multivariant analysis a  consolidated representation of bivariant analysis, where all possible combinations of bivariant analysis are represented together?",True
+@himanshumangoli6708,2021-05-20T14:54:59Z,7,ur teaching skills are damn good man keep it up man lots of respect,True
+@ratheesh_tabla,2021-05-19T03:02:34Z,3,"May be I am wrong, should that be ""sepal length"" instead of ""petal length"" in xlabel?  based on your plot variables or feature used for univariate analysis",True
+@pritamchowdhury3152,2021-04-21T18:36:57Z,0,sir can you provide some practice dataset,True
+@SaurabhSaurabh-uh6eq,2021-03-07T11:11:08Z,0,Wow what a nice explaination! 👌 👋,True
+@vishalrai2859,2021-03-05T14:50:46Z,0,coaching institutes just looted me  taught nothing like this,True
+@ramthiagu2330,2021-03-02T02:22:08Z,0,"if we have more than 10 or 20 features, how can we do multivariate analysis. will it be visible clearly in pairplot",True
+@The_Hive_Mind8878,2021-02-14T22:11:08Z,0,Really helpful. Thanks,True
+@puneethsingh4444,2021-01-27T02:51:42Z,0,Hello sir huge fan following ur ML playlist and I'm getting error in stringIO sir I also saw youtube video but I'm not able to slove the error it say No module something can u please guide me I'm stuck in your 7th playlist pls let me know sir it will be helpful,True
+@wasimshaikh9147,2021-01-10T14:46:31Z,7,X lab should have been 'Sepal length' instead of 'Petal Length',True
+@nabiltech1366,2021-01-06T04:03:11Z,0,"So here are objective u can obtained by using this statistical method,  1)Which features have good impact for ur model 2)Which type of algorithms u should choos",True
+@hepengye4239,2021-01-03T20:18:30Z,0,Are those 4 plots along with the diagonal density plots?,True
+@kamran_desu,2020-11-20T12:43:05Z,0,"Interesting method to plot univariate, I generally create scatterplots to make similar deductions in terms of what kind of classifier will make sense.  Here's some sample code: import matplotlib.pyplot as plt from sklearn import datasets  iris = datasets.load_iris() X = iris.data y = iris.target F = iris.feature_names  fig, ax = plt.subplots(1, len(F), figsize=(15,2)) for i,f in enumerate(F):     ax[i].scatter(X[:,i],y, c=y)     ax[i].set(xlabel=f)     ax[i].get_yaxis().set_visible(False)",True
+@shaminmohammed672,2020-11-01T05:05:48Z,0,Thank you,True
+@toppoashish7,2020-10-31T18:20:52Z,0,"How to do eda when we have many features, say 20+ and all are non correlated.",True
+@ashita1130,2020-10-22T09:16:54Z,1,Pretty badass :) Thanks!,True
+@marioluoni3899,2020-10-13T20:38:08Z,0,"In the uni-variate analysis, why do you put all data points on the same level? By putting them onto different levels, e.g. by setting np.zeros_like()+0, np.zeros_like()+1 and np.zeros_like()+2, it will be very clear that these 3 data sets overlap very heavily as opposed to what you say @9:00 (unless I have misunderstood what you said there). Otherwise great lectures, thanks a lot!",True
+@birinaboro8391,2020-09-13T11:48:29Z,2,"Hello Sir, could you please help me out with multivariate correlation through SPSS??",True
+@adarshpatodi5300,2020-09-06T21:16:05Z,0,You need to have x label as sepal length in univariate analysis.,True
+@SwavimanKumar,2020-09-05T17:08:34Z,28,"One small correction. That Hue is pronounced ""Hiu"" instead of ""Hui"". You are making absolutely great content. Love them all. Keep growing. (Y)",True
+@sunitapatil381,2020-09-02T10:23:05Z,0,you are grate sir .i am really grateful to your vedios thank you thank you so much sir.,True
+@nijalparmar5951,2020-08-10T07:28:44Z,0,"Sir can u plz make one video with use of spss and univariate, bivariates and multivariate analysis",True
+@adarshtiwari6742,2020-07-28T16:17:12Z,0,Sir how much is necessary to know to get job in data science (is there any bounds),True
+@alokranjanthakur5746,2020-06-20T20:08:17Z,0,Sir can you make. Video on EDA only using python. Means what are necessary steps in EDA,True
+@kalyanipadaraju5715,2020-06-01T09:43:35Z,0,Thank you so much sir . Great explanation,True
+@ankita684,2020-05-22T12:51:43Z,0,"Hi Krish...when I am executing this code 'plt.plot(df_setosa['Sepal.Length'],np.zeros(df_setosa['Sepal.Length']),'o') it is returning a value error that reads as 'sequence too large; cannot be greater than 32'. How did you execute without getting this error. How to resolve?",True
+@hyhyb,2020-05-21T16:07:35Z,0,"How orange , green colours came into picture, coz we didn't mention any color parameters like palette, colour?",True
+@ashishkumarsingh2910,2020-05-07T10:16:31Z,0,how you are calling a url or internet file to read in pandas..... its like impossible for me to do... plztellme how?,True
+@pbanerjee4008,2020-04-26T18:20:29Z,1,Great job. Your sincerity shows. Wonderful effort.,True
+@simanchalpatnaik2566,2020-04-07T18:03:21Z,3,"Hi Krish, Why you are keeping the Y-axis as 0. In the previous lecture also it's not explained. In graph you just kept it as 0. Please reply.",True
+@boopathi8763,2020-03-31T17:48:09Z,0,you are putting out really good content Krish. Keep up the consistency and educate people on tne basic fundamentals of machine learning. I have also made a vidoe sharing knowledge on te topic of exploratory data analysis in machine learning which You can check  out here https://www.youtube.com/watch?v=IKq-86dXRVk,True
+@dharmatejaadepu8597,2020-03-30T00:19:12Z,1,"In univariate analysis, you have taken sepal length and labelled it as petal length ,  can you explain me about that.",True
+@venkateshbb2926,2020-03-19T11:03:51Z,0,Thanks for tutorial.Please arrange tutorials  in proper sequential of related tutorials.,True
+@piushsingh6066,2020-02-22T04:27:46Z,6,"univariate, bivariate and multivariate analysis should be done before data prep-processing or after......Please Reply...",True
+@tejassutar4198,2020-01-15T13:23:37Z,0,Hello sir how to know categories of given data in python? For eg. Here We want to know species categories?,True
+@rohithmn3378,2019-12-12T05:34:55Z,1,Thanks for the excellent tutorial..! But this works well for classification problems. How shall we perform the similar analysis for Regression problem..!?,True
+@anandacharya9919,2019-12-01T16:54:45Z,0,"When I import  iris in python , no commands is working I am getting error as ""AttributeError: info"" , and also  ""AttributeError: describe"" ,  please solve this, why I am getting this error",True
+@mitrabhanuroutkali,2019-11-29T05:37:18Z,1,Use DataExplorer package in r,True
+@rajjupudi,2019-11-28T16:38:31Z,12,Can you please do a video to tell about 'how to present our data science portfolio on GitHub' which is mandatory for any resume.,True
+@krishnakanthbandaru9308,2019-11-28T15:45:27Z,3,Hi I have a doubt these plots are ok for small datasets and interesting while learning but is these graphs helps when handling real time data or while working with real data science projects.,True
+@manishshukla125,2019-11-28T14:46:06Z,0,Thanks Sir!,True
+@Uma7473,2019-11-28T13:31:07Z,1,Thank you,True

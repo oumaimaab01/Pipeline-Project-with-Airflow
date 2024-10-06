@@ -1,0 +1,15 @@
+author,updated_at,like_count,text,public
+@dineshs1683,2024-03-30T13:13:20Z,0,"Firstly thanks for awesome explanation, I'm in progress of watching the video and trying on my own. while doing recursion method, I think there is no need of while loop and extra return statement. But we need to add one more condition if i greater then j return -1 (value not present).  here is the code i tried and it works well. Please let me know if something wrong or not a right way to do this! Thanks!  def BinarySearch(arr,i,j,x):     mid = i + (j-i) // 2     if i > j :         return -1     elif arr[mid] == x :       return mid     elif arr[mid] < x : #right side       return BinarySearch(arr, mid + 1, j , x)     else : #left side arr[mid] > x       return BinarySearch(arr, i, mid - 1, x)",True
+@shaanshaban5290,2023-09-07T12:41:00Z,1,please ma'am Dynamic programming karvao,True
+@greatlife811,2023-03-25T03:21:34Z,0,Thank you so much mam the way you are teaching is very simple and easly understand thanks a lot again and again ❤,True
+@aayushrajpurohit321,2023-01-26T15:18:58Z,1,Amazing content Maam  Are you student of Reddy sir?,True
+@ai_in_the_blood,2022-09-10T10:49:08Z,0,"Binary search is faster than Ternary Search, reason being the number of comparisons in ternary search is 4 , and in binary search it is only 2.  The number of iterations in Ternary Seach is not able to compensate for the increase in number of comparisons.",True
+@kondavidyasagar6115,2022-09-04T09:53:49Z,2,The way of teaching is very good. The concepets are easily understandable.,True
+@satyam1543,2022-08-31T11:48:31Z,0,I think you should also discuss topics like rotated & order agnostic  binary search,True
+@MrMukulpandey,2022-08-29T16:51:55Z,3,Please complete every topics in Data Structure and also if possible python advance topics because your way of teaching is great and so clear.❤️,True
+@MrMukulpandey,2022-08-29T05:22:14Z,2,is there any previous lecture related to it???? if yes where i can find,True
+@kumarnityanand4731,2022-08-28T14:28:45Z,2,Thanks Krish & Team 💐💐💐,True
+@sanniboyinavenkatakiran9536,2022-08-28T13:11:11Z,4,Will mam continue this series??,True
+@Nikhil-qi4oz,2022-08-28T11:00:20Z,1,Thank you mam👍,True
+@manasuniyal2897,2022-08-28T05:43:56Z,1,Thanks mam ........,True
+@mdodamani642,2022-08-28T05:32:24Z,1,Thank you Krish.. 👍🏻,True

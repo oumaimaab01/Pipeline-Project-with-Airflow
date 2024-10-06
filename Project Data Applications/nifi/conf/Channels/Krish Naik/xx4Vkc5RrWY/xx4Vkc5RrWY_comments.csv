@@ -1,0 +1,68 @@
+author,updated_at,like_count,text,public
+@vineetkrpandey7641,2024-04-13T09:36:24Z,0,tut-7//13/04/2024,True
+@JacklinSibiyal,2024-02-18T06:36:26Z,0,Day 3 - 18/02/2024,True
+@user-wt8sp2xk3n,2024-02-17T06:38:18Z,0,"how does your output look so nicely arranged with shading , mine op looks like list numbers when reading from html",True
+@khushboochhabra2136,2024-01-16T11:54:46Z,0,"You skipped the part that you couldn't answer! In the second html page, there were other tables as well with ""Country"" as column names, but you tried to deviate from the explanation by quickly switching the tabs.  2. You didn't mentioned to install lxml for reading xml file. I believe such small small things are important to tell a newbie",True
+@codingbeast4625,2023-12-22T09:35:16Z,1,"import pandas as pd import requests  url = 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/' response = requests.get(url) dfs = pd.read_html(response.content) this  code isworking at the time stamp of  9:56 sec",True
+@veltechunivalumnidept2171,2023-11-01T22:21:22Z,0,Learning day by day from your videos.  Thank you so much. Learning from basics,True
+@w.g.ogaming2210,2023-04-15T01:02:13Z,0,HTML is not installing... Help someone 😔,True
+@adityanaik1800,2022-11-01T08:08:21Z,0,<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1129)>   This type of error coming after i type.. df = pd.read_html(url),True
+@sunnysolanki2460,2022-10-19T00:40:45Z,0,at 2:30 you are using pd.read_csv to read a json file,True
+@curious_bird,2022-09-30T03:58:08Z,0,"Hi, You told that the next tutorial will be of mongodb but there is no mongodb tutorial.",True
+@EcExplorer,2022-04-22T19:44:20Z,0,read_html does not work. Do I need something else to install as well?,True
+@indirajithkv7793,2022-02-15T15:37:27Z,0,❤,True
+@saumyagupta2606,2022-02-04T15:17:19Z,1,"Hello Krish after scraping the table from web, how do I save the list to csv ?",True
+@chiragkapoor32,2021-12-07T12:10:27Z,4,"at 11:11 i am getting error ""No tables found""",True
+@sapnilpatel1645,2021-12-04T05:36:14Z,1,"when i run this line -> df=pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-database/wine/wine.data',header=None)   i am getting the error that 404:not found. so anyone have new link for the same data?",True
+@aryanrana5658,2021-10-05T11:06:31Z,1,"When i read excel file  by using pd.read_excel(file name.xlsx) ,even that file my laptop contains but  i still get the error of ""there is no such file or directory "".",True
+@hometvfirestick,2021-09-04T14:29:37Z,0,thanks,True
+@karansaini7855,2021-08-25T13:09:32Z,0,"when i write any website address for data,i get   <urlopen error no host given> .How to fix this",True
+@praveenshenoy8064,2021-08-06T10:50:43Z,0,"i am getting error as invalid syntax while working on first Json example statement , what may be the reason..?",True
+@ashishbrahmankar2143,2021-08-02T16:57:37Z,0,"I am getting below error while converting Data to json, could anyone help please ? df1=pd.read_json(Data) ValueError: Invalid file path or buffer object type: <class 'dict'>",True
+@ankitgupta8797,2021-07-16T09:16:05Z,0,"if wine data is in json format,  how are you reading at as csv using read_csv ?",True
+@ashutoshsharma6883,2021-07-15T17:35:56Z,0,Sir in the video you said that the wine data is in json but you are reading it with read_csv.,True
+@louerleseigneur4532,2021-07-07T22:28:30Z,0,Thanks Krish,True
+@imteyaz5160,2021-07-01T17:09:55Z,0,Hi sir when I practice my jupyter notebook showing  Name error: name ' pd' is not defined  Name error: name 'df' is not defined What I should do sir,True
+@srikanthchandana4485,2021-06-22T15:25:42Z,0,"Hi Krish,  If there are multiple tables with same column headers(for eg: in mobile country code data, there are other tables as well, with same column headers), then how to extract that specific table. Kindly let us know!...Thanks in advance.",True
+@sachinbairi6353,2021-06-15T09:52:15Z,1,"Sir, doubt !!! you said [ 2:25 ] that wine.data is in JSON format so why are you reading a JSON data using read_csv ???",True
+@md.omankhan8648,2021-06-07T17:20:45Z,0,"I am soo glad that I did not skip this video, learned a lot",True
+@robinfelix3879,2021-05-25T11:54:33Z,0,vera level content bro,True
+@suraushareddy4454,2021-05-15T05:59:46Z,0,"Hii sir  , i have smAll doubtpython is enough   through this vedios",True
+@suchitanaik6728,2021-04-21T11:11:55Z,10,"Being a fresh learner in Python, your videos are been a blessing. Once I finish all the videos, it will be easy to get through proper certification course",True
+@ashwini4683,2021-04-01T09:05:29Z,0,df1 = pd.read_json(Data) is showing error ValueError: Expected object or value please help,True
+@sudeeprajput1830,2021-03-17T13:42:40Z,0,Thanks brother for this informative video,True
+@arrooow9019,2021-03-07T11:36:37Z,0,What a amazing video🤩🤩🤩,True
+@ranaasad6132,2021-02-27T09:50:05Z,0,"Thank you,Sir Love from Pakistan",True
+@rishabhtewari4357,2021-01-25T04:18:47Z,2,The way you explained  everything looks like too easy and interesting .Thanks for providing all the stuff. I am following  the same path as suggested by you .THANKS,True
+@lngwnd1,2021-01-10T06:57:33Z,3,The url  from the video didn't work for me... This is the correction @11:11  'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/',True
+@samikshabharne1251,2021-01-07T13:42:47Z,0,want to convert json file into dataframe but got this error: (Invalid file path or buffer object type: <class 'dict'>),True
+@shrirangsapate,2020-12-30T11:36:36Z,0,"Sir, can you elaborate more about pickle?",True
+@manishpahuja8127,2020-10-28T08:34:38Z,1,"Hey Krish! Great video! You have mentioned that using pickle, we can avoid running the entire code every time while doing pre processing and model training which takes a lot of time especially for large datasets and multiple attempts at model building. Is there any video  where this concept is explained in more detail? Thanks a lot!",True
+@sharathkumar1387,2020-09-27T14:22:00Z,0,11:32 Sir please explain why we are using [0] index in dfs[0]??,True
+@nidhijakhad128,2020-09-15T14:57:45Z,0,"Hello Sir , when I am using pd.read_json() it is giving a value error . Saying that : if using all scalar values , you must pass an index .   Please help me out with this !  Thanks",True
+@srinukondaveeti9558,2020-09-13T16:43:35Z,0,"Sri, while dealing with json file , i got the  data={""a"" : ""name"", ""b"" : ""num""} pd.read_json(data) ERROR: ""Invalid file path or buffer object type"" i don't understand this",True
+@robyshah6879,2020-09-05T06:57:41Z,16,In Video it is been conveyed that Wine.data file is in JSON format which is not and instead its in CSV format. Guys pls take note of this error.,True
+@datascienceexpert6524,2020-08-14T15:42:42Z,0,please show how to read multiple csv or excel files,True
+@betsythomas5971,2020-08-07T12:03:10Z,0,Can anyone tell me why do we take dfs[0] in line 166,True
+@jagajayaraman5200,2020-08-07T02:47:38Z,0,Hi sir  How to convert html table to csv sir ?,True
+@gauravmarathe3730,2020-08-06T13:25:47Z,20,Everthing is Pretty much simple pretty much easy 😆🤘🤣😁,True
+@mohdzain1741,2020-08-03T15:01:51Z,5,It would be really helpful if you could provide the links of the dataframes you are using 😃,True
+@roushanraj2654,2020-07-23T02:42:43Z,4,"11:16 in case u get an import error, perform this: ""pip install lxml""",True
+@AvinashKumarMAD,2020-05-21T08:36:49Z,0,"Hello krish i am in very starting phase of learning python in which your channel is helping a lot from which i am learning continuously. I am just trying to execute the below code  import pandas as pd Data = '{""employee_name"":""James"",""email"":""james@gmail.com""}'  pd.read_json(Data) but giving error ""If using all scalar values, you must pass an index"" but with Data = '{""employee_name"": ""James"", ""email"": ""james@gmail.com"", ""job_profile"": [{""title1"":""Team Lead"", ""title2"":""Sr. Developer""}]}' this is working fine. I am unable to identify the difference, can you please help",True
+@professorbhumika,2020-05-11T16:19:06Z,0,"df=pd.read_html('https://www.kaggle.com/snap/amazon-fine-food-reviews',header=0,match='ProductId') why this code is not working",True
+@NinadNakhwa,2020-04-17T16:36:48Z,0,this link does not exist: https://archive.ics.uci.edu/ml/machine-learning-database/wine/wine.data   if anybody has data link please share,True
+@omkarkabade79,2020-01-17T11:20:11Z,3,2:36  [ is it possible to read json format file using read_csv?],True
+@kritikaverma3762,2020-01-14T15:26:53Z,1,"anyone else getting this error when try to read json file? File ""<ipython-input-13-a576b39b0d6f>"", line 1     jsonData = pd.read_json('C:\Users\kritika\ML\example_1.json')                            ^ SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape",True
+@rahul4upandey,2019-10-18T15:26:39Z,0,can you please have video on mongo db ccreated?,True
+@satyacenation5874,2019-10-18T10:50:39Z,0,"Hi Krish,   Im getting the below error...while trying to read the table from url....  405     # this version of raise is a syntax error in Python 3  URLError: <urlopen error [Errno 11002] getaddrinfo failed>",True
+@palashmoon3808,2019-10-03T10:10:20Z,0,why did we use dfs[0] instead of dfs? as the result for both will be same just the format of dfs is different than that of dfs[0].,True
+@QaAutomationAlchemist,2019-10-03T01:18:35Z,2,Great content and especially reading html pages...thanks a lot!,True
+@roshankumargupta46,2019-10-02T17:29:31Z,1,"(url_mcc, match='Country', header=0)    What if two table having same column name, which one it will select?",True
+@dilippradhan94,2019-10-01T14:52:49Z,1,Bro please upload deep learning videos...,True
+@tahabimuhammad4524,2019-10-01T05:28:46Z,8,"If I download the wine.data from the given link, I see that it was already in csv format instead of json format not like what said in the video. After applying df.to_csv it actually added index of row from 0 to 177 and column index 0 to 13 in the new generated wine.csv file.",True
+@nareshjanjirala472,2019-10-01T04:49:13Z,1,hai Krish please make a  video on how to import data directly from data base to python,True
+@aryamahima3,2019-09-30T18:13:33Z,74,I have taken udemy (1000 rs INR) course for python for data science. Your video are far better and more intense than that course. Thanks a lot.,True
+@21Gannu,2019-09-30T17:41:05Z,2,When is your full tutorial going live?,True
+@hardikchoudhary3596,2019-09-30T17:29:41Z,1,Pickle and to_csv are basically same except the extension right ? Is there any benefit of using pickel....thanks,True
+@krishanpalsingh973,2019-09-30T17:25:36Z,2,I'm not getting playlist,True
+@ashamaheshk7306,2019-09-30T16:49:55Z,1,I like ur teaching 🤘,True

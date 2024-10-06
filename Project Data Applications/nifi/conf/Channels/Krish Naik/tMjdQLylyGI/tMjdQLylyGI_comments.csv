@@ -1,0 +1,65 @@
+author,updated_at,like_count,text,public
+@himanshukushwaha5064,2023-12-01T22:40:03Z,0,we have remeber it for exam,True
+@yousefsrour3316,2023-08-20T19:21:47Z,0,"Thank you so much man, amazing.",True
+@ayushmansharma4362,2023-05-28T20:17:29Z,0,"This video is very good, I'm also watching the MIT deep learning videos in there they are just briefing the topics and not explaining the actual working in details, this video is very easy to understand.",True
+@vatsalshingala3225,2023-04-02T12:02:04Z,0,❤❤❤❤❤❤❤❤❤❤❤❤,True
+@dcrespin,2022-12-28T23:36:20Z,0,"It may be worth to note that instead of partial derivatives one can work with derivatives as the linear transformations they really are.   Also, looking at the networks in a more structured manner makes clear that the basic ideas of BPP apply to very general types of neural networks. Several steps are involved.   1.- More general processing units.  Any continuously differentiable function of inputs and weights will do; these inputs and weights can belong, beyond Euclidean spaces, to any Hilbert space. Derivatives are linear transformations and the derivative of a neural processing unit is the direct sum of its partial derivatives with respect to the inputs and with respect to the weights. This is a linear transformation expressed as the sum of its restrictions to a pair of complementary linear subspaces.   2.- More general layers (any number of units).  Single unit layers can create a bottleneck that renders the whole network useless. Putting together several units in a unique layer is equivalent to taking their product (as functions, in the sense of set theory). The layers are functions of the of inputs and of the weights of the totality of the units. The derivative of a layer is then the product of the derivatives of the units; this is a product of linear transformations.   3.- Networks with any number of layers.  A network is the composition (as functions, and in the set theoretical sense) of its layers. By the chain rule the derivative of the network is the composition of the derivatives of the layers; this is a composition of linear transformations.   4.- Quadratic error of a function.  ... ——- With the additional text down below this is going to be excessively long. Hence I will stop the itemized previous comments.   The point is that a sufficiently general, precise and manageable foundation for NNs clarifies many aspects of BPP.   If you are interested in the full story and have some familiarity with Hilbert spaces please google for our paper dealing with Backpropagation in Hilbert spaces. A related article with matrix formulas for backpropagation on semilinear networks is also available.   We have developed a completely new deep learning algorithm called Neural Network Builder (NNB) which is orders of magnitude more efficient, controllable, precise and faster than BPP.   The NNB algorithm assumes the following guiding principle: The neural networks that recognize given data, that is, the “solution networks”, should depend only on the training data vectors.   Optionally the solution network may also depend on parameters that specify the distances of the training vectors to the decision boundaries, as chosen by the user and up to the theoretically possible maximum. The parameters specify the width of chosen strips that enclose decision boundaries, from which strips the data vectors  must stay away.   When using the traditional BPP the solution network depends, besides the training vectors, in guessing a more or less arbitrary initial network architecture and initial weights. Such is not the case with the NNB algorithm.   With the NNB algorithm the network architecture and the initial (same as the final) weights of the solution network depend only on the data vectors and on the decision parameters. No modification of weights, whether incremental or otherwise, need to be done.   For a glimpse into the NNB algorithm, search in this platform our video about :  NNB Deep Learning Without Backpropagation.   In the description of the video links to a free demo software will be found.   The new algorithm is based on the following very general and powerful result (google it): Polyhedrons and Perceptrons Are Functionally Equivalent.   For the conceptual basis of general NNs in see our article Neural Network Formalism.   Regards, Daniel Crespin",True
+@muppurigopi9576,2022-12-12T05:10:46Z,0,You are Amazing Sir.......................,True
+@Programming9131,2022-11-24T11:07:44Z,0,Sir Hindi me explain ker deta to Jada acche rhe the agr English me he smj na hota to Google se nhi smj leta,True
+@pratyushraj2640,2022-10-22T10:58:40Z,0,even if weights same activation wiill not be same...please help anyone,True
+@rahuldebdas2374,2022-08-09T10:25:01Z,0,"Its not Gorat initialization, it is GLOROT initialization",True
+@haneulkim4902,2022-07-20T23:24:37Z,0,"While training deep neural network with 2 units in the final layer with sigmoid activation function for binary classification( highly imbalanced) 2 weights of final layer becomes both 0 leading to same score for all inputs since it only uses bias in sigmoid, what are some reasons for this?",True
+@good114,2022-07-02T06:38:57Z,0,Thank you Sir 🙏🙏🙏🙏♥️😊♥️,True
+@imranriaz9752,2022-06-17T07:15:36Z,0,Thanks,True
+@atchutram9894,2022-03-04T16:58:15Z,0,What is very small or small or large?  It makes no sense,True
+@vishaljhaveri7565,2021-10-07T10:00:51Z,0,Thank you sir.,True
+@aish_waryaaa,2021-09-19T13:07:12Z,0,Best video and explanation.Thank You Sir...,True
+@soumyajitmukherjee2396,2021-08-19T11:48:22Z,0,Can you share the research paper links for reference purpose,True
+@minakshiboruah1356,2021-06-22T15:48:33Z,0,"It's Xavier Glorot http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf B.t.w I myself confused with Gloriot transform. But Gorat is nowhere that much available as is needed given its imp. Sir, I think the man is one & only full name is used in parts in the naming system.",True
+@AdityaRajPVSS,2021-05-21T18:41:34Z,1,मेरी इतने दिनों की खोज यहाँ आ कर खत्म हुई है। बहुत बहुत धन्यवाद आपका। आप अभी तक के सबसे बेहतर ML DL गुरु हैं । भगवान आपको स्वस्थ रखें।,True
+@louerleseigneur4532,2021-05-12T22:07:50Z,0,Thanks buddy,True
+@anjalisharma6543,2021-04-02T08:12:41Z,2,"Hi Sir,  I have one doubt if we can use the sigmoid activation function on top of the output layer for binary classification and sigmoid can be used in hidden layer but why we can not use the Relu activation on the top of the output layer even though we can use in hidden layer on netron?",True
+@ajayrana4296,2021-03-06T06:10:16Z,0,how it impact on algorithm...,True
+@ashrafulfuad2967,2021-01-06T05:22:33Z,0,sound quality is bad,True
+@zaidalattar2483,2021-01-03T11:27:36Z,0,Great!...,True
+@monikathakur-zu1eb,2020-12-29T10:18:35Z,0,"hi krishna , please take some inputs and then calculate the intial weights with xavier technique.",True
+@harishbabuk.s4344,2020-12-27T04:03:51Z,0,"Hi Krishna,  What is the importance of weight initialization in MLP and with out weight initialization cant we build a model just using the value of each dimension.",True
+@rohitrn4568,2020-12-14T06:35:49Z,0,Good stuff,True
+@poojav2012,2020-12-05T14:13:10Z,0,"Hi Krish, you explain very well and make learning very interesting. May i know which book are you referring to teach so that i can buy that book?",True
+@shhivram929,2020-11-28T03:57:11Z,0,"माता, पिता, Kirsh Naik, देवम्   _/|\_",True
+@mittalparikh6252,2020-11-14T10:42:01Z,3,"you can improve much better by making ur content ready during the video session to avoid lot mistakes in your explanations. At this point lot of people are following you for understanding stuff, a wrong explanation can affect their understanding",True
+@marijatosic217,2020-11-10T21:34:35Z,0,Very helpful! Thank you!,True
+@yepnah3514,2020-11-05T04:28:42Z,1,hi!! good videos. how would i go about entering the weight values? do i need to use something like : set_weights()??,True
+@ahmedelsabagh6990,2020-10-26T20:42:33Z,0,Simple and useful,True
+@jaskarankaur4971,2020-10-14T03:46:56Z,4,I cant express how thankful I am to stumble upon your channel,True
+@abdultaufiq2237,2020-08-12T11:01:44Z,0,It's ahhhhhhmaaaazing........,True
+@srinivasanpandian5874,2020-07-31T08:33:51Z,0,"Hello Krish, Thanks for good videos.. how to know that whether need to use Uniform or normal ?",True
+@jagdishjazzy,2020-07-15T13:24:16Z,2,Isnt the vanishing gradient problem dependent on the type of activation function used rather than the type of weight initialized?,True
+@AdmMusicc,2020-07-07T11:01:42Z,7,"The video is great. However, could you explain why the respective techniques are good with sigmoid/relu?",True
+@cristianchavez5674,2020-06-11T20:43:01Z,0,Great Job Krish !,True
+@saurabhtripathi62,2020-05-30T15:54:46Z,3,When to use which initialization technique,True
+@sumanthkaranam99,2020-05-22T06:30:00Z,0,"sir ,pls make a video on batch normalization",True
+@tharukabalasooriya3269,2020-05-19T05:23:22Z,24,"Gosh!!, India in another level of education man!! from higher Dimension",True
+@RnFChannelJr,2020-05-15T05:08:46Z,0,"great explanation sir,  may i get the research paper ? thankss",True
+@ArthurCor-ts2bg,2020-05-09T18:40:21Z,0,Very lucid and insightful,True
+@paragjp,2020-04-25T18:01:29Z,0,"Hi, Excellent lecture. Can you suggest a book to learn this weight initialization",True
+@sandipansarkar9211,2020-04-16T10:42:26Z,0,Thanks. I understood the video but what was written below the video.I couldn't relate to what was shown in the video. Need to hold myself till I am able to solve problems on deep learning.,True
+@RAZZKIRAN,2020-04-05T09:22:16Z,0,fan-In  means number of inputs ? why  squreroot of (3),True
+@RAZZKIRAN,2020-04-05T09:15:52Z,0,weight should be small means number of input features ? numeric value of the weight?,True
+@fthialbkosh1632,2020-04-05T06:35:40Z,0,"Thanks a lot, an excellent explanation.",True
+@ruchit9697,2020-04-04T19:24:32Z,0,Here you gave example of the weights being same taking all weights as 0 but if we take the same weights having value more than 0 then I dont think the problem would come,True
+@praveensingh-lx4dk,2020-03-10T18:10:55Z,1,When you will start deep learning classes? I am waiting for that.,True
+@prasantas2195,2020-03-09T15:00:21Z,0,"Hi Krish, in some of your videos subtitles are not enabled. With that it would be really MORE helpful.",True
+@riffraff7358,2020-02-19T12:38:38Z,0,Bro you are best....,True
+@khushpreetsandhu9874,2020-01-07T19:47:53Z,0,"What if we have all the features as important, for eg- I have 6 features and I am performing multi class classification, so in this each feature is important for me, how would we intialize class weights in this scenario?",True
+@nitayg1326,2019-12-26T19:55:41Z,0,Wow! Didnt know about maths behind weight initialization!,True
+@gopalakrishna9510,2019-11-11T09:47:57Z,0,smile please  at 11:47,True
+@krishnakanthbandaru9308,2019-10-31T10:37:11Z,0,Research paper link please,True
+@hanman5195,2019-10-24T08:07:21Z,9,"Your amazing at explaining ,excellent Guruji i found finally in Data science field",True
+@Skandawin78,2019-09-18T11:02:10Z,1,Where do we specify the weights initialization method in keras?,True
+@Skandawin78,2019-09-18T10:52:11Z,0,Pls mention abt bias as well.. not sure how it is changed in backpropagation,True
+@blackberrybbb,2019-09-18T02:51:49Z,0,Learned a lot! Thanks!,True
+@yashchauhan5710,2019-07-30T14:14:12Z,0,Amazing,True
+@DanielSzalko,2019-07-29T18:25:44Z,58,"Dear Krish, The formula at 6:00 made my day. My month actually. I build my CNN with the standard library only, cuda toolkit, with a pinch of openCV. Implementing this in my CNN's fully-connected section brought that alive, boosting it's performance. Tonight we will clink glasses to your health! Thanks man!",True
+@alluprasad5976,2019-07-29T12:32:22Z,0,thank you ! Will you make videos on cnn please,True
+@minderiskrir989,2019-07-27T12:42:34Z,1,"At 7:30 the Initialization Method is called Glorot, not Gorat.",True

@@ -1,0 +1,23 @@
+author,updated_at,like_count,text,public
+@geethikarao6267,2023-12-13T11:47:02Z,0,"I am getting the score output as array([nan, nan, nan, nan]) wt to do ? You got values in decimals",True
+@adityachauhan1209,2023-07-11T13:13:58Z,0,long way you have come by now :),True
+@bhagyeshkant3455,2021-10-23T20:55:43Z,0,"To check Risk is it necessary to perform XGBoost, or we can do it with some other models ? I use ANN and Logistic Regression",True
+@sanjeevranjanmishra8811,2021-08-12T10:12:58Z,0,Why you haven't check for multicolinearity,True
+@manavshah2119,2021-08-07T08:30:24Z,0,Yes Scaling is required there have data volume is huge then we can convert it into one range.,True
+@louerleseigneur4532,2021-08-07T04:34:28Z,0,Thanks buddy,True
+@ajaykushwaha-je6mw,2021-02-02T18:41:16Z,0,"I have one small question. Normally on X_train data we use fit_transform but here on all data we have applied fit_transformation, is it correct to do so ?",True
+@chithrasrinivasan9904,2020-10-11T08:35:16Z,0,There is no necessity to do scaling for XGBoost Algorithm-because it belongs to Decision Tree Family and bagging,True
+@rohitjadhav512,2020-10-02T19:17:44Z,0,"yes, scaling is required to get better result/prediction because scaling maps the entire range of values into a given range.....and so that algorithm can find local minima easily...",True
+@singhontop,2020-10-02T11:30:17Z,0,Could someone provide the kaggle link where description of data is given.,True
+@subhamsengupta2299,2020-07-30T15:54:44Z,0,can anyone provide me the data description of the dependent variable? what does 0 and 1 stand for,True
+@afrinmm4793,2020-07-12T12:25:56Z,0,Hi sir i want to why your importing imputer what it is and how the dataset set is uploaded in colob while am downloading and saved in drive,True
+@udaylunawat2163,2020-03-13T09:29:55Z,6,"@6:45 Scaling is unnecessary since the base learners in XGBoost are trees, and any monotonic function of any feature variable will have no effect on how the trees are formed.   In general, algorithms that exploit distances or similarities (e.g. in form of scalar product) between data samples, such as k-NN and SVM, are sensitive to feature transformations.   Graphical-model based classifiers, such as Fisher LDA or Naive Bayes, as well as Decision trees and Tree-based ensemble methods (RF, XGB) are invariant to feature scaling, but still it might be a good idea to rescale/standardize your data.   ""On the regression tasks, it is sensible to normalize targets so that the average becomes zero since regularization shrinks towards zero.""",True
+@adeboolusegun1857,2020-02-19T19:42:24Z,0,"will ""pip install localoutlierfactor"" install in anaconda command prompt? I'm trying this and getting error",True
+@d5nsks,2019-10-19T12:58:01Z,3,"Awesome explanation :) However need clarifications, Once you get a score of 0.82, what does this imply and how do I translate this to management/ Business language and can you also please tell me what type of regression is this. I believe this is multiple liner regression",True
+@vineetsansi,2019-08-24T13:11:49Z,11,"Why did you use only XGBoost and not other Ensemble models or SVM or ANN ???   It's also important for us to learn why and where what algorithms are used, so if you could cover a video on such a topic then it would be really helpful and save us time by running only the suitable model instead of running all the models.",True
+@ijeffking,2019-07-11T06:33:57Z,1,Good one. Thank you,True
+@vijaynale7893,2019-07-10T04:22:22Z,2,"I think is no because of the xgboost internally use decision tree,  it's first descrities our variables....apart from do scaling of our data mean less time take building.....get high performance",True
+@timircollege,2019-07-09T15:29:47Z,4,Yes scaling is always required if you have a huge volume data to get better accuracy.,True
+@kothapallysharathkumar9743,2019-07-09T15:01:46Z,1,hai sir can you please  make a video on LDA Topic modeling,True
+@sushedbubai,2019-07-09T14:29:56Z,2,"According to Me, We need to do scaling because all the features are not of same unit. By scaling the features we are just simplifying the calculations for xgboost algorithm.  I am very new in this field please correct me if i am wrong.",True
+@soumyasrm,2019-07-09T14:05:46Z,4,Hi sir ... can you please make video on machine learning model deployment in aws,True

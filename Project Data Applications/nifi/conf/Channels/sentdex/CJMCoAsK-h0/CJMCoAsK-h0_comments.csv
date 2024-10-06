@@ -1,0 +1,57 @@
+author,updated_at,like_count,text,public
+@informationDesigner,2021-03-01T21:16:19Z,0,you are genius... Please guide me to solve this problem in installing libraries !!! I got bored- the error is -->>  Defaulting to user installation because normal site-packages is not writeable,True
+@jessicaliu7424,2020-11-12T07:39:40Z,0,"Hi, dear  friend,    @gNik",True
+@CODEMENTAL,2020-11-10T00:21:56Z,0,"Sentdex, your python, opencv tutorials are gold. Thanks for putting so much effort. After all those years your videos are still helping a lot.",True
+@franklynxavier5643,2020-10-22T06:14:40Z,1,Check this course for an in-depth explanation of OpenCV from beginner to advanced: ​@9M38​,True
+@cicadaislive9988,2020-09-12T02:52:23Z,0,not explained well,True
+@kavehghodstinat9500,2020-06-07T07:53:02Z,0,"Hi, Do you know how to detect each edges? like the x, y coordinates of each edges detected?",True
+@Samuftie,2020-05-04T03:26:47Z,0,This is hard if you didn't know the underlying theorem behind this content.,True
+@abhinavsingh9111,2020-03-31T20:59:03Z,0,Why don't you explain the arguments,True
+@ajaysaravade5213,2019-11-23T12:47:29Z,0,Please make video on removing motion blur in image,True
+@GuyCollinsWilliam,2019-08-08T13:57:59Z,0,brilliant thankyou very much! ∇,True
+@ZacVrono,2019-07-31T03:02:03Z,0,can anyone explain: zip(*loc[::-1])   to me?,True
+@BryceChudomelka,2019-07-17T21:25:01Z,0,omfg. dude. Laplacian.... LUL. Great videos man. IDC if you do not know who Laplace is or how to pronounce Laplacian :P,True
+@ahmedhabashi5948,2019-06-25T20:45:30Z,4,Could you please tell me the possible changes that we can do for cv2.Laplacian() to get better results as I get almost white images with some dots in it ... Thanks in advance,True
+@calvinbarajas5144,2019-05-08T19:00:26Z,0,"Awesome video, thanks very much. At  4:50, are you showing horizontal edges only (sobely)? I imagine you could have also shown vertical edges by using: cv2.imshow('sobelx', edges). Thanks for the feedback.",True
+@be9196,2019-05-08T16:24:14Z,0,"As written, this throws an error for all of the cv2.imshow() calls, except of the original. For this code to work, I needed to convert all values to unit8, as described in the OpenCV documentation. For instance:   sobelx=cv2.Sobel(frame,cv2.CV_32F, 1, 0, ksize=1) sobelx=np.uint8(np.absolute(sobelx))",True
+@shivaliksingh847,2019-04-04T17:23:50Z,1,"Apparently there is a bug in opencv version 4.0.0.21, which won't allow the laplace function to run.",True
+@subornogupta5867,2019-03-07T01:33:59Z,1,This works pretty well though: out_image=sqrt(sobelx*sobelx+sobely*sobely); after converting each into a numpy array.,True
+@skorpion111189,2019-02-24T22:50:35Z,3,"# there is a bug in open cv2 ver 4.0.0.21  # use pip install opencv-python==3.4.5.20",True
+@emalkhan3,2019-02-24T12:56:20Z,0,I am getting this error: cv2.error: OpenCV(4.0.0) C:\projects\opencv-python\opencv\modules\highgui\src\window_w32.cpp:1230: error: (-215:Assertion failed) dst.data == (uchar*)dst_ptr in function 'cvShowImage',True
+@bijoypal7179,2019-01-26T07:06:56Z,0,"Sir when I am compiling the code laplacian then I am getting error ""Traceback (most recent call last):   File ""D:/Image processing/Project/10edgedetection&gradient.py"", line 12, in <module>     cv2.imshow('laplacian',laplacian) cv2.error: OpenCV(4.0.0) C:\projects\opencv-python\opencv\modules\highgui\src\window_w32.cpp:1230: error: (-215:Assertion failed) dst.data == (uchar*)dst_ptr in function 'cvShowImage'"" Kindly help me for sloving that problem",True
+@rahulrathnakumar785,2019-01-14T04:28:11Z,3,"How do you decide the datatype to use for the ddepth parameter? For a sample uint8 image that I used, using CV_64F gave me a completely black output whereas using CV_8U detected the edges of the image properly. How does this work? thanks!",True
+@alexfan1109,2019-01-01T02:37:23Z,1,"Just a tip. If you do a Gaussian blur before feeding into the edge detector, you can filter out the noise, because the Gaussian is a low-pass filter.",True
+@sergiosalazar7231,2018-11-12T21:21:50Z,0,"Well, for some reason, the sound not working in this video. Anyways, no needed it.",True
+@sergiosalazar7231,2018-11-12T20:31:03Z,0,"No sound, mate.",True
+@kongaaiguru,2018-10-03T16:24:36Z,0,"hi, sir.i am working on a real-time image based herbicide applicator. I will have to detect green colour(weed) from soil background and apply herbicide. My problem is under varying lightning condition how can fix the threshold value to detect green colour. How can I make a robust system that can work under different conditions?",True
+@arjunans3856,2018-09-19T10:31:22Z,0,super,True
+@andymcgovern6081,2018-08-18T00:49:51Z,0,Laplacian = le plas ee uhn,True
+@Bcs952,2018-08-03T20:08:35Z,0,now how would i track my hand using the edges?,True
+@heets1971,2018-07-18T21:23:23Z,0,How to create a trackbar?,True
+@eneserdogan34,2018-07-06T20:20:56Z,0,"i strongly recommend the computerphile videos about these topics (https://www.youtube.com/watch?v=sRFM5IEqR2w, https://www.youtube.com/watch?v=C_zFhWdM4ic, https://www.youtube.com/watch?v=uihBwtPIBxM)",True
+@chinmoyjyotikathar8793,2018-06-06T07:36:23Z,0,Hairyson !!,True
+@huyvole9724,2018-05-25T05:46:12Z,0,sentdex is chicken,True
+@vaibhavchhabra800,2018-05-21T16:48:21Z,26,Can you please EXPLAIN THE PARAMETERS OF THE FUNCTIONS?,True
+@mohammedal-alaw6249,2018-04-20T16:55:11Z,0,thank you very much I learned image processing in python language; but I have some questions...,True
+@mohammedal-alaw6249,2018-04-16T13:39:27Z,0,Every thing worked perfectly,True
+@praveendhoni2227,2017-12-04T10:39:36Z,0,We have to do a project on traffic lights control using image processing by comparing original with no traffic edge detected image and traffic edge detected image. Can you please help me how to do that,True
+@tpurushotham9390,2017-11-06T09:46:59Z,0,how can we do this analysis for external saved video.. without using the webcam camera. can you comment the code for this.,True
+@1234mohitmhatre,2017-11-03T10:32:15Z,0,what is happening what are the lines that come when i project lash light on my camera when doing laplacian,True
+@germancarrasco2028,2017-11-01T06:15:47Z,3,Lap-la-cian? It is La-pla-cian (related to the Laplace operator). The Laplace operator was named after the French mathematician Pierre-Simon de Laplace (1749–1827). Anyway. Good tutorials.,True
+@jinchongliang6838,2017-06-18T14:15:52Z,0,nice,True
+@akashpanchal3404,2017-06-16T05:13:59Z,0,"Hello, i am new in OpenCV i want to detect  the number of teeth from an image using OpenCV +Python. I try to using watershed +canny edge detection algorithm but i didn't find accurate teeth count from mouth images Is this possible to find other technique. please explain. thank you",True
+@Blazekyo24,2017-05-09T14:14:47Z,1,why am I getting this error ? :(  error: D:\Build\OpenCV\opencv-3.2.0\modules\core\src\matrix.cpp:949: error: (-215) dims <= 2 && step[0] > 0 in function cv::Mat::locateROI,True
+@javierangelgmailcom,2017-01-10T22:31:51Z,0,Muchas gracias por tu trabajo,True
+@jaiyesh007,2017-01-06T16:28:56Z,1,There is small correction in your gradient code it will be cv2.videocapture(0) instead of videocapture(1).,True
+@DrJohnnyCraig,2017-01-06T06:51:11Z,17,"Hi Thank you for the videos but I have some clarifying thoughts:  cv2.Canny(src, low_threshold, high_threshold).  If pixel is above high_threshold it is kept,  If pixel is between high and low threshold it is kept only if it is adjacent to a kept pixel If pixel is below low threshold it is discarded.  Low_threshold and High_threshold should not be the same.",True
+@stevensexton5801,2016-12-07T03:18:33Z,34,(La pla see an),True
+@JudgeIronist1,2016-08-09T15:21:51Z,0,"Hi Sentdex! Thank you and your video was great that it helped me to clear some of my doubts! However, I have one thing I'm unsure of. Is it applicable if I applied hough transform to be able to find a rectangle outline, or is it possible to filter out the surroundings and only detect a rectangle frame by using canny edge functions? :)",True
+@anonymouscoward9643,2016-05-20T07:24:29Z,0,"you make me laugh and laugh - snowy satellite my ass.  remember when TVs were 100% tube based devices, and there were a whopping three channels plus some weird stuff on UHF to choose from with rabbit ears.  prolly not - those were the good ol' days...more wine, women, and song and less burying your face in a chinese made slave tracking device complete with tavistock institute brainwashware.",True
+@MyPlaylist-xq8en,2016-02-06T20:48:29Z,1,"Can you create a ""Hand Gesture Tutorials"", that will be awesome!",True
+@Gaatech,2016-01-09T09:41:45Z,1,looks very cool.  is there a way to create a depth map from a standard photograph,True
+@rileymcdermott3009,2016-01-03T17:50:06Z,0,Happy new year!!!!!!!!!!!!!!!!!!!!!!! I threw about 3-4 differnt parties XD( I have  a huge family),True
+@Moment_Captured,2016-01-01T23:34:28Z,2,I always enjoy your videos... Can you also do Histogram Oriented Gradient too?   Thanks... FYI  Laplacian is pronounced Luh 'plahs ee uhn,True
+@bennis9283,2016-01-01T20:46:24Z,0,Happy new year  i made the snake Game its so cool,True
+@froblinkin,2016-01-01T06:00:11Z,11,My new years resolution is to binge watch your channel.,True
+@JulienFAUJANET,2016-01-01T04:49:32Z,0,Great vidéo ! Happy New Year Sendex !!!!!!!!!,True
+@tinchoh6476,2016-01-01T03:52:52Z,0,"Happy new pyear,, Sentdex!!",True

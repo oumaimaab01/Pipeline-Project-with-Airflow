@@ -1,0 +1,159 @@
+author,updated_at,like_count,text,public
+@coreyms,2020-02-24T17:10:49Z,82,"Hey everyone. Hope you all had a great weekend! I will be traveling to Vancouver this week to visit a Quantum Computing company and learn more about the work they're doing, so I'm not sure when the next Pandas video will be ready for release. I will be working on it while I'm there, but I likely won't have it recorded and released until midway through next week. Let me know if anyone has any questions they would like me to ask them about Quantum Computing!",True
+@shadmanmartinpiyal4057,2024-05-08T23:27:29Z,0,excellent!,True
+@lucasbartomioli7861,2024-04-30T14:02:02Z,0,"Man, i love you! Thanks a lot from Argentina!",True
+@martinmulligan4327,2024-04-09T04:57:14Z,0,I have duplicate lines of data. How do you clean that up?,True
+,2024-02-27T17:45:53Z,0,14:57 - Casting / fixing data types,True
+@njgaming4422,2024-02-03T14:06:27Z,0,"instead of replacing  separately you can just pass the list of strings that you want replace E.g :  df['YearsCode'].replace(['Less than 1 year','More than 50 years'],[0,51],inplace=True)",True
+@jongcheulkim7284,2024-01-20T12:18:13Z,0,Thank you^^,True
+@srivathsgondi191,2023-12-29T19:11:33Z,0,"Now thats a lovely explaination, i like how u showed the function can be used in different scenarios!",True
+@shanghainewbison7687,2023-11-25T07:37:01Z,0,"Another way to change the dtype of df[""YearsCode""].  def change_to_float(string):     try:         result = float(string)     except:         result = np.nan     finally:         return result   df['YearsCode'] = df['YearsCode'].apply(change_to_float) df['YearsCode'].mean()",True
+@finncollins5696,2023-08-08T14:13:58Z,1,"Learnt a lot so far. Thanks so much Corey,.",True
+@athas12,2023-08-02T22:42:54Z,0,"for the last part of the video, you can actually create two lists and use these lists in replace method to change all values at once. It is slightly easier especially if the df has multiple values to replace",True
+@RahulGupta-ke9su,2023-06-05T13:38:29Z,0,thank you,True
+@nizamkhan3704,2023-05-23T08:49:29Z,0,everything ok but please reduce your rate of speech. Kindly go slow.,True
+@ahmedhosny3855,2023-05-12T13:46:49Z,0,"such a great work done by you , hope you all the best man <3",True
+@mapa5000,2023-02-10T00:01:43Z,0,You really care about making a video addressing many scenarios and possible issues … that’s phenomenal !! … I really appreciate it … thank you so much!!,True
+@jalego800,2023-01-16T10:33:48Z,0,"Compared to the median of 11, my 2nd year of experience looks like nothing XD",True
+@leoeghosa6977,2023-01-14T15:44:16Z,0,"hello corey,  in your video the first  df.dropna() drops rows 4 and 5; according to your explanation because the ""How"" function is set to any , whereas row 6 also contains a string of 'missing', 'anonumous' is also a string, why doesn't row 6 drop?, what differentiates the two strings. Thank you, Awesome lessons",True
+@fabianabecatini6743,2023-01-10T19:08:39Z,0,👋,True
+@user-qn5by5iv7u,2023-01-08T09:20:49Z,0,2023,True
+@kameshinipillay4587,2022-10-26T07:10:38Z,1,"Thank you, learning so much :)",True
+@patjaproduction1119,2022-10-03T15:24:35Z,0,09:58,True
+@leakojicic8393,2022-10-01T15:43:57Z,0,"Maybe we could've checked how many people have coding experience greater than 50 years and then subtract their Comp___ (i.e. income) median from people with less than 50 years coding experience's income, and add that difference to 50. It might be complicated but in a serious approach to a dataset, I imagine this wouldn't affect the skewness so much. What do you think ?",True
+@alexthewebdesigner1856,2022-09-14T04:05:24Z,0,"@Corey Schafer Something told me that I'hd better watch this video. Just when I thought that I'd sanitized a large data set, I realize now that there could potentially be some data (or missing data) that could crash my application. Great video. Thank you Sir!",True
+@user-qn5by5iv7u,2022-08-09T12:10:42Z,0,2022,True
+@anubhavrauniyar3192,2022-07-29T09:23:28Z,0,We love you Corey Schafer!!!! Lots of love from India🥰,True
+@litan5006,2022-07-18T19:54:29Z,0,Good pandas video. Thank you,True
+@analyticswithothello8213,2022-07-18T13:20:11Z,0,"Corey, you are teaching the best!",True
+@mohammedkaifmirza7585,2022-04-08T10:32:50Z,0,Amazing tutorial 😍👌,True
+@comptegmail273,2022-03-11T19:15:26Z,0,"Hello sir, thank you so much for the tutorial. I'm actually stuck since my source in a CSV file. Except that sadly the file I'm working is extremely complex with indefinete columns since my main columns are repeated everyday based on the date. I've been stuck on this problem since over a week. Is there a way I could reach out to you and have your mail to maybe help solve this problem? Thanks a lot in advance.",True
+@saraghafelehbashi5808,2022-02-10T16:54:35Z,0,much appreciated! could you please have more video like that? cleaning data and see the diffrent errors come with it! it would really helpful for juniors.,True
+@astali5674,2022-02-05T23:12:39Z,0,"country_grp['LanguageWorkedWith'].apply(lambda x: x.str.contains('Python').value_counts(normalize = True)), this is my answer to the percentage of python users in each country, I m not sure if it is right?",True
+@muntadher8087,2022-02-05T22:13:35Z,0,"useing this func ( df.fillna(""Unfilled"", inplace = True) ) to replace the missing values is good practice I belive, for me it's easier than replace and more dynamic",True
+@muntadher8087,2022-02-05T22:11:23Z,0,Thank you so much!! You are the best,True
+@abhisheksingh_1328,2022-02-02T13:37:40Z,0,Can any1 suggest a good numpy  series on YouTube!!!,True
+@kunal_tajane,2022-02-02T08:32:31Z,0,more than 50 years. is crazy 😁,True
+@francodsouza4637,2022-01-07T07:22:18Z,0,Legend says Corey forgot his youtube password!,True
+@md.abdullahalmasum4942,2021-12-15T18:23:33Z,0,thank you sir .,True
+@danielflorea3001,2021-12-05T17:37:29Z,0,Simple and clear explanations. Great job.,True
+@tomigoya,2021-11-23T01:40:52Z,0,7:20 when she talks with me xdd,True
+@NikitaSharma-bs4gg,2021-11-18T21:25:31Z,0,That was such a good video- thank you for sharing,True
+@Annie-db1vh,2021-11-09T04:01:09Z,0,This guy's southern accent is cute,True
+@soapprash8969,2021-10-26T15:32:34Z,0,"26:03 I mean if you're coding for more than 50 years, you probably just started as soon as computers fucking came out lol😂😂😂",True
+@ironpolux,2021-10-15T23:20:09Z,0,"Great vid, pls do one on multiple indexes!",True
+@jongcheulkim7284,2021-10-09T10:40:25Z,0,Thank you^^,True
+@DendrocnideMoroides,2021-09-28T17:02:39Z,2,Pro tip: in Jupyter if you ever want to see all the shortcuts the press H key (The shortcuts are very useful),True
+@pc0riginal870,2021-09-14T03:24:11Z,0,we can convert using apply(int) also .,True
+@interestingstudies4422,2021-09-04T07:57:12Z,0,Amazing video...solved my problems ☺️☺️🙏🏻,True
+@ajinzrathod,2021-08-21T18:48:01Z,0,Corey you are great.❤️ Love from India ❤️,True
+@stanislawjarzynski6133,2021-07-21T08:22:16Z,0,"You're a great teacher, Corey!",True
+@anshuldwivedi7210,2021-07-07T06:09:06Z,0,"1 question, if anyone can help me understand:  In some cases, while calling replace, we need to prefix it by .str.replace(....) but in this case we didn't. Can someone explain the difference between the 2 scenarios?",True
+@anshuldwivedi7210,2021-06-27T10:03:32Z,1,"Great series, but I must say I find R much easier to understand since there are not as many exceptions as there are in python. Everything is a function and there is no concept of method (at least that I'm aware of)",True
+@mohamedikbalguetout32,2021-05-15T21:48:52Z,0,hey bro always I fond the solutions in your videos thanks man,True
+@Ian-bb7vv,2021-05-11T16:52:09Z,0,"I had to say, thank you!! I think you guys are really helping to fill the unequal educational resources between the rich and the poor. Great job and I hope you now that what you are doing is really meaningful",True
+@ranjeetnbittu,2021-04-08T14:38:15Z,0,"Thank you for the nice video, but I have a question: how to combine multiple excel sheets having lets - say 100 columns (huge number of columns) and different excel file is having different structures. let me expand my question bit more: having 5 or more different excel sheets (different files) and 100 columns are in column, but every file is having few different columns as well. So how to combine these all files/sheets data into one excel file. Thank you so much in advance to you for looking into my queries and hoping to get some solutions for the same. I like to watch your videos and learnt a lot from them. Keep sharing you knowledge.",True
+@YeekyYeeky,2021-03-19T01:23:19Z,0,"can't wait for your numpy series , this channel is gold , Thank you Corey",True
+@robertmnganya7533,2021-03-06T16:13:19Z,0,Excellent teaching. Thank you.,True
+@alfredsfutterkiste7534,2021-02-22T18:45:13Z,0,Lovely.,True
+@HarmanHundal01,2021-02-13T18:09:13Z,0,"Is there a way to select and replace all strings in a column with a certain value , or select all integers in a column with a certain value?",True
+@adarshtiwari7395,2021-02-11T08:11:16Z,0,That is BRILLIANT,True
+@manishgpt25,2021-02-09T13:38:17Z,0,where can i find code notebooks on this series?,True
+@manishgpt25,2021-02-09T13:28:05Z,0,thanks a ton for this series..helped a lot in clearing concepts!!,True
+@sahajrajmalla,2021-02-02T02:41:28Z,0,"I don't understand, why do we need to use grouping for? I mean it's like filtering. What's difference between them?",True
+@JR-mj8ph,2021-01-07T21:38:46Z,0,These are awesome! Thanks a million!,True
+@rybltbt,2020-12-26T00:38:32Z,0,Thank You its really helpful,True
+@KevinTempelx,2020-12-14T00:09:02Z,0,Thank you!,True
+@adamgdev,2020-11-26T07:51:45Z,2,You never disappoint!!  And I never have to speed you up because you keep a great pace with no BS!  Thank you!!,True
+@temitayoadedipe,2020-11-24T08:56:46Z,1,"""And that is brilliant!"" 😁",True
+@haiderali2050,2020-11-22T09:46:45Z,0,"Thank you so much, i have learnt a lot and able to automize my daily Excel routine work",True
+@d_omar1468,2020-10-15T11:07:24Z,0,great job brow,True
+@bartdziubek327,2020-10-01T19:42:52Z,1,good job :),True
+@rajeevmenon1975,2020-09-29T17:51:16Z,0,"Dear Corey,  I have a dataframe with heading code which has both numeric as well as alphanumeric codes.  While doing a merge it merges with the int codes but doesn't do it with the str codes (when converted to excel, I found some trailing spaces in the alphanum codes)  How to resolve this so that merge works on both the numeric as well as alphanumeric codes?",True
+@kinjalvora256,2020-09-25T12:40:49Z,1,"Hi Corey, Thanks for the awesome series. While I have not yet finished the series, I would like to know, how we can deal with duplicates. If you have a column let's say with duplicate apps and  the apps have reviews, size, installations and you want to let's say get a mean for the reviews, take the first size and sum of the installations and merge the rest of the columns for those apps as they were, like Ratings. How would one do that?",True
+@user-pd8fb5xh1z,2020-09-22T18:19:55Z,0,Thank you,True
+@bharaths1396,2020-09-05T15:20:03Z,1,Your content is awsome....! How do replace nan values with other values only in a particular column? Please Help  Thank You,True
+@gayatriwaghmare6293,2020-08-31T16:39:32Z,1,The series is very helpful to me. Thank you sir.,True
+@stephanie_ong,2020-08-30T21:12:32Z,0,Thanks again for such a helpful video.,True
+@kirannagar8295,2020-08-30T21:02:25Z,1,"Hey , truly glad for your all series . If possible  , please do make a course video on Pyspark .",True
+@ashishdeora8522,2020-08-29T18:00:31Z,12,Thank you Corey for this. My parents urged me to join your community. They are saying you are doing wonderful job. Thank you Corey for enabling us,True
+@KimJennie-fl3sg,2020-08-21T14:39:07Z,0,"This also work if we want to drop a column if 0 and 1 index have NaN df.dropna(axis='columns', how='any',  subset=[0, 1])",True
+@imdadood5705,2020-08-12T07:12:03Z,0,"If teaching is an art, you’d be a Corey Schafer... Oh wait...",True
+@danielmarx3106,2020-08-09T23:12:47Z,1,Why is NaN able to be converted to a float?,True
+@mohanroy1434,2020-08-06T04:37:29Z,0,This is pandas made easy,True
+@SamOween,2020-07-30T18:29:01Z,0,Your videos have an epic like/dislike ratio,True
+@kingjoshuamanatad2140,2020-07-29T12:26:55Z,0,"In 27:28 of the video. For a one liner code. df['YearsCode'].replace(['Less than 1 year','More than 50 years'],[0,51]), inplace=True). Correct me if I'm wrong I'm new to Python. But great video again Corey! Hats off!",True
+@nayeemuddinmoinuddin2186,2020-07-28T12:15:57Z,0,@Corey Schafer - Please do a video series on PySpark.,True
+@fatemehmojab5555,2020-07-27T07:10:52Z,1,"Hi Corey, and thank you for these great videos :) I got a question about that data types part. In the last video, we were able to calculate the median of salaries (after grouping the data). I checked that and saw the 'ConvertedComp' column's type is float, but a column like 'YearsCode' is an object. Is it because of those two strings in this column? Or is it something else that determines the type of these numerical columns?",True
+@kuls43,2020-07-20T18:13:27Z,6,"11:36 we can use    df.replace(['NA', 'Missing'], np.nan, inplace=True)     instead",True
+@dhanraj112,2020-07-16T16:37:18Z,3,is brilliant give certificates after completion of course?,True
+@jewel3761,2020-07-12T04:02:59Z,0,"since replace method is a string method, why wasn't dot str used to replace custom missing values with NaN?",True
+@minxxdia1132,2020-07-02T14:12:25Z,2,"wow, this is the best playlist for python pandas. thankyou so much!",True
+@samratsengupta8881,2020-07-01T07:20:32Z,2,"Thanks Corey, i have no words to say. As an inspiring data scientist, your pandas videos were really cool. I don't know if you will ever read this but this has helped and has put a smile on my 'confused about pandas' face. i have subscribed and will watch your videos for becoming a self taught data scientist. God Bless You",True
+@Shkkmj6868,2020-06-18T17:32:33Z,0,It's very  useful .You are great at articulating . Thank you so much .,True
+@nickt423,2020-06-16T23:14:06Z,0,Question @17:51.  So he's saying you can't convert a Nonetype to an int but you can convert a Nonetype to a float? I'm confused here. Can someone please clear this up for me? I didn't really understand Corey's explanation.,True
+@ADNANAHMED-eo5xx,2020-06-14T20:06:28Z,1,Thanx a lot,True
+@ADNANAHMED-eo5xx,2020-06-14T12:22:27Z,0,Please continue the series sir,True
+@jeetpatel6679,2020-06-02T10:02:46Z,0,how did you handle the none values,True
+@kaziinjamamulhoquegalib6948,2020-05-31T01:47:17Z,0,"Hello Corey!  I am facing this error after downloading Snippets.ipynb from this link http://bit.ly/Pandas-09 and trying to open in browser in jupyter notebook in linux -  Unreadable Notebook: /home/galib009/Documents/pandas_corey/9_Main_Snippets.ipynb NotJSONError(""Notebook does not appear to be JSON: u'\\n\\n\\n\\n\\n<!DOCTYPE html>\\n<html lang=..."",)  Do you have any idea how to solve this?",True
+@gauravmarwaha8466,2020-05-30T17:21:29Z,4,this series on pandas is the most complete and informative series ive found till date...!!!,True
+@gauravmarwaha8466,2020-05-30T17:20:51Z,1,good video again..!! thanks a lot,True
+@hlomphomota8055,2020-05-29T01:06:06Z,0,Can one make use of enums in this type of data?,True
+@SandeepPatel-qk5jc,2020-05-04T16:04:46Z,0,"Hi Carey, In the example codingyear where you replaced less than 1 year mand more than 50 year with nan. But if data is very large number of unique values and that are not of numeric type and its not possible to manually replace them.  In that case how to overcome the problem.",True
+@zixinlee2165,2020-04-29T13:09:40Z,2,Thank you so much for creating these videos!! They're really valuable for self-learners like me.,True
+@gagansoni9665,2020-04-19T18:43:29Z,3,i understand your pandas tutorials very clearly. this is helping me a lot. thank you so much corey. i wish to see your tutorials on machine learning using python.,True
+@TopicalAuthority,2020-04-18T11:07:02Z,1,Great lesson!,True
+@ConanNYC,2020-04-11T14:14:11Z,0,do you have any pyspark videos?,True
+@varunkrishnaKyathanpally,2020-04-08T16:23:02Z,0,"Thank you , excellent tutorial as always :)",True
+@darkmaraux,2020-04-07T20:34:57Z,0,This video was so smooth! Right in the point! Thanks!!!,True
+@aegystierone8505,2020-04-04T07:25:58Z,1,Please do a video about your visit to the Quantum Computing trip in Vancouver!,True
+@vipul8990,2020-03-30T16:46:20Z,0,"Hey Corey. Really appreciate you for making such great tutorials. I encountered an error while doing the snippets part at the very start. I added the age, NaN, np.nan and missing values. The Jupyter Notebook says ""ValueError: arrays must all be same length"". I checked twice but still getting the error.",True
+@juancarcelen3437,2020-03-19T16:26:13Z,2,"Hi Corey thank you so much for posting these videos. Your tutorials have helped me transition the concepts I know into actual useful code. I would like to test my progress and would really appreciate if you can put out a link with some data analysis projects (i.e. a database to download, questions to answer using data analysis, and the code that was written to answer those questions).  Thank you so much and keep the videos coming you're an amazing teacher!!",True
+@rockeyvalley,2020-03-16T03:54:50Z,1,Great stuff Corey!!! Keep up the good work!,True
+@harishrudroju1379,2020-03-16T00:41:01Z,1,"Hii corey, can u plz make a video on how to bypass captcha while scrapping a web site",True
+@SusanAmberBruce,2020-03-14T13:35:12Z,2,"Corey, do you happen to know what Linux distro's ship with python 3 currently?",True
+@Al-Ahdal,2020-03-13T10:55:33Z,2,"Boss, it is requested to kindly make videos on comprehensive data analysis series, covering all aspects in much detail, and covering all possible areas for data analysis. Your channel and vdos are awesome. Great work indeed...... 👍",True
+@ahammadshawki8,2020-03-12T15:34:48Z,130,Please make a playlist on numpy after pandas.,True
+@abhisheksaraswat6753,2020-03-10T15:10:59Z,0,Please upload videos on Numpy as as well.,True
+@aubreymmotong9550,2020-03-10T13:09:03Z,0,hi Corey i've leaned much from your tutorials and would like to say thank you so much. im currently working on something new and encountered a problem i still trying to figure out if you would kindly check the below link. Id appreciate some advice on  way forward from you or participants of the chanel https://mbientlab.com/community/discussion/3446/multiple-metamotionc-connection-error/p1?new=1 PLEASE CHECK  THE CODE RIGHT AT THE BOTTOM,True
+@bobsalita3417,2020-03-10T02:22:51Z,1,Can you use join() or merge() to do multiple replacements?,True
+@stayinawesum,2020-03-09T10:45:43Z,1,can you make video explaining: primitive data types vs data types vs adt vs data structure,True
+@andr101,2020-03-08T22:07:45Z,1,"great series, thanks!",True
+@md-ayaz,2020-03-08T16:23:09Z,0,@Corey Schafer Can you make video on getting started on Open Source Contribution?,True
+@quoit99training83,2020-03-07T21:48:16Z,0,"amazing series - hi Corey, how many PARTS u think will end up in this playlist? Thank you for helping the community :)",True
+@nathanthreeleaf4534,2020-03-05T01:29:14Z,0,"What would be the proper way to handle a data set that had bad column names? Say for example, using the read_csv method and the csv being read has column headers with spaces in them?",True
+@rauberhozenplotz7009,2020-03-04T08:23:15Z,1,Great content - great style of speaking and explaining - thank you!,True
+@neeraj1bh,2020-03-04T01:17:11Z,0,"Hi all, had  doubt whats the difference between (default=timezone.now) and (default=timezone.now()) It was in the Django series video 5.",True
+@davebeckham5429,2020-03-02T17:02:46Z,1,Many thanks for sharing excellent tutorials Corey.,True
+@FakeAccount,2020-03-02T03:41:36Z,2,"You're a legend, my guy.",True
+@andreykaok9497,2020-03-01T16:37:43Z,2,Brilliant tutorials on Pandas! Very much looking forward to the time series lessons.,True
+@ishanpand3y,2020-03-01T15:42:45Z,12,This is the most amazing series on Pandas ever. I just finished watching number 9th. Sir thank you so much providing such great content. 🧡🤍💚,True
+@teetanrobotics5363,2020-03-01T07:58:45Z,3,I love your tutorials. Could you also make tutorials for scipy and scikit learn?,True
+@nikhilb3880,2020-02-29T20:10:01Z,0,"I love this series man, more than you could expect.  If I may ask, what state and country are you from? Because I saw snow on your 2nd channel and now I'm confused about whether you live in the USA or in a European country.  Thanks again for this series",True
+@stilianstoilov3728,2020-02-28T06:40:18Z,0,One question: I have a bunch of  cells with 0 value in them. How to remove the zeros so the cell to be completelly empty?,True
+@ahammadshawki8,2020-02-28T01:28:30Z,0,how many videos will you upload in this pandas playlist?,True
+@codegeek8256,2020-02-27T19:44:25Z,2,"Hi @ Corey Schafer  I am very with your teachings, these are great building blocks towards data science, i hope one day we arrive there.",True
+@benhancock1541,2020-02-26T19:01:21Z,7,Thanks for this Corey - your tutorials are always great! I've been using pandas for almost 2 years and still learned stuff 👍,True
+@prasad1686,2020-02-26T17:28:22Z,2,"Hi Corey, your videos are ""the great"". I am beginner can you please tell me how to get ""cheet sheet"" or "".py scripts"" of your video playlist ""Python Tutorials"" ""1 to 136"", to speedup learning as  i am slow in typing. Thank you.",True
+@noureddineettayyeby5210,2020-02-26T11:44:09Z,2,Thank you,True
+@shivavijaya1537,2020-02-26T04:58:26Z,1,"Hi Corey, please post a video on python sys module",True
+@dragosmanailoiu9544,2020-02-26T00:20:37Z,0,hey corey are you doing this in the new pandas version?,True
+@mikkybricks,2020-02-25T19:16:38Z,2,Thanks Corey,True
+@abhishekgupta1060,2020-02-25T17:58:44Z,0,"Hi Corey, great video! Learned a lot! And have a Happy trip , and also I would like you to ask one question - ""Is time travel possible with Quantum computing as depicted in the movie 'Avengers:Endgame' "".",True
+@saqibhussain1354,2020-02-25T13:44:51Z,1,Great video - I wonder if you can do a few on the business side like freelancing and how to get clients as python developers?,True
+@marwanraheel1300,2020-02-25T11:09:16Z,1,A new site for profit with configuration  and immediate withdrawal Mar1btc.com,True
+@stressfreetrading1341,2020-02-25T10:58:37Z,1,Love the way u teach. thanks a lot... Love from India,True
+@zzzorgjanbatist564,2020-02-25T09:54:45Z,2,As usual Corey best of the best!!!,True
+@jonathanstudentkit,2020-02-24T17:33:06Z,0,you repeat yourself a bit too much imo,True
+@coreyms,2020-02-24T17:10:49Z,82,"Hey everyone. Hope you all had a great weekend! I will be traveling to Vancouver this week to visit a Quantum Computing company and learn more about the work they're doing, so I'm not sure when the next Pandas video will be ready for release. I will be working on it while I'm there, but I likely won't have it recorded and released until midway through next week. Let me know if anyone has any questions they would like me to ask them about Quantum Computing!",True
+@VikasGuptacherie,2020-02-24T16:43:34Z,1,Very helpful series with nice explanations !!!,True
+@arkahm,2020-02-24T16:16:49Z,1,Great video! How about a video in spitting data and passing the split into a function? That would be great!,True
+@corben3348,2020-02-24T15:47:52Z,37,Good teaching is an art... This playlist is so helpful ! Thank you for your work !,True
+@sayantanchakraborty75,2020-02-24T15:21:19Z,12,Best series on Python Pandas . Thank you so much Mate. Love from India <3,True
+@zahash1045,2020-02-24T15:00:39Z,0,https://pypi.org/project/dfcleaner/,True
+@OceanAlves23,2020-02-24T14:47:14Z,2,👏👍👍👍,True
+@ugandandev,2020-02-24T14:30:16Z,2,Thank you Corey again. My resume is getting more interesting everyday. Viva,True
+@saravanannatarajan6515,2020-02-24T14:24:09Z,62,Corey you're teaching is awesome!!! Much appreciated!!! Expecting series on Machine Learning/Deep Learning in the near future...,True
+@002_priyanshugoswami5,2020-02-24T14:20:23Z,3,love you coreyyyyy best channel,True
+@dadoll1660,2020-02-24T14:14:24Z,4,This is gold.,True
+@malikdiallo9976,2020-02-24T14:05:15Z,63,I like this series in pandas. thank you so much Corey.,True

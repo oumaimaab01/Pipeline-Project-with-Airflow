@@ -1,0 +1,63 @@
+author,updated_at,like_count,text,public
+@nadyamoscow2461,2021-10-06T01:37:58Z,1,"Many thanks for the fantastic course. I`m not sure but it feels like instead of catching the keys in dict by hand you could do:  labels = [abbv_dict[c] if c in abbv_dict else c for c in min_wage_corr.columns] bad = [s for s in labels if len(s) > 2] print(labels, bad, sep = '\n')   At least it worked for me (the basic data file has changed by now so there`s no FLSA ) #['AK', 'AR', 'CA', 'CO', 'CT', 'DE', 'DC', 'Guam', 'HI', 'ID', 'IN', 'KY', 'ME', 'MD', 'MA', 'MI', 'MN', 'NE', 'NV', 'NH', 'NJ', 'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SD', 'UT', 'VT', 'WA', 'WV', 'WI', 'WY'] #['Guam']   bad = {'Guam':'GU', 'AK': 'blue'} #  for instance there are more values  labels = [ labels[i] if labels[i] not in bad else bad[labels[i]]  for i in range(len(labels)) ] print(labels)  #['blue', 'AR', 'CA', 'CO', 'CT', 'DE', 'DC', 'GU', 'HI', 'ID', 'IN', 'KY', 'ME', 'MD', 'MA', 'MI', 'MN', 'NE', 'NV', 'NH', 'NJ', 'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SD', 'UT', 'VT', 'WA', 'WV', 'WI', 'WY']",True
+@ssmith7075,2021-08-17T15:14:18Z,0,"I came for the knowledge, but I stayed for the wholesome typos.",True
+@paulosergioschlogl9550,2021-08-03T18:33:56Z,0,Just for a note! Whats means that corr graphic 8),True
+@osman_gedik,2021-05-22T21:02:47Z,0,"If I do this:  abbv_dict = state_abbv[[""State/District""]].to_dict()  abbv_dict = abbv_dict[""Postal Code""] abbv_dict  I get the following error: KeyError: 'Postal Code'",True
+@osman_gedik,2021-05-22T20:24:12Z,0,you really have nice cups :D  Can you share a pic and show your cups? :D,True
+@259_parthpatidar9,2021-05-17T12:50:29Z,0,that is a big ass mug  😂,True
+@chaitanyasharma6270,2021-03-15T14:47:11Z,0,"the only problem i have is, i watch your pandas and matplotlib ancd machine learning with scikit learn tutorials all in like a week or 2, but now i feel like i have had way tooo much information feeding into my brain and its alllll a mess now",True
+@tunaozates,2021-02-06T22:50:00Z,1,"For some reason, index_col = 1 worked for me instead of index_col = 0. Otherwise I get numbers as dictionary keys.",True
+@KevinTempelx,2020-12-26T05:31:29Z,0,Thank you!,True
+@anandiborade6349,2020-11-13T10:02:54Z,0,please go to pythonprogramming.net-->-->Data Analysis it will help you a lot,True
+@laxmanbisht2638,2020-08-17T10:10:05Z,0,"I am getting the error ""<Figure size 360x360 with 0 Axes>"". And, saved figure is coming blank.",True
+@TheVijaySaravana,2020-08-02T08:15:47Z,2,"Fun tip:  Pause all sentdex videos at 0:01 -> You can see him making a judgemental ""ooooo"" face xD",True
+@alexelliott6283,2020-05-24T05:34:16Z,0,"Big fan, learning a ton from you. Quick question: your methods (such as .read_csv and _head() and .DataFrame() ) come up in blue for you but just in normal black text in my jupyter notebook... how can I change that?",True
+@llJoDall,2020-05-17T08:02:38Z,0,where the heck did you get all these mugs??? xD,True
+@lifeislarge,2020-05-03T13:30:29Z,0,Sir I'm trying matplot lib in pycharm but plot doesn't show up. What can be the issue?,True
+@sery152,2020-04-30T22:09:52Z,0,"Thanks sentdex! Can you or anyone explain this line: ""abbv_dict[c] for c in min_wage_corr.columns""? I can't see any shorhand for this anywhere. how com the abbv_dict[c] before the ""for loop"" is a correct syntax?",True
+@juniormoraba7465,2020-04-13T01:11:53Z,0,Where can i get this mugs ??,True
+@yashpandey350,2020-04-05T17:17:16Z,0,Link of the state abbreviations website: https://www.infoplease.com/us/postal-information/state-abbreviations-and-state-postal-codes,True
+@pranavsebastianlouis,2020-03-27T13:32:50Z,5,for that heatmap you could use seaborn. eg: import seaborn as s s.heatmap(min_wage_corr),True
+@michaelshoemaker5635,2020-02-24T21:51:36Z,0,"A bit confused with the lines ""labels = [abbv_dict[c] for c in min_wage_corr.columns]"" and ""labels = [c[:2] for c in min_wage_corr.columns]"" wish there was a bit more explanation with this, but I'll play with it until it makes sense.",True
+@oliviero1756,2019-11-19T22:29:37Z,2,"do we have a real reason to plot something still coding while we can use a software like Tableau, or Qilk (both have free versions) that are much more nice and explanatory (in my opinion)?",True
+@andyn6053,2019-11-18T00:54:11Z,1,"Nice material but you sometimes go a bit fast and do many steps at once. It would be great if you explained more step by step exactly what everything means. You also have a tendency to rush things in the end. Else, your videos are awesome. Keep it up man!",True
+@andyn6053,2019-11-18T00:46:09Z,0,What does this line do? What is c[:2] ?   labels = [c[:2] for c in min_wage_corr.columns],True
+@Projyots,2019-10-20T19:54:01Z,1,"Plot is loaded for only few columns in plt.show(), please suggest",True
+@philinnc,2019-10-01T21:32:02Z,0,"As one of the partners in the first law firm I worked for used to ask, ""But what does it all _mean_?""",True
+@harikrishnan-pp2un,2019-09-12T07:11:27Z,0,"I cannot install jupterlab because it says Could not find a version that satisfies the requirement jupiterlab , please help me out to solve this issue",True
+@ali51717,2019-08-24T17:04:13Z,0,"So, basically all your tutorials are like, jump and do it.",True
+@MegaTRIANGULUM,2019-07-24T02:40:27Z,2,Amazing stuff man!! Learned a lot :D Thank you so much!,True
+@hectoralarcon4888,2019-07-17T14:27:47Z,6,"You are so cool, this is like a mega tutorial while learning neat tricks. Real problem solving you got there my dude!",True
+@pythonocean7879,2019-07-09T16:35:41Z,0,plz do a series on seaborn,True
+@pythonocean7879,2019-07-09T16:34:33Z,1,"when did you made this series,i was searching alot for this but couldnt find any good material then just saw your series :D",True
+@ShaizeOn1,2019-06-15T19:40:27Z,0,"wow, i didnt know about *read_html* , i used *plt.xticks(rotation = 90)* in my code but yours is was cooler",True
+@Jakob6174,2019-05-31T16:22:31Z,0,"At what point should I opt for using 'to_pickle(), to_json()' or any of the other local storage methods?  Are they only used for extremely large databases or should I stick with 'to_csv()' for the sake of simplicity?",True
+@Mistercapi0,2019-05-28T18:24:28Z,1,"Great video, I also recommend to rotate x axis labels: ax1.set_xticklabels(labels, rotation=90)",True
+@afbdreds,2019-03-31T21:36:03Z,0,"2:20, My graph was different, y axis was ploting 1 2 3 4, I guess he kept some sort of index sort from the previous tutorial?",True
+@beansgoya,2019-03-14T20:35:22Z,0,Question - At 4:37 you said adD_subplot(111). What if you wanted a 12x12 at the 5th position?,True
+@beansgoya,2019-03-14T20:29:08Z,2,"for those who are using jupyter notebook: at 2:20, for you to show the graph, you need to just add   import matplotlib.pyplot as plt %matplotlib inline",True
+@oberoidhruv,2019-03-13T11:48:30Z,0,Is that the Not a Flamethrower flamethrower in the background?,True
+@yousufazad6914,2019-03-07T21:28:20Z,2,"yeah yeah yeah, Data Science is cool and all but how many weird cup you got?",True
+@chases4951,2019-03-05T01:30:14Z,31,"Quick jupyter tip for anyone: You can run commands in the notebook by starting your line with ""!"". You can even use python variables in the command.    Example:    path = 'data/minwage.csv'   !head {path}   or   !pip install matplotlib",True
+@pafnutiytheartist,2019-03-03T11:33:02Z,2,"I don't think that it would be a huge problem to access the website that denies bots in a tutorial as you a not actually causing any harm, but using a different website is a polite thing to do anyway",True
+@jay-hinddoston8364,2019-03-02T15:35:48Z,0,Yes we did it,True
+@jayanthmanklu8642,2019-03-01T14:52:31Z,0,"I created a kaggle kernel for videos 3 and 4 of this series https://www.kaggle.com/lookageek/following-sentdex-s-eda-video-series-2, anyone interested do fork it :)",True
+@SomeGuyInSandy,2019-03-01T00:58:21Z,0,"Can attest, coffee actually does taste better out of a sentdex coffee cup!",True
+@johnr2290,2019-02-28T21:20:34Z,34,"you're honestly a legend to me, I've learned so many cool python tricks from your videos. Gotta love a nice correlation matrix.",True
+@David-zg4sk,2019-02-28T19:47:09Z,2,"Nice tutorial @sentdex, thanks for sharing!. Just to let you know, there are some shortcuts that may help you. You can have the help of a function with Shift+Tab, so you can see all the arguments that you can pass to that function. Also Shift+enter, commit and creates a new row, so you don't need to create 10 rows in advance",True
+@TheBeastBony,2019-02-28T19:40:10Z,0,Hey! I love the video and follow it step by step but for some reason when I make the dictionary for the state labels the keys are just numbers from 0 to 50. How do I get the state names as keys?,True
+@RabeezRiaz,2019-02-28T18:36:16Z,4,"The text printed at 7:53 was the return value of set_xticklabels(), you can suppress it by using a semicolon at the end of that line (very un-pythhonic, I know :D) Also you can remove the plt.show() call by running `%matplotlib inline` in a cell somewhere before your plots.",True
+@RabeezRiaz,2019-02-28T18:32:59Z,1,"Hey Harrison. You could use the plt.subplots() function to generate the figure and the axes together, it's nrows and ncols arguments feel more easy to use in my experience than the 111/221 thing of add_subplots()",True
+@assida143,2019-02-28T17:14:06Z,0,"i need a OP for raspberrypi that u know %100 that u can ssH in to it my rasp3b,rasp0w i have 2-3b,5-0w and no vnc,or ssH is working did raspi-config",True
+@Bergerons_Review,2019-02-28T17:01:43Z,0,"Hi. I have a problem getting Jupiter to work with Sublime text 3. Anyone can help me out? I googled it, tried it failed. Please and thank you.",True
+@samha1513,2019-02-28T16:19:19Z,0,Awesome,True
+@thatsnasty5788,2019-02-28T14:32:30Z,0,Another awesome tutorial @sentdex just letting you know there is some overlapping on the x axis where 'DC' 'FLSA' 'GU' are. FLSA is too long maybe we could consider dropping that column entirely? if we're really nit picky. Have a great day!,True
+@ianault8599,2019-02-28T13:54:11Z,1,Why post so early in the morning? Not good for the algorithm lol.,True
+@myselfremade,2019-02-28T13:48:09Z,0,To early in the morning for this! Lol,True
+@michaelbaumgarn4733,2019-02-28T13:44:13Z,0,"nice, thank you for this helpful series! Its quite usefull",True
+@blueskies1254,2019-02-28T13:43:27Z,0,Zero,True
+@sufiyanpatel8106,2019-02-28T13:43:13Z,0,😍,True
+@mycreations3452,2019-02-28T13:42:36Z,0,Is it jupyter or something else..?,True
+@gautamj7450,2019-02-28T13:42:32Z,0,"Omg!!! I spent the last 8 hours learning the correlation plot, now you post this!! 🤣🤣🤣",True
+@sifiso5055,2019-02-28T13:42:17Z,1,@_NextElonMusk - Twitter page,True
+@sifiso5055,2019-02-28T13:41:47Z,0,First,True

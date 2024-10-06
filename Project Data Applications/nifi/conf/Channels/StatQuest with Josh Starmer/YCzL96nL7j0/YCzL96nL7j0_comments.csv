@@ -1,0 +1,501 @@
+author,updated_at,like_count,text,public
+@statquest,2022-11-07T15:07:44Z,34,"To learn more about Lightning: https://lightning.ai/ Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/ NOTE: Since LSTM is a type of neural network, we find the best Weights and Biases using backpropagation, just like for any other neural network. For more details on how backpropagation works, see: https://youtu.be/IN2XmBhILt4 https://youtu.be/iyn2zdALii8 and https://youtu.be/GKZoOHXGcLo The only difference with LSTMs is that you have to unroll them for all of your data first and then calculate the derivatives. In the example in this video, that means unrolling the LSTM 4 times (as seen at 17:49) and calculate the derivatives for each variable, starting at the output, for each copy and then add them together. ALSO NOTE: A lot of people ask why the predictions the LSTM makes for days other than day 5 are bad. The reason is that in order to illustrate how, exactly, an LSTM works, I had to use a simple example, and this simple example only works if it is trained to predict day 5 and only day 5.",True
+@BildadMoses,2024-05-31T08:51:11Z,0,"Hello again Josh, still following on your tutorial from the beginning of Neural Nets and another question popped up which I couldn't seem to find the answer. For company A, I noticed we a trend when we were trying to predict for day 5, we initialized the short and long term memory and then started plugging inputs which was values for previous days. In each timestamp we generated new short and long term memory, why were they inaccurate until day 5 when we wanted to predict and got the correct value from the output gate?",True
+@AmmarAhmedSiddiqui,2024-05-30T17:31:25Z,1,TNT Explosion BAM !!,True
+@adityasuryan37,2024-05-29T22:15:57Z,0,"Professor, I have a question: how do we update the embedding weights? Do we assign random weights then compute LSTM, compute Loss and backpropagate on Development set before we train on Train data set? And what about short-term memory weights do we do forward and backward passes separately?",True
+@enum4794,2024-05-27T07:17:18Z,0,"i wonder how will LSTM works with 20 units in this case, i hope u can explain it to me thankyou. Btw thanks for the great content!",True
+@KloiUA,2024-05-24T12:35:17Z,1,"Great video! It is super easy to watch and understand! Also, it would be really helpful if you made a video where you clearly explain the backpropagation in LSTM. Because there are almost no reliabile and understandable videos on this topic on youtube... Thank you!  Edit: just saw your pinned comment with all the stuff about backpropagation in LSTM, so thanks again :)",True
+@malakdb__,2024-05-24T09:10:48Z,1,THANK YOU SO VERY MUCH U SAVED MY LIFE,True
+@alinu0_x896,2024-05-24T07:42:02Z,0,isnt sigmoid 1/e^(x)+1,True
+@hafsiyoussef1613,2024-05-23T17:19:55Z,0,"can we input both companies' data, company A in sequence 1, company B in sequence 2 ? will this have any effects on the prediction ? what happens if we input 300 sequences of 300 different companies of different lengths ? I need the answer asap for my studies thank youu!",True
+@mostafakhalid8332,2024-05-22T17:50:45Z,0,Can LSTM be used for regression problems (prediction of  a continous variable)?,True
+@sanasaleh5532,2024-05-21T07:35:02Z,0,I can't find your video on GRU :(. Did I miss it or did you skip that?,True
+@manonarasimha3913,2024-05-20T15:10:31Z,1,You explain the concepts extremely well and in a simple manner! Thank you very much!,True
+@wcottee,2024-05-19T16:18:19Z,0,Another great video!! Is the output from the final long term memory path of any use or only the short term path?,True
+@amirgorodetsky2947,2024-05-15T17:17:37Z,0,"Amazing video, Thank you ! can I ask, How are the weights and biases being learnt in this example ?  Thank you 🙏",True
+@shaso3664,2024-05-07T15:21:03Z,1,"I understood it, thank you! Have a BAM",True
+@da0ud,2024-05-07T12:45:06Z,1,"Please fix the conclusion to : And the LSTM incorrectly predicted the stock price for tomorrow, as they always do.",True
+@crystalcleargirl07,2024-05-05T18:40:41Z,3,the first stage of LSTM unit determines what percentage of long term memory is remembered ... you are absolutely amazing!,True
+@sreerajnr689,2024-05-05T11:33:09Z,0,"In the above model, if you see, in the output gate, the weight value 4.38 is used to multiply the existing short term memory, added with weighted input, and passed through the sigmoid function to calculate next short term memory. In the next unroll the new short term memory is multiplied again by 4.38 to calculate next short term memory. Won't this lead to a vanishing/exploding gradient problem just like we saw in RNNs? (As the same weight value is used to multiply the short term memory again and again). Shouldn't we remove the effect of previous short term memory on new short term memory to avoid this problem? Or am I thinking the wrong way?",True
+@sreerajnr689,2024-05-04T07:56:37Z,0,"So, does that mean learning just a handful of weights and biases in this LSTM unit makes it capable of doing all these wonders we see? Or are there multiple LSTM units in a network (I find it unlikely)? Can you explain?",True
+@user-hc9ms8dn6b,2024-05-04T06:02:30Z,1,Amazing!!,True
+@GalaxyGuard2030,2024-05-03T02:43:26Z,1,Excellent,True
+@pramodchandra600,2024-05-01T09:49:10Z,0,how the weights are determined??,True
+@arkhahehe,2024-04-30T14:27:18Z,1,this video saved my life thank you,True
+@sohamborkar2117,2024-04-29T06:47:14Z,1,"It was the most easy explaination of LSTM ever, Thank You So Much...",True
+@IKS_Fox,2024-04-28T20:27:01Z,0,"This is great, but also unfortunate. I find it very hard to focus with all the extra distractions. I wish there were videos of this quality that were more concise and professional. Can someone recommend a channel?",True
+@jagadeesanrudrapathy9617,2024-04-25T03:56:31Z,1,"If there is a better word than Thanks, You have it man!",True
+@user-ml6hh4kf7u,2024-04-23T11:45:45Z,1,Just for introduction I put a LIKE😂,True
+@shamshersingh9680,2024-04-19T02:22:38Z,1,I also have one suggestion. Pse make some cool coffee mugs. I will surely buy them and they will sit proudly on my work-desk in office and at home.,True
+@shamshersingh9680,2024-04-19T02:20:51Z,1,"Thannnnnkkkkkksssss a lot Josh, this explanation has cleared my long-standing doubt about LSTMs. Although I have used it in many of my models but never knew whats happening underneath. I have a small question here. Why are we using tanh function for creating a long-term or short-term memory. The use of sigmoid for filter is clear as the output value ranges from 0 to 1 which makes for use as filter. But why the output value of -1 to 1 for tanh fn is used for creation of either long or short term memory. Which other activation functions could have been used here.",True
+@kamalmokhtar8789,2024-04-16T14:05:36Z,0,Thank you very much! Do you have in thought show how LSTM is trained?,True
+@tristankensinger2460,2024-04-16T01:55:40Z,1,"Please make a video on bidirectional RNNs and LSTMs, also a video on GRUs (Gated recurrent units) would be great too! Love your videos and diagrams, hard carrying my graduate degree :)",True
+@Thiiilo,2024-04-13T17:15:08Z,1,"I am working on my bachelor's thesis, for which I am trying to implement an LSTM model for anomaly detection for an IoT vehicle data project. I wanted to understand more of the math behind it, and the disclaimers about each video you would recommend watching before helped me keep everything in mind, even though most of the code won't be self-developed but merely adjusted for the use case. It's primarily based on previous literature... anyways, this overview certainly helped gain an overview :D",True
+@royalsrivastava2079,2024-04-11T12:02:46Z,1,badabap boom pow ....................................oHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!,True
+@clemmensenwilliamson6520,2024-04-09T17:55:33Z,1,Man!.. This video is awesome! .All of your videos are awesome! You are awesome!!!,True
+@sanasaleh2750,2024-04-09T17:26:17Z,1,Really grateful for your dedication..Perfect video like always..Yet I missed the last part in which you revise the whole concept,True
+@janeklebor2851,2024-04-08T13:48:36Z,0,bro it dora the explorer of recurrent networks,True
+@OliviaB-xu1vc,2024-04-05T04:32:17Z,0,"Thank you so much! I've really enjoyed your videos, and i've been learning so much! I'm still a little confused on the intuition behind long term (cell) and short-term (hidden) states and how having a long-term memory helps -- what intuitively is that ""long term"" memory storing?",True
+@yashtarphe496,2024-04-04T16:48:31Z,1,Song name at the beginning?,True
+@_sogar,2024-04-04T10:53:31Z,0,"This was a great video to give a basic understanding about LSTMs! I have a question tho: When you showed the predictions aka the new short term memory for the next day for company A, how come the values differ so much for day 4. I understand that the result would be inaccurate for early days, so I won't compare them. But for day 4, the prediction came out to be -0.2 while the actual value was 1.",True
+@yousufahmed985,2024-04-01T20:09:42Z,1,HOLY SMOKES the concept is now crystal clear 🔥🔥🔥🔥🔥,True
+@tinos0330,2024-04-01T09:42:06Z,1,so complexed. infinite bam!💥,True
+@fieryflowers,2024-03-27T19:15:48Z,1,BDAMN!,True
+@miguelpereira9095,2024-03-26T16:59:48Z,0,"Great explanation. I just have a couple of questions:  1 - From what I understood from the video the number of lstm units must be equal to the sequence length but in some architectures this does not happen. How is the mapping done in this cases? 2 - In  more complex NN where there are multiple lstm layers followed by dense layers, how is the data flow if lstm layers have different number of units?  Thank you for the amazing videos",True
+@umang9997,2024-03-24T08:27:42Z,0,"At 17:52, The o/p of Final Short term Memory is taken as the prediction for Day 5. And its the correct prediction i.e. 0  But what about the o/p of Short term memory after feeding the i/p value for day 1 i.e. -0.1? Would that be considered as prediction for day 2?",True
+@viratzz,2024-03-24T06:55:36Z,1,Truly a magical way of explaining such complex topics!,True
+@ViniciusBarcelos-gk5bj,2024-03-23T20:00:33Z,0,"Hi, thank you for the video! Could make a video about the architecture of the LSTM ? There is a lot of confusion about cells and units and layers, and how this hidden state pass to another layer.",True
+@daquann1473,2024-03-23T13:02:48Z,0,"When calculating the y values of the sigmoid activation function for the forget gate 7:47 and the input gate 11:40 you gave the values f(5.95)=0.997 and f(4.27)=1. This seems to be a rounding error, as the y value for 4.27 should be around 0.986.  Edit: Really enjoyed the video though, I liked how you explained the function of each gate with different numerical values.",True
+@oweesrashid4166,2024-03-20T08:37:36Z,1,Thank You very much...,True
+@pedrohenriqueborghi1279,2024-03-18T14:40:38Z,0,"Hi! Thank you for the great content! Could you tell me something about the LSTM training phase? For example, how the weights and biases are updated along the samples?  I know is something like Gradient Descent modified...",True
+@JashDoshi,2024-03-17T07:14:49Z,0,you didnt cover the vanishing problem in lstm?,True
+@orlandopalmeira623,2024-03-16T15:57:59Z,0,"Hello, first of all I want to thank you for making these types of videos available. The explanations are excellent.  Secondly, I wanted to ask a question. In this video, the previous short-term memory and the input are combined through a sum (at the forget gate). However, I have seen other content where a sum is not done, but rather a concatenation. Could you explain, please?",True
+@r0cketRacoon,2024-03-15T06:51:54Z,0,why use tanh to caculate the long/short-term memory? I understand we use sigmoid like a gauge to measure the percentage of memory (0 to 1) that should be remember. But I dont understand why we use tanh without considering other activation functions?,True
+@kfukutom,2024-03-15T04:22:24Z,1,Thank you for this.,True
+@JasonPien917,2024-03-14T19:29:17Z,1,phenomenal,True
+@yoshidasan4780,2024-03-13T04:45:36Z,0,"Josh,does the potential long term memory works as a bias to the long term memory? can you please tell the difference between long term memory and the potential long term memory? Thanks!!",True
+@zeyuchen5745,2024-03-11T05:41:21Z,1,Thanks!,True
+@technologic4575,2024-03-09T18:28:07Z,0,"hi do you have video about Gated Recurrent Units and how they compare to LSTM? thank you, I have this problem I want to solve and I am new to data science and just searching topics that would help solve my problem and instead of learning everything about data science i try to focus on topics that is related to the solution that i am working on and start from there. your videos are very helpful thank you very much",True
+@BigAsciiHappyStar,2024-03-07T06:07:25Z,0,and I thought my singing was bad ...,True
+@kandrapraveen6000,2024-03-05T01:19:05Z,0,"First of all I really appreciate your work and the way you replied every comment   In forecasting we are predicting the nxt elements let say, for the company A we are 4 element from previous 3 elements. And (2,3,4) will be used to predict the 5th element right? In that case what if there is some error in predicting 4th element. Then the whole forecasting goes wrong",True
+@lifeisbeautifu1,2024-03-02T06:12:30Z,1,Thank you!,True
+@harshith_takkala,2024-02-25T11:25:33Z,1,Awesome !. The LSTM node has predefined weight and bias values ? How are these initialized? and will they update as the training goes on .. Thanks for that!,True
+@xiaoHuanyu1027,2024-02-23T11:34:02Z,1,"i think this is the most clear explanation of LSTM i've ever seen. i've watched many other videos that teaches LSTM, but none of them made me feel so clear about this thing!",True
+@gloriasegurini3957,2024-02-22T10:41:31Z,1,I'm currently studying for my NLP exam. Sending all my gratitude from Italy for such a clear and in-depth explanation.,True
+@rizkipermala8121,2024-02-22T10:39:06Z,0,"Very good video, structured and easy to understand. But I have a question regarding weighting (w) , how do I calculate the weight? thank you very much Mr. Josh Starmer!",True
+@mrunalkarnik3987,2024-02-21T21:05:54Z,0,"Just 1 Question sir , how do you decide the weights ? how do we get to know the weights ?",True
+@amaurylaperche3993,2024-02-21T16:51:24Z,0,How are the weights and biasis calculated ?,True
+@hivusim,2024-02-20T11:04:37Z,1,😍Thanks!,True
+@MrRafaelFioretti,2024-02-18T17:50:49Z,1,"Thanks for sharing such great content!!! I bought your book and it is outstanding. Looking forward to seeing one video related to Gated Recurrent Unit too, it would be triple Bam :) !! Thanks Josh!!",True
+@miladafrasiabi5499,2024-02-17T05:46:58Z,0,"Thanks for the great video. I have a question. How does vanishing/exploding gradient is not an issue for the short term memory here? SM is under direct influence of weights as mentioned in the video. Also, in case of the LM, although it's not under direct influence of the weights, but it is indirectly by input and SM. How does large or small numbers don't find their way into the gradient here? Thanks",True
+@boondirekk.4589,2024-02-16T14:06:08Z,0,"Thank you for this amazing content! I was having such a hard time understanding about LSTM in my deep learning class!  I have one question from the video though: Are the weights and biases in the example in ""LSTM in action with real data"" section computed by training the model with the data beforehand? The model seems to be predicting the output perfectly in the example.  Thank you very much!",True
+@christosmaroulis132,2024-02-15T04:10:35Z,0,"I have the following two questions on your Company A and Company B stock example: 1) Are we feeding in the Company A and B data into the LSTM as panel timeseries/longitudinal data, or 2) Say we write our code in a Jupyter Notebook; would we i) Run the LSTM on the Company A data, ii) Refresh our kernel, and iii) Run the LSTM on the Company B data?",True
+@amyma2204,2024-02-14T15:56:59Z,0,"I love the video, but I have to say it's not accurate to say that LSTM has long term vs. short term memory, because it doesn't have long term memory. It's called Long short-term memory, because it contains relative long short-term memory. In the other words, even though those memories lasts longer, they are still short-term memories.",True
+@musabbinumairr,2024-02-13T12:20:22Z,1,Thanks alot,True
+@cavalex,2024-02-11T15:26:03Z,0,"Great video and excellent explanation! I have a question though, let's say the problem is much more complex (like predicting stock values for a year) and our network can't correctly predict the results, would it be possible to add more long term memory paths? For example, one that's more focused on the last 5 inputs/days, for example, and another that takes into account the first input/day? Or even use various LSTM networks together where the last one uses the data from the previous one, and so on?",True
+@user-hf3fu2xt2j,2024-02-11T06:41:51Z,0,cringe,True
+@shahriyarharis6752,2024-02-08T15:30:45Z,1,"I seldom comment on videos, but credit lies where it's due. Hands down the best video on LSTM I have watched",True
+@user-im4vl3ko5h,2024-02-08T13:49:45Z,1,Wow! These videos are absolutely incredible! What a presentation!,True
+@amitpraseed,2024-02-08T00:04:03Z,1,"Are these topics covered in ""The StatQuest Illustrated Guide to Machine Learning""? The video is hands down the BEST explanation of LSTM I have seen anywhere!!!",True
+@diasposangare1154,2024-02-07T20:13:11Z,1,i really understand LSTM now thank you sir,True
+@plafle-zi7mi,2024-02-07T12:36:02Z,3,"Thanks so much! It is really the best tutorial! However, I do have a tiny problem. I really appreciate it if you could give me some help. In 18:00, when using LSTM to predict company A, you said that the final short-term memory represents the predicted price on day 5. So, when you input the price on day 3 (which is 0.25), the short-term memory (which is -0.2) should represent the predicted price on day 4. However, the real price on day 4 is 1. There seems to be some problems.",True
+@johnny10000,2024-02-06T05:05:33Z,0,"In tensorflow Keras LSTM layer definition we also have “features” as input: 3D tensor, with shape (batch, timesteps, feature). So how features comes to the above explanation?",True
+@user-zg8em8ql3e,2024-02-04T15:52:06Z,1,"probably the best explaination of fLSTM out on internet, even compared to Andrew NG this is better",True
+@matthewhurin945,2024-02-03T20:13:46Z,0,"Damn, company A really do be part of a pump and dump.",True
+@timeleap9525,2024-02-01T17:43:02Z,0,"How do you find the weights? Let's say will the result alter if we use different weights? I'm also confused by how can this process gives the accurate result, as there is a sharp drop in day 5 (Company A)? Or is it just a showcase, and the accuracy can be improved with larger dataset?",True
+@jff711,2024-01-31T12:37:37Z,1,"Thank you for the clear explanation. One question, at timestamp 19:20, considering the LSTM related to company B, if the final updated short-term memory i.e. 1.0 corresponds to the predicted value for day 5 (which aligns with the related y-axis value in the diagram), why isn't the 0.6 short term memory value in the middles of LSTM the same as the corresponding y value in the diagram (in the diagram it seems to roughly equal to 0.3)? Is the diagram just a rough approximated presentation?",True
+@aishwaryaajaykumar3919,2024-01-30T21:13:48Z,0,What is the 1.63 in the grey line?,True
+@cem9927,2024-01-30T10:09:28Z,0,so it is basically predicting the stock market value by both looking at the hourly chart trend (short memory) and daily chart (long term memory) and takes the input as the current value at the moment :),True
+@juliank7408,2024-01-29T12:28:40Z,1,"Thank you very much! Complex, but clear I think I will need to rewatch your videos to really understand and remember",True
+@grafknusprig6775,2024-01-27T17:23:47Z,0,"At 11:46, how do you get 1.0 out of the sigmoid? Isn't it 0.986. Or do I miss out on something?",True
+@mohd.farhanhassan4765,2024-01-26T17:22:42Z,0,I dont get what's the significance of the long term memory value of 2.4 at the end of the second example,True
+@avivjan3402,2024-01-25T22:18:42Z,0,I used to admire statquest until this video😭 The whole vision of LSTM in this video is wrong!  There is only one memory path in LSTM although the name may suggest otherwise.  (In fact the name comes from psychological term named short term memory) Statquest I know that you know what you’re doing please delete this video and change it appropriately.,True
+@brentstorck3589,2024-01-24T21:07:12Z,0,"This is amazing, thank you! 🙏🏻   Does your book go over how to add more features to the network (such as trading volume, sentiment, etc)?",True
+@rx2191,2024-01-22T11:53:24Z,1,AI companies going to show his videos to train the transformers on how it's done ;P,True
+@YuDou-so8pk,2024-01-20T12:52:23Z,0,this is the best video that explained LSTM,True
+@keith3989,2024-01-19T19:45:48Z,0,"Hi Josh.  My question relates to the 18 min mark when the complete 4 unrolled LSTMs for predicting the stock price on Day 5 for company A gave the correct prediction of 0.  I understand the process but here is my problem. Just as the updated short-term memory  from the 4th unrolled LSTM gave the correct prediction of 0 for Day 5, doesn't this mean that the updated short-term memory from the 3rd LSTM gave  a wrong prediction of -0.2 for Day 4's stock price of 1.  Similarly, the updated short-term memories of the 2nd and 1st unrolled LSTMs gave wrong stock price predictions for Days 3 and 2, respectively?  Have I misunderstood something?  Thanks.",True
+@utkarshujwal3286,2024-01-19T06:04:21Z,0,"Dr. Starmer I had a doubt even though the architecture looks very promising, but I am getting this intuition that it would be able to handle vanishing gradient problem better than exploding gradient because we are still adding  and multiplying the long term memory states at various stages , couldnt this result in a big value for  the gradients ?",True
+@Itachi-uchihaeterno,2024-01-19T02:40:35Z,0,"When You make videos about Autoencoders , Gans and   Moe ( Mixture of experts ) , please You make those videos",True
+@user-xk8zu3jb2z,2024-01-15T14:23:52Z,1,Amazing explanation. It just cannot be better.,True
+@brentcos9370,2024-01-14T21:40:55Z,1,"Dr. Starmer, you're a rockstar! Your videos are a life-saver. I use your videos as supplementary training as I go through other ML/DL/AI courses. The visualizations are amazing and your explanations are equally amazing. 😎👊",True
+@amitmca1984,2024-01-13T19:54:49Z,1,Thanks for easy explanation of this complicated topics  :)...you are superb👍,True
+@hey-its-me239,2024-01-12T08:04:43Z,1,Thank you so much for your videos! I never knew my brain could handle such THE COMPLICATED CONCEPTS! TRIPLE BAM!!!!!!!!! 🥰😍🤩,True
+@SirSnowman,2024-01-10T09:44:16Z,0,"Is the LSTM able to process 2 or more inputs and 2 or more hidden layers? For example: Predict the volume of rain from day to day dataset of temperature, atmospheric pressure and maybe the humidity. I hope you can help :) Whats in my mind so far: A RNN is a single input, single hidden neuron, single output Neuronal Network which its output is not used, but the weights and biases affect the next loop. This means, a RNN could habe 3 inputs, 2 hidden layer and 2 outputs? They are just connected by the feedbackloop? In addition, a LSTM could also be a ""tiny NN"" with 3 inputs, 2 hidden layers and 2 outputs, connected through the LSTM Units?  Its hard to wrap my head around it, but I am glad, that I found your channel :D",True
+@mingjiazhu5559,2024-01-08T06:11:45Z,1,Super clear explanation. Many thanks!!,True
+@mingjiazhu5559,2024-01-08T06:09:14Z,1,Thanks!,True
+@tsunningwah3471,2024-01-05T15:23:45Z,1,greattt,True
+@jamesrobisnon9165,2024-01-04T12:39:28Z,0,Thank you for this great video. I did not understand how the training happens. In the example you gave at the end of the video (the stock prices) you did the prediction right away. But how the model was trained to be able to give you this predictions?,True
+@dikshantgupta5539,2024-01-04T12:16:16Z,4,I have never fully understood the working of LSTM and tried many blogs and videos on it until I watched your video. This is by far the best explanation on LSTM I have seen on internet. Thank you so much for putting so much of hard work in creating these types of videos.,True
+@Nana-wu6fb,2024-01-03T15:02:50Z,1,Thanks!,True
+@meow-mi333,2024-01-03T08:18:47Z,0,I don’t understand the examples at last. Presumably if you have a third line same as the first line except one data point in day 5. Value = 0.5 on day 5. Wouldn’t it fail the prediction?,True
+@skarsnik,2023-12-29T17:27:28Z,1,How the hell do you reply to everyone,True
+@AdventureRyan-ux8yd,2023-12-29T09:50:09Z,1,I love your videos very very much. And I am greatly grateful for your video. I would like to ask how you made these videos .Is this made using PowerPoint? Thank you .,True
+@charlesgao,2023-12-28T17:20:30Z,0,"qq -- At 16:50, why do we have to use the same weights and bias for day2? What does it really mean by ""it can handle the data sequences of different length""? Checked the linked video but still couldn't figure out why. TIA!",True
+@tazanteflight8670,2023-12-28T05:53:03Z,0,"You should make a bam free version,... for adults....",True
+@tej5349,2023-12-27T06:39:57Z,0,Gated Recurrent Units pleaseeee,True
+@ChathurangiShyalika,2023-12-26T16:18:33Z,0,"Thank you for the awesome videos. I tried the nn.LSTM code for a dataset that has two variables (which is same as company A and company B in your case) The dataset has ten rows. I wanted to forecast the 11th row. As the output for both of the variables I end up getting same tensor value. Any idea on what I have missed and how to improve the results? Thank you  The inputs tensor, label tensor, output tensor are as follows.  Inputs: tensor([[ 1431,  1424,  1483,  ...,  1432,  1334,  1413],         [11574, 11613, 11671,  ..., 11597, 11628, 11644]]) Label(11th row values):     tensor([ 1472, 11602]) Output:   tensor([5893.2, 5893.2])",True
+@nishanthduvva6961,2023-12-22T11:21:51Z,0,"Hi, I've been following your backpropagation videos, and they've been super helpful. I have a question that might seem a bit basic, but its been on my mind. In those videos, you explained how we update weights by considering all inputs at once. Now, I understand that in CNNs, convolution helps manage the high number of inputs by reducing layers. That got me thinking about LSTMs. Given the potentially huge number of inputs in sequential data, how does the training process differ for LSTMs? I'd love to get a clearer picture of how LSTMs handle this. Thanks in advance for shedding some light on this. 🙂",True
+@swapnilkapse5928,2023-12-22T10:28:18Z,0,Your teaching method is great and thank you for your videos. Just had one doubt on 17:40 if we were asked for day 3 then lstm would have given us wrong output correct? or would weights and biases change accordingly and if so how it will know value for day 3 as it is an unseen data. Thank you in advance.,True
+@krishnaayubferryan2196,2023-12-19T08:49:48Z,0,"greeting sir,  i'm so amaze with your works, it's so easy to understand!  currently i am doing my bachelor thesis. i have a question, how the lstm works in multivariate model? mine is predicting close price of stock, using input value of open, high, and low price.  best regards!   sorry for my bad english",True
+@felipeazank3134,2023-12-13T23:08:51Z,4,"This weekend I'll try going to church to thank god for your existence Josh, seriously",True
+@albinthomas7072,2023-12-13T08:38:36Z,0,"The vanishing/exploding gradient problem occurs if you take a weight that is above 1 or below 1 right? why not then take a value close to 1, shouldn't that solve that problem?",True
+@wishswiss,2023-12-12T23:04:49Z,0,awesome!! i couldnt find back prop tt in rnn. will you add? thanks!,True
+@farhad6261,2023-12-11T19:15:30Z,0,I wish you would discuss about hyper parameters and their role. I really enjoy your way of speaking. You are so great,True
+@huynhduyphuong7787,2023-12-07T02:11:15Z,0,"I have a quetion, could you explain for me?? In this example, the input is scalar, but I wonder that how about if input is vector, i.e the object has multi feature?? Thanks",True
+@iurgnail,2023-12-03T05:29:08Z,1,i dont really understand how were the ideal weights and bias obtained. refresh/ elaborate?,True
+@yashsonune4391,2023-12-01T03:30:05Z,3,Can't thank you enough! the dedication you put in this video is amazing. You are my guru (or shall I call it Yoda).,True
+@DavidWalker-ko6po,2023-11-28T07:03:09Z,3,An exceptional explanation! I finally understand LSTMs after 6 months of trying to get my head around them! Thank you so much.,True
+@lancezhang892,2023-11-27T09:45:40Z,1,"Finally, I understand the mechanism. Thanks, Josh!",True
+@jenilsaliya3769,2023-11-27T08:53:42Z,1,nice explanation sir . can you just make video on lstm backpropagation . because the way you are teaching is a fantastic and mind blowing.,True
+@danielhormos4928,2023-11-23T08:24:39Z,2,Ur a g,True
+@Rien_Que_La_Verite,2023-11-23T07:49:23Z,1,This is good ! Thank you for your pedagogy,True
+@owenlu8921,2023-11-20T21:09:41Z,1,"What seems interesting to me here is that the term ""memory"" in this context refers to the tracking of short term and ""long term"" states inside the unit itself. When completing the calculation of one unit to produce two steps at (t+1) you need not remember any information from step (t).  This seems pretty cool, since it gives the property that, if you have the short memory, the long memory, and the input, you could theoretically start anywhere in the sequence and get the same prediction at the end. Is this a property that is designed on purpose? Although I suppose you'd never know what the states of the LT and ST values were supposed to be and probably would initialize at 0.",True
+@ouedraogoamisamyra2799,2023-11-18T20:27:53Z,1,"clear and straight explanation. So far, this is the best explanation I have seen. Is a video clearly explaining GRU (Gated Recurrent Unit) concepts?",True
+@marisa4942,2023-11-17T08:26:02Z,0,Thank you so much for continuing to upload videos on this machine learning topic!! Your videos has saved my grade a year ago and now it has helped my team members understand the concept very easily!,True
+@kisholoymukherjee,2023-11-16T21:49:25Z,0,"Amazing. Even for a non-data scientist like me, this was so clear. When can we get an updated version of your book with these advanced algorithms",True
+@svenstehle9438,2023-11-16T12:48:40Z,0,"Hey Josh, awesome videos about NNs. Love the series, clearly explained and great intuition. One small nitpicky thing: at 11:42, your sigmoid seems to be off. When plugging in 4.27 into the sigmoid, I get 0.986 - which means 98.6% of the PLTM is retained instead of 100%. We thus only add  0.986... * 0.97 =  0.9566 to the total LTM.",True
+@sushi2721,2023-11-11T05:56:55Z,0,How was the LSTM able to predict the company A and B stock prices? I understand the whole architecture of LSTM and the math behind the operations. But I can't seem to wrap my head around how it takes four arbitrary values and correctly predicts the final output which has only one other occurrence in the data. Maybe I need to understand the underlying math even more. Great video though. Love the explanations.,True
+@matthewjackson9274,2023-11-09T15:13:37Z,1,triple BAM!!! 😄,True
+@adityarajora7219,2023-11-05T12:55:52Z,2,I have no clue why on earth such content is FREE!,True
+@sanjaybhatikar,2023-10-29T16:53:38Z,0,How do you train the weights?,True
+@testtest.,2023-10-27T16:18:28Z,0,"Hello thank you very much for this video!  In your example you used a one dimensional sequence of values. Would multidimensional inputs / values (like 5 stock prices over time) work in the same way?   I am not sure but could imagine that as the input is a vector now the ""state"" is also a vector and every parameter in the LSTM cell too.  Furthermore, one can set an ""LSTM Layer"" with multiple ""units"". Are those units individual LSTM cell chains as you described in your video then?  Thank you in Advance",True
+@user-ij6dr7jz5n,2023-10-26T15:05:51Z,1,"nice, thank!🥲",True
+@rhysm8167,2023-10-25T09:33:19Z,1,Brilliant. Thanks so much.,True
+@puneetkataria,2023-10-24T11:34:40Z,0,Understood how Ostmark works but how it solves the gradient problem was not explained,True
+@jimss596840,2023-10-24T08:36:38Z,0,"Thank you for the great video! Forgive me if I missed it in the video, I wonder how do the weights and bias are determined for LSTM? I'm assuming there are some kind of back propagation mechanisms that minimize the loss function just like in the feedforward neural network?",True
+@user-bj2qc6gg7g,2023-10-24T08:03:32Z,1,Thanks for this video.Very Clear!,True
+@vrajmalvi7194,2023-10-23T20:28:49Z,1,"best explanation ever, i can't express how glad I am to found this channel. 100% better than the paid course I am doing right now. Thank you :).",True
+@achyuthvishwamithra,2023-10-23T20:23:31Z,0,Can the input be a vector of different features of a dataset?,True
+@engthanoon3889,2023-10-23T07:54:43Z,1,nice explained,True
+@dillonmrose,2023-10-18T03:41:35Z,0,Is the model failing to predict the exact price on days 2-4? It seems like that would be the case for the examples given.,True
+@heteromodal,2023-10-17T13:46:08Z,0,"Hey Josh and thank you for another amazing tutorial! I didn't quite understand though how LSTMs avoid the vanishing gradient problem - there are still many weights in the short term memory path that are repeating when unrolling the LSTM and they surely need to be taken into account when computing the gradient using backpropagation, no? What am I missing? :(",True
+@Moatssim,2023-10-14T14:27:40Z,1,Thanks,True
+@rahultivarekar6768,2023-10-14T03:47:48Z,1,Thank you once again for a wonderful knowledge sharing and presentation. 🙂 TRIPLE BAM!!!,True
+@user-qu9qj2ox2w,2023-10-12T02:41:01Z,0,"Sir, thank you for the wonderful explanation! Has been following your Neural Networks playlist quests these past weeks to reach Encoder Decoder part and as a complete beginner in the topic I love how it connect with each other!  I have several question regarding how LSTM use in prediction: 1. does LSTM can only predict on the last unit? Because seeing the example in 17:56, the only correct prediction is on the last unit (Day 4 to predict Day 5) while the others are not correct like the output from Day 1 to predict Day 2 is -0.1 while the observed value is around 0.5  2. What would happen if I want to predict Day 6? Do I have tune the weight for the whole previous Day 1-5 again? The reason I was thinking that is because seeing the example in 17:56, from my current understanding if we continue to Day 6 using the same unit with the same weight, it will give the same output as from Initial to predict Day 2 (same LTM, same STM, same Input)  3. From my current understanding, due to Tanh Activation function the New STM / Real Output would only range in (-1,1). What should we do if we want to train a model that predict outside this value? do we have to do some preprocessing like normalization?",True
+@pepa-ii9kk,2023-10-11T08:45:18Z,0,Thanks for nice explanation. How do we train in this type of architecture compared to standard feedforward networks?,True
+@abrahamodunusi178,2023-10-08T18:39:59Z,1,Just wonderful. I feel like kissing you 😘  Perfectly explained,True
+@ningfan6313,2023-10-05T18:14:43Z,0,"Hi Josh, I was new beginner, I have a question about the LSTM. In the video, you said the final short term memory is the predicted result, but how about the result predicted by the long term memory? Is the long term memory prediction useless? Thank you for making such an amazing video.",True
+@nmfhlbj,2023-10-01T10:03:21Z,0,"hey josh ! im a mathematics student and super new to this lstm methods, i chose this method for my thesis and i watch ur videos for me to learn the basic of lstm.. it really helps !  but sorry, i want to ask something that i still havent really understand about the final output from the ""updated long term memory"" and ""updated short term memory"", so we just chose the final value for prediction using the updated short term memory? so what does the final updated long term memory value for?  thankyou so much !",True
+@PatinyaBie,2023-09-28T08:53:33Z,1,Very very useful. Thanks,True
+@ranjitgopi7519,2023-09-28T06:06:40Z,15,Thanks StatQuest for everything!,True
+@Tristan87688,2023-09-26T15:29:49Z,0,Amazing slides and crystal clear explanation. Would you create a version which doesn’t include these retarded shit that you are interjecting.,True
+@qili9487,2023-09-26T04:09:54Z,1,Crystal Clear. You're genius!,True
+@aleksszukovskis2074,2023-09-24T16:27:46Z,2,congrats on 1M subscribers,True
+@Alex_de_Souza1981,2023-09-24T16:20:16Z,1,"Thank you pal, video helps.",True
+@tangt304,2023-09-24T13:28:28Z,0,Great video! Can we know why LSTM can avoid gradient explode/vanish issues? Thanks!,True
+@Majitsu,2023-09-23T20:11:37Z,0,how are the weights and biases trained in LSTM?,True
+@caiyu538,2023-09-23T01:49:14Z,0,A lot of YouTuber lectures are better in teaching than that in university because they really like it.,True
+@jarsal_firahel,2023-09-20T10:24:56Z,1,"Amazing vi... I mean, SUPERBAM ! (the superhero of bams)",True
+@minerodo,2023-09-17T14:13:20Z,1,You are the best explaining! Thanks!,True
+@duongtran320,2023-09-16T16:09:27Z,1,"Dear Mr Josh Starmer, I'm a beginner in this field, I wonder how I can get exact the biases and weights to make my LSTM work efficiently?",True
+@Murattheoz,2023-09-15T10:11:51Z,1,"Your videos always puts a smile on my face, while learning.",True
+@abdullahkaraagac3815,2023-09-14T01:43:18Z,1,It is a great video. Thank you. Maybe you should also add how weights and biases upgrade by using backpropagation in lstm. It seem quite complicated in coding.,True
+@user-bv8jd9xz3s,2023-09-13T17:41:43Z,4,"I read and watched various articles and videos about LSTM, but none of them explained as well and simply as you. I learned a lot from your video and I am indebted to you. Thank you for taking the time to make this video. I hope you are always healthy and happy. BAM :)",True
+@alexm2716,2023-09-11T02:47:02Z,0,"In this video, all of the example numbers are scalars. How do they handle vector data as inputs? For example if I'm using an LSTM on text data and each word has a vector embedding.",True
+@ermorelife1401,2023-09-07T13:41:11Z,0,"I didn't understand I thing, what if we would stop on day 3 , and would try to predict day 4. Our 3 node lstm will give us the wrong answer 😢. Maybe we must train it one more time for new weights and biasis to predict day 4?",True
+@rizkamilandgamilenio9806,2023-09-07T08:17:18Z,0,"Great explanation! How about backward propagation process?, in this video you only show the forward propagation",True
+@auridiamondiferous,2023-09-07T04:32:56Z,0,most stoopid BAM etc voices... prefer other channels,True
+@sinsudaR,2023-09-05T09:39:35Z,2,Super thanks! BAMM,True
+@alexuqt,2023-09-01T10:43:23Z,1,wow i can finally understand this,True
+@jamemamjame,2023-08-30T18:34:25Z,1,Thanks!,True
+@jamemamjame,2023-08-30T18:04:34Z,1,The best ML teacher in the world?,True
+@tertiusmoyo4740,2023-08-29T23:53:45Z,1,lovely,True
+@shaypeleg7812,2023-08-29T07:08:24Z,0,"Hi Josh,  Love your videos, they are so helpful during my quest for ML - AI knowledge. I have a noob question.  We use the last short-term memory as the prediction value. i.e. After feeding Days 1-3 values into the LSTM, the final result is: LSTM(Day4).short-term => Day5 value  Shouldn't each previously calculated short-term value be closer to the following day's value? e.g.  LSTM(Day2).short-term => closer to Day3 value LSTM(Day3).short-term => closer to Day4 value etc... Thanks",True
+@minhbuuluc6040,2023-08-28T15:20:35Z,0,"i see that pytorch's lstm has a parameter called hidden_size. could you please explain what is hidden_size, hidden_state and neurons in lstm deeper? thank you very much",True
+@anaconde7882,2023-08-27T17:05:50Z,0,Hate it when he says kabom.,True
+@drramasubramaniam6724,2023-08-27T01:11:45Z,2,Excellent introduction to LSTMs. Thank you Josh,True
+@InstitutIPTAE,2023-08-25T18:03:49Z,1,"Key insights  🌬 Conversely, if the weight on the feedback loop is less than one, the gradient can vanish, resulting in difficulties for gradient descent to optimize the network. 💥 Long Short-Term Memory (LSTM) is designed to avoid the exploding/vanishing gradient problem in recurrent neural networks by using separate paths for long-term and short-term memories. 🧠 The interaction between the long and short-term memories in LSTM units plays a crucial role in making predictions. 🧠 The Long Short-Term Memory (LSTM) unit can selectively reduce or completely forget long-term memory based on the input, as the sigmoid activation function determines what percentage of the memory is remembered. 🧠 The LSTM decides how much potential memory to save based on the weights and bias, using the sigmoid activation function, resulting in either retaining the entire memory or discarding it completely. 📈 The LSTM is designed to remember past sequential data and use it to predict future values, as demonstrated by the example of predicting stock values for Company A and Company B. 🔄 The LSTM uses the same weights and biases to make accurate predictions for both Company A and Company B, showcasing its versatility and adaptability. 💥 Long Short-Term Memory networks solve the exploding/vanishing gradient problem, allowing for longer sequences of input data compared to vanilla recurrent neural networks.  Summary for https://youtu.be/YCzL96nL7j0 by www.eightify.app",True
+@patrickrenschler5972,2023-08-25T15:56:44Z,0,"when you watch the videos at faster speeds, the ""BAMs"" and side comments make it harder to follow.",True
+@Hitesh10able,2023-08-25T06:50:50Z,1,Excellent to the power infinite,True
+@crypto100xx7,2023-08-24T09:50:04Z,0,Is there any material you recommend for those who want to learn further theoretical details and implementation in R?,True
+@willw4096,2023-08-24T08:41:38Z,2,Thanks!,True
+@shajidmughal3386,2023-08-24T04:16:34Z,0,"@18:04  - why the calulated memories at the end of day4 are the predictions of the stock price for the day5? i was in the intuition that these memories are some parameters which would influence the predictions. but, video refers these memories as predictions, is there a mistake in my understanding? can some one eplain?",True
+@NJCLM,2023-08-17T23:01:12Z,1,Thank you so much! I became a payed member. I wish you great success in your passion for teaching.,True
+@redbaronat,2023-08-15T08:04:18Z,0,The only trouble with this example is that it is not possible to predict stock prices because stock prices change randomly.,True
+@zzygyx9119,2023-08-13T20:36:56Z,1,Are you going to publish 2nd book to cover the new topics? Can't wait to buy the new book,True
+@sunshinesunlight7660,2023-08-11T09:23:31Z,0,"Given an input of time series with the length of n, how could LSTM be extended to predict the future values at n+1,n+2,...,n+m simultaneously? How could LSTM achieve the generalization on prediction that although time series fluctuate randomly the model still works well under various circumstances?",True
+@nec1211986,2023-08-11T09:00:29Z,1,"i dont usually comment on yt but i have to put my appreciation here, thank you sir.",True
+@knt2112,2023-08-10T13:16:06Z,1,Thanks for BAM explanation. I explained the same way in my exam today as you explained in the video and felt satisfied with my answer 😅.,True
+@dy8576,2023-08-08T14:09:40Z,1,absolute mad lad,True
+@TheAbhiporwal,2023-08-08T05:35:35Z,1,"As per my understanding of human psychology, a person will only feedback/comment either when highly frustrated or overwhelmed and you already know why all of us are doing that.  I am pretty sure that if I send a prompt to ChatGPT - ""Explain LSTM for 5-Years Old"", it will surely take the reference of @statquest before answering 😜.",True
+@apsind3557,2023-08-05T13:31:26Z,1,you Sir are a Godsend to field of ML,True
+@mahu1203,2023-08-01T10:01:34Z,2,"Thank you you are the best teacher, I have seen. 🎉🎉🎉 Hurray. I learn from you than from my actual teachers who just waste my time and break my nerves down ....  Thank you 🙏🙏🙏🙏🙏🙏",True
+@ChristopherMarkusLacapra,2023-07-31T20:48:34Z,1,Thank you so much!,True
+@omer0844,2023-07-31T19:54:59Z,1,"The video was amazing at clarifying everything about LTSMs however some other sources talk about something called a cell state or an information cell, so what exactly would that be? Also I'm interested in buying your book but Im wondering if there will be an new edition including more content related to neural networks and your more recent videos on the channel",True
+@Konami9999,2023-07-30T15:59:15Z,1,QUADRUPLE BAM!!!,True
+@umaryaseen3807,2023-07-28T19:47:11Z,0,"Awesome explanation! Made it super easy for me to understand the underlying architecture. It would be super helpful if you could make a video on Gated Recurrent Units as well and how to transition from LSTM cells to Gated Recurrent Units, Thanks!",True
+@amanpreetchander7386,2023-07-28T18:26:28Z,1,Your tutorials are amazing. I wish you a good luck for your future. Thank you for making such an amazing tutorials 🙂,True
+@user-bd8jb7ln5g,2023-07-27T15:21:00Z,0,I clicked like before watching the video but after 5 seconds of scrolling through the visualizations.  You have some of the best visualizations on this topic on Youtube. Glad I found your channel.,True
+@muhammadsohailnisar6600,2023-07-26T11:42:33Z,0,"Can somebody tell me, where the values of these weights and biases come from and how these are updated?",True
+@tupaiadhikari,2023-07-25T15:55:06Z,2,Thank You professor. Now I can proudly say that I understand LSTM and can calculate the output of LSTM using Microsoft Excel,True
+@bobaktadjalli6516,2023-07-24T23:21:03Z,1,"Hi, I understood RNN and LSTM and their architectures right after I saw your video. It's like explaining to kids. Whether it's about the concepts or an ad, the song you sing at the beginning of the videos makes me go back to my childhood (and imagine Barney's show, again 😅) and free up my mind to learn and focus on what you say and explain. Even Squatch reads my mind 😄. Triple thanks (like Triple BAM!!) for making these kind of videos 🌺. I suggested my classmates to watch your videos.  I would appreciate if you could share your slides, too. So that we can look and review on your slides beside of watching and listening to your video.",True
+@kolovsky08,2023-07-24T14:51:09Z,0,"Hello, at 17:49, how to interpret the fact that intermediate Short-Term Memory output values does not match with the Compagny values (except for the final one) ?. Does it means that a LSTM can only predict data at t + n, with n fixed ? (here n=5) thank you @statequest",True
+@jasonbourn29,2023-07-23T07:52:27Z,0,Why dont we multiply by numbers like 1.005 (that is 0.5 % increase of weight )to every weights. In the previous vedio also you spoke about these problems...Instead of using 2 to multiply  weights which can lead to exploding gradient..or using a number less than 1 to multiply which leads to vanishing problem...,True
+@ananthakrishnank3208,2023-07-21T13:44:08Z,0,Can you help me understand how a multi dimensional input is fed into an LSTM. This helps for 1D input.,True
+@nguyenvinh2298,2023-07-21T04:31:22Z,0,🎉🎉 very helpful video. One thing I don't understand is why the potential long-term memory uses the tan h function😢,True
+@mapy1234,2023-07-20T16:01:06Z,1,great...,True
+@khoile1269,2023-07-18T07:12:01Z,10,"For a beginner, your videos make me feel easy to follow and understand. I love the way that you use the visual example with different colors so that it easier to follow. And the curiosity to learn more is the thing that makes your videos really impressive to me. Thank you, Josh!",True
+@alwayzbooster7721,2023-07-17T19:10:31Z,1,Thanks a lot!,True
+@aishwaryasaran3732,2023-07-15T21:39:18Z,1,Great video!,True
+@FrauEva89,2023-07-14T04:28:16Z,1,Lo amo señor. Que buenas aportaciones hace 👌👌👌👌👌,True
+@HazemAzim,2023-07-13T14:20:01Z,1,This is Super nice .. :),True
+@saraferro509,2023-07-11T07:43:22Z,0,"Dear Josh, do you have any idea of what is the maximum length the lstm can tackle to remember?",True
+@phillustrator,2023-07-10T19:35:46Z,0,"Schmidhuber would like to remind you that he invented LSTMs, and that nothing will ever be as good as them, not even LLMs.",True
+@mateuszsmendowski2677,2023-07-09T06:59:22Z,2,The best explanation how LSTM cell works.,True
+@sully_services,2023-07-08T04:03:20Z,1,Bam!,True
+@khitnay7525,2023-07-08T02:49:38Z,1,This was absolutely amazing. You've now done videos on both LSTMs and CNNs so I was wondering would you consider doing a video on ConvLSTMs?,True
+@samayitabhattacharjee671,2023-07-06T20:14:50Z,1,"Really helpful, thanks a lot, Josh!",True
+@YouKnowWhoIAm118,2023-07-05T15:01:26Z,0,"Awsome vidow! Now we know how to predict the next element of a sequence, but how can an lSTM be used as a classifier?",True
+@muhammadzakiahmad8069,2023-07-05T09:59:06Z,92,"2 years into Data science, many paid an unpaid courses, never understood the underlying functionality of LSTM but today, Thank you Mr. Josh Starmer for being in my life.",True
+@chandrachalla3466,2023-07-05T03:08:04Z,1,This is an awesome video to explain LSTM. I have a little knowledge about LSTM (I felt that is required to understand this video) - but you made it really clear and eloquent. Your voice is perfect and clear. Hats off !! Thank you so much,True
+@mattis85,2023-07-04T20:36:20Z,0,"Great video as always, but the activation at 11:44 should be 0.986 and not 1 I guess",True
+@rozhanmirzaei3512,2023-07-04T16:39:13Z,1,That's beautiful.,True
+@clockent,2023-06-30T11:15:43Z,0,"While I greatly appreciate your explanations of the mechanics of LSTM, I still don't have the exact intuition about why and how different things work here. Why multiplying by 0 is ""forgetting""? What does multiplying by 0.5 represent then? Why the new short term memory is based on long term memory? How does this thing exactly learn?   To be sure I watched other videos and read some articles but still feel a bit confused. I would appreciate some follow up.",True
+@grimskull416,2023-06-28T05:36:05Z,1,"thank you for the video. I have a much better understanding. However I am still unclear as to how we get the values for the weights and biases. It seems like at each of the 3 stages in a LSTM unit, the weights and biases are different. Is this user-defined and considered a hyperparameter? Many thanks.",True
+@masher974,2023-06-27T02:59:35Z,0,"Josh, this video really clearly explains the processes of LSTM, thank you so much! I would really appreciate it if you could also explain: 1. The intuition behind calling them long and short-term memories -> it's not just that short-term memories are the final output to consider right? 2. Mathematically, what makes the output avoid the gradient exploding/disappearing problem -> Your example demonstrates that, but it would be awesome to understand how it's a rule, not just an exception like how your example was set up.",True
+@tomcatgaming1449,2023-06-24T09:39:04Z,0,"So I've seen through the entire video, and looked through new documents to understand the topic more, and the one thing I'm realizing here is that why aren't the documents I've seen have weights in the inputs like you do?  Can you provide the symbols instead of the numbers at 6:00? I'll be able to generalize my understanding of this in order to generalize it better with the other documents about this I'm reading, because right now what you have is contradicting with a lot of papers (namely not having weights in the input), so I can't really understand it all. Please help, I need more help with this.",True
+@gnorts_mr_alien,2023-06-21T16:18:33Z,2,oh my god if this is so simple why has everyone explaining this to make it more complicated than it is? maybe the teachers don't understand it as well? I've probably watched 20+ lessons on this subject (from youtube videos to college courses) and this is the only one that explains how simple it is.,True
+@Luxcium,2023-06-20T20:58:42Z,0,This time my quest is leading me to the *Recurrent Neural Networks (RRNs)…* I will then learn What is « *Seq2Seq* »but I must go watch *Long Short Term-Memory* I think I will have to check out the quest also *Word Embedding and Word2Vec…* and then I will be happy to come back to learn with Josh 😅 I am impatient to learn *Attention for Neural Networks* _Clearly Explained_,True
+@liuze9280,2023-06-20T00:37:08Z,3,This is the best tutorial so far. Thank you for your clearly explanation! I watched every episode of your NN series. I am a CS student and building a voice cloning app for my honour project. Your tutorials are truly helpful!!!,True
+@newstar9022,2023-06-19T16:06:34Z,1,Countless bams for this video. Thank you. I thought I should spend more time in learning about LSTM. You have made it eazie peezie🥲,True
+@p-niddy,2023-06-18T09:11:37Z,0,"I don't understand *how* does using separate paths for long- and short-term memory avoid the vanishing/exploding gradient problem. This video describes *what* an LSTM is (and quite beautifully so, as usual), but I didn't completely understand how this system solves the original problem.  ChatGPT provides the following: By using these [forget, input, and output] gates, LSTMs can control the flow of information through time and selectively update or forget information as needed. This gating mechanism helps in avoiding the vanishing/exploding gradient problem *by allowing the network to decide when to retain or discard information based on the input and the previous hidden state*. The memory cell serves as a long-term memory component that can store information over long sequences, while the hidden state acts as a short-term memory component that allows the network to propagate information effectively through time.  Does this mean that what's basically happening is that the system is controlling whether to use the new long- or short-term value based on whether the gradient is too large or too small, or would be affected as such? And if so, what is the mechanism in this system that does that, exactly?",True
+@quynguyen2943,2023-06-18T04:21:03Z,0,"Your videos are great. I love them so much. However, could you please explain how you come up with those numbers such as x2.7, x1,63 .....",True
+@shofyansky,2023-06-16T09:25:53Z,1,triple bam and i am understand thank you sir.,True
+@muhammadumarsotvoldiev9555,2023-06-16T00:28:59Z,1,Thank you very much!,True
+@Elatox,2023-06-15T09:12:19Z,0,"Great video! I learnt a lot! I think i found some calculation errors by 16:17, shouldn't the inputs to all the activation functions after the summations be 0? Or am I mistaken?",True
+@PremKumar-ym3vh,2023-06-14T15:32:38Z,1,This what Teaching should be. I have tried watching a bunch of videos in youtube almost all of them were technical jargon. Didnt understand the why part! Thank you Dr. Starmer for making such videos,True
+@baocaohoang3444,2023-06-13T22:40:37Z,0,So what if we are given 100 days but our lstm only has 5 units? Will it only learn first 5 days?,True
+@adosar7261,2023-06-11T15:08:26Z,0,"Although gradient might vanish, remember that this happens only for the longest paths on the computational graph. RNN's use shared weights and as such the total gradient with respect to W is the sum of all paths from the loss to the W. Gradient with respect to W from later time  steps might not vanish.",True
+@squarema,2023-06-11T04:49:20Z,0,Great work. Just wondering how long it took you to make this video?,True
+@matinislami7893,2023-06-10T13:37:17Z,0,Do you do a simulation in Matlab for LSTM RNN?,True
+@leejo5160,2023-06-10T00:14:35Z,1,The best explanation on LSTM ever! Thank you so much!,True
+@billy.n2813,2023-06-09T03:25:01Z,1,"Thank you very much sir. I was hired as an undergraduate research assistant earlier this year, and took this opportunity to discover and learn about Deep Learning. I am currently learning about RNNs, and this video was of great value to me.  Thank you very much for this.",True
+@Fahhne,2023-06-07T01:26:58Z,1,"Great video, helped me deeply understand each part of the LSTM, thanks a lot.",True
+@familywu3869,2023-06-06T20:56:40Z,1,"Thank you so much for all of your tutorials, Josh! Really clearly explained and very helpful!",True
+@linhdinh136,2023-06-05T15:40:02Z,2,Thanks you! This is so intuitive. ,True
+@AllExistence,2023-06-05T10:42:36Z,0,But why does it works? Where do weights and biases come from?,True
+@yogendrapratapsingh7618,2023-06-04T05:50:41Z,0,Hey I have some confusion you have taken different weights for hidden layer just for the simplicity in calculation right ? else all the weights of hidden layer would be same.,True
+@parthmangalkar,2023-06-03T18:41:15Z,1,"This tutorial was too good!! Now I clearly know how LSTMs work, and how they are used to solve the Vanishing/Exploding Gradient Descent problem. Thank you StatQuest!!",True
+@dzmitrykoniukhau1362,2023-06-02T19:23:34Z,1,This is why I like the YouTube!,True
+@vanish3408,2023-06-02T13:16:53Z,1,"Hey Josh. Your video is extermely insightful, hover I have to point out a mistake. The video title doesn't contain !!! as it obviously should. Please do better Josh. \s",True
+@charalamposkochaimidis6628,2023-06-02T08:54:55Z,0,how do you calculate the bias term?,True
+@user-nq3kl4tz5f,2023-06-02T03:10:31Z,1,"Bro, you are the best. You are the LSTM Jesus.",True
+@girmayberhe6127,2023-05-30T11:10:21Z,1,Great explanation!!! Now I understand LTSM.  Thanks a lot !!! 🙏,True
+@saeethegreat1672,2023-05-29T15:33:18Z,4,"BEST TEACHER EVER! seriously how do you make such complicated matters so simple and easy to understand? You're amazing and even tho I didn't plan on learning Machine learning, I'm soooo gonna watch every last video on this channel! thank you for this!",True
+@lopes7163,2023-05-28T04:12:47Z,2,great class! now I'm looking forward to the video about transformers 🙏🙏,True
+@navinyadav2272,2023-05-27T14:55:18Z,0,Great explanation.. thanks!  One query..Sigmoid activation function mathematical eqn is 1/(1+e^x) but in the video its mentioned as e^x/(1+e^x)...!!!,True
+@ruiyanshi2837,2023-05-26T21:45:10Z,0,"Hi! Thanks for your explanation! It is really clear. Just one question, how do you decide the weights and bias for the units? Thanks!",True
+@Shivaprasad2634,2023-05-24T08:04:40Z,0,"The Video is Really informative. i respect the creator's effort in making such videos.  There is small info I feel is missing in this video and it matters me a lot , which is what is the relevance of each gate. why do we have a forget gate, why do we have input gate and what is their work ?",True
+@TheApgreyd,2023-05-21T13:43:49Z,1,"Awesome, even I get it",True
+@ZiaUddin-eo7pd,2023-05-19T18:50:35Z,1,"Thanks to Squatch, he ask exactly the same questions that sometime come in my mind 😂.",True
+@abdelhafiddahhani2514,2023-05-19T15:02:57Z,1,"Thank you for this amazing explanation. I have a question, how did you fixed the weights ?",True
+@satvikpai7308,2023-05-14T18:49:13Z,1,Man you're the best!!,True
+@lima8919,2023-05-13T23:02:21Z,1,Excellent!  StatQuest has explained XGB and DL mostly clearly I have ever seen. I can't wait for your new videos on attention and transformer.,True
+@Bramsmelodic,2023-05-12T06:13:15Z,4,"As usual, the best intuitive explanation i have seen for LSTM till now! I have banged my head on this topic in thousands of literature and videos who try to explain the same block diagrams over and over.. I got frustrated beyond a certain point. Thankfully Josh made this.. Atleast from a concept wise I am clear now..What Josh does to the community is commendable..",True
+@maulanaahmad4676,2023-05-11T07:16:37Z,0,"hold on, I still didn't know, how you get a value of the weight and bias?",True
+@ace-jd3on,2023-05-10T09:05:37Z,1,Danke!,True
+@robertpolevoi8630,2023-05-10T00:03:40Z,99,"Some rare teachers have instant cred.  The moment they start talking you are convinced they really understand the subject and are qualified to teach it.  As an experienced teacher of extremely challenging tech myself, I confess that I've never seen more complete and polished preparation.  You are changing people's lives at just the moment when this is so critical. Best of everything to you.",True
+@DD-yn5sc,2023-05-09T11:58:57Z,0,"If I am not mistaken, when using LSTM unit in RNN you have to unroll the data and do the calculations on every single run(epoch) and retain the weights and biases. I dont understand for which part (long or short) term memory you  calculate erorr and do back-propagation.(I would say short). I am not sure about gradient descend, if there are some specifics with those 3 gates. I hope someone could explain that and help me understand.",True
+@user-og9sj5jo6e,2023-05-09T11:31:52Z,1,Good Job. The best clearly explanation,True
+@high_fly_bird,2023-05-09T10:13:41Z,1,omg i am so fond of these videos! Thank you so much for doing it!,True
+@ArmanAli-ww7ml,2023-05-09T01:08:41Z,0,"for the examples you shown, input/output variables are same that is a price? but in other cases you have different input variables and you want to map it to another variable such as predicting PV output wrt to weather conditions. What is the explanation for this. Thank you",True
+@prachikumar2246,2023-05-08T20:47:31Z,1,"amazing video, hands down 🤩🤩",True
+@alexanderterry187,2023-05-08T08:56:39Z,0,"Here, whilst the LSTM does do well to predict the day 5 stock prices, doesn't it have pretty awful accuracy predicting prices for days 2-4 - especially company A?",True
+@ygbr2997,2023-05-08T05:32:31Z,1,"it will probably take me a month to make all those in Keynote, simply awesome work",True
+@FullStackAmigo,2023-05-07T07:41:18Z,1,This was the best video about LSTMs that I've ever seen! Thanks!,True
+@beulahnarendrapurapu2029,2023-04-30T21:50:04Z,1,"You are the bestest teacher I've ever seen. I am a teacher my self, currently also a student taking AI course.",True
+@VORBILDER,2023-04-27T07:15:31Z,1,"Brilliant explanation, Josh!",True
+@jemmyfebryan842,2023-04-26T17:32:50Z,0,all seems peaceful until you calculate partial derivative of error respectively to the weight😇😇,True
+@elahe4737,2023-04-26T16:31:27Z,1,You are awesome 🤩,True
+@SY-jh3tg,2023-04-23T09:17:37Z,24,I have been working in ML industry of 5 years now. But I never had this clear understanding. Not only have you explained this clearly but also sparked a curiosity to understand everything with this much clarity.  Thanks Josh!!,True
+@chessmaster2041,2023-04-19T06:17:22Z,0,How the values of the weights and biases of an LSTM determined. Why did you use those particular values for weights and biases in your video.,True
+@Xayuap,2023-04-18T19:13:07Z,2,now I wonna to transform  ¡awsome bam!,True
+@abdoooooo8583,2023-04-16T01:42:18Z,1,"Amazing, fun, practical, simple .. keep going",True
+@DarkOceanShark,2023-04-14T13:07:28Z,2,Thank you so much sir!!,True
+@vinitharaj4502,2023-04-12T18:40:43Z,0,Hi Josh! Waiting for your video on Transformers!,True
+@drranjitha,2023-04-10T16:48:31Z,173,"""At first I was scared of how complicated the LSTM was, but now I understand.""  ""TRIPLE BAM!!!""  Thanks Dr. Starmer for teaching in a way I could follow. I am placing an order for your book today.",True
+@43SunSon,2023-04-08T19:55:18Z,0,"so, will we have an video about the transformer?",True
+@43SunSon,2023-04-08T19:53:28Z,0,"I have to say, he is slightly better than me.",True
+@user-ye1mf1ts2u,2023-04-08T10:32:03Z,0,"Thank you so much ! But probably you have changed these w and b , instead of random initial value ?",True
+@calvindorosatyagraha7879,2023-04-05T13:43:45Z,2,"this is really"" good explanation IMO. I can't hold my finger not to click thumbs up. do really love your approach (analogy, story, visual, etc.) to explain sth complex, become easy to digest!!",True
+@user-px1rx6mz7l,2023-04-04T16:41:11Z,1,It's really good! How do we train the LSTM unit weights and biases? (Nevermind! Your pinned comment addresses this :) ),True
+@ujjwalgupta1318,2023-04-03T18:04:41Z,2,"Thank you so much Josh, I have been looking around the internet for a long time for good ml videos, and thankfully came across your videos. Btw have you made videos on transformers, I am not able to find one.",True
+@mukhtarbimurat5106,2023-04-01T17:37:43Z,1,Thanks!,True
+@mabyes,2023-03-31T13:59:24Z,1,Another video I loved!! Thank you a lot! 🤗🙏,True
+@Shubham-xs7ek,2023-03-26T18:35:00Z,2,"Hey Josh, Thank you so much for all these beautiful videos <3 You are literally the Keanu Reeves of Data Science. Cheers :D",True
+@ninjanape,2023-03-26T12:25:29Z,1,"Thank you so much for this, so well explained. MEGA BAM!",True
+@jijie133,2023-03-25T13:56:49Z,1,Great video!,True
+@nmirza2013,2023-03-25T12:46:09Z,1,best explanation of LSTM thumbs up,True
+@dylancam812,2023-03-23T04:34:44Z,1,These videos are awesome! I was wondering if your still planning on making a dedicated follow up to this focusing on transformers,True
+@zekioktar7631,2023-03-19T17:03:24Z,1,Thanks for really good explanation. It's the best!,True
+@phantomBlurrrr,2023-03-17T21:58:25Z,0,"Excellent explanation. I have only 1 question, are the weights arbitrarily selected or is there another technique that is required to tune these? From this video explanation the LSTM sequence is clearly conveyed except the only loose-end is the weights before the sigmoid function input.",True
+@wistahjk,2023-03-17T07:48:04Z,0,"I was learning about LSTM for the last two months; still struggled to understand what exactly happening inside until I watched this video. Huge thanks for the content creator. Still, I am struggling about the weights and bias values. Please make your next video on that, if possible.   Once again, Thank you so much.",True
+@be_cracked8212,2023-03-15T21:04:36Z,15,"Damn, these are very well explained. The somewhat silly humor isn't quite for me, but with these high quality explanations I couldn't care less about that. Great job!",True
+@JJGhostHunters,2023-03-15T14:17:12Z,1,Hi Josh...I am a graduate student finishing up a dissertation related to deep learning.  Would you allow me access and permission to use some of your graphics (images not video) in my dissertation?  I will certainly provide you credit.    Thank you fo your consideration!,True
+@nischalpatel1583,2023-03-14T19:30:07Z,1,"I am in Love with your videos!!!! I was going through hell understanding LSTM but now I can say, I have some grasp🙌🙌",True
+@hemesh5663,2023-03-14T10:00:40Z,26,Mad respect for putting in the hours to prepare the material for the course. These topics are some of complicated ones and yet your illustration + explanation + awesome songs make it easy and enjoyable.,True
+@tandravarun,2023-03-12T17:25:13Z,0,Why update the long term memory two times ? (first with just sigmoid and second with a combination sigmoid and tanh?) If the second part determines what % is allowed can it not replicate what the first sigmoid  (forget gate) is doing ? (I.e. when % is zero),True
+@mingming8628,2023-03-12T10:45:13Z,1,"Josh, thank you very much for your super helpful videos, and I am wondering could you explain the term memory a bit?",True
+@RajkumarDarbar,2023-03-11T13:14:12Z,3,I can't go to the next video without saying a big thanks to you here !! loved this explanation !! 👏,True
+@anamikachatterjee45,2023-03-11T12:10:58Z,0,Excellent explanation !! Can you please upload a video on GRU ?,True
+@apurav6497,2023-03-10T17:23:30Z,1,Beautiful tutorial. Thanks.,True
+@krishmurjani2,2023-03-08T03:47:44Z,0,Josh is just like Phil Dunphy but with Alex Dunphy’s brain lol,True
+@saikrishna-ie1xf,2023-03-07T08:55:20Z,3,"great series of videos, please make some for ""transformers"" too!! Thanks in advance",True
+@brm7914,2023-03-06T16:42:02Z,1,"Incredible video ! Thank you !!! Someone can explain me how the values for weights and biases, please ? Is that artbitrary values ?",True
+@nikitabarinov5068,2023-03-05T19:46:44Z,0,"Why 1.0 is the Output from the unrolled LSTM for company B and 0 for company A. I think it is not a explanation that all right, because it is from shot term memory gate, but not output. Could you explain me please????",True
+@bhim443,2023-03-04T10:36:21Z,1,simply super explanation .. .easy to understand ....,True
+@razzakahmad8731,2023-03-03T07:09:05Z,0,Thanks for the video. I have a question how will LSTM work if I have more than 1 feature.  Say I have 5 features and following the same step as you followed with 1 feature then the output at 4th LSTM unit would contain 5 values  which doesn't make sense at all.   Can you plzz help me out with vectorised implementation when there are more than one features?,True
+@hasantekin7823,2023-03-01T12:09:30Z,1,Amazing explanation! Only thing I missed is using multiple inputs. Thank you!,True
+@ribbydibby1933,2023-02-28T09:14:03Z,0,"Very helpful explanation!! One question, will the output always be in the range 0 to 1 of a LSTM? At 13:46 , The sigmoid in ""% Potential Memory To Remember"" (purple box) outputs in range 0-1 and the sigmoid in ""Potential Short Term Memory"" (pink box) also outputs in that range, so the product must always be in that range then?",True
+@alexmcclead7012,2023-02-26T14:09:02Z,0,"Hey, really hoping to get a Transformers vid soon.",True
+@pielang5524,2023-02-26T00:08:54Z,1,Great explanation as always!,True
+@aminatussaadah6667,2023-02-23T13:06:58Z,0,"Hello Josh, what is the references book of the video? I want to learn more comprehensive. Thanks",True
+@JohanLarsen-sc8pm,2023-02-21T13:57:08Z,1,You are a teaching and singing god.   Please bless us with transformers oh mighty being. Bam us like we've never been bammed before!,True
+@emircagr3154,2023-02-20T02:23:55Z,1,I am making a comment on a video after a really really  long time. And for me this is the best criteria to show myself how useful this video is. Thanks :),True
+@andreas131298,2023-02-16T04:21:14Z,1,"Hi, great content as always! I am very curious if you could explain the effect of having multiple layer of LSTM in making predictions. Read some articles about it, but if you could give us some mathematical intuition behind how great would it be :)",True
+@a-balah,2023-02-15T18:17:53Z,0,I'm amazed by your ability to simplify such complex concepts. I hope you know that you are having such a strong impact on students all around the globe. Looking forward to future videos.,True
+@451,2023-02-15T14:10:28Z,0,Are LSTMs irrelevant because of transformers? ChatGPT says LSTMs are still widely used and effective,True
+@Eserchie,2023-02-15T02:46:57Z,1,"the model with the given weights and biases may have done an accurate job of predicting day 5, but I can't help noticing that it did an abysmal job of predicting day 3 and 4. Doesn't this contradict the whole point of RNN and LSTM being able to handle differing quantities of sequential data?  What sort of dataset did you use to train this set of weights and biases, and was it trained using diffferent length datasets or always 4 days data predict day 5. for that matter, was it actually trained, or did you just calculate out some weights and biases that would work for this specific example and only this example for demonstrating the structure?",True
+@khanghoutan4706,2023-02-13T00:59:41Z,0,I fucking love this channel. You teach so difficult topics so damn well,True
+@rahmatulakbar5005,2023-02-12T12:47:08Z,0,How exacly LSTM solve vanishing gradient matematicly? Btw it was great video as always,True
+@c.nbhaskar4718,2023-02-11T12:16:46Z,0,"Thanks josh for ur video , but how does the training happen ?",True
+@wevertonacolito,2023-02-10T15:19:35Z,2,Didática impressionante. Vi várias vídeos e esse foi o que mais deixou claro.,True
+@nairongoncalves,2023-02-10T02:33:08Z,1,what an amazing video!!!,True
+@arnaldoleon1,2023-02-09T01:35:47Z,0,I finally understand this unholy mess!,True
+@reginaphalange7509,2023-02-07T19:55:11Z,0,"hey in the series you mentioned throughout how the stepping stones are RNN->LSTM->Transformers. However, I haven't been able to find a video on Transformers on your channel. could you please help?",True
+@Glaszg,2023-02-05T15:01:46Z,2,I watched almost all deep learning quests and got a great understanding of how NN work now. Thank you!! When are transformers coming out? :D,True
+@onomatopeia891,2023-02-03T15:38:05Z,0,"Thanks for the very insightful video! I'm curious though how multiple units of LSTM work together since in the sample you gave, you only used 1 LSTM unit.",True
+@yashpawar3308,2023-02-02T21:51:12Z,0,7:30 why is stm weight is taken as 2.70 and input weight is taken as 1.63...,True
+@user-kn3pb5ru5t,2023-02-02T04:49:58Z,0,"Do I understand correctly that if this neutral network would be well trained, current short-term memories on every step should be close to the next input values, predicting it? I mean if we wanted to predict the third day instead of fifth, we would get 0.6 instead of 0.25 with this neural network so this seems like mistake.",True
+@gwenole1710,2023-01-28T11:23:59Z,2,"I can't wait for the ultimate step of this Quest, The Transformers!!",True
+@alessandrovecchi5147,2023-01-28T10:45:15Z,0,"Thanks josh, great explanation. I'm now one step closer to understanding LSTM. I'm still plenty of questions, though.  In the first stage we obtain the percentage of long memory to retain. But in order to obtain this percentage, the only things that change from one iteration to the next are the input and the short term memory value. How can these two give us what percentage of the long-term memory retain? (I get it, the sigmoid maps every number to a percentage, the question is about how on earth those two values have any relationship with the percentage of long-term memory to retain).  Moreover, the weights and bias are shared, so there can be different iterations where the percentage of memory to retain should be much different, instead it's almost equal. How is it handling this case or why does it make sense at all? Then, the forget gate I feel like it's a better definition. If the output of the sigmoid is very small(say 0), then we are going to forget anything we learnt till now(in the long-term), thus the subsequent long-term memory would be 0(+ current long-term memory data). Why, though? What if for the following ""days"" we needed some information from that long term memory previous to this day?",True
+@vishnuprasadj6511,2023-01-26T21:09:05Z,1,"Finally, I understood LSTM. Clean and simple explanation. Probably the best one about LSTM.",True
+@ericsclafani9425,2023-01-25T19:24:03Z,0,"Does the number of LSTM layers scale directly with the input size, just like RNNs?",True
+@user-io5ee8rc2s,2023-01-25T09:25:07Z,1,Thank you for great lesson. I understand how each gate works.,True
+@macknightxu2199,2023-01-24T15:52:17Z,0,"Hi, I can understand what short term and long term memory want to do. But how is the mathmatical explanation of that internal complex structure? BR",True
+@macknightxu2199,2023-01-24T15:10:40Z,0,"Hi, is there any video as the third step about Transformers? BR",True
+@naf7540,2023-01-24T11:51:08Z,0,"Hi Josh, thanks for this fascinating explanation of LSTM!  There are however two things I can still not wrap my head around. Why should 2 different paths; namely long term and short term memories avoid the vanishing, exploding gradient problem? I thought that was avoided through using the same weights and biases all along the LSTM unit as long as the weigths are not greater than one  but on the other hand not too small. I don't get how the two different paths help against that gradient issue. Also would the LSTM method work if different activations functions were used?",True
+@zilinwang,2023-01-24T05:57:24Z,1,Can't wait to see the transformer explaination video.,True
+@Kedoink18,2023-01-24T03:02:58Z,1,Looking forward to the transformer video!!,True
+@krapukhin,2023-01-23T13:32:34Z,3,"Josh, your videos and book have been an incredible discovery for me. The visual explanation is much easier to understand. Thank you!",True
+@sari-didi-papi-en-japon,2023-01-23T03:46:27Z,0,"I've got a question: when the value of short term memory from the output gate is negative, that is less than 0, but actually output value takes from 0 to 1 like the example in video, do we iterprete that anything not greater than 0 is same as 0?",True
+@charlescoult,2023-01-22T18:39:45Z,1,3:29 - How did I not pick up on this point with all the material I've gone through about LSTM!!?? It's so simple.,True
+@AbdullahOlcay-wh4or,2023-01-19T23:14:06Z,0,why do we use 'vanilla' term just before recurrent neural networks?,True
+@benc7910,2023-01-18T07:42:17Z,0,where is the link to transformers ?,True
+@souranumaji4213,2023-01-18T02:21:43Z,1,Probably the best and cleanest explanation of LSTM. Awesome!!. Could you please make a video on GRU?,True
+@user-lj5ko3io1n,2023-01-16T05:52:26Z,0,I could'nt find out whitch part is the network .,True
+@kc66,2023-01-15T04:26:55Z,2,Hands down the best explanation for LSTM!,True
+@pb9405,2023-01-14T20:30:48Z,1,"Your videos are very accessible, I love them. I'll definitely recommend them when I'm asked for introductions to Machine Learning content.",True
+@simonyin9229,2023-01-13T20:53:15Z,0,"Hello Thank so much for your content. I plan on getting into pytorch and this helps a lot to get an intuition of what actually happens in the models. Are you planning to run through the derivatives of this network? I understand this would be more complex then previous examples of backpropagation, but i am struggling to get there myself.",True
+@joekanaan2548,2023-01-11T13:52:45Z,1,"Great video, waiting for the transformers clearly explained!",True
+@gheyathmustafa6467,2023-01-10T18:29:12Z,1,Well done.. more than clearly explained... really its highly appreciated your hard and great work here... to easy understanding...🙏🙏,True
+@nikoskodo9303,2023-01-10T13:31:52Z,1,Thanks a lot... i dont usually comment..,True
+@hojjat5000,2023-01-09T20:24:18Z,1,Can't wait for the transformers video.,True
+@untitledl8845,2023-01-09T00:37:06Z,0,Can you make one for Temporal Convolutional Networks? Thanks.,True
+@MCMelonslice,2023-01-07T12:08:43Z,2,"Gosh, Josh. You make learning such a breeze. Thank you very much for every single BAM!",True
+@SarveshRansubhe,2023-01-07T03:26:17Z,2,You are insane!!!!!!!!!!!!!!!!!!!!!!!!!   never thought I would understand lstm by looking at diagram but you did.,True
+@aerialphotographies,2023-01-07T03:22:31Z,1,Thanks for all of these great matrial. Your boook is also amazing!,True
+@jasonjarosz5897,2023-01-02T18:28:30Z,0,"This is a fantastic video on LSTMs. But, as a constructive criticism, you should have shown the output of the ""% Potential Memory to Remember"" cell as 0.99 and not 1.0. One of the key parts of a sigmoid/logistic function is that even very large or very small numbers won't output to exactly 1 or 0. You're also working to two decimal places for everything else, so it'd be consistent with the rest of the video. Other than that - awesome video.",True
+@atlibachewshegaw4076,2022-12-30T10:05:09Z,0,Can you help me haw to detect electricity theft in smart grid in cnn-lstm,True
+@user-fc8fh3pp2i,2022-12-30T08:53:48Z,1,Any plans for transformers????? Waiting for it!!!!,True
+@jamilmuradov9383,2022-12-29T22:45:14Z,1,"Dear Josh, your videos are life-saving! So cool! I have binge watched 4 hours of your videos. For a person with neurobiology background, this is just enough complex math content, but without flamboyant generalizations, to clearly understand application possibilities. I was hoping that maybe you could help to explain one big conceptual question that remains. Essentially, neural networks are a way to decompose complex functions into many activation functions. How come sigmoid, soft plus and ReLU can be added up to predict behavior of super dense, jumpy signals, such as stocks and EEG? Is that really what happens or I am conceptually confused?",True
+@MDSakib-hz1kh,2022-12-28T06:24:37Z,1,Ur video is blessing for us. Tnq u so much,True
+@MinecraftNoobss,2022-12-27T08:06:38Z,0,oh god this can be so easily understood,True
+@ADHAM840,2022-12-26T17:26:42Z,1,"Hi Josh, hope u r doing well, first I have to thank u for these great simple explanations, second is there a video for TRANSFORMERS  soon !?",True
+@robert-dr8569,2022-12-22T14:53:32Z,1,You did an excellent job to explain LSTM networks. Thank you!,True
+@ahmadsirojuddin728,2022-12-22T14:06:35Z,0,Looking forward to the next video about the transformer.,True
+@shivkrishnajaiswal8394,2022-12-20T04:09:28Z,1,"""Bam"" * length of sequence",True
+@uzibhai94,2022-12-19T15:54:12Z,0,Simple yet Amazing. . .,True
+@MrLarsalexander,2022-12-19T15:54:09Z,1,"That intro was unexpected haha... Smart ;) made me want to watch your video instead of just listen and look around for more videos on YT, or google papers on on LSTM...",True
+@DanteNoguez,2022-12-17T19:54:57Z,1,BAM!!! YOU'RE THE BEST JOSH!,True
+@lynnbella5180,2022-12-17T18:10:55Z,1,waiting for the transformers veideo *-*,True
+@ilyas8523,2022-12-16T14:07:16Z,0,When is the Transformers video coming out? I'm looking forward to it,True
+,2022-12-16T10:33:44Z,0,When is the episode on Transformers coming up?! :),True
+@dgraym,2022-12-15T04:58:53Z,0,You are absolutely slept on. I love how you talk to me like I'm an idiot but sometimes I think you're just being nice.,True
+@CrazyProgrammer16,2022-12-14T19:57:29Z,0,"Una pregunta, yo he visto gente que usa número de celdas mayor al tamaño de secuencia. Ej si tenemos 10 celdas de lstm y la secuencia solo es [1,2,3,4,5], qué hará las celdas 6 a 10? Recibirá algo?",True
+@kritiarora2312,2022-12-14T14:57:06Z,0,please make video on gru also,True
+@ting9252,2022-12-13T19:52:10Z,1,can't sleep well without your songs 🤪,True
+@fancytoadette,2022-12-11T06:26:50Z,1,Wow so exciting to learn this! ,True
+@user-gx9hk8gt3k,2022-12-10T16:47:00Z,1,Outstanding!  Thank you for the LSTM video!  It was of  great help to me!,True
+@anuraggarg1209,2022-12-08T20:13:40Z,1,Words would fell short to express my gratitude and thanks. I'm a Uni Freiburg student and as I promised earlier I've promoted your channel and videos a lot. BTW when can I expect your video on Transformers. Me and my friends are really waiting for the transformers video. TRIPLE BAM !!!!!!,True
+@grownupgaming,2022-12-08T09:06:54Z,0,damn i feel smart after watching your video.  you are great,True
+@vini.trento,2022-12-05T17:25:26Z,0,"hey josh, maybe you could do a video about the methods ARIMA and its relatives, I love the way you explain, yu are the best at this",True
+@leon9413exe,2022-12-05T08:23:07Z,3,Use simple words to help me understand some complex concepts! Really appreciated that! Looking forward to learning Transformers from you soon!,True
+@datascience3008,2022-12-04T18:09:13Z,0,bro u did not add this to the playlist,True
+@sinarokhideh6794,2022-12-04T14:20:32Z,3,"Just WOW! Can't wait to see the third part of this series (Transformers). Thank you, Josh.",True
+@ranonrat6164,2022-12-04T06:28:54Z,1,"joder pero que buen video, me sera muy util al momento de hacer proyectos mas avanzados",True
+@PuroCyanHQ,2022-12-03T23:24:50Z,24,"I have been waiting for your LSTM video for so long! No other videos can explain ML concepts as good as you do, you sir deserve a thousand BAMs!!",True
+@federicocolombo8761,2022-12-03T16:35:15Z,1,This video is amazing ! Thank you,True
+@shubhamsingh6929,2022-12-03T16:15:16Z,0,"I don't think the terminology is wrong for ""Forget gate"". It decides how much to forget(or retain), and then makes the Long term memory forget that amount, and hence the name forget gate.   If long term memory was 3 and retention % was 0.8. The new Long term memory will be 2.4. That means, we forgot 0.6 there. That's why the name forget gate.",True
+@nicholasgurnard4281,2022-12-02T06:19:18Z,1,This was Bam Beautiful,True
+@MegaMario0007,2022-11-30T15:19:53Z,0,Could you please do one on transformer models?,True
+@emirevcil5718,2022-11-29T15:10:48Z,0,Transformers please,True
+@emirevcil5718,2022-11-29T14:15:05Z,1,i have came from RNN video thank you for excellent videos !,True
+@SumayaAr,2022-11-29T14:03:57Z,0,What does unrolling LSTM/RNN really mean? does it mean we are using the same LSTM cell for every timestamp when input changes?,True
+@DanielDrummond-zo9bw,2022-11-29T12:07:21Z,1,great video,True
+@javadrahmannezhad9908,2022-11-29T05:58:25Z,2,Definitely the best visual explanation of LSTM I have ever seen!! Can't wait for your video for Transformers.,True
+@notyet1213,2022-11-27T02:26:13Z,1,nice video and song,True
+@jinchengliu9586,2022-11-26T19:47:58Z,3,Amazingly explained! Can't wait to watch transformer!,True
+@ayushsaha5539,2022-11-24T17:27:49Z,0,"Wait, doesnt It need to back propagate to fix it's weights and biases? How does it do so?  Else of it doesn't, are the weights and biases shown just universal for all ltsm's?",True
+@user-vn3vd6wq7n,2022-11-24T12:06:55Z,0,i missed u,True
+@abhitrana3425,2022-11-23T11:05:27Z,1,Very well explained; thank you so much!,True
+@ajeyamandikal2010,2022-11-23T05:45:18Z,0,"Hey! Not related to the video but wanted your recommendation/thoughts.  Working on  Bitcoin price prediction project and so far implemented ARIMA and LSTM, but neither are giving satisfactory results.  Thinking of implementing Transformers, but am not able to find good resources for it.   Could you recommend a few good resources for Transformers (and also any other algos you think may work for Bitcoin price prediction.)  Thanks!",True
+@MeghanaM-ep9yd,2022-11-22T07:32:38Z,1,Thank you for the explanation,True
+@manojdevaraju357,2022-11-21T11:19:25Z,0,"How long I was waiting for this!!!! Finally Thank you🎉.  However, I have one question regarding the sequence to label classification using LSTM. Since only the last time step short memory (hidden unit) is considered for classification problem. Does sequence length matters to learn properly or Can you please share, what would be the idea behind classification.",True
+@mohammadyahya78,2022-11-20T22:29:07Z,1,Thank you very much. That helped a lot.,True
+@ShimOonSc2,2022-11-20T11:13:44Z,0,When will the video to transformers be uploaded?,True
+@facundorecabarren8866,2022-11-20T05:27:26Z,1,Amazing video and explanation. Congrats!!,True
+@Dhirajkumar-ls1ws,2022-11-20T01:44:53Z,1,Probably the best explanation of lstm.,True
+@ajeyamandikal2010,2022-11-19T19:27:43Z,0,"Hi, how are the weights and biases found in LSTM?  Also are there more videos coming on LSTM or are we moving to Transformers next?",True
+@stefanoskarageorgiou25,2022-11-19T19:21:11Z,1,What an amazing video this was! Cannot wait for the transformers video. Keep up the great work!,True
+@aryandeshpande1241,2022-11-19T12:11:49Z,0,"this video is insane, you should do a video on stable diffusion my friend",True
+@zombieboobuu9233,2022-11-18T20:51:47Z,1,great video as always! can't wait to see the transformer song! :D,True
+@roopakbaliyan5935,2022-11-18T18:51:31Z,1,"Hi Josh, I was going through your playlist of Linear Regression and Linear Models  and all of a sudden all your videos went hidden. Can you do something about that ? Thanks!!!!!!!!!!",True
+@dewinovita4551,2022-11-18T13:32:02Z,1,This is awesome! thank you so much!,True
+@tomatorama,2022-11-18T08:10:18Z,1,"thank you a lot for this video, you really made it clear to me, thank you again and bless you for this !",True
+@viktorql364,2022-11-17T18:03:30Z,0,can you do GRU and transformers video ? thank you,True
+@leonardosandovalpabon6561,2022-11-16T19:29:57Z,0,I wish I could paste or reference your video in my paper. It would be nice if academic journals recognize the value of YouTube videos.,True
+@mahimaraut8402,2022-11-16T06:55:13Z,1,This was really cool and the rnns one too thanks a lot :),True
+@JasonKT13,2022-11-16T06:12:19Z,0,"Okay, the video is very good when it comes to explaining the LSTM forward mechanism, but I think there's still room for improvement, such as demonstrating how the weights and biases would be updated since the examples you've shown for predicting stock market values were run in a already trained network. Still, this is just my constructive criticism and pickiness, the video is very insightful though!",True
+@er.shashikantkumar9584,2022-11-15T12:22:39Z,1,"Sir, this is my extremely awaited topic.A lot of Thanks. i know after watching LSTM  my doubt will be clear.",True
+@user-bk6eb6lg8w,2022-11-14T23:39:13Z,1,love you josh!,True
+@visuality2541,2022-11-14T00:26:24Z,0,hands down best explanation on lstm,True
+@GastroenterologyPINNs,2022-11-13T18:19:07Z,0,Great,True
+@tupaiadhikari,2022-11-13T14:54:43Z,0,"Prophet Muhammad was the messenger of Allah, you are surely the messenger of the God who created Data Science. Thank You Dr. Josh.",True
+@iamgauravnigam,2022-11-13T07:16:24Z,1,So far the best explanantion for LSTM. Thanks a lot for this video. EAgerly waiting for the next stage 'Transformer'.,True
+@advaithsahasranamam6170,2022-11-13T05:59:29Z,1,"If anyone else would've attempted to teach me how LSTM networks work, I would've given up on my dreams lmao. Thankfully, you stepped in. Hooray!",True
+@subodhkamble5650,2022-11-13T00:17:59Z,0,How the weights and biases train? Can you explain this as well in part 2 of LSTM.,True
+@Eman_sq,2022-11-12T13:08:51Z,1,شكرًا,True
+@ScienceMasterHK,2022-11-11T19:37:50Z,0,Thanks Josh! when we can expect transformers?,True
+@lesprevues8865,2022-11-11T18:16:37Z,0,Gated Recurrent Unit and Elman would be nice as well to see. In general Neuronal Networks etc stuff for time series :),True
+@gilbertlo9560,2022-11-11T08:42:45Z,1,"Hi Dr. I am really enjoy the video, as always. I have one question. Regarding the stock example in your video,  is the input, X a sample with 4 timesteps, that later input to a unit of LSTM neuron, and then outputs an output, Y of one timestep? thanks",True
+@carloscabrerahernandez3663,2022-11-11T01:37:21Z,0,the fucking video has multiple languages what world are we living on????!!!,True
+@fabiovargasbr,2022-11-10T19:22:54Z,0,"your songs are terrible, but the videos are worth it",True
+@lukisetiawanwu,2022-11-10T09:26:00Z,0,Thanks brow but I have finished my lstm project last month :)). Btw i still need this video.,True
+@reemalmoshbb8111,2022-11-10T07:37:43Z,1,Amazing !!! i will pay the book :),True
+@alonsomartinez9588,2022-11-10T01:38:44Z,0,Do Transformers next!!,True
+@chris-graham,2022-11-09T22:57:02Z,1,A HUGE NUMBER,True
+@mahammadodj,2022-11-09T19:53:51Z,0,Thanks for the explanation. I just have one question. How are initial Long-Term Memory and Short Term Memory values found?,True
+@bed781,2022-11-09T17:45:32Z,0,how do you compute the weights and biases ?,True
+@dallashutchinson3783,2022-11-09T15:53:59Z,7,Such a wonderful explanation. Have been learning about LSTMs in my course but finally understand how it works now. Looking forward to the next step of the Quest!,True
+@Kimuji402,2022-11-09T10:22:07Z,2,"I have watched almost all of your videos from the beginning ... I found that your teaching skills and visualization skills become better and better in every single video. This is the best quality of a data scientist, which I do not find in many data scientists.",True
+@ahedalbadin2889,2022-11-09T05:51:25Z,0,"Please stop using Baaam, It's a scientific video and You did a great work 👍",True
+@MohammedAhmed-cd4yx,2022-11-08T23:18:59Z,1,We need a series on Bayesian statistics!! Please!!!!,True
+@yasithudawatte8924,2022-11-08T17:56:44Z,1,"Awesome. Clearly and well explained. Thank you very much. Can you do a video or do you already have one, how LSTM using for Time Series forecast?",True
+@fizipcfx,2022-11-08T17:53:43Z,2,"This video is awesome, the Josh Starmer is awesome, and the statsquatch is awesome.",True
+@konstantinpluzhnikov4862,2022-11-08T17:47:59Z,1,I come to listen to a song as usual.,True
+@Rick-Chen,2022-11-08T13:32:52Z,3,This is the best video to clearly explain the concept of LSTM I have ever seen!,True
+@viveksundaram4420,2022-11-08T10:41:59Z,8,How does this channel not have 100 million subscribers already? What a beautiful content. Love the way things are presented.,True
+@mitch.henderson,2022-11-08T08:55:51Z,0,I want to buy the book and get it shipped to Australia. Is the book landscape on Amazon and portrait on Lulu?,True
+@blahblahblahidina,2022-11-08T07:44:09Z,1,Incredible visual explanation. Any chance you are going to make a video on training RNN/LSTM in the future? I'm confused about how would you get a set of correct weights and biases for that kind of networks.,True
+@ASdASd-kr1ft,2022-11-08T04:59:37Z,1,great video man,True
+@raven-888,2022-11-08T02:13:16Z,1,This channel is a blessing,True
+@LuizHenrique-qr3lt,2022-11-08T01:31:58Z,1,"looking forward to transformers, great video!! TKS",True
+@kylek29,2022-11-08T00:08:33Z,276,"As someone who has watched a ton of videos on these topics, I can say that you probably do the best job of explaining the underlying functionality in a simple to follow way. So many other educators put up the standard flowchart for a model and then talk about it. Having the visual examples of data going in and changing throughout really helps hammer the concept home.",True
+@ttominable,2022-11-07T20:03:40Z,3,"Im a native spanish speaker and when this video played speaking spanish my face was genuine horror, mainly because im used to josh’s voice. I’m glad i could switch it back",True
+@lesprevues8865,2022-11-07T19:41:48Z,0,Great. When does the Transformer Video come?,True
+@jishanahmed225,2022-11-07T17:31:11Z,0,"Hi Dr. Starmer, could please make a video for tabular data classification using LSTM. I had a hard time to understand LSTM for tabular data classification. Most of the online examples for LSTM are for texts data classification. I couldn't find one for tabular data classification using LSTM! I appreciate your efforts to make our learning fun!  Thanks!",True
+@UsernameUsername0000,2022-11-07T16:40:24Z,1,This is so funny because I was subscribed for a while and today thought “Hmm let me see if Statquest has a video on LSTM because I really need it.” And what do you know…,True
+@gennahlopov2102,2022-11-07T15:56:47Z,1,Great video thanks,True
+@kamilalyakaev3187,2022-11-07T15:12:21Z,1,"Gah! It is such a bad timing, I had my midterm on this a week ago... Great video nevertheless!",True
+@statquest,2022-11-07T15:07:44Z,34,"To learn more about Lightning: https://lightning.ai/ Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/ NOTE: Since LSTM is a type of neural network, we find the best Weights and Biases using backpropagation, just like for any other neural network. For more details on how backpropagation works, see: https://youtu.be/IN2XmBhILt4 https://youtu.be/iyn2zdALii8 and https://youtu.be/GKZoOHXGcLo The only difference with LSTMs is that you have to unroll them for all of your data first and then calculate the derivatives. In the example in this video, that means unrolling the LSTM 4 times (as seen at 17:49) and calculate the derivatives for each variable, starting at the output, for each copy and then add them together. ALSO NOTE: A lot of people ask why the predictions the LSTM makes for days other than day 5 are bad. The reason is that in order to illustrate how, exactly, an LSTM works, I had to use a simple example, and this simple example only works if it is trained to predict day 5 and only day 5.",True
+@jakob2946,2022-11-07T15:02:54Z,0,"Are thee types of networks just for sequential data like this? What if we have multiple inputs per ""day"" and want one prediction. How does it join the two resulting short term memories",True
+@kostaskyr,2022-11-07T14:50:15Z,2,Excellent video! Waiting for a video about attention and transforers!,True
+@sayakbhattacharya9188,2022-11-07T14:31:39Z,7,Man the timing! I just saw your RNN video yesterday and was waiting for your LSTM video. Your timing is just impeccable,True
+@pouyahallaj4445,2022-11-07T14:13:21Z,1,Can't wait for the next StatQuest on transformers!,True
+@aayushjariwala6256,2022-11-07T13:41:32Z,19,Requested a video on NLP some time ago and here StatQuest with a better explanation than I expected! (Other YouTubers and Courses taught me 'How LSTM works?' but your explanation taught 'Why LSTM works?' The clarification between sigmoid and tanh solved many of my questions),True
+@toyuyn,2022-11-07T09:48:55Z,0,I like to remember LSTMs as differentiable counters which can increment/decrement (using tanh in the input gate) or reset values (using sigmoid in forget gate) in memory.,True
+@alternativepotato,2022-11-07T09:25:23Z,1,Yooooo i made that request,True
+@_justinxu,2022-11-07T08:30:08Z,1,"Very well illustrated, thank you!",True
+@MuddyRavine,2022-11-07T08:02:17Z,9,"I'm taking an NLP class, we learned about LSTMs a couple weeks ago. I have already forgotten much. This was a very clear and well illustrated example of how they work. Hopefully the percentage of what I now know about LSTMs that is added to my long term memory is now approaching one. Thank you! I'm waiting, with great attention, for the transformer video!!!",True
+@ashfaqueazad3897,2022-11-07T07:54:03Z,164,"Your videos should begin with ""universities hate this guy, learn how you increase your knowledge with Josh"" 😂",True
+@gabrielplzdks3891,2022-11-07T07:48:54Z,54,The ease with which you explain these topics has inspired me to pursue a masters in data science. Thank you for helping me unveil my passion.,True
+@CyberNet_inc,2022-11-07T06:55:05Z,1,"I swear to god I was searching videos about LSTM. I watched yours about Recurrent neural networks a few hours ago, but you didn't have any on LTSM. And now this is here!!! WTF? Time to watch it then.",True
+@akaBryan,2022-11-07T06:13:16Z,1,YESS IVE BEEN WAITING FOR THIS,True
+@Skinas26,2022-11-07T05:58:26Z,2,I have one question - from where weights and biases values come from? 😊,True
+@colabwork1910,2022-11-07T05:58:12Z,1,Awesome,True
+@viratmani7011,2022-11-07T05:57:37Z,1,Love from India 😍,True
+@sidverma1888,2022-11-07T05:56:39Z,4,"Thank you professor, you are the best!",True
+@computerconcepts3352,2022-11-07T05:23:34Z,1,Ooo0Oooo Noice 👍,True
+@ToniSkit,2022-11-07T05:14:53Z,2,Yaaaaahhh so happy for this video !,True
+@shoto6018,2022-11-07T05:06:18Z,4,"BAAAM, First. Gotta Thank Professor Josh before I even watch the video",True

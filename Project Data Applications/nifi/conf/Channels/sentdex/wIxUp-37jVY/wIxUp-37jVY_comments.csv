@@ -1,0 +1,41 @@
+author,updated_at,like_count,text,public
+@outroutono4937,2023-02-27T05:20:10Z,0,4:10 - 4:24 best part,True
+@jfliu730,2022-08-16T08:05:05Z,0,"you import the wrong shuffle function, it should be np.random.shuffle,not random.shuffle",True
+@DimulyaPlay,2021-07-18T14:42:36Z,0,from pandas  import 🐼🐼🐼🐼🐼,True
+@Parth.Deshpande,2021-07-15T18:34:14Z,0,"For those who're not able to get correct values for [W,A,D] / getting [0,1,0] always. 1. Run the terminal/anaconda prompt as administrator & then run the python file. 2. Run the game as administrator 3. Turn on CAPS-LOCK",True
+@TheDeadking100,2021-03-15T09:19:00Z,0,"Hey Sentdex, I love this series. I have one question - How comes you did divide your image data values by 255, so that they fit between 0 and 1? I thought this was important for the model to work with the data better? Was this step left out intentionally?",True
+@tuhinmukherjee8141,2021-02-09T10:28:16Z,0,play GTA-V FOR SCIENCE!! right 😂,True
+@tuhinmukherjee8141,2021-02-09T10:01:49Z,0,"Maybe one shouldn't break the temporal/linear consistency of the data. Rather, pack the data into tuples of size 2 or 3 depending on your choice of threshold following the Markov property. Rather than shuffling the entire thing, one should shuffle those tuples rather. For eg:  1. Break the list into tuples of size, let's say 3 : new_data = zip(data[::3], data[1::3], data[2::3]) 2. Shuffle the new data instead shuffle(new_data) I might be wrong but maybe this could be a better input to feed to a neural network rather than a single frame at a time.",True
+@bohdankhv,2021-02-01T00:58:42Z,0,I'm following this series because I'm wanting for neural network from scratch series and I wanna build AI for my Android game that I made :) Much love Sentdex <3,True
+@sandeepganesh7397,2020-12-02T15:10:42Z,0,Can anyone please share their 'training_data.npy' ?!,True
+@abdengineer6225,2020-05-28T10:04:49Z,0,hello please can any one illustrate the numbers wich appear at 5:59 is it contain the slopes and what another informaition in it,True
+@deknas1407,2020-02-24T20:15:28Z,0,"This works 2020-02-24:   import numpy as np import pandas as pd from _collections import _count_elements from random import shuffle import cv2    trainin_data = np.load(""training_data-vid.npy"",allow_pickle=True)   for data in trainin_data:     img = data[0]     choice = data[1]     cv2.imshow((""test""),img)     print(choice)      if cv2.waitKey(25) & 0xFF == ord(""q""):         cv2.destroyAllWindows()         break",True
+@pwal6773,2019-04-30T00:26:47Z,34,"It looks like a recent numpy update has changed the default np.load(Path) function to have  allow_pickle=False by default. To accommodate this numpy update, I needed to change the following line in the balance_data.py script from:  train_data = np.load('training_data.npy'    to:  train_data = np.load('training_data.npy', allow_pickle=True)",True
+@jyashi1,2019-04-02T20:52:22Z,0,At what part was the labeling of images done ?,True
+@abbasshodroj6805,2019-01-26T16:48:37Z,0,any help ? :  while running balance script i get error : AttributeError: 'NoneType' object has no attribute 'fileno',True
+@cashdogg411,2018-12-04T06:17:19Z,2,"Is Training-data-vid.npy a separate file you trained, or did you ass '-vid' to the original file to see what was going on? I'm a little confused on that, thanks!",True
+@yashshrivastava1648,2018-11-26T22:45:08Z,1,"mine always showing [0,1,0]",True
+@TechAspiron,2018-11-06T00:26:22Z,0,"After getting my training data in training_data.npy and running balance_data.py, I get 'None' value for each iteration. Can someone tell me what my error is?",True
+@alexnick7119,2018-09-23T10:19:36Z,7,"This series is just so amazing! I love that you fail from time to time and your great explanations. ""every frame is its own snowflake""",True
+@i_norwe_i,2018-06-28T22:18:30Z,1,it`s amazing,True
+@akcricketlive6029,2018-06-28T19:24:45Z,0,Where is the training data hosted?,True
+@h0len,2018-04-26T13:48:46Z,0,"small question, i've created about 140 files each of 500 iterations, but when i load the files i get different counter values, anyone have a clue what is happening? wondering if it is just a memory error or something, to clarify the counter is for all of the files",True
+@sethbettwieser,2018-03-14T22:04:36Z,2,I laughed when he pasted in rights a third time at 10:43.,True
+@dosonleung536,2018-03-12T11:57:19Z,2,I think LSTM + CNN will play better grade than simple cnn cause we should know our speed as short term memory.,True
+@RAJATTHEPAGAL,2018-02-04T02:45:01Z,0,https://github.com/rajatthepagal/STU-NET-Stupid-Neural-Net/blob/master/README.md . Doing something similar and this video is what made the model even better. :-) ......,True
+@davidwang4461,2017-12-27T02:58:38Z,0,"Could anyone please explain to me why the number of data after balancing, which is 22436, is not equal to three times the least number of choices?",True
+@rohanshankar4576,2017-12-16T16:08:45Z,0,Have you trained it using a RNN? Should work better I guess.,True
+@junweima,2017-12-07T23:37:18Z,0,I feel like training with imitation learning before actual DQN or DDPG is a good idea,True
+@dennischeung3745,2017-09-19T10:42:10Z,1,"Can anyone explain more about the purpose of balancing the data? Isn't that makes ""left"" and ""right"" more important and ""straight""less important in the dataset and causing the model generate too many ""left"" and ""right"" signals than it should be?",True
+@theknight2510,2017-06-21T15:26:08Z,2,"I'm thinking that pre-allocating the memory for lefts, rights and forwards would be a lot faster. I was looking at this as inspiration for my own data (3-second audio files). I have about 700,000 of them, and pre-allocating memory helped make it blazingly fast. I was also using numpy arrays instead of lists though.  P.S. Still my favourite youtube channel. Sorry, Siraj.",True
+@bchoor,2017-06-03T05:56:23Z,0,"really enjoy your videos; would appreciate if you can balance your voice volume with your very loud keyboard. maybe possibly moving your mic, or using a different keyboard would be super awesome! still love your videos!",True
+@xR0G3R,2017-05-21T19:02:20Z,0,"You could mirror your 'right' and 'left' part of the dataset, right? That way you should be able to augment the number of the not-forward data.  Let me know if this does not work.  btw, great tutorials  :}",True
+@uobscdarkside732,2017-05-05T01:18:09Z,2,"silly question, but wouldnt setting the lengths of lefts rights and forwards equal just make each one equal probability,  as if you'd pressed them an equal amount of times thus making it pointless having done the training??? what am i missing / not understanding?",True
+@sminsms,2017-04-29T12:42:14Z,10,please do a neural network that silence the noise from your keyboard,True
+@WoodyWilliams,2017-04-24T18:41:29Z,1,"Freeze-framing at 12:34 the math of your balance slices doesn't add up. Does it matter? What's making it not add up?  70365 - forwards   6708 - rights +6427 - lefts ---------- 83500 total!! Sweet, that's = len(final_data), but...  Taking the smallest (lefts) and trimming the others to its len() should create 3x6427 = 19281 < 22436. Also 22436 % 3 != 0. Our final_data isn't really balanced??  What's causing this?",True
+@cerpokas,2017-04-21T10:09:43Z,0,You could try balance your data using weighted_cross_entropy_with_logits,True
+@XenotriX,2017-04-20T21:51:08Z,55,"1.Drive around for about 30 minutes using the directional keys 2.run balance_data.py 3.Wonder why it doesn't work 4.complain in the comments 5.try again with wasd  Btw, your vids are awesome ;D",True
+@Damaged7,2017-04-20T21:36:43Z,0,I love your videos.   I'm not a great programmer at all but seeing someone with the skills you have still mess up and have fun with it makes me feel better about all the mistakes I make.,True
+@herp_derpingson,2017-04-20T03:19:19Z,0,"Host the data separately, dont bundle it with the code. Thanks.",True
+@mugundhanbalaji,2017-04-18T21:11:38Z,2,can you explain why you did  forwd= forwd[:len(left)][:len(right)]???,True
+@rohanarora2728,2017-04-18T19:11:46Z,5,"this rocks !!! easy ,fast and efficient than the last method !!! GREAT WORK ! note - we all can share our data in github and hence every one will have huge data sets to train from!",True

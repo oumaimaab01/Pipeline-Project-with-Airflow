@@ -1,0 +1,45 @@
+author,updated_at,like_count,text,public
+@MarkJay,2017-04-05T01:33:56Z,54,male to female connectors? did you just assume their genders?,True
+@pranavgaonkar8660,2024-05-08T06:09:31Z,0,"RPi.GPIO doesn't work on RP5, what do I do?",True
+@snakey195g6,2021-03-07T02:44:28Z,1,"really great tutorial, though i think it will be better to explain how you wrote the code.",True
+@depressedyouth,2021-01-21T09:49:33Z,2,"Everytime I run distance.py, I get different results",True
+@JakeLane,2021-01-15T03:50:28Z,1,where's the schematic of the circuit?,True
+@B2Clivestock,2020-09-05T12:57:15Z,0,is there any way that distancesensor.py file runs always in the pie or we should run the command always in terminal ?,True
+@TheGamer720x,2020-07-24T12:55:36Z,0,"I'm trying this , on first go its working fine and showing the distance , however on the second run onwards it showing this error (name 'start' is not defined) which means the while loop is not getting executed, can I know what could be the reason? Is there an issue with the cable bread board hookup or something else? I'm unable to figure it out. I've connected all pins as shown in the diagram, also referenced your text version of the guide, no help there either. :(",True
+@malharjajoo7393,2020-07-23T03:05:02Z,0,Why did you need those exact values of the resistors ?,True
+@mohanaamaran2236,2020-06-23T12:29:54Z,0,Sir u have ultrasonic with buzzer python coding please mail me sir,True
+@ohtych1004,2020-06-04T03:57:13Z,0,what is the maximum length a distance sensor could do?,True
+@isrs123,2020-06-04T00:21:01Z,0,it's can work with tf mini lidar?,True
+@sambase123,2020-05-21T19:02:58Z,0,"Can someone explain me resistors, Why are they connected that way?",True
+@luki0411,2020-03-29T11:47:08Z,1,"Damn man, you make good tutorials on how to do something but you make no effort to explain how it works.  If i were not familiar with python i would probably quit already, try to explain why you do what you do and show what you're doing(especially connecting all those things to the breadboard) because skipping crucial parts of the tutorial is like with the Owl meme when you just draw 2 circles and then draw the rest of the owl. Anyway i know it's a series from 2017 soo a lot could change. Cheers.",True
+@lerymisandari4015,2020-02-18T01:39:43Z,0,it works for the first couple of times then it just doesn't suggest me to write anything. I can write but it doesn't do anything. so I just have to reconnect to the pi every time after running this program.,True
+@NA12495,2020-02-09T22:34:53Z,0,"import RPi.GPIO as GPIO import time  GPIO.setmode(GPIO.BCM)  TRIG = 4 ECHO = 18  GPIO.setup(TRIG, GPIO.OUT) GPIO.setup(ECHO, GPIO.IN)  GPIO.output(TRIG, True) time.sleep(0.0001) GPIO.output(TRIG, False)  while GPIO.input(ECHO) == False:     start = time.time()  while GPIO.input (ECHO) == True:     end = time.time()  sig_time = end - start  #cm: distance = sig_time / 0.000058  #inches: 0.00048  print ('Distance: {} cm'.format(distance))  GPIO.cleanup()      Error, line 22 name  'end' is not defined.  It worked a few times... don't know if it is the code, maybe a difference in versions or hardware.  annoying either way",True
+@phbmeletrico,2019-11-07T15:09:59Z,1,"Great video!  I didn't understand where the 0.000058 came from, someone can tell me please?",True
+@jcoronet2000,2019-07-06T07:52:31Z,0,"why did he use     print('distance {} cm'.format(distance)) would     print(""distance "" + str(distance) +  "" cm"")  yield the same result?",True
+@JulianMakes,2019-06-04T14:10:52Z,4,"Great tutorial. I’m getting the distance fine, but also receiving a runntimewarning, this channel is already in use.",True
+@vovk50,2019-04-25T10:05:28Z,0,Thank you for all your videos ! :),True
+@okiseeyou,2019-03-24T21:29:18Z,3,"ran into a weird issue where every other time the program ran, one of the WHILE loops would not run and it threw an error since the Start or End times would not be defined. For anyone else experiencing this issue, adding the following 2 lines immediately after the GPIO.setup seems to fix this.       GPIO.output(TRIG, False)     time.sleep(0.1)   Hope that helps, I was pulling my hair out for an hour.",True
+@runelynx,2019-02-20T07:05:54Z,0,"Hi... question. I followed a sample for LED control that imported LED from gpiozero. I then define the LED's pin and turn it on, off, make it blink, etc. When I run that in Thonny on the desktop, the LED works flawlessly. When I run it from the terminal, nothing happens. If I run python in the terminal and singularly enter the same lines from my .py file - it works.  .... why is this happening?  When you execute the python script from terminal it works fine! :(",True
+@pwr82,2019-02-10T17:00:51Z,1,"Hi Thanks for the tutorial.  I seem to be able to get my code to work ok but sometimes when I run it I get this error message instead: Traceback (most recent call last):   File ""/home/pi/Desktop/PythonCodesThatWork/ultrasonic/ultrasonicBasic.py"", line 29, in <module>     sig_time = end-start NameError: name 'start' is not defined >>>   Could you advise please? Thanks",True
+@nileshyadav7010,2019-01-15T00:45:25Z,0,Can you provide a python code for interfacing gas sensor MQ135 to arduino and then to Raspberry pi 3.?,True
+@stefanengstrm5271,2018-12-09T20:00:21Z,0,Is it possible to make a water resistant case to this sensor? And is it possible to make an app or web page  that shows a indicator shows from 0-100? Want to make a sensor to my septic.,True
+@praveenkhanna783,2018-11-30T11:19:37Z,0,"getting error import RPi.GPIO as GPIO ModuleNotFoundError: No module named 'RPi'",True
+@paulf1303,2018-11-05T21:50:04Z,0,"sig_time = end-start NameError: name 'end' is not defined What should I do?",True
+@imhuman8635,2018-10-15T13:01:23Z,0,what software to use...,True
+@mitkosokolov9382,2018-07-06T13:20:38Z,0,Can someone help me to run this kit with digi ESP for python  https://www.digikey.com/product-detail/en/digi-international/XK-Z11-T-W/602-1598-ND/3482851 ?  tom1000@abv.bg,True
+@tommillerable,2018-06-29T02:34:08Z,1,I am getting an infinite loop  during the first while loop.  It never seems to change for some reason. I am pretty sure I have everything in the correct position. Any ideas?,True
+@sovatnaphon9384,2018-05-02T04:57:39Z,0,How to calculate Resistance of this connection?,True
+@MauricioMartinez0707,2018-03-30T04:37:45Z,0,"I know this video was posted a while back, but what's the intuition on how you're connecting these things on the bread board/pi? Do you just know this stuff already, or is there some other guidance on line?",True
+@sudipta_samanta,2018-03-23T20:14:09Z,4,Can you please explain what are those two while loop doing? I can't get that. As I understand : GPIO.input(ECHO) is false previously and start time will be set in first while loop. but end time will be modified till the sensor is on. right?,True
+@mementorequiem,2018-03-21T19:03:38Z,3,"I'm puzzled, perhaps someone can help:  a) where do we get the 0,000058 from?  b) why are we dividing and not multiplying?  I was taught at school that:  distance = speed of sound * elapsed time  1) speed of sound at 20*C is 343 m/s -- we want to know the distance in cm, so we have to convert 343 m/s = 34 300 cm/s 2) elapsed time... shouldn't we divide by 2... since sound wave emitted by the sensor makes a round-trip (from sensor - to object - back to sensor)? 3)... I'm clueless. :(",True
+@amanarora476,2018-03-21T13:20:10Z,0,"Great tutorials, all off 'em! Great work!",True
+@yoeriyoeri4264,2018-02-28T21:03:34Z,0,How should I know wich resistor must look at what side... sorry for bad English,True
+@peterrodinis7634,2018-02-13T00:57:23Z,3,How do you know how much resistance to add between echo-in wire and ground and between sensor and echo-in wire?  Could I look up resistance of LED and add that into my circuit?,True
+@TheGamerforlife,2018-02-10T07:30:40Z,0,I'm getting an error : this channel is already in use,True
+@kolimachirouf4799,2017-12-17T18:56:28Z,0,"Runtime ERROR: GPIO.output(TRIG, False) "" the GPIO channel has not been set up as an output . please help",True
+@nasywinmashud324,2017-07-26T16:56:10Z,0,"I've got problem to run..  ""GPIO.setup(TRIG,GPIO.OUT) NameError: name 'GPIO' is not defined"" Please help me fix this..",True
+@jatinkumarpatel2407,2017-06-21T12:00:16Z,0,I am facing problem with following message while  accessing GPIO.... GPIO.setmode(GPIO.BCM) ..AttributeError: 'module' object has no attribute 'setmode'...what to do?,True
+@hariprasaath3306,2017-06-09T07:57:34Z,7,can you post a circuit diagram for it??? That wil be of more use,True
+@Jamer1Smith,2017-05-16T04:06:28Z,1,In this case: while GPIO.input(ECHO) == False:        start = time.time() What would happen if you type TRIG instead of ECHO and True instead of False? would be the same? Btw great tutorial!!! big fan of yours.,True
+@taufiqrahman2363,2017-04-07T16:55:54Z,0,Thanks again for another awesome video! But when is the next Q/A session gonna be held ? :/,True
+@Promar22,2017-04-06T09:05:10Z,0,"Is it possible to have it read and print distance values in real time like what happens with arduino, if so how? Thanks in advance!",True

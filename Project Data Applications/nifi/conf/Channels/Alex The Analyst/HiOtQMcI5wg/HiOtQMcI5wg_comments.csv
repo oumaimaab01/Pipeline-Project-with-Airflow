@@ -1,0 +1,341 @@
+author,updated_at,like_count,text,public
+@BummerSlug,2021-08-24T13:30:36Z,231,The real talk is nice. “It took ten hours over two weeks”. These are things people need to hear. Some people watch these videos on YT and think it is just that easy. This is why your channel is on my short list of channels I subscribed to. Thanks for all your time on these.   Hey MS Excel - sponsor this channel!,True
+@justinwelsh7376,2024-05-22T02:10:59Z,0,So converting the price into an f string due to Amazon changing the HTML causes an issue with the price check sending an automated email because of str and int.,True
+@nezerm2363,2024-05-19T20:32:52Z,1,"""AttributeError: 'NoneType' object has no attribute 'get_text'""  to solve this               delete headers",True
+@thinkALF07,2024-05-19T11:32:06Z,0,"Wow, this is EXACTLY what I have been looking for. Alex the GOAT in DA. :)  You are 1000x Awesome!",True
+@lukanatsvlishvili7726,2024-05-12T11:55:02Z,0,"Alex, could u link another video for parsing of all items?  Thank <3",True
+@sunuirfan2139,2024-05-01T16:13:54Z,0,my 'get_text'  'NoneType' object has no attribute 'get_text',True
+@sreel6065,2024-04-23T18:43:32Z,0,"Hi, thank you so much for showing interesting ways we can use web scraping.  While I was watching your video, an ad popped up showing an 'AI web scraping tool'(forgot the name). Just want to know, is it good to use web scraping tools which saves a lot of time in real time projects? Do you recommend any AI web scraping tool? Thank You so much for helping many with your videos!",True
+@annicesullivan,2024-04-23T15:43:12Z,0,"Thanks for the clear tutorial! Any recommendations for reliable proxies to keep my scraping sessions smooth and secure? Came across scraping proxy packages on Proxy-Store, anyone tried them? Are they safe to use?",True
+@user-vy8kk9ob3s,2024-04-22T08:17:41Z,0,"Hi Alex,  I have learn a lot from 65 videos of the Bootcamp. God bless with everything. Thanks!!!",True
+@ShortClipsPodcasts,2024-03-28T21:35:04Z,7,anyone stuck trying to get the price.      price_symbol = soup2.find(class_='a-price-symbol').get_text(strip=True) price_whole = soup2.find(class_='a-price-whole').get_text(strip=True) price_fraction = soup2.find(class_='a-price-fraction').get_text(strip=True) price = f'{price_symbol}{price_whole}{price_fraction}'    print(price),True
+@AbdouChaabani,2024-03-28T00:23:38Z,0,Thanks bro great work  Are there any further complex projects with pagination and those stuffs .,True
+@tinah426,2024-03-26T11:07:26Z,0,"I am kindly looking for assistance, I keep getting 'NoneType' object has no attribute 'get_text'  @ 14:47",True
+@kamsais4493,2024-03-21T19:05:18Z,1,"I've been trying to get the price, but everytime i try it gives me an error message saying 'NoneType' object has no attribute 'get_text' tried different ways to get result but nothing, i think the ID changed",True
+@ZzZzZiggy,2024-03-20T11:32:35Z,0,"Hey, Alex. Did you ever go through with the more complicated follow-up project? Mutiple products listed on multiple pages? 🤔",True
+@asmitaupadhyay4656,2024-03-18T01:18:30Z,0,"i am geeting problem of price not found what to do someone please help Title: funny data analyst definition data scientist T-Shirt Price not found. Selection deleted",True
+@markchinwike6528,2024-03-13T12:00:24Z,0,"Thank you so much, Alex! Your teaching style has made learning incredibly enjoyable and accessible. I've learned a lot in just one month and completed my portfolio projects, even though I skipped Excel and Power BI for now. Your anecdotes about your dog, family, and personal experiences have added a fun touch to the learning process. Your impact on learners like me is undeniable, and I'm looking forward to purchasing a course from your website soon. Keep up the fantastic work! 🥂🥂",True
+@skugga7,2024-03-12T17:57:29Z,1,This project gave me a taste of how challenging web scraping is. Great video that makes things look easy and less intimidating.,True
+@austenbach4987,2024-03-08T21:47:30Z,0,I'm watching this in 2024 working on learning all the tools to become a Data Analyst and just realized that the price of the shirt never went up since inflation. I might need to buy myself one now lol,True
+@echodelta7680,2024-03-04T14:28:38Z,0,It's not that he is skilled and dedicated. It's all about cool glasses and a cooler bald head jeez!  /sarc off ;),True
+@nevinphilbert,2024-02-29T07:45:01Z,7,"man i've been battling with the bot blocker from amazon and also some scraping issues with price because the website display was changed a while after this video was uploaded, but I've managed to pull it off so i hope this might help those recent viewers who might be as confused as me when I started writing this code on my own.  apparently you need to divide the second cell so you need to run the soup1 first before you run the soup2, then for the price you need to pull three part of span class=a-price-symbol, span class=a-price-whole, and span class=a-price-fraction and combine it together into 1 new variable (price), then you need to clean it using strip() and replace() to clean the whitespaces and \n's.  hope this helps!",True
+@Thomas-1023,2024-02-25T09:43:43Z,0,"I'm obsessed with this content. I had the pleasure of reading something similar, and I was completely obsessed. ""Mastering AWS: A Software Engineers Guide"" by Nathan Vale",True
+@bernardnader,2024-02-09T22:09:32Z,0,Thanks so much Alex!! Just what I was looking for.,True
+@michaelg9359,2024-02-01T00:08:24Z,0,"Keep getting error:   AttributeError                            Traceback (most recent call last) Cell In[81], line 20      16 soup1 = BeautifulSoup(page.content, ""html.parser"")       18 soup2 = BeautifulSoup(soup1.prettify(), ""html.parser"") ---> 20 title = soup2.find(id='productTitle').get_text  AttributeError: 'NoneType' object has no attribute 'get_text'   * I notice going through the script that there are no IDs in it...Made sure the website url was correct...any ideas?",True
+@Splarkszter,2024-01-24T14:56:49Z,0,A bit disappointed this doesn't use Libre software and people are adoctrinated onto paid software.,True
+,2024-01-23T17:16:32Z,6,"Help im really having issues with   ""AttributeError: 'NoneType' object has no attribute 'get_text'"" I have tried everything I could think of, how can I resolve this.",True
+@abdallahibrahim3864,2024-01-17T17:22:59Z,3,"If anyone sees this, as of Jan 2024 this does not work because of Amazon. Sorry for everyone trying to do this project and for Alex's time going to waste",True
+@sj1795,2024-01-08T02:08:38Z,1,"Hi Alex, I really appreciate how you shared how long this project actually took you. It helps to know the difference between what we go through on your channel and the work/time it actually takes behind the scenes. AWESOME project! I learned tons and found all of it very useful/helpful. You are such an AMAZING teacher and resource! As always, THANK YOU!!",True
+@jeevanbuddala734,2024-01-06T09:05:52Z,0,"AttributeError                            Traceback (most recent call last) Cell In[9], line 21      15 #print(soup2)      17 title = soup2.find(id='productTitle').get_text() ---> 21 price = soup2.find(id='priceblock_ourprice').get_text()      23 print(title)      24 print(price)  AttributeError: 'NoneType' object has no attribute 'get_text' please rectify this error.  I'm getting this type of error while declaring the price with its id but I found out that html source got updated I am not able to find the particular id can any one help  me out",True
+@valentinkadushkin324,2024-01-02T14:21:56Z,1,This completly doesnt work. Null is returned for every acces try,True
+@lamartinezola8507,2023-12-25T19:55:35Z,0,L' Islam a gagne,True
+@shortsbydipali,2023-12-18T22:47:14Z,0,"Hi Alex, I am trying this project in 2023 and it seems Amazon does not allow scraping despite providing header parameters. any suggestion what else can be done?",True
+@digitalnomad2196,2023-12-15T03:41:20Z,0,"Is the multiple data project out, cheers !",True
+@gogor8017,2023-12-14T15:53:39Z,0,o kelini yerim senin,True
+@bolajiawofuwa8116,2023-12-13T20:37:53Z,1,"tried to use the code df.corr() but got this error  ValueError: could not convert string to float: 'AFG'  chat gpt gave me this  # Get only numeric columns for correlation numeric_columns = df.select_dtypes(include='number').columns  # Calculate correlation matrix for numeric columns correlation_matrix = df[numeric_columns].corr()  AI saved the day   so this code wont work either since the previous step was different this wouldn't work either  sns.heatmap(df.corr(), annot = True)  plt.rcParams['figure.figsize'] = (20,7)  plt.show()  so try this instead  # Plot heatmap sns.heatmap(data=correlation_matrix, annot=True) plt.show()",True
+@serratv5567,2023-12-08T12:51:49Z,1,I got an error like ; 'NoneType' object has no attribute 'get_text' . Is there anyone can help,True
+@ReynaldRam,2023-12-07T10:36:34Z,0,"If someone wonders how to scrap the price because theres no id use,  Price = soup2.find(""span"", {class:""a-price""}).find(""span"").text.strip() The strip at the end is for removing blank space",True
+@nguyen3399,2023-11-27T16:06:27Z,1,i tried get_text and  it didnt work,True
+@thisissam504,2023-11-20T12:29:13Z,0,Hey Alex.....Thank You For teaching us ......,True
+@FabioRBelotto,2023-11-15T21:19:33Z,0,Could you say a little bit about using such codes or using a library as scrapy?,True
+@alphav35,2023-11-10T06:57:20Z,1,"I have some issues with the creation of AmazonWebScraperDataset.csv When i execute the code, this appear: '_csv.writer' object is not callable What can i do ?  Here is the code: import csv  header = ['Title', 'Price','Today'] data = [title, price, today]  with open('AmazonWebScraperDataset.csv', 'w', newline='', encoding='UTF8') as f:     writer = csv.writer(f)     writer.writerow(header)     writer.writerow(data)",True
+@fernandamello837,2023-11-10T03:38:23Z,0,"Wow!!! This is awesome!!! You have so easy way to teach, I already have a base with Python but I’ve never made this before and you make this so smother and easy to do!!!! Thank you thank you ❤",True
+@jachimmachristian457,2023-11-03T17:03:36Z,0,"Please anyone, so you'd create an empty csv file and tag it in your code?",True
+@Jj-th8vl,2023-11-02T21:24:45Z,5,"Hey Alex, first I want to thank you for this amazing series and everything you do to help the community.   Second, I am working on this project and it seems Amazon implemented a CAPTCHA to prevent scrapping. Is there any way around this? Would love to know if this project is applicable and doable even 2 years later. Cheers!",True
+@user-gk1nl5cw3o,2023-11-02T05:59:36Z,0,@Alex i have a question that how can i pull data from the IBM Doors ? it doesn't give the proper HTML also first.,True
+@Ghazanfierce,2023-10-19T09:06:15Z,2,"Sorry to say, But This Code is OUTDATED now The inly solution I seem to gather is that you need SELENIUM to scrape the Amazon site now...",True
+@user-er4no9op3u,2023-10-16T19:48:11Z,1,"Hey Alex, whatsup ! When I try to run this script alongside (literally verbatim), still I keep getting below: ""Bad request. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner.""  What am I doing wrong?",True
+@mhishamt7012,2023-10-12T09:06:51Z,0,"showing this error (AttributeError: 'NoneType' object has no attribute 'get_text' "" ) for the below code.  title = soup2.find(id='productTitle').get_text()  AttributeError: 'NoneType' object has no attribute 'get_text'",True
+@harikrishnasadhu9581,2023-10-09T10:18:55Z,0,"Can anyone help me ,  After running soup1 i am getting error as ""Javascript Error: too much recursion"" can anyone please help me out.",True
+@user-jq9vf3uk5d,2023-10-08T12:27:26Z,1,Hi Sir  I have saw whole playlist and in this video i have an error of get_text() ..... please help me,True
+@tomgreg2008,2023-10-01T17:19:00Z,0,"Helpful, thanks! Where is the followup video, please?",True
+@krahul456,2023-10-01T12:58:03Z,0,Wholesome Content !!! Thanks a Lot !!,True
+@pulkitchoudhary7246,2023-09-28T04:12:26Z,0,Amazon no longer allow users to scrape their website so can i use any other shopping website for this project? @Alex The Analyst .,True
+@cookies521400,2023-09-28T00:40:43Z,0,"i keep getting this error. if anyone figures it out, plz lmk  AttributeError                            Traceback (most recent call last)  Cell In[7], line 15      11 soup1 = BeautifulSoup(page.content, ""html.parser"")      13 soup2 = BeautifulSoup(soup1.prettify(),""html.parser"") ---> 15 title = soup2.find(id='productTitle').get_text()      17 print(title)  AttributeError: 'NoneType' object has no attribute 'get_text'",True
+@katerinasonja3809,2023-09-25T18:01:43Z,2,"I couldn't find the id for the price, but price = soup2.find('span', class_='a-offscreen').get_text() did work for me.",True
+@simoyland,2023-09-25T08:21:00Z,1,"Always thank you for all your efforts and good work! I love watching your videos. Your positive attitude and way of expression make the lesson even more fun. I've seen a few people say the video is too long, but I think being able to walk through the lesson together rather than other videos that show written code is much better for learning. Thank you thank you thank you ☺",True
+@neildelacruz6059,2023-09-24T15:23:28Z,0,"Simply the best video, thanks Alex.",True
+@Tesseus2006,2023-09-22T14:54:06Z,0,"Loved the video.  But I really bursted out laughing when you said: I don't want my head to be here for the entire time. I'm gonna get rid of myself!""  I thought to myself: Not a good head space to be in. 😅 You are naturally funny.  Thanks for the knowledge and laughter.",True
+@s_john123,2023-09-18T05:12:03Z,0,"When I am trying to run the first set of code, I am getting this error 'NoneType' object has no attribute 'get_text'",True
+@alvarobayardi7576,2023-09-17T23:52:29Z,0,"Hi, I need help:  title = soup2.find(id=""productTitle"").get_text() print(title)  AttributeError: 'NoneType' object has no attribute 'get_text'",True
+@sdlfjlsdirnsfsi232qrlfn,2023-09-17T12:08:40Z,0,alex you are pure heart,True
+@kulbhushannarendrapatil21b35,2023-09-15T08:32:01Z,3,I am getting this error : oneType' object has no attribute 'get_text'. What to do in this,True
+@dmitrychechenev2320,2023-09-09T21:34:18Z,0,CAPTCHA,True
+@alexemmes7409,2023-09-07T13:26:39Z,1,"I tried running the second cell with print(title) and i received an error, after some digging on stackoverflow, apparently Amazon introduced a captcha prombt basically saying you have to prove you're not a bot",True
+@hafsahshazmeen1446,2023-08-17T12:13:31Z,1,This man a God send gift to ALL the Broke data analyst students,True
+@pangtoubear6923,2023-08-11T16:28:04Z,4,"Very nice tutorial! The amazon seems to change the code on the id = priceblock_ourprice part, could you update the code accordingly?",True
+@jan-davidwiederstein1543,2023-08-09T15:29:44Z,0,I just wanted to scrape costumer ratings but my requests got blocked by amazon. It seems like you must nowadays use the official API from Amazon to get programmetely the Data. and it isnt for free. or am i wrong?,True
+@reshuraj5005,2023-08-08T13:36:22Z,3,"you're already doing a great job man. Thanks a ton, and hats off to you. But, We need that part 2. Please do it asap Alex.",True
+@prempatkar2372,2023-08-03T18:08:03Z,2,"Hi Alex I have a question I am unable to the title and price even after following the process but I get an error called   Title element not found. --------------------------------------------------------------------------- AttributeError                            Traceback (most recent call last) Cell In[16], line 18      15 else:      16     print(""Title element not found."") ---> 18 price = soup2.find(id='a-price-whole').get_text()      19 print(price)  AttributeError: 'NoneType' object has no attribute 'get_text'",True
+@udohlawrence1416,2023-08-01T18:47:52Z,1,"In the video, Alex mentions working on another project where he'll use data from multiple pages. Please, how do I access the video?",True
+@millenniumkitten4107,2023-07-31T18:11:47Z,0,Blocked by the captcha 😭,True
+@bacariruff6603,2023-07-22T15:05:13Z,1,I keep getting none for request its stressing  me out,True
+@zweedao4990,2023-07-20T09:28:54Z,4,"Here is a potential fix for the common error: change ""html.parser"" to ""lxml""",True
+@avtomat2423,2023-07-18T14:28:56Z,1,Does anyone know what i should do if i get data and i can transform it into CSV but all this data is displayed in one line?,True
+@greatmindsets01,2023-07-17T22:30:49Z,0,with that being said❤,True
+@user-le2ei6ue7l,2023-07-15T19:22:45Z,0,"Very good, but would you be able to put a link to the product page down with the other links?",True
+@melgasonio5458,2023-07-14T15:56:08Z,5,"Hello Alex. For some reason, it's giving me this error for the print(price): 'NoneType' object has no attribute 'get_text'.",True
+@analyzethislexi,2023-07-09T02:53:37Z,0,Hi ! Did the 2nd part video to this for multiple items on multiple pages ever come out?,True
+@litoavila.,2023-07-06T04:17:09Z,0,"You have 3 kids! and you are 28, omg you are back as my old wise sensei, master yoda.",True
+@DulipFernando-ku1to,2023-07-06T01:49:27Z,0,"Hi Alex , I was trying to get the price , it didn't work for me, I got the error message  I don't know why?",True
+@riteshkumar1497,2023-06-28T17:46:55Z,5,NoneType' object has no attribute 'get_text'.   Iam facing this error,True
+@miagobeli-starr,2023-06-25T05:30:57Z,1,12:23 already stuck 😭 the URL is coming back as an error it also says ‘requests’ is not defined.. any advice 🥲,True
+@andreymoroz8204,2023-06-13T09:42:22Z,2,"Hello Alex!   One more step is done!!! It's so exciting, I got stuck at the stage where I had to get price data. I missed this metric to be scraped. Since the time you recorded this video some parts of html have been updated. So now price does not exist in the format of ""ID="", it lives now as ""div class="". So now it is challenging for to find out how to scrap the price though :))) will go deeper to the topic. Thanks much for your time and for sharing of your knowledge.",True
+@ExcelwithDaniel,2023-06-11T07:41:59Z,1,"Hi Aleks, i try following your steps but I noticed i didn't pull the whole HTML data from the site and I think the error came from where you copy and paste the URL, you didn't explain that part in details.",True
+@everyany4161,2023-06-08T11:35:44Z,0,"Hi! Thank you for your tutorials.   However, I keep get a name error on the pag requests line, do you know what could be the cause?",True
+@leahkatxo,2023-06-04T00:10:47Z,2,This doesn't work anymore. Bummer!,True
+@henshawbassey697,2023-06-03T09:28:04Z,0,Thank you Alex,True
+@toddyssey34,2023-05-31T23:56:34Z,0,"I am trying to get the price however, I cannot find the span id when I look through the inspect section. I tried selecting a size of a tshirt, which populated ta span id in the inspect section but the code does not pull the price still. Do you or anyone else might be able to give any other suggestions for me to try in order to fix this? thank you",True
+@kylerayner1103,2023-05-30T16:25:38Z,0,Is the Amazon Search results scrapper project video out already?,True
+@ildacengu1468,2023-05-27T23:20:53Z,1,"I followed the project till the 30:22 min,but I take as a result only title and price,without the Date even though I have followed all the steps just like Alex did and everythin went well without any error. @Alex the Analyst can u give me any suggestion or somebody that might have gone to the end of the project?",True
+@malishagavali9225,2023-05-23T20:07:27Z,1,"i tried the same for a keyboard on amazon but there is no id in span element for the price, but there is class,  butits giving error",True
+@okonkwolouis902,2023-05-22T09:46:52Z,0,"Hello Alex, thank you so much for all you do. I am using this video now when Amazon doesn't include the word 'price'. While inspecting how do I go about that. I hope you reply because I am sure lot of new learners are having this issue.",True
+@okonkwolouis902,2023-05-22T09:46:51Z,2,"Hello Alex, thank you so much for all you do. I am using this video now when Amazon doesn't include the word 'price'. While inspecting how do I go about that. I hope you reply because I am sure lot of new learners are having this issue.",True
+@anushanthr5159,2023-05-20T05:58:33Z,0,"Hi, It shows, No module named 'requests' for me. Can you clarify what issue it is ?",True
+@stanleya5031,2023-05-19T07:07:16Z,0,Hi Can anyone tell me please here why why we need to use header  ?,True
+@Adaeze_ifeanyi,2023-05-18T11:10:18Z,0,"Please who knows how to extract date from a webpage in python, i have searched and searched and nobody seems to know it.",True
+@pavanpatil2596,2023-05-17T12:28:13Z,0,when you will upload next project on amazon web scrapping,True
+@Headkrakk,2023-05-15T18:20:43Z,3,"Keep getting met with the below error message. Any recommendations?  AttributeError                            Traceback (most recent call last) Cell In[33], line 13       9 soup1 = BeautifulSoup(page.content, ""html.parser"")      11 soup2 = BeautifulSoup(soup1.prettify(), ""html.parser"") ---> 13 title = soup2.find(id='productTitle').get_text()      15 price = soup2.find(id='priceblock_ourprice').get_text()      17 print(title)  AttributeError: 'NoneType' object has no attribute 'get_text'",True
+@SaffronKage,2023-05-11T12:48:45Z,0,"I second that thought @Luis Ramos and honestly the video are really helping me better understand each topic in Data science with more depth and something more to try on myself piece of advice to fellow learners "" Data science is not as simple as it was 2 years ago its been super competitive as there are 100 more individuals just to replace you so do expect hardships if you got the analytics skill keep polishing it """,True
+@varunsingh545,2023-05-09T15:05:44Z,0,this video makes sense...where is data....?? what meaningful have we done with data...what conclusion we draw from applying ops to data...?? totally weird video,True
+@kyleluckritz2077,2023-05-08T21:26:51Z,0,Does anyone know if part 2 to this video has been released? Really looking forward to it.,True
+@kendrasdustyroad,2023-05-08T02:31:56Z,3,Dude! I'm an amazon seller and this kind of work would come in super handy. Thank you. Did you ever get around to making the next video where you pull data from all the search results page? I'd be really interested to see that one.,True
+@capybaRoger,2023-05-04T22:50:04Z,0,"This is so helpful, PART2!!!!!",True
+@eleonorpatak4698,2023-05-04T17:39:12Z,0,Hey! Thx for the tuto! But I want to know if it is well seen to put scrapping Amazon for a project in our resume? If not how to enhace that we collect the data by ourselves?,True
+@Olassia,2023-04-24T17:23:05Z,2,Anyone figure this out?:  AttributeError: 'NoneType' object has no attribute 'get_text' I've already added a referer and such.,True
+@QuizBits02,2023-04-24T04:29:54Z,0,When will the next part come?,True
+@shivangisharma3696,2023-04-21T13:28:15Z,8,"Done this project recently and anyone faces the error please edit the code and write this instead  title = soup2.find('span', attrs={'id':'productTitle'}).get_text() price = soup2.find('span', attrs={'class':'a-price-whole'}).get_text()",True
+@TaraShakya,2023-04-17T07:03:51Z,0,I go this error: NameError: name 'requests' is not defined I solved it by  pip install requests and running the code again,True
+@sohrabkhan9590,2023-04-13T11:40:04Z,2,"Hey Alex, thank you for creating such a informative bootcamp.  Quick Question: I'm unable to scrape 'Price'.  -- price = soup2.find(id = 'taxInclusiveMessage').get_text()  I did the same for title, and it worked. Instead for price, its showing this error -   -- 'NoneType' object has no attribute 'get_text'   What should I do?",True
+@justinnacu,2023-04-06T14:17:18Z,1,"I kept getting error that says the id='priceblock_ourprice' cant be find, I Inspected the website and did the steps you showed but could not find it. Is there a way to fix this?",True
+@EldenSoulsVids,2023-04-06T04:22:11Z,0,"to find some text from a class instead of id you have to type ""class_"". The would class doesn't work since it is a python keyword",True
+@user-pm2he5nc7v,2023-04-05T19:31:19Z,0,"Can you please help me understand why I get this error message. I  got the same error message when I tried to print the title and for whatever reason I was able to get the results with out altering the code but now I'm having the same issue  with printing both the title and price.  --------------------------------------------------------------------------- AttributeError                            Traceback (most recent call last) Cell In[48], line 11       7 soup1 = BeautifulSoup(page.content, ""html.parser"")       9 soup2 = BeautifulSoup(soup1.prettify(), ""html.parser"") ---> 11 title = soup2.find(id=""productTitle"").get_text()      13 price = soup2.find(id=""priceblock_ourprice"").get_text()      15 print(title)  AttributeError: 'NoneType' object has no attribute 'get_text'",True
+@trarihamza7047,2023-04-03T20:18:27Z,0,"Hello Alex thanks for this great tutorial , how to go through whole list of items ?",True
+@victoriadunkley3991,2023-03-30T02:57:22Z,0,Did he ever put out the video he referenced where he scraped multiple pages?,True
+@captaiincold6275,2023-03-28T09:50:54Z,0,When's the next video coming?,True
+@patcharaphanjearsavaswatta6149,2023-03-25T15:23:40Z,3,"Thank you for this, Alex. I felt so happy when I finally could scrap the website I had been trying to scrap (I applied your teaching to another website). Really appreciate your work.",True
+@mdoz,2023-03-17T09:01:17Z,0,Great Video! really helpful. 👍,True
+@ayoadeyina3951,2023-03-16T19:50:40Z,2,Did anyone run into an AttributeError: ‘NoneType’ object has no attribute ‘get_text’ when trying to print the title of the Amazon page?,True
+@ayoadeyina3951,2023-03-16T19:49:15Z,0,Did anyone run into an AttributeError: ‘NoneType’ object has no attribute ‘get_text’,True
+@kamogelokhumalo4792,2023-03-16T15:56:51Z,0,"Thanks a lot Alex, I have learned a lot from your channel. Please keep on posting",True
+@khaledemad7391,2023-03-09T01:44:08Z,0,Can you provide the link for the next project?,True
+@Digital-Light,2023-03-05T15:20:47Z,0,i think this metod isn't work anymore  :(,True
+@Joraszs,2023-02-28T20:21:54Z,0,"Hey @Alex The Analyst, I'm running into issues trying to run the first block of code. I even went as far as copying your code from GitHub and changing the User Agent information, but it is giving me SSLCertVerificationError, and I have no idea how to get past that. Is this due to Amazon changing its allowance of web scraping? Or am I messing something up?",True
+@oyemeziechukwuemeka7679,2023-02-26T00:04:59Z,1,"Alex, how can i scrap a website using the class attribute rather than the ID",True
+@shannyshan74,2023-02-24T07:29:12Z,0,Why I'm getting attribute error none type while doing price part..?,True
+@paulbuono5088,2023-02-21T20:23:23Z,2,"The code gives me an error with the price (the product title works though). I get an error ""AttributeError: 'NoneType' object has no attribute 'get_text'""",True
+@anuragbawankar685,2023-02-21T13:23:38Z,0,Thank You So Much !!!,True
+@SayedKassem-pn7tr,2023-02-18T12:11:27Z,0,i had to use selenium to do the scraping since their website is dynamic now! beautifulsoup was not up for the job to scrape data,True
+@vish949,2023-02-17T09:03:24Z,0,this content is insane and im go glad i found your channel! I was wondering if you would like to create a video around how to login to a website with credentials (eg: netflix or youtube) and then extract any csv files from that site?,True
+@foodamormore,2023-02-15T18:30:50Z,3,"so whoever is not able to find the id for the price and are getting tag 'span' and class on clicking on the price(mentioned on the website of the product) in inspect can follow this code   price=soup2.find(""span"", attrs={'class':'a-price-whole'}).text.strip() print(price)   replace 'a-price-whole' with whatever you are getting for the class",True
+@SayedKassem-pn7tr,2023-02-15T13:12:26Z,1,"Your tutorials are so good. and i follow you on LinkedIn, your content is awesome. i love how you explain things in a clear way. keep up the great job!!",True
+@foodamormore,2023-02-15T11:37:24Z,0,hey as you pulled the html data by any chance is there a possibility that we could just copy and paste it in python  from the insepect?,True
+@abdouelkafrawy1726,2023-02-13T18:47:29Z,11,"it's been a year on this project and despite me searching and watching other channels, I always come back to your channel ,you are simple the best person I have learned from . you are genuine and always able to get your point across .I hope you expand your ""python for data analysis"" series just like you did with SQL. Thank you so so much .",True
+@WaheedKhan-bq3sl,2023-02-06T23:31:52Z,0,"what he puts in headers after =?? code link shows different sequence, i dont fint it all in that link, do i need to just copy and paste all code in that link, to headers="" ""?? please help, stucked at the beginning",True
+@mehdilee,2023-02-05T17:24:13Z,0,What if i want to analyze another website's sales statistics?,True
+@ArtAndTechWithNicolas,2023-01-31T22:50:23Z,0,"Great video, thank you very very much.",True
+@ArtAndTechWithNicolas,2023-01-31T20:12:32Z,5,"When I try to run the first cell, I get the error message <‘NoneType’ object has no attribute ‘get_text’> I think Amazon updated their site to make it harder to scrap data. Do you agree?  (Edit) Fix: soup2.find(‘span’,{‘class’:”a-offscreen”}).text.strip()",True
+@pocketsfullofdynamite,2023-01-28T04:54:18Z,0,"Very helpful. Also a request, could you show a way where a login is needed to get to the contents. Maybe some API thing.",True
+@AI-ru9uc,2023-01-27T00:54:54Z,0,Sir why u used 10 h for this sample script ? 😂,True
+@juandavidmoralesnavarrete3072,2023-01-18T17:58:59Z,7,"This seems like an amazing project, sadly something change in Amazon policy for scrapping their data and I couldn't access, if someone find a way to make it work I would love to hear it 😁I'll keep going with the other projects!!",True
+@AliRachid,2023-01-18T05:21:57Z,0,How to handle the captcha?,True
+@henriquealmeida3045,2023-01-17T18:48:00Z,0,"Hi Alex, great work as always! Are you still going to make the second Web Scraping video?",True
+@adisonfryman144,2023-01-12T16:42:20Z,0,@AlexTheAnalyst  Did you ever make the second video? I am dyeing to see it!,True
+@vintage-cartoons,2023-01-11T04:22:11Z,2,Really enjoyed this video! Any update on when the one for multiple pages would be ready? I didn't see it on your channel,True
+@foodmaker5771,2023-01-10T10:23:01Z,1,Did you uploaded the second part. I loved this one. Please share second one,True
+@mengmengwang4500,2023-01-08T14:06:58Z,0,very good viedo.,True
+@pfguo87,2023-01-03T23:16:38Z,22,By any chance was there a part 2 to this with the more advance scraping? Would love to see that :),True
+@mubarakodufade4553,2022-12-31T19:29:43Z,3,Can someone direct me to the other project that you discussed doing in this video. Where you build a scrawled that goes through each page’s content and gets their prices,True
+@dees900,2022-12-30T01:13:36Z,1,does beautiful soup only apply to static website? when to choose between selenium and beautiful soup?,True
+@atultanna,2022-12-28T06:04:50Z,0,Is it possible to scrape gopgle autosuggest KW by pythone  Thx,True
+@sunrajsharma736,2022-12-25T22:52:53Z,2,It was a fun project. Please drop the other version (the complete version) of this project @Alex The Analyst,True
+@VinaySingh-qy1ks,2022-12-16T13:58:50Z,1,"Hi, Thank you for this tutorial. Could you pls share link for second part where we scrap data for a search text (learning SQL)?",True
+@clipsoffun8457,2022-12-11T23:36:48Z,0,"This video is so helpful,thankyou so much Alex",True
+@oriakuotito3985,2022-12-08T07:35:03Z,1,"Hi Alex, still waiting for the other video. thank you",True
+@JD_2,2022-12-07T20:15:14Z,0,great,True
+@AIdevel,2022-12-03T19:18:21Z,1,I am absolutely fascinated by your thorough explanation,True
+@aaronshepanik8405,2022-12-03T01:50:27Z,2,"The concepts and general structure in this is great but it's unfortunately outdated already. As many more recent comments have mentioned, there are several aspects of this have changed in a non-trivial way for the target audience when scraping from Amazon. Unlucky :(",True
+@skipa9906,2022-11-30T20:35:47Z,0,"Hi, is there a way to scrap data without using google inspect? Maybe with JSON response, do you have content on using Json response?",True
+@krystlestevens2585,2022-11-30T14:00:48Z,30,"Unfortunately it no longer works (due to Amazon website update I believe, as others have commented) :/ would love another scraping video so I can learn!! Love all the videos Alex and thanks so much!😊",True
+@AlexHitchon,2022-11-26T16:58:26Z,0,Thanks Alex I am working on my own web scraping project for checking placements of searches and this video definitely helped,True
+@Kalesonnen,2022-11-25T07:11:04Z,0,did the second video get uploaded for this for scraping page by page?,True
+@tedf,2022-11-24T01:20:32Z,2,"AttributeError: 'NoneType' object has no attribute 'get_text'    for    title = soup2.find(id=""productTitle"").get_text()  If you are getting this error, run the command a few times.  It must be something on Amazon's end that is preventing some scraping from happening.  I ran it 4 times with an error, and the 5th it returns the title as in the video.  Tried it three more times and got the same results.",True
+@amelieguzman9639,2022-11-21T13:48:29Z,5,You don't imagine how this tutorial has helped me in my new position. Thank you so much!!,True
+@sanketlalge870,2022-11-15T05:27:08Z,1,Getting an attribute error while connect to website,True
+@user-md6gb5ko9t,2022-11-06T03:57:22Z,5,"This script is only giving me short html and I've got ""NonType"" value at the end.",True
+@badissjabou252,2022-11-01T23:36:06Z,2,"hello Alex? Thank you for this amazing tuto, it help me so much  please did you do the video  for all the website like how to scrape all the page  thank you again",True
+@anthonyyawa2445,2022-11-01T19:55:26Z,2,Great video alex ... it was really helpful for a module in my course . Please i have been looking for the intermediate video you spoke about,True
+@eldarmammadov7872,2022-10-31T06:34:38Z,0,amazon page html u[pfated since. especially <price tag are wrapped inside javascript,True
+@victoradekunlecom,2022-10-31T01:20:33Z,0,"A couple of things had changed about the Amazon page I guess, and I'm stuck. How do you suggested I learn web scraping a data Scientist in a simpler and straight forward way such that I can scrap other websites like Indeed or JobServe?",True
+@marxlenin8523,2022-10-09T21:38:17Z,0,"python noob here. how can you make this loop over a series of ASIN's (amazon's id number for their products)? thank you, alex!",True
+@djmariohh,2022-09-22T18:05:27Z,3,"Hi Alex, this was really great! Thanks for doing this video. Did you ever do the follow-up video that was mentioned at the end of this video?",True
+@kishwaralamgir4468,2022-09-20T05:44:03Z,60,"Alex is so honest and down to earth, he doesnt have that usual YouTuber vibe that we are accustomed to. Man we're so lucky to find you as a mentor.",True
+@aishtheanalyst,2022-09-18T20:28:57Z,1,how do i prevent captcha?,True
+@gabic2910,2022-09-17T23:55:18Z,0,This might be a silly question to some but I completed the tutorial and my script is ready. How does VS run the code daily? What do I have to do? Open VS everyday? Thanks,True
+@zulkhaireesulaiman8575,2022-09-14T07:37:27Z,0,"hoping there's a follow up to scrape all products in an entire category. e.g. running shoes, medication, boat shoes etc.",True
+@Rave_Consolidated,2022-09-12T14:37:25Z,0,"what if I have a table in the website that I wanna pull, how do I go about it",True
+@kaiponders,2022-09-08T18:35:02Z,0,"Hi alex, I'm struggling to figure out how to scrape the shipping cost. Could you give me some guidance?",True
+@shadishadab6941,2022-08-31T06:57:24Z,4,"Hi Alex, thank you very much for sharing your knowledge and wisdom, it's helping me a lot to prepare my portfolio.  I have a question regarding this project, I get this error: 'NoneType' object has no attribute 'get_text' after running this line of code:  title = soup2.find(id='productTitle').get_text()  I copied your code and again I get the same error, I tried other products as well but still the same error.   I would be grateful if you could help me to solve this problem.",True
+@adakadoglu9427,2022-08-30T19:56:38Z,0,Help! I'm writing exactly what you're writing but in Excel it gathers all the things in one column!!!!!,True
+@horror-panic-tube,2022-08-22T00:10:41Z,0,Can you pls make a video on complete website scraping,True
+@J-K-AG,2022-08-20T14:55:35Z,0,"Does not work, first of amazon's message ""To discuss automated access to Amazon Data please contact......"".  You can work around ""get_text"". But amazon won't give you the whole html script at first place.",True
+@RyanLoh,2022-08-20T09:19:02Z,5,"When I try to print the title im getting an error message ""'NoneType' object has no attribute 'get_text''. What is the issue here?",True
+@danweinstein4695,2022-08-16T14:38:58Z,0,"How I got soup2 to work  I assume the price element on the html code changed for the webpage. The one I found on my page was id=""corePriceDisplay_desktop_feature_div""  The price came out formatted a little differently so I fixed it. Heres the code I used  soup2.find(id=""corePriceDisplay_desktop_feature_div"").get_text()  price1 = price[price.index(""$""):(price.index(""$"")) + 6]  Hope this works",True
+@ayubindra3702,2022-08-14T05:50:10Z,12,"Hello Alex, thanks for sharing, I have found the error for my code of this section  title = soup2.find(id='productTitle').get_text() print(title)  output: 'NoneType' object has no attribute 'get_text'  Please I need your advise",True
+@rakshith.jjogfalls4912,2022-08-10T11:01:24Z,0,tq u  for the woderful video sir 💗💗,True
+@jiewang6449,2022-08-09T01:25:34Z,1,Thank you so much Alex!,True
+@slake8843,2022-08-08T19:55:54Z,0,Where is the next video (in which we were going to scrape on much higher level)?,True
+@IrfanKhan-eh7wu,2022-07-25T07:35:59Z,1,"Alex Thanks a lot for this wonderful tutorial, I really learn things from it, can you mention in any of your videos how we can pick colors as well from any product details if it is available in more than one color. A prompt reply will be highly appreciated. Thanks",True
+@taifrehan8143,2022-07-25T06:25:08Z,2,"After following the same process(STEPS) , I am getting (AttributeError: 'NoneType' object has no attribute 'get_text') this error.....why? I don't know can u please help me...",True
+@abdurrafey2404,2022-07-23T18:36:01Z,1,Hey Alex! Just wanted to ask whether receiving a captcha is normal because that is what I am receiving when I am going through this. Is there a way around this?,True
+@mp2093,2022-07-17T10:14:35Z,0,What about the rights about web scraping? Can it be illegal? How to know when it is?,True
+@wilfredoperez1804,2022-07-15T21:23:54Z,0,I am following along and for some reason the first time I run the script it works fine. I run the script a second time and data is missing. Can anyone help me. I have about six months to get a new JOB and I am watching all your videos.,True
+@bradfordmutemi8041,2022-07-11T16:35:02Z,0,"Hi Alex, am getting this error when I print title and price '''''''''''''''''''''''''''''''''''''''''' AttributeError                            Traceback (most recent call last) /tmp/ipykernel_34/3788443720.py in <module>       9 soup2 = BeautifulSoup(soup1.prettify(), ""html.parser"")      10  ---> 11 title = soup2.find(id='productTitle').get_text()      12 print(title)      13 price = soup2.find(id='priceblock_ourprice').get_text()  AttributeError: 'NoneType' object has no attribute 'get_text' ''''''''''''''''''''''''''''''''''''''''''''''''''''",True
+@codewithmuaaz,2022-07-09T17:38:24Z,0,https://youtu.be/HiOtQMcI5wg?t=2448  This was favourite part of the video. ; ),True
+@maslowww,2022-07-05T23:56:48Z,0,"Hi can someone tell me why the first code # import libraries  from bs4 import BeautifulSoup import requests import time import datetime  import smtplib doesnt work its tell me an error i don't know why?",True
+@pulakkabir2276,2022-06-30T23:46:05Z,0,how to get the 'headers' code?,True
+@ianpropst-campbell6028,2022-06-28T22:21:35Z,6,"Thank you for this helpful tutorial! I am trying to follow along, but it looks like this particular Amazon webpage has been changed since then, as the span for price no longer has an id. I attempted to get it using a class instead with this code: price = soup2.find_all(""span"",class_=""a-offscreen""). However, it returned None. Do you have any suggestions?   I read somewhere that BeautifulSoup has difficulty finding web page content that is rendered by javascript, and that selenium might be a good  alternative library. Is that something you can speak to!",True
+@Sarahsultan41,2022-06-23T21:06:39Z,0,HELLO SIR! THE GET_TEXT() DOESNT WORK ! I GET A ERROR SAYING AttributeError: 'NoneType' object has no attribute 'get_text' . PLEASE HELP!,True
+@martindorado7713,2022-06-21T22:26:42Z,0,"when i try to get the price id, it appear in the code : aria-hidden=""true"" and if i put directly:  id='priceblock_ourprice' it gives me AttributeError: 'NoneType' object has no attribute 'get_text',          I imagine  is some amazon shity security meassure, but what i can do?",True
+@rongrong361,2022-06-21T04:43:52Z,0,when is the next web scraping videos? I can not see that from your channel yet...,True
+@bryan.canelas,2022-06-18T16:39:57Z,1,Thanks Alex! this was really useful. I am waiting for the second part with the pagination 😅😅,True
+@sunyoungjang7810,2022-06-17T10:00:29Z,2,"I'd like to appreciate you for sharing this wonderful video! Thanks to you, I've just managed to make my own webscraper that helps me to save so much time. Otherwise, my coworker and I would have to spend more than 6hours per week😂",True
+@pushpitjain7208,2022-06-15T21:44:35Z,6,"Hey Alex! It was a super helpful video. Thank you so much for posting it. Have you uploaded the next part of this video. If yes, Please share the link.",True
+@mphorasenyalo1230,2022-06-11T01:12:18Z,0,"from the first position, that's the word you were looking for.",True
+@laurenroberts4642,2022-06-02T15:55:04Z,0,"I am following the tutorial but when i try to print(soup), instead of pulling up the Amazon page's html, it pulls up the html to some sort of security page. Is there something that I am doing wrong? I'm wondering why that issue isn't happening with other people",True
+@vukasinviskovic9121,2022-05-26T12:19:50Z,1,"Hi Alex, thanks for the cool tutorial.  A quick question - what is the purpose of ""r"" in a code chunk such as ""df = pd.read_csv(r'AmazonWebScrapperDataset.csv')"" (30:01)?",True
+@walidzein5041,2022-05-26T01:14:59Z,0,I tried this and amazon sends be to an authentication page 🤦,True
+@walidzein5041,2022-05-24T22:33:40Z,1,How do third party api's that get amazon data work? do you know?,True
+@danielcanizalez8558,2022-05-13T21:10:36Z,1,"thanks a lot!!! it helps i try with BeautifulSoup and HTMLSession but i cant extract any related with  <i class=""a-icon a-icon-prime a-icon-medium"" role=""img"" aria-label=""Amazon Prime""></i> i need to search if that property is present on any product any help?",True
+@EG-nt7tx,2022-05-13T11:51:42Z,1,"Thank you for the introduction Alex, did you make the second part of this project? Is it on your Patreon?",True
+@daniyalahsan6166,2022-05-12T04:04:59Z,3,"at 14:20.. title = soup2.find(id=""productTitle"").get_text() is giving me this error: AttributeError: 'NoneType' object has no attribute 'get_text'.. can you or anyone else give an idea about why this is happening. Is it possible that amazon is no longer for scraping?",True
+@houssnachana5709,2022-05-07T23:02:04Z,0,"anyone else having the issue of  ""Avoid Bot Check"" ?  I can't seem to get any information because of that",True
+@andrespatricioespinozadelg4490,2022-05-05T20:46:56Z,0,It was a lot of fuuuuuun! Thank you Alex. Your channel has became one of my favorite about Python and SQL 🤓,True
+@yousseftaki1949,2022-05-02T17:21:25Z,2,"What attracted me from your video hh is that you have 3 kids , this is a great man God bless your family",True
+@nikhildeshpande1247,2022-04-29T16:53:28Z,0,I was extracting text from perticular website it is giving response [500] error ?? anyone knows what it is??,True
+@zainhana2968,2022-04-29T07:17:47Z,0,"it's a amazing video. but I have problem, when my code find NoneType. for example, I want to Web Scraping from indeed website, to look for the job data analyst. But i find not every part include the fee tor those jobs. It's make my code stop. anybody can help me please?",True
+@shashwatpaul3330,2022-04-27T21:38:17Z,3,"Its a great video. You have mentioned in the beginning of this video that you will publish another video to web scrape all the products listed over 20 pages on Amazon. Have you published it yet? If yes, please provide me with the link. I could not find it in your channel.",True
+@newyork397,2022-04-26T17:14:17Z,11,"As others described, if you get an error when running the second cell it's probably due to a captcha issue where amazon thinks you are a bot. You can force it by pressing ctrl + enter again and again until you get an output. I'm sure there is a better way to get around this but that's the quickest semi solution I found.",True
+@casual_gamer1413,2022-04-23T00:05:14Z,0,Is web scraping through python a good skill according to your experience please?,True
+@user-gq1ij,2022-04-21T11:51:58Z,4,"Sir, I am very near to get my first job through your project  Thank you  And this is also my first project",True
+@amanvats7966,2022-04-20T07:19:21Z,11,I'm getting this error when trying to print the title using soup2: tried to resolve it but not.. let me know if anyone has the solution for this:    AttributeError: 'NoneType' object has no attribute 'get_text',True
+@lynju_,2022-04-07T07:15:30Z,4,14:47 i get an error when trying to print the title. something about a none type?,True
+@Magmatic91,2022-04-04T02:16:39Z,0,"Great stuff ! Please make the video where you show how to get for each item let's say the product description, reviews...etc.",True
+@projekts5047,2022-03-24T16:33:50Z,0,where is the next video,True
+@kyriacoskoullapis1748,2022-03-23T00:05:09Z,10,Great video! I am stuck on the part where you print the price. I cannot find 'priceblock_ourprice' anywhere. It seems like they changed the way they display their price somehow.,True
+@AmbiNerd,2022-03-20T16:27:27Z,2,I keep getting an error thrown at the after i try and print title -  AttributeError: 'NoneType' object has no attribute 'get_text' - can anyone PLESE HELP😭 Stack over flow isnt even helping,True
+@skaigreen,2022-03-13T20:55:58Z,0,this was really helpful... I'm planning on transitioning careers to data analytics and would love to see how it goes.,True
+@zass0011,2022-03-10T04:54:09Z,0,Can you do webscrapping in Gmail? (IE multiple emails with information in each that),True
+@scrapestormtutorial1910,2022-03-02T08:44:02Z,0,"Thank you very much for your video, it's really helpful. If there are people who have no phython foundation at all, can they use some web scraping tools? Like ScrapeStorm, Mozenda and others.",True
+@altamashjawad6691,2022-02-24T13:40:54Z,0,"Hey Alex, while connecting to the page I did not get a full HTML page like yours in the video, it has half and suggested me to contact Amazon API services. Am I doing something wrong?",True
+@therealcomment5622,2022-02-22T09:02:52Z,0,Tracking item prices is so cool for someone like me always waiting for discount.,True
+@jeisonsanchez4842,2022-02-20T16:07:59Z,2,"29:30 - quick tip: select the file, hold shift and right-click to get “copy as path” in the context menu.",True
+@gilltim5711,2022-02-19T14:50:13Z,1,"What browser are you using to pull up that Inspect/Elements method? I've tried it in Firefox and Explorer, and I don't get that window with either.  I'm not getting the individual pieces on the page highlighting as I move my cursor over the code, but all that happens is the full page highlights, not the individual pieces. What am I doing wrong?",True
+@NathanEckelTV,2022-02-17T17:09:47Z,0,Thrilled to successfully get to the end of this @Alex - appreciate these real-world worked examples.,True
+@shehzanshaikh6904,2022-02-17T12:05:43Z,0,"File ""<ipython-input-3-9e5b1d9b0ef9>"", line 6     headers = (""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"", ""Accept-Encoding"":""gzip, deflate"", ""Accept"":""text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"", ""DNT"":""1"",""Connection"":""close"",""Upgrade-Insecure-Requests"":""1"")  can someone help?",True
+@ramakumarguntamadugu1299,2022-02-08T16:14:07Z,1,thanks Alex! really a great video... request you to kindly do a similar one on stocks realtime price capturing with time series and configure an email notification when the current price drops below say 50 day moving average ....  I am looking forward for many videos like this...thank you!,True
+@riteshsharma3627,2022-02-07T13:29:10Z,1,"Hey Alex, product I'm interested in has class and no id for price,  which results in error. Can you suggest another way to get price?",True
+@lawrencelawliet5016,2022-02-04T21:15:28Z,5,"If anyone else has a problem like I did with getting  a captcha output when printing soup2, I solved it by putting soup2 and the print statement in a different cell then run the first cell with soup1 then run the second cell with soup2 and the print statement separately.",True
+@tippusultan7285,2022-02-01T08:24:04Z,0,can we scrape anything from amazon and use it for data analysis and publish the insights or we have to take permission from amazon,True
+@alimirmohammadi7557,2022-01-28T12:08:32Z,0,thank you man,True
+@DustInTheAir,2022-01-24T18:07:25Z,4,"Hey Alex! Thanks for this helpful video! The best part of this video is whenever you said 'I don't know what that is' (12:50) , instead of some difficult theory.  You don't know that, I don't know neither, so it makes me feel less pressure on learning python...",True
+@shyamss2338,2022-01-22T18:00:39Z,30,"Hi Alex, seems like this code is now not working. Would be grateful if you could do another web scraping project with EDA analysis? Love how instructive your videos are.",True
+@shyamss2338,2022-01-22T06:54:38Z,1,"Hi Alex, I am trying to follow through the code now and seems like some of the code lines just don't work. Why is that? Has there been some update that is causing this issue?",True
+@ericgrasby6792,2022-01-22T02:44:39Z,0,"""Actually there'll be one person that it comes in handy for and then they'll .. er.. message me"" i'm ded XD",True
+@adnanmustafa73,2022-01-14T16:45:49Z,0,Google is blocking my attempts to send email to my gmail account via this script. I searched the internet for a solution but nothing seems to be working. Any way around this?,True
+@rakeshsangolli,2022-01-13T08:12:28Z,0,"I'm getting this error-  "" 'NoneType' object has no attribute 'get_text'  "" for the below code-  title = soup2.find(id='productTitle').get_text()  price = soup2.find(id='priceblock_ourprice').get_text()  Also, the page.content is returning a captcha. I believe that's why i m getting this error.",True
+@jonghyunlim5532,2022-01-13T00:57:45Z,0,Does web scraping work without an API? Web scraping code always gives me a captcha verification as an output. I feel like we need API to scrape Amazon. If there is any possible way please let me know!,True
+@harvinderarora9825,2022-01-07T21:20:25Z,0,So where is part 2?,True
+@jaimebaker1806,2021-12-31T04:53:30Z,4,BTW some of the website code amazon has changed. New people will need to adjust accordingly.,True
+@michelchaghoury870,2021-12-26T21:54:28Z,0,Mannnn pleaseeee keep going we need your help you tuts are on a whole diff level I am able to learn and understand with ease tnx a lotttttt and once again keep going,True
+@surajbhatt8642,2021-12-20T13:03:16Z,0,Using of class instead of id is giving an syntax error please anyone resolve this,True
+@sergioramos3437,2021-12-18T17:06:05Z,0,Love this .. I'm curious about the headers part I didn't know about that before,True
+@19laplace,2021-12-08T05:53:43Z,1,"Alex, please make a video of an ETL process, please.",True
+@huangchou-ho5718,2021-12-03T05:11:25Z,0,"Thank you so much Alex! I learned a lot from your videos and built my own portfolio. I decided to change my career to data analyst and start creating my resume. But I don't have data analyst experience, could you advise how to create a new resume with portfolio for someone wants to change career? should I focus on the projects?",True
+@19laplace,2021-12-01T16:05:32Z,0,"Alex, I have a question, can this be considered an ETL process?",True
+@emadr5780,2021-11-02T07:56:47Z,0,"Thank you very much Alex. Could you please tell me if it is possible to send a message or make a phone call instead of sending emails, and if yes how?",True
+@syaoransakura8839,2021-10-31T15:38:50Z,0,"After a looooong time delay cause by many things, finally I can finish this portfolio.",True
+@gusinthecloud,2021-10-21T15:04:29Z,0,you saved me a lot of time. I really appreciate it.,True
+@dianasatapathy594,2021-10-07T19:03:16Z,1,Hey Alex. When are you posting the next project?,True
+@sharon_ng,2021-10-07T09:32:45Z,3,"Hey Alex, thanks for the walkthrough. When is the next web scraping project coming? I'm so hyped.",True
+@atanasprodatanasov9233,2021-10-07T08:55:44Z,15,"The section where you speak about how you shouldn't know this by heart is so good. Honestly... I am learning SQL as per your recommendation, but in the back of my head I am scared as I think I should learn and memorize each single block of code... And this is awful... Thank you for being honest and clear on that!",True
+@JG-qz8ib,2021-10-04T22:21:45Z,0,is it the same on Mac OS?,True
+@visheshsharma2115,2021-10-01T10:13:40Z,0,Why did we have to use header for our computer what that code do.?,True
+@sarmadfaizan2810,2021-09-29T13:18:16Z,3,Hello I'm getting Error :- 'NoneType' object has no attribute 'get_text' can anyone help me with this error,True
+@WesleyStolk,2021-09-29T12:11:05Z,1,"I'm getting an error when trying to get the price. ""AttributeError: 'NoneType' object has no attribute 'get_text'"". the title line works perfect. Does anyone know how to fix this?",True
+@ramon421,2021-09-27T18:34:56Z,0,"I liked that email thing. I've used Scrapy in the past, but beautiful soup seems waaay easier. I'll create a cool project to watch prices for me :D",True
+@manishkumarsingh5982,2021-09-27T05:53:58Z,1,When will be the next part of web scraping? Thank you for posting this video!!!!!,True
+@asutoshnayak1391,2021-09-24T04:43:01Z,2,Alex please make a video upon how to create your own Data set for data analyst job ? Please make,True
+@ruturajagashe6771,2021-09-21T10:17:28Z,0,"Hi Guys!  I wanted to get the seller details for a list of products on amazon and I got an error when i tried to get the sold by detail.   According to the debugger,  the  span id was ""tabulat-buybox-truncate-1"", however when i tried using this code for another product; I got an error.   How do I correct this?",True
+@podawe8051,2021-09-15T20:28:25Z,11,So great Alex! I followed along with this entire project and added it to my portfolio! I'll be sure to give you credit in my README file. :),True
+@mariusnicolae6636,2021-09-15T13:12:50Z,0,Do you know if there's any way to run custom Python code without a laptop (i am obviously think about a platform)? I only have the work laptop where I am not allowed to install python or any data analysis tools. Many thanks!,True
+@RijulChauhanRA,2021-09-15T08:04:38Z,0,You can use tab to for shift the code,True
+@muhammadinamulhaq5786,2021-09-12T07:37:42Z,1,Please do crypto,True
+@dhiraj3933,2021-09-11T15:41:23Z,0,"Hey! While copying the path for the csv go to security and then copy. This way, you don't have to enter [filename].csv . Might save you time.",True
+@yashwanthjetty7845,2021-09-09T09:27:33Z,0,Thanks a lot for enlightening on Web Scraping. Came to know only after watching this video that such stuff can be done.,True
+@bocahtuanakal2336,2021-09-09T04:20:15Z,0,Saya cuma pakai chrome extension saja bisa. Outputnya jadi excel.,True
+@JohnSmith-pz3ni,2021-09-08T00:08:58Z,0,Why does it matter where by cursor is when I hit shift enter? it only correctly executes the code if I move my cursor to different positions...,True
+@aman_jha,2021-09-07T14:52:43Z,1,Thankyou Alexxxxx 🎉,True
+@esonon5210,2021-09-05T17:26:40Z,4,Thanks for sharing! This is an awesome video. I'm not sure if you did this but I think it would be cool to learn how to scrape multiple pages then append the data in a def function.,True
+@SS-ie1od,2021-09-03T23:57:03Z,2,Thank you for all you do! Your videos are inspirational and extremely helpful.   Will you be working on any Python interview example videos soon?,True
+@markokafor7432,2021-09-03T15:55:22Z,0,"It works once and then stops working. Amazon is blocking the request I think. The id's are correct. It does not change if you use lxml, html.parser, or html5lib. If you print(soup) and look in the body, you will see a captcha prompt from amazon basically saying you have to prove you are not a robot. I don't think there is a way around that. So basically amazon doesn't let you scrape their website",True
+@HenryLinMusic,2021-09-03T11:29:33Z,1,"Hey Alex , quick question - when you do a requests.get, why do we need to have the header? Thanks!",True
+@michaelmensah6136,2021-09-02T02:38:25Z,0,I'm having trouble with the URL; it says syntax error when I attempt to run the code.,True
+@0myjoe,2021-09-01T16:48:48Z,2,"Hey Alex, I got stuck on printing the title as there was an issue with 'get_text()' for me. Could you help me? I've checked stack overflow but nothing much on there (products is in stock etc), the libraries were imported with no issue. The error says:  AttributeError: 'NoneType' object has no attribute 'get_text'",True
+@rajm5349,2021-09-01T13:06:53Z,0,"thank u very much for explaining such good project  and u explained line 2 line, sir can i expect banking or risk or credit or anti money laundering project or any science project or agriculture project, so that it will be helpful in interview process",True
+@tharindusamarakoon8831,2021-09-01T10:57:02Z,4,"Can you please make  a video on how to present these projects? I've seen your video about the portfolio website, but I don't have an idea on how to actually present the github..  And thank you very much. Your channel has been very inspirational to me through out my learning journey!",True
+@amodeocarlo97,2021-09-01T09:39:27Z,2,Thank you so much Alex for your contents! Do you think you're going to do some projects regarding healthcare or covid 19 data? That'd be great!,True
+@surendratamang8853,2021-09-01T07:59:03Z,0,Thank,True
+@jucajata95,2021-09-01T01:03:45Z,0,"A solution for the problem of the price and various prices:  price = soup2.find(id='priceblock_ourprice') or ""abc"" price = price.get_text() price = price.split() prices = []  for p in price:     try:         a = float(p)         prices.append(a)     except:         continue prices",True
+@enestemel9490,2021-08-30T20:40:55Z,21,Hey Alex quick tip: When you were working on spaces like 34:21 if you select everything that you wanna move and press tab this way everything you choose goes 1 tab right. Little things like that improve your quality of life sometimes. Thanks for the tutorial :),True
+@geekyprogrammer4831,2021-08-30T20:10:17Z,0,still waiting for your next video,True
+@unna7ural93,2021-08-30T12:05:11Z,1,"Very informative, loved the step by step! One question I have is - how can this be done through a website that requires sign in if possible at all?",True
+@ilanfaris4820,2021-08-29T19:38:41Z,2,"alex , thank you for your hard work , you deserve the best .. for your next video can you explain about the send_mail code just to understand it better",True
+@heartbrekid92,2021-08-28T12:23:03Z,1,nice video Alex ! Thank you,True
+@logenninefinger3420,2021-08-27T20:38:04Z,0,"really cool, thank you for sharing!",True
+@superbiggulpz,2021-08-27T13:27:39Z,0,"Hi can I ask, how will a grad diploma in analytics and visualisation differ from say a masters in statistics in terms of more senior employment opportunities? Will the former be way more inferior/ less valuable than the latter in climbing the corporate ladder?  Thanks!",True
+@laifookfatt3465,2021-08-27T07:25:16Z,1,"This is super interesting, thank you very much!",True
+@oscarlundberg9012,2021-08-26T18:36:48Z,0,is webscraping leagal?,True
+@withpikachu2402,2021-08-26T10:28:35Z,0,"Is it's ok to scrap from Amazon ? Seems they don't want it. I am scrapping as well for myself privately, but I am not public about it.",True
+@nikhilagarwal3916,2021-08-26T06:47:43Z,1,You are my god now,True
+@zebaszd,2021-08-26T06:08:34Z,1,"man it was super easy to understand, you nailed it",True
+@pomme_paille,2021-08-26T03:47:57Z,1,Thank you! Amazing. Waiting for the next video 😉,True
+@psf021,2021-08-25T17:46:11Z,2,"Don't know if I'm missing something. I wanted to play around with the send email. If type of price is str, how can we use use '<' for integers? Do we have to convert the type back to int?",True
+@Magmatic91,2021-08-25T15:58:01Z,1,"Great stuff as usual. I tried to work on a similar project but used another website. I'm not sure if I messed up my code but after some requests the website basically blocked me. I know Amazon are more webscraping friendly but can you please explain in your next video how to avoid being blocked by websites, because it's an issue that many webscrappers face. Thanks.",True
+@Mehendi_boutique96,2021-08-25T15:38:02Z,1,was waiting for this😍😍😍,True
+@GouravKumar-cv6bj,2021-08-25T08:20:07Z,3,"Amazing video, just needed to clear one small thing out, if the datatype of the price variable is string, then how are we able to compare it to 14(an integer) for testing whether the price is lower than 14 dollars. It should throw an error, right?",True
+@rushabhthaware4463,2021-08-25T04:52:28Z,1,🙏🙏🙏 Respect Sir 🙏🙏🙏,True
+@robertoenriquehiguera2648,2021-08-25T04:34:29Z,1,Thanks Alex. I’m a big fan.,True
+@ankitpandya2476,2021-08-25T04:25:06Z,1,"nice Alex ,its Helpful Video ,Thank u So Much",True
+@mercantilism954,2021-08-25T00:03:10Z,1,This is what I have been waiting for! Thank you,True
+@horacezhen,2021-08-24T22:56:50Z,6,Thank you for demonstrating! I never thought that a simple project like this could use as a portfolio project. I just realized that I have what it takes to become a DA. Thank you for demonstrating projects!,True
+@horacezhen,2021-08-24T22:43:39Z,0,"Hi Alex. I love this so much. In the past I've tried to scrape all the product from the Amazon keyword search page as well as the best seller rank pages. I think we can perform some analysis in regards of product prices, market landscape, sales volume, and etc. However, I have triggered Amazon's alert and it says they classified my ip as scraping data from Amazon and blocks me out. Is there a way that we can pull product details data for every single product after we scraped 100 product links from the Amazon's best seller rank page? I hope that this would already be covered in your upcoming videos!",True
+@sidharthkoparde9183,2021-08-24T21:14:10Z,2,"Really cool project with an email feature in the end! Thanks, Alex.",True
+@erkanlacin4729,2021-08-24T20:20:40Z,1,"You are great, this is exactly what is am looking for...",True
+@gabrielmorais7312,2021-08-24T20:01:05Z,1,Great video. Thanks Alex!,True
+@MrNewtonJable,2021-08-24T18:47:01Z,0,Can we request *subtitles* please,True
+@shivamsharma379,2021-08-24T17:29:20Z,8,"Hello i'm getting this error, AttributeError: 'NoneType' object has no attribute 'get_text' can anyone guide me through it? Thanks a lot in advance.",True
+@dataisfun4964,2021-08-24T15:59:47Z,1,"Thanks for this awesome video, this would help me in the nearest future.",True
+@nidhigupta7606,2021-08-24T15:56:02Z,2,Thanks again for sharing this video.,True
+@Atlas92936,2021-08-24T15:50:01Z,4,"""Guys if you can't tell, I'm in need of some help here"" 😂😂😂",True
+@ahimsaram5361,2021-08-24T15:24:43Z,0,I am getting a job on Data Analyst role as a fresher  .One of the reason is you  Alex sir. Keeping doing it . I have one doubt . i want to scrap the data from websites which has username password in Remote server . is it possible to do that ?.orelse we need to use salenium?,True
+@MohamedAdel-um4tt,2021-08-24T15:17:34Z,1,"great , can we have a video about how to pull comments from YouTube",True
+@blackwhite2361,2021-08-24T15:14:27Z,0,I thought you were now only gonna only make videos on management and stuff. Glad you are still making tutorials,True
+@axelrod4141,2021-08-24T15:06:06Z,0,Is this legal?,True
+@danramirz,2021-08-24T14:57:44Z,1,Very nice 👍 I can use that to check the prices on udemy😅,True
+@aayanmalhotra1104,2021-08-24T14:55:52Z,2,One of the only channels with least haters ✨,True
+@aadhithyanp6989,2021-08-24T14:15:08Z,3,Thanks man. You are helping a lot of people like me. Keep doing this portfolio videos!,True
+@AmanPratapSinghBITsindri,2021-08-24T14:05:04Z,1,Oh man I was thinking about a project related to amazon data scraping and here  youtube suggested me B-),True
+@shivambhayre5056,2021-08-24T13:40:08Z,1,"So can we also scrap product rating, comments, images???",True
+@BummerSlug,2021-08-24T13:30:36Z,231,The real talk is nice. “It took ten hours over two weeks”. These are things people need to hear. Some people watch these videos on YT and think it is just that easy. This is why your channel is on my short list of channels I subscribed to. Thanks for all your time on these.   Hey MS Excel - sponsor this channel!,True
+@JorgeCortes-eh3qf,2021-08-24T13:28:12Z,1,thank you for everything!,True
+@vincentmutinda3586,2021-08-24T13:18:26Z,1,Thanks for your video,True
+@suyashverma800,2021-08-24T13:02:54Z,2,Sir please make more portfolio projects for fun,True
+@patrickbarchok7741,2021-08-24T12:52:05Z,18,I am so grateful for finding you. Almost feels like I know you personally. I'm still very new to this whole Data Analytics but I'm learning a lot.  A quick question: I'm on the Google analytics course by coursera and the language is R. Any ideas on where I can learn python- preferably in a structured way that is beginner friendly? Again thank you for the work. Truly amazing.,True
+@simplypqz,2021-08-24T12:45:26Z,1,Absolutely useful and an easy approach. Microsoft Excel must sponsor you.,True
+@ciacaburdel,2021-08-24T12:42:30Z,2,Could you help me with this?  AttributeError                            Traceback (most recent call last) <ipython-input-20-299880f547d7> in <module>      17 title = soup2.find(id='productTitle').get_text()      18  ---> 19 price = soup2.find(id='priceblock_ourprice').get_text()      20       21   AttributeError: 'NoneType' object has no attribute 'get_text',True
+@demr5251,2021-08-24T12:35:06Z,1,Wonderful! I'll practice with this tonight!,True
+@MrAdhito,2021-08-24T11:53:06Z,2,"I really like these long videos where you explain things like this instead short video, thanks for uploading Alex !",True
+@abhinandc5018,2021-08-24T11:45:48Z,7,The long awaited one ❤️💯,True
+@apaumichael954,2021-08-24T11:32:45Z,2,Thanks for this Alex..,True
+@mitchellharding305,2021-08-24T11:32:20Z,4,"Super early, love your stuff as always Alex!",True

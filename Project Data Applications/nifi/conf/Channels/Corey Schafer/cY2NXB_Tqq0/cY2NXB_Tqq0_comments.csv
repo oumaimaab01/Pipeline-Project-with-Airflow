@@ -1,0 +1,65 @@
+author,updated_at,like_count,text,public
+@manishrana9570,2023-05-19T06:52:42Z,0,conda is not working in windows,True
+@pranabsarma18,2023-04-09T17:34:31Z,0,Hi Corey great video. I understood everything except the use of environment variables. Why they are useful for a virtual environment? What if I do not use it? Thanks in advance.,True
+@gregorcampbell2452,2023-02-05T15:40:31Z,0,"For anyone trying to sort out the conda_auto_env() function in .zsh (and with a newer version of Conda): -------------------- function conda_auto_env() {   if [ -e ""environment.yaml"" ]; then     ENV_NAME=$(head -n 1 environment.yaml | cut -f2 -d ' ')     # Check if you are already in the environment     if [[ $CONDA_PREFIX != *$ENV_NAME* ]]; then       # Try to activate environment       conda activate $ENV_NAME &>/dev/null     fi   fi }  precmd_functions+=(conda_auto_env)  -------------- Add this code to ~/.zshrc Hope this helps",True
+@arunny9430,2023-01-09T22:54:48Z,0,"is there something similar to the conda_auto_env() that we can use if the project folder contains pip-installed packages i.e, not anaconda ( for windows os)?.",True
+@MohammedAhmed-of3we,2022-07-30T00:19:24Z,1,👍👍👍,True
+@brucemurdock5358,2022-04-01T08:16:52Z,1,A potentially helpful tip: Type 'pwd' to find out where you are in you file system before following corey.,True
+@TorrinLeonard,2022-02-23T21:35:40Z,0,"Wow you have everything!! I love your tutorials dude, keep up the great work!",True
+@nguyentuan1990,2021-10-30T04:59:35Z,0,watching these tutorials in 2021,True
+@paulohsgoes1959,2021-07-31T22:04:55Z,0,Good job!,True
+@Superogobongo,2020-12-22T21:44:39Z,0,A gem of a teacher,True
+@yashashgaurav4848,2020-11-20T08:27:34Z,1,There is a different recommended way to setting env variables on conda now - https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#setting-environment-variables,True
+@7XxKiKoOxX7,2020-11-15T04:00:55Z,0,Vid number 16 out of 143 from the playlist complete ! Thanks,True
+@taiwoadeyemi6430,2020-11-13T06:00:53Z,0,"Weldone Corey, but as i try to create activate directory using this command ""mkdir -p etc/conda/activate.d"" i received a syntax error. Please what was missing?",True
+@valuephile,2020-09-11T17:43:06Z,0,oh my. just found these tutorial videos and they are easily the best ones ive ever found. Do you have any coverage on things like version management like Git by any chance? or know of any good ones?,True
+@salehmd.hasanriaz6218,2020-09-10T16:06:40Z,0,"Mr. Corey, please answer my question that is there any ways to uses those commands in windows OS? I already asked you in another video.",True
+@winn921,2020-08-22T05:04:26Z,1,A really useful tutorial,True
+@ingodavilabanghard5940,2020-08-21T03:58:24Z,1,"this was a bit difficult for me as a beginner, nonetheless great   tutorial with enough practice I will be able to learn python",True
+@sarikadas8925,2020-08-17T13:02:20Z,0,Could you please help me to know the  alternative command for touch in window.,True
+@samyuktanair6961,2020-08-02T11:58:54Z,1,How to set database uri in windows ??,True
+@88888CN,2020-07-15T01:59:58Z,1,"for windows fellows, the windows command equivalent to the 'cat' is 'type'; so type environment.yaml",True
+@Beeying653,2020-07-05T15:18:22Z,2,Love from Thailand!,True
+@ninjacaliber891,2020-06-11T04:18:31Z,0,"Sigh..... y do i have to wait more than 7 mins to get to the tutorial, I've already watched this Eve online ad? I'm grateful for the tutorial still though",True
+@iloveraplot,2020-04-22T13:27:10Z,0,How to do this without codna?,True
+@hyli2922,2020-04-01T14:50:04Z,1,idk why it return empty when i type source activate my_project_env or conda activate my_project_env. Do i need to install postgresql first?,True
+@rajat0610,2020-03-26T21:25:28Z,5,"Wonderful! Couldn't understand it in one go, but still, it sounded complete. And your outro music sounds just like that of Veritasium (Youtube Channel) :)",True
+@dr.mikeybee,2020-03-23T08:05:30Z,0,"Rather than use if fi blocks, just use &&, and concatenate two commands.  [-e ""environment.yaml""] && ENV_NAME = . . .",True
+@dr.mikeybee,2020-03-23T07:51:06Z,0,Nice video.  When would I use direnv  instead?  Just when it's directory specific and not a virtual environment?  Or is there a use case for both?,True
+@schoolive7977,2020-03-22T04:47:01Z,0,I have created virtual environment as  python3 -m venv my_env. what should I do to export my_env to .yaml file?,True
+@veenak108,2019-12-16T18:47:12Z,2,what's the difference between requirement.txt that we use in pip freeze and this environment.yaml ?? Do they serve the same purpose?,True
+@wolfisraging,2019-12-02T11:13:23Z,1,"Amazing video, thanks for it. Could you make another video or provide me with some resources for setting up multiple environment variables with same name in different virtual environments (with different values) ""using venv"", that'd be very helpful 'cause in most of my projects I've used venv..... Anyways thanks for the vid",True
+@Valmills8989,2019-10-14T07:43:34Z,0,"So, the conda_auto_env functions works on by Ubuntu machine, however, if I am simply using the terminal outside of any virtual environments, i get this line after EVERY COMMAND :(  ""conda_auto_env: command not found"" Anyone know why?",True
+@rotemgabay8953,2019-09-24T23:02:54Z,3,"Great Video! Just a question about the ./bash_profile: in order for this file to run, I need to run a login shell. Should I change the setting and work with the login shell , or should I save the auto_env function in /.bashrc? Thanks! Edit:  For lubuntu users (I guess it apply also for ubuntu users), saving the function on ~/.bashrc solved the problem.",True
+@leeritenour,2019-08-16T10:33:11Z,0,"Can anyone still get the conda_auto_env() working? Whenever I start my terminal, it activates another conda environment instead of the one that I wanted to switch into.",True
+@captainnemo2150,2019-08-12T10:08:15Z,0,How do I scrape libraries for thum nails?,True
+@chikkivenu6632,2019-08-04T19:48:38Z,3,How we can do this on Windows Environment.,True
+@keshavdamani1273,2019-07-20T08:08:51Z,5,"Love from India , Corey !!",True
+@pysandeep,2019-07-04T10:14:29Z,0,Please create video on using django-environ,True
+@mohamedhindam1793,2019-05-01T10:40:37Z,0,is there is any difference between these two commands to export the environment list of packages: 1- conda env export > environement.yaml 2- pip freeze > requirements.txt,True
+@EmadGohari,2019-03-31T20:58:32Z,6,"This is really awesome, I am binging on your tutorials :)",True
+@frclasso,2019-03-27T23:28:41Z,4,"Wow man, amazing video. Congratulations again Corey. I'm  a huge fan of your job.",True
+@harrykp1,2019-03-23T17:13:38Z,2,Great Tutorials Corey.,True
+@harrykp1,2019-03-23T15:26:49Z,1,"Not finding .bash_profile  in home directory, only seeing .bashrc and .profile(running Ubuntu 18.04).   Ok seems Ubuntu is using .profile instead of .bash_profile.  Edit: Had to place the conda_auto_env  code in my .bashrc  to get  it to work",True
+@imranshaik2282,2018-09-30T03:44:21Z,0,"I like the video but I have a question. when I completed the instructions said above and create a script in the project folder using sublime, how can I run the code with installed packages on sublime ?? for me it is working fine when I am running the script in the folder using python command but unable to run my script with activated environment directly in sublime editor",True
+@lardosian,2018-08-10T14:52:23Z,0,"Hi Corey, could you do a video on environment variables in flask.  I've done a project in flask thanks to everything I learned in your flask blog videos but having a nightmare trying to get it to work on heroku, that would be brilliant, thanks.",True
+@3hurricane4mark7,2018-07-01T06:26:06Z,0,Misspell:  reactivate.  --> deactivate.,True
+@3hurricane4mark7,2018-07-01T06:24:48Z,0,"Hi Corey, Congrats on going full-time youtubing. Would it makes sense to also have reactive in your ~/.bash_profile ?  In case you navigated to a directory above any of your project dirs, containing no environment.yaml",True
+@Linux4Ever2011,2018-05-27T20:35:33Z,1,Thank you very much for sharing this.,True
+@ajf,2018-03-17T14:35:12Z,0,"I used to use Pipenv , .env and it work very good for me !",True
+@rachitgupta2336,2018-03-13T22:32:02Z,0,"Hello Corey Sir ! You had taught me about 2 methods of using virtual Environments, the previous was quite good & iwas able to interpret all of that, but now in this case, which is through conda, when you had created the virtual env in my_projects folder, then how come their is a different path in environment variables, ( unlike in pip, you had created the virtual environment in the same directory where you had created it, like in ""Environments"" directroy, also, what is with the databases & like different activation & deactivation files. i have a hard time with this video, can you please help me.",True
+@ylazerson,2018-03-02T19:56:21Z,0,Awesome - great video - thanks!,True
+@gatheringwithin,2018-02-05T19:14:14Z,0,"Great video, thanks :)",True
+@stevefrt9495,2017-12-14T13:07:29Z,0,thanks you so much,True
+@absar66,2017-11-05T00:57:09Z,0,Another great video...thanks Corey for your time and efforts...looking forward for a video on “Bash Scripting” for Data Science Beginners.tks,True
+@geoffgivry,2017-10-20T12:58:50Z,9,"As Usual,  your tutorials are filled with tons of clever and great practices. Thanks for sharing your knowledge with us!",True
+@keineruma,2017-09-20T19:32:42Z,1,"Hi Corey, a tutorial for threads please. :D",True
+@pradipyash,2017-09-14T07:53:17Z,20,"Hi Corey, Can you please start a tutorial on how to create Python REST apis using django framework or any other framework",True
+@craigdanielmaceacher,2017-09-12T21:25:01Z,0,I'm curious why you choose to teach/do this with conda tools rather than the typical venv/virtualenv strategy and doing a pip freeze > requirements.txt. A requirements.txt used with pip is the standard way I've seen used by pretty much all the big python projects.,True
+@paul8683,2017-09-12T21:17:44Z,1,Learn so much from watching your videos.  I'm an amateur programmer and I have used your videos to learn how to do various things.  I have built a program to run on my ubuntu desktop and would like to have a window that would show various things about what is going on so I can monitor my application at a glance.  Right now I have a print statement on loop in a console window.  Is there an easy to use GUI module you could recommend?,True
+@SunilLangtad,2017-09-10T07:38:14Z,0,"First of all thanks for the videos, I use Anaconda3 should I follow pip virtualenv described in other video of yours => Python Tutorial: virtualenv and why you should use virtual environments (https://www.youtube.com/watch?v=N5vscPTWKOk) or should I follow this current video.",True
+@sanjayshr1921,2017-09-07T03:18:28Z,10,"Video request: Organising Flask Project, Like how to structure code, separating config, models, views, static_files, secret_keys ..etc. Thank you",True
+@shellcasing1040,2017-09-06T22:56:39Z,1,"I'm on a Linux machine, Ubuntu GNOME to be precise. We exist too, you know. Fortunately most of those commands were familiar.",True
+@disooqi,2017-09-06T20:12:17Z,0,Absolutely useful  .. you make my life easy .. thank you very much Corey,True
+@sanjayshr1921,2017-09-06T18:44:44Z,1,Yo this is dope.. awesome this saves ages :),True
+@code.r,2017-09-06T17:12:25Z,137,"There is two era of python, before your tutorial videos and after your tutorial videos. ^^,",True

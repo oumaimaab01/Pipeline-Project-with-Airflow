@@ -1,0 +1,101 @@
+author,updated_at,like_count,text,public
+@statquest,2021-09-11T13:54:24Z,9,"The full Neural Networks playlist, from the basics to deep learning, is here: https://www.youtube.com/watch?v=CqOfi41LfDw&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@iReaperYo,2024-04-29T19:07:54Z,1,nice touch at the end. I didn't realise the use for ArgMax until you said it's nice for classifying new observations,True
+@nelsonmcnamara,2024-01-30T05:04:12Z,0,"Hello comment section. Would anyone know, or can point me to the right direction if I actually want the Probability (no quote), instead of ""Probability""?  Imagine if I am predicting the probability of Red Sox winning or Kim winning the Presidential Election, how would I approach that?",True
+@Rictoo,2024-01-27T13:41:57Z,0,"I have a question! At 3:35 you say ""ArgMax will output 1 for any other value greater than 0.23"" - but shouldn't it be ""greater than 1.43"", because ArgMax points to the value that is the highest in the set of outputs? Other related question: And then is the intuition that if we know the true value of Virginica (e.g., if the training sample was truly Virginica), then if the ArgMax is 0 for Virginica on that training example (because we predicted it wrong), then we essentially ""Wouldn't know how to get to the right answer"", because we have no slope pointing towards the right answer? We're just told ""You're wrong. Not telling you _how_ wrong, just wrong."" which isn't helpful for learning.",True
+@elemenohpi8510,2024-01-26T05:46:55Z,0,"Thank you for the video. Quick question, as far as I understood, argmax and softmax are applied to the outputs of the last layer. Couldn't we use Argmax but train the network with back propagation with the outputs before argmax is applied?",True
+@Itachi-uchihaeterno,2024-01-17T11:11:32Z,0,"More videos , Autoencoders and GANs",True
+@qingfenglin,2023-12-10T14:42:15Z,1,Thanks!,True
+@jennycotan7080,2023-12-10T12:31:47Z,1,That pirate joke! Moving on in the fields of Maths...,True
+@terjeoseberg990,2023-11-23T04:38:48Z,2,Nobody likes derivatives that are totally lame. Especially gradient decent.,True
+@Salmanul_,2023-11-15T17:28:09Z,1,Thanks!,True
+@felipe_marra,2023-11-05T19:49:20Z,1,up,True
+@ritwikpm,2023-10-23T19:33:23Z,0,"We minimise cross entropy (= - log likelihood) to fit both Neural Networks and Logistic Regression. Logistic regression can also theoretically converge to different parameter estimates based on initial weights - just like neural networks. But we still consider their output to be a representation of probability - specifically because they are fit to maximise log likelihood. Why can't similar logic be applied to Neural Network classification. The parameter estimates might vary, but as long as we are maximising log likelihood (and minimising the most common loss cross entropy), are we not predicting probabilities...?",True
+@breakingBro325,2023-10-23T18:04:20Z,0,"Hello Josh, really nice video, could I ask you what software you used to create the video? I want to take notes by using the same thing you used and learn some presentation skills from it.",True
+@dianaayt,2023-09-29T20:20:02Z,0,hi! Does softmax has any limitations? It seems to good to be true and when that happens it usually isn't good haha I've seem some like being sensitive to outliers but I don't quite understand why. Is it if the raw numbers had some outlier?,True
+@naughtrussel5787,2023-09-19T09:04:19Z,1,Cute bear next to formulae is the best way to explain math to me.,True
+@Anonymous-tm7jp,2023-09-03T08:43:20Z,1,AAAARRRRRGGGG!!! mAx😂😂,True
+@brahimmatougui1195,2023-08-09T14:02:20Z,0,"but sometimes we need to give probabilities along with the model prediction, especially for multiclass prediction. if we can not trust the probabilities  (8:11) given by the model what should we do? In other words, If I want to assign probabilities to each class provided in the output, how would I go about doing it?",True
+@user-xh7hv4vk6p,2023-07-23T18:37:29Z,2,This is the first time I've ever subscribed an educational channel. Love your videos!,True
+@alrzhr,2023-07-13T15:08:56Z,0,This guy is different :))),True
+@BillHaug,2023-07-06T11:25:17Z,1,I saw the thumbnail and the pirate flag and immediately knew where you were going haha.,True
+@Kagmajn,2023-07-04T08:23:47Z,1,nice,True
+@averagegamer9513,2023-06-17T16:41:13Z,0,"I have a question. Why is the softmax function necessary? It seems like you could directly calculate probabilities between 0 and 1 summing to 1 without the exponential function, so why do we use it?",True
+@andrewdunbar828,2023-06-14T04:33:19Z,0,Does the output range depend on the activation function? Looks like ReLU but I think it can't happen with sigmoids.,True
+@yourfutureself4327,2023-06-02T20:06:01Z,1,💚,True
+@tuananhvt1997,2023-05-10T09:04:39Z,0,">Setosa, Versicolor, Virginica  I notice that reference 🤔",True
+@srishylesh2935,2023-04-24T20:12:44Z,1,Josh. Hands down genius. Im crying.,True
+@Xayuap,2023-04-18T00:56:36Z,2,¡ B A M ! 😳,True
+@weisionglee360,2023-04-10T08:40:12Z,1,"First, thank you for your amazingly well-planned and prepared course videos! They are invaluable!  A question about SoftMax func. It seems to me, for single output, Softmax() will always return value ""1"", so can't be used for backpropagation, no?",True
+@janeli2487,2023-04-09T05:27:12Z,0,"Hey @StatQuest, I am a bit confused about ArgMax function and why its derivative is 0. The argmax function that  I used in python return the index of the max value which I would assume is different from what the ArgMax function you mentioned here. What is the explicit function of the ArgMax in your video?",True
+@amiryo8936,2023-03-26T10:31:18Z,1,Lovely video 👌,True
+@alonsomartinez9588,2023-03-07T19:29:45Z,0,It would be good to remind people what 'e' is in this vid as well as what the current value of it is! People could mistake error of the network vs entropy?,True
+@joaoperin8313,2023-03-01T21:00:54Z,1,"We need to minimize SSR to Regression problems using Neural Network -> when we have a quantitative response, We use SoftMax , ArgMax and CrossEntropy to Classification problems using Neural Network -> when we have a qualitative response. I think is something in this line...",True
+@mountaindrew_,2023-01-05T14:14:29Z,0,Is SSR used mainly for single output neural networks?,True
+@coralkuta7804,2022-12-31T14:40:34Z,1,Just bought your book ! it's AMAZING !!! your videos too :),True
+@AndruXa,2022-12-23T22:06:58Z,9,universities offering AI/ML programs should just hire a program manager to sort and prioritize Josh Starmer's YT videos and organize exams,True
+@charansahitlenka6446,2022-11-17T15:31:46Z,0,"at 6:51 softmax takes 1.43 and gives out 0.69, heavy sus",True
+@austinoquinn815,2022-11-12T00:39:51Z,0,Why do we bother applying either of these? cant we just train with raw outputs rather than using softmax and just take the highest valued node as the answer rather than argmax?,True
+@anshulbisht4130,2022-11-03T05:29:57Z,0,"Hey josh ,  Q1) if we are classifying N class then do our NN give us N-1 decision surface ? Q2) when we get our query point Xq , we pass it through all decision surface and get value predicted by each surface ?",True
+@hangchen,2022-10-12T21:05:43Z,1,11:06 The best word of the century.,True
+@porkypig7170,2022-09-14T17:00:12Z,0,"I’m getting 0.11 (rounded), not 0.10 as the softmax for versicolor using this calculation: e^-0,4/(e^1,43+e^-0,4+e^0,23) Is it correct? Just double checking to make sure I’m making the right calculations",True
+@beshosamir8978,2022-08-14T02:03:25Z,0,"Hi Josh , I have some doubts here , Why we needed to use softmax at all in training ?why we didn't continue to use SSR like a backpropagation main idea ? is there any problem with SSR , so it made us had to transform the output to something else to work with ?",True
+@francismikaelmagueflor1749,2022-08-04T02:19:24Z,1,low key kinda proud that I did the derivative before you even asked where it came from xd,True
+@tiago9617,2022-06-21T09:57:27Z,0,"My god, this is better than porn...",True
+@shivamkumar-rn2ve,2022-05-29T07:40:02Z,1,BAM you cleared all my doubt,True
+@BlackHermit,2022-05-20T09:34:29Z,1,Arrrrrrrg! .),True
+@gummybear8883,2022-04-30T10:44:20Z,0,Anybody knows what is the equivalent of argmax in tensorflow's activation arguments ? They only have softmax in there.,True
+@tianchengsun3767,2022-04-28T12:17:05Z,0,looks that softmax is very similar to logistic regression? correct me if I am wrong? Could you give a brief explanation? Thank you so much,True
+@martynasvenckus423,2022-04-20T20:04:25Z,0,"Hi Josh, thanks for great video as always. The only thing I wanted to ask is about argmax function. The way you describe it works implies that argmax returns a vector of 0s (having 1 in the position of maximum value) which is of the same length as the input vector. However, the way argmax works in numpy or pytorch libraries is by returning a scalar value indicating the position instead of a vector. Given this difference, what is the true behaviour of argmax? Thanks",True
+@bingochipspass08,2022-04-20T01:59:35Z,1,Not all heroes wear capes!,True
+@hunterswartz6389,2022-04-18T23:08:20Z,1,Nice,True
+@csmatyi,2022-04-11T16:48:07Z,0,what happens when you run the NN with softmax and 2 outputs have the same value?,True
+@user-se8ld5nn7o,2022-03-10T05:01:44Z,1,"Hi! First of all, absolutely amazing video!",True
+@NicholasHeeralal,2022-02-24T07:23:10Z,2,"Your videos have been extremely helpful, thank you so much!!",True
+@fndpires,2022-02-09T11:45:09Z,1,"Come on people, buy his songs, subscribe to the channel, thumbs UP,  give him some money! Look what hes doing. HUGE DAMN!",True
+@palsshin,2022-01-23T16:55:42Z,1,amazing as always!!,True
+@phoenixado9708,2022-01-12T17:42:33Z,1,So where's hardmax and hardplus,True
+@karansaxena96,2022-01-10T00:58:28Z,3,Your way of explaining things made me subscribe you. Love to see topics explained in a simple yet funny way. Keep up the great work. And also.... *BAM*,True
+@lucarauchenberger628,2022-01-07T13:20:10Z,2,this is all so well explained! just wow!,True
+@pranjalpatil9659,2021-12-31T05:25:44Z,1,I wish Josh taught me all the maths I've ever learned,True
+@travel6142,2021-12-19T09:24:54Z,1,"Thank you for this video. I understood the logic behind softmax. While backpropagating from loss to softmax and then from softmax to the raw input, for example for setosa we have 3 derivates (as you mentioned in video). After calculating them (derivate of setosa wrt to the 3 classes), what do we do? We sum them up? Or multiply, or, ... ?",True
+@AdrianDolinay,2021-12-09T11:33:16Z,2,Great thumbnail lol,True
+@AnujFalcon,2021-11-21T12:09:58Z,1,Thanks.,True
+@haadialiaqat4590,2021-11-08T18:49:54Z,1,Excellent vedio. Thank you for explaining so well.,True
+@Alchemist10241,2021-10-15T10:04:11Z,0,"6:33 This teddy bear eats raw outputs, digests them using Vitamin e (not E) and then sh*ts them between flag zero and flag one. 😁",True
+@gurns681,2021-10-02T02:04:14Z,1,Fantastic vid!,True
+@Janeilliams,2021-09-23T03:57:11Z,0,can you show  or share the python implementaion,True
+@srewashilahiri2567,2021-09-14T08:11:41Z,0,If we start with different values for weights and biases then why will the optimum values be different if we have a global minimum for each through gradient descent? What am I missing?,True
+@drccccccccc,2021-08-22T15:14:55Z,1,you deserve a professor tittle!!! Fantastic,True
+@ayushupadhyay9501,2021-08-12T17:54:21Z,1,Bam bam bam,True
+@bryan6aero,2021-07-30T05:42:41Z,2,Thank you! This is by far the clearest explanation of SoftMax I've found.  I finally get it!,True
+@julescesar4779,2021-07-29T09:10:19Z,1,❤,True
+@ishanbuddhika4317,2021-07-10T18:30:09Z,3,"Hi Josh, Your explanations are super awesome!!! You ruin barriers for statistics!!!  Also they are super creative :). Many Thanks! Please keep it up. Thanks again. BAM!!!",True
+@luciferpyro4057,2021-07-07T07:00:36Z,0,"What does e stand for in the softmax equation? did I miss something ? Is  ""e"" suppose  to  represent euler's number = 2.7182818284590452353602874713527...  ?",True
+@EEBADUGANIVANJARIAKANKSH,2021-07-04T11:13:12Z,1,"let say i have the chance to increase ur subscriber,  I will make it to 1M (small BAM!), {10^0} no no I will change it to 10M (BAM!) {10^1} but I guess ur channel should have at least 100M subs (Double BAM) {10^2}   0, 1, 2 denotes the Standard of BAM!  Jokes apart, I really think this is one of the most useful channel I have ever seen, I like the way he structures his videos for explaining the concept. Sometimes even my Professors look at these videos for reference. That's how good the channel is!!!!!",True
+@YuriPedan,2021-07-02T04:12:59Z,0,"Somehow ""Part 4 Multiple inputs and outputs""  video is not available for me :(",True
+@allyourcode,2021-06-26T19:52:00Z,0,"ArgMax and SoftMax seem rather pointless since you can already tell which classification the NN is predicting from its raw output; just look for the the greatest output. SoftMax is just going to lull people into the false sense that the outputs are probabilities. In reality, there is nothing super special about its choice of the exp function to force everything to be positive (plus a normalization factor to force everything to add up to 1). Any (differentiable) function f where f(x) >= 0 would have worked just as well as exp.",True
+@alternativepotato,2021-06-23T17:58:54Z,1,"heh, setosas value after softmax is 0.69",True
+@ilkinhamid1072,2021-06-06T15:17:45Z,1,Thank You for awesome explanation,True
+@cara1362,2021-06-01T16:21:43Z,15,The video is so impressive especially when you explain why we can't treat the output of softmax as a simple probability. Best tutorial ever for all the explanations in ML!!!,True
+@zhenhuahuang291,2021-05-11T13:11:47Z,0,Could you do some videos of R or SAS for Neural Network using ReLU and Softmax activiation functions?,True
+@aswink112,2021-03-29T12:44:17Z,1,Thanks Josh for the crystal clear explanation.,True
+@howardkennedy4540,2021-03-11T11:59:32Z,0,Why is the versicolor softmax value +0.10 vs -0.10?  The math indicates a negative value.,True
+@Aman-uk6fw,2021-03-02T08:07:18Z,8,"No words for you man , you are doing a very great, and I totally fall in love with your music and way you teach, love from india❤️",True
+@MADaniel717,2021-03-02T00:01:07Z,0,How do I tune the other weights and biases altogether?,True
+@patriciachang5079,2021-02-28T11:47:46Z,5,"Thousand thanks for the explanation! Your explanation is much easier to understand, comparing to my lecturers! Could you make some videos about cost function? :)",True
+@shubhamtalks9718,2021-02-26T03:03:52Z,0,Why not do the normalization of raw output values? What is the benefit of first doing exponentiation and then normalization?,True
+@CreativePuppyYT,2021-02-20T21:23:56Z,0,You forgot to add this video to the machine learning playlist,True
+@Anujkumar-my1wi,2021-02-19T13:14:24Z,0,"I know that a feedforward neural net with 1 hidden layer is universal approximator but can you tell me why we use nonlinear activaton function in 2nd hidden layer in neural net with 2 hidden layer ,beacuse the neurons in 1st hidden layer has leaned nonlinear function with respect to inputs and the 2nd hidden layer is just doing linear combination thus a linear combination of nonlinear function with respect to inputs is a nonlinear function ,then why we use activation function in 2nd layer in 2 layer neural net?",True
+@factsfigures2740,2021-02-17T14:11:10Z,5,"Sir the way you teach is exceptionally creative       thanks to you , my deep learning exam went well",True
+@menchenkenner,2021-02-11T09:45:16Z,7,"Hey Josh, needless to say, your videos and tutorials are amazingly fun! Can you please create an video-series on Shapley values! Those are widely used in practise.",True
+@Anujkumar-my1wi,2021-02-11T05:03:00Z,0,"I want to know in pure mathematics , do neurons learns functions with certain superpositions, width,height and slope (controlled by neurons through weights and biases) such that when we combine them we'll get a approximation for the function we're trying to approximate?",True
+@jijie133,2021-02-11T04:35:31Z,1,"predicted probabilities, probabilities  calibration. Great video.",True
+@jijie133,2021-02-11T04:31:27Z,1,toilet paper. so funny.,True
+@201pulse,2021-02-10T12:32:34Z,2,I just want to say that YOU are awesome. Best educational content on the web hands down.,True
+@abhishekm4996,2021-02-08T12:53:43Z,2,Thanks..🥳,True
+@AlbertHerrandoMoraira,2021-02-08T08:46:25Z,33,Your videos are awesome! Thank you for doing them and continue with the great work! 👍,True
+@faycalzaidi6459,2021-02-08T07:48:13Z,2,bonjour JOSH merci beaucoup pour cette belle explication.,True
+@mrglootie101,2021-02-08T07:46:29Z,28,"Can't wait for ""cross entropy cleary explained!"" BAM!",True
+@rachelcyr4306,2021-02-07T16:20:45Z,1,Do you have anything on soft max logistic regression????,True
+@junaidbutt3000,2021-02-01T22:35:45Z,1,"Great video as always Josh! Just to clarify something about the discussion around the 9:38 timestamp, you're taking i =1 (Setosa) as an example right? When updating all of the parameter values via backpropagation, we would need to compute the softmax derivatives for all i and with respect to all output values - is that correct? So we would also require the derivative for the softmax value Virginica with respect to raw values for setosa, versicolor and virginica and also the derivative for the softmax value Versicolor with respect to raw values for setosa, versicolor and virginica?",True

@@ -1,0 +1,31 @@
+author,updated_at,like_count,text,public
+@user-xn4fr7vc1d,2022-12-08T04:42:45Z,0,"you can easily write to get the max salary in each department why are you suggesting a hard method: select department,max(salary),first_name,last_name from worker group by department;",True
+@usefulent9257,2022-06-15T19:50:36Z,1,PPT IS BETTER THAN SCREEN,True
+@usefulent9257,2022-06-15T19:33:10Z,1,3:23 SCREEN IS VERY BLURRED AND DISTANT.. NO LETTERS ARE  VISIBLE,True
+@usefulent9257,2022-06-15T19:31:37Z,1,Why worker instead of employee !! 😊🤔,True
+@sheikhshah2593,2022-03-31T18:25:57Z,0,Great video. Nice collection of questions.,True
+@sharmavasundhara,2022-02-26T15:03:50Z,0,Hey. Great video! ✨ I have a question - what if the primary keys are alphanumeric? How can we retrieve 50% of the records then?,True
+@vishnujatav6329,2022-02-16T14:59:51Z,0,Your screenis not visible properly. However thank you for this good video,True
+@RajeshKumar-nm4rl,2022-02-13T18:05:36Z,0,pls upload next video.....,True
+@adhirajmajumder,2022-01-13T06:18:56Z,0,"select first_name,salary,department,salary from worker where salary IN (select max(salary) from worker group by department) union select first_name,salary,department,salary from worker where salary IN (select min(salary) from worker group by department);  each department highest and lowest salary,",True
+@adhirajmajumder,2022-01-13T05:45:26Z,0,"select w1.salary,w1.first_name,w1.department from worker w1 where 4=(select count(distinct salary) from worker w2 where w1.worker_id<>w2.worker_id and w1.salary<=w2.salary); or   select salary,worker_id,first_name,Last_name,joining_date,department  from ( select salary,worker_id,first_name,Last_name,joining_date,department, dense_rank() over(order by salary desc) as 'rnk' from worker) as t where rnk=5;",True
+@jeyaprakashj332,2021-12-26T13:30:44Z,0,"Hello, Could not understand the usage for Where followed by 2 in the below code:  #determine nth highest without using TOP or LIMIT; select salary  from worker w1 where 4 = ( select COUNT(distinct(w2.salary)) from worker w2  where w2.salary >= w1.salary);  ""Where 4 ="" means?  Thanks for any help.",True
+@vishalpandey6140,2021-11-01T15:09:51Z,0,"Hi , Please have more sql interview questions for a bit advanced level(windows function and more )",True
+@SagarKumar-xo5qj,2021-09-20T14:21:11Z,0,We want advance topics and question series.,True
+@SagarKumar-db2xy,2021-09-16T14:13:04Z,0,Just 2 videos for SQL?,True
+@sayanghosh6835,2021-08-25T07:41:04Z,0,SO this domain is only for engineers not for the others.,True
+@sayanghosh6835,2021-08-25T07:39:58Z,0,"sir, I am an MBA fresher I tried many companies for this domain but they only hire engineers so the people who don't have an engineering background couldn't get a chance to for an interview. If they get the opportunity they get rejected because of their educational background.",True
+@TheRaju991,2021-07-14T10:19:07Z,0,Thanks a lot for this. Very much looking forward to the advanced sessions on the same!!,True
+@vishnuvardhanjadava4186,2021-07-12T18:40:34Z,2,"For the last question.  select FIRST_NAME,WORKER_TITLE ,DEPARTMENT,salary from WORKER,title where WORKER_ID=WORKER_REF_ID  and salary in ( select max(salary) from WORKER group by DEPARTMENT); select DEPARTMENT,max(salary) from WORKER group by DEPARTMENT",True
+@silkyslim2111,2021-07-12T16:33:14Z,1,Awesome video! Thanks👏,True
+@pallapothubhargavramfromib2244,2021-07-12T15:40:44Z,2,Sir please take it continous,True
+@subratdas7357,2021-07-12T14:37:25Z,3,Thank you Sir. Just got my memory refreshed as i am preparing myself for db engineer.,True
+@vibestouchessoul2602,2021-07-12T13:59:18Z,1,Sir also take excel for data science,True
+@floyd7835,2021-07-12T13:40:54Z,1,can someone please suggest some resources for learning sql for data analytics,True
+@AB-kz2jd,2021-07-12T13:23:35Z,3,Sir are the same questions asked in interview for freshers(I mean like difficultly)?,True
+@crazyray2895,2021-07-12T13:23:00Z,1,Thank you so much for helping us😇😇,True
+@chiranjivikumar3690,2021-07-12T13:06:39Z,6,Itne easy questions puchte nhi hai.,True
+@lemonbitter7641,2021-07-12T13:03:48Z,1,Really helpful! Thanks 😃,True
+@sangameshtumbagi6356,2021-07-12T12:59:47Z,1,sir create video on poisson distribution,True
+@subhabratamukherjee6453,2021-07-12T12:59:35Z,6,"Wow, I just received a call for interview for BI Analytics position and they are mostly going to ask SQL questions.  And right away the notification of this video came!!! ❤️❤️❤️ Thanks a lot.",True
+@mukeshkumarsingh1508,2021-07-12T12:58:21Z,1,Definately Sir..,True

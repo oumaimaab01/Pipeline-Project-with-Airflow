@@ -1,0 +1,255 @@
+author,updated_at,like_count,text,public
+@yashmotiani5023,2024-04-04T08:20:07Z,0,what if we had more than 2 catagories/classes ?,True
+@SomethingRandomChannel,2024-01-15T10:13:58Z,0,"thanks so much for this video series Sentdex, I know I'm late to the game but I noticed that you don't normalize the numbers when you make a prediction request. However, when we trained the model we did normalize before handing over the data to fit. I tried normalizing the data before making a prediction and I got rubbish results, when i took the normalization out it worked fine.   Why is it that we train on normalized numbers but don't prepare our prediction request data in the same way?",True
+@camao4938,2023-04-07T17:19:31Z,0,"hi, thank you so much for these videos, really help me out!",True
+@jigglymonkey4317,2023-04-02T23:06:46Z,0,are these new images stored in the same folder as the training images? im confused on that since there wasn't a change to the directory,True
+@jaewooko4527,2022-11-21T22:37:13Z,0,"Could you advise how to adjust code for more than two categories..  I am working on electronic circuit analysis to classify range of symbols such as diode, capacitor and resistor. Thank a lot.",True
+@jaewooko4527,2022-11-20T11:06:12Z,0,Thanks a lot.. I was trying recent tensorflowlite..  Your tut helped to start over from basic and detail. All sample files are working great!,True
+@pritomroy2465,2022-10-10T05:16:34Z,0,Learning Tensorflow and Python in 2022 😅,True
+@rajatvardam2787,2022-09-03T17:46:47Z,0,1 million subscribers and only 2.6k likes... this is odd... such a useful tutorial this one is....,True
+@SalehAbod8,2022-05-08T17:12:45Z,1,"Thanks for the great tutorial. I would suggest replacing '""int"" with ""round"" in the last part: print(CATEGORIES[int(prediction[0][0])]) >>>> print(CATEGORIES[round(prediction[0][0])]) Since round will produce dog for prediction <0.5 and cat for >=0.5",True
+@cynthiac2174,2022-04-23T06:50:54Z,0,OpenCV(4.1.2) /io/opencv/modules/imgproc/src/resize.cpp:3720: error: (-215:Assertion failed) !ssize.empty() in function 'resize' please help,True
+@kevcritc,2022-04-03T15:14:49Z,0,"This is great. I was following the tensor flow tutorial and then I was like great, how do I apply this ??? Your tutorial has solved this basic question.",True
+@drygordspellweaver8761,2022-03-31T21:44:16Z,0,when you're reshaping an RGB image REMEMBER THE '3'!,True
+@chaosmaker781,2022-03-23T13:49:24Z,0,Hi I have a very annoying error: the reshape changed and it just accepts 2 inputs now… How to correct it?,True
+@chaosmaker781,2022-03-23T13:46:15Z,0,Hi I have a very annoying error: the reshape changed and it just accepts 2 inputs now… How to correct it?,True
+@h4dri664,2022-03-17T12:20:57Z,0,You are the best,True
+@hieutvm5627,2022-03-04T15:47:50Z,0,how can I use this model for object detection ?,True
+@hobbitthegobbit,2022-02-27T10:04:54Z,0,You are the life saver man and a great lecturer,True
+@eranfeit,2022-02-16T18:32:42Z,0,"Hi, This is a Python tutorial that walks through, for detecting objects in images and real time video. This tutorial is based on TensorFlow and pre-trained model  The link for the video : https://youtu.be/40_NC2Ahs_8  I also shared the Python code in the video description .  Enjoy  Eran",True
+@sylus121,2022-02-14T17:58:45Z,0,Bookmark,True
+@matancadeporco,2022-01-14T15:27:54Z,0,"i'm wondering if is there a way to calculate the time spent on a trained model? already trained them but i didnt pay attention on the time spent... now i need to know the time spent, should i retrain all of them again?",True
+@jamalahmed5255,2021-12-26T21:35:45Z,0,Thanks man,True
+@tutsyroll68,2021-11-30T17:05:34Z,0,Is it correct that I round the prediction? I didn't see you do that but it seems like the results of your prediction is always 0 or 1.  Can anyone confirm this to me? Thanks!,True
+@ahmetturan618,2021-11-27T20:39:05Z,0,Thank you very much this training set. I have a question I want to ask. How can we reach the coordinate information of the dog in the picture?,True
+@seriouscoder1727,2021-09-21T06:40:56Z,0,"Could you make a new series on deeplearning and update the course content I,m sure some api has changed and things get easier isn,t it?",True
+@boody8beloved,2021-08-31T16:57:11Z,0,AVSpeech dataset. thank you,True
+@muhammadriefkyhadid9577,2021-07-18T07:43:35Z,0,"hey i want to ask something, if i make a text classification using CNN, when i save my model, how to include my preprocessing text for tokenizer to the saved model? thanks",True
+@Ash-xg7fn,2021-06-27T09:45:40Z,0,"Hey when I insert the prediction line it throws an error saying that ""an integer is required (got type list)"" how to remove this error.",True
+@jayshan3645,2021-06-24T07:52:11Z,0,"How he just put 'dog.jpg' and predict it?  i am inputting full path like ""C\user\'dog.jpg'"".  How to fix the path so I can also put images directly in my script?  thanks",True
+@Ash-xg7fn,2021-06-20T13:48:03Z,0,"Hey when I execute prediction = model.predict() line it throws an error saying an integer is required (got type list), anyone know how to solve this problem?",True
+@SikderTahsinAlAmin10,2021-06-08T21:26:46Z,0,"Hi ,anybody could do the prediction for all the test images at once? Here it shows to do prediction for one image. I wanted to do it for all images. Not sure where I am doing wrong. It shows ValueError while predicting.  for img in os.listdir(test_path):         test_img = os.path.join(test_path,img)         img_array = cv2.imread(test_img, cv2.IMREAD_GRAYSCALE)         new_array = cv2.resize(img_array, (IMG_SIZE, IMG_SIZE))         new_array = np.asarray(new_array).reshape(-1, IMG_SIZE, IMG_SIZE, 1)         test_data.append([new_array])   model.predict(test_data)",True
+@arrrrsssshhhhh,2021-06-07T08:53:21Z,0,why it always predict dog ? Help me plz!!,True
+@aniketprasad7700,2021-05-14T10:31:36Z,0,"hey i am new to neural network  and  i had trained a model which classify fish the number of types of fish i used to train a model is 18  at the output layer i used softmax activation function   and when it's time to predict i get something scary which i don't understand   array([[8.5519117e-01, 2.2207429e-10, 2.3741741e-04, 1.0751293e-06,         1.4013448e-02, 1.2278209e-08, 5.0232854e-02, 9.2384416e-06,         9.2072208e-09, 1.3953709e-06, 8.1934751e-04, 8.0754745e-08,         7.6209195e-02, 2.8442797e-08, 3.2370333e-03, 2.9252007e-08,         4.7618483e-05, 7.9486085e-08]], dtype=float32)   help me to understand what it is and what does it mean .",True
+@huseyinalperendagdogen4707,2021-05-01T00:41:44Z,0,How can ı use trained pickle model at camera?,True
+@Cristian-bg1pr,2021-04-21T14:31:00Z,0,Really appreciate each video out of all. Thank you man!,True
+@SuperMaDBrothers,2021-04-20T23:19:54Z,0,What are the inputs to the network? All the individual pixels?,True
+@marmar321,2021-04-19T15:13:15Z,0,Impressive,True
+@abdullahbinabdullah3064,2021-04-15T08:26:12Z,0,"bad marshal data when loading model, Please help me",True
+@wahabkhan-ug4ri,2021-04-13T20:29:02Z,1,"OSError: SavedModel file does not exist at: C:\Users\wwx797680\Desktop\logs\cats-vs-dogs-cnn-64x2-1618337464.model/{saved_model.pbtxt|saved_model.pb}  geeting this error when loading model file please help",True
+@laughingoutloud3713,2021-04-13T14:56:24Z,0,"i have a trained model, can someone make it work on my pycharm to get predictions? i pay $10 by paypal...",True
+@altairibnlahad2776,2021-04-09T09:24:21Z,0,Src not a numerical tuple error,True
+@afailable,2021-04-04T08:35:10Z,0,Who else gets the feeling sentdex hates cats 🤣,True
+@Noel-wr5zu,2021-03-11T08:57:15Z,0,I suggest you do some stuff on K-means clustering for sentiment analysis,True
+@prodbyrish,2021-02-21T08:55:24Z,1,I keep getting an error which says NameError: name 'prepare' is not defined,True
+@samcherry1000,2020-12-26T22:03:47Z,0,"The only thing that I don't understand is how to give the program a filepath. Does ""dog.jpg"" need to be in a certain place? Where in the program do I tell it the file location?",True
+@sayarmandal1885,2020-12-25T20:56:21Z,1,I used the same code and it is always predicting dog,True
+@WilkiFilm,2020-12-04T08:02:48Z,0,"model = tf.keras.models.load_model(""64x3-CNN.model"") is broken, anyone find a workaround? throws up an AttributeError: 'str object has no attribute 'decode'",True
+@charanmakkar7732,2020-11-28T04:18:42Z,0,OSError: SavedModel file does not exist at: 64x3-CNN.model/{saved_model.pbtxt|saved_model.pb},True
+@zxGHOSTr,2020-11-11T16:34:17Z,0,Magic-Man!,True
+@naveenkumarm8828,2020-11-04T10:34:25Z,0,"Dear Sir,  Am getting error in ""X.Picke"" how to rectify it i am trying this code in google colab   FileNotFoundError                         Traceback (most recent call last)  <ipython-input-2-ac49451e809a> in <module>() ----> 1 pickle_in = open(""X.pickle"",""rb"")       2 X = pickle.load(pickle_in)       3        4 pickle_in = open(""y.pickle"",""rb"")       5 y = pickle.load(pickle_in)  FileNotFoundError: [Errno 2] No such file or directory: 'X.pickle'",True
+@sazidabintaislam2676,2020-10-25T06:39:16Z,0,In short- Can I use model.predict_classes([prepare('tb6.JPG')]) to predict classes instead of the last line you showed?,True
+@sazidabintaislam2676,2020-10-25T05:44:14Z,0,"Hi, for my multiclassification problem, I have four class. In the prediction output, they are giving me four prediction.. but the prediction class category name doesn't match with that.     the **print(prediction) ** is printing different prediction and providing different name    2nd concern is - **print(CATEGORIES[int(prediction[0][0])])**  & the result I am getting with **model.predict_classes([prepare('tb6.JPG')])** does not match, do you know why?",True
+@dudekulashamshuddin9854,2020-10-23T15:39:46Z,0,"if i want to change my trained model(Sequential) shape(224,224,3) to (299,299,3) to train inceptionV3  Please anyone helpme with this. thank you. You can also get back to me on shamshuddin7426@gmail.com",True
+@GAment_11,2020-10-21T18:00:09Z,0,"For anyone getting two dogs or getting two cats, or something that is not what you were expecting--I initially had the same issue. What I did was reprocess my images with a larger image size of 100 (He did 50 in his video and 70 in his text tutorials). After retraining the model with a larger image size of 100, I was able to classify images correctly. That said, as he pointed out, this is about 80% accurate, so if misclassified--it doesn't necessarily mean your CNN is wrong--it might just meant you have to tweak your model to increase validation accuracy. Thanks again for sentdex for such informative tutorials. Really helps with comprehension.",True
+@ajay6225,2020-10-10T10:12:54Z,0,My tensorflow is not working,True
+@LewiUberg,2020-10-08T10:16:00Z,0,I see you are writing IMG_SIZE in all caps. Is this a convention for variables with settings?,True
+@vinayssinnur5233,2020-09-18T18:28:26Z,0,How can apply to real camera  Pls any suggestions,True
+@oliverpolden,2020-09-18T17:13:32Z,1,The amount of random noises you make but yet I completely understand is very entertaining.,True
+@md.abdullahalmurad2312,2020-09-13T13:41:05Z,0,Is this some kind of object detection?,True
+@marcsilviu5665,2020-09-03T11:35:37Z,0,How does the model know where your image are?,True
+@muhammadaburayan7471,2020-08-31T17:14:35Z,0,"Can anybody notify me how to save this '64x3-CNN.model' model from google colab to google drive. Yes, my colab notebook is mounted to the google drive. But the model is not being saved after running the code.",True
+@sumukhbhat1641,2020-08-05T19:23:30Z,0,Some models with lstm layers and stuff change on load_model(). They give different results.Any one has any fix?,True
+@marwan.ux1,2020-07-26T05:20:02Z,0,Every time it gives me the same classification,True
+@luliu5094,2020-07-11T21:48:05Z,0,Hi do you have the source code for training this model? Thanks.,True
+@hamzanaeem4838,2020-07-07T09:10:03Z,0,"I am getting error because i also use SIFT algo and now error is ValueError: Error when checking input: expected dense_18_input to have shape (128,) but got array with shape (1,)",True
+@smartaitechnologies7612,2020-07-05T09:20:15Z,0,"awsome explanation ,thanks for clearing my doubts",True
+@Kadir85Akin,2020-07-03T20:58:23Z,0,"Unfortunately I couldn't make it work. Perhaps there is an issue in model. I guess, the code in this tutorial misses normalization by dividing 255. We need it because during the training we divided the pixel values by 255. But when I dont divide by 255 (as in this tutorial), ML randomly tells dog or cat. If I divide by 255 for the normalization, in this case the result is always dogs. So, in the video of this tutorial do we see the result correct just by chance? Because according to my experiment, the correct estimation ratio seem less than 30% (if we don't normalize as you did). Could you please check the model with other images, or could you explain why we don't need to normalize before prediction (although we did it during prediction)? Do you get more than 50% accuracy with this code ? What can be the problem for our case ?  I saw that there are other people reporting the same issue, your help in this issue would be great. Thanks for your help.",True
+@Irfankhan-jt9ug,2020-06-30T04:09:06Z,0,How do we use transfer learning and use sophisticated NN like ResNet50 to predict out images? please add part 7 of this tutorial series to show it and please add image augmentation step as well,True
+@Irfankhan-jt9ug,2020-06-30T04:03:47Z,1,How do you pass a list of 15 images for prediction that you put in the Testing folder  in part2 of this series?,True
+@AnimilesYT,2020-06-29T12:23:25Z,0,"So, you have the categories, but now you need to do the opposite of what you did with that. Do you now need the dogetories?",True
+@tarushsingh1108,2020-06-29T11:01:37Z,1,Me : (Passes a picture of a butterfly) Model : Is this a dog ?,True
+@MuhammadUsman-wh4zi,2020-06-27T22:02:17Z,0,Discovered you right on time when I needed this kind of learning stuff. Great work Bro..,True
+@penguinmagehello,2020-06-23T02:21:01Z,0,love the title of the notebook,True
+@anhdungle2621,2020-06-20T09:01:27Z,0,"Why is the output only 0 or 1? I thought it would be some number in the range [0,1]",True
+@wacotapes9833,2020-06-16T12:24:23Z,3,"I am missing something, how did you load the dog image, how the program does know where the dog image is, did you specified filepath before?",True
+@bouchelligamohamedhedi2747,2020-06-10T15:08:28Z,0,"how to get prediction with 20 classes is it ""print(CATEGORIES[int(prediction[0][0])])"" ?",True
+@darkgaming1203,2020-06-07T07:52:57Z,0,ok i tried doing this same but with face recog instead cat vs dog and my accuracy is 100% still not giving right prediction -_-,True
+@abdullahalhasanat3722,2020-05-25T09:38:16Z,0,"I wounder if anybody can tell me how to implement this code on raspberry Pi, I mean what modifications on we need to apply in this case?? many thanks in advance",True
+@guo7043,2020-05-23T18:05:53Z,1,"If we choose 'sigmoid' as activation function for output layer, we need to do sth like this: if probability > 0.5:         plt.title(""%.2f"" % (probability[0]*100) + ""% dog"")     else:         plt.title(""%.2f"" % ((1-probability[0])*100) + ""% cat"")  Since the out put of sigmoid is between 0~1, on the other hand in(num) for num between 0~1 constant equal to 0.   Also why don't you divide the input data by using 255 while testing ? I think you did this while preparing the training dada. Confused.",True
+@guo7043,2020-05-23T11:49:22Z,1,"I learned from the p.1 until now. So far, everything works well, ultil I predict by using the model. It predicts everything as dog...",True
+@veer9423,2020-05-11T08:54:30Z,0,This may be a silly question but if this stuff doable on a Mac? Working with tensorflow/keras + python,True
+@MawaMaverick,2020-05-11T03:01:54Z,1,Unfortunately i couldn't get mine to load an accurate prediction. I did the exact same thing as him. Only difference is that i took 2500 images from dog and cat each just to create separate folders for testing samples. There is about 12000 images left in Dog_train and Cat_train. Anyways i can't give this issue more hours. incase anyone faced the same issue please comment otherwise i have to move onto the next video and other material.  Otherwise thanks @sentdex,True
+@harrymackfanclub9067,2020-05-08T08:35:29Z,0,where to actually load the images to be tested?Didnt get that.,True
+@lunareclipse07,2020-05-02T12:14:12Z,3,"Hey if anyone is having an error like expected input shape 1024 but recieved input shape [None, 3124] or something like that, you just need to change IMG_SIZE to whatever you trained the model with. in my case, I trained it with 50x50 photos, so when I changed IMG_SIZE to 50 from 70, My code was working absolutely fine. Hope this helps!",True
+@cuiyoutian,2020-04-24T07:13:36Z,0,Is it possible to download 64x3-CCN.model from you and then apply it to my own code?,True
+@santhoshsai4942,2020-04-20T07:36:42Z,0,"Where have you defined filepath, actually. you have used it sir but didn't define it anywhere?",True
+@MohdAkmalZakiIO,2020-04-18T08:58:09Z,0,Can you show us how to load tensorflow models (.h5/checkpoint) for multiclass prediction?,True
+@debashisgupta5438,2020-04-08T06:24:54Z,0,Please do some video on implementation of adversarial attack please please,True
+@xumuk1155,2020-04-07T08:51:52Z,0,"Somehow, the model always predicts DOGS :/",True
+@moomalfarhad658,2020-04-05T04:36:43Z,2,can you plz show how to print confusion matrix for this model,True
+@nwenwehtaywin,2020-03-30T14:15:53Z,0,"My classification results always show ""Dog"" for every test.  Its prediction values are around 0.6-0.9. I made 5 epoches instead of 10 bz my comp shut down automatically if I made 10. I don't have GPU machine so I use only CPU. Is it because of it? How can I do to get accurate classification result. Please share your results upon this Pet classification result.Thanks you so much in advance.",True
+@cx4917,2020-03-28T13:28:24Z,0,@sentdex i think int function would be wrong as predict will output probability  as you are using a sigmoid function. int will only retrun 0 unless 1.,True
+@oldsnake771,2020-03-13T15:51:13Z,0,"I don't know if the dataset changed from 2018 to now, but I've followed the instructions and I only got 68 of Val. acc at most   with 10 epochs",True
+@ssathiya3779,2020-03-11T03:58:09Z,0,"Hi, You have done a great job.  I followed through all this tutorial, I have a problem that the model predict always say Dog. I have not saved the model , and evaluation the model in jupyter itself.",True
+@purushottamarao1209,2020-03-08T10:23:15Z,1,"I am getting this error when I try to run the code. Can u please find out the reason? error                                     Traceback (most recent call last) <ipython-input-54-90361e421a81> in <module>() ----> 1 predictions = model.predict([prepare(""D:\Img_1.jpg"")])  <ipython-input-52-a43a5a0c584e> in prepare(filepath)       2   img_size=70       3   img_array=cv2.imread(filepath, cv2.IMREAD_GRAYSCALE) ----> 4   new_array = cv2.resize(img_array, (img_size, img_size))       5   return new_array.reshape(-1, img_size, img_size, 1)  error: OpenCV(4.1.2) /io/opencv/modules/imgproc/src/resize.cpp:3720: error: (-215:Assertion failed) !ssize.empty() in function 'resize'",True
+@abdesamiesalama9408,2020-03-06T15:07:28Z,2,And after a year i just noticed the project name .. Anyway .. it keeps predicting just ones (dogs) ?,True
+@shasti100,2020-03-05T16:10:59Z,3,"Hi, I am having this error could someone please help me out pls.....  OpenCV(4.1.2) C:\projects\opencv-python\opencv\modules\imgproc\src\resize.cpp:3720: error: (-215:Assertion failed) !ssize.empty() in function 'cv::resize'  Thanks!",True
+@mtahirrasheed5538,2020-03-05T04:37:37Z,0,Can you please make a video in which input and output both are images for training the network i-e  for image processing. I have seen many classification problems. But I couldn't find any image processing related video. Thanks in advance.,True
+@VinOnline,2020-02-29T02:36:22Z,12,"If  you guys are getting the following error: ""ValueError: Python inputs incompatible with input_signature:""  You can fix it by adding img_array = img_array / 255.0",True
+@sumanshu.nankana,2020-02-24T00:13:17Z,0,"Hello Sir, While testing, do we need to normalize the array?",True
+@surajmadagaonkar8801,2020-02-14T07:25:24Z,0,"this time the coffee mug  ""Homunculus """,True
+@nagasivakrishnauppuluri2967,2020-02-12T08:17:57Z,0,hello sir where can i find the pretrained models for age and gender prediction,True
+@csabaszalloskis3732,2020-02-07T12:15:32Z,0,"dear sentdex! firstly i would like to thank you for these videos, they have helped me a lot. i have a question about how should we predict if we have more categories, let's say cats, dogs and cows. what interests me mostly is how to get for each category the assigned probability. in your case there is only one value (prediction[0][0]) which if is greater than 0.5 than it's one category, else it's the other. i would like to have for every category the assigned probability. how can i do that? thanks!",True
+@yogeshwarshendye4857,2020-02-04T16:26:54Z,0,Can you make a video for converting custom model into mobile model like mobilenet??,True
+@keithmartinkinyua2067,2020-01-20T07:49:35Z,0,Great video sentdex...However i wanted to know if it is possible to feed the model with a video  for it to recognize object or faces in the video?,True
+@muhammadaburayan7471,2020-01-19T17:57:00Z,0,"Error when checking input: expected conv2d_51_input to have shape (50, 50, 1) but got array with shape (70, 70, 1)  How to solve this???😨😨😨",True
+@abdulsemedyasin2975,2020-01-09T10:40:24Z,0,i am getting only 0 (it predicts only dogs) help ?,True
+@joeycherisea5999,2020-01-05T08:57:51Z,4,"Error: ""Expected conv2d_input to have shape (50, 50, 1)..."" Should you use a image_size of 50 instead of 70 since that's the size you defined in previous tutorial when creating training data?",True
+@user-ln2qr5mn8r,2019-12-31T20:16:01Z,0,Wow! Tensorflow seems so simple now... Thanks for sharing.,True
+@aniruddhamulay2932,2019-11-30T08:30:43Z,0,How can I print the prediction percentage??,True
+@eastwoodsamuel4,2019-11-24T10:04:23Z,0,I'm getting a decimal value for prediction.. What to do?,True
+@SandipPatil-vw1ql,2019-11-16T02:29:49Z,0,I am always getting dog even though I given cat image.. please help me with this,True
+@carlitoespinosa5449,2019-11-11T01:09:25Z,1,"Sir it would be great if you make a video connected to this, this time you apply it in real time like putting an actual dog on camera :)",True
+@pengsun1355,2019-11-03T14:16:25Z,0,could we get x from the trained model and y given? Usually we just use model.predict(x) and get our y though,True
+@NickxHaruka,2019-10-29T16:23:58Z,1,Having this error  can anybody help pls ....  cv2.error: OpenCV(4.1.1) C:\projects\opencv-python\opencv\modules\imgproc\src\resize.cpp:3720: error: (-215:Assertion failed) !ssize.empty() in function 'cv::resize',True
+@darshansr9025,2019-10-28T02:37:13Z,0,"sir ,i have considered smaller dataset of dog and cat ,and its showing always a dog even for cat picture . could anyone help me to fix this problem ,within code itself .",True
+@siddharthgautam8280,2019-10-20T09:21:51Z,0,"When I try to do this I get the error  ``` TypeError                                 Traceback (most recent call last)   <ipython-input-4-5ab2e97eb5e3> in <module>       9         break      10  ---> 11 prediction = model.predict([prepare(""image.jpg"")])  TypeError: Value passed to parameter 'input' has DataType uint8 not in list of allowed values: float16, bfloat16, float32, float64 ```  Any ideas on how to fix this?",True
+@AbdulMannan4,2019-10-07T19:07:22Z,0,Hey Would loading the model mean that it's being trained again? Or it's just acquiring the already trained model?  I have to use one in building an application. So it must not train again and again to make a prediction.,True
+@hamzahamdani3169,2019-10-05T14:23:54Z,2,"HELP !! ValueError: Python inputs incompatible with input_signature:   inputs: (     Tensor(""IteratorGetNext:0"", shape=(None, 50, 50, 1), dtype=uint8))   input_signature: (     TensorSpec(shape=(None, None, None, 1), dtype=tf.float32, name=None))",True
+@user-xm1ml5fv2h,2019-09-28T20:52:16Z,0,I can use this model to detected the dog or the cat? I want to sign the dog with red color,True
+@faridalijani1578,2019-09-27T15:09:01Z,0,could you make a tutorial for visual SLAM or odometry with sequences of frames as inputs? I'd like to use RNN + CNN for pose estimation (6 DOF) and 3D reconstruction with keras.   tnx :),True
+@Tyzon201995,2019-09-25T05:37:29Z,0,How to modify the code so that it gets trained in FP16 format? Currently it is FP32!,True
+@abdullahiibrahim7796,2019-09-20T23:59:18Z,0,"Thanks sentdex. Your videos are very helpful. I've been following your tutorials with python interpreter on my local host and it has been working well. I am running this tutorial 6 in a new python file, and i don't know how to connect it with my model. Also i have the image i want to use on my laptop but don't know how to link it to my trained model. However, i encountered an error while doing tutorial 6 .this error >>>   ""C:/Users/ALH BRAIMAH/Desktop/HNG Internship/ML/Trained Model Use.py"", line 12, in <module>     model = tf.kears.models.load_model(""64x3-CNN.model"")   File ""C:\Users\ALH BRAIMAH\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\util\deprecation_wrapper.py"", line 106, in __getattr__     attr = getattr(self._dw_wrapped_module, name) AttributeError: module 'tensorflow' has no attribute 'kears' "" PLEASE HELP ME",True
+@rajatsingh5714,2019-09-15T10:51:19Z,0,"When I made a flask API with this, it works good when I test it in the CLI, but gives an error when I deploy it and then use the API.  attributeerror: 'nonetype' object has no attribute 'predict",True
+@SudheerNanduri,2019-09-05T19:18:18Z,2,"Anyone noticed that ipynb title ""Doggos vs animals that dgaf... "" :)",True
+@elisabethdoyon107,2019-09-03T17:06:04Z,0,thanks a lot for all those tutorials! Youre great! I'm always looking foward to discover the mug od the day! ;),True
+@mohalemolefe,2019-09-02T19:11:34Z,2,Great tutorial! so what happens when you have both a dog and a cat on the same image?,True
+@velo9474,2019-08-28T20:28:11Z,0,"In your last video we optimized the models with tensorboard, and in this video you saved one model, what can we do if we have not saved it before?",True
+@nurzhan051184,2019-08-28T05:13:37Z,0,how to convert model to tflite?,True
+@adrianmanuelorayeabrasaldo,2019-08-20T20:13:12Z,1,"Amazing tutorial, can I ask if we can use the model to be used in a real-time video or recorded video or using webcam, and draw a rectangle where the dog or cat has been detected?",True
+@tallurinagapoornima2356,2019-08-14T13:43:07Z,0,I want to develop a model so that it can predict the images of egg... How can we do that,True
+@vishalkothari8065,2019-08-13T15:15:54Z,0,How to make a box around the output in keras after the prediction is done,True
+@cindyy123,2019-08-12T23:42:02Z,0,"Do you have any idea of how to save a random forest model, since the .save() method is only available at models made in keras?",True
+@jrM5492,2019-08-09T08:48:22Z,0,"Did he resize the training data to be IMG_SIZE = 70? I was getting  ValueError: Error when checking input: expected conv2d_54_input to have shape (50, 50, 1) but got array with shape (70, 70, 1)",True
+@NowKaio,2019-08-01T13:33:50Z,1,Thanks sentdex.   And about the testing folder with images of 15 cats and 15 dogs that u created in tutorial part 2?,True
+@waynefilkins8394,2019-07-29T02:16:41Z,1,"I would REALLY like to know how to do this for the crypto prediction RNN.  I cannot figure out how to do it so I just have a model and can't do anything with it.  If you could just do one video on how to run it over separate data it would be really amazing.  A lot of people commented on that video series that they want a video for that, so you would get a lot of views.",True
+@himanshutanwani5118,2019-07-24T13:17:26Z,3,Why didn't you normalize the image by dividing by 255 since you also did that before training while feeding the image?,True
+@KamranQasimovDeirvlon,2019-07-24T11:36:54Z,0,i got  - val_acc = 96,True
+@jean-jacquescueff1488,2019-07-07T10:32:43Z,0,"I got this problem -> int(0.9) = 0 so, for the model, almost every picture is a dog   i came up with a solution: prediction = model.predict([prepare('cat.png')]) list_choice = int(round(prediction[0][0])) if float(prediction[0][0]) > 0.5:     tx = (float(prediction[0][0]) - 0.5) * 200 else:     tx = (0.5 - float(prediction[0][0])) * 200  print(f""I'm {tx}% sure it's a {CATEGORIES[list_choice]}."")",True
+@drewclayman5560,2019-07-05T10:10:45Z,0,i like stocks.,True
+@barisunsal4686,2019-06-27T07:12:56Z,0,not a creative cup idea this time :(,True
+@jabrane1564,2019-06-26T18:30:17Z,0,"what's the probability for this model to be the example for a deep learning competition ? cause i only know this one . also, thank you very much !",True
+@gau_rav_92,2019-06-26T12:22:50Z,0,"---> 16 print(prediction)  TypeError: 'numpy.ndarray' object is not callable   Anyone getting this error as well",True
+@markd964,2019-06-25T16:53:21Z,1,"After putting together my new-build ML computer,  it seems i'm missing some hardware for ML tutorials: 1xDog and 1xCat...I will purchase tmrw for photosessions...",True
+@anirbandey303,2019-06-15T07:05:57Z,0,"Will it work if instead of loading a single new file for prediction, I pass in the video stream from webcam?",True
+@adhirathmandal6246,2019-06-10T02:52:45Z,0,is it possible to test the model on an external image ULR?,True
+@waynefilkins8394,2019-06-04T04:24:55Z,0,"How do you predict into the future for the RNN?  For example you want to predict 30 values into the future for stock prices, instead of just predicting the next value or whatever...how is that done?",True
+@ashishpathania407,2019-06-02T07:53:47Z,0,how to use my model on a video??,True
+@tahirahmad2971,2019-05-27T19:28:32Z,10,when i predict the picture it always return 0.0,True
+@Theleaderacademy,2019-05-27T09:17:00Z,1,Its a very good video but this line is not working. Guide me please   prediction = model.predict([prepare('cat.jpg')]),True
+@Theleaderacademy,2019-05-26T18:31:32Z,1,"Awsome , I love your channel as you are making very beneficial tutorials for us.    I need your help in similar project in python. Kindly reply me as soon as possible",True
+@srivatsanm6445,2019-05-24T05:01:11Z,0,"I am getting a value  error stating cannot reshape array of size 90000 into shape(300,300,3) how can i resolve this error.",True
+@RealRadioWithRishav,2019-05-16T07:17:07Z,6,The cat picture is not being recognized for some reason,True
+@a1995rrrrrrrrrr,2019-05-04T05:31:40Z,0,What would the model predict for images containing neither a dog nor a cat? Or for some thing that has half a cat and half a dog? Actually I'm using it for some other case where there is a possibility of a sample having half the characteristics of each label class. How do I work with this?,True
+@anhkyao3586,2019-05-02T17:40:52Z,0,"Cho tôi hỏi: Tôi cần tải xuống tệp hình ảnh chó và mèo để so sánh nó, tôi nên lưu nó ở đâu để đọc 2 tệp",True
+@nikhithnkz4599,2019-05-01T20:58:06Z,0,OpenCV(4.1.0) C:\projects\opencv-python\opencv\modules\imgproc\src\resize.cpp:3718: error: (-215:Assertion failed) !ssize.empty() in function 'cv::resize' am getting this error can any help me out,True
+@lorenzoleongutierrez7927,2019-04-14T19:01:34Z,1,"dear friend, great lecture series really thankz for share!. On my case im an agronomist and looking to advance on plant seedlings discrimination. big hug and congrats! , Lore",True
+@stefan-haas,2019-04-14T18:33:43Z,0,Can someone please tell me how I can make a CNN with different image sizes?,True
+@rahuldass4882,2019-04-09T03:16:27Z,5,"Hi! Thanks for this updated series. Super helpful! Would you please do a tutorial(s) of doing transfer learning and/or fine tuning learning by using ""off-the shelf"" models to run with custom data? Models such as AlexNet, Caffe, Inception v3, ResNet etc.",True
+@mrharshsagar24,2019-04-08T07:46:42Z,0,"I am a beginner and trying this algorithm and training with coral images. I have two sets of images and followed the procedure. However in the prediction, I get either of the prediction as ""Hard Corals"" (I am classifying hard and soft corals). BUT,  when I change it from :   CATEGORIES = [""soft corals"", ""hard corals""] TO CATEGORIES = [""hard corals"", ""soft corals""], All my prediction now becomes ""Soft Corals"". Please help.  I have balanced the training sets too.",True
+@soumambanerjee1816,2019-04-04T06:32:11Z,1,+sentdex  plz note that predict gives back the probability  as  a return... but when you give a cat and its 0.99 or rather 99% sure its cat then what it does is   CATEGORIES [   int (0.99)   ]     == 0 which then shows that DOG is the output...rest all is  very good ...learnt a lot .... LOVE FROM INDIA :),True
+@CryptoHubs,2019-04-03T15:10:06Z,0,how can i predict  from captured image  and it would be only one image ??? plz suggest me the way,True
+@shey87,2019-04-03T12:44:54Z,0,"Hi, i've a question: You resized the training data before training the model using X = X/255 Why did you skip this step in the test?",True
+@siddhantsangal5298,2019-03-20T16:44:27Z,0,"How do I use a detected object in my webcam feed as an input for generating a control signal at the GPIO pins of a raspberry pi? In this case, maybe detect a cat and run a motor clockwise and counter-clockwise for a dog?",True
+@allendejesus1340,2019-03-17T17:35:00Z,1,I followed everything till now and got only this error OpenCV(4.0.0) C:\projects\opencv-python\opencv\modules\imgproc\src\resize.cpp:3784: error: (-215:Assertion failed) !ssize.empty() in function 'cv::resize' What does it mean?,True
+@Penguinz-fr1mu,2019-03-17T14:37:42Z,0,Great tutorial and explanation!,True
+@bcook745,2019-03-08T15:38:24Z,0,What happens if I show it a picture of a goat?,True
+@liqian7619,2019-03-08T00:11:35Z,2,"Can we download a copy of your trained ""64x3-CNN.model"", would be easier for people just watch this video. thank you!",True
+@user-px6vf3rm6i,2019-02-23T10:06:53Z,0,How save model save in pb or pbtxt format?,True
+@akhtarshaikh5594,2019-01-25T15:52:12Z,0,"Hi sentdex,  your tutorials are ossom.. I have one doubt what about if I passed another image apart from cat and dog..let's say if I passed my own image then , what model will predict.  thnks",True
+@ibrahimyazicii,2019-01-08T12:13:11Z,4,"Even I test a photo take from the dataset, It always tells it is a dog",True
+@gianmarcopolotti4220,2019-01-05T17:55:40Z,0,"Nice video and tutorial.  How do you manage a dataset with some missing values?   Suggetion for example datasets: times series that come for experimental measures (es temperatures, pressures, flows, strenghts, powers, ets).  Thanks.",True
+@khaledabdrabo1804,2019-01-01T17:18:45Z,2,how to use this model for more than 2 classes?,True
+@shreyashpandey7934,2018-12-29T05:12:03Z,0,"Hello sir , i have a small request .please recommend a free course to learn data science",True
+@jtkim5628,2018-12-20T22:09:50Z,5,"What if no cat and dog? How can I show ""Not categorized"" when I put horse or human?",True
+@ansonkho1673,2018-12-19T14:26:28Z,0,my cat and dog is printing prediction = 0 . any idea why?,True
+@prakashpichaimuthu2351,2018-12-19T03:53:01Z,0,How to add new data input and categories in already saved model and predict,True
+@vibekdutta6539,2018-12-17T20:48:58Z,0,Big fan of your work! Bigger fan of ya Coffee mugs hahaha!,True
+@pdanielvazquez,2018-12-14T05:48:28Z,0,"Thanks for all, you were great! You helped me to do my homework",True
+@rossheaton7383,2018-12-13T08:18:43Z,0,"Why didn't you initially split your data in to train, test and validation sets? That way, you could have evaluated your trained model using model.evaluate() with the test data and determined the real accuracy of your model. I was surprised when I saw that you only created a train and validation sets.",True
+@wenymebeforemen6766,2018-12-02T04:31:35Z,0,I love you Mr dex,True
+@linli3596,2018-11-29T09:02:32Z,0,You got a lot of cups,True
+@vreesie1276,2018-11-19T20:25:01Z,0,"Quick question: I use a RNN to predict stock prices, but when I feed the model a lot of data it makes multiple predictions (so, for each step). But what is the last prediction of the CSV file I provide the model. So what is the prediction of the last data line of the CSV file, the first value or the last?",True
+@brunobelloni7614,2018-10-13T23:29:57Z,0,Can I make a prediction with an R-CNN with that .model I trained by watching your previous videos? How do I do that? I want to see if I have two flowers in the same image. Thank you,True
+@MrSaicharan1,2018-09-30T04:02:07Z,1,"So yeah, I got all of my predictions as Cat when I normalized the data by a factor of 255(img_array/=255) .Did any one find out what was going on?",True
+@kevinhe1770,2018-09-29T02:41:10Z,0,nice staff,True
+@justwhyamerica,2018-09-11T17:44:10Z,0,did anyone else have their dog and cat phots identified wrong?,True
+@MrRikum,2018-09-10T13:34:04Z,0,"Does someone knows why it only ouputs 0 or 1 and not probabilities, even though we have a sigmoid function at the end  ? I tried model.predict_proba but it does the same.",True
+@houssemkhatrchi7771,2018-09-10T11:37:30Z,0,can we use model.predict to detect multiple objects of the same class?,True
+@AIvetmed,2018-09-09T10:13:54Z,0,"In tensorflow, maybe save models as checkpoint: saver = tf.train.Saver() saver.save(sess, 'models/hai.ckpt')  saver.restore(sess, 'models/hai.ckpt')",True
+@julianodbz,2018-09-08T23:30:02Z,1,"I have a question, how could we see how much percent has the ML about if it´s a DOG or a CAT?",True
+@Annunaki_0517,2018-09-07T04:35:31Z,0,"You should definitely do stocks for the next video.  In fact, you might want to do a separate ‘pre-tutorial’ on getting stock data in the current environment, which could be applied as a ‘patch’ to all your other tutorials that incorporate equity prices.    Some potential ‘features’ you might consider (beyond closing price and volume):  Dividend Yield Return on Assets EBITDA/Interest Expense Earnings Growth Total Debt/Shareholder Equity Industry sector  I would love to see tensorflow used to predict stock prices.  That’s my vote, fwiw.",True
+@SuperBelly14,2018-09-06T22:53:18Z,0,How would you add more data on to this saved model?,True
+@yldrmdenz,2018-09-06T15:48:42Z,0,I also wanna donate you but Turkish currency doesnt mean anything these days.,True
+@UsamaGhufran,2018-09-06T08:33:58Z,5,"Hey Sentdex! Thanks a lot for the tutorials!  I have 2 questions. 1. Is normalizing the image not necessary: img/=255.0? How is it that you're getting correct predictions without normalizing? I was getting correct predictions until I normalized and now all my predictions are Dog.   2. When we rescale the image, the aspect gets squished. Doesn't that distort the features? I scaled in a way that scales by the longest axis, preserving image aspect ratio and fills the rest with black pixels. However, now having black pixels might just become a feature the NN might learn. Should I fill with random/static noise instead of black?",True
+@konet1440,2018-09-05T04:35:36Z,0,Could you teach some simple Generative adversarial Networks because that’s what the ML cool kids are doing nowadays,True
+@joyanisnisan7619,2018-09-05T02:37:41Z,0,and also tables in a document sir still using python and open cv,True
+@joyanisnisan7619,2018-09-05T02:35:52Z,0,"good day sir, I would like to ask is it possible usi g python and open cv, if you can detect clip art or word art in a microsoft document, we are having a problem differentiating clip arts with images. hope sir we could get a response from you. Thank you sir",True
+@danielpiskorski3946,2018-09-04T21:50:01Z,0,Great series!  Maybe tutorial on how to use networks that come with keras like ResNet50 etc. How to train them to predict our categories or smth.,True
+@RutgerMusicOnline,2018-09-04T19:35:45Z,2,Could you maybe do a tutorial on using a neural network with keras for approximating any function like a sine wave?,True
+@linho2872,2018-09-04T07:52:31Z,0,"With this, what will we do next to predict cat and dog in realtime???",True
+@mockingbird3809,2018-09-03T15:54:05Z,0,I joined your Channel because I love to learn from you  @Sentdex,True
+@halilteker3139,2018-09-03T13:46:34Z,0,Can you make a tutorial on the classification of music notes at different octaves of any given instrument (e.g. a flute)?,True
+@AIvetmed,2018-09-03T08:25:59Z,0,There are some data sets in the website!!!  It has some series data sets I guess!! https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/,True
+@davidbsasos,2018-09-03T03:33:32Z,0,I dont know a lot about rnn but maybe you can make speech recognition? Ive read thats one aplication for rnn,True
+@saiteja6824,2018-09-03T03:30:26Z,0,Hello bro Y dont u try sudoku solver python open cv,True
+@muhamadabdulsamad2815,2018-09-02T17:30:35Z,0,How to use Tensarflow in the Jupyter?  Is there any video for it :D,True
+@keithlaskay2357,2018-09-02T17:24:44Z,0,"Would like to see the RNN on signal data, maybe audio.",True
+@ahmedbenkhalifa5313,2018-09-02T14:05:51Z,0,"Thank you sentdex for your awesome videos , we are waiting for new projects ;)",True
+@sohaibarif2835,2018-09-02T02:46:44Z,0,non-stock RNN application: next frame prediction or object tracking. Might possibly be a new series. simpler: weather prediction,True
+@RutgerMusicOnline,2018-09-01T21:03:08Z,11,"I have one more question Sentdex. When you use the predict function you get a binary integer output right? Can you also get a decimal value which gives you its ""confidence"" in the prediction? So a float instead of an integer. Thanks!",True
+@janamani9540,2018-09-01T15:00:09Z,0,Hi what will be output  if i give un-trained input image to predict  e.g home.jpg  image,True
+@Lucas-wl8py,2018-09-01T14:40:34Z,2,Can you make a video about the conv layers' weights? Like a visualization or analysis of why it's predicting a dog/cat. Btw you forgot to normalize img /= 255,True
+@homealone75,2018-09-01T09:25:47Z,1,"Your vids are fun and easy to follow. Would love to see RNN and LSTM for stocks, and train for specific events such as intraday momentum to predict current momentum % move and confidence %.",True
+@johankuster1377,2018-09-01T06:30:27Z,0,"Hi, great videos! Since everybody is talking about global warming and many “experts” predict higher temperatures, what about predicting this?",True
+@amoghdevanagavi3577,2018-09-01T02:08:55Z,0,Hey can u do video upon :-loading real time video for detection of objects plz,True
+@Hacsev,2018-09-01T00:08:03Z,2,I would love to see a reinforcement learning tutorial for games. Can you recommend me something?,True
+@armanamedi3386,2018-08-31T23:24:23Z,0,"Hey sentdex, nice video, using cPickle would be 7 times faster for loading the data, and a question, how do we get the accuracy of the predicted output at test time.",True
+@desouzavb,2018-08-31T20:17:30Z,0,"ABOUT THE FIRST VIDEO OF THE PLAYLIST:  I am recieving this error ""ValueError: You are trying to load a weight file containing 3 layers into a model with 0 layers."" when i try to use this command""new_model = tf.keras.models.load_model('epic_num_reader.model')"" can someone help me?",True
+@naveenhettiwaththa5426,2018-08-31T19:04:37Z,27,Don't you need to normalize the input data before feed it into Neural Network? like img_array = img_array / 255,True
+@glorytoarstotzka330,2018-08-31T17:20:54Z,0,"u didnt bother to answer at least of my questions on last video , so i wont do anything but complain this time",True
+@poorbahrdew,2018-08-31T17:20:28Z,0,Quake 3 Arena bots were taught with RNN. I too think this is more interesting than natural language processing :). https://www.eyerys.com/articles/news/deepmind-taught-ai-benefit-teamwork-playing-quake-iii-arena,True
+@satyajitdas2780,2018-08-31T17:20:24Z,2,"Hey, Bro. U are really doing great. Thanks for sharing yr experience and knowledge.",True
+@KshitizRimal,2018-08-31T17:08:09Z,1,"for RNNs, may be text classification other than just sentiment analysis. something to do with more than 2 categories with custom classes?",True
+@qnr9584,2018-08-31T17:05:22Z,0,"HI, BIG setdex！ I'm your funs，could you make a video to help me to know that a data of the very bigger picture to process  and how to resize items batch by batch。likes  Quee not all in memory。😀",True
+@danalarson7590,2018-08-31T16:31:07Z,0,"Love the channel!  You mentioned possibly doing time series with stocks - I would love to see that.  Other things, maybe as one offs, to just show the basics of how to work with these 2 libraries because I think they have gotten more popular recently: Dask and numba.  Also: Fuzzy's, not Torchy's?",True
+@KulvinderSingh-pm7cr,2018-08-31T16:13:01Z,0,Can you make a tutorial about working on Siamese networks with convnets ?,True
+@liangyumin9405,2018-08-31T15:46:50Z,0,maybe my network is not very clever....,True
+@aravindemails,2018-08-31T15:30:03Z,0,Can u start a tutorial based on recurrent neural network on image captioning,True
+@sidsr,2018-08-31T15:19:27Z,0,"Just noticed the project name, nice touch! :)",True
+@cmatthew91,2018-08-31T15:11:43Z,2,transfer learning tutorial would be awesome,True
+@julianodbz,2018-08-31T15:00:33Z,3,"That´s what I was talking about, you rock man, thank you so MUCH !",True
+@shauniop,2018-08-31T14:38:18Z,0,I tried CNN to train my handwriten phone number identification algorithm but need a way to reduce load on it by using something like a shape matching algorithm but it doesn't seem to work; any way to get a better result?,True
+@matiastrapani,2018-08-31T14:34:39Z,1,Hey great job. Can you explain how could i do more trainning on a saved model? or how do i do transfer learning  from a trained model,True
+@AbhishekKumar-mq1tt,2018-08-31T14:31:51Z,0,Thank u for this awesome video and series,True
+@mmhs013,2018-08-31T14:19:49Z,0,"Thanks!! I think, time series weather data (rainfall, temperature) data is good for prediction using RNN. I am waiting for it.",True
+@rezahosseini7851,2018-08-31T14:12:37Z,64,Do some finance staff with recurrent nets! Like a simple one,True
+@allmightqs1679,2018-08-31T14:00:14Z,11,Is it just me or is your dp getting more and more pixelated XD,True
+@bartoszturkowyd3608,2018-08-31T13:52:58Z,0,"Are you planning to do a tutorial about semantic segmentation? I have the feeling it gets more and more popular, even outside the ML field. Also, it starts to be very popular in my field (advanced microscopy). One of my future goals is the use of semantic segmentation in image analysis.  PS. The notbook title is great!",True
+@camdenparsons5114,2018-08-31T13:52:58Z,0,"i see people using that shakespeare data set alot when demonstrating  rnns. if you train it for a while, you wont get anything useful but you will start to see something that resembles a play script. I dont think youll get anything good out of training a rnn on pure stock data, but maybe im wrong,",True
+@atrumluminarium,2018-08-31T13:50:02Z,0,"For RNN maybe you can do music? You train it on a bunch of MIDI files (say of classical music) and then set it to generate something brand new?   That being said, I never did this myself so I have no idea of how simple/complicated it would be but I guess having one instrument track per MIDI file should greatly reduce the complexity in contrast with say 10 instrument tracks.",True
+@leocamacho1759,2018-08-31T13:49:07Z,1,"It’s a new day, it’s a new mug. Yeh yeh what’s new? What I want to point out that the file name is literally “doggos vs animals that dgaf about you except around food” like I’m ded xD",True
+@honzaadamek5186,2018-08-31T13:43:23Z,0,Great tutorial. Is this working for some google pre-trained models?,True
+@RutgerMusicOnline,2018-08-31T13:39:12Z,2,Maybe you could show us how to track objects in a live scene,True
+@nikhilpanigrahi3424,2018-08-31T13:38:14Z,0,"If I want to do the same in real time video, i.e use my model, with obviously trained with many classes, how can I do it so that I get multiple predictions in a single frame?",True
+@Rushirajloke,2018-08-31T13:37:06Z,30,RNN would be great topic to cover next. And also if you could cover LSTM that would be awesome too.,True
+@antopolskiy,2018-08-31T13:29:04Z,4,"Cool stuff. You seem like you are on speed though :)  Upd. Ok my playback is 1.5x, so nevermind )",True
+@baltac1,2018-08-31T13:21:35Z,31,doggos vs animals that dgaf about you except food time. Haha you really made me laugh,True
+@Sandeepkumar-pv9gn,2018-08-31T13:17:11Z,0,Do you think increasing batch size has a positive effect on the model for generalizations or how do you think batch size contribute to a better model ?  and thanks for making this video series ..it's super helpful !!,True
+@saad-ul4mr,2018-08-31T13:16:15Z,0,what is the similar of tensorflow,True
+@shipiboconibo,2018-08-31T13:15:18Z,12,"Recently discovered you, and I'm addicted! Going to start this from pt 1 this afternoon and work through. I'm also excited about your recurrent net tutorial, mentioned at the end! Maybe I'm mistaken, but would that be appropriate for equity market data (stocks, in particular)? I've been experimenting a little, but am very very very much still in the learning phase with all of this. That said, I want my programming skills to be more current, and why not see if I can make a few bucks while learning! haha. Thanks for taking the time to share so much great knowledge!",True
+@iamparadox8885,2018-08-31T13:14:41Z,1,Your tutorials are same unique as your mugs 🤓🤓🤓🤓🙃🙃,True
+@jackflynn3097,2018-08-31T13:11:02Z,0,finally,True
+@saurabhkulkarni2177,2018-08-31T13:09:23Z,0,"How can we predict if we have 3 categories? Like cats,dogs,lion",True
+@fuba44,2018-08-30T20:00:08Z,0,Please do stocks.. Or bitcoin,True

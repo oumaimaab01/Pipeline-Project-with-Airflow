@@ -1,0 +1,146 @@
+author,updated_at,like_count,text,public
+@yamenalsyoufi1200,2023-03-13T15:58:10Z,0,"After 3 days,  I finally found this useful video which solved the buffer size issue for large objects, THANKS",True
+@michaelscepka2967,2022-11-03T17:51:40Z,0,"time to start pickling some objects >:)  I hope i can figure out how to use this to create a continuous stream of point cloud data from a radar sensor, I've been struggling :.(",True
+@pygorithm423,2022-09-13T21:09:11Z,0,you have really helped me in 2020 and after 2 years I'm here again and you help me again I'm really thankful to you ❤️,True
+@2wen98,2022-07-02T12:32:43Z,0,why do you need to pickle it? isnt it easier to just send the message?,True
+@amir_hossainoroujlou3001,2022-06-15T13:45:56Z,0,I'm super nerdy so i understand,True
+@FriedrichBoettger,2022-03-23T23:32:37Z,0,"You are quite right. If this information doesn't excite the viewer, he's just not enough of a nerd. Spectacular and oddly understandable presentation. The last time I tried to implement sockets directly, I remember having a bad week. Looking forward to the next exposition. Thank you.",True
+@TheChinobi23,2021-12-26T23:37:15Z,0,Great tutorial bro,True
+@cHK91129,2021-11-07T10:51:22Z,0,"Can this be applied to a server crud and send data to modify or creat a new entry, like im sending name/lastname/phone?",True
+@sarayushetty5678,2021-11-02T10:14:34Z,0,"By objects do u even mean videos, files and images?",True
+@mikositumorang8680,2021-10-28T08:41:49Z,1,"Thanks, very good videos. I was just wondering if we can send image data and float data simultaneously on one socket ?",True
+@RitikRaj-we2sc,2021-09-22T06:53:34Z,1,how can we send and receive messages parallely ??? plss help,True
+@moisesdepaulodias7980,2021-09-21T04:16:26Z,0,"thanks man, I used a slightly different approach, instead of sending a header with the size, I sent a 'footer' with a final message",True
+@arozoid,2021-08-18T23:55:50Z,0,"I got an error saying UnpicklingError: invalid load key, '5'.",True
+@mooonsh1ne,2021-08-13T14:46:39Z,0,I just send some pydantic DataObjects between the both. just fckn awesome,True
+@sparkafear,2021-07-14T21:25:20Z,0,Is it possible to send data with files?,True
+@harshsingh8171,2021-06-12T19:11:36Z,0,how to deploy,True
+@noobyxviii,2021-06-02T21:09:32Z,0,How do we send something from one client to another? Wont we first need to send it to the server?,True
+@andrewhollenbach7330,2021-05-07T21:29:11Z,0,Isn't the whole point of the HEADERSIZE  / msg length stuff to handle larger messages?  When does it ever pull in more than the first 16 bits?,True
+@GETinTheVaniHavCndy,2021-05-07T19:56:32Z,0,"Hey sentdex, can I use this code to create a server that waits for a 3rd party application on my local network to connect to the server's socket. When that occurs, can I use concepts from client.py inside my server to log all data received to the server from that 3rd party application?",True
+@cjlowe1650,2021-04-26T22:52:39Z,0,Great series on sockets. How can (if you can) send a video stream from a pi zero with a pi camera attached???????,True
+@MrEraldodias,2021-04-19T12:54:21Z,0,Cool :) Would you know how to use socket in python to transfer some file by QUIC?,True
+@MPG187,2021-04-08T20:04:59Z,0,Yo Harrison (is that you in the video) did you get my email? I was asking about sending files in Python...,True
+@aiavicii4243,2021-03-16T19:44:55Z,0,"what's the point of having two while loop in the client.py, i think we can remove the outside one",True
+@KhajaOwaisAli,2021-03-12T14:08:14Z,0,"great exactly what i need but i liked the way u said "" Sundaar Balajeee"" .",True
+@ethik2933,2021-03-09T10:13:56Z,4,"""You wouldn't be able to do everything with json..."" ""Hold my beer""",True
+@Henrikko123,2021-03-07T04:04:08Z,1,"You can press ctrl+c or ctrl+d to quit while running Python. If that does not work, you can try ctrl+break",True
+@MilanKarakas,2021-02-27T05:26:51Z,0,Please help.,True
+@MilanKarakas,2021-02-25T18:46:19Z,0,"HEEEELP, please!",True
+@MilanKarakas,2021-02-25T18:00:52Z,0,"Okay, I will try again. Hope this time it will work.",True
+@tuanazzam5172,2021-02-21T21:52:17Z,0,please can someone tell me the difference of sending a python object and string as in the second video? we could send the dictionary as a 'string' and I can't see what difference will it make:::?,True
+@MilanKarakas,2021-02-21T17:22:21Z,0,"Oh, forgot... I am not sure that Swarm program will accept that format with pickle. I need stream of 512 bytes, or multiple blocks of 512 bytes from my instrument to the Swarm seismic program. This one seems wrong-ish.",True
+@MilanKarakas,2021-02-21T17:19:37Z,0,"I am just lost there. Trying to send date and time in BTIME format (for miniSEED), but instead hexadecimal, I am getting ascii result: 2021052171615.5670 (2021. 52 day, 17:16:15 and 5670 mS. ) Perhaps I need watch tutorial about file creation and ascii to hex conversion? This is my second day of python.",True
+@axe8071,2021-01-31T11:51:16Z,0,"Simple Portscanner:  import socket ip = input(""Enter IP to scan: "") s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  def porttry(ip, port):     try:         s.connect((ip, port))         return True     except:         return None  for port in range(0, 100000):     value = porttry(ip, port)     if value == None:         print(""Port not open on %d "" % port)     else:         print(""Port opened on %d "" % port)         break     ip",True
+@railgundotenc8538,2021-01-25T20:49:13Z,0,"Hey, I recently made a Catan game using Tkinter. I wanted to be able to send variables back and forth laptops to update the map but I keep having an issue with the infinite loops from the servers.  As a result, I can't even open a GUI. I could only find examples for pygames, but I wanted to know if anyone had an easy answer, or know a good example.",True
+@hackbretthb2043,2020-11-07T20:11:06Z,1,You should mention that pickle is extremely insecure if used incorrectly! (i.e. the way you did for the sake of this tutorial),True
+@user-tl8ny2jk7h,2020-10-28T15:07:26Z,0,amazing!! I really hope you keep uploading to this playlist!,True
+@zejunzhang3357,2020-10-11T18:14:31Z,0,just curious how many mugs you have in order to use all the different in the videos,True
+@emilyhuang2759,2020-10-09T07:48:49Z,0,Is this how you can verify the structural integrity of the packet?,True
+@jannatulnayeem7289,2020-09-28T02:53:00Z,0,How can I connect the socket client with node websocket server and the url is like http://localhost:abcd? Can you give any direction? Thanks for your tutorial.,True
+@wdavid3116,2020-08-23T03:35:48Z,0,"If you're doing socket communications you almost definitely should not be using pickle. pickle is insecure and can be used by an attacker to gain arbitrary code execution on a server. It should never be used when the source of the data is not known, for example on a server that can be connected to by people other than you. It can be used under certain circumstances, but if you only know one way to serialise data in python it shouldn't be pickle. Pickle is very powerful and convenient but that convenience comes with a price WRT security which is laid out in the documentation. JSON (if you don't do something stupid like use eval to parse it,) Protobufs, flatbuffers and the struct module are all better options. https://docs.python.org/3/library/pickle.html",True
+@nickjonas8257,2020-08-21T08:09:46Z,0,Are you really cool coder,True
+@nickjonas8257,2020-08-21T08:09:30Z,0,Thank you so much! You so helped me. Thanks!!,True
+@thoughtscollector2128,2020-08-08T23:25:58Z,0,"You mean you can send scripts that send scripts with scripts, right?",True
+@AyushMandowara_xx7,2020-08-02T16:49:24Z,0,"new mssage len: b'64      ' Full message received Message: b'54        44        34        \x80\x04\x95\x17\x00\x00\x00\x00\x00\x00\x00}\x94(K\x01\x8c\x03hey\x94K\x02\x8c\x05there\x94u.' Traceback (most recent call last):   File ""client.py"", line 23, in <module>     d = pickle.loads(full_msg[HEADER_SIZE:]) _pickle.UnpicklingError: invalid load key, '5'  Getting this error. And every time the ""key"" number is increasing. (3, 4, now 5)",True
+@kabir73722,2020-08-01T21:30:27Z,0,"One question great man, if i have GUI form how can i send data to server?",True
+@tenex,2020-07-30T05:42:30Z,0,"I would like to send a command through the socket and receive the output on the client, please don't say ""use ssh bla bla"" I'm trying to learn and play with python of course is kind of a trojan but is for fund and practice, I've checking on internet and I found that socket.makefile can help but when I try to send the output through the socket I get an error and I'm so confused",True
+@redditlive3659,2020-07-28T09:29:44Z,0,"So I am trying to take in two scripts and a wav file, however I keep getting this error:  msglen = int(buf[:HEADERSIZE]) ValueError: invalid literal for int() with base 10: b'J\x00\x00\x00\n8.0.21\x00\xc7\x00\x00\x00\x7fd>^`,Ki\x00\xff\xff\xff\x02\x00\xff\xc7\x15\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00o:q8wy\x1c-\x14]!M\x00caching_sha2_password\x00'. Anyway you can help, Im running ththe exact recv code and pickle.load code. Thanks",True
+@justvaish9902,2020-07-22T06:44:14Z,0,how do u run the python code directly from sublime text?,True
+@Himanshu-bu8hc,2020-07-09T01:55:48Z,0,"Hello i hv a problem in this hope u help me I hv a simenes comtroller which has TCP connectivity it has a static ip n port no. Actually it is programmed by a software TIA portal i hv a version 15 in there i hv to set remote ip n remote port no. In that thats all about controller Now talking about python i m using idle version 3.8.4 cr  i made a client.py file acc to ur first video of series  now it gives me error winn error ""Connection refused error 10061 No connection made because the target machine actively refused it"" I check on netstat -a-b-n command and check the established connection but no luck there too.. Can u help me in this plss🙏🙏..",True
+@ashishthaakur45,2020-06-18T11:06:43Z,0,"full_msg += msg TypeError: can only concatenate str (not ""bytes"") to str. don't know why i am getting this error",True
+@urstte,2020-06-14T22:26:39Z,0,i have always struggled with strings in python. and now back from kivy to sockets to learn the new python3.7.7 print features then scrolling forward again to catch all that up. well that was great+ the pickle its new. thank u and thaks for the discord channel,True
+@yasegnap7417,2020-06-13T16:07:11Z,0,"wow i learn nw things en python for i am a beginner,  thanku @sentdex really appreciate ur post.... keep it up!",True
+@nubcops220,2020-06-04T11:16:33Z,0,kiss ekhtk,True
+@huseyin5693,2020-06-03T07:56:35Z,0,"How can I set IP adresses inside of a  text file as a hostname from client side ? I have a gettaddrinfo() failed error. But if I set like '127.0.0.1' , it is OK. Sorry for my bad English.",True
+@caelim3524,2020-06-02T01:07:33Z,0,How would I allow a computer to reconnect to the server and how would I allow more then two computers on the server,True
+@naheliegend5222,2020-05-26T17:24:58Z,0,Can someone tell me thing about JSON? I don't get it :D,True
+@naheliegend5222,2020-05-26T17:17:28Z,1,"Every single video of you gets me like ""uff, I need a 3 hours break to think about this awesomeness"" :D",True
+@santiagotorres6929,2020-05-20T19:33:39Z,0,"i still don't understand why you used headersize, i've been following along all the caps but i really have no idea about it. Would be helpful if anyone could point that out to me...",True
+@RMCMC_AmitNikhade,2020-05-20T11:17:07Z,0,"MY Laptop hangs/freezes after sometimes, after connecting the server to the client and then the whole PC doesn't responses,  then i have to directly put it off by forcing it to shutdown by the power button. why is it so??",True
+@andrewgopher,2020-04-27T02:02:20Z,0,"""secret Illuminati stuff"" wow.",True
+@dnetne5508,2020-04-18T18:09:27Z,1,I heard pickle is not the best solution.,True
+@user-nf6jl9cg1t,2020-04-15T19:15:41Z,0,THE FUNNIEST SHIT I'V EVER SEEN,True
+@LarryB15,2020-04-10T16:15:13Z,0,5:38  'Speaking of awesome' and then lifts an awesome mug.,True
+@Anantjakhmola,2020-04-05T18:41:44Z,0,I would like to ask a quick question Is there any way to render  terminal in browser,True
+@us2393,2020-04-01T15:58:41Z,0,thanks a lot for this series! really helpful.,True
+@meetgandhi8782,2020-03-30T15:40:04Z,0,"Hi! Could you also explain how the data is transferred from client to server too, like as a response",True
+@marcovalentinoalvarado3290,2020-03-22T09:50:33Z,1,"You are the reason im going to study a LOT of python, and i love it as well",True
+@APiccolo,2020-03-22T00:32:57Z,123,"AND THEN GET THIS, HE TURNED THE OBJECT INTO A PICKLE!",True
+@steff420,2020-03-06T21:42:19Z,0,Awesome video! It helped me very much,True
+@wajahatahmad2551,2020-02-15T11:28:50Z,0,Every Day A Diffrent Cup! Is He Also Advertising Cups :),True
+@quidpanic7095,2020-02-10T15:29:47Z,0,so how could i send to another pc in my network?,True
+@Paruthi.618,2020-02-06T22:47:45Z,1,hi nice tutorial..  getting one error at ValueError: invalid literal for int() with base 10: b' '  in the line msglen = int(msg[:bufferSize])  any tips to fix this?,True
+@thiagobarrichelo,2020-02-02T20:17:13Z,0,Hey bro this is awesome. Long time ago had to do this in C ansi. Python just made it a way easier. Thanks for sharing!!!,True
+@anirudhpuranik5222,2020-01-30T17:02:41Z,3,"This is just awesome! One of the most amazing tutorials ever! Easy to understand! Really helping a lot in my final sem project. I wanted a way to send images over sockets for my adaptive traffic management system, and this just makes so much sense! Once again, thank you a lot, sir!",True
+@LEI8037,2020-01-28T12:27:52Z,0,"sentdex it is balaji, not blaji. Thank You.",True
+@isaiahtoro9482,2020-01-20T14:58:54Z,0,can this be used as an encryption method ?,True
+@JerettFranklin,2019-11-09T22:54:13Z,0,Merci,True
+@timwoodburn5895,2019-11-09T14:31:22Z,3,"This video brings it all together very well, thank you.  5:16 made me laugh out loud.",True
+@jalankoe,2019-10-04T03:20:32Z,0,"sweet, this topic can be expanded further to XML RPC or JSON RPC",True
+@VictorvictorRamos,2019-09-16T22:36:35Z,1,How many mugs do u have!? :v ajajjaa nice video! :),True
+@meet2255,2019-09-06T19:37:35Z,8,love your mugs <3,True
+@thebestnigga174,2019-08-30T09:15:00Z,0,I have a semple question  How to check connection between the server and the client . I mean is there a function that return a boolian,True
+@sethbettwieser,2019-08-19T20:45:50Z,0,"This didn't work for me, the client never received the full message. It just said how long the message was and stayed on loop.",True
+@vinitparakh2796,2019-08-13T12:44:11Z,0,can i get data using socket via aws and android application or any bluethoot devic??? if yes can you refer anything,True
+@divyanshukushwaha3897,2019-08-10T17:14:10Z,0,"What is f here in print(f''"")",True
+@douzigege,2019-08-09T17:40:41Z,1,Maybe I missed but should have mentioned that pickle.dumps convert the object to bytes that is why we no longer needed to convert original information to bytes anymore.,True
+@alpaslaneldemir6904,2019-08-03T14:19:11Z,0,Pro question : Can we pickle function etc and run them on client side preferably without eval ?,True
+@sethueapen7013,2019-07-23T23:00:21Z,2,"I expected you to say ""speaking of awesome...NORD VPN """,True
+@TheWatchover07,2019-07-23T21:37:26Z,0,"Hello, I really like your videos. I have a question for you or anybody in the community. I have a python code that can create word documents. However, the code can do it in my localhost env . How can I run the code to create the word document but the code needs to be running from a server and the user can download the word doc? Could you create a video or can you direct me to a video where you have something similar? Thanks for your help",True
+@abhishek-kapoor,2019-07-16T16:54:57Z,0,ValueError: invalid literal for int() with base 10: b'',True
+@arnoldwolfstein,2019-07-06T11:09:41Z,0,Workflow would be easier with VSCode IDE or tmux.,True
+@chethan4519,2019-07-01T05:14:55Z,0,"Hi sentdex!This is the only proper and fun tutorial for sockets i found on youtube.Thanks a lot man.But still i find it hard to understand why we are deleting a socket if it  does not send any data,in the code we are assuming that if there is no data the socket is disconnected but it can be the case that user send nothing .",True
+@user-so3tm4iy7y,2019-06-29T16:22:34Z,0,Sentdex you are the best because you are teaching very simple and hi from Kazakhstan,True
+@christopherimpey6208,2019-06-25T16:23:51Z,0,"would this be capable of sending data pickled on a raspberry pi to a backend server where it would be used for building a neural net trained model, so i can utilise the power of PC based deep learning infrastructure, and use the raspberry pi as a front end user interface?",True
+@timwong6818,2019-06-06T16:29:08Z,0,The line: print(full_msg) seems unexecuted... Tiny and confusing mistake.,True
+@hx9d674,2019-06-06T10:00:58Z,0,Can I pickle files? If yes can you do tutorial how can I pickle them?,True
+@filipomazic8823,2019-06-03T08:14:15Z,2,"Sentdex is the man , you have an amazing talent for teaching. Greetings from Croatia.",True
+@666rhino,2019-05-25T23:03:16Z,1,"Awesome work. great that you are sharing knowledge with the community. please add tutorials of multithreaded servers, preferably not using the same ""chat server"" that's all over the internet.",True
+@romel554,2019-05-23T18:48:21Z,3,"Nice videos ! One question, how would you integrate handling multiple TCP clients using GUI with tkinter?",True
+@Clement-xy9iv,2019-05-16T21:15:10Z,0,"It was a bit hard at first for me... But after a few time of understanding, I manged to do it !   Thank you so much for this great tutorial !",True
+@MrBananafruit,2019-04-04T08:49:27Z,0,Hey! What you say about ØMQ library tutorial? :),True
+@sudoghost6687,2019-04-01T22:34:42Z,0,could you make this a 4 part tutorial and add multi client socketServer support ?,True
+@SeraphimTech_io,2019-03-30T10:04:56Z,0,thx a lot bro,True
+@Stinosko,2019-03-29T08:03:12Z,0,"If only i knew before i could save python arrays with pickle before 🤯 So can you do: when key ""x"" pressed save all specified objects and close the program? 🤔",True
+@kerron_,2019-03-27T21:03:43Z,0,Very cool,True
+@amirabbas434,2019-03-27T19:08:19Z,0,What ide are you using? I've seen these alot.. And i don't know the name..,True
+@AChadi-ug9pg,2019-03-27T06:37:07Z,0,Great as always ! Please can you do a video on Numba !!,True
+@tuppes10,2019-03-26T16:14:16Z,0,Great tutorials! Keep up the good work! I would be very interested in a ZeroMQ tutorial! Cheers =),True
+@thomascarvell6940,2019-03-23T12:15:26Z,0,"Could you do a pymunk with pygame tutorial plz, I tried to figure it out but it is to hard",True
+@janmejay23,2019-03-21T20:53:03Z,0,Thats what i needed for my swarm bot,True
+@jackdev8318,2019-03-21T19:39:34Z,0,Great series! Waiting next episodes...,True
+@rythm3756,2019-03-21T16:24:51Z,0,chat boooot!!!!!,True
+@akisosfp7,2019-03-19T21:00:31Z,0,<3 <3 <3,True
+@Jabranalibabry,2019-03-19T16:50:27Z,2,"Dude, ur amazing! Can't thank you enough!",True
+@vibekdutta6539,2019-03-18T19:07:25Z,0,"You're the best guru(teacher). I want to surely meet you some day before I die, a big fan of yours! I've been following you since 2015, but it's my 1st comment!",True
+@mockingbird3809,2019-03-18T01:54:52Z,0,Please Make a Video on Folium and Other Cool Libraries in Python for Data Visualization,True
+@user-ou3bf2um3r,2019-03-17T15:35:23Z,0,what is the minimum and enough  gtx nvidia carde i need for deep learning ?,True
+@sherifmoussa4827,2019-03-17T14:02:11Z,0,thank you. you are the best plz plz make video about connecting metatrader 4 with python  i'll be grateful,True
+@dangbiga2231,2019-03-17T03:28:42Z,0,Why dont you ever use virtual enviroments,True
+@RSHVRgahir,2019-03-15T20:10:46Z,0,"How would one go about sending a video, or any type of file? Increase the buffer size? Increase the header length?",True
+@mehranj73,2019-03-14T23:47:44Z,1,"Please make a video about text recognition from desktop. I want to automate things in my computer. I know how to use keyboard and mouse with python, but also I want my python code to recognize where to click with text recognition. Thanks",True
+@rafaelpiacsek8374,2019-03-14T23:11:10Z,10,"Hi sentdex! Thank you for the video! This is EXACTLY what I needed for a robotics project that I'm working on, and you posted the video on the very same day. Perfect timing!",True
+@csbnikhil,2019-03-14T19:44:23Z,0,How much slower is picking than json?,True
+@Kevin_KC0SHO,2019-03-14T17:14:35Z,0,"This is very helpful thank you for creating it.  May I suggest a future video/s.   First off, I’m learning Python, and I’m not really a programmer by trade, but I enjoy it.  I work as a telecommunications engineer focusing on ethernet networks mostly for private transport and fiber based internet circuits up to 10G.  I need to often times do things like:  ping a list of IPs ping a range of IPs telnet (yes I know telnet is bad, use ssh) to a list of IPs  Very basic, but time consuming when done manually.  Capturing the output from those commands and processing it would be helpful as well.   Something interesting like processing traffic that comes in to a listening port setup by a python program would be cool.   Really anything network related would be awesome   You videos using pandas have been very helpful as well. They are some of my favorites.   Thx",True
+@AbhishekKumar-mq1tt,2019-03-14T13:07:28Z,1,Thank u for this awesome video and series,True
+@dae2530,2019-03-14T11:16:41Z,0,Sockets are EZ.,True
+@ThePugEngineer,2019-03-13T22:41:46Z,0,Love your tutorials man. Great job.,True
+@Ahmad-ct8xp,2019-03-13T20:52:46Z,15,Loving the series up till now... Looking forward to multiple client handling...😉,True
+@mohitmanghnani5146,2019-03-13T18:30:57Z,0,Can't wait for next video,True
+@glorytoarstotzka330,2019-03-13T18:01:13Z,1,"0:09 ""not the food"" feelsbadman",True
+@abdulazizmusa4816,2019-03-13T17:19:32Z,0,You're really awesome!! Keep good job,True
+@736939,2019-03-13T17:00:15Z,1,Hello İ started to watch on your new data-science video series. Will you continue ScikitLearn video series  ?,True
+@rohitpingale8774,2019-03-13T16:16:52Z,0,"Nice tutorial, And punches too *-*. In last please show how  to  share data in  two or more  remote  machines.",True
+@wolfisraging,2019-03-13T15:43:21Z,1,"Hi sentdex how are you, I am happy to watch your videos BTW.",True
+@CariagaXIII,2019-03-13T15:29:13Z,0,Pickle rick,True
+@wesleyvanwestenbrugge8369,2019-03-13T14:43:45Z,1,Hi Sentdex! Awesome video again. You have a very good feel for the current developments in Python and what to put into your video's!,True
+@loukask.9111,2019-03-13T14:40:18Z,0,So this is a way to send opencv frames over udp?,True
+@liangyumin9405,2019-03-13T14:37:32Z,0,too short...,True
+@Hacsev,2019-03-13T14:28:13Z,1,"Can you teach to how send an image from the client and display it in the server (as if it was streaming)? I've been attempting to do this and this tutorial helped, but the images open individually + they are received very slowly.",True
+@GG64du02,2019-03-13T14:23:32Z,0,"Weird, I was talking about pickle and socket the other day on discord, coincidence ? ;D",True
+@marko_koval,2019-03-13T14:21:55Z,0,"Hi, thanks for video,do somebody know what fields of  selenium webdriver instance could be pickled(saved) to make its possible to load it in different processes later and passed to new instance ?)",True
+@SoumilShah,2019-03-13T14:21:15Z,0,Excellent sentdex I want to be a great programmer as you,True
+@nhrtsa9010,2019-03-13T14:10:18Z,0,thank you very much!!,True
+@MukhtarXIII,2019-03-13T13:57:25Z,0,Thank you very much. U are really good man,True
+@speaktothepoint2108,2019-03-13T13:55:05Z,6,Thanks for on time release. Am starting my day with a great learning. 👍.,True

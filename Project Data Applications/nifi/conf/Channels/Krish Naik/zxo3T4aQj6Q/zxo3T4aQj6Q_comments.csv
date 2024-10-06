@@ -1,0 +1,47 @@
+author,updated_at,like_count,text,public
+@krishnaik06,2023-12-14T08:13:17Z,59,Today marks my 5th year anniversary of uploading videos related to Data Science and AI in my yourube channel.I have definitely  learnt a lot and I hope I was able to add values in others life. Looking to continue this work till jab tak hai jaan 😀  Lets keep the likes target to 1000 on this occasion :)😊,True
+@aniruddhajoshi4055,2024-05-25T05:22:14Z,0,"can someone plz help me.. 1. in just last lecture, we had used Pinecone for embeddings, and now casendraa and all that .. Why? what is the diff?   2. In order to read pdf, why can't we use the same approach : def read_doc(directory): 	 file_loader = pyPDFDirectoryLoader(directory) 	 documents = file_loader.load() 	 return documents Beacause this code also goes with the same approach: read data -> divide into chunks -> embeddings",True
+@chanchalsahu5023,2024-05-16T17:43:33Z,0,What is the purpose of giving a provider while generating the DB,True
+@krishnansankaranarayanan1969,2024-05-02T02:16:12Z,0,It is helpful for my capstone. Thanks,True
+@datadumpp,2024-04-23T06:52:17Z,0,Just amazing,True
+@esotericwanderer6473,2024-04-22T05:25:39Z,0,"Great content, just one suggestion, stop using ""probably"" word in every single sentence unnecessarily, it is just irritating and distracting. otherwise great video, learnt a lot. keep going Thank you",True
+@madhugarg7499,2024-04-17T18:29:54Z,0,"@krishnaik06 - Please take some time to answer your Youtube videos, at least for the recent & new technology videos.",True
+@madhugarg7499,2024-04-17T15:36:54Z,0,"Hi All..Anyone is facing the error: 'OpenAI' object has no attribute 'embed_query' - After executing the ""astra_vector_store = Cassandra(...."".  please tell how to fix this ?",True
+@user-gu5fz3vn7t,2024-03-26T17:44:05Z,0,"is it ok to use your code for personal, education and or commercial application?",True
+@BhuvanWebOsmo,2024-03-18T06:02:43Z,0,Can we use gemini embedding for this project? (Cause it's free),True
+@infobarbosa,2024-03-16T22:34:53Z,0,Awesome content! Congrats!!!,True
+@user-fo7vm9px8f,2024-03-04T11:43:39Z,0,It give me the details from outside of the pdf also. How can I restrict this with only PDF?,True
+@enough200,2024-02-25T15:04:23Z,0,"Can you stop using the word ""it will probably do this""? It will or it will not.why probably , basicall",True
+@kanagadavid931,2024-02-23T10:35:33Z,2,why so many probably ?,True
+@dipankardandapat5495,2024-02-14T12:25:15Z,1,"Sir in pdf if some image and graph present how to store it , and how to ask question based on graph or image ?",True
+@afannouni1837,2024-02-09T13:41:50Z,0,Hi what version of python did you use,True
+@bablusingh-ij1sw,2024-01-29T14:44:10Z,0,can you create a video without using the OpenAI,True
+@liquid_pro2344,2024-01-26T16:50:58Z,0,how can i find openAI_API_KEY,True
+@ashoksamrat8486,2024-01-26T08:10:41Z,0,I want to design a ATS system so that I can filter the resumes based on job description. Suppose there are 10000 resume of candidates and I want to get Top 50 or 100 resume that can be best suited for job description. input:- 10000 resumes in pdf format.  Output: Top 50/100 resume that best suited for job description. How can I achieve this using LLM and Streamlit for UI?,True
+@jacksparrowbp,2024-01-17T18:41:17Z,0,"can anyone please help me to understand what this error means and what should i need to do: I am getting the error in first line: ----Here---> astra_vector_store = Cassandra(                     embedding=embedding,                     table_name = ""QandA"",                     session = None,                     keyspace = None,                     )  RateLimitError                            Traceback (most recent call last) <ipython-input-21-bcf6746ee073> in <cell line: 1>() ----> 1 astra_vector_store = Cassandra(       2     embedding=embedding,       3     table_name = ""QandA"",       4     session = None,       5     keyspace = None,  13 frames /usr/local/lib/python3.10/dist-packages/openai/_base_client.py in _request(self, cast_to, options, remaining_retries, stream, stream_cls)     945      946             log.debug(""Re-raising status error"") --> 947             raise self._make_status_error_from_response(err.response) from None     948      949         return self._process_response(  RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",True
+@priyanshupandey3148,2024-01-14T10:55:20Z,0,Does it handle images and tables as well?,True
+@darshandodamani6682,2024-01-12T11:43:04Z,1,I am learning Machine Learning I have bunch of PDFs . Can I use this tutorial to create a pdf question answering. I also need that the pdf has sall short cuts notes mentioned. I want to use the pdfs and get the detailed information once I ask the question to it. Is it possible sir?,True
+@manujmehrotra2771,2024-01-09T14:54:59Z,0,What is the software that is being used here to draw and elaborate.,True
+@NerdNetArcade,2023-12-31T17:07:10Z,1,"Hi Sir,   I am getting this error -  ""InvalidRequest: Error from server: code=2200 [Invalid query] message=""Unknown keyspace articles""    But i am using the Keyspace as None only, Please help me    astra_vector_store = Cassandra(     embedding=embedding,     table_name=""qa_mini_demo"",     session=None,     keyspace=None, )",True
+@NoDoglapan,2023-12-31T05:57:14Z,0,hi there can you let me know what change I need to make to the code if   i want to use  multiple pdfs as my data ? thanks in advance!,True
+@sunilkumarpradhan.4376,2023-12-21T03:52:11Z,0,"I am facing issues with rate limit exceeded even after putting new API key of open ai , how can I fix this ? Also does pdf size matter in this ?",True
+@2771237,2023-12-19T11:19:34Z,0,Thanks Alot for Video  dear :),True
+@user-mj7xr5nf7b,2023-12-19T06:06:50Z,0,"In above video is LLM model is responsible to interact with Cassandra DB and get the output for desired query ?   Also, do we need to train the LLMs model with the pdf data or it just integrate with DB  and give us desired output? Please explain about Promote templates in above videos where I can use it ?  Thank you in advance.",True
+@squadgang1678,2023-12-17T07:32:59Z,0,This is RAG right?,True
+@vaishnaviumesh8590,2023-12-16T13:58:36Z,1,"Hi Krish, love all your videos..Can you make a video on whisper and Distil whisper and how to use them in a project please?",True
+@lalitjoshi6528,2023-12-15T14:01:47Z,0,Error i encountered is token limit is 4169 and you are using 4925 token in your prompt and 200 in question. So how to fix that or how to modify that code for larger text files of 2mb,True
+@CrusadeVoyager,2023-12-15T13:56:14Z,1,"Nice Krish, Your Next Vid will be based on Indian AI Model, OLA has released Krutrim - feb 24  ;) .  Glory to Bharat ❤",True
+@Balajinicky,2023-12-15T10:23:28Z,3,"hi, Krish what if the pdf has graph, images and scanned copies how to embed them and push into the VectorDB. It will be full fledged project idea. why are you not using milvus which actually works well",True
+@samuelnikhade5612,2023-12-15T04:49:39Z,2,Sir can you please create a video with FAISS index.  Thank you for this video this is amazing information,True
+@izainonline,2023-12-14T17:44:12Z,0,Sir Like the size is very huge like in tbs to use Cassandra dB. 2nd open ai embedding is not free if we use hugging face embediing,True
+@shraddhamishra5642,2023-12-14T16:29:18Z,1,sir  can we used for pdf folder which include atleast 50+pdf so how we do for this???  please sir tell this ..,True
+@HrisavBhowmick,2023-12-14T16:18:29Z,0,pls do a video where we wont use any API key,True
+@NotesandPens-ro9wx,2023-12-14T14:15:08Z,0,Sir why you contenate raw_text with content variable ? I didnt get it,True
+@gaurangabhuyan3760,2023-12-14T12:16:52Z,2,"What if i ask to this model ""tell me something about this pdf/ a summary of it"", how will it do the similarity search as it requires information from all the chunks?",True
+@Nikhil-dp2mw,2023-12-14T10:15:44Z,0,yellow,True
+@rishiraj2548,2023-12-14T09:08:10Z,0,🙏🙂👍💯,True
+@RamaChandran-fc3hp,2023-12-14T09:06:56Z,1,Sir is it similar to pine cone vector database?,True
+@VinodKumar-ku7yi,2023-12-14T09:05:23Z,0,Thanks Krish for sharing this video. Is it possible to do query with multiple PDF. in our case we have pool of  Resumes in PDF format and HR wants to query using LLM  and they want to get the relevant CV. Suggest if you have any idea.,True
+@alihussainia,2023-12-14T08:46:20Z,0,Run Jupyter Notebooks on top of GPU/CPU Colab Notebooks.   https://youtu.be/YlFIYc4NQ58?si=HRLUT5EnpD1zIHvu,True
+@out-of-sight,2023-12-14T08:32:45Z,5,"Hi, can we use different embeddings for this project? I don't want to use OpenAI. I want to use open source one.",True
+@AI__Spectrum,2023-12-14T08:18:41Z,0,Good work man,True

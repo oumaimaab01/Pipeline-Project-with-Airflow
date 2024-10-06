@@ -1,0 +1,17 @@
+author,updated_at,like_count,text,public
+@Kanjiidesu,2021-08-11T07:44:25Z,0,How would you clear the drawing?,True
+@user-kp8hx1mf8i,2021-01-03T13:49:34Z,0,"Everyone does the paint example, nobody demonstrates how to modify an existing application with working buttons for a touch screen.  Anyone know any good resources for accomplishing this?",True
+@sumansharma4990,2019-12-16T08:34:31Z,0,Sir i just cand draw a line not the curves,True
+@pmemoli9299,2019-12-01T21:23:47Z,0,SentDex you are amazing,True
+@unknownlifeform4077,2019-06-18T18:24:29Z,0,"Quick question, can pyqt do something similar?",True
+@mushinart,2018-11-23T21:12:56Z,1,"sentdex  , you have a great channel and tutorials but i have a question ... how to access hardware api for phones (android and ios) to benefit from cervices like gps location and gyro ...???",True
+@shivamsahil3660,2018-08-11T11:30:27Z,1,is there any way to alter line thickness and color?,True
+@jeancarlosadrianza7416,2018-07-17T21:39:04Z,0,"Hi, sentdex. Very interesting video... I would like to know how to make notifications for App's in kivy... Do you have information about that? Thanks in advance...",True
+@karankatiyar5414,2017-10-02T18:27:37Z,1,how do we do it on an image?,True
+@mellbonus1337,2017-07-30T19:41:21Z,0,Respect,True
+@dmitryponyatov2158,2016-11-20T19:29:17Z,1,is it dog on sofa backside ?,True
+@sviat2459,2016-06-28T19:12:11Z,0,Cool) Thanks sentdex),True
+@TarekAlouiGeek,2016-03-27T20:32:03Z,2,"Thanks for the tutorial, but what does touch.ud means ? and what is it exactly (variable : list )? a kivy keyword ? and what can I do else than writing [""Line""] ? Can I change Line to sth else ? And your tutorials are awesome ! <3",True
+@MiledRizk,2016-03-15T15:24:21Z,4,"thanks again for these good tutorials: i modified a little the script so i can click without dragging and create straight lines, and if i want i can start dragging  and i'll have a freeform shape, so i'll end up with a mixed shape. Of course it still lots of work to make it more useful, because now after finishing the dragging i cannot start a new independent shape. Anyway here's my code: from kivy.app import App from kivy.uix.widget import Widget from kivy.graphics import Line   class Drawapp(Widget):     def __init__(self, **kwargs):         super(Drawapp, self).__init__(**kwargs)         self.arr = []      def on_touch_down(self, touch):         with self.canvas:             touch.ud[""polyline""] = Line(points=(touch.x, touch.y))             self.arr.append((touch.x, touch.y))             if len(self.arr) <= 2:                 for idx in range(len(self.arr)):                     touch.ud[""polyline""].points += self.arr[idx]             else:                 for idx in range(len(self.arr)):                     touch.ud[""polyline""].points += self.arr[-2]      def on_touch_move(self, touch):         touch.ud[""polyline""].points += (touch.x, touch.y)               def on_touch_up(self, touch):         self.arr.append((touch.x, touch.y))  class SimpleApp5(App):     def build(self):         return Drawapp()  if __name__ == ""__main__"":     SimpleApp5().run()",True
+@nextlevelcomputing,2016-02-25T07:45:33Z,0,Fantastic!,True
+@vijaykumarsamanthapudi9896,2015-12-08T07:40:46Z,0,how to add vertical scrollbar for the canvas in the paint application.Please help me out,True

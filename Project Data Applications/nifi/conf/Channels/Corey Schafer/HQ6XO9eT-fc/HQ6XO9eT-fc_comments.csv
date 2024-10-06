@@ -1,0 +1,161 @@
+author,updated_at,like_count,text,public
+@coreyms,2020-02-01T22:43:41Z,72,"Hey everyone. Hope you're all having a great weekend. I'm still working on finishing up the series. Let me know if there is anything specific you want me to cover. In the next video I'll be covering sorting, and some videos still to come include: working with dates, aggregating data, reading and writing to/from different sources, and a discussion on the recent Pandas version 1.0 release. Let me know if there is anything else you'd like to see! Thanks and have a good one!",True
+@triunduo4410,2024-05-21T05:16:42Z,1,mad rad fastr,True
+@gayratsaidakhmedov5451,2024-04-05T18:31:43Z,0,thank you,True
+@spicyshizz2850,2024-03-31T23:29:50Z,0,For all those who are coding in 2023 and beyond .append function has been deprecated since pandas version 1.4.0 and pandas documentation says to use concat() instead,True
+@akarshanvaibhav4245,2024-03-07T07:41:56Z,0,"append method was not working for me. It was throwing an Attribute error ''DataFrame' object has no attribute 'append''.  I searched online and ""Concat"" method worked for me.",True
+@LB-qr7nv,2024-03-04T13:27:43Z,0,"Probably there is only an inplace-parameter if only the affected data (or not much more) gets changed. Append for example probably uses the numpy append which is not inplace, so all the data must be copied. For drop no time-consuming changes need to be done, just one key and pointer get removed",True
+@farhadalam6974,2024-01-28T19:36:53Z,0,Great lesson. Thanks,True
+@zhenpan2048,2023-12-11T15:20:58Z,0,"Hi Corey, great video, a small question: df.drop(index=df[df[""last""]== ""Doe""].index), this way works pretty well, but why when i use # filt = df[""last""] == ""Doe"" # df.drop(index=df[filt].index), I get empty results just showing the titles of each column?  thanks for great work!",True
+@razorblade413,2023-11-23T19:24:47Z,0,"if i can drop rows using dataframe.loc with conditions why would i use .drop with conditions to drop rows?  It seems like loc function could replace the drop function, at least when dropping rows based on some  conditions. Could somebody knows about this?",True
+@user-lu4qj2mk8k,2023-10-13T21:19:31Z,2,One tiny comment- I am watching this tutorial in Oct 2023 and append no longer works on Pandas,True
+@wichomotos,2023-10-13T20:28:32Z,0,ADD A NEW ROW (pandas 2.0) : df.loc[ len (df) ] = { 'column ' : ' value ' },True
+@RAJASEKARCMR,2023-09-30T06:17:34Z,2,07:56 instead of ' append() '    ->   ' _append() ' works (underscore in front),True
+@navinebhatt4014,2023-09-11T06:24:50Z,0,Shouldn't we getting an error while using drop  because axis = 0 is default value for index and we are not giving axis =1 for column drop,True
+@midprogramming,2023-08-22T20:18:50Z,0,For the past 5 videos I've been wondering why pandas uses inplace and both assigns the return values directly. It's so confusing and counter intuitive. Should just use one way and stick to that.,True
+@srirambsrivatsa5779,2023-08-01T11:38:42Z,0,Anyone getting an error at 8:00 use _append instead of append,True
+@Gaming__01Guru,2023-07-29T14:44:46Z,0,For the ones who might get an error while using  append method this is because append method has been deprecated in pandas 1.4 and removed from the pandas API entirely in version 2.0 rather you can use concat() method,True
+@utsavjaiswal4604,2023-07-02T17:28:12Z,1,"10:00 if youre getting an error saying ""append is not a method for DataFrame"" use this instead new_row = pd.DataFrame([[<insert the list elements>]],columns= <targest_datafame's name>.columns) then simply, pd.concat([<targest_datafame's name>,new_row],ignore_index=True)",True
+@ritikjawalkar2877,2023-06-14T07:22:01Z,63,For all those who are coding in 2023 .append function has been changed into ._append,True
+@jumalincoln3108,2023-06-08T08:00:07Z,1,Thank you Corey for this amazing video. You have helped me much.,True
+@aaronzolotor430,2023-05-29T17:28:39Z,1,In Pandas 2.0 and above the append method has been replaced with concat for anyone who gets confused or frustrated.,True
+@neilpastilan2355,2023-05-28T04:47:39Z,0,"Hello, what do i do if i have an error when appending that says  'DataFrame' object has no attribute 'append'? The code is df.append({'first' : 'Troy'}, ignore_index=True)",True
+@manojkbn,2023-05-20T14:59:14Z,0,"10:30  df3 = pd.concat([df,df2], ignore_index=True) df3  append won't work with latest python.",True
+@kabandasafi9132,2023-05-08T10:19:43Z,0,hi corey how could you add in full name does appended name in our data frame? anyway thank you for the insight it is very reached in content.,True
+@gauravpandey10,2023-05-01T11:10:21Z,0,"When running the code ""df.append(df2, ignore_index=True)"" I'm getting the AttributeError: 'DataFrame' object has no attribute 'append'. Why is that?",True
+@the-ghost-in-the-machine1108,2023-04-13T02:56:35Z,0,for the ones getting 0 and 1 values when splitting the full_name; just add .values attribute end of the split line,True
+@zijunli8482,2023-04-02T16:57:01Z,4,Thanks Corey--could you make an update video about using pd.conta() rather than frame.append() to add new rows? because fame.append() is going to be removed in the future pandas versions,True
+@super-creative-stuff1421,2023-03-29T11:09:28Z,1,"str.split() doesn't spllit on the space character it splits on any whitespace character, which include tabs and linebreaks. I would use str.split() not str.split("" "") just in case the person's name is seperated by a tab for some reason.",True
+@nmaranda0610,2023-03-29T03:41:41Z,0,update: @8:08  df.append does not seem to work anymore,True
+@davidcardenas4266,2023-03-18T17:38:54Z,0,"You do a pretty good job Corey, thanks a lot! I got a deprecating warning when using append method, but I googled it and seems to be better to use pd.concat, it has its tricks but is great bc it's over numpy.  Thanks again for your content!",True
+@MrDaniel739,2023-03-16T17:05:20Z,0,The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead. 10:09,True
+@sudheerkumarhegdea8151,2023-03-12T14:32:02Z,0,"please provide me the cods for splitting the row according to language speaking by different people and providing the reindexing for the new created groups for different languages like french, japan and american. for example french language has three people, but it has different indexes. now i have to make index as 0,1,2, etc. in same way for american language reindexing into 0,1,2,3,4 etc. please provide me the code for this concept.",True
+@bsdvs23,2023-02-03T11:24:09Z,0,Could you provide some examples using the DataFrame with concat since the append is being phased out?,True
+@RafaelRabinovich,2023-01-23T20:25:15Z,0,"Now I get a warning that .append is going to be deprecated: ""The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.""",True
+@melsaied101,2023-01-21T01:59:39Z,0,Thank you for your efforts,True
+@elikent78,2023-01-20T16:17:14Z,5,Hey Corey. Just wanted to say your videos are the best I've come across yet explaining how Pandas works. Great job. Thank you!,True
+@ZsoltPal23092011,2023-01-18T13:34:54Z,0,"amazing, thank you for these! aside me banging my head into the table from the mix of syntax styles and asking out loud ""how the heck will I remember all these"" by where do you need 'inplace' and where not, when do you to pass what, the videos are a godsend!",True
+@questscape,2022-12-25T14:12:52Z,0,The speed of information that flows in is insane. Amazing playlist 🙌,True
+@Camila-fv9qj,2022-12-24T22:18:29Z,0,If i had two coulmns how to add them in one coulmns like from 0 -12 index coulmn 1 the rest is coulmn 2,True
+@mariosconstantinou8271,2022-11-28T13:16:31Z,0,"I am a bit confused as to how the drop method knows which rows to remove when we are using a filter. We create a filter and apply it to our df and it returns some boolean values. When we type df.drop(index=df[filt].index) we are basically saying drop the values with the index of our filter? It is working, it removed the rows I wanted but I can't figure out how it's working.  When I printed filt.index it returned a rangeIndex with 6 values (I had 6 rows), some are false and some are true. But when I print df[filt].index it returns the rows 0 and 1 which is the rows that have the value True. So does .index work different depending on where you apply it?  In the case of df[filt].index it will return the index where the value is True?",True
+@kameshinipillay4587,2022-10-23T09:44:51Z,0,"Great video again thank you! When I use the drop function, I'm getting a ""not found in axis"" will you be explaining how the axis works also? :p",True
+@mohamedhnfy,2022-10-17T01:50:57Z,0,Congrats for 1M subscribers <3,True
+@NulliusInVerba8,2022-08-09T08:50:42Z,0,"Thank you for this video.  How can I delete multiple rows in one line How can I say delete all the rows after index= 100  I did it as a loop + range, but didn't find any other easy way 🤔",True
+@VDMStudio,2022-07-26T22:29:31Z,0,"i use this code for my case:  filter = df['tenure'] == 0 df.drop(index=df[filter].index)  but how to save it to df ? when i use inplace the error appears.  can you help me?",True
+@Anteater23,2022-07-11T09:06:10Z,1,13:31 Why does it not work when I use df.loc(filt) here instead of df[filt] ?,True
+@user-qn5by5iv7u,2022-07-10T06:39:11Z,0,2022,True
+@juanpablozapata3904,2022-07-05T18:20:28Z,3,"append no longer works (at least for me). So you can do it with this instead: ""df=pd.concat([df,df2],ignore_index=True)""",True
+@NandhaKumar-hw2bz,2022-06-01T18:40:31Z,0,Thank you🌹🙏,True
+@andynelson2340,2022-05-09T02:36:56Z,42,"8:00 if you're getting a FutureWarning on append method, you can you concat method instead.  df = pd.concat([df, pd.DataFrame.from_records([{ 'first': 'Tony'}])])",True
+@BlinkDrive555,2022-04-21T23:28:51Z,0,It's working like charm. thank you,True
+@fanniberkovics7610,2022-04-18T15:17:57Z,0,"Hey Corey, I have a quick question! Let's say i wanna iterate through my dataframe, using a for loop, but I would want to compare the value of a specific column in the current row, and in the next row. How would I be able to do that?",True
+@Coney_island23,2022-04-14T13:27:45Z,0,excellent!,True
+@bishwajitkhanra5369,2022-04-10T11:15:14Z,0,How can I remove a row or two based on a condition ? e.g. One of the columns has duplicate values and (1) The last row should be kept and other rows needs to be dropped or (2) The first row should be kept and other rows needs to be dropped.,True
+@nive1,2022-04-09T16:29:40Z,0,Is there a method where we can transpose the rowand columns,True
+@tickokok1410,2022-03-26T09:00:17Z,0,Sir you are great Thank you,True
+@TarokhYaghoubi,2022-03-11T14:11:24Z,0,Another great video ! ,True
+@ULTRAMUSICLUVER99,2022-03-05T15:58:17Z,0,"For anyone watching in 2022, DataFrames.append is deprecated, use concat instead: https://pandas.pydata.org/docs/reference/api/pandas.concat.html#pandas.concat",True
+@vivshukla7742,2022-02-18T15:20:06Z,0,"How we can update any value in coulmn for example row 4 want to update NaN to some other value ,how we can do that?",True
+@toeytaratoey,2022-02-14T15:03:28Z,0,"What do I do if I want to delete Doe, Rogers and Stark altogether",True
+@sumonsalahuddin9365,2022-02-07T07:35:11Z,0,"split method is not working properly even after adding ('  ') space between commas.  df['full_name'].str.split('  ') Output:   0    [CoraySchafer] 1         [JaneDoe] 2         [JohnDoe]   How can I fix this ? Anyone can suggest?",True
+@Indices9289,2022-02-03T13:18:47Z,0,Now that I've reached the 6th video of this series I am starting to think that there are a lot of functions to recall. Are we suppose to remember all of them or at least remember that we can do what the functions do?,True
+@williambeasley838,2022-02-02T00:39:51Z,0,"Cory, great tutorial. Question, how would i remove multiple rows? Example if i have 10 different names, and i want to remove 5 of them. I tried putting a comma between names, but nothing happens.",True
+@GuilhermeMendesG,2022-01-29T14:32:50Z,0,"Corey, you saved my life! Thank you so much for this amazing series. I've learned so much!",True
+@cryp0g00n4,2022-01-02T06:43:46Z,0,This is a superb series,True
+@fahadshoaib8735,2021-11-25T01:59:46Z,32,Adding column 0:43 Removing column 3:08 Adding rows to data frame 6:40 Adding two data frames  9:45 Removing rows 12:11,True
+@BugMagnet,2021-11-23T16:38:18Z,1,Thank you so much for these easy to understand tutorials. My guess is these will get millions of views once schools discover that programming should be a core subject.,True
+@shyamss2338,2021-11-22T00:04:09Z,0,How do I use apply method to get the fullname. I created the full name function. How to proceed further?,True
+@jamrockengin,2021-11-18T14:06:22Z,0,no time stamp,True
+@Tolgo_on_youtube,2021-11-11T11:18:28Z,0,"Amazing content, thanks for making this complicated topic intelligible, accessible, and available.",True
+@xichen4132,2021-10-15T03:47:23Z,0,just dont drop steve rogers  please,True
+@dipinadhikari9549,2021-09-09T06:38:14Z,0,I have a dataset that have a column saying titile there are some sentence and I want to delete the row having business and rent in the title so how can I do it?,True
+@mobileentertainment212,2021-08-18T15:29:37Z,0,"Hi, is there a video that teaches conditional columns? For example create a row that 'True' if  concentration > 0.1 and Credit_rating == ['CCC', 'BB']",True
+@mitchellfolbe8729,2021-08-01T15:02:34Z,0,"If they say you learn from your mistakes, I must have learned a lot.  I have typed just about every line wrong in the last 5 videos, missing a "" ' ""or a ""]"" or a '.'  or a ','  or a capital letter or just misspelling  words.  I am sure I will continue to do so. Frustratingly fun.",True
+@rodrigoramirez8150,2021-08-01T04:27:53Z,0,I am grateful for this video. I really appreciate your sharing with us.,True
+@shobhitsadwal756,2021-07-28T12:09:29Z,0,"hey Corey , thanks for the video , my only problem is that the code  fil=(df2[""first""]==""Steve"")  df2.drop(index=df[fil].index)  is not working correctly,",True
+@biswasv,2021-07-20T10:41:43Z,0,very well explained in a simple way,True
+@whiteknight1421,2021-06-19T03:14:17Z,0,"First of all thanks for the tutorial And this might be late, you might as well mention it in later video (which I had yet to cover) I notice that if a change is displayed when typed, it is not set to be inplace/assigned, which needed to be done by assigning it",True
+@akashshiva5100,2021-04-16T05:01:18Z,0,10:24 but now in the latest version (python 3.9) of python it doesn't give this warning it simply appends.,True
+@seanli75,2021-04-05T01:36:50Z,0,"thanks, But I wanted to know if there was a ton of rows (like 1 million rows) how do you rename the one that is when it is labeled 0,1,2,3.",True
+@nguyenquangred,2021-04-04T04:21:05Z,0,Thank you very much for this tutorial series!,True
+@fhdhejeh63,2021-03-31T16:06:54Z,4,I am sure that I will never forget about the sponsor of this video,True
+@YeekyYeeky,2021-03-18T03:12:57Z,0,Thank you very much,True
+@parrychen4738,2021-03-02T09:08:55Z,0,Does pandas directly support mask or filter based dropping of rows? That would be more convenient.,True
+@ssigitas69,2021-02-14T18:58:45Z,0,"Hi. I want to ask you, how to remove all NaN rows?",True
+@chriskeo392,2021-01-18T09:15:23Z,0,Thanks brilliant,True
+@mdyounusahamed6668,2021-01-12T12:53:41Z,0,"4:20 -> That's a little more complicated, but still pretty simple. Hahaha....",True
+@naveenbagri2009,2021-01-09T07:43:27Z,0,"thanks from my heart to u sir, From India.",True
+@benjamintitcomb9560,2021-01-06T11:54:04Z,0,Thank you so much,True
+@tajsheikh3534,2021-01-01T09:45:01Z,0,Thankyou. Covered the topic well. How would I remove a bunch of rows?,True
+@gautamjha711,2020-12-12T06:28:08Z,0,WE  ALL NEED VIDEOS FOR DATA STRUCTURES AND ALGORITHMS IN PYHTONNNNNNNN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!,True
+@rameshreddy908,2020-12-09T17:29:16Z,0,"Thanks, Very nice videos. Do you have any udemy courses on Datascience/ML?",True
+@paracelsus_rose6934,2020-11-27T05:14:05Z,0,11 People truely have no clue the value they are given for free.,True
+@cookiemonstercupcake,2020-11-13T11:52:42Z,1,"Hey, Corey! You can simply delete columns by using ""del"" function. For example: del df['full_name']",True
+@expat2010,2020-11-09T11:45:17Z,7,"Aside from the unparalleled level of instruction, the production of these videos is superb. Only one of the 5 commercial courses I have taken was in the same league.",True
+@sudiptomitra,2020-11-05T16:43:01Z,2,"At the point of 14:13 of this VDO, I got my query resolved ! Thanks & many likes from me :-)",True
+@igorvujcic1731,2020-10-02T23:37:39Z,0,Awesome series!,True
+@alfredgomes739,2020-09-29T15:02:47Z,0,"Hello Sir , i get this error message while running this code :  df[['first', 'second']]= df['full_name'].str.split(' ' , expand=True) error "":ValueError: Columns must be same length as key       please guide",True
+@khusboo4907,2020-09-26T19:12:32Z,0,What will be the solution if I want to add new row in a dataframe whose value is from the existing dataframe...like for each row a new row will be created having all integer value added upto 1 and string will be  appended with _ new.....can anyone help me out,True
+@brod515,2020-09-26T17:46:08Z,1,@11:49 That's probably because appending is extending the memory required to store the database so it would need to create new memory anyway so it can't do it in place.,True
+@manajitdas7619,2020-09-22T08:27:22Z,0,love..,True
+@roywit7836,2020-09-16T10:47:47Z,0,Very well and clearly explained thanks :),True
+@arpitagec9,2020-09-07T14:39:02Z,0,Can you pls tell me how can we use apply() to get the full_name column without using the String concatenation?,True
+@samirkhan3096,2020-09-06T13:18:44Z,0,"Hi i hope you are doing well @corey schafer  I have a question as in this video you explain how to add and remove a row and also how to drop a column and how to combine two columns and how to split a column into two or multi columns but you didn't explain if i want to add a single columns  So i search on internet for that and found some ans like  1. Df['age']=['value you want to assign'] 2. Insert  Df.insert(5,""age"",[list of value you want to assign ] 3. Assign   Df.assign(name with ' '=[list you want  to assign] They have a problem you have to assign exit amount of value your data frame have if you miss a single value its gives a error Also assign doesnt work at orginal data frame when i try inplace =True its creat a new column with name inplace and all value were True So why assign is  not working and how can i lift a value empty or create a column without any value like nan",True
+@niharjamdar4869,2020-08-27T10:35:44Z,0,I am addicted to your lectures please upload Numpy tutorials too,True
+@jagadishs3931,2020-08-21T14:20:49Z,0,"for old version of pandas this works  df.drop(['first', 'last'],axis=1, inplace=True)",True
+@snehajadhav3364,2020-08-19T14:16:34Z,0,how can i use this for multiple .csv file in folder,True
+@palashsahu5949,2020-08-16T10:52:42Z,0,How to arrange our columns,True
+@rafaelsetyan1755,2020-08-09T16:28:36Z,0,"thank for videos Corey, but next time I demand Bruce Wayne aka Batman and Clark Kent aka Superman )",True
+@PrashantKumar-nb5ig,2020-07-25T08:16:28Z,0,Great teaching sir,True
+@junaidmalik9593,2020-07-23T18:29:38Z,1,"Hi , to perform drop should i use df.drop(Column =[Col1,col2] or its ok to use  df.drop([Col1,Col2,Col3],axis=1). hope there is no difference b/w both . please confirm.",True
+@ssss54,2020-07-18T14:37:52Z,0,Hi Corey. How do I filter out records where a specific column has values NaN,True
+@Kralnor,2020-07-18T10:30:53Z,5,"Thanks for this excellent video series on Pandas. Your style is much cleaner and easier to follow than by trying to read through the official docs and various Stackoverflow posts. I'd really like to see a video on the different df.merge variations, particularly using MultiIndex and handling duplicates.",True
+@kumarabhishek5652,2020-07-15T09:28:03Z,0,I want to add a row which has index named as alphabetical as opposed to  numerical indexed dataframes.,True
+@ciprianp495,2020-07-06T14:51:37Z,1,"Wow, man! With a little bit of help from Google and your videos, I was able to automate an Excel File ... Thank you and keep it going! You rock!",True
+@saitaro,2020-07-06T00:47:27Z,2,"I thanked you in the previous video, this comment is just to support channel.",True
+@sam-wm2dd,2020-07-01T21:30:50Z,0,"if you permanently want to delete columns use:  .drop(['your_column_name'], axis=1, inplace=True)",True
+@angulatuhafeni4455,2020-06-16T10:38:26Z,0,hey man i have been watching your videos for a while .....can i get personal email i need help large data,True
+@kiraal3619,2020-06-13T21:22:45Z,1,Thaaaanks a lot :DDD,True
+@akritisstory850,2020-06-13T12:58:51Z,2,"Thank you Brilliant for sponsoring this course. Many people are getting help as more and more data analytics jobs are coming, this video is must.",True
+@shouryaa759,2020-06-12T12:53:34Z,0,"Hi !  df.append does not persist. When doing df after that , the new row is not added and neither is recognized by df.loc [ ] . Pls help??",True
+@experimentalhypothesis1137,2020-05-31T18:18:05Z,1,would be great to have a machine learning series from you,True
+@JoshuaDHarvey,2020-05-30T14:51:43Z,0,"Why does df[df[filt]].index return Int64Index([6], dtype='int64') and not either a series or dataframe of the index as an object?",True
+@mandarajgaonkar9003,2020-05-25T04:27:39Z,0,"After deleting the rows from a DataFrame using df = df.drop(index = df[df['last']=='Doe'].index), our indexes  become 0,3,4. How can we make then 0,1,2?",True
+@kickbuttowsk2i,2020-05-13T15:13:06Z,1,Corey@avenge.com,True
+@akhilsharma4004,2020-05-09T00:43:42Z,1,Hey there first of all i would like to thank you for your guidance i just had one issue while we were trying to add two different DataFrames and you said that if we wish to delete the last row with index number 4 i tried doing that and i am getting an error can you please help me out can i rather send you the snapshot of the juypter notebook to your-email address which is : coreymsschafer@gmail.com,True
+@UmarFarooq-tw7vh,2020-05-08T10:25:50Z,1,Amazing,True
+@maheshmmmec,2020-04-29T12:06:45Z,0,How to apply different aggregation function on different columns on same group object.,True
+@rsgirish85,2020-04-23T13:34:22Z,0,"Getting Error while using drop in the snippet code.    Hi Corey,   i get the below error when i run the drop command. pls help   """"--------------------------------------------------------------------------- TypeError                                 Traceback (most recent call last) <ipython-input-38-d190c4ede970> in <module>()       1 # deleting column       2  ----> 3 df.drop(columns=['first', 'last'])  TypeError: drop() got an unexpected keyword argument 'columns'""""",True
+@suryatejasunny,2020-04-21T20:41:36Z,72,Thank you Brilliant for sponsoring Corey.,True
+@jackli2530,2020-04-14T15:16:51Z,0,"Hi Corey, your tutorial are great, but it would be even better if you could put lesson index at the beginning instead of middle",True
+@TopicalAuthority,2020-04-12T12:40:11Z,2,"For 6:33 I have this error: ValueError: Columns must be same length as key What can I do, any ideas?",True
+@yingbowang3068,2020-04-11T09:55:11Z,0,"Mr Schafer: after deleted the rows, the index numbers become wrongly. such as 0.1.2.4. if i deleted row 3. is any way to fix it? sorry i might need figure out myself instead of ask..",True
+@Nishantkj,2020-04-10T17:49:11Z,2,"thanks for all this hard work , your videos are just amazing ..  i have one question -  how to use '.applymap(lower)'  if  some of values are NaN. as we did here after appending df2.  thanks",True
+@harshitshukla36,2020-04-10T14:46:04Z,2,No one:   Absolutely No one:   Not even Tom Holland:     Cory:Imagine you are an Iron Man fan! So you wanna drop Steve Rodgers!,True
+@michaelz6408,2020-03-19T15:55:48Z,2,"Hi Corey this is really great video!!! I just have a question, when we call a function, when should we do:   .function() and when should we not using the parentheses like this : .function?  Thanks!",True
+@CapsLock959,2020-03-08T13:03:18Z,0,"Corey, you are the man!",True
+@davebeckham5429,2020-03-01T17:01:01Z,2,Great tutorial Corey. - Thanks for sharing.,True
+@kraig3632,2020-02-27T16:01:42Z,0,"Just subbed, about to check out some of your other videos! I really think that you deserve more views! Do you know about SMZeus?? You could use it to promote your channel!!",True
+@diprachakraborty7718,2020-02-22T14:54:18Z,1,Corey will you make videos for Exploratory Data Analysis. Thanks,True
+@ishanpand3y,2020-02-16T04:34:48Z,1,"Number 6. Thank you, sir.🧡🤍💚",True
+@rox852456,2020-02-14T05:12:14Z,0,How would you insert a row with its own index?,True
+@ambijat,2020-02-13T19:20:57Z,1,very nice and clear,True
+@enesozdemir9973,2020-02-11T21:04:28Z,2,"Hey you, if you are a teacher making programming tutorials here on youtube and wanted to check out Corey's video, this is for you. Do it like this guy, keep it short and informative. I don't have time to listen to your shit. KEEP IT SHORT MAN     Thank you Corey!  Great tutorial. Keep it up",True
+@janevinokur3341,2020-02-09T22:22:27Z,8,"Thank you so much!!! You provide the best material I've seen so far, so clear and to the point!  I wonder how to use Pandas to analyse and organize multiple data into several sheets in a single CSV or Excel file. Are you planning to share this kind of wisdom? :)",True
+@dipayanroy8357,2020-02-08T12:54:15Z,23,"Corey,   Can I request a tutorial series on date time forecasting through machine learning? I've gone various videos and articles, but none of them match your clarity and simple way of explaining complex things. Would really love to see that!",True
+@SolvingOptimizationProblems,2020-02-04T06:47:35Z,1,Great python tutorial. Thank you very much!,True
+@babatundekelvinifeoluwa2318,2020-02-03T13:38:16Z,7,"Great videos!  I can proudly, your tutorial are the best online tut on python I've ever come across so far...",True
+@sajilakl,2020-02-02T17:28:58Z,0,Can you do a series on Date time series?,True
+@Teruroom,2020-02-02T16:16:15Z,1,～😆💕✨,True
+@fet1612,2020-02-02T07:08:29Z,0,"inplace=False <== (by default) video timestamp at Data School https://youtu.be/XaCSdr7pPmY?t=240 <<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>> dropna is removing a chunk of information from the DataFrame, hence is this precautionary measure of ""inplace=False"" Default in order to prevent any accidental deletions to take effect.       df.dropna(inplace=False) https://youtu.be/XaCSdr7pPmY?t=240",True
+@fet1612,2020-02-02T06:18:35Z,0,"11:55 @Corey's_students:  Follow the video reference of the ""inplace"" parameter. ""inplace=False"" is a ""fail_safe"" design. We can fiddle with the code, and when we're sure we want to make changes to the DataFrame permanently, we make the amendment.  We can then set ""inplace=True"". Here is a reference to a Data School video. No offense. We learn from each other. This is how knowledge grows. A good scientist is always learning. https://youtu.be/XaCSdr7pPmY?t=131",True
+@fet1612,2020-02-02T05:57:57Z,0,"7:50 append() df.append({'first' : 'Tony'}, ignore_index=True) <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>> Corey_says: ignore_index <== set that equal to True. (( TypeError: Can only append a Series if ignore_index=True or if the Series has a name ))",True
+@fet1612,2020-02-02T05:45:01Z,2,"@Corey Your videos are excellent. If you could leave pauses of a second or two, it'd be greater still. You and Kevin (Data School), are two people doing a great job, contentwise. Content is super.  <<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Learners need a little time to absorb the concept and assimilate the information. If you don't mind, Kevin's work is perfect. You don't need to pause the video to follow along.  <<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<< Please try to follow this tip, it'll make your videos one of the best in the world, I'm sure. Good luck, Corey.",True
+@fet1612,2020-02-02T05:33:31Z,1,"5:45 Corey says: ""If we remember from earlier in the series if we want to access multiple columns, then within the brackets we can pass in a list so we're going to have two pairs of brackets here. >>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<< the inner (pair of) bracket is a list of columns. df[['first', 'last' ]]",True
+@GeoPoly55,2020-02-02T05:06:49Z,2,You're great Sir thank you,True
+@felicytatomaszewska2934,2020-02-02T04:13:38Z,0,Very nice tutorial mate. What if we want to change the order of the columns? How can we do that? I want the first and last name columns to appear before the email column.,True
+@zantrox100,2020-02-02T00:17:05Z,9,"Great video I like pd.concat([df,df2], ignore_index=True) to join data frames as well.",True
+@parvathirajan.n,2020-02-02T00:10:48Z,4,Thanks for the good video !,True
+@tejamarneni,2020-02-01T23:54:50Z,0,"Hi Corey, I have a quick question. When loading a CSV file using the CSV module, I am getting weird characters while using encoding as utf-8 but when using UTF-8-sig it is working fine. Can you please explain the difference between utf-8 and utf-8-sig?",True
+@coreyms,2020-02-01T22:43:41Z,72,"Hey everyone. Hope you're all having a great weekend. I'm still working on finishing up the series. Let me know if there is anything specific you want me to cover. In the next video I'll be covering sorting, and some videos still to come include: working with dates, aggregating data, reading and writing to/from different sources, and a discussion on the recent Pandas version 1.0 release. Let me know if there is anything else you'd like to see! Thanks and have a good one!",True
+@halim_Ha,2020-02-01T22:40:54Z,61,The happiness rises when you get notification from corey,True

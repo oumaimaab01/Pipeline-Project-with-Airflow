@@ -1,0 +1,36 @@
+author,updated_at,like_count,text,public
+@ChannelMath,2024-03-17T15:47:22Z,0,"if self.townhalls is a boolean, how can self.townhalls.random be anything?",True
+@segunda_parte,2024-03-14T16:11:45Z,0,Hi. How can I set the player's color? Red always appears and I would like another color.,True
+@FlotteeMottee,2024-01-05T13:07:08Z,0,"Fantastisches Tutorial! Deine Erklärungen zur Implementierung von Starcraft 2 AI mit Python sind wirklich klar und gut strukturiert. Es ist beeindruckend zu sehen, wie du die Verteidigungsstrategien entwickelst. Solche Tutorials machen das Lernen nicht nur interessant, sondern auch zugänglich. Vielen Dank für deine Mühe und die großartige Arbeit!",True
+@yihu1293,2023-02-23T11:57:46Z,0,"hey man, i like your work❤, why this didn't do anything? It just mine mineral😂 look forward to your reply",True
+@dantheman52420,2023-02-15T22:19:48Z,0,"9:20 I'm dying, the AI is going to pylon bridge all the way to the enemy base 😂",True
+@Onur_Can8,2022-10-24T14:27:53Z,0,Thank you for sharing,True
+@user-fq5ll4bn4u,2022-08-16T13:05:22Z,2,"Why this didn't do anything? It just mine mineral  from sc2.bot_ai import BotAI  from sc2.data import Difficulty, Race   from sc2.main import run_game   from sc2.player import Bot, Computer   from sc2 import maps  from sc2.ids.unit_typeid import UnitTypeId  class Ignister(BotAI):  	async def on_step(self, iteration: int): 		print(f""{iteration}"") 		 		 		if self.townhalls: 			nexus = self.townhalls.random 			 			if nexus.is_idle and self.can_afford(UnitTypeId.PROBE): 				nexus.train(UnitTypeId.PROBE)   		elif self.structures(UnitTypeId.PYLON) and self.already_pending(UnitTypeId.PYLON) == 0: 			if self.can_afford(UnitTypeId.PYLON): 				await self.build(UnitTypeId.PYLON, near=nexus)                   			 		else: 			if self.can_afford(UnitTypeId.NEXUS): 				await self.expand_now()     run_game( 	maps.get(""HardwireLE""), 	[Bot(Race.Protoss, Ignister()), 	 Computer(Race.Zerg, Difficulty.Hard)], 	 realtime=True,",True
+@Veptis,2022-06-27T09:11:56Z,1,I am watching on my phone all the time. So I appreciate the font size.,True
+@pr0toc0l,2022-05-10T01:47:27Z,0,probesPerNexus = 14 max_probes = (self.townhalls * probesPerNexus),True
+@tomfitz1546,2022-05-02T04:01:19Z,0,Have a punishment for having sub optimal resource reward for having over then set a punishment cap for resources to incentivize spending make the gap in reward just over the cost of the most expensive thing,True
+@MasterHigure,2022-04-29T23:04:23Z,1,"I would probably choose to import UnitTypeId as UID. Or, if possible, this is one place where I might actually consider a glob import (assuming all you import with a glob are all-caps unit names).",True
+@tcgvsocg1458,2022-03-22T12:19:23Z,0,really love this game since stracraft1 but i am really sad to see 5 import...can you explain what import does and how it make?,True
+@haiyangding3243,2022-03-14T02:18:39Z,1,"Great videos, very amusing. And I guess I will start to try this out. Thank you.",True
+@XyndraNerd,2022-03-12T07:19:11Z,2,Please make a minecraft ai tutorial,True
+@MrLikeIceCream,2022-03-11T20:29:31Z,0,moj kolega mysli ze robisz bardzo ciekawe projekty,True
+@zoeyousa5688,2022-03-11T05:28:20Z,0,"I remember you once released the sc2 series, what is the difference between the two ：P",True
+@wangzhe1841,2022-03-08T16:38:08Z,1,would be interested to know how the python library communicate to the game sc2 client? May want to write my own functions.,True
+@MattDvc,2022-03-08T11:58:28Z,0,Haven't you tried SC2 AI in the past? Or am I in the Matrix? 😅,True
+@appelbear,2022-03-08T11:53:15Z,2,"Dude, love the series but you should probably actually learn the basic mechanics of SC2 before starting to make a bot for it. The cannons were unpowered because the pylons that were powering them were killed by the enemy.",True
+@willbutplural,2022-03-07T09:47:39Z,16,Would be interested in seeing Neural Network implementations with this library!,True
+@flutterflowexpert,2022-03-07T09:04:35Z,4,I was thinking the whole idea is to just write a deep learning code and put the machine to learn how to play the game and now to send a bunch of commands :/,True
+@kc_ee,2022-03-07T08:58:58Z,3,Size of the text is fine. Even on a cell phone.,True
+@PockyFN,2022-03-07T05:05:04Z,0,"Hello so i just have come across your channel, and wanted to ask if we can make this script for Pokemon go spoofing",True
+@ValkoinenShiro,2022-03-06T21:33:50Z,3,"Just writing this and hoping it'll be useful. For the number of workers (probes), usually it's 3 per mineral patch; the number above the nexus (or townhall) can differ per game mode since the optimal ""mining"" of workers is 2 per patch with the third one mining at a lower rate. In some game modes you can have a lot of bases that can mine and since workers cost supply you may only want 2 per patch so you have enough supply for your army, but if you decide to ""tech up"" or bank a lot of ressources then going to 3 per patch is not a bad idea.  Getting the maximum amount of workers is called ""saturation"" and more than 3 workers per ressource does nothing (the gas ressource works the same for the most part, except it's almost always best to put 3 workers since gas is harder to get/has less ""patches"" to gather from).  Terrans also have mules, a temporary (timed life) mining unit that does not count against that maximum of 3 workers, but that's another thing altogether.",True
+@aa-dt5bf,2022-03-06T20:48:21Z,1,Number of workers at nexus decreased as mineral fields were depleted.,True
+@fus3n,2022-03-06T20:42:41Z,2,monke,True
+@EightCounts,2022-03-06T17:54:54Z,13,"I love that you decided to revisit this from what you put together several years back.  My favorite series where I learned so much.  Thank you, sentdex.",True
+@randiaz95,2022-03-06T17:34:31Z,0,Yes!,True
+@cwestm,2022-03-06T17:29:30Z,0,Hey sentdex.  Just noticed your new SC2 AI videos.  Can this be worked to make the AI play a custom map?,True
+@Djellowman,2022-03-06T17:03:34Z,9,You must construct additional pylons,True
+@mikerinaldi4310,2022-03-06T16:23:18Z,0,Great video keep it up !!,True
+@_Garm_,2022-03-06T16:16:54Z,6,Build more Pylons! :) .. the cannons where outside the range of pylons :),True
+@Tarun-xw1zf,2022-03-06T16:07:00Z,1,Love you bro !!!,True
+@Stinosko,2022-03-03T07:11:11Z,1,Howdy ,True
+@fuba44,2022-03-03T06:57:33Z,34,"Just a small thing here, pylons can be placed anywhere on the map, does not need to be near other pylons. They can provide an ""area of power"" where ever you place it. (Not on Zerg creep)",True

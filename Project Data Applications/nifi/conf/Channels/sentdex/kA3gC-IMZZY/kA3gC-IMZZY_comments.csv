@@ -1,0 +1,24 @@
+author,updated_at,like_count,text,public
+@HardBroiled,2018-01-21T22:57:17Z,0,"Anyone else having issues with the following call?  history = model.fit(x_train, y_train,                     batch_size=batch_size,                     epochs=epochs,                     verbose=1,                     validation_split=0.1)  I'm getting an error from the validation_split line.  The error stack is going through different functions in the keras library that eventually terminates with:  File ""C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages\keras\engine\training.py"", line 70, in <listcomp>     data = [np.expand_dims(x, 1) if x is not None and x.ndim == 1 else x for x in data] AttributeError: 'list' object has no attribute 'ndim'  I've tried looking it up and it seems that errors like this aren't uncommon and they usually have something to do with preprocessing. Thus far I'm pretty much word for word following the tutorial so I doubt this is the case. I've tried adding some lines right before the model.fit call to make the x_train and y_train arrays into np.arrays based off googling the issue but I'm still getting the same error.  Anyone have any luck with something like this?",True
+@universallappen1033,2018-01-14T19:16:50Z,0,"ValueError: Error when checking target: expected activation_3 to have 2 dimensions but got array with shape (27646, 1, 2) pls help",True
+@theocachet6496,2018-01-12T20:38:18Z,0,Damn I am stuck with 0.334 accurary how the f**k do u reach 0.45 on first epoch !? Any idea on what I am doing wrong?,True
+@squiggels4710,2018-01-12T14:30:36Z,0,"@sentdex Please help! I keep getting this error and i don't know why   Traceback (most recent call last):   File ""model-trainer.py"", line 127, in <module>     model.save(out_model)   File ""C:\Program Files\Python36\lib\site-packages\keras\engine\topology.py"", line 2556, in save     save_model(self, filepath, overwrite, include_optimizer)   File ""C:\Program Files\Python36\lib\site-packages\keras\models.py"", line 57, in save_model     raise ImportError('`save_model` requires h5py.') ImportError: `save_model` requires h5py.  I understand its saying i need for the file to be h5py but i don't know why it didnt give you this error because it was working for you. Please help!",True
+@zakcodes3507,2018-01-12T03:08:51Z,6,"If you use ""./halite -r"" halite won't be creating any replay file",True
+@ineedtodrive,2018-01-11T20:22:10Z,0,dominate halite! win win win!,True
+@aditya8404,2018-01-11T18:30:32Z,2,"Any solution to this  Traceback (most recent call last):   File ""model-trainer.py"", line 46, in <module>     output_layer = train_out[n] IndexError: list index out of range  Using Python3",True
+@DerKerlDesJahres,2018-01-11T18:28:45Z,0,Sick cliffhanger ^^,True
+@AmanSinghamansingh,2018-01-11T17:28:01Z,0,How would one work on flee with navigate? I believe thrust requires a lot of work (implementation of techniques like orca and such). What do you think?,True
+@nikolash1470,2018-01-11T17:11:25Z,1,Man you are my hero!,True
+@davidjhyatt,2018-01-11T16:48:45Z,0,This is so cool. Once I learn what the heck I am doing with the deep learning stuff I can't wait to play with it!  Thank you for making these!! I'm a total newb and able to follow along!,True
+@7505kpersson,2018-01-11T15:50:51Z,0,I wanna see next video now! =),True
+@thanga511,2018-01-11T15:28:38Z,0,bro what about chatbot videos ?? could you please finish it ..,True
+@zakcodes3507,2018-01-11T15:27:33Z,0,The reason why tensorflow can't just load a model is because it only saves the weights and doesn't save the structure. Essentially in your weight file you only got one big list of doubles. I do agree that it is cool to be able to load the model without defining it but in most applications you're either creating a new model or loading it so you have to know the structure of your model so you shouldn't have to save the structure.,True
+@Smikay,2018-01-11T15:26:05Z,1,Epics sounds much better,True
+@aakarsh_chauhan,2018-01-11T15:16:22Z,2,when will you make tutorials on genetic algorithm?,True
+@joydeepmukherjee8263,2018-01-11T15:16:22Z,1,We need RNN,True
+@martinl2603,2018-01-11T15:07:35Z,0,Thank you for the useful tutorials,True
+@glegoo195,2018-01-11T15:06:56Z,0,Thx for sharing! Do you know how to open a 500mb bmp file in Opencv pls?,True
+@dawah7556,2018-01-11T15:05:17Z,0,good one sir,True
+@gamersbay3179,2018-01-11T15:02:10Z,0,where to start learning ? so many  in ur channel,True
+@siddharthmittal9355,2018-01-11T14:57:56Z,0,man you are the motivation for the next generation of coders rising in high schools,True
+@jugurthagreen900,2018-01-11T14:42:12Z,0,good work bro,True

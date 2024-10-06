@@ -1,0 +1,17 @@
+author,updated_at,like_count,text,public
+@EMRAN994,2024-03-27T19:42:29Z,0,"thx for the explanation, it helps a lot to understand it",True
+@SanyamGupta1712,2023-12-29T18:22:57Z,0,"Many thanks for sharing this, it really helped me grasp this concept quickly.",True
+@arnelewinski79,2020-09-13T11:19:11Z,0,"I suggest to have the defintiion of the synchronisation via WaitGroup in one scope.  This keeps the called method free of synchronization elements.  Example:  for _, value := range pSlice { 	wg.Add(1) 	go passThrough(value, pChan, wg.Done) }  func passThrough(p person, pChan chan person, finished func()) { 	pChan <- p 	finished() }  The context of the iteration makes it necessary to synchronize. So the WaitGroup should only be known in this context, nowhere else. With this solution it is also not needed to declare the WaitGroup package scope. You can define it in function scope.  Furthermore:  You shouldn't buffer. This is a hack according to the wished control flow. You should put the iteration into a separate go routine and have synchronization really work.  Nevertheless. This video gave me some good hints to approach go routines. Thanks.",True
+@user-nu4so7zg8r,2019-08-19T03:38:13Z,2,What problem did you solve by making the channel a buffered channel ?,True
+@jamespradhan9810,2019-05-10T07:15:41Z,1,you are so good bro bra bra,True
+@abhins242,2019-01-28T02:17:30Z,0,Can you read from channel after you have called close () on channel?,True
+@WorstDeveloper,2018-07-23T21:40:35Z,0,I still don't get the point of channels really... What's the point of getting back a random value out of sync?,True
+@TheArpitGupta_,2018-07-23T02:03:46Z,4,Why did we buffer? In the previous example why we did not?,True
+@ionlyplaynude,2018-07-20T20:43:25Z,1,Why even close the channel? It's no file or socket. It does not need to be closed in my opinion.,True
+@SudeepDasguptaiginition,2018-04-15T18:40:59Z,2,you should clear your concept before making videos in all videos you get an output which you did not expect and then try to cover it up,True
+@okeziee5034,2018-04-13T00:20:20Z,1,Your videos have really helped my understanding of Golang.  Great launchpad to get me thirsty for more and work on a project. Thank you.,True
+@urlugal2,2018-02-11T02:39:18Z,3,"why not a defer on the close of the channel, that would make more sense to me anyway?",True
+@FootballLab,2018-02-10T17:36:26Z,0,"It is better to add the Wait() directly after we launch a go routine  ... go foo (fooVal, i) wg.Wait() ...",True
+@johndepetrillo3030,2017-12-12T14:16:51Z,0,We very much appreciate you for providing these training materials.,True
+@asi2010esi,2017-11-15T06:08:41Z,30,"You can still use blocking channel if you put the wait/close into another go routine:  go func() {   wg.Wait()   close(fooVal)  }() The advantage is you don't need to know ahead of time how many items will flow through the channel at the moment of declaring the channel. With the final solution in the tutorial, you end up with the problem mentioned at the beginning (the 10 in the for loop appears multiple times and need to be updated in multiple places for the code to work)",True
+@guillemgarcia3630,2017-11-12T22:53:23Z,15,Please don't stop making Golang videos. They're awesome!,True

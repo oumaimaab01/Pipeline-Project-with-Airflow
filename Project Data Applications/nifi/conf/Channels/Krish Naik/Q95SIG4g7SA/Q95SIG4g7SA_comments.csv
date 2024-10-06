@@ -1,0 +1,27 @@
+author,updated_at,like_count,text,public
+@encianhoratiu5301,2024-05-22T11:17:02Z,0,Window size doesn't give the embedding dimension.,True
+@HarshPatel-iy5qe,2024-04-28T17:58:17Z,1,"why does number of hidden neuron should equal to window size , it can be anything , right? our window size decides the inputs words neuron layer which is window size-1. Correct me if i am wrong",True
+@rafsankabir9152,2024-03-23T19:01:08Z,0,Amazing!!!!,True
+@wenzhang5879,2024-02-28T11:21:33Z,0,is the number of hidden neurons equal to the window size?,True
+@naveenkuruvinshetti6610,2023-12-26T07:23:12Z,0,Too many ada,True
+@mudumbypraveen3308,2023-11-02T17:38:15Z,1,I think towards the end the explanation of window size is wrong. if you multiply (7x5 )* (5x7) you output is basically a 7x7 matrix. so for each vocab word you have one vector of size 1x7 representing it. Also I believe window size does not mean feature vector it just means that how many words you are sampling before and after the context word.  It is ultimately the final layer output dimensions which would have the embeddings. For e.g. last hidden layer is of size (7x512) you would get (7x7) * (7*512) which would give you embeddings of 7x512.,True
+@sahipadhai,2023-08-27T11:00:16Z,0,"Nice video explanation. But if you actually want to understand the mathematical foundation behind this model in Hindi and English mixed language, you can refer to videos in my channel. I have made all the concepts such that people can start from scratch and understand it clearly which can be supplemented with practical understanding. Here is the link to my channel . https://www.youtube.com/channel/UCeWlQOzq28IIS8qVh8jawgg  BTW,  thank you for making students life easier :)",True
+@farbodzamani7248,2023-06-18T20:19:43Z,0,thanks a lot,True
+@apoorva3635,2023-06-16T04:55:42Z,0,41:49 - What is the point of initializing weights when all the 0s (which are n-1 in number) multiplied with any number will anyways remain the same?,True
+@prateekcaire4193,2023-06-14T09:17:13Z,3,wrong in many ways. window size and feature dimensions need not same. word2Vec is 2 layered NN. here only one layer is shown. Overall poorly explained,True
+@ameybikram5781,2023-05-31T20:12:11Z,0,the same word can be present in differnt sentences !! so we calc  the vector for thtat word in every sentence and take the averge?????,True
+@bhesht,2023-05-08T02:27:56Z,0,"Excellent series, wonderfully explained mechanisms - you won't see this elsewhere. Thank you!",True
+@shriramdhamdhere7030,2023-03-31T08:53:40Z,1,you said that window size defines the length of vector to which a word is transformed but in the next video while training you had a window size of  5 but got a vector of 100 dimension ?? pls clarify,True
+@AI-Brain-or-Mind,2023-01-28T06:18:54Z,0,grate sir   i leaned so much thing from your videos  thanks lot sir sir can you show us where to to download pretrained model of  word2vec,True
+@cricjack9076,2023-01-26T05:22:55Z,0,Hello sir please reply every video I put a comment about data science course but you don't reply?,True
+@apurvakhomane4992,2023-01-26T00:47:35Z,2,Please teach in FSDS May batch also,True
+@amiralikhatib4843,2023-01-25T21:42:59Z,1,I can't wait for the next part which the SkipGram approach will be discussed,True
+@khaderather,2023-01-25T19:20:40Z,0,Hope your Dubai tour was good.,True
+@dineshshelke631,2023-01-25T17:47:28Z,1,Sir FSDS Batch mai bhi padhao please,True
+@CARevanthkumar,2023-01-25T17:36:32Z,0,i want ML models more efficiency that project link,True
+@raviv1752,2023-01-25T16:31:51Z,0,Thank You Krish for wonderfull explaination,True
+@chitrranshia7765,2023-01-25T15:20:04Z,0,Is this the first video lecture on nlp,True
+@swagatsanketpriyadarsan6231,2023-01-25T14:40:04Z,0,Can you please put out videos for computer vision. DL_CV,True
+@aszanisani,2023-01-25T14:22:28Z,2,"i love your explanation, can't wait to the next part🤩",True
+@luffyd9724,2023-01-25T13:18:18Z,2,Sir in Hindi batch there are 5 video already uploaded but in english batch there is only one video .why this difference are there ??,True
+@Umariqbal-kp1nz,2023-01-25T13:10:53Z,0,Deep learning road map,True

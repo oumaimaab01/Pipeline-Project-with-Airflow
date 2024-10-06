@@ -1,0 +1,73 @@
+author,updated_at,like_count,text,public
+@williyamm403,2023-07-31T11:00:34Z,1,"Bro please reply. What are the changes i do, if i use postgresql as database",True
+@erenparladi5950,2021-09-23T19:59:52Z,0,"Thanks so much for the video bro! It saves my bunch of time. The hardest part for me was reloading the apache. I get something like syntax error on mysite.conf file. I handled it by deleting red blank lines in that config file and after that using sudo a2enmod wsgi command. Then, the website was worked on server but this time, there was some other problem about static files. Respectively, 'chgrp -R www-data /blog/media/' and 'chmod -R g+w  /blog/media/' commands worked for my own project. By the way ,these previous commands are about writing and some other permissions. After that, the only problem was image loading. I mean , images was display on dev. tool but on the page that field was blank.  I solved it by editing some lines in settings.py and urls.py files. It was tough struggle but it is worth all for it :)",True
+@shubhpatni2123,2021-08-02T08:19:34Z,0,Getting internal server error,True
+@worldboy9684,2021-03-29T16:56:49Z,0,"Thanks man, great work, I know Django now! :)",True
+@ajaypratapyadav2418,2021-02-02T19:12:52Z,0,"Hello @sentdex, I'm trying to host multiple application on single window IIS. first one running fine but 2nd is not working giving 500 error. If possible can you please guide me or send me some help full link.",True
+@santoshpadhi8269,2021-01-26T07:01:31Z,0,How can i host my ml model over 255mb,True
+@gauravpal-tp4pd,2021-01-01T05:57:14Z,0,"Hi, What password required for login, I tried my root password but It gave access denied",True
+@hackerdaddy2828,2020-11-21T18:13:20Z,0,you are the best for tutorial and coding,True
+@nikolayotmakhov4357,2020-11-18T21:24:22Z,0,"incase someone else could not get TinyMCE to work try installing his version 1.7.3 worked for me after trying everything possible  code: python3 -m pip uninstall django django-tinymce4-lite python3 -m pip install django ""django-tinymce4-lite~=1.7.3""",True
+@urmat6581,2020-11-05T10:09:54Z,0,Thank you very much!!!!!!!!,True
+,2020-09-20T21:28:12Z,0,please make a video that covers server management just a little bit,True
+@shukhratmirrakhimov2317,2020-09-01T13:35:34Z,1,"Here is a little mistake in your  mysite.conf file.  "" Alias /static/ /var/www/mysite/media/"" - it should be  Alias /media/ /var/www/mysite/media/ Otherwise your cannot retrieve media files when you set your project in production mode i.e DEBUG = False. Hope it will help someone!",True
+@user-ic8gh3od3l,2020-08-27T05:10:11Z,1,You literally were the teacher for me to put my hands on Django project. I appreciate you and all the team member's time and the effort.,True
+@junmonikalita7857,2020-08-12T19:21:38Z,0,"Hi, In the tinymce editor, image uploading from a local machine is not working?? Can anyone tell me why it is happening and what code do I need to add in the existing tinymce configuration code.",True
+@miraccan00,2020-08-09T09:55:46Z,0,we can deploy docker django project on google cloud or aws cloud maybe it can be perfect,True
+@IllevensKO,2020-07-15T17:07:49Z,0,your das hit but add timestamps plizz :3,True
+@devendrapatil8226,2020-05-10T15:16:03Z,0,A website with REST API and database rather than SQLite3 maybe MySQL.,True
+@KudoKem,2020-04-24T16:08:01Z,0,"Hi bro, this series is really good for me to start learning Django. can you do a video to connect django with other db such as mssql or ibm db2.",True
+@SyangjaliThitoMagar,2020-04-19T02:05:53Z,0,"Hey thanks. Lets suppose, web is used by a Bank. How do we restrict/NOT allow ""root"" to add/modify anything on database/data, ONLY bank employee should update data.",True
+@no5x937,2020-04-10T16:53:40Z,1,"Tim, can I run the Apache Server and the test website (mysite) in a Ubuntu Virtual Window on a Win 10 machine (i.e. not in a linode or other cloud server)?  What changes do I need to make to your scripts to run it there?   Also, can this Django Apache Server deployment process work in a Raspberry Pi 4 (2GB) located on the same local network?  Thanks.",True
+@mr_wormhole,2020-04-09T15:39:00Z,0,"Getting a good error of ""no module named django"" inside the logs of apache2 with apache2 server. Wasn't this supposed to happen on windows? what the actual fuck. Apache2 server can not load the site-packages. I can run it manually but no luck with apache at all",True
+@Grovento,2020-01-18T21:43:07Z,0,"HI! If I'm developing in Windows, what's the best environment, a linux VM, linux subsystem, or Docker? Other alternatives? What's the best way to develop with Django. This to avoid production issues.",True
+@sakshambisen3580,2020-01-11T09:39:23Z,0,could anyone tell how to add environment variables,True
+@hardiksingh9404,2020-01-10T17:57:55Z,0,Can you please make a video on how to deploy using Heroku,True
+@rafaelrosenberg5214,2019-12-30T02:25:35Z,0,I've spent days trying deploy my Django website until watching your video. Thank you mate!,True
+@soniazhang4176,2019-12-21T23:32:10Z,0,"Oh my god, contagious enthusiasm right here! Love it",True
+@AbhishekMishra146,2019-11-25T09:18:22Z,0,"Hi Sentdex, thanks for this beautiful video, could you also do Django rest API with react/angular would be great.",True
+@subeed76,2019-10-20T15:55:47Z,0,I have used your stackscript from the community but the reverse DNS link is not working..,True
+@cuburtrivera1167,2019-10-06T05:00:29Z,0,"hey man, im getting [error 13 ] permission denied, everytime i try uploading a file. I already added MEDIA_URL = '/media/' and MEDIA_ROOT='/var/www/website/media/' in my settings.py and granted all access in website.conf. Perhaps, few lines of codes should be added  to wsgi.py, idk. Any soutions? Thanks!",True
+@aliyusani5276,2019-09-27T16:18:48Z,0,Can you also buy a domain name with linod,True
+@RREDesigns,2019-09-17T03:15:47Z,0,"I have a request. I want to know how to use a CDN or maybe if it's possible another instance on the same server to serve the media files, since Django docs say that the way Django does it is zero efficient and probably unsafe (can't find that bit right now).  Thanks a ton. You are one of the funniest tutors out there. :)",True
+@manifz90,2019-09-15T10:02:33Z,0,Please make tutorial on dashboard,True
+@ricardorocha7832,2019-08-14T10:57:30Z,1,"Good tutorials, did learn alot with you, would like to see some showing how you use multiple apps in the same site, would you create a new app, create new modules? And then use import in the main app?",True
+@vitalykazimirov9583,2019-08-01T14:13:31Z,0,"Hello, guys! Sentdex rules!))) Great videos without being bored to death like it happens all the time with other teachers - this teacher knows how to get our attention.  Unfortunately Linode sucks - they charge you 100% even when your VPS are down for few months - they get it for ""SAVING OUR DATA"" -  expensive saving mode indeed!!! When you made few attempts and decided to return to it later you need to pay for it all the down time. It is so sad to be fooled like that and to pay for services you do not use. (((((((((((((((((((((((((((((",True
+@namarajthapaliya5720,2019-07-13T12:10:35Z,0,everything is running good but server is showing error 500 while adding image from admin site any solution for this problem?,True
+@henriley,2019-07-09T19:58:19Z,2,Any chance you'll show how to make a dash app in Django?,True
+@chiragchaudhary9213,2019-07-02T06:32:54Z,0,This one is pretty cool and waiting for cool Django rest stuff on your channel.,True
+@himanshupoddar1395,2019-06-01T07:31:58Z,0,But admin is not working,True
+@rodrigolnl,2019-04-24T01:56:16Z,4,He deserves way more views.,True
+@chiemerieokoro3038,2019-04-13T00:21:17Z,0,"Hello Sir could you kindly do a tutorial on how to view uploaded  images (models.ImageField) in the browser . I have tried to do so even googled  solutions. However, my images I can only see icons of the image instead of the image itself. Thank you",True
+@spypigsc,2019-04-09T06:49:24Z,47,A Django rest api with react or angular tutorial would be nice,True
+@mohammedemadeldin5753,2019-04-02T12:11:51Z,0,Thanks <3,True
+@carlosa251,2019-03-23T05:20:08Z,0,"What about Flask, It would be great if you do an update of the Flask's serie",True
+@phdandlifeintheus1389,2019-03-19T04:10:02Z,3,This new Django series has so much more than the old one. My 9 hours are well-spent today.,True
+@jxsl13,2019-03-15T23:48:40Z,1,3 days and here we are.,True
+@nguyenvantin8727,2019-03-13T16:34:25Z,2,Could you make a tutorial about GeoDjango :D,True
+@syedaizaznaqviofficial5453,2019-03-04T18:29:51Z,0,Your Tutorials helped me alot learning django and web development . Sentdex is best in world Where did you get those fancy looking mugs? Could you gift me one? :P,True
+@codegeek8256,2019-02-25T17:09:19Z,0,"i was looking forward to seeing how you manage your file uploads particularly images that we see on the front page...but you skipped that part, i am very disappointed",True
+@kosmic000,2019-02-24T11:46:05Z,0,on a side note do you know what happeend to bucky form thenewboston he disappeared without even acknolowging or making  a goodbye video and lots of fans r worried about him including me,True
+@hareedyhareedy2863,2019-02-19T15:25:02Z,0,"Please, How to use tkintertable python library",True
+@gomenaros,2019-02-18T13:00:50Z,0,"I know you have covered pretty much in your Q&A series and other vids, but I would really love to see some tutorial series on Online Enterpreneurship from you, Harrison. Is it something you would be interested in?",True
+@wojtek6801,2019-02-18T08:39:43Z,0,"Hi! I tried out the linode promocode, but was charged $20 anyway. There is a dark pattern during adding the credit card. I contacted the support and am currently waiting for their response as I don't want to pay this amount as for now. @sentdex I love you videos but please consider informing your viewers about how to use the promocode. I feel a little bit fooled right now.",True
+@charlie64x2,2019-02-17T15:14:47Z,0,Good video. Greetings from Costa Rica.,True
+@desalefentaw8658,2019-02-17T08:16:56Z,0,"hello, I have been watching the tutorials on pythonprogramming.net, and I love the way you describe things(so simple and easy to understand). if it  is possible, can you just tell me how can get django hosting server for Ethiopians, since I can not pay online. there is no online payment system here in Ethiopia.",True
+@samha1513,2019-02-16T18:27:53Z,0,"Great work as always. i run into a little problem here . I have implemented the JWT Token with my django project. Where should I add the "" WSGIPassAuthorization On "" I tried to add it on mysite.conf but didn't work. Thanks",True
+@AmanRaj-ik6me,2019-02-16T14:35:59Z,0,Awesome!!  But what happens to '/admin ' url. If anyone goes to 'www. mysite. com/admin' will it redirect to django admin page??,True
+@pysuhayb15,2019-02-16T10:31:29Z,0,again let we wait from kivy mobile kivymd and others <3 thank you sentdex,True
+@TheShash1001,2019-02-16T07:41:32Z,0,Any specific reason to choose Apache over nginx?,True
+@AmeerHamza-wl6tr,2019-02-16T05:50:24Z,0,Is this Last video of the series?,True
+@nikkolumahang,2019-02-16T02:35:01Z,0,please include in your django series How to deploy on windows apache. Thanks,True
+@kalidoom1674,2019-02-15T22:33:26Z,0,to write to a file in nano ctrl + o then ctrl + x to quit,True
+@talhatariqyuluqatdis,2019-02-15T22:01:38Z,1,I am big boi. Heart?,True
+@milostean8615,2019-02-15T20:13:35Z,0,"Fresh cut Harrison , lookin well.",True
+@apoorv3188,2019-02-15T19:08:11Z,1,Currently studying Flask..Will hit here real soon!! Much love from India.,True
+@RavenMyBoat,2019-02-15T18:34:15Z,3,"Nano lovers unite, also nginx > Apache.",True
+@lowkeygaming4716,2019-02-15T16:53:58Z,7,Wow! It only took you less than 30mins to do it. I took at least a week to understand everything the first time I set up a VPS and now I think I already forgot how to do it.,True
+@PlechoveHrnek,2019-02-15T15:35:34Z,0,"I think that these days, Docker is a much better alternative to deploy a Django app (together with Swarm/Kubernetes/AWS).",True
+@christianasnelngoulla9868,2019-02-15T15:07:54Z,0,ooooh Thanks ... Finally !!,True
+@xXxSonOfDiabloxXx,2019-02-15T14:57:49Z,25,I would love to see coverage on how to update and app in production. If it's at all different that doing so in a test environment as you have shown in earlier videos.,True
+@ChumX100,2019-02-15T14:16:11Z,0,"Very true what you said about Heroku. Scaling and management becomes a pain very quickly. But also, I guess most viewers learning Django for the firt time just wan't their toy app deployed somewhere, and for that the easiest options I found were Heroku and Nanobox. App Engine was a very smooth experience as well.",True
+@TheRaghavboyz,2019-02-15T14:01:10Z,0,Yasssss! This was much needed.,True
+@Stinosko,2019-02-14T16:54:51Z,1,Apparently you have merchandise store :D,True

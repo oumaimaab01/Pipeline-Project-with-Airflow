@@ -1,0 +1,30 @@
+author,updated_at,like_count,text,public
+@amacodes7347,2022-12-19T23:49:07Z,0,minor is no longer supporter in np.range() function,True
+@Norrr8801,2022-08-30T17:53:25Z,0,Man you're the MVP!,True
+@MrCaglar1993,2022-01-23T18:21:45Z,0,too much noise from KB,True
+@alie2315,2021-04-19T10:07:52Z,1,"what about"" ticker=pickle.load(f,'rb') ""?",True
+@alie2315,2021-04-19T10:01:20Z,1,"hi,thanks for everything. one point;what u calculated is not percentage.",True
+@hajaksksnsjksksbsnsn,2021-03-28T02:47:13Z,0,"6:29 I think divided by should be  previous day price , not current price.",True
+@dmitrypetrov1753,2020-05-02T10:16:26Z,2,"thank you for the videos! However, I would suggest to take log returns as they are more linear than classical returns.",True
+@BrandonJacobson,2019-09-09T23:14:06Z,0,I just ran this (9 Sep 19).  I wasn't able to use tickers = df.columns.values.tolist() as it says .values doesn't have .tolist()     I'm hoping this doesn't impact the next video.,True
+@mariofernandezalvarez125,2019-06-12T12:55:45Z,4,"Can someone explain me this: df['{}_{}d'.format(ticker, i)] = (df[ticker].shift(-i) - df[ticker]) / df[ticker]",True
+@rubcaspac60,2019-03-18T18:40:29Z,0,"I am having a very stupid problem, come list have the share type using a .B or .A type, others have -B and -A. What is a good strategy to avoid this conflict, I having a very recurrent problem with this. Thank you",True
+@robsonvonbrum1618,2019-03-17T22:17:46Z,0,I wanna hit the fucking monitor everytime he sings a word,True
+@ramenpavlov4006,2019-02-17T21:50:20Z,1,How can I check whether this code actually worked? I checked the joined_closes csv file and there were no future values for XOM.,True
+@hankblack783,2019-02-11T23:56:54Z,1,Just discovered your Python Finance series two days ago and am working along  on a different screen while watching.  Thank you so much - the videos are very informative.,True
+@user-nd8yd1or4s,2018-11-21T13:21:22Z,2,前面几节课还跟的上，逐渐一脸懵逼  :（,True
+@adeshmallaHQ,2018-06-14T06:59:44Z,1,"I feel like there is bias in the data [Data Snooping or Look ahead].  The percentage change for a one day look back period shows up earlier than we might have access to the data and the same continues for others.   for example df = pd.read_csv('sp500_joined_closes.csv', parse_dates=True, index_col=0) df['AAPL_rets'] = df['AAPL'].pct_change() ..................... and.................. df['AAPL_1d'] = (df['AAPL'].shift(-1) - df['AAPL'])/df[AAPL'] should have the same result.   I'm Confused each look back period assumes that the future data is already available for use which is a huge bias. Please correct me if I'm wrong",True
+@kennyPAGC,2018-05-06T12:06:21Z,0,"Hey sentdex, are you still doing finance stuff with Python? If so, can I ask where do you find your data? I am having A LOT of trouble trying to find a free source of daily data for different indices, ETFs... Talking about APIs.",True
+@preritjain3980,2018-04-24T10:24:10Z,0,Does anyone know how relevant is this strategy on crypto?,True
+@rohanpaleja,2017-12-03T08:09:48Z,0,"Hi, if anyone could, could someone explain how the data is being extrapolated for the next seven days?",True
+@zes3813,2017-10-11T17:54:59Z,0,"not pronx by that, no such thing as typox, type anyx and anyx can be perfx. type and talk can be perfx",True
+@vinayakbhosale213,2017-09-29T03:13:42Z,1,"Request stock screener for comparing Avg. volume with  volume .  yahoo provides Avg. volume of stock on each day.if  volume rise by 1% of Avg. volume , with 0.25% rise in price then generate BUY signal.",True
+@archit11111,2017-09-14T21:45:54Z,1,"Can  some one explain in plain English as to why we are subtracting from a value in the future when we don't know the future price ?  BTW, sir you should be given knighthood and pythonprogramming.net is the holy grail",True
+@tomvkgames,2017-08-16T21:54:04Z,2,"I still don""t understand the shift part in line: df[""{}_{}d"".format(ticker, i)] = (df[ticker].shift(-i) - df[ticker])/ df[ticker]  First question: You said that: df[""{}_{}d"".format(ticker, i)]  is the Adj Close value for i days in the future. But you also don't know df[ticker].shift(-i), because that just gives NaN because future data is not known, so how does this works. Because now the equasion is: a = b-c/c. Where in you don't know a and b?  And the other question why do you fillna two times?",True
+@Locke19901,2017-08-16T17:27:41Z,0,In your defining of the set up (new to ML here) you define buys and sells as movements beyond 2% in a set time frame.  So the parameters here are the threshold (2%) and time.  Is there any optimization of ML techniques where it could return what these parameters should be?  Or is it brute force iterated ML through these parameters and then you evaluate them by whatever metrics you want?  Or is there some other method?   Or am I getting WAAY AHEAD of myself?  Ha.  Thanks AS ALWAYS.,True
+@carstars,2017-08-12T05:45:48Z,0,You will never know the future.,True
+@sarbjitgahra4667,2017-08-09T23:35:54Z,0,Thank you for spreading the knowlegde,True
+@MrGeoC,2017-02-10T08:27:50Z,0,These are Great!  Thank you for making these.,True
+@bamdadd,2017-01-24T15:25:19Z,59,"So excited about your videos. really enjoying it.   for _ in range(1000):    print(""Thanks"")",True
+@fuba44,2017-01-23T21:36:30Z,17,I cannot express how much I enjoy your videos.  Thank you for making them!,True
+@MrIgorbpf,2017-01-23T16:22:51Z,9,"Great video, man! I just have to point one thing: as far as I know, if u intend to work with a gap of one week, u use 5 days instead of 7 because stocks don't trade on weekends.",True

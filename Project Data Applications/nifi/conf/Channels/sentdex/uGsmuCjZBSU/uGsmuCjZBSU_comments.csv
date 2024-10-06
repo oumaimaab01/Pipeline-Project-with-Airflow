@@ -1,0 +1,65 @@
+author,updated_at,like_count,text,public
+@kamalbhartiya467,2019-04-05T08:49:27Z,0,Remove the template_name if you are getting a Lookup Error.,True
+@luckychan0701,2018-12-11T05:48:03Z,1,"Exception Type: OperationalError Exception Value:  no such table: blog_post  i got this error , anyone can fix this error ?",True
+@fagunraythatha5601,2018-10-07T08:05:17Z,0,"hey man, you are good !",True
+@user-qn3sg6zm6m,2018-09-06T10:32:42Z,1,Your tutorials is awesome but for one who know django and want to review,True
+@mhmdrizk6222,2018-08-01T11:49:40Z,0,"what if we have several objects passed to the template, how can we differentiate between them ?",True
+@MurtagBY,2018-07-28T11:09:47Z,0,Why the obect passed to blog.html in for loop is called object_list?,True
+@Mohammed-de8jm,2018-06-17T09:07:01Z,0,Getting the error: Class 'Post' has no 'objects' member.  can someone help?,True
+@branquitodemunze,2018-06-16T20:20:49Z,0,"Oh my... Python and Windows are so not a match, in terms of philosophy... Why not linux? Otherwise, good tutorials!",True
+@cyprianumoh5077,2018-06-01T11:53:58Z,0,"Pls can you or anyone help and tell me how to reopen my previous project and continue where i stop before closing my 'cmd' and python shell?  Thanks",True
+@antoinefontaine4556,2018-05-22T09:31:05Z,0,"Hi Sentdex,  thank you very much for your content it's very helpful.    I was wondering if you could also show: How the admin can add images to each blog post How to add a comment section to each blog post for users.   If anyone else knows the answer to this i would be very grateful.  thanks!",True
+@fritzauguste6669,2018-04-12T10:42:19Z,0,"RuntimeError: Model class blog.models.Post doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS. Getting  this run time error, Help anyone btw i am suing py2.7",True
+@NaturalBornCamper,2018-02-23T23:10:29Z,0,"Is there a way to not hardcode ""-date""? Or a way to use the reference without putting it in a quote?",True
+@polyspastos,2018-02-20T10:09:49Z,0,New directory shortcut: Shift+Ctrl+N. :*,True
+@jewonkim9313,2018-02-13T00:06:43Z,0,What is this error message? Give me some advice for me. RuntimeError: Model class blog.models.Post doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.,True
+@ilanmagen,2018-01-01T22:38:07Z,0,"Can you execute straight SQL under  Django , say join few DB table or some other complex query ?",True
+@bootcamprag,2018-01-01T19:09:24Z,0,"Harrison,  Your tutorials are awesome. I can actually understand the materiel without to many errors and can follow along. This is very helpful and I hope I can use this as a model to build real websites. Thanks.",True
+@dagadbm,2017-12-13T16:43:27Z,0,what is that pipe ? post.date|date ? is this django specific? python specific? What does that do? How does that internally work? Never saw that before :O,True
+@Gr33n37,2017-11-16T13:52:57Z,0,thank you,True
+@aboldgentleman3058,2017-10-02T15:55:15Z,0,"hello sentdex, I'm really stuck. I have an error here: File ""C:\~blog\urls.py"", line 3, in <module>     from blog.model import Post ModuleNotFoundError: No module name 'blog.model'.  I tried the fix mentioned by +Mitch below, didn't work. Please do reply. I really can't go further here. Waiting on your reply",True
+@TheToadSpinner,2017-09-27T00:56:21Z,0,"Hello! I'm a first time web-developer biting off a lot, feels like more than I can chew. I've watched your tutorials 3 times now and I'm finally getting rolling on my website. I'm having a problem I don't know how to solve though... My index opens my home.html page which is perfect, but now that I've added my watch.html page like so:  ""from django.conf.urls import url from . import views  urlpatterns = [  url(r'^$', views.index, name='index'),  url(r'^watch', views.watch, name='watch'), ]""  Which opens up like it should when I got to 127.0.0.1:8000/watch. The problem I'm having is that even though my watch.html is in the same template folder as my home.html, watch.html tries to access my static folder through a weird extended path that looks like this: /watch/static/myapp/img/etc.png which doesn't exist. My header loads all images perfectly on the home page which extends header.html but won't load any images when visiting watch.html which also extends the same header.html. I'm so lost. Thank you so much for these videos! P.S. I don't want to make a new app for the watch page since it shares the same static files.",True
+@ayushsrivastava3243,2017-09-15T12:53:44Z,0,u r an awesome teacher,True
+@kayiong4783,2017-09-02T12:41:34Z,0,"Hi, how do you know the object name of Post class is object_list and not object_list123 or abcd or whatsoever? :) Sorry i am confused cause I am totally new.",True
+@armanigiles4953,2017-08-15T18:18:07Z,0,"Thank You Sentdex!! You save me from stress, headaches and above all, TIME",True
+@nguyentuananh9163,2017-08-01T20:25:27Z,0,"Hello everybody. I can't extends header.html file to blog.html, and I get an error ""TemplateDoesNotExist at /blog/"". Please help me. Thank!",True
+@darthrinvador,2017-07-31T12:31:50Z,0,"I am building a stock page instead of a blog by following your steps.  Do i have the following html correct to display my stock data as a table?  {% extends ""home/header.html"" %}  {% block content%} <p>Enter some text here</p> {% include ""home/includes/htmlsnippet.html"" %}  <table>  {% for Stocks in object_list %}   <tr>    <td>{{Stocks.tickersymbol}}</td>    <td>{{Stocks.company}}</td>   {% endfor %}   </tr> </table> {% endblock%}",True
+@raunitkumar1835,2017-06-29T09:23:25Z,1,"didn't understand that loop section, how it is returning the objects of the  class ""Post"" ....??? please revert back as soon as possible..",True
+@aristidescruzestrella9490,2017-06-29T02:08:50Z,0,"Hi, im getting this error  AttributeError: type object 'Post' has no attribute 'objets'",True
+@DevakaKumarasinghe,2017-04-27T22:02:40Z,5,"I'm getting an error ""no such table: blog_post"". Please help.",True
+@landwarrior348,2017-01-24T15:34:07Z,0,"For the people like me who are getting worried why two curly braces {{ }}, here is a link:  https://docs.djangoproject.com/en/1.9/ref/templates/language/",True
+@landwarrior348,2017-01-23T23:26:47Z,0,How to remember all these codes?  I envy good programmers man but one day......,True
+@svink312,2016-12-28T09:57:58Z,2,"Thank you for investing in me. Regards, Sascha; The Netherlands.",True
+@jdcnihefnhuebh,2016-11-26T21:57:32Z,1,I'm wondering how I might arrange my posts into categories. Do you know any solutions for that?,True
+@patricelauze358,2016-11-24T01:05:35Z,0,"I am looking for a way to look at our work using my cellphone, do you know of any way to do so?  Thank you for your time!",True
+@northstarmedia8508,2016-11-15T15:52:15Z,1,i was following everything up until this video :/ i didn't get any of the first part.,True
+@rajendrasinghrathore628,2016-10-28T05:16:40Z,1,AttributeError: 'module' object has no attribute 'model' Hello sir....... I'm facing this error while running code in browser.,True
+@d-foxweb-design2170,2016-10-07T08:50:39Z,0,Best django tutorial so far.,True
+@user-mfsc-2024,2016-09-28T04:09:21Z,1,how object_list correlated to the object declare in the urls.py file ?,True
+@user-wn4sm8uw9c,2016-09-23T04:05:18Z,0,"Thank you so much for making those tutorials, they are super helpful!  Though I didn't get why putting the ListView part in the urls.py instead of views.py?",True
+@dimityrkukov2940,2016-08-26T13:52:12Z,0,"For some reason I get an ""Unresolved reference"" for from blog.models import Post. All of my files are in the same location as the video.",True
+@furkankaynar6491,2016-08-24T21:45:48Z,28,"Bro, why i dont know but i feel safe on your channel :D",True
+@LukaszKawalec,2016-08-10T18:27:54Z,0,"Hi +sentdex. Thanks for tutorials. I've stuck on 9th episode, but it's related to 7th. I can create new posts, but all of them are called ""Post object"" and the blog page is blank. There are no posts on home page as well. I've checked 7th episode and looks like you didn't do any changes to views.py in ""blog"" folder. Here is what I have:   from django.shortcuts import render  # Create your views here.   So did I overlooked something?",True
+@AshokGupta-ls2kv,2016-08-09T05:40:25Z,0,hi! i have been following ur tutorials and its been of grt help. but now I'm stuck  with svg. i need to draw lines based on user input through django. i'd really appreciate if u help me figure this out. thanks :),True
+@skhaaaan,2016-07-10T22:04:39Z,0,Thanks for these great videos! I find them sooooo helpful! Keep it up! I look forward to checking our your machine learning vids!,True
+@Daidera91,2016-06-23T19:56:22Z,1,"Hi i am getting this error when i follow this tutorial to the end:  Could not parse the remainder: ': ""Y-m-d""' from 'post.date|date: ""Y-m-d""'If i leave  |date: ""Y-m-d""  off everything works. Any idea what i miss here?",True
+@Daidera91,2016-06-23T13:16:05Z,1,Thanks for those tutorials. I started with no knowledge about django and feel like i actually understand how it works now!,True
+@YiGene,2016-06-17T12:55:45Z,0,great!!  can you add another one with restful interface + angular js :),True
+@braindamage,2016-06-04T16:47:07Z,3,Sweet toutorial! Love the simplicity,True
+@prithis3214,2016-05-13T03:40:05Z,0,Thank you for the tutorial. I think i may have missed a step. At this point at the end of this tutorial if I do runserver I get error ImportError: No module named blog  could you help?,True
+@akhileshpips,2016-05-08T15:18:56Z,0,djeneric meow,True
+@ratneshpatidar2875,2016-05-04T02:46:28Z,0,"Hey!, Can we use query in queryset that can filter out the data I need from the database tables ? Ex: If my table has name, address, phone and email and I need to display only the records that have name='john' ?  Thank you.",True
+@KarthikRamurg,2016-04-21T10:29:39Z,0,"Mr. Dex. I added imagefield in models, the problem is when i run the server ""Operational Error""raises like :"" No_Such Column found"" Can you please help me with that?",True
+@ankitagupta136,2016-03-31T09:29:33Z,3,"Hi, @sentdex.. first of all thanks for the tutorials. I have one doubt. Is is necessary to use object_list in the for loop. Can we name it something else. And how is it magically getting data.  Thanks.",True
+@gtxghost,2016-03-28T20:49:03Z,1,Could you please explain how Forms should work in Django?,True
+@ngwarobbert8147,2016-03-19T03:47:27Z,0,I keep having this error: django.db.utils.OperationalError: no such table: blog_post,True
+@FedericoScheinerkor,2016-03-11T18:30:06Z,1,"listening to you at 1.5x speed makes ""Py files"", sound like ""pedophiles"". great tut so far, though. Thumbs up. Coming from Ruby & ROR, I keep looking for the MVC patterns and a bit more simplicity.The apps gathered up inside a website (container) is a pretty cool concept and a nice way of looking at it. (even though it's kind of annoying separate files for each app [static, and routes ... ]). Thank you and keep up with the good explaining",True
+@waynebrucewayne,2016-02-23T02:41:00Z,5,"Hi @sentdex thank you so much for posting these tutorials. I wanted to  ask you one doubt. In the file ""blog.html"", there is a for loop :- ""for  post in object_list"" . Here, it will be returning the objects of the  class ""Post"" right?   So, what if we have another class in our models.py, say, class ""Books"".  Suppose we created a ListView in our urls.py file for this class too.   So now, in the ""blog.html"" file, will it create a conflict in the for  loop? I mean which class's objects will be returned by ""objects_list"",  in the for loop ( ""for post in object_list"")?",True
+@shrimpsizemoose,2016-02-14T11:26:00Z,0,"Ha. Read the last two words in your  title as ""python7"" and thought to myself 'hmm.. I only heard of python 3 so far'",True
+@kendotkim9171,2016-02-05T07:20:28Z,0,MOOOOOOOORE!!   Great stuff though :),True
+@hugobossl8327,2016-01-29T19:09:09Z,0,more tutorials! :D,True
+@user-cb5yf2ho6w,2016-01-29T14:57:26Z,34,You are So Cool and I Watch your a series Video for more than two month.I just want to say Thank you.From my bottom of my heart.,True
+@ahsanshafiqchaudhry,2016-01-28T21:01:00Z,0,"I am sort of new to web development, but not programming. Django doesn't ""look"" like utilising MVC pattern, though it looks like views.py is/are actually controllers. And in this blog example, it seems there's no controller at all and, models and views are tightly coupled.  Great tutorials though!",True
+@bennis9283,2016-01-28T19:52:24Z,2,Great work :),True
+@Mjerjawi,2016-01-28T17:49:07Z,1,"Thank you, very informative and easy to understand, i'm really exited about this, what is the plan for this series are  you gonna stop with simple blog? i hope you go further because i cant get enough of your tutorials I'M HUNGRY!",True
+@techkenya6920,2016-01-28T15:46:12Z,0,Couldn't wait for this! Thanks. Following,True

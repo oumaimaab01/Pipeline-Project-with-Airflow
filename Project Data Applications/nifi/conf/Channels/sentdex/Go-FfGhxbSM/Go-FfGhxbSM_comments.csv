@@ -1,0 +1,82 @@
+author,updated_at,like_count,text,public
+@roadmonitoroz,2023-06-14T05:33:12Z,0,"It's a shame that python doesn't have a f unction like DIM  in old style basic. i.e. In basic you could go .... dim a$(100,10) print a$(47,1)  Basically DIM would initialize 100 rows x 10 columns of data that could be say 256 characters long [just a guess at the limit]. In other words 100 x 10 x 256 bytes allocated. This made setting up, addressing, storing so much easier in many ways Of course if you went over your array settings , you'd spit an error and crash most likely.   With formatting, I've sometimes written something in basic, captured the output then copy / pasted it across.  I was writing something that had 5 co-ordinates for each set of data and about 1200 sets of data. For this, it was much easy to go to basic and go.... a1 = read a$ a2 = read a$ a3 = read a$ a4 = read a$ a5 = read a$ print ""[""+ ""["" +a1 +   etc etc  data 3,4,5,3,2,6,6,6,6,4,3,2,2,0,5 etc etc  Thanks. Your video helped with multi dimensional lists",True
+@danilo6573,2023-01-22T17:54:27Z,0,I became here because an exercise i'm doing right now on LEt's Defend platform the historic of computer is a link to youtube and does come here,True
+@boaz411133,2022-11-15T11:16:20Z,0,Thanks It helps😊,True
+@setsunaPH,2022-09-25T12:43:01Z,0,"I'm new to programming and you sir have the best teaching method that I watched on YouTube,  unlike others and also my professor HAHAHHA THANK-YOU SIR!  - 1st year college student from Philippines :)",True
+@myintmyatpyaesone,2022-08-16T09:33:06Z,0,Bro looks like Snowden,True
+@johnmarkasheratmosferasino3239,2022-05-04T08:54:51Z,0,python program that will extract items from a simple list in a 3-d list using a while loop pleasee,True
+@EnglishRain,2021-12-11T16:49:36Z,0,"Thank you, this helped!",True
+@jobygaines9148,2021-04-22T04:33:42Z,2,This was hugely helpful for a project I was working on. Thank you.,True
+@marlonbrade9004,2020-10-05T00:23:12Z,0,You have same face as snowden.,True
+@TheNotoriousFonzy,2020-09-30T12:22:49Z,0,LISTCEPTION,True
+@stargate4847,2020-03-27T21:25:44Z,0,"Shit man, you look exactly like Edward Snowden",True
+@slickwillie3376,2019-12-07T00:39:48Z,0,"Thanks. Im learning python, and creating a billiards game. I want each pool ball to have a set of parameters expressed as a list. This will help get me to the point where I can automate the creation of the billiards balls. 😄",True
+@Ruhgtfo,2019-11-10T15:27:49Z,0,Snowden teachin Python XD,True
+@shami3966,2019-11-07T15:38:54Z,0,pointing his finger to the Screen LOL you can't see that.,True
+@maggie1899,2019-10-28T20:49:22Z,0,"Hi, is it possible for you to explain more on how to get something's index in the nested list? Thanks!",True
+@yankeeownz9980,2019-10-26T21:12:59Z,0,"This will show how to print each single value for a Three Dimensional List : #List - Next to each Value number (0,0,0) refers to the numbers you need to change within the []'s in the print statement threeDimensionalList = [[['Value 1(0,0,0)','Value 2(0,0,1)'],['Value 3(0,1,0)','Value 4(0,1,1)']],[['Value 5(1,0,0)','Value 6(1,0,1)'],['Value 7(1,1,0)','Value 8(1,1,1)']],[['Value 9(2,0,0)','Value 10(2,0,1)'],['Value 11(2,1,0)','Value 12(2,1,1)']]] print('print Three Dimensional List values: ', threeDimensionalList[0][0][0])",True
+@teisonedwards7111,2019-10-24T23:50:11Z,3,Alternate video title: List-ception,True
+@tixomoments4046,2019-10-01T18:06:09Z,0,how do you get the length of one of those lists inside the list,True
+@manojlucky7260,2019-09-07T04:45:10Z,0,it prints 6..isnt it?,True
+@EminoMeneko,2019-07-23T11:53:19Z,0,"I'm not so new to programming and not so new to multi dimentional lists neither. But python behaves very strangely to my code.   This is a sample: >>> tb = [[""""]*2]*3 >>> print(tb) [['', ''], ['', ''], ['', '']] >>> tb[0][0] = 0 >>> print(tb) [[0, ''], [0, ''], [0, '']] >>> tb[0][1] = 1 >>> print(tb) [[0, 1], [0, 1], [0, 1]] >>> tb[1][0] = 2 >>> print(tb) [[2, 1], [2, 1], [2, 1]] >>> tb[1][1] = 3 >>> print(tb) [[2, 3], [2, 3], [2, 3]]  It is crushing everything like it considers only the last index should be taken in account. Why is that ? I must say that the above code is for trial because I obviously tried my code with loops first.  The same kind of code works perfectly in Java.  package essais;  public class MultiDimTables {    public static void main(String...args){       String[][] tb = new String[10][2];       System.out.println(""Populating..."");       for (int i=0;i<10;i++){          for (int j = 0; j < 2; j++) {             tb[i][j] = ""[i: ""+i+"", j: ""+j+""]"";          }       }        System.out.println(""Printing..."");       for (int i=0;i<10;i++){          for (int j = 0; j < 2; j++) {             System.out.println(tb[i][j]);          }       }    } }  OUTPUT: Populating... Printing... [i: 0, j: 0] [i: 0, j: 1] [i: 1, j: 0] [i: 1, j: 1] [i: 2, j: 0] [i: 2, j: 1] [i: 3, j: 0] [i: 3, j: 1] [i: 4, j: 0] [i: 4, j: 1] [i: 5, j: 0] [i: 5, j: 1] [i: 6, j: 0] [i: 6, j: 1] [i: 7, j: 0] [i: 7, j: 1] [i: 8, j: 0] [i: 8, j: 1] [i: 9, j: 0] [i: 9, j: 1]  Process finished with exit code 0  Can someone explain to me what's wrong with my Python code or reasoning?  P.S. : Did some research. Got it. The way it works in Python sucks. Initialising the way I did is actually referencing 3 times the same list of 2 elements. Hence if you change any element of the same list, the ""others"" (which are actually the same) updates together. This sucks but once you know you'll be careful. How to proceed is like this: [[""""] * 2 for i in range(3)] Replace 2 and 3 by any number or variable if needs be.",True
+@yahyasheikhnejad1877,2019-05-20T16:03:52Z,0,"suppose we have a list like c=[ 1, [ 1,2,[3,4],[[5,6],[7,8,9]] ] ]. what is the fastest (easiest) way to access to element 9?",True
+@mlo9253,2019-05-13T18:02:43Z,0,Congratulation Dude! For the best material about Python that ever be on the youtube! You are awesome,True
+@fjdjzfhrsut8063,2019-02-12T09:45:19Z,0,thnx a bunch,True
+@Usammityduzntafraidofanythin,2019-01-29T03:09:06Z,0,"*Obligatory ""That you Ed Snowden?"" Comment*",True
+@darshan7771,2019-01-22T20:04:55Z,0,Can you use 2D lists in external text/csv files?,True
+@ishanstuff,2018-12-19T16:14:01Z,0,So this is what Snowden is doing after exposing the NSA.,True
+@karmayogiAIR07_IASOfficer,2018-12-15T04:09:48Z,0,can u plz give the real time of example  related to all  of  topic which help to realize all the things in the problem solve,True
+@mlaughlin70,2018-11-01T16:30:38Z,0,Thanks!,True
+@damienwilkok8933,2018-10-27T17:25:37Z,1,your the best thanks for help with my homework    thanks you have helped an awful lot,True
+@Xpegasu,2018-09-27T02:22:57Z,0,I don't like this video. Everything said here can be learned in less than a minute. I thought you were going to explain how to solve problems using this.,True
+@robindong3802,2018-09-10T04:19:31Z,0,"another great demo, thank you so much.",True
+@ahmedal-ebrashy3691,2018-08-10T15:19:38Z,0,Why did print x 1 0 0 printed 6,True
+@DragasGaming,2018-07-27T16:06:54Z,0,I saw what you did there,True
+@abdraoufx,2018-06-24T18:55:07Z,3,Now I know why you so familiar.😅 You look like Edward Snowden. Or you are his twin brother? Hmmmmm🤔,True
+@sumathir5600,2018-04-16T11:28:10Z,0,where is the output?,True
+@yannagirnyak6386,2018-04-06T23:44:22Z,0,"Yeah, camera behind you would certainly make more sense.",True
+@trickyabb,2018-03-04T17:27:30Z,0,"hey can you tell how to tell if the list has only ""int"" type values, where the list say for e.g. testList=[[],[1],[1,2],[0],[1,'a'],['a',1],[1,1.0],[1.0,1.0],(1,2)]",True
+@gnanendraprathi6872,2018-02-21T02:03:32Z,0,how to take user input of mutiples data types and append to the list,True
+@prasannakumar7035,2018-02-01T01:20:27Z,0,"hello, is adding and deleting the multidimensional list is same as normal list deletion and addition .",True
+@kursadturkmenoglu9593,2018-01-12T20:21:38Z,0,"bro, your are god damn genious, thanks",True
+@Buildings1772,2018-01-10T05:04:18Z,1,how do I append something to a list in a list?,True
+@SourceCode50,2018-01-05T18:58:31Z,0,"Here's my code for 2D list in python which would read no. of rows from the input :  empty = [] row = int(input())  for i in range(row):     temp = list(map(int, input().split()))     empty.append(temp)  for i in empty:     for j in i:         print(j, end=' ')     print('')",True
+@Kyle-fy1tb,2017-12-20T09:57:06Z,4,"1:20 ""Anybody see what I did there?"" Hah, it was hard to miss. I thought it was just a subconcious mistake until you did [2,5]",True
+@alexgomes9680,2017-12-15T19:37:37Z,0,Thanks!,True
+@evelinasliauteryte,2017-11-06T21:26:11Z,0,"Hello, I need urgent help. I've been searching all over the web an I either can't find a suitable explanation or it is too difficult to understand (i'm in the last yr of high skl). I need to write a programme where I create a CSV file and into it, a user can enter their name age and other details which will be stored in a 2d array (the student should be able to add more info to the end of their own array). This should also allow for more than one student to do this(=2d array).   I'm' trying with different variations such as   csvfile.append[[name1,age,eyecol][name2,age,eycol]...]   but I keep coming up with different syntaxes like no slicing or tupling or problems with str not int and so forth.  How can I import a 2d (or more) array into a CSV file??? -anyone???",True
+@UniBreakfast,2017-11-02T09:35:23Z,0,What way would you use to create 3D lists 80x50x3 if you need to create them very fast and they are generally empty (filled with None)? Is there some kind of buit-in or custom module you know for that? Thanks in advance.,True
+@Reazul07,2017-10-29T16:42:44Z,2,"Your explanations are great but it could have been better if you could just use unique combination of numbers for each of the brackets, as I am little confused right now. But got the basics though. Thanks!",True
+@britishsoldier1186,2017-10-22T11:11:03Z,0,I just created a 20 dimensional list :)    jk,True
+@britishsoldier1186,2017-10-22T11:08:19Z,0,"Wow  My teacher is very good at python and computers but when I asked about 2d lists he just said ""It's too complicated you need a lot of python background before you can do that "" and when I finally convinced him to teach me about it he did it in a way that I didn't understand at all. Then I watched this video and now I understand it perfectly.",True
+@sadnessfairytale101,2017-07-21T16:24:43Z,0,U need to undo the print (x[1][0][0]) to print(x) . To print your multidimensional list instead of it kept printed (6) all the time. Btw thanks for the video im a beginner,True
+@gabbel4103,2017-07-11T12:18:02Z,0,"Ohhhh those dimensions. Haha, though you were going to talk about matrix. Great video though",True
+@JediSteak,2017-06-24T23:30:24Z,0,"Your a life savior man, never ever take an online summer computer class, aint learning shit!",True
+@pettergasstrom8797,2017-04-15T10:50:15Z,3,What a pointless tutorial. Why would you ever manually write a multidimensional list.,True
+@timothyso7194,2017-04-11T15:37:16Z,15,"""otherwise i'm gonna cry""",True
+@hieudao6832,2017-03-29T10:28:09Z,0,"thanks you so much sentdex , it very useful !!!",True
+@bryliang,2017-03-17T14:58:24Z,0,"Is there any way to name the rows in a 2D array? Like instead of using the normal indices, I use like 2, 4, 6, 8?",True
+@luckster2473,2017-02-05T07:17:24Z,0,Dang you kinda look like Edward Snowden,True
+@benjamind.halford3987,2017-01-17T03:28:39Z,0,"Good tutorial! One recommendation, rather than referring to list elements as ""the zero'th"" or the ""oneth' element, which I guess is perfectly correct, it'd perhaps be easier to state ""the value at index 0"". At least that way, you sound more like a computer! :)",True
+@thedananti,2017-01-07T18:30:22Z,0,"don't really understand why the result is 6. my method of thinking ->[1] chooses the first set of lists out of the 3 [0] chooses the ""0th"" out of those two sub-lists, which would be 5,7 and another [0] chooses 5.  Where is the mistake in my thinking ?",True
+@Rapsniperr,2016-12-07T14:37:16Z,0,"Hey,   I have got a 2d list lets say : [ [ ""X"" , ""X"" , ""O"" ] , [""O"",""X""] ]  How can i count the amouts of X in the list?",True
+@luckies6945,2016-11-30T10:12:05Z,4,"Cool helped me ! But it should look like below. Your third line [7,2],[2,5] is in the second dimension. And print [2][0][0] would give an error. I tried it ;)  x =[  [[5,7],[6,6]],  [[6,6],[7,8]],  [7,2],  [2,5], ]",True
+@fatmaelsharkawy5466,2016-11-22T08:44:36Z,0,I have a list of 700000 numbers. I need to randomly generate 10000 pairs of number from this list. how can I do that using python,True
+@anushareddy8332,2016-11-18T11:31:17Z,0,"m=[1,23,[34,56,[67,78],[89,90]],[3,4]] can you please convert this multi dimensional list into one list",True
+@brandonvolesky9867,2016-10-01T07:30:14Z,0,Really helpful! Thanks!,True
+@RREDesigns,2016-08-21T15:13:49Z,0,"Can I declare lists as variables and then make the bigger list comprised of those previously declared lists? like big_list = [list_1, list_2, list_3] I will actually test this in a while, but I think it would be interesting to leave it in the comments section. :D",True
+@hiteshvaidya3331,2016-08-06T15:04:33Z,3,how to accept a 2d array of nxn order from user?,True
+@Orange-so4hv,2016-08-05T13:13:37Z,1,try this: def func(*args):         print(list(args))  then you can manipulate args while it's a list :),True
+@jessicas2978,2016-07-24T21:42:08Z,1,That's very helpful to understand. Thank you!,True
+@sarashaikh5614,2016-07-21T12:52:14Z,1,this video's are very useful to me,True
+@chihabgoku,2016-07-10T14:56:01Z,9,"hi, can you please make a tutorial on how to create a 2D array using for loops and two inputs defining the 2 dimension? thank you",True
+@whyarealllnamestaken,2016-02-06T17:31:58Z,0,I could not conceptualize this at all! Thank you so much,True
+@PrajeshDrey16,2016-02-02T18:15:59Z,80,Edward Snowden (?) Great Tutorial :),True
+@Thisisminecraft98,2015-12-16T09:29:23Z,80,'As deep as you want' Thats what she said.,True
+@Daniel_Gomez26,2015-12-09T20:25:14Z,27,"youre better that my teacher sometimes, you know who to explain this",True
+@georgeparekkadavil2711,2015-04-20T07:06:36Z,0,Hello..may I have your email address so that i can ask you questions if in doubt. This would be really appreciated,True
+@wayneaskey,2015-03-16T12:07:04Z,0,How do you split a list into lists?,True
+@TheGamezAM,2015-02-26T18:52:21Z,14,I saw what you did there.,True
+@aminimohammad,2014-12-21T13:18:53Z,0,thanks ur awesome !,True
+@sonic2kk,2014-07-18T14:42:10Z,0,"As Python programmers, should we not be trying to comply with PEP8 for our standards? PEP8 recommends a similar style to what you used in the video. Personally, I was comfortable without PEP8 syntax before discovering it or looking into it a lot, but now, I need to make ALL THE CODE PEP8 complaint XD I know some Python programmers don't like PEP8 (and I know some people, but not a lot mind you, that refuse to even use Python because of how it suggests PEP8 and how disgusted they are at the Zen of Python), but I really like it.  I didn't know Python _had_ multidimensional lists until now. Great video! Thanks for sharing!",True
+@Backtrack4Sec,2014-07-12T13:46:37Z,0,"clever man !!! thank you again, again and again  ^ ^",True
+@psych0fl3x,2014-07-10T19:34:58Z,0,Can you make a video on how you can make a directory with in a directory. Thanks,True

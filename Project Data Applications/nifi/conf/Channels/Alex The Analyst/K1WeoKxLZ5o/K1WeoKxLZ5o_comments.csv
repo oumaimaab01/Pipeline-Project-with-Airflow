@@ -1,0 +1,137 @@
+author,updated_at,like_count,text,public
+@RonWeber2011,2024-05-23T04:25:02Z,0,"Have you done any other Microsoft sql server classes or just the MySQL classes? Essentially where should I continue on with sql after you beginner, intermediate and advanced videos?",True
+@rheannalamph3220,2024-05-20T00:05:08Z,0,I'm still a little fuzzy on why you would use CTE vs just creating a subquery??,True
+@martinberger365,2024-04-05T16:47:55Z,0,"CTE is really a breaking head on SQL, it's kind of the only thing I can't really manage well.",True
+@docusmonde7142,2024-03-26T08:29:09Z,0,Cte's is like virtual tables but vuartual tables does exist unlike ctes's,True
+@isabelapradom,2024-03-14T17:55:24Z,0,"I keep getting an error when running this query.  ""Msg 102, Level 15, State 1, Line 9 Incorrect syntax near ')'."" Can someone please help me out? I have looked it multiple times and I don't see what I'm doing wrong. Thank you",True
+@MarlonJayManuel,2024-03-01T15:07:52Z,0,"This video is invaluable! I’m in a beginner without any coding experience, hence I’m currently in a community college. The prof and book’s explains lesson so complex and out of touch to beginners that it’s hard to visualize, unlike this simple 3.5 min example. Appreciate this",True
+@kentjumalon7320,2024-02-26T15:24:47Z,0,"For those who want to copy paste....   WITH CTE_Employee as  (SELECT FirstName, LastName, Gender, Salary , COUNT (Gender) OVER (PARTITION BY Gender) as TotalGender , AVG (Salary) OVER (PARTITION BY Gender) as AvgSalary FROM [SQL Tutorial].dbo.EmployeeDemographics as emp 	join [SQL Tutorial]..EmployeeSalary as sal 		on emp.EmployeeID = sal.EmployeeID WHERE Salary > '45000' )  also noticed that instead of having "".dbo"" you just input "".."" and it had the same result. Thank you!",True
+@OwlEmperor,2024-01-31T06:57:36Z,0,I attempted to alias Salary to S in the CTE but it didn't work. IDK y but I just wanted to mention it,True
+@SambhabPrasad,2024-01-27T14:51:48Z,0,"Hey Alex, I think you have not uploaded your video about sub queries. Hope you see this comment and upload it. I love your videos. Hope to see more of your content. 🙂",True
+@Thankyouobamabasedgod,2024-01-03T21:03:48Z,0,Im Confused about why we need WITH,True
+@hamzakatim5348,2023-12-31T15:19:31Z,0,"For people who work on mySQLWorkbench , this is how we concatenate two columns : SELECT FirstName,LastName, CONCAT(firstname, ' ', lastname) as full_name FROM employeedemographics",True
+@monicakherajani5840,2023-12-26T10:57:30Z,0,Keep up the good work,True
+@georgemiyahara6576,2023-12-25T23:17:51Z,0,Very comprehensive,True
+@user-en2hr5wy1k,2023-12-16T21:40:58Z,0,do you have an email where we can ask you some clarifying questions?,True
+@kanagajeyaraj4603,2023-12-02T07:25:51Z,0,Then why we using CTE it's just like   SELECT,True
+@darnelaboukandou858,2023-11-20T14:33:02Z,0,why is 45000 considered as a varchar in that CTE?,True
+@darnelaboukandou858,2023-11-20T14:29:32Z,0,How come the average salary is over partition by Gender?,True
+@94Seraph,2023-11-17T03:23:49Z,0,Your explanation is so clear and very easy to understand regardless of ppl's background. Simply saying thank you is not enough to express our feelings.,True
+@JenniferHawes,2023-11-09T23:25:40Z,0,"This is my third time learning about CTE's but I'm still struggling to understand the purpose of them. 😟 When is it more beneficial to use a CTE vs subqueries, HAVING statements, or PARTITION BY?",True
+@user-hp9jg5vr6k,2023-11-07T12:56:18Z,0,Great videos and playlist Alex. They have really helped me learn SQL at a pace I didn't think was possible. While still being interesting and engaging.,True
+@muslimbekabduganiev7483,2023-10-11T09:33:45Z,0,"With ""SELECT INTO TEMPORARY <table>..."" would make it possible to use the temp table in more than one SQL statement in one transaction.",True
+@komolafeoluwatomisin9679,2023-10-03T14:15:49Z,0,Very helpfullll🫱🏽‍🫲🏻🫱🏽‍🫲🏻🫱🏽‍🫲🏻👍🏽,True
+@MiningForPies,2023-09-20T15:09:27Z,0,CTEs only stay in memory if there is room for them. With enough rows / memory pressure they will spool to disk same as any query.,True
+@ManarTheScientists,2023-09-19T07:22:04Z,0,So I can do what ever I want and it doesn't effect the original database?,True
+@minhquano9268,2023-09-18T04:52:28Z,0,Thank you so much,True
+@justmedidi,2023-08-25T13:03:56Z,0,"following everything but it appears that the syntax used in the video is now outdated? unfortunately, i cannot follow along well because i keep receiving errors..",True
+@jenniferdzakamani772,2023-08-14T23:31:24Z,2,The easiest understanding of CTE's I have ever seen. Thank you Alex,True
+@CCl00l,2023-07-21T13:25:35Z,0,CTE is amazing,True
+@1689JeffChavez,2023-07-19T04:21:24Z,0,On my journey through the boot camp...  Advance!,True
+@loisbrignoli6025,2023-07-08T15:02:34Z,0,thanks,True
+@AlexDeeish,2023-07-07T14:27:35Z,0,I am doing exactly what you are doing however it does the gender count correctly BUT not the average Salary. My average salary column returns exactly the same values as salary column :(,True
+@nikunjgorani8964,2023-06-29T08:20:18Z,0,it is like inheritance of programming lang,True
+@akankshamishra1139,2023-06-13T09:43:26Z,0,"I really like your content and I'm a Huge fan of your broad smile :D I have a request, could you please make few more videos on Advance SQL featuring Rank, dense rank, aggregate functions as window functions etc. I need to understand in what scenario we can use which function accurately.",True
+@boiquyenluu3643,2023-06-02T00:07:24Z,0,"Hi Alex, How are you? I am following and practising the 'CTE' statement, but I get the message as 'invalid object name 'CTE_Employee'. Can you tell me where I am wrong? Thanks.  These are the queries: with CTE_Employee as (select FirstName, lastname, gender, salary, count(gender) over(partition by gender) as totalgender, avg(salary) over(partition by gender) as AverSalary from EmployeeDemographics as Ed join EmployeeSalary as Es  on ed.EmployeeID = es.EmployeeID where Salary > '45000') select * from CTE_Employee",True
+@gdragon3938,2023-05-24T05:53:00Z,1,"you are really a great person, thank you so much",True
+@bmiller949,2023-05-22T16:31:13Z,0,"This is finally the ""hello world"" app from which I can understand CTEs.",True
+@bansarigaloria6149,2023-05-17T11:32:57Z,0,Thank you Alex for creating such helpful series...more power to you👍,True
+@julierenee6668,2023-05-14T02:58:53Z,0,"This would be more helpful with a few use cases, bc it looks like there's no point to this when temp tables exist... right? When would CTEs be better than temp tables?",True
+@henrifortier8621,2023-05-09T01:32:08Z,0,I'm not sure to understand why would we use CTE over a sub query ?,True
+@rozakhan2811,2023-05-05T14:05:25Z,0,My cte employee is showing error object invalid what does it means,True
+@MrRono19,2023-05-05T09:56:25Z,0,did you really just copy and paste the whole thing from another video? how is this an Advanced tutorial if you don't show all the steps?,True
+@loyaltyf278,2023-04-27T06:15:03Z,0,"so, it's like a function, right?",True
+@pnjwck,2023-04-16T08:33:13Z,0,Can you use the CTE to do joins or unions before your actual end query?,True
+@anthonyd9043,2023-04-05T21:13:15Z,0,Thank you!!,True
+@bestlife5298,2023-03-25T22:47:14Z,1,You are very loyal . I really respect u because you give us a chance to love our dreams to become a data analyst,True
+@kanyongachouella2218,2023-03-23T07:50:48Z,0,Thank you for this,True
+@datadocsdailydose2,2023-03-22T15:45:38Z,4,"OMG! Thank you SO very much for this simple tutorial. You are the only person who said, take your existing code and simply encase it all into the WITH clause and then SELECT * the clause. I had spent hours chasing deadends until I stumbled onto your tutorial. Many, MANY thanks!! 😊",True
+@aunk05,2023-03-21T19:42:36Z,0,"I just did this in DataCamp, and, although I completed the exercise OK, I felt that I didn't really get it. Now I feel that I do.",True
+@oseikwamejones9019,2023-03-12T19:12:15Z,36,"Two years ago but still educative. I appreciate you, Alex.",True
+@kelthekonqrr,2023-03-07T18:40:19Z,2,"Slow and steady, it's all making sense, did some practice questions on Stratascratch and couldn't get past. But now I think once I'm done with the Intermediate Section I should be able to take on more challenges.",True
+@MouzamAli-nl3uf,2023-03-07T07:02:09Z,0,"hey man you  doing a great work, thanks for sharing your knowledge",True
+@queensam6868,2023-02-22T21:16:27Z,1,Great Video,True
+@samuelraj5613,2023-02-11T05:52:35Z,0,Done,True
+@ashtagging,2023-01-31T17:12:04Z,0,Perfect veideo! Was very clear and efficient video for understanding CTE's,True
+@thebudgetdaddy918,2023-01-26T22:37:46Z,0,CTEs are the best. So many use-case scenarios for this.,True
+@Baymen8,2023-01-16T03:28:32Z,9,New to learning SQL through your channel and it has been great. One question I have is when would be an appropriate time to use CTE's? Feel like I get it but unsure of when exactly it would be used,True
+@TheZiPUKAsSs,2023-01-14T13:49:51Z,1,"Code that he pasted in:  WITH CTE_Employee as ( SELECT Firstname, lastname, gender, salary, count(gender) over (PARTITION by gender) as totalgender, avg(salary) OVER (PARTITION BY gender) as avgsal FROM employeedemographics dem join employeesalary sal ON dem.employeeid = sal.employeeid where salary > '45000' )",True
+@loose.electricity,2023-01-13T00:01:10Z,11,I know this a bit old but I cannot wrap my head around a use case for these ; I'm sure it will come to me eventually lol.  Wonderful series . I've been really intimidated by a couple of these concepts up until now.,True
+@mahmoudsaeed1892,2023-01-04T21:19:00Z,0,"I keep taking courses on coursera and datacamp and I understand nothing and every time I end up understanding concepts from your videos. you are amazing, keep it up!",True
+@OmniumOwl,2022-12-21T01:51:16Z,0,"Great video! Do you find that performance is better on a CTE or a temp table? Let's say my underlining dataset is 6 million rows. If I wanted to do the ""heavy lifting"" and break it down to a more manageable size to then query off of would a CTE or a temp table be better?  Thanks",True
+@iShaymus,2022-11-20T19:14:37Z,7,"As an enterprise data analyst I use CTEs, subqueries and temp tables regularly.  However I have never really looked into the benefits from a performance perspective of using one over the other.  It would be an interesting video I think.",True
+@pw4645,2022-11-17T16:42:48Z,0,"What does this mean ->  "" OVER (PARTITION by Gender) "" ... ??",True
+@mazimercado,2022-11-17T04:37:24Z,0,Expected this to be complicated. Grateful Alex that you've simplified a seemingly complex query. THX!,True
+@tomilolaomowumi7156,2022-11-05T22:17:55Z,0,Here to mark today's attendance,True
+@adisonfryman144,2022-10-14T16:03:35Z,0,Hey Alex I'm sorry I'm confused. Is this the first in the Advanced SQL Tutorial set? It seems to suggest I should be mastering the TEMP TABLES and the SUBQUERIES.,True
+@pranavramamurthy5394,2022-10-05T14:12:25Z,0,AS AN FRESHER IN DATA ANALYST MUST I ALSO KNOW CTE WHAT ARE THE OTHER TOPICS MUST I KNOW.,True
+@artemkeller2571,2022-10-05T09:32:21Z,0,Hey! What are those double points after SQLTutorial ?,True
+@qubit2534,2022-09-11T11:31:56Z,0,"Thanks for sharing this Alex. It seems you are using the MsSQL Server IDE. In the PgAdmin IDE, might there be a way to join multiple CTE tables ?",True
+@arbontiglao3515,2022-09-03T04:35:55Z,0,"Hi Alex! Please correct me if I'm wrong; CTEs are the same as a ""function"" in Python. Correct?",True
+@romanvasiura6705,2022-08-31T04:45:58Z,0,Thank you!),True
+@Thamer429,2022-08-10T09:30:45Z,0,"It was really useful, Thank you so much ❤️",True
+@dylanbui3107,2022-07-20T19:39:56Z,1,Amazing tutorial! So easy to understand and straight to the point. Thank you!,True
+@mfundohg958,2022-07-16T11:35:30Z,0,Thanks.. 👌,True
+@allenpee85,2022-05-27T04:40:35Z,0,Could help to explain in what scenario we could use CTE? When we face.....?,True
+@allenpee85,2022-05-27T04:39:04Z,0,"The way you explain open my mind than reading from the website elsewhere, very easy to understand, thanks",True
+@krishnabarfiwala5766,2022-05-23T09:44:45Z,2,A3:15 what does it mean its gonna work only after the direct CTE I have made?,True
+@zeniawaters334,2022-05-10T18:09:12Z,1,Anyone know which video he's referencing where he built that query that was added into the WITH statement? Curious about the 'OVER ( PARTITION by' statement.,True
+@eddyedtv,2022-04-25T17:40:18Z,0,"You explained this very well and simply! Great demo, thanks",True
+@hmahsoub,2022-04-05T21:27:50Z,1,Thank you for a great example and lesson. Still a bit confused about how aggregate functions are used without a group-by clause.,True
+@MohannadAlhariri,2022-03-29T06:16:20Z,1,"so using Temporary Table is more powerful than CTE, because it still stored during the session, right? is there any benefits for using CTE over temp Table ?",True
+@bangnguyen8040,2022-03-24T00:35:27Z,1,Thanks for your hard work Alex!,True
+@dhanmagar7985,2022-03-13T11:41:26Z,0,I can't thank you more Alex.,True
+@marjannikolic2224,2022-03-05T06:35:14Z,0,Did he add Toby? I dont have him in results when i run my query,True
+@ExcelTutorials1,2022-02-22T02:41:57Z,1,"This is so dope, thank you!!!",True
+@philipshisbey581,2022-02-12T02:11:09Z,0,I find this is a very poor tutorial compared with the other two CTE videos I just watched.  Those show simple examples of how CTEs can be used to solve everyday querying tasks.  This video has none of that.,True
+@aad1412,2022-02-09T23:19:42Z,0,"I have a very basic question, why not create different tables? Why would CTE have an advantage?",True
+@karaleaedmisten8209,2022-02-04T13:18:25Z,6,Thank you for posting. All of your videos have been great to support my learning through a Data Analysis boot camp. The way you explain concepts simplifies even these more complex concepts in a way that makes me breathe a sigh of relief 🙂,True
+@ralphumo7152,2022-01-22T15:06:16Z,0,Very useful when you want to query a calculated column,True
+@ektachopra3578,2022-01-17T06:41:22Z,0,Hi Alex Can you help me to find a data analyst job?,True
+@jaberabedin5487,2022-01-12T14:10:08Z,2,"Hi Alex! Awesome stuff as per usual <3 I'm coming here after finishing the Intermediate SQL Tutorial series, and I don't understand some of the jargon in this video. Is this a continuation from the Intermediate Series? Also, quick question: what do ""temp tb file"" and ""sub query"" mean? Thanks so much as always!!!",True
+@MrNummularius,2022-01-09T21:24:58Z,0,Thank you man,True
+@aguman,2022-01-03T17:31:40Z,0,very useful thanks,True
+@octavioramirez5941,2021-12-23T10:57:27Z,0,Where can I find data? The Office!,True
+@shyamss2338,2021-12-18T00:58:39Z,0,So cte are basically instances of a function in terms of python? We can call the cte any time but right after we have created them. Correct?,True
+@jonathanbrotto7278,2021-12-16T14:40:14Z,1,Such an abstract subject easy to understand.,True
+@massimilianoaffinita8015,2021-11-18T08:23:10Z,0,Thank you very much for the video. I have a question: why is it necessary in the where statement in the CTE to write the number betwenn ''? Thanks in advance for trying to clarify!,True
+@sidharthkoparde9183,2021-11-09T22:27:56Z,1,Couldn't get any easier explanation than this!!,True
+@Abandex369,2021-10-16T01:19:47Z,1,Thanks 👋🐱👍,True
+@diegosuareznovaes1683,2021-10-13T03:05:41Z,0,"Alex , First of all I want to say thank you. Thanks for all the work that you do. It’s amazing. I have a question: I’m creating my resumee/CV, and I want to know if I should add SQL as a skill after doing your tutorials. (The same goes for Tableau series of videos) . I’m also doing the Google Certificate Course, but it will be enough for calling me as skilled in SQL/Tableau after watching your tutorials?  Thank you again!",True
+@aliyusifov5481,2021-09-30T01:59:15Z,1,"Thank you so much for the comprehensive tutorials Mr.Alex, really helpful!",True
+@master-azazel,2021-09-20T06:28:48Z,0,this will help me in my exam on the morrow,True
+@syaoransakura8839,2021-09-17T13:46:07Z,0,I already finished intermediate series of sql. I am at this series now. Your explanation about sql just great,True
+@tableaujedi,2021-09-15T16:11:22Z,0,Thank you,True
+@gauthamambethkar4483,2021-08-29T13:43:55Z,2,"Hi Alex, Just wanted to know what all topics in SQL must data analysts know? Is it enough if we go through your easy medium and intermediate SQL playlist? By the way your videos are awesome",True
+@akhilarsharma,2021-08-17T23:42:37Z,115,"I might be a bit late for this, but Alex you are doing such an amazing job. I'm an absolute beginner at SQL with no coding background. I have already gone through beginner, intermediate and advanced SQL tutorials in the last 3 to 4 days. I cannot thank you enough for making this so simple and easy. Thank you!",True
+@m.vineeth9724,2021-08-09T04:16:05Z,1,Simple and to the point explanation 💯,True
+@sreerams2677,2021-07-16T12:11:00Z,0,"Hi Alex, after applying CTE we get some data right!?, can we store that data into a new table? Is this possible?",True
+@abuzarabbas7132,2021-07-12T13:23:54Z,1,"Great stuff Alex, it was taught in a comprehensible way. I want your advice that how to actually retain SQL syntax. Should I go through lectures and practice along with it. Or just finish entire module and then take up projects. Since there are too many commands and its really difficult to recall them all the time. The same issue is happening while learning Pandas/Python. Really difficult to recall exact command/syntax. Appreciate your assistance.",True
+@amitchakraborty6214,2021-06-21T19:13:37Z,4,"Thanks Alex. This is what I was looking for. Done with all your tutorials. This is some quality stuff out there in the YouTube for SQL. If possible, please upload more on advance SQL topics. 🙏",True
+@mohamedsadhamhussain745,2021-06-16T15:59:08Z,0,Ur videos of SQL is enough for data analyst qualifications or not pls reply it's my life broo,True
+@AmanyEzzat,2021-05-21T21:59:24Z,0,"Thank you for refreshing my memory about that, you have a great way to simplify things! Can I get the database, please?",True
+@9351045,2021-04-27T15:34:01Z,2,"Hey Alex...much appreciated about the video and content you teach to the community. Am waiting for your Portfolio project series, which will be much helpful in proceeding further. Thanks much. Cant thank you enough :)",True
+@HenryKpano,2021-04-20T16:21:06Z,0,great stuff,True
+@kiriakosdimtsis1016,2021-04-15T22:47:41Z,1,"Hey Alex, really helpful video. So the Udemy course you mention in video info (SQL for Data Analysts (SSMS)) would be suitable to learn not only basics SQL but also some more advanced?",True
+@stockmaster6620,2021-04-10T20:59:36Z,2,I left SQL ten years ago.but needed a refresher today. This was useful,True
+@claramyongheechoi3557,2021-03-29T21:34:57Z,1,"Thank you Alex! This is very helpful. Are you planning to create Python training videos in the near future at all? Your way of teaching is very clear, and helpful, so I thought it will be great if you could create some Python beginner videos for data analysts! Thank you!",True
+@dmitryvlasov931,2021-03-18T05:11:46Z,0,Angela says hi.,True
+@bobsquares9701,2021-03-09T04:55:39Z,0,Is this basically a derived table?,True
+@isimioyekunlemarktaiwo3643,2021-02-23T07:41:11Z,6,"thank you for doing this tutorial series, it was quick, comprehensive, and put me up to speed on my knowledge of SQL..you need more subscribers and you just got one today...again thank you.",True
+@Tuuuuusssjjjjjjnrnfnnfnfn,2021-02-22T16:59:37Z,6,"undoubtedly I am so ecstatic to make it till here!!! :)))) Alex, I am just loving your tutorials and now want to practice and test myself! please suggest to me some assignments I can work upon to polish my SQL skills!  edit: and yes..thank u❤ so much for connecting with me through linkedin. To be honest, I really need ur tips as u are already working as The Great Analyst (my dream profession!😊)",True
+@harnet3391,2021-02-06T02:23:24Z,1,Can you add primary key on CTE?,True
+@berknoyan7594,2021-01-21T14:14:23Z,4,"Best video about CTE, even put important points about CTE in 3 min video not just implementation. fast and to the point. Thank you Alex.",True
+@khoapham8184,2021-01-03T09:04:01Z,1,"When you first learn through cousera udemy, did you take notes a lot? What method did you use to study?",True
+@regs_j,2020-12-25T15:21:42Z,2,"Question!  When we use the select statement at the end of the CTE, so say if we have CTE.Column1, CTE.Column2 etc will the query become slower? I read that each reference to the CTE name will cause the query to re-run?",True
+@veronicab2096,2020-12-14T03:33:35Z,0,I like these short tutorials. Keep them coming.,True
+@moisesdiaz9852,2020-12-10T20:14:30Z,1,Amazing content!! :D,True
+@vaibhavsingh8877,2020-12-10T15:47:01Z,25,I was waiting for the SQL series to be continued after completing intermediate SQL tutorials. I am so glad you made it. Thank You! Keep Growing😊,True
+@chethanbr5894,2020-12-10T08:57:56Z,1,nice names :),True
+@devanshikharat9840,2020-12-09T17:44:00Z,1,What is the use of NLP with python ?,True
+@AndrewMoMoney,2020-12-08T18:54:01Z,8,"It's unCOMMON how helpful these videos are, Alex",True
+@Snipaa,2020-12-08T18:48:52Z,1,"Hey man I’ve been acquiring analyst skills for a few months now and received some certifications, but I’ve haven’t gotten anywhere with getting entry level data analyst interviews, can you recommend maybe another job as a first step to becoming an analyst?",True
+@pana71,2020-12-08T16:29:36Z,12,Started watching this channel knowing nothing about data analysis/science. Did someone online courses on SQL and now I can actually keep up with videos like this. Feels good man,True
+@lemontea000,2020-12-08T15:47:16Z,1,This is a really helpful information but I can't seem to use it in MySQL,True
+@mohammedbouchcoucha890,2020-12-08T14:29:09Z,1,"Hello Alex, great video as usual. I have a question for you. Are online certificates from edx, coursera and udacity worth it? and which of those 3 is better and and has more credibility in real world?",True
+@JW-pu1uk,2020-12-08T12:32:15Z,10,This is very informative! My question is: in what business scenario could/would this be applicable? I'm a bit lost in that regard. Thanks!,True
+@arcaneknight9799,2020-12-08T12:02:25Z,1,"Would you say that Python is more difficult to pick up than SQL?  Hope your day goes well, Alex!",True

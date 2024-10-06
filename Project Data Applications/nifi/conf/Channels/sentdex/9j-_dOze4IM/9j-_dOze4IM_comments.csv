@@ -1,0 +1,161 @@
+author,updated_at,like_count,text,public
+@fuba44,2019-09-25T16:27:57Z,147,"So.. You are testing on your training set, would explain the 97+% accuracy?",True
+@margishah9995,2023-08-28T16:56:29Z,0,"Amazing series. Wonderfully explained. I have one question, where do we mention net.parameters(), like weights ad biases of all the layers?",True
+@qualimania,2023-05-16T19:23:33Z,0,"I wanna run at him, and then hug and kiss him! Thank you so much for your tutorials! They are amazing!",True
+@lolguy91wastakenbyanidiot,2023-01-22T14:41:31Z,0,Im pretty sure this is outdated,True
+@HarshitSingh-tg9yv,2022-11-01T14:42:41Z,0,17:36 loss.backward() is inside the for loop of batch which means we are back propagating the loss of only one particular batch at a time. Shouldn't we sum the loss for all batches and then back propagate?,True
+@luuan1539,2022-06-05T12:04:36Z,0,how about BERT instead of RNN?,True
+@rbaleksandar,2022-03-24T14:39:44Z,0,It's a first for me seeing the torch.no_grad() LOL  In my opinion using net.train() and net.eval() is better since it saves me some extra indentation plus I know exactly the spot where the training ends and the evaluation starts (e.g. can use search field).,True
+@jolotolentino2298,2022-03-11T13:49:21Z,0,Odd enough .train() and .eval() made a significant impact during my out of sample testing. But I can also attribute that to my referencing to old boiler code,True
+@benjaminfindon5028,2022-01-10T05:49:14Z,0,can deep learning train on annotated examples. e.g. theres no images .jpg files theres just a csv file with data in it (numbers and categories) can a deep NN train on this or is it nessasary to have the images as well?,True
+@neroandjohn4493,2021-12-22T19:33:35Z,0,"hello, can someone explain why did we write torch.argmax(i) == y[idx] at 22:06?",True
+@r.alexander9075,2021-12-15T21:40:50Z,1,"Thanks for the video first of all. Furthermore, I think Adam is an optimizer which uses both Momentum and RMSprop. RMSprop in itself already does some form of decreasing of the learning rate. Why the need for another (7:35) learning rate decay method? Isnt this decay strong enough by itself (especially when using correct parameters) ? Would love your thoughts on this, thank you.",True
+@jesusantoniososaherrera2217,2021-11-24T03:02:36Z,0,Super cool explanations!!,True
+@hackercop,2021-10-17T17:05:31Z,0,Its amazing how flexiable pytorch is.,True
+@amaanattar7698,2021-10-07T15:11:33Z,0,Can someone explain why i'm getting self error in net.parameters(),True
+@oguzynx,2021-09-19T06:16:00Z,0,"could you please show it in a normal .py file so we can connect all the code in our mind. Because we understand the concepts but when it comes to connect the dots, it is getting a mess",True
+@UnrecycleRubdish,2021-09-15T00:38:37Z,0,"You keep saying ""there's probably a better way to do this"" so I don't understand why you would show us the  non-best way to do something...",True
+@arindam96,2021-08-31T18:56:11Z,0,Just finished all the 8 videos in this playlist. Loved it. Hope you make more of these pytorch videos.,True
+@henryblanco6651,2021-07-19T13:14:05Z,0,"Hi guys, ... this tutorial is really good!, I have a lot fun learning DL with python. Thank you so much @sentdex",True
+@souravdey1227,2021-06-28T02:52:06Z,0,I have a AMD RX580 8GB GFX card. Is there anyway I can use the cores on that card. I don't have cuda. I see AMD has recently come up with ROCm. But not much resource on youtube on how to get started. At least not as clear as your videos. And please don't suggest Docker. Too much trouble.,True
+@jaredcleghorn,2021-06-17T19:03:53Z,0,"Anyone getting this error and know how to fix it? ""RuntimeError: Trying to backward through the graph a second time, but the saved intermediate results have already been freed. Specify retain_graph=True when calling .backward() or autograd.grad() the first time."" I tried using ""retain_graph=True"", but I still get the error.",True
+@whycurious6754,2021-05-10T03:17:05Z,0,"The loss functions, by design, are convex, right? So the local min should always be global min, right?",True
+@unknown3158,2021-04-09T13:55:29Z,0,"So when talking about cheating, aren’t you yourself kinda cheating without even realizing? You are testing the accuracy on the trainset which doesn’t reflect the actual accuracy. I thought it was kinda funny because it is exactly at that moment that you mention it. Either way, great tutorial and surprisingly easy to follow. In most tutorials you get bored midway but that is not the case with yours.",True
+@raspberrypi2430,2021-03-13T02:40:40Z,0,12:08 I feel targeted......,True
+@shreyjoshi4891,2021-03-09T08:52:57Z,1,"why are you writing net(X.view(...)) instead of net.forward(...)? More surprisingly, how is it actually working?",True
+@donbanan,2021-02-28T01:36:12Z,0,I gave upvote for Paint chart alone <3,True
+@WarpedCosmologist,2021-02-19T13:55:17Z,0,"This may be a dumb question, but say I am coding with a basic text editor, and just running the script through the terminal each time, do the weights and biases get stored somehow? Or m I actually training the network each time I run the script?",True
+@Rajjain_,2021-02-19T07:43:14Z,0,"I am getting 99.1 test accuracy, only modified learning rate to 0.0001 because 0.001 was overshooting",True
+@filtrtrhlik5909,2021-02-09T16:58:47Z,1,Your tutorials are just sooo good,True
+@ozziejin,2021-01-14T04:09:51Z,0,is log_softmax + nll_loss = cross_entropy? Thanks,True
+@priyankrajsharma,2020-12-15T14:15:28Z,1,i have seen people also use optimizer.zero_grad() instead of net.zero_grad(),True
+@bhavyajoshi9857,2020-12-11T11:22:39Z,0,If anyone of you did not got how that -1 came in view(). Read this link..  https://stackoverflow.com/questions/50792316/what-does-1-mean-in-pytorch-view/50793899,True
+@0x80O0oOverfl0w,2020-11-26T04:02:49Z,1,"When I call print(loss) I always get back tensor(nan, grad_fn=<NllLossBackward>) what am I missing? I've checked my code a couple of times and everything looks correct. It worked the first few times but now I'm always get nan back. I've tried rebooting, and deleting the MNIST directory but still getting back nan. Any suggestions? Running this on a Jetson AGX w/ Jetpack 4.4.1.",True
+@mangomilkshakelol,2020-11-23T06:47:47Z,1,"law of diminishing return, the economics, lol",True
+@ShermanSitter,2020-11-07T05:22:13Z,0,I've created 2 test files. Jpg 28x28. How do I use this model to test new data? How do i run these images through the network?,True
+@tudor6210,2020-10-27T15:40:21Z,1,"I recommend using this approach for counting correctly identified samples: correct += torch.sum(torch.argmax(output, dim=1) == y)",True
+@Andrew6James,2020-10-03T19:03:05Z,1,Where was the 'Forward' method used if anyhwere? We defined it as a method of the class but I can't see it used anywhere,True
+@ensabinha,2020-09-08T10:30:17Z,0,"Is it the biases automatically considered in each layer or it must be specified? If it is automatically considered, can it be deactivated?",True
+@EhKurd,2020-08-23T16:08:59Z,2,So far I find pytorch so much more enjoyable and intuitive to use as a programmer than keras or fastai. I think it's because it still feels like you're algorithmically programming something versus the usual python library that is a convoluted mess of functions.,True
+@paperclip449,2020-08-11T21:11:29Z,0,You said CNN's are taking over as opposed to RNN's. Is this true for just image use cases? Or does that include things like Natural Language Processing as well. Like I thought BERT and ULMFIT both uses RNN's ?,True
+@paperclip449,2020-08-11T20:56:28Z,0,"ploss, lol.",True
+@SACAS20,2020-08-09T23:11:41Z,2,"Dude, thanks for the class, being honest it took me three days to watch the three videos and I'm spealingspanish so I coudn´t understand the mindest part but I watch other videos and at last I understood almost all, by the way i proved the testset and I get  Accuracy: 97.1%",True
+@VictorRodriguez-zp2do,2020-08-02T19:59:43Z,0,"You can make it train faster by using multiple processes, it's a pain to set up though.",True
+@siyuanouyang9584,2020-07-31T18:28:44Z,0,This is clearly not a good episode. A lot of missing explanation.,True
+@wrog7616,2020-07-31T02:10:04Z,1,"Please help me.  I am stuck at the ""loss = F.nll_loss(output, y)"" part. Before it, it all runs without an error, but of course, does not learn.  After I add it, it produces an error.  My program is similar to yours but not the same.  I am using my own dataset and instead of having 10 outputs, mine only has 2.  My output variable looks something like: tensor([[-0.8079, -0.5902]], grad_fn=<LogSoftmaxBackward>) My y variable looks something like: tensor(0) or tensor(1)  Any help is appreciated.  Thanks and great videos!",True
+@avikjain1286,2020-07-10T17:16:46Z,4,your tutorial cured my depression,True
+@Skinz3,2020-07-01T10:33:26Z,0,This tutorial serie is insane. Thanks a lot,True
+@shawnjames3242,2020-06-21T06:47:06Z,0,I love your spirit of just trying things even without knowing about them completely.,True
+@walidmaly3,2020-06-14T11:18:06Z,2,"if yout output is one hot vector, I think we should use cross entropy loss and not Mean Square error",True
+@nictanghe98,2020-06-13T15:16:16Z,1,i have 1% accuracy how do i know why ?,True
+@dadmehrdidgar4971,2020-06-09T03:18:15Z,0,"Thank you very much, man! God bless you! :)",True
+@chandragarre2036,2020-06-07T23:34:44Z,0,in the last you should have used testset to check if the prediction is right :)  I used it and it seemed to work fine.,True
+@dev.regotube,2020-06-07T15:58:46Z,0,"hey, i got 0.099 accuracy",True
+@mushinart,2020-06-07T15:45:39Z,0,why didnt we use the forward() here ??????,True
+@clairelolification,2020-06-07T14:14:27Z,0,Could you please do the transfer learning series ? thanks for saving my thesis,True
+@marchiof,2020-06-02T19:54:07Z,0,nice haircut,True
+@harshmittal63,2020-05-30T16:34:31Z,0,"Hey man, It was really a great tutorial, but still I have got a doubt with the zero_grad part. Could u plz explain that.",True
+@tejassevak,2020-05-29T21:15:43Z,1,How long did it take everyone to go thru all the 4 parts. it took me a whole day to get through all four.,True
+@samuelluchsinger2502,2020-05-20T12:18:33Z,0,"I love your videos, great series man!",True
+@dhyeyadesai7773,2020-05-13T14:57:22Z,0,you should have used that panda mug in pandas tutorials :'),True
+@abhrantapanigrahi3475,2020-05-12T19:35:42Z,1,"I have a doubt, while printing the loss, my loss in the second iteration is less than the first but the loss in my first iteration is greater than in the second. Why is it so?",True
+@kshitijkapadni9200,2020-05-05T18:24:50Z,0,"Actually, in the PyTorch Documentation, it says that    # zero the parameter gradients         optimizer.zero_grad()   and you have applied it to the model... So I had a question does this affect the training of the model?",True
+@maitreyaverma8485,2020-05-04T09:42:17Z,0,"Amazing work! I really like your ""engineering"" approach to every new thing.",True
+@pimysoft2896,2020-05-03T18:35:21Z,0,"You chat around the functions you use, but often you skip on explaining what they do and I have to google most of them.",True
+@theconstantchange,2020-05-03T16:00:01Z,1,i have a question regarding the line _net.zero_grad()_.  Why are we making the gradients zero for every batch. Shouldn't that line be outside/before the epoch for loop?,True
+@user-ds1ls7ez9f,2020-04-24T15:28:14Z,0,"Did we use all the data for the training? Also What if the loss is growing? I still get about 0.975 accuracy! And last question, i use sublime for writing the script and i run it each time in a consa enviroment, that means that whenever i run it, it training from the beggining?",True
+@dennishe3537,2020-04-24T12:07:34Z,0,So you did not need to call forward( )method  at all?,True
+@anatolybelanovsky5796,2020-04-19T09:00:16Z,1,Why in a text-based tutorial did you assign loss_function = nn.CrossEntropyLoss() but in actual training there is nll_loss? These functions are connected somehow?,True
+@lynngreen1714,2020-04-15T17:27:57Z,0,"I just wanna say that using ResNeXt ( hyst's github pytorch code), he did archive like 97% accuracy on CIFAR10 test set.",True
+@shauryapatel8372,2020-04-07T05:54:29Z,0,my accuracy no matter how big th epochs is always 0.1,True
+@cluberic,2020-04-07T04:18:31Z,1,"i haven't really learned anything from these first 4 vids, idk what the purpose of doing most of these functions are for, or how it affects the NN. :(",True
+@martinmartin6300,2020-04-04T13:14:36Z,0,"I really wonder whether you have to code this over again. Basically, I expect something like a standard stochastic gradient descent training run to be already implemented in pytorch.",True
+@martinmartin6300,2020-04-04T13:08:59Z,1,"Batch size has little to do with overfitting unless you don't lower the learning rate when you decrease batch size. Generally, the larger the batch size the more you can get away with larger learning rates because the batching already leads to less ""noisy"" gradient estimates (which means that your network is less likely to focs less on individual rxamples but rather tries to get the classes right.",True
+@martinmartin6300,2020-04-04T13:03:27Z,0,"Its worth mentioning that if you use overcapacity networks (which have much more parameters that would actually needed) you can circumvent the problem of getting stuck in local minima when using smaller learning rates as the model has enough ""knobs"" which it can use to wiggle aroung the local loss minima. Actually, this is the main idea behind deep learning.",True
+@xishanlone6668,2020-03-23T06:28:45Z,0,You are awesome 👍,True
+@muhammadtarekrefaat4901,2020-03-23T04:05:18Z,0,"what is the datatype of train, test, train set, test set? and thanks in advance",True
+@streamingdev1163,2020-03-22T14:55:33Z,0,Have you tried GoogleColab? It has GPU + TPU built into their notebooks,True
+@tarasvoitsitskyi1072,2020-03-15T11:25:57Z,0,"Why net(X.view(-1,28*28)) works at all? I tried logic way: net.forward(X.view(-1,28*28)), which seems relewant, as we defined argument X and layers  in the forward function (it works as well)...",True
+@fireheart__7,2020-03-15T07:16:46Z,2,These are probably the finest tutorials I have come across. Thank you so much sentdex!!,True
+@RedionXhepa,2020-03-08T18:59:30Z,0,Nice vid3o !,True
+@briandannenmueller5908,2020-03-08T01:30:44Z,0,"Great tutorial! I have a question, however. My jupyter notebook crashes and restarts the kernel when I run plt.imshow(X[1].view(28,28)). I ran this during the prior tutorial video without any issues. There isn't any python error that gets raised, jupyter just shows the message ""The kernel appears to have died. It will restart automatically."" Any thoughts about this issue?",True
+@boyuanchen4997,2020-03-07T21:55:45Z,0,"Quick question - I noticed that you type X.view() every single time you want to use it for network or plt. I wonder if it would be a good practice to ""view"" it right after initialization X, y = data",True
+@kareemjeiroudi1964,2020-02-28T17:44:04Z,0,"Thanks for introducing us to different modules of PyTorch, but please let's move to learning on GPU 😅",True
+@saifeddineazzabi4377,2020-02-26T15:08:25Z,1,why didn't use the methode forward?is it automatically done?,True
+@abdelrahmanabuissa9139,2020-02-21T15:36:11Z,0,"Great Tutorials, but I am getting an error ""NotImplementedError "" and its pointing at the line --> output = net(X.view(-1,28*28))",True
+@kingeng2718,2020-02-19T22:13:44Z,8,thanks for the tutorial: you can use this line of code instead of second for loop to get num of corrects: ``` correct += output.argmax(dim=1).eq(y).sum().item() total += len(y) ```,True
+@gheorghemita5096,2020-02-19T16:03:13Z,1,"Question: When you use ""net.zero_grad()"" does that mean you nullify all previous weights? And then is the use of epochs in this case a representation of a RNN?",True
+@programmer9884,2020-02-10T19:18:46Z,2,"Hey so i am following your tutorial and by iterating for 3 epochs, i got the third loss higher. Why is this the case? tensor(0.4294, grad_fn=<NllLossBackward>) tensor(0.0046, grad_fn=<NllLossBackward>) tensor(0.2956, grad_fn=<NllLossBackward>)",True
+@mayurdugar03,2020-01-20T07:36:30Z,0,Beautifully communicated! Thanks,True
+@krishnachaitanyavelagapudi5299,2020-01-02T14:30:21Z,0,"Um , excuse me,  Isn't the function forward() of the neural network class doing something? I  mean , it haven't been invoked any where in the code. Is it being used implicitly ? And also what does torch.argmax[i] do?",True
+@flintlouisfl,2019-12-23T14:26:21Z,1,"How come you are using F.log_softmax() instead of normal F.softmax() As I understood you want your output to be somewhere between 0 - 1 no? I've tried using both, and I get a high accuracy rate with both, but when I print out loss,  with the latter I get negative numbers and with the first I get positive numbers... Very nice tutorials keep it up!",True
+@camus6525,2019-12-19T12:00:32Z,0,Does it's possible to build a deep Q learning neural network only with Keras?,True
+@luojihencha,2019-12-18T20:51:29Z,0,I don't really understand the -1 in view. Would someone help me? Thanks,True
+@AliKHYAR,2019-12-06T11:59:57Z,4,it's been almost 3 months of ML and never heard of the decaying learning rate,True
+@vibhuvaibhav9035,2019-12-05T08:14:15Z,16,"Please please do a RNN tutorial as well. It's amazing to learn from you! Thanks a lot for being there for us, lots of love!",True
+@0xrudranag,2019-11-29T15:15:32Z,0,Hey I'm beginner in ml and should i take Andrew ng's ml course?,True
+@teffros7087,2019-11-27T21:20:04Z,0,"You are predicting X[0], or X[1], etc. What if you choose X[11], when working with batch_size 10? I am having troubles to predict X[n] with any n bigger than the batch size...and it should be any number between 0-60,000 for MNIST",True
+@Lord2225,2019-11-19T11:43:54Z,0,main loop looks better that in tensorflow but everythink looks better that tensorflow 1.- Net creating sucks. It looks much better in keras or tf2. IMO tf2 have better main loop.,True
+@MuhammedAhmed2015,2019-11-19T10:10:11Z,0,thanks a lot for your helpful videos. I have a slight problem. I did the following : 1) train net-----> loss decreasing starting from around  0.5 (cool!) 2) delete loss and output 3) redefine the net (net=Net() ) 4) Again train net -----> loss starts from a significantly low value  (0.002 or something)  Shouldn't (4) be similar to (1) since I started a new net with parameters that are not optimized yet ? What is wrong here ?,True
+@rajcivils,2019-11-17T05:46:54Z,1,Would we use conv3d for colour images. RGB,True
+@indivarmishra6119,2019-11-05T06:30:23Z,1,Can someone please explain concept for zero_grad and no_grad . Thank you.!,True
+@zaheeruddinfaiz7064,2019-11-03T06:21:35Z,1,"Hey there! I am enjoying your lectures a lot and these are really helpful. When I run the exact same code as you have mentioned in text-based tutorials. Every time, I get negative loss. Why is that happening?",True
+@ryanp6267,2019-10-31T07:26:51Z,9,"Is it suppose to be  F.softmax(x, dim=1) or F.log_softmax(x, dim=1). I thought the output scalars we were going for should be between 0 and 1?",True
+@dawidepl7807,2019-10-26T16:54:55Z,0,"I have problem... soo when you started showing image, and AI tried to tell you what's on image ( first was 0, idk time ). For me ( I'm on conda console ), it don't do anything, I have to turn it off with ctrl + c after 10 minutes...",True
+@dawidepl7807,2019-10-26T14:09:08Z,0,Lmao for the first time I got so low loss ( I hope it's good? ) btw. I got 1.0 accuracy :P,True
+@Theschnaz21,2019-10-22T22:47:59Z,1,+1 to see the model work on a server!,True
+@rajcivils,2019-10-18T15:45:55Z,0,Will you tell how to use ignite in the playlist. And what about fast.ai. I have heard it's related to pytorch.,True
+@novaes06,2019-10-17T07:17:31Z,0,"I'm wondering, what if my dada is not a picture?! How can I deal with it?! Thanks! :)))",True
+@SubhamKumar-eg1pw,2019-10-11T12:16:41Z,0,https://discuss.pytorch.org/t/model-eval-vs-with-torch-no-grad/19615,True
+@frigginnobody,2019-10-08T15:39:28Z,0,The MNIST __getitem__ method returns two values. img and target. With reference to 9:47  in the video. Link to the source code. https://pytorch.org/docs/stable/_modules/torchvision/datasets/mnist.html#MNIST,True
+@billfujimoto5905,2019-10-08T03:09:21Z,7,"This is great stuff, thanks for putting this together!  I've taken Andrew Ng's Machine Learning and Deep Learning courses on Coursera, but DL is based on Tensorflow which is very tricky to learn with all the static graphs and sessions (although TF 2 is supposed to be eager execution style).  I'm now slowly working my way thru Fastai which you seem to be a student of as well, I see lots of influence.   One minor correction which helps to improve training accuracy: In the training loop, you show net.zero_grad(), but this should be optimizer.zero_grad() per Pytorch FAQ here: https://pytorch.org/docs/stable/notes/faq.html  I noticed it converges quicker that way.   Also, I ran this on both my laptop (slow...) and in Google compute engine in the cloud, but it too is slow even though I have a GPU resource on my instance.  Do you know how to enable the GPU functionality?  The PT documentation on Cuda is so laborious I gave up.  Thanks!",True
+@simondresa,2019-10-07T21:09:37Z,0,i love you edward,True
+@-dialecticsforkids2978,2019-10-06T11:13:55Z,0,"Hey, how do you make or call a Neural network where the output is not binary like cat or dog. but is a float value like a energy. do you have only one neuron as final layer then? any quick answers please?",True
+@blackberrybbb,2019-10-03T20:01:22Z,0,"If the training set size is relatively small (say~ 2000), would smaller batchsize be better?",True
+@razaulkarim592,2019-10-03T15:03:29Z,0,"I am getting error , error and error in TensorFlow and Keras . So decided to move on Pytorch :-)",True
+@alexnick7119,2019-10-03T11:49:00Z,10,"Hey, I just wanted to tell you that you do the best tutorials! You know exactly what are the problems with 95% of all tutorials (like only using preprocessed datasets). I tried to use my own images and no tutorial helped me. Your work is just amazing!",True
+@WandererOfWorlds0,2019-10-02T17:04:16Z,5,"If  you want to run your tutorial on the GPU:  Before the train loop:     device = torch.device(""cuda:0"" if torch.cuda.is_available() else ""cpu"")     net.to(device) In the train loop:             X, Y = data             X = X.to(device)             Y = Y.to(device)  MNIST is such a small set that it takes longer to constantly copy the data to the GPU than the actual training but it is the easiest way to validate GPU training based on your current code.",True
+@yashpathak9285,2019-10-02T05:23:35Z,0,next video buddy!!!,True
+@m.derakhshan6464,2019-10-01T19:23:15Z,8,"Are you Einstein or came from space? How can one be proficient in most fields of programming? Thank you for the wonderful training. by the way, long hair makes you more handsome!",True
+@keyo3945,2019-10-01T17:28:33Z,0,Can you make a video on handwriting text recognition and text segmentation?,True
+@perlindholm4129,2019-09-30T22:09:16Z,0,"This is good. Thanks. Running on a raspberry pi with a jetson nano attached via tight vnc currently. print(loss.cpu().detach().numpy()) is bit much in pytorch. How to simplify overly complicated ways into a simple functions, like. def value(loss):  return loss.cpu().detach().numpy()  could be good to show.",True
+@elisabethdoyon107,2019-09-30T19:23:35Z,2,"there were some real artwork in this one :D Thanks for everything !  I'm getting pretty weird results tho.... tried to extend it to 10 epochs since the first few were all over the place....  I ran it multiple times, this is the pattern I get each time.... is that ok ? Is that because the lr is not decaying, or just a code error on my side ? tensor(0.0194, grad_fn=<NllLossBackward>) tensor(0.1669, grad_fn=<NllLossBackward>) tensor(0.0029, grad_fn=<NllLossBackward>) tensor(0.2294, grad_fn=<NllLossBackward>) tensor(0.0077, grad_fn=<NllLossBackward>) tensor(0.0014, grad_fn=<NllLossBackward>) tensor(0.0001, grad_fn=<NllLossBackward>) tensor(0.0010, grad_fn=<NllLossBackward>) tensor(2.9145e-05, grad_fn=<NllLossBackward>) tensor(2.9741e-05, grad_fn=<NllLossBackward>)",True
+@ThePositiev3x,2019-09-30T16:16:22Z,0,Will you also be building nets which learns by reinforcement learning method?  Maybe an engine for a small scale game like tic tac toe? Thanks for the video!,True
+@user-jd4wu9mq8n,2019-09-30T14:07:33Z,0,"Nice work, keep going!",True
+@user-jd4wu9mq8n,2019-09-30T14:06:23Z,0,Does the weights and biases got initialized in super.__init__()?,True
+@user-jd4wu9mq8n,2019-09-30T13:52:27Z,0,Why i'm getting an accuracy of 1.0??? is that possible? and my loss start to increase in the third epoch,True
+@user-jd4wu9mq8n,2019-09-30T13:30:43Z,0,"Why we need argmax()[0], I thought argmax just returns a scalar?",True
+@user-hg4lk2hr6g,2019-09-30T13:24:02Z,0,اتمنى ان يترجم الشرح للغه العربيه ليستفاد اكبر عدد من الناس,True
+@girish7914,2019-09-30T05:37:30Z,0,"your tutorials are great ,logical and rational !!!!!",True
+@girish7914,2019-09-30T05:36:55Z,0,can you please create demo  android app with end to end integration !!!!,True
+@alissondamasceno2010,2019-09-29T22:47:29Z,2,You're the best python teacher ever bro!,True
+@jk2stones837,2019-09-29T22:04:36Z,0,Hi love the work you do. sorry to write this here but i could not contact you thru the email on the website.   For a few days now i can't log in my +=1 account on pyrhonprogramming.net I have not changed my password or my user name so i don't know what is going on. When i click on forgot password it tells me it will send me an email but unfortunately i never receive anything. My username is YouCanCallMeAll i have been a member of the +=1 since i July and never had an issue before. Please help me thanks,True
+@wktodd,2019-09-29T19:24:54Z,0,"Help guys! Please:  just tried working through this  and I'm getting this error - really not sure why. (please note : my Net object has a capital N)   optimizer = optim.Adam(Net.parameters(), lr=0.001) Traceback (most recent call last):   File ""<stdin>"", line 1, in <module>  TypeError: parameters() missing 1 required positional argument: 'self'   all the imports are in place and working .  I've tried this in Spyder and by pasting line by line into a terminal. Running in kubuntu  (after giving up on Mint and hating Ubuntu desktop)",True
+@omeraiman2983,2019-09-29T18:47:48Z,0,"my code stuck in the middle of the hill tensor(2.3204, grad_fn=<NllLossBackward>) tensor(2.3314, grad_fn=<NllLossBackward>) tensor(2.3045, grad_fn=<NllLossBackward>) tensor(2.3463, grad_fn=<NllLossBackward>) tensor(2.2930, grad_fn=<NllLossBackward>) tensor(2.3144, grad_fn=<NllLossBackward>) tensor(2.2639, grad_fn=<NllLossBackward>) tensor(2.3544, grad_fn=<NllLossBackward>) tensor(2.3431, grad_fn=<NllLossBackward>) tensor(2.2863, grad_fn=<NllLossBackward>) tensor(2.3027, grad_fn=<NllLossBackward>) tensor(2.2915, grad_fn=<NllLossBackward>) tensor(2.3124, grad_fn=<NllLossBackward>) tensor(2.2757, grad_fn=<NllLossBackward>) tensor(2.2954, grad_fn=<NllLossBackward>)   also gives wrong predictions, why is that?",True
+@slowblow,2019-09-29T18:33:04Z,0,"How about posting Voice Conversion lesson in the near future, in example from this repo mentioned by Siraj Raval  in August: https://github.com/resemble-ai/MelNet/blob/master/model.py",True
+@samster317,2019-09-29T17:09:00Z,1,"This is a great tutorial, looking forward to learning more!   One question: Do you think that PyTorch is more useful than Keras? It seems like Keras code is quicker to write (at least for something like MNIST), but PyTorch is way better for more complicated models/predictions.",True
+@klilaayed503,2019-09-29T16:04:51Z,2,The best python teacher in the world,True
+@songming2462,2019-09-29T14:05:42Z,0,I want to learn about fine-grained classification about animal. What should I do?? Thank you very much,True
+@bidhanmajhi,2019-09-29T07:41:45Z,1,"for data in testset, accuracy 0.969",True
+@karthikbappudi891,2019-09-29T04:54:58Z,0,Do u cover NLP in this series?,True
+@ronit8067,2019-09-28T13:08:16Z,0,"so while using keras we use a model object to train the ""model"", and we can use that model object to train again with another batch of data and it will not forget the ""training"".  now  using this line ""net(data)"" we can accomplish the same thing as model.train() right?",True
+@siddharthchoudhary2148,2019-09-28T10:25:44Z,0,As good as you. Please make videos on shifting model on cloud,True
+@ChupachuGames,2019-09-28T05:22:40Z,0,"been waiting for this one to come out, thanks!",True
+@cobravideos4636,2019-09-27T21:00:17Z,0,how do I install python on my macbook?,True
+@DrNaserRazavi,2019-09-27T20:19:09Z,5,You are wrong about model.train() and model.eval(). The model.eval() deactivates some layers which are specific to training mode such as dropout layers and bachnorm layers.,True
+@esysss,2019-09-27T20:10:52Z,0,"as good as always, but I think at the end you want to test your data using testSet, am i right?",True
+@Tweakimp,2019-09-27T19:16:20Z,1,"You explained the learning rate really well, but what exactly is different between different optimizers?",True
+@wktodd,2019-09-27T19:10:04Z,58,"Still here , an old dog learning new tricks  :-)  (I wrote my first computer program in 1968 - waiting a week for the result to be posted back to me , I still think I should optimise loops for speed and use ints where ever possible ;-) )",True
+@anishjain8096,2019-09-27T18:16:54Z,1,Yes brother some real life program really helpfull in learning deep learning well great tutorials,True
+@joseortiz_io,2019-09-27T17:28:31Z,1,"Hey Sentdex, thank you man. I love that you are pushing out this great information and your involvement in the Machine Learning community. You are inspiring man. Have a good one! :)",True
+@ramzykaram296,2019-09-27T17:08:20Z,0,"Bro, I don't have time to keep up with all this good content. Pytorch ftw 💕 I hope you'd visit how to make RL agent library as i am suffering from PTAN and no time to rewrite the code for Tensorflow 😭",True
+@mohamedghazy5807,2019-09-27T16:33:59Z,0,Thank You!,True
+@drprdcts,2019-09-27T16:31:18Z,0,Is there going to be content using fastai ? Awesome video 👍🥳,True
+@Darmokxx,2019-09-27T16:16:33Z,114,"""model.train()"" and ""model.eval()"" activates and deactivates Dropout and BatchNorm, so it is quite important. ""with torch.no_grad()"" only deactivates gradient calculations, but doesn't turn off Dropout and BatchNorm. Your model accuracy will therefore be lower if you don't use model.eval() when evaluating the model.",True
+@aryanbhatia6992,2019-09-27T16:08:17Z,0,Man please do a neural network from scratch after this  Btw you are just amazing :),True
+@shrikantnarayankar4778,2019-09-27T16:04:37Z,0,Was waiting,True
+@herbz1037,2019-09-27T16:03:39Z,1,Imagine bragging about being quick to a video,True
+@frossknight3209,2019-09-27T16:03:33Z,1,5th comment,True
+@Kevin_KC0SHO,2019-09-26T01:09:03Z,3,Thx for the early access and your hard work,True
+@Stinosko,2019-09-25T19:46:23Z,1,yeaaaaaaay! :D,True
+@fuba44,2019-09-25T16:27:57Z,147,"So.. You are testing on your training set, would explain the 97+% accuracy?",True

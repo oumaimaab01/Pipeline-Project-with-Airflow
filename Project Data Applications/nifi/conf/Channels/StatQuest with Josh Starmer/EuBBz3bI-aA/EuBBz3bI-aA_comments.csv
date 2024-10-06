@@ -1,0 +1,648 @@
+author,updated_at,like_count,text,public
+@statquest,2020-11-11T18:25:26Z,295,"Correction: 4:06 I say that the difference in fits between the training dataset and the testing dataset is called Variance. However, I should have said that the difference is a _consequence_ of variance. Technically, variance refers to the amount by which the predictions would change if we fit the model to a different training data set.  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@amjadmoq3228,2024-05-19T17:45:49Z,1,"Remember, variance for future data, will the model accurately predict unseen data? If yes, then your model has a low variance (a good thing).",True
+@Andranco,2024-05-19T08:11:39Z,1,"Straordinario, chiarissimo",True
+@Sbmbrk,2024-05-05T20:01:21Z,1,hands down the best explanation that i have ever seen. plus the humour is soo good,True
+@trevmatlo4363,2024-05-03T08:48:13Z,1,"Great video, thank you",True
+@rhh3828,2024-04-27T14:18:30Z,0,So will we never find the true bias bc we will never know the true relationship??,True
+@va-ro,2024-04-27T05:45:38Z,1,Thanks...,True
+@lakshyadalal8296,2024-04-26T07:27:29Z,1,I like the way you teach!,True
+@enixling,2024-04-15T13:44:02Z,1,the best video so far on bias-variance tradeoff.,True
+@proggenius2024,2024-04-14T17:34:08Z,1,I will comment on every single video of yours. Just to show how much I love your teaching style.,True
+@maruthiprasad8184,2024-04-13T03:28:23Z,1,my search for bias and variance is stopped here. got the exact crux of it.,True
+@supa.scoopa,2024-03-29T17:05:19Z,1,My mind is blown.  Wish I had seen this video sooner,True
+@Amir-English,2024-03-29T12:44:54Z,0,"What is the reason you squared the distances between the true and predicted values in order to prevent those negative values to cancel out?  Instead, couldn't you just use the absolute vales of those distances, and to add them up?",True
+@bikdigdaddy,2024-03-23T18:43:59Z,1,the best channel out there.,True
+@mugekural2340,2024-03-22T17:56:35Z,1,best explanation on bias&variance.,True
+@PunmasterSTP,2024-03-22T13:56:51Z,1,"I hope that as far as machine learning curriculums go, the inclusion of StatQuest sees some regularization! 👍",True
+@prashanthi8492,2024-03-21T01:47:44Z,1,BAM BAM BAM,True
+@aleksandrshipilo4467,2024-03-20T07:02:02Z,1,Спасибо за урок),True
+@ian-haggerty,2024-03-13T02:57:57Z,0,"Just clicked for me. Variance refers to the variance in the ""goodness of fit"" tests, such as sum of residuals squared, whilst doing cross validation? Still can't figure why they called oversimplification ""bias"". Bias toward the training data? Yet oversimplified? hmmm...",True
+@indirect213,2024-03-04T01:04:18Z,0,"- diterapinnya dalam satu test, bukan beda test bisa dipilih lagi dari awal. alias garis pertama utk training, maka sisanya utk testing - straight line = lebih bias karena gabisa mengikuti bentuk curve tp variasi lebih sedikit krn SSs tiap data set mirip2  - squiggly line = ga bias krn nge pas bgt tp pas dicoba ke yg lain lgsg variasi banyak krn akan beda jauh hasilnya  intinya mah straight itu jaga aman, klo squiggly terlalu miring ke satu sisi jd satu sisi lain jomplang  maka dari itu ada jalan tengah yg menghasilkan low bias and low variability yang disebut sweet spot. Metode nya ada 3 jenis yaitu regularization, boosting, and bagging",True
+@manahmed9262,2024-03-03T12:51:49Z,1,it is very good,True
+@konstantinospolemis3087,2024-02-29T16:28:01Z,1,Hooray,True
+@sabQu,2024-02-29T11:58:16Z,1,Love you! You explain sooo well!!,True
+@starreachsocietybw,2024-02-25T10:14:42Z,1,Thank God I found this channel! I understand 2 hour lectures under 10 minutes - Thanks StatQuest!!,True
+@siddharthwarrier9736,2024-01-31T18:45:50Z,1,I wish I had come across this channel earlier.. this is very helpful,True
+@CC21200,2024-01-28T07:34:44Z,1,ML and statistics have substantial overlaps. It's therefore rather unfortunate that such basic terms have such different meanings in these neighboring contexts.,True
+@kyl7278,2024-01-20T22:05:24Z,1,good good good good,True
+@Tapsthequant,2024-01-12T06:52:29Z,1,"Don't mind if this is my ring tone, drives the confusion away, BAM...",True
+@davidkatz2897,2023-12-23T17:18:25Z,0,3:09 they are not squared so that negative distances do not cancel out positive distances. you could just take absolute values if that is the property you were after. sqaures has other desirable properties,True
+@engrraheelhussain1148,2023-12-18T20:27:39Z,1,Wonderful clarity. Well done!,True
+@bountysun3435,2023-12-17T22:04:05Z,0,Does the bias apply to all data or only the test data? Same question for Variance.,True
+@anasbaslih5580,2023-12-17T14:21:08Z,0,khouya sir t7wa,True
+@saivenkatavamsidhar1044,2023-12-15T19:33:45Z,0,"A silly doubt, please try to clarify if possibe. You said After a certain weight, mice don't get any taller.  That is not a necessary condition practically. Because, Let's take the certain limit as 80kg . Some people even grow taller after 80kgs. So are you asking us to assume a dataset where this is possible?",True
+@user-sh8kx8kl7c,2023-12-12T16:17:06Z,1,good good great,True
+@archernaragabriel2792,2023-12-12T01:01:55Z,1,I has a feeling if you're Japanese you'd be a great haiku poet,True
+@netviz8673,2023-11-28T19:23:34Z,0,the inability for a machine learning method like linear regression to capture the true relationship is called bias. Large amount of bias means great incapability to capture the data trend into the model. The difference in fits between data sets is called variance. We can compare how well the Straight line and the squiggly line fit the training set by calculating their sums of squares(sqaure the distance between fit line and data and add them up),True
+@MrDamrad,2023-11-25T21:33:33Z,0,Wtf bro?! How in earth do you answer all this comments?,True
+@ThatisnotHair,2023-11-16T12:25:33Z,1,-Π ❌ ·— ✅ 3:54,True
+@the_hasnat,2023-11-13T11:30:04Z,1,StatQuest so cool man,True
+@engcuz,2023-11-08T16:50:28Z,1,"The way you explain it , priceless . Thank you so much.",True
+@sajjadabouei6721,2023-10-22T16:19:39Z,1,man I love how you explianed it so easy to understand like butter 🔥🔥🔥🔥,True
+@bashiransari6258,2023-10-21T06:40:37Z,1,Just cool,True
+@sartajbhuvaji,2023-10-14T22:58:37Z,0,"One way I remeber this is: Bias : It's the loss associated with training Variance: It's the loss associated with testing  If your training loss value is low, it means you have low bias and vice versa. If your testing loss value is low, it means you have low variance and vice versa.",True
+@ThColinPereira,2023-10-13T16:21:02Z,1,"the intro's are amazing, and so are the videos, thanks!",True
+@zenicv,2023-10-10T20:32:32Z,2,"I came here after taking a grad level course, but this simple explanation often stays longer in the mind :)",True
+@brayanrai2880,2023-10-10T11:24:06Z,1,this learning is fun I like the way you create vidoes.,True
+@felipecifuentes4981,2023-10-03T19:01:15Z,1,"I'm amazed how many bams I've reached just  in a couple of hours. Your videos have been enlightening, thank YOU very much!",True
+@augustine8142,2023-09-14T09:16:19Z,1,Double BAM !!,True
+@ashilshah3376,2023-09-06T11:32:41Z,1,"Very simply and amazingly explained, saw many tutorials but this was by far the best. Thank you :)",True
+@ragibshahriyear3682,2023-09-03T17:10:00Z,1,THANK YOU SO MUCH!,True
+@abhishikthpammi1398,2023-08-28T18:40:18Z,1,"OMG, Pls join as a prof in my university hehe",True
+@jenwilson7779,2023-08-26T18:29:13Z,2,Thanks!,True
+@hoangminhthai4055,2023-08-26T09:41:39Z,1,"- Bias is the number showing ability of fitting the traning set, the smaller bias is, the better it fits the traning set - Variance is the number of ability of fitting the traning set, ... THE SAME  - we want to find sweet spot where bias is low and variance is low  - there are three methods: regularition, boosting, bagging",True
+@johncambry1093,2023-08-20T14:57:37Z,1,"5:59 ""The StatQuest on Random Forest shows an example of bagging in action"" sounds so wrong 😂😂",True
+@ammararazzaq132,2023-08-14T07:33:23Z,0,"when you say high variance on different datasets, does that mean different test datasets?",True
+@josy4767,2023-08-13T08:52:35Z,1,I replayed this video - not because the explanations weren't clear. I just wanted to hear the song again haha,True
+@konstantinlevin8651,2023-08-07T14:51:55Z,1,"this is probably how education is gonna be in the future, thanks a lot!",True
+@anurajms,2023-07-26T21:13:07Z,1,thank you,True
+@user-yz6ho8fx8j,2023-07-14T10:14:49Z,1,"so good explained!! way better than my ml prof :D thx, good examples, good vid",True
+@RenanFerrazPires,2023-07-08T19:56:25Z,1,Valeu!,True
+@praveenkumarac5811,2023-07-08T03:08:42Z,0,Is the intro song inspired by smelly Cat by Phoebe Buffay? :P,True
+@sheikhrehman4867,2023-07-06T18:12:40Z,1,One of the best videos I have come so far,True
+@kaganfikirkoca7598,2023-06-18T16:32:46Z,1,perfect,True
+@harshitarupani811,2023-05-25T12:12:16Z,3,This is super Helpful ,True
+@mmrkrishnammrkrishna4259,2023-05-06T03:34:28Z,0,"Hi, As per some text books, bias is given to the network. Is it given or appears out of network?",True
+@bharathchandrapanasa7997,2023-05-04T12:45:26Z,0,"3:10  They are squared so that negative distances do not cancel out positive distances. Why ""Absolute value"" of the distance is not used then?",True
+@andreassyaloomkurniawan4906,2023-04-26T03:02:34Z,1,Keep making video like this… ❤,True
+@DataLauratory,2023-04-25T11:46:19Z,1,StatQuest using the iMessage color scheme to keep our attention.... MVP🏆,True
+@tirthvora3421,2023-04-20T10:02:52Z,1,BAM!,True
+@ram-my6fl,2023-04-19T00:05:03Z,1,GTAT - GREATEST TEACHER OF ALL TIME,True
+@levodiemhang2000,2023-04-16T05:53:33Z,1,I always love your intro music!,True
+@DharmendraKumar-DS,2023-04-11T13:03:52Z,1,You just simplify everything...great work...love from India❤,True
+@chadadavis,2023-04-07T18:54:47Z,2,Thanks!,True
+@Artificial_Historian,2023-03-07T09:14:34Z,1,This was great!,True
+@shahramsohail9459,2023-03-04T13:56:15Z,0,"So for a model to overfit, it has to be non-linear? I mean can't a Linear model suffer from the overfitting problem?",True
+@larkushkalmy,2023-02-16T21:39:15Z,2,Thanks!,True
+@leewebb8093,2023-02-09T13:49:53Z,1,You are to stats what Sheldon Cooper is to flags.,True
+@djss822,2023-02-05T18:23:55Z,1,A god,True
+@aashishkarn,2023-01-31T14:32:05Z,1,Man I have been trying to learn this for 1 month finally I found this video no video on Internet beats this.,True
+@awarenesschool,2023-01-30T15:46:57Z,0,"where do you get these images, no copyright",True
+@direnb3401,2023-01-25T20:23:20Z,1,Great video. very well explained.,True
+@stanleyjava,2023-01-21T23:37:40Z,0,"Great video! I have one question: The squiggly line is quite different from the ""real curve"" (just like the straight line), why it has low bias? How to calculate the bias value?",True
+@NikGoodrich,2023-01-21T15:46:54Z,1,Your six minute video is better than my $4000 course at a prestigious university,True
+@colinwong3982,2023-01-16T16:59:47Z,0,Is variance the difference between the actual values with the prediction based on the test set while bias is the difference between the actual values with the prediction based on the train set? so high variance and low bias mean overfitting while low variance and high bias mean underfitting?,True
+@francoscimone3811,2023-01-06T14:31:25Z,0,Congratulations for the teaching method.  I hope a reinforcement learning course is added,True
+@shresthaditya2950,2022-12-28T05:11:33Z,1,2:16:-Bias Defination,True
+@19neetish,2022-12-27T12:35:07Z,0,"Hi,  A confusion here. Many people have written about Bias with respect to both training and testing data and also about the variance in the same way. As you mentioned, I look at bias as an error with training data and variance in testing data. Or The error or difference in the fit of the test dataset is a consequence of variance in the training dataset? which is right?",True
+@ninavanleeuwen1183,2022-12-15T10:48:52Z,1,thank you sir,True
+@luckychitundu1070,2022-12-13T08:28:52Z,2,Great presentation,True
+@gangster4896,2022-12-08T20:11:55Z,2,Your intros are too underrated!,True
+@shivoham5939,2022-12-08T05:37:29Z,1,thanks it help's me in quick revision,True
+@shokintouch348,2022-11-24T16:55:52Z,1,"I enjoyed psst very much, thanks",True
+@hosseineyvazi3122,2022-11-18T09:38:00Z,1,u r amazing Josh,True
+@cocodrilo5759,2022-11-18T00:06:53Z,1,i can sleep peacefully after discovering this channel,True
+@shriyanshgaur3628,2022-11-17T17:05:14Z,1,One word : Clarity,True
+@khushivers3,2022-11-12T09:56:50Z,1,exceptional student i am,True
+@samkoh1990,2022-11-12T08:32:50Z,0,"1. What is ""Sweet Spot""? 2. How to determine the ""Sweet Spot""?",True
+@diyaqu7077,2022-11-07T16:01:18Z,0,"Thanks for all your videos, I will go through all of them! You are the best!",True
+@bobzero3727,2022-11-07T06:54:41Z,1,the intro sounds like - If you want love by NF.,True
+@bhudeeppal7269,2022-10-27T19:01:32Z,0,3:25 correction -  In the contest to see whether the squiggly line fits the training set better than the straight line...   squiggle line wins by the way I love to watch your videos,True
+@Yesuuh,2022-10-26T05:59:05Z,4,"perfect video doesn't exist... wait nvm, found it!",True
+@igorg4129,2022-10-23T13:50:12Z,0,So the Variance is the difference between biases in both training sets? Or is the bias in the test set called Variance?,True
+@sunwukong6268,2022-10-22T10:16:59Z,4,I am currently in a trainee program to learn machine learning...my teachers suggested this channel. This is awesome,True
+@peachythegreat8945,2022-10-16T13:27:38Z,1,This is insanely good....,True
+@chiangchian-wei8605,2022-10-13T06:48:09Z,1,Thank you for the amazing explanation! It helps me a lot,True
+@alokkumarsingh4641,2022-10-09T07:55:47Z,1,"this channel is better than netflix for me , every recommendation is on point and cant help myself but watch it",True
+@bhuriwataunguranun6371,2022-10-03T03:46:08Z,1,This channel explains it most clearly.,True
+@vijaypathem5766,2022-09-24T14:16:15Z,1,I came here long from xgboost😂,True
+@eduardminks6356,2022-09-13T10:18:14Z,1,"If there was statistical heaven, there would be a cinema dedicated only to your videos.",True
+@chillbro9236,2022-09-06T20:50:16Z,1,"I'll never leave you , man!!!!!!",True
+@saifqawasmeh9664,2022-09-04T22:22:04Z,1,Thank you sir!,True
+@behrouzbeheshti,2022-08-27T14:18:19Z,0,one think to note that the 'linear regression' doesn't always mean a straight line.,True
+@user-lp1ml4yy7p,2022-08-27T03:43:34Z,0,"Amazing video. A small advice. Hope you can supplement some mathematical proven, like expectation between square of bias and variance: Err(theta) = bias^2 + variance + epsilon^2.",True
+@ViolentMrGamer,2022-08-26T22:38:56Z,0,"Just want to confirm a few things If the training set is overfitted it has high bias and low variance & vice versa. Also as complexity in the training set increases bias error decreases, BUT variance error increase. I hope i am understanding this properlly!",True
+@ishaankulkarni49,2022-08-25T13:46:50Z,1,My ML teacher in uni learns from this channel Xd,True
+@hamid7029,2022-08-21T00:03:57Z,1,Très bien expliqué ! Merci,True
+@brianthomas9148,2022-08-14T19:05:17Z,1,Thank you for this!!!!!!!!  This is literally excellent,True
+@vaishnavibangar7423,2022-08-07T05:42:18Z,1,"helpful, thanks!",True
+@richardsailema8300,2022-08-05T14:12:34Z,0,BIAS = sesgo,True
+@akshandajairaj9645,2022-08-02T17:42:41Z,0,Do we need to treat the outliers and missing values before fitting any boosting model?,True
+@shivamtyagi5783,2022-07-12T17:35:25Z,1,"Alright, admit this, the song, in the beginning, was super! Honestly, when it started, I thought it would be cringe but no, it was brilliant.",True
+@tonalddrumpboe5151,2022-07-11T12:50:28Z,0,"Bias is how much a machine learning model fails to fit the data  Variance essentially measures the sum of squares/ consistency of the model between different testing sets that have variance in their thingy Regularization, boosting, and bagging are used to find the sweet spot between bias and variance.",True
+@kaithking,2022-07-10T22:43:41Z,1,Real gem in Youtube..,True
+@xXMaDGaMeR,2022-07-08T16:54:11Z,1,great content,True
+@piushdengani1145,2022-07-08T08:42:28Z,1,your explanations are much better than my professor.  I am Post graduate student at IIT Delhi,True
+@afroditimakou3498,2022-07-01T13:23:22Z,0,What's the difference between model bias and estimation bias though?,True
+@mehediazad1780,2022-06-29T17:34:49Z,1,"this was so straight to the point, with some great visuals that I managed to figure out all in one go! BAM!!!!!",True
+@sadeepthabandara8117,2022-06-22T04:54:55Z,1,Well explained! BAM!,True
+@ainiaini4426,2022-06-20T16:38:55Z,1,Thank you so much for making this difficult concept this much easy.. Thanks again,True
+@Mars7822,2022-06-16T08:14:54Z,1,brilliantly explained,True
+@bhagyashreedalvi7117,2022-06-06T20:09:29Z,1,thankyou so much for making machine learning so much fun! I never thought I could enjoy doing ML so much,True
+@ammararazzaq132,2022-06-03T16:07:16Z,0,will low bias always lead to high variance and will high bias always lead to low variance? Could there be scenarios where we have low bias and low variance or high bias and high variance?,True
+@trapattoni_,2022-06-01T16:44:26Z,1,"Use me as ""I LOVE YOUR BAMS"" button :D",True
+@tormentacristal,2022-05-26T03:19:32Z,1,You are a genius in the way you explain. THANK YOU!,True
+@only4music725,2022-05-22T19:50:10Z,1,Awesome,True
+@jisulee6532,2022-05-21T07:48:16Z,0,BAM! Awesome! :) Can I use your videos on my own ML study vlog by clarifying the source?,True
+@kamalamarepalli1165,2022-05-18T13:44:09Z,1,"Wonderful presentation, explanation and the effort you put in visualising every step...Thank you Josh!!",True
+@mario34129,2022-05-17T08:13:03Z,0,"High bias means that the model is ""stubborn"". Linear regression is stubborn because it insists on using a straight line, no matter how the data looks.  That's how I like to think about bias.",True
+@midhunanvn4130,2022-05-06T19:34:22Z,1,Although I know the subject already ... I watch these videos only for fun .... great humor! and great music!!! BAM!!!,True
+@Hevletica,2022-05-06T09:56:50Z,1,Excellent.,True
+@Sina_Z,2022-04-16T23:28:26Z,7,"you just did it in a perfect way. I've read blogs, ""best ML books"", and other resources, but you just nailed this. thank you!",True
+@jorgesisco981,2022-04-16T07:22:10Z,1,The songs always got me lol,True
+@AnkitKumarmeb,2022-04-07T10:22:09Z,1,best explainaiton,True
+@jay-rathod-01,2022-04-04T09:07:48Z,0,Hii SQ from where do you study /learn so good? could you please share the resources you refer,True
+@anouartaizoukt8343,2022-04-03T16:10:38Z,1,Thanks a lot❤️,True
+@samad.chouihat4222,2022-04-03T15:08:24Z,1,man this is the best song looool,True
+@jingwen8133,2022-04-02T05:09:35Z,1,very good and clear explanation!!!,True
+@oussamabing3867,2022-03-27T11:10:49Z,0,straight line wins fatality finish him,True
+@86ccc,2022-03-25T14:40:39Z,1,u should start your own album for learners like us :),True
+@cutestbear3327,2022-03-24T11:01:15Z,0,"so, it isn't that ridiculous for Plato to characterize man as 'featherless' and 'biped' afterall.... just high bias and low variance",True
+@leowyeyi,2022-03-20T14:49:42Z,0,"Great video! Really helped to clear any misconceptions I had. Just a question though, if the model (simple linear model) I have is the true model, would that mean that it will have a smaller bias than a complex model?",True
+@williamrinauto1498,2022-03-14T02:43:17Z,1,Telling everyone I know about this youtube page. Wow.,True
+@engkamyabi,2022-03-04T18:53:45Z,0,Thank you for the great video! Are the slides available for download?,True
+@megariskaverse7531,2022-03-04T14:46:33Z,0,Ok and what is variance?,True
+@prnv5,2022-03-03T06:14:45Z,2,"Josh you’re so good at teaching! Truly magical how you bring life into topics that whole interesting, can be very convoluted and monotonous with the wrong teacher. I absolutely love your channel ❤️",True
+@henriquenonenmacher8701,2022-03-03T01:24:23Z,1,"You're AMAZING, Josh!! DOUBLE BAM FROM BRAZIL 🇧🇷🇧🇷",True
+@muhammadmehmoodyousuf6235,2022-03-01T07:32:23Z,1,Your explanation of concepts outweighs tons of other videos I watch on YouTube and Other course websites. Thank you so much will subscribe and become a member at your channel to support you.,True
+@lucyengels2635,2022-02-28T22:42:25Z,0,"I was literally thinking, why is the distance squared? (But if it's squared to cancel out negatives and positives, why not do absolute value distance)",True
+@abdelrahmanashraf7636,2022-02-26T23:25:42Z,1,Now that's an AWEEESOOMEEE TALENT!! Thanks a lot <3 <3,True
+@cookie6299,2022-02-21T14:40:50Z,1,220221 ready to watch SVM,True
+@krispsg9189,2022-02-20T21:29:36Z,1,Thank you so much for all of your videos. I'm watching them all in a row. All the subjects are so clearly explained ! Thank you very much from France !,True
+@yeqingw5508,2022-02-14T19:38:09Z,0,"Hi Sir, great video again, but I have some confusion when I think of where the bias and variance come. I read other people's definition, some will say bias is the simplifying assumptions a model make to learn target function more easily and variance is the amount of change that estimate of target function by different training data. These definitions look quite different from yours. They come from the view of making a target function, but yours, variance talks about changes of the consequence, the predictions a model made, the bias is the consequence of how far model with true relationship. I just got confused, and try to find the connection.......",True
+@maliknauman3566,2022-02-12T07:23:21Z,3,Sir I must say you are the Gem. This 6:35 Mins video has taught me what our Phd Dr. 3 Hrs with 50 slides cant.... Hat's off,True
+@maliknauman3566,2022-02-12T06:48:53Z,1,Sir you are awesome....,True
+@infinisidoracle4487,2022-02-08T13:59:32Z,1,what an amazing start ...this is how every educational channel should start including some surprise element in their lectures. statquest (rhyming ),True
+@eric752,2022-02-08T00:05:18Z,0,It seems many books use different words: underfitting and overfitting,True
+@hou950,2022-02-06T19:11:27Z,1,Watching your videos made me cry 😢 I love it so much,True
+@hou950,2022-02-06T19:10:44Z,0,I love my daddy my superhero,True
+@pratikkandalgaonkar4843,2022-02-03T04:37:08Z,1,Thankyou so much!!!!,True
+@juanwang3705,2022-01-25T10:37:52Z,1,really like the courses. thank you!,True
+@marsss5929,2022-01-23T21:24:18Z,1,life saver as i prep for a ML interview :) thank you !,True
+@robbiedeegan3121,2022-01-23T14:23:40Z,1,Very helpful. thank you!,True
+@konstantynstats7833,2022-01-19T18:17:09Z,0,Can you make a video about loss function for regression and classification?,True
+@185rahul,2022-01-15T14:18:47Z,1,"My lecturer confused the hell out of me but this made it so easy, thank you!",True
+@organizedchaos1925,2022-01-04T19:28:15Z,0,Hi! I'm trying to make these refreshers intuitive for myself. 3 Mins in- why are we squaring up the distances prior to adding them?,True
+@sarabg8825,2021-12-28T12:20:49Z,1,Thanks,True
+@Yourdaddy_2024,2021-12-27T12:09:39Z,48,I wish professors taught like this!! Such clarity - I am so thankful to you.,True
+@manaspatil4316,2021-12-22T11:46:18Z,0,3:09 if was just the matter of avoiding negative values we could also used modulus function.there is one more reason for using squared term :  that squared function is differenciable. But modulus is not!!!,True
+@ingame7947,2021-12-21T16:28:24Z,1,Good and nice,True
+@l.halawani,2021-12-15T14:14:58Z,1,Thumbs up for the intro. Anything more is a bonus :D,True
+@aleksandartta,2021-12-12T23:38:33Z,1,"Thank you! Can we give some measure, i.e. which values are acceptable for trade-off between train and test accuracy? How to define that?",True
+@dinomichael1487,2021-12-05T17:03:50Z,1,What a gent.,True
+@maxTALBOT25,2021-12-01T18:07:02Z,1,omg without this videos id have zero knowledge in ML,True
+@sumandhamala4807,2021-11-27T10:32:33Z,1,"This channel is so underrated, You are life saver sir. I tip you my hat.",True
+@arthurus8374,2021-11-26T09:23:27Z,1,"Thanks a lot, man.",True
+@jahanvi9429,2021-11-19T11:16:40Z,1,"Oh my God, thank you so much!!!",True
+@videos4mydad,2021-11-19T06:33:03Z,1,My GOD! you are the first person in my years on this planet to explain that we square those damn numbers so negatives dont cancel the positives!!!! Jesus Christ! now i know.,True
+@daniyalshah1736,2021-11-02T09:26:47Z,0,"My teacher used your slides to teach us, thank God i got this video 😂 BTW great work",True
+@lucienzimmermann,2021-11-02T08:05:50Z,6,I could simply replace my tuition payments with payments for a YouTube Premium subscription. Much cheaper and easier to study :D,True
+@lucarauchenberger628,2021-10-27T15:42:35Z,1,this is insanely well explained,True
+@wanderingseeker2932,2021-10-26T17:19:28Z,1,That was Smoooooth!!! Bammm!!!,True
+@ShahnewazKhan,2021-10-25T06:28:04Z,1,thanks!,True
+@ghanilawal6798,2021-10-21T15:18:33Z,2,You are probably the best resource when it comes to understanding the fundamentals of Machine Learning... like it's not even close,True
+@shobhitsadwal756,2021-10-20T10:33:46Z,3,"ohhh nooooo , i thought that bias meant errors and variance meant variation of the data .",True
+@adamoja4295,2021-10-07T08:21:55Z,1,So this is when my model is overfit ..,True
+@adamoja4295,2021-10-07T08:21:14Z,1,What’s the difference between variance and bias in a model ?? Ah I always wondered .. now I know .,True
+@sophiexia9719,2021-09-30T19:57:34Z,3,The melody reminds me of Phoebe Buffay.....anyways continue studying....,True
+@gbchrs,2021-09-30T16:43:52Z,1,"what does it mean when we set the option for bias to False in python, since bias is supposed to be low/high 🤔",True
+@iho2437,2021-09-28T23:36:45Z,3,"Josh , I don't know which i love more, your songs or your lessons on stats. You're amazing.",True
+@kushagraagrawal7292,2021-09-28T17:01:06Z,1,FFS my university is filled with world famous research professors that dont know how to teach and couldnt explain this concept in hours of lecture :( thank you so much!,True
+@shawnmkalish,2021-09-25T18:22:35Z,1,Well done,True
+@niceboy7517,2021-09-22T10:34:18Z,1,You are a blessing to us !! Can't thank you enough !! I tried rhyming like you !! 😁,True
+@abhi9029,2021-09-21T11:50:16Z,0,what is true relationship?,True
+@vasundhrabisht8941,2021-09-17T18:48:08Z,1,Binge watching these videos! Best material I've ever found!,True
+@jakebrusca49,2021-09-17T16:29:09Z,0,"Does the bias depend on just the model itself or is it a measure of the model with respect to some data? Say, for example, would a linear regression have a high amount of bias if you were fitting it to a 'nearly' linear dataset?",True
+@arturmostowiak9427,2021-09-14T12:39:39Z,0,I don't understand one thing. How can squigly line have low bias if it performs so bad in many data sets different than the training set?,True
+@darkexodus6404,2021-09-14T07:55:07Z,1,I understood it clearly - TRIPLE BAM!!,True
+@efisgpr,2021-09-12T04:27:29Z,1,"LOL 🤣 ""Oh no! Terminology alert!"" 😂",True
+@tibofordeyn1529,2021-09-07T21:27:41Z,0,And how do you code this?,True
+@rafaellopezmartinez6200,2021-09-06T02:57:21Z,0,"Actually you can fit a polynomial of degree n with linear regression. What makes it linear is not the fitting of a straight line but the linearity of the coefficients associated to each predictor. Beside that point, great explanation! Thanks",True
+@aroonsubway2079,2021-09-04T21:08:11Z,1,"Best explanation I have ever seen.  I could remember ""underfitting->bias"" and ""overfitting->variance"", but I was always confused why bias/variance were used to describe these issues. Now I realize ""bias"" and ""variance"" are properties of models wrt future data:  When a model overfit on the training data,  its performance on a random test data is unpredictable,  so it has a high variance.  On the other hand, when a model underfit on the training data. its performance on a random test data would not change a lot (probably equally bad, so we say bias is large), so it has a  low variance.",True
+@ThickRunner,2021-09-03T04:26:33Z,0,I would love to hear from the 187 people who disliked this video.,True
+@Max-sc8qj,2021-09-02T18:38:14Z,2,"Thank you for your work Josh, I learn more from your six and a half minute videos than I do from six and a half of hours of textbooks and classwork",True
+@neil3850,2021-08-23T16:11:20Z,1,Thank you,True
+@BroaderBasicsBuddy,2021-08-10T05:38:26Z,1,Great hearts for StatQuesTTTTTTTTTTTTTTTTTTTTTTT!!!!,True
+@nancyanderson5413,2021-08-09T22:36:32Z,1,Thanks for everything,True
+@tusharbedse9523,2021-08-05T14:37:08Z,1,loved it thanks!!!!!!!!!!!!!,True
+@ladantazik3637,2021-08-04T19:23:28Z,1,Thank you so much Josh! your tutorials are awesome!! Tripple BAM!!!,True
+@indrapriya7040,2021-07-29T16:04:39Z,1,hahaha phobeee buffay cover song smelly cat smelly cat what are they feeding youuuuuuuuuuuuuu,True
+@sourabhch3044,2021-07-25T20:07:38Z,1,"Please release the album, I’ve seen you turn into a computer guy from a singer.",True
+@johnhutton7313,2021-07-16T15:20:13Z,4,"You’re on my list of guys I’ll buy a beer for if I ever see in a bar. You, Jeremy Howard, and the folks over at Deep Lizard.",True
+@romankovalchyk3620,2021-07-14T11:05:34Z,0,Very good explanation! Thank you! Is there any video about Logistic Regression like that?,True
+@MrRynRules,2021-07-12T00:18:24Z,1,"First of, that intro was lit! Second, i freaking loved your explanation, thank you so much sir!",True
+@nadzmiagthomas2054,2021-07-05T07:29:41Z,1,MARRY MEEEEE!,True
+@abdulkarim.jamal.kanaan,2021-07-03T07:27:08Z,1,great explanation; and I think it is best!,True
+@JohnSmith-ok9sn,2021-07-03T04:06:09Z,0,"What does this BAM, and DOUBLE BAM, mean?   I am very confused when he does that.",True
+@jasonfaustino8815,2021-06-30T14:37:28Z,0,This video is stupid. But I understand the lessons clearly. It is so stupid it is actually genius lol.   Thanks for everything man. Your vid really helps,True
+@mike19558,2021-06-25T08:48:52Z,1,I've always wondered why we square it!!!!,True
+@kangtaw,2021-06-22T13:50:37Z,1,Hail Lord BAM. Bless me with your BAM 🙌,True
+@msyazwanonn4701,2021-06-22T08:44:19Z,1,gotta love the song,True
+@vantran3940,2021-06-19T07:00:05Z,1,I love your videos so much <3,True
+@Shivoct10,2021-06-08T05:48:45Z,1,I enjoyed the real world Sheldon Cooper Style teaching! I am going to attend few others too! StatQuest with Josh Starmer is my latest sub!,True
+@chrisanderson1513,2021-06-07T20:10:10Z,0,3:10 You don't square the distances so they can't be negative - distances can't be negative in the first place.,True
+@minma02262,2021-06-06T07:07:45Z,1,"Why use square, instead of the absolute value?",True
+@Vikinatorn,2021-06-04T14:46:55Z,0,"At what point exactly does it stop being just regression analysis and start being machine learning? The machine didn't learn anything, the user learned what function describes the height of mice given their weight.",True
+@lynnl2033,2021-06-03T02:15:33Z,1,"I really like your videos. I supported it by having an album. I hope you enjoy your life and be brave~! In my point of view, you contributed much more than many who stayed in academia.",True
+@maydahmar806,2021-05-29T09:23:38Z,1,GREAT!!!!,True
+@amirmohammadjalili2676,2021-05-22T17:23:16Z,3,"It couldn't have been made easier to understand these concepts.Great job, I hope your journey to making abstruse concepts easy to understands doesnt end here",True
+@LC-rw3lt,2021-05-18T10:11:57Z,1,WHAT IS STATQUEST? MY LIFE SAVER,True
+@abdulsami5843,2021-05-15T00:36:47Z,1,A tonne of thanks man,True
+@shadabhasankhan1518,2021-05-12T11:57:14Z,1,Thanks,True
+@sreekarparuchuru3325,2021-05-08T08:30:04Z,2,It is really DOUBLE BAM!!! thanks a lot for making such videos.,True
+@funnyvamsi4008,2021-04-25T10:24:28Z,1,Loved the explanation! Thank you very much!,True
+@RageNukes,2021-04-15T20:08:08Z,0,"How would we go about measuring bias and ""the consequence of variance"" (is there a word for this?) if we don't know the true relationship between the variables. If we knew the relationship then we wouldn't need to approximate it in the first place.",True
+@bipinmaharjan4090,2021-04-14T12:21:58Z,0,I think this is more simple to understand but conveys the same meaning as this video is trying to say. - The difference between the expected fit line and the training fit line is called bias.  - The difference of fit between the training set and the testing set is called variance.,True
+@bipinmaharjan4090,2021-04-14T12:09:48Z,0,I am the only one who did not understand this???,True
+@amribrahim7850,2021-04-09T07:03:15Z,4,You're gifted to turn unclear concepts to pretty clear ones. Baaam!,True
+@duyngoc6760,2021-03-28T04:02:16Z,1,"Like many video from  you, this is extrema awesome !!!",True
+@maruthisailingampalli6192,2021-03-27T13:58:54Z,1,excellent explanation sir,True
+@MollishreeSoor,2021-03-27T08:26:31Z,1,Just love it.. love the way you present it..😁😁,True
+@ramakrishnanchandran2801,2021-03-26T10:50:18Z,1,It was one such explanation where the concepts are crystal clear and crisp.. Thanks a lot,True
+@tymothylim6550,2021-03-24T09:08:02Z,3,Thank you very much for this video! I am learning a lot from it and it helps me understand what people mean by Bias-Variance tradeoff!,True
+@dinara8571,2021-03-12T12:48:35Z,1,I got to the point where I first check statquest if I come across unfamiliar topics. Thank you so much for all of your hard work!!!,True
+@namduong8437,2021-03-09T09:07:37Z,1,"I learn things by visuals and examples. When i read Kaplan and possibly CFA textbooks, it seems that they just don't understand what they are talking about or they may have trouble explaining the concepts intuitively. I'm thrown with a bunch of different terminologies that are seemingly unrelated, confusing, random. Though my main purpose of watching these videos is to understand the CFA materials, i may be interested to see other videos in your channel as well",True
+@nadavnavon2140,2021-03-07T12:16:54Z,0,"Really great video, thank you so much!  I wonder if maybe you can quickly explain the difference between R2 and error function sum((yi-yi^)**2) / n) or maybe address to your videos regarding these metrics?",True
+@BenStoneking,2021-03-06T17:55:44Z,12,"My masters course in ML has been challenging. Getting washed over with lots of maths with greek (I've only taken calc I) and statistical jargon (never taken stats) when I am a simple computer science pleb has made class really hard. These videos are making light work of looking past the confusing figures and long-winded over-technical lectures! Thank you, Josh. Thanks, StatQuest!",True
+@suri6294,2021-03-02T22:13:03Z,1,Can you please make a video explaining Approximation Error and Estimation Error?,True
+@muskanbhagat8598,2021-03-02T11:08:42Z,1,You are incredible! never thought that learning would be this fun.! thanks to you!!,True
+@cosmic_voyager_,2021-03-01T08:55:51Z,1,"Love from India 🇮🇳, you are awesome Josh",True
+@tymothylim6550,2021-03-01T02:02:01Z,3,"Thank you, Josh, for this wonderful video on Bias and Variance in ML. It was a great visual-heavy explanation and the explanations were made very clear for these two concepts!",True
+@bfterrizzi,2021-02-25T20:54:31Z,0,The first BAM! on this one really slapped.,True
+@HealthyFoodBae_,2021-02-23T08:30:41Z,1,🤣♥️🙏🏽,True
+@HanySalama,2021-02-22T19:42:48Z,1,perfect 👍🏼,True
+@bethelihemseifu3406,2021-02-22T16:13:56Z,0,"Great, can you please make a video about the non-parametric methods of ML and estimators?",True
+@francoagustintorres4642,2021-02-21T10:42:51Z,0,The 'true' relationship curve is the Ground Truth? I'd like you explain that to me,True
+@francoagustintorres4642,2021-02-21T10:28:38Z,1,"The error is squared mainly cuz we punish the bigger numbers, instead of only get their absolute value.  So if we have an error of 1 [y_0 (actually position) - y_1 (expected position)], it'd be 1. But if we have 6 it'd be 36.",True
+@mariacamiladurangobarrera2821,2021-02-14T17:15:05Z,1,"thank u so much, you made it easy and clear.",True
+@katwoods8514,2021-02-14T16:03:57Z,1,I love that you explained why you square the differences! Most people don't bother explaining that and it always seemed strange to me.,True
+@Viralvlogvideos,2021-02-14T15:45:41Z,1,"I learned so much from your videos your one of the great teacher out there, why don't u write a book and make a udemy course,  so that we can support your work",True
+@brazilfootball,2021-02-13T00:30:18Z,0,This is not the same variance as SD^2?,True
+@Dr.Munshi-Naser,2021-01-31T18:48:31Z,1,How to you make your vedio Sir. Specially animation part. I am a teacher and would like to share your way of teaching. Please help. Thanks...,True
+@sidharthrunwal6833,2021-01-31T10:09:37Z,1,brilliant video Josh! very well explained :),True
+@gauravkapoor111111,2021-01-25T10:49:51Z,1,Why cant the profs teach like this? I would not have bunked a single class. Okay I wouldn't have bunked as many.,True
+@xuehaizhou5503,2021-01-20T22:49:41Z,0,"dude, your music talent is wasted in the trade of ML.. even though another way around might be worse...",True
+@jonasfelix7700,2021-01-19T09:07:41Z,1,This is so much fun to watch :-D.,True
+@jiayiwu4101,2021-01-17T16:06:02Z,0,Would cross validation be one way to find the sweet spot as well?  6:05,True
+@theNeuo13,2021-01-16T16:32:49Z,1,"why do I hear ""smelly cat smelly cat ......""",True
+@rahulisgr,2021-01-06T23:06:21Z,1,This is just awesome,True
+@phonethiriyadana,2021-01-02T06:32:42Z,1,very clear explanation. I wish I had found this channel earlier :) Thanks to Terrence Shin for his introduction to this channel in his posts.,True
+@CapoeiraPiper,2020-12-24T04:47:02Z,1,People are letting youtube rabbit holes radicalize them and here I am finally gaining a deeper understanding of complex stats,True
+@paulntalo1425,2020-12-19T23:52:08Z,1,Thank you for the video,True
+@kisho2679,2020-12-17T12:31:55Z,0,"What is the difference between ""Artificial Intelligence"" vs. ""Machine Learning""?",True
+@tonygeelen4875,2020-12-11T14:22:27Z,0,"Hi Josh, looks like the curved line fits the best. Why not using the curved line for predictions?",True
+@KansasFashion,2020-12-09T05:27:51Z,0,Thank you brother!,True
+@KristoferPettersson,2020-12-08T18:38:02Z,0,"At 2:23 you say that the inability to capture the /true/ relationship is called bias, but  then in 2:51 you say that the squiggly line which is hug at fitting the data points has little bias. The data points are not on the line and the squiggly line does not match the /true/ relationship of your light blue arc. This is a bit confusing. I suppose that if you fit your data points in the training set you have high bias for that subset of the data set because mean errors are low? But if you use the same model on the test set you will have high variance for that subset of the dataset because the mean test scores are high. Also, I wonder, most of the time we'll never know what the true relationship when we do ML, so is there any point in anchoring the definition of bias and variance to this unknown rather than to just the available observations?",True
+@Fat_Cat_Fly,2020-12-07T13:03:07Z,2,thank you so much!,True
+@gurkanyesilyurt4461,2020-12-01T09:22:53Z,1,super explanation,True
+@youtubecommenter5122,2020-11-27T19:38:30Z,2,Perfect explaination!,True
+@lalakuma9,2020-11-27T18:34:38Z,1,You've saved me from failing my machine learning class. Thank you.,True
+@looli1327,2020-11-27T15:41:37Z,1,Wow. I actually understand now. Thank you 🙏,True
+@Pmarmagne,2020-11-22T18:39:20Z,2,You automatically get a like from me for all of your videos just for the intros,True
+@redviper20,2020-11-17T04:11:44Z,1,I understand it now!!!,True
+@WolfCronosGaming,2020-11-13T08:39:20Z,1,I love you man ty,True
+@statquest,2020-11-11T18:25:26Z,295,"Correction: 4:06 I say that the difference in fits between the training dataset and the testing dataset is called Variance. However, I should have said that the difference is a _consequence_ of variance. Technically, variance refers to the amount by which the predictions would change if we fit the model to a different training data set.  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@bharatbajoria,2020-11-11T16:30:40Z,0,Isn't Variance E( f(x) - E(f(x) )^2 ) where f(x) is one of the models used to fit the dataset using a sample of data. You are defining test error as variance.,True
+@huichulin,2020-11-10T10:01:37Z,0,Thank you for the guidance. Very impressive. I am a fresh in ML. And have multiple Qs!!!! May I send individual message to ask you?,True
+@kostisole,2020-11-06T08:01:02Z,1,Life saver!,True
+@jennydavies6973,2020-11-04T07:33:43Z,12,"I have watched many of Josh's videos several times. Whenever I find myself trying to remember a concept, I know that a StatQuest video will sort me out in 10 minutes or less",True
+@kavehmc2649,2020-11-03T14:43:56Z,2,Great! Thank you,True
+@saqibperwaiz4043,2020-11-02T20:46:58Z,0,Should the machine learning playlist be followed in specific pattern or I watch it according to the playlist order?,True
+@finderlandrs7965,2020-10-28T18:32:19Z,0,"Hey Josh, how can we measure/calculate the bias and variance of a model (if they are measures)?",True
+@royalzak4019,2020-10-25T10:52:26Z,1,I am ur new subscriber..,True
+@tusharbarman1924,2020-10-22T04:28:54Z,0,Do you have the slides I need them,True
+@vinayemmadi9467,2020-10-21T06:47:51Z,1,You are the best,True
+@Just-Tom,2020-10-20T11:30:27Z,1,I think that was your best song so far,True
+@Tyler-kh6gp,2020-10-19T16:51:58Z,0,Did you label the time sections on this video or did Youtube do that automatically?,True
+@khushboojoshi7811,2020-10-17T19:49:07Z,1,"This is an excellent series of machine learning, and I especially like the song at the starting of the video. Thank you statquest❤️",True
+@edufruit,2020-10-17T11:15:00Z,1,the introduction songs are great,True
+@mt2yo,2020-10-16T21:19:22Z,0,They just get more obese... :(,True
+@Mahdi-zd7yo,2020-10-13T21:07:41Z,1,This is the first time i comment on a video in 2020. But i have to give you a huge thanks and may god bless you!,True
+@aj-tt9qh,2020-10-09T12:21:04Z,2,subscribed after the intro,True
+@shri__can,2020-10-05T09:53:48Z,0,Marshall Eriksen teaching Machine Learning,True
+@arthiv2470,2020-10-04T23:31:45Z,1,I am extremely grateful,True
+@thryce82,2020-10-03T00:44:03Z,1,i spent 2 hours reading some bs explanation in ISLR about this and got a much better explanation in  < 7 minutes thru here.  thanks for your work boss,True
+@rojitrojit6576,2020-10-02T19:21:41Z,0,What a fucking gem! Nothing but praise. BAM!!!!,True
+@AnubhavChhabra,2020-10-01T14:32:22Z,1,What a beautiful explanation!,True
+@malihareza4754,2020-10-01T07:10:17Z,1,Nicely explained. Thank you,True
+@ksrajavel,2020-09-28T11:37:59Z,1,"""Dark Clouds Filled the Sky... but that didn't stop StatQuest..."""" Same exact moment happening for me while typing this on Velachery, Chennai (28 Sep 2020, 1700 hours)",True
+@y.gromyk,2020-09-25T14:31:27Z,452,4 hours of the lectures with a lot of complicated math: got nothing 6 minutes with the singing guy: *DOUBLE BAM*,True
+@matouspikous7489,2020-09-24T08:01:53Z,0,"If the guy wasn't so arrogant, it could be a good video.",True
+@fanati7637,2020-09-23T13:24:16Z,3,"Great job man! Seriously, you made my journey in data science easier 👍",True
+@martini3898,2020-09-23T04:48:02Z,1,thank you so much! i'm in a data science masters program and you explained this better than my professor and textbook.,True
+@naveenmallampati3294,2020-09-22T16:17:20Z,1,"wowww,, watta an explanation, dontt know what these great institutions are for?",True
+@afincongcingboy,2020-09-21T04:55:08Z,1,BAAMM,True
+@ilya9481,2020-09-19T03:33:33Z,0,"1:25; why did you split the data into 50/50 train/test sets. Shouldn't we use more data to train the module? Btw, you videos are amazing/",True
+@SkandanKA,2020-09-18T06:45:47Z,2,AWESOME EXPLANATION !!!,True
+@sonsangsom,2020-09-17T08:41:09Z,1,Brilliant 🐮🐮,True
+@rjuez00,2020-09-17T08:23:21Z,2,"fucking awesome, better than Michigan University in Coursera haha edit: the course is really good but that specific lesson wasn't very clear",True
+@AdityaRajPVSS,2020-09-14T17:40:08Z,1,Are you a magician .....lots of respect to your knowledge and ability to explain,True
+@Dekike2,2020-09-10T18:56:27Z,0,"Hi Josh!! First, thanks for your videos. By the way, I bought one of your t-shirts, they are cool :).  Can I ask you something in line with the concept ""bias""? I don't know if this video might be a solution to my problem. I am doing my PhD and one of the things I want to do is to discuss about if a method of obtaining data is biased. Let me explain with a simplified example: I have measured the activity of an animal in continuous over 1 day at time windows of 60 seconds, so then, I have 1440 activity values of my individual. This was done using ""Technology A"". Then, using another technology (""Technology B""), I got random samples for those same 60 s time windows and for the same day. Let say I got 200 samples. My ""big"" question is,  is the method ""B"" biased in the way it obtains activity data? Method ""B"" used acoustic signals to send data, and I suspects that my animals' behaviour influences the type of activity data I obtain through the method ""B"", because when my animal is hidden the acoustic signal is not received by the receiver (satellite, etc.). In my case, the activity data distribution is sharply non-linear for both sources (A and B techniques), with the majority of the values close to 0 and then, the further from 0, less frequency of values. What did I do? What I did so far was to run a non-parametric test (Wilcoxon Test) to check if A and B activity values belong to the same population, and if not, then I run a ""greatest Wilcoxon Test"" to test if B > A. I think that the Wilcoxon Test accepts unbalanced samples. However, my colleague says that he is not sure that we can talk about bias here. Given your expertise in statistics, Could you tell me if I can talk about bias in my case? Or, is there a way to do the analysis to be able to talk about bias in the method B? I would really appreciate your advice a lot... I am desperate!.",True
+@kushshri05,2020-09-08T11:49:24Z,1,Can anybody find the explanation of Bias-Variance as simple as he did?? A BIG NOOOOOOOOOOO,True
+@randomstuff1690,2020-09-05T12:19:55Z,1,BAM5!,True
+@AngeloYeo,2020-09-02T01:16:31Z,1,Simple but easy to understand... and makes sense to other explanations with definitions you gave me. Thanks xoxo,True
+@Anuraag-oh5eb,2020-09-01T13:45:45Z,1,great content! Thank you,True
+@VijaySharma-tl1ib,2020-08-29T08:59:44Z,5,"After watching more than hundred of videos on machine learning, i find your way of explanation very easy to understand and digest. Plus, i am really amazed with the way you start your lectures and wait for 'BAM' to come.",True
+@jacknayem,2020-08-28T10:17:30Z,1,Thank you so much. It's really helped me.,True
+@ajayrajbusiness9817,2020-08-27T15:40:50Z,0,"Hi Josh, Thank you for the simple and clear explanation. While working on a realtime data to build Regression model, how do we check for bias and variance in our models?",True
+@AleDSan3,2020-08-25T14:07:09Z,2,You’re a legend!! I love your videos :),True
+@hohohoupufuru,2020-08-24T16:29:14Z,1,You are a scholar and a gentleman. Thank you for explaining what my lecturer tried to explain in 2 hours in 6 minutes.,True
+@abrahamjacob7360,2020-08-19T02:01:37Z,0,"Josh, this is a great video. One question on the Polynormal Kernal derivation. So the original problem was to find a classification point to find drug usage limits that cures or doesnt cure the disease. When we increased the value of 2, you mentioned it introduced a second dimension. I understood, how squaring the value helped to find a better Marginal classifier line, but ideally there is no meaning to the y axis here right, because the case still remains the same. We are just finding if the drug usage had a positive or negative impact. we could still use the y axis to determine its efficity, but if we increase the value to 3, what would Z axis represent here. Sorry if the question was confusing",True
+@Aditya_Kumar_12_pass,2020-08-17T05:59:45Z,2,"boom , i was looking for this",True
+@dellaoktaviani7985,2020-08-14T03:23:49Z,0,"I have a research for my study,  my method is Support vector regression RBF to predict stock price using Rstudio. But i found the bias of kernel is minus (-) value. That's impossible ?  Please give me the great answers.  Thankyou",True
+@horace7763,2020-08-14T00:45:16Z,0,Vaya pichula tan grande que tienes para explicar. Ty master!,True
+@thepixelberry,2020-08-11T19:55:40Z,1,"Great, great video! Thank you!",True
+@mehraadi09,2020-08-10T18:01:39Z,1,I pray that someday I can meet you and learn from you in person.,True
+@olemuell5979,2020-08-06T13:41:38Z,1,psst the distances are squared so the larger distances have a higher penatly,True
+@jeffgalef121,2020-08-06T02:02:17Z,1,"You're absolutely fantastic at making the complicated seem simple.  You should create a course on Udemy, Coursera, etc.  I'd take it.",True
+@alisalman5229,2020-08-06T00:10:52Z,1,Great video as usual. Thanks a lot!,True
+@jenn6997,2020-08-01T13:08:54Z,5,"Paid thousands of dollars on Udacity, but ALWAYS have to come to your channel for a clear explanation. Love the way you explained all these complicated concepts Josh :)  (Btw, we met at IVADO's 100 Days Event haha:) )",True
+@yacoubhossam7542,2020-07-26T10:06:28Z,1,"Thx man always Good at explanation things  , keep the great work with low bias and variance",True
+@z3n691,2020-07-25T04:52:46Z,1,Don't know why people dislike your videos... I really like your intro though😂,True
+@katiedunn7369,2020-07-22T17:38:12Z,6,"I have paid for courses on edX and also have many free resources available to me through school- nothing has explained Bias and Variance as quickly and efficiently as you have in this video. Thank you, thank you, THANK YOU!",True
+@randomperson414,2020-07-21T18:50:32Z,1,I love your videos sooo much!,True
+@zamanmakan2729,2020-07-21T12:49:23Z,1,AWESOME as always!,True
+@BeSharpInCSharp,2020-07-19T12:26:21Z,6,youtube should give option to add thousand likes. Your channel beats paid ML courses out there hands down.,True
+@ByWayOfDeception,2020-07-17T19:12:48Z,4,"I can't believe that I could just search for ""StatQuest"" and ""Dark Clouds Filled the Sky"" and this video came up.  Behold the power of prediction in action.",True
+@hasibahmad3660,2020-07-17T09:37:08Z,1,"I don't know why I subscribed to your channel a long ago and after a long time I have been searching for ML course and have found you. After watching the intro to ML, I have felt like wow I subscribed to a worthy channel",True
+@woodynani4394,2020-07-15T10:32:21Z,1,Great!,True
+@mankaransingh7300,2020-07-15T06:41:51Z,1,You are really Amazing Josh 🍺🍺🍺,True
+@vaibhav_uk,2020-07-14T17:52:00Z,15,Who on the EARTH disliked this video? Probably other content creators...,True
+@emmschila2668,2020-07-12T07:32:11Z,1,bundles of hugs and thanks,True
+@robbiedeegan3121,2020-07-10T06:39:10Z,1,Thank you for making these videos. They are very helpful and easy to watch,True
+@aidaebrahimi2437,2020-07-08T09:21:33Z,2,you are seriously  the absolute BEESSTT when it comes to teaching this things... thank you very much,True
+@shidulislam8168,2020-07-07T17:01:03Z,1,"I have been working ML for the last 4 months but fortunately, I found this tutorial which helps me a lot to go deeper.",True
+@manishkanyal4003,2020-07-03T12:14:54Z,0,"I have gone through many of your videos and your videos are very awesome , it would be really great if you could provide a ppt  : -)",True
+@khadidjaouldamer3572,2020-07-01T20:49:27Z,1,Thank you,True
+@hirakmondal6174,2020-07-01T05:01:24Z,0,"Hey, first of all as usual great video. <3  And is those slides of yours available anywhere? It will be great if u can share them.",True
+@stevennye5075,2020-06-27T14:53:15Z,1,well done!,True
+@baldeaguirre,2020-06-25T00:47:34Z,0,how to give enough flexibility to the line in linear regression so in order to have a curve instead of a straight line to better fit the data points?..,True
+@celsiusfahrenheit1176,2020-06-23T22:59:07Z,0,"Smelly cat, smelly cat...let's learn machine language...",True
+@enriquecguerra,2020-06-23T17:56:23Z,1,I love this channel,True
+@tharukabalasooriya3269,2020-06-21T06:34:11Z,0,"your lessons are better it will be much better if you can talk a bit more speed I'm watching 2X but still, i get board!! the only reason I still here videos are watchable edited: Thanks for The Responding",True
+@madnessgain443,2020-06-21T06:32:48Z,1,Wtf loved it,True
+@madnessgain443,2020-06-21T06:26:45Z,1,What a intro,True
+@chiragpalan9780,2020-06-17T12:58:25Z,1,Nothing can be better than this in 6.35 mins... It drives me crazy... stopped watching courses on ML of the bigger names.... will continue with #statequest. Its double BAM!!!. Love you Josh.,True
+@sime96,2020-06-15T08:53:23Z,0,"Does this mean that a particular model can have low bias for, say, data set A and high bias for data set B?  Also, do we say that it has high variance because of this large difference between ""fit"" when applying the model to data set A and data set B?",True
+@MorganFABRE,2020-06-14T13:20:18Z,3,"BAM ! Mindblowing how clearly explained these videos are, with even a sense of humour and some home made music. Really nice work, hats off.",True
+@BM-uf4pp,2020-06-12T12:41:10Z,1,Best explanation on this topic,True
+@BhanutejaAryasomayajula,2020-06-11T18:03:58Z,11,So much of quality content on Machine Learning!! I wish I knew about this channel a bit before. A must follow channel for ML & DS enthusiasts. Great job Josh :) Please continue the good work and serve the humanity!!,True
+@---wu1so,2020-06-09T16:08:49Z,1,bias = accuracy variance = consistency,True
+@RS-el7iu,2020-06-09T12:51:52Z,1,its amazing how 6 minutes video did a far (and i mean really far) more better job in explaining the concepts than hours spent on articles that did nothing but increase confusion. thanks a lot for sharing this... much luv,True
+@felixgrant1,2020-06-08T23:32:25Z,0,That Hurricane Florence joke is a 4/4,True
+@ahanapal4055,2020-06-08T11:01:35Z,1,Really helpful. Thanks♥️,True
+@Nil_money,2020-06-07T01:54:36Z,1,The opening song of this video is the best than all the remaining awesome opening songs of yours.,True
+@reniellechavez3689,2020-06-05T22:57:48Z,178,This guy has united his two passions—Machine Learning and guitar.,True
+@TheAcujlGamer,2020-06-04T22:47:30Z,1,That intro is the reason I love it,True
+@frankzhang6009,2020-05-26T17:32:28Z,1,Really clear!,True
+@chickentikkasauce1301,2020-05-25T22:54:44Z,1,What an amazing fucking video. Bravo.,True
+@marvelfan5444,2020-05-24T17:27:25Z,1,TRIPLE BAM,True
+@mortysmith8980,2020-05-24T11:51:08Z,199,Notes for myself: Def. of Bias: The inability for a machine learning method to capture the true relationship is called Bias. Def. of Variance: The difference in fits  between data sets is called Variance.,True
+@rchaudhr,2020-05-19T13:38:49Z,1,"I was on a quest to understand Bias and Variance for a longtime until i saw StatQuest. Good work explaining, Josh.",True
+@kushalkittu6634,2020-05-18T10:25:35Z,1,Amazingly explained ! Subscribed,True
+@Vision267,2020-05-17T06:15:15Z,0,"using regression function in excel, we can find the best curve. cannot we?",True
+@ashishgambhir5825,2020-05-16T11:46:35Z,0,What is the nest step you recommend to become more good in ML after your course,True
+@joebater7830,2020-05-16T08:45:10Z,7,"Best, most intuitively understoood, explanation of this that I've ever seen!",True
+@cy9987,2020-05-15T16:48:06Z,1,Man you probably explain things better than Andrew Ng!,True
+@ankitsharma1943,2020-05-13T13:27:07Z,1,Thanks sir. Its gives me a detailed explanation,True
+@abhinandanchoubey9837,2020-05-13T08:09:31Z,1,"I can seriously binge-watch this Channel!!  Thanks,  @JoshStarmer",True
+@korayaptall,2020-05-10T21:14:17Z,0,Linear regression estimators are unbiased estimators. I dont understand what you mean by bias.,True
+@chiragpalan9780,2020-05-09T23:07:17Z,1,BAM!!!,True
+@BrandonSLockey,2020-05-06T11:17:13Z,4,"6:03 ahhh yes boosting, my favourite way to make money in league of legends ;)",True
+,2020-05-05T10:49:54Z,1,Crazy good! Thank u!,True
+@anqiwen6997,2020-05-04T21:55:46Z,1,Nice!,True
+@RahulSingh-rn4iv,2020-05-04T08:01:53Z,1,Clear and precise. Bam!!,True
+@nurwani556,2020-05-01T08:28:20Z,9,"very clear, no extra unnecessary ""noise"". I really enjoyed this lesson.",True
+@basmaal-ghali9174,2020-05-01T03:26:16Z,1,Thank u,True
+@BlaBla-zd7cu,2020-04-30T10:49:20Z,1,StatQuest is TRIPLE BAMMMMM!,True
+@shubhamshah5639,2020-04-30T09:04:57Z,1,"Fantastic Explanation, This channel is on god mode!",True
+@aggelosdidachos3073,2020-04-26T19:45:47Z,1,"I like your humor too. It is deliberately slightly bad which makes it even better! Also, after a lot of search, I finally found a tangible explanation of bias and variance instead of abstract definitions. So, thank you sir!",True
+@rakeshranjan9728,2020-04-26T16:57:53Z,1,"Dude you are awesome, this is my first video that I have seen from your channel. Plan on watching your other videos as well. Such great visualizations. just wow.",True
+@sayajijadhav2534,2020-04-26T14:24:52Z,1,What's is mean by aka?,True
+@tot9518,2020-04-26T09:21:03Z,1,awesome baammmm,True
+@PeterJMPuyneers,2020-04-25T22:21:25Z,1,very good explanation especially for someone who started studying statistics after getting his university degree 30 years ago,True
+@puffvayne5688,2020-04-25T13:25:20Z,1,"I like the opening song a lot, thanks for your explaining !",True
+@nishantkumarbundela8482,2020-04-25T10:02:28Z,0,low bias- overfitting.  high variance- overfitting.  BAM. My mind is confused.,True
+@bhargavpotluri5147,2020-04-24T02:46:55Z,1,"Yes. Better than many online and paid videos. I have gone through almost all the videos on Machine Learning of yours & started my 1st comment with your videos :). Thanks a lot. Can you please come up with one video where algorithms perform poorly as well, if you have time",True
+@camilaonofri2624,2020-04-22T16:20:18Z,1,best explanation ever!!!!,True
+@AyushGupta-kp9xf,2020-04-22T08:24:24Z,1,Best explanation ever,True
+@danielaesmaili2391,2020-04-19T20:36:24Z,1,Short and to the point and clear. Thanks,True
+@tarakb6480,2020-04-17T19:51:18Z,2,"After this video ,I played a  song of yours and ended up listening whole album""song of the month""  serious contenders to billboard sir 🔥🔥🔥🔥",True
+@ayannurlanuly185,2020-04-16T11:47:51Z,1,"Your ""BAM"" is absolutely ""BAM""",True
+@josephiles7515,2020-04-14T14:17:07Z,2,"What an outstandingly simple and intuitive explanation, bravo!",True
+@lilyha2470,2020-04-14T01:02:44Z,0,"Hi, how do you decide which data points are supposed to be in the training set and which one in the test?  are the training and test in this example are the same as ""Learning data set"" and the ""test dataset""?",True
+@nonamenoname2618,2020-04-13T15:09:55Z,0,"Can someone tell me where the terms ""bias"" and ""variance"" come from? I guess ""variance"" is due to the high variability of the fit, when a different training set is used. But what about ""bias""? Why not use ""underfit"" instead? And is there an easy trick to remember that bias goes with underfitting and variance with overfitting?",True
+@somjitmitra,2020-04-11T20:56:34Z,0,"sir i do have a doubt ...in overfitting we use to fit a curve on datasets to find the line of best fit , so it is a method for regressor? or it can be also used for a classifier?",True
+@philips2247540,2020-04-08T04:09:32Z,2,All your intro music give me a feeling tat the concepts are easy to understand....thanks you for building tat confidence.,True
+@busemaden5340,2020-04-06T14:38:13Z,1,Thanks for amazing explanation,True
+@harshadineth,2020-04-02T05:56:38Z,1,Best ML course. Love the way you are explaining.,True
+@nandhikaprayoga6510,2020-03-31T02:45:10Z,0,So bias is same thing like an error function in context of linear regression?,True
+@tomasramilison,2020-03-30T15:16:02Z,0,"Hi there, cool videos! I'm just wondering why ""straight line"" method is correctly referred to as linear regression, whereas ""squiggly line"" method was just referred to as squiggly line. Isn't it called logistic regression when we're using curves or am I missing something..?",True
+@bioinfo3,2020-03-28T12:37:53Z,0,Is Variance the difference in fits between training and testing datasets or between any 2 datasets?,True
+@GurunathHari,2020-03-27T13:07:15Z,1,"Josh, you said nonchalantly -""we square the distances so that negative and positive distances don't cancel out"" . Very few teachers ever tell. They just state "" we use residual squared. . blah blah and just move on""  dumb students like me are left wondering why. dumb because we don't know how to ask the question 'Why do we square it""  :) After many years i got the answer. TRIPLE BAM for me. I.E Thank you so much. All this besides a masterly understanding of the concept of bias variance tradeoff in the bargain ;)   BTW Josh https://joshuastarmer.bandcamp.com/  says IP address not found..would love to contribute.",True
+@marystreet7661,2020-03-23T23:02:42Z,1,"i found this so clear and helpful thank you! one question - can you explain the difference between the ""residuals"" and ""predicted errors""? I thought the vertical dashed lines from the data points to the regression line was the predicted errors (the difference between the predicted and observed value). But now I am understanding (I think) that the residuals are the difference between the observed values (from the training set) and the predicted values (a.k.a. the regression line) and the predicted errors are the difference between the observed values (from the test set) and the predicted values (a.k.a. the regression line). Is my understanding correct??",True
+@AjayKrews,2020-03-21T12:17:47Z,2,"This is absolutely brilliant M8, crisp, clear and very concise. Well Done!! You've got one more stat fan now!",True
+@siberianpie,2020-03-21T11:47:37Z,1,"Wow, you are amazing!!",True
+@ms_1918,2020-03-13T10:23:05Z,2,best video ever,True
+@25kirtan,2020-03-12T11:52:34Z,1,My favourite education channel,True
+@jorgeandresfranco3249,2020-03-12T01:04:42Z,1,Thank you.,True
+@trevorcousins,2020-03-11T20:52:44Z,1,excellent description. Thanks!,True
+@wingtsang8722,2020-03-08T22:30:47Z,0,"i heard there's also bias-variance tradeoff, could you please elaborate it?",True
+@paradise_relaxation,2020-03-05T19:18:26Z,1,Your introductory music is always awesome,True
+@yomaru_1999,2020-03-04T06:47:57Z,4,"The video is good. Thx a lot. I also like the ""Double Bams!!!""",True
+@MrCordlu,2020-02-29T19:30:40Z,1,Your lessons are amazing good.,True
+@RahulEdvin,2020-02-19T17:36:59Z,1,You are a Legend Sir !,True
+@any_moment,2020-02-18T01:41:09Z,2,I subbed immediately after I heard the intro song I like that.,True
+@mohammadreza8832,2020-02-14T13:11:14Z,1,Man you're my boss:),True
+@hirdyanshbhalla8037,2020-02-13T18:47:06Z,2,Because of your wonderful humor you just earned a subscriber ☺,True
+@sachof,2020-02-11T22:28:20Z,0,I think we can use two more terms : flexibility and generalization  - The flexibility of a model to fit the  training dataset ( bias) - the ability of the training model to generalize to the test dataset ( variance )   The first one is tuned with hyperparameters and the second one with parameters.,True
+@pallavidandamudi7289,2020-02-07T21:27:21Z,1,This is the first video of yours I've seen & damn this is awesome!,True
+@luzanfero3398,2020-02-07T13:39:50Z,1,Wonderful!!!!,True
+@anilsarode6164,2020-02-06T13:12:22Z,0,Thanks a lot for this wonderful explanation.  I have one question-If the line or fit has zero bias does that mean it is always an overfit? second question If so the overfit always has high variance?,True
+@preranadas4037,2020-02-06T06:01:14Z,7,"Hi Josh! You are the ""God of ML and Stats"". You really made me fall in love with these subjects.  I had a query. According to you, if we cut the data into training and testing sets, what % should be assigned to test? I think it should vary with the amount of data, but is there a thumb rule?",True
+@otmanwerfaly879,2020-02-02T17:26:12Z,1,ربنا يحميك من ليبيا الحبيبة أحسنت وشكرا جزيلا,True
+@yahyakenoussi577,2020-02-02T17:24:52Z,1,thanks man !,True
+@sudeshnadutta5702,2020-02-02T10:35:50Z,0,Hi Josh. Great Video. Just one question - let me know if my understanding is correct or not. Bias basically occurs in the training data set when we compare the sum of squares for the train data. and when we compare that with the sum of squares on test data we understand variance. So what I am trying to figure out is for bias how do we mathematically calculate. like you mentioned we calculate sum of squares for figuring out variance. so what do we calculate exactly for bias?,True
+@pranaysingh3950,2020-02-02T08:21:07Z,1,You are a life saver for so many poor kids. Even Humanity doesn't deserve you. Keep going. Thanks,True
+@sandeepm.a309,2020-01-29T06:42:06Z,1,My life is more easier now !! Gracias..!,True
+@MehediHasan-fi2cp,2020-01-26T21:23:56Z,1,BAAAAAAM :),True
+@darshanjani7595,2020-01-19T16:21:09Z,1,man your song dopeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee,True
+@pradeepc5207,2020-01-17T14:24:35Z,0,"@StatQuest with Josh Starmer    Sir i have a doubt is squiggly line comes under which regression. As i know linear regression is of straight line",True
+@Ransel_music,2020-01-07T19:43:45Z,2,Thank you for making this video. Wonderful!,True
+@jonathanuis,2019-12-29T20:08:22Z,1,I do love the way you explain and the way you keep people alert to upcoming information,True
+@jatayubaxi4553,2019-12-29T17:55:37Z,1,Excellent.,True
+@mps6934,2019-12-25T13:53:01Z,1,"Simple yet concise explanation, thank you! Very helpful.",True
+@maylinmoraga5269,2019-12-24T14:06:54Z,1,"i love you, thanks for your works <3 <3",True
+@pratiknabriya5506,2019-12-23T16:17:58Z,3,I loved your composition Miss Carolina. You have amazing voice Sir!,True
+@alecvan7143,2019-12-21T23:28:57Z,2,Awesome as always!,True
+@RS-eo5ft,2019-12-17T19:44:42Z,0,doesn't understand..🙄🙄,True
+@domenicantoniogoglia1340,2019-12-17T09:26:37Z,1,YOU SAVED MY LIFE,True
+@rajarajeshwaripremkumar3078,2019-12-12T19:40:01Z,0,Is high bias and low variance bad?,True
+@markneuert2060,2019-12-12T06:33:09Z,0,"Great stuff!  I have a question. What is meant by ""simple"" and ""complex"" in the complex of models? For example, in my mind, a Ridge Regression is more complex than a linear regression because it has the additional term lambda, but Ridge Regression is a regularization technique that reduces variance by introducing bias.",True
+@sammydolgin,2019-12-10T20:09:21Z,1,thank you!!,True
+@kittipobkomjaturut8797,2019-12-08T10:29:56Z,9,"StatQuest terminology :  Bam with a high tone means this is the point you should understand. Little bam means something more important are coming. Double bams means at this point, you should be enlightened.",True
+@90fazoti,2019-12-07T19:54:46Z,1,just amazing one thanks,True
+@AliVeli-gr4fb,2019-12-02T21:18:24Z,0,"we take squared distance not because we want them cancel out (then think, taking 4th or 6th power would be as legit as 2nd power ) we take squared distance because it gives us minimum distance between two points in any number of dimensions ( actually we should always use generalised version of it, called Mahalonobis distance )",True
+@ritikkhatri,2019-12-02T10:51:13Z,1,"Very simple to understand, thanks.",True
+@sanat1102,2019-11-28T13:39:30Z,1,Your jingles are like Phoebe's!,True
+@jaliu,2019-11-27T17:16:23Z,1,such a good channel,True
+@0xh8h,2019-11-27T03:21:08Z,785,Better than lots of courses on Udemy. I really like your humor,True
+@9177049731,2019-11-26T03:41:08Z,0,Please do not include BAM!! And Double BAM!!!,True
+@Fields_Forks,2019-11-20T04:14:32Z,1,Very concise and easily understandable video. In the past I have read this topic in books and seen other videos but never understood bias variance so clearly earlier.,True
+@cherryandjaji5694,2019-11-19T14:39:29Z,6,The world of learning is still enjoyble cuz of people like you are still present,True
+@justinberken,2019-11-12T04:11:28Z,3,"Great video, very clear. Also, the graphics are intuitive. Thank you!",True
+@Monia77777,2019-11-11T17:55:54Z,1,I'll admit - I'm watching all of these on 1.25x speed :P But the content is TOP NOTCH. Very good for building intuition and understanding the core of every concept you're explaining. AWESOME JOB you're doing here ;),True
+@suhass6628,2019-11-07T13:40:27Z,1,This is awesome.....and i just found atleast 3 videos that have copied from this video.,True
+@Wogabaga,2019-11-04T00:34:00Z,1,your video is actually better than our lecturer....,True
+@batman4182,2019-11-01T17:18:25Z,1,Am i the only one who thought that he is kinda like Phoebe with his songs...,True
+@truptiraut9998,2019-10-23T10:13:12Z,1,thankyou so much ...,True
+@vikashc9165,2019-10-17T07:01:05Z,2,"Such a simple and elegant explanation, thank you so much ....",True
+@vivekmenon4118,2019-10-15T17:13:21Z,1,Another great video. Thank you!!!!  You couldn't have made it any simpler.,True
+@-long-,2019-10-15T08:22:23Z,2,"Clear and concise, extremely helpful for beginners before getting into the scary math behind",True
+@rushiraiyani8253,2019-10-14T00:25:21Z,2,"You, sir, are a legend!",True
+@ak-ot2wn,2019-10-12T17:48:48Z,0,"3:10: ""they are squared so that negative distances do not cancel out the positive distances"" -> why do we always do the squared errors instead of taking absolute values of the errors? These will be always positive as well. What's the difference, please?",True
+@jorgejgleandro,2019-10-11T12:26:22Z,2,"Man, you're very didactic! For each statement, there is a 'because', so that your students never ends with a question mark in the head. Besides that, you don't mind to repeat the because's again and again in different ways, and that's what make things clearer. Why can't teachers, coaches, tutors realize that? Triple BAMMM!",True
+@itsIs263,2019-10-09T03:06:45Z,1,thanks again my savior,True
+@kiwilovesyoutube,2019-10-08T12:51:39Z,0,This is so very helpful but I can't help but cringe when he sings in the beginning or when he says bam x),True
+@YAOZYVIDEO,2019-10-05T07:22:17Z,1,I cannot believe this channel only has 141K subs. Thank you for the great tutorials!,True
+@timobohnstedt5143,2019-10-03T01:47:50Z,1,I LOVE your videos!,True
+@JoelJohnJs,2019-09-28T16:21:55Z,1,Good Work 😀,True
+@Maya_s1999,2019-09-28T03:02:30Z,119,I went from BUMMED to DOUBLE BAM in six and a half minutes. God bless you!,True
+@ImShivamMaheshwari,2019-09-25T19:29:09Z,1,*Give this guy a medal*,True
+@yuthpatirathi2719,2019-09-17T02:08:38Z,1,Amazing explanation,True
+@Abdu572,2019-09-14T14:31:55Z,4,"linear regression (aka least square) finally, now I can die in peace. you explain things in very nice way.",True
+@hari20001,2019-09-09T18:59:02Z,3,Brilliant and clear  and concise explanation: the best i have seen!!! Congrats and many thanks.,True
+@Sgoose105,2019-09-09T07:56:35Z,1,what an interesting nerd Lmaooo,True
+@yusrashaikh1259,2019-09-06T13:12:06Z,1,"MAN!!! i was reading about bias and variance trade off, but not a word got into my head...this video made it beyond clear!! thanks a ton!!",True
+@srikarAilla,2019-08-30T05:43:44Z,17,3:09  psst. I can listen to this all day.,True
+@samarkhan2509,2019-08-29T07:33:31Z,1,Thank u soo much . Really liked the way u explained . I learnt n I njoyed it too. Plz make more videos like this on related topics.👍🏼👍🏼👍🏼👍🏼👍🏼,True
+@atisafarkhah5923,2019-08-24T10:43:30Z,4,PERFECT AND CLEAR!,True
+@sridevia4819,2019-08-19T08:38:02Z,1,Nice video. the concept was clearly explained with visualizations,True
+@ramanjha2277,2019-08-18T08:58:03Z,1,"Man, you are amazing. I have listened to many so called self proclaimed educators who are nothing more than assholes. You are great !!!",True
+@bhabeshroy3038,2019-08-17T14:12:22Z,3,Woah your original songs are beautiful too',True
+@bhabeshroy3038,2019-08-17T14:11:44Z,1,Awesome explaination,True
+@OttoFazzl,2019-08-16T13:13:32Z,2,I am a simple man: I see a StatQuest video – I give an upvote.,True
+@robertmurphy8084,2019-08-14T22:48:51Z,3,You should sell these videos as DVD sets. I bet a lot of educators would buy them.,True
+@parijatbandyopadhyay8057,2019-08-08T01:14:09Z,2,"Josh, Thanks for making such beautiful videos :) you rock man",True
+@gomes8335,2019-08-05T11:32:42Z,0,The BAMs are quite cringy,True
+@talesaraujo979,2019-08-02T02:01:04Z,0,"It's been a while I had sent a Portuguese translation to this video (b/c I really like your channel and I thought it was a great video to explain these ""tricky"" concepts - I wanted to show it to some awesome ppl who don't understand English properly). Why didn't you take it, though?  =(",True
+@danielpipa,2019-07-31T16:21:19Z,0,The concepts of bias and variance are wrong. The correct are bias = E(\hat{\theta} - \theta) and var = E[(\hat{\theta} - \theta)^2]. They measure respectively how well the estimator performs in the mean (positives do cancel with negatives errors!) and how spread are the outcomes of the estimator.,True
+@joelvaz8115,2019-07-26T19:19:42Z,3,"Thanks man, i do not know what the start was about, but your video really helped me. Thanks",True
+@ahmedelsabagh6990,2019-07-24T22:29:16Z,1,Extremely Great,True
+@dropfiremusic4752,2019-07-22T18:26:40Z,5,"I have understood not only the Bias and Variance,  but also even more ML terminology that has been quite difficult for me to understand until this point! Keep it up brother! Very good job :)",True
+@CerebroneAI,2019-07-17T16:44:01Z,1,"Awesome and meticulous explanation , keep it up Josh !",True
+@salnaud8898,2019-07-17T11:24:12Z,1,Thanks mate.  That was great. Cheers,True
+@tanishksingh8443,2019-07-15T18:30:00Z,1,"Amazing explanation,you are Awesome!",True
+@alchemist1412,2019-07-12T02:51:38Z,0,Correct me if I'm wrong. At 2:56 the dot lines to show the distance to the line should be vertical toward the line.,True
+@SunkuSai,2019-07-10T13:35:34Z,0,Question: What kind of bear is best?,True
+@valor36az,2019-07-07T07:34:14Z,1,I wish you will write a book.,True
+@vaibhavbisht5514,2019-07-04T19:21:04Z,1,This is some quality educational content...Keep up the good work brother!!  Definitely gonna buy some merch to support the channel!!,True
+@rohitpingale8774,2019-07-04T07:52:49Z,2,The videos of statsquest are sweet spots!,True
+@genie52,2019-06-29T13:04:41Z,60,Wow this was so straight to the point with great visuals that I managed to figure out all in one go! Great stuff!,True
+@mauliknaik9520,2019-06-25T14:30:36Z,7,"Also, can you tube customize the like button to BAM!! that would be Great.. ;)",True
+@mauliknaik9520,2019-06-25T14:29:27Z,1,"Have watched many of your videos and that have forced me to write a comment, Stat Quest is AWESOME!! and @Josh Starmer, I am you fan. The way you begin your videos and go about explaining some of the most difficult concepts in Statistics and Machine Learning is GREAT. Many books and tutorials mention making the complex simple, but rarely do so. This channel is not one of them, it truly makes things simple to understand. I have just one request (i think most of your followers would agree to this point), please write a book on Machine Learning and it's application of various algorithms (may be a series of books).",True
+@geocarvalhont,2019-06-20T16:03:51Z,1,niceeeeee,True
+@santhoshmurali,2019-06-19T14:58:23Z,1,wow! you are the best!,True
+@AnimineStudios,2019-06-16T15:34:59Z,1,Thank goodness you exist... I've never ever understood why squaring the distances mattered until your foot note at 3:12,True
+@Otonium,2019-06-10T00:18:28Z,1,Double Bam.... so well narrated!,True
+@lavneetsharma7092,2019-06-07T06:53:41Z,1,BAM!!!! I finally understood the idea,True
+@MarcusCactus,2019-06-04T09:15:04Z,1,Very instructive.,True
+@bharathshashankakatkam255,2019-06-02T15:26:54Z,1,"Thanks for the lovely explanation, Sir... Could we fit the squiggly line by using the Maximum Likelihood Estimation?",True
+@divinity1170,2019-06-02T06:51:55Z,1,Awesome thanks,True
+@stefanosmoungkoulis9158,2019-06-01T18:29:07Z,4,BAM. Subscribed.,True
+@mauropappaterra,2019-05-29T19:34:25Z,22,*Opens StatQuest Videos* -> Automatically clicks 'Like',True
+@MontahaAlriQa,2019-05-28T21:17:58Z,3,awsome and very clear explanation!,True
+@osamahafez1351,2019-05-25T15:16:39Z,1,Could you please make video about different types of neural network,True
+@anuradhasrivastava1592,2019-05-18T07:44:12Z,0,Awesome explanation!,True
+@bhavyagandhi6999,2019-05-17T11:26:18Z,1,He sounds like bert from the big bang theory 😂😂,True
+@pf4877,2019-05-17T00:43:11Z,0,Faakin gr8 m8!,True
+@vedpatel9859,2019-05-16T09:50:55Z,1,They are squared so that it can be minimized( or differentiated) ant not for the reason you mentioned at 3:14,True
+@ArjunKalidas,2019-05-14T16:22:42Z,5,You are the male version of Phoebe Buffay!!! 😁,True
+@DeepDiveinUniverse,2019-05-11T02:46:47Z,0,Really good explanation!!,True
+@fet1612,2019-05-09T21:44:36Z,0,"3:25 KEVIN We follow the usual pattern which is to (i) import the class (ii) instantiate the model and (iii) fit the model with the training data. (iv) Then we'll make our predictions by passing the entire Feature Matrix (X) to predict method of the fitted model and  (v) print out those predictions. Let's store those predictions in an object called y_pred. >>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<< (i) from sklearn.linear_model import LogisticRegression (ii) logreg = LogisticRegression() (iii) logreg.fit(X, y) (iv) logreg.predict(X) (v) y_pred = logreg.predict(X) (3:47)",True
+@user-ic1bb3tv9d,2019-05-05T07:40:59Z,0,very refreshing video!! it was very helpful!!!,True
+@ruoyusun302,2019-04-30T06:29:37Z,0,"I think the 'variance error' here is simply caused by data noise, and it is equal for both high-variance models and high-biased models. Anyone has the same feeling?",True
+@calvinball1,2019-04-28T18:07:52Z,0,"I liked this video, dear algorithms please show it to others.",True
+@InfinitesimallyInfinite,2019-04-26T14:04:13Z,0,My new favourite channel to learn the fundamentals of ML. Plus you use R!!! 🔥,True
+@Jopcopin,2019-04-26T07:48:42Z,0,BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM,True
+@devendratapdia11,2019-04-18T17:52:35Z,2,"Hit the like for your intro,  yet to watch the session :)",True
+@asma-pe3rx,2019-04-18T17:34:14Z,0,Why we take the square of the errors instead of taking their absolute values?,True
+@fahadreda3060,2019-04-17T19:56:31Z,0,"Great video , easy to understand , Thanks",True
+@shamsuddeen2004,2019-04-16T17:42:01Z,0,"From  Intro to Statistical Learning with Application in R. I fully grasp the picture of Bias and Variance. In addition, flexible techniques vs less flexible techniques now cement into my memory, before I just crammed the terminology without knowing exactly what it means. I will be a constant goer to this channel",True
+@lizzy5812,2019-04-10T18:42:17Z,1,You may have saved 10% of my bioinformatic's exam tomorrow.,True
+@wehavebiscuits,2019-04-08T19:51:54Z,0,Josh you're the best,True
+@lolista,2019-04-08T15:52:02Z,0,love love!,True
+@ahmadalghooneh2105,2019-04-05T13:17:47Z,0,"Please never sing at the beginning of your videos, its lame and you sound like a lonely cat beaten at a corner of street. Squeezed to make sounds",True
+@aritradutta5679,2019-04-03T14:59:32Z,0,you are so good like one step destination for learning this sort of statistical concepts in ML..........eagerly waiting for the regularizatuon and boosting videos..thanks a ton,True
+@fatmahalqahtani4267,2019-04-03T08:15:21Z,0,"Thanks god we have Josh Starmer to explain this in a powerful way and short video!! I hope that I can give billion like for this Video. Thanks !!",True
+@GurpreetKaur-pq1ue,2019-04-01T11:53:19Z,0,Great explanation...so easy to understand,True
+@ramkumarrs1170,2019-03-30T08:34:08Z,1,"Great explanation in simple terminologies , Thanks !",True
+@mohamedhtitich7861,2019-03-28T13:43:19Z,0,im here for just for the songs,True
+@VictorAntonioLive,2019-03-24T21:32:54Z,306,LOL  What a way to present dry material with a dry approach yet making it interesting and easy to follow  :-)  Great job!,True
+@jingyansun1293,2019-03-22T22:17:23Z,1,"The best and most interesting videos combine fundamental statistics, machine learning for beginners. The heavy textbook for statistics are so bored and after watching your series videos, I have a better understanding of many abstract things. Thanks, tons!!!",True
+@marijkhan435,2019-03-19T10:52:00Z,0,"Great video. One question. You said the sum is squared so negative distances don't cancel out, but doesn't the distance formula already account for that? The distance would never be negative, regardless of whether it's above or below the line, due to the formula:  d=((x2−x1)^2+(y2−y1)^2)^0.5 Please let me know if I missed something. Thank you.",True
+@kehsoon,2019-03-17T09:00:38Z,0,The BAAM !! really works !,True
+@franciscovinueza5320,2019-03-16T17:35:31Z,0,Thanks teacher! BAAAM!,True
+@annakozin6446,2019-03-13T07:54:46Z,0,I love you ))) hahah songs are super)))),True
+@PiyushRaj-ij3dx,2019-03-12T10:51:51Z,1,"Amazing video, love the clarity and simplicity.",True
+@lolipops8503,2019-03-11T02:17:22Z,0,Brilliant,True
+@mandeepbaluja5401,2019-03-06T15:09:21Z,0,Muaah,True
+@nirayoshikage9168,2019-03-05T13:55:02Z,1,So bias = the average of distance to the straight line right?,True
+@tanmaykorgaonkar963,2019-03-04T13:27:31Z,2,Truly Awesome,True
+@haenonmendes6136,2019-03-04T06:12:48Z,2,Amazing video man!! Thanks for beautifully explaining the concept!!,True
+@christran6871,2019-02-28T16:46:49Z,0,Thank you for the video! I was never able to understand bias-variance tradeoff completely until I saw your explanation. Do you happen to have the powerpoint slides for the pictures shown in the video? It would help a ton,True
+@quenar,2019-02-28T08:58:01Z,1,I LOVE YOU!,True
+@tehamill1,2019-02-15T21:50:36Z,1,thanks for these videos!!!! so helpful!!,True
+@user-du3ow9er1y,2019-02-11T16:21:22Z,1,"i love how funny you are hahahaha i learn and i laugh, you're doing the lord's work dear",True
+@pandukushulu,2019-02-06T07:05:52Z,2,BAM !!!! very nice explanation,True
+@kevindeng3576,2019-02-04T18:31:58Z,1,"How is that squiggly line with low bias? It does not match the true function. It fits the data points perfectly, but does that make it low biased?",True
+@rickywong8149,2019-01-25T15:21:47Z,1,Hi there! Is there any different between bias in ML and bias in neural networks? Im so confused with that term.,True
+@anilsarode6164,2019-01-22T20:20:17Z,1,Finally  crystal clear sky ......,True
+@allenansari1409,2019-01-19T19:39:14Z,1,"Hi Josh,  I am really enjoying your videos. do you have any online class in Udemy? I have not seen good statistics class for machine learning in Udemy. I believe your class will be awesome.  Allen",True
+@maximiliannoichl4762,2019-01-09T23:25:58Z,1,These videos are so good and helpful!,True
+@SilverSrx6,2019-01-09T22:02:57Z,1,Thank you so much!! Best existing video on the internet in this topic!!,True
+@adityakadrekar1196,2019-01-05T22:44:17Z,1,such a nice and easy way to understand bias & variance! thank you,True
+@sammyplexus96,2019-01-05T15:13:55Z,1,Excellent video. Does this mean that variance is inversely proportional to the bias? And that each machine learning algorithm design attempts to find a nice balance between both the variance and bias?,True
+@soundbeans,2019-01-03T02:31:27Z,4,"Just found this channel today. Also making my way through ISLR. They have a great video series to go along with the book, but still pretty technical. This channel is a god send. Thank you!",True
+@deepakdodeja4663,2018-12-30T11:27:56Z,1,Learning with fun :),True
+@corymaklin7864,2018-12-29T01:03:57Z,1,Amazing.,True
+@lshawn3623,2018-12-25T16:33:11Z,1,melodic song in your bandcamp!,True
+@yazhouhao7086,2018-12-24T04:09:23Z,1,"Nice video~! It's very helpful, thanks!",True
+@sureshnandhagopal4941,2018-12-18T21:36:35Z,2,"This is simply amazing ….!!!!  We r very thankful for ur Videos ( and little unfair - No of likes is not even 10 % of No of Viewers , very ungrateful  for the viewers who don't even like the  video back as a token of gratitude … Jeeezzz",True
+@user-or7ji5hv8y,2018-12-17T19:45:25Z,1,Great video. So much clearer explanation.,True
+@VoltagedLT,2018-12-17T16:24:28Z,1,BAAAAAAAAMMMMM!!!!,True
+@GrantMills2,2018-12-17T14:22:22Z,1,Vale la pena seguirti solo per il BAM!!,True
+@stanTrX,2018-12-15T06:25:25Z,1,Neat!!!,True
+@anitasun7774,2018-12-12T22:53:22Z,2,So easy and so clear to understand! Thank you very much!,True
+@winghho9,2018-12-12T09:34:49Z,1,"Let the world hear your songs, is my motivation of sharing your videos)))))",True
+@unlink1649,2018-12-09T11:14:54Z,1,Your the biggest statistics nerd i have come across in a while. I love it,True
+@srikruthijonnavithula5836,2018-12-07T07:24:07Z,1,❤️❤️❤️❤️,True
+@cailiu480,2018-12-05T16:11:14Z,1,awsome video!,True
+@madhurashaligram5846,2018-11-29T18:19:11Z,3,Bam ! Double bam!!,True
+@CHRISTICAUTION,2018-11-27T18:11:12Z,0,dude this is so dry it makes me laugh all the time,True
+@keewonlee3787,2018-11-11T05:40:49Z,1,BAM,True
+@anamfatima3244,2018-11-10T18:03:06Z,1,Bam!! bulls eye ; ),True
+@atharvadeshmukh164,2018-11-09T14:43:25Z,1,Great work sir.,True
+@MN-hi5sm,2018-11-09T02:26:44Z,1,DOUBLE BAM!!!,True
+@satishvavilapalli24,2018-11-06T11:25:25Z,1,BAMMMMMM... nice explntn.,True
+@varunsaproo4120,2018-11-04T18:52:52Z,1,You did an amazing job in making this content!!,True
+@citrinequeens9365,2018-11-04T14:38:35Z,1,you're amazing. Free education !!,True
+@christianahidjo1329,2018-11-02T14:32:29Z,1,I had to subscribe the concept is explained so clearly,True
+@akashdesarda5787,2018-11-02T02:32:57Z,16,This guy is awesome... this video actually explain bias and variance To Me finally. I have watch lots of other video but it was this video who taught me this concept,True
+@user-bt2lc5wh7h,2018-10-25T11:47:52Z,1,I really really  really   love you !,True
+@jaivikramsingh6137,2018-10-25T06:15:20Z,1,I first like your videos and then watch,True
+@haojiang4882,2018-10-07T05:13:59Z,1,Mind-blowing explanation!,True
+@ylazerson,2018-10-03T15:54:31Z,1,Great video!,True
+@derekdegardner9240,2018-10-02T23:10:52Z,2,Where have you been all my life?,True
+@yucao6742,2018-10-01T22:17:02Z,3,"great work, so funny",True
+@gardnmi,2018-09-27T01:45:11Z,31,Currently reading the Intro to Statistical Learning with Application in R and I can't tell you the number of times I've loaded up one of your videos to help me understand one of the concepts such as Bias and Variance because they do a poor job in explaining for a broader audience.  Please keep it up!,True
+@lalithambaas5511,2018-09-25T16:22:54Z,1,Wow such a  cool video with clear explanation. Keep up the good work,True
+@rulrulrul,2018-09-23T02:32:55Z,1,Awesome!,True
+@buby28,2018-09-20T15:26:01Z,1,your videos are awesome for me!! could you make video on permutation test (LOD)??,True
+@omarh9410,2018-09-20T11:53:49Z,2,"Thank you very much, your explanations are really clear and to the point. Looking forward to the regularization lecture.",True
+@sharanyar7092,2018-09-19T05:25:17Z,7,Tons of Thanks for You..your  videos are really nice..pls do the video on regularization soon..,True
+@urjaswitayadav3188,2018-09-19T04:34:25Z,1,Great one. Would love more on machine learning.,True
+@angelbueno7810,2018-09-18T18:04:13Z,1,Fantastic !! Thanks a lot for this ! Waiting for more !,True
+@ausrace,2018-09-18T13:43:03Z,1,Minor point but you are not fitting a squiggly *line* to the training data. More like a curve or maybe I'd call it a function? I realise this is preparation for a bigger topic and you are just getting the idea across.,True
+@umdmrlbro,2018-09-18T12:21:48Z,1,This is the beginning of a great series.,True
+@aldhairmedico9408,2018-09-18T06:59:27Z,1,nice one!,True
+@fabiof.deaquino4731,2018-09-18T03:24:36Z,1,Bam!!!,True
+@jairjuliocc,2018-09-18T02:39:06Z,1,"Your videos really help me so much, is great see how your public is very important for you. Greetings from Peru  y buenos deseos y buenas vibras",True
+@yangwang6805,2018-09-18T02:25:34Z,5,Thank you so much for this video at this special moment! I hope you can keep safe during Florence hurricane! Good luck to you and the Carolinas!,True
+@yungetong634,2018-09-18T00:22:14Z,1,Cannot wait for the rest!! Thank you,True
+@yulinliu850,2018-09-17T23:04:18Z,3,Such a GREAT video on bias-variance trade-off. Looking forward to your lectures on regularization and boosting~,True
+@chrisg0901,2018-09-17T22:29:34Z,127,You're like the postal mailman of online videos. Neither snow nor rain nor heat nor gloom of night can stop StatQuest!,True
+@StephenRoseDuo,2018-09-17T21:37:38Z,1,Another great video (and song)! but the only thing I would like to nitpick is that the residuals aren't squared in the objective function to ensure the negative values don't cancel out it is so the estimated value at a given value X is the mean. (If you wanted me to sound fancy I would say MSE lets you get the conditional mean of y given x or expected value of y even x),True
+@shaikansari6882,2018-09-17T18:52:04Z,3,"Wow.. Go through many blogs.. Watched many videos and asked n no.of questions in quora and other platforms, but your single video (less than 7 minute video) explained well.. Really Thanks man.. Done a great job..",True
+@ashrayaggarwal3,2018-09-17T16:24:54Z,1,Thank you for a great video again...,True

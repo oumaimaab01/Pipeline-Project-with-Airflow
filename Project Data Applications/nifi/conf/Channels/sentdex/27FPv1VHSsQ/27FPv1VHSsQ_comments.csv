@@ -1,0 +1,63 @@
+author,updated_at,like_count,text,public
+@shaikharsalan1622,2021-11-22T15:31:18Z,0,"Helloo,  I got below mentioned  error while executing above code.   AttributeError                            Traceback (most recent call last) <ipython-input-23-c039c3ea5332> in <module>       1 import matplotlib.pyplot as plt       2  ----> 3 test_data = process_test_data()       4        5 #test_data = np.load('test_data.npy')  <ipython-input-5-8fdccc6b5d11> in process_test_data()       2     testing_data=[]       3     for img in tqdm(os.listdir(TEST_DIR)): ----> 4         path=os.path.join(TEST_DIR.img)       5         img_num = img.split('.')[0]       6         img = cv2.resize(cv2.imread(path,cv2.IMREAD_GRAYSCALE),(IMG_SIZE,IMG_SIZE))  AttributeError: 'str' object has no attribute 'img'    ##Can some1 help me out?",True
+@DieAldiMafia,2021-11-17T22:37:34Z,0,"Hey guys, i am really struggeling with the last code block where we plot the Images... Does anyone know whats the problem?",True
+@DieAldiMafia,2021-11-17T17:28:58Z,0,Did anyone mange to run this code? I am struggeling with some errros...,True
+@apachelee884,2021-11-09T03:05:46Z,0,"hi may i as kwhy the final part, the result i get for cat and dog become  worst?",True
+@WhiteKnightLord,2020-12-05T18:29:26Z,0,"data = img_data.reshape(-1,img_size,img_size,1)",True
+@thecandel5479,2020-08-15T22:33:09Z,0,Thanks very much! this is the last video in CNN?! And some code need to more clarify!,True
+@jay-rathod-01,2020-07-25T20:10:50Z,0,Hey Bro from where do you learn so many stuffs? Your tutorials and way of lecturing is kinda Cool.,True
+@rahilkothari8248,2020-06-01T17:36:23Z,0,Thank you so much..............,True
+@basavannahosur1445,2020-04-11T18:12:11Z,0,How can I give input images to this model and check if it is a cat or dog using python file,True
+@udayfps,2020-03-17T19:18:12Z,0,how to input a new image to this model for prediction???,True
+@andreww406,2020-01-14T12:45:08Z,0,How i can to calculate accuracy and running time?,True
+@barbiez2204,2019-12-09T17:37:03Z,0,the last part where the progress bar runs and the images display doesnt work  the progress bar doesnt run and the images dont display... pls help..plsssssssssssss  thank you,True
+@starrynight0,2019-10-28T08:17:15Z,0,"Hi, your videos are great, please would you tell me what version of tensorflow were you using in this video? and the python version? currently I´m doing it with python 3.7 and tensorflow 2 but tflearn doesn´t have support in tensorflow 2.0, your help would be great, and thanks for the videos",True
+@singhamitgkv7709,2019-09-26T12:45:00Z,0,"Sir i got a error, list index out of range, when we fit the model.please give me solution of this problem.",True
+@amanxyz3849,2019-05-18T13:57:18Z,1,"Hi, Can u please explain, if np.argmax(model_out) == 1:  str_label = 'Dog' I didn't understand how did that come, what are we passing into np.argmax() and how is it Dog when output is 1",True
+@ashishkarn8262,2019-04-19T06:37:45Z,0,what changes do i need to make if i wish to add more than two classes? And thanks for the tutorial.,True
+@priyomsaha3997,2019-02-27T15:40:49Z,0,"""RuntimeError: Attempted to use a closed Session."" I am having this error I dont know why ? the error is in this line   "" model_out = model.predict([data])[0] "" please help me out",True
+@ZeffTheKiller1994,2018-12-03T10:09:31Z,0,"Hello @sentdex, thanks for GUI us. I have a question, I was predict image, result is dog a cat. So I want to know the percentage is dog or cat? What I have to do?",True
+@alsafermoh3540,2018-11-09T06:43:37Z,0,"hi, I get this error when I implement   word_label = img.split('.')[-3] ------------------------ line (17) (( IndexError: list index out of range)) what is this mean by out of range ?? can anyone help me please",True
+@nishantingle1438,2018-10-30T18:33:21Z,0,can anyone provide the complete source code?,True
+@armanamedi3386,2018-08-13T14:48:51Z,0,"Great! but how do we get the accuracy of the test_data, is it the Probability of the softmax or we need to take the np.mean among predicted value and 1? thanks",True
+@kasheeshprabhudesai8996,2018-07-12T12:28:37Z,0,test_data = process_test_data() is not loading the test data . The progress bar just shows zero. Please help,True
+@joeyhinds6216,2018-06-12T17:58:19Z,0,I know this is now over a year old but I am wondering where I might go from here. Like are there any tips on how to best modify learning rate and layers to optimize a net's performance? Thanks,True
+@shaunmoloi5462,2018-06-08T13:05:52Z,1,Absolutely loved the tut. thank you,True
+@kerolosghobrial671,2018-06-08T12:11:28Z,0,"Hello sentdex, Could you please show us, how we can save a trained model as .pb format  (freezed one ) like as you did in detection model.  thanks in advance.",True
+@IstiyakHossainPro,2018-05-09T18:06:45Z,4,I got 98% above accuracy with 100 epoch <3  Thanks Sentdex <3 ++,True
+@divinedickson9379,2018-04-28T00:43:07Z,0,Wow bro! you are good ama big fan. Keep it up man,True
+@jasonchong8330,2018-01-16T10:44:15Z,0,It says i dont have module named matplotlib.pyplot and matplotlib is not a package. But i do have matplotlib install via pip..how do i proceed?,True
+@enriqueibarra9851,2017-12-26T04:47:40Z,0,"hello sentdex you could do a tutorial explaining how to implement this cnn for super resolution in images here is the link http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html, im try but i cant make it work with keras i using the caffe code",True
+@onofrioallegretta9883,2017-12-05T14:21:51Z,0,"Hi Sentdex, I believe that it is missing the part 5 that showing for every imagine the probability if it is a cat or a dog.",True
+@wanderscheidegger5196,2017-12-01T02:31:08Z,0,Great class! as always! Is there any way to enter a stop criterion? Example: when the cost is equal to 0.001 or when the accuracy equals 0.999,True
+@anirbandas3089,2017-11-27T03:28:40Z,0,Can you tell me how to get the testing accuracy???,True
+@freddysalazar9428,2017-09-23T15:44:40Z,0,"Hi, I don't know why but everything that my model predicts are dogs, and if I make the IMG_SIZE bigger then everything are cats. Any ideas why? (BTW I'm using the CPU version, could that be the problem?)",True
+@AnkitBindal97,2017-09-18T09:39:55Z,0,Thanks a lot man!,True
+@amiruzzaman,2017-08-25T21:57:57Z,0,"How do I add more classes? For example, cat, dog, cow, horse, etc. Please let me know.",True
+@nicapotato7745,2017-08-09T06:04:45Z,0,Thanks!,True
+@AddyKanhere,2017-08-02T16:52:27Z,0,"Hey, @5.38 when I run the code the progress bar is stuck and I cannot see any images. Please help!",True
+@partisanpuff9861,2017-07-31T21:37:24Z,0,sentdax can you please please PLEASE do a video on installing Gentoo????? PLEASE,True
+@Joasoze,2017-07-21T14:12:29Z,0,"Hi - I am trying to run this example in the latest version of Python, TF and all, but I get an error on the model.fit model.fit({'input': X}, {'targets': Y}, n_epoch=2, validation_set=({'input': test_x}, {'targets': test_y}),      snapshot_step=50000, show_metric=True, run_id=MODEL_NAME)  The error (this is the important part of a long error message I think)  InvalidArgumentError: Shape [-1,50,50,1] has negative dimensions   [[Node: input_1/X = Placeholder[dtype=DT_FLOAT, shape=[?,50,50,1], _device=""/job:localhost/replica:0/task:0/cpu:0""]()]]  I have checked that test_x and all the other vars have values that looks ok  Any insight anyone?",True
+@AdamSaudagar,2017-07-10T08:48:06Z,0,"hey,  i was trying with 3 lables, but im getting [0,1,0] result in the model_out[0]... whats the problem?",True
+@hemantbhardwaj49,2017-06-02T10:38:37Z,2,"Hey, I'm getting an error while reshaping the img_data array. Can anyone please help?  Traceback (most recent call last):   File ""dnc.py"", line 119, in <module>     data = img_data.reshape(IMG_SIZE,IMG_SIZE,1) ValueError: cannot reshape array of size 1 into shape (50,50,1)",True
+@YacineMokrani,2017-05-21T09:43:12Z,0,"hi sentdex, can i use this code with another datasets (lions,zebras and tiggers) and then give an input of a random image and then get the results !!!! ????? need this :) thanks for the tutorials",True
+@cdz007,2017-04-28T12:08:56Z,0,"How do i load the model if it's not in memory?? I've trained it on one machine and trying to do only prediction on another, how to do this?",True
+@deepfakestudio7776,2017-04-19T07:01:16Z,0,I can do thia in video games too ? To recognize some players ?,True
+@vaibhavvarshney2758,2017-04-04T02:49:22Z,0,"hi Sentdex, I am trying to classify images of different fruits using this video, but I am stuck in classifier part. what values img_num is storing? How  should I do it? Help me out. I am trying to classify 8 different type of fruits.",True
+@bf2825,2017-03-29T14:22:23Z,0,"Hey sentdex, thanks for your high quality video. Would you consider a tutorial for implementing transfer learning in the future?",True
+@annemkiranmai3150,2017-03-19T12:59:43Z,0,"what changes do I need to do if I want to add one more class ""elephants""?",True
+@spaphy,2017-03-12T01:25:33Z,4,"Hey folks, I purchased Sentdex's content on stackskills and I had to come out and give this gentlemen a round of applause, his tutorials took me from IT guy to Captain of the Sysadmins at my job, and via stackskills, his videos were available to download so I always felt like I would be able to back-reference his tutorials in the event they were taken down.  Please take a look they are super cheap for an entire library, Sentdex, my dude, thank you so much.  Disclaimer: I have no affiliation nor was I paid or endorsed to brag about Sentdex.",True
+@parthsrivastava2413,2017-03-08T07:08:37Z,0,I absolutely love your videos. I am not just flattering. You have taught me a lot and I am really thankful to you for that.  I am planning on doing some research in deep learning. Could you suggest me where I should start?  It would be a great help if you could point me to the right direction. Thank you :),True
+@gotel100,2017-03-07T20:24:44Z,0,"Use of leaky relu, using average pooling instead of fully connected layers, trying different archs like alexnet ,etc, might yield better results, this was a very helpful tutorial, especially the preprocessing stuff!",True
+@anacbfaria,2017-03-07T17:53:29Z,0,"Hi Harrison, first of all I'm loving your videos... I was wondering, could you do an example of a Deep Belief network? :p some applications I think it could be better than CNN...anyways thank you for the videos.",True
+@willkoehrsen934,2017-03-07T15:03:55Z,0,"Do you have a Patreon page? I would love to support your work, but as a student, I'm not quite ready for the $9/month commitment to be a +1 member of https://pythonprogramming.net",True
+@aryopradiptagema6677,2017-03-05T17:29:39Z,0,"Hey sentdex, great video as always!! I want to ask about a sort of general question in deep learning : How to deal with a small dataset? I currently working on an NLP research using neural net. I've tried a lot of model from LSTM to Inception block. And every model gives almost the same accuracy (0.49~0.5). I came up with a conclusion that it's probably because of the amount of the dataset. I wanna ask: is there any model that can deal with a small dataset or any hiperparameter modification that i can do?",True
+@rush8647,2017-03-05T08:13:05Z,0,"how did you learn to code in tensorflow , what's your source to learn coding in tensorflow?",True
+@muhammadhannan6701,2017-03-04T17:33:22Z,0,"Great tut, like always ;). I have a question if I need to classify let's say 50 objects, how should I give them a label? like you did [1,0] cat , dog   [0,1]. Thanks",True
+@cecool4,2017-03-02T09:42:30Z,0,"In case you're interested, you can actually use tqdm_notebook in jupyter for even nicer progress bars :)",True
+@Thelegends96,2017-02-28T18:24:05Z,0,"Just a quick question, don't you think that after testing the accuracy on the last 500 sample you might have got better result by including them in the train data? 500 is not much but still might help the accuracy overall...",True
+@mrdev5281,2017-02-26T02:56:11Z,0,hmm your website wont allow me to signup.whats the trick ?,True
+@Behrouz2181,2017-02-23T03:13:51Z,2,Cheers for that. Do you recommend AWS (Amazon Web Server) for future Deep learning projects? (I don't have the right GPU).Thanks again.,True
+@ulm287,2017-02-22T20:08:29Z,1,Great Video Love it ! what kind of different methods could one use besides adding more layers and increasing the epochs?,True
+@lanvukusic,2017-02-22T18:31:57Z,13,"Great series. I wuld love to see more ""from ground op"" style series. I really dont like the way people just import the dataset like MNIST",True
+@acehanks,2017-02-22T16:37:50Z,6,Enjoying to see you tackle kaggle competitions,True

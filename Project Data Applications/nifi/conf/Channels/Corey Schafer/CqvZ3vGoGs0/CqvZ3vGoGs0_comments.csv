@@ -1,0 +1,515 @@
+author,updated_at,like_count,text,public
+@muhammadabdullahdilshad8509,2024-05-03T13:37:08Z,0,"A sample Small Students Database Project  student_record = []  """"""The Function adds a Student Record"""""" def add_student_record(name, age, course):     student_record.append({'name': name, 'age': age, 'course': course})   """"""The function Displays all the availabel Students"""""" def view_students():     for record in student_record:         print(record['name'])   """"""The Function Searches for a particular student in the list of students"""""" def search_student(name, age, course):     for record in student_record:         if record['name'] == name and record['age'] == age and record['course'] == course:             return record     return None   """"""The Function Updates the Student Record in the List of available Students"""""" def update_student(name,age,course,new_name,new_age,new_course):     for record in student_record:         if record['name'] == name and record['age'] == age and record['course'] == course:             record.update({'name':new_name,'age':new_age,'course':new_course})             return     return 0  while True:     print(""1. Add a Student"")     print(""2. View Students"")     print(""3. Search a Student"")     print(""4. Update a Student"")     print(""6. Exit"")      choice = int(input(""What is your choice: ""))      if choice == 1:         name = input(""Name of a Student: "")         age = int(input(""Age of a Student: ""))         course = input(""Student Course: "")         add_student_record(name, age, course)         print(""Student Record has been Successfully added"")      elif choice == 2:         print(""All the Students are:"")         view_students()      elif choice == 3:         name = input(""Enter the name of the student you want to search: "")         age = int(input(""Enter the age of the student: ""))         course = input(""Enter the course of the student: "")         searched_student = search_student(name, age, course)         if searched_student:             print(f""{searched_student['name']} Age: {searched_student['age']} with course {searched_student['course']} has been Found"")         else:             print(""Student Not Found"")     elif choice == 4:         name = input(""Enter the name of the student you want to Update: "")         age = int(input(""Enter the age of the student: ""))         course = input(""Enter the course of the student: "")          new_name = input(""Enter the new name of the student : "")         new_age = int(input(""Enter the new age of the student: ""))         new_course = input(""Enter the new course of the student: "")          output = update_student(name,age,course,new_name,new_age,new_course)         if output == 0:           print(""Student Not Found"")         else:             print(""Student Record has been updated succesfully"")      elif choice == 6:         print(""Exiting the System"")         break      else:         print(""Invalid Choice. Please Try Again."")",True
+@SayWhatSteve,2024-04-29T22:33:06Z,0,I actually got teary eyed when you explained that the rest of the videos would not be numbered because we covered the basics needed to go learn everything. This is maybe my third chosen route of trying to learn this stuff and by far has given me the most confidence moving forward!  Thank you for an excellent series of videos! Can't wait to watch more.,True
+@Analyzing_eye,2024-03-26T15:53:53Z,0,Whats its use??,True
+@rcciit9226,2024-03-25T15:14:46Z,0,thankyou Sir,True
+@okayest_pianist,2024-03-15T19:39:05Z,3,6 years later and still super helpful. blesses and much love brother!,True
+@DarkAcademyUniversity,2024-03-04T09:33:12Z,0,"Thanks! Please, make more videos",True
+@user-gf3ut5rz6f,2024-02-14T18:35:01Z,0,"Your pace was perfect... not too fast, not too slow. Well done.",True
+@inteligenciaartificiuau,2024-01-30T19:05:06Z,0,Amazing!,True
+@stoicnash,2024-01-24T13:21:56Z,0,"Hi, great video could you remake on how to import using __init__.py without using sys",True
+@TheBlueMahoe,2024-01-11T08:40:03Z,0,"LOL, its hilarious, import antigravity",True
+@mahshidpooladvand8502,2024-01-09T18:03:14Z,0,WOW! Thanks Corey!,True
+@mmma79299,2024-01-05T07:35:14Z,2,"Thank you very much, I've been procrastinating to learn python for years, but your well explained and concise videos motivated me a lot that I covered all basics you taught us.",True
+@teclote,2023-12-11T16:42:45Z,0,"Outstanding, thank you.",True
+@user-ln2iv4zx3r,2023-12-04T07:58:05Z,0,just a small comment.. It's not SISTA path. It's sys dot path..,True
+@shazyZz126,2023-12-03T17:06:27Z,0,Import the SITH   EXECUTE ORDER 66,True
+@mahdikamalinejad913,2023-11-16T12:08:10Z,0,how is importing different from opening a file and closing it in a context manager?,True
+@amtzgaming3688,2023-10-16T09:56:03Z,0,i think even the crowd is a lil disappointed 😂,True
+@user-bc7es3qu3w,2023-09-29T16:43:10Z,0,"Hey Cory, I have a folder for the two modules in use at the beginning of the video but python is still not recognizing that the file exists.  Is that because my directory is on the desktop?",True
+@user-wh5iy5pc9j,2023-09-24T16:56:48Z,0,I am from India.I am really interested in knowing the modules present in the standard library .could you please give me the document.,True
+@animefreak21,2023-09-20T19:17:27Z,1,I have watched all the fundamental of Python videos  thrice already. Though I know that Im kinda outdated of your videos but your way of teaching Corey makes me want to learn more. There are times I have thought I cant make it but because of these tutorials I have my hopes up again. You're the inspiration. Thank you.,True
+@mboowashafiq1496,2023-08-29T15:17:03Z,0,best explanation ever,True
+@MrScalzitti,2023-08-25T20:32:06Z,1,Chatgpt indicated you. And the playlist is really good! Congrats!,True
+@MrHossain2357,2023-08-10T07:04:58Z,2,"Many youtuber teaches python but they are not really good at it. They probably good at other programming language and since there is so much similarity so they just teach. But this guy seems to be very good in python. Hence, can teach very clearly since he has a very in-depth understanding.  It's crazy that thank to YouTube, we get this kind of content for free.",True
+@yourself770,2023-08-08T12:24:34Z,0,corey is the best ❤,True
+@woolfy02,2023-08-03T11:58:47Z,0,"What book would you recommend for beginners, that talks about importing libraries? This video is helpful but still need a book",True
+@vultures1852,2023-07-29T10:23:50Z,0,"You're the best teacher, it's a pleasure to re-watch your videos",True
+@nitkarshchourasia2406,2023-07-25T01:50:18Z,1,"Once I start earning, I will for sure Join your's Join button on this Youtube Channel. Why? Because you provided value.          value which I wasn't able to get. value which no other was able to provide. don't know but you are true python wizard, indeed.",True
+@KeshavSingh-cu7hb,2023-07-17T08:05:32Z,0,I have a traceback error when trying to import.  ModuleNotFoundError: No module named 'my_module',True
+@salmahafidi2203,2023-07-03T13:50:43Z,0,thanks a lot for your work !!!! Can you provide us with some exercices for beginner or is there a website that has some kind of projects for us !,True
+@user-bc1ng2dh9b,2023-07-02T11:53:08Z,0,"I have become comfortable taking trainings from you. I know this video is 6yrs now but I hope you attend to my request. I have two folders each having their own python file. I place functions in one and use the other to import it. I am using vs code and each time I try to run it, I get module import error but if I move the file to the base directory it imports fine. Please help",True
+@ternamarcellenusajigiri8909,2023-06-24T17:37:09Z,0,so explicit i don't need to stress myself,True
+@utkarsh_108,2023-05-30T16:10:49Z,0,thanks,True
+@rithikvolla857,2023-05-15T10:11:50Z,0,"How we can know that ,how many modules are there in python????",True
+@markkennedy9767,2023-05-08T21:53:55Z,0,"Thanks for this.  One question: after creating a new environment variable in your os with your path, why do you have to then import it using the CMD. Can you just open a python file in an IDE and import it in that. Edit: OK, I understand. It seems you don't need the CMD to import; it works fine by importing in an IDE. Thanks",True
+@markkennedy9767,2023-05-08T21:07:08Z,0,"Around 4:45, why does it still print ""imported my module"", even though you're just importing the test string and find_index function here",True
+@krisztiankovacs1014,2023-04-13T08:20:07Z,0,"can you please explain to me if you use from imported import find_index, test why the ""imported this module"" was printed as well?",True
+@jamoli85,2023-04-10T12:54:21Z,0,"Hey Corey - for some reason when following these I run into issues w/ the nano profile - it doesn't seem to save anything.  I am still using the ""python3' command which is fine, but in this particular video I need to for the python path piece.  Any idea why it might not be saving? I am on Mac and my terminal does look much different than yours...",True
+@wetstick8983,2023-03-26T12:38:27Z,0,"does anyone know why when he only imported the find_index function from my module, 'imported my module...' still printed when he ran the code even though he said the only thing from the module that would get imported was the find_index function?",True
+@techwithdavid,2023-03-09T20:25:46Z,1,"Hi, Corey! Would you please drop a video on how you learned python. Maybe the best resources you used. How you gained this much mastery. Thanks",True
+@DennisKipngeno,2023-02-23T07:31:13Z,0,"hello, can i download the full playlist at once",True
+@n3rd0,2023-02-21T16:39:16Z,1,"Corey, I fully appreciate your work, everything is nice and clear! Until now all information was complicated, but you made it clear! Thank you!",True
+@abolfazlrezaei5397,2023-01-26T11:10:15Z,5,"after 5 years, these videos helped me to learn python very easly. I hope this comment make you happy and energetic",True
+@vladz3485,2023-01-24T20:53:12Z,3,"Corey, thanks! You are the best in teaching Python. I finally understand all the complex stuff, because you made it easy to comprehend.",True
+@mudiaeastwoo6310,2023-01-20T19:38:28Z,0,what ide is this?,True
+@dakoderii4221,2023-01-18T12:10:06Z,0,i5 4570 with 1GB of RAM 🤔😂  Don't care for Windows much huh? 🤣,True
+@qi5311,2023-01-17T15:06:09Z,1,"Thank you so much, i totally understand what you said in video. But i still have some questions: If i wanna use a library that is not the Standard library, what should i do ?",True
+@SuperZaidin,2023-01-01T10:57:01Z,0,nice tutorial.,True
+@starplatinumrqm,2022-12-25T23:08:40Z,0,"So nice to listen to you, thank you for these invaluable videos",True
+@GhostSenpaiEdits,2022-12-25T21:08:34Z,1,thanks for such a nice course! you really teach well 💕💕,True
+@bretearwood7027,2022-12-05T15:45:24Z,1,"What I need help understanding is once you acquire a module how do you explore it? How do you know what commands exist inside the module? For example when you import the math module, how do you know that the ""sin"" function is there etc...",True
+@sawanrawat5489,2022-11-29T05:56:17Z,0,"do you provide us notes, whatever you taught in lectures?",True
+@andyscott710,2022-11-28T16:34:15Z,0,"I concur what everybody else is saying. Excellent videos. I am confused in one part on this one. From 3:40 from my_module import find_index  Because the code is calling: index = find_index(courses, 'Math')  that to me says when it calls my_module you're asking it to just perform the function find_index. So, why is it still printing ""Imported my_module..."" Especially when you go on to say it's disregarded the test variable, so why is it still printing that initial statement?  I can understand it printing that with the previous commands since you're saying import my_module initially which means run the whole of my_module. Thanks",True
+@Asgallu,2022-11-03T09:41:36Z,0,"Hi, after watching this video. How can I import a module when I am within the interpreter python >>>?. I have a .site-packages with several modules and when I get inisde the python3 interpreter in this path I run => .site-pakages/python3 >>import confluent-kafka, but I've got an error => ModuleNotFoundError: No moule named 'confluent_kafka.cimpl'. Maybe do I have to update this module inside the .site-packages?, how can I do it? anyone knows?",True
+@Asgallu,2022-10-30T12:29:25Z,0,congrats for the video!,True
+@salmanrafeaaljbae1257,2022-10-18T03:32:24Z,0,great explanation thanks a lot,True
+@pakwatan1875,2022-10-17T19:42:06Z,0,Please select larger font size because on cell its diificult to see.,True
+@MikeCOYS,2022-09-25T15:02:46Z,0,"How do you import to the local project? As it seems like everything is installed globally, meaning, if you work with multiple projects you'll install them all globally?",True
+@chrisduma,2022-09-12T21:45:35Z,0,i.keep.coming.to.your.channel.to.understand.my.classes.better...much.thanks,True
+@wolfpride9416,2022-09-02T17:44:52Z,0,"Thanks for amazing Python tutorials as always :) Btw how can I set the environment variable on Linux Ubuntu ? I did the same way as for the Mac but it showed that the ""my_module file"" is not found in the terminal later on.",True
+@Tommy_007,2022-08-30T23:13:36Z,0,"If you want to deploy a Python program (to any computer that you don't know anything about in advance), what should be done instead of changing the PYTHONPATH variable to make the import work?",True
+@molutfy10,2022-08-21T09:57:45Z,0,Python Tip & Tricks (2) - The Python  'import' Keyword https://youtu.be/1opdbaOIksw,True
+@timothymcgahan5178,2022-08-18T23:53:16Z,0,You're explain of 'path' and how to change it....... PERFECT.  Thank you!,True
+@morososaas3397,2022-08-13T15:13:45Z,0,I had frustrating problem that took me couple hours to figure out. Turns out I had named my module something that was already being used as a module name somewhere in my dependencies.,True
+@josephransom6578,2022-08-12T16:42:26Z,0,Wow. This video was so helpful and not too overwhelming. Thank you for putting the work into this.,True
+@user-wk6eo2mo9w,2022-07-28T12:35:02Z,0,shadow fight how do you open the channel rack?,True
+@yanjingwang7496,2022-07-21T20:33:04Z,0,"Thanks Corey, I wanna say I LOVE you",True
+@atsushiidobe9113,2022-07-21T12:30:39Z,1,"Hi Corey, I appreciate all of these tutorials and I'm glad because you've helped me learn a lot that my old textbook didn't cover. However, I'm having difficulty adding environment variables to PATH in MacBook OS. I converted my Terminal window from zsh to bash so that shouldn't be the issue. When I follow your instructions, I get a ""ModuleNotFoundError"" and when I call ""sys.path"", it doesn't show that the appropriate path was added. If you have any suggestions, please let me know.",True
+@orcunalp4541,2022-07-20T19:00:30Z,0,You are awsome !!!!,True
+@15youngblack,2022-07-11T08:14:17Z,0,"For find_index(), why is the return value -1?",True
+@JazzPants0,2022-06-28T04:46:30Z,0,Why is from module import * frowned upon? Isn't it the same as only writing import module ?,True
+@johnprincecocamas3973,2022-06-23T15:01:25Z,0,"if boredom == bored:     print(""Just import the module antigravity."")",True
+@wadewang574,2022-06-19T12:27:20Z,0,it will be more complete if you talk about __int__.py and relative import,True
+@GrassEnjoyer75,2022-06-13T12:08:26Z,0,you are a legend!!!! thank you so much for making these videos,True
+@paulharaldnikolaisen9523,2022-06-02T09:27:29Z,0,I'm getting a -1 when printing out index.,True
+@rituparnaaddy3222,2022-05-25T16:39:49Z,0,Hello. Please help me with module problem I am facing using jupyter notebook in VS code,True
+@librandu5795,2022-05-23T19:26:07Z,0,11:49,True
+@emmertallazer385,2022-05-07T10:26:56Z,0,"Hi Corey, am really grateful for the content I get from your videos. However, am kinda struggling to know what career path to take after learning python. Please help",True
+@user-qn5by5iv7u,2022-05-01T09:38:24Z,0,2022,True
+@mehas81,2022-04-16T19:51:28Z,0,"This guy is a python GOAT . Will contribute via PayPal.  He pretty much takes hours of boring "" I wanna throw up"" lectures and sums up into 20 mins videos. Well done dude !!! Many thanks......",True
+@golu4625,2022-04-09T13:56:44Z,1,I don't know how u  arrange the file structure..so first if u had shown  the file structure it would be really helpful to understand,True
+@endritzejj5586,2022-04-07T06:37:19Z,0,i have a user where i have root acc only in a one script.py .. and nothing else .. i cant run cat .. nano .. nothing .. how can i get root acc???,True
+@froopi2,2022-04-05T17:07:40Z,0,thanks so muhc,True
+@iluvuvibez6644,2022-03-14T01:25:35Z,0,what i don't have a module?,True
+@wanghua77,2022-03-10T10:56:30Z,0,"I really like your tutorial! It clears my doubts. While I was watching your video, I couldn't help wondering why I didn't find your video earlier. Thank you so much!",True
+@trapworld3023,2022-03-07T07:57:19Z,0,AttributeError: 'function' object has no attribute 'choice' can you fix this thanku,True
+@trapworld8202,2022-03-07T07:51:17Z,0,I have a doubt random module does not work properly can you fix it,True
+@noslenwerdna,2022-02-11T14:28:51Z,0,"I am a C++ programmer and I've been trying to figure out why I should learn python so I've been watching a bunch of different videos to get a feel for what it's all about and why people are choosing it. That being said, this was one of the best videos that I have come across. I don't need to learn to program, I need to find libraries and see what they can do. Your video has pointed me into the right direction for my purpose and I thank you.",True
+@rationalcfbfan,2022-02-05T13:09:35Z,0,I love you Corey! Where have you been all my life?  Thanks for these incredibly informative videos.,True
+@abanhidy,2022-01-27T10:22:39Z,0,"Hey Corey!  Thanks for you uploaded video! I really like them...all of them! It is short, clear and they are essential! ...so many many thanks for that!",True
+@avwj09,2022-01-13T03:14:48Z,1,This was exactly what I was looking for and it was well explained. You are amazing!,True
+@briananderson2283,2022-01-11T22:09:09Z,0,"Hi Corey! Thanks for the videos. I have a problem, in min 3:25 when I print(index), it gives me -1 instead of 1. I have the same code as your github too. Thanks!",True
+@Masedo5555,2022-01-08T19:30:49Z,0,"Hello Corey,  I get your training videos step by step, at the last of this video your advice where to go with python, that have maked me very excited. actually I have a question. I'm working as a Data Storage Administrator in IT Company, I need to learn what to do in  Rest API with python, thats why which advanced pyhton training ı need to get?  Regards,",True
+@sciencewithcats2274,2022-01-05T19:36:41Z,0,The Beginning is confusing : where does the my_module come from? Where and when is it defined?,True
+@valiandrei6743,2022-01-03T03:28:42Z,0,Corey: Standard library is written by the language experts and you should always use it Me working in MISRA C: LOL!,True
+@emenrk1632,2021-12-31T17:16:36Z,0,when english is not your native language and you try to understand the course and what he is saying in the same time,True
+@Robot_247,2021-12-26T01:59:05Z,0,I hate how they changed so much in Windows that the little things do not work anymore. Very frustrating trying to update paths in Environmental Variables settings,True
+@hari4345,2021-12-25T09:26:10Z,0,Clearly the best,True
+@mrkomet,2021-12-11T14:54:42Z,0,I have a problem. I'm making a number guesser and I want the program to take the value that's inside of starter() and check whether it's player or it's bot. The terminal is just telling me NameError: name 'bot' is not defined. So can anyone help me?,True
+@LudLush,2021-12-05T10:37:26Z,0,wow thanks my man,True
+@Yogesh-kr7bo,2021-11-28T13:21:29Z,0,fun fact : from module import * imports everything but not those starting with a underscore( _function ),True
+@texaswagon2957,2021-11-03T02:38:08Z,0,your use of colors and your display suxs   Could only watch a few seconds..... If a person cannot see the screen your knowledge is worthless   Your half way there just clean up your appearance,True
+@mariovega6282,2021-11-02T06:02:51Z,0,Most excellent!,True
+@amandaahringer7466,2021-10-31T22:10:54Z,2,You are an exceptional teacher and do a great job covering what's going on behind the scenes. I've taken several Python courses and this was never mentioned.,True
+@marcello4258,2021-10-31T20:38:17Z,0,also just importing all functions will need more memory and slow down the application so always import only what you need,True
+@musicvideo684,2021-10-27T23:07:39Z,1,Thank you for everything you do! I have a question. how do you learn stuff? Do you read books or like  us someone teaches you?,True
+@MercyFromOverwatch2,2021-09-08T15:54:33Z,0,Thank you Corey. Very good series,True
+@anchorhouse,2021-09-03T20:55:50Z,0,"Hi Corey, I'm using Jupyter notebook and I'm not able to get the import to work. Can you point me to something that explains how to set up a file that can be used as an import? I created my_module.py, but I get an error showing that it is not found when I try to call it in my notebook.",True
+@Will_Connection,2021-08-31T18:50:39Z,0,Thanks a lot corey! your tutorials have been very helpful in my learning process!,True
+@deepakdhingra9855,2021-08-22T15:24:17Z,0,Font is too small.,True
+@nithingeorge579,2021-08-12T19:55:53Z,0,"Hello, Corey. This is an absolute masterpiece. I am watching this playlist, one video a day. You are a phenomenal instructor. I would love to watch videos on 'Socket programming' as well, if you have plans to make those in future. Cheers! :)",True
+@Lunolux,2021-08-04T20:55:31Z,0,great video,True
+@IndrajeetSingh80254,2021-07-27T11:05:50Z,0,"Hi Corey, why print is imported when we imported only find_index function",True
+@dylanneal8244,2021-07-25T22:05:35Z,0,I just figured out how to run python in atom using the script package but i cannot import the module. I am very new to coding. Can someone please help?,True
+@dimaua1830,2021-07-22T21:17:21Z,0,Liked. Subscribed. Thank you!,True
+@outtaspace1652,2021-07-16T11:45:34Z,0,"if I add my module through python environment variable, do I need to manually change it when I move the module to another location? Because it looks hard coded to me.  Example: export PYTHONPATH=""/Users/coreyschafer/Desktop/My-Modules""  What if it is no longer located in Desktop? Would it still work or do I need to change the PYTHONPATH? If I need to change the pythonpath anyways what is the difference between sys.path.append(""/Users/coreyschafer/Desktop/My-Modules"") and  export PYTHONPATH=""/Users/coreyschafer/Desktop/My-Modules""?",True
+@shahinmehranfar8213,2021-07-14T21:39:33Z,0,A video can be this much comprehensive!!,True
+@nickbrown2001,2021-07-11T12:20:44Z,1,"To add a module folder for Catalina, and maybe later, edit the .zshrc file instead of  the .bash_profile.",True
+@MrMLBson09,2021-07-04T07:21:31Z,1,"importing straight up doesn't work for me. I'm in the same directory and I get ModuleNotFoundError: No module named ""modulename""",True
+@conorbase7776,2021-06-30T19:37:01Z,0,So infromative. I just expect you could introduce more and 20 min is not enough for me.,True
+@testhekid,2021-06-29T13:47:23Z,1,watched the video 3 times and finally understood how the standard library and importing modules work! also the comic looks fun i wanna check it out in the future when i understand more python,True
+@sijanthapa22,2021-06-28T10:21:22Z,0,"Hi Corey, how can we import module in Jupyter??Please help. Thanks in advance!",True
+@mobasshirbhuiyanshagor3611,2021-06-22T04:56:22Z,0,"No words to complement your deliverables. Take a bow, Sir!",True
+@lynnvandermijden7463,2021-06-19T16:22:13Z,0,Thank you so much,True
+@ladislavkocis,2021-06-17T12:18:29Z,0,"Hello Corey, import my-module doesnot work. where can I find this module?",True
+@smitpatel1358,2021-06-05T17:31:27Z,0,Corey is the Boss! I just suggested one of my friends who is starting with python to get on to Corey's playlist. Thanks Corey!,True
+@RashedulIslamRony,2021-05-29T19:39:31Z,0,Thanks Corey for making such wonderful videos!,True
+@jorgerdz4494,2021-05-27T07:10:45Z,1,"I've been learning from different sources about python and your videos are the ones that i've found more complete, thanks!",True
+@royalmaddy0135,2021-05-21T06:14:33Z,0,14:30,True
+@victorpinasarnault9135,2021-05-19T14:05:36Z,0,"I get it, I was using a different name! haha.",True
+@victorpinasarnault9135,2021-05-19T13:57:53Z,0,"By the way, thank you for your videos. I started two days ago and I'm intending to study 6h at least.",True
+@victorpinasarnault9135,2021-05-19T13:54:39Z,0,"I' am not importing. ModuleNotFoundError: No module named 'my_module'  I currently using the IDLE, is there a problem?",True
+@omkar73gg,2021-05-19T10:56:49Z,0,Bruh why are you so good?,True
+@ayushgupta1881,2021-05-16T19:15:39Z,0,Thanks a lot !,True
+@nazaserh,2021-05-03T13:30:23Z,0,Again a great video!,True
+@Bill-gc9bt,2021-05-02T21:08:15Z,0,"I have some local Python code and I want to import a python module that ""lives"" in GitHub? Is this possible to do without first cloning the git repo? Can someone explain how to do this? Please only provide solutions that don't use virtualenv.",True
+@saipavan9600,2021-04-27T11:49:57Z,0,what is the IDE used?,True
+@MySelf-kq5pr,2021-04-27T04:02:11Z,0,thank you so much!!!!!!!!!!!1,True
+@slifer4569,2021-04-26T13:25:40Z,0,"Hi, Thanks for this it's brilliant.  Just one question Pylance doesn't recognised my_Module and reports it missing even though it runs okay?",True
+@saml.j.9261,2021-04-12T23:11:39Z,0,how do i create multiple modules?,True
+@sibabalwesinyaniso4491,2021-04-11T16:25:19Z,0,DUDE YOU'RE SUPER!!!!! MUCH LOVE FROM SOUTH AFRICA.,True
+@dreshtishah6896,2021-04-11T05:17:51Z,0,very useful and easy to understand. Thank you,True
+@mohammadyusuf4163,2021-03-24T04:18:45Z,0,"Hi Corey, this is top class explanation. However, I had 2 queries strike my mind post this video 1)datetime.date.today() -> how is today() defined in datetime ? as I see ‘date’ in between module name and method 2) is there away to find the functionality of a particular method that comes along with module  Would be glad if I receive an explanation for these. TIA",True
+@xruan6582,2021-03-23T02:40:21Z,0,very decent details,True
+@aviuss,2021-03-11T18:41:44Z,1,<3 This video helped me a lot!,True
+@marwenbhj8914,2021-03-11T10:51:08Z,0,"if you want to add multiple paths to your PYTHONPATH variable, within the bash file : export PYTHONPATH = ""/path/to/folder_1:/path/to/folder_2:/path/to/folder_n""",True
+@jackmanjls,2021-03-09T00:21:08Z,0,"Excellent vid, clear and concise",True
+@therandomthingshow511,2021-03-05T08:13:43Z,0,3:25,True
+@avenumadhav3568,2021-02-26T12:33:20Z,0,"1. When you are importing any custom modules, all the module files should be in the same folder as that of your main file that you are working.  2. import moduleName 3. if you wish to import only a specific function, variables and etc of that module:  from moduleName import mFunc1, mFunc2 4. if you wish to customize further: from moduleName import mFunc1 as mf1, mFunc2 5.Some of the important standard libraries are: datetime, calendar, math, random, os, sys 6. print(sys.path) 7.print(os.getcwd()) 8. print(os.__file__)  Thanks Corey, I learnt all the above things!",True
+@emanalsuradi4969,2021-02-24T20:24:21Z,0,The best explanation ever!! Can we delete a path from the PYTHONPATH variable?,True
+@Daniel-cl6hj,2021-02-14T21:49:44Z,0,I love you,True
+@juarezmonteiro5777,2021-02-08T19:26:43Z,4,I must say that you have an incredible ability to spread knowledge with simplicity. That's rare.   Thank you for the videos.,True
+@berlinkorean-indianlife3493,2021-02-05T14:41:20Z,3,"Hi Corey, thanks for the great tutorials. They gave me a very good understanding about the python basics, which my developer friends couldn't explain me so structured. I am interested in Data Analysis / Science. Which further tutorials are relevant to this topic? Or do you recommend I should go through all tutorials to build up more basics? Thanks again, I surprisingly enjoyed a lot with learning! :D",True
+@cosmicbandido8186,2021-02-04T16:03:35Z,0,"Hello Corey, I got a question about the import. I had following example:  from alpha_vantage.timeseries import TimeSeries ts = TimeSeries(key='YOUR_API_KEY', output_format='pandas') works. But  import alpha_vantage as av ts = av.timeseries.TimeSeries(key, output_format='pandas')  gives an error ""module 'alpha_vantage' has no attribute 'timeseries' ""  I thought, when I import the main module I also import the submodules. It doesnt seems the case. How do I know when importing submodules is mandatory? Can I look this up with dir () or help(). What do I have to look for?",True
+@freddiejonesy6168,2021-02-02T09:47:29Z,0,Great video!,True
+@pedropicciani5903,2021-01-22T20:21:05Z,0,"when importing only the find_index function, why does it still print the 'Imported Module...' string? GREAT CONTENT tho!",True
+@bishalneupane,2021-01-21T05:39:31Z,0,this is gold,True
+@ahmadatta66,2021-01-20T14:10:15Z,0,thank you so much. Your tutorials helped me a lot.,True
+@makarovvv,2021-01-17T21:28:03Z,1,"Informative and well put together. You teaching skills are amazing. Thank you. One question though, what is the difference between  from module import * and import module",True
+@reptileandad,2021-01-17T13:50:04Z,0,do you know how to solve attempted relative import with no known parent package?,True
+@josephloyd2176,2021-01-11T23:03:05Z,0,"Love what you do, I also try to explain complex ideas in beginner language on my channel, I would appreciate your support https://www.youtube.com/channel/UC6N4i972Z7F-ozmUWDakS1Q",True
+@genericnamethingy,2021-01-09T09:22:57Z,1,"Thank you so much for having tutorials that are so clear and that I don't have to put at 1.25x speed. Perfect pacing, I'm experienced with other languages but I'm doing this from the start since you provide valuable information and explanations. Excellent, thank you!",True
+@henokadem1,2021-01-06T01:39:49Z,1,"Hey Corey, I enjoy watching your videos. I was wondering if there are differences to importing modules when using IDEs like Jupyter notebook because I keep getting 'No Module name_module'. I look forward to hearing your take on it. Thanks!",True
+@tomcat9761,2021-01-01T14:49:52Z,0,Thank you very much!!!! Great tutorials! I learned so many new things here. I have a question tho is import webbrowser can be use in data web-scraping?,True
+@yaboi1525,2020-12-31T10:39:01Z,1,One day when I'll land on a job I'll make sure to recognize all your efforts in producing quality tutorials. You're the best when it comes to python no doubts. I owe you so much. Thank you very much sir.,True
+@bruhant5232,2020-12-28T09:44:32Z,1,u,True
+@ab5848,2020-12-28T05:46:11Z,0,Thank you sir!🙏,True
+@ravisoni1905,2020-11-28T02:02:54Z,0,"Man, whenever i want to explore python and now there so many resources like udemy, but still always think of corey schafer. u r a gem. who ever will find this playlist will surely be a good a python atleast",True
+@manideep8566,2020-11-24T19:02:35Z,0,I want to import NumPy and Pandas modules as default so that I need not use import again n again in all programs. Can I do that?,True
+@sebastianskopek,2020-11-19T10:30:39Z,1,"Awesome, awesome, awesome, and what a great way to end this Python intro with the antigravity module. Love it!",True
+@DutchDread,2020-11-15T19:56:47Z,0,"Thank you for explaining how import decides where to import from, it's not enough for me to memorize facts, I need to understand them in order to remember them. I need to know the why, not the ""how"", and this is exactly what I was looking for.  Something like the XKCD thing especially, it's such a silly thing, but it being so silly really helps make the concept of libraries and the standard library seem less daunting and more accessible.",True
+@7XxKiKoOxX7,2020-11-14T05:46:07Z,1,Video 09/143 Cleared ! Thanks for the great introduction.,True
+@MrBuion,2020-11-10T09:11:51Z,0,"Still one of the best sources to learn python in the End of 2020, thank you :-)",True
+@lamnguyentrong275,2020-11-09T06:42:48Z,0,"love your videos, always have best quality and contents",True
+@nhanNguyen-wo8fy,2020-11-05T21:54:33Z,1,10:15 add module to environment variable (Mac) 11:40 add module to environment variable (window),True
+@barath961,2020-10-28T02:46:07Z,0,"Hello Corey, The lecture was super. thanks for your effort and help. how to access the standard library?",True
+@vishal_a_geek9599,2020-10-22T13:24:47Z,0,"/project   /packages     /subpack1       __init__.py       file1.py     /subpack2       __init__.py       file2.py How can I import file1 from inside of file2 in python",True
+@guilhermezucco1269,2020-10-19T15:04:18Z,1,"Hello from Brazil. I'm currently getting to know python a bit better and I can honestly say that this playlist has truly helped me a lot so far.  I already use some data science algorithms in R but was also hoping to widen my knowledge. This channel is really giving me valuable information on how to accomplish my goals. Thank you so much, Corey Schafer, for this!",True
+@mazikeenmorningstar2970,2020-10-15T19:43:42Z,0,"Hi, I am a beginner Python and I lost in the @2mins, it just does not do it for me. :)  don’t know why is not import the file. Till now I was enjoying it.",True
+@cat36942,2020-10-14T23:03:08Z,0,Its just amazing how straightforward your videos are !!,True
+@chilansethuge8487,2020-10-10T16:34:42Z,0,well structured !,True
+@ReddoX30,2020-10-07T20:57:21Z,1,"Thank you Corey for these tutorials, they are really in depth and you cover all the little details that other tutorials leave out!",True
+@professorj.rabbits130,2020-10-03T02:57:10Z,0,"Thank you so much for this!! I was moving my pillow file all over the place, now I can just import that sucka.",True
+@rudyblender9330,2020-09-26T22:21:21Z,0,rthx QSL | oe5RDS 77.5Khz,True
+@omarpixel9176,2020-09-25T07:53:44Z,1,"I'm watching this in 2020 and timestamp 17:05 gave me a deja vu vibe. Thanks for doing this series by the way, it is probably the best series for Python beginners and intermediate programmers who want to learn Python.",True
+@sumanth5087,2020-09-25T04:47:11Z,0,17:11 I am watching now in 2020 😀😂,True
+@celineli7396,2020-09-24T14:01:40Z,0,"Hi Corey, Thank you for putting up these great videos. I am just starting to learn python. Question when importing, what is the difference between import my_module and from my_module import * ?",True
+@kumarmayank6310,2020-09-19T11:52:41Z,2,"Corey, I am a computer science graduate and I have just one word for you - AWESOME!!",True
+@DavidDelgadoDRC-ED2,2020-09-18T02:21:17Z,0,why cant you use a white background  i can barely see what you are doing,True
+@simplyviki,2020-09-16T04:35:52Z,0,I think I learned something in programming for the first time........all credit goes to you Corey...do you have any Pyspark tutorials?,True
+@memy4460,2020-09-16T00:22:20Z,0,OMG!!! This has been one the most important and usefull tutorial vid ever for me. I've been having trouble with openpyxl for at least 2 months now and noone was able to help!!! 10Q10Q10Q!!!!!!,True
+@derrick_rjchurchbanks1720,2020-09-13T07:57:35Z,1,GREAT  JOB   MR.COREY ! Were I to read a book it would have taken me ages to understand the fundamentals...,True
+@charity4613,2020-09-09T19:52:42Z,1,I love you,True
+@jewelsoncagakit771,2020-09-07T15:07:30Z,0,"Hello Corey, got 3 questions relative to this video:  1. Can we instead use ""i"" alone instead of ""value"" in module name = my_module ? 2. What is the role of placing ""-1"" as return value in the my_module? 3. Can we edit the code inside each of the python's Built in modules and reUse it?  Thank you in advance. :)",True
+@Bingcenzo,2020-09-03T03:49:31Z,1,"As someone with ADHD, your instruction is very palatable to me. I feel great learning from you!",True
+@mardithpascua8112,2020-08-31T05:09:07Z,0,thank you for this playlist <3,True
+@klaik30,2020-08-28T09:55:02Z,0,Why does this have to be so complicated? I just want to use code from a script from a folder in the same project.,True
+@sirio6990,2020-08-26T20:49:21Z,0,"One interesting thing i tested: import a single function from a module that calls another function of the same module:  my_module.py --- def f1():     print('Into f1')     f2()  def f2():     print('Into f2') ---  test.py --- from my_module import f1 f1() ---  python3 test.py Into f1 into f2  ---  It works. Python takes care of ""dependencies""",True
+@OmerBerkman,2020-08-21T16:21:42Z,0,importing modules from other directories by changing environment variables will not be acceptable in a real world application I am afraid. Imagine develop this in your local machine and deploy to your aws test environment to test or production. You know what i am getting at. It feels there should be a better way to do this other then hacking the environment variables.,True
+@TheChillBison,2020-08-19T10:54:20Z,9,"I took a full course on Python and this was never covered, yet it was one of the first things I had to look up when doing my first real project. Thank you!",True
+@efremgebreselassie9192,2020-08-19T00:11:11Z,0,"The best ever video, that I could clearly understand function and modules",True
+@rickychung7851,2020-08-14T05:41:35Z,0,You are marvellous! I don't normally leave messages but I've enjoyed your vids so much.....A Big Thank You to You!,True
+@thesciencethatilove8959,2020-08-10T13:25:03Z,0,"Is he the same guy who anchors ""What If"" videos? especially when he said ""that will be topic for future videos"" @18.20",True
+@Amalokch,2020-08-06T22:09:24Z,0,This is probably the best channel to learn Python. Very very easy to understand,True
+@ericyee8976,2020-08-04T17:12:55Z,0,"when I import a module 'blackjack' and call a function 'get_cards()' from that module, python says that the blackjack has no attributes  get_card()?",True
+@owaistariq9994,2020-07-27T16:27:10Z,0,Love your videos Corey. I am a beginner and want to venture into Data Science. Can you specify which of your videos I should be covering next?,True
+@arunsd2108,2020-07-26T17:03:57Z,0,"Hey Corey  I have a doubt at 9:03 you said that location differs for every system , I couldn't figure out mine. How to find the unique location for my system",True
+@KunalSingh-df2ht,2020-07-23T12:36:03Z,0,how do u store it in the same directory i wanaa knw that,True
+@wingsonlai1132,2020-07-23T11:07:49Z,0,So... What's the difference between import math and from math import * ?,True
+@lisandrofilloy5126,2020-07-22T04:48:22Z,0,"Corey, u are definitely the number one at teaching!",True
+@aha1627,2020-07-20T07:41:31Z,1,for macbook nano~/.bash_profile does not work with me ? any help please,True
+@oo6127,2020-07-19T04:26:34Z,27,"This man is a legend man, He went out of his way to actually share a joke from the Python community",True
+@promete79,2020-07-16T00:45:16Z,7,"Hi Linux users, You have to write:  ""nano ~/.profile"" (without double quotes) at 10:20  ""export PYTHONPATH=/the/directory/you/target:$PYTHONPATH"" (without double quotes) at 10:38",True
+@AmazingJayB51,2020-07-15T03:35:18Z,1,"I’m learning Python now, and your series is really helpful, thank you! You explain the topics really well.",True
+@ashirwadmeher7037,2020-07-06T12:28:20Z,1,"Hi Sir, Your Python Playlist is really very useful & informative. Facing 1 issue related to Import of Module from  1 directory to another. Have followed the same step but facing ""Unable to import 'import_module_packages'pylint(import-error)""",True
+@PraveenRai,2020-07-05T17:54:42Z,1,Corey comes back my friend. it's been long we see more videos on python. your teaching style is best and i am looking some more python learning and some network automation if you plan,True
+@rezwanzakaria1754,2020-07-01T16:08:27Z,0,"Whats the difference between  ""import my_module"" and ""from my_module import *"" ?",True
+@pythonlg3333,2020-07-01T05:05:04Z,0,"it is good Tutorial, I want to translate this series for Chinese to learn",True
+@soaibshaikh8559,2020-06-30T16:44:11Z,0,sir  10.10 you did in mac os but sir I am not able to do that thing in ubuntu 18.04 . I get the new empty file what i can do for this in ubuntu please suggest me .,True
+@gauravsharma8804,2020-06-30T08:03:14Z,0,"Hello Corey, Thanks for this informative video, I am loving your explanation.  Can you or someone please explain this: While we are importing only functions, why would print statement still get executed?",True
+@angelak3060,2020-06-29T20:00:49Z,1,Thank you so much for this really great and informative courses!,True
+@spearchew,2020-06-26T17:11:29Z,0,"I'm using jupyter notebook that is being run remotely on some other machine. I had to use the following code to successfully import the module (I think the issue stems from the file NOT ending in .py, it ends in .ipynb  pip install ipynb --upgrade import ipynb.fs.full.my_module as mm test = [""test"", ""math"", ""crap"", ""lad""] mm.find_index(test, ""math"")",True
+@johntamplin,2020-06-24T05:13:42Z,0,"Excellent video, as always. Made me laugh at around 11:55 onwards ... bottom right-hand corner of the Windows desktop ... ""This copy of Windows is not genuine"". 😎",True
+@kimjongun2228,2020-06-23T06:49:58Z,0,"Hey , I showed these videos to my pitbull honey now he become Doberman and started coding for Nasa",True
+@sahrfillie9381,2020-06-22T13:23:44Z,0,I really enjoy the class  This is the best place to get started with python,True
+@codingwithmark2731,2020-06-16T15:53:10Z,0,wait y are you importing your python code...,True
+@codingwithmark2731,2020-06-16T15:37:18Z,0,im eleven and i dont get it..........,True
+@cmanna285,2020-06-13T23:05:57Z,1,"Wow, you saved my ass.",True
+@Avinashkumar-xc8ul,2020-06-05T21:09:35Z,0,Great tutorial. I have a question like I'm learning django and using django rest frame work it. There we do import something like this  from .models import Campaign  Even if the module is in same dir could you pls help me guid this,True
+@shantanusudame1916,2020-06-03T10:48:29Z,6,Corey Schafer is easily one of the best online teacher out here. 100% crystal clear undertanding. Thank You so much,True
+@jacobgsutton,2020-06-02T14:41:26Z,4,Thank you for this man. This was everything I needed. Python module/import system is so much easier then Java lol.,True
+@davidbrown2806,2020-06-01T19:43:07Z,2,"Good series. This is my second time around to review the basics. I know you did Django and Flask, but it would be interesting to see simple web applicants without a framework.",True
+@maxinteltech3321,2020-05-28T15:27:29Z,1,@Corey Schafer I contribute to your patron to appreciation all I have learnt from your videos.  Please continue your GREAT job Corey!,True
+@kusholroypritom260,2020-05-24T16:33:26Z,0,These vidoes are really amazing  thank you :),True
+@notanalien7836,2020-05-24T06:52:29Z,268,This playlist is a GEM that I found during the Quarantine.,True
+@RedBunnyFromMars,2020-05-22T21:12:42Z,2,"This is fantastic. Thank you so much for making the series, it's like providing a swiss army knife that will be useful for literally everyone. I really hit a wall with this because I'm at the intersection of data visualization and professional cartoon production. This is incredibly helpful for automating Maya and Blackmagic Fusion and NukeX, and having the ability to parse tutorials and scripts is immensely useful. Thanks dude",True
+@ayubaadigun95,2020-05-21T14:50:23Z,0,"Hi Corey Schafer, what interface/app/working environment are you using to run your code. I am using Jupyter notebook  and I am not getting the import module. I don't know how to switch the my_module.py and intro.py. I don't know if you or anyone can help me out. Thanks.",True
+@madhav3444,2020-05-20T10:42:41Z,0,Do you speak usually like this in your life??,True
+@bringsik100,2020-05-17T11:07:01Z,4,from MyDadWallet import 50_dollars  It failed,True
+@manuzsanand,2020-05-14T06:25:39Z,1,"I would like to express my most sincere gratitude to you for preparing this gem of a playlist for wanderers like us.   Thank you, so much!",True
+@PrabhuShreeRamKiJai,2020-05-05T14:18:13Z,0,"Sir, why I can not import files.....???it showing error like this   Traceback (most recent call last):   File ""C:\Users\SNORLAX\Desktop\Python\file jema khevama aavi che.py"", line 1, in <module>     import file_je_khechvani_che.py   File ""C:\Users\SNORLAX\Desktop\Python\file_je_khechvani_che.py"", line 8     for aa_ena_naam_no_number_che, aa_enu_naam_che in enumerate(tare_su_joiye):     ^ IndentationError: expected an indented block [Finished in 0.1s]",True
+@NOVAsteamed,2020-05-04T22:01:21Z,0,why would we want to change the environnement of  sys path?,True
+@jungir6425,2020-05-01T09:05:47Z,0,"i tried to add more entries through export PYTHONPATH, and it seems that it can only add one path at a time. The new entries just replace the old one. My question is how to add more entries when making your own packages ?",True
+@zaabimahdi,2020-04-30T04:16:14Z,0,"Hi Mr.Corey , you channel is helping me a lot ! thank you ...  I really want to ask you something : how did you learn Pyhton? i 've already seen your amazing curriculum on Linkedin .. but i still want to know did you specifically learned Pyhton... thank you .",True
+@lomeshdaheria9960,2020-04-28T06:18:46Z,0,Thanks Corey sir you have emerged as one of the best python tutor in youtube .,True
+@7daedalus7,2020-04-26T18:51:50Z,0,Thanks for the fantastic information. I'm very excited to continue learning from these videos.,True
+@ziaulhasanhamim3931,2020-04-24T08:32:43Z,1,you are a genius bro,True
+@maribelyazdanifar8823,2020-04-23T23:20:02Z,2,I appreciate how you organized the basics tutorials and explained the logic behind naming of the videos in this playlist. Thank you for sharing your knowledge and the teaching us Python in a very thoughtful way.,True
+@MM-ce6ci,2020-04-20T11:44:20Z,0,And if I have to import a list from a different directory?,True
+@mkilic6497,2020-04-18T08:39:00Z,3,"Corey all the best to you, already finished the beginner series and was a very good intro for me, many thanks for your efforts",True
+@anaekh,2020-04-17T21:42:21Z,1,A great Video. I understood a lot of things from this single video. Thanks a lot. Great work!!! :-),True
+@user-ls7cu4je6v,2020-04-06T06:10:00Z,1,"Great video!! As a beginner, I learned a lot from your tutorial series! Thank you so much!!",True
+@adebolaadesina6912,2020-04-04T06:39:54Z,0,"Can you please make a JS or Java tutorial? I know how hard it is to make an [informative, well loaded, simple logics, deep concepts tutorial ] but I've never able to understand programming concepts not just the basics and verbose  teaching of some developer like yours. I've watched series of tutorial on Python all I can take out is the basics understanding but not the concepts, and we all know the concepts is the foundation for becoming a better programmer, developer or understanding a programming language.    You're gifted in many ways I finally know what is behind a  function return, I can now say I understand closure better, I now know what decorators are used for and how to write and implement one.   I use to have imposter syndrome working with standard library of any programming language, even some written library but now I've been shuffling Python library without any intimidation and I have a good understand on how to import module and above all how Phyton was able to find module or where it look for module.    I can keep rambling and rambling I just want to thank you and let you know that lot of people including me really appreciate the hard work you put into this overloaded videos and can't thank you enough. So I take time too to write this awful comments to let you know that you have impacted someone's knowledge in a positive way that you can ever imagine and you your videos and tutorial have elevate my ability and ambitions to be a better developer your lessons has moved me to the top of the ladder and for that I'm grateful.   I know asking for more will put me in the shoe of ""Oliver Twist"" LMFAO but don't blame me I've a bigger appetite for knowledge and great teaching especially ""programming"" and I'me deficient in some aspect of some language so if you can please make some OOPS programming video like Java or maybe Typescript video or JavaScript for total beginner. God bless you and may your efforts never go on notice.",True
+@mcan543,2020-04-01T01:26:56Z,7,#KeyTakeAways 9:17 sys.path.append 18:00 os.getcwd 18:12 os.___file___ gives the directory of the module,True
+@JacobsCapital,2020-03-31T10:13:19Z,2,Maaan I absolutely love ur tutorials,True
+@nileshyadav7010,2020-03-29T18:07:41Z,0,"Heyy, I am thankful to you for posting such videos where all can understand each and every detail of python.  I just want to know, did you make any videos related to 'Popen' class and one more i.e. XMLrpc module?",True
+@user-is5yy9ii2f,2020-03-29T08:47:05Z,0,can you provide a tutorial for packaging pyhon?,True
+@aakashtiwari3677,2020-03-28T04:03:03Z,1,"Great Greater Greatest !!!!!!!! Love your tutorials, they are the best......Brother (If you don't mind if I call you that). By the way I have done graduation in electrical engg, but my interest is in coding and to learn different programming language. So I've started learning Python and Your tutorials are the best for me as a beginner. I'm familiar with C++, so its little easy for me to understand these tutorials. Thank You very much for all your efforts. 🙏🙏",True
+@varunkrishnaKyathanpally,2020-03-26T15:33:40Z,1,"Thanks, man!",True
+@moazabdulfattah3554,2020-03-26T05:36:37Z,1,"thank you so much, you are brilliant <3",True
+@mouhamedsellam1951,2020-03-24T09:44:20Z,1,thank you your cours is sooooo helpfull,True
+@ilyamosayebe6986,2020-03-15T21:48:50Z,0,can you help me 👏😢😭,True
+@ilyamosayebe6986,2020-03-15T21:47:16Z,0,hi my import not run,True
+@smitangshuchakraborty5808,2020-03-15T12:26:44Z,0,my my_module and another source code called as module_list are in the same directory but i can't import my_module into module_list Please help.,True
+@ilyamosayebe6986,2020-03-12T23:28:18Z,0,hi where is input,True
+@tordsonander,2020-03-11T07:13:24Z,1,This explained alot! Thank you!,True
+@atulwithsmile,2020-03-06T11:48:49Z,0,"Could you do a tutorial on how to go through a documentation page of a 3rd party library (which is not pandas or numpy, for example).?",True
+@kinjalvora256,2020-03-01T01:21:00Z,0,8:33 # importing modules even if they are not in the same path  Way1:  import sys sys.path.append('The path where the file exists') Way2: changing environment variable open .bash_profile with texteditor  nano ~/.bash_profile towards the end of the file: export PYTHONPATH = 'Enter the location' save by pressing crtl+x and Y and enter restart terminal,True
+@logenninefinger3420,2020-02-27T20:46:49Z,1,Great tutorials 1- 9. Such fun and now just like that I am into spare time programming again after not writing any code for 15 years. Didn't need it in the job. Thank you very much!,True
+@arun53413,2020-02-22T05:09:09Z,0,"Hi Corey Schafer,   I was expecting some more information in this tutorial like:   1. The python file( or module) which is present inside the directory structure say :/projects/Main_folder/sub_folder/file1.py so how do we import like : from projects.Main_folder.sub_folder. file1 import function 2. Whether we need to add some __init__.py file to make the directory as the package. 3.  sys.path.append("" ""), i've added the path to the module but still importing module is showing me error.   Please  give us some more information on this",True
+@geek.with.a.camera,2020-02-15T06:17:19Z,0,19:04 what's that geohash function in the antigravity.py?,True
+@mono1017,2020-02-12T15:52:22Z,0,"Really enjoy the videos. Hey, do you have anything on how to create your own custom packages and then installing?",True
+@sueholder703,2020-02-03T10:46:21Z,1,Very in-depth as always!,True
+@Luka_WiFi,2020-01-27T15:36:23Z,0,"კაი კაცი, ოქრო კაცი, კაცური კაცი",True
+@Lawh,2020-01-23T20:40:15Z,0,"For me the basic import function doesn't work, and if I specify a part of a module, it imports the whole thing regardless.    What program are you using in this video? Maybe the one I use to check my files is old or weird or something.",True
+@randy4443,2020-01-23T04:24:53Z,0,can you teach c# or java c#?,True
+@nikhilailani2119,2020-01-05T04:40:51Z,1,"Thanks is mandatory to such huge share of python knowledge. I gotta say, you taught me more than my university did. Thanks Corey!",True
+@itis_uday,2020-01-03T09:39:31Z,1,Who's watching it in 2020?,True
+@lagartox1982,2019-12-30T10:29:16Z,0,Man you are the best!!!!,True
+@ReDsOxFaN4LiFe1,2019-12-18T19:47:36Z,0,"Hi, I'm running Windows 7 and I'm with you all the way until 10:20 where you use nano in your Mac Terminal. I see why you need to add the directory to the sys path but idk what to use. Windows terminal is saying that 'nano' is not recognized blahblahblah  EDIT: OKAY IM DUMB THE ANSWER IS LITERALLY IN 2 MINUTES AND MY DUMBASS DIDN'T WAIT LOL",True
+@Pilot_engineer_19,2019-12-18T18:59:20Z,0,"Wait a minute!  At time 21:56 you have the library file, but you never show how to open it!",True
+@risheekbharadwaj6387,2019-12-14T03:51:21Z,0,"Hey Corey, how to package and install custom modules using pip??",True
+@smoothbeak,2019-12-12T14:18:14Z,2,"I loved the ""antigravity"" at the end!",True
+@khalidhassani6173,2019-12-10T03:11:40Z,1,Always the best,True
+@jerryhuang3051,2019-11-30T16:18:22Z,1,"So clear, I just don't like the other python course. Subscribe button has been hit.",True
+@mahdip.4674,2019-11-16T18:48:30Z,3,Great series. Wish we had similar thing on Scala and Spark.,True
+@secretboxkevin,2019-11-13T07:07:24Z,0,11:45 for windows user,True
+@bharath695,2019-11-06T17:40:40Z,1,"I just say ""Thank you ""...you made me a better programmer today than yesterday!!.",True
+@sukulmahadik0303,2019-11-05T10:11:11Z,0,Hi Corey. I just love your videos. I am interested in joining your channel. However i am not clear on the advantages the channel might offer. Are there additional/indepth videos ? Thank you in advance.,True
+@unknownxyz7,2019-11-03T20:23:45Z,0,"I'm able to create the module and use the functions, but Pycharm keeps telling me there is no module with that name. I tried it in VSC, and it can't even run the code I made, it says there is no module with such name. Why does it happen? How can I fix it?",True
+@ajjalt2276,2019-10-31T19:00:21Z,1,we lub u corey,True
+@michaelhans777,2019-10-24T13:14:51Z,1,"You're rock, dude! Thank you for the worth 20 minutes!!! I can finally understand how to operate those libraries and imports!",True
+@yaseenarafat6145,2019-10-17T18:06:06Z,0,"Hello dear, After the code inserted in my pycharm it is giving back me result 'Process finished with exit code 0'. But i'm not watching my desired result here. Can you please solve the issue? i will very glade-full. I'm watching your tutorial series for last several days. Like problem i have not face before. help please...",True
+@eskilforsberg3544,2019-10-17T15:35:22Z,0,"im trying to use raw_input but when ive answered to the output in the console, nothing happens when i press enter, so any code after the raw input does not get executed. Pressing enter just adds another line in the console. Anyone has any idea about whats wrong?",True
+@judparn1018,2019-10-07T18:17:34Z,0,"Please increase font size. After all, your py codes occupy less than one-fourth of my cell phone screen. Thanks. I am looking for client and server codes in one folder in your previous videos.",True
+@jackofnotrades15,2019-10-04T18:40:06Z,0,"whats the difference between ""from module import *""  and JUST ""import module"", isn't it the same? other than the tracking problem you mentioned.",True
+@RahmaElsaeed-cf6ru,2019-10-01T21:44:05Z,0,What about importing external libraries ? why didn't you take about importing them ?,True
+@agentqowalski3745,2019-09-29T09:22:33Z,0,"Isn't that a perfect example for people complaining about using the terminal. I mean, for this task it was definitely easier than clicking yourself through 5 or 6 gui's. I use arch btw.",True
+@muzammilmajeed2532,2019-09-28T14:46:39Z,0,how to change path on linux,True
+@KingZuluKing,2019-09-17T12:01:04Z,4,"Thanks for great lesson on modules Corey,  Any chance you could make a video on ""Setting up  a project skeleton and setup.py"" its still a big issue for many people I believe  Greetings",True
+@surd2007,2019-09-14T01:03:50Z,1,good info for modules and library,True
+@dattatreyapujar4068,2019-09-11T08:59:27Z,1,Thanks for the videos.,True
+@peterchen5710,2019-09-09T13:15:39Z,31,"I have re-watched some of your videos multiple times, not because its hard to understand, its because you explained it so well I dont wanna miss any bits of it! You are truly a master programmer and a superb teacher, thanks for helping us to understand what Python really is!",True
+@zraffens5145,2019-09-08T14:35:44Z,1,You are a true teacher. I did not expect that you would show how to do it on Windows as well. Thanks a lot!,True
+@dennisasamoah2213,2019-09-02T14:29:19Z,1,you are a hero,True
+@kabirajadhikari2092,2019-08-23T13:10:39Z,1,Great teacher.,True
+@danielperico2806,2019-08-21T22:33:24Z,1,"What a nice video, 100% clear, thank you so much!",True
+@ashishsrivastava123,2019-08-21T15:50:40Z,1,Simple and Great!!,True
+@2kpresident363,2019-08-15T16:45:49Z,1,One of the best lecture among Python courses. You are really great!,True
+@FelipeC7S,2019-08-12T21:57:55Z,0,what's the name of the editor that you're using?,True
+@itsabhijha,2019-08-09T19:06:52Z,1,"Thank you for all your lessons so far, you are excellent at explaining any topic. Best wishes for your life !!",True
+@waqarm2818,2019-08-06T03:14:04Z,1,Love your tutorial videos! They are well done and the best of all I have found. I see that you show how to import a module from a different folder by changing the environment variable. I would love to see a way that imports without changing the environment variable (so that it works for someone else who downloads your code) if possible.,True
+@xfadedxshadow,2019-08-03T22:00:45Z,0,My modules is not found..... WTF,True
+@uzomaobasi3767,2019-07-10T14:47:42Z,0,"both of my modules share the same directory. However, when i try to import, the import keyword doesn't seem active. What could i be doing wrong?",True
+@camilomarin1310,2019-07-10T13:59:05Z,2,"You talk as simple as clean water, just perfect !",True
+@master2466,2019-07-10T06:26:41Z,1,I can not stop praising this truly amazing videos. So I have decided to contribute monthly on  patreon and  subscribed for monthly donation. Thank you and keep going. A real time project would give much more insight into python.,True
+@lukechavhunduka2970,2019-07-08T12:09:33Z,1,Dude never stop teaching I am 15 and I am starting my own website now and I used your Chanel whenever I was stuck thanks so much,True
+@m3cv1no,2019-07-06T12:57:00Z,1,Keep up ^_______^,True
+@sundarpandey3147,2019-07-05T17:29:19Z,3,I wish I could explain like you. Fabulous tutorial. Your explanation is so meticulously planned any beginner can understand.,True
+@krypton7412,2019-07-04T13:46:41Z,0,When I'm typing python in cmd I get an error that python isn't recognised. Can anyone help how to solve this problem?,True
+@user-pt4vn5hr2z,2019-07-03T16:16:58Z,1,Thank you for your tutorials.,True
+@AnilGupta-iv1rz,2019-07-01T18:48:44Z,7,Your tutorials is the best thing happened to me in 2019.,True
+@kanishkmair2920,2019-06-22T22:32:26Z,0,"If we import a module containing a class, does it work similarly?",True
+@rishabhnehra1471,2019-06-20T21:30:28Z,1,Great video,True
+@dreamtosoccer9205,2019-06-20T05:46:15Z,0,sir how can we see the source code of the build in modules of python.,True
+@FlareSoul69,2019-06-19T17:54:44Z,3,"Thank you for the clear explanation on ""import"" and ""from...""!!!",True
+@markoticinovic6626,2019-06-19T17:25:00Z,0,Which text editor is that?,True
+@redpz,2019-06-16T18:14:32Z,0,is that pycharm?,True
+@kumarabhishek5652,2019-06-09T16:46:40Z,1,good  way to teach stuffs.thanks,True
+@sonder8059,2019-05-30T07:40:52Z,2,You're one of the little people that use sublime and I love it,True
+@mggarekar,2019-05-30T01:08:55Z,1,nice !!!,True
+@marco.nascimento,2019-05-24T22:59:26Z,3,"Very nice in-depth tutorial on modules, I've been studying Python for a while and haven't almost no one getting in this particular topic of changing the path variable for module importing. Your work is awesome, cheers from Brazil. (I always like to say where I'm from to give the content maker a grisp of how far his work is getting heh)",True
+@shazkingdom1702,2019-05-19T07:47:42Z,0,I now know the inner deprh the meaning “no module and what to do..”   normally I pip either 2 or 3 😂 😂- Thanks Corey,True
+@BiancaAguglia,2019-05-12T01:45:40Z,3,"Another excellent tutorial, Corey. I can't tell you how much this video series made my life easier. 😀",True
+@davr9724,2019-05-06T16:46:08Z,2,"Thank you for your video, it cleared up a long-standing problem I had even with me having a newer version of python. <3",True
+@jacoblim9439,2019-04-23T21:57:38Z,1,"Finally i understand what is import as after months of self study, now i finally know what is ""import numpy as np, tensorflow as tf""",True
+@Runslik3Wind,2019-04-18T23:50:44Z,1,Thanks bruhhhh,True
+@anjojna267,2019-04-16T03:05:59Z,16,"Yooo...I love how you explain. Among all the other tutorials I've been watching, it's in your videos I get to understand Python clearly.",True
+@jbhelps8430,2019-04-12T21:25:52Z,0,"Hey Corey,  Why do we have to use the import random for the random selection to work. Because I tried it without and I got an error....",True
+@StevenTse,2019-04-11T16:29:29Z,0,"Thankyou Corey, you explain the concept cleanly.  btw you did not mention __init__.py, which python should search folder with it when importing modules.",True
+@aakashverma8602,2019-04-09T16:42:59Z,1,"Me nowdays in youtube i only search for your videos if i want something related to python , each and every video of urs consist of so much information , its really helpfull , thanks for your efforts ....!!!",True
+@gurudattshenoy5747,2019-03-30T05:33:43Z,1,"Awesome!! crystal clear.  You make complex stuffs simple to learn, thats why you are awesome.",True
+@andyn6053,2019-03-24T04:29:45Z,2,Do you have any suggestions of where I can practice these skills that I just learned from your videos? I want interesting and relevant problems to solve.,True
+@adityachauhan1225,2019-03-16T19:28:51Z,0,Make background white and test black,True
+@sawomirkwiatkowski8981,2019-03-10T17:12:22Z,0,Thanks for the great tutorial. I wonder if it's possible to import from module a function and a variable with the same name e.g variable test and function test(),True
+@ibarix,2019-03-09T14:10:34Z,3,your explanations are godlike.,True
+@snoopyjc,2019-03-09T03:01:18Z,0,And the comic is wrong - I keep trying like print “Hello World!” and instead of working it tells me I have missing parenthesis - why can’t it just put them in if it’s so smart??,True
+@AmitChaudhary-qx5mc,2019-03-08T16:42:06Z,2,thanks you sir for such a great explanation.... love from india,True
+@gyaneshnewalkar7685,2019-03-08T07:52:01Z,1,Thank you so much for making it so easy to understand. You are a great teacher.,True
+@ROC4Life96,2019-03-03T20:16:55Z,0,"To whom it may concern: Thanks to slizb on stackoverflow, a nice way to import a parallel module would be ""sys.path.append('../')"" https://stackoverflow.com/questions/4383571/importing-files-from-different-folder",True
+@shrikanthyadravi9682,2019-02-28T14:16:24Z,0,"You explained pretty well.. Appreciate presentation could have been there on white screen, instead of black screen. Thank You,",True
+@hasifkhan8197,2019-02-06T22:21:54Z,0,Now I want to fire bullets in the dislikes. :-),True
+@mostafaelnady7827,2019-01-30T23:50:23Z,1,"the best tutorial ever in modules and you are the best python developer i have ever seen in my life  and you are my idol sir big fan for you from egypt print(""Thank you so much"")",True
+@beatual,2019-01-27T15:22:01Z,1,easy to understand,True
+@denizalan7694,2019-01-27T14:46:34Z,2,"I do have a question. When you use “from X import Y” it only imports a specific chunk of the module.  But when you run the code around 4:00 computer still printed the first string. Why it did so? Considering you only imported the function, not the print(which is outside of said function).",True
+@sushantkarki2708,2019-01-27T08:36:03Z,0,"can you please help me out here, https://stackoverflow.com/questions/54386374/how-to-import-local-variables-of-a-file-to-current-module",True
+@sushantkarki2708,2019-01-25T08:16:08Z,0,I came here expecting the use of __init__.py method of importing modules. could you make a video about that please.,True
+@gabrielkomanderzapata3189,2019-01-17T23:27:36Z,1,Thanks Corey it was really great video,True
+@NZIT1,2019-01-17T20:51:28Z,0,"Hi Corey Schafer,  I am wondering  how to import modules and explore  in jupyter? thanks",True
+@shpliey88,2019-01-13T03:54:30Z,0,This question may come off as real easy answer to explain but how do I save the my_module.py into the same directory as the intro.py? Thank you in advance for you responses. Thank you Corey for these wonderful  videos!,True
+@TheMasmixu,2019-01-12T16:20:04Z,0,"I know it's been a long time since this video was created, but I have a problem. In 9:18 you have showed that how to import  file from different location. Every time when I am tryin to do this my program is moving line 'from my_module import find_index, test' at the top of the code. So it is apper than import.sys etc.  Couldn't find a answer for this. Maybe somen can help me with this? :(",True
+@nickt423,2019-01-11T13:25:47Z,0,"from my_module import * and  import my_module   Is there any difference between these two ways, other than the way it is written?",True
+@nickt423,2019-01-11T13:16:15Z,1,"I would call myself a beginner-intermediate at Django. I'm coming back to learn some of these concepts more thoroughly.  I found myself using many of the things you are talking about, but I didn't understand why. Your tutorial series has done a great job clearing some of that up. Thank you Corey!",True
+@ayoubuntu,2019-01-09T13:14:31Z,2,Thank you so much for this serie of python videos I've learned so much from you and I'm now able to dive into advanced usage of python in machine learning and big data. keep up Corey,True
+@barskarakas4927,2019-01-08T20:22:30Z,1,You are a legend deep respect sir,True
+@scottwiseman2966,2019-01-05T03:26:00Z,1,I would love to learn from you how to import other libraries into Python IDE. I know how for the command line with a virtual environment. By the way amazing job.,True
+@toothfairy5352,2018-12-27T14:47:30Z,4,Omg🙊... we’ve finished the basics😍! Onto the next stuff!,True
+@shahrokhabbasirad2223,2018-12-27T10:39:28Z,0,"Hi Corey and Thanks for your tutorial. It's wonderful. I have a problem when I want to use sys.path.append("" ..."") I should first do import sys and then sys.path.append and then import my own module. But when I run the program in ATOM it automatically move my module import to the bottom of the code and the program does not work. How can I fix it?",True
+@orionbekesi,2018-12-27T04:38:39Z,0,1GB RAM,True
+@chandansarkar1123,2018-12-24T14:57:30Z,2,Following this series in 2018. You are amazing Corey. Thanks a ton for putting this together..,True
+@jamesbrunner7782,2018-12-23T03:14:02Z,0,How do you get the standard library in the sidebar?,True
+@TheEznix,2018-12-18T18:55:38Z,0,"How do test userinput in Sublime text? i have the same setup as you, with the same packages. It wont let me test my user input.",True
+@123hgggmllvcc,2018-12-10T18:38:51Z,2,Corey Schafer for president!,True
+@accannate5465,2018-12-09T19:20:44Z,0,"Sorry but how did you access the standard library? I followed the path but os.py is just a long python file, not that awesome ordered stuff on the sidebar :/ Help please",True
+@trying2understand870,2018-12-09T18:50:36Z,0,"Somebody, anybody. When I type >pip list I get a list of all the modules on my machine, but then it says 'You are using pip 10.0.1, however version 18.1 is available. You should consider upgrading via ""python - m pip install --upgrade pip""  command.' So I type >python -m pip install --upgrade pip then it says 'Requirement already up-to-date: pip in c:\......... So again I type >pip list  I get a list of all the modules on my machine, but then it says 'You are using pip 10.0.1, however version 18.1 is available. You should consider upgrading via ""python - m pip install --upgrade pip""   HEEEEELLLLLP!!! please somebody! anybody!!!!",True
+@maheshwarmaddula5958,2018-11-30T05:48:44Z,2,@Corey Schafer your python videos should be rated as the best and most useful one's,True
+@eurekapoultry7215,2018-11-27T03:50:58Z,13,"I really like that you throw extra tidbits in there that most ""beginner"" level courses would not.  I have a fair amount of programming experience but Python is new to me.  I started from the beginning just to make sure I didn't miss anything.  Coming from ""C"" like languages, Python is a bit interesting.",True
+@HamzaKhan-om8gi,2018-11-21T09:47:22Z,0,hello sir :- if we want to find out first index this also gives us 1. if we change in the saved module can we get the real result . from   pakistan:,True
+@theflaminglionhotlionfox2140,2018-11-19T18:55:24Z,0,So I just finished the beginner's tutorial. Any suggestions on what I should do next?,True
+@inambe3987,2018-11-17T19:34:07Z,1,How to digest all this information! Awesome! got everything at one place. Thank You.,True
+@orthodox8224,2018-11-15T17:23:34Z,0,what should i learn next for  web development?????,True
+@user-qh3oe7hz5d,2018-11-14T14:54:11Z,0,"I generally use Sublime Text for coding, but to be honest, I quite liked the built in editor. And I'm a petty bastard when it comes to editors. python  for loop http://bit.ly/2PGHG0S",True
+@adsgfsgd,2018-11-10T01:33:44Z,0,"When i named the file '9_module' instead of 'my_module', the import did not work. Am i not allowed to use numbers?",True
+@didierleprince6106,2018-11-05T22:38:43Z,1,I am learning a lot. 😊,True
+@phillipcarnock2636,2018-10-28T12:55:37Z,3,"I think what sets you apart is your ability to know your audience and stay on track with what you are teaching. Everything is to the point, succinct and clear. Great job.",True
+@xcoldbloom,2018-10-27T07:43:04Z,0,"a bit too much for me, at this point",True
+@thecodinghustle1006,2018-10-21T07:42:04Z,3,the BEST python playlist <3,True
+@timothymalahy7880,2018-10-15T20:17:50Z,0,Is it just adding the new variable to PYTHON PATH? Essentially appending it?,True
+@dennisthegamer2376,2018-10-13T18:38:50Z,0,"You can access modules from child directories, you just use the '.' operator: import child.module. But how do you import from a parent directory? I haven't found a way to do this.  For example: project/   foo.py   dir/     module.py  How can module.py access foo.py? Or is this just bad design and it shouldn't work anyway? Do you edit sys.path in this case?",True
+@aperxmim,2018-10-02T00:27:38Z,2,"I am blow away in the training, no slow intro, just the training, something we need",True
+@dinakarvaddem5524,2018-10-01T03:39:03Z,0,"Hi corey,  I have couple of doubts regarding importing the path of modules. Earlier in this course when teaching lists, you showed us an example of appending an entry, which got appended at the end of the list but why is the sys.path list appending it in the front for you now. when i tried on my windows machine it is appending at the end of the list.  Also, why aren't you preferring to use ""insert"" method, to append the path in desired location. I have tried this and it worked completely fine.",True
+@helantopia,2018-09-24T16:42:47Z,5,"""YOU'RE FLYING! HOW?"" ""PYTHON!"" XD got to love Python sometimes. fun fact: Our Professor actually used parts of Monty Python sketches for all his examples and then showed the corresponding sketch for a 5 min break, it was literally the only reason people kept showing up even though the lectures were posted online (the sketches were left out there)",True
+@sunpengjie4565,2018-09-19T12:38:42Z,1,"I have to say this is the best intro series of video for python. Clear and easy to understand. As long as you have some basic background from programming, you can understand it. Great work Corey",True
+@milutinndv,2018-09-10T18:19:03Z,0,Id like to see C++ OpenGl and Java tutorials in the future.,True
+@gwh1984,2018-09-05T12:41:05Z,0,"I cant do the ""import pytube"". i get this message ""ModuleNotFoundError: No module named 'pytube' """,True
+@achocolatemonkey,2018-09-02T20:36:48Z,16,"As a someone with literally no prior experience with coding, you have made this videos so clear and easy to understand. I don't think words are sufficient to express my gratitude, but I really appreciate all the effort you take to make these videos!! Thanks a million!! 💕",True
+@AnupamPatel02,2018-09-02T14:32:17Z,7,"Thanks a lot Corey, I have done several courses in python ( paid / open) , and have to say you got a interesting way of teaching , which keeps me going for the next video in the recommendation :).",True
+@armantripathi1581,2018-08-31T02:52:42Z,1,"I can't access the standard library on my mac, the way you did at 18:35. The library folder does not have frameworks. How do I go about this haha",True
+@fadialshaar8408,2018-08-23T12:32:18Z,2,these videos are very helpful... thank you.. you works are great,True
+@ghasembanazadeh3378,2018-08-14T10:20:33Z,1,"Hi Again Sorry For Asking Question a lot. Why you didnt only use this : for value in to_search:       if(value==target):               return 1        return -1 1-what is emurate and why you use that 2-why you use i,value instead of only using value Thank You",True
+@alihejazi6345,2018-08-11T10:34:27Z,1,the way you teach is really awesome. you are like a teacher with unlimited energy and that's makes your videos super cool and awesome. thanks for everything I learned so much from you.,True
+@tinogonzalez5581,2018-07-29T23:54:52Z,0,Hay I’m a little confused I did everything you did and I got an error saying that the function was not subscriptable do you know what that means.,True
+@tinogonzalez5581,2018-07-29T23:23:43Z,1,Python tutorial = ‘great tutorial’,True
+@anastasiostsamoglou5017,2018-07-23T14:30:30Z,0,Why when you import only find index the message from module is printed??(imported my module) Thanks for your video!,True
+@engineer580,2018-07-19T00:55:16Z,1,The most excellent video I have ever watched about this topic,True
+@md.ashfaqurrahmantahashin5031,2018-07-15T18:54:49Z,1,what does return -1 mean?,True
+@ritheshbcanvas4963,2018-07-13T03:48:56Z,1,Your tutorial are always best.  . Thank you ..,True
+@miguelcastillo1742,2018-07-09T02:20:59Z,0,"I need an advice.  After to learn the basics what should I do? I don't know how to start coding a program or how to put things together, I'm stuck in that :( I feel dumb lol",True
+@jc9101,2018-07-07T17:35:13Z,3,You have no idea how helpful your videos are! I sincerely thank you for all your efforts.,True
+@shaktird,2018-07-04T09:57:02Z,1,You are doing an amazing job !! Indebted ....,True
+@bhupendrasinghgurjar6051,2018-06-28T08:47:53Z,3,Master Of Python Programmers ! He not only  focus on generalizing things but specialization in-depth . I appreciate this specialization not generalizing. Thank You,True
+@soldiergaming2722,2018-06-21T15:57:51Z,0,So in other words I know all the basics of python already...??? :|,True
+@suhailahamed4991,2018-06-15T03:52:39Z,0,"Usually, we call modules like libraries in another programming languages.  Coming to python is there any difference between Module and library?",True
+@PietroSperonidiFenizio,2018-06-13T19:03:05Z,0,"the irony of taking a course in udemy, not being satisfied on how they explain modules. So googling for a better explanation. And having THAT very course run here as an advertisement. :-)",True
+@nichhikara5779,2018-06-13T08:13:57Z,1,YOU are the python            _ _GUY_ _,True
+@SimplyMe2010100,2018-06-11T21:45:20Z,1,Thank you so much. Great teaching methods!,True
+@angelicamatch211,2018-06-11T21:24:11Z,0,hello i have 2 files in the same directory folder and so im importing one module/file from the other file module but i keep getting an error saying......module not found or doesnt exist....i dont get why if the 2 modules are in same directory/folder..and i am not making spelling errrors,True
+@rajcodes100,2018-06-11T04:51:46Z,9,Hi Corey - thanks so much for this series.The series covered alot of materials - your explanations has helped me to understand Python fundamentals better.,True
+@david156,2018-06-06T00:22:13Z,0,These videos are outstanding! But it's a bit hard to learn without practicing with some exercises. Maybe you could keep the videos free but have a subscription to get access to some quizzes/solutions?,True
+@manumanohardreamz,2018-06-04T15:55:02Z,1,sir could you please make a video for how to import modules using  relative path,True
+@avantisinha4012,2018-06-01T21:19:10Z,1,Your teaching is out of this world Python Man!! I am so impressed.,True
+@karlee8608,2018-05-24T17:38:01Z,0,"Hi Corey, please show how you open up the python library at the end of this video. Thanks",True
+@djlatino101,2018-05-22T05:36:01Z,0,You're a freaking beast.,True
+@tulikamal,2018-05-21T13:55:04Z,1,"Thanks, Corey S. for your detail Python tutorial. I have learned a lot from your videos from basic to in-depth understanding within a quick succession. Just curious, do you have tutorials for Numpy or Pandas",True
+@tomziv321,2018-05-17T14:57:33Z,0,"Hey Corey,  I cant seem to understand this lesson, it confuses me. I think I lack information about ""modules"" and ""libraries"" in general. What should I do? Thanks in advance, love your tutorials.",True
+@kevinpurcell9509,2018-05-10T17:17:54Z,0,At 18 minutes into the video you mention that you can open the python library to access the built in functions. I'm not understanding how I can view that on my own computer. Can you explain what code I would use to open this list?,True
+@gladtomeetyou13,2018-05-10T03:43:31Z,0,Thanks A Lot,True
+@miltonweinhold6859,2018-05-09T01:43:38Z,0,"thanks babe, you da best <3",True
+@Pradeepkumardeeepu,2018-05-08T09:46:35Z,0,Well explained Corey.Thanks.,True
+@jingyuchang1885,2018-05-07T20:52:37Z,1,"Thanks very much for your efforts to make these videos. It really helped! I will try not to skip the ads when I watch your videos and I believe you can make some money from youtube. I know that is not enough to pay your efforts, but that is a way for me to pay. I will donate to your channel after I get a job in the US!! Thanks you very much again!!",True
+@akshaysharma6675,2018-04-30T12:49:19Z,0,you are great corey,True
+@muneeral-amodi4505,2018-04-24T04:38:28Z,16,"Your are amazing! I've never seen such a comprehensive tutorial, your teaching is clear and organized and even more, it focuses on what we need. Thank you Corey, I really appreciate your wonderful efforts.",True
+@ShubhamGupta-re1go,2018-04-21T07:22:31Z,0,is it necessary to get a  coaching or i can learn by yourvideos only.. i am new in python,True
+@ShubhamGupta-re1go,2018-04-21T07:21:44Z,0,best python video ever..,True
+@Zod_JB,2018-04-19T01:36:25Z,0,"I'm not sure if i'm doing something wrong, or if its because i'm using Windows10 and maybe they changed crap or what, but I cant get my command prompt to import the my_module as you did in the video. I know the path is correct, I added the PYTHONPATH to the Environment Variables, I have checked and double checked for spelling and made sure that any necessary caps are correct, and every single time all I get in my cmd prompt is the following:  Traceback (most recent call last):  File""<stdin>"", line 1, in <module>  ModuleNotFoundError: No module named 'my_module'.  Any help that anyone can offer would be greatly appreciated. I would post screen shots to verify, but of course I cant post pictures in comments. :(",True
+@ahmadhamidbayat3754,2018-04-17T06:23:10Z,1,I am really learning alot from you. Thanks a lot for such awesome videos.,True
+@vinodkashyap599,2018-04-12T07:01:10Z,0,Thank You,True
+@alexandremondaini,2018-04-11T08:57:54Z,0,"import sys print(sys.path)  with open('ola.jpg', 'rb') as f:     print(f.name) ['/Users/alexandre/Desktop/sublime_python', '/Users/alexandre/Desktop/sublime_python/files', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python36.zip', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/lib-dynload', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages'] /Library/Frameworks/Python.framework/Versions/3.6 Traceback (most recent call last):   File ""/Users/alexandre/Desktop/sublime_python/file_objects.py"", line 24, in <module>     with open('ola.jpg', 'rb') as f: FileNotFoundError: [Errno 2] No such file or directory: 'ola.jpg'  ola.jpg is whithin files directory , so weird.",True
+@alexandremondaini,2018-04-11T08:54:58Z,0,by setting env paths into the shell on OS X my sublime text 3 adds the path but it stills cannot import a file or module . why is that ?,True
+@narasimhanmb4703,2018-04-10T19:56:12Z,0,"now-a-days, whenever I find difficulty in understanding a topic on python, I open youtube and search ""corey+topic"" and give it a thumbs-up before starting to watch the video. And, after watching video, I have never ""unliked"" till date and will never.",True
+@haritr9877,2018-04-06T14:00:08Z,0,"Hi Corey,  Thank you for all the tutorials. I wanted to learn Python and your tutorial series has been a big help in getting me started.  When I did   import os  print(os.__file__)  Atom ran /System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/os.pyc instead of 3.6 like it did in your video. I've done the alias python=python3 thing in a previous video of yours but I still get the same result. Could you please help me as to how I can get atom to run 3.6?",True
+@aashishpanigrahi2794,2018-04-06T06:02:54Z,0,"Hi Corey,   firstly , thanks for uploading videos , you'r videos are awesome.   I am the redhat guy , and i was looking for oVirt engine module for automating the builds and all for Virtual Machine,   Please upload videos for that :)   Thanks in advance , you Rocks....",True
+@dgaburto,2018-04-04T15:40:55Z,0,Thank you so much!,True
+@rooneymara8061,2018-04-01T07:25:52Z,1,Your like/dislike ratio says many thing about your channel. Quality content!!,True
+@niteshrawat576,2018-03-31T15:01:56Z,0,"great vid corey,  just one doubt when changing the python variable path, will effect the importing modules from relative dir ? thanks_in_advance",True
+@asifinreallife,2018-03-28T09:55:19Z,0,Oh my God....r u even human??!! world needs more people like u..... holy mother of jesus....,True
+@HenryFabianGT,2018-03-21T00:56:31Z,34,"As an Chemical Engineering student, I can't thank you enough for the effort and time you put into these tutorials. Your elegant and smart way of teaching makes it easy to understand and love Python. Now, me and the thousands of people who followed your tutorials have the wings to fly and keep exploring the wonders that this language offers... thanks to you.  *I salute you, Sir!*",True
+@yhc907,2018-03-18T06:02:33Z,0,"Hi, what if I get import module because it is not installed? I have carefully followed your videos from the very first one, but could not figure out how to sort this out.. Thanks..! My error is importerror: no module named requests, which is common as per Google, but could still not figure out how to fix it.. Thanks.",True
+@KarthikRampur-ql2td,2018-03-14T18:01:23Z,8,By far the best tutorials  I ever came across on the internet on python.Big thanks for your efforts.,True
+@syedbaryalay5849,2018-03-12T19:10:46Z,1,the most satisfying tutorial. even if you don't wanna learn python these skills are great to get,True
+@rachitgupta2336,2018-03-10T20:17:01Z,5,This guy is the best instructor on Youtube.,True
+@XOPGAMINGX300,2018-02-28T14:24:16Z,0,So python imports modules by executing the certain module from the module that imported it and then it just uses the result?,True
+@Nestorghh,2018-02-25T18:06:52Z,1,Your videos are helpful and easy to understand. Thanks,True
+@Ricebow11,2018-02-11T06:22:34Z,1,thanks Corey for the beginner tutorial videos.  I've definitely capture a lot from watching your videos. I'm using these videos more than the materials provided by school... goes to show what school really has to offer.,True
+@unknownshell7673,2018-02-07T17:31:40Z,0,"8 months, 1 dislike keep up the great work :)",True
+@failuregreat9424,2018-02-01T13:57:08Z,4,"This particular video is literally one of the best videos I've ever watch about teaching something. I've programmed in some languages, just basic stuff and curiously I never had to deal with libraries, and I was always curious about it.",True
+@muzamil343,2018-01-29T03:34:02Z,0,Who else read the whole comic @ 19:50?,True
+@arjonarts5624,2018-01-26T14:17:55Z,0,"I have got a question, when typed in this line of code ""from my_module import find_index"", you can only select that method and nothing else, but when you run the program it also printed ""imported my_module..."" eventough you didn't import it. Why does it print tthat??",True
+@ugurokur,2018-01-22T07:11:17Z,0,"adamın dibisin,",True
+@ericfarias7159,2018-01-16T04:45:00Z,0,Thanks again dude,True
+@hollywoodentertainment7401,2018-01-12T14:38:14Z,1,this is such a great channel,True
+@saifburki4064,2018-01-03T17:02:46Z,0,"even though its porperly installed, its gives error of ModuleNotFoundError: No module named 'geopy'",True
+@henricattoire8507,2017-12-24T12:25:50Z,0,Awesome series!,True
+@davidm.johnston8994,2017-12-20T07:21:29Z,0,"Thanks man, you taught me a lot.",True
+@samdavepollard,2017-12-17T13:06:25Z,0,Golden.,True
+@aceofshade,2017-12-14T06:53:24Z,0,"Corey, thx for helping me learn python!",True
+@anikethake54,2017-12-08T04:57:54Z,1,Thank you Soo much 😀,True
+@ManuelShelton,2017-12-06T09:42:12Z,1,Thanks Corey for this very interesting python course. I enjoyed very much your well prepared courses.,True
+@cavidanbagiri1884,2017-12-03T20:49:24Z,1,l live in Azerbaijan. l cant speak english but l want to learn python. dont have a lot of information in Azerbaijan about python. but l  see your videos l can learn. thanks Corey . you are a best,True
+@heatriss,2017-12-03T12:05:00Z,0,"Hey, thanks for great videos, Corey! I have run into a problem: I tried to run the random generator and i keep getting an arror that says: TypeError: 'list' object is not callable. I don't know how to get around it, could you help me with that? I'm using Spyder.",True
+@tonyallen8787,2017-11-27T03:35:25Z,0,you the man!!!,True
+@Medicinboardexam,2017-11-22T00:15:19Z,2,"I took a python beginner lesson on Udemy, and went back to your beginner course. I find your video really help to fill the gap what I missed in the Udemy python course. It makes everything more clear and I really like the way you make examples. Thank you for all the efforts of doing such a wonderful job. These are the best python videos for any beginners at least I truly recommend. Also, as a self-taught learner, I'm wondering what's your suggestions of getting more practice or exercise?",True
+@varunsaraogi8488,2017-11-12T07:20:49Z,1,"I cannot thank you enough for your tutorials, the clarity with which you explain is mind boggling. Thanks again!!",True
+@boltstormofrs,2017-11-09T21:06:10Z,0,"I'm using Jetbeans PyCharm Community edition for Universtiy.  I've wrote a script that I want to distribute to classmates. The code is 89 lines long, with more functionality to come.  From the same Python Directory (contains _init_.py) I am unable to import a script at all. What's wrong?",True
+@pinochska,2017-11-05T04:19:27Z,0,I can’t understand why python still executes print statements when you are exclusively importing only a function from the module using “from my_module import my_function” its driving me crazy,True
+@antonbodbijl,2017-11-04T17:58:51Z,0,Great tutorial. Thank you for that!,True
+@p.saiharikrishna4280,2017-10-23T17:23:45Z,1,"Amazing way to make us understand, Even a beginner would find it easy :) any plans to make R programming language or anyone has a suggestion of equally good videos as such as this one..?",True
+@henrilamarre7902,2017-10-17T01:53:44Z,0,"Hi Corey, Great Tutorials! What is the difference between: import 'module' and from 'module' import * Thanks!!!",True
+@songzhezhou4272,2017-09-24T16:32:50Z,0,"Hi Corey, I love your videos you made me obsessed with Python right now. One question, how to execute a single statement in one script file? Is there any hot key for this run function? I actually used the default 'Command + B' but Sublime gave me all the statements results. Thank you.",True
+@Sharlikran,2017-09-21T02:21:05Z,0,Would you be willing to go over the 3.6 module import lib that replaced the old imp module from 2.7. I would like to understand how to use packages and importing from a Unicode environment. I made a pull request with some code to illustrate what I am trying to update from 2.7 to 3.6.,True
+@sushilkhanchi,2017-09-19T18:58:44Z,0,"Hi Corey!  i want to know how did you change from mac to windows in this video. Is it on same machine if yes,then how.Would you please tell me ^_^",True
+@Kqto,2017-09-18T13:53:41Z,0,"Your explanations are great, thank you for sharing. One thing I've got to point out is that there're more OS apart from Mac OS and Window$. Please remember GNU/Linux's users.",True
+@user-tx1ip,2017-09-15T01:15:53Z,1,"I am wondering why ""when 'from my module import find_index' ,the 'import my_module' can still be print out?""thank you!",True
+@asadmoosvi,2017-09-07T15:24:57Z,1,It's better to append to PYTHONPATH like export PYTHONPATH=$PYTHONPATH:/home/user/somedir because it might already be set.,True
+@dragoon1983,2017-08-27T13:44:59Z,3,These tutorials are very good to get a good understanding of python... I'll definitely recommend these to my friends.. Great Work...,True
+@genelee1356,2017-08-21T15:22:28Z,0,"Corey - Making progress with your tutoring.  I'm following this video to import local modules.  The first way using sys.path.append works.  But the second way adding ""export PYTHONPATH=..."" in bash_profile (as your video 10:00) gives me problems.  As you shown (11:20), import sys, sys.path from Terminal shows an added path.  But the added path doesn't show up in when I run import sys, sys.path from Sublime Text.  Thanks in advance for your help.",True
+@dipamvasani8727,2017-08-16T15:59:29Z,76,"It's quite ostensible that you are a great programmer with in depth knowledge about the things you work with. Just out of curiosity, I wanted to ask you, where did you gain your knowledge base from and how did you master all these languages and tools. And I can comment this on every video of yours, ""They are the best tutorials on youtube right now.""",True
+@genelee1356,2017-08-12T21:12:04Z,0,Corey - This is good!  You answer a lot of questions I had in mind.,True
+@jeff4877,2017-07-26T23:59:21Z,0,"opened the random module, viewed it, my brain has 3rd degree burns now. Good vid!",True
+@benzeltser9851,2017-07-26T16:46:41Z,0,"8:22 - Problem   -Code runs properly  - while Idle was running, I relocated the""My-module.py"" file in a new folder located in my Desktop   -I ran the code, and the code still works normally  ?Does anyone know why",True
+@keithwhoriskey205,2017-07-24T09:40:03Z,0,"Hi Corey,  I am getting the following error message when I try to import any modules....  /Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/keithwhoriskey/PycharmProjects/Tutorials/ /Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python: can't find '__main__' module in '/Users/keithwhoriskey/PycharmProjects/Tutorials/'  This was working previously but when I tried to follow the os video and do the import os module I would get this message too.   What is '__main__' module?  Thanks,  Keith",True
+@deepshikha1395,2017-07-23T12:10:38Z,0,"find_index ?? this is not working , . for index listName.index('name')",True
+@infotakeaway2641,2017-07-21T10:25:33Z,1,You're a life saver!!!! You have definitely helped me progress alot! Thankyou :),True
+@bhagyarajupati9278,2017-07-21T05:04:00Z,0,How add python environment variables in linux ?,True
+@navpreetsingh7760,2017-07-13T13:05:26Z,0,"Hi, Really loved your tutorials. Do you have any tutorial on numpy and pandas",True
+@benzeltser9851,2017-07-05T16:41:30Z,3,"Hello, your lessons are incredibly detailed and well understood. Though I'm having a hard time figuring out two things that I saw during this lesson  A. in 8:33,I move the file location, yet the code still works properly  B. I have created the environment variable the exact same way you did, yet CMD doesn't  ?seem to recognize it, any idea why",True
+@benzeltser9851,2017-07-05T16:31:33Z,1,"8:33  I move the file location, yet the code still works properly, anyone has some idea why?",True
+@tikendersingh1138,2017-06-27T08:33:22Z,5,print (0.1 + 0.1 == 0.2) :-this statement returns true print (0.1 + 0.2 == 0.3):-this statement returns false print (0.1 + 0.3 == 0.4):-this statement returns true print (0.2 + 0.4 == 0.6):-this statement returns false what is the concept behind this?,True
+@abhisheksharma-xq5pe,2017-06-15T03:58:29Z,0,You are incredible..big fan of your tutorials...fan from INDIA...,True
+@vinchino,2017-06-13T07:52:03Z,1,"wow, you're the best, I love your content!",True
+@garvitomer9122,2017-06-10T20:45:23Z,1,Your are the best!,True
+@Marxmann1984,2017-06-06T18:23:10Z,0,This guy should teach all python courses. Everyone else is just a dick at explaining things.,True
+@hamidabdanan7795,2017-05-26T00:11:59Z,0,What is the difference between (import module) vs (from module import *) ?  I mean importing the whole module vs * ?,True
+@quanghuy8794,2017-05-20T18:06:09Z,0,"hi Corey, how do i type something in the input() method with the sublime text build?",True
+@brainplot,2017-05-20T15:33:34Z,2,"Hi Corey! This is a really great tutorial! Thank you! Can I just suggest you a handy Sublime shortcut? :D Since I saw you copied and pasted lines when you needed to duplicate them in multiple rows, I would like to tell you that you can hit cmd+shift+d while the cursor is at any point of the line and it'll get duplicated. It's even faster than just copy and paste! Once you've got the hang of it, you'll feel its lack in any other text editor :)",True
+@AmericanAdvancedStudios,2017-05-19T23:34:03Z,0,I'm a brazillian student and i'm loving these videos. Thanks <3,True
+@greob,2017-05-19T17:02:44Z,0,You're a great teacher. Hope to see more advanced topics covered too maybe? Would love to see some C/C++ or Java. ;),True
+@TheFourOnSix,2017-05-19T16:26:11Z,27,Can you do a video on how to make a python program as an executable that will run on any machine?,True
+@clearlyajit,2017-05-19T09:29:21Z,0,How do you make videos that are like 21 min long but just take 29 MB even in 720p? Really want to know...,True
+@karlssonyu7251,2017-05-19T00:52:16Z,1,"Hey Corey. Thanks for the extremely well-explained videos. I wonder if you could also provide tutorials for the context manager, especially the $with statement$.",True
+@ameliasaidwhat,2017-05-18T19:00:56Z,0,"Hi Corey, I have been watching your tutorials all day and seemed to have really messed things up., this isn't directly related to the video but it is about Anaconda..  I already had Anaconda but with Python 2.7. I was following the Jupyter Notebook Tutorial, however  jupyter notebook did not work. SO I went to the Anaconda Installation Video. The conda commands were not working.   Now I have tried to remove and then reinstall Anaconda several times and this is where the problem came in. Now when I click on the icon in Applications nothing opens. Typing python in the terminal returns ""Python 2.7.10 (default, Jul 14 2015, 19:46:27)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.39)] on darwin Type ""help"", ""copyright"", ""credits"" or ""license"" for more information.""  Sorry if this is too vague, I am feeling lost and having a hard time moving forward. Any help is greatly appreciated!",True
+@ljka,2017-05-18T18:21:38Z,671,Youre a master Python Programmer! You explain clearly and in-depth but i dont feel information overload. You know what to teach and not overdo it. I appreciate this. Thank you.,True
+@yapayzeka,2017-05-18T10:46:16Z,5,just what i need. thank you very much. great explanation.,True
+@MarkWusinich,2017-05-18T03:41:39Z,221,I have taken two courses on python and no one ever went over this.  Thank you!!!,True
+@eokwukwe,2017-05-17T22:55:33Z,0,Thanks Corey. I like your tutorial a lot. Please could you make a video on how to use the sys.arg function. I've tried searching online but the explanations I've seen so far have not be clear enough for me.,True

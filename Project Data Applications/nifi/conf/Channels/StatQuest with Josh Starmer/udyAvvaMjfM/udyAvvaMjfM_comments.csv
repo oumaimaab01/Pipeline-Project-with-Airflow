@@ -1,0 +1,50 @@
+author,updated_at,like_count,text,public
+@statquest,2020-01-31T11:23:31Z,28,"Correction: 4:15 I say getting 7 oranges and 1 blue is just as rare a getting 7 blues and 1 red. This is incorrect, since there are more blues and oranges in general than there are blues and red. However, the idea that we add up rarer events is correct.  Here's the R-code: data <- matrix(nrow=6, ncol=2, byrow=TRUE,                 data=c(1, 5, # red                       0, 6, # yellow                       0, 8, # orange                       0, 9, # green                       0, 5, # brown                       7, 8)) # blue  fisher.test(data)  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@vivektanwar628,2024-05-23T17:10:53Z,1,tripple BAM!!,True
+@agila.p9807,2024-04-03T11:13:47Z,0,Is this the same as Fisher's score?,True
+@jordan7386,2024-03-07T20:52:13Z,0,"This may be an obvious question, but how would Fisher's Exact test be applied to word frequencies in two datasets (i.e., corpora)? For example, let's say there are 5 instances of ""stats"" in Text #1, which has 100,000 words, but 75 instances in Text #2, which is 200,000. My field previously used chi-square and LL for this kind of test, but a researcher proposed Fisher's Exact test as a better alternative, and I'm having trouble wrapping my head around it. Thanks!",True
+@arenashawn772,2024-02-07T07:10:37Z,1,"I did watch the math heavy videos 😂😂😂 (this is a reply to your comment in USF that “nobody watches the math heavy videos” 😛)  BTW I came across this channel which is basically a college biostats class but also with fun songs (good class, not nearly as fun, accessible or illustrative as your videos obviously but the opening songs are quite nice to my amateur’s ears… Reminding me a little of Nora Jones… Although I know practically zero about music 😅😅😅)  https://youtu.be/eN2X3hzUpWg?si=pDlGAbM8Yug7FxNF",True
+@ocm6382,2023-08-10T16:43:09Z,0,"Hi Josh, I love your channel. I have a question for your interpretation of the bag.   Your p-value for your draw of M&Ms is 0.01, which is below the standard threshold for significance.   When evaluating the meaning of this value however, is it more accurate to say that your bag is special, or that your draw is special?  Best,      -OC",True
+@marahakermi-nt7lc,2023-07-13T17:46:44Z,0,thx  josh i have questiom what is the difference between  this test and the fisher test that we learnt from linear regression,True
+@tlijaniraed1599,2023-06-22T15:17:35Z,0,hmmm  thanks josh please i have a question when we plot the original distribution of the population  normaly the distribution would be multinomial ??????,True
+@arpaddanos9416,2023-06-17T01:18:43Z,1,"The histogram you show from the internet that has 8 blues etc, from the standard bag, is of course just the means I assume from a large sample of bags. (rounded to integers as well). But what if your handfull had been 10 blues and 1 red? then you cannot use the system you showed to calculate the probability right? Thanks for the great videos",True
+@rajatchopra1411,2022-10-21T11:28:06Z,0,1:00 Shouldn't it be a Bar graph instead of histogram PS. A stat quest without music is like a pizza without its topings  ;),True
+@mehdihjamadi3225,2022-05-16T16:50:51Z,0,Hey thanks for great videos. what is the best stat analysis for a 2 by 3 table? treatment and control in columns and in rows 3 conditions.,True
+@meinizizheng9867,2022-05-10T21:17:22Z,1,Thank you for the great explanation! I am wondering where can I find the R code for this one?,True
+@2wenty4our,2022-04-08T13:54:14Z,0,"The 'data' table you create in your R code is not a contingency table, is it? A picked M&M is in both the handful and bag column which means the marginal for those rows is wrong, I think but I'm not sure!",True
+@vesprs2491,2022-03-01T23:18:01Z,0,"For your p value calculation, you sum equal events and anything rarer.  For the test in which this model was created- the lady drinking tea- wouldn't the p value then include her being 100% correct and 100% wrong?",True
+@yatharthghorawat7535,2021-12-11T18:22:29Z,0,Hi i just wanted to know if the formula of fishers exact test and Hypergeometric Distribution is the same or not? Please could u revert back,True
+@Chrisymcmb,2021-11-27T23:59:38Z,2,It's awesome how you link all your video for knowledge that may be needed for what we are currently discussing that is covered in another one of your video lectures! Thanks! Awesome! BAMMMMMM!,True
+@ladushky1,2021-10-27T04:59:05Z,5,"Thanks duuude! I just found your channel; your tutorials are simple to follow. Love how you break down complex matter into tiny digestable bites of data, and process and represent it in your videos, so fine. THANK YOU!",True
+@sanjuktaghosh8802,2021-07-25T15:04:34Z,2,"Sir, could you please tell me, what are the hypotheses we are going to assume for this Fisher-exact test. Is it the same null and alternative; there's no significant difference in the probability and vice versa respectively? In between I love your videos, thank you for making them. :)",True
+@miladvazirian251,2021-06-26T03:44:32Z,0,"What is ""an idealized bag of m&ms"" in 0:53 ?",True
+@alexanderchui323,2021-06-09T00:08:13Z,0,Does having a random 0 (not structural 0) bias the calculation of the Fisher's test p-value for a 2x2 contingency table?,True
+@sharan9993,2021-05-22T19:39:08Z,3,U know u hav beaten the youtube algorithm when it starts recommending statquest videos.  Bam!!!!!!,True
+@tomp4925,2021-05-22T02:58:52Z,0,Can Fishers exact test be used to calculate the p-value using Bedfords Law. It would be a 9x2 or 2x9 table? Some of the expected frequencies would be less than 5,True
+@SNAKE1375,2021-05-12T22:22:46Z,1,"Hi Josh, could you explain me how to relate these probabilities calculations with a distribution? could you show the probabilty distribution of your example, please?",True
+@marcoventura9451,2021-05-06T19:55:39Z,1,"Very good, I think that the topic is fascinating, it would be interesting an in depth analysis, not just a quickie. :-)",True
+@monapatel4768,2021-02-14T20:51:09Z,1,I missed the song in the beginning of this video :),True
+@reisinj5977,2020-12-04T10:03:02Z,2,"But first, let's eat some eminems",True
+@ProyectoCREAS,2020-11-14T11:41:58Z,1,Where is the intro song? 🥺,True
+@jesusrivera3942,2020-10-26T18:13:44Z,2,u r hero,True
+@user-bz8nm6eb6g,2020-08-27T09:13:00Z,1,Awesome!,True
+@nursahidassafaat6283,2020-06-06T20:26:57Z,2,hmm no opening song :(,True
+@IVEXUS,2020-03-29T18:35:00Z,6,What if you get three blue one brown?,True
+@ykim1642,2020-01-31T03:43:29Z,1,Thank you for all your excellent videos. Please let me understand  why 7 oranges and 1 blue is equally rare to 7 blues and 1 red at 4:15. The probability of 7 oranges and 1 blue isn't higher than 7 blues and 1 red?,True
+@silviapetrova8562,2020-01-19T15:01:09Z,0,i cant seem to understand why p-value = 0.01 means the bag is special,True
+@oliviama3691,2020-01-17T19:27:46Z,2,LOVE IT!,True
+@Hypertyz,2020-01-11T21:25:44Z,0,how can your bag be special if it is the same as the internets?,True
+@kennywang9929,2019-12-21T03:55:43Z,0,"Thanks, Josh, I have a question: the null hypothesis is ""my bag is special"", p-value is 1% (less than 5%), shouldn't we reject the null hypothesis, meaning my bag is not special??? But intuitively, 7 blue + 1 red is very rare so it kinda tells my bag is special, where am I wrong???",True
+@Abubakar-so5fy,2019-12-14T11:06:50Z,0,Related,True
+@Abubakar-so5fy,2019-12-14T11:06:19Z,0,Related,True
+@Yzhang250,2019-11-07T19:16:57Z,1,"Hi Josh, can you give more talks about the probability distributions, statistics of edgeR. I am a frequent user of edgeR, but even after reading their doc for several times, i still can't fully understand.",True
+@phuongtam951,2019-10-17T20:57:53Z,4,hooray! mindblowing! thank you Josh :D,True
+@notnilc2107,2019-09-30T20:56:33Z,4,"I really like how this video is condescendingly elementary, as if it were targeted towards an 8th grader as opposed to a university student. It's a refreshing break from all the in-depth websites that don't explain why we use the Hyper-Geometric distribution for the test statistic (I only made the connection after watching this video) and it's actually kind of funny.",True
+@dinoman8652,2019-08-15T09:09:28Z,0,"Hello Thank you I follow the link from the other video. To remind about my question. It is quite similar to this video, but it is a bit different. My situation would be like M&Ms are in different colors, 40 colors. Then let say I pick up 8 M&Ms, and I get red as in the video (ignore another colors). I would like to know how rare that I randomly pick 8 M&Ms and get red.  So, I repeat the test for 100 times and out of 100 times, I get red M&M only 3 times. Then I want to know the P-value of getting 3/100 times red M&M. Is it possible to calculate?",True
+@wericmeira,2019-04-20T01:18:29Z,2,"Hi, thanks for producing these contents ....... They help me a lot ....  I replicated the script in the R language. "" fisher.test (data, alternative = ""less"") fisher.test (data, alternative = ""greater"") "" I did not understand how the p-value remained the same (0.01473) for the alternative hypotheses P0 <P1 and P0> P1. Can you clarify? What are the alternative and null hypotheses of the video problem?   VLW.......",True
+@saraben2262,2019-04-18T23:16:31Z,0,"Can  u please explaine to me what does "" enrichment analyse"" mean ?why do we call it enrichment?? What's it step? I was looking for  it since Hitler time  but i did't find  the  answer 😭😭😭",True
+@dominicj7977,2019-04-11T12:35:53Z,1,8C7*5C1/40C8,True
+@dist321,2018-12-02T15:21:50Z,1,Another great video!!!,True
+@ashtonteng5284,2018-11-27T22:30:09Z,7,Can you explain the process behind getting the p-values for Fisher's exact test?,True
+@thunderbuns1740,2018-08-17T18:08:04Z,1,How did you calculate the probabilities of all the combinations?,True
+@elshroomness,2018-03-16T02:08:48Z,19,Thank you for making this video. Google and NCBI gave me stat coma.,True

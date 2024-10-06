@@ -1,0 +1,14 @@
+author,updated_at,like_count,text,public
+@shiri_miri98,2024-04-16T11:02:20Z,0,"Whoever is getting an error with getting final independent features  can use this ``` dfs = [pd.DataFrame(X[i].reshape(1, -1)) for i in range(len(X))] df = pd.concat(dfs, ignore_index=True) ```",True
+@asim-turivlogs,2023-12-26T21:53:57Z,0,"Thanks for you nice presentation and demo Krish. I have one question.  In the tutorial you were saying that the window size would a single word vector dimention. But While training the word2vec from scratch, when you press Tab+Shift, It was saying window size=5, and vector dimention is 100. Is it not a confusion.",True
+@PallaviPadav,2023-09-24T15:42:46Z,0,"hi Krish, how to go about cbow and skimgram . can you please provide eg code for each",True
+@pec8377,2023-08-14T20:13:18Z,0,"Watch ! As you use your full dataset to build your corpus, you are sure all the words will be in the corpus, but if you provide a new sentence it may have some words not in the corpus.. or all the words outside of the corpus, in wich case KABOOM, your average function will generate some warning, and you won't be able to build a df as all the average can not be generated",True
+@soniasimran5426,2023-03-18T18:03:13Z,3,"Sir your teaching way is so excellent. ❤   Please also make the videos on transfer learning  BERT, Distilbert  implementation",True
+@priyam66,2023-02-24T15:37:32Z,1,"whoever is getting an error running the avg_word2vec function, following code can be used instead:  def avg_word2vec(doc):      vocab=model.wv.vocab.keys()     return np.mean([model.wv[word] for word in doc if word in vocab],axis=0)",True
+@ankushgarg2104,2023-02-06T19:26:26Z,1,"Hi @krish Nail  you train the output feature too while training the model, U can correct that part.",True
+@anuragshrivastava7855,2023-01-30T18:27:31Z,0,is it individual video or part of some Playlist? if part of Playlist can u please share Playlist link,True
+@adeyinkasotunde6870,2023-01-30T11:14:08Z,0,Super amazing. Woow..... This is another fastest way to get things done with better accuracy. Thanks @Krish Naik,True
+@ravulapallivenkatagurnadha9605,2023-01-29T16:32:24Z,0,Great Teaching,True
+@astrovishalthakur,2023-01-29T13:23:24Z,0,Neuro lab me AWS support kab aayega. Launch time pr to badi Deenge haanki thi. Ab kya hua????,True
+@ashusoni6448,2023-01-29T13:10:01Z,0,amazing content,True
+@karthikgames7480,2023-01-29T12:57:36Z,1,"Hi , ur channel is help lot , I'm complete Ms(Quantitative finance) and little knowledge on Data science but now I'm working photo shop how to become get chance job in DS. Any suggestions.",True

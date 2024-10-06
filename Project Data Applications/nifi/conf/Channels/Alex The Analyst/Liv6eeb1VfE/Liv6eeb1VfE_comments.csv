@@ -1,0 +1,94 @@
+author,updated_at,like_count,text,public
+@user-re4ip5ms9w,2024-05-23T09:53:34Z,0,my heatmap is broken its not showing all the values even if I wrote the annot = True anyone have a fix? i tried almost everything when I hit shift+tab,True
+@marypazcuessy3004,2024-05-21T01:33:28Z,0,"Can anyone help me? My heatmap wont load all the numbers, just the Rank row starting at 1  I used   df.corr(numeric_only = True)    sns.heatmap(df.corr(numeric_only = True), annot = True)  plt.show()",True
+@jjsansano,2024-05-10T05:08:13Z,0,This is great! Thank you!,True
+@ohbelhote3932,2024-04-25T09:27:03Z,1,"In case you are only getting the first row of annotations on heatmap: !pip install --upgrade seaborn After running this command, it's a good idea to restart your Jupyter kernel to make sure it uses the updated version of Seaborn. You can restart the kernel by clicking on ""Kernel"" > ""Restart"" in the Jupyter menu bar.",True
+@nadarioferguson6276,2024-04-18T04:00:34Z,0,Thank you so much for this. I really enjoyed it and learned a lot of what I had forgotten a few years ago.,True
+@dishanbhandari,2024-04-17T14:17:19Z,0,My heatmap doesn’t contain the data values inside them as in 14:18 instead it just shows a heatmap with column values as in the top most band. I have written the code just as shown alos df.corr(numeric_only=True) as well as that ‘annot’ but still now data values. Pls Anyone help,True
+@tranguyen4462,2024-03-31T03:33:51Z,0,"omg I laughed out loud at the ""Oceania"" part ;)))) Alex is so funny and brutally honest about things he didn't know ;)))",True
+@donvious,2024-03-30T19:55:09Z,0,"hi, where is the link for the csv format document?",True
+@Zenitsu-mq7fq,2024-03-20T15:21:32Z,0,"24:50  df2 = df.groupby('Continent').mean(numeric_only=True).iloc[:, -5:-13:-1].sort_values(by = '1970 Population', ascending = False) df2 = df2.transpose() df2.plot()  This way we don't use the copypasting and changing columns, just use reversed indexes)",True
+@helens6199,2024-03-17T21:40:52Z,0,"How to get past the errors you get while trying to follow the instructions with a newer version of pandas:  df.corr() -> df.corr(numeric_only=True)  df.groupby(""Continent"").mean() -> df.groupby(""Continent"").mean(numeric_only=True)",True
+@FailingProject185,2024-03-07T14:02:58Z,2,It's funny american don't know the continent of australia.,True
+@RaihanRisad,2024-03-04T20:57:56Z,0,"i couldnt able to do df.corr() because it was saying some columns are not numeric so that case i had to use numeric_df;  numeric_df = df[['2022 Population', '2020 Population', '2015 Population', '2010 Population', '2000 Population', '1990 Population', '1980 Population', 'Area (km²)', 'Density (per km²)', 'Growth Rate', 'World Population Percentage' ]] numeric_df.corr()",True
+@HarshKumar-ws3wv,2024-02-27T14:04:37Z,0,"Sir, in your opinion : Jupyter vs Pycharm? Which is better for Exploratory Data Analysis ?",True
+@OkallTheAnalyst,2024-02-26T06:18:52Z,1,"Incase you are running into an error at minute 11:12, add numeric_only = True to the corr. i.e df.corr(numeric_only = True).",True
+@ayoubchouket,2024-02-25T17:17:07Z,0,thank you,True
+@frenamakenson9844,2024-02-16T02:21:56Z,4,"Hello, 100000000 thanks for sharing  For the Corealtion part at 11mn df.corr(numeric_only=True) # pass numeric only param to not having error",True
+@renaanpf,2024-02-12T22:50:35Z,0,"I really appreciate your effort to teach us, Alex! Thank you so much!  I have been using CoPilot (from MS) and it has helping me very much to understand and solve some errors I encouter",True
+@naagarhive6581,2024-01-29T10:40:18Z,0,OOPs ,True
+@DuckingDuck-th2lt,2024-01-21T20:22:38Z,9,"Hello, Alex!  Once again, thanks a lot for all your hard work! At 13:10 I got an error ValueError: 'box_aspect' and 'fig_aspect' must be positive"" Solved it by putting the plt.rcParams BEFORE the sns.heatmap The other problem was that some functions didn't work until I added the parameter numeric_only = True, e.g., df.corr (numeric_only=True) or .mean(numeric_only = True) Hope, it can help someone!",True
+@rameshkumarmohanraj4167,2024-01-21T12:58:30Z,4,I think some of you would be met with an error when typing this line of code as mentioned at  11:11: df.corr() this is because it takes all types (data types) of values in consideration and to alleviate this:  1) You can either use google colab which will automatically handle this error 2) Just code like this: df.corr(numeric_only = True)  Hope this is helpful..🤍,True
+@Charlay_Charlay,2024-01-20T22:31:49Z,0,Thank you for the Pandas class!,True
+@abhishekchaudhary7913,2024-01-15T13:39:25Z,2,df4=df3.sort_index(ascending=True) df4                   at 26:11  as alex is sorting manually you sort the year directly by this command,True
+@rnjesus9950,2024-01-12T14:50:35Z,0,"This worked for me where df.corr() did not:  # Select numeric columns (excluding any non-numeric columns) numeric_columns = df.select_dtypes(include=['float64', 'int64'])  # Calculate the correlation matrix correlation_matrix = numeric_columns.corr()  correlation_matrix",True
+@akademy_performance_digital,2024-01-05T20:37:04Z,0,great,True
+@vermelil,2024-01-03T19:10:57Z,0,"at minute 10:56 if you get this error ""ValueError: could not convert string to float: 'AFG'"" do this df.corr(numeric_only=True)",True
+@truthgaming2296,2024-01-02T07:37:46Z,0,its spells 'O-Ce-A-Nia' btw btw thank for this guidance SIr Alex :),True
+@sj1795,2024-01-02T06:49:00Z,1,"EXCELLENT SUPERB video!! I can't believe it--I'm 6/7 videos away from the end of your FANTASTIC bootcamp series! Wahoo! I learned a lot in this video. :) As for ""ending on a low note"", hardly Alex lol All your content is uplifting and rewarding! As always, THANK YOU!",True
+@gogor8017,2023-12-30T21:23:21Z,0,"You said 'Oceania' so many times, now it sounds like meaningless word.",True
+@arpitmaheshwari122,2023-12-26T11:01:41Z,1,"hey, can anyone tell if the correlation command is working in vs code? I'm getting a value error in this part. please share the solution if you have one  thanks :)",True
+@innocentnduaguba,2023-12-20T04:32:35Z,2,"Thank you so much Alex, truly great content you put out there. I have a question please; when I run df.groupby('Continent').mean() and df.corr() I get errors, please what could be the cause and what can I do to remedy it.",True
+@Therealumerhayat,2023-12-16T08:01:39Z,2,16:58 Try with This Code  df.groupby('Continent').mean(numeric_only = True),True
+@rafaelmarques5623,2023-12-15T15:45:53Z,7,"Oceania is one of the 7 Continents (North America, South America, Europe, Asia, Africa, Oceania, Antartica). It's basically Australia and the countries (islands) around it.  Hope that helps!",True
+@user-yp1ej5ou6b,2023-12-08T14:13:29Z,1,"Hey, just a quick note here, when we're plotting the populations, it's only related to the numeric values compared to the highest populations, in fact (for example) Oceania's population increased in around 2.5 times  Anyway, thanks for the content, it's amazing",True
+@kartikgupta370,2023-12-05T22:49:15Z,5,"We can also write this to save time writing all the column names in the list ""df2 = df.groupby('Continent')[df.columns[12:4:-1]].mean(numeric_only=True).sort_values(by='2022 Population', ascending=False) """,True
+@toygar8699,2023-12-03T17:11:06Z,19,"For those get error in heatmap: import matplotlib.pyplot as plt numeric_columns = df.select_dtypes(include=['float']) sns.heatmap(numeric_columns.corr(), annot=True) plt.rcParams['figure.figsize'] = (20, 7) plt.show()",True
+@diegomartins7214,2023-11-10T19:06:26Z,0,Thank you!,True
+@AndrejSpilevoj,2023-11-06T07:04:15Z,0,"Started so much in inspiring way but got stuck right after ""df.corr()"" since it pushed the error that it cannot convert strings to float whenever we have text in the table :(",True
+@iqraasif3783,2023-11-01T21:09:21Z,1,"Hi, can someone help. When I plot figures that have been grouped, it doesn't show the figure, just says <Axes: >.",True
+@rajkumarjadi7061,2023-10-29T11:26:11Z,0,"Can any one expalin why ""df.corr()"" not working for me?",True
+@moniquebrasilbaptista1989,2023-10-10T21:56:54Z,0,I am sure I am going to use some of these tips. Thank you!😍❤,True
+@staquatica1607,2023-10-04T14:16:04Z,36,"I got some error's (using pycharm) that I solved by using ""mumeric_only=True"". For instance: df.corr(numeric_only=True) and df.groupby(""Continent"").mean(numeric_only=True)",True
+@adminravi,2023-10-04T11:59:15Z,1,"Is it ok if I use: pd.set_option('display.float_format', '{:.2f}'.format) instead of pd.set_option('display.float_format', lambda x: '%.2f' % x)",True
+@TheRobinCreations,2023-10-01T17:41:02Z,0,Thank you so much it was very informative.,True
+@OazadOMER,2023-09-26T16:05:10Z,0,Thank you very much Alex I'm shifting from Ph to Data Analyst with your bootcamp I had an issue with plt.show() AttributeError: module 'matplotlib' has no attribute 'show' i's deprecated and I counldn't  find something sameller and also my chart not showing numbers 14:10 Best regards,True
+@neildelacruz6059,2023-09-23T14:53:13Z,1,Thank you Alex this is very helpful.,True
+@irf7aan,2023-09-22T19:36:48Z,0,"As FC24 is going to be released, ""I created the Python project for FIFA23, building the ultimate dream team and simulating thrilling matches as the game reaches its conclusion."" The video is in my channel. Fell free to check it out . https://www.youtube.com/watch?v=nbnDqW_FaL4&t=61s I used chatGPT for this.",True
+@ngwamalfred8151,2023-09-14T04:23:11Z,0,Where would l have been without this video .,True
+@taroge5464,2023-09-05T16:36:42Z,1,"no explanation.................pd.set_option('display.float_format',lambda x : '%.2f' % x)",True
+@satrapech6107,2023-08-29T11:46:02Z,22,the correction of df.corr() is:  numeric_columns = df.select_dtypes(include=[np.number]) correlation_matrix = numeric_columns.corr correlation_matrix(),True
+@karanvaghela4668,2023-08-26T10:47:03Z,0,Hey alex why we should use python instead of SQl Because SQl is easy,True
+@pbp7,2023-08-21T21:01:30Z,15,"Man, “Oceania” was so funny 😂, tks for the class!",True
+@csaracho2009,2023-08-14T01:55:22Z,0,"(Minute 9:30)... So, in the Continent America there are 'two"" Continents, ""NorthAmerica""and ""SouthAmerica""/ Ha Ha Ha, Americans...",True
+@DEDE-ix9lg,2023-08-10T14:34:49Z,1,"I always enjoy  a video from Alex. Making one of the best videos , while some other channels just can be a real headache",True
+@MaximKazartsev,2023-08-01T02:53:56Z,4,"Alex, thank you for this great video and everything you do!  In order to avoid manual ordering of the population years, there is a way to use df.columns method, by adding reversed. The whole construction looks like  df2 = df.groupby('Continent')[list(reversed(df.columns[5:13]))].mean().sort_values(by='2022 Population', ascending=False)  And it works )",True
+@srijanrawat4014,2023-07-28T13:46:01Z,0,"i am having problem in downloading the file , can anyone help me out",True
+@Inc0gnit030,2023-07-24T23:56:44Z,1,I really enjoyed this introduction to Pandas! Keep up the good work!,True
+@abdulsami6117,2023-07-22T17:33:46Z,0,"Love from Pakistan Alex, Really Helpful and Enjoyable.  I also like the OOPS sound you make 😂😂",True
+@keluargaindo-timordiuk,2023-07-22T00:34:05Z,4,"For the grouping data I do df2=df.drop(columns=['CCA3','Country','Capital'])  df3=df2.groupby('Continent').mean(numeric_only=True).sort_values(by=""2022 Population"",ascending=False) df3  to get to the same output as seen in the video",True
+@ermano5586,2023-07-20T17:27:44Z,0,"I have one problem, which is that the table does not display columns starting from ""area (km^2)"" when we call ""df"" to view the table, I mean there is no scrollbar for horizontal data, can anyone help for this, please?",True
+@user-fx9eq7zm2v,2023-07-17T03:04:34Z,0,"Again, thank you were much!",True
+@dragoneer121,2023-07-11T00:52:41Z,1,"Continents are mostly a social convention. The english spekaing countries tend to use 7, while spanish speaking countries have a 6 continent model where it uses Oceania and combines North and south America. Australia is the continent but Oceania is a geopolitical convenience. If it was not included most of the pacific isalnd countries would not be associated with a continent. North and South America are another convenience and Central america is only a region by American standards. As an example of how ridiculous it is as a continent, Hawaii would be included if it was independant.",True
+@Marcusram,2023-07-04T00:18:21Z,0,we can do df3=df3.iloc[::-1] to solve the problem with the date order,True
+@rjk537,2023-07-03T10:16:14Z,1,I'm a law graduate without any experience or qualifications in data analysis whatsoever but i want to get into data analysis. Will i be able to get a job in this field? and if yes then what possible skills and certifications will help me to achieve the same? please give me some tips and insights it would be really helpful!,True
+@kogureyoeh,2023-07-01T03:24:36Z,6,"at 24:00 you can just simply add "".sort_index()"" on the ""df3 = df2.transpose()"", so that we don't have to manually rearrange the columns.   df3 = df2.transpose().sort_index() worked on my end, hope on your end too.",True
+@chefernandez563,2023-06-28T19:59:07Z,1,"Am I the only one who knew Oceania was Australia, New Zealand, Samoa and those places😂😂",True
+@haithammontaser7769,2023-06-21T17:59:11Z,0,Hello Alex. Thanks for the video and content. Is there any video for data per-processing?,True
+@osiomogieasekome8799,2023-06-19T20:40:39Z,0,I couldn't get seaborn to import... I tried online solutions about installation but it didn't work,True
+@octaverius762,2023-06-18T20:30:36Z,3,Alex which continent do you think Australia is in 😮,True
+@Ben-qe8ju,2023-06-15T06:59:02Z,0,O-she-ana,True
+@Uzbekistantouristicplacess,2023-06-10T23:59:35Z,0,https://www.youtube.com/@Uzbekistantouristicplacess,True
+@philiprhome3824,2023-06-09T19:12:07Z,1,"as R user, the syntax of pandas is just weird in compare to tidyverse (dplyr and tidyr)",True
+@santiagofajardo4949,2023-06-08T14:25:47Z,84,"Hello, at minute 24:24, I managed to reverse the range of column names using [5:13][::-1]. The expression [::-1] is used to reverse ranges and it is very useful:  df2 = df.groupby('Continent')[df.columns[5:13][::-1]].mean(numeric_only=True).sort_values(by='2022 Population', ascending=False) df2  Thank you very much, Mr. Alex, for these tutorials.",True
+@meredithleonor5035,2023-06-08T12:32:09Z,0,"why use anaconda instead of google collab, just curious looking forward in visual tutorial at python and statistics thanks i really need this type of tutorial i am studying cohort analysis and RFM analysis",True
+@minasghazaryan9344,2023-06-08T09:29:14Z,6,"Hi, Alex. First of all thanks for a great video and explanations in it. If you could help out with the issue I get running your exact code I would be more than grateful. Running the df.corr() line gives me the following error: ValueError: could not convert string to float: 'AFG' . Same comes for the heatmap,etc. What could it be here? Thanks a lot in advance.",True
+@user-dx2hx2rd4g,2023-06-08T07:07:57Z,1,Thank you for the useful information!,True
+@roshandhumal1193,2023-06-08T02:53:23Z,0,Sir Alex. I am Roshan Dattaram Dhumal I live in India from Mumbai. I want to start my career in data analysis but I don't know how to start and I want to know what steps you have to take to become Data analytics. I would like to request you to please explain to us and  give us some steps. Please sir I will definitely do hard work.,True
+@alikoohi8265,2023-06-07T21:22:31Z,0,informative video thanks.Just found an easier way to reverse order of rows: df3 = df2.transpose().loc[::-1] 😉,True
+@aishwaryapattnaik3082,2023-06-07T15:28:38Z,2,Thanks a lot for this clear cut explanation. Can you make something similar for NLP projects end to end ?,True
+@elfridhasman4181,2023-06-07T14:01:29Z,1,Thank you Alex💯🔥,True
+@vitorribeirosa,2023-06-07T06:50:05Z,1,Neat... Thanks for sharing this content. Cheers,True
+@LaMeeFitness,2023-06-06T22:20:25Z,4,"Thanks for all you do. I’m loving the bootcamp. Just finished excel project. However, please can you make a video on story telling?",True
+@AlastorGarcia,2023-06-06T22:01:08Z,8,Thanks Alex! Right now i'm applying to my first DA Job and you have no idea how useful your videos have been for me!!,True
+@orlumbuseuw5646,2023-06-06T20:18:42Z,19,Was there here an adult ignorant of what Oceania is or is this some inner joke in the channel?,True
+@youssefbekk4453,2023-06-06T18:21:36Z,0,"high level , thanks",True
+@gauravpunera3256,2023-06-06T16:22:17Z,1,Alex please make video on how to get international remote data analyst job,True
+@JW-pu1uk,2023-06-06T14:33:30Z,28,"This is absolutely top tier content. I can't stress this enough to people new, or going into the DA/DS field: you WILL be exploring and cleaning data sets much more than you will be visualizing and building models.  Thanks for this, Alex!",True
+@quotesdiary310,2023-06-06T13:54:26Z,2,Hi Alex Thank you so much for your support for freshers in the field of data analytics.,True
+@quotesdiary310,2023-06-06T13:52:15Z,1,Thank you so much alex,True
+@enix492,2023-06-06T13:22:44Z,2,Hello Alex. I read a few reviews on your recommended course on Udemy. People are saying that it is a bit outdated especially the last section. Do you think I should still go for it and the non updated part doesn't matter? Love your content and thanks for everything you do here.,True
+@pradiptisimkhada292,2023-06-06T12:09:52Z,4,I just finished all the videos in you bootcamp playlist few hours ago and I'm excited to do this again..,True
+@lukekulak7165,2023-06-06T12:06:34Z,3,Lets goo!,True
+@aayushitrivedi3481,2023-06-06T12:02:57Z,2,love your videos alexx ;),True
+@aayushitrivedi3481,2023-06-06T12:02:34Z,2,first pin me,True

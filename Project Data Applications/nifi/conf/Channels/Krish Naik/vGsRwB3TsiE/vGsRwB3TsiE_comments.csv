@@ -1,0 +1,51 @@
+author,updated_at,like_count,text,public
+@Dilaram123,2024-04-19T19:34:26Z,0,Brother sorry but you havent mention about the degrees of freedom which is the actual staistical reason behind this division of n-1 degrees of freedom.,True
+@ViolinCineMusic,2024-02-15T13:03:47Z,0,super explanation loved it,True
+@vankadavathrohith1589,2024-02-08T06:25:50Z,0,tq so much :),True
+@annamelody5724,2024-01-28T11:46:29Z,0,"Hi, i have a line of data which consists of these numbers {4, 3, 5, 6 ,4, 5, 7,6,5,4} and i have Mean = 4,9 and the variance of 1.4333. My question is, is this variance considered high or low ?",True
+@-Neutron-Star,2024-01-11T20:15:00Z,0,"so they use ""n-1"" just based on empirical  research and not based on some hardcore mathematics? why not use ""n+1""?",True
+@Ezio-ft8zm,2024-01-02T21:27:25Z,0,poonam kumari se  irritate hogya tha and so i landed up here before my stats exam ! feels so good to learn a concept which i didnt even understand after listening two times in a 45 min class !,True
+@snehaagarwal7640,2023-10-28T15:56:16Z,1,but what if we take the data on the right side of population variance and divide that by n-1...that will be inaccurate then,True
+@iwatchtvwithportal5367,2023-10-23T17:20:53Z,0,But you failed to explained how that n-1 comes from.,True
+@user-yd3zk4hb1o,2023-09-15T14:42:02Z,12,"Answer :   The calculations for both the sample standard deviation and the sample variance both contain a little bias (that’s the statistics way of saying “error”).   Bessel’s correction (i.e. subtracting 1 from your sample size) corrects this bias.   In other words, you’ll usually get a more accurate answer if you use n-1 instead of n.",True
+@thevoiceofdarkness7655,2023-08-07T17:13:22Z,0,"This may be a silly question, but why do we assume it is more likely for my sample to be skewed below the mean than above?",True
+@yaseengousesamudri9390,2023-07-30T19:19:40Z,0,Much better explanation here: https://www.youtube.com/watch?v=xJlwSkyeP0k,True
+@anivesh2225,2023-06-26T18:25:11Z,0,"Thanks for this krish, So to negate the bias factor for sample variance w.r.t to population variance we divide by n-1, as it is a tested value by the statistician amd also it is a bessel correction",True
+@josephravi7722,2023-06-22T18:33:47Z,0,additional information on how it can be seen from the perspective of degrees of freedom - https://www.youtube.com/watch?v=9ONRMymR2Eg,True
+@bharratkhanna6096,2023-06-22T18:28:36Z,6,"The exact reason is bias introduced by sample mean since it is an estimated value of population mean and because sum of deviations should be 0, hence this constraint restricts the freedom of data points, hence to counter the bias and constraints introduced we use n-1, remember sample variance is unbiased but sample std deviate still is biased because of concave functionality of square root introducing a negative bias and n-1 is a linear function which fails to correct sample std to a level as good as sample variance. Remember this is not experiment this is mathematically proved and Bessel correction(n-1) is not used when population mean is present.",True
+@rubayetalam8759,2023-06-13T10:09:07Z,0,thanks,True
+@andrew.schaeffer4032,2023-06-11T18:30:20Z,0,great explanation thanks.  I wish my statistics book talked about this.,True
+@dipayanbhadra8332,2023-05-19T16:45:38Z,0,"""Researchers experimented and saw n-1 gives good estimates""- I am not satisfied with this explanation. If this were an interview question, would the interviewer be happy with this and? Poor explanation.",True
+@DoingMyIkigai,2023-01-29T07:51:24Z,1,wasted 10 mins of life ---- not exzact reason given,True
+@file4318,2022-12-29T11:16:03Z,0,"Thank you very much for your video, it was very very good at explaining. But I have one more question, If descriptive statistics do not try to generalize to a population (since there is no uncertainty in descriptive statistics), then why does the sample standard deviation try to best estimate the population mean? Yet it is still considered a descriptive statistic",True
+@abcefg7045,2022-12-24T06:34:22Z,8,"if we take right-skewed data, then dividing with n - 1 will create more difference ?",True
+@priyaljain5274,2022-12-09T11:45:55Z,0,This is really helpful Mr Krish 👍😊,True
+@KartikKuri-qe6ye,2022-11-17T20:03:58Z,0,thank you,True
+@kumudsharma007,2022-10-31T19:47:10Z,0,Cris please remove this video as soon as possible if you want save your reputation. This is completely teaching students very wrong concept.,True
+@modemnaveen6240,2022-08-27T06:13:01Z,4,"According to logic explained in this video  , the sample mean and population mean can be different based on samples we are picking right  ? So why we are just under estimating variance . Why not mean ? Can some one please explain",True
+@anilkumarsharma8901,2022-08-18T01:00:22Z,0,Bell curve ki koi fix height hotee hain Kya ???? Statics key sarey formula ek app banva do jo sarey formula ka database mil jayega ???,True
+@me_debankan4178,2022-08-16T02:36:36Z,0,let's assume a city has a population and more than 50 % are 80 yrs old but in the time of sampling or surveying we can possibly get biased data which has a sample mean which is around 40-50 yrs and it can cause a problem during analyzing the data because our biased data showing population age mean is around 50 yrs .. and variance is more because of the squaring factor ... but we can eliminate this problem by dividing the variance by n-1,True
+@-isotope_k,2022-07-25T10:57:19Z,1,Thanks !!!,True
+@abhinandandey_ricky,2022-06-12T11:08:14Z,32,"n-1 is actually degree of freedom Why it used for sample s.d or variance?  The sample mean is supposed to be equal or closest to population mean. But you have the freedom to choose the samples randomly.  So, to keep the sample mean equal to the population mean you can change (n-1) numbers of sample.  Suppose, there are 5 samples, you can change only (5-1) = 4 sample... Because the only sample you are not changing will keep the sample mean closest or equal to population mean.",True
+@sudiptasen634,2022-05-13T07:40:16Z,3,"Hi Krish, Thank you for helping us to understand the concept. I had one question.  When we try to calculate Popultion variance or Population Standard Deviation, it is always small/less than Sample Variance or Sample Standard deviation (tried with excel formula). Is this because of the Bessel's correction that the Sample Std. dev is always greater than Population Std. Dev?",True
+@harikrishna220,2022-04-18T00:32:20Z,1,Why can't we use n-1 for mean and all,True
+@snehalhon,2022-03-30T07:37:47Z,1,After watching each video lecture of your sir ....i m getting my concept more clear ...no words for you ...u r great,True
+@karthikeyanr1804,2022-03-07T14:04:22Z,0,# in simple words: Both have a slight bias when calculating the sample standard deviation and sample variance. so we do n-1 to correct the bias,True
+@aashishmalhotra,2022-03-04T02:56:13Z,0,got it thanks,True
+@mahammadodj,2022-02-19T13:14:05Z,3,starts at 2:30,True
+@RAHUDAS,2022-02-08T04:37:47Z,0,"Really Naive explanation, According to him,  we devid by n-1    because some scientists found it correct,      Kindly check this link for answer https://youtu.be/fs4eg1u7oY0",True
+@gunjanagrawal8626,2022-01-27T07:16:12Z,5,This could be understood well from the simulation video used by the Khan Academy.,True
+@binarystar4947,2022-01-24T13:16:06Z,32,I came here by searching the ans to this question from your live day 2 - basic to intermediate statistics video and got my ans ✨,True
+@sumangupta871,2021-11-24T14:09:48Z,12,What happen if someone choose 5 samples from the right. Why we are not dividing by n+1 in that case?,True
+@raj-nq8ke,2021-11-12T12:57:25Z,0,Thanks.,True
+@arjundev4908,2021-11-08T07:10:45Z,1,https://www.youtube.com/watch?v=ANsVodOu1Tg&list=RDCMUCKs7JbggJzbNEIw0t-PaiQA&index=18 For more clarity. Nevertheless its a good video.,True
+@keyyyla,2021-11-07T03:38:06Z,1,Simple answer is: because dividing by n-1 makes the estimator unbiased.,True
+@pratikmanghwani7417,2021-11-05T15:13:47Z,6,With all due respect you should explain why it is unbiased with the math behind it. Thanks,True
+@Rana-yc6yt,2021-11-02T07:32:31Z,0,I appreciate what you doing for free but I would really love to better view of your presantation . Honestly your hand writting thing really mess up when watching videos.,True
+@nithink94,2021-11-01T18:00:42Z,0,Thank you for this video.,True
+@arnabghosh2818,2021-11-01T15:15:31Z,5,Theoritically in core statistics there is another justification related to degrees of freedom.,True
+@abhi-zc8ub,2021-11-01T10:52:47Z,4,From morning  i was trying to understand this but i didn't find any clear explanation 😅 finally a video from krish sir 😌  thank you so much sir 😇,True
+@bankimdas9517,2021-11-01T10:52:46Z,36,Dividing by 'n' underestimates the true variance so to correct the bias  we use  (n-1) in denominator.,True
+@adityams1659,2021-11-01T10:47:27Z,2,WHICH SOFTWARE IS THAT !??,True
+@mrrishiraj88,2021-11-01T10:42:08Z,1,Hello Krish,True
+@KisaanTuber,2021-11-01T10:42:01Z,1,well explained,True

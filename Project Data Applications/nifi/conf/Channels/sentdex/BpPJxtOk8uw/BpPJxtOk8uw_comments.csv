@@ -1,0 +1,87 @@
+author,updated_at,like_count,text,public
+@joshdee7639,2022-09-05T17:03:30Z,0,"Anyone looking to pay me to take a diamond off your hand? 😂 My new favorite python channel, your awesome man",True
+@gbagba81,2022-04-17T08:50:16Z,0,"macho la gente dejo de aprender esto? el comentario mas nuevo es de antes de la pandemia xdxd. dude thank you so much, you're a saint, i'm trying to grown in this field so i could get a somewhat decent future and this is the most helpfull I found, really thank yo so much. greetings! i did get a score of -0.18, and not a prophetical prection, but that has to be something about updates or smth. yet this is all so instructive. thanks!",True
+@Navattis-Dark234,2022-04-04T11:24:24Z,0,"When I map, NaN values come for some reason, help?",True
+@rawmetal3052,2021-09-29T18:25:25Z,0,Ultra helpful tutorial for beginner,True
+@mangaart3366,2021-04-30T22:42:39Z,0,Thanks for the series sentdex! I learned a lot!,True
+@DewanggaPrabowo,2021-02-04T04:04:38Z,0,"only [[""1K""]] likes???",True
+@sgoboys,2021-01-18T16:17:47Z,1,Congrats on 1M subscribers!,True
+@humphreymuriuki3715,2021-01-18T08:55:34Z,0,Any idea how a text size of 200 was arrived at?,True
+@KevinTempelx,2020-12-26T06:05:30Z,0,Thank you!,True
+@tessdejaeghere6972,2020-11-20T17:39:38Z,1,Awesome teaching! Thank you so much!,True
+@findiariesteam3325,2020-11-17T06:43:10Z,0,how did you learn python? What is your learning process?,True
+@Numbermind,2020-10-08T15:58:48Z,1,Why didn't he also scale the y ?,True
+@berkayislek16,2020-10-06T16:30:03Z,0,"As an advice; instead of giving certain number for test_size = 200, I prefer to use this: from sklearn.model_selection import train_test_split X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33)",True
+@Terence818,2020-09-30T07:42:42Z,0,"I think `X = preprocessing.scale(X)` causes data leakage because it involved test data. I think we should use `s = StandardScaler().fit(X_train)`, `X1 = s.transform(X_train)`, and `X2 = s.transform(X_test)` instead.",True
+@muhannadalhazmi8341,2020-08-29T12:15:53Z,0,"X = df.drop(""price"", axis=1).values  what is values do here ?",True
+@TerraWise2024,2020-08-27T17:56:17Z,0,easy to understand. thank you~,True
+@chrismorris3413,2020-07-30T09:36:48Z,0,Best channel ever😍 ... Upload more videos in data analysis,True
+@chrismorris3413,2020-07-30T09:36:34Z,0,Best channel ever😍 ... Upload more videos in data analysis,True
+@jyorko721,2020-07-29T19:06:37Z,0,"7:11 to 11:06  - unique_counts = pd.DataFrame.from_records([(col, df[col].nunique()) for col in df.columns], columns=['Column_Name', 'Num_Unique']).sort_values(by=['Num_Unique']) unique_counts.sort_values(by='Num_Unique',ascending=False)    Column_Name  Num_Unique 1         cut           5 2       color           7 3     clarity           8 5       table         127 4       depth         184 0       carat         273 9           z         375 8           y         552 7           x         554 6       price       11602  then   for col in df.columns:     if df[col].nunique() < 60 :                 df[col] = df[col].astype('category')  df.dtypes     carat       float64 cut        category color      category clarity    category depth       float64 table       float64 price         int64 x           float64 y           float64 z           float64 dtype: object",True
+@scriptfox614,2020-07-28T19:22:01Z,0,I watched a 20-minute ad. Does that help more than watching a 30-second one lol?,True
+@marvidal8363,2020-05-13T14:25:14Z,0,Thank you soooo much you are such a great teacher,True
+@a.r.s.6301,2020-04-28T21:16:05Z,0,after 1 hour of searching i find the answer here you are my god!!! press:shift+enter,True
+@swL1941,2020-04-23T12:58:19Z,0,What is cat.codes?,True
+@bbuggediffy,2020-04-10T11:14:39Z,0,"I needed to add ""df = df.reset_index()"" here in order for the index column to be nummerical as yours is showing. index_col=0 was not sufficient. Thanks a lot for doing all of this bro.",True
+@naheliegend5222,2020-03-30T16:11:17Z,0,is it common to map the strings into a number using dicts or are there other popular methods?,True
+@pipi_delina,2020-03-09T20:53:51Z,0,I got this error at 22:30 ValueError: Found array with dim 3. Estimator expected <= 2.... I cant decipher it,True
+@danielkyselica8222,2020-02-01T14:00:24Z,0,You have to normalize data before running linear regresion then the resulting numbers will be coorect between 0 and 1,True
+@ilesh21190,2019-11-01T06:15:04Z,0,"Great tutorial series, I have one question : you gave Value =1 which represent wrost for ""cut"" and ""Color""  but for ""clarity"" , you gave value = 1 for best one, shouldn't it be FL = 1 and ""I3"" = 11? or this isn't matter here?",True
+@charliesmith9689,2019-10-10T16:20:16Z,13,"""not only is it unless, but also in string form.... fascinating"" I laughed too loud in the coffee shop and got stared at....",True
+@mazinzain7121,2019-10-09T08:35:46Z,1,"@ 9:13 instead of copying from text to dictionary. you can do: def col_txt_dict(col):     return {df[col].unique()[i]: i+1 for i in range(len(df[col].unique()))}",True
+@vedusoni6957,2019-09-11T09:58:04Z,0,"Completed whole data analysis tutorial, you explained it very precisely and in a simple and easy way. Thanks a lot dude.........!",True
+@mukhammadsobirov6376,2019-08-26T10:53:45Z,0,Thanks a lot for your efforts. Really appreciate that. What would you advice to go through after these series?,True
+@jermainehaughton9395,2019-08-07T05:05:28Z,0,I ran this and used apple stock open high low close difference and 100moving average as my features and close as my target. Using svm.SVR(kernel=‘linear’) and the model never stops training. Am I doing something wrong? I’m using Jupyter lab python 3.7,True
+@FlexerPivot,2019-08-06T16:42:49Z,0,"@sentdex Did you do any modifications to Jupyter Notebook so that your functions will be in light blue? If anyone knows, please comment back as mine are just black!",True
+@rockieRAGE117,2019-07-28T21:53:00Z,0,What do you mean by voting classifiers?,True
+@captainaffection,2019-07-16T11:05:55Z,2,"I had to remove all my NaN values before I could execute training clf.fit(X_train, y_train) Have no idea why!",True
+@esysss,2019-07-13T16:39:49Z,0,i wish to continue this series.,True
+@adempc,2019-07-07T17:20:12Z,1,"Another great series, just finished them. Thanks so much.",True
+@elbertmkizy7086,2019-07-03T19:51:48Z,0,hi @sendtex I noticed you do your videos live and in one go most of the time. so my question is: do you go over your topic (reading documentations and try things out) for a week or two before going live?,True
+@kuaranir2440,2019-06-05T20:15:23Z,50,"I'm sure, your are the best Python (and data science!) teacher on YouTube :)",True
+@mankaransingh2599,2019-05-29T07:12:57Z,0,Maybe the scaling has something to do with -ve predictions ?,True
+@Pumpamentals,2019-05-14T00:45:06Z,0,"I cracked up way too much on the negative diamond price prediction! Great video, thank you :D",True
+@jeromehoen4587,2019-05-09T22:02:52Z,2,"Why not use sklearn's train_test_split? I think it's more commonly used than shuffling the data frame and splitting ""by hand"". Otherwise great content!",True
+@BrutalGames2013,2019-05-06T10:38:48Z,2,I even listen to your videos when I'm programming something else. It is just calming me down!,True
+@arianvc8239,2019-03-17T10:02:40Z,2,"I never leave your channel empty handed! You're awesome! Even when I've done something, there are little things you do that make it much better!",True
+@i3i2ian,2019-03-11T10:35:13Z,0,Did that bad ass just bust out the people’s elbow?!?!,True
+@user-ou3bf2um3r,2019-03-10T14:32:39Z,0,hello my friend ; i have a question ! wish is better a gaming laptop or pc  for deep learning i have a limited budget,True
+@thatsnasty5788,2019-03-09T16:44:20Z,2,'probably not ideal situation there' xD I cracked up lmaoo,True
+@patrickavis5475,2019-03-09T15:40:34Z,3,"Once again, many thanks for another excellent video. Sowing the seeds to let us explore in more depth",True
+@basselturky4027,2019-03-09T02:23:35Z,0,"Is there a way to order a RPi to execute a code for me without opening the terminal? I'm new to this. If you got any video of urs that talk about this point please give me a link of the video. Btw I'm working on graduation project which I need to control a drilling machine with (x, y) axis with RPi. I'm not sure if it's the best option. Also, I like your videos so much :)",True
+@julienpiccini440,2019-03-08T17:38:20Z,3,You're back on data analysis stuffs. I'll definitely watch.,True
+@aidenstill7179,2019-03-08T16:45:20Z,1,Do a lesson on creating your own deep learning framework. please or tell me where it can be studied,True
+@TV-ud5uw,2019-03-08T09:58:21Z,0,Can @Sentdex do a tutorial on publishing an AI services onto @singularity_net ? Just one AI BLOCKCHAIN tutorial please!,True
+@jayanthmanklu8642,2019-03-07T17:43:14Z,0,"I created a kaggle kernel for this part in the series, do fork it if interested https://www.kaggle.com/lookageek/following-sentdex-s-pandas-eda-series-3 - additionally includes training with using dummies strategy for categorical data as mentioned by @Henrique here",True
+@sarmilaguha2453,2019-03-06T09:25:53Z,0,sir why dont you do a tutorial on data structures and algorithm?,True
+@sloneplace1901,2019-03-06T05:35:27Z,0,Learn Python Graphical user interface Lesson #2 https://youtu.be/J56uLj0y-q0,True
+@anshulsharma9424,2019-03-05T19:02:39Z,8,"while true:     print(""thank you"")",True
+@sendofuji12,2019-03-05T16:35:10Z,0,"I appreciate your work as always! But as someone else also pointed out, some codes are not intro level friendly.  For example,  in the line: df['cut'].astype('category').cat.codes, I didn't know why cat was there and had to google it. It took me a few minutes to realize it's a data accessor object. If you wound't mind adding some quick explanation for the codes, that would make it easier to follow. But I'm satisfied with what you offered anyway. Keep up the good work!",True
+@utkarshmadaan8699,2019-03-05T15:48:11Z,0,can you make new and updated machine learning  tutorials please,True
+@vineet_kishore,2019-03-05T12:55:38Z,1,"You are amazing sentdex, keep making these kinds of videos.",True
+@nassehk,2019-03-05T11:32:09Z,0,"Great tutorial as always. I had a question tho. Is the R**2 in sklearn same as Excel's? If so, higher R**2 are better. That explains why you got better predictions with rbf.",True
+@jasonshieh1401,2019-03-05T08:07:38Z,0,"Follow your web and tutorials for long time and thank you very much. But I got confused if this new series is the updated version of another one (data analysis with python and pandas , released in 2015)",True
+@falgaming5306,2019-03-05T04:21:13Z,0,why do you need to drink so much? xD is it water ?  thank you so much for your tutorial sir ! appriciate it so much,True
+@eyebiofeedback,2019-03-05T00:52:07Z,0,Great stuff. 🔥 ... Can you make a vid on using selenium to remove lame youtube comments?!!?  Asking for a friend   =],True
+@nano7586,2019-03-05T00:49:40Z,0,You're the best @sentdex Thank you,True
+@LuizHenrique-zl3cc,2019-03-04T23:06:04Z,0,Hi! You could do a tutorial about Conv3D (from Keras).,True
+@brickstunram9391,2019-03-04T21:12:53Z,1,Can somebody quantify the dollar amount of human capital this man is giving to the world ?,True
+@rchuso,2019-03-04T20:43:28Z,10,Diamonds - bad subject for me: I gave my wife a 2.47 VS1 G before we split.,True
+@ahmedhany5037,2019-03-04T20:05:23Z,0,"Awesome ! Can I use deep learning on a dataset this size , since you said that for deep learning you need like 100k+ samples? So if I were to use deep learning neural networks on this , would I get good results ?",True
+@markobe08,2019-03-04T19:33:45Z,0,Master Yoda strikes again!,True
+@iaarroniz,2019-03-04T19:20:18Z,2,Simple way to avoid the negative predicted values is to transform the price to the log of price. This enables the estimation of a linear regression model with no negative predicted values by design.,True
+@ThePugEngineer,2019-03-04T18:49:35Z,6,"Love the channel, and thanks for making the text visible. It's what most YouTuber's forget.",True
+@ShadArfMohammed,2019-03-04T17:57:46Z,1,"Could you kindly not drink while you teach?! And thank you so much for your continuous efforts and making such high quality content videos, for which I'm grateful.",True
+@satir6156,2019-03-04T17:25:46Z,7,"Wouldn't it be better to transform the categories into dummies instead of [1, 2, 3, ...]?? Since it is all linear algebra, the model assumes that 2 is twice as big as 1, 3 is three times bigger and so on. If you convert them into dummies, it simply assumes that it is different. You lose the order, but the order is already present on the relation to price.",True
+@codegeek8256,2019-03-04T17:16:58Z,0,"I really like your tutorials, but i feel like they are not for beginners, because its like you assume we already know the stuff, therefore it becomes really tough to learn, as the information is kind of pre-set...and lastly i would like to know how you manage the thumbnails of the article cards on your website, you skipped that part on your django tutorials, file management seems to be a real problem, i would just like to know how you do it on your website.",True
+@shivankitraj6852,2019-03-04T16:26:19Z,0,Great Series. Please do a new series on game bots.,True
+@theroyakash,2019-03-04T16:05:55Z,0,Lit 🔥,True
+@aasimbaig01,2019-03-04T16:01:52Z,0,you forgot to remove 'NAN' values... becoz they are of no use to us,True
+@aidenstill7179,2019-03-04T15:51:13Z,2,what computer configuration is needed to practice machine learning?,True
+@Levy957,2019-03-04T15:47:23Z,0,"Nice, thx for the series! love your channel",True
+@rohangore7275,2019-03-04T15:36:58Z,0,Great video❤.... bruhh can u make a video on ensemble technique,True
+@alenkruth,2019-03-04T15:26:40Z,0,You. Are. The. Best.,True
+@ShresthRana,2019-03-04T15:15:59Z,1,really love what you're doing. Finished your Machine Learning tutorial series earlier this year and damn is it good. 😘♥️,True
+@jaythizzle1969,2019-03-04T15:15:48Z,0,"What’s the best, most cost effective way of finding a private tutor for python and also these second order topics?",True
+@hackingatubuntu7437,2019-03-04T15:09:27Z,2,"First comment, Plz make a traffic generator bot",True
+@cxmmax4265,2019-03-04T15:09:24Z,1,love it,True

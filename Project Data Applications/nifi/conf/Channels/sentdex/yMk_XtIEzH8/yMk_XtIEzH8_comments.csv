@@ -1,0 +1,231 @@
+author,updated_at,like_count,text,public
+@annguyenquy1212,2024-05-23T09:45:55Z,0,can u suggest me some other videos/chanels also sharing about RL like this. This is the most funny and easy to understand video i have ever watched,True
+@hanchen2355,2024-04-29T02:29:54Z,0,Nice cup,True
+@ammarshahzad9627,2024-02-12T01:23:04Z,2,"If someone is following this tutorial with the new gymnasium update you need to add new_state, reward, term, trun, _ = env.step(action), instead of new_state, reward, done, _. This should be followed by a   if term or trun:        done = True  this will ensure that the env runs fine",True
+@sadoilem-_7938,2024-01-04T14:25:15Z,0,"I have to implement this algorithm on Rust, is it possible?",True
+@mutemoonshiner,2023-12-23T19:39:55Z,0,Man you laugh unnecessarily!,True
+@BarkanUgurlu,2023-12-17T21:44:30Z,2,"As of December 2023 (Python 3.12)  import gym  env = gym.make(""MountainCar-v0"", render_mode='human') new_state, info = env.reset()  #print(env.observation_space.high) #print(env.observation_space.low) #print(env.action_space.n)   done = False  while not done: 	action = 2 	new_state, reward, done, truncated, info = env.step(action) 	print(new_state) 	if done or truncated: 		new_state, info = env.reset() 	 env.close()",True
+@user-ys1np1mx8r,2023-12-07T16:44:23Z,7,ValueError: too many values to unpack (expected 4),True
+@marsf7089,2023-10-30T00:26:51Z,1,Great video and so much energetic presentation. I was learning reinforcement learning this week. And this is the only material that doesn't only talk about vague and abstract concepts. So much concrete and deliberated contents!,True
+@ninaanais5612,2023-09-29T01:01:57Z,1,"for the 2023 gym package define the env.step(action) like that new_state, reward, done, _, _ = env.step(action) cause the render actually is 5 parameters and not 4",True
+@dami4862,2023-09-12T16:38:53Z,1,"*For late comers like myself  :) *  import gym  env = gym.make(""MountainCar-v0"", render_mode=""human"" ) env.reset()  done = False  while not done:     action = 1     new_state, reward, done, truncated, info = env.step(action)     #env.render()          if done or truncated:         new_state , info = env.reset()      env.close()",True
+@yawarabbas7645,2023-07-13T10:47:38Z,0,"Hi I hope you are in good health, Apply reinforcement learning model on image classification problem",True
+@shreyashsinha933,2023-06-09T16:06:05Z,0,"Watching this in 2023, could anyone point me out to an updated resource of q learning",True
+@gondorian1640,2023-05-22T15:45:25Z,0,"Hello there! Great video! I have a question, do the values inside the DISCRETE_OS_SIZE list have to be the same? i created an env where the first observation space element only has 6 combinations total, so thats why im asking. Thanks in advance!",True
+@soldat675,2023-03-05T12:51:05Z,1,"Please update a series of guides, a lot of things don’t work anymore, as in new versions it’s different.",True
+@danio583,2023-01-22T15:38:16Z,1,"i get stuck on ""gym.logger.warn(""",True
+@simonec3511,2022-12-05T15:05:41Z,2,"Incredible work, the best explanation i have found. It makes this concepts so easy to understand compared to many books on this topic that i have been studying. Thanks for you awsome work!!!",True
+@renanbuchan1633,2022-11-20T23:39:03Z,0,“We just do this! *shows big complicated equation* duh!” Earned a subscriber lol,True
+@varmhund,2022-11-05T20:46:20Z,11,"for others coming here in late 2022 struggling with the rendering due to module updates.  import gym env = gym.make(""MountainCar-v0"", render_mode=""human"") observation, info = env.reset()  done = False  while not done:     action = 2     observation, reward, done, truncated, info = env.step(action)      if done or truncated:         observation, info = env.reset() env.close()",True
+@stanleychen6710,2022-10-14T13:00:58Z,1,also we need pygame installed too for the gym to show us the actual environment,True
+@stanleychen6710,2022-10-07T02:32:45Z,0,"um sentdex? When i run the while not done loop, it points to the new_state, reward, done, _ = env.step(action) line and says ""too many values to unpack (expected 4)"" how can I solve this problem?",True
+@JuanRamirez-di9bl,2022-09-13T00:09:33Z,0,"""it does make more sense in python than in that stupid formula"" I concur! https://youtu.be/yMk_XtIEzH8?t=1282",True
+@lunapopo8415,2022-08-20T16:46:41Z,31,"For the latest gym package, to avoid backward compatibility warnings 1) define env = gym.make(""MountainCar-v0"", new_step_api=True, render_mode='human') 2) remove env.render()",True
+@InfiniteLearningLab,2022-05-22T17:44:01Z,0,perfect,True
+@TeachIT_,2022-04-18T20:18:15Z,0,Can i ask why use 20x20x3 table (3D) instead of something like 400x3 table? (2D)?,True
+@shubhamsonal5871,2022-02-06T15:52:12Z,0,@sentdex please make a series explaining the intuition behind GAN,True
+@ebimonaca,2021-12-27T00:27:44Z,0,"Thank you for nice deep""Q""Learning video",True
+@ricksanchez845,2021-12-13T03:22:04Z,0,"Nothing is clear. i wonder how professors from channel ""Numberphile"" are able to explain complex math topics very simply and when we come to Computer Science, we have always fuckign abstract explainers. I will become a professor one day and explain all of this with metaphors and real life examples.",True
+@Davti555,2021-12-09T23:27:12Z,0,ehre,True
+@itay.e7558,2021-10-09T22:58:49Z,0,How does it handle unfamiliar situations? Like if your combination number is too large to actually populate a table with all possibilities what will it do?,True
+@ruantwice,2021-08-05T11:49:28Z,0,You are an absolute boss. Thank you for the quality content!,True
+@underlecht,2021-07-21T09:30:52Z,0,Kudos for coding in sublime,True
+@ahmedelsayedabdelnabyrefae1365,2021-06-09T22:01:07Z,0,"you are great man actually ,you are my mentor now",True
+@tomquirin9271,2021-05-19T10:14:56Z,1,my window with the car closes after a few seconds,True
+@Aditya-of5yp,2021-05-17T14:19:03Z,2,"I can't make ""pip install gym"" work. It shows the following error -   ERROR: Failed building wheel for Pillow          And in the end -   The headers or library files could not be found for zlib, a required dependency when compiling Pillow from source.                                     And then breaks apart.  Would appreciate any help regarding this! Thank you.",True
+@sachinaugustine9023,2021-05-01T21:37:47Z,0,This is gold,True
+@ftmftm7627,2021-04-23T12:05:23Z,0,You are a legend man! Thank you <3,True
+@vaibhavrajnathchauhan5340,2021-04-20T05:13:58Z,1,"Cant able to understand why we have taken ""discrete_os_win_size"" variable...please can you explain it again.",True
+@nowarning1999,2021-04-07T17:06:54Z,1,Running setup.py install for Pillow ... error can someone help me? im desesperate,True
+@conradsnowman,2021-04-07T01:35:48Z,0,If you are on Windows you must downgrade to Python 3.8 and be using pip -V >= 19.2,True
+@muzakkirquamar1687,2021-03-17T16:06:08Z,0,i need to connect for some help in RL,True
+@kaishang6406,2021-03-17T01:15:05Z,0,"""simple""",True
+@iliasp4275,2021-03-11T11:58:30Z,0,"hello, at 4:50 , isnt position and velocity vector values? Therefore shouldn't the state be 2 tuples , 4 values instead of two ints?",True
+@fuadkhan3449,2021-03-09T15:43:04Z,0,Love your mug,True
+@martinprinceton9858,2021-03-06T22:43:34Z,0,This is really a great explanation. I love this,True
+@walkiacid9265,2021-02-16T16:22:26Z,1,i can't run it.,True
+@bobingstern4448,2021-02-06T22:56:29Z,0,1 MIL!!! POGGGGGGGG,True
+@dr.m.sivakumar9758,2021-01-31T15:22:54Z,0,Good. I need Q-learning demo for NLP,True
+@floriannagel2877,2021-01-30T16:13:09Z,0,Great video! Thank u so much!,True
+@gamzeetuncay,2021-01-26T19:55:44Z,0,"it is so helpful my thesis, thanks a lot",True
+@nitinmalhotra2560,2021-01-19T17:03:56Z,0,I'm preparing for an internship which requires 'reinforcement learning' knowledge.  Can u tell me what and how many tutorials I should watch?,True
+@gunjanmimo,2021-01-12T15:33:32Z,1,"you RL videos helped me a lot in my research work. Thank you. Make some videos on Unity Machine Learning agent, hope the audience will be benefited from these videos",True
+@professorparadox9826,2021-01-04T17:28:30Z,1,help the code is not working for me.......,True
+@Alex-cd2xq,2021-01-02T10:29:03Z,0,6:20 Has the Q-function formula changed over the years? In the new implementation (see Wiki) - the old Q value is NOT multiplied by (1 - learning_rate) @sentdex,True
+@dannyfogel9156,2020-12-21T14:58:16Z,0,"I don't get what are the observation_space mean, and what are the [0.6 0.07] and [-1.2 -0.07] mean?",True
+@PriyaGupta-vm8pj,2020-12-21T11:02:45Z,2,i am getting error when i am trying to install Gym.. What should i do now (Trying to install in Windows 10 ),True
+@hobby_coding,2020-12-02T19:37:35Z,1,"i watched this months ago didnt understand a thing now after watching david silver's course i finally can understand what he's talking about , if you are like me dont get frustrated just read more on the subject",True
+@paulborstorf9538,2020-11-15T19:15:11Z,0,Pls clean the trash can on your desktop. It triggers me!!!,True
+@adityaretissin1856,2020-10-27T08:48:50Z,3,"""How do we do that? , We just do this *Shows the Q Function* , DUH!""   That cracked me up xD",True
+@StaglyMusic,2020-10-23T02:41:53Z,1,obviously :D,True
+@aldoferrante6885,2020-10-13T21:03:11Z,0,"I just joined and starting with p.1 reinforcement learning. I am receiving ""Parameters to load are deprecated.  Call .resolve and .require separately.   result = entry_point.load(False)"". how do i handle?",True
+@berkc5323,2020-10-08T13:07:00Z,0,"Amazing channel man, keep doing this!!!",True
+@vaibhavtasgaonkar5221,2020-10-07T15:07:50Z,0,"DISCRETE_OS_SIZE = [20, 20]:- is this lenght and breadth of table",True
+@user-if5ml7yf9d,2020-09-27T01:05:15Z,0,"While making an environment I get an error ""AttributeError: module 'gym' has no attribute 'make' "". Could you please give me any advice about it? I didn't find any useful info on the Internet",True
+@skinnyboystudios9722,2020-09-09T05:11:11Z,1,It seems like this tutorials are created for those who already have deep understanding of RL,True
+@RahulSoni-xv4cz,2020-08-29T07:03:34Z,1,is there any good video that doesn't use gym ?  searching around leads to gym only.,True
+@shan35178,2020-07-18T16:43:33Z,0,This is AWESOME to say the least.  Which programming IDE do you use @sentdex?,True
+@user-wi2lb6fr5e,2020-06-28T19:49:14Z,0,"Thanks a lot 😊 , very helpful",True
+@samarpratapsingh9788,2020-06-28T04:39:11Z,0,"When I was running the code in colab, a message came that the base is not defined. I updated the dependencies according to the documentation, yet it wasn't solved!",True
+@garimasen3186,2020-06-19T14:16:07Z,0,"Dear Sir ,   Please let me know could we use Q learning for Process optimization in any process industry ? Can we use this rather than using Fuzzy Logic ? and which Environment i should use for 3 or more variables. E.g as i am taking Temperature and pressure as input variable while RPM set point as output variable. Please help me out ,i would really be grateful to you.",True
+@shawnstafford9664,2020-06-17T00:28:40Z,0,"nothing is happening, no error or anything",True
+@agentNirmites,2020-06-08T12:15:01Z,0,"Check it out ---  import gym import time  env = gym.make('MountainCar-v0') env.reset()  done = False previous_state = [0, 0] action = 2 while not done:     # action 0 => push the car left     # action 1 => do nothing     # action 2 => push the car right      new_state, reward, done, _ = env.step(action)     if previous_state[0] > new_state[0]:         action = 0     if previous_state[0] < new_state[0]:         action = 2     previous_state = new_state[:]     env.render()     time.sleep(0.1)  env.close()",True
+@arshshah1871,2020-05-29T22:37:01Z,4,"""paint is love, paint is life"" -sentdex 2019",True
+@dharmeshsharma8044,2020-05-17T13:31:21Z,0,the size of DISCRETE_OS_SIZE = [20] * len(env.observation_space.high) so that will be [20  20] so the first 20 will be rows but what is the 2nd 20 means?,True
+@dhinesh534,2020-05-16T17:31:54Z,1,"Even though you sound like you are high on weed or something, this is one of the best learning channels. Keep uploading bro",True
+@destroyerser,2020-05-13T20:41:21Z,0,am I the only one that is completely weirded out by the fact that he just divided a vector by a matrix and got a vector?,True
+@tobysmith2253,2020-05-03T16:48:19Z,1,"if i try to run it at 10:48 i get this error message :   Traceback (most recent call last):   File ""C:\Users\toby\OneDrive\Desktop\qlearning\qlearning-1.py"", line 6, in <module>     print(env.obvservation_space.high)   File ""C:\Python\Python38-32\lib\site-packages\gym\core.py"", line 218, in __getattr__     return getattr(self.env, name) AttributeError: 'MountainCarEnv' object has no attribute 'obvservation_space'   any suggestions?",True
+@prathamprasoon2535,2020-04-29T19:03:57Z,1,Yay! Thank you Sentdex for these brilliant tutorials.,True
+@AnkitPandey-ft8jb,2020-04-07T09:54:15Z,0,sentdex is lub!,True
+@divyanshusahu6413,2020-04-07T04:35:40Z,0,IS NOBODY GONNA TALK ABOUT THE SHARK MUG.... Cmon guys..........,True
+@nathanjanniaux3587,2020-04-05T16:20:24Z,0,Why don't you initialize the q_table with zeros?,True
+@ManuelMendez1,2020-04-03T08:26:36Z,0,"People clicking on the ""skip ad"" button:  these people make money out of those ads also, avoiding this is like saying: ""Thank you for taking your time to teach people like me, who otherwise would have to pay for this"".",True
+@omkarsheral73,2020-04-01T19:16:59Z,0,how come u r able to substract 2 lists using  env.observation_space.high-env.observation_space.low - operand doesnt work on lists. PS: i m new to python,True
+@moonshadow99999,2020-04-01T15:55:57Z,0,"Hi, How do we deal with environments where the rewards change with time and the set of possible actions are not fixed and are a function of the state.  Specifically,  my problem involves an environment with an interconnected set of nodes (a graph), each having a demand to fulfilled within a certain time. The agents wants to fulfil as  many demands as possible...",True
+@adrian_ok,2020-04-01T05:49:02Z,0,Why is the q table 20 20 3?  I understand there is 3 actions but where are the 20's coming from and what do they represent. The Observation is of Box(2) for position and velocity,True
+@bobbysingh5666,2020-03-31T09:35:38Z,0,"i ran into an error and cant figure it out, this is my code(i already started part 2): EDIT: lmao im stupid. the L in Low for me was uppercase instead of lower  import gym import numpy as np  env = gym.make(""MountainCar-v0"") env.reset()  LEARNING_RATE = 0.1 DISCOUNT = 0.95 EPISODES = 25000  DISCRETE_OS_SIZE = [20] * len(env.observation_space.high) discrete_os_win_size = (env.observation_space.high - env.observation_space.low) / DISCRETE_OS_SIZE   q_table = np.random.uniform(Low=-2, high=0, size=(DISCRETE_OS_SIZE + [env.action_space.n])) #reward is 0 for openAI gym  def get_discrete_state(state): 	discrete_state = (state - env.observation_space.low) / discrete_os_win_size 	return tuple(discrete_state.astype(np.int))  discrete_state = get_discrete_state(env.reset())  print(discrete_state)  ''' done = False  while not done: 	action = 2 #action[0]  push car left, 1 do nothing, 2 push right 	new_state, reward, done, _ = env.step(action)  	print(reward, new_state) 	env.render()  env.close()''' this is the error: TypeError: uniform() got an unexpected keyword argument 'Low'",True
+@viktorkuzmanov3086,2020-03-24T22:43:02Z,0,Number one AI channel on yt by far,True
+@messapatingy,2020-02-24T07:16:06Z,0,"Regarding the new-q-value-formula.png image on the webpage associated with this video; on the wikipedia Q-Learning page (to which the image refers), there is currently no (1 - α) factor in the first term. Where did the (1-α) come from or go to, I wonder. Any ideas? However, when I run without the (1-α) I get ""RuntimeWarning: overflow encountered in double_scalars"" on the calculation of the new Q:  Q[s0+(a,)] = Q[s0 + (a,)] + α * (r + γ * np.max(Q[s1]))  That is, at some point in the output I see the message ""RuntimeWarning: overflow encountered in double_scalars"""", whereas there is no warning when including (1-α), as in:  Q[s0+(a,)] = (1-α) * Q[s0 + (a,)] + α * (r + γ * np.max(Q[s1]))  Your thoughts please.",True
+@jorostuff,2020-02-10T18:14:29Z,0,He looks like Danny from Hawai 5-0,True
+@jorostuff,2020-02-10T07:46:31Z,2,"I feel like this guy knows everything. Whatever I google, he has a tutorial on that.",True
+@AChadi-ug9pg,2020-02-04T08:48:04Z,0,"I think of Inverse RL , you should do it , thank you",True
+@veuler7376,2020-01-28T06:01:40Z,0,"hey sentdex, love you bro. hope we can come across one day, I owe you a beer.",True
+@dhilipsurya2222,2020-01-11T00:13:12Z,0,how can i get that ui of mountain car it is not displaying,True
+@FastestPodcastClips,2019-12-12T13:41:26Z,0,"I have a hard time understanding the env.observation_space.high and env.observation_space.low. What is these value ? and why do you subtract them and divide them by 20 ?",True
+@wahab487,2019-12-11T09:57:18Z,0,I think you might confuse the discount factor with the learning rate. The discount factor can be based on how the reward is distributed across time.,True
+@FastestPodcastClips,2019-12-10T15:42:55Z,0,what is the difference between deep-q-learning and deep reinforcement learning ?,True
+@dheerendratomar2725,2019-12-02T16:29:40Z,0,How do I use imitation learning on this example?,True
+@kamalhossen122,2019-11-13T21:09:10Z,0,"Hi,I have NTU video data.RGB and Depth data are in seperate file.But I want to get RGb and its corresponding Depth data together.Please help me.thanks",True
+@alexgulewich9670,2019-11-12T04:25:30Z,0,"Hello, amazing video, but I'm having issues with pip. Would you be able to help?",True
+@user-or7ji5hv8y,2019-11-08T03:15:07Z,0,amazing how you know so many things!,True
+@vulthuryol8051,2019-10-09T10:27:33Z,2,"15:34 _""That's gotta be the best table I've ever seen""_ _""So it would seem...""_",True
+@GtaRockt,2019-10-03T10:44:56Z,0,"hey, first of all, thanks for your video mate  This is really good    If I understood correctly: I do not NEED to use the gym env, right?    I am asking because of the following:    I am writing my bachelor thesis currently and the goal is to teach a Biped to walk. My teacher said it is best if I use bullet3D Now I'm thinking: If I create my own enviromnent, as long as I implement the correct methods (like .step() for taking an action or make() for setting up a new world etc.) I should be fine and this tutorial should be very useful for me, right?    Best Regards  Lobster WMAR",True
+@aneeshbhat7328,2019-09-30T13:44:35Z,0,"Question, to anybody who has completed this series. Do you think it was helpful? And would you suggest that one should invest ones time in this lecture series?",True
+@MrGenbu,2019-09-28T22:52:11Z,0,daaa,True
+@adyakshsharma5057,2019-09-27T14:24:28Z,0,mountain car window closes as soon as i run the ipynb,True
+@LousterPlays,2019-09-27T00:14:13Z,2,"when I run, all I get is a blank window that appears and then it closes. There are no errors or anything, it just doesn't work. I have the exact same code, and I am running this on Mac OSX. Any help would be appreciated!!",True
+@muhammadfauzanridho8054,2019-09-24T06:55:17Z,0,how did you install python open AI Gym while using windows ?,True
+@flosset9640,2019-09-20T11:10:01Z,0,this is super cool,True
+@rouhollahabolhasani1853,2019-09-19T18:20:27Z,1,wwwwwwwhat is goin on everybody!! love it!,True
+@skatingskelly,2019-09-16T05:37:35Z,1,Whenever i try and launch it CMD prompt says nothing and it does nothing.,True
+@Ruddradev,2019-09-14T07:16:31Z,1,"Thank you for this tutorial. I knew the theory but your tutorial helped me put it to practice. Also for anyone looking for theoretical background into RL, check out David Silver's 10 lecture series on Reinforcement Learning.",True
+@hyperistica,2019-09-12T21:45:00Z,3,"I just got started with reinforcement learning and your tutorial is really helpful. On a side note, I also love the way you laugh (that deep inhale gets me every time).",True
+@busyhacker8129,2019-09-09T07:39:28Z,1,I am trying to build an ai like alpha zero..,True
+@daviddemarta1188,2019-09-08T06:20:42Z,0,Recently started learning reinforcement learning with DeepRacer on AWS. Anyone else give DeepRacer a try?,True
+@shreyasjagannath,2019-08-13T17:13:08Z,0,I've been a member since forever! Any shoutout? :P,True
+@vyliad,2019-08-02T20:55:20Z,0,6:17 if you need the equation,True
+@xat9259,2019-07-31T12:38:06Z,0,"If we'd have 3 dimensional state space instead of 2, our q table's dimensionality would be (20,20,20,3) right? Great work, btw",True
+@vinayagarwal3364,2019-07-31T05:08:18Z,0,Is the number of states(things we sense from the environment) same as the number of observation_space. Got me a bit confused. Super awesome content btw. Keep Going.,True
+@KasimierLP,2019-07-29T15:56:05Z,0,thank you for your videos  :D,True
+@fadop3156,2019-07-23T09:06:36Z,0,What is observation high and low???,True
+@Thamiah,2019-07-20T08:02:16Z,0,Hi can you explain how to make it so sublime recognize those python packages that I install,True
+@derricksherrill3511,2019-07-19T21:54:10Z,0,"Great, well explained intro. Thanks!",True
+@ntchindagiscard3870,2019-07-13T10:18:00Z,0,you are awesome man. I love tour channel,True
+@girish7914,2019-07-11T06:18:17Z,0,when are you going to publish next tutorial on deep reinforcement learning !!!!,True
+@lukerhoads,2019-07-08T21:19:42Z,0,Awesome content that is always new to me. Thanks!,True
+@PLAZMAKE,2019-07-05T22:37:33Z,0,what are the combinations you are talking about and what is the discrete_os_win_size used for?,True
+@Chankeypathak,2019-06-29T05:40:32Z,0,"How do I train to play a simple game where the input is just ""click"" button and output ""score"" depends on the moment the ""click"" is pushed. Something similar to Google Chrome's dinosaur game.",True
+@dr.mikeybee,2019-06-29T00:53:42Z,0,This is very clear.  Thank you.,True
+@MultiWolfxxx,2019-06-26T23:26:10Z,0,Love this channel.,True
+@RandomShowerThoughts,2019-06-26T09:14:21Z,0,man i haven't seen Q learning videos at all before this,True
+@michaelfrangos8587,2019-06-24T20:00:29Z,0,You're the best. My simple networks are just not doing the job well enough. Perhaps this series will be what's needed.,True
+@sahibsingh1563,2019-06-23T06:54:44Z,0,can we initialize the q table with all zeroes,True
+@siamakvakili6349,2019-06-20T07:55:40Z,0,I really enjoy your lessons. Thank you very very much.,True
+@priyankrajsharma,2019-06-18T21:01:25Z,0,Q learning is difficult to understand .. I read so many blogs before coming to your channel. You made it easy.,True
+@pujanagarwal7316,2019-06-12T16:29:53Z,21,Can you upload a series on GAN. Really need to know the intuition behind it,True
+@aryanbhatia6992,2019-06-10T15:54:12Z,0,Whenever i run the program the gym window closes in just 2 seconds.Please tell how to solve this problem.,True
+@ramzykaram296,2019-06-10T12:18:48Z,1,"Dude, You're super awesome, waiting for the DL part Actually i got book ""Deep Reinforcement Learning Hands-On"" and i am really struggling Also ""Reinforcement Learning: An Introduction"" by Richard S. Sutton and Andrew G. Barto, is really great but too hard to go through",True
+@ambarishgk4037,2019-06-08T13:13:53Z,6,"""Paint is love, Paint is life""",True
+@user-fu3el4vj8z,2019-06-08T12:14:09Z,0,Your videos are really helpful! I wonder whether sentdex  could teach us something about data structure and algorithm in Python. Because learning data structure and algorithm is truly too boring  to insist.,True
+@andrewm4894,2019-06-08T07:18:41Z,0,This is great thanks for doing this series. PS what's best way to make a one off contribution?,True
+@girish7914,2019-06-07T05:52:20Z,0,that new q value is coming from BELLMAN EQUATION...  new Q value =  old value + learned value,True
+@yaboi6652,2019-06-06T21:56:47Z,3,"Great tutorial! However, in the beginning you stated that there are no prerequisites for watching the series, and if don't know anything mentioned google it, which feels misleading. Well, in the first few minutes it became instantly confusing due to the fact that I was not familiar with the Gym library. Anyone watching this, I highly encourage reading all about the library before hand.",True
+@mannycalavera121,2019-06-06T20:16:08Z,0,"Love the videos and a series, thanks for putting these out",True
+@baruchba7503,2019-06-06T11:44:23Z,0,"Lack of access to the blue button may be due to user location or YouTube censorship.  It wasn't until recently, after years of subscription that my notifications returned.",True
+@tan-uz4oe,2019-06-06T08:58:12Z,5,You didn't use epsilon in the formula/table that's why the behavior is the same,True
+@masoudmasoumimoghaddam3832,2019-06-06T07:21:44Z,0,Great video SentDex as I always! I was wondering if you could add some episodes to this tutorial series explaining and implementing deep reinforcement learning especially the one used in AlphaGo. by the way you're awesome in racing.!!,True
+@PranitKothari,2019-06-05T13:33:53Z,0,Working solution for Colab. https://colab.research.google.com/drive/1_A4uQyHyQQ2L6xYQN_bQoiT7b3xL_IBB,True
+@jhgfdjhgfdhdjfjhd6721,2019-06-05T05:20:55Z,0,Thanks so much for your efforts,True
+@elhamaryanpur,2019-06-04T17:52:45Z,0,please do more Q Learning!,True
+@haroonshafique7849,2019-06-04T12:11:37Z,0,DISCRETE_OS_SIZE in your last output is 20 by 20.   Since DISCRETE_OS_SIZE = [20] * len (env.observation_space.high) where len (env.observation_space.high) =2.    So why does DISCRETE_OS_SIZE is not 20 by 2 rather than 20 by 20?,True
+@SandwichMitGurke,2019-06-03T18:21:12Z,0,What do you think about pytorch? I stopped using keras and tf and started with pytorch,True
+@SandwichMitGurke,2019-06-03T18:20:52Z,0,What do you think about pytorch? I stopped using keras and tf and started with pytorch,True
+@tash3955,2019-06-03T16:27:37Z,0,Hold up! Paint is still a thing?? my childhood memories resurfaced...,True
+@szajbon,2019-06-03T15:45:58Z,11,"Great video! I have one suggestion though - consider mentioning that gym uses numpy arrays and not basic python lists. It might be confusing for someone that you basically divide a list by list and get another list - its a specific implementation of numpy.array that gives you that high-level convenience. I just stumbled on your video, so maybe you pointed that out in some other videos, but hey, for a newcomer it can be mind-bending after getting some weird bug after some time.",True
+@mohamed_v1,2019-06-03T05:50:30Z,0,"Thaanks for the video, just yesterday i looked on your website on this Tutorial and i didn't find it , plz if someone now how i can apply the Q-learning for adaptive learning , for example when a student enroll in a course , the system can identifies it's current state and can predict the next optimal step he will take .. each course is a collection of states (units)",True
+@InigoSJ,2019-06-02T17:10:12Z,0,"when you say 20 by 20 by 3, isn't it 20 by 2 by 3 [20,2,3]? Am I missing something? You are multiplying by the len of the high env space (2, if Im not mistaken)",True
+@maxgrutzner8430,2019-06-02T15:10:29Z,0,"I think the thema is great, but I would like it more if you finish the series before you start a new one, or say, why you start a new one and don't work at the old one!",True
+@EranM,2019-06-02T09:27:00Z,0,SANTDAX I LUV U!,True
+@douglasferreira3506,2019-06-01T23:17:24Z,0,Finally!! You are the best,True
+@AbhishekKumar-mq1tt,2019-06-01T14:08:34Z,1,Thank u for this awesome video and series,True
+@harkishansinghbaniya2784,2019-06-01T12:40:02Z,0,Just love your videos and explanations.  I was just waiting for the Q-Learning Tutorial Series.,True
+@miltondavilaharjula,2019-06-01T09:15:27Z,6,Thanks for the video. Are you going to cover Tensorflow Agents - tf.agents?,True
+@KienNguyen-ge4gr,2019-05-31T23:42:49Z,0,Any good sources to read about Q-Learning? Thanks!,True
+@jasonclement6305,2019-05-31T16:03:38Z,0,Lol at 6:18,True
+@iansong1676,2019-05-31T15:05:28Z,0,Yay!,True
+@tejasshah9881,2019-05-31T14:27:27Z,0,"Man, Thank you so much. I love you for this.",True
+@vigeshmadanan,2019-05-31T11:32:17Z,0,Excited for this tutorial series :D,True
+@Phateau,2019-05-31T10:44:28Z,0,"Finally, I have been waiting for this. Please do a long series! Thank you",True
+@ahmedgabr8009,2019-05-31T07:13:19Z,0,Thanks for the great tutorial ! Can't wait for the next video !!!!!!!,True
+@ahmedhany5037,2019-05-31T07:01:06Z,3,I can't thank you enough for these awesome tutorials you give us . It is the most practical reinforcement learning guide I have ever seen. Please keep up with this AWESOME work .,True
+@varuntotakura8139,2019-05-31T04:42:48Z,2,I guess you will be showing us many of the real-time examples which have a broad scope. Thank you..! :),True
+@Artificial_Intelligence_AI,2019-05-31T03:11:30Z,10,"I have completed several Machine & deep learning courses though these months (from Udemy, YouTube, coursera etc), and I even read some famous books about this field. I think your courses are in the top 3 easily, because they are a perfect combination between a well-conducted intuition approach and a fundamental programming part, even better executed.   Congratulations for these amazing videos, you deserve our gratitude. I really hope you can get more subscribers during the following years, your content is still underrated.  Regards from Spain.",True
+@hjchew9810,2019-05-31T02:46:20Z,0,Great job!,True
+@alichebbi9474,2019-05-31T01:16:42Z,1,Nice.,True
+@thomaswoo6276,2019-05-31T00:54:12Z,0,"Can't wait for the next episode! Great work, and ofc thank you.",True
+@alazahir,2019-05-31T00:26:53Z,0,I was waiting for this... RL teached by you !! and I have commented even before seeing the video,True
+@Sporkredfox,2019-05-30T21:57:51Z,0,"Oh, this is funny! I am currently going through your python-sc2 tutorial and might be attempting to include Q-Learning once I learn about it (I know what you said about it in the video about why you didn't use it)   Looking forward to this tutorial! Thank you for the content!",True
+@MartinSFesty,2019-05-30T21:23:27Z,0,"Great video! Will you be doing an episode on how to create environments and action spaces? I am quite interested in environments where there are two learning players doing actions simultaneously (or even sequentially), and seeing whether or not they are able to cooperate to achieve a best possible outcome. It would be cool to see you exploring and explaining these subjects in this series. I am an amateur when it comes to programming, but I find your tutorials easy to follow, and I have had great use of the skills you have taught me!",True
+@user-bj4jq5gy6n,2019-05-30T19:09:03Z,0,"Thank you for the useful lessons, sentdex. It is very interesting to understand the problem of learning based on time series. This is when there is some record of the battle, and you need to train the algorithm on it to choose the best action. I would also want to understand how to prepare such time series for transmission to the algorithm. Something like that. Have a good day!",True
+@johnli264,2019-05-30T19:04:34Z,0,"Cool!!)) But can I make my own enviroment? And if I can, how? thanks",True
+@Kyuboyo,2019-05-30T18:25:49Z,0,printing the q-table shape is showing an error.... numpy.float64 object cannot be interpreted as an integer,True
+@bryancann8988,2019-05-30T18:13:38Z,0,Yeeey back home from the Java land...,True
+@ayaanp,2019-05-30T17:34:11Z,1,"I LOVE THIS!  I have been wanting to learn Reinforcement Learning and this is the start.  Your videos are NEVER bad.  You are teaching this 9 year old(me) with your website and youtube channel.  I now know all python basics, AI, robotics, almost all because of YOU!",True
+@Totial,2019-05-30T17:26:03Z,3,"Man you make learning so easy, i think you have no idea how much you are changing this world for good! So much tutorials out there are linked to you and so much ppl becoming able to reach their dreams because of you. Respect!! Keep up the amazing job",True
+@cruelworld4732,2019-05-30T17:25:33Z,3,"Please be quick with the next videos, I am working on a project and I am gonna need your help, Keep up the good work <3",True
+@bobsamuelson8130,2019-05-30T16:50:56Z,0,Excellent!,True
+@saisritejakuppa9856,2019-05-30T16:13:31Z,18,The wait is over....the only reason I came into this AI field from electrical engineering is just by watching your videos instead of taking some random courses. ...keep going....Thanks a lot sentdex.,True
+@nirsavs,2019-05-30T16:00:06Z,0,Opinions on using jupyter notebook??,True
+@vibekdutta6539,2019-05-30T15:45:25Z,3,"The thing I've been waiting for, you're awesome!",True
+@pythonocean7879,2019-05-30T15:40:22Z,0,why i m no one ov those :(,True
+@jayhu6075,2019-05-30T15:39:32Z,2,"Hi, first the switch from javascript to python and then give a topic about reinforcement. That is amazing.... The learning curve that you explain make the live from a developer so easy and simple.  Thank you. mr.Sentdex",True
+@RutgerMusicOnline,2019-05-30T15:36:00Z,4,Any chance you could do a tutorial on an actor critic or PPO algorithm after the DQN tutorial? ;) Maybe in the long term a tutorial on combining these algorithms with the unity environment.,True
+@Tweakimp,2019-05-30T15:36:00Z,4,Thank you very much for this. It would be cool to see qlearning applied to some little game like connect 4. Keep up the good work!,True
+@indivarmishra6119,2019-05-30T15:32:08Z,0,Thanks for the tutorials.!(eagerly waiting for DQN cuz i am kinda stuck there.!) . loved your thinking about the education system.!,True
+@girishkumar2759,2019-05-30T15:29:52Z,0,That's what I was waiting for,True
+@aradarbel4579,2019-05-30T15:27:07Z,2,"im so excited about this new series! good luck, will be looking for next episodes :D",True
+@RutgerMusicOnline,2019-05-30T15:16:05Z,4,Was really looking forward to you doing more RL stuff :),True
+@ThomasPlaysTheGames,2019-05-30T14:58:56Z,1,I've been waiting for this for quite some time as I found trying to get into qlearning from purely reading documentation to be a complete mess.   Also on a different note I can't be the only one who listens to the tutorials while driving just because it's almost relaxing.,True
+@metaliumtux,2019-05-30T14:58:41Z,0,"Please, can you explain how to create YOUR OWN environment instead of using this env = gym.make(""MountainCar-v0"")!",True
+@aravindsuresh8157,2019-05-30T14:53:24Z,156,"When i think about a topic, he posts it. Awesome!",True
+@MrDan2512,2019-05-30T14:49:41Z,0,I try to use DQN to plan an agent’s route in a dense moving crowd. My tools are UE4 and TF + Cuda. Can’t wait for the deep Q-learning video.,True
+@fktudiablo9579,2019-05-30T14:39:57Z,0,"I was watching MIT Lex Friedman course on DRL for my next project ... AND THEN... I saw Sendex notification,  in which other universe this could happened ?",True
+@abhinavpy2748,2019-05-30T14:35:32Z,1,Most awaited topic. And it comes from the one and only Sentdex!! Thanks a lot. Please make as many tutorials as possible.,True
+@gauravsingh1963,2019-05-30T14:31:42Z,6,"hey, will you be covering dopamine 2.0?",True
+@FuZZbaLLbee,2019-05-30T14:28:25Z,0,"I thought openAI gym didn’t work on windows, but it might just be the Atari stuff.",True
+@olokix,2019-05-30T14:25:04Z,4,"gonna be TD learning, Ant Colony Optimization and Particle Swarm Optimization? and if yes, when?",True
+@andreydev2132,2019-05-30T14:19:40Z,30,"One of the most interesting topics for me. Please, continue! It would be very interesting to see self-driving car with Q-Learning (table / deep)",True
+@fuuman5,2019-05-30T14:17:40Z,5,"Uhh, just sitting on the toilet and the notification comes in. Some nice ML quality content from my favorite python buddy <3",True
+@buhbbl,2019-05-30T14:16:20Z,0,"I seem to be having problem with env.render() in windows where I get the following error   File ""C:\Program Files\Python37\lib\site-packages\pyglet\gl\win32.py"", line 226, in flip     _gdi32.SwapBuffers(self.canvas.hdc) OSError: exception: access violation reading 0x000000000000001C",True
+@digitalboltwebdesign,2019-05-30T14:13:21Z,3,please show how to do a trading bot using this,True
+@MrDan2512,2019-05-30T14:04:47Z,10,Just what I needed for my master thesis.,True
+@user-bt8sy9jy4j,2019-05-30T14:04:32Z,0,"Dear sentdex, can i make bit of your site, about Django ( on russian lang )?",True
+@s16ray_,2019-05-30T13:58:45Z,3,Learned a lot from you.... Started machine learning from your channel only...,True
+@st00ch,2019-05-30T13:57:51Z,2,Omg! RL I'm so excite!,True
+@ELarivie,2019-05-30T13:57:02Z,0,Sentdex you're the best!,True
+@RiteshKumarMaurya,2019-05-30T13:54:42Z,0,I'm in.,True
+@balavigneshk5382,2019-05-30T13:48:58Z,1,Yes! I have the hard copy of sutton barto. Now is the time to open it :),True
+@jackflynn3097,2019-05-30T13:48:42Z,1,finally RL is here. I've been stuck with A3C recently. Hope one day you will cover it,True
+@ernestassimutis6239,2019-05-30T13:47:53Z,2,Nice topic! Hope it will have at least 100 series. Thank you!,True
+@loukask.9111,2019-05-30T13:37:17Z,52,Dude how do you alway know what kinds of videos I need?! This is perfect!,True
+@rdwansrhan3209,2019-05-30T13:36:51Z,0,"Great video, as always.",True
+@Mvobrito,2019-05-30T13:36:34Z,1,Was waiting for this!,True
+@vickymar3836,2019-05-30T13:35:47Z,11,There is an acute lack of good reinforcement learning study materials on the net (especially videos). I literally jumped from my seat. I want to binge watch this series.,True
+@gomes8335,2019-05-30T13:31:33Z,16,Omg. Thank you for starting reinforcement 😍,True
+@gautamj7450,2019-05-30T13:27:25Z,2,YEEESSSS!!!!,True
+@pythoning5284,2019-05-30T13:26:47Z,0,9th,True
+@shmarvdogg69420,2019-05-29T19:51:58Z,0,amazing!,True
+@scootscoot2k,2019-05-29T17:08:23Z,1,I feel like the reward for any agent should be Pi I mean who doesnt want pie for doing stuff?,True
+@KyleGunby,2019-05-29T16:49:13Z,0,"Anyone on OSX getting this error message: ""ApplePersistenceIgnoreState: Existing state will not be touched. New state will be written to (null)"" can run ""defaults write org.python.python ApplePersistenceIgnoreState NO"". **Before running the command, you should make sure you know what it actually is doing and that you want it done**",True
+@Stinosko,2019-05-29T15:46:42Z,136,"I'm more than happy to support this awesome channel! keep up the great work, i love your tutorials :-D",True
+@mockingbird3809,2019-05-29T14:45:18Z,3,"Wow.....This is Video I Was Waiting For.....Thanks, Harrison.",True

@@ -1,0 +1,39 @@
+author,updated_at,like_count,text,public
+@stephendelacruzone,2022-05-02T08:24:25Z,0,I'm currently learning #GoByExamples. Closures & Recursions are easy peasy to learn. Pointers... I felt like my brain hit a brick wall! 😮Thank you for saving me from a really messy confusion of learning this freakin' concept! You are #Legend👑for this!✨👍  I'm saving the beejeezus in my playlist out of this solid educational video!✨👍,True
+@uthmaanzakariyya3440,2021-08-29T16:15:54Z,0,"I did the exact same thing and it is not working  INPUT  main package  import ""fmt""  func main(){         a := 10         b := &a         fmt.Println(b)         fmt.Println(*b)         *b = 12         fmt.Println(a) }  OUTPUT 0xc000126010 10  Instead of getting 12 as the output, that is what I get.",True
+@kavitharajni8962,2021-04-24T09:33:04Z,0,very good sentudexu,True
+@prithviprakash1110,2021-03-16T19:40:22Z,1,"I've tried to watch multiple Go tutorials, they're either too slow or too fast, and Sentdex as always does it at a perfect pace. Well, not only that, he's also incredibly charismatic which makes watching these so much more interesting.",True
+@dp8579,2020-09-23T09:10:04Z,0,"In My code, it worked only if  package main  import ""fmt""   func main(){   var x = 15 // expecting ""="" instead of "":=""   var a = &x   fmt.Println(a);  }  Please tell why ? Also tell ur what type a address has ?",True
+@BryceChudomelka,2020-08-06T23:56:04Z,0,Perfect. TY again Sentdex.,True
+@jsh3288,2020-05-09T05:43:24Z,10,You should have mentioned that if you want to modify the original value passed through a function you need to make it a pointer/reference. Otherwise it will be creating a clone temporary variable and change that one instead of changing the actual variable at the location of memory(This is the reason for pointers entirely),True
+@serhioromano,2020-03-22T14:22:30Z,0,Can I create pointer of one format and read another one?,True
+@kamilziemian995,2020-03-16T17:57:41Z,0,"I think this video, as whole series, is good, but is just to short. Pointers in Go (not to mention C and C++) are much more tricker than in Python (lists) and people just going into Go probably need much more explenation and exampels to understand what is going on.",True
+@Masounifier,2020-01-26T01:34:45Z,0,You just explained pointers better than my university,True
+@kamilziemian995,2019-07-24T19:54:06Z,0,"I personalny believe that writting anything other that *a = (*a) * (*a) as part of some real code is evil, wicked and as punishment you should be eaten by python. As teaching example it is fine.",True
+@anfedres,2019-07-12T18:57:13Z,0,Does it have double pointer?,True
+@Beesh29,2019-04-19T13:06:32Z,0,welcome back pointer form c++,True
+@parfaitmwamba8408,2019-04-06T05:00:45Z,0,Learn pointers in 4:17 minutes!!,True
+@RajeshSamson,2019-01-30T13:04:57Z,1,Hi Do we need to allocate and deallocate the memory as well?,True
+@piriyaie,2018-12-02T09:39:55Z,0,Hey thank you a lot for this greate video. Can you just tell me what screen-recorder you use to produce such great high quality videos? That would be kind :-),True
+@autoboto,2018-09-28T14:31:44Z,0,"Another tutorial for GO would be for large program organization. main entry point , packages, multiple go files and folders references. Plus many are used to using classes to help organizing program data, algorithms & operations. Best practices on this would be good for newbies with GO who come from OOP languages.",True
+@autoboto,2018-09-28T14:24:16Z,3,Nice tutorial on pointer syntax but that's it. I wish you had included a programming example of the advantage of pointer implementation Vs not. Be cool if you amended this video with an example.,True
+@dualitysolify,2018-09-07T07:50:07Z,0,SUper!,True
+@sylwiapudo9535,2018-07-20T20:33:40Z,0,Thanks man,True
+@smokedsalmon935,2018-07-11T01:12:01Z,7,"finally, go-ing gets fun for me... Thanks man",True
+@jallosh2008,2018-05-25T00:30:41Z,14,"Thanks for the great video! Just wanted to add this,  a := &x  is same as var a *int = &x  Please note the use of asterisk in the type.",True
+@chinmoym2004,2018-05-18T11:13:33Z,0,same as C pointer,True
+@Ray-Zah,2018-05-04T20:56:25Z,0,I don't understand it. Instead of  x := 15  a := &x  fmt.Println(*a) you could use  x := 15  a := x  fmt.Println(a) What's the difference?,True
+@datas_cat,2018-04-12T18:16:57Z,12,"I've worked in C and some HC/HCS assemby, so pointers weren't new to me... but your little snippet of code using pointers just helped me out a bunch to understand something of what I've been trying to figure out in C++!  I have it written on a sticky-note at my desk :P",True
+@FredrikChristenson,2017-11-09T15:53:10Z,8,"Great explanation of pointers.  I would suggest that there could be a value in explaining why someone would use them, in this video we got a great example of how they work but knowing the how without the why is only half of the story.  I am not an expert but I am pretty sure pointers most common use case is for when you want to avoid creating copies of a value in memory and simply always reference the same address of a value, this makes a lot of sense if you for example want to keep down your programs memory usage or if you create a struct where you want to change value on a specific instance without recreating the struct in memory?",True
+@rypiv,2017-11-02T18:36:22Z,1,learned a lot from this one. thanks,True
+@krishnaprasad7807,2017-10-26T18:49:27Z,0,isn't there any exponent operator in GO?,True
+@aayushgogia7210,2017-10-24T16:59:37Z,0,hey @sentdex what are your future projects?,True
+@sebastiendecraene4686,2017-10-22T19:15:50Z,1,nice tutorial,True
+@FuZZbaLLbee,2017-10-22T17:05:26Z,0,"What about memory management, I guess go does not use a garbidge collector, right?",True
+@raj-cp5nu,2017-10-22T13:01:12Z,1,"on the multiple function you specified (string,string) because returning 2 strings but why on the add function you dont specify (float,float) sorry if it sounds stupid",True
+@darronpressley6855,2017-10-22T11:39:28Z,0,"I never found a use for pointers, can someone give a real world application if possible??...I mean I would just access the original variable",True
+@MemeFixx,2017-10-22T03:10:52Z,0,"Is go good for software, or machine learning and is there a ide where you can run though with out having to use cmd",True
+@JulienGrv,2017-10-21T22:55:26Z,0,Hey sentdex have a look at hyper.js with git-bash as a replacement of the Windows console. And thank you for your videos :),True
+@cjjb,2017-10-21T19:13:05Z,10,Why windows?,True
+@subhashpillai9914,2017-10-21T18:57:31Z,3,Stop dude !!! Don't post all the videos at once!!! Make it systematic!!,True
+@odin12,2017-10-21T18:00:28Z,0,first,True

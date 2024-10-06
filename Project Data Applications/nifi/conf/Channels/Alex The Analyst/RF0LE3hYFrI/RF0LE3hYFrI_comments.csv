@@ -1,0 +1,106 @@
+author,updated_at,like_count,text,public
+@mckenzie6973,2024-04-26T12:18:40Z,0,love your tutorial Alex. I just don't get the use of temp tables as well as ctes. Like why?,True
+@tristanwait4itlegendary,2024-04-08T13:25:03Z,0,"You can also check the existence of temporary tables using object explorer. In the object explorer, expand TEMPDB database folder, and then exapand TEMPORARY TABLES folder, and you should see the temporary table that we have created.",True
+@tristanwait4itlegendary,2024-04-08T13:10:40Z,0,does it show up in the object explorer,True
+@tristanwait4itlegendary,2024-04-08T13:09:15Z,0,Its a very interesting idea,True
+@tasleemf2279,2024-03-23T16:29:45Z,0,"How to insert values in cells in a table in SQL where first column is filled with values while the 2nd and 3rd columns are not?(eg: employeeid, age, jobtitle are the three columns, employeeid is filled with values like 100 to 300 while the other 2 columns are empty and has to be filled, will it have to be done one by one or is there any other way?)",True
+@SEAN-ku5xh,2024-03-14T11:18:08Z,0,"Wow, love this!",True
+@user-gq2eq4gw2k,2024-03-03T19:14:52Z,0,What is the difference between materialized view and a temp table then? I had this qiestion after watching this video. I know materialized view also allows us to do the same thing and improve the processing by retrieving already stored query and the result and make it quicker to retrieve the data.,True
+@oscarnests,2024-03-01T15:40:21Z,0,"Thanks for the good content created for free, it is very useful. I would like to add a little bit of information, if you use one # sign the temp table would be considered local (you can use it only in your currect query window), if you use double ## sign the table would be global (you can use it in a new query window). As they mentioned before, when you close the session the tables will be gone forever, so you need to create them again. My two cents!",True
+@ghiegomez,2024-02-24T05:11:52Z,0,Alex would you consider a one on  one training?,True
+@grandetaco4416,2024-02-16T01:32:28Z,0,I don't understand why you didn't demonstrate the easy way to create a temp table. The INTO statement.  You could have created a temp table without the pain of the create statement.  select * into #emp from Employee where age =30   This would give you a complete temp table without out having to set up a create statement every time.,True
+@aarthi_navin07,2024-02-12T01:49:23Z,1,"I have been using mysql, but when I use drop table if exists, it shows error in my syntax,  Is there any other way to query for my sql",True
+@nothingtoseehere5760,2024-02-07T21:47:18Z,0,Wait so you drop and create a table on each query? Or  how is the data updated? Why wouldn't you just use views?,True
+@creativitytools4576,2024-02-02T07:42:36Z,0,"if OBJECT_ID('tempdb..#temp_Employee') is not null     drop table #temp_Employee   create table #temp_Employee (   EmployeeID int,   JobTitle varchar(100),   Salary int   )    Select *   From #temp_Employee  insert into #temp_Employee values ( '1001', 'HR', '45000'    I don't know why I am not able to insert values ?",True
+@momohtimothy6898,2024-01-19T13:35:10Z,0,"Ha, first watch looks difficult, i'll re-watch to understand. I go again.",True
+@coteten,2024-01-12T19:33:14Z,0,"Hi Alex, how did you populate the table #temp_Employee using the command...Select  * From SQLTutorial..EmployeeSalary? It seems very practical but I don't know where those values came from!",True
+@shamsbehery5432,2024-01-08T19:20:04Z,0,(drop table  if exists ) doesn't work in sql 2014?!,True
+@ResilientFighter,2024-01-04T06:57:16Z,0,"Shoot, this is genius! Computational efficiency.",True
+@anshusharma7626,2023-12-18T22:33:31Z,0,"why am i facing issue in creating a temp table  CREATE TABLE #temp_Employee ( EmployeeID int, JbbTitle varchar(100), Salary int )   where input is this And output is that  ERROR:  syntax error at or near ""#"" LINE 1: CREATE TABLE #temp_Employee (  But its running smoothly when I am using this as an input   CREATE TEMPORARY TABLE temp_table ( EmployeeID int, JobTitle varchar(100), Salary int )",True
+@terihandrick2333,2023-12-03T20:13:30Z,0,I just want to say thank you so much for your video's I have learnt more today than I have ever known about SQL and will continue subscribe. You are a HUGE help!!,True
+@asiagladden3080,2023-11-28T16:46:30Z,0,Incredible video!! I did have an error message creating #temp_Employee2 but I see a column was missing for EmployeesPerJob COUNT(  and deleted that part of the script and it ran correctly! Wow I love this stuff,True
+@1440MAP,2023-11-19T15:00:32Z,0,Awesome content! Learning a ton!,True
+@juanmanuelarevalomadrid1937,2023-11-14T14:55:13Z,0,what do you mean when you use the expression hit off ??? is very confusing,True
+@pavodecampo,2023-11-09T18:59:50Z,1,"Wow! I love the ""DROP TABLE IF EXISTS..."" command. Really useful too! Thanks Alex. You're GREAT!",True
+@OmorFarukbablu,2023-10-14T15:47:02Z,0,"Hey Alex, what is the difference between ""Ultimate Beta Course Bundle"" to """"Lifetime Access to Analyst Builder""?",True
+@helenasalvetova4775,2023-10-11T13:15:22Z,0,"Hi Great tutorial. I have question about dropping table. I understand that it is done not to get an error. But why to again and again create and insert data into temporary table since we are using it to reduce calculation load. If we do it over and over again are we not adding unnecessary calculation load? Why, once the temporary table is created and filled, don't we rather delete or comment out those CREATE and INSERT INTO queries? Thanks Michal",True
+@willymwangi3865,2023-10-05T18:33:05Z,0,Thank you Alex.,True
+@jacquelineconerly9150,2023-09-28T01:51:43Z,0,Ten minutes goes by fast. This was much needed.,True
+@Farheeeezy,2023-08-22T01:19:24Z,0,The first use case is not really straightforward to me. Can someone point me to a different example that I might find more clear please?,True
+@ezehconfidenceadaeze6189,2023-08-19T16:58:35Z,0,Thanks Alex,True
+@viaticspace,2023-06-17T14:11:08Z,1,"Alex often uses the expression to hit sth. off of sth. What does it mean? To copy? To extract? I tried to google this expression, but couldn't find anything that would apply to this context. Can anyone help?",True
+@maryamnaz576,2023-05-29T15:27:36Z,0,Can anyone explain what the number is  we put inside parenthese in fron of VARCHAR?,True
+@mcfunthomas_mc,2023-05-27T09:15:24Z,1,I don't think # is a pound sign. I call it a hash sign. :),True
+@cleobychristine,2023-05-26T15:54:28Z,2,"Hi Alex, kindly explain the difference between 'text' and 'varchar' and why you have to use a parenthesis right after the varchar?",True
+@DavidChung-kq3ny,2023-04-26T08:48:13Z,0,What do you mean by hit off?,True
+@anthonyd9043,2023-04-05T21:20:11Z,0,Thanks for this Alex!,True
+@diogomaia242,2023-04-05T13:22:12Z,1,"For those who are working with mysql, the view statement is used as temp tables. I wrote the query in this way:  CREATE view temp_Employee as  SELECT demo.EmployeeID, sal.JobTitle, sal.Salary FROM employeedemographics demo JOIN employeesalary sal ON demo.EmployeeID=sal.EmployeeID;",True
+@Behnoud208,2023-03-31T06:30:28Z,0,"When I inserted values, I got two the same rows while I did the same as you. Do you know why two same rows has been created for me (EmployeeID: 1001)?",True
+@alaeddinmsetri4788,2023-03-25T15:30:30Z,0,Nice and easy thanks,True
+@user-uu2ph1qi2e,2023-03-20T05:54:40Z,38,"For anyone following along in postgreSQL, use TEMP or TEMPORARY to create your temporary tables. Unfortunately, postgreSQL doesn't recognize the # sign in creating temp tables.  EX:  CREATE TEMP TABLE temp_employee( employeeid INT, jobtitle VARCHAR(100), salary INT );",True
+@NB20079,2023-03-15T05:56:18Z,0,Where can I find the temp table,True
+@carriegoff3030,2023-03-11T23:11:16Z,1,"These tutorials are amazing! Thanks so much, Alex. Question: Why would a person use a temp table if it is just session-specific. Why wouldn't one just create a new table using a past query so that it is stored permanently, for use later?",True
+@sanilkumarbarik9151,2023-03-10T15:16:58Z,0,Liking the video even before start watching it. That's the faith I have on Alex.,True
+@secretnobody6460,2023-03-08T07:02:25Z,0,"can you explain the meaning of varchar? i get the int as integer type of data, but what is varchar? why not put string?",True
+@shokoofehheidari5345,2023-03-08T00:44:16Z,0,Thanks a lot!,True
+@kelthekonqrr,2023-03-07T18:58:21Z,0,Nice,True
+@rachrach9871,2023-03-06T15:29:00Z,1,Great tutorial! This is like querying a query. I’m learning a lot from your videos. Thank you Alex,True
+@sanjanakale855,2023-02-16T23:33:39Z,4,"Hello Alex, Could you please explain the difference between Temp tables and CTEs. Also, when should you use which one?",True
+@samuelraj5613,2023-02-11T06:04:29Z,0,Done,True
+@santiagofajardo4949,2023-02-07T16:29:59Z,0,thank You Sr <3,True
+@akshaypatil8155,2022-12-15T14:20:10Z,0,How do i improve the skill of knowing different ways to write a code for the same output. Does learning python improves vocabulary of coding?  I am aspiring data analyst and i want to master this skill of yours? plz reply....u speak simple and clear in ur videos. Thanks.,True
+@goldencricketstars3060,2022-12-09T14:55:43Z,0,Hi Alex your tutorial are game-changing for me. can we combine a temporary table and cte,True
+@jamalalkelani4439,2022-11-17T14:41:57Z,0,Why not to use CREATE TABLE IF NOT EXISTS instead of dropping it and re-creating it again ?,True
+@kemibello6812,2022-11-08T17:57:20Z,1,"Thanks, really helfpul.",True
+@yon_draper,2022-10-31T16:29:23Z,0,"Helpful video, especially the DROP TABLE tip. Thank you sir",True
+@mrsebastianhendricks,2022-10-27T08:26:19Z,0,"I normally use drop table if exists #temp, #temp2  For multiple tables, do u know a way to drop more then 3 tables without listing them   Eg I have 10 temp tables ,  Instead of using this syntax drop table if exists #temp, #temp2 , etc   Is there a better way to do this?",True
+@md.mahmudulhasan9272,2022-10-06T14:11:12Z,1,Great helpful tutorials.,True
+@rbsorg,2022-10-05T03:37:43Z,1,"Is it advisable to use a #TempTable when importing data in PowerBi for a ""DirectQuery"".  So when Alex has the DROP TABLE IF EXIST... and we would refresh our query, would we get the latest data imported and stored in our #TempTable or would PowerBI not even be able to bring back results?  Thanks and I am getting more from this free course than my paid subscriptions!  Great job Alex!",True
+@AkporHari,2022-09-30T12:46:18Z,10,"Thank you, Alex. You give the quickest easy-to-understand tutoring I have received on my DA journey. You explain these things well, and you do not overload the learner with more than they need per time.  One helpful thing I do is practice while I watch and play around with it as you teach. I often break something, though, and that helps too.",True
+@alemabebe5647,2022-09-02T18:53:13Z,0,Thanks much alot   Whenever I created and inserted data in temp table and shut down my computer and come back and select the temp table it doesn’t work I have to Crete and insert datas again and again when ever I come back into it.  Can you please give me some solution for me  Thanks,True
+@romanvasiura6705,2022-08-31T20:03:09Z,0,"Yes, I like this video 😀 Thank you!",True
+@anthonynkem,2022-08-26T12:17:51Z,1,Great video tutorial,True
+@seekerj1643,2022-08-14T21:46:55Z,0,Such a great example. I was looking for a solution for something I’m working on at work and this is ‘drop table is exist’ is perfect. Thank you.,True
+@kammelna,2022-08-05T22:56:56Z,0,"I want to retrieve a row by a max value in a specific column… Example: I have location, date, and temperature columns. I want to have max temperature in each location with corresponding date. Anyone can help?",True
+@mfundohg958,2022-07-16T12:46:02Z,0,Great thanks 👍👌,True
+@ahmetalperenyildirim6184,2022-07-05T07:58:45Z,2,"Simple and functional as always, thanks Alex, data loves you! :)",True
+@YasinKAYA-do4ek,2022-07-04T09:37:33Z,1,Thank you but I don't understand the advantage of temp tables. Would ot using queries without them be faster? You just added more steps. This is my first time seeing a video regarding temp tables btw.,True
+@oguzozakn6305,2022-07-01T08:26:14Z,2,"I got exactly the information I was looking for and I started following your channel, thanks.",True
+@shanh54,2022-06-25T21:51:21Z,5,Once again a great tutorial!! This is the next concept in the Google data analytics course. Thank you so much you made it smooth digestible.,True
+@ChrisMavroeidis,2022-06-24T12:08:24Z,0,I would like to ask a question. is there any book that you suggest to read for SQL Server?  I want a book with full 100% documentation and to learn in deep SQL server.,True
+@arslonboyisorov845,2022-06-06T18:03:08Z,0,"super, thank you",True
+@pabloct3,2022-05-23T23:37:20Z,0,Whats the point of creating a temp table over a regular view? Is it mainly to do with storage efficiencies. Why not just Drop the table when you're down with it? Or is it because temp tables are good for stored procedures because its more efficient? thanks! just trying to figure it out,True
+@krishnabarfiwala5766,2022-05-23T10:13:24Z,0,i lost you in creating #temp _employee2.. why did you use select in the insert funct. ............,True
+@karanjadavid2178,2022-05-18T13:00:13Z,0,You know what's magical / lifesaving?  Putting a query result in  a temp table.,True
+@allsocialmonkey1847,2022-04-26T06:34:46Z,1,"Geat tutorial. Please, what do the two dots (..) between the table and column mean? Thanks for the video!",True
+@nathaliamendesdealbuquerqu3406,2022-03-26T18:22:04Z,0,"Hello Alex, thanks for these videos. How can I delete duplicates on my table?",True
+@jyrrin,2022-03-17T00:11:36Z,0,"3:47 not quite sure, but could someone clarify what “SQLTutorial..” is referencing in the FROM clause here? I understand “EmployeeSalary” is the table we’re storing into the temp table, but “SQLTutorial..” seems kinda random - I’m assuming this is the name of the database “EmployeeSalary” is from but was it necessary to add that?  Thanks anyone,",True
+@BCTAHbKA,2022-03-05T11:24:21Z,0,Это лучшее видео на свете,True
+@shekhark1139,2022-03-02T04:04:10Z,0,"Shall we add multiple rows from multiple tables into temp table, if column names are same in temp table ?",True
+@shekhark1139,2022-03-02T04:01:28Z,0,Very useful trick..Thank you so much,True
+@vasilis7076,2022-02-28T14:26:12Z,0,What would happen if groupby columns names were different than the tem_table column names?,True
+@tahsinserkanyaman3459,2022-02-06T11:50:34Z,0,What an idiotic explanation.,True
+@cloudkungfu,2022-01-11T05:27:53Z,0,Nitro shot of knowledge to the brain just when I needed it 💯,True
+@rechouka7287,2021-12-22T08:16:02Z,1,Amazing tutorial as always :),True
+@ekanshmishra4517,2021-11-17T10:49:06Z,0,hey Alex can you help me find a platform where i can practise these queries on different tables other than creating them.,True
+@hsoley,2021-10-29T13:04:08Z,1,Gold content!,True
+@olenaqwerty7895,2021-10-05T14:58:00Z,1,"good explanation, thanks",True
+@xl2370m,2021-10-01T10:29:09Z,0,That was not helpful at all… I still don’t know that works dude and how to use this.,True
+@MannyDelaCruzBOOM4U,2021-09-24T16:34:44Z,0,Instead of doing DROP TABLE IF EXISTS - what about CREATE TABLE IF NOT EXISTS...?,True
+@haroonbanatwalla4125,2021-08-23T04:23:19Z,0,"The copy paste part--  Insert into #temp_Employee2 Select JobTitle,count(jobtitle),Avg(age),AVG(Salary) From EmployeeDemographics emp join EmployeeSalary sal 	on emp.EmployeeID=sal.EmployeeID Group by JobTitle",True
+@sisiphosidiya6485,2021-08-04T12:24:05Z,1,Alex Thanks man! All the way from South Africa,True
+@juanvergara5814,2021-07-22T04:34:12Z,1,"When i should use a cte, temp table or regular table? I mean, in which scenario fits each one better than other",True
+@Plus1HD,2021-06-19T16:19:39Z,3,"I'm preparing for a interview, very helpful video. Thank you",True
+@TravelingWhileBlack360_Espanol,2021-06-02T23:02:53Z,3,"""Literally the only difference between a temp table and a regular table is the #"" ? I think you meant to say.. Its the only difference in the definition of the two types of tables.. Temp tables live in TEMPDB Unlike physical regular tables... Temp tables dont scale very well with volumes of data.. compared to regular tables...",True
+@kstevens0915,2021-05-14T17:07:39Z,188,Great tutorial! Only thing I would add is that temp tables are session or query window specific. If you close your current session the table will not be there as you expect a regular table would. I am always learning so I cant wait to watch more!,True
+@jamespyle6398,2021-03-23T16:38:06Z,2,Lots of heavy mic breathing in this video compared to the other ones lol =D,True
+@arcaneknight9799,2021-02-20T02:06:48Z,2,what other advanced tutorials can we expect?,True
+@rajpreetcheema4075,2021-02-05T05:44:03Z,18,"Hi Alex, You are so sweet and positive. I been through many of your videos and to be honest I feel hope from you. Seeing you gives hope. Thanks for existing. 🙂",True
+@skylar9105,2021-02-03T07:30:31Z,1,"I'm a college student, and I recently decided to pursue a career as a data analyst. I don't know anyone in that particular field, is there any way I can get in contact with you?",True
+@uwillnevahno6837,2021-02-03T03:30:53Z,6,"3:52 if your from table had a 4th column of data (let's say state) and you did ""SELECT *"" to pull everything would an error result or would that 4th column be ignored?",True
+@nickmccluskey9400,2021-02-02T22:51:36Z,0,Any recommendations for certifications on Tableau on Coursera??,True
+@ashnahida1,2021-02-02T21:58:02Z,4,Temp tables is considered advanced sql? I think I'm shorting myself when it comes to how I describe my self and where I am sql wise,True
+@businessacademics3334,2021-02-02T18:11:59Z,2,"Excellent stuff, can you just do something for stored procedures,if I say what's the best way to handle sp in sql",True
+@amarnadhgunakala2901,2021-02-02T17:38:56Z,1,What about NoSQL?,True
+@SyedShadabHussaini1996,2021-02-02T16:09:55Z,2,Thanks for this. Do you ever plan to make tutorials at beginner level?,True
+@samose100,2021-02-02T15:13:37Z,4,"Hey Mike!  Great content, your SQL videos are easy to go for quick brush up or interview preparation. Keep it coming  Kudos from india🔥",True

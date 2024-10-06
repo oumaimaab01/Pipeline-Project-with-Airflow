@@ -1,0 +1,35 @@
+author,updated_at,like_count,text,public
+@krishnaik06,2020-11-07T12:58:23Z,13,"Interview What is the advantage of using CNN over ANN for image classification even though we can solve image classification using ANN?",True
+@amarnathreddysurapureddy9111,2024-03-01T18:31:22Z,0,"Cnn : Specifically designed to capture the spatial structure of images. Less parameters.   Ann : each pixel independent.   Cnn : lines, edges detecting(spatial)",True
+@xxx-sm5gj,2024-02-25T07:02:18Z,0,"CNNs are inherently translation invariant, meaning they can recognize objects regardless of their position or orientation within the image. This property is achieved through the use of convolutional and pooling layers, which aggregate information across spatial dimensions and make the network more robust to variations in object position and orientation.",True
+@mallutalksaboutaiwithab381,2023-12-13T20:58:03Z,0,"Hi Krish, I agree with your statement regarding Keras Tuner. But as you know Keras tuner is just an hyper parameter optimization framework only and the intention behind the interviewer is to know the candidates understanding about the relationship between CNN selection with task, dataset size, Number of classes etc. Since its a mutually connected areas we have to give an answer which connects all this areas. Keras tuner is kind of black box for us. when we ans any question in an interview we have to give an answer which can satisfy the interviewer. Here interviewer will ask connected qn like, ""What if am using Pytorch, and I don't want to use Keras tuner anyhow."". So friends, Insted of keras tuner I would suggest to explain in depth by connecting the relationships of Data, classes, and task while ans qn related to selection of network and hyper parameter selection.",True
+@abdulqadar9580,2023-06-17T18:31:08Z,0,Just Amazing way of teching Sir. Love from Pakistan.,True
+@rrrfamilyrashriderockers6891,2022-12-28T04:02:54Z,0,CNN can learn by edges,True
+@Ranjithbhat444,2022-10-30T16:08:48Z,1,Beautiful. Too much learnt here. Please use the same technique but one request is please consider answering the questions completely. Would be helpful for research enthusiasts. Lots of respect 🫡,True
+@Mohith7548,2022-10-20T15:11:03Z,0,Hey! Do anyone have answers to the questions?,True
+@saikiranreddymekala1346,2022-08-08T13:25:58Z,0,ANN are location specific where as CNN are location unspecific. Eg: If a CNN learn features of Ears it can locate they anywhere in the image. If we do data-agumentation techniques then there is a decrease in accuracy of ANN models where as CNN models still predict with higher accuracy.,True
+@anshulzade6355,2022-07-25T07:11:53Z,0,"The white board thing is great man keep doing this!, Any recommendations for how to study in depth and stay updated with the latest shit going on in DS and that too understanding it throughly!!. Keep it up",True
+@sunilyadav3098,2021-12-21T09:33:58Z,0,"In CNN, images will be having higher input dimensions, so to represent such data tensorflow framework can be used to represent huge data. But in ANN it will be very difficult to handle and process such huge dimensions. Therefore, CNN is used instead.",True
+@noorulaintariq2379,2021-09-07T19:43:30Z,0,Thankyou so much for putting so much hard work….I am sure this will help me in my thesis Defense…Thankyou again :),True
+@louerleseigneur4532,2021-07-31T05:44:49Z,0,Thanks Krish,True
+@dibyaranjanjena5650,2021-06-27T07:53:39Z,3,"In CNN we apply different filters also known as kernels, so while applying kernels we took consideration into the neighboring pixels which helps the network to learn different features, eventually these are converted into a 1-D array in the feed forward network and we get the classification results.",True
+@nivedithagd3371,2021-03-07T05:54:00Z,0,We can use ANN for images but if we have large number of images and large number of pixels it uses more then million wights when we are doing back proportion computational power require more to overcome this problem we are using CNN,True
+@abhinandanshirahatti8859,2021-01-07T11:11:58Z,0,what is keras tuner,True
+@chetanmundhe8619,2020-11-12T12:55:05Z,1,"When we use max pooling, mean and min pooling, can anyone answer plz,",True
+@keshavbansal5148,2020-11-10T20:02:15Z,1,This explanation style works very well!!!,True
+@harikk7872,2020-11-09T07:50:14Z,0,Continue with the same,True
+@pullmed,2020-11-08T03:40:20Z,0,"there used to be a reason why people use the words ""average pooling"" instead of ""mean pooling"". But looks like no one cares anymore.",True
+@nilakantas5153,2020-11-08T01:18:20Z,0,Thank you sir,True
+@kushshri05,2020-11-07T18:36:36Z,5,Categorical cross entropy is used when our true labels are one hot encoded or they are not ordinal classes While Sparse categorical  cross entropy is used where our true labels are ordinal in nature,True
+@vivekd9563,2020-11-07T18:04:12Z,0,What’s your telegram group sir ?,True
+@SuperMsmystery,2020-11-07T17:12:39Z,0,"ANN will not recognise features specific to images like angles,light/darkness,inversion etc.",True
+@asiftandel8750,2020-11-07T15:48:27Z,0,Yes Please use white board,True
+@swarupkarmokar3626,2020-11-07T15:29:25Z,1,Because CNN provide less number of parameter in our hidden layer... And CNN has a advantage to deal with multiple color channel but ANN don't.,True
+@raneshmitra8156,2020-11-07T14:48:46Z,1,This white board format is quite good for theoretical understanding but for Mathematical explanation your older technique is much better....,True
+@arijit07,2020-11-07T14:21:31Z,3,One of the advantages of using CNN over ANN is that it reduces no of parameters i.e weights and bias .,True
+@jagadeesh_7924,2020-11-07T14:09:54Z,0,"We use cnn for image classification insted ann because cnn works wonderful for images  Cnn works as  In  first layer it try to detect edges and in second layer it try to detect shapes like that...   And also it uses max pooling, min pooling etc.. So  it provides the location invariant and scale invariant like features.",True
+@ArunKumar-sg6jf,2020-11-07T14:02:27Z,1,categorical cross entropy  is used for multi class with label encoding and sparse cross entropy for muti class with one hot encoding,True
+@aravindraj2205,2020-11-07T13:15:29Z,1,Thanks krish for this video :),True
+@VIVEK26,2020-11-07T13:13:26Z,0,great video sir,True
+@tejas5872,2020-11-07T13:07:49Z,6,Availability of various filters to detect many features of the image and also we can have good clarity of the image as o/p when we do max pooling but when we use ANN we create the image to multi-dimensional array and the features of the image are not recognised. This is the reason CNN is useful,True
+@ShahidAli-ed2qw,2020-11-07T13:01:32Z,1,Hey bro provide me telegram link,True

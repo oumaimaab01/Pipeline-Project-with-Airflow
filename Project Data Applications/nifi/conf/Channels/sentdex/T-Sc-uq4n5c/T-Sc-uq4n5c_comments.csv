@@ -1,0 +1,38 @@
+author,updated_at,like_count,text,public
+@harryn1510,2020-07-27T11:44:27Z,0,I getting an error called unable to locate package?,True
+@NatrajKumar-yk5vv,2020-01-31T10:16:51Z,0,Anyone still struggling with mysqldb library - Follow this thread - https://raspberrypi.stackexchange.com/questions/78215/how-to-connect-mysqldb-in-python-3,True
+@chundurusriharsha2402,2019-12-20T05:54:06Z,0,I can't able to install mysqldb. May I know the reason?,True
+@keithlillis7962,2018-12-01T12:55:28Z,0,I moved dbconnect up one dir and it worked :-),True
+@keithlillis7962,2018-11-30T18:54:31Z,0,from dbconnect import connection  --can't get this to import. dbconnect.py is in same dir as __init__.py any ideas people? P.S using Debian Stretch server,True
+@chrisribia,2018-11-11T12:40:46Z,1,"(1698, ""Access denied for user 'root'@'localhost'"") why this",True
+@IIdroyII,2018-10-03T10:57:43Z,0,"when i write ""sudo apt-get install python-MySQL"" is gives an error as ""'sudo' is not recognized as an internal or external command, operable program or batch file."". Im a windows user what should i do??",True
+@mr.shahin3898,2018-06-30T08:23:34Z,0,After execute the pip stall MySQLdb command it showing:  Could not find a version that satisfies the requirement MySQLdb (from versions: ) No matching distribution found for MySQLdb,True
+@pablogrillo7362,2018-04-23T14:50:41Z,0,"neither pip nor apt-get is finding MySQLdb, is this now outdated?",True
+@germanjr7233,2018-04-21T19:50:48Z,0,does this works for a sqlite3 database?,True
+@allenteezyy2744,2018-01-18T15:19:06Z,0,Sir where did you get the dbconnect import connection. coz i'm getting an error no module name,True
+@mayobanexlu,2017-10-10T12:48:08Z,1,@sentdex do you have any how do i connect to the database server with mysql workbench? thank you.,True
+@ravipaul1657,2017-06-15T17:42:45Z,0,connect() got an unexpected keyword argument 'host' error coming when i am going register page  please help me,True
+@jwoolfe1445,2017-06-14T17:33:57Z,0,so when users go to login they connect to the db using the root account?  is this safe?,True
+@ChunkUhDunk,2017-05-03T18:54:07Z,1,"For those using Python 3+, make sure you put a period before dbconnect when you are importing the connection() function. Otherwise, you will get a 500 error.  The import line in your __init__.py file should look like:  from .dbconnect import connection",True
+@oxford7329,2017-03-04T12:35:15Z,0,Why not Flask-MySQL? Is there any advantage with MysqlDB?,True
+@TheReaper3200,2017-03-02T21:36:59Z,0,"Glorious freedom, wonderful freedom, No more in chains of sin I repine! Jesus the glorious Emancipator, Now and forever He shall be mine.",True
+@MultiDickers,2017-02-13T08:34:49Z,0,An getting this error: 'error 1118 (42000): row size too large'  whats the problem. am using mysql 5.7,True
+@ZennerBear,2017-01-14T01:08:54Z,0,"Hey sentdex, I'm having issues connecting to my database. I'm trying to connect with sqlite3 and I get an error message ""unable to open database file"". This is my code in dbconnect.py:  import sqlite3  sqlite_file = 'c:\gebruikers\zenner\desktop\databases\pythonprogramming.db'  def connection():     conn = sqlite3.connect('pythonprogramming.db')     c = conn.cursor()      return c, conn  any idea's on why this does not work?",True
+@michaelgriesinger2566,2017-01-11T14:47:14Z,0,"+sentdex Great tutorials! Is it possible to create one or two more tutorials with a bit more interaction with the database? For example,  you display the database in a table on one of your webpages? Or you fill out a form on a webpage that query's the database and returns the results in a table format?",True
+@flat9safety,2016-12-02T13:50:09Z,0,"This might be a silly question, but here it goes:  Is it insecure to have your MySQL login information sitting within the def of your python script? Is it in a directory in which people can not access? Maybe that's where the flask folder structure comes into place? Any insight would be great.",True
+@user-mfsc-2024,2016-10-15T05:04:31Z,0,"what is the meaning of return c, conn in the connection function ?",True
+@cest102,2016-08-17T06:42:22Z,0,+sentdex Any chance you could help out with those who can't get past 'import MySQLdb'? I'm dying to finish this tutorial but have spent over 3 hours trying to fix this...,True
+@dominikmilde7394,2016-07-29T13:16:39Z,0,+sentdex  Don't you think it would be much easier to make and manipulate database with sqlite3 python support? :) at least for localhost needs ;),True
+@ShivamChopra91,2016-07-05T07:46:22Z,0,+sentdex Any suggestions on using SqlAlchemy instead of core MySQL? and any tutorial for that. As I've just started with py and flask and have read on Medium tutorials about using SqlAlchemy as that makes the stuff a lot easier. Moreover even I got issues (and if anyone else is facing the same) while installing MySQLdb so have been using PyMySQL (even have to use the same while using SQLAlchemy) (for imports use pymysql (lowercase)),True
+@marcomontesneri,2016-07-04T22:40:49Z,0,"this is really really great stuff, im really appreciate you've done this tutorial, and definitely will use the btc address.",True
+@saiteja5804,2016-06-18T10:29:22Z,0,how can i connect with local database,True
+@eduardomorales3470,2016-06-14T10:49:33Z,1,hey master why i can't install MySQLdb? please reply me :D i am using windows 7,True
+@minjun87,2016-05-01T21:48:12Z,4,"Hi thanks for the video, When I type sudo apt-get install python-MySQLdb, I am getting an error saying ""E: Unable to locate package python-MySQLdb"" I am using python 2.7 locally.What should I do?",True
+@rskaradag,2016-03-01T20:52:33Z,0,"you are my hero dude ! you disposed of my struggle. If you believe, GOD BLESS YOU. lol",True
+@ArseniyIvanov_The_Jabbson,2015-11-21T11:30:35Z,4,"For those who prefer py3 - python3 doesn't have this package for mysql, but there are at least two i have checked and confirm working - pymysql and mysql-connector-python (official mysql package), third one to check would be mysqlclient (fork of mysql-python for py3), which is maintained by the same ppl who maintain pymysql.",True
+@Neceros,2015-07-20T07:07:53Z,2,"If you're using Python 3.4+, you can actually use an alternative mysql module called PyMySQL (pip3 install PyMySQL).",True
+@konkifire6592,2015-06-27T17:25:08Z,0,'function' object is not iterable am getting that.what could be wrong,True
+@konkifire6592,2015-06-27T16:57:22Z,0,'function' object is not iterable that what am getting.what could be wrong,True
+@danielsimoes7355,2015-04-03T07:51:48Z,2,"cool! btw, for fedora users like me, it's ""yum install MySQL-python"" instead of apt-get install python-MySQLdb  :)",True
+@TheSuperKitch,2015-03-30T22:27:56Z,10,Please do not ever stop doing those videos ! You rock,True
+@marcosmmb,2015-03-30T02:41:46Z,1,Awesome classes!,True

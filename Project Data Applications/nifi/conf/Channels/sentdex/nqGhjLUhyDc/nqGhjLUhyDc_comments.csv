@@ -1,0 +1,32 @@
+author,updated_at,like_count,text,public
+@adonisedmundtafadzwamuzata4855,2019-10-29T13:41:06Z,0,You are a cool guy,True
+@SSSmkin-,2018-12-06T12:34:10Z,0,I'm like number 816,True
+@prod.treyxoldd,2018-11-24T17:32:13Z,0,Sentdex can you help me setup my   hacking group retr0sec,True
+@prod.treyxoldd,2018-11-24T05:25:03Z,0,Sentdex you are the best,True
+@shantambajpai8064,2018-10-05T14:06:42Z,0,Brilliant lectures mate.,True
+@Kisuke323,2018-07-30T13:25:17Z,0,"how does he get 'pink' is not on the list?  I have only ""continuing"". Absolute beginner.",True
+@gwbrown4726,2018-07-29T22:12:25Z,0,"So I tried to set up data validation to test to see if the user input was a valid int or float. The only way I got it to work was with the try / except. I even tried the isinstance to return true or false but because user input is automatically set as string it didnt work. Any help would be great, as of right now I'm converting the user I put into float and doing the try except on the value error because letters cant be converted to float.",True
+@Hellomynamesolly,2018-06-15T10:09:15Z,0,@Sentdex please post your ERC20 address up. Your videos are some of the most helpful and comprehensive education tools I've come across and you deserve to be rewarded :),True
+@kurisu9056,2017-12-28T02:54:06Z,0,"mr. sentdex why did you choose win 10, i like win 8.1 better though",True
+@abuzarrahman7793,2017-12-09T13:07:24Z,0,How to make a csv file?,True
+@cybernoodleowww,2017-11-23T02:04:55Z,1,"Everything works fine till I add the if, else. After that the problem is if I enter say GreeN even though we have the whatColor.lower()) to allow the use of upper case or lower case, it doesn't work for me. Again when I  use the if else, other wise it all works fine. Any help as to why?",True
+@mango_5189,2017-11-19T14:23:34Z,0,"Hello, Sentdex, do you know why excepton function in the code write as below cannot work? I input word not in the list, however, there is no exception posted. Thank you.  y=[""s"",""A"",""siri"",""b"",""a""] try:     word=input(""input the word you want:\n"")     if word in y:         indexof=y.index(word)         print(word) #     else: #         print(""word not in the list"") except Exception as e:     print(e)",True
+@aaronsiew9486,2017-11-09T13:48:30Z,0,"May I know what is the meaning of e?sorry, I'm new in python.",True
+@brucexing6954,2017-09-19T01:00:37Z,1,are you Snowden？ or his tiwn brother.,True
+@Zed091,2017-08-29T12:22:34Z,0,"can you use a ide with a darker theme? just like pycharm or sublime. because the white theme of your ide makes my eyes burn, probably not just me",True
+@b89976,2017-07-27T12:25:45Z,0,can you make a VIDEO about assertion please.,True
+@mohammadummair1378,2017-07-15T16:24:31Z,0,"my python program shows ""inconsistent use of tabs and spaces in indentation"" please help!",True
+@helipilot727,2017-06-20T19:44:43Z,0,"explained it wrong though.  it's not that it won't throw the exception, it's that it won't catch the exception.",True
+@GPCTM,2017-06-03T23:30:56Z,0,"except(OverflowError, ValueError):  except TypeError:  except AttributeError: ...",True
+@secondmodu7184,2017-05-03T05:28:58Z,0,"at the 0:29 you have ValueError, but why do you use NameError for exception?",True
+@laxminarasimhasrinivas,2017-04-01T17:09:19Z,0,"Hi i am getting error like this  Traceback (most recent call last):   File ""csv"", line 16, in <module>     whoseSal = input(""whose salary you want to know ?"")   File ""<string>"", line 1, in <module> NameError: name 'Rajiv' is not defined  Given CSV file Data:  Srinu,IND,Analyst,50000 Rajiv,CHI,Prorammer,75000 Sohail,AUS,Manager,100000 Chintu,USA,Admin,40000 Hara,JAP,Associate,50000  while running this code   import csv with open(""empd.csv"") as csvfile:   csvread = csv.reader(csvfile,delimiter=',')   names = []   sals = []    for row in csvread:       name = row[0]       sal = row[3]       names.append(name)       sals.append(sal)    print(names)   print(sals)    whoseSal = input(""whose salary you want to know ?"")   nameedx = names.index(whoseSal)    the_sal = sals[nameedx]   print(""salary of "", whosesal , ""is  "" , the_sal)   Can you help me to solve this problem.",True
+@uceee1,2016-10-31T21:59:41Z,0,"for some reason i got that error ['20-02-16', '21-08-19'] ['red', 'blue'] What colour date of do you want to know?red <built-in method lower of str object at 0x000001E05E5578F0> is not in list continuing thanks to exception  it works ok without expection   try:  whatColor = input(""What colour date of do you want to know?"")  coldex = colors.index(whatColor.lower)  theDate = dates[coldex]  print(""The date of"",whatColor, ""is a"",theDate)  'assignes colour to date'  ""lower changes letters to lowercase"" except Exception as e:  print(e) print(""continuing thanks to exception"")",True
+@Dan-tf9kb,2016-08-07T22:07:48Z,1,Very well explained,True
+@coltonvevomixtapes4502,2016-07-12T00:04:50Z,0,"Heres my source code: hi = int(input(""Input a number "")) yo = int(input(""Input a second number ""))   try:     print(hi + yo)  except Exception as e:     print(e)      print('continuing')   ___________________________________________________ How can i make it so that this program doesn't crash when I enter a string in one of the values?",True
+@farzadk.2633,2016-01-07T20:58:03Z,0,"Hi, if the else is triggered and the program outputs 'color not found or is not a color', is there a command (like go to) that we can use to jump back to the input line in the code and ask the user to input the color again? (and do this in a loop, until the user inputs something correct)",True
+@sofoboachie5221,2015-12-01T14:58:28Z,3,"Thanks, everyone else just gives the Try Exception format without explaining the importance of the programmer thinking ahead and employing something like an If-Else statement. Very good",True
+@aitchfourexhealth,2015-11-30T18:48:48Z,42,snowden is tht u,True
+@fedora2141,2015-11-09T06:54:32Z,4,"x = 0  y = 2  try:  print(y/x)  except Exception as e:  print(""Error in your code "" + str(e))",True
+@pythonprogrammer6938,2015-06-27T19:47:09Z,2,Eh! Stop Smashing your keyboard and Let the dog sleep!  2:35 Amazing tutorial as always :),True
+@TheGamezAM,2015-02-26T20:02:11Z,1,Can anybody explain the raise keyword?,True
+@hasal8639,2014-09-30T19:24:15Z,73,This guy deserves more views.,True

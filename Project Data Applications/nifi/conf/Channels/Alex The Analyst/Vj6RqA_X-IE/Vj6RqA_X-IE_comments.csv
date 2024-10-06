@@ -1,0 +1,17 @@
+author,updated_at,like_count,text,public
+@sujansapkota0504,2024-05-25T12:13:48Z,0,"select salary,(select avg(salary) from employee_salary ) avgSalary, case 	when salary>avgSalary then 'This employee is earning good' end as label from employee_salary ;   when executing this code it says there is no column as avgSalary while I renamed the output coming from subquery as avgSalary, can we not use alias while comparing it with original column?",True
+@yeniramirez911,2024-05-23T14:33:58Z,0,Thank you so much :D,True
+@atzirimendozagtz9787,2024-05-20T22:35:51Z,0,"I don't know if I missed it but does where you insert the subquery make a difference? If so, what are they so that I can better understand when I run into the need to use a subquery.",True
+@karimullasyed3695,2024-05-20T11:17:50Z,0,Hiii im getting  zero in subquries,True
+@user-kq3tc5tu1c,2024-05-14T03:00:53Z,0,"A LOT going on in this lesson.  Alex did a nice job of walking me through subqueries in MySQL.  As the previous commenter suggests, I need MORE practice to really get these concepts embedded into the ""gray matter"" inside my head.  At the very least, I intend to re-watch this video a couple of times without trying to keep up typing code, etc.  I am getting a great deal of value from all of Alex's work.  Thanks!  😎",True
+@RubaShu,2024-05-07T18:08:51Z,0,"Thanks alex for the easy explanation.. just a question, when you wanted to compare the salaries to avg salary, we also can use Partition by instead of s subquery right?",True
+@Thisisrealfia,2024-02-26T10:01:54Z,1,"Just when I needed to understand more about 'subqueries', this video came up. Thanks, Alex!",True
+@brazehvic8896,2024-02-21T11:02:12Z,5,Great explanations and options. Would have been better if you included the data file link to self-practice. Remember the best way to learn is learning by doing!,True
+@Announcement2024,2024-02-20T22:12:42Z,1,"Great video; I like how you take the time to inform your audience. Everyone wants to live a better life and be financially stable. By making the appropriate investments, living simply, and creating a budget, this is simple to do. Early in life, I discovered that hard effort is the path to financial independence.",True
+@emmanuelamukamara4931,2024-02-20T20:53:23Z,1,Great guy,True
+@nickl3135,2024-02-20T19:48:36Z,1,Loving this series ! Thanks so much,True
+@GHOST-17.,2024-02-20T16:02:14Z,0,Microsoft SQL server and my SQL same or what plz reply sir ???,True
+@chubz155,2024-02-20T14:55:37Z,1,"I am currently learning sql and I am watching your videos especially the bootcamp ones. I already finished the videos for sql, is there any platform/s you can recommend to practice what I learned from the videos? I am kind of lost on how to practice these learnings. Thank you!",True
+@delhiwala8511,2024-02-20T13:18:54Z,1,Hello Sir Ji Love You Hogaya From India 🇮🇳,True
+@rajkumarrajan8059,2024-02-20T13:10:23Z,2,Great!!!,True
+@ATCSABChaitra,2024-02-20T13:04:06Z,3,U are the best mentor and guide,True

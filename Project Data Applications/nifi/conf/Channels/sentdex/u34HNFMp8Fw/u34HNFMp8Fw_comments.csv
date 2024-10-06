@@ -1,0 +1,2 @@
+author,updated_at,like_count,text,public
+@vladimird8119,2013-12-21T00:21:51Z,4,"Hi and thank you for you lessons. BTW there is an a mistake in bollinger_bands function described in previous video -  I guess this line: curSD = standard_deviation( tff, closep[0:tff] ) should looks like that: curSD = standard_deviation( tff, closep[x-tff:x] ) otherwise curSD value always will be the same (as you can see on you graph, it is the same, bond has constant width) And this is why aapl bollinger bonds graph looks so strange.",True

@@ -1,0 +1,430 @@
+author,updated_at,like_count,text,public
+@statquest,2020-01-15T12:45:58Z,511,"NOTE: Unfortunately I was a little sloppy with my terminology and that the word ""samples"" can mean different things, so let me try to rephrase it. If we collect 20 measurements and calculate the mean, and then do that a bunch of times (collect 20 measurements and calculate a mean), a histogram of those means will be a normal distribution. This suggests that an individual mean, calculated from 20 measurements, is, in and of itself, normally distributed. For example, if we had a uniform distribution and we collected 20 values from it and calculated the mean, then that mean would be normally distributed. We know this because if we repeated the process (collected another 20 values, calculated the mean, and then did that a bunch of times) the histogram of all the means we calculated would be a normal distribution.  ALSO: If you want to play with the central limit theorem, and see it in action, check out this page: https://cltapp.fly.dev/  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@chujingxl,2024-05-22T10:19:10Z,1,Thank you! You are a wonderful teacher! The theory has been explained so clearly. It is easy to understand.,True
+@GameChanger-vd6eb,2024-05-18T12:27:25Z,0,"Sir, I wanted to ask a question... More of a personal guidance...  My summer vacation are starting this week... I'm a CS student, having basic knowledge of Statistics and Programming in Python and C#...  May you guide me about how should I work on Machine Learning in these 3 months..?  Like should I watch all stats videos and then ML videos... Or what.... Thank you so muchhhh in advance ✨",True
+@wynnephilpott3178,2024-05-17T05:37:43Z,0,"for the exponential distribution: why do all of your means stay in the interval [0,2] ? how come we don’t see some of those red lines over near 5 or 10?",True
+@GameChanger-vd6eb,2024-05-14T05:49:12Z,1,Well I guess I know how to spend time learning Machine Learning this summer!,True
+@4018_ARJUN_DUDILE,2024-05-13T09:59:24Z,1,Clearly Explained!!,True
+@raltonkistnasamy6599,2024-05-07T19:30:13Z,1,thank u man,True
+@hightttech,2024-05-05T21:28:50Z,0,"Google data analyst: ""Hmmm... Searches for 'Cauchy Distribution' trending up. BAM!""",True
+@hightttech,2024-05-05T01:04:37Z,1,Excellent 👍,True
+@vaniajanetrayarios7051,2024-05-04T02:55:09Z,1,love this video,True
+@mushfiqurrahmanshishir8055,2024-04-21T16:06:58Z,1,you deserve WAY more subscribers..,True
+@walcf123,2024-04-14T05:22:41Z,0,"Hi, thank you for uploading this great video. I'm a little confused at the beginning - why would the histogram of the mean of the sample be just a line at 0.5? I would have thought it possible for the mean to be other number as well?",True
+@parthenonpudenda,2024-04-10T15:56:33Z,1,THANK Ü🙏🏽🪶💚🫧,True
+@Serene_Garg,2024-04-09T06:04:21Z,1,Bam ^n,True
+@sadguy5209,2024-04-08T11:45:26Z,0,Why do we need at least 30 samples in quantitative research,True
+@Learn_SAS-du8lr,2024-03-30T15:59:19Z,1,"You've made me visualize statistics. When I now look at a model output at work or in a presentation, I can relate that to mice height, mice weight, gene expression and actually explain it, suggest another method and why it might provide better results. Although I'll have a graduate degree in the data science soon, it's the day I finish working through your videos I will confidently say that I am a data scientist. Thank you for teaching me to love statistics!",True
+@Nishan-ob4xu,2024-03-15T05:18:50Z,1,nice sir thnak you  😃😃,True
+@gautamkulkarni7049,2024-03-14T09:37:17Z,1,great explanation,True
+@jamesmarsh4047,2024-02-29T15:33:38Z,0,Fat tailed distributions take a very very long time to converage to the normal.,True
+@Matheuszaat,2024-02-23T03:45:28Z,0,"You seem to have mistaken sample size with number of replicates.  If you make the experiment 10000 times, with sample size 20, the histogram in the end is the distribution of the sample with size 20, which does not have normal distribution.  When you take this 20 and increase it to infinity, thats when you have convergence to the normal.  For example: number of heads when tossing a fair coin. If you have sample size 2, the only possible values for the sample mean are 0 (2 tails), 1(two heads)and 0.5 (1 head and 1 tail).  The distribution of the sample mean X is   P(X=0)=0.25 P(X=1)=0.25 P(X=0.5)=0.5  This is not normal at all.",True
+@martham531,2024-02-21T11:36:52Z,0,Please do a video on extreme value theorem,True
+@thechaoticneuron,2024-02-17T10:46:48Z,0,"Hi @statquest I’ve read about cases when sampling distributions can be of fat tail. Are they cases where Central Limit Theorem fails to hold? If yes, how to spot such cases?",True
+@IAMWARRIOR-vp2eb,2024-02-14T12:17:15Z,0,sir i might sound like a 4th grade student but i just want to ask is it possible to find 100 means from 1 istribution i mean isn't it suppose to have only one mean,True
+@GregThatcher,2024-02-04T20:18:30Z,1,Thanks!,True
+@tinglingwei1056,2024-01-31T02:27:22Z,1,"Thank you for this fun and easy to understand explanation. I’m wondering why CLT is true, do you happen to have a video on this? Thanks again! 😊",True
+@Xayuap,2024-01-03T03:49:15Z,2,normal bam,True
+@felipevieira2935,2023-12-29T09:19:33Z,0,"This was very nice. Thank you for the video! From my understanding, this video is in line with what I had in class as well as with R simulations. However, after I spent a few hours reading about the CLT in multiple books (such as the Princeton Companion to Mathematics, etc.), I slowly started to realise that the definition of the theorem itself doesn't really make a statement about ""taking multiple samples, calculating their average, then obtaining the distribution of the means which will be normal"" (I simplified here). In fact, I ended up on (in)famous Wikipedia because they also show the different versions of the CLT. Following what seems to be the most elementary or commonly accepted version of the CLT (paragraph 4 or the classical version in this link: https://en.wikipedia.org/wiki/Central_limit_theorem#cite_note-2), the interpretation given in this video (as well as in my courses) is just a practical interpretation and application of the CLT rather than a direct statement from the theorem itself. Am I correct? I am not trying to criticise the video; I am just honestly curious and in need to get an answer because this doubt is driving me crazy. Thanks!",True
+@thefamousdjx,2023-12-21T02:34:24Z,1,"I wish lottery games, roulette and dice rolls were normally distributed 😊",True
+@megagita1561,2023-11-29T23:59:11Z,0,"Hi Statquest, What is the argument from the central limit theory which states that ""non-normal data can be used because the sample is more than 30""? Thanks",True
+@followmycompasss,2023-11-24T08:13:50Z,0,"Moral of the story- (Central Limit Theorem) As Sample Size Increases,  a Sample Variable tends to Normal distribution",True
+@soogyusbf,2023-11-16T19:01:00Z,1,watching this hours before an exam and why do i actually understand it now😭🙏🏼,True
+@romanalejskova9353,2023-11-11T14:12:30Z,0,What distribution is the one that looks like U?,True
+@manikarneja,2023-11-09T13:01:15Z,0,"what do the axis(s) determine in the histogram graph? as in, what does the height of the histogram says? is it the probability with which a certain mean is received?",True
+@55yxalaG,2023-10-29T20:22:35Z,1,Quadruple BAM!,True
+@soumikmitra5993,2023-10-25T16:01:42Z,1,BAM,True
+@deveswar_xn7024,2023-10-23T09:17:06Z,0,HMMMMMMMMMM..........,True
+@LL-hj8yh,2023-10-23T04:33:41Z,1,"Hey Josh, can you please clarify what is 'sample size 30 rule'? Is it that we have to have at least 30 sample groups (however units in each sample groups); or in each sample groups, we have to have at least 30 units (doesn't matter how many sample groups we collect)? I am consistently confused by 'sample size' from many resources, thanks for your clarification!",True
+@abbasjivani7166,2023-10-22T10:54:09Z,2,The guy made the concept easy peasy lemon squeezy!!😎  Absolutely loved the way the things were elabrated.😍,True
+@willyoctavianus8691,2023-10-17T13:17:37Z,1,"oof.. this video is quite underrated... well narrated, interesting, and simple",True
+@asianslayer555,2023-10-10T05:04:31Z,1,I finally understand this after so many years! Thanks and Double BAM!,True
+@danieldiaz4841,2023-10-01T19:32:52Z,0,random samples correct?,True
+@kalyankarakheti6383,2023-09-15T05:39:33Z,1,"Even if you're not normal, the average is normal!!! 😂",True
+@SrinivasanSivaramakrishnan,2023-09-07T07:01:12Z,0,")Hi Josh, Just to clarify - say I am not repeating the experiement - I only have 10 measurements that has come from an uniform distribution - i now have mean from the 10 measurements -  but I am not repeating the experiment. In this case -  that single mean can be assumed as normal or if the experiment has to repeated for M times ? Reason is if  I dont repeat the experiment, I only have 1 data point (mean).",True
+@konstantinlevin8651,2023-09-01T11:22:14Z,9,"Thanks a lot! I've tried the examples you gave with python. I sampled from uniform and exponential distributions, computed means and draw histograms and bam! This actually feels like magic. I'm looking forward to understand the theorem more. I read the wikipedia page and it actually seems like there are lot to learn!",True
+@metasameta236,2023-08-17T07:27:42Z,1,Bam🤣,True
+@janet_Haufiku2,2023-08-16T23:06:29Z,2,😂😂the theme song had me,True
+@sarasantos2811,2023-08-15T19:55:15Z,1,Thank you so much,True
+@siddireddyvignesh,2023-08-04T07:35:05Z,1,"Thank you very much sir, i recently started my data analysis journey. Your videos were lot helpful",True
+@dhanushbinu8465,2023-08-03T21:08:58Z,1,Is there any simple intuition of why the central limit theorem works?,True
+@amitavaroy5723,2023-08-02T09:17:59Z,79,"I am a 4th Year UG at IIT Kharagpur and you will be pleased to know that almost everybody on campus loves your lectures on Probability, Statistics and Machine Learning and consider it to be the best resource for cracking company interviews. Absolutely brilliant content!",True
+@victorebubemadubueze9137,2023-07-27T03:32:32Z,0,"I am taking biostatistics now and I find this very helpful. However,  I have one question from my textbook. It says the number of neutrophils in a sample of 2 white blood cells (binomial distribution, I suppose) is not normally distributed, but the number in a sample of 100 white blood cells is very close to being normally distributed.  How does this work here? IS it similar to the central limit theorem of taking different means and plotting a histogram for the data, or is there something else in play, please?",True
+@Rohan-ce1sy,2023-07-24T13:38:24Z,2,Thanks for the crystal clear explanation Josh. BAM !!! ,True
+@davidappell3105,2023-07-14T01:32:08Z,0,"Very unclear, talking about “50 means” etc.",True
+@hilakarwal7704,2023-07-10T20:56:35Z,1,"I'll be hearing the song at the beginning in my head during the exam, I'm sure of it",True
+@yarenlerler67,2023-07-07T17:21:35Z,1,Even if you're not normal.. The average is normal.. Hahahha :D <3,True
+@dypolesolutions3970,2023-06-20T13:54:08Z,1,"BAM 😂, your explanation is excellent 👏",True
+@evergreenxo,2023-06-08T02:47:51Z,2,"heck yeah man! thanks for explaining concepts so simply, these are super helpful in my stats study :)",True
+@mohammedessam4969,2023-06-07T18:27:42Z,1,"Even if you are not normal, the average is normal 😁",True
+@_Pestarzt_,2023-05-26T13:20:57Z,0,"Im a bit lost on the terminology and the rule of thumb  When we have: n = 20, measurements per mean m = 100, a hundred times I am measuring 20 values and calculate their mean  What is called ""sample""? What is the sample size then? What is called ""Sampling units/ elements"" (of which I read in a different comment)?  And on the rule of thumb: I guess m has to be 30? So I need 30 means? How many measurements do I need for each mean, is there also a rule of thumb on this? Josh gave one answer that when the underlying distribution, so that of which the measurements origin from, not the normal distribution of the means, is similar to a normal distribution you might get away with less ""samples""? Same question here, less means or less measurements per mean?",True
+@nomansbrand4417,2023-05-21T13:11:55Z,0,"BAM! Might this theorem be connected to the fact, that the average is basically the least square solution for fitting a constant? Which further means a normal distribution has been assumed to calculate this solution (since least squares returns the max likelihood of a normal distribution)?",True
+@justinumaran5647,2023-05-16T01:54:46Z,0,Can Central Limit Theorem apply to samples WITHOUT REPLACEMENT?,True
+@amnont8724,2023-05-12T17:08:56Z,0,"Hey Josh, regarding the Central Limit Theorem - We always assume that no matter the distribution, the samples always have to be independent and with a finite standard deviation right? Besides what you mentioned (You assumed in the video that the samples you took are from the same distribution)",True
+@devinderkaur9811,2023-04-12T10:05:26Z,0,"Josh, I would like to know that like mean of sample means, does the distribution of median, sd, and variance of multiple samples of the same sample size from a given population also follow the normal distribution?",True
+@RealSamHailu,2023-04-10T21:22:32Z,1,I gave him a like for the intro song.,True
+@thebloodychoppers,2023-04-01T12:23:44Z,0,I will be machining a part using CNC and the manufacturer claims given tolerances. I have to check how those tolerances will affect the electrical parameters of my design. To perform an yield analysis the CAD software requeires me to specify the mean value and the normal deviation. My question is since I know that the manufacturer claims that the finshed part will be +- a given tolerance from my nominal design and I know that three normal deviations away from the mean cover 99.7% probability is it correct to say that the mean is my nominal dimension and the normal deviation is 1/3 the tolerance?,True
+@takeiteasy3525,2023-03-29T09:35:02Z,1,"Holy shit, just discovered your channel and just in time.... thank you so much for doing these little lessons in a way that I can understand them. Plus, I crack up everytime you say 'BAM.'",True
+@zhenminliu,2023-03-26T00:02:37Z,0,"I don't think this video explains the underlying ideas explicitly. In reality, when surveys are done, only one big sample is taken, not multiple samples as mentioned in this and many similar videos.",True
+@hosseinabdolmotalebi4349,2023-03-07T18:55:30Z,1,"well explained , thanks!",True
+@mycotina6438,2023-03-04T02:38:54Z,1,Woah! This is a gem. Central limit theorem intuitively explained!,True
+@omaruhh,2023-03-01T16:15:14Z,1,BAM!!! Lol,True
+@ShroukAbdulshafy,2023-02-12T09:03:11Z,1,I like how you explain things in a funny and simple way. Thank you so much!,True
+@DSJOfficial94,2023-02-08T00:43:41Z,1,so good,True
+,2023-01-21T00:19:27Z,1,TRIPLE BAM,True
+@rafaelv.valadares2721,2023-01-10T00:56:19Z,1,Great video! Go ahead teaching statistics in a simple way.,True
+@mehmetcetinkaya7654,2023-01-05T07:53:45Z,1,Lets gooooo BAM!!,True
+@the_hasnat,2022-12-24T20:24:58Z,1,I loved that intro,True
+@muffinman1,2022-12-24T10:54:31Z,1,You make statistics fun to learn Josh.🤩,True
+@bin4ry_d3struct0r,2022-12-19T23:04:26Z,0,"Yes, I also came across the rule of 30. With any sample set size less than that, the sample means do not assume a normal distribution but a Student's T-distribution. I did not know it was just a rule of thumb.",True
+@mugiwara-no-luffy,2022-12-17T08:09:39Z,74,"The fact that you are still replying to every new comment on a half-decade old video is amazing and commendable! Thanks for this, helping with my stats course for Uni :)",True
+@ravitan85,2022-12-16T09:37:33Z,2,"""Even if you're not normal, don't worry the average is normal"". That's so deep.",True
+@akrobetoray5694,2022-12-14T16:58:48Z,0,"I am still confused with the term ""sample size"".   e.g. we take out 'n' number of samples and calculate the mean. We repeat it 'k' number of times. Basically we have histogram of 'k' amount of means (distribution with k samples).   So when we say sample size must be greater than 30, is it ""n>30"" or ""k>30""?",True
+@sidalimounib589,2022-12-02T06:49:21Z,10,I have not found a single video that explains this better than you do. Great work + 1 sub,True
+@Bridgelessalex,2022-11-25T23:19:11Z,0,"I have to say that this video poorly explains CLT: 1:37, what is the y axis? In particular you took one sample, obtain the sample mean, and why the y-value corresponding to this sample mean is 2?",True
+@profealexandrasierra,2022-11-25T07:24:46Z,1,I love the music of the intro! So cool! Thanks for this videos ❤,True
+@irwinlxrry,2022-11-20T05:34:14Z,1,i just graduated from pharmacy and started a job that requires knowledge about statistics and your channel helps a lot! thank you!,True
+@tanmaybhayani,2022-11-20T04:24:14Z,0,"Cauchy distribution is used in finance to model the stock market, cos it is 'fat tailed' version of the normal distribution it allows for random big fluctuations that better model the stock market or any other fluctuating asset.",True
+@blessybinnypaul2020,2022-11-14T12:43:15Z,1,BAM! I loved how you explained it :)),True
+@karimazerfaoui3576,2022-11-04T06:41:22Z,1,"Hello, I really liked your method, I would like to know how you did to trace these graphs, and with what software; It would be nice if you made us another video on the graphs of the laws of probability with the software R. since we don’t find much on youtube. THANK YOUUUUU Happy continuation................................................................................",True
+@sophzzz7778,2022-10-31T19:51:10Z,1,"That was very clear, thank you very much :)",True
+@karimazerfaoui3576,2022-10-31T16:25:51Z,1,Very nice method; just tell you a Big Bam  thank you !!!!,True
+@eliontheinternet3298,2022-10-20T02:45:03Z,1,thx!,True
+@adityajaiswal7911,2022-10-14T06:24:25Z,2,The intro song summarizes it all. BAM!!,True
+@mariasmoczynska8937,2022-10-13T20:36:37Z,0,"Hello Josh, I like your explanation of CLT but I have one question. What mean and variance then would be of this normal distribution that emerges after applying CLT?",True
+@amirhosseinrahimi3964,2022-10-13T12:44:25Z,1,loved it!,True
+@sankalpvk18,2022-10-03T15:12:53Z,1,Hands down the best channel on YT to learn statistics. Thanks for sharing your knowledge.,True
+@graceshelda4221,2022-10-02T16:44:33Z,1,great explanation! having fun listening to it as well. thank you!,True
+@humanyoda,2022-09-24T22:28:33Z,0,"The ""content"" underneath the bell curve reminds me of the Elliot Wave Principle. Why is that?",True
+@denniswixon3592,2022-09-20T00:53:06Z,6,"Enjoyed your video very much.  I have been teaching statistics and programming statistical on and off for 50 years and this is one of the best explanations I have seen.   I particularly appreciate your pointing out that a sample size of 30 is not a magic number.   I wish you added that consistency of the data affects the needed sample size for generalization, but it's probably in another lecture.   It's good to see you are reaching so many students. Keep up the good work.",True
+@paulhofmann3798,2022-08-26T13:55:51Z,1,I’ve come across the Cauchy distribution in practice. Electricity prices over time are Cauchy distributed. If u care I’ll look for the pertinent paper by a Princeton PhD student in Warren Powell’s Group.,True
+@lashlarue7924,2022-08-15T09:01:56Z,1,"I think the House Ways and Means Committee needs to rename itself to, ""The House Means of Means are Normally Distributed Committee"".  QUINTUPLE BAM!! ",True
+@ENG.ANONYMOUS,2022-08-10T03:35:03Z,0,Bam here is dislike not helping at all with my quiz,True
+@PastryDonut,2022-07-29T07:12:37Z,0,Took me some time to understand why Central Limit Theorem works on uniform distributions. Also mean and mean's histogram being same height confused the hell out of me 😅,True
+@uday2394,2022-07-19T03:37:37Z,0,How did you know the width of the Histogram?,True
+@shivangisharma2690,2022-07-07T13:47:20Z,1,Brilliant,True
+@Becky71610,2022-07-06T13:07:43Z,9,"I thought I was hopeless with statistics and I was sure I wouldnt pass my college stat exam, but you make it very simple, and you even make me laugh will the songs in the beginning. I cannot thank you enough. I hope god blesses you. Thanks dude.",True
+@enriquemarenco,2022-07-05T21:39:05Z,0,So you are saying that studying the Cauchy Distribution right now is not necessary. It would be meanless. 🤭,True
+@mfp123,2022-07-01T16:50:13Z,1,I literally laughed so hard at the “Who cares?”  I wasn’t expecting to laugh while trying to understand statistics. You’re good..!!👍🏻,True
+@brettmeeder7911,2022-06-29T23:49:03Z,1,BAM!!!!,True
+@preston748159263,2022-06-27T22:56:39Z,0,I do not understand why you must test for normality if the central limit theorum states that the means will be normal anyway. Most analyses are robust to not fail if normality is not met but ofcourse normality makes things easier. This is very confusing.,True
+@arieljiang8198,2022-06-22T06:07:51Z,1,"I can finally remember CLT: even if you are not normal, the average is normal",True
+@sohambhattacharjee951,2022-06-13T09:30:12Z,0,One fun fact : Cauchy distribution doesn't follow CLT.,True
+@kleinerirrer4722,2022-06-01T21:04:09Z,1,"Nice videos! Since you asekd: Maybe you never encountered a distribution without mean in practice, because you eliminate ""outliers"". If you would keep them, you would need a distribution with heavy tails to describe your data. And these can quickly result in not having a well-defined mean.  Or in other words, you may encounter the Cauchy distribution all the time. But since it is difficult to work with, typical methods manipulate the data until you can describe it with a Gaussian.",True
+@rj-nj3uk,2022-05-24T14:30:23Z,0,I always get confused between central limit theorem and the law of large numbers.,True
+@Pedritox0953,2022-05-22T02:04:20Z,1,Awesome explanation,True
+@jaykenarn6223,2022-05-21T14:27:23Z,0,what determines the height of the histogram on the right? I think I got the idea why but I just need a confirmation. I would really appreciate anyone's response.,True
+@danspeed93,2022-05-16T18:01:36Z,1,"I've met folks hoping that we could understand this concept only looking at formulas. I wish your video existed earlier, thank you, never too late to understand!",True
+@Jupiter1423,2022-05-15T03:48:32Z,1,The central limit theorem is perhaps one of the most amazing mathmatical discoveries in history. Most amazingly the mean of the normal is the same.,True
+@EGlobalKnowledge,2022-05-14T20:26:06Z,1,Very well explained,True
+@juliecongress6278,2022-05-13T21:41:54Z,2,The video and source is extremely helpful in understanding concepts.  The visual examples are great and the humor helps demystify difficult topics. Thanks Josh!!  I wouldn't be able to make it through my classes without it!,True
+@chefboyrdee1,2022-05-07T13:32:16Z,0,What about standard deviations? Is there a way to calculate standard deviation in a similar way to calculate mean?   and how does the monte carlo simulations apply in this?   love your vids thank you.,True
+@douglasnadysgoncalves7432,2022-05-06T07:10:34Z,1,"WHAT THE HELL!! I AM IMPRESSED! Well done mate, thank you very much.... In the beginning I was like, what the hek is this song?? and at the end I was like BAM! now I get it... I will probably take this for the rest of my life.",True
+@aswathik4709,2022-05-04T14:27:48Z,0,1:09,True
+@idealmathsdeosir9308,2022-05-02T15:14:33Z,1,Very Nice Sir,True
+@adnanebekkaoui9480,2022-04-13T16:06:43Z,0,"Great video, please one question, does the theorem apply to the use of only mean as a summary statistic or can we do the same exercise using another summary stat let's standard deviation or median?",True
+,2022-04-09T21:00:25Z,0,"An interesting discrete distribution was proposed by my probability teacher in order to tell us about mean-less distributions. He gave us a probability of P(X=k)=6/pi^2/k^2 (the constant is such as a result of the famous Basil problem). The probability is properly defined since it is non-negative and (if k can only be a natural number) all the sum of all probabilities equals one. However, it has no mean since E[X]=6/pi^2*E(1/k) (E is meant to signify discrete summation) which diverges, meaning it is not properly defined. Therefore you wouldn't be able to use the CLT with this one (I find this one cool, tbh)",True
+@Aznswordsman007,2022-04-09T18:12:44Z,1,Awesome!! Great Explain!,True
+@TrungTran-dp3ct,2022-04-06T04:54:01Z,1,This guy is GOD! Thanks a million for all your videos.,True
+@redcat7467,2022-04-01T10:31:00Z,1,"""The rule was meant to be broken"" - damn, we are such gangsters. Almost yakuzas.",True
+@JemRochelle,2022-04-01T05:05:04Z,2,Thank you for this video! The Central Limit Theorem was making my head spin but your video made it finally click! You have gained a subscriber :),True
+@anshulzade6355,2022-03-15T10:58:18Z,1,great way of teaching. Keep it up. The world needs it. Thanks,True
+@santiagodm3483,2022-03-10T22:45:11Z,1,I want you to be my statistics professor :(.,True
+@siddharthmallbishen2115,2022-03-04T05:27:02Z,0,"Although i am beginner in statistics, i don't understand about this topic. But, your presentation is quite interesting. The visual explantion of CLT helps to connect it. If possible, make a video with numerical values so that what is being said become crystal clear, PLEASE!!!",True
+@Lphanova,2022-02-25T00:00:40Z,1,THANK YOU SO MUCH! I have been looking for some videos for a while to finally understand statistics and I would never believe that learning this subject in English (and not in my mother tongue) will help me!,True
+@kenamadeus6530,2022-02-24T04:49:16Z,0,"Hi, I'm a stat student and I'm just wondering if you overlay it with a normal distribution (histogram) and what if the CLT is approximately to the right of the average, not exactly centered to CLT, what does it mean?",True
+@janinepantonial2815,2022-02-11T08:58:47Z,1,This saved me from reading 10 pages. Thank you,True
+@user-th6oi8pg4n,2022-02-01T08:31:05Z,0,мощь,True
+@THEMATT222,2022-01-27T16:08:22Z,1,Noice 👍,True
+@nellatl,2022-01-22T12:46:33Z,0,Can you explain the difference between regression towards the mean and central limit theorem.  Also can u explain why a person who plays the lottery everyday is or is not more likely to hit and or more likely to hit it big the next time they play?,True
+@rohit_katariya,2022-01-19T04:41:22Z,1,BAM!!!,True
+@debatradas9268,2022-01-14T10:37:02Z,1,thank you so much,True
+@Sk_zzy,2022-01-07T03:38:40Z,0,Trying to pass my stats class with Central Limit Theorem but yt wants you to pass with double ads first,True
+@tarangt.8163,2021-12-30T20:55:08Z,0,"When we talk about normalizing the data set, is this the same idea as Central Limit Theorem?",True
+@lexc8714,2021-12-30T07:36:25Z,0,"last time when I was researching on the axis length in myopia, it seems the mean is not normally distributed.",True
+@jianleichen7750,2021-12-28T23:41:54Z,0,"Great video, This question has been bugging me for a while. Since CLT is the core of all AB test, I always wonder what if, instead of getting 20 measurements to get the sample mean, I take 1 measurements, obviously the mean is the measurement itself and the distribution will be the original distribution. When we construct AB test, we run the power test to get the sample size. let's say we need 1000 users to see a X% increase in metric B. Assuming each user is 1 sample, then shouldn't the distribution be the same as the origional distribution?  (I feel like a step is missing here).",True
+@johnlee-dv3cd,2021-12-26T03:28:44Z,1,You awesome!,True
+@younessandi2414,2021-12-22T14:34:39Z,1,"You are creating absolutely amazing content here! Keep moving on, please. I have a question about what you said. If we can use the central limit theorem for statistical tests, why do we have to choose non-parametric tests when data is not normally distributed. After all, we should be able to use the central limit theorem to get a normal distribution and do the parametric test.",True
+@angelfrancisco8128,2021-12-17T03:35:16Z,1,Dude! Your videos are a joy to watch! Thanks for this gift to the world!,True
+@mengdantian3240,2021-12-13T03:36:50Z,1,nice video!,True
+@kusumkumari6894,2021-12-07T15:16:55Z,1,Thank you ❤️🥰 sir,True
+@robertoenriquechavezrodrig731,2021-12-06T21:14:01Z,1,Man this video was amazing! Thank you so much for the tutorial. God bless you bro. Regards from Russia!,True
+@AmazingJayB51,2021-12-01T21:45:28Z,1,Bam 💥 I wish I found this ch. when I started my stat class!,True
+@ABeardedDad,2021-11-25T04:47:58Z,0,"Does the type of distribution (uniform, exponential, etc.) affect the standard deviation of the distribution of means?",True
+@shivanisrivastava1567,2021-11-25T03:20:51Z,1,having exam of data analysis wonderful explanation thank you,True
+@SachinModi9,2021-11-23T07:24:27Z,1,I subscribed! BAMMM!,True
+@nabarcheto7950,2021-11-22T19:34:06Z,1,Absolutely like it! Thank you so much!,True
+@horsthandwerk4796,2021-11-22T04:37:24Z,0,The presentation is really boring although statistics is a very cool subject.,True
+@saianvesh7637,2021-11-18T10:24:14Z,1,Dude you are dope at @5:26,True
+@aliridabahja6365,2021-11-17T22:35:25Z,0,I hope someone can help me with that. Why is a poisson a ghassian when lambda goes to infinity? I read that this is related to the central limit theorem but I can't figure out the relation,True
+@john-oliverengler8672,2021-11-17T08:45:44Z,1,"Hi Josh, the only distribution I can think of that breaks the CLT is the Pareto distribution. It is used frequently in actuarial science and economics.",True
+@marccepeci2980,2021-11-14T04:47:27Z,0,"IF the underlying population distribution is NOT NORMAL, and we have samples less than 30. Let's say the samples are size n = 5. I know the distribution of the sample means will not be normal according to the CLT. However, will they have the same mean as the population mean, and will the variance be equal to the variance of the population divided by 5? Please let me know? thanks?",True
+@mesplin3,2021-11-13T06:30:12Z,0,"Suppose one uses fewer samples when calculating a mean ie instead of 20 or 30, how about 2?",True
+@kevalprajapati5365,2021-11-12T14:41:00Z,4,How can you have dislikes on your videos? I think it is also because of CLT.   BAM!!!!   I became a great fan because of the way you teach the concept. I will never forget the CLT in my life. BAM !!!,True
+@carlosgomezgonzalez4255,2021-11-12T13:55:44Z,0,"I have a doubt, for example if I want to perform an ANOVA using the central limit theorem, I have to take several samples (example 5 samples of n=10 for each factor to study (3 levels of the factor)) and to each one calculate its sample mean and with this information (15 sample means (5 for each level of the factor)) run the ANOVA because I know that these means follow a normal distribution? Unlike if I took only one sample for each level (3 sample means) knowing that each data does not follow a normal distribution only the means. I hope I have been clear with the question :D",True
+@DeepakSadulla,2021-11-11T15:08:07Z,1,I love your content <3,True
+@jeanmrussell4717,2021-11-11T12:04:17Z,0,"I normally do not comment and up to a few years ago I would have agreed totally. However, we never see the Cauchy in real life as I can not think of a way you can draw a sample without knowing the mean. The thing which the Cauchy distribution teaches us instead is BEWARE OUTLIERS. A Cauchy would show up be giving us extraordinarily high or low values for our means in a sample. These of course would be created if we got a random sample all from the tails of the distribution that was Cauchy which has rather large tails which is why it does not have a mean. So outliers are important especially extreme ones e.g. 100 x SD from the mean.",True
+@joelzdepski9884,2021-11-10T14:46:12Z,0,"I used this fact to when I had to make gaussian distributed rv's back in the day when my programming language only supported generating uniforms on [0,1).  The Uniform has mean 0.5 and variance of 1/12.  So if you generate 12 uniforms, and sum them, the new rv has mean of 6, and variance of 1.  Almost there, substract 6 and you have a distribution that looks N(0,1) with no values of |x| > 6sigma which is a .999997 event.  Pretty good in a pinch fora quick and dirty Fortran program back in the day.",True
+@evanslat1783,2021-11-10T01:15:06Z,0,"I, I can't tell if his voice has low energy naturally or if it is intentional",True
+@christopher8220,2021-11-10T01:12:41Z,1,"Are the 'triple-BAMs' normally distributed, or are they simply uniform throughout all SQ vids?!?!",True
+@physicsatroeper974,2021-11-09T19:12:29Z,0,"I am a bit late in posting this, but in case you care: ""Cauchy"" distribution is very important in physics: optics (where it's sometimes called the ""Lorentzian"" distribution) and nuclear/particle physics (where it's sometimes called the ""Breit-Wigner"" distribution).  It describes, for example, the distribution of light frequencies that are emitted by an element in spectroscopy; or the distributions of energy/mass of daughter particles in a nuclear/particle decay.  Probably less important in Biostatistics, I imagine.  I should mention that a Cauchy distribution DOES have a mean, but it does not have a VARIANCE (it's infinite) so physicists use the ""Full-Width-Half-Max"" as a useful variable.  This turns out to be the right variable to use when computing quantum mechanical processes (""Uncertainty"").  Anyway, very nice video!",True
+@mohammedsalih5865,2021-11-07T18:17:18Z,0,Why would a distribution not have a mean? I would think its impossible not to have mean because you just sum the the values of of your sample and divide by  the number in the sample size .,True
+@WolfgangBrehm,2021-11-06T11:03:07Z,0,"The condition is that the distributions have a finite variance, it is not sufficient that they have a mean. The pareto distribution can have a mean, while at the same time having an infinite variance. • Implicitly used in file compression there often are universal integer distributions, the central limit theorem does not apply. • The Students t-distribution naturally arises from sampling and is important if you have very few samples (<8) to describe the deviation of the distribution of the mean from the normal distribution.",True
+@lg2058,2021-11-05T12:54:48Z,1,Great song. Why is it not on Spotify by now.,True
+@corradoforza,2021-11-05T09:18:43Z,0,Very helpful and clear! Because you asked for the generalized Pareto distribution breaks down the CLT: a combination of n extractions from a GPD with equal or different parameters is itself GP-distributed,True
+@MRT-co1sd,2021-11-03T11:17:27Z,0,"Even if I am not Normal the Average is Normal, but I exist whereas the Average maynot exist, therefore I am significant and the average is insignificant in this sense of instantiation for a finite region.",True
+@simongross3122,2021-11-01T00:15:12Z,0,So this is a fascinating fact.  But does anyone know why it is a fact?  What logic gives rise to the CLT?,True
+@Philoreason,2021-10-30T15:35:14Z,1,You didn't explain why.... that's the most important,True
+@AntonFetzer,2021-10-28T22:11:49Z,1,"How do you calculate the standard deviation of the sum of a set of data points that were sampled from a distribution, when the distribution is unknown?",True
+@crustyoldfart,2021-10-28T22:05:03Z,1,"You point out the usefulness as a pedagogic tool of looking at ' examples '.  Well and good, but I personally have found that if you can write a program which SIMULATES what you want to investigate, that's an even better pedagogic tool. As a subroutine in my work on other simulations I found it necessary to have a means of generating normally distributed numbers.  If we use ' n ' pseudo-random numbers having equal probability in a chosen range, drawing them from a built in generator [ available in most higher programming languages ] and ADD these numbers these packets can be used as input for a normal distribution. Depending on the choice of ' n ' we can generate a platykurtic distribution or its opposite a leptokurtic one.  In the physical world we could do the same thing by dropping spheres which fall through a regular lattice of bars, noting how far off the centre each trial ends. As an interesting aside doing the same thing with the pseudo-random generator's output, except this time. MULTIPLYING the separate n numbers, will yield packets which are skewed and simulate a ' log normal ' distribution. I will leave it as an exercise for the reader to simulate a ' rectangular hyperbolic '  distribution. [ x*y = K ]",True
+@SalmanAkhtar1,2021-10-28T16:23:24Z,0,"Binomial distribution of course doesn't have a mean, or the mean is meaningless.",True
+@cdorman11,2021-10-28T13:50:48Z,1,"A Pareto can have an infinite mean.  It's generally used for frequency in simulating losses, e.g., in insurance.",True
+@philippbeer,2021-10-26T21:39:29Z,0,You have an amazing channel. On this video I would like to point out that fat-tailed distributions often don’t have a computable mean or the required sample size is astronomical. Take for example a Pareto distribution. And I also would like to add that from any sample you collect you are able to compute the mean. But that should not lead you to believe that the underlying distribution is Gaussian.,True
+@JCA51698,2021-10-25T15:24:25Z,9,"Right now I’m studying to take the first actuarial exam in probability, and I just discovered your channel. You just earned a new subscriber!",True
+@andrewbetz535,2021-10-24T18:45:11Z,3,This channel is an absolute gem 💎,True
+@fardaddanaeefard8247,2021-10-23T19:15:05Z,1,I wish you were my professor,True
+@ndjarnag,2021-10-21T02:54:30Z,0,Your mom doesnt have a sample mean. TRIPLE BAM!!!,True
+@brazilfootball,2021-10-18T16:13:49Z,0,Why then does the t-test have assumptions of normality?,True
+@kshitijgmatprep6175,2021-10-14T09:16:38Z,0,This is very interesting. Thanks! Could you also make a video about why CLT holds true?,True
+@KK-xd8mi,2021-10-10T16:33:15Z,0,HOT DAMNNN SUCH A GREAT VIDEO!!!!!!!,True
+@Bumkeys,2021-10-08T20:30:38Z,1,It has really helped my understanding of the theory! Thank you.,True
+@sofluzik,2021-10-08T10:08:50Z,1,Such a beautiful ❤️ one ...thanks josh,True
+@War4Skills,2021-10-05T14:33:30Z,1,"Cauchy is this distribution I never see being used in practice, but always shows up in the econometrics book saying: WATCHOUT WE NEVER USE THIS BUT CAUCHY HAS NO FINITE MEAN",True
+@giaiphauchanoanhinhanh4552,2021-09-30T11:21:46Z,1,Thanks so much for your exciting lesson,True
+@ParagSen1988,2021-09-28T06:05:58Z,0,"I think the means from the exponential distribution is not from a single exponential distribution curve because the shape of the curve changes with λ and here we will get different λ values (which will lead to different means) for different sampling.   Anyway, can you please tell how to do the sampling in Exponential Distribution to find out the value of lambda or rate parameter which is usually provided in the question?",True
+@alputkuiyidilli,2021-09-11T20:50:32Z,1,Well... Basically the explanation of nearly every single question in my mind about statistics. Despite reading a whole stats book for healts sciences I have never seen this being mentioned....,True
+@dishantvyas977,2021-09-08T13:24:11Z,17,"I just realized that the entire CLT was encapsulated in the 8s lyrics - ""Even if you're not normal, the average is normal!"" Hats off to you, man... I never imagined an ukulele being used to teach stats!!",True
+@yeyuan8788,2021-09-07T02:28:29Z,0,"Sir, would you please explain a bit more on the assumptions? I heard the sample need to be i.i.d in order to use this",True
+@hallo6231,2021-09-05T18:02:59Z,1,Great Video!,True
+@user-kw3kc5hk8l,2021-08-26T22:08:50Z,0,The next breakthough in math is that the Caushi distribution has a mean under certain circumstances. lol *just a joke,True
+@adrianotalavera9474,2021-08-25T20:28:15Z,1,Your presentations are so funny,True
+@varunnayyar3138,2021-08-19T19:54:01Z,1,Explained better than teachers here at IIT,True
+@marsch000,2021-08-15T07:50:11Z,1,I like the humour,True
+@calinobrocea7502,2021-07-27T20:19:02Z,0,"Thank you for the awesome explanation.  Regarding this topic, I would like to ask you a question that is more machine learning related.  How would this concept apply to a classification problem with, let's say, N features (N >= 10)? As I see it, each feature has its own distribution which you may know or not know.  If I understood correctly you can take each feature and transform its distribution to a normal distribution, but doing that would not change the dataset entirely? And also why does having normally distributed features help you so much? Thank you!",True
+@rahmatdaryono1061,2021-07-10T06:04:40Z,1,great explanation...thank you,True
+@vahegizhlaryan5052,2021-07-09T04:49:24Z,1,Even if you are not normal...the average...is normal!!! The most inspiring thing I have seen😂,True
+@kmishy,2021-07-05T23:44:28Z,1,Jingle was really nice,True
+@RajeshSharma-my5pm,2021-06-23T09:20:21Z,0,B...................A..............................M.....................................................................................,True
+@harikumarthiruniraiselvam6358,2021-06-21T19:18:08Z,0,will central limit theorem work for infinite mean and variance distributions as well (like pareto distribution) ?,True
+@zombieheart8312,2021-06-02T18:41:50Z,0,"I can't draw it using python, is there a code somewhere?",True
+@livingwithlinlin3122,2021-06-02T00:12:59Z,0,"I have a question regarding to the uniform distribution if anyone can help me with. Should all the means be the value of 1.0 since the distribution can be represented by y = 1.0? If that is the case, the histogram for the sample mean of a uniform distribution should be just one bar with X axis value of that constants of 1.0 in this example?",True
+@ImOlla8D,2021-05-26T06:53:46Z,0,"When you calculate the first mean and plot the bar at x approx 0.55, why is it 2 tall on the y-axis?",True
+@wilsonpaul374,2021-05-22T17:24:27Z,0,"Hi Josh , can you tell how can we execute in practice pleaseee",True
+@aaron247,2021-05-21T06:02:00Z,0,hi classmates,True
+@user-mh7do1up2m,2021-05-17T03:00:38Z,1,thanks! It is really helpful.,True
+@lee88882,2021-05-17T00:52:09Z,1,bam bam bam!,True
+@peekaachuuu,2021-05-04T21:09:20Z,1,"I'll sing this to my kids 10 means, 20 means......... 100 means and BAM normally distributed",True
+@msladypmodel,2021-04-28T00:31:27Z,2,"quadruple bam,  thats the end of the video lol",True
+@kirtidevibhardwaj9060,2021-04-25T10:12:42Z,2,Bam 🥳,True
+@abhishekaulakh7202,2021-04-15T10:09:56Z,1,"I hit the like button only when Josh says ""BAM!!""",True
+@user-zj7mm1bx7j,2021-04-14T12:46:03Z,0,Why the sample size must(should) be at least 30? Is there some mathematics rules or reasons? My teacher told me researchers only care about the randomize of the sampling so they didnt think about where 30 came from....,True
+@Underheaven8,2021-04-12T21:43:35Z,0,It's basically about equilibrium. Anything that has an equilibrium has a normal distribution for the deviance from it.,True
+@vasilisastudnikova3110,2021-04-09T22:05:26Z,1,"This is the best video on YouTube! I keep rewatching it once in a while, it's so cool. The song in the begging is how I explain this theorem to people :D",True
+@MrCarburator,2021-04-05T09:02:07Z,0,Statquest you rock. Ps: What is the standard deviation of the   distribution of averages if we sample the average from a uniform distribution? Thank you,True
+@akshaypatel5468,2021-04-03T13:23:41Z,1,You have made life too easy man. Thanks a lot.,True
+@vinaychitturi5183,2021-03-30T15:57:44Z,1,This lecture is beautiful. Thank you sir.,True
+@argon7711,2021-03-25T18:33:55Z,0,WTF,True
+@88skewer,2021-03-25T00:16:00Z,2,"spend 10 mins on your videos and cleared my 10 years doubt, paypal donate just sent, thank  you so much, will watch all of your videos",True
+@VinayAdithya_googler_at_heart,2021-03-17T20:12:14Z,1,"If anyone ever needs it,  here is some python code to visualize the central limit theorem.  Cheers!  import numpy as np import seaborn as sns def central_limit_theorom(n):     sample_means = []     for i in range(n):         p = np.random.rand(6) #random probabilities         p = p/p.sum() # making sure it summates to 1         mean = sum(np.random.choice(6,n,p = p))/n # taking the avg         sample_means.append(mean)     return sns.distplot(sample_means,hist = True)  central_limit_theorom(1000)",True
+@diegowooh96,2021-03-15T04:20:33Z,0,I mean you know what I mean,True
+@amardeepsingh9001,2021-03-03T14:26:40Z,4,You are awesome Josh. I already knew the concept but felt just now ;),True
+@grjesus9979,2021-02-21T23:22:34Z,1,"Easy to explain, hard to proof",True
+@gurdeepsinghbhatia2875,2021-02-10T16:02:07Z,0,"Sir i understand that sample size should be >= 30 , but what about no. of samples ??? What should be the Number Of SAMPLES of each having atleast 30 elements (sample size)",True
+@averyjones2079,2021-02-03T06:33:33Z,7,"""Saturday"" a vivacious tune Josh keep up the music",True
+@yelobean,2021-01-21T12:20:13Z,2,just love your video! thank you. this is so helpful.,True
+@skysummer1586,2021-01-17T22:27:24Z,1,Thanks for explaining stats concepts so nicely!!! Your videos have helped me understand them intuitively and grasp the basics well ❤️ Really appreciate it~,True
+@furkanyb,2021-01-17T06:57:48Z,1,Bam indeed!,True
+@thechickendiet,2021-01-16T13:10:57Z,1,amazing as always!,True
+@ytjhjfghfsghfhfsgh,2021-01-07T13:30:47Z,1,Pareto Distribution have infinite means,True
+@robide4233,2020-12-26T21:47:23Z,1,Bam,True
+@GauravPadawe,2020-12-13T15:04:47Z,0,are the samples chosen with replacement ?,True
+@deborahfranza2925,2020-12-08T22:58:47Z,0,This was awesome! Thank you so much!,True
+@smitshah8074,2020-12-03T08:31:00Z,1,thank you sir,True
+@Ericsicons,2020-12-02T02:56:25Z,1,97X Bam The Future of Rock and Roll,True
+@MrKateBella,2020-11-25T12:50:42Z,1,THANK U JOSH!!!!!!!,True
+@ask4144,2020-11-20T11:19:16Z,1,omg BAM  BAM BAM infinite BAM,True
+@pinkpanther6228,2020-11-15T08:49:34Z,1,what about stock fluctuations for cauchy distributions?,True
+@gautamkumarsingh2384,2020-11-11T18:35:49Z,1,very well explained..AWESOME,True
+@RowenaOlofernes2020,2020-11-09T01:04:22Z,1,You are so good in explaining sir! Thank you so much <3 A new subscriber here.,True
+@nageshalla5852,2020-11-04T15:10:55Z,0,Why means are always normal distributed  any background mathematical Inference for that,True
+@a_12_omprakashchoudhari89,2020-10-22T13:30:50Z,1,Which statement is right? A) No of samples increased this would be more normal distribution B) No of items in each samples increased this will have more normal distribution,True
+@jsbt4926,2020-10-19T21:42:28Z,2,Great,True
+@annali9577,2020-10-18T03:58:03Z,1,you are my savior !!!,True
+@kellyhyland821,2020-10-16T22:44:08Z,1,Thank you!!! My question is—When is it appropriate to use a non parametric test?  I always thought that was when the data was not normally distributed but given CLT that shouldn’t matter.,True
+@abrahamjacob7360,2020-10-15T15:54:56Z,2,"Hey Josh, these are pretty interesting videos. Could you do a video on the Poisson , Geometric and Weibul Distribution and details on its practical implications. More or less on , why do certain 'natural' events follow them. Like Airport arrival time for Poisson",True
+@nicktanner8231,2020-10-08T02:59:17Z,0,"I appreciate your free feedback and time sir! Which if any is the CLT actually saying:   1)  If I took 2 samples , vs 100 and the sizes were the same and averaged the means together, the later is going to be closer to the mu than the former. Thus, as quantity of samples goes up, Pr that mu= E(y bar) gets normally distributed.   2)  the CLM is just about the fact that the sampling distribution of y bars happens to be normally distributed?  are these two ideas related? is the first wrong? am I missing something?",True
+@farsky22,2020-10-04T16:49:12Z,3,"Regards from Brazil, one of my favorites channels! Really didatic",True
+@nickromer114,2020-10-01T20:58:47Z,0,"Keep up the good work, Josh! Now here's a challenge: Nassim Taleb has written a paper about the problems of the central limit Theorem, especially with fat tailed distributions:  http://fooledbyrandomness.com/LargeN.pdf and  https://arxiv.org/pdf/1802.05495 Could you explain this to a layman, please?",True
+@Casimistico,2020-09-29T18:55:05Z,0,"Nice video, but you should also mention Pareto and Zipf distributions arouse from complex systems where independence is not assure",True
+@Anastasia_Beaverhausen,2020-09-27T04:20:25Z,1,BAM!,True
+@akriteepathak5779,2020-09-26T06:30:15Z,1,you are amazing,True
+@miriza2,2020-09-26T03:22:22Z,0,Wondering if you could do one on extreme value and extreme excess analysis 😃,True
+@paulbrown5839,2020-09-24T09:37:41Z,0,"Is this because you are plotting the mean. The nature of the mean/average is that it is in the middle of the numbers that made up the mean. And therefore all the other numbers will be spread around it. The interesting thing is the specific bell shape but not the grouping around the middle. Normal distribution is a property of averaging isn't it? I mean if you took some other stat instead of mean (eg. maximum), and plotted that over many samples ... would you also end up with a normal distribution?",True
+@JoyceSalvadorthewanderer,2020-09-24T02:24:12Z,8,"Your ""Triple Bam!"" encouraged me more to review Stat subject for my FE exam,  thank you wizard! :D",True
+@dixitkhanal8885,2020-09-22T15:24:59Z,2,i wish i had you sooner in life,True
+@hatemmostafa8020,2020-09-19T21:13:25Z,0,"so cool thank you, but i still don't understand when you say 20 or 30 sample from formal distribution you mean 20 or 30 observation or value for individuals??!",True
+@jesusalbertoperezguerrero2560,2020-09-17T15:11:59Z,1,Thank you very much to make statistics interesting and appealing!!!,True
+@mparikh01,2020-09-17T13:10:20Z,1,BAM on! - CLT conquered....Great job explaining!,True
+@nathanx.675,2020-09-16T20:49:53Z,0,"I graduated from college in May and thought it was time to say goodbye to this wonderful channel. I even got a little emotional thinking about the time I've spent here and how much this channel has helped me. I now realized how premature that was [facepalm] and how naive and clueless I was back in May.  As a grad student, I'm back here again for a data science class. I guess life does always find a way to mess with you lmao. Just thought this is pretty funny and wanna share. Anyways, Quest on.",True
+@shudu4683,2020-09-16T12:47:41Z,308,This channel is a treasure.,True
+@taotaotan5671,2020-09-15T02:00:09Z,0,"Yas. Great video again! Thanks Josh.  A quick question: let's say we have a Poisson distribution, the mean of the sample is always going to be positive (giving the nature of Poisson distribution). According to the central limit theorem, the mean will be normally distributed. Now my question is: theoretically speaking, normal distribution allows x belong to negative infinity to positive infinity. But the mean of the sample (generated with Poisson distribution) could never be negative. Are there some conflicts here?  Appreciated it once again!",True
+@jagan1957,2020-09-13T17:15:07Z,0,"Hi Josh,  Thanks for the great explanation. I had come to this video after watching the previous uniform distribution stat quest video. I, however would humbly provide my remarks:  * I feel it might be be great if you can mention that the Uniform distribution that you are depicting is actually the probability density function so that we don't make any implicit assumptions. * After a couple of reads, I could infer that the mean actually depicts that point, which divides the area probability density function into two halves :). * I have one more question, if we have let's say take 20,000 samples per trial and calculate the mean for that trial, isn't it possible that we already narrow down very close to the mean? Thank you!",True
+@radharani-hn5qr,2020-09-05T04:20:28Z,1,Thank you..u made me ..finally understand these complex terms so easily...BAM...😊,True
+@lakshaydulani,2020-09-03T19:41:05Z,0,"So to sum up, the Central theorem is important bcs u can get a normal distribution of mean of a distribution (which can be anything and we need not care); take a reasonable confidence interval and compare it with that of different distribution. If they overlap to a good extent, that means the two different distribution are somewhat the same. m i right?",True
+@sudarshanbandyopadhyay9052,2020-09-02T21:10:47Z,0,"At time 3:34 in the right side histogram for the mean, what is the y axis? If we take the y axis same as the one in the left graph then shouldn’t the lenght of the bar be 1?",True
+@SOUVIK_RAY_,2020-09-01T18:11:50Z,5,Just came across your channel. You explain every concepts with so much simplicity. The examples are spot on and helps to relate the concept with the problem at hand. Great work StatQuest!,True
+@bechirelhosni9646,2020-08-30T23:05:05Z,1,"Hi Sir, thank you very much for the youtube channel. your courses are very helpful. Thank you very very much.",True
+@ajiths1689,2020-08-30T09:48:39Z,0,in this normally distributed curve what x axis and y axis represents,True
+@aadeshtiwari7532,2020-08-23T15:50:22Z,1,Very nice explanation sir,True
+@gayathrikurada3315,2020-08-17T20:33:27Z,0,Josh !!! The opening sentence says it all...You are awesome <3 <3,True
+@hiro6164,2020-08-17T18:32:58Z,0,"by mean you mean average value? this is the first time i see someone use the word mean this way, is it statistics terminology?",True
+@aligerami2111,2020-08-17T06:30:25Z,1,Thank you so much for your great explanation!,True
+@chiragpalan9780,2020-08-15T18:43:07Z,9,"""Even if you are not normal averagre is normal"" CLT",True
+@kismo5621,2020-08-10T15:37:10Z,0,"Amazing video! i have a question. If we can perform parametric tests for every distribution, why the assumptions of those tests include normal distribution of the numeric variable?",True
+@138darkslayer,2020-08-10T05:09:49Z,0,You should make a video about checking from which distributions do the data come from. Which distributions do these data belong to?,True
+@alijassim7015,2020-08-03T19:48:22Z,1,Landau distribution; experimental particle physics... Ionization in thin absorbers .,True
+@ravikiran1284,2020-08-03T05:10:57Z,0,Here if you keep on increasing the number of samples any distribution of sample means will lead to normal distribution is it correct?,True
+@chebedi,2020-08-01T19:54:06Z,720,"If you watch many StatQuest videos, the distribution of BAMs will be approximately normal 😂😂😂😂",True
+@parulbhargava1559,2020-08-01T12:48:01Z,1,BAM ! Learning about Normal Distribution in a quirky style.,True
+@SuperNikio2,2020-07-31T19:50:34Z,1,baaam,True
+@SharingIscaring2022,2020-07-26T15:47:07Z,2,"Its incredibly clear explanation. I just got lucky to find your channel while I was starting to find statistic boring...Thank you so much for your sense of humor and your great ability to explain something in a very simple way, i know it takes a lot of experience and knowledge.",True
+@Adamseekerfan,2020-07-25T07:16:04Z,0,make a course on effective way to make ppt's and how to teach,True
+@kaungwaiphyo882,2020-07-24T06:37:35Z,0,"Hello sir... at 1:29, are they 20 samples or a sample with the size of 20? I am confusing about this in later explanation... please kindly confirm it for me... thanks...",True
+@krlakshmikanth,2020-07-21T08:43:24Z,2,Triple BAM!!! to your explanations 💥,True
+@warwickmackie9230,2020-07-15T11:11:58Z,1,"Love your videos, keep up the good work!",True
+@akashraj.srinivasan,2020-07-14T13:16:09Z,2,"EVEN IF YOU ARE NOT NORMAL, THE AVERAGE IS NORMAL!   BAM!!!",True
+@farouku5334,2020-07-12T13:52:58Z,0,the means are approximately* normally distributed. the approximation becomes more accurate as the sample size (n) increases,True
+@Guru-om6lv,2020-07-06T10:16:09Z,1,Bam!,True
+@yashdoiphode,2020-07-01T12:52:14Z,0,"At 5:58, you've said that we can do t-tests to know if there is a difference between the means from two samples. What did you exactly mean by the term 'sample' here. After reading several comments of yours, I understood that samples basically meant data points at the start of the video.  So here, what exactly do these 2 samples mean? Is it normal distribution of the means of 2 different examples?",True
+@christophersolomon633,2020-06-23T13:54:00Z,288,"Mr Starmer, I am a professional scientist with many years experience in the academic and commercial worlds and I must say that your videos are truly excellent. They really convey the central ideas so well and run that tightrope between too much detail and not enough perfectly. Keep up the excellent work !",True
+@ankitaace5,2020-06-18T15:33:04Z,1,Double Bam!! Listening to his songs and getting to know Statistics same time !,True
+@phoenixnair,2020-06-15T13:04:43Z,2,The BAM! earned my subscription. This is really entertaining.,True
+@danielnakamura6430,2020-06-14T11:46:39Z,0,Can you make a video about markov chain and how to calculate it in R?,True
+@venicetimones4853,2020-06-10T14:37:36Z,2,the BAM!!! gets me every time.,True
+@luminesc,2020-06-06T20:17:26Z,2,It's such a simple and obvious concept but it didn't click in my head until you showed it. Thanks!,True
+@vamsikrishnareddicherla6576,2020-05-27T19:20:57Z,1,Excellent explanation of why it is important,True
+@chiragshetty3231,2020-05-26T06:50:38Z,0,"Even Pareto distribution doesn't have a finite mean, have you come across those in your career in Biostatistics?",True
+@ujjwaltyagi3030,2020-05-24T01:55:22Z,0,I think there might be a TERMINOLOGY ALERT at 1:28. I think what Josh meant was that we can collect 20 'sampling units/elements'  and not 20 'samples'.  We calculated 'ONE' mean from 20 samples at 1:28.  At 1:51 we calculate 10 means from 10 samples. So i guess josh meant 'sampling elements' not 20 'samples' as each sample contains many sampling elements/units.,True
+@dhavalpatel3289,2020-05-19T19:44:23Z,0,would have been better if you actually described what is on the axes of any distribution.,True
+@veenak108,2020-05-19T05:18:26Z,0,Hi Josh..Many thanks for all the awesome videos. Can you give a real world example of where this theorem can be used w.r.t to Machine Learning or Data Science.,True
+@chayapitchas.4722,2020-05-17T02:21:01Z,1,I want you to be my professor,True
+@tmichaelyang,2020-05-02T12:36:04Z,0,"What if the population is completely the same, i.e. no deviation?  The mean of that sample however large will not be normally distributed. Is this correct?",True
+@mateuszdeszcz4243,2020-04-29T14:39:04Z,0,"When you say ""sample"" or ""measurement"" you basically mean here a ""sample element"" or a ""sample point"". Sample is a subset comprised of population elements. I guess that's why your simplified terminology confused people a bit.",True
+@aleensy9670,2020-04-25T21:59:46Z,1,Thanks alot🌸🌸,True
+@MadhuSudhan-nn6bd,2020-04-25T13:03:04Z,1,"wow, I got the answer here.. baammmmmm!!!",True
+@darkmatter4768,2020-04-19T12:49:16Z,1,please make video on beta distribution.,True
+@delcapslock100,2020-04-18T16:12:48Z,1,"Very good video.  I've always thought that one of the failings of statistics courses is that at some point early on they will explain CLT with a kind of reverence, and declare it the most important theorem in the universe,  ...and then never mention it again.  Or at most it will be mentioned in passing in the context of  explaining a much more complex topic like regression  (""...and because of the CLT we can assume the errors are normally distributed..."").   Which leaves guys like me going ""wait...what?""  It's very hard to visualize, imo.   I think in general stats are taught without understanding that no matter how complex the topic, we are always dealing with sampling distributions, not sample distributions, and that results in a huge gap in intuitive understanding.",True
+@muralikrishna9499,2020-04-16T08:21:48Z,16,The central limit theorem does not apply to Pareto distributions since the mean and variance are infinite! Bammm!,True
+@muralikrishna9499,2020-04-16T08:15:00Z,1,Bammmm!,True
+@a_sun5941,2020-04-11T08:12:11Z,1,"so good, so awesome",True
+@ltoco4415,2020-04-07T06:37:10Z,0,"I have understood that even if the population isn't normal the sampling distribution of the sample means would follow a normal distribution and using this we can estimate the mean of population. But I have come across a statement that even if the distribution of population isn't normal we need not worry as Central limit theorem takes care of that, we can easily apply all the concepts of normal distribution. But normality of population and normality of sample means are two different things. And we deal with distribution of sample/population and not with distribution of sample means. So how does central limit theorem help in such scenarios?",True
+@henriqueeidt1765,2020-03-31T21:07:39Z,1,"This guy teaches as if I'm a complete retarded. That's exactly what I needed, thx",True
+@GravityGrid,2020-03-28T20:45:04Z,3,Your 7 min YouTube video was more useful  and clearly explained than my 2 hour lecture. Thank you!,True
+@maysamaskari3925,2020-03-26T08:40:27Z,0,hi josh you teach great can u prepare a course about estimation theory and a course about random process? if u can its very very very .... good.,True
+@monikgupta6687,2020-03-22T05:06:48Z,16,"Cauchy has some practical implications, like decay of radio active material in nuclear fall out, or chemical decomposition of material, where process tends to slow down at the end.",True
+@charlyslgado,2020-03-21T15:18:55Z,5,Why can't all teachers be like you?   Thanks for the amazing content!,True
+@george4746,2020-03-09T06:58:45Z,0,"As a rule of thumb, the sample size should be greater than 30, but how many samples am I supposed to take? I'm having a hard time understanding this. I've seen some books/videos in which the authors say ""you keep sampling until the population exhaust"". Is that so?",True
+@tommcnally3231,2020-03-08T06:00:20Z,5,"My new favourite pastime is listening to Sal Khan say ""Sampling distribution of the sample means"" over and over.  Ps. learning maths from Khan Academy, followed by watching these videos, is a really effective way of learning statistics.",True
+@ah2522,2020-02-24T18:52:52Z,96,"Great video. I do want to point out that the Central Limit Theorem is why statisticians celebrate the Normal Distribution at all, because let's be honest, the normal density function is supremely ugly to look at and near impossible to fuss with. The CLT is one of those ""too good to be true"" laws of the universe, and it is actually more miraculous than this video presents itself.   The most generalized form claims that the sum (not just the mean, which is just the sum divided by a constant) of any random variables will be roughly normally distributed. These random variables don't even need to come from the same distribution. You can sample from a uniform, a beta, a lognormal, an inverse gaussian, and the sum of those 4 values will be normally distributed. (fine print, the variances and means need to be in comparable range otherwise one sample will dominate).   It's also the reason why waiting time starts to become normally distributed, because it is the sum of exponential (which is a gamma distribution, which converges to normal very fast). It is also the reason why most variables in life are normally distributed, because you can usually break them down into sums of smaller categories of unknown distributions.",True
+@RahulGupta-ox7gh,2020-02-14T18:53:52Z,1,What a lucky day an hour before the midterm I saw this video and I understand this so well. WOW_WOW_WOW :D <3,True
+@berargumen2390,2020-01-27T16:49:46Z,1,Im binomial person anyway.,True
+@tharushagimhan1467,2020-01-20T17:49:35Z,1,bam!!!,True
+@statquest,2020-01-15T12:45:58Z,511,"NOTE: Unfortunately I was a little sloppy with my terminology and that the word ""samples"" can mean different things, so let me try to rephrase it. If we collect 20 measurements and calculate the mean, and then do that a bunch of times (collect 20 measurements and calculate a mean), a histogram of those means will be a normal distribution. This suggests that an individual mean, calculated from 20 measurements, is, in and of itself, normally distributed. For example, if we had a uniform distribution and we collected 20 values from it and calculated the mean, then that mean would be normally distributed. We know this because if we repeated the process (collected another 20 values, calculated the mean, and then did that a bunch of times) the histogram of all the means we calculated would be a normal distribution.  ALSO: If you want to play with the central limit theorem, and see it in action, check out this page: https://cltapp.fly.dev/  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@maleehamazhar3910,2020-01-14T15:43:12Z,1,Thanks you,True
+@Dominus_Ryder,2020-01-10T15:20:39Z,0,"StatQuest, I am a little bit confused, is there a minimum number of samples that you need to take when calculating any particular sample mean? It appears that the logic that says that the type of distribution that the samples are acquired from does not matter fails if you were to say... take 100 different single sample means from a uniform distribution. In that case, you would just get back the uniform distribution. Therefore, do you need to take at least 2 samples when calculating the 30 or more sample means when trying to apply the central limit theory?",True
+@kyuhaisen7122,2020-01-05T04:36:43Z,0,"I have a question tho, what is the use of the formulas: the mean (average or μ) the standard deviation (σ) population size sample size (n)",True
+@miguelxvaz,2020-01-02T00:04:24Z,1,"Thank you, you are the goat",True
+@aarshchotalia5316,2019-12-31T19:28:55Z,1,Uniform distribution on the real line. (Just kiddin),True
+@bolurammogor9261,2019-12-22T14:40:10Z,0,"Just a little doubt. In the video at 1.29, you said ""we can collect 20 random samples from the uniform distribution"", do you mean to say that a random sample with 20 observation? If not, then how do you find mean of two different samples?",True
+@sushilchauhan2586,2019-12-22T13:42:41Z,0,why do we need other distribution when we have clt? stat quest can  you pls elaborate,True
+,2019-12-05T01:02:35Z,0,"Doubt for @Statquest, If the Central Limit Theorem is about the distribution of the means, why do we work with only one mean, coming from just one sample?.  In almost all problems of inferential statistics I have seen, we take only the mean of one sample assuming the population is normally-distributed. However, what we can assume as normally-distributed is the distribution of the means (even if the population is not) if we have enough n. So, my doubt is why we can use the CLT when working with only one sample? With the mean of one sample we don´t have yet a distribution of means.",True
+@sanjaykrish8719,2019-11-26T05:16:39Z,0,"Josh one more addition. Its not just the mean which is x1+..xn but anything like x1+x2, x1+x2+x3 approches normal distribution",True
+@nividinsights8190,2019-11-25T19:12:15Z,4,These videos make my day. I'm a Quant Tutor and it really comes in Handy!,True
+@kunalshukla1236,2019-11-25T11:50:58Z,2,Beautifully explained !,True
+@kunalshukla1236,2019-11-25T11:49:08Z,26,"Quadruple Bam !! The distribution of 'the number of times you say ""Bam"" in your videos', in not Normal!",True
+@boohdeema1,2019-11-22T21:18:17Z,2,"Thank you Josh, so awesome explanation for very important theorem !!!!!!!!!!!",True
+@boundedby0384,2019-11-22T19:37:36Z,0,"For the n=30 (or n=20 in your case), are we talking about the number of sample means or the number of samples taken per mean calculation? (ie, does every sample mean require 30/20 random selections from the population, then we calculate a mean, and means taken in such a fashion are normally distributed, or does our sample size requirement per r.v. come from some other outside formula/rule (or not matter much?), and regardless of how many samples-per-mean we just need 30 such sample means to find the normal distribution curve of the sample means in general?)",True
+@globetrotter9731,2019-11-19T15:22:58Z,1,Does this hold true only for Mean? What happens if we consider other central tendencies like Median or Mode?,True
+@whsl7332,2019-11-16T12:19:26Z,0,"Thanks for the video! I have only one doubt: when at 1:30 and 3:15 you say ""we can collect *20 random samples*"", are you meaning ""*20 sampling units randomly sampled*""?",True
+@Menvirio,2019-11-15T06:16:24Z,0,"1:49 What does it mean ""...after we collect ten more samples and we collect ten more means""? I thought there is only one mean out of a sample of ten or more",True
+@namedtodream9895,2019-11-11T15:17:11Z,196,Damn this dude is stellar at making statistics engaging!!,True
+@moli1218,2019-11-08T15:13:58Z,9,Thank you! I love the way you explain the statistics. Much easier to understand with examples. I really hope I can find these videos earlier.  Thank you for all the help.,True
+@pramanay,2019-11-07T06:59:14Z,0,by the way.. can u give some example using dummy data? because i need to explained it to my students,True
+@smithlo4092,2019-11-02T10:09:56Z,0,thanks for the great video.    I do not understand the part that why random sample from exponential distribution at 3:16 always select sample close to the left part of the graph? why it won't randomly select the sample that in between 2.5+ to 10?,True
+@surajthapa4160,2019-11-01T07:27:06Z,14,"Thanks, thanks and lots of thanks... I love your way of explanation BAM!!!. Can you please make videos on the following topics- 1. Bayes for ML, I mean how Bayes helps us to find the best parameter of a model and probability of a prediction. 2. MCMC sampling methods.",True
+@YoulooseMu,2019-11-01T06:37:08Z,6,i luv your classes thank you from brazil!!!,True
+@swapnilchavan7076,2019-11-01T01:43:08Z,2,Amazing explanation.... Lots of love from India😍,True
+@joaocarneroguedes,2019-10-14T10:29:56Z,1,Thanks! Thanks! Thanks! (1000x) I'm loving all your videos!,True
+@ireneylhsiao,2019-10-05T04:41:05Z,1,Bam!,True
+@hakandemir101,2019-10-02T09:12:00Z,2,Thank you very much to provide us the more understandable way of teaching. It is just simple and pure.,True
+@monis142,2019-09-17T09:15:55Z,1,Even if you are not normal the mean is normal. And if you are statquest you are amazing.,True
+@dhananjaykansal8097,2019-09-05T11:57:00Z,1,Lovlyyyyy,True
+@nourelislam8565,2019-08-21T19:14:44Z,0,"Awesome videos  I just wanna ask a question, since there are normal dist. in the means, this indicates that there is a normal dist. in the population not uniform dist? Am I right???",True
+@nalley682,2019-08-17T21:59:51Z,0,"this CLT is such a bizarre concept to me,,so when you say  ur sampling from a unifrom distribution, you're basically taking random numbers from the x axis between 0 and 1. you're doing the same for whatever other distributions, that's y values don't matter to you,, so I'm very confused :(",True
+@johnathancorgan3994,2019-08-10T22:12:28Z,0,The Cauchy distribution comes up in the guise of the ratio of two normally distributed random variables.,True
+@JimmyCheng,2019-08-06T09:58:30Z,3,"reviewing stats for my ml course, found these videos super useful, thanks!",True
+@doubletoned5772,2019-08-01T06:33:52Z,0,"In the StatQuest on normal distribution , you said that CLT is the reason we see normal distribution in nature so often. Is that because what we see around us are the distribution of mean of some unknown underlying distribution(s)? Informative video BTW.",True
+@mhdmedfa,2019-07-31T14:33:46Z,2,AWESOME,True
+@hippopotamus2212,2019-07-29T15:16:03Z,2,you should get tenure,True
+@HarpreetSingh-ke2zk,2019-07-28T03:25:13Z,1,I have seen many animated ways to describe mathematical/probabilistic concepts. But your one is short and simple that can stay in mind.,True
+@Cass_i,2019-07-11T18:16:30Z,7,"I get so enthusuatic when he goes ""BAM"" 🤣🤣🤣",True
+@Cass_i,2019-07-11T18:14:16Z,5,Wow. I can adopt some of your teaching techniques for future classes I may have. You're very good,True
+@the_teemo1,2019-07-09T14:51:26Z,1,"why would you ""collect samples"" from the distribution and not from the population itself? (or are we already assuming that our distribution fits the true population?)",True
+@user-pr4jg3sn2j,2019-07-06T19:01:13Z,1,Bam!!,True
+@nirajabcd,2019-06-20T17:07:03Z,1,Is the mean of bams normally distributed? Just asking :),True
+@ariacube07,2019-06-20T12:08:49Z,1,i am binge watching your videos for my statistics exam. wish me luck.,True
+@camilafloressanhueza7966,2019-06-03T02:17:02Z,2,WOW your videos are the bests in statistic!!! Thank you!!!,True
+@GibranMakyanie,2019-05-16T19:54:14Z,5,"YOOOOO, YOU ARE MY EXAM SAVIOUR!!!! PLEASE KEEP THIS CHANNEL UP AND GOING.   The way you say 'clearly explained' really reflects. Keep up the good work please!!!!!",True
+@haifa6004,2019-05-16T10:16:12Z,16,"GOD BLESS YOU, HONESTLY I WAS LOST. TILL I FOUND THESE VIDEOS. ITS REALLY VALUABLE TO ME. THANK YOU",True
+@imrul66,2019-04-28T07:26:26Z,2,"When I first learned about CLT, this was exactly the intuition that I got. It is one of the most intuitive concept. Yet, at graduate level stat course (from Econ department), they introduce all sorts of asymptotic approach to it and I got lost.  My question to you is, What can be a potential ""practical"" gain in going into the mathematics of asymptotic behavior of CLT?",True
+@pragun1993,2019-04-23T13:06:24Z,2,"When you say 'we can collect 20 random samples from this distribution and calculate the mean of the samples' what do you really mean? Does it mean you have picked up 20 different values in a sample or you have 20 samples each having a a group of values. Additionally, what is the histogram on the right? When you plotted the first mean as a histogram on the right, was it a mean of single sample containing 20 values or mean of means of 20 samples. When you kept adding different samples why did the height vary in histogram? What were those bars representing ? I'm sorry I have not been able to grasp what you're intending to explain.",True
+@antonionmoreira,2019-04-19T21:52:31Z,2,Good job! Please make a video about Law of Large Numbers.,True
+@TheKnrumsey,2019-04-12T02:20:18Z,6,"While I appreciate parts of this video for being clear and easy to understand, it is very wrong in terms of the fine print. Although the *population mean* of a Cauchy distribution is undefined, you can ALWAYS calculate a sample mean. The CLT does rely on having a finite *population mean*, but that's not the important part of the fine print anyways! The part about the sample size is far more important. There are many distributions in real life (such as income for certain groups) which may require far more than 30 samples for the CLT to provide an accurate approximation.",True
+@NikhilSwamiExperimental,2019-04-01T15:53:12Z,1,"this channel is out of normal! but in a +ve way, lol",True
+@MahadirAhmad,2019-03-30T12:01:19Z,0,Hi @StatQuest do you have video for markov chain?,True
+@petemurphy7164,2019-03-30T11:18:58Z,52,"Hi, I just wanted to thank you for the videos, I am doing a degree in statistics at the moment, my general method for learning is to work through what the professor give me (which I find very confusing), then come to your videos to get an easy to understand explanation. You are really helping me out with my degree and I want to say thanks!!!",True
+@vuphamtuanpro,2019-03-29T15:55:47Z,0,"It is another BAM video. May I ask you a silly question? I draw a sample size of 100 people to measure their blood pressure. Afterward, I have calculated a sample mean of 200 +- 10mmHg, 95%CI (198, 202). How can I say that I have 95% confidence that the true population mean of Blood pressure fall between 198 and 202 ? Although Central limit Theorem said that we can calculate the mean and confidence interval or other tests that are able to estimate the sample mean, I can't believe that the aforementioned sample mean (200) can be approximate to the true population mean (normally 120mmHg).",True
+@Luxirio1,2019-03-25T21:20:45Z,0,Thank you and keep up with the amazing work!,True
+@statisticaltheoryandanalys8270,2019-03-15T06:33:10Z,2,Thanks Starmer im benefited from you. Salute you.,True
+@kimmungkim,2019-03-02T19:41:15Z,1,Bam!,True
+@blackpearl2386,2019-03-02T09:48:53Z,24,The first line of this video explained everything.,True
+@manoj238,2019-02-25T19:30:26Z,1,"I always thought Statistics is boring from school, until I found this lecture :)",True
+@greed3107,2019-02-17T12:46:24Z,1,I love your channel,True
+@shkmamun,2019-02-04T00:30:17Z,5,"""After we collect 10 samples.."" should be ""10 times of 20 (or n) samples...""  Am I correct?",True
+@cantkeepitin,2019-01-30T21:44:32Z,0,"I think from strict math view point there are several clear mistakes in the video. There are e.g. many distributions having no mean! E.g. all alpha-stable distributions with alpha<2. And even for a Cauchy distribution, each sample data from the Cauchy will have a mean. It will just not converge as usual, as in  most other cases with the typical SqrtN law. The trap is like this: if we sum up e.g. 1/i for i=1 to any number N, it will be finite, but it will not converge in the limit N approaching infinity. For CLT it is also the other way round, i.e. the approx. is usually only perfect if we would average infinite times.",True
+@sb-hf7tw,2019-01-15T19:59:24Z,1,"Sir, since you're a biostatistician, would you like to make videos about quality control, np, p, c and many other charts, vital statistics and some practicals of these topics using R and excel.",True
+@sb-hf7tw,2019-01-15T17:13:03Z,7,"Sir, my question is that, why there doesn't exist the mean of Cauchy distribution even if it is continuous.",True
+@chetlund4465,2019-01-04T00:50:42Z,1,The best and clearest explanation of the central limit theorem I have ever seen & heard.,True
+@kiranravuri8218,2018-12-30T16:47:55Z,2,Thanks for videos. Very helpful. Please make video on convergence of random variables.,True
+@robhuntington8504,2018-12-05T16:39:48Z,4,"Sorry 2 Qs 1. Just to be 100% clear - When you say at 1:30 ""20 random samples""  you mean a random sample of 20?    2. The labels on Y axis are throwing me off.  For example,  on the uniform distribution how can all values have a probability of 1.0?  My first thought was ""1 means 100% probability of that value occurring""  But they can't all have a 100% probability of occurring.  I'm starting to suspect that 1 is referring to relative probability (even though that's not something I 'm super familiar with).",True
+@keewonlee3787,2018-11-28T23:24:00Z,1,this is double BAM!,True
+@dannylin583,2018-11-23T16:34:28Z,2,Sick theorem,True
+@sudhanvar.vasisht9880,2018-11-22T18:47:03Z,1,"For the people looking for the statement of the Central Limit Theorem here it is: ""CLT states that probability distribution governing Yn(bar) (Mean of Yn) approaches a Normal Distribution as n tends to infinity regardless of the probability distribution governing the independent random variables Yi""  And here is the explanation: Consider n random independent variables Yi = Y1, Y2...Yn with a random probability distribution. With a view of calculating the mean(mu) of this, calculate the sample mean that is Yn(bar). Now as n-->infinity,                              (Yn(bar) - Mu) / (sigma/root of n)  approaches a normal distribution. Furthermore, the mean of the distribution governing Yn(bar) [The right side graph in the video] approaches mu and the standard deviation approaches (sigma/root of n).",True
+@colinhall7481,2018-11-19T15:58:58Z,3,This an amazing lesson Josh. Every student in statistics could benefit from this video alone.,True
+@abalter,2018-11-16T03:54:48Z,26,"Josh--you are an inspiring teacher. Tidbit about distributions that don't follow the CLT. I believe the condition for the CLT to hold is that at least the first and second moments of the distribution are finite. There are many phenomena in nature that are, more or less, modeled by power law distributions (Pareto, Zipf, etc.) or ones with power law tails (Levy). Any distribution with a tail that decays slower than x^(-3) (i.e. x^-a where a<3) will have an infinite variance. If a<2, then the mean is infinite as well. These distributions can't truly model anything physical, but sometimes apply for a meaningful range of values. Therefore one would want to apply the CLT carefully for these cases.",True
+@ShreyaSingh-wj8qd,2018-11-06T17:48:47Z,1,Love your videos and the way you say BAM!!,True
+@nguyentho9467,2018-11-02T10:49:27Z,2,"Dear Sir, May I ask you teach kinds of statistic is often used in researches about epidemiology or public health.",True
+@wenhucao5307,2018-11-01T15:35:37Z,1,"Nice interpretation! As a personal suggestion, would u make a video introducing propensity score and how to do it? Thx a trillion!",True
+@lonzofr,2018-10-25T02:41:15Z,2,CLEARLY EXPLAINED  sorry its stuck in my head,True
+@user-bt2lc5wh7h,2018-10-23T09:01:40Z,3,You have worked in biostatistics for twenty years!Awosome!,True
+@OneOfTheManyJason,2018-10-21T14:33:05Z,1,May I have a Quatruple Bam please?,True
+@uhsay1986,2018-10-17T08:46:52Z,1,BAAAAAAAAAAMMMMMMMMMMMMMMMM  !!!,True
+@kushaltm6325,2018-10-09T17:03:04Z,4,Thanks again Josh. Today my prof taught CLT in the class and as usual  am here to understand what his words actually mean !! :),True
+@herp_derpingson,2018-10-07T14:08:47Z,0,So many memes,True
+@adeelsabir1336,2018-10-01T16:08:48Z,1,"sir you r not good, you are awesome. extremely mind blowing",True
+@dungamathonsi-junior9225,2018-09-30T22:10:19Z,2,BAM!!!,True
+@huseyincelikel7527,2018-09-23T10:56:47Z,41,"When i see your videos two words coming in my mind : ""Bam"", ""Hooray"" 😂",True
+@davidecoldebella8270,2018-09-16T17:15:17Z,103,Wish had discovered you sooner,True
+@redserpent,2018-09-13T03:08:47Z,1,"Dude, amazing job. Khan Academy has nothing on your demonstrations, you make it easy to understand. Well done and thank you.",True
+@kyoosikkim749,2018-09-10T03:30:39Z,2,Amazing job! Thank you!,True
+@vaibhavtyagi1379,2018-09-07T12:14:55Z,1,nice,True
+@pratyushbehere3580,2018-09-06T13:36:20Z,1,Nice,True
+@shikharkhanna5404,2018-09-05T03:10:58Z,92,"Sir, Your way of explaining is beyond Normal in brilliance. Could I request you to please make such enlightening videos on Linear Algebra and other Mathematical concepts in order to interpret the math behind the machine learning algorithms. The academic and text book notation as well as explanations gives me nightmares!",True
+@anushreebhattacharjee2504,2018-09-04T21:56:43Z,2,"Sir, your way of explaining the different concepts about statistics is really beautiful. It helps me a lot to clear my queries. So, Sir I just want to request u  to make a stat quest video on factorial design...",True
+@chyldstudios,2018-09-04T08:33:50Z,8,next video: quadruple bam!!!!,True
+@urjaswitayadav3188,2018-09-04T06:55:36Z,2,Very clear! Thank you.,True
+@tsung-hantsai5610,2018-09-04T05:59:17Z,1,"1:50 to calculate 10 more means, shouldn't we need to collect 200+ samples?",True
+@mayya1284,2018-09-04T05:55:49Z,1,"I thankful for that unlimited effort, you really help me so much. Thanks again, My professor 🎩 🙏🏻",True
+@ezhilarasankandaswamin4339,2018-09-03T23:54:42Z,2,Insteas of reading book it is easy to understand concept to your lecture & vedio. How ever can one book to follow for future references,True
+@MrClevermind,2018-09-03T23:31:36Z,2,"Clearly explained, thanks 🤗🤗",True
+@goryluv,2018-09-03T19:23:42Z,1,Still waiting for a triple bam!,True

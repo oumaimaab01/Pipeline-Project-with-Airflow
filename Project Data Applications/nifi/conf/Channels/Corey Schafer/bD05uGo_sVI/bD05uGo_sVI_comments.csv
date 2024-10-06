@@ -1,0 +1,502 @@
+author,updated_at,like_count,text,public
+@ishansinha1336,2024-05-26T15:06:09Z,0,"So this like, whenever we need a sequential output from called function but not the whole output at once, much like a while loop with a +1.",True
+@Praveshan0710,2024-05-22T12:28:49Z,0,"That memory usage example at the end was perfect, thank you! It really helped me understand this concept.",True
+@code2compass,2024-05-01T20:27:32Z,1,This can be an excellent tool to use for reading huge binary files in chunks,True
+@hanshima_,2024-04-23T00:52:30Z,0,"Amazing, thanks for the content. I really needed to understand this to solve a memory problem and I didn't know it would be that easy.",True
+@mariuspy,2024-04-15T22:19:44Z,0,"Thanks for the tutorial. However the second example gives error in python 3.11, the mem_profile module, and the time.clock attribute are deprecated.",True
+@levonmovsisyan1291,2024-03-14T18:43:18Z,0,"Great i understood most of this, but how do i open a pdf file in chrome?",True
+@omarfessi2761,2024-03-04T23:21:51Z,0,"for those who are watching this video in 2024 xrange is python2 specific and does not exist in python3 (which is equivalent to range in python3), range in python2 does creates a list in memory that's why Corey tried to avoid them by using xrange. Anyway @Corey you are still the best instructor on youtube. Thank you",True
+@Vijay-Yarramsetty,2024-02-08T07:25:26Z,0,who else got here to brush-up their knowledge.  You are one of the youtubers I relied heavily to get a developer job. Thanks Corey!,True
+@danielcrigan1301,2024-02-07T13:05:02Z,0,"Every topic I cover on Python with the other resources, I have to come back to your videos and solidify my knowledge on that! Your videos are great, clear, short and straight to the point! I love it",True
+@LYCkjkj,2023-12-28T13:19:22Z,0,"bro is  the goat, no cap bro goat goat goat goat goat, wildd",True
+@Pangpizza,2023-11-25T10:09:15Z,0,"I just want to say that you Corey blow my mind when it comes to easily understandable explanations. It is so clear, to-the-point, relevant and useful. Keep it up! Donated to you now!",True
+@user-wi6wf2yn4b,2023-11-23T11:54:43Z,0,you are really good in explaning,True
+@zzz_ttt_0091,2023-10-25T08:44:06Z,0,this was perfect ;),True
+@anuraagpandey8316,2023-10-21T09:47:51Z,0,Bhagwan aapka bhala kare!,True
+@Hello_-_-_-_,2023-10-17T20:52:36Z,0,Such great logic and walk through,True
+@dajoma36,2023-09-23T23:48:55Z,0,Awesome video. Thank you much.,True
+@munivoltarc,2023-09-02T07:36:10Z,0,"Hi, you are doing amazing tutorial videos, could you please make a live video on doing a python OOPS kind of project includes any webscraping so that many will learn how to start a big oops project, how to plan ?",True
+@adam.m.rosman,2023-09-01T20:20:01Z,0,so great! corey is such a python wizard he doesn't even have to wrap his print statements in parentheses.,True
+@skdkdmdmsjdjdj2377,2023-08-16T15:18:27Z,0,how are you using print without parentheses,True
+@tech-learner4555,2023-08-09T15:22:49Z,0,No () for print?? Maybe coz of older version?,True
+@zai_kun,2023-08-04T13:10:42Z,0,man.... you are the best,True
+@Aerish369,2023-08-01T11:31:15Z,0,Thank you,True
+@saikumartadi1481,2023-08-01T04:33:15Z,0,Hi sir ! I really found your tutorials very very useful . They are gems . I wish we can see more courses from you. God bless you,True
+@hobojakobo,2023-07-17T00:39:39Z,0,Didn’t realize you could use parentheses in a list comprehension format to create a generator object. Pretty cool.,True
+@ChiefGuest,2023-06-30T13:18:39Z,0,You are the simply the kingmaker ❤,True
+@johnesposito6068,2023-06-23T17:30:58Z,0,wish i could like a video twice,True
+@nasenblick,2023-05-01T07:01:43Z,0,By far the easiest to understand tutorial on generators I‘ve found so far. This is great- thanks much!,True
+@user-hn7qh9tw8g,2023-04-24T13:27:11Z,0,Thank you so much corey sir for this example. lots of love.,True
+@terciary,2023-03-10T09:14:37Z,2,"The xrange of your code is no more suitable for using in such an examples as it had been removed from Python 3, replaced by range",True
+@davidlee588,2023-03-09T19:42:39Z,0,"For those who use Python there, you cannot pass Corey on YouTube!",True
+@eff_gee321,2023-03-02T11:24:59Z,0,great video.,True
+@prodjodotcom,2023-02-16T14:51:32Z,0,Love your accent!! Subscribed because of it.,True
+@foreverdonut,2023-02-14T22:55:19Z,0,Awesome video! You're a great teacher.,True
+@purplecat9942,2023-02-11T17:51:27Z,0,Very good explainations thank you so much :)),True
+@lepidoptera9337,2023-01-04T02:59:24Z,0,"In most cases generators replace loops that are much easier to read and debug. Not a good idea. In many cases they are inferior to built in solutions like string = 1000000*'c' (that is blazing fast, I have filled GBytes of memory in fractions of a second with it on a fast desktop once). Also not a good idea. This is syntactic sugar the belongs in the sugar box and it should stay there. The only real benefit I see is if we want to create a non-trivial iterable object. I had to do that exactly zero times in my entire life.",True
+@FernandoFischer6048,2022-11-21T23:46:36Z,0,This is an amazingly useful video! thanks a lot!,True
+@raylee1969,2022-11-11T19:42:32Z,0,"You said the generator exits after the first yield.  So the values are never generated  What code is required to pull values from the generator?  Also, using these random functions, would the values be random every time you pull a value from the generator?",True
+@diconicabastion5790,2022-11-11T08:13:15Z,2,"Generators don't give you any performance boost at all. The reason is the work still has to be done at some point. It simply holds off doing the work until it is called for.  If you have to search for multiple variables in a list such as if you are looking for the high, low and median of the generator vs a list it will cost you even more work and time.  If you need to access random areas of the data a generator can't do it.  A generator is only good when you have large data sets and you ""don't need to compare the results to one another"".  Another way to look at it is stuff you only need to do one time. Anything you need to go back through that list over and over again a generator is a bad option. Why someone hasn't called you out on this in the last 7 years since you posted this video is beyond me. Well I can guess because most the people looking at videos like this don't know better and the those that do know better have no use for such a video. I only happened upon it because it google recommended it. So I thought I would take a look.",True
+@dirtypeach,2022-11-03T15:08:50Z,0,"Great explanation, and even greater use-case break down. Thanks.",True
+@sagrad8758,2022-10-22T00:40:27Z,0,"Thanks a lot, this video helped me !",True
+@eduardoroque3239,2022-10-13T00:56:30Z,0,"Maybe i am wrong, but a generator and a  generator function are different terms, even in performance sense.",True
+@leesweets4110,2022-10-07T14:03:42Z,0,Can you call specific indexed elements from a generator?  Can you alter the value of an element in a generator?,True
+@Grinwa,2022-09-30T21:06:51Z,0,Oh my goodness thank you so much 💖  Just what I needed i started working on a small project and am a beginner in python,True
+@phamngocangkhoa1394,2022-09-25T11:26:28Z,0,1 sub because the explanation is easy to understand,True
+@fjonesjones2,2022-09-25T03:25:48Z,0,Great video Cory mate.. always use your videos for brushing up my code.... many thanks.. ;-),True
+@ProSimples,2022-09-17T03:34:53Z,0,3 years working with python and I learned it now.,True
+@mengdieji7393,2022-09-06T13:42:59Z,0,"Thanks for the great tutoring! One question, I understand the benefit of generater now, and when should I use list?",True
+@taimeje8535,2022-09-06T11:05:02Z,0,❤❤❤❤❤❤❤❤❤❤,True
+@muralidhar40,2022-07-22T06:42:18Z,0,"Can generator functions yield ""multiple values at  a time""?",True
+@mohdqayyoomkhan2446,2022-07-20T20:33:30Z,0,Nice,True
+@nriezedichisom1676,2022-07-17T09:18:35Z,0,I have gone through this topic many times from other sources and this is the first and only time it made sense. Thank you so much for taking out the time to make this.,True
+@cooleekova,2022-07-14T14:08:13Z,63,6 years later your explanation on generators in Python is still the best on YouTube 💙,True
+@cobain_oficial,2022-07-12T14:34:43Z,0,Ty,True
+@user-qn5by5iv7u,2022-07-09T10:57:25Z,0,2022,True
+@veeek8,2022-06-29T06:38:43Z,0,Very clear explanation thank you,True
+@AJ-et3vf,2022-06-22T00:01:01Z,0,Awesome video! Thank you!,True
+@plmacleod,2022-06-08T09:34:31Z,10,"Thank you, Corey. This (along with data structure) is a game-changer for me in terms of efficiency. I'm surprised why most Python courses don't teach this.",True
+@jermainewilliams4798,2022-06-07T22:09:13Z,0,Thank you,True
+@Radio_Mabuzie,2022-05-31T14:48:59Z,1,"But in the end, don't you have to save all of these yields as a list anyways?",True
+@monkeezorg,2022-05-28T20:15:57Z,0,Great video - explains well the benefits of a generator.,True
+@vishalvashistha,2022-05-21T10:04:51Z,1,"Your explanation is great, but I still don’t understand one point that at the end you need a loop to get the values from generator. So, eventually it will take same amount of memory and time. So, what’s the point of ever making generator? Ofcourse often time, I used list comprehension instead of generator.",True
+@bnutfilloyev,2022-05-18T02:04:23Z,0,Like!,True
+@lukasluggas,2022-05-10T12:39:56Z,1,"@Corey Schafer. Great video! I also like all your other videos and recommend them alot to beginners at our institute I was thinking about the determinstic properties of such a people_generator. I think my question was not answered, therefore I wanted to share my thoughts: Lets assume I wanted to access the fifth dataset from the generator. In the case of a generator having a strictly determinisitc ""blueprint"" like one based on range() or xrange() you would get the exact same result at every repetition (restarting the generator, calling it five times). But in the example case the blueprint itsef is not deterministic (calling some random value), therefore recreating the generator and accessing a certain dataset won't yield the same result. I then found that a generator can't be rewound so you had to save it to memory if it is not strictly deterministic and you want to persist the random value(s), which not to do is the whole point of the generator. I hope this is not too obvious, I just felt that a comment on that was somewhat missing.  Best, Lukas",True
+@anurajms,2022-04-22T12:25:15Z,0,thank you,True
+@abhishek-shrm,2022-04-20T16:40:12Z,1,"Even after 5 years, it's the best explanation :)",True
+@434neta,2022-04-10T10:03:09Z,0,"Awesome content, explained in an easy and clear way. Very clear English. Thank you!!",True
+@skannanji,2022-03-18T03:49:52Z,0,One of the best video I have seen in youtube respective of generator.. Thank you man.,True
+@chtulurr,2022-03-07T01:30:18Z,0,Such a fantastic demonstration,True
+@azmyin,2022-03-04T03:24:06Z,0,"As always, an excellent tutorial. I came to watch this video after getting acquainted with rosbags in Robot Operating System ecosystem. Definitely helped me understand why rosbag api loads saved messages in rosbag as ""generators"" rather than lists. A rosbag can easily exceed Gigabytes (for reference I have a rosbag of 20s duration with 640 x 480 RGB images, 16 bit depth and IMU data that is already 204 Mbytes!). Do you have any plans for starting a C++ tutorial series just like your Python tutorial series?",True
+@DalilaTaleb-isme,2022-03-03T10:20:57Z,0,You are the best ! Thank you very much.,True
+@WesitoxD,2022-03-02T14:58:55Z,0,This was soooo clear. Definitely much better than the Udemy course I am going through :facepalm:,True
+@radaboy5755,2022-02-20T15:11:09Z,0,"You Just blew my mind, can imagine the uses in cp",True
+@zealot4325,2022-02-19T22:43:47Z,0,You are very good in explaining things,True
+@alitaquie7300,2022-01-18T04:23:48Z,0,Probably wouldn't pass CS without you,True
+@praveensingh1744,2022-01-04T07:31:30Z,0,nice POC,True
+@MouradBENKADOUR,2022-01-03T13:12:05Z,0,"""time.clock has been deprecated in Python 3.3 and will be removed from Python 3.8: use time.perf_counter or time.process_time instead""",True
+@bejano,2022-01-01T22:19:23Z,1,"Where can i find memory_usage_psutil() function ? I installed memory_profiler module, but this function is not there. .... Ok, I have found it in your Github files. But the function get_memory_info() doesn't work",True
+@isaiahthomas7015,2021-12-26T19:19:36Z,0,"So, basically, we put people on time. It makes the generators possible. We could use this for underground bases to determine the real population amount on Earth.",True
+@danyalt8221,2021-12-17T08:42:24Z,0,Great Video! Thanks,True
+@matteoarellano5917,2021-12-16T22:32:25Z,0,"Why would you use a generator if you cannot manipulate the data? In a list you can slice, and see the contents etc. but in a generator that functionality is gone, right? Is there any practical uses of generators that you could show us? Thank you for the amazing videos!",True
+@gyangaha109,2021-12-13T15:25:29Z,0,"very informative, thanks man",True
+@JJProductions2012,2021-12-09T17:49:21Z,0,Thank you for this video. So helpful.,True
+@chrisaa100,2021-11-21T06:30:17Z,0,Good explanation  Thank you 🙏,True
+@chairwood,2021-11-18T17:27:31Z,0,how did he do   print next(my_nums)  instead of  print(next(my_nums)),True
+@abdelhafidbenchikh4426,2021-11-04T11:22:42Z,0,I think lists are more effective when we want to retrieve previous values instead of next,True
+@raulpalmaa,2021-10-07T12:52:14Z,0,Great content! My memory was having a hard time dealing with my gigantic lists....,True
+@abhistsingh3309,2021-10-03T10:51:23Z,0,"Generators are really useful when dealing with with very large files saves a lot of memory, time and increases the efficiency of code.",True
+@pedroguerrero4925,2021-09-28T23:39:04Z,0,Great one!,True
+@ramupoonjolai9974,2021-09-28T12:27:40Z,0,"When you retrieve thousands of records from database, where would you store the results? In memory?",True
+@KnowledgeMavens,2021-09-17T22:24:36Z,0,great explanation. ty.,True
+@Jero1020,2021-09-08T13:58:30Z,0,"I feel dumb cause i still don't get the point, at the end when printing the list it takes the same time and memory. :(",True
+@mertyigit4093,2021-09-04T12:50:34Z,0,Most clear and neat explanation! Respect,True
+@Julie9009,2021-08-24T16:08:51Z,2,"@CoreyMS In your second timing test, you are not actually generating anything. The `people = people_generator(1000000)` lines is assigning the generator to the variable `people`. To generate 1,000,000 people, the generator needs to be called 1,000,000 times. In this code, the generator is not even being called once. Either the generator needs to be iterated over, or the `next()` method needs to be called 1,000,000 times, to get all the values from the generator.",True
+@asaf7132,2021-08-18T12:25:46Z,1,"# The Code File import memory_profiler import random import time  names = ['John', 'Corey', 'Adam', 'Steve', 'Rick', 'Thomas'] majors = ['Math', 'Engineering', 'CompSci', 'Arts', 'Business']  print('Memory (Before): ' + str(memory_profiler.memory_usage()) + ' MB' )  def people_list(num_people):     result = []     for i in range(num_people):         person = {                     'id': i,                     'name': random.choice(names),                     'major': random.choice(majors)                 }         result.append(person)     return result  def people_generator(upper_bound):     i = 0     while i < upper_bound:         person = {                     'id': i,                     'name': random.choice(names),                     'major': random.choice(majors)                 }         i += 1         yield person  t1 = time.process_time()  population = 1000000  # the original method  # people = people_list(population)  # Memory (Before): [18.28515625] MB # Memory (After) : [304.97265625] MB # Took 1.5 Seconds  # the generator method  #people_interator = people_generator(population) #for _ in range(population): #    next(people_interator)  # Memory (Before): [18.2890625] MB # Memory (After) : [18.30078125] MB # Took 1.578125 Seconds  # the list comprehension method people_interator = people_generator(population) list(people_interator)  # Memory (Before): [18.2890625] MB # Memory (After) : [18.9140625] MB # Took 1.71875 Seconds  t2 = time.process_time() print('Memory (After) : {} MB'.format(memory_profiler.memory_usage())) print( 'Took {} Seconds'.format(t2-t1))",True
+@sudarsandm,2021-08-14T05:39:29Z,0,And also you practically demonstrated how generators would give great savings on time factor (execution) and memory. You are the best.,True
+@sudarsandm,2021-08-14T05:38:12Z,0,Because of you Corey I was able to get offers for a contract job at Cisco and Google as Python test Automation Engineer. Thank you very much.,True
+@meralmaradia4774,2021-08-05T01:50:17Z,0,Thanks,True
+@AdobadoFantastico,2021-08-03T20:50:16Z,0,fantastic explanation,True
+@sep1ol,2021-08-03T16:28:20Z,0,"damn, what a great video and explanation! thanks!",True
+@bhuneshwarsingh630,2021-08-02T07:37:14Z,0,nicely explain,True
+@samre3006,2021-07-13T01:53:08Z,0,Also very useful to easily implement producer consumer pattern where the consumer will get yielded value from the producer right away without waiting for say 1million records to complete and without bloating the memory. Generators are quite nice.,True
+@1conscience0dimension,2021-06-25T17:15:05Z,0,this video could be improved. I'm not able to do so clear explanations. but I'm sure you can improve it. I put a like anayway because your videos are always better than any others,True
+@avinashthakur80,2021-06-24T18:57:16Z,0,how does it reduce time taken ? It has to do same number of calculations,True
+@mtulow,2021-06-14T18:35:27Z,0,how do you get the time it took to run the program,True
+@vadrif-draco,2021-06-12T18:43:53Z,0,Funny how the sound effect at the end is like Veritasium's and I'm recommended Veritasium videos afterwards,True
+@joaovictorpereirarocha33,2021-06-07T21:46:50Z,0,I never understood why I should use generator but your example was perfect to understand. Thanks!,True
+@amaz404,2021-06-05T22:04:20Z,0,Is it possible to access an item by its index using the generator?,True
+@johnwesley4713,2021-05-31T01:20:58Z,0,"I don’t understand the performance benefit here…it appears that the performance hit is just kicked down the road a bit…presumably the generated values are needed at some point, so ultimately you have to take the hit, right?",True
+@manw3bttcks,2021-05-30T06:17:14Z,0,"time.clock() is obsolete in recent python3, use:  time.perf_counter()",True
+@timokkhan9020,2021-05-28T20:10:18Z,0,Well done for this very clear video. I personally especially liked the comprehension generator. Too bad that you didn’t manage to show the real gain in performance. In your last example you compare something that generates 1 million people versus something that doesn’t! No wonder the later runs faster.,True
+@benterrell9139,2021-05-28T07:44:43Z,0,How to turn python into Haskell,True
+@harish261000,2021-05-24T20:01:00Z,0,it's like calling the function for each item in the list.,True
+@mikolajwojnicki2169,2021-05-23T11:52:21Z,0,"If you change values in the original list before you call ""next()"" on the generator created from it, will the output of the generator change as well?",True
+@JohnWalz97,2021-05-20T14:50:25Z,0,Generators are slower to execute than lists most of the time. The only benefit is the memory usage. Great video but just thought I'd point that out so people aren't confused.,True
+@indrajithlal6160,2021-05-19T06:42:53Z,0,"this was extremely usefull for webscraping as well. so the prgm i made initially would scrape through the site and store all the results in a list and only after getting all the results and returning it i would be able to display it all at once. and as you could imagine this takes a lot of time but with this , i could easily display each result just as the prgm finds it. so thks a lot",True
+@santhoshckumar7367,2021-05-16T06:59:43Z,0,A great tutor indeed. 🙏🙏🙏,True
+@A1rPun,2021-05-12T01:01:00Z,0,7:55 optimizing code with generators inside a video about generators. Noice,True
+@dufreebell,2021-05-10T23:37:17Z,0,First time watching your video. Very useful 👏🏼. Can’t resist from clicking that subscribe button. Well done.,True
+@joba1560,2021-05-07T12:30:10Z,0,shouldn't you have looped through the generator to have a fair comparison?,True
+@akshayawate7239,2021-05-01T15:13:03Z,0,I am watching in 2021! <3,True
+@PachucoDesigns,2021-04-28T23:40:48Z,1,"If a generator object outperforms a list and has additional functionality, is there really ever a reason to just use a list?",True
+@sohamajgaonkar3119,2021-04-27T13:11:04Z,0,awesome dude..... short and complete. u made it super simple. u just got a subscriber.,True
+@mannyc6649,2021-04-22T21:29:05Z,0,"Comparing times in not really that fair though because the generator is not actually doing anything. If we were to loop over people the generator would take slightly longer because it has to call random.choice a bunch of times. Then, of course, in this particular example it would win anyway in the overall timing because in the list we would be looping for a second time.",True
+@ProtonChicken,2021-04-22T19:24:04Z,1,"Is there a way to jump to a specific iteration or index when using a generator? Like if you wanted to get the 100th generated person, but didn't want to loop through the first 99.  Amazing video by the way, very informative.",True
+@tedstyle3798,2021-04-21T05:52:44Z,0,"This is probably the best way to process data when you want to simply manipulate it from a database and back in, right?",True
+@nimphilia,2021-04-18T02:29:49Z,0,this looks like coroutine in lua,True
+@GuyFawkes911,2021-04-17T17:35:13Z,0,"This is nice for big data, but for me I don't think so or could you access element i directly?",True
+@TheThird555,2021-04-15T18:25:53Z,0,"Godzilla  is approaching generator, generator is losing power :))",True
+@AirmanKolberg,2021-04-15T14:27:26Z,3,"“I think it’s a bit more readable,” *still uses .format* lol Good video, though!",True
+@BrianOSheaPlus,2021-04-10T08:06:23Z,3,"This is a great explanation of how to create a generator and why you might want to use one. However, while there is a computational performance improvement with generators, it might not always be quite as good an improvement as this example shows. That's because in the person generator example here, the generator is never used once it is created.  A better comparison would be to iterate over the person generator (or call person.next() on it in a loop) so that the same number of person objects are created in both examples. It should still be faster than the list example because copying data into the list takes time, and memory pressure will force the OS to allocate more memory to the process as the list grows, requiring even more copying each time the list is resized.",True
+@ubw5642,2021-04-09T03:32:47Z,0,"in the early example, if you are using the array literal in the generator function anyways, you are not saving the memory.  but instead if you are just using an i and doing i++, it will indeed do the trick. So, implementation in the generator matters!",True
+,2021-04-08T09:29:08Z,0,"You didn't actually show the execution time difference, only memory.",True
+,2021-04-08T09:21:48Z,0,Coroutines,True
+@nabilnabil1824,2021-04-08T03:46:45Z,0,"thanks a lot , Corey",True
+@dipsylogic1715,2021-04-04T18:00:23Z,0,I cannot believe how much quicker the generator was...,True
+@caleba.robinson8451,2021-03-30T15:52:38Z,0,"Awesome video! I really appreciate that I not only know how to use generators now, but also have some ideas for use-cases because of the advantages you explained.",True
+@deViant14,2021-03-29T13:01:08Z,0,I like: print(i^2) for i in range(5),True
+@stevenan93,2021-03-27T12:22:32Z,0,"is it possible to quickly ask the generator to process say the ""200th element"" of a generator object and retrieve the result? or do I have to request a value from the generator 200 times in a loop?",True
+@chborger185,2021-03-27T11:26:20Z,0,oDEAR a ONION-check? listenONaAUTOcompleteVISUALdesignerGUI it's 2021 MR.SPOK wait for a MIT puzzle TOOL to listen DEBUGvar`s in REALtime or? MR. ENTERprice what`s a OO or what`s a 00 . thx oe5RDS 77.5Khz [({now with a ³²1 UNICODE KEYboard ;),True
+@saiakhil4751,2021-03-25T06:37:19Z,0,I've been searching for reliable sources to learn python. I came across Corey Schafer and never left since then. Corey schafer stan,True
+@Somalitraveli1,2021-03-25T01:38:19Z,0,"5:47 my_nums = (x*x for x in [1,2,3,4,5]) print (list(my_nums))",True
+@shellygao2469,2021-03-22T16:25:34Z,0,"Advantages of generator: 1.  readable 2. boost performance (execution time, memory) 3. don't lose advantage of list comprehension (change bracket to paranthesis)",True
+@siddharthasharma9316,2021-03-19T17:49:28Z,0,"hi Corey, everything is fine  but at last, I got an error ""ModuleNotFoundError: No module named 'mem_profile'"", I got this while I using   ""import mem_profile""  ... I would appreciate it if you help me regarding this.",True
+@jonoisedev,2021-03-18T08:38:39Z,2,I really enjoy spending my nights learning Python with Corey!,True
+@imherovirat,2021-03-14T04:23:35Z,0,Hey Corey Can you please explain me physics and chemistry? Looks like you are the only one who can explain me the things.,True
+@arjuns8391,2021-03-04T10:40:07Z,0,print next(my_nums)   Syntax  error.. ?? Please help,True
+@iotax5,2021-03-01T20:14:38Z,0,"If you are reading data from a file, each read of that data takes time. Same with querying a database.  For a million rows of data, wouldn't it be faster to read them all into memory before doing the computations rather than reading them line by line?  Or would you use a generator to say, read 20,000 lines at a time?",True
+@tincho15neem,2021-02-27T06:12:05Z,0,this seems to be lazy evaluation,True
+@carolynsaund5111,2021-02-23T10:23:34Z,10,"I never knew I needed Matthew McConaughey to teach me how to use generator objects but I did. Thanks pal, great vid.",True
+@tenzinlee6393,2021-02-12T20:26:04Z,0,"In your final example it took 1.2 seconds with the list function and basically 0 time with the generator. Wouldn't your program still have to spend 1.2 seconds later on as you are calling on the generator?--each item taking 1.2s/1,000,000? If you actually need all the values, it would save memory but not time unless I'm missing something.",True
+@darsanprakash27,2021-02-06T16:15:29Z,0,"To the person who is reading this, you are precious and valuable even if you don't feel so. Jesus loves you ❤ He paid a price on the cross for you. He rose again on the third day and defeated death. He took the punishment in our place. He did this out of his inconceivable love for us. He can revive your situation no matter how messed up it is. Don't end your life at any point. There is hope in Jesus. He is able to deliver you from sins. He is able to take away your depression, loneliness and suicidal thoughts etc., He is able to heal your sickness and disease. You just have to humble yourself and call out to him ""wholeheartedly"" and he will answer you. He set me free from porn addiction and masturbation in 2018 which I struggled with for almost 10 years. I was close to death three times and he saved me. He changed my lustful heart. He can transform your life if you let him. You just have to repent from your sins and transfer your trust from yourself to Jesus. He will give you the peace which surpasses all understanding, even in the midst of trials and tribulations. Fear won't grip you anymore because you will receive the assurance of eternal life when you believe in Jesus. He is the only way to heaven. He paid our fine by shedding his sinless blood for our sins. Our good works cannot get us to heaven. Those are like a bribe to the judge of the universe. This is a very serious thing. We never know when our last minute on earth is. It could be any second, hour or day from now and if we don't have forgiveness for our sins, we will end up in Hell. We cannot take our money, riches or fame with us when we die. We have to give an account of our life to God. We only have chance till we are alive on this earth. Please think about this. Don't let pride stop you from knowing the truth. I was prideful before and rebelled against the living God and forsook the truth just because I didn't want to lose. Humble yourself and call on to Jesus from wherever you are and ask him ""sincerely"" if all these things are true and he will reveal it to you. He will open your heart to the truth. You can experience him personally if you try it. You won't lose anything. Jesus is coming soon. If we have not repented from our sins and turned to him, we will end up in hell. This is not a religion. This is a relationship with God. I am telling all this because I care for you. Even though I don't know you personally, I know that your soul is extremely precious to God. The reason I am posting it here is because we never know when our last moments are. It could be anytime from now and I don't want you to end up in hell. Jesus is the only one who can save you from your sins and grant you everlasting life, after life on earth ends. May Jesus reveal himself to you. God bless you. Take care.",True
+@klarnorbert,2021-02-02T17:33:24Z,0,"First example isn't very good, you could just use list comprehension.",True
+@siddharthpunmiya2744,2021-01-22T16:34:31Z,0,Is there any difference between xrange  and range which he used at the end of the video to show advantage of generators,True
+@jeffrey8154,2021-01-18T03:47:46Z,1,"Hey Corey, Can you do my and I believe all your viewers a favour? That is to add the python version number used in the video to all your old titles, but also add that to your new one. I am going over your videos and this one for instance is from 2015, and certain things may have changed from version to version, and being a new learner, that could be a bit confusing. I will put this request to other YouTubers as this will help the community in general.   Sidenote: i am aware it is version 3.x, just not sure which one.",True
+@altunbikubra,2021-01-06T06:32:32Z,0,"Just yesterday I have failed on a problem in Python because it takes too long to produce a result. Now  I see why. I will re-write my program with the generators, but honest thanks to you for making this topic very understandable.",True
+@mytube5182,2021-01-05T16:14:10Z,0,Plz help me.  iterator and generator object seems doing same? Why,True
+@urielfaier,2021-01-05T09:50:58Z,0,thank you ! very clear explanation,True
+@yoyocr2034,2020-12-30T09:48:07Z,0,hands down this is the best python channel in youtube,True
+@563spaceman,2020-12-22T19:25:52Z,0,"How come we don't need the ""next"" when using a for loop, is it just somehow understood because it's a for loop or what's happening",True
+@DragonRazor9283,2020-12-22T13:59:51Z,0,Thank you!!,True
+@pythusiast4701,2020-12-22T03:22:21Z,0,You are awesome man!,True
+@onlyAerik,2020-12-22T02:59:23Z,0,"You may want to create some errata in your video descriptions and some cards over your videos...  xrange no longer exists as of python 3, and we're at python 3.9, Corey!  xrange from version 2 is the range of verion 3  range from version 2 is eliminated.",True
+@yashjoshi3820,2020-12-19T08:14:27Z,0,"At 2:34 when the I type the code print next(my_nums) in pycharm it gives me ""invalid syntax"" error. Anybody has a solution please reply.",True
+@theartofmountaingoating184,2020-12-18T06:13:54Z,0,Your explanation was clear and on point. Thank you sir,True
+@mayurgupta4004,2020-12-16T08:29:07Z,0,"how can i use generator to get me the first  and last value of  values present in generator comprehension:exif i would use list:l=[1,2,3,,4] and i want first and last value i can use index i.e. l[0] and l[len-1] but same thing if i want to use with generator gen=(x for x in range(6)) than i need to loop through it to get all the values.But if i want to acces first and last value only from generator i.e. i want gen[0] and gen[-1] than what i can do to get it with gen function ?",True
+@koreanbroadcastarchive306,2020-12-16T07:27:45Z,0,This is incredibly helpful. Thank you!,True
+@sumayyakamal8857,2020-12-13T05:45:06Z,0,"great vid! But when you loop through a generator as to get all the next values, it takes almost the same time and memory as for a list, right? THANK YOU",True
+@jeanlouisBarre,2020-12-11T20:08:11Z,0,In order to run this with python 3.8 and above you need to modify : t1 = time.process_time()    # (as well as t2)     since the function time.clock() has been removed mem = process.memory_info()[0] / float(2 ** 20)     #  since .get_memory_info()  gives error,True
+@keerthanaramakrishnan5974,2020-12-11T15:39:28Z,0,Where is the print statement to print the memory (before),True
+@dunuth,2020-12-04T21:20:09Z,1,"5 years later, this is still one of the best tutorials around",True
+@srinivasreddydanda1777,2020-12-04T07:05:54Z,0,Perfect explanation with time and space consumption. Thanks!!,True
+@victorbotez7817,2020-12-03T22:41:22Z,0,Can't use mem_profile module maybe it is obsolete,True
+@mohammadmoaddi2268,2020-12-02T22:37:04Z,0,Generator is basically O(N) Memory but actually O(1),True
+@wexwexexort,2020-11-27T18:04:10Z,0,great explanation.,True
+@RameenFallschirmjager,2020-11-24T21:20:50Z,0,You've been out for two month dude! Please produce new videos!,True
+@carpediem73,2020-11-19T20:36:41Z,0,thanks,True
+@andreapartenope2660,2020-11-06T22:11:01Z,0,fantastic tutorial,True
+@umavyshnavik4008,2020-10-22T07:59:39Z,0,Could u please tell the difference between iterators and generators???,True
+@suryaks9475,2020-10-21T17:45:20Z,0,"Hey guys, i have a doubt , if it is storing one piece of data at a time ,whenever we call it ,it computes and returns the value , but you are using a for loop to get the values from the generator object and at that time you are getting all the values at once how does that work",True
+@khaledadrani3184,2020-10-20T17:34:10Z,0,"Thank you, a very clear and helpful tutorial! I finally got a grasp on the generators and yield stuff!",True
+@binod1990,2020-10-16T18:33:14Z,0,What is the equivalent of mem_profile in Python > 3.6?,True
+@philipdimeski5188,2020-10-16T05:47:34Z,0,"Great explanation, thank you",True
+@dryanwarrener,2020-10-12T20:30:22Z,1,You explain it very well. Better than my teacher actually! I'm starting to feel like university is a waste of money xD,True
+@benfield1866,2020-10-11T00:12:31Z,0,This would have take my uni lecturer an hour to explain and it would have made one quarter as much sense.,True
+@Choko4343,2020-10-07T14:41:50Z,0,"Damn, that's a really good guide man, thanks",True
+@sanjujoseph8641,2020-10-02T01:54:22Z,1,Wow,True
+@OlympusPT,2020-09-30T20:50:19Z,0,"Thanks for another great video. As a side note, time.clock() was removed in Python 3.8.",True
+@quentinli5802,2020-09-26T03:29:39Z,0,thx man,True
+@steveneven9408,2020-09-20T13:31:28Z,0,"@Correy Schafer, is it possible to provide the code on your git-hub for python 3??",True
+@prasojojiwandono6189,2020-09-20T04:03:11Z,0,"Wow, it can save so much memory, thank you",True
+@heyrmi,2020-09-19T06:29:17Z,1,"even after 5 years, this is so relevant and clear. thanks!",True
+@lovepython8493,2020-09-04T03:28:32Z,0,for python and django videos contact me@ ilovepythonn@gmail.com,True
+@amatya.rakshasa,2020-08-31T05:41:35Z,0,Man.. you're an EXCELLENT teacher. Thank you!,True
+@learntocode5464,2020-08-30T11:00:23Z,0,"Thanks, pretty explain",True
+@writtiknath2226,2020-08-29T14:21:11Z,0,"Very important. Thank you, well explained 🔥",True
+@RameenFallschirmjager,2020-08-29T08:20:01Z,0,Best explanation ever! You explain things beautifully and elegantly! The quality of this channel is superb and I learnt and learning a lot from you sir!,True
+@thesupercoach,2020-08-25T11:44:05Z,0,"This should be a two minute video. If you're using massive data sets (at least 100k lines or more), use a generator or a fuckton of RAM. Otherwise, don't bother.",True
+@mohammadjunaidmansoori9879,2020-08-20T18:39:59Z,0,Very comprehensive and understandable video on generators. Good teaching though @Corey Schafer,True
+@NewsSphereNetwork,2020-08-18T14:52:22Z,0,Helps a lot thank you,True
+@Andy1311100,2020-08-18T02:34:15Z,0,"I'm very confused. A generator generates a different thing (not a list). How come you can compare these two approaches? In other words, how to use a generator if I want to use a list?",True
+@markistheone947,2020-08-16T14:58:29Z,0,"If you are pulling your hair out on how he's using Print ""something"" as oppose to Print(""something""), he is using Python 2.x in this tutorial, that's why some libs don't work, just watch and understand it.",True
+@Terence818,2020-08-08T19:18:32Z,1,"Very interesting! In the peoople_generator(1000000) example, what will be the memory usage and execution time if I iterate over the entire generator (i.e., for p in people: pass)?",True
+@sarathy319,2020-08-01T14:58:41Z,0,May i know the current interpreter version used here .coz the code (mem_profile.memory_usage_psutil()) doesnt work in my python 3.7...Could you help to redefine for this version .Thanks in advance,True
+@3ub7777,2020-07-27T14:56:48Z,0,Thanks! I am just wondering how to unpack a generator yield.,True
+@michaelmurphy6687,2020-07-27T04:06:41Z,0,pls tel me how you comment out multiple lines at once. i need this in my life,True
+@timofejmazniov8529,2020-07-21T14:11:08Z,0,Turns out I had used generators even before I found out they actually exist.,True
+@friendlychannel100,2020-07-20T08:43:15Z,0,simply perfect,True
+@DEBBAH1907,2020-07-20T00:22:55Z,0,"Your profiling example was wrong, you didn't really iterate through elements in the generator. of course, it's not gonna take any time... it's not a fair comparison. instead of turning it into a list you should have compared list version vs. iterating over the generator.",True
+@lukab96,2020-07-19T19:01:46Z,0,Very clear. Thanks!,True
+@aragonnetje,2020-07-16T15:25:05Z,0,"another advantage is lazy evaluation. say you're looping over a bunch of data to find the first item matching a condition. a list would have to be calculated entirely beforehand, while a generator only calculates the entries you ask it to. so you'll never have a situation where you process a million entries and find out that the third entry would have matched.",True
+@skhasiburrahaman684,2020-07-16T10:34:54Z,0,"If possible solve this Magic constant generator: Write the function definition for the generator named 'generator_Magic', which takes a single parameter 'n1'. Define the above Generator such that it should yield the Magic constant (s) for the values starting from 3 to 'n1'.",True
+@CodHumors,2020-07-15T13:56:36Z,1,"Huh, so yield is like calling multithread",True
+@shivarammuthukumaraswamy7164,2020-07-15T07:29:27Z,0,You are da best.,True
+@lostintheshadows482,2020-07-15T06:03:54Z,0,We want mocking course☺️,True
+@hobby_coding,2020-07-11T21:32:57Z,0,can you make a data scraping tutorial ?,True
+@hobby_coding,2020-07-11T21:31:40Z,0,i didn't check all python tutorial in youtube yet but i think this is best one - please keep the good work so many ppl are learning from you -,True
+@justingolden21,2020-07-11T19:24:17Z,0,"While python has no hasNext function, the python next function takes in a second argument as a default value, so you can give it a second parameter of None and check if the function returned None to see if the generator has any more values left (but of course then you can't have None in your list). https://stackoverflow.com/q/1966591",True
+@georgesngandeu9115,2020-07-09T10:00:35Z,1,"Believe me or not, you are a python  god programmer and teacher. I am speechless, too Good.",True
+@imagenigraphics,2020-06-27T19:15:39Z,0,Are you using python 2?,True
+@gabbiparsons438,2020-06-19T21:27:18Z,0,I really appreciate both the way you explain things and your slight Southern accent. It makes it a lot easier for a Georgia girl to understand. Thank you!,True
+@Kralnor,2020-06-13T22:17:09Z,1,"Excellent explanation of generators. I've been using Python on and off for a while, but I never looked into them. Your example where you used list comprehension as a generator expression was particularly insightful.",True
+@saitrinathdubba,2020-06-06T06:38:03Z,1,Fantastic !!!,True
+@arijitghosh6378,2020-06-04T09:44:05Z,0,How to do the memory profiling in Python 3?,True
+@imherovirat,2020-05-30T10:10:19Z,1,This is awesome. I generally don't comment but this video is whole next level. Before watching this video i had a lot of quires in my mind about the generators. But now I think i am clear about it. Thanks Corey for this wonderful explanation. Probably the best explanation till now !!! Love from Nepal ♥,True
+@joshiravishankar,2020-05-29T07:54:30Z,3,"Not only about this video, but about any & all of your videos, they are to the point and designed to grasp at a steady pace. Doesn't overflow at any time. I come here time to time to revisit the concepts when I can't recall anything, because you have explained them so well that, we can understand them from scratch in no time. Best python tutorials on the net and better than any paid one too. Thank you again :)",True
+@ajscx,2020-05-27T20:01:57Z,0,what is the shortcut for commenting and uncommenting?,True
+@isitabhoye4081,2020-05-18T06:56:14Z,0,That's a great video.  covering  all the points.  👍👍 What is xrange? I heard of range() only. Does they both are same?,True
+@zbigniewbrzezinski8869,2020-05-17T11:33:26Z,1,Thank you for this  short and instructive video.,True
+@egehurturk6209,2020-05-08T10:02:09Z,1,"Wow, amazing video and amazing introduction to generators. Thank you!",True
+@Platipus23,2020-05-08T00:39:48Z,7,I can't even put into words how much I love this channel.,True
+@ibnbattuta1304,2020-05-03T22:10:42Z,0,"The generator uses much less memory in the last example. I printed the entries right before the t2 calls: for i in people: 	print(i) I got results like these for list and generator, respectively: Memory (After) : [286.87109375]Mb Took 106.2227243 Seconds Memory (After) : [15.3125]Mb Took 116.1532618 Seconds The generator was a little slower, but consumed far less memory. Windows Task Manager reported similar memory usage.",True
+@forthechanger,2020-05-03T08:44:27Z,0,"Hey Corey, why do you use xrange instead of range?",True
+@andreaaimar246,2020-04-29T10:38:15Z,0,"To me, Print(next(my_nums)) works instead of print next(my_nums)",True
+@halitekmekci8304,2020-04-28T10:20:02Z,0,well explained thanks for narrative.,True
+@parkerbelholland1037,2020-04-23T13:14:31Z,0,"Old vid, but I JUST started Python 3 about 6 months ago and had never even heard of generators, so thanks for continuing my Python journey.  I have plenty of coding experience, so I'd love to know what other esoteric info/concepts are worth learning in the esoteric Python world.",True
+@sagarshrestha5453,2020-04-21T13:16:11Z,1,What is shortcut key for commenting out all line,True
+@egehurturk6209,2020-04-13T12:02:08Z,0,"I know the syntax or any kind of info about these generators but can't determine where to use them.  Where do you usually use the generators? I mean, for what?",True
+@avivran1198,2020-04-09T14:45:54Z,3,"Hi there. Thanks for the video.  Unless I miss something, the comparison as for execution time (which appears by the video end) seems to be wrong. What should be done to REALLY compare the 2 mechanisms is after triggering the generator (which was merely done)  you should be calling the generator 1 million time and see how long does it take. The current comparison seems to be wrong.   My understanding is that generator is an important took only when the logic is about to load/generates a huge amount of data, then this is a great mechanism to manage the memory consumption more efficiently as it is done repeatedly on small chunks of data but I suspect that it would take much more time as each call to the generator goes thru the calls-stack.   Having said that, it makes sense to me as: (1) it conforms to the known paradigm of memory/execution time tradeoff that software always has to deal with (2) when we process a lot of data the issue isn't time (as it will always consume a lot of time), it is always about  efficient memory usage   if I did miss something, please make your comment(s). Thanks!",True
+@atharhussain6534,2020-04-09T08:41:04Z,0,How to masters algorithms in python ?  Please make a video on analysis and design of algorithms in python,True
+@nano7586,2020-04-07T02:10:52Z,0,"What I don't understand with generators.. let's say you want to get the maximum value of a generator.. it would then require to next() all values to know what values are present in the first place, right? So that's a disadvantage.. it only saves memory before actually working with the list?",True
+@carmenselva6222,2020-04-07T01:42:25Z,1,"How do you access to one element of the list generated by the generator without looping again one element over the other? For instane, to call one single element in the second position.",True
+@howardroth7524,2020-04-06T00:23:42Z,1,"I can see that if you have a large list that causes your O/S to page then using the generator instead would be valuable in terms of optimizing processing speed.  My take is that this is something needed for big data.  Anyhow,  nice well thought out demonstration and it makes me want to explore the use of generators in python, which I have never used before.",True
+@korolevdenize,2020-04-04T22:47:27Z,0,"Very nice explanation.  Here is Python3 refactored code of this video: import random import time import os import memory_profiler  os.system('clear')  names = ['John', 'Corey', 'Adam', 'Steve', 'Rick', 'Thomas'] majors = ['Math', 'Engineering', 'CompSci', 'Arts', 'Business']  memory_consumption = int(memory_profiler.memory_usage()[0]) print(f'Memory usage before: {memory_consumption} Mb')   def people_list(num_people):     result = list()     for i in range(num_people):         person = {             'id': i,             'name': random.choice(names),             'major': random.choice(majors),         }         result.append(person)     return result      def people_generator(num_people):     for i in range(num_people):         person = {             'id': i,             'name': random.choice(names),             'major': random.choice(majors),         }     yield person   # t1 = time.process_time() # people = people_list(1_000_000) # t2 = time.process_time()  t1 = time.process_time() people = people_generator(1_000_000) t2 = time.process_time()  memory_consumption = int(memory_profiler.memory_usage()[0]) print(f'Memory usage after: {memory_consumption} Mb') print(f'Time to execute: {t2-t1} sec')",True
+@gloryness,2020-04-03T13:52:42Z,2,"yes im the 8,400th like gib me cookie pls",True
+@kurtstephens9409,2020-04-02T23:18:00Z,0,3:43 - Actually the for loop knows when to stop because that happens ;),True
+@abhinavbanisetti956,2020-03-29T18:30:40Z,0,"Can we think of Generators,kind of as a ""list_Iterator""?",True
+@jaydave29990,2020-03-29T16:51:59Z,0,"Excellent example and explanation, Corey. Loved it!",True
+@k.chriscaldwell4141,2020-03-29T15:04:22Z,0,"Generators can also be ""primed,"" like a pump. That is, fed starting values, etc. that are then referenced each ""next"" call.  def g_Gen(v_Num): ## Init and start     x = yield ## First ""next""     while True:         x = yield x * v_Num ## And onwards      go_Gen4 = g_Gen(4) ## Prime the gen. with 4     next(go_Gen4) ## Start the primed gen.     # Use It #     print(""7:{}"".format(go_Gen4.send(7))) ## >> 28     print(""8:{}"".format(go_Gen4.send(8))) ## >> 32",True
+@mehul6214,2020-03-28T17:59:28Z,0,i dont understand why it is waiting for next result what is it not printing just when we provide print(my_nums) for the first time.,True
+@wishurdead444,2020-03-28T17:37:06Z,1,He knows how to teach. Keep up the good work,True
+@nivu007,2020-03-28T05:08:25Z,0,"In the List case, its storing all values in the memory, cuz you are sending a list to the square_number function. Instead of that, if the square_number function takes a single element and returns the square of it, whould that fix the issue? Like below   def square_number(ele):   return ele*ele   for i in [1,2,3,4]:   print(square_number(i))   How is generator better than the above code?",True
+@TheBodybuildingG,2020-03-25T15:02:56Z,1,"Hy , quick question .How does he uses the print function without the ( ) ?! tks",True
+@hubertcombomarketing2693,2020-03-11T07:55:03Z,1,Another great tutorial. Thank You.,True
+@olehigorovich474,2020-03-11T07:45:02Z,1,"Priceless tutorial. Thank you, Corey.",True
+@ukaszwaligorski2244,2020-03-11T06:24:43Z,0,Are Generators unique to Python or other languages support them too?,True
+@summerwu2817,2020-03-03T23:36:57Z,0,That is very useful which helps me to understand generator well,True
+@chiragbansal4159,2020-03-02T03:31:14Z,0,What will the effect in time consumption when we are looping through all the one million returned values. Will the generator time increased in comparison to the iteration of all the values in list ? (Because I suppose generator will have to compute the value every time we use next),True
+@smika710,2020-02-26T17:34:56Z,0,"i have seen generators before, and I like them. but when Corey took off the [] and made it () and it created a generator... that's smooth",True
+@RaviKumar-cl6iy,2020-02-25T18:12:00Z,0,** for exponential,True
+@xximo,2020-02-23T03:55:25Z,1,"Well prepared, well explained, well deserved like and subscribe.",True
+@jayjhaveri1906,2020-02-21T05:18:35Z,0,Mega *bits* *,True
+@punstress,2020-02-18T00:00:48Z,0,good content but so hard to read against a black background.,True
+@PetersFXfilms,2020-02-16T09:24:30Z,0,Why are you still using python 2 in 2015?,True
+@xrayian,2020-02-14T16:38:07Z,0,fuck it's in py2,True
+@TrickstaleX,2020-02-14T15:29:45Z,7,Thank you so much for your videos! Working in my master's thesis with python and huge data sets and I think I can really put this all into use!,True
+@bernhard0815,2020-02-12T12:11:09Z,1,HOLY MOLY! Thanks for this helpful content!,True
+@baqirhusain5652,2020-02-04T13:03:25Z,1,You are so crystal clear that learning python makes me happy....(to explain in more bizarre way) ..Your videos give me orgasms .....,True
+@psysc0rpi0n31,2020-01-23T22:25:03Z,0,"Wouldn't the comparison with the generator needed to be looped for 1 million times so that it could be compared to the list return option? In that case, 2x10^-6 times 1 million, wouldn't it be 2 seconds? I'm going to test this out!",True
+@krishnakhurana2593,2020-01-23T05:48:42Z,1,"Cool video bro, generators are awesome!!!!!!",True
+@MrAkz-tk8ke,2020-01-17T13:00:54Z,0,could you please show the contain of “mem_profile” that you have had imported to this code ?,True
+@jasoncheng4250,2020-01-12T16:51:31Z,0,How do generators affect space complexity? (I theorize that time complexity is still the same),True
+@hikmathamraz7141,2019-12-31T00:38:22Z,0,your explanation is amazing thank you so much,True
+@alan6506305,2019-12-28T04:19:12Z,0,"Another common usage could be to gather and deal with the yielded results in the level one function, instead of working in a nested function calls with so many for loops.",True
+@theframeworksupport7393,2019-12-27T10:54:46Z,0,Great tutorial. How can I import modules between siblings packages?,True
+@aaronbaron6468,2019-12-21T12:58:26Z,2,I'm Indian and finally a good tech youtuber thats not indian,True
+@aishwaryab02,2019-12-17T06:52:14Z,0,Can I know the editor you are using?,True
+@shraddhapatil4070,2019-12-17T03:01:20Z,0,Can you please share videos on generator send and throw functions,True
+@aravindhvasu195,2019-12-11T15:23:57Z,0,"Thank you very much for the awesome content. I've got a doubt, this might be really dumb, please bare with me. What's the difference between a normal function and a generator object? As far as I could see, we can get a value from a generator object, when we do next() (of course there are other methods, but basically). It doesn't calculate anything, until we kinda call it. but that's  what a function does, doesn't it?",True
+@jharris4854,2019-12-07T13:05:39Z,0,@Corey Shafer I cant get the results you do. Im using Python 3. What are the equivalent modules and functions for time and memory to replicate this script? I guess I could use 2.7 to do this but Im trying to force myself to learn according to the emerging standard of Python.,True
+@jharris4854,2019-12-07T08:38:27Z,0,The code you use to evaluate time and memory. It looks like you created a class just for that. Is it not already built in a module somewhere that I can just access directly?,True
+@jharris4854,2019-12-07T08:29:37Z,0,It is interesting you're editor/interpreter is allowing you to use the print statement without '( )' . I havent found a single environment to create a python script where that is legal. What are you using??,True
+@jharris4854,2019-12-04T16:54:42Z,0,"I see you used a fileobject method, next(). It looks like the numbers are in a list. I know Python is flexible with data types but I am curious exactly how that is working. Files have records, lists have indexes. Im just curious about that. Love your videos btw. Extremely intelligible information vs other explanations.",True
+@linjiang933,2019-12-01T23:51:13Z,0,thanks for your video! but how do we get to certain elements in the list since generator is not subscriptable (so my_nums[1] won't work). And we don't wan to run next(my_nums) a thousand times to get to the thousand-th element?,True
+@soumyazyx,2019-11-24T20:41:32Z,2,Thank you Corey for your time and effort. Keep spreading the knowledge.,True
+@ibrahimal-mahfooz8737,2019-11-22T19:26:48Z,2,I will make a generator to thank you for this tutorial. You are the best.,True
+@stevenreubenstone8833,2019-11-22T18:59:36Z,1,Excellent video,True
+@pavankumargurrala7216,2019-11-17T16:26:55Z,1,You are Amazing.,True
+@nathanthreeleaf4534,2019-10-29T23:44:52Z,1,"I originally watched this video probably 6 months ago and though I liked the concepts shown here, I hadn't found an opportunity to utilize it, that didn't feel forced. However, today I found myself in a bind, needing to iterate through a dictionary, while also prompting the user to fill in values for keys that corresponded to blank values. I did not want to just have a new prompt window pop up for each empty value in the dictionary and I also needed a clean way to move forward or backwards in the dictionary and have the ability to cancel out of the user-input-prompting. After pondering over it for a few hours and even stepping away from the code for a break, I thought of this video and wondered, 'is a generator the answer to this problem?' Well, it sure was! Following your guidelines, I was able to modify the functionality to suit my needs and came up with a very clean and effective method for displaying just a single dialog box rather than multiples in a row, while also easily iterating through the dictionary to get the user input and returning the 'filled-in' dictionary at the end. I've by no means mastered generators, but it was great to be able to fairly easily implement these concepts you show here into some real-world code that I'm writing for work and get it functioning beautifully and exactly the way that I need it to. So, thank you for making that possible and saving me hours of head-scratching and swearing.",True
+,2019-10-25T03:17:16Z,1,"Exelent explanation, tankyou",True
+@nitinramola09,2019-10-21T06:34:14Z,0,I have a doubt ... If I do a dir(generatorobject) it will return __next__ method... but for getting the next output we are using function next() instead of generatorobject.next(). It will be helpful if anyone can help......,True
+@davisdjosh,2019-10-16T14:49:40Z,0,this video is very nummy,True
+@hickehelbro,2019-10-14T11:39:05Z,0,"I just watched this. If I only yield the first value, it hasn't completed the same task as the first function. How can I get the same result (1M records) whilst retaining the performance? It's apples and oranges for me...",True
+@veerannabandaru1122,2019-10-13T15:13:58Z,1,"@Corey Schafer, I have seen many videos and read many articles on generators and iterators but this video gave me better understanding. Thanks for the video.",True
+@RahulRamachandran,2019-10-12T03:47:19Z,0,"Error while installing mem_profile using pip.  Could not find a version that satisfies the requirement mem_profile (from versions: )No matching distribution found for mem_profile",True
+@JTCF,2019-10-03T16:02:51Z,2,"I love in-line for loops (how I name them for myself) and ifs, so that's why I have a 350+ vharacters long line in my project. It just works as intended and last time I tried to make it more readable I gave up. (if you wanna see what I'm talking about, go to https://github.com/JohnTheCoolingFan/Motorchik and look at the file configuration.py, line 114)",True
+@michalbotor,2019-09-25T18:14:03Z,0,"i've been introduced to the concept of generators while i was working on a coursera project concerning the analysis of the human genome. we've been given a txt file containing ~3.2 milion characters out of the set {'G', 'A', 'C', 'T'}, which assuming 80 characters per line amounted to ~40 thousand lines of text! we were rightfully so told that assinging it all as a string to a variable in python script was going to be a suicide, and that the proper solution to the problem was to use the generators, which had no problem of crunching through this massive data set.",True
+@namanallawadhi7397,2019-09-20T10:36:41Z,0,people_generator function did not compute any value. it was just initialized there. will it have same performance after computing output of million values?,True
+@LayneSadler,2019-09-12T20:12:57Z,0,Oooo parentheses based generator. Not holding values in memory.,True
+@miscellaneous9932,2019-09-04T16:31:59Z,1,Thanks man! Great video,True
+@samehmahmoud7,2019-08-25T03:01:13Z,1,"my_nums = (x*x for x in [1,2,3,4,5]) print(list(my_nums)) for num in my_nums:     print(num)      ## Why for Statement is not executed by the program ?",True
+,2019-08-22T17:10:04Z,1,"I, finally, understood the advantages of Python, thanks you all guys who post this videos",True
+@YeekyYeeky,2019-08-21T00:07:13Z,1,"thank you very much , your explanation is really clear",True
+@raminrad666,2019-08-15T03:00:44Z,0,You are a brilliant teacher and I thank you sir.,True
+@svikas641,2019-08-12T15:06:50Z,3,The music at 11:10 reminds me of Ross playing keyboard lol anyways great piece of work man. Truly appreciate it.,True
+@plickgaming4035,2019-08-10T20:45:12Z,0,can you change to PyCharm download: https://www.pycharm.org/download,True
+@Leonardo-jv1ls,2019-08-08T11:53:52Z,2,Man. You are incredible good in explaining. Congratulations.,True
+@Circumvenscion,2019-08-08T07:22:28Z,1,Excellent video. Well explained and communicated.,True
+@hhj5513,2019-08-08T05:59:34Z,3,"hey I love your video and have a question, i can see the performance boost in the last example but what if you loop over them and compute some action? would it still have advantages in performance? my guess is that the moment you loop over a generator it will take same amount of mem as list and therefore it will perform the same. does it?",True
+@j3froc63,2019-08-07T17:48:09Z,0,"I don't get what you said from 1:30 onwards regarding the line:   print my_nums   If what you said that 'yield' only returns one result at a time, then why didn't the line:   print my_nums   show '1' on the console log?   And regarding the line:   my_nums  =  square_numbers([1,2,3,4,5])   Does the program interpret this as: The variable 'my_nums' is assigned the value '[1,4,9,16,25]'??? I.e the resulting list is stored in the variable 'my_nums'???",True
+@studio2038,2019-08-07T13:07:44Z,1,Nice,True
+@kennethstauffer9220,2019-08-04T13:33:12Z,0,a chess move generator could use something like this.,True
+@nikitharamamurthy7404,2019-07-21T13:21:16Z,0,for all those who are still thinking what did i just watch. Check this life saver: http://book.pythontips.com/en/latest/generators.html or   https://github.com/yasoob/intermediatePython/blob/master/generators.rst,True
+@poopstersdad,2019-07-20T01:27:21Z,0,what is the mem_profile you are using? I googled it and couldn't find it. is it custom?,True
+@chunchunmaru2760,2019-07-16T17:56:55Z,18,"Literally never heard of generators and I've been doing Python for a while, great video.",True
+@tamiroquaisimon8488,2019-07-11T13:33:44Z,0,"as non python guy, it is weird to me why the function you used to implement generator did not need to return anything, and how does python still know that it returns something",True
+@rahultibco9377,2019-07-02T15:27:34Z,1,great explanation,True
+@rosjio99,2019-06-30T23:27:48Z,0,"So if the performance gained by using generators is lost as soon as you convert it to a list or iterate over it, why even bother with generators?",True
+@talbarak8861,2019-06-19T07:25:50Z,0,"It seems that mem-profile doesn't exist anymore. If I'm not mistaken, the alternative today is to use memory-profiler which can be found here: https://pypi.org/project/memory-profiler/ Please correct me if I'm wrong.",True
+@TusharPalande,2019-06-17T15:42:01Z,1,Thanks!,True
+@firealarmapprentice4517,2019-06-15T20:58:45Z,0,"its all python 2.x though, I was coding python3.6 and the examples in the video did not work and puzzled me very much until I ran python 2.  Anyone know why 2 is still in use?   Legacy code?",True
+@DebasisUntouchable,2019-06-15T14:08:51Z,0,"thanks for the video, just one thing in the 2nd example generator vs list 1000000 case,  the generator takes considerable less time because you are not executing it, if it executes it will probably take the same time. So memory utilization is the only benefit",True
+@js-bf6nh,2019-06-05T01:58:14Z,1,Nicely done.  thanks!,True
+@noobsdaestrategia,2019-05-31T22:14:37Z,2,"Straight to the point, amazing!",True
+@SenseiJae,2019-05-26T18:18:00Z,0,"The execution time is disingenuous.  With the generator, you've just delayed the calculation to another segment of code.  A true example of the performance metrics would show the utilization of the results as well.",True
+@ilanaizelman3993,2019-05-22T12:20:44Z,1,GOLD. Thank you!,True
+@sapansagarpradhan7454,2019-05-22T10:24:13Z,1,Doesn't it store the 1st value in memory and wait for the next process? That's why the memory increased from 15.98 to 15.99MB.  Please confirm. Thanks!,True
+@peterosoo5668,2019-05-20T16:50:41Z,0,how comes you execute with print my_nums and not print (my_nums),True
+@kevinfreeman1101,2019-05-19T18:59:44Z,3,"@Corey: You present these in a clear, understandable fashion with plenty of proof to demonstrate the huge performance boost that generators make possible. This really helps these concepts to sink in, and helps me to understand how I can implement this concept into my own code. This is awesome, thanks!",True
+@vigneshsaravanan5807,2019-05-14T11:16:27Z,0,can i use the yield function with flask frameworks for a dictionary holding 10k items in it.,True
+@sostomc,2019-05-09T08:23:14Z,1,Very useful. thank you,True
+@pythonuser5226,2019-05-05T04:20:25Z,2,@corey Schefer: Thanks for this video. It was simply great. I just wanted to see the code that you have written in mem_profile module. as I need to print that memory usage in my code as well. Thanks,True
+@Calm_Energy,2019-05-04T14:10:41Z,1,I love generators!,True
+@arnavsingh0,2019-05-02T13:23:47Z,2,"I have watched a hell of tutorials but man, you, you are just awesome. Hats off to you.",True
+@justich2567,2019-04-26T13:39:28Z,1,how cant you not charge for such infomatic??? i hope people donate bitcoin to you,True
+@samratkeshri,2019-04-25T17:09:12Z,1,good learning!!,True
+@manishankarsingh7748,2019-04-06T11:56:24Z,3,"@Corey Schafer. Can you make a video on ""yield from"" syntax. That would be the real deal breaker. ""yield"" is easy to understand. I cannot bend my mind around ""yield from"".",True
+@mrpanda7777,2019-04-05T20:59:57Z,397,"A generator is not being used to boost the performance of your program. The difference is that a regular loop first processes all the data and RETURNS ALL THE DATA AT ONCE. Imagine you have million pieces of data which takes 20 minutes to load! Thats a long long time before you can access any of the information and work with it. Now imagine having the same set of data but instead of a regular loop we use a generator. A generator DOES NOT RETURN ALL THE DATA AT ONCE. it returns one piece of the data which you can work with. And then it returns the next piece of the data and you can work with that. So instead of having to wait 20 Minutes to load everything before you can work with the data, you break down the data into smaller data pieces which you can work with as soon as you start the program. Edit: Unfortunately this got so many likes... I wouldn't call myself an expert in python so  take everything I say with a grain of salt. I don't know the python code which handles lists or generators and I did not read that the documentation... But I think the example above does make it easier to put your head around generators and why they are useful, even though it might not be 100% accurate, but please read the addition below since it is I think why you really should you generators >>>>>>>>>>>>>>>>>>>>>  Since generators yields / fetches one piece of data at a time, it will never hold more than one piece of data in memory. So imagine this: You are tasked to create a python scripts which has to process a list of millions of numbers but each number has a thousand digits(meaning its a huge number). But the machine is pretty old and only has 256MB RAM installed. Well thats a problem, we can not load all the data into memory and than process it. We don't have enough memory. You will get a memory overflow exception and crash your program. So instead we have to use a generator.  The generator will only load one number at  a time into memory and each time you are calling the next number the old number will be removed from memory, problem solved. No more memory overflow, program will run as designed.",True
+@gtsmeg3474,2019-03-28T19:26:42Z,1,Thanks for sharing knowledge properly,True
+@christophermichaelrytting5465,2019-03-27T17:01:39Z,2,Again Corey kills it,True
+@midhileshmomidi2434,2019-03-23T15:11:58Z,0,"Hi Corey, So basically generators are used for the reduction of time complexity and memory management or if there are any uses please make a video   Thanks",True
+@fotakubeast3204,2019-03-16T20:41:26Z,1,Thank you so much 🙏🏾,True
+@nacerrahem2577,2019-03-07T20:30:13Z,1,Python is the future laguage,True
+@vamsikrishnareddicherla6576,2019-03-06T13:56:11Z,1,Crystal Clear and to the point explanation as always.,True
+@mayurarora6795,2019-03-03T23:29:45Z,1,great explanation in very easy way.,True
+@rudigerbrightheart7304,2019-03-03T20:01:05Z,0,"Thank you, great video! Most documentation on the web seems about using generators with lists. How about Pandas DataFrames, would there be any thinkable usecases or would one rather use other solutions such as apply, itertools?",True
+@juanst3057,2019-03-01T03:59:44Z,0,Great video :) Also.. anyone knows how he does to comment a block of code like that?,True
+@kyleeames8229,2019-02-23T08:36:19Z,0,Can generators be indexed?,True
+@aytekinozhan7554,2019-02-18T11:54:35Z,0,@Corey Schafer I tried to the same things as you do but ' resource  ' cannot be imported . How can I fix this problem ? I'm using Windows 10 .,True
+@RajanKumar-lv7ve,2019-02-11T10:42:40Z,0,how do you comment out multiple lines one swoop?,True
+@codeordie-uw1il,2019-02-11T02:08:01Z,0,can you give some real-life scenarios where we can use Generators,True
+@BharatUnwronged,2019-02-08T15:41:42Z,0,Correct me if I am wrong : Generator functions and generator expressions have the same functionality right?,True
+@livedlife5930,2019-02-08T03:41:26Z,2,Thanks a lot for detail explanation with meaningful example.,True
+@AbuSayeedBinMozahid,2019-01-22T01:56:11Z,1,Awesome tutorial.,True
+@MrGaffeltand,2019-01-19T21:41:41Z,3,"I instantly understand the function of generators.  Thank you very much, great explaining!",True
+@paritoshsingh588,2019-01-16T10:57:24Z,0,how are you writing the print statement without any parenthesis ?,True
+@sithoidinh3891,2019-01-11T07:48:35Z,1,thank you,True
+@lsbernardes,2019-01-05T10:27:10Z,1,"Corey, the module ""mem_profile"" was in standard library? Well, it seems it no longer exist. Do you know some equivalent module equally simple and easy to use?  BTW, you are a very good teacher, congratulations!  It's hard to find in your field someone so capable to teach, with the right sensibilibity. Most of people think if they know something, they can teach it as well and it's not the case.",True
+@christianbaier1190,2019-01-04T17:05:09Z,1,Well structured. Well articulated. Corey Schafer.,True
+@kingmunch7252,2018-12-28T10:54:13Z,0,Hello can u guys tell me how he have the outputs below with sublime text?,True
+@badoiuecristian,2018-12-18T18:07:24Z,7,"In a nutshell I can see the benefit of saving memory, dealing with large data sets that would not fit into memory. As for processing power it will be the same when you have to loop trough the generator. Very well explained.",True
+@relikpL,2018-12-15T20:14:44Z,0,In Python3 range now acts like xrange? Are there any other distinctions between the versions in this example other than print()? Great video as always!,True
+@zes7215,2018-11-30T19:37:25Z,0,"no such thing as benefix or not, ts just a toolx, mtr not, no such thing as receix or not",True
+@kavabangaungava,2018-11-22T20:40:37Z,1,Great!,True
+@dp0813,2018-11-04T17:25:35Z,1,Awesome vid as always!,True
+@mahmoudelzar213,2018-10-31T09:31:25Z,1,"Easy to understand, thank you.",True
+@galleryofdeb,2018-10-28T14:12:27Z,0,where could I use it??,True
+@user-rx3eh8bb4x,2018-10-17T11:50:44Z,1,Great video! 👍,True
+@rahulrs6996,2018-10-17T10:00:00Z,1,"This was very very helpful, was going through other tutorials about generators and none of em actually helped me understand this concept easier.. thanks a lot Corey... :)",True
+@slagunes4705,2018-10-14T15:54:53Z,15,"I read the same topic once in my native language and I didn't get it. XD  But your tutorial explained it clearly, thank you. :)",True
+@vimalraj7777,2018-10-13T10:30:42Z,1,Simply awesome tutorial,True
+@quentinz6291,2018-09-18T09:37:16Z,1,good  video,True
+@zayeba,2018-09-09T00:27:20Z,3,"Damn, he explained it so clear and easy to digest.",True
+@RuslanSkiraUkraine,2018-09-07T07:07:52Z,0,if someone rewrite it for the python 3 please put it here ))) Thanks,True
+@ramgirishreddykarri1731,2018-09-04T15:02:14Z,0,"Sir,what happens if we use two yield statements in the function,Will it stop after completion of first yield",True
+@sehejwahla410,2018-08-22T10:50:38Z,0,first of all thank you sir . Your videos are like water to a thirsty . Sir i have a doubt . How can i access a certain persons data(using id) via a generator ?,True
+@marbleco8615,2018-08-19T19:53:27Z,1,brilliant,True
+@IPv6Freely,2018-08-15T01:12:36Z,0,Great video. Made the entire thing easy to understand. Thanks!,True
+@TheKaushal8686,2018-08-08T01:19:49Z,1,Thanks for this amazing video.,True
+@weekendprogrammer7545,2018-08-01T14:32:38Z,0,At 3:29 u have not put next(num) but still it's printing the values ?,True
+@sungchulyonseiackr,2018-07-30T18:03:55Z,0,"I always enjoy watching your video. Great work!!!   Two Comments on your outdated code that I passed through:  1. Instead of time.clock(),  time.time() is recommended according to my web surfing.  2. Your memory_usage_psutil() function seems outdated. I did some web search and I found one solution from stackoverflow. Unfortunately I lost ulr since I had to shut down my jupyter notebook. But here is what I found essentially:  import os import psutil  def memory_usage_psutil():     pid = os.getpid()     py = psutil.Process(pid)     return py.memory_info()[0]/2.**30  # memory use in GB  This works.",True
+@ricsam2806,2018-07-27T09:32:47Z,0,Plz teach iterators in Python,True
+@demmith,2018-07-17T17:19:47Z,1,Outstanding!!,True
+@TommyLate,2018-07-15T16:24:33Z,2,Right now helped me even better than the video from the udacity course im doin right now or to say it in another way: it was a really worthy addition! Thx :),True
+@abhijeetsharma5715,2018-07-07T10:17:56Z,0,Shouldn't you use MB instead of Mb..? Awesome video though!,True
+@krishnanarwani8105,2018-07-02T12:48:47Z,0,"Hi Corey,  I am unable to find the module mem_profile will you please help me.",True
+@ermanib,2018-06-26T16:17:06Z,0,Can you provide a demo on itertools,True
+@IamKhoramdin,2018-06-20T04:17:20Z,0,Thank you very much for your video. Would you please make some video about recursive generator and how does rellay works?,True
+@vaibhavkhobragade9773,2018-06-12T12:17:26Z,1,Thanks bro! such nice explanation and such great voice!,True
+@stillinmusic,2018-06-09T21:45:58Z,1,Brilliant explanation!,True
+@edukondaluchodavarapu6592,2018-06-08T17:01:17Z,1,Thank you much,True
+@adnankaya,2018-06-08T01:31:41Z,0,"Thank you for great explanation! Could you please make a video about ""Thread"" , ""Asynchronous""  using.",True
+@jackieyoung9608,2018-06-01T17:16:38Z,1,awesome as usual！,True
+@mysyn,2018-05-30T22:25:45Z,0,"I'm okay, thanks",True
+@SuiGio,2018-05-29T15:56:01Z,0,How could we create a generator that calls another generator? Im using glob.iglob to load some files and im having this kind of problem...Any ideas ?,True
+@jbond5834,2018-05-28T07:38:37Z,1,very good,True
+@pawanbhandarkar4199,2018-05-16T03:04:39Z,1,Excellent! Thanks so much :D,True
+@WandererOfWorlds0,2018-05-11T12:10:57Z,0,"So this is basically a ""just in time"" generator for items that would normally go into a list.",True
+@SantoshGupta-jn1wn,2018-05-02T01:20:35Z,0,best video i've seen on generators,True
+@springfield-videos,2018-04-27T23:29:53Z,0,Are generators like pointers in C/C++?,True
+@priyankav3405,2018-04-19T12:14:11Z,0,I simply wanted to write down a quick word to say thanks to you for those wonderful tips and hints you are showing on this site.https://www.besanttechnologies.com/training-courses/python-training-institute-in-chennai,True
+@markkupaaso9642,2018-04-08T14:15:15Z,4,"Hi, Corey! Thanks for the exceptional tutorials that you keep generating (pun intended).  I'd like to kindly put forth a proposition that you'd make a tutorial on the async -feature of Python language.  The subject needs the clarity of your expression. Can't wait to next towards that.",True
+@shanmugaraj09,2018-03-23T04:49:30Z,0,Awesome,True
+@akshithareddy434,2018-03-22T00:44:32Z,0,Can you please make a video on async in python.,True
+@cooli46,2018-03-20T07:30:40Z,0,good!,True
+@burcakotlu7858,2018-03-10T23:07:38Z,0,Thank yor for this video.  When I use xrange for list case I got    for i in xrange(num_people): NameError: name 'xrange' is not defined Also after installing memory_profiler  as mem_profiler  using mem_profile.memory_usage_resource() gave AttributeError: module 'memory_profiler' has no attribute 'memory_usage_resource' I'm using python 3.6.4 Again thanks.,True
+@harishpuvvada1877,2018-02-23T23:58:01Z,0,"Clear explanation...Thank you. My doubt: Even though you don't generate and store all of them like the other method, eventually you have to generate them one by one right?",True
+@andym3848,2018-02-03T01:19:07Z,0,Nice tutorial. I think the benchmark would be better if the comparison made is based on the retrieval of nth element of the data set.,True
+@nitishawasthi,2018-01-29T06:54:46Z,0,Please make videos for python3 also.,True
+@deepak3303,2017-12-28T16:17:35Z,0,How are you running code in sublime text?,True
+@denizjusufovich2230,2017-12-27T12:40:08Z,2,I loved the video! Although I was expecting an explanation about the range vs xrange thing at the end. Can you please explain why with the yeald I should use xrange instead of range?,True
+@Geekyology,2017-12-25T18:16:47Z,1,Exceptionally nice tutorials :),True
+@malathimurugesan2316,2017-12-24T13:29:18Z,0,Good teaching.How to accept input from the  user for a matrix of any size using generators. Thanks!,True
+@jestekine5892,2017-12-23T02:04:28Z,0,C,True
+@4255vm,2017-12-21T13:27:32Z,0,Could you please do a video on Iterators?,True
+@samanthapikus3178,2017-12-18T07:11:27Z,0,Hi Cory.  Thanks for this video.,True
+@nikolahuang1919,2017-11-22T17:36:36Z,0,his courses are always so clear and helpful.,True
+@rameshchavan6420,2017-11-10T15:15:33Z,0,"The only.,mmfkvfk In ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddfdddddddd",True
+@RC-bl2pm,2017-11-08T09:49:54Z,0,Clear as gin. Thanks Corey,True
+@cool007zqw,2017-11-05T07:03:12Z,0,"This is just great! Helps me a lot understanding generator in python. One little question, is the unit of memory Mb or MB?",True
+@haoyangrocks,2017-10-26T01:39:02Z,0,Thank you!  You explained things very clearly!,True
+@beasty45,2017-10-06T16:39:50Z,0,Thank You,True
+@paulzeng6211,2017-10-03T03:40:01Z,0,This guy is much better than stackoverflow.,True
+@pramitshah931,2017-10-02T04:42:19Z,0,"@Corey Schafer, in generators what if we want to access the current and the next item of the output how do we do that?",True
+@kshitijkumar326,2017-09-14T07:39:37Z,0,print(list(my_nums)) is not working on python3.5,True
+@anaftalis,2017-08-28T14:27:31Z,0,Would yielding the next value in a generator be slightly slower than in a list (I'm guessing that is true since probably the generator needs to compute that value)?,True
+@brenlyd,2017-08-20T19:16:38Z,0,This lecture was great! You are truely a stand up guy,True
+@uppubhai,2017-08-15T12:08:27Z,0,WOW after finaaly using python for a year i am getting generators. thanks a lot sir,True
+@HSWang-ym2mm,2017-08-07T15:15:47Z,0,"Hi, after watching several your videos, I figure out they are really helpful for me. Thanks so much for sharing your knowledge!",True
+@marcd4144,2017-08-06T18:42:43Z,0,Someone is re-uploading your videos:  https://www.youtube.com/watch?v=GEH_T2B7qq0,True
+@YAakash,2017-08-03T18:58:14Z,0,"so, the summary I got generators don't poop it out unless they are said by 'next' or 'for'. While list poops it all out to the memory :p  Thanks, for the vid. :)",True
+@techniumunlimited4567,2017-07-29T14:25:08Z,0,Great Video,True
+@cyberguide_in,2017-07-07T14:43:27Z,0,"mem_profile module does not work: This is the error when I executed your code:  ImportError                               Traceback (most recent call last) <ipython-input-2-e7d203f09721> in <module>() ----> 1 import mem_profile       2 import random       3 import time       4        5 names = ['John', 'Corey', 'Adam', 'Steve', 'Rick', 'Thomas']  ImportError: No module named 'mem_profile'",True
+@goshick,2017-06-21T18:45:05Z,0,"excellent presentation, thanks",True
+@hanscarabonala2462,2017-06-16T19:48:01Z,0,"Great tutorial, helped me a lot",True
+@qwe123727,2017-06-14T15:27:58Z,0,"Corey,  My 2 cents. People who are watching this video, can also watch https://www.youtube.com/watch?v=EnSu9hHGq5o to be more successful.",True
+@guilherme5165,2017-06-01T03:14:39Z,0,Thanks alot!,True
+@raelindan,2017-05-26T09:10:37Z,0,9:00 MegaBIT not megabyte :),True
+@qwe123727,2017-05-21T09:18:46Z,0,Nice video!!! Do you follow David Beazley? He talks about meta-programming,True
+@warpigx808,2017-05-19T04:39:36Z,6,"idk what changed, however print next () does not work in 3.4.3 what appears to be required is print (next(myNums)). other good news, print (next(myNums)) also works in 2.7.11. and of course later on 5:45 print as function in 3.4.3 print(list(mynums))",True
+@BM-uf4pp,2017-05-12T16:40:08Z,0,great video but time to update to py 3,True
+@TNothingFree,2017-04-29T09:00:46Z,107,"Don't you think the benchmark is wrong? All you've done is creating a function, it did not iterate through your generator I did my own: List took 16.451645000000003 Generator took 23.018914 in seconds  Your videos are great and I do appreciate them, especially as a professional developer. However, please don't mislead newbies because they would think this is a magical tool to boost your application.",True
+@shreyasshreyas3643,2017-04-26T16:57:19Z,0,fantastic! thanks a lot.,True
+@sampadai972,2017-04-22T19:03:37Z,0,"Thank you so much, very neatly explained. Helping me alot",True
+@pebre79,2017-04-21T20:35:14Z,0,I didnt know about the next function. Nice,True
+@MinhTran-wn1ri,2017-04-20T03:41:58Z,0,"1. Can you create a generator without using a for-loop (what if we instead used a while-loop or no loop at all)?  2. The video seems to suggest that a ""generator"" is a function definition that includes a loop and a ""yield"" statement. Can you get user input inside a generator? Can you have the generator ""return"" a value (as in a normal function)?  3. The generator object returned by ""yield"" seems to represent the entirety of the for-loop inside the generator except without actually running an iteration until you call next() on the generator object. Is this what is going on behind the scene (i.e., calling people_generator(1000000) actually generates only 1 person dictionary)?",True
+@funkymunky8787,2017-04-15T17:52:01Z,166,"You are actually a great tutor: you always show use cases, explain what goes on under the hood, and have a good pace so it doesn't get boring. Very highly recommended!",True
+@KamalNayanlotus,2017-03-29T08:57:38Z,0,thank you !! indeed a very useful video .,True
+@subhadeepkaran1568,2017-03-23T17:01:42Z,2,"Subscribed to your channel, sir. That explanation was pretty neat and right to the meat. Thanks a lot.",True
+@pawansonu41,2017-03-23T05:41:43Z,0,please share the content of mem_profile.py,True
+@jeffreystockdale8292,2017-03-16T14:36:40Z,0,"Hey Corey,  just starting to learn Python, you have many different python ""playlists"" which one should I start with?",True
+@venuattimavilla2076,2017-03-08T10:09:53Z,0,what is the module in python version 3 instead mem_profile in python version 2   to calculate memory.,True
+@xoxUnD3R0aThxox,2017-02-23T07:38:12Z,0,"doesn't work like that in python 3.5  x = [g*g for g in [1,2,3]]  x Out[2]: [1, 4, 9]  x = (g*g for g in [1,2,3])  x Out[4]: <generator object <genexpr> at 0x0A591DB0>  for i in x:     print (x)      <generator object <genexpr> at 0x0A591DB0> <generator object <genexpr> at 0x0A591DB0> <generator object <genexpr> at 0x0A591DB0>  list(x) Out[6]: []  print (list(x)) []",True
+@phillip_jacobs,2017-02-15T10:03:46Z,0,Thank You!,True
+@mattmattson689,2017-02-14T23:56:43Z,1,"Hi Corey,  So if I'm understanding correctly, the generator will not consume any memory when the list is created. Memory won't be used until the actual list is iterated through? At that point it will increase memory consumption each iteration of the list?",True
+@thisnicklldo,2017-01-31T14:15:03Z,0,"But that time of 2e-06 is not the time for 1m records, it's the time for just the first record, isn't it? What would it have been if you had actually processed through all 1m? I mean, I could multiply 2e-06 by 1m, and get 2 secs which is worse than 1.2 secs, but obviously that's not what would really happen. Still, it might well be quite close to 1.2 secs. I do appreciate that regardless of timings, it really is saving 300mb of memory, which of course is very important.",True
+@chinivarbasu1599,2017-01-17T01:27:43Z,0,Thanks for the explanation. it was very helpful. I appreciate the effort buddy,True
+@SapnaSaini3,2016-12-13T06:42:10Z,1,Your all python tutorials are amazing ...,True
+@BabakKeyvani0,2016-12-03T18:01:59Z,1,One of the best videos in your python series :) Thanks for the concise and helpful performance comparisons :).,True
+@TheFourOnSix,2016-11-30T10:43:45Z,600,I can see this being incredibly important and applicable in data science when working with large data sets!,True
+@ikfdsafg,2016-11-07T15:58:14Z,0,Thanku so much Corey..,True
+@krysztau151900,2016-11-06T17:17:51Z,2,"Hi Corey, Thank you for those great tutorials. I know some basics of Python, but your tutorials are really clearing out important details. I have one question regarding generators: It seems there s no simple way to know third value from my_nums without iterating through records 1 and 2, so if I expect to draw records at random from the list, making an actual list would be better. Is that correct?",True
+@AetosAnatole-tm6xz,2016-10-26T17:12:19Z,0,"ImportError >> No module named mem_profile  What to do,  to get that module",True
+@mahakhal7658,2016-10-24T21:08:18Z,0,that was great. thank you (Y),True
+@sidreign3095,2016-10-21T00:04:14Z,0,excellent video thumbs uped and subscribed,True
+@awaraamin9670,2016-10-01T01:45:24Z,0,I love it!,True
+@EssaAlshammri,2016-08-25T05:10:21Z,0,Ooh that is a huge difference regarding performance,True
+@RameenFallschirmjager,2016-08-24T11:31:46Z,0,"great video, i wonder to know what was the ide?",True
+@codegeek7832,2016-08-17T23:47:07Z,18,"hey there Corey you are definitely the man, any follow up tuts on django framework many i have found online are just a bare example of simple apps nothing more about framework itself ,i like very much your way of teaching you are great tutor i hope will see soon some django tutorials thank you for your work",True
+@kleberloayza7839,2016-08-09T14:31:11Z,0,Awesome explanation,True
+@notforever123,2016-07-17T17:39:16Z,0,"Clear as water, thank you",True
+@Turjak_art,2016-07-15T18:41:52Z,0,thanks awsome explanation!,True
+@pawegrzesik4449,2016-07-13T14:02:33Z,0,"What's the best way to exit from the iteration? So let's say I have a method which will return me a yield, like in your example, and I will iterate over that method and what if will need to exit? So for example if I will get the number 4 I want to execute sys.exit(1).",True
+@riteshde8013,2016-07-09T19:30:51Z,0,"Hey Corey, thanks for such a grate article. I am new in python. I am getting ""ImportError: No module named mem_profile"" for import mem_Profile . Can you please help me to fix it?",True
+@essencehan,2016-07-05T06:37:50Z,0,Why did you use xrange in generator and range in making list?,True
+@kaledcast,2016-07-01T20:44:20Z,0,Awesome video,True
+@bhasker0506,2016-06-19T15:01:59Z,0,Awesome explanation :) Loved it,True
+@Videostream787,2016-05-18T18:13:45Z,0,Precise and nicely explained. Could you also cover RE module ?,True
+@xmuta,2016-04-28T02:27:17Z,0,Great video. Watching your Python videos really helped me get a new job as a Python programmer. Thank you.,True
+@pavan730,2016-04-22T05:01:07Z,0,Hey its very good tutorial on generators. I was practicing your code and i would like to know what does your mem_profile module contains.,True
+@biohoo22,2016-04-06T03:29:48Z,0,small nitpick:  Megabits.  Not Megabytes.,True
+@bensacc,2016-04-01T02:33:49Z,0,these videos really are outstanding.  thank you so much for doing them!,True
+@BossLikesShenanigans,2016-03-10T06:48:02Z,0,This was a really great video. Awesome job man.,True
+@miladj8674,2016-02-22T21:42:53Z,0,Really good and educative.,True
+@ekamande3728,2016-02-17T17:15:53Z,0,great video thank you,True
+@ayae3,2016-01-29T12:16:54Z,0,"Hey Corey Schafer! I have a question. Lets say I want to get the 1,000,000th item, namely 1,000,000**2. If I created a list i can just write lst[1000000] and I would get it  right away, but  if i created a generator, doesn't it mean I would have to loop over all the 999,999  previous items (next())? It seems quite ineffcient  thank you very much for your videos!",True
+@anjankumar547,2016-01-28T16:01:38Z,0,Very useful. Thank you !,True
+@TheCrimson147,2016-01-27T14:23:25Z,0,"Hey I don't know if someone reads this but when I try ""print next(my_nums)"" next part gives syntax error. I use the same editor as the guy in the video but even the editor doesn't highlight it as a built-in function. Did they change how it works? I'm using python 3.5. He's using 2.7.",True
+@yangwang24,2016-01-22T11:00:00Z,0,This video is so great. Thanks a lot.,True
+@SakethSusarla,2016-01-15T07:41:23Z,0,thankyou :),True
+@FlashManinSpace,2016-01-14T04:54:06Z,18,Can you do a video about decorators and Python's functools and itertools?,True
+@RameshSingh-qc7el,2016-01-09T14:07:21Z,0,Great video! Thanks..,True
+@catatonico123,2015-12-29T01:25:21Z,0,"Great explanations. Plus, it's nice to see this kind of intermediate subjects treated, I guess this is a space that needs to be filled.",True
+@Edgar-th1zk,2015-12-23T00:54:56Z,0,This video was great. Thank you for taking the time.,True
+@firehelp6040,2015-12-05T04:10:19Z,1,Thanks for much for this. Read stackoverflow for hours but couldn't get it. Your video was v clear and I finally understand it.,True
+@TueurDeBrebis,2015-12-01T00:44:41Z,3,"@Corey Schafer, thanks for the video, very useful. I am just wondering how long it would have take to make a for loop with generator to display the millions value? Is it still faster than a list ?",True
+@morningm5658,2015-10-11T05:58:59Z,0,"I'm new to python, how did you print the ""memory_usage_resource""? How to get it work?",True
+@ACLAproductions,2015-10-07T13:59:38Z,10,Thanks for the video! You made it very easy to understand :),True
+@RyomaEchizenAnime,2015-10-05T04:11:57Z,14,"You seriously don't know how much you've helped me, thank you.",True
+@MalikARumi,2015-09-22T07:54:46Z,0,"A little off topic, but how did you get the terminal or whatever that is to be a part of Sublime? Is that a Mac only thing? Or is it an illusion and you just have a separate terminal program overlapping Sublime?",True
+@ocnyoura6803,2015-09-14T04:16:07Z,444,"@Corey Schafer, I've used Python for half a year now and never really used generator functions and expressions before. Thanks for introducing me to them. You got some of the most coherent, clear and concise Python tutorials out there. And I've seen a lot of them.",True
+@josephmilazzo8713,2015-08-20T15:19:03Z,1,"The results for the generator are not a good comparison because using the list did the actual execution, while the generator didn't. However, nice to learn about.",True

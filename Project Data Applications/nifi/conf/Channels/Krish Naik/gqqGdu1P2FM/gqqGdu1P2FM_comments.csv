@@ -1,0 +1,139 @@
+author,updated_at,like_count,text,public
+@krishnaik06,2023-03-08T20:46:16Z,11,"Join this channel membership to get access to materials and connect with me: https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig/join",True
+@manar4944,2024-05-22T06:47:01Z,0,"That's super great work, it really helped me. But i'm surprised that you've done columns transformation ""Standard Scaler"" before splitting the train/test sets, most articles said it will result in data leakage, can you please elaborate",True
+@shruthakeerthipurushothkum2724,2024-05-04T13:23:42Z,0,"hi @krishnaik06 , can you kindly show how did you work with jupyter in vscode , i mean did you do the eda in jupyter notebook and then converted to vscode ..",True
+@mayankamble2588,2024-05-01T06:08:58Z,0,Amazing Playlist. Learning alot. One point on transformation: Standard scalar should be applied separately on training and then use that scaler to transform the test data. This way there wont be any data leakage in the testing set.,True
+@abubakarsaddiq4098,2024-04-24T14:55:03Z,0,stuning,True
+@user-mx9vx7ji1u,2024-04-04T10:08:40Z,0,female are always good in marks,True
+@AmbarGharat,2024-03-28T17:38:53Z,0,Can anyone explain why did not we apply StandardScaler to cat_columns after performing OneHotEncoding on them??,True
+@karanbais1843,2024-03-21T10:14:58Z,0,loving the playlist sir thank you for it,True
+@aravinda1595,2024-03-20T08:45:06Z,0,Sir amazing video btw  Boys have performed really well in MATHSSS,True
+@aishwaryaumare4985,2024-03-12T14:38:32Z,0,How did u enter that csv dataset,True
+@KunalSingh-fy1bk,2024-03-10T10:15:32Z,0,"bro your eda notebook have lots of errors and , i tried solving them ( i am new to data science) and i did resolve most of them, still bivarite analysis aint working , please update and fix the issue, its hard to understand it with errors , coz we cant see the output.   @ Krish Naik",True
+@jaysamirhegshetye5660,2024-02-27T11:36:59Z,0,I really wanted to do a ML project where I can utilize all ML algorithms on single dataset. I find this playlist best for my  project. Thank you a lot  krish sir for making this informative and instructive tutorial !!!,True
+@apurvtewari3779,2024-02-21T02:50:18Z,0,What this entire project be described as to mention in my resume as a fresher.  Help will be appreciated all. :),True
+@ramkisundararaman3711,2024-02-09T00:26:59Z,1,Krish - You are awesome as always. I was out of the market for more than a year and now getting back to Data Science and your videos are helping me refresh my skills. Thanks,True
+@bilelkhelifi897,2024-02-04T11:47:11Z,1,"Best Playlist and channel i ve ever seen, THANK YOU SO MUCH KRISH",True
+@ransinghray3688,2024-02-02T11:42:21Z,0,"Krish you are really redefining the tech educational system, you are awesome!!",True
+@list10001,2024-01-31T19:42:18Z,0,Thank you for the valuable tutorials.,True
+@sudhirmalik100,2024-01-04T20:21:22Z,3,I think there is one improvement required here which is we should split data first then do fit_transform on training data and then transform data on test set.,True
+@mdthom39,2023-12-10T01:21:22Z,0,"I know project a few month old but when i'm trying to run notebook the first setup i get No Module name 'numpy', i have checked my requirements and its all there not sure what going on.",True
+@nikhildoye9671,2023-12-06T21:07:05Z,1,Shouldn't we split the data first and then apply transformation? Won't this lead to data leakage?,True
+@user-mn1kz9gx4f,2023-11-19T18:00:51Z,0,please guide me,True
+@user-mn1kz9gx4f,2023-11-19T18:00:26Z,1,how I can add notebook folder..? you did'nt tell about notebook and csv.,True
+@ahmedullahkhan9166,2023-10-17T22:36:18Z,0,"this line of code giving error  gender_group = df.groupby('gender').mean() gender_group",True
+@tatakae6666,2023-10-14T16:13:15Z,1,This series is absolute gold,True
+@utkarshapadhye7656,2023-10-07T15:03:52Z,2,"I am getting packages not found in vcode , though I followed all the steps from start and also in my global env all packages are installed.",True
+@khirooo,2023-10-02T23:10:59Z,5,"Hi Sensei, I am following your projects and every detail, and I am very thankful for your valuable content. but I think I found a code mistake at EDA part. <<gender_group = df.groupby('gender').mean() gender_group>>  with this new code : <<gender_group = df.set_index('gender').groupby(level=0)[['math_score','reading_score','writing_score','average']].agg('mean')>>    works well .... regards",True
+@Alsoltt,2023-09-29T06:15:11Z,0,Thanks!,True
+@royalchallengersbangalore535,2023-09-17T04:30:03Z,0,your teaching is like ❤❤,True
+@9939364566,2023-09-13T09:23:05Z,0,Good Stuff ✌,True
+@maximilianlossl226,2023-08-30T16:26:16Z,1,"Sorry, but I really don't understand how to get the data and jupyter files into my Visual Studio Code, can you help me?",True
+@feras6471,2023-08-30T12:21:03Z,0,Thanks,True
+@brightlyricsmusic,2023-08-26T12:23:01Z,0,i am getting error while reading dataset using relative path can someone help,True
+@user-zu9kc3lx1t,2023-08-23T06:33:12Z,1,"Hi, How are we importing the data of the csv file into VS ?",True
+@krislai7453,2023-08-21T19:04:31Z,0,"why is that when i tried to import library it says ""no module named 'numpy'",True
+@umerfarooq-ck3qn,2023-08-20T06:27:13Z,0,"Hello Sir , thank you so much for this playlist. Here getting an error : ValueError: A given column is not a column of the dataframe while executing 'X = preprocessor.fit_transform(X)' , even i have done with X = df.drop('reading_score',axis=1) . Please help",True
+@user-nx6ib3tv7b,2023-08-13T14:16:17Z,3,Hey Krish i have all my libraries such as numpy but when i try to run it through the ipy kernal it shows numpy not found,True
+@karth33k,2023-08-11T05:42:06Z,0,the whole EDA notebook has errors. whoever has done it...has done shit i had to resolve cell by cell ...worst delivery quality,True
+@priyankahoude7701,2023-08-05T13:31:17Z,0,sir dataset link?,True
+@malikbasitmaqsood,2023-08-03T00:20:27Z,0,To remove the Duplicate Row and keep the first Row from all Duplicate Rows:   df_unique = df.drop_duplicates(),True
+@hm2715,2023-08-02T03:14:23Z,0,20:11 😂😂😂😂😂,True
+@thatsgame7480,2023-07-28T08:29:50Z,0,"I have become mad after again and again setting up the environment,since even after installing all of the libraries but running the code it says that library is not there.",True
+@nicoleiva5498,2023-07-20T20:32:58Z,0,"Hi, if I donate ""Join this channel"" option. Do I have access to more end to end projects like this one? Thanks",True
+@anirudhkhandelwal5751,2023-07-17T17:14:35Z,0,"When I am trying to log the exception division by zero. it is showing this error: Traceback (most recent call last):   File ""src/exception.py"", line 3, in <module>     from src.logger import logging ModuleNotFoundError: No module named 'src'  Can someone help? Thank you!",True
+@rupindersingh1312,2023-07-10T09:28:23Z,1,thanks for this video 10-07-2023,True
+@abhijeetjain8228,2023-06-29T21:58:20Z,0,Thanks a lot Sir,True
+@hm2715,2023-06-10T10:09:11Z,0,done,True
+@aslanali9977,2023-06-09T10:12:44Z,2,Thanks!,True
+@opman5657,2023-06-01T09:41:30Z,1,very well explained and good job for learners like me. Thanks. Gob bless you,True
+@Mery._.11111,2023-05-25T13:39:58Z,0,Thank you so much !,True
+@user-wm5yf3le7t,2023-05-18T12:57:11Z,0,How this notebook file created?,True
+@surajpandey-er4nt,2023-05-07T18:45:18Z,1,"Hi Krish, just a small doubt I am facing an issue with installing everything through requirements.txt instead I had to install everything separately. what could be the issue here?",True
+@r.ranjankumar2106,2023-04-28T11:21:31Z,0,Im facing Module not found error even after creating the enviornment. Any help me how to fix this,True
+@r.ranjankumar2106,2023-04-28T09:29:20Z,0,"I have a doubt that how to add notebook ,data folders in git. I am unable to do it . Can Anyone help me to get out this problem??",True
+@asieharati,2023-04-27T22:48:16Z,1,You should't do the preprocessing on X. You should fit to X_train and fit_transform on X_test,True
+@sudeepmathur9654,2023-04-24T04:19:37Z,1,"Excellent video . I retired recently & just thought to keep myself engaged by learning new things , saw your video & found it very useful.  Keep it up & best wishes for  all the hard work you are doing in spreading knowledge.  -- Sudeep Mathur",True
+@shalakam1617,2023-04-21T20:28:06Z,0,Thank You for series,True
+@shalakam1617,2023-04-21T19:48:36Z,0,Thanks for this series,True
+@rajeshvenaganti6797,2023-04-20T07:43:11Z,1,"I have gone through your Python & Ml Playlist and it was a great learning experience, Thanks for this End to End Ml Project playlist, and thanks for your note that you will extend this deep learning & NLP, I am eagerly waiting for your session for deep learning & NLP implementation in this playlist,",True
+@user-jf7je4yv3b,2023-04-17T16:56:33Z,1,error occured ----------------------------------- from datetime import datetime ModuleNotFoundError: No module named 'datetime',True
+@sudhanshutiwari2644,2023-04-16T08:59:49Z,0,Sir there are some errors in the code in EDA section.,True
+@ashishsharma214,2023-04-10T14:19:21Z,2,Thank you for this amazing playlist Krish! God bless you.,True
+@insaneclutchesyt948,2023-04-05T09:05:04Z,1,"thank you very much you are the very few of those ppl who shows errors , it helps a lot , keep going!!",True
+@ravulapallivenkatagurnadha9605,2023-04-02T04:56:04Z,0,Neeed more videos like this,True
+@mahikhan5716,2023-04-01T20:49:18Z,0,"i am getting here moduleError like that : ModuleNotFoundError: No module named 'src' but as krish did , i also did same so why it's getting can anybody help please",True
+@varunraj5543,2023-04-01T07:48:34Z,0,"name 'cat_feature' is not defined . I'm getting this error , please help",True
+@amazingplaytv2661,2023-03-28T15:47:00Z,2,where do I get the data files. I mean the contents of the notebook folder?? I am coding along the series,True
+@sharifdeenashshak4496,2023-03-27T19:15:04Z,0,looking forward for deep learning end to end series,True
+@kumaronlineplay,2023-03-26T13:43:56Z,0,Excellent Video.. Thanks for sharing it.,True
+@AnimeAficionado28,2023-03-25T19:10:51Z,0,we thankful for your wonderful knowledge on ML and i have a wish if could make a Deep Learning project playlist from scratch it would be very grateful of you.,True
+@AkilaDS-kz6yv,2023-03-23T18:27:34Z,2,How can we export data and eda codings could you please explain that part?,True
+@ashishmallah9067,2023-03-22T17:51:30Z,0,df.drop_duplicates(),True
+@pacito6709,2023-03-22T16:49:30Z,0,can any one explain to me why I am unable to get venv (python)in the kernel 8:07,True
+@mahikhan5716,2023-03-22T15:56:55Z,0,Nothing be better than . He just poured everything as data science needs . Owe to him,True
+@arias2832,2023-03-21T20:02:24Z,8,"I was lost after finish an  ibm course in data science. Nobody give me a job because I don´t  have experience.  I think that with your videos i will get it. Thanks for your excelent work, really has helped me a lot. Greetings from Colombia!",True
+@Svilco,2023-03-21T07:19:23Z,0,What is the correct sci-kit learn version for 3.8,True
+@universe2dimension,2023-03-21T00:27:22Z,0,大哥自己讲嗨了,True
+@sparshjain7542,2023-03-19T20:32:04Z,0,you are the why I love machine learning,True
+@yashsoni1153,2023-03-19T09:45:24Z,2,Sir I am not able to open jupyter notebook in vs code   I thing there is error in file  Pls help me to resolve this...,True
+@don33unique95,2023-03-19T08:20:39Z,0,How to import stud.CSV file i don't get it please help me,True
+@swL1941,2023-03-18T19:55:41Z,0,If Boosting and Bagging methods are very powerful then why a simple Ridge Reg has more R2 score ??,True
+@swL1941,2023-03-18T15:34:53Z,0,"@Krish Naik  Hello Sir,  why didn't you use Cross Validation instead of Train-Test-Split ?",True
+@varshadundhigalla9474,2023-03-18T03:33:37Z,0,"to remove the duplicates, we could use df.drop_duplicates()",True
+@yashgosavi51,2023-03-17T11:40:10Z,0,"To remove the duplicates we will use  df.drop_duplicates(keep = ""first"")",True
+@PRIYASINGH-kq9fc,2023-03-16T21:16:04Z,0,Thank you so much sir❤,True
+@sanket_a2033,2023-03-15T18:45:00Z,0,Thank You Sir..,True
+@gourabguha3167,2023-03-14T16:10:52Z,6,Thanks a lot Sir for extending the series..with ci/cd pipeline and mlops..Very much looking forward to it.,True
+@d3vilgamingyt403,2023-03-14T15:51:50Z,0,df.drop duplicates,True
+@mrityunjayupadhyay7332,2023-03-14T06:01:28Z,0,great,True
+@don33unique95,2023-03-12T10:16:44Z,2,How you create notebook folder and in that EDA and model training I don't understand,True
+@don33unique95,2023-03-12T10:15:06Z,0,While test exception I got error syntax invalide I try so much time I give valid syntax but problem not fix,True
+@don33unique95,2023-03-12T10:10:37Z,0,I have doubt while running code I face syntax error in exception handling,True
+@pankajkumarbarman765,2023-03-12T06:37:55Z,0,Thank you so much sir,True
+@matindram,2023-03-12T06:23:07Z,0,Thank you for the series,True
+@ShivamPatel-yg3kd,2023-03-11T18:51:18Z,1,"Hi Sir, I have a doubt, as you have created ""total marks"" and ""average marks"" as two separate independent features, and you are doing EDA for both the features, suggested to create 2 separate models for each of them as well. But my doubt is why do we need to do the same things for both of them separately as average marks is directly correlated with total marks(total marks/3). Am I missing something? Please clarify. Love your videos 😊",True
+@dhaneshkajrolkar6925,2023-03-11T12:52:16Z,0,🔥🔥🔥🔥🔥🔥,True
+@sabinadhikari2643,2023-03-11T10:59:18Z,3,For the sns.countplot() function we have to pass the value for x. i.e sns.countplot(x=data) will work. otherwise sns.coutplot(data) will give an error.,True
+@nishantverma2966,2023-03-11T07:46:46Z,1,"How we can export the EDA, model training and data file to Visual Studio",True
+@miriyalatarunkumar8405,2023-03-10T20:25:01Z,2,"After this series I regained the interest in machine learning, thanks for timely series..👍",True
+@ncheymbamalu4013,2023-03-10T19:35:32Z,0,Adjusted R² instead of R² for the evaluation metric.,True
+@mayankporwal4858,2023-03-10T14:06:44Z,1,"Here we did not discuss about catboost_info file that is present, why is there and what is it's use?? please explain Krish sir.",True
+@PavanKumar-ut2lo,2023-03-10T13:09:32Z,0,"Hi sir, do we need any paid version software for this project?",True
+@PavanReddy-xl1uu,2023-03-10T11:31:44Z,2,"Hi everyone,  I'm getting the below error when I'm trying to run ""exception.py"" file.  (c:\Users\pavva\OneDrive\Documents\AI Project\venv) C:\Users\pavva\OneDrive\Documents\AI Project>python src/exception.py Traceback (most recent call last):   File ""src/exception.py"", line 2, in <module>     from src.logger import logging ModuleNotFoundError: No module named 'src'  I did import this line ""from src.logger import logging"" in exception.py. All the files name are correct and it's in proper order.  Can someone help me? Thank you.",True
+@mayankporwal4858,2023-03-10T10:22:26Z,0,df.drop_duplicate() code to delete duplicates from dataframe,True
+@Laizin,2023-03-10T07:55:19Z,4,anyone getting an error related to installing catboost?? or is it just me?,True
+@pankajkumarbarman765,2023-03-10T03:33:36Z,0,Thank You So much sir 💗,True
+@sumitbarua9121,2023-03-09T18:50:48Z,0,drop_duplicates(),True
+@robinchriqui2407,2023-03-09T17:23:21Z,0,"Thank you, Krish. It refreshed a lot of information and skills I'm looking forward to seeing the automation and deployment part of it. Will you integrate the ML Ops part in the future?",True
+@laxmanteja,2023-03-09T17:02:33Z,0,"I'm very interested Krish about your teaching techniques and in this end-to-end project, can I expect automation of the project with code",True
+@tejas.parjane,2023-03-09T16:35:31Z,1,I am facing error no module found src can anyone help me with this,True
+@shahirajlakade7921,2023-03-09T16:32:45Z,1,sir any upcoming data analyst batch missed 50% off offer😔,True
+@jaybodar1770,2023-03-09T16:22:09Z,0,can we use this ==> df.drop_duplicates() ?? Is there any other better way to handel this?,True
+@nirbhaysedha8541,2023-03-09T15:16:38Z,0,thanks sir  it will help us a lot🙏,True
+@rahulsharma5693,2023-03-09T13:09:03Z,4,"Hi Krish, when I try to do from src.logger import logging, it gives error no module named src, but if i do from logger import logging then it works? any idea???",True
+@chetannandanwar8518,2023-03-09T12:39:47Z,0,df = df.drop_duplicates(),True
+@rohitbharti2882,2023-03-09T12:02:15Z,0,So much happy sir ❤❤❤,True
+@talibdaryabi9434,2023-03-09T10:34:34Z,16,I wonder why most of those who watch it learn something well but don't press the like button. I think this is the least you can do it. So please support those who try to teach the world-class method for free.,True
+@sumanthpabba8300,2023-03-09T10:28:32Z,0,df.drop_duplicates(),True
+@suvarnapawar3186,2023-03-09T10:18:40Z,0,very nice explaination sir...thank u very much,True
+@theorganics5427,2023-03-09T09:20:28Z,0,Dropduplicate (),True
+@shahilshrestha3700,2023-03-09T09:10:28Z,0,thank you so much sir for your video. I am learning a lot of new concept in better explaination  all because of you,True
+@video89652,2023-03-09T09:03:13Z,0,"Hello Krish, is there any projects that solved Direction of Arrival Problem in Audio Signal Processing. Can you do a tutorial on it",True
+@sand9282,2023-03-09T08:08:07Z,0,I have a question what will happen if we don't strike out the '-e.' and build the package again and again while executing it? will it overwrite the earlier package and cause any problem in practice?,True
+@javeedtech,2023-03-09T07:41:11Z,8,"After this series I regained the interest in machine learning, thanks for timely series..👍",True
+@hmtbt4122,2023-03-09T06:52:28Z,0,thanks,True
+@harishs-dm8mm,2023-03-09T06:06:43Z,3,Hii Krish thanks for extending the project. Please include Data and model versioning and mlops practices,True
+@nanditagautam6310,2023-03-09T05:39:24Z,0,Great ! Thanks Krish,True
+@sibaprasadnaikbehera3442,2023-03-09T05:34:35Z,0,Thank you for problem statement sir we are eagerly waiting for that,True
+@sagarthacker5114,2023-03-09T05:25:04Z,3,"Hello Krish, I was hoping to ask for your opinion on a particular aspect of data preprocessing. Shouldn't we perform data splitting first to prevent data leakage, as standard scaling considers the mean and variance of the entire dataset? This may include the test set, leading to potential data leakage. Would you kindly share your thoughts on this topic? Thank you very much.",True
+@thomasshelby2357,2023-03-09T05:05:15Z,0,"Please do deployment projects with tensorflow, where the library size is large, these easy deployments with sklearn won't help anyone",True
+@harendrakumar7647,2023-03-09T04:41:59Z,0,Create any ai as an api project,True
+@rishiraj2548,2023-03-09T04:26:46Z,0,😇🙏💯,True
+@gauravmishra7591,2023-03-09T04:19:16Z,2,Please make a Pyspark end to end project like a real world,True
+@abhijeetrokade2349,2023-03-09T04:07:37Z,0,Which kinds of project need to choose when we preparing for interview?,True
+@miteshpawanarkar7588,2023-03-09T04:06:40Z,0,What is eda?,True
+@kumarsrajesh9078,2023-03-09T04:02:58Z,0,Please make a end to end project of pyspark,True
+@sh__--,2023-03-09T04:02:47Z,0,Thanks 😊,True
+@javeedtech,2023-03-09T01:11:36Z,0,Thanks again,True
+@krishnaik06,2023-03-08T20:46:16Z,11,"Join this channel membership to get access to materials and connect with me: https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig/join",True

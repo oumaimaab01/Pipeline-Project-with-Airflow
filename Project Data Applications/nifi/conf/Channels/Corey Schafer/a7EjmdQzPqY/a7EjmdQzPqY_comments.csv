@@ -1,0 +1,75 @@
+author,updated_at,like_count,text,public
+@devworks8787,2023-07-03T21:19:10Z,0,This is the proper video for memoization explained for Python while most use the Fibonacci example,True
+@karimmoradi2003,2023-05-17T09:04:59Z,0,"As always, very nice explanation Corey, Thanks. What about using functools.cache decorator?",True
+@monireachtang712,2023-05-14T07:52:50Z,0,Very clear and easy to understand! Thank you for sharing.,True
+@jiernade4585,2023-03-20T06:07:33Z,0,Last minute assignment anyone? xd,True
+@augiblutz2852,2022-11-18T16:15:22Z,0,well done,True
+@63montywilliams50,2022-10-11T13:52:12Z,0,"been rockin with you for a while now, good content mr chaffer!",True
+@wartem,2022-08-19T10:37:29Z,0,This is brilliant,True
+@ryan-tabar,2022-06-05T12:22:33Z,10,"# You can turn the process into a decorator so you can add it to any function  def memoization(original_function):     cache = {}     def inner_function(arg):         if arg in cache:             print(f""Result was retrieved from cache."")             return cache[arg]         else:             print(f""Memoizing result of function {original_function.__name__}({arg})."")             cache[arg] = original_function(arg)             return cache[arg]     return inner_function   @memoization def square(number):     return number ** 2",True
+@VictorSantos-yb8ir,2022-01-17T11:26:51Z,0,Thanks!,True
+@Leonardo-jv1ls,2022-01-04T20:05:23Z,0,"When I have a doubt about anything in this world, i go to youtube and write ""corey schafer +anything"". If not found, i quit of learning it.",True
+@anim3197,2021-11-25T20:23:29Z,0,Very well explained. Thank you!,True
+@wouterspelt,2021-09-03T13:43:50Z,0,Clear explanation! Thanks.,True
+@shahrearbinamin9943,2021-07-06T19:59:55Z,0,Programmers don't use Slides they use localhost 😀 Jokes apart great series,True
+@luizfelipels7,2021-05-27T02:34:31Z,0,Such a fancy name for a simple idea.,True
+@mymantra4,2021-04-18T15:30:54Z,0,Plz zoom the code,True
+@quinnwang6929,2021-02-28T08:47:37Z,0,"Great presentation. Is it okay to use ""list"" instead of ""dictionary"" in the ef_cache? Thx.",True
+@antoniosaqueton3293,2021-02-10T00:19:17Z,0,"Hope you can come up with tutorials on data structures or at the least, recursion. Please help a brother out!",True
+@technicallearning5379,2021-01-27T22:49:22Z,0,anyone else in the 1.5x speed club?,True
+@corbettknoff5123,2021-01-19T21:50:13Z,0,Whenever I don't understand something and I find a Corey Schafer video I'm always relieved.  I know I'm finally going to understand it.,True
+@poorna685,2021-01-03T15:00:01Z,1,i thought he would explain about lru_cache,True
+@ridwankustanto6009,2020-11-22T14:38:18Z,0,"very clear and clean explanation, thanks!!!",True
+@connormichalec,2020-10-03T07:02:35Z,0,I came hear to learn how to pronounce the word,True
+@johnc7436,2020-09-27T21:41:05Z,0,Good,True
+@rohanpednekar8074,2020-09-02T14:17:41Z,0,Great !,True
+@ashishkumarnath1259,2020-08-31T05:41:43Z,0,"You are god!!!!, thank you so much!",True
+@lisandrofilloy5126,2020-08-19T18:26:21Z,0,Great work Corey!,True
+@ziqb,2020-07-03T09:56:27Z,5,"All my life, I had been calling it caching ..",True
+@_slier,2020-06-15T01:55:19Z,1,Im just gonna save ur time..Memoization is purely caching...,True
+@jean-michelcid9594,2020-05-09T08:57:50Z,1,amazing!!!!,True
+@kesh4505,2020-05-08T18:56:31Z,3,best explanation !,True
+@kavitatoragal2911,2020-04-24T06:16:55Z,0,How do you show the time spent [Finished in _s]? Is it some configuration?,True
+@adrianmoscovciuc4297,2020-04-23T11:25:43Z,0,"Nice video Corey, thx for teaching us all this info. For all of you that need and example of the memoization used, you can reffer to the Socratica video on fibonacci sequence: https://www.youtube.com/watch?v=Qk0zUZW-U_M , with those two videos you will be able to understand better the concept.",True
+@hubertcombomarketing2693,2020-04-12T16:53:21Z,0,Good as always. Thanks.,True
+@user-xc5xf8gp8n,2020-03-06T13:19:45Z,28,"Summary: Memoization refers to the mechanism that makes a function not having to compute the output using an input, when the function has been executed using the same input before. This is possible because the computer memorizes the input:output pair.   This tool can be demonstrated in python using an if statement and a dictionary outside the function.",True
+@pipboy214,2020-02-09T00:03:49Z,0,"Maybe your video is good for a first grasp of the term, and you could say thats the point, but memoization is also a technique that doesn't need an external data structure to work, i sugest you to read and maybe talk about it, cause nobody wants dirty globals or spaghetti oriented programming, when You can implement a memoized pure function.",True
+@hatemsabrey,2020-01-15T17:14:30Z,0,"how to show that command says [Finished in 4.0s], i did not find it in vsCode, appreciate your help.",True
+@dipankararora2633,2020-01-07T12:30:59Z,1,your videos are too good.,True
+@theartist8835,2019-12-31T22:31:31Z,0,A very beautiful playlist ❤️ do more of these please. They're so useful,True
+@bernoulli9047,2019-12-29T18:22:32Z,0,"If you're looking to make an intermediate series of videos, memoization using Python 3's functools.lru_cache would be pretty cool.",True
+@piotrmazgaj,2019-12-04T22:26:14Z,0,"please see also: Recursion, the Fibonacci Sequence and Memoization   https://www.youtube.com/watch?v=Qk0zUZW-U_M",True
+@navjotmannan7303,2019-11-24T00:26:06Z,1,Awesome explanation!!,True
+@khireddinebelkhiri725,2019-10-05T20:05:32Z,1,thank you thank you thank you,True
+@maxim9280,2019-09-15T21:51:55Z,1,"But this only seems useful when you've multiple calls of the same function with the same arguments. My point is, what could this possibly be for in a program? In many applications a function is called as many times as the program itself is called. But the cache gets cleared anyway. Could this method be used here?",True
+@maxim9280,2019-09-15T21:49:23Z,1,At last a clear cut explanation.,True
+@samwilliams4024,2019-09-04T14:23:58Z,3,Huge fan of your videos Corey!    The functools.lru_cache decorator is also a great way to implement memoization on functions.,True
+@jonathanwhite2715,2019-07-13T00:29:45Z,1,Thanks. Easy to understand,True
+@charlesokoyoh,2019-06-16T05:39:35Z,1,Thank you Corey,True
+@Lahiru_Udana,2019-06-09T12:22:57Z,0,Thanks for the great video,True
+@krishnar9932,2019-06-06T16:02:51Z,1,Simplified explanation. Thanks,True
+@snoopyjc,2019-06-02T06:02:12Z,1,How are you using “print” without () ?,True
+@monk_,2019-03-27T04:55:01Z,103,"Every time I hear ""Memoization"" I imagine someone saying ""Memorization"" in a baby voice.",True
+@Usammityduzntafraidofanythin,2019-02-02T07:20:15Z,0,"Shouldn't the block after the if in the expensive function still execute after the if executed, even if there is a value put in that matches what's in dictionary?",True
+@roy6787,2018-11-22T21:41:54Z,2,"Holy Moly! Thanks for that, bro. Really helps me optimized my program!",True
+@anon-sl4vp,2018-11-20T02:49:33Z,2,another brilliant video :) love learning about programming terms and such... if you could do an advanced playlist of the terms maybe in more detail/other ones would be great :) love learning concepts which like you say are not syntax/prog_lang specific.. act learning the blueprints so to speak of how and why it works,True
+@sairajdas6692,2018-09-07T22:46:12Z,1,Excellent video,True
+@TheTruthFadeswithTime28,2018-07-13T00:58:56Z,1,Can you do a video on recursion ?,True
+@myles199,2018-05-09T14:46:41Z,114,My lecturer spent 2 hours trying to explain this to us didn't understand a thing. You done it in 5 and it makes total sense. THANKS!!,True
+@ayizeakono8492,2018-04-23T00:04:52Z,1,All your videos are well organized and delivered....thanks so much for sharing!!!!,True
+@stevendye249,2018-03-01T16:10:20Z,0,Why don't we need an else statement after the if statement in expensive_func?,True
+@user-df1bh9on5v,2018-02-09T08:44:13Z,0,"Thank you for your work, perfectly explain!",True
+@techfornoobs4241,2018-01-25T16:43:33Z,3,This is an awesome explanation. thank you so much!,True
+@davidm.johnston8994,2017-12-31T09:58:43Z,0,"I love you man, your videos are just so useful and easy to understand. Thanks",True
+@abinash138,2017-12-06T16:20:55Z,0,what is the use of sleep in this program,True
+@smallblueflower,2017-10-13T06:58:06Z,0,You're videos are great! Thank you!,True
+@noelrivero8070,2017-08-22T18:47:41Z,0,Perfect!!!,True
+@darshanmm9,2017-07-28T14:32:27Z,4,Hi Corey I become your fan! i never seen anyone teach with such clearity on youtube😊👍,True
+@chrishau6178,2017-06-25T02:58:41Z,0,Will the caching still work if you import the function into a separate program?,True
+@amr3162,2017-06-06T06:55:45Z,7,"Dude you're literally god, I just finished your first class functions, closure,  and decorators videos and while watching this I realized how useful it would be to implement memoization using a decorator.",True
+@abuyusufansari6620,2017-03-18T04:35:35Z,0,Thank you for this nice explanation.,True
+@futurestar1000,2017-01-29T05:38:06Z,0,such smooth explanation corey \/,True
+@hustels,2016-07-25T11:55:06Z,5,Amazing tutorials.,True
+@pythoninnovate2428,2016-07-10T16:46:09Z,0,"Like your videos on Python ...   Quick query on this video: Im a beginner so a very simple query though:  How did you get the time of the overall execution of the program, i mean 4.0s or 2.0s in this video? Any inputs on how to get it in 'pycharm' will be helpful.",True
+@robinfrancis9914,2016-04-20T06:40:50Z,4,You are a great teacher!!,True
+@Voorhees_Metal_Productions,2016-02-20T23:53:30Z,27,"Awesome. Short, simple, and straight to the point. Thank you.",True

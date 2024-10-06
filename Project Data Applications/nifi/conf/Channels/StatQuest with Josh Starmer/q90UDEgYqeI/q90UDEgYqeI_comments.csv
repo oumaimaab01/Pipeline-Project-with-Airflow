@@ -1,0 +1,232 @@
+author,updated_at,like_count,text,public
+@statquest,2020-06-07T01:51:15Z,26,NOTE: You can support StatQuest by purchasing the Jupyter Notebook and Python code seen in this video here: https://statquest.gumroad.com/l/tzxoh  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/,True
+@beautforve,2024-03-28T13:26:29Z,0,use this for import confusion matrix: from sklearn.metrics import ConfusionMatrixDisplay,True
+@bayesian7404,2024-03-19T02:11:20Z,1,You are fantastic! I'm hooked on your videos. Thank you for all your work.,True
+@juniotomas8563,2024-03-07T00:03:57Z,1,"Come on, Buddy! I've just saw a recommendation to your channel and on the first video I see you with a Brazilian t-shirt. Nice surprise!",True
+@sumanthkumar4035,2024-03-04T22:27:10Z,0,"I know I'm almost 4 years late, can I please get the jupyter notebook link . Thank you",True
+@amalsakr1381,2024-02-16T22:31:59Z,1,Thank you for your powerful tutrial,True
+@lucillewiid5476,2024-02-07T14:01:18Z,0,"Hi, Josh, recommend your videos to all my students and love watching and learning from them 👍.  Can we still download this notebook?? Or do we need to buy it?? Regards from South Africa!",True
+@naveenagrawal_nice,2024-01-20T14:57:27Z,1,"Love this channel, Thank you Josh",True
+@PapiJack,2024-01-19T13:24:49Z,0,Where can I get the code for this webinar? Thanks.,True
+@wtfJonKnowNothing,2024-01-11T02:58:37Z,2,Bro thinks he's Josh 💀(he is),True
+@abdelrazzaqabuhejleh6625,2024-01-02T13:32:43Z,0,"Thank you for this valuable explanation :D I have a question tho, what do we learn from the graph in 51:48?",True
+@spidboy42,2023-12-14T08:54:34Z,1,"Hello Josh, How do u manage to reply to every single comment on every video? Have you written some sort of code for this purpose?",True
+@nidhipandey8004,2023-12-12T08:01:46Z,0,isn't gini between 0-0.5?,True
+@InternatoMiguel,2023-12-01T15:30:20Z,0,"Hello Josh, thank you so much for another great video! Did you end up doing a webinar on inputting values? If so, where can I find it? :)",True
+@avramdiy,2023-10-20T01:28:10Z,1,"great insight and refresher, thank you for documenting",True
+@user-lc8gc6vb3j,2023-09-18T08:50:37Z,2,"Thank you, this video helped me a lot! For anyone else following along in 2023, the way the confusion matrix is drawn here didn't work for me anymore. I replaced it with the following code:  cm = confusion_matrix(y_test, clf_dt_pruned.predict(x_test), labels = clf_dt_pruned.classes_)  disp = ConfusionMatrixDisplay(confusion_matrix = cm, display_labels=['Does not have HD', ""Has HD""])  disp.plot()  plt.show()",True
+@willw4096,2023-08-31T20:59:11Z,0,1:00:20 Use color to visualize the category and the Gini impurity,True
+@nishantkhandelwal1609,2023-08-08T07:01:41Z,0,hi josh can i get the copy of this notebook now  please reply !! it will be very helpfull,True
+@jimwest63,2023-04-22T11:59:32Z,1,Thanks!,True
+@pfever,2023-04-10T05:36:37Z,0,"Thank you, this video is so helpful! :) I have a question, Categorical data is transformed utilizing one-hot encoding. What about nominal data?  For example student year: 1, 2, 3, 4. In this case the order is meaningful. I guess we should we keep the features nominal data as float64?",True
+@romanmerzifonyan2429,2023-04-04T12:24:56Z,0,"I have a question about Cost Complexity Pruning part:  In ""How to Prune Regression Trees"" video, you told, we choose the candidate alpha values from not just training dataset but from all data. However, here you choose candidate alphas from just training datasets('46:47'): path = clf_dt.cost_complexity_pruning_path(X_train, y_train) Why?",True
+@amc9520,2023-03-28T19:42:28Z,1,Thanks for making my life easy.,True
+@divyapandey3122,2023-02-22T03:26:19Z,0,Can you please share the copy or link of the jupyter code here too. Thanks in advance,True
+@rajatjain7465,2023-02-20T16:58:46Z,1,"wowowowwo the best course ever, even better than all those paid quests thank you @josh stramer for these materials",True
+@JoRoCaRa,2023-02-17T01:49:16Z,1,brooo... this is insane!! thanks so much! this is amazing saving me so many headaches,True
+@Moiez101,2023-02-14T09:31:55Z,1,"1 hour statquest? in the words of Barney Rubble's son: ""BAM BAM!""",True
+@korcankomili7398,2023-01-09T20:47:23Z,1,I wish you were my uncle Josh or something. I could imagine how hard I would have had discussions with my parents to spend time with my TRIPLE cool uncle.,True
+@SarveshRelekar,2023-01-07T05:08:22Z,0,Hi Josh! I had a question regarding why you would use One Hot Encoding instead of Label Encoding in this case. Wouldn't One Hot Encoding result in an increased number of dimensions and that would actually cause the Decision Tree algorithm to overfit ?,True
+@CoolKidintheBlock,2022-12-24T05:51:08Z,0,44:37,True
+@jahanvi9429,2022-12-14T06:50:36Z,5,You are so so helpful!! I am a data science major and your videos saved my academics. Thank you!!,True
+@felipeaccioly8671,2022-12-02T16:13:30Z,1,"A Brasil flag t-shirt,  DOUBLE BAM!",True
+@ubaidnafisramadhan8830,2022-11-26T09:14:33Z,0,Why the cross validation is using the training data instead of testing data?  51:50,True
+@ubaidnafisramadhan8830,2022-11-01T00:43:00Z,0,what is the alpha formula if we want to do it manually?,True
+@awahritaengwari2915,2022-10-13T08:18:46Z,1,"Thank you so much,",True
+@user-qo7bz5em3u,2022-10-10T06:51:33Z,0,"Great tutorial! But unfortunately, I´m struggling at min 48. How could it be, that I get a negative ccp_alpha of -2.168404344971009e-19? y values are 0 or 1 and all X values are positive? Have someone an idea what´s the reason for?",True
+@ksheerabdhisamantaray7410,2022-09-13T17:15:05Z,0,"Very good tutorial and your channel is blessing.  I have one doubt, in your video of pruning (clearly explained), you mention to find the alpha values first build a tree on both training and testing data and then use those values on train dataset. But here you directly did on train set. Is there a reason for this? or if you could mention what is the better way out of these two.",True
+@aalaptube,2022-08-16T12:41:42Z,0,"You mentioned sklearn is not great for lot of data. In terms of size of data, how much is a lot? 1, 10, 100GB? For those cases, what are the options?  Also, what does the function cost_complexity_pruning_path do? How did it build the array of the value of alphas? In the other StatQuest video of using α, we just checked some specific values...",True
+@vaishnavibangar7423,2022-08-12T14:31:17Z,1,great!,True
+@munagalavenkatesh7166,2022-08-11T00:47:39Z,1,BAM I like u r videos,True
+@utkarshsingh2675,2022-08-10T18:52:02Z,1,this is what I have been looking for on youtube...thanks alot sir!!,True
+@beshosamir8978,2022-07-26T17:51:44Z,0,"Hi Josh , quick question , in ur video about cost complexity pruning u said that u determine alphas using all data but here u just used a train data , so what is the idea ????",True
+@bessa0,2022-07-25T02:40:29Z,1,Kind Regards from Brazil. Loved your book!,True
+@bressanini,2022-07-20T23:07:31Z,1,"Hey Josh, follow this equation: You + Brazilian Flag Polo Shirt + Awesome Content = TRIPPLE BAM!!!",True
+@njorogekamau3820,2022-07-16T20:11:10Z,0,Form yako?😂😂,True
+@anishchhabra5313,2022-07-16T12:08:41Z,1,This is legen..... wait for it  ....dary!! 😎 This detailed coding explanation of Decision Tree is hard to find but Josh you are brilliant. Thank you for such a great video.,True
+@DanteNoguez,2022-07-12T21:13:41Z,1,"Double BAM! Haha, I love this guy",True
+@mohammedalialbashar7921,2022-06-23T09:19:13Z,0,"I've some questions  what's was your's methodology that's you used, what's is interperet, did you used any Descriptive Statistical Analysis or Data Exploratory",True
+@Mustistics,2022-06-01T12:00:35Z,0,"I don't understand something. At minute 49, you write clf_dt.score(x-train, ytrain), but where did this ""score"" came from? You didn't import it anywhere. I'm guessing it's accuracy, but what if I wanted to use recall or precision instead? What would I need to type?",True
+@krishanudebnath1959,2022-05-27T09:11:26Z,1,love the tabla and ur content,True
+@asifwagan4,2022-05-17T17:04:10Z,0,"Respected Sir,  I need this jupyter notebook.",True
+@Mustistics,2022-05-11T08:05:58Z,1,"Hey Josh.  One thing that bugs me about this tutorial: when you do binary classification, you need to take into account class imbalance. Accuracy is the worst metric for this. Was that neglected for a reason?",True
+@sabyasachidas142,2022-05-11T04:12:44Z,0,"Thanks Josh for the awesome tutorial. I've one question. While one hot encoding, we also pass drop_first=True as an argument to avoid multicollinearity while performing regression. But we didn't do it for this classification problem. Is it not required?",True
+@jonastrex05,2022-05-06T07:31:14Z,1,Amazing video! One of the best out there for this Education! Thank you Josh,True
+@darenpurnell3237,2022-05-05T00:14:07Z,0,"Hello Josh, I just order the decision tree from start to finish.  after i paid what PayPal, I clicked the zip file and was booted off the site. please help",True
+@beebee_0136,2022-04-29T14:40:41Z,0,I'd like to thank you so much for making this stream cast available!,True
+@prnv5,2022-04-23T04:45:22Z,0,"Hi Josh! I'm a HS student trying to learn ML algorithms and your videos are genuinely my saving grace. They're so concise, information heavy and educational. I understand concepts perfectly through your statquests, and I'm really grateful for that.   One quick question: The algorithm used in this case to build a decision tree: is it the CART algorithm? I'm writing a paper on the CART algorithm and would hence like to confirm the same. Thanks again!",True
+@fernandosicos,2022-04-12T18:11:24Z,1,greatings from Brazil!,True
+@beibeima524,2022-04-11T14:10:02Z,0,"Hi Josh, Thanks so much for the video! My Question is should we do one hot encoding before or after splitting the data into training and testing set? Thanks!",True
+@luiz_mubarak6804,2022-04-03T22:04:15Z,1,Voçê esta com a camisa do Brasil????,True
+@shannonli8697,2022-04-02T13:51:22Z,0,can we use classification regression model to deal with this dataset ?,True
+@shannonli8697,2022-04-02T13:47:18Z,0,"DT doesn't need to deal with missing values , right?",True
+@filosofiadetalhista,2022-03-27T13:34:25Z,1,Loved it. I am working on Decision Trees on my job this week.,True
+@randyluong6275,2022-03-16T06:11:24Z,1,"We have data scientist out there. We have ""data artist"" right in this video.",True
+@khashayarsalehi6779,2022-03-11T13:38:55Z,0,"Thanks for this great tutorial! I have a question though, I tried decision tree regressor but at the end the pruned tree returns the same high value too far out of the range for all the inputs!  Also the accuracy for train and test sets decreases by increasing of alpha! Can you help me to understand how the tree is returning the same unreasonable value for all the inputs?",True
+@SuperGambler92,2022-03-04T15:45:54Z,0,"If I use a decision tree for classification if a word is ""easy"" or ""hard"". Would you also input the word as a vector or just the properties for the word (e.g. length, occurence, count of vocals etc..)?",True
+@dmoriasi,2022-02-25T08:09:31Z,0,Your singing sucks! but you're alright! Thanks for all that you do!,True
+@mauriciolobo1642,2022-02-19T11:57:32Z,1,Nice T-Shirt!  🇧🇷,True
+@DishantKothia,2022-02-05T20:15:43Z,1,You're the best,True
+@michelchaghoury870,2022-01-27T21:09:12Z,1,MANNNN so usefull please keep going,True
+@alpatul,2022-01-10T16:28:23Z,2,"This is great,  do you have any more python webinars related to machine learning? I would love to go through them.",True
+@toniiicarbonelll287,2021-12-30T15:00:18Z,1,we love you we always will,True
+@aleksandartta,2021-12-29T22:57:21Z,0,How to implement pipeline with cost complexity? Consider the marking part which start before 49:00... Thank in advance! You are the best teacher...,True
+@haoranzhang3993,2021-12-19T03:26:43Z,0,"Thank you Josh for the nice videos! Questions: 1) What is accuracy? Is there a relationship between Gini impurity/Sum of squared residuals and accuracy (i.e. Lower Gini impurity means higher accuracy)? 2) Once we create a tree classifier with a certain alpha, will different training data sets give different fitted trees? And how are they different?",True
+@asa-zn6xh,2021-12-07T12:19:27Z,1,E essa camisa do Brasil aí?? País que eu amo tanto!!,True
+@vipanpatial2243,2021-11-22T21:46:08Z,2,BAM!! You are best.,True
+@vipanpatial2243,2021-11-22T21:45:40Z,1,BAM!! You are best.,True
+@Phil36ful,2021-10-31T13:13:11Z,0,Hi which algorithm was used here to make a tree? Is it ID3?  Is there any guide for c4.5?,True
+@gbchrs,2021-09-30T16:39:50Z,1,your channel is the best at explaining complex machine learning algorithm step by step. please make more videos ,True
+@mohitkopparthi18,2021-09-30T13:36:23Z,0,how can we delete a coloumn in training and test data set,True
+@thesleeplesscoben,2021-09-26T09:58:08Z,0,"I understand that Logistic Regression requires continuous variables to be separated into bins and coarse classed to ensure that the final model is created with binary variables only, does this apply to Decision Trees as well?",True
+@PinkFloydTheDarkSide,2021-09-25T23:08:07Z,0,Somehow your room and furniture remind me of my grad building room at the Univ. of Chicago.,True
+@TalesLimaFonseca,2021-09-23T21:03:36Z,1,"Man, you are awesome! Vai BRASIL!!!",True
+@Kenwei02,2021-09-23T02:42:23Z,1,Thank you so much for this tutorial! This has helped me out a lot!,True
+@AI_Financier,2021-09-17T03:00:28Z,0,"Dear Josh, great video, many thanks, Just wondering, did you smoke weed a couple of minutes before recording this :)",True
+@catalystamlan,2021-09-09T08:14:35Z,1,"Hurray, I tip my hat. Small BAM!",True
+@josephgan1262,2021-09-08T02:11:49Z,0,"Hi Josh, Thanks for the video again!!. I have some questions hope you don't mind to clarify in regards to pruning in general hyperparameter tuning. I see that in general the video has done the following to find the best alpha.  1) After train test split, find the best alpha after comparison between test and training (single split). @50:32  2) Rechecking the best alpha by doing CV @52:33. It is checked that that is huge variation in the accuracy, and this implies that alpha is sensitive to different training set.  3) Redo the CV for to find the best alpha by taking the mean of accuracy for each alpha.  a) At step two, do we still need to plot the training set accuracy to check for overfitting? (it is always mention that we should compare training & testing set accuracy to check for overfitting) but there is an debate on this as well. ( Where other party mentioned that for a model-A of training/test accuracy of 99/90% vs another model-B : 85/85%. We should pick model-A with 99/90% accuracy because 90% testing accuracy is higher than 85% even though the model-B has no gap (overfitting) between train & test. What's your thought on this?   b) What if I don't do step 1) and 2) and straight to step 3) is this a bad practice? do i still need to plot the training accuracy to compare with test accuracy if I skip step 1 and step 2? Thanks.  c) I always see that the final hyper parameter is decided on highest mean of accuracy of all K-folds. Do we need to consider the impact of variance in K-fold? surely we don't want our accuracy to jump all over the place if taken into production. if yes, what is general rule of thumb if the variance in accuracy is consider bad.  Sorry for the long posting. Thanks!",True
+@zhihaoxu8119,2021-08-31T20:13:32Z,0,Hi Josh! Thanks for the content. I wonder where is the webinar related to how to handle missing data you mentioned in this video? Thanks!,True
+@whoisabishag3433,2021-08-30T04:49:14Z,0,51:22 ... Part 2 CV,True
+@abdelrhmansayed5436,2021-08-29T22:15:00Z,1,"thank you for your great effort and simple explanation, i have only one question that is why did you split the data into X_train and y_trrain and then give it to cross_val_score , shouldn't coss validtion works on all X ?",True
+@_ahahahahaha9326,2021-08-26T14:48:23Z,1,Really learn a lot from you,True
+@xenofon939,2021-08-24T00:45:29Z,0,"Can we hyper tune the parameters(not only alpha) with gridsearch ? (extra cross val) maybe we can optimize the tree to work even better? So we can have the cross val for alpha, and we can add a gridsearch for max_leafs ,gini,entropy,samples  Thanks in advance",True
+@julescesar4779,2021-08-03T16:23:42Z,1,thank you so much sir for sharing,True
+@masudmasudi6047,2021-08-01T13:05:14Z,0,how can I get this notebook file?,True
+@ProjectDataHub,2021-07-31T11:50:41Z,0,How do you know the order to list the display labels in the in plot_confusion_matrix function?,True
+@rohit2761,2021-07-27T18:42:33Z,0,Can someone provide me with code link >?  I am financially restrained and trying to move into Data Science. Cannot afford to pay. Thanks and Regards  (Love from India),True
+@6223086,2021-07-24T11:30:22Z,0,"Hi Josh, I have a question, at 1:01:03 , if we interpret the tree, on the right split from the root node, we first went from a node with Gini Score of 0.346 (cp_4.0 <= 0.5) to a Gini Score of 0.4999 (oldpeak <= 0.55), we learnt that Gini Score are supposed to decrease as we descend the tree, why did the Gini score increase here?  Thank you so much, love ur videos",True
+@sharmakartikeya,2021-07-16T10:32:53Z,1,Hurray! I saw your face for the first time! Nice to see one of those whom I have subscribed,True
+@anutseksharma2811,2021-07-03T11:06:40Z,0,"hy, many thanks for this video! this is helping me a lot. I am facing problem here, when i type - X_train, X_test, y_train, y_test = train_test_split(x_encoded, y, random_state=42). I am getting error - name 'train_test_split' is not defined. please help me out here. thanks again",True
+@renekokoschka707,2021-06-30T11:49:31Z,6,I just started my bachelor thesis and i really wanted to thank you! Your videos are helping me so much. You are a LEGEND!!!!!,True
+@ozzyfromspace,2021-06-21T22:48:46Z,2,"I dunno how I stumbled on your channel a few videos ago, but you've really got me interested in statistics. Nice Work sir 😃",True
+@lelandconn,2021-06-18T16:22:01Z,0,Im facing the error:  'DecisionTreeClassifier' object has no attribute 'cost_complexity_pruning_path'  Please help,True
+@rohitrajora9832,2021-06-11T19:04:04Z,0,"Hey Josh, I have a doubt - In the regression pruning video, the first step to pruning was to use all of the data i.e the training and the testing to build trees with different alpha values But in this tutorial we have only used the training data to get the different values of alpha. Is this because we are pruning a classification decision tree and not a regression decision tree?",True
+@rohitrajora9832,2021-06-11T14:25:26Z,0,"Can someone please share the dataset csv file (when i tried downloading it, the website came up with this- ""I'm sorry, the dataset ""machine-learning-databases"" does not appear to exist"" )",True
+@AstroT2340,2021-06-11T08:14:07Z,0,Should the same method be used when the y-value is not binary?,True
+@paulomathias974,2021-06-10T19:50:03Z,0,"Josh, first of all, thanks a lot for your videos. They certainly are the best to learn machine learn and it helps a lot to understand complex concepts. My question is: how to input X to a trained model in python so that it outputs a y value? When I perform the test phase, I already have the y value, but in practice, this is the value which I expect the model to answer me. Best regards",True
+@TheKukun123,2021-06-06T20:27:58Z,0,"when i want to plot the confusion matrix, the following error occurs at the import library stage :  ImportError: cannot import name 'plot_confusion_matrix' from 'sklearn.metrics' (C:\Users\hp\Anaconda3\lib\site-packages\sklearn\metrics\__init__.py)..   what do i do to rectify this?",True
+@HB-ys9rt,2021-06-04T19:01:46Z,0,"You're a great professor. One point that I'd like to ask for your opinion is that once you created dummy variables for a categorical variable with several levels, you did not remove one of the dimensions from X. Do you think that multicollinearity would be causing a bias in the model?",True
+@nataliatenoriomaia1635,2021-05-29T16:27:56Z,1,"Great video, Josh! Thanks for sharing it with us. And I have to say: the Brazilian shirt looks great on you!  ;-)",True
+@swarajlandge6713,2021-05-09T13:25:58Z,0,"PLEASE PROVIDE ME THIS CODE,IT WOULD BE HELPFUL FOR ME JOSH.",True
+@mrlfcynwa,2021-05-08T02:01:25Z,0,Thanks for this! I just have a quick feedback that it would've been great had you touched upon how to interpret the leaves of the decision tree,True
+@teng2175,2021-04-30T04:22:10Z,0,"SIr, what if the dataset is imbalanced data? will i need to put class_weight='balanced'?",True
+@chaitanyasharma6270,2021-04-27T09:50:39Z,0,48:43 why do we not use the maximum value of alpha? Anyone?,True
+@claudiomarcio7579,2021-04-22T17:39:50Z,1,nice Brasilian flag shirt,True
+@chaitanyasharma6270,2021-04-20T08:20:34Z,1,i loved your video support vector machines in python from start to finish and this one too!!! can you make more on different algorithms?,True
+@patite3103,2021-04-20T07:00:03Z,0,thank you for this video! Would it be possible to do a similar video with random forest and regression trees?,True
+@rogertea1857,2021-04-18T08:28:40Z,0,Pruning is better than setting max_depth or min_samples beforehand overall I guess. Thanks for another great tutorial  : ）,True
+@apostolosmavropoulos177,2021-04-16T14:43:42Z,0,Amazing content as always! I have a question. I'm trying Multiclass classification with decision trees and my accuracy plot per value of alpha for test set 49:12 is monotnously decreasing. How can i interprete  such behavior?,True
+@breopardo6691,2021-04-15T10:01:20Z,5,"As Tina Turner would say: ""You are simply the best!"" 🎵🎵🎵",True
+@saiakhil4751,2021-04-07T06:05:01Z,1,Wow!! Josh on live? made my day...,True
+@adch2039,2021-03-31T07:08:51Z,1,"pls add Decision Tree implementation in ""R' also.",True
+@lautarocisterna3339,2021-03-24T23:32:27Z,1,Statistics and ML GOAT,True
+@AK-nx9lg,2021-03-23T18:45:12Z,1,Thank you!!!,True
+@tarunkanwar9274,2021-03-22T16:35:58Z,0,"instead of using clf_dt.score(X_train,y_train) ,can we use accuracy_score?",True
+@fern092,2021-03-20T15:51:31Z,0,"To see a full picture of decision tree at 41:00 try this code: from sklearn import tree clf_dtree = tree.DecisionTreeClassifier(random_state=42) clf_dtree = clf_dtree.fit(X_train, y_train)  plt.figure(figsize=(44, 20)) tree.plot_tree(clf_dtree, fontsize=10,          filled = True,          rounded= True,          class_names = [""No HD"", ""Yes HD""],          feature_names = X_encoded.columns) plt.show()  Click on miniaturized display.",True
+@hafiznadirshah3253,2021-03-08T12:44:51Z,0,"Hey Josh, thanks for another awesome video. Had a couple of questions :   1) At 40:20 when we initialise the classifier, what will happen if we choose the parameter (splitter = 'random')? In which situations would we want the split to occur randomly at each node, rather than by the default of best(least) gini impurity?  2) In the final tree at 58:36 - for the bottom left leaf node, does value = [78, 9]  mean the lead node contains 78 observations with no heart disease and 9 with no heart disease?  3) At 42:30, to assess whether the tree has overfit the training data, can't we also retrieve the accuracy on both training and test data using clf_dt.score()? If there is an overfit, training accuracy should be significantly higher than test accuracy?",True
+@aryamohan7533,2021-03-07T20:03:40Z,1,"This entire video is a triple bam! Thank you for all your content, I would be lost without it :)",True
+@srmsagargupta,2021-03-06T19:01:05Z,1,Thank you Sir for this wonderful webinar,True
+@junbinlin6764,2021-02-25T03:31:57Z,0,"Why did you determine alphas by using ""training data"" rather than ""full dataset""?? As I remember what you talked in the video of pruning regression tree, you found alphas by full data.",True
+@junbinlin6764,2021-02-25T02:28:04Z,0,is Random forest always better than Decision tree?,True
+@floral7448,2021-02-18T17:54:19Z,1,Finally have the honor to see Josh :),True
+@jefferyg3504,2021-02-15T21:48:52Z,1,You explain things in a way that is easy to understand. Bravo!,True
+@siuwaiyeung5225,2021-02-11T23:13:45Z,0,I have purchased several tuorials. Can I download on my NB to learn from your codes?,True
+@soumyopattnaik6787,2021-02-07T14:34:02Z,0,Can we expect a video for Random Forest in Python from you?,True
+@rhn122,2021-02-06T05:18:13Z,6,"Great tutorial! One question, by looking at the features included in the final tree, does it mean that only those 4 features are considered for prediction, i.e., we don't need the rest so we could drop those columns for further usage?",True
+@Mohamm-ed,2021-02-01T05:18:35Z,2,This voice remembering me when I listening to radio in UK. Love that. I want to go again,True
+@ravi_krishna_reddy,2021-01-31T17:40:38Z,4,"I was searching for a tutorial related to statistics and landed here. At first, I thought this is just one among many low quality content tutorials out there, but I was wrong. This is one of the best statistics and data science related channels I have seen so far, wonderful explanation by Josh. Addicted to this channel and subscribed. Thank you Josh for sharing your knowledge and making us learn in a constructive way.",True
+@gayatribandi964,2021-01-27T07:11:40Z,0,"Don't we have to one hot encode the dependent variable, since it is categorical data?",True
+@tsarnature6587,2021-01-08T14:42:09Z,2,Damn you should start uploading guitar lessons.,True
+@fuckooo,2021-01-08T13:51:44Z,1,"Love your videos Josh, the notebook missing values sounds like a great one to do!",True
+@mcmiloy3322,2021-01-03T19:42:41Z,0,"Really nice video. I thought you were actually going to implement the tree classifier itself, which would have been a real bonus but I guess that would have taken a lot longer.",True
+@robertmitru7234,2021-01-01T23:33:07Z,1,Awesome StatQuest! Great channel! Make more videos like this one for the other topics. Thank you for your time!,True
+@deepakmehta1813,2020-12-29T13:04:11Z,0,"Hi Josh,   am going through the videos related with decision tree and also bought the Jupyter notebook from study_guides. They are simply amazing. Based on the video on ""how to prune regression trees""  I was expecting X and y instead of X_train and y_train for computing ccp_alphas but perhaps I misunderstood. Could you please help me in clarifying this ? thanks  a lot..",True
+@glenfernandes9038,2020-12-28T22:52:06Z,0,Was that a Trump impression at 58:27 ? haha,True
+@whaner,2020-12-27T18:36:35Z,0,"Great channel. I just purchased the Jupyter Notebook, so I could follow and study the algorithm. One question... Why some nodes on the final tree have a value different to 0 or 1 on some dummy variables? For instance: thal_7.0 <= 0.5 or cp_4.0 <= 0.5... Both have only values = 0 and 1, rigth?",True
+@paulovinicius5833,2020-12-21T19:40:33Z,1,"I know I'll love all the content, but I start liking the video immediatly bc of the music! haha",True
+@Theviswanath57,2020-12-21T13:31:31Z,0,In the accompanying theory videos you mentioned to compute ccp_alphas we are supposed to use full data ?,True
+@ericazombie793,2020-12-16T07:09:31Z,0,"Can we just use ""sklearn.preprocessing.OneHotEncoder""?",True
+@creativeo91,2020-12-08T12:41:19Z,4,This video helped me a lot for my Data Mining assignment.. Thank you..,True
+@RAMAYATRI,2020-12-08T12:17:16Z,1,Can see Tabla in the background.... Planning to use it in any future video ?,True
+@soniavega9161,2020-12-05T19:28:39Z,0,"A doubt , when trying to calculate the best alpha   ( scores = cross_val_score(clf_dt, X_train, y_train, cv=5))   the data used for the calculation it's train data, but I understood in the video How to Prune Regression Trees, Clearly Explained!!! that ALL the data were used to find the optimum alpha... ,  sorry probably it's clear but I can't find the answer",True
+@KehleboeGongloe,2020-11-28T11:00:52Z,0,How can get the python codes used to demonstrate the concepts? I purchased the study guides but they do not come with the codes. kehleboe@gmail.com,True
+@hawkiyc,2020-11-27T09:15:09Z,0,"Dear Josh,  From my understanding, we generally eliminate one column of dummy variables to avoid the dummy variable trap.   But it seems that decision (regression) tree immune to the dummy variable trap and we can use all the dummy variables.   Are there any other algorithms also immune to the dummy variable trap? Or, are there any rules to identify the immunity against dummy variable trap for all kinds of algorithms?  Sincerely,",True
+@pradeepkumar-ew1ze,2020-11-12T22:42:56Z,0,Why the decision tree don't show that left is 'true' and right is 'false'? Left is for true and right is for false is always assumed?,True
+@martynamakosa4136,2020-11-06T17:08:57Z,0,"Soooo helpful thank you!!  Please can you help with an error I'm seeing when I try to graph the accuracy of the trees using the training dataset and the testing dataset as a function of alpha? This is what python is saying: ValueError: x and y must have same first dimension, but have shapes (26,) and (52,)  I copied the code from your video: train_scores = [clf_dt.score(X_train, y_train) for clf_dt in clf_dts] test_scores = [clf_dt.score(X_test, y_test) for clf_dt in clf_dts]  fig, ax = plt.subplots() ax.set_xlabel(""alpha"") ax.set_ylabel(""accuracy"") ax.set_title(""Accuracy vs alpha for training and testing sets"") ax.plot(ccp_alphas, train_scores, marker='o', label=""train"", drawstyle=""steps-post"") ax.plot(ccp_alphas, test_scores, marker='o', label=""test"", drawstyle=""steps-post"") ax.legend() plt.show()   If anyone has come across this let me know! :)",True
+@dhruvishah9077,2020-11-06T14:57:03Z,2,I'm absolute beginner and this is what i was looking. Thank you so much for this. Much appreciated sir!!,True
+@simaykazc1508,2020-11-05T09:57:36Z,1,Josh is the best. I learned a lot from him!,True
+@SRAVANAM_KEERTHANAM_SMARANAM,2020-10-28T09:18:05Z,0,In Every video of yours kindly show your face at least once. This Video is a Tripple BAM since you have shown your face.,True
+@snehashashidhar757,2020-10-20T18:55:58Z,0,"How to deal with this when the predictor variable has categorical values (Yes,no) ?",True
+@ramendrachaudhary9784,2020-10-15T14:16:08Z,2,We need to see you play some tabla to one of your songs. Double BAM!! Great content btw :),True
+@abelrasheed116,2020-10-13T18:34:59Z,0,Isn't that a Tabla in the background !!,True
+@pfunknoondawg,2020-10-07T18:11:28Z,1,"Wow, this is super helpful!",True
+@miriamk1379,2020-10-05T10:37:31Z,0,Why did the 'ca' and 'thal' remain as objects?,True
+@teetanrobotics5363,2020-10-05T06:42:23Z,1,"Amazing man. I love your channel. Could you please reorder this video , SVMs and Xgboost in the correct order in the playlist ?",True
+@alexyuan1622,2020-09-27T20:29:53Z,1,"Hi Josh, thank you so much for this awesome posting! Quick question, when doing the cross validation, should the cross_val_score() using [X_train, y_train] or the [X_encoded, y]? I'm wondering if the point of doing cross validation is to let each chunk of data set being testing data, should we then use the full data set X_encoded an y for the cross validation? Thank you!!",True
+@VarunKumar-pz5si,2020-09-22T18:40:07Z,1,Hey..! Josh do you know how to play  Tabala ? coz I've seen it in the background...,True
+@bgrguric555,2020-09-22T08:31:10Z,1,Awesome video,True
+@junaidmalik9593,2020-09-15T18:49:55Z,0,"Hi Josh, one amazing thing about the playlist is the song u sing before starting the video, that refreshes me. u know how to keep the listener awake for the next video. hehe. and really thanks for the amazing explanation.",True
+@theduffrichie2050,2020-09-15T06:02:07Z,1,BAM ....!!!!,True
+@danielw7626,2020-09-11T04:48:53Z,0,"Hi Josh, thanks for your clear explanation. it's very helpful. One quick question, do we need to delete one column after perform OneHotEncoding to avoid the dummy variable trap? Thank you in advance if you could clarify this for me as I only start learning ML for 1 month. Cheers",True
+@hanaj4870,2020-09-05T17:58:13Z,1,Thank you sir!! Best ever!!!! BAM!!,True
+@Nico.75,2020-08-25T06:14:46Z,0,"Hi Josh, such an awesome helpful video, again! May I ask you a basic question? When I'm doing an initial decision tree model building using train/test split and evaluate training and test accuracy scores and then start over doing k-fold cross validation on the same training set and evaluate it on the same test set as in the initial step -> is that a proper method? Because I used the same test set for evaluation twice, first on the initial train/test split method and second using the crossvalidation method? I read you should us your test (or hold out) set only once… Last question: Should you use the exactly same training/test set for comparing different algorithms (decision trees, random Forests, logistic Regression, kNN, etc...)? Thanks so much for a short feedback and quest on! Thanks and BAM!!!",True
+@raindrop0405070,2020-08-17T23:22:18Z,1,"First, Thank you. You explain complicated things in very easiest way with visulization. But,You should have a better microphone with it. I think I am going to keep wathcing your videos.",True
+@douglasaraujo9763,2020-08-13T17:58:11Z,1,Your videos are always very good. But today I’ll have to commend you on your fashion choice as well. Great-looking shirt! I hope you have had the opportunity to visit Brazil.,True
+@sathishkumarvp3686,2020-08-08T17:48:51Z,0,Which version of Jupyter Notebook are you using?,True
+@ookillerofloveoo,2020-08-05T22:23:01Z,0,"I have a question. I tried your Code, but @ 56:00 when u convert the series to float, my Code says its an DataFrame and i cant convert it to float. Can u help me ?",True
+@GokulSKumar-uz9dy,2020-08-05T09:00:01Z,1,"Great video sir.:)  I just have a doubt in one part. At 52:14 instead of using X_train and y_train, arent we supposed to use the entire dataset(i.e. X_encoded and y) while implementing cross-validation?  Also later in the video at 52:54, the value for alpha was found by using only X_train and y_train data in the cross-validation.",True
+@sakshitangri7600,2020-07-30T16:07:05Z,0,The video gets blurred after 22 min....is it just for me?? want to understand one hot encoding but its blur:(,True
+@pratyushmisra2516,2020-07-30T07:27:54Z,4,"My intro song for this channel:   "" It's like Josh has got his hands on python right,      He teaches Ml and AI really Well and tight ---- STAT QUEST"" btw thanks Brother for so much wonderful content for free.....",True
+@shindepratibha31,2020-07-29T14:07:16Z,0,"I have almost completed the Machine learning playlist and it was really helpful. One request, can you please make a short video on 'handling the imbalanced dataset'?",True
+@newforest9985,2020-07-28T15:45:52Z,0,"While Plotting confusion matrix how do we know the order of labels? ""Doesn't have HD"" and ""Have HD""? It can be ""Have HD"" first and then ""Doesnt Have HD"" right?",True
+@Patrick881199,2020-07-23T01:28:04Z,0,"Hi, Josh, according to this code, can I say that different alpha values corresponds to different number of leaves?",True
+@Patrick881199,2020-07-20T02:20:29Z,1,Always click the 'like' button first :),True
+@marcooliveira9249,2020-07-19T15:52:02Z,1,Congratulations ! Ten times triple bam !!,True
+@pranayghosh1584,2020-07-16T19:14:08Z,1,can you play tabla :-p,True
+@bardhrushiti184,2020-07-10T09:07:40Z,0,"Great video - thanks for sharing such valuable content.   I have a question regarding the alpha/accuracy graph: In my dataset, the training and testing accuracy are relatively close (~100% and ~98%, respectively) and after plotting Accuracy vs Alpha for training and testing, it seems that as the alpha increases, the accuracy decreases as well. At alpha = 0, the accuracy (train = ~100% and test = ~98%), at alpha = 0.011, the accuracy (train = ~92.5% and test = ~92.1%), and it decreases. Should I still consider doing pruning with alpha, even though it seems that the model is doing okay?   Thank you in advance!   Keep posting awesome videoes !",True
+@alanperaza9594,2020-07-10T04:16:04Z,0,I thought you were a fat man with glasses :(,True
+@catdef9028,2020-07-08T06:21:46Z,0,"Hi Josh...awesome videos..I have a request that you make videos on python implementation on XGBOOST. Thanks, greetings from India..",True
+@mileslucey2992,2020-07-08T03:19:07Z,0,"For the nominal categorical variables that we transform into dummy variables, why don't we remove one of the dummy variable columns to prevent perfect multicollinearity?",True
+@ricardofranco-duarte346,2020-07-06T07:04:52Z,1,"Hi Josh. Can you do one in R, please?",True
+@bjornlarsson1037,2020-07-02T19:34:11Z,0,"Absolutely amazing work Josh! You are definitely the best guy on the internet teaching this stuff! Just a question on reproducibility when using get_dummies vs. other methods of enconding. I used make_column_transformer together with make_pipeline. My pruned tree was different in that the node ""variables"" were different, but the numbers (cutoffs, ginis, samples, values, class) were identical. I also got small differences at other places compared with your result. Given that I have followed along with your code (and used the same random states as you did), should I get exactly the same results as you did (under the assumption that I haven't made any error of course) or is it possible that the results may differ between methods? Thanks again Josh!",True
+@kaimueric9390,2020-07-02T16:43:36Z,6,"I actually think it can be great if you created more videos for other ML algorithms. After teaching us almost every aspect of machine learning algorithms as far as the mechanics and the related fundamentals are concerned, I feel it is high time to see those in action, and Python is, of course, the best way to go.",True
+@kaimueric9390,2020-07-02T16:32:12Z,2,I liked before watching,True
+@adiflorense1477,2020-06-27T13:11:51Z,1,20:21 HOORAY,True
+@AbhishekAgrawal-dv1id,2020-06-25T20:18:35Z,0,Did anyone ever mention that you look like Timothy Oliphant or is it just me?,True
+@anuragb12,2020-06-25T17:08:19Z,3,"You comment 58.50 on overfitting , hope that wasnt me :) https://medium.com/ai-in-plain-english/easiest-way-to-understand-under-fitting-over-fitting-and-curse-of-dimensionality-in-machine-4598a4ccb627  Your videos are amazing  and so simple to understand complex concepts in stats, that too with music :D",True
+@BeSharpInCSharp,2020-06-25T04:35:46Z,0,Do we have any video on k-fold to generate random training and testing set?,True
+@ayatkhrisat5964,2020-06-23T17:07:18Z,2,kindly add this video to the machine learning list,True
+@estebannantes8567,2020-06-22T22:59:39Z,1,"Hi Josh. Loved this video. I have two questions: 1- Is there any way to save our final decision tree model to use it later in unseen data without having to train it all again? 2- Once you have decided on your final alpha: why not training your tree on a full-unsplit dataset. I know you will not be able to generate a confusion matrix, but wouldn't your final tree be better if it is trained with all the examples?",True
+@pakhomovviktor3149,2020-06-16T12:04:25Z,0,"plot_tree(class_names[...'Plus', 'Minus'...]) for clf_dt and plot_tree(class_names[...'Minus', 'Plus'...]) for clf_dt_pruned are just flipping the graph labels. Which order is correct?😢",True
+@BeSharpInCSharp,2020-06-16T08:34:37Z,0,i wanted to learn DT from scratch but it seems here we should already know things like confusion matrix. I better study that first and come back to this video,True
+@derrickkuria4206,2020-06-13T17:31:00Z,1,Can i get the jyupiter notebook,True
+@umairkazi5537,2020-06-13T14:40:27Z,1,Thank you very much . This video is very helpful and clears a lot of concepts for me,True
+@mahdimj6594,2020-06-13T03:33:15Z,1,"Neural Network Pleaseee, Bayesian and LARS as well. And Thank you. You actually make things much easier to understand.",True
+@TheSags007,2020-06-11T19:19:35Z,0,"What if I tune hyperparameter such as ['max_depth', 'min_sample_leaf']  instead of Cost_complexity_pruning, will it have same effect ??",True
+@adiflorense1477,2020-06-11T14:32:37Z,0,"sir, why many data scientist using python instead of matlab",True
+@amitsaxena6530,2020-06-10T17:02:02Z,1,"Hi Josh, Request you to make more such ML videos in python which covers all ML concepts holistically. I am sure this course will then become more popular then any of the available ML courses. Pls pls pls....",True
+@ccuny1,2020-06-10T06:28:43Z,2,"I have already commented but I watched the video again and I have to say I am even more impressed than before. truly fantastic tutorial, not too verbose but with every action clarified and commented in the code, beautifully presented (I have to work on my markdown; there are quite a few markdown formats you use that I cannot replicate...to study when I get the notebook). So all in all, one of the very top ML tuts I have ever watched (including paid for training courses). Can't wait for today's or tomorrows webinars. Can't join in real time as based in Europe, but will definitely pick it up here and get the accompanying study guides/code.",True
+@chrissmith1152,2020-06-09T12:22:46Z,0,are you working on the time series statquest?,True
+@dineshmuniandy9519,2020-06-09T10:52:01Z,0,"Hi Josh, is it possible to apply Cost Complexity Pruning to Regression problems (where the predicted target in Continuous) ? What are the modifications required to the code ?",True
+@edumorlom,2020-06-08T08:15:51Z,1,new drinking game. take a shot every time Josh says uhh,True
+@jihowoo9667,2020-06-08T07:25:11Z,1,"I really love your video, it helps me a lot!! Regards from China.",True
+@3ombieautopilot,2020-06-08T06:20:28Z,2,Thank you very much for this one! You're channel is incredible! Hats off to you,True
+@montserratramirez4824,2020-06-07T19:49:14Z,7,I love your content! Definitely my favorite channel this year Regards from Mexico!,True
+@xiolee7597,2020-06-07T17:36:28Z,4,"Really enjoy all the videos! Can you do a series about mixed models as well, random effects, choosing models, interpretation etc. ?",True
+@shouvikbhattacharyya1058,2020-06-07T16:27:03Z,0,"Behind the background, I can see there is a traditional musical instrument ""tabla"", what we use to call in India. :)",True
+@sreejaysreedharan4085,2020-06-07T14:54:27Z,1,"Hi Josh , very nice video as usual.🙏.may I request you for a future webinar on multi-variate time series forecasting using ML techniques...",True
+@DANstudiosable,2020-06-07T14:52:27Z,5,OMG... I thought you'd ignore when i asked you to post this webinar on youtube. Am glad you posted it. Thank you!,True
+@liranzaidman1610,2020-06-07T12:20:01Z,10,"Josh,  this is really great. Can you upload videos with some insights on your personal research and which methods did you use? And some examples of why you prefer to use one method instead of the other? I mean, not only because you get a better result in RUC/AUC but is there a ""biological"" reasoning for using a specific method?",True
+@magtazeum4071,2020-06-07T09:54:56Z,2,BAM...!!! I'm getting notifications from  your channel again,True
+@funnyclipsutd,2020-06-07T08:03:45Z,63,BAM! My best decision this year was to follow your channel.,True
+@ccuny1,2020-06-07T07:33:50Z,1,Another hit for me. I will be getting the Jupyter notebook and some if not all of you study guides (I only just realised they existed).,True
+@SaurabhKumar-mr7lx,2020-06-07T06:33:25Z,1,"Hi Josh, I see in Sklearn all the tree based ensembled algorithms has ccp_alpha as tuning parameter. Is it advisable to do so, rather is it feasible to do so for hundreds of trees (especially when trees are randomly created) or should we tune standard parameters like learning rate, no. of trees,  loss function etc.",True
+@liranzaidman1610,2020-06-07T05:11:55Z,2,"Fantastic, this is exactly what I needed",True
+@rahulthaker694,2020-06-07T03:22:02Z,52,You look exactly how I thought you'd look like 😂,True
+@SamirMishra6174,2020-06-07T02:16:11Z,8,wow is that a tabla in the background ?,True
+@kanva4,2020-06-07T02:03:20Z,1,BAM!,True
+@1988soumya,2020-06-07T01:59:00Z,3,"Hey Josh, it’s so good to see you are doing this, I am preparing for some interviews, it will help a lot",True
+@statquest,2020-06-07T01:51:15Z,26,NOTE: You can support StatQuest by purchasing the Jupyter Notebook and Python code seen in this video here: https://statquest.gumroad.com/l/tzxoh  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/,True
+@joaomanoellins2219,2020-05-29T12:26:03Z,25,I loved your Brazil polo shirt! Triple bam!!! Thank you for your videos. Regards from Brazil!,True
+@ericwr4965,2020-05-28T21:43:12Z,1,I absolutely love your videos and I love your channel. Thanks for this.,True
+@anbusatheshkumarpalanisamy8798,2020-05-27T09:09:22Z,0,"Hi Josh, how are we getting  132 sample in the left node of the final tree, shouldn't be 118 from the root node?",True

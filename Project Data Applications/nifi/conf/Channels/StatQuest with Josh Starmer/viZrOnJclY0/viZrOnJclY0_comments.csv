@@ -1,0 +1,198 @@
+author,updated_at,like_count,text,public
+@statquest,2023-03-08T13:25:47Z,14,"To learn more about Lightning: https://lightning.ai/ Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/ NOTE: A lot of people ask for the math at 13:16 to be clarified. In that example we have 3,000,000 inputs, each connected to 100 activation functions, for a total of 300,000,000 weights on the connections from the inputs to the activation functions. We then have another 300,000,000 weights on the connections from activations functions to the outputs. 300,000,000 + 300,000,000 = 2 * 300,000,000",True
+@psawmora,2024-05-29T11:19:36Z,0,"@statquest the calculation at https://youtu.be/viZrOnJclY0?t=810 is wrong isn't it ? it's not 3,000,000 * 100 * 2 since the number of outputs aren't 2 right ?",True
+@MidnightMartiniBand-po6ty,2024-05-29T00:16:40Z,1,"As usual, Josh provides the best explanations available. I've done a bunch of online courses - and I always end up referring back to StatQuest to truly understand. I purchased the StatQuest Illustrated PDF and use it all the time. Highly recommended for a) learning these concepts and b) having an index of all of the key topics to know for work and interviews (at end of PDF).",True
+@pichazai,2024-05-13T16:16:13Z,2,this channel is the best resource of ML in the entire internet,True
+@karanacharya18,2024-05-11T02:49:02Z,9,"In simple words, word embeddings is the by-product of training a neural network to predict the next word. By focusing on that single objective, the weights themselves (embeddings) can be used to understand the relationships between the words. This is actually quite fantastic! As always, great video @statquest!",True
+@kangchen-ck8vq,2024-05-08T08:23:43Z,0,why times only 2 for get us from activation functions to the output? it's full connection with much more weights. where am I wrong?,True
+@awaredz007,2024-05-05T20:58:54Z,1,"Wow!! This is the best definition I have ever heard or seen, of word embedding. Right at 09:35. Thanks for the clear and awesome video. You guy rock!!",True
+@afro_rush3882,2024-05-04T23:26:21Z,0,"so if we randomly choose abandon as a word we don't want to predict, how come we use the output values for 'A' AND 'abandon'? i thought we want to avoid any input or outputs from the word abandon...",True
+@n.h.son1902,2024-05-02T10:45:55Z,0,The thing about Negative Sampling is really troubling my understanding :(,True
+@user-eq9cf4mt2s,2024-04-30T19:06:24Z,1,"Great presentation, You saved my day after watching several videos, thank you!",True
+@CandaceDisciple,2024-04-26T02:10:57Z,0,"Around 10:30, Is the softmax the same for each word, or is it unique for each word?",True
+@user-tt1zf1cy7t,2024-04-24T02:36:53Z,0,And how is the number of activation functions determined? Is it always fixed? Thank you!,True
+@manuelamankwatia6556,2024-04-22T09:19:20Z,0,This is by far the best video on embeddings. A while university corse is broken down in 15minutes,True
+@cougar8235,2024-04-19T03:40:44Z,0,Can you please do a video talk about Doc2Vec?,True
+@shamshersingh9680,2024-04-19T02:17:55Z,1,"Hi Josh, again the best explanation for the concept. However, I have a doubt. As per the explanation, word-embeddings are the weights associated with each word between the input and activation function layer. These weights are obtained after training on large text corpus like wikipedia. When I train another model using these embeddings on another set of data, the weights (embeddings) will change during back-propagation while training. So the embeddings will not remain same and change with every model we train. Is it correct interpretation or I am missing something here.",True
+@minhmark.01,2024-04-17T13:32:16Z,1,thanks for your tutorial!!!,True
+@acandmishra,2024-04-12T04:35:08Z,1,"your work is extremely amazing and so helpful for new learns who want to go into detail of working of Deep Learning models , instead of just knowing what they do!! Keep it up!",True
+@TekeshwarHirwani,2024-04-07T20:48:49Z,1,One video GloVe Please,True
+@khang-0,2024-04-06T12:34:22Z,0,Can anyone explain why there are 300 per step? Im little confused at the end😢,True
+@exxzxxe,2024-04-03T16:28:26Z,1,Hopefully everyone following this channel has Josh's book.  It is quite excellent!,True
+@canned_sadness,2024-03-29T20:18:37Z,0,this guy's fucking songs make me wanna fucking break property,True
+@kvnarasimhan5172,2024-03-29T05:21:03Z,0,there are 4 outputs in the softmax layer so shouldnt it be x 4 instead of x 2?,True
+@denismarcio,2024-03-27T12:46:58Z,1,Extremamente didático! Parabéns.,True
+@gabrielrochasantana,2024-03-25T11:32:14Z,1,"Amazing lecture, congrats. The audio was also made from an NPL (Natural Language Processing), right?",True
+@BalintHorvath-mz7rr,2024-03-16T15:51:19Z,0,"Awesome video! This time, I feel I miss one step through. Namely, how do you train this network? I mean, I get that we want the network as such that similar words have similar embeddings. But what is the 'Actual' we use in our loss function to measure the difference from and use backpropagation with?",True
+@diogomartinho8313,2024-03-12T18:30:17Z,0,"Im struggling to understand the ""math"" part of the example. How do you get the sum = 0.01 value, etc?",True
+@stianchrister,2024-03-11T15:14:52Z,0,pls no more ukulele,True
+@elnurshahbalayev5171,2024-03-11T05:47:41Z,0,"Hello Josh, first of all thanks for the video. I have a question for you.  If after each iteration, predictions are 0 and only one of them is 1, then why are we using Softmax? Should not we use Argmax?",True
+@BigAsciiHappyStar,2024-03-07T22:52:27Z,0,"My turn for some shameless self-promotion. Last month, I designed an artificial stupidity to play NYT Connections by converting all sixteen words into numbers and guessing the four vectors closest to each other in Euclidean space. Despite occasionally getting lucky, I eventually finished last in an informal competition on Art’s YouTube channel (a.k.a. “Rise To The Equation”)",True
+@exxzxxe,2024-02-27T19:42:04Z,14,Josh; this is the absolutely clearest and most concise explanation of embeddings on YouTube!,True
+@exxzxxe,2024-02-27T19:31:38Z,1,You ARE the Batman and Superman of machine learning!,True
+@janapalaswathi4262,2024-02-18T12:39:39Z,1,Awesome explanation..,True
+@anggipermanaharianja6122,2024-02-14T20:20:12Z,1,Bam,True
+@ishaqpaktinyar7766,2024-02-11T11:00:49Z,1,"you da bessssst, saved me alota time and confusion :..)",True
+@user-se8ld5nn7o,2024-02-08T03:01:12Z,0,"Hey, Josh! Absolutely amazing series!!!  If I understand correctly, the input weights of a specific word (e.g., gymkata) are its coordinates in multi-dimensional space? The coordinates can be used to calculate cosine similarity to find similar meanings as well(e.g., girl <-> queen, guy <-> king)? And is that true the philosophy applies to LLMs such as GPT embeddings? GPT Text-embeddings-ada-002 has 1536 dimensions, which means there are 1536 nodes in the 1st hidden layer?",True
+@paranoid_android8470,2024-02-05T09:49:21Z,0,I think there's a small mistake at 14:57. He says that we don't want to predict 'abandon' and yet he includes it in the list. I think he meant to say 'aardvark' instead.  [edit]: The video is correct! Read bottom reply if you have the same question.,True
+@AyumiFortunex,2024-02-04T10:26:03Z,0,"What's the output of the neural network when ""great!"" is the only input? Since there is not word das follows ""great!""",True
+@mighty_duck,2024-02-01T00:08:30Z,0,I thought that we needed to use non-linear activation functions like the ReLU? How come we don't need it here?,True
+@user-ck3qk5ce9k,2024-01-29T00:52:36Z,0,Can you do GloVe? i really enjoyed Word2Vec it will be great to see how GloVe works...how factorization based method works. Thank you for this amazing content!,True
+@SergioPolimante,2024-01-26T13:23:47Z,5,Statquest is by far the best machine learning Chanel on YouTube to learn the basic concepts. Nice job,True
+@S.A_1992,2024-01-23T19:55:21Z,0,Thank you so much for this video. Could you do something like this for audio embedding as well? or how could we merge (do fusion) audio and text embedding? I really appreciate it.,True
+@keremkezer6826,2024-01-23T17:49:14Z,0,One case i didnt understand why we used 2 activation functions? We have 2 sentences maybe because of that?,True
+@SilverDennis802,2024-01-22T07:07:12Z,0,"How can word2vec compress vector representations into sizes smaller than the dictionary (50, 100, 200, 300, etc)? Does it include another hidden layer of at the beginning that takes the 1-hot encoded words and passes it to the rest of the neural network?",True
+@pedropaixaob,2024-01-21T02:49:55Z,1,This is an amazing video. Thank you!,True
+@shrisharanyan,2024-01-18T15:46:30Z,3,No way this is free. Wow.,True
+@NZExperience,2024-01-16T13:50:26Z,0,I've subscribed although the singing is annoying and frankly you don't need a gimmick.,True
+@victorburca5028,2024-01-13T20:14:32Z,0,"WTF is this ""show""?! I am here to learn, not to listen to the ukulele and kids' theater.",True
+@user-cr6vg9kf2t,2024-01-12T21:40:55Z,1,This guy really loves Troll 2!,True
+@saisrisai9649,2024-01-01T02:58:34Z,1,Thank you Statquest!!!!,True
+@CoryTheSimmons,2023-12-24T18:40:18Z,0,Talked to us like babies up until 6mins then sped through the important part.,True
+@user-bd2fm9lk5b,2023-12-19T09:50:21Z,2,"Thank you Josh for this great video. I have a quick question about the Negative Sampling: If we only want to predict A, why do we need to keep the weights for ""abandon"" instead of just ignoring all the weights except for ""A""?",True
+@lfalfa8460,2023-12-17T15:26:48Z,1,I love all of your songs. You should record a CD!!! 🤣  Thank you very much again and again for the elucidating videos.,True
+@SousanTarahomi-vh2jp,2023-12-17T15:06:26Z,1,Thanks!,True
+@avishkaravishkar1451,2023-12-11T16:01:16Z,2,"For those of you who find it hard to understand this video, my recommendation is to watch it at a slower pace and make notes of the same. It will really make things much more clear.",True
+@sameeranjoshi1087,2023-12-10T01:14:36Z,1,Quarter BAMM!,True
+@HarpitaPandian,2023-12-07T05:15:54Z,17,"Can't believe this is free to watch, your quality content really helps people develop a good intuition about how things work!",True
+@kimsobota1324,2023-12-05T13:46:54Z,0,"I appreciate the knowledge you've just shared. It explains many things to me about neural networks. I have a question though, If you are randomly assigning a Value to a word, why not try something easier?   For example, In Hebrew, each of the letters of the Alef - Bet is assigned a value. these values are added together to form a sum of a word. It is the context of the word, in a sentence that forms the block. Sabe? Take a look at Gamatra, Hewbew has been doing this for thousands of years. Just a thought.",True
+@MrAhsan99,2023-12-05T09:59:50Z,0,watched this video multiple times but unable to understand a thing. I'm sure I am dumb and the Josh is great!,True
+@flow-saf,2023-12-04T08:06:01Z,2,"This video explains the source of the multiple dimensions in a word embedding, in the most simple way. Awesome. :)",True
+@balqeesmansour6692,2023-11-29T23:08:37Z,0,"Amazing video Dr.Josh but I am confused about scGPT , and I hope you will help me to know why we convert the gene expression matrix to sentences and then go to word embeddings and word2vec to convert it to numbers to work in deep learning models, I want simplification like yours . Thanks in advance.",True
+@jayachandrarameshkalakutag7329,2023-11-24T18:06:18Z,0,"Hi josh firstly thank you for all your videos. I had one doubt , in skip gram what will be the loss function on which the network is been optimized, in CBOW i can see that cross entropy is enough",True
+@LakshyaGupta-ge3wj,2023-11-24T00:03:18Z,2,"Absolutely mind blowing and amazing presentation! For the Word2Vec's strategy for increasing context, does it employ the 2 strategies in ""addition"" to the 1-Output-For-1-Input basic method we talked about in the whole video or are they replacements? Basically, are we still training the model on predicting ""is"" for ""Gymkata"" in the same neural network along with predicting ""is"" for a combination of ""Gymkata"" and ""great""?",True
+@lancezhang892,2023-11-22T16:24:35Z,0,"If we use softmax function as activation function, in the last step whether should we use entropy loss function with prediction value y_head and label value  y=1 to get the loss function value  ?And then use backpropagation to optimize the weights?",True
+@lancezhang892,2023-11-22T16:15:52Z,0,"Hello Josh, thanks for your video.May I know if we could use 3 neuron network to predict the next words?",True
+@himgos13,2023-11-21T08:14:01Z,1,i understood word embedding in first 10 seconds,True
+@mannemsaisivadurgaprasad8987,2023-11-14T01:19:25Z,2,On of the best videos I've seen till now regarding Embeddings.,True
+@muthuaiswaryaaswaminathan4079,2023-11-07T20:00:19Z,2,Thank you so much for this playlist! Got to learn a lot of things in a very clear manner. TRIPLE BAM!!!,True
+@gustavow5746,2023-11-06T16:21:11Z,1,the best video I saw about this topic so far. Great Content! Congrats!!,True
+@JoelGsponer,2023-11-06T06:15:35Z,1,Thanks!,True
+@shivangiawasthi9388,2023-11-03T03:49:33Z,0,found a good explaination here as well - https://www.youtube.com/watch?v=JmebaapAcKk&t=148s,True
+@RaynerGS,2023-10-30T14:08:20Z,1,I admire your work a lot. Salute from Brazil.,True
+@yuhanzhou6963,2023-10-16T22:00:09Z,0,"Hi Josh! Thank you so much for the clear explanation! I'm just having trouble understanding why is it that we DON'T want to predict ""abandon"" but we are still predicting the weights that lead to it? Shouldn't it be that we WANT to predict ""abandon"", and the Negative Sampling selects a subset of words that we WANT TO PREDICT?",True
+@user-qc5uk6ei2m,2023-10-07T00:31:09Z,1,"Hey Josh, i'm a brazilian student and i love to see your videos, it's such a good and fun to watch explanation of every one of the concepts, i just wanted to say thank you, cause in the last few months you made me smile beautiful in the middle of studying, so, thank you!!! (sorry for the bad english hahaha)",True
+@guillaumebarreau,2023-10-05T18:32:00Z,0,"Hi Josh, thank you for your excellent work! Just discovered your videos and consuming like a pack of crisps. I was wondering about the desired output when using the skip-gram model. When we have a word as input, the desired output is to have all the words found within the window size on any sentence of the corpus activate to 1 at the same time on the output layer, right? It is not said explicitly but I guess it is the only way it can be.",True
+@jarsal_firahel,2023-10-03T11:34:30Z,1,"Todaaay ""guitar"" I ordered ""guitar"" The-Illustrated-Guide-To-Machine-Learning by.... ""guitar""  StatQueeeeest ""guitar guitar""",True
+@whataquirkyguy,2023-10-03T00:11:24Z,1,Squash is cute <3,True
+@ColinTimmins,2023-09-26T06:52:05Z,1,Thank you so much for these videos. It really helps with the visuals because I am dyslexic… Quadruple BAM!!!! lol 😊,True
+@danish5326,2023-09-25T07:34:25Z,1,Thanks for enlightening us Master.,True
+@luanho4869,2023-09-24T13:36:59Z,0,"The input : ""great!"" What is the ouput ?",True
+@Dennis-Hu,2023-09-21T14:13:25Z,0,can you do this for Images?,True
+@neemo8089,2023-09-20T21:17:29Z,0,"Thank you so much for the video! I have one question, at 15:09, why we only need to optimize 300 steps? For one word with 100 * 2 weights? not sure how to understand the '2' as well.",True
+@fouadboutaleb4157,2023-09-20T07:48:19Z,2,"Bro , i have my master degree in ML but trust me you explain it better than my teachers ❤❤❤  Big thanks",True
+@ah89971,2023-09-15T11:42:22Z,30,"When I watched this,I have only one question which is why all the others failed to explain this if they are fully understood the concept?",True
+@pakaponwiwat2405,2023-09-15T03:37:13Z,1,"Wow, Awesome. Thank you so much!",True
+@user-pd1gy8xh4y,2023-09-13T06:58:23Z,1,funny and very nicely explained.,True
+@user-qo1qe9wq4g,2023-09-09T15:29:35Z,0,"I have a question? Are the number of outputs softmax generating at the end of word 2 Vec varying between 2 to 20? Thats why the numbers of params calculated as 3M × 100 × 2? If it were to predict probs for all 3M words, would it have been 3M × 100 × 3M?",True
+@harin01737,2023-09-08T21:47:26Z,3,"I was struggling to understand NLP and DL concepts, thinking of dropping my classes, and BAM!!! I found you, and now I'm writing a paper on neural program repair using DL techniques.",True
+@TropicalCoder,2023-09-07T23:47:25Z,2,That was the first time I actually understood embeddings - thanks!,True
+@yuxiangzhang2343,2023-09-05T23:49:58Z,6,So good!!! This is literally the best deep learning tutorial series I find… after a very long search on the web!,True
+@willw4096,2023-09-03T16:35:21Z,0,9:34 11:32 13:37,True
+@prashantyadvendra5870,2023-08-30T21:44:44Z,0,Can  you please Create pdf for deep Learning part,True
+@AI-AF-70,2023-08-30T19:53:25Z,0,"From the video :  [ ""say like we wanted the word aardvark to predict the word A"""" ]  "" like"" :   for no reason in sentence.  It's time to stop this annoying verbal tic.    Please edit your video to remove this nonsense.   Otherwise, great video.",True
+@enchanted_swiftie,2023-08-30T11:01:12Z,1,"Does this mean the neural net to get the embeddings can only have a single layer? I mean: 1. Say total 100 words of corpus 2. First hidden layer (with say I put the embedding size of 256) 3. Then another layer to predict the next word which will be 100 words again.  Here, to plot the graph, or say to use the cosine similarity to get how close two words are, I will simply have to use the 256 weights of both words from the first hidden layer, right?  So does that mean we can only have a single layer to optimise? Can't we add 2, 3, 50 layers? And if we can, then weights of which layer should we take as the embeddings to compare the words? Will you please guide?  Thanks! You are a gem as always 🙌",True
+@alfredoderodt6519,2023-08-29T11:58:53Z,1,You are a beautiful human! Thank you so much for this video! I was finally able to understand this concept! Thanks so much again!!!!!!!!!!!!! :),True
+@tanbui7569,2023-08-29T02:58:18Z,3,"Damn, when I first learned about this 4 years ago, it took me two days to wrap my head around to understand these weights and embeddings to implement in codes. Just now, I need to refreshe myself the concepts since I have not worked with it in a while and your videos illustrated what I learned (whole 2 days in the past) in just 16 minutes !! I wished this video existed earlier !!",True
+@meirgoldenberg5638,2023-08-23T18:07:56Z,0,"How are models that map text (i.e. not just a word, but say up to 256 words) to vector trained? (such as the popular `sentence-transformers/all-MiniLM-L6-v2` model at HuggingFace)... Are similar or different principles used?",True
+@meirgoldenberg5638,2023-08-23T18:05:11Z,0,"What if you have another sentence in the training data, in which Troll 2 is followed by ""was"" instead of ""is""? Now you have two contradictory goals when the input is all zeros and one for Troll 2...",True
+@mahdi132,2023-08-23T08:23:58Z,1,Thank you sir. Your explanation is great and your work is much appreciated.,True
+@aoliveiragomes,2023-08-19T20:26:39Z,1,Thanks!,True
+@user-tj7jp9ns5r,2023-08-15T07:31:09Z,1,"At 13:30 why we had multiplied by 2, while calculating number of weights required. 3 million(word) * 100(activation/word) * 2?",True
+@ManJ-dc9iu,2023-08-15T05:20:47Z,0,Confusing,True
+@sriramayeshwanth9789,2023-08-12T09:04:19Z,1,1:57 I'm dying XD,True
+@bestsagittarius7925,2023-08-11T04:45:54Z,0,"Frankly It's not so easy to understand the mechanism of word embedding even you have made greate efforts for easy illustrations. Actually we need replay at least 2-3 times and even more times to brush up in order to get the core idea finally. We need to have basic Neural Networks math knowledges , otherwise we cannot understand what you convey at all. Anyway thanks for your efforts to explain word embedding mechanism as much as you can  because it's really a tough task  to achieve!",True
+@markomilenkovic2714,2023-08-10T02:00:35Z,0,I still don't understand how to convert words into numbers,True
+@videos4mydad,2023-08-07T04:51:22Z,0,"Couldnt there be ONE set of word to number database that can be shared by everyone? It sounds like word2vec is like a dictionary.... where a dictionary has meaning for each word, word2vec has numbers.  And like how a dictionary is the same no matter what kind of writer you are, the numbers for each word do not change from problem to problem - so there is no point in everyone training their own word to number mappings.... is that wrong?",True
+@anonymushadow282,2023-08-04T05:05:48Z,0,es el unico video que tenes en español? osea... no me molesta el ingles pero recien estuve viendo un poco el canal y veo todo en ingles los audios,True
+@anonymushadow282,2023-08-04T05:02:30Z,0,"lo unico me quedo una duda, porque se pone ReLU? osea... cual es la razon de eliminar los numeros negativos (eliminar me refiero a convertirlos en cero), entendi identity para la usamos pero no entendi en este punto especifico para que ndcesito ReLU",True
+@anonymushadow282,2023-08-04T04:59:13Z,1,"al fin alguien me explica como se convierte en si, todos me dicen ""usa red que te lo ejecuta automaticamente"" pero yo quiero saber que esta haciendo esa red internamente... al fiiiin",True
+@AliShafiei-ui8tn,2023-08-02T22:30:28Z,1,the best channel ever.,True
+@night64,2023-08-01T01:38:30Z,0,5:14 but how do you converts a word into a number to pass it into the activation function in the first place,True
+@tupaiadhikari,2023-07-26T16:15:35Z,0,Great Explanation. Please make a video on how do we connect the output of an Embedding Layer to an LSTM/GRU for doing classification for say   Sentiment Analysis,True
+@benhargreaves5556,2023-07-15T11:08:01Z,1,"I struggled with this video series and its only been with 3 blue 1 brown's incredibly comprehensive and clear videos on deep learning that I've been able to understand gradient descent, back propagation and basic feed forward networks. Just different learning and training styles I guess.",True
+@RaphaelLermer,2023-07-14T14:45:43Z,0,"Well, the ""activation functions"" you are talking about, are simply nodes. Or do i miss something?",True
+@hasansoufan,2023-06-25T12:26:45Z,1,Thanks ❤,True
+@chad5615,2023-06-23T10:42:21Z,3,"Keep up the amazing work (especially the songs) Josh, you're making live easy for thousands of people !",True
+@m3ow21,2023-06-21T02:48:13Z,1,I love the way you teach!,True
+@vpnserver407,2023-06-20T15:12:41Z,1,"highly valuable video and book tutorial, thanks for putting this kind of special tuts out here .",True
+@p-niddy,2023-06-18T10:46:37Z,1,Great video! One suggestion is that you could expand on the Negative Sampling discussion by explaining how it chooses purposely unrelated (non-context) words to increase the model's accuracy in predicting related (context) words of the target word.,True
+@mamdouhdabjan9292,2023-06-15T04:57:34Z,0,Hey Josh. What's the point of associating more than 1 number per word?,True
+@dreamdrifter,2023-06-12T17:05:04Z,2,"Thank you Josh, this is something I've been meaning to wrap my head around for a while and you explained it so clearly!",True
+@auslei,2023-06-11T23:29:02Z,1,Love this channel.,True
+@sundramkumar5655,2023-06-10T08:34:27Z,1,epic poetry,True
+@familywu3869,2023-06-06T19:59:03Z,6,"Thank you very much for your excellent tutorials! Josh. Here I have a question, at around 13:30 of this video tutorial, you mentioned to multiply by 2. I am not sure why 2? I mean if there are more than 2 outputs, will we multiply the number of output nodes, instead of 2? Thank you for your clarification in advance.",True
+@AllExistence,2023-06-05T10:49:11Z,0,"Wait a moment, if ""troll 2"" is one vector, would all numbers require separate vector? Which means infinite vectors if we want to do math? No wonder LLMs are bad at math.",True
+@mamdouhdabjan9292,2023-06-05T01:14:44Z,5,"Hey Josh. A great new series that I, and many others, would be excited to see is bayesian statistics. Would love to watch you explain the intricacies of that branch of stats. Thanks as always for the great content and keep up with the neural-network related videos. They are especially helpful.",True
+@ItIsJan,2023-06-04T10:11:43Z,0,"hey, i might be stupid or something, but with the negative sampling thing in the second step (after activation functions), you first say we dont want to predict all other words except a, and then for some reason randomly select a word tht we dont want to predict, but i thought we dont want predict all other words? and then we are ignoring all weights that go to words that we want to optimize? i might be stupid or soemthign (14:18)",True
+@aniketsakpal4969,2023-05-31T20:16:46Z,1,Just incredible!,True
+@lexxynubbers,2023-05-28T17:17:32Z,1,Machine learning explained like Sesame Street is exactly what I need right now.,True
+@anshvashisht8519,2023-05-28T07:31:56Z,0,now i understand what BAM means it's his way of saying DAM*,True
+@danielbelousov742,2023-05-20T23:00:38Z,0,Hey guys! Can someone please explain again how the optimization works? From 600mil to 300mil and than to just 300.,True
+@haj5776,2023-05-20T22:20:02Z,2,"The phrase ""similar words will have similar numbers"" in the song will stick with me for a long time, thank you!",True
+@TheABCdiary,2023-05-13T15:59:20Z,1,I love 'Squatch,True
+@The-Martian73,2023-05-13T15:27:22Z,1,mr.Starmer I think you really loved Troll 2 😅,True
+@ToniHerold,2023-05-11T20:37:31Z,0,I cannot figure how you ger the sum values after the second weights definition... What does it mean and how are they calculated? Great video! Using for my graduation studies!,True
+@kevon217,2023-05-11T12:48:58Z,1,nice uke ditty!,True
+@michaelcheung6290,2023-05-07T14:23:10Z,2,Thank you statquest!!! Finally I started to understand LSTM,True
+@yasminemohamed5157,2023-05-05T08:10:08Z,1,Awesome as always. Thank you!!,True
+@NewMateo,2023-05-05T04:40:08Z,2,Great vid. So your going to do a vid on transformer architectures? That would be incredible if so.   Btw bought your book. Finished it in like 2 weeks. Great work on it!,True
+@jordanconnolly1046,2023-05-05T00:56:41Z,0,cant wait for you to drop the transformers video having a hard time understanding those,True
+@FullStackAmigo,2023-05-02T13:18:41Z,4,Absolutely the best explanation that I've found so far! Thanks!,True
+@channel_SV,2023-05-02T12:22:12Z,1,"It's so nice to google and realize that there is a StatQuest about your question, when you are certain of that there hadn't been one some time before",True
+@wellwell8025,2023-04-20T17:02:52Z,3,Way better than my University slides. Thanks,True
+@ananpinya835,2023-04-17T17:54:16Z,3,StatQuest is great! I learn a lot from your channel. Thank you very much!,True
+@user-rj6wc7bm8x,2023-04-14T12:52:25Z,1,That's awesome! But how would the multilingual word2vec be trained? Would the training dataset simply include corpus of two (or more) languages? or would additional NN infrastructure be required?,True
+@sandeepgiri2374,2023-04-11T17:39:08Z,1,"Could you please explain the final calculation to derive 300 weights to be optimized? Shouldn't it be 1*100*2 = 200 weights, not 300?",True
+@CaHeoMapMap,2023-04-10T13:56:29Z,1,so goooood! Thank alot!,True
+@hangduong6683,2023-04-08T03:44:45Z,1,Oh my god! Thank you so much for the best explanation in term of NLP I ever heard ! Gotta donate StatQuest so that we can have more videos :D,True
+@wizenith,2023-04-08T01:14:11Z,10,"haha I love your opening and your teaching style! when we think something is extremely difficult to learn, everything should begin with singing a song, that make a day more beautiful to begin with ( heheh actually I am not just teasing lol, I really like that ) thanks for sharing your thoughts with us",True
+@Rex389,2023-04-05T18:44:08Z,0,"Hi Josh, great video. I have one question, how are the 2-20 words selected for being dropped while doing negative sampling",True
+@eamonnik,2023-04-04T18:35:34Z,1,Hey Josh! Loved seeing your talk at BU! Appreciate your videos :),True
+@JohnDoe-nv2op,2023-03-31T10:14:31Z,0,We need transformers!!!,True
+@study-tp4ts,2023-03-28T22:44:53Z,1,Great video as always!,True
+@zhihanzhang2976,2023-03-27T12:19:25Z,1,BAM!!,True
+@MadeyeMoody492,2023-03-25T17:21:09Z,1,Great video! Was just wondering why the output of the softmax activation at 10:10 are just 1 and 0s. Wouldn't that only be the case if we applied ArgMax here not SoftMax?,True
+@MaskedEngineerYH,2023-03-25T15:52:55Z,1,Keep going statquest!!,True
+@kamashay1,2023-03-24T10:57:56Z,0,"the input wights to the hidden layer are the numbers used for the embedding vector - what is the justification for this (other then the fact that it works - or this is the only justification)? could we have used, for example, the wights from the hidden layer to the output as the numbers for the embedding vector?",True
+@rathinarajajeyaraj1502,2023-03-24T01:27:47Z,1,This is one of the best sources of information.... I always find videos a great source of visual stimulation...  thank you.... infinite baaaam,True
+@rathinarajajeyaraj1502,2023-03-24T01:22:59Z,1,Excellent.... baaaam,True
+@kamashay1,2023-03-23T12:39:46Z,0,Hi -in the NN we state that we use the 'identity' as an activation function - this means that the network is equivalent   to a linear model? what is the justification of doing that? what would happen if we would use different activation functions?,True
+@smooth7041,2023-03-23T02:55:40Z,0,"Hello. Thank you very much. Great, great video. I have a question. In the negative sampling procedure we never use A = 1 as input at any step in the training process. I am wondering about the time the embeddings for A are trained. I can see how the weights for A at the right  of the activation functions are trained, but not for the weights at the left. I can see that because we use a lot of training steps, in some moment A will be a word we don't want to predict at the input; therefore the embeddings for A will change, however, the prediction won't be A for those steps.",True
+@sharanyabhattacharya3561,2023-03-21T05:09:53Z,0,Would please make a video on Siamese Networks with Implementation?,True
+@rachit7185,2023-03-21T01:24:54Z,87,"This channel is literally the best thing happened to me on youtube! Way too excited for your upcoming video on transformers, attention and LLMs. You're the best Josh ❤",True
+@fernandofa2001,2023-03-20T08:47:46Z,1,I'm not sure if I understood correctly. Have those millions of word embeddings been preprocessed and are public? Or ar they dependent on context? I need to do a project on word clustering of movie genres and I'm not sure if this is my way to go. Any help is appreciated!,True
+@wenqiangli7544,2023-03-20T07:13:27Z,1,Great video for explaining word2vec!,True
+@rishavkumar8341,2023-03-19T19:42:11Z,85,Probably the most important concept in NLP. Thank you explaining it so simply and rigorously. Your videos are a thing of beauty!,True
+@ramzirebai3661,2023-03-19T12:10:15Z,1,"Thank you so much Mr.Josh Starmer, you are the only one that makes ML concepts easy to understand Can you , please , explain Glove ?",True
+@Vanishreeachutha,2023-03-19T04:21:08Z,1,Could you please make video on transformers,True
+@rezasaatchi5249,2023-03-19T01:53:47Z,1,"me: i found a youtube channel named statquest that explain statistic methods. did you hear about it?  chatgpt:  Yes, I am familiar with StatQuest, it is a popular YouTube channel that provides simplified explanations of various statistical concepts and methods. The creator of the channel, Josh Starmer, does a great job of breaking down complex statistical topics into easy-to-understand concepts through visual explanations and examples. His videos are informative and engaging, and can be helpful for students and researchers who are looking to improve their understanding of statistics.",True
+@ilyas8523,2023-03-18T23:40:28Z,1,Oooo I sense Transformers :),True
+@phobiatheory3791,2023-03-17T12:35:45Z,0,"Hi, I love your videos! They're really well explained.  Could you please make a video on partial least squares (PLS)",True
+@mariafernandaruizmorales2322,2023-03-16T23:54:47Z,2,It would also be nice to have a video about the difference between LM (linear regression models) and GLM (Generalized Linear Models). I know they're different but don't quite understand thAT when interpreting them  or programming them in R.  THAAANKS!,True
+@mariafernandaruizmorales2322,2023-03-16T23:52:36Z,0,"Please make a video about the metrics for prediction performance: RMSE, MAE and R SQUARED. 🙏🏼🙏🏼🙏🏼 YOURE THE BEST!",True
+@ouassildahimene4635,2023-03-14T06:33:43Z,0,is it possiblity to do word embeddings for first_names & last_names for syntaxic similarity purpose ?,True
+@anhnguyenvan5806,2023-03-14T00:44:55Z,3,"I am sorry but you do not turn on advertisements to get money from Youtube, do you? And thank you so much for your effort to make videos. You make the inequality in approaching knowledge lesser and lesser. I am very grateful. Hope you always have the happiest life!",True
+@robott12,2023-03-13T17:21:57Z,0,"Fantastic video!  How do you apply in powerpoint the style of ""pencil-written"" boxes?",True
+@meguellatiyounes8659,2023-03-13T17:03:05Z,1,My favourite topic its magic. Bam!!,True
+@LeoAr37,2023-03-13T16:34:19Z,0,"12:49 ""a lot of embeddings per word"" wouldn't that be ""a bigger embedding"" rather?",True
+@dihancheng952,2023-03-13T15:42:03Z,0,"I figured Dr. Josh is building up the knowledge to understand chat gpt, so what's the next topic, transformer?",True
+@bancolin1005,2023-03-13T15:24:30Z,1,"BAM! Thanks for your video, I finally realize what the negative sampling means ~",True
+@pushkar260,2023-03-13T13:57:29Z,2,That was quite informative ,True
+@mycotina6438,2023-03-13T13:56:42Z,3,"BAM!! StatQuest never lie, it is indeed super clear!",True
+@dhinchakdhinchak2383,2023-03-13T12:43:05Z,1,"Saw this video on LinkedIn, left all my important work to watch it :)",True
+@user-wr4yl7tx3w,2023-03-13T12:23:04Z,1,This is the best explanation of word embedding I have come across.,True
+@c.nbhaskar4718,2023-03-13T12:22:54Z,1,great stuff as usual ..BAM *  600 million,True
+@user-wr4yl7tx3w,2023-03-13T12:12:47Z,1,How does one get “times 2” in deriving the total number of weights?,True
+@user-wr4yl7tx3w,2023-03-13T12:05:49Z,0,How do we know it is the first set of weights instead of second set of weights right before softmax that represent the word embeddings?,True
+@ckq,2023-03-13T07:11:12Z,1,I just heard about this a few days ago and was watching some old videos about it and now there's a new stat quest,True
+@newbie8051,2023-03-13T05:51:13Z,0,"One doubt, we got desired outputs for the words ""Troll2"" ""is"" and ""Gymkata"", but what would we get for the word ""great"" ? Is there any explanation as to what we get for the last word of our sentence ?",True
+@santiagobp99,2023-03-13T05:51:04Z,1,"I have seen your videos since I started learning machine learning and deep learning, always the best ones on YouTube, explained simple and precisely. 👍🏻",True
+@kostiantynzahorulko7344,2023-03-13T05:27:35Z,1,"I have purchased your book, and it is so nice! just, TRIPLE BAM!!!",True
+@TheFunofMusic,2023-03-13T04:25:25Z,4,Love this :D Notifications gang here :),True
+@Summersault666,2023-03-13T04:02:19Z,3,Are you kidding me... I searched for this 2 days ago...,True
+@MecchaKakkoi,2023-03-13T04:01:28Z,2,Nice!,True
+@junaidbutt3000,2023-03-09T22:23:39Z,3,"You’re on a hot streak with great videos Josh. Long may it continue. I really liked the explanation of negative sampling, it’s been something unclear in my mind and you’ve explained it very well.",True
+@IdeviceTweakReviews,2023-03-08T15:55:37Z,4,Thank you again for coming and speaking for BU Spark! Dr. Starmer! It was a pleasure meeting you in-person and learning more about your journey in teaching statistics. TRIPLE BAM!!!,True
+@statquest,2023-03-08T13:25:47Z,14,"To learn more about Lightning: https://lightning.ai/ Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/ NOTE: A lot of people ask for the math at 13:16 to be clarified. In that example we have 3,000,000 inputs, each connected to 100 activation functions, for a total of 300,000,000 weights on the connections from the inputs to the activation functions. We then have another 300,000,000 weights on the connections from activations functions to the outputs. 300,000,000 + 300,000,000 = 2 * 300,000,000",True
+@sedthh,2023-03-08T11:57:28Z,3,Great stuff as usual! Hope you will make more NLP videos!,True

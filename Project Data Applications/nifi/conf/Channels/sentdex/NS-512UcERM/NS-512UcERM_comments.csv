@@ -1,0 +1,29 @@
+author,updated_at,like_count,text,public
+@forheuristiclifeksh7836,2023-12-24T01:46:14Z,0,0:48,True
+@Young_Santana808,2020-11-15T15:36:36Z,0,"Hello , i have seen that quantopian is shut down now . how can we replace it ???",True
+@GoredGored,2020-10-14T20:08:00Z,0,While creating my function as shown  sentiment_factor = sentiment.sentiment_signal.latest I got an attribute error  'Field' object has no attribute 'latest' to overcome that you need to run the following from quantopian.pipeline.data.sentdex import sentiment   For more go to Quantopian.,True
+@LeoKlotz,2020-09-13T18:36:53Z,0,what is the sentiment? was it explained somewhere and I missed it?,True
+@byon3421,2020-08-05T09:54:10Z,0,"""shift+enter"" xD i have the same problem",True
+@marcovalentinoalvarado3290,2020-03-25T22:35:21Z,0,How about trading algorithm in binary options tutorial? it would be so cooool,True
+@AjayKumar-id7mb,2019-03-12T17:23:57Z,0,How you get the overall picture?,True
+@Golden_B1,2019-01-06T06:43:19Z,1,i have an error run pipeline is not defined?,True
+@krishnabharadwaj4715,2019-01-01T17:14:50Z,0,From where did you get the sentiment data? Is it provided by Quantopian? Also why is your channel name is also sentdex?,True
+@bradengee5093,2018-12-29T00:00:20Z,2,"I got stuck at the result = run_pipeline(make_pipeline(), start_date etc etc etc. I found a fix for it tho, i simply had to import ""from quantopian.pipeline.filters import Q1500US""",True
+@petters.jensen8287,2018-11-29T14:47:37Z,1,"Hi Sentdex!  How would you test alpha factors on minute data instead of daily data? I assume you have to use get_pricing, and this needs to be done outside the pipeline?",True
+@robinhartley2627,2018-10-14T21:11:17Z,2,Loving this series - have been binge watching after googling 'can you invest in stocks with Python'. I think my question has been thoroughly answered!,True
+@maggincracking8174,2017-11-23T20:45:40Z,1,"Is there a way to run a pickled ML algorith on Quantopian backtester? If not, how could I back test ML algorithm on real stocks?",True
+@simonchan2394,2017-07-31T14:27:04Z,0,"Hi Sentdex, I'm trying to understand the error you made with regards to using the blaze expression in your pipeline function. Initially you imported form quantopian.interactive which gave you a blaze expression, then you fixed it with the ""from quantopian.pipeline.data.sentdex import sentiment"". Will pipeline not work with blaze expressions?",True
+@BrianArbuckle,2017-07-28T04:24:57Z,3,"Great videos!    FYI it looks like the ""run_pipeline"" will get the following error in Notebook: NameError: name 'run_pipeline' is not defined.  Quantopian recommends the follow when using Notebook:  from quantopian.pipeline import Pipeline from quantopian.pipeline import CustomFactor   from quantopian.research import run_pipeline   from quantopian.pipeline.data import morningstar   from quantopian.pipeline.data.builtin import USEquityPricing  Thank you so much for sharing!",True
+@s2tha3lgaming94,2017-07-13T03:53:42Z,0,"This series is awesome so far sentdex, excited to keep learning with you and your channel",True
+@fffppp8762,2017-06-09T06:42:26Z,1,"i was stuck at result = run_pipeline(make_pipeline(),start_date='2015-05--05',end_date='2015-05-05') ,  it gave me value error...",True
+@dushyantshukla8754,2017-05-02T14:24:01Z,4,So who decide what sentiment is with respect to a particular ticker?,True
+@tylorban,2017-03-28T02:13:49Z,21,Thanks for leaving in mistakes. It's better to learn from others' mistakes.,True
+@peterd460,2017-03-01T09:19:05Z,0,"Could you explain how your action changes if you add/do not add the parenthesis to make_pipeline.  Also, please do leave in when mistakes occur as it is good to see the thinking process for solving them.  Thanks, loving the channel.",True
+@DeepakGopalV,2017-02-12T05:10:12Z,2,"Heyy sentdex, can you also do a video on building custom factors for pipeline?",True
+@panzach,2017-02-09T21:34:26Z,12,I don't know if I skipped something by accident -  but where can I see how those 'sentiments' are calculated? Thank you,True
+@RatherBeCancelledThanHandled,2017-02-09T00:14:41Z,0,"Thanks for all the help uploading this and all.   But I need a little more help.   For some reason when ever I print the result dataframe I don't get either the long or short columns :/. It's so frustrating.  I see nothing different about my code vs yours.    def make_pipline():     sentiment_factor = sentiment.sentiment_signal.latest          universe= (Q1500US() & sentiment_factor.notnull())          pipe = Pipeline(columns= {'sentiment':sentiment_factor,                               'long':(sentiment_factor >= 4),                               'shorts':(sentiment_factor <=-2)},screen=universe)     return pipe  result = run_pipeline(make_pipeline(),start_date = '2015-01-01', end_date='2016-01-01')  Please let me know if there is a way I can get long and shorts in the columns.",True
+@JanUC3mQtGq3NMcyMVdhm6md,2017-01-31T22:28:11Z,0,"iPython is pretty nice, especially for teaching. If you publish your notebooks on Github, people can just clone them and start playing around very easily..",True
+@ryanshrott9622,2017-01-31T18:37:18Z,5,I still don't see how you could prefer IDLE! The iPython notebook is great for these tutorials in my opinion.,True
+@Ahmadsalafi,2017-01-30T18:59:43Z,0,2nd,True
+@mansioncapital3358,2017-01-30T18:02:48Z,15,I am 14 years old and I'm very intersted in this theme,True
+@mansioncapital3358,2017-01-30T18:00:47Z,0,great job,True

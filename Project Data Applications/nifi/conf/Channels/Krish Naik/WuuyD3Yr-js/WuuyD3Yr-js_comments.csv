@@ -1,0 +1,94 @@
+author,updated_at,like_count,text,public
+@keerthanpu808,2024-03-11T11:51:37Z,0,HOW U TOOK AVERAGE LINE IN GRAPH (ON WHAT BASIS?),True
+@akshaymote3430,2024-02-01T14:15:15Z,1,"I didn't get one thing that even in Adjusted R2, whether there's correlation or not is not taken into consideration. So, by just considering number of variables, how correlation issue gets addressed?",True
+@user-wx9sd7xp2f,2023-12-03T12:53:59Z,1,"very informative and useful content, lucid explaination",True
+@Dyslexic_Neuron,2023-03-22T14:15:48Z,0,"not a satisfactory explanation as to how R adjusted takes care of non correlated value, just hacking the formula doesnt make it very clear. The intuition and the reason for adding sample size is not explained properly.  Overall not a good explanation",True
+@tejas4054,2023-03-21T09:18:12Z,0,Particular bolna kab band kroge,True
+@anishchhabra6085,2022-11-09T15:28:50Z,1,Can you please explain how the SSres will decrease as we try to add a new independent variable?,True
+@durgakorde3589,2022-11-03T11:13:51Z,0,Thanks a lot Krish 🙂its really helpful,True
+@mohammad.anas7777,2022-10-15T11:32:38Z,0,"Nayek sir  p is total independent features or those independent features which we have added later? Also, can we say that N is total number of columns in the data set? is so then, should we count those columns also which have irrelevant data like ticket serial number or passenger name in titanic dataset?",True
+@prateeksachdeva1611,2022-10-05T00:25:11Z,0,Very well explained,True
+@Iftikharlone304,2022-09-05T05:05:54Z,0,https://youtu.be/QxiP6FGIoEU a,True
+@SACHINKUMAR-px8kq,2022-07-24T06:29:58Z,0,Thankyou so much sir,True
+@blindprogrammer,2022-07-14T10:37:00Z,2,"Initially N=1000 R^2=0.85 p=5 (initially) adjusted R_Squared = 1 - ((1-0.85)(1000-1)/(1000-5-1)) = 0.9849  1. suppose a new non-correlated variable is added: N=1000 R^2=0.86 (suppose new R^2) p=6 (new) adjusted R_Squared = 1 - ((1-0.86)(1000-1)/(1000-6-1)) = 0.8591  2. suppose a new correlated variable is added: N=1000 R^2=0.92 (suppose new R^2) p=6 (new) adjusted R_Squared = 1 - ((1-0.92)(1000-1)/(1000-6-1)) = 0.9195  As we can notice, on adding a non-correlated predictor, the overall adjusted R_squared has decreased while it has increased on adding a correlated predictor. Hope it helps!",True
+@balaramg89,2022-06-24T07:03:12Z,0,"N - total sample size, indicates no of rows in the model?",True
+@anuradhadevi1414,2022-05-28T13:54:14Z,0,Bahut accha somjaya sir thank you sir,True
+@biswajitnayaak,2022-05-28T11:02:05Z,0,i am not 100% sure if this is correct when you say  it needs to be squared (Actual - Predicted)  because of negative value but i suspect its for the outliers,True
+@adylmanulat2465,2022-04-27T10:33:36Z,0,"good day sir, I just wanted to ask if an independent variable is not significant or does not have an explanatory power to the model but when removing it lowers the adjusted r-square what does this imply? so far  the reason that i know the reason is because the t-statistic is greater than one. With this information, what can we infer?",True
+@ankursingh5969,2022-04-23T15:45:38Z,0,Krish R-square will increase in both of the cases whether the variable is correlated with dependent variable or not. hence it result in decrease in Adj R-Squarein both of the case. However the magnitute will be difference.,True
+@aryanudainiya9486,2022-04-09T17:55:07Z,0,best teacher of ML on the youtube,True
+@tannurohela6192,2022-03-28T08:13:27Z,0,"Hey, I didn't get the term Penalizing. In the video just before explaining Adjusted R square,  it was said that ""it is not Penalizing the new added features"". Can someone please elaborate.",True
+@Kmrabhinav569,2022-03-04T06:32:06Z,0,Well done,True
+@kalyanreddy6260,2021-12-30T06:57:33Z,0,Rsqaure meanns ssr/sst only right whay -1 before that . Just to know in some excel videos it shows only ssr/sst,True
+@alishaparveen5226,2021-12-25T21:56:32Z,0,Could you please explain with any example from scratch with multi output in regression?? I want to predict 2 output (distance travelled and velocity) from the dataset.,True
+@bobbypathak123,2021-11-21T12:07:49Z,0,Wow.. thanks so much Krish. This was the best explanation i found,True
+@tanvipunjani7096,2021-11-04T23:18:24Z,2,I am glad I came across this tutorial. Very well explained !,True
+@abhi9029,2021-10-14T09:50:59Z,0,"Hi Krish, At the end of your each sentence while explanation please make the same rhythm of the speech. What happen here is at the end of your sentence you make your voice very low so this creates confusion while listening.",True
+@rajeshdhyani3114,2021-09-10T12:09:18Z,0,Well Explained,True
+@adipurnomo5683,2021-09-01T11:20:08Z,0,Fantastic course!. I hope you doing well sir .,True
+@subhamsaha2235,2021-08-19T07:46:48Z,0,"Still not clear for me, can anyone help me out. In case of un-correlated or correlated variable, If p increases then N will also increase, R2 obviously increase, then how its penalizing?",True
+@utkarshsalaria3952,2021-08-09T19:28:51Z,1,"Sir at last of the video you said that r^2 will never be decreasing on increase of independent features even if the that feature is not correlated , then how can you say that adjusted R^2 will decrease when R^2 is less (at 14:16) which will never be true according to the fact that R^2 will always be increasing then how can it be less It have actually confused me Plz help if anyone knows",True
+@hakkamadan9941,2021-08-07T11:19:01Z,0,beautiful explanation sirji,True
+@gauravjoshi9764,2021-07-06T16:13:14Z,0,i just wanna know this total sample size is total number of columns or total number of rows,True
+@sangitakhade1730,2021-06-30T04:23:02Z,0,what is the meaning of penalize,True
+@harisjoseph117,2021-06-26T08:47:00Z,0,Thank you Krish. Nice explanation.,True
+@independent7212,2021-06-26T08:12:55Z,0,Thank you so much sir for your great support by making such videos.,True
+@burhanuddinraja7209,2021-06-06T05:20:18Z,0,"Sir, but if p will increase the N will also increase because they both have independent variables. So the denominator will always be zero.",True
+@srinagabtechabs,2021-05-31T19:24:16Z,0,Excellent explanation.. thank u very much,True
+@kumarvaibhav5325,2021-05-28T15:54:48Z,0,Sir it would be great it you can compliment this with an example,True
+@tonnysaha7676,2021-05-13T16:17:57Z,0,Thank you sir🙏,True
+@abhinavjain5561,2021-05-08T06:12:07Z,0,"In adjusted r2, their is r2 But whether the feature is correlated or not the r2 value will increase than how we are able to say something about adjusted r2",True
+@emilyme9478,2021-05-05T21:10:55Z,0,Awesome,True
+@shubhamkundu2228,2021-05-04T16:53:22Z,0,"Little Confusing for the use of Adjusted Rsquare !..  So when we add more independent variables to model, the Rsquare will always make sure to increase, then Adjusted Rsquare checks if independent variables is not correlated to the target variable and minimize Rsquare value.  Does that mean while feature selection, we should take those independent features that are correlated to target/output variable and drop other..? Aren't we supposed to take those independent variables in model that are not correlated with each other and they are independent, so why penalizing them which are not correlated !! For independent variables that are correlated, we could drop them !",True
+@sahilbhatia2671,2021-05-02T12:19:36Z,0,very well explained,True
+@kinnaryraval,2021-04-29T13:04:12Z,3,"Hi Krish, Nicely explained. But have a query. R-square will always increase whether calculated against significant or insignificant feature. So, there is no thing that R-sq will be less for non-corelated features and more for corelated ones, like it will increase blindly. So, how can you say that R-adj will decrease when added attributes are non-corelated as R-sq will still increase, making R-adj = 1 - smaller_number ? I hope my question is bit clear. Thanks n respect sir!! (v).",True
+@sagarpandya7865,2021-04-14T15:46:43Z,0,Great explanation Thank you,True
+@rachanagovekar1683,2021-03-20T20:04:40Z,2,"What are these 33 dislikes for ? Is your language different :-D, Awesome explanation Krish, hats off",True
+@ParallelUniverse550,2021-03-09T21:55:50Z,0,Can R square be considered as training accuracy?,True
+@ruchiyadav1334,2021-02-15T06:50:39Z,5,Kuch samjh nhi aya,True
+@shubhamprasad6910,2021-01-06T20:52:02Z,3,Which variable in the R^2 adjusted is equation has related to correlation. it is not R^2 and all other variable have nothing to do with  correlation. Is it the ratio of (n-1)/(n-p-1)?,True
+@manzarabbas6312,2020-11-14T11:22:51Z,0,kamal !!!!!,True
+@richasharma5949,2020-10-22T22:48:27Z,0,"Good explanation, but it would be better to add an example. That way it will become more clear :)",True
+@woblogs2941,2020-10-14T09:33:43Z,0,Thank you sir u made the things veery easy,True
+@voramb123,2020-09-27T15:36:44Z,0,Very interesting and excellent but requested to give examples to evaluate situations,True
+@ayushmaheshwari5805,2020-09-25T05:29:40Z,2,please tell why SS res decrease as we increase the feature  please explain ?,True
+@kavururajesh1760,2020-09-24T05:42:03Z,1,Explained in detailed manner keep doing,True
+@sakshirikhe2869,2020-09-23T14:43:01Z,2,It's very excellent and detailed explanation for a beginner!!!,True
+@mawais2560,2020-09-20T03:29:08Z,1,what are possible interpretations and justifications for low r square values in management science?,True
+@firta_banjara,2020-09-15T19:04:18Z,0,"hi krish, if we add features with high error then the SSres increases , but if we add features with low error then SSres decreases",True
+@ravitadiboina6065,2020-09-12T15:39:11Z,0,Why r2 value is no decreasing when features are increasing is their any theory behind it,True
+@seemaarya598,2020-09-06T17:10:32Z,0,How we can say adj r square is significant or not,True
+@PunitJaiswal12,2020-08-28T20:38:14Z,3,"Hello sir, I am making a project on income and health expenses, my r-squared value comes out less than 1%. What should i interpret from this? Should i change my linear model or try other? What should i do?",True
+@kewalagrawal6539,2020-08-14T08:17:00Z,2,This is the problem with our education system...everything is just formula based...you started off with the formula without even giving any intuition about what actually R2 and adjusted R2 mean...what does a 50% R2 tell you...formula and maths always come last...you should first make your students visualize what these terms mean without using any maths at all...once they are good with it...then you bring the formula,True
+@ayantikabhowmik1261,2020-08-03T13:06:15Z,0,Great explanation Sir!,True
+@anubhavgupta8146,2020-07-19T02:21:52Z,1,"Bhai kya karke manoge , itna simply koi kaise padha sakta hai👍",True
+@gopakumar138,2020-07-11T07:01:34Z,0,very useful video,True
+@pranjalgupta9427,2020-06-09T05:36:43Z,0,Awesome video and explaination,True
+@mahalerahulm,2020-05-25T18:16:15Z,0,Wonderful Explanation !!,True
+@nileshsuryavanshi8792,2020-05-21T08:39:46Z,1,"very well explained, thank you sir.",True
+@nilupulperera,2020-05-05T09:18:50Z,1,Very interesting Krish. As always you stimulate us to think and learn.,True
+@hemachand5617,2020-05-01T02:53:37Z,0,Let's say I have 10 features and some R square value is calculated. Later it found that 4 of the features are uncorrolated with the target. Now 1-R2 value is not going to change and so does the adjusted R2 value. Can u correct me if I'm analyzing it wrong hoping it would follow the simple linear regression model not the lasso,True
+@machinelearningchefs3525,2020-04-27T23:09:07Z,0,"Correct yourself  R-squared = SumSquareRegression/SumSquareTotal and this entity cannot be negative. SST = SSR + SSE.  So SST > SSE , there is no chance of R-squared to be negative. This what happens when you are teaching without have good understanding of concepts behind them. You have more than 150K subscribers and do not mislead them From mathematical stand point R-square is the ratio of  variation explained due to the model to variation in the data",True
+@anubhasinha2557,2020-04-11T09:24:02Z,2,Nicely explained... Can you help me with difference between Sum of Residual and Cost function? Looks like both have same formula.,True
+@SandeepKumar-ie1ni,2020-04-06T11:25:40Z,0,"Sir, As you said that in order to avoid negate values in the residuals we squared the terms SSres and SStot , but sir if we apply mode on both values neglecting squared both terms , what will be the change in R values ?? On squaring the R value its getting larger which is reaching towards 1 more easily that depicts our model has fitted well . please answer sir .",True
+@varunkukade7971,2020-03-30T14:12:30Z,3,"You said by using 1st formula that even if independent feature is not related, r^2 value increses .that was the drawback. But at 14.18 sec of video you are saying if the feature is not related then we would get smaller r^ value from 1 st formula. I got confused here. Please solve my confusion. I will be glad. Please🙌🙌🙏",True
+@hemantdas9546,2020-03-28T06:07:13Z,1,What does this mean that R square will always increase when feature is added. This means when features are increased predictions are better. Is it so?,True
+@bhavanasree7573,2020-03-15T18:03:29Z,0,What do we do next if we get to know that r-square is small ? Yeah it says the model isn't a good fit but is  there any way we can improve the model after getting to know the r squared is less or we use some other method to solve this model,True
+@praneethcj6544,2020-02-19T07:37:13Z,0,Very intuitive explanation..!!! You have been such an inspirational instructor ..!!!!,True
+@ganesanr2307,2020-01-17T05:48:43Z,0,"Since R Square is the squared value of r, then how it will get a negative value.    R square always 0 to 1. It will never ever be a negative number",True
+@datascience6718,2019-12-20T05:55:29Z,1,"Sir, what is the meaning of penalize in terms of machine learning?",True
+@vjukulkarni6057,2019-12-13T02:57:32Z,0,Hi krish can u please suggest how to explain the algorithm in interview,True
+@saifsalim6084,2019-11-10T10:22:01Z,0,"In which condition, SSR will be greter than SST?",True
+@sardarsahib3993,2019-10-28T06:42:30Z,0,superb,True
+@kishanpandey4798,2019-10-22T16:04:05Z,0,"If I have 10 features and if I need to know which feature is affecting output y and which is not affecting y. Do I need to find correlation between y and each feature separately. If yes , then how? If not , then what to do? Krish please reply. Thanks",True
+@hanman5195,2019-10-22T10:13:35Z,7,All time never ever found these kind explanation. I will not follow any howle heros except Sadhguru and You.,True
+@pratiknabriya5506,2019-09-30T11:08:14Z,0,Thanks...very well explained.,True
+@snigdharay8847,2019-09-17T20:07:28Z,0,If these two are different then why do all say that r-sqaure and adjusted r-sqaure both are same and while seeing the ouput we always see the adjusted r-square.,True
+@amitanand8485,2019-09-16T22:14:58Z,0,Thanks .. Explained beautifully,True
+@akshaykrishnan7985,2019-09-15T02:05:53Z,5,Good morning sir. Please do upload a video with explanation of what exactly is p-value. Getting confused with it. I hope atleast your explanation would give more clarity.,True
+@Emotekofficial,2019-08-22T08:00:28Z,68,"Sum of squared residuals also called the sum of squared Errors is SSE and Sum of squared Regression is SSR just make sure about this since new students can get confused. Y = individual data points,  Yreg = predicted Regression points Ymean = Average of Individual data points SSE = Y - Yreg SSR = Yreg - Ymean so, SST = SSE + SSR         = Y - Ymean",True
+@harishgoud6772,2019-07-11T15:24:42Z,0,Sir SSR means sum of squares of residuals.,True
+@MrPrashanth55,2019-07-07T03:20:27Z,10,SSR means Sum of the Squares of the Residuals  SST - Sum of the Squares of the Total....,True
+@shaz-z506,2019-06-14T16:29:01Z,1,Thank you Krish that's the good explanation.,True
+@mayurisagiraju7928,2019-06-14T15:12:38Z,0,thank you so much...It helped,True
+@reddy764,2019-06-12T17:13:09Z,1,Can you suggest good book for Machine Learning ?,True

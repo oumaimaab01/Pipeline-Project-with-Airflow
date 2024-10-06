@@ -1,0 +1,123 @@
+author,updated_at,like_count,text,public
+@statquest,2021-03-13T21:21:29Z,17,"NOTE: There seems to be an update to the elastic net package and if you run the code, your results might not be exactly what I got in the video. However, the concepts are still the same.  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@mercykabaya5698,2024-03-06T08:09:54Z,0,How do I get my corresponding lambda values now because you only produced alpha,True
+@ll-bc4gn,2023-11-10T14:43:42Z,0,"Hello (: about the ""real_p"", is there a reason you choose 15 instead of other numbers?",True
+@1996janjan,2023-08-21T13:34:49Z,0,Thanks for the informative video! I was wondering why we would split up the sample in a testing and training set and also you use the k-fold cross-validation method? Is this standard procedure? It is my understanding that one either uses the k-fold corss-validation or the validation set approach. Thanks for your help!,True
+@AdrianaCastilloC,2023-07-10T12:05:02Z,0,"This is GREAT, Josh!! Thanks for the video. Do you have by any chance any video or source I can watch/read for running this script when using spatial data? I have a shapefile and I need to run a Lasso model. Any help would be greatly appreciated!!!!",True
+@mamoncitomc4637,2023-06-04T20:35:12Z,1,one of the best videos ive watched for my upper division statistics classes,True
+@bernardoniebuhr8307,2023-03-16T16:05:30Z,0,What about adaptative Lasso regularization?,True
+@Noor.kareem6,2023-03-13T21:06:20Z,0,"I want to ask about the real p that only will help to predict the outcome  Why did you determined real p?  I mean Lasso ,Ridge and elastic net should shrink or remove the useless variables but we don’t know which variables we must remove  Can you please tell me the right thing?",True
+@Lin-vg5wy,2023-02-17T03:18:48Z,2,"I love how every time I feel super anxious trying to find out solutions for my questions, you being a lifesaver and also make me laugh lol",True
+@peperazo,2023-01-10T18:57:46Z,0,"Excellent video, it helped me a lot to understand these regressions. I have a question, in the Elastic Net example we have manipulated the alpha values ​​from 0 to 1 and it gave us that Lasso is still the best. But can you change the lambda values ​​to find different Elastic Net regressions and see if any of them are better than Lasso? What is the value of lambda worked in the last example?",True
+@raiydos7796,2022-12-30T16:18:22Z,1,"Thank you so much for the video! I know the video is 4 years old, but just in case someone reads this, at 11:03 as you explained in previous videos, Ridge doesn't eliminate parameters. What is really happening here? I couldn't understand Thank you again!",True
+@tranglerui,2022-08-22T14:31:32Z,1,"Thanks so much for you series videos, and for this tutorial paradigm. You are always BAM!!!!",True
+@shattowsky,2022-05-10T16:57:33Z,2,"I agree, with the opinion that this is one of the best channels on statistical YouTube! I ´d like to answer how do you make the same in logistic and cox regression. Specifically,  how do you obtain the line ->   mean  Example:   With   Ridge Cox Regression  alpha0.fit <- cv.glmnet(x.train, y.train, type.measure=""deviance"",                          alpha=0, family=""cox"").        # here:   y.train     is a Surv object  alpha0.predicted <-    predict(alpha0.fit, s=alpha0.fit$lambda.1se, newx=x.test)  mean((y.test - alpha0.predicted)^2)    ?????   This is for linear regression   When I try to obtain the same in logistic (family='binomial') or cox (family='cox') regression with type.measure='deviance';   how can I obtain the corresponding 'mse'.   Thanks in advance",True
+@PhilipFreda,2022-04-29T21:57:11Z,0,Does anyone know how to extract feature importance out of these models. Perhaps in terms of p-values or another metric like shap values?,True
+@belantaribrahim850,2022-04-25T21:44:38Z,1,Truly amazing work 👏 🙌 👌,True
+@olcaybolat3452,2022-04-17T19:19:18Z,1,"Josh this is so clear, I don't know why you don't have many reviews with R. I hope we would get similiar R contents ! Thank you.",True
+@widohanggoro3387,2022-04-13T04:16:47Z,0,"When we add useful predictors, the mse also getting higher. Is it normal?",True
+@wenjiechen101,2022-03-22T19:32:52Z,0,Thank you so much for the vedio! May I ask how can we know what is the fitted model looks like after regulization?,True
+@alexxu8839,2022-03-19T16:15:02Z,16,Really appreciate how you explain every argument of the function. Such a life saver!,True
+@omarelashkar2308,2022-03-19T04:44:16Z,1,Great explanation!,True
+@blackV199,2022-03-05T14:51:27Z,0,"I have question, LASSO is useful for feature selection, how did you know from the start that only 15 feature (out of the 5000) will be informative ? I want to use LASSO to find and use the informative genes.",True
+@ChristianGardner,2022-02-28T19:41:32Z,1,You are the literal 🐐 of learning anything I’ve ever needed to know for statistics and modeling in R,True
+@khushijain2272,2022-02-25T15:27:05Z,0,why is alpha set to 0 for ridge regression?? Isn't that just regular OLS then?,True
+@nancyanderson5413,2022-02-17T00:14:02Z,1,"I Will definitely buy your book, and if you want to sell it in Spanish I can do the Translation for you.",True
+@nancyanderson5413,2022-02-17T00:12:39Z,1,"I am a devoted fan of your channel, thank you very much.",True
+@jannatinkarlen8702,2022-02-03T11:45:49Z,0,"sir, what if my lambda.min is much smaller than lambda.se? is that a problem? which one should I choose?",True
+@danielalveal9780,2022-01-17T16:49:48Z,1,Thank you so much Josh! before watching your videos this was literally impossible for me to learn. I really appreciate your work.,True
+@danielcordeiro6003,2022-01-10T12:16:31Z,1,Why do we dived the data into training and testing if the cv.glmnet already does cross validation? Or in other words. Shoudn't we introduce all data in the cv.glmnet function and set it to 3-fold?,True
+@user-yq1wg2pq6y,2021-12-23T08:30:10Z,0,Thanks a lot! I want to ask Do we need to scale the testing and validation set for prediction? What if we only have one sample to use? There’s no way to scale it to obtain a risk score..?,True
+@reyruben619,2021-10-27T03:17:00Z,1,Thank you so much!,True
+@prasunbhattacharjee8415,2021-10-22T15:25:41Z,0,"Very intuitive way of teaching. I used  lasso for a bunch of categorical variables and it's giving one Beta estimates for each unlike glm or lm. e.g. Education variable has many levels - No education, High school, Graduate, Masters and Doctorate but lasso has given one coefficient   -0.254. How to interpret these Beta?",True
+@noimnotyourex,2021-10-06T21:54:07Z,1,Brr,True
+@bibeksharma600,2021-10-06T15:37:04Z,0,Calculating mse = ((y.test - predicted)^2) ..... Does this mean that we are calculating the variance and then squaring it and finally dividing by the number of test samples ?,True
+@Patrick-fw4hr,2021-09-22T11:32:22Z,0,"Thank you so much for your videos, they always help a lot to understand what really happens behind the formulas! I've been wondering whether one needs to use the foldid argument in the cv.glmnet function in the first (fitting) loop of the elastic net. The documentation says that if alpha is being cross-validated, one may use a fixed foldid vector to make the folding comparable for all alpha values. Is that one of the issues with the glmnet update? Thanks! :)",True
+@rrrrrr12rr,2021-09-02T05:02:07Z,0,Could make a video on BSTS as well? :-),True
+@LiquidMasti,2021-07-23T04:33:30Z,1,lasso means yeeehaaa,True
+@jiazhou776,2021-07-07T00:40:15Z,1,Just a beginner to explore Elastic net regression. Your videos are the best I found to get around with all the concepts. Thanks for your works. They will help me with my research! All the best :),True
+@dssk2001,2021-06-23T10:58:10Z,1,My entire project for courses done based on your concepts. Thank you very much,True
+@deprofundis3293,2021-06-16T22:09:43Z,1,"Hi again - I was wondering if you knew how to do this using LOOCV. I emailed Trevor Hastie, explaining my small dataset issue, and he said that LOOCV would make more sense for me, then. But I've looked everywhere and can't find any tutorials or example code that show how to do this. I mean, I know that I'd set the number of folds to be the same as my sample size, but I don't know how else to set the R code up, which steps to skip, etc...all of the examples seem to do the train/test splitting. I understand if it's too much to ask, but any guidance at all would be greatly appreciated!!",True
+@benedettaconte4634,2021-06-15T17:52:14Z,1,Please could you do a lesson to explain us how to perform the elastic net with logistic regression?  Should we use differences in likelihood instead of mean squared error? Thanks!!,True
+@giacomobianchi4727,2021-05-31T10:30:22Z,0,"Hi stat community and Josh! What if I want to compare elastic net and naive elastic net results according to Zou and Hastie (2005) approach which is a simple rescaling of the coefficient, what I have to do? Is the cv.glmnet function the naive version of the elastic net or is it adjusted? Thank you!",True
+@lakshman587,2021-05-29T13:35:34Z,1,When	λ1>0 and λ2>0 it's called as *Yee Brr* LoL 🤭🤭,True
+@galan8115,2021-05-10T10:31:06Z,0,@StatQuest with Josh Starmer  Is there a way we can look up at the coefficents for the parameters (Variables) of the model? To look up wich variables are kept in the model and wich shrink.,True
+@jives.,2021-04-29T21:15:44Z,2,StatQuest gang rise up,True
+@deprofundis3293,2021-03-14T22:18:28Z,1,"Apologies if this is an inane question, but is it actually necessary to do the partitioning of a training set (as opposed to simply ""ideal"" to do it)? I watched the creator of the package's webinar and have looked over the package documentation, and it didn't seem to be a requirement that I partition my data like you do in this example (ie, deliberately creating a training subset). It appears that he performs the cross-validation on the same dataset as the elastic net regression. I really don't think I have enough data to create a training set...I have an unfortunately small sample size (despite extensive efforts - it's a tough field) and a lot of explanatory variables (many of which are correlated). (And it's a categorical DV, so I'm doing a multinomial model, fwiw.)",True
+@Jas-ti7hr,2021-03-12T17:02:30Z,0,"Thank you for your video! It's very helpful! Is it possible that we might get different results because of the update of the package or functions? I got the slight different results and that had the the best method altered. When alpha = 0.9, we got the lowest value at 1.182, compared to mse being 1.184 when alpha = 1. Is there any possible explanation? Thank you!",True
+@KeesJansma7689,2021-03-11T15:15:59Z,0,"So you used random data now as your x? What if you have real data, we have a project where we have n = 30.000 observations and 27 variables per observation. Can you do the same as you did, but then with the real data?",True
+@arungandhi5612,2021-03-04T15:23:23Z,1,"amazing I learnt so much which i could not learn in class,",True
+@tjinwei,2021-02-14T16:05:29Z,0,Hey Josh. So after running both a ridge and lasso regression models on my data; the MSE values are the same. What does this mean/say about my models..? I tried looking this up but I can't really find anything.,True
+@Shionita,2021-02-13T14:30:23Z,1,I'm so disappointed I was teached Ridge and Lasso as L2 and L1 and not as Brrr and Yihaa!,True
+@KayYesYouTuber,2021-02-12T17:35:22Z,1,Fantastic video. Thanks Josh. You have made it so simple and easy to understand.,True
+@afrakilic5672,2021-01-26T21:15:37Z,1,adamlığın zekatını ver be. böyle iyi anlatılır mı <3 <3 <3 AMAZING,True
+@rong8687,2020-12-09T17:54:08Z,1,"I really love your videos! They are so easy to understand! I could hardly understand what lecturers taught in lectures, but I could quickly understand your video with lively pictures and detailed annotations! I love your beautiful song as well!",True
+@danniawu1030,2020-12-07T21:21:13Z,1,I can't love your videos more pls keep making videos for us! greetings from Germany,True
+@patite3103,2020-11-25T11:19:47Z,0,Excellent video! Would it be possible to produce the Python version of it?,True
+@MemphianSounds,2020-11-10T17:05:21Z,0,Would this run faster or more efficiently on a large dataset than just a GLM?,True
+@AghilAlaee,2020-10-31T11:13:38Z,1,"Hi, just God bless you.",True
+@raterake,2020-10-17T00:52:41Z,0,"Thanks for the helpful video. In the last part you do a 10-fold CV for each lambda value and for each alpha value, since you are looping and running glmnet for each combination of lambda and alpha. What is the purpose of doing an additional 66 - 34 training-testing split and evaluating the models again? Why not just take the MSEs from the results of the cross-validation?",True
+@meetharita,2020-10-15T00:23:08Z,1,Excellent Explanations. This was very much useful for my assignment. Thanks a million!,True
+@anthonysun2193,2020-08-17T16:27:42Z,0,"Hi Josh,  Not sure if I screwed up - when I ran your Example 2 with 1500 useful variables (took 10 minutes to complete on my dirty laptop!), I got the following result:     alpha      mse fit.name 1    0.0 1400.375   alpha0 2    0.1 1545.035 alpha0.1 3    0.2 1545.035 alpha0.2 4    0.3 1545.035 alpha0.3 5    0.4 1545.035 alpha0.4 6    0.5 1545.035 alpha0.5 7    0.6 1545.035 alpha0.6 8    0.7 1545.035 alpha0.7 9    0.8 1545.035 alpha0.8 10   0.9 1545.035 alpha0.9 11   1.0 1545.035   alpha1  Does this mean that Ridge Regression is better?  How could it be?  The result showed that the mse figures are the same for all alpha except when alpha is zero.  Anthony",True
+@leoccleao,2020-08-12T19:25:45Z,1,"Uhuuu Thanks again for opening new windows for us. Question: for Logistic regression, can I just use classification accuracy to compare models? Logloss would be the counterpart for MSE, but  you know... try to tell a CEO the logloss is higher for a given alpha lol",True
+@laurielommel1582,2020-08-11T20:44:04Z,13,Thank you so much for this amazing work you are doing and your wonderful explanations! You cannot imagine the help you are providing for stat-ungifted students like me! Greetings from Belgium!,True
+@ms_1918,2020-07-05T13:48:10Z,1,Thank you,True
+@user-bz8nm6eb6g,2020-07-03T16:27:14Z,1,Thank you so much,True
+@vitordeholandajo156,2020-07-02T17:34:18Z,1,awesome,True
+@user-xc9wo3nr4e,2020-06-04T15:25:15Z,1,Loved it! Thank you so much:),True
+@sindhubiswas6539,2020-06-01T12:50:06Z,1,Suppose I am fitting an ordinary Least Squares model to my data set and found it has multicollinearity. Can i use the steps that you just discussed?,True
+@zombieboobuu9233,2020-05-30T12:32:13Z,2,the best channel ever! you save my life!,True
+@joshualaferriere4530,2020-05-22T10:01:27Z,5,Would have been nice if you showed the final model and prediction accuracy over a holdout test set,True
+@joshuasuasnabar6058,2020-05-05T16:26:16Z,2,BAAAAAAM! Thanks a lot Josh Starmer!,True
+@rodrigoalmeida2,2020-04-21T20:30:51Z,0,"hi josh, iam watchin from Brazil, yout videos are really awesome. in this example, its possible to use regression in non-numeric variable?",True
+@arjunbadhan2685,2020-04-16T23:41:51Z,0,Hey Josh.. Your videos are too good.. Simple yet explanatory.. We are lucky to have you here.. i wanted to ask a question to you on this video.. why do we generally use to have training set as 2/3 or maybe 70% of total data.. why not any other number.. suppose if we have 10 million rows and i want to train a model then 50% of the data as training set still gives us a good amount of data to train.. then why always 70:30..,True
+@sandysanju9675,2020-04-15T19:36:01Z,0,Sir you must be a full time professor in any reputed university. You can explain the math to a nonmath person. I have found your lecture the best lecture till date. thanks a lot for posting it.  sir I have a  query could you please guide me where should I start to study for applying the lasso and ridge for panel data.. god bless you sir.. Sir please help me...,True
+@shravanthj4389,2020-04-14T20:17:11Z,0,This code is showing an error in R,True
+@santoshbala9690,2020-04-11T11:12:50Z,0,"Please do a video on Auto Correlation ACF & PACF...,",True
+@santoshbala9690,2020-04-09T15:13:29Z,0,Hi Josh... An awesome Video.. Thanks   @10:15 - the attribute lambda.1se = that resulted in simplest model(fewest non zero paramenters) and within 1 std error of Lambda that had the least sum I request for a better understanding here....                          When we say within 1 std error - we mean - the model for which the predicted values are within 1 std error from y.. is that correct? Please clarify    Also What is a cross Validation error?,True
+@thegreenpotato1,2020-04-01T17:20:08Z,1,You're a hero man,True
+@Norhther,2020-03-24T14:11:49Z,0,In 14:55 I Dont understand the notation of the double list,True
+@alecvan7143,2020-03-21T14:36:31Z,1,DOUBLE BAM,True
+@user-vy6ff3kt6f,2020-03-21T07:46:03Z,1,"Clearly explained video!!!  Hi, I am doing an elastic-net regression to logistic regression to see whether the result is yes or no. My question is that at the video 16:17, how can I calculate the deviance instead of mse by using categorical ""y.test"" and numeric ""predicted""? Hope to see your reply soon. Thanks!!!",True
+@rishiprasana8285,2020-03-11T00:32:56Z,0,"Hi Josh,   What is ""y"" here? I see you are taking y=apply(x[,1:real_p],1,sum)+rnorm(n) But why do we need the sum?  I'm working on dataset ""divorce_margarine"" available in package ""dslabs"" In this case, what should be my ""y""?",True
+@sheilaquan9824,2020-01-27T19:32:30Z,1,Tripplebammmmmm...........,True
+@sheilaquan9824,2020-01-27T15:13:02Z,1,Wow nice music and lecture!,True
+@joycem.205,2020-01-07T20:47:11Z,1,How can I compare models in terms of the importance of variables? Thanks for this video!!!,True
+@razzlfraz,2020-01-06T03:22:31Z,2,"For anyone who is a bit confused, giving a concrete example, say you're trying to predict if someone will commit fraud.  Y contains records of people who have and have not committed fraud.  Meanwhile, X contains the ""features"" about those people, like their sex, age, income, and so on.  Each feature is a column in X, and each row is a person.  You are trying to predict if someone will commit fraud, so you put in these features (x.train) into a linear regression algorithm, with if those people actually did commit fraud (y.train).    If anyone is curious why glmnet requires x.train to be a 2 column+ matrix (two or more features), the package maintainer Trevor Hastie said, ""glmnet is designed to select variables from a (large) collection. Allowing for 1 variable would have created a lot of edge case programming, and I was not interested in doing that. Sorry!""",True
+@broxxad,2019-12-20T10:32:57Z,1,lol 14.47-something-something and 1.19-something-something,True
+@sharonarandia3630,2019-11-20T22:29:48Z,1,"This video is awesome, as the others. Thank you!",True
+@tinesrensen3684,2019-10-29T14:34:07Z,0,"Very nice, but could you show an example with a dataset with missing values?",True
+@MrNut89,2019-10-26T03:59:10Z,4,Oh my god... I've been struggling for hours and read so many VERY THICK books and gone through so many videos that I was honestly just sick of things! Then I found you. Where have you been all my life? XD Thank you so much! This was both silly enough that it cheered me up after so much frustration AND it was slow and direct enough for even me to understand! Thank you so much!,True
+@user-kj6jo2sd3b,2019-10-20T10:02:28Z,1,"how can we deal with the variable in dataform which is not continuous with glmnet, such as categorical variable and ordinal variable?I have read many papers and all of them told me dataform should be transfer into matrix before we conduct the glmnet.but ,you know,in matrix,all the variables are the same type.so??thank you.",True
+@lowyieldbondfunds,2019-10-18T07:37:01Z,9,StatQuest killing it yet again. Literally using every video to supplement my grad degree.,True
+@lopamudrapattnaik2711,2019-10-16T03:58:40Z,0,Pl prepare a video on Bayesian regression,True
+@Grecocubano,2019-09-29T18:30:28Z,1,Love your videos! Would be great if you had this one for python coders also,True
+@aliciachen9750,2019-09-25T16:38:55Z,7,i like how the seed is the same as the hitchhiker's guide's answer to life... lol.,True
+@samanehf,2019-09-18T02:24:56Z,0,Can you add a code to see the predicted Y for each participant? Such that we can compare the actual-y vs. predicted-y? Can you also add the code for the residuals? I am interested to categorize participants based on their residuals. Thank you so much (I keep my fingers crossed that you see my comment and help me to figure it out).  Samaneh,True
+@Endocrin-PatientCom,2019-09-16T03:37:46Z,0,I supposed our end goal is not the simplest model but minimal test data error during the cross validation,True
+@Endocrin-PatientCom,2019-09-15T18:55:53Z,0,I could not understand the reason why you used the lambda.1se,True
+@tanohcedrick708,2019-09-13T19:23:07Z,0,"Thanks but i got  when i want to create alpha0.fit for the ridge regression  It says :  ""error in rep(1,N) invalid 'times' argument""",True
+@Tessitura9,2019-08-29T19:40:09Z,2,Most comprehensive explanation of how to implement ridge / lasso in R I can find. Thanks!,True
+@maltelangeheine8193,2019-06-12T07:04:44Z,1,Super great video!,True
+@nemanjavucic570,2019-05-02T22:52:11Z,2,"Josh, thank you for this great video. How can we extract 15 parameters used for predicting outcome from the fit model?",True
+@changli4046,2019-04-15T06:56:43Z,0,I love your videos!,True
+@uxuelazkano3997,2019-04-09T07:01:31Z,0,"Really nice video!  I would love to know how can I extract the adjusted R² for the linear regression. Thak you Josh, you make a great job with these videos, they are really useful!",True
+@kwangminkim1735,2019-03-28T22:08:41Z,0,clear ever! thank you!,True
+@user-uz1wz4gp9d,2019-03-26T15:49:20Z,1,"11:35 , When choosing `family = ""multinomial""`, should I check deviance rather than MSE?",True
+@petax004,2019-03-21T15:04:04Z,1,Is the SME formula same for logistic regression?,True
+@Fnottro,2019-03-11T19:17:01Z,0,This is amazing! Thank you for making these!,True
+@lishanjiang260,2019-03-07T02:54:23Z,0,You just make it very clear and understandable. Thank you Josh!,True
+@tanmaykorgaonkar963,2019-03-05T20:19:13Z,0,"Great Video.  Can you give a real life case study example like for linear regression to predict the amount spent by a customer on a e-commerce site or for logistic regression whether the person will default on loan payment, etc.",True
+@pavannimaidas1008,2019-02-23T13:06:47Z,1,Can you share the same in Python?,True
+@jordanmakesmaps,2019-02-23T02:49:16Z,20,Have you considered making a book that includes your explanations of concepts along with code examples? I really think it would make its way to the top along with ESL and ISLR. Thanks for your work!,True
+@benjamin_markus,2019-02-21T19:52:23Z,1,I'm new to R and though I've looked I wasn't able to find the answer to this: how do I extract the fitted weights from the fit object?  also: I've performed this (with a slight modification: I did logistic regression by making the necessary changes according to the video) on my data but the MSE values do not change for different alphas at all - how to interpret this?,True
+@baharehheydarzadeh6236,2019-01-30T17:02:34Z,1,You are simply the best !!!!,True
+@alexanderlewzey1102,2019-01-09T07:36:48Z,73,This is literally one of the best channels on youtube! This channel will be massive in a couple of years.,True
+@macilguiddir3680,2018-10-31T00:49:53Z,1,"Top, as usual! Exactly what I needed! Thanks, my friend",True
+@user-bt2lc5wh7h,2018-10-29T08:55:03Z,2,"Could you please answer my question?If you want to use the obtained omics data such as protein/gene matrix to build a machine learning model, should you remove the correlated variables by Elastic-Net Regression or some methods like this?? Thank you a lot!",True
+@yulinliu850,2018-10-25T15:55:01Z,1,Thank you Josh!,True
+@lizhang9898,2018-10-25T03:35:55Z,1,hi Josh would you consider a series on multlevel modelling? love your videos,True
+@xiangnan-oz9hs,2018-10-24T13:52:49Z,1,Give you thumbs-up!,True
+@dp3353,2018-10-23T20:12:09Z,1,that was great. thanks!,True
+@benben0814,2018-10-23T14:41:39Z,4,My wish came true! Thank you Josh!,True
+@kenn756,2018-10-23T14:10:44Z,1,"Hey Josh could you please do a video on comparing Bagging, Boosting and Stacking?",True

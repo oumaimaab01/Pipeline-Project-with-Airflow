@@ -1,0 +1,13 @@
+author,updated_at,like_count,text,public
+@The_NoOne,2024-03-04T17:55:26Z,0,Sir isme async function dalna ho to kese kre,True
+@Cybernetic1,2024-02-26T15:31:47Z,0,Great content,True
+@kunalkumaraiml2365,2024-01-11T07:14:58Z,1,"Thank you so much sir, for such incredible content ⭐.",True
+@shreyasb.s3819,2023-05-03T14:38:36Z,0,How to handle variables overlapping and conflict due multiple threads at a time execution and in correct results,True
+@sparkersclubesports5743,2022-09-02T02:56:49Z,0,"Where do we use this in ML model, can u explain its usage pls",True
+@vishalbharatbhaivanpariya9729,2022-05-20T05:48:00Z,0,its not working at all,True
+@rankushvishwakarma5658,2021-06-12T17:45:17Z,0,Thankyou sir,True
+@nccamsc,2021-03-21T07:45:38Z,0,Asynchronous and parallel are 2 different concepts,True
+@bennguyen1313,2021-02-19T05:06:03Z,1,"I'd like to improve my python's application performance, by passing a Multiprocessing pipe when instantiating the PyQt widget.     One way I thought of doing is to create a custom class that extends both a pyqt widget and multiprocessing.  For example this inherits from ONLY Qt, class MainWindowReceiver(QtWidgets.QMainWindow): def __init__(self, *args, **kwargs): super(MainWindowReceiver, self).__init__(*args, **kwargs)  And can be instantiated without passing any argument: main = MainWindowReceiver() main.show()  However, if I create a class that inherits from both PyQt AND multiprocessing, class MainWindowReceiver(QtWidgets.QMainWindow ,  mp.Process): super(Process, self).__init__(*args, **kwargs)  then NONE of these work: out_pipe = mp.Pipe() p1 = MainWindowReceiver(out_pipe) #doesn't work p1 = MainWindowReceiver(pipe=out_pipe) #doesn't work p1 = MainWindowReceiver(,pipe=out_pipe) #doesn't work p1.show()  1) What does the syntax look like to construct a class that inherits from both PyQt & multiprocessing, such that instantiation its object, only requires the pipe argument?    2) Is there a way to pass a pipe to a PyQt Widget WITHOUT creating a multiple-inherited class?",True
+@sachinkun21,2021-01-30T07:54:24Z,2,"@krish great video as always. I have a couple of questions, when you set Max workers to None, did it automatically spawn max possible threads as the execution got completed in approx 1 sec?  Also in case of multiple workers how can we map the result output back to it's function call as different function may have different execution times.",True
+@coolmantej50,2021-01-30T04:02:24Z,1,Whats the difference between multithreading and multiprocessing and which one is faster to use,True
+@AjaySharma-by6kr,2021-01-29T17:53:42Z,2,Please implement it with Redis Queue also,True

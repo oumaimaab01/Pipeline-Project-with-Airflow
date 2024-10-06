@@ -1,0 +1,17 @@
+author,updated_at,like_count,text,public
+@kaiwang2924,2018-05-02T19:37:54Z,0,results is so good?,True
+@rajenpatel3038,2017-08-27T23:53:06Z,0,"Just started following this so kind of latecomer to the party and this is GREAT tutorial. On line# 51, isn't current_position > 0 and s in context.shorts, kind of mutually inclusive? You wouldn't have entered a short position if sentiment was -3 or lower and hence an entry exists in ""shorts"" list but also that would mean, current_position > 0. Since you are executing context.shorts.remove, i am thinking those two conditions at line#51 are mutually inclusive. Thoughts?",True
+@ricardocortez9894,2017-06-13T03:22:10Z,0,"Sentdex., how long would you consider paper trading your algorithm before going live? I initially thought that a couple of days would be enough, but I'm getting the feeling that maybe a month or so would provide more insights.",True
+@benilev6511,2017-03-22T21:15:04Z,0,"Pretty old one, but anyway :)  Seems to me like your shorts should be ""sold"" the next day right after you ""bought"" them. This is because you dont check in line 37, where you close your longs, that the specific stock is NOT in the shorted stocks list. So basically, you sell the stock if it's sentiment is below 0, which should be the case for the shorted stocks. But somehow, this algo does better than the one that doesn't short, and it doesn't make to much sense that these are 1-day earnings...  Anyway - as always, thanks for those excellent tutorials!",True
+@MeMrwes,2016-07-04T20:29:47Z,0,I'm still struggling to understand why we need to create a context.shorting variable? Why can't we just use the shorting code without checking it context.shorting is true?,True
+@TheShaunYudin,2016-04-18T03:39:57Z,0,"I'm trying to run the code, but its a no go, its taking too long and times out, any suggestions?",True
+@0xsuperman,2016-02-01T19:29:55Z,0,"now sure why, it took 30+ times as long for me to run the exact same codes as yours for backtesting, my internet is pretty fast, any idea?",True
+@kalebsoller,2015-10-11T22:21:42Z,0,Can you get shorted shares without selling the all shares you currently own?,True
+@RevanSK,2015-09-30T18:42:13Z,0,Hi I want to ask you how do you get the sentiment data? I know it's probably a little bit secret and paid but how do you determine which company has 6 and which has -3 ? Thank you,True
+@adamfatyga7977,2015-07-16T09:38:47Z,0,I have 63% Total Returns at the same dates. Its normal? Or i have error on code?,True
+@peralser,2015-07-12T15:22:12Z,0,Great Video Series. You explanation very clear. Thanks.!,True
+@cato451,2015-07-08T15:27:59Z,0,I wonder why you didn't back test based on a larger date range. I would at least include 2008,True
+@user-qz6tg7wd8i,2015-07-07T21:19:57Z,0,"Hello Harrison, it is great that you cover various details of the Quantopian API and usage of sentiment analysis, it is very useful. I also would like to see pair trading/statistical arbitrage strategy explained, it should be suitable if you need low beta. Thanks!",True
+@spencersingleton7275,2015-07-07T05:08:03Z,0,Really enjoyed the video will look forward to more!,True
+@subzerosumgame,2015-07-07T02:31:01Z,0,thanks waiting for new vidos & sendtex,True
+@Neceros,2015-07-06T19:57:17Z,0,How much money do you believe is necessary to really start stock trading? That Sentdex data is really nice. I'd like to see you do a backtest with $100 lol,True

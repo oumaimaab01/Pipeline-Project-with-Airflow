@@ -1,0 +1,80 @@
+author,updated_at,like_count,text,public
+@datalover120,2024-05-09T15:53:07Z,0,Wil it work in vs code?,True
+@madhulikasuman2803,2024-04-01T12:46:16Z,0,"Hi , i just want to add that , the code this lib generates for graphs and other stuff, are not correct. like i want counts based on language. the below code has been generated and its not correct, as its give syntax error. there are few erros which is staright way wrong like column name as in colons etc # DISCLAIMER: 'df' refers to the data you passed in when calling 'dtale.show'  import pandas as pd  df = df.groupby(['w','e','b','s','i','t','e','_','l','a','n','g','u','a','g','e']).aggregate({ 	'distance': [''count''] }) df.columns = [' '.join([str(c) for c in col]).strip() for col in df.columns.values] if isinstance(df, (pd.DatetimeIndex, pd.MultiIndex)): 	df = df.to_frame(index=False)  # remove any pre-existing indices for ease of use in the D-Tale code, but this is not required df = df.reset_index().drop('index', axis=1, errors='ignore') df.columns = [str(c) for c in df.columns]  # update columns to strings in case they are numbers  df = df.sort_values(['distance count'], ascending=[False])",True
+@TheSizenandosales,2023-06-18T16:15:09Z,0,Thank you!!!!,True
+@Ligress,2023-02-12T11:43:33Z,0,great veido,True
+@madhumithan6653,2022-12-10T13:24:18Z,0,"Hi sir,thanks for the video, ,i m trying to use dtale,but after it is imported successfully,when i type dtale.show(df),a link is coming in output,which is not opening.Plz someone help",True
+@manchalaanudeep7812,2022-09-09T14:35:50Z,0,are we allowed to use this library inreal-time,True
+@saurabhhase6871,2022-06-11T07:06:28Z,0,"Hey krish, i  am unable to  use dtale on google colab, I run the code it executed properly but the public server link is not opening as it is asking permission NGROK. I have created account and all but still not opening. can you please help me with that?",True
+@jaydeshmukh2954,2022-03-07T04:59:39Z,0,I can't seem to use dtale with Spyder. Any suggestions on how can I make it work? Thanks!,True
+@ammar46,2022-02-02T14:23:25Z,0,I cannot install this LIbrary,True
+@sandipansarkar9211,2021-10-03T19:32:31Z,0,downloaded and worked in colab,True
+@sistematurma1964,2021-07-25T21:34:07Z,0,lol!!!  what a fucking library!!!,True
+@Me_anmolkohli27,2021-06-27T19:29:17Z,0,"Paji, u run the best Data science youtube channel. I apply your tricks, tips and what not on my job 😇😍",True
+@shantya123,2021-05-30T19:55:15Z,0,Amazing!,True
+@adhishv4537,2021-05-09T07:11:19Z,0,while i run dtale.show() its showing nothing.just a white bg only.what to do?,True
+@rohittiwari2394,2021-05-01T05:55:53Z,0,"sir, Can we use this library at industry level data ?",True
+@anugantisuresh5935,2021-04-22T13:45:37Z,0,Ca you look into libraries AutoViz / LUX / DataPrep?,True
+@r21061991,2021-03-26T16:35:06Z,0,These automatic libraries will destroy ML and Data scientists very soon,True
+@AbhishekSingh-og7kf,2021-03-12T04:25:53Z,1,"What an amazing library , Thank you Sir!",True
+@digipak07,2021-02-20T19:25:10Z,0,Greetings from Pakistan. Great tutorial,True
+@nik7867,2021-02-02T22:12:33Z,0,How energetic and happy Krish is perfectly reflecting in his tone😂😂😂,True
+@Hurairahgiri,2020-12-20T18:32:48Z,1,"Thank you for sharing. One suggestion, kindly spend at least more than a day with a library before making a video on it. I appreciate you sharing this with us, but all viewers could benefit more if you researched more before creating a video on Dtale. Cheers!",True
+@A-Frame_music,2020-12-14T21:31:15Z,1,Amazing!,True
+@parneetkaur4444,2020-12-03T10:12:49Z,0,I tried it in colab. It gave a link after the show code and that link didn't work. tried in jupyter and is working. Plz tell why is it not working in colab,True
+@krishnamore7997,2020-11-13T20:00:49Z,1,God bless him who made this,True
+@j.rajesh487,2020-11-11T08:10:03Z,1,"Hiii Krish, Thank you once again for a wonderful video. I really liked all your videos on EDA. I came across other EDA package called ""Autoviz"". I request you to explore Autoviz and come back with wonderful video again. Thank you  :)",True
+@somnathbanerjee2057,2020-11-08T05:05:24Z,1,Just awesome....,True
+@nothing8919,2020-10-27T19:09:49Z,0,"finally finished the complete Machine learning  playlist , I learned alot of different algorithms with application, still some things related to deployment that I didn't understand but all in all Learning Machine Learning will never end and there is no limit . NOW I'm ready to go to the NLP playlist . THANK YOU Krish Naik you are the best teacher.",True
+@kuldipjoshi1406,2020-10-10T14:52:52Z,0,mass has nans ..thats why giving error,True
+@supervickeyy1521,2020-10-06T11:45:24Z,1,This is amazing !,True
+@gamegod627,2020-10-06T05:28:19Z,0,"I copied the code of the chart but when I paste it, I’m not getting the chart",True
+@anandteerthrparvatikar5359,2020-10-05T10:16:32Z,1,"Wow, Krish Many Thanks, saved my rinsing future time :)",True
+@Techog4Sale,2020-10-03T22:43:03Z,0,i'm thinking to do such a thing some1 steal the idea from my mind,True
+@deewanapankaj,2020-10-03T17:27:43Z,0,"Sir,How can we plot a large dataset with 2 million columns and 1 million rows.. ??",True
+@rookiedrummer6838,2020-10-03T09:08:13Z,1,Wow this is awsome,True
+@aditya9873027697,2020-10-03T02:37:25Z,1,Simple..,True
+@ArvindKumar-ml6rb,2020-10-02T20:55:17Z,0,Really helpful for my work,True
+@sandipansarkar9211,2020-10-02T19:39:39Z,0,Great explanation. Need to get my hands dirty with Jupiter notebook.Thanks,True
+@sachinmandhotra2741,2020-10-02T15:55:43Z,1,Yeah...this one is quite cool... I'm also working on it🔥🔥🔥,True
+@bodohbengap2592,2020-10-02T15:47:39Z,5,"will definitely save a lot of time on EDA. Whoever create this library,  I can't thank enough for your contribution on Ds field. For Krish, thanks for introducing to us and let us all experience this beautiful library.",True
+@ahnaftahmidarnab6754,2020-10-02T08:21:15Z,0,Wow. Thanks man.,True
+@theoutlet9300,2020-10-02T01:21:28Z,2,this is so amazing. its easy to use like power bi/tableau with the flexibility of python. awesome. definitely will have to spend a lot of time with this awesome library,True
+@ADITYASINGHthesoftwareengineer,2020-10-01T23:03:03Z,0,"Hi Krish, if my feature is right skewed, shoul i log transform and use it as feature or I can do scaling?",True
+@keerthivasinir4401,2020-10-01T19:25:56Z,1,"This is awesome, Thank you sir",True
+@sonubhati3088,2020-10-01T17:41:14Z,0,"Hlo Krish sir , can  you please make the video on complete roadmap for a non technical guy like B.com??. I think you are person who should guide aspiring data scientist .",True
+@lokeshjoshi9734,2020-10-01T15:04:52Z,1,Awesome..,True
+@natarajanlalgudi,2020-10-01T12:38:55Z,10,"Just used it on colab. Did the following to make it work: import dtale import dtale.app as dtale_app  dtale_app.USE_COLAB = True",True
+@natarajanlalgudi,2020-10-01T12:38:22Z,1,Good one. Thanks for sharing Krish.,True
+@wassoftasanka8519,2020-10-01T12:37:08Z,1,amazing thanks for sharing,True
+@saeedkhan246,2020-10-01T08:21:58Z,1,"If someone knows more libraries like this one, please comment",True
+@saurabhdeswal3292,2020-10-01T08:12:04Z,3,Omg... This is amazing 🔥🔥,True
+@angelashang9778,2020-10-01T06:56:07Z,5,"Hi Krish, that's amazing library. However when I run the script: dtale.show(df), it always gave me error message like:　http://0.0.7.224:40000/dtale/iframe/3 is unreachable? May I know how to proceed next? Thanks.",True
+@ponrajs5396,2020-10-01T06:51:38Z,1,"Hi sir I have one doubt, is there any ways that could I update trained models with new dataset For example I've trained the model for 2 image  classification could I update model with one new classification like 3 images classification without training with old 2 image dataset",True
+@punitkhandelwal6726,2020-10-01T06:38:45Z,2,This is amazing,True
+@nibinjoseph2136,2020-10-01T05:18:38Z,7,"Great! The work is getting easy, burden of coding is also getting reduced. What if someone brings automated ML algorithms??? ufffff",True
+@jimharrington5678,2020-10-01T04:48:43Z,1,Guruji next level,True
+@aathkm5932,2020-10-01T03:55:12Z,1,missing values also fill in this library? or not? krish,True
+@sameerpanda8529,2020-10-01T02:44:04Z,2,Excellent.,True
+@GAUTAMKUMAR-wc4ht,2020-10-01T02:34:34Z,2,Brother you give hopes🙏 doing an amazing work.,True
+@shoaibalauddin8087,2020-10-01T02:02:21Z,1,"Superb amazing, perfect for experienced data scientists. ✌",True
+@mounicak5923,2020-10-01T01:17:00Z,2,Helpful,True
+@usharaniboppana882,2020-10-01T00:32:52Z,3,Amazing 👍👍👍👍👍👍 krish you to amazing for sharing this info 🙏🙏🙏🙏🙏🙏,True
+@SabujGhosh,2020-10-01T00:30:08Z,1,Mass has NaN values,True
+@kpratik5551000,2020-09-30T20:46:18Z,3,"Fantastic. In future, all EDA processes will be done like this kind of API. Only thing left for human is to choose algorithm for ML.",True
+@nikhilm422,2020-09-30T19:30:23Z,3,What an amazing library!,True
+@reshmasingh1099,2020-09-30T19:10:18Z,2,"Hi Krish I want to know about the entire process of data Analysis. After getting raw data(contains both continuous and categorical data), what would be the series of steps to get clean data?",True
+@_curiosity...8731,2020-09-30T19:09:18Z,5,"Kindly make a video on ""Model Calibration in Machine learning""",True
+@rajendradaslyf,2020-09-30T19:01:19Z,0,Spoiled with choices now but this library should be used as a quick EDA snap only and not as the replacement of our regular EDA process.,True
+@dr.strangegaming4714,2020-09-30T18:39:28Z,2,"thanks for sharing , Dtale is amazing",True
+@raneshmitra8156,2020-09-30T18:32:10Z,2,This is best...,True
+@tykemonster6416,2020-09-30T18:28:41Z,3,Holy EDA!!. 😳😳. This is so helpful. It ll really save some time..,True
+@monilshah04,2020-09-30T18:10:44Z,4,this is amazing. Thank you for showing it.,True
+@nssbhaskar,2020-09-30T18:09:25Z,1,Will these things work with real world huge data?,True
+@sagnikbanerjee4862,2020-09-30T17:41:23Z,3,Amazing library.. Data Analysis can be done with just a single line of code 😮..,True
+@attilajuhasz8,2020-09-30T17:38:43Z,2,omg this is something!!!,True
+@piyushsingla7429,2020-09-30T17:37:27Z,4,Thanks for considering my comment.. Lots of Love to you bro..  I want you to showcase my GitHub Repository for ML and I am currently developing for DL.. Right Now it is Hidden. Once you want to cover it I will unhide it.,True
+@pratikjadhav5244,2020-09-30T17:31:19Z,7,This is amazing EDA has just become so damn easier now. thank you sir,True
+@yashsolanki069,2020-09-30T17:30:23Z,1,"Sir what's you view on the book ""machine learning for humans"" by vishal maini ?",True
+@vigneshnagaraj7137,2020-09-30T17:27:51Z,3,Wow,True
+@abhijitsingh9987,2020-09-30T17:16:47Z,14,Pandas profiling is also great but nothing compared to d-tale,True

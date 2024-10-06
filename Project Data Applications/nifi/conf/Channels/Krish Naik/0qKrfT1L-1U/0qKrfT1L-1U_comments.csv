@@ -1,0 +1,82 @@
+author,updated_at,like_count,text,public
+@demonshadow1517,2023-04-07T08:40:51Z,0,"x = [1095, 1094, 1095]  changed = [] for item in x:     item = str(item)     a = item[-2:]     c = item[:-2]     b = int(c+'1'+a[-1])     if b not in changed:         changed.append(b)     else:         b = int(c+'0'+a[-1])         changed.append(b)     changed.sort()  print(changed)   This worked for me is it alright??",True
+@rahulstudies1178,2022-08-15T18:28:53Z,0,"Replacing every 9 with a sequence of fibonacci, example first 9 with 0, next 9 with 1 and again next 9 with 1, if there was another 9 then we would have changed it to 2, as fibonacci series is 0,1,1,2,3,5,8,13,21,......",True
+@vigneshkathirkamar3113,2022-04-11T06:46:56Z,0,"my_list = [1095,1094,1095] result_list1=[] record=[] count = 100 for i in my_list:     count=count-10     if i in record:         result_list1.append(i-count-10)     if i not in record:         result_list1.append(i-count)     record.append(i)",True
+@percynguni8254,2022-04-08T15:26:57Z,0,So far the best introduction video i have ever watched on  youtube after going through alot,True
+@jyoshnadeepala4439,2022-02-25T11:06:09Z,0,just what i need 🤩,True
+@anissaa1017,2022-02-21T19:02:49Z,0,"better explanation than my university teacher, thank you!",True
+@sivatejaappalabathula4214,2022-01-08T06:35:01Z,0,"class Example:     def logic_01(self, list_01):         self.list_01 = list_01         self.list_02 = []         self.list_03 = []         diff_val = 0         for item in self.list_01:             item = item - 90             self.list_02.append(item)         for item in self.list_02:             item = item + diff_val             self.list_03.append(item)             diff_val = 0             diff_val = diff_val + 10         print(""   "", ""Output: "", self.list_03)  list_01 = [1095, 1094, 1095] print(""   "", ""Input: "", list_01) e1 = Example() e1.logic_01(list_01)",True
+@rakeshthakurwebdesigner9782,2021-09-16T23:23:31Z,0,pdf chaiyae sir,True
+@jasleenkaur1400,2021-07-23T18:49:23Z,0,#ShreyashiKarmakar You can watch punch beat on MX player for free or can download from telegram for free,True
+@henrystevens3993,2021-07-01T15:59:28Z,0,Your playlists are just pure Gold 🙏🙏,True
+@codingmastery3186,2021-02-02T08:05:17Z,0,Super content,True
+@kajalchopda1108,2021-01-04T20:19:23Z,0,Can you please share the logic behind the last interview question you shared,True
+@sidharthvats110,2021-01-03T21:08:10Z,1,Just wanted to say Thank you for sharing your vast knowledge with everyone.,True
+@priyeshsrivastava7250,2021-01-03T18:40:20Z,0,Sir please make a video in hindi too.. Can't process English as good as Hindi.. Thank you sir.,True
+@nishu761,2020-10-19T09:56:28Z,1,"inp = [1095, 1094, 1095] diff = [90,80,80] out_put = [  ]  for i in range(len(diff)):     difference = inp[i] - diff[i]     out_put.append(difference) print(out_put)",True
+@lovefrommars7468,2020-08-07T03:42:05Z,0,Sir pls update the playlist,True
+@knock-2-know321,2020-07-11T11:40:00Z,3,"Hello brother, Your coarse has been helping me coding ,thank you so much for these sessions,just want you to request one more session of complete time series Analysis of a data set in depth intuition of lags and all..,can you please create  sessions on that as well please..",True
+@suryatejakothakota7742,2020-06-28T13:18:03Z,0,New= [] For x in list:    x -=90    New= New.append(x) Print(New),True
+@souravdas7263,2020-05-24T20:28:23Z,2,"We need hole series of DSA,u r doing ammezing",True
+@aryangupta1236,2020-05-01T17:21:25Z,0,Thankyou so much for your effort sir,True
+@kamalakarvarkala9774,2020-03-18T04:59:37Z,14,"Logic: In the given input list, 9s should be replaced with 0, 1, 1 which of Fibonacci series...",True
+@uttamchoudhary5229,2020-03-16T16:44:30Z,0,Thanks bro 🤘🤘 These are the  videos which i  was looking for long times . Please update more videos on algo.,True
+@ajinkyaadsul3515,2020-03-15T18:29:53Z,5,"Hi sir , I know basics of Python . I can clearly write the logic but when it comes to code I Fail miserably.  What should I do",True
+@yashprajapati2693,2020-03-15T07:37:30Z,0,i have problem with learning from introduction of algorithm book by cormen. because it is most part of book is written in mathematical,True
+@pygal7706,2020-03-13T18:30:35Z,2,"L=[1095, 1094,1095] L[0]=1005 L[1]=1014 L[2]=1015 print(L)",True
+@akshaybugade1685,2020-03-13T17:59:29Z,2,"I don't know the programming right now, I am mechanical engineer bt want to change career in data science...I started watching your videos to gain knowledge abt data science n really thats very useful to me..  As per my knowledge , we should replace every 9 number with Fibonacci series number(0,1,1,2,3,5...)  i.e.[_ _ 9 _,_ _ 9 _,_ _ 9 _] = [_ _ 0 _,_ _ 1 _,_ _ 1 _] n so on. I hope this logic will work😬  Thanks for making knowledgeable video.",True
+@gaayathritradings5135,2020-03-12T12:46:56Z,0,Kindly update the video about algorithmic trading,True
+@jagannadhareddykalagotla624,2020-03-12T05:27:56Z,1,Sir i ama also trying for that but not getting correct code and even no one gives u correct code so plz share correct code sir,True
+@amantiwari1481,2020-03-11T04:32:18Z,0,Prerequisite for this series?? Plz someone tell me..,True
+@mohitkumargautam4060,2020-03-11T03:38:26Z,0,Please daily upload videos,True
+@suryavamsi7508,2020-03-10T17:51:59Z,1,Is the I[0] is 1095 or 1085,True
+@shaikirfanameer359,2020-03-10T15:15:29Z,0,sir try to focus on competitive programming more as many people need to attend to placements it will be great help if u complete early,True
+@raniphore,2020-03-10T14:40:26Z,0,It would be great if the videos doesn't contain ads in between. Sometimes it becomes very annoying.,True
+@pmsanthosh,2020-03-10T13:39:28Z,3,I got the same type of questions in my automata amcat examwhich happened a day before,True
+@ronaksengupta6174,2020-03-10T12:56:08Z,1,Sir your big data playlist is not showing anymore ?,True
+@trackbackresearch,2020-03-10T04:33:27Z,0,Sir Great initiative,True
+@anandhisiva93,2020-03-10T04:15:36Z,3,Thanks for this series of lecture. I started to learn python recently. This series will help me to learn it effectively.,True
+@01943888,2020-03-09T22:58:41Z,0,"def orderList(inp):     t =1000     d=10     out=[]     for i,j in enumerate(inp):         out.append((d*i)+((j -t)%d)+t)     return out    if __name__ == ""__main__"":     inp = [1095,1094,1095]      print(inp)      print(orderList(inp))  [1095, 1094, 1095] [1005, 1014, 1025]",True
+@pranayteja4841,2020-03-09T21:26:54Z,0,"num = [1095,1094,1095] print(num[0]-90,num[1]-80,num[2]-70)",True
+@rajneeshpal7420,2020-03-09T19:45:28Z,0,i think u have not explain the problem statement clearnly......,True
+@samyakmahajan6828,2020-03-09T18:43:48Z,0,"Sir, why is the function f(n) greater than cxg(n) & c1xl(n) before n0?",True
+@BiancaAguglia,2020-03-09T18:26:08Z,0,"The way the problem is stated right now, a super easy solution is [1095, 2094, 3095] 😁My guess is that we need to change the input so that the output is a sequence of the smallest possible sorted numbers.  I have a question about the input, please: do we have any additional information about it? Thank you.",True
+@vamsireddy6306,2020-03-09T17:29:31Z,9,"# Input list input1 = ['1095' , '1094' , '1095' ] input2 = ['5555' , '4444' , '3333' , '2222' , '1111']  # empty list sorted_list = []  # iterator for song in input1:     #sorted list     sorted_list.append(int(song.replace(max(list(song)) , str(len(sorted_list) + 1) , 1)))               print(sorted_list)   output: [1015, 1024, 1035] [1555, 2444, 3333, 4222, 5111]   Tough it does not look like satisfies all condition it can be updated with more conditions if required.",True
+@muralinaidupola1276,2020-03-09T17:13:50Z,0,"Hi Krishna, Small information.. How much python required for pyspark developer..? What are the concepts required for pyspark developer  ..?",True
+@bhanuteja7415,2020-03-09T17:12:23Z,0,"Sir, I am a 3rd Year student and the placement drives are starting from this JULY. So can you please suggest me how to prepare for that. I like and program in Python language. Please help me",True
+@nitesh.jyotishi,2020-03-09T17:07:23Z,4,"Basic solution could be for the Problem statement :    Output = [] def Assignment(inputList):     temp = 90   #Selected using difference of first element of input and output.     for i in range(len(inputList)):         if(i==0):             Output.append(inputList[i]-temp)         else:             if(Output[-1]>(inputList[i]-temp)):                 temp-=10                 Output.append(inputList[i]-temp)             else:                 Output.append(inputList[i]-temp)     return Output  output = Assignment([1095,1094,1095]) print(output)     >>> [1005   ,   1014   ,  1015]",True
+@ckbgaming4u121,2020-03-09T17:00:57Z,0,Awesome sir plz continue this series till end,True
+@Sureshezhumalai,2020-03-09T16:43:41Z,1,"Hi Krish,   I tried to solve the question, but i got the answer wrong . Please correct me  newlist = [] def question_one(arglist):     subtract = 100     for arg in arglist:         subtract = subtract - 10         newlist.append(arg- subtract)     return newlist   This is my output: input : [1095,1094,1095] output : [1005, 1014, 1025]   Thanks for this series :)",True
+@nikhilthakur1888,2020-03-09T16:37:12Z,1,Which programming language we will use in this series..??,True
+@nibinbaby9132,2020-03-09T16:26:04Z,1,Change the lowest digit so as to make array sorted increasing order,True
+@ajaykale9197,2020-03-09T16:03:25Z,5,Thanks for going on White board 😀😀,True
+@behabpatnaik225,2020-03-09T16:00:46Z,1,"Krish,  you are doing this world a service! keep it up sir! 💯",True
+@suyashnachankar9342,2020-03-09T15:49:56Z,2,Hey Krish... Nice video. Please use Java or Javascript for the videos in the series further.,True
+@manishkatiyar2403,2020-03-09T15:45:36Z,2,Who disliked?😃😃😃😃😃😃,True
+@sachin_bhandari8470,2020-03-09T15:45:32Z,2,Thanks,True
+@ashwinimandani2829,2020-03-09T15:39:57Z,14,Sir I am a 3rd Year student and the placement drives are starting from this JULY. So can you please suggest me how to prepare for that. I like and program in Python language. Please help me and keep doing this great work..,True
+@manuchowdary7848,2020-03-09T15:39:24Z,2,Eagerly waiting for your videos sir,True
+@mayurdomadiya2112,2020-03-09T15:23:35Z,1,Where is big data playlist,True
+@souravroy4701,2020-03-09T15:23:04Z,15,most usefull and demanding content sir..keep this playlist uptodate..thanks for helping us sir,True
+@manjunath.c2944,2020-03-09T15:19:22Z,1,Good series Krish to understand better about algorithm 👍,True
+@sanjogh777,2020-03-09T15:13:02Z,5,Could you please use Python only for this? Thank you.,True
+@gauravburjwal.98,2020-03-09T15:12:29Z,1,Excited For This!♥️,True
+@abhaythakur8572,2020-03-09T15:12:21Z,2,"Thanks sir , and please upload daily",True
+@uttamkumar4678,2020-03-09T15:11:20Z,2,Hi what happened to the Bigdata playlist. I am not able to see the videos.,True
+@ankushojha5089,2020-03-09T15:10:29Z,2,"Hello Krish,   Can you please help me to find few material for DATA ENGG course .. I am unable to find good material to study DATA ENGG.. Thanks in Advance",True
+@sairamponnaganti5337,2020-03-09T15:03:52Z,4,Sir In which Programming Language implementing this Data Structures and Algo is best????,True
+@midhileshmomidi2434,2020-03-09T15:02:30Z,21,If we have the code also then it will be great,True
+@sraynitjsr,2020-03-09T15:02:08Z,1,Awesome Video Sir :),True
+@nivitus9037,2020-03-09T15:00:19Z,2,Really awesome 👍,True
+@reubenmarfo9855,2020-03-09T15:00:13Z,1,"Hi Krish, I’m unable to access the big data course. Could you please help?",True
+@shyamal5935,2020-03-09T14:59:52Z,1,thanks for this series sir...most needed,True
+@sambitmohanty1758,2020-03-09T14:58:56Z,2,I am waiting for this video series. Thanks Krish sir.,True
+@vedprakash-bf4xj,2020-03-09T14:58:48Z,2,Video quality awesome ...,True
+@akshayakki8969,2020-03-09T14:56:49Z,1,Tqsm🤩🤩,True
+@AmanSingh-qr3ld,2020-03-09T14:56:31Z,1,Thanks for providing great content for free,True
+@pradyumnberiwal1975,2020-03-09T14:56:01Z,3,"Hi sir, where will be able to find the big data series that was going on?",True
+@krawl97ing,2020-03-09T14:55:52Z,4,Really excited for this series!,True
+@adhirajmajumder,2020-03-09T14:55:42Z,1,Thank you sir ... Please upload backtracking problems sir...,True
+@vikashmishra1903,2020-03-09T14:55:40Z,1,❤️1st cmnt sir💓,True
+@pygal7706,2020-03-09T14:55:35Z,3,Great,True
+@EngRiadAlmadani,2020-03-09T14:55:25Z,3,Good jop,True

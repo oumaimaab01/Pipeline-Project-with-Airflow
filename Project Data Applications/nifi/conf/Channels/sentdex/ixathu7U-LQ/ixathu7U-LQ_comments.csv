@@ -1,0 +1,131 @@
+author,updated_at,like_count,text,public
+@umair_thakur,2023-11-25T21:20:25Z,0,"Love you brother, thank you for such an amazing tutorial. God bless you.",True
+@lakeguy65616,2022-11-20T17:06:30Z,0,"dim = 1 means each row in the batch sums to 1, dim = 0 would mean all the cells in the n-dim tensor would sum to 1?",True
+@rbaleksandar,2022-03-24T12:42:04Z,0,"With ordered dictionary:  class Net(nn.Module):     def __init__(self) -> None:         super().__init__()          self.model = nn.Sequential(OrderedDict(             [                 ('fc1', nn.Linear(28*28, 64)),                 ('relu1', nn.ReLU(True)),                 ('fc2', nn.Linear(64, 64)),                 ('relu2', nn.ReLU(True)),                 ('fc3', nn.Linear(64, 64)),                 ('relu3', nn.ReLU(True)),                 ('fc4', nn.Linear(64, 10)),                 ('logsoftmax', nn.LogSoftmax(dim=1))             ]         ))      def forward(self, x):         x = self.model(x)         return x",True
+@rbaleksandar,2022-03-24T12:00:02Z,0,"In regard to the flattened image value I do believe that PyTorch and Tensorflow expect more in-depth knowledge of how memory allocation works. A flattened image is simply contiguous memory (let's not forget that under all the Python here we have C++ and CUDA) mapped to a 1D array, which boost operations performed on the memory (lookup, writing etc.) as well as prevents memory fragmentation. What I would prefer is not an explanation where that number comes from but maybe just automatically do the flattening all together. Then again it really depends on you input. A 2D image is easy to flatten but if we go multidimensional data samples things get difficult rather quickly.",True
+@dualfluidreactor,2022-03-08T14:22:12Z,0,"After I run   import matplotlib.pyplot as plt plt.imshow(X[0].view(28,28)) plt.show   it crashes / kills the kernel",True
+@sylus121,2022-02-07T17:50:14Z,0,bookmark,True
+@kassab4523,2022-02-02T08:38:59Z,0,u should teach in a uni instead of the dumbasses we have,True
+@apersonthatsucksatnames1133,2021-12-26T23:13:48Z,0,"I get an error by adding dim=1 to F.log_softmax:  Dimension out of range (expected to be in range of [-1, 0], but got 1) what am I doing wrong?",True
+@richardkuhlmann3533,2021-09-15T20:55:45Z,0,"great video! has anyone an idea why i get an nonimplemented error when i try to do the outpu = net(x), in 20.35?",True
+@arindam96,2021-08-31T18:56:04Z,3,Just finished all the 8 videos in this playlist. Loved it. Hope you make more of these pytorch videos.,True
+@dr.mikeybee,2021-07-23T22:29:33Z,0,"Your Manim animation showing a NN training is magnificent.  You should give the link in the comment.  It's one of the most beautiful and helpful educational demos ever made, IMO.  It fits in here perfectly where you discuss activation functions.",True
+@speed-stick,2021-06-02T19:21:33Z,0,"The explanation about view(-1, 28*28) is not quite right... The -1 just tells the function to infer the other dimension automatically. If you have a 28 by 28 matrix, and decided that the second dimension is 28*28, the only option for the first dimension is 1 (because 1*28*28 = 28*28). You could also write view(1, -1), and it would infer the 28*28 for the second dimension.",True
+@eitanas85,2021-05-18T12:49:13Z,1,"Eitan Asher לפני שנייה Hey, didn't understand why the method 'forward' is running. can someone please explain?  where is it being called?",True
+@gauthamkrishna3166,2021-05-02T18:24:38Z,0,"At 20:21, can someone tell me why it is output=net(X) and not output=net.forward(X) ??",True
+@hardikkamboj3528,2021-03-31T04:01:37Z,4,"at 20:02 output = net(X), how does this run the forward method. Shouldn't it be net.forward(X) ?",True
+@akshaysonawane9453,2021-03-17T17:40:46Z,0,At the end did you just discussed about meta learning??,True
+@neurophilosophers994,2021-02-10T05:57:56Z,0,"The brain actually has in pyramidal cells XOR functional neurons in the cortex that allow for linear separability and the all or nothing firing of neurons (step functional) modeling is not always true. There is a summing of signals in the neurons and yes there is a threshold for most neurons to fire, but this is mostly the case and not always the case. Also, it is very likely that quantum coherence in the brain, a theory by Hameroff and Penrose, suggests that the brain is performing exponentially more quantum operations than previously considered. This will become more apparent as we transition to EUV resolution neuromorphic computer architectures and we will see that even if a perfect unsupervised general intelligence the AI doesn't meet our high expectations for it. Although, a cloud based distributed computing method may allow for some really amazing things even without practical quantum computing.",True
+@boleg88,2021-01-13T20:00:33Z,0,def forward gets called automatically?,True
+@samfoster575,2021-01-04T06:10:12Z,1,getting the following error  RuntimeError: mat1 and mat2 shapes cannot be multiplied (1x64 and 10x64)  could you explain whats going on,True
+@ahmedelrewaidy6049,2021-01-03T18:05:29Z,0,"the -1 doesn't actually say it's 1* 28 * 28, it does say keep everything before the 28*28 encapsulated because I don't know what they are. and just make sure there is this 28*28 at the end of the dimensions. I don't know if I made this clear or not but thank you though.",True
+@anirudhprabakaran1735,2020-12-28T08:11:59Z,0,"""The neural network doesn't know anything about anything""  sounds about right.",True
+@sepgorut2492,2020-11-26T10:17:21Z,0,"I keep getting an invalid syntax error with the    (fc1): Linear(in_features=784, out_features=64, bias=True) It's really bugging me",True
+@jean-baptistedelabroise5391,2020-11-05T18:33:50Z,0,"a bit confused by the output, I thought it should be values between 0 and 1 adding up to 1.",True
+@alsanabe5241,2020-11-05T14:26:24Z,0,"Appreciate ur effort bro. have a error while a coding and it says name 'self' is not defined when i execute this line of code : X = torch.rand(28, 28)  X = X.view(-1, 28*28) could u help me please?",True
+@devika2250,2020-10-29T01:18:39Z,0,This is what I exactly wanted...nice presentation sir,True
+@kevintoner6068,2020-10-27T19:26:08Z,0,Snowden is the best teacher of DL on Youtube,True
+@scm6668,2020-10-15T16:55:54Z,0,"10:25 idk if someone already said this in the comments, but if you just don't use an activation function, the NN just becomes a huge linear regression. Mathematically,  Having multiple fc layers with no activation function is equivalent to have one HUGE fc layer",True
+@monsurhillas4795,2020-10-12T06:03:20Z,0,"as far as I know the 784 comes from flattening the image. where the image resolution is 28X28 ,and multiplying 28*28 = 784, so we get a [784,1] matrix in this case. this value may vary according to my datasets input image resolution.",True
+@Paivren,2020-09-24T21:34:26Z,0,"I don't get what nn.Linear(64,64) returns object wise. Is fc1 an instance of a class now? If so, why does it behave as a function later, with self.fc1(x)?",True
+@histufly,2020-09-13T17:06:30Z,0,"yes, dim=1.  You are putting out a flat list of digits, right.  dim=2 for 2 dimensional image?  Isn't it that simple?",True
+@adityavarmavetukuri830,2020-09-12T20:14:00Z,0,I didn't understand why the output for each fully connected layer is 64? Can the value be anything? or it must be 64? Does our prediction change with this value. I'm confused!,True
+@DragonKidPlaysMC,2020-09-11T18:48:33Z,4,I’m just 17 and I understand everything you say! You are one of the most amazing teachers here in YouTube thanks!,True
+@ensabinha,2020-09-08T16:39:25Z,0,"The way that you are showing the loss and concluding that it is ""decreasing"" was merely lucky. You are showing the loss of the that particular batch. In this context, the loss of the epoch must be considered.           epochs = 10         for epoch in range(epochs):             epoch_loss = 0.0             for batch in trainset:                 # the inputs                 x, y = batch                 # zero the parameter gradients                 self.zero_grad()                 # Foward                 outputs = self.feed(x.view(-1, 28 * 28))                 # For [0, 1, 0, 0] vectors, use mean squared error, for scalar values use nll_loss                 loss = F.nll_loss(outputs, y)                 # Back propagate the loss                 loss.backward()                 # Adjust the weights                 optimizer.step()                 # Calculate epoch loss                 epoch_loss += outputs.shape[0] * loss.item()             print(""Epoch loss: "", epoch_loss / len(trainset))",True
+@timothymalahy7880,2020-09-03T14:43:03Z,0,The little off-shoot of init and super was the most clear and concise explanation I've seen so far.,True
+@madanmaram276,2020-08-13T11:46:13Z,0,NotImplementedError                       Traceback (most recent call last) <ipython-input-80-be58ba250973> in <module> ----> 1 output =net(x),True
+@VictorRodriguez-zp2do,2020-08-02T12:43:52Z,0,actually if you put dim=0 you can pass the neural net a 28 * 28 Tensor and it will work.,True
+@vigneshas7426,2020-07-12T12:16:26Z,18,"Nobody: sentdex at 8:28 : ""For our For.. or For our Feed Forward...""                                 *sighs*                                 ""That's a lot of F-words.""",True
+@palashchanda9308,2020-07-12T11:35:09Z,0,"What! It passes for me even without the view thing there..  X = torch.rand((28*28)); net = Net() net(X) tensor([[-0.1178,  0.2787, -0.2603,  0.0700,  0.2106,  0.0351,  0.0335, -0.0772,          -0.0831,  0.2576]], grad_fn=<AddmmBackward>)",True
+@emhyrvemrais7574,2020-07-12T09:28:03Z,0,thanks,True
+@mohammadsalah2307,2020-07-07T03:19:53Z,1,"16:40 dim=1 may be explained by ""which axis contains all the RVs of the discrete distribution """,True
+@elultimopujilense,2020-07-03T20:27:51Z,0,"Thank you so much! I spent hours in the pytorch docs, and there were lots of things that I just didnt understood were they came from. Thank for clearing them out for me. Awesome teacher.",True
+@raina1696,2020-06-22T08:34:24Z,0,Why did u use shuffle =False in testset?,True
+@zc4060,2020-06-20T18:19:07Z,0,why output does not sum to 1 here?,True
+@AB-dw8vo,2020-06-18T16:58:53Z,0,very good tutorial thanks!!!!!,True
+@abhrantapanigrahi3475,2020-06-14T20:31:54Z,0,"I have a doubt, why are we using an activation function while passing data from the input layer to the first hidden layer?",True
+@danaosama4247,2020-06-03T15:20:54Z,0,"Hello everyone. I am new to deep learning and to python in some way, so I need some guidance from this lovely community. Can someone explain the hierarchy of the PyTorch framework? I am confused about what torchvision is in relation to PyTorch as well as other modules. Please help or refer me to some useful resource. Thanks",True
+@phamquang5535,2020-06-03T11:59:15Z,0,dis dude dope,True
+@jokeraries6582,2020-05-24T13:05:48Z,0,"man .. you are REALLY REALLY BAD at explaining things ... you give concepts for grantes, ... video is messy with your own opinions comments ... out of context thought ... please, do some edit ... that really distracts people watching. These are not simple things to go on, especially with duck-typed python + your messy explanations make all this extremely understandable ... people get more confused watching this.",True
+@leandromatos4603,2020-05-22T15:33:00Z,1,The __init__() method of the super class already calls the forward method that you' ve created?,True
+@nks487,2020-05-16T19:40:02Z,0,Wow these are really good!,True
+@dragonman101,2020-05-13T16:16:55Z,2,"12:40 Shouldn't you be using the activation function on layers 2, 3 and 4? I thought the input is supposed to feed into the first hidden layer multiplied by the weights and is then sent through the activation function which acts as the output for that neuron.",True
+@tamzidahmed9706,2020-05-06T22:47:50Z,0,you are amazing in explaining,True
+@opheliagame,2020-05-02T08:07:43Z,0,"Dim=1 was pretty neatly explained actually. I haven't come across a clearer explanation than this. ""What we want to sum to 1"" is gonna stick with me :)",True
+@AryamaanThakur,2020-04-28T17:54:48Z,4,"""it's a lot of f-words"" 😂😂",True
+@ganilkumar2175,2020-04-27T14:14:30Z,1,can you please tell me about super().__init__(),True
+@AndJusTIceForRob,2020-04-14T14:55:50Z,1,"Around 3:10, you address super (parent class inheritance). However, here https://github.com/pytorch/examples/blob/master/reinforcement_learning/reinforce.py and here https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html, PyTorch recommends super(Net, self).__init__(). Whereas, you have super() empty. What is the effective difference between going with super(Net, self).__init__() vs super().__init__()?",True
+@iamsurmeli,2020-04-12T01:13:47Z,1,"Thanks, Sentdex. For those who can't follow the video: it is extremely understandable after watching Neural Network Series video 1 by 3Blue1Brown. (watch it at least 2 times)",True
+@Kingstanding23,2020-04-10T16:50:20Z,0,That was worth it just to find out how 'super' works!,True
+@AndJusTIceForRob,2020-04-09T14:52:41Z,0,How are we able to run the function Net() without having something like nn.Net() or F.Net() attached to it?,True
+@martinmartin6300,2020-04-03T18:10:41Z,0,"Isn't there some standard feed forward neural betwork class where you can specify number of layers, number of neurons per layer, input size and output size?",True
+@martinmartin6300,2020-04-03T18:05:41Z,0,I realize that this is an introduction but still I think its better to obtain input size from the data itself in some way in your code. You could for example specify the input size as a must have parameter in your initializer of your class. Same for the number of neurons per layer if your fully connected layers have equal sizes. Another improvement would be to use a list of layers so that you can iterate over your layers in e.g. forward method. You could include another parameter in init which is the number of layers to use.,True
+@BeOriiGiinaL,2020-03-31T16:33:41Z,1,"def forward haven't called from any where, how is it running?",True
+@somecho,2020-03-29T07:25:28Z,2,"Thanks Sentdex! I was really frustrated with the Pytorch docs. It called functions left and right without fully explaining where they came from and what they did. Really glad you took the time to explain, for example, what nn.linear is.",True
+@csmole1231,2020-03-27T15:28:35Z,0,11:03 activation functions per neuron...🤔maybe i'll understand your idea later when i get deeper understandings (leave a comment just to remind myself😂),True
+@boyuanchen4997,2020-03-07T06:45:56Z,0,"Am I the only one who thinks ""functional as F"" funny?",True
+@user-np6gw2fi8v,2020-03-06T16:33:04Z,0,"So easy, funny and helpful! Thank you for videos! :D",True
+@privateaccount4356,2020-02-25T01:16:57Z,0,my output was more than 10 values,True
+@mohanedabid9532,2020-02-24T23:01:14Z,0,just awsome @sentdex,True
+@akramsystems,2020-02-20T03:57:45Z,0,"I'm wondering what difference it would make if our output was one-hot encoded since in this MNIST dataset the output is a vector of real value numbers, would we change the loss function to regular softmax instead?",True
+@prithvikb5972,2020-02-18T20:45:58Z,0,24:00,True
+@friday1015,2020-02-11T09:37:07Z,2,"If you are confused about the -1 parameter in view, it just means that the row is dynamic i.e we are just lazy to calculate what the row parameter could be. In this case we can just see that the neural network takes just one row(flattened) of values so the output using -1 is same as using 1. But in other cases if we have no idea how many rows it needs, we just use -1 and leave it to pytorch to calculate.    I am just a beginner and please correct me if I am wrong.  Thanks",True
+@abishekpss7254,2020-01-28T05:24:29Z,0,When I run output = net(input_rand)   I get 'AttributeError: 'Net' object has no attribute 'fc1' error.,True
+@srincrivel1,2020-01-26T19:30:09Z,12,"I love how organic your teaching is ""I'm just getting ahead of myself, nevermind!""",True
+@khubaibraza8446,2020-01-23T11:13:37Z,1,One of the best tutorials of Pytorch. Thankyou sentdex,True
+@DentrifixoRam88,2020-01-21T15:50:12Z,0,This is by far the greatest ML tutorial for beginners. English is not my first language and I can understand you completely. You are an excellent talker. Congrats from Argentina,True
+@RahulPatel-ii3mt,2020-01-21T09:49:20Z,0,Drones !!! (in the back wall),True
+@sala7311,2020-01-19T17:16:51Z,0,Thanks,True
+@jonastjepkema,2020-01-09T01:28:23Z,2,"Ok I have probably a very silly and stupid question, but I don't get the forward method in the net class... It is actually never called anywhere in this video nor the next but it still seems to do the job.. I was wondering why, as it is not called neither in the __init__ method",True
+@jackychong8707,2020-01-08T09:49:37Z,0,"I followed all the steps but it turns out showing this error when I print output after typing X = X.view(-1,28*28), anyone knows how to fix this ? RuntimeError: size mismatch, m1: [1 x 64], m2: [784 x 64] at /pytorch/aten/src/TH/generic/THTensorMath.cpp:197",True
+@bozidarmitrovic894,2020-01-01T19:22:58Z,0,"Could you explain 8:50 - 9:10 with more detail? Also, these fc1, fc2, fc3, fc4 are hidden layers?",True
+@chuanjiang6931,2019-12-23T06:33:57Z,1,Are net.forward(X) and net(X) doing the same thing? I do not understand how net(X) can work,True
+@chuanjiang6931,2019-12-23T06:33:57Z,1,Are net.forward(X) and net(X) doing the same thing? I do not understand how net(X) can work,True
+@qcdiamond8292,2019-11-11T05:28:07Z,0,"Is it just me, or that ""cool"" he said REALLY sounds like that Minecraft sound? 7:04",True
+@edbee8508,2019-11-10T07:00:03Z,1,4:06 you can make it more general by taking input as  train[0][0].numel()  this gives you an int in this case of 784,True
+@tahiriqbal8543,2019-11-03T10:07:09Z,2,this series is very interesting and i have learned. Can you please make tutorials on how to deal with imbalanced data set what techniques and algorithms can help in this problem,True
+@tahiriqbal8543,2019-11-03T10:07:08Z,0,this series is very interesting and i have learned. Can you please make tutorials on how to deal with imbalanced data set what techniques and algorithms can help in this problem,True
+@angshumansarma6765,2019-11-01T19:08:48Z,0,guwd,True
+@ankitakundra4033,2019-10-20T08:51:55Z,0,why did we take 2 hidden layers? Any reason behind it?,True
+@magsol13,2019-10-17T20:31:23Z,2,"Fun fact: multiple sequential linear layers can be condensed into a single linear layer. A sequence of linear operations is, itself, a linear operation.",True
+@pw7225,2019-10-13T00:16:45Z,1,At 12:40 you‘re explanation for activation functions is not fully correct. You explain it as containing values to a range but ReLU does not contain (positive) values. It would be for sigmoid.,True
+@tarushsingh1108,2019-10-10T06:59:31Z,67,Sentdex : Am not a pytorch expert. Me : You're an expert to us man,True
+@nareshr8,2019-10-10T04:49:23Z,1,The softmax should have ideally given probability between 0 to 1 that sum up to 1 right. But your output looks all negative and doesn't sum up to one. Any reason?,True
+@Azariven,2019-10-04T01:44:19Z,0,thank you so much for this!,True
+@blackberrybbb,2019-10-03T06:17:43Z,0,please do an example on regression! So interested to learn!,True
+@hoavancac,2019-09-29T04:55:58Z,0,"Great tut, easy to understand, thank you so much!",True
+@RabeezRiaz,2019-09-28T12:46:15Z,5,"17:38 if anyone is ever confused about default values or something like that, place the cursor inside the function call parentheses and press shift+tab. A dialog opens up with the function docstring.  For the classis notebook instead of jupyterlab shift+tab+tab sort of does the same thing.",True
+@smallpants,2019-09-28T02:25:40Z,0,I saw your Blancpain GT Challenge shirt and almost cried. I didn't think anyone else I knew of watched it.,True
+@poke_champ,2019-09-26T17:14:56Z,0,I get sad when I have to wait but happy when you upload really fast,True
+@einnairo,2019-09-26T17:09:06Z,0,Ok i am a bit turned off by creating a class here. Keras seem more linear in terms of thought process. Whats the advantage ?,True
+@tomaszkoscielniak612,2019-09-26T14:37:12Z,1,Is Linear layer (in Pytorch) the same thing as Dense layer in Keras ?,True
+@harinaaraayans3453,2019-09-26T13:51:19Z,0,you did not call the forward function. am i mistaken?,True
+@KrishnaChaitanyamlv,2019-09-26T12:19:11Z,0,thank you man! are you using desktop or laptop... what is the configuration  I am quite into and attended couple of training... but not putting any hands onto practice,True
+@MrCam143,2019-09-26T11:50:34Z,0,"Question regarding the branching of layers you mentioned at the end. Using the grand theft auto AI as an example,  does it make sense to think about it as the first few layers determine which specific branch to fork off into? So first few layers determine if its driving a car, and then something like if drivingCar == True: etc etc.   Is that the right way to think about it?",True
+@AlexAlex-bk5io,2019-09-26T10:10:04Z,1,"is it correct, that net(X) somehow calls net.forward(X)?",True
+@shahriarrahman8425,2019-09-26T07:53:11Z,0,Can somebody please explain why the first fc layer outputs 64 layers?,True
+@chesterholt5551,2019-09-26T00:01:30Z,8,You’re a legend sentdex 🙌👏🤘,True
+@philippcampi2007,2019-09-25T20:39:54Z,2,"At the end in line 23, doesn't the output have to add up to 1?",True
+@leetmann,2019-09-25T20:06:01Z,1,Plz explain dims part again,True
+@jobandeepsingh1929,2019-09-25T19:26:52Z,1,plz give link to the source code as well,True
+@CalvinL.Stevens,2019-09-25T19:14:59Z,0,"Choosing between PyTorch and Tensorflow atm. Don't know which to choose. I have an Nvidia GPU, does PyTorch support Cuda as well?",True
+@wktodd,2019-09-25T19:11:11Z,0,"I'm still hanging in here :-) Ultimately, i want to be able to define and train small networks for the K210 chip , so anyone with experience please point me to good examples ( ideally using pytorch) TIA",True
+@lucaslopesf,2019-09-25T17:51:07Z,0,Next video will be training the net?,True
+@adamgrygielski1201,2019-09-25T17:12:26Z,122,"I think you meant to use softmax algorithm instead of log_softmax :) Difference is that log_softmax is basically log(softmax(x)) and does not sum to 1 as we can see on the data you passed through. Anyway, thanks for videos, I've always wanted to see how PyTorch looks like but never had time or motivation and now I just chill watching your tutorials. Best luck!",True
+@DKL997,2019-09-25T17:07:48Z,3,"I've been boycotting that stupid youtube notification bell since they introduced it. This series is useful enough to me that, for the first time ever, I kicked that bell in the balls.",True
+@ammarkhan7969,2019-09-25T16:51:13Z,2,Bro if it is possible kindly explain in video what is roadmap to become an AI expert for an avrg person and plz clear that some sites quotes that some companies are paying $ 10000000 salary per year to AI experts,True
+@roostertechchan,2019-09-25T16:32:44Z,0,Would that kind of neural networks work with NLP? Is that what word2vec does?,True
+@firecatflameking,2019-09-25T16:23:52Z,0,Keep it up! Can't wait for the next one :D,True
+@ronmedina429,2019-09-25T15:47:45Z,0,I've waited all day for this!!!,True
+@indivarmishra6119,2019-09-25T15:40:28Z,0,3 consecutive days sir you are on fire 🔥,True
+@joseortiz_io,2019-09-25T15:31:00Z,4,"By the way, great explanations. I need to take note on how to explain concepts so I won't sound dull and uninteresting for my videos. Thanks man! 😊",True
+@girishkumar3720,2019-09-25T15:17:57Z,0,.- -- .- --.. .. -. --.,True
+@thetdg,2019-09-25T14:52:53Z,12,YOU CAN CHANGE THE FONT SIZE IN YOUR BROWSER'S SETTINGS,True
+@hungrychicken4128,2019-09-25T14:46:21Z,0,You're THE best !!!!! Just straight up... BEST... CHEERS!!,True
+@Radiant-hf2vh,2019-09-25T14:38:53Z,1,wooot is going on everybody,True
+@joseortiz_io,2019-09-25T14:27:45Z,2,Gotta click as soon as a Sentdex video is out! Im excited for this one! I wish everyone a fantastic day! 😁👍,True
+@sifiso5055,2019-09-25T14:22:35Z,8,"😲😲😍 More free reliable tutorials, thank you Sentdex👍👍👍",True
+@frossknight3209,2019-09-25T14:22:06Z,0,3rd comment,True
+@SakyTalks,2019-09-25T14:21:47Z,32,Wow. Another one is out 😍😍,True
+@jphoward86,2019-09-22T11:02:31Z,40,"The human brain is indeed a stepper function, but the frequency of firing is used to encode information, which is actually most like a sigmoid activation with big changes in frequency around a central optimal but with saturation at higher levels and obviously a floor at zero!",True
+@Stinosko,2019-09-22T05:49:53Z,0,Hello back! 🤠,True

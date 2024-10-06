@@ -1,0 +1,85 @@
+author,updated_at,like_count,text,public
+@mansijadhav2997,2024-04-20T11:33:16Z,0,"Is the naming convention different in your videos?  Threshold Function: 0 if x<0, 1 if x>=0               # Either 0 or 1 Sigmoid function: 1/(1+ e^-x)                         # 0 to 1 Rectifier function(RELU): max(x,0)                    # 0 or above Hyperbolic Tangent function: (1 - e^-2x)/(1 + e^-2x)  # -1 to 1",True
+@vrushali744,2024-03-12T16:09:25Z,0,Your teaching method is very simple and easy to understand. Getting more clear idea about the concepts after watching your videos. Thank you!!!,True
+@changbadinesh,2024-01-03T15:48:59Z,0,derivative of zero is zero😂😂😂,True
+@DipakChavan,2023-12-19T16:28:26Z,0,"sir, kindly upload the full video if this session...",True
+@theunwrittenquote,2023-12-05T06:31:57Z,0,That is not Treshold function which lies between -1 to 1. Its Tanh function. Please rectify the mistake!,True
+@ajrides3209,2023-09-28T10:35:34Z,0,its tanh not threshold function,True
+@himanshugoel4573,2023-05-24T21:02:30Z,0,"Hello Krish, I think you have made a mistake while explaning the threshold activation function, you have used hyperbolic tangent function instead of threshold function. If there's mistake in my understanding can you please explain. Thanks in advance",True
+@NamanCodes,2023-03-19T10:16:49Z,0,its Wnew = Wold - ... btw amazing explaination :),True
+@tejalsamuel6558,2023-01-06T17:33:08Z,0,"Clarification: The derivative of any constant or scalar value is always zero. However, in case of ReLu function at zero since there is a jump ie it is not smooth. Hence, for ReLu activation function at x =0 the derivative is not defined.",True
+@shofyansky,2022-06-23T14:52:17Z,0,Love your explanation.,True
+@kundankumarmandal6804,2022-01-30T03:00:34Z,0,"Sir, if leaky relu fixes the problem related to relu why don't we always use leaky relu",True
+@rafibasha1840,2022-01-11T08:24:53Z,0,@8:04 it it Wnew replaced by Wold,True
+@vinayraghunath1992,2021-11-30T08:25:35Z,1,"One quick doubt here... Might be a dumb one... In ReLU we have f(z) = z, for z >0 and  f(z) = 0 for z<0, that has led to the 'dead neuron' problem, correct... So we picked leaky ReLU to handle this problem.... My qstn: Why cant we use some function as follows: f(z) = z for z > 0 and f(z)= -z for z <0  In such a case, for z>0 the derivative will ve +1 and for z<0, derivative will be -1.  Is there any problem with this approach?",True
+@arindammukherjee391,2021-10-25T22:10:09Z,0,Amazing video..just a little change needed. Weight updation formula is wrong. It should be W new = W old - n dL/W old,True
+@karthikmalasani,2021-10-16T03:23:34Z,0,"Good video overall. Just one small technical correction:  At 6:35, you said you can't find derivative of 0. That's not correct. On the left hand side of y-axis f = 0 for all values of z. And you said derivative of that region is 0. The problem with derivative of Relu(z) at z = 0 is it is discontinuous i.e. if you are at z=0 and you go towards right say to z=0.001 then f = 0.001. For z = 0.002, f = 0.002. If we compute derivative numerically, then df/dz = 1 in the right side of 0. But when z = -0.001 or z = -0.002 then f = 0. If we compute derivative numerically, then df/dz = 0 in the left side of 0. So, it's discontinuous. But discontinuity at one point is not usually a problem when dealing with continuous valued inputs as the Borel measure of that one point is 0 (using universal approximation theorem we can only approximate Borel measurable function. So using Borel measure here too to justify while discontinuity at one or even a finite number of points is not a problem).",True
+@kanikasaha9205,2021-10-14T16:10:28Z,0,Rectified linear unit or ReLU is most widely used activation function which ranges from 0 to infinity but here you said only 0 and 1.,True
+@amartyadas5-yriddmechanica597,2021-10-10T18:19:35Z,0,why are we doing the derivative of the activation function ? We do derivative of the loss function right ?,True
+@vishaljhaveri7565,2021-10-07T04:06:10Z,0,Thank you sir! Have a wonderful day ahead.,True
+@pranshushrivastava4551,2021-09-23T08:21:49Z,0,"Hi Krish,  Can you explain why the leaky Relu function has a slope of 0.01 only ??",True
+@shaswatamukherjee2888,2021-08-18T10:28:54Z,2,"The reason of not having any value after differentiation at 0 is not because ""you cant find derivative of 0"" but because the ReLU function has no continuity at 0 and hence  is not differentiable at that point.",True
+@ashishdangi3599,2021-06-17T05:02:31Z,0,"Hi Krishna, Your videos are very detailed and informative, thanks for all videos, I want to highlight one point is the input value lies between  (-infinity to + Infinity) and the output value always be 0 to 1. please correct me if I'm wrong in sigmoid function of forward proprgation.",True
+@shraddhakajle1319,2021-06-09T09:46:42Z,0,"DOUBT, so if z<0 then z*.01 will gain be zero no?",True
+@nishantpall1747,2021-05-21T10:37:04Z,0,Shoot I forgot why derivative of zero isn't possible,True
+@louerleseigneur4532,2021-05-12T13:06:40Z,0,Thanks krish,True
+@hinalpatil6578,2021-05-05T04:30:49Z,0,Why Relu is used more commonly in ANN or CNN? However it loses some important information (negative values).,True
+@nikhilramabadran2959,2021-04-06T17:35:16Z,0,I don't understand how the addition works. Shouldn't it give us a negative value even after you've added 0.01 to a negative number much greater than it in magnitude  ?,True
+@nikhilramabadran2959,2021-04-05T13:12:27Z,0,What are the units the weights are in? How can a derivative be 0 ? I'm confused a bit,True
+@nishant3086,2021-03-31T18:09:02Z,4,Weight formula was written wrong.(Person who watched only this video.....be careful)....Better watch complete playlist.,True
+@fasttimeboy,2021-02-08T18:02:13Z,0,Some correction has to be made regarding activation functions in the video. Hyperbolic tangent function(tanh) transform z  to -1 to 1 and threshold activation transforms z to 0 to 1.,True
+@Syedhope,2021-01-31T21:35:31Z,0,is activation function used in back propagation also?,True
+@Sunny.khanzada81,2021-01-28T13:07:26Z,0,"Why ReLU networks yield high-conﬁdence predictions far away from the training data and how to mitigate the problem Your Summary of the paper B. Which technique was used and why? C. How they solved the problem? D. Is there any room for improvement? If yes, then how?",True
+@sukumarroychowdhury4122,2021-01-08T20:28:16Z,1,Derivative of RELu at z=0 is a discontinuous function. Your statement that derivative of zero does not exist is wrong. Derivative of any constant including 0 and any -ve number is always zero. Here the problem arises due to the fact that the derivative of RELu at z=0 is a discontinuous function. Right hand limit and left hand limits are different.,True
+@anantmishra2382,2021-01-02T15:59:20Z,0,"Hi Krish...so if the value becomes 0.01 instead 0 in leaky relu, won't we again get the vanishing gradient issue again as 0.01 is very small and when multiplied it will the whole statement small.",True
+@aj4792,2020-12-23T04:51:12Z,1,Excellent explanation! 👍,True
+@Hari-888,2020-11-11T11:59:31Z,4,"I always lol when he says ""I'm going to rub this""",True
+@shubhangiagrawal336,2020-11-10T11:05:31Z,0,ur videos contains too many ads,True
+@anjalipalepu2632,2020-10-31T13:21:41Z,0,"Sir- one question, in relu z can never be negative rite.. since z = max(0, z). but we can have z =0 but we couldn't calculate the derivative of 0 . how this is solved.",True
+@tanvishinde805,2020-10-13T08:45:10Z,0,@KrishNaik :  how to solve derivative of 0 problem ?  for ReLu and Leaky ReLu,True
+@RameshYadav-nt9tr,2020-10-01T13:07:41Z,0,You want to perform a loss function between features x and label y on which you can apply stochastic gradient descent and find the unique global minimum of that function. can you tell us example for it?,True
+@muntazirmehdi503,2020-09-04T19:18:46Z,0,did u add or multiply .01 with z at the end of the video at 11:26,True
+@sanyajain2127,2020-08-30T20:46:14Z,0,Amazing,True
+@akshatsingh6036,2020-08-21T08:20:49Z,0,bhai sir practical kb krege tb se wait kr rha hu,True
+@sauravsharma9357,2020-08-08T07:54:26Z,1,"A small suggestion its not appropriate to say derivative of zero can't be found its just another constant. If u put it as the derivative of this particular reLU function can't be found at 0 coz RHL(right hand limit) and LHL at zero are not same thus its not differentiable at 0, it would have been perfect  Ps. I know these stupid details don't matter thanks for video it helped..😅",True
+@commonboy1116,2020-08-02T04:19:28Z,0,for Leaky Relu .I thought video at last was edited you had planned to give more information on Leaky Relu . Rest explanation was awesome,True
+@gowthamprabhu122,2020-07-23T08:23:23Z,0,Question. For updating the weight we use the derivative of the loss or the derivative of the activation function f(z)?,True
+@youngzproduction7498,2020-07-18T02:09:43Z,0,Bow down to your lesson. This clip save my  day.,True
+@ngelospapoutsis9389,2020-07-16T10:47:41Z,0,when do we say that we check the value of z if is less than 0 or 1 we talk about the derivative of the summation of weights x inputs +bias before the activation function applies?,True
+@kiran082,2020-07-14T18:21:17Z,0,Excellent Explanation Krish. As usual you are a rock star,True
+@rajdeepakvishwakarma23,2020-07-14T17:44:42Z,1,"sir,  because of your videos I learnt many new things in ML and Deep learning",True
+@kalagaarun9638,2020-07-01T19:14:29Z,0,Why dont we just increase the learning rate for that matter ? 2:43,True
+@subhasishpani9506,2020-06-28T14:52:07Z,2,"One of my friend recommended this channel today. And I am liking each and every video. It is too good and informative. The way you explain, is very much understandable and clear. Thanks you so much sir.",True
+@huss987huss,2020-06-03T16:11:20Z,0,Good explanation. Thank you,True
+@saurabhtripathi62,2020-05-30T13:27:04Z,0,how do we find dead neurons in our network while training,True
+@anushreerungta5035,2020-05-25T07:11:27Z,6,"I have done a deep learning course before but still had doubts about some concepts. After watching your videos, all my doubts got cleared. Hats off to you.",True
+@vjp2866,2020-05-04T10:12:49Z,0,Very good explanation thank you.,True
+@basantmounir,2020-05-03T14:22:07Z,20,"You're amazing, I love your intuition and how you explain from your heart :') I wasn't gonna watch this video but your passion made me watch it all",True
+@neelimakamtam5303,2020-05-02T06:43:42Z,0,"Sir as you mentioned above, is threshold function and tanh function are same? please explain and thanks in advance.",True
+@tintintintin576,2020-04-26T13:43:06Z,3,Your passion to teach and learn is very much reflective in your videos... :),True
+@thunder440v3,2020-04-25T20:42:06Z,1,Super great!,True
+@NOCMG-ht9bd,2020-04-23T12:35:48Z,0,or this mean that  z value never be 0  OR we will not consider z=0 values,True
+@NOCMG-ht9bd,2020-04-23T12:33:43Z,0,What if Z value is 0 means z=0 what would be the value of  derivative of z . Plz te..ll,True
+@RAZZKIRAN,2020-04-05T09:06:51Z,0,"we need to generate w_new  form w_old, but u have written  w_old= w_new  -  n * dL/du ? ( is this correct) w_new = w_old -  n * dL/du ? ( is this correct) which one correct?",True
+@Adinasa2,2020-03-29T17:31:40Z,1,When to use relu vs leaky relu,True
+@1982Dibya,2020-03-25T00:02:17Z,5,Excellent video... Hats off for explaining it in so simple terms. I think his explanation is ever better than Andre NG,True
+@booksuno5826,2020-03-10T11:36:13Z,19,8:02 Sir shouldn't it be W(new) = W(old) - n[derevative] ????????,True
+@680551121,2020-03-06T08:00:07Z,0,How do we know that neurons are dead?,True
+@BlackHermit,2020-02-07T11:47:54Z,3,Fantastic explanations. Thank you so much!,True
+@jalaj6253,2020-01-02T08:12:23Z,6,"great tutorial.. one doubt : at 8:07, shouldn't it be W_new = W_old - α * error_diff",True
+@iamrashidpathan,2019-12-13T06:10:13Z,0,Thank you so much. mazza aa gya sir.,True
+@submagr,2019-11-26T19:13:25Z,1,"Wow Krish, thanks for this wonderful explanation!",True
+@danarajan,2019-11-25T20:12:54Z,2,"Good congrats .For RELU the derivative at orgin is undefined just because it has discontinuity at orgin,",True
+@aditisrivastava7079,2019-11-11T15:45:36Z,0,Awesome,True
+@dr.amitprakashsen4597,2019-11-08T05:14:51Z,1,sir first of all thank u for the excellent explanation. Sir i m not able to find any video related to autoencoders and its application using CNN.,True
+@yatinarora9650,2019-10-26T20:18:36Z,0,"One doubt in relu if w_new = w_old - n dL/dw let in chain rule all derivatives are 1 and let learning rate is also 1 and let w_old was also 1 or 2    w_new = 2 - 1 * (1*1*1) w_new = 1 like that, in next 2 iterations, it'll reach zero or -ve  then it'll reduce by 1 directly which can bring w_new near to zero or -ve very fastly which can be very dangerous. but in case of sigmoid or tanh this was always less so it'll w_new will change slowly.   as all the weights while initializing will be small positive numbers, so in that case relu will make them 0 or -ve   So how relu can be good.   for -ve leaky relu is good, but first of all, it should not go to -ve very fast. I feel the slow reduction in weight is good as large subtraction can deviate the weight by large extent from what it should be",True
+@preetyg2163,2019-10-09T06:23:07Z,2,"great explanation sir,..wht i feel @6.21 min -why at 0 function was not differentialable bcz when we have graph where we have two differnet slope just after it and before it then that means there is kink and graph not smooth in that case at that point we say function not differentialable at that point",True
+@nkans,2019-09-16T03:15:52Z,0,I do remember derivative of zero from +1 and +2. It is my fault that I did not use it in the past 29 years. ;) . That is an awesome explanation for ReLU. Thanks for the video.,True
+@abhinavprakash3177,2019-09-06T09:05:18Z,0,great teaching bro,True
+@PinkFloydTheDarkSide,2019-08-25T22:36:48Z,1,"Still not sure about Relu. So if the value Z is not negative, let's say the value of Z is 0.02, it will result in the problem of the vanishing gradient as you explained in your vanishing gradient video. How is that handled in Relu? Also, if weights get high, why would not Relu suffer from exploding gradient? I will appreciate your response. Thank you.",True
+@unnikrishnanms3431,2019-08-25T07:37:58Z,0,Simply Superb....other online sources must learn frm u....,True
+@zeeshansheikh8163,2019-08-21T11:46:56Z,2,Thanks for your videos and I have a question regarding optimizers................... How leaky relu or parametric relu can impact in the vanishing gradient problem?,True
+@mdazhar6804,2019-08-10T17:01:24Z,0,Salute you man.,True
+@tayebbenzenati6937,2019-07-26T10:36:01Z,0,What about PReLu ?,True
+@timircollege,2019-07-26T06:44:01Z,5,Thank you very much for this wonderful videos. :),True
+@hokapokas,2019-07-25T16:24:06Z,18,I love the dedication with which  you are putting efforts to make these fabulous videos... Way to go buddy.. Keep it up.,True

@@ -1,0 +1,28 @@
+author,updated_at,like_count,text,public
+@inayatinu7068,2024-02-01T02:15:55Z,0,"cant we just mention primary key beside not null of id to make the id primary key , similarly to make more than 1 column primary key!",True
+@anu4240,2023-11-14T11:43:00Z,0,KRISH IS THIS PLAYLIST SUFFICIENT FOR DATA SCIENCE INTERVIEW ?,True
+@anushagarg7955,2023-10-18T03:43:06Z,0,@Krish Naik the check constraint is not getting dropped,True
+@user-bd3tj4it3n,2023-06-29T11:56:18Z,0,"hi i got error  for this query   alter table st_theresa add foreign key(school_pin) references st_little_flower(school_pin);  create table st_theresa( 					id int not null,                     school_name varchar(50) not null,                     school_location varchar(60),                     school_district varchar(70),                     school_pin int not null,                     primary key(id)                     ); create table st_little_flower( 							id int not null,                             school_name varchar(65),                             pin int);  alter table st_little_flower add school_pin int; alter table st_theresa add unique(school_pin);  error is 	Error Code: 1822. Failed to add the foreign key constraint. Missing index for constraint 'st_theresa_ibfk_1' in the referenced table 'st_little_flower'	  pls give me solution",True
+@dhananjaybiraris695,2023-03-04T08:56:54Z,0,is it possible to use multiple primary key without using constraint ?,True
+@fredyjose7445,2023-02-01T06:32:20Z,0,Please make me understand why we need to mention reference of previous table when ever we add constraint foreign key,True
+@NATIVEBYTarunRaj,2022-11-17T16:38:51Z,0,alter table Person alter city_name drop DEFAULT;,True
+@arvindsinghrawat538,2022-10-17T04:22:00Z,1,G.O.A.T Krish Sirrrr ! Grateful,True
+@antarabasu12,2022-08-21T05:27:08Z,0,"sir how to drop foreign key , I am getting confused, not able to do it. I am doing :  alter table department drop foreign key fk_teacherdepartment; desc department; , is this right??",True
+@hasanmougharbel8030,2022-08-07T07:01:04Z,0,"Hey there, kudos to your great efforts. I have a simple enquiry as an newbie sql learner. Why cant i have more than one primary key in a single table? Thanks for taking care of this.",True
+@namitaojha7861,2022-05-22T11:54:59Z,0,can you please make a video of explaining what is set foreign_key_checks = 0,True
+@Neptune_Gaming,2022-05-10T06:18:17Z,0,"Sir, please explain how to drop the check constraint. I found answers on google but none of them say how to drop check when added while creating a table and not with alter table command. Thank you",True
+@krishj8011,2022-04-21T07:34:22Z,0,great tutorials,True
+@ronimarine5527,2022-04-05T07:06:39Z,0,Alter table person drop constraint pk_पर्सन;,True
+@amazingvideos175,2022-03-18T15:25:01Z,1,Alter table Person Drop index pk_person; #Drop multiple primary keys,True
+@vamshichary9706,2022-02-03T13:43:16Z,0,how to drop check constraint?,True
+@ranjit2391,2022-01-19T04:08:25Z,0,how to add multiple values in new column ?,True
+@prateekagrawal1142,2022-01-18T07:06:08Z,0,Just a request please put interview questions for data analysis with their answers as previously there were just questions and not answers,True
+@srinivasbogineni408,2022-01-18T06:39:27Z,0,"I have purchased one  neuron course but i dont recieve full course  on statistics, no body is responding will you solve this issue",True
+@adzinja6574,2022-01-18T03:14:27Z,1,Sir I am learning data analyst but I am little bit confused if he is doing data cleaning he need to learn some ML algorithm or not or he only focus on descriptive analysis I hope you solve my query thank you,True
+@devgarg3130,2022-01-17T19:26:17Z,1,sir can you pease suggest any good platform where we can practice queries.,True
+@raghuram8645,2022-01-17T17:54:14Z,0,Thanks Krish..,True
+@PankajTiwari-hp4pk,2022-01-17T17:36:10Z,0,Sir please mysql command line par kara dijiye,True
+@susantkumarsamantaraya6609,2022-01-17T15:21:53Z,0,Please sir provide pdf of this slide.,True
+@prakashdalvi9598,2022-01-17T14:45:44Z,0,Hi sir please make playlist on SAS also,True
+@biswajitroy-zp6lk,2022-01-17T14:08:22Z,0,Sir pls start Neo4j graph database,True
+@obsaa7259,2022-01-17T13:54:52Z,2,Always 'm watching u'r video after click like Button!,True

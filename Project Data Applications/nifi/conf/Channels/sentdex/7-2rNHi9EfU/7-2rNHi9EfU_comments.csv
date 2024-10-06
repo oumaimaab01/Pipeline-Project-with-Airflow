@@ -1,0 +1,12 @@
+author,updated_at,like_count,text,public
+@schnookycoder8324,2022-01-05T09:45:51Z,0,Thank you so much !!! sir,True
+@kodaio,2018-07-30T03:58:59Z,0,Thank you for this useful video.,True
+@Majskolvenz,2017-01-02T00:53:46Z,0,"Importing sys seems unnecessary, the same tuple returned by sys.exc_info() can be created like this: (e.__class__, e, e.__traceback__).",True
+@koolaidman31893,2016-12-14T01:41:02Z,1,You really should talk about how catching a general Exception like 'Exception' is generally a really bad idea.  You want to catch the narrowest exception as you can to be able to handle it appropriately and have as little code as you can inside the try block again to be able to handle the exception and trace it easier.  Also another cool thing just to talk about would be using else: in addition to the try: except: block.,True
+@mustardthunder,2016-12-13T14:14:38Z,0,"Awesome video, very useful and thank you a lot. Love all your videos, very well explained. One of the few tutorials I can actually follow easily :)",True
+@idle_user,2016-12-13T07:30:05Z,0,Thank you so much for this. Really straight forward explanation on how to collect the error information.  Will definitely update my current projects with this.,True
+@supervirus5831,2016-12-12T18:32:04Z,1,wish I can type as-fast-as you..!!,True
+@AdamBecker80,2016-12-12T17:56:11Z,4,Have you tried logging.exception('<insert error message here>') This will take the current exception and log it in a graceful manner.,True
+@laissez-faire496,2016-12-12T16:13:35Z,0,"If someone has a great idea for an app but does not know how to code but is willing to learn how to code to make it happen , would u find it better for that person to learn and make there own app or get some other coding company to do it for them? Even tho the person is scared of there ideas being stolen? Pls include on your QnA video",True
+@jasonlloyd806,2016-12-12T14:57:23Z,0,"I know you formatted the exception but if you wanted the whole thing you could just put : logger.error('An error occured', exc_info=1)",True
+@MentiSnap,2016-12-12T14:45:56Z,1,Are you thinking in doing a testing series?,True

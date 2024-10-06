@@ -1,0 +1,40 @@
+author,updated_at,like_count,text,public
+@garvsekahohumhinduhain6085,2024-05-12T08:17:46Z,0,Thank you  sir,True
+@shankarbasu9357,2024-04-28T17:21:05Z,0,But why pizza and Berger have changed,True
+@srishtisharma5101,2024-04-15T08:21:56Z,0,I spent more then 1L and now i am studying from your free content krish..don't ever say..nobody values.. 26:25,True
+@chinnibngrm272,2023-09-28T17:06:47Z,0,Hii sir Thanks for wonderful nlp sessions  I just want to know how can i generate word embeddings for code mixed data like (telugu-english code mixed ) because we cant directly use pre trained word2vec or fasttext models for code mixed data  soo if i train my data using this embedding layer can i get accurate representation of numeric vectors for my words? please if anyone know about this please share your thoughts here!!!,True
+@karthiksundaram544,2023-09-13T08:14:44Z,0,❤,True
+@tarun4705,2023-05-12T09:37:18Z,2,26:13 Honestly your free content is much better than other paid content. I would even pay twice or thrice the amount of money compared to paid content to watch your videos.,True
+@oindriladas5807,2023-05-06T09:54:17Z,0,Sir when should you upload next NLP classes on Transformers and BERT,True
+@__MahendranD,2023-03-16T03:06:00Z,0,is this work for other languages like Tamil text etc...?,True
+@RavitejaGundimeda,2022-12-30T22:51:30Z,4,26:13 I value free content. Thanks for making it free and it was a great learning experience!,True
+@irshadali3515,2022-11-17T18:44:49Z,0,Sir pls make a video on character LSTM,True
+@ajaynegi6278,2022-08-28T13:58:37Z,2,Happy Birthday Krish!  You are a Messiah for students like us....and thank you so much for these videos!,True
+@datasciencegyan5145,2022-08-26T11:46:27Z,0,how we decide we have to use pre or post padding,True
+@khalidal-reemi3361,2022-08-16T08:31:27Z,0,LIKE LIKE LIKE LIKE 👍👍👍,True
+@hargovind2776,2022-08-11T09:54:59Z,1,Great explanation,True
+@ratnak1058,2022-08-08T13:53:59Z,1,Amazing session,True
+@bilalsidiqi9992,2022-08-01T09:51:31Z,1,what are the true/target values that are used in calculating the loss function,True
+@kirankoshy209,2022-07-28T12:27:21Z,0,"So, it's not necessary to use Word2Vec or Glove for embedding, right?",True
+@mrityunjayupadhyay7332,2022-07-26T15:51:43Z,1,nice explaination,True
+@mohankrishna2188,2022-07-23T08:39:44Z,0,I am eagerly waiting for transformers and and BERT,True
+@osikoyaadeola2530,2022-07-22T13:59:24Z,1,Thanks so much sir,True
+@victorpoudel4358,2022-07-22T08:15:01Z,0,You are a 💎,True
+@geekyprogrammer4831,2022-07-15T10:55:33Z,0,Its been almost 2 weeks yet no new content. You told this will go on for a month.,True
+@kulbhushansingh1101,2022-07-15T04:09:47Z,1,sir waiting for next session eagerly.,True
+@siddavatamthirumalareddy973,2022-07-12T06:29:14Z,0,"Hello Krish naik sir, can you please re-start the NLP live sessions",True
+@muizzkhalak,2022-07-11T15:41:45Z,0,Next session please,True
+@litonpaul6133,2022-07-11T15:37:11Z,0,Sir when you will take the next session?,True
+@dswithanand,2022-07-10T11:49:19Z,1,Hello Sir when is the next session,True
+@Gokulhraj,2022-07-10T10:10:35Z,5,Deprecated: tf.keras.text.preprocessing.one_hot does not operate on tensors and is not recommended for new code. Prefer tf.keras.layers.Hashing with output_mode='one_hot' which provides equivalent functionality through a layer which accepts tf.Tensor input. See the preprocessing layer guide for an overview of preprocessing layers.,True
+@poonkodivijay9595,2022-07-09T18:07:38Z,0,Can i get job guarantee program in data science,True
+@ravish5387,2022-07-08T15:22:48Z,0,"Sir, when is next session?",True
+@sandipansarkar9211,2022-07-07T17:47:05Z,1,finished watching,True
+@milindtakate5987,2022-07-07T07:43:53Z,3,Waiting for sessions on transformers and BERT.,True
+@zainulabideen9758,2022-07-06T15:36:55Z,1,Bro next session update,True
+@dovie_thebeauty3449,2022-07-06T13:41:50Z,1,"hello sir, next session update?",True
+@prerequisitechannel,2022-07-05T23:38:48Z,5,"Great content Krish, Thank you! Waiting for sessions on transformers and BERT.",True
+@bilalshabbir1343,2022-07-03T15:33:50Z,1,Awesome Serious,True
+@rekha9314,2022-07-02T09:02:13Z,0,"I m looking for a job as a data scientist, can I join hackathon, and what's the procedure to join, plzzzzzzzzzzzz",True
+@thepresistence5935,2022-07-01T14:41:21Z,5,"Assignment solution:   --------------------code--------------------------- # imports  import tensorflow as tf from tensorflow.keras.layers import Embedding from tensorflow.keras.models import Sequential from tensorflow.keras.preprocessing.text import one_hot from tensorflow.keras.preprocessing.sequence import pad_sequences  ### Assignment  sent=[""The world is a better place"",       ""Marvel series is my favourite movie"",       ""I like DC movies"",       ""the cat is eating the food"",       ""Tom and Jerry is my favourite movie"",       ""Python is my favourite programming language""       ]  # Change to one hot representation :)   vocabulary_size = 300  # Total vocabulary size!  sentence_length = 20  # This is for one hot sentence length  max_length = 10   # This is for embeddign vector length (feature dimensions)  # let's convert to one hot vector  one_hot_assignment = [one_hot(word, vocabulary_size) for word in sent]  # let's pad the one hot vector  padded_assignment = pad_sequences(one_hot_assignment, padding = 'pre', maxlen = sentence_length)  # build a model  model = Sequential() model.add(Embedding(vocabulary_size,  max_length, input_length = sentence_length)) model.compile('adam', 'mse')  # let's see the word embedding!  print(model.predict(padded_assignment[0]))",True
+@shopinghaul___,2022-07-01T14:22:13Z,0,"@Afeez, drop it here...pleasee if you can",True

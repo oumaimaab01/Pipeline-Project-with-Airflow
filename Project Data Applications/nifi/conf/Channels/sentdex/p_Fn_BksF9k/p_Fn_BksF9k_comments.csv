@@ -1,0 +1,24 @@
+author,updated_at,like_count,text,public
+@FlottiFlotta,2019-06-14T22:44:27Z,0,"ok if you have a problem with ""TX"", replace it with ""TX NSA Value""",True
+@vman9630,2019-02-23T06:00:48Z,1,found snowden,True
+@vikramsinha1246,2019-01-17T18:32:23Z,0,how to resample data by 30 min or  by 1 hour,True
+@spicytuna08,2019-01-06T07:02:12Z,0,text version of this tutorial is awesome.  thanks,True
+@Dockmark5,2018-07-24T21:42:48Z,1,"""so this is actually *mis*leading"" lmao",True
+@joshuaronisjr,2018-05-28T12:55:23Z,0,"def getUS_HPI():      unavaraged = (quandl.get('FMAC/HPI_USA', authtoken='Yxge5jFp2ZFU67Wh27b_')) # ============================================================================= #      unavaraged.colomns = [""United States""] # =============================================================================      avaraged = unavaraged      avaraged.columns = [""United States""]      avaraged[""United States""] = (avaraged[""United States""] - avaraged[""United States""][0]) /       avaraged[""United States""][0] * 100      return avaraged  That line thats commented out was giving me problems. For some reason I had to create a copy of the DataFrame in order to rename the columns. Does anyone else have this issue?",True
+@robinranabhat3125,2018-04-07T17:54:54Z,0,use resample on non numeric dataset .. then we will see how much of a python programmar you are .,True
+@hrushikeshgargote,2018-03-26T04:20:48Z,0,"i'm not able to solve this error    File ""F:\ML\anaconda\lib\site-packages\pandas\core\resample.py"", line 1116, in _get_resampler     ""but got an instance of %r"" % type(ax).__name__)  TypeError: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'Int64Index'",True
+@asifnizamani7513,2018-02-06T07:22:50Z,0,can you explain kalman filter gps estimation in python,True
+@samuelchia5078,2017-12-31T15:10:47Z,0,"Hi Sentdex, thanks for the videos! Could you advice me on how I should go about averaging the full data for each time period? I.e averaging all the states housing prices for every month. Thanks!",True
+@yuanhu7264,2017-12-27T20:22:49Z,0,"I felt the graph displayed is not the mean,  it can't be nearly all the monthly data is lower than the annually average.",True
+@sameerzahid3544,2017-12-14T23:51:25Z,1,"How does it know that the date is the data is monthly? Is the date column in a date type? Because if it is just a string format, then pandas wouldn't know that is is monthly, right?",True
+@onmoog-xycs,2017-10-20T11:25:00Z,1,Thank you Sir for the great tutorials..,True
+@patrickmullan8356,2017-08-02T08:34:39Z,0,"Why does the opening value of year t+1 not match exactly the closing value of year t? For instance: why is  1975-12-31 close: 6.336776 not equal to 1976-12-31 open: 6.5796775 Or am I assuming wrongly, that opening of a year actually dates back to the first of January, that year?",True
+@LongBoy.0,2017-07-30T02:43:03Z,1,for some reason the label = 'TX...' isn't producing a label.,True
+@sayyamahmed3414,2017-05-08T22:38:14Z,1,"problem ""FutureWarning: how in .resample() is deprecated the new syntax is .resample(...).mean()  resample('A', how=mean) worked, but gave the warning. resample('A').mean()   and   resample('A').ohlc()  both worked as well, but with no warning"" solution use data['txyr1'] =data['TX'].resample('A').mean()",True
+@briancp32,2016-12-16T16:01:46Z,4,God bless you and God bless Texas!,True
+@RichardDurham,2016-07-06T20:17:39Z,7,"Hi Harrison, Just an FYI, when I ran this today I got the following message:  FutureWarning: how in .resample() is deprecated the new syntax is .resample(...).mean()  resample('A', how=mean) worked, but gave the warning. resample('A').mean()   and   resample('A').ohlc()  both worked as well, but with no warning.",True
+@oping00,2016-05-05T01:40:19Z,0,"I can't get Quandl working, I did  a pip install Quandl ,but the import Quandl won't recognize",True
+@ciobolurker1,2015-11-25T14:56:07Z,0,"Hi Harrison, I tried re-sampling my data and I got an error: Only valid with DateTimeIndex, I pulled from Keen.IO and it pulls out a timeframe with a start and end date in the same coloumn. Any help you could provide would be awesome! Thanks!",True
+@andrewczeizler59,2015-10-12T08:03:36Z,0,could you please also do a pairs trading tutorial  many thanks andrew,True
+@andrewczeizler59,2015-10-09T23:15:27Z,14,"Hi Harrison, Hope your well. Was wondering if you could do a series on a couple of deep learning algorithms. Best Regards Andrew",True
+@HelliOnurb,2015-10-09T16:48:49Z,0,tfw the automatically generated subs promise something much more appealing. 0:02,True

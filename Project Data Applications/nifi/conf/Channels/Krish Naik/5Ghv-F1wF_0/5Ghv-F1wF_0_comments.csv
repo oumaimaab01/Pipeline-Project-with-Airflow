@@ -1,0 +1,84 @@
+author,updated_at,like_count,text,public
+@bilalmalik1647,2024-05-30T17:05:17Z,0,You're a Bog Boss of LLMs😂❤,True
+@tanajipatil2338,2024-05-13T11:42:22Z,0,"this is really helpful, please come up with some videos regarding excel macro dealing with gen AI",True
+@EkNidhi,2024-05-12T21:34:03Z,0,nice🙃🙃🙃🙃🙃,True
+@KumR,2024-05-09T23:58:29Z,0,"Good one... But got this warning LangChainDeprecationWarning: The class `OpenAIEmbeddings` was deprecated in LangChain 0.0.9 and will be removed in 0.2.0. An updated version of the class exists in the langchain-openai package and should be used instead. To use it run `pip install -U langchain-openai` and import as `from langchain_openai import OpenAIEmbeddings`.   warn_deprecated(",True
+@charan2804,2024-04-30T13:45:35Z,0,"hello sir i am getting an error as when i am trying to run it is not running # Download embeddings from OpenAI embeddings = OpenAIEmbeddings()  may i know  /usr/local/lib/python3.10/dist-packages/langchain_core/_api/deprecation.py:119: LangChainDeprecationWarning: The class `OpenAIEmbeddings` was deprecated in LangChain 0.0.9 and will be removed in 0.2.0. An updated version of the class exists in the langchain-openai package and should be used instead. To use it run `pip install -U langchain-openai` and import as `from langchain_openai import OpenAIEmbeddings`.   warn_deprecated( --------------------------------------------------------------------------- ValidationError                           Traceback (most recent call last) <ipython-input-9-f838166cf7bd> in <cell line: 2>()       1 # Download embeddings from OpenAI ----> 2 embeddings = OpenAIEmbeddings()  1 frames /usr/local/lib/python3.10/dist-packages/langchain_core/_api/deprecation.py in warn_if_direct_instance(self, *args, **kwargs)     181                         warned = True     182                         emit_warning() --> 183                     return wrapped(self, *args, **kwargs)     184      185                 obj.__init__ = functools.wraps(obj.__init__)(  # type: ignore[misc]  /usr/local/lib/python3.10/dist-packages/pydantic/v1/main.py in __init__(__pydantic_self__, **data)     339         values, fields_set, validation_error = validate_model(__pydantic_self__.__class__, data)     340         if validation_error: --> 341             raise validation_error     342         try:     343             object_setattr(__pydantic_self__, '__dict__', values)  ValidationError: 1 validation error for OpenAIEmbeddings __root__   Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass `openai_api_key` as a named parameter. (type=value_error)",True
+@prazyraj1735,2024-04-28T09:17:52Z,0,"I have this use-case where there are different types of documents. I can parse documents using document loaders using langchain. But, there are images also in these documents. I want to store them as metadata and if answer generated from a context chunk it show the image also. Please help.",True
+,2024-04-17T09:18:12Z,0,"Is there a way to automatically generate those queries based on the PDF that we uploaded? Can somebody answer, please?",True
+@Vmos710,2024-03-26T07:34:14Z,1,Not working for me,True
+@jasonbourn29,2024-03-26T04:20:53Z,7,Instead of open ai please...please use something we can access (free to learn),True
+@subodhmhaske7829,2024-03-20T13:27:55Z,0,Best video bhaii,True
+@parthadhikari00,2024-03-14T11:44:56Z,0,"This was short and crisp to understand, great video !",True
+@varma1035you,2024-03-09T00:59:44Z,0,I am new to python. Which is the code editor that you are using here?,True
+@user-fo7vm9px8f,2024-03-04T11:30:09Z,0,It give me the details from outside of the pdf also. How can I restrict this with only PDF?,True
+@prashantgautam8983,2024-03-03T09:36:17Z,0,How can I download the document search and LangChain model trained in the above video for offline use?,True
+@jimmybruneel4540,2024-02-23T09:57:48Z,0,Thanks very well explained,True
+@kandamca2010,2024-02-23T06:50:57Z,0,"@if you provide the spring boot ai realtime  example, that will be great",True
+@mousumisinha2002,2024-02-21T14:44:21Z,0,Nice Video. Where can i see the file? 'budget_speech.pdf'?,True
+@purvikabajaj8482,2024-02-15T15:21:56Z,1,"Hi Krish, thankyou for the very amazing video and explaining it all very simply. Could you also please create a tutorial using CSV file?",True
+@kaleshashaik5959,2024-02-14T13:50:07Z,1,Do we have way to query from multiple PDF files ?,True
+@ZohaibKhan-io6le,2024-02-10T09:05:55Z,0,Can I use the api key from openai which is free or do I need a paid subscription to use the key I am getting stuck with document search Getting error illegal b bearer Can you please help me in clearing my doubt,True
+@enough200,2024-02-09T11:46:36Z,2,this is the problem-- the previous video has api key explaination. but how to know which previous video.. googly fekta hai,True
+@gautamkushwaha8724,2024-02-06T05:02:46Z,0,"Love from Nepal. I am working on a project, and integrating pdf chatboat is very imoportant part of it. It was super helpful for me. And the way you have presented and explained the video was also quite interesting . Keep up the good work.",True
+@prashantkadam2338,2024-02-02T08:02:50Z,0,I would like to know from which PDF the answer is coming. how can I do that?,True
+@bevansmith3210,2024-02-01T14:13:16Z,1,You are amazing man,True
+@gauravsolanki5612,2024-01-27T10:39:14Z,0,"Hi Krish, If there are images in the PDF, can it read and answer questions related to that as well? Please help on this.",True
+@rupeshverma3496,2024-01-26T16:49:27Z,0,Hi Krish - thanks for the video and could you please tell me how we can load it with html file content and do the relevant searches.,True
+@bhaumiks.6543,2024-01-24T09:31:35Z,0,Will it work on scanned pdf?,True
+@bhaumiks.6543,2024-01-24T07:59:44Z,0,thank you for amazing content,True
+@user-oz2er6sh4p,2024-01-16T22:55:12Z,0,"where can i download budget_speech.pdf , its not on github",True
+@user-mz1hm1yn3c,2024-01-15T06:41:19Z,1,"Hi Krish. This is Stuff was Awesome. Thanks for the clear explanation. Could please make video on pdf query using Lamini, without OpenAI",True
+@sauravchowdhury6383,2024-01-10T13:11:07Z,1,"how to use this now in 2024, as davinci 3has been deprecated",True
+@eashwarinfosys9856,2024-01-03T11:02:02Z,0,"What if the PDF is an invoice document, like a billing doc or a Sales document, Tax receipts. Can we ask query related to the content in the invoice document.",True
+@alekhyakusam7476,2024-01-02T21:28:43Z,0,how to make the user query dynamic and read the pdffiles attached by the user,True
+@onkarrajambatwar4930,2024-01-01T06:16:56Z,1,Is there data Privacy issues if we connect with OpenAI api? I know data coming from API is not used for training but I want to be sure there is another layer of security. Could you please tell us more about the victor store,True
+@Coff03,2023-12-19T03:28:03Z,0,Hi..I am having error in the step embeddings = OpenAIEmbeddings() Pls help to rectify,True
+@SudhanshuVegad,2023-11-25T09:54:56Z,1,Hi Krish. Awesome video. This really helped. Do you have any plans for creating a UI/webpage for querying and displaying results? Would love that!,True
+@ashutoshmaurya2714,2023-11-14T19:16:51Z,0,Hi krish can u please tell me how much accuracy of questions answer from that?,True
+@user-kp4zg6ql5c,2023-11-09T06:13:01Z,1,its not working now  AttributeError: module 'openai' has no attribute 'Completion'. Did you mean: 'completions'?  :(,True
+@Carlisson1000,2023-10-30T01:33:50Z,0,Best Youtube Channel ever,True
+@kushagrasingh7731,2023-10-27T04:20:38Z,0,"Thank you, would love to see an example using pandas df and what are possibilities in terms of what all can we do with that using langchain",True
+@sumainaisrar9170,2023-10-15T03:50:15Z,0,I have tabular data inside pdf files. This QnA does  not comprehend tabular data inside pdfs. How can i solve this issue.,True
+@user-gq6ol1di3t,2023-09-25T06:15:30Z,0,sir i have one doubt how can we convert  math equations pdf document to txt,True
+@mohdnomaanalam1555,2023-09-07T20:02:40Z,0,"Hi Krish, I'm stuck here, I've trained my llm model from pdf, following same steps you mentioned in the video. Now I want to use same response in my api which I'm getting from my model, please guide as I dont want to run the code to train llm model again and again.",True
+@ProGamer-rs5xx,2023-08-29T11:50:14Z,0,Can you perform this using any hugging face transformers,True
+@surajsharma9122,2023-08-29T01:26:00Z,0,"Hi Krish, Thanks for sharing this informative video. Please make a video on data extraction from images/graphs,",True
+@vishalgarg8423,2023-08-19T09:28:24Z,0,TypeError: multiple bases have instance lay-out conflict  --- Please help in resolving this error I am facing this error in in langchain,True
+@aditimondal3995,2023-08-18T13:03:11Z,0,how to integrate it with streamlit?,True
+@Kishor-ai,2023-08-13T06:34:54Z,0,"Using Langchain , I need to retrieve (Person name , like krish or krish naik)  from my word document and I need to replace that word with any other name.",True
+@madhusudhan4024,2023-08-09T01:42:54Z,0,but why  it is take only small pdf file if it is large pdf file ??,True
+@Sachin-xj1oq,2023-08-01T14:34:19Z,0,"Suppose, I have to compare the responses of two PDFs. Example: There are two PDFs having an article about Cooking. What i want is to query our model ""What is the process of making a tea?""  Desired Response: Source 1: Method of making Tea and Source 2: Method of making tea. And after getting two separate responses, I am able to compare these results, efficiency and all.",True
+@harshalmahajan5877,2023-07-31T15:43:23Z,0,"Great content, Thank you for sharing it. I have a query - How does the model get trained if pdf content has been changed of the same pdf file? Will it maintain any versioning and give answers accordingly?",True
+@alkebabish,2023-07-28T09:14:58Z,1,This stuff is incredible. It's got me back into coding again. Thanks for the clear video!,True
+@reinaldousadani1075,2023-07-26T14:21:31Z,0,What if the PDF have images? Do you have any ideas/advice on how to process that?,True
+@ranitbandyopadhyay,2023-07-25T09:29:11Z,0,excellent video,True
+@sudheervanapalli7262,2023-07-23T13:57:41Z,0,Will this works with only paid account on openAI?,True
+@prempanwar6195,2023-07-07T06:25:29Z,0,"Hi I want to implement same things in the nodeJS,  can  do this? with same thing in it? could you please create any video on JavaScript ( node, react, next any of them), will be appreciated, thanks in advanced",True
+@sachinkr9764,2023-06-29T07:10:03Z,0,"Hi Krish, will this model works on scanned pdf or on images?",True
+@ShivShankarDutta1,2023-06-27T20:52:59Z,0,@Krish If I have scanned image pdf. Will it work?,True
+@Developer367,2023-06-26T23:03:04Z,0,"Can you please create an example of reading examples from a file into a dataframe, and ask question using prompt template and load the response from the prompt template into a dataframe, also do you recommend using Pandas dataframe agent?",True
+@akshatjaiswal6073,2023-06-24T01:13:23Z,0,what if we search for things that are not present in the pdf?,True
+@sashankreddy2434,2023-06-23T06:19:23Z,0,"We have 10,000 PDF file in multiple folders and its sub folders. Can we use lang chain to query from all the PDF files ?",True
+@PramodGunaware,2023-06-21T04:58:22Z,0,PyPDF2 can help with normal text but what about when it comes to mathematics books or any book that contains formulas or symbols what ways to extract these kind of data?,True
+@zunaidqureshi8521,2023-06-20T18:44:34Z,0,"Hi, Krish great explanation, can you tell me how to query our text files",True
+@AkhilKoduri_1,2023-06-20T01:17:32Z,0,"Hey Krish, great information as always.  Does this langchain can be used on confidential data as well, at this point?",True
+@AjithKumar-kn7dj,2023-06-18T05:40:32Z,1,"Hi Krish, what about data embedded in images/graphs?",True
+@rathodindranil,2023-06-18T03:28:06Z,0,"Sir there are tools available which summaries entire pdf(any book in pdf format) can we do, something of same sort with langchain and openai, please do some projects on that🙏🏼",True
+@A.M.8181,2023-06-17T18:10:41Z,0,"""How can I make it so that I can continue to ask ChatGPT further questions, taking into account the response provided earlier? This is because the first answer to a question about a PDF is not always fully displayed, and I would like to say 'Continue'.""",True
+@akshatapalsule2940,2023-06-17T04:19:32Z,0,It was great learning! Thanks Krish,True
+@dhanushnayak1674,2023-06-16T18:56:02Z,0,"A video from digital sreeni, but the explanation of krish good so he is called as god of data science in India. But where krish stand out... Thanks You Sir for your teaching skills. You try max to make normal people understand. Much love god bless",True
+@igornakrychsky1552,2023-06-16T16:27:04Z,2,while playing with this langchain functionality i discovered that if document is large and I need to return multiple occurrences of something from the document like give me all of the mentions of agriculture budgets as an example from your doc. If its mentioned on multiple pages of the document not all of the occurrences are being returned. I haven't able to solve that issue yet.,True
+@learnpythoninds6023,2023-06-16T14:06:55Z,1,Hi krish. Can you do a session for summarization of pdf using langchain modules and prompt templates,True
+@harshsinha9709,2023-06-16T09:39:53Z,0,Is there any way to chunk data based on paragraph/section so that we can create a pdf responder 🙄,True
+@TRENDINGTECHSCHANNEL,2023-06-16T09:25:07Z,1,If we dont have openai plus subscription. Then what are the options avaialbe which are open source ?,True
+@Jeganbaskaran,2023-06-16T08:57:51Z,0,"Thanks for such a great video. Though we are talking about GenAI to many ppl, the first question am getting is about the security of the data. Could you please give more insight on that? Are the prompt questions saved on their side? Considering the real usecase we may ask some senstive informations about the oraganization, assets. In that case, user may not want to share their questions what they are asking. Kindly make a video Security on LLM",True
+@nehat786,2023-06-16T08:47:00Z,0,sir please do make a video on vector database where we can store our embeddings and than query from it using semantic search,True
+@fasilmveloor,2023-06-16T08:33:35Z,0,"Hi krish, thank you for the video, can you upload same thing as shown in the video with llamaIndex",True
+@mohsinkhan-bw3cd,2023-06-16T07:49:37Z,0,Upload mlops tools videos,True
+@paulokafor1635,2023-06-16T07:42:03Z,11,"I love this. Thanks Krish. you have really helped me learn machine learning. I started with your machine learning playlist, and now i am in deep learning. You are truly the best. Thank you, its now almost 1yr since i started this journey into data science, and i am so glad to have taken this step.",True
+@pritishghatkar6148,2023-06-16T07:35:32Z,0,Hi Krish can you do the same thing as shown in the video using GPT4all ?,True
+@taiworidwan194,2023-06-16T07:19:27Z,2,"Thank you for sharing this informative video on using Langchain to query PDF documents. It's fascinating to see how language models like Langchain can be leveraged to extract valuable information from text documents, particularly PDFs.",True
+@gouravsareen8126,2023-06-16T07:09:28Z,0,"I'm working on csv data and created an index json file from the csv data and using this index json file i'm trying to get answers from gpt but it provides bad results, can you please make a turorial video on the same thing?",True
+@Tech_Enthusiasts_Shubham,2023-06-16T07:04:05Z,0,Thanks a lot sir your videos are really helpful and also help me in enhancing my knowledge in ai domain hat's off to you for making such contribution for us❤,True
+@rishiraj2548,2023-06-16T06:51:50Z,0,Good day wishes,True

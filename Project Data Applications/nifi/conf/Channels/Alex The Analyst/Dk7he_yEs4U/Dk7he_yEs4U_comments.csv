@@ -1,0 +1,74 @@
+author,updated_at,like_count,text,public
+@PhilipJohnson-zh5sy,2024-05-27T11:52:02Z,0,"Thank you so much Alex straight to the point and simple. Grateful for you. Please is there a video where you show an example of sub-queries and aliasing. Using the right alias at the different levels of nesting. For example  Select emp.*  From         (select a.*          From                 ( select col1,... col1                  from employees as emp)  as a where .... ) as vw_emps_without_a   I believe in this case saying select emps.* on the first line is wrong the correct thing to use will be vw_emps_without_a.*.  This will make more sense as to why aliasing if JOINS where involved, this is just a shortened example.",True
+@rajeevyadav1637,2024-04-05T10:14:35Z,0,That is very helpful video for beginners big THANK YOU ALEX❤,True
+@user-zt9ki3nt8h,2024-04-03T19:15:28Z,0,"""Your positive attitude and teamwork have made a significant impact.",True
+@alielgun4342,2024-03-25T21:47:58Z,0,thank you so much!,True
+@joseraulesquivelugarte7120,2024-03-22T01:21:32Z,0,This is great! Very clear after practicing completing your same exercises!,True
+@mizerosamuel5613,2024-03-12T17:53:02Z,0,"Of all things, Aliasing is my favorite",True
+@user-ey4lp4du3c,2024-02-29T18:28:48Z,0,THANKS,True
+@ilkinnesrullayev2633,2024-02-25T10:37:45Z,0,Hi Alex. This course is very good. What kind of SQL did you use in this course?,True
+@wajidshaikh2877,2024-02-19T03:03:50Z,0,"HI ALEX SIR , HOW ARE YOU ? LOVE FROM INDIA",True
+@grandetaco4416,2024-02-16T01:04:58Z,0,"I disagree on your opinion on lettering joins. The reason being is that if my join list gets to be 5, 6, 7 tables then I have an idea of where the table is in the join list as long as I adhere to that alphabetic order. So if I see my column is in table D or E then I can quickly look down the list to find that table. The alias does not readily tell you what the table's full name and path are. What if you have similarly named tables in more than one schema? What if you are not familiar with these tables. If I letter them I can quickly figure out where in my join I put the table. I've also run into enough issues where too many of the tables are named almost identically.  I also think that putting too many letters in your alias also defeats the purpose of aliases. Aliases are there to clean up the code and shorten the column names. I can see renaming later after you've developed it, but when trying to code all of this it clears confusion as to where the join is.",True
+@user-zs9he8be6r,2024-02-09T16:22:24Z,0,really thank you for making this confusing aliasing queries looks easy ❤,True
+@dominiquepenn9477,2024-02-01T09:38:47Z,0,Thank you 😊,True
+@NK-hs7io,2024-01-07T20:46:49Z,1,"For anyone who's getting 0 as a result of FullName concatenation CHANGE ""+"" with ""||"".  Some databases use || for string concatenation instead of +.",True
+@AbdallahProgrammer,2023-12-15T02:26:52Z,0,thank you,True
+@user-tj9rc9em7u,2023-11-09T16:50:44Z,0,really helpful🔥,True
+@alrzhr,2023-11-03T14:54:56Z,0,Tip For anyone using MySQL:  use CONCAT() function instead of '+' to combine the column names.,True
+@uchindamiphiri1381,2023-11-02T13:41:23Z,0,I used that but the output is showing EmployeeID and salary without Items inside. Where did I go wrong?,True
+@akashnidgundi61,2023-10-21T16:14:08Z,1,"Just a small tip, Aliases can't be used as a filter condition in the WHERE clause. Ex: let's say you merge first_name and last_name and name the column as full_name, you cant go like, WHERE full_name like '%A' (full_name starting with A),   IT WONT WORK. but, it works with Order By. Hope it helps.   P:S Experience based on MYSQL only, not sure about others.",True
+@trubnikov,2023-10-09T13:20:14Z,0,You. Are. The. Best.,True
+@TMacandKobe4real,2023-10-08T22:15:09Z,0,Excellent stuff here!! Very easy to grasp on to.,True
+@willymwangi3865,2023-10-05T08:54:41Z,2,Thank you so much Alex for the knowledge. I am now a fast learner.,True
+@LVG992,2023-09-19T08:10:51Z,0,"Dumb question, why something like this can't work?   SELECT Avg(EmployeeSalary)  WHERE EmployeeJobTitle = 'Accountant'  AS AVG_ACC_Salary  FROM EmployeeSalary   Getting error: Msg 156, Level 15, State 1, Line 112 Incorrect syntax near the keyword 'as'.",True
+@MichaelMooreboston,2023-09-09T14:55:27Z,0,"So glad you mentioned the letter aliasing as abstract.  As I'm  someone who is trying to familiarize myself with a lot of tables in our CRM, looking at queries where letter aliasing has been done, takes a bit more time and can be frustrating at least for me.",True
+@tjinaction1577,2023-08-30T16:11:36Z,0,"5:25 I realized that you have Demo. First Name twice, i think the second one was supposed to be Demo.LaatName",True
+@ghassenhm3180,2023-08-21T13:17:35Z,0,Hey Alex i Just wanna Thank u MAN!! MY MAN!!!,True
+@elsyaif354,2023-08-20T01:41:46Z,0,Thank you Alex for your dedication,True
+@1689JeffChavez,2023-07-19T04:08:29Z,0,"On my journey through the boot camp...  Thanks for telling that using a,b, & c aliases won't give enough context.",True
+@YogeshS-wn9on,2023-07-16T14:01:02Z,1,Thank you Alex for giving such a good playlists for learning SQL in free ❤️❤️❤️.,True
+@loisbrignoli6025,2023-07-08T14:24:19Z,0,thanks,True
+@Katy809RD,2023-07-05T20:32:38Z,11,"This is not a hard subject, but confusing, at least for me. I saw a LinkedIn course on SQL and I saw aliasing there. The instructor was using ""a."", ""b."" and ""c."" and to say I was confused is an understatement! Thanks for the video! makes a lot more sense now",True
+@i.alinawaz,2023-06-16T17:35:23Z,0,"You explained really well however, the best part of the video was your database...lol",True
+@g.ong09,2023-05-23T09:02:02Z,2,"hi, can anyone explain to me why there's a bracket on the table name? is that optional or something? sorry i tried both and both works the same i'm just asking because maybe theirs a special reason behind it.",True
+@turbo72577,2023-05-16T19:20:37Z,0,This is impossible.,True
+@ComicFlick,2023-05-08T22:34:48Z,18,*Tip* For anyone using PostgreSQL- use '||' instead of '+' to combine the column names.,True
+@danielbaffoe9017,2023-04-30T14:08:45Z,1,why are they in square brackets?,True
+@naturesounds8596,2023-04-10T12:43:11Z,0,"Thanks a lot coach , i have a question if i wanna bring the data that i removed , how can i do it please  ?",True
+@anthonyd9043,2023-04-05T21:05:28Z,0,Thanks Alex!,True
+@its_comoo805,2023-03-27T17:17:41Z,0,"So I see you used + for the concatenation does || also work cos thats what i usually use for oracle sql. Was wondering if that works mssql. I am an oracle apex developer and this bootcamp is really good. I do some side analysis sometimes as the work requires but Im having more of a ""oh so this is why its this way"" moments with your tutorials. Its really great!",True
+@momohtimothy6898,2023-03-23T08:25:41Z,0,Beautiful,True
+@alaeddinmsetri4788,2023-03-16T15:11:29Z,0,Easy and helpful I like how I can organize everything the way I want now,True
+@hasibkazi1379,2023-03-10T16:22:12Z,0,how can I get the dataset for practice?,True
+@katebluhm884,2023-03-08T16:28:33Z,4,"Thanks for your videos but I do have a question. In this video the table names have brackets, like [SQLTutorial].[dbo], and I was just curious as to why? I haven't seen that in any of your earlier videos so I was wondering what the difference is. Thanks!",True
+@shokoofehheidari5345,2023-03-07T23:55:23Z,0,Thanks,True
+@abisolahawaw909,2023-02-26T22:22:11Z,3,How can I like this million times😁 Thanks for all you do Alex🙌,True
+@samuelraj5613,2023-02-10T08:37:51Z,0,Done,True
+@AmirMotefaker,2023-01-10T08:44:08Z,5,"Thanks. In the Select statement of the first line in the last two queries, I think there is a typing error. Because both are Demo.FirstName and the second entry should be Demo.LastName?",True
+@onyekachipeterpaul3397,2022-10-20T10:30:01Z,1,"Hi Alex, thanks for the video. I tried aliasing the firstname and lastname with the SELECT FIRSTNAME + '  ' + LASTNAME AS FULLNAME ON MYSQL but it gave me 0 as the FULLNAME. I checked my data types and they are VAR CHAR.. dunno what to do.. is there a different query for MySQL?",True
+@md.mahmudulhasan9272,2022-10-05T19:15:31Z,0,Thank so much Sir,True
+@tagoreji2143,2022-09-30T09:39:38Z,1,Thank you Sir,True
+@AkporHari,2022-09-30T02:52:27Z,13,"Thank you, Alex. I love how you refer to real-life on-the-job cases in your explanation.",True
+@yanivsalman9685,2022-08-06T16:50:57Z,0,How its Intermediate? it pure basic no? sorry.,True
+@hechbkee2220,2022-07-12T22:15:44Z,1,I still find this topic difficult,True
+@VizWithVictory,2022-07-10T23:54:48Z,1,"Thank you so much, Alex",True
+@lordabby7375,2022-05-20T17:08:57Z,0,"Hi Alex, thanks for this class!   Pls how can I carry out  the ""Insert operation""?",True
+@jagguesla712,2022-04-21T17:10:38Z,1,Great job!!!!!,True
+@ClementOseiAfreh,2022-04-19T16:02:59Z,0,Im going steady,True
+@jessicabeckford9268,2022-03-11T01:29:22Z,21,Not going to lie. It took me 2-3 times to watch this videos to undertsand the concept of Aliasing but I belive I understant it better. Can't wait to start ona  project to practice this concept.,True
+@mk8829,2022-03-02T22:27:44Z,0,How come in this video some of it is in brackets?,True
+@mariorivera6292,2021-09-09T17:23:17Z,3,"I am glad I am not the only one that gets frustrated when someone simply uses a single letter to define a Table alias. I thought my frustration with that was just me being a beginner. I am glad an expert, such as yourself, feels the same way. I feel better now! Great videos by the way! I am working my way down the entire SQL playlist. Are you by chance also fluent in Python and have plans to do a Python playlist in the future?",True
+@Veo87,2021-09-06T13:57:52Z,28,"At work, I've used the single letters to refer to tables and so have some colleagues of mine, but I think you make a good point that it's too abstract and gets confusing the longer the script gets.  I'm going to make sure I do it the way you suggested from now on.",True
+@shifaahmed3585,2021-08-31T12:32:14Z,2,Hey Alex. Can you please tell as to why are you putting brackets for [SQLTutorial] and [dbo]? Third line at 5:09. I'm new to this stuff. A little help please?,True
+@ankurperiwal9704,2021-07-05T00:30:34Z,0,"Been using SQL for a while - most of my collogues and I still use a,b,c as alias - Haha",True
+@arcaneknight9799,2021-02-16T01:17:16Z,28,"1:16 for anyone using MySQL:  SELECT CONCAT (FirstName, ' ', LastName) AS FullName FROM employeedemographics;",True
+@ouzeiffaissoufiidrissa9664,2020-11-03T22:10:12Z,1,"Thank you very much for these SQL courses We look forward to learning from the following I hope it will come very soon",True
+@jaeyoonjo4247,2020-10-22T06:25:26Z,17,I binged all of your SQL tutorials to give myself a refresher. I'll be eagerly waiting for your Advanced tutorials and SQL portfolio videos!,True
+@prashantk25,2020-09-25T05:48:37Z,19,"Hey Alex. Hope you are doing well. Thanks for this amazing series on Intermediate SQL. Excited to get more like these.. specifically the advanced topics you mentioned in the first video. Your demos are really quick and easy to understand their syntax, functioning and application. Thanks a lot. 😊",True
+@ritvizmittal6375,2020-08-10T19:27:24Z,4,"Hi alex, i am your  truly subscriber from INDIA !!! Always love your details analyzing of the topics. But i am Eagerly waiting for the intermediate & advance SQL videos since long....and also desperately waiting for the project .......Thanks...",True
+@moisesdiaz9852,2020-07-31T23:09:42Z,2,Awesome! Upload more videos like this!,True
+@bio-smarttechnology9560,2020-07-03T23:21:20Z,3,"Thanks so much, will you continue with the final project you mentioned at the beginning of the series 🍁",True
+@alexanderbernard7846,2020-06-08T21:55:45Z,1,"Do have any other tips or skills that are little more advanced that would be good to have. Like using Visual studio SSIS, macros in Excel or PowerBI. Basically beside from the regular SQL, Python, Excel, PowerBi is there any programs or features you use that you feel like add value to your career?",True
+@leylarzazade,2020-06-07T14:40:18Z,1,Hello. Where I can find intermediate topics in SQL?,True
+@rodrigoferretti5640,2020-06-05T01:51:52Z,1,"Cool Alex, thanks for the video!",True
+@hasnainakram1530,2020-06-04T15:00:03Z,1,"I have experience of working in SQL on Oracle DB, and some of the keywords are different between this and oracle SQL db.... does it make any difference in interview",True

@@ -1,0 +1,67 @@
+author,updated_at,like_count,text,public
+@sachamallet5157,2023-07-21T14:12:56Z,0,"Hi, I would like to know if the mac mini M2 pro with only 16gb of RAM is enough for 8Go of data analysis. Thank you so much for your feedback.",True
+@lakeguy65616,2022-11-20T18:35:33Z,0,I'd like to see a video about training a NN with X (more than 4) layers on a machine with 2 Nvidia GPUs...  I think that would make for a short but very interesting video!,True
+@FIREFULLxx,2022-10-06T02:01:01Z,0,nah esto me exede soy muy burro,True
+@sangramsinha2255,2022-07-17T12:54:16Z,0,Hi what is the best GPU u recommend to do deep learning in laptop(not PC)?,True
+@motbus3,2022-06-23T21:50:10Z,1,"19:47 it is because the optimizer takes net.parameters which, before were defined for the previous model in cpu. thats why redefining it again at 19:47 works.",True
+@Ammothief41,2021-11-12T04:39:58Z,0,Good tutorial!  I had the same fun time tranisitioning to the gpu.  autodiff fun...,True
+@jusatnk,2021-11-03T07:24:49Z,2,"Yes, don't be bashful of leaving the errors in the video. The way you debug is worth a lot and means a lot to developers. I learn more from the error fixes than the sanitized videos. Great videos, great work. Kudos.",True
+@judedavis92,2021-10-25T15:37:54Z,0,I’m sorry but your public IP address is on there. (😬),True
+@user-hw4vu3ut5v,2021-10-12T20:17:09Z,0,Excuse me The codbeof this video cant running on jetson nano devlopment kit  Can you help me,True
+@arindam96,2021-08-31T18:56:36Z,4,Just finished all the 8 videos in this playlist. Loved it. Hope you make more of these pytorch videos.,True
+@ygbr2997,2021-04-17T02:29:18Z,0,"For those who are interested, Google Colab Pro is about 112.12it/s, Sentdex here is 190. But if you're like me, not proficient enough yet to set up all these configurations in AWS or Linode,  Colab seems like a good choice",True
+@Akshaylive,2021-04-12T00:13:35Z,1,"For newer folks, you can use .cuda() or .cpu() instead of .to(device)",True
+@gmcobrazt3370,2021-03-31T12:40:23Z,0,"Hi, I face some problems with creating the data. I cannot create training_data.npy. Anyone can help me on this? thank you very much",True
+@Cnys100,2021-03-31T07:07:15Z,0,My Jetson nano is enough so far! i wonder where the limit goes?,True
+@shreyjoshi4891,2021-03-10T03:37:06Z,0,I trained on cpu and got 81% test accuracy after 3 epochs lol,True
+@sebastianm3505,2021-03-07T00:46:37Z,0,"Hey, can you help to turn simple python code checking if given big number is prime into cuda using code?",True
+@jamals211,2020-12-27T17:02:17Z,0,"Basko Boshkov is the name you could not pronounce. Also, thank you for posting these vides and the code. This has been a life saver",True
+@live_peacefully_in_canada,2020-11-08T01:16:39Z,1,"7:23, train on CPU, 7 iterations per second.  32:02, train on GPU, 190 iterations per second. My GTX 1650 (4G VRAM) is only 70 iterations/second. :(",True
+@wessel21,2020-11-04T12:29:43Z,0,The name of the 3rd new member is: Vasko Boshkov,True
+@nandkishoreswami1267,2020-08-24T09:03:08Z,1,"How can I get this design/interface for jupyter notebook, mine doesn't look like this",True
+@pranavkushare5109,2020-07-29T17:51:21Z,0,Don't know why my loss remains constant it's neither decreasing nor increasing,True
+@TheShubham67,2020-07-12T13:24:49Z,0,loads of love to you Man!!!!,True
+@Chocolatesoda31,2020-06-11T23:29:44Z,0,"For some reason, if you run a test before you run a train (assuming you arent saving the net and yet), it has the issue of the same loss every time and the same accuracy when you test next",True
+@joacoalxis,2020-06-06T17:38:10Z,0,"Your videos are awesome, I have learned a lot",True
+@yashsanjeev8480,2020-05-10T20:58:48Z,0,Does anyone know what went wrong at 19:32  as my model also shows no change in loss regardless of how much I train,True
+@bambinodeskaralhes,2020-04-27T22:33:20Z,1,"Please, How does the forward method of my model could perform parallel calculations when I send a batch tensor to it ?",True
+@openroomxyz,2020-04-05T17:07:32Z,0,"I was running on GPU RTX 2080 Ti.  Around 2 seconds per epoch  Epoch: 0. Loss: 0.22175484895706177 td = 2.048767328262329 Epoch: 1. Loss: 0.1753038465976715 td = 2.056610345840454 Epoch: 2. Loss: 0.14969609677791595 td = 2.053440809249878 Epoch: 3. Loss: 0.16144011914730072  on CPU it did took much longer around a minute per Epoch! Epoch: 0. Loss: 0.21895726025104523 td = 68.0236120223999  Epoch: 1. Loss: 0.20025776326656342 ​   But the strange thing is that the memory usage wen't up, but the utilization of GPU was just 2%. Is windows Task Manager  GPU Utilization showing a wrong number.",True
+@openroomxyz,2020-04-05T16:24:27Z,0,"if torch.cuda.is_available():     device = torch.device(""cuda:0"")  # you can continue going on here, like cuda:1 cuda:2....etc.      print(""Running on the GPU"") else:     device = torch.device(""cpu"")     print(""Running on the CPU"")   I get Running on the GPU. But when i look GPU usage, i see only only CPU usage rise up when training.",True
+@martinmartin6300,2020-04-04T18:32:56Z,0,"Hey I'm very eager to know whether your inner training loop (""for example in batch"") is actually parallelizrd on your GPU or how to achieve this. Otherwise, you probably waste some resources as your GPU has to hold while you switch in your CPU to the next example in batch as it is done on CPU I suppose? Especially when the GPU has more computing units than are needed for calculation of a layer you could do multiple layers in parallel on GPU which means that you actually need to throw multiple examples of a batch at the same time on your GPU.",True
+@anmolmonga1933,2020-03-31T20:17:16Z,0,If you have parts of the model on different GPUs is it possible to backpropagate and train the model in pytorch? I am shifting from TensorFlow to pytorch,True
+@mostafashahhosseini3378,2020-03-03T13:08:09Z,0,"All your efforts are deeply appreciated. but this video could be focused and summarized in one sentence: ""net.to(device)"" moves the model weights to GPU, just add it to your code! However, you forgot to tell it as the main point that What does this function do? :) anyway. Thanks a lot.",True
+@famke2604,2020-02-28T10:39:16Z,0,"Hi, thank you for this series! I'm wondering why mine prints the torch.Size([128,2,2]) like a million times when running train(net) and test(net)? I have the exact same code as you (I think) but yours only has the progress bar (which i semi have since it prints every percentage on the bar as a new line). Do you know what's going wrong?",True
+@ironmantooltime,2020-02-23T23:21:57Z,0,"hmm why don't my tqdms match yours *sob* - other than that and the 3 days it took me to get this working on Linux after my Windows install barfed at loading torch, great! :D",True
+@serix_16,2020-02-22T11:56:20Z,0,Man gawd you are amazing! Thank you very much for these series!,True
+@shadowzabyss,2020-02-04T00:32:51Z,0,2:16 I have no such directory... WHy?????,True
+@jessewang3330,2020-02-02T06:57:22Z,0,It seems Linode doesn't have jupyter notebook installed? We have to run python script to train models?,True
+@vhchuong1997,2019-12-02T06:25:51Z,0,"Hello guys, I'm trying to load a pretrained model trained in pytorch 0.3.1 - which is pretty old and some syntax is not the same with the new pytorch tutorial. If anyone knows how to load and yield product from pretrain model in pytorch <= 0.3.1 please kindly show me the way to do it. Thank you!!!",True
+@l1legendx,2019-11-26T18:00:24Z,7,Your python programming projects are like real fun Lego sets!,True
+@DemonSlayer627,2019-11-19T16:53:12Z,18,You can now do .cuda() directly or .cpu(),True
+@slinky7355,2019-11-15T03:12:05Z,0,PuTTY is a good free SSH too,True
+@Sunlight91,2019-10-30T21:21:34Z,0,I have a GTX 1070 and noticed with 50x50 images CUDA utilization reaches only 80%. With 100x100 images CUDA utilization reaches 90%. Is the net too small to utilize the entire GPU? Accuracy was just 3-4% higher with 100x100 images.,True
+@d1rtyharry378,2019-10-23T18:55:04Z,0,is 6GB GDDR6 NVIDIA GEFORCE GTX 1660ti okay.?,True
+@ronrocks4819,2019-10-21T15:04:10Z,1,Hey can anyone help me in converting to a GPU I have a gtx1060 6gb. I did what this tutorial said but Iam getting the error  torch_c module doesn't exists,True
+@greatgamedota,2019-10-19T02:47:29Z,0,Quick question: If you are working on a cloud based notebook that automatically connects pytorch to a gpu do you still need to send tensors to the device?,True
+@CanerTrksln,2019-10-16T22:09:33Z,0,"Hello, first of all thank you very much for this series. My system is Ubuntu 19.04, ryzen 5 1600 cpu, amd rx580 8gb(GFX8). I  installed rocm but have no idea how to run it with pytorch and your codes :( Any suggestions?",True
+@knabbagluon,2019-10-14T13:57:08Z,0,Btw. In Udacity is a deep learning challenge: https://www.udacity.com/aws-deepracer-scholarship Maybe you can try it. I'm swamped with work so I'm can't unfortunately ;(,True
+@damianshaw8456,2019-10-13T03:50:00Z,1,"Having a lot of fun with this tutorial! Program python professionally and do a little data analysis and basic machine learning, but never got in to neural networks. Have a creeky Dell XPS 15 from 2017 but turns out the I can get Pytorch to run on it's 2nd GPU (where nothing is usually happening anyway) and run 5x faster than the CPU!",True
+@learncse,2019-10-12T15:26:44Z,0,Please put the link to your playlists in the description it helps us to get it shortly,True
+@vaggelisromas,2019-10-12T07:38:07Z,0,Great content once again. 👏 What is the theme you are using on jupyter?,True
+@billfujimoto5905,2019-10-11T20:48:27Z,2,"Once again, great tutorial!  I was trying to figure out the GPU myself but I was missing the net.to(device) method.  Once done, it was golden!  The improvement was almost 50x my laptop speed which was awesome, keep up the great work, you have a gifted mind for this stuff. You may already have this planned for a future episode, but saving the trained model worked easily as well:   # Save trained model parameters torch.save(net.state_dict(), ""./Models/net_7.pt"")    # Load saved model parameters  if torch.cuda.is_available():     net.load_state_dict(torch.load(""./Models/net_7.pt"", map_location=torch.device('cuda:0')))  else:     net.load_state_dict(torch.load(""./Models/net_7.pt"", map_location=torch.device('cpu')))",True
+@carterhale3223,2019-10-11T18:23:54Z,2,"hey, so i'm using your python GTA V ai tutorial as a basis for me making an ai to play halo CE.  How can I do the edge detection thing for another player?",True
+@shubhamgoel1624,2019-10-11T18:07:17Z,0,Please make a video on how to install tensorflow-gpu with cuda and cudnn,True
+@wolfisraging,2019-10-11T17:44:36Z,37,Google colab lets you use Tesla GPU for free........ Everyone should check it out,True
+@abdulrashid1621,2019-10-11T17:42:22Z,3,That sad moment when you were finally going to join the channel buy your debit card is not supported by you tube . The content is super informative as all your videos will find a way to support you soon,True
+@chris-graham,2019-10-11T16:49:54Z,0,putty,True
+@barbellbender4232,2019-10-11T15:54:48Z,3,"File this one under 'tech expert is done with this f@¤king bull&(/t , but keeps it together for the video'   Good stuff thought ! Keep 'em coming",True
+@chandrashekarreddy1221,2019-10-11T15:39:16Z,8,Please make a tutorial on transfer learning 🙏🏻🙏🏻,True
+@bryancann8988,2019-10-11T15:38:03Z,1,There is nothing simple as seeing Sentdex and hit 👍 btn. Alway amazing content.,True
+@its-tony,2019-10-11T15:34:48Z,1,"Great video, thanks for the mention. I have learned so much watching your ML video series. Do you think you may touch on PlaidML in the future?",True
+@mahmoudabdelsattar8860,2019-10-11T15:08:27Z,0,"Keep it up ,  Right now involved in machine learning and data silence diploma , so i need to see more pythons vids  related to this topic with application not how to write python codes as basics.  im senior java /PlSql developer so i can keep up with you if you begin advanced OOP in python related to ML Apps. and thanks for your effort on teaching python,.",True
+@shinde_rohit,2019-10-11T15:07:53Z,0,They have included Flatten layer in Pytorch 1.2.0 i guess. see here https://pytorch.org/docs/stable/nn.html#flatten,True
+@caitlingibbons2246,2019-10-11T14:59:31Z,10,Quick note: PyTorch 1.3 was released very recently.,True
+@pradeepkumar-qo8lu,2019-10-11T14:59:20Z,0,Does tensorflow 2.0 give this level of fine grained control ?,True
+@Planatification,2019-10-11T14:41:02Z,4,Thanks! OMG I've learned so much from you man.,True
+@shahzerbaig1397,2019-10-11T14:24:27Z,0,Hey buddy,True
+@brightsideofmaths,2019-10-11T14:20:07Z,1,Thank you very much for this series :),True

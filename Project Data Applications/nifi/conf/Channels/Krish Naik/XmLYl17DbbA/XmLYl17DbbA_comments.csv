@@ -1,0 +1,128 @@
+author,updated_at,like_count,text,public
+@tejateju6303,2024-05-24T07:10:13Z,0,"The video explains the concept of dropout layers in deep neural networks, which helps prevent overfitting by randomly deactivating a subset of neurons during training.   Key moments: 00:00 Artificial neural networks with many weights and bias parameters can lead to overfitting issues, dropout regularization helps prevent overfitting by randomly dropping units during training.           -Explanation of overfitting in deep neural networks due to excessive parameters and the need for regularization techniques like dropout.            -Comparison between underfitting in single-layer neural networks and the role of multiple layers in preventing underfitting in deep neural networks.            -Introduction to dropout regularization as a technique to prevent overfitting by randomly dropping units during training, with a reference to the 2014 thesis by Srivastava and Hinton.  03:54 The video discusses the concept of dropout layers in neural networks, where a subset of features or neurons are randomly deactivated during training to prevent overfitting and improve model generalization.           -Explanation of how dropout layers work in neural networks by randomly deactivating a subset of features or neurons during training to improve model generalization.           -Comparison of dropout layers in neural networks to the concept of selecting subsets of features in random forests to create diverse decision trees for better model performance. 07:25 Dropout layer in neural networks randomly deactivates some neurons and activates others during training to prevent overfitting, similar to random forest's feature selection and majority voting. Test data connects all neurons without deactivation or activation, using weights multiplied by dropout probabilities for prediction.           -Comparison of dropout layer with random forest for feature selection and majority voting to prevent overfitting in neural networks.           -Explanation of how test data is handled in dropout layer, connecting all neurons without deactivation or activation, and using weights multiplied by dropout probabilities for prediction.           -Selecting the dropout ratio (p-value) through hyperparameter optimization to prevent overfitting in deep neural networks, with a recommendation for p-value above 0.5.",True
+@sauravkr.mahato,2024-05-02T13:27:41Z,0,how simply he explained it .,True
+@RajeshRajesh-sh7zj,2024-04-14T14:25:27Z,0,"In the next iteration, will the deactivated neurons get activated randomly???",True
+@sameerherkal9205,2024-04-13T14:16:58Z,0,"Hi @Krish,  I got asked in an interview, what if we remove one hidden layer instead of DropOut, wont it be good to remove one Hidden Layer instead of DropOut,  Can you please help me with the Answer.",True
+@shahariarsarkar3433,2024-04-05T09:53:59Z,0,Please suggest a good reference book for Deep learning.,True
+@ebisaabebe615,2024-03-22T07:25:56Z,0,"I am Msc. student from Ethiopia, Really to tell you the fact I have learnt a lot from your videos. May God bless your mind!!",True
+@anonim5052,2023-12-24T15:22:11Z,0,great!!!,True
+@nikhithabalijepalli9838,2023-12-14T17:36:28Z,0,krish naik you look like tharun bhascker (keeda cola),True
+@arohawrami8132,2023-12-09T09:05:46Z,0,Thanks a lot Krish for your best explanation.,True
+@ParthivShah,2023-08-28T18:50:01Z,0,thank you sir.,True
+@adityashewale7983,2023-07-24T05:43:44Z,0,"hats off to you sir,Your explanation is top level, THnak you so much for guiding us...",True
+@nikhilesh255,2023-05-26T06:06:35Z,0,"Sir if we're dropping some input and also hidden layers,  It will not affect our output?  Mean correct predictions",True
+@lol-ki5pd,2023-04-08T10:00:12Z,0,"just a question . during back propogration, for each neuron we get updated weights. Now when we back propogate to starting, and again random starting feature points are chosen, what happens to back propogated weights?",True
+@koushikkonar4186,2023-03-08T20:24:29Z,0,"Hi, In this video, when we are going to apply for test data...what will be the weight of deactivated neurons",True
+@pedramdabaghian1329,2022-12-03T19:07:29Z,0,Thank you. It was so helpful.,True
+@firstkaransingh,2022-11-29T13:25:28Z,0,Great explanation 👍,True
+@shivangirastogi9723,2022-11-10T06:17:03Z,5,Thanks for putting your efforts in making these in-depth videos which clarifies concepts in detail. Your videos are helping students like me who are very new to the ML and AI field.,True
+@mgreek31,2022-10-10T13:00:46Z,0,The effort in these Videos !!! Thanks Krish !!!,True
+@VidyaranyaSaiNuthalapatiNSV,2022-09-12T10:34:55Z,0,"I think there is a mistake in the explanation when dealing with test time. If p is the probability of dropping a neuron, then the weights should be multiplied by 1-p during test time",True
+@joseguilherme5008,2022-08-28T21:25:50Z,0,Great video 👏,True
+@RanjitSingh-rq1qx,2022-08-26T17:32:05Z,2,"I watched 10 videos but yet i didn't code anything, but i am sure whenever I will code. I will be perform in more clearly.because these are videos are focusing on more basics and defining the more depth of ANN. Thank you so much sir. 🥰🥰😘🇮🇳🇮🇳",True
+@bhushanbowlekar4539,2022-07-21T11:45:50Z,0,guys please note that .....If you're dropping neurons or activation functions at the rate of p then 1-p will be multiplied at test phase.,True
+@pranjalijoshi6114,2022-06-30T07:49:06Z,0,your all videos are very useful ...thanks alot for this good work,True
+@franciscochacon1194,2022-04-29T14:21:18Z,0,You speak so fast that is difficult to follow you,True
+@mdmynuddin1888,2022-03-22T08:49:39Z,0,Can you or anyone  please provide the thesis or research paper link,True
+@abdulqadar9580,2022-03-10T10:18:32Z,0,Amazing Sir,True
+@Amanullah-lt6fq,2022-03-07T02:04:24Z,0,"I am watching your videos from few months and I learned a lot, your channel deserve subscription, I subscribed your channel",True
+@tag_of_frank,2022-03-04T14:18:56Z,0,This sounds more like stochastic optimization than regularization.,True
+@chaoxi8966,2022-03-04T07:01:38Z,0,"Hi, Sir. I would like to know in each epoch of training, does dropout have relations to batch_size?",True
+@pankajverma-sw9oz,2022-02-16T05:37:34Z,1,i was alwasy confuse about  deep learning beacuse of u i got clarity,True
+@rahul-wz7rn,2022-01-27T07:27:47Z,0,if we apply drop out ratio is there any chance that the features which are selected first time get selected in second time..or new features get selected.,True
+@smarthbakshi7041,2021-12-09T14:57:37Z,0,This man makes ML a cakewalk!,True
+@snehalbm,2021-11-09T11:41:45Z,7,"You are the mentor every aspiring data scientist needs, Thanks!!",True
+@vantuannguyen4337,2021-10-25T11:54:05Z,0,i really love your energy,True
+@michaelloturco5584,2021-10-17T04:10:55Z,0,Thank you for this excellent explanation! could you link the original research thesis you mentioned? (or maybe i'm just not finding in description),True
+@wajidiqbal5633,2021-10-03T21:27:06Z,0,very well explained. thankyou,True
+@pawansharma-ij7kg,2021-10-03T13:39:45Z,0,Nice Explanation,True
+@gouravdidwania1070,2021-09-01T10:01:21Z,1,p=0.7 so 0.7 will be selected or 0.7 will be dropped out?,True
+@spadiyar6725,2021-07-28T16:13:18Z,0,you have not explained why everything will be connected for test data. you explained the calculation after connected. but i would like to know why everything connected? what happens if we use dropout for the test data.,True
+@Fatima-kj9ws,2021-06-12T17:34:43Z,1,"Great explanations, thank you very much sir",True
+@milanbhandari9933,2021-06-11T02:37:06Z,0,jpt,True
+@adityagamingchanneltv9041,2021-05-24T06:13:52Z,0,Your lectures are superb,True
+@louerleseigneur4532,2021-05-12T09:26:24Z,0,Thanks Krish,True
+@ameygirdhari8703,2021-05-02T12:23:37Z,0,simple and clear explanation,True
+@absolutelynobody3837,2021-04-26T09:56:25Z,0,Wouldn't the weights in testing be w(1-p) rather than wp?,True
+@TheSougata1,2021-04-24T07:33:19Z,0,Sir all weights will be updated as (P*W) while testing data or the P value will be updated as (P*W) ? Please clear this.,True
+@ftt5721,2021-04-18T14:39:24Z,0,there is a sound of bell in the background continuously,True
+@vaibhavhariramani,2021-04-10T18:33:15Z,0,I just have a little query if we keep activating and de-activating neurons while training   doesn't it cause overfitting when testing with all neurons activated at once which were trained in some different combinations during training,True
+@elmoreglidingclub3030,2021-04-08T14:39:28Z,1,Great stuff.  But I have to listen several times to understand given our different dialects.  Much appreciation for your work and explanations!!  Excellent!,True
+@zohaib386,2021-03-30T19:44:11Z,0,Alla👌👌,True
+@AbdulRehman-hg9es,2021-03-18T06:43:25Z,1,Great effort Krish! I like your passion. I have a one confusion about drop-out ratio. Why are you using drop-out ratio of 0.5 for input layer ? According to my knowledge that should be higher (i.e 1.0 or 0.9).,True
+@jeevanaddepalli5494,2021-03-08T10:42:33Z,2,I think during test time we should multiply the weights with keep probability value = (1- dropout rate). Intuitively keep probability means how many % of times we have used that weight or edge or connection to train our NN. please correct me if i am wrong Krish sir.,True
+@babbarutkarsh7770,2021-03-07T16:41:59Z,0,Can there be a better explaination? Simply perfect!!,True
+@davidhakobyan6377,2021-01-17T21:54:54Z,0,You explain very good! Thank you!,True
+@sukumarroychowdhury4122,2021-01-07T23:48:40Z,0,Krish: You are the very best trainer,True
+@swastikpathak4669,2021-01-05T04:29:50Z,0,Krish Naik: that's like the coolest name,True
+@samyakjain8079,2020-12-26T15:44:54Z,1,"x0, x1,x2 should not be dropped -- according to Andrew ng",True
+@umarsadique7166,2020-12-14T06:41:04Z,0,How to find dropout layer ratio for my model???,True
+@MrBemnet1,2020-12-05T02:54:10Z,0,good content but no intuition on why we divide and multiply by p,True
+@marijatosic217,2020-11-09T19:15:16Z,0,Great as always! Thank you :),True
+@nandinisarker6123,2020-10-22T22:06:41Z,0,"I found it extremely useful, easier to understand than many known experts",True
+@AKHILESHYADAV-ig7uv,2020-10-03T05:49:42Z,0,It's really very good lecture series,True
+@vishalaaa1,2020-09-28T20:17:19Z,0,"Hi, You did not explain how the exploding problem can be corrected - is it through Same RELU ?",True
+@anindyabanerjee743,2020-09-28T19:49:36Z,0,krish..you make my life easier,True
+@mohd.faizan3003,2020-09-28T05:20:40Z,0,Sir I have a doubt that when the neurons are randomly selected base on p value then for next epochs from which neurons the random selection which will performed activated ones or all of them,True
+@parthpatadiya9197,2020-09-17T14:36:20Z,0,what is inverted dropout???? it is used in backprop but idk how and why it used . this topic is discussed in Andrew ng class but i cant understand can you pls make a video ? and pls discuss how it will affect in layers dimensionality . link of the Andrew ng video : https://youtu.be/D8PJAL-MZv8,True
+@shashwatdev2371,2020-08-29T13:42:53Z,2,I have a doubt - On every iteration drop out ratio of any particular layer remains same or not? If not then do we take average to multipy with weights for test data ?,True
+@manishsharma2211,2020-08-28T08:20:52Z,0,Wherw is the research papaer ?,True
+@fahadrahmanamik7190,2020-08-26T05:52:34Z,0,https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf,True
+@grace30,2020-08-21T08:46:57Z,3,Really Like the way you explain! I have just completed Udemy Bootcamp and you are definitely reinforcing what I have learned. Keep up the good work!,True
+@suyash.01,2020-08-16T08:46:35Z,0,helpful!!,True
+@shosad100,2020-08-12T05:42:40Z,1,"Krish Sir you are my favorite Teacher...your lessons and explanation's are simple and easy to understand , me like B grade student also can understand the concepts. Thank you Sir.",True
+@theforgottenhealth3244,2020-08-08T08:55:06Z,1,Great service. Amazing Explanation!!,True
+@alakshendrasingh3425,2020-08-07T16:01:07Z,1,2:17 Your favourite's name has an spelling error. It's Geoffrey Hinton . Btw nice video.,True
+@Schneeirbisify,2020-08-04T14:33:51Z,1,"Great work and explanations. Thanks a lot. However why to put 3-4 ads section on each video, and to make these ads double? Really really disturbing and breaking concentration. Understand, you want to earn money for the work, you could divide video explanation and put ads there so it will stop popping up in the middle of topic explanation!",True
+@9971916866,2020-08-02T13:40:58Z,2,"Thank you Krish for the video, this is excellent!! One question, drop out will be applied at each epoch, then how does it combine the results from all the epoch?",True
+@commonboy1116,2020-08-02T03:46:44Z,0,Super,True
+@palashchanda9308,2020-08-01T14:58:15Z,0,Can you please provide link for the Machine Learning playlist?,True
+@debopamsengupta4409,2020-07-30T15:22:18Z,0,"Hi Krish, great work, real smooth and informative explanation",True
+@gooopin,2020-07-20T13:16:42Z,2,Thanks for the sessions... These are precise and organized...,True
+@shubhamchauda425,2020-07-16T08:40:48Z,0,i have a question. we have to add different drop layers for different layers or we have to add once for all layer ?,True
+@paullan-learning-read-dev7040,2020-07-15T00:06:44Z,39,Thank you. Much easier to understand than the one by Andrew Ng.,True
+@pranjalgupta9427,2020-07-12T04:27:33Z,1,Amazing explanation but what happen if p=0 Or p=1?,True
+@sharadkolse6871,2020-07-09T12:29:38Z,0,Best explained:),True
+@pankajkumarbarman765,2020-06-21T03:31:17Z,0,Sir you are great 💖,True
+@manjularathore1076,2020-06-19T13:09:45Z,1,"Hi Krish, Thanks for making such nice videos and excellent explanation.  Finally I have found somethingl I was looking for better understanding of deep learning.",True
+@adityachandra2462,2020-06-11T18:41:11Z,1,"P-value in drop rate section of the middle layer would be 0.6 ( blocking 60% instead of 0.5 ( single value of 1.0 means no dropout and value of 0.0 is full dropout or no output from that layer)......u keep on repeating that, plz rectify it",True
+@shivanggupta8865,2020-06-11T07:51:12Z,0,Sir how will machine comes to know that which feature to keep and which to remove during dropout,True
+@vikshukla44,2020-06-02T15:15:21Z,0,"Sir you are amazing! , you have cleared everything.",True
+@maddybharathi,2020-05-30T08:35:42Z,0,You have a knack of making things short and simple  and easy to grasp :),True
+@anujeetswain7368,2020-05-28T19:15:48Z,2,This deeplearning series is extremely good.,True
+@dnakhawa,2020-05-20T13:54:49Z,0,You teach very well... Gr8 stuff about Data Science in your channel. Thanks Harish!,True
+@ketanchaudhari5642,2020-05-06T16:30:56Z,0,"hello sir  just want to ask  during dropout we will drop few neurons  and at the time of testing we will connect them all and will update weights of whole network as (W*P) but what are the weights of drop neurons should we take W=1 for drop neurons",True
+@kuskargupt2887,2020-04-26T16:48:05Z,0,"Sir as we are randomly selecting some features or neurons, then those are being updated according to that set of neurons in that particular FP and BP, so how come the model is going to predict the right answer when all the neurons are activated together for Test data as we have trained the weights of the neurons when there where less number of the activated neuron, like how, the model will sum up all the weights to give the right prediction(with least error).",True
+@sandipansarkar9211,2020-04-16T09:47:48Z,1,Hello Krish.Came to know about the use of random forest in deep learning.Thanks,True
+@urwahmunir9636,2020-04-10T22:59:45Z,1,"Extraordinary teaching style step wise.You made all my concepts clear , Can you please add some practical implementation of neural network models in which all these techniques can be used. like dropout, loss function , learning rate , regularization , optimizer in one model implementation..Thanks in advance...",True
+@fthialbkosh1632,2020-04-03T09:36:41Z,0,"Thanks a lot, sir, very good explanation.",True
+@smitirashmiguru7649,2020-03-30T08:54:59Z,3,Love the Deep Learning Series. Great Learning !!,True
+@Adinasa2,2020-03-29T15:44:46Z,0,How do we determine the value of p,True
+@debasispatra8368,2020-02-13T02:48:29Z,0,"Krish i have a doubt. Suppose i have 5 inputs & 5 neurons in my 1st hidden layer. In training time, i have given drop out ratio as 0.5, & due to this suppose 2 inputs & 2 neurons got deactivated. In this case now we have 3 i/p & 3 neuron left, so 9 weights we have to train. But at testing time we have to multiply 'p' value with 25 weights as testing time all i/p & neurons exists. So how to do this?",True
+@anujsinha12,2020-01-29T12:15:12Z,0,"Hello @Krish Naik, You mentioned in Video that for test data w should be multiplied by P.  Do we need to write a code for that in Model ? Does it happens aromatically?",True
+@vishalvaibhav9697,2020-01-20T14:37:40Z,4,"Hello Krishna, first of all thanks you so much for the videos as lot of my queries are getting cleared up by watching your videos. I have a better understanding of Neural Networks now with all the maths behind it. I have one query though for this particular video : What is Batch Normalization in Neural Networks and how does it help in preventing over-fitting problems in a neural network?",True
+@forever-fz1hk,2020-01-14T17:19:57Z,27,"krish sir just one thing to say...i too teach myself sometimes to school children,the thing is the effort you are putting in making these videos at free of charge is commendable...May god bless you sir..I am gaining confidence too after seeing ur videos and and thus becoming a data scientist",True
+@Aliabbashassan3402,2020-01-13T20:19:48Z,0,thank u from Iraq .. Good Job brother,True
+@prasantimohanty6750,2020-01-08T15:52:59Z,1,I have a doubt. In test data which neurons are not activated we are doing p*w but which neurons are activated what will we doing in that case?,True
+@amitghodke838,2020-01-06T12:02:56Z,0,Can you explain how it is helping to avoid overfitting problem.,True
+@priyasingh-zd1wm,2019-12-30T20:39:17Z,0,Such awesome content and explanations!!!,True
+@karndeepsingh,2019-12-04T14:59:39Z,0,"Sir, a small doubt.... DROP OUT RATIO FOR DIFFERENT LAYER WOULD BE DIFFERENT OR IT WILL BE SAME FOR ALL THE LAYERS?",True
+@uncommon_common_man,2019-11-17T09:53:10Z,0,how can we say that the model is underfitted or overfitted,True
+@zx3215,2019-11-14T11:54:04Z,1,In your sketch - did you really drop a couple of inputs out? Is this allowed in dropout approach?,True
+@gopalakrishna9510,2019-11-10T19:19:15Z,0,sir i think your enjoying this teaching  ?   your expressions indicating you are enjoying the teaching ...,True
+@gauharahmad2643,2019-11-02T22:05:33Z,0,"Sir, please provide the thesis paper link.",True
+@krishnakanthbandaru9308,2019-10-31T10:11:00Z,0,"sir if in train we drop the x2 and x4 features we won't get weights then while testing how those weights(Unknown) get multiplied with drop out ratio. I did not get that ,please explain ..",True
+@AmitYadav-ig8yt,2019-10-18T15:50:41Z,5,"Thank you very much, You have been an angel for me. Please upload a video on the theory part of SVM, K-Means or other unsupervised ML. Thanks a lot once again. Hari Om",True
+@vipindube5439,2019-10-09T21:48:09Z,0,thank you,True
+@JpNaN,2019-10-04T09:12:32Z,0,i thought that you are one of AAIC student. you are explaining copy of them.,True
+@venkataduri5790,2019-09-28T06:35:50Z,0,what is regularization.,True
+@venkataduri5790,2019-09-28T06:33:55Z,0,what is underfitting and what is overfitting.,True
+@venkataduri5790,2019-09-28T06:29:28Z,0,What is L1 and L2.,True
+@VamsiKrishna-vg6vd,2019-09-24T14:17:33Z,1,"For training data suppose we are ignoring few features and neurons as per the drop out ratio and calculating the weights and with back propagation v r updating the weights. In the second step another set of features and neurons are selected randomly, Now if we are again calculating the new weights that doesn't make sense rights as this will keep on repeating with  different random combinations.... Please correct me if I am wrong...Thanks in advance.",True
+@shiffin_chippe,2019-08-28T15:38:19Z,6,So when the neurons are reactivated what are their weights?,True
+@midhileshmomidi2434,2019-08-24T16:23:27Z,1,"Hi Sir, I have a doubt. If we take p=0.5 half of the features which will be deactivated at 1st epoch will be reactivated in 2nd epoch and same goes on for other features in upcoming epochs as well Please explain",True
+@manikosuru5712,2019-07-30T06:14:37Z,2,"Hi sir, Amazing explanation.. small doubt.. while multiplying 'p' value with weight 'w' for test data,do we include(add) bias value with input??",True
+@hokapokas,2019-07-28T06:15:25Z,1,Good work as usual krish... Awaiting its implementation 🙏🙏,True
+@laxminarasimhaduggaraju2671,2019-07-26T17:32:41Z,10,Just I can see ur face is full of happiness when u  explains a concept I guess u r like 🙏🙏,True
+@aakashnishad7048,2019-07-24T18:14:31Z,2,Thanks Krish,True
+@shaz-z506,2019-07-24T15:12:13Z,18,"That's the good video Krishna, I never thought about the random forest playing a similar mechanism when the first time I was studying dropout. good, you've cleared my concept with this video. Thanks!",True

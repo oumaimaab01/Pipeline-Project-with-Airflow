@@ -1,0 +1,2 @@
+author,updated_at,like_count,text,public
+@JeffLarkin,2014-07-31T18:01:16Z,1,"Nice job on these tutorials. To be a bit more precise: the size of comm_world is the total number of processes that you've launched, which is not necessarily the same as the number of nodes. You can also create subcommunicators that are only some of your processes in the world communicator, so the size of that communicator would be even smaller.",True

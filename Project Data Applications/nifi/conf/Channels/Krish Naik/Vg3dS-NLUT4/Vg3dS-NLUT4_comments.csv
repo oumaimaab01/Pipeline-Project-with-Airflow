@@ -1,0 +1,95 @@
+author,updated_at,like_count,text,public
+@nareshmalviya3100,2024-05-28T12:53:23Z,0,When i load the model. I facing error config.json not appear. And my model saved adapter_config.json  Please provide solution.......,True
+@fl028,2024-05-25T09:40:20Z,0,"Hi everyone,  I have a question about data preparation and fine tuning of LLMs. What should the data format look like in the fine tuning process? On the one hand, it can be pure text to add special knowledge to the LLM. On the other hand, the data set can be structured in question and answer / prompt and answer format.  What do you think? Do you have any recommendations for me?   Thank you and best regards!",True
+@sayantikachatterjee5032,2024-05-19T14:49:38Z,0,"why we set  fp16=False,     bf16=False in training_arguments = TrainingArguments() ?",True
+@jadedboy-kx3vm,2024-05-18T10:27:21Z,0,How can i get my model in gguf format?,True
+@sanjaykrish8719,2024-05-11T08:13:30Z,0,You are a gem ❤❤,True
+@saqibmumtaz9380,2024-05-10T17:01:41Z,0,"Please also make a video on mathematical concepts and the intuition behind the LLMs. Already subscribed and liked the video, as you are doing an amazing job.",True
+@oxydol3456,2024-05-10T12:13:11Z,0,it's working as charm wow.,True
+@ramankhanna9526,2024-05-09T17:14:44Z,0,"thanks for the video , it would be better if u can show documentation side by side with ur testing plz",True
+@sanket9871,2024-05-09T16:27:39Z,0,How can I save the fine tuned model locally?,True
+@ArunkumarMTamil,2024-05-04T12:37:05Z,0,how is Lora fine-tuning track changes from creating two decomposition matrix? How the ΔW is determined?,True
+@AppleFlickFix,2024-05-01T13:31:42Z,0,"Hi folks, can anyone help? he had taken from the hugging-face for the final demonstration of the output but we need to test the fine-tuned model right?",True
+@PranavBaviskar,2024-05-01T05:39:33Z,0,Thanks for the video. Could you please create an end-to-end implementation video where you use Streamlit and local CPU?,True
+@teksinghayer5469,2024-05-01T04:32:52Z,0,you have used maximelabonne notebook without giving this man credit,True
+@SyafieWork,2024-04-29T14:21:50Z,0,"If I am using langchain, can i still use this method?",True
+@nimesh.akalanka,2024-04-27T07:48:41Z,0,"How can I fine-tune the LLAMA 3 8B model for free on my local hardware, specifically a ThinkStation P620 Tower Workstation with an AMD Ryzen Threadripper PRO 5945WX processor, 128 GB DDR4 RAM, and two NVIDIA RTX A4000 16GB GPUs in SLI? I am new to this and have prepared a dataset for training. Is this feasible?",True
+@ashishanand1466,2024-04-23T08:51:24Z,0,"after fine tuning u might not get <EOS> that is modal sodent know how/when to end it can be solved by   tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True) tokenizer.add_bos_token = True tokenizer.add_eos_token = True tokenizer.add_pad_token = True tokenizer.pad_token = '<pad>' tokenizer.padding_side = ""right""  thanks sir for this tutorial",True
+@TechKnowledgeForYou780,2024-04-21T05:36:12Z,0,"Hi Sir, Thanks for the information. Could you please share that pdf(Parameter - Efficient Transform learning for NLP).",True
+@vishalaiml1649,2024-04-20T17:03:58Z,0,"Hi Krishnaik, can you please create a Series on securing LLM responses, and Guardrails as it is burning topic now a days. Sincere Request.",True
+@dipali5562,2024-04-17T09:28:57Z,3,buy 4bit quantization don't u think we will be loosing information ?,True
+@Hizar_127,2024-04-11T15:43:40Z,0,I have a 50k sample dataset i want to fine tune the model.. can i do with this code ??,True
+@raghuvallikkat3384,2024-04-07T13:18:13Z,0,"Hi Krish, Hi ,  I want to fine tune a code generator model with our organisational data specific to embedded Software. code generated should be  specific to the chipset we are using. I was thinking of using starcoder/CodeLLAMA as a base model and fine tune with QLORA. But I dont have  much clarity of the format in which I should prepare the custom data set. Can you please help on this. Will joining the group with subscription will help to get some 1:1 guidance",True
+@user-xn3ir2yc6m,2024-04-04T11:45:40Z,0,"hi everyone, can anyone help very quickly  print(res[0]['generated_text']). it gives us both input and output. is there anyway i can get only output result?",True
+@ruiteixeira2324,2024-04-02T15:37:15Z,1,"May I ask a question? I used your code to fine-tune llama2 7b-chat on my data and the code works perfectly, but for some reason my new LLM can't predict the EOS token. So, every time I ask the model to generate text, it will generate tokens until it reaches the max_length. I think there is something wrong with the way Lora is using this EOS token. Do you have any idea how to fix this?  By the way, amazing video. Thanks.",True
+@prashantagarwal4570,2024-04-01T03:55:03Z,0,"@Krish-  After done fine tuning  of the model, how can I run the fine-tuned model on local machine",True
+@CosmosTraveler8008,2024-04-01T02:58:19Z,0,Sir can you create videos for evaluation of LLMs,True
+@FuzzyLab,2024-04-01T01:55:00Z,0,How i can pass my model to .gruff ?,True
+@sanjanakumar7525,2024-03-31T03:30:27Z,0,Can you please update the link to the code? The one given in the description does not work anymore,True
+@snehitvaddi,2024-03-26T23:36:53Z,0,Hey! Facing this issue with Langcahin loader: AttributeError: module 'numpy.linalg._umath_linalg' has no attribute '_ilp64' Literally dying to resolve this. Please help,True
+@shreyasbs2861,2024-03-22T10:17:03Z,0,Github link please,True
+@wasimmemon2284,2024-03-22T02:54:22Z,0,"Hi Krish, I had a doubt: Will quantization decrease the accuracy of the whole model? Will that mean that we will get less accurate results?",True
+@mayankmaurya9990,2024-03-20T06:28:08Z,0,"Hi krish,  If I have client data and don't want to load from huggingface then How can I do this?",True
+@anushareddygudipati5169,2024-03-19T13:30:06Z,0,Amazing! Can you please make video on how to use fine tuned model in RAG.,True
+@agrawal1207,2024-03-17T06:58:41Z,0,"The video was just to show off your knowledge, it wasn't a tutorial to anything",True
+@pedroluisbroca204,2024-03-11T07:52:05Z,0,"This guy's excitement for NLP is adorable but man needs to get out more, the real world is calling!",True
+@AngelBautistaMartinez,2024-03-11T07:47:09Z,0,"Mistral's medium posts helped me a ton, then found enterprise for hands on work",True
+@rahulhiware4049,2024-03-09T14:38:47Z,0,"@Krish  Can you load the fine-tuned model and then test/check it on the test data? In last code snippet I guess you are using the base model to get the results. Please correct me if I am wrong. Coping that line of code here which I am doubtful of. pipe = pipeline(task=""text-generation"", model=model, tokenizer=tokenizer, max_length=200)",True
+@ashish_sinhrajput5173,2024-03-09T09:38:59Z,1,what modification i need to do i i wanted to fine-tune this llama model on text-Summarization task... ?,True
+@dibyanshuchatterjee4126,2024-03-07T19:39:37Z,0,Can you please make a video on DPO fine tuning method and its implementation.,True
+@sumayyaafreen3499,2024-03-07T17:11:10Z,0,Can we use LLAMA for urdu language applications?,True
+@k4f,2024-03-07T09:04:21Z,0,This video makes my LoRA hard,True
+@somtirthadas9347,2024-03-07T04:12:54Z,0,RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver. I'm facing this error in google colab while running the GPU compatibility part. What can be the solution?,True
+@divyagarh,2024-03-05T04:09:09Z,0,Thanks for uploading! how to create the dataset from your HTML/PDF content to train the model?,True
+@zulaysolis5145,2024-03-01T08:05:16Z,0,Wow thanks for breaking it down step by step.,True
+@_el-pana_roberto,2024-03-01T08:03:33Z,0,You should check out enterprise-ai dot io,True
+@user-rv9rn3ux9v,2024-03-01T08:02:10Z,0,Good tutorial!,True
+@markandsweep,2024-02-29T19:49:22Z,0,Thanks Krish,True
+@yajuvendra15,2024-02-25T07:08:55Z,0,"Hello Krish, May I know how can we deploy this as an app in a kubernetis enviroment. thanks",True
+@A.M.8181,2024-02-23T20:56:02Z,0,"Can you tell me what dataset templates should be used for fine-tuning? What fields should be there? If I need the model to answer questions in chat mode, like a first-line support bot, make a summary of the text I insert - are these different sets and as a result different models? That is, it turns out that I need already 2 models, each solves a specific task? If, for example, there is a production department and a financial department in the company, then is it better to use 2 separate small models and they are tailored to a separate knowledge sphere or use one large one? Show how to fine-tune on a local computer in the VSC environment on an RTX4090 video card",True
+@vinayyadav6522,2024-02-22T12:54:26Z,0,"Hi Krish, Please make a complete video of bedrock llama2 chat  further steps for providing the output as API to the front-end or to check on postman by passing inputs and inference parameters using fastapi or Django.",True
+@user-lp3me7kf1w,2024-02-21T06:01:06Z,0,"downloaded the dataset and entered my own one prompt template by replacing other, and was not able to achieve the result for it, Kindly help me.",True
+@gokulraj6633,2024-02-21T04:36:15Z,0,Will the same code work for llama 13b chat . If not can you share Collab for fine tuning llama 13b .,True
+@explorewithshiljoy,2024-02-20T15:33:51Z,1,"Apologies, but upon viewing your video, I found the explanation lacking. It's crucial to have a strong initial explanation, especially when presenting more intricate concepts like fine tuning.",True
+@pranabsingharoy3270,2024-02-20T03:30:30Z,0,Why you are train for 1 epoch only? What will be the optimal number of epochs?,True
+@vsneelesh3692,2024-02-19T14:24:07Z,0,need a theory content also sir . I would help in making the foundations stronger,True
+@nethmidharani2281,2024-02-19T11:23:16Z,0,"When I try to use the above code with a different llama model I get this error. OutOfMemoryError: CUDA out of memory. Tried to allocate 512.00 MiB. GPU 0 has a total capacty of 14.75 GiB of which 133.06 MiB is free. Process 15317 has 14.37 GiB memory in use. Of the allocated memory 13.27 GiB is allocated by PyTorch, and 988.62 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF and when I try to run with tpu to avoid this I get found no Nvidia error in step 4. What should I do. togethercomputer/Llama-2-7B-32K-Instruct this is the model I was trying to fine tune",True
+@ssen081,2024-02-17T16:49:36Z,0,"Please conduct sessions on running AI models on cloud platforms like AWS, Azue and Google",True
+@user-xo3cu7nq1z,2024-02-16T12:33:13Z,0,"from where did you learn ? can you share some resources , so that i can learn all of these from one place  ?",True
+@user-mi3zv2jd6i,2024-02-16T11:03:39Z,0,CaSUal nhi sir ji....CaUSal...!!!,True
+@abduljalilhassan1798,2024-02-16T07:03:18Z,0,Krish Naik please discuss how to evaluate the model ?,True
+@Abdullah_kwl,2024-02-15T08:17:48Z,0,"Make theocratical videos on PEFT, LoRA, QLoRA, how quantization work, how quantize a model and Mixture of experts works",True
+@arri5812,2024-02-15T07:08:40Z,0,"thank you sir for this video, please make videos on theortical concepts needed to understand this fine tuning process. It will mean alot thanks sir",True
+@user-vo5ce6kn5t,2024-02-15T06:17:35Z,0,"I have already run this script one month ago, but this model cannot provide accurate answers as on custom data on which this llama2 model is trained .",True
+@shaikirfanrahim7334,2024-02-14T09:29:28Z,0,Please make video on oneDNN,True
+@abduljalilhassan1798,2024-02-13T20:34:15Z,0,We are still waiting for theoretical part,True
+@aravindraamasamy9453,2024-02-13T18:57:21Z,0,"I want to integrate my database to the llm model , is it possible to finetune that. Can you show demo for integrating databses and fine tuning the llm model based on it.",True
+@TheAmazonExplorer731,2024-02-13T07:56:11Z,0,Please make a vido with demo that robot perform task using LLM,True
+@tirthbhatt3340,2024-02-13T07:54:30Z,0,Hello krish could you please make videos on Auto gen?,True
+@coldedkiller1125,2024-02-13T05:24:01Z,0,"Sir this is a great video, but Please give a method that dont use hugging face to download the model, because we may have to train the same model again with new data. Also in the video we have download the model but how to load the model if it is locally available ?",True
+@tirthbharatiya2611,2024-02-13T03:01:54Z,0,"hey Krish, why I'm not able to see course request form on TechNeuron and why there is no new content?",True
+@vijaydas2962,2024-02-12T19:04:25Z,0,"looks like a typo!! Are we not supposed to be using ""new_model"" instead of ""model"" while testing the fine tuned model? I'm referring to this line----->  pipeline(task=""text-generation"", model=model, tokenizer=tokenizer, max_length=200). I think correct argument should be --> model=new_model  instead of model=model ??",True
+@rishijain8231,2024-02-12T18:28:27Z,0,Amazing video! Can you please make a video on the theoretical aspects as well?,True
+@VijayKumar-ib3qc,2024-02-12T15:09:38Z,0,"Hi Krish,   Thanks for the video.  What is the purpose of developing the model using PEFT? Is the objective is to mimic CHATGPT where you ask questions and you get the answer?",True
+@KumR,2024-02-12T12:41:41Z,0,waiting for the ollama video buddy,True
+@nasiksami2351,2024-02-12T06:39:50Z,2,"Thank you for the video. The main issue I face from these tutorials is the custom dataset preparation part. Here also the dataset is loaded from HF.  I have a tabular NLP classification dataset in my local. Let's say sentiment analysis dataset.  How should I prepare the dataset and run the llm finetuning locally?  Thank you again for this tutorial. I hope you'll show us the implementation of actual local, own dataset finetuning.  Also, there's a paper called TabLLM, which uses LLM on numeric tabular datasets. Making a video on that one would be so much helpful regarding implementing it on the custom private dataset. Thank you again, and keep bringing good content as always <3",True
+@user-zm7gq2lz1s,2024-02-12T05:31:30Z,0,Thank you for this amazing video. Can u also explain how to create custom dataset in Q/A format from the raw text and fine tune it and should we fine tune or use RAG if we want reponse from a particular domain only.Thanks,True
+@sajidchoudhary1165,2024-02-12T03:28:08Z,1,"Yes, please make a theoretical video as well on all open source llms",True
+@lixiasong3459,2024-02-11T23:18:08Z,1,"Sir, can I run the code on my local vs code?",True
+@rohanpandey9957,2024-02-11T21:05:33Z,1,need a whole playlist on llms sir,True
+@pratibhagoudar6817,2024-02-11T18:17:13Z,1,"Hi krish sir!  I have worked on this script 2 days back, and I am eagerly waiting for your explanation about this llama.  And my doubt is that,  I think you didn't gone through this cell,  ""Reload the fp16 and merge it with lora weights "" Explain this code cell and how it will merge and where it could be stored.  For this particular block error : I'm getting out of the memory issue .   And waiting for math's behind peft and theriotical knowledge...   I hope this comment you will read,,  And hope for response to my question!!!  Thank you🌹",True
+@sanadasaradha8638,2024-02-11T17:48:39Z,1,Sir do a video on how to transfer the customer data into   q&a format for fine tuning to llms,True
+@user-wj4ce4gi6n,2024-02-11T17:40:06Z,1,Can we use this for other languages such as Arabic Thanks a lot!!,True
+@sanadasaradha8638,2024-02-11T17:35:51Z,1,Actually this the video i want to ask you but you read my mind before I ask that why I am saying now Krish sir is mind reader,True
+@shakilkhan4306,2024-02-11T16:55:55Z,2,"I started my fine tuning journeys ,  hope it would be something interesting",True
+@flyingsnow1357,2024-02-11T16:26:30Z,2,Can we do fine tuning on unsupervised data?,True
+@ravikumar46931,2024-02-11T16:07:13Z,1,Can we train  this model locally by creating a virtual environment (e.g. conda) ?,True
+@AbdullahiAhmad-Babura,2024-02-11T15:37:59Z,1,Amazing following for a long time you are doing well,True
+@gideongyimah217,2024-02-11T14:07:15Z,1,Can you please upload a video on how to finetune LLM model to work on or understand local language given a dataset on local languages,True
+@enough200,2024-02-11T13:49:02Z,1,why dont you explain the theory also,True
+@Mintusir9,2024-02-11T13:04:12Z,1,Hello sir ❤ Can you make a welding detection project using AI Is it possible to you or not If you make then please make,True
+@akandesoji3580,2024-02-11T12:54:19Z,3,Amazing how did you know all this sir😢😢😢😢,True
+@kalyandey5195,2024-02-11T12:35:35Z,20,"Amazing !!! I have red the book -""Generative AI on AWS"" today and learnt all the concepts of quantization, PEFT, LoRA, QLoRA and you have uploaded the video for the same!! Thanks a lot!!",True
+@avanthikar2608,2024-02-11T12:00:13Z,2,"Can you please upload videos indepth of how different prompting techniques like chain of thought, self consistency, knowledge generation etc were practically used with which the outputs of the models based on use cases are getting improved",True
+@DataDorz,2024-02-11T11:35:58Z,6,"Amazing video Krish, Can you also make a video on how to build RAG based LLM for Q&A over multiple documents where we can actually compare between two or more documents.",True
+@bluelightning5350,2024-02-11T11:35:48Z,35,"Please make vidoes on theoretical concepts such as LLM model internals, Mixture of Experts, RLHF and so on.",True

@@ -1,0 +1,171 @@
+author,updated_at,like_count,text,public
+@sarimbinwaseem,2024-04-04T15:59:10Z,0,It's helping... really helping.. I am new to this ML thing so it's really helping.,True
+@ayoubelmhamdi7920,2023-07-22T21:39:15Z,0,لو سألت شات جيبيتي، هل هل هذا الفيديو مترابط، سيقول لك، هذه فسيفساء وليس موضوع مرتبط 😮😂,True
+@badreddinehamid2377,2023-03-23T11:00:02Z,0,very pythonic,True
+@aaronrockwell4576,2022-09-25T00:27:34Z,0,"GPU version of TensorFlow will not train for me, maybe a 2070 doesn't have enough vram? Every forum said to decrease batch size, but wouldn't work even at batch size of 2. Had to use CPU",True
+@chalkchalkson5639,2022-02-20T13:47:09Z,0,This there a way to get tensor flow to spit out how many free parameters the model has? It'd be a great relief to know that the number of free parameters is much smaller than the data set,True
+@c.nbhaskar4718,2022-02-18T10:22:21Z,0,simply awesome,True
+@kadircosar4320,2022-01-14T22:24:21Z,0,u are  best man <3,True
+@udisputedkhadka2,2021-06-24T04:18:05Z,0,tensorboard --logdir logs/ didn't work for me.. when i run this in command it shows link for http://localhost:6006/ then after opening it No dashboards are active for the current data set is shown in that page. whats the problem please help. And can we open tensorboard once logdir is crearted in our computer?,True
+@haojielim3623,2021-06-01T12:41:55Z,0,"Hi @sentdex, how do I set the directory to my google drive folder  %tensorboard --logdir logs to %tensorboard --logdir ""Google Drive folder""",True
+@sooryaprakash6390,2021-04-06T08:47:22Z,0,thanks for this video!,True
+@usbabu,2021-03-18T12:03:53Z,0,"tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=log_dir, histogram_freq=1) use this",True
+@vasilisk8268,2021-03-06T10:42:47Z,0,"Hey! First of all, those videos are awesome! But as a rookie on ml, I'm a little confused about the dense layers. Dense layer's are the hidden layers and nodes are the neurons and if that's the case how many hidden layer's does this model have? Thank you!",True
+@charlesgormley9075,2021-02-23T01:33:04Z,1,Does anyone know of any great TensorFlow 2.0 tutorials? This helped me with the basics but I am interested in the newer stuff.,True
+@adrian.marino,2021-02-21T14:38:27Z,0,A keras-tuner from scratch :),True
+@ankitganeshpurkar,2021-01-31T19:23:49Z,0,"Sir keep posting such tutorials, your help is much appreciated.",True
+@TheMiojox,2021-01-25T15:05:41Z,0,I can't get a loss in validation.... It's great in training but validation is failing,True
+@akhilezai,2021-01-20T00:07:55Z,0,"for standardized supervised learning, keras is the best. But for different architectures, experiments, gradient flow graph and weird loss functions, pytorch is 100% better than keras.",True
+@AnoNymous-ie3wc,2021-01-19T20:49:20Z,0,"Kinda over engineered this one 😂 https://github.com/Apop85/Scripts/tree/master/Python/Sonstige_Uebungen/Deep%20Learning/recognizeShapesOwnData  recognizeShape.py --> Initial script. Creates training and test data (pictures with squares, triangles and circles) and tries to learn from them optimizeLearning.py --> 4 Different Models to train optimizeModel.py --> Iterates trough a huge amount of possible model attribute combinations analyzeRuns.py --> used by optimizeModel. It analyzes the logfile made by optimizeModel and creates a top list of the best runs with all used Attributes of those runs  Is there a possibility to get the val_loss and val_acc value? Atm. i do test the model against test data to get close to the values.",True
+@WorldbreakerHulk1390,2020-11-10T11:34:35Z,0,"Why do you look like Edward Snowden's love child? :p Enjoy your enthusiasm, buddy. :)",True
+@LewiUberg,2020-10-07T09:46:21Z,0,Ok mister! do you still mean what you say at 25:22? hahah :D,True
+@EliteGamerpk,2020-10-06T13:55:21Z,0,God this is amazing!,True
+@auslei,2020-09-08T20:45:58Z,0,Can you use grid search to do the same?,True
+@Freddiriksson,2020-08-24T07:37:51Z,0,"Nice video!!! I have a question, since I am running a similiar for loop. Is it neccesary to reset weights or metrics? My results look pretty strange: The models seem to learn very fast and show good accuracys after one epoch and metrics do not change significanlty for the next 20 epochs.  There is definitly more than enough data and no danger to overfit... May be someone knows a solution.",True
+@Kornchipzzz,2020-08-16T14:18:05Z,0,"you have made me sin with this absolute mostrocity:      dense_layers = (tuple(), (32,), (64,),                     (32, 32), (64, 64),                     (32, 64), (64, 32))     conv_layers = (         (64, 64),         (128, 128),         (256, 256),         (64, 128),         (128, 256),         (64, 64, 64),         (128, 128, 128),         (256, 256, 256),         (64, 64, 128),         (128, 128, 256),         (64, 64, 128),         (128, 128, 256),         (64, 128, 128),         (128, 256, 256),         (64, 128, 64),         (128, 256, 128),     )      window_sizes = (2, 3, 4)      batch_sizes = (8, 16, 32, 64)     splits = (0.1, 0.15, 0.2, 0.25, 0.3)       for dense_layer_tuple in dense_layers:         for conv_layer_tuple in conv_layers:             for window_size in window_sizes:                 for batch_size in batch_sizes:                     for val_split in splits:  Where each layer tuple represents the amount/size of each conv/dense layer as I build them via iteratively by tuples.  This is over 6000 iterations of the model. All I wish for is that it is done by the time I'm awake again :D",True
+@Evan_242,2020-08-13T00:23:55Z,1,"Hello there ! I practiced DL since 1 year to enhanced my tools in this domain for my Job. And I would like to thank you again Harrison, I've never heard of TensorBoard before. This things  is awesome ! Any ideas out there  if this kind of optimisation tools dynamique like this exists bur for machine learning type  ? Like with Logistic regression or this kind of stuff. That's would be so great. And so comprehensible for someone who don't know that well Data Science.  If anyone know if this kind of tthing exist anywhere that's would b nice.  Again, thank you, you're explaining so well. :)",True
+@chitralalawat8106,2020-08-07T08:01:45Z,0,You only saw validation loss.. Is it only sufficient to select a layer?,True
+@chitralalawat8106,2020-08-03T19:22:45Z,0,How can I get those colored graphs?,True
+@AnimilesYT,2020-06-16T09:04:18Z,1,"I only have 2 graphs. The train and validation both show up in the same graph. This is fine when only one network has been trained, but with 27 networks it becomes overwhelming.. How to fix this?",True
+@PhRoyce,2020-06-11T09:19:04Z,0,"any body know how to export those acc and loss by epoch to excel files, or read the logs by excel?",True
+@ervindobri9374,2020-06-06T09:04:23Z,0,Train and Validation data are plotting on the same scalar for me.What is the solution to have 4 different scalars?,True
+@enriquesolarte1164,2020-05-22T04:56:58Z,0,I guess a better option is a bayesian optimization. Some links below https://www.youtube.com/watch?v=u6MG_UTwiIQ https://www.youtube.com/watch?v=C5nqEHpdyoE&t=797s,True
+@kirityganga6788,2020-05-21T17:44:47Z,0,can someone tell me where did he mention learning rate for this model please?,True
+@dandybramasta979,2020-05-02T17:22:42Z,0,"Hello, I have a question I followed your tutorial from part 1, and I have a problem with the validation accuracy and validation loss. My validation accuracy fluctuates a lot, and my validation loss tends to increase. Hence it gives me wrong prediction most of the time. Could you please help me with it? Thank You",True
+@mostafanakhaei2487,2020-04-24T15:40:50Z,0,I believe there is a more systematic way for tuning. https://www.tensorflow.org/tensorboard/hyperparameter_tuning_with_hparams,True
+@reghunaathaa1654,2020-04-13T16:31:42Z,1,I'm getting ResourceExhaustedError after running through a few models,True
+@hanujirahmatnagoro4518,2020-04-10T13:01:06Z,0,"[ASKING - HELP] where i can find your testing all of that model ..? and how ..?   i mean: score = model(that all).evaluate(x, y, verbose=2) print(""\Model Accuracy: %.2f%%"" % (score[1]*100))",True
+@ahaf9628,2020-04-07T15:48:02Z,3,"thank u for this video was really helpful, but how did u manage to show the val acc, loss etc. When i run my model with model.fit(metrics=['accuracy']) just shows the accuracy on the tensorboard scalar tab. How can i get it to show the val acc, loss etc?",True
+@abhinavthapper4544,2020-04-07T12:04:42Z,0,Why does removing the last Dense layer improve the performance ?,True
+@cx4917,2020-04-06T13:13:49Z,0,do we have to use range on len or the list itself. pls clarify,True
+@krishnavaghosh6712,2020-03-26T14:32:40Z,0,"can we have a tutorial for neon, I mean it would be a short one since it is quite similar to this one, but we could get an insight of both.",True
+@SQDLowkey,2020-03-25T17:19:02Z,2,"When I'm using it,  I get train and Validation lines on the same plot, is there any way to get separate plots for both. BTW, I'm using tensorboard only for analysing the performance for only one plot",True
+@bobypardamean7355,2020-03-19T07:05:31Z,0,"Haii i already got high acc and val acc without trying this. But i got confuse, because the model only predict cats ( in my case brocolli) since i train my own datasets and the other object is not detected. How can this happen? Please give me some solution :(",True
+@HarshRaj-fp6pv,2020-03-16T17:18:02Z,0,Totally Bounced above my head🤦‍♂️,True
+@kevinfutero7166,2020-03-11T19:41:04Z,0,"Great video, I was wondering what kind of machine & GPU do you have? It seems very fast !!",True
+@stephennfernandes,2020-02-13T16:01:41Z,0,How do we even remember all of the  syntax,True
+@ganeshsrinivasan842,2020-02-13T14:09:29Z,0,"fastai for pytorch - any idea, is it worth checking?",True
+@deassjan5350,2020-02-03T08:44:44Z,1,"#sentdex At first thanks to ur great works :) ... When I open tensorboard I get epoch_accuracy and epoch_loss instead of acc, loss, val_acc and val_loss...  After googling for hours I still can't figure out what's wrong :( Can anyone help me with this?",True
+@bikram2955,2020-02-01T17:11:48Z,0,"Can we make another model that can predict the best configuration for input layers to produce a minimum validation loss, an optimal solution?",True
+@rakshitks7850,2020-01-26T06:57:32Z,1,Dense(2) //does not mean we will have 2 output in the model,True
+@prasannaakolka,2020-01-01T16:25:55Z,0,https://github.com/tensorflow/tensorboard/issues/2023#issuecomment-474165235,True
+@behmard6225,2019-11-22T15:05:30Z,0,"Does anybody know what kind of file is the ""* .H-PC""?",True
+@QuicksilverGameplay,2019-11-09T22:13:59Z,0,"Hi, while using for log_dir for multiple outputs, where dense out is 4.  I am getting this error ""Attempting to use uninitialized value RMSprop 5lr""",True
+@anna10168,2019-11-08T22:38:13Z,1,"When I open tensorboard I get epoch_accuracy and epoch_loss instead of acc, loss, val_acc and val_loss...  After googling for hours I still can't figure out what's wrong :( Can anyone help me with this?",True
+@TheEVanJonEsRocKs,2019-10-30T20:24:58Z,0,"When I run the model after putting dense_layers, conv_layers, and layer_size. The model is only running the 3 conv 128 nodes and 2 dense possibility and it left all the other possibilities. Can anybody help me on what went wrong, cause the code is pretty much the same. Thank you",True
+@saadsaeed8038,2019-10-26T20:29:11Z,0,can anybody tell me how to calculate sensitivity of model ?,True
+@jingyulei6585,2019-10-02T10:36:45Z,10,"In my experiment, changing kernel sizes of Conv2D to (4, 4) improves validation accuracy a lot.",True
+@BrettClimb,2019-09-24T20:01:29Z,0,"I've heard that PyTorch is a nice middle ground between Keras and raw TensorFlow: gives you more flexibility without being quite as low level. Also, I've heard that it has some nice debugging features.",True
+@baharbalc9770,2019-09-23T18:43:34Z,0,Is there any way to calculate precision and recall on Keras not Tf?,True
+@ColinBroderickMaths,2019-08-30T11:24:03Z,0,"How can I get it to record more information than just scalars and graphs. Using just Keras, ideally.",True
+@SystemOfADownPS,2019-08-27T12:02:57Z,0,"Awesome tutorials!  I think you added the Dropout layer inside the dense layers for loop, when it was set to 0; so in the end, no Dropout layer was added :(",True
+@benjaminbianchi1804,2019-08-11T21:59:22Z,0,Tf.keras it is much more efficient when you code than pytorch . Great video bro,True
+@jingruihu5625,2019-08-08T04:38:14Z,9,"Not sure if i am correct. but it seems like the last part Dropout(0.2) was not ran as dense_layer = 0. Either way, Good video. Big Fan! hahas",True
+@sagarbhatnagar1047,2019-07-10T21:58:17Z,0,can you do a tutorial on transfer learning,True
+@Choppa200,2019-07-01T02:03:25Z,0,Im getting Negative Losses in the Hundreds. Im making a alphabet recognizer with several images each letter and more categories per letter but im using your Activation Functions Any suggestions on any good Activations that can work well with this?,True
+@gau_rav_92,2019-06-25T14:12:54Z,0,"Encountered error while starting profiler: Unavailable: CUPTI error: CUPTI could not be loaded or symbol could not be found.   Any Idea why am i getting this error, my model is running fine except the first iteration ran for 6 epochs the rest are running for 10 epochs",True
+@bibanez135,2019-06-03T11:39:14Z,8,"Hey sentdex, there's another way to get all possible combinations using itertools product:   for dense_layer, layer_size, conv_layer in product(dense_layers, layers_sizes, conv_layers):     print(dense_layer, layer_size, conv_layer)",True
+@hsensh,2019-05-22T15:01:01Z,1,"I love you, that's all",True
+@severussnape5978,2019-05-16T11:56:30Z,0,"omg I don't have gpu, it takes like hours to train the models",True
+@bernardo4290,2019-05-15T16:13:38Z,1,I like that loop you created but I get an error in the second run. Posted it here:   https://stackoverflow.com/questions/56150725/for-loop-in-keras  Do you know the fix for this?,True
+@jasminmoreno9041,2019-04-11T02:48:17Z,0,How to respond to images other than cats or dogs?,True
+@arrvjay11,2019-04-08T10:57:51Z,0,You are the hero I needed. I am currently developing an app that can recognize Baybayin handwritten characters (Baybayin is an ancient script from the Philippines) and your tutorials are helping me a bunch. Will gladly donate in the near future because you're really saving my ass here. THANK YOU,True
+@meme7104,2019-03-07T08:56:44Z,0,my programm just stops after the second epoch with the for-loops,True
+@Golgafrincham,2019-02-12T16:45:08Z,2,"Awesome tutorial, I love these! Realized that the more I'm looking into this I don't have a geniune understanding of the different kinds of layers available. You are talking about MaxPooling, Dropout and so on... Where does recurrent networks fit into this? What about models that ""understand"" textual input, i.e. parsing a sentance into actions?  Keep up the awesome work!",True
+@oliverli9630,2019-02-12T04:37:59Z,0,"it's great you try different approach to improvement. others would follow the tensorflow team's tutorial and just throw dropout and regularization to it. but, i wonder what will happen if you do try these two in your experiment here.",True
+@yeeen123,2019-02-10T10:41:23Z,0,"CUDA is only supported on NIVDA GPU... u didn't mention that in the video right? Another alternative for Intel GPU?  2.1. CUDA-capable GPU To verify that your system is CUDA-capable, under the Apple menu select About This Mac, click the More Info … button, and then select Graphics/Displays under the Hardware list. There you will find the vendor name and model of your graphics card. If it is an NVIDIA card that is listed on the CUDA-supported GPUs page, your GPU is CUDA-capable. https://docs.nvidia.com/cuda/cuda-installation-guide-mac-os-x/index.html",True
+@mansimishra1023,2019-01-06T10:19:39Z,7,We can use colaboratory    It provides free 12 hr k80 gpu,True
+@sambannan3745,2019-01-01T06:58:19Z,18,I don’t think you ever added a dropout because dense layer was still zero!,True
+@Abhishek158365,2018-12-27T20:40:13Z,0,"Hey sentdex, some really good stuff in these videos, had a small query , is it possible to see the epoch validation loss/accuracy in form of a table instead of multiple line graphs in tensorboard?",True
+@xiaochengjin6478,2018-12-24T11:50:32Z,0,"This tutorial is damn helpful! Btw, if someone cannot show the tensorboard in browser like me, try this command: tensorboard --logdir=logs/ --port=8080",True
+@majortombelgium,2018-12-10T16:16:52Z,1,"More tensorboard tutorials please :) thanks! And especially how to visualize images and such when you are using keras. Not much info about that, it's all with pure tensorflow sessions and operators in the help. Thanks for the great video!",True
+@splch,2018-12-08T21:53:49Z,0,"I had a question about model simplicity... If two models have similar losses, but one has no dense and dropout layers and the other does, is there any reason for using the simplest model?",True
+@arturwarzecha5664,2018-12-01T21:35:07Z,5,How is that? It is part 5 and in every one of them he has new weird cup.  Legend.,True
+@trinadhasuryavamsinimmala2378,2018-11-25T17:53:53Z,0,It is very good tutorials sentdex. I love your tuts as usual. Why don't make a video on series on TensorflowOnSpark developed by Yahoo Hadoop team. As we can train our models on Apache cluster even using tensorflow's keras API.,True
+@aasispaudel9258,2018-11-18T21:30:11Z,0,"Hey, Can I know why you did not keep every convulution layer inside the loop and rather kept the first one inside and looped (conv_layer_no-1) no of times?!",True
+@berkistayn,2018-11-14T07:55:27Z,0,"PyTorch has dynamical computational graphs whereas TensorFlow has static ones. Dynamic ones(pytorch) are easier to customize, for further info check this nice stanford lecture: https://www.youtube.com/watch?v=6SlgtELqOWc&list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk&index=8",True
+@zlatanonkovic2424,2018-11-11T21:59:21Z,3,I think the reason that you didn't find any logs at fist was that you accidentally wrote 'abunchoflogs' in quotes,True
+@lucasrode8332,2018-11-01T12:15:27Z,0,"if you have time for it, i would love to see more API topics",True
+@himanshuladia9099,2018-10-18T07:54:22Z,0,transfer learning tutorial please!,True
+@brunobelloni7614,2018-10-13T23:30:14Z,0,Can I make a prediction with an R-CNN with that .model I trained by watching your previous videos? How do I do that? I want to see if I have two flowers in the same image. Thank you,True
+@akshatagrawal819,2018-10-12T18:59:50Z,0,Man I love your content! _ /\ _,True
+@raheelsiddiqi8285,2018-10-02T12:50:01Z,0,How do we read multiple event files present in different sub folders on Windows???? Please help me...,True
+@saurabh_singh08,2018-09-25T13:28:27Z,0,Please do one session on TensorBoard in deep,True
+@ax5344,2018-09-23T08:38:59Z,0,The code on your website is different from the one in the video: model.add(Flatten())--- this line was inside the first for loop in the code on your website and it wont work.,True
+@DrPanesar,2018-09-16T15:17:43Z,0,"Hi, i've ran the same code with the same data set but i can only get around 51% accuracy. Am i doing something fundamentally wrong or can the same code produce such different results?",True
+@DamienLaRocque,2018-09-12T23:46:27Z,0,What about theano ? Or Keras on theano ?,True
+@patrikkaura2504,2018-09-12T19:13:34Z,0,Only one short video about tensorboard I mean exactly the page with graphs can be useful. But thanks for videos! :),True
+@grahamastor4194,2018-09-12T17:03:11Z,0,Future ideas: Convolutional layer with padding (5x5) filters;  Residual layers with skip connection.  Really good to see coder going through implementations.  Thx.,True
+@SHAP179,2018-09-10T17:47:14Z,16,The MUGS dude! They are amazing!  As the tutorial of course :-),True
+@kamy9764,2018-09-08T23:19:02Z,0,"At the end, when you used Dropout, shouldn't you use at least 1 dense layer? Otherwise it wouldn't even chance anything (you didn't add a dense layer)",True
+@electronbits4096,2018-09-07T00:28:43Z,0,"Thanks for you great tutorials. I have a question and I know you might not answering questions here. maybe others can have solution for that I did all the steps and model works perfectly. but the thing is when I feed the non-dog and non-cat pictures to the model, it always categorizes it as dog which is [0.]! any solution for that? I have trained the third class as ""Unknown"" class with tons of non-dog and non-cat pictures. but the trained model still inaccurate and not able to distinguish that there is no dog and cat in the picture.",True
+@saitaro,2018-09-03T02:52:58Z,0,"Thanks man, great stuff as always. What OS do you think fits ML tasks the most now? Is it worth buying a MacBook Pro for that?",True
+@mehakjahangir5751,2018-08-30T19:39:21Z,0,"how SVM parameters optimize using PSO in python? need help , plz tell the related links.",True
+@MarvDays,2018-08-30T18:28:12Z,0,"Hi, nice tutorial with tensorboard, but how about the histograms and internal representation of the data inside the network? I mean, these convolutional networks are great to extract features from the data. I would like to watch a video about these kinds of stuff!",True
+@yacines3180,2018-08-29T23:12:22Z,0,You should try Dropout edit: nvm i just saw the end of your video lol,True
+@TheStevieb143,2018-08-29T22:12:43Z,0,Time series training using tensorflow and tensor board,True
+@alainc5597,2018-08-29T16:43:45Z,0,Great playlist as always!  why not having a look at sound for a while. there's some nice keras layer like kapre on github to manipulate sound wiht a keras layer.,True
+@736939,2018-08-29T16:20:46Z,2,"LSTM, RNN for text classification and prediction pleaseeeee :) YOU ARE THE BEST !!!",True
+@ThomasHenson,2018-08-29T01:55:39Z,4,Wow great video series! Just found your channel! Keep up the great work.,True
+@Angel_Fontalvo,2018-08-28T17:52:02Z,0,You should do a series on quantum computing 👀👀👀,True
+@bf2825,2018-08-28T14:32:25Z,0,"Thank you so much.  Best tutorial ever, even better than Google! How about trying out ensemble machine learning? Xcessiv seems nice and easy with a nice GUI.",True
+@honzaadamek5186,2018-08-28T11:11:20Z,0,Great series. I would love to see more about tensorBoard,True
+@lodashnotebook5390,2018-08-28T04:31:15Z,0,Sentdex! I emailed you for the cap! I'm wondering if you're getting my emails?,True
+@M2S4L,2018-08-28T03:54:13Z,1,"Nice series, thank you for all the hard work I learn a lot from you.  I was wondering if you could do a video doing one of those competitions from Kaggle, even a knowledge completion would be so cool.",True
+@AZTECMAN,2018-08-27T23:20:04Z,9,pytorch doesn't run on windows... I say no to pytorch.,True
+@romanprochazka179,2018-08-27T13:59:44Z,0,"Hello Sentdex, very nice tutorial. Great job!! I have recommendation to trial and error methodology which You mentioned in this tutorial (21:07). My proposal is to follow - Design of Experiment or multilinear regresion. Both approaches are very powerfull, allows You to identify the most important input parameters, their interactions and similar. Best regards.",True
+@djordjen,2018-08-27T11:41:48Z,0,"Awesome video, thank you again! As I'm a newbie though, not sure how to actually predict if a certain image is a cat or a dog after training and saving a model? Thanks!",True
+@dxamphetamin,2018-08-27T05:48:02Z,0,Did you check out the new Nvidia GPUs? Do you think they are worth getting in terms of training neural networks? Currently running on 1070,True
+@6burg1,2018-08-27T05:06:22Z,6,More tensorboard,True
+@Lucas-wl8py,2018-08-27T04:24:24Z,0,There's this new interesting library for taking care of the ML flow. A video about it could be interesting: https://mlflow.org/,True
+@KshitizRimal,2018-08-27T04:10:57Z,14,"transfer learning is big hit nowadays, i would love to get some of your views and suggestions on how to get better results doing transfer learning in computer vision tasks, like how much dataset to consider, custom layers to add, tuning the model, visualizing what the model has learned, loading the dataset in an optimized way etc. In essence, if you could focus on something that is really valuable in implementing real life projects, that would be really helpful.",True
+@KshitizRimal,2018-08-27T03:39:06Z,1,"I would love to watch more api stuffs like tensorboard, its visualizations.. automatic checkpoint while training.. tf.data ..tf.hub.. tfx .. i think you already have covered details regarding rnns, cnns.. so its better if you can cover framework and library related stuffs",True
+@KshitizRimal,2018-08-27T03:36:02Z,0,"i like both, pytorch and keras/tensorflow.. for higher level library for pytorch, have you looked at fast.ai library?.. would love to get your views on that.",True
+@JanUC3mQtGq3NMcyMVdhm6md,2018-08-27T00:32:52Z,4,Can you make a tutorial on how to do transfer learning (ie. use a imagenet pretrained network and just retrain some layers for our binary classification usecase)?,True
+@vkitor,2018-08-26T23:49:33Z,0,Car plates reading :),True
+@aradarbel4579,2018-08-26T22:13:04Z,0,Sentdex will you make a video about creating a neutral network from scratch? I think it really helps to understand the ideas of deep learning and back propagation.,True
+@madlad5929,2018-08-26T21:09:53Z,0,MORE,True
+@RedShipsofSpainAgain,2018-08-26T19:37:33Z,1,"7:02 haha a cube question mark mug!  I love how each episode has a different coffee mug, like an easter egg in a video game.",True
+@RedShipsofSpainAgain,2018-08-26T19:34:05Z,0,"So looks like you're doing grid search for dense layers, layer sizes, and conv layers?",True
+@davidcristobal7152,2018-08-26T18:45:55Z,0,"I've been trying to make the cartpole game work with convolutional neural networks and reinforcement learning (grabbing frames from the open ai gym) like, literally , forever. I can't make it work. Best scores I get are around half of the maximum scores. Same algorithm getting the state given by open AI (just 4 values, for angle of pole, rate of angle, position of cart and speed of cart) is super easy with a 2 layer 8 neuron total. I'm at the ppint of giving up. Any hints anybody?",True
+@Indemere,2018-08-26T16:24:53Z,1,Did anybody notice it says tutorialcatsndGogs.py not dogs? ^^,True
+@Sandeepkumar-pv9gn,2018-08-26T16:14:29Z,0,Woah ! Thanks @harrison for sharing cool tricks and please do video on tensorboard other features for fine tuning the model,True
+@fangli1115,2018-08-26T14:40:39Z,0,"For AMD GPUs, you can try PlaidML. It works with Keras, but not TensorBoard (yet).",True
+@BlackShadow-ws1bc,2018-08-26T11:51:11Z,0,Exercise   https://www.crowdai.org/challenges/train-schedule-optimisation-challenge,True
+@AbhishekKumar-mq1tt,2018-08-26T09:47:26Z,0,Thank u for this awesome video,True
+@xxXXCarbon6XXxx,2018-08-26T08:10:59Z,0,How about using Anaconda to set up your training environment?  Doesn't it simplify the whole setup process?,True
+@logicalbee,2018-08-26T06:25:24Z,0,"This was very inspiring it gives me hope that I can do it, I've done it before I can do it again. Thanks for the video it's greatly appreciated. Everyone keep SPARKING!!!!!! :):):)",True
+@Sh13Al,2018-08-26T01:24:56Z,0,More stuff on object detection please,True
+@felixpcll,2018-08-25T23:29:47Z,0,What to do if my sample hasn't the same number of examples from each class?,True
+@CQP280inv,2018-08-25T21:37:59Z,4,LSTM,True
+@brotherlui5956,2018-08-25T21:33:06Z,0,"Wow, this video gave me an adrenalin rush. I'm really new to Python and ML, started 8 months ago, i built my first NN after two months from scratch only using Python with Numpy. I used the NN Hello World MNist data and tried different models using the same nested for-loop method you just showed us. I'm proud of myself. :-)",True
+@aykutcayir64,2018-08-25T20:17:58Z,1,"Hi, it's a good job. However, I think you have a bug in your code. In line 35, for each iteration your sequential model is initiated again and again. That changes the whole results in your experiments. Thank you for your tutorials.",True
+@polares8187,2018-08-25T19:58:03Z,0,Please do api helping tutorials. Automated checkpoints would be really nice. Seeing how you deal with syntax or problems really help.,True
+@arjunsonani7875,2018-08-25T19:27:17Z,0,"You Rock bro. Why don't you make a video on your story (i.e. how you learned programming , how do you think for making a new program, etc.) I mean if you get some time. Thank you",True
+@deepsudeep,2018-08-25T18:55:03Z,0,Tensorboard is cool!,True
+@manashejmadi,2018-08-25T18:05:04Z,0,"OMG, youre training speed is on another level. Unfortunately i can train only on CPU but can never imagine of such speeds!",True
+@JamesWattMusic,2018-08-25T16:53:59Z,0,And do a video on how to proceed from anomaly detection to supervised classifiers,True
+@JamesWattMusic,2018-08-25T16:53:24Z,0,Do some video on feature selection.  In particular how not following physical causality will hurt your model if not careful.  Forcing model updates,True
+@joshuaarulsamy1561,2018-08-25T16:41:54Z,0,Fantastic and very useful information! Thank you!,True
+@rand6626,2018-08-25T16:37:38Z,0,"Good job, very good tutorial!",True
+@helloworld4553,2018-08-25T16:09:33Z,15,"Hey Sentdex, an off-topic suggestion, can you please team up with Siraj to build a bigger community for AI?",True
+@shashankgupta6395,2018-08-25T16:02:31Z,0,Is there any way to run Deep Learning models on Tensorflow via AMD 530 graphics with 8gb ram,True
+@leocamacho1759,2018-08-25T15:56:46Z,0,"Please, support Harrison and his crippling mug addiction... A week ago it was a shark and today it’s a Mario mystery block. Luv the content tho, keep it up",True
+@alerigau564,2018-08-25T15:37:59Z,66,Time series prediction with RNN!,True
+@glorytoarstotzka330,2018-08-25T15:15:06Z,0,"really nice explaining in this video , it helped me a lot . Nice lucky cup [as always] , but i still have some questions/non questions: 1. i try to make a classifier with 3 classes , allies , enemies and pure nothing . When i train model with allies and enemies it has really good accuracy compared to when I add the class 'nothing' [ I have equal amounts of images of allies and enemies and 'nothing' (images of nothing are random buildings or paths in the game)] , so my question is : can I add option 'Do nothing' without adding an entire class of 'nothing' photos?  2. when I save and load my model and then predict first element of it , no I don't get an error , but I get a result like 0,89 or something like that and I don't get what it is (and google didn't help me)  3. in video you 'tried' a lot of options that consists of different numbers of conv_layers , dense_layers and nodes , but is it a good idea to try also a new optimizer/loss function  with this same method?   4. [not a question]  IF use_tensorflow_gpu_on_AMD_GPUS_is_possible == True :                please_make_a_tutorial_about_it = True",True
+@alemazzuca,2018-08-25T15:14:45Z,0,"Sorry, this question is out of this subject, but what program do you use for screen recording? Thanks a lot.",True
+@gcm4312,2018-08-25T15:02:20Z,43,25:20 fast.ai api sits on top of pytorch. The advantage of pytorch afaik is that you can have neural nets that adapt while running. It is not pre-compiled like tensorflow. This makes it more flexible. Researchers are mainly using pytorch nowadays because of this. The hot new stuff (like GANs) are easier to experiment with in pytorch.,True
+@gcm4312,2018-08-25T15:00:15Z,0,Harrison can you give some examples of where you've been applying NN in real use cases?,True
+@gcm4312,2018-08-25T14:55:19Z,0,Adding dropout might help with the 512 dense layer overfitting Edt: 24:00 annnnd you mention it 😆,True
+@greekassasin,2018-08-25T14:43:22Z,0,Can you speak in hindi language??,True
+@OkahiroEye,2018-08-25T14:27:41Z,2,"Another GREAT episode, thanks dude. As you discoverd that you were doing the same things as tensorflow experts when tweaking your meta-parameters, I just discovered today that I always did that to, what a nice feeling ;)",True
+@slavenya001,2018-08-25T14:24:19Z,1,"Sentdex, could you please create tutorial over session based sequential data? Next song at Spotify or something like it.",True
+@Nickle314,2018-08-25T14:19:00Z,0,Or Tune  https://ray.readthedocs.io/en/latest/tune.html,True
+@Nickle314,2018-08-25T14:12:37Z,0,hyperopt 0.1  Might be of interest,True
+@rezahosseini7851,2018-08-25T13:53:27Z,0,"People prefer Pytorch because it seems like a cooler api and as it has more code and its a bit more difficult to work with , they see their self a real pro data scientist!!! 😕",True
+@baltac1,2018-08-25T13:29:03Z,0,"I have a problem. When I'm trying to normalize my data (I tried both X /=255.0 and X= keras.utils.normalize(X)), my computer freezes. I checked the task manager and python is at %100 disk usage. Can someone help me with that? Or if I don't normalize my data will it decrease my model's accuracy?",True
+@liangyumin9405,2018-08-25T13:28:29Z,0,Nice!,True
+@julianodbz,2018-08-25T13:26:19Z,1,"I must say that you lost me in the previous video hahaha, I´m trying to figure out  how to save and load the data and to process with a custom image of a random dog or cat, It looks like that you  jumped to  improving the ML instead of showing what to do with what we already had",True
+@Allinone-uu8pz,2018-08-25T13:12:05Z,0,Hi,True
+@Hexarmin,2018-08-25T13:08:27Z,2,"If I wanted to get into deep learning, machine learning etc. Where would I start?",True
+@joebastulli,2018-08-23T15:05:06Z,3,Is it possible to view which features have the most impact on your predictions?,True

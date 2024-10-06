@@ -1,0 +1,18 @@
+author,updated_at,like_count,text,public
+@creativeclub2023,2019-06-06T23:58:19Z,2,Keep doing,True
+@norryowlmalahan5136,2019-03-23T18:20:06Z,1,"If you don't override the String() method and thus your Location is a struct, you use fmt.Printf(""%+v"", Location) to print out a struct.",True
+@hoodedwarrior8956,2018-12-23T19:09:36Z,0,Because you said we probably won't loop like that.. that's exactly how I looped. It actually helped me fill a map with struct values. Thought I was going insane. Ty,True
+@alwaysthirty,2018-11-14T08:44:31Z,1,"that laugh 4:32. nice tut, buddy!",True
+@ialmoqren,2018-05-06T22:11:03Z,1,"fmt.Println(Location) is giving me the same result as: fmt.Printf(""\n%s"", Location) so is there a reason you are using the second one, Thanks so much for your time.",True
+@MrBrij2385,2018-03-28T11:56:01Z,1,"Why don't you use ""autosave"" which can be configured to save files ""on focus lost""?",True
+@PiotrWas,2017-12-20T15:06:22Z,1,"What is the purpose of using capital ""L"" in Location in for loop?  for _, Location := range .....",True
+@nigeltiany,2017-11-21T23:44:08Z,0,"why is it that when I comment out the first for loop, the html it not showing as hyper links  package main  import (  ""net/http""  ""io/ioutil""  ""fmt""  ""encoding/xml"" )  type Location struct {  Loc string `xml:""loc""` }  type SiteMapIndex struct {  Locations []Location `xml:""sitemap""` }  func (l Location) String() string {  return ""<a href=\"""" + l.Loc + ""\"">"" + l.Loc + ""</a></br>"" }  func main () {  response, _ := http.Get(""https://www.washingtonpost.com/news-sitemap-index.xml"")  bytes , _ := ioutil.ReadAll(response.Body)  string_body := string(bytes)  response.Body.Close()   var s SiteMapIndex  xml.Unmarshal(bytes, &s)   http.HandleFunc(""/sitemap"", func(response http.ResponseWriter, request *http.Request) {   fmt.Fprintf(response, string_body)  })    http.HandleFunc(""/locations"", func(response http.ResponseWriter, request *http.Request) {   for i:=0; i<len(s.Locations); i++{    fmt.Fprintln(response,s.Locations[i])   }   for i:=0; i<len(s.Locations); i++{    fmt.Fprintln(response, i,"")"", s.Locations[i])   }   for index, Location := range s.Locations{    fmt.Fprint(response, index,"")"", Location)   }  })   http.ListenAndServe("":3000"", nil) }",True
+@MrGrayNk,2017-10-30T15:52:01Z,0,"Why would you ever tell someone that 5:06 is better than 5:50? Why would you declare local ""i"" variable that is used only in the loop outside of that loop, why would you even have ""i"" ""already declared in most cases""? In almost all cases that I have encountered you want either to iterate through all items (and so it's a local variable for that loop) or to do something to some items in the list (then i is passed as a parameter, but there's no point to iterate).",True
+@goldengold8568,2017-10-29T15:49:14Z,1,Are you videos being demonetized too?,True
+@myztic123,2017-10-29T15:08:36Z,11,"the lack of spaces in variable declarations (e.g., x:=5 instead of x := 5) is irritating me strongly",True
+@oleksandrzinkevych8553,2017-10-28T19:11:09Z,8,Please use gofmt tool. Read about code formatting a bit. It'll take less than 10 minutes.,True
+@mamazu1995,2017-10-28T18:56:11Z,0,So the range function in Go works like enumerate in Python?,True
+@furkanturkal8414,2017-10-28T18:51:38Z,0,How can i create a Do-While loop ? I've researched StackOverFlow but does not work very well. :(,True
+@tomerlev4087,2017-10-28T18:30:07Z,0,Yay. Another one.,True
+@eduardomoseisfuentes9912,2017-10-28T17:53:49Z,0,I'm first good video,True
+@anshulthakur3806,2017-10-28T17:52:20Z,0,👍,True

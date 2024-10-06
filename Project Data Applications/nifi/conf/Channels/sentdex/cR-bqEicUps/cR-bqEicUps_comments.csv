@@ -1,0 +1,9 @@
+author,updated_at,like_count,text,public
+@mustafaahmed8608,2019-01-07T12:10:08Z,0,i have dataset(csv ) from twitter can help me for tokenization and remove stopword ... pls help me,True
+@mehrdadbahador3542,2016-08-14T13:39:32Z,1,turned my Adblock off for this channel. Amazing content!,True
+@daniestrijdom8248,2015-07-05T07:49:34Z,0,"Really appreciate what you've put up here, very helpful and clear.",True
+@jayeshpatel007,2015-06-04T03:37:17Z,0,"JFYI............. ================ Not sure anyone noticed or not but i started facing following behavior in stock_sentdex_dates_full.csv showing value as mentioned below when i modified data it converted into this way. 1y,1m,3m,6m ------------------------------ 2015-04-09 00:22:27,vitc,-1,1y,1m,3m,6m,3.6,3.6039999999999996,3.602,3.6104 2015-04-09 00:22:30,vitc,4,1y,1m,3m,6m,3.6,3.6039999999999996,3.602,3.6096  ===========  df = pd.read_csv('stocks_sentdex.csv',dtype=object ) df.to_csv('stocks_sentdex_dates_full.1.csv',dtype=object)  Which resolved the issue. dtype=object.",True
+@0xsuperman,2015-04-18T17:11:33Z,1,"I wonder how the sentiment values are mined and created, if you have published a tutorial series on that, could you refer to the link? Thanks.",True
+@alemazzuca,2014-10-15T15:04:08Z,0,Hi. do I need a fast computer with high memory to run this chapter? because I did it and it killed my computer. Had to restart. I have a CPU Core2DUO 2.13GHZ with 2GB of memory,True
+@californiaesnuestra,2014-08-16T21:40:26Z,0,I needed to upgrade to pandas 0.8+ to get the to_datetime. working. You can use print(pd.version.version) ,True
+@samal3221,2014-05-20T02:34:04Z,0,"u are the best in the Python but Why do not you explain opengl python ""pyglet"" and thx Minecraft python https://github.com/fogleman/Minecraft/blob/master/main.py#L8",True

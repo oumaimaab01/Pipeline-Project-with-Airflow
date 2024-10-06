@@ -1,0 +1,226 @@
+author,updated_at,like_count,text,public
+@statquest,2021-09-11T13:53:17Z,38,"The full Neural Networks playlist, from the basics to deep learning, is here: https://www.youtube.com/watch?v=CqOfi41LfDw&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@ge13r,2024-05-08T05:54:13Z,1,"Saludos desde San Cristóbal, Venezuela!!!",True
+@viethoalam9958,2024-04-19T03:46:42Z,1,"give respect to my math teacher, but this is so much easier to understand.",True
+@zombieeplays3146,2024-04-11T16:36:31Z,1,I come to this channel for the intros tbh!,True
+@K9Megahertz,2024-04-10T03:47:55Z,0,At 11:22 you state that you use the chain rule to move the square to the front. Should that not be the power rule there?,True
+@GursimarSinghMiglani,2024-03-22T07:09:51Z,0,lame ass intros,True
+@victoraguiar5021,2024-03-21T06:54:48Z,1,Danke!,True
+@aminmoghaddam7624,2024-03-16T14:20:02Z,1,I wish our lecturers watched these videos before trying to make their own teaching slides! (With acknowledgement of course!),True
+@hyonnj9563,2024-03-15T17:44:38Z,1,Honestly you do a much better job at teaching using a pre recorded video than my instructors using both written and live materials that I'm paying for.,True
+@richfilms6307,2024-03-05T00:36:26Z,1,Unbelievable! Thank you!!,True
+@dianaayt,2024-03-02T11:06:57Z,0,11:32 where does the -1 comes from?,True
+@JamoliddinIloldinov,2024-02-19T10:48:01Z,0,"5:09 How did you get the curve from the bottom node that descends from left to right?  I just wonder why the directions of descends differ in each of the node.  Anyway, thanks for your great explanation Josh!",True
+@nithin3476,2024-02-18T08:40:28Z,0,at 15:16 you have done wrong i mean u forgot the d(orange+green+b3)/b3,True
+@raunak5344,2024-02-13T20:08:14Z,1,I just iterated on a gradient descent and found that this is the best possible way to teach this topic and no other lecture in the entire existence is better than this one,True
+@BlochSphere,2024-01-30T06:56:19Z,1,The level of detailing in this video is just 🤯 I hope i can try to make my Quantum Computing videos this clear!,True
+@faezeabdolinejad731,2024-01-06T09:56:06Z,1,Excellent,True
+@blago7daren,2024-01-04T21:43:15Z,0,Thanks for the videos! But I didn't understand how is it possible to take the derivative  d SSR/d Predicted if predicted points are already known values and not variables.,True
+@cthutu,2024-01-04T12:25:10Z,1,"Excellent content, excellent delivery - just bought your book!",True
+@d_polymorpha,2023-12-29T21:28:16Z,1,"Hello, thank you for the video! This series has been really helpful to learn about deep learning. I have a couple of questions.   1. When using gradient descent and backpropagation, do we always use SSR to measure how good a fit the parameter we are estimating is? Or are there other ways? 2. The second question is when using chain rule for calculating derivatives. The first part is d SSR/ d Predicted. In that first part @ 11:25 are you using chain rule again within that first part? And when deriving the inside Observed - Predicted @ 11:34 where do you get 0 and 1 from?",True
+@edphi,2023-11-17T03:17:12Z,1,It should be made a crime for anyone to see other videos on backpropagation before they reach Statquest. The world is confused by teachers who tell the big story before the basic. Learn the basic and the picture fall into place like the chain rule 😊,True
+@epistemophilicmetalhead9454,2023-11-14T07:54:14Z,1,"Back propagation (aka finding w's and b's)  start with b_final=0. you'll notice that error = (actual - predicted)^2 is really high. so you find the gradient descent of squared error wrt b_final and find out the value of b_final for which the squared error is minimum. that is your optimal b_final.  gradient descent: derivative of sum of squared errors wrt b_final = derivative of sum of squared errors wrt predicted value y * derivative of y wrt b_final.  d(y observed - y predicted)^2/d(y predicted) = -2*(y observed - y predicted)  d(y predicted)/d(b_final) = d(sum of all those previous curves obtained through each node of the layer + b_final)/d(b_final) = 0+0+0....+0+1=1  take the predicted curve ke x values and find the derivative/slope. step size = slope*learning rate. new b_final = old b_final - step size. keep repeating until slope touches 0. this is how gradient descent works and you've found your optimal b_final.",True
+@maxmustermann2707,2023-11-11T09:19:39Z,0,"Very good video! One hint: without ""bam"" would be even better",True
+@akeslx,2023-10-28T20:23:41Z,9,I finished business school 25 years ago where I studied statistics and math. So happy to see that neural networks are fundamentally just a (much) more advanced regression analysis.,True
+@aryabartarout5697,2023-10-27T05:03:25Z,1,"You have cleared my doubt on back propagation, gradient descent and chain rule.     Triple Bam !",True
+@SuperGrizzlybears,2023-10-04T05:39:19Z,0,"I have proceeded to Chapter19, in average each chapter I watch 3 times since I am brand new to neural network^^ Really appreciate your work, they do enlightened me! But their is piece of dark cloud floating over my neural networks (I guess only on mine): Since backpropagation is based on the thought of 'finding mix/max by derivative', will it end on a local optimal answer and thus miss the global optimal answer?",True
+@nicholasyuen9206,2023-09-28T06:44:57Z,0,"Hey Josh, another super informative video!  I'm curious on how the parameters in the hidden layer are optimised and in combination how does the network balance the optimisation between the parameters in both the hidden and the output layers? Would appreciate greatly if you have the time to make a video on it!",True
+@tremaineification,2023-09-21T19:56:22Z,0,How are you accounting for the parameters like the biases and weights?,True
+@tremaineification,2023-09-21T19:55:11Z,0,What’s b sub 3?,True
+@gauravpoudel7288,2023-08-31T16:49:50Z,1,Thank you so much,True
+@DanielRamBeats,2023-08-11T19:12:32Z,1,This is finally all making sense to me thank you,True
+@jeffmora5161,2023-08-10T05:01:46Z,0,"Hey Josh, quick question: why do we have to use gradient descent here instead of ordinary least squares and get the exact minimum of SSR? I could be wrong, but it looks like we could treat w3 and w4 like coefficients and b3 like the intercept and set their derivatives to 0",True
+@knt2112,2023-08-10T01:11:41Z,1,"Hello sir, Thanks for such an simple explanation, never understood back propagation in such a depth at this ease. 🎉",True
+@willw4096,2023-08-08T07:32:11Z,1,"Thanks for the great video!! My notes: 7:23 8:11 8:48 10:00 10:22❗,11:13 - 11:48, 11:56 12:08 13:30❗,",True
+@lukasaudir8,2023-07-31T21:49:10Z,1,I am really glad that people like you exist!!  Thank you so much for those incredible lessons,True
+@inllac8832,2023-07-27T06:24:40Z,0,"Thank you so much for the great video! but i am still a bit Kenfused over why the deriviate of orange and blue will be zero, and b3 will be 1?",True
+@Noor.kareem6,2023-07-14T22:31:05Z,0,"Thank you, I’m so grateful! I have a question about Feedforward neural network  Could we apply the Regression data to Feedforward neural network with back-propagation algorithm ? If yes How can we do it in R  I tried with neuralnet function but the error appeared when I set (algorithm = ‘backprop’)   Thank you for your help",True
+@alhaanali2502,2023-06-26T20:22:34Z,1,You got the best way to teach thank you❤,True
+@royazullay7556,2023-06-19T11:15:52Z,1,That Josh guy is just awsome !! Definitely will support !!,True
+@Luxcium,2023-06-12T06:14:01Z,0,Wow 😮 I didn't knew I had to watch the *Gradient Descent Step-by-Step!!!* before I can watch the video related to *Neural Networks part 2* that I must watch before I can watch the *The StatQuest Introduction To PyTorch...* before I can watch the *Introduction to coding neural networks with PyTorch and Lightning* 🌩️ (it’s something related to the cloud I understand)   I am genuinely so happy to learn about that stuff with you Josh❤ I will go watch the other videos first and then I will back propagate to this video...,True
+@midou6104,2023-06-05T18:38:31Z,0,"realy a grate vidio , just try to use animation lirery provided bay 3b1b  but you are grat contineu  -bad english ever 🤣🤣🤣🤣-",True
+@NoNameNoLastName,2023-06-04T18:29:36Z,0,Stupid question - this looks awfully similar to FFT. Why is this better?,True
+@gf1987,2023-05-25T10:52:41Z,1,very informative ty,True
+@TheTechno679,2023-05-16T16:45:37Z,0,Cant we just make a derivative of the function b3 to SSR and take the local minimum ? (making the derived function equal to 0),True
+@evie389,2023-05-08T03:20:14Z,1,"I was reading an article based on Backpropagation and I did not understand a single word. I had to watch all your videos starting from Chain Rule, Gradient Descent, NNs...I re-read the article and understood everything!!! But now I can't get the beep--boop and small/double/triple/ bam out of my head lol.",True
+@yasameenmohammed4366,2023-05-04T20:46:02Z,2,My Machine Learning exam is tomorrow and re-watching your videos to review concepts is helping me so much! Thank you!!!,True
+@seanlynch4354,2023-05-02T22:12:20Z,0,"Also is b3 technically an intercept for the green squiggle, as it is shifting where the squiggle starts on the y axis?",True
+@seanlynch4354,2023-05-02T22:02:57Z,0,"May I ask, when you say the ""derivative of the predicted value"", is that the same as saying the ""derivative of the residual"" (observed - predicted)? So in this case observed would become zero and predicted would become -1",True
+@JamesWasTakenOhWell,2023-04-24T23:44:48Z,1,Thank you for the amazing effort you put into this video and BAM!!! as always!,True
+@Xayuap,2023-04-17T22:17:05Z,2,¡duble bam!,True
+@user-fc9xo4zy6j,2023-04-07T23:15:30Z,0,"Dear Josh, you are the best, thank you so much for your hard work and sharing your wisdom with the world!  I am a bit confused about one point and I would much appreciate any explanation, as internet searches weren't too helpful... Why do we use the chain rule to arrive at the dSSR/dB3 instead of just calculating directly that derivative of SSR w.r.t. B3 (bias 3)?   Thank you!!",True
+@rammfreakserb,2023-04-03T16:40:38Z,1,"This is great, but why don't you explain how to get all the weights and biases, especially the weights on the two sides?",True
+@mike___-fi5kp,2023-03-15T17:57:18Z,1,You always are the best.,True
+@laodrofotic7713,2023-03-15T00:46:02Z,0,"This one is a miss for me, instead of making it easier it is confusing as hell.",True
+@andikabahari4106,2023-03-13T06:50:35Z,1,thank you :D,True
+@peki_ooooooo,2023-03-09T10:32:49Z,1,You are so awesome! I like yourself promotion.🤩,True
+@rozt107,2023-02-28T17:49:26Z,0,"I've tried to realise this in code, but probably made something wrong. When i adjust only last bias3, it works, when adjust bias3 and weight3 (or weight4). It also works if i adjust only weight3 and weight4. But when i adjust three parameters simultaneously (bias3, weight3, weight4), something goes wrong and SSR becomes big....",True
+@josephif,2023-02-17T10:18:11Z,1,"Lecture was awesome,more affective and easy to understand Thanks",True
+@madghostek3026,2023-02-01T13:58:04Z,2,"9:00 at this moment I realised I'm watching the best math content on earth, because you never see simple stuff like this being given attention to. Luckily I already know how summation symbol works, but I didn't know it in the past, and nobody cared to explain. But it's just not about the summation symbol, imagine the other 1000 small things somebody might not understand, and doesn't realise they don't understand, because it's been skimmed over",True
+@vokoramusyuriy106,2023-01-29T06:44:10Z,1,"Thanks a lot, Josh!",True
+@yiliu5403,2023-01-29T04:09:22Z,1,Best Neural Networks Lectures! Just ordered the book from Amazon to support!,True
+@bengodw,2022-12-28T20:48:13Z,0,"Thanks for your great work! And I also have watched your Chain Rule video too, but I still have a question as below. At timestamp 11:36, as the derivative was taken towards the whole equation, so all such (Observed - Predicted) terms should become -1. Why does the term (Observed - Predicted) still remain in the final equation? i.e. The equation should become ""Σ 2 * -1"", rather than ""Σ 2 * (Observedi - Predictedi) * -1""",True
+@jblacktube,2022-12-13T12:39:00Z,1,"I didn't even get through the jingle before I gave a thumbs up. Thanks for the chuckle, can't wait to watch the rest of this!",True
+@perhaps467,2022-12-06T14:55:38Z,1,Thank you so much for this series! I haven’t been able to find any other videos that really break down the mechanics of neural networks like this.,True
+@ClosiusBeg,2022-11-29T16:39:57Z,0,"12:20 - why d_blue/d_b3 = 0 due to their independence? Derivative is 0 if there is no changes, but if they are independent - it is not defined. Hmm.. Sorry maybe my question is stupid, but it is not mee it is my weed",True
+@nojoodothmanal-ghamdi1026,2022-11-21T11:52:46Z,1,I . JUST . LOVE . YOUR . CHANNEL !!  you literly explain things very clearly and step by step! I just cannot thank you enough really,True
+@jieunboy,2022-11-18T01:32:13Z,1,"insane teaching quality, thanks !",True
+@pomiro,2022-11-17T09:47:49Z,0,Thanks!,True
+@charliejensen4095,2022-11-15T16:27:30Z,0,"Just a plea, please don't use colour coding. Red and green are common problem colours for the colourblind, suggest using cross hatching instead.",True
+@VishalKhopkar1296,2022-10-24T23:58:26Z,1,"you taught this better than professors at CMU, not kidding",True
+@advaithsahasranamam6170,2022-10-19T05:09:08Z,15,"This is excellent stuff! As a visual learner, your channel is a BLESSING. Thank you so much for your fantastic work on breaking down concepts into small, bite-sized pieces. It's much less intimidating, and you deserve so much more appreciation . You also gained my subscription to your channel!  Keep doing a great job, and thank you SO MUCH for having my back!",True
+@nickpelov,2022-10-16T10:52:59Z,0,Why do we square the errors?,True
+@hamzasaaran3011,2022-10-10T05:59:34Z,14,"I am studying for a Master's degree in bioinformatics now, and as someone who knows little about statistics, I really can't thank you enough for your videos and the effort that you have put into them.",True
+@tagoreji2143,2022-09-27T04:57:51Z,1,"Teaching such complicated topics in a simple, Easily Understandable way.👏👏👏.Thank you, Professor",True
+@yonasbefirdu5575,2022-08-21T11:45:57Z,1,You rescued me from the unknown!! Much Love from Ethiopia,True
+@Amir-gc8re,2022-08-14T17:31:39Z,1,"Finally a proper, detailed, step by step explanation. This guy is absolutely AMAZING !  Thank you so much for all the hard work in putting these videos together for us.",True
+@ngusumakofu1,2022-08-13T02:53:39Z,1,Bam!,True
+@mjcampbell1183,2022-08-04T19:32:04Z,1,"Wow! This is an incredible video. Thank you SO MUCH for making this for us. This is one of the best videos I've seen to explain this concept. The hard work you have put into this is something that I am incredibly appreciative of. Thanks, man.",True
+@babarali4313,2022-07-23T18:30:37Z,2,"Its the teacher who makes the Subject easy or difficult and the way you explained Neural Network, I am speechless",True
+@mahdiamrollahi8456,2022-07-23T16:11:56Z,0,"Hello, just have a question: in dnn, sometimes we have a complicated estimated function at the end including many multiplication and applying activation functions. How do we know that is differentiable or not? We just add layers and changing activation fn without knowing it.",True
+@murali5600,2022-07-18T17:25:22Z,0,I did not understand how did you assume the initial parameters like that? can you please explain?,True
+@santiagomarino9233,2022-07-13T18:36:42Z,0,"Hi, I apologize for my terrible English but I am using Google Translator. I have a doubt: To calculate the Bias3 would it not be enough to do a simple calculation?   Bias3_new = ((input * w) + Bias3_old) - (predicted_value - expected_value)  I find no sense in applying derivatives. Is there anything I can't see? I swear that I have done the calculation many times and really it is enough to do a simple calculation ... where am I wrong?",True
+@lisun7158,2022-07-10T17:59:13Z,1,"[Notes]  3:00  ""Backpropagation starts from the last parameter and works its way backwards to estimate all of the other parameters"". 10:40 The Chain Rule [Question] 3:22 Why is it reasonable that we assume all other optimal parameters are known except the last one in this part?  Because in practice, we use dynamic programming (backpropagation) to save computing time complexity, i.e., calculating the last layer first, then backward through the NN. -- ref.: https://www.youtube.com/watch?v=iyn2zdALii8&ab_channel=StatQuestwithJoshStarmer https://www.youtube.com/watch?v=GKZoOHXGcLo&ab_channel=StatQuestwithJoshStarmer",True
+@xXMaDGaMeR,2022-07-10T14:41:29Z,1,amazing content <3,True
+@chrislee4531,2022-06-30T03:27:30Z,1,I learn more from four of your videos than 200 pages of textbook gibberish,True
+@TheTehnigga,2022-06-14T19:21:30Z,1,Yay!,True
+@ElNick09,2022-06-05T19:16:14Z,24,"I have been a student my entire life and have taught college level courses myself, and I must say you are one of the finest lecturers I have ever seen. This statquest is a gem. Your work is so succinct and clear its as much art as it is instruction. Thank you for this incredible resource!",True
+@aravindsuresh7234,2022-05-25T20:00:11Z,0,How do we get the values of w1 w2 w3 w4 and b1 b2 b3. You are saying that it is already optimized how are we arriving at it sir?,True
+@mauriciobonetti8152,2022-05-23T17:53:41Z,1,This is amazing thank you very much!,True
+@louisrose7823,2022-05-19T11:40:32Z,1,Great video !,True
+@sivanschwartz3813,2022-05-13T11:54:34Z,1,"Josh thank you so much, great as usual :) Im having a question, would it be more ""fully explained"" to say: dSSR/db_3 = dSSR/dResiduals * dResiduals/dPredicted * dPredicted/db_3 ? Thanks!",True
+@David5005ful,2022-05-11T05:57:55Z,1,The type of in depth video I’ve always wanted!,True
+@AG-dt7we,2022-05-07T08:42:46Z,0,"Thanks, this and the previous intution on how neural network can fit a complex squiggle is amazing explanations. at 3:25 we assumed all other parameters except b3 were optimised already. but in practice we would begin with all parameters unknow (randomly initialied / using some initialiser). Is that right ?",True
+@justinlim7598,2022-05-04T11:28:29Z,1,The chain rule !!!!!!!!!!!,True
+@amirhossientakeh5540,2022-05-02T16:06:43Z,1,perfect  you explain complicated things  very underatandable it's amazing,True
+@zhenyuhe1537,2022-04-29T02:28:05Z,0,You can imagine how complicated professors explain it when even stat quest has to use equations,True
+@hegyihedi,2022-04-19T17:57:04Z,0,"For Chrissake, why is the video subtitled in Turkish (I presume)? Is there a way to get rid of it?",True
+@glenneric1,2022-04-04T10:38:59Z,0,I always hear 'knurled network'. Like it's a big knotty piece of wood.,True
+@mmbadgers7813,2022-03-30T12:03:02Z,0,I really appreciate your videos. What software/tool did you use to create it ?,True
+@iskrega,2022-03-24T20:41:34Z,16,"I just want you to know your channel has been instrumental in helping me towards my Data Science degree, I'm currently in my last semester. I'll be forever grateful for your channel and the time you take to make these videos. Thank you so much.",True
+@tselmeguriankhai5725,2022-03-11T11:22:04Z,1,soft plus: toilet paper relu: robot all I have remembered,True
+@bavidlynx3409,2022-02-24T15:09:50Z,0,everything is ok but how i=am i supposed to explain all this in my uni exams. all these videos are very informative but i still dont know what am i suppoed to write,True
+@tooljerk666,2022-02-13T00:03:50Z,0,"Does the neural network go through this process for every single parameter for each epoch (weighs, biases, etc.)?",True
+@Cam-su7os,2022-02-03T15:05:32Z,1,"It actually baffles me how videos like this are free, yet we have to pay astronomical amounts for sub-standard tuition where we are made to feel stupid.",True
+@superk9059,2022-01-31T12:24:17Z,1,"Thank you very much for your video~ Your videos make me feel that studying English make so much sense, otherwise I can't enjoy such beautiful thing~ 👍👍👍❤❤❤",True
+@douglasespindola5185,2022-01-28T13:10:01Z,2,"If statistics were a religion, Josh would be it's pope.",True
+@tooljerk666,2022-01-27T00:24:34Z,0,"at timestamp 11:32, where did 0 + -1 come from? Is the choosing of -1 just a random example? Also, why would the derivative of b3 be 1? isn't the derivative of 0, 0?",True
+@pranjalpatil9659,2021-12-30T10:46:32Z,1,Perfect explanation!,True
+@mahmoudkhadijeh4885,2021-12-23T19:25:37Z,1,You did a great job!. Thank you so much,True
+@vincentjonathan,2021-12-22T08:09:38Z,2,nice teaching sir,True
+@manalisingh1128,2021-12-21T16:40:19Z,7,Wow Josh way to go!!!! You have the concepts so clear in your own head that it seems a piece of cake for us 🍰♥️ Love from India! 🇮🇳,True
+@xiaoshengli8205,2021-12-21T09:58:30Z,1,u r amazing! ur effort r so impressive!,True
+@wong4359,2021-12-20T15:57:25Z,1,"I found your explanation is far more easier to understand than the edx online course I am taking, BAM !!!",True
+@maliknauman3566,2021-12-09T18:55:31Z,1,How amazing is the way you convey complex concepts.,True
+@sarazahoor9133,2021-12-07T15:23:56Z,1,"For the first time ever in history, I have understood the concept behind Neural Networks! BAM!!!! :D Thanks Josh, so grateful :)",True
+@kush-909,2021-11-24T09:11:20Z,0,U r my fav,True
+@dylanriley4364,2021-11-21T17:35:30Z,0,why does he make it so complicated calculating dSSR/dPredicted he uses the chain rule when you don't need to. You can just use the power rule (observed-predicted)^2 = o^2 - 2op + p^2  = 0 - 2o + 2p = 2p - 2o,True
+@digitaldog330,2021-11-17T10:24:40Z,0,"Firstly, this video is incredibly helpful. Not using the notation makes learning back propagation soo much easier. Secondly, I am a bit confused with the ssr. Why is there a sum? I thought you use each output node as the observed and in this example there is only one node so why is there a sum? Sorry if this is a stupid question but I am very confused.",True
+@TheLOL9842,2021-11-16T09:41:24Z,0,"The only big thing about this video is that you choose to call it residual instead of loss / Error, and that you don't introduces the term loss function, as I have found no articles on this topic using the terms residual and SSR.",True
+@TheMrKingplays,2021-11-15T19:16:02Z,1,"I wish I had the medium drug dosage against that virus… PS: Thanks for the video, you are amazing!!!",True
+@vishnukeyen7244,2021-11-10T14:10:56Z,1,"I have a small suggestion for your otherwise AWESOME videos. Please use colorblind friendly colors in your videos. Green and Red are indistinguishable for me, so sometime I dont get the visual distinction you are drawing! I Again its not a complaint, just a suggestion.  Thanks a lot for making these videos, I cannot stress enough how useful they are for me!",True
+@O5MO,2021-10-28T18:34:13Z,1,"I never understood backpropagation. I knew some things from other tutorials, but as for beigginer, it was very hard to understand. This video (and probably series) is the best i could find. Thank you.",True
+@davidericmendes1528,2021-10-25T17:59:37Z,0,People downvoting this need to start using softplus in their homes.,True
+@hrsight,2021-10-19T04:20:35Z,1,good video,True
+@jays9591,2021-10-13T16:08:16Z,3,"May I say .... You are such a good teacher that it is most enjoyable to watch your videos. I am proficient in statistics (via university econometrics 101) ... and I did not realise all those fancy terms in machine learning are actually concepts that are common items in the stats that I learned in the 1970s, e.g., biases and weights, label, activation functions etc. Anyway, I can see that a lot of viewers appreciate your work and teaching. I have also 'updated' myself. Thank you.",True
+@masoudheydari2119,2021-10-13T09:13:58Z,1,your channel is amazing...,True
+@seathru1232,2021-10-07T22:01:29Z,0,"Thank you Josh, great video. I just don't get the idea behind using the chain rule in this example. Why should we use the derivative of the SSR with respect to the predicted values?",True
+@RobertWF42,2021-10-04T03:42:27Z,0,"Thank you for this brilliant explanation of backpropagation! :-)  Question regarding the Chain Rule, where you take the derivative of the SSR with respect to predicted values. By predicted value I'm assuming you mean the expected value of Y, which is a function of the weights and biases in the neural network.  But how do take the derivative of a parameter, such as the SSR, with respect to a function?",True
+@kamaleshsenthilmurugan1561,2021-09-22T05:42:24Z,0,Awesome lecture,True
+@preetikharb8283,2021-09-13T10:05:37Z,1,"This video made my day, thank you so much, Josh!!",True
+@statquest,2021-09-11T13:53:17Z,38,"The full Neural Networks playlist, from the basics to deep learning, is here: https://www.youtube.com/watch?v=CqOfi41LfDw&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/",True
+@harishbattula2672,2021-09-11T10:15:57Z,1,great explanation sir. Tripple BAM........kudos to your presentation.,True
+@mot7,2021-08-29T20:45:22Z,7,You are the best. I wish every ML learner find you first. I am going to do my part and tweet about you. Thanks for making these videos! Wish you more success.,True
+@adityams1659,2021-08-24T13:18:10Z,1,ohh that was smooth!!!,True
+@estrelladelrocioortizmacia6676,2021-07-29T01:49:53Z,3,"Gracias wn, te beso las patas",True
+@julescesar4779,2021-07-25T02:41:27Z,1,BAM!!!,True
+@Pruthvikajaykumar,2021-07-22T11:05:14Z,0,fuckin squiggle fittin machines,True
+@adamleon8504,2021-06-24T11:23:46Z,0,thanks for the video. But what we do at the start when we do not know the optimal value for any parameter,True
+@mohammedalwersh950,2021-06-21T22:22:28Z,1,"Now , its very easy  Bam!!!",True
+@sumayyakamal8857,2021-06-01T10:29:01Z,0,"A question, the error symbol δ ""local gradient"" is literally which of these dc/dw, dc/da or da/dw? Thank you.",True
+@eddiealchemist,2021-05-14T16:40:19Z,0,I lost it at 11:30.. what?? Gotta keep watching it.,True
+@ibrahimkoz1983,2021-04-25T17:55:13Z,0,Why don't we solve for the equation that evaluates to 0 so as to find the value for b3 that holds for this equation instead of getting closer and closer to find the sought value?,True
+@jayakumar2103,2021-04-24T08:28:06Z,0,Sir can we say we are fitting a swiggle(non linear equation) to the data using two swiggles (two non linear equations). Sir if this is valid then why can't we fit swiggle to the data only with single non linear equation?,True
+@ahmadatta66,2021-04-19T19:17:45Z,1,I live for your songs :'D,True
+@dinara8571,2021-04-12T14:49:22Z,2,"JUST WOW! Thank you so much, Josh! I cannot express the feeling I had when EVERYTHING made sense!!! TRIPLE BAM! Never thought I would be extremely excited to pause the video and try to solve everything by hand before I look at the next steps",True
+@4wanys,2021-04-09T18:04:52Z,1,thank you very helpful i hope if you explain the sigmoid function also,True
+@ericdarcy,2021-04-08T12:16:37Z,1,Loving it,True
+@MLGGCrisps,2021-04-05T15:04:17Z,1,"damn, there you really are the best",True
+@iliasaarab7922,2021-04-04T10:51:26Z,2,Best explanation that I've seen so far on backpropagation!,True
+@mtstans,2021-04-03T19:07:17Z,0,why are the residuals squared and summed rather than for instance using absolute values of the difference? Thanks and keep up the great work.,True
+@ayush9psycho,2021-03-28T12:22:46Z,0,This channel is fucking BAM!!!Amazing explanations!!,True
+@tangkitty411,2021-03-28T12:20:53Z,0,"sorry, I still don't understand how to find the parameters except the last one. Which part should I focus on?",True
+@techseedpro160,2021-03-25T19:16:34Z,0,Bam!! For entire NN... Their is fix learning rate or it changes.....,True
+@ssanand3,2021-03-19T03:48:29Z,1,I wish someday you make a video in person so that we can see the saint behind the voice 😀,True
+@codeman2,2021-03-13T20:45:07Z,1,"I searched neural net and again your video popped that too just 4 month old, love to get your helpful videos right before my semester",True
+@aviknash,2021-03-11T06:44:45Z,2,Excellent job Josh!!! Just loved it!!! Thanks a ton for your fun-filled tutorials :),True
+@mohammadrahman1126,2021-03-02T12:49:18Z,32,Amazing explanation! I've spent years trying to learn this and it always went too quickly into the gory mathematical details. Aha moment for me was when green squiggle equal blue plus orange squiggles lol Thank you for this Josh!!!,True
+@bekarysnurtay8812,2021-02-26T17:00:01Z,1,Try to listen opening song in 1.5x.,True
+@animehub846,2021-02-25T07:10:00Z,0,Owsm content,True
+@catherinehiggins4526,2021-02-23T22:43:15Z,0,Why is the derivate of the predictive value -1 at 11;33 ? Thanks,True
+@katwoods8514,2021-02-14T15:30:16Z,60,omg yay! I just discovered that you've made a million videos on ML. I'm going to go binge all of them now :D,True
+@katwoods8514,2021-02-14T15:26:27Z,14,"Love this! You've explained it far better than anywhere else I've seen, and you made it entertaining at the same time! Thank you so much for making this.",True
+@constantthomas3830,2021-02-11T00:12:07Z,1,Thank you from France,True
+@vigneshvicky6720,2021-02-03T16:35:24Z,1,Masss💥,True
+,2021-02-03T14:44:40Z,0,I don't understand how you got the bias and weight values of each node,True
+@evangeliamm,2021-02-02T15:12:49Z,8,"You have no idea how much I appreciate your work. Your explanations are so fun and simple, I'm just so grateful!",True
+@spearchew,2021-01-28T12:17:03Z,0,great video as always but.... around 11:20-11:40 that is a very difficult but important segment to follow... bit fast for me,True
+@richarda1630,2021-01-17T01:48:46Z,1,Where were you 5 years ago???!?!?! :D Awesome work man! Keep it up :),True
+@alexissanchezbro,2021-01-10T09:27:00Z,1,Your getting better and better. Thank you,True
+@vrindasinghal3654,2020-12-22T04:56:51Z,0,every time you say BAM I think BAM matrix ..,True
+@saeedabdolahi8223,2020-12-13T11:26:15Z,1,"I really like your lessons guys, way2go",True
+@rishabhtiwari5257,2020-12-13T05:39:00Z,0,"Wait clear me one thing.  When calculating bias b3 you estimated all other weights and bias in the network, but how we know them.",True
+@piyushborse3085,2020-12-08T11:38:41Z,2,The man is Messiah 😌🙏,True
+@harisaditama164,2020-12-05T08:21:31Z,0,How to you get the green optimal values,True
+@jotajota278,2020-12-04T11:45:03Z,1,Legend,True
+@jennystephens3215,2020-12-02T03:22:41Z,2,"Josh, this is amazing. You really make things so easy to visualise which is crazy considering the hidden networks are meant to be so hard that they are referred to as black box! Thanks for all your videos. I have used heaps over the last twelve months. Thank you again.",True
+@jeffery_tang,2020-11-30T12:18:00Z,1,cool intro,True
+@Kmysiak1,2020-11-28T20:54:20Z,0,"I'm at 11:32 in the video.  Why is your second derivative 0 + -1?  Where did that -1 come from? Shouldn't the derivative of the ""inside"" just be zero as they are both constants? Thanks!",True
+@anasmomani647,2020-11-17T23:36:46Z,2,you make me regret taking any online course .. just wait your next videos,True
+@TheClearwall,2020-11-17T16:37:44Z,1,"Who else is using these videos to put together a semester project? So far, I've put Regression Trees, K-fold CV, complexity pruning, and now Neural networks as my final model construction. Josh is worth a double bam every time.",True
+@mona5112,2020-11-17T08:34:13Z,0,Hello Josh. First let me Thanks for your great videos that makes us more eager to learn about Data Science. Second I have a question. Can You Please explain the difference between Neural Network and Deep Learning if there is any?? They seem to look just the same I think!! I've  looked some content but couldn't get any useful thing. Anyway thank you so much for your simplicity and kindness.,True
+@bhaskersuri1541,2020-11-14T04:47:27Z,0,shut up and take my LIKE,True
+@utkugulgec5508,2020-11-08T22:41:45Z,1,These videos should be protected at all costs,True
+@deepanjan1234,2020-11-01T19:14:57Z,3,This is really awesome. I thank you for your effort in developing this highly enriched content. BAM !!!,True
+@jonforce360,2020-10-31T17:41:30Z,175,"You released this video just in time for my AI exam! Thank you. Sometimes I think professors use really complex notation just to feel smarter than students, it doesn't help learning. I love your content.",True
+@Fzp450,2020-10-30T15:57:37Z,1,Are you Jesus? Honestly I mean,True
+@Morais115,2020-10-30T11:04:48Z,1,I'm buying the shirt! Kudos to you sir.,True
+@user-re1bi2bc8b,2020-10-29T04:33:31Z,2,Incredible. Sometimes I need a refresher on these topics. There’s much to remember as a data scientist. I’m so glad I found your channel!,True
+@KomangWahyuTrisna,2020-10-28T06:38:24Z,0,"Hello, Josh. Greetings from Bali, Indonesia. Anyway, will you make a python tutorial for every neural network video? Thanks",True
+@rotters2556,2020-10-27T20:29:58Z,0,Great explanatioh! Do you think you'd make videos about more advanced neural networks in the future?,True
+@akshayjain7521,2020-10-26T18:51:15Z,1,Bam I love this channel and your songs :),True
+@mashmesh,2020-10-24T07:32:31Z,5,"Omg, protect this man at all costs, this was pure gold!!!  Also, thank you, sir, for talking so slowly because if my brain squiggles need to work faster they will burn up x)",True
+@damienhood3306,2020-10-24T02:58:23Z,0,Can my box be purple? Black is boring.,True
+@deepanshudashora5887,2020-10-23T12:55:54Z,1,"I want backpropagation video , josh bammmm",True
+@karthikvijayasarathi89,2020-10-22T23:01:15Z,0,When is the next part  coming?????  BAAAAAM,True
+@videos4mydad,2020-10-22T02:18:25Z,0,Hi Please consider putting a cryptocurrency address in your videos or description for us to donate painlessly - I recommend Bitcoin Cash.,True
+@miriza2,2020-10-19T23:47:49Z,1,BAM! Thanks Josh! You’re the best! Got myself a pink T-shirt 😍😍😍,True
+@SPLICY,2020-10-19T23:39:45Z,6,The understated BAM at 4:40 cracked me up 😂,True
+@miriza2,2020-10-19T23:21:07Z,1,Yayyyyy,True
+@xuantungnguyen9719,2020-10-19T23:18:51Z,2,StatQuest is the best,True
+@benyang6789,2020-10-19T19:52:03Z,0,"BAM!!!! Awesome, I love videos. BTW, Mr Starmer, can you do a video for PLS( partial least squares).  Thank in advance",True
+@marpin6162,2020-10-19T13:36:45Z,1,Thank you. Now everything is more clear.,True
+@aamirsiddiqui3048,2020-10-19T12:49:33Z,1,Double bam.,True
+@howaikeong7768,2020-10-19T12:15:00Z,1,Bam,True
+@badalgupta2761,2020-10-19T12:08:05Z,0,Expected value video,True
+@dcscla,2020-10-19T11:49:17Z,117,"Man, your promotions are not shameless! Actually, what you do is a gift for us, for the price that you charge and for the level of the content, we are being gifted and not a buying something. You are far better than a lot of paid (and expensive) courses. Just check out your video comments to see how people few happy when they discover your videos!! Great work as always. Thank you so much!!!👏🏻👏🏻👏🏻👏🏻",True
+@teetanrobotics5363,2020-10-19T11:39:41Z,3,Waiting for a complete DL playlist,True
+@bryankoh6315,2020-10-19T09:19:22Z,1,Thank you king,True
+@terrepus9856,2020-10-19T08:48:54Z,1,The time couln't be more perfect ... 3 hours before my machine learning exam !! Thank you!!!!,True
+@ucanhnguyen4751,2020-10-19T05:57:20Z,2,"Thank you for this video. I have been waiting for this all the time. Finally, it appeared just 1 day before my exam. You are a life saver!!",True
+@masteronepiece6559,2020-10-19T05:51:32Z,2,"Epic BAM!  Thank you Sir. for the hard work.  Please, can you add at the end of each video some references to follow, like books or papers.  Best regards,",True
+@user-re4xt7dd7d,2020-10-19T05:44:54Z,1,so good. can't wait for the next one!,True
+@mrglootie101,2020-10-19T05:15:19Z,6,I've been waiting for this all the time checking the notification haha,True
+@akashsoni5870,2020-10-19T04:24:12Z,1,"Thanks a lot Sir,  was waiting for this",True
+@ML-jx5zo,2020-10-19T04:17:36Z,18,"Now Iam reading backpropagation, I worried about this vedio didn't came for long time , And finally I got a treasure.",True
+@mratanusarkar,2020-10-19T04:16:15Z,1,Oooh man!! It was a Looooooogg Wait !!!!!!!,True
+@quangvuong4089,2020-10-19T04:15:33Z,2,Long time no hear your voice :D Thank u.,True
+@sandeshbirla4331,2020-10-19T04:08:23Z,1,Thank you 😊! ..... first comment.....👍,True
+@chandank5266,2020-10-19T04:02:50Z,2,Thanks man❤️,True
+@abhishekm4996,2020-10-19T04:02:06Z,2,Much waiting.... Finally came..,True
+@ClaseS-1010,2020-10-19T04:01:38Z,2,"First! (well, almost)",True
+@shichengguo8064,2020-10-14T02:11:57Z,3,"Hi Josh, I remember you have a video about HMM, but I cannot find it again.",True
+@igorg4129,2020-10-13T11:05:03Z,1,"Josh, finished watching. Thank you again 1 If I as a researcher know +/-  which range of inputs I am going to insert, and which range of outputs I expect to get in the end, will I want to adjust somehow from the very beginning the weights range, maybe weights distribution, same thing about biases and same about activation functions, or today we let the algorithm to do this job? 2 most interesting question: Lets say that while finding the prediction curve we kind of discover some ""hidden truth"". I think our curve might never be exact also because we  do not know all of the independent variables which in nature affect our dependent variable.  Say we know one, but there is another one which we do not know about.  If so, will it be right to say that when neural network with one input splits the input by different weights into two neurons of a hidden layer  (from which the final output is calculated), it is like simulating somehow presence of another ""secret independent variable"" even without knowing what it is? Thanks",True
+@unknown-otter,2020-10-13T01:59:27Z,1,Hey!,True
+@igorg4129,2020-10-12T21:05:17Z,3,Thanks Josh! you simply the best,True
+@ksrajavel,2020-10-12T20:56:09Z,77,Finally. The wait is overBAM!!!,True

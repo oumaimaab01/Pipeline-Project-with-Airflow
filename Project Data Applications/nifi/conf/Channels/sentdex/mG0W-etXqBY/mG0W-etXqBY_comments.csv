@@ -1,0 +1,54 @@
+author,updated_at,like_count,text,public
+@Sehyo,2019-02-09T07:44:15Z,0,Stalkers take 2 supply so it should be self.supply_left > 1 instead of >0,True
+@szecek,2018-12-21T14:53:31Z,0,I think instead of self.supply_left > 0 you can use function can_feed(),True
+@ethanhowlett2227,2018-12-18T15:50:08Z,2,"I had a problem where the AI would not build the gateway or cybernetics core. I noticed that the process would start if I manually made a gateway. So I rearranged the code like this,      async def offensive_force_buildings(self):         if self.units(PYLON).ready.exists:             pylon = self.units(PYLON).ready.random              if len(self.units(GATEWAY)) < 3:                 if self.can_afford(GATEWAY) and not self.already_pending(GATEWAY):                     await self.build(GATEWAY, near=pylon)              elif self.units(GATEWAY).ready.exists and not self.units(CYBERNETICSCORE):                 if self.can_afford(CYBERNETICSCORE) and not self.already_pending(CYBERNETICSCORE):                     await self.build(CYBERNETICSCORE, near=pylon)  And it works fine! Hope this helps anyone out.",True
+@malteschneider7266,2018-11-16T16:58:05Z,0,"Too complicated, you tried to do what they did with conventional chess engines, rules rules and more rules, just give them the video and audio input and let it learn to maximize a score, beginning with random commands. Thats how they did it with alphago zero",True
+@AIvetmed,2018-11-04T12:17:24Z,0,I have a doubt!! how have you built stalker from gateway? we can build stalker from cybernetics core only right??? or cybernetics core only unlocks a stalker for us and we can build them via gateway itself!!! which one is true?,True
+@ChupachuGames,2018-09-21T04:06:05Z,0,"In terms of expansion, only expand when you are in no danger (scouted for an army and none/ <equal army was found) and every nexus has 22 workers working (16 mineral, 6 gas)",True
+@compactwoodhplcladding,2018-07-26T13:42:28Z,0,"So, How you design the software for giving ❤️ to our comments?",True
+@bryancc2012,2018-07-15T00:35:53Z,0,Zealot is very powerful,True
+@SeamusHarper1234,2018-07-07T21:33:08Z,0,"Hey, is it possible to test out this bot against a human player?",True
+@mikelezhnin8601,2018-07-06T17:49:36Z,2,"7:48 -- a stalker actually costs 2 supply, so maybe it should be self.supply_left > 1.",True
+@terribleyoutubecook6805,2018-07-02T10:34:54Z,2,6:22 Ima firin' mah machine gun,True
+@terribleyoutubecook6805,2018-07-02T09:12:00Z,0,"I don't know all that much (anything at all) about Deep Learning and reinforcement learning, but is it a possibility with training bots to just use YouTube professional play like the ESL to generate models?",True
+@lucav4045,2018-06-25T12:47:04Z,9,"Would have been better if topic was ""Building an AI army in rl""",True
+@AbhishekKumar-mq1tt,2018-06-25T07:06:09Z,0,Thank u for this awesome video,True
+@businassman,2018-06-25T06:52:31Z,3,"Sentdex, you know we are here for some neural network tricks for sc2... but this also nice, thx)",True
+@micahchurch5733,2018-06-25T05:04:32Z,0,Seriously tho man i love ai and coding and the starcraft series these are great keep it up,True
+@micahchurch5733,2018-06-25T04:58:40Z,0,"Hey man, quick question, as a sublime user as well how did you make it so you got pythons warnings and flags for errors, im sure its not complicated just wondering what package is all",True
+@NoradNoxtus,2018-06-25T04:37:02Z,1,"I went through these in an hour, GAWD I need MOAR!!",True
+@Robin-xp4qm,2018-06-25T01:24:28Z,1,You're a godamn hero,True
+@LinusBenjamin,2018-06-24T22:26:41Z,0,Absolutely love this series! Is it really one video per day? Amazing!,True
+@DeaMikan,2018-06-24T22:15:56Z,1,I LOVE THIS SERIES!! Can't wait for exams to finish to have a crack at my own bot. Is it possible to create a multiplayer game and have multiple bots from different developers vs each other?,True
+@idacal,2018-06-24T21:28:09Z,0,More please!,True
+@EduardoME,2018-06-24T21:27:31Z,0,"Hi. Thanks for your work. Its awesome. For a former Industrial Engineer, whats your recomendation for getting into machine learning. Obviously, going through your python series first, but then, what would be your recommended path? Thanks",True
+@evanesoteric,2018-06-24T19:13:01Z,1,"I read the title, skipped ahead, heard the words “cybernetics core”.... John Connor’s gonna be pissed.",True
+@pafnutiytheartist,2018-06-24T18:19:09Z,3,"Is there any reason you are using async in all methods? Since you use await in each call it seems pointless, correct me if i'm wrong.",True
+@Bishonen88,2018-06-24T17:30:16Z,0,"""Gateway""",True
+@arnoldhilberink,2018-06-24T17:07:39Z,1,This is so awesomely geeky :),True
+@christospapan1993,2018-06-24T16:57:57Z,1,With protoss workers doent have to stay on the building in order for it to be build. I say that because the workers can start building the assimilators and instantly move them to farm or do something else. 8:35,True
+@OO-ie1pe,2018-06-24T16:45:35Z,0,"war games, go A.I.!",True
+@ironmonger4498,2018-06-24T16:26:00Z,8,"A single nexus fully saturated mines around 600-650 minerals and 200-240 gas. With this, you can support ~4 stalkers per minute. Given that each stalker warps in at 42 seconds you need 3 gateways per Nexus. Hence fully saturated one nexus with 2 gas gysers can support 4 stalkers per minute with 3 gateways.",True
+@martinferreira9401,2018-06-24T15:49:15Z,0,Is there any reason in particular why you chose to pick protoss? Because I've played SC2 for a bit and if u picked Terrans for example you wouldn't have to worry about things like the Pylon placement. They can just build buildings whereever they want. That would make some things easier and you would've more time to focus on the core principles. Still great series though ;) Much love from Germany,True
+@bibianaburela,2018-06-24T15:24:58Z,0,"I think I know why you have multiple buildings or units trained when you should only have one. Since all the methods are async, the next step could start before finishing the previous one, and you have a race condition when you do ""if not pending -> build"",  that part should be atomic, since the first thread could have stopped after the if, and before the build.  Another easiest way, would be to just synchronize the on_step with a lock, but since you don't want your python code be running a lot of steps late, you can put an if, that if the lock is acquired, just break. So, you will be skipping some steps, but I don't think that could be a problem.  Sorry for the bad english :D",True
+@abdoujsk94,2018-06-24T15:19:29Z,0,did somone know how to run the game offline?,True
+@mahmoudkhodeir531,2018-06-24T15:11:36Z,0,thanks for your great videos,True
+@mahmoudkhodeir531,2018-06-24T15:09:55Z,0,"for arab countries such as egypt  how i can apply this video  on the world of work .....generally sentdex,, is there freelance work for this field building an AI army???",True
+@GG64du02,2018-06-24T14:58:52Z,1,Pewpewpew.,True
+@ShaneFagan,2018-06-24T14:54:22Z,14,"dex man maybe in the end we all should try out for the Bot AI tournaments they have, or make one for your viewers. Sounds like a fun idea and then maybe highlight the AI of the bot that wins and maybe tell everyone the tricks they did to do it. I'm a master league SC2 player for like 4 years or something but I've been busy so I know what it takes to win so it sounds like a fun experience to try make a bot to do what I do as a player.  Oh and you might want to remove the already_pending from gateway, you will want to be making quite a few gateways to keep up on production of units for attacking or defending.",True
+@husky090689,2018-06-24T14:51:08Z,4,"Amazing tutorial series, love your videos - keep it going!  Already, by tweaking the expansion strategy sligthly, my bot can defeat Medium difficulty computer player just by sending waves of zealots into the spawn location! It's super cool!",True
+@DeadWayfes,2018-06-24T14:23:03Z,0,Hi sentdex you could also do the gateway research so that you can warp units in the energy range of a pylon (having a proxy pylon and warp some units there to create a front line) and for a good protoss maybe arround 8 gates should do. Also I am waiting for how you implement the tactics with charles,True
+@umairnaveed10,2018-06-24T14:12:34Z,0,Good video bro! Your are helping those who want learning but can't pay. Nice Work Keep it up,True
+@sean7949,2018-06-24T13:54:20Z,3,At 9:36 you can see a nexus being built in the wrong location like in the last tutorial. Can you shorten the distance needed from mineral and geysers for the nexus build condition. Loving the videos!,True
+@palachokrab5711,2018-06-24T13:51:49Z,0,"Hello sentdex, thank you for your free content.",True
+@followmeback2599,2018-06-24T13:50:12Z,1,"I am a big fan of u sentdex.i very much confused about ml and deep learning.sum YouTubers say math should be there to learn ml.can u make a video how to become pro in python as well ml and deep learning. there r lots of douts but  solution for it  but in different ideas. I like u way of teaching I want to fall u.i want to now how u r good in ai and python ,ml etc..pls answer to this question.I born in  a poor family I want to learn ml and python like a pro.there r lots of courses in out there r charging rs 70000 for  5 month but I cant buy this courses but I need help how to start ml. I now basic in python from u r tuturials",True
+@OA-B,2018-06-24T13:49:00Z,0,Really fin to watch thisX would love to ser you create an enviroment for testing code ment for real World tasks. Like for testing an ai for a self driveable car or something.,True
+@ramanan4589,2018-06-24T13:43:52Z,0,May i get u r mail id,True
+@tissuebox1229,2018-06-24T13:37:25Z,1,"can you break down some high level task into many little task and train them individually with reinforcement learning? and hopefully do it with Q learning, it would be nice to see",True
+@ninehichem5037,2018-06-24T13:37:00Z,0,I learned all python basics from u  Thx so so much i got many many information from u thx u deserve everything,True
+@ramanan4589,2018-06-24T13:34:09Z,0,opencv leaf disease recognition with raspberry pi,True
+@followmeback2599,2018-06-24T13:32:17Z,1,"reinforcement learning, supervised learning, unsupervised learning .which type of learning r u using in  StarCraft II.",True
+@jeromesmith7682,2018-06-24T13:27:54Z,0,Cool vid sentdex!,True
+@ayush0477,2018-06-24T13:25:41Z,0,I am 6ths,True
+@LoekTheKing,2018-06-24T13:23:35Z,0,Hey there ^^,True
+@followmeback2599,2018-06-24T13:21:43Z,2,i am first,True

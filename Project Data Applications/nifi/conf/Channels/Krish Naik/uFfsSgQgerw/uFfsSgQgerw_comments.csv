@@ -1,0 +1,226 @@
+author,updated_at,like_count,text,public
+@dadivenkatarao,2024-02-21T08:51:37Z,0,Krish has Excellent Knowledge on Mathematics,True
+@ajithsdevadiga1603,2024-02-07T16:03:57Z,0,Quality of content is absolutely  mind blowing. Best explanation hands down.,True
+@karnvarshneya3019,2024-01-13T11:49:55Z,0,"bnde ne conics nhi pdi hai....  distance between point and line, for some point (x1, y1) and some line ax+by+c=0 is: |a(x1)+b(y1)+c|/[(a^2+b^2)^0.5] for our purposes, we remove the modulus on the numerator. also, note that the denominator is nothing but 2nd norm of weights. as we have removed modulus, all points below the line will have a negative distance from line, and all points above will have positive  from the line. now, let us say that all points below line are given label '-1' and all points above line are given label '+1'. as mentioned, the assigned label y_i, multiplied by the signed distance for data point x_i equals 1 when classified correctly. i.e. y_i*transpose(w)*x_i/||w|| > 0 --> correct classification, and  y_i*transpose(w)*x_i/||w|| < 0 --> incorrect classification.  WE REMOVE ||w|| BECAUSE WHEN PUT IN ABOVE INEQUALITY, IT MAKES NO DIFFERENCE, NOT BECAUSE ||w||=1.  as we want to maximize number of correct classifications, we maximize the cost function he mentioned in the video. i hope this helps. as i have learned over the course of the year, there is no learning data science without conics, linear algebra, calculus, probability, and statistics. guys, please study all this carefully, so that you are able to identify mistakes like these and not be misled. apart from this mistake, great video, as usual.",True
+@d3yadav,2024-01-06T13:08:51Z,0,Hats off to you sir. I really like the way you explain with in-depth intuition.,True
+@mahammadnabizade9408,2023-12-11T13:27:40Z,0,"In the first part of the video, you described an hyperplane and called it "" Optimiser "". Is this the same with Perceptron algorithm ? Its assumption is that , we find a best fit hyperplane where this hyperplane separates points as much as possible. What you explained sounded the same to me.",True
+@joeljoseph26,2023-12-09T18:28:45Z,0,"at 22:14, considering the new line, all the points are positive (+6+5+4+3+2+1) + (+6+5+4+3+2+1) so its not -6,-5,-4,-3,-2.... instead all the points will be positive, and the point (-2 outlier i.e. 500) below will only be negative. correct me if I am wrong?  Yi = +1 if the point are above the positive slope and Yi=-1 for below positive slope.",True
+@harkatiyoussef9994,2023-11-02T22:38:16Z,0,"by far, the best video i've seen about this topic. Congratulations teacher. I am not even sure that the people teaching it, understand it like you do.",True
+@loyavivek5479,2023-10-18T10:49:19Z,0,Actually different sources have different cost function. Like in Andrew ng course they used loss function for cost function and somewhere  used same like linear regression cost function. Can someone confirm what @Krish Naik  sir taught is 100 percent correct,True
+@tejaswinigurram9527,2023-10-05T18:41:40Z,0,Great video!,True
+@HelloWorld40408,2023-08-13T07:57:00Z,0,Thank you,True
+@abhishekanand5451,2023-08-11T03:44:27Z,0,why 500 was taken as negative. That point is on the positive side of line. please help,True
+@anandiyer_iitm,2023-07-27T07:29:19Z,0,"It's pretty much simple guys...Add that sentence to anything and everything, and things start to truly get simple😁what a simplistic world!",True
+@titangamer5157,2023-06-13T10:46:58Z,0,Thanks a lot sir❤❤❤,True
+@sakshamverma3114,2023-05-16T11:01:20Z,0,How will we get to know the y val in real life,True
+@meghnahanda4564,2023-05-15T16:58:35Z,0,"The best tutorial, in-depth explanation. Thank you!",True
+@thakuraditi5,2023-04-30T16:14:00Z,0,You dont know how much i love your videos ❤❤❤,True
+@ayushtulsyan4695,2023-03-17T08:32:37Z,0,"Don't you think this video is an explanation of SVM. You saying it is logistic regression by not even using log loss function, maximum likelihood function, sigmoid etc. :(",True
+@navjeetshaha6339,2023-02-25T05:17:30Z,0,"If I take 1/(1+e-z) where z=2 , I get a value above 1. Can you explain what exactly needs to in z...",True
+@MrAshishrockstar,2023-02-10T10:02:43Z,0,"Awesome explanantion but i have a doubt, shouldn't the aim of an algorithm be to minimize the cost function and not to find max of it",True
+@harshadapatil1312,2023-01-08T21:11:45Z,0,sir in logistic do we  use  linear / multiple regression models for getting best fit line and also we do predictions  and after that with the use of sigmoid function for  bringing  those predicted values between 0 to 1  right?,True
+@SSabeshVishwanathmmb,2022-11-27T10:53:41Z,0,Best Ever Video on Logistic Regression,True
+@rhul0017,2022-10-29T16:57:19Z,0,thanq,True
+@sohamsen3932,2022-10-28T07:30:20Z,0,Thanks Krish!!,True
+@mukuldhiman7930,2022-10-22T08:32:06Z,0,Hey krish. I watched both your videos on logistic regression in hindi as well as english. In hindi part you discussed it from another point of view. So i got confused now which one is correct. 🤔,True
+@sumankumari-gl3ze,2022-10-20T14:55:51Z,0,very nice sir,True
+@tanishqmehta8272,2022-09-21T14:03:09Z,0,Anurag kashyap op,True
+@anshrohatgi4202,2022-08-30T17:55:03Z,0,sir love u  ❤❤❤❤❤❤❤❤❤❤,True
+@VivadiMusic,2022-08-04T06:09:48Z,0,May i know why are you multiplying y and w(t)x ?,True
+@parvezmakandar5884,2022-07-27T18:35:12Z,0,loved with explanation,True
+@ritesh_b,2022-07-21T20:55:16Z,0,best teacher,True
+@laythherzallah3493,2022-07-15T23:03:27Z,0,Fantastic thank you,True
+@rishiksarkar62,2022-07-12T15:31:35Z,0,Fabulous explanation sir!! Thank you so much!!,True
+@cyborgatron177,2022-06-20T19:56:20Z,0,sir what does your tattoo say?,True
+@virajprabhu1185,2022-06-17T17:32:03Z,1,The  knowledge krish is passing onto us is Priceless. This guy is a saviour to anyone learning Data Science,True
+@anishchhabra5313,2022-06-15T09:23:59Z,0,"The explanation of case 2 and case is not clearly explained, why only positive multiplication is correctly classified and negative multiplication is not",True
+@mayankimt,2022-05-19T17:08:20Z,1,"The example being used is more apt for linearly separable case of SVM rather than logistic regression. The Sigmoid function takes all continuous variables and gives an output in the range of 0 and 1 , that is why its used as a curve for binary classification.",True
+@sendhan6454,2022-04-30T16:30:46Z,1,vatsan could tech better no cap..,True
+@zonunmawiazadeng5018,2022-04-20T10:18:07Z,0,Why is there no y in andrew ng tutorial?,True
+@expertreviews1112,2022-04-06T23:45:46Z,0,"Very nice video! Most comments suggest that!!! However the toggling of markers is very distracting… the explanation is clear enough, don’t need repetitive toggling of markers for different shades of colours",True
+@TauroChuck,2022-03-14T07:38:52Z,0,Hi I want to know has anyone tried finding optimum W for maximum value of sum(YiXiWt). When I tried I get maximum value when W tends to + infinity. When I  change values from 0 to -infinity same values repeat but -ve this time. My data is  one set of X and Y. Y i have transformed to +1 and -1 instead of 0 and 1.  What Krish says makes perfect sense.We ignore Y intercept and focus on only slope and try to optimize it for the data set but  It doesnt seem to work. I was expecting the summation to have max value at a particular slope value and that value to fall once change in either direction. Anyone has any take on this algorithm that Krish speaks about. I couldnt get another reference for the same algorithm.,True
+@gauravbinjola8854,2022-03-02T10:37:46Z,0,can we use y = wt of x +b for linear regression,True
+@pranavbhagwat1734,2022-02-23T04:56:38Z,0,"Great insight into why exactly the sigmoid function is needed for squashing, thank you!",True
+@karthikeyan8746,2022-01-28T18:18:53Z,0,great krish!!! loved it!!!!....thanks for your effort and simplifying it to this level!!!!!! :),True
+@dhruvpurwar6642,2022-01-23T10:37:54Z,0,Amazing Explanation!!,True
+@22harshit68,2022-01-08T05:57:22Z,0,"sir,aap smjhana kya chahre ho...........katai tatti explanation h tumhara",True
+@shubhamdash7494,2021-12-20T10:15:03Z,0,amazing video sir,True
+@sushmashetty3013,2021-12-16T14:28:21Z,0,Liked your interest in sharing knowledge.... well explained....keep up the good work,True
+@anuragdixit862,2021-11-28T14:31:24Z,0,25:28   You are wrong it will make 0 to 1 not -1 to 1,True
+@samifawcett4246,2021-10-24T17:01:05Z,0,it should be w^Tx_i instead of w_i^Tx_i because w_i is a scalar.,True
+@sheresh,2021-10-08T06:38:01Z,0,"Hello Anna, are cost function & optimiser both are same ?",True
+@yashasvibhatt1951,2021-10-07T05:56:37Z,1,"In case you are having the problem to understand how did the equation y = W^T * X + b came from just like me, here's a video https://www.youtube.com/watch?v=3qzWeokRYTA",True
+@shivendrasingh9980,2021-10-02T18:31:19Z,0,Ohh Man !! No words to describe how amazing this tutorial and explanation is..and that too free channel...kust keep doing great job and this channel will grow huge one day👍,True
+@newbee2625,2021-09-15T12:32:11Z,0,distance can be a negative ? how?,True
+@bikideka7880,2021-09-07T06:48:34Z,0,thanks for this. proper explanation of algorithms can not be found easily,True
+@rafibasha4145,2021-09-07T04:55:22Z,0,When y=wt.x then how we can assume y as +1 or -1,True
+@sumonchakrabarty6805,2021-09-05T10:35:39Z,0,"Awesome explanation. Finally, logistic regression got crystal clear after my 5 months of exploring over it...",True
+@RishikavsAnnie,2021-08-28T18:34:38Z,4,"Never thought I'd glide through a 28-minute video so smoothly. Thank you for such a clear and fun explanation! Also, I'm wondering, what if we use a function similar to the sigmoid function with the e replaced by some other positive number? Would it work the same way?",True
+@lemonade7134,2021-08-26T07:30:05Z,0,"My doubt is, what is in x and y of that scatter plot you started with? If it is the independent variable and dependent variable, all the dependent variables should be with two classes, right? (If it is binary classification) Then how does that scatter plot look like it has continous number? Anyone, please clear my doubt.",True
+@ashdeepsingh3140,2021-08-12T07:52:32Z,0,"at the almost end of the video you said that, ""let it be any number of outliers, sigmoid function will take those to 0 to 1 range"". So my question is can we use sigmoid fuction as a normalization method for converting data points to 0 to 1 range?",True
+@mahikhan5716,2021-08-05T19:37:58Z,0,really u can feel the pulse of students krish . best wishes for u,True
+@accelerateai9523,2021-08-05T15:25:01Z,23,I think the explanation is about Linear perceptron (and SVM to some extent) and not Logistic Regresssion. Liked your energy in explaning though !,True
+@sykumar_29,2021-07-31T06:25:55Z,0,hats off to this man!,True
+@kundansakargayen1446,2021-07-28T11:03:25Z,0,Why did we multiply y and wTx at 9:42,True
+@louerleseigneur4532,2021-07-15T21:58:28Z,0,Thanks Krish,True
+@anujasebastian8034,2021-07-05T13:08:01Z,0,Krish one basic question.....can't we remove the outlier first during pre-processing and then apply logistic regression to avoid the confusion of outlier??,True
+@mdmynuddin1888,2021-07-03T07:48:56Z,0,Part 3 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!,True
+@wealth_developer_researcher,2021-06-23T14:43:35Z,0,Today I come to know the use of sigmoid function :),True
+@akhilnooney534,2021-06-22T04:46:38Z,0,Can anyone say how points are classified initially?,True
+@kevinvarghese4726,2021-06-20T18:53:19Z,0,What do you mean by a distance being negative? Are you sure you used the right words?,True
+@Gsaurabh98,2021-06-16T17:04:27Z,0,"Can you please help me to understand, what other function we can use in logistic regression apart from sigmoid function ?",True
+@kevinbenny1106,2021-06-14T18:09:46Z,0,is this the same as a max entropy classifier ?,True
+@akshatpant9758,2021-06-04T03:59:23Z,0,This stuff is actually so hard to explain..But you explained it like a beautiful rhyme..Nailed it krish!!,True
+@homeandlearn1,2021-06-01T11:10:21Z,0,Any playlist to cover all topics of regression,True
+@sureshdr6274,2021-05-30T14:52:51Z,0,"oh my god , krish you are amazing in explaination the concepts, thanks you so much for your initial effort , now we are able to understand properly without any effort.",True
+@dineshdarp8863,2021-05-30T12:05:15Z,0,"So, referring to 6.55, can u plz explain what should be the value of Wi say for dataset having (5000, 15)?  and if i want to write my own code how can i initialize W and b???weights and intercepts??",True
+@anoushkamenon3040,2021-05-29T19:43:46Z,3,"This is a beautifully crafted explanation, Sir! I have a doubt. We said that the dist formula got reduced to just d=Wtx as the line passes through the origin, so b=0 and w=1. But then there is no compulsion for best fit line to pass through just the origin, so why not consider the entire dist formula in our cost function?",True
+@john-johnlutula1081,2021-05-27T12:14:27Z,0,Thank you very much that was very clear!! I've finally understood why sigmoid is useful!,True
+@kishore3785,2021-05-17T17:26:44Z,0,Excellent Explanation Sir,True
+@dehumanizer668,2021-05-17T10:47:39Z,0,Pretty much simple. Pretty much amazing. Thank you for a wonderful explanation.,True
+@ROADSTRIKER,2021-05-15T06:15:07Z,0,Perfect sir... what an explanation. Loved to the core and understood clearly...Thanks a ton...,True
+@akhileshpanigrahi4473,2021-05-15T02:57:02Z,0,Thanks Krish..That cleared lot of my doubts regarding logistic regression.,True
+@priyanshusharma2516,2021-05-10T13:23:49Z,1,best video available on yt for logistic regression . Thanks a lot sir .,True
+@chocky_1874,2021-05-10T12:26:10Z,0,u r amazing krish.,True
+@shaunakchadha4204,2021-05-01T11:23:06Z,0,Aapki video ki starting mein Bahubali ki tune chalni chaahiye because for the Indian ML/AI community you are Mahendra Bahubali,True
+@abhishekbalawan6817,2021-04-28T14:44:03Z,0,You did not say how it is done,True
+@abhishekbalawan6817,2021-04-28T14:08:10Z,0,Any text that explain ml at this depth?,True
+@dineshchellappan5720,2021-04-28T02:41:23Z,0,"Hey Krish, I ve doubt! During 23.00 Min, you are considering the 2nd plane whether it is giving the best fit line or not? but during calculation, you should calculate the above 2nd line should be positive right(that alone). how 1st line came into the picture like if it left over the line is negative? all of us sudden you cancel each other (-6-5-4-3-2-1+1+2+3+4+5+6)? can you clear this?",True
+@praveenbhatt3127,2021-04-22T10:12:12Z,0,this guy is a gem.,True
+@ksaurabh2468,2021-04-09T13:42:12Z,15,"I have watched a lot of logistic regression videos but I was startled by the depth of the knowledge that this video is providing. Never realised before the aspects of logistic regression that has been covered here. Krish, you are superb🙌",True
+@gardeninglessons3949,2021-04-01T11:39:21Z,0,Thankyou sir,True
+@sarveshkhetan4241,2021-03-28T11:03:49Z,0,This is just complete bullshit !! this is not even logistic regression this is perceptron algorithm.......please don't teach wrong things,True
+@saurabhgaur7678,2021-03-23T19:32:55Z,1,"Awesome Video and Explanation. but here, you've mentioned that logistic regression removes the effect of outliers  and in other videos like - interview prep. on LR and Outlier treatment you said Logistic regression is sensitive to outliers.  Please clarify it.",True
+@80ridho,2021-03-13T05:13:55Z,0,"Question sir, doesn't that mean logistic regression is still a linear regression but it uses sigmoid function as the optimizer? Because the data is separated it uses linear line.",True
+@kumanaj7897,2021-03-07T05:35:52Z,0,Very well explained the linear algebra part. Thank you!,True
+@muhammadsaqib2961,2021-03-04T08:34:57Z,0,Impressive explanation,True
+@matrix4776,2021-03-03T04:59:05Z,0,Great learning...loved it...,True
+@RemotelyGaurav,2021-02-27T07:30:28Z,0,Q:-So we don't need to do feature scaling if the sigmoid function is scaling the value itself. RIGHT??,True
+@amritanigote,2021-02-26T17:09:15Z,0,It is very helpful !! Thank you.,True
+@shhivram929,2021-02-17T02:59:33Z,1,15:40 is this Maximum Likelihood Estimation ?,True
+@subhasishdas8669,2021-02-16T19:16:15Z,0,Sir when we apply Logistic regression is sigmoid function is applied automatically or we have to apply it separately,True
+@nikhilramabadran2959,2021-02-14T18:20:35Z,0,"hey, when you say the y for points below the plane is taken as -1, wouldn't it have been better if you had shown them in the fourth quadrant, because if you mean y is negative ,logically speaking , it shouldn't be present in a region where y is positive, according to the coordinate axis, or I'm missing something. Kindly clarify",True
+@deewakarchakraborty4027,2021-02-14T17:07:22Z,0,Why did you consider w as a unit vector during distance calculation?,True
+@MrSanjibdutta,2021-02-08T07:15:05Z,0,His approach to attack the problem from root  and gradually proceed to the solution is  awesome..But I think he somehow mixed up SVM discussion with LR discussion. Probably because of that he was forgetting LR range as -1 and +1 vs 0 ans 1. As per my understanding the input to sigmoid function is not y.WtX but just Wt or Wt+b. But that's minor thing. I think this discussion makes it much comprehensible than many other discussion found elsewhere..Thank,True
+@kodalitiru,2021-02-05T15:11:44Z,0,sir when we are calculating in case 3   ..... y*wt *x why we are considering the (y) value as negetve while that was present on above the plain ..u told before that for positive values it would be +1 and for negeitve it would ne -1,True
+@nik7867,2021-02-02T18:57:45Z,0,So we can apply classification without feature scaling of input datapoints?,True
+@udayankarnatak12,2021-01-30T10:19:20Z,0,In the second half what is 500 wala point is correctly specified?,True
+@fatimaezzahraeelghatous2605,2021-01-29T17:37:33Z,0,"thank you krish you're the best, machine learning is maded for you, big up ^^",True
+@gudejyothi6228,2021-01-27T07:09:19Z,1,Hi sir i missing connection between tutorial 35 and tutorial 36 please rly me so that i can continue without confusion,True
+@satishbanka,2021-01-26T17:20:14Z,1,Best explanation of Logistic regression till date!,True
+@shouryagupta8763,2021-01-23T18:17:45Z,0,mind blownnnn,True
+@subhasishdas8669,2021-01-14T07:01:14Z,0,sir how sigmoid function is applied while we are applying logistic regression. Is it applied automatically when we are fitting the model?,True
+@anithjoseph8730,2021-01-12T08:32:51Z,0,Can you explain about hedonic regression,True
+@tefnamintamol662,2021-01-07T05:59:36Z,0,it was truly help full.... thank you.,True
+@SHUBHAMKUMAR-jv4kg,2020-12-26T16:38:48Z,0,Really amazing  explanation...got the exact poits what we needed...it takes lots of efforts to explain in such a nice way ...Thankyou Krish sir...keep uploading such contents with such a nice way of explanation..,True
+@SoumyaDasgupta,2020-12-16T19:59:07Z,4,"For people having doubts in and around 11:00 - so the thing is the multiplication of y and w^t.x is a representative feature. the output of this is either positive or negative. If its positive, the classification is correct, if its negative, the classification is wrong for the particular case where the markers lie above or below the line.   .Case1 : if blue marker is above the line, so its +ve (w^T.x is positive), and the distance between blue point and the line is positive, hence the product is positive, the classification is correct (because points above the line the points are supposed to be +ve).  Lets take the red marker above the line, red represents -ve and its above the line, so the product of them is -ve, so its a wrong classification as anything above the line should be positive ((w^T*x is positive but red point represents -ve,sp the product is negative).   So,in summary,  for the points above the line - If the product is +ve, its correct classification, if the product is negative, its an incorrect classification. Its just the opposite for the points below the line.",True
+@gavin8535,2020-11-29T08:37:07Z,0,Looks like a support vector machine thing lol.....,True
+@parikshitankitmohari,2020-11-29T06:29:19Z,0,"Yes, -1 and +1 is for tangent function",True
+@nginfrared,2020-11-27T00:39:58Z,0,EXCELLENT!!!,True
+@chalapathinagavarmabhupath8432,2020-11-11T15:05:29Z,0,"Thank you very much, you finally created my dilemma on logistic regression and made me clear. Thank you ...🙌🙌🙌🙌🙌🙌",True
+@sbdavid123,2020-11-08T16:35:34Z,8,"Amazing explanation Krish, thank you so much. Your channel is a gold mine in my opinion. In the video you mention you would cover regularization in part 3. However, when I checked pt. 3, it it didn't seem to cover the topic, am I missing something or is there another video where you go over this topic? Anyway keep up the amazing work :)",True
+@goodissood,2020-11-07T18:17:07Z,0,Awesome explanation sir!!,True
+@parthsarthijoshi6301,2020-10-29T07:38:19Z,0,AWESOME !!!!!!!!!!!!!!!!!!!!!!!!!!!!!,True
+@dude5697,2020-10-26T11:01:39Z,0,Why we multiply the 'y' with w^t*X?.... What is the purpose?,True
+@MuhammadAhmad-bx2rw,2020-10-25T18:52:34Z,0,Genius Teacher,True
+@xoxcheetah,2020-10-18T20:13:16Z,0,AMAZING thank you,True
+@khushi23ful,2020-10-18T18:47:17Z,1,I really liked the way you explained the logistic regression. Now the concept of logistic regression got cleared.,True
+@sasikiran7172,2020-10-11T17:57:02Z,0,very good service to data science community by krish naik and i must say srikanth varma lectures by applied ai course is oustanding .,True
+@dhanyashreen9311,2020-10-04T10:48:11Z,0,this is where i understand logistic regression untill this i was clueless,True
+@zeeshankhan-dy8oe,2020-10-03T20:05:29Z,27,"19:31, summation became samosa 😅",True
+@MrBemnet1,2020-09-24T19:17:04Z,0,Any Non Indian watching this video?,True
+@VarunKumar-pz5si,2020-09-17T11:57:09Z,0,python code?,True
+@sandipansarkar9211,2020-09-16T18:22:57Z,1,Awesome explanation Krish. For the past 6 months I was trying to understand this but unable to.Now need to study more articles from towards data science and other blogs and have a better understanding of it.No need to make notes I presume.Thanks,True
+@niladribiswas1211,2020-09-14T03:05:16Z,0,for beginner its a hyperplane not plane......search it in google and u can know the distance formulae......;),True
+@sampsonagudze8674,2020-09-09T22:07:50Z,0,You are an excellent data scientist and a powerful teacher. Thanks,True
+@PatientInAffliction,2020-09-04T01:35:30Z,1,"Hi, Can someone correct me if im wrong? I believe in the sigmoid function, z=wx and not z=yi(wx), as the latter always guarantees a positive, which means prediction will always be 1?",True
+@nishitpatel5686,2020-09-03T14:49:21Z,1,amazing work! boy superb,True
+@santosh_Benkiee,2020-09-02T00:56:37Z,0,Thank you ☺️ for your good information 🙏,True
+@Goodtoknow__,2020-09-01T20:37:56Z,0,The separator in case of data with two input is line then separator in case of data with one input will be point?,True
+@gopeshyadav3841,2020-09-01T10:02:16Z,0,Too much adds f***,True
+@kumarpiyush1643,2020-08-30T07:35:32Z,0,Krish .. How distance can be negative..?,True
+@sahilchib7599,2020-08-23T17:44:28Z,0,on what basis are we taking the values of y as +1 and -1 . i mean how do we choose whose y will be +1 and whose  -1 .  please help me with this,True
+@hardikvegad3508,2020-08-21T08:54:08Z,0,Can anyone give me the final formula of Logistic regression like we have y=mx+b for linear regression,True
+@madannikalje760,2020-08-20T16:06:18Z,0,"15:48 I don't think you should give subscript ""i"" to W because it's not going to change for each data point",True
+@deepfakevasmoy3477,2020-08-17T06:45:02Z,0,"Clear explanation, thank you!",True
+@Ram-xq5jq,2020-08-16T16:38:33Z,0,"Hi Sir, What is the y-axis in the graph (first graph not the sigmoid one). Since the output of logistic regression is categorical (yes or no, 1 or 0), But in your graph is representing continous y-axis. So, I am in confusion. Is it the log odds values ?   Please help me to understand it better",True
+@samriddhlakhmani284,2020-08-16T07:36:53Z,18,"""Day one"" or ""one day"", your choice. poster in the left wall",True
+@sufiyanansari1739,2020-08-09T12:10:19Z,0,why we taking outlayer point as negative like -2.. pls rply,True
+@ashish9325499104,2020-08-07T19:00:36Z,0,Nice Video krish.. 👍...we can put the log on the line equation to put range,True
+@satyajeet8438,2020-08-04T22:52:20Z,0,wow...krish sir...this is amazing,True
+@AdityaGupta-ty7uj,2020-08-04T14:16:38Z,1,"Why do we need to maximize the Cost Function?? I mean, our objective in every algorithm is to minimize the cost. Also, the cost function which is generally mentioned everywhere about logistic regression is negative of LogLikelihood. This part is confusing me.",True
+@sajidchoudhary1165,2020-08-01T18:51:29Z,1,what is likelihood function and some where cost function is totally different,True
+@kunalarora860,2020-07-28T20:43:10Z,0,This is very informative. But how to update w_t?,True
+@ravikamesh2800,2020-07-28T12:28:19Z,1,Well explained why do we have to use sigmoid function than Andrew from course era ..!,True
+@deepakkumarshukla,2020-07-20T20:19:28Z,2,I just landed here after watching NPTEL videos on the same topic. I must say your videos provide a much better practical grasp on the concepts as compared to the theoretical rhetoric.,True
+@ragurajan7567,2020-07-19T14:06:05Z,0,"Instead of sigmoid , why dont we just count the number of positive ywt. The one which has more number of ywt will be the best fit.   Using sigmoid i think will still have a draw back because , it doesnt see outlier as well. -500 with outlierr or -500 without outlier is still the same to the sigmoid function",True
+@suyogkhadke4755,2020-07-18T14:45:54Z,0,good video but too many ads,True
+@chandanverma300,2020-07-15T04:54:50Z,0,"The videos are great. If you could just reduce the number of ads, that would be great. Apart from that, you are doing a great job.",True
+@priyankjain9970,2020-07-10T10:46:37Z,0,Something is wrong. Sigmoid function is used to find values between 0 and 1(ie for calculating Probabilities) and not for dealing with case of outliers. You need to have equation like y = mx+c and value of mx+c is passed in Sigmoid function or  W^T (x)(which is also mx+c). We never pass Y*W^T (x) in Sigmoid Function. Function of Sigmoid is only to calculate probabilities.  Little bit of wrong explanation in the end but otherwise video is good. Good Effort,True
+@vaishanavshukla5199,2020-07-08T20:24:13Z,0,fod diya bhai too good,True
+@shivanshsingh5555,2020-07-03T08:19:48Z,0,Can anyone tell me how we can classify when y*wt*x >0 What does it mean? Im not able to get this? Plz help,True
+@1sankey2,2020-06-27T05:18:56Z,0,hey great video can u tell me which function did u used to derive logistic regression when it is between -1 to 1 or can u share that link. Thank you,True
+@inversestack8553,2020-06-22T14:08:59Z,0,Very informative Video....Thanks Krish,True
+@Akash-nf6bg,2020-06-17T07:21:06Z,1,"Sir,at 11:00 case 2: the result of multiplication is +ve(i.e > 0), so the point should be above the straight line..But it is below the straight line...I have a confusion regarding that..Can you Please Clarify that..",True
+@vineethm6930,2020-06-10T15:50:03Z,0,You are god level sir.,True
+@NeuralNet_Ninjas,2020-06-09T03:18:20Z,1,"Hi Krish,  mathematics behind logistic regression what is have seen so for is totally  different from your explanation. you said that we will calculate the distance from any point to the line , but when we build a logistic regression model don't mention any distance parameter like we do in other distance based machine learning models.Also you mention we need to consider points above the line as positive and points below the line as negative , but as per my understanding we can go from probabilities (a function that ranges from 0 to 1) to log(odds) (a function that ranges from negative to positive infinity). please clarify my doubts",True
+@giteshlive6983,2020-06-08T09:20:46Z,0,It was all good Krish but couldn't find any proper explanation of how we will calculate the logistic coefficients ... That disappointed me a bit ....  rest is okay,True
+@imalive9006,2020-06-03T11:27:49Z,1,Someone please help me at  5:40 . I didn't get the distance between point and a plane.,True
+@cherryandjaji5694,2020-06-01T15:52:01Z,1,"I spent 70000 thousand for datascience course and went through lot of confusing topics , where as, it is just as simple as eating cakes here in you session",True
+@AJ-wh1li,2020-05-30T08:09:30Z,0,Amazing content! Thanks a lot Krish! :),True
+@suhelalatekar3410,2020-05-28T10:20:56Z,8,"Everything thing is good..but need much more clarity on cost function defination.. What is y, wt, and x",True
+@aasthakadu6121,2020-05-26T16:20:09Z,3,At 22:30 since the best fit line changes the above points should be +1 and below to be -1. Is this argument correct?,True
+@siddhantpathak6289,2020-05-26T09:17:01Z,2,"I thought I knew Logistic Regression, but you made it so clear with an awesome explanation.  Just confused about the point discussed at 7:49, as to why its distance from the line is negative since the slope (m) is still positive and x could also be positive.",True
+@GyanendraChaubey-IITJodhpur,2020-05-23T11:19:52Z,6,I have a lot of doubts. Please take a very short data set (with 5 to 10) examples to make the understand mathematics of it more clear. Initially you have taken the y classes as +1 and -1 but when you will use sigmoid function the result will be in 0 and 1. So how you predict your class actually with mathematics? You haven't explained about the weight updation. How the error is calculated and weights changes to improve the accuracy? You have done classification with only two features. How to do it with multiple features? Please explain all these to make more clear understanding.,True
+@danieljames-dj,2020-05-22T05:58:31Z,4,"Thanks a lot, Krish for the effort. Now I understood the Logistic Regression clearly. :-)",True
+@sagarmestry5514,2020-05-16T06:25:37Z,0,"Hello sir can you please make video on cost function of logistic regression like you made on linear regression, it'd be really helpful :)",True
+@amitshete5731,2020-05-13T05:55:36Z,0,what are benefits from joining the projects live data science?,True
+@Vernika19,2020-05-13T00:26:30Z,0,This explanation is intutive but cost function is different from what I saw in other referred materials or Andrew Ng Course. How these two explanations are related?,True
+@fitness_rohit7762,2020-05-11T16:25:37Z,0,"Hello Krish , just for the case 3 , how you come to know that y value is a negative value, as the value is above the plane.....Could you please let me know over my concern.?",True
+@ravibhat2849,2020-05-10T16:49:15Z,0,"Why  ""y"" is multiplied with ""omegaTx""...??",True
+@amitkumar-bw8kk,2020-05-09T20:56:07Z,0,Really thankful for the way you explained the logistic regression.,True
+@bagavathypriya4628,2020-05-08T11:19:19Z,0,Each point has separate w value or all having same slope (w) value ???,True
+@priyabratamohanty3472,2020-05-03T17:07:57Z,1,video at time - 9:42  why we multiply 'y' with 'wT . x'.   Is there any explanation for this. here we are taking randomly this formula and it does not making sense. If interviewer ask why we multiply then we don't have any answer for this?,True
+@ayushmishra-sw4po,2020-05-01T12:29:55Z,0,Could anyone plz explain me why we have  assume negative points value as -1 not 0,True
+@satishh87,2020-04-27T02:00:57Z,0,"I have a doubt in Case 3 - As the Point is above the plain line, then the Y value needs to be +ve. Could you please let me know how come the Y value seems to be -ve",True
+@dwaipayandutta5067,2020-04-16T19:45:41Z,0,"Sir, can you please explain why are you using wi. Its the slope of the  same line, then why the suffix??? I could not understand this part only",True
+@divyarajvs8890,2020-04-16T06:30:05Z,0,"sir,, is there anyway we can get your notes /explaination in a word or pdf for our future references...",True
+@dileepkumarm7811,2020-04-13T15:42:48Z,0,"Actually sir  you missed the importance of the term 'Logistic'. The sigmoid  function you mentioned in this video is actually the cumulative distribution function of the logistic distribution, that's why the aforementioned model called logistic regression model.",True
+@kumarrounak887,2020-04-09T19:13:24Z,0,simply amazing,True
+@tejaswinid1022,2020-04-02T19:47:57Z,0,I am lucky to find u sir 😀 Thank u thanks a lot for ur explanation💐,True
+@PAVANKUMAR-fu7pb,2020-03-31T10:22:07Z,1,Simply superb sir ...loved the way you explained it,True
+@vijayendrasdm,2020-03-29T19:57:35Z,2,Great video.  Can you throw some light where exactly probability comes into picture and also talk about maximum likelihood estimation in this context  (optimization for Logistic regression),True
+@owaisfarooqui6485,2020-03-22T22:08:05Z,0,what to do with out liars in linear regression BTW nice explanation,True
+@tanishktripathi8773,2020-03-22T19:19:48Z,145,I can tell that krish has spent a lot of time himself on understanding this algorithm from different sources and that is why he was able to give such a clear picture of what is behind logistic regression Thanks a lot ♥️ This video was worth watching #noclickbait,True
+@tamellasivasubrahmanyam6683,2020-03-17T17:37:42Z,1,"Thank you very much, your commitment towards sharing knowledge is awesome",True
+@sunnysavita9071,2020-03-17T14:54:45Z,4,so far i got clearly but where probability will exists in this senerio sir please explain,True
+@anandtiwari1541,2020-03-15T17:25:38Z,1,z shouldn't be y(i)*wTx(i) - it should be wTx(i)  28:10,True
+@amitmodi7882,2020-03-13T12:44:50Z,0,Thanks for the detailed explanation. Are you planning to make video that how sigmoid function works internally? Also Can you please explain when we should chose KNN or NB or LR?,True
+@rohitprakashmathur,2020-03-13T09:57:48Z,0,"Awesome, never seen such a great explanation",True
+@sibamarcel9428,2020-03-12T14:27:16Z,15,"Because of you i have understen Logistic Regression. i was thingin that LR was directly the sigmoid function. thanks a lot.",True
+@ananthkumar8901,2020-03-08T09:43:13Z,0,"Nice video , Please upload part 3",True
+@aghileslounis,2020-03-04T18:09:43Z,0,"Great as always !  i have one question sir : how activations functions make NN non linear, like to have non linearity we need some degree x² or more, i'm wondering how activation function can create non linearity (i mean the mathematical intuition )",True
+@mrjigeeshu,2020-03-01T15:43:59Z,0,Why use sigmoid function for the particular example you gave and not feature scaling  ? wouldn't feature scaling also reduce the effect of outlier like the sigmoid function ?,True
+@saddamalikhanp6552,2020-02-28T20:59:18Z,2,One important question.. How can you select 0.5 threshold value and every time threshold value will be same or not? Can any one help on this,True
+@yashodhansatellite1,2020-02-27T15:45:43Z,1,Amazing Krish,True
+@phanikumar3136,2020-02-27T09:39:34Z,1,at 22:10 the points are all +ve bzc they are above the plane and y do u consider some are +ve & -ve ?,True
+@143balug,2020-02-27T09:10:56Z,1,Thank you so much Krish for the best explanation.,True
+@ashish23j,2020-02-27T08:57:20Z,2,Hello sir Why you are calling it cost function .?....Why not profit function .....Because we are maximizing it .........We know that  Maximize the profit Minimize the cost,True
+@prasad844,2020-02-27T07:34:42Z,2,"As far as I have learnt, sigmoid function takes wx+b as input, but as you say it takes y*w*x. Can you pls clarify more on this?",True
+@bipulnath4602,2020-02-27T07:03:36Z,6,"hey Krish, makes video on SVM math intuition. Thanks.",True
+@kirandeepmarala5541,2020-02-27T06:58:45Z,4,"Sir,at 11:00 case 2: here the result of multiplcation is +ve(i.e > 0), so the point should be above the straight line..But it is bellow the straight Line...I have a confusion regarding that..Can you Please Clarify that...",True
+@harshstrum,2020-02-27T04:26:12Z,1,What was the problem in finding the max of (cost function) without applying sigmoid function to the cost function? It would still be able to find the max of cost function so why we needed to convert it between 0 to 1?,True
+@swethakulkarni3563,2020-02-27T02:30:28Z,1,Great!,True
+@jacksmith870,2020-02-26T22:56:50Z,1,"Hey krish. Thank you very much. Also, can you make a video on customer lead prediction please?",True
+@amitjajoo9510,2020-02-26T21:24:23Z,1,Thanks you nic explain,True
+@sofiarao7144,2020-02-26T21:05:14Z,1,Amazing explanation Krish! Thanks again for sharing the knowledge!!,True
+@myv4347,2020-02-26T20:33:45Z,1,Thank you so much krish because of you I am learning maths in a good understanding way.i am currently doing an data science course it is helping me a lot thank you so much.👏👍👍👍👍👍👍👍👍,True
+@shaz-z506,2020-02-26T20:11:52Z,2,"Hi Krish, Thanks for the good explanation in logistic regression, please make a video on how to interpret the coefficient of logistics regression since its a log odd the interpretation of coefficients is not straight forward as linear regression.",True
+@anandhuded3647,2020-02-26T19:11:27Z,1,"My Guru🙏, thank you so much for your best explanations🙏",True
+@pratirupgoswami4373,2020-02-26T18:54:15Z,2,Pls make a video on SVM maths,True
+@gurc.har.an.s,2020-02-26T18:23:32Z,14,"Awesome Krish, I must say, I never had such understanding till today about Logistic Regression 👌🏻",True
+@venud1800,2020-02-26T18:22:14Z,1,Nicely Explained,True
+@aseelsami.6322,2020-02-26T18:01:45Z,0,Please send to me your telegram  Aaseelsami35@gmail.com,True
+@aseelsami.6322,2020-02-26T17:59:47Z,1,Hi please i test your code deep learning cnn and  vgg16  on synthetic aperture radar buildings images but not detected what i will do with sar images to be detected,True
+@cutyoopsmoments2800,2020-02-26T17:57:55Z,1,Nice video bro,True
+@dheerajkumark2268,2020-02-26T17:56:58Z,1,Thank you 😌,True

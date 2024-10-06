@@ -1,0 +1,125 @@
+author,updated_at,like_count,text,public
+@krishnaik06,2020-05-11T17:17:29Z,340,Trust me I have taken 10 retakes to make this video. Please do subscribe my channel and share with everyone :) happy learning,True
+@Zelloss67,2024-03-11T11:20:46Z,0,"@krishnaik06 could you please comment  Where is the gradient btw? As I know in real gradient boosting we teach weak-learners (r_i trees) not to predict a residual, but to predict a gradient of the loss function by y_hat_i. This gradient is later multiplied with learning rate and step size is thus obtained.   Why to predict gradient instead of just residulas?  1) We can use complex function with logical conditions. For example -10x if x<0 and x**2 if x>2. Thus we punish model with negative score if y_i_hat is lower than 0.  This is the major reason",True
+@thetensordude,2023-11-01T21:16:58Z,1,"For those who are learning about boosting, here's the crux.  In boosting, we first build high bias, low  variance (underfitting) models on our dataset, then we compute the error of this model with respect to the output. Now, the second model that we build should approximate the error that we have for our first model.  second_model = first_model  + (optimisation: find a model which minimises the error that the first model makes)  This methodology works because as we keep on building the model the error get's minimised, hence the bias reduces. So, we get a robust model.  Going a bit more in depth, instead of computating the error we compute the pseudo residual because the pseudo residual is proportional to the error, and we can minimise any loss.  So, the model becomes,  model_m = model_at_(m-1) + learning_rate * [derivative of the loss function with respect to model_at_(m-1)]",True
+@user-of1ll3dy4h,2023-10-28T13:38:07Z,0,Really helpful,True
+@newbienate,2023-10-12T19:09:48Z,1,should the sum of all learning rates be 1? Or close to 1? Coz I believe by that way only we can prevent overfitting and still reach closest to true functional approximation value,True
+@inderaihsan2575,2023-09-25T04:36:49Z,0,thank you very very much!,True
+@anishdhane1369,2023-06-20T03:42:05Z,0,Machine Learning is Difficult Names but Easy Concepts 😆  Just Kidding Thanks a lot  Sir!!!,True
+@legiegrieve99,2023-05-08T11:28:22Z,0,You are a life saver. I am watching all of your videos to prepare for my exam. Well done you. You are a good teacher.  🌟,True
+@tanvibamrotwar,2023-04-26T08:23:52Z,0,Hi sir in generalised formula h0(x) is missing because u take range from 1 to h . Or im getting wrong,True
+@ckeong9012,2023-04-03T09:49:23Z,0,no word that i can express how excellent this video is. thanks sir,True
+@ankiittalwaarin,2023-03-22T12:26:10Z,0,I could not find Your videos about gradient boosting on classfication ..can you share the link...,True
+@syncreva,2023-03-18T17:45:58Z,2,You are literally the best teacher i ever had.. Thank you so much for this dedication sir.. Means really a lot✨✨,True
+@justicesurage1362,2023-02-21T16:18:43Z,0,Can you please us have pseudo algorithm for xgboost,True
+@tadessekassu2799,2023-01-23T10:30:18Z,0,krish n. pls can you share me how i can generate rules from models in ml,True
+@mohittahilramani9956,2022-12-14T14:46:47Z,0,Sir u are a life saver what a great teacher… ur voice just fits in the mind while self learning as well,True
+@padmavathiv2429,2022-11-18T11:08:23Z,0,Hi sir Can u pls tell me the recent machine learning algorithm for classification,True
+@shadiyapp5552,2022-11-13T11:29:01Z,0,Thank you♥️,True
+@jianhaozhang1514,2022-10-26T21:41:15Z,0,"One minor error at 8:05, 75 - 2.3 = 73.7 instead of 72.7",True
+@ghanshyam9445,2022-08-30T17:20:21Z,0,Is this for classifier??,True
+@_ritikulous_,2022-05-19T04:53:37Z,0,R1 was y - y^. How did we calculate R2? Why it's -23?,True
+@harshbordekar8564,2022-05-08T09:50:11Z,0,Great work! thanks!,True
+@anshuraj8918,2022-04-04T05:50:46Z,0,"Why the first base model  would be average of 4, can anyone enlighten on that.",True
+@ajaybandlamudi2932,2022-03-26T04:37:34Z,0,I have a question could you please solve it e what is the difference and similarities of Generalised Linear Models (GLMs) and Gradient Boosted Machines (GBMs),True
+@sivareddynagireddy56,2022-03-22T02:09:17Z,0,"very thanks krish,u r telling in a simple lucid way",True
+@AbhinavSingh-oq7dk,2022-02-18T14:01:54Z,0,"Can you or someone share the yt links for gradient boost for classification (probably part 3,4) ? Can't find it.  Thanks.",True
+@sohailhosseini2266,2022-02-09T15:06:55Z,0,Thanks for the video!,True
+@ex0day,2022-01-18T22:03:36Z,0,Awesome explanation Bro!!! thanks for sharing your knowledge,True
+@oguzcan7199,2022-01-17T09:01:04Z,0,why the first base model creates mean of the salary? just as an example?,True
+@arpansingh-xs4xw,2022-01-08T18:14:37Z,0,it actually is 75 xD,True
+@jadhavsourabh,2021-11-13T17:20:43Z,0,"Sir, generally we scale all the tree with same alpha value, right???",True
+@rohitpant6473,2021-11-08T19:00:48Z,0,this video could be better,True
+@stephanietorres3842,2021-10-23T23:25:56Z,0,"Excellent video Krish, congrats! It's really clear.",True
+@jivillain,2021-10-11T21:12:46Z,0,so handsome,True
+@raom2127,2021-10-11T02:20:43Z,0,"Sir your vedios are really value added asset really good to listen,In comming vedios can you please for Topics to learn seperately for learning on ML and Deep Learning",True
+@aloksingh3440,2021-09-29T02:46:01Z,0,Hi krish at 7:33 u confirm it as high variance but just at training data u cannot confirm it. This can be misleading for new learners.,True
+@IamMoreno,2021-09-22T17:27:05Z,0,"Simply you have the gift of transmitting knowledge, you are awesome! Please share a video about shap values",True
+@yajnabopaiah8616,2021-09-20T15:28:25Z,0,The explanation is not that great sir.,True
+@sandeepmutkule4644,2021-09-14T05:49:25Z,0,"Ho(x) is not included in while summing, sum(i=1,n) alpha(i) * h(i)(x). It is like this?  --->  F(x) = ho(x) + sum(i=1,n) alpha(i) * h(i)(x)",True
+@akokari,2021-09-13T16:36:46Z,0,"In the formulae you computed, either i should go from 0 to n where lamda0 = 1 or just add h0(x)",True
+@pallavisaha3735,2021-09-08T15:50:04Z,1,"3:02 How are you assuming for all x1,x2 the predicted y is 75 always ? Hypothesis is a function of x1,x2. How can this be a constant ?",True
+@sandeepganage9717,2021-08-15T14:48:07Z,0,2:29 75 was actually the right number :-D,True
+@alkeshkumar2227,2021-07-24T05:36:50Z,0,"sir at 9:40 , i varying from 1 to n then how base model output means h0(x) ?",True
+@singhamrinder50,2021-07-22T09:07:37Z,0,"Hi Krish, how would we calculate the average value when we have to predict the salary for new data because at that point of time we do not have this value?",True
+@anuragmitra6249,2021-07-11T12:58:07Z,0,How is residual R2 calculated?,True
+@maheshpatil298,2021-06-29T11:18:33Z,0,"Is it correct that the base model would any ML model eg( KNN,LR,Log Reg, SVM).?  Is gradient boosting is kind of regularization.?",True
+@surendermohanraghav8998,2021-06-16T22:11:41Z,0,Thanks for the video I am not able to find 3rd part for classification problem.,True
+@phanik377,2021-05-11T01:17:00Z,0,1) I think you learning rate wouldn't change. So it is just 'alpha' . Not 'alpha1' and 'alpha2' for every decision tree 2) The trees are predicting residuals . It not necessary the residual reduce at every iteration. They may increase for some observation. For example for data point where your target is 100. The residuals has to increase,True
+@satpremsunny,2021-04-28T10:30:00Z,1,"Hi Krish. I wanted to know, how the algorithm computes multiple learning rates (L1,L2, .... Ln) when we specify only single learning rate while initializing the GBRegressor() or GBClassfier(). We are specifying only single learning rate while initializing, right ? Please feel free to correct me if I am wrong...",True
+@SAINIVEDH,2021-04-11T02:45:53Z,0,"Why does the residuals keep on decreasing. To my knowledge it's a regression tree, the output may be grater or lower right ?!",True
+@xruan6582,2021-04-06T17:55:22Z,0,You save my life in this information/algorithm explosion era,True
+@priyayadav3990,2021-03-26T13:08:01Z,0,Where are the part 3 and part 4 of Gradient Boosting .,True
+@1anjumbanu,2021-03-18T17:45:11Z,0,"Awesome content, not sure who are those morons disliking this videos? I really want to know who are those and what didn't they like in this video? Common man who can explain you some thing like this.",True
+@aashishdagar3307,2021-03-13T05:06:45Z,0,"hello sir, @6:10 decision tree predict on given features and taking R1 as a target, if R2 is -23 then it means decision tree predicts the +2, only then the R2 --> -25+2 =-23, is that so? and final model is h0(x)+h1(x) ........ ??",True
+@bhavikdudhrejiya852,2021-03-12T08:50:20Z,19,Excellent video. Below are the jotted down points from this video: 1. We have a Data 2. Creating Base Learner 3. Predicting Salary from base learner 4. Computing loss function and extract residual 5. Adding Sequential Decision Tree 6. Predicting residual by giving experience and salary as predictors and residual as a target 7. Predicting Salary from base learner prediction of salary and decision tree prediction of residual     - Salary Prediction = Base Learner Prediction + Learning Rate*Decision Tree Residual Prediction     - Learning Rate will be in the range of 0 to 1 8. Computing loss function and extract residual 9. Point 5 to 9 are a iterations. Each iteration decision tree will be added sequentially and prediction the         salary    - Salary Prediction = Base Learner Prediction + Learning Rate*Decision Tree Residual Prediction1                                                                                    + Learning Rate*Decision Tree Residual Prediction 2                                                                                     .....................................................................................                                                                                    + Learning Rate*Decision Tree Residual Prediction...n 10. Testing the data - Testing data will be giving to the model which have minimum residual while prediction          in iteration,True
+@Chkexpert,2021-03-08T20:25:24Z,1,"Krish, that was great content. I would like to know, where exactly does the algorithm stop? In case of random forest, it is mentioned by controlling max_depth, n_samples_split, etc. What is the parameter that helps gradient boosting to stop?",True
+@baharehghanbarikondori1965,2021-03-07T09:00:48Z,0,"Amazing explanation, thank you",True
+@rajbir_singh0517,2021-02-19T13:21:00Z,0,"Hello Krish, can we use any other LM algo rather than decision tree?",True
+@uttejreddypakanati4277,2021-02-10T15:12:53Z,0,"Hi Krish, Thank you for the videos. In the example you took for Gradient Boosting, I see the target has numeric values. How does the algorithm work in case the target has categorical values (e.g. Iris dataset)? How does the first step of calculating the average of the target values happen?",True
+@nehabalani7290,2021-02-06T12:19:37Z,0,"Great job!!! really like the example used to explain what is actually happening to the input values. understanding on overall technicals is easily available on youtube channels, but this example really changes the way i look at GBM after years of using it",True
+@itplacementprep,2021-02-04T07:57:21Z,0,Very well explained,True
+@zakariaboucetta5149,2021-01-30T20:13:58Z,0,How can we calculate R2 ?,True
+@sumitgalyan3844,2021-01-28T17:05:34Z,0,your teach awsome bro lobve from banglore,True
+@nischalsubedi9432,2021-01-26T19:40:44Z,0,good video,True
+@ManuGupta13392,2021-01-25T17:06:03Z,0,this R2 is the residual of the second model (i.e R1 - R1hat) or the R1hat ?,True
+@ajayrana4296,2021-01-11T14:51:37Z,0,how it will work in classifying problem,True
+@ruthvikrajam.v4303,2020-12-08T18:22:06Z,0,osm naik,True
+@ruthvikrajam.v4303,2020-12-08T17:33:56Z,0,"krish 75 is right value only man, u r perfect",True
+@sunnyghangas4391,2020-12-04T14:35:58Z,0,perfectly explained !!,True
+@sandipansarkar9211,2020-12-01T08:31:59Z,0,watched it again.Very important for product based companies,True
+@shreyasb.s3819,2020-11-30T15:03:10Z,0,What is base model here? Thats also decision tree ?,True
+@kabilarasanj8889,2020-11-28T08:49:56Z,0,this is a super-simplified explanation.  Thanks for this video krish,True
+@nivu,2020-11-27T09:35:34Z,0,StatQuest Indian Version.,True
+@pratikbhansali4086,2020-11-09T09:46:42Z,0,Sir like u made one complete video on optimisers try to make one video on loss functions also.,True
+@glaswasser,2020-10-23T19:08:48Z,0,cool man nice dude you rock totally!!,True
+@phaniraju0456,2020-10-17T12:10:41Z,0,marvellous approach :),True
+@isaacnewtonk.5186,2020-10-08T09:14:35Z,0,So why is it that all teachers cannot teach like this?,True
+@sandipansarkar9211,2020-09-28T16:37:30Z,0,Great Explanation Kris.Thanks,True
+@vishalaaa1,2020-09-25T20:01:25Z,0,Kindly upload the ML course using R. 90% of the university students uses R and Almost 70% of professionals are using R though they are migrating to python and it might take a decade. It will be helpful,True
+@vishalaaa1,2020-09-25T19:54:02Z,0,Excellent,True
+@Fsp01,2020-09-14T01:35:06Z,0,voice of a guy who knows his stuff,True
+@madhureshkumar,2020-09-13T09:57:13Z,0,nicely explained ... thnaks for the video,True
+@ajayakumarnayak1,2020-08-24T10:30:27Z,0,I want to join your classes for full package if you are providing. Would be happy if you send me details of course and fee structure.,True
+@benjaminbentekelongau8098,2020-08-21T18:47:47Z,0,Very helpful Sir,True
+@rishabs5991,2020-08-04T15:25:03Z,29,Awkward Moment when Krish estimates the average value to be 75 and it actually turns out to be 75!,True
+@nikhilagarwal2003,2020-07-23T13:22:51Z,1,"Hi Krish. Thanks for making such complex techniques easier to understand. I have a query though. Can we use techniques such as Adaboost, Gradient Boost and XgBoost for Linear and Logistic Regression Models and not trees? If Yes, Is the Output Final Model Coefficients or Additive Models just like Trees? Thanks in advance.",True
+@ANUBHAVSAHAnullRA,2020-07-10T17:36:24Z,2,"Now this is quality content! sir,can u plz make videos on XGBoost like this",True
+@architchaudhary1791,2020-07-07T05:48:11Z,0,I'm 6 year old and follow your all ml tutorial videos.  Can I applied on Data science post at this age,True
+@koustavdutta5317,2020-07-04T12:34:35Z,2,"sir, your video on SVM Kernel Trick regarding Non Linear Separation never came. Please try to make a video and thus complete SVM Part",True
+@neerajpal311,2020-06-04T09:01:14Z,0,Hello Sir please make a video on XGBoost .Thanks in advance,True
+@gowtamkumar5505,2020-05-22T02:01:04Z,0,"Hi Krish sir, Gradient Boosting, Gradient Decent both are different? Confusion started",True
+@rajatjain4478,2020-05-21T16:52:26Z,0,Great Explanation!,True
+@skc1995,2020-05-21T11:43:59Z,0,"Sir, i understand your teachings and it would be helpful if you address cholesky and quasi Newton solvers and what are they in optimization along with gradient descent. Not being from statistical domain its too hard for us to understand these terms",True
+@noushanfarooqi36,2020-05-16T11:03:23Z,0,This is one of the best explanations on gradient boosting. Will you be doing a video on xgboost soon?,True
+@tattwamasisahoo2483,2020-05-16T05:57:20Z,0,"Sir,please make videos on SQL that are actually being asked in interviews for data scientist role.",True
+@BatBallBites,2020-05-13T20:19:30Z,1,"Sir i am from Pakistan , Big Fan , Thanks for all data science stuff and specially for this video , waiting for other 3 parts",True
+@sushilchauhan2586,2020-05-13T15:34:05Z,1,i waited 2 days but your 2nd part didnt came,True
+@vipinmanikkoth4245,2020-05-13T05:08:57Z,0,As always awesone...! Waiting for Part 2!!,True
+@yukeshnepal4885,2020-05-12T23:55:22Z,0,"Again, thanks with heart sir 👌👌",True
+@kasinathrajesh52,2020-05-12T15:44:42Z,10,"Sir, I am a 17-year old I have been taking some certificates and doing some projects so is it possible to get hired if I continue like this at this age",True
+@shahbhazalam1777,2020-05-12T15:26:48Z,5,"wonderful...!! waiting for the third part ( SVM- kernel trick ), please upload as soon as possible",True
+@samarendrapradhan5067,2020-05-12T12:37:08Z,0,Nice understanding video,True
+@datafuse32,2020-05-12T11:30:27Z,1,Can anybody explain why we need to learn   the inner functioning and loops of various algo such as linear regression and logistics regression .. whereas we can directly call a function and apply it in python ... Plz explain,True
+@TEJASWI-yj1gi,2020-05-12T09:51:00Z,2,"Hi krish can you help me how I can make a way to learn the machine learning because I’m  new this domain. I had started doing a master project in it . For an thesis, I had tried allot but couldn’t make it . Could you help on it please that will be really helpful to me.",True
+@rog0079,2020-05-12T07:03:59Z,1,waiting eagerly for deep nlp videos :D,True
+@mambomambo4363,2020-05-12T04:56:53Z,4,"Hello sir, I am a college student and ML enthusiast. I have followed your videos and have recently completed Andrew Ng's course on ML. Having done that, I think I have got a broader perspective on ML and stuffs. Now am keen to crack the GSoC in the field of ML but I have no idea how to do so. Additionally, I don't even know how much knowledge I need. Going through answers on Quora didn't helped, thus, I would be quite grateful if you address my problem. Waiting to hear from you. Mucho gracias!!",True
+@pramodtare480,2020-05-12T04:03:19Z,2,It is Cristal clear thanks for the video. Actually I want to know about membership is it included deep learning and NLP  and what kind of content you will be sharing  Thank you,True
+@Fun-and-life438,2020-05-12T03:43:06Z,1,Sir do you provide any certificate programs online,True
+@Agrima_Art_World,2020-05-12T02:31:02Z,1,"Great Krish. Waiting for Part 2,3 and 4",True
+@mattmatt245,2020-05-12T02:30:28Z,1,What's your opinion about tools like Orange or KNIME ? Why do we need to learn python if we have those ?,True
+@oriabnu1,2020-05-11T23:43:44Z,4,i am doing PhD in china i will try my best for your channel promotion in china,True
+@oriabnu1,2020-05-11T23:40:27Z,2,"Asynchronous Stochastic Gradient Descent does it work like parallel decision tree please make a video on this algorithm, no standard  material available on this gradient algorithm, how can implement on image data I will thankful to you",True
+@oriabnu1,2020-05-11T23:34:17Z,1,Asynchronous Stochastic Gradient Descent with Delay Compensation sir can help me how this Gradient work because it is parallel gradient algorithm,True
+@vikasrana1732,2020-05-11T21:14:48Z,1,"Hi Krish, Great work Man...well just want to know if you could upload ""to build a data pipeline in GCP"". Thanks",True
+@Badshah.469,2020-05-11T19:35:43Z,1,Grt video sir but why its called gradient???,True
+@baskarkevin1170,2020-05-11T18:31:36Z,3,U r making complex  Concepts into easy one,True
+@ManishKumar-qs1fm,2020-05-11T18:06:47Z,1,"Sir, m see each and every video of yr channel even many times, plz make a video on imbalenced datasets end to end project, even u make a video on dis but u r not deal wid imbalenced data, u use a another technic,   plz  make one video for me, Awesome 👍 in word",True
+@nareshjadhav4962,2020-05-11T17:45:54Z,3,Exellent krish...Now I am deadly  waiting for Xgboost (favourite algorithm),True
+@priyabratamohanty3472,2020-05-11T17:20:13Z,2,"I think you saw my comment in previous video,there i request to upload gradient boosting. Thanks for uploading",True
+@krishnaik06,2020-05-11T17:17:29Z,340,Trust me I have taken 10 retakes to make this video. Please do subscribe my channel and share with everyone :) happy learning,True
+@donbosco915,2020-05-11T17:11:57Z,10,"Hi Krish. Love the content on your channel. Could you do a project from scratch which includes PCA, Data normalization, Feature selection, feature scaling. I did see your other projects but would love to see one that implements all of the concepts.",True
+@sachinborgave8094,2020-05-11T17:11:37Z,1,"Thanks Krish......Also, please complete Deep Learning playlist.",True
+@ronaksengupta6174,2020-05-11T17:10:13Z,1,Thank you sir 😌,True
+@sairajesh5413,2020-05-11T17:10:02Z,2,Hey .. Superb.. dude this is really awesome..,True
+@thunder440v3,2020-05-11T17:08:39Z,1,🙂🙏,True

@@ -1,0 +1,88 @@
+author,updated_at,like_count,text,public
+@krishnaik06,2020-05-10T07:42:48Z,34,"Steps To  Follow   1. Sentences 2. One hot Representation-- index from the dic 3. Onhot Repre---> Embeddind Layer Keras To form Embedding matrix 4. Embedding matrix",True
+@snagseeker,2024-04-05T15:46:18Z,0,"sir,how it is dividing row words and columns word   why both rows and columns does't have same words ?",True
+@user-kf3wv8ve2p,2024-03-16T22:20:11Z,0,Thank you so much. I was having trouble understanding embedding which I need to implement for a model in one of my classes but you have made it very clear and easy to understand.,True
+@user-th1cy9pv6q,2023-11-09T19:30:04Z,0,Great video! a couple of questions: how we can see these 10 features for each word? are the features the same? if not how the features are selected?,True
+@mohsinimam2048,2023-07-12T17:59:42Z,0,Thanks!,True
+@cCcs6,2023-05-04T10:47:06Z,0,"Hello Krish, I have one question. I followed your tutorial and created those word embeddings. However, how can I fit them to a model (for example SVM) since they have a 3D-shape the model does not accept it. Thank you in advance, Christ",True
+@noureddineghoggali9995,2023-04-07T01:59:34Z,0,Can you please make some tutorials on how to integrate the constraints in machine learning or deep learning? Thank you,True
+@Ankitkumar-qh6tx,2023-02-25T11:04:07Z,0,very helpful,True
+@enricowijaya8668,2023-01-25T03:37:26Z,0,"AMAZING EXPLANATION, thank youu!!",True
+@lemoniall6553,2022-10-17T20:17:21Z,0,"if we have a sentence ""vishy eat bread"". then we vectorize the word ""eaat""(misspelled word), why does fasttext see that the word ""eaat"" is more similar to the word ""eat""?. How is the architecture?, is it possible for fasttext without using skipgram to be able to classify words?. Thanks",True
+@rishabhvarshney2234,2022-04-27T11:03:10Z,0,"can you tell me how vocab = 10000, vocab means unique word in whole corpus write?",True
+@fineescape1257,2022-04-23T01:07:03Z,0,"Ifi watched this video and I don't understand, anyone has a suggestion of what I should watch first?",True
+@tagoreji2143,2022-03-24T05:11:12Z,0,thank you so much Sir,True
+@Gamezone-kq5sx,2022-03-23T09:13:56Z,0,The best than applied ai... Really best video ...,True
+@maralazizi,2022-03-16T22:24:31Z,0,"Thank you, it was a great explanation!",True
+@User-nq9ee,2021-12-29T15:50:40Z,0,"Hi very nice explanation, but we did not mention any feature but only feature size then how all those words got assigned dimension values.  on what basis.",True
+@bhavinmoriya9216,2021-12-11T13:28:49Z,0,"THanks for the awesome video. Don't we need to fit before predict? If not, why?",True
+@ManelTIC,2021-11-19T08:07:19Z,0,What is t'he relstion between embedding words and context window?,True
+@sir-lordwiafe9928,2021-10-03T10:55:04Z,0,Thank you Sir. Very very helpful.,True
+@bilalhameed248,2021-09-21T17:08:17Z,1,"voc_size=10000 dim=10  You did not explain these two variable clearly, why we consider dim=10 and voc_size=10000 please explain with some logic",True
+@khangamminh512,2021-09-11T09:56:21Z,0,"Is the output of this with word2vec different in nature, guys?",True
+@ADESHKUMAR-yz2el,2021-08-25T14:19:26Z,0,"how can dictionary have index? it is traversed by keys here we don't care about the position of elements , we call elements through keys regardless of its position. plz correct me if i am wrong , index of dictionary sounds confusing 😩",True
+@spartacuspolok6624,2021-07-09T10:02:19Z,0,Your video helped me a lot to understand it and to start working as a beginner.,True
+@Maryamkhan-lo1hq,2021-07-09T06:49:09Z,0,"Great explanation. one question what if we pass our dataframe which consist of 500 posts with label text instead of sentences, does it works?",True
+@sowmyakavali2670,2021-05-23T06:19:30Z,1,"Krish , How the word embedding layer convert one hot encoding vector to fixed dimensional embedding matrix ?  How the 10 k values converted into 300 values? Here we assume that one hot vector means its a sparse vector only , and is the embedding matrix also s sparse matrix or else dense matrix ?  @KrishNaik",True
+@louerleseigneur4532,2021-05-23T01:16:44Z,0,Thanks Krish,True
+@kmnm9463,2021-05-11T14:22:04Z,4,"Hi Krish,  Great video on Word Embedding. At 03:10  I think it is not one_hot which passes the values [2000, 4000, 5500] to Embedding layer. This is done by Tokenizer class from the same Keras. Tokenizer will create a dictionary of Words and their integer value - the length of the dictionary will be equal to total unique words in the corpus.  Also one_hot is not efficient and after Tokenizer has come into the scene, one_hot is seldom used.  from user -  Krish ( my name shortened too is Krish :)",True
+@vivekbhat720,2021-05-06T07:33:33Z,0,Thankssss bro for putting such great effort in teaching.,True
+@suryanarayanan5158,2021-05-01T05:34:40Z,0,amazing,True
+@varunpusarla2590,2021-04-28T10:59:30Z,0,How to decide the value for vocab size ?,True
+@abdelhomi836,2021-04-24T20:16:12Z,0,At the very last part of your video can you do an inverse transform to your input for Semantical predictions instead of matrix prediction output?,True
+@suvarnadeore8810,2021-04-23T10:52:13Z,0,Thank you sir,True
+@barax9462,2021-04-12T18:36:04Z,0,"Hello, im doing a project in which im not allowd to use AI librarries so, Can you pleaes explain this: - if i have an initial weight-matrix consisting of embeding matrix of size (300)x(|vocab_size| = 4k) and its filled with random values. And then we have an one-hotted sentence input of size say 3k   sen = [0,0,0,0,157,  8, 900,100] etc.. my mian question is how to multply/dot-prodct the embedding-matrix with the sentence vector??? im really confused about this. should i convert the sentence vector into a matrix of size |sentence_vector| x embedding. or should just multply the indeices with the embedding matrix?????",True
+@mohamednajiaboo9817,2021-03-18T15:24:58Z,0,Thanks for the video. When we add the embedding we need to set the feature size. Here we set as 10. So how we  the Keras know which of the 10 features need to be selected?,True
+@debashisghosh3133,2021-02-18T22:11:44Z,0,Awesome explanation Krish hats off...thnx a ton,True
+@ravishankar2180,2021-01-30T09:52:15Z,0,your vocab size is hardly 50 and you have taken as 10000?? strange!,True
+@muntazirmehdi503,2021-01-30T01:37:14Z,0,how do we set the vocab_size to 10k or any other number,True
+@DineshBabu-gn8cm,2021-01-19T13:47:06Z,2,I don't understand what vocabulary and vocabulary size are please some one explain. then what if our word is not in our vocabulary of 10 k. Please someone explain.,True
+@patrickadjei9676,2021-01-17T22:57:16Z,2,Please Explain Why your dimension is 10 when your set of features are 8. And why are you using a vocal of 10000 when your actual vocabulary is far less than 10000. Please explain.,True
+@vibivij1948,2020-12-28T03:09:35Z,0,Nice Video Krish...,True
+@maYYidtS,2020-12-22T02:33:04Z,0,can anyone suggest to me....what if the text size more than  8 words we lose information right....is there any other way to overcome this problem?,True
+@praneethaluru2601,2020-12-12T19:13:02Z,0,Literally my doubt got clarified...,True
+@anagham2413,2020-12-12T16:20:54Z,0,How can I convert more than 32 words?,True
+@wilman9206,2020-12-04T08:52:24Z,0,hi sir i wanted to know how can i search for the sentences using word embedding thanks in advance.,True
+@kaziasifahmed2443,2020-12-03T17:25:00Z,0,plz can anyone tell me how did 100000 parameters are formed?? meaning what works behind 100000 parameters.10 dim *10000 voc size ? but why?,True
+@chaitanyakulkarni6012,2020-10-14T11:16:13Z,0,please do a video of installation of tensorflow for gpu i have same laptop as yours facing issues from a long time,True
+@rishikeshthakur6497,2020-10-08T13:16:17Z,0,"Your videos are really great sir. Hat's off  you. Please, also make video on sentence embedding technique like infersent",True
+@affandibenardi548,2020-09-28T15:40:09Z,0,it make sense and simple to understand  thx bro,True
+@siddharthpandit2117,2020-09-26T17:36:54Z,0,why not padding added at the end. What changes if padding is at the end?,True
+@priyanshramnani1751,2020-09-11T00:52:24Z,0,Thank you! :),True
+@mohdzaid6533,2020-08-24T10:16:47Z,0,Sir how can I install tensor flow and keras package R ?,True
+@akhilyeduresi8145,2020-08-07T12:57:17Z,1,"Hi Krish,  Where Can I find Word2Vec and GLove implementation the same as above?",True
+@MRaufTabassam,2020-08-07T06:54:17Z,0,Did it work same for urdu?,True
+@infinitum90,2020-07-26T06:15:55Z,1,"Krish, can u explain how index 6654 get converted to vector of 10 dimension vector,  exactly what algorithm keras used to convert an index into vector .",True
+@infinitum90,2020-07-26T06:04:09Z,0,"Krish,thank you for the clear visualization  but 300 dimension is the parameter but how keras embedding layer calculated the 300 values of vector.Pl. can u explain.",True
+@shamussim137,2020-07-23T07:09:54Z,0,This is so goodd!!!Thanks Krish,True
+@pranayghosh1584,2020-07-19T04:40:11Z,0,why need to pad each sentence before embedding?,True
+@googlecolab9141,2020-06-26T13:25:31Z,0,better explanation than Stanford CS224N: NLP with Deep Learning | Winter 2019 course. thank you sir,True
+@sandipansarkar9211,2020-06-21T19:05:21Z,0,Thanks Krish once again,True
+@RAZZKIRAN,2020-06-18T10:14:55Z,0,"actually one hot encoding  is vector represation, again embedding layer converts to vector representaion?",True
+@RAZZKIRAN,2020-06-18T10:12:12Z,0,confused ? do we need to converted one hot repesentation embedding layer?,True
+@arjitdabral8449,2020-06-18T06:32:42Z,1,Sir plz explain  1.) what were the features here according to which the vectors were created 2.) Where does the features come from can we use our own features,True
+@ramonolivier57,2020-06-13T14:32:45Z,0,"You speak a little too fast in some section, but you explain everything very well.  I still am missing understanding on ""global average pooling"".  Thank you!",True
+@shaiksuleman3191,2020-06-12T03:02:52Z,0,"You and Codebasics are 2 eyes  in teaching.There are some many doctors ,only few will inject injection with out pain.",True
+@biswajitroy-zp6lk,2020-06-07T15:37:43Z,0,how to judge how many features  to take,True
+@sutopa8377,2020-05-18T11:18:56Z,0,"Hi Krish, Can you explain the concept of attention mechanism and please explain it in general, not related to encoder-decoder machine translation application.",True
+@gauravsahani2499,2020-05-18T06:38:57Z,1,"Thankyou so much Krish Sir, for this wonderful Playlist!, Learned a Lot!",True
+@BharathKResu,2020-05-16T14:20:34Z,0,"Hey krish, can u guide us on NER, like resume parsing for example..",True
+@krishnaprasad-un3hy,2020-05-13T16:10:36Z,0,"Krish this is a wonderful explanation. I just wanted to know that, I have watched your previous three videos on NLP and i want to learn this technique from scratch. So, is that enough or we have other topics to cover?",True
+@ameerhussain5405,2020-05-13T10:02:03Z,0,"Finally I understood the embedding layer!! I had gone through many tutorials but failed when I started implementing but with this one I came through.  Can't thank you enough Krish!!  I would like to add 1 point to your code if it helps any 1, if we could add a Flatten() layer after the embedding layer then we could add  Dense() layers and make predictions say if we are doing text classification.This model wouldn't do any good in terms of accuracy.  But this helped me build an intuition on shapes of the tensors and what happens to text when fed into a deep networks which is much difficult to visualise than what happens to images when fed into a CNN.(at least for me 😅)",True
+@chandanbp,2020-05-12T09:16:34Z,0,"How are we deciding no of features, what are those features exactly in the given problem?.",True
+@bhushanchaudhari378,2020-05-12T06:10:36Z,0,Mind blowing explanation 🤙,True
+@rog0079,2020-05-11T16:20:41Z,0,"so whats the difference between word2vec, and this embedding layer provided by keras?, do they perform the same job>?",True
+@vinitkanse5703,2020-05-11T06:28:57Z,0,How to decide the value of vocab_size ?,True
+@theniyal,2020-05-10T22:14:49Z,1,Can't you do the one hot representation with Tensorflow 'tokenizer and sequence' fucntion?,True
+@VijayKumar-bk5be,2020-05-10T15:26:33Z,0,Hey krish can u help us more videos by using system as well (practical)?,True
+@RitikSingh-ub7kc,2020-05-10T12:45:13Z,7,"Krish, can you explain some applications of nlp using lstm like next word prediction, translation and Image captioning ?",True
+@fidaullah3775,2020-05-10T10:46:11Z,1,"Thanks for sharing video, but please also make video on LSTM",True
+@kalppanwala6439,2020-05-10T10:26:06Z,5,Me waiting daily for Krish's videos be like me waiting for Money Heist Season 5 (aage kya hoga iss video ke baad) :),True
+@ijeffking,2020-05-10T09:29:22Z,23,I cannot thank you enough for this particular video. The length to which you have gone to explain Word Embeddings is highly appreciated. A world of Thanks.,True
+@SB-bu3xt,2020-05-10T08:56:32Z,1,Sir make a video on step by step guide for beginners who wants to learn ML,True
+@Trouble.drouble,2020-05-10T08:50:26Z,1,"Krish is dictionary ""  is bag of words """,True
+@cool_videos6016,2020-05-10T08:46:43Z,3,"Hi krish,  It was great video I am a beginner and I started seeing some projects on kaggle related to lstm I always had one doubt that is when to use a specific layer like in some projects they use two lstms they use dropout with certain value and these things are different in different projects and I get confused how did they choose these layers . I would request u to make a video on how can we know when to use a certain layer and why",True
+@radhikapatil8003,2020-05-10T07:53:35Z,1,Hi sir please suggest the face recognition CNN model..which is comparable with mobile face recognition,True
+@ahmedosama4973,2020-05-10T07:46:11Z,1,Thnx sir I have one doubt for this ..what will be the benefit for the word representative is that we can predict sentience or what the advantages,True
+@tanmoybhowmick8230,2020-05-10T07:45:49Z,1,Hey krish can you show some deployment of ml model ??,True
+@arpitbaranwal7236,2020-05-10T07:43:37Z,4,Thanks Krish for wonderful playlist.,True

@@ -1,0 +1,63 @@
+author,updated_at,like_count,text,public
+@KoustavMallick1,2023-10-10T01:04:38Z,1,"A small update: they have probably updated the dataset a bit so you do have to update the find parent with _ splitting like:  sql = ""SELECT comment FROM parent_reply WHERE comment_id like '%{}%' LIMIT 1"".format(pid.split('_')[1])",True
+@thechoosen4240,2023-08-15T14:33:41Z,0,"Good job bro, JESUS IS COMING BACK VERY SOON; WATCH AND PREPARE",True
+@ParadymShiftVegan,2023-05-13T00:30:19Z,0,0:28 How do I get my data to fly if it's not flying??,True
+@lowerstonetv1257,2022-12-18T01:45:33Z,0,I’m doing this on a raspberry pi  and I keep getting an error message that says   No such file or directory: ‘/home/pi/Desktop/chatbot/chatdata/2015/RC_2015-05’,True
+@DnKZone,2022-04-08T06:01:29Z,0,bro give the source code please,True
+@mohammedbaig9569,2022-01-10T04:59:19Z,1,i know this is way late but is it normal that when u run it in IDLE it returns that output at the beginning of the video but when I run it in pycharm nothing rlly happens?,True
+@adolphvil2,2021-04-17T16:40:02Z,1,"if anybody is getting  an error *UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position* then we can solve this by extracting bz2 file and then we get tar file which we have to put in the path  for eg with open('C:/Users/name/Downloads/RC_2015-04/RC_2015-04.tar',buffering=1000) as f:  I hope this helps",True
+@neuron8186,2021-04-10T13:09:56Z,0,i am getting an name error :(,True
+@ajiteshbhan,2020-11-01T03:25:18Z,0,"I have a query when you are checking for better score (find_existing_score(parent_id)) this function looks in our created database parent_reply if we have comment added and if the score is better, but you are ignoring that 1000 comments are in transaction that haven't gotten committed to database  hence I see  there is a scenario in which there would be records with child comments answering same parent comments with lower score .",True
+@goncalodinisantunes,2020-10-28T20:49:37Z,2,"Its giving me this error json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 9 (char 8), but i already tested a lot of datasets, and the error doesn't change, i mean, it does change the line and the character but the error itself always appears  How can i solve this??",True
+@rakshitparashar4410,2020-07-16T06:46:40Z,0,"Hey guys,  Even after running through admin privilege ,  ""PermissionError: [Errno 13] Permission denied:"" . Also changed security properties to full control. Any other tips?",True
+@re71707,2020-05-03T20:51:29Z,0,I keep getting this error: UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 441: character maps to <undefined>,True
+@shashwatrathod1342,2020-03-27T13:32:28Z,0,"Hello! Great video as always! On some research, I found out that the comments with parent_id starting with ""t3_"" are direct comments to the submission and wont have any parent comment. So we can save some time by just checking if that is the case before trying to find the parent body or the existing score. I hope this helps some of the potato owners like myself out there..haha!",True
+@randomizedletters4466,2020-02-11T09:16:25Z,0,over 2 years ago scince last response but ill give this a go @sentdex           def find_parent(pid):          ^    SyntaxError: invalid syntax,True
+@hangduong9608,2020-01-08T07:54:29Z,0,"I wonder what does comment ""score"" meaning ??",True
+@classic9322,2019-11-28T15:06:38Z,0,Heey i know this Tut is a little bit older but i try this out right now but i get some errors. can someone check this out how to fix it ? i uploaded it to GitHub. maby someone can help me ^^ thanks :D https://github.com/Gamelounch/SamOS-Deep-Learnin-AI,True
+@jayhu6075,2019-05-28T14:48:35Z,0,Great explanation about Dataset that we use in BOT. Hopely more in the future. Maybe a dataset that we will use in Parking.  Respect for all your video's.,True
+@astroinceptor3532,2019-04-18T03:13:25Z,1,"I was getting this error ""FileNotFoundError: [Errno 2] No such file or directory:"" and I couldn't open the file, so I stored the file into the same folder where the program is and changed the code to this --with open(""RC_2007-09"",""r""-- and it worked. I'm a beginner so I hope this may work with the next steps.",True
+@nguyenxuanhung236,2019-03-17T04:05:01Z,0,"Hello, nice tutorials, but can you make one video just for introducing the reddit dataset. For example, what is the parent_id in the dataset, what is the created_utc, etc. Stuffs like that. Thank you, again, very nice tutorials and thank you.",True
+,2019-02-08T19:19:36Z,0,"Import your dataset with pandas, and get rid of all this sql stuffs.",True
+@harshgupta3641,2019-01-06T16:08:48Z,0,what is this score in this program I am not able to understand,True
+@RICHSLYFLY,2018-12-18T17:08:33Z,2,anybody else getting *PermissionError: [Errno 13] Permission denied* when running the chatbot_database.py ?,True
+@kartikmakker1491,2018-10-16T17:37:57Z,4,Anyone  ?   comment_id = row['name'] KeyError: 'name',True
+@comatoszz,2018-10-15T06:41:27Z,0,"with open(""C:/Users/<user>/Desktop/ChatBOTpy-TF/RC_2008-01"", 'w') as f: PermissionError: [Errno 13] Permission denied: 'C:/Users/<user>/Desktop/ChatBOTpy-TF/RC_2008-01' can someone tell how to reslove this problem??",True
+@vikaschaudhary7465,2018-10-02T16:31:02Z,0,return result[0]                    ^ IndentationError: unindent does not match any outer indentation level  its showing this error in find_parent(),True
+@presidentcrabo4475,2018-08-13T21:54:31Z,1,"Hey,  For some reason the file path I used is returning a uni code error because of the fact that Windows use backslashes. I can't find a way to fix this. Does anyone know what to do?  Thanks!",True
+@michaelb1099,2018-08-13T13:18:52Z,0,"when i tried to run it i got this error any thoughts? :File ""<ipython-input-3-169a334970e5>"", line 38     with open(""C:\Users\Michael\Desktop\David_Morrow\{}\RC_{}"" .format(timeframe.split('-')[0], timeframe), buffering=1000) as f:              ^ SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape",True
+@michaelb1099,2018-08-12T19:58:32Z,0,i am sorry but i seem to be having issues and cant find away maybe i set it up wrong but am gonna find some tutorial for beginner thanx for the help,True
+@theoriginal639,2018-07-13T23:46:54Z,0,"I ran this exact code and i get this error   File ""<ipython-input-6-1ea30de32c9a>"", line 10     c.execute(""""""""CREATE TABLE IF NOT EXITS parent_reply(parent_id TEXT PRIMARY KEY, comment_id TEXT UNIQUE, parent TEXT, comment TEXT, subreddit TEXT, unix INT, score INT)"""""""")                                                                                                                                                                                  ^ SyntaxError: EOL while scanning string literal",True
+@michiokaku101,2018-06-30T12:19:37Z,0,man it doesnt save/create the DB etc. doesnt do anythng and i got no error. why is that?,True
+@sqothanelive,2018-06-07T06:23:00Z,0,getting this error   if result != None:            SyntaxError: invalid syntax,True
+@charimuvilla8693,2018-06-03T23:46:05Z,1,"I saw somewhere ""pid"" and I thought you actually managed to use a proportional integral derivative controller in a chat box lol.",True
+@Penguinz-fr1mu,2018-05-06T07:05:45Z,0,IQ 300,True
+@shashankmishra6409,2018-04-19T17:55:58Z,1,"Traceback (most recent call last):   File ""E:/Chatbot/New/create_training_data.py"", line 16, in <module>     last_unix = df.tail(1)['unix'].values[0] IndexError: index 0 is out of bounds for axis 0 with size 0  can you please help me with this error i m stuck here",True
+@MrDienigma,2018-02-07T07:48:03Z,0,This is in pyhton3 or python 2x? cuz its giving me a syntax error at the  elif data = removed or data =  deleted segment,True
+@MostafaRealMadrreid,2018-02-04T03:52:59Z,0,Hello i want to make a chatbot that will take a question and then analyze this question and extract some sort of keywords that will be used to match a scenario with RPA (Robot Process Automation) then displaying the reuslt that will come from the RPA  So my role is to make the chatbot to take the question analyze it then display an answer that is not responsibility of the chatbot  How can i do this with python ??,True
+@mrmm2511,2018-01-11T21:09:52Z,0,"in this code ""sql"" goes red and im not sure why, is it because im using sqlite3 wrong? please help because i love programming and i want to keep going      def find_parent(pid):         try:     (goes red)  -->  sql = ""SELECT comment FROM parent_reply WHERE comment_id = '{}' LIMIT 1"".format(pid)         c.execute(sql)         result = c.fetchone()         if result != None:             reutrn result[0]             else: return False             except Exception as e:                # print(""find_parent"", e)                 return False",True
+@nanisanjay6618,2018-01-06T11:18:51Z,5,my data is not flying,True
+@FireOfEternity,2018-01-03T04:42:55Z,0,"Hi, sentdex, thanks for the video, it's great!  If I use one year's data to train the robot(e.g 2015), is sqlite database still a good choice?  If I trained it on my desktop (1 titan X gpu), will it be too slow?  How many GPU is a suitable choice? I am worried that if I download all the data and I cannot train it on my desktop. Thanks!",True
+@pulkitswami5993,2017-12-22T06:35:32Z,0,where i can get your sample code?,True
+@shaileshsuyal4034,2017-12-15T07:08:55Z,4,Is anyone else having a problem with comment_id  field taking value from name,True
+@frigginnobody,2017-12-11T06:59:23Z,0,So far sooo goooooood :D,True
+@jhpk4495,2017-12-03T00:01:23Z,4,Edward Snowden?,True
+@cominup85,2017-12-01T14:59:51Z,0,"I like three videos, they go at a good pace. Looking forward to seeing more.",True
+@senior5904,2017-11-27T14:14:21Z,1,"That moment when you start looking for part 5, then u look at the date and the part 4 was posted only a day ago. FeelsBadMan",True
+@llukslive,2017-11-27T03:39:53Z,1,"thank you, i love your videos.  btw i'm an advanced python user and still prefer to use IDLE, there is no shame in that.",True
+@lindezagrey4982,2017-11-26T23:15:38Z,2,"Hey there, why not use parameterized queries? e.g. ""Select comment from parent_reply where comment_id = ?"" and then call c. execute(sql, args) That's not only best practice to prevent sql injection but should also boost performance especially on Insert statements.  Keep up your good work!",True
+@adammcdaniel1908,2017-11-26T22:30:42Z,0,A tutorial on a Golang equivalent of pygame would be really cool,True
+@anthonycbudd,2017-11-26T19:10:33Z,0,UPLOAD MORE!!!,True
+@user-fu4sy5bm2t,2017-11-26T17:39:26Z,0,hi from russia moscow,True
+@katebloxham2288,2017-11-26T17:06:19Z,0,This looks really cool!,True
+@metehan23804,2017-11-26T16:32:20Z,5,"Awesome series sentdex, thank you so much!",True
+@wolfisraging,2017-11-26T16:31:40Z,6,"Sentdesk was, is and will be my heaven  Thank you dear sir Big fan😊",True
+@walidmujahid,2017-11-26T16:28:34Z,3,"If there is not much difference between the find_existing_score function and find_parent, you could always abstract a bit and remove the two functions. So for example you could:  def find_from_parent_reply(id, column, where_condition):     try:         sql = """"""SELECT {a_column} FROM parent_reply WHERE {something_id} =                      '{input_id}' LIMIT 1"""""".format(a_column=column, something_id=where_condition, input_id=id)         ...  Great series by the way. My family and I have learned a lot from your channel.",True
+@tyrondolpire2135,2017-11-26T16:27:57Z,0,"Getting an ""invalid syntax"" error message for the: elif data = '[deleted]' or data = '[removed]':    - - - - - - Am I missing something?",True
+@BocaoLegal,2017-11-26T16:17:33Z,0,Thank you for making this,True
+@ravikd,2017-11-26T15:48:17Z,0,where can i contact you reagrding   a web scrapping doubt,True
+@ansuuvsikka5235,2017-11-26T15:45:12Z,11,"Im still shocked on how you get all of this sentdex. If it wasnt for you, I would be practically lost in deep learning. For that, i Thank you sir",True
+@petarking66,2017-11-26T15:30:49Z,46,== in elif,True
+@petarking66,2017-11-26T15:24:53Z,0,Thanks! A nice series :),True
+@sherwinrad4624,2017-11-26T15:16:59Z,0,Will you add personal assistant features? Like telling it to play music or mute volume etc..?,True
+@RiteshKumarMaurya,2017-11-26T15:16:18Z,3,The first like and Comment even Today!,True

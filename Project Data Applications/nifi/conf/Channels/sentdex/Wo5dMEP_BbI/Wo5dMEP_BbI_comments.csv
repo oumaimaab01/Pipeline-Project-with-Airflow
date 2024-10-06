@@ -1,0 +1,1111 @@
+author,updated_at,like_count,text,public
+@sentdex,2020-05-09T15:17:17Z,264,"Errata: ~10:26 - The animation depicting the number of tune-able parameters counts biases as if the input neurons have biases. They do not. For example, the 10x8x8x8x2 neural network has 26 biases (8+8+8+2), not 36.",True
+@connorgilbert6422,2024-05-18T05:01:21Z,0,"Back again 3 years later, with a little more math under my belt. Very much hoping that you will continue posting videos in this series",True
+@20archy,2024-05-13T07:53:52Z,0,"Hi , I can understand how the no. of Biases are calculated. May I know how exactly Weights (in terms of numbers) are calculated?",True
+@MKG-Math,2024-05-04T19:22:34Z,0,"The ""full code"" has some missing lines!",True
+@MKG-Math,2024-05-04T19:21:31Z,0,My apologies! I solved the problem on my own and the code is working as expected. Thank you.,True
+@MKG-Math,2024-05-04T18:55:59Z,0,AttributeError: 'Layer_Dense' object has no attribute 'forward' is the error message for the full code on pages 70 to 71.,True
+@MKG-Math,2024-05-04T18:38:57Z,0,"Hello Sir - How can I import ""nnfs""? I am trying the code examples but am not able to use nnfs at all (in Chapter 3). Please help.",True
+@vedantnimbalkar9477,2024-04-26T12:43:43Z,0,Is this playlist complete? Where else can I deep dive in this topic,True
+@aryanpathak23,2024-04-17T05:30:31Z,0,Don't tell me I am the only one who thinks he looks like Jessy Pinkman,True
+@mono24,2024-04-05T15:10:23Z,0,yeah this is stupid. You should really walk through people to get them to understand shit! Not just show complex code and try to flex.,True
+@reyes09071962,2024-04-04T22:47:26Z,0,And why did you use a single bias,True
+@reyes09071962,2024-04-04T22:41:32Z,0,Why did you choose 2 4 4 2 ?,True
+@mentiyYT,2024-04-02T03:19:16Z,0,i would love to take a class in person from this guy,True
+@my14081947,2024-04-01T13:42:12Z,0,That looks like snowden as a teacher.,True
+@fazlfazl2346,2024-03-30T19:03:54Z,0,"Seemed to be a great book in the beginning. The first 2 to 3 chapters are great for beginners but as we go deeper into the book, the amateur style in content and well as pedagogy become clear. The book is unreadable onwards  from the chapter on back-propagation. It seems like you are just reading  GitHub code after that.",True
+@timucinbahsi445,2024-03-29T11:29:44Z,0,"suggestion: maybe at the end, there could be a sketch of the 3 input 1 output network on the screen somewhere.  great video btw. i think both the plan and the execution of the tutorial are spot on. cheers",True
+@hey.Sourin,2024-03-27T10:50:50Z,0,Insane!!!!!!!!!!!!!!!!!!!!,True
+@L2.Lagrange,2024-03-24T07:14:01Z,0,Definitely gonna take a run through this playlist.,True
+@zacharycangemi9525,2024-03-15T04:11:57Z,0,"I typed in neural network python in youtube hoping to get a decent tutorial on how to learn to program NNs in Python. Instead, I orgamsed multiple times. Wow dude, one of those rare videos you stumble upon not knowing you hit a goldmine of learning content",True
+@ss5380,2024-02-13T21:01:48Z,0,ide,True
+@maotheneko2539,2024-02-07T20:56:30Z,0,Wonderful material *_* I totally love your approach: it is super important for me to understand the basics to the bone before adding the magic of frameworks! Thank you! I am going for the second part of the series :),True
+@TIENTI0000,2024-02-02T21:51:54Z,0,"Cool, thanks",True
+@uwamahoroleopord1385,2024-01-31T09:07:35Z,0,"Can you provide some publication details of your book like: Publisher, ISBN, and Publication Name? I need to recommend it to my college to have some copies in the library.",True
+@NhAlexandr,2024-01-15T03:30:02Z,0,"hi guys, so i just want to ask. Is neural network actually linear regressions. Do i understand this correctly",True
+@PROMAN8625,2024-01-07T15:35:10Z,0,"My Code for a simple neuron: num_neurons = int(input(""Num Of Neurons In Prev Layer: "")) input_layer = [] i = 0 while num_neurons > 0:     i = i + 1     print(f""\nNeuron Number \""{i}\"": "")     prev_neuron_out = int(input(""\tOutput: ""))     prev_neuron_weight = int(input(""\tWeight: ""))     prev_neuron = [prev_neuron_out, prev_neuron_weight]     input_layer.append(prev_neuron)     num_neurons = num_neurons - 1 bias = int(input(""Neuron Bias: ""))  neuron_out = 0 for prev_neuron in input_layer:     val = prev_neuron[0] * prev_neuron[1]     neuron_out = neuron_out + val neuron_out = neuron_out + bias print(f""Neuron Output: {neuron_out}"")",True
+@quentin1691,2024-01-05T14:58:27Z,0,"This is wonderful, thank so much from France",True
+@galacticlava1475,2024-01-02T03:48:13Z,0,You’ve shown Neural Networks from scratch. Now make neural networks using scratch.,True
+@corellonable,2023-12-30T14:03:38Z,0,It is pretty complicated yeah but i just finished a course in econometrics so this just feels like a linear regression and those statistical tests with some extra spices lmao,True
+@user-rg8gp4vj9d,2023-12-28T13:09:57Z,0,cool video),True
+@beautywithbrains_,2023-11-23T06:40:32Z,0,You communicate awesomly like me ....Great work,True
+@coldfire6869,2023-11-02T13:03:04Z,1,Let's blow through this in a weekend,True
+@DarpaSeven,2023-11-02T08:52:17Z,0,thanks man... i was looking for this,True
+@94praneeth,2023-10-30T15:07:36Z,2,"This comment is three years from the future :D Finished watching the first video. I just knew the moment you said ""from the scratch without any libraries...""  this is the series I'm going to learn neural networks from.  :D",True
+@TDrudley,2023-10-25T11:15:39Z,0,"Wtf...  inputs = [1.3, 5.1, 2.1] weights = [3.1, 2.1, 8.7] bias = 3  output = inputs[0]*weights[0] + inputs[1]*weights[1] + inputs[2]*weights[2] + bias print(output)  That code gives me 36.01, rather than 35.7. Do I have to get some other version of something or what?",True
+@kumarutkarsh1248,2023-10-21T06:35:20Z,0,"guys i am extending this playlist on my channel, if you are intrested to learn further  https://youtu.be/DOFA4dL-qAA",True
+@nobudy_left,2023-10-20T14:08:06Z,0,Bro don't tell me I sould be able to follow this 3:45. It keeps moving xD,True
+@jackrussel891,2023-10-15T20:07:36Z,0,may I kindly ask you which presentation software did you use for these animations?,True
+@fabarjun7932,2023-10-14T07:59:02Z,1,I love you sir  Thank you so much sir,True
+@RohitSharma-yw4iv,2023-10-10T07:10:23Z,0,Series is not complete....!!,True
+@azzedineidiraitsaid1057,2023-10-06T10:20:56Z,0,How do you create those beautiful animations ? are you using after effects ?,True
+@fastgeorge3104,2023-10-04T18:34:39Z,0,Beware that the series isn't complete! It is by all means a great beginning but don't get your hopes up about feeling satisfied after the 9 episodes,True
+@officialabdulrehman,2023-10-01T09:50:40Z,0,He's so happy xD,True
+@oglothenerd,2023-09-20T17:04:43Z,1,I am following along with the Rust programming language.,True
+@pullrequest1481,2023-09-17T22:40:06Z,0,god bless you brother! this is a gem for me!!,True
+@limitedgain6433,2023-09-16T15:34:45Z,0,"Thank you for contributing so much, and sharing your knowledge",True
+@superslowmojoe401,2023-09-15T19:22:44Z,0,"So happy I came across this playlist. Ive always been interested in deep learning and neural networks ever since high school, but I was always too intimidated to start. Hopefully this will be a jumping off point towards something bigger for me",True
+@ice641,2023-09-02T21:50:30Z,0,"Man, this series is going to be put in some kind of futuristic technology museum ❤ Keep it up",True
+@coderaiders-yt,2023-08-31T17:50:16Z,0,So happy you created this.,True
+@THUNDER52,2023-08-17T16:38:55Z,0,So are the network diagrams just “mind maps” of how they’re connected/visual representation or is it actually part of the code/engineering of the network? That’s the part I’m stuck on. It seems so fancy but is it part of it?,True
+@qbitsday3438,2023-08-10T04:48:41Z,0,I am facing Similar Issue !,True
+@gazpacho59,2023-08-07T20:43:20Z,4,"NOTE THIS BEFORE STARTING... although excellent by every measure, the series abruptly stops unfinished. This is a wonderful guided tour out of Hobbiton, but you will have to hike the rest of the way to Mordor alone. The companion book has 666 pages; this video series carries you through to only page 136.",True
+@danielbrockerttravel,2023-08-06T22:19:26Z,0,I found the simplicity of this exercize to be super empowering. This is awesome.,True
+@thomaswojnar134,2023-08-06T19:58:46Z,0,"Hi, your neural networks series is great, however I am curious about forward prop math equation, especialy this (∀) symbol, I have never seen it before, what that symbol represent in combination with  Σ, I looked everywhere and I couldnt find description of ∀ with j =1 and n1. Please can someone explain it to me? I would be gratefull",True
+@InMemoryOfNeo,2023-08-02T22:38:00Z,0,"bro, you're the man...",True
+@user-kj3vg4uf3b,2023-07-31T18:21:01Z,0,Thank you for the video.,True
+@Hysteresis11,2023-07-29T00:09:52Z,0,you always seem to get at the heart of my problem right off the start.  Excellent content.,True
+@MrMinecraftsamuel,2023-07-26T10:11:21Z,0,you look like jesse pinkman if he studied cs instead of cooking meth,True
+@MatrixShade,2023-07-26T04:30:44Z,0,Numpy,True
+@PixilistDesignStudios,2023-07-25T14:28:18Z,0,"code a neural network he said, it would be easy he said",True
+@bradley1995,2023-07-12T12:49:21Z,0,"Wow! Bout a 1/4th the way in. Gotta say,  excellent job!! First time viewer, but you have gained a sub!",True
+@user-mk6hr6rr5t,2023-07-04T20:36:09Z,0,Super video👍 Thank you so much,True
+@jesse8606,2023-06-12T21:55:04Z,1,"Just ordered the hardcover book online, very excited to start my new journey!!",True
+@Kickin0u0in0the0nut,2023-06-10T10:46:58Z,1,Really like your energy great tutorial,True
+@jamesyin3220,2023-06-08T04:45:43Z,1,I found Edward Snowden!,True
+@MateusMeurer,2023-06-07T01:10:24Z,2,"I'm sorry for the ignorance but, a neural network can be trained for any activity or is it built specifically for a task ,say image or text?",True
+@stefanmilinkovic6433,2023-06-03T01:40:15Z,0,7 minutes in I still don’t know how to build a neural network which is why I clicked on the vid,True
+@aneki2219,2023-05-28T14:32:06Z,0,3:24 looks like a sword,True
+@AgeFuture,2023-05-15T02:44:12Z,0,easy goal for me by the end: neural network written in brainf*ck... jkjkjk! great video so far,True
+@LabGecko,2023-05-12T17:48:54Z,1,"14:09 Did you mean to say every neuron has a _""unique""_ bias? If the bias (as coded here) is constant, that isn't unique. Doesn't affect the code, I know, but might affect understanding.",True
+@gurugamer8632,2023-05-10T21:02:01Z,0,"What spec is your system you use for deep learning, AI, machine learning and neural networks? What CPU GPU memory SSD do you use?",True
+@robertcrate-et2xq,2023-05-07T02:59:27Z,0,Creator 360 touch,True
+@daveys,2023-04-19T07:08:39Z,0,2:28 - This is why companies that copy the innovation of others may gain a leap now but stall later.  You need to have the pain of all those failures and the learning.,True
+@bumblee_beee,2023-03-29T11:03:58Z,0,Thanks so much for the clear explanation.,True
+@henrysabsurdities1766,2023-03-21T15:55:17Z,0,"my 6th time watching this series, just noticed you have a actual flamethrower in the background. not the best model imo but still america 100.",True
+@haroon180,2023-03-20T09:25:55Z,0,"Hi,  isn't y2  = np.max(0, np.dot(Y1, w2.T)+b2 instead of   = np.max(0, np.dot(X2, w2.T)+b2  @3:51 ??",True
+@aalaptube,2023-03-10T09:43:28Z,0,"To somebody who is trying to understand the depths of NN, this is a great series. But be aware that as of March 2023, it is an incomplete video series. The book is complete though.",True
+@sonicsound84,2023-03-05T04:09:05Z,0,Have you ever thought to revisit this or is it still relevant? :-),True
+@vincentrussell9550,2023-02-28T06:06:10Z,0,11:30 is where he gets to the code,True
+@johnissa5268,2023-02-27T22:11:25Z,0,who else is following along in assembly,True
+@coder312,2023-02-22T19:52:25Z,0,Is your book finished or still in draft form?  I cannot tell from you website or from your kickstarter page what status it’s in.  Thanks,True
+@lewisgilbert1959,2023-02-19T23:01:31Z,0,wow,True
+@ithinkthereforeitalk935,2023-02-10T14:38:08Z,0,"Bro, you sound and look like Snowden :0)",True
+@Cokrochee,2023-01-30T05:13:05Z,0,My bias command won't work in pychqrm,True
+@AiNeuralNetworks,2023-01-24T04:19:31Z,0,"# Define a hexagram as a list of six integers (1 for solid lines, 0 for broken lines) hexagram = [1, 0, 0, 1, 1, 0]  # Convert the hexagram to a binary string binary_string = ''.join(str(i) for i in hexagram)  # Print the binary string print(binary_string)  class RISC_V_Processor:     def __init__(self):         self.registers = [0] * 32         self.memory = Memory(65536)         self.cache = Cache(65536, 64, self.memory)         self.pc = 0          def fetch(self):         instruction = self.cache.read(self.pc)         self.pc += 1         return instruction          def decode(self, instruction):         hexagram = int(binary_string, 2)         opcode = instruction & 0x3F         return hexagram, opcode          def execute(self, hexagram, opcode):         if hexagram == 1:             if opcode == 0:                 # load instruction                 pass             elif opcode == 1:                 # store instruction                 pass         elif hexagram == 2:             if opcode == 0:                 # add instruction                 pass             elif opcode == 1:                 # subtract instruction                 pass         # ...      def run(self):         while True:             instruction = self.fetch()             hexagram, opcode = self.decode(instruction)             self.execute(hexagram, opcode)",True
+@gamemaster7164,2023-01-16T20:23:20Z,0,the ending was gold,True
+@nathanielpullig932,2023-01-13T00:52:19Z,0,"I've been writing up my own neuron cluster class and I need to know something. Can the initial bias for each neuron be randomly generated like the weights? Should it be?  I'm trying to make it where even setting up a machine learning algorithm for items with lots of inputs. If I don't have to worry about procuring bias datasets along with the inputs, it'd make it a lot easier to make the program scale automatically.  Even outside of figuring this out, I'm probably not going about doing this in the most efficient way, but I'm hoping to learn the ""best practices"" just by doing. Even still, if I don't deviate from the tutorial, how can I say I made it myself?",True
+@geniusyola1982,2023-01-12T05:10:32Z,0,"Thanks boss, you have opened my knowledge",True
+@greentaco3402,2023-01-11T02:12:45Z,0,wOW Very cool,True
+@garymdmd,2023-01-10T01:20:47Z,0,"Great series and I got the ebook once I went through the 9 videos - just wondering, there are no videos after the first 9, except the animations referenced in the book?",True
+@asnamu3351,2023-01-06T16:03:12Z,0,"Real is a great explanation approach. Dear sir, can I get your email address?",True
+@aljustiet,2023-01-06T11:36:17Z,0,what color scheme is used in this video is sublime text ?,True
+@KevinGodfrey-he1tt,2023-01-03T19:20:03Z,0,"I have a question , you mention in the book that d/dx of the max function is 1 if z>0 else 0. but what if z==0, shouldn't that be 1 as well?",True
+@zvxcvxcz,2023-01-01T11:11:14Z,0,"I always find the part where people have to dance around a bit when talking about Numpy (and a number of other commonly used libraries) hilarious.  What they want to say is that Python is glacially slow (not a problem particular to Python... it's an interpreted language problem in general) but they don't want the community to jump down their throat.  That, or there are the other people that don't even realize things like Numpy aren't written in Python...  Personally I find it... almost a bit insulting the way Python ends up getting treated as if it's the tier one language while the language the code is mostly written is sometimes treated as an afterthought.  E.g. it took a long time for PyTorch to support their C++ interface.  I haven't checked lately, but I'm not sure if Tensorflow ever did add a stable C++ interface... but they had some weird implementation where part of it actually was Python for tracking gradients or something.  And they write all the tutorials for Python users, etc...  I don't know, just rubs me the wrong way.  I think it comes from their corporate design origins in part, where the people writing the library are often separate from the people using it, as opposed to code written to ""scratch an itch"" per se, where it was written by someone that wanted to use it themselves.",True
+@yuval1588,2022-12-16T16:38:53Z,0,I can't find your book on  Amazon,True
+@jaeen7665,2022-12-13T18:38:48Z,0,Thumbs up!,True
+@ahmadkhan9984,2022-12-08T03:35:02Z,0,Instant sub amazing content!,True
+@FagunRaithatha,2022-12-04T19:52:43Z,3,"Thank you sir, you are just great. I learned Django from you. I hope this series is as good as that one.",True
+@hotfrost_,2022-11-26T14:21:01Z,0,Great intro! Very easy to follow and understand. Thank you.,True
+@justchris846,2022-09-18T00:43:24Z,0,"I needed a cigarette after that, it was that good. I don’t smoke.",True
+@vincentdermience1137,2022-09-14T17:35:04Z,0,Just bought your book and ebook which I downloaded while I wait for the hardback version to ship. I searched randomly on good material on neural networks after watching Sebastian Lague's latest video on the same topic    https://www.youtube.com/watch?v=hfMk-kjRv4c&t=10s     I must say this random choice was good and I'm now just starting watching the channel.,True
+@PatDaddy13,2022-09-05T02:31:45Z,0,So you’re one of the 20000 that got a hold of that fine equipment behind you there…right on brother,True
+@blackyogurt,2022-09-01T09:19:30Z,0,Hi. Thank you. Please do the same for Federated Learning.,True
+@radyomanyaktif5912,2022-08-27T19:03:42Z,0,"From the very first video, it felt like it had a great narration on the subject.",True
+@zareef5583,2022-08-24T15:36:35Z,0,The kind of tutorial I've been looking for. Can't wait for more videos in this series.,True
+@mattjhawken,2022-08-20T22:34:55Z,0,My favourite series to this day. Thank you sentdex!,True
+@littletimmythefifth29,2022-08-17T00:32:28Z,0,"Here at 907,689 views.",True
+@EEDVANCEMENT,2022-08-16T05:21:28Z,0,Why am i 2 years late here 🥲,True
+@danielstatler954,2022-08-10T18:25:13Z,0,please help pip list shows numpy is installed but i cant import any discussion i found didnt help and i am very close to giving up,True
+@muhammadmurtazanasir9393,2022-08-01T21:30:41Z,0,Very helpful lecture. God bless you,True
+@reawardintel,2022-07-24T12:34:11Z,0,love that!,True
+@InfiniteLearningLab,2022-07-17T06:48:21Z,0,perfect,True
+@beyonddnoyeb4519,2022-07-12T06:52:17Z,0,really great series,True
+@bonbonpony,2022-07-12T02:26:20Z,0,"10:08 What if I want it to recognize a shape (might be a cat, but let's say it's just a triangle, for simplicity, or a hand-written digit) irrespectively of where it is located on the canvas, or how is it oriented on it? That is, how to make a neural network that can handle visual patterns that are shifted, rotated or scaled? Our brains can do that, obviously, so there must be some way.",True
+@razorwolf2758,2022-07-03T13:48:57Z,0,I swear someone will try to recreate technoblade in python neural networking,True
+@RunTheProgram,2022-07-01T11:58:21Z,0,"""this should really be understanding this right now, it's all really simple functions here"" me who just learnt to print hello world in python:",True
+@OT-tn7ci,2022-06-30T15:33:31Z,0,"at 2:26, analyzing frames in a video game and predicting which actions to take. Dam.. sound like an aim bot hahah, nice",True
+@jeffonam9983,2022-06-15T08:42:49Z,0,thx sub,True
+@tonycardinal413,2022-06-11T17:44:04Z,0,"Interesting introduction to neural networks. I also want to compliment you on your speaking ability and diction. Many of these videos are difficult to understand due to heavy accents, bad pronunciation etc. Also a great introduction to neural networks using python for absolute beginners like me is a book called  Artificial Intelligence and Deep Learning with Python: Every Line of Code Explained For Readers New to AI and New to Python. Reading this book was like having a magic wand reveal how neural networks work and how to code them very very very easily in python.",True
+@ShivamGupta-qh8go,2022-06-04T23:07:54Z,1,is this series good for people new to any to all kinds of machine learning?,True
+@eekplayz830,2022-06-03T16:07:27Z,0,unsupported operand type(s) for +: 'float' and 'list',True
+@eyesyt7571,2022-06-02T17:44:10Z,1,"Is it possible to design on of these such that instead of determining whether an image is a cat or a dog it can draw a picture of a cat or dog? If not, what sort of AI would be needed for that? I'm looking to get into advanced AI, and I am looking to know the maximum known potential of each model of AI.",True
+@armaang6411,2022-05-19T17:43:04Z,0,best book/series ever,True
+@justtrim,2022-05-12T19:15:17Z,0,"lol look at that open PC in the background, nerd. /s",True
+@jaydavvg,2022-05-09T14:28:40Z,0,i fucked around with python for an hour and googled neural networks with python. never have i been in a place so wrong yet so right,True
+@thetruereality2,2022-05-05T12:01:12Z,0,"This is superb, I am going to follow your series. Thank you for doing this.",True
+@Gornagik,2022-04-23T19:27:11Z,1,at the time of this comment this video has 830k views. The 9th video in the series has 45k views.,True
+@TheTrueDeveloper7109,2022-04-18T06:14:25Z,0,Can't believe that I'm trying to learn how to make a neural network at the age of 15 but so far i understand what's going on.,True
+@FPChris,2022-03-31T01:44:46Z,0,Where can I order the book?,True
+@prasojojiwandono6189,2022-03-26T14:13:00Z,0,thank you :),True
+@ahmadmaroufmiro,2022-03-13T19:31:58Z,0,"one of the best playlists coding ever, you clear to many things to me thank you very much man",True
+@fasihussaini8554,2022-03-10T18:06:08Z,0,Is this guy related to Edward Snowden ?,True
+@paulauber831,2022-03-06T09:54:56Z,0,Great Job!,True
+@sangramkesariray,2022-03-02T07:33:29Z,0,5:50 this series should be good for like 10 years,True
+@maaadkat,2022-03-01T13:03:40Z,0,"I understand the sentiment, but when you even think ""If I can do this, it should be easy for anyone,"" you misjudge your own capability.",True
+@derekwest8636,2022-02-08T23:21:42Z,1,I've gone through a few introductory courses on python and believe this to be a good challenge. Granted I have alot to learn so my pace will be slow but I'm excited to get started and follow along in the book with your videos. Also I really liked this animation 4:03,True
+@sodapopinski9922,2022-02-05T01:56:49Z,0,what versions of python are supported with NNFS? cant find it. im running 3.6.9 and 3.8 which version should i use to to pip3 install NNFS?,True
+@angelferhati,2022-02-04T19:55:58Z,0,2022,True
+@michaelgurule3134,2022-02-04T04:48:52Z,0,Can I run this on python 2?,True
+@panusam-ang7878,2022-02-01T07:48:34Z,0,Is he Jesse Pinkman from Breaking Bad ?  :P,True
+@jaken82,2022-01-28T14:54:04Z,0,Amazing tutorial series! Thank you!,True
+@alixsonpl7973,2022-01-21T14:18:52Z,0,Im glad to pursue master with all these available free tutorials. Thank you so much,True
+@Crunkmastaflexx,2022-01-15T13:34:35Z,0,awesome,True
+@denzelfilms3455,2022-01-13T13:56:51Z,0,When he said we have basic functions going on here I clicked off the vid 😂. Coming from someone still learning loops 🤣,True
+@shinichixxxx,2022-01-08T11:59:29Z,1,thank you so much,True
+@hrishikeshmukherjee8988,2022-01-06T18:23:57Z,0,Wo,True
+@febzey445,2022-01-06T03:17:14Z,0,this guy is awesome,True
+@HS-819,2022-01-03T20:46:59Z,0,"Halfway to this video and I am thinking: ""this guy really knows what he is talking about"". Good job!",True
+@redditrepo473,2021-12-28T21:13:49Z,0,"I was like, ""This will be interesting to learn and try to understand."" and then I made it to 3:00 LOL",True
+@jeduthunoosthuis5794,2021-12-25T18:26:15Z,0,"Truly blown away by this channel, thank you for the work you are putting in.",True
+@rithika9442,2021-12-22T13:11:15Z,1,He has a not a flame thrower,True
+@justforrelax404,2021-12-18T17:24:21Z,0,Hi shall i get video tutorial for this course instead of book if i pay. because for me video is better than read book. or if join in youtube shall i can see videos,True
+@sml99,2021-12-13T15:54:03Z,0,u look like snowden,True
+@whoisyavuzhan7918,2021-12-13T13:12:57Z,0,If you don't know meaning of life ? no worries we will explain it anyways very simple :D this is the best tutorial video I ever watch thank you sentdex,True
+@ibrahimmuhammad5281,2021-12-09T20:36:53Z,0,"hello....please i need a help, i know nothing about programming or coding, where do i start from cos i really want to learn the python concept ofv language",True
+@Tinkerer_Red,2021-12-07T20:50:39Z,0,"For anyone confused, the incorrect number of biases were included in the examples at 1:23 The inputs dont actually get their own bias. so the first example should really only have 26 biases.",True
+@alexlandherr,2021-12-05T20:44:33Z,0,"Would this work on any computer that can run Python, like a Raspberry Pi 4B 8GB?",True
+@Thkaal,2021-12-05T19:37:03Z,0,Wait a moment after I want it I just realized my gossip and Rumor Mill program within your own net I didn't even know I was doing it,True
+@beepbeepimasheep237beepbee3,2021-12-05T15:43:43Z,0,"One question: Is this possible in Roblox? There is a Lua version of this, and Roblox Scripting is based on Lua.",True
+@mustafaalam958,2021-12-04T09:35:56Z,0,High quality videos!,True
+@sc0820,2021-12-02T07:55:23Z,0,here i come.,True
+@antonie3215,2021-11-24T15:36:03Z,0,"As you mentioned each neuron has a unique bias, so why the bias you considered is not a vector with 3 entries",True
+@andreesosaluria5858,2021-11-24T00:38:58Z,0,"What is the topic shown at minute 2:50 . I vaguely remember that I saw something similar in the data structures class, I think they are binary trees. I honestly don't remember much anymore, but I want to learn again.",True
+@ghastcrazy5918,2021-11-22T17:22:49Z,1,I have a question: is the output value the likelihood that the ai would do some certain action?,True
+@justinyearing3489,2021-11-22T04:16:30Z,1,"I might have a bit of a weird question.  Is there a way to learn coding and build up to Neural Network without getting involved with universities?   The only one I live near that offers this kind of programming, is about $70,000 a year, and im more or less looking for a hobby, and not in a position to really jump into a 4 year degree.",True
+@orgdejavu8247,2021-11-21T20:17:17Z,0,starts 8:45,True
+@Scottagram,2021-11-18T11:25:53Z,31,"""Now this is all very simple maths. But I'm gonna explain it anyway""  BLESS. I'm a uni dropout who installs safety signage for a living, so it is profoundly and deeply helpful when a tutorial doesn't assume that competent beginner programmers know any maths.",True
+@apersonthatsucksatnames1133,2021-11-14T08:19:24Z,0,Am i the only one who thinks this guy looks like a slightly skinnier william osman?,True
+@SweetKnock,2021-11-08T06:52:44Z,0,"Thanks, Edward Snowden.",True
+@dadasajad8741,2021-11-03T21:14:01Z,0,"WOW, my friend. YOU ARE JUST A LIFE SAVER FOR ME AND ALL OF HERE ON THIS VIDEO!",True
+@alexandruionut4209,2021-11-03T19:40:16Z,0,This is amazing. Thank you for the series. :),True
+@dactimis3625,2021-10-31T23:09:36Z,0,"As a computer scientist (only 50 years of programming) I was and am indignant at the broken name of reality ""neural networks"". Apart from names, these networks of extreme simplicity (compared to what happens in biology)  have almost nothing in common with the network created by real neurons.",True
+@syllight9053,2021-10-31T05:24:10Z,0,This series is more valuable than pure gold,True
+@agenteismael18,2021-10-26T10:24:03Z,0,I thought it said from scratch,True
+@blackloki4728,2021-10-25T13:19:24Z,1,i think u must said to ur brain . everything is possible . no said im lost . in god we trust,True
+@mr--yeetman,2021-10-25T00:46:08Z,0,How was this one year ago I was looking through this for so long,True
+@toseeornot2see,2021-10-16T04:54:41Z,0,This man is very smart and seems to love what he is doing! I only have a passing interest in neural nets (to make conversation with friends) but this man is amazing! Subscribed to him to see where he goes!,True
+@awang6856,2021-10-10T07:57:23Z,1,Plz add more contents for different nns and layers. I bought ur book but hope u can write an advanced version and I will definitely support the new book as well. Thanks!,True
+@sweeftyy,2021-09-27T11:49:45Z,0,I love the passion you talk with!,True
+@siddharthpandey932,2021-09-24T05:36:14Z,0,"sir your tutorials are very good, as am student i do not have enough money to buy your suggested book of any type(ebook , hardcover) may i have book in free or ebook in free it will help me very much. Thankx sir anyway for your tutorials. siddharth pandey",True
+@vader777,2021-09-23T23:08:26Z,0,YOU. ARE. AMAZING. Thank you so much!,True
+@DamafiakingzDMK,2021-09-22T19:09:59Z,1,Omg I'd so doo you,True
+@GrahamCrannell,2021-09-21T16:57:52Z,0,"14:56 - I absolutely *lost* it at ""paste, paste, PEP8 cries..."" 😂😂",True
+@BizzNitzz,2021-09-16T06:09:31Z,0,The first video is done! Easy peasy! Let's see how long it takes me to finish the series.,True
+@dearheart2,2021-09-04T10:49:37Z,0,Great animation :),True
+@biddlea76,2021-08-28T15:19:09Z,0,My tangled brain feels like it has just been soothed with a fine comb.,True
+@ihsanshafi1047,2021-08-24T17:56:03Z,0,this is proof you don't need to be an extremely good mathimatician to be a programmer,True
+@hackercop,2021-08-23T10:56:51Z,0,"Love how your video and animation quality has improved over the years, it now look really pro. Looking forward to following this series!",True
+@theSpicyHam,2021-08-23T03:19:58Z,0,"I lm rather almost undertood there 0, didn't really check the video, but reeled an few seconds !",True
+@youssefelamrani7905,2021-08-21T16:02:33Z,0,is there a condition on the weights like should they be like between 0 and 1 or something like this?,True
+@ciebriel79,2021-08-21T11:34:35Z,0,Can you get your book at a book store like barns and noble?,True
+@Barsay,2021-08-20T15:34:41Z,0,python. Why Python.,True
+@j.raimundosilva2101,2021-08-19T22:22:14Z,0,"Great video with a lot of content! I have a question: I have a chemical problem that i need to solve, i want to find the coefficients to balance chemical equations. The coefficients are usually greater than 1, but i could find as solution (output) the moles fraction, which is between 0 and 1. So what i want to do is input some chemical equations parameters and than it would output the mole fraction. I could do it mathematically, but i want to do it with neuron network as a test for a later project. Is it possible to use neuron network in such way as to solve set of equations?",True
+@qwertyawert,2021-08-18T22:18:39Z,0,this guy looks a lot like mac miller with glasses. wonderful content,True
+@Nancivlog,2021-08-18T16:05:37Z,0,what is bias?,True
+@albertocatania6165,2021-08-18T15:35:36Z,0,i  was always thinking to understand how to create a neural network. I would like to apply it in some ideas. I hope i will learn with you as it look properly really simply explained so far...I do not know if i will understand everything as i'm trying to learn python to but the way in which you are doing so far looks ok...thank you :),True
+@shivamdubey4783,2021-08-10T17:34:22Z,0,great tutorials my brother just one request can you make it for cnn from scratch,True
+@claudio84841,2021-08-09T20:43:48Z,0,Is there a book from this guy? I want to Buy it,True
+@orobosalibertjoseph3380,2021-08-09T05:51:42Z,0,"Please  i need code to do these classification in CNN with python: ""GOOD"" ""AVERAGE"" ""BAD""",True
+@realhbk316,2021-08-06T09:57:31Z,0,An odd request to sentdex... I am looking to assemble a PC for ML and DL... can you offer some suggestions regarding configuration?,True
+@vaibhavkhobragade9773,2021-08-03T19:14:59Z,0,I found treasure! Thanks,True
+@ZaidKhan-hl2xq,2021-08-03T19:07:39Z,0,This what i got: Inputs = input data bias = number of neueons in the current layer weights = ?  What is weights again?,True
+@dr.mikeybee,2021-08-03T13:51:54Z,0,"Kudos for getting that universal quantifier symbol into your objective function.  That alone should get you a Ph.D. LOL!  BTW, this is a truly beautifully done series.  The amount of fist class work you produce amazes me.",True
+@charjed-tryhardnoobieonfor5360,2021-07-30T02:26:16Z,0,I thought this title was writing neural networks using Scratch LMAO,True
+@ancientgear7192,2021-07-29T20:12:09Z,0,Hi. I watched your video about making a neural network that labels a picture as cat or dog. I tried to do multi class image classification on a dataset of tank pics i got from kaggle but the accuracy of my rnn is awfull. So i came here to better understand how neural networks work.,True
+@roshankarki9264,2021-07-28T04:33:38Z,0,Justin Gaethje out here teaching NN when he's not fighting.,True
+@emmacooper9241,2021-07-27T18:09:02Z,0,"I decided to create a neutral network for image recognition from scratch, for my A-level NEA and I have been trying to find a starting point for it for quite a while now; searching the internet, reading books and looking at past students NEAs. This has helped so much (relieved alot of stress too), definitely going to continue to follow this series for my NEA. Thanks so much!",True
+@Pronation-sb9bj,2021-07-27T11:10:32Z,1,sendex : none of this should be over your head me as a 8th grader : Yeah totally i understand every bit of it and i totally love math  :cry:,True
+@logangraham2956,2021-07-27T06:45:11Z,0,"im trying to understand how weights should be stored.  say i have 2 layers [A and B] and both have 3 neurons  A1 has a value of 1 A2 has a value of 0.1 A3 has a value of 0.5  B1's inputs with be from A{1,2,3} but is B1's weights also from A{1,2,3} and would B2 recieve the same weights from A{1,2,3} or are the weights stored in the connections and B{1,2,3} would all receive different weights  Example1: A1(1,5) <-  -> B1 or Example2: A1(1) <- 5 -> B1  in Example1 no matter which B request the data from A1, B will always get the same weight from A1. in Example2 B can get different weights from A1 because the weight is stored in the connection and not the neuron.",True
+@suvigyadwivedi5071,2021-07-09T17:06:25Z,0,What is bias for??,True
+@theboy7440,2021-07-07T09:19:35Z,0,"output = input[0] * weight[0] + input[1] * weight[1] + input[2] * weight[2] + bias TypeError: 'set' object is not subscriptable",True
+@TheMinecraftMonopoly,2021-07-05T09:03:20Z,0,1 Year on!!! You taught me programming was not as hard as it seemed! To many years of programming to come!,True
+@saif384,2021-07-01T04:51:16Z,0,This guy have a video on everything.,True
+@7s9n,2021-06-26T06:03:08Z,0,💛💛,True
+@mortenbellmann6972,2021-06-24T06:25:53Z,0,"4 Minutes in, fucking amazing stuff man! The way you present the information is reeeeeally accessable :) keep up the good work!",True
+@im4485,2021-06-23T04:32:47Z,0,I am actually scared to watch this video,True
+@waqasjan998,2021-06-22T10:16:47Z,0,I watched this video 1 year ago I couldn't get it that time but it woke me up this time Thanks for your effort great work,True
+@ethannguyen2754,2021-06-17T13:39:09Z,0,Your lack of semicolons disturbs me,True
+@swaystar1235,2021-06-13T11:58:30Z,0,did u learn animation from 3 blue 1 brown haha,True
+@imdadood5705,2021-06-10T15:16:32Z,0,"1 year back, when I was getting started with Data Science. I had a little knowledge on Python (That too was the basics) and a basic understanding of linear algebra. I didn't know how to write a simple function. I was just going through this video and hoping someday that I'd understand what is being written and said by this lecturer.   Now, I have a solid understanding on Python (not an expert, but I understand most of the code that's written and  familiar with Object Oriented Programming. Also, I am still learning python) and I have a better conceptual understanding of linear algebra and matrix multiplications. I started learning machine learning recently. Believe me, I was just going through this video skipping most parts, I can actually understand what this lecturer is teaching. I don't know who wants to hear this, if you feel like you aren't making any progress. Don't just give up on your journey! Good things take time! All the best!   Thank you, sentdex. I have learnt a lot from you. Hopefully, I will be learning something new from this series as well.",True
+@justinwhite2725,2021-06-10T01:06:05Z,0,Thank you for this. I've been tryong to build my own network and I keep getting thrown the theory behind derivatives and backpropogation when what I really need to see is the code to make that work. Also I'm using unity so Python libraries are a pain to implement.,True
+@someoneelse3740,2021-06-07T17:14:37Z,0,"After 4:22 i bought your ebook, i have a slight understandig of the calculations and saw right away you know what you are talking about. Great work",True
+@silenth1806,2021-06-02T02:47:26Z,0,I don't know where I would be without this guy. thank you so much for all you do.,True
+@walkiacid9265,2021-05-31T11:23:21Z,0,now it doesn't work.,True
+@ashishgoyal4958,2021-05-30T19:24:58Z,0,"Hey @sentdex I want to know that book you are talking about, is it going to be more beneficial if u wanna learn neural networks from scratch or this video series is fine ?",True
+@jaykkt02,2021-05-27T15:37:07Z,0,This guy looks like Snowden,True
+@amosnimos,2021-05-27T02:44:06Z,0,if you already understand the principle i guess you can start from their https://youtu.be/Wo5dMEP_BbI?t=780,True
+@luminity4408,2021-05-20T16:43:06Z,0,something for 7 graders please,True
+@miklo657,2021-05-05T23:33:53Z,0,"I should be able to do this on google colabs, correct?",True
+@MohamedAshraf-zs6nv,2021-05-04T20:40:07Z,0,could you please make tutorials on CEFpython3,True
+@SteffOverflow,2021-05-02T15:59:45Z,0,He has the flamethrower from the boring company <3,True
+@Lado93,2021-05-01T14:50:39Z,0,yes purpose to do this like this in programming is to learn how something work on deep level. Like me. I dont know how to play chess. So i decided to program the chess game in python so i learn everything about chess. Good Point!,True
+@-mwolf,2021-04-29T19:12:19Z,0,Holy shit you are a saint!,True
+@connorgilbert6422,2021-04-28T04:12:40Z,0,If I join your channel Will I get access to the full collection of these videos,True
+@kylek3534,2021-04-23T17:42:26Z,0,Your animations and graphics are awesome!! What software do you use to make them?,True
+@ryanr4242,2021-04-13T05:45:36Z,0,Why are there letters in math,True
+@ryanr4242,2021-04-13T05:45:16Z,0,Nerd,True
+@ryanr4242,2021-04-13T05:43:45Z,0,what's python,True
+@bizzaaach,2021-04-08T13:22:06Z,0,4:15 - 5:00 The answer is clearly 3.,True
+@lorenzopenna.,2021-04-07T20:32:31Z,0,Firs two min: you have to learn to code this raw so you understand what Is Happening What Is Happening: 2:54,True
+@egidijussinkevicius860,2021-04-03T22:57:28Z,0,"My sister got it this book for me, as a birthday gift :) Together with a videos of sentdex it make a lot more sense :)",True
+@wsasonorejo5753,2021-04-02T10:46:25Z,0,superb,True
+@jamessmith2288,2021-04-02T08:19:34Z,831,"“What I cannot create, I do not understand” - Richard Feynman. My motivation for watching this series.",True
+@vladabalinsky7276,2021-03-30T22:46:57Z,0,wow idk what else to say other than thank you and bless ur soul,True
+@rhettorical_,2021-03-24T23:49:46Z,0,"these are so well done, thank you!",True
+@omarpasha2968,2021-03-24T05:27:57Z,0,"If you can say this video was ""painfully simple"", I can say this video was ""painfully easy"".",True
+@muhammadqasim2344,2021-03-16T09:10:33Z,0,Where can i learn mathematics for machine learning?  Plz suggest some resources i really need that .,True
+@ikechukwumichael1383,2021-03-11T06:53:31Z,0,"Most tutors don’t have the patience to make stuffs simple but this right here just affirmed, everything should be made as simple as possible, but no simpler. Thank you",True
+@jalfredofcosta,2021-03-08T12:41:05Z,0,Thanks for sharing your knowledge with us!,True
+@jorgenb8464,2021-03-05T01:44:50Z,0,This is fantastic tutorials conbinee with Python and ai books. Great work. Can you make a neural network math guide,True
+@elyarabad6661,2021-03-04T07:36:56Z,0,"Sorry! Where does the ""bias"" come from? -thanks",True
+@TheLilmisskeke,2021-03-03T16:14:26Z,0,This is what you call a good person bless you.,True
+@virajudayakumara,2021-02-28T15:59:24Z,0,Great job,True
+@mikewyrick8715,2021-02-26T16:42:22Z,0,good stuff,True
+@CrispyParrot,2021-02-20T21:17:44Z,0,I can already tell this is going to be more educational and interesting than the ML class I'm taking at my university.,True
+@HomeBologn,2021-02-18T16:25:16Z,0,"I love the way that the little vein on your temple bulges out when you give the exact versions of the packages that you're using.  Seriously though, love your work.  I've watched a ton of your content.  You've helped my Python programming immensely.",True
+@daneshwargobbani8693,2021-02-18T08:00:18Z,0,the goal is to break it down so much that it is painfully simple,True
+@sagarbadiyani,2021-02-17T03:03:47Z,0,Currently reading your book - Neural Networks from Scratch. It is amazing. Can you please please do a book on Convolutional Neural Networks from Scratch???!,True
+@wyattb3138,2021-02-15T05:38:17Z,0,You look like Edward Snowden and extremely smart.,True
+@refrefwgwgwegew,2021-02-14T18:18:23Z,5,"The way you structure your videos is so helpful, looking forward to more of your AI/ML content in python. Subbed!",True
+@patrickfox8620,2021-02-13T15:46:12Z,0,how much OOP am I gonna need to know to understand this series?,True
+@nicka9903,2021-02-05T09:42:28Z,0,"@sentdex you're an actual legend man, thank you",True
+@justsomenamelesssoul8097,2021-02-05T01:35:46Z,0,Didn't get why do we add bias,True
+@lastname_singh,2021-02-04T04:43:33Z,0,"Sir, please tell me what are the prerequisites that we should study before watching this video for learning",True
+@GoodBoyTheOne,2021-02-03T21:16:43Z,0,Does it a playlist to start learning neural networks?,True
+@edoardodalpra4742,2021-02-02T11:14:21Z,0,I don't know anything about Python or coding in general but I'm actually enjoying this video. I'd enjoy it even more if I could understand what all those numbers mean.,True
+@cathhall2015,2021-01-31T20:43:42Z,0,"Love young lads who are smart,my Whain is,yet he can dispense of Science(Limitation) Lack of Common Sense,is the problem,with the Auld Homo  Sapien...We are going backwards",True
+@ivavrtaric,2021-01-26T16:05:07Z,0,Impressive. I ordered the book immediately.,True
+@MattT33L,2021-01-24T17:48:26Z,0,"This is amazing, much appreciated.",True
+@go_better,2021-01-23T16:41:50Z,0,Thanks for the series! I've been looking for something like that for so long!,True
+@sunilkulkarni4426,2021-01-23T14:14:53Z,0,1 million,True
+@arvinflores5316,2021-01-20T11:53:08Z,0,"Should I watch this first or the pytorch tutorial? I just finished the OOP and got some Neural network intuitions (not so much though, mostly 3b1b and a few google search)",True
+@RadioFreeYichen,2021-01-19T22:00:23Z,0,Is this Snowden's twin?,True
+@11rmax95,2021-01-18T19:59:41Z,0,What have I found 👀,True
+@cypher_guy3752,2021-01-18T12:08:18Z,1,"So close to a mil, only 1k to go!",True
+@corydiehl764,2021-01-18T04:19:41Z,0,"Depending on how much progress I make in these first few videos, I will buy the book. This is definitely a skill I've been wanting to acquire.",True
+@johan-mattias,2021-01-17T16:31:00Z,0,you're a wizard sentdex!,True
+@timothycook4782,2021-01-12T01:39:48Z,0,I'm really glad that theres a video for pretty much every hair brained idea in ML,True
+@ravitejau6691,2021-01-10T18:05:43Z,12,"Huge respect for you to come up and make people understand everything in bits and pieces. Recently , I have started working on RNN and i feel  it is a complex thing.  I also believe there could not be any other tutor who can best explain it like the way you do. The animations are lovely. The coding part is explained in as simpler way as it can be done. Its my sincere request for you to make a video about RNN implementation . Love from India. <3",True
+@ashutoshmahajan7199,2021-01-09T17:25:55Z,5,"You've become more interactive and it feels as you are connecting more to us than the previous videos. Obviously, no doubt about your teaching since beginning! You've saved me through a lot of Data Science assignments. Love from India ! Please visit India after the pandemic! <3",True
+@ramiro6322,2021-01-07T20:33:29Z,0,"4:10 yer a wizard, harry",True
+@mohamed-muneer,2021-01-07T17:08:27Z,0,How bias and weight is calculated??,True
+@Extorc,2021-01-06T17:00:56Z,0,honestly i cant purchase the book becasue 1)according to indian standards thats a very expensive book 2) my parents dont want me to code,True
+@oluwoleraimi3931,2021-01-06T07:06:35Z,0,Grateful Harrison! Received my book parcel today in South Korea. Thanks for been so reliable and trusted. Your book is indeed a bomb!!!,True
+@gapedbrain7738,2021-01-06T01:21:05Z,2,"5 years ago, I started programming watching your videos, working a shit job. now I’m a data engineer looking to get into data science. super excited to watch through this series. thanks for what you do.",True
+@wheelawake,2021-01-05T02:52:38Z,0,Just ordered the e-book -> Thanks!,True
+@sainthentai7763,2021-01-03T16:30:08Z,0,"I don't have any money and I also don't know English very well, I also don't like to take a session when there are deadlines, so I didn't go to https://www.coursera.org/specializations/deep-learning. I hope you will master the initial knowledge to solve any problems in this area. But then I will still try to enroll in paid courses that already give specialization. I hope on your channel I will get basic knowledge for building neural networks, machine learning and learn cool math",True
+@mrfrozen97-despicable,2021-01-02T09:18:30Z,1,Oh I noticed you got the flamethrower..... Cool.... Surprising. I don't think you want to burn any thing down .... Xdxdxd Thanks btw))))),True
+@mrfrozen97-despicable,2020-12-31T11:05:09Z,0,"Thank you very much. Because of people like u someone like me who is very interested, get to learn outside college.))))))",True
+@kurasfx1720,2020-12-31T04:54:26Z,0,no good,True
+@TeamUnpro,2020-12-28T11:32:55Z,0,Ok nvm the formula  how TF did you do the editing? this must have been a headache lol o:,True
+@toasty5613,2020-12-26T15:39:41Z,0,There are people who pay thousands for this sort of information.,True
+@markmanning2921,2020-12-22T22:56:18Z,0,"any chance you can show this in some language OTHER than python? why is 99.9999999999999% of the NN code done in such a HORRENDOUSLY SLOW, badly implemented language? show me this in C or better yet in FORTH }:)",True
+@Caffein780,2020-12-22T21:40:59Z,0,"This is awesome,  thanks man",True
+@loiclejeune2877,2020-12-22T13:15:33Z,0,"4:00 oh my god this is so complicated am i supposed to know what this means!? 15:00 oh, this is simple",True
+@krigarb,2020-12-20T17:41:39Z,0,I am still not sure this is not just a very elaborate joke,True
+@mrmofopink,2020-12-16T21:50:18Z,0,Are you related to Edward Snowden?,True
+@laszlokatai-pal5685,2020-12-13T19:30:11Z,0,pretty slick animation,True
+@harparkrat1,2020-12-09T07:09:33Z,0,You did not explain  what is a bias.,True
+@harparkrat1,2020-12-09T07:08:47Z,0,"You did not explain what are the inputs, why they are 1.2, 5.1, 2.1 what they mean ?",True
+@monkyspnk777,2020-12-07T10:54:02Z,0,"I’ve been enjoying that hardcover book that just arrived, if I find errata where do I send them?",True
+@SaRa-vq7mk,2020-12-06T23:07:15Z,0,thank u,True
+@FoX84tac022,2020-12-05T10:14:49Z,0,"Ok, maybe I'm just too dumb for this...",True
+@husk160,2020-12-04T03:57:19Z,7,“It really shouldn’t be flying over your head” Me who doesn’t understand one bit of it: panik,True
+@ayushrohilla008,2020-12-03T22:10:48Z,0,"thx alot  By the way,  love your beard. Tony Stark inspired?",True
+@sarveshsenthilkumarsarvesh9645,2020-12-02T11:19:34Z,0,Hi should u have basic understanding of python for this,True
+@anti_gravitational,2020-11-27T13:40:50Z,0,Why did i even click the video... Now MY neurons are scattering,True
+@hakankestir3052,2020-11-23T00:56:42Z,0,He made a sigma symbol with code . A SIGMA SYMBOL WITH CODE,True
+@jaredlaratorres9992,2020-11-22T13:19:10Z,0,Actual intro starts at 8:45,True
+@Xaminn,2020-11-21T18:51:17Z,0,Random question: What framerate do you use for your recordings?,True
+@ccuuttww,2020-11-19T02:30:03Z,0,All your content from books?,True
+@rmbsnisansala7172,2020-11-16T06:25:58Z,0,Do you have tutorials for unsupervised learning via neural networks?,True
+@BradenRipple,2020-11-15T12:52:22Z,0,hey have you ever considered being interviewed by lex fridman??,True
+@monkyspnk777,2020-11-13T19:11:36Z,0,Hello from Seattle sentex!   I just bought your hardcover book! Is there any support for nvidia gpu’s for deep learning with your book?,True
+@globalko,2020-11-12T17:21:33Z,0,"Now imagine, GPT-3 with 175 billion parameters",True
+@abdomhd,2020-11-10T11:18:14Z,0,"How good you need to be in python, and what other stuff that should be known before you start this series, I see you using matplotlib, should I know how to use that?.",True
+@bobhillier921,2020-11-06T22:56:01Z,0,I just received your printed book. Wow! I so look forward to this.,True
+@talhatariqyuluqatdis,2020-11-05T14:55:26Z,0,THIS IS SO COOL thank you!,True
+@kanchangandhi1200,2020-11-03T05:27:37Z,0,"I really love how you are teaching mathematics behind the deep learning, very innovative way of teaching, please upload more videos. Sorry to write it here.thinking to buy the book but felt difficultly because  of high price . one request please make book price reasonable so that students also can afford this or there should be discount for students so that your book would reach to the more people related to this field. Thank you ! Keep uploading waiting for your next video on neural network from scratch series.",True
+@ahah8797,2020-11-03T00:19:12Z,0,13 minutes into a 16 minutes video and I haven't learned a fucking thing.  You talk too much.,True
+@_D3adB0y_,2020-10-31T23:33:35Z,0,this looks like a really cool series and book. Will I be able to create my own version of StyleGAN by the end of this?,True
+@user-qi7si1dl9s,2020-10-31T20:19:03Z,0,Grate idea bro  I was looking for a video like this for a while,True
+@py_tok5589,2020-10-29T17:43:00Z,0,"lovely, I passed lecture 1, thank you sentdex",True
+@py_tok5589,2020-10-29T17:36:54Z,0,@15:30  CAN YOU DO WITH VIDEO CLIP TOO?  I would think so...,True
+@PAFECAFE,2020-10-29T15:12:20Z,0,"hi dear. why in neural network after pass any node, that node exit and make new???",True
+@py_tok5589,2020-10-28T05:17:39Z,0,"lovely, i followed you since 2016, my other YT channel has more than 1 M subs  with data driven  content.., this new  Yt channel is dedicated to science only",True
+@CandraNurIhsan,2020-10-23T05:56:54Z,0,you should resell that mug....,True
+@randomuser5780,2020-10-22T14:33:45Z,0,Who else noticed the Boring company?,True
+@bingham4255,2020-10-21T12:12:18Z,0,This is very helpful. Thank you so much!,True
+@tusharbarman1924,2020-10-20T14:10:30Z,0,Love the visuals,True
+@scottbaker5311,2020-10-20T02:31:40Z,0,is a bias an activation function,True
+@erin9979,2020-10-19T05:41:16Z,0,what is that white object sitting on the top of your shelf to the left of the drone?,True
+@ProgrammingPy-Official,2020-10-18T03:18:50Z,0,"Sendex, i got to know the very basics of neural network and i always wanted to build my own neural network before using a module.... I tried creating my own i got y hat result as 57 and the output was 7 . I substituted cost function and got it ~50 . I added upon the cost to weights simulataniously ,but me result was ~2000 !!! Q1 . Should i reduce weights or only add it while back propagation. Q2. Is there a formula for backpropagation. Q3. Please explain sigmoid function (programmatically) Thank you in advance",True
+@jeremynx,2020-10-16T16:52:07Z,0,"thank you, good man!!!",True
+@GR1.618,2020-10-12T17:46:45Z,0,doesn't he look snowden?,True
+@jameskirk4498,2020-10-10T18:46:29Z,0,What website do you use to program these neural networks,True
+@lambam3980,2020-10-10T18:42:35Z,0,"Hi, i watched sentdex’s opencv and felt like it was not a good tutorial and more like a copy down the code. I want to know if this playlist is better before i jump down another rabbit hole?",True
+@ismemrrd2578,2020-10-07T19:13:28Z,0,"I don t know any body else to teach me python on youtube, it s just you @sentdex. Much love",True
+@user-ox4iw9is8y,2020-10-02T22:55:22Z,0,How did you make the animations for the maths and the graphs ..? what tool do you use?,True
+@TechnoBotic,2020-10-02T07:50:09Z,0,"Thank you so much! A very nice and clear video, and very detailed. I have also created a video tutorial on this topic. https://www.youtube.com/watch?v=6bULlN2dUCo",True
+@SandFoxling,2020-09-28T20:11:46Z,0,"That ""Boring company"" flamethrower tho...",True
+@sudarshankshirsagar4568,2020-09-26T14:37:13Z,0,"Bro why did you put bias to 3 ,  Is it because there were 3 inputs?",True
+@Jatin19902,2020-09-26T00:55:12Z,0,"""Everyone got a really strong opinion on editors"" lol......",True
+@leonlysak4927,2020-09-25T14:00:51Z,1,Your ability to explain things simply  is nothing short of amazing man.,True
+@kevindsilva1344,2020-09-24T17:37:52Z,0,This is going to be interesting!,True
+@LewiUberg,2020-09-24T13:59:18Z,0,Just ordered the book :) have you used manimlib for the animations in this video?,True
+@pythondoesstuff2969,2020-09-23T06:24:56Z,0,6:35 I want to make a neural network from scratch in scratch......     Get it?,True
+@markcaruana4504,2020-09-20T23:23:03Z,0,"Hi can anyone help..I am trying to make a loop to copy and classify images i have according to category and image index number from a csv file, however I am only managing to keep looping in the same spot ;/ ..this is the code..i tried glob , index , os.walk, iterrows, itertuples, everything. Can someone please indicate what I'm doing wrong. pls pls lps help i am getting so frustrated and annoyed at this.   import glob import shutil import pandas as pd import numpy as np import os  df=pd.read_csv('Data_entry_2017.csv') #df.head(12)  #a a=(df.iloc[0,0])  i=1 #b b=(df.iloc[0,i])  #Cardiomegaly #print(type(new_str2))  src = (r'L:/xrayChestImages/images_001/images/')  #00000001_000 dest = (r""L:/chest_xray/"")     for ind in df.index:     if b == 'Cardiomegaly':         new_str=str(a)          new_str2=str(b)         dest2=os.path.join(dest, new_str)         src2=os.path.join(src, new_str)         print(new_str)         print (src2)         print (dest2)         shutil.copy2(src2, dest2) #file  #dest_dir3 1st row         i=i+1         b=(df.iloc[0,i])",True
+@iDave720,2020-09-17T08:53:33Z,1,sentdex: None of this is over your head I promise you.  me who has no coding experience and just saw this on my feed: So that was a lie.,True
+@TechnoBotic,2020-09-16T12:37:26Z,0,Good quality programming tutorials !!. Thank you for putting this together !!,True
+@86puravida,2020-09-15T17:43:50Z,0,Where can I get more exercises to practice?,True
+@amirunhaziq8296,2020-09-14T07:47:26Z,0,Thanks for sharing these knowledges..,True
+@shofada,2020-09-13T08:09:01Z,0,"2.5 minutes into the video and I am thinking this guy is going to be legendary. Well, in addition, a millionaire.",True
+@calebcarr3030,2020-09-07T17:07:53Z,19,"""This shouldn't really be over your head""  Me, a high school student who has never coded before:  *sweats profusely*",True
+@joelarson3972,2020-09-07T01:57:23Z,0,"Sentdex, Big fan of all your great work!  Thank you for sharing your knowledge about this topic.  For the interested learner, here are links about algorithms, that may be useful to someone without a CS background: https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O and a book: Introduction_to_algorithms-3rd Edition.pdf",True
+@joowon1805,2020-09-06T22:10:22Z,1,"he secret of becoming successful in Crypto trading is BUY AND TRADE thereby multiplying your coins so that no matter what happens, you will always be on the safe side even when its crashing. Coming in contact with Crypto Mileage has really changed my financial earnings for the best, I've been able to save 50,000usd in 3 weeks period. I urge everyone seeking an opportunity in Crypto trading, those with no prior knowledge about Bitcoin investment, those who are anxious about the wavy nature of the Market and those that need a perfect strategy so that they can take maximum advantage of the Crypto Market Cap to take a Bold step and start investing. I can share more snapshots proof of my recent withdrawals VIA TELEGRAM @brianchecojoseph or text me +17184120270...",True
+@mussemulugetadejene9458,2020-09-04T14:28:13Z,0,I'm asking if there is a software that ahelp of eye glass and hearing aids can see and lissen sound of Jesus and devils or a video camera software that both,True
+@thomastakeuchi985,2020-08-31T21:07:55Z,0,"You are my idol, and that will never change! Just ty!",True
+@skaterope,2020-08-31T19:37:50Z,0,yes yes yes !,True
+@Carlos-hx3zr,2020-08-29T21:35:04Z,0,He didn't actually use Scratch :(,True
+@adeeb1787,2020-08-27T13:31:09Z,0,What about IDLE? I was with IDLE group. Still great video.,True
+@adwaitnarayanpradhan4727,2020-08-27T06:38:02Z,0,3:04 brace for impct,True
+@alexgulewich9670,2020-08-26T20:40:03Z,0,Personally I'd like to learn to completely make my own neural network from scratch so that I can apply it to anything and so that I TRULY understand it.,True
+@codebond,2020-08-23T20:55:50Z,0,Best series ever saw on YouTube thanks alot man I was searching long time for something like this.,True
+@peterbergman5710,2020-08-23T01:19:35Z,0,this guy needs to be on Computerphile,True
+@scottpatterson9136,2020-08-20T10:36:27Z,0,Always helpfull,True
+@prathamaggarwal7866,2020-08-20T09:53:31Z,0,I really like the coffee mug tho.,True
+@soewithanumber,2020-08-16T20:06:22Z,1,"""everything is so low level that you should be able to follow along in any other language"" *_time to make a neural network in scratch_*",True
+@Jkauppa,2020-08-16T00:38:02Z,0,you could do convolution weighted AI networks,True
+@kossboss,2020-08-15T16:49:39Z,0,"HELP!  completely new to NN but not programming.  i don't understand how these NN are used to learn and then classify. what do these different neurons mean? what do values & weights & biases mean? my question becomes more clear later on.  for example in classifying or learning a cat or dog, you input a picture of dog or cat. I assume when NN is learning you just input cat picture and tell it that its cat.  do the different nuerons represent how likely it sees whisker, how likely it sees dog nose, how likely it sees cat nose, how likely it sees cat eyes, how likely it sees dog eyes?  at that point, i imagine we have to code up functions for detecting whiskers, cat & dog noses & eyes. this will involve many if statements. at that point isn't the concept of NN broken? ex: we can't code up every possible if statement to a self driving car; my assumption is that the driving force of NN is that we don't have to code up all these logical ifs - it learns by itself.  i quickly looked thru the code in the videos (maybe a couple minutes thru all 5 currently available videos), its just a bunch of numpy math, that is not too hard to understand. what i fail to understand is the why & what of those nueron values&weights and how in the end it actually teaches & classifes.   i hope my question is clear & you or someone can help clear up my confusion.",True
+@parneetkaur4444,2020-08-15T05:47:46Z,0,can't understand who can dislike such a great stuff...,True
+@asdasd-yr7wi,2020-08-12T21:19:26Z,0,"dude, just what i was looking for! awesome",True
+@anglerfish61,2020-08-12T19:24:09Z,0,I see The Boring Company Not a Flamethrower. Im down.,True
+@pajeetsingh,2020-08-11T10:03:21Z,0,Using python is not from scratch.,True
+@loganbrunner4762,2020-08-11T06:35:35Z,0,Very interesting series. I will definitely be watching this series. Very excited to learn new stuff! Thank you!,True
+@ashtwenty12,2020-08-10T21:36:50Z,0,5 minutes in and I already see the effort and target audience is great for programmers,True
+@Ruum,2020-08-10T03:55:53Z,0,"@sentdex how do you calculate for weights in this video?  To me... it just seems that you’re throwing up random numbers to calculate.  If weights = number of connections between layers then doesn’t the layer size of 10,16,16,16,2 = 81,920 (10* 16 * 16 * 16 *2)?  Where are you getting a mere 704 for weights in this video?  It’s not making ANY damn sense!  How the HELL are you getting 702 for weights from Layers = (10, 16, 16, 16, 2)?  I’m @ 10:32, and I’m JUST as confused at this as when I started the video!?",True
+@denislavkaragiozov5876,2020-08-09T23:09:39Z,0,Hey i got the same LG monitor,True
+@farenhite4329,2020-08-09T16:33:42Z,5,"Can I just say how thankful I am for this?  Most tutorials are either very basic and don’t tell much, overload you with all the math upfront, tell you to import tensorflow and not tell you why it works.  Thanks for this middle ground tutorial, something that is really needed.",True
+@tspark1071,2020-08-08T04:41:36Z,0,Thanks.  Output=inputs*weights+bias,True
+@DecisionForest,2020-08-07T11:23:37Z,1,Great video! Loved how you broke down the computation of the loss function and pretty much all the explanations are really easy to follow.,True
+@nigusbrhanu517,2020-08-06T10:34:31Z,0,Thanks. how can I use python for spectrum sensing/ signal detection. Can you have sample code?,True
+@johnafricaelijah3952,2020-08-06T09:47:49Z,0,i love it. this is great,True
+@Merthalophor,2020-08-05T21:27:35Z,6,"""I'm doing x in raw python"" sounds like you're doing something you shouldn't",True
+@darxietime5064,2020-08-05T16:12:13Z,0,at 4:15 it looks like half of DNA,True
+@botalex4845,2020-08-03T22:45:11Z,0,Today's keyword: **Simple**,True
+@rahulgupta8998,2020-08-03T13:31:48Z,0,Part 6 please,True
+@pnptea173,2020-08-03T08:53:05Z,0,Oh hey! the guy who taught me how to grab info from webpages is teaching me how to make a synth!,True
+@NilesBlackX,2020-08-02T21:59:41Z,0,"Haven't finished this yet, but if he doesn't use numpy I'll subscribe.",True
+@joshuacarter5849,2020-08-02T17:49:05Z,0,You are the best. I admire your dedication and work.,True
+@daverei1211,2020-08-02T16:41:42Z,0,Nice :-),True
+@acherongoon,2020-08-02T14:34:47Z,0,I like the Patreon script at the end...,True
+@neelanjanmitra3379,2020-07-31T05:24:42Z,0,"At 2:49, you see sentiboi holding a dog. I'm the dog trusting him with my education XD",True
+@Sventimir,2020-07-30T17:33:22Z,0,"Oh, man! I was looking for exactly something like this for a while now. Pretty much every tutorial just checks out some library and starts using it without explaining the low-level basics. Completely useless for someone, who actually wants to understand deeply (no pun intended) what's going on.",True
+@berrycat4605,2020-07-30T14:11:34Z,0,Who broke your nose? Was it CIA interrigation?,True
+@danillohenriquedeoliveiram9246,2020-07-29T19:11:54Z,0,I am amazed by how simple you made it seem. It shows that you have complete comprehension of the subject!,True
+@jojay6472,2020-07-29T04:34:20Z,0,I love you,True
+@navidmohammadzadeh2141,2020-07-26T01:13:34Z,0,"I am very happy to hear from you after a long time. Since ever, you are the frontier in the way teaching python and machine learning i.e. deep learning included.",True
+@caiokelab3090,2020-07-26T00:29:21Z,0,"hey man, Im from brazil and studying ML in python, you are awesome and did a great job on this video class!!",True
+@Aibiloye1,2020-07-25T19:59:21Z,0,"Thank you Sentdex, just preordered my book now. I'm looking forward to going through this series! Hopefully my math skills don't fail me!",True
+@boszwollocks9557,2020-07-25T16:24:10Z,1,"None of this is over your head  me, a programming noob:",True
+@ayushupadhyaya739,2020-07-24T15:20:05Z,0,bro please tell how to make such animated video ..please,True
+@abhay8437,2020-07-24T12:37:51Z,1,"I have made such libraries in Matlab, Octave, C++, and Python.  Level of complexity from easy to hard: 1. Matlab / Octave 2. Python 3. C++ (but the amount of control you get is simply uncomparable to the other two)",True
+@AM-jx3zf,2020-07-23T13:41:26Z,0,"Thank you, sentdex. You are a great teacher. I was looking for this for some time, and there's very few teachers that explain the logic behind things",True
+@justinm2015,2020-07-23T04:45:16Z,0,this guy is an absolute legend <3,True
+@ashablinski,2020-07-21T22:12:34Z,0,MVP,True
+@techpy5730,2020-07-21T13:52:55Z,0,I really wish he's okay so that he can continue this awesome series!!!,True
+@abedjarjanazy1178,2020-07-20T11:08:32Z,0,Edward Snowden ?,True
+@TheSireeshKumar,2020-07-20T07:29:40Z,0,You are a rockstar,True
+@shanker_23,2020-07-19T10:33:30Z,0,Why you did not connect 1.2  1.3  2.1 3.2 3.1 and 2.3.,True
+@dandeunlimited9663,2020-07-19T04:18:01Z,1,"Bro I absolutely love your channel. Bumped into it battling with generating tf records due to tensorflow installation for object detection. This is a phenomenal channel, will surely watch a video  day from now on. Love from Zimbabwe.",True
+@damienpace72,2020-07-18T06:46:40Z,0,LEGEND,True
+@TheOriginalJohnDoe,2020-07-18T05:11:51Z,96,"No university in the world beats this top quality of knowledge for free. You go man! You don't know how much your time and effort you put into this has been appreciated. Machine learning and neural networks are hard because of the intense logic behind it, even though I've been programming for 5+ years now. This really does the heavy lifting for many people. Thanks!",True
+@Linkario86,2020-07-17T10:04:45Z,0,"I'm so happy you do this thing from scratch. I do it with C# and while the syntax may be different, the logic stays the same.",True
+@ZJProductionHK,2020-07-16T18:54:03Z,0,Omg. After listening to this. I decided to go through all Ur videos.  Keep it up man,True
+@Nico-rl4bo,2020-07-16T09:35:53Z,0,You said book so often the ads changed from Data Science to Writing xD,True
+@Iamine1981,2020-07-15T09:14:53Z,0,"Thanks for this series. I have a question that has been bugging me for a while: we typically use stochastic Gradient Descent for optimizing the objective function and learning the parameters of the NN. I am curious to see if there is any research done about the STABILITY of those parameters through time, as this should ultimately be an important property of a trained nn model.  Thanks!",True
+@kuantumalex7937,2020-07-15T08:38:37Z,0,A very interesting video.,True
+@NeuroScientician,2020-07-14T10:14:13Z,0,Is the book still going to happen? As when I tried to go to the website nnfs.io it gave me a warning that your SSL expired.,True
+@dubey_ji,2020-07-11T13:20:16Z,0,sentdex should be called by TED organization to do a TED talk,True
+@glitchedpixelscriticaldamage,2020-07-11T05:15:22Z,0,"What happened to `sentdex`, is he infected ? no videos uploaded in last 2 months.",True
+@thanhvi1456,2020-07-10T19:04:00Z,0,awesomeeeeeeeeeeee,True
+@tanmayagarwal8513,2020-07-09T19:58:45Z,0,someone pls tell me why do we need bias in neural network?,True
+@tanmayagarwal8513,2020-07-09T19:58:17Z,0,I am very excited that I m gonna build my very own neural netwrok!! Thank you so much!!!,True
+@mrskimdagamer824,2020-07-09T19:06:22Z,0,"Imagine having to study stuff like neural networks, optimization, simulated annealing, deep learning... Without coding / a lil math. I just dont get stuff if I dont go further into it, but I need to study this as a course rn during my psychology bachelor 😅",True
+@WaterWheel360,2020-07-09T12:02:19Z,0,Can I follow along using assembly language?,True
+@xuantungnguyen9719,2020-07-08T05:02:28Z,0,Does this also cover cnn or rnn,True
+@kingreinhold9905,2020-07-06T16:00:45Z,8,JESSE PINKMAN?!,True
+@cyberjelly5036,2020-07-06T14:35:59Z,0,"thank you, this looks like a fantastic series!!",True
+@dhrubojyotidey8267,2020-07-05T17:20:13Z,0,Can you please suggest me a budget processor and graphics card for deep learning and machine learning. Thanks.,True
+@hasneetsingh,2020-07-05T11:29:30Z,0,"I am seriously thankful to you for creating such valuable content, all this time it's been my dream to learn to program deep learning networks. This series is all what I ever wanted. :)",True
+@RARa12812,2020-07-04T18:54:03Z,0,dont you have to define the sigmoid and give sigma stuff?,True
+@TheRealFrankWizza,2020-07-04T18:09:48Z,0,"Hey, thanks for tackling this. This will be very useful knowledge.",True
+@rasithasenevirathne1604,2020-07-03T14:02:55Z,0,i never knew anyone would need that many hard disks,True
+@MSFTSTRIO,2020-07-03T05:29:20Z,0,I drew the architecture of the example at the end of the video for anyone’s clarity. https://imgur.com/a/muexKeT,True
+@MSFTSTRIO,2020-07-03T04:49:07Z,0,"9:53, you won’t regret it",True
+@gabrielgardin2592,2020-07-02T22:23:04Z,0,"OMG sentedex is even better!!! I started to learn python with him 5 years ago, and now I'm back to find even more great content! Thanks a lot!",True
+@ethanmcrae,2020-07-02T07:06:35Z,0,Years ago you were the first person to be able to break through that barrier for me and taught me how to code and made it fun. Glad you're still making vids!,True
+@CarloRoosen,2020-07-01T19:46:10Z,1,"Dude, I am only 7 minutes in and I know this is the most amazing course I have seen. Better than university!",True
+@justamortalman,2020-07-01T08:58:20Z,0,"Just had a look on video and now after watching the full video,,,the next video of sentdex will be clicked in 0.001sec * output in the video",True
+@rohan1002,2020-06-29T13:56:00Z,0,log..again very simple neural network..again very simple life..again very simple,True
+@jamesbutcher3297,2020-06-28T19:08:05Z,0,"you are a fucking legend, thank you SO much",True
+@user-id9gn5yx9d,2020-06-26T13:31:23Z,0,"I found two problems in your final code. There might be a problem with the network structure, it's not double DQN. Multithreading results in playing many games and training few times.",True
+@quantizedmediasystems7701,2020-06-23T13:35:02Z,1,"When I come across ""GOLD"" I know immediately. No horsing around, I just paid for the copy of the book.",True
+@quantizedmediasystems7701,2020-06-23T13:25:35Z,35,"I have a solid science background in Physics and mathematics and this is the first time that I came across a lecture which explains why, what , when and how deep learning is from the basics. I am not a fan of memorizing things that I cannot extend in the future. Sentdex, you are on point and these video series have broken the backbone of deep learning for me. Thank you",True
+@ayanpanja1956,2020-06-23T06:09:59Z,0,Who are these 56 people who disliked this video.. I mean how???? even an arts student can understand the concept so easily,True
+@ashish14Pradhan,2020-06-20T17:01:40Z,0,Can I know which code are u using?,True
+@nadiakacem24,2020-06-19T12:56:04Z,0,"hello, so do you recommend these videos for an absolute beginner in machine learning, like is it good to start with this video?",True
+@luisesparza1105,2020-06-18T06:19:45Z,0,"even through i may get all i need about nn programming for free, this quality deserves a preorder of ur book, thanks! no udemy, neither other youtubers (perhaps CSV) doing this great. i salute you from Mexico.",True
+@jackflavell445,2020-06-17T18:49:17Z,0,little nicky,True
+@chalupa501,2020-06-17T08:11:15Z,0,"The B/Einstein ""face of God""! My sorry ass. Want a fully functional quantum theory of the universe.  Watch, https://youtu.be/6zwf6YcgOqQ THE MENTAL CONTINUUM//SINGULARITY POTENTIAL OF THE BRAIN..  LIFE BY DEFINITION.",True
+@quangkhainguyenhung9179,2020-06-16T12:25:17Z,0,"Wait, Did i  watch Edward Snowden teach me Python?",True
+@LemonChad,2020-06-16T04:18:47Z,0,"FINALLY! I've haven't been able to find any good tutorials online on how to make AI, and a lot of the actually good ones are these paid programs. I've resorted to testing out my own things and creating my own AI without a teacher, but now I can finally optimize everything!",True
+@omrozh,2020-06-15T18:33:27Z,0,"I am literally in high school learned programming by myself, developed a full operating system, a game engine and a bunch of web servers and here I am watching a neural network tutorial and my parents are telling my I am sitting too much in front of the computer so they will not let me ""play"" with it for the rest of the summer :/  And just to mention I have not had much of an experience with AI before because I thought they required too much math",True
+@Noname-po7yp,2020-06-12T00:27:24Z,0,"""All that we are doing is pretty simple"" I just died from this phrase 😳",True
+@astroneural,2020-06-11T19:51:05Z,1,"I've been looking for this for so long: Making a Neural Network in Python from SCRATCH. I want to know how to code it instead of just using TensorFlow. And the best part is, it's recent! Only a couple months ago!",True
+@RiotViolance,2020-06-10T21:40:10Z,0,"I also did meth fundamentels in school, back in time 😂",True
+@abhrantapanigrahi3475,2020-06-09T15:06:45Z,0,WHEN IS THE NEXT ONE COMING !!!!???!?!?!?,True
+@KennTollens,2020-06-09T14:35:11Z,0,"Ordered it, thank you for the explanation. It is hard to come by, in something I can understand.",True
+@mohammedehsanurrahman1047,2020-06-08T14:32:05Z,0,A like(respect and thanks) even before the video barely begins,True
+@fiesereiswuerfel1332,2020-06-08T10:17:54Z,0,Amazing series! I tried to do a CNN from scratch in python using numpy and failed miserably. This will hopefully help me to better understand neural networks.,True
+@ujustinree2987,2020-06-08T00:10:59Z,0,this is fuckin cool,True
+@sinistergeek,2020-06-07T07:10:33Z,0,"Simple and easy to follow!!Like wise had watch video from 3BLUE1BROUN Channel about Neural Network..2 year ago. Yet i didn't start.But with that concept in mind and Saw Your video..Got me Pumped to start....So, I waiting for your full playlist then!! Imma start!! Thank you!! Man!! For Being awesome!!",True
+@thelilpippin,2020-06-07T05:42:35Z,0,This is literally what I've been looking for.,True
+@Epilogue_04,2020-06-07T01:17:02Z,0,"Youtube recommended me this, maybe is a signal, either way i need to learn python for my physics career",True
+@plaxyrue2286,2020-06-06T22:34:12Z,0,"Great work Sir ,just in time wen i needed this 👏",True
+@aleksszukovskis2074,2020-06-05T17:23:38Z,1,Anyone noteced the boring flamethrower?,True
+@shivambhardwaj3350,2020-06-04T14:49:42Z,0,what kind of joke is this? just a waste of time,True
+@GhizlaneBOUSKRI,2020-06-04T11:43:09Z,5,But the ultimate question remains : What shall I do with the time I lost before finding out your channel ?,True
+@prafulmaka7710,2020-05-31T05:04:31Z,0,Our mans got a Boring Co flamethrower - whatta G,True
+@thehappycoder3760,2020-05-30T11:04:25Z,0,So looking forward to this series. Plan to preorder the ebook. I presume you will be able to read it on a kindle.,True
+@sc0820,2020-05-29T16:07:13Z,0,Get tired of those time-consuming loose ddos-like rogue-software video channel. Sit here to take a fresh breath.,True
+@developerjas,2020-05-28T07:12:39Z,0,You look like Edward Snowden.,True
+@user-bo5vr1ib6i,2020-05-27T16:03:59Z,14,"This is definitely one of the best programming tutorials I've ever watched. Instead of bombarding you with complex math, you take a very pragmatic path and expect minimal knowledge beforehand. This is probably the video definition of ""you don't know what you're talking about until you can explain it to a five-year-old"".",True
+@DatascienceConcepts,2020-05-26T16:19:27Z,0,Very well structured course! Will recommend it to all those I know.,True
+@codeonion,2020-05-26T14:35:27Z,0,@sentdex Thank you very much for lowering the complexity bar on us.,True
+@DroneMesh,2020-05-25T16:00:17Z,0,"I just bought the Ebook after watching 3 issues I had, which now I understand and fixed. Keep up the great work.",True
+@accounttwo5114,2020-05-25T02:10:58Z,0,Fantastic content as always!,True
+@sebastianwette11,2020-05-23T13:12:41Z,0,This is just... great :),True
+@donovan30081995,2020-05-23T09:15:05Z,0,Just starting the series! What terminal are you using in Sublime 3?,True
+@colinmcintyre1769,2020-05-22T16:11:40Z,0,I really loved this made me want to try to code. Have you heard of any good online learning/certificate options?,True
+@anidea8012,2020-05-21T13:52:10Z,1,Haa haa that's it after months and months and i finally learned,True
+@chrisgk7494,2020-05-20T18:55:01Z,0,is the machine learning series still relevant or is this a better start?,True
+@ErnestoEduardoDobarganes,2020-05-19T20:43:27Z,0,This is the Video I was looking for...,True
+@willycampos9813,2020-05-18T14:05:14Z,0,"You are a great teacher , thanks for everything !",True
+@tissuepaper9962,2020-05-18T10:39:37Z,0,"This is the kind of series I've been looking for for years! Everybody seems to want to make something high-level and abstract, and nobody wants to make anything low-level, it's so infuriating.",True
+@felixsnz7764,2020-05-16T21:23:45Z,0,"im a little bit confuse, in the input layer, the inputs are neurons? and those inputs have a bias?",True
+@shivaprasad2040,2020-05-16T16:42:45Z,0,@sentdex is python basics enough to take this course?,True
+@markusang,2020-05-15T10:43:50Z,0,THANK YOU I SPENT SO LONG LOOKING FOR AN INTUITIVE TUTORIAL FINALLY,True
+@8o8inSquares,2020-05-14T15:03:48Z,0,"Very nice, super simple beginning. On to the next one.",True
+@venkatkumar8672,2020-05-14T10:10:14Z,0,"Yo , you are looking same like Jesse Pinkman",True
+@9888858505,2020-05-14T04:10:50Z,0,"@sentdex hello, hope you well. I am confused about the bias, what exatcly the bais?  why the bias is a fixed number for all three neurons, why we didnt had 3 value of biases as there were three neurons?",True
+@prajganesh,2020-05-13T23:35:49Z,0,is it possible to specialize in DL with just basics in ML or do you recommend learning ML before diving into DL? DL is interesting but I'm not sure how much we can do without the ML techniques,True
+@uighkgui,2020-05-13T19:24:59Z,0,"I tried programming some time ago and got kind of lost, want to give it another try. My plan is to program an engine control unit which constantly improves it's tables to maximise fuel consumption or power without the need of a dyno tune.",True
+@cezarmarcu6899,2020-05-13T07:12:15Z,0,When this  book will be delivered to those who gave a preorder  ?,True
+@seanmackenziedataengineering,2020-05-13T05:43:08Z,0,Nice video - enjoyed your explanation!,True
+@dexter5445,2020-05-12T19:29:35Z,0,"you inspired me to learn, thanks",True
+@N-e0N,2020-05-11T07:47:05Z,0,"My python version is 3.6.8, Numpy version in 1.18.1 and Matplotlib version is 3.1.3. Will I be able to follow along this tutorial or am I gonna have to reinstall Python to a newer version along with the packages?",True
+@Phoenix8395,2020-05-10T21:52:10Z,0,Ohh man I cant wait to programm along this series!.... Thanks alot for this tutorial! :),True
+@sentdex,2020-05-09T15:17:17Z,264,"Errata: ~10:26 - The animation depicting the number of tune-able parameters counts biases as if the input neurons have biases. They do not. For example, the 10x8x8x8x2 neural network has 26 biases (8+8+8+2), not 36.",True
+@philippg6023,2020-05-08T16:34:08Z,0,I coded my own neural network library in python from scratch and it worked really well. Unfortunately it took about 2 hours to learn mnist dataset... but i now know how it works,True
+@ryanp6267,2020-05-08T06:13:01Z,0,This is exactly what I needed. Thank you so much! Not to brag or anything but I understood just about everything you said. Yeah I'm impressed too.,True
+@ardaatc731,2020-05-07T00:28:46Z,0,Love that boring company toy 🤩,True
+@nivrak5411,2020-05-06T17:44:40Z,0,If you want to feel cool do that sum([inputs[i] * weights[i] for i in range(len(inputs))]) + bias,True
+@whoisabishag3433,2020-05-06T02:36:46Z,0,"2:17 ""Suddenly I'm Lost ... ""!"" and that explains Charles [ Instructions UnClear ... ]",True
+@AA-fy7kn,2020-05-05T19:57:07Z,0,"Good Evening, should I take the ML course before this?  Sorry, I'am a novice in the field of AI . I have seen some videos of sentdex and I really like how he explains",True
+@ahammadshawki8,2020-05-05T11:10:34Z,0,from where did you learn ml and dl?,True
+@kristiyanivanov7414,2020-05-05T09:27:01Z,0,"Very interesting, thanks for making these tutorials! Appreciate it.",True
+@jesusambriz2160,2020-05-05T08:34:21Z,0,@sentdex Hi Sentdex. Awesome video!! Its really over the top. I have a question. I usually don't comment. What kind of software/ program are you using to present? I use beamer from Latex but you must be using something different because it is years above latex haha. Could you comment and shareinfo on how I can make awesome slides like those one day !!,True
+@robertkeithbeach,2020-05-04T13:52:43Z,0,"A friend just introduced me to you. After about 6 minutes , I am inspired. I use python (also self taught) but don't consider myself a great communicator. I believe I can learn to be more like you and then achieve more traction in my pursuits. Thank you for being you!",True
+@tanopasqua1246,2020-05-04T12:48:58Z,0,"Please teach some of those Coursera's instructions on how to explain things with a proper language and a proper, contextual animation. They're not even coding. i have seen tons of videos of a guy just hand writing wrong formulas over a wallpaper.",True
+@mr-turing,2020-05-04T08:25:22Z,2,"My favorite kind of book style but it looks somewhat similar to the book <Deep Learning from scratch>  book 1 and 2 written by Saito Koki, japanese guy. (I am not japanese.)  https://github.com/oreilly-japan/deep-learning-from-scratch  Saito also does all from scratch and uses only numpy and matplotlib, and deals with a broad range of topics such as perceptron, loss functions, mini batches, local minima,  backprop, sgd, adagrad, adam, weight init, ReLU, regularization, dropout, hyperparams, cnn, pooling, optimization in book 1. In his sequel (book 2),he covers nlp,  word2vec, rnn, gated rnn, chatbot, attention, and much more.  I 'd like to review sentdex's book and Saito's book side by side which topics are covers and which are not. I hope those books are complemetary each other for me. ;)",True
+@karamkassem9821,2020-05-03T19:12:43Z,0,"Awesome course dude, a question ? What is weight and bias for ?",True
+@aravinda513,2020-05-03T18:20:14Z,0,I have only one doubt! How do you manage to learn so many things? I find it hard to even learn one thing at a time!,True
+@HarshithMK,2020-05-03T05:36:25Z,0,Ur videos are the best,True
+@husamui,2020-05-03T00:46:06Z,1,Please explain more what is bias. The use of it? Why every neuron has it? etc...    Thank you so much for your effort.,True
+@subramaniyanvenkatachalam7417,2020-05-02T21:48:19Z,0,"@sentdex do you have videos which explain decision tree, logistic regression etc without usage of 3rdparty libraries?",True
+@gardedesombres3254,2020-05-02T20:45:40Z,0,"If i understood well, every single connection is  ""input times weight + bias  "" ? isn't it ?",True
+@DanteS7,2020-05-02T18:10:03Z,0,"Should I start with this series or your playlist ""Machine Learning with Python""? I'm mostly a web developer so this would be for learning/fun mostly. I do know Python (mostly Django).",True
+@adjbutler,2020-05-02T05:27:50Z,0,It's almost like we need deep understanding to use deep learning?,True
+@billsultani8967,2020-05-02T01:06:12Z,0,Sentdex thank you so much for these videos,True
+@karlavlatkovic9400,2020-05-01T15:54:04Z,0,Dat flamethrower tho,True
+@Favo96,2020-05-01T15:35:16Z,0,"so does this series substitute the previous ""Building our Neural Network - Deep Learning and Neural Networks with Python and Pytorch"" videos? bc I was following those along",True
+@pradeepkumar-qo8lu,2020-05-01T14:59:55Z,0,"What is a bias, why do we use it ?",True
+@samundra24,2020-04-29T04:45:58Z,0,Thank you very much sentdex for such a wonderful work,True
+@nwenwehtaywin,2020-04-28T16:53:03Z,0,that's what I am waiting for. I become so into ML bz of your explanation and tutorials. Deep thanks to you.,True
+@GabrielHenrique-yl3jc,2020-04-28T15:47:39Z,0,"Sentdex, I have an i3 9th generation and a gtx 1650 (4GB). I need to work with deep neural networks (DNNs), do you think it is necessary to buy a better CPU and a better GPU? (I have 16GB RAM)",True
+@Kriojenic,2020-04-28T06:26:39Z,0,You're telling me... this is free.....? So did you want like... a kidney? My first unborn? Anything?    Jokes aside you're a damn legend.,True
+@keshav2203,2020-04-28T02:58:17Z,0,I like Jesse Pinkman. He's smart.,True
+@christiandivinefavour7441,2020-04-26T19:34:57Z,0,"Good day sentdex,  How can I use ANN instead of classical time series analysis for maybe Forex data?",True
+@biswadeepupadhyay180,2020-04-26T15:38:38Z,0,tensorflow : you know all those that we bring out of CNNs RNNs are work of pure magic and illusion! sentdex : hold my beer ;) numpy : miss me ?!,True
+@yashkaran1,2020-04-26T13:58:54Z,0,snowden !!!!!!!!! :),True
+@muzamilshah8028,2020-04-26T08:32:21Z,0,how you do this animation of equation?,True
+@lucasandrescosta391,2020-04-26T05:22:05Z,0,Just as i wanted to find some tutorials about this it turns out you started a new series about the topic! What a coincidence!,True
+@tylerdurden9411,2020-04-26T01:34:09Z,0,"This is the course that I was looking for, Thank you!!!!!!!!!!!!!!!!!!!!!",True
+@DrewPilant,2020-04-26T01:08:24Z,0,Best explanation of neural networks I've seen yet- thank you!,True
+@peterhansmann3289,2020-04-25T12:13:27Z,0,this is perfect. it is indeed painfully simple.,True
+@fajara.r1379,2020-04-25T10:28:04Z,0,me: (seeing thumbnail) snowden ?,True
+@ka7louchatfa7a82,2020-04-24T17:42:09Z,0,thank you so much,True
+@SaurabhKumar-nw7gu,2020-04-24T16:49:40Z,0,"Best thing in lockdown, thnks buddy @ sentdex",True
+@MikeLiteros,2020-04-24T16:29:50Z,0,Is this video still valid? Like versions etc,True
+@tommiewaters,2020-04-23T20:54:15Z,0,so happy your doing this man. sound out. going in dept into a topic and asking why is what i do on a daily basic and you have nearly a million like minded people hear. hope you hit 1 million subs,True
+@filippaoronto3880,2020-04-23T18:17:13Z,0,Ey bro ... u are cool .,True
+@neetesshhr,2020-04-23T16:05:38Z,0,your haarcascade tut worked for my project and for this video lots of thanks man,True
+@esequielalbornoz5271,2020-04-22T23:38:48Z,0,"Hi there! what about manim serie (? its amazing, but unfortunally has a bad doc :(",True
+@theengineer9910,2020-04-22T02:48:37Z,0,"ALL HAIL KING SENTDEX, LOOK UPON HIS WORKS",True
+@varshithareddy6051,2020-04-21T13:39:41Z,0,Should I know the basics of machine learning to follow this tutorial?,True
+@vitotonello261,2020-04-21T13:16:04Z,4,"The Boring Company... I understand, I understand :D",True
+@NevasSridhar,2020-04-21T07:39:32Z,0,Yay snowden,True
+@ramchandracheke,2020-04-21T01:03:57Z,0,If you don't know... We will be explaining it 😘🎉🎊🎉,True
+@ramchandracheke,2020-04-21T01:01:10Z,0,You are a king 💪💯😍,True
+@detskysade2581,2020-04-20T20:34:59Z,0,So excited about this!,True
+@richardcsanaki5531,2020-04-20T19:22:33Z,0,"Thank you for all your great work, really helpful!",True
+@naheliegend5222,2020-04-20T17:27:38Z,0,The book. black background with white letter. this is the real stuff,True
+@arshadalam-xm1ht,2020-04-20T17:19:34Z,0,"Great sir, can u please make a video on solving differential equations using neural network. Will be very thankful. I m interested in this field",True
+@naheliegend5222,2020-04-20T16:50:50Z,0,Why does your profile image got less pixels from time to time? :D,True
+@idos5777,2020-04-20T14:54:10Z,0,Great video! How many episodes are going to be? Thanks!,True
+@noorishaikh3390,2020-04-20T14:40:21Z,0,I done it in python idle,True
+@noorishaikh3390,2020-04-20T14:39:49Z,0,Name 'output' is not defined???????????errror,True
+@cezarmarcu6899,2020-04-20T13:34:15Z,0,"i preorder the book,  and i can t wait to get it :D this is awesome",True
+@MrEoex,2020-04-20T08:11:29Z,0,"if i didn't understand anything from the calculation animation at 3:00 , am i in problem?",True
+@ichisadashioko,2020-04-20T03:09:08Z,0,dark mode fellow,True
+@olavogazzola2650,2020-04-19T23:07:37Z,0,I am IN,True
+@GAlexZ,2020-04-19T19:50:21Z,0,When does your book ship?,True
+@uwuslayer0211,2020-04-19T18:10:57Z,0,where can i find the maths behind forward pass its kinda diffcult to pause the video and  try to figure out the steps,True
+@neurophilosophers994,2020-04-19T15:23:45Z,0,"If I want to buy a powerful desktop for home programming use matlab, mathematica, and learning python on Coursera and neural networks. Eventually pytorch or tensor flow libraries, etc. which desktop should I buy? I feel like I suck at the caring about my PC part and just want to buy an IMac which I know is terrible haha. And also where should I buy the desktop ? Thanks",True
+@westernvibes1267,2020-04-19T14:30:28Z,2,"Trust me i was waiting for this since one week. Little bored with cybersecurity and hacking, time to learn something new.",True
+@richardr508,2020-04-19T11:32:28Z,0,Wow I have heard about neural networking before but now I can learn it my own! THANK YOU,True
+@airfix5857,2020-04-19T08:44:29Z,0,It really brings makes me smile when u make everything so easy to understand  Thank you sir !!,True
+@morthim,2020-04-19T00:06:33Z,0,that spacing is terrible @4:40,True
+@randallwalkerdiaz1002,2020-04-18T22:27:38Z,0,Wooohooo,True
+@mihirsrivastava8543,2020-04-18T20:04:32Z,0,Thank you for this!!!,True
+@azr_sd,2020-04-18T19:16:35Z,0,been waiting for this kind of low level deep learning.. Thanks and looking forward to learn alot of things :),True
+@DentrifixoRam88,2020-04-18T18:56:57Z,0,This is the best teacher ever. Greetings from Argentina. you rock! keep it up,True
+@hetal.priyadarshi,2020-04-18T18:52:50Z,0,Complete the series ASAP..  =D  Really excited =0,True
+@bzigelnik,2020-04-18T16:57:03Z,0,Thank you.,True
+@matancohen6098,2020-04-18T15:16:05Z,0,mah reason to wake up in the morning,True
+@gardedesombres3254,2020-04-18T15:01:14Z,0,Thanks man i was waiting for this long time ago X) !,True
+@gydo1942,2020-04-18T15:00:18Z,0,"and yes, you did indeed forget to put the version numbers in the video LOL",True
+@naveenkalhan95,2020-04-18T12:11:37Z,0,"Hi, Can anyone help me troubleshoot.. I am trying to create virual env for this project. Numpy and matplotlib error while installing    PackagesNotFoundError: The following packages are not available from current channels:   - numpy=1.18.2  PackagesNotFoundError: The following packages are not available from current channels:   - matplotlib=3.2.1   Any advise would be highly appreciated. Thank you.",True
+@EthanZemelman,2020-04-18T06:03:14Z,0,"Hey, so I’m 15 and have been programming for several years now (I know python and all programming basics and stuff). But do you think I’ll be able to follow along with the math in this series?",True
+@foxanderson967,2020-04-18T02:59:13Z,1,This what I've been looking for. Not some framework. Thank you.,True
+@andrewareva4605,2020-04-18T01:01:29Z,0,I didn't think pronography was allowed on youtube.,True
+@vinamrakhoria1330,2020-04-17T22:10:52Z,0,"the ""anyway , continuing on"" at 12:22 is creepy af",True
+@vinamrakhoria1330,2020-04-17T22:07:42Z,1,well he did forget to put the versions in the description XD,True
+@sayemmohammad6450,2020-04-17T21:02:52Z,0,I can not thank you enough man.  I don't even dare to.,True
+@rahimhossain4846,2020-04-17T19:59:05Z,0,Am i eligible to do this course? I have no experience of machine learning or deep learning. Though I understand a bit.,True
+@Hakerman-ed6pe,2020-04-17T19:45:01Z,0,"tnx a lot  best tutorial i,ve seen in my life",True
+@bensewell266,2020-04-17T19:44:01Z,0,Can I use python 3.8.2?,True
+@Hoggins,2020-04-17T17:56:15Z,0,Ok... so I'm gonna catch these videos RIGHT as they come out from now on.,True
+@wadewhowsatooow9836,2020-04-17T17:01:44Z,0,I cant believe you like every comment and try to reply,True
+@whatnepal,2020-04-17T16:04:19Z,0,How do you learn deep learning ......?! By yourself ?!,True
+@Artificial_Intelligence_AI,2020-04-17T15:51:23Z,2,"- nice tools for visualizing the examples - easy and complete explanations from scratch  - an instructor with a decent amount of experience  - low requirements to follow the series  - a nice yellow box with a question mark in the background    After running a simple model with the previous variables, the output told me this was going to be the best tutorial on neural networks ever made.",True
+@albertoochoa7657,2020-04-17T14:25:39Z,0,I need more!!!,True
+@jakubszlaur7336,2020-04-17T13:41:04Z,1,Man that's so amazing! Please keep it up! :D,True
+@RoboHighlights,2020-04-17T11:56:02Z,1,nice manim animation,True
+@RoboHighlights,2020-04-17T11:54:18Z,1,The mad lad actually did it,True
+@AlanPope,2020-04-17T11:27:57Z,0,"This is going to be excellent. I am really looking forward to following along this series. Also, unrelated, it makes me happy to see Ubuntu in your videos (I work for Canonical on Ubuntu) :D",True
+@TahaKhan-ls8jj,2020-04-17T11:27:00Z,0,Thanks mate!. Will be waiting for the upcoming ones!,True
+@mushiri,2020-04-17T11:14:48Z,0,I bought your book. I am pretty excited for this!,True
+@thorvalld,2020-04-17T10:50:27Z,18,"I'm just 30 seconds into this and paused to tell you how much I appreciate your work, I can't thank you enough or begin to describe how much your content have helped me to better myself as a developer, you're awesome, keep it up! Cheers from the fjords of Norway !",True
+@akashtyagi7182,2020-04-17T10:14:38Z,0,THE JOURNEY HAS BEGAN !,True
+@franky0226,2020-04-17T09:28:07Z,0,This series is so revolutionary already. Sentdex wuhooo!,True
+@honzasko,2020-04-17T08:16:44Z,0,Is possible to make general AI?,True
+@rehanmahmood3748,2020-04-17T06:40:28Z,0,Thank you,True
+@mushinart,2020-04-17T03:35:30Z,0,Thank you for making the videos free... But I'll buy the book because i respect you,True
+@DZT-ve2kx,2020-04-17T03:30:39Z,0,Thank you! Thank you!,True
+@muhammad24able,2020-04-17T03:14:09Z,0,this is corona cure for programmers,True
+@lady_bananya,2020-04-17T02:45:03Z,0,"I found this channel today and I'm actually in love, how simply and swiftly you explain things, also considering all levels of viewers 'expertise'.  Thank you so much, gonna impatiently wait for next video! ♥",True
+@davidjanssen894,2020-04-17T02:08:36Z,0,Do we understand what each layer in the net represents,True
+@davidjanssen894,2020-04-17T02:00:56Z,0,The machines will probably view you as their leader once you teach them how to teach themselves a consciousness lol,True
+@helloworldmo,2020-04-16T22:36:56Z,0,"Man this is perfect , buying book right now :D :)",True
+@DarkRedman31,2020-04-16T20:12:26Z,1,"sentdex : ""To understand neural network at a deep level"" me : ""Plot twist that's in fact what we call deep neural network!""  *badam tsss*",True
+@gestucvolonor5069,2020-04-16T19:53:32Z,1,Bring the next one!!!,True
+@nilavroxx,2020-04-16T18:55:08Z,0,This is just amazing. I have taken a neural networks class at my graduate university and that is nowhere close to this. Keep it up! I am excited about this series. Pre-ordered the book!!,True
+@mariusradu3849,2020-04-16T18:08:43Z,0,I didnt know that Aaron Paul is so good at programming..,True
+@SmlWng123,2020-04-16T17:43:32Z,0,Great part 1 and intro to Neural Networks! 2:50. Wtf did i miss a class already? What's going on? Where am I?,True
+@jobvanwee55,2020-04-16T16:07:39Z,0,hyped,True
+@gautamkumarshukla3055,2020-04-16T15:50:42Z,0,"too good, i like it, sentdex , you are making very cool video",True
+@hexcodeff6624,2020-04-16T14:53:10Z,0,It's rare to see so much nerdy stuff that's genuinly cool in the same background,True
+@ayushthakur733,2020-04-16T14:36:24Z,0,Upload Next videos soon,True
+@gameshark0703,2020-04-16T13:50:24Z,0,"I am so happy you are explaining the basics of neural networks, I always hated just jumping into tensorflow and not knowing anything about whats going on under the hood. Thanks!!!!",True
+@brothersfilms106,2020-04-16T12:38:39Z,0,"What program, or how did you edit that maths equation from 2:55 - 4:30 ?",True
+@francometallo215,2020-04-16T12:14:56Z,0,JESUS. THANKS BROTHER.  THANKS.,True
+@blueice1364,2020-04-16T09:33:58Z,0,anyone wondering what that output stands for.. It's Logistic Regression.,True
+@pawlack,2020-04-16T09:14:33Z,0,I will send you all the dex you want for that :),True
+@AniketMJ338,2020-04-16T06:48:46Z,0,"Hey sentdex! I am familiar with python but not neural networks So, will it be hard for me to follow along with this playlist of yours?",True
+@judgeomega,2020-04-16T06:22:03Z,0,"0:27 numpy is a third party library, right?",True
+@AdminXLSD,2020-04-16T05:37:06Z,0,*head after reading the title*: Thank You Thank You  Thank You ...        3 minutes in... my head hurts.,True
+@0xsabbir,2020-04-16T04:28:38Z,0,waiting for a long time for this,True
+@clementsiow176,2020-04-16T03:18:55Z,0,I have been looking for this for a long time cause all videos do this: import tensor flow And I want to do it from scratch,True
+@avgmean4187,2020-04-16T02:43:48Z,0,"Imma try this in c++, greatcontent bruh. def lets_do_this(attempts: List[int]) -> bool:     #Logic is missing, please implement ASAP     pass",True
+@aqeglipabeast7014,2020-04-16T02:20:54Z,0,more plz this video just turned me on 👨‍💻,True
+@Ahmed-ic9ft,2020-04-16T02:19:16Z,1,how long between each episode?,True
+@kanui3618,2020-04-16T01:34:36Z,0,Can you make the tutorial of key-points detection use custom datasets?,True
+@modelworkzseo,2020-04-16T01:24:13Z,0,"Stay indoors and safe during these troubled times buddy, we need you!",True
+@mattjoe182,2020-04-16T00:46:38Z,0,The mathematical visualisation at the start was amazing!,True
+@lucascerro8189,2020-04-15T21:27:32Z,1,youtube just recommended me your channel with this video. Instant subscribe.,True
+@cory99998,2020-04-15T20:24:29Z,0,How would you go about leveraging your GPU for the calculations?,True
+@jubakala,2020-04-15T19:58:38Z,0,Give this man a Nobel Price!,True
+@jamesbones1668,2020-04-15T19:29:19Z,0,i'm looking forward to the rest of this series,True
+@vikrantchauhan5176,2020-04-15T18:18:02Z,0,Dude you are a living legend,True
+@mkulkhanna,2020-04-15T18:15:46Z,0,This is amazing! Thank you @sentdex!  Quick suggestion:  I think it would also help if you can share diagrams corresponding to the code you write to demonstrate the neuronal connections and computations.,True
+@leonardofranco7398,2020-04-15T17:56:32Z,0,"Is that graphics similar to 3blue1brown? I tihnk so! ahahah  Btw I'm so excited to follow this video series. Do you think is a good idea to make the same things in c++?  Thanks, Leo.",True
+@federicopinto9353,2020-04-15T17:09:09Z,0,can't wait for part 2,True
+@RamkrishanYT,2020-04-15T17:04:09Z,0,Do a tutorial series on manin please 🥺  The animations are so beautiful ❤️,True
+@naseemsha3010,2020-04-15T16:03:43Z,0,The moment I saw the title.. I knew this was for me.,True
+@ianrajkumar,2020-04-15T14:01:12Z,0,Can't I just write an AI to write an AI for me?,True
+@hickehelbro,2020-04-15T12:27:50Z,0,Fun stuff! Looking forward to learning more about NN!,True
+@mehmetyigitakn886,2020-04-15T11:05:18Z,0,looking forward to p2 :),True
+@theip7556,2020-04-15T10:35:54Z,1,When can we expect the next video of the series  ? Thank You,True
+@OliverSteadman,2020-04-15T10:07:03Z,0,"If Ctrl-B doesn't work for you, see Corey's tip at https://youtu.be/xFciV6Ew5r4?t=1242",True
+@byteappple,2020-04-15T08:45:24Z,0,Should I start here if i'm new to ML?,True
+@dhiahassen9414,2020-04-15T08:34:02Z,1,I have a feeling this gonna be the best AI intro material on the internet,True
+@fvviz409,2020-04-15T06:24:19Z,0,"So i watched Andrew Ng’s Neural network explanation and he said that the Bias must always be 1 . But you set it to 3 here , why?",True
+,2020-04-15T02:40:54Z,0,"Please do more, i feel like i watched the basics of Neural Networks like 10 times but no one really gets deeps in",True
+@shubhamgawali8030,2020-04-15T02:39:10Z,0,"Man this is gold, thank you so much 10000000000000 times",True
+@max_automation1090,2020-04-15T02:16:55Z,0,I love the boring company flamethrower in the backround. So many great things in this video!,True
+@sanchitverma2892,2020-04-14T23:32:57Z,1,import tensorflow as tf,True
+@TheGentlemanGR,2020-04-14T23:26:16Z,0,Great idea. This the first series i will watch on this channel. I would prefer going with at least the numpy libray since we know what is does already.,True
+@SaxaphoneMan42,2020-04-14T23:06:33Z,83,"le me, starting out in python a week ago: ""Oh this looks like a cool video, bet I wont understand it."" me 6 minutes in: ""Ok good he knows I don't understand any of it.""",True
+@harleyspeedthrust4013,2020-04-14T22:38:24Z,15,I wrote a Java library for deep ANNs (from scratch) that implemented vectorized forward propagation and backpropagation. It honestly was such a useful thing because I know so much more about neural networks now,True
+@esoterictime,2020-04-14T22:37:42Z,0,Im hyped,True
+@_inetuser,2020-04-14T21:42:04Z,0,"Waiting patiently for the next vid, I dont understand the hole process behind ml by hsing sci kit learn",True
+@FreeMan-ej6mj,2020-04-14T20:49:14Z,1,"Thank you! Go on, please.",True
+@k.alipardhan6957,2020-04-14T20:43:35Z,0,I wish this was in CUDA,True
+@revansarbast5478,2020-04-14T20:11:13Z,0,well done and thank you for making those videos,True
+@GeeVaaz,2020-04-14T19:56:16Z,0,"Nice! I was expecting this moment for a long time! I can't wait to buy the book, but for us in brazil is quite hard now, dolar is at 5.20~ reais =(",True
+@muhammadsaleh729,2020-04-14T19:46:02Z,0,"Hi, thank you for your video. If I want to buy the book, is the payment via pay-pal possible? thank you",True
+@kapileshkothavale2239,2020-04-14T18:54:38Z,0,Yay ! a new tutorial !!!!,True
+@stephenjsmith4928,2020-04-14T17:33:54Z,0,"Looking forward to this series, can't wait for part 2.",True
+@MachineLearningJack,2020-04-14T16:24:47Z,0,These visualizations are nuts! I have to think about putting them to my videos. Great tutorial <3,True
+@vettorazi,2020-04-14T16:01:47Z,0,Best timing ever!,True
+@vaishnavmhetre9061,2020-04-14T14:52:30Z,0,"Thanks for doing this mate. I'm really scared of Mathematics, (I know possibly this is just a less knowledge thing), but is really a thing why I really couldn't follow along with any Machine Learning, etc at all. I started with 3blue1brown, seemed interesting and really easy but as you said, it doesn't need so deep knowledge but I say rather it needs a more real thing relation to concept no matter how small the thing is (These words are real experience after learning those real structured, and complicated design patterns in programming implementation from scratch with future scope in mind like in frameworks).  It would be really awesome if you don't rush with any concept, I felt so that you talk fast 😜, just a suggestion and you're awesome although at teaching. 🤞🏻  Awaiting your awesome content. Kudos. 🖖🏻",True
+@ickebins6948,2020-04-14T14:46:58Z,0,"Hey there, thanks for your work and all the time you put into your content.   I just ordered the softcover book....   Thanks again...",True
+@utku_yucel,2020-04-14T14:40:11Z,0,THANKS!,True
+@mezianibelkacem650,2020-04-14T13:52:03Z,0,"when the next video please, it was wonderful  ?",True
+@nicolassurfay2585,2020-04-14T13:26:55Z,0,when will be the subtitle or caption available,True
+@OrionAerospace,2020-04-14T12:27:45Z,4,this is such a hype! cant wait for the rest of the series,True
+@rahulkumarjha2404,2020-04-14T12:25:34Z,2,"After watching this video I am super excited for the second part. You are among the few people (Andrew Ng, 3Blue 1Brown  & Jason Brownlee) who have explained neural networks in such an easy way.",True
+@chinmaybadjatya6150,2020-04-14T11:36:36Z,0,it's here.... It's Here...... IT'S HERE!!!!!,True
+@TheChosenOne_,2020-04-14T10:45:14Z,0,Is it maybe a bit advanced for someone with zero programming knowledge and only having watched a couple of hours python tutorials? Maybe.. But I'll try my best to understand 😂,True
+@pradipmudi4656,2020-04-14T10:04:46Z,0,Can't wait. When are you dropping the next video mate?,True
+@blesfemy,2020-04-14T10:03:27Z,0,"Hi, sentdex. I have a call for help. Been struggling to find any up to date videos or articles how to set up latest Tensorflow for Windows, for image classification. You are not making an update tutorial, by any chance? Thanks, and love you videos!",True
+@lucasfontes7914,2020-04-14T09:57:28Z,7,"Most of the videos that I've find here use librarys or frameworks, but learning from scratch is the best option in my opinion since we can adapt better to other tools, so I'm really excited to see this series.",True
+@respectfully14,2020-04-14T09:47:44Z,0,That was damn easy. 😲,True
+@respectfully14,2020-04-14T09:40:54Z,0,Finally its here...,True
+@sebastianhilscher8072,2020-04-14T09:36:43Z,0,Great animations! What do you use to make them?,True
+@realGeezus,2020-04-14T09:33:39Z,0,He can walk on water.,True
+@pranavpatil4789,2020-04-14T09:22:33Z,0,I just started deep learning framework tf and keras from udemy. Will begin this series right after I finish that.  Thanks lord sentdex,True
+@kakarnyori5457,2020-04-14T09:19:40Z,0,Thank you for this! BTW you and Snowden are a look alike. Thanks again.,True
+@ronaldtong8275,2020-04-14T09:04:35Z,0,"Do u mean every unique “layer” has a bias, instead of every unique “Neuron” has a bias?",True
+@deepmaths9677,2020-04-14T08:16:29Z,0,Seems promising,True
+@gerardjayetileke4373,2020-04-14T08:06:33Z,0,Sentdex helped me get through my final year with building a python game. Back for this!,True
+@davidramos1826,2020-04-14T07:36:08Z,0,I want to pre-order the book. Will I be able to keep up without having a strong background in math? I also do not have knowledge of Tensor flow. Will that be a problem?,True
+@priyajitbera5233,2020-04-14T07:10:47Z,0,Please upload the sequels frequently. Pls Pls Pls,True
+@priyajitbera5233,2020-04-14T07:06:58Z,0,At last got something usefull.,True
+@baiqing,2020-04-14T06:36:09Z,0,How often will these videos be posted?,True
+@Tiashe0,2020-04-14T04:19:05Z,0,I have been waiting for this!,True
+@kotnikrishnachaitanya,2020-04-14T03:52:37Z,0,Should we have any idea about machine learning.,True
+@edwardstrinden,2020-04-14T03:15:16Z,0,More please.,True
+@systemflaws,2020-04-14T02:49:17Z,0,Me: waiting for the next video in quarantine,True
+@JordyBayoCoding,2020-04-14T01:15:39Z,0,"Sentdex j'adore cette chaine. Il ya quelque annee de cela quand j'ai debuter ma carriere en informatique en tant que programmeur et ensuite data scientist trouver des formations etait si difficile surtout concernant des notions tels que l'IA et jusqu'a present il est toujours difficile d'en trouver voila pourquoi aujourd'hui en tant que Doctorant en AI Research a Mariland. J'ai decider de creer une chaine youtube afin d'aider nos frere surtout dans la communaute francophone , nous avons tellement de retard dans ces notions la. je vous invite donc a suivre notre communaute youTube via le lien de cette formation complete en IA et computer Vision(COCO, YOLO, RESNET, OPENCV, Tensorflow, Keras, Pytorch) et d'autre technologies de devellopement(Mobile, et Data Science) https://www.youtube.com/watch?v=qJsronmbPVI&list=PLTSSiz1WVMAO-e8ndI7I_k8aRK_KWHdcz  ou tout simplement deja vous abonner a notre chaine youtube. youtube.com/c/TechCoDeFacilIA",True
+@kishdubey3967,2020-04-14T00:53:00Z,0,THANK YOU!,True
+@free.5786,2020-04-13T21:47:38Z,0,"I am angry why YouTube algorithm recommend this video after two days,😬",True
+@paninikalwankar4791,2020-04-13T21:17:31Z,0,I guess this guy has created some sort of code to like every comment,True
+@madhusudhanreddygone2667,2020-04-13T19:11:48Z,1,When ca we expect next following videos sir ???,True
+@patrickb.5761,2020-04-13T18:38:52Z,0,lol guess whos gonna be most influential youtuber of 2020,True
+@ravitanwar9537,2020-04-13T18:26:31Z,0,should give you a nobel prize for education,True
+@pranav1002,2020-04-13T17:15:49Z,2,Just for the record I came from the discord link on the first day itself.. This series seems lit🔥🔥,True
+@Daniel-pg3qo,2020-04-13T16:53:23Z,6,"This looks simply awsome so far, soooo excited to see the series grow <3",True
+@sharingan998,2020-04-13T16:49:50Z,1,Thank you!,True
+@danny3man,2020-04-13T16:42:18Z,0,Please enable the auto captioning.,True
+@tianmaru3573,2020-04-13T16:03:01Z,0,"-output = sum([i * w for (i, w) in zip(inputs, weights)]) + bias- Although I have already read a similar book on this topic (ISBN-10: 1530826608), I am really looking forward to this series!",True
+@ForTheGreaterGood,2020-04-13T16:01:31Z,0,Best Wishes and Prayers For you!  You are doing amazing work :),True
+@dabspace5541,2020-04-13T15:17:10Z,0,When is the next video coming ?.,True
+@SciFiFactory,2020-04-13T14:33:11Z,0,"I don't have much programming experience (some C++ for my arduino, some labview, some Matlab) and my math skills are pretty mediocre but this was a very friendly invitation to improve on all of those things. How could I not do this?  I wanted to learn Python anyways.  Thank you man! I have seldom felt so welcome. ^^",True
+@SciFiFactory,2020-04-13T13:49:53Z,0,Wow I love it!,True
+@SameerSk,2020-04-13T13:48:00Z,0,*_Bro I am learning Andrew's Deep Learning course. I am stuck in between and this helped me a lot_*,True
+@giovanni_bonso,2020-04-13T13:27:18Z,0,"Waiting for this in this period. Huge value, thanks from Italy",True
+@foxbat296,2020-04-13T12:56:38Z,0,We can also see your crown backside,True
+@mohamedsaleh1942,2020-04-13T12:42:20Z,0,Could you please provide any kind of contact ...Thanks in advance,True
+@IsaacAsante17,2020-04-13T12:20:36Z,0,I've gotta stick around for the full series.,True
+@chromax1619,2020-04-13T11:52:30Z,0,lol the boring company stuff on the back,True
+@billymonday8388,2020-04-13T11:11:47Z,0,why not make it in julia ?,True
+@patloeber,2020-04-13T10:50:06Z,0,Looking forward to this series! I plan to do some neural net from scratch tutorials myself :),True
+@shansingh,2020-04-13T10:49:55Z,0,Is the link available for the google doc?,True
+@For_the_Raiders,2020-04-13T10:31:33Z,0,Awesome! Thank you.,True
+@zebcode,2020-04-13T10:25:48Z,0,Will there be more on this later? For example it would be great to see BackProp?,True
+@vxsniffer,2020-04-13T09:53:25Z,0,the best way to wait out lockdown! thank you Harrison! and waiting for more...,True
+@mehmetgokcaykabatas8596,2020-04-13T09:40:03Z,0,"I'm happy for it is started. I'm trying to build my little NN based on numpy. So, I am curious how somethings like backpropagate developed. Different approach makes understand it deeply. Thank you :)",True
+@rohanjoshi1036,2020-04-13T09:18:14Z,0,next video ????,True
+@caio-jl6qw,2020-04-13T09:08:30Z,5,"Oh man, this series of videos is going to be such a masterpiece.",True
+@user-xs6uu6vy9w,2020-04-13T09:02:34Z,0,"hi Sentdex, is it possible for you to add another way to buy your book? We can't use Paypal in China. With Alipay or Wechat pay, i will buy your ebook.",True
+@jaikumar848,2020-04-13T08:53:46Z,1,Really high quality content !!!needed this specially in lockdown !! You are helping us to stay in home!! Could you please make video tutorials on CUDA with python /pytorch ?,True
+@mfasco84,2020-04-13T08:22:15Z,0,"Thank you Harrison and Daniel, your work mean a lot for us",True
+@yathirajamshyamsundhar7214,2020-04-13T08:13:53Z,0,can we assume the output 35.7 as the summation of inputs associated with weights which will further be given to an activation function,True
+@FindMultiBagger,2020-04-13T07:13:47Z,0,"Omg 😍  , we are looking forward for ,   ANN CNN RNN LSTM GRU",True
+@thevivekmathema,2020-04-13T06:55:30Z,0,You are always the best. can you teach hwo to use deep learning in microarray data!,True
+@saikrishnaa4201,2020-04-13T06:47:55Z,0,Thank you 😊 sooo much,True
+@quanganhnguyen7545,2020-04-13T05:06:48Z,0,Just what i need right now. I can't say thank you enough,True
+@karthik.u4941,2020-04-13T04:28:39Z,0,Can learn neural networks without computer science engineering basics?  Because I'm from mechanical engineering background. So I'm asking.,True
+@anandnataraj6599,2020-04-13T04:27:16Z,0,@sendex will you release videos everyday bro?,True
+@Mabitesurtaglotte,2020-04-13T03:59:13Z,0,He's back with a nugget! Oh boy oh boy,True
+@vatsalyasinghi438,2020-04-13T03:49:23Z,0,1:30 to 2:40  this is so real 🤦‍♀️,True
+@theshortcut101,2020-04-13T02:21:31Z,0,I think this could be some of your best work!!! Thank you for your contributions to humanity :) <3,True
+@theshortcut101,2020-04-13T02:14:46Z,0,Yes thank you!!! I bought the book! :p,True
+@RyanFromUltrasound,2020-04-12T23:15:58Z,0,THE SAGA BEGINS,True
+@badaouiahmed2538,2020-04-12T22:54:03Z,0,That's awesome thanks Sentdex 😘 I would like to know if it's possible to make a video about conversion of tensorflow model to tensorRT for the Jetson nano??,True
+@Creator-jm1iy,2020-04-12T22:24:13Z,0,"I HAVE A QUESTION =should i see this I have just started coding again with python seen some tutorials and know working with selenium on a instagram bot i have some knowledge of ""c"" to its been time so i have forgotten all  syntax can i understand this or do i have to learn few things before this plz help",True
+@andrewfierce2703,2020-04-12T22:21:14Z,2,"I’ve been trying to learn Python and ML. Thank you for this. As a visual learner, I really appreciate the walkthrough. It helps so much. Subscribed!",True
+@Creator-jm1iy,2020-04-12T22:11:03Z,0,its going to be intresting,True
+@yashagarwal9677,2020-04-12T21:31:28Z,0,It's finally here. Awesome maaannnn. Good thing to do in Lockdown. Love you tons. Jumping like an ADAM optimizer.,True
+@hassanshafiq605,2020-04-12T21:23:11Z,0,I was really waiting for this blessing.😍,True
+@andreiiskov7991,2020-04-12T21:02:39Z,0,I just want to say that you are fucking awesome !!,True
+@parsafakhar,2020-04-12T20:19:00Z,4,"i really hope you mean FROM SCRATCH, do build normalization functions and optimizations yourself please",True
+@EastSideGameGuy,2020-04-12T19:51:12Z,0,"I recently started using Tensorflow.keras for deep learning and I honestly was stuck on a lot of issues mainly the poor predictions on real life data and camera feed I over came by basically just taking away things like background in the frame...I do understand how many of the NNs work at an intuitive level but somewhere deep down I feel like ""anyone can make a model with keras why would someone wanna hire me on any AI related team"" so thank you for this series",True
+@williamkish7260,2020-04-12T18:27:06Z,0,Thank you for this! Perfect timing,True
+@tobiaslint8061,2020-04-12T18:02:02Z,6,Can't thank you enough for all the stuff you put on. I'm actually working as an Dev for two years now and everything started with your Pygame tutorials. Thanks man!,True
+@marioalbertogonzalez484,2020-04-12T17:21:07Z,0,"CAN'T WAIT. Just pre-ordered the hardcover. Currently working my way through the Machine Learning tutorial. Can't wait to finish and jump on this one, following the videos ""real-time"" so I don't over-exert myself daily, haha. STOKED for the book. Unfortunately my area of research makes it hard at this point to justify taking courses at Uni to learn this all...so...you are godsentdex eyyyy. You teach it better anyway. Thanks man <3.",True
+@christopherli1234,2020-04-12T17:19:48Z,0,"I look forward to watching your new NNFS series! I do have a question though, how often will these video tutorials be coming out?",True
+@vladi21k,2020-04-12T17:01:28Z,0,"What a coincidence, just  this week I stared to work on implementing my own ANN from scratch, but in Matlab. How YouTube knew to show me this video, god knows.",True
+@LG51hacker,2020-04-12T16:30:30Z,0,I wish you used pycuda for this application.,True
+@sahminay4587,2020-04-12T16:00:59Z,9,"Extremely helpful, I've been finding it frustrating to ""just use"" certain functions in whatever someone else has already solved without a deep understanding as to why they came to that conclusion of what to use and why. Thank you for taking the time to start this series.",True
+@Gunth0r,2020-04-12T15:19:07Z,2,"Corona will end up sparking a lot of creativity and innovation, I believe. Also, I have an extremely unignorable tendency to jump into your mug.",True
+@nunosilvestre3197,2020-04-12T15:12:58Z,0,Great tutorial.,True
+@xiezhenhaoa,2020-04-12T15:12:09Z,0,Snowden?,True
+@siddhant997,2020-04-12T15:00:48Z,0,"The little detail of ensuring to provide the versions of libraries used, loved it",True
+@noreenanwer3844,2020-04-12T14:54:43Z,0,Hey i want to use yolov3 with my own backbone. I want to modify darknet53,True
+@mersancanonigo1018,2020-04-12T14:53:27Z,0,sir are you one of the developers of python proglang?,True
+@ankan2088,2020-04-12T14:20:21Z,0,Been waiting for this update.  Lockdown-NNFS mode enabled!,True
+@jalopyjones6460,2020-04-12T13:57:38Z,0,"AWESOME! been waitin for this to finally be a thing after watching all of your other series, i have hit the brick wall of ""tutorials dont fix problems that havent been solved"".... really lookin forward to this one! thank you for your time and knowledge once again and for explaining in a mannor that is easy to follow, understand and comprehend! ... whens the next video gonna be released? lol",True
+@koktszfung,2020-04-12T13:55:11Z,2,"0:50 ""why would anybody want to do this to themselves"" XD my friend and I once challenged each other to code a neural network from scratch using c++, I haven't learnt to use the vector library yet, so even matrix multiplication is built with pure pointer stuff, painful, but really fun and definitely learnt a lot",True
+@kkevinluke,2020-04-12T12:25:53Z,0,Finally 🙏🙏.,True
+@yabdelm,2020-04-12T12:15:42Z,0,I thought you said that there would be a unique bias for every neuron? Why is bias not an array of 3 numbers each representing the bias for every neuron?,True
+@astrix8812,2020-04-12T11:52:58Z,3,I literally got goosebumps when i saw the notification. Thanks man keep rocking!,True
+@JoeElliotSA,2020-04-12T11:51:22Z,0,Looking forward to this  video series. 👍,True
+@codercoder2697,2020-04-12T11:45:06Z,0,Started my activation....,True
+@slobodantajisic2762,2020-04-12T11:15:18Z,0,"Wow, we have a great adventure ahead. COVID-19 can suck now...",True
+@jonathan-._.-,2020-04-12T11:13:59Z,0,*:* the interferance pattern at https://youtu.be/Wo5dMEP_BbI?t=685,True
+@jonathan-._.-,2020-04-12T11:09:58Z,0,i made my first perceptron in php :3 ... cause why not :D,True
+@ommazx,2020-04-12T10:54:20Z,0,You are the most useful person on the planet bro. Thanks,True
+@ExplorerSpace,2020-04-12T10:36:48Z,1,wooooooo  oooooooooooooooooooooo hooooooooooooooooooooooooooooooooooo! yeah baby...,True
+@shubhamdamani1057,2020-04-12T10:29:03Z,0,you said every neuron has a unique bias but you used only one bias in the example,True
+@arjunvijayp6830,2020-04-12T10:28:10Z,0,Please upload weed plant detection in agricultural crops using opencv,True
+@lored6811,2020-04-12T10:10:08Z,1,"Really like the 3b1b style, you using manim?",True
+@rajatagrawal5339,2020-04-12T10:04:10Z,0,Sentdex <3 place where I started learning basics of programming and now doing research works... his teaching is awesome <3,True
+@pawans984,2020-04-12T09:56:22Z,0,"Hey sentdex, when is the next video coming out?",True
+@DoomSkullYT,2020-04-12T09:28:46Z,0,"I've got the preorder of the book, and I've read the first few chapters, but I'm still excited for this!",True
+@nakulgopal60,2020-04-12T09:01:10Z,0,I loved this video . When you'll post the next video.,True
+@LikeAndFavBF3,2020-04-12T08:15:05Z,0,This is better made than most paid online courses available. And the quality on those graphics is amazing !,True
+@Ayush1397,2020-04-12T08:13:58Z,0,"Just want to simply say, Thanks man for all the efforts you are putting in to enlighten the masses :D",True
+@rafatansari112,2020-04-12T08:13:06Z,0,The wait is finally over!,True
+@_eknock,2020-04-12T08:06:24Z,0,Sublime Text 3 ... A man of culture,True
+@MrGeordiejon,2020-04-12T08:05:41Z,0,Pleased to have this during lockdown - Thanks !,True
+@waleedikhlaq5277,2020-04-12T07:06:12Z,0,can you create a video on how to create a resume parser using python?,True
+@FrustratedEngineer_,2020-04-12T06:53:27Z,0,Blessing in lockdown ...,True
+@bbuggediffy,2020-04-12T06:20:51Z,0,"Why not consider PyCharm as  your Python IDE! It's really good! Thanks for your latest publications, this will be a blast.",True
+@MrSalah3,2020-04-12T06:19:22Z,0,Please do use Keras and Tensorflow in Neural Network.,True
+@EshwarNorthEast,2020-04-12T06:10:15Z,3,Omg! The God Of Programming has listened to our requests! Neural Networks from scratch is here! 😍😍,True
+@ispeakforthebeans,2020-04-12T05:54:50Z,0,Thank you human. This is the tutorial I was looking for. I will ask dad if we can get the book too. You are just plain awesome.,True
+@ryanmlee791,2020-04-12T05:48:09Z,0,What library did you use for the 2d animations representing the neural network? Is that manim?,True
+@boulerice-archives,2020-04-12T05:36:51Z,0,Me: **follows tut Also me: Realizes that this just dropped and can't go onto part two 😡     lol,True
+@nabeelhasan6593,2020-04-12T05:34:38Z,1,Your course is helping a lot of students in developing countries like me (from India) to improve their  Machine Learning skills . Thank You so much,True
+@jordand.8918,2020-04-12T05:28:53Z,0,Finally!,True
+@dmitry438,2020-04-12T05:27:01Z,0,"Dude, you're cool! Greetings from Russia :)",True
+@skinnyboy996,2020-04-12T05:24:28Z,0,Are you going to do quantum computing with neural networks?,True
+@sandeepram9199,2020-04-12T05:12:25Z,0,How often will you be uploading videos?,True
+@mr.genius4425,2020-04-12T04:53:04Z,0,Can you explain weights and bias a little more to me,True
+@anshmishra143,2020-04-12T04:45:14Z,0,The wait is finally over..... What a pleasant surprise!! 🤩🤩😍,True
+@mont4261,2020-04-12T04:42:32Z,0,"We apply the bias per layer or per neuron? In the explanaiton, I think you said that each neuron has its unique bias... But when you wrote the code, you applied the bias only one time, per layer. (Or you just meant bias =1, but as we have 3 neurons, we have 3 biases which leads us to bias = 3 directly?)",True
+@ulugbekdjuraev3833,2020-04-12T04:24:23Z,0,Great video! Does your book cover NNs such as convolutional and others?,True
+@lahirulowe4752,2020-04-12T03:33:33Z,0,Khan academy of machine learning🔥,True
+@huhulili9021,2020-04-12T03:28:30Z,0,OMG OMG OMG OMG YESSSS THANK YOU,True
+@roar779,2020-04-12T03:19:35Z,0,THANK YOU for this!,True
+@bamitsmanas,2020-04-12T03:14:40Z,0,Love this... Was waiting for this soOoooooooooooooooo long,True
+@dhyasanineekshitha9593,2020-04-12T03:11:24Z,0,When is the part 2 coming out 😬?,True
+@harishankar.s1255,2020-04-12T02:49:37Z,0,What a way to wake up here in India. Thanks man!,True
+@chris-graham,2020-04-12T02:38:49Z,0,how's the race car,True
+@badera4384,2020-04-12T01:54:27Z,0,Well that's a contribution to humanity. Thank you!,True
+@nguyenhoanglong7612,2020-04-12T01:34:20Z,0,when see new video of Sendex  Me: How fast i am to click it :))))),True
+@AZ-ur7hf,2020-04-12T01:21:00Z,0,I can't even wait for the rest of it! Plz make it quick!,True
+@andrewgopher,2020-04-12T01:14:08Z,0,i noticed that one day in march you gained 1k subs,True
+@lukefidalgo8154,2020-04-12T00:54:03Z,2,"Thank you so much for this! This is a field I recently took interest in and I never really knew where to start, so this series is perfect for me!",True
+@jimjs5672,2020-04-12T00:47:00Z,0,You're a hero Sentdex,True
+@vijaypatneedi,2020-04-12T00:36:21Z,0,I was so desperate to hit that like button 🙏,True
+@abdulhasibuddin3317,2020-04-12T00:27:56Z,0,"Brother Harrison, in parallel to Python and Go, have you considered Julia? Thank you!",True
+@chrisjackson4123,2020-04-12T00:26:13Z,0,"Sentdex - the response from the community on this video is over whelming. I'm excited as well.",True
+@abdulhasibuddin3317,2020-04-12T00:24:31Z,0,I used to wonder what was/is/will be your final area of interest. I think you have found it! May Allah (SWT) bless you with the best! Thank you for making these amazing tutorials.,True
+@sravansaisravan3854,2020-04-12T00:08:04Z,0,I am happy thanks.,True
+@ahmedbadal3795,2020-04-12T00:06:52Z,0,so there is math in it great anther try for me I guess,True
+@ahmedbadal3795,2020-04-12T00:05:38Z,0,which  field is neural network ML OR AI cause am so beginner  at 0.0 but  I know some the basics,True
+@maximec.2217,2020-04-11T23:40:11Z,0,So it begins   And we are ready!!!! :D,True
+@fajemiladunsin2063,2020-04-11T23:22:18Z,0,I feel I should like this more than once... I started this sometime but was discouraged.. Now I for see an interesting series... Thanks so much😘😘,True
+@souradeepsinha,2020-04-11T22:52:01Z,0,"Would having a video-in-video of a virtual whiteboard help you make explaining easier? You have a lot of space on the right side which you can use to say, explain one neurons in the wild with three inputs?",True
+@TheDataArchitect,2020-04-11T22:49:31Z,0,Worse thing is i was not a good maths student :( where should is start from?,True
+@alexzhai8184,2020-04-11T22:28:07Z,0,At last it comes! Thanks sentdex!,True
+@AmriteshGaniger,2020-04-11T22:24:39Z,0,Finally the wait is over. 😍,True
+@BrandonJacobson,2020-04-11T22:22:48Z,0,It's so hard not to have impostor syndrome when watching a Sentdex video.  Great video.,True
+@kioshiki4519,2020-04-11T22:22:46Z,0,I’m looking forward to learning this.  I’m planning to be patient and learn from this series and the book instead of trying to read more online anyhow else.  I like your teaching style and how you present the videos.  Though I probably will need to do a bit extra studying on the maths required.,True
+@redabitar,2020-04-11T22:12:58Z,0,"Amazing content, keep it up!!",True
+@hal1227,2020-04-11T22:08:56Z,0,I really like your holistic approach towards ml - the problem is always to work too much with interfaces or libraries which takes away too much from actually learning it.,True
+@Paltibenlaish,2020-04-11T22:06:48Z,0,cant wait for next episode,True
+@giridharsundar9505,2020-04-11T21:50:36Z,0,You are an inspiration. You are the best.,True
+@carter9538,2020-04-11T21:43:29Z,1,3 minutes in: “alright so I’m just gunna slide a bunch of fuckin Isaac Newton grade calculus around the screen. Try not to cry.”,True
+@stirlingsmith2744,2020-04-11T21:42:51Z,1,Found this channel a week ago with the pytorch tutorial. A fair amount went over my head so can't wait for the rest of this series. keep up the great work!,True
+@rakshitnaidu5985,2020-04-11T21:37:54Z,2,"Harrison: We've got very simple functions going on here. Me: Wait, what?",True
+@splch,2020-04-11T21:35:16Z,0,my mouse broke from the impact of clicking ur video,True
+@prernasrivastava2139,2020-04-11T21:31:15Z,0,i am getting my to do's topics here from Sentdex. I love learning from you:),True
+@aardapel112,2020-04-11T21:28:53Z,0,"Aw shi, here we go again. Machine learning!",True
+@isaacandrewdixon,2020-04-11T21:28:11Z,0,I just wanna say that I love your channel so much and that people involved with deep learning are literally making the world a better place for everyone. I'm excited to see what the future holds.,True
+@chronicsnail6675,2020-04-11T21:16:23Z,0,Is that a not a flamethrower or is it not not a flamethrower?,True
+@sripaadsrinivasan7964,2020-04-11T20:44:28Z,2,When does the next episode release xD (asking caz i can add to my calendar),True
+@pushkarajpalnitkar1695,2020-04-11T20:40:16Z,0,"Great video as always. But, a few changes feel good!! Just curious to know what should be the frequency of the videos we can expect?",True
+@lucasparisi7394,2020-04-11T20:35:52Z,0,"Thanks for this, this is absolutely a must buy for me",True
+@carlosrivadulla8903,2020-04-11T20:32:06Z,0,"Hey man, show how to create a farming bot and avoid to be detected when using it. (yes, it is for a school project)",True
+@davidanalyst671,2020-04-11T20:28:55Z,0,"If you got this running, it wouldn't be that difficult to do some more advanced stuff like train on MNIST, 0-8, train on MNIST 0-9, and then transfer that learning into the 0-8.  Training is a different job than programming, so there is a LOT of room for ""if you see this"" then ""do this"" information in NN's.  Show how to represent ideas in certain layers, and then manipulate those layers to control accuracy.  GANs are fun, but Im curious what would happen if you trained on MNIST0-8, and MNIST0-9, how the GANs would produce different results.  I did this myself with straight python arrays, and for loops, but my crazy family scrambled my brain and now I can't get backprop to work.  I would like to see how to pull individual values from a tensorflow model so I can experiment and screw around with the NN's but I couldn't find how to do that.  You don't seem like a math-heavy guy, but I would like to see someone try to make a backprop algorithm that trains on two different end results at the same time, so you can control the A convergence of neurons, and B, what layer the concepts separate.  When the concepts separate, somewhere near in or after a convolutional layer, you can make the NN learn faster by making sure one concept receives input, and the other does not.  That would GREATLY increase training speed.",True
+@shashankvats7611,2020-04-11T20:28:43Z,0,"Can't tell you how excited I am. Thanks for this BTW, how frequent will be the uploads",True
+@obito1324,2020-04-11T20:26:17Z,0,you are the hero we need in quarantine,True
+@fwtakocTs,2020-04-11T20:09:21Z,0,You are fantastic! Keep distributing the KNOWLEDGE!!! Greetings from Greece,True
+@sadhlife,2020-04-11T19:58:42Z,6,essence of linear algebra is a pretty epic course here on youtube to clear up your matrix and vector fundamentals,True
+@MrVb4433,2020-04-11T19:50:41Z,0,Dear sentdex i just love the way you teach and i've learnt a lot from you. Please keep going. best wishes.,True
+@user-ur9fs8cx4f,2020-04-11T19:43:29Z,0,"Ты лучший, брат. Добавь субтитры пожалуйста. Я понимаю, что google переводит не идеально , но хуже воспринимать не  родной язык на слух, без субтитров. даже с ошибками...",True
+@bayezidmahmud5364,2020-04-11T19:41:43Z,0,Hey Sentdex! I know the basic python and numpy. But have no compact idea of data science or machine learning. Will this course be suitable for me? I am a medical student and my purpose is to implement python in medical diagnosis and treatment. Thats a gross thing to say right now but I have researched a bit and found that there is a lot to research. Will this course be suitable for me or should I stay back and learn data science and machine learning first?,True
+@abdooo6573,2020-04-11T19:35:35Z,0,I would like to know how long this series it will take ? and thank you,True
+@MythicWarrior120698,2020-04-11T19:33:07Z,1,"Excuse me sir, what are the weights?",True
+@7Trident3,2020-04-11T19:32:44Z,0,"Great introduction, and the right pace for most of us. Can't wait for the balance! Your lack of formal education does not show in the least, and is an encouragement to folks like us! The curiosity to ask ""How does that work"" and tenacity to dig in, will take a life long learner far. I follow a number of channels on this subject, your clear brief intro, and right to the code, is the right way! Keep up the great work.",True
+@MaxJakob1,2020-04-11T19:30:42Z,0,Again very simple,True
+@wuda-io,2020-04-11T19:15:28Z,0,So darn awesome! Thanks my friend,True
+@deojeetsarkar2006,2020-04-11T19:07:25Z,0,Hallelujah 🙌,True
+@KishoreKumar-uz8ir,2020-04-11T19:00:22Z,0,"Hello Harrison. I am from India and I love your videos so much. I have huge respect for you and I am taking this opportunity to thank you from the bottom of my heart. Your python plays GTA V series served as a huge inspiration for me. I used your concept to make a mini self driving car prototype using jetson nano. It is a car that can drive on its own in a track using conv nets. This project wouldn't have been possible without you and I owe you a lot. I have even made sure to mention your name in my project report. I thank you once again. Your content is a treasure trove for anyone who is hoping to enter into AI and ML. Everyone deserves to receive your knowledge and I will make sure to become a channel member once I start earning.....  I would be very happy if you took a moment to check out the video of my project. It is a short video spanning over 6 minutes: https://youtu.be/TXqMaFrzIGY I already posted this comment in a previous video of yours. But I so badly want you to see this :)",True
+@TheJohnestOfJohns,2020-04-11T18:47:02Z,0,You are a treasure of the community Great work,True
+@pythonocean7879,2020-04-11T18:44:22Z,0,"thanks alot,its one of the happiest day of my life 😃😍😍😍😍😍",True
+@Emily_Entropy,2020-04-11T18:40:48Z,5,"Your timing on this is fantastic. I've been dissatisfied with High-level super-abstracted ML, so I taught myself Calculus and I've been studying neuroscience. My goal is to design ML ""circuits"" inside of neural networks, and specialize their design in the same way our own neurons are arranged by speciality. I love all your other videos and can already see how this is going to help me bridge the gap between neuroscience and Python.",True
+@LaQuinta12,2020-04-11T18:33:17Z,0,tyvm for the continued amazing content.  any objections/concerns w/r/t using colab?,True
+@mohamed_v1,2020-04-11T18:31:47Z,0,waiting for the next video <3,True
+@prathamkirank,2020-04-11T18:31:29Z,2,This quarantine ain't boring no more,True
+@inaciopaiva1536,2020-04-11T18:24:16Z,0,thanks,True
+@alessandrovalentino4644,2020-04-11T18:20:59Z,0,"So the end goal for this is just understanding *much better* the behind the scenes of a neural network right? Because from what i know, for common mortals like us (i mean individual programmers and not companies) it's really not plausible at all to create a framework like tensorflow. So we are going to be learning all this interesting facts for a better understanding of the frameworks out there, but at the end we are always going to be using the frameworks, correct? I ask this because i tried to build my own network framework from scratch (with VERY little knowledge about the topics in this series), but it looked impossible to do something flexible and usable , as fast as tensorflow and allowing different activations, losses and optimizers",True
+@aaaaanh,2020-04-11T18:19:21Z,0,I found a modern-day bible,True
+@mdfereslandoulsi4399,2020-04-11T18:13:54Z,0,man I appreciate what you're building ! You're channel is authentic <3,True
+@celebritieslife754,2020-04-11T18:11:45Z,0,yea great at last something to do rather than sleeping tnx man,True
+@charimuvilla8693,2020-04-11T18:08:41Z,0,Ah nice I was stuck trying to code backpropagation from scratch so you literally read my brain when deciding what video to make. There are some libraries that do numpy stuff on the gpu so you can check that out as well.,True
+@alfredm.s.6396,2020-04-11T18:07:18Z,94,We need more people like you. And you know what? You are making them.,True
+@ElizaberthUndEugen,2020-04-11T18:06:14Z,0,"One important question, that does not become clear from your webpage nnfs.io: Do you cover MLPs only or will you also cover other architectures such as CNNs and RNNs in detail and implement them? I built an MLP with numpy at one point too. And it is very slow to train. I cannot imagine more advanced architectures to work realistically with only numpy,",True
+@gonespral,2020-04-11T18:02:12Z,0,very simple,True
+@unlikelysalmon786,2020-04-11T18:01:22Z,0,I've been waiting for this and I'm hyyypppppeed thanks Sentdex!,True
+@batflash7,2020-04-11T18:00:00Z,0,I’m so excited about this.,True
+@ahmedhany5037,2020-04-11T17:45:51Z,0,"This will be BIG, great job sentdex !",True
+@ElizaberthUndEugen,2020-04-11T17:44:27Z,0,"Sick animations, Do you aspire to dethrone 3B1B as the master of animating formulas? :D",True
+@henning4327,2020-04-11T17:43:49Z,0,"OMG I'm so excited I always wanted to code a Neural Network in Python from scratch, and now you're making a series of it!!!  Greetings from Germany!",True
+@hakeshkumar2508,2020-04-11T17:43:21Z,0,If i pre-order now when can I expect the e book copy?,True
+@rpraver1,2020-04-11T17:40:43Z,0,"Already ordered the book, also wanted to ask if you would cover neuroevolution?",True
+@kalyanc4829,2020-04-11T17:40:36Z,1,If we have 3 inputs and one output ( in the example given in the video)  then  total number of bias =4 right?    (as you said in the video total number of unique neurons= bias ),True
+@randomNunber,2020-04-11T17:39:04Z,1,Can't wait for the next video......,True
+@Nonenone-rj9yp,2020-04-11T17:38:02Z,0,when will the book be ready? is it cheaper now or will it become more expensive later?,True
+@yimoawanardo,2020-04-11T17:36:45Z,0,All 5+ dislikers give yourselves over to security. We need to have a talk.,True
+@motezelissa4807,2020-04-11T17:32:28Z,0,I have been waiting for this video . Thanks sentdex,True
+@hemanthkotagiri8865,2020-04-11T17:28:16Z,1,Finally! Been waiting for this! Thank you so much for releasing this in the quarantine period.,True
+@vishvambarpanth2888,2020-04-11T17:25:07Z,12,"""Why would anybody would want to do this to themselves?!!""....lmao,loving this series already!!",True
+@proyectosinformatica2,2020-04-11T17:24:56Z,0,"Thus, the legendary travel began",True
+@yimoawanardo,2020-04-11T17:24:33Z,2,Count me already in.  By the way you forgot to put the version of python in the description  Edit 2 : thanks Daniel for the animations,True
+@deckplate1,2020-04-11T17:24:25Z,0,Didn't even think twice about it. Bought the book and ready for this course,True
+@datmesay,2020-04-11T17:22:33Z,0,"that's always the way to go ! Actually I don't see the value of using pytorch, keras or even scikit learn. Some libraries are, however, interesting to be working with because the level of abstraction is more manageable, for example Sympy or Numpy, StatsModels.",True
+@ekagranigam2813,2020-04-11T17:22:26Z,0,What are the basic prerequisites for this course/series ?  please suggest some topics we should already know in python beforehand,True
+@akash_a_desai,2020-04-11T17:21:26Z,0,Please describe how to install tensorflow in sublime ?? No one can explain it ? And also mention version of tensorflow & keras Please,True
+@stephenaustin3026,2020-04-11T17:20:43Z,0,"Are these python 3, numpy and matplotlib versions the minimum required, or can we get away with using earlier (but still recent) versions?",True
+@madhusudhanreddygone2667,2020-04-11T17:19:47Z,0,I have a doubt bro(video creator)  Can I learn neural networks without prior knowledge except python language,True
+@babayaga4329,2020-04-11T17:19:29Z,0,Someone is flexing their Boring Company Flamethrower,True
+@peeratchaikleebbua7723,2020-04-11T17:19:06Z,3,"This is exactly what I want. There are a lot of framework in this field. And each framework has its own advantage and disadvantage. I usually think that if I have to create new framework or have an idea, how I can do that. I would like to know the deeper level in this field.  Thank you very much for creating this series. I will watch every episode for sure.  Hope that you can deploy your own framework too. Hahaha",True
+@cocofortin,2020-04-11T17:19:05Z,1,Wow!! Just Wow!!,True
+@ahbarahad3203,2020-04-11T17:19:02Z,1,its like the release of a part of my favorite movie series,True
+@nguyenvantin8727,2020-04-11T17:17:57Z,0,"Cant wait for this, my idol",True
+@nathanreeves8291,2020-04-11T17:16:48Z,0,You da best man,True
+@akash_a_desai,2020-04-11T17:16:28Z,0,Hey please mention version of tensorflow ?? Because it's unable to install in jupyter,True
+@anandchavali6299,2020-04-11T17:15:07Z,0,a numb pie,True
+@RavinderSingh-vm9nx,2020-04-11T17:13:55Z,1,and the wait is over .........,True
+@notgaurav,2020-04-11T17:12:09Z,0,been waiting on this I couldn't believe it when i saw it in my recommended !,True
+@darksam1212,2020-04-11T17:09:40Z,0,"Great timing, I just got into learning how Neural networks work from scratch and the only videos I could really find were by DevLog which are okay, but not up to the quality of Sentdex and he trips a bit, takes forever, and implements the absolute most basic activation functions and stuff.",True
+@Hunar1997,2020-04-11T17:06:59Z,0,"I'm currently beginning to learn Fortran and improve my c (i already know c++ but i don't like knowing too many keywords and function names), I think following this course will be a good way to improve my skills in those :D",True
+@paragjp,2020-04-11T17:05:23Z,0,Hi Thanks for starting a complete new series on Deep learning. Request you to make comprehensive series and explain maths and stats in algorithms in a simple and gentle way. Request you to post next videos as early as possible Once again Thanks a lot,True
+@anandpawara4048,2020-04-11T17:01:22Z,0,"So cool you used Manim for explanation, can you also do tutorial for Manim!!",True
+@lonewolf2547,2020-04-11T16:55:22Z,0,Thanx a ton.....I really needed this,True
+@Hunar1997,2020-04-11T16:55:20Z,0,"I don't know which is better, me now getting your videos one by one, or someone in the future getting the playlist of all the videos without waiting",True
+@shrideepgaddad8721,2020-04-11T16:54:26Z,4,This has been something I have been waiting for in a long time. Keep it up my guy,True
+@Lavamar,2020-04-11T16:50:29Z,0,I can't believe this is free! Thanks sentdex!,True
+@kisame_5331,2020-04-11T16:39:59Z,0,I love the timing of this video series,True
+@IsfhanAhmed,2020-04-11T16:39:00Z,0,Thanks  A lot master for this series,True
+@atharvapansare1487,2020-04-11T16:37:49Z,0,Linus Torvalds would fall in love with sentdex for all the free (and quality) stuff he provides.... Like the rest of us,True
+@gamerlion472,2020-04-11T16:35:47Z,0,Finally!! 😍😍,True
+@sk7w4tch3r,2020-04-11T16:33:37Z,0,gonna love this series. tnx!,True
+@me_too_thanks5062,2020-04-11T16:32:37Z,0,Super hyped for this!,True
+@yashnaik110795,2020-04-11T16:32:10Z,0,"Thanks so much! Guys please support him by buying his book if you have the means to, if not please like and subscribe 🙏🏼🙌🏼",True
+@damienw4958,2020-04-11T16:31:54Z,189,"I come from 10 years in the future, we used this tutorial to rebuild society after the Corona Cataclysm!",True
+@jhoanmartinezsilva2609,2020-04-11T16:28:50Z,0,Fck yeah!!!!!!!!!!!!!!!!!!!!!!,True
+@Jenko022,2020-04-11T16:27:10Z,0,This is what we have been waiting for. Excellent work. Looking forward to following this series.,True
+@robertforchristsake6777,2020-04-11T16:20:33Z,0,The ebook price is rather overwhelming for an Indian. Can you make some arrangements to make it fair price for us?,True
+@khirooo,2020-04-11T16:19:17Z,0,Thank you teacher,True
+@GG64du02,2020-04-11T16:15:27Z,0,"Well congrats, that a nice feat for you guys, since you guys are self taught iirc",True
+@ReXOfficial,2020-04-11T16:14:19Z,0,Finally this video series came out yeeyeee,True
+@kaankorkmaz8180,2020-04-11T16:14:06Z,0,Thanks for your efforts!,True
+@RomanSpartan3,2020-04-11T16:13:40Z,0,"Great video! Why are the input layer sizes include in the number of biases calculations? In my understanding, there is no bias associated with an input node.",True
+@2000jmartins,2020-04-11T16:12:44Z,2,YESS! I’ve done this with Daniel from the coding train last year so I won’t be writing along but will definitely follow along. Amazing quality for a tutorial about NNs.,True
+@chetangarood3699,2020-04-11T16:12:19Z,0,Thanks a lot !!   Lockdown is a Good time to learn great stuff !!!!,True
+@sripradpotukuchi9415,2020-04-11T16:09:28Z,2,"Yes, finally!!! I waited so long for this.",True
+@JuanVidal92,2020-04-11T16:06:53Z,0,Fantastic stuff. I'm mid half of it and enjoying it already. Congratulations on your 1000th like!,True
+@MagicalSAMElectronics,2020-04-11T16:05:01Z,0,looking forward to learn from this series :),True
+@intisarkabir2679,2020-04-11T16:00:59Z,0,i love your content,True
+@Mohit-nw5jr,2020-04-11T16:00:55Z,4,I really needed this specially in this lockdown! Thanks a lot (: Love from India❤️,True
+@arjunkashyap8896,2020-04-11T15:59:57Z,0,Yeaaaasssssss yeaaaassss yeaaaaassssss... Finallyyyy... Thank youuuu...,True
+@muldurksk,2020-04-11T15:59:20Z,0,This is exactly called slowly shipping away dude,True
+@punkson,2020-04-11T15:58:50Z,6,Wait is that 'not a flamethrower' over there?,True
+@abdullahabd7677,2020-04-11T15:58:47Z,2,With Harrison's experience in seeing his free videos being uploaded to udemy what is keeping scammers at bay? They could just straight-up steal the draft from google docs and publishing their own book?  I am looking at AI Dharma Guru. You know who you are.,True
+@YasaswiS,2020-04-11T15:57:28Z,2,Oh my god thanks! Do you know anyone that has similar things for CNN’s and RNN’s?,True
+@nexovec,2020-04-11T15:57:19Z,9,"Sentdex: ""I am speed...""",True
+@ahmadtarawneh2990,2020-04-11T15:56:41Z,0,"You are doing a very great work, Thank you!",True
+@prateeksharma3257,2020-04-11T15:55:02Z,2,Quarantined inside my room. This is just what I needed!❤️,True
+@romariocarvalhoneto7831,2020-04-11T15:52:30Z,0,If I understand what you are trying to teach (your goal) you will be my new hero!,True
+@ehawkins730,2020-04-11T15:52:28Z,0,"Of all the other Machine Learning tutorial(s) done on this channel, this one I’m looking forward to most!! What’s the frequency of tutorials?",True
+@Salehalanazi-7,2020-04-11T15:51:23Z,0,That's a good reason to be honest. Thank you,True
+@ulissemini5492,2020-04-11T15:50:31Z,5,this is the greatest thing to ever happen to mankind,True
+@datgame7240,2020-04-11T15:50:13Z,0,I'm gonna like before watching. It feels like it's been a year waiting for that video to come up :D,True
+@nithinraj9772,2020-04-11T15:50:06Z,0,What if sentdex has written a code to like all the comment and reply 😅,True
+@akashthoriya,2020-04-11T15:45:18Z,1,"Love you sir, please release the schedule for this series.",True
+@imanerezzag1293,2020-04-11T15:44:45Z,0,So excited for this NN serie Thanks harrison ... great explanation,True
+@prodigy4836,2020-04-11T15:43:03Z,6,Can't thank you enough for the great content you are putting out !  I want you to know that you are making a huge difference in people's lives.,True
+@victormurphy3511,2020-04-11T15:42:55Z,0,Just ordered the book.,True
+@maksymlanko4508,2020-04-11T15:39:34Z,0,Yes daddy,True
+@gustavojuantorena,2020-04-11T15:38:41Z,0,This is awesome! Thank you very much! Greetings from Argentina.,True
+@rose123998,2020-04-11T15:35:33Z,0,was eagerly waiting for this ... finally its here,True
+@ekremdincel1505,2020-04-11T15:35:17Z,0,16:32 I liked that.,True
+@createlifejr,2020-04-11T15:35:13Z,0,Thanks brother!,True
+@luminousblue1539,2020-04-11T15:34:50Z,0,I can't wait I can't wait,True
+@Quantum_Nebula,2020-04-11T15:32:16Z,61,"If I make a sentient ai (GLaDOS), I'm blaming Sentdex when the feds ask me.",True
+@thelunes6549,2020-04-11T15:30:26Z,1,"I'm incredibly excited for this series. I had the same problem where I've exposed myself to neural networks in the past, but what I know is for very specific tasks. I'm the kind of person who needs to be able to even vaguely ""visualize"" in my head what's going on in the background to then be able to adjust it to my needs. It's especially important because I'm wanting to use machine learning methods for the lab I'm working in, but I keep hitting road blocks where I feel like I really don't know what I'm doing (which is probably spurred on by the fact that I have no formal education programming or computer science) or how to troubleshoot certain things when problems arise.  Thank you for making these tutorials, I look forward to the rest of the series",True
+@Kalo9418,2020-04-11T15:29:11Z,0,I'd soo much love to get into this. Can't wait for your other videos! How often will you be uploading this series?,True
+@mucahittezcan4121,2020-04-11T15:28:20Z,0,Don't worry we explain everything ❤ 😍,True
+@GelsYT,2020-04-11T15:27:47Z,0,"I totally agree to what you are saying, everything we import from python , those frameworks, packages that we use . Everything is  easy as it is, we just have to import them and create objects and then set some values in the parameters depending on the function or whatsoever but deep inside is not understanding what is happening , everything is just fed up, everything that we want as a result returns to us because of those packages did not even understand how did it came up to that result.   THIS IS GREAT! I'll watch this whole series cause I know that everything you'll be teaching here will be very important especially if i want to pursue learning stuffs in deep learning or whatsoever    THANK YOU SO MUCH SIR",True
+@hardikshukla4508,2020-04-11T15:26:33Z,0,Very helpful 👍,True
+@Pimp482,2020-04-11T15:24:38Z,1,What a coincidence I need this for my computer science coursework,True
+@CraftingRedstone,2020-04-11T15:24:29Z,217,Really love how you’re teaching the mathematics behind deep learning... think this will lead to a lot of innovation,True
+@shireeshkumar6631,2020-04-11T15:23:49Z,0,"Glad , I will get to learn a lot now ... thank you.",True
+@SanataniAryavrat,2020-04-11T15:22:39Z,1,The best part of this tutorial is the the way the concepts were presented.... the graphics!,True
+@shafayhaseeb5849,2020-04-11T15:22:25Z,0,Let's go! I already know there's gonna be so much to learn and enjoy. This dude is amazing ✌️,True
+@TrackLab,2020-04-11T15:22:08Z,0,"Be real with me: I know Linear Algebra, Algebra, and currently I am starting with Calculus (limits etc.). Is this still for me? I really want to know the base math of ML to fully understand it. But I never did any actual ML equasions and calculations from scratch.",True
+@HUCERBH3947,2020-04-11T15:21:54Z,0,"Ih I’m so in love with this already im eager for material, what is your plan for this series one video every week?",True
+@vyomaudichya,2020-04-11T15:21:40Z,3,Need help in my assignment in creating a constituency parser using Recurrent neural networks taking penn tree bank as ground truth. Any advice will be helpful. thankyou,True
+@dunder9444,2020-04-11T15:21:17Z,0,So it begins.,True
+@njoy2075,2020-04-11T15:20:44Z,0,This channel is  one of  my favorite channel in youtube.. Please put the maths of deeplearning a little bit in the series,True
+@sachinsinkar7,2020-04-11T15:20:30Z,18,"Perfect utilization of LockDown Period, Revise the things from the person who taught you in the past. Thanks, Sir. Love you 3000..!!",True
+@karunkrishna1111,2020-04-11T15:18:20Z,0,So excited for this series! Sentdex and Daniel for MVP,True
+@Joshua-kr5fq,2020-04-11T15:17:43Z,0,Checkout  Tech with Tim,True
+@salahuddinmuhammad4188,2020-04-11T15:16:02Z,0,"Good work! Please make a most demanding real world project from end to end in Deep learning soon. Also videos for ANN, CNN, RNN with real world examples are being awaited. Thanks",True
+@adempc,2020-04-11T15:15:31Z,0,Thanks -,True
+@michaels8297,2020-04-11T15:11:04Z,63,You’re a hero...edit: Update: I’ve been hopping on some friends zoom courses on AI for a pretty elite university(won’t say which one) and you absolutely SMOKE the professor with your ability to teach. I don’t know if people wrote you off when you were starting out but you have certainly proven yourself as one of the GOATS,True
+@xXMockapapellaXx,2020-04-11T15:10:16Z,0,Love the manim visualizations! Please put more of those in your videos!   Why did you switch the facecam to be a side-of-the-facecam?,True
+@GelsYT,2020-04-11T15:09:20Z,0,"Hello big faaaann I wish I'm likeee youu sentdex, youu know a lot of stuffs in programming hahahaaha",True
+@yashkarbhari721,2020-04-11T15:09:07Z,1,"Wow, a sudden change in the graphics, thats very cool.    Keep making videos related to Neural Networks, Pls !! I needed it a lot, all the good courses are paid else where and your channel is like a gem. Thanks",True
+@Zzznmop,2020-04-11T15:08:58Z,0,So good. Thank you sentdex :) Edit: the derivation animations are spectacular,True
+@umdbest001,2020-04-11T15:05:20Z,0,My super hero = sentdex  Love you sir  Its great to have teacher like you,True
+@jashabantadas9783,2020-04-11T15:05:18Z,0,When is the next one coming out?,True
+@saeednuman,2020-04-11T15:04:53Z,0,This is my first comment and of course I cannot resist appreciating and thanking you for such an amazing work. And kindly when should we expect the next video :),True
+@ahmadanis9930,2020-04-11T15:02:59Z,0,Love from Pakistan. Promoted video on Twitter and reddit made my virtual environment for NNFS series. Hopefully going to be really good and I will learn a lot IA.,True
+@williamflores7323,2020-04-11T15:01:45Z,0,"Please don't stop doing this serie, it's awesome",True
+@twobits7310,2020-04-11T15:01:17Z,0,"There is only one reason i am not willing to learn ML and its maths, i only know +, -, x, /. I will be outdated in this field soon. 😐.",True
+@enriquesnetwork,2020-04-11T14:59:51Z,0,Can this be used to train an AI?,True
+@tumul1474,2020-04-11T14:59:40Z,1,this is crazy good man ! how do you do all this ? just awseome,True
+@enriquesnetwork,2020-04-11T14:59:39Z,0,"Great video! cant wait for the rest to learn! Regards from Spain, thank you so much",True
+@fastn2963,2020-04-11T14:58:10Z,0,I need more its not enough more videooo,True
+@reimeytal2734,2020-04-11T14:57:45Z,6,Thank you for making this series. I have always been hesitant to use the frameworks since they don’t show what’s happening behind the scenes. I just have one question. How often are you going to upload these video? (What is your upload schedule?),True
+@chrisfowler2388,2020-04-11T14:54:26Z,0,Do it from scratch and then build up the modules to make it 'easier' would be so so helpful,True
+@sudiptomukherjee2470,2020-04-11T14:54:07Z,2,"Finally, the wait is over! Amazing outro though.",True
+@igor-letters-and-numbers,2020-04-11T14:52:51Z,1,You are probably the only one that I'm hyped about hitting the 1M,True
+@diegodemetillo5947,2020-04-11T14:51:19Z,0,I see a Boring Company Flame Thrower in the back right. Nice.,True
+@darshakkumarranpariya867,2020-04-11T14:51:10Z,0,"Wow, finally rolled out.. thanks.",True
+@kailashj2145,2020-04-11T14:49:21Z,0,Good time to release this tutorial... Good work sentdex👍,True
+@lasithudara380,2020-04-11T14:48:25Z,0,Thank you so much for this.🥰,True
+@techwithimad4672,2020-04-11T14:47:54Z,0,Thank you so much for this !,True
+@rvalusa,2020-04-11T14:46:45Z,0,I am a big fan of your videos. I always wonder how you able to create the videos in so many varied topics? Do you learn the topics and create the videos simultaneously? Curious to know how you able to create the videos so frequently.,True
+@ahmedkotb3089,2020-04-11T14:42:05Z,1,"Playlist will be very useful if implemented all types of neural networks like rnn,gan,cnn,boltzman etc",True
+@yashchaudhary7988,2020-04-11T14:41:34Z,0,Damm never been so hyped since Breaking bad!!!,True
+@carloslopez7204,2020-04-11T14:40:56Z,0,"The book is already available? It says ""preorder""",True
+@johannesslabbert,2020-04-11T14:40:21Z,0,Looking forward to part 2!,True
+@MichiGombocz,2020-04-11T14:39:47Z,0,"I'm working with ML for almost 4 years in my fulltime job. I'm sure I will learn something here. Sentex, you and your team (if one exists) are just awesome. I hope you are aware of that (:",True
+@haidernadeem,2020-04-11T14:39:25Z,0,"Hey I really appreciate you making this series, I believe building neural networks from scratch is one of the best ways to get an intuitive idea about them. It would be really cool if you could extend this series and make videos about building different kinds of neural networks from scratch such as CNNs, RNNs etc. Thank you!",True
+@varuntotakura8139,2020-04-11T14:38:54Z,0,"Just Awesome, Waiting to learn more...",True
+@danialahmed01,2020-04-11T14:35:40Z,0,Will I be able to follow along even if I dont purchase the book?,True
+@akiratoriyama1320,2020-04-11T14:34:22Z,9,Why would anybody would want to do this to themselves?!!😂😂😂,True
+@ericmeehan298,2020-04-11T14:32:01Z,692,This is one of the highest quality programming tutorials I’ve seen. Even online courses from universities aren’t this well made made. Thank you for putting this together!,True
+@mahdirostami7034,2020-04-11T14:31:40Z,0,i think building from scratch help undrestanding foundamentals,True
+@heyrmi,2020-04-11T14:31:31Z,861,Me: opens youtube. Youtube: Sentdex- Neural network from scratch. Me: Opens the link faster than the speed of  light.,True
+@sumanthbhargavka7638,2020-04-11T14:31:22Z,0,"I was searching for a proper reference to learn neural networks, when I saw the notification from your channel I decided to start learning from that movement itself, thank you for your wonderful contributions to the society.",True
+@nuritwitch1095,2020-04-11T14:30:41Z,0,Thank you i hope u can keep going with this series,True
+@umairalvi7382,2020-04-11T14:30:27Z,0,Mannn i just cant tell you how eagerly i am waiting for this.,True
+@royalbabu6766,2020-04-11T14:30:10Z,1,Totally worth the wait 🤩,True
+@kkaspars,2020-04-11T14:29:25Z,0,"Oh man, was looking forward to this!",True
+@helloworld-vq9gq,2020-04-11T14:28:28Z,0,Amazing,True
+@KaranChecker,2020-04-11T14:27:54Z,0,You pick the right things to teach. The fundamentals.  If you understand this working with other 3rd party libs becomes intuitive. Cause you can really imagine the way the lib is solving it internally.,True
+@rohitupadhyay4665,2020-04-11T14:27:05Z,1,Was eagerly waiting for this one. Looking forward for more! Thank you :),True
+@quebono100,2020-04-11T14:26:21Z,0,"Wow what a great content, thank you so much",True
+@ashishgudla5411,2020-04-11T14:25:24Z,0,You are dope!,True
+@rog0079,2020-04-11T14:25:00Z,1,"Thanks a lot for this series, you gawd. waiting eagerly for more videos !!",True
+@phillipsantimorgia9726,2020-04-11T14:24:05Z,0,I really love your videos!!,True
+@sameertikoo7308,2020-04-11T14:23:26Z,1,My goosebumps were just waiting to be aroused....,True
+@thikkireddy,2020-04-11T14:23:12Z,0,Thanks a lot..,True
+@akshatsingh7286,2020-04-11T14:23:10Z,0,LETS GO!!!,True
+@pawansj7881,2020-04-11T14:22:50Z,0,Outstanding Job!!!Excited!!!,True
+@rakshithdheer6539,2020-04-11T14:22:30Z,0,Thank you so much it is very helpful and effective,True
+@yatint9665,2020-04-11T14:22:01Z,0,I have been waiting so long for this!,True
+@olivierkabore2620,2020-04-11T14:21:45Z,0,"Hi, thank you for this training. What software do you use for your animations in this video ?",True
+@abimbolaobadare6691,2020-04-11T14:19:54Z,0,Sentdex Nation... We move!!!!!!!!!!!!,True
+@MystixHalo,2020-04-11T14:19:04Z,0,first,True
+@robertschumann6977,2020-04-11T14:17:34Z,0,Exactly what I was waiting for,True
+@arturasdruteika2628,2020-04-11T14:17:32Z,643,Dropping this video is such a big news that even if aliens landed today it would be the second most important thing that happened today,True
+@rhythmsaparia8788,2020-04-11T14:15:01Z,1,"Yours are the only videos i watch with normal playback speed, in order to savor every moment of it. keep these videos coming!",True
+@rohitkumarvarma4952,2020-04-11T14:14:59Z,1,At last the wait is over!! :),True
+@prathameshjoshi1408,2020-04-11T14:14:54Z,0,"Thank you so much and Hi from India to you ! .. Your playlist were already making my quarantine better , now this is making me more excited  🤗😇",True
+@rickvenema6083,2020-04-11T14:14:18Z,0,"This could have helped so good a year ago, still enjoying the video to see your approach. Keep up the good work!",True
+@Alinear285,2020-04-11T14:14:04Z,0,Thanks you so much waited so long for this,True
+@sandeepkulkarni3695,2020-04-11T14:12:20Z,0,I can't wait for the next Video in the Series.,True
+@pratikkumar4201,2020-04-11T14:12:10Z,0,Lovely! waiting for the next video!,True
+@mikemihay,2020-04-11T14:11:32Z,0,waiting for Part 2 :) Good job!,True
+@raebryan4183,2020-04-11T14:11:20Z,0,My long awaited series has begun. Thank  you for this,True
+@blankvoidsea,2020-04-11T14:10:42Z,0,"I'm glad you create this tutorial. I've always hated having to browse non-raw Python tutorials/books/resources and not getting the foundational knowledge. Hopefully you keep this video series alive, as (sorry, not an excuse) I live in a third-world country and am saving $$$ since dollar rates spike up like shit in these COVID times... :(",True
+@adityataksande5024,2020-04-11T14:10:02Z,0,I like the last outro of the video 😻😻😻,True
+@JamesWattMusic,2020-04-11T14:09:56Z,0,thank your for beginning this lecture series on Art,True
+@rohitnagraj58,2020-04-11T14:09:43Z,0,What a great time. Thank you so so much Sentdex. Really appreciate all your hard work😁,True
+@abhinav.sharma,2020-04-11T14:08:32Z,0,Good thing you're rebooting this again SentDEX... Would love to see TensorFlow 2.0 and some of the new tech used in this series... Much Love <3,True
+@DanhNguyen-fm8xj,2020-04-11T14:08:31Z,0,😭😭 No subtitle for who is not google in English like me,True
+@mohammadsamir2713,2020-04-11T14:08:28Z,0,I really can't wait,True
+@arunavamodak2385,2020-04-11T14:08:12Z,0,I'm really fuckin excited to see this... Damn...,True
+@DrunkynMonkee,2020-04-11T14:07:32Z,0,Great content bro. Keep up the good work!,True
+@martenehaab1249,2020-04-11T14:06:13Z,0,been waiting a long time for this,True
+@noneedtoknowthishandle,2020-04-11T14:05:46Z,3,God himself teaching us nn. Love from India🇮🇳,True
+@denizozmen1828,2020-04-11T14:05:27Z,0,holy shit your video quality is amazing now,True
+@Nooneonearth2.0,2020-04-11T14:03:41Z,0,You are a Genius. I wanna marry your brain!,True
+@billykotsos4642,2020-04-11T14:03:17Z,0,Finally!!!,True
+@esmael.c2b,2020-04-11T14:02:39Z,0,You're the best teacher,True
+@thepurpleone7153,2020-04-11T14:00:30Z,3,"""From scratch"" >> 3:23",True
+@alessandroruggiero8932,2020-04-11T13:59:12Z,0,Why no numpy 😭,True
+@void_invoker,2020-04-11T13:57:49Z,0,"You gotta shows us firing that ""flamethrower"" someday, you know.....",True
+@khalid11221122,2020-04-11T13:57:47Z,0,"Hi I appreciate your content, I am a grandad, how do you explain backpropagation to a grandad.",True
+@thecros1076,2020-04-11T13:57:45Z,0,Thank you so much for everything ❤️,True
+@jay-hinddoston8364,2020-04-11T13:57:20Z,0,Thanks a lot..the most awaited session,True
+@classicneupane6196,2020-04-11T13:56:10Z,0,15:00 Multiplying weight and biases as he was the neuron :),True
+@ahbarahad3203,2020-04-11T13:55:44Z,0,Finally,True
+@icy-spoon85,2020-04-11T13:55:39Z,5,"wanted to say ""first!"" but entered a time warp where it appears to have taken me 21 hours to shift from my phone notification to this video.",True
+@saisritejakuppa9856,2020-04-11T13:54:57Z,1,"finally, it's here... thanks sentdex.... u one best guy working on great content.",True
+@MrDivyanshu33,2020-04-11T13:54:35Z,0,yayayayayayay!!!,True
+@anirbanghosh6328,2020-04-11T13:54:01Z,0,Love u sentdex . It’s gonna  be my first comment to be liked by u,True
+@moa3935,2020-04-11T13:53:45Z,0,Awesome dude thanks a lot for this! I was waiting for that video !!,True
+@kaanberke1749,2020-04-11T13:53:20Z,0,"Finally 🤘🏽 Please keep videos coming, continuously lol 😂",True
+@isuryanarayanan506,2020-04-11T13:53:19Z,17,"this is what ive been waiting for my man , you made me a full stack developer now make me a machine learning developer",True
+@tommi1654,2020-04-11T13:53:10Z,0,waited for this,True
+@AshutoshSingh-nl5pq,2020-04-11T13:52:12Z,73,the wait is finally over...,True
+@aditisharma8398,2020-04-11T13:52:08Z,0,Thanks sentdex ! Looking forward for the whole series😄,True
+@manoharreddy6907,2020-04-11T13:51:51Z,1,"Alright, it's here. Time to learn.",True
+@rayantovi,2020-04-11T13:51:40Z,1,You took me from print() to neural networks! Thanks for all tuts 🙏,True
+@ronalddrzewicki5786,2020-04-11T13:51:26Z,0,Am able to talk to u.about your coding,True
+@sifiso5055,2020-04-11T13:51:25Z,1,Great Content Sentdex ✌,True
+@snharish5981,2020-04-11T13:51:00Z,0,Wooa,True
+@vympel2732,2020-04-11T13:50:58Z,24,I already know I'm gonna love this series,True
+@niteshbagla6045,2020-04-11T13:50:52Z,0,Best thing during  lockdown,True
+@kaifkohari5298,2020-04-11T13:50:47Z,0,Really needed to this one. Coding NN with libraries is easy.,True
+@davidgomez79,2020-04-11T13:50:30Z,0,"Neural networks from scratch, this should be good been waiting on this from sentdex 👍",True
+@gautamj7450,2020-04-11T13:49:48Z,0,Finally!!! 😍,True
+@ckames22,2020-04-11T01:07:32Z,8,Awesome 👍 perfect timing as well as we are all stuck at home,True
+@benjaminbianchi1804,2020-04-10T22:14:14Z,0,"Amazing video , I loved the animations !!",True
+@billfujimoto5905,2020-04-10T18:08:48Z,350,"I like the graphics, reminds me 3Blue1Brown channel!  What is the tool that you are using for this?",True
+@Stinosko,2020-04-10T16:06:30Z,16,Thank you so much for this! 🤠,True
+@Stinosko,2020-04-10T16:05:58Z,0,First!!!!! 😍😍😘🥰,True

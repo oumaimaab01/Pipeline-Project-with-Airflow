@@ -1,0 +1,56 @@
+author,updated_at,like_count,text,public
+@anjalivs4517,2023-10-19T13:43:28Z,0,the concept has not been explained at all.,True
+@effortless4588,2023-10-14T01:18:24Z,0,Helpful,True
+@nanthinikempaiyan8612,2023-07-19T02:33:48Z,0,How many neurons in input layer,True
+@x_o_x_o,2023-06-08T23:38:14Z,0,What a waste of time this video is,True
+@tadiosbelay2307,2023-04-20T09:51:41Z,0,its interesting explanation .please attach python code you exolained,True
+@AbhishekDey-ly1jl,2022-11-11T05:56:13Z,0,Thank you Krish for the wonderful video. You are doing an excellent job,True
+@asimbatabyal9251,2022-10-16T15:31:43Z,0,I  am getting runtime error. It is writing: can not clone object as the constructor either doesn't set or modifes parameter layers,True
+@datascientist0073,2022-10-15T10:19:15Z,0,Thx,True
+@meneliknouvellon8133,2022-10-01T11:14:06Z,0,"Hello, the video is great but the ""perfect model"" that it gave you predicts only zero, doesn't it?",True
+@user-mb6mv2do6g,2022-08-01T07:29:46Z,0,سلام. Hello,True
+@mfaruqrm,2022-06-08T03:46:17Z,1,6:32 Library 12:20 Best,True
+@famaxsteel,2022-06-07T09:16:52Z,0,12:20 best,True
+@lakeguy65616,2022-05-21T20:21:17Z,0,"so, your ""model"" to pick a model structure picked the biggest, deepest structure.  wasn't that the outcome you expected?  I mean adding more hidden layers should create a model that trains quicker.  Adding more neurons per layer would also train quicker.  The bigger the structure (layers, neurons per layer) will train quicker but also reach the point where it no longer generalizes but memorizes the data. And in general, ReLu is better than Sigmoid.",True
+@christinechetty7498,2022-04-02T08:30:14Z,0,"Wonderful!! This is great for situation when you're trying to automatically train models for edge devices when the input signal shape is not known, love it",True
+@neuer7429,2022-03-04T17:03:46Z,0,but why you get 0 in CM ?,True
+@KnowNothingJohnSnow,2022-02-23T07:50:38Z,0,How can i do it in Pytorch ?? Thanks,True
+@shreyjain6447,2021-12-07T12:58:10Z,1,"In the create_model function, why haven't you added an activation function in the output layer? Since it is a binary classification task, we should add a sigmoid function right?",True
+@khushboogarg9919,2021-11-06T14:01:21Z,0,"It explains nothing but Grid Search. Original question, how to determine # of layers and # of neurons in each layers, is not explained.",True
+@relaxpeacefulmind2440,2021-09-23T14:24:27Z,1,How will you add callbacks there,True
+@bhaskartripathi,2021-08-26T12:52:04Z,20,"The video is good but it doesn't answers ""How to choose number of hidden layers and nodes in Neural Network"". It just applies a simple GridSearch which is mostly useless in a real world NN architecture that you can take to production.",True
+@louerleseigneur4532,2021-08-07T15:30:43Z,0,Thanks Buddy,True
+@the_street_coder4433,2021-08-04T00:52:26Z,1,"Great video, learnt a lot from this. I used to ask myself, when and what time to use which  loss function, which encoder to user, LabelEncoder for y values in the range of 2 classes and OneHotEncoder as a compliment that is for more than 2 classes.",True
+@lerneninverschiedenenforme7513,2021-07-19T05:47:28Z,0,"Would've been nice, if you would've said the answer first and then explain how you got there, instead of the other way around.",True
+@PawanSingh-xk2cj,2021-06-29T20:31:38Z,0,"but still it is hit and trail method, is there any method/formula which can tell us approx amount of hidden layers and neuron that can be used for the model",True
+@budhadityagoswami5420,2021-06-21T14:30:03Z,3,"A clear decent description of the GridSearch CV approach to find out the hyper parameters of a NN. However a couple things to mention: 1. The logic is not clear why we suddenly choose three layers with 20 , (40,20) , (45,30,15) etc? How dis you select them? 2. Standardization does help to get faster convergence but it NEVER ensure a gobal minima. It is stochastic gradient decent that is used as a backbone of tensorflow ensures the global minima if your cost function is convex or pseudoconvex 3. Your confusion matrix for accuracy is really fishy!! Why the 2nd column of confusion matrix is completely 0 ? It means the model can not capture any of the churned cases at all. Accuracy might still be high because of high imbalance. Can you explain? Am I missing anything here?",True
+@the_kombinator,2021-02-24T14:20:32Z,0,"Not clear at all from a conceptual point of view, still unsure about how many HLs to choose. Moderately decent code step though.",True
+@tesfayeabera4978,2021-02-22T21:49:47Z,0,How to choose the number of hidden layers and nodes in a Deep belief network and it's difficult.,True
+@JohnSmith-ch9sm,2021-01-28T15:25:12Z,0,"Half of the video has nothing to do with choosing neurons, the other half is hand-waving.....",True
+@gauravgarg2344,2020-12-26T16:12:56Z,0,"The video was not worth it. Anyone would come to watch this video to know the logic/approach on how the parameters/number of layers are chosen. However, it is very disappointing to see that it simply tells to run the model on different numbers of 'number of layers' and check the accuracy. Really disappointed ( with the thumbnail of the video, as it is misleading).",True
+@ssonicmoumed,2020-11-07T21:15:45Z,1,How to choose the number of hidden layers and nodes in Neural Network ? cause this video does not explain it!,True
+@jithinjnair6322,2020-08-18T20:00:55Z,0,Wow!!! Great!! Thank you ....,True
+@thetravellingconsultant,2020-08-02T13:35:50Z,0,great!!! well explained,True
+@zaaraaayat475,2020-07-27T17:52:14Z,0,Sir if I want to give 400 neurons with 3 hidden layers what to do sir,True
+@UMESHDAVEY,2020-07-20T09:23:08Z,0,what is there are no features it has date as index column and sales as lable....what will be the code for grid fit,True
+@vincentjr8013,2020-07-14T09:26:40Z,3,"I made a neural network with sigmoid function . But when i am training it . I got a overflow error in sigmoid function and my output is stuck ,giving same output for every input",True
+@anjali7778,2020-06-18T11:19:18Z,0,"why are u using sigmoid xdd, why not softmax ?",True
+@zaladhaval4419,2020-06-16T06:20:50Z,3,This code is not working in Google colab but it works in my Jupyter notebook. What should I do if I want to exacute the same code in Google colab?,True
+@redosem9868,2020-06-12T03:59:37Z,11,"The question in the title was not answered at all. why [[20], [40,20]] and why not [[1000],[1222,555]]. this video is about how nicely you can make or format a generic script. no more no less.",True
+@tusharnandy6711,2020-06-07T05:50:22Z,4,"instead of y = (y>0.5) you can use y = np.where(y>0.5, 1, 0) This will turn values to 1 and 0 instead of bool  But Great Job Mr. Naik... I really appreciate your efforts",True
+@gautam1940,2020-06-02T13:35:28Z,10,"Thats a good yet a naive approach.Its still pretty vague as to why [[20], [40,20]]... Neurons can vary between any random number and why these numbers specifically ? Is there a logic behind it ? Does it depend on the number of input features or the number of input rows ? Why only 30 epochs? Its so vague... What if I dynamically create a neural network on the fly , running a gridsearch wont work",True
+@dylanwang6818,2020-05-27T20:53:52Z,7,"How did u choose 20 neurons, or 45 neurons? why not 30, 60, 80 or others>  ? thanks!",True
+@michaelschlitzer8742,2020-05-12T21:04:37Z,6,"Very good tutorial.  It took some massaging due to some differences with sklearn packages, but that's part of the ""fun"".  One suggestion - don't turn off verbose.  It DOES take a long time, at least with verbose on you'll know that your computer is doing something!",True
+@rahulsabharwal3872,2020-04-26T18:40:38Z,0,"I have been getting below error, any help will be much appreciated /opt/conda/lib/python3.6/site-packages/sklearn/model_selection/_validation.py:536: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:  TypeError: 'int' object is not iterable    FitFailedWarning)  It basically complains at => if i==0 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""     for i, nodes in enumerate(layers):         #2.2.3 For Input layer, specify Input_dim as Number of features in the X_train         if i==0:             model.add(Dense(nodes,input_dim=X_train.shape[1]))             #2.2.4 Specify Activation function """"""""""""""""""""""""""""""""""""""""""""""""""""""""",True
+@sandipansarkar9211,2020-04-18T19:56:18Z,1,Great video .Please provide the data set and ipynb notebook.Thanks,True
+@dqianli,2020-03-25T19:41:10Z,0,"Hi, this is great video. Can you share the dataset and the code?",True
+@sifatredwan6205,2020-03-20T18:11:13Z,3,"Cannot clone object <keras.wrappers.scikit_learn.KerasClassifier object at 0x000002BC9E2E2DC8>, as the constructor either does not set or modifies parameter layers I faced this error...What's the solution ?",True
+@philipegunawan9857,2020-02-28T01:52:28Z,2,"Hi Krish,   Thanks! your video really enhanced my understanding of  Machine Learning further. I appreciate your simple and straight forward explanation. However, I still have some questions to ask.   I see that your layers are kind of ascended in terms of the number of element   layers = [[20],[40,20].[45,30,15]]   when I try to change it to   layers =  [[40,40],[30,30],[30,30,30],[30,30,30,30],[30,30,30,30,30]]   since I want to evaluate the effect of the number of nodes given the same number of layers. I got the    ValueError :  Input 0 is incompatible with layer lstm_14: expected ndim=3, found ndim=2   At this moment I am kinda lost why this gives me the error.   Thanks beforehand Krish.  Your help will be very much appreciated!   Cheers!   Phil",True
+@janmichaelbesinga3867,2020-02-04T00:29:09Z,0,set playback to 0.75 thank me later,True
+@rishavsrivastav500,2019-12-14T19:56:03Z,5,@ 13:24 in the confusion matrix:- the False positive  and the true negative are 0 . Isn't that mean model is not able to predict Exited =1 and its only predicting all the cases as 0?,True
+@madhukanadeeshani6982,2019-11-11T00:21:01Z,0,Awesome video,True
+@sunilghimire9919,2019-11-09T08:50:12Z,0,Please Share this file,True
+@pranjulcoolhunk,2019-10-01T21:33:45Z,0,Try sharing notebooks please.,True
+@madhubabu348,2019-07-29T15:41:50Z,3,Plz provide the link for this code...Tq in advance,True
+@anilb1076,2019-07-25T07:01:30Z,3,"hey, how does it work without specifying number of input neurons? and how to choose no if input neurons?",True
+@ramenchetia7529,2019-07-11T14:39:17Z,2,"Hello, ur videos are really good. I have subscribed your channel. Just wanted to ask you one question. After we deploy a model what if the model doesn't perform well or misclassifies regularly. Do we re-model or there is any other steps?",True

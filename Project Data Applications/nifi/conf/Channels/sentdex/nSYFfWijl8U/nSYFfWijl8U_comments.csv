@@ -1,0 +1,67 @@
+author,updated_at,like_count,text,public
+@FinaISpartan,2017-10-23T14:46:10Z,84,"@Sentdex, square bracket means include. Round bracket means to not include. Therefore [0,n) means 0 is a valid output and n is not a valid output",True
+@sc0820,2021-07-13T15:05:22Z,0,what if it were not 81 but 69,True
+@ratchetheros,2020-07-24T18:59:54Z,0,6:30 it will print a number from 0-99 actually. You have to add 1 in order for the range to be [1;100],True
+@davidbeckham5579,2020-07-11T18:41:23Z,0,"I'm a compete NEWBIE and my godoc fmt Println gives me an error: ""'godoc' is not recognized as an internal or external command,operable program or batch file.'   How do I fix this?",True
+@ManishAtri,2020-06-23T08:06:32Z,2,"Guys, use ""go doc"" for latest version.",True
+@shreeshdhavle25,2020-05-25T06:58:51Z,0,How can we apply seed in the same context that is shown in the tut? @sentdex,True
+@dansmith4361,2020-05-13T20:37:51Z,0,Odd that I also got an 81...,True
+@ayushtripathi429,2020-04-05T15:15:54Z,1,"Hi there, the random no. func you used will constantly return the same no. i.e. 81. to remove this use -> rand.Seed(time.Now().UnixNano())",True
+@kalilovol285,2020-04-02T20:03:46Z,0,You can learn about the source code Golang,True
+@kalilovol285,2020-04-02T20:03:35Z,0,You can learn about the source code,True
+@simranw,2020-01-14T14:06:30Z,1,Hello lads i'm from 2020 (for real lol),True
+@RX7GSLSEowner,2020-01-09T17:35:21Z,0,"Go doesn't impose styles?  Funny, but coming from an old-school C/C++ perspective it absolutely does.  Glad that they don't go any further with it like Python does (shudder).  And I loathe the requirement to put your opening braces on the same line as your function declaration or if statement.  And don't get me started on ""} else {"".  Then the multiple import business.  Egad.  Learning Go because I have to, BTW, just as a data-point feedback for you.  I'd continue with C/C++ if given the choice.  Anyway, good tutorial, thanks.  And all of these ""package""s ... reminds me of Ada.",True
+@karthi8028,2019-10-10T10:19:38Z,0,I too got the same 81 as the random number! Why???😂😂😂,True
+@snehasishmishra3983,2019-09-16T11:40:15Z,0,"Started lasted night. Nice tutorial, so far.  For random number with seed, this is the code (from golang docs):  package main  import (  ""fmt""  ""math/rand""  ""time"" )  func main() {     rand.Seed(time.Now().UnixNano())     min := 1     max := 100     randomNumber := rand.Intn(max-min+1) + min     fmt.Println(""A random number from 1-100:"", randomNumber) }",True
+@fnslick1329,2019-08-01T02:21:24Z,0,for some reason i kept getting 81 whenever i did the random number. never mind i got the answer when i click the play button,True
+@chrismccullough2607,2019-07-08T20:00:54Z,1,"@Sentdex, the current program you wrote for random numbers will produce the same number every time (81). You need to add a line defining the seed above your line with rand.Intn, if you want to have pseudo-random numbers. Such as:   rand.Seed(time.Now().UnixNano())  -- note: this requires the ""time"" package to be imported   See the following links for more details:   https://stackoverflow.com/questions/39529364/go-rand-intn-same-number-value#answer-39529428   https://stackoverflow.com/questions/8288679/difficulty-with-go-rand-package#answer-8288765",True
+@shrinivaskhatavkar8412,2019-06-18T07:59:19Z,2,Lmao rand.Intn() really likes the number 81,True
+@boringbob99,2019-05-28T17:04:30Z,1,"Hey man, I really like your tutorials",True
+@lendr.o,2019-04-23T06:47:57Z,7,"6:19 I got 81 as well, but I always get the same number ¯\_(ツ)_/¯",True
+@Beesh29,2019-04-19T11:32:56Z,0,ubuntu -> go doc fmt Println,True
+@krunalumak6838,2019-03-19T10:50:44Z,0,"Thanks for these tutorials, u have  made this very easier for us to learn GoLang",True
+@mbarkerras7108,2019-02-19T16:21:50Z,1,hhhhh i also got 81,True
+@vikastomar94,2019-01-21T13:32:09Z,2,great Bro's but.. it's always repeat 81 number why?,True
+@smit4308,2019-01-12T10:29:29Z,0,why do I always get 81 as my random number after numerous compilations of the same code?,True
+@omnidapps,2018-12-16T06:21:32Z,0,gofmt is your friend,True
+@randydiaz7664,2018-10-21T16:30:06Z,11,This is my second time watching this playlist!   I already built static webpages and simple sites/applications with Go.  The benefits of Go are like programming with Bumper Guards in bowling. It won't let you mess anything up because of it's intense error handling during compiling. Also it is so simple to just make a systemd task on linux server and run with nginx.   I am now ready to really master the concepts of Interfaces and Concurrency.,True
+@brianr987,2018-10-12T03:57:58Z,0,Capitalization determines weather something is exported? What a stupid semantic.,True
+@DevrajSinghRawat,2018-08-31T03:17:58Z,0,"Did anyone encounter this error   cannot use ""The Sqr root of 4 is"" (type string) as type io.Writer in argument to fmt.Fprintln:         string does not implement io.Writer (missing Write method)",True
+@mohammadimranaameri225,2018-08-25T15:08:32Z,0,Please try to teach slowly,True
+@erez7020,2018-07-27T14:01:27Z,0,"This is strange and I would be happy to get your input on this: I d/l a fresh GO instance, went through the tutorial and when I executed the random part, it also gave me 81 as a random number, the chances of this being chance is 1%... Any idea how me and sentdex got the same rand output?",True
+@eddiegerbais-nief7745,2018-07-20T11:10:09Z,2,"1:15 Aaahrg ! My eyes are bleeding...  import {        ""fmt""        ""math"" }",True
+@craigasketch,2018-06-28T00:52:44Z,1,I got 81 at the first time too?,True
+@diasesengeldiev1680,2018-06-16T19:35:03Z,0,"You made it, it's part 2))",True
+@AlterRektMLG,2018-06-02T05:55:53Z,0,Weird that the random isn't actually random It always gives 81,True
+@fdc_8507,2018-04-28T01:05:16Z,0,"hello, I don't know why when i save my file after writing   import  ""math/rand"" it disappear",True
+@joshuaesmero1464,2018-04-24T22:43:56Z,18,"man, it's killing me that there isn't a semi-colon at the end of each statement, lol.",True
+@edwardanugent,2018-04-20T19:45:42Z,7,Please stop talking about Python!!!!,True
+@datas_cat,2018-04-11T01:52:50Z,0,"[0,n) means {0,1,2,3,4,....,n-1} (0,n] means {1,2,3,4,...,n}  [] inclusive () exclusive",True
+@jonathanstudentkit,2018-03-19T14:14:48Z,0,you don't even know what you want to teach and you could have looked it up in 2 min,True
+@braintrust1244,2018-03-16T17:09:37Z,0,"1:20 Go on dude you can say it. ""as anal"" its ok we won't tell the gods of correctness.",True
+@Trager95,2018-03-06T11:56:57Z,0,you're funny x),True
+@humayunkabir7925,2018-02-05T06:37:25Z,0,"[0, n ) means  0,1,...n-1. It's not included but excluded :)",True
+@moealmaw,2018-01-07T11:28:19Z,2,rand.Intn(1) would have cleared the answer for you :),True
+@kfsone,2017-12-23T20:38:19Z,0,"Food for thought:  You shrugged off editor selection, but in these videos you visibly struggle to work with the language and tools.  1- As a (great!) gen. purpose editor (gpe), sublime doesn't default to being imposing; the golang community is actually intensely strict about layout; most gpes have some form of plugins to bring the language to the editor, 2- For active development, though, it's really worth investing the time to pick and learn an ide; about 30% of this video is spent on you operating your system (e.g ""We didn't save it"", ""If we go here""),  In Python terms: spend 30 minutes getting anaconda, pycharm, vim, emacs or visual studio code set up well in terms of editor and debugger layout and hotkeys, or at the very least have your-editor and ipython open side by side. Developing interactively in Python is a fantastic way to train oneself to practice TDD.",True
+@norcal6181,2017-12-13T08:51:08Z,0,"[0,n) means from 0 up to but not including n",True
+@Rajesh1122Rajesh,2017-12-12T18:17:54Z,22,Always getting 81 😂😂,True
+@abdirahman_ahmed,2017-11-28T14:45:37Z,0,"hi, it gives me a syntax error and says: unexpected newline, expecting comma, or ) how to fix, sir",True
+@Terszel,2017-11-13T01:46:21Z,5,"[0, 100) means 0 - 99 inclusive, i.e. no 100 You never learned how to read those brackets?",True
+@MDJ5,2017-11-07T01:19:39Z,0,"I kept getting errors saying math.Sqrt was undefined, turns out you need to be very specific about imports. importing math/rand does not appear to import both math AND rand, but just rand.  I found this because I wasn't replacing the squart root code with the code regarding rand; I used both lines figuring both packages were imported.",True
+@weratebikes6406,2017-11-05T19:49:05Z,0,"when importing multiple packages, you can also use "";"" if you wanted to keep statement on same line.",True
+@nitesy381,2017-11-03T03:57:32Z,0,for some reason the func reminds me of javascript,True
+@rshrott,2017-11-03T01:24:08Z,2,Also got 81:),True
+@jaswanthkumaryadagalla,2017-10-24T15:33:31Z,23,I also got 81,True
+@iaziz786,2017-10-23T02:32:49Z,0,Where does the complied files by Go live?,True
+@sebastiendecraene4686,2017-10-22T18:16:53Z,0,I had the same number on the random Kappa,True
+@johnthangminlun,2017-10-22T13:48:38Z,0,I'm a poor person living in a place with 200KBps average internet. So I watch ads till the very end as I find that's the only way I can help. :),True
+@peterst6906,2017-10-22T03:37:49Z,10,"For the rand godoc. In math, the notation [0,n) means from 0 to the number, not including the number.   That is, a [ on a set indicates that the number is in the set, whereas a ) on a set indicates the set does not include that number.  So [0,n) as an int, means 0-99",True
+@wolfisraging,2017-10-22T03:01:54Z,0,I glad u r still alive............ Thank you very much sir...... Waiting for more videos..... Big fan😊,True
+@joaofnds,2017-10-22T02:56:13Z,37,About the correct style on formatting: just run `go fmt file.go`,True
+@dr-dimitru,2017-10-22T00:56:16Z,0,"Chaos - you need coding guidelines, everyone needs it. I don't believe Google hasn't released Golang styling guidelines.",True
+@leberkassemmel,2017-10-21T23:32:35Z,0,Any hints on debugging go?,True
+@CJBurkey,2017-10-21T23:15:20Z,0,"I recommend the Gogland IDE, it's built specifically for Go and has some prereleases available.",True
+@PiyushPallav49,2017-10-21T19:28:16Z,17,"""["" means including and "")"" means not including....Intn help doc gave [0,n)....so its 0-n where ""0"" is included and ""n"" is excluded   And many thanks for the GO tutorial, was just wondering to start learning it...:)",True
+@ARainsby,2017-10-21T19:15:49Z,0,You can also use goimports so you don't have to manually import all the packages you use,True
+@ARainsby,2017-10-21T19:13:50Z,3,The Go community generally use gofmt for style.  I'd recommend running that on save.,True
+@ajayreactor,2017-10-21T18:24:34Z,6,yeah  n is not included,True

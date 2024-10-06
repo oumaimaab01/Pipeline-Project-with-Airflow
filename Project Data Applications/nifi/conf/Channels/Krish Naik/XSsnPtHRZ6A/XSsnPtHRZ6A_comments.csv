@@ -1,0 +1,83 @@
+author,updated_at,like_count,text,public
+@PrateekChoukikar,2024-05-02T07:45:53Z,0,"Hey, How can we migrate any model from SageMaker to Vertex AI??",True
+@baouevangelia5140,2024-03-13T10:14:23Z,0,i am trying to connect the endpoint to API Getaway but it requires the endpoint URL. How can i find it?,True
+@simply54,2024-02-22T13:10:33Z,0,can u please tell me what is end point ?,True
+@mehtabmehdi5046,2024-01-26T21:41:01Z,0,"hi, at 4:50  in this confusion matrix, 9% or 34% is not accuracy, it is showing how our machine wrongly predicted, its less value is saying that our model is working good.",True
+@RahulSoni-xv4cz,2023-12-28T11:45:00Z,0,"one should buy a gpu because it comes out to be 400 rupee per hour. for 70,000 rupee one can run training only for 187 hours.  Could you please give a calculation in 2023-2024 to let's decide at what number of hours renting is more expensive than buying a gpu ?",True
+@jamesrobisnon9165,2023-12-24T01:49:37Z,0,5:40: 9% is not accuracy. It is actually the error in predicting a purchase while there was no purchases. So it should not be high but actually it should be low. 91% is accurate and 9% is not. The same for predicting ourchase which has accuracy of 66% and error or 34%.,True
+@ocbhu8666,2023-11-02T18:15:19Z,0,"Did anyone get the below error ""ImportError: cannot import name 'csv_serializer' from 'sagemaker.predictor """,True
+@feras6471,2023-09-21T13:16:10Z,0,Thanks,True
+@chisomokezie7179,2023-08-25T22:04:33Z,2,"Considering the changes and the encountering of the SageMaker ImportError: The following is the most updated   from sagemaker.serializers import CSVSerializer test_data_array = test_data.drop(['y_no', 'y_yes'], axis=1).values #Load the data into an array xgb_predictor.content_type = 'text/csv' xgb_predictor.serializer = CSVSerializer() predictions = xgb_predictor.predict(test_data_array).decode('utf-8') predictions_array = np.fromstring(predictions[1:], sep=',') print(predictions_array.shape)",True
+@uniqueavi91,2023-07-30T09:35:07Z,2,"Updated:  from sagemaker.serializers import CSVSerializer  test_data_array = test_data.drop(['y_no', 'y_yes'], axis=1).values #load the data into an array xgb_predictor.serializer = CSVSerializer() # set the serializer type predictions = xgb_predictor.predict(test_data_array).decode('utf-8') # predict! predictions_array = np.fromstring(predictions[1:], sep=',') # and turn the prediction into an array print(predictions_array.shape)",True
+@varadhamjyoshnadevi1545,2023-07-05T08:51:33Z,0,"as an alternative to the now depreciated ""SageMaker Studio ImportError: cannot import name 'csv_serializer' from 'sagemaker.predictor' #1372""  import io test_data_array = test_data.drop(['y_no', 'y_yes'], axis=1).values  # load the data into an array # Convert the array into raw bytes buffer = io.BytesIO() np.savetxt(buffer, test_data_array, delimiter=',', fmt='%d') buffer.seek(0) # Make the prediction predictions = xgb_predictor.predict(buffer) predictions_array = np.fromstring(predictions.decode('utf-8'), sep=',')  # convert the prediction to an array print(predictions_array.shape)  Hope this will help you!",True
+@rohitsolanki6293,2023-07-05T08:27:54Z,0,Waiting for deep learning,True
+@rohitsolanki6293,2023-07-05T08:27:14Z,0,Anna Deep learning ???,True
+@nahfid2003,2023-06-23T15:03:12Z,0,"as an alternative to the now depreciated ""SageMaker Studio ImportError: cannot import name 'csv_serializer' from 'sagemaker.predictor' #1372"". this is because of breaking changes from sagmaker v1 to v2 use this code which uses the predictor class i think. import sagemaker import numpy as np  # Create a predictor predictor = sagemaker.predictor.Predictor(endpoint_name) #replace endpoint name with your endpoint  # Set the content type and serializer type predictor.content_type = 'text/csv' predictor.serializer = sagemaker.serializers.CSVSerializer()  # Define the test data test_data_array = test_data.drop(['y_no', 'y_yes'], axis=1).values  # Make predictions predictions = predictor.predict(test_data_array).decode('utf-8')  # Process the prediction result predictions_array = np.fromstring(predictions[1:], sep=',')  # Print the shape of the predictions array print(predictions_array.shape)  _______________  from chatgpt",True
+@premprakash6863,2023-06-17T20:24:16Z,0,Formula is for precision and recall,True
+@dkdemons,2022-11-09T08:20:00Z,0,"Hey Krish, Please complete this playlist.",True
+@ahmadkabeer8275,2022-10-10T18:02:26Z,0,Bhai next video kb ayegi,True
+@devanshumishra6430,2022-09-17T09:42:24Z,0,Plz Continue this series Sir it will help us in future cloud based ML,True
+@ankitbhatia3737,2022-09-15T07:27:11Z,0,Good Tutorials.,True
+@maan_rajput,2022-08-29T16:40:08Z,0,Sir what about next video of Sagemaker,True
+@ahmadkabeer8275,2022-08-29T06:50:55Z,0,Bhai next video kb ayegi,True
+@keshavlikhar2660,2022-08-15T18:26:27Z,0,"I am getting the below error when running the endpoint deletion code  ClientError: An error occurred (ValidationException) when calling the DeleteEndpoint operation: Could not find endpoint ""arn:aws:sagemaker:us-east-2:808977006450:endpoint/sagemaker-xgboost-2022-08-15-18-13-53-695"".",True
+@blindprogrammer,2022-07-25T13:30:51Z,0,"Hi Krish, You didn't tell how to expose the endpoint to the outer world.",True
+@victorhenostroza1871,2022-06-25T06:05:13Z,2,"Thanks bro, now I can go to study the entire specialization course because of this introduction. Awesome",True
+@kushaldulani,2022-05-25T03:23:13Z,0,Please complete playlists,True
+@asmitachatterji9983,2022-05-15T14:31:09Z,0,"great video , could we  have a video on how to integarte an amazon sagemaker endpoiunt with a  visualziation tool like  power bi ?",True
+@ironF5,2022-04-23T03:53:54Z,0,"how to deploy a flaskapp on sagemaker or lightsail. i had some success with lightsail but not so much with sagemaker. the exact problem is, a dockerized flaskapp with nginx and gunicorn that uses a 175 mb tensorflow trained model (model file is there aswell). I am able to run all of them on ec2 with 3 workers in gunicorn. however i want to implement them on sagemaker or lightsail for inference. ur valuable insights will be highly appreciated.",True
+@ajlahade2201,2022-04-05T22:03:40Z,0,"can you please show, me how to invoke the endpoint from a postman or a web app after the model is deployed, please and thanks",True
+@rishabhgoel1877,2022-02-12T13:21:18Z,0,where did we call the endpoint at which model is deployed ?,True
+@manalisingh1128,2022-01-12T06:58:07Z,0,"Hi Krish, is there a deep learning implementation also?? Please tell me, really want to learn that",True
+@himanshukarki,2021-12-10T06:11:31Z,0,"Hi Krish, isn't there further upload on Sagemaker. I am seeing only 7 videos in the playlist.",True
+@himanshukarki,2021-12-10T05:48:22Z,0,Very nice useful playlist.. I learn a lot. Thanks for the hard work. Highly appreciate your efforts.,True
+@atharvjairath3339,2021-11-22T17:00:37Z,0,Please share the next video!,True
+@atharvjairath3339,2021-11-22T17:00:37Z,0,Please share the next video!,True
+@suneel8480,2021-09-28T08:16:18Z,0,Sir please complete the playlist,True
+@suneel8480,2021-09-28T08:16:14Z,0,Sir please complete the playlist,True
+@suneel8480,2021-09-28T08:16:12Z,0,Sir please complete the playlist,True
+@suneel8480,2021-09-28T08:16:06Z,0,Sir please complete the playlist,True
+@suneel8480,2021-09-28T08:15:48Z,0,Sir please continue the playlist,True
+@suneel8480,2021-09-28T08:12:11Z,3,When will you continue this series showing deep learning models?,True
+@krishnabisen2666,2021-08-27T08:29:34Z,0,"Krish you said you were going to show us how to automate it with lambda, can we expect to get a new video in the playlist anytime?",True
+@pubgkiller2903,2021-08-17T15:59:13Z,0,How to use this model end point from other Services hosted on same VPC but on different instance? Can take as existing company app wants to connect with model and get the prediction as per parameter,True
+@anupamsaha674,2021-08-09T07:07:17Z,0,you are good one..thank u so much for sharing ...,True
+@riddhisingla8789,2021-07-17T07:11:22Z,0,Hi Krish. Nice tutorial so far. Kindly upload more videos on this.,True
+@keshavsharma267,2021-07-16T10:58:09Z,0,Hey Krish. Are you planning to make followup videos in the sagemaker series anytime soon?,True
+@scar2080,2021-07-14T23:16:02Z,0,During training you do use instances. Ml. Are they deleted automatically??,True
+@datainference9239,2021-06-15T10:47:53Z,0,Could u pls send me a link to expose the same through Lambda...I couldn't find the same,True
+@tomorrowcut,2021-04-06T07:46:13Z,1,"Sir, please cover the rest of the videos said in starting of playlist.",True
+@ArunKumar-sg6jf,2021-04-02T10:39:11Z,0,why we use amazon sagemaker,True
+@muhammadraza2401,2021-03-10T11:51:33Z,0,Hello Sir ! please make more videos on Sagemaker ( data labelling ),True
+@siddharthnobell,2021-03-07T08:42:39Z,1,delete is only available when the notebook is in the stopped state.,True
+@JeetkrishnaDas,2021-03-05T16:26:19Z,1,"Deleting end point"" did not work properly with python codes that you showed due to Sagemaker version update. It returned several errors. So, I am not sure now if the user is going to be charged forever.. I deleted the bucket and its content that's all I can do. Deleted all jupyter and csv files. Is it enough? any idea would be helpful.",True
+@maYYidtS,2021-03-03T06:53:20Z,0,"hello, can anyone write the code to save this model into HDF or pickle file format...please.",True
+@vaibhavtiwari1084,2021-03-01T19:09:12Z,1,Please release the next few videos also...Great learning!,True
+@Taranggpt6,2021-01-10T08:06:47Z,1,Maja hi aa gya. Hope i can clear AWS Sagemaker Interview now,True
+@VaasuPiano,2021-01-10T03:57:24Z,0,Where can I see this model on console ?,True
+@scientificdots34,2021-01-09T07:38:48Z,19,A very nice playlist sir. It would be great to see the complete playlists where the endpoint is ready for the backend people,True
+@mdtausif5753,2021-01-04T14:33:35Z,0,Very difficult to deploy If you could upload a video using git hub repository that will be helpful,True
+@adarshmallandur4596,2020-11-24T07:19:17Z,0,Can we also get predict_proba() for sagemaker deployed models?,True
+@manishsharma2211,2020-11-01T16:44:13Z,1,Completed the playlist in one shot ! Thank you sir,True
+@edurami8704,2020-10-31T04:09:49Z,1,"Hey Krish ! You have forgotten the important point to explain, how to avoid unnecessary billing even not using the AWS after using it once. For all learners follow the link below for instruction by  AWS. Otherwise , It will keep billing and you never know. https://docs.aws.amazon.com/sagemaker/latest/dg/ex1-cleanup.html",True
+@vamsibalijepally3431,2020-10-29T16:17:47Z,0,please continue the rest ....................topics  sir,True
+@hilta7244,2020-10-19T19:31:16Z,1,"Thank you sir, it was a nice tutorial, however I have a confusion, why we need to send request to evaluate the model instead of using the model directly like how we do in local jupyter notebook?",True
+@sathishkumarvp3686,2020-10-17T14:41:57Z,1,Delete option enabled once the notebook service stoped,True
+@sureindia,2020-10-05T14:01:11Z,1,"Krish, were you planning to update this playlist with BYO for bringing in our own docker?",True
+@samyuktanair6961,2020-09-30T13:47:20Z,2,When will you continue this series showing deep learning models?,True
+@riteshkumarmishra8873,2020-09-25T20:23:02Z,0,Sir please make some more videos on AWS SageMaker,True
+@roshanpasha50,2020-09-21T13:29:59Z,2,"Hai Krish, i havent get the deployment part . where the model got deployed",True
+@rijinbhaskaran3266,2020-09-07T05:08:45Z,0,"Hi Krish, really appreciate your work, have been an avid follower of your work, however, wud it been too much to ask if you could do a video on CICD? Where you could cover, codecommit, codebuild and codedeploy in detail.",True
+@majojukrishnaprahlad6188,2020-09-04T14:17:57Z,1,"Hey Krish, Can you explore on larger datsets like Pnuemonia",True
+@khatariinsaan5284,2020-09-01T04:56:47Z,1,Hii sir i has taken *BSC(IT)* after 12th commerce then *MSC(IT)* so sir how can i become *DATA SCIENTIST* now IN *_11/12TH STD_* i have taken *MATHS & IT*  as a subjects. 🤔🤔🤔 Plz reply me SIR,True
+@trackbackresearch,2020-09-01T02:14:02Z,0,Welcome to eduthan for you live lecture.,True
+@akhilnooney534,2020-09-01T00:50:32Z,0,"Hi Krish, I am wondering whether we can integrate our trained model output to streamlit app. My main goal is when I click submit in my streamlit app I need my model to run in AWS and then I need output in Streamlit app. Is this possible?",True
+@OrionEx88,2020-08-31T21:30:31Z,3,"Thank for always creating amazing videos! By the way, can we load existing models (e.g. created in Google Colab) and use in AWS? If yes, can you show us how? Appreciate all your efforts !!!",True
+@AmitSharma-yi9dr,2020-08-31T19:30:19Z,0,"hello krish, can you please create a video or suggest what projects should be done to get the data analyst job.",True
+@ashimmaity64,2020-08-31T16:30:35Z,0,"Sir, there is no job for a data analyst in the market .sir what is the use of reading all this. Sir, I request you to stop making videos so, that all students will not get any false hope. Another request stop promoting courses of applied ai .",True
+@dipanjanabiswas,2020-08-31T14:50:19Z,14,"I was wondering you will show how to get the endpoint, where to locate them so that the backend people can use them. It would be helpful if you show that as well.",True
+@basiletalla1802,2020-08-31T13:46:19Z,1,"Thank you Krish, I always appreciate your work and I deligently follow all your videos but please could slow down a bit when you speak, your explanation is good but I find it hard following you. Maybe I will have to watch it again and again",True
+@achyutpsd,2020-08-31T10:18:16Z,0,as far as the notebook instance is stopped there wont be any charge for that,True
+@mujamilkhan714,2020-08-31T09:56:46Z,2,Still how many tutorials left in this playlist sir.???,True
+@EthicalRaja,2020-08-31T06:10:20Z,1,How BCA student move for Data science without doing MCA,True
+@kishanmenaria8407,2020-08-31T06:04:51Z,3,First 🙏👍,True

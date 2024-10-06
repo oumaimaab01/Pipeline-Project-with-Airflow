@@ -1,0 +1,49 @@
+author,updated_at,like_count,text,public
+@shantohaque6825,2023-04-09T21:01:08Z,0,"Where you made ""model.pkl""?",True
+@atharvasarfare5340,2023-03-16T08:30:11Z,0,I have trained my model using tensor flow now my model is saved in 3 files how can I deploy that??,True
+@virajjp,2022-07-04T12:50:55Z,0,"Ok for the people who are still getting application error :-   First of all go to the logs and check what is the issue.   If you have nltk.txt not found error go to step 2  1)Instead of downloading krishs requirements.txt  run this command in your terminal :- pip freeze> requirements1.txt  This will create a new text file for you and will show you which libraries and what version you are using.   Only keep the libraries we are using in this project. Rename the file to ""requirements.txt""  2) now we have nltk in our requirements.txt file but we haven't used this library in our model. You can just simply remove nltk from requirements.txt   If in another project you do use nltk then you want those ntlk libs so   Create nltk.txt file and add all the list of corpora in that file.   This should solve.   Also as a side note make sure your procfile is just that and not procfile.txt",True
+@jaikishank,2022-03-25T08:12:33Z,0,Thank you very much for the great tutorial. It worked perfectly for me...Enjoyed the deployment.,True
+@snehalpatil6556,2021-12-30T08:33:41Z,0,Thank you Krish 🙂 !!! Your videos helped me a lot.,True
+@sohamdutta9192,2021-10-16T09:50:33Z,0,Heroku your link is showing internal server error,True
+@isaacg9074,2021-09-23T21:04:39Z,0,Thank you very much,True
+@thepresistence5935,2021-07-25T05:55:39Z,0,please provide csv file also,True
+@louerleseigneur4532,2021-07-24T22:25:28Z,0,Thanks Krish,True
+@shivendrasharma2288,2021-05-24T16:06:28Z,0,I'm just loving your playlists. They are a lifesaving resource.,True
+@shankaranarayanangopalan7036,2021-04-28T08:18:02Z,0,"Hi Krish just a clarification, if I were to run computationally intensive and complex simulations , would heroku fit the bill or is it better to go for Google cloud, Azure or AWS under such scenarios. Please do clarify",True
+@yashkhorania3726,2021-04-02T12:38:34Z,1,"For anyone who is facing Application error after viewing the deployed app, you can follow these steps: 1. Open Anaconda command prompt 2. Make your project directory the command directory 3. Give this command -: pip freeze > requirements.txt , this will create a requirements.txt file in your current directory 4. Now in this 'requirements.txt' file keep only those libraries which are also present in the Krish's requirements.txt  file( open both and compare and modify accordingly) 5. Try and run the whole process again . It worked for me and I hope it works for you too.",True
+@niranjanjamkhande3773,2021-02-16T10:03:04Z,2,"How to create a Procfile? Means, what is the extension of that?",True
+@rapettisaikumar1232,2021-02-11T13:20:45Z,0,hello sir  iam having some error (attribute error: transform  not found) while deploying ml model. can u suggest me how to resolve.,True
+@greviansonula2150,2021-01-12T11:05:48Z,0,How can I deploy tensorflowjs model? Without flask or django,True
+@dharavbhatt159,2020-11-04T23:12:02Z,0,Can anyone suggest a good free online source to learn NLP?,True
+@vinimator,2020-10-12T09:16:16Z,0,"Hi Krish, thanks for creating the deployment playlist. Can you guide if we have multinomial classifier  model in place, then how this can be deployed.",True
+@ravindarmadishetty736,2020-08-20T12:21:03Z,0,"Heroku deployed as below  2020-08-20T12:15:49.000000+00:00 app[api]: Build started by user ravindarmadishetty@gmail.com 2020-08-20T12:16:36.851913+00:00 heroku[web.1]: State changed from crashed to down 2020-08-20T12:16:36.709652+00:00 app[api]: Release v13 created by user ravindarmadishetty@gmail.com 2020-08-20T12:16:36.709652+00:00 app[api]: Deploy e069925a by user ravindarmadishetty@gmail.com 2020-08-20T12:16:58.000000+00:00 app[api]: Build succeeded  Your app was successfully deployed.  When View it is showing as Application error and the log as below  2020-08-20T12:20:13.874676+00:00 heroku[router]: at=error code=H14 desc=""No web processes running"" method=GET path=""/"" host=nlpptestmodel.herokuapp.com request_id=5fc33a0c-252e-4367-bb12-1acf9ba1be36 fwd=""124.123.175.105"" dyno= connect= service= status=503 bytes= protocol=https 2020-08-20T12:20:14.438427+00:00 heroku[router]: at=error code=H14 desc=""No web processes running"" method=GET path=""/favicon.ico"" host=nlpptestmodel.herokuapp.com request_id=9258599e-6cab-4642-9c78-4e53f0d902ff fwd=""124.123.175.105"" dyno= connect= service= status=503 bytes= protocol=https",True
+@aejazvelani4213,2020-08-18T10:36:17Z,0,I'm getting issue with deploying it to heroku can anyone help me it shows me as Application error when i deploy it,True
+@priyanshukhullar5836,2020-08-11T11:42:18Z,0,This video doesnot work anylonger even his files are throwing application error,True
+@priyanshukhullar5836,2020-08-11T08:03:52Z,1,"Sir I have done cleaning as well , then should I save that cleaning part code in a .pkl file as well bcoz I have to do cleaning on new tweets as well.",True
+@devil-sy4pl,2020-08-09T05:27:05Z,0,what is type of procfile?,True
+@sarangak.mahanta6168,2020-07-26T04:06:48Z,0,"Everything was running well. Then while deploying, it said nltk.txt not found (which I'm assuming to be the source of my error). I could see that error even in the video, but it ran perfectly for Krish Naik. Any clue, anyone?",True
+@siddharthkumar3340,2020-07-19T19:17:17Z,0,while running the model I am getting AttributeError: 'CountVectorizer' object has no attribute 'predict' can anyone help me,True
+@sakirubadmos2273,2020-06-11T10:08:32Z,0,Thanks you very much for this video. Could you please make a video on how to deploy deep learning models like CNN. Thanks,True
+@umabansod,2020-05-08T15:04:34Z,2,"I deploy my model but after hitting my URL I get an application error that: An error occurred in the application and your page could not be served. If you are the application owner, check your logs for details. You can do this from the Heroku CLI with the command  Heroku logs --tail why I get this error?",True
+@riagoel2885,2020-05-07T02:01:24Z,0,@Krish Naik can i deploy my model...if i make my model and pickel files on google colab and do the deployment process on vs code ...will that work?,True
+@satwikram2479,2020-04-17T19:03:29Z,0,Why everyone teach flask? Why not Django?,True
+@arjyabasu1311,2020-01-17T20:12:01Z,0,"Sir, what should we do to upload to github if the size of our files are greater than 25??",True
+@DevMaster947,2019-12-15T06:30:22Z,2,"Hi  @Krish Naik, I'm facing problem while installing nltk library into Heroku. In general, if we want to use nltk onto heroku we need to include it in the requirements.txt and also nltk.txt(which contains all the nltk libs). I tried all the possible solutions mentioned in the Heroku, stackoverflow community but still didn't get the solution.  could you please help with this.",True
+@MrSawan27,2019-12-03T17:39:03Z,0,Hi Krish. Followed the video and tried running same code as yours. For me its giving 'Vocabulary wasn't fitted error' while predicting.,True
+@aristornai,2019-11-16T00:40:40Z,1,Great. Can you make some tutorial about Speech Recognition? Thanks,True
+@manjunath.c2944,2019-10-10T08:48:56Z,0,krish kindly do a video on building Chatbot using google dialog flow  or  Rasa NLU,True
+@ryanashton7320,2019-10-09T08:52:39Z,0,Awesome!!,True
+@ndminhnhat,2019-10-07T14:41:57Z,2,how about deploying model to production using Docker and Kubernetes.,True
+@vipindube5439,2019-10-06T20:28:20Z,0,can we debug the python code in working environment? Please tell me,True
+@cutyoopsmoments2800,2019-10-06T07:11:13Z,2,"Krish sir, kindly make a video, that how we all can make effective notes from your video. Please please please please please",True
+@KASANITEJ,2019-10-05T21:00:01Z,1,bro.. cover NLP with lstm and gru,True
+@jagadeeshchandrabose6375,2019-10-05T19:30:26Z,2,Amazing!! This is what I was looking for.Krish please keep more videos posted on deployment part!,True
+@sanjogh777,2019-10-05T18:06:43Z,1,Please make a video about deployment using Docker and Kubernetes as well. Thanks for all your effort. Really appreciate.,True
+@ashokdhokare6554,2019-10-05T10:21:38Z,1,"Thank you, Sir",True
+@satyaprakash5905,2019-10-05T05:01:54Z,3,"Thanks Krish, Again promising Content,  Please explain real time challenges - wrt to deployment life cycle",True
+@avinashmishra7735,2019-10-05T04:20:06Z,1,Thank You Sir,True
+@amitkumarjena3184,2019-10-05T03:59:27Z,1,Amazing! Thank you! :),True
+@ndminhnhat,2019-10-05T03:38:15Z,1,Amazon SageMaker,True
+@ndminhnhat,2019-10-05T03:35:36Z,1,How about tensorflow serving?,True
+@teja2775,2019-10-05T03:21:42Z,1,Great the way you speaking is too good,True
+@kvenkatesh1412,2019-10-05T03:07:09Z,1,Brother please continue ur video on data science please,True

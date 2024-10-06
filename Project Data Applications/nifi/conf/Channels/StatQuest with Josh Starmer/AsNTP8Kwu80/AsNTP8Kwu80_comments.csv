@@ -1,0 +1,300 @@
+author,updated_at,like_count,text,public
+@statquest,2022-07-11T12:29:16Z,26,To learn more about Lightning: https://github.com/PyTorchLightning/pytorch-lightning To learn more about Grid: https://www.grid.ai/  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/,True
+@BildadMoses,2024-05-30T10:08:21Z,0,"Hello Josh, I am a fan of yours ever since I saw how you made complex concepts into ABCs. I had a question on the RNN architecture, on some explanations from other notes I've come across, I've noticed that there is another activation function for the output, in the example in this video it would be just before the final output, i.e. g(outputY3*w3+b2) = yt. What are your thoughts?",True
+@CodingwithRayyan,2024-05-22T02:06:18Z,1,"This is not fair, I literally am addicted to your style of teaching and find it quite hard to learn from other sources now.",True
+@shreyashrajgire7545,2024-05-20T13:02:51Z,0,"HI, i bought your book The StatQuest Illustrated Guide To Machine Learning , its an awesome book , but sadly i cant find RNN in it , does it not include , or is there a different book ? or am i just not able to find. please help",True
+@deepikasheshabutter4790,2024-05-16T15:51:22Z,1,i literally was having a menatal breakdown coz i was unable to understand things. your video helped me a lot and also brought a smile on my face :)),True
+@ghaithal-refai4550,2024-05-16T09:52:59Z,0,Can we have the slides as pdf,True
+@billr7046,2024-05-14T11:31:00Z,1,Josh Starmer 2024,True
+@svensvensson3679,2024-05-13T19:43:04Z,1,Our lecturer at the uni recommended us this video. I am amazed how simply it is put. Great job! Both funny and informative ❤,True
+@mhb7509,2024-05-07T06:21:23Z,0,what is going on? (I love you),True
+@minefacex,2024-05-06T11:08:25Z,1,WOMP WOMP 😂,True
+@BrandonZhuang,2024-05-05T23:36:48Z,0,"Hi Josh, thanks for the fantastic video! The explanation is so clear and easy to understand. I have one question, what is the difference and relationship between 'x1' and 'input1'? I am struggling understanding this in the gradient exploding/vanishing part. It would be great if you can help clarify it, thanks!!",True
+@sreerajnr689,2024-05-04T08:01:57Z,0,"Wy would you tell that RNN has short term memory? If there is an issue of exploding gradient, the first value we fed actually gets multiplied by that huge exponential weight term and become more and more prominent, right? Instead, if the problem is of vanishing gradient, the old values gets forgotten quickly. So, are the weights used in feedback always less than 1 which is why RNN is said to have short term memory? Is there anything wrong in my understanding?",True
+@solotop5916,2024-05-01T16:36:57Z,1,Dude that DOUBLE BAMM and TRIPLE BAMMM kills me. Actually fun way to get info. Also greate video very easy to understand,True
+@CharileYou,2024-04-27T00:07:11Z,1,PENTA BAM!!! The best pre-course !,True
+@canaksoy8479,2024-04-27T00:02:42Z,1,i appreciate it,True
+@banibratamanna5446,2024-04-22T16:22:00Z,2,for analogy i want add the info that the loop unrolling used in RNN is exactly same as conversion of SERIAL ADDER to PARALLEL ADDER in digital electronics......everybody can check it out......TRIPLE BAM!!!😂,True
+@mohamedelredeny8710,2024-04-17T02:10:02Z,1,You are amazing thanks for your efforts ❤❤,True
+@Smartmoneyrisk,2024-04-13T11:00:37Z,12,"i come to listen to "" peep poop poop""",True
+@XEQUTE,2024-04-10T08:05:22Z,1,Bam!,True
+@HEYTHERE-ko6we,2024-04-08T15:57:34Z,1,"Those tones won won bam double bam kaboom n d fun way of learning, opens up mind for grasping things real quick as well as we can think freely wdout bcming nervous. U lord🙌",True
+@AhmadAbuNassar,2024-04-04T20:42:45Z,1,"Any darn fool can make something complex; it takes a genius to make something simple ("" Albert Einstein""), and you made it very very simple. Thanks!",True
+@minhbaooan5670,2024-04-04T15:33:49Z,1,Thank you so so much,True
+@cking9145,2024-03-31T15:09:16Z,0,It seems he thinks we are d*mb as hell 😂 talks to us like school kids of primary school 😂,True
+@kayoheberthdebritoreis9090,2024-03-26T13:20:52Z,1,You´re the best !!!!!!!,True
+@sushankmishra53,2024-03-23T12:14:28Z,1,"With this level of simplicity in teaching, even a high schooler could grasp these concepts, probably quicker than me! Scared of the future now....",True
+@user-et8es9vg5z,2024-03-22T08:21:00Z,0,"I think it's a pity that we stop talking about how backpropagation works as soon as we leave the fully connected neural network. Even if the principle is the same, it could be interesting to see quickly. This isn't intended as a criticism, as all the resources I've seen in the past also have this problem. And that's may be not a problem. They are problably a reason for that. i suppose it's because it's pretty similar. But one time I looked for information about backpropagation in CNN for instance and I remember it was still interesting. Like they are few tricks that are used.",True
+@s0meus3r,2024-03-21T20:29:05Z,1,I enjoy working computer sound 😂😂,True
+@s0meus3r,2024-03-21T19:33:06Z,40,The only place on the internet where you can actually grasp a complex topic before diving deeper into the topic. I am so grateful people like you exist. Thank you!,True
+@santiagocalvo,2024-03-19T15:58:04Z,1,"honestly your channel is one of if not the best channel on all youtube, thank you so much for this!",True
+@giorda77,2024-03-19T12:51:43Z,1,Clear as day!!! Hooray!!!! Thank you Josh,True
+@LuizHenrique-qr3lt,2024-03-13T22:35:37Z,0,"Hi Josh, thank you very much for your videos, they are triple BAM! Josh I have a question in your video minute 4:14 we have an rnn with 5 trainable parameters (w1, w2, w3, b1, b2). However, when I make the same network in Pytorch and look at the parameters, I don't get 5 parameters but only 4  L = 3 N = 1 H_in = 1 H_out = 1 N_layers = 1  class RNN(nn.Module):     def __init__(self):         super().__init__()         self.rnn = nn.RNN(H_in, H_out, N_layers, batch_first=True)      def forward(self, x):         out, h_i = self.rnn(x)         return out, h_i  summary(model) RNN [3, 1] -- ├─RNN: 1-1 [3, 1] 4 │ └─weight_ih_l0 ├─1 │ └─weight_hh_l0 ├─1 │ └─bias_ih_l0 ├─1 │ └─bias_hh_l0 └─1   I have been looking for the reason but I didn't find it so I decided to appeal here. If anyone knows I would be very grateful!!",True
+@I_hate_HANDLES,2024-03-13T14:46:07Z,1,insane,True
+@NockyLucky,2024-03-10T19:49:36Z,1,Really liked the video. Quite creative and straight to the point!,True
+@Sandeep_Kotha,2024-03-10T08:30:04Z,0,"Hi, I am trying to understand the calculation at timings 9:48secs for yesterday=1, today=1,   then sum=1*1.8 +0=1.8 , y1=max(0,1.8)=1.8 and 2nd sum =1*1.8 + (1.8 * -0.5) = 0.5 *1.8 =0.9, then y2=max(0,0.9) and y2 *w3+b2=0.9 * 1.1 + 0=0.99,I got Precited value for tomorrow is 0.99?  Did we round it off to 1 ? if so, why did we round it off? Please correct me if I am going wrong? I am confused   Also, for the 3 data points, daybefore yest=1 , yest=0.5, today=0.5  and I got zero as the final output but got 1 in the video: Like 1st sum= 1 * 1.8 + 0.0 = 1.8, y1=1.8,  2nd sum=0.5 * 1.8  - 1.8*0.5 + 0.0 = 0  ,y2=0 and 3rd sum= 0.5 * 1.8  - 1.8*0.5 - 0*0.5 +  0.0 = 0 then y3=max(0,0) =0, Also final =Y3 *W3+b2 = 0* 1.1 + 0 =0 as the Predicted value for tomorrow.  Is soemthing wrong from my end? I am confused now. Can someone please help me resolve this?",True
+@orlandopalmeira623,2024-03-09T23:41:58Z,1,"What happens if a RNN has multiple layers and multiple ""neurons"" per layer? (excellent video, by the way)",True
+@FahimAhmed-gq4rh,2024-03-08T15:58:11Z,1,Awesome explaination by the creator ❤,True
+@lillaszalma6224,2024-03-08T13:23:39Z,0,"Thank you so much! The only minor thing I miss is the answer to the initial question: if the input sequences arbitrarily differ for various StatLand stocks, how can you train your network in advance?",True
+@lukastoral5059,2024-03-07T09:19:04Z,1,Thank you for making these videos! They are very helpful.,True
+@samiotmani9092,2024-03-05T07:19:37Z,1,12 videos left,True
+@lifeisbeautifu1,2024-03-02T05:58:53Z,1,You rock!,True
+@mohamedhassan8260,2024-02-24T12:36:56Z,1,Insightful 😍,True
+@nersha8472,2024-02-20T06:14:59Z,1,The Guitar intro is giving me so much a Phoebe Buffay Vibes😂,True
+@user-rc7lr2ox3j,2024-02-19T09:55:56Z,0,"i dont see a major difference between Rnn and a simple neural network with multiple outputs in terms of calculations, am i wrong ?",True
+@yuvrajkhanna5841,2024-02-18T12:44:33Z,1,I am really sorry but can you explain something to me since i am still confused about vanishing gradient problem. I understand the exploding gradient problem but in case of vanishing gradient the gradient is very small only for the input1 part of the whole gradient update for W2. but for the input values close to the end they should contribute to the gradient significantly. so am i missing something or getting something wrong or when we say vanishing gradient is a problem in RNNs that's simply because we are saying that our model is majorly focused on only last few values and would not pay much attention to starting or values far away from the end because gradient can't reach till that point for them to affect the model weights. can you please explain this to me.,True
+@wongkitlongmarcus9310,2024-02-17T15:32:50Z,1,"Josh, you are the person who make ML theory so understandable!",True
+@youngsci,2024-02-14T13:33:15Z,1,Thank you very much.,True
+@MLLearner-sb1ds,2024-02-12T20:33:34Z,0,"Question: Can we avoid exploding gradient problem if we replace relu with sigmoid as sigmoid-> [0,1] so the large number from one activation function won't be inputted to another... right as itll be 1 in worst case? or am i thinking about this wrong?",True
+@dhruvvaze8754,2024-02-12T15:41:29Z,0,"Quick question (this should be simple so anyone feel free to answer!): Why is the input value amplified by 2^n or 0.5^n? I understand these are the values for w2, but how were they chosen if w2 is initialized to 0? Is this because of the weight update after backprop?",True
+@anonymousertugrul5858,2024-02-12T13:13:28Z,1,I like the way how clearly and easily you explain concepts. Thank you very much!,True
+@BooleanDisorder,2024-02-10T17:02:33Z,0,"Very interesting! Hmm... couldn't one combine convolutions in some way with RNN's to ""compress"" the general trend in these stocks somehow?",True
+@andriysinclair4927,2024-02-09T14:30:03Z,0,"Hey Josh, can you do a video on back propagation through time?",True
+@justLu__,2024-01-27T12:10:15Z,1,"Hey, hopefully this will safe my Deep Learning exam. And... love the sound effects.",True
+@gabriellelin1302,2024-01-20T14:51:25Z,1,谢谢！,True
+@curiosityspace8635,2024-01-16T15:26:16Z,0,Oh man i literally watch his videos like a web series its very fun and very easy to understand thank you very much sir !!!!😭😭,True
+@user-mk3fo8eq5i,2024-01-14T06:04:04Z,1,"Hi ,  I'm really impressed by your presentation skills! Your content is amazing. Could you please share the name of the software or app you use for creating your presentations? I'd love to explore it for my own projects.  Thanks in advance! ANIL KUMAR VISHNOI",True
+@alirazi9198,2024-01-12T01:45:20Z,1,thank you!!!,True
+@maximus2978,2024-01-08T04:40:48Z,1,"You are insane Man, very clear and understandable explaination!! Thanks a ton 🎉",True
+@sheelstera,2024-01-03T21:23:17Z,0,Hi @statquest ..I have seen this video and other rnn explanations as well hoping somewhere to get a legitimate explanation to my following question: if the idea of the feedback loop is merely to retain previous information so that the subsequent cycle is more informed when making a prediction then at 7:21 why couldn't w2 simply be 1..why does it have to be anything other than 1? Why are we diminishing or exploding the previous output by multiplying by w2 (instead of retaining it in it's pure form) and thereby inviting problems like gradient vanishing or exploding? Keeping w2 at 1 will retain ALL past history plus bypass gradient vanishing/exploding problems. What am I undermining/missing/overlooking? Or I would go so far as to say why is a mutated form of input(t-1) i.e. y1*w2 being fed into the next cycle with input(t) instead of input(t-1) in it's pure form since the original intention is to retain the information?,True
+@shofiyabootwala2094,2023-12-24T23:20:47Z,0,the vanishing/exploding gradient problem is synonymous to choosing a right value for alpha (learning rate) as choosing a greater value would leave us bouncing and choosing a lower value would lead to more iterations of gradient descent,True
+@chriskong7418,2023-12-16T20:35:01Z,1,Love the little embarrassing singings during the videos. Subscribed. Great videos!,True
+@felipela2227,2023-12-12T02:50:44Z,1,"El video estuvo muy bien explicado, lo entendí facilmente. Gracias",True
+@nitink8148,2023-12-08T17:01:47Z,0,Totally confusing!!,True
+@mayankamble2588,2023-12-07T04:57:50Z,0,Thank you for the video. What about different layers of RNN? How are they connected?,True
+@Nickfies,2023-12-06T18:13:27Z,0,Is this description of the vanishing gradiënt problem actually valid? I thought it wasnt about the forward feeding but about the actual backpropagation. Anyone with or against me on this? Why?,True
+@b15ganeshgulhane90,2023-12-03T18:48:43Z,1,"how do u do that,?? so easy to understand every small thing",True
+@krishnaphanindra1841,2023-11-25T15:05:50Z,1,Beautiful and succinct explanations!! So glad I found your channel....lots of love <3,True
+@WALID0306,2023-11-22T17:20:21Z,1,Gracias !! Estuvo excelente ✨✨✨✨ Bendiciones,True
+@mohammadhamed-ro9tx,2023-11-21T07:51:17Z,10,"Everytime I watch on of your lessons, I become sooo happy, because you make all the subjects easy to be understood in magical way. Thank you for your effort",True
+@akashkp9013,2023-11-14T16:08:17Z,1,"Thank you Josh , this was awesome",True
+@ahmedwalid6235,2023-11-14T08:19:32Z,0,Thanks for the video it's great simple and straightforward But where are the weights and biases first come from,True
+@VoltLover00,2023-11-12T15:03:03Z,0,lame,True
+@guptafamily1981,2023-11-09T08:09:39Z,0,What is SSR,True
+@wildpjah,2023-11-07T18:38:39Z,52,I'm in a deep learning class right now and the amount of straight math that my teacher throws at me is overwhelming. Videos like yours are incredible and I'm so thankful for the help and the color coding and the fun that makes it worth watching! It is super helpful as I'm studying for my midterm and just want to get a more definite grasp of what all this math actually means without reading someone's Mathematics PhD dissertation or something,True
+@user-gj4bj3eb9k,2023-11-01T18:18:53Z,1,u are king my friend  perfect explanation with simple example,True
+@hamzaahmad1224,2023-11-01T14:23:02Z,1,Thank you for the video. I believe it was a clear explanation.,True
+@oleksandrasaskia,2023-11-01T08:34:28Z,0,"in RNN, we feed the output from Relu of the previous input value (""yesterday""), when trying to process the next input value (""today""). Why do we feed the output from ReLu layer and not the original input value? Is it because we want to pass on the information learned from all previous inputs, not just the last previous input?",True
+@DavidBlayvas-wo4lj,2023-10-30T08:48:43Z,1,"You're gonna carry me through my neural networks class, what a godsend",True
+@darkside3ng,2023-10-24T21:27:58Z,1,Just amazing!!!,True
+@waleedbinkhalid2580,2023-10-22T20:23:09Z,0,"Hi, can elaborate on what are the hidden states in your video?  Secondly, when you went to multiple days of stock data, does the output of each layer become totally irrelevant to us?",True
+@alekseishkurin4590,2023-10-16T02:25:30Z,1,"Omg, that intro jingle is gold!",True
+@mermich,2023-10-05T07:48:02Z,1,You graced upon us as a stats saviour :))) Send love from Australia,True
+@romya9582,2023-10-04T13:16:08Z,0,"Dumb question but does anyone know why if you look at just one of the unrolled networks, there are also weights and biases after the activation function (w3 and B2) at timestamp 11:00? I thought they were always only before the activation?",True
+@radhikadesai7781,2023-10-03T17:05:51Z,0,Why can't we normalize the weights and force them to be in a certain range,True
+@TheGibberingGoblin,2023-10-01T01:23:32Z,1,... you sir are a timeless legend!,True
+@babiscirca,2023-09-25T16:26:14Z,1,very good but very cringe,True
+@lorenagalvan7497,2023-09-22T23:12:26Z,1,Excelente proyecto! no pense que con dibujos fuera tan entretenido e informativo. Definitivamente un muy buen video para comenzar!,True
+@anilajax,2023-09-21T17:59:57Z,0,How the value of w1 was decided as 1.8,True
+@cecilia-cg3he,2023-09-20T18:18:02Z,1,"Muchas gracias por traducirlo, es un muy buen material❤",True
+@MuhammadShahzad-dx5je,2023-09-20T08:51:09Z,1,"Thanks so much, sir for such useful content. Huge Respect!",True
+@edkaprost3623,2023-09-18T08:08:04Z,0,"Hi Josh! Ty for video it was really helpful but i still have one question. In the class teacher said that hiden layer and input value are multiplied by matricies, in your example it was scalars. So how your example would change if i still want to predict stock price?",True
+@gatsbyliu1084,2023-09-16T08:19:43Z,0,Is this a financial advice from “stateland” 😆,True
+@brandonso5477,2023-09-14T05:49:02Z,1,why are you master of everything???? I have been watching your video for two years through out my university course,True
+@kamesh7818,2023-09-11T01:34:50Z,1,"Awesome video series, very helpful. Thanks Josh",True
+@Chris-qg6kc,2023-09-08T15:37:43Z,1,I like how you gave Sasquatch a recurring job doing stats so he desnt have to roam the forest.,True
+@Anonymous-tm7jp,2023-09-07T17:07:13Z,2,1:24 Statsquatch lost money but still hiding emotions behind the smiley face😢😂,True
+@themantrad,2023-09-07T03:12:51Z,0,bruh,True
+@user-dg6xv5io2s,2023-09-02T21:19:50Z,0,"plz in 9:10 in the first layer where there is yesterday input, from u got that -0.5*w2 like that -0.5 how u got it?",True
+@whataquirkyguy,2023-08-26T23:37:33Z,1,Bam !!!,True
+@eliasgabriel164,2023-08-26T16:05:21Z,1,"parece bom, agradável a tradução, conteúdo relativamente interessante",True
+@leesteven2003,2023-08-23T13:40:44Z,1,I come to here just for song.,True
+@AG-cx1ug,2023-08-17T12:09:42Z,0,"Can RNN's be used for data that depends on multiple variables not just time (such as lateral, vertical, etc forces) and outputs a sequential output such as layup pattern angles for a composite material like (90, 45U, 90W, 45, etc)?",True
+@jotherman8113,2023-08-05T17:53:34Z,1,"I already told you that i love you in another video, but i'm just going to say it again, I LOVE YOU",True
+@mahu1203,2023-08-01T05:29:37Z,1,Thank you so much. You make great   videos... Just great teaching. Thanks alot.,True
+@harshshah3797,2023-07-26T10:48:06Z,1,"Summary  Problem with regular neural network It takes fixed length of input.  Here comes RNN to help. It can take variable length of input.  How RNN is made? Input + Previous Output == Output  Why RNN is not popular? As it has one problem call Vanishing / Exploding Gradient Problem. As we have long chains,it is natural to this problem will arise. Lets say we have weight that multiplies with previous output greater than 1. As we have long chain,we will be multiplying many times numbers will become large. (Output will very too much) If we have less than 1 it will become very small. (Output will not change at all)  Here is an analogy that might help you understand the Vanishing / Exploding Gradient Problem:  Imagine that you are trying to find your way through a forest. You have a map, but the map is very old and the trails are not marked very well. As you walk through the forest, you make a lot of small decisions about which way to turn. These decisions are based on the gradients of the map.  If the gradients are very large, you might make a big turn and end up very far away from your destination. If the gradients are very small, you might make a small turn and not make much progress.  The Vanishing / Exploding Gradient Problem is like having a map with very large or very small gradients. In this case, it would be very difficult to find your way through the forest.",True
+@jotherman8113,2023-07-21T09:02:13Z,1,I love you,True
+@vinisilva5647,2023-07-18T20:22:01Z,1,portugues bom,True
+@alexkobra1710,2023-07-16T06:40:28Z,1,"Hello, I'm into Neural Networks and I think you like it too. If you're interested, check out which Marilyn Manson cover I made using a neural network: https://www.youtube.com/watch?v=2zJjtEIzpdE&list=PLOPazwC4CrwoBChjzYsrkqT2yUOT2HJrX",True
+@artem_isakow,2023-07-12T16:45:40Z,5,"Thanks to your series of videos on neural networks, I was able to pass the entrance exam for PhD program at St. Petersburg State University.",True
+@elmehditalbi8972,2023-07-11T10:15:49Z,3,You can't understand how good this is. I've spent all of yesterday trying to understand these concepts but I couldn't grasp them. THANK YOU!!!,True
+@abdoualgerian5396,2023-07-09T17:32:35Z,0,"Honestly i don't like the starting songs, but i LOVE the puraperaprapp thing whan doing the math",True
+@muhammadzakiahmad8069,2023-07-05T08:36:31Z,0,"I have a doubt that you said at 12:46 that w2 will be multiplied by Input at the first squiggle but as i rewind back in the video at 9:12 I see that w2 is multiplied by y1 instead of the input, will u please clear my doubt.",True
+@huruynegash4847,2023-06-30T13:23:33Z,1,Hello Guys let's make this man happy always as he did for us!!!!!!!!!!!!! Nothing to say just thanks a lot.,True
+@cat-a-lyst,2023-06-29T15:20:31Z,1,you are vry very very very very very brilliant teacher ! you are my low variance and low bias position.,True
+@fmailscammer,2023-06-26T03:32:48Z,2,"Very well explained, I’ll go watch the rest! Kaboom!",True
+@Luxcium,2023-06-20T21:03:30Z,0,This time my quest is leading me to the *ReLU in Action* then I will unwind and back propagar 🎉the *Recurrent Neural Networks (RRNs)…* I will then learn What is « *Seq2Seq* »but I must go watch *Long Short Term-Memory* I think I will have to check out the quest also *Word Embedding and Word2Vec…* and then I will be happy to come back to learn with Josh 😅 I am impatient to learn *Attention for Neural Networks* _Clearly Explained_,True
+@loreii1982,2023-06-20T13:44:01Z,1,I saw a light turning on my head! great video,True
+@mikekark5180,2023-06-15T23:37:52Z,1,dude you made my night... pip pip poup,True
+@genericchannel8589,2023-06-14T05:45:26Z,1,You are awesome 🥰🤩,True
+@ZaidAlhusainy,2023-06-09T17:21:07Z,7,Your channel should be mandatory for all universities teaching AI 💖,True
+@auslei,2023-06-09T05:09:30Z,0,Why is this in Spanish? 😅,True
+@luisherneymedinajimenez6314,2023-06-07T23:39:13Z,1,Te amo,True
+@scorinth,2023-06-06T13:21:39Z,1,"I have a question: The examples you give tend to be very simple for clarity's sake (which I appreciate) but how do they generalize?  If, for example, you have a network with multiple layers, does this still work? Does the feedback include all neurons, or are there particular ones to include/exclude?  Honestly, I had this question when I was watching the LSTM video, but I thought I'd come back here to check whether it was already answered.",True
+@hossemeddinesaidi2601,2023-06-06T10:13:43Z,1,Very good explanation Thank's,True
+@mohammedjaddoa9783,2023-06-02T05:40:54Z,1,"appreciate your effort & work,THANK YOU",True
+@thecomputerpal221,2023-05-29T04:03:02Z,16,"Josh, I found your channel yesterday and have been binge watching. Incredible work in democratizing knowledge. Thankful for your work.",True
+@Baffmer,2023-05-28T09:42:59Z,1,Great!,True
+@user-pn3pg8ol2k,2023-05-18T22:37:22Z,1,Great explanation! Thank you.,True
+@kvnarasimhan5172,2023-05-15T05:08:41Z,0,how many hidden layers does the above network have?,True
+@ericksantos5107,2023-05-10T10:00:31Z,1,Caraca em Português???🎉🎉🎉,True
+@chelvynchristsonimmanuel1453,2023-05-10T06:41:53Z,1,"Amazing explaination with simple, easy-absorb, attractive method and but still pursue clear concept. 🙂 Kabaam... nice job",True
+@user-bl2ht7bu4u,2023-05-08T14:40:25Z,0,At what time step the loss function is calculated? The today or tomorrow?,True
+@gianlucalepiscopia3123,2023-05-03T11:18:09Z,0,thanks professor for this. Really amazing question: is a RNN similar to an autoregressive model where we then calibrate for the best parameters ?,True
+@mohamedibrahim1836,2023-04-23T21:06:00Z,1,Total awesomeness 💚,True
+@kakusniper,2023-04-21T18:21:55Z,0,Almost finished with the NN series; would like to see a video about hidden markov model one day :-).,True
+@khaikit1232,2023-04-19T18:17:06Z,0,"Hey Josh, I was just wondering how and where does the attention mechanism / encoder /decoder fit into your explanation of RNN in this video?   I was reading about RNN elsewhere but I can't fit the new information into whatever mental image and understanding I have built from this video.",True
+@Xayuap,2023-04-18T18:04:43Z,1,"gonna be honest, I get here looking for backprop. I didn't, instead found myself doing the whole course. Now I'm taking the selective courses 🧘🏽 I do feel like Neo wanting more Xaolin.",True
+@coc2912,2023-04-15T12:06:35Z,1,草履虫都能听懂啊!!!!,True
+@yupp_harish3936,2023-04-15T10:47:08Z,0,why vdo is not playing,True
+@luistalavera6392,2023-04-10T22:42:00Z,1,"Man, this is awesome. I wasn't understanding anything about RNNs in my course but thanks to this video is all clear now. Thank you Josh Stamer :D",True
+@BrunoJr09,2023-04-08T08:00:03Z,1,"OMG, Finally I understand Vanishing Exploding Gradient, Thank you StatQuest!",True
+@43SunSon,2023-04-07T16:18:47Z,1,"I have to say, he is slightly better than me.",True
+@Timbochop,2023-04-05T00:51:54Z,1,"I bought a shirt, because I love stat squatch and norm.",True
+@user-px1rx6mz7l,2023-04-04T16:27:13Z,1,Fantastic,True
+@PraddyumnShukla,2023-04-04T15:26:30Z,0,"But we aren't multiplying the first input everytime with w2, right?  Instead we are actually multiplying the output of the activation function from the previous unroll and then summing it with the (current input * w1) as well before providing it to the next unroll. So we do consider the current input here too. Then how does it vanish or explode just because of the first input?",True
+@sarahk13peace,2023-04-04T12:39:31Z,1,OMG I love you for your teaching style,True
+@graphitegalore,2023-03-24T16:11:03Z,0,but it is not possible to predict future outcomes with historical stock value observation ?,True
+@dikshagupta3500,2023-03-20T12:16:34Z,1,Your book on Machine Learning was excellent. I am looking forward to reading your book on deep learning.,True
+@saichaitanyabalasankula6255,2023-03-18T14:33:12Z,0,Great Video! I was struggling to understand math's behind vanishing and exploding gradient in detail and the points that you shared in the video are definitely useful. Could you please point to any additional articles which explain the math's in more detail. Thanks!,True
+@TheLeoPoint,2023-03-17T07:25:23Z,1,Life is BAM,True
+@iingmuttakhiroh600,2023-03-07T17:48:00Z,1,Your explanation is excellent. I really hope that you will cover Continual Learning,True
+@r.walid2323,2023-03-06T18:05:20Z,1,"What a great explanation, Thank you",True
+@joaoperin8313,2023-03-05T20:55:04Z,1,Mais um excelente vídeo. Parabéns,True
+@vishnurenganathan2203,2023-03-05T16:56:07Z,0,Thank you for the fantastic explanation and amazing content. Your videos help me a lot with my course and research work. I'm wondering why do we have a non-convex loss function in the vanishing/exploding gradient problem?,True
+@toddgillies3380,2023-03-05T07:01:54Z,25,"Never quite understood RNNs until I watched this video, thank you!  A hand-calculated example of a one-to-one RNN is extremely hard to  find online, so this was perfect. The only one out there, I believe.",True
+@samrathnayaka1260,2023-02-26T20:19:12Z,1,❤,True
+@starrio713,2023-02-16T07:47:11Z,1,love the vibe,True
+@shiningpath-user,2023-02-01T04:22:05Z,0,Hey the explanation for exploding gradient  that you present in 11:27+ makes sense when the activation function is RELU since RELU acts like a linear activation function when input is positive. But can we extend this explanation for exploding gradient to the case when we use Sigmoid or tanH as the activation. In that case we wont be able to say that the input1 gets multiplied by  {w2}^T (assuming T is the number of times the RNN is unrolled),True
+@snowykoyuki,2023-01-30T12:24:33Z,0,"Please don't make the noises during the math, it doesn't help and is distracting",True
+@charlescoult,2023-01-22T18:27:12Z,2,This explanation covers some very important points that were missed in several other lectures I've watched on this subject. Thank you for clearing things up for me.,True
+@kobic8,2023-01-16T19:52:20Z,0,will you be makind a cool video on SWIN and VITs? :),True
+@ClemensPutz-ist-der-beste,2023-01-11T18:23:12Z,1,I wish you were my math teacher! The whole class would have sang like you while calculating🤣,True
+@tongzhou2007,2023-01-08T20:01:37Z,0,"Great explanation! One question, in the basic ""yesterday+today"" as input example, how is such a RNN different from a feed-forward network with 2 inputs? We could also have a regular FFN that uses the ""yesterday+today"" as two inputs to predict the tomorrow right? Thanks!",True
+@lorryzou9367,2022-12-31T09:52:28Z,6,Very impressive video! I always explain concepts in a simple way. Could you make more videos about deep learning?,True
+@limitlesslife7536,2022-12-30T17:10:24Z,1,absolutely amazing!!,True
+@hasansoufan,2022-12-25T22:47:48Z,1,"You're the best, thanks from the heart❤",True
+@mostafamarwanmostafa9975,2022-12-21T14:54:05Z,1,Thank YOUUU Clearly explained !! I have been struggling with it ! <3333,True
+@saharshayegan,2022-12-13T15:56:15Z,1,This was the best explanation I've heard for RNNs!,True
+@cory99998,2022-12-11T16:50:40Z,0,"So is this sort of system largely just increasing the computational complexity by creating a new vector for a given timestep? So you could add a vector for the next day, then maybe jump ahead to combinations of days given the last n weeks, then months given with respect to weeks, then years with respect to months as a way to handle lots of data and manage the amount of computational vectorspace?",True
+@mohammadelghandour1614,2022-12-08T14:33:49Z,0,Great work ! I would like if you make more videos about the encoder-decoder parts of the network as well as integrating attention modules into RNN's,True
+@gabbye165,2022-12-05T02:55:18Z,1,12:22 is probably the cutest bam I've heard  Also thank you for your videos! They have definitely been helping me get through my Bioinformatics grad course. You are AWESOME,True
+@sinarokhideh6794,2022-12-04T13:26:20Z,0,KA-BAAAM! Thank you for all these amazing videos. I wish you had different series about CNNs and RNNs separately.,True
+@sudhanshurai1146,2022-12-04T01:24:54Z,1,waiting for transformers,True
+@emirevcil5718,2022-11-29T14:11:45Z,1,WE are waiting LSTM video pleaseee i really love your videos and i am studying your videos with taking notes on paper sometimes i spend 1-2 hours to your only one video,True
+@lucaslars4931,2022-11-29T01:04:21Z,0,"Are you assuming we can only use RELU here? Because,  I think we have: f(w*f(*w*f(.....))) and not w^(reccuerence), which would not explode unless f'>=1 as it would be in RELU. In this case, one could just use sigmoid activation function or whatnot.",True
+@lunaslaton7051,2022-11-26T08:39:48Z,0,Thanks for the video! It really helped me a lot. But it raised a question for me. So the problem with this model isn't its ability to do a task but its ability to be trained to do a task with gradient descent? So could you use something like simulated annealing or a genetic algorithm to train one of these models to do a task?,True
+@safiyajd,2022-11-21T07:36:28Z,1,"Josh, you are amazing! Thank God you exist",True
+@reignydaphne,2022-11-14T04:20:18Z,0,0:30,True
+@Eman_sq,2022-11-12T11:51:14Z,1,Thank you,True
+@anandruparelia8970,2022-11-11T09:44:18Z,0,"Is the Machine Leaning playlist covering all the ML related videos? Just wondering, if I am starting from the basics till advanced, does it cover everything in sequence?",True
+@rabiaedaylmaz1198,2022-11-07T19:04:16Z,1,💜,True
+@lesprevues8865,2022-11-06T12:54:05Z,0,"And when u did a video for LSTM, Transformers, The Variantions... Then pls do a video which compares all key figures of those for Neuronal Nets and the ones of the Boosting (Tree Based Approaches).   Could u also do a video then on all of this with Times Series Forecasting? :D ..",True
+@richardfinney2548,2022-11-05T15:10:56Z,0,Amazing tutorial? Just wondering if RNN's can be used for waveform classification?,True
+@ToniSkit,2022-11-04T19:27:42Z,1,Looking forward to lstm video :),True
+@yeohweixiangbenjy1983,2022-11-04T08:48:44Z,1,All love. Looking forward to LSTM video.,True
+@EntropyBeater,2022-11-01T20:32:51Z,1,Thanks!,True
+@CarlosCaetanoJr,2022-10-29T19:47:50Z,1,"Anxious for the LSTM, Transformers and Attention StatQuests!",True
+@dibo1934,2022-10-24T22:41:13Z,1,LSTM,True
+@shubhammantri2827,2022-10-22T17:00:52Z,0,Sir how to unroll multilayered RNN??,True
+@mohammadahmedbasri3067,2022-10-20T05:56:10Z,3,Thank you for this amazing explanation! Waiting for the video on LSTM! :),True
+@Nate-hf2hs,2022-10-18T11:50:00Z,1,"Your videos and book is really awesome, and they helped me a lot!!!!! Are you going to write another book about deep learning?",True
+@Ahmad_Alhasanat,2022-10-17T23:09:38Z,3,"I was looking for a small thing in RNN, but your way of explanation forced me to keep watching the entire video! and I subscribed to your channel!!",True
+@igorvarga5867,2022-10-17T12:58:47Z,0,"I liked the explanation, but not sound",True
+@exxzxxe,2022-10-12T20:48:40Z,1,Your professorial ability is only exceeded by your singing!!,True
+@TPLCompany,2022-10-12T08:09:20Z,2,Great video!! I can't wait for LSTM and transformer videos!,True
+@JeyXKey,2022-10-10T21:25:49Z,1,That awakward moment when you want to learn something about LSTM RNN's and realise you cought up to the present of yet-to-be-realised video topics,True
+@v-sig2389,2022-10-06T14:28:18Z,2,Thank you so much 😭 People like you are the real mvp of humanity !,True
+@andyjunghyunkim6805,2022-10-04T11:30:19Z,1,"Hi Josh. First of all, I really appreciate your videos. None has ever explained this much clearly and easily. I will watch all of yours in a week. The sad news is that LSTM is closely related to my Master's project for computational cognitive neuroscience. Can't wait your LSTM videos 😢. Can you tell me when your LSTM video will be posted? Or at least, can you recommend resources to understand LSTM? Does ""The StatQuest Illustrated Guide to Machine Learning"" have contents of RNN and LSTM or just plain neural networks?",True
+@DevilErnest,2022-09-27T16:50:44Z,1,So looking forward to the LSTM video!,True
+@sandeepgiri2374,2022-09-25T11:51:51Z,0,LSTM video coming soon?,True
+@fabio336ful,2022-09-24T13:46:55Z,0,Do you have the long short term memory networks ready?,True
+@ajeyamandikal2010,2022-09-23T05:47:11Z,0,estimated time for the LSTM vid?    :),True
+@bjarke7886,2022-09-22T14:07:58Z,4,"Squach shoud be a ""Recurring"" character",True
+@kevinb2738,2022-09-22T12:30:12Z,2,"thumbs up for ""beep boop boop beep""",True
+@aqsuu5990,2022-09-19T05:39:25Z,0,Hi Josh I loved your videos and I have learnt a lot from all of them. I want to say that please upload a brief video on LSTM. That would be a vast favor. Thank you,True
+@ZionLineUp,2022-09-16T21:39:39Z,1,I love to sing!!! 😍😍,True
+@yuhanzhang2882,2022-09-14T00:15:19Z,1,"Having a ""clearly explained"" episode on Attention model could be interesting. There's a paper called ""attention is all you need"". I had an impression that attention model is somewhat equivalent to LSTM and RNN without looking back, but never grasped the details",True
+@tupaiadhikari,2022-09-12T16:40:17Z,2,No one has ever taught me RNN as you did through this video. Can we have the LSTM soon?,True
+@jamesyoun1143,2022-09-06T08:08:29Z,6,One of the most underrated channels. Never once have I had trouble understanding the intuition of whatever you explain. I'd donate money to you if I weren't a broke college student.,True
+@rishiraj6242,2022-09-06T05:46:59Z,0,video on automatic differentiation would be cool!,True
+@zeljkobalanovic8900,2022-09-05T08:25:51Z,1,That intro was sick. I smashed like button immediatelly :D,True
+@ajiemccartney6756,2022-09-03T08:14:59Z,0,Is there any related content about time series or forecasting?,True
+@beshosamir8978,2022-09-02T07:11:15Z,0,"Hi Josh , I really miss ur videos, seems like i suffer without your explanations , i hope one day you explain transformers i got stucked on something and seems like no one helps so i hope you help me , now i studied about LSTM and Bi-LSTM and i understood them well , but i read some blogs said that bi directional LSTM good for sentiment analysis and time series so i really got confused about it , How it could be useful !!!! it will be useful if my current prediction depends on what happens in the future ,so how it could be usefull in sentiment analysis if i already will predict my final output in the last word so there is no future because i stand in the last  , i know it could be usefull in some applications like name entity recognation because the type of the output is (many) so maybe my current output depends on what is happend in the future  i really hope to help me because i didn't find any reason after 2 hours of searching in google",True
+@jayasreechaganti9382,2022-09-01T07:48:53Z,0,Hi sir can you please upload lstm video,True
+@jfvcs9326,2022-09-01T05:20:01Z,0,please josh i need your lstm explainatory video more than i need air,True
+@carleanoravelzawongso9786,2022-08-31T13:49:53Z,47,I'm just in love with your content. I've watched your neural network series and it was just so easy to understand. You really deserve more subs and views Josh!,True
+@anashaat95,2022-08-30T17:32:29Z,8,"Very high level explanation. Waiting for the next video on ""Long-short Term Networks"". Thank you so much.",True
+@rafaelhenrique2186,2022-08-30T12:56:48Z,1,"Excellent video as always, professor! I can't wait for a video explaining PARTIAL LEAST SQUARES!!",True
+@miguelangelv7872,2022-08-29T14:49:28Z,0,Hi Josh! thank you for another great explanation. Just crossing my fingers you explain time series (ARIMA/SARIMA...) soon 😊,True
+@suprobhosantra,2022-08-27T18:52:12Z,0,"Hi Josh, thanks for these animated videos of complex topics. What software do u use to create these animated videos?",True
+@TrusePkay,2022-08-26T16:13:47Z,0,"Josh, please do a video for hyperparameters",True
+@manojdevaraju357,2022-08-24T15:33:11Z,0,Waiting for LSTM video……,True
+@regivm123,2022-08-24T07:05:42Z,0,"Consider the types of RNNs, 'one to one' and 'one to many'.  Are they really RNNs? This is because there is no sequence to learn from previous values. You may cover this in a separate video in future. Thanks",True
+@deema5535,2022-08-21T16:34:04Z,1,Please do a series about Time Series and forecasting :),True
+@Naveedahmed-bq5iz,2022-08-20T08:28:56Z,1,"Amazing, This is one best and coolest learning tutorial i have watched ever, great work Josh, keep it up. Thanks",True
+@beshosamir8978,2022-08-20T07:39:02Z,0,"Hi Josh , I have some doubts about how the training should happens imagine we are trying to train model to predict stock sales based on previous 10 days , the problem i have is here which is when we train the model i give the model first day sales and the model will predict the stock sales for second day , now i will calculate the loss function from the first day , now take the first 2 days and give it to the model and will predict the third day ,again we will calculate the loss function ,after that we take the first 3 days and give to the model ..etc , so now we calculate the sum of loss function and try to minimize it ,so am i right ?",True
+@pratibhahegde7314,2022-08-17T10:51:47Z,1,"Thank you very much for this video! Is it possible to use an RNN where the input is a sequence of parameters(not time dependent) and the output is a time dependent function?, In other words I want to find the correlation between a set of numbers and associated time dependent function., rather than predicting future values depending on past values. I am new to the concepts of neural network training. Any suggestion would help. Thank you once again!",True
+@indusairaman2126,2022-08-09T17:48:17Z,2,U have an amazing way of explaining with adlibs loved it and thank you so much as I was not able to understand at all but now it is very clear,True
+@GREENEYESSASHARONIN,2022-08-07T21:28:35Z,1,Your videos are wonderful love your humor ! :),True
+@joelshor5787,2022-08-06T20:37:28Z,1,"You’re great with explaining, I would recommend you try adding your lyrics to Schubert songs or Mozart",True
+@cristianonesti3976,2022-08-06T18:22:52Z,2,Amazing video look forward for LTSM one!,True
+@serenolopez-darwin1975,2022-08-06T16:21:59Z,2,Josh Starmer single-handedly letting me get my PhD over here lmao,True
+@akbarrozaaq835,2022-08-04T02:40:22Z,1,"thanks joshhhh, i'll wait for LSTM <3",True
+@amirpourmand,2022-08-03T19:03:13Z,1,Best explanation I've seen from RNNs. Thanks.,True
+@harishbattula9881,2022-08-01T14:01:46Z,1,Thanks a lot Josh. Every concept explained by you is a BAM!!!!!!!!!!,True
+@stephaniexu2853,2022-07-31T01:34:47Z,1,Such a great explanation!! Will be watching as many of your other videos as I can while we wait for the next one :)),True
+@user-fb9zv9cf1s,2022-07-30T08:22:19Z,1,So great 😀,True
+@midhileshmomidi3120,2022-07-27T11:48:58Z,0,I tried to buy the pdf through website but the payment is failing every time through Paypal. I'm from India. Please help,True
+@KayYesYouTuber,2022-07-27T01:15:20Z,2,"Hi Josh, You are the best. Nobody has explained exploding gradient like you have, Thank you",True
+@dixermontezavaldivia311,2022-07-25T21:15:44Z,0,"hello very good video, I would like to know what program do you use to make the presentations?",True
+@asmersoy4111,2022-07-22T09:12:48Z,1,Kaboom!! Very informative. Thank you.,True
+@asmersoy4111,2022-07-22T08:48:51Z,0,When are we getting a video about the triple bam (transformers)? :D,True
+@hussainshaik4390,2022-07-20T02:39:39Z,0,Great video can't wait to see video on attention and transformers,True
+@AI_Financier,2022-07-19T23:18:57Z,1,"Great video, you must become the President of the ClearlyExplainedLand",True
+@vaizerdgrey,2022-07-19T07:52:57Z,0,"So, is the number of RNN cells means the number of times we rolled out?",True
+@luiscedillo9321,2022-07-19T03:34:05Z,1,Thank you so much,True
+@robinmuller2402,2022-07-18T20:11:39Z,0,"I think there is missing another activation function after W3 and b2, right?",True
+@muntedme203,2022-07-18T08:01:13Z,0,"Good for AR and ARMA (ARIMA)  DGPs. Interesting to contrast with kalman filter, and also how a multivariate form of RNNs operate.",True
+@rohansrivastwa827,2022-07-17T11:32:57Z,1,The legend is here,True
+@kirannbhavaraju5978,2022-07-17T09:37:49Z,3,This is the CLEAREST explanation of RNNs.,True
+@8bitascii464,2022-07-16T23:54:47Z,1,They way you explained RNNs made me so excited for LSTMs. Can‘t wait to see it!,True
+@randomuser5663,2022-07-16T15:34:14Z,2,"""There are far fewer lawyers"" nice one haha",True
+@utkarshsharma9708,2022-07-16T10:10:48Z,1,Eagerly waiting for LSTM video.,True
+@oitudobom7418,2022-07-15T21:55:27Z,1,"oxi, tem uma dublagem em português",True
+@dipankarmandal9442,2022-07-15T15:38:33Z,1,Thank you for the video Sir.,True
+@chyldstudios,2022-07-14T20:24:34Z,1,StatsSquatch needs to do a buddy team up video with StatsLochNessMonster. Double Bam!,True
+@broccoli322,2022-07-14T19:55:20Z,1,"Im a simple man, I see statquest, I click like. Can't wait for the videos on transformers.",True
+@aiforeveryone2941,2022-07-14T18:18:39Z,1,Oh candle sticks and RSI EMA the power trading,True
+@yulogs.,2022-07-14T08:15:44Z,1,the wait is over. Thank you Josh :),True
+@franciscoruiz6269,2022-07-13T19:40:44Z,0,Man! You're the best youtuber over the world! My total respect for you!  Have you ever thought showing us here a python code RNN and LSTM NN :D?,True
+@sharachchandrabhat8428,2022-07-13T18:33:37Z,0,"Hi, great video! Not to be a bummer, but though it's clear that something is vanishing/exploding, it's not clear that it's the gradient.",True
+@Raulvic,2022-07-13T11:21:35Z,1,Thank you for sharing 🙂 super excited for the transformers statsquest!,True
+@rahmatulakbar5005,2022-07-13T10:41:57Z,0,When the LSTM video will came out?,True
+@perrygogas,2022-07-13T10:32:05Z,0,I think this is the first of your videos that confused me...,True
+@jason1596tmgmail,2022-07-12T17:09:56Z,0,"wait a minute, so all RNNs are by design crippled? how do people optimise RNNs? and thanks to the great video as usual!",True
+@SeV5410,2022-07-12T15:22:48Z,1,"Awesome! Thank you, once again, for such a clean and didactic explanation !!",True
+@user-ik8my9kb5h,2022-07-12T15:06:28Z,0,"Why we multiply the previous input,add bias and pass it through am activation function ?  Isn't better just to pass the previous input as it is if we want a function of previous values ?  Edit: RNN reminds me of Recurrence relation. Is that the RNN try to model",True
+@osamahabdullah3715,2022-07-12T11:00:33Z,1,"literally before I see your video, I made a like, that much I trust your information and knowledge , thank you for your time and effort to explain this to us",True
+@ChocolateMilkCultLeader,2022-07-12T10:51:36Z,2,Waiting for you to cover Attention,True
+@laythherzallah3493,2022-07-12T10:04:50Z,0,"If we want to train a model to prrdict the next value depending on the past 25 record ,this means that we will unroll the RNN 25 times? With just 2 W and 2 b?",True
+@sivakanishka,2022-07-12T08:10:14Z,0,"Hi Josh, can you make a video on BPTT derivation. It would be really helpful. Thanks the intuitive videos 😀",True
+@Tapsthequant,2022-07-12T07:52:23Z,1,"Been waiting and waiting, the waiting is BAM!!!",True
+@sheltonsong6120,2022-07-11T21:09:53Z,2,"Clearly explained the difference between RNN and normal network, gradient vanishing/exploding! Looking forward to the LSTM and Transformer videos!!!",True
+@laythherzallah3493,2022-07-11T19:55:53Z,0,When will publish the next statquest for Lstm?,True
+@marthalanaveen,2022-07-11T17:20:43Z,1,"Amazing video. please also make a video on LSTMs and it's variants like, Gers & Schmidhuber (2000), GRU.",True
+@jakob2946,2022-07-11T17:09:20Z,0,What would this network look like if we had sequential data with many features each.,True
+@lukisetiawanwu,2022-07-11T13:33:59Z,1,Josh I'm waiting for LSTM. Please upload about LSTM explanation. Help me please thank youu,True
+@shoto6018,2022-07-11T13:33:03Z,1,"BAMMMMM, can't wait for LSTM Topics. Professor Josh,  will you be doing transformers and one to many RNNs too?",True
+@augustineboruvka4396,2022-07-11T13:02:02Z,46,"I shorted the hell out of the bottom...or what is the bottom so far. Still, oof. I'm still value buying long positions as well though. It's probably been the best time in the past 4 years to buy stock, in my opinion. I hope the stock market absolutely craters, even if my shorts get blown first. I plan on shorting the crash and buying long DCA all the way down, too. I want to see a 60% stock market crash. We're only around 20% now.",True
+@waizwafiq9481,2022-07-11T12:43:49Z,65,"Amazing video as always, professor! I cant wait for the video on LSTM",True
+@statquest,2022-07-11T12:29:16Z,26,To learn more about Lightning: https://github.com/PyTorchLightning/pytorch-lightning To learn more about Grid: https://www.grid.ai/  Support StatQuest by buying my book The StatQuest Illustrated Guide to Machine Learning or a Study Guide or Merch!!! https://statquest.org/statquest-store/,True
+@manishnarang6490,2022-07-11T11:46:29Z,31,Really looking forward to your LSTM video.. You are a very good teacher !!,True
+@hiramcoriarodriguez1252,2022-07-11T11:41:57Z,0,¿El video está en Español o yo estoy delirando?,True
+@bjornnorenjobb,2022-07-11T11:05:47Z,0,"Hi, could you consider making a video about Resnets? Awesome video, thank you!",True
+@BlizzgamesAlive,2022-07-11T09:38:02Z,1,this videos just get better and better,True
+@qwertz2167,2022-07-11T08:07:29Z,2,"True Hero. I have an exam on 29th about rnns, lstms and transformers.",True
+@fulcrumthewhite,2022-07-11T07:28:32Z,2,"Very hyped for the video transformers ! Keep up the good work, it's amazing how good it is!",True
+@iReaperYo,2022-07-11T07:12:02Z,3,You don’t understand how good the timing of this is. Been struggling to explain the concept in detail on my MSc project.   Are you are doing a video on LSTM / GRU soon ??,True
+@oldcowbb,2022-07-11T06:15:12Z,0,so RNN is like kalman filter but with neural net,True
+@matheusmoraes2316,2022-07-11T05:52:51Z,4,"Can’t believe I was working with a NLP problem at my job using LSTMS and then you just published a video about RNNs. You’re a lifesaver!   By the way, would you consider doing a  SOM or a Boltzmann Machine algorithm video in the future? Love from Brazil",True
+@DavidePasca,2022-07-11T05:43:37Z,1,Perhaps the gradient could be calculated in log-space. Somewhat related: log-space is also commonly preferred for price data in quantitative finance,True
+@rrrprogram8667,2022-07-11T05:27:27Z,2,MEGA BAMMMMMMM is backkk,True
+@chaitanyasharma6270,2022-07-11T05:17:20Z,9,you definitely  are the best teacher for machine learning and deep learning,True
+@rayni7104,2022-07-11T04:24:47Z,3,"I used rnn build stock index prediction, it works great. need include a series of moving average of 10 year bond, gold price, oil price and normalize thats it",True
+@nourahsalem9375,2022-07-11T04:18:14Z,1,"Hello professor, Can you make an introduction to knowledge graphs video, please?",True
+@LuizHenrique-qr3lt,2022-07-11T04:05:16Z,74,Josh!!!! I love u!!! I can't wait to learn about the Transformers!! thank you very much for your content,True
+@riyaz8072,2022-07-11T04:01:18Z,2,First one to comment.. Please continue this series,True
+@gbchrs,2022-06-26T02:18:00Z,2,amazing 😍,True
+@JulietNovember9,2022-06-25T21:51:43Z,1,Oh man!  This has been super tough for me to wrap my head around. I knew this was going to be a great weekend! Thank you for the drop! :D,True
+@statquest,2022-06-23T15:24:41Z,2,To learn more about Lightning: https://github.com/PyTorchLightning/pytorch-lightning To learn more about Grid: https://www.grid.ai/  Support StatQuest by buying The StatQuest Illustrated Guide to Machine Learning!!! PDF - https://statquest.gumroad.com/l/wvtmc Paperback - https://www.amazon.com/dp/B09ZCKR4H6 Kindle eBook - https://www.amazon.com/dp/B09ZG79HXC  English This video has been dubbed using an artificial voice via https://aloud.area120.google.com to increase accessibility. You can change the audio track language in the Settings menu.  Spanish Este video ha sido doblado al español con voz artificial con https://aloud.area120.google.com para aumentar la accesibilidad. Puede cambiar el idioma de la pista de audio en el menú Configuración.  Portuguese Este vídeo foi dublado para o português usando uma voz artificial via https://aloud.area120.google.com para melhorar sua acessibilidade. Você pode alterar o idioma do áudio no menu Configurações.,True

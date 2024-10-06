@@ -1,0 +1,57 @@
+author,updated_at,like_count,text,public
+@pranitajoshi9936,2020-05-19T05:14:07Z,0,"Hii....cn we add JavaScript methods behind this button code....like close_Application....if yes how cn we do it,,!?.....is there any need to import any package or something to do this???",True
+@usama57926,2020-01-19T10:59:35Z,1,great tutorial,True
+@kjfinnegan5910,2019-10-25T19:33:19Z,0,This series has been really useful. Just wondering what you recommend for the best way for a menu option to load a new page/screen (i.e. a new set of widgets displayed within the same window). Obviously quite a common design feature of any application but I can’t find much info on how to do it with PyQt. Stacked widgets maybe?,True
+@prithvirajkadiyala9032,2019-05-30T21:27:49Z,0,"Hey, I have a quick question.  I am designing an application for the touch screen. While designing for that I ran into the issue that the ""File"" menuItem was too small to click and every time I had to take out stylus or something to click on it. Is there any way to scale it up?",True
+@preventiatech442,2018-12-15T18:29:23Z,0,"Who set the shortcut to ""s"" ? XD",True
+@onatmufasa0522,2018-11-29T14:56:55Z,0,AttributeError: 'QMenuBar' object has no attribute 'adddMenu' What could be the problem of my program???,True
+@geremachek,2018-09-24T04:23:51Z,0,how would you use while loops in PyQt? They seem to make the window disappear,True
+@IIdroyII,2018-08-25T08:21:18Z,0,why are you giving '&File' and not 'File'?,True
+@IIdroyII,2018-08-25T08:15:25Z,0,why you are not giving the braces in close_application inside the connect?  extractAction.triggered.connect(self.close_application) # why no braces,True
+@marianofranceschetti7847,2018-08-06T18:04:42Z,0,Thanks for sharing your knowledge,True
+@sntshkmr60,2018-06-08T17:09:34Z,0,Why that '&'?,True
+@arturmuellerromanov4438,2018-04-10T14:36:53Z,0,The 'Ctrl+Q' is not working on my PC. It only Shows 'Q' as the hotkey. I am using a german Keyboard. So Ctrl is Strg but it doesnt work either. How to make it work?,True
+@ZipSnipe,2017-12-22T21:15:57Z,0,"ummm I running Python 2.7 on Raspberry pi 3 and this is what I get"" Traceback (most recent call last):   File ""/home/pi/filemenu.py"", line 49, in <module>     run()   File ""/home/pi/filemenu.py"", line 44, in run     GUI = Window()   File ""/home/pi/filemenu.py"", line 20, in __init__     fileMenu = mainMenu.addMenu('&File') NameError: global name 'mainMenu' is not defined""  any ideas?",True
+@daniaarshad1333,2017-11-30T19:15:13Z,1,please give some tutorial about PyQt5 as well,True
+@daniaarshad1333,2017-11-30T19:14:37Z,0,"I couldn't find PyQt4, PyQt4 is unavailable..!",True
+@sumankanrar6273,2017-09-06T07:34:31Z,0,"why are we typing "".triggered"" instead of "".clicked"" ??",True
+@Escpkmilo,2017-07-11T04:39:40Z,0,TE LO PASAS HABLANDO Y NO HACES NUNCA LA WEA!,True
+@NitinChauhan-vh2yk,2017-05-18T08:02:38Z,0,"Hi Harrison! Loving this series. Need to ask one question. While setting the shortcut, if I place spaces between Ctrl and Q, the shortcut is neither displayed in the menu, nor does it work. Why is that?",True
+@lukab96,2017-05-01T01:57:32Z,1,"You saved my life man, I almost started screaming here trying to figure out PySide. Thanks!",True
+@shashankns5994,2017-03-09T14:27:13Z,20,"For people who are using Ubuntu, the menuBar doesn't appear because it's a feature of Ubuntu's Unity shell called global menu bar.  So, if you want your menu to take its place on top of a window regardless of graphical shell preferences, you should use Qt menu bar instead of native one:          mainMenu = QtGui.QMenuBar()         mainMenu.setNativeMenuBar(False)         self.setMenuBar(mainMenu)                  fileMenu = mainMenu.addMenu('File')         fileMenu.addAction(extractAction)",True
+@jorgeluis4389,2017-03-08T03:13:36Z,1,"This is a great example of good youtube tutorials (or tuts) - 5 minutes, talk FAST (we are not stupid), and pack all of the main points without sweating the small details. You sir, rock.",True
+@Kenwaldek,2017-01-11T19:28:19Z,3,I have ported the lesson1 to lesson15 to PyQt5 you can find it https://github.com/kenwaldek/pythonprogramming,True
+@kliffy6198,2016-12-22T08:35:45Z,4,wtf lol I love it pyqt4 makes tkinter look like a fucking toe nail,True
+@shabdarana2848,2016-12-15T10:42:33Z,1,"I have the same codes. but when i run it using ""python filename.py"" in the terminal it say syntax error in ""fileMenu.addAction(extractAction)""   i am pretty sure i am running the same code.",True
+@parnabsanyal5750,2016-11-22T20:49:52Z,0,I have just started following your tutorials and they are really good. My question is about PyQt5.  How much effort is needed to port the PyQt4 codes into PyQt5? Am I wasting time learning PyQt4 ? Should I stop right here and start learning PyQt5 or  follow this series and then make changes according to PyQt5 ???,True
+@yuyetasatcham6410,2016-11-18T01:09:05Z,0,"Excelent tutorial men, Regards from Colombia :D",True
+@Dangerops69,2016-10-26T22:29:57Z,0,"Why are some of the strings written as ""&string""?  I ran this code (I am using Spyder) and it prints the '&' symbol along with the word to the output.  For example, my output is ""$File"" whereas in the video the output is just ""File"".",True
+@TamilSelvan-xf6ut,2016-10-15T10:07:19Z,0,is there any method to minimize the window using sys functions thanks in advance!,True
+@pliniobass,2016-10-15T03:21:03Z,0,Great tutorial! Thank you very much!,True
+@candelaerikagarcia3749,2016-10-14T02:34:11Z,0,"I'm using Ubuntu and I'm a newbie in it and I don't see the status bar, where is it?",True
+@avijitashe3252,2016-07-11T17:01:35Z,0,"Hi, I dont see my status bar, i'm on linux",True
+@chriiisle,2016-06-30T07:35:01Z,4,"if anyone is using Mac OS, you may need to add: mainMenu.setNativeMenuBar(False) in order to display the menu bar. I found that this fixed the issue that arose for me when the menu bar was not displaying properly.",True
+@LucaPR0,2016-06-29T15:36:43Z,0,"Copied and pasted your code into PyCharm and no menu appeared! the Quit button and application title are there, but there is no menu. Any idea of a possible solution? I am on OS X el capitan",True
+@veganath,2016-05-24T08:18:30Z,0,Great tut's thanks. Do you recommend an IDE that for newbies has intellisense drop down prompting for the methods that are available..etc?,True
+@ShawnShaddock,2016-05-16T01:16:39Z,0,"How come you are so inconsistent with your strings? Your using "" and ' all over the place.",True
+@tanmayagupta4591,2016-05-15T06:23:54Z,0,"Status is not shown when hovering mouse over ""Quit"" , but status bar is displayed....plz help",True
+@shayne233,2016-04-20T23:30:56Z,1,your laugh at the Q shortcut was amazing,True
+@GibsnRage,2016-03-29T08:25:33Z,0,"My next project is going to be a script that will go through all of +sentdex 's videos that I have not liked yet, and like them.  EDIT : Oh btw, the idea of including a 'test your knowledge' challenge at the end of the video is fantastic. I have been teaching my little brother programming, starting with python - and this is exactly what I do. It's amazing how in a few short hours a kid can go from not knowing a lick of code, to being able to program a number guessing game without guidance (albeit, a fairly limited number guessing game)",True
+@fernandopaul1,2016-03-13T15:58:54Z,0,imagine creating one app with the shortcut for quitting set to a random key every time the app starts. now that would be fun!,True
+@derrickyang9457,2016-03-06T09:20:13Z,3,Here is a question. What's the function of self.statusBar(),True
+@PratikAnand,2016-02-09T15:32:29Z,1,Loving your Qt series. I needed to learn Qt basics quickly for a project and you are teaching it the best way. The ~6 min per topic format really does wonders as the viewer doesn't feel overwhelmed. Keep it up.,True
+@hedgehogurchin16,2016-02-06T07:29:29Z,0,great narration / teaching style. This is great.,True
+@MatthewTaylorAu,2016-02-02T02:55:41Z,1,useful link for keyboard shortcut codes http://pyqt.sourceforge.net/Docs/PyQt4/qkeysequence.html,True
+@Symbiosis_plus,2016-01-15T02:43:13Z,0,Great Tutorial! For Ubuntu 12.04+ users you may want to see this.. http://stackoverflow.com/questions/34728438/show-menu-bar-always-using-python-qt4-pyqt-in-ubuntu-14-04,True
+@RuneOsnes,2015-11-05T12:37:31Z,1,I was laughing so hard! You crack me up! Chat app that exits on a vowel key! LOL!!!,True
+@winecheese2185,2015-10-16T18:37:51Z,10,6:38 that evil laugh Lol... This guy is awesome,True
+@jedsonlobato,2015-10-09T16:43:51Z,0,"Hi, how can I do the menubar as a ribbon?",True
+@aysershuhaib478,2015-09-27T11:14:59Z,0,thanks a lot i want to ask what's the difference between (trigger  and   triggered). cause i found that i can't use (trigger.connect) thx,True
+@telgars,2015-08-08T15:31:00Z,0,What does the ampersand in the strings do?,True
+@luismiguelbeltran9075,2015-07-14T21:45:34Z,0,"It´s a great tutorial,..however, I copy your code and run it but the Crtl+Q isn't work...any idea..?",True
+@RREDesigns,2015-06-29T04:18:52Z,0,"I believe is worth to mention that the methods ""statusBar"" and ""manuBar"" are part of QMainWindow. Since I couldn't get my window to show up from the previous lesson I just inherited from QWidget, and worked, untill the ""Bar"" section. I guess this is how things are learned, by making silly mistakes. XD",True
+@Tkdplayerify,2015-06-13T20:11:58Z,0,where can i find the code?,True
+@ihswap,2015-05-30T05:14:18Z,1,Thanks for these tutorials also perfect timing 4 days ago I was looking into PyQt so first thing I did was look at your channel for tutorial and coincidentally you posted your first PyQt video that same day. ,True
+@eddwinnas,2015-05-30T00:26:59Z,0,"Hey Harrison, my goal for the past couple months has been converting your tkinter bitcoin program to PYQT, is that where you are heading with this?",True
+@needmorebrain,2015-05-29T21:07:56Z,11,"Hi! What is the ""&"" for? Am I missing out on something?",True
+@alexcons,2015-05-29T19:44:59Z,2,Well explained tutorial! Keep it up!,True

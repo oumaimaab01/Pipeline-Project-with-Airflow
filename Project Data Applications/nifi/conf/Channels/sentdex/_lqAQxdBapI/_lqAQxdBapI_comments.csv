@@ -1,0 +1,132 @@
+author,updated_at,like_count,text,public
+@sentdex,2020-03-30T15:04:46Z,12,"Sample chat inputs and responses, along with my scoring that you can choose to work on top of, or not, if you want to take part: https://github.com/Sentdex/chatbotrnd/blob/master/chat_question_examples.py",True
+@offgridvince,2024-03-18T22:42:45Z,1,Great job! I loved it,True
+@offgridvince,2024-03-18T22:27:19Z,1,😂😅😂 @42:40,True
+@user-ce1bt5hj8y,2023-05-19T18:20:08Z,0,sentdex i am followeing you like a baby from the start could you share me the code ? I would be very grateful to learn from you. Thanks,True
+@wyattmedina7405,2022-04-12T06:56:24Z,0,7:22 “I’ve been constantly running train” Chad sound byte,True
+@techknowledge6808,2021-08-03T09:31:36Z,0,How can I train my chatbot with multilanguage???,True
+@DarkRedman31,2021-07-02T17:21:26Z,1,"32:18 I guess you're not yet a ""power use"" of Sublime Text, I would have selected ""ans"" do Ctrl+D twice to select the other two occurrences and type answer 34:39 To precise a space for the first split argument is facultative since it's its default value. 38:10 instead of list comprehension you can fix it with a set comprehension. Well not, you can use set(words) on line 19 like for word in set(words) Btw I was surprised by results because in your test it doesn't print ""up"" twice before it shows the list and looking at your code I don't get why it's filtered, but once fixed it should give the result 3 for total repetitions. 44:27 In the sorted function call you add the argument reverse=True 49:37 I faced this issue and found a solution, you can do from collections import most_common and do print(most_common(my_dict, 5)) to get the top 5 values, if you want the index of the best value (when not sorted) you can convert your dict to list of tuples with list(my_dict) use numpy.argmax() on it and use numpy slicing to filter the second column (of values)",True
+@LegendConsole,2021-04-16T18:09:44Z,0,I'm with you man. Sorting dics is hard 😆,True
+@WilliamWonker,2021-02-20T12:07:59Z,3,"10:38 “I’m a software engineer. I’m a software”  It has become self-aware, you accomplished more than you ever could have imagined.",True
+@ErnolDawnbringer,2021-02-18T08:51:45Z,3,"You know you have found the right chatbot when you type ""hello"" and it responds: general kenobi",True
+@mrjt6404,2021-02-01T16:50:26Z,0,"Why ""Brave"" browser against chrome/FF ???",True
+@SubsNoVideoChallenge-wl7mz,2020-11-24T23:58:09Z,0,THIS MAN HAS EVERY TUTORIAL I WANT,True
+@Alaska-mk4ok,2020-10-26T05:39:37Z,2,I tried to make the same chatbot also using Seq2Seq using the Cornell corpus dataset but google colab ran out of RAM :( Edit: Also my model had a 1 layer encoder and a 1 layer decoder each with 500 neurons LOL,True
+@andytang7725,2020-10-21T15:12:51Z,0,"Hi Sentdex,  Here are some recent paper that you may find helpful regarding non-greedy decoding.    - (nucleus / top-p sampling) https://arxiv.org/pdf/1904.09751.pdf    - (self-terminating training) https://arxiv.org/pdf/2002.02492.pdf  tl;dr:  Beam search (along with similar maximization schemes) does NOT seem to work very well during decoding, provided that you've trained using maximum likelihood (MLE).   This is even true for extremely expressive generative models such as GPT-2, whose training was based on MLE and did not incorporate penalty against repetition. The second paper recommends a different learning objective that incorporates such penalties and seem to work well for RNN-type models.  Instead, consider using either top-k sampling or nucleus sampling during decoding, as they are agnostic to model architecture (i.e., can be adapted to RNNs or transformers, and can be used regardless of the learning objective(s)). It is also easier to implement since you do not need to re-train on 400mil pairs using fancy objectives.  They have shown great promise in recent packages like Microsoft's DialoGPT (dialog version of GPT-2), which was also trained on Reddit convos.  Thanks for your videos -- you make some great content.",True
+@nguyenthichduyduc,2020-10-09T08:03:42Z,0,Thank you,True
+@morthim,2020-06-26T04:33:59Z,0,1:05:45 the moment you fail a turing test.,True
+@azira583,2020-06-11T08:40:13Z,1,I'm noob coder but I had question can't it keep learning with new question and answers or we have to train it all from scratch everytime we want to add even more answers ?,True
+@thedeliverguy879,2020-06-07T04:19:15Z,0,4:27 RTX8Ks srsly bro?,True
+@axu6207,2020-05-17T15:19:29Z,1,"I love watching these kinds of videos, it gives so much insight into these kinds of projects. Also for some of my more casual projects, these are insanely motivating, and they help really help me wanting to code more just for fun. Great work! Keep it up!",True
+@coenkuijpers1800,2020-05-01T20:45:31Z,0,I would love to see a vid about the preparation of the input and the structure of the network along with labeling.,True
+@hupa1a,2020-04-29T00:25:49Z,0,Nice Video! I like that format,True
+@andrewm4894,2020-04-18T08:35:47Z,0,"Have you thought about using something like mechanical Turk to help score responses in some way? Or a tutorial on some other data labelling solutions out there, could be an interesting series too.",True
+@sagnikdebnath321,2020-04-12T08:24:29Z,0,man u so look like snowden bro,True
+@antoniorivero1434,2020-04-12T05:32:21Z,0,"This content is great!! Thanks so much for all your videos! Just clicked the notifications button :D Oh and instead of having the if statement for checking if I_count is less than zero, you can just do max(0, i_count-1) woo",True
+@iamparadox1750,2020-04-09T20:03:51Z,5,"hey sentdex, Here's an Idea that i thought and sorry if it's wrong what if there's 2 chatbot models chating with each other and every time they reply to ones sentence/question there's an Understanding score that measures how good that reply was means how good the other chatbot was able to understand that reply. It kinda like GAN's we two  neural network competes with each other to get better. Coz we humans are  like that the more understandable ones question/sentence is the better we are able to reply to them. Again sorry if it sounds totally foolish",True
+@saibharath5106,2020-04-09T05:00:24Z,0,my timestamp: 20:00,True
+@wazed9468,2020-04-09T03:08:15Z,0,Every video of you I saw includes spamming the console. I lowkey enjoy its suffering,True
+@vinayreddy8683,2020-04-09T00:05:01Z,0,"My concentration always goes towards that EEG helmet behind you!!! That's what my master's thesis was about but, here I'm hanging on NLP.",True
+@SuvhradipGhosh,2020-04-08T10:46:32Z,0,"Sentdex is the best creator for Educational and Machine Learning. I actually created my own channel called Neural Tech  to give even more information about Data Science, Interview Questions, Deep Learning, Machine Learning, AI and many more interesting topic check it out and I will always follow back!.",True
+@aravindravindranatha4260,2020-04-07T19:37:26Z,0,Can i have your mail id or any contact info,True
+@shikhasingh8875,2020-04-07T12:03:19Z,0,Dude you should start investing,True
+@prayogkarki729,2020-04-07T11:55:45Z,0,please come with deep fake tutorials.,True
+@AiIndia,2020-04-07T11:15:58Z,1,"Who thinks Syntdex is the BEST channel on YouTube, to learn #ai  👉🏻👉🏻 like here",True
+@ahmedhassankotb8785,2020-04-07T04:28:58Z,0,Can you explain the media pipe hand-tracking because i need it in my graduation project,True
+@Tom-kg6qe,2020-04-05T18:39:29Z,0,"Someone has probably commented this before but it's a Star Wars meme. Obi Wan Kenobi drops from rafters in front of General Greivous. Surrounded by Greivous's troops says: ""Hello there!"" General Greivous retorts with ""General Kenobi"" and ensues to draw his light sabres to fight.  Also, could you split strings by punctuation and then check for each string in the list if the string occurs more than once in the list?  42:41 - ""Sorting dics"" Intentionally misquoting Sentdex  53:00 - Possible reason why the answer isn't changing is because you're not retraining the models?  I was doing some Data Science stuff and one of the projects the tutor was speaking about doing was creating a Spam Filter. He was using Pandas DataFrames so that might be a more efficient method of sorting answers.",True
+@carsonmcmanus8825,2020-04-05T00:45:20Z,0,I can vouch for how good spacy is. You can pick and choose what features you want to use. Highly recommend,True
+@iLinked,2020-04-04T12:29:42Z,0,17:50 general kenobi,True
+@aman.upadhyay5798,2020-04-04T11:28:07Z,0,"i wanna implement a chatbot which is self learning and generative chatbot . for the HR Policies , i have pdf files of HR Policies . How can i implement it, please give link and ideas. i don't have data in question answers form. if i'll upload any document then it will automatically train based on data and give reply.",True
+@gomenaros,2020-04-04T10:58:42Z,0,How are you coping with the lockdown harrison? Things must seem very ordinary.,True
+@musicamonarchy3062,2020-04-02T21:28:56Z,0,why don't u just use vim?,True
+@fuba44,2020-04-02T21:11:50Z,0,Love the style!,True
+@marx427,2020-04-02T15:18:17Z,0,"sentdex you are awesome. I discovered your CNN serie with the cat vs dog classification. Now I'm obsessed with Computer Vision and I can finally say that my math bachelor is useful, FINALLY !",True
+@ishfaqkhawaja6394,2020-04-02T14:40:34Z,0,"Okay idk if this is the genuine question to ask here, but anyways um going to ask: I have ubuntu 18.04 installed on my PC but can't install my gpu driver nvidia GEFORCE(MX-150) when i run command like nvidia-smi , it shows ""NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running""  help me if u can please @sentdex",True
+@datmesay,2020-04-02T11:17:15Z,0,1:00,True
+@datmesay,2020-04-02T11:16:57Z,0,@sentdex am I the only one that can’t launch the video from an iPhone ? I am locked in the  « something went wrong tap to retry »  loop ! It’s been like this for the last 2 days !,True
+@samarthnagpal1697,2020-04-02T07:17:48Z,0,"Niceee. Quick question, when will neural network from scratch videos be made? Great work anyway!",True
+@matts3414,2020-04-02T03:40:31Z,1,"If the scoring is so important and complex, why not turn it into a machine learning task? You could great a dataset of acceptable sentences and unacceptable sentences and get a model to predict the probability that each sentence is either acceptable or unacceptable, or something",True
+@vivek5147,2020-04-02T03:29:10Z,0,Very cool bro,True
+@aladaris,2020-04-01T22:41:35Z,3,28:10 do you even touch? ;P touch test.py,True
+@Kman3107,2020-04-01T21:54:13Z,0,"I came in confused. When the video was done I couldn't even leave, because I'm now completely lost. I'm basically just here to listen to Sentdex have fun. Living vicariously through you, Sentdex.",True
+@ComplexPlan,2020-04-01T20:47:39Z,0,I am sure if you type nice the preferred response would be nice,True
+@frog706,2020-04-01T20:12:54Z,1,"Great video, very interesting.",True
+@omeraiman2983,2020-04-01T19:59:08Z,0,"I think if it is a chat bot functioning like siri, you need to add a random function after getting the results, other than that, you will need to supervise some stuff. Just a humble opinion😁",True
+@myselfremade,2020-04-01T19:53:13Z,0,General Kenobi! /R/prequelmemes is leaking,True
+@RorretsNet,2020-04-01T18:57:38Z,3,"""I'm a software engineer. I'm a software"" it knows too much!",True
+@akashtyagi7182,2020-04-01T18:26:35Z,0,So the libcublas does loads successfully. After so many hours on non-gpu system I thought it's just written to throw warning 🤷🏻‍♂️,True
+@sovitrath4735,2020-04-01T16:18:53Z,0,"Just a quick question. Does your new book use NumPy, or everything from scratch using Python only?",True
+@bamitsmanas,2020-04-01T14:52:49Z,0,I thought sentdex was so good he didn't need Stack....but we're all human,True
+@jayksahani9215,2020-04-01T14:52:02Z,0,sentdex you are a genius man really....,True
+@mohankrishna-vt8xd,2020-04-01T14:46:33Z,0,"Can't believe Sentdex didn't know General Kenobi :"")",True
+@thedosiusdreamtwister1546,2020-04-01T14:06:10Z,0,"Are you still using the 2015 comment corpus, or have you updated the dataset?",True
+@darksidegames3136,2020-04-01T13:05:05Z,0,hey i love your video but i was just hopping if u could do a redo and of your kivy tutorial because there has been a new release with different functionalities pls check it out,True
+@atineshs,2020-04-01T12:15:15Z,0,"Once you finish experimentation, would you publish your ideas and experiment results",True
+@roostertechchan,2020-04-01T10:57:45Z,0,Do you work on a standing desk?,True
+@spyrosroum5986,2020-04-01T10:43:11Z,0,When you want to make a new file in linux you don't have to open it with nano.   You can just do `touch filename.something` or even `sublime filename.something` though I'm not sure about the second,True
+@myildizhan,2020-04-01T09:04:39Z,0,Hi which OS are you using and which screen recording app you are using. Thanks for great videos by the way :),True
+@ataadevs,2020-04-01T08:17:38Z,0,"Great video, love the chatbot.One thing i noticed is that when the answer attended to be short one for some of your questions,  the long answers will not be good ones. So maybe penalize it against its length in such scenario, especially when the question is not too common (didn't occur in the dataset) or if the model is overfitting on some of the common words like 'living' for example. i guess there are tons of things one could try and test on this amazing chatbot!!!! we are waiting and hungry for more videos",True
+@lucasb.2410,2020-04-01T08:04:11Z,0,"Amazing video *as always*, What do you think about Evolved Transformer Networks ? Google developed Meena on it apparently and seems very promising. Good luck and happy coding !",True
+@5pellcast3r,2020-04-01T07:22:36Z,0,omg ...!!! YAAASSS been waiting for this ... but holy shit u crazy with those 2 RTX 8000 .... meanwhile me out here using a GTX 1050,True
+@oliverli9630,2020-04-01T07:20:46Z,0,have you tried ChatterBot module but with much larger training data like those you have?,True
+@hitesh_valecha,2020-04-01T05:26:36Z,0,"Sentdex, you provide some of the best material for python (I watch a lot of python videos online, so trust me ---  other viewers) Keep up the good work :)",True
+@SeucheAchat,2020-04-01T05:24:57Z,0,Thanks for this upload :),True
+@wadyn95,2020-04-01T05:10:28Z,0,"Do you like Sentdex R&D video style? > Yes, please do more! > Hello General Sentdex > Yes, this is exactly what I'm looking for > Да, продолжай их делать! > Yes, sorry for my English level",True
+@collinxsmith,2020-04-01T04:52:26Z,0,"Did I like this video? > No, I loved this video. More plz.",True
+@collinxsmith,2020-04-01T03:42:58Z,0,Hello there!,True
+@dcastudios7185,2020-04-01T03:29:31Z,0,"Sentdex: What's your favourite color? Bot: Black, Black, Black, Black, Black, Black, Black, Black",True
+@ahmadanis9930,2020-04-01T03:07:28Z,0,What theme are you using for your ubuntu? Or is it some other OS?,True
+@ahmadanis9930,2020-04-01T03:06:41Z,0,Wow. <3,True
+@kasper1374,2020-04-01T02:36:10Z,6,"""Yes, I am satoshi nakamoto"" ""Yes, bitcoin cash is bitcoin""  The second one scares me  Wtf is the source of the data",True
+@tamizhazhagan-jaishreekris2199,2020-04-01T02:19:01Z,0,I like sentdex 💓☺,True
+@setukumari5485,2020-04-01T00:34:38Z,1,"Hi, but can you again make video on how to make Charcot from scratch with tensorflow 2",True
+@setukumari5485,2020-04-01T00:05:44Z,4,"A legendary Jedi Master in sci-fi movie series Star Wars, Obi-Wan Kenobi was a noble man and gifted in the ways of the Force. He trained Anakin Skywalker, served as a general in the Republic Army during the Clone Wars, and guided Luke Skywalker as a mentor.",True
+@ulissemini5492,2020-03-31T23:21:36Z,0,pep8 is in tears,True
+@jacquesthibodeau1665,2020-03-31T23:02:46Z,68,"Hey Sentdex, these videos are actually exactly what I'm looking for. The problem with teaching stuff (especially in the programming world) is that things are always way too sterile. Like, OK OK OK, we've had enough clean dataset machine learning. There is a lack of R&D videos in ML. More videos like this help in two main ways: 1) we get to see how great programmers problem solve 2) it makes it less demoralizing seeing someone else also struggle and allows us to cultivate a mindset of pushing through hurdles.   Keep it up!!",True
+@alexandrodisla6285,2020-03-31T22:39:46Z,0,Dex. Please show us how to bring machine learning inside an application. Any application,True
+@MarsLanding91,2020-03-31T22:14:21Z,0,What does R&D stand for in this case?,True
+@avishekhar4592,2020-03-31T22:04:34Z,0,Sounds like a certain codecademy course.,True
+@RichardHamnett,2020-03-31T21:46:30Z,1,wtf is that covid home haircut? :),True
+@g4anode,2020-03-31T21:35:12Z,0,Hello there!,True
+@maxhouseman3129,2020-03-31T21:27:29Z,0,Question: wouldnt it better for a score to use only multiplications and divisions because of the impact of the single parameters?,True
+@pafnutiytheartist,2020-03-31T21:23:10Z,1,Please do more videos like that. You are completely right about me sitting at home and begging for content.,True
+@hXrsmurf,2020-03-31T21:01:31Z,4,I definitely enjoy this format because it allows me to learn how you think through problems!,True
+@lautarodapin,2020-03-31T21:01:23Z,0,why not regex :P,True
+@maxhouseman3129,2020-03-31T20:18:30Z,17,"""I'm a meth addict"". WTF the source is Reddit, right? 😅",True
+@archaywakodikar6734,2020-03-31T20:17:31Z,0,"love from india :3 great work and effort, i wanna be like you -  *could potentially make something that can be world changing* ""ahaha nice responses cool, hey guys its me!""",True
+@Azariven,2020-03-31T20:11:03Z,0,i watch anything you post so .... Alternatively maybe think about starting a second channel to post these long version R&D videos?,True
+@electricalcoder3025,2020-03-31T20:07:16Z,0,awesome fanatstic superlastic video dude you are my inspiration to make tutorials in programming and new innovative projects ...may god bless you.........................................................................,True
+@rshrewd8809,2020-03-31T20:05:53Z,0,"I have a nick pain, put the camera in its original location plz",True
+@josephrejive4081,2020-03-31T19:56:59Z,0,"I've trained a chatbot on 3M pairs, but my responses are nowhere as good as the ones yours outputs. How many pairs did you train on?",True
+@MrYUPIYU,2020-03-31T19:56:22Z,2,"1:03:15 ""como estas"" which means ""how are you"", and the answer ""Gracias por favor"" means ""thank you please"", which is not ok, and it does not have any meaning in spanish. Anyway, great video",True
+@cedric1731,2020-03-31T19:54:59Z,0,For translation try deepL... It is amazing!,True
+@raduciurca,2020-03-31T19:52:27Z,59,I was wondering what Snowden is up to in quarantine,True
+@adeolaogunleye7965,2020-03-31T19:40:02Z,0,Hello can I define a temporary dict and check if the word is already there for repetition?,True
+@camdenparsons5114,2020-03-31T19:26:59Z,0,"I am building chat bot too. what i find most curious is encoding/decoding  representations of meaning into words or sentences. I'm assuming that the encoding and decoding for the model you are using were trained from scratch with the rest of the model. I wonder what happens if the encoding/decoding is trained separately, perhaps on a dictionary. I guess this falls under the discussion of whether its best to create models that do end-to-end learning tasks, or connect separate modules trained for sub-tasks.",True
+@Mrsparky492,2020-03-31T19:24:39Z,0,I think there are a ton of STEM related responses because those kinds of peoole never shut up about it on Reddit! They don't necessarily have a disproportionate representation in Reddit users. Just a disproportionate representation in responses.,True
+@billmagundie6866,2020-03-31T19:19:58Z,46,"General Kenobi is from a star wars scene. General Kenobi comes into the scene and says hello there, Grevious replies: General Kenobi! The scene should be on youtube if you just search hello there.",True
+@wktodd,2020-03-31T19:19:41Z,0,Just wondering if it would be possible to give the chat-bot a sense of 'self'?  i.e. based on the answers it has previously delivered. It would make the bot much more convincing if its answers were consistent.,True
+@umdbest001,2020-03-31T19:13:27Z,0,love you sir......thanks a lot!!!,True
+@jeanjacquesstrydom,2020-03-31T18:54:44Z,35,"Sentdex: ""Are you a machine?"" Machine: ""No, I'm dad!"" 🤣🤣🤣🤣🤣🤣🤣",True
+@lukasz1xD,2020-03-31T18:48:35Z,5,I'm a meth addict.,True
+@ekremdincel1505,2020-03-31T18:42:29Z,0,Why you prefer Brave?,True
+@ssasdaftt3,2020-03-31T18:39:09Z,1,"@Sentdex you are  a great man, I have learnt alot from You  :) lot of love from Pakistan .Stay save.",True
+@NicolaMastrandrea,2020-03-31T18:34:52Z,0,Keep doing with videos like this. It's awesome and let us focus on something. Greetings from Italy! Be safe.,True
+@akashsmaran3485,2020-03-31T18:33:13Z,0,Is there any chance of open sourcing Daniel's ensemble code? :),True
+@cartoonchan182,2020-03-31T18:25:52Z,0,Hey thanks a lot for the video... I have a doubt in case of huge dataset how will you train the model bcoz I'm using 1050TI always my gpu crashes when  either dataset is big or nn is big so can you tell what will you do at that time. If you're using Colab can you do a tutorial on that and how to access files from it,True
+@greatsaid5271,2020-03-31T18:23:43Z,1,"let me guess, you cut your hair by yourself",True
+@LapisGarter,2020-03-31T18:20:26Z,0,Are you a genius,True
+@utpalbandyopadhyay1633,2020-03-31T18:14:05Z,1,You're awesome dude...!!,True
+@farookjintha9436,2020-03-31T18:11:29Z,0,"I just waited for this. I had stucked on my project of chatbot using tf . I took a course on Udemy to build chatbot , the author did it in TF1  whereas I would like to do in TF2 with all attention mechanism . But I continued with the course on building chatbot, at one point of time , I had error like Module not found , since he used TF1.4 I couldn't install that version, since no such version for now, atleast to mimic wht he's doing. So wht to do? How can I build chatbot using Seq2Seq model using TF2 with attention mechanisms. (Note: Not a NMT model to translate, but a chatbot model to give response to the user queries)",True
+@ndiayemodou3474,2020-03-31T18:03:18Z,0,You are making the world better place. Thank you !!!!!!,True
+@techycompute3636,2020-03-31T18:03:01Z,12,Is it just me or the sound is really low?,True
+@Q_QQ_Q,2020-03-31T18:02:59Z,0,it says 2 minutes ago uploaded but  some comments says 1 day ago .,True
+@adempc,2020-03-31T18:01:47Z,0,Thanks and thanks.  Haven't had time to watch any recent videos. But it's great they are here during this time.,True
+@rushirajparmar9602,2020-03-31T17:59:36Z,5,I just see notification from sentdex and I watch it on the spot 😂😂Great content man!!,True
+@soufianefariss,2020-03-31T17:58:54Z,0,We are here. From notifications!,True
+@ayior,2020-03-31T17:58:46Z,5,"Here for the Algorithm now, I'll be back for the video later!",True
+@sifiso5055,2020-03-31T17:58:42Z,1,Your latest content is amazing🙌,True
+@benjaminbianchi1804,2020-03-30T22:27:03Z,2,"Great video :) , if you love working with bots, I recommend the rasa library is great and has a pretty powerful documentation.",True
+@AQlee,2020-03-30T18:26:41Z,0,Nice Video again. Thanks! Can you try German next time?,True
+@Stinosko,2020-03-30T15:43:14Z,1,Hello 👋🤠🤪,True
+@sentdex,2020-03-30T15:04:46Z,12,"Sample chat inputs and responses, along with my scoring that you can choose to work on top of, or not, if you want to take part: https://github.com/Sentdex/chatbotrnd/blob/master/chat_question_examples.py",True

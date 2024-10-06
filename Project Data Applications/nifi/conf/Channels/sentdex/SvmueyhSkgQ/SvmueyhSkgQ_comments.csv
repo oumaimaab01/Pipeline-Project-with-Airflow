@@ -1,0 +1,60 @@
+author,updated_at,like_count,text,public
+@devnull711,2023-01-16T21:44:00Z,0,"ha ha, I got the correct value of the slope and I thought I had a bug :)",True
+@jairajsahgal5062,2021-09-09T18:15:35Z,0,Thank you,True
+@sandhyagautam2581,2020-09-13T08:27:02Z,0,the video was nice but how can one calculate uncertainty in slope?,True
+@meicalpinghu3096,2020-08-05T15:09:01Z,0,"Hi great tutorials, just wondering what type of Linear Regression is this in python because I thought in order to do Linear Regression you need modules like sklearn so can someone explain how I apply this to a dataset from the internet.",True
+@alexmattheis,2020-06-27T11:48:56Z,0,Great!,True
+@harishs5470,2020-06-20T12:43:22Z,0,"When I did not use ""dtype = np.float64"" I got a different answer ""0.8333333333333334"". So can someone please give me the answer to the question and why it happened?",True
+@Martin-lv1xw,2020-06-18T20:48:40Z,0,Thanks for the good tutorial series but i think  formula  for the slope parameter is not correct,True
+@slavapasedko3139,2020-01-20T11:18:48Z,0,"Yeah, your course is astonishing, ofc, but please, stop saying that Python doesn`t have an arrays, because it does have an array module built-in.   Of course everybody is using numpy arrays, because they`re pretty damn fast",True
+@sabrinamaluya9268,2019-11-05T13:53:32Z,0,saw this blog which copy-pasted this tutorial of yours :| even copied lines from the text based tutorial in pythonprogramming.net  https://www.dexlabanalytics.com/blog/learn-how-to-program-the-best-fit-slope-in-regression,True
+@ahbarahad3203,2019-07-27T12:13:44Z,0,"lately i have been thinking that machine learning is only for those who are like really strong at maths but seeing sentdex getting stuck because he was having a hard time catching ""vbodmas"" problem i have now started thinking that i dont need to be very outstanding at maths",True
+@arjunbemarkar7414,2019-03-27T02:07:43Z,0,what does it mean when you multiply two arrays?,True
+@zahidulislam9812,2019-02-20T17:17:48Z,1,please made a tutorial on multivariate linear regression,True
+@grahamastor4194,2019-02-05T11:58:14Z,0,"factor mean(xs) out and the calculation will be faster and easier to read.  ms = mean(xs), then use ms in place of mean(xs)",True
+@hillbct,2019-01-29T09:16:00Z,0,why didnt you use np.mean() rather then using statistics mean ?,True
+@valigeorge9110,2019-01-27T08:42:56Z,0,Great,True
+@mmoszkito,2018-12-30T16:30:42Z,0,These white backgrounds are burning my eyes... Nice tutorials otherwise,True
+@gaddamramakrishnasivaprasa1618,2018-12-29T07:29:32Z,0,"thank god, I found your channel",True
+@saintnaveen,2018-09-21T17:46:52Z,0,"Is it not the formula for best fit slope is  (mean(xy) - mean(x).mean(y)) / mean(x^2) - mean(x)^2 ? ofc, the result would be the same. but curious why you swapped ? Reference - https://www.wired.com/2011/01/linear-regression-by-hand/",True
+@changumangu4660,2018-09-15T15:48:07Z,4,"you cant confuse me with pemdas , im still gonna use BODMAS  hahah",True
+@edward9012,2018-07-24T22:37:00Z,0,Can anybody explain why I got different values of m with/without specifying the dtypes? If I don't specify the dtypes I'll get m = 0.8333333333333334.,True
+@pritamitsyou,2018-06-17T08:48:43Z,0,in the 3 rd tutorial can you explain the unix operation in pandas,True
+@EranM,2018-06-10T14:48:20Z,62,"Children, when you see sentdex struggle in 9:11, always remember... Writing too complicated math expression is no no. Use the following breaks: def best_fit_slope(xs, ys):     numerator = (np.mean(xs)*np.mean(ys)) - np.mean(xs*ys)     denominator = np.mean(xs)**2 - np.mean(xs**2)     return numerator/denominator  Love you sentdex! keep up the good work!",True
+@MohitSharma-ft1ef,2018-06-07T17:04:03Z,0,not Gradient Descent,True
+@joshuaronisjr,2018-06-06T10:33:17Z,0,"Hey sentdex. So I tried deriving the equation for a slope of best fit, but I got the wrong answer because instead of squaring all the residuals, I would simply take their absolute value. Why is it that we square the residuals? Wouldn't that make the line of best fit more susceptible to outliers? Why would we want that?  Thanks so much for your tutorials, I've been following the series and they're awesome!",True
+@sarthakbabbar2930,2018-06-04T10:12:51Z,0,Why  did'nt you teach best fit for multiple dimensions ???,True
+@jrM5492,2018-05-19T23:58:44Z,3,"not fair! you spent two episodes explaining some pupil stuff, please go back explain more on the previous hard coding.",True
+@pentekimi,2018-03-25T21:05:02Z,1,"Hello, my question is: given your definition of best_fit_slope(xs,ys) at 10:12. How many times the value of mean(xs) gets computed? Three times? Wouldn't it worth it to introduce a temporary variable?",True
+@devainpalbansal814,2018-03-17T07:01:12Z,0,"to avoid confusion, it is better to do  def best_fit_line(x, y):     m = mean(x)*mean(y)     m = (m - mean(x*y))     m = (m/((mean(x))**2 - mean(x**2)))     return m",True
+@ShantanuBhadoria,2018-02-18T12:43:20Z,2,mean(xs)*mean(xs) will cause the mean(xs) to be evaluated twice. Use mean(xs)**2 as its more efficient.,True
+@cryptomustache9921,2018-02-10T12:21:24Z,0,Would you please point out where is the mistake on the stock prediction that you said was fixed (the dates are not in the future but it predicts or take the prices of the existing dates). Kind regards.,True
+@imdadulhaque2911,2018-01-12T06:27:53Z,0,I know how to get coefficients in simple linear regression but I do not know how to get the coefficients or weights without using sklearn or other libraries! I cant find resources too! How can I write my own functions to do this?,True
+@swapneil5549,2017-12-07T14:30:40Z,0,"it's very difficult for the person who knows python but doesn't know how to use few of these functions, And its kind of too fast.",True
+@pratikdeo3665,2017-09-28T05:17:18Z,0,could you please send me the code links where i can download the code and perform practical tasks.,True
+@rajeevranjan5358,2017-09-25T22:03:09Z,0,How to choose best significant contribution variable among all the variable for our best fit? like in R we have Probability for Each variable significant codes..,True
+@Mafiosaboy,2017-09-06T21:58:11Z,0,I would really like to know where that formula comes from. Could you point me out to where I could find an explanation please?,True
+@guryo2309,2017-08-17T13:48:17Z,38,"I like your tutorials but kinda feel you wasted a lot of time on this one explaining how to manage parentheses and stuff, while you rushed through much more complicated things in the previous ones.",True
+@rofiquessalehin5607,2017-07-13T05:31:05Z,0,"I am using Python 3.6 and there I paste the exact code you write here......but it shows an error ""ImportError: No module named statistics"". What to do ?",True
+@financewithrishabh8568,2017-06-27T05:55:02Z,1,your tutorials have helped a production engineer like myself understand and apply machine learning! thanks!,True
+@tictac5896,2017-06-19T19:01:44Z,1,anyone please fix the error : return m   ^ unexpected indent.,True
+@ErikBoesen,2017-06-10T14:09:22Z,18,Doesn't ^ do a bitwise XOR operation?,True
+@jaysalerno5446,2017-06-05T00:14:29Z,0,"If 'xs^2' gives an error, how would one do xs^3 or xs^n ?",True
+@JCRMatos,2017-05-28T00:43:14Z,2,"SciPy has a function for best fit. Check linregress in scipy.stats from scipy.stats import linregress slope, intercept, r_value, p_value, std_err = linregress(xs, ys)",True
+@rana31ify,2017-04-23T21:54:44Z,4,"Complete explanation of ""Slope of the best fit line"" and the ""squared error""  is in below tutorials   https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/residuals-least-squares-rsquared/a/introduction-to-residuals",True
+@MeetYourArchitect,2017-04-21T17:06:55Z,0,"You are doing a great job brother. You must be getting job offers init? If yes then from which companies, if you don't mind sharing. Thank you so much for these precious tuts.",True
+@adiml612,2017-04-01T18:28:45Z,0,what is the time complexity of this algorithem?,True
+@vladantrajkovski7577,2017-03-09T00:04:59Z,0,is this explanation how Linear Regression works ....Do we handly write the given function LinearRegression used in the previous videos ?,True
+@cyl5207,2017-02-13T07:49:17Z,1,you are the best teacher! thank you!!,True
+@samirmamedau6111,2016-11-06T01:06:20Z,0,"You are using statistics library for 'mean', and before you used math for math.ceil. But both functions are available with numpy. Is it just a matter of preference or there are some hidden reasons behind it?",True
+@TidalMaker,2016-11-02T06:28:12Z,49,My granny says you're kinda cute,True
+@jarrodhamilton4404,2016-11-02T00:56:06Z,0,To find m or the slope it might be easier to just use numpy and find the co-variance of the x and y then divide it by the variance of x. You are obviously getting the same value but for sake of clarity and conciseness.   https://docs.scipy.org/doc/numpy/reference/routines.statistics.html,True
+@MatthewTaylorAu,2016-09-12T01:55:32Z,1,thanks for the tut. added plotting of the slope for visualisation purposes.  https://github.com/aspiringguru/sentexTuts/blob/master/PracMachLrng/sentex_ML_demo6.py,True
+@johneicher6683,2016-09-11T16:37:09Z,0,This is the tutorial series you will need to understand machine learning. Look no further.,True
+@janwillemvanholst,2016-06-08T18:34:15Z,0,Why not use the numpy mean method instead of an 'extra' import from statistics?,True
+@antoniomarcos23,2016-06-07T05:39:22Z,0,"at the beginning of my IDLE does not plot the graph. It shows no error in coding, but the idle is just: >>>> Can someone help me? thnx",True
+@lukehi,2016-04-24T13:50:33Z,24,Your tutorials are great.,True
+@ak00ma1,2016-04-18T07:39:55Z,1,I wish this was more like netflix and you released the whole play list at once 😩.,True
+@happydays3300,2016-04-18T07:06:50Z,0,"Your my Hero sentdex ! all you need is a costume, to put super in front of that Hero!, loving this series! so interesting!!! hope this series has lots of video's!!! Machine learning rocks!!!",True
+@maxbot6344,2016-04-17T21:36:49Z,1,isn't it pedmas? in the UK we have division before multiplication.,True
+@mamazu1995,2016-04-17T21:00:44Z,0,"I have a few things to comment actually. I have to admit that implementing this is not easy but the way you did is indeed quite confusing because your code is just basically a one-line return value tried to write nicely. 1. Why don't you avoid the confusion with the division and split this up into numerator and denominator and then returned numerator/denominator to make it clearer? If you do it like that you wouldn't need a single bracket (except for function calls) 2. Why don't you save the mean of x in a variable? You use it three times in your code. I don't know how smart the mean function is but with a bigger dataset, it would be probably be better to calculate it once and reuse it. 3. I know that this is not a real issue, but why do you name the parameters of the function the same as the variables you have in the global scope. I know that the parameters take precedence over the global variables but this encourages shadowing. Just as a side note.  But otherwise I like your style of programming and programming python make it look elegant.",True

@@ -1,0 +1,32 @@
+author,updated_at,like_count,text,public
+@MohammedSaif-go3tt,2024-03-27T10:40:49Z,0,"2nd question -SELECT  employee_ name,salary FROM employee WHERE salary BETWEEN 10000 AND 35000;",True
+@motivatedindia2246,2023-11-18T09:30:22Z,0,Select salary from employee as e1 where 6 = (select count (distinct salary) from employee as e2 where e1.salary < = e2.salary);,True
+@ipsitmalviya7222,2023-10-31T16:38:42Z,0,"we may use the the below query to find Nth highest salary.  with salary_cte as (select  salary, dense_rank() over(order by salary desc) as N from employee) select  salary  from salary_cte where N=6;  one may change the value of N to get the salary as required",True
+@IRANNAKHOT-cp1hv,2023-06-16T09:17:38Z,0,can louder your voice little bit,True
+@shaikusman536,2023-01-12T18:54:40Z,0,Awsome Krish ...thanks brother...respect from bangalore.....,True
+@siddiquiamaan,2022-12-15T16:05:41Z,1,create table clone as select * from employees; -- with data.,True
+@sureshboddana33,2022-10-24T04:40:53Z,0,Select salary from( select * from employee order by salary desc limit6) as temp order by salary limit 1;,True
+@ousmanelom6274,2022-10-19T17:03:30Z,0,Sélect * from employee where salary<2000 and salary>=5000 Thank you very krish from senegal,True
+@pradeesh2031,2022-10-17T07:59:33Z,0,select*from employee where salary between 10000 and 35000,True
+@pradnyaraibagkar250,2022-10-11T16:18:06Z,0,"Assignment Solution  9. Write a sql query to determine the 6th highest salary without using limit (N = 6) select salary from employee e1 where N-1 =  (select count(salary) from employee e2 where e2.salary > e1.salary)  select salary from employee e1 where 6-1 = (select count(salary) from employee e2 where e2.salary > e1.salary);",True
+@perumalbalachandranjj2358,2022-08-15T13:09:30Z,2,"6th highest salary without limit, I have done in rank function  select * from (select *, rank() over(order by salary desc) as 'rank1' from empdetail) as test where rank1 =6;",True
+@meghamakwana9031,2022-07-31T12:52:52Z,2,Sir please continue this interview questions series. Much helpful,True
+@swastikroy932,2022-05-30T16:49:13Z,0,Next vdo ?,True
+@dhrumilsidapara921,2022-05-19T10:15:42Z,6,select salary from employee e1 where 7-1= (select count(salary) from employee e2 where e2.salary>e1.salary);,True
+@satyammishra2721,2022-05-18T11:55:36Z,0,sir please continue the interview series we need more such questions,True
+@balbirbadyal71,2022-03-24T11:39:41Z,0,Nice video... Need more complicated queries...,True
+@neelshah2855,2022-03-13T08:10:29Z,0,Please make more videos for SQL interview series.,True
+@neelshah2855,2022-03-12T21:13:22Z,0,Very helpful,True
+@premreddy1167,2022-03-07T08:21:14Z,0,How to get 12th SQL video?????,True
+@veerapandiyakattabomman8890,2022-03-04T03:08:04Z,0,@Krish The headphone model you mentioned is different from the one you're using...,True
+@naynadhone359,2022-02-16T06:53:00Z,3,Thank you sir .keep uploading these kinds of videos. Sir can you also make interview questions for python as well ?,True
+@yashvirupwani650,2022-02-15T05:15:07Z,0,How can we get the solution of this problem statement ? Can u pls share the link ?,True
+@abhishekjoshi5949,2022-02-13T15:58:27Z,0,select * from employee where joing date = ;,True
+@abhishekjoshi5949,2022-02-13T15:53:25Z,0,select  * from employee where salary between 10000 and 35000;,True
+@abhishekjoshi5949,2022-02-13T15:49:23Z,0,"select  * from Employee where first_name like ""D"";",True
+@sanskarrastogi4834,2022-02-11T06:37:43Z,34,create table clone_employee like employee ;  = It will create all the columns with datatypes but without the records in it. create table clone_employee as select * from employee ; = it will create the copy of whole table with data.,True
+@pradhrahul,2022-02-10T16:21:22Z,0,I have emailed you But no response,True
+@cmarquay,2022-02-10T13:37:32Z,0,"There are several ways to do it, this one seems the easiest to me: https://qoify.com/find-the-nth-highest-salary-in-mysql-without-limit",True
+@Dev-Phantom,2022-02-10T10:52:08Z,1,This is very helpful for my job interview. thanks sir.,True
+@prashantkandarkar8993,2022-02-10T08:17:03Z,1,Thank-you 👍,True
+@amazingvideos175,2022-02-10T07:37:51Z,1,Thank you!!,True

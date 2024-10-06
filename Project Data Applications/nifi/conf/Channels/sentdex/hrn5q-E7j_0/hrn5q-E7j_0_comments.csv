@@ -1,0 +1,32 @@
+author,updated_at,like_count,text,public
+@benbenameur8429,2019-11-26T19:58:42Z,0,"Hello these coordinate floating i want send it to arduino for drive servo motor , can you explain me how ?",True
+@mynameisZhenyaArt_,2018-05-27T15:22:42Z,0,"why dont you just use two frames and take the difference, to determine position and velocity?",True
+@keco185,2018-05-25T22:07:10Z,1,I would ditch the blur and do an erode then a dilate on the binary image instead,True
+@letsgo2mc,2018-05-25T14:07:56Z,0,Hey guys. nide video,True
+@j_hkahlon3113,2018-05-25T11:23:06Z,0,im r sub for 1year now and im statisfied with ur content.But bro please tell me one answer that where is Bucky Roberts is he dead or living i love that guy .please reply bro,True
+@jcims,2018-05-25T08:28:36Z,1,Very cool!    Could you use the green dots to calibrate your crop instead of making it manual?   FWIW a random error popped just as you walked away at 11:51.,True
+@amirlivny7842,2018-05-24T22:20:26Z,0,"Hi, love the videos. Just something that bothered me: Shouldn't it be 'and' instead of 'or' in lines 45, 46? I think 'and' limits the range while 'or' allows every number. Not completely sure about this anyway :) 9:00",True
+@randiaz95,2018-05-24T20:44:15Z,0,WHAT!? Holy Guacamole. Sentdex has brought us into the future!,True
+@scootscoot2k,2018-05-24T20:19:30Z,0,"for anyone wondering apparently the selectROI function is only available in cv 3.4+ (it could be 3.3 as well, I went from 3.2 to 3.4 and that fixed it for me)",True
+@LetsDark,2018-05-24T19:39:55Z,0,"I would use cv::erode and cv::dilate to get rid of the flickering pixels. Normally, I apply erode two times with an 3x3 block and then dilate with a 5x5 or something like that. This should help to get rid of some noise and view the puck more clearly.",True
+@hoguesteele,2018-05-24T19:28:55Z,3,I love your content man. Keep up the awesome work,True
+@camdenparsons5114,2018-05-24T19:25:00Z,0,"you should somehow map the controls from the robot into a simulation and train it that way. its only 2d, so it may not be that hard, although i think you would have to add detection for arm as well",True
+@camdenparsons5114,2018-05-24T19:02:18Z,0,"maybe if you put a desk light over the whole setup, you will be able to eliminate lighting variation and improve detection accuracy.",True
+@viney50567,2018-05-24T18:55:32Z,0,"OpenCV has a function called findContours which will basically give you all of the information in your binary image such as centroid, area and the perimeter of your thresholded object",True
+@Fiifufu,2018-05-24T18:38:36Z,0,I'm just now working on image processing and object detection with OpenCV. Your videos have always been a great and reliable source of information. Thanks!,True
+@ozcangoksu,2018-05-24T18:34:39Z,1,insanın ufkunu genişleten güzel bir proje. şimdiden tebrikler,True
+@adityajoshi2177,2018-05-24T18:05:24Z,0,I also like doing programming  #Adityajoshivines,True
+@kloszi,2018-05-24T17:43:00Z,0,"I generate background ""bg.png""and add  ..... img = cv2.imread('bg.png',cv2.IMREAD_COLOR ) while 1:     _, frame = cap.read()     frame=cv2.subtract(img,frame)     img_crop = frame[int(r[1]):int(r[1]+r[3]), int(r[0]):int(r[0]+r[2])] ..... THX for output.avi",True
+@meinderth8240,2018-05-24T17:33:27Z,0,"Cool, looking forward to the next video. It feels a little unnecessary to find the standard deviation and compare it to the distance of each pixel in each frame. The puck won't grow or shrink, so I would just cut off every pixel further away than, say, 30 pixels from the average. Also, wouldn't one pixel, just the center, be enough to train the arm?",True
+@daniari1000,2018-05-24T16:25:31Z,0,Its so cool you are making  great videos. Its look like I can program anything i want,True
+@alterguy4327,2018-05-24T16:18:42Z,0,At what time you were born... You are Genius,True
+@MrCode-qv4mk,2018-05-24T16:15:44Z,0,Hi,True
+@mortensentim511,2018-05-24T15:35:45Z,0,"You should level the table. Also, the ROI lets you roughly scale the data so you can work out how many pixels across the puck should be. You could use a fixed multiple of its size rather than a standard deviation to accept/reject data. The puck shouldn't be getting bigger and smaller, and the puck should be the dominant source of pixels in the filtered data so the average should always be fairly close.",True
+@elephant742,2018-05-24T15:15:11Z,0,Great tutorial. Can you suggest some good resources to learn OpenCv projects besides your wonderful blog and the official python-opencv tutorial ?,True
+@franeklubi,2018-05-24T15:10:29Z,2,Wow yes finally! :D,True
+@lucav4045,2018-05-24T14:50:21Z,1,I am so exited to see the end result of this project. It will be just so cool!,True
+@GustyBroadcast,2018-05-24T14:39:16Z,0,Hello not spam!,True
+@easyBob100,2018-05-24T14:36:41Z,3,"You'd save more time if you just put a white sheet under the table, and added a little more lighting. :)",True
+@joydeepmukherjee8263,2018-05-24T14:31:18Z,0,+=1 vs sponsors?,True
+@MrFscpinheiro,2018-05-24T14:30:04Z,0,Bacana!,True
+@sentdex,2018-05-24T14:28:21Z,0,"I lied, went ahead and made a github: https://github.com/Sentdex/uarm",True

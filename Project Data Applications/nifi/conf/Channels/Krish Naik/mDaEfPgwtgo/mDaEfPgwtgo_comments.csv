@@ -1,0 +1,69 @@
+author,updated_at,like_count,text,public
+@omkargadekar52,2024-05-08T14:35:49Z,0,Thank you sir,True
+@user-pl3uk6bg2b,2024-01-09T09:56:18Z,0,thanku sir.,True
+@srishtinagu1857,2023-07-26T10:37:08Z,0,"Hi Krish, I have one question/doubt, is the problem in RNN only of vanishing or exploding gradient? Isn't there any limitation of memory requirements?",True
+@junkycrunchy9837,2023-05-30T16:32:56Z,0,** Correction : Derivative range of sigmoid activation function is 0 to 0.25,True
+@subhamsarkar1443,2023-05-29T23:59:30Z,1,great playlist..... more helpful than most of the paid courses available.,True
+@faycelguenfoud8205,2023-01-24T02:16:11Z,0,Wellah ghir chikour siyed hada,True
+@arvindkumarchandrakarb18me3,2022-09-25T10:40:33Z,0,if vanishing gradient is a problem then why I cant use relu,True
+@emilahmed6802,2022-06-26T17:19:33Z,0,Hi Krish. Will you make a video on AdaRNN?  It would be super helpful. And Thanks for all of your videos.,True
+@abhisai594,2022-02-03T23:46:02Z,0,@Krish Naik   At every time stamp do we have different weights as we are calculating derivate with respect to the output at that time stamp.,True
+@riteshkushwaha8344,2022-01-11T20:20:21Z,0,"Since derivative for Relu activation function is always 1, how does it cause vanishing gradient or gradient explode??   Not able to understand the  logic.",True
+@debatradas9268,2021-10-26T07:39:05Z,0,thanks,True
+@manojsamal7248,2021-10-18T15:55:23Z,1,a small  question if all the weights are same why  we need to derivate till last,True
+@thepresistence5935,2021-08-21T05:57:52Z,0,derivative of sigmoid activation function ranges from 0 to 0.25 right? or wrong.,True
+@MrAyandebnath,2021-06-20T11:20:59Z,0,"In previous videos on vanishing grad problem, Krish Sir mentioned derivative of sigmoid lies between 0 to 0.25, now he wrongly mentioned the range. Please Clarify @Krish",True
+@louerleseigneur4532,2021-05-20T22:35:28Z,0,Thanks Krish,True
+@sowmyakavali2670,2021-05-20T10:08:08Z,3,"Hello Krish            The derivative of sigmoid is varies from 0 to 0.25 so there might be chances to occur vanishing gradient ,  but if we use relu  then its derivative is 1 ,  Wn = Wo - dL/dWo , my doubt is how it generate bigger weights . And also here it won't require any learning rate?",True
+@CasuallyYoursTuhinBanerjee,2021-03-31T01:30:21Z,1,Sirji tussi great ho.. 🙏🙏🙏🙏,True
+@casseypaputungan3217,2021-03-30T05:34:09Z,0,I dont really understand why the weight became negligible when it value decrease? Is there anybody that can explain it to me?,True
+@rahulsoni412,2021-03-07T19:45:52Z,0,"at 1:48, it should be 0 to 0.25, derivative of sigmoid , you had mentioned this in vanishing gradient problem :)",True
+@sukumarroychowdhury4122,2021-01-23T02:44:59Z,0,Derivative of Sigmoid function varies between 0 and 0.25,True
+@rahuldey6369,2020-12-29T17:04:32Z,1,"5:15  as seen in your previous video, if we use Relu the one problem we might face is Vanishing Gradient problem, for which we tried to modify ReLU to ELU and PRelu to overcome this problem. But why exploding Gradient will be caused by ReLU, as we know the derivative of ReLU is 0 for x<0 and 1 for x>0?",True
+@manalihiremath2805,2020-12-28T06:58:48Z,0,you had said derivative of sigmoid lies between 0 to 0.25 and in this u said 0 to 1 which is right?,True
+@mohsinkhan7470,2020-09-25T09:34:03Z,0,"@Krish Naik, Hello Krish, can we say that simple RNN is a traditional and shallow neural network, but LSTM RNN is a deep learning one. ???",True
+@mohsinkhan7470,2020-09-24T12:41:10Z,0,"In tutorial 7, you said that the derivative range of the sigmoid is 0 to 0.25. Here you are saying that it is 0 to 1. Which one is correct ??? Further, what is the derivative range of ReLU function ???",True
+@amruthasagarl1028,2020-09-04T11:42:34Z,0,Isn't derivative of sigmoid function between 0 to .25?,True
+@TheDestint,2020-08-28T02:14:01Z,2,The explanation about vanishing and exploding gradients in this video is incorrect.  Vanishing gradient - occurs because of the derivative of sigmoid being between 0 to 0.25 leading to the weights being approx same as before.  Exploding gradient - derivative of Relu is between 0 and 1 but the weights are large enough due to improper initialization. This leads to more oscillations and the global minimum is never reached.,True
+@SatyakeBakshi4908,2020-08-25T02:07:25Z,0,Derrivative of sigmoid is between 0 and 0.25 :),True
+@vishnuvm7455,2020-08-15T08:37:26Z,0,Please publish a video on Hopfield Neural Network.,True
+@bhavyaparikh6933,2020-07-20T10:21:58Z,1,derivation of sigmoid is ranges between 0 to 0.25  krish please correct this!! why derivation find---------> https://youtu.be/f9UVsPv5wjU,True
+@shankarkantharaj8697,2020-07-19T08:52:09Z,0,"Thanks for the video. At 2:36 I think the curve you drew is a little misleading, since once the gradient vanishes, the graph has effectively hit a local minima, since at this point the gradient is close to 0. So it would be better to illustrate it as being stuck in a small valley in the function preceding a large valley",True
+@nadeemmalibari655,2020-07-17T04:54:17Z,0,you have mentioned derivative of sigmoid 0 to 1. however in the previous video you have mentioned 0 to 0.25 for the same.WHICH ONE IS CORRECT!!!!!!!!!!!!!!!!,True
+@xiyaul,2020-07-11T09:56:06Z,8,@1:46 you have mentioned derivative of sigmoid 0 to 1. however in the previous video you have mentioned 0 to 0.25 for the same,True
+@nikhilgupta4859,2020-06-26T11:39:17Z,1,"i didn't get RNN,its same hidden layer or not(if not how data flows in next hidden layer).Can anyone help please.",True
+@Official-tk3nc,2020-06-26T08:09:08Z,6,"if you are watching this in lockdown you are one of the rare species on the earth . many students are wasting their time on facebook, youtube, twitter, netflix, watching movies playing pubg, but you are working hard to achieve something . ALL the best ...nitj student here",True
+@jayamishra960,2020-06-11T04:23:39Z,6,"Sir , derivative of sigmoid function lies between 0 to 0.25 right ??",True
+@siddharthsingh2541,2020-05-30T19:08:07Z,0,starting you said derivative of sigmoid is 0 to 2.5,True
+@manojks7971,2020-05-03T10:41:41Z,0,Explained clearly,True
+@sandipansarkar9211,2020-04-21T15:41:06Z,1,watched all the videos of this playlist and they were very very good and things were explained in a very easy manner. Thank you so much for this!But need to work hard from my part also by doing the exercises regularly.,True
+@rajroy2426,2020-04-20T02:39:44Z,69,I just wanted to point out that the max value of derivative of  sigmoind is 0.25 and for relu its 1,True
+@fidaullah3775,2020-04-02T08:44:11Z,0,waiting for LSTM & BILSTM. please upload it,True
+@vinitachauhan2468,2020-03-13T10:51:22Z,1,Sir can we have vedio on Extreme Machine Learning with practical implementation? It would be great !!,True
+@mujeebrahman5282,2020-03-11T22:50:09Z,0,Why have you stopped more videos on this?,True
+@sumanmondal2152,2020-03-10T20:29:11Z,1,Sir LSTM please !,True
+@prajwalparab2435,2020-03-10T10:17:23Z,2,Sir PLEASE  your VIDEO ON LSTM??,True
+@jeeveshkataria6439,2020-03-08T23:51:07Z,0,"Awesome series for Beginners, Provide us with complete Understanding, Thanks  a lot",True
+@pavithrans2426,2020-02-26T12:33:21Z,0,waiting for LSTM and GRU....... Upload soon....!!!,True
+@praneethcj6544,2020-02-22T01:20:05Z,1,Waiting for LSTM please upload soon...!!!,True
+@khanwaqar7703,2020-02-21T09:35:51Z,0,Sir there will be more videos in this playlist?,True
+@preetikumari-ds6hp,2020-02-19T11:58:46Z,1,Thanks a lot for such a wonderful experience of deep learning. This is one of the best course for very beginner students even. Please keep uploading upcoming topics of this domain.,True
+@vishalgujarathi543,2020-02-11T14:58:58Z,0,waiting for LSTM NN,True
+@devkulsahu3430,2020-02-11T07:30:00Z,0,Sir Please upload the LSTM tutorial with multivariate regression using time series weather data as an example,True
+@Amrrkevin,2020-02-09T16:13:28Z,0,I think video name has to be renamed by adding recurrent in it. For easy search purpose.,True
+@sunnysavita9071,2020-02-04T03:28:31Z,0,sir please upload the video of LSTM architecture,True
+@SunilKumar-ud3mn,2020-01-23T17:54:55Z,6,"hi Krish, you have mentioned the sigmoid derivative function to be b/w  0 to 0.25 in ANN tutorial. Here your are saying 0 to 1. Can you please confirm which one is the correct one. Thanks",True
+@nishubajaj5061,2020-01-22T09:55:06Z,3,"Thanks a lot. pls, upload LSTM With multivariate regression with a practical example.",True
+@borgavejs4379,2020-01-19T17:27:58Z,1,"Hi Krish,  Please upload further videos..... Thanks in advance !!!!!",True
+@ramakiran1385,2020-01-18T14:02:53Z,0,"Hi Sir, Please upload further videos",True
+@martinlundmark4614,2020-01-15T19:58:03Z,7,"Big thanks for great inspiration and knowledge! You talk about the derivative of a ReLU activation function being >1. Isn´t derivative of a ReLU activation function always = 1 when f(z) > 0, so isn´t the exploding gradient problem a consequence of to high values for the weights during initialization?  Also isn´t the derivative of a sigmoid >0, <0,25? Best wishes from Sweden.",True
+@nasiksami2351,2020-01-13T23:46:22Z,11,"watched all the videos of this playlist and they were very very good and things were explained in a very easy manner. Thank you so much for this! I have a question which is, how many videos are left to complete the deep learning playlist and i think you missed an explanation about ADAM optimizer. Please try to upload one video for that.Thank you again for your amazing work!",True
+@gulabmeetyou,2020-01-11T17:32:18Z,0,Can you please make related to deep learning and make fulfill this playlist. Because waiting for this...,True
+@rameshveer5413,2020-01-10T05:01:58Z,0,waiting for LSTM and implementation of this NN,True
+@JEEVAN605,2020-01-09T02:32:44Z,0,Do you have any insta account lot of personal career doubt I have need to talk. Plz let me know,True
+@sachinborgave8094,2020-01-07T06:30:46Z,0,"Hi Krish,  Please upload further videos....Thanks",True
+@Sanjiv070,2020-01-03T18:39:10Z,2,super sir,True
+@taowan6446,2020-01-03T16:37:46Z,1,It would be good if you can slow down your speech speed.,True
+@kushshri05,2020-01-03T08:26:54Z,1,Do the best learning rate and best choice of optimizer can make any change to deal with this problem???,True
+@akhilesh2150,2020-01-03T08:25:34Z,2,I have 10 year gap.....can you suggest me path in data science,True
+@nitayg1326,2020-01-03T04:00:35Z,3,Same as ANN - no change,True

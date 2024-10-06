@@ -1,0 +1,109 @@
+author,updated_at,like_count,text,public
+@GeminiDak0ta,2022-12-15T03:11:51Z,0,"I followed this tutorial and it's working great! Thank You!  Any suggestions on how to get it to work for ""Acrobot-v1""? I figured out how to get the actions updated from 2 (Left/Right) to 3 (negative torque, 0 torque, or positive torque), but the training part seems be the problem. I'm able to get a few random successes where the pendulum swings above the line. However, it seems like the training isn't working. Maybe a different type of network or network structure is needed? I've tried increasing the initial games to 100,000, playing around with the score requirement (-450 to -300 is what I tested) for the random games to start, modified the dropout a bit, etc, but all without luck.",True
+@michaelturvey8658,2022-09-30T04:13:35Z,1,"For anyone arriving to this in 2022, just a note to say this series is now fairly out of date, unfortunately a lot of things have changed/updated since this series. The core concepts are still good, but to make anything work for me required a lot of research and figuring things out on my own, for example the env.step(action) used in this tutorial now returns a different data structure. Very challenging to work all this out on your own.",True
+@sachinphogat8822,2021-11-15T03:16:50Z,0,Im using macbook pro 2021 and I m not able to import tflearn even I installed tensorflow,True
+@Shubhankar.Banerjee,2021-04-10T02:24:39Z,1,"Please include the playlist link in the description to directly go to the full tutorial. Without that, it is difficult to identify the Playlist for the full tutorial.",True
+@walkiacid9265,2021-02-16T16:13:01Z,0,i can't run the program because i do not have a package called curses.,True
+@iamindigamer,2020-12-04T13:32:08Z,0,can i create my own game ?  i want to create some virtual game based on real life problem.,True
+@panicineurope,2020-07-22T15:29:28Z,1,"Cool stuff mang! Even though these are simple games, I can see how this information you’ve can be useful for much more complicated applications.",True
+@thePWord101,2020-07-20T01:04:08Z,0,"I just wanna ask, how do you dk this with android games?",True
+@priyanshubairwa234,2020-07-18T19:26:12Z,0,"AttributeError: module 'tensorflow.python.framework.ops' has no attribute 'register_tensor_conversion_function'  Can someone help me with this? Idk what's wrong and neither google nor stackoverflow is helping",True
+@spyler1565,2020-07-17T03:28:22Z,0,We will reach a million subs soon! Congratulations!!,True
+@TylerHNothing,2020-07-07T22:17:46Z,0,"Thank you so much for this video, it was really helpful to see you make use of gym so that I can play with it on my own.",True
+@pratikkorat790,2020-07-02T05:20:03Z,0,You're literally amazing 🤩🔥🤩🔥,True
+@j_owatson,2020-04-28T14:27:10Z,4,It took me 2 DAYS just to get this to work. But it was worth it.,True
+@throndaxlostsoul4969,2020-04-27T10:45:43Z,0,Can you make it so that OpenAi can attach to a game that is not one of the samples?,True
+@kduprogramming,2020-04-15T10:49:16Z,3,I have an error importing tflearn please help . ModuleNotFoundError: No module named 'tensorflow.contrib',True
+@sougata2705,2020-03-23T06:37:52Z,0,it did not work in ubuntu 18.04,True
+@xXEchoXxAssault,2020-03-22T01:21:30Z,0,What if I want the AI to play the classic SWBF2?,True
+@matstacy6830,2020-02-29T10:12:57Z,0,"hey man love the videos. but i love you star background more, could you please link me that image",True
+@XxNinjaLimeXX,2020-02-27T02:50:08Z,7,"Ok, I hope i can help some of you out as I've been struggling for quite a few hours on this. From how he was able to do it back then it seems some things have changed. The only way that I've gotten the code so far to build is via the following:   pip install tensorflow==1.15  pip install tflearn pip install gym #make sure a newer version of TensorFlow isn't installed as a dependency if you have pillow at all delete it from everywhere and reinstall it  then in the header of the code:  import gym import random import numpy as np from PIL.Image import core as _imaging   #this is what fixed a long lasting problem of the module not being able to be found  import tflearn from tflearn.layers.core import input_data, dropout, fully_connected from tflearn.layers.estimator import regression from statistics import median, mean from collections import Counter  Also incidentally do not save the file name as gym because for some god forsaken reason that conflicts with the gym import.",True
+@fast_harmonic_psychedelic,2020-01-24T04:43:39Z,0,forever sad. i did exactly what you did and it wont run,True
+@nicholasenglish7036,2020-01-17T04:29:21Z,0,"Thank you for this amazing video, I have a question which would be better as far as Python for machine learning or C++ for machine learning.",True
+@dailyshortz913,2019-12-27T22:58:31Z,0,"I get these errors, got everything installed(yes, tensorflow included), any ideas on whats goin on? :( Traceback (most recent call last):   File ""<frozen importlib._bootstrap>"", line 983, in _find_and_load   File ""<frozen importlib._bootstrap>"", line 967, in _find_and_load_unlocked   File ""<frozen importlib._bootstrap>"", line 677, in _load_unlocked   File ""<frozen importlib._bootstrap_external>"", line 728, in exec_module   File ""<frozen importlib._bootstrap>"", line 219, in _call_with_frames_removed   File ""C:\Users\pablo\AppData\Roaming\Python\Python37\site-packages\tflearn\__init__.py"", line 4, in <module>     from . import config   File ""C:\Users\pablo\AppData\Roaming\Python\Python37\site-packages\tflearn\config.py"", line 3, in <module>     import tensorflow as tf   File ""C:\Users\pablo\AppData\Roaming\Python\Python37\site-packages\tensorflow\__init__.py"", line 98, in <module>     from tensorflow_core import *   File ""C:\Users\pablo\AppData\Roaming\Python\Python37\site-packages\tensorflow_core\__init__.py"", line 27, in <module>     from tensorflow.python.tools import module_util as _module_util   File ""C:\Users\pablo\AppData\Roaming\Python\Python37\site-packages\tensorflow\__init__.py"", line 50, in __getattr__     module = self._load()   File ""C:\Users\pablo\AppData\Roaming\Python\Python37\site-packages\tensorflow\__init__.py"", line 44, in _load     module = _importlib.import_module(self.__name__)   File ""C:\Users\pablo\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py"", line 127, in import_module     return _bootstrap._gcd_import(name[level:], package, level) ModuleNotFoundError: No module named 'tensorflow_core.python'  Process finished with exit code 1",True
+@tomspritzerjr3550,2019-12-20T02:42:40Z,0,"having error:   UnregisteredEnv: No registered env with id: cartpole-v0,,,, can anybody help? or has had this error",True
+@MSFTSTRIO,2019-12-18T02:45:49Z,9,This guy has a video on everything 😂,True
+@deadlox.d,2019-11-24T11:04:00Z,0,No module named 'tensorflow.contrib'........yes i have installed tensorflow and tflearn and all updated,True
+@InboundG,2019-11-04T03:21:18Z,1,"uuuuuhhh ok ,  Traceback (most recent call last):   File ""E:/smaple code/some_random_games_first.py"", line 4, in <module>     import tflearn   File ""C:\Users\Jorda\AppData\Local\Programs\Python\Python37\lib\site-packages\tflearn\__init__.py"", line 4, in <module>     from . import config   File ""C:\Users\Jorda\AppData\Local\Programs\Python\Python37\lib\site-packages\tflearn\config.py"", line 5, in <module>     from .variables import variable   File ""C:\Users\Jorda\AppData\Local\Programs\Python\Python37\lib\site-packages\tflearn\variables.py"", line 7, in <module>     from tensorflow.contrib.framework.python.ops import add_arg_scope as contrib_add_arg_scope ModuleNotFoundError: No module named 'tensorflow.contrib'    what is this???? fix??",True
+@xetrius3671,2019-10-31T03:32:11Z,0,The links you mentioned at 5:00 are missing,True
+@skatingskelly,2019-09-16T02:12:59Z,0,dumb question but how do i start the game or program,True
+@lsp2987,2019-09-04T16:21:49Z,0,The code opens black screen and closes it down soon after with a lot of text like : WARNING:tensorflow:From C:\Users\1\AppData\Local\Programs\Python\Python37\lib\site-packages\tflearn\config.py:131: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.,True
+@stephenkamenar,2019-07-31T09:28:19Z,0,this is trivial to code without fancy machine learning,True
+@oxrock2k1,2019-06-10T15:13:23Z,0,"To anyone wondering, the atari game environments now work fine on windows. Just type ""pip install gym[atari]"" in the command window after you have gym installed. Enjoy :)",True
+@tx6723,2019-04-14T08:34:22Z,0,dang getting this on mac Python[9435:5764564] ApplePersistenceIgnoreState: Existing state will not be touched. New state will be written to (null),True
+@user-jc4oi1xg1z,2019-03-31T03:42:13Z,0,ImportError: DLL load failed: The specified module could not be found.,True
+@chris-graham,2019-03-20T14:54:57Z,20,pip install gym you're ready to rumble!  i need to go outside,True
+@3Eternus,2019-03-18T10:17:15Z,0,any tutorials on neat Python?,True
+@jiggerjagger6529,2019-01-15T14:12:49Z,0,"Be me , just trying to scroll down on sentdex's in-video web browser",True
+@ubaidmanzoorwani7491,2019-01-07T11:55:16Z,1,"Can you create a Video to give an idea which course to take first or what are prerequisite of a course in your playlist there are bunch of courses in your playlist for machine learning,deep learning and thanks for creating all these playlists",True
+@ubaidmanzoorwani7491,2019-01-07T11:46:23Z,0,To Which Playlist This Video Belong,True
+@greenballscience9514,2018-11-30T18:17:31Z,2,Sublime text,True
+@nano7586,2018-11-07T20:56:53Z,0,Best teacher on Youtube.,True
+@imanaski1878,2018-08-21T08:47:42Z,0,Love your videos bro.....,True
+@SamuelMuiruri,2018-08-18T11:25:47Z,0,"Hope someone here would like to help me with a bug, I rewrote the code to use keras because it's easier to load models with and I'm more familiar with it that tflearn but I keep getting a wrong shape error midway through training https://stackoverflow.com/questions/51895184/numpy-array-error-from-training-in-keras/51896296?noredirect=1#comment90749189_51896296",True
+@coolmatt3906,2018-08-01T18:15:16Z,0,could you comment how many weights in the model and how long did it take to train.,True
+@MrUnstoppableHeart,2018-07-25T03:42:53Z,2,I got a ModuleNotFoundError: No module named 'gym'  I installed gym through pip and still error! help plsss,True
+@Funny9689,2018-07-15T12:01:36Z,0,?[33mWARN: gym.spaces.Box autodetected dtype as <class 'numpy.float32'>. Please provide explicit dtype.?[0m,True
+@marn200,2018-07-09T15:25:25Z,0,"Traceback (most recent call last):   File ""tensorflow.py"", line 4, in <module>     import tflearn   File ""/Library/Python/2.7/site-packages/tflearn/__init__.py"", line 4, in <module>     from . import config   File ""/Library/Python/2.7/site-packages/tflearn/config.py"", line 3, in <module>     import tensorflow as tf   File ""/Users/Marrin2/Documents/Coding/Python/Machine Learning/workbench/tensorflow.py"", line 5, in <module>     from tflearn.layers.core import input_data, dropout, fully_connected   File ""/Library/Python/2.7/site-packages/tflearn/layers/__init__.py"", line 2, in <module>     from .conv import conv_2d, max_pool_2d, avg_pool_2d, conv_1d, \   File ""/Library/Python/2.7/site-packages/tflearn/layers/conv.py"", line 9, in <module>     from .. import variables as vs   File ""/Library/Python/2.7/site-packages/tflearn/variables.py"", line 7, in <module>     from tensorflow.contrib.framework.python.ops import add_arg_scope as contrib_add_arg_scope ImportError: No module named contrib.framework.python.ops",True
+@viraatchandra8498,2018-06-27T09:00:05Z,0,can you do this using reinforcement learning while explaining what Q learning is?,True
+@dharmang,2018-06-21T11:48:30Z,0,too late for this vid xD,True
+@johnnybio1,2018-06-04T01:54:57Z,0,can you make one to rat in eve online or mine??,True
+@ewanbristow,2018-05-25T14:43:01Z,1,"i cannot pip install tensorflow and i have tried for a long time, please help me!",True
+@justynakozik8602,2018-05-20T16:35:45Z,0,"I have weird problem, my scirpt is working with terminal but with Spyder kernel is dead. The problem occured in some_random_games_first() function about third loop. Visualization does not answer.  I have also this warning: WARN: gym.spaces.Box autodetected dtype as <class 'numpy.float32'>. Please provide explicit dtype.",True
+@Jamesucht,2018-05-15T15:13:32Z,0,How do you get it so the actual game plays?,True
+@gctk24,2018-04-19T19:38:16Z,2,snowden? is that you?,True
+@vishalrajput9856,2018-03-29T21:04:29Z,0,"hey man, is there any way to install tensorflow-gpu on amd-gpu ? if there is can you please provide the link",True
+@wainy0,2018-03-01T10:22:41Z,0,"Hi, great video. Unfortunately I keep getting the same error: AttributeError: “Viewer” object has no attribute “window” can you please offer some help to solve this! Thanks",True
+@aidanglavin8620,2018-02-10T08:42:13Z,0,"running into a problem. as i run I get a error ""OSError: [WinError 126] The specified module could not be found"" and also ""ImportError: Could not find 'cudart64_90.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Download and install CUDA 9.0 from this URL: https://developer.nvidia.com/cuda-toolkit"" anyone know why?? am running on python 3.5.4 on win 10",True
+@ravishankar2180,2018-01-28T19:56:54Z,0,How to install tensorflow-gpu for AMD graphics ?,True
+@magica2z,2018-01-25T11:52:24Z,1,"I cant install tensorflow,. Im using mac os and python3,. pip3 install tensorflow doesn't working for me,.. pls help..",True
+@alexanderdavidsoncarroll7788,2018-01-23T20:26:18Z,0,Super helpful!,True
+@suharsh96,2018-01-01T16:21:11Z,0,"hey man, what if I have an AMD card ? pretty lost, pls help. this doesn't work",True
+@boris526,2017-12-30T04:38:46Z,0,What a condescending dude,True
+@zacknotes5092,2017-12-25T20:10:12Z,1,"Great 1st video, i'm excited to go deeper. I love how you spell out variables, makes the code easier to follow. I would have gone a little more in depth into the observation vars (cart position, cart velocity, pole angle, pole velocity) this helps relate the agent to our thoughts when actually balancing a pole in the physical world, and it also sets us up to understand more complex reinforcement learning environments.",True
+@dustinkrejci6142,2017-12-14T15:33:52Z,0,2:20  someone gets a score of over 9000!,True
+@the_real_editor,2017-11-30T21:37:51Z,0,"""Traceback (most recent call last):   File ""Directory"", line 27, in <module>     some_random_games_first()   File ""Directory"", line 13, in some_random_games_first     env.reset() NameError: name 'env' is not defined"" I do not know how to fix this problem. Someone please help.",True
+@sariagoudarzvand9290,2017-11-29T17:51:57Z,1,"hi thank you very much, its awesome, but I can not see the pop up for the cartpole, do you know the reason?",True
+@luisantoniogutierrezrodas3908,2017-11-29T03:54:34Z,0,59,True
+@geoffreyrodgers5373,2017-11-16T22:02:04Z,0,"is there a way to train a neural network to play games from the app store, i'd like to try to put some ai running through some idle games to see the best way to win",True
+@aidanventer4747,2017-11-10T16:23:52Z,0,How did you manage to get the importing of curses to work? I've searched the internet and I can't find a solution. Mine won't work!,True
+@nathanlang7459,2017-10-26T03:14:46Z,0,"""curses is not supported on this machine (please install/reinstall curses for an optimal experience)"" opens the cartPole game like yours does but then freezes my python (have to force close python)",True
+@_mvr_,2017-10-17T19:15:11Z,0,I see really no point in gym besides showing somebody cute little moving blocks and collecting data on how to solve cartpole-like tasks. How can I plug in tensorflow's back end in an object of my choice? Nice tutorial though.,True
+@arnavchakravarthy911,2017-10-16T09:36:49Z,0,Could someone please explain what goal steps exactly is? Dint quite understand. Thank You!,True
+@desh4387,2017-10-12T06:45:37Z,0,"Hey, man. I'm tying to learn how to use the OpenAi, but I'm totally noob. Can u give me some videos to lern it from the beggining?",True
+@davidpan5471,2017-10-10T08:11:14Z,3,"You wouldn't believe how much it took to just simply built the environment and make it work. Damn u, nvidia. I spent hundreds of dollars supporting ur company, and u leave me a broken cuda 9.0. NEVER USE CUDA 9.0 ON WINDOWS!!!! Just use 8.0 instead, or it might drive u into madness.",True
+@TheRutubeify,2017-10-03T21:05:49Z,1,Guys how to install atari on Windows10? any idea ? HINT: are you sure `make` is installed?,True
+@burristechshow1768,2017-09-29T19:08:04Z,0,"Can this be applied for any game? I want to train AI to play the game Osu!, would this method be applicable? Does it only allow predefined games?",True
+@freddysalazar9428,2017-09-14T03:22:31Z,0,What happens if I use the CPU version instead of the GPU?. Regards from Costa Rica.,True
+@Pkaspre,2017-09-13T20:46:42Z,1,OpenAi Gym site is gone :( :( :(,True
+@cherubin7th,2017-09-13T09:21:04Z,1,Title is misleading. It is about tensorlearn and not tensorflow.,True
+@ernestodeleon100,2017-09-08T06:46:18Z,0,Are you using a version of NEAT for this? The algorithm from Kenneth O. Stanley? I am starting a Senior project at my university and am looking up his neuro-evolution of augmented typologies stuff and came across this.,True
+@boogleba126,2017-08-31T20:28:55Z,0,my one pops up but does not respond,True
+@finlay422,2017-08-25T14:34:09Z,0,fuck youre a good person,True
+@colescheller4439,2017-08-16T21:08:57Z,0,This series right here made my biggest dreams with computers become a reality. Gold star to you sir.,True
+@lordnaive,2017-08-10T19:25:14Z,0,"curses is not supported on this machine (please install/reinstall curses for an optimal experience) [2017-08-11 00:53:37,362] Making new env: CartPole-v0 [Finished in 16.5s]  wts the underlying issue?",True
+@Ezechielpitau,2017-07-14T08:53:02Z,0,"Quick comment cause some smart guy figured out how to get this to run on windows (just copying his post on https://github.com/openai/gym/issues/11) :  ""Using the latest version of WinPython 3.5 (http://winpython.github.io/) on Windows 10, gym and atari installed drama-free using pip. I ran the following two commands inside my python environment.  pip install gym pip install git+https://github.com/Kojoley/atari-py.git  As a bonus, the latest versions of sk-learn, tensorflow, numpy, etc also work perfectly.""  I can confirm this works fine. You just need a C++ compiler",True
+@JordanShackelford,2017-07-09T07:19:56Z,152,"I am overwhelmed. There are so many apps, games, books, movies, things to study. I have no idea what to do anymore.",True
+@nirajgaonkar7669,2017-06-27T15:33:17Z,2,thanx a lot brother you made my day...hats off to you keep making these type of videos,True
+@pothny3371,2017-04-29T07:00:41Z,1,"How is ""observation"" determined after env.step? Is it determined by solving equations?",True
+@eeee8677,2017-04-28T07:42:27Z,1,thank you for this,True
+@ryanshrott9622,2017-04-25T16:20:49Z,0,Fantastic video! Thanks for sharing this knowledge:),True
+@bellicose2009,2017-04-12T11:17:07Z,2,Is tflearn compatible with Windows? I am having some issues with the library. What are my options?,True
+@krazypeople4,2017-04-11T03:36:44Z,0,"Hello sentdex, Thank you for this video series! I have recently been experimenting with neuroevolution of augmented topologies with Lua. I will complete your series tomorrow when i get some time off work and give you input on the final video. Thanks again!",True
+@cayman2920,2017-04-06T18:02:02Z,0,What can i use instead of tflearn in windows 10?,True
+@deleteaman,2017-04-02T11:19:32Z,0,link to the gym website?,True
+@MilanVVVVV,2017-03-24T21:10:37Z,68,"And I thought Snowden was in asylum in Russia, not playing with neural networks :D Kidding mate, awesome content all round, keep it up",True
+@niclaswustenbecker8902,2017-03-14T11:33:07Z,0,Wow great! Can you maybe make another miniseries for another gym/universe environment?,True
+@jakerember,2017-03-14T05:19:25Z,2,"I saw this pop-up, and my reaction was literally 'Oh snap!'.",True
+@JossWhittle,2017-03-14T03:55:50Z,31,"If you are on Windows 10 you can enable the built in ""Ubuntu on Windows Bash Terminal"", install tensorflow and openai from pip and use Xming as a window manager in order to render the atari gyms.",True
+@addohm,2017-03-14T03:54:14Z,0,Isn't this just a simple matter of a PID loop?  It's not something that requires AI.  Of course you could write an AI script to adjust the PID gains for you but that's hardly worth the effort.,True
+@MasayoMusic,2017-03-14T00:46:33Z,0,Interesting series.,True
+@VolpRS,2017-03-13T21:01:36Z,4,THANK YOU SENTDEX. I was wanting to learn this for ages! You make learning hard things so much easier for me. Thanks you!,True
+@sumantkanala,2017-03-13T17:11:37Z,0,Cool stuff!,True
+@hvhbot6605,2017-03-13T16:51:22Z,0,When importing tflearn I get  ImportError: No module named '_pywrap_tensorflow'   Failed to load the native TensorFlow runtime.,True
+@leberkassemmel,2017-03-13T16:40:05Z,0,My only problem with Tensorflow is that i can't find a version that i can figure out how to install it and works with Python 3.6,True
+@Janfinito,2017-03-13T13:41:49Z,0,Thanks.,True
+@bryanquek7924,2017-03-13T13:31:23Z,0,"WOOOOOO, nice video series!!",True
+@Nik-mh5te,2017-03-13T13:22:43Z,0,This is awesome!,True
+@ayyoubx7865,2017-03-13T13:11:19Z,7,"Thank you so much for this,  I am  looking forward to this :)",True
+@MexRexAngel,2017-03-13T13:06:47Z,61,I cannot thank you enough for starting this series! This is all I've waited for and I can't wait for the next videos!!!,True

@@ -1,0 +1,39 @@
+author,updated_at,like_count,text,public
+@slashahood2614,2022-04-09T19:19:39Z,0,"how do i kill the thread after it's done scanning (python 3.8)? i ran this code, and it stayed stuck with an active thread infinitely",True
+@kapilverma2668,2020-07-15T06:30:16Z,0,How does multiplayer games find game hosts so fast?,True
+@niprjct,2019-12-22T03:52:52Z,0,How can we get the scanner to read from a list fo targets of a file?,True
+@unlisted4728,2019-01-14T16:07:40Z,0,yo i didnt import queue... god i feel like a SKIDDDD MANNANANANANA,True
+@fauzankassim9954,2018-11-30T11:56:42Z,0,"when i  run it, every port is open?  is my code wrong  or am i to late to get the same output?",True
+@MrCatinthehat54,2018-11-15T16:38:03Z,0,"Love your videos, man.  Can you explain how the pet scanner actually 'learns' that the port is open? IE: is it using SYN/SYN ACK? or something different?",True
+@huffypufty8865,2018-10-06T17:09:05Z,0,Hi . I love ur videos . Mostly. I got problem with this port scanner . It took almost 1 day to complete .,True
+@wavy769,2018-09-26T13:25:51Z,1,"print(""whats up doggo"")",True
+@kostasklimantakis6252,2018-07-16T12:13:02Z,0,Hi! in this specific example port 80 should always be open right?,True
+@multigladiator384,2018-06-10T21:00:36Z,0,Whats the differen between socket.SOCK_STREAM and DGRAM?,True
+@assasin101011,2018-05-02T07:51:24Z,0,basics of hacking I guess...haha. by the way nice tutorial,True
+@abbaskagdi1,2018-01-28T05:15:49Z,0,9:33 liar Day 2 program still searching for open ports,True
+@forknife6996,2017-08-23T20:11:12Z,0,hey sentdex why don't you make that it scans other peoples ports?,True
+@mafiaboy16,2017-07-25T16:44:30Z,0,"i got up the point of test my port in windows. bij i got the following problem. Traceback (most recent call last):   File ""C:\Ronny\Netwerken\sever2.py"", line 25, in <module>     main()   File ""C:\Ronny\Netwerken\sever2.py"", line 8, in main     s.bind((host,port)) OSError: [WinError 10048] Elk socketadres (protocol/netwerkadres/poort) kan normaal slechts één keer worden gebruikt.  Ques.: how can i get around this???",True
+@anandachakraborti9171,2017-07-12T12:22:11Z,0,Great tutorial! Can you do a series on how to talk to a node.js back-end with python?,True
+@voodoochile80,2017-06-07T05:43:48Z,0,"This is amazing, many thanks",True
+@matanlll1185,2017-04-12T09:53:22Z,0,"bro im not sure i totally get what Queue means .. like the thing i dont get is how the are the threads know like whom shold take which port  i tried my own version with out Queue [ coz as i was saying i didnt comprehend it and im not just gonna copy ur code..] and what i did was deviding the number of ports with the number of threads but and there is .. they dont run linearly .. i mean i[ it works but its not like 1,2,3,4,5,]  coz one thread is going from 1-20 and another from 20-40",True
+@yunuskaya2755,2017-02-02T16:04:01Z,0,"i realy like your videos they're great, you look like snowden btw",True
+@botbotdingzip,2016-09-03T10:15:06Z,0,"Very clear and articulate, thanks",True
+@WalterBurkholder,2016-07-29T21:52:18Z,0,"let's say I wanted to have a queue of threads for multiple definitions to run in, just waiting on standby. and when a definition is ran it grabs a unused thread, so not to interrupt another definition in the middle of running. then when nothing is running, your threads are on stand by again. basically how do I make your threader definition more dynamic, so I can throw a function at it instead of hard coding the function into it?",True
+@bean6754,2016-07-22T22:49:50Z,1,"import sys ... target = input(""Enter URL or IP:   "")",True
+@MorganFreemanIsLife,2016-07-11T03:37:47Z,1,Ports 1 through 1024 are reserved for system protocols on a your computer. That's why you only had two ports showing up as open.,True
+@roymiller441,2016-03-06T16:45:01Z,9,"Nice dog you got there buddy, what breed is it?",True
+@ethanchen6329,2015-12-27T04:29:02Z,0,Thank you so much for this!,True
+@ericmacleod8605,2015-12-05T21:46:06Z,1,3:46 to see a dog lick it's balls.,True
+@papakushi,2015-12-02T02:16:26Z,0,Is threading making the function run multiple times and the same time?,True
+@wubwub12345,2015-09-02T23:43:44Z,5,u lil hacker ;),True
+@Neceros,2015-07-15T07:56:34Z,0,Haha. I ran this script and it used up 0.3% of one of my cpu cores. Python is very lightweight.,True
+@NetPwn,2015-05-19T18:10:32Z,0,"Quick question, if you were to implement this as a module the first thing to call would be the for x in range(whatever range ) -- > t.start() section of the code right? so in essence starting the domino effect.",True
+@DawnOfWarPVP,2015-05-04T06:57:05Z,2,"import socket import threading from queue import Queue  print_lock = threading.Lock()  target = ''  def portscan(port):     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)     try:         con = s.connect((targer,port))         with print_lock:             print('port',port,'is open!')         con.close()     except:         pass  def threader():     while True:         worker = q.get()         portscan(worker)         q.task_done()  q = Queue()  for x in range(100):     t = threading.Thread(target=threader)     t.daemon = True     t.start()  for worker in range(1,40000):     q.put(worker)  q.join()",True
+@computerscientist5953,2015-04-26T03:30:12Z,2,"I don't understand, why this port scanner will scan for open ports? Could you explain a bit why connecting to a random web-site reveals open ports?",True
+@fairytail6804,2015-02-21T23:27:14Z,0,"Great job. I haven't looked up on ports yet, but it appears you have port 22 and 80 up on your site, and google has only 80 up",True
+@wilsonpinto1186,2015-02-18T23:16:08Z,0,"when i run the port scanner all my ports are closed, how can i open a port or what can i do for get a port to connect?",True
+@FreeER,2015-01-19T22:38:09Z,1,"sentdex  Do you realize that s.connect() does not actually return a connection (or any other) object? The close method is defined on the socket itself. so it should be s.close(), alternatively you could use the with statement eg. with s: s.connect((server, port))  P.S. it seems like you should close the socket prior to attempting to acquire the print_lock considering that it blocking could cause a delay in releasing the socket. Though probably an entirely unnecessary observation considering the number of available sockets and the low chance of the block being for any significant amount of time.  P.P.S. Glad I found your videos :)",True
+@newnewdaniel,2015-01-02T04:47:51Z,0,"When I run this port scanner against your website, I get no ports open from 1 to 100.  Why is this?  Did you close some ports on your server?",True
+@jointheddosclan2835,2014-12-23T12:55:25Z,0,Nice ,True
+@californiaesnuestra,2014-12-07T21:21:27Z,0,Great tutorial!. (Dog distraction 6:28) ,True
+@empiresodemember1,2014-08-20T04:45:41Z,7,Awesome videos! I really like Python as a language in its whole and these videos have helped me understand a lot of those intermediate programming concepts/features in Python that are sometimes difficult to work with/understand. I hope you post more often! Thanks for all the help!,True

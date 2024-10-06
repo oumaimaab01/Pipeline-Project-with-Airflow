@@ -1,0 +1,132 @@
+author,updated_at,like_count,text,public
+@HenriqueSousa-ub5en,2024-05-26T17:27:32Z,0,There is a mistake on the file -> cnnClassifier/components/prepare_base_model.py. In the method _prepare_full_model. To make the layers not trainable you do layer.trainable = False instead of model.trainable=False. This was prolly just a typo.,True
+@vanshatajaiswal701,2024-05-19T13:33:33Z,0,this video is not clear. there is some issue,True
+@kushagra89,2024-04-30T17:13:37Z,0,git push origin main is throwing error..can somebody guide?,True
+@akashgola5180,2024-04-17T18:54:43Z,0,AttributeError: 'PosixPath' object has no attribute 'endswith'  I can't solve it error please solve the erroe,True
+@ehtishamasghar6222,2024-04-04T10:27:28Z,0,"Hi everyone, has anyone got this error ''ERROR: failed to reproduce 'training': output 'artifacts\training\model.h5' does not exist'' at 2:47 when running command dvc repro in my case 1st two stages are running but at training stage I am getting above error. Any response will be highly appreciated. Thanks",True
+@girivishnucharan6482,2024-03-30T13:06:00Z,0,why there is no link to dataset provided?,True
+@masumehjavanbakht9499,2024-03-30T09:38:20Z,0,"Hello, Thank you for the video. Do you also have similar videos of End to End deep learning project in pytorch?",True
+@techlogical8059,2024-03-17T05:57:36Z,0,Just pasting the code 😢  Nothing to explain 😑  But the project is well organised  If u explain each step rather than pasting the code I think it would be great,True
+@bhavyachhabra1600,2024-03-05T19:29:17Z,0,"Thanks for such well explained and fully implemented tutorials. It helps us freshers understand the best industry practices and crack interviews, because now, we would know what we're talking about. Please keep such tuts coming!",True
+@aadityaadyotshrivastava2030,2024-03-01T21:30:53Z,1,project explanation is great but Damn! FECAL :O,True
+@animeshgupta1380,2024-02-18T22:29:13Z,0,"Hi Krish, I'm trying to resolve the below error by making the path as ""string"" data type but the error still persists. It would be great if you can give me the solution. Python file: main.py code snippet: TAGE_NAME = ""Training"" try:     logger.info(f""*******************"")    logger.info(f"">>>>>> stage {STAGE_NAME} started <<<<<<"")    logger.info(f"">>>>>> line 32 main.py <<<<<<"")    model_trainer = ModelTrainingPipeline()    model_trainer.main()    logger.info(f"">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x"") except Exception as e:         logger.exception(e)         raise e Error is coming in: model_trainer = ModelTrainingPipeline() Error:  if filepath and filepath.endswith("".keras"") and options is not None: AttributeError: 'PosixPath' object has no attribute 'endswith'  I've tried debugging it but   def get_tb_ckpt_callbacks(self):         return (             self._create_tb_callbacks,             self._create_ckpt_callbacks         ) in prepare_callbacks.py  under cnnClassifier/components/prepare_callbacks.py is not been called due to which other functions are not running.  Thankyou",True
+@sheikhtahamaroof8484,2024-01-31T15:11:41Z,0,"while executing the dvc repro I am getting an error -  ModuleNotFoundError: No module named 'chickenDiseaseClassifier' ERROR: failed to reproduce 'data_ingestion': failed to run: python src/chickenDiseaseClassifier/pipeline/stage_01_data_ingestion.py, exited with 1 chickenDiseaseClassifier is the name of my project, everything else is working fine and smoothly, the code is working with main.py but it is throwing error with dvc repro.   (p.s. wherever he has used cnnClassifier I have used chickenDiseaseClassifier)",True
+@im_nazrul_,2024-01-29T14:19:11Z,0,@krishnaik06 In git bash it is showing - bash: conda: command not found  But I have anaconda installed  Please suggest some solution,True
+@Bitter_Truth-zc4eq,2024-01-22T12:44:42Z,1,I can't find the data. How am i supposed to follow along without data?,True
+@manojgh5681,2024-01-22T07:59:36Z,0,i am getting this AttributeError: 'WindowsPath' object has no attribute 'endswith'  when i ruunig 03_preapre_callbacks.ipyb file. how to resolve this.,True
+@AI_NewsFeed,2024-01-13T09:35:23Z,0,cursor ghuma ghuma k sir me dard kara diya. Bhai cursor itna mat ghumaya karo yaar.,True
+@nithishkumarr8,2024-01-01T16:15:03Z,0,can someone tell how to download the dataset . iam not able to find it,True
+@mihirbisht3528,2024-01-01T08:53:09Z,0,"Hi,  At 01:10:57 - Data Ingestion Notebook Experiment, is it possible to get the data directly from kaggle? or is it possible to ingest it some other way, as reducing the data size is not going to work for me on Github.  Thanks",True
+@ozkan2020,2023-12-27T14:56:41Z,0,"Are there anyone who gets this error while training  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd6 in position 13: invalid continuation byte  I cant loaded the updated model,  i got this error",True
+@rishikulkarni9581,2023-12-25T19:05:30Z,0,"hey, where can i find the image dataset? They are not present in the github repository mentioned int he description.",True
+@shriharinair3919,2023-12-23T18:24:01Z,3,this is just 3 hours of copy paste. Krish is much better,True
+@mhamedmajdoub2493,2023-12-19T13:28:45Z,0,Okay count -> infinit,True
+@divine_symphony,2023-12-11T15:24:34Z,0,"I am stuck at 55:30 where i am not able to import the local package into main.py....I have run ""pip install -e ."" already. Can anybody suggest what could be the reason?",True
+@rahulteja4849,2023-12-08T18:31:28Z,0,"hello i am getting an error in data ingestion part because of parms.yaml being an empty file  Here is the error ValueError                                Traceback (most recent call last) Cell In[12], line 8       6     data_ingestion.extract_zip_file()       7 except Exception as e: ----> 8     raise e  Cell In[12], line 2       1 try: ----> 2     config = ConfigurationManager() ... ---> 37     raise ValueError(""yaml file is empty"")      38 except Exception as e:      39     raise e  ValueError: yaml file is empty",True
+@JayantiBattery,2023-12-05T15:22:52Z,0,please help me in my code showing cannot refs to remote main branch the folders and files are not uploaded to repository  in my account on github and m using git bash windows powersheel not anaconda so which command to b typed,True
+@Clencher15,2023-12-04T19:31:54Z,0,"getting this error ""BoxKeyError: ""'ConfigBox' object has no attribute 'artifacts_root'"" when trying to execute data ingestion pipeline. Can someone tell me what should i do cuz there is no solution for this on internet.",True
+@AnishChandak-oe2sw,2023-11-20T06:31:08Z,0,"I am trying to execute dvc file however it throws this error ERROR: failed to reproduce 'data_ingestion': output 'artifacts\data_ingestion' does not exist. Can someone tell me what should i do, i m not able find the right solution on internet.",True
+@cirilcherian8893,2023-11-14T03:24:31Z,0,AttributeError: partially initialized module 'charset_normalizer' has no attribute 'md__mypyc' (most likely due to a circular import) any one tell me why this error?,True
+@anilruhil6022,2023-11-10T08:49:15Z,0,The no. of times this guy saying okay is uncountable😂😂😂😂,True
+@user-vs6xv8ok6k,2023-11-08T06:12:56Z,0,sir where did you got the dataset? is the dataset available on your github repository? if then share the link sir..,True
+@laughingshorts3304,2023-11-05T05:29:38Z,3,2:06:53 AttributeError: 'WindowsPath' object has no attribute 'endswith',True
+@laughingshorts3304,2023-11-02T08:42:43Z,0,AttributeError: 'WindowsPath' object has no attribute 'endswith'  why this error is coming in 03_prepare_callback.ipynb file,True
+@youtea7324,2023-10-30T11:00:24Z,0,messed up my terminal while fixing DVC,True
+@shrj5023,2023-10-27T17:36:31Z,0,"Jo bhi samjha raha hai use khud bhi nahi samjha shayad. Krish sir , aap hi samjhaye plz.",True
+@NurserytoVarsity,2023-10-22T14:29:54Z,0,You're making education engaging and accessible for everyone. #NurserytoVarsity,True
+@abhishekmemane5511,2023-10-20T19:03:59Z,0,Hi Can I work on this project as my masters project?,True
+@shikharawat8096,2023-10-20T06:41:05Z,0,at 1:29:05 I'm getting error FileNotFoundError: [Errno 2] No such file or directory: 'config/config.yaml' Can someone help in this.,True
+@user-hp5un2br3p,2023-10-06T08:25:00Z,0,AttributeError: 'function' object has no attribute 'set_model'  why I am getting this error?,True
+@niluthonte45,2023-10-06T06:34:39Z,0,need help sir for this error saying that ValueError: yaml file is empty.where i am doing mistake guide me,True
+@MahalingamBalasubramanian,2023-09-28T13:11:22Z,0,"Krish, this new guy is also explaining well. All the best to him too.",True
+@reji6414,2023-09-25T11:08:56Z,0,"remote: Permission to entbappy/Chicken-Disease-Classification--Project.git denied to  me... kindly help ,me",True
+@user-np6cc7hs5e,2023-09-24T20:01:51Z,0,Thank you very much for this amazing do you have any MLOPS and deployment implementation using LSTM for time series model?.,True
+@razarizwanahmed3139,2023-09-21T16:38:17Z,0,"The prediction process is not working properly. both AWS and Azure.  I have reached out to all team members, but I haven't received any responses.  The deployment process has been completed successfully, and the application is running perfectly. However, the problem lies in the prediction functionality.  Please help me how to solve it...",True
+@shumettefera3258,2023-09-20T05:47:42Z,2,No words to appreciate you and your amazing commitment.Thank you man,True
+@dreamwalker1739,2023-09-08T14:27:50Z,1,"This man's presentation good, Apart from that we are more comfortable with ur way of presentation.And Your way of teaching is very easy to understand for beginners. So please do ur own presentation video. Its so helpful for many beginners.",True
+@user-jc3gs4rx1g,2023-09-08T02:41:39Z,0,Where can i find the dataset . do you have link to access the dataset  ?,True
+@albertmichaelofficial8144,2023-09-07T21:19:08Z,0,what is the data collection method,True
+@mistersinister4241,2023-09-07T17:15:52Z,0,Daam chicken shit classification,True
+@programwithpradhan,2023-09-05T15:12:35Z,0,A video with object detection woluld be nice. Please krish please make a video,True
+@naveenrs7460,2023-09-05T08:42:17Z,0,"return tf.keras.callbacks.ModelCheckpoint(   File ""D:\conda\cnncls\lib\site-packages\keras\src\callbacks.py"", line 1369, in __init__     if filepath and filepath.endswith("".keras"") and options is not None: AttributeError: 'WindowsPath' object has no attribute 'endswith' Does anyone got these error and solved it ?",True
+@Veerbasantreddy111,2023-09-01T04:12:43Z,0,"i got this error:  ModuleNotFoundError                       Traceback (most recent call last) Cell In[3], line 1 ----> 1 from src.cnnClassifier.utils.common import read_yaml,create_directories  ModuleNotFoundError: No module named 'src'     i checked the path name its correct but still getting same error",True
+@ayeshasiddiqua6586,2023-08-25T14:39:44Z,0,"Very good, Amazing",True
+@furry2fun,2023-08-23T11:21:39Z,1,we can use this as a template for classifying other diseases?,True
+@muhammadhussainahmad1455,2023-08-20T21:44:58Z,1,"Faced an error ""Name model is not defined"" in ""evaluation"" function of ""Evaluation"" class. Use ""self.model"" instead of ""model"" to avoid error. The correct implementation is as follows:     def evaluation(self):         self.model = self.load_model(self.config.path_of_model)         self._valid_generator()         self.score = self.model.evaluate(self.valid_generator)  #type: ignore",True
+@user-tk6rp3zm2l,2023-08-20T19:34:44Z,0,Shaadi Mubarakkhoo :D,True
+@muhammadhussainahmad1455,2023-08-20T19:26:30Z,1,"I faced an AttributeError ( 'WindowsPath' object has no attribute 'endswith' ) in ""03_prepare_callbacks.ipynb"" and I solved this issue by converting the path to string before giving it to the ModelCheckpoints in "" _create_ckpt_callbacks "" of ""PrepareCallback"" class. You can also check out the correct implementation as follows:      @property     def _create_ckpt_callbacks(self):         return tf.keras.callbacks.ModelCheckpoint(             filepath=str(self.config.checkpoint_model_filepath),             save_best_only=True         )",True
+@givensichilima1755,2023-08-19T02:11:32Z,0,"please am having this error, 841         msg = (     842             ""Argument {arg} of type {valt} to {f} "" ... ---> 31     with open(path_to_yaml) as yaml_file:      32         content = yaml.safe_load(yaml_file)      33         logger.info(f""yaml file: {path_to_yaml} loaded successfully"")  FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml' Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...",True
+@dhruva.saxena,2023-08-12T07:01:34Z,0,getting error as AttributeError: 'WindowsPath' object has no attribute 'endswith',True
+@faryaltahseen7197,2023-08-07T14:14:20Z,1,"[WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\Chicken-fecal-images'  while running the training file, i am getting this error......",True
+@user-ky7mz9vn9y,2023-08-04T11:31:42Z,0,i am getting 'WindowsPath' object has no attribute 'endswith' in callback file ..please help if anyone encounter this before,True
+@hemantkumardas3333,2023-08-03T11:15:07Z,1,Very Nice Explanation sir... Keep going...,True
+@kushalbanda8580,2023-07-28T05:50:06Z,0,"I am getting this error ""AttributeError: 'PosixPath' object has no attribute 'endswith'"" while create Callbacks, can you please help?",True
+@lug__aman,2023-07-26T17:47:00Z,0,you did not compile the model how you able to train the model it throughs error in my code,True
+@DSlayer007,2023-07-23T06:56:28Z,3,At 2:18:48 attributeError: windowspath object has no attribute endswith  Any solution? Please please please reply,True
+@saibattula3097,2023-07-22T10:49:37Z,0,GitHub repo dataset is not visible It returns This site can't be reached Solve this sir😢,True
+@shuuuuu659fgg,2023-07-21T20:04:07Z,1,AttributeError: 'function' object has no attribute 'info' plz help,True
+@shashankbangera7753,2023-07-21T07:20:39Z,0,i am getting error AttributeError: 'WindowsPath' object has no attribute 'endswith please some one help me,True
+@tavleensingh4770,2023-07-19T10:51:40Z,0,29:02 I am unable to load python and then from pathlib import path. What should I do.,True
+@balajihin,2023-07-17T14:08:31Z,0,"i am getting issue FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml' Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...in 01_data_ingestion.ipynb file running as per your step",True
+@berry3269,2023-07-16T05:50:22Z,1,"Sir i have a doubt in  1:50 th clip in the  prepare_full_model method freeze_all for loop and free_till u were iterate by for layer in model.layer: u assigned ""model. trainable=False"" but we have to put ""layer. trainable=False""",True
+@divyajana22,2023-07-13T13:21:03Z,0,"Hi,  Thanks for the video.  1:47 I am getting the below error. Not sure what's going wrong. Can someone please help.  Also how to set the kernal to chicken?  I highly appreciate any help. Looking forward to anyb help.  'c:\\myprojects\\Chicken-Disease-Classification-Projects\\research' 'c:\\myprojects\\Chicken-Disease-Classification-Projects' --------------------------------------------------------------------------- ModuleNotFoundError                       Traceback (most recent call last) Cell In[6], line 1 ----> 1 from cnnClassifier.constants import *       2 from cnnClassifier.utils.common import read_yaml, create_directories  ModuleNotFoundError: No module named 'cnnClassifier'",True
+@kunalbose6360,2023-07-13T06:36:27Z,1,If we want to add more ML models into what changes required in Project Template and deployment strategies....  Can you extend this End to End Deployment with multiple projects ??,True
+@jayakrishnamanipatruni6924,2023-07-10T12:37:46Z,0,This projects will put on resume getting job for ds fresher ???,True
+@maskedcomedian1363,2023-07-10T06:21:17Z,0,Can someone help me how to get these two data folders downloaded into system. I couldnot find them in Github. If its there can someone share the path,True
+@kotisoujanya4912,2023-07-05T13:11:38Z,0,After dockerfile created is it necessary  run in the terminal to create docker image?,True
+@RaghuveerRaoThoka,2023-07-03T16:36:54Z,0,"Hii, dvc repro is giving me an error that ""No such file or directory "" in stage 01 itself. any leads on it please ?",True
+@supratimsengupta9925,2023-07-03T06:50:30Z,0,every time it says there is no module as cnnClassifier. Anyone knows why complier is throwing this error,True
+@oscarllerena2980,2023-07-01T19:19:34Z,1,"I, again thanks for the tutorial. I managed to get up to here, but @ 3:30:00, after accessing the public IP with 8080 port, and training (adding a ""/train"" and hitting enter), when I tried to classify an image, it outputs a ""processing icon"" (like it is thinking). At first, I though that is was doing the training or other processes before but after several, several minutes, it does not classify the input image and I do not know how to verify what the machine is doing? Any suggestions, please?",True
+@Shubh510,2023-07-01T18:57:08Z,0,@krishnaik06 please upload some end to end project in Krish Naik Hindi channel. Please 🙏,True
+@anindyasen8414,2023-06-29T08:46:45Z,1,"It's an amazing tutorial! But I am facing some difficulty running ""dvc repro"" at 2:47:06  It is showing error:  failed to reproduce 'data_ingestion': [Errno 2] No such file or directory: 'D:\\ML-project\\Chicken-Disease-Classification-project\\Chicken_Disease\\Chicken-Disease-Classification1\\.dvc\\cache\\runs\\81\\8154f6936d4874f66200d6527aa5e57ce9c736dbab993159759d70c4e0435d77\\35136f33f6d62f9e9157f911fc8b32c0a8b705f69e52a19f8c2c8e807c6a7ae1.CxaV3GhphiQQo8CREYxSLj'  But it was running perfectly through main.py  Can anyone please help me out here?",True
+@satyamraj7502,2023-06-26T15:38:44Z,3,"Sir, Can you provide the link for the dataset ? I think many of us are having issues in finding the dataset.",True
+@anythingilike237,2023-06-25T15:39:44Z,0,"My 2:07:02 is not working and throwing error ""AttributeError: 'PosixPath' object has no attribute 'endswith'"" if anyone has done it. Then tell me how to fix it",True
+@paddyai,2023-06-25T13:23:52Z,0,"Hey krish, loved the content!! Is This the level-1 mlops architecture or level-0?",True
+@oscarllerena2980,2023-06-22T19:34:54Z,0,"Hi, at 01:15:00, github does not allow me to upload files bigger than 25MB. Any suggestions to work around this limitation? I saw that your dataset consists only of images of ""Coccidiosis"" and ""Healthy"" labels. Not even selecting those pictures from the whole dataset (found at Kaggle) I was able to reduce the size. Thanks in advance for any suggestion.",True
+@oscarllerena2980,2023-06-22T04:56:23Z,2,"hi Krish. Thanks for the video, it is really helpful. My questions is, at 49:12, is there a special reason to use python 3.8 on the virtual environment or can it be the latest python version?",True
+@saib7231,2023-06-21T17:20:41Z,2,Whatt a video bro only live project video i have seen in my life that made me awefull great video bro it covers all the concepts and make the students strong in fundamental concepts and for newbies it takes atleast 5-10 days to just understand and execute it taies 1 month bro.,True
+@yotte8846,2023-06-19T11:12:45Z,0,"i am getting error even with chicken  ModuleNotFoundError: No module named 'box'",True
+@deepakgoyal1643,2023-06-17T18:11:10Z,0,What is the prerequisites to see this vedio,True
+@tavishi3884,2023-06-15T09:28:07Z,0,"Hello sir , please provide the dataset link",True
+@eeshasr,2023-06-13T21:10:19Z,0,"hello , i find my self with an error at 50: 28, i am not able to install the requirements.txt, can you please give some related infromations",True
+@venkatasurya7162,2023-06-12T17:23:56Z,0,Your great sir,True
+@saktis8627,2023-06-09T09:37:06Z,0,"Hi Krish and Bappy, I tried predicting this, but for healthy images also it is predicting Coccidiosis only. I tried increasing the number of epochs also. But nothing works. How to predict healthy images it correctly?",True
+@hassanjaved906,2023-06-07T19:13:21Z,1,"Hi Krish, I am on the half way of project can you guide me where I can download the dataset for that. Thanks, waiting for your response to continue this. I downloaded this dataset from the kaggle but it has all images in one train folder.can you give me link of the repo to download this exact dataset",True
+@user-yz9uw3pd5t,2023-06-06T23:04:31Z,0,okay,True
+@mahikhan5716,2023-06-06T21:36:03Z,0,"Could anyone say that if I use his format in new project without understanding code like logging, templates, configuration and so on will it be okay cz format will be same for any project ?",True
+@krrsh,2023-06-06T03:57:41Z,0,"Hi all, I work for a bank. How can I convert it as to suit any banking project. Any ideas....",True
+@browingodfrey5524,2023-06-05T19:07:46Z,0,Thank you sir for the amazing efforts. Can you please help us by creating a project with respect to Cybersecurity,True
+@mohammedashfaqkhan405,2023-06-05T18:25:27Z,0,krish sir.. if i follow your project line to line of code. will it work ? at the end will i able to do the same   ?,True
+@RahulPrajapati-jg4dg,2023-06-05T16:59:19Z,0,Hi Krish  sir next project can you made on how to create own prompt using langchain and OpenAI,True
+@darpan810,2023-06-05T04:07:58Z,0,Excellent video ❤,True
+@darpan810,2023-06-05T04:06:39Z,0,If it's in 4 hours why is the company taking 1 year for such a project?,True
+@MuhammedSavadkv,2023-06-05T04:01:52Z,0,Thank you Krish,True
+@subhamsaha1341,2023-06-04T19:06:42Z,2,"THE TEACHING IS AWESOME, learnt alot ... but, a game if are you are bored, drink when he says ""Okay"".",True
+@JoEl-jx7dm,2023-06-04T16:46:32Z,0,dude you're making it so complicated.!!!!!!!!!!😒,True
+@ojasvisingh786,2023-06-04T11:49:21Z,0,🎉👏👏,True
+@ahmadmponda3294,2023-06-04T10:58:00Z,1,you are the best with the  best content best implementation  and explanation,True
+@mohsinkhan-bw3cd,2023-06-04T08:05:00Z,0,From now on in all upcoming videos babby only be the mentor?,True
+@ErickCalderin,2023-06-04T04:11:32Z,0,"After following these steps it did not work to me, furthermore I had to try to install the nvidia drivers (I could not achieve it) because torch was still working on CPU.",True
+@adhanalakshmiaathiappan8255,2023-06-04T03:42:09Z,0,What about ML 2023..,True
+@hassanjaved906,2023-06-03T21:37:01Z,0,its been amazing for me to help out to land at first job Thanks,True
+@nagibgonzalez5645,2023-06-03T21:17:53Z,0,great job,True
+@musictherapy654,2023-06-03T21:07:02Z,1,i am not able to download data from your repo..kindly provide google drive link or make it public,True
+@user-wr4yl7tx3w,2023-06-03T20:09:16Z,1,can such a set up scale as well?,True
+@pythonforfree7297,2023-06-03T18:12:12Z,1,Okay>>100000,True
+@kashif_jilani,2023-06-03T17:11:40Z,1,Missing Sunny tutorials,True
+@ravikumar46931,2023-06-03T16:35:27Z,0,"Great work, thank you for uploading such type of projects.",True
+@RRglobal,2023-06-03T15:01:32Z,0,keep it up for other weeks too !!!!😀,True
+@shwetabhat9981,2023-06-03T14:13:27Z,8,You are beyond amazing sir . Thank you for all the efforts .,True
+@mohsinkh8004,2023-06-03T11:49:03Z,2,krish his explanation is different  i got used to understand ur explanation kindly will u resume,True
+@jillanisofttech2977,2023-06-03T11:22:49Z,1,Sir Can you also make a vedio howlow code applications build like ML Predictive analytics? can you make a Full Vedio end to end project based plz.,True
+@Ashin3,2023-06-03T11:07:11Z,0,Amazing🎉,True
+@priyamprasad624,2023-06-03T09:55:36Z,1,Krish you are learning a new accent or what? It's not your typical accent.,True
+@madhanbala9679,2023-06-03T09:43:28Z,11,"Hi Krish, that's an amazing tutorial. But if possible can you please do the same things with Pytorch? Please",True
+@sheiphanshaijan1249,2023-06-03T09:15:53Z,35,"General suggestion, dont watch it while eating. 😂",True
+@mihirpatel3414,2023-06-03T09:10:04Z,1,sir please next time use different deploy techniques like aws sagemaker and aws CodePipeline or  aws lambda. we have already seen this deployment 3 or 4 times.,True
+@mohsinkhan-bw3cd,2023-06-03T08:04:16Z,0,Krish i get used to ur explanation kindly will u resume from  next week,True
+@mrityunjayupadhyay7332,2023-06-03T05:35:19Z,0,Great,True
+@sreekartammana,2023-06-03T04:58:04Z,0,Can we make this in colab?,True
+@mohsinkhan-bw3cd,2023-06-03T04:16:56Z,3,Sir krish ur explanation is more understandable and  kindly will u explain projects in upcoming videos but bappy is good too  In future it will be better pls explain with diff dl project,True
+@redroom07,2023-06-03T03:59:50Z,0,"But If you terminate aws window, your link will not work, have you observe that??",True
+@roboticsridoy,2023-06-03T03:53:04Z,0,❤❤,True
